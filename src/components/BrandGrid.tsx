@@ -1,8 +1,12 @@
 "use client";
 
 import { useMemo, useState } from "react";
+import dynamic from "next/dynamic";
 import { Brand, logoUrl } from "@/lib/brands";
 import BrandModal from "./BrandModal";
+
+const AdSlot = dynamic(() => import("./AdSlot"), { ssr: false });
+const AD_INTERVAL = 12; // 12번째 카드마다 광고 삽입
 
 const CDN = process.env.NEXT_PUBLIC_CDN_URL || "https://logo.vibers.co.kr/_clients";
 const VERSION = "1785636800";
@@ -82,15 +86,29 @@ export default function BrandGrid({ brands, query, category }: Props) {
         {filtered.length.toLocaleString()}개 브랜드
       </p>
 
-      {/* Grid */}
+      {/* Grid with ads every AD_INTERVAL cards */}
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3">
         {filtered.map((brand, i) => (
-          <BrandCard
-            key={brand.id}
-            brand={brand}
-            onClick={() => setSelected(brand)}
-            priority={i < 12}
-          />
+          <>
+            <BrandCard
+              key={brand.id}
+              brand={brand}
+              onClick={() => setSelected(brand)}
+              priority={i < 12}
+            />
+            {(i + 1) % AD_INTERVAL === 0 && (
+              <div
+                key={`ad-${i}`}
+                className="col-span-2 sm:col-span-3 md:col-span-4 lg:col-span-5 xl:col-span-6"
+              >
+                <AdSlot
+                  slot="2847591036"
+                  format="horizontal"
+                  style={{ minHeight: "90px" }}
+                />
+              </div>
+            )}
+          </>
         ))}
       </div>
 
