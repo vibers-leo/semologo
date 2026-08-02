@@ -38,7 +38,7 @@ body {
 .card-preview {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  height: 120px;
+  height: 160px;
 }
 
 .preview-light {
@@ -46,7 +46,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 16px;
+  padding: 12px;
   position: relative;
   border-right: 1px solid #f0f0f0;
 }
@@ -56,14 +56,14 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 16px;
+  padding: 12px;
   position: relative;
 }
 
 .preview-light img,
 .preview-dark img {
-  max-width: 90%;
-  max-height: 80px;
+  max-width: 95%;
+  max-height: 110px;
   object-fit: contain;
 }
 
