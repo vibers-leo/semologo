@@ -21,7 +21,9 @@ export async function fetchBrands(): Promise<Brand[]> {
   });
   if (!res.ok) return [];
   const data = await res.json();
-  return Array.isArray(data) ? data : [];
+  if (Array.isArray(data)) return data;
+  if (data && Array.isArray(data.brands)) return data.brands;
+  return [];
 }
 
 export function logoUrl(brand: Brand, file: string): string {
