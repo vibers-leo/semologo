@@ -23,60 +23,38 @@ body {
 
 .logo-card {
   border: 1px solid var(--border);
-  border-radius: 12px;
+  border-radius: 14px;
   overflow: hidden;
   cursor: pointer;
   background: #fff;
-  transition: border-color 0.15s, transform 0.15s;
+  transition: border-color 0.15s, box-shadow 0.15s, transform 0.15s;
 }
 
 .logo-card:hover {
   border-color: #111;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
   transform: translateY(-2px);
 }
 
 .card-preview {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  height: 160px;
-}
-
-.preview-light {
-  background: #ffffff;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 12px;
-  position: relative;
-  border-right: 1px solid #f0f0f0;
+  height: 180px;
+  background: #fafafa;
+  padding: 20px;
 }
 
-.preview-dark {
-  background: #111114;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 12px;
-  position: relative;
-}
-
-.preview-light img,
-.preview-dark img {
-  max-width: 95%;
-  max-height: 110px;
+.card-preview img {
+  max-width: 88%;
+  max-height: 130px;
   object-fit: contain;
+  transition: transform 0.2s;
 }
 
-.preview-label {
-  font-size: 9px;
-  position: absolute;
-  bottom: 5px;
-  left: 7px;
-  letter-spacing: 0.3px;
+.logo-card:hover .card-preview img {
+  transform: scale(1.04);
 }
-
-.preview-light .preview-label { color: rgba(0,0,0,0.2); }
-.preview-dark .preview-label  { color: rgba(255,255,255,0.2); }
 
 .card-info {
   padding: 10px 12px;

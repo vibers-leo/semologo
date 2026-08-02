@@ -157,35 +157,18 @@ function BrandCard({
 }) {
   const svgUrl = `${CDN}/${brand.id}/logo.svg?v=${VERSION}`;
   const pngUrl = `${CDN}/${brand.id}/logo.png?v=${VERSION}`;
-  const darkUrl = `${CDN}/${brand.id}/logo-transparent.png?v=${VERSION}`;
   const lightSrc = brand.logo_svg ? svgUrl : pngUrl;
 
   return (
     <div className="logo-card" onClick={onClick}>
       <div className="card-preview">
-        <div className="preview-light">
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img
-            src={lightSrc}
-            alt={brand.name_ko}
-            loading={priority ? "eager" : "lazy"}
-            onError={(e) => { e.currentTarget.src = pngUrl; }}
-          />
-          <span className="preview-label">라이트</span>
-        </div>
-        <div className="preview-dark">
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img
-            src={darkUrl}
-            alt={brand.name_ko}
-            loading={priority ? "eager" : "lazy"}
-            onError={(e) => {
-              const t = e.currentTarget;
-              t.src = brand.logo_svg ? svgUrl : pngUrl;
-            }}
-          />
-          <span className="preview-label">다크</span>
-        </div>
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img
+          src={lightSrc}
+          alt={brand.name_ko}
+          loading={priority ? "eager" : "lazy"}
+          onError={(e) => { e.currentTarget.src = pngUrl; }}
+        />
       </div>
       <div className="card-info">
         <div style={{ minWidth: 0 }}>
