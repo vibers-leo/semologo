@@ -12,19 +12,16 @@ export interface Brand {
   original_ai_url?: string;
 }
 
-const CDN = process.env.NEXT_PUBLIC_CDN_URL || "https://logo.vibers.co.kr/_clients";
-
-let cachedBrands: Brand[] | null = null;
-let cacheTime = 0;
+const CDN =
+  process.env.NEXT_PUBLIC_CDN_URL || "https://logo.vibers.co.kr/_clients";
 
 export async function fetchBrands(): Promise<Brand[]> {
-  if (cachedBrands && Date.now() - cacheTime < 3600_000) return cachedBrands;
-  const res = await fetch(`${CDN}/brands.json`, { next: { revalidate: 3600 } });
-  if (!res.ok) throw new Error("brands.json fetch failed");
+  const res = await fetch(`${CDN}/brands.json`, {
+    next: { revalidate: 3600 },
+  });
+  if (!res.ok) return [];
   const data = await res.json();
-  cachedBrands = data;
-  cacheTime = Date.now();
-  return data;
+  return Array.isArray(data) ? data : [];
 }
 
 export function logoUrl(brand: Brand, file: string): string {
