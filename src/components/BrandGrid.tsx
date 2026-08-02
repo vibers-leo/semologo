@@ -87,7 +87,7 @@ export default function BrandGrid({ brands, query, category }: Props) {
       </p>
 
       {/* Grid with ads every AD_INTERVAL cards */}
-      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3">
+      <div className="grid gap-4" style={{ gridTemplateColumns: "repeat(auto-fill, minmax(200px, 1fr))" }}>
         {filtered.map((brand, i) => (
           <>
             <BrandCard
@@ -99,7 +99,7 @@ export default function BrandGrid({ brands, query, category }: Props) {
             {(i + 1) % AD_INTERVAL === 0 && (
               <div
                 key={`ad-${i}`}
-                className="col-span-2 sm:col-span-3 md:col-span-4 lg:col-span-5 xl:col-span-6"
+                style={{ gridColumn: "1 / -1" }}
               >
                 <AdSlot
                   slot="2847591036"
@@ -136,32 +136,52 @@ function BrandCard({
   onClick: () => void;
   priority: boolean;
 }) {
-  const imgSrc = brand.logo_svg
-    ? `${CDN}/${brand.id}/logo.svg?v=${VERSION}`
-    : `${CDN}/${brand.id}/logo.png?v=${VERSION}`;
+  const svgUrl = `${CDN}/${brand.id}/logo.svg?v=${VERSION}`;
+  const pngUrl = `${CDN}/${brand.id}/logo.png?v=${VERSION}`;
+  const darkUrl = `${CDN}/${brand.id}/logo-transparent.png?v=${VERSION}`;
+  const lightSrc = brand.logo_svg ? svgUrl : pngUrl;
 
   return (
     <div className="logo-card" onClick={onClick}>
-      <div className="logo-img-wrap">
-        {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img
-          src={imgSrc}
-          alt={brand.name_ko}
-          loading={priority ? "eager" : "lazy"}
-          style={{ maxWidth: "100%", maxHeight: "100px", objectFit: "contain" }}
-          onError={(e) => {
-            const t = e.currentTarget;
-            if (!t.src.includes("logo.png")) {
-              t.src = `${CDN}/${brand.id}/logo.png?v=${VERSION}`;
-            }
-          }}
-        />
+      <div className="card-preview">
+        <div className="preview-light">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src={lightSrc}
+            alt={brand.name_ko}
+            loading={priority ? "eager" : "lazy"}
+            onError={(e) => { e.currentTarget.src = pngUrl; }}
+          />
+          <span className="preview-label">라이트</span>
+        </div>
+        <div className="preview-dark">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src={darkUrl}
+            alt={brand.name_ko}
+            loading={priority ? "eager" : "lazy"}
+            onError={(e) => {
+              const t = e.currentTarget;
+              t.src = brand.logo_svg ? svgUrl : pngUrl;
+            }}
+          />
+          <span className="preview-label">다크</span>
+        </div>
       </div>
-      <div className="px-3 py-2 border-t" style={{ borderColor: "var(--border)" }}>
-        <p className="text-sm font-medium truncate">{brand.name_ko}</p>
-        <p className="text-xs mt-0.5 truncate" style={{ color: "var(--text-secondary)" }}>
-          {brand.category}
-        </p>
+      <div className="card-info">
+        <div style={{ minWidth: 0 }}>
+          <div className="card-name truncate">
+            {brand.name_ko}
+            {brand.name_en && brand.name_en !== brand.name_ko && (
+              <span className="card-name-en"> / {brand.name_en}</span>
+            )}
+          </div>
+          <div className="card-category">{brand.category}</div>
+        </div>
+        <div className="card-tags">
+          {brand.logo_svg && <span className="card-tag tag-svg">SVG</span>}
+          {brand.logo_png && <span className="card-tag tag-png">PNG</span>}
+        </div>
       </div>
     </div>
   );
