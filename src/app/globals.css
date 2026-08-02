@@ -1,0 +1,35 @@
+@import "tailwindcss";
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
+
+:root {
+  --bg: #ffffff;
+  --surface: #f7f7f7;
+  --border: #e5e5e5;
+  --border-hover: #111111;
+  --text: #111111;
+  --text-secondary: #888888;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Pretendard", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  -webkit-font-smoothing: antialiased;
+}
+
+.logo-card {
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  transition: border-color 0.15s, box-shadow 0.15s;
+  cursor: pointer;
+  background: #fff;
+}
+
+.logo-card:hover {
+  border-color: var(--border-hover);
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+}
