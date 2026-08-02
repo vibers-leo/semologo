@@ -1,9 +1,7 @@
-import dynamic from "next/dynamic";
 import { fetchBrands } from "@/lib/brands";
 import Header from "@/components/Header";
 import BrandGrid from "@/components/BrandGrid";
-
-const AdSlot = dynamic(() => import("@/components/AdSlot"), { ssr: false });
+import AdSlot from "@/components/AdSlot";
 
 export const revalidate = 3600;
 

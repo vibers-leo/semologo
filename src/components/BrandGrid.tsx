@@ -2,7 +2,7 @@
 
 import { useMemo, useState } from "react";
 import dynamic from "next/dynamic";
-import { Brand, logoUrl } from "@/lib/brands";
+import { Brand } from "@/lib/brands";
 import BrandModal from "./BrandModal";
 
 const AdSlot = dynamic(() => import("./AdSlot"), { ssr: false });
