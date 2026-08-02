@@ -27,15 +27,13 @@ const CATEGORIES = [
 
 interface Props {
   brands: Brand[];
-  query?: string;
-  category?: string;
 }
 
 const PAGE_SIZE = 60;
 
-export default function BrandGrid({ brands, query, category }: Props) {
-  const [search, setSearch] = useState(query ?? "");
-  const [cat, setCat] = useState(category ?? "전체");
+export default function BrandGrid({ brands }: Props) {
+  const [search, setSearch] = useState("");
+  const [cat, setCat] = useState("전체");
   const [selected, setSelected] = useState<Brand | null>(null);
   const [page, setPage] = useState(1);
   const sentinelRef = useRef<HTMLDivElement>(null);
