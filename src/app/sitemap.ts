@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next";
 import { fetchBrands } from "@/lib/brands";
 
-export const revalidate = 86400;
+export const dynamic = "force-static";
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const base = process.env.NEXT_PUBLIC_APP_URL || "https://semo.vibers.co.kr";
