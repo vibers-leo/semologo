@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useMemo, useState, useEffect, useRef } from "react";
 import dynamic from "next/dynamic";
 import { Brand } from "@/lib/brands";
 import BrandModal from "./BrandModal";
@@ -31,12 +31,17 @@ interface Props {
   category?: string;
 }
 
+const PAGE_SIZE = 60;
+
 export default function BrandGrid({ brands, query, category }: Props) {
   const [search, setSearch] = useState(query ?? "");
   const [cat, setCat] = useState(category ?? "전체");
   const [selected, setSelected] = useState<Brand | null>(null);
+  const [page, setPage] = useState(1);
+  const sentinelRef = useRef<HTMLDivElement>(null);
 
   const filtered = useMemo(() => {
+    setPage(1);
     let list = [...brands].sort((a, b) => {
       const da = a.added_at ?? "";
       const db = b.added_at ?? "";
@@ -56,6 +61,19 @@ export default function BrandGrid({ brands, query, category }: Props) {
     }
     return list;
   }, [brands, search, cat]);
+
+  const visible = filtered.slice(0, page * PAGE_SIZE);
+  const hasMore = visible.length < filtered.length;
+
+  useEffect(() => {
+    if (!sentinelRef.current || !hasMore) return;
+    const obs = new IntersectionObserver(
+      (entries) => { if (entries[0].isIntersecting) setPage((p) => p + 1); },
+      { rootMargin: "400px" }
+    );
+    obs.observe(sentinelRef.current);
+    return () => obs.disconnect();
+  }, [hasMore, visible.length]);
 
   return (
     <>
@@ -88,7 +106,7 @@ export default function BrandGrid({ brands, query, category }: Props) {
 
       {/* Grid with ads every AD_INTERVAL cards */}
       <div className="grid gap-4" style={{ gridTemplateColumns: "repeat(auto-fill, minmax(200px, 1fr))" }}>
-        {filtered.map((brand, i) => (
+        {visible.map((brand, i) => (
           <>
             <BrandCard
               key={brand.id}
@@ -111,6 +129,9 @@ export default function BrandGrid({ brands, query, category }: Props) {
           </>
         ))}
       </div>
+
+      {/* Infinite scroll sentinel */}
+      {hasMore && <div ref={sentinelRef} style={{ gridColumn: "1 / -1", height: 1 }} />}
 
       {filtered.length === 0 && (
         <div className="text-center py-24" style={{ color: "var(--text-secondary)" }}>
