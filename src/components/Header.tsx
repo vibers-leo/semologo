@@ -115,8 +115,8 @@ export default function Header() {
         <Suspense>
           <SearchBar />
         </Suspense>
-        <nav className="flex items-center gap-3 shrink-0 ml-auto">
-          <Link href="/submit" className="text-sm px-3 py-1.5 rounded-lg transition-colors" style={{ color: "var(--text-secondary)" }}>
+        <nav className="flex items-center gap-2 shrink-0 ml-auto">
+          <Link href="/submit" className="hidden sm:block text-sm px-3 py-1.5 rounded-lg transition-colors" style={{ color: "var(--text-secondary)" }}>
             로고 제보
           </Link>
           {!loading && (

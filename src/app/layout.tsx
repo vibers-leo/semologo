@@ -12,6 +12,10 @@ export const metadata: Metadata = {
     "naver-site-verification": "f8377ea94a22905671d864f6c08c3e9ea3a1d368",
     "google-adsense-account": ADSENSE_ID,
   },
+  icons: {
+    icon: "/favicon.ico",
+    apple: "/apple-touch-icon.png",
+  },
   openGraph: {
     title: "세모로고",
     description: "브랜드 로고를 SVG·PNG로 무료 다운로드",
