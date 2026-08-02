@@ -2,14 +2,17 @@
 
 import Image from "next/image";
 import { signInWithPopup } from "firebase/auth";
-import { auth, googleProvider } from "@/lib/firebase";
+import { getClientAuth, googleProvider } from "@/lib/firebase";
 import { useRouter } from "next/navigation";
+
+export const dynamic = "force-dynamic";
 
 export default function LoginPage() {
   const router = useRouter();
 
   const handleGoogle = async () => {
     try {
+      const auth = getClientAuth();
       await signInWithPopup(auth, googleProvider);
       router.push("/");
     } catch (e) {
