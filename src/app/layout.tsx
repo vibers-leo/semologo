@@ -7,6 +7,12 @@ const ADSENSE_ID = process.env.NEXT_PUBLIC_ADSENSE_ID || "ca-pub-770455077101113
 export const metadata: Metadata = {
   title: "세모로고 — 세상 모든 로고",
   description: "브랜드 로고를 SVG·PNG로 무료 다운로드. 세상 모든 로고, 세모로고.",
+  verification: {
+    other: {
+      "naver-site-verification": "f8377ea94a22905671d864f6c08c3e9ea3a1d368",
+      "google-adsense-account": ADSENSE_ID,
+    },
+  },
   openGraph: {
     title: "세모로고",
     description: "브랜드 로고를 SVG·PNG로 무료 다운로드",
