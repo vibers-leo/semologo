@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState, useCallback } from "react";
+import { useEffect } from "react";
 import { Brand } from "@/lib/brands";
 
 const CDN = process.env.NEXT_PUBLIC_CDN_URL || "https://logo.vibers.co.kr/_clients";
@@ -19,9 +19,6 @@ interface DownloadItem {
 }
 
 export default function BrandModal({ brand, onClose }: Props) {
-  const [coupangUrl, setCoupangUrl] = useState<string | null>(null);
-  const [coupangLoading, setCoupangLoading] = useState(false);
-
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => e.key === "Escape" && onClose();
     document.addEventListener("keydown", onKey);
@@ -31,22 +28,6 @@ export default function BrandModal({ brand, onClose }: Props) {
       document.body.style.overflow = "";
     };
   }, [onClose]);
-
-  const handleCoupang = useCallback(async () => {
-    if (coupangUrl) { window.open(coupangUrl, "_blank"); return; }
-    setCoupangLoading(true);
-    try {
-      const res = await fetch(`/api/coupang?q=${encodeURIComponent(brand.name_ko)}`);
-      const data = await res.json();
-      const url = data.url || `https://www.coupang.com/np/search?q=${encodeURIComponent(brand.name_ko)}`;
-      setCoupangUrl(url);
-      window.open(url, "_blank");
-    } catch {
-      window.open(`https://www.coupang.com/np/search?q=${encodeURIComponent(brand.name_ko)}`, "_blank");
-    } finally {
-      setCoupangLoading(false);
-    }
-  }, [brand.name_ko, coupangUrl]);
 
   const items: DownloadItem[] = [
     { file: "logo.svg", label: "SVG 벡터 (한글)", desc: "확대해도 깨짐 없음", show: !!brand.logo_svg },
@@ -99,31 +80,6 @@ export default function BrandModal({ brand, onClose }: Props) {
             alt={brand.name_ko}
             style={{ maxWidth: "280px", maxHeight: "140px", objectFit: "contain" }}
           />
-        </div>
-
-        {/* Coupang CTA */}
-        <div className="px-5 pt-4">
-          <button
-            onClick={handleCoupang}
-            disabled={coupangLoading}
-            className="w-full flex items-center justify-center gap-2 py-3 px-4 rounded-xl font-medium text-sm transition-colors"
-            style={{ background: "#c0392b", color: "#fff" }}
-          >
-            {coupangLoading ? (
-              <span>불러오는 중...</span>
-            ) : (
-              <>
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                  <circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/>
-                  <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/>
-                </svg>
-                쿠팡에서 {brand.name_ko} 상품 보기
-              </>
-            )}
-          </button>
-          <p className="text-xs text-center mt-1.5" style={{ color: "var(--text-secondary)" }}>
-            이 링크는 쿠팡파트너스 제휴 링크입니다
-          </p>
         </div>
 
         {/* Download list */}

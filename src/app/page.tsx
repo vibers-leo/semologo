@@ -3,8 +3,6 @@ import Header from "@/components/Header";
 import BrandGrid from "@/components/BrandGrid";
 import AdSlot from "@/components/AdSlot";
 
-export const revalidate = 3600;
-
 export default async function Home({
   searchParams,
 }: {
