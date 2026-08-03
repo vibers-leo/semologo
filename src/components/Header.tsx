@@ -67,14 +67,14 @@ export default function Header() {
       className="sticky top-0 z-50 border-b"
       style={{ background: "rgba(255,255,255,0.97)", backdropFilter: "blur(8px)", borderColor: "var(--border)" }}
     >
-      <div className="max-w-[1280px] mx-auto px-4 h-16 flex items-center justify-between">
+      <div className="max-w-[1280px] mx-auto px-4 h-20 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-2 shrink-0">
           <Image
             src="/semologo.png"
             alt="세모로고"
-            width={200}
-            height={56}
-            className="h-12 w-auto object-contain"
+            width={280}
+            height={80}
+            className="h-16 w-auto object-contain"
             priority
           />
         </Link>
