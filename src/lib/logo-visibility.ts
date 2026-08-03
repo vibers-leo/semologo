@@ -187,17 +187,13 @@ export function clearVisibilityCache(brandId?: string) {
 /** 다크 미리보기 배경 스타일 반환 */
 export function getDarkPreviewStyle(result: VisibilityResult | null): React.CSSProperties {
   if (!result || result.darkMode === "unknown") {
-    // 체커 패턴 (판별 불가)
     return {
+      backgroundColor: "#f8f8f8",
       backgroundImage: `
-        linear-gradient(45deg,#ccc 25%,transparent 25%),
-        linear-gradient(-45deg,#ccc 25%,transparent 25%),
-        linear-gradient(45deg,transparent 75%,#ccc 75%),
-        linear-gradient(-45deg,transparent 75%,#ccc 75%)
+        linear-gradient(rgba(0,0,0,0.055) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(0,0,0,0.055) 1px, transparent 1px)
       `,
       backgroundSize: "12px 12px",
-      backgroundPosition: "0 0, 0 6px, 6px -6px, -6px 0",
-      backgroundColor: "#fff",
     };
   }
   if (result.darkMode === "white-only") return { background: "#ffffff" };

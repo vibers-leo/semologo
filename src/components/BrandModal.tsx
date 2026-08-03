@@ -26,15 +26,12 @@ interface Props {
 }
 
 const CHECKER: React.CSSProperties = {
+  backgroundColor: "#f8f8f8",
   backgroundImage: `
-    linear-gradient(45deg,#ccc 25%,transparent 25%),
-    linear-gradient(-45deg,#ccc 25%,transparent 25%),
-    linear-gradient(45deg,transparent 75%,#ccc 75%),
-    linear-gradient(-45deg,transparent 75%,#ccc 75%)
+    linear-gradient(rgba(0,0,0,0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0,0,0,0.06) 1px, transparent 1px)
   `,
   backgroundSize: "12px 12px",
-  backgroundPosition: "0 0, 0 6px, 6px -6px, -6px 0",
-  backgroundColor: "#fff",
 };
 
 const VARIANTS = [
@@ -249,7 +246,7 @@ export default function BrandModal({ brand, onClose, allBrands = [], onSelectBra
   }, [brand.id, brand.name_ko, reportMemo, reportUrl]);
 
   const bgStyle = (bg: string): React.CSSProperties =>
-    bg === "checker" ? CHECKER : bg === "dark" ? { background: "#111114" } : { background: "#ffffff" };
+    bg === "checker" ? CHECKER : bg === "dark" ? { background: "#111114" } : { background: "#ffffff", border: "none" };
 
   return (
     <div

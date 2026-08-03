@@ -41,7 +41,11 @@ body {
   align-items: center;
   justify-content: center;
   height: 180px;
-  background: #fafafa;
+  background-color: #f8f8f8;
+  background-image:
+    linear-gradient(rgba(0,0,0,0.055) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0,0,0,0.055) 1px, transparent 1px);
+  background-size: 12px 12px;
   padding: 20px;
 }
 
