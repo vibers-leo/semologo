@@ -75,6 +75,30 @@ export default function BrandGrid({ brands }: Props) {
 
   return (
     <>
+      {/* Search bar — 본문 상단 가운데 */}
+      <div className="flex justify-center pt-6 pb-2">
+        <div className="relative w-full max-w-[600px]">
+          <svg
+            className="absolute left-4 top-1/2 -translate-y-1/2 text-gray-400"
+            width="18" height="18" viewBox="0 0 24 24"
+            fill="none" stroke="currentColor" strokeWidth="2"
+          >
+            <circle cx="11" cy="11" r="8" />
+            <path d="m21 21-4.35-4.35" />
+          </svg>
+          <input
+            type="text"
+            value={search}
+            onChange={(e) => setSearch(e.target.value)}
+            placeholder="브랜드 검색..."
+            className="w-full pl-11 pr-4 py-3 text-base rounded-full border outline-none transition-colors"
+            style={{ border: "1px solid var(--border)", background: "var(--surface)" }}
+            onFocus={(e) => (e.currentTarget.style.borderColor = "var(--border-hover)")}
+            onBlur={(e) => (e.currentTarget.style.borderColor = "var(--border)")}
+          />
+        </div>
+      </div>
+
       {/* Category tabs */}
       <div className="flex gap-2 overflow-x-auto py-4 scrollbar-none">
         {CATEGORIES.map((c) => (
