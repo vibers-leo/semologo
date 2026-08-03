@@ -164,7 +164,12 @@ export default function BrandGrid({ brands }: Props) {
       )}
 
       {selected && (
-        <BrandModal brand={selected} onClose={() => setSelected(null)} />
+        <BrandModal
+          brand={selected}
+          onClose={() => setSelected(null)}
+          allBrands={brands}
+          onSelectBrand={setSelected}
+        />
       )}
     </>
   );

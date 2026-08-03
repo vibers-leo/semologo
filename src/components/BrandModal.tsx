@@ -2,6 +2,7 @@
 
 import { useEffect, useState, useCallback } from "react";
 import { Brand } from "@/lib/brands";
+import { BRAND_RELATIONS, RELATION_LABEL, RELATION_COLOR } from "@/lib/brand-relations";
 import { getClientDb } from "@/lib/firebase";
 import {
   doc, getDoc, setDoc, updateDoc, increment,
@@ -13,6 +14,8 @@ const VERSION = "1785636800";
 interface Props {
   brand: Brand;
   onClose: () => void;
+  allBrands?: Brand[];
+  onSelectBrand?: (brand: Brand) => void;
 }
 
 const CHECKER: React.CSSProperties = {
@@ -63,7 +66,7 @@ function toast(msg: string) {
   setTimeout(() => el.remove(), 2200);
 }
 
-export default function BrandModal({ brand, onClose }: Props) {
+export default function BrandModal({ brand, onClose, allBrands = [], onSelectBrand }: Props) {
   const [votes, setVotes] = useState<Record<string, number>>({});
   const [shareFeed, setShareFeed] = useState<ShareEntry[]>([]);
   const [reportOpen, setReportOpen] = useState(false);
@@ -78,6 +81,11 @@ export default function BrandModal({ brand, onClose }: Props) {
   const darkUrl = cdnUrl("logo-transparent.png");
   const mainUrl = brand.logo_svg ? svgUrl : pngUrl;
   const pageUrl = typeof window !== "undefined" ? `${window.location.origin}/#${brand.id}` : "";
+
+  const relations = (BRAND_RELATIONS[brand.id] || []).flatMap(rel => {
+    const related = allBrands.find(b => b.id === rel.relatedId);
+    return related ? [{ ...rel, brand: related }] : [];
+  });
 
   const variants = VARIANTS.filter(v => {
     if (v.svgOnly && !brand.logo_svg) return false;
@@ -211,6 +219,34 @@ export default function BrandModal({ brand, onClose }: Props) {
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"><path d="M18 6 6 18M6 6l12 12"/></svg>
           </button>
         </div>
+
+        {/* ── 연관기업 바 ── */}
+        {relations.length > 0 && (
+          <div style={{ display:"flex", alignItems:"center", gap:8, padding:"8px 20px", borderBottom:"1px solid #e4e4e7", background:"#fafafa", flexShrink:0, flexWrap:"wrap" }}>
+            <span style={{ fontSize:10, fontWeight:700, color:"#a1a1aa", letterSpacing:".06em", textTransform:"uppercase", flexShrink:0 }}>연관기업</span>
+            {relations.map(rel => {
+              const clr = RELATION_COLOR[rel.type];
+              const relLogoUrl = `${CDN}/${rel.brand.id}/logo.png?v=${VERSION}`;
+              return (
+                <button
+                  key={rel.brand.id}
+                  onClick={() => onSelectBrand?.(rel.brand)}
+                  disabled={!onSelectBrand}
+                  style={{ display:"flex", alignItems:"center", gap:6, padding:"4px 10px 4px 6px", background:clr.bg, border:`1px solid ${clr.border}`, borderRadius:20, cursor:onSelectBrand?"pointer":"default", transition:"opacity .15s" }}
+                  onMouseEnter={e => { if (onSelectBrand) e.currentTarget.style.opacity=".75"; }}
+                  onMouseLeave={e => { e.currentTarget.style.opacity="1"; }}
+                  title={onSelectBrand ? `${rel.brand.name_ko} 열기` : undefined}
+                >
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img src={relLogoUrl} alt="" style={{ width:18, height:18, objectFit:"contain", flexShrink:0 }} onError={e => { e.currentTarget.style.display="none"; }} />
+                  <span style={{ fontSize:10, fontWeight:700, color:clr.color }}>{RELATION_LABEL[rel.type]}</span>
+                  <span style={{ fontSize:11, fontWeight:600, color:clr.color }}>{rel.brand.name_ko}</span>
+                  {rel.note && <span style={{ fontSize:9, color:clr.color, opacity:.7 }}>{rel.note}</span>}
+                </button>
+              );
+            })}
+          </div>
+        )}
 
         {/* ── 3-column body ── */}
         <div style={{ flex:1, overflow:"hidden", display:"grid", gridTemplateColumns:"220px 1fr 300px" }}>
