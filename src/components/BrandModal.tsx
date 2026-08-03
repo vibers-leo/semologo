@@ -400,7 +400,7 @@ export default function BrandModal({ brand, onClose, allBrands = [], onSelectBra
                   <div key={m.label} style={{ display:"flex", flexDirection:"column", alignItems:"center", gap:5 }}>
                     <div style={m.style}>
                       {/* eslint-disable-next-line @next/next/no-img-element */}
-                      <img src={pngUrl} alt="" style={{ maxWidth:"100%", maxHeight:"100%", objectFit:"contain" }} />
+                      <img src={brand.logo_svg ? svgUrl : darkUrl} alt="" style={{ maxWidth:"100%", maxHeight:"100%", objectFit:"contain" }} onError={e => { e.currentTarget.src = pngUrl; }} />
                     </div>
                     <span style={{ fontSize:9, color:"#71717a", textAlign:"center" }}>{m.label}</span>
                   </div>
