@@ -10,6 +10,7 @@ export interface Brand {
   added_at?: string;
   sources?: string[];
   original_ai_url?: string;
+  domain?: string;
 }
 
 const CDN =
