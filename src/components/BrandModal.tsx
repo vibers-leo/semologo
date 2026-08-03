@@ -72,6 +72,8 @@ function toast(msg: string) {
 
 export default function BrandModal({ brand, onClose, allBrands = [], onSelectBrand }: Props) {
   const [votes, setVotes] = useState<Record<string, number>>({});
+  const [swapTarget, setSwapTarget] = useState<string | null>(null);
+  const [votedFiles, setVotedFiles] = useState<string[]>([]);
   const [shareFeed, setShareFeed] = useState<ShareEntry[]>([]);
   const [visibility, setVisibility] = useState<VisibilityResult | null>(null);
   const [reportOpen, setReportOpen] = useState(false);
@@ -113,10 +115,22 @@ export default function BrandModal({ brand, onClose, allBrands = [], onSelectBra
           getDoc(doc(db, "logo_votes", brand.id)),
           getDoc(doc(db, "logo_shares", brand.id)),
         ]);
-        if (vSnap.exists()) setVotes(vSnap.data() as Record<string, number>);
+        if (vSnap.exists()) {
+          const data = vSnap.data();
+          // 중첩 구조 { votes: { logo_svg: 3 } } 지원 (구버전 flat 형식 폴백)
+          const rawVotes = (data.votes && typeof data.votes === "object") ? data.votes : data;
+          const decoded: Record<string, number> = {};
+          for (const [k, v] of Object.entries(rawVotes)) {
+            if (typeof v === "number") decoded[k] = v;
+          }
+          setVotes(decoded);
+          if (data.swap_pending) setSwapTarget(data.swap_target || null);
+        }
         if (sSnap.exists()) setShareFeed(sSnap.data().recent || []);
       } catch {}
     })();
+    const voted = JSON.parse(typeof window !== "undefined" ? localStorage.getItem(`voted_${brand.id}`) || "[]" : "[]");
+    setVotedFiles(voted);
   }, [brand.id]);
 
   useEffect(() => {
@@ -127,42 +141,74 @@ export default function BrandModal({ brand, onClose, allBrands = [], onSelectBra
     ).then(setVisibility);
   }, [brand.id]);
 
+  // Firestore 필드명에 . 사용 불가 → 인코딩
+  const fk = (file: string) => file.replace(/\//g, "__").replace(/\./g, "_");
+
+  const appendFeed = useCallback(async (entry: ShareEntry) => {
+    try {
+      const db = getClientDb();
+      const ref = doc(db, "logo_shares", brand.id);
+      const snap = await getDoc(ref);
+      const prev = snap.exists() ? (snap.data().recent || []) : [];
+      const recent = [...prev, entry].slice(-20);
+      if (snap.exists()) await updateDoc(ref, { recent });
+      else await setDoc(ref, { count: 0, recent });
+      setShareFeed(recent);
+    } catch {}
+  }, [brand.id]);
+
   const castVote = useCallback(async (file: string, label: string) => {
+    if (votedFiles.includes(file)) { toast("이미 투표했어요"); return; }
+
+    const key = fk(file);
+    // 낙관적 업데이트
+    setVotes(prev => ({ ...prev, [key]: (prev[key] || 0) + 1 }));
+    const newVoted = [...votedFiles, file];
+    setVotedFiles(newVoted);
+    localStorage.setItem(`voted_${brand.id}`, JSON.stringify(newVoted));
+
     try {
       const db = getClientDb();
       const ref = doc(db, "logo_votes", brand.id);
       const snap = await getDoc(ref);
-      if (snap.exists()) await updateDoc(ref, { [file]: increment(1) });
-      else await setDoc(ref, { [file]: 1 });
-      setVotes(prev => ({ ...prev, [file]: (prev[file] || 0) + 1 }));
-
-      const emoji = myEmoji();
-      const sRef = doc(db, "logo_shares", brand.id);
-      const sSnap = await getDoc(sRef);
-      const prev = sSnap.exists() ? (sSnap.data().recent || []) : [];
-      const recent = [...prev, { emoji, ts: Date.now(), type: "vote", label, file }].slice(-10);
-      if (sSnap.exists()) await updateDoc(sRef, { count: increment(1), recent });
-      else await setDoc(sRef, { count: 1, recent });
-      setShareFeed(recent);
+      if (snap.exists()) {
+        await updateDoc(ref, { [`votes.${key}`]: increment(1) });
+      } else {
+        await setDoc(ref, { votes: { [key]: 1 }, swap_pending: false, swap_target: null });
+      }
+      appendFeed({ emoji: myEmoji(), ts: Date.now(), type: "vote", label, file });
       toast("👍 추천했어요!");
-    } catch { toast("오류가 발생했어요"); }
-  }, [brand.id]);
+    } catch {
+      // 롤백
+      setVotes(prev => ({ ...prev, [key]: Math.max(0, (prev[key] || 1) - 1) }));
+      setVotedFiles(votedFiles);
+      localStorage.setItem(`voted_${brand.id}`, JSON.stringify(votedFiles));
+      toast("저장 실패. 다시 시도해주세요");
+    }
+  }, [brand.id, votedFiles, appendFeed]);
+
+  const requestSwap = useCallback(async (file: string, label: string) => {
+    if (!window.confirm(`"${label}"을(를) 메인 로고로 교체 요청할까요?\n관리자 확인 후 반영됩니다.`)) return;
+    try {
+      const db = getClientDb();
+      const ref = doc(db, "logo_votes", brand.id);
+      const snap = await getDoc(ref);
+      if (snap.exists()) {
+        await updateDoc(ref, { swap_pending: true, swap_target: file });
+      } else {
+        await setDoc(ref, { votes: {}, swap_pending: true, swap_target: file });
+      }
+      setSwapTarget(file);
+      appendFeed({ emoji: myEmoji(), ts: Date.now(), type: "swap", label, file });
+      toast("교체 요청 완료! 관리자 확인 후 반영돼요 🔄");
+    } catch { toast("요청 실패. 다시 시도해주세요"); }
+  }, [brand.id, appendFeed]);
 
   const doShare = useCallback(async () => {
     navigator.clipboard.writeText(pageUrl).catch(() => {});
     setCopyDone(true);
     setTimeout(() => setCopyDone(false), 1800);
-    try {
-      const db = getClientDb();
-      const emoji = myEmoji();
-      const ref = doc(db, "logo_shares", brand.id);
-      const snap = await getDoc(ref);
-      const prev = snap.exists() ? (snap.data().recent || []) : [];
-      const recent = [...prev, { emoji, ts: Date.now() }].slice(-10);
-      if (snap.exists()) await updateDoc(ref, { count: increment(1), recent });
-      else await setDoc(ref, { count: 1, recent });
-      setShareFeed(recent);
-    } catch {}
+    appendFeed({ emoji: myEmoji(), ts: Date.now() });
     toast("퍼가기 완료! 링크 복사됨 🎉");
   }, [brand.id, pageUrl]);
 
@@ -356,34 +402,49 @@ export default function BrandModal({ brand, onClose, allBrands = [], onSelectBra
             </div>
 
             {/* 변형 그리드 */}
-            <div style={{ fontSize:13, fontWeight:700, color:"#3f3f46", marginBottom:14 }}>
-              파일 다운로드 <span style={{ fontSize:11, fontWeight:400, color:"#71717a" }}>메인 로고 기준</span>
+            <div style={{ display:"flex", alignItems:"center", justifyContent:"space-between", marginBottom:14 }}>
+              <div style={{ fontSize:13, fontWeight:700, color:"#3f3f46" }}>
+                파일 다운로드 <span style={{ fontSize:11, fontWeight:400, color:"#71717a" }}>메인 로고 기준</span>
+              </div>
+              <span style={{ fontSize:10, color:"#a1a1aa" }}>👍 추천 · 🔄 교체 요청</span>
             </div>
             <div style={{ display:"grid", gridTemplateColumns:"repeat(auto-fill,minmax(160px,1fr))", gap:12 }}>
               {variants.map(v => {
                 const url = cdnUrl(v.file);
-                const voteCount = votes[v.file] || 0;
+                const key = fk(v.file);
+                const voteCount = votes[key] || 0;
+                const isVoted = votedFiles.includes(v.file);
+                const isSwapTarget = swapTarget === v.file;
                 return (
-                  <div key={v.file} style={{ background:"#fafafa", border:"1px solid #e4e4e7", borderRadius:8, overflow:"hidden" }}>
+                  <div key={v.file} style={{ background:"#fafafa", border:`1px solid ${isSwapTarget ? "#f59e0b" : "#e4e4e7"}`, borderRadius:8, overflow:"hidden", outline: isSwapTarget ? "2px solid #fde68a" : "none", outlineOffset:1 }}>
                     <div style={{ height:110, display:"flex", alignItems:"center", justifyContent:"center", padding:14, ...bgStyle(v.bg) }}>
                       {/* eslint-disable-next-line @next/next/no-img-element */}
                       <img src={url} alt={v.name} style={{ maxWidth:"100%", maxHeight:76, objectFit:"contain" }} onError={e => { e.currentTarget.style.display="none"; }} />
                     </div>
                     <div style={{ padding:"8px 10px", borderTop:"1px solid #e4e4e7", background:"#fafafa" }}>
-                      <div style={{ fontSize:11, fontWeight:600, color:"#3f3f46" }}>{v.name}</div>
+                      <div style={{ display:"flex", alignItems:"center", gap:4 }}>
+                        <span style={{ fontSize:11, fontWeight:600, color:"#3f3f46", flex:1 }}>{v.name}</span>
+                        {isSwapTarget && <span style={{ fontSize:9, fontWeight:700, color:"#f59e0b", background:"#fef3c7", border:"1px solid #fde68a", borderRadius:10, padding:"1px 5px" }}>교체 대기</span>}
+                      </div>
                       <div style={{ fontSize:10, color:"#71717a", marginTop:1 }}>{v.desc}</div>
-                      <div style={{ display:"flex", gap:6, marginTop:8 }}>
+                      <div style={{ display:"flex", gap:5, marginTop:8 }}>
                         <button
-                          className="vbtn"
                           onClick={() => castVote(v.file, v.name)}
-                          title="이 버전 추천"
-                          style={{ flex:1, background:"transparent", border:"1px solid #e4e4e7", borderRadius:6, padding:"5px 0", fontSize:11, color:"#71717a", cursor:"pointer", transition:"all .15s" }}
+                          title={isVoted ? "이미 투표함" : "이 버전 추천"}
+                          style={{ flex:1, background: isVoted ? "rgba(99,102,241,0.08)" : "transparent", border:`1px solid ${isVoted ? "#6366f1" : "#e4e4e7"}`, borderRadius:6, padding:"5px 0", fontSize:11, color: isVoted ? "#6366f1" : "#71717a", cursor:"pointer", transition:"all .15s", fontWeight: isVoted ? 600 : 400 }}
                         >
                           👍 {voteCount > 0 ? voteCount : "—"}
                         </button>
+                        <button
+                          onClick={() => requestSwap(v.file, v.name)}
+                          title="메인 로고로 교체 요청"
+                          style={{ background: isSwapTarget ? "#fef3c7" : "transparent", border:`1px solid ${isSwapTarget ? "#f59e0b" : "#e4e4e7"}`, borderRadius:6, padding:"5px 8px", fontSize:11, color: isSwapTarget ? "#d97706" : "#71717a", cursor:"pointer", transition:"all .15s", flexShrink:0 }}
+                        >
+                          {isSwapTarget ? "✅" : "🔄"}
+                        </button>
                         <a href={url} download={`${brand.id}-${v.file}`} target="_blank" rel="noopener noreferrer"
                           style={{ flex:1, fontSize:11, padding:"5px 0", borderRadius:6, background:"#6366f1", color:"#fff", textAlign:"center", textDecoration:"none", display:"block", fontWeight:500 }}>
-                          다운로드
+                          ↓
                         </a>
                       </div>
                     </div>
