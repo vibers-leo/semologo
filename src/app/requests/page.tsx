@@ -1,26 +1,49 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { useRouter } from "next/navigation";
+import { onAuthStateChanged } from "firebase/auth";
+import { getClientAuth } from "@/lib/firebase";
 import { listenLogoRequests, type LogoRequest } from "@/lib/logo-requests";
 import Header from "@/components/Header";
 import Link from "next/link";
 
+const ADMIN_EMAIL = "juuuno1116@gmail.com";
+
 export default function RequestsPage() {
+  const router = useRouter();
+  const [authChecked, setAuthChecked] = useState(false);
+  const [isAdmin, setIsAdmin] = useState(false);
   const [requests, setRequests] = useState<LogoRequest[]>([]);
   const [loading, setLoading] = useState(true);
   const [filter, setFilter] = useState<"all" | "pending" | "done">("all");
 
   useEffect(() => {
+    const unsub = onAuthStateChanged(getClientAuth(), (user) => {
+      if (user?.email === ADMIN_EMAIL) {
+        setIsAdmin(true);
+      } else {
+        router.replace("/");
+      }
+      setAuthChecked(true);
+    });
+    return unsub;
+  }, [router]);
+
+  useEffect(() => {
+    if (!isAdmin) return;
     const unsub = listenLogoRequests((list) => {
       setRequests(list);
       setLoading(false);
     });
     return unsub;
-  }, []);
+  }, [isAdmin]);
 
   const filtered = filter === "all" ? requests : requests.filter((r) => r.status === filter);
   const pendingCount = requests.filter((r) => r.status === "pending").length;
   const doneCount = requests.filter((r) => r.status === "done").length;
+
+  if (!authChecked) return null;
 
   return (
     <div className="min-h-screen" style={{ background: "var(--bg)" }}>

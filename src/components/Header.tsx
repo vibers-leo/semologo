@@ -49,6 +49,8 @@ function UserMenu({ user }: { user: User }) {
   );
 }
 
+const ADMIN_EMAIL = "juuuno1116@gmail.com";
+
 export default function Header() {
   const [user, setUser] = useState<User | null>(null);
   const [loading, setLoading] = useState(true);
@@ -79,13 +81,15 @@ export default function Header() {
           />
         </Link>
         <nav className="flex items-center gap-2">
-          <Link
-            href="/requests"
-            className="hidden sm:block text-sm px-3 py-1.5 rounded-lg transition-colors"
-            style={{ color: "var(--text-secondary)" }}
-          >
-            요청 게시판
-          </Link>
+          {user?.email === ADMIN_EMAIL && (
+            <Link
+              href="/requests"
+              className="hidden sm:block text-sm px-3 py-1.5 rounded-lg transition-colors"
+              style={{ color: "var(--text-secondary)" }}
+            >
+              요청 게시판
+            </Link>
+          )}
           <Link
             href="/submit"
             className="hidden sm:block text-sm px-3 py-1.5 rounded-lg transition-colors"
