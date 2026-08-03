@@ -76,6 +76,7 @@ export default function BrandModal({ brand, onClose, allBrands = [], onSelectBra
   const [votedFiles, setVotedFiles] = useState<string[]>([]);
   const [shareFeed, setShareFeed] = useState<ShareEntry[]>([]);
   const [visibility, setVisibility] = useState<VisibilityResult | null>(null);
+  const [hasWhiteLogo, setHasWhiteLogo] = useState(false);
   const [quality, setQuality] = useState<QualityData>({ up: 0, down: 0, flagged: false });
   const [myQualityVote, setMyQualityVote] = useState<"up" | "down" | null>(null);
   const [reportOpen, setReportOpen] = useState(false);
@@ -85,10 +86,11 @@ export default function BrandModal({ brand, onClose, allBrands = [], onSelectBra
   const [copyDone, setCopyDone] = useState(false);
 
   const cdnUrl = (file: string) => `${CDN}/${brand.id}/${file}?v=${VERSION}`;
-  const svgUrl  = cdnUrl("logo.svg");
-  const pngUrl  = cdnUrl("logo.png");
-  const darkUrl = cdnUrl("logo-transparent.png");
-  const mainUrl = brand.logo_svg ? svgUrl : pngUrl;
+  const svgUrl     = cdnUrl("logo.svg");
+  const pngUrl     = cdnUrl("logo.png");
+  const darkUrl    = cdnUrl("logo-transparent.png");
+  const whiteUrl   = cdnUrl("logo-white.png");
+  const mainUrl    = brand.logo_svg ? svgUrl : pngUrl;
   const pageUrl = typeof window !== "undefined" ? `${window.location.origin}/#${brand.id}` : "";
 
   const relations = (BRAND_RELATIONS[brand.id] || []).flatMap(rel => {
@@ -144,6 +146,11 @@ export default function BrandModal({ brand, onClose, allBrands = [], onSelectBra
       `${CDN}/${brand.id}/logo.png`,
       `${CDN}/${brand.id}/logo-transparent.png`,
     ).then(setVisibility);
+    // logo-white.png 존재 여부 확인 (다크 프리뷰 우선 사용)
+    const img = new Image();
+    img.onload = () => setHasWhiteLogo(true);
+    img.onerror = () => setHasWhiteLogo(false);
+    img.src = `${CDN}/${brand.id}/logo-white.png?v=${VERSION}`;
   }, [brand.id]);
 
   // Firestore 필드명에 . 사용 불가 → 인코딩
@@ -364,10 +371,19 @@ export default function BrandModal({ brand, onClose, allBrands = [], onSelectBra
             </div>
             <div style={{ ...getDarkPreviewStyle(visibility), borderRadius:8, display:"flex", flexDirection:"column", alignItems:"center", justifyContent:"center", padding:18, height:88, gap:4 }}>
               {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src={getDarkPreviewUrl(visibility, darkUrl, mainUrl)} alt={brand.name_ko} style={{ maxWidth:"100%", maxHeight:50, objectFit:"contain" }} onError={e => { e.currentTarget.src = mainUrl; }} />
+              <img
+                src={
+                  hasWhiteLogo && visibility?.darkMode !== "white-only"
+                    ? whiteUrl
+                    : getDarkPreviewUrl(visibility, darkUrl, mainUrl)
+                }
+                alt={brand.name_ko}
+                style={{ maxWidth:"100%", maxHeight:50, objectFit:"contain" }}
+                onError={e => { e.currentTarget.src = mainUrl; }}
+              />
               {visibility && (
                 <span style={{ fontSize:8, color: visibility.darkMode === "white-only" ? "#71717a" : "#a1a1aa", letterSpacing:".06em", textTransform:"uppercase", opacity:.8 }}>
-                  {getDarkPreviewLabel(visibility)}
+                  {getDarkPreviewLabel(visibility)}{hasWhiteLogo && visibility.darkMode !== "white-only" ? " · 화이트" : ""}
                 </span>
               )}
             </div>
