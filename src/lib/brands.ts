@@ -8,7 +8,7 @@ export interface Brand {
   dark_variant?: boolean;
   lang_en?: boolean;
   added_at?: string;
-  sources?: string[];
+  sources?: { provider: string; file: string; label: string }[];
   original_ai_url?: string;
   domain?: string;
 }

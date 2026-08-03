@@ -7,6 +7,10 @@ import { getClientDb } from "@/lib/firebase";
 import {
   doc, getDoc, setDoc, updateDoc, increment,
 } from "firebase/firestore";
+import {
+  analyzeLogoVisibility, getDarkPreviewStyle, getDarkPreviewUrl, getDarkPreviewLabel,
+  type VisibilityResult,
+} from "@/lib/logo-visibility";
 
 const CDN = process.env.NEXT_PUBLIC_CDN_URL || "https://logo.vibers.co.kr/_clients";
 const VERSION = "1785636800";
@@ -69,6 +73,7 @@ function toast(msg: string) {
 export default function BrandModal({ brand, onClose, allBrands = [], onSelectBrand }: Props) {
   const [votes, setVotes] = useState<Record<string, number>>({});
   const [shareFeed, setShareFeed] = useState<ShareEntry[]>([]);
+  const [visibility, setVisibility] = useState<VisibilityResult | null>(null);
   const [reportOpen, setReportOpen] = useState(false);
   const [reportMemo, setReportMemo] = useState("");
   const [reportUrl, setReportUrl] = useState("");
@@ -112,6 +117,14 @@ export default function BrandModal({ brand, onClose, allBrands = [], onSelectBra
         if (sSnap.exists()) setShareFeed(sSnap.data().recent || []);
       } catch {}
     })();
+  }, [brand.id]);
+
+  useEffect(() => {
+    analyzeLogoVisibility(
+      brand.id,
+      `${CDN}/${brand.id}/logo.png`,
+      `${CDN}/${brand.id}/logo-transparent.png`,
+    ).then(setVisibility);
   }, [brand.id]);
 
   const castVote = useCallback(async (file: string, label: string) => {
@@ -253,13 +266,26 @@ export default function BrandModal({ brand, onClose, allBrands = [], onSelectBra
 
           {/* ── LEFT: 미리보기 + 형식 + 빠른다운 ── */}
           <div className="mscroll" style={{ overflowY:"auto", padding:"20px 16px", borderRight:"1px solid #e4e4e7", display:"flex", flexDirection:"column", gap:16, scrollbarWidth:"thin" }}>
-            <div style={{ background:"#ffffff", border:"1px solid #f0f0f2", borderRadius:8, display:"flex", alignItems:"center", justifyContent:"center", padding:20, height:128 }}>
+            <div style={{ position:"relative", background:"#ffffff", border:"1px solid #f0f0f2", borderRadius:8, display:"flex", alignItems:"center", justifyContent:"center", padding:20, height:128 }}>
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img src={mainUrl} alt={brand.name_ko} style={{ maxWidth:"100%", maxHeight:88, objectFit:"contain" }} onError={e => { e.currentTarget.src = pngUrl; }} />
+              {brand.original_ai_url && (
+                <a href={brand.original_ai_url} target="_blank" rel="noopener noreferrer"
+                  title="브랜드 공식 홈페이지에서 수집한 원본 파일"
+                  style={{ position:"absolute", bottom:6, right:6, display:"inline-flex", alignItems:"center", gap:3, padding:"2px 7px", background:"#eff6ff", border:"1px solid #bfdbfe", borderRadius:10, fontSize:9, fontWeight:700, color:"#2563eb", textDecoration:"none", letterSpacing:".04em" }}>
+                  <svg width="8" height="8" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"><path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
+                  공식
+                </a>
+              )}
             </div>
-            <div style={{ background:"#111114", borderRadius:8, display:"flex", alignItems:"center", justifyContent:"center", padding:18, height:88 }}>
+            <div style={{ ...getDarkPreviewStyle(visibility), borderRadius:8, display:"flex", flexDirection:"column", alignItems:"center", justifyContent:"center", padding:18, height:88, gap:4 }}>
               {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src={darkUrl} alt={brand.name_ko} style={{ maxWidth:"100%", maxHeight:56, objectFit:"contain" }} onError={e => { e.currentTarget.src = mainUrl; }} />
+              <img src={getDarkPreviewUrl(visibility, darkUrl, mainUrl)} alt={brand.name_ko} style={{ maxWidth:"100%", maxHeight:50, objectFit:"contain" }} onError={e => { e.currentTarget.src = mainUrl; }} />
+              {visibility && (
+                <span style={{ fontSize:8, color: visibility.darkMode === "white-only" ? "#71717a" : "#a1a1aa", letterSpacing:".06em", textTransform:"uppercase", opacity:.8 }}>
+                  {getDarkPreviewLabel(visibility)}
+                </span>
+              )}
             </div>
 
             {/* 사용 미리보기 */}
@@ -318,9 +344,14 @@ export default function BrandModal({ brand, onClose, allBrands = [], onSelectBra
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img src={mainUrl} alt={brand.name_ko} style={{ maxWidth:"60%", maxHeight:"60%", objectFit:"contain" }} onError={e => { e.currentTarget.src = pngUrl; }} />
               </div>
-              <div style={{ background:"#111114", display:"flex", alignItems:"center", justifyContent:"center", padding:36 }}>
+              <div style={{ ...getDarkPreviewStyle(visibility), display:"flex", flexDirection:"column", alignItems:"center", justifyContent:"center", padding:24, gap:6 }}>
                 {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img src={darkUrl} alt={brand.name_ko} style={{ maxWidth:"40%", maxHeight:"40%", objectFit:"contain" }} onError={e => { e.currentTarget.src = mainUrl; }} />
+                <img src={getDarkPreviewUrl(visibility, darkUrl, mainUrl)} alt={brand.name_ko} style={{ maxWidth:"55%", maxHeight:"55%", objectFit:"contain" }} onError={e => { e.currentTarget.src = mainUrl; }} />
+                {visibility && (
+                  <span style={{ fontSize:8, letterSpacing:".06em", textTransform:"uppercase", opacity:.65, color: visibility.darkMode === "white-only" ? "#52525b" : "#a1a1aa" }}>
+                    {getDarkPreviewLabel(visibility)}
+                  </span>
+                )}
               </div>
             </div>
 
