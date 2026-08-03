@@ -58,7 +58,7 @@ function toast(msg: string) {
   if (typeof document === "undefined") return;
   const el = document.createElement("div");
   el.textContent = msg;
-  el.style.cssText = "position:fixed;bottom:28px;left:50%;transform:translateX(-50%);background:#18181b;color:#f4f4f5;padding:10px 20px;border-radius:10px;font-size:13px;z-index:9999;border:1px solid #2a2a2f;box-shadow:0 8px 32px rgba(0,0,0,.5);animation:toastIn .18s ease";
+  el.style.cssText = "position:fixed;bottom:28px;left:50%;transform:translateX(-50%);background:#18181b;color:#f4f4f5;padding:10px 20px;border-radius:10px;font-size:13px;z-index:9999;border:1px solid #3f3f46;box-shadow:0 8px 32px rgba(0,0,0,.5);animation:toastIn .18s ease";
   document.body.appendChild(el);
   setTimeout(() => el.remove(), 2200);
 }
@@ -92,7 +92,6 @@ export default function BrandModal({ brand, onClose }: Props) {
     return () => { document.removeEventListener("keydown", onKey); document.body.style.overflow = ""; };
   }, [onClose]);
 
-  // 투표 + 공유 데이터 로드
   useEffect(() => {
     (async () => {
       try {
@@ -116,7 +115,6 @@ export default function BrandModal({ brand, onClose }: Props) {
       else await setDoc(ref, { [file]: 1 });
       setVotes(prev => ({ ...prev, [file]: (prev[file] || 0) + 1 }));
 
-      // share feed에 투표 기록
       const emoji = myEmoji();
       const sRef = doc(db, "logo_shares", brand.id);
       const sSnap = await getDoc(sRef);
@@ -172,29 +170,29 @@ export default function BrandModal({ brand, onClose }: Props) {
     <div
       className="fixed inset-0 z-50 flex items-center justify-center p-5"
       onClick={onClose}
-      style={{ background: "rgba(0,0,0,0.8)", backdropFilter: "blur(10px)" }}
+      style={{ background: "rgba(0,0,0,0.7)", backdropFilter: "blur(8px)" }}
     >
       <style>{`
         @keyframes modalIn { from { opacity:0; transform:scale(.97) translateY(6px); } to { opacity:1; transform:none; } }
         @keyframes toastIn { from { opacity:0; transform:translateX(-50%) translateY(8px); } to { opacity:1; transform:translateX(-50%); } }
         .mscroll::-webkit-scrollbar { width:4px; }
         .mscroll::-webkit-scrollbar-track { background:transparent; }
-        .mscroll::-webkit-scrollbar-thumb { background:#2a2a2f; border-radius:2px; }
-        .mscroll::-webkit-scrollbar-thumb:hover { background:#52525b; }
-        .vbtn:hover { border-color:#6366f1 !important; color:#818cf8 !important; }
+        .mscroll::-webkit-scrollbar-thumb { background:#d4d4d8; border-radius:2px; }
+        .mscroll::-webkit-scrollbar-thumb:hover { background:#a1a1aa; }
+        .vbtn:hover { border-color:#6366f1 !important; color:#6366f1 !important; }
         .dlrow:hover { border-color:#6366f1 !important; }
-        .sharebtn:hover { border-color:#6366f1 !important; color:#818cf8 !important; }
+        .sharebtn:hover { border-color:#6366f1 !important; color:#6366f1 !important; }
       `}</style>
 
       <div
         className="relative flex flex-col overflow-hidden"
-        style={{ width:"90vw", maxWidth:1400, height:"90vh", background:"#18181b", border:"1px solid #2a2a2f", borderRadius:20, boxShadow:"0 40px 100px rgba(0,0,0,.7)", animation:"modalIn .18s ease" }}
+        style={{ width:"90vw", maxWidth:1400, height:"90vh", background:"#ffffff", border:"1px solid #e4e4e7", borderRadius:20, boxShadow:"0 24px 80px rgba(0,0,0,.15)", animation:"modalIn .18s ease" }}
         onClick={e => e.stopPropagation()}
       >
         {/* ── Header ── */}
-        <div style={{ display:"flex", alignItems:"center", gap:12, padding:"14px 20px", borderBottom:"1px solid #2a2a2f", flexShrink:0 }}>
+        <div style={{ display:"flex", alignItems:"center", gap:12, padding:"14px 20px", borderBottom:"1px solid #e4e4e7", flexShrink:0 }}>
           <div style={{ flex:1, minWidth:0 }}>
-            <h2 style={{ fontSize:17, fontWeight:700, color:"#f4f4f5", whiteSpace:"nowrap", overflow:"hidden", textOverflow:"ellipsis" }}>
+            <h2 style={{ fontSize:17, fontWeight:700, color:"#111111", whiteSpace:"nowrap", overflow:"hidden", textOverflow:"ellipsis" }}>
               {brand.name_ko}{brand.name_en && brand.name_en !== brand.name_ko ? ` / ${brand.name_en}` : ""}
             </h2>
             <p style={{ fontSize:12, color:"#71717a", marginTop:3 }}>
@@ -204,12 +202,12 @@ export default function BrandModal({ brand, onClose }: Props) {
           <button
             onClick={doShare}
             className="sharebtn"
-            style={{ display:"flex", alignItems:"center", gap:5, padding:"5px 12px", background:"#222226", border:"1px solid #2a2a2f", color:"#a1a1aa", borderRadius:8, fontSize:12, fontWeight:500, cursor:"pointer", transition:"all .15s", flexShrink:0 }}
+            style={{ display:"flex", alignItems:"center", gap:5, padding:"5px 12px", background:"#f4f4f5", border:"1px solid #e4e4e7", color:"#52525b", borderRadius:8, fontSize:12, fontWeight:500, cursor:"pointer", transition:"all .15s", flexShrink:0 }}
           >
             <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
             {copyDone ? "복사됨!" : "퍼가기"}
           </button>
-          <button onClick={onClose} style={{ background:"#222226", border:"1px solid #2a2a2f", color:"#a1a1aa", width:32, height:32, borderRadius:8, cursor:"pointer", display:"flex", alignItems:"center", justifyContent:"center", flexShrink:0 }}>
+          <button onClick={onClose} style={{ background:"#f4f4f5", border:"1px solid #e4e4e7", color:"#52525b", width:32, height:32, borderRadius:8, cursor:"pointer", display:"flex", alignItems:"center", justifyContent:"center", flexShrink:0 }}>
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"><path d="M18 6 6 18M6 6l12 12"/></svg>
           </button>
         </div>
@@ -218,8 +216,8 @@ export default function BrandModal({ brand, onClose }: Props) {
         <div style={{ flex:1, overflow:"hidden", display:"grid", gridTemplateColumns:"220px 1fr 300px" }}>
 
           {/* ── LEFT: 미리보기 + 형식 + 빠른다운 ── */}
-          <div className="mscroll" style={{ overflowY:"auto", padding:"20px 16px", borderRight:"1px solid #2a2a2f", display:"flex", flexDirection:"column", gap:16, scrollbarWidth:"thin" }}>
-            <div style={{ background:"#ffffff", borderRadius:8, display:"flex", alignItems:"center", justifyContent:"center", padding:20, height:128 }}>
+          <div className="mscroll" style={{ overflowY:"auto", padding:"20px 16px", borderRight:"1px solid #e4e4e7", display:"flex", flexDirection:"column", gap:16, scrollbarWidth:"thin" }}>
+            <div style={{ background:"#ffffff", border:"1px solid #f0f0f2", borderRadius:8, display:"flex", alignItems:"center", justifyContent:"center", padding:20, height:128 }}>
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img src={mainUrl} alt={brand.name_ko} style={{ maxWidth:"100%", maxHeight:88, objectFit:"contain" }} onError={e => { e.currentTarget.src = pngUrl; }} />
             </div>
@@ -253,7 +251,7 @@ export default function BrandModal({ brand, onClose }: Props) {
               <div style={{ fontSize:10, fontWeight:700, color:"#71717a", letterSpacing:".08em", textTransform:"uppercase", marginBottom:10 }}>보유 형식</div>
               <div style={{ display:"flex", flexDirection:"column", gap:5 }}>
                 {[{ label:"SVG 벡터", ok:!!brand.logo_svg }, { label:"PNG", ok:true }, { label:"영문 버전", ok:!!brand.lang_en }].map(({ label, ok }) => (
-                  <span key={label} style={{ display:"inline-flex", alignItems:"center", gap:4, padding:"4px 10px", borderRadius:20, fontSize:11, fontWeight:600, background:ok?"rgba(34,197,94,0.12)":"#222226", color:ok?"#22c55e":"#71717a", border:`1px solid ${ok?"rgba(34,197,94,0.2)":"#2a2a2f"}` }}>
+                  <span key={label} style={{ display:"inline-flex", alignItems:"center", gap:4, padding:"4px 10px", borderRadius:20, fontSize:11, fontWeight:600, background:ok?"rgba(34,197,94,0.12)":"#f4f4f5", color:ok?"#22c55e":"#71717a", border:`1px solid ${ok?"rgba(34,197,94,0.2)":"#e4e4e7"}` }}>
                     {ok ? "✓" : "✗"} {label}
                   </span>
                 ))}
@@ -269,7 +267,7 @@ export default function BrandModal({ brand, onClose }: Props) {
               </a>
               {brand.logo_svg && (
                 <a href={pngUrl} download={`${brand.id}-logo.png`} target="_blank" rel="noopener noreferrer"
-                  style={{ display:"flex", alignItems:"center", justifyContent:"center", padding:"9px 0", borderRadius:8, fontSize:12, fontWeight:600, background:"#222226", color:"#a1a1aa", textDecoration:"none", border:"1px solid #2a2a2f" }}>
+                  style={{ display:"flex", alignItems:"center", justifyContent:"center", padding:"9px 0", borderRadius:8, fontSize:12, fontWeight:600, background:"#f4f4f5", color:"#52525b", textDecoration:"none", border:"1px solid #e4e4e7" }}>
                   ↓ PNG 다운로드
                 </a>
               )}
@@ -280,7 +278,7 @@ export default function BrandModal({ brand, onClose }: Props) {
           <div className="mscroll" style={{ overflowY:"auto", padding:"22px 24px", scrollbarWidth:"thin" }}>
             {/* 인트로 라이트/다크 */}
             <div style={{ display:"grid", gridTemplateColumns:"1fr 1fr", borderRadius:12, overflow:"hidden", height:180, marginBottom:24 }}>
-              <div style={{ background:"#ffffff", display:"flex", alignItems:"center", justifyContent:"center", padding:20 }}>
+              <div style={{ background:"#ffffff", display:"flex", alignItems:"center", justifyContent:"center", padding:20, border:"1px solid #f0f0f2" }}>
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img src={mainUrl} alt={brand.name_ko} style={{ maxWidth:"60%", maxHeight:"60%", objectFit:"contain" }} onError={e => { e.currentTarget.src = pngUrl; }} />
               </div>
@@ -291,7 +289,7 @@ export default function BrandModal({ brand, onClose }: Props) {
             </div>
 
             {/* 변형 그리드 */}
-            <div style={{ fontSize:13, fontWeight:700, color:"#a1a1aa", marginBottom:14 }}>
+            <div style={{ fontSize:13, fontWeight:700, color:"#3f3f46", marginBottom:14 }}>
               파일 다운로드 <span style={{ fontSize:11, fontWeight:400, color:"#71717a" }}>메인 로고 기준</span>
             </div>
             <div style={{ display:"grid", gridTemplateColumns:"repeat(auto-fill,minmax(160px,1fr))", gap:12 }}>
@@ -299,20 +297,20 @@ export default function BrandModal({ brand, onClose }: Props) {
                 const url = cdnUrl(v.file);
                 const voteCount = votes[v.file] || 0;
                 return (
-                  <div key={v.file} style={{ background:"#222226", border:"1px solid #2a2a2f", borderRadius:8, overflow:"hidden" }}>
+                  <div key={v.file} style={{ background:"#fafafa", border:"1px solid #e4e4e7", borderRadius:8, overflow:"hidden" }}>
                     <div style={{ height:110, display:"flex", alignItems:"center", justifyContent:"center", padding:14, ...bgStyle(v.bg) }}>
                       {/* eslint-disable-next-line @next/next/no-img-element */}
                       <img src={url} alt={v.name} style={{ maxWidth:"100%", maxHeight:76, objectFit:"contain" }} onError={e => { e.currentTarget.style.display="none"; }} />
                     </div>
-                    <div style={{ padding:"8px 10px", borderTop:"1px solid #2a2a2f" }}>
-                      <div style={{ fontSize:11, fontWeight:600, color:"#a1a1aa" }}>{v.name}</div>
+                    <div style={{ padding:"8px 10px", borderTop:"1px solid #e4e4e7", background:"#fafafa" }}>
+                      <div style={{ fontSize:11, fontWeight:600, color:"#3f3f46" }}>{v.name}</div>
                       <div style={{ fontSize:10, color:"#71717a", marginTop:1 }}>{v.desc}</div>
                       <div style={{ display:"flex", gap:6, marginTop:8 }}>
                         <button
                           className="vbtn"
                           onClick={() => castVote(v.file, v.name)}
                           title="이 버전 추천"
-                          style={{ flex:1, background:"transparent", border:"1px solid #2a2a2f", borderRadius:6, padding:"5px 0", fontSize:11, color:"#71717a", cursor:"pointer", transition:"all .15s" }}
+                          style={{ flex:1, background:"transparent", border:"1px solid #e4e4e7", borderRadius:6, padding:"5px 0", fontSize:11, color:"#71717a", cursor:"pointer", transition:"all .15s" }}
                         >
                           👍 {voteCount > 0 ? voteCount : "—"}
                         </button>
@@ -329,10 +327,10 @@ export default function BrandModal({ brand, onClose }: Props) {
           </div>
 
           {/* ── RIGHT: 퍼가요 + 임베드 + 제보 + 광고 ── */}
-          <div className="mscroll" style={{ overflowY:"auto", borderLeft:"1px solid #2a2a2f", display:"flex", flexDirection:"column", scrollbarWidth:"thin" }}>
+          <div className="mscroll" style={{ overflowY:"auto", borderLeft:"1px solid #e4e4e7", display:"flex", flexDirection:"column", scrollbarWidth:"thin" }}>
 
             {/* 퍼가요~ */}
-            <div style={{ padding:"14px 16px", borderBottom:"1px solid #2a2a2f" }}>
+            <div style={{ padding:"14px 16px", borderBottom:"1px solid #e4e4e7" }}>
               <div style={{ fontSize:10, fontWeight:700, color:"#71717a", letterSpacing:".08em", textTransform:"uppercase", marginBottom:10 }}>퍼가요~ 🎉</div>
               <div style={{ display:"flex", flexDirection:"column", gap:6 }}>
                 <button onClick={doShare}
@@ -340,7 +338,7 @@ export default function BrandModal({ brand, onClose }: Props) {
                   🔗 이 브랜드 페이지 퍼가기
                 </button>
                 <button onClick={() => { navigator.clipboard.writeText(mainUrl); toast("로고 URL 복사됨! 🖼"); }}
-                  style={{ display:"flex", alignItems:"center", justifyContent:"center", gap:6, padding:"9px 0", borderRadius:8, fontSize:11, fontWeight:600, background:"#222226", color:"#a1a1aa", border:"1px solid #2a2a2f", cursor:"pointer" }}>
+                  style={{ display:"flex", alignItems:"center", justifyContent:"center", gap:6, padding:"9px 0", borderRadius:8, fontSize:11, fontWeight:600, background:"#f4f4f5", color:"#52525b", border:"1px solid #e4e4e7", cursor:"pointer" }}>
                   🖼 로고 URL만 복사
                 </button>
               </div>
@@ -349,14 +347,14 @@ export default function BrandModal({ brand, onClose }: Props) {
                 <div style={{ marginTop:10 }}>
                   <div style={{ fontSize:9, fontWeight:700, color:"#71717a", letterSpacing:".06em", textTransform:"uppercase", marginBottom:5 }}>최근 활동</div>
                   {shareFeed.slice(-6).map((s, i) => (
-                    <div key={i} style={{ display:"flex", alignItems:"center", gap:4, padding:"3px 0", borderBottom:"1px solid #2a2a2f" }}>
+                    <div key={i} style={{ display:"flex", alignItems:"center", gap:4, padding:"3px 0", borderBottom:"1px solid #f0f0f2" }}>
                       <span>{s.emoji}</span>
-                      <span style={{ fontSize:10, color:"#a1a1aa", flex:1 }}>
-                        {s.type === "vote" ? <><span style={{ color:"#818cf8" }}>"{s.label}"</span> 추천 👍</>
+                      <span style={{ fontSize:10, color:"#3f3f46", flex:1 }}>
+                        {s.type === "vote" ? <><span style={{ color:"#6366f1" }}>"{s.label}"</span> 추천 👍</>
                          : s.type === "swap" ? <><span style={{ color:"#f59e0b" }}>"{s.label}"</span> 교체 요청 🔄</>
                          : "퍼가기 🎉"}
                       </span>
-                      <span style={{ fontSize:9, color:"#52525b" }}>{relTime(s.ts)}</span>
+                      <span style={{ fontSize:9, color:"#71717a" }}>{relTime(s.ts)}</span>
                     </div>
                   ))}
                 </div>
@@ -364,37 +362,37 @@ export default function BrandModal({ brand, onClose }: Props) {
             </div>
 
             {/* HTML 임베드 */}
-            <div style={{ padding:"14px 16px", borderBottom:"1px solid #2a2a2f" }}>
+            <div style={{ padding:"14px 16px", borderBottom:"1px solid #e4e4e7" }}>
               <div style={{ fontSize:10, fontWeight:700, color:"#71717a", letterSpacing:".08em", textTransform:"uppercase", marginBottom:10 }}>HTML 임베드</div>
-              <div style={{ background:"#0f0f11", border:"1px solid #2a2a2f", borderRadius:8, padding:10, fontFamily:"monospace", fontSize:"9.5px", color:"#71717a", lineHeight:1.6, wordBreak:"break-all", marginBottom:8 }}>
+              <div style={{ background:"#f4f4f5", border:"1px solid #e4e4e7", borderRadius:8, padding:10, fontFamily:"monospace", fontSize:"9.5px", color:"#71717a", lineHeight:1.6, wordBreak:"break-all", marginBottom:8 }}>
                 {`<img src="${mainUrl}" alt="${brand.name_ko}" style="height:40px">`}
               </div>
               <button onClick={() => { navigator.clipboard.writeText(`<img src="${mainUrl}" alt="${brand.name_ko}" style="height:40px">`); toast("임베드 코드 복사됨!"); }}
-                style={{ width:"100%", padding:"7px 0", borderRadius:8, fontSize:11, fontWeight:600, background:"#222226", color:"#a1a1aa", border:"1px solid #2a2a2f", cursor:"pointer" }}>
+                style={{ width:"100%", padding:"7px 0", borderRadius:8, fontSize:11, fontWeight:600, background:"#f4f4f5", color:"#52525b", border:"1px solid #e4e4e7", cursor:"pointer" }}>
                 코드 복사
               </button>
             </div>
 
             {/* 제보 & 개선 */}
-            <div style={{ padding:"14px 16px", borderBottom:"1px solid #2a2a2f" }}>
+            <div style={{ padding:"14px 16px", borderBottom:"1px solid #e4e4e7" }}>
               <div style={{ fontSize:10, fontWeight:700, color:"#71717a", letterSpacing:".08em", textTransform:"uppercase", marginBottom:10 }}>제보 &amp; 개선</div>
               <button
                 onClick={() => setReportOpen(o => !o)}
-                style={{ width:"100%", padding:"9px 0", borderRadius:8, fontSize:11, fontWeight:600, background:"#222226", color:"#a1a1aa", border:"1px solid #2a2a2f", cursor:"pointer" }}
+                style={{ width:"100%", padding:"9px 0", borderRadius:8, fontSize:11, fontWeight:600, background:"#f4f4f5", color:"#52525b", border:"1px solid #e4e4e7", cursor:"pointer" }}
               >
                 {reportOpen ? "↩ 접기" : "✉️ 더 좋은 버전 제보하기"}
               </button>
               {reportOpen && (
-                <form onSubmit={handleReport} style={{ marginTop:12, paddingTop:12, borderTop:"1px solid #2a2a2f", display:"flex", flexDirection:"column", gap:7 }}>
+                <form onSubmit={handleReport} style={{ marginTop:12, paddingTop:12, borderTop:"1px solid #e4e4e7", display:"flex", flexDirection:"column", gap:7 }}>
                   <textarea
                     rows={2} placeholder="개선점 또는 출처 URL 메모"
                     value={reportMemo} onChange={e => setReportMemo(e.target.value)}
-                    style={{ width:"100%", background:"#0f0f11", border:"1px solid #2a2a2f", color:"#f4f4f5", padding:8, borderRadius:6, fontSize:11, resize:"none", fontFamily:"inherit", outline:"none", lineHeight:1.5 }}
+                    style={{ width:"100%", background:"#f9f9f9", border:"1px solid #e4e4e7", color:"#111111", padding:8, borderRadius:6, fontSize:11, resize:"none", fontFamily:"inherit", outline:"none", lineHeight:1.5 }}
                   />
                   <input
                     type="url" placeholder="로고 URL (선택)"
                     value={reportUrl} onChange={e => setReportUrl(e.target.value)}
-                    style={{ width:"100%", background:"#0f0f11", border:"1px solid #2a2a2f", color:"#f4f4f5", padding:"7px 8px", borderRadius:6, fontSize:11, outline:"none" }}
+                    style={{ width:"100%", background:"#f9f9f9", border:"1px solid #e4e4e7", color:"#111111", padding:"7px 8px", borderRadius:6, fontSize:11, outline:"none" }}
                   />
                   <div style={{ display:"flex", gap:6 }}>
                     <button type="submit" disabled={reportStatus === "sending"}
@@ -402,7 +400,7 @@ export default function BrandModal({ brand, onClose }: Props) {
                       {reportStatus === "sending" ? "전송 중…" : reportStatus === "done" ? "✅ 감사합니다!" : "전송"}
                     </button>
                     <button type="button" onClick={() => setReportOpen(false)}
-                      style={{ padding:"7px 14px", borderRadius:8, fontSize:11, fontWeight:600, background:"#222226", color:"#a1a1aa", border:"1px solid #2a2a2f", cursor:"pointer" }}>
+                      style={{ padding:"7px 14px", borderRadius:8, fontSize:11, fontWeight:600, background:"#f4f4f5", color:"#52525b", border:"1px solid #e4e4e7", cursor:"pointer" }}>
                       취소
                     </button>
                   </div>
@@ -412,9 +410,9 @@ export default function BrandModal({ brand, onClose }: Props) {
 
             {/* 광고 슬롯 */}
             <div style={{ flex:1, padding:"14px 16px", display:"flex", flexDirection:"column", justifyContent:"flex-end" }}>
-              <div style={{ background:"#222226", border:"1px dashed #2a2a2f", borderRadius:10, padding:"18px 12px", textAlign:"center" }}>
-                <div style={{ fontSize:9, color:"#71717a", letterSpacing:".08em", textTransform:"uppercase", marginBottom:6 }}>광고</div>
-                <div style={{ fontSize:11, color:"#52525b" }}>Ad slot</div>
+              <div style={{ background:"#f4f4f5", border:"1px dashed #d4d4d8", borderRadius:10, padding:"18px 12px", textAlign:"center" }}>
+                <div style={{ fontSize:9, color:"#a1a1aa", letterSpacing:".08em", textTransform:"uppercase", marginBottom:6 }}>광고</div>
+                <div style={{ fontSize:11, color:"#a1a1aa" }}>Ad slot</div>
               </div>
             </div>
           </div>
