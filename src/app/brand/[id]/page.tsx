@@ -1,0 +1,101 @@
+import type { Metadata } from "next";
+import { notFound } from "next/navigation";
+import { fetchBrands } from "@/lib/brands";
+import Header from "@/components/Header";
+import BrandDetailClient from "./BrandDetailClient";
+
+const CDN = process.env.NEXT_PUBLIC_CDN_URL || "https://logo.vibers.co.kr/_clients";
+const BASE = process.env.NEXT_PUBLIC_APP_URL || "https://semologo.com";
+
+export async function generateStaticParams() {
+  const brands = await fetchBrands();
+  return brands.map((b) => ({ id: b.id }));
+}
+
+export async function generateMetadata(
+  { params }: { params: Promise<{ id: string }> }
+): Promise<Metadata> {
+  const { id } = await params;
+  const brands = await fetchBrands();
+  const brand = brands.find((b) => b.id === id);
+  if (!brand) return {};
+
+  const logoUrl = brand.logo_svg
+    ? `${CDN}/${brand.id}/logo.svg`
+    : `${CDN}/${brand.id}/logo-800.png`;
+
+  const title = `${brand.name_ko} 로고 SVG·PNG 무료 다운로드 | 세모로고`;
+  const description = `${brand.name_ko}(${brand.name_en}) 공식 로고를 SVG 벡터·PNG 고해상도로 무료 다운로드하세요. ${brand.category} 브랜드.`;
+
+  return {
+    title,
+    description,
+    openGraph: {
+      title,
+      description,
+      type: "website",
+      url: `${BASE}/brand/${brand.id}`,
+      images: [{ url: logoUrl, width: 800, height: 800, alt: `${brand.name_ko} 로고` }],
+      siteName: "세모로고",
+    },
+    twitter: {
+      card: "summary",
+      title,
+      description,
+      images: [logoUrl],
+    },
+  };
+}
+
+export default async function BrandPage(
+  { params }: { params: Promise<{ id: string }> }
+) {
+  const { id } = await params;
+  const brands = await fetchBrands();
+  const brand = brands.find((b) => b.id === id);
+  if (!brand) notFound();
+
+  const logoUrl = brand.logo_svg
+    ? `${CDN}/${brand.id}/logo.svg`
+    : `${CDN}/${brand.id}/logo-800.png`;
+
+  const jsonLd = [
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      name: brand.name_ko,
+      alternateName: brand.name_en,
+      logo: logoUrl,
+      ...(brand.domain ? { url: `https://${brand.domain}` } : {}),
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "ImageObject",
+      name: `${brand.name_ko} 로고`,
+      contentUrl: logoUrl,
+      encodingFormat: brand.logo_svg ? "image/svg+xml" : "image/png",
+      about: {
+        "@type": "Organization",
+        name: brand.name_ko,
+        alternateName: brand.name_en,
+      },
+    },
+  ];
+
+  const relatedBrands = brands
+    .filter((b) => b.category === brand.category && b.id !== brand.id)
+    .slice(0, 12);
+
+  return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      <div className="min-h-screen" style={{ background: "var(--bg)" }}>
+        <Header />
+        <BrandDetailClient brand={brand} relatedBrands={relatedBrands} />
+      </div>
+    </>
+  );
+}

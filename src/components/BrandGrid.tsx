@@ -133,7 +133,10 @@ export default function BrandGrid({ brands }: Props) {
             <BrandCard
               key={brand.id}
               brand={brand}
-              onClick={() => setSelected(brand)}
+              onClick={() => {
+                setSelected(brand);
+                history.replaceState(null, "", `/brand/${brand.id}`);
+              }}
               priority={i < 12}
             />
             {(i + 1) % AD_INTERVAL === 0 && (
@@ -166,9 +169,15 @@ export default function BrandGrid({ brands }: Props) {
       {selected && (
         <BrandModal
           brand={selected}
-          onClose={() => setSelected(null)}
+          onClose={() => {
+            setSelected(null);
+            history.replaceState(null, "", "/");
+          }}
           allBrands={brands}
-          onSelectBrand={setSelected}
+          onSelectBrand={(b) => {
+            setSelected(b);
+            history.replaceState(null, "", `/brand/${b.id}`);
+          }}
         />
       )}
     </>
