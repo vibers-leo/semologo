@@ -359,7 +359,7 @@ export default function BrandModal({ brand, onClose, allBrands = [], onSelectBra
           <div className="mscroll" style={{ overflowY:"auto", padding:"20px 16px", borderRight:"1px solid #e4e4e7", display:"flex", flexDirection:"column", gap:16, scrollbarWidth:"thin" }}>
             <div style={{ position:"relative", background:"#ffffff", border:"1px solid #f0f0f2", borderRadius:8, display:"flex", alignItems:"center", justifyContent:"center", padding:20, height:128 }}>
               {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src={mainUrl} alt={brand.name_ko} style={{ maxWidth:"100%", maxHeight:88, objectFit:"contain" }} onError={e => { e.currentTarget.src = pngUrl; }} />
+              <img src={mainUrl} alt={brand.name_ko} style={{ width:"auto", height:"auto", maxWidth:"90%", maxHeight:88, objectFit:"contain", objectPosition:"center" }} onError={e => { e.currentTarget.src = pngUrl; }} />
               {brand.original_ai_url && (
                 <a href={brand.original_ai_url} target="_blank" rel="noopener noreferrer"
                   title="브랜드 공식 홈페이지에서 수집한 원본 파일"
@@ -378,7 +378,7 @@ export default function BrandModal({ brand, onClose, allBrands = [], onSelectBra
                     : getDarkPreviewUrl(visibility, darkUrl, mainUrl)
                 }
                 alt={brand.name_ko}
-                style={{ maxWidth:"100%", maxHeight:50, objectFit:"contain" }}
+                style={{ width:"auto", height:"auto", maxWidth:"90%", maxHeight:50, objectFit:"contain", objectPosition:"center" }}
                 onError={e => { e.currentTarget.src = mainUrl; }}
               />
               {visibility && (
@@ -400,7 +400,7 @@ export default function BrandModal({ brand, onClose, allBrands = [], onSelectBra
                   <div key={m.label} style={{ display:"flex", flexDirection:"column", alignItems:"center", gap:5 }}>
                     <div style={m.style}>
                       {/* eslint-disable-next-line @next/next/no-img-element */}
-                      <img src={brand.logo_svg ? svgUrl : darkUrl} alt="" style={{ maxWidth:"100%", maxHeight:"100%", objectFit:"contain" }} onError={e => { e.currentTarget.src = pngUrl; }} />
+                      <img src={brand.logo_svg ? svgUrl : darkUrl} alt="" style={{ width:"auto", height:"auto", maxWidth:"100%", maxHeight:"100%", objectFit:"contain", objectPosition:"center" }} onError={e => { e.currentTarget.src = pngUrl; }} />
                     </div>
                     <span style={{ fontSize:9, color:"#71717a", textAlign:"center" }}>{m.label}</span>
                   </div>
@@ -442,11 +442,11 @@ export default function BrandModal({ brand, onClose, allBrands = [], onSelectBra
             <div style={{ display:"grid", gridTemplateColumns:"1fr 1fr", borderRadius:12, overflow:"hidden", height:180, marginBottom:24 }}>
               <div style={{ background:"#ffffff", display:"flex", alignItems:"center", justifyContent:"center", padding:20, border:"1px solid #f0f0f2" }}>
                 {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img src={mainUrl} alt={brand.name_ko} style={{ maxWidth:"60%", maxHeight:"60%", objectFit:"contain" }} onError={e => { e.currentTarget.src = pngUrl; }} />
+                <img src={mainUrl} alt={brand.name_ko} style={{ width:"auto", height:"auto", maxWidth:"70%", maxHeight:"70%", objectFit:"contain", objectPosition:"center" }} onError={e => { e.currentTarget.src = pngUrl; }} />
               </div>
               <div style={{ ...getDarkPreviewStyle(visibility), display:"flex", flexDirection:"column", alignItems:"center", justifyContent:"center", padding:24, gap:6 }}>
                 {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img src={getDarkPreviewUrl(visibility, darkUrl, mainUrl)} alt={brand.name_ko} style={{ maxWidth:"55%", maxHeight:"55%", objectFit:"contain" }} onError={e => { e.currentTarget.src = mainUrl; }} />
+                <img src={getDarkPreviewUrl(visibility, darkUrl, mainUrl)} alt={brand.name_ko} style={{ width:"auto", height:"auto", maxWidth:"65%", maxHeight:"65%", objectFit:"contain", objectPosition:"center" }} onError={e => { e.currentTarget.src = mainUrl; }} />
                 {visibility && (
                   <span style={{ fontSize:8, letterSpacing:".06em", textTransform:"uppercase", opacity:.65, color: visibility.darkMode === "white-only" ? "#52525b" : "#a1a1aa" }}>
                     {getDarkPreviewLabel(visibility)}
@@ -473,7 +473,7 @@ export default function BrandModal({ brand, onClose, allBrands = [], onSelectBra
                   <div key={v.file} style={{ background:"#fafafa", border:`1px solid ${isSwapTarget ? "#f59e0b" : "#e4e4e7"}`, borderRadius:8, overflow:"hidden", outline: isSwapTarget ? "2px solid #fde68a" : "none", outlineOffset:1 }}>
                     <div style={{ height:110, display:"flex", alignItems:"center", justifyContent:"center", padding:14, ...bgStyle(v.bg) }}>
                       {/* eslint-disable-next-line @next/next/no-img-element */}
-                      <img src={url} alt={v.name} style={{ maxWidth:"100%", maxHeight:76, objectFit:"contain" }} onError={e => { e.currentTarget.style.display="none"; }} />
+                      <img src={url} alt={v.name} style={{ width:"auto", height:"auto", maxWidth:"90%", maxHeight:76, objectFit:"contain", objectPosition:"center" }} onError={e => { e.currentTarget.style.display="none"; }} />
                     </div>
                     <div style={{ padding:"8px 10px", borderTop:"1px solid #e4e4e7", background:"#fafafa" }}>
                       <div style={{ display:"flex", alignItems:"center", gap:4 }}>
