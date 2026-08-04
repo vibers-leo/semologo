@@ -127,7 +127,7 @@ export default function BrandGrid({ brands }: Props) {
       </p>
 
       {/* Grid with ads every AD_INTERVAL cards */}
-      <div className="grid gap-4" style={{ gridTemplateColumns: "repeat(auto-fill, minmax(200px, 1fr))" }}>
+      <div className="grid grid-cols-2 sm:grid-cols-4 xl:grid-cols-6 gap-3">
         {visible.map((brand, i) => (
           <>
             <BrandCard
