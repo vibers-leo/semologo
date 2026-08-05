@@ -60,7 +60,7 @@ export default function Header() {
         {/* 로고 */}
         <Link href="/" className="shrink-0 flex items-center" onClick={() => setQuery("")}>
           <Image src="/semologo.png" alt="세모로고" width={983} height={265}
-            className="h-11 w-auto object-contain" priority />
+            className="h-14 w-auto object-contain" priority />
         </Link>
 
         {/* 검색바 — 중앙 고정폭 */}
