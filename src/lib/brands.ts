@@ -18,7 +18,7 @@ const CDN =
 
 export async function fetchBrands(): Promise<Brand[]> {
   const res = await fetch(`${CDN}/brands.json`, {
-    next: { revalidate: 3600 },
+    next: { revalidate: 300 },
   });
   if (!res.ok) return [];
   const data = await res.json();
