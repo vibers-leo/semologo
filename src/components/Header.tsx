@@ -39,7 +39,7 @@ function UserMenu({ user }: { user: User }) {
 
 const ADMIN_EMAIL = "juuuno1116@gmail.com";
 
-export default function Header({ brandCount }: { brandCount?: number }) {
+export default function Header() {
   const { query, setQuery } = useSearch();
   const [user, setUser] = useState<User | null>(null);
   const [authLoaded, setAuthLoaded] = useState(false);
@@ -58,15 +58,9 @@ export default function Header({ brandCount }: { brandCount?: number }) {
       <div className="max-w-[1600px] mx-auto px-6 h-20 flex items-center gap-4">
 
         {/* 로고 */}
-        <Link href="/" className="shrink-0 flex flex-col items-start" onClick={() => setQuery("")}>
+        <Link href="/" className="shrink-0 flex items-center" onClick={() => setQuery("")}>
           <Image src="/semologo.png" alt="세모로고" width={983} height={265}
-            className="h-11 w-auto object-contain" priority />
-          {brandCount !== undefined && (
-            <span className="text-[10px] leading-none mt-0.5 ml-0.5 tabular-nums"
-              style={{ color: "var(--text-secondary)" }}>
-              {brandCount.toLocaleString()}개 브랜드
-            </span>
-          )}
+            className="h-14 w-auto object-contain" priority />
         </Link>
 
         {/* 검색바 — 중앙 고정폭 */}
