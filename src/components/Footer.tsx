@@ -31,8 +31,8 @@ export default function Footer() {
                 </p>
                 <p style={{ fontSize: 11, color: "#71717a", margin: 0 }}>
                   제휴 및 광고 문의{" "}
-                  <a href="mailto:contact@vibers.co.kr" style={{ color: "#a1a1aa", textDecoration: "underline", textUnderlineOffset: 3 }}>
-                    contact@vibers.co.kr
+                  <a href="mailto:contact@semologo.com" style={{ color: "#a1a1aa", textDecoration: "underline", textUnderlineOffset: 3 }}>
+                    contact@semologo.com
                   </a>
                 </p>
                 <div style={{ display: "flex", gap: 12, fontSize: 11 }}>
@@ -52,8 +52,8 @@ export default function Footer() {
                   </button>
                   {bizOpen && (
                     <div style={{ marginTop: 6, fontSize: 10, color: "#52525b", lineHeight: 1.9 }}>
-                      상호: 비버스&nbsp;|&nbsp;대표: 권기원&nbsp;|&nbsp;개인정보관리책임자: 권기원<br />
-                      문의: <a href="mailto:contact@vibers.co.kr" style={{ color: "#71717a", textDecoration: "underline" }}>contact@vibers.co.kr</a>
+                      상호: 주식회사 계발자들&nbsp;|&nbsp;대표: 김정원&nbsp;|&nbsp;개인정보관리책임자: 이준호<br />
+                      문의: <a href="mailto:contact@semologo.com" style={{ color: "#71717a", textDecoration: "underline" }}>contact@semologo.com</a>
                     </div>
                   )}
                 </div>
@@ -66,7 +66,7 @@ export default function Footer() {
                   { label: "로고 제보", href: "/submit" },
                   { label: "로고 요청", href: "/request" },
                   { label: "자주 묻는 질문", href: "/faq" },
-                  { label: "광고 문의", href: "mailto:contact@vibers.co.kr" },
+                  { label: "광고 문의", href: "mailto:contact@semologo.com" },
                 ].map(({ label, href }) =>
                   href.startsWith("mailto") ? (
                     <a key={label} href={href} style={{ fontSize: 11, color: "#71717a", textDecoration: "none", whiteSpace: "nowrap" }}>{label}</a>
@@ -82,7 +82,7 @@ export default function Footer() {
         {/* 항상 보이는 1줄 바 */}
         <div style={{ maxWidth: 1280, margin: "0 auto", padding: "0 24px", height: 44, display: "flex", alignItems: "center", justifyContent: "space-between" }}>
           <span style={{ fontSize: 12, color: "#52525b" }}>
-            © {YEAR} Vibers · 세모로고
+            © {YEAR} 주식회사 계발자들 · 세모로고
           </span>
           <div style={{ display: "flex", align: "center", gap: 16 }}>
             <Link href="/submit" style={{ fontSize: 12, color: "#71717a", textDecoration: "none" }}>로고 제보</Link>
