@@ -2,7 +2,6 @@ import { fetchBrands } from "@/lib/brands";
 import Header from "@/components/Header";
 import BrandGrid from "@/components/BrandGrid";
 import AdSlot from "@/components/AdSlot";
-import Footer from "@/components/Footer";
 
 export const dynamic = "force-static";
 
@@ -18,7 +17,6 @@ export default async function Home() {
       <main className="max-w-[1280px] mx-auto px-4 pb-20">
         <BrandGrid brands={brands} />
       </main>
-      <Footer />
     </div>
   );
 }
