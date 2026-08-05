@@ -57,12 +57,10 @@ export default function Header() {
       style={{ background: "rgba(255,255,255,0.97)", backdropFilter: "blur(8px)", borderColor: "var(--border)" }}>
       <div className="max-w-[1600px] mx-auto px-6 h-20 flex items-center gap-4">
 
-        {/* 로고 — overflow:hidden으로 위아래 여백 크롭 */}
+        {/* 로고 */}
         <Link href="/" className="shrink-0 flex items-center" onClick={() => setQuery("")}>
-          <div style={{ height: 58, overflow: "hidden", display: "flex", alignItems: "center" }}>
-            <Image src="/semologo.png" alt="세모로고" width={280} height={87}
-              style={{ height: 110, width: "auto" }} priority />
-          </div>
+          <Image src="/semologo.png" alt="세모로고" width={983} height={265}
+            className="h-11 w-auto object-contain" priority />
         </Link>
 
         {/* 검색바 — 중앙 고정폭 */}
