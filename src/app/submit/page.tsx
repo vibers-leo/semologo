@@ -41,15 +41,14 @@ export default function SubmitPage() {
     setStatus("sending");
 
     const fd = new FormData();
-    fd.set("name_ko", nameKo);
-    fd.set("name_en", nameEn);
+    fd.set("brand_name", `${nameKo} / ${nameEn}`);
     fd.set("category", category);
-    fd.set("domain", domain);
+    fd.set("logo_url", domain);
     fd.set("memo", memo);
     if (file) fd.set("logo_file", file);
 
     try {
-      const res = await fetch("/api/submit-logo", { method: "POST", body: fd });
+      const res = await fetch("https://ai.vibers.co.kr/api/logo-submit", { method: "POST", body: fd });
       const json = await res.json();
       setStatus(json.success ? "done" : "error");
     } catch {
