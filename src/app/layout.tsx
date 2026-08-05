@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Script from "next/script";
+import { SearchProvider } from "@/lib/search-context";
 import "./globals.css";
 
 const ADSENSE_ID = process.env.NEXT_PUBLIC_ADSENSE_ID || "ca-pub-7704550771011130";
@@ -53,7 +54,7 @@ export default function RootLayout({
           strategy="afterInteractive"
         />
       </head>
-      <body className="min-h-screen">{children}</body>
+      <body className="min-h-screen"><SearchProvider>{children}</SearchProvider></body>
     </html>
   );
 }
