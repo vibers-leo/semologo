@@ -63,6 +63,36 @@ function relTime(ts: number) {
 
 type ShareEntry = { emoji: string; ts: number; type?: string; label?: string; file?: string };
 
+async function generateInverted(src: string): Promise<string | null> {
+  return new Promise(resolve => {
+    const img = new Image();
+    img.crossOrigin = "anonymous";
+    img.onload = () => {
+      try {
+        const canvas = document.createElement("canvas");
+        canvas.width = img.naturalWidth || 800;
+        canvas.height = img.naturalHeight || 800;
+        const ctx = canvas.getContext("2d");
+        if (!ctx) { resolve(null); return; }
+        ctx.drawImage(img, 0, 0);
+        const imageData = ctx.getImageData(0, 0, canvas.width, canvas.height);
+        const d = imageData.data;
+        for (let i = 0; i < d.length; i += 4) {
+          if (d[i + 3] > 10) {
+            d[i]     = 255 - d[i];
+            d[i + 1] = 255 - d[i + 1];
+            d[i + 2] = 255 - d[i + 2];
+          }
+        }
+        ctx.putImageData(imageData, 0, 0);
+        resolve(canvas.toDataURL("image/png"));
+      } catch { resolve(null); }
+    };
+    img.onerror = () => resolve(null);
+    img.src = src;
+  });
+}
+
 function toast(msg: string) {
   if (typeof document === "undefined") return;
   const el = document.createElement("div");
@@ -121,6 +151,7 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
   const [reportUrl, setReportUrl] = useState("");
   const [reportStatus, setReportStatus] = useState<"idle"|"sending"|"done">("idle");
   const [copyDone, setCopyDone] = useState(false);
+  const [invertedUrl, setInvertedUrl] = useState<string | null>(null);
 
   const cdnUrl = (file: string) => `${CDN}/${brand.id}/${file}?v=${VERSION}`;
   const svgUrl  = cdnUrl("logo.svg");
@@ -177,11 +208,20 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
   }, [brand.id]);
 
   useEffect(() => {
+    setInvertedUrl(null);
     analyzeLogoVisibility(
       brand.id,
       `${CDN}/${brand.id}/logo.png`,
       `${CDN}/${brand.id}/logo-transparent.png`,
-    ).then(setVisibility);
+    ).then(async result => {
+      setVisibility(result);
+      if (result.darkMode === "white-only") {
+        const transparentSrc = `${CDN}/${brand.id}/logo-transparent.png?v=${VERSION}`;
+        const pngSrc = `${CDN}/${brand.id}/logo.png?v=${VERSION}`;
+        const inv = await generateInverted(transparentSrc) ?? await generateInverted(pngSrc);
+        setInvertedUrl(inv);
+      }
+    });
     const img = new Image();
     img.onload = () => setHasWhiteLogo(true);
     img.onerror = () => setHasWhiteLogo(false);
@@ -408,11 +448,11 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
 
           {/* 다크 프리뷰 */}
           <div style={{ borderRadius:8, overflow:"hidden" }}>
-            <div style={{ ...getDarkPreviewStyle(visibility), position:"relative", height:72 }}>
-              <LogoBox src={darkPreviewSrc} alt={brand.name_ko} height={72} padding={12} bg="transparent" fallback={mainUrl} />
+            <div style={{ ...(invertedUrl ? { background:"#111114" } : getDarkPreviewStyle(visibility)), position:"relative", height:72 }}>
+              <LogoBox src={invertedUrl || darkPreviewSrc} alt={brand.name_ko} height={72} padding={12} bg="transparent" fallback={mainUrl} />
               {visibility && (
-                <span style={{ position:"absolute", bottom:4, left:0, right:0, textAlign:"center", fontSize:8, color: visibility.darkMode === "white-only" ? "#71717a" : "#a1a1aa", letterSpacing:".06em", textTransform:"uppercase", opacity:.8 }}>
-                  {getDarkPreviewLabel(visibility)}{hasWhiteLogo && visibility.darkMode !== "white-only" ? " · 화이트" : ""}
+                <span style={{ position:"absolute", bottom:4, left:0, right:0, textAlign:"center", fontSize:8, color:"#71717a", letterSpacing:".06em", textTransform:"uppercase", opacity:.8 }}>
+                  {invertedUrl ? "흑백 반전 (다크용)" : getDarkPreviewLabel(visibility) + (hasWhiteLogo && visibility.darkMode !== "white-only" ? " · 화이트" : "")}
                 </span>
               )}
             </div>
@@ -463,6 +503,12 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
                 ↓ PNG 다운로드
               </a>
             )}
+            {invertedUrl && (
+              <a href={invertedUrl} download={`${brand.id}-logo-dark.png`}
+                style={{ display:"flex", alignItems:"center", justifyContent:"center", gap:5, padding:"9px 0", borderRadius:8, fontSize:12, fontWeight:600, background:"#111114", color:"#a78bfa", textDecoration:"none", border:"1px solid #3f3f46" }}>
+                🌙 반전 PNG (다크용)
+              </a>
+            )}
           </div>
         </div>
 
@@ -471,11 +517,11 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
           {/* 인트로 라이트/다크 */}
           <div style={{ display:"grid", gridTemplateColumns:"1fr 1fr", borderRadius:12, overflow:"hidden", height:180, marginBottom:24 }}>
             <LogoBox src={mainUrl} alt={brand.name_ko} height={180} padding={24} bg="white" fallback={pngUrl} />
-            <div style={{ ...getDarkPreviewStyle(visibility), position:"relative", height:180 }}>
-              <LogoBox src={getDarkPreviewUrl(visibility, darkUrl, mainUrl)} alt={brand.name_ko} height={180} padding={28} bg="transparent" fallback={mainUrl} />
+            <div style={{ ...(invertedUrl ? { background:"#111114" } : getDarkPreviewStyle(visibility)), position:"relative", height:180 }}>
+              <LogoBox src={invertedUrl || getDarkPreviewUrl(visibility, darkUrl, mainUrl)} alt={brand.name_ko} height={180} padding={28} bg="transparent" fallback={mainUrl} />
               {visibility && (
-                <span style={{ position:"absolute", bottom:8, left:0, right:0, textAlign:"center", fontSize:8, letterSpacing:".06em", textTransform:"uppercase", opacity:.65, color: visibility.darkMode === "white-only" ? "#52525b" : "#a1a1aa" }}>
-                  {getDarkPreviewLabel(visibility)}
+                <span style={{ position:"absolute", bottom:8, left:0, right:0, textAlign:"center", fontSize:8, letterSpacing:".06em", textTransform:"uppercase", opacity:.65, color: invertedUrl ? "#71717a" : (visibility.darkMode === "white-only" ? "#52525b" : "#a1a1aa") }}>
+                  {invertedUrl ? "흑백 반전" : getDarkPreviewLabel(visibility)}
                 </span>
               )}
             </div>
@@ -489,6 +535,26 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
             <span style={{ fontSize:10, color:"#a1a1aa" }}>👍 추천 · 🔄 교체 요청</span>
           </div>
           <div style={{ display:"grid", gridTemplateColumns:"repeat(auto-fill,minmax(160px,1fr))", gap:12 }}>
+            {invertedUrl && (
+              <div style={{ background:"#111114", border:"1px solid #3f3f46", borderRadius:8, overflow:"hidden" }}>
+                <div style={{ position:"relative", height:110, background:"#111114" }}>
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img src={invertedUrl} alt="반전 PNG"
+                    style={{ position:"absolute", top:14, right:14, bottom:14, left:14, width:"calc(100% - 28px)", height:"calc(100% - 28px)", objectFit:"contain", objectPosition:"center" }} />
+                  <span style={{ position:"absolute", top:5, right:5, fontSize:9, fontWeight:700, color:"#a78bfa", background:"rgba(99,102,241,.2)", border:"1px solid rgba(99,102,241,.3)", borderRadius:10, padding:"1px 5px" }}>다크용</span>
+                </div>
+                <div style={{ padding:"8px 10px", borderTop:"1px solid #3f3f46", background:"#1c1c1e" }}>
+                  <div style={{ fontSize:11, fontWeight:600, color:"#e4e4e7" }}>반전 PNG</div>
+                  <div style={{ fontSize:10, color:"#71717a", marginTop:1 }}>다크 배경용 흰색 반전</div>
+                  <div style={{ marginTop:8 }}>
+                    <a href={invertedUrl} download={`${brand.id}-logo-dark.png`}
+                      style={{ display:"block", fontSize:11, padding:"5px 0", borderRadius:6, background:"#6366f1", color:"#fff", textAlign:"center", textDecoration:"none", fontWeight:500 }}>
+                      ↓ 다운로드
+                    </a>
+                  </div>
+                </div>
+              </div>
+            )}
             {variants.map(v => {
               const url = cdnUrl(v.file);
               const key = fk(v.file);
