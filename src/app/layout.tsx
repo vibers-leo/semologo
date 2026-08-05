@@ -9,7 +9,7 @@ const GA_ID = "G-NWML2V1S7V";
 
 export const metadata: Metadata = {
   title: "세모로고 — 세상 모든 로고",
-  description: "브랜드 로고를 SVG·PNG로 무료 다운로드. 현대·삼성·LG·SK·스타벅스 등 6,040개 브랜드. 세상 모든 로고, 세모로고.",
+  description: "브랜드 로고를 SVG·PNG로 무료 다운로드. 현대·삼성·LG·SK·스타벅스 등 6,061개 브랜드. 세상 모든 로고, 세모로고.",
   keywords: ["로고", "브랜드로고", "SVG 로고", "PNG 로고", "로고 다운로드", "기업 로고", "무료 로고", "세모로고", "semologo", "로고창고"],
   other: {
     "naver-site-verification": "f8377ea94a22905671d864f6c08c3e9ea3a1d368",
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: "세모로고 — 세상 모든 로고",
-    description: "현대·삼성·LG·SK 등 6,040개 브랜드 로고를 SVG·PNG로 무료 다운로드",
+    description: "현대·삼성·LG·SK 등 6,061개 브랜드 로고를 SVG·PNG로 무료 다운로드",
     siteName: "세모로고",
     url: "https://semologo.com",
     type: "website",
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "세모로고 — 세상 모든 로고",
-    description: "6,040개 브랜드 로고 SVG·PNG 무료 다운로드",
+    description: "6,061개 브랜드 로고 SVG·PNG 무료 다운로드",
     images: ["https://semologo.com/og-image.png"],
   },
 };
