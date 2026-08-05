@@ -3,7 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { onAuthStateChanged, signOut, type User } from "firebase/auth";
 import { getClientAuth } from "@/lib/firebase";
 import { useSearch } from "@/lib/search-context";
@@ -39,10 +39,28 @@ function UserMenu({ user }: { user: User }) {
 
 const ADMIN_EMAIL = "juuuno1116@gmail.com";
 
+const NAV_LINKS = [
+  { label: "로고 제보", href: "/submit" },
+  { label: "로고 요청", href: "/request" },
+  { label: "자주 묻는 질문", href: "/faq" },
+];
+
 export default function Header() {
   const { query, setQuery } = useSearch();
   const [user, setUser] = useState<User | null>(null);
   const [authLoaded, setAuthLoaded] = useState(false);
+  const [menuOpen, setMenuOpen] = useState(false);
+  const menuRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    function handleClick(e: MouseEvent) {
+      if (menuRef.current && !menuRef.current.contains(e.target as Node)) {
+        setMenuOpen(false);
+      }
+    }
+    if (menuOpen) document.addEventListener("mousedown", handleClick);
+    return () => document.removeEventListener("mousedown", handleClick);
+  }, [menuOpen]);
 
   useEffect(() => {
     const unsub = onAuthStateChanged(getClientAuth(), u => {
@@ -92,22 +110,14 @@ export default function Header() {
 
         {/* 우측 메뉴 */}
         <nav className="flex items-center gap-2 shrink-0 ml-auto">
-          <Link href="/request"
-            className="hidden sm:flex items-center gap-1.5 text-sm px-3 py-1.5 rounded-lg transition-colors hover:bg-gray-100"
-            style={{ color: "var(--text-secondary)" }}>
-            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-              <path d="M12 5v14M5 12h14"/>
-            </svg>
-            로고 요청
-          </Link>
-          <Link href="/submit"
-            className="hidden sm:flex items-center gap-1.5 text-sm px-3 py-1.5 rounded-lg transition-colors hover:bg-gray-100"
-            style={{ color: "var(--text-secondary)" }}>
-            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/>
-            </svg>
-            로고 제보
-          </Link>
+          {/* 데스크탑 링크 */}
+          {NAV_LINKS.map(({ label, href }) => (
+            <Link key={href} href={href}
+              className="hidden sm:flex items-center text-sm px-3 py-1.5 rounded-lg transition-colors hover:bg-gray-100"
+              style={{ color: "var(--text-secondary)" }}>
+              {label}
+            </Link>
+          ))}
           {user?.email === ADMIN_EMAIL && (
             <Link href="/requests"
               className="hidden sm:block text-sm px-2 py-1.5 rounded-lg transition-colors hover:bg-gray-100"
@@ -120,12 +130,61 @@ export default function Header() {
               ? <UserMenu user={user} />
               : (
                 <Link href="/login"
-                  className="text-sm px-3 py-1.5 rounded-full font-medium text-white ml-1"
+                  className="hidden sm:flex text-sm px-3 py-1.5 rounded-full font-medium text-white ml-1"
                   style={{ background: "#111" }}>
                   로그인
                 </Link>
               )
           )}
+
+          {/* 햄버거 (모바일) */}
+          <div className="relative sm:hidden" ref={menuRef}>
+            <button
+              onClick={() => setMenuOpen(v => !v)}
+              className="p-2 rounded-lg transition-colors hover:bg-gray-100"
+              style={{ color: "var(--text-secondary)" }}
+              aria-label="메뉴 열기">
+              {menuOpen
+                ? <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2"><path d="M18 6 6 18M6 6l12 12"/></svg>
+                : <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
+              }
+            </button>
+            {menuOpen && (
+              <div className="absolute right-0 mt-2 w-44 rounded-xl border shadow-lg overflow-hidden z-50"
+                style={{ background: "#fff", borderColor: "var(--border)" }}>
+                {NAV_LINKS.map(({ label, href }) => (
+                  <Link key={href} href={href}
+                    onClick={() => setMenuOpen(false)}
+                    className="block px-4 py-3 text-sm hover:bg-gray-50 transition-colors"
+                    style={{ color: "var(--text)" }}>
+                    {label}
+                  </Link>
+                ))}
+                {user?.email === ADMIN_EMAIL && (
+                  <Link href="/requests" onClick={() => setMenuOpen(false)}
+                    className="block px-4 py-3 text-xs hover:bg-gray-50 transition-colors"
+                    style={{ color: "#a1a1aa" }}>
+                    관리
+                  </Link>
+                )}
+                <div className="border-t" style={{ borderColor: "var(--border)" }}>
+                  {authLoaded && (
+                    user
+                      ? <button onClick={async () => { await signOut(getClientAuth()); setMenuOpen(false); }}
+                          className="w-full text-left px-4 py-3 text-sm hover:bg-gray-50 transition-colors"
+                          style={{ color: "var(--text-secondary)" }}>
+                          로그아웃
+                        </button>
+                      : <Link href="/login" onClick={() => setMenuOpen(false)}
+                          className="block px-4 py-3 text-sm font-medium hover:bg-gray-50 transition-colors"
+                          style={{ color: "#111" }}>
+                          로그인
+                        </Link>
+                  )}
+                </div>
+              </div>
+            )}
+          </div>
         </nav>
       </div>
     </header>
