@@ -7,6 +7,8 @@ import {
   orderBy,
   onSnapshot,
   Timestamp,
+  doc,
+  updateDoc,
   type Unsubscribe,
 } from "firebase/firestore";
 import { getClientDb } from "./firebase";
@@ -44,4 +46,12 @@ export function listenLogoRequests(
   return onSnapshot(q, (snap) => {
     callback(snap.docs.map((d) => ({ id: d.id, ...d.data() } as LogoRequest)));
   });
+}
+
+export async function updateRequestStatus(
+  id: string,
+  status: "pending" | "done"
+): Promise<void> {
+  const db = getClientDb();
+  await updateDoc(doc(db, "logo_requests", id), { status });
 }
