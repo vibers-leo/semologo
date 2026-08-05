@@ -297,7 +297,7 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
   const castQualityVote = useCallback(async (vote: "up" | "down") => {
     if (myQualityVote) { toast(myQualityVote === vote ? "이미 투표했어요" : "투표는 한 번만 할 수 있어요"); return; }
     try {
-      const result = await voteQuality(brand.id, vote);
+      const result = await voteQuality(brand.id, vote, brand.name_ko || brand.name_en);
       setQuality(result);
       setMyQualityVote(vote);
       toast(vote === "up" ? "👍 좋아요!" : "🚩 교체 요청이 접수됐어요");

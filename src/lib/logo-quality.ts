@@ -13,7 +13,21 @@ import {
   increment, orderBy, query, limit, type DocumentData,
 } from "firebase/firestore";
 
-export const FLAG_THRESHOLD = 3;
+export const FLAG_THRESHOLD = 1;
+
+const ALERT_URL = "https://ai.vibers.co.kr/api/semo-flag";
+
+async function notifyFlag(brandId: string, brandName: string, down: number) {
+  try {
+    await fetch(ALERT_URL, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ brandId, brandName, down }),
+    });
+  } catch {
+    // 알림 실패는 조용히 무시
+  }
+}
 
 export interface QualityData {
   up: number;
@@ -47,7 +61,8 @@ export function getMyVote(brandId: string): "up" | "down" | null {
 
 export async function voteQuality(
   brandId: string,
-  vote: "up" | "down"
+  vote: "up" | "down",
+  brandName?: string,
 ): Promise<QualityData> {
   const db = getClientDb();
   const ref = doc(db, COLL, brandId);
@@ -72,6 +87,11 @@ export async function voteQuality(
   }
 
   const flagged = newDown >= FLAG_THRESHOLD;
+
+  if (vote === "down" && flagged) {
+    notifyFlag(brandId, brandName || brandId, newDown);
+  }
+
   if (typeof window !== "undefined") {
     localStorage.setItem(LS_KEY(brandId), vote);
   }
