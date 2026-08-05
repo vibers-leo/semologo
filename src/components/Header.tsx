@@ -55,15 +55,18 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-50 border-b"
       style={{ background: "rgba(255,255,255,0.97)", backdropFilter: "blur(8px)", borderColor: "var(--border)" }}>
-      <div className="max-w-[1280px] mx-auto px-4 h-16 flex items-center gap-3">
+      <div className="max-w-[1600px] mx-auto px-6 h-20 flex items-center gap-4">
 
-        {/* 로고 */}
+        {/* 로고 — overflow:hidden으로 위아래 여백 크롭 */}
         <Link href="/" className="shrink-0 flex items-center" onClick={() => setQuery("")}>
-          <Image src="/semologo.png" alt="세모로고" width={280} height={87} className="h-10 w-auto object-contain" priority />
+          <div style={{ height: 58, overflow: "hidden", display: "flex", alignItems: "center" }}>
+            <Image src="/semologo.png" alt="세모로고" width={280} height={87}
+              style={{ height: 110, width: "auto" }} priority />
+          </div>
         </Link>
 
-        {/* 검색바 */}
-        <div className="relative flex-1 max-w-[640px]">
+        {/* 검색바 — 중앙 고정폭 */}
+        <div className="relative w-[480px] shrink-0 mx-auto">
           <svg className="absolute left-3.5 top-1/2 -translate-y-1/2 text-gray-400 pointer-events-none"
             width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2">
             <circle cx="11" cy="11" r="8" /><path d="m21 21-4.35-4.35" />
@@ -90,7 +93,7 @@ export default function Header() {
         </div>
 
         {/* 우측 메뉴 */}
-        <nav className="flex items-center gap-1 shrink-0">
+        <nav className="flex items-center gap-2 shrink-0 ml-auto">
           <Link href="/request"
             className="hidden sm:flex items-center gap-1.5 text-sm px-3 py-1.5 rounded-lg transition-colors hover:bg-gray-100"
             style={{ color: "var(--text-secondary)" }}>
