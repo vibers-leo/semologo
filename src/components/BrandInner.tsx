@@ -77,13 +77,14 @@ function LogoBox({
   src, alt, height, padding = 20, bg = "white", fallback, children,
 }: {
   src: string; alt: string; height: number; padding?: number;
-  bg?: "white" | "checker" | "dark"; fallback?: string;
+  bg?: "white" | "checker" | "dark" | "transparent"; fallback?: string;
   children?: React.ReactNode;
 }) {
   const bgStyle: React.CSSProperties =
-    bg === "checker" ? CHECKER :
-    bg === "dark"    ? { background: "#111114" } :
-                       { background: "#ffffff" };
+    bg === "checker"      ? CHECKER :
+    bg === "dark"         ? { background: "#111114" } :
+    bg === "transparent"  ? { background: "transparent" } :
+                            { background: "#ffffff" };
 
   return (
     <div style={{ position: "relative", height, overflow: "hidden", ...bgStyle }}>
@@ -408,7 +409,7 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
           {/* 다크 프리뷰 */}
           <div style={{ borderRadius:8, overflow:"hidden" }}>
             <div style={{ ...getDarkPreviewStyle(visibility), position:"relative", height:72 }}>
-              <LogoBox src={darkPreviewSrc} alt={brand.name_ko} height={72} padding={12} bg="dark" fallback={mainUrl} />
+              <LogoBox src={darkPreviewSrc} alt={brand.name_ko} height={72} padding={12} bg="transparent" fallback={mainUrl} />
               {visibility && (
                 <span style={{ position:"absolute", bottom:4, left:0, right:0, textAlign:"center", fontSize:8, color: visibility.darkMode === "white-only" ? "#71717a" : "#a1a1aa", letterSpacing:".06em", textTransform:"uppercase", opacity:.8 }}>
                   {getDarkPreviewLabel(visibility)}{hasWhiteLogo && visibility.darkMode !== "white-only" ? " · 화이트" : ""}
@@ -471,7 +472,7 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
           <div style={{ display:"grid", gridTemplateColumns:"1fr 1fr", borderRadius:12, overflow:"hidden", height:180, marginBottom:24 }}>
             <LogoBox src={mainUrl} alt={brand.name_ko} height={180} padding={24} bg="white" fallback={pngUrl} />
             <div style={{ ...getDarkPreviewStyle(visibility), position:"relative", height:180 }}>
-              <LogoBox src={getDarkPreviewUrl(visibility, darkUrl, mainUrl)} alt={brand.name_ko} height={180} padding={28} bg="dark" fallback={mainUrl} />
+              <LogoBox src={getDarkPreviewUrl(visibility, darkUrl, mainUrl)} alt={brand.name_ko} height={180} padding={28} bg="transparent" fallback={mainUrl} />
               {visibility && (
                 <span style={{ position:"absolute", bottom:8, left:0, right:0, textAlign:"center", fontSize:8, letterSpacing:".06em", textTransform:"uppercase", opacity:.65, color: visibility.darkMode === "white-only" ? "#52525b" : "#a1a1aa" }}>
                   {getDarkPreviewLabel(visibility)}
