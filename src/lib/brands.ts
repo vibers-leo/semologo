@@ -3,8 +3,10 @@ export interface Brand {
   name_ko: string;
   name_en: string;
   category: string;
-  logo_svg: string | null;
-  logo_png: string | null;
+  logo_svg?: string | boolean | null;
+  logo_png?: string | boolean | null;
+  has_svg?: boolean;
+  has_png?: boolean;
   dark_variant?: boolean;
   lang_en?: boolean;
   added_at?: string;
