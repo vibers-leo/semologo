@@ -84,7 +84,7 @@ export default function Footer() {
           <span style={{ fontSize: 12, color: "#52525b" }}>
             © {YEAR} 주식회사 계발자들 · 세모로고
           </span>
-          <div style={{ display: "flex", align: "center", gap: 16 }}>
+          <div style={{ display: "flex", alignItems: "center", gap: 16 }}>
             <Link href="/submit" style={{ fontSize: 12, color: "#71717a", textDecoration: "none" }}>로고 제보</Link>
             <Link href="/request" style={{ fontSize: 12, color: "#71717a", textDecoration: "none" }}>로고 요청</Link>
             <button
