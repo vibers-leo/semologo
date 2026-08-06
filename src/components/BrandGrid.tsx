@@ -27,15 +27,26 @@ const CAT_EMOJI: Record<string, string> = {
   "기타": "📦",
 };
 
-interface Props { brands: Brand[] }
 const PAGE_SIZE = 60;
 
-export default function BrandGrid({ brands }: Props) {
+export default function BrandGrid() {
   const { query, selectedCats, toggleCat, clearCats } = useSearch();
+  const [brands, setBrands] = useState<Brand[]>([]);
+  const [loading, setLoading] = useState(true);
   const [selected, setSelected] = useState<Brand | null>(null);
   const [page, setPage] = useState(1);
   const [showAllCats, setShowAllCats] = useState(false);
   const sentinelRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    fetch(`${CDN}/brands.json`, { cache: "no-store" })
+      .then(r => r.json())
+      .then(d => {
+        const list = Array.isArray(d) ? d : (d.brands ?? []);
+        setBrands(list);
+      })
+      .finally(() => setLoading(false));
+  }, []);
 
   // 카테고리별 카운트 (실제 데이터 기반, 내림차순)
   const categoryStats = useMemo(() => {
@@ -93,6 +104,15 @@ export default function BrandGrid({ brands }: Props) {
       if (b) setSelected(b);
     }
   }, [brands]);
+
+  if (loading) {
+    return (
+      <div style={{ padding: "80px 0", textAlign: "center", color: "#a1a1aa" }}>
+        <div style={{ fontSize: 28, marginBottom: 12 }}>⏳</div>
+        <div style={{ fontSize: 14 }}>로고 데이터 로딩 중...</div>
+      </div>
+    );
+  }
 
   return (
     <>
