@@ -158,7 +158,8 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
   const pngUrl  = cdnUrl("logo.png");
   const darkUrl = cdnUrl("logo-transparent.png");
   const whiteUrl = cdnUrl("logo-white.png");
-  const mainUrl = brand.logo_svg ? svgUrl : pngUrl;
+  const hasSvg = !!(brand.logo_svg || brand.has_svg);
+  const mainUrl = hasSvg ? svgUrl : pngUrl;
   const pageUrl = typeof window !== "undefined" ? `${window.location.origin}/#${brand.id}` : "";
 
   const relations = (BRAND_RELATIONS[brand.id] || []).flatMap(rel => {
@@ -167,7 +168,7 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
   });
 
   const variants = VARIANTS.filter(v => {
-    if (v.svgOnly && !brand.logo_svg) return false;
+    if (v.svgOnly && !hasSvg) return false;
     if (v.langEn && !brand.lang_en) return false;
     return true;
   });
@@ -470,7 +471,7 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
                 <div key={m.label} style={{ display:"flex", flexDirection:"column", alignItems:"center", gap:5 }}>
                   <div style={m.style}>
                     {/* eslint-disable-next-line @next/next/no-img-element */}
-                    <img src={brand.logo_svg ? svgUrl : darkUrl} alt="" style={{ position:"absolute", inset:"10%", width:"80%", height:"80%", objectFit:"contain", objectPosition:"center" }} onError={e => { e.currentTarget.src = pngUrl; }} />
+                    <img src={hasSvg ? svgUrl : darkUrl} alt="" style={{ position:"absolute", inset:"10%", width:"80%", height:"80%", objectFit:"contain", objectPosition:"center" }} onError={e => { e.currentTarget.src = pngUrl; }} />
                   </div>
                   <span style={{ fontSize:9, color:"#71717a", textAlign:"center" }}>{m.label}</span>
                 </div>
@@ -482,7 +483,7 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
           <div>
             <div style={{ fontSize:10, fontWeight:700, color:"#71717a", letterSpacing:".08em", textTransform:"uppercase", marginBottom:10 }}>보유 형식</div>
             <div style={{ display:"flex", flexDirection:"column", gap:5 }}>
-              {[{ label:"SVG 벡터", ok:!!brand.logo_svg }, { label:"PNG", ok:true }, { label:"영문 버전", ok:!!brand.lang_en }].map(({ label, ok }) => (
+              {[{ label:"SVG 벡터", ok:hasSvg }, { label:"PNG", ok:true }, { label:"영문 버전", ok:!!brand.lang_en }].map(({ label, ok }) => (
                 <span key={label} style={{ display:"inline-flex", alignItems:"center", gap:4, padding:"4px 10px", borderRadius:20, fontSize:11, fontWeight:600, background:ok?"rgba(34,197,94,0.12)":"#f4f4f5", color:ok?"#22c55e":"#71717a", border:`1px solid ${ok?"rgba(34,197,94,0.2)":"#e4e4e7"}` }}>
                   {ok ? "✓" : "✗"} {label}
                 </span>
@@ -492,12 +493,12 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
 
           {/* 빠른 다운로드 */}
           <div style={{ display:"flex", flexDirection:"column", gap:7, marginTop:"auto" }}>
-            <a href={mainUrl} download={`${brand.id}-logo.${brand.logo_svg ? "svg" : "png"}`} target="_blank" rel="noopener noreferrer"
+            <a href={mainUrl} download={`${brand.id}-logo.${hasSvg ? "svg" : "png"}`} target="_blank" rel="noopener noreferrer"
               style={{ display:"flex", alignItems:"center", justifyContent:"center", gap:6, padding:"9px 0", borderRadius:8, fontSize:12, fontWeight:600, background:"#6366f1", color:"#fff", textDecoration:"none" }}>
               <svg width="13" height="13" fill="none" stroke="currentColor" strokeWidth="2.5" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3"/></svg>
-              {brand.logo_svg ? "SVG" : "PNG"} 다운로드
+              {hasSvg ? "SVG" : "PNG"} 다운로드
             </a>
-            {brand.logo_svg && (
+            {hasSvg && (
               <a href={pngUrl} download={`${brand.id}-logo.png`} target="_blank" rel="noopener noreferrer"
                 style={{ display:"flex", alignItems:"center", justifyContent:"center", padding:"9px 0", borderRadius:8, fontSize:12, fontWeight:600, background:"#f4f4f5", color:"#52525b", textDecoration:"none", border:"1px solid #e4e4e7" }}>
                 ↓ PNG 다운로드
