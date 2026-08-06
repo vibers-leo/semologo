@@ -39,7 +39,7 @@ export default function BrandGrid() {
   const sentinelRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    fetch(`${CDN}/brands.json`, { cache: "force-cache" })
+    fetch(`${CDN}/brands-slim.json`, { cache: "force-cache" })
       .then(r => r.json())
       .then(d => {
         const list = Array.isArray(d) ? d : (d.brands ?? []);
@@ -266,14 +266,23 @@ export default function BrandGrid() {
 function BrandCard({ brand, onClick, priority }: { brand: Brand; onClick: () => void; priority: boolean }) {
   const svgUrl = `${CDN}/${brand.id}/logo.svg?v=${VERSION}`;
   const pngUrl = `${CDN}/${brand.id}/logo.png?v=${VERSION}`;
-  const lightSrc = brand.logo_svg ? svgUrl : pngUrl;
+  const hasSvg = !!(brand.logo_svg || brand.has_svg);
+  const hasPng = !!(brand.logo_png || brand.has_png);
+  const initSrc = hasSvg ? svgUrl : pngUrl;
 
   return (
     <div className="logo-card" onClick={onClick}>
       <div className="card-preview">
         {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img src={lightSrc} alt={brand.name_ko} loading={priority ? "eager" : "lazy"}
-          onError={e => { (e.currentTarget as HTMLImageElement).src = pngUrl; }} />
+        <img src={initSrc} alt={brand.name_ko} loading={priority ? "eager" : "lazy"}
+          onError={e => {
+            const img = e.currentTarget as HTMLImageElement;
+            if (hasPng && img.src !== pngUrl) {
+              img.src = pngUrl;
+            } else {
+              img.style.opacity = "0";
+            }
+          }} />
       </div>
       <div className="card-info">
         <div style={{ minWidth: 0 }}>
@@ -286,8 +295,8 @@ function BrandCard({ brand, onClick, priority }: { brand: Brand; onClick: () => 
           <div className="card-category">{brand.category}</div>
         </div>
         <div className="card-tags">
-          {brand.logo_svg && <span className="card-tag tag-svg">SVG</span>}
-          {brand.logo_png && <span className="card-tag tag-png">PNG</span>}
+          {hasSvg && <span className="card-tag tag-svg">SVG</span>}
+          {hasPng && <span className="card-tag tag-png">PNG</span>}
         </div>
       </div>
     </div>
