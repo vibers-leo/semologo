@@ -64,10 +64,14 @@ export default function BrandGrid() {
   // 필터링
   const filtered = useMemo(() => {
     setPage(1);
+    const hasLogo = (b: Brand) => !!(b.logo_svg || b.has_svg || b.logo_png || b.has_png);
     let list = [...brands].sort((a, b) => {
-      const da = a.added_at ?? "";
-      const db = b.added_at ?? "";
-      return db.localeCompare(da);
+      // 로고 있는 것 우선
+      const la = hasLogo(a) ? 1 : 0;
+      const lb = hasLogo(b) ? 1 : 0;
+      if (lb !== la) return lb - la;
+      // 그 다음 최신순
+      return (b.added_at ?? "").localeCompare(a.added_at ?? "");
     });
     if (query) {
       const q = query.toLowerCase();
