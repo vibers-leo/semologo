@@ -39,7 +39,7 @@ export default function BrandGrid() {
   const sentinelRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    fetch(`${CDN}/brands.json`, { cache: "no-store" })
+    fetch(`${CDN}/brands.json`, { cache: "force-cache" })
       .then(r => r.json())
       .then(d => {
         const list = Array.isArray(d) ? d : (d.brands ?? []);
