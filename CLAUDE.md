@@ -51,8 +51,17 @@ src/
 ```
 
 ## CURRENT_VERSION (CDN 캐시 버스팅)
-- BrandGrid.tsx, BrandModal.tsx 내 `VERSION` 상수: `1785636800`
-- brands.json 또는 로고 파일 변경 시 함께 업데이트
+- `BrandGrid.tsx`, `BrandInner.tsx` 내 `VERSION` 상수: `1786112789`
+- brand-logos 레포의 `version.txt` / `index.html`(`CURRENT_VERSION`)과 **같은 값**으로 맞춘다
+- brands.json 또는 로고 파일 변경 시 4곳 전부 함께 업데이트
+
+## 로고 유무 판정 (중요)
+- `brands.json`: `logo_svg` 또는 `has_svg` 중 하나라도 truthy면 SVG 사용 → 없으면 PNG 폴백 → 둘 다 없으면 기본 아이콘
+- **두 필드를 항상 같이 세팅할 것.** `brand/[id]/page.tsx`는 `logo_svg`만 보고,
+  `BrandGrid`/`BrandInner`는 둘 다 본다 (과거 빈화면 버그 원인)
+- `brands-slim.json`: id·name_ko·name_en·category·has_svg·has_png·added_at만 담은 경량판.
+  목록 그리드용으로 적합 (원본 대비 훨씬 작음)
+- `<img>`로 CDN 직접 사용 가능. **onError 폴백 필수**
 
 ## 세모로고 별칭
 "세모로고에서 찾아봐" → https://logo.vibers.co.kr/_clients/brands.json fetch 후 검색

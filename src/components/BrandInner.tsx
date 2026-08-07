@@ -17,7 +17,7 @@ import {
 } from "@/lib/logo-quality";
 
 const CDN = process.env.NEXT_PUBLIC_CDN_URL || "https://logo.vibers.co.kr/_clients";
-const VERSION = "1785892694";
+const VERSION = "1786112789";
 
 interface Props {
   brand: Brand;

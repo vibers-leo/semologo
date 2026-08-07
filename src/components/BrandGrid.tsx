@@ -10,7 +10,7 @@ const AdSlot = dynamic(() => import("./AdSlot"), { ssr: false });
 const AD_INTERVAL = 12;
 
 const CDN = process.env.NEXT_PUBLIC_CDN_URL || "https://logo.vibers.co.kr/_clients";
-const VERSION = "1785974090";
+const VERSION = "1786112789";
 
 // 카테고리 아이콘 매핑
 const CAT_EMOJI: Record<string, string> = {
