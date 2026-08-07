@@ -19,8 +19,10 @@
 - Vercel 배포 (로컬 빌드는 외장SSD 심링크로 Turbopack 불가 — Vercel에서만 빌드)
 
 ## 빌드 노트
-- 로컬 빌드: Turbopack이 외장SSD 심링크를 처리 못 함 → git push 후 Vercel 자동 빌드
-- 배포: git push origin main → Vercel GitHub 연동 자동 빌드
+- 로컬 빌드: Turbopack이 외장SSD 심링크를 처리 못 함 → git push 후 CI에서 빌드
+- 배포: **GitHub Pages** (Vercel 아님). `git push origin main` → `.github/workflows/deploy.yml`
+  → `Deploy to GitHub Pages` 실행 → 이어서 `pages build and deployment` 완료돼야 반영됨 (총 10분 내외)
+- 검증: `gh run list --repo vibers-leo/semologo` 두 워크플로 모두 success 확인 후 `curl -sI https://semologo.com`
 
 ## 환경변수 (Vercel에 등록 필요)
 - NEXT_PUBLIC_FIREBASE_API_KEY
