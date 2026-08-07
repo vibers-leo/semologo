@@ -53,7 +53,7 @@ src/
 ```
 
 ## CURRENT_VERSION (CDN 캐시 버스팅)
-- `BrandGrid.tsx`, `BrandInner.tsx` 내 `VERSION` 상수: `1786112789`
+- `BrandGrid.tsx`, `BrandInner.tsx` 내 `VERSION` 상수: `1786145268`
 - brand-logos 레포의 `version.txt` / `index.html`(`CURRENT_VERSION`)과 **같은 값**으로 맞춘다
 - brands.json 또는 로고 파일 변경 시 4곳 전부 함께 업데이트
 

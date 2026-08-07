@@ -17,7 +17,53 @@ import {
 } from "@/lib/logo-quality";
 
 const CDN = process.env.NEXT_PUBLIC_CDN_URL || "https://logo.vibers.co.kr/_clients";
-const VERSION = "1786112789";
+const VERSION = "1786145268";
+
+/**
+ * CDN이 크로스 오리진(logo.vibers.co.kr ≠ semologo.com)이라
+ * <a download> 속성이 브라우저에서 무시된다 → 새 탭으로 열려버림.
+ * blob으로 받아서 강제로 저장시킨다. CDN은 access-control-allow-origin: * 이라 가능.
+ */
+async function downloadFile(url: string, filename: string): Promise<boolean> {
+  try {
+    const res = await fetch(url, { cache: "force-cache" });
+    if (!res.ok) return false;
+    const blob = await res.blob();
+    // GitHub Pages는 없는 경로에 404 HTML을 내려준다 — 그걸 파일로 저장하면 안 됨
+    if (blob.type.includes("text/html") || blob.size === 0) return false;
+    const objUrl = URL.createObjectURL(blob);
+    const a = document.createElement("a");
+    a.href = objUrl;
+    a.download = filename;
+    document.body.appendChild(a);
+    a.click();
+    a.remove();
+    setTimeout(() => URL.revokeObjectURL(objUrl), 60_000);
+    return true;
+  } catch {
+    return false;
+  }
+}
+
+/** 이미지 프로브로 CDN에 파일이 실제로 있는지 확인 (undefined = 확인 중) */
+function useAvailability(urls: (string | null | undefined)[]) {
+  const key = urls.filter(Boolean).join("|");
+  const [state, setState] = useState<Record<string, boolean>>({});
+  useEffect(() => {
+    let alive = true;
+    const imgs: HTMLImageElement[] = [];
+    for (const u of key.split("|")) {
+      if (!u) continue;
+      const img = new Image();
+      img.onload = () => alive && setState(s => (s[u] === true ? s : { ...s, [u]: true }));
+      img.onerror = () => alive && setState(s => (s[u] === false ? s : { ...s, [u]: false }));
+      img.src = u;
+      imgs.push(img);
+    }
+    return () => { alive = false; imgs.forEach(i => { i.onload = null; i.onerror = null; }); };
+  }, [key]);
+  return state;
+}
 
 interface Props {
   brand: Brand;
@@ -167,11 +213,23 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
     return related ? [{ ...rel, brand: related }] : [];
   });
 
-  const variants = VARIANTS.filter(v => {
+  const candidateVariants = VARIANTS.filter(v => {
     if (v.svgOnly && !hasSvg) return false;
     if (v.langEn && !brand.lang_en) return false;
     return true;
   });
+
+  // CDN에 실제로 있는 파일만 노출한다 (없는 파일은 눌러도 404 HTML만 받음)
+  const avail = useAvailability([
+    ...candidateVariants.map(v => cdnUrl(v.file)), pngUrl, mainUrl,
+  ]);
+  const isReady = (url: string) => avail[url] !== false;   // 확인 중이면 일단 보여줌
+  const variants = candidateVariants.filter(v => isReady(cdnUrl(v.file)));
+
+  const grab = useCallback(async (url: string, filename: string) => {
+    const ok = await downloadFile(url, filename);
+    if (!ok) window.open(url, "_blank", "noopener,noreferrer");
+  }, []);
 
   useEffect(() => {
     if (isPage) return;
@@ -493,19 +551,22 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
 
           {/* 빠른 다운로드 */}
           <div style={{ display:"flex", flexDirection:"column", gap:7, marginTop:"auto" }}>
-            <a href={mainUrl} download={`${brand.id}-logo.${hasSvg ? "svg" : "png"}`} target="_blank" rel="noopener noreferrer"
-              style={{ display:"flex", alignItems:"center", justifyContent:"center", gap:6, padding:"9px 0", borderRadius:8, fontSize:12, fontWeight:600, background:"#6366f1", color:"#fff", textDecoration:"none" }}>
+            <a href={mainUrl} download={`${brand.id}-logo.${hasSvg ? "svg" : "png"}`}
+              onClick={e => { e.preventDefault(); grab(mainUrl, `${brand.id}-logo.${hasSvg ? "svg" : "png"}`); }}
+              style={{ display:"flex", alignItems:"center", justifyContent:"center", gap:6, padding:"9px 0", borderRadius:8, fontSize:12, fontWeight:600, background:"#6366f1", color:"#fff", textDecoration:"none", cursor:"pointer" }}>
               <svg width="13" height="13" fill="none" stroke="currentColor" strokeWidth="2.5" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3"/></svg>
               {hasSvg ? "SVG" : "PNG"} 다운로드
             </a>
-            {hasSvg && (
-              <a href={pngUrl} download={`${brand.id}-logo.png`} target="_blank" rel="noopener noreferrer"
-                style={{ display:"flex", alignItems:"center", justifyContent:"center", padding:"9px 0", borderRadius:8, fontSize:12, fontWeight:600, background:"#f4f4f5", color:"#52525b", textDecoration:"none", border:"1px solid #e4e4e7" }}>
+            {hasSvg && isReady(pngUrl) && (
+              <a href={pngUrl} download={`${brand.id}-logo.png`}
+                onClick={e => { e.preventDefault(); grab(pngUrl, `${brand.id}-logo.png`); }}
+                style={{ display:"flex", alignItems:"center", justifyContent:"center", padding:"9px 0", borderRadius:8, fontSize:12, fontWeight:600, background:"#f4f4f5", color:"#52525b", textDecoration:"none", border:"1px solid #e4e4e7", cursor:"pointer" }}>
                 ↓ PNG 다운로드
               </a>
             )}
             {invertedUrl && (
               <a href={invertedUrl} download={`${brand.id}-logo-dark.png`}
+                      onClick={e => { e.preventDefault(); grab(invertedUrl, `${brand.id}-logo-dark.png`); }}
                 style={{ display:"flex", alignItems:"center", justifyContent:"center", gap:5, padding:"9px 0", borderRadius:8, fontSize:12, fontWeight:600, background:"#111114", color:"#a78bfa", textDecoration:"none", border:"1px solid #3f3f46" }}>
                 🌙 반전 PNG (다크용)
               </a>
@@ -549,6 +610,7 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
                   <div style={{ fontSize:10, color:"#71717a", marginTop:1 }}>다크 배경용 흰색 반전</div>
                   <div style={{ marginTop:8 }}>
                     <a href={invertedUrl} download={`${brand.id}-logo-dark.png`}
+                      onClick={e => { e.preventDefault(); grab(invertedUrl, `${brand.id}-logo-dark.png`); }}
                       style={{ display:"block", fontSize:11, padding:"5px 0", borderRadius:6, background:"#6366f1", color:"#fff", textAlign:"center", textDecoration:"none", fontWeight:500 }}>
                       ↓ 다운로드
                     </a>
@@ -587,7 +649,8 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
                         style={{ background: isSwapTarget ? "#fef3c7" : "transparent", border:`1px solid ${isSwapTarget ? "#f59e0b" : "#e4e4e7"}`, borderRadius:6, padding:"5px 8px", fontSize:11, color: isSwapTarget ? "#d97706" : "#71717a", cursor:"pointer", transition:"all .15s", flexShrink:0 }}>
                         {isSwapTarget ? "✅" : "🔄"}
                       </button>
-                      <a href={url} download={`${brand.id}-${v.file}`} target="_blank" rel="noopener noreferrer"
+                      <a href={url} download={`${brand.id}-${v.file}`}
+                        onClick={e => { e.preventDefault(); grab(url, `${brand.id}-${v.file}`); }}
                         style={{ flex:1, fontSize:11, padding:"5px 0", borderRadius:6, background:"#6366f1", color:"#fff", textAlign:"center", textDecoration:"none", display:"block", fontWeight:500 }}>
                         ↓
                       </a>
