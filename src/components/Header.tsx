@@ -45,32 +45,21 @@ const NAV_LINKS = [
   { label: "자주 묻는 질문", href: "/faq" },
 ];
 
-export default function Header() {
-  const { query, setQuery } = useSearch();
-  const [user, setUser] = useState<User | null>(null);
-  const [authLoaded, setAuthLoaded] = useState(false);
-  const [menuOpen, setMenuOpen] = useState(false);
-  const menuRef = useRef<HTMLDivElement>(null);
-
-  useEffect(() => {
-    function handleClick(e: MouseEvent) {
-      if (menuRef.current && !menuRef.current.contains(e.target as Node)) {
-        setMenuOpen(false);
-      }
-    }
-    if (menuOpen) document.addEventListener("mousedown", handleClick);
-    return () => document.removeEventListener("mousedown", handleClick);
-  }, [menuOpen]);
-
-  useEffect(() => {
-    const unsub = onAuthStateChanged(getClientAuth(), u => {
-      setUser(u);
-      setAuthLoaded(true);
-    });
-    return unsub;
-  }, []);
-
-  const SearchBar = ({ className }: { className?: string }) => (
+/**
+ * 검색창은 반드시 Header 밖(모듈 스코프)에 있어야 한다.
+ *
+ * 예전엔 Header 함수 안에서 `const SearchBar = (...) => ...` 로 정의했다.
+ * 그러면 렌더할 때마다 컴포넌트 타입이 새로 만들어지고, React 는 타입이
+ * 바뀐 것으로 보고 <input> 을 언마운트 후 다시 마운트한다.
+ * query 는 컨텍스트에 있어서 키를 누를 때마다 Header 가 리렌더되므로,
+ * **글자 하나 칠 때마다 입력창이 새로 생겼다.**
+ * 그래서 한글 자음/모음 조합(IME composition)이 매번 파괴돼
+ * "자음 입력 시 뚝뚝 끊겨서 칠 수가 없는" 증상이 났다.
+ */
+function SearchBar({
+  className, query, setQuery,
+}: { className?: string; query: string; setQuery: (q: string) => void }) {
+  return (
     <div className={`relative ${className ?? ""}`}>
       <svg className="absolute left-3.5 top-1/2 -translate-y-1/2 text-gray-400 pointer-events-none"
         width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2">
@@ -97,6 +86,33 @@ export default function Header() {
       )}
     </div>
   );
+}
+
+export default function Header() {
+  const { query, setQuery } = useSearch();
+  const [user, setUser] = useState<User | null>(null);
+  const [authLoaded, setAuthLoaded] = useState(false);
+  const [menuOpen, setMenuOpen] = useState(false);
+  const menuRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    function handleClick(e: MouseEvent) {
+      if (menuRef.current && !menuRef.current.contains(e.target as Node)) {
+        setMenuOpen(false);
+      }
+    }
+    if (menuOpen) document.addEventListener("mousedown", handleClick);
+    return () => document.removeEventListener("mousedown", handleClick);
+  }, [menuOpen]);
+
+  useEffect(() => {
+    const unsub = onAuthStateChanged(getClientAuth(), u => {
+      setUser(u);
+      setAuthLoaded(true);
+    });
+    return unsub;
+  }, []);
+
 
   return (
     <header className="sticky top-0 z-50 border-b"
@@ -113,7 +129,7 @@ export default function Header() {
           </Link>
 
           {/* 데스크탑 전용 검색바 */}
-          <SearchBar className="hidden sm:block relative w-[480px] shrink-0 mx-auto" />
+          <SearchBar className="hidden sm:block relative w-[480px] shrink-0 mx-auto" query={query} setQuery={setQuery} />
 
           {/* 데스크탑 우측 메뉴 */}
           <nav className="hidden sm:flex items-center gap-2 shrink-0 ml-auto">
@@ -208,7 +224,7 @@ export default function Header() {
 
         {/* Row 2 (모바일 전용): 검색바 */}
         <div className="sm:hidden pb-3">
-          <SearchBar />
+          <SearchBar query={query} setQuery={setQuery} />
         </div>
 
       </div>
