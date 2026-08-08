@@ -43,10 +43,13 @@ export default function AdSlot({ slot, format = "auto", className = "", style }:
     const el = insRef.current;
     if (!el) return;
 
+    // 높이로 판단하면 안 된다. AdSense 는 채울지 정하기 **전에** 먼저
+    // 자리(90px)를 잡아두기 때문에, offsetHeight 를 보면 미노출인데도
+    // '채워짐'으로 오판한다. data-ad-status 만 믿는다.
     const check = () => {
       const status = el.getAttribute("data-ad-status");
       if (status === "unfilled") { setState("empty"); return true; }
-      if (status === "filled" || el.offsetHeight > 10) { setState("filled"); return true; }
+      if (status === "filled") { setState("filled"); return true; }
       return false;
     };
 
