@@ -49,6 +49,8 @@ export default function RequestPage() {
   const [loading, setLoading] = useState(true);
   const [voted, setVoted] = useState<Set<string>>(new Set());
   const [sortBy, setSortBy] = useState<"votes" | "latest">("votes");
+  // 투표 실패를 조용히 삼키지 않는다 (예전엔 catch {} 로 아무 반응이 없었다)
+  const [voteError, setVoteError] = useState<string | null>(null);
 
   useEffect(() => { setVoted(getVoted()); }, []);
 
@@ -110,7 +112,11 @@ export default function RequestPage() {
       setVoted(newVoted);
       saveVoted(newVoted);
       setItems(prev => prev.map(x => x.id === item.id ? { ...x, votes: x.votes + 1 } : x));
-    } catch {}
+      setVoteError(null);
+    } catch {
+      setVoteError("투표를 저장하지 못했어요. 잠시 후 다시 시도해 주세요.");
+      setTimeout(() => setVoteError(null), 4000);
+    }
   };
 
   const sortedItems = [...items].sort((a, b) =>
@@ -208,6 +214,12 @@ export default function RequestPage() {
 
         {/* 요청 게시판 */}
         <div>
+          {voteError && (
+            <div role="status" className="mb-3 px-3 py-2 rounded-lg text-sm"
+              style={{ background: "rgba(239,68,68,.08)", color: "#dc2626", border: "1px solid rgba(239,68,68,.2)" }}>
+              {voteError}
+            </div>
+          )}
           <div className="flex items-center justify-between mb-4">
             <h2 className="font-bold text-lg">
               다른 분들의 로고 요청

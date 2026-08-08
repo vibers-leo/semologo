@@ -33,15 +33,21 @@ export default function AdSlot({ slot, format = "auto", className = "", style }:
   const [state, setState] = useState<"pending" | "filled" | "empty">("pending");
 
   useEffect(() => {
+    const el = insRef.current;
+    if (!el) return;
+
+    // 같은 <ins> 에 두 번 push 하면 AdSense 가 TagError 를 던진다
+    // ("All 'ins' elements ... already have ads in them"). React 가 effect 를
+    // 다시 실행하면 그대로 재현돼 홈에서 PAGEERROR 가 났다.
+    if (el.dataset.pushed === "1") return;
+    el.dataset.pushed = "1";
+
     try {
       (window.adsbygoogle = window.adsbygoogle || []).push({});
     } catch {
       setState("empty");
       return;
     }
-
-    const el = insRef.current;
-    if (!el) return;
 
     // 높이로 판단하면 안 된다. AdSense 는 채울지 정하기 **전에** 먼저
     // 자리(90px)를 잡아두기 때문에, offsetHeight 를 보면 미노출인데도

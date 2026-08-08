@@ -296,7 +296,7 @@ export default function AdminPage() {
                     {/* eslint-disable-next-line @next/next/no-img-element */}
                     <img
                       src={`${CDN}/${brand.id}/logo.${brand.logo_svg ? "svg" : "png"}`}
-                      alt=""
+                      alt={`${brand.name_ko} 로고`}
                       style={{ width: 36, height: 24, objectFit: "contain", flexShrink: 0, borderRadius: 4, border: "1px solid #f0f0f2" }}
                       onError={(e) => { e.currentTarget.style.display = "none"; }}
                     />
