@@ -15,6 +15,8 @@
 
 # next.js
 /.next/
+# 심링크로 만들어진 경우도 제외 (외장 캐시로 링크돼 있다)
+/.next
 /out/
 
 # production
