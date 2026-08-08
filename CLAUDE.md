@@ -53,7 +53,7 @@ src/
 ```
 
 ## CURRENT_VERSION (CDN 캐시 버스팅)
-- `BrandGrid.tsx`, `BrandInner.tsx` 내 `VERSION` 상수: `1786170785`
+- `BrandGrid.tsx`, `BrandInner.tsx` 내 `VERSION` 상수: `1786194708`
 - brand-logos 레포의 `version.txt` / `index.html`(`CURRENT_VERSION`)과 같은 값으로 맞춘다
 - ⚠️ **brand-logos 에는 커밋마다 `version.txt` 를 자동으로 올리는 pre-commit 훅이 있다**
   (`.git/hooks/pre-commit`). 그래서 **brand-logos 를 먼저 커밋·푸시한 뒤**
