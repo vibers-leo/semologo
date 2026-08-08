@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { fetchBrands } from "@/lib/brands";
+import { fetchBrands, getBrandMap } from "@/lib/brands";
 import Header from "@/components/Header";
 import BrandDetailClient from "./BrandDetailClient";
 
@@ -16,8 +16,7 @@ export async function generateMetadata(
   { params }: { params: Promise<{ id: string }> }
 ): Promise<Metadata> {
   const { id } = await params;
-  const brands = await fetchBrands();
-  const brand = brands.find((b) => b.id === id);
+  const brand = (await getBrandMap()).get(id);
   if (!brand) return {};
 
   const logoUrl = brand.logo_svg
@@ -52,7 +51,7 @@ export default async function BrandPage(
 ) {
   const { id } = await params;
   const brands = await fetchBrands();
-  const brand = brands.find((b) => b.id === id);
+  const brand = (await getBrandMap()).get(id);
   if (!brand) notFound();
 
   const logoUrl = brand.logo_svg

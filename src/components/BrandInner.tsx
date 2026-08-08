@@ -2,7 +2,7 @@
 
 import { useEffect, useState, useCallback } from "react";
 import Link from "next/link";
-import { Brand } from "@/lib/brands";
+import { Brand, fetchVariants, type VariantManifest, type VariantRecord } from "@/lib/brands";
 import { BRAND_RELATIONS, RELATION_LABEL, RELATION_COLOR } from "@/lib/brand-relations";
 import { getClientDb } from "@/lib/firebase";
 import {
@@ -213,18 +213,51 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
     return related ? [{ ...rel, brand: related }] : [];
   });
 
-  const candidateVariants = VARIANTS.filter(v => {
+  // 변형 매니페스트 — 없으면 null 이고, 아래에서 기존 고정 목록으로 폴백한다
+  const [manifest, setManifest] = useState<VariantManifest | null>(null);
+  useEffect(() => {
+    let alive = true;
+    fetchVariants(brand.id).then(m => { if (alive) setManifest(m); });
+    return () => { alive = false; };
+  }, [brand.id]);
+
+  /**
+   * 매니페스트가 있으면 그것이 곧 '존재 증명'이다 — 디스크에서 생성했으므로
+   * 목록에 있는 파일은 반드시 있다. 그래서 이미지 프로브가 필요 없다.
+   * 매니페스트가 없는 브랜드만 기존 프로브 방식으로 동작한다.
+   */
+  const fallbackVariants = VARIANTS.filter(v => {
     if (v.svgOnly && !hasSvg) return false;
     if (v.langEn && !brand.lang_en) return false;
     return true;
   });
 
-  // CDN에 실제로 있는 파일만 노출한다 (없는 파일은 눌러도 404 HTML만 받음)
-  const avail = useAvailability([
-    ...candidateVariants.map(v => cdnUrl(v.file)), pngUrl, mainUrl,
-  ]);
+  // 매니페스트는 SVG 변형(형태별)을 맡고, 아래 그리드는 래스터 파생물
+  // (파비콘·투명·화이트·800px)을 맡는다. 매니페스트에 없는 파일이므로
+  // 이쪽은 계속 이미지 프로브로 존재를 확인한다.
+  const gridCandidates = manifest
+    ? fallbackVariants.filter(v => !v.file.endsWith(".svg"))
+    : fallbackVariants;
+  const probeUrls = [...gridCandidates.map(v => cdnUrl(v.file)), pngUrl, mainUrl];
+  const avail = useAvailability(probeUrls);
   const isReady = (url: string) => avail[url] !== false;   // 확인 중이면 일단 보여줌
-  const variants = candidateVariants.filter(v => isReady(cdnUrl(v.file)));
+  const variants = gridCandidates.filter(v => isReady(cdnUrl(v.file)));
+
+  /** 매니페스트 변형을 형태별 섹션으로 묶는다 (대표 → 가로 → 세로 → 심볼 → 워드마크) */
+  const sections = manifest
+    ? Object.entries(
+        manifest.variants.reduce<Record<string, VariantRecord[]>>((acc, v) => {
+          (acc[v.label] ||= []).push(v);
+          return acc;
+        }, {})
+      ).sort((a, b) => (a[1][0].order ?? 99) - (b[1][0].order ?? 99))
+    : [];
+
+  // 언어 탭은 unknown 이 아닌 언어가 2개 이상일 때만 의미가 있다
+  const langs = manifest
+    ? Array.from(new Set(manifest.variants.map(v => v.lang).filter(l => l === "ko" || l === "en")))
+    : [];
+  const [langFilter, setLangFilter] = useState<string | null>(null);
 
   const grab = useCallback(async (url: string, filename: string) => {
     const ok = await downloadFile(url, filename);
@@ -589,10 +622,104 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
             </div>
           </div>
 
+          {/* ── 로고 변형 갤러리 (매니페스트 기반) ── */}
+          {sections.length > 0 && (
+            <div style={{ marginBottom: 28 }}>
+              <div style={{ display:"flex", alignItems:"center", justifyContent:"space-between", marginBottom:12 }}>
+                <div style={{ fontSize:13, fontWeight:700, color:"#3f3f46" }}>
+                  로고 변형{" "}
+                  <span style={{ fontSize:11, fontWeight:400, color:"#71717a" }}>
+                    {manifest!.variants.length}종 · SVG·PNG 각각 받기
+                  </span>
+                </div>
+                {langs.length >= 2 && (
+                  <div style={{ display:"flex", gap:4 }}>
+                    {[null, ...langs].map(l => (
+                      <button key={l ?? "all"} onClick={() => setLangFilter(l)}
+                        style={{ fontSize:11, padding:"3px 9px", borderRadius:12, cursor:"pointer",
+                          border:`1px solid ${langFilter === l ? "#6366f1" : "#e4e4e7"}`,
+                          background: langFilter === l ? "rgba(99,102,241,.08)" : "transparent",
+                          color: langFilter === l ? "#6366f1" : "#71717a" }}>
+                        {l === null ? "전체" : l === "ko" ? "한글" : "영문"}
+                      </button>
+                    ))}
+                  </div>
+                )}
+              </div>
+
+              {sections.map(([label, items]) => {
+                const shown = langFilter
+                  ? items.filter(v => v.lang === langFilter || v.lang === "none")
+                  : items;
+                if (shown.length === 0) return null;
+                return (
+                  <div key={label} style={{ marginBottom: 18 }}>
+                    <div style={{ fontSize:11, fontWeight:700, color:"#71717a", marginBottom:8,
+                      letterSpacing:".04em" }}>
+                      {label}
+                      <span style={{ marginLeft:6, fontWeight:400, color:"#a1a1aa" }}>{shown.length}종</span>
+                    </div>
+                    <div style={{ display:"grid", gridTemplateColumns:"repeat(auto-fill,minmax(170px,1fr))", gap:12 }}>
+                      {shown.map(v => {
+                        const svgFile = v.files.svg;
+                        const pngFile = v.files.png;
+                        const previewUrl = cdnUrl(svgFile || pngFile || "logo.png");
+                        return (
+                          <div key={v.key} style={{ background:"#fafafa", border:"1px solid #e4e4e7",
+                            borderRadius:8, overflow:"hidden" }}>
+                            <div style={{ position:"relative", height:104, ...CHECKER }}>
+                              {/* eslint-disable-next-line @next/next/no-img-element */}
+                              <img src={previewUrl} alt={v.label}
+                                style={{ position:"absolute", inset:14, width:"calc(100% - 28px)",
+                                  height:"calc(100% - 28px)", objectFit:"contain" }}
+                                onError={e => { e.currentTarget.style.display = "none"; }} />
+                              {v.origin === "derived" && (
+                                <span style={{ position:"absolute", top:5, right:5, fontSize:9, fontWeight:700,
+                                  color:"#6366f1", background:"#eef2ff", border:"1px solid #c7d2fe",
+                                  borderRadius:10, padding:"1px 5px" }}>자동 추출</span>
+                              )}
+                            </div>
+                            <div style={{ padding:"8px 10px", borderTop:"1px solid #e4e4e7" }}>
+                              <div style={{ fontSize:11, fontWeight:600, color:"#3f3f46" }}>{v.label}</div>
+                              <div style={{ fontSize:10, color:"#a1a1aa", marginTop:1 }}>
+                                {v.provider?.split(":")[0] ?? ""}
+                                {v.alts?.length ? ` · 소스 ${v.alts.length + 1}종` : ""}
+                              </div>
+                              <div style={{ display:"flex", gap:5, marginTop:8 }}>
+                                {svgFile && (
+                                  <button onClick={() => grab(cdnUrl(svgFile), `${brand.id}-${v.key}.svg`)}
+                                    style={{ flex:1, fontSize:11, padding:"5px 0", borderRadius:6, border:"none",
+                                      background:"#6366f1", color:"#fff", cursor:"pointer", fontWeight:500 }}>
+                                    SVG
+                                  </button>
+                                )}
+                                {pngFile && (
+                                  <button onClick={() => grab(cdnUrl(pngFile), `${brand.id}-${v.key}.png`)}
+                                    style={{ flex:1, fontSize:11, padding:"5px 0", borderRadius:6,
+                                      border:"1px solid #e4e4e7", background:"#fff", color:"#52525b",
+                                      cursor:"pointer", fontWeight:500 }}>
+                                    PNG
+                                  </button>
+                                )}
+                              </div>
+                            </div>
+                          </div>
+                        );
+                      })}
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+          )}
+
           {/* 변형 그리드 */}
           <div style={{ display:"flex", alignItems:"center", justifyContent:"space-between", marginBottom:14 }}>
             <div style={{ fontSize:13, fontWeight:700, color:"#3f3f46" }}>
-              파일 다운로드 <span style={{ fontSize:11, fontWeight:400, color:"#71717a" }}>메인 로고 기준</span>
+              {manifest ? "가공 파일" : "파일 다운로드"}{" "}
+              <span style={{ fontSize:11, fontWeight:400, color:"#71717a" }}>
+                {manifest ? "파비콘 · 투명 배경 · 고해상도" : "메인 로고 기준"}
+              </span>
             </div>
             <span style={{ fontSize:10, color:"#a1a1aa" }}>👍 추천 · 🔄 교체 요청</span>
           </div>
