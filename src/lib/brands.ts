@@ -7,6 +7,11 @@ export interface Brand {
   logo_png?: string | boolean | null;
   has_svg?: boolean;
   has_png?: boolean;
+  /** 흰색 로고 — 밝은 배경에서 안 보이므로 어두운 배경에 그린다 */
+  light?: boolean;
+  variants_n?: number;
+  /** 부모 브랜드로 흡수된 중복 항목 — 목록에서 제외하고 canonical 을 부모로 건다 */
+  variant_of?: string;
   dark_variant?: boolean;
   lang_en?: boolean;
   added_at?: string;

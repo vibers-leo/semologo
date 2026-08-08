@@ -43,6 +43,14 @@ export async function generateMetadata(
       description,
       images: [logoUrl],
     },
+    // 부모 브랜드로 흡수된 중복 항목(예: adobe-icon)은 페이지를 살려두되
+    // canonical 을 부모로 돌린다. 삭제하면 429개가 404 가 되고, 그대로 두면
+    // 검색엔진에 중복 콘텐츠로 잡힌다.
+    alternates: {
+      canonical: brand.variant_of
+        ? `${BASE}/brand/${brand.variant_of}`
+        : `${BASE}/brand/${brand.id}`,
+    },
   };
 }
 
