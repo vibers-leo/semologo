@@ -92,6 +92,26 @@ const VARIANTS = [
   { file: "logo-en.png",         name: "영문 PNG",         desc: "영문 기본 PNG",            bg: "white", svgOnly: false, langEn: true  },
 ];
 
+/** 매니페스트의 provider 는 내부 식별자다 — 사용자에게는 읽을 수 있는 이름으로 */
+const PROVIDER_LABEL: Record<string, string> = {
+  official: "공식 자산",
+  wikimedia: "위키미디어",
+  "simple-icons": "Simple Icons",
+  simpleicons: "Simple Icons",
+  "gilbarbara-logos": "gilbarbara/logos",
+  iconify: "Iconify",
+  wvl: "WorldVectorLogo",
+  devicons: "Devicons",
+  "font-awesome": "Font Awesome",
+  "logo.dev": "logo.dev",
+  derived: "원본에서 자동 추출",
+  "project-scan": "프로젝트 에셋",
+};
+function providerLabel(p?: string): string {
+  const key = (p ?? "").split(":")[0];
+  return PROVIDER_LABEL[key] ?? key;
+}
+
 const EMOJIS = ["🦊","🐱","🦋","🐸","🐼","🦁","🐨","🦄","🐙","🦚","🐬","🌸","🎨","✨","🚀","🎯","🍀","🌊"];
 function myEmoji() {
   if (typeof window === "undefined") return "🦊";
@@ -682,7 +702,7 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
                             <div style={{ padding:"8px 10px", borderTop:"1px solid #e4e4e7" }}>
                               <div style={{ fontSize:11, fontWeight:600, color:"#3f3f46" }}>{v.label}</div>
                               <div style={{ fontSize:10, color:"#a1a1aa", marginTop:1 }}>
-                                {v.provider?.split(":")[0] ?? ""}
+                                {providerLabel(v.provider)}
                                 {v.alts?.length ? ` · 소스 ${v.alts.length + 1}종` : ""}
                               </div>
                               <div style={{ display:"flex", gap:5, marginTop:8 }}>
