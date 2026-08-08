@@ -9,6 +9,8 @@ export interface Brand {
   has_png?: boolean;
   /** 흰색 로고 — 밝은 배경에서 안 보이므로 어두운 배경에 그린다 */
   light?: boolean;
+  /** brands.json 쪽 이름 (slim 은 light) */
+  light_logo?: boolean;
   variants_n?: number;
   /** 부모 브랜드로 흡수된 중복 항목 — 목록에서 제외하고 canonical 을 부모로 건다 */
   variant_of?: string;

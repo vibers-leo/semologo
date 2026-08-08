@@ -225,6 +225,18 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
   const darkUrl = cdnUrl("logo-transparent.png");
   const whiteUrl = cdnUrl("logo-white.png");
   const hasSvg = !!(brand.logo_svg || brand.has_svg);
+
+  /**
+   * 흰색·아주 밝은 로고는 밝은 배경에서 보이지 않는다.
+   * 목록 카드는 이미 어두운 배경으로 처리했는데 모달 안쪽은 그대로여서
+   * 프리뷰·썸네일이 전부 비어 보였다 (Rolldown·Vite 등). 같은 규칙을 적용한다.
+   * slim 은 `light`, brands.json 은 `light_logo` 로 실어 보낸다.
+   */
+  const isLightLogo = !!(brand.light || brand.light_logo);
+  const DARK_TILE: React.CSSProperties = { background: "#18181b", backgroundImage: "none" };
+  /** 밝은 로고면 어두운 타일, 아니면 원래 배경 */
+  const tile = (base?: React.CSSProperties): React.CSSProperties =>
+    isLightLogo ? DARK_TILE : (base ?? {});
   const mainUrl = hasSvg ? svgUrl : pngUrl;
   const pageUrl = typeof window !== "undefined" ? `${window.location.origin}/#${brand.id}` : "";
 
@@ -548,7 +560,7 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
 
           {/* 메인 프리뷰 */}
           <div style={{ border:"1px solid #f0f0f2", borderRadius:8, overflow:"hidden", position:"relative" }}>
-            <LogoBox src={mainUrl} alt={brand.name_ko} height={128} padding={16} bg="white" fallback={pngUrl} />
+            <LogoBox src={mainUrl} alt={brand.name_ko} height={128} padding={16} bg={isLightLogo ? "dark" : "white"} fallback={pngUrl} />
             {brand.original_ai_url && (
               <a href={brand.original_ai_url} target="_blank" rel="noopener noreferrer"
                 style={{ position:"absolute", bottom:6, right:6, display:"inline-flex", alignItems:"center", gap:3, padding:"2px 7px", background:"#eff6ff", border:"1px solid #bfdbfe", borderRadius:10, fontSize:9, fontWeight:700, color:"#2563eb", textDecoration:"none", letterSpacing:".04em" }}>
@@ -575,9 +587,9 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
             <div style={{ fontSize:10, fontWeight:700, color:"#71717a", letterSpacing:".08em", textTransform:"uppercase", marginBottom:10 }}>사용 미리보기</div>
             <div style={{ display:"grid", gridTemplateColumns:"1fr 1fr 1fr", gap:8 }}>
               {[
-                { label:"OG 16:9", style:{ width:"100%", aspectRatio:"16/9", background:"#f0f0f0", borderRadius:4, overflow:"hidden", position:"relative" } as React.CSSProperties },
-                { label:"파비콘",  style:{ width:28, height:28, background:"#e4e4e7", borderRadius:4, overflow:"hidden", position:"relative" } as React.CSSProperties },
-                { label:"앱 아이콘", style:{ width:46, height:46, background:"#e4e4e7", borderRadius:10, overflow:"hidden", position:"relative" } as React.CSSProperties },
+                { label:"OG 16:9", style:{ width:"100%", aspectRatio:"16/9", background: isLightLogo ? "#18181b" : "#f0f0f0", borderRadius:4, overflow:"hidden", position:"relative" } as React.CSSProperties },
+                { label:"파비콘",  style:{ width:28, height:28, background: isLightLogo ? "#18181b" : "#e4e4e7", borderRadius:4, overflow:"hidden", position:"relative" } as React.CSSProperties },
+                { label:"앱 아이콘", style:{ width:46, height:46, background: isLightLogo ? "#18181b" : "#e4e4e7", borderRadius:10, overflow:"hidden", position:"relative" } as React.CSSProperties },
               ].map(m => (
                 <div key={m.label} style={{ display:"flex", flexDirection:"column", alignItems:"center", gap:5 }}>
                   <div style={m.style}>
@@ -631,7 +643,7 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
         <div className="mscroll" style={{ overflowY: isPage ? undefined : "auto", padding:"22px 24px", scrollbarWidth:"thin" }}>
           {/* 인트로 라이트/다크 — 배경별로 어떻게 보이는지 확인용 */}
           <div style={{ display:"grid", gridTemplateColumns:"1fr 1fr", borderRadius:12, overflow:"hidden", height:132, marginBottom:16 }}>
-            <LogoBox src={mainUrl} alt={brand.name_ko} height={132} padding={18} bg="white" fallback={pngUrl} />
+            <LogoBox src={mainUrl} alt={brand.name_ko} height={132} padding={18} bg={isLightLogo ? "dark" : "white"} fallback={pngUrl} />
             <div style={{ ...(invertedUrl ? { background:"#111114" } : getDarkPreviewStyle(visibility)), position:"relative", height:132 }}>
               {/* 다크 배경에는 SVG 를 그대로 쓴다.
                   logo-transparent.png 는 remove_white_bg() 로 만들어져 안티앨리어싱
@@ -700,7 +712,7 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
                             background:"#fafafa", border:"1px solid #e4e4e7", borderRadius:8,
                             padding:"7px 9px" }}>
                             <div style={{ position:"relative", width:56, height:38, flexShrink:0,
-                              borderRadius:5, overflow:"hidden", ...CHECKER }}>
+                              borderRadius:5, overflow:"hidden", ...tile(CHECKER) }}>
                               {/* eslint-disable-next-line @next/next/no-img-element */}
                               <img src={previewUrl} alt={v.label}
                                 style={{ position:"absolute", inset:4, width:"calc(100% - 8px)",
@@ -795,7 +807,7 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
               return (
                 <div key={v.file} style={{ background:"#fafafa", border:`1px solid ${isSwapTarget ? "#f59e0b" : "#e4e4e7"}`, borderRadius:8, overflow:"hidden", outline: isSwapTarget ? "2px solid #fde68a" : "none", outlineOffset:1 }}>
                   {/* 썸네일 — 동일 패딩으로 크기 정규화 */}
-                  <div style={{ position:"relative", height:76, ...bgStyle(v.bg) }}>
+                  <div style={{ position:"relative", height:76, ...tile(bgStyle(v.bg)) }}>
                     {/* eslint-disable-next-line @next/next/no-img-element */}
                     <img src={url} alt={v.name}
                       style={{ position:"absolute", top:14, right:14, bottom:14, left:14, width:"calc(100% - 28px)", height:"calc(100% - 28px)", objectFit:"contain", objectPosition:"center" }}
