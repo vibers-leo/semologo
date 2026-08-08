@@ -43,7 +43,7 @@ export default function Footer() {
                 <div>
                   <button
                     onClick={() => setBizOpen(o => !o)}
-                    style={{ display: "flex", alignItems: "center", gap: 4, fontSize: 10, color: "#52525b", background: "none", border: "none", cursor: "pointer", padding: 0 }}>
+                    style={{ display: "flex", alignItems: "center", gap: 4, fontSize: 11, color: "#52525b", background: "none", border: "none", cursor: "pointer", padding: 0 }}>
                     사업자 정보
                     <svg width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"
                       style={{ transform: bizOpen ? "rotate(180deg)" : "none", transition: "transform .2s" }}>
@@ -51,7 +51,7 @@ export default function Footer() {
                     </svg>
                   </button>
                   {bizOpen && (
-                    <div style={{ marginTop: 6, fontSize: 10, color: "#52525b", lineHeight: 1.9 }}>
+                    <div style={{ marginTop: 6, fontSize: 13, color: "#52525b", lineHeight: 1.9 }}>
                       상호: 주식회사 계발자들&nbsp;|&nbsp;대표: 김정원&nbsp;|&nbsp;개인정보관리책임자: 이준호<br />
                       문의: <a href="mailto:contact@semologo.com" style={{ color: "#71717a", textDecoration: "underline" }}>contact@semologo.com</a>
                     </div>

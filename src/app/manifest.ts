@@ -1,0 +1,25 @@
+import type { MetadataRoute } from "next";
+
+/**
+ * PWA 매니페스트. 앱 아이콘·홈화면 추가·테마색을 담는다.
+ * 정적 export 라 `export const dynamic = "force-static"` 이 필요하다.
+ */
+export const dynamic = "force-static";
+
+export default function manifest(): MetadataRoute.Manifest {
+  return {
+    name: "세모로고 — 세상 모든 로고",
+    short_name: "세모로고",
+    description: "브랜드 로고를 SVG·PNG로 무료 다운로드",
+    start_url: "/",
+    display: "standalone",
+    background_color: "#ffffff",
+    theme_color: "#111111",
+    lang: "ko",
+    icons: [
+      { src: "/apple-touch-icon.png", sizes: "180x180", type: "image/png" },
+      { src: "/icon-192.png", sizes: "192x192", type: "image/png", purpose: "any" },
+      { src: "/icon-512.png", sizes: "512x512", type: "image/png", purpose: "any" },
+    ],
+  };
+}

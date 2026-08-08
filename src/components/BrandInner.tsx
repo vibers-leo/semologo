@@ -488,7 +488,7 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
           </p>
           {/* 품질 투표 */}
           <div style={{ display:"flex", alignItems:"center", gap:6, marginTop:7 }}>
-            <span style={{ fontSize:10, color:"#a1a1aa" }}>이 로고 어때요?</span>
+            <span style={{ fontSize: 11, color:"#a1a1aa" }}>이 로고 어때요?</span>
             <button onClick={() => castQualityVote("up")} title="좋은 로고예요"
               style={{ display:"inline-flex", alignItems:"center", gap:3, padding:"3px 9px", borderRadius:20, fontSize:11, fontWeight:600, cursor: myQualityVote ? "default" : "pointer", transition:"all .15s", background: myQualityVote === "up" ? "rgba(34,197,94,.12)" : "#f4f4f5", border:`1px solid ${myQualityVote === "up" ? "rgba(34,197,94,.4)" : "#e4e4e7"}`, color: myQualityVote === "up" ? "#16a34a" : "#71717a", opacity: myQualityVote && myQualityVote !== "up" ? .45 : 1 }}>
               👍 {quality.up > 0 ? quality.up : ""}
@@ -498,7 +498,7 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
               🚩 교체 필요 {quality.down > 0 ? quality.down : ""}
             </button>
             {quality.flagged && (
-              <span style={{ fontSize:9, fontWeight:700, color:"#dc2626", background:"rgba(239,68,68,.08)", border:"1px solid rgba(239,68,68,.2)", borderRadius:10, padding:"2px 6px" }}>검토 필요</span>
+              <span style={{ fontSize: 11, fontWeight:700, color:"#dc2626", background:"rgba(239,68,68,.08)", border:"1px solid rgba(239,68,68,.2)", borderRadius:10, padding:"2px 6px" }}>검토 필요</span>
             )}
           </div>
         </div>
@@ -525,7 +525,7 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
       {/* ── 연관기업 바 ── */}
       {relations.length > 0 && (
         <div style={{ display:"flex", alignItems:"center", gap:8, padding:"8px 20px", borderBottom:"1px solid #e4e4e7", background:"#fafafa", flexShrink:0, flexWrap:"wrap" }}>
-          <span style={{ fontSize:10, fontWeight:700, color:"#a1a1aa", letterSpacing:".06em", textTransform:"uppercase", flexShrink:0 }}>연관기업</span>
+          <span style={{ fontSize: 11, fontWeight:700, color:"#a1a1aa", letterSpacing:".06em", textTransform:"uppercase", flexShrink:0 }}>연관기업</span>
           {relations.map(rel => {
             const clr = RELATION_COLOR[rel.type];
             const relLogoUrl = `${CDN}/${rel.brand.id}/logo.png?v=${VERSION}`;
@@ -536,9 +536,9 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
                 onMouseLeave={e => { e.currentTarget.style.opacity="1"; }}>
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img src={relLogoUrl} alt="" style={{ width:18, height:18, objectFit:"contain", flexShrink:0 }} onError={e => { e.currentTarget.style.display="none"; }} />
-                <span style={{ fontSize:10, fontWeight:700, color:clr.color }}>{RELATION_LABEL[rel.type]}</span>
+                <span style={{ fontSize: 11, fontWeight:700, color:clr.color }}>{RELATION_LABEL[rel.type]}</span>
                 <span style={{ fontSize:11, fontWeight:600, color:clr.color }}>{rel.brand.name_ko}</span>
-                {rel.note && <span style={{ fontSize:9, color:clr.color, opacity:.7 }}>{rel.note}</span>}
+                {rel.note && <span style={{ fontSize: 11, color:clr.color, opacity:.7 }}>{rel.note}</span>}
               </button>
             );
           })}
@@ -563,7 +563,7 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
             <LogoBox src={mainUrl} alt={brand.name_ko} height={128} padding={16} bg={isLightLogo ? "dark" : "white"} fallback={pngUrl} />
             {brand.original_ai_url && (
               <a href={brand.original_ai_url} target="_blank" rel="noopener noreferrer"
-                style={{ position:"absolute", bottom:6, right:6, display:"inline-flex", alignItems:"center", gap:3, padding:"2px 7px", background:"#eff6ff", border:"1px solid #bfdbfe", borderRadius:10, fontSize:9, fontWeight:700, color:"#2563eb", textDecoration:"none", letterSpacing:".04em" }}>
+                style={{ position:"absolute", bottom:6, right:6, display:"inline-flex", alignItems:"center", gap:3, padding:"2px 7px", background:"#eff6ff", border:"1px solid #bfdbfe", borderRadius:10, fontSize: 11, fontWeight:700, color:"#2563eb", textDecoration:"none", letterSpacing:".04em" }}>
                 <svg width="8" height="8" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"><path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
                 공식
               </a>
@@ -575,7 +575,7 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
             <div style={{ ...(invertedUrl ? { background:"#111114" } : getDarkPreviewStyle(visibility)), position:"relative", height:72 }}>
               <LogoBox src={invertedUrl || darkPreviewSrc} alt={brand.name_ko} height={72} padding={12} bg="transparent" fallback={mainUrl} />
               {visibility && (
-                <span style={{ position:"absolute", bottom:4, left:0, right:0, textAlign:"center", fontSize:8, color:"#71717a", letterSpacing:".06em", textTransform:"uppercase", opacity:.8 }}>
+                <span style={{ position:"absolute", bottom:4, left:0, right:0, textAlign:"center", fontSize: 11, color:"#71717a", letterSpacing:".06em", textTransform:"uppercase", opacity:.8 }}>
                   {invertedUrl ? "흑백 반전 (다크용)" : getDarkPreviewLabel(visibility) + (hasWhiteLogo && visibility.darkMode !== "white-only" ? " · 화이트" : "")}
                 </span>
               )}
@@ -584,7 +584,7 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
 
           {/* 사용 미리보기 */}
           <div>
-            <div style={{ fontSize:10, fontWeight:700, color:"#71717a", letterSpacing:".08em", textTransform:"uppercase", marginBottom:10 }}>사용 미리보기</div>
+            <div style={{ fontSize: 11, fontWeight:700, color:"#71717a", letterSpacing:".08em", textTransform:"uppercase", marginBottom:10 }}>사용 미리보기</div>
             <div style={{ display:"grid", gridTemplateColumns:"1fr 1fr 1fr", gap:8 }}>
               {[
                 { label:"OG 16:9", style:{ width:"100%", aspectRatio:"16/9", background: isLightLogo ? "#18181b" : "#f0f0f0", borderRadius:4, overflow:"hidden", position:"relative" } as React.CSSProperties },
@@ -596,7 +596,7 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
                     {/* eslint-disable-next-line @next/next/no-img-element */}
                     <img src={hasSvg ? svgUrl : darkUrl} alt="" style={{ position:"absolute", inset:"10%", width:"80%", height:"80%", objectFit:"contain", objectPosition:"center" }} onError={e => { e.currentTarget.src = pngUrl; }} />
                   </div>
-                  <span style={{ fontSize:9, color:"#71717a", textAlign:"center" }}>{m.label}</span>
+                  <span style={{ fontSize: 11, color:"#71717a", textAlign:"center" }}>{m.label}</span>
                 </div>
               ))}
             </div>
@@ -604,7 +604,7 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
 
           {/* 보유 형식 */}
           <div>
-            <div style={{ fontSize:10, fontWeight:700, color:"#71717a", letterSpacing:".08em", textTransform:"uppercase", marginBottom:10 }}>보유 형식</div>
+            <div style={{ fontSize: 11, fontWeight:700, color:"#71717a", letterSpacing:".08em", textTransform:"uppercase", marginBottom:10 }}>보유 형식</div>
             <div style={{ display:"flex", flexDirection:"column", gap:5 }}>
               {[{ label:"SVG 벡터", ok:hasSvg }, { label:"PNG", ok:true }, { label:"영문 버전", ok:!!brand.lang_en }].map(({ label, ok }) => (
                 <span key={label} style={{ display:"inline-flex", alignItems:"center", gap:4, padding:"4px 10px", borderRadius:20, fontSize:11, fontWeight:600, background:ok?"rgba(34,197,94,0.12)":"#f4f4f5", color:ok?"#22c55e":"#71717a", border:`1px solid ${ok?"rgba(34,197,94,0.2)":"#e4e4e7"}` }}>
@@ -653,7 +653,7 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
                 src={invertedUrl || (hasSvg ? mainUrl : getDarkPreviewUrl(visibility, darkUrl, mainUrl))}
                 alt={brand.name_ko} height={132} padding={20} bg="transparent" fallback={mainUrl} />
               {visibility && (
-                <span style={{ position:"absolute", bottom:6, left:0, right:0, textAlign:"center", fontSize:8, letterSpacing:".06em", textTransform:"uppercase", opacity:.6, color: invertedUrl ? "#71717a" : (visibility.darkMode === "white-only" ? "#52525b" : "#a1a1aa") }}>
+                <span style={{ position:"absolute", bottom:6, left:0, right:0, textAlign:"center", fontSize: 11, letterSpacing:".06em", textTransform:"uppercase", opacity:.6, color: invertedUrl ? "#71717a" : (visibility.darkMode === "white-only" ? "#52525b" : "#a1a1aa") }}>
                   {invertedUrl ? "흑백 반전" : getDarkPreviewLabel(visibility)}
                 </span>
               )}
@@ -726,12 +726,12 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
                                   {v.label}
                                 </span>
                                 {v.origin === "derived" && (
-                                  <span style={{ flexShrink:0, fontSize:9, fontWeight:700, color:"#6366f1",
+                                  <span style={{ flexShrink:0, fontSize: 11, fontWeight:700, color:"#6366f1",
                                     background:"#eef2ff", border:"1px solid #c7d2fe", borderRadius:9,
                                     padding:"0 5px" }}>자동 추출</span>
                                 )}
                               </div>
-                              <div style={{ fontSize:10, color:"#a1a1aa", marginTop:1,
+                              <div style={{ fontSize: 11, color:"#a1a1aa", marginTop:1,
                                 overflow:"hidden", textOverflow:"ellipsis", whiteSpace:"nowrap" }}>
                                 {providerLabel(v.provider)}
                                 {v.alts?.length ? ` · 소스 ${v.alts.length + 1}종` : ""}
@@ -772,7 +772,7 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
                 {manifest ? "파비콘 · 투명 배경 · 고해상도" : "메인 로고 기준"}
               </span>
             </div>
-            <span style={{ fontSize:10, color:"#a1a1aa" }}>👍 추천 · 🔄 교체 요청</span>
+            <span style={{ fontSize: 11, color:"#a1a1aa" }}>👍 추천 · 🔄 교체 요청</span>
           </div>
           {/* 좁은 컬럼에서도 2열이 들어가도록 최소폭을 줄였다.
               160px 이면 모달 가운데 폭에서 1열이 돼 세로로 길어진다. */}
@@ -783,11 +783,11 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img src={invertedUrl} alt="반전 PNG"
                     style={{ position:"absolute", top:14, right:14, bottom:14, left:14, width:"calc(100% - 28px)", height:"calc(100% - 28px)", objectFit:"contain", objectPosition:"center" }} />
-                  <span style={{ position:"absolute", top:5, right:5, fontSize:9, fontWeight:700, color:"#a78bfa", background:"rgba(99,102,241,.2)", border:"1px solid rgba(99,102,241,.3)", borderRadius:10, padding:"1px 5px" }}>다크용</span>
+                  <span style={{ position:"absolute", top:5, right:5, fontSize: 11, fontWeight:700, color:"#a78bfa", background:"rgba(99,102,241,.2)", border:"1px solid rgba(99,102,241,.3)", borderRadius:10, padding:"1px 5px" }}>다크용</span>
                 </div>
                 <div style={{ padding:"8px 10px", borderTop:"1px solid #3f3f46", background:"#1c1c1e" }}>
                   <div style={{ fontSize:11, fontWeight:600, color:"#e4e4e7" }}>반전 PNG</div>
-                  <div style={{ fontSize:10, color:"#71717a", marginTop:1 }}>다크 배경용 흰색 반전</div>
+                  <div style={{ fontSize: 11, color:"#71717a", marginTop:1 }}>다크 배경용 흰색 반전</div>
                   <div style={{ marginTop:8 }}>
                     <a href={invertedUrl} download={`${brand.id}-logo-dark.png`}
                       onClick={e => { e.preventDefault(); grab(invertedUrl, `${brand.id}-logo-dark.png`); }}
@@ -813,13 +813,13 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
                       style={{ position:"absolute", top:14, right:14, bottom:14, left:14, width:"calc(100% - 28px)", height:"calc(100% - 28px)", objectFit:"contain", objectPosition:"center" }}
                       onError={e => { e.currentTarget.style.display="none"; }}
                     />
-                    {isSwapTarget && <span style={{ position:"absolute", top:5, right:5, fontSize:9, fontWeight:700, color:"#f59e0b", background:"#fef3c7", border:"1px solid #fde68a", borderRadius:10, padding:"1px 5px" }}>교체 대기</span>}
+                    {isSwapTarget && <span style={{ position:"absolute", top:5, right:5, fontSize: 11, fontWeight:700, color:"#f59e0b", background:"#fef3c7", border:"1px solid #fde68a", borderRadius:10, padding:"1px 5px" }}>교체 대기</span>}
                   </div>
                   <div style={{ padding:"8px 10px", borderTop:"1px solid #e4e4e7", background:"#fafafa" }}>
                     <div style={{ display:"flex", alignItems:"center", gap:4 }}>
                       <span style={{ fontSize:11, fontWeight:600, color:"#3f3f46", flex:1 }}>{v.name}</span>
                     </div>
-                    <div style={{ fontSize:10, color:"#71717a", marginTop:1 }}>{v.desc}</div>
+                    <div style={{ fontSize: 11, color:"#71717a", marginTop:1 }}>{v.desc}</div>
                     <div style={{ display:"flex", gap:5, marginTop:8 }}>
                       <button onClick={() => castVote(v.file, v.name)} title={isVoted ? "이미 투표함" : "이 버전 추천"}
                         style={{ flex:1, background: isVoted ? "rgba(99,102,241,0.08)" : "transparent", border:`1px solid ${isVoted ? "#6366f1" : "#e4e4e7"}`, borderRadius:6, padding:"5px 0", fontSize:11, color: isVoted ? "#6366f1" : "#71717a", cursor:"pointer", transition:"all .15s", fontWeight: isVoted ? 600 : 400 }}>
@@ -847,7 +847,7 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
 
           {/* 퍼가요~ */}
           <div style={{ padding:"14px 16px", borderBottom:"1px solid #e4e4e7" }}>
-            <div style={{ fontSize:10, fontWeight:700, color:"#71717a", letterSpacing:".08em", textTransform:"uppercase", marginBottom:10 }}>퍼가요~ 🎉</div>
+            <div style={{ fontSize: 11, fontWeight:700, color:"#71717a", letterSpacing:".08em", textTransform:"uppercase", marginBottom:10 }}>퍼가요~ 🎉</div>
             <div style={{ display:"flex", flexDirection:"column", gap:6 }}>
               <button onClick={doShare}
                 style={{ display:"flex", alignItems:"center", justifyContent:"center", gap:6, padding:"9px 0", borderRadius:8, fontSize:11, fontWeight:600, background:"#6366f1", color:"#fff", border:"none", cursor:"pointer" }}>
@@ -860,16 +860,16 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
             </div>
             {shareFeed.length > 0 && (
               <div style={{ marginTop:10 }}>
-                <div style={{ fontSize:9, fontWeight:700, color:"#71717a", letterSpacing:".06em", textTransform:"uppercase", marginBottom:5 }}>최근 활동</div>
+                <div style={{ fontSize: 11, fontWeight:700, color:"#71717a", letterSpacing:".06em", textTransform:"uppercase", marginBottom:5 }}>최근 활동</div>
                 {shareFeed.slice(-6).map((s, i) => (
                   <div key={i} style={{ display:"flex", alignItems:"center", gap:4, padding:"3px 0", borderBottom:"1px solid #f0f0f2" }}>
                     <span>{s.emoji}</span>
-                    <span style={{ fontSize:10, color:"#3f3f46", flex:1 }}>
+                    <span style={{ fontSize: 12, color:"#3f3f46", flex:1 }}>
                       {s.type === "vote" ? <><span style={{ color:"#6366f1" }}>"{s.label}"</span> 추천 👍</>
                        : s.type === "swap" ? <><span style={{ color:"#f59e0b" }}>"{s.label}"</span> 교체 요청 🔄</>
                        : "퍼가기 🎉"}
                     </span>
-                    <span style={{ fontSize:9, color:"#71717a" }}>{relTime(s.ts)}</span>
+                    <span style={{ fontSize: 11, color:"#71717a" }}>{relTime(s.ts)}</span>
                   </div>
                 ))}
               </div>
@@ -878,7 +878,7 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
 
           {/* HTML 임베드 */}
           <div style={{ padding:"14px 16px", borderBottom:"1px solid #e4e4e7" }}>
-            <div style={{ fontSize:10, fontWeight:700, color:"#71717a", letterSpacing:".08em", textTransform:"uppercase", marginBottom:10 }}>HTML 임베드</div>
+            <div style={{ fontSize: 11, fontWeight:700, color:"#71717a", letterSpacing:".08em", textTransform:"uppercase", marginBottom:10 }}>HTML 임베드</div>
             <div style={{ background:"#f4f4f5", border:"1px solid #e4e4e7", borderRadius:8, padding:10, fontFamily:"monospace", fontSize:"9.5px", color:"#71717a", lineHeight:1.6, wordBreak:"break-all", marginBottom:8 }}>
               {`<img src="${mainUrl}" alt="${brand.name_ko}" style="height:40px">`}
             </div>
@@ -890,7 +890,7 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
 
           {/* 제보 & 개선 */}
           <div style={{ padding:"14px 16px", borderBottom:"1px solid #e4e4e7" }}>
-            <div style={{ fontSize:10, fontWeight:700, color:"#71717a", letterSpacing:".08em", textTransform:"uppercase", marginBottom:10 }}>제보 &amp; 개선</div>
+            <div style={{ fontSize: 11, fontWeight:700, color:"#71717a", letterSpacing:".08em", textTransform:"uppercase", marginBottom:10 }}>제보 &amp; 개선</div>
             <button onClick={() => setReportOpen(o => !o)}
               style={{ width:"100%", padding:"9px 0", borderRadius:8, fontSize:11, fontWeight:600, background:"#f4f4f5", color:"#52525b", border:"1px solid #e4e4e7", cursor:"pointer" }}>
               {reportOpen ? "↩ 접기" : "✉️ 더 좋은 버전 제보하기"}
@@ -924,7 +924,7 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
           {/* 광고 슬롯 */}
           <div style={{ flex:1, padding:"14px 16px", display:"flex", flexDirection:"column", justifyContent:"flex-end" }}>
             <div style={{ background:"#f4f4f5", border:"1px dashed #d4d4d8", borderRadius:10, padding:"18px 12px", textAlign:"center" }}>
-              <div style={{ fontSize:9, color:"#a1a1aa", letterSpacing:".08em", textTransform:"uppercase", marginBottom:6 }}>광고</div>
+              <div style={{ fontSize: 11, color:"#a1a1aa", letterSpacing:".08em", textTransform:"uppercase", marginBottom:6 }}>광고</div>
               <div style={{ fontSize:11, color:"#a1a1aa" }}>Ad slot</div>
             </div>
           </div>
