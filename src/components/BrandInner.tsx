@@ -629,13 +629,19 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
 
         {/* ── MID: 인트로 + 변형 그리드 ── */}
         <div className="mscroll" style={{ overflowY: isPage ? undefined : "auto", padding:"22px 24px", scrollbarWidth:"thin" }}>
-          {/* 인트로 라이트/다크 */}
-          <div style={{ display:"grid", gridTemplateColumns:"1fr 1fr", borderRadius:12, overflow:"hidden", height:180, marginBottom:24 }}>
-            <LogoBox src={mainUrl} alt={brand.name_ko} height={180} padding={24} bg="white" fallback={pngUrl} />
-            <div style={{ ...(invertedUrl ? { background:"#111114" } : getDarkPreviewStyle(visibility)), position:"relative", height:180 }}>
-              <LogoBox src={invertedUrl || getDarkPreviewUrl(visibility, darkUrl, mainUrl)} alt={brand.name_ko} height={180} padding={28} bg="transparent" fallback={mainUrl} />
+          {/* 인트로 라이트/다크 — 배경별로 어떻게 보이는지 확인용 */}
+          <div style={{ display:"grid", gridTemplateColumns:"1fr 1fr", borderRadius:12, overflow:"hidden", height:132, marginBottom:16 }}>
+            <LogoBox src={mainUrl} alt={brand.name_ko} height={132} padding={18} bg="white" fallback={pngUrl} />
+            <div style={{ ...(invertedUrl ? { background:"#111114" } : getDarkPreviewStyle(visibility)), position:"relative", height:132 }}>
+              {/* 다크 배경에는 SVG 를 그대로 쓴다.
+                  logo-transparent.png 는 remove_white_bg() 로 만들어져 안티앨리어싱
+                  가장자리에 흰 테두리가 남는다. 어두운 배경에서 그게 후광처럼 보여
+                  로고가 깨져 보였다. SVG 는 진짜 투명이라 그런 잔상이 없다. */}
+              <LogoBox
+                src={invertedUrl || (hasSvg ? mainUrl : getDarkPreviewUrl(visibility, darkUrl, mainUrl))}
+                alt={brand.name_ko} height={132} padding={20} bg="transparent" fallback={mainUrl} />
               {visibility && (
-                <span style={{ position:"absolute", bottom:8, left:0, right:0, textAlign:"center", fontSize:8, letterSpacing:".06em", textTransform:"uppercase", opacity:.65, color: invertedUrl ? "#71717a" : (visibility.darkMode === "white-only" ? "#52525b" : "#a1a1aa") }}>
+                <span style={{ position:"absolute", bottom:6, left:0, right:0, textAlign:"center", fontSize:8, letterSpacing:".06em", textTransform:"uppercase", opacity:.6, color: invertedUrl ? "#71717a" : (visibility.darkMode === "white-only" ? "#52525b" : "#a1a1aa") }}>
                   {invertedUrl ? "흑백 반전" : getDarkPreviewLabel(visibility)}
                 </span>
               )}
@@ -673,55 +679,68 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
                   : items;
                 if (shown.length === 0) return null;
                 return (
-                  <div key={label} style={{ marginBottom: 18 }}>
-                    <div style={{ fontSize:11, fontWeight:700, color:"#71717a", marginBottom:8,
+                  <div key={label} style={{ marginBottom: 10 }}>
+                    <div style={{ fontSize:11, fontWeight:700, color:"#71717a", marginBottom:6,
                       letterSpacing:".04em" }}>
                       {label}
                       <span style={{ marginLeft:6, fontWeight:400, color:"#a1a1aa" }}>{shown.length}종</span>
                     </div>
-                    <div style={{ display:"grid", gridTemplateColumns:"repeat(auto-fill,minmax(170px,1fr))", gap:12 }}>
+                    {/* 가로 행 리스트.
+                        예전엔 minmax(170px,1fr) 카드 그리드였는데, 모달 가운데 폭이
+                        좁아서 한 줄에 한 장씩만 들어가 세로로 길어졌고, 그 아래
+                        '가공 파일' 이 화면 밖으로 밀려났다. 행으로 바꾸면 줄바꿈이
+                        없어 항목 수와 무관하게 목록 전체가 보인다. 모바일도 같다. */}
+                    <div style={{ display:"flex", flexDirection:"column", gap:6 }}>
                       {shown.map(v => {
                         const svgFile = v.files.svg;
                         const pngFile = v.files.png;
                         const previewUrl = cdnUrl(svgFile || pngFile || "logo.png");
                         return (
-                          <div key={v.key} style={{ background:"#fafafa", border:"1px solid #e4e4e7",
-                            borderRadius:8, overflow:"hidden" }}>
-                            <div style={{ position:"relative", height:104, ...CHECKER }}>
+                          <div key={v.key} style={{ display:"flex", alignItems:"center", gap:10,
+                            background:"#fafafa", border:"1px solid #e4e4e7", borderRadius:8,
+                            padding:"7px 9px" }}>
+                            <div style={{ position:"relative", width:56, height:38, flexShrink:0,
+                              borderRadius:5, overflow:"hidden", ...CHECKER }}>
                               {/* eslint-disable-next-line @next/next/no-img-element */}
                               <img src={previewUrl} alt={v.label}
-                                style={{ position:"absolute", inset:14, width:"calc(100% - 28px)",
-                                  height:"calc(100% - 28px)", objectFit:"contain" }}
+                                style={{ position:"absolute", inset:4, width:"calc(100% - 8px)",
+                                  height:"calc(100% - 8px)", objectFit:"contain" }}
                                 onError={e => { e.currentTarget.style.display = "none"; }} />
-                              {v.origin === "derived" && (
-                                <span style={{ position:"absolute", top:5, right:5, fontSize:9, fontWeight:700,
-                                  color:"#6366f1", background:"#eef2ff", border:"1px solid #c7d2fe",
-                                  borderRadius:10, padding:"1px 5px" }}>자동 추출</span>
-                              )}
                             </div>
-                            <div style={{ padding:"8px 10px", borderTop:"1px solid #e4e4e7" }}>
-                              <div style={{ fontSize:11, fontWeight:600, color:"#3f3f46" }}>{v.label}</div>
-                              <div style={{ fontSize:10, color:"#a1a1aa", marginTop:1 }}>
+                            <div style={{ flex:1, minWidth:0 }}>
+                              <div style={{ fontSize:11.5, fontWeight:600, color:"#3f3f46",
+                                display:"flex", alignItems:"center", gap:5 }}>
+                                <span style={{ overflow:"hidden", textOverflow:"ellipsis", whiteSpace:"nowrap" }}>
+                                  {v.label}
+                                </span>
+                                {v.origin === "derived" && (
+                                  <span style={{ flexShrink:0, fontSize:9, fontWeight:700, color:"#6366f1",
+                                    background:"#eef2ff", border:"1px solid #c7d2fe", borderRadius:9,
+                                    padding:"0 5px" }}>자동 추출</span>
+                                )}
+                              </div>
+                              <div style={{ fontSize:10, color:"#a1a1aa", marginTop:1,
+                                overflow:"hidden", textOverflow:"ellipsis", whiteSpace:"nowrap" }}>
                                 {providerLabel(v.provider)}
                                 {v.alts?.length ? ` · 소스 ${v.alts.length + 1}종` : ""}
                               </div>
-                              <div style={{ display:"flex", gap:5, marginTop:8 }}>
-                                {svgFile && (
-                                  <button onClick={() => grab(cdnUrl(svgFile), `${brand.id}-${v.key}.svg`)}
-                                    style={{ flex:1, fontSize:11, padding:"5px 0", borderRadius:6, border:"none",
-                                      background:"#6366f1", color:"#fff", cursor:"pointer", fontWeight:500 }}>
-                                    SVG
-                                  </button>
-                                )}
-                                {pngFile && (
-                                  <button onClick={() => grab(cdnUrl(pngFile), `${brand.id}-${v.key}.png`)}
-                                    style={{ flex:1, fontSize:11, padding:"5px 0", borderRadius:6,
-                                      border:"1px solid #e4e4e7", background:"#fff", color:"#52525b",
-                                      cursor:"pointer", fontWeight:500 }}>
-                                    PNG
-                                  </button>
-                                )}
-                              </div>
+                            </div>
+                            <div style={{ display:"flex", gap:5, flexShrink:0 }}>
+                              {svgFile && (
+                                <button onClick={() => grab(cdnUrl(svgFile), `${brand.id}-${v.key}.svg`)}
+                                  style={{ fontSize:11, padding:"5px 11px", borderRadius:6, border:"none",
+                                    background:"#6366f1", color:"#fff", cursor:"pointer", fontWeight:500 }}>
+                                  SVG
+                                </button>
+                              )}
+                              {pngFile && (
+                                <button onClick={() => grab(cdnUrl(pngFile), `${brand.id}-${v.key}.png`)}
+                                  style={{ fontSize:11, padding:"5px 11px", borderRadius:6,
+                                    border:"1px solid #e4e4e7", background:"#fff", color:"#52525b",
+                                    cursor:"pointer", fontWeight:500 }}>
+                                  PNG
+                                </button>
+                              )}
                             </div>
                           </div>
                         );
@@ -743,7 +762,9 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
             </div>
             <span style={{ fontSize:10, color:"#a1a1aa" }}>👍 추천 · 🔄 교체 요청</span>
           </div>
-          <div style={{ display:"grid", gridTemplateColumns:"repeat(auto-fill,minmax(160px,1fr))", gap:12 }}>
+          {/* 좁은 컬럼에서도 2열이 들어가도록 최소폭을 줄였다.
+              160px 이면 모달 가운데 폭에서 1열이 돼 세로로 길어진다. */}
+          <div style={{ display:"grid", gridTemplateColumns:"repeat(auto-fill,minmax(112px,1fr))", gap:8 }}>
             {invertedUrl && (
               <div style={{ background:"#111114", border:"1px solid #3f3f46", borderRadius:8, overflow:"hidden" }}>
                 <div style={{ position:"relative", height:110, background:"#111114" }}>
@@ -774,7 +795,7 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
               return (
                 <div key={v.file} style={{ background:"#fafafa", border:`1px solid ${isSwapTarget ? "#f59e0b" : "#e4e4e7"}`, borderRadius:8, overflow:"hidden", outline: isSwapTarget ? "2px solid #fde68a" : "none", outlineOffset:1 }}>
                   {/* 썸네일 — 동일 패딩으로 크기 정규화 */}
-                  <div style={{ position:"relative", height:110, ...bgStyle(v.bg) }}>
+                  <div style={{ position:"relative", height:76, ...bgStyle(v.bg) }}>
                     {/* eslint-disable-next-line @next/next/no-img-element */}
                     <img src={url} alt={v.name}
                       style={{ position:"absolute", top:14, right:14, bottom:14, left:14, width:"calc(100% - 28px)", height:"calc(100% - 28px)", objectFit:"contain", objectPosition:"center" }}
