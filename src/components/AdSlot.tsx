@@ -64,10 +64,12 @@ export default function AdSlot({ slot, format = "auto", className = "", style }:
 
   if (state === "empty") return null;
 
-  // 채워지기 전에는 공간을 잡지 않는다 — 빈 띠가 보이는 것보다
-  // 채워질 때 살짝 밀리는 편이 낫다.
+  // 채워지기 전에는 문서 흐름에서 아예 빠져 있어야 한다. 공간을 잡았다가
+  // 나중에 접으면 스크롤 중 문서 높이가 줄어 화면이 밀린다.
   const wrapperStyle: React.CSSProperties =
-    state === "filled" ? { ...style } : { ...style, minHeight: 0, height: 0, overflow: "hidden" };
+    state === "filled"
+      ? { ...style }
+      : { position: "absolute", visibility: "hidden", height: 0, width: 0, overflow: "hidden" };
 
   return (
     <div className={className} style={wrapperStyle}>
