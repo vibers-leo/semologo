@@ -53,9 +53,14 @@ src/
 ```
 
 ## CURRENT_VERSION (CDN 캐시 버스팅)
-- `BrandGrid.tsx`, `BrandInner.tsx` 내 `VERSION` 상수: `1786157708`
-- brand-logos 레포의 `version.txt` / `index.html`(`CURRENT_VERSION`)과 **같은 값**으로 맞춘다
-- brands.json 또는 로고 파일 변경 시 4곳 전부 함께 업데이트
+- `BrandGrid.tsx`, `BrandInner.tsx` 내 `VERSION` 상수: `1786158712`
+- brand-logos 레포의 `version.txt` / `index.html`(`CURRENT_VERSION`)과 같은 값으로 맞춘다
+- ⚠️ **brand-logos 에는 커밋마다 `version.txt` 를 자동으로 올리는 pre-commit 훅이 있다**
+  (`.git/hooks/pre-commit`). 그래서 **brand-logos 를 먼저 커밋·푸시한 뒤**
+  최종 `version.txt` 값을 읽어 semologo 상수에 넣어야 한다. 순서를 바꾸면 항상 어긋난다.
+  현재 값 확인: `curl -s https://logo.vibers.co.kr/version.txt`
+- CDN 에서 받는 JSON에도 `?v=` 를 붙인다. 안 붙이면 `force-cache` 때문에
+  신규 브랜드가 기존 방문자에게 영영 안 보인다 (실제로 겪은 버그)
 
 ## 로고 유무 판정 (중요)
 - `brands.json`: `logo_svg` 또는 `has_svg` 중 하나라도 truthy면 SVG 사용 → 없으면 PNG 폴백 → 둘 다 없으면 기본 아이콘
