@@ -80,16 +80,19 @@ export default function Footer() {
         )}
 
         {/* 항상 보이는 1줄 바 */}
-        <div style={{ maxWidth: 1280, margin: "0 auto", padding: "0 24px", height: 44, display: "flex", alignItems: "center", justifyContent: "space-between" }}>
-          <span style={{ fontSize: 12, color: "#52525b" }}>
+        {/* 좁은 화면에서 height:44 고정이라 내용이 안 들어가 단어 중간에서
+            줄바꿈되고 겹쳐 보였다. 높이를 최소값으로 바꾸고 줄바꿈을 허용하되,
+            링크 자체는 nowrap 으로 묶어 '더보 기' 처럼 쪼개지지 않게 한다. */}
+        <div style={{ maxWidth: 1280, margin: "0 auto", padding: "8px 24px", minHeight: 44, display: "flex", flexWrap: "wrap", rowGap: 6, columnGap: 12, alignItems: "center", justifyContent: "space-between" }}>
+          <span style={{ fontSize: 12, color: "#52525b", whiteSpace: "nowrap" }}>
             © {YEAR} 주식회사 계발자들 · 세모로고
           </span>
-          <div style={{ display: "flex", alignItems: "center", gap: 16 }}>
-            <Link href="/submit" style={{ fontSize: 12, color: "#71717a", textDecoration: "none" }}>로고 제보</Link>
-            <Link href="/request" style={{ fontSize: 12, color: "#71717a", textDecoration: "none" }}>로고 요청</Link>
+          <div style={{ display: "flex", alignItems: "center", gap: 16, flexWrap: "wrap", rowGap: 6 }}>
+            <Link href="/submit" style={{ fontSize: 12, color: "#71717a", textDecoration: "none", whiteSpace: "nowrap" }}>로고 제보</Link>
+            <Link href="/request" style={{ fontSize: 12, color: "#71717a", textDecoration: "none", whiteSpace: "nowrap" }}>로고 요청</Link>
             <button
               onClick={() => setOpen(o => !o)}
-              style={{ display: "flex", alignItems: "center", gap: 4, fontSize: 12, color: "#a1a1aa", background: "none", border: "none", cursor: "pointer", padding: 0 }}>
+              style={{ display: "flex", alignItems: "center", gap: 4, fontSize: 12, color: "#a1a1aa", background: "none", border: "none", cursor: "pointer", padding: 0, whiteSpace: "nowrap" }}>
               {open ? "접기" : "더보기"}
               <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"
                 style={{ transform: open ? "rotate(180deg)" : "none", transition: "transform .2s" }}>
