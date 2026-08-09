@@ -70,12 +70,14 @@ export default function AdSlot({ slot, format = "auto", className = "", style }:
 
   if (state === "empty") return null;
 
-  // 채워지기 전에는 문서 흐름에서 아예 빠져 있어야 한다. 공간을 잡았다가
-  // 나중에 접으면 스크롤 중 문서 높이가 줄어 화면이 밀린다.
+  // 채워지기 전에는 높이를 0으로 접어 레이아웃 공간을 잡지 않는다.
+  // 단, **너비는 그대로 둔다.** width:0 으로 만들었더니 AdSense 가
+  // availableWidth=0 으로 보고 TagError 를 던져 홈에서 PAGEERROR 가 났다.
+  // 광고를 넣을지 판단하려면 실제 가용 너비가 필요하다.
   const wrapperStyle: React.CSSProperties =
     state === "filled"
       ? { ...style }
-      : { position: "absolute", visibility: "hidden", height: 0, width: 0, overflow: "hidden" };
+      : { height: 0, overflow: "hidden" };
 
   return (
     <div className={className} style={wrapperStyle}>

@@ -5,7 +5,7 @@ import { useRouter } from "next/navigation";
 import { onAuthStateChanged } from "firebase/auth";
 import { getClientAuth } from "@/lib/firebase";
 import { listenLogoRequests, type LogoRequest } from "@/lib/logo-requests";
-import { loadQualityRanking, type QualityEntry } from "@/lib/logo-quality";
+import { loadQualityRanking, resolveQuality, FLAG_THRESHOLD, type QualityEntry } from "@/lib/logo-quality";
 import { fetchBrands, type Brand } from "@/lib/brands";
 import Header from "@/components/Header";
 import Link from "next/link";
@@ -30,6 +30,24 @@ export default function RequestsPage() {
   const [qualityList, setQualityList] = useState<QualityEntry[]>([]);
   const [brands, setBrands] = useState<Brand[]>([]);
   const [qualityLoading, setQualityLoading] = useState(false);
+  const [resolving, setResolving] = useState<string | null>(null);
+  const [resolveErr, setResolveErr] = useState<string | null>(null);
+
+  // 신고 처리 — 실패를 조용히 삼키지 않는다
+  async function handleResolve(brandId: string) {
+    setResolving(brandId);
+    setResolveErr(null);
+    try {
+      await resolveQuality(brandId);
+      setQualityList(list =>
+        list.map(q => (q.brandId === brandId ? { ...q, flagged: false } : q)),
+      );
+    } catch {
+      setResolveErr("처리에 실패했어요. 잠시 후 다시 시도해 주세요.");
+    } finally {
+      setResolving(null);
+    }
+  }
 
   useEffect(() => {
     const unsub = onAuthStateChanged(getClientAuth(), (user) => {
@@ -206,8 +224,15 @@ export default function RequestsPage() {
         {tab === "quality" && (
           <>
             <p className="text-sm mb-5" style={{ color: "var(--text-secondary)" }}>
-              🚩 교체 필요 투표 많은 순. 3표 이상이면 <span style={{ color:"#dc2626", fontWeight:600 }}>검토 필요</span> 표시.
+              🚩 교체 필요 투표 많은 순. {FLAG_THRESHOLD}표 이상이면 <span style={{ color:"#dc2626", fontWeight:600 }}>검토 필요</span> 표시.
+              로고를 교체했으면 <span style={{ fontWeight:600 }}>처리 완료</span>를 눌러 목록에서 내려요.
             </p>
+            {resolveErr && (
+              <div className="mb-4 px-4 py-3 rounded-xl text-sm"
+                style={{ background:"rgba(239,68,68,.06)", color:"#dc2626", border:"1px solid rgba(239,68,68,.2)" }}>
+                {resolveErr}
+              </div>
+            )}
             {qualityLoading ? (
               <div className="text-center py-20" style={{ color: "var(--text-secondary)" }}>불러오는 중...</div>
             ) : qualityList.length === 0 ? (
@@ -263,6 +288,18 @@ export default function RequestsPage() {
                           <span className="text-xs font-bold px-2 py-0.5 rounded-full" style={{ background:"rgba(239,68,68,.1)", color:"#dc2626", border:"1px solid rgba(239,68,68,.2)" }}>
                             검토 필요
                           </span>
+                        )}
+                        {entry.flagged && (
+                          <button
+                            onClick={() => handleResolve(entry.brandId)}
+                            disabled={resolving === entry.brandId}
+                            className="text-xs px-2.5 py-1 rounded-lg transition-colors"
+                            style={{ background:"#111", color:"#fff", border:"1px solid #111",
+                                     opacity: resolving === entry.brandId ? 0.5 : 1,
+                                     cursor: resolving === entry.brandId ? "wait" : "pointer" }}
+                          >
+                            {resolving === entry.brandId ? "처리 중..." : "처리 완료"}
+                          </button>
                         )}
                         <a
                           href={`/#${entry.brandId}`}

@@ -1,0 +1,14 @@
+# npm 과 같은 평면 구조. Next.js 파일추적이 심링크 트리를 못 따라가는 문제를 피한다.
+# hoisted 여도 전역 스토어(/Volumes/Untitled/dev/.pnpm-store) 공유 이득은 그대로다.
+nodeLinker: hoisted
+
+# pnpm 11 은 postinstall 을 기본 차단한다. 필요한 것만 명시적으로 연다.
+# (package.json 의 pnpm 필드는 pnpm 11 이 읽지 않는다 — 이 파일이 유일한 위치)
+allowBuilds:
+  sharp: true
+  esbuild: true
+  unrs-resolver: true
+  '@tailwindcss/oxide': true
+  # 아래 둘은 빌드에 필요 없다 — firebase/protobufjs 는 postinstall 없이도 동작한다
+  '@firebase/util': false
+  protobufjs: false

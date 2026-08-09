@@ -37,6 +37,7 @@ export interface QualityData {
 
 export interface QualityEntry extends QualityData {
   brandId: string;
+  resolvedAt?: string;
 }
 
 const COLL = "logo_quality";
@@ -98,6 +99,21 @@ export async function voteQuality(
   return { up: newUp, down: newDown, flagged };
 }
 
+/**
+ * 관리자용: 신고를 처리 완료로 표시한다.
+ *
+ * 예전에는 목록만 있고 이 동작이 없어서, 로고를 실제로 교체해도 🚩 가
+ * 영원히 남았다. 투표수는 지우지 않는다 — 어떤 로고가 반복해서 신고되는지가
+ * 다음 수집 우선순위를 정하는 데 쓰이기 때문이다.
+ */
+export async function resolveQuality(brandId: string): Promise<void> {
+  const db = getClientDb();
+  await updateDoc(doc(db, COLL, brandId), {
+    flagged: false,
+    resolvedAt: new Date().toISOString(),
+  });
+}
+
 /** 관리자용: 교체 필요 투표 많은 순으로 최대 100개 */
 export async function loadQualityRanking(maxItems = 100): Promise<QualityEntry[]> {
   try {
@@ -109,6 +125,7 @@ export async function loadQualityRanking(maxItems = 100): Promise<QualityEntry[]
       up: d.data().up || 0,
       down: d.data().down || 0,
       flagged: d.data().flagged || false,
+      resolvedAt: d.data().resolvedAt || undefined,
     }));
   } catch {
     return [];

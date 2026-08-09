@@ -19,7 +19,11 @@
 - Vercel 배포 (로컬 빌드는 외장SSD 심링크로 Turbopack 불가 — Vercel에서만 빌드)
 
 ## 빌드 노트
-- 로컬 빌드: Turbopack이 외장SSD 심링크를 처리 못 함 → git push 후 CI에서 빌드
+- **패키지 매니저: pnpm** (2026-08-09 bun→pnpm 전환). `pnpm install` / `pnpm run build`
+  - `node_modules`·`.next` 는 프로젝트 안 실폴더여야 한다. 외부 캐시로 나가는 심링크면
+    Turbopack 이 "points out of the filesystem root" 로 죽는다 (예전 로컬 빌드 불가의 원인)
+  - 스토어 `/Volumes/Untitled/dev/.pnpm-store` — 프로젝트와 같은 볼륨이라 하드링크로 dedup
+- 로컬 빌드 **가능** (약 3분, 6,822 페이지). 예전 "심링크 때문에 불가" 설명은 폐기
 - 배포: **GitHub Pages** (Vercel 아님). `git push origin main` → `.github/workflows/deploy.yml`
   → `Deploy to GitHub Pages` 실행 → 이어서 `pages build and deployment` 완료돼야 반영됨 (총 10분 내외)
 - 검증: `gh run list --repo vibers-leo/semologo` 두 워크플로 모두 success 확인 후 `curl -sI https://semologo.com`
