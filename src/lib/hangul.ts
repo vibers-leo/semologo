@@ -42,15 +42,19 @@ export function isChoseongQuery(q: string): boolean {
 }
 
 /**
- * 초성 질의가 대상에 매치되는지.
+ * 초성 질의가 대상의 몇 번째 글자에서 매치되는지. 없으면 -1.
  *
  * 질의의 자음 낱자는 대상의 초성과, 그 외 문자는 대상 원문과 맞춘다.
  * "삼ㅅ" 같은 혼용을 지원하려고 원문·초성 두 벌을 만들어 자리별로 비교한다.
+ *
+ * 위치를 돌려주는 이유: 단어 중간 매치가 앞자리를 차지하면 검색이 쓸모없어진다.
+ * "ㅅㅅ" 을 치면 골드만'삭스'·아'수스'·키르기'스스'탄 이 전부 걸리는데,
+ * 사용자가 찾는 건 '삼성' 이다. 호출부에서 이 값으로 앞글자 매치를 올린다.
  */
-export function matchChoseong(query: string, target: string): boolean {
+export function choseongIndex(query: string, target: string): number {
   const q = query.replace(/\s/g, "");
   const t = target.replace(/\s/g, "");
-  if (!q || !t) return false;
+  if (!q || !t) return -1;
 
   const tCho = toChoseong(t);
   const len = q.length;
@@ -64,7 +68,12 @@ export function matchChoseong(query: string, target: string): boolean {
       const hit = isJamo ? tCho[start + i] === qc : t[start + i] === qc;
       if (!hit) { ok = false; break; }
     }
-    if (ok) return true;
+    if (ok) return start;
   }
-  return false;
+  return -1;
+}
+
+/** 초성 질의가 대상에 매치되는지 */
+export function matchChoseong(query: string, target: string): boolean {
+  return choseongIndex(query, target) >= 0;
 }
