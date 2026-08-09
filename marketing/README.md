@@ -11,3 +11,4 @@
 
 ## 연계
 - 모노페이지: / SNS:
+- 2026-08-09 소개 스크린샷 캡처(desktop/mobile) → screenshots/20260809_intro/ (semologo.com)
