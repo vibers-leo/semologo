@@ -12,3 +12,4 @@
 ## 연계
 - 모노페이지: / SNS:
 - 2026-08-09 소개 스크린샷 캡처(desktop/mobile) → screenshots/20260809_intro/ (semologo.com)
+- 2026-08-09 크몽·앱마켓 listings 규격 캡처 4종 → listings/{kmong,app-store,play-store}/20260809/
