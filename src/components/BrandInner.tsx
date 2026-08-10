@@ -5,6 +5,7 @@ import Link from "next/link";
 import { Brand, fetchVariants, type VariantManifest, type VariantRecord } from "@/lib/brands";
 import { BRAND_RELATIONS, RELATION_LABEL, RELATION_COLOR } from "@/lib/brand-relations";
 import { getClientDb } from "@/lib/firebase";
+import CoupangSlot from "./CoupangSlot";
 import {
   doc, getDoc, setDoc, updateDoc, increment,
 } from "firebase/firestore";
@@ -921,12 +922,11 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
             </Link>
           </div>
 
-          {/* 광고 슬롯 */}
+          {/* 광고 슬롯 — 환경변수가 없으면 통째로 렌더되지 않는다.
+              예전엔 여기 "광고 / Ad slot" 점선 상자가 있었는데, 개발용
+              자리표시자가 프로덕션에서 실제 사용자에게 그대로 보이고 있었다. */}
           <div style={{ flex:1, padding:"14px 16px", display:"flex", flexDirection:"column", justifyContent:"flex-end" }}>
-            <div style={{ background:"#f4f4f5", border:"1px dashed #d4d4d8", borderRadius:10, padding:"18px 12px", textAlign:"center" }}>
-              <div style={{ fontSize: 11, color:"#a1a1aa", letterSpacing:".08em", textTransform:"uppercase", marginBottom:6 }}>광고</div>
-              <div style={{ fontSize:11, color:"#a1a1aa" }}>Ad slot</div>
-            </div>
+            <CoupangSlot subId="brand" />
           </div>
         </div>
       </div>
