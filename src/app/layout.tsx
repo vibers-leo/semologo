@@ -66,6 +66,8 @@ export default function RootLayout({
   return (
     <html lang="ko">
       <head>
+        {/* 광고 서버 선연결 — 슬롯 iframe 첫 요청의 TLS 핸드셰이크 선처리 */}
+        <link rel="preconnect" href="https://ai.vibers.co.kr" />
         <Script
           src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`}
           strategy="afterInteractive"
