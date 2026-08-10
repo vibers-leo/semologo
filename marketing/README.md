@@ -13,3 +13,4 @@
 - 모노페이지: / SNS:
 - 2026-08-09 소개 스크린샷 캡처(desktop/mobile) → screenshots/20260809_intro/ (semologo.com)
 - 2026-08-09 크몽·앱마켓 listings 규격 캡처 4종 → listings/{kmong,app-store,play-store}/20260809/
+- 2026-08-09 | 홈 상단 슬롯을 Vibers 광고 서버로 전환 (VibersAdSlot) — 첫 캠페인 디어스
