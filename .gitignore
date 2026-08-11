@@ -43,3 +43,6 @@ yarn-error.log*
 next-env.d.ts
 marketing/screenshots/
 marketing/assets/
+
+# MCP 패키지 로컬 의존성
+/mcp/node_modules/
