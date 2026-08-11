@@ -102,26 +102,37 @@ export default function BrandGrid() {
     if (q) {
       // 자음 낱자가 섞였으면 초성 검색 — "ㅅㅅ" 으로 삼성을 찾을 수 있어야 한다.
       // 일반 부분일치도 함께 시도해 "삼성" 같은 기존 입력을 깨지 않는다.
+      // 초성이든 일반 입력이든 같은 규칙으로 순위를 매긴다.
+      //   ① 정확히 일치      "삼성" → 삼성  (없으면 삼성중공업·삼성물산이 위로 온다)
+      //   ② 앞글자 매치      "ㅅㅅ" → 삼성…  (없으면 골드만'삭스'가 위로 온다)
+      //   ③ 중간 매치
+      // 예전엔 초성일 때만 순위를 매기고 일반 입력은 그냥 필터라, 브랜드
+      // 이름을 정확히 쳐도 본체가 상위에 안 나왔다.
       const cho = isChoseongQuery(raw);
-      if (cho) {
-        // 앞글자 매치를 먼저 보여준다. 안 그러면 "ㅅㅅ" 에 골드만'삭스'·
-        // 키르기'스스'탄 이 삼성보다 위에 떠서 검색이 제 역할을 못 한다.
-        const scored: { b: Brand; rank: number }[] = [];
-        for (const b of list) {
-          // 별칭도 초성 대상에 넣는다 — 'ㅇㅈ' 로 '엘지'를 찾을 수 있어야 한다
-          const idx = Math.max(
-            choseongIndex(raw, b.name_ko),
-            ...(b.aliases ?? []).map(a => choseongIndex(raw, a)),
-          );
-          const text = haystack.get(b.id)?.includes(q) ?? false;
-          if (idx < 0 && !text) continue;
-          scored.push({ b, rank: idx < 0 ? 1 : idx === 0 ? 0 : 1 + idx });
-        }
-        scored.sort((x, y) => x.rank - y.rank);
-        list = scored.map(x => x.b);
-      } else {
-        list = list.filter(b => haystack.get(b.id)?.includes(q));
+      const scored: { b: Brand; rank: number }[] = [];
+      for (const b of list) {
+        const alias = b.aliases ?? [];
+        // 별칭도 초성 대상에 넣는다 — 'ㅇㅈ' 로 '엘지'를 찾을 수 있어야 한다
+        const idx = cho
+          ? Math.max(choseongIndex(raw, b.name_ko), ...alias.map(a => choseongIndex(raw, a)))
+          : -1;
+        const hay = haystack.get(b.id) ?? "";
+        const textAt = hay.indexOf(q);
+        if (idx < 0 && textAt < 0) continue;
+
+        const exact =
+          b.id.toLowerCase() === q ||
+          (b.name_en ?? "").toLowerCase() === q ||
+          (b.name_ko ?? "").toLowerCase() === q ||
+          alias.some(a => a.toLowerCase() === q);
+
+        const at = idx === 0 || textAt === 0
+          ? 0
+          : Math.min(...[idx, textAt].filter(x => x >= 0)) + 1;
+        scored.push({ b, rank: (exact ? -1000 : 0) + at });
       }
+      scored.sort((x, y) => x.rank - y.rank);
+      list = scored.map(x => x.b);
     }
     if (selectedCats.size > 0) {
       list = list.filter(b => selectedCats.has(b.category || "기타"));
