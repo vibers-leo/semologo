@@ -6,6 +6,8 @@ import { Brand, fetchVariants, type VariantManifest, type VariantRecord } from "
 import { BRAND_RELATIONS, RELATION_LABEL, RELATION_COLOR } from "@/lib/brand-relations";
 import { getClientDb } from "@/lib/firebase";
 import CoupangSlot from "./CoupangSlot";
+
+const SITE_URL = process.env.NEXT_PUBLIC_APP_URL || "https://semologo.com";
 import {
   doc, getDoc, setDoc, updateDoc, increment,
 } from "firebase/firestore";
@@ -241,7 +243,11 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
   const mainUrl = hasSvg ? svgUrl : pngUrl;
   // 정본 브랜드 페이지 주소. 예전엔 `${origin}/#${brand.id}` 라 홈으로 보내놓고
   // 해시로 모달을 여는 링크였다 — 사이트맵·canonical 과 다른 주소를 공유하던 셈이다.
-  const pageUrl = typeof window !== "undefined" ? `${window.location.origin}/brand/${brand.id}/` : "";
+  //
+  // window 를 쓰지 않는다. 이 값을 **화면에 렌더**하기 시작하면서
+  // 서버(빈 문자열) ↔ 클라이언트(실제 URL) 가 어긋나 React #418
+  // (하이드레이션 텍스트 불일치) 가 났다. 빌드 시점 상수로 고정한다.
+  const pageUrl = `${SITE_URL}/brand/${brand.id}/`;
 
   const relations = (BRAND_RELATIONS[brand.id] || []).flatMap(rel => {
     const related = allBrands.find(b => b.id === rel.relatedId);
@@ -428,6 +434,17 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
   const embedCode = `<img src="${mainUrl}" alt="${brand.name_ko}" style="height:40px">`;
   const shareValue = shareTab === "page" ? pageUrl : shareTab === "image" ? mainUrl : embedCode;
 
+  /** 헤더의 빠른 퍼가기 — 사이드바 탭과 무관하게 **항상 페이지 링크**를 복사한다.
+   *  (공유 UI 통합 때 이 버튼까지 탭을 따라가서, 누를 때마다 다른 게
+   *   복사되는 상태였다) */
+  const copyPageLink = useCallback(async () => {
+    navigator.clipboard.writeText(pageUrl).catch(() => {});
+    setCopyDone(true);
+    setTimeout(() => setCopyDone(false), 1800);
+    appendFeed({ emoji: myEmoji(), ts: Date.now() });
+    toast("퍼가기 완료! 링크 복사됨 🎉");
+  }, [pageUrl, appendFeed]);
+
   const doShare = useCallback(async () => {
     navigator.clipboard.writeText(shareValue).catch(() => {});
     setCopyDone(true);
@@ -525,7 +542,7 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
           </div>
         </div>
 
-        <button onClick={doShare} className="sharebtn"
+        <button onClick={copyPageLink} className="sharebtn"
           style={{ display:"flex", alignItems:"center", gap:5, padding:"5px 12px", background:"#f4f4f5", border:"1px solid #e4e4e7", color:"#52525b", borderRadius:8, fontSize:12, fontWeight:500, cursor:"pointer", transition:"all .15s", flexShrink:0 }}>
           <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
           {copyDone ? "복사됨!" : "퍼가기"}
