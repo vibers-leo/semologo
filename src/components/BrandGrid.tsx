@@ -129,7 +129,9 @@ export default function BrandGrid() {
         const at = idx === 0 || textAt === 0
           ? 0
           : Math.min(...[idx, textAt].filter(x => x >= 0)) + 1;
-        scored.push({ b, rank: (exact ? -1000 : 0) + at });
+        // 같은 순위면 이름이 짧은 쪽을 위로. "ㅅㅅ" 에 삼성중공업·삼성 모바일이
+        // 삼성보다 먼저 나오던 걸 잡는다 (짧은 이름일수록 본체일 확률이 높다).
+        scored.push({ b, rank: (exact ? -1000 : 0) + at * 100 + (b.name_ko?.length ?? 99) });
       }
       scored.sort((x, y) => x.rank - y.rank);
       list = scored.map(x => x.b);
