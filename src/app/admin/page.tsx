@@ -1,40 +1,46 @@
 "use client";
 
+/**
+ * 운영 허브.
+ *
+ * 역할을 나눴다:
+ *   · 깊은 통계·문의  → FanEasy(Vibers) Admin — 여러 사이트를 한 곳에서 본다
+ *   · 방문 통계        → Google Analytics
+ *   · 요청 접수 처리   → /requests (이 사이트 안에서 바로)
+ *   · 로고 DB 현황     → 여기 (세모로고에만 있는 데이터라 밖에서 못 본다)
+ *
+ * 예전엔 이 페이지에 요청 목록이 통째로 또 있었다. /requests 와 완전히 겹쳐서
+ * 두 곳을 다 고쳐야 했고 한쪽만 고치면 갈라졌다. 목록은 /requests 하나로 모았다.
+ */
+
 import { useEffect, useState, useMemo } from "react";
 import { useRouter } from "next/navigation";
+import Link from "next/link";
 import { onAuthStateChanged } from "firebase/auth";
 import { getClientAuth } from "@/lib/firebase";
-import { listenLogoRequests, updateRequestStatus, type LogoRequest } from "@/lib/logo-requests";
 import { fetchBrands, type Brand } from "@/lib/brands";
 import Header from "@/components/Header";
 
 const ADMIN_EMAIL = "juuuno1116@gmail.com";
 const CDN = process.env.NEXT_PUBLIC_CDN_URL || "https://logo.vibers.co.kr/_clients";
 
-type Tab = "stats" | "requests" | "brands";
+/** 외부 운영 도구 — 주소가 바뀌면 여기만 고친다 */
+const FANEASY_ADMIN = "https://faneasy.kr/admin";
+const GA_PROPERTY = "https://analytics.google.com/analytics/web/#/p548184496/reports/intelligenthome";
 
 export default function AdminPage() {
   const router = useRouter();
   const [authChecked, setAuthChecked] = useState(false);
   const [isAdmin, setIsAdmin] = useState(false);
-  const [tab, setTab] = useState<Tab>("stats");
-
-  const [requests, setRequests] = useState<LogoRequest[]>([]);
-  const [reqLoading, setReqLoading] = useState(true);
-  const [reqFilter, setReqFilter] = useState<"all" | "pending" | "done">("all");
-  const [updatingId, setUpdatingId] = useState<string | null>(null);
 
   const [brands, setBrands] = useState<Brand[]>([]);
-  const [brandsLoading, setBrandsLoading] = useState(false);
-  const [brandSearch, setBrandSearch] = useState("");
+  const [loading, setLoading] = useState(true);
+  const [search, setSearch] = useState("");
 
   useEffect(() => {
     const unsub = onAuthStateChanged(getClientAuth(), (user) => {
-      if (user?.email === ADMIN_EMAIL) {
-        setIsAdmin(true);
-      } else {
-        router.replace("/login");
-      }
+      if (user?.email === ADMIN_EMAIL) setIsAdmin(true);
+      else router.replace("/");
       setAuthChecked(true);
     });
     return unsub;
@@ -42,294 +48,158 @@ export default function AdminPage() {
 
   useEffect(() => {
     if (!isAdmin) return;
-    const unsub = listenLogoRequests((list) => {
-      setRequests(list);
-      setReqLoading(false);
-    });
-    return unsub;
+    fetchBrands().then(setBrands).finally(() => setLoading(false));
   }, [isAdmin]);
 
-  useEffect(() => {
-    if (!isAdmin) return;
-    if (brands.length > 0) return;
-    setBrandsLoading(true);
-    fetchBrands().then((b) => { setBrands(b); setBrandsLoading(false); });
-  }, [isAdmin, brands.length]);
-
-  const pending = requests.filter((r) => r.status === "pending");
-  const done = requests.filter((r) => r.status === "done");
-  const filteredReqs = reqFilter === "all" ? requests : reqFilter === "pending" ? pending : done;
-
-  const catStats = useMemo(() => {
-    const map = new Map<string, number>();
-    brands.forEach((b) => { const c = b.category || "기타"; map.set(c, (map.get(c) || 0) + 1); });
-    return [...map.entries()].sort((a, b) => b[1] - a[1]);
+  const stats = useMemo(() => {
+    const cat = new Map<string, number>();
+    let svg = 0, pngOnly = 0, noKorean = 0;
+    const han = /[가-힣]/;
+    for (const b of brands) {
+      cat.set(b.category || "기타", (cat.get(b.category || "기타") || 0) + 1);
+      if (b.logo_svg) svg++;
+      else if (b.logo_png) pngOnly++;
+      if (!han.test(b.name_ko || "")) noKorean++;
+    }
+    return {
+      cats: [...cat.entries()].sort((a, b) => b[1] - a[1]),
+      svg, pngOnly, noKorean,
+    };
   }, [brands]);
 
-  const svgCount = brands.filter((b) => b.logo_svg).length;
-  const pngOnly = brands.filter((b) => !b.logo_svg && b.logo_png).length;
-
-  const filteredBrands = useMemo(() => {
-    if (!brandSearch) return brands;
-    const q = brandSearch.toLowerCase();
-    return brands.filter((b) =>
-      b.name_ko.toLowerCase().includes(q) ||
-      b.name_en.toLowerCase().includes(q) ||
+  const filtered = useMemo(() => {
+    const q = search.trim().toLowerCase();
+    if (!q) return [];
+    return brands.filter(b =>
+      (b.name_ko || "").toLowerCase().includes(q) ||
+      (b.name_en || "").toLowerCase().includes(q) ||
       b.id.toLowerCase().includes(q)
+    ).slice(0, 30);
+  }, [brands, search]);
+
+  if (!authChecked) {
+    return (
+      <div style={{ minHeight: "100vh", background: "var(--bg)" }}>
+        <Header />
+        <p style={{ padding: "80px 0", textAlign: "center", color: "var(--text-secondary)", fontSize: 14 }}>
+          불러오는 중…
+        </p>
+      </div>
     );
-  }, [brands, brandSearch]);
+  }
+  if (!isAdmin) return null;
 
-  const handleToggleStatus = async (req: LogoRequest) => {
-    if (!req.id || updatingId) return;
-    setUpdatingId(req.id);
-    const next = req.status === "pending" ? "done" : "pending";
-    await updateRequestStatus(req.id, next);
-    setUpdatingId(null);
-  };
-
-  if (!authChecked) return null;
+  const card = {
+    background: "#fff", border: "1px solid var(--border)", borderRadius: 16, padding: "18px 20px",
+  } as const;
 
   return (
-    <div className="min-h-screen" style={{ background: "var(--bg)" }}>
+    <div style={{ minHeight: "100vh", background: "var(--bg)" }}>
       <Header />
-      <main className="max-w-[1000px] mx-auto px-4 py-10 pb-24">
-        <div className="flex items-center justify-between mb-6">
-          <h1 className="text-2xl font-bold">세모로고 어드민</h1>
-          <span className="text-xs px-2.5 py-1 rounded-full font-bold" style={{ background: "#111", color: "#fff" }}>
-            SUPER ADMIN
-          </span>
-        </div>
+      <main style={{ maxWidth: 860, margin: "0 auto", padding: "26px 16px 72px" }}>
+        <h1 style={{ fontSize: 22, fontWeight: 800, marginBottom: 4 }}>운영</h1>
+        <p style={{ fontSize: 13, color: "var(--text-secondary)", marginBottom: 22 }}>
+          깊은 통계와 문의는 통합 어드민에서, 로고 DB 현황은 여기에서 봐요.
+        </p>
 
-        {/* 탭 */}
-        <div className="flex gap-1 mb-8 border-b" style={{ borderColor: "var(--border)" }}>
-          {([
-            { key: "stats", label: "통계" },
-            { key: "requests", label: `요청 관리`, badge: pending.length },
-            { key: "brands", label: `브랜드 목록` },
-          ] as { key: Tab; label: string; badge?: number }[]).map((t) => (
-            <button key={t.key} onClick={() => setTab(t.key)}
-              className="pb-2.5 px-3 text-sm font-medium transition-colors relative"
-              style={{
-                color: tab === t.key ? "#111" : "var(--text-secondary)",
-                borderBottom: tab === t.key ? "2px solid #111" : "2px solid transparent",
-              }}>
-              {t.label}
-              {(t.badge ?? 0) > 0 && (
-                <span className="ml-1.5 text-xs px-1.5 py-0.5 rounded-full font-bold"
-                  style={{ background: "rgba(234,179,8,.15)", color: "#a16207" }}>
-                  {t.badge}
-                </span>
-              )}
-            </button>
-          ))}
-        </div>
-
-        {/* ── 통계 탭 ── */}
-        {tab === "stats" && (
-          <div className="space-y-6">
-            {brands.length === 0 ? (
-              <p className="text-center py-10" style={{ color: "var(--text-secondary)" }}>
-                로딩 중... (브랜드 탭 먼저 방문하면 즉시 표시)
-              </p>
-            ) : (
+        {/* 외부 도구 */}
+        <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit,minmax(240px,1fr))", gap: 12, marginBottom: 14 }}>
+          {[
+            { href: FANEASY_ADMIN, emoji: "🗂", title: "통합 어드민", desc: "여러 사이트의 통계·문의를 한 곳에서", ext: true },
+            { href: GA_PROPERTY, emoji: "📈", title: "방문 통계 (GA4)", desc: "유입·검색어·페이지별 방문", ext: true },
+            { href: "/requests", emoji: "📮", title: "요청·제보 접수", desc: "들어온 로고 요청과 품질 신고 처리", ext: false },
+          ].map(({ href, emoji, title, desc, ext }) => {
+            const inner = (
               <>
-                {/* 요약 카드 */}
-                <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
-                  {[
-                    { label: "총 브랜드", value: brands.length.toLocaleString(), color: "#6366f1" },
-                    { label: "SVG 보유", value: svgCount.toLocaleString(), color: "#10b981" },
-                    { label: "PNG only", value: pngOnly.toLocaleString(), color: "#f59e0b" },
-                    { label: "카테고리 수", value: catStats.length, color: "#8b5cf6" },
-                  ].map(({ label, value, color }) => (
-                    <div key={label} className="rounded-xl border p-4"
-                      style={{ borderColor: "var(--border)", background: "#fff" }}>
-                      <p className="text-xs font-medium mb-1" style={{ color: "var(--text-secondary)" }}>{label}</p>
-                      <p className="text-2xl font-bold" style={{ color }}>{value}</p>
-                    </div>
+                <div style={{ fontSize: 20, marginBottom: 8 }}>{emoji}</div>
+                <div style={{ fontSize: 14, fontWeight: 700, marginBottom: 3 }}>
+                  {title}{ext && <span style={{ fontSize: 11, color: "#a1a1aa", marginLeft: 5 }}>↗</span>}
+                </div>
+                <div style={{ fontSize: 12, color: "var(--text-secondary)", lineHeight: 1.5 }}>{desc}</div>
+              </>
+            );
+            const style = { ...card, textDecoration: "none", color: "inherit", display: "block" } as const;
+            return ext
+              ? <a key={title} href={href} target="_blank" rel="noopener noreferrer" style={style}>{inner}</a>
+              : <Link key={title} href={href} style={style}>{inner}</Link>;
+          })}
+        </div>
+
+        {/* 로고 DB 현황 — 세모로고에만 있는 데이터라 외부 어드민이 볼 수 없다 */}
+        <section style={{ ...card, marginBottom: 14 }}>
+          <div style={{ fontSize: 11, fontWeight: 700, color: "#71717a", letterSpacing: ".08em", textTransform: "uppercase", marginBottom: 14 }}>
+            로고 DB 현황
+          </div>
+          {loading ? (
+            <p style={{ fontSize: 13, color: "var(--text-secondary)" }}>불러오는 중…</p>
+          ) : (
+            <>
+              <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit,minmax(120px,1fr))", gap: 12, marginBottom: 16 }}>
+                {[
+                  { label: "총 브랜드", value: brands.length, color: "#6366f1" },
+                  { label: "SVG 보유", value: stats.svg, color: "#10b981" },
+                  { label: "PNG 만", value: stats.pngOnly, color: "#f59e0b" },
+                  { label: "한글명 없음", value: stats.noKorean, color: "#dc2626" },
+                ].map(({ label, value, color }) => (
+                  <div key={label}>
+                    <p style={{ fontSize: 12, color: "var(--text-secondary)", marginBottom: 3 }}>{label}</p>
+                    <p style={{ fontSize: 22, fontWeight: 800, color }}>{value.toLocaleString()}</p>
+                  </div>
+                ))}
+              </div>
+              <p style={{ fontSize: 11.5, color: "#a1a1aa", lineHeight: 1.6, margin: 0 }}>
+                한글명이 없으면 한국어로 검색해도 안 나와요. 채우려면{" "}
+                <code style={{ fontSize: 11 }}>brand-logos/scripts/fill-korean-names.py</code>
+              </p>
+
+              <div style={{ marginTop: 16, paddingTop: 14, borderTop: "1px solid var(--border)" }}>
+                <div style={{ fontSize: 12, fontWeight: 600, marginBottom: 8 }}>카테고리별</div>
+                <div style={{ display: "flex", flexWrap: "wrap", gap: 6 }}>
+                  {stats.cats.slice(0, 14).map(([c, n]) => (
+                    <span key={c} style={{ fontSize: 11.5, padding: "4px 9px", borderRadius: 999, background: "#f4f4f5", color: "#52525b" }}>
+                      {c} <b>{n.toLocaleString()}</b>
+                    </span>
                   ))}
                 </div>
+              </div>
+            </>
+          )}
+        </section>
 
-                {/* 요청 현황 */}
-                <div className="rounded-xl border p-5" style={{ borderColor: "var(--border)", background: "#fff" }}>
-                  <p className="text-sm font-bold mb-4">로고 요청 현황</p>
-                  <div className="flex gap-8">
-                    <div>
-                      <p className="text-xs" style={{ color: "var(--text-secondary)" }}>대기 중</p>
-                      <p className="text-xl font-bold" style={{ color: "#a16207" }}>{pending.length}</p>
-                    </div>
-                    <div>
-                      <p className="text-xs" style={{ color: "var(--text-secondary)" }}>완료</p>
-                      <p className="text-xl font-bold" style={{ color: "#16a34a" }}>{done.length}</p>
-                    </div>
-                    <div>
-                      <p className="text-xs" style={{ color: "var(--text-secondary)" }}>전체</p>
-                      <p className="text-xl font-bold">{requests.length}</p>
-                    </div>
-                  </div>
-                </div>
-
-                {/* 카테고리 분포 */}
-                <div className="rounded-xl border p-5" style={{ borderColor: "var(--border)", background: "#fff" }}>
-                  <p className="text-sm font-bold mb-4">카테고리별 브랜드 수</p>
-                  <div className="space-y-2">
-                    {catStats.map(([cat, count]) => {
-                      const pct = Math.round((count / brands.length) * 100);
-                      return (
-                        <div key={cat} className="flex items-center gap-3">
-                          <div className="text-xs w-32 truncate shrink-0" style={{ color: "var(--text-secondary)" }}>{cat}</div>
-                          <div className="flex-1 h-2 rounded-full overflow-hidden" style={{ background: "#f4f4f5" }}>
-                            <div className="h-full rounded-full" style={{ width: `${pct}%`, background: "#111" }} />
-                          </div>
-                          <div className="text-xs font-medium w-12 text-right shrink-0">{count.toLocaleString()}</div>
-                        </div>
-                      );
-                    })}
-                  </div>
-                </div>
-              </>
-            )}
+        {/* 브랜드 찾기 */}
+        <section style={card}>
+          <div style={{ fontSize: 11, fontWeight: 700, color: "#71717a", letterSpacing: ".08em", textTransform: "uppercase", marginBottom: 10 }}>
+            브랜드 찾기
           </div>
-        )}
-
-        {/* ── 요청 관리 탭 ── */}
-        {tab === "requests" && (
-          <>
-            <div className="flex gap-2 mb-5">
-              {[
-                { key: "all", label: `전체 ${requests.length}` },
-                { key: "pending", label: `대기 ${pending.length}` },
-                { key: "done", label: `완료 ${done.length}` },
-              ].map((t) => (
-                <button key={t.key} onClick={() => setReqFilter(t.key as typeof reqFilter)}
-                  className="px-3 py-1.5 text-sm rounded-full transition-colors"
-                  style={reqFilter === t.key
-                    ? { background: "#111", color: "#fff" }
-                    : { background: "var(--surface)", color: "var(--text-secondary)", border: "1px solid var(--border)" }
-                  }>
-                  {t.label}
-                </button>
+          <input
+            value={search}
+            onChange={(e) => setSearch(e.target.value)}
+            placeholder="이름·id 로 검색 (예: 삼성, samsung)"
+            style={{ width: "100%", padding: "9px 12px", borderRadius: 10, fontSize: 13,
+                     border: "1px solid var(--border)", background: "#f9f9f9", outline: "none" }}
+          />
+          {search && (
+            <div style={{ marginTop: 10, display: "flex", flexDirection: "column", gap: 2 }}>
+              {filtered.length === 0 ? (
+                <p style={{ fontSize: 12.5, color: "var(--text-secondary)", padding: "8px 0" }}>결과 없어요</p>
+              ) : filtered.map((b) => (
+                <a key={b.id} href={`/brand/${b.id}/`} target="_blank" rel="noopener noreferrer"
+                  style={{ display: "flex", alignItems: "center", gap: 10, padding: "7px 8px", borderRadius: 8,
+                           textDecoration: "none", color: "inherit", fontSize: 12.5 }}>
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img src={`${CDN}/${b.id}/logo.png`} alt="" width={30} height={20}
+                    style={{ objectFit: "contain", flexShrink: 0 }}
+                    onError={(e) => { e.currentTarget.style.visibility = "hidden"; }} />
+                  <span style={{ fontWeight: 600 }}>{b.name_ko}</span>
+                  <span style={{ color: "var(--text-secondary)" }}>{b.id}</span>
+                  <span style={{ marginLeft: "auto", fontSize: 11, color: b.logo_svg ? "#10b981" : "#a1a1aa" }}>
+                    {b.logo_svg ? "SVG" : "PNG"}
+                  </span>
+                </a>
               ))}
             </div>
-
-            {reqLoading ? (
-              <div className="text-center py-20" style={{ color: "var(--text-secondary)" }}>불러오는 중...</div>
-            ) : filteredReqs.length === 0 ? (
-              <div className="text-center py-20" style={{ color: "var(--text-secondary)" }}>
-                <p className="text-3xl mb-3">📋</p>
-                <p className="font-medium">요청이 없어요</p>
-              </div>
-            ) : (
-              <div className="flex flex-col gap-3">
-                {filteredReqs.map((req) => (
-                  <div key={req.id}
-                    className="flex items-center gap-4 px-5 py-4 rounded-xl border"
-                    style={{ borderColor: "var(--border)", background: "#fff" }}>
-                    <button
-                      onClick={() => handleToggleStatus(req)}
-                      disabled={updatingId === req.id}
-                      className="shrink-0 text-xs px-2.5 py-1 rounded-full font-medium transition-colors"
-                      style={req.status === "done"
-                        ? { background: "rgba(34,197,94,.1)", color: "#16a34a", cursor: "pointer" }
-                        : { background: "rgba(234,179,8,.1)", color: "#a16207", cursor: "pointer" }
-                      }>
-                      {updatingId === req.id ? "..." : req.status === "done" ? "✓ 완료" : "대기 중"}
-                    </button>
-                    <div className="flex-1 min-w-0">
-                      <p className="font-semibold text-sm">
-                        {req.brandName}
-                        {req.brandNameEn && req.brandNameEn !== req.brandName && (
-                          <span className="font-normal ml-1.5" style={{ color: "var(--text-secondary)" }}>
-                            / {req.brandNameEn}
-                          </span>
-                        )}
-                      </p>
-                      {req.website && (
-                        <a href={req.website} target="_blank" rel="noopener noreferrer"
-                          className="text-xs hover:underline truncate block" style={{ color: "var(--text-secondary)" }}>
-                          {req.website}
-                        </a>
-                      )}
-                      {req.note && (
-                        <p className="text-xs mt-0.5" style={{ color: "#aaa" }}>{req.note}</p>
-                      )}
-                    </div>
-                    <div className="shrink-0 text-right">
-                      <p className="text-xs" style={{ color: "var(--text-secondary)" }}>
-                        {req.createdAt?.toDate().toLocaleDateString("ko-KR")}
-                      </p>
-                      <p className="text-xs mt-0.5" style={{ color: "#ccc" }}>
-                        {req.userDisplayName?.split(" ")[0]}
-                      </p>
-                    </div>
-                  </div>
-                ))}
-              </div>
-            )}
-          </>
-        )}
-
-        {/* ── 브랜드 목록 탭 ── */}
-        {tab === "brands" && (
-          <>
-            <div className="flex items-center gap-3 mb-5">
-              <div className="relative flex-1 max-w-xs">
-                <svg className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400 pointer-events-none"
-                  width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2">
-                  <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
-                </svg>
-                <input type="text" value={brandSearch} onChange={(e) => setBrandSearch(e.target.value)}
-                  placeholder="브랜드 검색..."
-                  className="w-full pl-9 pr-3 py-2 text-sm rounded-full border outline-none"
-                  style={{ border: "1.5px solid var(--border)", background: "var(--surface)" }} />
-              </div>
-              <span className="text-sm" style={{ color: "var(--text-secondary)" }}>
-                {filteredBrands.length.toLocaleString()}개
-              </span>
-            </div>
-
-            {brandsLoading ? (
-              <div className="text-center py-20" style={{ color: "var(--text-secondary)" }}>불러오는 중...</div>
-            ) : (
-              <div className="flex flex-col divide-y" style={{ borderTop: "1px solid var(--border)", borderBottom: "1px solid var(--border)" }}>
-                {filteredBrands.slice(0, 200).map((brand) => (
-                  <div key={brand.id} className="flex items-center gap-3 py-2.5 px-1">
-                    {/* eslint-disable-next-line @next/next/no-img-element */}
-                    <img
-                      src={`${CDN}/${brand.id}/logo.${brand.logo_svg ? "svg" : "png"}`}
-                      alt={`${brand.name_ko} 로고`}
-                      style={{ width: 36, height: 24, objectFit: "contain", flexShrink: 0, borderRadius: 4, border: "1px solid #f0f0f2" }}
-                      onError={(e) => { e.currentTarget.style.display = "none"; }}
-                    />
-                    <div className="flex-1 min-w-0">
-                      <p className="text-sm font-medium truncate">
-                        {brand.name_ko}
-                        {brand.name_en && brand.name_en !== brand.name_ko && (
-                          <span className="font-normal ml-1.5 text-xs" style={{ color: "var(--text-secondary)" }}>
-                            {brand.name_en}
-                          </span>
-                        )}
-                      </p>
-                      <p className="text-xs" style={{ color: "var(--text-secondary)" }}>{brand.id}</p>
-                    </div>
-                    <span className="text-xs px-2 py-0.5 rounded-full shrink-0"
-                      style={{ background: "#f4f4f5", color: "#71717a" }}>
-                      {brand.category || "기타"}
-                    </span>
-                    <div className="flex gap-1 shrink-0">
-                      {brand.logo_svg && <span className="text-[10px] font-bold px-1.5 py-0.5 rounded" style={{ background: "#eff6ff", color: "#3b82f6" }}>SVG</span>}
-                      {brand.logo_png && <span className="text-[10px] font-bold px-1.5 py-0.5 rounded" style={{ background: "#f0fdf4", color: "#22c55e" }}>PNG</span>}
-                    </div>
-                  </div>
-                ))}
-                {filteredBrands.length > 200 && (
-                  <p className="text-center py-4 text-sm" style={{ color: "var(--text-secondary)" }}>
-                    검색으로 범위를 좁혀주세요 (200개 이상 생략)
-                  </p>
-                )}
-              </div>
-            )}
-          </>
-        )}
+          )}
+        </section>
       </main>
     </div>
   );
