@@ -82,9 +82,14 @@ function searchBrands(list, query, limit) {
   const cho = hasJamo(raw);
   const scored = [];
   for (const b of list) {
-    const hay = `${b.name_ko ?? ""} ${b.name_en ?? ""} ${b.id}`.toLowerCase();
+    // 별칭(aliases)까지 검색 대상에 넣는다. LG·SK 처럼 로마자가 정식 이름인
+    // 브랜드를 '엘지'·'에스케이'로 찾을 수 있어야 한다.
+    const alias = b.aliases ?? [];
+    const hay = `${b.name_ko ?? ""} ${b.name_en ?? ""} ${b.id} ${alias.join(" ")}`.toLowerCase();
     const textAt = hay.indexOf(q);
-    const choAt = cho ? choseongIndex(raw, b.name_ko ?? "") : -1;
+    const choAt = cho
+      ? Math.max(choseongIndex(raw, b.name_ko ?? ""), ...alias.map((a) => choseongIndex(raw, a)))
+      : -1;
     if (textAt < 0 && choAt < 0) continue;
 
     // 정확히 일치하면 무조건 1등. 이게 없으면 "samsung" 을 물었을 때
@@ -93,7 +98,8 @@ function searchBrands(list, query, limit) {
     const exact =
       b.id.toLowerCase() === q ||
       (b.name_en ?? "").toLowerCase() === q ||
-      (b.name_ko ?? "").toLowerCase() === q;
+      (b.name_ko ?? "").toLowerCase() === q ||
+      alias.some((a) => a.toLowerCase() === q);
 
     // 앞글자 매치가 그다음. 이름이 짧을수록 더 정확한 매치로 본다.
     const at = choAt === 0 || textAt === 0 ? 0 : Math.min(...[choAt, textAt].filter((x) => x >= 0)) + 1;

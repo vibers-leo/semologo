@@ -1,4 +1,6 @@
 export interface Brand {
+  /** 검색 전용 별칭 — LG 를 '엘지'로도 찾게 한다 */
+  aliases?: string[];
   id: string;
   name_ko: string;
   name_en: string;
