@@ -239,7 +239,9 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
   const tile = (base?: React.CSSProperties): React.CSSProperties =>
     isLightLogo ? DARK_TILE : (base ?? {});
   const mainUrl = hasSvg ? svgUrl : pngUrl;
-  const pageUrl = typeof window !== "undefined" ? `${window.location.origin}/#${brand.id}` : "";
+  // 정본 브랜드 페이지 주소. 예전엔 `${origin}/#${brand.id}` 라 홈으로 보내놓고
+  // 해시로 모달을 여는 링크였다 — 사이트맵·canonical 과 다른 주소를 공유하던 셈이다.
+  const pageUrl = typeof window !== "undefined" ? `${window.location.origin}/brand/${brand.id}/` : "";
 
   const relations = (BRAND_RELATIONS[brand.id] || []).flatMap(rel => {
     const related = allBrands.find(b => b.id === rel.relatedId);
@@ -411,13 +413,32 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
     } catch { toast("요청 실패. 다시 시도해주세요"); }
   }, [brand.id, appendFeed]);
 
+  // 공유 — 예전엔 '퍼가기' · '로고 URL만 복사' · '코드 복사' 버튼 3개가
+  // 두 섹션에 흩어져 있었다. 셋 다 "클립보드에 담는다"는 같은 동작이라
+  // 서로 중복돼 보였고 사이드바 세로 공간도 많이 먹었다.
+  // 무엇을 복사할지만 고르게 하고 실행 버튼은 하나로 합친다.
+  const SHARE_TABS = [
+    { key: "page",  label: "페이지" },
+    { key: "image", label: "이미지" },
+    { key: "html",  label: "HTML" },
+  ] as const;
+  type ShareTab = (typeof SHARE_TABS)[number]["key"];
+  const [shareTab, setShareTab] = useState<ShareTab>("page");
+
+  const embedCode = `<img src="${mainUrl}" alt="${brand.name_ko}" style="height:40px">`;
+  const shareValue = shareTab === "page" ? pageUrl : shareTab === "image" ? mainUrl : embedCode;
+
   const doShare = useCallback(async () => {
-    navigator.clipboard.writeText(pageUrl).catch(() => {});
+    navigator.clipboard.writeText(shareValue).catch(() => {});
     setCopyDone(true);
     setTimeout(() => setCopyDone(false), 1800);
-    appendFeed({ emoji: myEmoji(), ts: Date.now() });
-    toast("퍼가기 완료! 링크 복사됨 🎉");
-  }, [brand.id, pageUrl, appendFeed]);
+    // 활동 피드는 '페이지 퍼가기'일 때만 쌓는다 — URL·코드 복사는 개인 작업이라
+    // 남에게 보여줄 활동이 아니다.
+    if (shareTab === "page") appendFeed({ emoji: myEmoji(), ts: Date.now() });
+    toast(shareTab === "page" ? "퍼가기 완료! 링크 복사됨 🎉"
+        : shareTab === "image" ? "로고 URL 복사됨! 🖼"
+        : "임베드 코드 복사됨!");
+  }, [brand.id, shareValue, shareTab, appendFeed]);
 
   const castQualityVote = useCallback(async (vote: "up" | "down") => {
     if (myQualityVote) { toast(myQualityVote === vote ? "이미 투표했어요" : "투표는 한 번만 할 수 있어요"); return; }
@@ -846,21 +867,42 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
         {/* ── RIGHT: 퍼가요 + 임베드 + 제보 + 광고 ── */}
         <div className={`mscroll brand-inner-right`} style={{ overflowY: isPage ? undefined : "auto", borderLeft:"1px solid #e4e4e7", display:"flex", flexDirection:"column", scrollbarWidth:"thin" }}>
 
-          {/* 퍼가요~ */}
+          {/* 공유 — 무엇을 복사할지 고르고 버튼 하나로 실행한다 */}
           <div style={{ padding:"14px 16px", borderBottom:"1px solid #e4e4e7" }}>
-            <div style={{ fontSize: 11, fontWeight:700, color:"#71717a", letterSpacing:".08em", textTransform:"uppercase", marginBottom:10 }}>퍼가요~ 🎉</div>
-            <div style={{ display:"flex", flexDirection:"column", gap:6 }}>
-              <button onClick={doShare}
-                style={{ display:"flex", alignItems:"center", justifyContent:"center", gap:6, padding:"9px 0", borderRadius:8, fontSize:11, fontWeight:600, background:"#6366f1", color:"#fff", border:"none", cursor:"pointer" }}>
-                🔗 이 브랜드 페이지 퍼가기
-              </button>
-              <button onClick={() => { navigator.clipboard.writeText(mainUrl); toast("로고 URL 복사됨! 🖼"); }}
-                style={{ display:"flex", alignItems:"center", justifyContent:"center", gap:6, padding:"9px 0", borderRadius:8, fontSize:11, fontWeight:600, background:"#f4f4f5", color:"#52525b", border:"1px solid #e4e4e7", cursor:"pointer" }}>
-                🖼 로고 URL만 복사
-              </button>
+            <div style={{ fontSize: 11, fontWeight:700, color:"#71717a", letterSpacing:".08em", textTransform:"uppercase", marginBottom:10 }}>공유하기 🎉</div>
+
+            {/* 무엇을 복사할지 */}
+            <div style={{ display:"flex", gap:4, marginBottom:8 }}>
+              {SHARE_TABS.map(t => {
+                const on = shareTab === t.key;
+                return (
+                  <button key={t.key} onClick={() => setShareTab(t.key)}
+                    style={{ flex:1, padding:"6px 0", borderRadius:7, fontSize:11, fontWeight:600, cursor:"pointer",
+                             background: on ? "#111" : "#f4f4f5", color: on ? "#fff" : "#71717a",
+                             border: `1px solid ${on ? "#111" : "#e4e4e7"}`, transition:"all .12s" }}>
+                    {t.label}
+                  </button>
+                );
+              })}
             </div>
+
+            {/* 복사될 내용 — 실제로 뭐가 담기는지 보여준다 */}
+            <div style={{ background:"#f9f9f9", border:"1px solid #e4e4e7", borderRadius:8, padding:"8px 10px",
+                          fontFamily:"monospace", fontSize:11, color:"#71717a", lineHeight:1.6,
+                          marginBottom:8, wordBreak:"break-all",
+                          maxHeight:56, overflow:"hidden" }}>
+              {shareValue}
+            </div>
+
+            <button onClick={doShare}
+              style={{ width:"100%", display:"flex", alignItems:"center", justifyContent:"center", gap:6,
+                       padding:"9px 0", borderRadius:8, fontSize:12, fontWeight:600, cursor:"pointer",
+                       background: copyDone ? "#16a34a" : "#6366f1", color:"#fff", border:"none", transition:"background .15s" }}>
+              {copyDone ? "✅ 복사됐어요" : "📋 복사하기"}
+            </button>
+
             {shareFeed.length > 0 && (
-              <div style={{ marginTop:10 }}>
+              <div style={{ marginTop:12 }}>
                 <div style={{ fontSize: 11, fontWeight:700, color:"#71717a", letterSpacing:".06em", textTransform:"uppercase", marginBottom:5 }}>최근 활동</div>
                 {shareFeed.slice(-6).map((s, i) => (
                   <div key={i} style={{ display:"flex", alignItems:"center", gap:4, padding:"3px 0", borderBottom:"1px solid #f0f0f2" }}>
@@ -875,18 +917,6 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
                 ))}
               </div>
             )}
-          </div>
-
-          {/* HTML 임베드 */}
-          <div style={{ padding:"14px 16px", borderBottom:"1px solid #e4e4e7" }}>
-            <div style={{ fontSize: 11, fontWeight:700, color:"#71717a", letterSpacing:".08em", textTransform:"uppercase", marginBottom:10 }}>HTML 임베드</div>
-            <div style={{ background:"#f4f4f5", border:"1px solid #e4e4e7", borderRadius:8, padding:10, fontFamily:"monospace", fontSize:"9.5px", color:"#71717a", lineHeight:1.6, wordBreak:"break-all", marginBottom:8 }}>
-              {`<img src="${mainUrl}" alt="${brand.name_ko}" style="height:40px">`}
-            </div>
-            <button onClick={() => { navigator.clipboard.writeText(`<img src="${mainUrl}" alt="${brand.name_ko}" style="height:40px">`); toast("임베드 코드 복사됨!"); }}
-              style={{ width:"100%", padding:"7px 0", borderRadius:8, fontSize:11, fontWeight:600, background:"#f4f4f5", color:"#52525b", border:"1px solid #e4e4e7", cursor:"pointer" }}>
-              코드 복사
-            </button>
           </div>
 
           {/* 제보 & 개선 */}
