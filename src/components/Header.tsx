@@ -27,6 +27,12 @@ function UserMenu({ user }: { user: User }) {
       {open && (
         <div className="absolute right-0 mt-2 w-40 rounded-xl border shadow-lg overflow-hidden z-50"
           style={{ background: "#fff", borderColor: "var(--border)" }}>
+          <Link href="/mypage" onClick={() => setOpen(false)}
+            className="block px-4 py-3 text-sm hover:bg-gray-50 transition-colors"
+            style={{ textDecoration: "none", color: "inherit" }}>
+            마이페이지
+          </Link>
+          <div style={{ height: 1, background: "var(--border)" }} />
           <button onClick={handleSignOut}
             className="w-full text-left px-4 py-3 text-sm hover:bg-gray-50 transition-colors">
             로그아웃
