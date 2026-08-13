@@ -9,6 +9,8 @@
 - (og-image·favicon 원본은 public/ 에 있음 — 추후 meta/ 로 이관 검토)
 
 ## 과업 로그 (최신이 위)
+- 2026-08-13 | 키엔AI에 세모로고 브랜드 소개 매거진 발행 → https://keyenai.com/articles/vbs-semologo-intro
+  (실측 기준: 사이트맵 브랜드 6,392 · CDN 인덱스 6,835 · SVG 6,321 · 다크변형 6,820 · 카테고리 40)
 - 2026-08-09 | 풀케어 8단계 완주 — FULLCARE_REPORT.md 참조 (폰트 하한·메타 동적화·llms.txt·보안패치·모바일 푸터)
 - 2026-08-08 | marketing/ 표준 구조 생성
 

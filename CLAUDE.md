@@ -56,6 +56,25 @@ src/
     └── brands.ts         ← brands.json fetch + 타입
 ```
 
+## 브랜드 추가 순서 (중요 — 안 지키면 페이지가 404 난다)
+
+```
+1. brand-logos 커밋 + 푸시
+2. **brand-logos 의 pages 배포가 끝날 때까지 기다린다**   ← 이걸 빠뜨리면 404
+   gh run list --repo vibers-leo/brand-logos --workflow pages-build-deployment --limit 1
+3. curl -s https://logo.vibers.co.kr/version.txt 로 최종값 확인
+4. semologo 의 VERSION 3곳 갱신 → 커밋 + 푸시
+```
+
+**왜 기다려야 하나:** semologo 빌드는 CDN 의 `brands.json` 을 읽어 6,800여 개
+브랜드 페이지를 만든다. CDN 이 아직 갱신 전이면 신규 브랜드 페이지가 아예
+생성되지 않아 **404** 가 된다. 캐시버스터(`?v=`)가 있어도 소용없다 — 파일 자체가
+아직 안 올라갔기 때문이다.
+
+실제로 두 번 겪었다 (2026-08-13 애터미·세모로고). 두 번째는 semologo 빌드가
+brand-logos 배포보다 **52초 먼저** 시작해서 났다. 증상이 같으니 신규 브랜드
+페이지가 404 면 이 순서부터 의심할 것. 재빌드하면 해결된다.
+
 ## CURRENT_VERSION (CDN 캐시 버스팅)
 - `BrandGrid.tsx`, `BrandInner.tsx` 내 `VERSION` 상수: `1786194708`
 - brand-logos 레포의 `version.txt` / `index.html`(`CURRENT_VERSION`)과 같은 값으로 맞춘다

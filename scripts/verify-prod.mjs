@@ -88,12 +88,16 @@ for (const q of queries) {
   await page.waitForTimeout(250);
   await box.fill(q);
   await page.waitForTimeout(1800);        // useDeferredValue 가 반영될 시간
-  const hits = await page.evaluate(() =>
-    [...document.querySelectorAll("img[alt]")]
+  // 헤더 로고를 결과로 오인하지 않도록 **메인 영역 안**에서만 찾는다.
+  // 예전엔 alt 로 "세모로고" 를 걸러냈는데, 그러다 진짜 브랜드인 세모로고를
+  // 검색했을 때 "결과 없음" 으로 잘못 판정했다.
+  const hits = await page.evaluate(() => {
+    const scope = document.querySelector("main") ?? document.body;
+    return [...scope.querySelectorAll("img[alt]")]
       .map((i) => i.alt)
-      .filter((a) => a && a !== "세모로고")
-      .slice(0, 3),
-  );
+      .filter(Boolean)
+      .slice(0, 3);
+  });
   const ok = hits.length > 0;
   if (!ok) fail++;
   console.log(`  ${ok ? "✅" : "❌"} "${q}" → ${hits.join(" | ") || "(결과 없음)"}`);
