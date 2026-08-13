@@ -22,3 +22,9 @@
 
 - 2026-08-11 — 브랜드 페이지 공유 UI 통합 후 재캡처 → `screenshots/20260811_share/{desktop,mobile}.png`
   (쿠팡 파트너스 배너 게시 상태 포함 — 파트너스 최종 승인 스크린샷으로 사용 가능)
+
+- 2026-08-13 | MCP 공개 준비 — 캠페인 노트 `campaigns/2026-08_mcp-launch.md`, SNS 문안 `sns/2026-08_mcp-launch.md`
+  (npm publish 는 `npm login` 이 브라우저 인증이라 사람이 해야 함 — 그 전엔 링크 배포 금지)
+- 2026-08-13 | 브랜드 추가: 애터미(공식 CI .ai) · 세모로고(자체) · 당근(공식 CI, 옛 karrotmarket 흡수)
+- 2026-08-13 | 캡처 → `screenshots/20260813_mcp/{desktop,mobile,brand-daangn}.png`
+- 2026-08-13 | 로고 원본(.ai) 보관소 신설 — brand-logos `_sources/` (git 미추적, 로컬+드라이브 백업)
