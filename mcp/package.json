@@ -2,12 +2,36 @@
   "name": "semologo-mcp",
   "version": "0.1.0",
   "description": "세상 모든 로고 — 6,800여 개 브랜드 로고를 AI 대화 중에 바로 검색하고 SVG로 가져옵니다",
-  "type": "module",
-  "bin": { "semologo-mcp": "./index.mjs" },
-  "files": ["index.mjs", "README.md"],
-  "engines": { "node": ">=18" },
-  "keywords": ["mcp", "logo", "svg", "brand", "korea", "세모로고"],
+  "keywords": [
+    "mcp",
+    "logo",
+    "svg",
+    "brand",
+    "korea",
+    "세모로고"
+  ],
+  "homepage": "https://semologo.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vibers-leo/semologo.git",
+    "directory": "mcp"
+  },
+  "bugs": {
+    "url": "https://github.com/vibers-leo/semologo/issues"
+  },
   "license": "MIT",
+  "author": "Vibers (계발자들)",
+  "type": "module",
+  "bin": {
+    "semologo-mcp": "./index.mjs"
+  },
+  "files": [
+    "index.mjs",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.0.0"
   }
