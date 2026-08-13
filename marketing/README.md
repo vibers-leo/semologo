@@ -1,5 +1,8 @@
 # semologo 마케팅
+
 > 표준: macminim4/ops/marketing/marketing-standard.md / 생성: 2026-08-08
+
+- 📢 **이 사이트는 광고 지면입니다** → [ADS.md](ADS.md) (현재 게재 광고·동작 방식)
 
 ## 현재 자산 (최신만)
 - screenshots/20260809_v1/ — home·brand × desktop·mobile 4장
