@@ -47,6 +47,9 @@ export default function VibersAdSlot({ slot = "home_top" }: { slot?: string }) {
   return (
     <div style={{ width: "100%", aspectRatio: ratio }}>
       <iframe
+        /* key: 뷰포트가 PC↔모바일로 바뀌면 iframe을 새로 마운트한다.
+           같은 엘리먼트를 재사용하면 src만 바뀌어도 이전 포맷 배너가 남아 있을 수 있다. */
+        key={format}
         src={`${AD_SERVER}/api/ads/frame?app=semologo&format=${format}&slot=${slot}&sid=${sid}`}
         title="sponsored"
         scrolling="no"
