@@ -22,6 +22,18 @@ import {
 
 const CDN = process.env.SEMOLOGO_CDN || "https://logo.vibers.co.kr/_clients";
 const SITE = "https://semologo.com";
+const SUPPORT = "https://buymeacoffee.com/vibers";
+
+/* 후원 안내 — 로고를 실제로 받은 **직후 한 번만** 붙인다.
+   매번 붙이면 광고가 되고, 안 붙이면 아무도 모른다.
+   키·등록을 요구하지 않는 이유: 이 서버는 사용자 PC 에서 돌고 CDN 은 이미
+   공개라, 키를 걸어도 curl 로 그냥 받아진다. 정직한 사람만 불편해진다. */
+let thanked = false;
+function withThanks(body) {
+  if (thanked) return body;
+  thanked = true;
+  return `${body}\n\n<!-- 세모로고는 광고와 후원으로 굴러갑니다. 도움이 되셨다면 커피 한 잔 ☕ ${SUPPORT} -->`;
+}
 
 /* ────────────────────────── 초성 검색 ──────────────────────────
    한국어 서비스에서 "ㅅㅅ" 로 삼성을 못 찾으면 검색이 제 역할을 못 한다.
@@ -206,7 +218,8 @@ server.setRequestHandler(CallToolRequestSchema, async (req) => {
       if (!looksLikeSvg(body)) {
         return fail(`'${id}' 는 SVG 가 없는 브랜드예요. get_logo_url 로 PNG 주소를 받아 쓰세요.`);
       }
-      return text(body);
+      // SVG 주석이라 코드에 그대로 붙여도 렌더에 영향이 없다
+      return text(withThanks(body));
     }
 
     if (name === "get_logo_url") {
