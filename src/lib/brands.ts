@@ -39,7 +39,11 @@ let brandsCache: Promise<Brand[]> | null = null;
 export async function fetchBrands(): Promise<Brand[]> {
   if (!brandsCache) {
     brandsCache = (async () => {
-      const res = await fetch(`${CDN}/brands.json`, { next: { revalidate: 60 } });
+      // ?v=VERSION 필수. Cloudflare 가 이 경로의 JSON 을 1시간 엣지 캐시하므로,
+      // 캐시버스터가 없으면 **빌드가 최대 1시간 묵은 목록으로 페이지를 만든다.**
+      // 실제로 애터미를 등록한 날 브랜드 페이지가 404 로 나왔다(2026-08-13).
+      // CDN 을 갱신했으면 cdn.ts 의 VERSION 도 같이 올려야 이 방어가 작동한다.
+      const res = await fetch(`${CDN}/brands.json?v=${VERSION}`, { next: { revalidate: 60 } });
       if (!res.ok) return [];
       const data = await res.json();
       if (Array.isArray(data)) return data;

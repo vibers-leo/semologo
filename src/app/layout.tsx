@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Script from "next/script";
 import { SearchProvider } from "@/lib/search-context";
+import { VERSION } from "@/lib/cdn";
 import Footer from "@/components/Footer";
 import "./globals.css";
 
@@ -16,7 +17,8 @@ const CDN = process.env.NEXT_PUBLIC_CDN_URL || "https://logo.vibers.co.kr/_clien
  */
 async function brandCount(): Promise<string> {
   try {
-    const res = await fetch(`${CDN}/brands-slim.json`, { next: { revalidate: 3600 } });
+    // ?v= 없으면 CF 엣지 캐시(1시간) 때문에 묵은 수를 표시한다 — brands.ts 와 같은 이유
+    const res = await fetch(`${CDN}/brands-slim.json?v=${VERSION}`, { next: { revalidate: 3600 } });
     if (!res.ok) return "6,800여";
     const list = await res.json();
     const n = Array.isArray(list) ? list.filter((b) => !b?.variant_of).length : 0;
