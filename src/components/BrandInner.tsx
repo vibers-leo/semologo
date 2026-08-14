@@ -300,6 +300,11 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
     : [];
   const [langFilter, setLangFilter] = useState<string | null>(null);
 
+  // 영문 버전 보유 여부는 변형 매니페스트가 정답이다. 예전엔 brand.lang_en 을
+  // 봤는데 그 플래그를 가진 브랜드가 사실상 없어서, 영문 로고가 실제로 있어도
+  // "✗ 영문 버전" 이라고 잘못 말했다.
+  const hasEn = manifest ? langs.includes("en") : !!brand.lang_en;
+
   const grab = useCallback(async (url: string, filename: string) => {
     const ok = await downloadFile(url, filename);
     if (!ok) window.open(url, "_blank", "noopener,noreferrer");
@@ -645,7 +650,7 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
           <div>
             <div style={{ fontSize: 11, fontWeight:700, color:"#71717a", letterSpacing:".08em", textTransform:"uppercase", marginBottom:10 }}>보유 형식</div>
             <div style={{ display:"flex", flexDirection:"column", gap:5 }}>
-              {[{ label:"SVG 벡터", ok:hasSvg }, { label:"PNG", ok:true }, { label:"영문 버전", ok:!!brand.lang_en }].map(({ label, ok }) => (
+              {[{ label:"SVG 벡터", ok:hasSvg }, { label:"PNG", ok:true }, { label:"영문 버전", ok:hasEn }].map(({ label, ok }) => (
                 <span key={label} style={{ display:"inline-flex", alignItems:"center", gap:4, padding:"4px 10px", borderRadius:20, fontSize:11, fontWeight:600, background:ok?"rgba(34,197,94,0.12)":"#f4f4f5", color:ok?"#22c55e":"#71717a", border:`1px solid ${ok?"rgba(34,197,94,0.2)":"#e4e4e7"}` }}>
                   {ok ? "✓" : "✗"} {label}
                 </span>
