@@ -20,7 +20,7 @@ import {
 } from "@/lib/logo-quality";
 
 const CDN = process.env.NEXT_PUBLIC_CDN_URL || "https://logo.vibers.co.kr/_clients";
-const VERSION = "1786630479";
+const VERSION = "1786664326";
 
 /**
  * CDN이 크로스 오리진(logo.vibers.co.kr ≠ semologo.com)이라

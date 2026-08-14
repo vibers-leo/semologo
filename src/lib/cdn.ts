@@ -13,7 +13,7 @@
 export const CDN =
   process.env.NEXT_PUBLIC_CDN_URL || "https://logo.vibers.co.kr/_clients";
 
-export const VERSION = "1786630479";
+export const VERSION = "1786664326";
 
 /** 캐시 버스터가 붙은 브랜드 자산 URL */
 export function assetUrl(brandId: string, file: string): string {
