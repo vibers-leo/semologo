@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { fetchBrands, getBrandMap } from "@/lib/brands";
+import { CDN } from "@/lib/cdn";
 import Header from "@/components/Header";
 import BrandDetailClient from "./BrandDetailClient";
 
-const CDN = process.env.NEXT_PUBLIC_CDN_URL || "https://logo.vibers.co.kr/_clients";
 const BASE = process.env.NEXT_PUBLIC_APP_URL || "https://semologo.com";
 
 export async function generateStaticParams() {

@@ -5,7 +5,11 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "build:webpack": "next build --webpack",
+    "start": "next start",
+    "type-check": "tsc --noEmit",
+    "check:cdn": "node scripts/check-cdn.mjs",
+    "verify": "pnpm type-check && pnpm check:cdn"
   },
   "dependencies": {
     "@types/nodemailer": "^8.0.1",

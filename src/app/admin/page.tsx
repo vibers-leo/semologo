@@ -18,11 +18,11 @@ import { useRouter } from "next/navigation";
 import Link from "next/link";
 import { onAuthStateChanged } from "firebase/auth";
 import { getClientAuth } from "@/lib/firebase";
+import { CDN } from "@/lib/cdn";
 import { fetchBrands, type Brand } from "@/lib/brands";
 import Header from "@/components/Header";
 
 const ADMIN_EMAIL = "juuuno1116@gmail.com";
-const CDN = process.env.NEXT_PUBLIC_CDN_URL || "https://logo.vibers.co.kr/_clients";
 
 /** 외부 운영 도구 — 주소가 바뀌면 여기만 고친다 */
 const FANEASY_ADMIN = "https://faneasy.kr/admin";

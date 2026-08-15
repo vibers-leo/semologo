@@ -4,7 +4,7 @@ import { useEffect, useState, useCallback } from "react";
 import Link from "next/link";
 import { Brand, fetchVariants, type VariantManifest, type VariantRecord } from "@/lib/brands";
 import { BRAND_RELATIONS, RELATION_LABEL, RELATION_COLOR } from "@/lib/brand-relations";
-import { getClientDb } from "@/lib/firebase";
+import { getClientAuth, getClientDb } from "@/lib/firebase";
 import CoupangSlot from "./CoupangSlot";
 
 const SITE_URL = process.env.NEXT_PUBLIC_APP_URL || "https://semologo.com";
@@ -18,9 +18,8 @@ import {
 import {
   loadQuality, getMyVote, voteQuality, type QualityData,
 } from "@/lib/logo-quality";
-
-const CDN = process.env.NEXT_PUBLIC_CDN_URL || "https://logo.vibers.co.kr/_clients";
-const VERSION = "1786682539";
+import { trackEvent } from "@/lib/analytics";
+import { CDN, VERSION } from "@/lib/cdn";
 
 /**
  * CDN이 크로스 오리진(logo.vibers.co.kr ≠ semologo.com)이라
@@ -308,7 +307,8 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
   const grab = useCallback(async (url: string, filename: string) => {
     const ok = await downloadFile(url, filename);
     if (!ok) window.open(url, "_blank", "noopener,noreferrer");
-  }, []);
+    trackEvent("logo_downloaded", { brand_id: brand.id, file_name: filename, download_method: ok ? "download" : "new_tab" });
+  }, [brand.id]);
 
   useEffect(() => {
     if (isPage) return;
@@ -382,6 +382,7 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
   }, [brand.id]);
 
   const castVote = useCallback(async (file: string, label: string) => {
+    if (!getClientAuth().currentUser) { toast("추천하려면 로그인해 주세요"); return; }
     if (votedFiles.includes(file)) { toast("이미 투표했어요"); return; }
     const key = fk(file);
     setVotes(prev => ({ ...prev, [key]: (prev[key] || 0) + 1 }));
@@ -408,6 +409,7 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
   }, [brand.id, votedFiles, appendFeed]);
 
   const requestSwap = useCallback(async (file: string, label: string) => {
+    if (!getClientAuth().currentUser) { toast("교체를 요청하려면 로그인해 주세요"); return; }
     if (!window.confirm(`"${label}"을(를) 메인 로고로 교체 요청할까요?\n관리자 확인 후 반영됩니다.`)) return;
     try {
       const db = getClientDb();
@@ -463,6 +465,7 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
   }, [brand.id, shareValue, shareTab, appendFeed]);
 
   const castQualityVote = useCallback(async (vote: "up" | "down") => {
+    if (!getClientAuth().currentUser) { toast("품질 평가를 남기려면 로그인해 주세요"); return; }
     if (myQualityVote) { toast(myQualityVote === vote ? "이미 투표했어요" : "투표는 한 번만 할 수 있어요"); return; }
     try {
       const result = await voteQuality(brand.id, vote, brand.name_ko || brand.name_en);

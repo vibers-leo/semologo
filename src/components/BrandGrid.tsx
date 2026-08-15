@@ -3,15 +3,15 @@
 import { useMemo, useState, useEffect, useRef, useDeferredValue } from "react";
 import dynamic from "next/dynamic";
 import { Brand } from "@/lib/brands";
+import { hasUsableBrandData, parseBrandList } from "@/lib/brand-data";
+import { CDN, VERSION } from "@/lib/cdn";
+import { trackEvent } from "@/lib/analytics";
 import BrandModal from "./BrandModal";
 import { useSearch } from "@/lib/search-context";
 import { isChoseongQuery, choseongIndex } from "@/lib/hangul";
 
 const AdSlot = dynamic(() => import("./AdSlot"), { ssr: false });
 const AD_INTERVAL = 12;
-
-const CDN = process.env.NEXT_PUBLIC_CDN_URL || "https://logo.vibers.co.kr/_clients";
-const VERSION = "1786682539";
 
 // 카테고리 아이콘 매핑
 const CAT_EMOJI: Record<string, string> = {
@@ -36,6 +36,7 @@ export default function BrandGrid() {
   const { query, selectedCats, toggleCat, clearCats } = useSearch();
   const [brands, setBrands] = useState<Brand[]>([]);
   const [loading, setLoading] = useState(true);
+  const [loadError, setLoadError] = useState(false);
   const [selected, setSelected] = useState<Brand | null>(null);
   const [page, setPage] = useState(1);
   const [showAllCats, setShowAllCats] = useState(false);
@@ -44,13 +45,24 @@ export default function BrandGrid() {
   useEffect(() => {
     // ?v= 없이 force-cache 로 받으면 브랜드 목록이 영구히 갱신되지 않는다
     // (신규 브랜드를 추가해도 기존 방문자에게 안 보임)
-    fetch(`${CDN}/brands-slim.json?v=${VERSION}`, { cache: "force-cache" })
-      .then(r => r.json())
-      .then(d => {
-        const list = Array.isArray(d) ? d : (d.brands ?? []);
-        setBrands(list);
-      })
-      .finally(() => setLoading(false));
+    let cancelled = false;
+    async function load() {
+      setLoading(true);
+      setLoadError(false);
+      try {
+        const response = await fetch(`${CDN}/brands-slim.json?v=${VERSION}`, { cache: "force-cache" });
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+        const list = parseBrandList(await response.json());
+        if (!hasUsableBrandData(list)) throw new Error("invalid brand data");
+        if (!cancelled) setBrands(list);
+      } catch {
+        if (!cancelled) setLoadError(true);
+      } finally {
+        if (!cancelled) setLoading(false);
+      }
+    }
+    load();
+    return () => { cancelled = true; };
   }, []);
 
   // 카테고리별 카운트 (실제 데이터 기반, 내림차순)
@@ -146,6 +158,20 @@ export default function BrandGrid() {
   // 입력마다 렌더가 두 번씩 돌았다.
   useEffect(() => { setPage(1); }, [deferredQuery, selectedCats]);
 
+  const trackedSearches = useRef(new Set<string>());
+  useEffect(() => {
+    const term = deferredQuery.trim();
+    if (!term || trackedSearches.current.has(term)) return;
+    const timer = window.setTimeout(() => {
+      trackedSearches.current.add(term);
+      // 한 세션에서 지나치게 많은 이벤트가 쌓이지 않도록 상한을 둔다.
+      if (trackedSearches.current.size > 50) trackedSearches.current.clear();
+      trackEvent("search_submitted", { search_term: term, result_count: filtered.length });
+      if (filtered.length === 0) trackEvent("search_no_result", { search_term: term });
+    }, 700);
+    return () => window.clearTimeout(timer);
+  }, [deferredQuery, filtered.length]);
+
   const visible = filtered.slice(0, page * PAGE_SIZE);
   const hasMore = visible.length < filtered.length;
 
@@ -183,6 +209,19 @@ export default function BrandGrid() {
       <div style={{ padding: "80px 0", textAlign: "center", color: "#a1a1aa" }}>
         <div style={{ fontSize: 28, marginBottom: 12 }}>⏳</div>
         <div style={{ fontSize: 14 }}>로고 데이터 로딩 중...</div>
+      </div>
+    );
+  }
+
+  if (loadError) {
+    return (
+      <div style={{ padding: "80px 0", textAlign: "center", color: "var(--text-secondary)" }}>
+        <div style={{ fontSize: 28, marginBottom: 12 }}>⚠️</div>
+        <p style={{ fontSize: 15, fontWeight: 700, color: "var(--text)" }}>로고 목록을 불러오지 못했어요</p>
+        <p style={{ fontSize: 13, marginTop: 6 }}>잠시 후 다시 시도해 주세요.</p>
+        <button onClick={() => window.location.reload()} className="mt-4 px-4 py-2 rounded-full text-sm font-semibold border" style={{ borderColor: "var(--border)" }}>
+          다시 시도
+        </button>
       </div>
     );
   }
@@ -347,7 +386,7 @@ function BrandCard({ brand, onClick, priority }: { brand: Brand; onClick: () => 
   const initSrc = hasSvg ? svgUrl : pngUrl;
 
   return (
-    <div className="logo-card" onClick={onClick}>
+    <div className="logo-card" onClick={() => { trackEvent("brand_opened", { brand_id: brand.id, category: brand.category || "기타" }); onClick(); }}>
       {/* 흰색 로고는 밝은 체커 배경에서 안 보여 '빈 카드'처럼 된다 → 어두운 배경 */}
       <div className="card-preview" style={brand.light ? { background: "#18181b", backgroundImage: "none" } : undefined}>
         {/* eslint-disable-next-line @next/next/no-img-element */}

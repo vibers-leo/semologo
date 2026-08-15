@@ -1,14 +1,13 @@
 import type { Metadata } from "next";
 import Script from "next/script";
 import { SearchProvider } from "@/lib/search-context";
-import { VERSION } from "@/lib/cdn";
+import { CDN, VERSION } from "@/lib/cdn";
 import Footer from "@/components/Footer";
 import "./globals.css";
 
 const ADSENSE_ID = process.env.NEXT_PUBLIC_ADSENSE_ID || "ca-pub-7704550771011130";
 const GA_ID = "G-NWML2V1S7V";
 const SITE = process.env.NEXT_PUBLIC_APP_URL || "https://semologo.com";
-const CDN = process.env.NEXT_PUBLIC_CDN_URL || "https://logo.vibers.co.kr/_clients";
 
 /**
  * 브랜드 수를 빌드 시점에 실제 데이터에서 읽는다.

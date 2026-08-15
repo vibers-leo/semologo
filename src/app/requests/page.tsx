@@ -4,14 +4,14 @@ import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import { onAuthStateChanged } from "firebase/auth";
 import { getClientAuth } from "@/lib/firebase";
-import { listenLogoRequests, type LogoRequest } from "@/lib/logo-requests";
+import { listenLogoRequests, updateRequestStatus, type LogoRequest } from "@/lib/logo-requests";
 import { loadQualityRanking, resolveQuality, FLAG_THRESHOLD, type QualityEntry } from "@/lib/logo-quality";
 import { fetchBrands, type Brand } from "@/lib/brands";
+import { CDN } from "@/lib/cdn";
 import Header from "@/components/Header";
 import Link from "next/link";
 
 const ADMIN_EMAIL = "juuuno1116@gmail.com";
-const CDN = process.env.NEXT_PUBLIC_CDN_URL || "https://logo.vibers.co.kr/_clients";
 
 type Tab = "requests" | "quality";
 
@@ -25,6 +25,8 @@ export default function RequestsPage() {
   const [requests, setRequests] = useState<LogoRequest[]>([]);
   const [reqLoading, setReqLoading] = useState(true);
   const [filter, setFilter] = useState<"all" | "pending" | "done">("all");
+  const [updatingRequest, setUpdatingRequest] = useState<string | null>(null);
+  const [requestError, setRequestError] = useState<string | null>(null);
 
   // 품질 순위
   const [qualityList, setQualityList] = useState<QualityEntry[]>([]);
@@ -46,6 +48,19 @@ export default function RequestsPage() {
       setResolveErr("처리에 실패했어요. 잠시 후 다시 시도해 주세요.");
     } finally {
       setResolving(null);
+    }
+  }
+
+  async function toggleRequestStatus(request: LogoRequest) {
+    if (!request.id) return;
+    setUpdatingRequest(request.id);
+    setRequestError(null);
+    try {
+      await updateRequestStatus(request.id, request.status === "done" ? "pending" : "done");
+    } catch {
+      setRequestError("요청 상태를 저장하지 못했어요. 잠시 후 다시 시도해 주세요.");
+    } finally {
+      setUpdatingRequest(null);
     }
   }
 
@@ -140,6 +155,11 @@ export default function RequestsPage() {
         {/* ── 요청 게시판 탭 ── */}
         {tab === "requests" && (
           <>
+            {requestError && (
+              <div className="mb-4 px-4 py-3 rounded-xl text-sm" style={{ background:"rgba(239,68,68,.06)", color:"#dc2626", border:"1px solid rgba(239,68,68,.2)" }}>
+                {requestError}
+              </div>
+            )}
             <div className="flex gap-2 mb-5">
               {[
                 { key: "all",     label: `전체 ${requests.length}` },
@@ -209,10 +229,15 @@ export default function RequestsPage() {
                       <p className="text-xs" style={{ color: "var(--text-secondary)" }}>
                         {req.createdAt?.toDate().toLocaleDateString("ko-KR")}
                       </p>
-                      <p className="text-xs mt-0.5" style={{ color: "#ccc" }}>
-                        {req.userDisplayName?.split(" ")[0]}
-                      </p>
                     </div>
+                    <button
+                      onClick={() => toggleRequestStatus(req)}
+                      disabled={updatingRequest === req.id}
+                      className="shrink-0 px-3 py-1.5 rounded-lg text-xs font-semibold disabled:opacity-50"
+                      style={{ border: "1px solid var(--border)", color: "var(--text-secondary)", background: "var(--surface)" }}
+                    >
+                      {updatingRequest === req.id ? "저장 중…" : req.status === "done" ? "다시 열기" : "완료 처리"}
+                    </button>
                   </div>
                 ))}
               </div>

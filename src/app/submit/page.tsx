@@ -3,6 +3,7 @@
 import { useState, useRef } from "react";
 import Link from "next/link";
 import Header from "@/components/Header";
+import { trackEvent } from "@/lib/analytics";
 
 const CATEGORIES = [
   "금융","식품·음료","IT·테크","패션·뷰티","자동차",
@@ -51,6 +52,7 @@ export default function SubmitPage() {
       const res = await fetch("https://ai.vibers.co.kr/api/logo-submit", { method: "POST", body: fd });
       const json = await res.json();
       setStatus(json.success ? "done" : "error");
+      if (json.success) trackEvent("logo_submitted", { category, has_file: Boolean(file), has_domain: Boolean(domain.trim()) });
     } catch {
       setStatus("error");
     }

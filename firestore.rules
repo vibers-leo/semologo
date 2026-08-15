@@ -1,0 +1,79 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function signedIn() {
+      return request.auth != null;
+    }
+
+    // UI 가드가 아니라 데이터 계층에서 관리자 권한을 판정한다.
+    function isAdmin() {
+      return signedIn() && request.auth.token.email == 'juuuno1116@gmail.com';
+    }
+
+    // 공개 요청 게시판: 누구나 읽고 요청을 남길 수 있지만, 기존 문서는
+    // 투표 수를 정확히 +1 하는 경우에만 갱신할 수 있다.
+    match /logo_requests_public/{requestId} {
+      allow read: if true;
+      allow create: if request.resource.data.keys().hasOnly([
+        'brand_name', 'website', 'note', 'votes', 'status', 'created_at'
+      ])
+        && request.resource.data.brand_name is string
+        && request.resource.data.brand_name.size() > 0
+        && request.resource.data.brand_name.size() <= 160
+        && request.resource.data.website is string
+        && request.resource.data.website.size() <= 500
+        && request.resource.data.note is string
+        && request.resource.data.note.size() <= 1000
+        && request.resource.data.votes == 0
+        && request.resource.data.status == 'pending';
+      allow update: if isAdmin() || (
+        request.resource.data.diff(resource.data).affectedKeys().hasOnly(['votes'])
+        && request.resource.data.votes == resource.data.votes + 1
+      );
+      allow delete: if isAdmin();
+    }
+
+    // 로그인 사용자 요청에는 이메일 등 개인정보가 들어갈 수 있으므로 관리자만 본다.
+    match /logo_requests/{requestId} {
+      allow create: if signedIn();
+      allow read, update, delete: if isAdmin();
+    }
+
+    // 공개 품질 투표는 카운터만 증가시킨다. 처리 완료 상태는 관리자만 바꾼다.
+    match /logo_quality/{brandId} {
+      allow read: if true;
+      allow create: if request.resource.data.keys().hasOnly(['up', 'down', 'flagged'])
+        && request.resource.data.up is int
+        && request.resource.data.down is int
+        && request.resource.data.up >= 0
+        && request.resource.data.down >= 0;
+      allow update: if isAdmin() || (
+        request.resource.data.diff(resource.data).affectedKeys().hasOnly(['up', 'down', 'flagged'])
+        && request.resource.data.up >= resource.data.up
+        && request.resource.data.down >= resource.data.down
+        && request.resource.data.up <= resource.data.up + 1
+        && request.resource.data.down <= resource.data.down + 1
+      );
+      allow delete: if isAdmin();
+    }
+
+    // 현재 클라이언트 직접 집계 기능은 유지하되, 삭제는 관리자만 가능하다.
+    // 투표의 강한 중복 방지는 Cloud Functions 또는 App Check 도입 시 보강한다.
+    match /logo_votes/{brandId} {
+      allow read: if true;
+      allow create, update: if signedIn();
+      allow delete: if isAdmin();
+    }
+
+    match /logo_shares/{brandId} {
+      allow read: if true;
+      allow create, update: if signedIn();
+      allow delete: if isAdmin();
+    }
+
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}

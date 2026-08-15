@@ -7,6 +7,7 @@ import {
   collection, addDoc, getDocs, doc, updateDoc, increment, query, orderBy, Timestamp,
 } from "firebase/firestore";
 import { getClientDb } from "@/lib/firebase";
+import { trackEvent } from "@/lib/analytics";
 
 interface RequestItem {
   id: string;
@@ -93,6 +94,8 @@ export default function RequestPage() {
 
       // 관리자 이메일 알림 (ai-recipe 릴레이)
       fetch("https://ai.vibers.co.kr/api/logo-submit", { method: "POST", body: fd }).catch(() => {});
+
+      trackEvent("request_submitted", { has_website: Boolean(website.trim()), has_note: Boolean(note.trim()) });
 
       setSubmitStatus("done");
       setNameKo(""); setNameEn(""); setWebsite(""); setNote("");

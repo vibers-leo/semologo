@@ -24,6 +24,11 @@ jobs:
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
+      - name: Verify brand CDN
+        run: pnpm check:cdn
+        env:
+          NEXT_PUBLIC_CDN_URL: https://logo.vibers.co.kr/_clients
+
       - name: Build
         run: pnpm run build
         env:
