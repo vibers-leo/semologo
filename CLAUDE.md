@@ -93,6 +93,31 @@ brand-logos 배포보다 **52초 먼저** 시작해서 났다. 증상이 같으�
   목록 그리드용으로 적합 (원본 대비 훨씬 작음)
 - `<img>`로 CDN 직접 사용 가능. **onError 폴백 필수**
 
+## SVG 우선 원칙 (MANDATORY) — 2026-08-16 확정
+
+**SVG가 원본이고 PNG는 언제든 파생할 수 있다. 반대는 안 된다.**
+그래서 PNG만 있는 것은 "가진 것"이 아니라 **"아직 벡터가 안 온 것"** 으로 취급한다.
+
+| 상황 | 처리 |
+|---|---|
+| SVG 있음 | 그대로 서비스. `logo.png`는 SVG에서 생성 |
+| PNG만 있는 **보유 브랜드** | 서비스는 하되 `svg-wanted.json`에 올린다 |
+| PNG만 있는 **미보유 후보** | **서비스에 넣지 않는다.** `collect-wanted.json`에만 둔다 |
+| 비트맵이 박힌 SVG (`<image`·`data:image/`) | **SVG로 치지 않는다.** `has_svg` 내리고 `sources/raster-wrapped/`로 옮긴 뒤 대기 목록에 올린다 |
+
+진짜 벡터가 나중에 수집되면 — **약간 다른 버전이라도** — 그때 함께 서비스한다.
+
+**대기 목록 두 개의 역할이 다르다:**
+- `svg-wanted.json` — 우리가 **이미 가진** 브랜드인데 SVG가 없는 것 (PNG로 서비스 중)
+- `collect-wanted.json` — 우리가 **아직 없는** 브랜드. 위키데이터 QID·Commons 파일명 포함
+
+두 목록 모두 **실제 보유 상태와 일치해야 한다.** 어긋나면 다음 수집이 헛돈다
+(2026-08-16에 svg-wanted 522건 중 83건이 이미 확보된 상태였다).
+
+⚠️ `build-variants.py`는 `logo.png`가 **이미 있다고 전제**한다. SVG만 받아온
+수집기는 `logo.png`를 따로 만들어야 한다 — 안 그러면 PNG 다운로드가 전부 404다
+(2026-08-16 신규 231개에서 실제로 발생).
+
 ## 세모로고 별칭
 "세모로고에서 찾아봐" → https://logo.vibers.co.kr/_clients/brands.json fetch 후 검색
 "로고 CDN URL" → https://logo.vibers.co.kr/_clients/{brand-id}/logo.svg
