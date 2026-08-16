@@ -11,7 +11,6 @@ import { useSearch } from "@/lib/search-context";
 import { isChoseongQuery, choseongIndex } from "@/lib/hangul";
 
 const AdSlot = dynamic(() => import("./AdSlot"), { ssr: false });
-const AD_INTERVAL = 12;
 
 // 카테고리 아이콘 매핑
 const CAT_EMOJI: Record<string, string> = {
@@ -228,6 +227,11 @@ export default function BrandGrid() {
 
   return (
     <>
+      {/* 넓은 화면에서만 콘텐츠를 가리지 않는 우측 고정 세로 광고 */}
+      <aside className="hidden 2xl:block fixed right-6 top-28 z-30" aria-label="광고">
+        <AdSlot />
+      </aside>
+
       {/* ── 태그 클라우드 카테고리 필터 ── */}
       <div className="py-5">
         {/* 선택 상태 헤더 */}
@@ -331,13 +335,6 @@ export default function BrandGrid() {
               }}
               priority={i < 12}
             />
-            {(i + 1) === AD_INTERVAL && (
-              // 제공받은 애드핏 단위는 목록 첫 화면에 한 번만 둔다.
-              // 무한 스크롤마다 같은 광고 단위를 반복 삽입하지 않는다.
-              <div key={`ad-${i}`} style={{ gridColumn: "1 / -1" }}>
-                <AdSlot />
-              </div>
-            )}
           </>
         ))}
       </div>

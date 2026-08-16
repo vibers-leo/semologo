@@ -2,18 +2,18 @@
 
 import Script from "next/script";
 
-const AD_UNIT = "DAN-JxagUgEMnuAikltM";
+const AD_UNIT = "DAN-mQaGw76tAmtsCYKZ";
 
-/** 카카오 애드핏 단위. 목록 첫 화면에만 한 번 배치한다. */
+/** 데스크톱 우측 고정 영역용 카카오 애드핏 단위. */
 export default function AdSlot() {
   return (
-    <div className="flex justify-center py-2" aria-label="광고">
+    <div className="w-[160px]" aria-label="광고">
       <ins
         className="kakao_ad_area"
         style={{ display: "none" }}
         data-ad-unit={AD_UNIT}
-        data-ad-width="300"
-        data-ad-height="250"
+        data-ad-width="160"
+        data-ad-height="600"
       />
       <Script
         id="kakao-adfit"
