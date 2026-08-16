@@ -227,6 +227,9 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
   const darkUrl = cdnUrl("logo-transparent.png");
   const whiteUrl = cdnUrl("logo-white.png");
   const hasSvg = !!(brand.logo_svg || brand.has_svg);
+  // 예전엔 PNG 칩이 무조건 참이었다. 실제로는 logo.png 가 없는 브랜드가 있었고
+  // (신규 수집분 231개 전부) PNG 다운로드 버튼이 404 를 받고 있었다.
+  const hasPng = !!(brand.logo_png || brand.has_png);
 
   /**
    * 흰색·아주 밝은 로고는 밝은 배경에서 보이지 않는다.
@@ -653,7 +656,7 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
           <div>
             <div style={{ fontSize: 11, fontWeight:700, color:"#71717a", letterSpacing:".08em", textTransform:"uppercase", marginBottom:10 }}>보유 형식</div>
             <div style={{ display:"flex", flexDirection:"column", gap:5 }}>
-              {[{ label:"SVG 벡터", ok:hasSvg }, { label:"PNG", ok:true }, { label:"영문 버전", ok:hasEn }].map(({ label, ok }) => (
+              {[{ label:"SVG 벡터", ok:hasSvg }, { label:"PNG", ok:hasPng }, { label:"영문 버전", ok:hasEn }].map(({ label, ok }) => (
                 <span key={label} style={{ display:"inline-flex", alignItems:"center", gap:4, padding:"4px 10px", borderRadius:20, fontSize:11, fontWeight:600, background:ok?"rgba(34,197,94,0.12)":"#f4f4f5", color:ok?"#22c55e":"#71717a", border:`1px solid ${ok?"rgba(34,197,94,0.2)":"#e4e4e7"}` }}>
                   {ok ? "✓" : "✗"} {label}
                 </span>
