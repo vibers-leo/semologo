@@ -34,7 +34,6 @@ jobs:
         env:
           NEXT_PUBLIC_CDN_URL: https://logo.vibers.co.kr/_clients
           NEXT_PUBLIC_APP_URL: https://semologo.com
-          NEXT_PUBLIC_ADSENSE_ID: ca-pub-7704550771011130
           # 쿠팡 파트너스 — 가입 후 위젯 생성하면 나오는 두 값.
           # 페이지 소스에 그대로 노출되는 공개값이라 시크릿이 아니다.
           # 비워두면 CoupangSlot 이 아무것도 렌더하지 않는다.

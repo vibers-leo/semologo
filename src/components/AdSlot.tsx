@@ -1,94 +1,24 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import Script from "next/script";
 
-declare global {
-  interface Window {
-    adsbygoogle: unknown[];
-  }
-}
+const AD_UNIT = "DAN-JxagUgEMnuAikltM";
 
-interface Props {
-  slot: string;
-  format?: "auto" | "rectangle" | "horizontal";
-  className?: string;
-  style?: React.CSSProperties;
-}
-
-const PUBLISHER_ID = process.env.NEXT_PUBLIC_ADSENSE_ID || "ca-pub-7704550771011130";
-
-/**
- * 광고가 안 채워지면 스스로 접힌다.
- *
- * 예전엔 wrapper 에 minHeight:90px 를 걸어놔서, AdSense 가 광고를 못 채워도
- * 90~102px 짜리 빈 띠가 그대로 남았다. 목록에서는 12개 카드마다 하나씩 생겨
- * '아무것도 없는 빈 카드'처럼 보였다 (실측: 슬롯 7개 전부 미노출).
- *
- * AdSense 는 채우지 못하면 <ins> 에 data-ad-status="unfilled" 를 붙인다.
- * 그걸 관찰해서 컨테이너를 없앤다. 상태를 못 읽는 경우(스크립트 차단 등)를
- * 대비해 일정 시간 뒤 높이가 여전히 0이면 그때도 접는다.
- */
-export default function AdSlot({ slot, format = "auto", className = "", style }: Props) {
-  const insRef = useRef<HTMLModElement>(null);
-  const [state, setState] = useState<"pending" | "filled" | "empty">("pending");
-
-  useEffect(() => {
-    const el = insRef.current;
-    if (!el) return;
-
-    // 같은 <ins> 에 두 번 push 하면 AdSense 가 TagError 를 던진다
-    // ("All 'ins' elements ... already have ads in them"). React 가 effect 를
-    // 다시 실행하면 그대로 재현돼 홈에서 PAGEERROR 가 났다.
-    if (el.dataset.pushed === "1") return;
-    el.dataset.pushed = "1";
-
-    try {
-      (window.adsbygoogle = window.adsbygoogle || []).push({});
-    } catch {
-      setState("empty");
-      return;
-    }
-
-    // 높이로 판단하면 안 된다. AdSense 는 채울지 정하기 **전에** 먼저
-    // 자리(90px)를 잡아두기 때문에, offsetHeight 를 보면 미노출인데도
-    // '채워짐'으로 오판한다. data-ad-status 만 믿는다.
-    const check = () => {
-      const status = el.getAttribute("data-ad-status");
-      if (status === "unfilled") { setState("empty"); return true; }
-      if (status === "filled") { setState("filled"); return true; }
-      return false;
-    };
-
-    if (check()) return;
-    const obs = new MutationObserver(() => { if (check()) obs.disconnect(); });
-    obs.observe(el, { attributes: true, attributeFilter: ["data-ad-status", "style"] });
-
-    // 상태 속성이 끝내 안 붙는 경우(차단·비승인 등)의 안전망
-    const t = setTimeout(() => { if (!check()) setState("empty"); }, 3000);
-    return () => { obs.disconnect(); clearTimeout(t); };
-  }, []);
-
-  if (state === "empty") return null;
-
-  // 채워지기 전에는 높이를 0으로 접어 레이아웃 공간을 잡지 않는다.
-  // 단, **너비는 그대로 둔다.** width:0 으로 만들었더니 AdSense 가
-  // availableWidth=0 으로 보고 TagError 를 던져 홈에서 PAGEERROR 가 났다.
-  // 광고를 넣을지 판단하려면 실제 가용 너비가 필요하다.
-  const wrapperStyle: React.CSSProperties =
-    state === "filled"
-      ? { ...style }
-      : { height: 0, overflow: "hidden" };
-
+/** 카카오 애드핏 단위. 목록 첫 화면에만 한 번 배치한다. */
+export default function AdSlot() {
   return (
-    <div className={className} style={wrapperStyle}>
+    <div className="flex justify-center py-2" aria-label="광고">
       <ins
-        ref={insRef}
-        className="adsbygoogle"
-        style={{ display: "block", ...(state === "filled" ? style : { minHeight: 0 }) }}
-        data-ad-client={PUBLISHER_ID}
-        data-ad-slot={slot}
-        data-ad-format={format}
-        data-full-width-responsive="true"
+        className="kakao_ad_area"
+        style={{ display: "none" }}
+        data-ad-unit={AD_UNIT}
+        data-ad-width="300"
+        data-ad-height="250"
+      />
+      <Script
+        id="kakao-adfit"
+        src="https://t1.kakaocdn.net/kas/static/ba.min.js"
+        strategy="afterInteractive"
       />
     </div>
   );

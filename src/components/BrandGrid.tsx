@@ -331,12 +331,11 @@ export default function BrandGrid() {
               }}
               priority={i < 12}
             />
-            {(i + 1) % AD_INTERVAL === 0 && (
-              // 미노출 광고가 자리를 잡았다 사라지면 스크롤 중 문서 높이가
-              // 계속 줄어 화면이 밀린다. minHeight 를 주지 않고, AdSlot 이
-              // 채워졌다고 판단했을 때만 스스로 공간을 잡게 한다.
+            {(i + 1) === AD_INTERVAL && (
+              // 제공받은 애드핏 단위는 목록 첫 화면에 한 번만 둔다.
+              // 무한 스크롤마다 같은 광고 단위를 반복 삽입하지 않는다.
               <div key={`ad-${i}`} style={{ gridColumn: "1 / -1" }}>
-                <AdSlot slot="2847591036" format="horizontal" />
+                <AdSlot />
               </div>
             )}
           </>

@@ -5,7 +5,6 @@ import { CDN, VERSION } from "@/lib/cdn";
 import Footer from "@/components/Footer";
 import "./globals.css";
 
-const ADSENSE_ID = process.env.NEXT_PUBLIC_ADSENSE_ID || "ca-pub-7704550771011130";
 const GA_ID = "G-NWML2V1S7V";
 const SITE = process.env.NEXT_PUBLIC_APP_URL || "https://semologo.com";
 
@@ -37,7 +36,6 @@ export async function generateMetadata(): Promise<Metadata> {
     alternates: { canonical: "/" },
     other: {
       "naver-site-verification": "f8377ea94a22905671d864f6c08c3e9ea3a1d368",
-      "google-adsense-account": ADSENSE_ID,
     },
     icons: {
       icon: "/favicon.ico",
@@ -76,12 +74,6 @@ export default function RootLayout({
         <Script id="ga-init" strategy="afterInteractive">
           {`window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','${GA_ID}');`}
         </Script>
-        <Script
-          async
-          src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE_ID}`}
-          crossOrigin="anonymous"
-          strategy="afterInteractive"
-        />
       </head>
       <body className="min-h-screen flex flex-col"><SearchProvider><div className="flex-1">{children}</div><Footer /></SearchProvider></body>
     </html>

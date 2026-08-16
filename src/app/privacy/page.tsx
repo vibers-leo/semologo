@@ -62,7 +62,7 @@ export default function PrivacyPage() {
             <h2 className="font-bold text-base mb-3">5. 외부 서비스</h2>
             <ul className="flex flex-col gap-2 pl-4" style={{ listStyleType: "disc" }}>
               <li><strong>Google Analytics:</strong> 서비스 이용 통계 분석</li>
-              <li><strong>Google AdSense:</strong> 광고 제공 (Google 개인정보처리방침 적용)</li>
+              <li><strong>카카오 애드핏:</strong> 광고 제공 (카카오 개인정보처리방침 적용)</li>
               <li><strong>Firebase (Google):</strong> 인증 및 데이터 저장</li>
             </ul>
           </section>
