@@ -51,9 +51,12 @@ export function isChoseongQuery(q: string): boolean {
  * "ㅅㅅ" 을 치면 골드만'삭스'·아'수스'·키르기'스스'탄 이 전부 걸리는데,
  * 사용자가 찾는 건 '삼성' 이다. 호출부에서 이 값으로 앞글자 매치를 올린다.
  */
-export function choseongIndex(query: string, target: string): number {
-  const q = query.replace(/\s/g, "");
-  const t = target.replace(/\s/g, "");
+export function choseongIndex(query: string, target: string | null | undefined): number {
+  // 데이터 한 줄이 잘못됐다고 페이지 전체가 죽으면 안 된다.
+  // 2026-08-17: name_ko 가 null 인 브랜드 126개가 CDN 에 올라가면서 초성을
+  // 한 글자만 쳐도 "Cannot read properties of null" 로 화면이 통째로 죽었다.
+  const q = (query ?? "").replace(/\s/g, "");
+  const t = (target ?? "").replace(/\s/g, "");
   if (!q || !t) return -1;
 
   const tCho = toChoseong(t);
