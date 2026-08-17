@@ -2,7 +2,7 @@
 
 import { useMemo, useState, useEffect, useRef, useDeferredValue } from "react";
 import dynamic from "next/dynamic";
-import { Brand } from "@/lib/brands";
+import { Brand, sortForGrid } from "@/lib/brands";
 import { hasUsableBrandData, parseBrandList } from "@/lib/brand-data";
 import { CDN, VERSION } from "@/lib/cdn";
 import { trackEvent } from "@/lib/analytics";
@@ -29,12 +29,17 @@ const CAT_EMOJI: Record<string, string> = {
 
 // 한 번에 붙는 카드 수 = 동시에 나가는 이미지 요청 수.
 // 60이면 스크롤 한 번에 60장이 한꺼번에 요청돼 CDN 이 끊는다.
-const PAGE_SIZE = 30;
+// 한 번에 붙이는 카드 수. 6,800여 개를 30개씩 늘리면 바닥에 닿을 때마다
+// 조금씩만 자라서 '무한스크롤이 안 된다'고 느껴진다(실측: 5번 스크롤에 180개).
+// 이미지는 loading="lazy" 라 DOM 카드를 더 붙여도 즉시 요청되지 않는다.
+const PAGE_SIZE = 60;
 
-export default function BrandGrid() {
+/** 빌드 시점에 서버가 넘겨주는 첫 화면 카드. 이게 없으면 클라이언트가
+ *  1.15MB JSON 을 받아 파싱할 때까지 그리드가 비어 있다(실측 1,000ms). */
+export default function BrandGrid({ initialBrands = [] }: { initialBrands?: Brand[] }) {
   const { query, selectedCats, toggleCat, clearCats } = useSearch();
-  const [brands, setBrands] = useState<Brand[]>([]);
-  const [loading, setLoading] = useState(true);
+  const [brands, setBrands] = useState<Brand[]>(initialBrands);
+  const [loading, setLoading] = useState(initialBrands.length === 0);
   const [loadError, setLoadError] = useState(false);
   const [selected, setSelected] = useState<Brand | null>(null);
   const [page, setPage] = useState(1);
@@ -46,7 +51,7 @@ export default function BrandGrid() {
     // (신규 브랜드를 추가해도 기존 방문자에게 안 보임)
     let cancelled = false;
     async function load() {
-      setLoading(true);
+      if (brands.length === 0) setLoading(true);
       setLoadError(false);
       try {
         const response = await fetch(`${CDN}/brands-slim.json?v=${VERSION}`, { cache: "force-cache" });
@@ -81,25 +86,8 @@ export default function BrandGrid() {
   // 예전엔 이 정렬이 filtered 안에 있어서 키 입력 한 번마다 6,800개 배열을
   // 복사·정렬(localeCompare 약 8.5만 회)했고, 그동안 메인 스레드가 막혀
   // 한글 IME 조합이 끊겼다("자음 입력 시 뚝뚝 끊김").
-  const sorted = useMemo(() => {
-    const hasLogo = (b: Brand) => !!(b.logo_svg || b.has_svg || b.logo_png || b.has_png);
-    // variant_of = 부모로 흡수된 중복 항목(예: adobe-icon). 목록에는 안 띄운다.
-    // 페이지는 살아 있어서 기존 링크는 그대로 동작한다.
-    // 로고가 아예 없는 항목도 여기서 뺀다 — 빈 카드가 되기 때문.
-    // added_at 은 날짜 단위라 같은 날 추가분끼리는 순서가 없다. 하루에 수백 개를
-    // 넣으면 **방금 추가한 것이 그날 먼저 넣은 것들 뒤에 묻힌다**
-    // (2026-08-17: 264개를 넣었더니 마지막에 넣은 심평원이 7,322번째였다).
-    // brands.json 은 새 항목을 뒤에 덧붙이므로 배열 순서가 곧 추가 순서다.
-    const order = new Map(brands.map((b, i) => [b.id, i]));
-    return [...brands].filter(b => !b.variant_of && hasLogo(b)).sort((a, b) => {
-      const la = hasLogo(a) ? 1 : 0;
-      const lb = hasLogo(b) ? 1 : 0;
-      if (lb !== la) return lb - la;          // 로고 있는 것 우선
-      const byDate = (b.added_at ?? "").localeCompare(a.added_at ?? "");
-      if (byDate !== 0) return byDate;        // 그 다음 최신순
-      return (order.get(b.id) ?? 0) - (order.get(a.id) ?? 0);   // 같은 날이면 나중에 넣은 것 먼저
-    });
-  }, [brands]);
+  // 서버(빌드 시 첫 화면)와 **같은 규칙**을 쓴다 — 어긋나면 하이드레이션 때 화면이 튄다
+  const sorted = useMemo(() => sortForGrid(brands), [brands]);
 
   // 검색용 소문자 문자열을 미리 만들어 둔다 (매 입력마다 toLowerCase 2만 회 방지)
   const haystack = useMemo(() => {
@@ -191,11 +179,13 @@ export default function BrandGrid() {
       entries => {
         if (!entries[0].isIntersecting) return;
         const now = Date.now();
-        if (now - lastGrow.current < 500) return;
+        if (now - lastGrow.current < 250) return;
         lastGrow.current = now;
         setPage(p => p + 1);
       },
-      { rootMargin: "200px" }
+      // 바닥에 닿기 훨씬 전에 미리 불러온다. 200px 이면 바닥까지 가야 발화해서
+      // 스크롤이 벽에 부딪히는 느낌이 났다.
+      { rootMargin: "1200px" }
     );
     obs.observe(sentinelRef.current);
     return () => obs.disconnect();

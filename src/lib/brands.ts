@@ -129,3 +129,23 @@ export function primaryLogoUrl(brand: Brand): string {
   if (brand.logo_svg) return logoUrl(brand, "logo.svg");
   return logoUrl(brand, "logo.png");
 }
+
+
+/**
+ * 목록 정렬 — 서버(빌드 시 첫 화면)와 클라이언트가 **같은 규칙**을 써야 한다.
+ * 어긋나면 하이드레이션 직후 카드가 갈아끼워지며 화면이 튄다.
+ *
+ * added_at 은 날짜 단위라 같은 날 추가분끼리는 순서가 없다. brands.json 은
+ * 새 항목을 뒤에 덧붙이므로 배열 순서가 곧 추가 순서다 — 그걸 보조 기준으로 쓴다.
+ */
+export function sortForGrid(brands: Brand[]): Brand[] {
+  const hasLogo = (b: Brand) => !!(b.logo_svg || b.has_svg || b.logo_png || b.has_png);
+  const order = new Map(brands.map((b, i) => [b.id, i]));
+  return brands
+    .filter((b) => !b.variant_of && hasLogo(b))
+    .sort((a, b) => {
+      const byDate = (b.added_at ?? "").localeCompare(a.added_at ?? "");
+      if (byDate !== 0) return byDate;
+      return (order.get(b.id) ?? 0) - (order.get(a.id) ?? 0);
+    });
+}
