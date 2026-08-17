@@ -43,10 +43,12 @@ body {
 .card-preview {
   position: relative;
   height: 180px;
-  background-color: #f8f8f8;
+  /* 격자를 옅게 두면 흰색이 섞인 로고가 배경에 묻힌다(세계태권도연맹의 흰
+     워드마크가 통째로 사라졌다). 바탕을 조금 낮추고 선을 진하게 해 대비를 준다. */
+  background-color: #f1f1f2;
   background-image:
-    linear-gradient(rgba(0,0,0,0.055) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(0,0,0,0.055) 1px, transparent 1px);
+    linear-gradient(rgba(0,0,0,0.10) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0,0,0,0.10) 1px, transparent 1px);
   background-size: 12px 12px;
   overflow: hidden;
 }
