@@ -20,12 +20,7 @@ async function firstPage(): Promise<Brand[]> {
     if (!res.ok) return [];
     const raw = await res.json();
     const list: Brand[] = Array.isArray(raw) ? raw : raw?.brands ?? [];
-    const sorted = sortForGrid(list);
-    // 빌드가 실제로 무엇을 받았는지 남긴다 — 서버·클라이언트 첫 화면이 어긋났을 때
-    // 데이터 문제인지 정렬 문제인지 로그 없이는 가릴 수 없다.
-    console.log(`[firstPage] 총 ${list.length} | 배열끝 ${list.at(-1)?.id} | ` +
-                `정렬첫3 ${sorted.slice(0, 3).map((b) => b.id).join(",")}`);
-    return sorted.slice(0, FIRST_PAGE);
+    return sortForGrid(list).slice(0, FIRST_PAGE);
   } catch {
     return [];      // 실패해도 클라이언트가 받아온다 — 화면이 비지 않는다
   }

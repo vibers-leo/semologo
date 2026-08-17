@@ -1,4 +1,6 @@
 export interface Brand {
+  /** brands-slim.json 이 싣는 추가 순서. 같은 날 추가분의 정렬 기준. */
+  seq?: number;
   /** 검색 전용 별칭 — LG 를 '엘지'로도 찾게 한다 */
   aliases?: string[];
   id: string;
@@ -140,12 +142,16 @@ export function primaryLogoUrl(brand: Brand): string {
  */
 export function sortForGrid(brands: Brand[]): Brand[] {
   const hasLogo = (b: Brand) => !!(b.logo_svg || b.has_svg || b.logo_png || b.has_png);
-  const order = new Map(brands.map((b, i) => [b.id, i]));
+  // ⚠️ 보조 기준으로 **넘겨받은 배열의 위치를 쓰면 안 된다.** 이미 정렬된 목록을
+  //    다시 정렬하면 순서가 통째로 뒤집힌다 — 서버가 정렬한 60장을 클라이언트가
+  //    재정렬해 kspo 가 맨 뒤로 가고 balderton 이 앞으로 왔다(2026-08-17).
+  //    brands-slim.json 이 실어 보내는 seq(추가 순서)를 쓰면 몇 번을 정렬해도 같다.
+  const fallback = new Map(brands.map((b, i) => [b.id, i]));
+  const seqOf = (b: Brand) => b.seq ?? fallback.get(b.id) ?? 0;
   return brands
     .filter((b) => !b.variant_of && hasLogo(b))
     .sort((a, b) => {
       const byDate = (b.added_at ?? "").localeCompare(a.added_at ?? "");
-      if (byDate !== 0) return byDate;
-      return (order.get(b.id) ?? 0) - (order.get(a.id) ?? 0);
+      return byDate !== 0 ? byDate : seqOf(b) - seqOf(a);
     });
 }
