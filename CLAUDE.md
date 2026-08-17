@@ -56,6 +56,43 @@ src/
     └── brands.ts         ← brands.json fetch + 타입
 ```
 
+## 에셋 저장 구조 — PNG는 저장소에 없다 (MANDATORY) — 2026-08-18 이관
+
+**`logo.svg` 는 GitHub Pages, `*.png` 는 NCP 버킷이 서빙한다. URL 은 둘 다 같다.**
+
+| 무엇 | 어디 | 크기 |
+|---|---|---|
+| `logo.svg` · `variants.json` · `brands*.json` | GitHub Pages (`brand-logos` 레포) | 82MB |
+| `logo.png` · `logo-800` · `-transparent` · `-white` · `-icon` · `sources/*.png` | **NCP `vibers-bucket`** | 640MB |
+
+### 왜 — Pages 1GB 하드 리밋에 부딪혔다
+`_clients` 가 856MB(86%)였고 **브랜드를 1,000개도 더 못 넣는 상태**였다.
+용량을 먹는 건 로고가 아니라 PNG 파생물이었다(79%). 원본 SVG 는 70MB 뿐이고
+PNG 는 전부 SVG 에서 재생성 가능하다 — SVG 우선 원칙 그대로다.
+이관 후 82MB(8%)가 되어 5만 개까지 여유가 생겼다.
+
+### 서빙 — `logo-guard` 워커
+`cf-worker/logo-guard/index.js`. `_clients/**/*.png` 는 버킷에서 가져오고,
+**없으면 기존 Pages 로 폴백한다.** 이 폴백이 안전장치다 — 이관 도중에도,
+버킷 장애 때도 안 깨진다. 핫링크 차단은 그대로 유지된다.
+
+> 온디맨드 렌더링(워커가 SVG→PNG 변환)은 **일부러 안 했다.** 다크 반전·흰배경
+> 제거·심볼 크롭은 numpy 로직이라 JS 로 다시 짜면 결과가 미묘하게 달라진다.
+> 버킷 방식은 파이썬 산출물을 **바이트 그대로** 내보낸다.
+
+### 반드시 지킬 것
+```bash
+python3 scripts/sync-png-bucket.py --pull   # ★ build-variants 앞에 (없으면 3만개 재생성)
+python3 scripts/sync-png-bucket.py          # 끝나고 신규 PNG 업로드 (없으면 다운로드 404)
+```
+- **`--pull` 을 빠뜨리면** build-variants 가 "PNG 가 없으니 만들자"로 판단해
+  매 실행마다 3만 개를 다시 만든다. 결과물은 같고 시간만 버린다.
+- **업로드를 빠뜨리면** 신규 브랜드 PNG 가 저장소에도 버킷에도 없어 404 다.
+- `daily-collect.yml` 에 두 단계가 들어 있다. 시크릿 `NCP_*` 4종 등록됨.
+- ⚠️ **`git rm --cached` 후 `git pull --rebase` 는 로컬 PNG 를 지운다.**
+  워킹트리를 커밋 트리에 맞추기 때문이다. 유실은 아니다(버킷에 있다) —
+  `--pull` 로 되받으면 된다. 2026-08-18 에 40,994개가 이렇게 사라졌다.
+
 ## 브랜드 추가 순서 (중요 — 안 지키면 페이지가 404 난다)
 
 ```
