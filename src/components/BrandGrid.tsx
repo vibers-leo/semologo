@@ -86,11 +86,18 @@ export default function BrandGrid() {
     // variant_of = 부모로 흡수된 중복 항목(예: adobe-icon). 목록에는 안 띄운다.
     // 페이지는 살아 있어서 기존 링크는 그대로 동작한다.
     // 로고가 아예 없는 항목도 여기서 뺀다 — 빈 카드가 되기 때문.
+    // added_at 은 날짜 단위라 같은 날 추가분끼리는 순서가 없다. 하루에 수백 개를
+    // 넣으면 **방금 추가한 것이 그날 먼저 넣은 것들 뒤에 묻힌다**
+    // (2026-08-17: 264개를 넣었더니 마지막에 넣은 심평원이 7,322번째였다).
+    // brands.json 은 새 항목을 뒤에 덧붙이므로 배열 순서가 곧 추가 순서다.
+    const order = new Map(brands.map((b, i) => [b.id, i]));
     return [...brands].filter(b => !b.variant_of && hasLogo(b)).sort((a, b) => {
       const la = hasLogo(a) ? 1 : 0;
       const lb = hasLogo(b) ? 1 : 0;
       if (lb !== la) return lb - la;          // 로고 있는 것 우선
-      return (b.added_at ?? "").localeCompare(a.added_at ?? "");  // 그 다음 최신순
+      const byDate = (b.added_at ?? "").localeCompare(a.added_at ?? "");
+      if (byDate !== 0) return byDate;        // 그 다음 최신순
+      return (order.get(b.id) ?? 0) - (order.get(a.id) ?? 0);   // 같은 날이면 나중에 넣은 것 먼저
     });
   }, [brands]);
 
