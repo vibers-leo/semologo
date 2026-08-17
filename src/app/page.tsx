@@ -12,7 +12,11 @@ const FIRST_PAGE = 60;
 
 async function firstPage(): Promise<Brand[]> {
   try {
-    const res = await fetch(`${CDN}/brands-slim.json?v=${VERSION}`, { next: { revalidate: 3600 } });
+    // 캐시를 타면 안 된다. 빌드가 옛 스냅샷을 집어 **서버가 그린 첫 화면과
+    // 클라이언트가 받은 목록이 달라졌다** — 로드 직후 카드가 통째로 갈아끼워졌다
+    // (2026-08-17: 서버는 투자사, 클라이언트는 공공기관을 먼저 보여줬다).
+    const res = await fetch(`${CDN}/brands-slim.json?v=${VERSION}&b=${Date.now()}`,
+                            { cache: "no-store" });
     if (!res.ok) return [];
     const raw = await res.json();
     const list: Brand[] = Array.isArray(raw) ? raw : raw?.brands ?? [];
