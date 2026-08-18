@@ -24,8 +24,7 @@
     Turbopack 이 "points out of the filesystem root" 로 죽는다 (예전 로컬 빌드 불가의 원인)
   - 스토어 `/Volumes/Untitled/dev/.pnpm-store` — 프로젝트와 같은 볼륨이라 하드링크로 dedup
 - 로컬 빌드 **가능** (약 3분, 6,822 페이지). 예전 "심링크 때문에 불가" 설명은 폐기
-- 배포: **GitHub Pages** (Vercel 아님). `git push origin main` → `.github/workflows/deploy.yml`
-  → `Deploy to GitHub Pages` 실행 → 이어서 `pages build and deployment` 완료돼야 반영됨 (총 10분 내외)
+- 배포: **NCP Docker** (위 '배포' 섹션 참고). GitHub Pages·Vercel 아님 — 2026-08-18 이전
 - 검증: `gh run list --repo vibers-leo/semologo` 두 워크플로 모두 success 확인 후 `curl -sI https://semologo.com`
 
 ## 환경변수 (Vercel에 등록 필요)
@@ -55,6 +54,44 @@ src/
     ├── firebase.ts       ← Firebase 초기화
     └── brands.ts         ← brands.json fetch + 타입
 ```
+
+## 배포 — NCP Docker SSR (MANDATORY) — 2026-08-18 이전
+
+**GitHub Pages 아님. `output: "export"` 아님.** 서버에서 요청 시 렌더한다.
+
+| 항목 | 값 |
+|---|---|
+| 서버 | NCP `ssh vibers` · 컨테이너 `semologo` · 포트 **4520** |
+| 프로젝트 | `/root/projects/semologo/` (`.env`·`.webhook.conf` 는 600) |
+| 배포 | `git push origin main` → GitHub 웹훅 → `webhook-deploy-generic.sh` |
+| 빌드 | 서버에서 `semologo:latest` 로 빌드 → compose 는 `image:` 만 참조 |
+| 검증 | `ssh vibers "bash /root/check-deploy.sh semologo https://semologo.com"` |
+
+### 왜 전부 미리 굽지 않나 — 세 호스팅이 다 막혔다
+브랜드 4.1만 개를 정적으로 굽으면 **파일 20.5만 개 / 3.4GB** 다(실측).
+  · GitHub Pages — 사이트 **1GB 하드 리밋**. 유료 플랜으로도 안 올라간다
+  · Cloudflare Pages — 배포당 **파일 10만 개**. 9만 브랜드에서 다시 막힌다
+  · 어느 쪽이든 빌드가 25~30분으로 늘고 브랜드 수에 정비례한다
+
+그래서 **최근 1,500장만 빌드에 굽고**(`PRERENDER`) 나머지는 첫 요청 때 만들어
+캐시한다. 빌드는 브랜드가 몇 개든 **1~2분 고정**이다.
+
+### 손대면 깨지는 것
+- `docker-compose.yml` 에 **`build:` 를 넣지 마라.** 배포 스크립트는 소스를
+  `/tmp` 에 클론해 빌드하고 compose 파일만 `/root/projects/semologo` 로 복사한다.
+  그 디렉토리엔 소스가 없어 빌드가 실패한다. `image: semologo:latest` 만 쓴다.
+- **`NEXT_PUBLIC_*` 는 빌드 시점에 번들에 구워진다.** 런타임 env 로 주면 안 먹는다.
+  서버 `.webhook.conf` 의 `BUILD_ARGS` 에 `--build-arg` 로 넣는다.
+- `mem_limit` 과 `memswap_limit` 을 **같은 값으로** 둔다(768m). 다르면 스왑에
+  빠져 서버 전체가 느려진다. 같으면 OOM Kill 후 자동 재시작된다.
+- 상세 페이지는 **브랜드별 `brand.json`(약 1KB)** 을 받는다. `brands.json`
+  전체는 4만 개 기준 18MB 라 렌더마다 다시 받게 되고 힙도 위험하다.
+
+### 남아 있는 것 (지우기 전 확인)
+Vercel(`semologo` 프로젝트)·Cloudflare Pages(`semologo.pages.dev`) 배포가
+**검증된 채로 남아 있다.** NCP 장애 시 즉시 돌아갈 수 있는 경로다.
+안정화가 확인되면 정리한다. `scripts/strip-prefetch.mjs` 는 CF Pages 전용이다
+(Next 16 이 브랜드당 프리페치 `.txt` 를 4개씩 만들어 파일 수가 5배가 된다).
 
 ## 에셋 저장 구조 — PNG는 저장소에 없다 (MANDATORY) — 2026-08-18 이관
 
