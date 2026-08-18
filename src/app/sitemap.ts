@@ -1,14 +1,14 @@
 import type { MetadataRoute } from "next";
-import { fetchBrands } from "@/lib/brands";
+import { fetchBrandsSlim } from "@/lib/brands";
 
 export const dynamic = "force-static";
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const base = process.env.NEXT_PUBLIC_APP_URL || "https://semo.vibers.co.kr";
 
-  let brands: Awaited<ReturnType<typeof fetchBrands>> = [];
+  let brands: Awaited<ReturnType<typeof fetchBrandsSlim>> = [];
   try {
-    brands = await fetchBrands();
+    brands = await fetchBrandsSlim();
   } catch {
     brands = [];
   }
