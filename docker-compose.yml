@@ -1,18 +1,10 @@
+# 이미지는 webhook 배포 스크립트(/root/scripts/webhook-deploy-generic.sh)가
+# `docker build -t semologo:latest` 로 만들어 둔다. 여기서 build: 를 쓰면
+# 배포 시 컨텍스트(/root/projects/semologo)에 소스가 없어 실패한다.
+# 로컬에서 직접 빌드하려면: docker build -t semologo:latest .
 services:
   semologo:
-    build:
-      context: .
-      args:
-        NEXT_PUBLIC_CDN_URL: https://logo.vibers.co.kr/_clients
-        NEXT_PUBLIC_APP_URL: https://semologo.com
-        NEXT_PUBLIC_FIREBASE_API_KEY: ${NEXT_PUBLIC_FIREBASE_API_KEY}
-        NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN: ${NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN}
-        NEXT_PUBLIC_FIREBASE_PROJECT_ID: ${NEXT_PUBLIC_FIREBASE_PROJECT_ID}
-        NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET: ${NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET}
-        NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID: ${NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID}
-        NEXT_PUBLIC_FIREBASE_APP_ID: ${NEXT_PUBLIC_FIREBASE_APP_ID}
-        NEXT_PUBLIC_COUPANG_WIDGET_ID: ${NEXT_PUBLIC_COUPANG_WIDGET_ID}
-        NEXT_PUBLIC_COUPANG_TRACKING_CODE: ${NEXT_PUBLIC_COUPANG_TRACKING_CODE}
+    image: semologo:latest
     container_name: semologo
     ports:
       - "4520:3000"
