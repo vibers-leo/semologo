@@ -1,0 +1,35 @@
+services:
+  semologo:
+    build:
+      context: .
+      args:
+        NEXT_PUBLIC_CDN_URL: https://logo.vibers.co.kr/_clients
+        NEXT_PUBLIC_APP_URL: https://semologo.com
+        NEXT_PUBLIC_FIREBASE_API_KEY: ${NEXT_PUBLIC_FIREBASE_API_KEY}
+        NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN: ${NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN}
+        NEXT_PUBLIC_FIREBASE_PROJECT_ID: ${NEXT_PUBLIC_FIREBASE_PROJECT_ID}
+        NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET: ${NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET}
+        NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID: ${NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID}
+        NEXT_PUBLIC_FIREBASE_APP_ID: ${NEXT_PUBLIC_FIREBASE_APP_ID}
+        NEXT_PUBLIC_COUPANG_WIDGET_ID: ${NEXT_PUBLIC_COUPANG_WIDGET_ID}
+        NEXT_PUBLIC_COUPANG_TRACKING_CODE: ${NEXT_PUBLIC_COUPANG_TRACKING_CODE}
+    container_name: semologo
+    ports:
+      - "4520:3000"
+    # 무제한(0)으로 두면 이 컨테이너가 RAM 을 먹어 서버 전체가 스왑에 빠진다.
+    # memswap 을 같은 값으로 두어 스왑 없이 OOM Kill → 자동 재시작 되게 한다.
+    mem_limit: 768m
+    memswap_limit: 768m
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "wget", "-qO-", "http://localhost:3000/"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 60s
+    networks:
+      - npm_default
+
+networks:
+  npm_default:
+    external: true

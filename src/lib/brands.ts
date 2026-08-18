@@ -46,7 +46,12 @@ export async function fetchBrands(): Promise<Brand[]> {
       // 캐시버스터가 없으면 **빌드가 최대 1시간 묵은 목록으로 페이지를 만든다.**
       // 실제로 애터미를 등록한 날 브랜드 페이지가 404 로 나왔다(2026-08-13).
       // CDN 을 갱신했으면 cdn.ts 의 VERSION 도 같이 올려야 이 방어가 작동한다.
-      const res = await fetch(`${CDN}/brands.json?v=${VERSION}`, { next: { revalidate: 60 } });
+      // revalidate 를 짧게 두면 안 된다. brands.json 은 2MB 를 넘어 Next 데이터
+      // 캐시에 **안 들어가므로**(경고: items over 2MB can not be cached) 만료될
+      // 때마다 통째로 다시 받는다. 게다가 fetch 의 revalidate 가 라우트의
+      // revalidate 보다 짧으면 브랜드 페이지 전체가 그 주기로 재생성된다.
+      // 신선도는 ?v=VERSION 이 보장한다 — CDN 이 갱신되면 URL 자체가 바뀐다.
+      const res = await fetch(`${CDN}/brands.json?v=${VERSION}`, { next: { revalidate: 21600 } });
       if (!res.ok) throw new Error(`브랜드 CDN 응답 오류: HTTP ${res.status}`);
       if (looksLikeHtml(res.headers.get("content-type"))) {
         throw new Error("브랜드 CDN이 JSON 대신 HTML을 반환했어요.");
@@ -64,6 +69,59 @@ export async function fetchBrands(): Promise<Brand[]> {
 
 /** id → Brand 조회용. 브랜드마다 선형 find 를 돌던 것을 대체한다. */
 let brandMapCache: Promise<Map<string, Brand>> | null = null;
+
+let slimCache: Promise<Brand[]> | null = null;
+
+/**
+ * 목록 경량판. id·이름·카테고리·추가일 등 **목록에 필요한 것만** 담겨 있다.
+ *
+ * 사이트맵·사전생성 목록·연관 브랜드는 전부 이걸로 충분하다. 예전엔 세 곳
+ * 모두 brands.json(4만 개면 18MB)을 받았다 — 필요한 건 id 와 카테고리뿐인데.
+ */
+export async function fetchBrandsSlim(): Promise<Brand[]> {
+  if (!slimCache) {
+    slimCache = (async (): Promise<Brand[]> => {
+      const res = await fetch(`${CDN}/brands-slim.json?v=${VERSION}`, {
+        next: { revalidate: 21600 },
+      });
+      if (!res.ok) throw new Error(`브랜드 CDN 응답 오류: HTTP ${res.status}`);
+      if (looksLikeHtml(res.headers.get("content-type"))) {
+        throw new Error("브랜드 CDN이 JSON 대신 HTML을 반환했어요.");
+      }
+      const list = parseBrandList(await res.json());
+      if (!hasUsableBrandData(list)) {
+        throw new Error("브랜드 CDN 데이터가 비었거나 형식이 올바르지 않아요.");
+      }
+      return list;
+    })();
+  }
+  return slimCache;
+}
+
+/**
+ * 브랜드 한 건만 CDN 에서 받는다 (약 1KB).
+ *
+ * 상세 페이지가 brands.json 전체를 쓰면 4만 개 기준 18MB 다 — Next 데이터
+ * 캐시는 2MB 초과를 저장하지 않아 렌더마다 다시 받고, 파싱만으로 램다 힙이
+ * 수백 MB 로 뛴다. 그래서 브랜드별 파일을 따로 둔다.
+ *
+ * 파일이 아직 없는 브랜드(생성 전)는 null 이 아니라 전체 목록으로 폴백한다 —
+ * 없다고 404 를 내면 이관 도중에 멀쩡한 페이지가 사라진다.
+ */
+export async function fetchBrand(id: string): Promise<Brand | null> {
+  try {
+    const res = await fetch(`${CDN}/${id}/brand.json?v=${VERSION}`, {
+      next: { revalidate: 21600 },
+    });
+    if (res.ok && !looksLikeHtml(res.headers.get("content-type"))) {
+      const b = (await res.json()) as Brand;
+      if (b && b.id) return b;
+    }
+  } catch {
+    // 폴백으로 넘어간다
+  }
+  return (await getBrandMap()).get(id) ?? null;
+}
 
 export async function getBrandMap(): Promise<Map<string, Brand>> {
   if (!brandMapCache) {

@@ -1,22 +1,35 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { fetchBrands, getBrandMap } from "@/lib/brands";
+import { fetchBrand, fetchBrandsSlim } from "@/lib/brands";
 import { CDN } from "@/lib/cdn";
 import Header from "@/components/Header";
 import BrandDetailClient from "./BrandDetailClient";
 
 const BASE = process.env.NEXT_PUBLIC_APP_URL || "https://semologo.com";
 
+// 하루 한 번 다시 만든다. CDN 의 brands.json 이 갱신되면 그때 반영된다.
+export const revalidate = 86400;
+
+// 빌드에 굽는 페이지 수. 나머지는 첫 요청 때 만들어 캐시한다.
+// 전부 굽지 않는 이유 — 4.1만 장이면 빌드가 25~30분으로 늘고 이미지도
+// 3.4GB 가 된다. 최근 추가분만 미리 구워 새 브랜드가 첫 방문자에게도
+// 즉시 뜨게 하고, 나머지는 요청 시 만든다.
+const PRERENDER = 1500;
+
 export async function generateStaticParams() {
-  const brands = await fetchBrands();
-  return brands.map((b) => ({ id: b.id }));
+  const brands = await fetchBrandsSlim();
+  return brands
+    .filter((b) => !b.variant_of)
+    .sort((a, b) => (b.added_at ?? "").localeCompare(a.added_at ?? ""))
+    .slice(0, PRERENDER)
+    .map((b) => ({ id: b.id }));
 }
 
 export async function generateMetadata(
   { params }: { params: Promise<{ id: string }> }
 ): Promise<Metadata> {
   const { id } = await params;
-  const brand = (await getBrandMap()).get(id);
+  const brand = await fetchBrand(id);
   if (!brand) return {};
 
   const logoUrl = brand.logo_svg
@@ -58,9 +71,10 @@ export default async function BrandPage(
   { params }: { params: Promise<{ id: string }> }
 ) {
   const { id } = await params;
-  const brands = await fetchBrands();
-  const brand = (await getBrandMap()).get(id);
+  const brand = await fetchBrand(id);
   if (!brand) notFound();
+  // 연관 브랜드는 id·이름·카테고리만 쓰므로 경량판이면 충분하다.
+  const brands = await fetchBrandsSlim();
 
   const logoUrl = brand.logo_svg
     ? `${CDN}/${brand.id}/logo.svg`
