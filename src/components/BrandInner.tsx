@@ -75,11 +75,14 @@ interface Props {
   isPage?: boolean;
 }
 
+// ⚠️ globals.css 의 .card-preview 와 **같은 값을 유지**한다.
+// 2026-08-18 에 그리드 격자만 진하게 고쳤더니 상세 페이지는 옛 색으로
+// 남아 흰 로고가 여기서만 배경에 묻혔다. 한쪽만 고치면 반드시 어긋난다.
 const CHECKER: React.CSSProperties = {
-  backgroundColor: "#f8f8f8",
+  backgroundColor: "#f1f1f2",
   backgroundImage: `
-    linear-gradient(rgba(0,0,0,0.06) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(0,0,0,0.06) 1px, transparent 1px)
+    linear-gradient(rgba(0,0,0,0.10) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0,0,0,0.10) 1px, transparent 1px)
   `,
   backgroundSize: "12px 12px",
 };
