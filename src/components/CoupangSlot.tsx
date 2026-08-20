@@ -32,7 +32,7 @@ export default function CoupangSlot({ count = 3 }: Props) {
 
   useEffect(() => {
     let alive = true;
-    fetch("/api/coupang")
+    fetch("/api/coupang/")
       .then(r => r.json())
       .then(d => { if (alive) setItems((d.products ?? []).slice(0, count)); })
       .catch(() => { if (alive) setItems([]); });   // 실패해도 화면은 안 깨진다

@@ -24,7 +24,13 @@ function authHeader(accessKey: string, secretKey: string): string {
   return `CEA algorithm=HmacSHA256, access-key=${accessKey}, signed-date=${dt}, signature=${signature}`;
 }
 
-export const revalidate = 1800;   // 30분. 골드박스는 자주 안 바뀌고, 매 요청 호출은 낭비다
+// ⚠️ revalidate 만 두면 Next.js 가 이 라우트를 **빌드 시점에 미리 실행**해
+//    결과를 굳혀버린다. 빌드 컨테이너에는 키가 없으므로 영원히
+//    reason=no_credentials 가 캐시된다(실제로 그렇게 나왔다).
+//    force-dynamic 으로 런타임 실행을 보장하고, 상류 호출 캐시는 아래
+//    fetch 의 next.revalidate 가 담당한다 — 쿠팡 API 는 30분에 한 번만 친다.
+export const dynamic = "force-dynamic";
+const UPSTREAM_TTL = 1800;
 
 export async function GET() {
   const ak = process.env.COUPANG_ACCESS_KEY;
@@ -37,7 +43,7 @@ export async function GET() {
   try {
     const res = await fetch(HOST + PATH, {
       headers: { Authorization: authHeader(ak, sk), "Content-Type": "application/json" },
-      next: { revalidate },
+      next: { revalidate: UPSTREAM_TTL },
     });
     if (!res.ok) {
       const body = await res.text();
