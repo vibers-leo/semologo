@@ -44,6 +44,9 @@ export default function BrandGrid({ initialBrands = [] }: { initialBrands?: Bran
   const [selected, setSelected] = useState<Brand | null>(null);
   const [page, setPage] = useState(1);
   const [showAllCats, setShowAllCats] = useState(false);
+  // 국내/해외 필터. Wikidata P17(국가) 근거인 origin 필드를 본다.
+  // null = 전체. 한글명 유무로 대체하면 안 된다 — '스타벅스'는 한글명이 있어도 미국이다.
+  const [origin, setOrigin] = useState<"KR" | "GLOBAL" | null>(null);
   const sentinelRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -76,7 +79,14 @@ export default function BrandGrid({ initialBrands = [] }: { initialBrands?: Bran
       const cat = b.category || "기타";
       map.set(cat, (map.get(cat) || 0) + 1);
     });
-    return Array.from(map.entries()).sort((a, b) => b[1] - a[1]);
+    // '기타'는 개수가 가장 많아서(전체의 37%) 그냥 내림차순으로 두면 필터 맨 앞을
+    // 차지한다. 분류가 안 된 묶음이지 사용자가 먼저 찾을 카테고리가 아니므로
+    // 개수와 무관하게 항상 끝으로 보낸다.
+    return Array.from(map.entries()).sort((a, b) => {
+      if (a[0] === "기타") return 1;
+      if (b[0] === "기타") return -1;
+      return b[1] - a[1];
+    });
   }, [brands]);
 
   const SHOW_LIMIT = 14; // 초기 노출 카테고리 수
@@ -145,8 +155,23 @@ export default function BrandGrid({ initialBrands = [] }: { initialBrands?: Bran
     if (selectedCats.size > 0) {
       list = list.filter(b => selectedCats.has(b.category || "기타"));
     }
+    // origin 이 없는 브랜드(국가 미확보)는 어느 쪽으로도 단정하지 않는다.
+    // '전체'에서만 보이게 두는 편이 잘못 넣어 보여주는 것보다 낫다.
+    if (origin) {
+      list = list.filter(b => b.origin === origin);
+    }
     return list;
-  }, [sorted, haystack, deferredQuery, selectedCats]);
+  }, [sorted, haystack, deferredQuery, selectedCats, origin]);
+
+  // 버튼에 실제 개수를 보여줘야 신뢰가 간다 (0개인데 버튼만 있으면 고장으로 보인다)
+  const originStats = useMemo(() => {
+    let kr = 0, gl = 0;
+    for (const b of brands) {
+      if (b.origin === "KR") kr++;
+      else if (b.origin === "GLOBAL") gl++;
+    }
+    return { kr, gl };
+  }, [brands]);
 
   // 렌더 중 setState 금지 — 예전엔 useMemo 안에서 setPage(1) 를 불러
   // 입력마다 렌더가 두 번씩 돌았다.
@@ -228,6 +253,35 @@ export default function BrandGrid({ initialBrands = [] }: { initialBrands?: Bran
       <aside className="hidden 2xl:block fixed right-6 top-28 z-30" aria-label="광고">
         <AdSlot />
       </aside>
+
+      {/* ── 국내/해외 필터 ── */}
+      {(originStats.kr > 0 || originStats.gl > 0) && (
+        <div className="pt-5 pb-1">
+          <div className="text-xs font-semibold text-gray-500 tracking-wider uppercase mb-3">
+            지역
+          </div>
+          <div className="flex flex-wrap gap-2">
+            {([
+              [null, "전체", brands.length],
+              ["KR", "🇰🇷 국내", originStats.kr],
+              ["GLOBAL", "🌏 해외", originStats.gl],
+            ] as const).map(([val, label, count]) => {
+              const on = origin === val;
+              return (
+                <button key={label} onClick={() => setOrigin(val)}
+                  className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-sm font-medium transition-all"
+                  style={on
+                    ? { background: "#111", color: "#fff", border: "1.5px solid #111", transform: "scale(1.02)" }
+                    : { background: "var(--surface)", color: "var(--text-secondary)", border: "1.5px solid var(--border)" }
+                  }>
+                  {label}
+                  <span className="text-xs opacity-60">{count.toLocaleString()}</span>
+                </button>
+              );
+            })}
+          </div>
+        </div>
+      )}
 
       {/* ── 태그 클라우드 카테고리 필터 ── */}
       <div className="py-5">

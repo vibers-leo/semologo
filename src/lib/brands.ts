@@ -13,6 +13,9 @@ export interface Brand {
   has_png?: boolean;
   /** 흰색 로고 — 밝은 배경에서 안 보이므로 어두운 배경에 그린다 */
   light?: boolean;
+  /** 국내/해외 구분. Wikidata P17(국가) 근거이며 확보된 브랜드만 값이 있다.
+   *  한글명 유무로 대체 불가 — '스타벅스'는 한글명이 있어도 미국 브랜드다. */
+  origin?: "KR" | "GLOBAL";
   /** brands.json 쪽 이름 (slim 은 light) */
   light_logo?: boolean;
   variants_n?: number;
