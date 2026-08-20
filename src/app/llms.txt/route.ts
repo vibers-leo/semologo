@@ -66,6 +66,13 @@ export async function GET() {
 운영: 주식회사 계발자들 · https://semologo.com/request
 `;
   return new Response(body, {
-    headers: { "content-type": "text/plain; charset=utf-8" },
+    headers: {
+      "content-type": "text/plain; charset=utf-8",
+      // ⚠️ force-static 만 두면 Next.js 가 s-maxage=31536000(1년)을 붙인다.
+      //    브랜드 수가 본문에 들어가므로 1년 캐시는 치명적이다 — 실제로
+      //    '6,800여 개'가 CF 엣지에 1년짜리로 박혀 있었다(실제의 1/6).
+      //    퍼지 권한이 없어 헤더로 수명을 직접 제한한다.
+      "cache-control": "public, max-age=300, s-maxage=3600, stale-while-revalidate=86400",
+    },
   });
 }
