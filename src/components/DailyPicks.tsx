@@ -90,12 +90,18 @@ export default function DailyPicks({ brands }: { brands: Brand[] }) {
               border: "1px solid var(--border)",
             }}
           >
-            <img
-              src={assetUrl(b.id, b.has_svg ? "logo.svg" : "logo.png")}
-              alt={b.name_ko || b.name_en}
-              loading="lazy"
-              style={{ maxWidth: 72, maxHeight: 40, objectFit: "contain" }}
-            />
+            {/* ⚠️ maxWidth/maxHeight 만 주면 안 된다. SVG 로고는 width/height 속성
+                없이 viewBox 만 가진 것이 많아 flex 안에서 높이가 0 으로 접힌다
+                (실제로 이름만 나오고 로고가 통째로 안 보였다).
+                기존 .card-preview img 처럼 크기를 명시하고 object-fit 으로 맞춘다. */}
+            <span style={{ width: 76, height: 40, display: "block", flexShrink: 0 }}>
+              <img
+                src={assetUrl(b.id, b.has_svg ? "logo.svg" : "logo.png")}
+                alt={b.name_ko || b.name_en}
+                loading="lazy"
+                style={{ width: "100%", height: "100%", objectFit: "contain", objectPosition: "center" }}
+              />
+            </span>
             <span
               className="text-[11px] px-2 text-center leading-tight line-clamp-1"
               style={{ color: b.light ? "#e5e5e5" : "var(--text-secondary)" }}
