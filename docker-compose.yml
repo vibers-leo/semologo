@@ -8,6 +8,12 @@ services:
     container_name: semologo
     ports:
       - "4520:3000"
+    # 런타임 서버 변수(쿠팡 오픈 API 키 등)를 컨테이너에 넣는다.
+    # ⚠️ NEXT_PUBLIC_* 는 여기로 주면 안 먹는다 — 빌드 시점에 번들에 구워지므로
+    #    .webhook.conf 의 BUILD_ARGS 로 --build-arg 를 줘야 한다.
+    # 이게 없어서 서버 .env 가 컨테이너에 전달조차 안 되고 있었다.
+    env_file:
+      - .env
     # 무제한(0)으로 두면 이 컨테이너가 RAM 을 먹어 서버 전체가 스왑에 빠진다.
     # memswap 을 같은 값으로 두어 스왑 없이 OOM Kill → 자동 재시작 되게 한다.
     mem_limit: 768m
