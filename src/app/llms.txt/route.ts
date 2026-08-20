@@ -7,16 +7,34 @@ export const dynamic = "force-static";
 
 const CDN = "https://logo.vibers.co.kr/_clients";
 
-export function GET() {
+/**
+ * 브랜드 수를 빌드 시점에 실제 데이터에서 읽는다.
+ * 예전엔 "6,800여"로 하드코딩돼 있었는데, 브랜드가 7,343 → 40,274개로
+ * 늘었는데도 6,800 그대로였다(6배 차이). layout.tsx 와 같은 방식으로 맞춘다.
+ */
+async function brandCount(): Promise<string> {
+  try {
+    const res = await fetch(`${CDN}/brands-slim.json`, { next: { revalidate: 3600 } });
+    if (!res.ok) return "4만여";
+    const list = await res.json();
+    const n = Array.isArray(list) ? list.filter((b) => !b?.variant_of).length : 0;
+    return n > 0 ? `${n.toLocaleString("ko-KR")}개` : "4만여";
+  } catch {
+    return "4만여";
+  }
+}
+
+export async function GET() {
+  const count = await brandCount();
   const body = `# 세모로고 (SemoLogo)
 
 > 세상 모든 로고. 브랜드 로고를 SVG·PNG로 무료 다운로드하는 서비스.
-> 6,800여 개 브랜드의 벡터·래스터 로고를 형태별(심볼형·가로조합형·세로조합형·워드마크형)로 제공한다.
+> ${count} 브랜드의 벡터·래스터 로고를 형태별(심볼형·가로조합형·세로조합형·워드마크형)로 제공한다.
 
 ## 에이전트가 바로 쓸 수 있는 데이터
 
 - 브랜드 목록(경량): ${CDN}/brands-slim.json
-  필드: id, name_ko, name_en, category, has_svg, has_png, variants_n, variant_of, light
+  필드: id, name_ko, name_en, category, has_svg, has_png, variants_n, variant_of, light, origin, fame
 - 브랜드 전체 메타: ${CDN}/brands.json
 - 브랜드별 로고 변형: ${CDN}/{id}/variants.json
 - 로고 파일: ${CDN}/{id}/logo.svg · logo.png · logo-800.png · logo-icon.png · logo-transparent.png · logo-white.png
@@ -24,6 +42,8 @@ export function GET() {
 ## 사용 규칙
 
 - \`variant_of\` 가 있는 항목은 부모 브랜드로 흡수된 중복이다. 목록에는 쓰지 말 것.
+- \`origin\` 은 "KR"(국내) 또는 "GLOBAL"(해외). 값이 없으면 국적 미확인이다 — 어느 쪽으로도 단정하지 말 것.
+- \`fame\` 은 인지도 지표(해당 브랜드의 위키백과 언어판 수). 클수록 널리 알려진 브랜드다.
 - \`light: true\` 는 흰색 계열 로고 — 밝은 배경에서 보이지 않으므로 어두운 배경에 배치할 것.
 - 파일이 없을 수 있다. 응답이 \`text/html\` 이면 404 폴백이므로 이미지로 쓰지 말 것.
 - CORS 는 \`*\` 로 열려 있어 브라우저에서 직접 fetch 가능하다.

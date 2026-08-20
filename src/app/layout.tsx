@@ -48,13 +48,15 @@ export async function generateMetadata(): Promise<Metadata> {
       siteName: "세모로고",
       url: SITE,
       type: "website",
-      images: [{ url: `${SITE}/og-image.png`, width: 1200, height: 630, alt: "세모로고" }],
+      // 한국어 사이트임을 명시한다. 없으면 SNS·검색엔진이 언어를 추정해야 한다.
+      locale: "ko_KR",
+      images: [{ url: `${SITE}/og-cover.jpg`, width: 1200, height: 630, alt: `세모로고 — ${n}개 브랜드 로고 무료 다운로드` }],
     },
     twitter: {
       card: "summary_large_image",
       title: "세모로고 — 세상 모든 로고",
       description: `${n}개 브랜드 로고 SVG·PNG 무료 다운로드`,
-      images: [`${SITE}/og-image.png`],
+      images: [`${SITE}/og-cover.jpg`],
     },
   };
 }
