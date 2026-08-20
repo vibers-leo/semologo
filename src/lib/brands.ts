@@ -13,6 +13,9 @@ export interface Brand {
   has_png?: boolean;
   /** 흰색 로고 — 밝은 배경에서 안 보이므로 어두운 배경에 그린다 */
   light?: boolean;
+  /** 인지도 — 위키백과 언어판 수(Wikidata sitelinks). 그리드 기본 정렬 기준.
+   *  값이 없으면 0 으로 본다(중간값으로 채우면 무명이 앞으로 온다). */
+  fame?: number;
   /** 국내/해외 구분. Wikidata P17(국가) 근거이며 확보된 브랜드만 값이 있다.
    *  한글명 유무로 대체 불가 — '스타벅스'는 한글명이 있어도 미국 브랜드다. */
   origin?: "KR" | "GLOBAL";
@@ -201,7 +204,14 @@ export function primaryLogoUrl(brand: Brand): string {
  * added_at 은 날짜 단위라 같은 날 추가분끼리는 순서가 없다. brands.json 은
  * 새 항목을 뒤에 덧붙이므로 배열 순서가 곧 추가 순서다 — 그걸 보조 기준으로 쓴다.
  */
-export function sortForGrid(brands: Brand[]): Brand[] {
+export type SortMode = "fame" | "recent";
+
+export function sortForGrid(
+  brands: Brand[],
+  mode: SortMode = "fame",
+  /** 실제 히트 점수 {id: score}. 비어 있으면 fame 만 쓴다(콜드스타트). */
+  hits: Record<string, number> = {},
+): Brand[] {
   const hasLogo = (b: Brand) => !!(b.logo_svg || b.has_svg || b.logo_png || b.has_png);
   // ⚠️ 보조 기준으로 **넘겨받은 배열의 위치를 쓰면 안 된다.** 이미 정렬된 목록을
   //    다시 정렬하면 순서가 통째로 뒤집힌다 — 서버가 정렬한 60장을 클라이언트가
@@ -212,6 +222,18 @@ export function sortForGrid(brands: Brand[]): Brand[] {
   return brands
     .filter((b) => !b.variant_of && hasLogo(b))
     .sort((a, b) => {
+      // 인기순 — fame 은 위키백과 언어판 수(Wikidata sitelinks). 인지도 대리 지표다.
+      // 기본값을 최신순으로 두면 첫 화면이 위키미디어 대량수집분(무명 기관·단체)
+      // 으로 채워진다. 랜덤으로 바꿔도 38,000개 중 대부분이 무명이라 해결이 안 된다.
+      // fame 이 없으면 0 — 중간값으로 채우면 무명이 앞으로 올라온다.
+      if (mode === "fame") {
+        // 실제 히트가 있으면 그게 우선이다 — 사용자가 실제로 찾는 것이 정답이다.
+        // 히트가 없는 브랜드끼리는 fame(위키백과 언어판 수)으로 가른다.
+        const ha = hits[a.id] ?? 0, hb = hits[b.id] ?? 0;
+        if (ha !== hb) return hb - ha;
+        const byFame = (b.fame ?? 0) - (a.fame ?? 0);
+        if (byFame !== 0) return byFame;
+      }
       const byDate = (b.added_at ?? "").localeCompare(a.added_at ?? "");
       return byDate !== 0 ? byDate : seqOf(b) - seqOf(a);
     });

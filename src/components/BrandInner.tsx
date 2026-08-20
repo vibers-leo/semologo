@@ -18,6 +18,7 @@ import {
 import {
   loadQuality, getMyVote, voteQuality, type QualityData,
 } from "@/lib/logo-quality";
+import { sendHit } from "@/lib/hit";
 import { trackEvent } from "@/lib/analytics";
 import { CDN, VERSION } from "@/lib/cdn";
 
@@ -314,6 +315,7 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
     const ok = await downloadFile(url, filename);
     if (!ok) window.open(url, "_blank", "noopener,noreferrer");
     trackEvent("logo_downloaded", { brand_id: brand.id, file_name: filename, download_method: ok ? "download" : "new_tab" });
+    sendHit(brand.id, "download");
   }, [brand.id]);
 
   useEffect(() => {

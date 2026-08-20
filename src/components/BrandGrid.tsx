@@ -2,9 +2,10 @@
 
 import { useMemo, useState, useEffect, useRef, useDeferredValue } from "react";
 import dynamic from "next/dynamic";
-import { Brand, sortForGrid } from "@/lib/brands";
+import { Brand, sortForGrid, type SortMode } from "@/lib/brands";
 import { hasUsableBrandData, parseBrandList } from "@/lib/brand-data";
 import { CDN, VERSION } from "@/lib/cdn";
+import { sendHit } from "@/lib/hit";
 import { trackEvent } from "@/lib/analytics";
 import BrandModal from "./BrandModal";
 import { useSearch } from "@/lib/search-context";
@@ -47,6 +48,21 @@ export default function BrandGrid({ initialBrands = [] }: { initialBrands?: Bran
   // 국내/해외 필터. Wikidata P17(국가) 근거인 origin 필드를 본다.
   // null = 전체. 한글명 유무로 대체하면 안 된다 — '스타벅스'는 한글명이 있어도 미국이다.
   const [origin, setOrigin] = useState<"KR" | "GLOBAL" | null>(null);
+  // 그리드 정렬. 기본은 인기순 — 최신순이면 첫 화면이 위키미디어 대량수집분
+  // (무명 기관·단체)으로 채워진다. 서버(page.tsx)와 같은 기본값이어야
+  // 하이드레이션 때 화면이 안 튄다.
+  const [sortMode, setSortMode] = useState<SortMode>("fame");
+  // 실제 히트 기반 인기 점수. 없으면 빈 객체 → fame(위키백과 언어판 수)로 정렬한다.
+  // 초기에는 히트가 0 이라 baseline 이 필요하고, 쌓일수록 실제 사용이 앞선다.
+  const [hits, setHits] = useState<Record<string, number>>({});
+  useEffect(() => {
+    let alive = true;
+    fetch("/api/popularity/")
+      .then(r => r.json())
+      .then(d => { if (alive) setHits(d.scores ?? {}); })
+      .catch(() => {});      // 실패해도 fame 으로 동작한다
+    return () => { alive = false; };
+  }, []);
   const sentinelRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -97,7 +113,10 @@ export default function BrandGrid({ initialBrands = [] }: { initialBrands?: Bran
   // 복사·정렬(localeCompare 약 8.5만 회)했고, 그동안 메인 스레드가 막혀
   // 한글 IME 조합이 끊겼다("자음 입력 시 뚝뚝 끊김").
   // 서버(빌드 시 첫 화면)와 **같은 규칙**을 쓴다 — 어긋나면 하이드레이션 때 화면이 튄다
-  const sorted = useMemo(() => sortForGrid(brands), [brands]);
+  const sorted = useMemo(
+    () => sortForGrid(brands, sortMode, hits),
+    [brands, sortMode, hits],
+  );
 
   // 검색용 소문자 문자열을 미리 만들어 둔다 (매 입력마다 toLowerCase 2만 회 방지)
   const haystack = useMemo(() => {
@@ -360,6 +379,20 @@ export default function BrandGrid({ initialBrands = [] }: { initialBrands?: Bran
       <div className="flex items-center justify-between mb-4">
         <p className="text-sm" style={{ color: "var(--text-secondary)" }}>
           <span className="font-semibold text-gray-900">{filtered.length.toLocaleString()}</span>개 브랜드
+          {/* 정렬 토글 — 기본 인기순. 최신순도 남겨 새로 들어온 로고를 볼 수 있게 한다. */}
+          <span style={{ marginLeft: 12, display: "inline-flex", gap: 4 }}>
+            {([["fame", "인기순"], ["recent", "최신순"]] as const).map(([m2, label]) => (
+              <button key={m2} onClick={() => { setSortMode(m2); setPage(1); }}
+                style={{
+                  fontSize: 12, padding: "3px 10px", borderRadius: 999, cursor: "pointer",
+                  border: "1px solid var(--border)",
+                  background: sortMode === m2 ? "#111" : "transparent",
+                  color: sortMode === m2 ? "#fff" : "var(--text-secondary)",
+                }}>
+                {label}
+              </button>
+            ))}
+          </span>
           {query && <span className="ml-2 text-indigo-500">"{query}" 검색 결과</span>}
           {selectedCats.size > 0 && !query && (
             <span className="ml-2 text-indigo-500">필터 적용됨</span>
@@ -433,7 +466,7 @@ function BrandCard({ brand, onClick, priority }: { brand: Brand; onClick: () => 
   const initSrc = hasSvg ? svgUrl : pngUrl;
 
   return (
-    <div className="logo-card" onClick={() => { trackEvent("brand_opened", { brand_id: brand.id, category: brand.category || "기타" }); onClick(); }}>
+    <div className="logo-card" onClick={() => { trackEvent("brand_opened", { brand_id: brand.id, category: brand.category || "기타" }); sendHit(brand.id, "view"); onClick(); }}>
       {/* 흰색 로고는 밝은 체커 배경에서 안 보여 '빈 카드'처럼 된다 → 어두운 배경 */}
       <div className="card-preview" style={brand.light ? { background: "#18181b", backgroundImage: "none" } : undefined}>
         {/* eslint-disable-next-line @next/next/no-img-element */}
