@@ -42,6 +42,8 @@ export default function BrandGrid({ initialBrands = [] }: { initialBrands?: Bran
   const [brands, setBrands] = useState<Brand[]>(initialBrands);
   const [loading, setLoading] = useState(initialBrands.length === 0);
   const [loadError, setLoadError] = useState(false);
+  const [fullLoaded, setFullLoaded] = useState(initialBrands.length > 60);
+  const [searchIds, setSearchIds] = useState<string[] | null>(null);
   const [selected, setSelected] = useState<Brand | null>(null);
   const [page, setPage] = useState(1);
   const [showAllCats, setShowAllCats] = useState(false);
@@ -55,6 +57,9 @@ export default function BrandGrid({ initialBrands = [] }: { initialBrands?: Bran
   // 실제 히트 기반 인기 점수. 없으면 빈 객체 → fame(위키백과 언어판 수)로 정렬한다.
   // 초기에는 히트가 0 이라 baseline 이 필요하고, 쌓일수록 실제 사용이 앞선다.
   const [hits, setHits] = useState<Record<string, number>>({});
+  const workerRef = useRef<Worker | null>(null);
+  const workerQueryRef = useRef("");
+  const loadFullRef = useRef<(() => void) | null>(null);
   useEffect(() => {
     let alive = true;
     fetch("/api/popularity/")
@@ -66,10 +71,11 @@ export default function BrandGrid({ initialBrands = [] }: { initialBrands?: Bran
   const sentinelRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    // ?v= 없이 force-cache 로 받으면 브랜드 목록이 영구히 갱신되지 않는다
-    // (신규 브랜드를 추가해도 기존 방문자에게 안 보임)
     let cancelled = false;
+    let started = false;
     async function load() {
+      if (started) return;
+      started = true;
       if (brands.length === 0) setLoading(true);
       setLoadError(false);
       try {
@@ -77,15 +83,17 @@ export default function BrandGrid({ initialBrands = [] }: { initialBrands?: Bran
         if (!response.ok) throw new Error(`HTTP ${response.status}`);
         const list = parseBrandList(await response.json());
         if (!hasUsableBrandData(list)) throw new Error("invalid brand data");
-        if (!cancelled) setBrands(list);
+        if (!cancelled) { setBrands(list); setFullLoaded(true); }
       } catch {
         if (!cancelled) setLoadError(true);
       } finally {
         if (!cancelled) setLoading(false);
       }
     }
-    load();
-    return () => { cancelled = true; };
+    loadFullRef.current = load;
+    const idle = (window as Window & { requestIdleCallback?: (cb: () => void, opts?: { timeout: number }) => number }).requestIdleCallback;
+    const id = idle ? idle(load, { timeout: 1500 }) : window.setTimeout(load, 700);
+    return () => { cancelled = true; loadFullRef.current = null; if (!idle) window.clearTimeout(id as number); };
   }, []);
 
   // 카테고리별 카운트 (실제 데이터 기반, 내림차순)
@@ -130,11 +138,30 @@ export default function BrandGrid({ initialBrands = [] }: { initialBrands?: Bran
   // 입력은 즉시 반영하되 무거운 필터링은 한 박자 미룬다 → 타이핑이 끊기지 않는다
   const deferredQuery = useDeferredValue(query);
 
+  useEffect(() => {
+    if (deferredQuery.trim() && !fullLoaded) loadFullRef.current?.();
+  }, [deferredQuery, fullLoaded]);
+
+  useEffect(() => {
+    if (!fullLoaded || !brands.length) return;
+    const worker = new Worker("/search-worker.js");
+    workerRef.current = worker;
+    worker.onmessage = event => {
+      const message = event.data || {};
+      if (message.type === "result" && message.query === workerQueryRef.current) setSearchIds(message.ids);
+    };
+    worker.postMessage({ type: "init", records: brands.map(b => ({ id: b.id, name_ko: b.name_ko, name_en: b.name_en, aliases: b.aliases })) });
+    return () => { worker.terminate(); workerRef.current = null; };
+  }, [fullLoaded, brands]);
+
   const filtered = useMemo(() => {
     let list = sorted;
     const raw = deferredQuery.trim();
     const q = raw.toLowerCase();
-    if (q) {
+    if (q && searchIds) {
+      const byId = new Map(sorted.map(b => [b.id, b]));
+      list = searchIds.map(id => byId.get(id)).filter((b): b is Brand => Boolean(b));
+    } else if (q) {
       // 자음 낱자가 섞였으면 초성 검색 — "ㅅㅅ" 으로 삼성을 찾을 수 있어야 한다.
       // 일반 부분일치도 함께 시도해 "삼성" 같은 기존 입력을 깨지 않는다.
       // 초성이든 일반 입력이든 같은 규칙으로 순위를 매긴다.
@@ -180,7 +207,20 @@ export default function BrandGrid({ initialBrands = [] }: { initialBrands?: Bran
       list = list.filter(b => b.origin === origin);
     }
     return list;
-  }, [sorted, haystack, deferredQuery, selectedCats, origin]);
+  }, [sorted, haystack, deferredQuery, searchIds, selectedCats, origin]);
+
+  useEffect(() => {
+    const q = deferredQuery.trim();
+    if (!q) {
+      setSearchIds(null);
+      workerQueryRef.current = "";
+      return;
+    }
+    if (!workerRef.current) return;
+    workerQueryRef.current = q;
+    setSearchIds(null);
+    workerRef.current.postMessage({ type: "search", query: q });
+  }, [deferredQuery, fullLoaded]);
 
   // 버튼에 실제 개수를 보여줘야 신뢰가 간다 (0개인데 버튼만 있으면 고장으로 보인다)
   const originStats = useMemo(() => {
@@ -229,7 +269,7 @@ export default function BrandGrid({ initialBrands = [] }: { initialBrands?: Bran
       },
       // 바닥에 닿기 훨씬 전에 미리 불러온다. 200px 이면 바닥까지 가야 발화해서
       // 스크롤이 벽에 부딪히는 느낌이 났다.
-      { rootMargin: "1200px" }
+      { rootMargin: "550px" }
     );
     obs.observe(sentinelRef.current);
     return () => obs.disconnect();
