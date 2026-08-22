@@ -38,6 +38,38 @@ import { hasUsableBrandData, parseBrandList } from "./brand-data";
 export { CDN };
 
 /**
+ * logo.vibers.co.kr 앞단이 일시적으로 차단돼도 목록 자체가 사라지지 않게 하는
+ * 읽기 전용 비상 경로다. 로고 이미지 URL에는 쓰지 않는다. 이미지 트래픽은 계속
+ * CDN을 통과시켜 핫링크 보호·버킷 서빙 정책을 그대로 유지한다.
+ */
+const BRAND_DATA_FALLBACK =
+  "https://raw.githubusercontent.com/vibers-leo/brand-logos/main/_clients";
+
+async function fetchBrandData(file: string): Promise<unknown> {
+  const sources = [CDN, BRAND_DATA_FALLBACK];
+  let lastError: unknown;
+
+  for (const source of sources) {
+    try {
+      const res = await fetch(`${source}/${file}?v=${VERSION}`, {
+        next: { revalidate: 21600 },
+      });
+      if (!res.ok) throw new Error(`브랜드 데이터 응답 오류: HTTP ${res.status}`);
+      if (looksLikeHtml(res.headers.get("content-type"))) {
+        throw new Error("브랜드 데이터가 JSON 대신 HTML을 반환했어요.");
+      }
+      return await res.json();
+    } catch (error) {
+      lastError = error;
+    }
+  }
+
+  throw lastError instanceof Error
+    ? lastError
+    : new Error("브랜드 데이터 CDN과 비상 경로 모두 응답하지 않아요.");
+}
+
+/**
  * 정적 빌드 중 brands.json(2.9MB)을 브랜드마다 다시 받지 않도록 모듈 스코프에
  * 캐시한다. brand/[id]/page.tsx 는 브랜드당 generateStaticParams·
  * generateMetadata·본문에서 각각 호출하므로, 6,800개 × 2~3회 = 약 13,600회
@@ -57,12 +89,7 @@ export async function fetchBrands(): Promise<Brand[]> {
       // 때마다 통째로 다시 받는다. 게다가 fetch 의 revalidate 가 라우트의
       // revalidate 보다 짧으면 브랜드 페이지 전체가 그 주기로 재생성된다.
       // 신선도는 ?v=VERSION 이 보장한다 — CDN 이 갱신되면 URL 자체가 바뀐다.
-      const res = await fetch(`${CDN}/brands.json?v=${VERSION}`, { next: { revalidate: 21600 } });
-      if (!res.ok) throw new Error(`브랜드 CDN 응답 오류: HTTP ${res.status}`);
-      if (looksLikeHtml(res.headers.get("content-type"))) {
-        throw new Error("브랜드 CDN이 JSON 대신 HTML을 반환했어요.");
-      }
-      const data = await res.json();
+      const data = await fetchBrandData("brands.json");
       const brands = parseBrandList(data);
       if (!hasUsableBrandData(brands)) {
         throw new Error("브랜드 CDN 데이터가 비었거나 형식이 올바르지 않아요.");
@@ -87,14 +114,7 @@ let slimCache: Promise<Brand[]> | null = null;
 export async function fetchBrandsSlim(): Promise<Brand[]> {
   if (!slimCache) {
     slimCache = (async (): Promise<Brand[]> => {
-      const res = await fetch(`${CDN}/brands-slim.json?v=${VERSION}`, {
-        next: { revalidate: 21600 },
-      });
-      if (!res.ok) throw new Error(`브랜드 CDN 응답 오류: HTTP ${res.status}`);
-      if (looksLikeHtml(res.headers.get("content-type"))) {
-        throw new Error("브랜드 CDN이 JSON 대신 HTML을 반환했어요.");
-      }
-      const list = parseBrandList(await res.json());
+      const list = parseBrandList(await fetchBrandData("brands-slim.json"));
       if (!hasUsableBrandData(list)) {
         throw new Error("브랜드 CDN 데이터가 비었거나 형식이 올바르지 않아요.");
       }
@@ -116,13 +136,8 @@ export async function fetchBrandsSlim(): Promise<Brand[]> {
  */
 export async function fetchBrand(id: string): Promise<Brand | null> {
   try {
-    const res = await fetch(`${CDN}/${id}/brand.json?v=${VERSION}`, {
-      next: { revalidate: 21600 },
-    });
-    if (res.ok && !looksLikeHtml(res.headers.get("content-type"))) {
-      const b = (await res.json()) as Brand;
-      if (b && b.id) return b;
-    }
+    const b = (await fetchBrandData(`${id}/brand.json`)) as Brand;
+    if (b && b.id) return b;
   } catch {
     // 폴백으로 넘어간다
   }
