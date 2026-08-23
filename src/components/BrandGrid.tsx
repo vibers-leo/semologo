@@ -72,10 +72,13 @@ export default function BrandGrid({ initialBrands = [] }: { initialBrands?: Bran
 
   useEffect(() => {
     let cancelled = false;
-    let started = false;
+    // 최초 수집이 실패해도 검색 입력이나 사용자의 재시도 버튼으로 다시 받을 수
+    // 있어야 한다. 기존의 started 플래그는 한 번의 네트워크 실패 뒤 영구적으로
+    // 전체 목록 로딩을 막아, 첫 화면 60개만 남기는 원인이었다.
+    let inFlight = false;
     async function load() {
-      if (started) return;
-      started = true;
+      if (inFlight) return;
+      inFlight = true;
       if (brands.length === 0) setLoading(true);
       setLoadError(false);
       try {
@@ -97,6 +100,7 @@ export default function BrandGrid({ initialBrands = [] }: { initialBrands?: Bran
       } catch {
         if (!cancelled) setLoadError(true);
       } finally {
+        inFlight = false;
         if (!cancelled) setLoading(false);
       }
     }
@@ -303,7 +307,9 @@ export default function BrandGrid({ initialBrands = [] }: { initialBrands?: Bran
     );
   }
 
-  if (loadError) {
+  // 첫 화면 카드가 이미 있으면 전체 카탈로그만 다시 시도하게 둔다. 첫 60개까지
+  // 숨겨 버리면 일시적인 CDN 오류가 곧 서비스 전체 오류 화면으로 보인다.
+  if (loadError && brands.length === 0) {
     return (
       <div style={{ padding: "80px 0", textAlign: "center", color: "var(--text-secondary)" }}>
         <div style={{ fontSize: 28, marginBottom: 12 }}>⚠️</div>
@@ -456,6 +462,18 @@ export default function BrandGrid({ initialBrands = [] }: { initialBrands?: Bran
         )}
       </div>
 
+      {!fullLoaded && (
+        <div className="mb-4 flex flex-wrap items-center justify-between gap-2 rounded-xl border px-3 py-2 text-sm"
+          style={{ borderColor: "var(--border)", color: "var(--text-secondary)", background: "var(--surface)" }}>
+          <span>{loadError ? "전체 로고 목록을 아직 불러오지 못했어요." : "전체 로고 목록을 준비하고 있어요."}</span>
+          <button type="button" onClick={() => loadFullRef.current?.()}
+            className="rounded-full border px-3 py-1 text-xs font-semibold"
+            style={{ borderColor: "var(--border)", color: "var(--text)" }}>
+            {loadError ? "전체 목록 다시 불러오기" : "지금 불러오기"}
+          </button>
+        </div>
+      )}
+
       {/* ── 카드 그리드 ── */}
       <div className="grid grid-cols-2 sm:grid-cols-4 xl:grid-cols-6 gap-3">
         {visible.map((brand, i) => (
@@ -473,7 +491,18 @@ export default function BrandGrid({ initialBrands = [] }: { initialBrands?: Bran
         ))}
       </div>
 
-      {hasMore && <div ref={sentinelRef} style={{ height: 1 }} />}
+      {hasMore && (
+        <div ref={sentinelRef} className="flex flex-col items-center gap-2 pt-6">
+          <button type="button" onClick={() => setPage(p => p + 1)}
+            className="rounded-full border px-5 py-2 text-sm font-semibold transition-colors hover:bg-gray-50"
+            style={{ borderColor: "var(--border)", color: "var(--text)" }}>
+            로고 60개 더 보기
+          </button>
+          <span className="text-xs" style={{ color: "var(--text-secondary)" }}>
+            {visible.length.toLocaleString()} / {filtered.length.toLocaleString()}개 표시 중
+          </span>
+        </div>
+      )}
 
       {filtered.length === 0 && (
         <div className="text-center py-24" style={{ color: "var(--text-secondary)" }}>
