@@ -112,11 +112,17 @@ export default function Header() {
   }, [menuOpen]);
 
   useEffect(() => {
-    const unsub = onAuthStateChanged(getClientAuth(), u => {
-      setUser(u);
+    try {
+      const unsub = onAuthStateChanged(getClientAuth(), u => {
+        setUser(u);
+        setAuthLoaded(true);
+      });
+      return unsub;
+    } catch {
+      // 로그인 초기화가 지원되지 않는 WebView에서도 공개 로고 탐색은 계속 쓴다.
       setAuthLoaded(true);
-    });
-    return unsub;
+      return undefined;
+    }
   }, []);
 
 

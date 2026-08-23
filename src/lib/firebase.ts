@@ -35,5 +35,6 @@ export function getClientDb(): Firestore {
 export const googleProvider = new GoogleAuthProvider();
 
 export { getApp as firebaseApp };
-export const auth = typeof window !== "undefined" ? getClientAuth() : null;
-export const db = typeof window !== "undefined" ? getClientDb() : null;
+// 인증·Firestore는 모듈을 불러오는 즉시 초기화하지 않는다. 일부 WebView/개인정보
+// 보호 환경에서는 Auth의 popup/redirect resolver 초기화가 실패할 수 있는데, 이때
+// 로그인과 무관한 홈 화면까지 모듈 평가 단계에서 함께 멈추면 안 된다.
