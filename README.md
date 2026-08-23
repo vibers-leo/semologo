@@ -1,12 +1,11 @@
 # 세모로고
 
-세모로고는 브랜드 로고를 SVG·PNG와 변형별로 찾고 내려받을 수 있는 정적 웹 서비스입니다.
-웹 주소와 로고 CDN 주소는 배포 환경변수로 관리합니다.
+세모로고는 브랜드 로고를 SVG·PNG와 변형별로 찾고 내려받을 수 있는 웹 서비스입니다.
 
 ## 기술 구성
 
 - Next.js 16 App Router, TypeScript, Tailwind CSS
-- `output: "export"` 정적 사이트 → GitHub Pages 배포
+- NCP Docker SSR (컨테이너 `semologo`, 포트 4520) → Nginx Proxy Manager → Cloudflare
 - Firebase Authentication / Firestore (요청·품질 피드백)
 - GA4 행동 이벤트
 - pnpm 11
@@ -30,7 +29,12 @@ pnpm build:webpack    # Turbopack 환경 이슈 시 Webpack 폴백 빌드
 
 ## 배포 구조
 
-`main` 브랜치 푸시 → GitHub Actions → CDN 사전검증 → 정적 빌드 → `gh-pages` 배포 순서입니다.
+`main` 브랜치 푸시 → NCP 웹훅 → Docker 빌드 → `semologo` 컨테이너 교체입니다.
+배포 후에는 반드시 `ssh vibers "bash /root/check-deploy.sh semologo https://semologo.com"`로 확인합니다.
+
+Vercel·세모로고 GitHub Pages는 운영 또는 장애 조치 경로로 사용하지 않습니다. 공개 CDN은
+Cloudflare Worker(`logo.vibers.co.kr`)를 거치며, 최종 목표는 SVG·PNG·카탈로그 JSON을 모두
+NCP Object Storage `vibers-bucket`에서 읽는 단일 원본 구조입니다.
 
 브랜드를 추가할 때는 반드시 다음 순서를 따릅니다.
 

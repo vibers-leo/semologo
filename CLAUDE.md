@@ -2,7 +2,7 @@
 
 ## 프로젝트 개요
 - **브랜드명**: 세모로고 (세상 모든 로고)
-- **URL**: semo.vibers.co.kr
+- **URL**: semologo.com
 - **GitHub**: vibers-leo/semologo
 - **레퍼런스**: 눈누(noonnu.cc) — 흰 배경, 카드 그리드, 광고 수익화
 
@@ -16,7 +16,7 @@
 - Next.js 16 (App Router) + TypeScript
 - Firebase (ai-recipe-lab 재사용) — Auth: Google OAuth
 - Tailwind CSS 4 + Pretendard 폰트
-- Vercel 배포 (로컬 빌드는 외장SSD 심링크로 Turbopack 불가 — Vercel에서만 빌드)
+- NCP Docker SSR 배포 + Cloudflare 프록시
 
 ## 빌드 노트
 - **패키지 매니저: pnpm** (2026-08-09 bun→pnpm 전환). `pnpm install` / `pnpm run build`
@@ -27,7 +27,7 @@
 - 배포: **NCP Docker** (위 '배포' 섹션 참고). GitHub Pages·Vercel 아님 — 2026-08-18 이전
 - 검증: `gh run list --repo vibers-leo/semologo` 두 워크플로 모두 success 확인 후 `curl -sI https://semologo.com`
 
-## 환경변수 (Vercel에 등록 필요)
+## 환경변수 (NCP 빌드·런타임 설정)
 - NEXT_PUBLIC_FIREBASE_API_KEY
 - NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN
 - NEXT_PUBLIC_FIREBASE_PROJECT_ID
@@ -87,19 +87,22 @@ src/
 - 상세 페이지는 **브랜드별 `brand.json`(약 1KB)** 을 받는다. `brands.json`
   전체는 4만 개 기준 18MB 라 렌더마다 다시 받게 되고 힙도 위험하다.
 
-### 남아 있는 것 (지우기 전 확인)
-Vercel(`semologo` 프로젝트)·Cloudflare Pages(`semologo.pages.dev`) 배포가
-**검증된 채로 남아 있다.** NCP 장애 시 즉시 돌아갈 수 있는 경로다.
-안정화가 확인되면 정리한다. `scripts/strip-prefetch.mjs` 는 CF Pages 전용이다
-(Next 16 이 브랜드당 프리페치 `.txt` 를 4개씩 만들어 파일 수가 5배가 된다).
+### 단일 서빙 원칙
+Vercel·Cloudflare Pages를 운영 또는 장애 조치 경로로 사용하지 않는다.
+`semologo.com`은 Cloudflare → Nginx Proxy Manager → NCP Docker(`semologo`)만 사용한다.
+배포 설정·환경변수도 NCP `/root/projects/semologo/.webhook.conf`와 `.env`에서만 관리한다.
+
+로고 CDN은 Cloudflare Worker를 유지하되, SVG·PNG·카탈로그 JSON의 최종 원본은
+NCP Object Storage `vibers-bucket`으로 통일한다. GitHub는 수집 코드와 원본 이력만 보관한다.
 
 ## 에셋 저장 구조 — PNG는 저장소에 없다 (MANDATORY) — 2026-08-18 이관
 
-**`logo.svg` 는 GitHub Pages, `*.png` 는 NCP 버킷이 서빙한다. URL 은 둘 다 같다.**
+**현재 `*.png`는 NCP 버킷, SVG·카탈로그 JSON은 GitHub raw 폴백 경로에 있다.**
+NCP 단일 원본 전환 중에는 Cloudflare Worker가 버킷 우선·GitHub raw 비상 폴백으로 동작한다.
 
 | 무엇 | 어디 | 크기 |
 |---|---|---|
-| `logo.svg` · `variants.json` · `brands*.json` | GitHub Pages (`brand-logos` 레포) | 82MB |
+| `logo.svg` · `variants.json` · `brands*.json` | NCP 버킷 이관 대상 (현재 GitHub raw 폴백) | 약 82MB |
 | `logo.png` · `logo-800` · `-transparent` · `-white` · `-icon` · `sources/*.png` | **NCP `vibers-bucket`** | 640MB |
 
 ### 왜 — Pages 1GB 하드 리밋에 부딪혔다
