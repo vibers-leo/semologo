@@ -15,9 +15,6 @@ import {
   analyzeLogoVisibility, getDarkPreviewStyle, getDarkPreviewUrl, getDarkPreviewLabel,
   type VisibilityResult,
 } from "@/lib/logo-visibility";
-import {
-  loadQuality, getMyVote, voteQuality, type QualityData,
-} from "@/lib/logo-quality";
 import { sendHit } from "@/lib/hit";
 import { trackEvent } from "@/lib/analytics";
 import { CDN, VERSION } from "@/lib/cdn";
@@ -216,8 +213,6 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
   const [shareFeed, setShareFeed] = useState<ShareEntry[]>([]);
   const [visibility, setVisibility] = useState<VisibilityResult | null>(null);
   const [hasWhiteLogo, setHasWhiteLogo] = useState(false);
-  const [quality, setQuality] = useState<QualityData>({ up: 0, down: 0, flagged: false });
-  const [myQualityVote, setMyQualityVote] = useState<"up" | "down" | null>(null);
   const [reportOpen, setReportOpen] = useState(false);
   const [reportMemo, setReportMemo] = useState("");
   const [reportUrl, setReportUrl] = useState("");
@@ -349,8 +344,6 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
     })();
     const voted = JSON.parse(typeof window !== "undefined" ? localStorage.getItem(`voted_${brand.id}`) || "[]" : "[]");
     setVotedFiles(voted);
-    loadQuality(brand.id).then(setQuality);
-    setMyQualityVote(getMyVote(brand.id));
   }, [brand.id]);
 
   useEffect(() => {
@@ -472,17 +465,6 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
         : "임베드 코드 복사됨!");
   }, [brand.id, shareValue, shareTab, appendFeed]);
 
-  const castQualityVote = useCallback(async (vote: "up" | "down") => {
-    if (!getClientAuth().currentUser) { toast("품질 평가를 남기려면 로그인해 주세요"); return; }
-    if (myQualityVote) { toast(myQualityVote === vote ? "이미 투표했어요" : "투표는 한 번만 할 수 있어요"); return; }
-    try {
-      const result = await voteQuality(brand.id, vote, brand.name_ko || brand.name_en);
-      setQuality(result);
-      setMyQualityVote(vote);
-      toast(vote === "up" ? "👍 좋아요!" : "🚩 교체 요청이 접수됐어요");
-    } catch { toast("투표 실패. 다시 시도해주세요"); }
-  }, [brand.id, myQualityVote]);
-
   const handleReport = useCallback(async (e: React.FormEvent) => {
     e.preventDefault();
     setReportStatus("sending");
@@ -541,21 +523,6 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
           <p style={{ fontSize:12, color:"#71717a", marginTop:3 }}>
             {[brand.category, brand.domain].filter(Boolean).join(" · ")}
           </p>
-          {/* 품질 투표 */}
-          <div style={{ display:"flex", alignItems:"center", gap:6, marginTop:7 }}>
-            <span style={{ fontSize: 11, color:"#a1a1aa" }}>이 로고 어때요?</span>
-            <button onClick={() => castQualityVote("up")} title="좋은 로고예요"
-              style={{ display:"inline-flex", alignItems:"center", gap:3, padding:"3px 9px", borderRadius:20, fontSize:11, fontWeight:600, cursor: myQualityVote ? "default" : "pointer", transition:"all .15s", background: myQualityVote === "up" ? "rgba(34,197,94,.12)" : "#f4f4f5", border:`1px solid ${myQualityVote === "up" ? "rgba(34,197,94,.4)" : "#e4e4e7"}`, color: myQualityVote === "up" ? "#16a34a" : "#71717a", opacity: myQualityVote && myQualityVote !== "up" ? .45 : 1 }}>
-              👍 {quality.up > 0 ? quality.up : ""}
-            </button>
-            <button onClick={() => castQualityVote("down")} title="교체가 필요해요"
-              style={{ display:"inline-flex", alignItems:"center", gap:3, padding:"3px 9px", borderRadius:20, fontSize:11, fontWeight:600, cursor: myQualityVote ? "default" : "pointer", transition:"all .15s", background: myQualityVote === "down" ? "rgba(239,68,68,.1)" : "#f4f4f5", border:`1px solid ${myQualityVote === "down" ? "rgba(239,68,68,.35)" : "#e4e4e7"}`, color: myQualityVote === "down" ? "#dc2626" : "#71717a", opacity: myQualityVote && myQualityVote !== "down" ? .45 : 1 }}>
-              🚩 교체 필요 {quality.down > 0 ? quality.down : ""}
-            </button>
-            {quality.flagged && (
-              <span style={{ fontSize: 11, fontWeight:700, color:"#dc2626", background:"rgba(239,68,68,.08)", border:"1px solid rgba(239,68,68,.2)", borderRadius:10, padding:"2px 6px" }}>검토 필요</span>
-            )}
-          </div>
         </div>
 
         <button onClick={copyPageLink} className="sharebtn"
