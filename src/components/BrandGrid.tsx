@@ -2,7 +2,7 @@
 
 import { useMemo, useState, useEffect, useRef, useDeferredValue } from "react";
 import dynamic from "next/dynamic";
-import { Brand, sortForGrid, type SortMode } from "@/lib/brands";
+import { BRAND_DATA_FALLBACK, Brand, sortForGrid, type SortMode } from "@/lib/brands";
 import { hasUsableBrandData, parseBrandList } from "@/lib/brand-data";
 import { CDN, VERSION } from "@/lib/cdn";
 import { sendHit } from "@/lib/hit";
@@ -79,10 +79,20 @@ export default function BrandGrid({ initialBrands = [] }: { initialBrands?: Bran
       if (brands.length === 0) setLoading(true);
       setLoadError(false);
       try {
-        const response = await fetch(`${CDN}/brands-slim.json?v=${VERSION}`, { cache: "force-cache" });
-        if (!response.ok) throw new Error(`HTTP ${response.status}`);
-        const list = parseBrandList(await response.json());
-        if (!hasUsableBrandData(list)) throw new Error("invalid brand data");
+        let list: Brand[] | null = null;
+        for (const source of [CDN, BRAND_DATA_FALLBACK]) {
+          try {
+            const response = await fetch(`${source}/brands-slim.json?v=${VERSION}`, { cache: "force-cache" });
+            if (!response.ok) continue;
+            const candidate = parseBrandList(await response.json());
+            if (!hasUsableBrandData(candidate)) continue;
+            list = candidate;
+            break;
+          } catch {
+            // 다음 읽기 전용 원본을 시도한다.
+          }
+        }
+        if (!list) throw new Error("catalog unavailable");
         if (!cancelled) { setBrands(list); setFullLoaded(true); }
       } catch {
         if (!cancelled) setLoadError(true);

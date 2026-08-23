@@ -42,7 +42,7 @@ export { CDN };
  * 읽기 전용 비상 경로다. 로고 이미지 URL에는 쓰지 않는다. 이미지 트래픽은 계속
  * CDN을 통과시켜 핫링크 보호·버킷 서빙 정책을 그대로 유지한다.
  */
-const BRAND_DATA_FALLBACK =
+export const BRAND_DATA_FALLBACK =
   "https://raw.githubusercontent.com/vibers-leo/brand-logos/main/_clients";
 
 async function fetchBrandData(file: string): Promise<unknown> {

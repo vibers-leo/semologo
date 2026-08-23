@@ -1,6 +1,5 @@
 import Header from "@/components/Header";
-import { CDN, sortForGrid, type Brand } from "@/lib/brands";
-import { VERSION } from "@/lib/cdn";
+import { fetchBrandsSlim, sortForGrid, type Brand } from "@/lib/brands";
 import BrandGrid from "@/components/BrandGrid";
 import VibersAdSlot from "@/components/VibersAdSlot";
 
@@ -12,15 +11,10 @@ const FIRST_PAGE = 60;
 
 async function firstPage(): Promise<Brand[]> {
   try {
-    // 캐시를 타면 안 된다. 빌드가 옛 스냅샷을 집어 **서버가 그린 첫 화면과
-    // 클라이언트가 받은 목록이 달라졌다** — 로드 직후 카드가 통째로 갈아끼워졌다
-    // (2026-08-17: 서버는 투자사, 클라이언트는 공공기관을 먼저 보여줬다).
-    const res = await fetch(`${CDN}/brands-slim.json?v=${VERSION}&b=${Date.now()}`,
-                            { cache: "no-store" });
-    if (!res.ok) return [];
-    const raw = await res.json();
-    const list: Brand[] = Array.isArray(raw) ? raw : raw?.brands ?? [];
-    return sortForGrid(list).slice(0, FIRST_PAGE);
+    // CDN 장애 시 GitHub 원본으로 폴백하는 공통 경로를 반드시 거친다.
+    // 첫 화면만 직접 CDN을 호출하면, 브라우저 전체 목록 폴백이 있어도 처음에
+    // 빈 그리드가 보이는 단일 장애점이 된다.
+    return sortForGrid(await fetchBrandsSlim()).slice(0, FIRST_PAGE);
   } catch {
     return [];      // 실패해도 클라이언트가 받아온다 — 화면이 비지 않는다
   }
