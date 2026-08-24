@@ -10,7 +10,7 @@
 import { getClientDb } from "./firebase";
 import {
   collection, doc, getDoc, getDocs, setDoc, updateDoc,
-  increment, orderBy, query, limit, type DocumentData,
+  increment, orderBy, query, limit, where, type DocumentData,
 } from "firebase/firestore";
 
 export const FLAG_THRESHOLD = 1;
@@ -112,6 +112,27 @@ export async function resolveQuality(brandId: string): Promise<void> {
     flagged: false,
     resolvedAt: new Date().toISOString(),
   });
+}
+
+
+/**
+ * 교체 필요로 신고된 브랜드 id 집합.
+ *
+ * 인기순 정렬에서 빼는 데 쓴다 — 품질이 나쁘다고 신고된 로고가 첫 화면
+ * 상위를 차지하면 서비스 인상이 나빠진다(uefa-europa-league 는 fame=101 로
+ * 실제 상위권이었다). 목록·검색에서는 계속 보인다: 사용자가 더 나은 버전을
+ * 제보할 통로를 막지 않기 위해서다.
+ *
+ * 실패하면 빈 집합을 준다 — 신고 조회가 안 된다고 정렬이 멈추면 안 된다.
+ */
+export async function loadFlaggedIds(): Promise<Set<string>> {
+  try {
+    const db = getClientDb();
+    const snap = await getDocs(query(collection(db, COLL), where("flagged", "==", true), limit(500)));
+    return new Set(snap.docs.map(d => d.id));
+  } catch {
+    return new Set();
+  }
 }
 
 /** 관리자용: 교체 필요 투표 많은 순으로 최대 100개 */

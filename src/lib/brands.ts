@@ -226,6 +226,8 @@ export function sortForGrid(
   mode: SortMode = "fame",
   /** 실제 히트 점수 {id: score}. 비어 있으면 fame 만 쓴다(콜드스타트). */
   hits: Record<string, number> = {},
+  /** '교체 필요'로 신고된 id. 인기순에서만 뒤로 보낸다(목록에선 계속 보인다). */
+  flagged: Set<string> = new Set(),
 ): Brand[] {
   const hasLogo = (b: Brand) => !!(b.logo_svg || b.has_svg || b.logo_png || b.has_png);
   // ⚠️ 보조 기준으로 **넘겨받은 배열의 위치를 쓰면 안 된다.** 이미 정렬된 목록을
@@ -242,6 +244,11 @@ export function sortForGrid(
       // 으로 채워진다. 랜덤으로 바꿔도 38,000개 중 대부분이 무명이라 해결이 안 된다.
       // fame 이 없으면 0 — 중간값으로 채우면 무명이 앞으로 올라온다.
       if (mode === "fame") {
+        // 품질이 나쁘다고 신고된 로고는 인기순 상위를 차지하면 안 된다.
+        // 지우거나 숨기지는 않는다 — 목록·검색에는 남겨 더 나은 버전을
+        // 제보받을 통로를 유지한다. 순위에서만 맨 뒤로 보낸다.
+        const fa = flagged.has(a.id) ? 1 : 0, fb = flagged.has(b.id) ? 1 : 0;
+        if (fa !== fb) return fa - fb;
         // 실제 히트가 있으면 그게 우선이다 — 사용자가 실제로 찾는 것이 정답이다.
         // 히트가 없는 브랜드끼리는 fame(위키백과 언어판 수)으로 가른다.
         const ha = hits[a.id] ?? 0, hb = hits[b.id] ?? 0;

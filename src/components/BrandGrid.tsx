@@ -6,6 +6,7 @@ import { BRAND_DATA_FALLBACK, Brand, sortForGrid, type SortMode } from "@/lib/br
 import { hasUsableBrandData, parseBrandList } from "@/lib/brand-data";
 import { CDN, VERSION } from "@/lib/cdn";
 import { sendHit } from "@/lib/hit";
+import { loadFlaggedIds } from "@/lib/logo-quality";
 import { trackEvent } from "@/lib/analytics";
 import BrandModal from "./BrandModal";
 import { useSearch } from "@/lib/search-context";
@@ -57,6 +58,15 @@ export default function BrandGrid({ initialBrands = [] }: { initialBrands?: Bran
   // 실제 히트 기반 인기 점수. 없으면 빈 객체 → fame(위키백과 언어판 수)로 정렬한다.
   // 초기에는 히트가 0 이라 baseline 이 필요하고, 쌓일수록 실제 사용이 앞선다.
   const [hits, setHits] = useState<Record<string, number>>({});
+  // '교체 필요'로 신고된 브랜드 — 인기순에서만 뒤로 보낸다(목록엔 남는다)
+  const [flagged, setFlagged] = useState<Set<string>>(new Set());
+  useEffect(() => {
+    let alive = true;
+    loadFlaggedIds()
+      .then(s => { if (alive) setFlagged(s); })
+      .catch(() => {});          // 실패해도 정렬은 계속된다
+    return () => { alive = false; };
+  }, []);
   const workerRef = useRef<Worker | null>(null);
   const workerQueryRef = useRef("");
   const loadFullRef = useRef<(() => void) | null>(null);
@@ -136,8 +146,8 @@ export default function BrandGrid({ initialBrands = [] }: { initialBrands?: Bran
   // 한글 IME 조합이 끊겼다("자음 입력 시 뚝뚝 끊김").
   // 서버(빌드 시 첫 화면)와 **같은 규칙**을 쓴다 — 어긋나면 하이드레이션 때 화면이 튄다
   const sorted = useMemo(
-    () => sortForGrid(brands, sortMode, hits),
-    [brands, sortMode, hits],
+    () => sortForGrid(brands, sortMode, hits, flagged),
+    [brands, sortMode, hits, flagged],
   );
 
   // 검색용 소문자 문자열을 미리 만들어 둔다 (매 입력마다 toLowerCase 2만 회 방지)
