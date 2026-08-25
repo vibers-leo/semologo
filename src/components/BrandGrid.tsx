@@ -607,21 +607,24 @@ function BrandCard({ brand, onClick, priority }: { brand: Brand; onClick: () => 
             }
           }} />
       </div>
-      <div className="card-info">
-        <div style={{ minWidth: 0 }}>
+      {/* 이름은 한 줄을 통째로 쓴다. 예전엔 이름과 SVG/PNG 배지가 같은 줄에
+            나란히 있어서 배지가 이름을 밀어냈고 긴 브랜드명이 대부분 잘렸다.
+            카테고리와 배지를 아래 줄에 함께 두면 둘 다 온전히 보인다. */}
+        <div className="card-info">
           <div className="card-name truncate">
             {brand.name_ko}
             {brand.name_en && brand.name_en !== brand.name_ko && (
               <span className="card-name-en"> / {brand.name_en}</span>
             )}
           </div>
-          <div className="card-category">{brand.category}</div>
+          <div className="card-meta">
+            <span className="card-category truncate">{brand.category}</span>
+            <span className="card-tags">
+              {hasSvg && <span className="card-tag tag-svg">SVG</span>}
+              {hasPng && <span className="card-tag tag-png">PNG</span>}
+            </span>
+          </div>
         </div>
-        <div className="card-tags">
-          {hasSvg && <span className="card-tag tag-svg">SVG</span>}
-          {hasPng && <span className="card-tag tag-png">PNG</span>}
-        </div>
-      </div>
     </div>
   );
 }
