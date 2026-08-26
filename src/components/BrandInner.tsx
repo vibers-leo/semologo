@@ -246,6 +246,11 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
   /** 밝은 로고면 어두운 타일, 아니면 원래 배경 */
   const tile = (base?: React.CSSProperties): React.CSSProperties =>
     isLightLogo ? DARK_TILE : (base ?? {});
+  /** 변형 하나가 흰색이면 브랜드가 밝든 아니든 어두운 타일이어야 한다.
+   *  흰 로고를 밝은 체커보드에 얹으면 빈 칸으로 보인다 — 팬이지에서 '화이트'
+   *  4종이 전부 안 보여 파일이 깨진 것처럼 읽혔다 (2026-08-26). */
+  const variantTile = (v: { key: string; color?: string }): React.CSSProperties =>
+    (v.color === "white" || /(^|[-_])white$/.test(v.key)) ? DARK_TILE : tile(CHECKER);
   const mainUrl = hasSvg ? svgUrl : pngUrl;
   // 정본 브랜드 페이지 주소. 예전엔 `${origin}/#${brand.id}` 라 홈으로 보내놓고
   // 해시로 모달을 여는 링크였다 — 사이트맵·canonical 과 다른 주소를 공유하던 셈이다.
@@ -767,7 +772,7 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
                             background:"#fafafa", border:"1px solid #e4e4e7", borderRadius:8,
                             padding:"7px 9px" }}>
                             <div style={{ position:"relative", width:56, height:38, flexShrink:0,
-                              borderRadius:5, overflow:"hidden", ...tile(CHECKER) }}>
+                              borderRadius:5, overflow:"hidden", ...variantTile(v) }}>
                               {/* eslint-disable-next-line @next/next/no-img-element */}
                               <img src={previewUrl} alt={v.label}
                                 style={{ position:"absolute", inset:4, width:"calc(100% - 8px)",
