@@ -3,9 +3,12 @@
  * 세모로고는 로고 자산을 CDN 으로 직접 제공하므로, 에이전트가 페이지를
  * 파싱하지 않고 JSON·파일 URL 을 바로 쓰도록 규격을 명시한다.
  */
+// ⚠️ 예전엔 여기 URL 이 하드코딩돼 있었다. cdn.ts 가 단일 소스인데
+//    이 파일만 따로 들고 있으면 CDN 주소를 옮길 때 조용히 어긋난다.
+import { CDN, VERSION } from "@/lib/cdn";
+
 export const dynamic = "force-static";
 
-const CDN = "https://logo.vibers.co.kr/_clients";
 
 /**
  * 브랜드 수를 빌드 시점에 실제 데이터에서 읽는다.
@@ -14,7 +17,9 @@ const CDN = "https://logo.vibers.co.kr/_clients";
  */
 async function brandCount(): Promise<string> {
   try {
-    const res = await fetch(`${CDN}/brands-slim.json`, { next: { revalidate: 3600 } });
+    // ?v= 없으면 CF 엣지 캐시(1시간) 때문에 묵은 수가 나온다 — layout.tsx 와 같은 이유.
+    // 실제로 llms.txt 가 41,176 개로 굳어 있었다(당시 실제 42,993).
+    const res = await fetch(`${CDN}/brands-slim.json?v=${VERSION}`, { next: { revalidate: 3600 } });
     if (!res.ok) return "4만여";
     const list = await res.json();
     const n = Array.isArray(list) ? list.filter((b) => !b?.variant_of).length : 0;

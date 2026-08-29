@@ -61,12 +61,77 @@ export async function generateMetadata(): Promise<Metadata> {
   };
 }
 
-export default function RootLayout({
+/**
+ * 구조화 데이터 (AEO/GEO).
+ *
+ * 왜 필요한가 —
+ * 브랜드 상세 페이지에는 Organization·ImageObject 가 있는데 **홈에는 아무것도
+ * 없었다**. AI 답변엔진(ChatGPT Search·Perplexity·Gemini)이 "세모로고가
+ * 무엇인가"를 판단할 근거가 사이트 루트에 없다는 뜻이다.
+ * WebSite(검색 동작 포함) + Organization + CollectionPage 를 넣는다.
+ */
+function siteJsonLd(count: string) {
+  return {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": `${SITE}/#website`,
+        url: SITE,
+        name: "세모로고",
+        alternateName: ["SemoLogo", "세상 모든 로고"],
+        description: `브랜드 로고 ${count}개를 SVG·PNG 로 무료 다운로드하는 서비스.`,
+        inLanguage: "ko",
+        publisher: { "@id": `${SITE}/#org` },
+        potentialAction: {
+          "@type": "SearchAction",
+          target: {
+            "@type": "EntryPoint",
+            urlTemplate: `${SITE}/?q={search_term_string}`,
+          },
+          "query-input": "required name=search_term_string",
+        },
+      },
+      {
+        "@type": "Organization",
+        "@id": `${SITE}/#org`,
+        name: "세모로고",
+        alternateName: "SemoLogo",
+        url: SITE,
+        logo: `${SITE}/icon-512.png`,
+        description:
+          "세상 모든 로고. 국내외 브랜드의 공식 로고를 벡터(SVG)와 래스터(PNG)로 제공한다.",
+      },
+      {
+        // 이 사이트의 본체가 '브랜드 로고 모음'임을 명시한다.
+        // AI 가 인용할 때 무엇을 가진 사이트인지 바로 알 수 있게 한다.
+        "@type": "CollectionPage",
+        "@id": `${SITE}/#collection`,
+        url: SITE,
+        name: "브랜드 로고 모음",
+        isPartOf: { "@id": `${SITE}/#website` },
+        about: {
+          "@type": "Thing",
+          name: "브랜드 로고",
+          description: "기업·기관·대학·병원의 CI/BI 로고 파일",
+        },
+        inLanguage: "ko",
+      },
+    ],
+  };
+}
+
+export default async function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
+  const count = await brandCount();
   return (
     <html lang="ko">
       <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(siteJsonLd(count)) }}
+        />
         {/* 광고 서버 선연결 — 슬롯 iframe 첫 요청의 TLS 핸드셰이크 선처리 */}
         <link rel="preconnect" href="https://ai.vibers.co.kr" />
         <Script
