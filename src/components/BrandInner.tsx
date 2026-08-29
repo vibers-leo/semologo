@@ -538,7 +538,7 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
       `}</style>
 
       {/* ── Header ── */}
-      <div style={{ display:"flex", alignItems:"center", gap:12, padding:"14px 20px", borderBottom:"1px solid #e4e4e7", flexShrink:0 }}>
+      <div style={{ display:"flex", alignItems:"center", gap:10, padding:"10px 20px", borderBottom:"1px solid #e4e4e7", flexShrink:0, flexWrap:"wrap" }}>
         <div style={{ flex:1, minWidth:0 }}>
           {/* 검색엔진이 페이지 주제를 잡는 가장 강한 신호다. 예전엔 h2 뿐이라
               h1 이 아예 없었다 — '삼성화재 로고'로 검색했을 때 잡힐 근거가
@@ -552,13 +552,38 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
               {` ${brand.name_ko} 로고 SVG PNG 다운로드`}
             </span>
           </h1>
-          <p style={{ fontSize:12, color:"#71717a", marginTop:3 }}>
-            {[brand.category, brand.domain].filter(Boolean).join(" · ")}
+          <p style={{ fontSize:12, color:"#71717a", marginTop:3, display:"flex", alignItems:"center", gap:6, flexWrap:"wrap" }}>
+            <span>{brand.category}</span>
+            {/* 도메인을 글자로만 두면 사용자가 주소를 눈으로 옮겨 적어야 한다.
+                website 가 있으면 그대로 쓴다 — 야화처럼 특정 경로를 가리키는
+                경우가 있어서 domain 으로 다시 만들면 안 된다. */}
+            {(brand.website || brand.domain) && (
+              <>
+                <span aria-hidden>·</span>
+                <a
+                  href={brand.website && /^https?:\/\//.test(brand.website)
+                    ? brand.website
+                    : `https://${String(brand.website || brand.domain).replace(/^https?:\/\//, "")}`}
+                  target="_blank"
+                  rel="noopener noreferrer nofollow"
+                  title={`${brand.name_ko} 공식 홈페이지로 이동`}
+                  style={{ display:"inline-flex", alignItems:"center", gap:4,
+                           padding:"2px 8px", borderRadius:999, border:"1px solid #e4e4e7",
+                           color:"#3f3f46", fontWeight:600, textDecoration:"none",
+                           background:"#fafafa" }}
+                >
+                  🔗 홈페이지
+                </a>
+              </>
+            )}
           </p>
           {/* 검색용 요약. 4만 페이지가 전부 같은 틀이면 '얇은 콘텐츠'로 분류돼
               색인에서 빠진다. 이 브랜드만 아는 사실(시장·업종·종목코드·형태·
               보유 형식)로 페이지마다 다른 문장을 만든다. */}
-          <p style={{ fontSize:12, lineHeight:1.6, color:"#71717a", marginTop:8 }}>
+          {/* 검색엔진용. 화면에는 안 보이지만 HTML 에는 남는다 —
+              헤더가 4줄이 되면 정작 로고가 밀린다. 크롤러는 읽는다. */}
+          <p style={{ position:"absolute", width:1, height:1, padding:0, margin:-1,
+                      overflow:"hidden", clip:"rect(0 0 0 0)", whiteSpace:"nowrap", border:0 }}>
             {[
               `${brand.name_ko}${brand.name_en && brand.name_en !== brand.name_ko ? `(${brand.name_en})` : ""}의 공식 로고입니다.`,
               brand.krx_market ? `${brand.krx_market} 상장${brand.krx_code ? ` (${brand.krx_code})` : ""}${brand.krx_sector ? ` · ${brand.krx_sector}` : ""}.` : null,
@@ -572,23 +597,23 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
             ].filter(Boolean).join(" ")}
           </p>
 
-          {/* 품질 투표 */}
-          <div style={{ display:"flex", alignItems:"center", gap:6, marginTop:7 }}>
-            <span style={{ fontSize: 11, color:"#a1a1aa" }}>이 로고 어때요?</span>
-            <button onClick={() => castQualityVote("up")} title="좋은 로고예요"
-              style={{ display:"inline-flex", alignItems:"center", gap:3, padding:"3px 9px", borderRadius:20, fontSize:11, fontWeight:600, cursor: myQualityVote ? "default" : "pointer", transition:"all .15s", background: myQualityVote === "up" ? "rgba(34,197,94,.12)" : "#f4f4f5", border:`1px solid ${myQualityVote === "up" ? "rgba(34,197,94,.4)" : "#e4e4e7"}`, color: myQualityVote === "up" ? "#16a34a" : "#71717a", opacity: myQualityVote && myQualityVote !== "up" ? .45 : 1 }}>
-              👍 {quality.up > 0 ? quality.up : ""}
-            </button>
-            <button onClick={() => castQualityVote("down")} title="교체가 필요해요"
-              style={{ display:"inline-flex", alignItems:"center", gap:3, padding:"3px 9px", borderRadius:20, fontSize:11, fontWeight:600, cursor: myQualityVote ? "default" : "pointer", transition:"all .15s", background: myQualityVote === "down" ? "rgba(239,68,68,.1)" : "#f4f4f5", border:`1px solid ${myQualityVote === "down" ? "rgba(239,68,68,.35)" : "#e4e4e7"}`, color: myQualityVote === "down" ? "#dc2626" : "#71717a", opacity: myQualityVote && myQualityVote !== "down" ? .45 : 1 }}>
-              🚩 교체 필요 {quality.down > 0 ? quality.down : ""}
-            </button>
-            {quality.flagged && (
-              <span style={{ fontSize: 11, fontWeight:700, color:"#dc2626", background:"rgba(239,68,68,.08)", border:"1px solid rgba(239,68,68,.2)", borderRadius:10, padding:"2px 6px" }}>검토 필요</span>
-            )}
-          </div>
         </div>
 
+          {/* 품질 투표 — 헤더 오른쪽으로. 왼쪽에 두면 브랜드명 아래 줄이
+              하나 더 생겨 헤더가 4줄이 된다. */}
+        <div style={{ display:"flex", alignItems:"center", gap:6, marginTop:7 }}>
+        <button onClick={() => castQualityVote("up")} title="좋은 로고예요"
+        style={{ display:"inline-flex", alignItems:"center", gap:3, padding:"3px 9px", borderRadius:20, fontSize:11, fontWeight:600, cursor: myQualityVote ? "default" : "pointer", transition:"all .15s", background: myQualityVote === "up" ? "rgba(34,197,94,.12)" : "#f4f4f5", border:`1px solid ${myQualityVote === "up" ? "rgba(34,197,94,.4)" : "#e4e4e7"}`, color: myQualityVote === "up" ? "#16a34a" : "#71717a", opacity: myQualityVote && myQualityVote !== "up" ? .45 : 1 }}>
+        👍 {quality.up > 0 ? quality.up : ""}
+        </button>
+        <button onClick={() => castQualityVote("down")} title="교체가 필요해요"
+        style={{ display:"inline-flex", alignItems:"center", gap:3, padding:"3px 9px", borderRadius:20, fontSize:11, fontWeight:600, cursor: myQualityVote ? "default" : "pointer", transition:"all .15s", background: myQualityVote === "down" ? "rgba(239,68,68,.1)" : "#f4f4f5", border:`1px solid ${myQualityVote === "down" ? "rgba(239,68,68,.35)" : "#e4e4e7"}`, color: myQualityVote === "down" ? "#dc2626" : "#71717a", opacity: myQualityVote && myQualityVote !== "down" ? .45 : 1 }}>
+        🚩 교체 필요 {quality.down > 0 ? quality.down : ""}
+        </button>
+        {quality.flagged && (
+        <span style={{ fontSize: 11, fontWeight:700, color:"#dc2626", background:"rgba(239,68,68,.08)", border:"1px solid rgba(239,68,68,.2)", borderRadius:10, padding:"2px 6px" }}>검토 필요</span>
+        )}
+        </div>
         <button onClick={copyPageLink} className="sharebtn"
           style={{ display:"flex", alignItems:"center", gap:5, padding:"5px 12px", background:"#f4f4f5", border:"1px solid #e4e4e7", color:"#52525b", borderRadius:8, fontSize:12, fontWeight:500, cursor:"pointer", transition:"all .15s", flexShrink:0 }}>
           <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
