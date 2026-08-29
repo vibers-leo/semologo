@@ -540,12 +540,38 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
       {/* ── Header ── */}
       <div style={{ display:"flex", alignItems:"center", gap:12, padding:"14px 20px", borderBottom:"1px solid #e4e4e7", flexShrink:0 }}>
         <div style={{ flex:1, minWidth:0 }}>
-          <h2 style={{ fontSize:17, fontWeight:700, color:"#111111", whiteSpace:"nowrap", overflow:"hidden", textOverflow:"ellipsis" }}>
+          {/* 검색엔진이 페이지 주제를 잡는 가장 강한 신호다. 예전엔 h2 뿐이라
+              h1 이 아예 없었다 — '삼성화재 로고'로 검색했을 때 잡힐 근거가
+              title·description 에만 있었다.
+              보이는 글자는 그대로 두고(브랜드명), 검색어 형태('OO 로고')는
+              화면에 안 보이는 텍스트로 덧붙인다. */}
+          <h1 style={{ fontSize:17, fontWeight:700, color:"#111111", whiteSpace:"nowrap", overflow:"hidden", textOverflow:"ellipsis", margin:0 }}>
             {brand.name_ko}{brand.name_en && brand.name_en !== brand.name_ko ? ` / ${brand.name_en}` : ""}
-          </h2>
+            <span style={{ position:"absolute", width:1, height:1, padding:0, margin:-1,
+                           overflow:"hidden", clip:"rect(0 0 0 0)", whiteSpace:"nowrap", border:0 }}>
+              {` ${brand.name_ko} 로고 SVG PNG 다운로드`}
+            </span>
+          </h1>
           <p style={{ fontSize:12, color:"#71717a", marginTop:3 }}>
             {[brand.category, brand.domain].filter(Boolean).join(" · ")}
           </p>
+          {/* 검색용 요약. 4만 페이지가 전부 같은 틀이면 '얇은 콘텐츠'로 분류돼
+              색인에서 빠진다. 이 브랜드만 아는 사실(시장·업종·종목코드·형태·
+              보유 형식)로 페이지마다 다른 문장을 만든다. */}
+          <p style={{ fontSize:12, lineHeight:1.6, color:"#71717a", marginTop:8 }}>
+            {[
+              `${brand.name_ko}${brand.name_en && brand.name_en !== brand.name_ko ? `(${brand.name_en})` : ""}의 공식 로고입니다.`,
+              brand.krx_market ? `${brand.krx_market} 상장${brand.krx_code ? ` (${brand.krx_code})` : ""}${brand.krx_sector ? ` · ${brand.krx_sector}` : ""}.` : null,
+              brand.kr_kind ? `${brand.kr_kind}입니다.` : null,
+              brand.category ? `${brand.category} 분야.` : null,
+              brand.has_svg
+                ? "SVG 벡터 원본을 제공해 어떤 크기로 확대해도 깨지지 않습니다."
+                : "PNG 고해상도 파일을 제공합니다.",
+              "파비콘·투명 배경·화이트 버전도 함께 내려받을 수 있습니다.",
+              brand.website || brand.domain ? `공식 사이트: ${brand.domain || brand.website}` : null,
+            ].filter(Boolean).join(" ")}
+          </p>
+
           {/* 품질 투표 */}
           <div style={{ display:"flex", alignItems:"center", gap:6, marginTop:7 }}>
             <span style={{ fontSize: 11, color:"#a1a1aa" }}>이 로고 어때요?</span>

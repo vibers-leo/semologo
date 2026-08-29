@@ -30,6 +30,13 @@ export interface Brand {
   sources?: { provider: string; file: string; label: string }[];
   original_ai_url?: string;
   domain?: string;
+  website?: string;
+  /** 국내 수집분이 갖는 출처·소속 정보. 페이지마다 다른 문장을 만드는 재료다 —
+   *  4만 페이지가 전부 같은 틀이면 검색엔진이 '얇은 콘텐츠'로 본다. */
+  krx_market?: string;
+  krx_sector?: string;
+  krx_code?: string;
+  kr_kind?: string;
 }
 
 import { CDN, VERSION, looksLikeHtml } from "./cdn";

@@ -24,7 +24,7 @@ export default function LoginPage() {
     <div className="min-h-screen flex flex-col items-center justify-center px-4">
       <div className="w-full max-w-sm">
         <div className="text-center mb-8">
-          <Image src="/semologo.png" alt="세모로고" width={140} height={40} className="h-10 w-auto object-contain mx-auto mb-4" />
+          <Image src="/semologo.png" alt="세모로고" width={280} height={80} priority className="h-16 sm:h-20 w-auto object-contain mx-auto mb-5" />
           <p className="text-sm" style={{ color: "var(--text-secondary)" }}>
             로그인하면 즐겨찾기·로고 제보 기능을 사용할 수 있어요
           </p>
