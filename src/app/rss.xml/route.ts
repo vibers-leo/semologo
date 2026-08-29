@@ -77,7 +77,13 @@ ${items
   return new Response(body, {
     headers: {
       "Content-Type": "application/rss+xml; charset=utf-8",
-      "Cache-Control": "public, max-age=3600, s-maxage=3600",
+      // ⚠️ 짧게 잡는다. 배포 직전에 이 URL 을 찔러보면 그때의 404 가 CF 에
+      //    박히는데, 우리 토큰에는 퍼지 권한이 없어 빼낼 방법이 없다.
+      //    2026-08-29 에 실제로 20분 넘게 404 가 고정됐고 네이버 수집도 실패했다.
+      //    피드는 하루 몇 번 바뀌므로 5분이면 충분하다.
+      "Cache-Control": "public, max-age=300, s-maxage=300",
+      // 캐시된 실패 응답을 CF 가 오래 붙들지 않게 한다
+      "CDN-Cache-Control": "max-age=300",
     },
   });
 }
