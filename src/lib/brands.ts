@@ -37,6 +37,9 @@ export interface Brand {
   krx_sector?: string;
   krx_code?: string;
   kr_kind?: string;
+  /** 자산 출처. 공식 배포 원본이면 화면에 신뢰 배지를 띄운다.
+   *  헤더에서 긁은 것과 배포처가 명시한 CI 원본은 신뢰도가 다르다. */
+  asset_origin?: string;
 }
 
 import { CDN, VERSION, looksLikeHtml } from "./cdn";

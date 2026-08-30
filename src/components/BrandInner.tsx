@@ -567,7 +567,20 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
               {` ${brand.name_ko} 로고 SVG PNG 다운로드`}
             </span>
           </h1>
-          <p style={{ fontSize:12, color:"#71717a", marginTop:2 }}>{brand.category}</p>
+          <p style={{ fontSize:12, color:"#71717a", marginTop:2, display:"flex", alignItems:"center", gap:6 }}>
+            <span>{brand.category}</span>
+            {/* 공식 배포 원본은 신뢰도가 다르다. 사이트 헤더에서 긁은 것과
+                배포처가 CI 페이지에 올려둔 원본은 같은 로고라도 근거가 다르다. */}
+            {brand.asset_origin && (
+              <span title={brand.asset_origin}
+                style={{ display:"inline-flex", alignItems:"center", gap:3,
+                         padding:"1px 7px", borderRadius:999, fontSize:11, fontWeight:600,
+                         color:"#15803d", background:"rgba(34,197,94,.1)",
+                         border:"1px solid rgba(34,197,94,.25)" }}>
+                ✓ 공식 배포 원본
+              </span>
+            )}
+          </p>
           {/* 검색용 요약. 4만 페이지가 전부 같은 틀이면 '얇은 콘텐츠'로 분류돼
               색인에서 빠진다. 이 브랜드만 아는 사실(시장·업종·종목코드·형태·
               보유 형식)로 페이지마다 다른 문장을 만든다. */}
