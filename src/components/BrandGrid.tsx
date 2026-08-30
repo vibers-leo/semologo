@@ -564,6 +564,9 @@ function BrandCard({ brand, onClick, priority }: { brand: Brand; onClick: () => 
             // 재시도로 살아났으면 자리표시자를 걷어낸다
             const img = e.currentTarget as HTMLImageElement;
             img.style.display = "";
+              // 실제로 그려진 것만 보이게 한다 — 로딩 전엔 브라우저가
+              // '깨진 아이콘 + alt 텍스트'를 그려 화면이 지저분해진다
+              img.dataset.loaded = "1";
             img.parentElement?.querySelector(".card-fallback")?.remove();
           }}
           onError={e => {

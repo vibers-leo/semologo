@@ -53,6 +53,19 @@ body {
   overflow: hidden;
 }
 
+/* ⚠️ 로딩 전·실패 시 브라우저가 '깨진 이미지 아이콘 + alt 텍스트'를 그린다.
+   4만 개 카드가 한꺼번에 lazy 로드되는 그리드에서는 그게 화면을 뒤덮는다
+   (실측: 스크롤 시 카드 대부분이 깨진 아이콘으로 보였다).
+   기본은 투명하게 두고, 실제로 로드된 것만 보이게 한다.
+   순서를 지키느라 기다리는 것보다 나온 것부터 올라오는 편이 체감이 낫다. */
+.card-preview img {
+  opacity: 0;
+  transition: opacity .18s ease;
+}
+.card-preview img[data-loaded="1"] {
+  opacity: 1;
+}
+
 .card-preview img {
   position: absolute;
   top: 20px;
