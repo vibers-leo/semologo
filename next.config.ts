@@ -19,6 +19,25 @@ const nextConfig: NextConfig = {
     // 로고는 전부 외부 CDN(logo.vibers.co.kr) 이라 최적화를 태우지 않는다.
     unoptimized: true,
   },
+  async headers() {
+    return [
+      {
+        // ⚠️ ISR 페이지에 Next.js 가 붙이는 기본값이
+        //    `stale-while-revalidate=31536000`(1년) 이다.
+        //    그래서 페이지를 고쳐 배포해도 **이미 방문한 사람은 1년간 옛 화면**을
+        //    본다. 2026-08-30 에 홈페이지 버튼을 넣었는데 브라우저에 안 보였고,
+        //    원인이 이것이었다(curl 로는 새 버전이 정상적으로 나왔다).
+        //    카탈로그는 하루에도 여러 번 바뀌므로 1일이면 충분하다.
+        source: "/brand/:id*",
+        headers: [
+          {
+            key: "Cache-Control",
+            value: "public, max-age=300, s-maxage=3600, stale-while-revalidate=86400",
+          },
+        ],
+      },
+    ];
+  },
 };
 
 export default nextConfig;
