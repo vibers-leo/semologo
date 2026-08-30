@@ -552,31 +552,7 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
               {` ${brand.name_ko} 로고 SVG PNG 다운로드`}
             </span>
           </h1>
-          <p style={{ fontSize:12, color:"#71717a", marginTop:3, display:"flex", alignItems:"center", gap:6, flexWrap:"wrap" }}>
-            <span>{brand.category}</span>
-            {/* 도메인을 글자로만 두면 사용자가 주소를 눈으로 옮겨 적어야 한다.
-                website 가 있으면 그대로 쓴다 — 야화처럼 특정 경로를 가리키는
-                경우가 있어서 domain 으로 다시 만들면 안 된다. */}
-            {(brand.website || brand.domain) && (
-              <>
-                <span aria-hidden>·</span>
-                <a
-                  href={brand.website && /^https?:\/\//.test(brand.website)
-                    ? brand.website
-                    : `https://${String(brand.website || brand.domain).replace(/^https?:\/\//, "")}`}
-                  target="_blank"
-                  rel="noopener noreferrer nofollow"
-                  title={`${brand.name_ko} 공식 홈페이지로 이동`}
-                  style={{ display:"inline-flex", alignItems:"center", gap:4,
-                           padding:"2px 8px", borderRadius:999, border:"1px solid #e4e4e7",
-                           color:"#3f3f46", fontWeight:600, textDecoration:"none",
-                           background:"#fafafa" }}
-                >
-                  🔗 홈페이지
-                </a>
-              </>
-            )}
-          </p>
+          <p style={{ fontSize:12, color:"#71717a", marginTop:2 }}>{brand.category}</p>
           {/* 검색용 요약. 4만 페이지가 전부 같은 틀이면 '얇은 콘텐츠'로 분류돼
               색인에서 빠진다. 이 브랜드만 아는 사실(시장·업종·종목코드·형태·
               보유 형식)로 페이지마다 다른 문장을 만든다. */}
@@ -599,6 +575,26 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
 
         </div>
 
+          {/* 홈페이지 → 투표 → 퍼가기 → 닫기 순. 도메인을 글자로만 두면
+              사용자가 주소를 눈으로 옮겨 적어야 한다.
+              ⚠️ website 가 있으면 그대로 쓴다 — 야화처럼 특정 경로를
+                 가리키는 경우가 있어(yahwabar.com/r/d) 도메인으로 다시
+                 만들면 안 된다. */}
+          {(brand.website || brand.domain) && (
+            <a
+              href={brand.website && /^https?:\/\//.test(brand.website)
+                ? brand.website
+                : `https://${String(brand.website || brand.domain).replace(/^https?:\/\//, "")}`}
+              target="_blank" rel="noopener noreferrer nofollow"
+              title={`${brand.name_ko} 공식 홈페이지로 이동`}
+              style={{ display:"inline-flex", alignItems:"center", gap:5, padding:"5px 12px",
+                       background:"#f4f4f5", border:"1px solid #e4e4e7", color:"#52525b",
+                       borderRadius:8, fontSize:12, fontWeight:500, textDecoration:"none",
+                       flexShrink:0 }}
+            >
+              🔗 홈페이지
+            </a>
+          )}
           {/* 품질 투표 — 헤더 오른쪽으로. 왼쪽에 두면 브랜드명 아래 줄이
               하나 더 생겨 헤더가 4줄이 된다. */}
         <div style={{ display:"flex", alignItems:"center", gap:6, marginTop:7 }}>
