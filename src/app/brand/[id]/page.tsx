@@ -19,7 +19,7 @@ const PRERENDER = 1500;
 export async function generateStaticParams() {
   const brands = await fetchBrandsSlim();
   return brands
-    .filter((b) => !b.variant_of)
+    .filter((b) => !b.variant_of && !b.hidden)
     .sort((a, b) => (b.added_at ?? "").localeCompare(a.added_at ?? ""))
     .slice(0, PRERENDER)
     .map((b) => ({ id: b.id }));
@@ -36,10 +36,15 @@ export async function generateMetadata(
     ? `${CDN}/${brand.id}/logo.svg`
     : `${CDN}/${brand.id}/logo-800.png`;
 
+  // hidden 은 로고답지 않은 이미지다. 페이지는 살려 두되(이미 색인된 URL 을
+  // 404 로 만들면 SEO 만 잃는다) 새로 색인되지는 않게 한다.
+  const noindex = brand.hidden === true;
+
   const title = `${brand.name_ko} 로고 SVG·PNG 무료 다운로드 | 세모로고`;
   const description = `${brand.name_ko}(${brand.name_en}) 공식 로고를 SVG 벡터·PNG 고해상도로 무료 다운로드하세요. ${brand.category} 브랜드.`;
 
   return {
+    ...(noindex ? { robots: { index: false, follow: true } } : {}),
     title,
     description,
     openGraph: {

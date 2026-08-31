@@ -25,8 +25,10 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
   // 부모로 흡수된 중복 항목(variant_of)은 사이트맵에서 뺀다 — canonical 이
   // 부모를 가리키므로 색인 대상으로 올릴 이유가 없다.
+  // hidden(로고답지 않은 이미지)도 뺀다. 색인돼 봐야 방문자가 실망하고
+  // 사이트 전체의 품질 평가만 떨어진다.
   const brandUrls = Array.isArray(brands)
-    ? brands.filter((b) => !b.variant_of).map((b) => ({
+    ? brands.filter((b) => !b.variant_of && !b.hidden).map((b) => ({
         url: `${base}/brand/${b.id}`,
         lastModified: b.added_at ? new Date(b.added_at) : new Date(),
         changeFrequency: "monthly" as const,

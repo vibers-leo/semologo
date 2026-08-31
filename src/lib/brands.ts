@@ -11,6 +11,11 @@ export interface Brand {
   logo_png?: string | boolean | null;
   has_svg?: boolean;
   has_png?: boolean;
+  /** 로고답지 않은 이미지(사진·문장·빈 이미지)로 판정돼 목록·사이트맵에서 뺀 것.
+   *  상세 페이지는 살려 둔다 — 이미 색인된 URL 을 404 로 만들면 SEO 만 잃는다. */
+  hidden?: boolean;
+  /** hidden 사유. 사람이 다시 볼 때 근거가 된다. */
+  hidden_reason?: string;
   /** 흰색 로고 — 밝은 배경에서 안 보이므로 어두운 배경에 그린다 */
   light?: boolean;
   /** 인지도 — 위키백과 언어판 수(Wikidata sitelinks). 그리드 기본 정렬 기준.
@@ -247,7 +252,7 @@ export function sortForGrid(
   const fallback = new Map(brands.map((b, i) => [b.id, i]));
   const seqOf = (b: Brand) => b.seq ?? fallback.get(b.id) ?? 0;
   return brands
-    .filter((b) => !b.variant_of && hasLogo(b))
+    .filter((b) => !b.variant_of && !b.hidden && hasLogo(b))
     .sort((a, b) => {
       // 인기순 — fame 은 위키백과 언어판 수(Wikidata sitelinks). 인지도 대리 지표다.
       // 기본값을 최신순으로 두면 첫 화면이 위키미디어 대량수집분(무명 기관·단체)
