@@ -20,7 +20,11 @@ async function brandCount(): Promise<string> {
     const res = await fetch(`${CDN}/brands-slim.json?v=${VERSION}`, { next: { revalidate: 3600 } });
     if (!res.ok) return "6,800여";
     const list = await res.json();
-    const n = Array.isArray(list) ? list.filter((b) => !b?.variant_of).length : 0;
+    // ⚠️ 목록에서 빼는 조건과 **똑같이** 걸러야 한다. hidden 을 빠뜨려
+    //    메타 설명문만 150개 많은 수를 말하고 있었다(2026-09-01).
+    const n = Array.isArray(list)
+      ? list.filter((b) => !b?.variant_of && !b?.hidden).length
+      : 0;
     return n > 0 ? n.toLocaleString("ko-KR") : "6,800여";
   } catch {
     return "6,800여";
