@@ -36,6 +36,23 @@ const nextConfig: NextConfig = {
           },
         ],
       },
+      {
+        // ⚠️ 2026-09-01: 위 규칙을 /brand 에만 걸고 **홈을 빠뜨려** 사이트가 깨졌다.
+        //    홈 HTML 이 1년치 stale 로 CF 에 남았는데, 그 HTML 이 가리키는
+        //    JS 청크는 새 배포에서 사라져 ChunkLoadError 가 났다.
+        //    화면에는 서버 렌더한 60개만 뜨고 "목록을 준비하고 있어요" 에서 멈춘다.
+        //
+        //    **HTML 의 stale 은 배포 주기보다 길면 안 된다.** 청크 파일명이
+        //    배포마다 바뀌기 때문이다. 정적 자산(_next/static)은 파일명에
+        //    해시가 있어 그대로 immutable 이어도 안전하다 — 여기 대상이 아니다.
+        source: "/((?!_next/static|_next/image).*)",
+        headers: [
+          {
+            key: "Cache-Control",
+            value: "public, max-age=60, s-maxage=600, stale-while-revalidate=600",
+          },
+        ],
+      },
     ];
   },
 };

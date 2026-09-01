@@ -4,6 +4,7 @@ import { SearchProvider } from "@/lib/search-context";
 import { CDN, VERSION } from "@/lib/cdn";
 import Footer from "@/components/Footer";
 import "./globals.css";
+import ChunkRecovery from "@/components/ChunkRecovery";
 
 const GA_ID = "G-NWML2V1S7V";
 const SITE = process.env.NEXT_PUBLIC_APP_URL || "https://semologo.com";
@@ -142,7 +143,8 @@ export default async function RootLayout({
           {`window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','${GA_ID}');`}
         </Script>
       </head>
-      <body className="min-h-screen flex flex-col"><SearchProvider><div className="flex-1">{children}</div><Footer /></SearchProvider></body>
+      <body className="min-h-screen flex flex-col">
+        <ChunkRecovery /><SearchProvider><div className="flex-1">{children}</div><Footer /></SearchProvider></body>
     </html>
   );
 }
