@@ -580,6 +580,19 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
                 ✓ 공식 배포 원본
               </span>
             )}
+            {/* 매뉴얼 원본은 로고 파일만큼 값어치가 있다 — 컬러 팔레트·
+                최소규격·응용례가 들어 있다. 배포처가 준 경우에만 뜬다. */}
+            {brand.brand_manual && (
+              <a href={`${CDN}/${brand.id}/${brand.brand_manual}?v=${VERSION}`}
+                 download
+                 title="브랜드 매뉴얼 원본 내려받기"
+                 style={{ display:"inline-flex", alignItems:"center", gap:3,
+                          padding:"1px 7px", borderRadius:999, fontSize:11, fontWeight:600,
+                          color:"#4338ca", background:"rgba(99,102,241,.1)",
+                          border:"1px solid rgba(99,102,241,.25)", textDecoration:"none" }}>
+                📘 브랜드 매뉴얼
+              </a>
+            )}
           </p>
           {/* 검색용 요약. 4만 페이지가 전부 같은 틀이면 '얇은 콘텐츠'로 분류돼
               색인에서 빠진다. 이 브랜드만 아는 사실(시장·업종·종목코드·형태·
