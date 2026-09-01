@@ -14,7 +14,12 @@ export const revalidate = 86400;
 // 전부 굽지 않는 이유 — 4.1만 장이면 빌드가 25~30분으로 늘고 이미지도
 // 3.4GB 가 된다. 최근 추가분만 미리 구워 새 브랜드가 첫 방문자에게도
 // 즉시 뜨게 하고, 나머지는 요청 시 만든다.
-const PRERENDER = 1500;
+// ⚠️ 2026-09-01: 1500 에서 빌드가 죽었다. brands-slim 이 12.4MB 로 커져
+//    Next 데이터 캐시(2MB)를 넘고, 워커 3개가 각자 파싱하면서 힙이 터진다.
+//    (서버 여유 6.8GB · 워커당 4GB 상한)
+//    캐시 헤더를 짧게 잡은 뒤로는 온디맨드 렌더도 금방 최신이 되므로
+//    미리 굽는 수를 줄이는 편이 안전하다. 브랜드가 더 늘면 또 낮춘다.
+const PRERENDER = 700;
 
 export async function generateStaticParams() {
   const brands = await fetchBrandsSlim();

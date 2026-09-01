@@ -12,7 +12,7 @@ FROM base AS builder
 COPY --from=deps /app/node_modules ./node_modules
 COPY . .
 # Next.js 빌드 메모리 (조직 표준)
-ENV NODE_OPTIONS="--max-old-space-size=4096"
+ENV NODE_OPTIONS="--max-old-space-size=6144"
 ENV NEXT_TELEMETRY_DISABLED=1
 ARG NEXT_PUBLIC_CDN_URL
 ARG NEXT_PUBLIC_APP_URL
