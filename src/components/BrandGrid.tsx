@@ -51,6 +51,9 @@ export default function BrandGrid({ initialBrands = [] }: { initialBrands?: Bran
   // 국내/해외 필터. Wikidata P17(국가) 근거인 origin 필드를 본다.
   // null = 전체. 한글명 유무로 대체하면 안 된다 — '스타벅스'는 한글명이 있어도 미국이다.
   const [origin, setOrigin] = useState<"KR" | "GLOBAL" | null>(null);
+  // 파일형식 필터. PNG 만 있는 브랜드가 10,800건이라 벡터가 필요한 사람에게는
+  // 목록 절반이 헛걸음이다. 숨기지 않고 **거를 수 있게** 한다.
+  const [fmt, setFmt] = useState<"svg" | null>(null);
   // 그리드 정렬. 기본은 인기순 — 최신순이면 첫 화면이 위키미디어 대량수집분
   // (무명 기관·단체)으로 채워진다. 서버(page.tsx)와 같은 기본값이어야
   // 하이드레이션 때 화면이 안 튄다.
@@ -230,8 +233,11 @@ export default function BrandGrid({ initialBrands = [] }: { initialBrands?: Bran
     if (origin) {
       list = list.filter(b => b.origin === origin);
     }
+    if (fmt === "svg") {
+      list = list.filter(b => b.logo_svg || b.has_svg);
+    }
     return list;
-  }, [sorted, haystack, deferredQuery, searchIds, selectedCats, origin]);
+  }, [sorted, haystack, deferredQuery, searchIds, selectedCats, origin, fmt]);
 
   useEffect(() => {
     const q = deferredQuery.trim();
@@ -247,6 +253,10 @@ export default function BrandGrid({ initialBrands = [] }: { initialBrands?: Bran
   }, [deferredQuery, fullLoaded]);
 
   // 버튼에 실제 개수를 보여줘야 신뢰가 간다 (0개인데 버튼만 있으면 고장으로 보인다)
+  const svgCount = useMemo(
+    () => brands.reduce((n, b) => n + (b.logo_svg || b.has_svg ? 1 : 0), 0),
+    [brands]);
+
   const originStats = useMemo(() => {
     let kr = 0, gl = 0;
     for (const b of brands) {
@@ -354,6 +364,34 @@ export default function BrandGrid({ initialBrands = [] }: { initialBrands?: Bran
               const on = origin === val;
               return (
                 <button key={label} onClick={() => setOrigin(val)}
+                  className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-sm font-medium transition-all"
+                  style={on
+                    ? { background: "#111", color: "#fff", border: "1.5px solid #111", transform: "scale(1.02)" }
+                    : { background: "var(--surface)", color: "var(--text-secondary)", border: "1.5px solid var(--border)" }
+                  }>
+                  {label}
+                  <span className="text-xs opacity-60">{count.toLocaleString()}</span>
+                </button>
+              );
+            })}
+          </div>
+        </div>
+      )}
+
+      {/* ── 파일형식 필터 ── */}
+      {svgCount > 0 && (
+        <div className="pt-5 pb-1">
+          <div className="text-xs font-semibold text-gray-500 tracking-wider uppercase mb-3">
+            파일형식
+          </div>
+          <div className="flex flex-wrap gap-2">
+            {([
+              [null, "전체", brands.length],
+              ["svg", "SVG 있음", svgCount],
+            ] as const).map(([val, label, count]) => {
+              const on = fmt === val;
+              return (
+                <button key={label} onClick={() => setFmt(val)}
                   className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-sm font-medium transition-all"
                   style={on
                     ? { background: "#111", color: "#fff", border: "1.5px solid #111", transform: "scale(1.02)" }
