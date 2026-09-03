@@ -11,6 +11,7 @@ const SITE_URL = process.env.NEXT_PUBLIC_APP_URL || "https://semologo.com";
 import {
   doc, getDoc, setDoc, updateDoc, increment,
 } from "firebase/firestore";
+import { onAuthStateChanged } from "firebase/auth";
 import {
   analyzeLogoVisibility, getDarkPreviewStyle, getDarkPreviewUrl, getDarkPreviewLabel,
   type VisibilityResult,
@@ -256,7 +257,34 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
    * 프리뷰·썸네일이 전부 비어 보였다 (Rolldown·Vite 등). 같은 규칙을 적용한다.
    * slim 은 `light`, brands.json 은 `light_logo` 로 실어 보낸다.
    */
-  const isLightLogo = !!(brand.light || brand.light_logo);
+  /**
+   * 수동 지정이 자동 판정보다 우선한다. 자동(흰 잉크 60%↑)은 '색 심볼 + 흰 글자'까지
+   * 잡지만, 45~60% 구간은 흰 글자형과 흰 채움 아이콘형이 반반이라 기계가 못 가른다.
+   * 관리자가 모달의 다크 프리뷰를 클릭하면 logo_votes/{id}.bg 에 남고,
+   * brand-logos/scripts/pull-bg-overrides.py 가 그걸 내려받아 목록 전체에 반영한다.
+   */
+  const [bgOverride, setBgOverride] = useState<"dark" | "light" | null>(null);
+  const ADMIN_EMAIL = "juuuno1116@gmail.com";
+  // 렌더 중에 getClientAuth() 를 부르면 SSR 에서 깨진다 — 효과 안에서만 읽는다.
+  const [isAdmin, setIsAdmin] = useState(false);
+  useEffect(() => {
+    try {
+      const auth = getClientAuth();
+      setIsAdmin(auth.currentUser?.email === ADMIN_EMAIL);
+      return onAuthStateChanged(auth, u => setIsAdmin(u?.email === ADMIN_EMAIL));
+    } catch { /* 서버 렌더·비로그인 */ }
+  }, []);
+  const isLightLogo = bgOverride ? bgOverride === "dark" : !!(brand.light || brand.light_logo);
+  const toggleBg = async (e: React.MouseEvent) => {
+    e.stopPropagation();
+    if (!isAdmin) return;
+    const next: "dark" | "light" = isLightLogo ? "light" : "dark";
+    try {
+      await setDoc(doc(getClientDb(), "logo_votes", brand.id), { bg: next, bg_by: ADMIN_EMAIL }, { merge: true });
+      setBgOverride(next);
+      toast(next === "dark" ? "검정 배경으로 메인 노출 · 다음 배포에 반영" : "흰 배경으로 되돌림");
+    } catch { toast("저장 실패 — 다시 시도해 주세요"); }
+  };
   const DARK_TILE: React.CSSProperties = { background: "#18181b", backgroundImage: "none" };
   /** 밝은 로고면 어두운 타일, 아니면 원래 배경 */
   const tile = (base?: React.CSSProperties): React.CSSProperties =>
@@ -363,6 +391,8 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
           }
           setVotes(decoded);
           if (data.swap_pending) setSwapTarget(data.swap_target || null);
+          // 관리자가 찍은 배경 지정. bg_by 가 관리자가 아니면 무시 — 규칙이 write:true 라 누구나 쓸 수 있다.
+          if ((data.bg === "dark" || data.bg === "light") && data.bg_by === "juuuno1116@gmail.com") setBgOverride(data.bg);
         }
         if (sSnap.exists()) setShareFeed(sSnap.data().recent || []);
       } catch {}
@@ -718,9 +748,16 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
             )}
           </div>
 
-          {/* 다크 프리뷰 */}
-          <div style={{ borderRadius:8, overflow:"hidden" }}>
+          {/* 다크 프리뷰 — 관리자는 클릭해서 "검정 배경으로 메인 노출"을 지정한다 */}
+          <div style={{ borderRadius:8, overflow:"hidden", cursor: isAdmin ? "pointer" : undefined, outline: bgOverride ? "2px solid #22c55e" : undefined }}
+               onClick={isAdmin ? toggleBg : undefined}
+               title={isAdmin ? (isLightLogo ? "클릭: 흰 배경으로 되돌리기" : "클릭: 검정 배경으로 메인 노출") : undefined}>
             <div style={{ ...(invertedUrl ? { background:"#111114" } : getDarkPreviewStyle(visibility)), position:"relative", height:72 }}>
+              {bgOverride && (
+                <span style={{ position:"absolute", top:4, right:6, fontSize:10, fontWeight:700, padding:"1px 6px", borderRadius:8, background: bgOverride === "dark" ? "#22c55e" : "#e4e4e7", color: bgOverride === "dark" ? "#fff" : "#52525b" }}>
+                  {bgOverride === "dark" ? "📌 검정 메인" : "📌 흰 배경"}
+                </span>
+              )}
               <LogoBox src={invertedUrl || darkPreviewSrc} alt={brand.name_ko} height={72} padding={12} bg="transparent" fallback={mainUrl} />
               {visibility && (
                 <span style={{ position:"absolute", bottom:4, left:0, right:0, textAlign:"center", fontSize: 11, color:"#71717a", letterSpacing:".06em", textTransform:"uppercase", opacity:.8 }}>
