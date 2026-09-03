@@ -19,11 +19,14 @@ async function brandCount(): Promise<string> {
   try {
     // ?v= 없으면 CF 엣지 캐시(1시간) 때문에 묵은 수가 나온다 — layout.tsx 와 같은 이유.
     // 실제로 llms.txt 가 41,176 개로 굳어 있었다(당시 실제 42,993).
-    const res = await fetch(`${CDN}/brands-slim.json?v=${VERSION}`, { next: { revalidate: 3600 } });
+    // ⚠️ 예전엔 여기서도 brands-slim.json(12.9MB)을 받아 세었고, 게다가
+    //    `hidden` 을 안 걸러 **layout 과 다른 숫자**를 말하고 있었다.
+    //    거르는 조건은 CDN 쪽 한 곳(build-category-peers.py)에서 정한다.
+    const res = await fetch(`${CDN}/stats.json?v=${VERSION}`, { next: { revalidate: 3600 } });
     if (!res.ok) return "4만여";
-    const list = await res.json();
-    const n = Array.isArray(list) ? list.filter((b) => !b?.variant_of).length : 0;
-    return n > 0 ? `${n.toLocaleString("ko-KR")}개` : "4만여";
+    const s = await res.json();
+    const n = Number(s?.visible);
+    return Number.isFinite(n) && n > 0 ? `${n.toLocaleString("ko-KR")}개` : "4만여";
   } catch {
     return "4만여";
   }

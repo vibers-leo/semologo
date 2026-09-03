@@ -16,18 +16,17 @@ const SITE = process.env.NEXT_PUBLIC_APP_URL || "https://semologo.com";
  */
 async function brandCount(): Promise<string> {
   try {
-    // ?v= 없으면 CF 엣지 캐시(1시간) 때문에 묵은 수를 표시한다 — brands.ts 와 같은 이유
-    const res = await fetch(`${CDN}/brands-slim.json?v=${VERSION}`, { next: { revalidate: 3600 } });
-    if (!res.ok) return "6,800여";
-    const list = await res.json();
-    // ⚠️ 목록에서 빼는 조건과 **똑같이** 걸러야 한다. hidden 을 빠뜨려
-    //    메타 설명문만 150개 많은 수를 말하고 있었다(2026-09-01).
-    const n = Array.isArray(list)
-      ? list.filter((b) => !b?.variant_of && !b?.hidden).length
-      : 0;
-    return n > 0 ? n.toLocaleString("ko-KR") : "6,800여";
+    // ⚠️ 예전엔 brands-slim.json(12.9MB)을 받아 **개수만 세고 버렸다.**
+    //    레이아웃은 모든 페이지를 감싸므로 빌드 때 718번 받아 파싱했고,
+    //    페이지당 60초를 넘겨 **배포가 실패했다.**
+    //    거르는 조건은 CDN 쪽 build-category-peers.py 가 목록과 똑같이 맞춘다.
+    const res = await fetch(`${CDN}/stats.json?v=${VERSION}`, { next: { revalidate: 3600 } });
+    if (!res.ok) return "44,000여";
+    const s = await res.json();
+    const n = Number(s?.visible);
+    return Number.isFinite(n) && n > 0 ? n.toLocaleString("ko-KR") : "44,000여";
   } catch {
-    return "6,800여";
+    return "44,000여";
   }
 }
 
