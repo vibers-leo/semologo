@@ -45,10 +45,13 @@ body {
   height: 180px;
   /* 격자를 옅게 두면 흰색이 섞인 로고가 배경에 묻힌다(세계태권도연맹의 흰
      워드마크가 통째로 사라졌다). 바탕을 조금 낮추고 선을 진하게 해 대비를 준다. */
-  background-color: #f1f1f2;
+  /* 2026-09-04: 한 단계 더 낮춤(#f1f1f2 → #e4e4e7). 흰색이 섞인 로고 — 색 심볼에
+     흰 글자, 옅은 회색 워드마크 — 가 여전히 묻혔다. 순백 로고는 검정 카드로 가고,
+     여기는 '거의 흰' 로고를 위한 바탕이다. */
+  background-color: #e4e4e7;
   background-image:
-    linear-gradient(rgba(0,0,0,0.10) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(0,0,0,0.10) 1px, transparent 1px);
+    linear-gradient(rgba(0,0,0,0.11) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0,0,0,0.11) 1px, transparent 1px);
   background-size: 12px 12px;
   overflow: hidden;
 }
