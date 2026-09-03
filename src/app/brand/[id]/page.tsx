@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { fetchBrand, fetchBrandsSlim } from "@/lib/brands";
+import { fetchBrand, fetchBrandsSlim, fetchCategoryPeers } from "@/lib/brands";
 import { CDN } from "@/lib/cdn";
 import Header from "@/components/Header";
 import BrandDetailClient from "./BrandDetailClient";
@@ -83,8 +83,9 @@ export default async function BrandPage(
   const { id } = await params;
   const brand = await fetchBrand(id);
   if (!brand) notFound();
-  // 연관 브랜드는 id·이름·카테고리만 쓰므로 경량판이면 충분하다.
-  const brands = await fetchBrandsSlim();
+  // 연관 브랜드는 같은 카테고리 12개뿐이다. 전체 목록(12.9MB)을 받으면
+  // 빌드 워커마다 그걸 파싱해 힙이 터진다 — 실제로 배포가 실패했다.
+  const peers = await fetchCategoryPeers(brand.category || "기타");
 
   const logoUrl = brand.logo_svg
     ? `${CDN}/${brand.id}/logo.svg`
@@ -113,9 +114,7 @@ export default async function BrandPage(
     },
   ];
 
-  const relatedBrands = brands
-    .filter((b) => b.category === brand.category && b.id !== brand.id)
-    .slice(0, 12);
+  const relatedBrands = peers.filter((b) => b.id !== brand.id).slice(0, 12);
 
   return (
     <>

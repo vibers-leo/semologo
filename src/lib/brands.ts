@@ -129,6 +129,29 @@ let slimCache: Promise<Brand[]> | null = null;
  * 사이트맵·사전생성 목록·연관 브랜드는 전부 이걸로 충분하다. 예전엔 세 곳
  * 모두 brands.json(4만 개면 18MB)을 받았다 — 필요한 건 id 와 카테고리뿐인데.
  */
+let peersCache: Promise<Record<string, Brand[]>> | null = null;
+
+/**
+ * 카테고리별 '같은 분야 브랜드' (약 83KB).
+ *
+ * ⚠️ 상세 페이지가 연관 12개를 뽑으려고 `brands-slim.json`(12.9MB)을
+ *    통째로 받고 있었다. 빌드 워커 9개가 각자 파싱하면서 힙이 터져
+ *    **배포가 실패했다.** 필요한 만큼만 받는다.
+ */
+export async function fetchCategoryPeers(category: string): Promise<Brand[]> {
+  if (!peersCache) {
+    peersCache = (async () => {
+      try {
+        return (await fetchBrandData("category-peers.json")) as Record<string, Brand[]>;
+      } catch {
+        return {};
+      }
+    })();
+  }
+  const all = await peersCache;
+  return all[category] ?? [];
+}
+
 export async function fetchBrandsSlim(): Promise<Brand[]> {
   if (!slimCache) {
     slimCache = (async (): Promise<Brand[]> => {
