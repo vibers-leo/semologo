@@ -145,6 +145,13 @@ export default async function RootLayout({
         <Script id="ga-init" strategy="afterInteractive">
           {`window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','${GA_ID}');`}
         </Script>
+        {/* 애드센스 — 게시자 ID 는 public/ads.txt 와 같아야 한다. 심사 중에는
+            자동광고가 안 나와도 스크립트와 ads.txt 가 있어야 크롤러가 '준비됨'으로 본다 */}
+        <Script
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7704550771011130"
+          crossOrigin="anonymous"
+          strategy="afterInteractive"
+        />
       </head>
       <body className="min-h-screen flex flex-col">
         <ChunkRecovery /><SearchProvider><div className="flex-1">{children}</div><Footer /></SearchProvider></body>
