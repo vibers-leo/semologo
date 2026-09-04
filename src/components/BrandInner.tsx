@@ -758,6 +758,13 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
                   {bgOverride === "dark" ? "📌 검정 메인" : "📌 흰 배경"}
                 </span>
               )}
+              {/* 관리자에게만 보이는 버튼 라벨. 커서 변화만으로는 어디를 눌러야 하는지 몰라
+                  "클릭이 안 된다"고 느꼈다(2026-09-04). 기능은 동작했고 표시가 없었다. */}
+              {isAdmin && (
+                <span style={{ position:"absolute", top:4, left:6, fontSize:10, fontWeight:700, padding:"2px 7px", borderRadius:8, background:"rgba(255,255,255,.92)", color:"#18181b", border:"1px solid #d4d4d8", pointerEvents:"none" }}>
+                  {isLightLogo ? "↩ 흰 배경으로" : "▶ 검정 배경으로 메인 노출"}
+                </span>
+              )}
               <LogoBox src={invertedUrl || darkPreviewSrc} alt={brand.name_ko} height={72} padding={12} bg="transparent" fallback={mainUrl} />
               {visibility && (
                 <span style={{ position:"absolute", bottom:4, left:0, right:0, textAlign:"center", fontSize: 11, color:"#71717a", letterSpacing:".06em", textTransform:"uppercase", opacity:.8 }}>
