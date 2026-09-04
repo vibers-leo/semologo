@@ -758,13 +758,7 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
                   {bgOverride === "dark" ? "📌 검정 메인" : "📌 흰 배경"}
                 </span>
               )}
-              {/* 관리자에게만 보이는 버튼 라벨. 커서 변화만으로는 어디를 눌러야 하는지 몰라
-                  "클릭이 안 된다"고 느꼈다(2026-09-04). 기능은 동작했고 표시가 없었다. */}
-              {isAdmin && (
-                <span style={{ position:"absolute", top:4, left:6, fontSize:10, fontWeight:700, padding:"2px 7px", borderRadius:8, background:"rgba(255,255,255,.92)", color:"#18181b", border:"1px solid #d4d4d8", pointerEvents:"none" }}>
-                  {isLightLogo ? "↩ 흰 배경으로" : "▶ 검정 배경으로 메인 노출"}
-                </span>
-              )}
+              {/* 라벨은 가운데 큰 다크 패널에만 둔다 — 여기 72px 타일에선 핀과 겹쳐 지저분했다 */}
               <LogoBox src={invertedUrl || darkPreviewSrc} alt={brand.name_ko} height={72} padding={12} bg="transparent" fallback={mainUrl} />
               {visibility && (
                 <span style={{ position:"absolute", bottom:4, left:0, right:0, textAlign:"center", fontSize: 11, color:"#71717a", letterSpacing:".06em", textTransform:"uppercase", opacity:.8 }}>
@@ -836,7 +830,17 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
           {/* 인트로 라이트/다크 — 배경별로 어떻게 보이는지 확인용 */}
           <div style={{ display:"grid", gridTemplateColumns:"1fr 1fr", borderRadius:12, overflow:"hidden", height:132, marginBottom:16 }}>
             <LogoBox src={mainUrl} alt={brand.name_ko} height={132} padding={18} bg={isLightLogo ? "dark" : "white"} fallback={pngUrl} />
-            <div style={{ ...(invertedUrl ? { background:"#111114" } : getDarkPreviewStyle(visibility)), position:"relative", height:132 }}>
+            <div style={{ ...(invertedUrl ? { background:"#111114" } : getDarkPreviewStyle(visibility)), position:"relative", height:132, cursor: isAdmin ? "pointer" : undefined, outline: bgOverride ? "2px solid #22c55e" : undefined, outlineOffset: -2 }}
+                 onClick={isAdmin ? toggleBg : undefined}
+                 title={isAdmin ? (isLightLogo ? "클릭: 흰 배경으로 되돌리기" : "클릭: 검정 배경으로 메인 노출") : undefined}>
+              {/* 관리자 지정 지점 — 사용자가 "상단 오른쪽 검정 패널을 클릭하면 검정 메인"을 원했다(2026-09-04).
+                  라벨은 로그인 복원 뒤에만 뜨므로 '라벨이 보이면 누를 수 있다'는 신호도 된다. */}
+              {isAdmin && (
+                <span style={{ position:"absolute", top:8, right:10, fontSize:11, fontWeight:700, padding:"3px 9px", borderRadius:10, pointerEvents:"none",
+                               background: bgOverride === "dark" ? "#22c55e" : "rgba(255,255,255,.92)", color: bgOverride === "dark" ? "#fff" : "#18181b", border:"1px solid rgba(0,0,0,.15)" }}>
+                  {bgOverride === "dark" ? "📌 검정 메인 · 클릭하면 해제" : isLightLogo ? "↩ 흰 배경으로" : "▶ 검정 배경으로 메인 노출"}
+                </span>
+              )}
               {/* 다크 배경에는 SVG 를 그대로 쓴다.
                   logo-transparent.png 는 remove_white_bg() 로 만들어져 안티앨리어싱
                   가장자리에 흰 테두리가 남는다. 어두운 배경에서 그게 후광처럼 보여
