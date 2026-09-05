@@ -100,6 +100,26 @@ export async function voteQuality(
 }
 
 /**
+ * 내 투표 취소 — 같은 버튼을 한 번 더 누르면 되돌린다.
+ *
+ * 예전엔 한 번 누르면 잠겨서 실수를 못 되돌렸다("이미 투표했어요").
+ * 카운트를 1 내린다. 규칙은 로그인 사용자에게만 -1 을 허용한다(익명 조작 방지).
+ * flagged 는 건드리지 않는다 — 신고 해제는 관리자의 일이다.
+ */
+export async function cancelQualityVote(
+  brandId: string,
+  vote: "up" | "down",
+): Promise<QualityData> {
+  const db = getClientDb();
+  const ref = doc(db, COLL, brandId);
+  await updateDoc(ref, { [vote]: increment(-1) });
+  if (typeof window !== "undefined") localStorage.removeItem(LS_KEY(brandId));
+  const snap = await getDoc(ref);
+  const d = (snap.data() || {}) as DocumentData;
+  return { up: Math.max(0, d.up || 0), down: Math.max(0, d.down || 0), flagged: d.flagged || false };
+}
+
+/**
  * 관리자용: 신고를 처리 완료로 표시한다.
  *
  * 예전에는 목록만 있고 이 동작이 없어서, 로고를 실제로 교체해도 🚩 가

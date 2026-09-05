@@ -17,7 +17,7 @@ import {
   type VisibilityResult,
 } from "@/lib/logo-visibility";
 import {
-  loadQuality, getMyVote, voteQuality, type QualityData,
+  loadQuality, getMyVote, voteQuality, cancelQualityVote, type QualityData,
 } from "@/lib/logo-quality";
 import { sendHit } from "@/lib/hit";
 import { trackEvent } from "@/lib/analytics";
@@ -524,7 +524,16 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
 
   const castQualityVote = useCallback(async (vote: "up" | "down") => {
     if (!getClientAuth().currentUser) { toast("품질 평가를 남기려면 로그인해 주세요"); return; }
-    if (myQualityVote) { toast(myQualityVote === vote ? "이미 투표했어요" : "투표는 한 번만 할 수 있어요"); return; }
+    // 같은 버튼을 다시 누르면 취소. 다른 쪽을 누르면 먼저 취소하라고 안내한다.
+    if (myQualityVote === vote) {
+      try {
+        const result = await cancelQualityVote(brand.id, vote);
+        setQuality(result); setMyQualityVote(null);
+        toast(vote === "up" ? "좋아요를 취소했어요" : "교체 요청을 취소했어요");
+      } catch { toast("취소 실패. 다시 시도해주세요"); }
+      return;
+    }
+    if (myQualityVote) { toast("먼저 기존 투표를 다시 눌러 취소해 주세요"); return; }
     try {
       const result = await voteQuality(brand.id, vote, brand.name_ko || brand.name_en);
       setQuality(result);
@@ -669,12 +678,12 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
           {/* 품질 투표 — 헤더 오른쪽으로. 왼쪽에 두면 브랜드명 아래 줄이
               하나 더 생겨 헤더가 4줄이 된다. */}
         <div style={{ display:"flex", alignItems:"center", gap:6, marginTop:7 }}>
-        <button onClick={() => castQualityVote("up")} title="좋은 로고예요"
-        style={{ display:"inline-flex", alignItems:"center", gap:3, padding:"3px 9px", borderRadius:20, fontSize:11, fontWeight:600, cursor: myQualityVote ? "default" : "pointer", transition:"all .15s", background: myQualityVote === "up" ? "rgba(34,197,94,.12)" : "#f4f4f5", border:`1px solid ${myQualityVote === "up" ? "rgba(34,197,94,.4)" : "#e4e4e7"}`, color: myQualityVote === "up" ? "#16a34a" : "#71717a", opacity: myQualityVote && myQualityVote !== "up" ? .45 : 1 }}>
+        <button onClick={() => castQualityVote("up")} title={myQualityVote === "up" ? "다시 누르면 취소" : "좋은 로고예요"}
+        style={{ display:"inline-flex", alignItems:"center", gap:3, padding:"3px 9px", borderRadius:20, fontSize:11, fontWeight:600, cursor: (myQualityVote && myQualityVote !== "up") ? "default" : "pointer", transition:"all .15s", background: myQualityVote === "up" ? "rgba(34,197,94,.12)" : "#f4f4f5", border:`1px solid ${myQualityVote === "up" ? "rgba(34,197,94,.4)" : "#e4e4e7"}`, color: myQualityVote === "up" ? "#16a34a" : "#71717a", opacity: myQualityVote && myQualityVote !== "up" ? .45 : 1 }}>
         👍 {quality.up > 0 ? quality.up : ""}
         </button>
-        <button onClick={() => castQualityVote("down")} title="교체가 필요해요"
-        style={{ display:"inline-flex", alignItems:"center", gap:3, padding:"3px 9px", borderRadius:20, fontSize:11, fontWeight:600, cursor: myQualityVote ? "default" : "pointer", transition:"all .15s", background: myQualityVote === "down" ? "rgba(239,68,68,.1)" : "#f4f4f5", border:`1px solid ${myQualityVote === "down" ? "rgba(239,68,68,.35)" : "#e4e4e7"}`, color: myQualityVote === "down" ? "#dc2626" : "#71717a", opacity: myQualityVote && myQualityVote !== "down" ? .45 : 1 }}>
+        <button onClick={() => castQualityVote("down")} title={myQualityVote === "down" ? "다시 누르면 취소" : "교체가 필요해요"}
+        style={{ display:"inline-flex", alignItems:"center", gap:3, padding:"3px 9px", borderRadius:20, fontSize:11, fontWeight:600, cursor: (myQualityVote && myQualityVote !== "down") ? "default" : "pointer", transition:"all .15s", background: myQualityVote === "down" ? "rgba(239,68,68,.1)" : "#f4f4f5", border:`1px solid ${myQualityVote === "down" ? "rgba(239,68,68,.35)" : "#e4e4e7"}`, color: myQualityVote === "down" ? "#dc2626" : "#71717a", opacity: myQualityVote && myQualityVote !== "down" ? .45 : 1 }}>
         🚩 교체 필요 {quality.down > 0 ? quality.down : ""}
         </button>
         {quality.flagged && (
