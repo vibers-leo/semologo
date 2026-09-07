@@ -159,6 +159,8 @@ brand-logos 배포보다 **52초 먼저** 시작해서 났다. 증상이 같으�
   (`.git/hooks/pre-commit`). 그래서 **brand-logos 를 먼저 커밋·푸시한 뒤**
   최종 `version.txt` 값을 읽어 semologo 상수에 넣어야 한다. 순서를 바꾸면 항상 어긋난다.
   현재 값 확인: `curl -s https://logo.vibers.co.kr/version.txt`
+- **404 도 엣지에 굳는다** — 파일이 버킷에 오르기 전에 새 `?v=` 키를 요청하면 그 404 가 캐시된다(2026-09-07 존 룰에 404=60초 추가했지만 습관은 유지: 버킷 동기 → Pages → VERSION 순서, 배포 전 새 키 curl 금지).
+  굳었으면 `bash ~/Desktop/macminim4/brand-logos/scripts/cdn-purge.sh --brand {id}` (글로벌 키, 보안.env).
 - CDN 에서 받는 JSON에도 `?v=` 를 붙인다. 안 붙이면 `force-cache` 때문에
   신규 브랜드가 기존 방문자에게 영영 안 보인다 (실제로 겪은 버그)
 
