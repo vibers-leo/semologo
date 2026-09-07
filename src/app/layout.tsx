@@ -4,6 +4,7 @@ import { SearchProvider } from "@/lib/search-context";
 import { CDN, VERSION } from "@/lib/cdn";
 import Footer from "@/components/Footer";
 import "./globals.css";
+import ViewTracker from "@/components/ViewTracker";
 import ChunkRecovery from "@/components/ChunkRecovery";
 
 const GA_ID = "G-NWML2V1S7V";
@@ -154,7 +155,7 @@ export default async function RootLayout({
         />
       </head>
       <body className="min-h-screen flex flex-col">
-        <ChunkRecovery /><SearchProvider><div className="flex-1">{children}</div><Footer /></SearchProvider></body>
+        <ChunkRecovery /><ViewTracker /><SearchProvider><div className="flex-1">{children}</div><Footer /></SearchProvider></body>
     </html>
   );
 }
