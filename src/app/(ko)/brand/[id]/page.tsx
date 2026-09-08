@@ -1,3 +1,4 @@
+import { languageAlternates, localePath, type Locale } from "@/lib/locales";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { fetchBrand, fetchBrandsSlim, fetchCategoryPeers } from "@/lib/brands";
@@ -5,7 +6,7 @@ import { CDN } from "@/lib/cdn";
 import Header from "@/components/Header";
 import BrandDetailClient from "./BrandDetailClient";
 
-const BASE = process.env.NEXT_PUBLIC_APP_URL || "https://semologo.com";
+const BASE = "https://semologo.com";
 
 // 하루 한 번 다시 만든다. CDN 의 brands.json 이 갱신되면 그때 반영된다.
 export const revalidate = 86400;
@@ -30,8 +31,8 @@ export async function generateStaticParams() {
     .map((b) => ({ id: b.id }));
 }
 
-export async function generateMetadata(
-  { params }: { params: Promise<{ id: string }> }
+export async function brandMetadata(
+  { params }: { params: Promise<{ id: string }> }, locale: Locale = "ko"
 ): Promise<Metadata> {
   const { id } = await params;
   const brand = await fetchBrand(id);
@@ -45,8 +46,9 @@ export async function generateMetadata(
   // 404 로 만들면 SEO 만 잃는다) 새로 색인되지는 않게 한다.
   const noindex = brand.hidden === true;
 
-  const title = `${brand.name_ko} 로고 SVG·PNG 무료 다운로드 | 세모로고`;
-  const description = `${brand.name_ko}(${brand.name_en}) 공식 로고를 SVG 벡터·PNG 고해상도로 무료 다운로드하세요. ${brand.category} 브랜드.`;
+  const name = locale === "en" ? brand.name_en || brand.name_ko : brand.name_ko;
+  const title = locale === "en" ? `${name} logo SVG & PNG download | SemoLogo` : `${name} 로고 SVG·PNG 무료 다운로드 | 세모로고`;
+  const description = locale === "en" ? `Download available ${name} logo files in SVG or PNG. Preview logo variants and save this brand to your favorites.` : `${brand.name_ko}(${brand.name_en}) 로고 모음. 제공되는 SVG 벡터·PNG 파일을 다운로드하고, Illustrator에서 사용할 로고를 찾아보세요.`;
 
   return {
     ...(noindex ? { robots: { index: false, follow: true } } : {}),
@@ -56,8 +58,9 @@ export async function generateMetadata(
       title,
       description,
       type: "website",
-      url: `${BASE}/brand/${brand.id}`,
-      images: [{ url: logoUrl, width: 800, height: 800, alt: `${brand.name_ko} 로고` }],
+      url: BASE + localePath(`/brand/${brand.id}`, locale),
+      locale: locale === "en" ? "en_US" : "ko_KR",
+      images: [{ url: logoUrl, width: 800, height: 800, alt: locale === "en" ? `${name} logo` : `${name} 로고` }],
       siteName: "세모로고",
     },
     twitter: {
@@ -70,12 +73,13 @@ export async function generateMetadata(
     // canonical 을 부모로 돌린다. 삭제하면 429개가 404 가 되고, 그대로 두면
     // 검색엔진에 중복 콘텐츠로 잡힌다.
     alternates: {
-      canonical: brand.variant_of
-        ? `${BASE}/brand/${brand.variant_of}`
-        : `${BASE}/brand/${brand.id}`,
+      canonical: BASE + localePath(`/brand/${brand.variant_of || brand.id}`, locale),
+      languages: languageAlternates(`/brand/${brand.variant_of || brand.id}`),
     },
   };
 }
+
+export const generateMetadata = (props: {params: Promise<{id: string}>}) => brandMetadata(props);
 
 export default async function BrandPage(
   { params }: { params: Promise<{ id: string }> }

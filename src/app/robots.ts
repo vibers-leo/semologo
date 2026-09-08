@@ -5,6 +5,6 @@ export const dynamic = "force-static";
 export default function robots(): MetadataRoute.Robots {
   return {
     rules: { userAgent: "*", allow: "/" },
-    sitemap: "https://semologo.com/sitemap.xml",
+    sitemap: ["https://semologo.com/sitemap.xml", "https://semologo.com/en/sitemap.xml"],
   };
 }

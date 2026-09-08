@@ -1,5 +1,7 @@
 "use client";
 
+import { useLocale, T } from "@/lib/locale-context";
+import FavoriteButton from "./FavoriteButton";
 import { useEffect, useState, useCallback } from "react";
 import Link from "next/link";
 import { Brand, fetchVariants, type VariantManifest, type VariantRecord } from "@/lib/brands";
@@ -7,7 +9,7 @@ import { BRAND_RELATIONS, RELATION_LABEL, RELATION_COLOR } from "@/lib/brand-rel
 import { getClientAuth, getClientDb } from "@/lib/firebase";
 import CoupangSlot from "./CoupangSlot";
 
-const SITE_URL = process.env.NEXT_PUBLIC_APP_URL || "https://semologo.com";
+const SITE_URL = "https://semologo.com";
 import {
   doc, getDoc, setDoc, updateDoc, increment,
 } from "firebase/firestore";
@@ -101,6 +103,8 @@ const VARIANTS = [
 
 /** 매니페스트의 provider 는 내부 식별자다 — 사용자에게는 읽을 수 있는 이름으로 */
 const PROVIDER_LABEL: Record<string, string> = {
+  lobe: "Lobe Icons",
+  svgl: "SVGL",
   official: "공식 자산",
   wikimedia: "위키미디어",
   "simple-icons": "Simple Icons",
@@ -226,6 +230,7 @@ function LogoBox({
 }
 
 export default function BrandInner({ brand, onClose, allBrands = [], onSelectBrand, isPage = false }: Props) {
+  const {en, t, path} = useLocale();
   const [votes, setVotes] = useState<Record<string, number>>({});
   const [swapTarget, setSwapTarget] = useState<string | null>(null);
   const [votedFiles, setVotedFiles] = useState<string[]>([]);
@@ -468,7 +473,7 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
 
   const requestSwap = useCallback(async (file: string, label: string) => {
     if (!getClientAuth().currentUser) { toast("교체를 요청하려면 로그인해 주세요"); return; }
-    if (!window.confirm(`"${label}"을(를) 메인 로고로 교체 요청할까요?\n관리자 확인 후 반영됩니다.`)) return;
+    if (!window.confirm(`"${t(label)}"을(를) 메인 로고로 교체 요청할까요?\n관리자 확인 후 반영됩니다.`)) return;
     try {
       const db = getClientDb();
       const ref = doc(db, "logo_votes", brand.id);
@@ -496,7 +501,7 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
   type ShareTab = (typeof SHARE_TABS)[number]["key"];
   const [shareTab, setShareTab] = useState<ShareTab>("page");
 
-  const embedCode = `<img src="${mainUrl}" alt="${brand.name_ko}" style="height:40px">`;
+  const embedCode = `<img src="${mainUrl}" alt="${en ? brand.name_en || brand.name_ko : brand.name_ko}" style="height:40px">`;
   const shareValue = shareTab === "page" ? pageUrl : shareTab === "image" ? mainUrl : embedCode;
 
   /** 헤더의 빠른 퍼가기 — 사이드바 탭과 무관하게 **항상 페이지 링크**를 복사한다.
@@ -597,17 +602,12 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
           {/* 검색엔진이 페이지 주제를 잡는 가장 강한 신호다. 예전엔 h2 뿐이라
               h1 이 아예 없었다 — '삼성화재 로고'로 검색했을 때 잡힐 근거가
               title·description 에만 있었다.
-              보이는 글자는 그대로 두고(브랜드명), 검색어 형태('OO 로고')는
-              화면에 안 보이는 텍스트로 덧붙인다. */}
+              브랜드명은 화면과 접근성 트리에 한 번만 표시한다. */}
           <h1 style={{ fontSize:17, fontWeight:700, color:"#111111", whiteSpace:"nowrap", overflow:"hidden", textOverflow:"ellipsis", margin:0 }}>
-            {brand.name_ko}{brand.name_en && brand.name_en !== brand.name_ko ? ` / ${brand.name_en}` : ""}
-            <span style={{ position:"absolute", width:1, height:1, padding:0, margin:-1,
-                           overflow:"hidden", clip:"rect(0 0 0 0)", whiteSpace:"nowrap", border:0 }}>
-              {` ${brand.name_ko} 로고 SVG PNG 다운로드`}
-            </span>
-          </h1>
+            {en ? brand.name_en || brand.name_ko : brand.name_ko}{!en && brand.name_en && brand.name_en !== brand.name_ko ? ` / ${brand.name_en}` : ""}
+          </h1><FavoriteButton brand={brand} />
           <p style={{ fontSize:12, color:"#71717a", marginTop:2, display:"flex", alignItems:"center", gap:6 }}>
-            <span>{brand.category}</span>
+            <span>{t(brand.category || "기타")}</span>
             {/* 공식 배포 원본은 신뢰도가 다르다. 사이트 헤더에서 긁은 것과
                 배포처가 CI 페이지에 올려둔 원본은 같은 로고라도 근거가 다르다. */}
             {brand.asset_origin && (
@@ -615,9 +615,7 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
                 style={{ display:"inline-flex", alignItems:"center", gap:3,
                          padding:"1px 7px", borderRadius:999, fontSize:11, fontWeight:600,
                          color:"#15803d", background:"rgba(34,197,94,.1)",
-                         border:"1px solid rgba(34,197,94,.25)" }}>
-                ✓ 공식 배포 원본
-              </span>
+                         border:"1px solid rgba(34,197,94,.25)" }}><T>{"✓ 공식 배포 원본"}</T></span>
             )}
             {/* 매뉴얼 원본은 로고 파일만큼 값어치가 있다 — 컬러 팔레트·
                 최소규격·응용례가 들어 있다. 배포처가 준 경우에만 뜬다. */}
@@ -628,9 +626,7 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
                  style={{ display:"inline-flex", alignItems:"center", gap:3,
                           padding:"1px 7px", borderRadius:999, fontSize:11, fontWeight:600,
                           color:"#4338ca", background:"rgba(99,102,241,.1)",
-                          border:"1px solid rgba(99,102,241,.25)", textDecoration:"none" }}>
-                📘 브랜드 매뉴얼
-              </a>
+                          border:"1px solid rgba(99,102,241,.25)", textDecoration:"none" }}><T>{"📘 브랜드 매뉴얼"}</T></a>
             )}
           </p>
           {/* 검색용 요약. 4만 페이지가 전부 같은 틀이면 '얇은 콘텐츠'로 분류돼
@@ -638,20 +634,7 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
               보유 형식)로 페이지마다 다른 문장을 만든다. */}
           {/* 검색엔진용. 화면에는 안 보이지만 HTML 에는 남는다 —
               헤더가 4줄이 되면 정작 로고가 밀린다. 크롤러는 읽는다. */}
-          <p style={{ position:"absolute", width:1, height:1, padding:0, margin:-1,
-                      overflow:"hidden", clip:"rect(0 0 0 0)", whiteSpace:"nowrap", border:0 }}>
-            {[
-              `${brand.name_ko}${brand.name_en && brand.name_en !== brand.name_ko ? `(${brand.name_en})` : ""}의 공식 로고입니다.`,
-              brand.krx_market ? `${brand.krx_market} 상장${brand.krx_code ? ` (${brand.krx_code})` : ""}${brand.krx_sector ? ` · ${brand.krx_sector}` : ""}.` : null,
-              brand.kr_kind ? `${brand.kr_kind}입니다.` : null,
-              brand.category ? `${brand.category} 분야.` : null,
-              brand.has_svg
-                ? "SVG 벡터 원본을 제공해 어떤 크기로 확대해도 깨지지 않습니다."
-                : "PNG 고해상도 파일을 제공합니다.",
-              "파비콘·투명 배경·화이트 버전도 함께 내려받을 수 있습니다.",
-              brand.website || brand.domain ? `공식 사이트: ${brand.domain || brand.website}` : null,
-            ].filter(Boolean).join(" ")}
-          </p>
+          <p className="mt-3 text-sm leading-6 text-gray-500">{en ? "Download available SVG vectors and PNG images. " : "보유한 SVG 벡터·PNG 파일을 내려받을 수 있어요. "}<Link href={path("/ai-logo-download")} className="underline">{en ? "Using SVG in Illustrator →" : "Illustrator에서 SVG 사용하기 →"}</Link></p>
 
         </div>
 
@@ -666,14 +649,12 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
                 ? brand.website
                 : `https://${String(brand.website || brand.domain).replace(/^https?:\/\//, "")}`}
               target="_blank" rel="noopener noreferrer nofollow"
-              title={`${brand.name_ko} 공식 홈페이지로 이동`}
+              title={`${en ? brand.name_en || brand.name_ko : brand.name_ko} 공식 홈페이지로 이동`}
               style={{ display:"inline-flex", alignItems:"center", gap:5, padding:"5px 12px",
                        background:"#f4f4f5", border:"1px solid #e4e4e7", color:"#52525b",
                        borderRadius:8, fontSize:12, fontWeight:500, textDecoration:"none",
                        flexShrink:0 }}
-            >
-              🔗 홈페이지
-            </a>
+            ><T>{"🔗 홈페이지"}</T></a>
           )}
           {/* 품질 투표 — 헤더 오른쪽으로. 왼쪽에 두면 브랜드명 아래 줄이
               하나 더 생겨 헤더가 4줄이 된다. */}
@@ -683,25 +664,22 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
         👍 {quality.up > 0 ? quality.up : ""}
         </button>
         <button onClick={() => castQualityVote("down")} title={myQualityVote === "down" ? "다시 누르면 취소" : "교체가 필요해요"}
-        style={{ display:"inline-flex", alignItems:"center", gap:3, padding:"3px 9px", borderRadius:20, fontSize:11, fontWeight:600, cursor: (myQualityVote && myQualityVote !== "down") ? "default" : "pointer", transition:"all .15s", background: myQualityVote === "down" ? "rgba(239,68,68,.1)" : "#f4f4f5", border:`1px solid ${myQualityVote === "down" ? "rgba(239,68,68,.35)" : "#e4e4e7"}`, color: myQualityVote === "down" ? "#dc2626" : "#71717a", opacity: myQualityVote && myQualityVote !== "down" ? .45 : 1 }}>
-        🚩 교체 필요 {quality.down > 0 ? quality.down : ""}
+        style={{ display:"inline-flex", alignItems:"center", gap:3, padding:"3px 9px", borderRadius:20, fontSize:11, fontWeight:600, cursor: (myQualityVote && myQualityVote !== "down") ? "default" : "pointer", transition:"all .15s", background: myQualityVote === "down" ? "rgba(239,68,68,.1)" : "#f4f4f5", border:`1px solid ${myQualityVote === "down" ? "rgba(239,68,68,.35)" : "#e4e4e7"}`, color: myQualityVote === "down" ? "#dc2626" : "#71717a", opacity: myQualityVote && myQualityVote !== "down" ? .45 : 1 }}><T>{"🚩 교체 필요"}</T>{quality.down > 0 ? quality.down : ""}
         </button>
         {quality.flagged && (
-        <span style={{ fontSize: 11, fontWeight:700, color:"#dc2626", background:"rgba(239,68,68,.08)", border:"1px solid rgba(239,68,68,.2)", borderRadius:10, padding:"2px 6px" }}>검토 필요</span>
+        <span style={{ fontSize: 11, fontWeight:700, color:"#dc2626", background:"rgba(239,68,68,.08)", border:"1px solid rgba(239,68,68,.2)", borderRadius:10, padding:"2px 6px" }}><T>{"검토 필요"}</T></span>
         )}
         </div>
         <button onClick={copyPageLink} className="sharebtn"
           style={{ display:"flex", alignItems:"center", gap:5, padding:"5px 12px", background:"#f4f4f5", border:"1px solid #e4e4e7", color:"#52525b", borderRadius:8, fontSize:12, fontWeight:500, cursor:"pointer", transition:"all .15s", flexShrink:0 }}>
           <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
-          {copyDone ? "복사됨!" : "퍼가기"}
+          {copyDone ? t("복사됨!") : t("퍼가기")}
         </button>
 
         {/* 페이지 모드: 홈 링크 / 모달 모드: X 버튼 */}
         {isPage ? (
-          <Link href="/" style={{ display:"flex", alignItems:"center", gap:5, padding:"5px 12px", background:"#f4f4f5", border:"1px solid #e4e4e7", color:"#52525b", borderRadius:8, fontSize:12, fontWeight:500, textDecoration:"none", flexShrink:0 }}>
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"><path d="m15 18-6-6 6-6"/></svg>
-            홈으로
-          </Link>
+          <Link href={path("/")} style={{ display:"flex", alignItems:"center", gap:5, padding:"5px 12px", background:"#f4f4f5", border:"1px solid #e4e4e7", color:"#52525b", borderRadius:8, fontSize:12, fontWeight:500, textDecoration:"none", flexShrink:0 }}>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"><path d="m15 18-6-6 6-6"/></svg><T>{"홈으로"}</T></Link>
         ) : (
           <button onClick={onClose} style={{ background:"#f4f4f5", border:"1px solid #e4e4e7", color:"#52525b", width:32, height:32, borderRadius:8, cursor:"pointer", display:"flex", alignItems:"center", justifyContent:"center", flexShrink:0 }}>
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"><path d="M18 6 6 18M6 6l12 12"/></svg>
@@ -712,7 +690,7 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
       {/* ── 연관기업 바 ── */}
       {relations.length > 0 && (
         <div style={{ display:"flex", alignItems:"center", gap:8, padding:"8px 20px", borderBottom:"1px solid #e4e4e7", background:"#fafafa", flexShrink:0, flexWrap:"wrap" }}>
-          <span style={{ fontSize: 11, fontWeight:700, color:"#a1a1aa", letterSpacing:".06em", textTransform:"uppercase", flexShrink:0 }}>연관기업</span>
+          <span style={{ fontSize: 11, fontWeight:700, color:"#a1a1aa", letterSpacing:".06em", textTransform:"uppercase", flexShrink:0 }}><T>{"연관기업"}</T></span>
           {relations.map(rel => {
             const clr = RELATION_COLOR[rel.type];
             const relLogoUrl = `${CDN}/${rel.brand.id}/logo.png?v=${VERSION}`;
@@ -747,13 +725,11 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
 
           {/* 메인 프리뷰 */}
           <div style={{ border:"1px solid #f0f0f2", borderRadius:8, overflow:"hidden", position:"relative" }}>
-            <LogoBox src={mainUrl} alt={brand.name_ko} height={128} padding={16} bg={isLightLogo ? "dark" : "white"} fallback={pngUrl} />
+            <LogoBox src={mainUrl} alt={en ? brand.name_en || brand.name_ko : brand.name_ko} height={128} padding={16} bg={isLightLogo ? "dark" : "white"} fallback={pngUrl} />
             {brand.original_ai_url && (
               <a href={brand.original_ai_url} target="_blank" rel="noopener noreferrer"
                 style={{ position:"absolute", bottom:6, right:6, display:"inline-flex", alignItems:"center", gap:3, padding:"2px 7px", background:"#eff6ff", border:"1px solid #bfdbfe", borderRadius:10, fontSize: 11, fontWeight:700, color:"#2563eb", textDecoration:"none", letterSpacing:".04em" }}>
-                <svg width="8" height="8" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"><path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
-                공식
-              </a>
+                <svg width="8" height="8" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"><path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg><T>{"공식"}</T></a>
             )}
           </div>
 
@@ -768,10 +744,10 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
                 </span>
               )}
               {/* 라벨은 가운데 큰 다크 패널에만 둔다 — 여기 72px 타일에선 핀과 겹쳐 지저분했다 */}
-              <LogoBox src={invertedUrl || darkPreviewSrc} alt={brand.name_ko} height={72} padding={12} bg="transparent" fallback={mainUrl} />
+              <LogoBox src={invertedUrl || darkPreviewSrc} alt={en ? brand.name_en || brand.name_ko : brand.name_ko} height={72} padding={12} bg="transparent" fallback={mainUrl} />
               {visibility && (
                 <span style={{ position:"absolute", bottom:4, left:0, right:0, textAlign:"center", fontSize: 11, color:"#71717a", letterSpacing:".06em", textTransform:"uppercase", opacity:.8 }}>
-                  {invertedUrl ? "흑백 반전 (다크용)" : getDarkPreviewLabel(visibility) + (hasWhiteLogo && visibility.darkMode !== "white-only" ? " · 화이트" : "")}
+                  {invertedUrl ? t("흑백 반전 (다크용)") : t(getDarkPreviewLabel(visibility)) + (hasWhiteLogo && visibility.darkMode !== "white-only" ? " · 화이트" : "")}
                 </span>
               )}
             </div>
@@ -779,19 +755,19 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
 
           {/* 사용 미리보기 */}
           <div>
-            <div style={{ fontSize: 11, fontWeight:700, color:"#71717a", letterSpacing:".08em", textTransform:"uppercase", marginBottom:10 }}>사용 미리보기</div>
+            <div style={{ fontSize: 11, fontWeight:700, color:"#71717a", letterSpacing:".08em", textTransform:"uppercase", marginBottom:10 }}><T>{"사용 미리보기"}</T></div>
             <div style={{ display:"grid", gridTemplateColumns:"1fr 1fr 1fr", gap:8 }}>
               {[
                 { label:"OG 16:9", style:{ width:"100%", aspectRatio:"16/9", background: isLightLogo ? "#18181b" : "#f0f0f0", borderRadius:4, overflow:"hidden", position:"relative" } as React.CSSProperties },
                 { label:"파비콘",  style:{ width:28, height:28, background: isLightLogo ? "#18181b" : "#e4e4e7", borderRadius:4, overflow:"hidden", position:"relative" } as React.CSSProperties },
                 { label:"앱 아이콘", style:{ width:46, height:46, background: isLightLogo ? "#18181b" : "#e4e4e7", borderRadius:10, overflow:"hidden", position:"relative" } as React.CSSProperties },
               ].map(m => (
-                <div key={m.label} style={{ display:"flex", flexDirection:"column", alignItems:"center", gap:5 }}>
+                <div key={t(m.label)} style={{ display:"flex", flexDirection:"column", alignItems:"center", gap:5 }}>
                   <div style={m.style}>
                     {/* eslint-disable-next-line @next/next/no-img-element */}
                     <img src={hasSvg ? svgUrl : darkUrl} alt="" style={{ position:"absolute", inset:"10%", width:"80%", height:"80%", objectFit:"contain", objectPosition:"center" }} onError={e => { e.currentTarget.src = pngUrl; }} />
                   </div>
-                  <span style={{ fontSize: 11, color:"#71717a", textAlign:"center" }}>{m.label}</span>
+                  <span style={{ fontSize: 11, color:"#71717a", textAlign:"center" }}>{t(m.label)}</span>
                 </div>
               ))}
             </div>
@@ -799,11 +775,11 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
 
           {/* 보유 형식 */}
           <div>
-            <div style={{ fontSize: 11, fontWeight:700, color:"#71717a", letterSpacing:".08em", textTransform:"uppercase", marginBottom:10 }}>보유 형식</div>
+            <div style={{ fontSize: 11, fontWeight:700, color:"#71717a", letterSpacing:".08em", textTransform:"uppercase", marginBottom:10 }}><T>{"보유 형식"}</T></div>
             <div style={{ display:"flex", flexDirection:"column", gap:5 }}>
               {[{ label:"SVG 벡터", ok:hasSvg }, { label:"PNG", ok:hasPng }, { label:"영문 버전", ok:hasEn }].map(({ label, ok }) => (
-                <span key={label} style={{ display:"inline-flex", alignItems:"center", gap:4, padding:"4px 10px", borderRadius:20, fontSize:11, fontWeight:600, background:ok?"rgba(34,197,94,0.12)":"#f4f4f5", color:ok?"#22c55e":"#71717a", border:`1px solid ${ok?"rgba(34,197,94,0.2)":"#e4e4e7"}` }}>
-                  {ok ? "✓" : "✗"} {label}
+                <span key={t(label)} style={{ display:"inline-flex", alignItems:"center", gap:4, padding:"4px 10px", borderRadius:20, fontSize:11, fontWeight:600, background:ok?"rgba(34,197,94,0.12)":"#f4f4f5", color:ok?"#22c55e":"#71717a", border:`1px solid ${ok?"rgba(34,197,94,0.2)":"#e4e4e7"}` }}>
+                  {ok ? "✓" : "✗"} {t(label)}
                 </span>
               ))}
             </div>
@@ -815,21 +791,16 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
               onClick={e => { e.preventDefault(); grab(mainUrl, `${brand.id}-logo.${hasSvg ? "svg" : "png"}`); }}
               style={{ display:"flex", alignItems:"center", justifyContent:"center", gap:6, padding:"9px 0", borderRadius:8, fontSize:12, fontWeight:600, background:"#6366f1", color:"#fff", textDecoration:"none", cursor:"pointer" }}>
               <svg width="13" height="13" fill="none" stroke="currentColor" strokeWidth="2.5" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3"/></svg>
-              {hasSvg ? "SVG" : "PNG"} 다운로드
-            </a>
+              {hasSvg ? "SVG" : "PNG"}{" "}<T>{"다운로드"}</T></a>
             {hasSvg && isReady(pngUrl) && (
               <a href={pngUrl} download={`${brand.id}-logo.png`}
                 onClick={e => { e.preventDefault(); grab(pngUrl, `${brand.id}-logo.png`); }}
-                style={{ display:"flex", alignItems:"center", justifyContent:"center", padding:"9px 0", borderRadius:8, fontSize:12, fontWeight:600, background:"#f4f4f5", color:"#52525b", textDecoration:"none", border:"1px solid #e4e4e7", cursor:"pointer" }}>
-                ↓ PNG 다운로드
-              </a>
+                style={{ display:"flex", alignItems:"center", justifyContent:"center", padding:"9px 0", borderRadius:8, fontSize:12, fontWeight:600, background:"#f4f4f5", color:"#52525b", textDecoration:"none", border:"1px solid #e4e4e7", cursor:"pointer" }}><T>{"↓ PNG 다운로드"}</T></a>
             )}
             {invertedUrl && (
               <a href={invertedUrl} download={`${brand.id}-logo-dark.png`}
                       onClick={e => { e.preventDefault(); grab(invertedUrl, `${brand.id}-logo-dark.png`); }}
-                style={{ display:"flex", alignItems:"center", justifyContent:"center", gap:5, padding:"9px 0", borderRadius:8, fontSize:12, fontWeight:600, background:"#111114", color:"#a78bfa", textDecoration:"none", border:"1px solid #3f3f46" }}>
-                🌙 반전 PNG (다크용)
-              </a>
+                style={{ display:"flex", alignItems:"center", justifyContent:"center", gap:5, padding:"9px 0", borderRadius:8, fontSize:12, fontWeight:600, background:"#111114", color:"#a78bfa", textDecoration:"none", border:"1px solid #3f3f46" }}><T>{"🌙 반전 PNG (다크용)"}</T></a>
             )}
           </div>
         </div>
@@ -838,7 +809,7 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
         <div className="mscroll" style={{ overflowY: isPage ? undefined : "auto", padding:"22px 24px", scrollbarWidth:"thin" }}>
           {/* 인트로 라이트/다크 — 배경별로 어떻게 보이는지 확인용 */}
           <div style={{ display:"grid", gridTemplateColumns:"1fr 1fr", borderRadius:12, overflow:"hidden", height:132, marginBottom:16 }}>
-            <LogoBox src={mainUrl} alt={brand.name_ko} height={132} padding={18} bg={isLightLogo ? "dark" : "white"} fallback={pngUrl} />
+            <LogoBox src={mainUrl} alt={en ? brand.name_en || brand.name_ko : brand.name_ko} height={132} padding={18} bg={isLightLogo ? "dark" : "white"} fallback={pngUrl} />
             <div style={{ ...(invertedUrl ? { background:"#111114" } : getDarkPreviewStyle(visibility)), position:"relative", height:132, cursor: isAdmin ? "pointer" : undefined, outline: bgOverride ? "2px solid #22c55e" : undefined, outlineOffset: -2 }}
                  onClick={isAdmin ? toggleBg : undefined}
                  title={isAdmin ? (isLightLogo ? "클릭: 흰 배경으로 되돌리기" : "클릭: 검정 배경으로 메인 노출") : undefined}>
@@ -856,10 +827,10 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
                   로고가 깨져 보였다. SVG 는 진짜 투명이라 그런 잔상이 없다. */}
               <LogoBox
                 src={invertedUrl || (hasSvg ? mainUrl : getDarkPreviewUrl(visibility, darkUrl, mainUrl))}
-                alt={brand.name_ko} height={132} padding={20} bg="transparent" fallback={mainUrl} />
+                alt={en ? brand.name_en || brand.name_ko : brand.name_ko} height={132} padding={20} bg="transparent" fallback={mainUrl} />
               {visibility && (
                 <span style={{ position:"absolute", bottom:6, left:0, right:0, textAlign:"center", fontSize: 11, letterSpacing:".06em", textTransform:"uppercase", opacity:.6, color: invertedUrl ? "#71717a" : (visibility.darkMode === "white-only" ? "#52525b" : "#a1a1aa") }}>
-                  {invertedUrl ? "흑백 반전" : getDarkPreviewLabel(visibility)}
+                  {invertedUrl ? t("흑백 반전") : t(getDarkPreviewLabel(visibility))}
                 </span>
               )}
             </div>
@@ -869,11 +840,9 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
           {sections.length > 0 && (
             <div style={{ marginBottom: 28 }}>
               <div style={{ display:"flex", alignItems:"center", justifyContent:"space-between", marginBottom:12 }}>
-                <div style={{ fontSize:13, fontWeight:700, color:"#3f3f46" }}>
-                  로고 변형{" "}
+                <div style={{ fontSize:13, fontWeight:700, color:"#3f3f46" }}><T>{"로고 변형"}</T>{" "}
                   <span style={{ fontSize:11, fontWeight:400, color:"#71717a" }}>
-                    {manifest!.variants.length}종 · SVG·PNG 각각 받기
-                  </span>
+                    {manifest!.variants.length}<T>{"종 · SVG·PNG 각각 받기"}</T></span>
                 </div>
                 {langs.length >= 2 && (
                   <div style={{ display:"flex", gap:4 }}>
@@ -883,7 +852,7 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
                           border:`1px solid ${langFilter === l ? "#6366f1" : "#e4e4e7"}`,
                           background: langFilter === l ? "rgba(99,102,241,.08)" : "transparent",
                           color: langFilter === l ? "#6366f1" : "#71717a" }}>
-                        {l === null ? "전체" : l === "ko" ? "한글" : "영문"}
+                        {t(l === null ? "전체" : l === "ko" ? "한글" : "영문")}
                       </button>
                     ))}
                   </div>
@@ -896,11 +865,11 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
                   : items;
                 if (shown.length === 0) return null;
                 return (
-                  <div key={label} style={{ marginBottom: 10 }}>
+                  <div key={t(label)} style={{ marginBottom: 10 }}>
                     <div style={{ fontSize:11, fontWeight:700, color:"#71717a", marginBottom:6,
                       letterSpacing:".04em" }}>
-                      {label}
-                      <span style={{ marginLeft:6, fontWeight:400, color:"#a1a1aa" }}>{shown.length}종</span>
+                      {t(label)}
+                      <span style={{ marginLeft:6, fontWeight:400, color:"#a1a1aa" }}>{shown.length}<T>{"종"}</T></span>
                     </div>
                     {/* 가로 행 리스트.
                         예전엔 minmax(170px,1fr) 카드 그리드였는데, 모달 가운데 폭이
@@ -919,7 +888,7 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
                             <div style={{ position:"relative", width:56, height:38, flexShrink:0,
                               borderRadius:5, overflow:"hidden", ...variantTile(v) }}>
                               {/* eslint-disable-next-line @next/next/no-img-element */}
-                              <img src={previewUrl} alt={v.label}
+                              <img src={previewUrl} alt={t(v.label)}
                                 style={{ position:"absolute", inset:4, width:"calc(100% - 8px)",
                                   height:"calc(100% - 8px)", objectFit:"contain" }}
                                 onError={e => { e.currentTarget.style.display = "none"; }} />
@@ -928,17 +897,17 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
                               <div style={{ fontSize:11.5, fontWeight:600, color:"#3f3f46",
                                 display:"flex", alignItems:"center", gap:5 }}>
                                 <span style={{ overflow:"hidden", textOverflow:"ellipsis", whiteSpace:"nowrap" }}>
-                                  {v.label}
+                                  {t(v.label)}
                                 </span>
                                 {v.origin === "derived" && (
                                   <span style={{ flexShrink:0, fontSize: 11, fontWeight:700, color:"#6366f1",
                                     background:"#eef2ff", border:"1px solid #c7d2fe", borderRadius:9,
-                                    padding:"0 5px" }}>자동 추출</span>
+                                    padding:"0 5px" }}><T>{"자동 추출"}</T></span>
                                 )}
                               </div>
                               <div style={{ fontSize: 11, color:"#a1a1aa", marginTop:1,
                                 overflow:"hidden", textOverflow:"ellipsis", whiteSpace:"nowrap" }}>
-                                {providerLabel(v.provider)}
+                                {t(providerLabel(v.provider))}
                                 {v.alts?.length ? ` · 소스 ${v.alts.length + 1}종` : ""}
                               </div>
                             </div>
@@ -972,12 +941,12 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
           {/* 변형 그리드 */}
           <div style={{ display:"flex", alignItems:"center", justifyContent:"space-between", marginBottom:14 }}>
             <div style={{ fontSize:13, fontWeight:700, color:"#3f3f46" }}>
-              {manifest ? "가공 파일" : "파일 다운로드"}{" "}
+              {manifest ? t("가공 파일") : t("파일 다운로드")}{" "}
               <span style={{ fontSize:11, fontWeight:400, color:"#71717a" }}>
-                {manifest ? "파비콘 · 투명 배경 · 고해상도" : "메인 로고 기준"}
+                {manifest ? t("파비콘 · 투명 배경 · 고해상도") : t("메인 로고 기준")}
               </span>
             </div>
-            <span style={{ fontSize: 11, color:"#a1a1aa" }}>👍 추천 · 🔄 교체 요청</span>
+            <span style={{ fontSize: 11, color:"#a1a1aa" }}><T>{"👍 추천 · 🔄 교체 요청"}</T></span>
           </div>
           {/* 좁은 컬럼에서도 2열이 들어가도록 최소폭을 줄였다.
               160px 이면 모달 가운데 폭에서 1열이 돼 세로로 길어진다. */}
@@ -988,17 +957,15 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img src={invertedUrl} alt="반전 PNG"
                     style={{ position:"absolute", top:14, right:14, bottom:14, left:14, width:"calc(100% - 28px)", height:"calc(100% - 28px)", objectFit:"contain", objectPosition:"center" }} />
-                  <span style={{ position:"absolute", top:5, right:5, fontSize: 11, fontWeight:700, color:"#a78bfa", background:"rgba(99,102,241,.2)", border:"1px solid rgba(99,102,241,.3)", borderRadius:10, padding:"1px 5px" }}>다크용</span>
+                  <span style={{ position:"absolute", top:5, right:5, fontSize: 11, fontWeight:700, color:"#a78bfa", background:"rgba(99,102,241,.2)", border:"1px solid rgba(99,102,241,.3)", borderRadius:10, padding:"1px 5px" }}><T>{"다크용"}</T></span>
                 </div>
                 <div style={{ padding:"8px 10px", borderTop:"1px solid #3f3f46", background:"#1c1c1e" }}>
-                  <div style={{ fontSize:11, fontWeight:600, color:"#e4e4e7" }}>반전 PNG</div>
-                  <div style={{ fontSize: 11, color:"#71717a", marginTop:1 }}>다크 배경용 흰색 반전</div>
+                  <div style={{ fontSize:11, fontWeight:600, color:"#e4e4e7" }}><T>{"반전 PNG"}</T></div>
+                  <div style={{ fontSize: 11, color:"#71717a", marginTop:1 }}><T>{"다크 배경용 흰색 반전"}</T></div>
                   <div style={{ marginTop:8 }}>
                     <a href={invertedUrl} download={`${brand.id}-logo-dark.png`}
                       onClick={e => { e.preventDefault(); grab(invertedUrl, `${brand.id}-logo-dark.png`); }}
-                      style={{ display:"block", fontSize:11, padding:"5px 0", borderRadius:6, background:"#6366f1", color:"#fff", textAlign:"center", textDecoration:"none", fontWeight:500 }}>
-                      ↓ 다운로드
-                    </a>
+                      style={{ display:"block", fontSize:11, padding:"5px 0", borderRadius:6, background:"#6366f1", color:"#fff", textAlign:"center", textDecoration:"none", fontWeight:500 }}><T>{"↓ 다운로드"}</T></a>
                   </div>
                 </div>
               </div>
@@ -1014,17 +981,17 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
                   {/* 썸네일 — 동일 패딩으로 크기 정규화 */}
                   <div style={{ position:"relative", height:76, ...tile(bgStyle(v.bg)) }}>
                     {/* eslint-disable-next-line @next/next/no-img-element */}
-                    <img src={url} alt={v.name}
+                    <img src={url} alt={t(v.name)}
                       style={{ position:"absolute", top:14, right:14, bottom:14, left:14, width:"calc(100% - 28px)", height:"calc(100% - 28px)", objectFit:"contain", objectPosition:"center" }}
                       onError={e => { e.currentTarget.style.display="none"; }}
                     />
-                    {isSwapTarget && <span style={{ position:"absolute", top:5, right:5, fontSize: 11, fontWeight:700, color:"#f59e0b", background:"#fef3c7", border:"1px solid #fde68a", borderRadius:10, padding:"1px 5px" }}>교체 대기</span>}
+                    {isSwapTarget && <span style={{ position:"absolute", top:5, right:5, fontSize: 11, fontWeight:700, color:"#f59e0b", background:"#fef3c7", border:"1px solid #fde68a", borderRadius:10, padding:"1px 5px" }}><T>{"교체 대기"}</T></span>}
                   </div>
                   <div style={{ padding:"8px 10px", borderTop:"1px solid #e4e4e7", background:"#fafafa" }}>
                     <div style={{ display:"flex", alignItems:"center", gap:4 }}>
-                      <span style={{ fontSize:11, fontWeight:600, color:"#3f3f46", flex:1 }}>{v.name}</span>
+                      <span style={{ fontSize:11, fontWeight:600, color:"#3f3f46", flex:1 }}>{t(v.name)}</span>
                     </div>
-                    <div style={{ fontSize: 11, color:"#71717a", marginTop:1 }}>{v.desc}</div>
+                    <div style={{ fontSize: 11, color:"#71717a", marginTop:1 }}>{t(v.desc)}</div>
                     <div style={{ display:"flex", gap:5, marginTop:8 }}>
                       <button onClick={() => castVote(v.file, v.name)} title={isVoted ? "이미 투표함" : "이 버전 추천"}
                         style={{ flex:1, background: isVoted ? "rgba(99,102,241,0.08)" : "transparent", border:`1px solid ${isVoted ? "#6366f1" : "#e4e4e7"}`, borderRadius:6, padding:"5px 0", fontSize:11, color: isVoted ? "#6366f1" : "#71717a", cursor:"pointer", transition:"all .15s", fontWeight: isVoted ? 600 : 400 }}>
@@ -1052,7 +1019,7 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
 
           {/* 공유 — 무엇을 복사할지 고르고 버튼 하나로 실행한다 */}
           <div style={{ padding:"14px 16px", borderBottom:"1px solid #e4e4e7" }}>
-            <div style={{ fontSize: 11, fontWeight:700, color:"#71717a", letterSpacing:".08em", textTransform:"uppercase", marginBottom:10 }}>공유하기 🎉</div>
+            <div style={{ fontSize: 11, fontWeight:700, color:"#71717a", letterSpacing:".08em", textTransform:"uppercase", marginBottom:10 }}><T>{"공유하기 🎉"}</T></div>
 
             {/* 무엇을 복사할지 */}
             <div style={{ display:"flex", gap:4, marginBottom:8 }}>
@@ -1063,7 +1030,7 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
                     style={{ flex:1, padding:"6px 0", borderRadius:7, fontSize:11, fontWeight:600, cursor:"pointer",
                              background: on ? "#111" : "#f4f4f5", color: on ? "#fff" : "#71717a",
                              border: `1px solid ${on ? "#111" : "#e4e4e7"}`, transition:"all .12s" }}>
-                    {t.label}
+                    <T>{t.label}</T>
                   </button>
                 );
               })}
@@ -1081,19 +1048,19 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
               style={{ width:"100%", display:"flex", alignItems:"center", justifyContent:"center", gap:6,
                        padding:"9px 0", borderRadius:8, fontSize:12, fontWeight:600, cursor:"pointer",
                        background: copyDone ? "#16a34a" : "#6366f1", color:"#fff", border:"none", transition:"background .15s" }}>
-              {copyDone ? "✅ 복사됐어요" : "📋 복사하기"}
+              {copyDone ? t("✅ 복사됐어요") : t("📋 복사하기")}
             </button>
 
             {shareFeed.length > 0 && (
               <div style={{ marginTop:12 }}>
-                <div style={{ fontSize: 11, fontWeight:700, color:"#71717a", letterSpacing:".06em", textTransform:"uppercase", marginBottom:5 }}>최근 활동</div>
+                <div style={{ fontSize: 11, fontWeight:700, color:"#71717a", letterSpacing:".06em", textTransform:"uppercase", marginBottom:5 }}><T>{"최근 활동"}</T></div>
                 {shareFeed.slice(-6).map((s, i) => (
                   <div key={i} style={{ display:"flex", alignItems:"center", gap:4, padding:"3px 0", borderBottom:"1px solid #f0f0f2" }}>
                     <span>{s.emoji}</span>
                     <span style={{ fontSize: 12, color:"#3f3f46", flex:1 }}>
-                      {s.type === "vote" ? <><span style={{ color:"#6366f1" }}>"{s.label}"</span> 추천 👍</>
-                       : s.type === "swap" ? <><span style={{ color:"#f59e0b" }}>"{s.label}"</span> 교체 요청 🔄</>
-                       : "퍼가기 🎉"}
+                      {s.type === "vote" ? <><span style={{ color:"#6366f1" }}>"{s.label}"</span><T>{"추천 👍"}</T></>
+                       : s.type === "swap" ? <><span style={{ color:"#f59e0b" }}>"{s.label}"</span><T>{"교체 요청 🔄"}</T></>
+                       : t("퍼가기 🎉")}
                     </span>
                     <span style={{ fontSize: 11, color:"#71717a" }}>{relTime(s.ts)}</span>
                   </div>
@@ -1104,10 +1071,10 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
 
           {/* 제보 & 개선 */}
           <div style={{ padding:"14px 16px", borderBottom:"1px solid #e4e4e7" }}>
-            <div style={{ fontSize: 11, fontWeight:700, color:"#71717a", letterSpacing:".08em", textTransform:"uppercase", marginBottom:10 }}>제보 &amp; 개선</div>
+            <div style={{ fontSize: 11, fontWeight:700, color:"#71717a", letterSpacing:".08em", textTransform:"uppercase", marginBottom:10 }}><T>{"제보 & 개선"}</T></div>
             <button onClick={() => setReportOpen(o => !o)}
               style={{ width:"100%", padding:"9px 0", borderRadius:8, fontSize:11, fontWeight:600, background:"#f4f4f5", color:"#52525b", border:"1px solid #e4e4e7", cursor:"pointer" }}>
-              {reportOpen ? "↩ 접기" : "✉️ 더 좋은 버전 제보하기"}
+              {reportOpen ? t("↩ 접기") : t("✉️ 더 좋은 버전 제보하기")}
             </button>
             {reportOpen && (
               <form onSubmit={handleReport} style={{ marginTop:12, paddingTop:12, borderTop:"1px solid #e4e4e7", display:"flex", flexDirection:"column", gap:7 }}>
@@ -1120,19 +1087,15 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
                 <div style={{ display:"flex", gap:6 }}>
                   <button type="submit" disabled={reportStatus === "sending"}
                     style={{ flex:1, padding:"7px 0", borderRadius:8, fontSize:11, fontWeight:600, background:"#6366f1", color:"#fff", border:"none", cursor:"pointer" }}>
-                    {reportStatus === "sending" ? "전송 중…" : reportStatus === "done" ? "✅ 감사합니다!" : "전송"}
+                    {reportStatus === "sending" ? t("전송 중…") : reportStatus === "done" ? t("✅ 감사합니다!") : t("전송")}
                   </button>
                   <button type="button" onClick={() => setReportOpen(false)}
-                    style={{ padding:"7px 14px", borderRadius:8, fontSize:11, fontWeight:600, background:"#f4f4f5", color:"#52525b", border:"1px solid #e4e4e7", cursor:"pointer" }}>
-                    취소
-                  </button>
+                    style={{ padding:"7px 14px", borderRadius:8, fontSize:11, fontWeight:600, background:"#f4f4f5", color:"#52525b", border:"1px solid #e4e4e7", cursor:"pointer" }}><T>{"취소"}</T></button>
                 </div>
               </form>
             )}
             {/* 새 로고 제보 링크 */}
-            <Link href="/submit" style={{ display:"flex", alignItems:"center", justifyContent:"center", gap:5, marginTop:8, padding:"8px 0", borderRadius:8, fontSize:11, fontWeight:500, color:"#6366f1", border:"1px solid rgba(99,102,241,.25)", background:"rgba(99,102,241,.05)", textDecoration:"none" }}>
-              ➕ 새 브랜드 로고 제보하기
-            </Link>
+            <Link href="/submit" style={{ display:"flex", alignItems:"center", justifyContent:"center", gap:5, marginTop:8, padding:"8px 0", borderRadius:8, fontSize:11, fontWeight:500, color:"#6366f1", border:"1px solid rgba(99,102,241,.25)", background:"rgba(99,102,241,.05)", textDecoration:"none" }}><T>{"➕ 새 브랜드 로고 제보하기"}</T></Link>
           </div>
 
           {/* 광고 슬롯 — 환경변수가 없으면 통째로 렌더되지 않는다.

@@ -25,7 +25,7 @@ import Header from "@/components/Header";
 const ADMIN_EMAIL = "juuuno1116@gmail.com";
 
 /** 외부 운영 도구 — 주소가 바뀌면 여기만 고친다 */
-const FANEASY_ADMIN = "https://faneasy.kr/admin";
+const FANEASY_ADMIN = "https://www.faneasy.kr/sites/semologo/admin";
 const GA_PROPERTY = "https://analytics.google.com/analytics/web/#/p548184496/reports/intelligenthome";
 
 export default function AdminPage() {

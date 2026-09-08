@@ -1,3 +1,4 @@
+import CatalogIntro from "@/components/CatalogIntro";
 import Header from "@/components/Header";
 import { fetchBrandsSlim, sortForGrid, type Brand } from "@/lib/brands";
 import BrandGrid from "@/components/BrandGrid";
@@ -30,6 +31,7 @@ export default async function Home() {
         <VibersAdSlot slot="home_top" />
       </div>
       <main className="max-w-[1280px] mx-auto px-4 pb-20">
+        <CatalogIntro />
         <BrandGrid initialBrands={initialBrands} />
       </main>
     </div>

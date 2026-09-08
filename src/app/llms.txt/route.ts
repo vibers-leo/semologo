@@ -56,6 +56,13 @@ export async function GET() {
 - 파일이 없을 수 있다. 응답이 \`text/html\` 이면 404 폴백이므로 이미지로 쓰지 말 것.
 - CORS 는 \`*\` 로 열려 있어 브라우저에서 직접 fetch 가능하다.
 
+## 언어와 파일 형식
+
+- 한국어: https://semologo.com/ · English: https://semologo.com/en
+- SVG is a vector format supported by Illustrator. An SVG download is not an original .ai file.
+- AI·SVG 안내: https://semologo.com/ai-logo-download
+- 로고 모음: https://semologo.com/logo-collection
+
 ## 페이지
 
 - 홈(브랜드 검색·목록): https://semologo.com/

@@ -1,5 +1,7 @@
 "use client";
 
+import { useLocale, T } from "@/lib/locale-context";
+import FavoriteButton from "./FavoriteButton";
 import { useMemo, useState, useEffect, useRef, useDeferredValue } from "react";
 import dynamic from "next/dynamic";
 import { BRAND_DATA_FALLBACK, Brand, sortForGrid, type SortMode } from "@/lib/brands";
@@ -39,6 +41,7 @@ const PAGE_SIZE = 60;
 /** 빌드 시점에 서버가 넘겨주는 첫 화면 카드. 이게 없으면 클라이언트가
  *  1.15MB JSON 을 받아 파싱할 때까지 그리드가 비어 있다(실측 1,000ms). */
 export default function BrandGrid({ initialBrands = [] }: { initialBrands?: Brand[] }) {
+  const {en, t, path} = useLocale();
   const { query, selectedCats, toggleCat, clearCats } = useSearch();
   const [brands, setBrands] = useState<Brand[]>(initialBrands);
   const [loading, setLoading] = useState(initialBrands.length === 0);
@@ -322,7 +325,7 @@ export default function BrandGrid({ initialBrands = [] }: { initialBrands?: Bran
     return (
       <div style={{ padding: "80px 0", textAlign: "center", color: "#a1a1aa" }}>
         <div style={{ fontSize: 28, marginBottom: 12 }}>⏳</div>
-        <div style={{ fontSize: 14 }}>로고 데이터 로딩 중...</div>
+        <div style={{ fontSize: 14 }}><T>{"로고 데이터 로딩 중..."}</T></div>
       </div>
     );
   }
@@ -333,11 +336,9 @@ export default function BrandGrid({ initialBrands = [] }: { initialBrands?: Bran
     return (
       <div style={{ padding: "80px 0", textAlign: "center", color: "var(--text-secondary)" }}>
         <div style={{ fontSize: 28, marginBottom: 12 }}>⚠️</div>
-        <p style={{ fontSize: 15, fontWeight: 700, color: "var(--text)" }}>로고 목록을 불러오지 못했어요</p>
-        <p style={{ fontSize: 13, marginTop: 6 }}>잠시 후 다시 시도해 주세요.</p>
-        <button onClick={() => window.location.reload()} className="mt-4 px-4 py-2 rounded-full text-sm font-semibold border" style={{ borderColor: "var(--border)" }}>
-          다시 시도
-        </button>
+        <p style={{ fontSize: 15, fontWeight: 700, color: "var(--text)" }}><T>{"로고 목록을 불러오지 못했어요"}</T></p>
+        <p style={{ fontSize: 13, marginTop: 6 }}><T>{"잠시 후 다시 시도해 주세요."}</T></p>
+        <button onClick={() => window.location.reload()} className="mt-4 px-4 py-2 rounded-full text-sm font-semibold border" style={{ borderColor: "var(--border)" }}><T>{"다시 시도"}</T></button>
       </div>
     );
   }
@@ -352,9 +353,7 @@ export default function BrandGrid({ initialBrands = [] }: { initialBrands?: Bran
       {/* ── 국내/해외 필터 ── */}
       {(originStats.kr > 0 || originStats.gl > 0) && (
         <div className="pt-5 pb-1">
-          <div className="text-xs font-semibold text-gray-500 tracking-wider uppercase mb-3">
-            지역
-          </div>
+          <div className="text-xs font-semibold text-gray-500 tracking-wider uppercase mb-3"><T>{"지역"}</T></div>
           <div className="flex flex-wrap gap-2">
             {([
               [null, "전체", brands.length],
@@ -363,13 +362,13 @@ export default function BrandGrid({ initialBrands = [] }: { initialBrands?: Bran
             ] as const).map(([val, label, count]) => {
               const on = origin === val;
               return (
-                <button key={label} onClick={() => setOrigin(val)}
+                <button key={t(label)} onClick={() => setOrigin(val)}
                   className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-sm font-medium transition-all"
                   style={on
                     ? { background: "#111", color: "#fff", border: "1.5px solid #111", transform: "scale(1.02)" }
                     : { background: "var(--surface)", color: "var(--text-secondary)", border: "1.5px solid var(--border)" }
                   }>
-                  {label}
+                  {t(label)}
                   <span className="text-xs opacity-60">{count.toLocaleString()}</span>
                 </button>
               );
@@ -381,9 +380,7 @@ export default function BrandGrid({ initialBrands = [] }: { initialBrands?: Bran
       {/* ── 파일형식 필터 ── */}
       {svgCount > 0 && (
         <div className="pt-5 pb-1">
-          <div className="text-xs font-semibold text-gray-500 tracking-wider uppercase mb-3">
-            파일형식
-          </div>
+          <div className="text-xs font-semibold text-gray-500 tracking-wider uppercase mb-3"><T>{"파일형식"}</T></div>
           <div className="flex flex-wrap gap-2">
             {([
               [null, "전체", brands.length],
@@ -391,13 +388,13 @@ export default function BrandGrid({ initialBrands = [] }: { initialBrands?: Bran
             ] as const).map(([val, label, count]) => {
               const on = fmt === val;
               return (
-                <button key={label} onClick={() => setFmt(val)}
+                <button key={t(label)} onClick={() => setFmt(val)}
                   className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-sm font-medium transition-all"
                   style={on
                     ? { background: "#111", color: "#fff", border: "1.5px solid #111", transform: "scale(1.02)" }
                     : { background: "var(--surface)", color: "var(--text-secondary)", border: "1.5px solid var(--border)" }
                   }>
-                  {label}
+                  {t(label)}
                   <span className="text-xs opacity-60">{count.toLocaleString()}</span>
                 </button>
               );
@@ -410,10 +407,8 @@ export default function BrandGrid({ initialBrands = [] }: { initialBrands?: Bran
       <div className="py-5">
         {/* 선택 상태 헤더 */}
         <div className="flex items-center justify-between mb-3">
-          <div className="text-xs font-semibold text-gray-500 tracking-wider uppercase">
-            카테고리
-            {selectedCats.size > 0 && (
-              <span className="ml-2 text-indigo-600">{selectedCats.size}개 선택됨</span>
+          <div className="text-xs font-semibold text-gray-500 tracking-wider uppercase"><T>{"카테고리"}</T>{selectedCats.size > 0 && (
+              <span className="ml-2 text-indigo-600">{selectedCats.size}<T>{"개 선택됨"}</T></span>
             )}
           </div>
           {selectedCats.size > 0 && (
@@ -421,9 +416,7 @@ export default function BrandGrid({ initialBrands = [] }: { initialBrands?: Bran
               className="text-xs text-gray-400 hover:text-gray-700 flex items-center gap-1 transition-colors">
               <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
                 <path d="M18 6 6 18M6 6l12 12"/>
-              </svg>
-              전체 초기화
-            </button>
+              </svg><T>{"전체 초기화"}</T></button>
           )}
         </div>
 
@@ -433,14 +426,14 @@ export default function BrandGrid({ initialBrands = [] }: { initialBrands?: Bran
             const isSelected = selectedCats.has(cat);
             const emoji = CAT_EMOJI[cat] || "📦";
             return (
-              <button key={cat} onClick={() => toggleCat(cat)}
+              <button key={t(cat)} onClick={() => toggleCat(cat)}
                 className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-sm font-medium transition-all"
                 style={isSelected
                   ? { background: "#111", color: "#fff", border: "1.5px solid #111", transform: "scale(1.02)" }
                   : { background: "var(--surface)", color: "var(--text-secondary)", border: "1.5px solid var(--border)" }
                 }>
                 <span style={{ fontSize: 13 }}>{emoji}</span>
-                {cat}
+                {t(cat)}
                 <span className="text-xs opacity-60 ml-0.5">{count.toLocaleString()}</span>
               </button>
             );
@@ -452,8 +445,8 @@ export default function BrandGrid({ initialBrands = [] }: { initialBrands?: Bran
               className="inline-flex items-center gap-1 px-3 py-1.5 rounded-full text-sm font-medium transition-colors"
               style={{ border: "1.5px dashed var(--border)", color: "var(--text-secondary)" }}>
               {showAllCats
-                ? <><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"><path d="m18 15-6-6-6 6"/></svg> 접기</>
-                : <><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"><path d="m6 9 6 6 6-6"/></svg> +{categoryStats.length - SHOW_LIMIT}개 더보기</>
+                ? <><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"><path d="m18 15-6-6-6 6"/></svg><T>{"접기"}</T></>
+                : <><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"><path d="m6 9 6 6 6-6"/></svg> +{categoryStats.length - SHOW_LIMIT}<T>{"개 더보기"}</T></>
               }
             </button>
           )}
@@ -462,13 +455,13 @@ export default function BrandGrid({ initialBrands = [] }: { initialBrands?: Bran
         {/* 선택된 카테고리 요약 칩 */}
         {selectedCats.size > 0 && (
           <div className="flex items-center gap-2 mt-3 pt-3 border-t" style={{ borderColor: "var(--border)" }}>
-            <span className="text-xs text-gray-400 shrink-0">선택:</span>
+            <span className="text-xs text-gray-400 shrink-0"><T>{"선택:"}</T></span>
             <div className="flex flex-wrap gap-1.5">
               {Array.from(selectedCats).map(cat => (
-                <button key={cat} onClick={() => toggleCat(cat)}
+                <button key={t(cat)} onClick={() => toggleCat(cat)}
                   className="inline-flex items-center gap-1 px-2.5 py-1 rounded-full text-xs font-medium"
                   style={{ background: "rgba(99,102,241,.1)", color: "#6366f1", border: "1px solid rgba(99,102,241,.2)" }}>
-                  {cat}
+                  {t(cat)}
                   <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
                     <path d="M18 6 6 18M6 6l12 12"/>
                   </svg>
@@ -482,8 +475,7 @@ export default function BrandGrid({ initialBrands = [] }: { initialBrands?: Bran
       {/* ── 결과 카운트 ── */}
       <div className="flex items-center justify-between mb-4">
         <p className="text-sm" style={{ color: "var(--text-secondary)" }}>
-          <span className="font-semibold text-gray-900">{filtered.length.toLocaleString()}</span>개 브랜드
-          {/* 정렬 토글 — 기본 인기순. 최신순도 남겨 새로 들어온 로고를 볼 수 있게 한다. */}
+          <span className="font-semibold text-gray-900">{filtered.length.toLocaleString()}</span><T>{"개 브랜드"}</T>{/* 정렬 토글 — 기본 인기순. 최신순도 남겨 새로 들어온 로고를 볼 수 있게 한다. */}
           <span style={{ marginLeft: 12, display: "inline-flex", gap: 4 }}>
             {([["fame", "인기순"], ["recent", "최신순"]] as const).map(([m2, label]) => (
               <button key={m2} onClick={() => { setSortMode(m2); setPage(1); }}
@@ -493,31 +485,29 @@ export default function BrandGrid({ initialBrands = [] }: { initialBrands?: Bran
                   background: sortMode === m2 ? "#111" : "transparent",
                   color: sortMode === m2 ? "#fff" : "var(--text-secondary)",
                 }}>
-                {label}
+                {t(label)}
               </button>
             ))}
           </span>
-          {query && <span className="ml-2 text-indigo-500">"{query}" 검색 결과</span>}
+          {query && <span className="ml-2 text-indigo-500">"{query}<T>{"\" 검색 결과"}</T></span>}
           {selectedCats.size > 0 && !query && (
-            <span className="ml-2 text-indigo-500">필터 적용됨</span>
+            <span className="ml-2 text-indigo-500"><T>{"필터 적용됨"}</T></span>
           )}
         </p>
         {(query || selectedCats.size > 0) && (
           <button onClick={() => { clearCats(); }}
-            className="text-xs text-gray-400 hover:text-gray-700 transition-colors">
-            필터 해제
-          </button>
+            className="text-xs text-gray-400 hover:text-gray-700 transition-colors"><T>{"필터 해제"}</T></button>
         )}
       </div>
 
       {!fullLoaded && (
         <div className="mb-4 flex flex-wrap items-center justify-between gap-2 rounded-xl border px-3 py-2 text-sm"
           style={{ borderColor: "var(--border)", color: "var(--text-secondary)", background: "var(--surface)" }}>
-          <span>{loadError ? "전체 로고 목록을 아직 불러오지 못했어요." : "전체 로고 목록을 준비하고 있어요."}</span>
+          <span>{loadError ? t("전체 로고 목록을 아직 불러오지 못했어요.") : t("전체 로고 목록을 준비하고 있어요.")}</span>
           <button type="button" onClick={() => loadFullRef.current?.()}
             className="rounded-full border px-3 py-1 text-xs font-semibold"
             style={{ borderColor: "var(--border)", color: "var(--text)" }}>
-            {loadError ? "전체 목록 다시 불러오기" : "지금 불러오기"}
+            {loadError ? t("전체 목록 다시 불러오기") : t("지금 불러오기")}
           </button>
         </div>
       )}
@@ -525,17 +515,15 @@ export default function BrandGrid({ initialBrands = [] }: { initialBrands?: Bran
       {/* ── 카드 그리드 ── */}
       <div className="grid grid-cols-2 sm:grid-cols-4 xl:grid-cols-6 gap-3">
         {visible.map((brand, i) => (
-          <>
             <BrandCard
               key={brand.id}
               brand={brand}
               onClick={() => {
                 setSelected(brand);
-                history.replaceState(null, "", `/brand/${brand.id}`);
+                history.replaceState(null, "", path(`/brand/${brand.id}`));
               }}
               priority={i < 12}
             />
-          </>
         ))}
       </div>
 
@@ -543,26 +531,21 @@ export default function BrandGrid({ initialBrands = [] }: { initialBrands?: Bran
         <div ref={sentinelRef} className="flex flex-col items-center gap-2 pt-6">
           <button type="button" onClick={() => setPage(p => p + 1)}
             className="rounded-full border px-5 py-2 text-sm font-semibold transition-colors hover:bg-gray-50"
-            style={{ borderColor: "var(--border)", color: "var(--text)" }}>
-            로고 60개 더 보기
-          </button>
+            style={{ borderColor: "var(--border)", color: "var(--text)" }}><T>{"로고 60개 더 보기"}</T></button>
           <span className="text-xs" style={{ color: "var(--text-secondary)" }}>
-            {visible.length.toLocaleString()} / {filtered.length.toLocaleString()}개 표시 중
-          </span>
+            {visible.length.toLocaleString()} / {filtered.length.toLocaleString()}<T>{"개 표시 중"}</T></span>
         </div>
       )}
 
       {filtered.length === 0 && (
         <div className="text-center py-24" style={{ color: "var(--text-secondary)" }}>
           <p className="text-4xl mb-3">🔍</p>
-          <p className="font-medium">검색 결과가 없어요</p>
-          <p className="text-sm mt-1">다른 키워드로 검색하거나 필터를 해제해보세요</p>
+          <p className="font-medium"><T>{"검색 결과가 없어요"}</T></p>
+          <p className="text-sm mt-1"><T>{"다른 키워드로 검색하거나 필터를 해제해보세요"}</T></p>
           {(query || selectedCats.size > 0) && (
             <button onClick={() => clearCats()}
               className="mt-4 px-4 py-2 rounded-full text-sm font-medium text-white"
-              style={{ background: "#111" }}>
-              필터 모두 해제
-            </button>
+              style={{ background: "#111" }}><T>{"필터 모두 해제"}</T></button>
           )}
         </div>
       )}
@@ -572,12 +555,12 @@ export default function BrandGrid({ initialBrands = [] }: { initialBrands?: Bran
           brand={selected}
           onClose={() => {
             setSelected(null);
-            history.replaceState(null, "", "/");
+            history.replaceState(null, "", path("/"));
           }}
           allBrands={brands}
           onSelectBrand={b => {
             setSelected(b);
-            history.replaceState(null, "", `/brand/${b.id}`);
+            history.replaceState(null, "", path(`/brand/${b.id}`));
           }}
         />
       )}
@@ -586,6 +569,7 @@ export default function BrandGrid({ initialBrands = [] }: { initialBrands?: Bran
 }
 
 function BrandCard({ brand, onClick, priority }: { brand: Brand; onClick: () => void; priority: boolean }) {
+  const {en, t} = useLocale();
   const svgUrl = `${CDN}/${brand.id}/logo.svg?v=${VERSION}`;
   const pngUrl = `${CDN}/${brand.id}/logo.png?v=${VERSION}`;
   const hasSvg = !!(brand.logo_svg || brand.has_svg);
@@ -597,7 +581,7 @@ function BrandCard({ brand, onClick, priority }: { brand: Brand; onClick: () => 
       {/* 흰색 로고는 밝은 체커 배경에서 안 보여 '빈 카드'처럼 된다 → 어두운 배경 */}
       <div className="card-preview" style={brand.light ? { background: "#18181b", backgroundImage: "none" } : undefined}>
         {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img src={initSrc} alt={brand.name_ko} loading={priority ? "eager" : "lazy"}
+        <img src={initSrc} alt={en ? brand.name_en || brand.name_ko : brand.name_ko} loading={priority ? "eager" : "lazy"}
           onLoad={e => {
             // 재시도로 살아났으면 자리표시자를 걷어낸다
             const img = e.currentTarget as HTMLImageElement;
@@ -653,13 +637,14 @@ function BrandCard({ brand, onClick, priority }: { brand: Brand; onClick: () => 
             카테고리와 배지를 아래 줄에 함께 두면 둘 다 온전히 보인다. */}
         <div className="card-info">
           <div className="card-name truncate">
-            {brand.name_ko}
-            {brand.name_en && brand.name_en !== brand.name_ko && (
+            {en ? brand.name_en || brand.name_ko : brand.name_ko}
+            {!en && brand.name_en && brand.name_en !== brand.name_ko && (
               <span className="card-name-en"> / {brand.name_en}</span>
             )}
           </div>
+          <FavoriteButton brand={brand} />
           <div className="card-meta">
-            <span className="card-category truncate">{brand.category}</span>
+            <span className="card-category truncate">{t(brand.category || "기타")}</span>
             <span className="card-tags">
               {hasSvg && <span className="card-tag tag-svg">SVG</span>}
               {hasPng && <span className="card-tag tag-png">PNG</span>}

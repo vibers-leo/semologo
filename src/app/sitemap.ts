@@ -1,10 +1,11 @@
+import { languageAlternates, localePath, type Locale } from "@/lib/locales";
 import type { MetadataRoute } from "next";
 import { fetchBrandsSlim } from "@/lib/brands";
 
 export const dynamic = "force-static";
 
-export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const base = process.env.NEXT_PUBLIC_APP_URL || "https://semo.vibers.co.kr";
+export async function buildSitemap(locale: Locale = "ko"): Promise<MetadataRoute.Sitemap> {
+  const base = "https://semologo.com";
 
   // ⚠️ 예전엔 `catch { brands = [] }` 였다. CDN 이 잠깐 죽으면 사이트맵이
   //    **URL 1개짜리로 쪼그라든 채 정상 200 으로 나가고**, 검색엔진은 그걸
@@ -29,7 +30,8 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   // 사이트 전체의 품질 평가만 떨어진다.
   const brandUrls = Array.isArray(brands)
     ? brands.filter((b) => !b.variant_of && !b.hidden).map((b) => ({
-        url: `${base}/brand/${b.id}`,
+        url: base + localePath(`/brand/${b.id}`, locale),
+        alternates: {languages: languageAlternates(`/brand/${b.id}`)},
         lastModified: b.added_at ? new Date(b.added_at) : new Date(),
         changeFrequency: "monthly" as const,
         priority: 0.7,
@@ -37,7 +39,10 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     : [];
 
   return [
-    { url: base, lastModified: new Date(), changeFrequency: "daily", priority: 1 },
+    { url: base + localePath("/", locale), alternates: {languages: languageAlternates("/")}, changeFrequency: "daily", priority: 1 },
+    ...["/logo-collection", "/ai-logo-download", "/faq"].map(path => ({url: base + localePath(path, locale), alternates: {languages: languageAlternates(path)}, priority: 0.8})),
     ...brandUrls,
   ];
 }
+
+export default function sitemap() {return buildSitemap("ko");}

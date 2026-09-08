@@ -1,6 +1,6 @@
 "use client";
 
-import { createContext, useContext, useState, useCallback, useRef } from "react";
+import { createContext, useContext, useState, useCallback, useRef, useEffect } from "react";
 
 interface SearchCtxType {
   query: string;
@@ -20,6 +20,7 @@ const SearchCtx = createContext<SearchCtxType>({
 
 export function SearchProvider({ children }: { children: React.ReactNode }) {
   const [query, setQueryRaw] = useState("");
+  useEffect(() => {setQueryRaw(new URLSearchParams(location.search).get("q") || "");}, []);
   const [selectedCats, setSelectedCats] = useState<Set<string>>(new Set());
 
   const setQuery = useCallback((q: string) => setQueryRaw(q), []);

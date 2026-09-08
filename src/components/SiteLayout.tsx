@@ -3,12 +3,14 @@ import Script from "next/script";
 import { SearchProvider } from "@/lib/search-context";
 import { CDN, VERSION } from "@/lib/cdn";
 import Footer from "@/components/Footer";
-import "./globals.css";
+import "@/app/globals.css";
+import { LocaleProvider } from "@/lib/locale-context";
+import type { Locale } from "@/lib/locales";
 import ViewTracker from "@/components/ViewTracker";
 import ChunkRecovery from "@/components/ChunkRecovery";
 
 const GA_ID = "G-NWML2V1S7V";
-const SITE = process.env.NEXT_PUBLIC_APP_URL || "https://semologo.com";
+const SITE = "https://semologo.com";
 
 /**
  * 브랜드 수를 빌드 시점에 실제 데이터에서 읽는다.
@@ -31,14 +33,14 @@ async function brandCount(): Promise<string> {
   }
 }
 
-export async function generateMetadata(): Promise<Metadata> {
+export async function siteMetadata(locale: Locale = "ko"): Promise<Metadata> {
   const n = await brandCount();
   return {
     metadataBase: new URL(SITE),
-    title: "세모로고 — 세상 모든 로고",
-    description: `브랜드 로고를 SVG·PNG로 무료 다운로드. 현대·삼성·LG·SK·스타벅스 등 ${n}개 브랜드. 세상 모든 로고, 세모로고.`,
-    keywords: ["로고", "브랜드로고", "SVG 로고", "PNG 로고", "로고 다운로드", "기업 로고", "무료 로고", "세모로고", "semologo", "로고창고"],
-    alternates: { canonical: "/" },
+    title: locale === "en" ? "SemoLogo — Brand logos in SVG & PNG" : "세모로고 — 브랜드 로고 모음 · SVG·PNG 다운로드",
+    description: locale === "en" ? `Explore ${n} brand logos. Download SVG vectors and PNG images, save favorites, and open SVG files in Adobe Illustrator.` : `브랜드 로고 모음 ${n}개. SVG 벡터·PNG 무료 다운로드와 Illustrator에서 여는 방법을 확인하고 필요한 로고를 즐겨찾기에 모아보세요.`,
+    keywords: ["로고", "브랜드로고", "SVG 로고", "PNG 로고", "로고 다운로드", "기업 로고", "무료 로고", "세모로고", "semologo", "로고창고", "로고모음", "AI 로고 다운로드", "일러스트 로고"],
+    alternates: { canonical: locale === "en" ? "/en" : "/", languages: { ko: "/", en: "/en", "x-default": "/" } },
     other: {
       "naver-site-verification": "f8377ea94a22905671d864f6c08c3e9ea3a1d368",
     },
@@ -48,19 +50,19 @@ export async function generateMetadata(): Promise<Metadata> {
     },
     manifest: "/manifest.webmanifest",
     openGraph: {
-      title: "세모로고 — 세상 모든 로고",
-      description: `현대·삼성·LG·SK 등 ${n}개 브랜드 로고를 SVG·PNG로 무료 다운로드`,
+      title: locale === "en" ? "SemoLogo — Brand logos in SVG & PNG" : "세모로고 — 브랜드 로고 모음 · SVG·PNG 다운로드",
+      description: locale === "en" ? `Explore ${n} brand logos in SVG and PNG.` : `현대·삼성·LG·SK 등 ${n}개 브랜드 로고를 SVG·PNG로 무료 다운로드`,
       siteName: "세모로고",
-      url: SITE,
+      url: locale === "en" ? `${SITE}/en` : SITE,
       type: "website",
       // 한국어 사이트임을 명시한다. 없으면 SNS·검색엔진이 언어를 추정해야 한다.
-      locale: "ko_KR",
+      locale: locale === "en" ? "en_US" : "ko_KR",
       images: [{ url: `${SITE}/og-cover.jpg`, width: 1200, height: 630, alt: `세모로고 — ${n}개 브랜드 로고 무료 다운로드` }],
     },
     twitter: {
       card: "summary_large_image",
-      title: "세모로고 — 세상 모든 로고",
-      description: `${n}개 브랜드 로고 SVG·PNG 무료 다운로드`,
+      title: locale === "en" ? "SemoLogo — Brand logos in SVG & PNG" : "세모로고 — 브랜드 로고 모음 · SVG·PNG 다운로드",
+      description: locale === "en" ? `Explore ${n} brand logos in SVG and PNG.` : `${n}개 브랜드 로고 SVG·PNG 무료 다운로드`,
       images: [`${SITE}/og-cover.jpg`],
     },
   };
@@ -127,15 +129,15 @@ function siteJsonLd(count: string) {
 }
 
 export default async function RootLayout({
-  children,
-}: Readonly<{ children: React.ReactNode }>) {
+  children, locale = "ko",
+}: Readonly<{ children: React.ReactNode; locale?: Locale }>) {
   const count = await brandCount();
   return (
-    <html lang="ko">
+    <html lang={locale}>
       <head>
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(siteJsonLd(count)) }}
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(locale === "en" ? {"@context": "https://schema.org", "@type": "WebSite", name: "SemoLogo", url: `${SITE}/en`, inLanguage: "en", description: "Brand logo collection with SVG and PNG downloads", potentialAction: {"@type": "SearchAction", target: `${SITE}/en?q={search_term_string}`, "query-input": "required name=search_term_string"}} : siteJsonLd(count)) }}
         />
         {/* 광고 서버 선연결 — 슬롯 iframe 첫 요청의 TLS 핸드셰이크 선처리 */}
         <link rel="preconnect" href="https://ai.vibers.co.kr" />
@@ -155,7 +157,7 @@ export default async function RootLayout({
         />
       </head>
       <body className="min-h-screen flex flex-col">
-        <ChunkRecovery /><ViewTracker /><SearchProvider><div className="flex-1">{children}</div><Footer /></SearchProvider></body>
+        <ChunkRecovery /><ViewTracker /><LocaleProvider locale={locale}><SearchProvider><div className="flex-1">{children}</div><Footer /></SearchProvider></LocaleProvider></body>
     </html>
   );
 }

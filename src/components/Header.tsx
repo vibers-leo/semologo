@@ -1,5 +1,7 @@
 "use client";
 
+import LanguageSwitch from "./LanguageSwitch";
+import { useLocale, T } from "@/lib/locale-context";
 import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
@@ -29,14 +31,10 @@ function UserMenu({ user }: { user: User }) {
           style={{ background: "#fff", borderColor: "var(--border)" }}>
           <Link href="/mypage" onClick={() => setOpen(false)}
             className="block px-4 py-3 text-sm hover:bg-gray-50 transition-colors"
-            style={{ textDecoration: "none", color: "inherit" }}>
-            마이페이지
-          </Link>
+            style={{ textDecoration: "none", color: "inherit" }}><T>{"마이페이지"}</T></Link>
           <div style={{ height: 1, background: "var(--border)" }} />
           <button onClick={handleSignOut}
-            className="w-full text-left px-4 py-3 text-sm hover:bg-gray-50 transition-colors">
-            로그아웃
-          </button>
+            className="w-full text-left px-4 py-3 text-sm hover:bg-gray-50 transition-colors"><T>{"로그아웃"}</T></button>
         </div>
       )}
     </div>
@@ -65,6 +63,7 @@ const NAV_LINKS = [
 function SearchBar({
   className, query, setQuery,
 }: { className?: string; query: string; setQuery: (q: string) => void }) {
+  const {en} = useLocale();
   return (
     <div className={`relative ${className ?? ""}`}>
       <svg className="absolute left-3.5 top-1/2 -translate-y-1/2 text-gray-400 pointer-events-none"
@@ -75,7 +74,7 @@ function SearchBar({
         type="text"
         value={query}
         onChange={e => setQuery(e.target.value)}
-        placeholder="브랜드 검색 — 삼성, Nike, Starbucks..."
+        placeholder={en ? "Search brands — Samsung, Nike, Starbucks…" : "브랜드 검색 — 삼성, Nike, Starbucks..."}
         className="w-full pl-10 pr-9 py-2.5 text-sm rounded-full border outline-none transition-colors"
         style={{ border: "1.5px solid var(--border)", background: "var(--surface)", fontFamily: "inherit", fontSize: 16 }}
         onFocus={e => (e.currentTarget.style.borderColor = "#111")}
@@ -95,6 +94,7 @@ function SearchBar({
 }
 
 export default function Header() {
+  const {en, t, path} = useLocale();
   const { query, setQuery } = useSearch();
   const [user, setUser] = useState<User | null>(null);
   const [authLoaded, setAuthLoaded] = useState(false);
@@ -129,35 +129,35 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-50 border-b"
       style={{ background: "rgba(255,255,255,0.97)", backdropFilter: "blur(8px)", borderColor: "var(--border)" }}>
-      <div className="max-w-[1600px] mx-auto px-4 sm:px-6">
+      <div className="max-w-[1600px] mx-auto px-4 lg:px-6">
 
         {/* Row 1: 로고 + (데스크탑: 검색바 + 메뉴) / (모바일: 오른쪽 버튼들) */}
-        <div className="flex items-center gap-3 h-14 sm:h-20">
+        <div className="flex items-center gap-3 h-14 lg:h-20">
 
           {/* 로고 */}
-          <Link href="/" className="shrink-0 flex items-center" onClick={() => setQuery("")}>
-            <Image src="/semologo.png" alt="세모로고" width={983} height={265}
-              className="h-9 sm:h-14 w-auto object-contain" priority />
+          <Link href={path("/")} className="shrink-0 flex items-center" onClick={() => setQuery("")}>
+            <Image src="/semologo.png" alt={en ? "SemoLogo" : "세모로고"} width={983} height={265}
+              className="h-9 lg:h-14 w-auto object-contain" priority />
           </Link>
 
           {/* 데스크탑 전용 검색바 */}
-          <SearchBar className="hidden sm:block relative w-[480px] shrink-0 mx-auto" query={query} setQuery={setQuery} />
+          <SearchBar className="hidden lg:block relative w-full max-w-[480px] min-w-0 mx-auto" query={query} setQuery={setQuery} />
 
+          <Link href={path("/favorites")} className="shrink-0 text-xs font-medium" aria-label={en ? "Saved logos" : "즐겨찾는 로고"}>☆ <span className="hidden lg:inline">{en ? "Saved" : "즐겨찾기"}</span></Link>
+          <LanguageSwitch />
           {/* 데스크탑 우측 메뉴 */}
-          <nav className="hidden sm:flex items-center gap-2 shrink-0 ml-auto">
+          <nav className="hidden lg:flex items-center gap-2 shrink-0 ml-auto">
             {NAV_LINKS.map(({ label, href }) => (
-              <Link key={href} href={href}
+              <Link key={href} href={href === "/faq" ? path(href) : href}
                 className="flex items-center text-sm px-3 py-1.5 rounded-lg transition-colors hover:bg-gray-100"
                 style={{ color: "var(--text-secondary)" }}>
-                {label}
+                {t(label)}
               </Link>
             ))}
             {user?.email === ADMIN_EMAIL && (
-              <Link href="/requests"
+              <Link href="/admin"
                 className="text-sm px-2 py-1.5 rounded-lg transition-colors hover:bg-gray-100"
-                style={{ color: "#a1a1aa", fontSize: 11 }}>
-                관리
-              </Link>
+                style={{ color: "#a1a1aa", fontSize: 11 }}><T>{"관리"}</T></Link>
             )}
             {authLoaded && (
               user
@@ -165,15 +165,13 @@ export default function Header() {
                 : (
                   <Link href="/login"
                     className="flex text-sm px-3 py-1.5 rounded-full font-medium text-white ml-1"
-                    style={{ background: "#111" }}>
-                    로그인
-                  </Link>
+                    style={{ background: "#111" }}><T>{"로그인"}</T></Link>
                 )
             )}
           </nav>
 
           {/* 모바일 오른쪽: 로그인 아이콘 + 햄버거 */}
-          <div className="sm:hidden flex items-center gap-1 ml-auto">
+          <div className="lg:hidden flex items-center gap-1 ml-auto">
             {authLoaded && !user && (
               <Link href="/login"
                 className="flex items-center justify-center w-9 h-9 rounded-full"
@@ -189,7 +187,7 @@ export default function Header() {
                 onClick={() => setMenuOpen(v => !v)}
                 className="flex items-center justify-center w-11 h-11 rounded-lg transition-colors hover:bg-gray-100"
                 style={{ color: "var(--text-secondary)" }}
-                aria-label="메뉴 열기">
+                aria-label={en ? "Open menu" : "메뉴 열기"}>
                 {menuOpen
                   ? <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2"><path d="M18 6 6 18M6 6l12 12"/></svg>
                   : <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
@@ -199,33 +197,27 @@ export default function Header() {
                 <div className="absolute right-0 mt-2 w-44 rounded-xl border shadow-lg overflow-hidden z-50"
                   style={{ background: "#fff", borderColor: "var(--border)" }}>
                   {NAV_LINKS.map(({ label, href }) => (
-                    <Link key={href} href={href}
+                    <Link key={href} href={href === "/faq" ? path(href) : href}
                       onClick={() => setMenuOpen(false)}
                       className="block px-4 py-3 text-sm hover:bg-gray-50 transition-colors"
                       style={{ color: "var(--text)" }}>
-                      {label}
+                      {t(label)}
                     </Link>
                   ))}
                   {user?.email === ADMIN_EMAIL && (
-                    <Link href="/requests" onClick={() => setMenuOpen(false)}
+                    <Link href="/admin" onClick={() => setMenuOpen(false)}
                       className="block px-4 py-3 text-xs hover:bg-gray-50 transition-colors"
-                      style={{ color: "#a1a1aa" }}>
-                      관리
-                    </Link>
+                      style={{ color: "#a1a1aa" }}><T>{"관리"}</T></Link>
                   )}
                   <div className="border-t" style={{ borderColor: "var(--border)" }}>
                     {authLoaded && (
                       user
                         ? <button onClick={async () => { await signOut(getClientAuth()); setMenuOpen(false); }}
                             className="w-full text-left px-4 py-3 text-sm hover:bg-gray-50 transition-colors"
-                            style={{ color: "var(--text-secondary)" }}>
-                            로그아웃
-                          </button>
+                            style={{ color: "var(--text-secondary)" }}><T>{"로그아웃"}</T></button>
                         : <Link href="/login" onClick={() => setMenuOpen(false)}
                             className="block px-4 py-3 text-sm font-medium hover:bg-gray-50 transition-colors"
-                            style={{ color: "#111" }}>
-                            로그인
-                          </Link>
+                            style={{ color: "#111" }}><T>{"로그인"}</T></Link>
                     )}
                   </div>
                 </div>
@@ -235,7 +227,7 @@ export default function Header() {
         </div>
 
         {/* Row 2 (모바일 전용): 검색바 */}
-        <div className="sm:hidden pb-3">
+        <div className="lg:hidden pb-3">
           <SearchBar query={query} setQuery={setQuery} />
         </div>
 

@@ -12,7 +12,7 @@ import { fetchBrandsSlim, type Brand } from "@/lib/brands";
  */
 export const revalidate = 3600;
 
-const BASE = process.env.NEXT_PUBLIC_APP_URL || "https://semologo.com";
+const BASE = "https://semologo.com";
 const MAX = 200;
 
 function esc(s: string): string {

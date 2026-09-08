@@ -36,3 +36,4 @@
 - 2026-09-08: 검수 로고 507개(CDN), 신규 브랜드 63개 서비스 반영. 검수 기록: data/collection/published-review-20260908.json.
 
 - 2026-09-08: Lobe Icons·SVGL 검수 520종, 신규 77브랜드와 기존 278브랜드 연결. 검수 시트: artifacts/ai-svg-collection/publish-*.jpg.
+- 2026-09-09 FanEasy 어드민 진입 정리, 세션·UTM·체류 기록 보강, 브라우저 즐겨찾기, 한영 카탈로그 및 Illustrator/로고모음 검색 안내 구현.
