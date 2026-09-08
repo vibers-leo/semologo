@@ -1,0 +1,1183 @@
+{
+  "created_at": "2026-09-08",
+  "note": "첨부 4장은 브랜드 식별용. 이미지 2·3은 동일 목록, 이미지 4는 3개 브랜드 확대본. 아르마니·코치 반복을 합친 50개 브랜드. 참고 이미지 자체는 서비스 자산으로 사용하지 않는다.",
+  "brands": [
+    {
+      "id": "chanel",
+      "name_ko": "샤넬",
+      "name_en": "Chanel",
+      "aliases": [],
+      "category": "패션",
+      "status": "verify_existing_identity_and_forms",
+      "existing_candidates": [
+        {
+          "id": "chanel",
+          "name_ko": "샤넬",
+          "name_en": "Chanel",
+          "has_svg": true
+        }
+      ],
+      "source_type": "user_reference_image",
+      "use_reference_as_asset": false,
+      "required_format": [
+        "svg",
+        "ai",
+        "eps",
+        "vector_pdf"
+      ],
+      "notes": "참고 이미지 재배포·트레이싱 금지. 공식 원본을 수집하고 형태를 대조한다."
+    },
+    {
+      "id": "hermes",
+      "name_ko": "에르메스",
+      "name_en": "Hermès",
+      "aliases": [
+        "Hermes"
+      ],
+      "category": "패션",
+      "status": "verify_existing_identity_and_forms",
+      "existing_candidates": [
+        {
+          "id": "hermes",
+          "name_ko": "Hermes",
+          "name_en": "Hermes",
+          "has_svg": true
+        }
+      ],
+      "source_type": "user_reference_image",
+      "use_reference_as_asset": false,
+      "required_format": [
+        "svg",
+        "ai",
+        "eps",
+        "vector_pdf"
+      ],
+      "notes": "참고 이미지 재배포·트레이싱 금지. 공식 원본을 수집하고 형태를 대조한다."
+    },
+    {
+      "id": "louis-vuitton",
+      "name_ko": "루이비통",
+      "name_en": "Louis Vuitton",
+      "aliases": [],
+      "category": "패션",
+      "status": "verify_existing_identity_and_forms",
+      "existing_candidates": [
+        {
+          "id": "louisvuitton",
+          "name_ko": "루이비통",
+          "name_en": "Louis Vuitton",
+          "has_svg": true
+        }
+      ],
+      "source_type": "user_reference_image",
+      "use_reference_as_asset": false,
+      "required_format": [
+        "svg",
+        "ai",
+        "eps",
+        "vector_pdf"
+      ],
+      "notes": "참고 이미지 재배포·트레이싱 금지. 공식 원본을 수집하고 형태를 대조한다."
+    },
+    {
+      "id": "prada",
+      "name_ko": "프라다",
+      "name_en": "Prada",
+      "aliases": [],
+      "category": "패션",
+      "status": "verify_existing_identity_and_forms",
+      "existing_candidates": [
+        {
+          "id": "prada",
+          "name_ko": "프라다",
+          "name_en": "Prada",
+          "has_svg": true
+        }
+      ],
+      "source_type": "user_reference_image",
+      "use_reference_as_asset": false,
+      "required_format": [
+        "svg",
+        "ai",
+        "eps",
+        "vector_pdf"
+      ],
+      "notes": "참고 이미지 재배포·트레이싱 금지. 공식 원본을 수집하고 형태를 대조한다."
+    },
+    {
+      "id": "miu-miu",
+      "name_ko": "미우미우",
+      "name_en": "Miu Miu",
+      "aliases": [],
+      "category": "패션",
+      "status": "verify_existing_identity_and_forms",
+      "existing_candidates": [
+        {
+          "id": "miumiu",
+          "name_ko": "미우미우",
+          "name_en": "Miu Miu",
+          "has_svg": true
+        }
+      ],
+      "source_type": "user_reference_image",
+      "use_reference_as_asset": false,
+      "required_format": [
+        "svg",
+        "ai",
+        "eps",
+        "vector_pdf"
+      ],
+      "notes": "참고 이미지 재배포·트레이싱 금지. 공식 원본을 수집하고 형태를 대조한다."
+    },
+    {
+      "id": "dior",
+      "name_ko": "디올",
+      "name_en": "Dior",
+      "aliases": [
+        "Christian Dior"
+      ],
+      "category": "패션",
+      "status": "verify_existing_identity_and_forms",
+      "existing_candidates": [
+        {
+          "id": "dior",
+          "name_ko": "Dior",
+          "name_en": "Dior",
+          "has_svg": true
+        }
+      ],
+      "source_type": "user_reference_image",
+      "use_reference_as_asset": false,
+      "required_format": [
+        "svg",
+        "ai",
+        "eps",
+        "vector_pdf"
+      ],
+      "notes": "참고 이미지 재배포·트레이싱 금지. 공식 원본을 수집하고 형태를 대조한다."
+    },
+    {
+      "id": "gucci",
+      "name_ko": "구찌",
+      "name_en": "Gucci",
+      "aliases": [],
+      "category": "패션",
+      "status": "verify_existing_identity_and_forms",
+      "existing_candidates": [
+        {
+          "id": "gucci",
+          "name_ko": "구찌",
+          "name_en": "Gucci",
+          "has_svg": true
+        }
+      ],
+      "source_type": "user_reference_image",
+      "use_reference_as_asset": false,
+      "required_format": [
+        "svg",
+        "ai",
+        "eps",
+        "vector_pdf"
+      ],
+      "notes": "참고 이미지 재배포·트레이싱 금지. 공식 원본을 수집하고 형태를 대조한다."
+    },
+    {
+      "id": "jil-sander",
+      "name_ko": "질샌더",
+      "name_en": "Jil Sander",
+      "aliases": [],
+      "category": "패션",
+      "status": "verify_existing_identity_and_forms",
+      "existing_candidates": [
+        {
+          "id": "jil-sander",
+          "name_ko": "Jil Sander",
+          "name_en": "Jil Sander",
+          "has_svg": true
+        }
+      ],
+      "source_type": "user_reference_image",
+      "use_reference_as_asset": false,
+      "required_format": [
+        "svg",
+        "ai",
+        "eps",
+        "vector_pdf"
+      ],
+      "notes": "참고 이미지 재배포·트레이싱 금지. 공식 원본을 수집하고 형태를 대조한다."
+    },
+    {
+      "id": "bottega-veneta",
+      "name_ko": "보테가 베네타",
+      "name_en": "Bottega Veneta",
+      "aliases": [],
+      "category": "패션",
+      "status": "verify_existing_identity_and_forms",
+      "existing_candidates": [
+        {
+          "id": "bottegaveneta",
+          "name_ko": "보테가 베네타",
+          "name_en": "Bottega Veneta",
+          "has_svg": true
+        }
+      ],
+      "source_type": "user_reference_image",
+      "use_reference_as_asset": false,
+      "required_format": [
+        "svg",
+        "ai",
+        "eps",
+        "vector_pdf"
+      ],
+      "notes": "참고 이미지 재배포·트레이싱 금지. 공식 원본을 수집하고 형태를 대조한다."
+    },
+    {
+      "id": "burberry",
+      "name_ko": "버버리",
+      "name_en": "Burberry",
+      "aliases": [],
+      "category": "패션",
+      "status": "verify_existing_identity_and_forms",
+      "existing_candidates": [
+        {
+          "id": "burberry",
+          "name_ko": "버버리",
+          "name_en": "Burberry",
+          "has_svg": true
+        }
+      ],
+      "source_type": "user_reference_image",
+      "use_reference_as_asset": false,
+      "required_format": [
+        "svg",
+        "ai",
+        "eps",
+        "vector_pdf"
+      ],
+      "notes": "참고 이미지 재배포·트레이싱 금지. 공식 원본을 수집하고 형태를 대조한다."
+    },
+    {
+      "id": "celine",
+      "name_ko": "셀린느",
+      "name_en": "Celine",
+      "aliases": [],
+      "category": "패션",
+      "status": "verify_existing_identity_and_forms",
+      "existing_candidates": [
+        {
+          "id": "celine",
+          "name_ko": "셀린느",
+          "name_en": "Céline",
+          "has_svg": true
+        }
+      ],
+      "source_type": "user_reference_image",
+      "use_reference_as_asset": false,
+      "required_format": [
+        "svg",
+        "ai",
+        "eps",
+        "vector_pdf"
+      ],
+      "notes": "참고 이미지 재배포·트레이싱 금지. 공식 원본을 수집하고 형태를 대조한다."
+    },
+    {
+      "id": "chloe",
+      "name_ko": "끌로에",
+      "name_en": "Chloé",
+      "aliases": [
+        "Chloe"
+      ],
+      "category": "패션",
+      "status": "collect_original",
+      "existing_candidates": [],
+      "source_type": "user_reference_image",
+      "use_reference_as_asset": false,
+      "required_format": [
+        "svg",
+        "ai",
+        "eps",
+        "vector_pdf"
+      ],
+      "notes": "참고 이미지 재배포·트레이싱 금지. 공식 원본을 수집하고 형태를 대조한다."
+    },
+    {
+      "id": "lemaire",
+      "name_ko": "르메르",
+      "name_en": "Lemaire",
+      "aliases": [],
+      "category": "패션",
+      "status": "collect_original",
+      "existing_candidates": [],
+      "source_type": "user_reference_image",
+      "use_reference_as_asset": false,
+      "required_format": [
+        "svg",
+        "ai",
+        "eps",
+        "vector_pdf"
+      ],
+      "notes": "참고 이미지 재배포·트레이싱 금지. 공식 원본을 수집하고 형태를 대조한다."
+    },
+    {
+      "id": "loewe",
+      "name_ko": "로에베",
+      "name_en": "Loewe",
+      "aliases": [],
+      "category": "패션",
+      "status": "verify_existing_identity_and_forms",
+      "existing_candidates": [
+        {
+          "id": "loewe",
+          "name_ko": "로에베",
+          "name_en": "Loewe",
+          "has_svg": true
+        }
+      ],
+      "source_type": "user_reference_image",
+      "use_reference_as_asset": false,
+      "required_format": [
+        "svg",
+        "ai",
+        "eps",
+        "vector_pdf"
+      ],
+      "notes": "참고 이미지 재배포·트레이싱 금지. 공식 원본을 수집하고 형태를 대조한다."
+    },
+    {
+      "id": "balenciaga",
+      "name_ko": "발렌시아가",
+      "name_en": "Balenciaga",
+      "aliases": [],
+      "category": "패션",
+      "status": "verify_existing_identity_and_forms",
+      "existing_candidates": [
+        {
+          "id": "balenciaga",
+          "name_ko": "발렌시아가",
+          "name_en": "Balenciaga",
+          "has_svg": true
+        }
+      ],
+      "source_type": "user_reference_image",
+      "use_reference_as_asset": false,
+      "required_format": [
+        "svg",
+        "ai",
+        "eps",
+        "vector_pdf"
+      ],
+      "notes": "참고 이미지 재배포·트레이싱 금지. 공식 원본을 수집하고 형태를 대조한다."
+    },
+    {
+      "id": "valentino",
+      "name_ko": "발렌티노",
+      "name_en": "Valentino",
+      "aliases": [],
+      "category": "패션",
+      "status": "verify_existing_identity_and_forms",
+      "existing_candidates": [
+        {
+          "id": "valentino",
+          "name_ko": "발렌티노",
+          "name_en": "Valentino",
+          "has_svg": true
+        }
+      ],
+      "source_type": "user_reference_image",
+      "use_reference_as_asset": false,
+      "required_format": [
+        "svg",
+        "ai",
+        "eps",
+        "vector_pdf"
+      ],
+      "notes": "참고 이미지 재배포·트레이싱 금지. 공식 원본을 수집하고 형태를 대조한다."
+    },
+    {
+      "id": "acne-studios",
+      "name_ko": "아크네 스튜디오",
+      "name_en": "Acne Studios",
+      "aliases": [],
+      "category": "패션",
+      "status": "verify_existing_identity_and_forms",
+      "existing_candidates": [
+        {
+          "id": "acne-studios",
+          "name_ko": "아크네 스튜디오",
+          "name_en": "Acne Studios",
+          "has_svg": true
+        }
+      ],
+      "source_type": "user_reference_image",
+      "use_reference_as_asset": false,
+      "required_format": [
+        "svg",
+        "ai",
+        "eps",
+        "vector_pdf"
+      ],
+      "notes": "참고 이미지 재배포·트레이싱 금지. 공식 원본을 수집하고 형태를 대조한다."
+    },
+    {
+      "id": "saint-laurent",
+      "name_ko": "생로랑",
+      "name_en": "Saint Laurent",
+      "aliases": [
+        "Yves Saint Laurent"
+      ],
+      "category": "패션",
+      "status": "verify_existing_identity_and_forms",
+      "existing_candidates": [
+        {
+          "id": "yves-saint-laurent",
+          "name_ko": "입생로랑",
+          "name_en": "Yves Saint Laurent",
+          "has_svg": true
+        }
+      ],
+      "source_type": "user_reference_image",
+      "use_reference_as_asset": false,
+      "required_format": [
+        "svg",
+        "ai",
+        "eps",
+        "vector_pdf"
+      ],
+      "notes": "참고 이미지 재배포·트레이싱 금지. 공식 원본을 수집하고 형태를 대조한다."
+    },
+    {
+      "id": "stella-mccartney",
+      "name_ko": "스텔라 매카트니",
+      "name_en": "Stella McCartney",
+      "aliases": [],
+      "category": "패션",
+      "status": "collect_original",
+      "existing_candidates": [],
+      "source_type": "user_reference_image",
+      "use_reference_as_asset": false,
+      "required_format": [
+        "svg",
+        "ai",
+        "eps",
+        "vector_pdf"
+      ],
+      "notes": "참고 이미지 재배포·트레이싱 금지. 공식 원본을 수집하고 형태를 대조한다."
+    },
+    {
+      "id": "givenchy",
+      "name_ko": "지방시",
+      "name_en": "Givenchy",
+      "aliases": [],
+      "category": "패션",
+      "status": "verify_existing_identity_and_forms",
+      "existing_candidates": [
+        {
+          "id": "givenchy",
+          "name_ko": "지방시",
+          "name_en": "Givenchy",
+          "has_svg": true
+        }
+      ],
+      "source_type": "user_reference_image",
+      "use_reference_as_asset": false,
+      "required_format": [
+        "svg",
+        "ai",
+        "eps",
+        "vector_pdf"
+      ],
+      "notes": "참고 이미지 재배포·트레이싱 금지. 공식 원본을 수집하고 형태를 대조한다."
+    },
+    {
+      "id": "bally",
+      "name_ko": "발리",
+      "name_en": "Bally",
+      "aliases": [],
+      "category": "패션",
+      "status": "verify_existing_identity_and_forms",
+      "existing_candidates": [
+        {
+          "id": "bally",
+          "name_ko": "발리",
+          "name_en": "Bally",
+          "has_svg": true
+        }
+      ],
+      "source_type": "user_reference_image",
+      "use_reference_as_asset": false,
+      "required_format": [
+        "svg",
+        "ai",
+        "eps",
+        "vector_pdf"
+      ],
+      "notes": "참고 이미지 재배포·트레이싱 금지. 공식 원본을 수집하고 형태를 대조한다."
+    },
+    {
+      "id": "versace",
+      "name_ko": "베르사체",
+      "name_en": "Versace",
+      "aliases": [],
+      "category": "패션",
+      "status": "verify_existing_identity_and_forms",
+      "existing_candidates": [
+        {
+          "id": "versace",
+          "name_ko": "베르사체",
+          "name_en": "Versace",
+          "has_svg": true
+        }
+      ],
+      "source_type": "user_reference_image",
+      "use_reference_as_asset": false,
+      "required_format": [
+        "svg",
+        "ai",
+        "eps",
+        "vector_pdf"
+      ],
+      "notes": "참고 이미지 재배포·트레이싱 금지. 공식 원본을 수집하고 형태를 대조한다."
+    },
+    {
+      "id": "vivienne-westwood",
+      "name_ko": "비비안 웨스트우드",
+      "name_en": "Vivienne Westwood",
+      "aliases": [],
+      "category": "패션",
+      "status": "collect_original",
+      "existing_candidates": [],
+      "source_type": "user_reference_image",
+      "use_reference_as_asset": false,
+      "required_format": [
+        "svg",
+        "ai",
+        "eps",
+        "vector_pdf"
+      ],
+      "notes": "참고 이미지 재배포·트레이싱 금지. 공식 원본을 수집하고 형태를 대조한다."
+    },
+    {
+      "id": "balmain",
+      "name_ko": "발망",
+      "name_en": "Balmain",
+      "aliases": [],
+      "category": "패션",
+      "status": "verify_existing_identity_and_forms",
+      "existing_candidates": [
+        {
+          "id": "balmain",
+          "name_ko": "발망",
+          "name_en": "Balmain",
+          "has_svg": true
+        }
+      ],
+      "source_type": "user_reference_image",
+      "use_reference_as_asset": false,
+      "required_format": [
+        "svg",
+        "ai",
+        "eps",
+        "vector_pdf"
+      ],
+      "notes": "참고 이미지 재배포·트레이싱 금지. 공식 원본을 수집하고 형태를 대조한다."
+    },
+    {
+      "id": "jacquemus",
+      "name_ko": "자크뮈스",
+      "name_en": "Jacquemus",
+      "aliases": [],
+      "category": "패션",
+      "status": "verify_existing_identity_and_forms",
+      "existing_candidates": [
+        {
+          "id": "jacquemus",
+          "name_ko": "자크뮈스",
+          "name_en": "Jacquemus",
+          "has_svg": true
+        }
+      ],
+      "source_type": "user_reference_image",
+      "use_reference_as_asset": false,
+      "required_format": [
+        "svg",
+        "ai",
+        "eps",
+        "vector_pdf"
+      ],
+      "notes": "참고 이미지 재배포·트레이싱 금지. 공식 원본을 수집하고 형태를 대조한다."
+    },
+    {
+      "id": "paul-smith",
+      "name_ko": "폴스미스",
+      "name_en": "Paul Smith",
+      "aliases": [],
+      "category": "패션",
+      "status": "collect_original",
+      "existing_candidates": [],
+      "source_type": "user_reference_image",
+      "use_reference_as_asset": false,
+      "required_format": [
+        "svg",
+        "ai",
+        "eps",
+        "vector_pdf"
+      ],
+      "notes": "참고 이미지 재배포·트레이싱 금지. 공식 원본을 수집하고 형태를 대조한다."
+    },
+    {
+      "id": "tom-ford",
+      "name_ko": "톰포드",
+      "name_en": "Tom Ford",
+      "aliases": [],
+      "category": "패션",
+      "status": "verify_existing_identity_and_forms",
+      "existing_candidates": [
+        {
+          "id": "tom-ford",
+          "name_ko": "Tom Ford",
+          "name_en": "Tom Ford",
+          "has_svg": true
+        }
+      ],
+      "source_type": "user_reference_image",
+      "use_reference_as_asset": false,
+      "required_format": [
+        "svg",
+        "ai",
+        "eps",
+        "vector_pdf"
+      ],
+      "notes": "참고 이미지 재배포·트레이싱 금지. 공식 원본을 수집하고 형태를 대조한다."
+    },
+    {
+      "id": "comme-des-garcons",
+      "name_ko": "꼼데가르송",
+      "name_en": "Comme des Garçons",
+      "aliases": [
+        "Comme des Garcons"
+      ],
+      "category": "패션",
+      "status": "collect_original",
+      "existing_candidates": [],
+      "source_type": "user_reference_image",
+      "use_reference_as_asset": false,
+      "required_format": [
+        "svg",
+        "ai",
+        "eps",
+        "vector_pdf"
+      ],
+      "notes": "참고 이미지 재배포·트레이싱 금지. 공식 원본을 수집하고 형태를 대조한다. 이미지의 하트는 PLAY 라인 식별도 확인한다."
+    },
+    {
+      "id": "brioni",
+      "name_ko": "브리오니",
+      "name_en": "Brioni",
+      "aliases": [],
+      "category": "패션",
+      "status": "collect_original",
+      "existing_candidates": [],
+      "source_type": "user_reference_image",
+      "use_reference_as_asset": false,
+      "required_format": [
+        "svg",
+        "ai",
+        "eps",
+        "vector_pdf"
+      ],
+      "notes": "참고 이미지 재배포·트레이싱 금지. 공식 원본을 수집하고 형태를 대조한다."
+    },
+    {
+      "id": "michael-kors",
+      "name_ko": "마이클 코어스",
+      "name_en": "Michael Kors",
+      "aliases": [],
+      "category": "패션",
+      "status": "collect_original",
+      "existing_candidates": [],
+      "source_type": "user_reference_image",
+      "use_reference_as_asset": false,
+      "required_format": [
+        "svg",
+        "ai",
+        "eps",
+        "vector_pdf"
+      ],
+      "notes": "참고 이미지 재배포·트레이싱 금지. 공식 원본을 수집하고 형태를 대조한다."
+    },
+    {
+      "id": "marc-jacobs",
+      "name_ko": "마크 제이콥스",
+      "name_en": "Marc Jacobs",
+      "aliases": [],
+      "category": "패션",
+      "status": "collect_original",
+      "existing_candidates": [],
+      "source_type": "user_reference_image",
+      "use_reference_as_asset": false,
+      "required_format": [
+        "svg",
+        "ai",
+        "eps",
+        "vector_pdf"
+      ],
+      "notes": "참고 이미지 재배포·트레이싱 금지. 공식 원본을 수집하고 형태를 대조한다."
+    },
+    {
+      "id": "marni",
+      "name_ko": "마르니",
+      "name_en": "Marni",
+      "aliases": [],
+      "category": "패션",
+      "status": "verify_existing_identity_and_forms",
+      "existing_candidates": [
+        {
+          "id": "marni",
+          "name_ko": "마르니",
+          "name_en": "Marni",
+          "has_svg": true
+        }
+      ],
+      "source_type": "user_reference_image",
+      "use_reference_as_asset": false,
+      "required_format": [
+        "svg",
+        "ai",
+        "eps",
+        "vector_pdf"
+      ],
+      "notes": "참고 이미지 재배포·트레이싱 금지. 공식 원본을 수집하고 형태를 대조한다."
+    },
+    {
+      "id": "lanvin",
+      "name_ko": "랑방",
+      "name_en": "Lanvin",
+      "aliases": [],
+      "category": "패션",
+      "status": "verify_existing_identity_and_forms",
+      "existing_candidates": [
+        {
+          "id": "lanvin",
+          "name_ko": "랑방",
+          "name_en": "Lanvin",
+          "has_svg": true
+        }
+      ],
+      "source_type": "user_reference_image",
+      "use_reference_as_asset": false,
+      "required_format": [
+        "svg",
+        "ai",
+        "eps",
+        "vector_pdf"
+      ],
+      "notes": "참고 이미지 재배포·트레이싱 금지. 공식 원본을 수집하고 형태를 대조한다."
+    },
+    {
+      "id": "fendi",
+      "name_ko": "펜디",
+      "name_en": "Fendi",
+      "aliases": [],
+      "category": "패션",
+      "status": "verify_existing_identity_and_forms",
+      "existing_candidates": [
+        {
+          "id": "fendi",
+          "name_ko": "펜디",
+          "name_en": "Fendi",
+          "has_svg": true
+        }
+      ],
+      "source_type": "user_reference_image",
+      "use_reference_as_asset": false,
+      "required_format": [
+        "svg",
+        "ai",
+        "eps",
+        "vector_pdf"
+      ],
+      "notes": "참고 이미지 재배포·트레이싱 금지. 공식 원본을 수집하고 형태를 대조한다."
+    },
+    {
+      "id": "boss",
+      "name_ko": "보스",
+      "name_en": "BOSS",
+      "aliases": [
+        "Hugo Boss"
+      ],
+      "category": "패션",
+      "status": "verify_existing_identity_and_forms",
+      "existing_candidates": [
+        {
+          "id": "hugo-boss",
+          "name_ko": "휴고 보스",
+          "name_en": "Hugo Boss",
+          "has_svg": true
+        }
+      ],
+      "source_type": "user_reference_image",
+      "use_reference_as_asset": false,
+      "required_format": [
+        "svg",
+        "ai",
+        "eps",
+        "vector_pdf"
+      ],
+      "notes": "참고 이미지 재배포·트레이싱 금지. 공식 원본을 수집하고 형태를 대조한다."
+    },
+    {
+      "id": "sandro",
+      "name_ko": "산드로",
+      "name_en": "Sandro",
+      "aliases": [],
+      "category": "패션",
+      "status": "collect_original",
+      "existing_candidates": [],
+      "source_type": "user_reference_image",
+      "use_reference_as_asset": false,
+      "required_format": [
+        "svg",
+        "ai",
+        "eps",
+        "vector_pdf"
+      ],
+      "notes": "참고 이미지 재배포·트레이싱 금지. 공식 원본을 수집하고 형태를 대조한다."
+    },
+    {
+      "id": "giorgio-armani",
+      "name_ko": "조르지오 아르마니",
+      "name_en": "Giorgio Armani",
+      "aliases": [
+        "Armani"
+      ],
+      "category": "패션",
+      "status": "verify_existing_identity_and_forms",
+      "existing_candidates": [
+        {
+          "id": "giorgio-armani",
+          "name_ko": "아르마니",
+          "name_en": "Giorgio Armani",
+          "has_svg": true
+        }
+      ],
+      "source_type": "user_reference_image",
+      "use_reference_as_asset": false,
+      "required_format": [
+        "svg",
+        "ai",
+        "eps",
+        "vector_pdf"
+      ],
+      "notes": "참고 이미지 재배포·트레이싱 금지. 공식 원본을 수집하고 형태를 대조한다."
+    },
+    {
+      "id": "alexander-mcqueen",
+      "name_ko": "알렉산더 맥퀸",
+      "name_en": "Alexander McQueen",
+      "aliases": [],
+      "category": "패션",
+      "status": "verify_existing_identity_and_forms",
+      "existing_candidates": [
+        {
+          "id": "alexandermcqueen",
+          "name_ko": "알렉산더 맥퀸",
+          "name_en": "Alexander McQueen",
+          "has_svg": true
+        }
+      ],
+      "source_type": "user_reference_image",
+      "use_reference_as_asset": false,
+      "required_format": [
+        "svg",
+        "ai",
+        "eps",
+        "vector_pdf"
+      ],
+      "notes": "참고 이미지 재배포·트레이싱 금지. 공식 원본을 수집하고 형태를 대조한다."
+    },
+    {
+      "id": "alexander-wang",
+      "name_ko": "알렉산더 왕",
+      "name_en": "Alexander Wang",
+      "aliases": [],
+      "category": "패션",
+      "status": "collect_original",
+      "existing_candidates": [],
+      "source_type": "user_reference_image",
+      "use_reference_as_asset": false,
+      "required_format": [
+        "svg",
+        "ai",
+        "eps",
+        "vector_pdf"
+      ],
+      "notes": "참고 이미지 재배포·트레이싱 금지. 공식 원본을 수집하고 형태를 대조한다."
+    },
+    {
+      "id": "zegna",
+      "name_ko": "제냐",
+      "name_en": "Zegna",
+      "aliases": [
+        "Ermenegildo Zegna"
+      ],
+      "category": "패션",
+      "status": "verify_existing_identity_and_forms",
+      "existing_candidates": [
+        {
+          "id": "zegna",
+          "name_ko": "에르메네질도 제냐",
+          "name_en": "Zegna",
+          "has_svg": true
+        }
+      ],
+      "source_type": "user_reference_image",
+      "use_reference_as_asset": false,
+      "required_format": [
+        "svg",
+        "ai",
+        "eps",
+        "vector_pdf"
+      ],
+      "notes": "참고 이미지 재배포·트레이싱 금지. 공식 원본을 수집하고 형태를 대조한다."
+    },
+    {
+      "id": "kenzo",
+      "name_ko": "겐조",
+      "name_en": "Kenzo",
+      "aliases": [],
+      "category": "패션",
+      "status": "verify_existing_identity_and_forms",
+      "existing_candidates": [
+        {
+          "id": "kenzo",
+          "name_ko": "겐조",
+          "name_en": "Kenzo",
+          "has_svg": true
+        }
+      ],
+      "source_type": "user_reference_image",
+      "use_reference_as_asset": false,
+      "required_format": [
+        "svg",
+        "ai",
+        "eps",
+        "vector_pdf"
+      ],
+      "notes": "참고 이미지 재배포·트레이싱 금지. 공식 원본을 수집하고 형태를 대조한다."
+    },
+    {
+      "id": "tods",
+      "name_ko": "토즈",
+      "name_en": "Tod’s",
+      "aliases": [
+        "Tod's"
+      ],
+      "category": "패션",
+      "status": "collect_original",
+      "existing_candidates": [],
+      "source_type": "user_reference_image",
+      "use_reference_as_asset": false,
+      "required_format": [
+        "svg",
+        "ai",
+        "eps",
+        "vector_pdf"
+      ],
+      "notes": "참고 이미지 재배포·트레이싱 금지. 공식 원본을 수집하고 형태를 대조한다."
+    },
+    {
+      "id": "coach",
+      "name_ko": "코치",
+      "name_en": "Coach",
+      "aliases": [],
+      "category": "패션",
+      "status": "verify_existing_identity_and_forms",
+      "existing_candidates": [
+        {
+          "id": "coach",
+          "name_ko": "코치",
+          "name_en": "Coach",
+          "has_svg": true
+        }
+      ],
+      "source_type": "user_reference_image",
+      "use_reference_as_asset": false,
+      "required_format": [
+        "svg",
+        "ai",
+        "eps",
+        "vector_pdf"
+      ],
+      "notes": "참고 이미지 재배포·트레이싱 금지. 공식 원본을 수집하고 형태를 대조한다.",
+      "requested_forms": [
+        "wordmark",
+        "horse_carriage_with_wordmark"
+      ]
+    },
+    {
+      "id": "mcm",
+      "name_ko": "엠씨엠",
+      "name_en": "MCM",
+      "aliases": [],
+      "category": "패션",
+      "status": "verify_existing_identity_and_forms",
+      "existing_candidates": [
+        {
+          "id": "mcm",
+          "name_ko": "MCM",
+          "name_en": "MCM",
+          "has_svg": true
+        }
+      ],
+      "source_type": "user_reference_image",
+      "use_reference_as_asset": false,
+      "required_format": [
+        "svg",
+        "ai",
+        "eps",
+        "vector_pdf"
+      ],
+      "notes": "참고 이미지 재배포·트레이싱 금지. 공식 원본을 수집하고 형태를 대조한다."
+    },
+    {
+      "id": "moschino",
+      "name_ko": "모스키노",
+      "name_en": "Moschino",
+      "aliases": [],
+      "category": "패션",
+      "status": "verify_existing_identity_and_forms",
+      "existing_candidates": [
+        {
+          "id": "moschino",
+          "name_ko": "모스키노",
+          "name_en": "Moschino",
+          "has_svg": true
+        }
+      ],
+      "source_type": "user_reference_image",
+      "use_reference_as_asset": false,
+      "required_format": [
+        "svg",
+        "ai",
+        "eps",
+        "vector_pdf"
+      ],
+      "notes": "참고 이미지 재배포·트레이싱 금지. 공식 원본을 수집하고 형태를 대조한다."
+    },
+    {
+      "id": "missoni",
+      "name_ko": "미쏘니",
+      "name_en": "Missoni",
+      "aliases": [],
+      "category": "패션",
+      "status": "verify_existing_identity_and_forms",
+      "existing_candidates": [
+        {
+          "id": "missoni",
+          "name_ko": "미쏘니",
+          "name_en": "Missoni",
+          "has_svg": true
+        }
+      ],
+      "source_type": "user_reference_image",
+      "use_reference_as_asset": false,
+      "required_format": [
+        "svg",
+        "ai",
+        "eps",
+        "vector_pdf"
+      ],
+      "notes": "참고 이미지 재배포·트레이싱 금지. 공식 원본을 수집하고 형태를 대조한다."
+    },
+    {
+      "id": "maison-margiela",
+      "name_ko": "메종 마르지엘라",
+      "name_en": "Maison Margiela",
+      "aliases": [],
+      "category": "패션",
+      "status": "verify_existing_identity_and_forms",
+      "existing_candidates": [
+        {
+          "id": "maison-margiela",
+          "name_ko": "메종 마르지엘라",
+          "name_en": "Maison Margiela",
+          "has_svg": true
+        }
+      ],
+      "source_type": "user_reference_image",
+      "use_reference_as_asset": false,
+      "required_format": [
+        "svg",
+        "ai",
+        "eps",
+        "vector_pdf"
+      ],
+      "notes": "참고 이미지 재배포·트레이싱 금지. 공식 원본을 수집하고 형태를 대조한다."
+    },
+    {
+      "id": "mulberry",
+      "name_ko": "멀버리",
+      "name_en": "Mulberry",
+      "aliases": [],
+      "category": "패션",
+      "status": "verify_existing_identity_and_forms",
+      "existing_candidates": [
+        {
+          "id": "mulberry",
+          "name_ko": "멀버리",
+          "name_en": "Mulberry",
+          "has_svg": true
+        }
+      ],
+      "source_type": "user_reference_image",
+      "use_reference_as_asset": false,
+      "required_format": [
+        "svg",
+        "ai",
+        "eps",
+        "vector_pdf"
+      ],
+      "notes": "참고 이미지 재배포·트레이싱 금지. 공식 원본을 수집하고 형태를 대조한다."
+    },
+    {
+      "id": "ferragamo",
+      "name_ko": "페라가모",
+      "name_en": "Ferragamo",
+      "aliases": [
+        "Salvatore Ferragamo"
+      ],
+      "category": "패션",
+      "status": "collect_original",
+      "existing_candidates": [],
+      "source_type": "user_reference_image",
+      "use_reference_as_asset": false,
+      "required_format": [
+        "svg",
+        "ai",
+        "eps",
+        "vector_pdf"
+      ],
+      "notes": "참고 이미지 재배포·트레이싱 금지. 공식 원본을 수집하고 형태를 대조한다."
+    },
+    {
+      "id": "neil-barrett",
+      "name_ko": "닐바렛",
+      "name_en": "Neil Barrett",
+      "aliases": [],
+      "category": "패션",
+      "status": "collect_original",
+      "existing_candidates": [],
+      "source_type": "user_reference_image",
+      "use_reference_as_asset": false,
+      "required_format": [
+        "svg",
+        "ai",
+        "eps",
+        "vector_pdf"
+      ],
+      "notes": "참고 이미지 재배포·트레이싱 금지. 공식 원본을 수집하고 형태를 대조한다."
+    }
+  ],
+  "count": 50
+}
