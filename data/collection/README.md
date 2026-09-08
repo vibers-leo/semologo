@@ -33,3 +33,17 @@ SuperTinyIcons 449개, 의류 모음 58개. 원본 SVG와 PNG를 CDN에 업로�
 동명이인 연결(UPI 통신사/결제, Rockstar 음료/게임, X 토큰/소셜 등)을 명시적으로 수정했다.
 일반 아이콘, 폰트 의존, 불확실한 브랜드, 단색 출력은 보류한다. 참고 이미지 50브랜드 큐는 이 작업과 별개다.
 `published-review-20260908.json`에 승인·보류 상세 기록. 기존 브랜드 대표 자산은 교체하지 않았다.
+
+## Lobe Icons / SVGL (2026-09-08)
+
+- Lobe Icons 322항목, SVGL 668브랜드의 고정 커밋 원본을 로컬 `artifacts/ai-svg-collection/`에 보관. MIT 저작권 고지를 각 SVG metadata에 유지.
+- 검수 승인: Lobe 382종 + SVGL 138종 = 520종. 신규 77브랜드, 기존 278브랜드 보강.
+- SVG 파싱·외부 참조/래스터/스크립트/폰트 의존 차단, PNG 렌더, 6개 전체 검수 시트 확인. 같은 픽셀 또는 이미 보유한 SVGL 형태는 제외.
+- 구형 Adobe 모음, 리브랜딩 확인 필요 항목, 동명 다른 회사, 너무 작은 viewBox 출력은 보류. 수집일을 로고 변경일로 취급하지 않는다.
+- 기존 대표 로고는 유지하며 검수된 다운로드 변형을 추가. 신규 대표는 검수된 워드마크/심볼에서 선택.
+- 재실행: collect-ai-svg.py → review-ai-svg.py → 원본 사이트/시각 검수 → publish-ai-svg.py → upload-ai-svg.py. 상세 승인·보류는 published-ai-svg-review.json.
+- 공식 사이트 응답 확인은 서비스 존재 확인이며 로고 최신성의 전수 보증은 아니다. 고정 upstream 버전과 확인 범위를 함께 기록한다.
+
+## HTML 캐시 장애 재발 방지 (2026-09-08)
+
+Cloudflare에서 HTML을 1시간 강제 캐시해 이전 배포의 제거된 JS chunk를 요청하며 검색이 작동하지 않았다. semologo.com/www.semologo.com의 `/_next/static/` 외 요청은 캐시 bypass로 바꾸고 해당 존 캐시를 초기화했다. 수정 후 HTTP 200, CF DYNAMIC, 검색 및 상세 정상 확인.

@@ -1,0 +1,9 @@
+{
+  "svgl:sanity": "Artwork is tiny within its SVG viewBox; requires a separate geometry review",
+  "svgl:codium": "Rebranding/current identity requires official-kit review",
+  "svgl:v0": "Different generations are present; hold until official current identity is compared",
+  "svgl:mocha": "AI builder and JavaScript test framework share a name; do not merge",
+  "lobe:kwaipilot": "Official source did not respond during review",
+  "lobe:phidata": "Historical product name; current identity needs review",
+  "lobe:coqui": "Current service status needs review"
+}

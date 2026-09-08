@@ -49,3 +49,5 @@ marketing/assets/
 
 # Local logo collection outputs (source assets, not app bundle)
 /artifacts/logo-collection-20260908/
+/artifacts/ai-svg-collection/
+__pycache__/
