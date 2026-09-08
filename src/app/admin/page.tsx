@@ -40,7 +40,7 @@ export default function AdminPage() {
   useEffect(() => {
     const unsub = onAuthStateChanged(getClientAuth(), (user) => {
       if (user?.email === ADMIN_EMAIL) setIsAdmin(true);
-      else router.replace("/");
+      else router.replace(user ? "/?admin=denied" : "/login?next=/admin");   // 미로그인이면 로그인으로(돌아오게), 다른 계정이면 홈으로 — 조용히 튕겨서 "접속 안 됨"으로 보였다(2026-09-08)
       setAuthChecked(true);
     });
     return unsub;

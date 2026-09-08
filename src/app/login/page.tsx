@@ -14,7 +14,9 @@ export default function LoginPage() {
     try {
       const auth = getClientAuth();
       await signInWithPopup(auth, googleProvider);
-      router.push("/");
+      // ?next= 가 있으면 거기로 돌아간다 (/admin 등) — 외부 값은 받지 않는다
+      const next = new URLSearchParams(window.location.search).get("next");
+      router.push(next && next.startsWith("/") && !next.startsWith("//") ? next : "/");
     } catch (e) {
       console.error(e);
     }
