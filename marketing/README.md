@@ -29,3 +29,5 @@
 - 2026-08-13 | 브랜드 추가: 애터미(공식 CI .ai) · 세모로고(자체) · 당근(공식 CI, 옛 karrotmarket 흡수)
 - 2026-08-13 | 캡처 → `screenshots/20260813_mcp/{desktop,mobile,brand-daangn}.png`
 - 2026-08-13 | 로고 원본(.ai) 보관소 신설 — brand-logos `_sources/` (git 미추적, 로컬+드라이브 백업)
+
+- 2026-09-08 OG 커버 리디자인 — 밝은 크림·피치 배경 + 브랜드 로고 타일(귀여운 톤). 원본 HTML/PNG: marketing/assets/og-cover-20260908/, 배포본 public/og-cover.jpg
