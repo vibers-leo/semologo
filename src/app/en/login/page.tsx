@@ -3,16 +3,15 @@
 import Image from "next/image";
 import { signInWithPopup } from "firebase/auth";
 import { getClientAuth, googleProvider } from "@/lib/firebase";
-import { useRouter, useSearchParams } from "next/navigation";
+import { useRouter } from "next/navigation";
 import Header from "@/components/Header";
 
 export default function EnglishLoginPage() {
   const router = useRouter();
-  const params = useSearchParams();
   const handleGoogle = async () => {
     try {
       await signInWithPopup(getClientAuth(), googleProvider);
-      const next = params.get("next");
+      const next = new URLSearchParams(window.location.search).get("next");
       router.push(next && next.startsWith("/") && !next.startsWith("//") ? next : "/en/");
     } catch (error) {
       console.error(error);
