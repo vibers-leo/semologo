@@ -11,6 +11,7 @@ import { getClientAuth } from "@/lib/firebase";
 import { useSearch } from "@/lib/search-context";
 
 function UserMenu({ user }: { user: User }) {
+  const { path } = useLocale();
   const [open, setOpen] = useState(false);
   const router = useRouter();
   const handleSignOut = async () => {
@@ -29,7 +30,7 @@ function UserMenu({ user }: { user: User }) {
       {open && (
         <div className="absolute right-0 mt-2 w-40 rounded-xl border shadow-lg overflow-hidden z-50"
           style={{ background: "#fff", borderColor: "var(--border)" }}>
-          <Link href="/mypage" onClick={() => setOpen(false)}
+          <Link href={path("/mypage")} onClick={() => setOpen(false)}
             className="block px-4 py-3 text-sm hover:bg-gray-50 transition-colors"
             style={{ textDecoration: "none", color: "inherit" }}><T>{"마이페이지"}</T></Link>
           <div style={{ height: 1, background: "var(--border)" }} />
@@ -148,7 +149,7 @@ export default function Header() {
           {/* 데스크탑 우측 메뉴 */}
           <nav className="hidden lg:flex items-center gap-2 shrink-0 ml-auto">
             {NAV_LINKS.map(({ label, href }) => (
-              <Link key={href} href={href === "/faq" ? path(href) : href}
+              <Link key={href} href={path(href)}
                 className="flex items-center text-sm px-3 py-1.5 rounded-lg transition-colors hover:bg-gray-100"
                 style={{ color: "var(--text-secondary)" }}>
                 {t(label)}
@@ -163,7 +164,7 @@ export default function Header() {
               user
                 ? <UserMenu user={user} />
                 : (
-                  <Link href="/login"
+                  <Link href={path("/login")}
                     className="flex text-sm px-3 py-1.5 rounded-full font-medium text-white ml-1"
                     style={{ background: "#111" }}><T>{"로그인"}</T></Link>
                 )
@@ -173,7 +174,7 @@ export default function Header() {
           {/* 모바일 오른쪽: 로그인 아이콘 + 햄버거 */}
           <div className="lg:hidden flex items-center gap-1 ml-auto">
             {authLoaded && !user && (
-              <Link href="/login"
+              <Link href={path("/login")}
                 className="flex items-center justify-center w-9 h-9 rounded-full"
                 style={{ background: "#f4f4f5" }}>
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
@@ -197,7 +198,7 @@ export default function Header() {
                 <div className="absolute right-0 mt-2 w-44 rounded-xl border shadow-lg overflow-hidden z-50"
                   style={{ background: "#fff", borderColor: "var(--border)" }}>
                   {NAV_LINKS.map(({ label, href }) => (
-                    <Link key={href} href={href === "/faq" ? path(href) : href}
+                    <Link key={href} href={path(href)}
                       onClick={() => setMenuOpen(false)}
                       className="block px-4 py-3 text-sm hover:bg-gray-50 transition-colors"
                       style={{ color: "var(--text)" }}>
@@ -215,7 +216,7 @@ export default function Header() {
                         ? <button onClick={async () => { await signOut(getClientAuth()); setMenuOpen(false); }}
                             className="w-full text-left px-4 py-3 text-sm hover:bg-gray-50 transition-colors"
                             style={{ color: "var(--text-secondary)" }}><T>{"로그아웃"}</T></button>
-                        : <Link href="/login" onClick={() => setMenuOpen(false)}
+                        : <Link href={path("/login")} onClick={() => setMenuOpen(false)}
                             className="block px-4 py-3 text-sm font-medium hover:bg-gray-50 transition-colors"
                             style={{ color: "#111" }}><T>{"로그인"}</T></Link>
                     )}
