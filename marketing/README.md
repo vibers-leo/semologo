@@ -32,3 +32,5 @@
 
 - 2026-09-08 OG 커버 리디자인 — 밝은 크림·피치 배경 + 브랜드 로고 타일(귀여운 톤). 원본 HTML/PNG: marketing/assets/og-cover-20260908/, 배포본 public/og-cover.jpg
 - 2026-09-08 OG 커버의 16개 브랜드 카탈로그 노출·상세 페이지·SVG/PNG 실파일 확인. `scripts/check-cdn.mjs`에 OG 브랜드 필수 검증 추가. 아트웨이 갤러리는 잘못 수집된 SVG를 제외하고 사용자 제공 PNG(256×37)를 공용 원본으로 교체.
+
+- 2026-09-08: 검수 로고 507개(CDN), 신규 브랜드 63개 서비스 반영. 검수 기록: data/collection/published-review-20260908.json.
