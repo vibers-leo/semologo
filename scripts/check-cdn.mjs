@@ -5,7 +5,7 @@ const fallback = "https://raw.githubusercontent.com/vibers-leo/brand-logos/main/
 const minimum = 1_000;
 // OG 커버에 노출한 브랜드는 검색과 다운로드가 가능한 상태여야 한다.
 const ogBrands = [
-  "kakao", "starbucks", "youtube", "tripadvisor", "line", "spotify",
+  "kakao", "starbucks", "youtube", "duolingo", "line", "spotify",
   "instagram", "airbnb", "daangn", "toss", "nintendo", "mcdonalds",
   "figma", "slack", "netflix", "discord",
 ];
