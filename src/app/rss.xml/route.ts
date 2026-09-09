@@ -1,4 +1,5 @@
 import { fetchBrandsSlim, type Brand } from "@/lib/brands";
+import { BLOG_POSTS } from "@/lib/blog";
 
 /**
  * 신규 등록 브랜드 RSS.
@@ -45,6 +46,14 @@ export async function GET() {
     .filter((b) => !b.variant_of && b.added_at)
     .sort((a, b) => String(b.added_at).localeCompare(String(a.added_at)))
     .slice(0, MAX);
+  const blogItems = BLOG_POSTS.map(post => `<item>
+<title>${esc(post.title)}</title>
+<link>${BASE}/blog/${post.slug}/</link>
+<guid isPermaLink="true">${BASE}/blog/${post.slug}/</guid>
+<pubDate>${new Date(post.date).toUTCString()}</pubDate>
+<category>${esc(post.category)}</category>
+<description>${esc(post.description)}</description>
+</item>`);
 
   const now = new Date().toUTCString();
   const body = `<?xml version="1.0" encoding="UTF-8"?>
@@ -56,7 +65,7 @@ export async function GET() {
 <description>세상 모든 로고. SVG·PNG 무료 다운로드.</description>
 <language>ko</language>
 <lastBuildDate>${now}</lastBuildDate>
-${items
+${[...blogItems, ...items
   .map((b) => {
     const name = b.name_ko || b.name_en || b.id;
     const url = `${BASE}/brand/${b.id}/`;
@@ -70,7 +79,7 @@ ${items
 <description>${esc(name)} 로고를 SVG·PNG 로 무료 다운로드하세요.</description>
 </item>`;
   })
-  .join("\n")}
+  .join("\n")]}
 </channel>
 </rss>`;
 
