@@ -6,7 +6,7 @@
 
 ## 키엔AI 후처리 입력값
 
-실제 발행 지침은 [`KEYENAI-PUBLISH.md`](./KEYENAI-PUBLISH.md)를 먼저 읽어 주세요.
+처음 발행할 때는 [`KEYENAI-MASTER-PROMPT.md`](./KEYENAI-MASTER-PROMPT.md)를 그대로 전달하고, 세부 규칙은 [`KEYENAI-PUBLISH.md`](./KEYENAI-PUBLISH.md)를 읽어 주세요.
 세모로고 쪽 해설판은 [`SEMOLOGO-COMPANION.md`](./SEMOLOGO-COMPANION.md) 형식으로 준비해요.
 
 - 목적: 검색 유입과 로고 활용 교육
