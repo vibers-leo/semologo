@@ -1,6 +1,7 @@
 import { languageAlternates, localePath, type Locale } from "@/lib/locales";
 import type { MetadataRoute } from "next";
 import { fetchBrandsSlim } from "@/lib/brands";
+import { BLOG_POSTS } from "@/lib/blog";
 
 export const dynamic = "force-static";
 
@@ -40,7 +41,7 @@ export async function buildSitemap(locale: Locale = "ko"): Promise<MetadataRoute
 
   return [
     { url: base + localePath("/", locale), alternates: {languages: languageAlternates("/")}, changeFrequency: "daily", priority: 1 },
-    ...["/logo-collection", "/ai-logo-download", "/faq"].map(path => ({url: base + localePath(path, locale), alternates: {languages: languageAlternates(path)}, priority: 0.8})),
+    ...["/logo-collection", "/ai-logo-download", "/faq", "/blog", ...BLOG_POSTS.map(post => `/blog/${post.slug}`)].map(path => ({url: base + localePath(path, locale), alternates: {languages: languageAlternates(path)}, priority: 0.8})),
     ...brandUrls,
   ];
 }

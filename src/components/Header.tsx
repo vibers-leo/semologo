@@ -48,6 +48,7 @@ const ADMIN_EMAIL = "juuuno1116@gmail.com";
 const NAV_LINKS = [
   { label: "로고 제보", href: "/submit" },
   { label: "로고 요청", href: "/request" },
+  { label: "로고 이야기", href: "/blog" },
   { label: "자주 묻는 질문", href: "/faq" },
 ];
 
