@@ -1,14 +1,17 @@
 "use client";
 
 import Image from "next/image";
-import { signInWithPopup } from "firebase/auth";
+import { signInWithPopup, signInWithRedirect, getRedirectResult } from "firebase/auth";
 import { getClientAuth, googleProvider } from "@/lib/firebase";
 import { useRouter } from "next/navigation";
+import { useEffect, useState } from "react";
 
 export const dynamic = "force-dynamic";
 
 export default function LoginPage() {
   const router = useRouter();
+  const [error, setError] = useState("");
+  useEffect(() => { getRedirectResult(getClientAuth()).then(result => { if (result) router.replace("/"); }).catch(() => setError("로그인을 완료하지 못했어요. 다시 시도해 주세요.")); }, [router]);
 
   const handleGoogle = async () => {
     try {
@@ -18,7 +21,9 @@ export default function LoginPage() {
       const next = new URLSearchParams(window.location.search).get("next");
       router.push(next && next.startsWith("/") && !next.startsWith("//") ? next : "/");
     } catch (e) {
-      console.error(e);
+      const code = e && typeof e === "object" && "code" in e ? String((e as {code?: string}).code) : "";
+      if (code === "auth/popup-blocked" || code === "auth/popup-not-supported") { await signInWithRedirect(getClientAuth(), googleProvider); return; }
+      setError("로그인을 완료하지 못했어요. 브라우저의 팝업을 허용한 뒤 다시 시도해 주세요.");
     }
   };
 
@@ -45,6 +50,7 @@ export default function LoginPage() {
           </svg>
           Google로 계속하기
         </button>
+        {error && <p role="alert" className="mt-4 text-center text-sm text-red-600">{error}</p>}
 
         <p className="text-center text-xs mt-6" style={{ color: "var(--text-secondary)" }}>
           로그인 없이도 모든 로고를 볼 수 있어요
