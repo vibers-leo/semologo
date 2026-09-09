@@ -138,7 +138,6 @@ export default function MyPage() {
           </p>
         </section>
 
-        <a href="/favorites" className="mt-6 block rounded-xl border p-5 font-semibold">☆ 즐겨찾는 로고 모아보기 →</a>
         {/* 아직 없는 것들 — 없는 걸 있는 척하지 않는다 */}
         <section style={{ marginTop: 16, background: "#fff", border: "1px dashed var(--border)", borderRadius: 16, padding: "18px 20px" }}>
           <div style={{ fontSize: 12, fontWeight: 700, marginBottom: 8 }}>곧 생길 것들 🚧</div>

@@ -9,6 +9,7 @@ import { useState, useEffect, useRef } from "react";
 import { onAuthStateChanged, signOut, type User } from "firebase/auth";
 import { getClientAuth } from "@/lib/firebase";
 import { useSearch } from "@/lib/search-context";
+import BookmarkPrompt from "./BookmarkPrompt";
 
 function UserMenu({ user }: { user: User }) {
   const { path } = useLocale();
@@ -144,7 +145,7 @@ export default function Header() {
           {/* 데스크탑 전용 검색바 */}
           <SearchBar className="hidden lg:block relative w-full max-w-[480px] min-w-0 mx-auto" query={query} setQuery={setQuery} />
 
-          <Link href={path("/favorites")} className="shrink-0 text-xs font-medium" aria-label={en ? "Saved logos" : "즐겨찾는 로고"}>☆ <span className="hidden lg:inline">{en ? "Saved" : "즐겨찾기"}</span></Link>
+          <BookmarkPrompt />
           <LanguageSwitch />
           {/* 데스크탑 우측 메뉴 */}
           <nav className="hidden lg:flex items-center gap-2 shrink-0 ml-auto">

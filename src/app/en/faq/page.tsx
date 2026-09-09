@@ -6,7 +6,7 @@ const questions = [
   ["Can I use the logos commercially?", "The logos belong to their respective brands. Check the brand’s usage guidelines and obtain any required permission for your intended use."],
   ["Do you provide AI files?", "Our primary formats are SVG and PNG. Illustrator can open SVG files, but an SVG download is not an original .ai file. See our Illustrator guide for the differences."],
   ["Which format should I download?", "Use SVG for scalable vector artwork and PNG for an image-based workflow. Check available variants on the brand page."],
-  ["How do favorites work?", "Click the ☆ Save button on a logo. Your list stays in this browser, works in Korean and English, and does not require an account. Clearing site data removes the list."],
+  ["How do I save SemoLogo for later?", "On desktop, press Ctrl+D (Windows/Linux) or ⌘D (Mac). On mobile, open your browser’s menu or Share menu and choose Bookmark or Add to Home Screen."],
   ["Is there a dark-background version?", "When available, the brand page shows dark previews and an inverted PNG download. Check the preview before using it."],
   ["How do I request or improve a logo?", "Use Request a logo or Submit a logo in the menu. These forms currently use Korean. You can also use the feedback form on a brand’s detail page."],
 ];

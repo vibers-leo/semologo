@@ -48,7 +48,7 @@ export async function brandMetadata(
 
   const name = locale === "en" ? brand.name_en || brand.name_ko : brand.name_ko;
   const title = locale === "en" ? `${name} logo SVG & PNG download | SemoLogo` : `${name} 로고 SVG·PNG 무료 다운로드 | 세모로고`;
-  const description = locale === "en" ? `Download available ${name} logo files in SVG or PNG. Preview logo variants and save this brand to your favorites.` : `${brand.name_ko}(${brand.name_en}) 로고 모음. 제공되는 SVG 벡터·PNG 파일을 다운로드하고, Illustrator에서 사용할 로고를 찾아보세요.`;
+  const description = locale === "en" ? `Download available ${name} logo files in SVG or PNG. Preview the available logo variants.` : `${brand.name_ko}(${brand.name_en}) 로고 모음. 제공되는 SVG 벡터·PNG 파일을 다운로드하고, Illustrator에서 사용할 로고를 찾아보세요.`;
 
   return {
     ...(noindex ? { robots: { index: false, follow: true } } : {}),

@@ -38,7 +38,7 @@ export async function siteMetadata(locale: Locale = "ko"): Promise<Metadata> {
   return {
     metadataBase: new URL(SITE),
     title: locale === "en" ? "SemoLogo — Brand logos in SVG & PNG" : "세모로고 — 브랜드 로고 모음 · SVG·PNG 다운로드",
-    description: locale === "en" ? `Explore ${n} brand logos. Download SVG vectors and PNG images, save favorites, and open SVG files in Adobe Illustrator.` : `브랜드 로고 모음 ${n}개. SVG 벡터·PNG 무료 다운로드와 Illustrator에서 여는 방법을 확인하고 필요한 로고를 즐겨찾기에 모아보세요.`,
+    description: locale === "en" ? `Explore ${n} brand logos. Download SVG vectors and PNG images, and open SVG files in Adobe Illustrator.` : `브랜드 로고 모음 ${n}개. SVG 벡터·PNG 무료 다운로드와 Illustrator에서 여는 방법을 확인해 보세요.`,
     keywords: ["로고", "브랜드로고", "SVG 로고", "PNG 로고", "로고 다운로드", "기업 로고", "무료 로고", "세모로고", "semologo", "로고창고", "로고모음", "AI 로고 다운로드", "일러스트 로고"],
     alternates: { canonical: locale === "en" ? "/en" : "/", languages: { ko: "/", en: "/en", "x-default": "/" } },
     other: {

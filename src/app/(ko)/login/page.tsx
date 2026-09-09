@@ -28,7 +28,7 @@ export default function LoginPage() {
         <div className="text-center mb-8">
           <Image src="/semologo.png" alt="세모로고" width={280} height={80} priority className="h-16 sm:h-20 w-auto object-contain mx-auto mb-5" />
           <p className="text-sm" style={{ color: "var(--text-secondary)" }}>
-            로그인하면 즐겨찾기·로고 제보 기능을 사용할 수 있어요
+            로그인하면 로고 제보 기능을 사용할 수 있어요
           </p>
         </div>
 

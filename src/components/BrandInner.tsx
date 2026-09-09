@@ -1,7 +1,6 @@
 "use client";
 
 import { useLocale, T } from "@/lib/locale-context";
-import FavoriteButton from "./FavoriteButton";
 import { useEffect, useState, useCallback } from "react";
 import Link from "next/link";
 import { Brand, fetchVariants, type VariantManifest, type VariantRecord } from "@/lib/brands";
@@ -605,7 +604,7 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
               브랜드명은 화면과 접근성 트리에 한 번만 표시한다. */}
           <h1 style={{ fontSize:17, fontWeight:700, color:"#111111", whiteSpace:"nowrap", overflow:"hidden", textOverflow:"ellipsis", margin:0 }}>
             {en ? brand.name_en || brand.name_ko : brand.name_ko}{!en && brand.name_en && brand.name_en !== brand.name_ko ? ` / ${brand.name_en}` : ""}
-          </h1><FavoriteButton brand={brand} />
+          </h1>
           <p style={{ fontSize:12, color:"#71717a", marginTop:2, display:"flex", alignItems:"center", gap:6 }}>
             <span>{t(brand.category || "기타")}</span>
             {/* 공식 배포 원본은 신뢰도가 다르다. 사이트 헤더에서 긁은 것과

@@ -88,7 +88,7 @@ export default function PrivacyPage() {
             </ul>
           </section>
         </div>
-      <section className="mt-8"><h2 className="font-bold">즐겨찾기 및 방문 통계</h2><p className="mt-3 text-sm leading-7">즐겨찾기는 이 브라우저의 localStorage에 저장하며 서버 계정에 동기화하지 않아요. 브라우저 사이트 데이터를 지우면 삭제할 수 있어요. 서비스 개선을 위해 Google Analytics와 FanEasy를 통해 방문 경로, 캠페인(UTM), 기기 정보, 체류시간 등 이용 통계를 수집해요.</p></section>
+      <section className="mt-8"><h2 className="font-bold">사이트 즐겨찾기 및 방문 통계</h2><p className="mt-3 text-sm leading-7">사이트 즐겨찾기는 브라우저가 관리하며 SemoLogo는 북마크 정보를 받거나 저장하지 않아요. 서비스 개선을 위해 Google Analytics와 FanEasy를 통해 방문 경로, 캠페인(UTM), 기기 정보, 체류시간 등 이용 통계를 수집해요.</p></section>
         </main>
       <Footer />
     </div>

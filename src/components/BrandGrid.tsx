@@ -1,7 +1,6 @@
 "use client";
 
 import { useLocale, T } from "@/lib/locale-context";
-import FavoriteButton from "./FavoriteButton";
 import { useMemo, useState, useEffect, useRef, useDeferredValue } from "react";
 import dynamic from "next/dynamic";
 import { BRAND_DATA_FALLBACK, Brand, sortForGrid, type SortMode } from "@/lib/brands";
@@ -642,7 +641,6 @@ function BrandCard({ brand, onClick, priority }: { brand: Brand; onClick: () => 
               <span className="card-name-en"> / {brand.name_en}</span>
             )}
           </div>
-          <FavoriteButton brand={brand} />
           <div className="card-meta">
             <span className="card-category truncate">{t(brand.category || "기타")}</span>
             <span className="card-tags">
