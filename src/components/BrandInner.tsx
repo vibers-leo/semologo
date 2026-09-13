@@ -917,7 +917,12 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
                               <img src={previewUrl} alt={t(v.label)}
                                 style={{ position:"absolute", inset:4, width:"calc(100% - 8px)",
                                   height:"calc(100% - 8px)", objectFit:"contain" }}
-                                onError={e => { e.currentTarget.style.display = "none"; }} />
+                                onError={e => {
+                                  // 일부 대량 수집분은 SVG가 Pages에는 있지만 CDN 업로드가 늦을 수 있다.
+                                  // 같은 변형의 PNG가 있으면 숨기지 말고 즉시 폴백한다.
+                                  if (pngFile && e.currentTarget.src !== cdnUrl(pngFile)) e.currentTarget.src = cdnUrl(pngFile);
+                                  else e.currentTarget.style.display = "none";
+                                }} />
                             </div>
                             <div style={{ flex:1, minWidth:0 }}>
                               <div style={{ fontSize:11.5, fontWeight:600, color:"#3f3f46",
