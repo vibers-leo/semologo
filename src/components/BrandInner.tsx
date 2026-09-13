@@ -633,7 +633,14 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
               보유 형식)로 페이지마다 다른 문장을 만든다. */}
           {/* 검색엔진용. 화면에는 안 보이지만 HTML 에는 남는다 —
               헤더가 4줄이 되면 정작 로고가 밀린다. 크롤러는 읽는다. */}
-          <p className="mt-3 text-sm leading-6 text-gray-500">{en ? "Download available SVG vectors and PNG images. " : "보유한 SVG 벡터·PNG 파일을 내려받을 수 있어요. "}<Link href={path("/ai-logo-download")} className="underline">{en ? "Using SVG in Illustrator →" : "Illustrator에서 SVG 사용하기 →"}</Link></p>
+          {(() => {
+            const source = brand.sources?.find((item) => item.origin || item.source_url);
+            const sourceUrl = source?.origin || source?.source_url;
+            if (!sourceUrl) return null;
+            return <a href={sourceUrl} target="_blank" rel="noopener noreferrer nofollow" className="mt-3 inline-flex items-center gap-1 text-sm text-gray-500 underline" title={en ? "Open the original source" : "로고 원본이 공개된 공식 출처 열기"}>
+              🔗 {en ? "Official source" : "공식 출처 바로가기"}
+            </a>;
+          })()}
 
         </div>
 
