@@ -1014,7 +1014,18 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
                     {/* eslint-disable-next-line @next/next/no-img-element */}
                     <img src={url} alt={t(v.name)}
                       style={{ position:"absolute", top:14, right:14, bottom:14, left:14, width:"calc(100% - 28px)", height:"calc(100% - 28px)", objectFit:"contain", objectPosition:"center" }}
-                      onError={e => { e.currentTarget.style.display="none"; }}
+                      onError={e => {
+                        const img = e.currentTarget;
+                        img.style.display = "none";
+                        const box = img.parentElement;
+                        if (box && !box.querySelector(".variant-fallback")) {
+                          const ph = document.createElement("span");
+                          ph.className = "variant-fallback";
+                          ph.textContent = (brand.name_en || brand.name_ko || "?").charAt(0).toUpperCase();
+                          ph.style.cssText = "position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-size:24px;font-weight:800;color:#d4d4d8";
+                          box.appendChild(ph);
+                        }
+                      }}
                     />
                     {isSwapTarget && <span style={{ position:"absolute", top:5, right:5, fontSize: 11, fontWeight:700, color:"#f59e0b", background:"#fef3c7", border:"1px solid #fde68a", borderRadius:10, padding:"1px 5px" }}><T>{"교체 대기"}</T></span>}
                   </div>

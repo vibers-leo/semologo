@@ -571,6 +571,7 @@ function BrandCard({ brand, onClick, priority }: { brand: Brand; onClick: () => 
   const {en, t} = useLocale();
   const svgUrl = `${CDN}/${brand.id}/logo.svg?v=${VERSION}`;
   const pngUrl = `${CDN}/${brand.id}/logo.png?v=${VERSION}`;
+  const transparentUrl = `${CDN}/${brand.id}/logo-transparent.png?v=${VERSION}`;
   const hasSvg = !!(brand.logo_svg || brand.has_svg);
   const hasPng = !!(brand.logo_png || brand.has_png);
   const initSrc = hasSvg ? svgUrl : pngUrl;
@@ -594,6 +595,12 @@ function BrandCard({ brand, onClick, priority }: { brand: Brand; onClick: () => 
             const img = e.currentTarget as HTMLImageElement;
             if (hasPng && img.src !== pngUrl) {
               img.src = pngUrl;
+              return;
+            }
+            // 일부 레거시 항목은 metadata에는 PNG가 있지만 기본 파일 대신
+            // 투명/다크 변형만 CDN에 남아 있다. 카드가 빈칸이 되지 않도록 한 번 더 시도한다.
+            if (img.src !== transparentUrl) {
+              img.src = transparentUrl;
               return;
             }
             // 한 번은 다시 시도한다.
