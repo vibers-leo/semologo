@@ -311,6 +311,13 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
     const related = allBrands.find(b => b.id === rel.relatedId);
     return related ? [{ ...rel, brand: related }] : [];
   });
+  // 지자체처럼 본 로고·브랜드 슬로건·캐릭터가 별도 콘텐츠로 존재하는 경우
+  // 같은 출처 묶음의 페이지를 서로 연결한다.
+  const relatedVariants = allBrands.filter((candidate) =>
+    candidate.id !== brand.id &&
+    (candidate.variant_of === brand.id ||
+      (brand.variant_of && candidate.variant_of === brand.variant_of))
+  ).slice(0, 8);
 
   // 변형 매니페스트 — 없으면 null 이고, 아래에서 기존 고정 목록으로 폴백한다
   const [manifest, setManifest] = useState<VariantManifest | null>(null);
@@ -713,6 +720,19 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
               </button>
             );
           })}
+        </div>
+      )}
+
+      {relatedVariants.length > 0 && (
+        <div style={{ display:"flex", alignItems:"center", gap:8, padding:"8px 20px", borderBottom:"1px solid #e4e4e7", background:"#fff", flexShrink:0, flexWrap:"wrap" }}>
+          <span style={{ fontSize:11, fontWeight:700, color:"#a1a1aa", letterSpacing:".06em", textTransform:"uppercase", flexShrink:0 }}><T>{"관련 로고"}</T></span>
+          {relatedVariants.map((related) => (
+            <button key={related.id} onClick={() => onSelectBrand?.(related)} disabled={!onSelectBrand}
+              style={{ display:"flex", alignItems:"center", gap:6, padding:"4px 10px 4px 6px", background:"#f5f3ff", border:"1px solid #ddd6fe", borderRadius:20, cursor:onSelectBrand?"pointer":"default" }}>
+              <img src={`${CDN}/${related.id}/logo.png?v=${VERSION}`} alt="" style={{ width:22, height:18, objectFit:"contain", flexShrink:0 }} onError={e => { e.currentTarget.style.display="none"; }} />
+              <span style={{ fontSize:11, fontWeight:700, color:"#5b21b6" }}>{en ? related.name_en || related.name_ko : related.name_ko}</span>
+            </button>
+          ))}
         </div>
       )}
 
