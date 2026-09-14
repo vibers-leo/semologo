@@ -118,7 +118,10 @@ export default async function BrandPage(
     },
   ];
 
-  const relatedBrands = peers.filter((b) => b.id !== brand.id).slice(0, 12);
+  // 부모 로고의 심벌·브랜드 슬로건·캐릭터 변형을 먼저 보여준다.
+  const variants = peers.filter((b) => b.variant_of === brand.id);
+  const relatedBrands = [...variants, ...peers.filter((b) => b.id !== brand.id && b.variant_of !== brand.id)]
+    .slice(0, 12 + variants.length);
 
   return (
     <>
