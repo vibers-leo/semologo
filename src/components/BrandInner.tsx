@@ -298,7 +298,9 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
    *  4종이 전부 안 보여 파일이 깨진 것처럼 읽혔다 (2026-08-26). */
   const variantTile = (v: { key: string; color?: string }): React.CSSProperties =>
     (v.color === "white" || /(^|[-_])white$/.test(v.key)) ? DARK_TILE : tile(CHECKER);
-  const mainUrl = hasSvg ? svgUrl : pngUrl;
+  // 기관 원본 PNG에는 흰 캔버스가 포함된 경우가 많다. 대표 미리보기는
+  // 배경 제거 파생물을 먼저 사용하고, 파생물이 없을 때만 원본으로 폴백한다.
+  const mainUrl = hasSvg ? svgUrl : darkUrl;
   // 정본 브랜드 페이지 주소. 예전엔 `${origin}/#${brand.id}` 라 홈으로 보내놓고
   // 해시로 모달을 여는 링크였다 — 사이트맵·canonical 과 다른 주소를 공유하던 셈이다.
   //

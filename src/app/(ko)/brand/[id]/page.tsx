@@ -40,7 +40,7 @@ export async function brandMetadata(
 
   const logoUrl = brand.logo_svg
     ? `${CDN}/${brand.id}/logo.svg`
-    : `${CDN}/${brand.id}/logo-800.png`;
+    : `${CDN}/${brand.id}/logo-transparent.png`;
 
   // hidden 은 로고답지 않은 이미지다. 페이지는 살려 두되(이미 색인된 URL 을
   // 404 로 만들면 SEO 만 잃는다) 새로 색인되지는 않게 한다.
@@ -93,7 +93,7 @@ export default async function BrandPage(
 
   const logoUrl = brand.logo_svg
     ? `${CDN}/${brand.id}/logo.svg`
-    : `${CDN}/${brand.id}/logo-800.png`;
+    : `${CDN}/${brand.id}/logo-transparent.png`;
 
   const jsonLd = [
     {
