@@ -18,6 +18,20 @@ export interface BrandRelation {
  */
 export const BRAND_RELATIONS: Record<string, BrandRelation[]> = {
 
+  // 부산상수도사업본부가 공개한 CI·캐릭터·제품 브랜드를 한 묶음으로 탐색
+  "busan-water-authority": [
+    { relatedId: "busan-water-hanbangul", type: "연관", note: "한방울 캐릭터 셋" },
+    { relatedId: "busan-water-pure365", type: "연관", note: "순수365" },
+  ],
+  "busan-water-hanbangul": [
+    { relatedId: "busan-water-authority", type: "연관", note: "부산상수도사업본부" },
+    { relatedId: "busan-water-pure365", type: "연관", note: "순수365" },
+  ],
+  "busan-water-pure365": [
+    { relatedId: "busan-water-authority", type: "연관", note: "부산상수도사업본부" },
+    { relatedId: "busan-water-hanbangul", type: "연관", note: "한방울 캐릭터 셋" },
+  ],
+
   // ── 조선/중공업 ──────────────────────────────────────────
   // 한화오션이 대우조선해양을 인수 (2023.05 사명변경)
   "daewoo-shipbuilding": [
