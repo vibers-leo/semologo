@@ -278,7 +278,7 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
       return onAuthStateChanged(auth, u => setIsAdmin(u?.email === ADMIN_EMAIL));
     } catch { /* 서버 렌더·비로그인 */ }
   }, []);
-  const isLightLogo = bgOverride ? bgOverride === "dark" : !!(brand.light || brand.light_logo);
+  const isLightLogo = bgOverride ? bgOverride === "dark" : !!(brand.light || brand.light_logo || brand.dark_variant === "white");
   const toggleBg = async (e: React.MouseEvent) => {
     e.stopPropagation();
     if (!isAdmin) return;

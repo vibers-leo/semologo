@@ -582,7 +582,7 @@ function BrandCard({ brand, onClick, priority }: { brand: Brand; onClick: () => 
   return (
     <div className="logo-card" onClick={() => { trackEvent("brand_opened", { brand_id: brand.id, category: brand.category || "기타" }); sendHit(brand.id, "view"); onClick(); }}>
       {/* 흰색 로고는 밝은 체커 배경에서 안 보여 '빈 카드'처럼 된다 → 어두운 배경 */}
-      <div className="card-preview" style={brand.light ? { background: "#18181b", backgroundImage: "none" } : undefined}>
+      <div className="card-preview" style={(brand.light || brand.light_logo || brand.dark_variant === "white") ? { background: "#18181b", backgroundImage: "none" } : undefined}>
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img src={initSrc} alt={en ? brand.name_en || brand.name_ko : brand.name_ko} width={320} height={180}
           decoding="async" fetchPriority={priority ? "high" : "auto"} loading={priority ? "eager" : "lazy"}
