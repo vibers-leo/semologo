@@ -569,7 +569,7 @@ export default function BrandGrid({ initialBrands = [] }: { initialBrands?: Bran
 
 function BrandCard({ brand, onClick, priority }: { brand: Brand; onClick: () => void; priority: boolean }) {
   const {en, t} = useLocale();
-  const svgUrl = `${CDN}/${brand.id}/logo.svg?v=${VERSION}`;
+  const svgUrl = `${CDN}/${brand.id}/${brand.svg_transparent || "logo.svg"}?v=${VERSION}`;
   const pngUrl = `${CDN}/${brand.id}/logo.png?v=${VERSION}`;
   const transparentUrl = `${CDN}/${brand.id}/logo-transparent.png?v=${VERSION}`;
   const hasSvg = !!(brand.logo_svg || brand.has_svg);

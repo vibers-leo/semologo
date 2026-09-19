@@ -8,6 +8,8 @@ export interface Brand {
   name_en: string;
   category: string;
   logo_svg?: string | boolean | null;
+  /** 안전 검수된 투명 SVG 변형이 있을 때만 사용한다. 원본 logo.svg는 보존한다. */
+  svg_transparent?: string | null;
   logo_png?: string | boolean | null;
   has_svg?: boolean;
   has_png?: boolean;
@@ -248,7 +250,7 @@ export function logoUrl(brand: Brand, file: string): string {
 }
 
 export function primaryLogoUrl(brand: Brand): string {
-  if (brand.logo_svg) return logoUrl(brand, "logo.svg");
+  if (brand.logo_svg) return logoUrl(brand, brand.svg_transparent || "logo.svg");
   return logoUrl(brand, "logo.png");
 }
 
