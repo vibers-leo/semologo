@@ -643,7 +643,12 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
           {/* 검색엔진용. 화면에는 안 보이지만 HTML 에는 남는다 —
               헤더가 4줄이 되면 정작 로고가 밀린다. 크롤러는 읽는다. */}
           {(() => {
-            const sources = (brand.sources ?? [])
+            const sources = [
+              ...(brand.sources ?? []),
+              ...(brand.official_source_page ? [{ label: en ? "Official source page" : "공식 원문 페이지", origin: brand.official_source_page, source_url: undefined }] : []),
+              ...(brand.ci_page_url ? [{ label: en ? "CI page" : "CI 안내 페이지", origin: brand.ci_page_url, source_url: undefined }] : []),
+              ...(brand.getlogo_url ? [{ label: en ? "GetLogo record" : "겟로고 기록", origin: brand.getlogo_url, source_url: undefined }] : []),
+            ]
               .map(item => ({ ...item, url: item.origin || item.source_url }))
               .filter((item): item is typeof item & { url: string } => Boolean(item.url))
               .filter((item, index, all) => all.findIndex(other => other.url === item.url) === index)

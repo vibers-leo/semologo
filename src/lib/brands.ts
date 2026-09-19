@@ -35,6 +35,9 @@ export interface Brand {
   lang_en?: boolean;
   added_at?: string;
   sources?: { provider: string; file: string; label: string; origin?: string; source_url?: string }[];
+  official_source_page?: string;
+  ci_page_url?: string;
+  getlogo_url?: string;
   /** 배포처가 함께 제공한 브랜드 매뉴얼 원본(.ai/.pdf). _clients/{id} 기준 상대경로.
    *  컬러 팔레트·최소규격·응용례가 들어 있어 로고 파일만큼 값어치가 있다. */
   brand_manual?: string;
