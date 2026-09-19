@@ -643,12 +643,18 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
           {/* 검색엔진용. 화면에는 안 보이지만 HTML 에는 남는다 —
               헤더가 4줄이 되면 정작 로고가 밀린다. 크롤러는 읽는다. */}
           {(() => {
-            const source = brand.sources?.find((item) => item.origin || item.source_url);
-            const sourceUrl = source?.origin || source?.source_url;
-            if (!sourceUrl) return null;
-            return <a href={sourceUrl} target="_blank" rel="noopener noreferrer nofollow" className="mt-3 inline-flex items-center gap-1 text-sm text-gray-500 underline" title={en ? "Open the original source" : "로고 원본이 공개된 공식 출처 열기"}>
-              🔗 {en ? "Official source" : "공식 출처 바로가기"}
-            </a>;
+            const sources = (brand.sources ?? [])
+              .map(item => ({ ...item, url: item.origin || item.source_url }))
+              .filter((item): item is typeof item & { url: string } => Boolean(item.url))
+              .filter((item, index, all) => all.findIndex(other => other.url === item.url) === index)
+              .slice(0, 3);
+            if (!sources.length) return null;
+            return <div className="mt-3 flex flex-wrap items-center gap-2" aria-label={en ? "Logo sources" : "로고 출처"}>
+              <span className="text-sm text-gray-500">🔗 {en ? "Sources" : "출처"}</span>
+              {sources.map((source, index) => <a key={source.url} href={source.url} target="_blank" rel="noopener noreferrer nofollow" className="inline-flex items-center gap-1 text-sm text-gray-500 underline" title={source.label || (en ? "Open original source" : "원본 출처 열기")}>
+                {source.label || (index === 0 ? (en ? "Official source" : "공식 출처") : (en ? `Source ${index + 1}` : `출처 ${index + 1}`))}
+              </a>)}
+            </div>;
           })()}
 
         </div>
