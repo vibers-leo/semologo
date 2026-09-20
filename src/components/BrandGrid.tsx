@@ -45,6 +45,11 @@ export default function BrandGrid({ initialBrands = [] }: { initialBrands?: Bran
   const [brands, setBrands] = useState<Brand[]>(initialBrands);
   const [loading, setLoading] = useState(initialBrands.length === 0);
   const [loadError, setLoadError] = useState(false);
+  const [catalogLoading, setCatalogLoading] = useState(false);
+  const [catalogStats, setCatalogStats] = useState<{
+    visible?: number; svg?: number; kr?: number; global?: number;
+    categories?: Record<string, number>;
+  } | null>(null);
   const [fullLoaded, setFullLoaded] = useState(initialBrands.length > 60);
   const [searchIds, setSearchIds] = useState<string[] | null>(null);
   const [selected, setSelected] = useState<Brand | null>(null);
@@ -72,6 +77,16 @@ export default function BrandGrid({ initialBrands = [] }: { initialBrands?: Bran
       .catch(() => {});          // 실패해도 정렬은 계속된다
     return () => { alive = false; };
   }, []);
+  // 작은 통계 파일로 필터 수치를 먼저 채운다. 전체 18만 건 목록을
+  // 내려받기 전에도 카테고리·국내외·SVG 건수를 정확히 보여줄 수 있다.
+  useEffect(() => {
+    let alive = true;
+    fetch(`${CDN}/stats.json?v=${VERSION}`, { cache: "force-cache" })
+      .then(r => r.ok ? r.json() : null)
+      .then(s => { if (alive && s && typeof s === "object") setCatalogStats(s); })
+      .catch(() => {});
+    return () => { alive = false; };
+  }, []);
   const workerRef = useRef<Worker | null>(null);
   const workerQueryRef = useRef("");
   const loadFullRef = useRef<(() => void) | null>(null);
@@ -96,6 +111,7 @@ export default function BrandGrid({ initialBrands = [] }: { initialBrands?: Bran
       inFlight = true;
       if (brands.length === 0) setLoading(true);
       setLoadError(false);
+      setCatalogLoading(true);
       try {
         let list: Brand[] | null = null;
         for (const source of [CDN, BRAND_DATA_FALLBACK]) {
@@ -116,17 +132,25 @@ export default function BrandGrid({ initialBrands = [] }: { initialBrands?: Bran
         if (!cancelled) setLoadError(true);
       } finally {
         inFlight = false;
+        if (!cancelled) setCatalogLoading(false);
         if (!cancelled) setLoading(false);
       }
     }
     loadFullRef.current = load;
-    const idle = (window as Window & { requestIdleCallback?: (cb: () => void, opts?: { timeout: number }) => number }).requestIdleCallback;
-    const id = idle ? idle(load, { timeout: 1500 }) : window.setTimeout(load, 700);
-    return () => { cancelled = true; loadFullRef.current = null; if (!idle) window.clearTimeout(id as number); };
+    // 첫 화면에는 SSR된 60개만 쓴다. 전체 목록은 검색·필터를 쓰거나
+    // 사용자가 실제로 목록 끝까지 스크롤할 때만 받는다.
+    return () => { cancelled = true; loadFullRef.current = null; };
   }, []);
 
   // 카테고리별 카운트 (실제 데이터 기반, 내림차순)
   const categoryStats = useMemo(() => {
+    if (catalogStats?.categories) {
+      return Object.entries(catalogStats.categories).sort((a, b) => {
+        if (a[0] === "기타") return 1;
+        if (b[0] === "기타") return -1;
+        return b[1] - a[1];
+      });
+    }
     const map = new Map<string, number>();
     brands.forEach(b => {
       const cat = b.category || "기타";
@@ -140,7 +164,7 @@ export default function BrandGrid({ initialBrands = [] }: { initialBrands?: Bran
       if (b[0] === "기타") return -1;
       return b[1] - a[1];
     });
-  }, [brands]);
+  }, [brands, catalogStats]);
 
   const SHOW_LIMIT = 14; // 초기 노출 카테고리 수
   const visibleCats = showAllCats ? categoryStats : categoryStats.slice(0, SHOW_LIMIT);
@@ -170,18 +194,11 @@ export default function BrandGrid({ initialBrands = [] }: { initialBrands?: Bran
   useEffect(() => {
     if (deferredQuery.trim() && !fullLoaded) loadFullRef.current?.();
   }, [deferredQuery, fullLoaded]);
-
   useEffect(() => {
-    if (!fullLoaded || !brands.length) return;
-    const worker = new Worker("/search-worker.js");
-    workerRef.current = worker;
-    worker.onmessage = event => {
-      const message = event.data || {};
-      if (message.type === "result" && message.query === workerQueryRef.current) setSearchIds(message.ids);
-    };
-    worker.postMessage({ type: "init", records: brands.map(b => ({ id: b.id, name_ko: b.name_ko, name_en: b.name_en, aliases: b.aliases })) });
-    return () => { worker.terminate(); workerRef.current = null; };
-  }, [fullLoaded, brands]);
+    if (!fullLoaded && (selectedCats.size > 0 || origin !== null || fmt === "svg")) {
+      loadFullRef.current?.();
+    }
+  }, [selectedCats, origin, fmt, fullLoaded]);
 
   const filtered = useMemo(() => {
     let list = sorted;
@@ -190,6 +207,9 @@ export default function BrandGrid({ initialBrands = [] }: { initialBrands?: Bran
     if (q && searchIds) {
       const byId = new Map(sorted.map(b => [b.id, b]));
       list = searchIds.map(id => byId.get(id)).filter((b): b is Brand => Boolean(b));
+    } else if (q && fullLoaded) {
+      // 전체 검색은 워커가 끝날 때까지 메인 스레드에서 다시 훑지 않는다.
+      list = [];
     } else if (q) {
       // 자음 낱자가 섞였으면 초성 검색 — "ㅅㅅ" 으로 삼성을 찾을 수 있어야 한다.
       // 일반 부분일치도 함께 시도해 "삼성" 같은 기존 입력을 깨지 않는다.
@@ -248,16 +268,31 @@ export default function BrandGrid({ initialBrands = [] }: { initialBrands?: Bran
       workerQueryRef.current = "";
       return;
     }
-    if (!workerRef.current) return;
+    if (!fullLoaded || !brands.length) return;
     workerQueryRef.current = q;
     setSearchIds(null);
+    if (!workerRef.current) {
+      const worker = new Worker("/search-worker.js");
+      workerRef.current = worker;
+      worker.onmessage = event => {
+        const message = event.data || {};
+        if (message.type === "result" && message.query === workerQueryRef.current) setSearchIds(message.ids);
+      };
+      worker.postMessage({ type: "init", records: brands.map(b => ({ id: b.id, name_ko: b.name_ko, name_en: b.name_en, aliases: b.aliases })) });
+    }
     workerRef.current.postMessage({ type: "search", query: q });
-  }, [deferredQuery, fullLoaded]);
+  }, [deferredQuery, fullLoaded, brands]);
+
+  useEffect(() => () => {
+    workerRef.current?.terminate();
+    workerRef.current = null;
+  }, []);
 
   // 버튼에 실제 개수를 보여줘야 신뢰가 간다 (0개인데 버튼만 있으면 고장으로 보인다)
-  const svgCount = useMemo(
+  const localSvgCount = useMemo(
     () => brands.reduce((n, b) => n + (b.logo_svg || b.has_svg ? 1 : 0), 0),
     [brands]);
+  const svgCount = catalogStats?.svg ?? localSvgCount;
 
   const originStats = useMemo(() => {
     let kr = 0, gl = 0;
@@ -267,6 +302,10 @@ export default function BrandGrid({ initialBrands = [] }: { initialBrands?: Bran
     }
     return { kr, gl };
   }, [brands]);
+  const originCounts = {
+    kr: catalogStats?.kr ?? originStats.kr,
+    gl: catalogStats?.global ?? originStats.gl,
+  };
 
   // 렌더 중 setState 금지 — 예전엔 useMemo 안에서 setPage(1) 를 불러
   // 입력마다 렌더가 두 번씩 돌았다.
@@ -288,6 +327,19 @@ export default function BrandGrid({ initialBrands = [] }: { initialBrands?: Bran
 
   const visible = filtered.slice(0, page * PAGE_SIZE);
   const hasMore = visible.length < filtered.length;
+
+  // Defer the large catalog request until the reader reaches the end of the
+  // server-rendered first page. Browsers that only view the first screen never
+  // download or parse the 35MB catalog.
+  useEffect(() => {
+    const node = sentinelRef.current;
+    if (!node || fullLoaded || deferredQuery.trim() || selectedCats.size || origin || fmt) return;
+    const obs = new IntersectionObserver(entries => {
+      if (entries[0]?.isIntersecting) loadFullRef.current?.();
+    }, { rootMargin: "100px" });
+    obs.observe(node);
+    return () => obs.disconnect();
+  }, [fullLoaded, deferredQuery, selectedCats, origin, fmt]);
 
   // 무한스크롤 — 페이지 추가에 쿨다운을 둔다.
   // 없으면 빠르게 스크롤할 때 관찰자가 연달아 발화해 한 번에 여러 페이지가
@@ -350,14 +402,14 @@ export default function BrandGrid({ initialBrands = [] }: { initialBrands?: Bran
       </aside>
 
       {/* ── 국내/해외 필터 ── */}
-      {(originStats.kr > 0 || originStats.gl > 0) && (
+      {(originCounts.kr > 0 || originCounts.gl > 0) && (
         <div className="pt-5 pb-1">
           <div className="text-xs font-semibold text-gray-500 tracking-wider uppercase mb-3"><T>{"지역"}</T></div>
           <div className="flex flex-wrap gap-2">
             {([
               [null, "전체", brands.length],
-              ["KR", "🇰🇷 국내", originStats.kr],
-              ["GLOBAL", "🌏 해외", originStats.gl],
+              ["KR", "🇰🇷 국내", originCounts.kr],
+              ["GLOBAL", "🌏 해외", originCounts.gl],
             ] as const).map(([val, label, count]) => {
               const on = origin === val;
               return (
@@ -474,7 +526,7 @@ export default function BrandGrid({ initialBrands = [] }: { initialBrands?: Bran
       {/* ── 결과 카운트 ── */}
       <div className="flex items-center justify-between mb-4">
         <p className="text-sm" style={{ color: "var(--text-secondary)" }}>
-          <span className="font-semibold text-gray-900">{filtered.length.toLocaleString()}</span><T>{"개 브랜드"}</T>{/* 정렬 토글 — 기본 인기순. 최신순도 남겨 새로 들어온 로고를 볼 수 있게 한다. */}
+          <span className="font-semibold text-gray-900">{(!fullLoaded && !deferredQuery.trim() && selectedCats.size === 0 && !origin && !fmt && catalogStats?.visible ? catalogStats.visible : filtered.length).toLocaleString()}</span><T>{"개 브랜드"}</T>{/* 정렬 토글 — 기본 인기순. 최신순도 남겨 새로 들어온 로고를 볼 수 있게 한다. */}
           <span style={{ marginLeft: 12, display: "inline-flex", gap: 4 }}>
             {([["fame", "인기순"], ["recent", "최신순"]] as const).map(([m2, label]) => (
               <button key={m2} onClick={() => { setSortMode(m2); setPage(1); }}
@@ -502,11 +554,11 @@ export default function BrandGrid({ initialBrands = [] }: { initialBrands?: Bran
       {!fullLoaded && (
         <div className="mb-4 flex flex-wrap items-center justify-between gap-2 rounded-xl border px-3 py-2 text-sm"
           style={{ borderColor: "var(--border)", color: "var(--text-secondary)", background: "var(--surface)" }}>
-          <span>{loadError ? t("전체 로고 목록을 아직 불러오지 못했어요.") : t("전체 로고 목록을 준비하고 있어요.")}</span>
+          <span>{catalogLoading ? t("전체 로고 목록을 불러오는 중이에요.") : loadError ? t("전체 로고 목록을 아직 불러오지 못했어요.") : t("스크롤하거나 검색하면 나머지 로고를 불러와요.")}</span>
           <button type="button" onClick={() => loadFullRef.current?.()}
             className="rounded-full border px-3 py-1 text-xs font-semibold"
             style={{ borderColor: "var(--border)", color: "var(--text)" }}>
-            {loadError ? t("전체 목록 다시 불러오기") : t("지금 불러오기")}
+            {catalogLoading ? t("불러오는 중...") : loadError ? t("전체 목록 다시 불러오기") : t("전체 목록 불러오기")}
           </button>
         </div>
       )}
@@ -525,6 +577,9 @@ export default function BrandGrid({ initialBrands = [] }: { initialBrands?: Bran
             />
         ))}
       </div>
+
+      {!fullLoaded && !deferredQuery.trim() && selectedCats.size === 0 && !origin && !fmt &&
+        <div ref={sentinelRef} aria-hidden="true" className="h-1" />}
 
       {hasMore && (
         <div ref={sentinelRef} className="flex flex-col items-center gap-2 pt-6">
