@@ -31,7 +31,7 @@ export interface Brand {
   variants_n?: number;
   /** 부모 브랜드로 흡수된 중복 항목 — 목록에서 제외하고 canonical 을 부모로 건다 */
   variant_of?: string;
-  dark_variant?: boolean;
+  dark_variant?: boolean | string;
   lang_en?: boolean;
   added_at?: string;
   sources?: { provider: string; file: string; label: string; origin?: string; source_url?: string }[];
