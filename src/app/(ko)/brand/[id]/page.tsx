@@ -106,6 +106,15 @@ export default async function BrandPage(
     },
     {
       "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        { "@type": "ListItem", position: 1, name: "세모로고", item: BASE },
+        { "@type": "ListItem", position: 2, name: "브랜드 로고", item: `${BASE}/logo-collection` },
+        { "@type": "ListItem", position: 3, name: brand.name_ko, item: `${BASE}/brand/${brand.id}` },
+      ],
+    },
+    {
+      "@context": "https://schema.org",
       "@type": "ImageObject",
       name: `${brand.name_ko} 로고`,
       contentUrl: logoUrl,
