@@ -3,15 +3,13 @@
 import { useLocale, T } from "@/lib/locale-context";
 import { useMemo, useState, useEffect, useRef, useDeferredValue } from "react";
 import dynamic from "next/dynamic";
-import { BRAND_DATA_FALLBACK, Brand, sortForGrid, type SortMode } from "@/lib/brands";
-import { hasUsableBrandData, parseBrandList } from "@/lib/brand-data";
+import { Brand, sortForGrid, type SortMode } from "@/lib/brands";
 import { CDN, VERSION } from "@/lib/cdn";
 import { sendHit } from "@/lib/hit";
 import { loadFlaggedIds } from "@/lib/logo-quality";
 import { trackEvent } from "@/lib/analytics";
 import BrandModal from "./BrandModal";
 import { useSearch } from "@/lib/search-context";
-import { isChoseongQuery, choseongIndex } from "@/lib/hangul";
 
 const AdSlot = dynamic(() => import("./AdSlot"), { ssr: false });
 
@@ -50,8 +48,7 @@ export default function BrandGrid({ initialBrands = [] }: { initialBrands?: Bran
     visible?: number; svg?: number; kr?: number; global?: number;
     categories?: Record<string, number>;
   } | null>(null);
-  const [fullLoaded, setFullLoaded] = useState(initialBrands.length > 60);
-  const [searchIds, setSearchIds] = useState<string[] | null>(null);
+  const [resultTotal, setResultTotal] = useState(initialBrands.length);
   const [selected, setSelected] = useState<Brand | null>(null);
   const [page, setPage] = useState(1);
   const [showAllCats, setShowAllCats] = useState(false);
@@ -87,9 +84,9 @@ export default function BrandGrid({ initialBrands = [] }: { initialBrands?: Bran
       .catch(() => {});
     return () => { alive = false; };
   }, []);
-  const workerRef = useRef<Worker | null>(null);
-  const workerQueryRef = useRef("");
-  const loadFullRef = useRef<(() => void) | null>(null);
+  const requestIdRef = useRef(0);
+  const busyRef = useRef(false);
+  const nextPageRef = useRef<(() => void) | null>(null);
   useEffect(() => {
     let alive = true;
     fetch("/api/popularity/")
@@ -100,47 +97,57 @@ export default function BrandGrid({ initialBrands = [] }: { initialBrands?: Bran
   }, []);
   const sentinelRef = useRef<HTMLDivElement>(null);
 
-  useEffect(() => {
-    let cancelled = false;
-    // 최초 수집이 실패해도 검색 입력이나 사용자의 재시도 버튼으로 다시 받을 수
-    // 있어야 한다. 기존의 started 플래그는 한 번의 네트워크 실패 뒤 영구적으로
-    // 전체 목록 로딩을 막아, 첫 화면 60개만 남기는 원인이었다.
-    let inFlight = false;
-    async function load() {
-      if (inFlight) return;
-      inFlight = true;
-      if (brands.length === 0) setLoading(true);
-      setLoadError(false);
-      setCatalogLoading(true);
-      try {
-        let list: Brand[] | null = null;
-        for (const source of [CDN, BRAND_DATA_FALLBACK]) {
-          try {
-            const response = await fetch(`${source}/brands-slim.json?v=${VERSION}`, { cache: "force-cache" });
-            if (!response.ok) continue;
-            const candidate = parseBrandList(await response.json());
-            if (!hasUsableBrandData(candidate)) continue;
-            list = candidate;
-            break;
-          } catch {
-            // 다음 읽기 전용 원본을 시도한다.
-          }
-        }
-        if (!list) throw new Error("catalog unavailable");
-        if (!cancelled) { setBrands(list); setFullLoaded(true); }
-      } catch {
-        if (!cancelled) setLoadError(true);
-      } finally {
-        inFlight = false;
-        if (!cancelled) setCatalogLoading(false);
-        if (!cancelled) setLoading(false);
+  const deferredQuery = useDeferredValue(query);
+  const apiParams = new URLSearchParams();
+  if (deferredQuery.trim()) apiParams.set("q", deferredQuery.trim());
+  for (const category of Array.from(selectedCats).sort()) apiParams.append("category", category);
+  if (origin) apiParams.set("origin", origin);
+  if (fmt === "svg") apiParams.set("svg", "1");
+  apiParams.set("sort", sortMode);
+  const queryKey = apiParams.toString();
+
+  const fetchPage = async (offset: number, replace: boolean, requestId: number) => {
+    setCatalogLoading(true);
+    setLoadError(false);
+    try {
+      const response = await fetch(`/api/catalog/?${queryKey}&offset=${offset}&limit=${PAGE_SIZE}`);
+      if (!response.ok) throw new Error(`HTTP ${response.status}`);
+      const data = await response.json() as { brands: Brand[]; total: number };
+      if (requestId !== requestIdRef.current) return;
+      setBrands(current => replace ? data.brands : [
+        ...current,
+        ...data.brands.filter(brand => !current.some(existing => existing.id === brand.id)),
+      ]);
+      setResultTotal(data.total);
+    } catch {
+      if (requestId === requestIdRef.current) setLoadError(true);
+    } finally {
+      if (requestId === requestIdRef.current) {
+        setCatalogLoading(false);
+        setLoading(false);
+        busyRef.current = false;
       }
     }
-    loadFullRef.current = load;
-    // 첫 화면에는 SSR된 60개만 쓴다. 전체 목록은 검색·필터를 쓰거나
-    // 사용자가 실제로 목록 끝까지 스크롤할 때만 받는다.
-    return () => { cancelled = true; loadFullRef.current = null; };
-  }, []);
+  };
+
+  useEffect(() => {
+    const requestId = ++requestIdRef.current;
+    busyRef.current = false;
+    setPage(1);
+    // SSR된 첫 60개는 API 응답 전까지 그대로 보여준다.
+    const timer = window.setTimeout(() => fetchPage(0, true, requestId), deferredQuery.trim() ? 250 : 0);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    return () => window.clearTimeout(timer);
+  }, [queryKey]);
+
+  nextPageRef.current = () => {
+    if (busyRef.current || brands.length >= resultTotal) return;
+    busyRef.current = true;
+    const requestId = requestIdRef.current;
+    const offset = brands.length;
+    setPage(current => current + 1);
+    fetchPage(offset, false, requestId);
+  };
 
   // 카테고리별 카운트 (실제 데이터 기반, 내림차순)
   const categoryStats = useMemo(() => {
@@ -179,114 +186,7 @@ export default function BrandGrid({ initialBrands = [] }: { initialBrands?: Bran
     [brands, sortMode, hits, flagged],
   );
 
-  // 검색용 소문자 문자열을 미리 만들어 둔다 (매 입력마다 toLowerCase 2만 회 방지)
-  const haystack = useMemo(() => {
-    const m = new Map<string, string>();
-    for (const b of sorted) {
-      m.set(b.id, `${b.name_ko} ${b.name_en} ${b.id} ${(b.aliases ?? []).join(" ")}`.toLowerCase());
-    }
-    return m;
-  }, [sorted]);
-
-  // 입력은 즉시 반영하되 무거운 필터링은 한 박자 미룬다 → 타이핑이 끊기지 않는다
-  const deferredQuery = useDeferredValue(query);
-
-  useEffect(() => {
-    if (deferredQuery.trim() && !fullLoaded) loadFullRef.current?.();
-  }, [deferredQuery, fullLoaded]);
-  useEffect(() => {
-    if (!fullLoaded && (selectedCats.size > 0 || origin !== null || fmt === "svg")) {
-      loadFullRef.current?.();
-    }
-  }, [selectedCats, origin, fmt, fullLoaded]);
-
-  const filtered = useMemo(() => {
-    let list = sorted;
-    const raw = deferredQuery.trim();
-    const q = raw.toLowerCase();
-    if (q && searchIds) {
-      const byId = new Map(sorted.map(b => [b.id, b]));
-      list = searchIds.map(id => byId.get(id)).filter((b): b is Brand => Boolean(b));
-    } else if (q && fullLoaded) {
-      // 전체 검색은 워커가 끝날 때까지 메인 스레드에서 다시 훑지 않는다.
-      list = [];
-    } else if (q) {
-      // 자음 낱자가 섞였으면 초성 검색 — "ㅅㅅ" 으로 삼성을 찾을 수 있어야 한다.
-      // 일반 부분일치도 함께 시도해 "삼성" 같은 기존 입력을 깨지 않는다.
-      // 초성이든 일반 입력이든 같은 규칙으로 순위를 매긴다.
-      //   ① 정확히 일치      "삼성" → 삼성  (없으면 삼성중공업·삼성물산이 위로 온다)
-      //   ② 앞글자 매치      "ㅅㅅ" → 삼성…  (없으면 골드만'삭스'가 위로 온다)
-      //   ③ 중간 매치
-      // 예전엔 초성일 때만 순위를 매기고 일반 입력은 그냥 필터라, 브랜드
-      // 이름을 정확히 쳐도 본체가 상위에 안 나왔다.
-      const cho = isChoseongQuery(raw);
-      const scored: { b: Brand; rank: number }[] = [];
-      for (const b of list) {
-        const alias = b.aliases ?? [];
-        // 별칭도 초성 대상에 넣는다 — 'ㅇㅈ' 로 '엘지'를 찾을 수 있어야 한다
-        const idx = cho
-          ? Math.max(choseongIndex(raw, b.name_ko), ...alias.map(a => choseongIndex(raw, a)))
-          : -1;
-        const hay = haystack.get(b.id) ?? "";
-        const textAt = hay.indexOf(q);
-        if (idx < 0 && textAt < 0) continue;
-
-        const exact =
-          b.id.toLowerCase() === q ||
-          (b.name_en ?? "").toLowerCase() === q ||
-          (b.name_ko ?? "").toLowerCase() === q ||
-          alias.some(a => a.toLowerCase() === q);
-
-        const at = idx === 0 || textAt === 0
-          ? 0
-          : Math.min(...[idx, textAt].filter(x => x >= 0)) + 1;
-        // 같은 순위면 이름이 짧은 쪽을 위로. "ㅅㅅ" 에 삼성중공업·삼성 모바일이
-        // 삼성보다 먼저 나오던 걸 잡는다 (짧은 이름일수록 본체일 확률이 높다).
-        scored.push({ b, rank: (exact ? -1000 : 0) + at * 100 + (b.name_ko?.length ?? 99) });
-      }
-      scored.sort((x, y) => x.rank - y.rank);
-      list = scored.map(x => x.b);
-    }
-    if (selectedCats.size > 0) {
-      list = list.filter(b => selectedCats.has(b.category || "기타"));
-    }
-    // origin 이 없는 브랜드(국가 미확보)는 어느 쪽으로도 단정하지 않는다.
-    // '전체'에서만 보이게 두는 편이 잘못 넣어 보여주는 것보다 낫다.
-    if (origin) {
-      list = list.filter(b => b.origin === origin);
-    }
-    if (fmt === "svg") {
-      list = list.filter(b => b.logo_svg || b.has_svg);
-    }
-    return list;
-  }, [sorted, haystack, deferredQuery, searchIds, selectedCats, origin, fmt]);
-
-  useEffect(() => {
-    const q = deferredQuery.trim();
-    if (!q) {
-      setSearchIds(null);
-      workerQueryRef.current = "";
-      return;
-    }
-    if (!fullLoaded || !brands.length) return;
-    workerQueryRef.current = q;
-    setSearchIds(null);
-    if (!workerRef.current) {
-      const worker = new Worker("/search-worker.js");
-      workerRef.current = worker;
-      worker.onmessage = event => {
-        const message = event.data || {};
-        if (message.type === "result" && message.query === workerQueryRef.current) setSearchIds(message.ids);
-      };
-      worker.postMessage({ type: "init", records: brands.map(b => ({ id: b.id, name_ko: b.name_ko, name_en: b.name_en, aliases: b.aliases })) });
-    }
-    workerRef.current.postMessage({ type: "search", query: q });
-  }, [deferredQuery, fullLoaded, brands]);
-
-  useEffect(() => () => {
-    workerRef.current?.terminate();
-    workerRef.current = null;
-  }, []);
+  const filtered = sorted;
 
   // 버튼에 실제 개수를 보여줘야 신뢰가 간다 (0개인데 버튼만 있으면 고장으로 보인다)
   const localSvgCount = useMemo(
@@ -307,10 +207,6 @@ export default function BrandGrid({ initialBrands = [] }: { initialBrands?: Bran
     gl: catalogStats?.global ?? originStats.gl,
   };
 
-  // 렌더 중 setState 금지 — 예전엔 useMemo 안에서 setPage(1) 를 불러
-  // 입력마다 렌더가 두 번씩 돌았다.
-  useEffect(() => { setPage(1); }, [deferredQuery, selectedCats]);
-
   const trackedSearches = useRef(new Set<string>());
   useEffect(() => {
     const term = deferredQuery.trim();
@@ -319,49 +215,23 @@ export default function BrandGrid({ initialBrands = [] }: { initialBrands?: Bran
       trackedSearches.current.add(term);
       // 한 세션에서 지나치게 많은 이벤트가 쌓이지 않도록 상한을 둔다.
       if (trackedSearches.current.size > 50) trackedSearches.current.clear();
-      trackEvent("search_submitted", { search_term: term, result_count: filtered.length });
-      if (filtered.length === 0) trackEvent("search_no_result", { search_term: term });
+      trackEvent("search_submitted", { search_term: term, result_count: resultTotal });
+      if (resultTotal === 0) trackEvent("search_no_result", { search_term: term });
     }, 700);
     return () => window.clearTimeout(timer);
-  }, [deferredQuery, filtered.length]);
+  }, [deferredQuery, resultTotal]);
 
   const visible = filtered.slice(0, page * PAGE_SIZE);
-  const hasMore = visible.length < filtered.length;
+  const hasMore = visible.length < resultTotal;
 
-  // Defer the large catalog request until the reader reaches the end of the
-  // server-rendered first page. Browsers that only view the first screen never
-  // download or parse the 35MB catalog.
   useEffect(() => {
-    const node = sentinelRef.current;
-    if (!node || fullLoaded || deferredQuery.trim() || selectedCats.size || origin || fmt) return;
+    if (!sentinelRef.current || !hasMore || catalogLoading) return;
     const obs = new IntersectionObserver(entries => {
-      if (entries[0]?.isIntersecting) loadFullRef.current?.();
-    }, { rootMargin: "100px" });
-    obs.observe(node);
-    return () => obs.disconnect();
-  }, [fullLoaded, deferredQuery, selectedCats, origin, fmt]);
-
-  // 무한스크롤 — 페이지 추가에 쿨다운을 둔다.
-  // 없으면 빠르게 스크롤할 때 관찰자가 연달아 발화해 한 번에 여러 페이지가
-  // 붙고, 이미지 수백 개가 동시에 요청돼 CDN 이 끊어버린다(실측 실패 700건+).
-  const lastGrow = useRef(0);
-  useEffect(() => {
-    if (!sentinelRef.current || !hasMore) return;
-    const obs = new IntersectionObserver(
-      entries => {
-        if (!entries[0].isIntersecting) return;
-        const now = Date.now();
-        if (now - lastGrow.current < 250) return;
-        lastGrow.current = now;
-        setPage(p => p + 1);
-      },
-      // 바닥에 닿기 훨씬 전에 미리 불러온다. 200px 이면 바닥까지 가야 발화해서
-      // 스크롤이 벽에 부딪히는 느낌이 났다.
-      { rootMargin: "550px" }
-    );
+      if (entries[0]?.isIntersecting) nextPageRef.current?.();
+    }, { rootMargin: "550px" });
     obs.observe(sentinelRef.current);
     return () => obs.disconnect();
-  }, [hasMore, visible.length]);
+  }, [hasMore, catalogLoading, visible.length]);
 
   // URL hash로 브랜드 모달 자동 열기 (링크 공유 지원)
   useEffect(() => {
@@ -526,7 +396,7 @@ export default function BrandGrid({ initialBrands = [] }: { initialBrands?: Bran
       {/* ── 결과 카운트 ── */}
       <div className="flex items-center justify-between mb-4">
         <p className="text-sm" style={{ color: "var(--text-secondary)" }}>
-          <span className="font-semibold text-gray-900">{(!fullLoaded && !deferredQuery.trim() && selectedCats.size === 0 && !origin && !fmt && catalogStats?.visible ? catalogStats.visible : filtered.length).toLocaleString()}</span><T>{"개 브랜드"}</T>{/* 정렬 토글 — 기본 인기순. 최신순도 남겨 새로 들어온 로고를 볼 수 있게 한다. */}
+          <span className="font-semibold text-gray-900">{resultTotal.toLocaleString()}</span><T>{"개 브랜드"}</T>{/* 정렬 토글 — 기본 인기순. 최신순도 남겨 새로 들어온 로고를 볼 수 있게 한다. */}
           <span style={{ marginLeft: 12, display: "inline-flex", gap: 4 }}>
             {([["fame", "인기순"], ["recent", "최신순"]] as const).map(([m2, label]) => (
               <button key={m2} onClick={() => { setSortMode(m2); setPage(1); }}
@@ -551,18 +421,6 @@ export default function BrandGrid({ initialBrands = [] }: { initialBrands?: Bran
         )}
       </div>
 
-      {!fullLoaded && (
-        <div className="mb-4 flex flex-wrap items-center justify-between gap-2 rounded-xl border px-3 py-2 text-sm"
-          style={{ borderColor: "var(--border)", color: "var(--text-secondary)", background: "var(--surface)" }}>
-          <span>{catalogLoading ? t("전체 로고 목록을 불러오는 중이에요.") : loadError ? t("전체 로고 목록을 아직 불러오지 못했어요.") : t("스크롤하거나 검색하면 나머지 로고를 불러와요.")}</span>
-          <button type="button" onClick={() => loadFullRef.current?.()}
-            className="rounded-full border px-3 py-1 text-xs font-semibold"
-            style={{ borderColor: "var(--border)", color: "var(--text)" }}>
-            {catalogLoading ? t("불러오는 중...") : loadError ? t("전체 목록 다시 불러오기") : t("전체 목록 불러오기")}
-          </button>
-        </div>
-      )}
-
       {/* ── 카드 그리드 ── */}
       <div className="grid grid-cols-2 sm:grid-cols-4 xl:grid-cols-6 gap-3">
         {visible.map((brand, i) => (
@@ -578,16 +436,28 @@ export default function BrandGrid({ initialBrands = [] }: { initialBrands?: Bran
         ))}
       </div>
 
-      {!fullLoaded && !deferredQuery.trim() && selectedCats.size === 0 && !origin && !fmt &&
-        <div ref={sentinelRef} aria-hidden="true" className="h-1" />}
-
       {hasMore && (
         <div ref={sentinelRef} className="flex flex-col items-center gap-2 pt-6">
-          <button type="button" onClick={() => setPage(p => p + 1)}
+          <button type="button" disabled={catalogLoading} onClick={() => nextPageRef.current?.()}
             className="rounded-full border px-5 py-2 text-sm font-semibold transition-colors hover:bg-gray-50"
-            style={{ borderColor: "var(--border)", color: "var(--text)" }}><T>{"로고 60개 더 보기"}</T></button>
+            style={{ borderColor: "var(--border)", color: "var(--text)", opacity: catalogLoading ? 0.6 : 1 }}>
+            {catalogLoading ? <T>{"로고를 불러오고 있어요"}</T> : <T>{"로고 60개 더 보기"}</T>}
+          </button>
           <span className="text-xs" style={{ color: "var(--text-secondary)" }}>
-            {visible.length.toLocaleString()} / {filtered.length.toLocaleString()}<T>{"개 표시 중"}</T></span>
+            {visible.length.toLocaleString()} / {resultTotal.toLocaleString()}<T>{"개 표시 중"}</T></span>
+        </div>
+      )}
+
+      {loadError && (
+        <div role="status" className="flex justify-center pt-5">
+          <button type="button" onClick={() => {
+            const requestId = ++requestIdRef.current;
+            busyRef.current = false;
+            fetchPage(0, true, requestId);
+          }} className="rounded-full border px-4 py-2 text-sm font-medium"
+            style={{ borderColor: "var(--border)", color: "var(--text)" }}>
+            <T>{"로고를 불러오지 못했어요. 다시 불러오기"}</T>
+          </button>
         </div>
       )}
 
