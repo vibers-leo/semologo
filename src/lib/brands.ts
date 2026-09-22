@@ -68,8 +68,13 @@ export { CDN };
 export const BRAND_DATA_FALLBACK =
   "https://raw.githubusercontent.com/vibers-leo/brand-logos/main/_clients";
 
+// Catalog JSON is large and the CDN edge can throttle server-to-server reads.
+// NCP Object Storage is the canonical source and is reachable directly from the app server.
+const BRAND_DATA_ORIGIN =
+  process.env.SEMOLOGO_BRAND_DATA_URL || "https://kr.object.ncloudstorage.com/vibers-bucket/_clients";
+
 async function fetchBrandData(file: string): Promise<unknown> {
-  const sources = [CDN, BRAND_DATA_FALLBACK];
+  const sources = [BRAND_DATA_ORIGIN, CDN, BRAND_DATA_FALLBACK];
   let lastError: unknown;
 
   for (const source of sources) {
