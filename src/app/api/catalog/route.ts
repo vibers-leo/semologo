@@ -1,12 +1,15 @@
+import { createHash } from "node:crypto";
 import { NextRequest, NextResponse } from "next/server";
 import { fetchBrandsSlim, sortForGrid, type Brand } from "@/lib/brands";
 import { redis } from "@/lib/redis";
 import { isChoseongQuery, choseongIndex } from "@/lib/hangul";
+import { VERSION } from "@/lib/cdn";
 
 export const dynamic = "force-dynamic";
 
 const PAGE_SIZE_MAX = 120;
 const POPULARITY_TTL = 60_000;
+const PAGE_CACHE_TTL_SECONDS = 60;
 
 let scoreCache: { at: number; scores: Record<string, number> } | null = null;
 const sortedCache = new Map<string, { at: number; brands: Brand[] }>();
@@ -24,6 +27,26 @@ async function popularityScores(): Promise<Record<string, number>> {
   } catch {
     return {};
   }
+}
+
+function pageCacheKey(input: {
+  mode: "fame" | "recent";
+  offset: number;
+  limit: number;
+  categories: Set<string>;
+  origin: string;
+  svgOnly: boolean;
+}): string {
+  const fingerprint = createHash("sha1").update(JSON.stringify({
+    version: VERSION,
+    mode: input.mode,
+    offset: input.offset,
+    limit: input.limit,
+    categories: [...input.categories].sort(),
+    origin: input.origin,
+    svgOnly: input.svgOnly,
+  })).digest("hex");
+  return `semologo:catalog-page:${fingerprint}`;
 }
 
 function sortedCatalog(brands: Brand[], mode: "fame" | "recent", scores: Record<string, number>) {
@@ -45,8 +68,28 @@ export async function GET(request: NextRequest) {
   const categories = new Set(params.getAll("category"));
   const origin = params.get("origin") ?? "";
   const svgOnly = params.get("svg") === "1";
+  // Search terms are user-entered text, so cache only catalog browsing pages.
+  // VERSION in the key invalidates the cache whenever the published catalog changes.
+  const cacheablePage = !query && offset <= 5_000;
+  const pageKey = cacheablePage
+    ? pageCacheKey({ mode, offset, limit, categories, origin, svgOnly })
+    : null;
 
   try {
+    const client = pageKey ? redis() : null;
+    if (client && pageKey) {
+      try {
+        const cached = await client.get(pageKey);
+        if (cached) {
+          const payload = JSON.parse(cached) as { brands?: unknown; total?: unknown };
+          if (Array.isArray(payload.brands) && typeof payload.total === "number") {
+            return NextResponse.json(payload, { headers: { "Cache-Control": "private, no-store" } });
+          }
+        }
+      } catch {
+        // Cache failures and malformed entries fall through to the source catalog.
+      }
+    }
     const all = await fetchBrandsSlim();
     const scores = mode === "fame" ? await popularityScores() : {};
     const sorted = sortedCatalog(all, mode, scores);
@@ -73,13 +116,20 @@ export async function GET(request: NextRequest) {
     if (origin === "KR" || origin === "GLOBAL") matches = matches.filter((brand) => brand.origin === origin);
     if (svgOnly) matches = matches.filter((brand) => brand.logo_svg || brand.has_svg);
 
-    return NextResponse.json({
+    const payload = {
       brands: matches.slice(offset, offset + limit),
       total: matches.length,
       offset,
       limit,
       hasMore: offset + limit < matches.length,
-    }, { headers: { "Cache-Control": "private, no-store" } });
+    };
+    if (pageKey) {
+      const client = redis();
+      if (client) {
+        client.set(pageKey, JSON.stringify(payload), "EX", PAGE_CACHE_TTL_SECONDS).catch(() => {});
+      }
+    }
+    return NextResponse.json(payload, { headers: { "Cache-Control": "private, no-store" } });
   } catch (error) {
     console.error("[catalog]", error instanceof Error ? error.message.slice(0, 160) : "unknown error");
     return NextResponse.json({ error: "catalog_unavailable" }, { status: 503 });
