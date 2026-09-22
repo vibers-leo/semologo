@@ -10,6 +10,7 @@ export const dynamic = "force-dynamic";
 const PAGE_SIZE_MAX = 120;
 const POPULARITY_TTL = 60_000;
 const PAGE_CACHE_TTL_SECONDS = 60;
+const PREFETCH_PAGE_COUNT = 20;
 
 let scoreCache: { at: number; scores: Record<string, number> } | null = null;
 const sortedCache = new Map<string, { at: number; brands: Brand[] }>();
@@ -46,7 +47,7 @@ function pageCacheKey(input: {
     origin: input.origin,
     svgOnly: input.svgOnly,
   })).digest("hex");
-  return `semologo:catalog-page:${fingerprint}`;
+  return `semologo:catalog-page:v2:${fingerprint}`;
 }
 
 function sortedCatalog(brands: Brand[], mode: "fame" | "recent", scores: Record<string, number>) {
@@ -126,7 +127,28 @@ export async function GET(request: NextRequest) {
     if (pageKey) {
       const client = redis();
       if (client) {
-        client.set(pageKey, JSON.stringify(payload), "EX", PAGE_CACHE_TTL_SECONDS).catch(() => {});
+        const pipeline = client.pipeline();
+        pipeline.set(pageKey, JSON.stringify(payload), "EX", PAGE_CACHE_TTL_SECONDS);
+
+        // The first request already has the full sorted catalog in memory. Use it
+        // to warm the next 19 normal browse pages together, so scrolling does not
+        // trigger another full-catalog fetch/sort for every 60-brand page.
+        if (offset === 0 && limit === 60 && categories.size === 0 && !origin && !svgOnly) {
+          for (let pageIndex = 1; pageIndex < PREFETCH_PAGE_COUNT; pageIndex++) {
+            const pageOffset = pageIndex * limit;
+            if (pageOffset >= matches.length) break;
+            const nextPayload = {
+              brands: matches.slice(pageOffset, pageOffset + limit),
+              total: matches.length,
+              offset: pageOffset,
+              limit,
+              hasMore: pageOffset + limit < matches.length,
+            };
+            const nextKey = pageCacheKey({ mode, offset: pageOffset, limit, categories, origin, svgOnly });
+            pipeline.set(nextKey, JSON.stringify(nextPayload), "EX", PAGE_CACHE_TTL_SECONDS);
+          }
+        }
+        pipeline.exec().catch(() => {});
       }
     }
     return NextResponse.json(payload, { headers: { "Cache-Control": "private, no-store" } });
