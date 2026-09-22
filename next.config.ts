@@ -15,6 +15,9 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   output: "standalone",
   trailingSlash: true,
+  // CDN 카탈로그를 갱신한 직후 정적 홈/최신 상세 페이지의 원격 데이터
+  // 재생성이 60초를 넘는 경우가 있어 빌드가 실패한다. ISR 재생성 한도를 3분으로 둔다.
+  staticPageGenerationTimeout: 180,
   images: {
     // 로고는 전부 외부 CDN(logo.vibers.co.kr) 이라 최적화를 태우지 않는다.
     unoptimized: true,
