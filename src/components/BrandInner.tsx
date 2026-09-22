@@ -301,6 +301,10 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
   // 기관 원본 PNG에는 흰 캔버스가 포함된 경우가 많다. 대표 미리보기는
   // 배경 제거 파생물을 먼저 사용하고, 파생물이 없을 때만 원본으로 폴백한다.
   const mainUrl = hasSvg ? svgUrl : darkUrl;
+  // 일부 기관 수집본의 원본 SVG에는 로고 주변의 안내 문서/캔버스가
+  // 함께 들어온다. 다운로드 원본은 보존하되, 대표 화면은 검수된 가공본을
+  // 우선 사용한다. KCA는 logo-800.png가 실제 로고만 담은 가공본이다.
+  const previewUrl = brand.id === "kca" ? cdnUrl("logo-800.png") : mainUrl;
   // 정본 브랜드 페이지 주소. 예전엔 `${origin}/#${brand.id}` 라 홈으로 보내놓고
   // 해시로 모달을 여는 링크였다 — 사이트맵·canonical 과 다른 주소를 공유하던 셈이다.
   //
@@ -583,7 +587,7 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
 
   const darkPreviewSrc = hasWhiteLogo && visibility?.darkMode !== "white-only"
     ? whiteUrl
-    : getDarkPreviewUrl(visibility, darkUrl, mainUrl);
+    : getDarkPreviewUrl(visibility, darkUrl, previewUrl);
 
   return (
     <div style={containerStyle} onClick={e => e.stopPropagation()}>
@@ -764,7 +768,7 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
 
           {/* 메인 프리뷰 */}
           <div style={{ border:"1px solid #f0f0f2", borderRadius:8, overflow:"hidden", position:"relative" }}>
-            <LogoBox src={mainUrl} alt={en ? brand.name_en || brand.name_ko : brand.name_ko} height={128} padding={16} bg={isLightLogo ? "dark" : "white"} fallback={pngUrl} />
+            <LogoBox src={previewUrl} alt={en ? brand.name_en || brand.name_ko : brand.name_ko} height={128} padding={16} bg={isLightLogo ? "dark" : "white"} fallback={pngUrl} />
             {brand.original_ai_url && (
               <a href={brand.original_ai_url} target="_blank" rel="noopener noreferrer"
                 style={{ position:"absolute", bottom:6, right:6, display:"inline-flex", alignItems:"center", gap:3, padding:"2px 7px", background:"#eff6ff", border:"1px solid #bfdbfe", borderRadius:10, fontSize: 11, fontWeight:700, color:"#2563eb", textDecoration:"none", letterSpacing:".04em" }}>
@@ -783,7 +787,7 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
                 </span>
               )}
               {/* 라벨은 가운데 큰 다크 패널에만 둔다 — 여기 72px 타일에선 핀과 겹쳐 지저분했다 */}
-              <LogoBox src={invertedUrl || darkPreviewSrc} alt={en ? brand.name_en || brand.name_ko : brand.name_ko} height={72} padding={12} bg="transparent" fallback={mainUrl} />
+              <LogoBox src={invertedUrl || darkPreviewSrc} alt={en ? brand.name_en || brand.name_ko : brand.name_ko} height={72} padding={12} bg="transparent" fallback={previewUrl} />
               {visibility && (
                 <span style={{ position:"absolute", bottom:4, left:0, right:0, textAlign:"center", fontSize: 11, color:"#71717a", letterSpacing:".06em", textTransform:"uppercase", opacity:.8 }}>
                   {invertedUrl ? t("흑백 반전 (다크용)") : t(getDarkPreviewLabel(visibility)) + (hasWhiteLogo && visibility.darkMode !== "white-only" ? " · 화이트" : "")}
@@ -848,7 +852,7 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
         <div className="mscroll" style={{ overflowY: isPage ? undefined : "auto", padding:"22px 24px", scrollbarWidth:"thin" }}>
           {/* 인트로 라이트/다크 — 배경별로 어떻게 보이는지 확인용 */}
           <div style={{ display:"grid", gridTemplateColumns:"1fr 1fr", borderRadius:12, overflow:"hidden", height:132, marginBottom:16 }}>
-            <LogoBox src={mainUrl} alt={en ? brand.name_en || brand.name_ko : brand.name_ko} height={132} padding={18} bg={isLightLogo ? "dark" : "white"} fallback={pngUrl} />
+            <LogoBox src={previewUrl} alt={en ? brand.name_en || brand.name_ko : brand.name_ko} height={132} padding={18} bg={isLightLogo ? "dark" : "white"} fallback={pngUrl} />
             <div style={{ ...(invertedUrl ? { background:"#111114" } : getDarkPreviewStyle(visibility)), position:"relative", height:132, cursor: isAdmin ? "pointer" : undefined, outline: bgOverride ? "2px solid #22c55e" : undefined, outlineOffset: -2 }}
                  onClick={isAdmin ? toggleBg : undefined}
                  title={isAdmin ? (isLightLogo ? "클릭: 흰 배경으로 되돌리기" : "클릭: 검정 배경으로 메인 노출") : undefined}>
@@ -865,8 +869,8 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
                   가장자리에 흰 테두리가 남는다. 어두운 배경에서 그게 후광처럼 보여
                   로고가 깨져 보였다. SVG 는 진짜 투명이라 그런 잔상이 없다. */}
               <LogoBox
-                src={invertedUrl || (hasSvg ? mainUrl : getDarkPreviewUrl(visibility, darkUrl, mainUrl))}
-                alt={en ? brand.name_en || brand.name_ko : brand.name_ko} height={132} padding={20} bg="transparent" fallback={mainUrl} />
+                src={invertedUrl || (hasSvg ? previewUrl : getDarkPreviewUrl(visibility, darkUrl, previewUrl))}
+                alt={en ? brand.name_en || brand.name_ko : brand.name_ko} height={132} padding={20} bg="transparent" fallback={previewUrl} />
               {visibility && (
                 <span style={{ position:"absolute", bottom:6, left:0, right:0, textAlign:"center", fontSize: 11, letterSpacing:".06em", textTransform:"uppercase", opacity:.6, color: invertedUrl ? "#71717a" : (visibility.darkMode === "white-only" ? "#52525b" : "#a1a1aa") }}>
                   {invertedUrl ? t("흑백 반전") : t(getDarkPreviewLabel(visibility))}
