@@ -1,6 +1,6 @@
 import CatalogIntro from "@/components/CatalogIntro";
 import Header from "@/components/Header";
-import { fetchBrandsSlim, sortForGrid, type Brand } from "@/lib/brands";
+import { fetchBrandsSlim, fetchCatalogStats, sortForGrid, type Brand } from "@/lib/brands";
 import BrandGrid from "@/components/BrandGrid";
 import VibersAdSlot from "@/components/VibersAdSlot";
 
@@ -22,7 +22,10 @@ async function firstPage(): Promise<Brand[]> {
 }
 
 export default async function Home() {
-  const initialBrands = await firstPage();
+  const [initialBrands, initialCatalogStats] = await Promise.all([
+    firstPage(),
+    fetchCatalogStats(),
+  ]);
   return (
     <div className="min-h-screen" style={{ background: "var(--bg)" }}>
       <Header />
@@ -32,7 +35,7 @@ export default async function Home() {
       </div>
       <main className="max-w-[1280px] mx-auto px-4 pb-20">
         <CatalogIntro />
-        <BrandGrid initialBrands={initialBrands} />
+        <BrandGrid initialBrands={initialBrands} initialCatalogStats={initialCatalogStats} />
       </main>
     </div>
   );

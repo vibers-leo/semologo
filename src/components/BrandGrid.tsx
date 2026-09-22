@@ -3,7 +3,7 @@
 import { useLocale, T } from "@/lib/locale-context";
 import { useMemo, useState, useEffect, useRef, useDeferredValue } from "react";
 import dynamic from "next/dynamic";
-import { Brand, sortForGrid, type SortMode } from "@/lib/brands";
+import { Brand, sortForGrid, type CatalogStats, type SortMode } from "@/lib/brands";
 import { CDN, VERSION } from "@/lib/cdn";
 import { sendHit } from "@/lib/hit";
 import { loadFlaggedIds } from "@/lib/logo-quality";
@@ -37,18 +37,22 @@ const PAGE_SIZE = 60;
 
 /** 빌드 시점에 서버가 넘겨주는 첫 화면 카드. 이게 없으면 클라이언트가
  *  1.15MB JSON 을 받아 파싱할 때까지 그리드가 비어 있다(실측 1,000ms). */
-export default function BrandGrid({ initialBrands = [] }: { initialBrands?: Brand[] }) {
+export default function BrandGrid({
+  initialBrands = [],
+  initialCatalogStats = null,
+}: {
+  initialBrands?: Brand[];
+  initialCatalogStats?: CatalogStats | null;
+}) {
   const {en, t, path} = useLocale();
   const { query, selectedCats, toggleCat, clearCats } = useSearch();
   const [brands, setBrands] = useState<Brand[]>(initialBrands);
   const [loading, setLoading] = useState(initialBrands.length === 0);
   const [loadError, setLoadError] = useState(false);
   const [catalogLoading, setCatalogLoading] = useState(false);
-  const [catalogStats, setCatalogStats] = useState<{
-    visible?: number; svg?: number; kr?: number; global?: number;
-    categories?: Record<string, number>;
-  } | null>(null);
-  const [resultTotal, setResultTotal] = useState(initialBrands.length);
+  const [catalogStats, setCatalogStats] = useState<CatalogStats | null>(initialCatalogStats);
+  const [resultTotal, setResultTotal] = useState(initialCatalogStats?.visible ?? initialBrands.length);
+  const allCatalogCount = catalogStats?.visible ?? resultTotal;
   const [selected, setSelected] = useState<Brand | null>(null);
   const [page, setPage] = useState(1);
   const [showAllCats, setShowAllCats] = useState(false);
@@ -277,7 +281,7 @@ export default function BrandGrid({ initialBrands = [] }: { initialBrands?: Bran
           <div className="text-xs font-semibold text-gray-500 tracking-wider uppercase mb-3"><T>{"지역"}</T></div>
           <div className="flex flex-wrap gap-2">
             {([
-              [null, "전체", brands.length],
+              [null, "전체", allCatalogCount],
               ["KR", "🇰🇷 국내", originCounts.kr],
               ["GLOBAL", "🌏 해외", originCounts.gl],
             ] as const).map(([val, label, count]) => {
@@ -304,7 +308,7 @@ export default function BrandGrid({ initialBrands = [] }: { initialBrands?: Bran
           <div className="text-xs font-semibold text-gray-500 tracking-wider uppercase mb-3"><T>{"파일형식"}</T></div>
           <div className="flex flex-wrap gap-2">
             {([
-              [null, "전체", brands.length],
+              [null, "전체", allCatalogCount],
               ["svg", "SVG 있음", svgCount],
             ] as const).map(([val, label, count]) => {
               const on = fmt === val;

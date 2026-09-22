@@ -97,6 +97,27 @@ async function fetchBrandData(file: string): Promise<unknown> {
     : new Error("브랜드 데이터 CDN과 비상 경로 모두 응답하지 않아요.");
 }
 
+export interface CatalogStats {
+  total?: number;
+  visible?: number;
+  svg?: number;
+  kr?: number;
+  global?: number;
+  categories?: Record<string, number>;
+}
+
+/** 필터 수치용 경량 통계. 목록 전체를 받아오기 전에도 전체 수를 SSR에 표시한다. */
+export async function fetchCatalogStats(): Promise<CatalogStats | null> {
+  try {
+    const value = await fetchBrandData("stats.json");
+    if (!value || typeof value !== "object") return null;
+    const stats = value as CatalogStats;
+    return typeof stats.visible === "number" ? stats : null;
+  } catch {
+    return null;
+  }
+}
+
 /**
  * 정적 빌드 중 brands.json(2.9MB)을 브랜드마다 다시 받지 않도록 모듈 스코프에
  * 캐시한다. brand/[id]/page.tsx 는 브랜드당 generateStaticParams·
