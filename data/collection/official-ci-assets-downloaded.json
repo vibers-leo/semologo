@@ -1,0 +1,716 @@
+{
+  "schema": 1,
+  "count": 20,
+  "candidates": [
+    {
+      "id": "사-남북교류협력지원협회",
+      "name_ko": "(사)남북교류협력지원협회",
+      "category": "공공·기관",
+      "official_source_page": "https://sonosa.or.kr/?menuno=10",
+      "website": "https://www.sonosa.or.kr",
+      "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
+      "status": "asset-links-found",
+      "asset_links": [
+        "https://sonosa.or.kr/usr/file/logo.ai",
+        "https://sonosa.or.kr/var/filemanager/userfiles/2026/web_accessibility/WA_Mark.png"
+      ],
+      "asset_count": 2,
+      "downloads": [
+        {
+          "url": "https://sonosa.or.kr/usr/file/logo.ai",
+          "file": "artifacts/public-ci-assets/사-남북교류협력지원협회/logo.ai",
+          "bytes": 205970
+        },
+        {
+          "url": "https://sonosa.or.kr/var/filemanager/userfiles/2026/web_accessibility/WA_Mark.png",
+          "file": "artifacts/public-ci-assets/사-남북교류협력지원협회/WA_Mark.png",
+          "bytes": 41796
+        }
+      ]
+    },
+    {
+      "id": "사-한국경영혁신중소기업협회",
+      "name_ko": "(사)한국경영혁신중소기업협회",
+      "category": "공공·기관",
+      "official_source_page": "http://mainbiz.or.kr/mainbizinfo/CI.asp",
+      "website": "http://mainbiz.or.kr",
+      "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
+      "status": "asset-links-found",
+      "asset_links": [
+        "http://mainbiz.or.kr/images/common/head_logo.png",
+        "http://mainbiz.or.kr/images/common/head_logo_new1.png",
+        "http://mainbiz.or.kr/images/sub/mainbizinfo/ci_biclogo.png",
+        "http://mainbiz.or.kr/upload_file/etc/메인비즈협회CI.zip",
+        "http://mainbiz.or.kr/upload_file/etc/MAINBIZ_CI_ai.zip",
+        "http://mainbiz.or.kr/images/sub/mainbizinfo/ci_logo2_new.png",
+        "http://mainbiz.or.kr/images/sub/mainbizinfo/ci_logo1_new.png",
+        "http://mainbiz.or.kr/images/sub/mainbizinfo/ci_logo4_new.png",
+        "http://mainbiz.or.kr/images/sub/mainbizinfo/ci_logo3_new.png",
+        "http://mainbiz.or.kr/images/sub/mainbizinfo/ci_logo1.png",
+        "http://mainbiz.or.kr/images/sub/mainbizinfo/ci_logo2.png"
+      ],
+      "asset_count": 11,
+      "downloads": [
+        {
+          "url": "http://mainbiz.or.kr/images/common/head_logo.png",
+          "file": "artifacts/public-ci-assets/사-한국경영혁신중소기업협회/head_logo.png",
+          "bytes": 4121
+        },
+        {
+          "url": "http://mainbiz.or.kr/images/common/head_logo_new1.png",
+          "file": "artifacts/public-ci-assets/사-한국경영혁신중소기업협회/head_logo_new1.png",
+          "bytes": 9065
+        },
+        {
+          "url": "http://mainbiz.or.kr/images/sub/mainbizinfo/ci_biclogo.png",
+          "file": "artifacts/public-ci-assets/사-한국경영혁신중소기업협회/ci_biclogo.png",
+          "bytes": 4528
+        },
+        {
+          "url": "http://mainbiz.or.kr/upload_file/etc/메인비즈협회CI.zip",
+          "error": "'ascii' codec can't encode characters in position 21-26: ordinal not in range(128)"
+        },
+        {
+          "url": "http://mainbiz.or.kr/upload_file/etc/MAINBIZ_CI_ai.zip",
+          "file": "artifacts/public-ci-assets/사-한국경영혁신중소기업협회/MAINBIZ_CI_ai.zip",
+          "bytes": 3734920
+        },
+        {
+          "url": "http://mainbiz.or.kr/images/sub/mainbizinfo/ci_logo2_new.png",
+          "file": "artifacts/public-ci-assets/사-한국경영혁신중소기업협회/ci_logo2_new.png",
+          "bytes": 4765
+        },
+        {
+          "url": "http://mainbiz.or.kr/images/sub/mainbizinfo/ci_logo1_new.png",
+          "file": "artifacts/public-ci-assets/사-한국경영혁신중소기업협회/ci_logo1_new.png",
+          "bytes": 5959
+        },
+        {
+          "url": "http://mainbiz.or.kr/images/sub/mainbizinfo/ci_logo4_new.png",
+          "file": "artifacts/public-ci-assets/사-한국경영혁신중소기업협회/ci_logo4_new.png",
+          "bytes": 4088
+        },
+        {
+          "url": "http://mainbiz.or.kr/images/sub/mainbizinfo/ci_logo3_new.png",
+          "file": "artifacts/public-ci-assets/사-한국경영혁신중소기업협회/ci_logo3_new.png",
+          "bytes": 4007
+        },
+        {
+          "url": "http://mainbiz.or.kr/images/sub/mainbizinfo/ci_logo1.png",
+          "file": "artifacts/public-ci-assets/사-한국경영혁신중소기업협회/ci_logo1.png",
+          "bytes": 5343
+        },
+        {
+          "url": "http://mainbiz.or.kr/images/sub/mainbizinfo/ci_logo2.png",
+          "file": "artifacts/public-ci-assets/사-한국경영혁신중소기업협회/ci_logo2.png",
+          "bytes": 4473
+        }
+      ]
+    },
+    {
+      "id": "재-apec기후센터",
+      "name_ko": "(재)APEC기후센터",
+      "category": "공공·기관",
+      "official_source_page": "https://apcc21.org/content/ci?lang=ko",
+      "website": "https://apcc21.org",
+      "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
+      "status": "asset-links-found",
+      "asset_links": [
+        "https://apcc21.org/apcc/img/acpp_logo1.png",
+        "https://apcc21.org/apcc/img/apcc_ci_img1.png",
+        "https://apcc21.org/apcc/img/apcc_ci_img2_2.png",
+        "https://apcc21.org/apcc/img/apcc_ci_img3.png",
+        "https://apcc21.org/apcc/img/apcc_ci_img4.png",
+        "https://apcc21.org/apcc/img/apcc_ci_img5.png",
+        "https://apcc21.org/apcc/img/apcc_ci_img6_1.png",
+        "https://apcc21.org/apcc/img/apcc_ci_img6_2.png",
+        "https://apcc21.org/apcc/img/apcc_ci_img6_3.png",
+        "https://apcc21.org/apcc/img/apcc_ci_img6_4.png",
+        "https://apcc21.org/apcc/img/apcc_ci_img6_5.png",
+        "https://apcc21.org/apcc/img/apcc_ci_img6_6.png",
+        "https://apcc21.org/apcc/img/apcc_ci_img6_7.png",
+        "https://apcc21.org/apcc/img/apcc_ci_img6_8.png",
+        "https://apcc21.org/apcc/img/apcc_ci_img6_9.png",
+        "https://apcc21.org/apcc/img/apcc_ci_img6_10.png",
+        "https://apcc21.org/apcc/img/apcc_ci_img6_11.png"
+      ],
+      "asset_count": 17,
+      "downloads": [
+        {
+          "url": "https://apcc21.org/apcc/img/acpp_logo1.png",
+          "file": "artifacts/public-ci-assets/재-apec기후센터/acpp_logo1.png",
+          "bytes": 23895
+        },
+        {
+          "url": "https://apcc21.org/apcc/img/apcc_ci_img1.png",
+          "file": "artifacts/public-ci-assets/재-apec기후센터/apcc_ci_img1.png",
+          "bytes": 23792
+        },
+        {
+          "url": "https://apcc21.org/apcc/img/apcc_ci_img2_2.png",
+          "file": "artifacts/public-ci-assets/재-apec기후센터/apcc_ci_img2_2.png",
+          "bytes": 51506
+        },
+        {
+          "url": "https://apcc21.org/apcc/img/apcc_ci_img3.png",
+          "file": "artifacts/public-ci-assets/재-apec기후센터/apcc_ci_img3.png",
+          "bytes": 19864
+        },
+        {
+          "url": "https://apcc21.org/apcc/img/apcc_ci_img4.png",
+          "file": "artifacts/public-ci-assets/재-apec기후센터/apcc_ci_img4.png",
+          "bytes": 15979
+        },
+        {
+          "url": "https://apcc21.org/apcc/img/apcc_ci_img5.png",
+          "file": "artifacts/public-ci-assets/재-apec기후센터/apcc_ci_img5.png",
+          "bytes": 44447
+        },
+        {
+          "url": "https://apcc21.org/apcc/img/apcc_ci_img6_1.png",
+          "file": "artifacts/public-ci-assets/재-apec기후센터/apcc_ci_img6_1.png",
+          "bytes": 19649
+        },
+        {
+          "url": "https://apcc21.org/apcc/img/apcc_ci_img6_2.png",
+          "file": "artifacts/public-ci-assets/재-apec기후센터/apcc_ci_img6_2.png",
+          "bytes": 21228
+        },
+        {
+          "url": "https://apcc21.org/apcc/img/apcc_ci_img6_3.png",
+          "file": "artifacts/public-ci-assets/재-apec기후센터/apcc_ci_img6_3.png",
+          "bytes": 20627
+        },
+        {
+          "url": "https://apcc21.org/apcc/img/apcc_ci_img6_4.png",
+          "file": "artifacts/public-ci-assets/재-apec기후센터/apcc_ci_img6_4.png",
+          "bytes": 21215
+        },
+        {
+          "url": "https://apcc21.org/apcc/img/apcc_ci_img6_5.png",
+          "file": "artifacts/public-ci-assets/재-apec기후센터/apcc_ci_img6_5.png",
+          "bytes": 22507
+        },
+        {
+          "url": "https://apcc21.org/apcc/img/apcc_ci_img6_6.png",
+          "file": "artifacts/public-ci-assets/재-apec기후센터/apcc_ci_img6_6.png",
+          "bytes": 21785
+        },
+        {
+          "url": "https://apcc21.org/apcc/img/apcc_ci_img6_7.png",
+          "file": "artifacts/public-ci-assets/재-apec기후센터/apcc_ci_img6_7.png",
+          "bytes": 19528
+        },
+        {
+          "url": "https://apcc21.org/apcc/img/apcc_ci_img6_8.png",
+          "file": "artifacts/public-ci-assets/재-apec기후센터/apcc_ci_img6_8.png",
+          "bytes": 11714
+        },
+        {
+          "url": "https://apcc21.org/apcc/img/apcc_ci_img6_9.png",
+          "file": "artifacts/public-ci-assets/재-apec기후센터/apcc_ci_img6_9.png",
+          "bytes": 20658
+        },
+        {
+          "url": "https://apcc21.org/apcc/img/apcc_ci_img6_10.png",
+          "file": "artifacts/public-ci-assets/재-apec기후센터/apcc_ci_img6_10.png",
+          "bytes": 20795
+        },
+        {
+          "url": "https://apcc21.org/apcc/img/apcc_ci_img6_11.png",
+          "file": "artifacts/public-ci-assets/재-apec기후센터/apcc_ci_img6_11.png",
+          "bytes": 18872
+        }
+      ]
+    },
+    {
+      "id": "재-거창군장학회",
+      "name_ko": "(재)거창군장학회",
+      "category": "공공·기관",
+      "official_source_page": "https://www.geochang.go.kr/00314/00317/00329.web",
+      "website": "https://www.gcdream.kr/",
+      "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
+      "status": "asset-links-found",
+      "asset_links": [
+        "https://www.geochang.go.kr/_res/portal/img/inc/logo@2x.png",
+        "https://www.geochang.go.kr/_res/portal/img/inc/web_mark2026.png"
+      ],
+      "asset_count": 2,
+      "downloads": [
+        {
+          "url": "https://www.geochang.go.kr/_res/portal/img/inc/logo@2x.png",
+          "file": "artifacts/public-ci-assets/재-거창군장학회/logo_2x.png",
+          "bytes": 12328
+        },
+        {
+          "url": "https://www.geochang.go.kr/_res/portal/img/inc/web_mark2026.png",
+          "file": "artifacts/public-ci-assets/재-거창군장학회/web_mark2026.png",
+          "bytes": 16902
+        }
+      ]
+    },
+    {
+      "id": "재-경기도수원월드컵경기장관리재단",
+      "name_ko": "(재)경기도수원월드컵경기장관리재단",
+      "category": "공공·기관",
+      "official_source_page": "https://suwonworldcup.gg.go.kr/gg_worldcup_office/ci",
+      "website": "https://suwonworldcup.gg.go.kr/",
+      "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
+      "status": "asset-links-found",
+      "asset_links": [
+        "https://suwonworldcup.gg.go.kr/wp-content/uploads/sites/11/2026/06/g_i_logo_v20260629_28_42.png",
+        "https://suwonworldcup.gg.go.kr/wp-content/themes/suwonworldcup/images/ci-symbol.png",
+        "https://suwonworldcup.gg.go.kr/wp-content/themes/suwonworldcup/images/ci-logotype.png",
+        "https://suwonworldcup.gg.go.kr/wp-content/themes/suwonworldcup/images/ci-sg1.png",
+        "https://suwonworldcup.gg.go.kr/wp-content/themes/suwonworldcup/images/ci-sg2.png",
+        "https://suwonworldcup.gg.go.kr/wp-content/themes/suwonworldcup/images/ci-sg3.png",
+        "https://suwonworldcup.gg.go.kr/wp-content/themes/suwonworldcup/images/ci-sg4.png",
+        "https://suwonworldcup.gg.go.kr/wp-content/themes/suwonworldcup/images/ci-colorgraphic.png",
+        "https://suwonworldcup.gg.go.kr/wp-content/themes/suwonworldcup/images/mobile/foot-social-f.png",
+        "https://suwonworldcup.gg.go.kr/wp-content/themes/suwonworldcup/images/mobile/foot-social-t.png",
+        "https://suwonworldcup.gg.go.kr/wp-content/themes/suwonworldcup/images/mobile/foot-social-b.png"
+      ],
+      "asset_count": 11,
+      "downloads": [
+        {
+          "url": "https://suwonworldcup.gg.go.kr/wp-content/uploads/sites/11/2026/06/g_i_logo_v20260629_28_42.png",
+          "file": "artifacts/public-ci-assets/재-경기도수원월드컵경기장관리재단/g_i_logo_v20260629_28_42.png",
+          "bytes": 474
+        },
+        {
+          "url": "https://suwonworldcup.gg.go.kr/wp-content/themes/suwonworldcup/images/ci-symbol.png",
+          "file": "artifacts/public-ci-assets/재-경기도수원월드컵경기장관리재단/ci-symbol.png",
+          "bytes": 6402
+        },
+        {
+          "url": "https://suwonworldcup.gg.go.kr/wp-content/themes/suwonworldcup/images/ci-logotype.png",
+          "file": "artifacts/public-ci-assets/재-경기도수원월드컵경기장관리재단/ci-logotype.png",
+          "bytes": 10429
+        },
+        {
+          "url": "https://suwonworldcup.gg.go.kr/wp-content/themes/suwonworldcup/images/ci-sg1.png",
+          "file": "artifacts/public-ci-assets/재-경기도수원월드컵경기장관리재단/ci-sg1.png",
+          "bytes": 10399
+        },
+        {
+          "url": "https://suwonworldcup.gg.go.kr/wp-content/themes/suwonworldcup/images/ci-sg2.png",
+          "file": "artifacts/public-ci-assets/재-경기도수원월드컵경기장관리재단/ci-sg2.png",
+          "bytes": 9812
+        },
+        {
+          "url": "https://suwonworldcup.gg.go.kr/wp-content/themes/suwonworldcup/images/ci-sg3.png",
+          "file": "artifacts/public-ci-assets/재-경기도수원월드컵경기장관리재단/ci-sg3.png",
+          "bytes": 11310
+        },
+        {
+          "url": "https://suwonworldcup.gg.go.kr/wp-content/themes/suwonworldcup/images/ci-sg4.png",
+          "file": "artifacts/public-ci-assets/재-경기도수원월드컵경기장관리재단/ci-sg4.png",
+          "bytes": 11633
+        },
+        {
+          "url": "https://suwonworldcup.gg.go.kr/wp-content/themes/suwonworldcup/images/ci-colorgraphic.png",
+          "file": "artifacts/public-ci-assets/재-경기도수원월드컵경기장관리재단/ci-colorgraphic.png",
+          "bytes": 160152
+        },
+        {
+          "url": "https://suwonworldcup.gg.go.kr/wp-content/themes/suwonworldcup/images/mobile/foot-social-f.png",
+          "file": "artifacts/public-ci-assets/재-경기도수원월드컵경기장관리재단/foot-social-f.png",
+          "bytes": 2591
+        },
+        {
+          "url": "https://suwonworldcup.gg.go.kr/wp-content/themes/suwonworldcup/images/mobile/foot-social-t.png",
+          "file": "artifacts/public-ci-assets/재-경기도수원월드컵경기장관리재단/foot-social-t.png",
+          "bytes": 3858
+        },
+        {
+          "url": "https://suwonworldcup.gg.go.kr/wp-content/themes/suwonworldcup/images/mobile/foot-social-b.png",
+          "file": "artifacts/public-ci-assets/재-경기도수원월드컵경기장관리재단/foot-social-b.png",
+          "bytes": 2948
+        }
+      ]
+    },
+    {
+      "id": "재-경북it융합산업기술원",
+      "name_ko": "(재)경북IT융합산업기술원",
+      "category": "공공·기관",
+      "official_source_page": "http://www.gitc.or.kr/intro/intro02_04.html",
+      "website": "https://www.gitc.or.kr/main",
+      "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
+      "status": "page-fetch-failed",
+      "asset_links": [],
+      "error": "HTTP Error 404: Not Found",
+      "asset_count": 0
+    },
+    {
+      "id": "재-경상북도농식품유통교육진흥원",
+      "name_ko": "(재)경상북도농식품유통교육진흥원",
+      "category": "공공·기관",
+      "official_source_page": "https://www.gbfood.or.kr/bbs/content.php?co_id=6_6",
+      "website": "https://www.gbfood.or.kr/",
+      "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
+      "status": "asset-links-found",
+      "asset_links": [
+        "https://static.gabia.com/www/common/img/logo.png"
+      ],
+      "asset_count": 1,
+      "downloads": [
+        {
+          "url": "https://static.gabia.com/www/common/img/logo.png",
+          "file": "artifacts/public-ci-assets/재-경상북도농식품유통교육진흥원/logo.png",
+          "bytes": 1891
+        }
+      ]
+    },
+    {
+      "id": "재-경주문화재단",
+      "name_ko": "(재)경주문화재단",
+      "category": "공공·기관",
+      "official_source_page": "https://garts.kr/index.do?menuId=00000390",
+      "website": "https://garts.kr/index.do",
+      "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
+      "status": "asset-links-found",
+      "asset_links": [
+        "https://garts.kr/images/user/cmn/logo2.svg",
+        "https://garts.kr/images/user/cmn/ft_logo.png"
+      ],
+      "asset_count": 2,
+      "downloads": [
+        {
+          "url": "https://garts.kr/images/user/cmn/logo2.svg",
+          "file": "artifacts/public-ci-assets/재-경주문화재단/logo2.svg",
+          "bytes": 21227
+        },
+        {
+          "url": "https://garts.kr/images/user/cmn/ft_logo.png",
+          "file": "artifacts/public-ci-assets/재-경주문화재단/ft_logo.png",
+          "bytes": 7655
+        }
+      ]
+    },
+    {
+      "id": "재-경주스마트미디어센터",
+      "name_ko": "(재)경주스마트미디어센터",
+      "category": "공공·기관",
+      "official_source_page": "https://www.real4dhub.or.kr/about/ci.php",
+      "website": "https://www.real4dhub.or.kr/",
+      "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
+      "status": "asset-links-found",
+      "asset_links": [
+        "https://www.real4dhub.or.kr/images/common/logo.svg",
+        "https://www.real4dhub.or.kr/images/sub/logo.png",
+        "https://www.real4dhub.or.kr/images/sub/logo-en.png",
+        "https://www.real4dhub.or.kr/images/sub/logo-ko.png",
+        "https://www.real4dhub.or.kr/images/sub/logo-white.png",
+        "https://www.real4dhub.or.kr/images/common/logo-gray.png"
+      ],
+      "asset_count": 6,
+      "downloads": [
+        {
+          "url": "https://www.real4dhub.or.kr/images/common/logo.svg",
+          "file": "artifacts/public-ci-assets/재-경주스마트미디어센터/logo.svg",
+          "bytes": 20777
+        },
+        {
+          "url": "https://www.real4dhub.or.kr/images/sub/logo.png",
+          "file": "artifacts/public-ci-assets/재-경주스마트미디어센터/logo.png",
+          "bytes": 38532
+        },
+        {
+          "url": "https://www.real4dhub.or.kr/images/sub/logo-en.png",
+          "file": "artifacts/public-ci-assets/재-경주스마트미디어센터/logo-en.png",
+          "bytes": 14411
+        },
+        {
+          "url": "https://www.real4dhub.or.kr/images/sub/logo-ko.png",
+          "file": "artifacts/public-ci-assets/재-경주스마트미디어센터/logo-ko.png",
+          "bytes": 9113
+        },
+        {
+          "url": "https://www.real4dhub.or.kr/images/sub/logo-white.png",
+          "file": "artifacts/public-ci-assets/재-경주스마트미디어센터/logo-white.png",
+          "bytes": 15972
+        },
+        {
+          "url": "https://www.real4dhub.or.kr/images/common/logo-gray.png",
+          "file": "artifacts/public-ci-assets/재-경주스마트미디어센터/logo-gray.png",
+          "bytes": 11171
+        }
+      ]
+    },
+    {
+      "id": "재-고성향토장학회",
+      "name_ko": "(재)고성향토장학회",
+      "category": "공공·기관",
+      "official_source_page": "https://www.gwgs.go.kr/kor/sub04_050302.do",
+      "website": "https://www.gwgs.go.kr/kor/sub03_0701.do",
+      "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
+      "status": "page-fetch-failed",
+      "asset_links": [],
+      "error": "<urlopen error [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1081)>",
+      "asset_count": 0
+    },
+    {
+      "id": "재-광주미래차모빌리티진흥원",
+      "name_ko": "(재)광주미래차모빌리티진흥원",
+      "category": "공공·기관",
+      "official_source_page": "https://gama.or.kr/subpage/?site=basic&amp;mn=1127",
+      "website": "https://gama.or.kr/",
+      "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
+      "status": "page-no-direct-asset",
+      "asset_links": [],
+      "asset_count": 0
+    },
+    {
+      "id": "재-구미먹거리통합지원센터",
+      "name_ko": "(재)구미먹거리통합지원센터",
+      "category": "공공·기관",
+      "official_source_page": "https://gmff.or.kr/ci/",
+      "website": "https://gmff.or.kr/",
+      "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
+      "status": "asset-links-found",
+      "asset_links": [
+        "https://gmff.or.kr/wp-content/uploads/2025/06/logo_p-1.png",
+        "https://gmff.or.kr/wp-content/uploads/2025/05/CI.zip"
+      ],
+      "asset_count": 2,
+      "downloads": [
+        {
+          "url": "https://gmff.or.kr/wp-content/uploads/2025/06/logo_p-1.png",
+          "file": "artifacts/public-ci-assets/재-구미먹거리통합지원센터/logo_p-1.png",
+          "bytes": 32535
+        },
+        {
+          "url": "https://gmff.or.kr/wp-content/uploads/2025/05/CI.zip",
+          "file": "artifacts/public-ci-assets/재-구미먹거리통합지원센터/CI.zip",
+          "bytes": 1250465
+        }
+      ]
+    },
+    {
+      "id": "재-구미시장학재단",
+      "name_ko": "(재)구미시장학재단",
+      "category": "공공·기관",
+      "official_source_page": "https://www.gumi.go.kr/portal/contents.do?mid=0502010000",
+      "website": "http://www.gumigh.or.kr/gumigh/",
+      "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
+      "status": "asset-links-found",
+      "asset_links": [
+        "https://www.gumi.go.kr/common/img/common/mark_WA.png"
+      ],
+      "asset_count": 1,
+      "downloads": [
+        {
+          "url": "https://www.gumi.go.kr/common/img/common/mark_WA.png",
+          "file": "artifacts/public-ci-assets/재-구미시장학재단/mark_WA.png",
+          "bytes": 22725
+        }
+      ]
+    },
+    {
+      "id": "재-국제원산지정보원",
+      "name_ko": "(재)국제원산지정보원",
+      "category": "공공·기관",
+      "official_source_page": "http://www.origin.or.kr/lay1/S1T9C22/contents.do",
+      "website": "http://www.origin.or.kr",
+      "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
+      "status": "page-fetch-failed",
+      "asset_links": [],
+      "error": "<urlopen error timed out>",
+      "asset_count": 0
+    },
+    {
+      "id": "재-금천미래장학회",
+      "name_ko": "(재)금천미래장학회",
+      "category": "공공·기관",
+      "official_source_page": "http://www.gcmirae.or.kr/gcmirae/",
+      "website": "http://www.gcmirae.or.kr/gcmirae/",
+      "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
+      "status": "asset-links-found",
+      "asset_links": [],
+      "asset_count": 0
+    },
+    {
+      "id": "재-김포시민장학회",
+      "name_ko": "(재)김포시민장학회",
+      "category": "공공·기관",
+      "official_source_page": "https://www.gimpo.go.kr/portal/contents.do?key=1232",
+      "website": "https://gimpojh.or.kr/",
+      "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
+      "status": "asset-links-found",
+      "asset_links": [
+        "https://www.gimpo.go.kr/site/portal/images/contents/CI.zip",
+        "https://www.gimpo.go.kr/site/portal/images/contents/2020gimpo_ci.pdf",
+        "https://www.gimpo.go.kr/site/portal/images/contents/2020gimpo_ci.zip"
+      ],
+      "asset_count": 3,
+      "downloads": [
+        {
+          "url": "https://www.gimpo.go.kr/site/portal/images/contents/CI.zip",
+          "file": "artifacts/public-ci-assets/재-김포시민장학회/CI.zip",
+          "bytes": 41813
+        },
+        {
+          "url": "https://www.gimpo.go.kr/site/portal/images/contents/2020gimpo_ci.pdf",
+          "file": "artifacts/public-ci-assets/재-김포시민장학회/2020gimpo_ci.pdf",
+          "bytes": 277669
+        },
+        {
+          "url": "https://www.gimpo.go.kr/site/portal/images/contents/2020gimpo_ci.zip",
+          "file": "artifacts/public-ci-assets/재-김포시민장학회/2020gimpo_ci.zip",
+          "bytes": 1453838
+        }
+      ]
+    },
+    {
+      "id": "재-남도음식문화큰잔치",
+      "name_ko": "(재)남도음식문화큰잔치",
+      "category": "공공·기관",
+      "official_source_page": "https://www.namdofood.or.kr/page/page70",
+      "website": "http://www.namdofood.or.kr/main",
+      "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
+      "status": "asset-links-found",
+      "asset_links": [],
+      "asset_count": 0
+    },
+    {
+      "id": "재-노원환경재단",
+      "name_ko": "(재)노원환경재단",
+      "category": "공공·기관",
+      "official_source_page": "http://www.nwgreen.or.kr/sub5_5.php",
+      "website": "http://www.nwgreen.or.kr/",
+      "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
+      "status": "asset-links-found",
+      "asset_links": [
+        "http://www.nwgreen.or.kr/images/sub/ci_img_story.jpg",
+        "http://www.nwgreen.or.kr/images/sub/ci_img_v.jpg",
+        "http://www.nwgreen.or.kr/images/sub/ci_img_h.jpg",
+        "http://www.nwgreen.or.kr/images/sub/ci_img_v_g.jpg",
+        "http://www.nwgreen.or.kr/images/sub/ci_img_h_g.jpg",
+        "http://www.nwgreen.or.kr/file/nw_logo.zip",
+        "https://nwgreen.or.kr/images/common/logo.png"
+      ],
+      "asset_count": 7,
+      "downloads": [
+        {
+          "url": "http://www.nwgreen.or.kr/images/sub/ci_img_story.jpg",
+          "file": "artifacts/public-ci-assets/재-노원환경재단/ci_img_story.jpg",
+          "bytes": 107978
+        },
+        {
+          "url": "http://www.nwgreen.or.kr/images/sub/ci_img_v.jpg",
+          "file": "artifacts/public-ci-assets/재-노원환경재단/ci_img_v.jpg",
+          "bytes": 141632
+        },
+        {
+          "url": "http://www.nwgreen.or.kr/images/sub/ci_img_h.jpg",
+          "file": "artifacts/public-ci-assets/재-노원환경재단/ci_img_h.jpg",
+          "bytes": 146117
+        },
+        {
+          "url": "http://www.nwgreen.or.kr/images/sub/ci_img_v_g.jpg",
+          "file": "artifacts/public-ci-assets/재-노원환경재단/ci_img_v_g.jpg",
+          "bytes": 140631
+        },
+        {
+          "url": "http://www.nwgreen.or.kr/images/sub/ci_img_h_g.jpg",
+          "file": "artifacts/public-ci-assets/재-노원환경재단/ci_img_h_g.jpg",
+          "bytes": 145228
+        },
+        {
+          "url": "http://www.nwgreen.or.kr/file/nw_logo.zip",
+          "file": "artifacts/public-ci-assets/재-노원환경재단/nw_logo.zip",
+          "bytes": 2085827
+        },
+        {
+          "url": "https://nwgreen.or.kr/images/common/logo.png",
+          "file": "artifacts/public-ci-assets/재-노원환경재단/logo.png",
+          "bytes": 7554
+        }
+      ]
+    },
+    {
+      "id": "재-달서문화재단-달서아트센터",
+      "name_ko": "(재)달서문화재단 달서아트센터",
+      "category": "공공·기관",
+      "official_source_page": "https://www.dsac.or.kr/main/contents.do?idx=6003",
+      "website": "https://www.dsac.or.kr/main/main.do",
+      "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
+      "status": "asset-links-found",
+      "asset_links": [
+        "https://www.dsac.or.kr/data/builder/logo.png",
+        "https://www.dsac.or.kr/nanum/site/builder/dir/main/img/menu4849/ci_tit.png",
+        "https://www.dsac.or.kr/nanum/site/builder/dir/main/img/menu4849/ko_logo.png",
+        "https://www.dsac.or.kr/nanum/site/builder/dir/main/img/menu4849/ci_kr_jpg.zip",
+        "https://www.dsac.or.kr/nanum/site/builder/dir/main/img/menu4849/ci_kr_ai.zip",
+        "https://www.dsac.or.kr/nanum/site/builder/dir/main/img/menu4849/en_logo.png",
+        "https://www.dsac.or.kr/nanum/site/builder/dir/main/img/menu4849/ci_en_jpg.zip",
+        "https://www.dsac.or.kr/nanum/site/builder/dir/main/img/menu4849/ci_en_ai.zip"
+      ],
+      "asset_count": 8,
+      "downloads": [
+        {
+          "url": "https://www.dsac.or.kr/data/builder/logo.png",
+          "file": "artifacts/public-ci-assets/재-달서문화재단-달서아트센터/logo.png",
+          "bytes": 2799
+        },
+        {
+          "url": "https://www.dsac.or.kr/nanum/site/builder/dir/main/img/menu4849/ci_tit.png",
+          "file": "artifacts/public-ci-assets/재-달서문화재단-달서아트센터/ci_tit.png",
+          "bytes": 6244
+        },
+        {
+          "url": "https://www.dsac.or.kr/nanum/site/builder/dir/main/img/menu4849/ko_logo.png",
+          "file": "artifacts/public-ci-assets/재-달서문화재단-달서아트센터/ko_logo.png",
+          "bytes": 8766
+        },
+        {
+          "url": "https://www.dsac.or.kr/nanum/site/builder/dir/main/img/menu4849/ci_kr_jpg.zip",
+          "file": "artifacts/public-ci-assets/재-달서문화재단-달서아트센터/ci_kr_jpg.zip",
+          "bytes": 159239
+        },
+        {
+          "url": "https://www.dsac.or.kr/nanum/site/builder/dir/main/img/menu4849/ci_kr_ai.zip",
+          "file": "artifacts/public-ci-assets/재-달서문화재단-달서아트센터/ci_kr_ai.zip",
+          "bytes": 1125086
+        },
+        {
+          "url": "https://www.dsac.or.kr/nanum/site/builder/dir/main/img/menu4849/en_logo.png",
+          "file": "artifacts/public-ci-assets/재-달서문화재단-달서아트센터/en_logo.png",
+          "bytes": 9632
+        },
+        {
+          "url": "https://www.dsac.or.kr/nanum/site/builder/dir/main/img/menu4849/ci_en_jpg.zip",
+          "file": "artifacts/public-ci-assets/재-달서문화재단-달서아트센터/ci_en_jpg.zip",
+          "bytes": 187822
+        },
+        {
+          "url": "https://www.dsac.or.kr/nanum/site/builder/dir/main/img/menu4849/ci_en_ai.zip",
+          "file": "artifacts/public-ci-assets/재-달서문화재단-달서아트센터/ci_en_ai.zip",
+          "bytes": 1131990
+        }
+      ]
+    },
+    {
+      "id": "재-대덕문화관광재단",
+      "name_ko": "(재)대덕문화관광재단",
+      "category": "공공·기관",
+      "official_source_page": "https://www.daedeok.go.kr/dpt/goContents.do?link=/dpt/dpt05/DPT050201&amp;menuId=DPT050201",
+      "website": "https://www.daedeok.go.kr/culture/CUL.do",
+      "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
+      "status": "asset-links-found",
+      "asset_links": [
+        "https://www.daedeok.go.kr/images/dpt_2022/common/logo2.png"
+      ],
+      "asset_count": 1,
+      "downloads": [
+        {
+          "url": "https://www.daedeok.go.kr/images/dpt_2022/common/logo2.png",
+          "file": "artifacts/public-ci-assets/재-대덕문화관광재단/logo2.png",
+          "bytes": 4943
+        }
+      ]
+    }
+  ],
+  "downloaded_count": 73,
+  "download_attempts": 74
+}
