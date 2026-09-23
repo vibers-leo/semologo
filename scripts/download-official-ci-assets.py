@@ -7,7 +7,8 @@ ROOT=Path(__file__).resolve().parents[1]; src=ROOT/'data/collection/official-ci-
 
 def main():
  d=json.loads(src.read_text()); out.mkdir(parents=True,exist_ok=True); total=ok=0
- for item in d['candidates']:
+ offset=int(sys.argv[1]) if len(sys.argv)>1 else 0; limit=int(sys.argv[2]) if len(sys.argv)>2 else len(d['candidates'])
+ for item in d['candidates'][offset:offset+limit]:
   if not item.get('asset_links'): continue
   folder=out/item['id']; folder.mkdir(parents=True,exist_ok=True); results=[]
   for i,u in enumerate(item['asset_links']):
