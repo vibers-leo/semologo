@@ -1,0 +1,125 @@
+{
+  "schema": 1,
+  "count": 17,
+  "candidates": [
+    {
+      "key": "busi01",
+      "file": "/Users/juuuno/Downloads/busi01.png",
+      "bytes": 8269,
+      "sha256": "dc233db962b0997796eaf07c505dc0cd7853dc921bd36115f97a2daf1aa6b43a",
+      "status": "candidate"
+    },
+    {
+      "key": "busi02",
+      "file": "/Users/juuuno/Downloads/busi02.png",
+      "bytes": 5290,
+      "sha256": "1f78a6e6105dd27a13832965aad08fdeb5f71a2c559e3faf80dd9b759b6140ce",
+      "status": "candidate"
+    },
+    {
+      "key": "busi03",
+      "file": "/Users/juuuno/Downloads/busi03.png",
+      "bytes": 8513,
+      "sha256": "d91336e797a677810bec124575782db4636f24609f2b23eb2b71a1c057322325",
+      "status": "candidate"
+    },
+    {
+      "key": "busi04",
+      "file": "/Users/juuuno/Downloads/busi04.png",
+      "bytes": 4498,
+      "sha256": "791d1751235132707a5b8156651b532fc83ae317ecf93453b8240d7257abb6c7",
+      "status": "candidate"
+    },
+    {
+      "key": "busi05",
+      "file": "/Users/juuuno/Downloads/busi05.png",
+      "bytes": 6266,
+      "sha256": "27a720dc65ecf0264d6fa2efae847b412777b62054ee850e8240e5fce7f5943a",
+      "status": "candidate"
+    },
+    {
+      "key": "busi06",
+      "file": "/Users/juuuno/Downloads/busi06.png",
+      "bytes": 3850,
+      "sha256": "904307ef60b122f7034ec86a55f3ca86fd638b1931b7a9e53d86005224e521df",
+      "status": "candidate"
+    },
+    {
+      "key": "busi07",
+      "file": "/Users/juuuno/Downloads/busi07.png",
+      "bytes": 6259,
+      "sha256": "b0e19f8d315878ae0fc9f3b6fc0cca85301a1da96c3d0472ccadba3a8c4b002f",
+      "status": "candidate"
+    },
+    {
+      "key": "busi08",
+      "file": "/Users/juuuno/Downloads/busi08.png",
+      "bytes": 8719,
+      "sha256": "d1ecd00e9590c31929af61b9ad36bfa149d6130d23b1d8906f1d029f9ea0b55a",
+      "status": "candidate"
+    },
+    {
+      "key": "busi09",
+      "file": "/Users/juuuno/Downloads/busi09.png",
+      "bytes": 6308,
+      "sha256": "abd3bf5a581eb474d553aa5532cd03b10ab42c76820f25db8888c768974dc474",
+      "status": "candidate"
+    },
+    {
+      "key": "busi10",
+      "file": "/Users/juuuno/Downloads/busi10.png",
+      "bytes": 7397,
+      "sha256": "db9124fa8c216b0df59453e4ba8529abcb1ec0b2d29b7485e900ac67939a4e5d",
+      "status": "candidate"
+    },
+    {
+      "key": "busi11",
+      "file": "/Users/juuuno/Downloads/busi11.png",
+      "bytes": 6034,
+      "sha256": "ecdf41b254d52107087bb59f81eaab2dde2e6128cd1eb70113dbae063e611fe8",
+      "status": "candidate"
+    },
+    {
+      "key": "busi12",
+      "file": "/Users/juuuno/Downloads/busi12.png",
+      "bytes": 6163,
+      "sha256": "9177064821d6adc5e20aeed85caa874c2e883245d415a85f5056f6928e3a5618",
+      "status": "candidate"
+    },
+    {
+      "key": "busi13",
+      "file": "/Users/juuuno/Downloads/busi13.png",
+      "bytes": 6310,
+      "sha256": "39a729fa29880b275b907f9c05b2f61e0b5b9eeb44a52f92a540efcbe2ca4ee8",
+      "status": "candidate"
+    },
+    {
+      "key": "busi14",
+      "file": "/Users/juuuno/Downloads/busi14.png",
+      "bytes": 4629,
+      "sha256": "d50c93f26cf373f07873457fdf54d83eb70897a2a2b8f34eec0557958e5ba987",
+      "status": "candidate"
+    },
+    {
+      "key": "busi15",
+      "file": "/Users/juuuno/Downloads/busi15.png",
+      "bytes": 5309,
+      "sha256": "62366887caa854821d8df629c951ffb941a6a846022766c31c9176e0f4327d11",
+      "status": "candidate"
+    },
+    {
+      "key": "busi16",
+      "file": "/Users/juuuno/Downloads/busi16.png",
+      "bytes": 4182,
+      "sha256": "21c07d35f89c929e0374c21a5c0a6e8468f821d0faf835b8ca80625a5701325a",
+      "status": "candidate"
+    },
+    {
+      "key": "busi17",
+      "file": "/Users/juuuno/Downloads/busi17.png",
+      "bytes": 4540,
+      "sha256": "2fbc565eb44f8ed27d0c886bee094bb2511703a3437bcfbd038241e9e140d19c",
+      "status": "candidate"
+    }
+  ]
+}
