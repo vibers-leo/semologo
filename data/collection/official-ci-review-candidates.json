@@ -1,0 +1,181 @@
+{
+  "schema": 1,
+  "count": 12,
+  "candidates": [
+    {
+      "id": "경상북도교육청",
+      "name_ko": "경상북도교육청",
+      "category": "공공·기관",
+      "website": "http://www.gbe.kr",
+      "official_source_page": "http://www.gbe.kr/main/cm/cntnts/cntntsView.do?mi=4160&amp;cntntsId=2240",
+      "candidates": [
+        "artifacts/public-ci-assets/경상북도교육청/logo.png",
+        "artifacts/public-ci-assets/경상북도교육청/f_logo.png",
+        "artifacts/public-ci-assets/경상북도교육청/WA_Mark.png"
+      ],
+      "status": "review-ready"
+    },
+    {
+      "id": "경상북도문화관광공사",
+      "name_ko": "경상북도문화관광공사",
+      "category": "공공·기관",
+      "website": "https://www.gtc.co.kr/main.tc",
+      "official_source_page": "https://www.gtc.co.kr/page/10013/10053.tc",
+      "candidates": [
+        "artifacts/public-ci-assets/경상북도문화관광공사/logo.png",
+        "artifacts/public-ci-assets/경상북도문화관광공사/ci_01.png",
+        "artifacts/public-ci-assets/경상북도문화관광공사/ci_ai_wrap.zip",
+        "artifacts/public-ci-assets/경상북도문화관광공사/ci_jpg_wrap.zip",
+        "artifacts/public-ci-assets/경상북도문화관광공사/ci_02.png",
+        "artifacts/public-ci-assets/경상북도문화관광공사/ci_03.png",
+        "artifacts/public-ci-assets/경상북도문화관광공사/ci_04.png",
+        "artifacts/public-ci-assets/경상북도문화관광공사/ci_05.png"
+      ],
+      "status": "review-ready"
+    },
+    {
+      "id": "경상북도안동의료원",
+      "name_ko": "경상북도안동의료원",
+      "category": "공공·기관",
+      "website": "https://amc.or.kr/front/main.do",
+      "official_source_page": "https://amc.or.kr/front/page.do?pageView=/about/symbol",
+      "candidates": [
+        "artifacts/public-ci-assets/경상북도안동의료원/logo.svg",
+        "artifacts/public-ci-assets/경상북도안동의료원/img_symbol_01.svg",
+        "artifacts/public-ci-assets/경상북도안동의료원/img_symbol_02.svg",
+        "artifacts/public-ci-assets/경상북도안동의료원/img_symbol_03.svg",
+        "artifacts/public-ci-assets/경상북도안동의료원/img_symbol_04.svg"
+      ],
+      "status": "review-ready"
+    },
+    {
+      "id": "경상북도환경연수원",
+      "name_ko": "경상북도환경연수원",
+      "category": "공공·기관",
+      "website": "https://igreen.or.kr/main/main.html",
+      "official_source_page": "https://igreen.or.kr/intro/history03.html",
+      "candidates": [
+        "artifacts/public-ci-assets/경상북도환경연수원/logo.png",
+        "artifacts/public-ci-assets/경상북도환경연수원/c_logo.png",
+        "artifacts/public-ci-assets/경상북도환경연수원/ssl_mark.png"
+      ],
+      "status": "review-ready"
+    },
+    {
+      "id": "경제인문사회연구회",
+      "name_ko": "경제인문사회연구회",
+      "category": "공공·기관",
+      "website": "http://www.nrc.re.kr",
+      "official_source_page": "https://www.nrc.re.kr/menu.es?mid=a12301000000",
+      "candidates": [
+        "artifacts/public-ci-assets/경제인문사회연구회/ci1.png",
+        "artifacts/public-ci-assets/경제인문사회연구회/signature_logo.png",
+        "artifacts/public-ci-assets/경제인문사회연구회/logotype_kor.png",
+        "artifacts/public-ci-assets/경제인문사회연구회/logotype_eng.png",
+        "artifacts/public-ci-assets/경제인문사회연구회/wa_mark.png",
+        "artifacts/public-ci-assets/경제인문사회연구회/ffsb_mark.png"
+      ],
+      "status": "review-ready"
+    },
+    {
+      "id": "경주시",
+      "name_ko": "경주시",
+      "category": "공공·기관",
+      "website": "https://www.gyeongju.go.kr/open_content/ko/index.do",
+      "official_source_page": "http://www.gyeongju.go.kr/open_content/ko/page.do?mnu_uid=280&amp;",
+      "candidates": [
+        "artifacts/public-ci-assets/경주시/ci_1.png",
+        "artifacts/public-ci-assets/경주시/ci_symbol_ai.zip",
+        "artifacts/public-ci-assets/경주시/ci_symbol_jpg.zip",
+        "artifacts/public-ci-assets/경주시/ci_2.png",
+        "artifacts/public-ci-assets/경주시/ci_slogan_ai.zip",
+        "artifacts/public-ci-assets/경주시/ci_slogan_jpg.zip",
+        "artifacts/public-ci-assets/경주시/ci_3-1.png",
+        "artifacts/public-ci-assets/경주시/ci_slogan2018_ai.zip"
+      ],
+      "status": "review-ready"
+    },
+    {
+      "id": "경주엑스포대공원",
+      "name_ko": "경주엑스포대공원",
+      "category": "공공·기관",
+      "website": "https://www.cultureexpo.or.kr/open.content/ko/",
+      "official_source_page": "https://www.cultureexpo.or.kr/open.content/ko/",
+      "candidates": [
+        "artifacts/public-ci-assets/경주엑스포대공원/logo-shadow.png",
+        "artifacts/public-ci-assets/경주엑스포대공원/gtc-logo.png"
+      ],
+      "status": "review-ready"
+    },
+    {
+      "id": "경찰대학",
+      "name_ko": "경찰대학",
+      "category": "공공·기관",
+      "website": "http://www.police.ac.kr",
+      "official_source_page": "https://www.police.ac.kr/police/police/html/intro/sym/ci.do?mdex=police29",
+      "candidates": [
+        "artifacts/public-ci-assets/경찰대학/symbolmark_AI.zip",
+        "artifacts/public-ci-assets/경찰대학/symbolmark_jpg.zip",
+        "artifacts/public-ci-assets/경찰대학/logotype_AI.zip",
+        "artifacts/public-ci-assets/경찰대학/logotype_jpg.zip"
+      ],
+      "status": "review-ready"
+    },
+    {
+      "id": "계룡시",
+      "name_ko": "계룡시",
+      "category": "공공·기관",
+      "website": "http://www.gyeryong.go.kr",
+      "official_source_page": "https://www.gyeryong.go.kr/kr/html/sub04/040203.html",
+      "candidates": [
+        "artifacts/public-ci-assets/계룡시/WA_Mark.png",
+        "artifacts/public-ci-assets/계룡시/footlogo.png"
+      ],
+      "status": "review-ready"
+    },
+    {
+      "id": "계룡시애향장학회",
+      "name_ko": "계룡시애향장학회",
+      "category": "공공·기관",
+      "website": "https://www.gyeryong.go.kr/site/janghak/",
+      "official_source_page": "https://gyeryong.go.kr/kr/html/sub04/040203.html",
+      "candidates": [
+        "artifacts/public-ci-assets/계룡시애향장학회/WA_Mark.png",
+        "artifacts/public-ci-assets/계룡시애향장학회/footlogo.png"
+      ],
+      "status": "review-ready"
+    },
+    {
+      "id": "고래문화재단",
+      "name_ko": "고래문화재단",
+      "category": "공공·기관",
+      "website": "http://www.uwcf.or.kr/",
+      "official_source_page": "http://www.uwcf.or.kr/menu_01/05.jsp",
+      "candidates": [
+        "artifacts/public-ci-assets/고래문화재단/ci01.png",
+        "artifacts/public-ci-assets/고래문화재단/UWCF_logomark.ai",
+        "artifacts/public-ci-assets/고래문화재단/uwcf_logomark.zip",
+        "artifacts/public-ci-assets/고래문화재단/ci02.png",
+        "artifacts/public-ci-assets/고래문화재단/ci03.png",
+        "artifacts/public-ci-assets/고래문화재단/ci04.png",
+        "artifacts/public-ci-assets/고래문화재단/uwcf_ci.zip",
+        "artifacts/public-ci-assets/고래문화재단/ci05.png"
+      ],
+      "status": "review-ready"
+    },
+    {
+      "id": "고양도시관리공사",
+      "name_ko": "고양도시관리공사",
+      "category": "공공·기관",
+      "website": "https://www.gys.or.kr/",
+      "official_source_page": "https://www.gys.or.kr/subpage/index/105",
+      "candidates": [
+        "artifacts/public-ci-assets/고양도시관리공사/ci_2024_01_1.png",
+        "artifacts/public-ci-assets/고양도시관리공사/ci_2024_02_1.png",
+        "artifacts/public-ci-assets/고양도시관리공사/ci_2024_03_1.png",
+        "artifacts/public-ci-assets/고양도시관리공사/ci_2024_04_1.png"
+      ],
+      "status": "review-ready"
+    }
+  ]
+}
