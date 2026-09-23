@@ -1,7 +1,631 @@
 {
   "schema": 1,
-  "count": 20,
+  "count": 50,
   "candidates": [
+    {
+      "id": "재-독도재단",
+      "name_ko": "(재)독도재단",
+      "category": "공공·기관",
+      "official_source_page": "https://www.koreadokdo.or.kr/",
+      "website": "https://www.koreadokdo.or.kr/",
+      "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
+      "status": "page-fetch-failed",
+      "asset_links": [],
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "id": "재-목포인재육성재단",
+      "name_ko": "(재)목포인재육성재단",
+      "category": "공공·기관",
+      "official_source_page": "http://itsweb.itsbiz.co.kr/traffic_exceeded.html",
+      "website": "http://itsweb.itsbiz.co.kr/traffic_exceeded.html",
+      "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
+      "status": "page-no-direct-asset",
+      "asset_links": []
+    },
+    {
+      "id": "재-발효미생물산업진흥원",
+      "name_ko": "(재)발효미생물산업진흥원",
+      "category": "공공·기관",
+      "official_source_page": "https://www.mifi.re.kr/ko/page/sub/sub01_06.do",
+      "website": "https://www.mifi.re.kr/ko/page/main.do",
+      "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
+      "status": "asset-links-found",
+      "asset_links": [
+        "https://www.mifi.re.kr/home/images/common/favicon/apple-icon-57x57.png",
+        "https://www.mifi.re.kr/home/images/common/favicon/apple-icon-60x60.png",
+        "https://www.mifi.re.kr/home/images/common/favicon/apple-icon-72x72.png",
+        "https://www.mifi.re.kr/home/images/common/favicon/apple-icon-76x76.png",
+        "https://www.mifi.re.kr/home/images/common/favicon/apple-icon-114x114.png",
+        "https://www.mifi.re.kr/home/images/common/favicon/apple-icon-120x120.png",
+        "https://www.mifi.re.kr/home/images/common/favicon/apple-icon-144x144.png",
+        "https://www.mifi.re.kr/home/images/common/favicon/apple-icon-152x152.png",
+        "https://www.mifi.re.kr/home/images/common/favicon/apple-icon-180x180.png",
+        "https://www.mifi.re.kr/home/images/common/favicon//android-icon-192x192.png",
+        "https://www.mifi.re.kr/home/images/common/favicon/favicon-32x32.png",
+        "https://www.mifi.re.kr/home/images/common/favicon/favicon-96x96.png",
+        "https://www.mifi.re.kr/home/images/common/favicon/favicon-16x16.png",
+        "https://www.mifi.re.kr/home/images/common/logo_foo.png",
+        "https://www.mifi.re.kr/home/images/sub/sub_home_i_01.png",
+        "https://www.mifi.re.kr/home/images/sub/06/발효미생물산업진흥원 로고 AI.zip",
+        "https://www.mifi.re.kr/home/images/sub/06/symbol_mark.png",
+        "https://www.mifi.re.kr/home/images/sub/06/sign_combi_1.png",
+        "https://www.mifi.re.kr/home/images/sub/06/sign_combi_2.png",
+        "https://www.mifi.re.kr/home/images/sub/06/sign_combi_3.png"
+      ]
+    },
+    {
+      "id": "재-사천시미생물발효재단",
+      "name_ko": "(재)사천시미생물발효재단",
+      "category": "공공·기관",
+      "official_source_page": "https://www.scmicro.or.kr/sub/ci.php",
+      "website": "https://www.scmicro.or.kr/",
+      "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
+      "status": "asset-links-found",
+      "asset_links": [
+        "https://www.scmicro.or.kr/images/common/semfr.png",
+        "https://www.scmicro.or.kr/images/common/emblem.svg",
+        "https://www.scmicro.or.kr/images/contents/ci.png",
+        "https://www.scmicro.or.kr/data/ci.zip",
+        "https://www.scmicro.or.kr/data/ci.pdf",
+        "https://www.scmicro.or.kr/images/contents/logoType1.png",
+        "https://www.scmicro.or.kr/images/contents/logoType2.png",
+        "https://www.scmicro.or.kr/images/contents/logoType4.png",
+        "https://www.scmicro.or.kr/images/contents/logoType3.png",
+        "https://www.scmicro.or.kr/images/contents/ciSpace.png",
+        "https://www.scmicro.or.kr/images/contents/logoColor2.png",
+        "https://www.scmicro.or.kr/images/contents/ciColor1.png",
+        "https://www.scmicro.or.kr/images/contents/ciColor2.png",
+        "https://www.scmicro.or.kr/images/contents/ciColor3.png",
+        "https://www.scmicro.or.kr/images/contents/ciStyle.png",
+        "https://www.scmicro.or.kr/images/contents/ciStyle1.png",
+        "https://www.scmicro.or.kr/images/contents/ciStyle2.png",
+        "https://www.scmicro.or.kr/images/contents/ciStyle3.png",
+        "https://www.scmicro.or.kr/images/contents/ciStyle4.png",
+        "https://www.scmicro.or.kr/images/contents/ciStyle5.png"
+      ]
+    },
+    {
+      "id": "재-사천시인재육성장학재단",
+      "name_ko": "(재)사천시인재육성장학재단",
+      "category": "공공·기관",
+      "official_source_page": "https://www.sacheon.go.kr/intro/01096/02416.web",
+      "website": "https://www.sacheon.go.kr/life/lll/04087.web",
+      "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
+      "status": "asset-links-found",
+      "asset_links": [
+        "https://www.sacheon.go.kr/portal/img/inc/logo@2x2025.png",
+        "https://www.sacheon.go.kr/portal/img/inc/gm1taegeukgi.png",
+        "https://www.sacheon.go.kr/intro/img/sub/02416_img1.png",
+        "https://www.sacheon.go.kr/intro/img/sub/02416_img2.png",
+        "https://www.sacheon.go.kr/intro/img/sub/02416_img3.png",
+        "https://www.sacheon.go.kr/intro/img/sub/02416_img4.png",
+        "https://www.sacheon.go.kr/portal/img/sub/intro/01_04_symbol_city_ai.zip",
+        "https://www.sacheon.go.kr/portal/img/board/icon/ic16_ai.png",
+        "https://www.sacheon.go.kr/portal/img/sub/intro/01_04_symbol_city_jpg.zip",
+        "https://www.sacheon.go.kr/portal/img/board/icon/ic16_jpg.png",
+        "https://www.sacheon.go.kr/portal/img/sub/intro/01_04_symbol_ai.zip",
+        "https://www.sacheon.go.kr/portal/img/sub/intro/01_04_symbol_jpg.zip",
+        "https://www.sacheon.go.kr/intro/img/sub/02416_img5.png",
+        "https://www.sacheon.go.kr/intro/img/sub/02416_img6.png",
+        "http://www.sacheon.go.kr/intro/img/sub/03180_img04.png",
+        "https://www.sacheon.go.kr/intro/img/sub/web_mark_2025.png"
+      ]
+    },
+    {
+      "id": "재-성주군별고을장학회",
+      "name_ko": "(재)성주군별고을장학회",
+      "category": "공공·기관",
+      "official_source_page": "https://www.sj.go.kr/page.do?mnu_uid=1014&amp;",
+      "website": "https://www.sj.go.kr/sjstar/main.do",
+      "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
+      "status": "asset-links-found",
+      "asset_links": [
+        "https://www.sj.go.kr/ko/img/main/logo.png",
+        "https://www.sj.go.kr/ko/img/main/nav_ico1.png",
+        "https://www.sj.go.kr/ko/img/main/nav_ico2.png",
+        "https://www.sj.go.kr/ko/img/main/nav_ico3.png",
+        "https://www.sj.go.kr/ko/img/main/nav_ico4.png",
+        "https://www.sj.go.kr/ko/img/main/nav_ico5.png",
+        "https://www.sj.go.kr/ko/img/main/nav_ico6.png",
+        "https://www.sj.go.kr/ko/img/main/m_close.png",
+        "https://www.sj.go.kr/ko/img/sub/home_ico.png",
+        "https://www.sj.go.kr/ko/img/sub/ico_zoom.png",
+        "https://www.sj.go.kr/ko/img/sub/ico_out.png",
+        "https://www.sj.go.kr/ko/img/sub/ico_print.png",
+        "https://www.sj.go.kr/ko/img/sub/ico_face.png",
+        "https://www.sj.go.kr/ko/img/sub/ico_tweet.png",
+        "https://www.sj.go.kr/ko/img/sub/sub01/sym_img01.png",
+        "https://www.sj.go.kr/download/S0001/down2.zip",
+        "https://www.sj.go.kr/download/S0001/logo2.zip",
+        "https://www.sj.go.kr/ko/img/sub/sub01/sym_img02_funny.png",
+        "https://www.sj.go.kr/download/S0001/fun_seongju.zip",
+        "https://www.sj.go.kr/download/S0001/clean_bs2.zip"
+      ]
+    },
+    {
+      "id": "재-시흥시도시재생지원센터",
+      "name_ko": "(재)시흥시도시재생지원센터",
+      "category": "공공·기관",
+      "official_source_page": "https://www.shurc.or.kr/base/contents/view?contentsNo=81&amp;menuLevel=2&amp;menuNo=109",
+      "website": "https://www.shurc.or.kr/base/main/view;jsessionid=32B82DB2485936E678B30C001DAD14F6",
+      "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
+      "status": "asset-links-found",
+      "asset_links": [
+        "https://www.shurc.or.kr/template/resources/images/main/add_marker.png",
+        "https://www.shurc.or.kr/template/resources/images/main/add_phone.png",
+        "https://www.shurc.or.kr/template/resources/images/main/sitemap_btn.png",
+        "https://www.shurc.or.kr/template/resources/images/cont/logo.png",
+        "https://www.shurc.or.kr/template/resources/images/main/top_search_btn.png",
+        "https://www.shurc.or.kr/template/resources/images/main/all_menu_top_bg.png",
+        "https://www.shurc.or.kr/template/resources/images/icons/all-menu-btn-close2.png",
+        "https://www.shurc.or.kr/template/resources/images/main/gnb_logo.png",
+        "https://www.shurc.or.kr/template/resources/images/main/toTop_btn.png",
+        "https://www.shurc.or.kr/template/resources/images/sub/ci_img01.png",
+        "https://www.shurc.or.kr/template/resources/file/CI_2024.zip",
+        "https://www.shurc.or.kr/template/resources/images/sub/ci_meaning01.png",
+        "https://www.shurc.or.kr/template/resources/images/sub/ci_meaning02.png",
+        "https://www.shurc.or.kr/template/resources/images/sub/ci_meaning03.png",
+        "https://www.shurc.or.kr/template/resources/images/sub/ci_meaning04.png",
+        "https://www.shurc.or.kr/template/resources/images/sub/ci_grid00.png",
+        "https://www.shurc.or.kr/template/resources/images/sub/ci_grid01.png",
+        "https://www.shurc.or.kr/template/resources/images/sub/ci_grid02.png",
+        "https://www.shurc.or.kr/template/resources/images/sub/ci_watermark01.png",
+        "https://www.shurc.or.kr/template/resources/images/sub/ci_watermark02.png"
+      ]
+    },
+    {
+      "id": "재-영암군미래교육재단",
+      "name_ko": "(재)영암군미래교육재단",
+      "category": "공공·기관",
+      "official_source_page": "https://www.yeongam.go.kr/home/www/new_plus/introduce/introduce_11/yeongam.go",
+      "website": "https://www.ya-mirae.or.kr/",
+      "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
+      "status": "page-fetch-failed",
+      "asset_links": [],
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)>"
+    },
+    {
+      "id": "재-영양군인재육성장학회",
+      "name_ko": "(재)영양군인재육성장학회",
+      "category": "공공·기관",
+      "official_source_page": "https://www.yyg.go.kr/www/introduce/yyg_symbol/brand_slogan",
+      "website": "https://www.yyg.go.kr/www/welfare/education_culture/scholarship_association",
+      "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
+      "status": "asset-links-found",
+      "asset_links": [
+        "https://www.yyg.go.kr/www/introduce/yyg_symbol/brand_slogan/screen_print.jpg?page=1",
+        "https://www.yyg.go.kr/www/introduce/yyg_symbol/brand_slogan/screen_print.pdf?page%3D1",
+        "https://www.yyg.go.kr/www/introduce/yyg_symbol/brand_slogan/udjz24/screen_qr.png",
+        "https://www.yyg.go.kr/contents/62/yy_mark01_1.png?build_20260922001",
+        "https://www.yyg.go.kr/contents/62/yy_mark02_2.png?build_20260922001",
+        "https://www.yyg.go.kr/contents/62/yy_mark03_1.png?build_20260922001",
+        "https://www.yyg.go.kr/contents/62/symbol_1.zip",
+        "https://www.yyg.go.kr/contents/62/img_brand_20170629.jpg?build_20260922001",
+        "https://www.yyg.go.kr/contents/62/img_brand02_2.jpg?build_20260922001",
+        "https://www.yyg.go.kr/contents/62/basic_ai.zip"
+      ]
+    },
+    {
+      "id": "재-영주시인재육성장학회",
+      "name_ko": "(재)영주시인재육성장학회",
+      "category": "공공·기관",
+      "official_source_page": "https://www.yeongju.go.kr/open_content/main/page.do?mnu_uid=3742&amp;",
+      "website": "https://www.yeongju.go.kr/yjjhh/index.do",
+      "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
+      "status": "asset-links-found",
+      "asset_links": [
+        "https://www.yeongju.go.kr/DownFiles/main/government/yj_symbol_mark_ai.zip",
+        "https://www.yeongju.go.kr/DownFiles/main/government/yj_symbol_jpg.zip",
+        "https://www.yeongju.go.kr/DownFiles/main/government/ci.zip",
+        "https://www.yeongju.go.kr/DownFiles/main/government/yj_signature01_ai.zip",
+        "https://www.yeongju.go.kr/DownFiles/main/government/yj_signature01_jpg.zip",
+        "https://www.yeongju.go.kr/DownFiles/main/government/yj_signature02_ai.zip",
+        "https://www.yeongju.go.kr/DownFiles/main/government/yj_signature02_jpg.zip",
+        "https://www.yeongju.go.kr/DownFiles/main/government/yj_signature03_ai.zip",
+        "https://www.yeongju.go.kr/DownFiles/main/government/yj_signature03_jpg.zip",
+        "https://www.yeongju.go.kr/DownFiles/main/government/yj_character_ai.zip",
+        "https://www.yeongju.go.kr/DownFiles/main/government/yj_character_jpg.zip",
+        "https://www.yeongju.go.kr/design2022/common/img/logo_w.png",
+        "https://www.yeongju.go.kr/design2022/main/img/layout/mark_2026.png"
+      ]
+    },
+    {
+      "id": "재-예술경영지원센터",
+      "name_ko": "(재)예술경영지원센터",
+      "category": "공공·기관",
+      "official_source_page": "http://www.gokams.or.kr/07_member/logo.asp",
+      "website": "http://www.gokams.or.kr",
+      "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
+      "status": "page-no-direct-asset",
+      "asset_links": []
+    },
+    {
+      "id": "재-오산문화재단",
+      "name_ko": "(재)오산문화재단",
+      "category": "공공·기관",
+      "official_source_page": "https://www.osan.go.kr/arts/contents.do?mId=0701050000",
+      "website": "https://www.osan.go.kr/arts/main.do",
+      "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
+      "status": "asset-links-found",
+      "asset_links": [
+        "https://www.osan.go.kr/common/img/common/img_ban_gnb.png",
+        "https://www.osan.go.kr/arts/images/sub07/ci1.jpg",
+        "https://www.osan.go.kr/arts/images/sub07/ci2.jpg",
+        "https://www.osan.go.kr/arts/images/sub07/ci3.jpg",
+        "https://www.osan.go.kr/arts/images/sub07/ci4.jpg",
+        "https://www.osan.go.kr/arts/images/sub07/ci5.jpg",
+        "https://www.osan.go.kr/arts/images/sub07/ci6.jpg",
+        "https://www.osan.go.kr/arts/images/sub07/ci7.jpg",
+        "https://www.osan.go.kr/arts/images/sub07/ci8.jpg",
+        "https://www.osan.go.kr/arts/images/sub07/ci9.jpg",
+        "https://www.osan.go.kr/arts/images/sub07/ci10.jpg",
+        "https://www.osan.go.kr/common/img/KOGL/new_img_opentype03.png"
+      ]
+    },
+    {
+      "id": "재-우체국금융개발원",
+      "name_ko": "(재)우체국금융개발원",
+      "category": "공공·기관",
+      "official_source_page": "https://www.posid.or.kr/introduction/ci.do",
+      "website": "https://www.posid.or.kr",
+      "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
+      "status": "asset-links-found",
+      "asset_links": [
+        "https://www.posid.or.kr/images/main/btn_fullmenu_close.png",
+        "https://www.posid.or.kr/images/blank_icon2.png",
+        "https://www.posid.or.kr/images/blank_icon.png",
+        "https://www.posid.or.kr/images/logo_w.svg",
+        "https://www.posid.or.kr/images/logo_b.svg",
+        "https://www.posid.or.kr/images/nav1.png",
+        "https://www.posid.or.kr/images/nav2.png",
+        "https://www.posid.or.kr/images/nav3.png",
+        "https://www.posid.or.kr/images/nav5.png",
+        "https://www.posid.or.kr/images/nav4.png",
+        "https://www.posid.or.kr/images/nav6.png",
+        "https://www.posid.or.kr/images/fullmenu.png",
+        "https://www.posid.or.kr/images/icon_arrow_right.png",
+        "https://www.posid.or.kr/images/intro/ci_01.jpg",
+        "https://www.posid.or.kr/images/intro/ci_02.jpg",
+        "https://www.posid.or.kr/images/intro/ci_03.jpg",
+        "https://www.posid.or.kr/images/intro/ci_04.jpg",
+        "https://www.posid.or.kr/images/intro/ci_05.jpg",
+        "https://www.posid.or.kr/images/intro/ci_06.jpg",
+        "https://www.posid.or.kr/images/intro/ci_07.jpg"
+      ]
+    },
+    {
+      "id": "재-우체국물류지원단",
+      "name_ko": "(재)우체국물류지원단",
+      "category": "공공·기관",
+      "official_source_page": "https://www.pola.or.kr/web/content.do?proFn=ci",
+      "website": "http://www.pola.or.kr",
+      "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
+      "status": "asset-links-found",
+      "asset_links": [
+        "https://www.pola.or.kr/images_new/common/logo-on.svg",
+        "https://www.pola.or.kr/img/3deth_plus.png",
+        "https://www.pola.or.kr/img/icon_search.png",
+        "https://www.pola.or.kr/img/top_list_btn.png",
+        "https://www.pola.or.kr/img/logo.png",
+        "https://www.pola.or.kr/img/s_navi_home.png",
+        "https://www.pola.or.kr/images_new/contents/img-ci01.png",
+        "https://www.pola.or.kr/images_new/contents/img-ci-logo01.png",
+        "https://www.pola.or.kr/images_new/common/img-ci-logo03.svg",
+        "https://www.pola.or.kr/images_new/common/img-ci-logo02.svg",
+        "https://www.pola.or.kr/images_new/common/logo-gray.svg",
+        "https://www.pola.or.kr/img/top_btn.png"
+      ]
+    },
+    {
+      "id": "재-우체국시설관리단",
+      "name_ko": "(재)우체국시설관리단",
+      "category": "공공·기관",
+      "official_source_page": "https://www.poma.or.kr/poma/ci.do",
+      "website": "http://www.poma.or.kr",
+      "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
+      "status": "asset-links-found",
+      "asset_links": [
+        "https://www.poma.or.kr/_res/poma_facility/poma/img/layout/img_gnb_left_txt.png",
+        "https://www.poma.or.kr/_res/poma_facility/poma/img/layout/icon_fb.svg",
+        "https://www.poma.or.kr/_res/poma_facility/poma/img/layout/icon_kakao.svg",
+        "https://www.poma.or.kr/_res/poma_facility/poma/img/content/img_about_ca5_01.png",
+        "https://www.poma.or.kr/_res/poma_facility/poma/img/content/BS01-Corporatemark.zip",
+        "https://www.poma.or.kr/_res/poma_facility/poma/img/layout/logo_footer.svg",
+        "https://www.poma.or.kr/_res/poma_facility/poma/img/layout/WA_Mark_20242025.png",
+        "https://www.poma.or.kr/_res/poma_facility/poma/img/layout/WA_Mark_20262027.png",
+        "https://www.poma.or.kr/_res/poma_facility/poma/img/layout/personal_01.png"
+      ]
+    },
+    {
+      "id": "재-울진군장학재단",
+      "name_ko": "(재)울진군장학재단",
+      "category": "공공·기관",
+      "official_source_page": "https://www.uljin.go.kr/index.uljin?menuCd=DOM_000000104003001000",
+      "website": "https://www.uljinsf.kr/albino/index1.php",
+      "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
+      "status": "asset-links-found",
+      "asset_links": [
+        "https://www.uljin.go.kr/upload_data/board_data/BBS_0000130/178270899170483.png",
+        "https://www.uljin.go.kr/images/01_potal/common/new_win.png",
+        "https://developers.band.us/img/share/button/ko/40x40.png",
+        "https://www.uljin.go.kr/upload_data/menu_qrcode/DOM_000000104003001000/DOM_000000104003001000_150.PNG",
+        "https://www.uljin.go.kr/images/01_potal/sub04/uj_simbol.png",
+        "https://www.uljin.go.kr/images/01_potal/file/sub04/uljin.zip",
+        "https://www.uljin.go.kr/images/01_potal/file/sub04/uj_logo_ai.zip",
+        "https://www.uljin.go.kr/images/01_potal/sub04/uj_logotype.png",
+        "https://www.uljin.go.kr/images/01_potal/file/sub04/logo_text.zip",
+        "https://www.uljin.go.kr/images/01_potal/file/sub04/uj_logo_text_ai.zip",
+        "https://www.uljin.go.kr/images/01_potal/sub04/uj_signature.png",
+        "https://www.uljin.go.kr/images/01_potal/file/sub04/uljin_2023.zip",
+        "https://www.uljin.go.kr/images/01_potal/file/sub04/uj_logo_ai_2023.zip",
+        "https://www.uljin.go.kr/images/01_potal/sub04/uj_brand.png",
+        "https://www.uljin.go.kr/images/01_potal/file/sub04/brand.zip",
+        "https://www.uljin.go.kr/images/01_potal/file/sub04/brand_ai.zip",
+        "https://www.uljin.go.kr/images/01_potal/sub04/2023_slogan.png",
+        "https://www.uljin.go.kr/images/01_potal/sub04/2023_slogan.zip",
+        "https://www.uljin.go.kr/images/01_potal/sub04/2023_slogan_ai.zip",
+        "https://www.uljin.go.kr/images/01_potal/sub04/uj_character.png"
+      ]
+    },
+    {
+      "id": "재-원덕읍향토장학회",
+      "name_ko": "(재)원덕읍향토장학회",
+      "category": "공공·기관",
+      "official_source_page": "https://www.samcheok.go.kr/intro/00362/01658.web",
+      "website": "http://sclsf.or.kr/wonduk",
+      "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
+      "status": "asset-links-found",
+      "asset_links": [
+        "https://www.samcheok.go.kr/_res/portal/img/main/pop_corona.png",
+        "https://www.samcheok.go.kr/_res/portal/img/inc/logo@2x.png",
+        "https://www.samcheok.go.kr/_res/portal/img/inc/gm1taegeukgi.png",
+        "https://www.samcheok.go.kr/_res/portal/img/inc/weather1/ic60weather1_01.png",
+        "https://www.samcheok.go.kr/_res/portal/img/inc/tnb1logo@2x.png",
+        "https://www.samcheok.go.kr/_res/portal/img/sub/p01448_img4.png",
+        "https://www.samcheok.go.kr/_res/portal/img/inc/foot_logo@2x.png",
+        "https://www.samcheok.go.kr/_res/portal/img/inc/foot_good.png"
+      ]
+    },
+    {
+      "id": "재-원주의료기기산업진흥원",
+      "name_ko": "(재)원주의료기기산업진흥원",
+      "category": "공공·기관",
+      "official_source_page": "https://www.wmit.or.kr/contents/contents.do?ciIdx=1113&amp;menuId=2915",
+      "website": "https://www.wmit.or.kr/main.do?isMaster=N&amp;isLogined=N&amp;viewPrefix=%2FWEB-INF%2Fjsp%2Fcms&amp;urlRootPath=&amp;siteResourcePath=%2Fsite%2Fhomestory",
+      "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
+      "status": "asset-links-found",
+      "asset_links": [
+        "https://www.wmit.or.kr/common/img/apple-touch-icon.png"
+      ]
+    },
+    {
+      "id": "재-일제강제동원피해자지원재단",
+      "name_ko": "(재)일제강제동원피해자지원재단",
+      "category": "공공·기관",
+      "official_source_page": "https://www.fomo.or.kr/kor/contents/7",
+      "website": "https://www.fomo.or.kr/kor",
+      "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
+      "status": "asset-links-found",
+      "asset_links": [
+        "https://www.fomo.or.kr/images/core/ilje_or_kr2.png",
+        "https://www.fomo.or.kr/images/core/favicon.png",
+        "https://www.fomo.or.kr/images/site/kor/content/int_char_img01.svg",
+        "https://www.fomo.or.kr/images/site/kor/content/int_char_img02.svg",
+        "https://www.fomo.or.kr/images/site/kor/content/int_char_img03.svg",
+        "https://www.fomo.or.kr/images/site/kor/content/int_char_img04.png",
+        "https://www.fomo.or.kr/images/site/kor/content/int_char_img05.png",
+        "https://www.fomo.or.kr/images/site/kor/content/int_char_img06.png",
+        "https://www.fomo.or.kr/images/site/kor/content/int_char_img07.png",
+        "https://www.fomo.or.kr/images/site/kor/layout/fam_mark.svg",
+        "https://www.fomo.or.kr/images/site/kor/layout/2025-wa-mark.png"
+      ]
+    },
+    {
+      "id": "재-임실치즈앤식품연구소",
+      "name_ko": "(재)임실치즈앤식품연구소",
+      "category": "공공·기관",
+      "official_source_page": "http://www.icf.re.kr/",
+      "website": "http://www.icf.re.kr/",
+      "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
+      "status": "asset-links-found",
+      "asset_links": [
+        "http://www.icf.re.kr/img/favicon.png",
+        "http://www.icf.re.kr/img/logo.png",
+        "http://www.icf.re.kr/img/logo_black.png",
+        "http://www.icf.re.kr/img/quick01.png",
+        "http://www.icf.re.kr/img/mv1.jpg",
+        "http://www.icf.re.kr/img/visual-1-black.png",
+        "http://www.icf.re.kr/img/mv2.jpg",
+        "http://www.icf.re.kr/img/stop-btn.svg",
+        "http://www.icf.re.kr/img/play-btn.svg",
+        "http://www.icf.re.kr/img/mreser_cheese.png",
+        "http://www.icf.re.kr/img/mbtm_1.png",
+        "http://www.icf.re.kr/img/mbtm_2.png",
+        "http://www.icf.re.kr/img/mbtm_3.png",
+        "http://www.icf.re.kr/ebom/app/upData/pop/pop_1789363729_11789363729.pdf",
+        "http://www.icf.re.kr/img/bnr1.png",
+        "http://www.icf.re.kr/img/bnr2.png",
+        "http://www.icf.re.kr/img/bnr3.png",
+        "http://www.icf.re.kr/img/bnr4.png",
+        "http://www.icf.re.kr/img/bnr5.png",
+        "http://www.icf.re.kr/img/flogo.png"
+      ]
+    },
+    {
+      "id": "재-장성먹거리통합지원센터",
+      "name_ko": "(재)장성먹거리통합지원센터",
+      "category": "공공·기관",
+      "official_source_page": "https://www.jangseongff.or.kr/%EC%9E%AC%EB%8B%A8%EC%86%8C%EA%B0%9C@15858777",
+      "website": "https://www.jangseongff.or.kr/",
+      "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
+      "status": "page-no-direct-asset",
+      "asset_links": []
+    },
+    {
+      "id": "재-진주바이오산업진흥원",
+      "name_ko": "(재)진주바이오산업진흥원",
+      "category": "공공·기관",
+      "official_source_page": "https://www.jbio.or.kr/contents.do?sub=07_01_5",
+      "website": "https://www.jbio.or.kr/main.do;jsessionid=53AEF4EB0E67418465299A54D659E0D6",
+      "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
+      "status": "asset-links-found",
+      "asset_links": [
+        "https://www.jbio.or.kr/images/common/logo.png",
+        "https://www.jbio.or.kr/images/common/sns_b.png",
+        "https://www.jbio.or.kr/images/common/sns_f.png",
+        "https://www.jbio.or.kr/images/common/sns_d.png",
+        "https://www.jbio.or.kr/images/common/ico_search.png",
+        "https://www.jbio.or.kr/images/common/btn_menuall_1.png",
+        "https://www.jbio.or.kr/images/common/btn_login.png",
+        "https://www.jbio.or.kr/images/common/ico_home_g.png",
+        "https://www.jbio.or.kr/images/common/btn_print.png",
+        "https://www.jbio.or.kr/images/common/btn_sitemap.png",
+        "https://www.jbio.or.kr/images/content/sub7_1_5_ci_01.png",
+        "https://www.jbio.or.kr/file/CI_AI.zip",
+        "https://www.jbio.or.kr/file/CI_PDF.zip",
+        "https://www.jbio.or.kr/images/content/sub7_1_5_ci_02.png",
+        "https://www.jbio.or.kr/images/common/logo_bottom.png",
+        "https://www.jbio.or.kr/images/common/sns_b_black.png",
+        "https://www.jbio.or.kr/images/common/sns_f_black.png",
+        "https://www.jbio.or.kr/images/common/sns_d_black.png"
+      ]
+    },
+    {
+      "id": "재-진주시상권활성화재단",
+      "name_ko": "(재)진주시상권활성화재단",
+      "category": "공공·기관",
+      "official_source_page": "https://www.jinjumr.or.kr/sub1_4",
+      "website": "https://www.jinjumr.or.kr/",
+      "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
+      "status": "asset-links-found",
+      "asset_links": [
+        "https://www.jinjumr.or.kr/images/favicon.png",
+        "https://www.jinjumr.or.kr/images/common/logo.png",
+        "https://www.jinjumr.or.kr/images/manna_guidebook.pdf",
+        "https://www.jinjumr.or.kr/images/sub/download.png",
+        "https://www.jinjumr.or.kr/images/common/logo-size.png",
+        "https://www.jinjumr.or.kr/images/sub/logo-pattern1.png",
+        "https://www.jinjumr.or.kr/images/sub/logo-pattern2.png",
+        "https://www.jinjumr.or.kr/images/common/arr-top.png",
+        "https://www.jinjumr.or.kr/images/common/ft_banner_09.png",
+        "https://www.jinjumr.or.kr/images/common/ft_banner05.jpeg",
+        "https://www.jinjumr.or.kr/images/common/ft_banner08.png",
+        "https://www.jinjumr.or.kr/images/common/ft_banner09.png",
+        "https://www.jinjumr.or.kr/images/common/ft_banner10.png",
+        "https://www.jinjumr.or.kr/images/common/ft_banner077.png",
+        "https://www.jinjumr.or.kr/images/common/logo-g.png"
+      ]
+    },
+    {
+      "id": "재-차세대수치예보모델개발사업단",
+      "name_ko": "(재)차세대수치예보모델개발사업단",
+      "category": "공공·기관",
+      "official_source_page": "https://www.kiaps.org/prCenter/ci.do",
+      "website": "https://www.kiaps.org",
+      "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
+      "status": "asset-links-found",
+      "asset_links": [
+        "https://www.kiaps.org/images/front/pc_logo.png",
+        "https://www.kiaps.org/images/front/mo_logo.png",
+        "https://www.kiaps.org/images/front/close_bt.jpg",
+        "https://www.kiaps.org/images/front/topbt_img.jpg",
+        "https://www.kiaps.org/images/front/ci_img_01.jpg",
+        "https://www.kiaps.org/images/front/ci_img_02.jpg",
+        "https://www.kiaps.org/images/front/ci_img_03.png",
+        "https://www.kiaps.org/images/front/ci_img_05.jpg",
+        "https://www.kiaps.org/images/front/ci_img_06.jpg",
+        "https://www.kiaps.org/images/front/ci_img_07.jpg",
+        "https://www.kiaps.org/images/front/ci_img_08.png",
+        "https://www.kiaps.org/images/front/sig_img01.jpg",
+        "https://www.kiaps.org/images/front/sig_img02.jpg",
+        "https://www.kiaps.org/images/front/sig_img03.jpg",
+        "https://www.kiaps.org/images/front/sig_img04.jpg",
+        "https://www.kiaps.org/images/front/sig_img05.jpg",
+        "https://www.kiaps.org/images/front/sig_img06.jpg",
+        "https://www.kiaps.org/images/front/sig_img07.jpg",
+        "https://www.kiaps.org/images/front/sig_img08.jpg",
+        "https://www.kiaps.org/images/front/util_img_01.jpg"
+      ]
+    },
+    {
+      "id": "재-창원산업진흥원",
+      "name_ko": "(재)창원산업진흥원",
+      "category": "공공·기관",
+      "official_source_page": "https://www.cwip.or.kr/bbs/content.php?co_id=CorporateIdentity",
+      "website": "http://www.cwip.or.kr/",
+      "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
+      "status": "page-fetch-failed",
+      "asset_links": [],
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)>"
+    },
+    {
+      "id": "재-창원시상권활성화재단",
+      "name_ko": "(재)창원시상권활성화재단",
+      "category": "공공·기관",
+      "official_source_page": "https://www.ccpa.kr/page_NZXu24",
+      "website": "https://www.ccpa.kr/",
+      "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
+      "status": "asset-links-found",
+      "asset_links": [
+        "https://static.gabia.com/www/common/img/logo.png"
+      ]
+    },
+    {
+      "id": "재-청주복지재단",
+      "name_ko": "(재)청주복지재단",
+      "category": "공공·기관",
+      "official_source_page": "https://www.cjwf.or.kr/home/sub.php?menukey=91",
+      "website": "https://www.cjwf.or.kr/home/main.php",
+      "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
+      "status": "asset-links-found",
+      "asset_links": [
+        "https://www.cjwf.or.kr/home/imgs/header/logo.png",
+        "https://www.cjwf.or.kr/home/imgs/header/logo2.png",
+        "https://www.cjwf.or.kr/base/imgs/cmmn/kakaotalk.png",
+        "https://www.cjwf.or.kr/base/imgs/cmmn/twitter.png",
+        "https://www.cjwf.or.kr/base/imgs/cmmn/facebook.png",
+        "https://www.cjwf.or.kr/base/imgs/cmmn/sns_close.png",
+        "https://www.cjwf.or.kr/home/imgs/footer/family_site_close.png",
+        "https://www.cjwf.or.kr/home/imgs/footer/logo.png",
+        "https://www.cjwf.or.kr/home/imgs/footer/wa.pdf",
+        "https://www.cjwf.or.kr/home/imgs/footer/wa.png"
+      ]
+    },
+    {
+      "id": "재-춘천바이오산업진흥원",
+      "name_ko": "(재)춘천바이오산업진흥원",
+      "category": "공공·기관",
+      "official_source_page": "https://www.cbf.or.kr/user_sub.php?pagecode=01_06_07_00_00",
+      "website": "https://www.cbf.or.kr/main.php",
+      "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
+      "status": "page-fetch-failed",
+      "asset_links": [],
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)>"
+    },
+    {
+      "id": "재-충남경제진흥원",
+      "name_ko": "(재)충남경제진흥원",
+      "category": "공공·기관",
+      "official_source_page": "https://www.cepa.or.kr/introduce/introduce.do?pm=3&amp;ms=157",
+      "website": "https://www.cepa.or.kr/main/main.do",
+      "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
+      "status": "page-no-direct-asset",
+      "asset_links": []
+    },
+    {
+      "id": "재-충주시장학회",
+      "name_ko": "(재)충주시장학회",
+      "category": "공공·기관",
+      "official_source_page": "https://www.chungju.go.kr/www/contents.do?key=475",
+      "website": "https://www.cjsf.or.kr/",
+      "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
+      "status": "asset-links-found",
+      "asset_links": [
+        "https://www.chungju.go.kr/common/images/keyboard.png",
+        "https://www.chungju.go.kr/DATA/download/www/cts475_file01.jpg"
+      ]
+    },
     {
       "id": "사-남북교류협력지원협회",
       "name_ko": "(사)남북교류협력지원협회",
@@ -11,10 +635,14 @@
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
       "status": "asset-links-found",
       "asset_links": [
+        "https://sonosa.or.kr/usr/images/sub/ui.png",
+        "https://sonosa.or.kr/usr/images/sub/ui_.png",
+        "https://sonosa.or.kr/usr/images/sub/ui_01.png",
+        "https://sonosa.or.kr/usr/images/sub/ui_02.png",
+        "https://sonosa.or.kr/usr/images/sub/ui_03.png",
         "https://sonosa.or.kr/usr/file/logo.ai",
         "https://sonosa.or.kr/var/filemanager/userfiles/2026/web_accessibility/WA_Mark.png"
-      ],
-      "asset_count": 2
+      ]
     },
     {
       "id": "사-한국경영혁신중소기업협회",
@@ -25,10 +653,19 @@
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
       "status": "asset-links-found",
       "asset_links": [
+        "https://www.mainbiz.or.kr/images/common/favicon_32.jpg",
         "http://mainbiz.or.kr/images/common/head_logo.png",
         "http://mainbiz.or.kr/images/common/head_logo_new1.png",
+        "http://mainbiz.or.kr/images/common/sns_m_01.png",
+        "http://mainbiz.or.kr/images/common/sns_m_02.png",
+        "http://mainbiz.or.kr/images/common/sns_m_03.png",
+        "http://mainbiz.or.kr/images/common/sns_m_04.png",
+        "http://mainbiz.or.kr/images/main/kakaoch.png",
+        "http://mainbiz.or.kr/images/main/naver_blog.png",
         "http://mainbiz.or.kr/images/sub/mainbizinfo/ci_biclogo.png",
+        "http://mainbiz.or.kr/upload_file/etc/메인비즈협회jpg.zip",
         "http://mainbiz.or.kr/upload_file/etc/메인비즈협회CI.zip",
+        "http://mainbiz.or.kr/upload_file/etc/MAINBIZ_PNG.zip",
         "http://mainbiz.or.kr/upload_file/etc/MAINBIZ_CI_ai.zip",
         "http://mainbiz.or.kr/images/sub/mainbizinfo/ci_logo2_new.png",
         "http://mainbiz.or.kr/images/sub/mainbizinfo/ci_logo1_new.png",
@@ -36,8 +673,7 @@
         "http://mainbiz.or.kr/images/sub/mainbizinfo/ci_logo3_new.png",
         "http://mainbiz.or.kr/images/sub/mainbizinfo/ci_logo1.png",
         "http://mainbiz.or.kr/images/sub/mainbizinfo/ci_logo2.png"
-      ],
-      "asset_count": 11
+      ]
     },
     {
       "id": "재-apec기후센터",
@@ -48,7 +684,10 @@
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
       "status": "asset-links-found",
       "asset_links": [
+        "https://apcc21.org/apcc/img/apcc_icon_search.png",
+        "https://apcc21.org/apcc/img/apcc_Union.png",
         "https://apcc21.org/apcc/img/acpp_logo1.png",
+        "https://apcc21.org/apcc/img/apcc_sub_home1.png",
         "https://apcc21.org/apcc/img/apcc_ci_img1.png",
         "https://apcc21.org/apcc/img/apcc_ci_img2_2.png",
         "https://apcc21.org/apcc/img/apcc_ci_img3.png",
@@ -65,8 +704,7 @@
         "https://apcc21.org/apcc/img/apcc_ci_img6_9.png",
         "https://apcc21.org/apcc/img/apcc_ci_img6_10.png",
         "https://apcc21.org/apcc/img/apcc_ci_img6_11.png"
-      ],
-      "asset_count": 17
+      ]
     },
     {
       "id": "재-거창군장학회",
@@ -78,9 +716,15 @@
       "status": "asset-links-found",
       "asset_links": [
         "https://www.geochang.go.kr/_res/portal/img/inc/logo@2x.png",
+        "https://www.geochang.go.kr/_res/portal/img/inc/weather1/w104.png",
+        "https://www.geochang.go.kr/_res/portal/img/sub/05/gc00329_img01.jpg",
+        "https://www.geochang.go.kr/_res/portal/img/sub/05/gc00329_img02.jpg",
+        "https://www.geochang.go.kr/_res/portal/img/sub/05/gc00329_img03.jpg",
+        "https://www.geochang.go.kr/_res/portal/img/sub/05/gc00329_img04.jpg",
+        "https://www.geochang.go.kr/_res/portal/img/sub/05/gc00329_img05.jpg",
+        "https://www.geochang.go.kr/_res/portal/img/sub/05/gc00329_img06.jpg",
         "https://www.geochang.go.kr/_res/portal/img/inc/web_mark2026.png"
-      ],
-      "asset_count": 2
+      ]
     },
     {
       "id": "재-경기도수원월드컵경기장관리재단",
@@ -91,6 +735,7 @@
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
       "status": "asset-links-found",
       "asset_links": [
+        "https://suwonworldcup.gg.go.kr/wp-content/uploads/sites/11/2021/03/128.png",
         "https://suwonworldcup.gg.go.kr/wp-content/uploads/sites/11/2026/06/g_i_logo_v20260629_28_42.png",
         "https://suwonworldcup.gg.go.kr/wp-content/themes/suwonworldcup/images/ci-symbol.png",
         "https://suwonworldcup.gg.go.kr/wp-content/themes/suwonworldcup/images/ci-logotype.png",
@@ -102,8 +747,7 @@
         "https://suwonworldcup.gg.go.kr/wp-content/themes/suwonworldcup/images/mobile/foot-social-f.png",
         "https://suwonworldcup.gg.go.kr/wp-content/themes/suwonworldcup/images/mobile/foot-social-t.png",
         "https://suwonworldcup.gg.go.kr/wp-content/themes/suwonworldcup/images/mobile/foot-social-b.png"
-      ],
-      "asset_count": 11
+      ]
     },
     {
       "id": "재-경북it융합산업기술원",
@@ -114,8 +758,7 @@
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
       "status": "page-fetch-failed",
       "asset_links": [],
-      "error": "HTTP Error 404: Not Found",
-      "asset_count": 0
+      "error": "HTTP Error 404: Not Found"
     },
     {
       "id": "재-경상북도농식품유통교육진흥원",
@@ -127,8 +770,7 @@
       "status": "asset-links-found",
       "asset_links": [
         "https://static.gabia.com/www/common/img/logo.png"
-      ],
-      "asset_count": 1
+      ]
     },
     {
       "id": "재-경주문화재단",
@@ -139,10 +781,26 @@
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
       "status": "asset-links-found",
       "asset_links": [
+        "https://garts.kr/images/user/favicon/apple-touch-icon.png",
+        "https://garts.kr/images/user/favicon/favicon-32x32.png",
+        "https://garts.kr/images/user/favicon/favicon-16x16.png",
+        "https://garts.kr/images/user/favicon/safari-pinned-tab.svg",
         "https://garts.kr/images/user/cmn/logo2.svg",
-        "https://garts.kr/images/user/cmn/ft_logo.png"
-      ],
-      "asset_count": 2
+        "https://garts.kr/images/user/ico/ico_link1.svg",
+        "https://garts.kr/images/user/ico/ico_link2.svg",
+        "https://garts.kr/images/user/ico/ico_link3.svg",
+        "https://garts.kr/images/user/ico/ico_link4.svg",
+        "https://garts.kr/images/user/ico/ico_gjart_facebook_2.svg",
+        "https://garts.kr/images/user/ico/ico_gjart_insta_2.svg",
+        "https://garts.kr/images/user/ico/ico_gjart_blog.svg",
+        "https://garts.kr/images/user/ico/ico_gjcenter_kakao_2.svg",
+        "https://garts.kr/images/user/ico/ico_gjart_youtube.svg",
+        "https://garts.kr/images/user/ico/ico_gjcenter_band_2.svg",
+        "https://garts.kr/images/user/ico/ico_gjart_kakao.svg",
+        "https://garts.kr/images/user/ico/ico_gjcenter_twitter_2.svg",
+        "https://garts.kr/images/user/cmn/ft_logo.png",
+        "https://garts.kr/images/user/cmn/wa4.png"
+      ]
     },
     {
       "id": "재-경주스마트미디어센터",
@@ -158,9 +816,12 @@
         "https://www.real4dhub.or.kr/images/sub/logo-en.png",
         "https://www.real4dhub.or.kr/images/sub/logo-ko.png",
         "https://www.real4dhub.or.kr/images/sub/logo-white.png",
-        "https://www.real4dhub.or.kr/images/common/logo-gray.png"
-      ],
-      "asset_count": 6
+        "https://www.real4dhub.or.kr/images/common/logo-gray.png",
+        "https://www.real4dhub.or.kr/images/common/sns-facebook.png",
+        "https://www.real4dhub.or.kr/images/common/sns-instagram.png",
+        "https://www.real4dhub.or.kr/images/common/sns-youtube.png",
+        "https://www.real4dhub.or.kr/images/common/sns-blog.png"
+      ]
     },
     {
       "id": "재-고성향토장학회",
@@ -171,8 +832,7 @@
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
       "status": "page-fetch-failed",
       "asset_links": [],
-      "error": "<urlopen error [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1081)>",
-      "asset_count": 0
+      "error": "<urlopen error [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1081)>"
     },
     {
       "id": "재-광주미래차모빌리티진흥원",
@@ -182,8 +842,7 @@
       "website": "https://gama.or.kr/",
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
       "status": "page-no-direct-asset",
-      "asset_links": [],
-      "asset_count": 0
+      "asset_links": []
     },
     {
       "id": "재-구미먹거리통합지원센터",
@@ -194,10 +853,26 @@
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
       "status": "asset-links-found",
       "asset_links": [
+        "https://gmff.or.kr/wp-content/uploads/2025/05/Frame-1.svg",
+        "https://gmff.or.kr/wp-content/uploads/2025/05/Frame-2.svg",
+        "https://gmff.or.kr/wp-content/uploads/2025/05/Frame-1-1.svg",
+        "https://gmff.or.kr/wp-content/plugins/revslider/sr6/assets/assets/dummy.png",
+        "https://gmff.or.kr/wp-content/uploads/2025/05/Frame-668.svg",
         "https://gmff.or.kr/wp-content/uploads/2025/06/logo_p-1.png",
-        "https://gmff.or.kr/wp-content/uploads/2025/05/CI.zip"
-      ],
-      "asset_count": 2
+        "https://gmff.or.kr/wp-content/uploads/2025/05/s12_icon1.png",
+        "https://gmff.or.kr/wp-content/uploads/2025/05/s12_icon4.png",
+        "https://gmff.or.kr/wp-content/uploads/2025/05/s12_icon2.png",
+        "https://gmff.or.kr/wp-content/uploads/2025/05/s12_icon5.png",
+        "https://gmff.or.kr/wp-content/uploads/2025/05/s12_icon3.png",
+        "https://gmff.or.kr/wp-content/uploads/2025/06/s12_1.png",
+        "https://gmff.or.kr/wp-content/uploads/2025/06/s12_2.png",
+        "https://gmff.or.kr/wp-content/uploads/2025/05/CI.zip",
+        "https://img.icons8.com/ios-filled/30/ffffff/home.png",
+        "https://img.icons8.com/ios-filled/30/ffffff/vegetarian-food.png",
+        "https://img.icons8.com/ios-filled/30/ffffff/kitchen.png",
+        "https://gmff.or.kr/wp-content/uploads/2025/07/Frame-148-4.png",
+        "https://gmff.or.kr/wp-content/uploads/2025/07/Frame-149-3.png"
+      ]
     },
     {
       "id": "재-구미시장학재단",
@@ -208,9 +883,21 @@
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
       "status": "asset-links-found",
       "asset_links": [
+        "https://www.gumi.go.kr/common/img/common/shortcut.png",
+        "https://www.gumi.go.kr/portal/img/content/05/0201_img01.png",
+        "https://www.gumi.go.kr/portal/img/content/05/0201_img02.png",
+        "https://www.gumi.go.kr/portal/img/content/05/0201_img03.png",
+        "https://www.gumi.go.kr/portal/img/content/05/0201_img04.png",
+        "https://www.gumi.go.kr/portal/img/content/05/0201_img05.png",
+        "https://www.gumi.go.kr/portal/img/content/05/0201_img06.png",
+        "https://www.gumi.go.kr/portal/img/content/05/0201_img07.png",
+        "https://www.gumi.go.kr/portal/img/content/05/0201_img08.png",
+        "https://www.gumi.go.kr/portal/img/content/05/0201_img09.png",
+        "https://www.gumi.go.kr/portal/img/content/05/0201_img10.png",
+        "https://www.gumi.go.kr/portal/img/content/05/0201_img11.png",
+        "https://www.gumi.go.kr/portal/img/content/05/0201_img12.png",
         "https://www.gumi.go.kr/common/img/common/mark_WA.png"
-      ],
-      "asset_count": 1
+      ]
     },
     {
       "id": "재-국제원산지정보원",
@@ -221,8 +908,7 @@
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
       "status": "page-fetch-failed",
       "asset_links": [],
-      "error": "<urlopen error timed out>",
-      "asset_count": 0
+      "error": "<urlopen error timed out>"
     },
     {
       "id": "재-금천미래장학회",
@@ -232,8 +918,28 @@
       "website": "http://www.gcmirae.or.kr/gcmirae/",
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
       "status": "asset-links-found",
-      "asset_links": [],
-      "asset_count": 0
+      "asset_links": [
+        "http://www.gcmirae.or.kr/gcmirae/theme/gcmirae/img/favicon_io/apple-touch-icon.png",
+        "http://www.gcmirae.or.kr/gcmirae/theme/gcmirae/img/favicon_io/favicon-32x32.png",
+        "http://www.gcmirae.or.kr/gcmirae/theme/gcmirae/img/favicon_io/favicon-16x16.png",
+        "http://www.gcmirae.or.kr/gcmirae/theme/gcmirae/img/main/qr_code.png",
+        "http://www.gcmirae.or.kr/gcmirae/theme/gcmirae/img/main/banner_link01.png",
+        "http://www.gcmirae.or.kr/gcmirae/theme/gcmirae/img/main/banner_link02.png",
+        "http://www.gcmirae.or.kr/gcmirae/theme/gcmirae/img/main/banner_link03.png",
+        "http://www.gcmirae.or.kr/gcmirae/theme/gcmirae/img/main/banner_link04.png",
+        "http://www.gcmirae.or.kr/gcmirae/data/editor/2608/22fb9a0f5c84a91e043852df15c6a28a_1785711503_23.jpg",
+        "http://www.gcmirae.or.kr/gcmirae/data/editor/2608/22fb9a0f5c84a91e043852df15c6a28a_1785711506_76.jpg",
+        "http://www.gcmirae.or.kr/gcmirae/data/editor/2608/22fb9a0f5c84a91e043852df15c6a28a_1785711511_03.jpg",
+        "http://www.gcmirae.or.kr/gcmirae/data/editor/2608/22fb9a0f5c84a91e043852df15c6a28a_1785711514_77.jpg",
+        "http://www.gcmirae.or.kr/gcmirae/data/editor/2608/22fb9a0f5c84a91e043852df15c6a28a_1785711345_57.jpg",
+        "http://www.gcmirae.or.kr/gcmirae/data/editor/2608/22fb9a0f5c84a91e043852df15c6a28a_1785711349_57.jpg",
+        "http://www.gcmirae.or.kr/gcmirae/data/editor/2608/22fb9a0f5c84a91e043852df15c6a28a_1785711353_2.jpg",
+        "http://www.gcmirae.or.kr/gcmirae/data/editor/2608/22fb9a0f5c84a91e043852df15c6a28a_1785711357_45.jpg",
+        "http://www.gcmirae.or.kr/gcmirae/data/editor/2608/22fb9a0f5c84a91e043852df15c6a28a_1785711361_94.jpg",
+        "http://www.gcmirae.or.kr/gcmirae/data/editor/2607/16bac2c67b16ddd67f8fe8142c01148e_1783307512_52.png",
+        "http://www.gcmirae.or.kr/gcmirae/theme/gcmirae/img/main/support_arrow.png",
+        "http://www.gcmirae.or.kr/gcmirae/theme/gcmirae/img/main/main_support_qr.png"
+      ]
     },
     {
       "id": "재-김포시민장학회",
@@ -244,11 +950,27 @@
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
       "status": "asset-links-found",
       "asset_links": [
+        "https://www.gimpo.go.kr/site/portal_2026/images/common/portal_android.png",
+        "https://www.gimpo.go.kr/site/portal_2026/images/common/portal_ios.png",
+        "https://www.gimpo.go.kr/site/portal/images/contents/cts1232_img05.jpg",
+        "https://www.gimpo.go.kr/site/portal/download/cts1232_file01.pdf",
+        "https://www.gimpo.go.kr/site/portal/images/contents/cts1232_img01.jpg",
+        "https://www.gimpo.go.kr/site/portal/images/contents/cts1232_img02.jpg",
         "https://www.gimpo.go.kr/site/portal/images/contents/CI.zip",
         "https://www.gimpo.go.kr/site/portal/images/contents/2020gimpo_ci.pdf",
-        "https://www.gimpo.go.kr/site/portal/images/contents/2020gimpo_ci.zip"
-      ],
-      "asset_count": 3
+        "https://www.gimpo.go.kr/site/portal/images/contents/2020gimpo_ci.zip",
+        "https://www.gimpo.go.kr/site/portal/images/contents/cts1232_img03.jpg",
+        "https://www.gimpo.go.kr/site/portal/images/contents/cts1232_img04.jpg",
+        "https://www.gimpo.go.kr/site/portal/images/contents/BI.zip",
+        "https://www.gimpo.go.kr/site/portal/images/contents/2020gimpo_bi.pdf",
+        "https://www.gimpo.go.kr/site/portal/images/contents/2020gimpo_bi.zip",
+        "https://www.gimpo.go.kr/site/portal/images/contents/cts1232_bi01.png",
+        "https://www.gimpo.go.kr/site/portal/images/contents/cts1232_bi02.png",
+        "https://www.gimpo.go.kr/site/portal/images/contents/cts1232_bi03.png",
+        "https://www.gimpo.go.kr/site/portal/images/contents/cts1232_bi04.png",
+        "https://www.gimpo.go.kr/site/portal/images/contents/cts1232_bi05.png",
+        "https://www.gimpo.go.kr/site/portal/images/contents/cts1232_bi06.png"
+      ]
     },
     {
       "id": "재-남도음식문화큰잔치",
@@ -258,8 +980,10 @@
       "website": "http://www.namdofood.or.kr/main",
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
       "status": "asset-links-found",
-      "asset_links": [],
-      "asset_count": 0
+      "asset_links": [
+        "https://www.namdofood.or.kr/img_up/shop_pds/appkorea135/etc/favicon_161537147703.png",
+        "https://www.namdofood.or.kr/img_up/shop_pds/appkorea135/etc/favicon_321537147703.png"
+      ]
     },
     {
       "id": "재-노원환경재단",
@@ -277,8 +1001,7 @@
         "http://www.nwgreen.or.kr/images/sub/ci_img_h_g.jpg",
         "http://www.nwgreen.or.kr/file/nw_logo.zip",
         "https://nwgreen.or.kr/images/common/logo.png"
-      ],
-      "asset_count": 7
+      ]
     },
     {
       "id": "재-달서문화재단-달서아트센터",
@@ -290,15 +1013,26 @@
       "status": "asset-links-found",
       "asset_links": [
         "https://www.dsac.or.kr/data/builder/logo.png",
+        "https://www.dsac.or.kr/nanum/site/builder/main/main/img/sns_icon01.png",
+        "https://www.dsac.or.kr/nanum/site/builder/main/main/img/sns_icon02.png",
+        "https://www.dsac.or.kr/nanum/site/builder/main/main/img/sns_icon03.png",
+        "https://www.dsac.or.kr/nanum/site/builder/main/main/img/sns_icon04.png",
+        "https://www.dsac.or.kr/nanum/site/builder/main/main/img/sns_icon05.png",
+        "https://www.dsac.or.kr/nanum/site/img/common/share_facebook.png",
+        "https://www.dsac.or.kr/nanum/site/img/common/share_twitter.png",
+        "https://www.dsac.or.kr/nanum/site/img/common/share_url.png",
         "https://www.dsac.or.kr/nanum/site/builder/dir/main/img/menu4849/ci_tit.png",
+        "https://www.dsac.or.kr/nanum/site/builder/dir/main/img/menu4849/DSAC_jpg.zip",
+        "https://www.dsac.or.kr/nanum/site/builder/dir/main/img/menu4849/DSAC_ai.zip",
         "https://www.dsac.or.kr/nanum/site/builder/dir/main/img/menu4849/ko_logo.png",
         "https://www.dsac.or.kr/nanum/site/builder/dir/main/img/menu4849/ci_kr_jpg.zip",
         "https://www.dsac.or.kr/nanum/site/builder/dir/main/img/menu4849/ci_kr_ai.zip",
         "https://www.dsac.or.kr/nanum/site/builder/dir/main/img/menu4849/en_logo.png",
         "https://www.dsac.or.kr/nanum/site/builder/dir/main/img/menu4849/ci_en_jpg.zip",
-        "https://www.dsac.or.kr/nanum/site/builder/dir/main/img/menu4849/ci_en_ai.zip"
-      ],
-      "asset_count": 8
+        "https://www.dsac.or.kr/nanum/site/builder/dir/main/img/menu4849/ci_en_ai.zip",
+        "https://www.dsac.or.kr/nanum/site/builder/skin/main/img/common/f_sns_icon1.png",
+        "https://www.dsac.or.kr/nanum/site/builder/skin/main/img/common/f_sns_icon2.png"
+      ]
     },
     {
       "id": "재-대덕문화관광재단",
@@ -309,9 +1043,20 @@
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
       "status": "asset-links-found",
       "asset_links": [
-        "https://www.daedeok.go.kr/images/dpt_2022/common/logo2.png"
-      ],
-      "asset_count": 1
+        "https://www.daedeok.go.kr/images/dpt_2022/common/m_sns01.png",
+        "https://www.daedeok.go.kr/images/dpt_2022/common/m_sns02.png",
+        "https://www.daedeok.go.kr/images/dpt_2022/common/m_sns03.png",
+        "https://www.daedeok.go.kr/images/dpt_2022/common/m_sns04.png",
+        "https://www.daedeok.go.kr/images/dpt_2022/common/m_sns05.png",
+        "https://www.daedeok.go.kr/images/dpt_2022/common/logo2.png",
+        "https://www.daedeok.go.kr/images/dpt/common/top_taegeukgi.jpg",
+        "https://www.daedeok.go.kr/images/dpt_2022/common/gnb_e.png",
+        "https://www.daedeok.go.kr/images/dpt/sub/lnb_search.png",
+        "https://www.daedeok.go.kr/images/dpt/sub/btn_search.png",
+        "https://www.daedeok.go.kr/images/dpt_2016/good_2016_03.jpg",
+        "https://www.daedeok.go.kr/images/dpt_2016/open.png",
+        "https://www.daedeok.go.kr/images/dpt_2016/WA.png"
+      ]
     }
   ]
 }
