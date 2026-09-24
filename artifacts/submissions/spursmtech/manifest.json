@@ -1,0 +1,23 @@
+{
+  "sourceProject": "spursmtech",
+  "sourceUrl": "http://127.0.0.1:8099/",
+  "status": "brand-assets-ready-partners-held",
+  "brandAssets": [
+    "brand/spursmtech-logo-color.png",
+    "brand/spursmtech-logo-white.png",
+    "brand/spursmtech-mark.png"
+  ],
+  "partnerAssets": [
+    "partners/logo1.png",
+    "partners/logo2.png",
+    "partners/logo3.png",
+    "partners/logo4.png",
+    "partners/logo5.png",
+    "partners/logo6.png"
+  ],
+  "rightsReview": "required-before-publication",
+  "publicationPlan": {
+    "brand": "ready-for-source-confirmation",
+    "partners": "held-rights-review"
+  }
+}
