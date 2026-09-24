@@ -1,0 +1,38 @@
+{
+  "schema": 1,
+  "updated_at": "2026-09-24",
+  "sources": [
+    {
+      "id": "getlogo-kr",
+      "name": "겟로고",
+      "url": "https://getlogo.kr/",
+      "kind": "directory",
+      "priority": 1,
+      "strategy": "기관·기업 목록을 탐색하고 각 공식 홈페이지 CI 페이지에서 원본 파일 수집"
+    },
+    {
+      "id": "baxang-ikon",
+      "name": "iKon Korean web logos",
+      "url": "https://github.com/baxang/iKon",
+      "kind": "github",
+      "priority": 2,
+      "strategy": "국내 웹서비스 SVG 후보 수집 후 공식 브랜드 페이지와 출처 대조"
+    },
+    {
+      "id": "itskorea-logo-sheet",
+      "name": "한국산업기술시험원 기관·기업 로고 모음",
+      "url": "https://itskorea.kr/downloadFile.do?fileId=FILE_000000000100874&fileSn=0",
+      "kind": "reference-document",
+      "priority": 3,
+      "strategy": "문서에서 기관명을 추출하고 공식 CI 페이지를 찾아 원본 자산 수집"
+    },
+    {
+      "id": "official-ci-pages",
+      "name": "국내 기관 공식 CI 페이지",
+      "url": "https://info.krx.co.kr/contents/KRX/01/01050000/KRX01050000.jsp?pageCount=1",
+      "kind": "official",
+      "priority": 1,
+      "strategy": "CI·BI·브랜드 가이드·로고 다운로드 페이지에서 SVG·AI·EPS·PNG·ZIP 원본 보존"
+    }
+  ]
+}
