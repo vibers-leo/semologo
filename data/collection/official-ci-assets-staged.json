@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "count": 518,
+  "count": 538,
   "candidates": [
     {
       "id": "재-독도재단",
@@ -11342,6 +11342,373 @@
       "status": "page-fetch-failed",
       "asset_links": [],
       "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)>"
+    },
+    {
+      "id": "문화체육관광부",
+      "name_ko": "문화체육관광부",
+      "category": "공공·기관",
+      "official_source_page": "https://www.mcst.go.kr/kor/s_about/intro/symbol.jsp",
+      "website": "http://www.mcst.go.kr",
+      "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
+      "status": "asset-links-found",
+      "asset_links": [
+        "https://www.mcst.go.kr/site/images/common/favicon_180.png",
+        "https://www.mcst.go.kr/site/images/common/favicon_512.png",
+        "https://www.mcst.go.kr/site/images/common/favicon_192.png",
+        "https://www.mcst.go.kr/site/images/common/favicon_32.png",
+        "https://www.mcst.go.kr/site/images/sub/about/mi003.jpg",
+        "https://www.mcst.go.kr/site/images/sub/about/mi004.jpg",
+        "https://www.mcst.go.kr/site/images/sub/about/mi04.jpg",
+        "https://www.mcst.go.kr/site/images/sub/openright_04.svg",
+        "https://www.mcst.go.kr/site/images/common/footer_open.svg",
+        "https://www.mcst.go.kr/site/images/common/footer_open_silver.svg",
+        "https://www.mcst.go.kr/site/images/common/wa_mark_2026.png"
+      ]
+    },
+    {
+      "id": "민주평화통일자문회의",
+      "name_ko": "민주평화통일자문회의",
+      "category": "공공·기관",
+      "official_source_page": "https://www.nuac.go.kr/lang/kr/view/intrcn/int_sec_emb.jsp",
+      "website": "http://www.nuac.go.kr",
+      "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
+      "status": "page-fetch-failed",
+      "asset_links": [],
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.nuac.go.kr'. (_ssl.c:1000)>"
+    },
+    {
+      "id": "민주화운동기념사업회",
+      "name_ko": "민주화운동기념사업회",
+      "category": "공공·기관",
+      "official_source_page": "https://www.kdemo.or.kr/board/intro/symbol.do",
+      "website": "http://www.kdemo.or.kr",
+      "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
+      "status": "asset-links-found",
+      "asset_links": [
+        "https://www.kdemo.or.kr/img/favicon.png",
+        "https://www.kdemo.or.kr/img/icon/facebook-sm.png",
+        "https://www.kdemo.or.kr/img/icon/naver-sm.png",
+        "https://www.kdemo.or.kr/img/icon/youtube-sm.png",
+        "https://www.kdemo.or.kr/img/icon/ins-sm.png",
+        "https://www.kdemo.or.kr/img/icon/header-notice-icon.png",
+        "https://www.kdemo.or.kr/img/icon/header-notice-left.png",
+        "https://www.kdemo.or.kr/img/icon/header-notice-pause.png",
+        "https://www.kdemo.or.kr/img/icon/header-notice-right.png",
+        "https://www.kdemo.or.kr/img/logo_m.png",
+        "https://www.kdemo.or.kr/img/icon/link-icon.png",
+        "https://www.kdemo.or.kr/img/icon/header-search-icon.png",
+        "https://www.kdemo.or.kr/img/sub/ci_1.jpg",
+        "https://www.kdemo.or.kr/img/sub/ci_2.jpg",
+        "https://www.kdemo.or.kr/file/board/intro/symbol/file_001.zip",
+        "https://www.kdemo.or.kr/img/icon/Icon-File download.png",
+        "https://www.kdemo.or.kr/file/board/intro/symbol/file_002.zip",
+        "https://www.kdemo.or.kr/file/board/intro/symbol/file_003.zip",
+        "https://www.kdemo.or.kr/img/sub/ci_3.jpg",
+        "https://www.kdemo.or.kr/img/sub/ci_4.jpg"
+      ]
+    },
+    {
+      "id": "밀양문화관광재단",
+      "name_ko": "밀양문화관광재단",
+      "category": "공공·기관",
+      "official_source_page": "https://www.mycf.or.kr/sub/06_02.php",
+      "website": "https://www.mycf.or.kr/main/",
+      "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
+      "status": "page-fetch-failed",
+      "asset_links": [],
+      "error": "<urlopen error [SSL: DH_KEY_TOO_SMALL] dh key too small (_ssl.c:1000)>"
+    },
+    {
+      "id": "밀양물산주식회사",
+      "name_ko": "밀양물산주식회사",
+      "category": "공공·기관",
+      "official_source_page": "https://www.miryang.go.kr/web/index.do?mnNo=40301000000",
+      "website": "https://www.miryangfarm.kr/",
+      "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
+      "status": "asset-links-found",
+      "asset_links": [
+        "https://www.miryang.go.kr/img/egovframework/web/all-img/logo-Top_20250411.png",
+        "https://www.miryang.go.kr/img/egovframework/web/sub-img/my-ci-png.png",
+        "https://www.miryang.go.kr/img/egovframework/web/sub-img/my-cr-png.png",
+        "https://www.miryang.go.kr/img/egovframework/web/mainN-img/mn-copy-logo.png"
+      ]
+    },
+    {
+      "id": "밀양시시설관리공단",
+      "name_ko": "밀양시시설관리공단",
+      "category": "공공·기관",
+      "official_source_page": "https://www.myfmc.or.kr/sub/05_02_02.php",
+      "website": "https://www.myfmc.or.kr/main/",
+      "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
+      "status": "asset-links-found",
+      "asset_links": [
+        "https://www.myfmc.or.kr/img/all_img/top_logo.png",
+        "https://www.myfmc.or.kr/img/sub_img/05_02_05-1.jpg",
+        "https://www.myfmc.or.kr/data/CI.pdf",
+        "https://www.myfmc.or.kr/img/sub_img/05_02_05-2.jpg",
+        "https://www.myfmc.or.kr/data/cig.ai",
+        "https://www.myfmc.or.kr/img/all_img/foot_logo.png"
+      ]
+    },
+    {
+      "id": "방송미디어통신위원회",
+      "name_ko": "방송미디어통신위원회",
+      "category": "공공·기관",
+      "official_source_page": "https://kcc.go.kr/user.do?page=A04010200&amp;dc=K04010200",
+      "website": "http://www.kcc.go.kr",
+      "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
+      "status": "asset-links-found",
+      "asset_links": [
+        "https://kcc.go.kr/main2025/images/logo.svg",
+        "https://kcc.go.kr/main2025/images/web2026.png"
+      ]
+    },
+    {
+      "id": "방위사업청",
+      "name_ko": "방위사업청",
+      "category": "공공·기관",
+      "official_source_page": "https://www.dapa.go.kr/dapa/page/selectPage.do?menuSeq=3443&amp;pageSeq=3504",
+      "website": "http://www.dapa.go.kr",
+      "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
+      "status": "page-fetch-failed",
+      "asset_links": [],
+      "error": "HTTP Error 500: Internal Server Error"
+    },
+    {
+      "id": "백운장학회",
+      "name_ko": "백운장학회",
+      "category": "공공·기관",
+      "official_source_page": "https://gwangyang.go.kr/menu.es?mid=a11303040000",
+      "website": "https://gwangyang.go.kr/fund/",
+      "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
+      "status": "asset-links-found",
+      "asset_links": [
+        "https://gwangyang.go.kr/favicon/apple-touch-icon.png",
+        "https://gwangyang.go.kr/favicon/favicon-32x32.png",
+        "https://gwangyang.go.kr/favicon/favicon-16x16.png",
+        "https://gwangyang.go.kr/favicon/safari-pinned-tab.svg",
+        "https://gwangyang.go.kr/kor/images/sub/sub0603_04_img01.png",
+        "https://gwangyang.go.kr/kor/files/0508_simbol_ai.zip",
+        "https://gwangyang.go.kr/kor/files/0508_simbol_jpg.zip",
+        "https://gwangyang.go.kr/ecms_resource/img/kogl/size1/img_opentype04.png",
+        "https://gwangyang.go.kr/upload/banner/a1/20260512102925322.png",
+        "https://gwangyang.go.kr/upload/banner/a1/20221109151716490.png",
+        "https://gwangyang.go.kr/upload/banner/a1/20230525101021658.jpg",
+        "https://gwangyang.go.kr/upload/banner/a1/20221109171720789.png",
+        "https://gwangyang.go.kr/upload/banner/a1/20260331172451453.png",
+        "https://gwangyang.go.kr/upload/banner/a1/20260720151959613.png",
+        "https://gwangyang.go.kr/upload/banner/a1/20221109173525409.jpg",
+        "https://gwangyang.go.kr/upload/banner/a1/20221109173556010.jpg",
+        "https://gwangyang.go.kr/upload/banner/a1/20221109173631236.jpg",
+        "https://gwangyang.go.kr/upload/banner/a1/20221109173655899.jpg",
+        "https://gwangyang.go.kr/upload/banner/a1/20221109173745014.jpg",
+        "https://gwangyang.go.kr/upload/banner/a1/20221109173805165.png"
+      ]
+    },
+    {
+      "id": "백제문화제추진위원회",
+      "name_ko": "백제문화제추진위원회",
+      "category": "공공·기관",
+      "official_source_page": "http://www.baekje.org/kor/html/sub01/010201.html",
+      "website": "http://www.baekje.org/kor/",
+      "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
+      "status": "page-fetch-failed",
+      "asset_links": [],
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "법무부",
+      "name_ko": "법무부",
+      "category": "공공·기관",
+      "official_source_page": "http://www.moj.go.kr/moj/262/subview.do",
+      "website": "http://www.moj.go.kr",
+      "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
+      "status": "asset-links-found",
+      "asset_links": [
+        "http://www.moj.go.kr/sites/moj/images/top_direct1.png",
+        "http://www.moj.go.kr/sites/moj/images/main/govVision-logo.png",
+        "http://www.moj.go.kr/sites/moj/images/contents/symbol_01.png",
+        "http://www.moj.go.kr/sites/moj/download/moj_logo.zip",
+        "http://www.moj.go.kr/sites/moj/images/contents/symbol_02.png",
+        "http://www.moj.go.kr/sites/moj/images/contents/symbol_02_m.png",
+        "https://www.moj.go.kr/sites/moj/images/logo_main_2.png",
+        "http://www.moj.go.kr/sites/moj/images/sns_kakao.png"
+      ]
+    },
+    {
+      "id": "병무청",
+      "name_ko": "병무청",
+      "category": "공공·기관",
+      "official_source_page": "https://www.mma.go.kr/contents.do?mc=usr0000248",
+      "website": "http://www.mma.go.kr",
+      "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
+      "status": "asset-links-found",
+      "asset_links": [
+        "https://www.mma.go.kr/images/syjy/common/back_img.png",
+        "https://www.mma.go.kr/download/content/usr0000248/img1.jpg"
+      ]
+    },
+    {
+      "id": "보건복지부",
+      "name_ko": "보건복지부",
+      "category": "공공·기관",
+      "official_source_page": "http://www.mohw.go.kr/react/sg/ssg0101mn.jsp?PAR_MENU_ID=05&amp;MENU_ID=051301",
+      "website": "http://www.mohw.go.kr",
+      "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
+      "status": "page-no-direct-asset",
+      "asset_links": []
+    },
+    {
+      "id": "보령베이스",
+      "name_ko": "보령베이스",
+      "category": "공공·기관",
+      "official_source_page": "https://www.boryeongbase.co.kr/",
+      "website": "https://www.boryeongbase.co.kr/",
+      "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
+      "status": "asset-links-found",
+      "asset_links": [
+        "https://www.boryeongbase.co.kr/img/weather/구름많음.png",
+        "https://www.boryeongbase.co.kr/_Data/_Upload/event/202501/250107bbp1.jpg",
+        "https://www.boryeongbase.co.kr/img/closePop.png",
+        "https://www.boryeongbase.co.kr/img/main/Qicon_01.png",
+        "https://www.boryeongbase.co.kr/img/main/Qicon_02.png",
+        "https://www.boryeongbase.co.kr/img/main/Qicon_03.png",
+        "https://www.boryeongbase.co.kr/img/main/Qicon_04.png",
+        "https://www.boryeongbase.co.kr/img/main/Qicon_05.png",
+        "https://www.boryeongbase.co.kr/img/main/Qicon_06.png",
+        "https://www.boryeongbase.co.kr/img/main/Qicon_07.png",
+        "https://www.boryeongbase.co.kr/img/main/Qicon_08.png",
+        "https://www.boryeongbase.co.kr/img/main/main_01.png",
+        "https://www.boryeongbase.co.kr/img/main/main_02.png",
+        "https://www.boryeongbase.co.kr/img/main/main_03.png",
+        "https://www.boryeongbase.co.kr/img/main/main_04.png",
+        "https://www.boryeongbase.co.kr/_Data/_Banner/260326bb_pop01.jpg",
+        "https://www.boryeongbase.co.kr/_Data/_Banner/260326bb_pop02.jpg",
+        "https://www.boryeongbase.co.kr/_Data/_Banner/260729brp.jpg",
+        "https://www.boryeongbase.co.kr/_Data/_Banner/260819brp.jpg",
+        "https://www.boryeongbase.co.kr/_Data/_Banner/241112brp(1).jpg"
+      ]
+    },
+    {
+      "id": "보령시",
+      "name_ko": "보령시",
+      "category": "공공·기관",
+      "official_source_page": "http://www.brcn.go.kr/kor/sub06_01_01.do",
+      "website": "http://www.brcn.go.kr",
+      "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
+      "status": "asset-links-found",
+      "asset_links": [
+        "http://www.brcn.go.kr/images/kor/common/header_flag.png",
+        "http://www.brcn.go.kr/images/kor/common/ci_mark_br2.png",
+        "https://www.brcn.go.kr//images/kor/common/logo-chungnam.png",
+        "http://www.brcn.go.kr/images/kor/common/top_ban_ico_flag.svg",
+        "http://www.brcn.go.kr/images/kor/common/ci_mark_br.png",
+        "http://www.brcn.go.kr/images/kor/common/rwd_search_btn.jpg",
+        "http://www.brcn.go.kr/images/kor/sub06/simbol-01.png",
+        "http://www.brcn.go.kr/images/kor/sub06/simbol-02.jpg",
+        "http://www.brcn.go.kr/images/kor/sub06/simbol-03.jpg",
+        "http://www.brcn.go.kr/images/kor/sub06/simbol-04.jpg",
+        "http://www.brcn.go.kr/images/kor/sub06/simbol-15.jpg",
+        "http://www.brcn.go.kr/download/kor/sub06/symbol_down1_jpg.zip",
+        "http://www.brcn.go.kr/download/kor/sub06/symbol_down1_ai.zip",
+        "http://www.brcn.go.kr/download/kor/sub06/boryeong_manual.pdf",
+        "http://www.brcn.go.kr/download/kor/sub06/symbol2020_jpg.zip",
+        "http://www.brcn.go.kr/download/kor/sub06/symbol2020_ai.zip",
+        "http://www.brcn.go.kr/download/kor/sub06/symbol2020_manual.pdf",
+        "http://www.brcn.go.kr/images/kor/sub06/simbol-05.jpg",
+        "http://www.brcn.go.kr/images/kor/sub06/simbol-06.jpg",
+        "http://www.brcn.go.kr/images/kor/sub06/simbol-07.jpg"
+      ]
+    },
+    {
+      "id": "보령시시설관리공단",
+      "name_ko": "보령시시설관리공단",
+      "category": "공공·기관",
+      "official_source_page": "https://www.brsisul.or.kr/kor/sub08_04.do",
+      "website": "https://www.brsisul.or.kr/",
+      "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
+      "status": "asset-links-found",
+      "asset_links": [
+        "https://www.brsisul.or.kr/images/kor/common/favicon.png",
+        "https://www.brsisul.or.kr/images/kor/layout/logo.png",
+        "https://www.brsisul.or.kr/images/kor/content/kakach.svg",
+        "https://www.brsisul.or.kr/images/kor/content/symbol.png",
+        "https://www.brsisul.or.kr/images/kor/content/sig1.png",
+        "https://www.brsisul.or.kr/images/kor/content/sig2.png",
+        "https://www.brsisul.or.kr/images/kor/content/sig3.png",
+        "https://www.brsisul.or.kr/images/kor/content/sig4.png",
+        "https://www.brsisul.or.kr/down/ci.ai",
+        "https://www.brsisul.or.kr/down/ci.jpg"
+      ]
+    },
+    {
+      "id": "보령축제관광재단",
+      "name_ko": "보령축제관광재단",
+      "category": "공공·기관",
+      "official_source_page": "https://www.mudfestival.or.kr/foundation/contents/view?contentsNo=21&amp;level=2&amp;menuNo=25",
+      "website": "https://www.mudfestival.or.kr/intro/view",
+      "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
+      "status": "page-fetch-failed",
+      "asset_links": [],
+      "error": "IncompleteRead(41165 bytes read)"
+    },
+    {
+      "id": "보성군",
+      "name_ko": "보성군",
+      "category": "공공·기관",
+      "official_source_page": "http://www.boseong.go.kr/www/introduce/intro/represent/symbolic_mark",
+      "website": "https://www.boseong.go.kr/?main=true",
+      "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
+      "status": "asset-links-found",
+      "asset_links": [
+        "http://www.boseong.go.kr/images/www/main_new/logo.png",
+        "http://www.boseong.go.kr/download/companion_animal_guide.pdf",
+        "http://www.boseong.go.kr/www/introduce/intro/represent/symbolic_mark/screen_print.jpg?page=1",
+        "http://www.boseong.go.kr/www/introduce/intro/represent/symbolic_mark/screen_print.pdf?page%3D1",
+        "http://www.boseong.go.kr/www/introduce/intro/represent/symbolic_mark/efhub1/screen_qr.png",
+        "http://www.boseong.go.kr/contents/18592/bs_c_logo_sym_03.jpg?build_20260924001",
+        "http://www.boseong.go.kr/contents/18592/sy_2.zip",
+        "http://www.boseong.go.kr/contents/1/nuri_ai.jpg"
+      ]
+    },
+    {
+      "id": "보성군장학재단",
+      "name_ko": "보성군장학재단",
+      "category": "공공·기관",
+      "official_source_page": "https://www.boseong.go.kr/www/introduce/intro/represent/symbolic_mark",
+      "website": "https://www.boseongsf.or.kr/",
+      "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
+      "status": "asset-links-found",
+      "asset_links": [
+        "https://www.boseong.go.kr/images/www/main_new/logo.png",
+        "https://www.boseong.go.kr/download/companion_animal_guide.pdf",
+        "https://www.boseong.go.kr/www/introduce/intro/represent/symbolic_mark/screen_print.jpg?page=1",
+        "https://www.boseong.go.kr/www/introduce/intro/represent/symbolic_mark/screen_print.pdf?page%3D1",
+        "https://www.boseong.go.kr/www/introduce/intro/represent/symbolic_mark/efhub1/screen_qr.png",
+        "https://www.boseong.go.kr/contents/18592/bs_c_logo_sym_03.jpg?build_20260924001",
+        "https://www.boseong.go.kr/contents/18592/sy_2.zip",
+        "https://www.boseong.go.kr/contents/1/nuri_ai.jpg"
+      ]
+    },
+    {
+      "id": "보은군민장학회",
+      "name_ko": "보은군민장학회",
+      "category": "공공·기관",
+      "official_source_page": "https://www.boeun.go.kr/www/contents.do?key=313",
+      "website": "https://www.boeun.go.kr/janghak/index.do",
+      "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
+      "status": "asset-links-found",
+      "asset_links": [
+        "https://www.boeun.go.kr/site/www/images/common/top_logo2.png",
+        "https://www.boeun.go.kr/site/www/images/common/top_logo_love.png",
+        "https://www.boeun.go.kr/site/www/images/common/boeun_live_word.png",
+        "https://www.boeun.go.kr/site/www/images/common/logo.png",
+        "https://www.boeun.go.kr/site/www/images/contents/cts313_img01.jpg",
+        "https://www.boeun.go.kr/site/www/images/contents/cts313_img02.jpg",
+        "https://www.boeun.go.kr/site/www/images/contents/cts313_img03.jpg",
+        "https://www.boeun.go.kr/common/images/program/img_opentype04.jpg",
+        "https://www.boeun.go.kr/common/images/layout/wa.png"
+      ]
     }
   ]
 }
