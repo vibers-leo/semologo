@@ -10490,9 +10490,29 @@
       "official_source_page": "https://www.dobong.go.kr/Contents.asp?code=10009553",
       "website": "http://www.dobong.go.kr",
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
-      "status": "page-fetch-failed",
-      "asset_links": [],
-      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+      "status": "asset-links-found",
+      "asset_links": [
+        "https://www.dobong.go.kr/images/2025/main/ico_gonfalon.png",
+        "https://www.dobong.go.kr/images/2023/main/logo.png",
+        "https://www.dobong.go.kr/images/2026/main/logo_gnb.png",
+        "https://www.dobong.go.kr/images/2026/main/icon_search.png",
+        "https://www.dobong.go.kr/images/2023/main/img_bokjiro.png",
+        "https://www.dobong.go.kr/images/2023/main/brandsongbb.png",
+        "https://www.dobong.go.kr/images/2023/main/ebhb2.png",
+        "https://www.dobong.go.kr/images/2026/main/ico_search.png",
+        "https://www.dobong.go.kr/images/2026/main/btn_search_close.png",
+        "https://www.dobong.go.kr/images/2026/main/mo_menu.png",
+        "https://www.dobong.go.kr/images/2025/main/logo.png",
+        "https://www.dobong.go.kr/images/2023/main/gnb_close.png",
+        "https://www.dobong.go.kr/images/2023/main/icon_sns.png",
+        "https://www.dobong.go.kr/images/2023/main/icon_kakao.png",
+        "https://www.dobong.go.kr/images/2023/main/icon_band.png",
+        "https://www.dobong.go.kr/images/2023/main/icon_3d.png",
+        "https://www.dobong.go.kr/images/2023/main/icon_instagram.png",
+        "https://www.dobong.go.kr/images/2023/main/icon_Threads.png",
+        "https://www.dobong.go.kr/images/2023/main/icon_facebook.png",
+        "https://www.dobong.go.kr/images/2023/main/icon_dang.png"
+      ]
     },
     {
       "id": "도봉구시설관리공단",
@@ -10501,9 +10521,29 @@
       "official_source_page": "https://www.dobongsiseol.or.kr/contents/introduction2.html?menu1=4&amp;menu2=1",
       "website": "https://www.dobongsiseol.or.kr/",
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
-      "status": "page-fetch-failed",
-      "asset_links": [],
-      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+      "status": "asset-links-found",
+      "asset_links": [
+        "https://www.dobongsiseol.or.kr/images/common/logo.jpg",
+        "https://www.dobongsiseol.or.kr/images/main/icon_blog.png",
+        "https://www.dobongsiseol.or.kr/images/main/icon_youtube.png",
+        "https://www.dobongsiseol.or.kr/images/main/icon_instagram.png",
+        "https://www.dobongsiseol.or.kr/images/main/icon_kakao.jpg",
+        "https://www.dobongsiseol.or.kr/images/common/ic_menu05.png",
+        "https://www.dobongsiseol.or.kr/images/common/ic_menu02.png",
+        "https://www.dobongsiseol.or.kr/images/common/ic_menu01.png",
+        "https://www.dobongsiseol.or.kr/images/common/ic_menu06.png",
+        "https://www.dobongsiseol.or.kr/images/common/ic_menu03.png",
+        "https://www.dobongsiseol.or.kr/images/common/ic_menu04.png",
+        "https://www.dobongsiseol.or.kr/images/sub_new/nav_home.png",
+        "https://www.dobongsiseol.or.kr/images/sub/ic_submenu03.png",
+        "https://www.dobongsiseol.or.kr/himages/sisul/ci.png",
+        "https://www.dobongsiseol.or.kr/file/CI2025.zip",
+        "https://www.dobongsiseol.or.kr/himages/sisul/ci02.jpg",
+        "https://www.dobongsiseol.or.kr/images/introduction/db_character2025_02.png",
+        "https://www.dobongsiseol.or.kr/images/introduction/db_character2025_01.png",
+        "https://www.dobongsiseol.or.kr/file/character2025.zip",
+        "https://www.dobongsiseol.or.kr/images/main/naver_logo.png"
+      ]
     },
     {
       "id": "도봉문화재단",
@@ -10512,9 +10552,12 @@
       "official_source_page": "https://www.dbfac.or.kr/front/dbfac/dobongCI.do",
       "website": "https://www.dbfac.or.kr/front/main.do",
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
-      "status": "page-fetch-failed",
-      "asset_links": [],
-      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+      "status": "asset-links-found",
+      "asset_links": [
+        "https://www.dbfac.or.kr/images/front/main/top_logo_20221031.png",
+        "https://www.dbfac.or.kr/images/front/main/all_menu.png",
+        "https://www.dbfac.or.kr/images/front/main/foot_logo_20221031.png"
+      ]
     },
     {
       "id": "독립기념관",
@@ -10523,9 +10566,10 @@
       "official_source_page": "https://i815.or.kr/2018/introduction/ci.do",
       "website": "http://www.i815.or.kr",
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
-      "status": "page-fetch-failed",
-      "asset_links": [],
-      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+      "status": "asset-links-found",
+      "asset_links": [
+        "https://www.i815.or.kr/2011/data/i815_logo_ai.zip"
+      ]
     },
     {
       "id": "동구차세대인재육성장학재단",
@@ -10534,9 +10578,18 @@
       "official_source_page": "https://www.donggu.go.kr/dg/kor/contents/549",
       "website": "https://www.donggu.go.kr/dg/kor/contents/256",
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
-      "status": "page-fetch-failed",
-      "asset_links": [],
-      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+      "status": "asset-links-found",
+      "asset_links": [
+        "https://www.donggu.go.kr/dg/images/core/favicon.png",
+        "https://www.donggu.go.kr/dg/images/site/kor/main/weather_ico1.png",
+        "https://www.donggu.go.kr/dg/images/site/kor/content/simbol_img1.png",
+        "https://www.donggu.go.kr/dg/images/site/kor/content/slog1.png",
+        "https://www.donggu.go.kr/dg/images/site/kor/content/slog2.png",
+        "https://www.donggu.go.kr/dg/images/site/kor/content/gooho1.png",
+        "https://www.donggu.go.kr/dg/images/site/kor/content/gooho2.png",
+        "https://www.donggu.go.kr/dg/images/core/new_img_opencode1.jpg",
+        "https://www.donggu.go.kr/dg/images/site/kor/layout/WA_Mark_20260413_20270412.png"
+      ]
     },
     {
       "id": "동남권원자력의학원",
@@ -10545,9 +10598,8 @@
       "official_source_page": "https://www.dirams.re.kr/kor/Contents.do?mCode=MN0063",
       "website": "https://www.dirams.re.kr/",
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
-      "status": "page-fetch-failed",
-      "asset_links": [],
-      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+      "status": "page-no-direct-asset",
+      "asset_links": []
     },
     {
       "id": "동대문구",
@@ -10556,9 +10608,18 @@
       "official_source_page": "http://www.ddm.go.kr/ddm/corporate_Identity.jsp",
       "website": "http://www.ddm.go.kr",
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
-      "status": "page-fetch-failed",
-      "asset_links": [],
-      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+      "status": "asset-links-found",
+      "asset_links": [
+        "http://www.ddm.go.kr/site/www/images/common/favicon.png",
+        "http://www.ddm.go.kr/site/public/images/common/family_title.png",
+        "http://www.ddm.go.kr/site/www/images/common_main/logo.png",
+        "http://www.ddm.go.kr/site/www/images/sub/read_braille.png",
+        "http://www.ddm.go.kr/site/www/images/sub/read_braille02.png",
+        "http://www.ddm.go.kr/site/www/images/contents/cts269_img.jpg",
+        "http://www.ddm.go.kr/site/public/images/sub/qr_img.png",
+        "http://www.ddm.go.kr/site/public/images/sub/img_opentype01.png",
+        "http://www.ddm.go.kr/site/www/images/common/wa_mark_2026_04_12_2027_04_11.png"
+      ]
     },
     {
       "id": "동대문구시설관리공단",
@@ -10567,9 +10628,17 @@
       "official_source_page": "https://www.dfmc.kr/course/corporation/summ_motto.asp",
       "website": "https://www.dfmc.kr/",
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
-      "status": "page-fetch-failed",
-      "asset_links": [],
-      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+      "status": "asset-links-found",
+      "asset_links": [
+        "https://www.dfmc.kr/images/renew/img_vision.png?260715",
+        "https://www.dfmc.kr/images/renew/img_vision_mobile.png?260715",
+        "https://www.dfmc.kr/images/renew/img_ci.png?260909",
+        "https://www.dfmc.kr/images/renew/img_ci_gray.png?260715",
+        "https://www.dfmc.kr/images/renew/img_ci.png",
+        "https://www.dfmc.kr/images/renew/CCM.png",
+        "https://www.dfmc.kr/images/renew/img_footer_1.png",
+        "https://www.dfmc.kr/images/renew/img_footer_2.png"
+      ]
     },
     {
       "id": "동대문문화재단",
@@ -10578,9 +10647,19 @@
       "official_source_page": "https://ddmac.or.kr/sub01/sub05.php",
       "website": "https://ddmac.or.kr/",
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
-      "status": "page-fetch-failed",
-      "asset_links": [],
-      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+      "status": "asset-links-found",
+      "asset_links": [
+        "https://ddmac.or.kr/favicon.png",
+        "https://ddmac.or.kr/images/logo3.jpg",
+        "https://ddmac.or.kr/images/home.png",
+        "https://ddmac.or.kr/images/ci01.jpg",
+        "https://ddmac.or.kr/images/ci02.jpg",
+        "https://ddmac.or.kr/images/ci03.jpg",
+        "https://ddmac.or.kr/images/ci04.jpg",
+        "https://ddmac.or.kr/images/ci05.jpg",
+        "https://ddmac.or.kr/images/ci06.jpg",
+        "https://ddmac.or.kr/images/logo3.png"
+      ]
     },
     {
       "id": "동두천수도지사",
@@ -10589,9 +10668,8 @@
       "official_source_page": "https://water-pos.kwater.or.kr/wq/index.jsp?w2xPath=/ui/index.xml&amp;sesLocgovCd=41250",
       "website": "https://water-pos.kwater.or.kr/wq/index.jsp?w2xPath=/ui/index.xml&amp;sesLocgovCd=41250",
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
-      "status": "page-fetch-failed",
-      "asset_links": [],
-      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+      "status": "page-no-direct-asset",
+      "asset_links": []
     },
     {
       "id": "동두천시시설관리공단",
@@ -10600,9 +10678,17 @@
       "official_source_page": "https://www.ddc.go.kr/ddc/contents.do?key=74",
       "website": "https://www.ddcsiseol.or.kr/",
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
-      "status": "page-fetch-failed",
-      "asset_links": [],
-      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+      "status": "asset-links-found",
+      "asset_links": [
+        "https://www.ddc.go.kr/site/ddc/images/contents/cnt_74_img_1.jpg",
+        "https://www.ddc.go.kr/site/ddc/images/contents/cnt_74_img_2.jpg",
+        "https://www.ddc.go.kr/site/ddc/download/AI_010101.zip",
+        "https://www.ddc.go.kr/site/ddc/images/contents/cnt_74_img_3.jpg",
+        "https://www.ddc.go.kr/site/ddc/download/AI_010201.zip",
+        "https://www.ddc.go.kr/site/ddc/images/contents/cnt_74_img_4.jpg",
+        "https://www.ddc.go.kr/site/ddc/download/AI_010301.zip",
+        "https://www.ddc.go.kr/site/ddc_2025/images/common/logo_webwatch.png"
+      ]
     },
     {
       "id": "동래장학회",
@@ -10611,9 +10697,29 @@
       "official_source_page": "https://www.dongnae.go.kr/index.dongnae?menuCd=DOM_000000107001007000",
       "website": "http://www.dongnaesf.kr/",
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
-      "status": "page-fetch-failed",
-      "asset_links": [],
-      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+      "status": "asset-links-found",
+      "asset_links": [
+        "https://www.dongnae.go.kr/images/portal/new/logo.png",
+        "https://www.dongnae.go.kr/images/portal/new_main/sns_f.jpg",
+        "https://www.dongnae.go.kr/images/portal/new_main/sns_i.jpg",
+        "https://www.dongnae.go.kr/images/portal/new_main/sns_youtube.jpg",
+        "https://www.dongnae.go.kr/images/portal/new_main/sns_blog.png",
+        "https://www.dongnae.go.kr/images/portal/new/plus.png",
+        "https://www.dongnae.go.kr/images/portal/new/minus.png",
+        "https://www.dongnae.go.kr/images/portal/common/new_win.png",
+        "https://www.dongnae.go.kr/images/portal/contents/sub05/sim/si01_01.jpg",
+        "https://www.dongnae.go.kr/images/portal/contents/sub05/sim/si01_02.jpg",
+        "https://www.dongnae.go.kr/images/portal/contents/sub05/sim/si01_03.jpg",
+        "https://www.dongnae.go.kr/images/portal/contents/sub05/sim/si01_04.jpg",
+        "https://www.dongnae.go.kr/images/portal/contents/sub05/sim/si01_05.jpg",
+        "https://www.dongnae.go.kr/images/portal/contents/sub05/sim/si01_06.jpg",
+        "https://www.dongnae.go.kr/images/portal/contents/sub05/sim/si01_07.jpg",
+        "https://www.dongnae.go.kr/images/portal/contents/sub05/sim/si01_08.jpg",
+        "https://www.dongnae.go.kr/images/portal/contents/sub05/sim/si01_09.jpg",
+        "https://www.dongnae.go.kr/images/portal/contents/sub05/sim/si01_10.jpg",
+        "https://www.dongnae.go.kr/images/portal/contents/sub05/sim/si02_01.jpg",
+        "https://www.dongnae.go.kr/images/portal/contents/sub05/sim/si02_02.jpg"
+      ]
     },
     {
       "id": "동북아역사재단",
@@ -10622,9 +10728,19 @@
       "official_source_page": "https://www.nahf.or.kr/web/portal/contents/AA010404",
       "website": "http://www.nahf.or.kr",
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
-      "status": "page-fetch-failed",
-      "asset_links": [],
-      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+      "status": "asset-links-found",
+      "asset_links": [
+        "https://www.nahf.or.kr/design/theme/portal/dist/images/common/logo_nahf.png",
+        "https://www.nahf.or.kr/design/theme/portal/dist/images/common/logo_nahf_w.png",
+        "https://www.nahf.or.kr/images/sub/nahf_symbol.png",
+        "https://www.nahf.or.kr/images/sub/nahf_logo.png",
+        "https://www.nahf.or.kr/images/sub/nahf_logo_chn.png",
+        "https://www.nahf.or.kr/images/sub/nahf_logo_jpn.png",
+        "https://www.nahf.or.kr/design/theme/portal/dist/images/common/img_banner_02.png",
+        "https://www.nahf.or.kr/design/theme/portal/dist/images/common/img_banner_01.png",
+        "https://www.nahf.or.kr/design/theme/portal/dist/images/common/logo_wa.png",
+        "https://www.nahf.or.kr/design/theme/portal/dist/images/common/logo_kogl.png"
+      ]
     },
     {
       "id": "동작구",
@@ -10633,9 +10749,29 @@
       "official_source_page": "http://www.dongjak.go.kr/portal/main/contents.do?menuNo=200650",
       "website": "http://www.dongjak.go.kr",
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
-      "status": "page-fetch-failed",
-      "asset_links": [],
-      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+      "status": "asset-links-found",
+      "asset_links": [
+        "http://www.dongjak.go.kr/static/portal/img/main/restruct_pc.png",
+        "http://www.dongjak.go.kr/static/portal/img/main/restruct_m.png",
+        "http://www.dongjak.go.kr/static/portal/img/main/2023/corona_hbt_mo.png",
+        "http://www.dongjak.go.kr/static/portal/img/main/2023/corona_hd_bt.png",
+        "http://www.dongjak.go.kr/static/portal/img/main/2023/search.png",
+        "http://www.dongjak.go.kr/static/portal/img/main/2026/n26_htp_ic1.png",
+        "http://www.dongjak.go.kr/static/portal/img/main/2026/logo_new20260701.png",
+        "http://www.dongjak.go.kr/static/portal/img/main/2022/mo_m_close.png",
+        "http://www.dongjak.go.kr/static/portal/img/main/2023/menu_ico1.png",
+        "http://www.dongjak.go.kr/static/portal/img/main/2023/menu_ico2.png",
+        "http://www.dongjak.go.kr/static/portal/img/main/2023/menu_ico3.png",
+        "http://www.dongjak.go.kr/static/portal/img/main/2023/menu_ico4.png",
+        "http://www.dongjak.go.kr/static/portal/img/main/2023/menu_ico5.png",
+        "https://www.dongjak.go.kr/static/portal/img/main/2023/search.png",
+        "http://www.dongjak.go.kr/static/portal/img/main/2023/menu_ico6.png",
+        "http://www.dongjak.go.kr/static/portal/img/main/2023/menu_ico7.png",
+        "https://www.dongjak.go.kr/static/portal/img/main/2022/menu_sw.jpg",
+        "http://www.dongjak.go.kr/static/portal/img/main/2022/home_ic.jpg",
+        "http://www.dongjak.go.kr/static/portal/img/main/2024/sns_ic.png",
+        "http://www.dongjak.go.kr/static/portal/img/main/2022/print_ic.jpg"
+      ]
     },
     {
       "id": "동작구시설관리공단",
@@ -10644,9 +10780,29 @@
       "official_source_page": "https://www.dongjak.go.kr/portal/main/contents.do?menuNo=200650",
       "website": "https://www.idongjak.or.kr/index.php",
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
-      "status": "page-fetch-failed",
-      "asset_links": [],
-      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+      "status": "asset-links-found",
+      "asset_links": [
+        "https://www.dongjak.go.kr/static/portal/img/main/restruct_pc.png",
+        "https://www.dongjak.go.kr/static/portal/img/main/restruct_m.png",
+        "https://www.dongjak.go.kr/static/portal/img/main/2023/corona_hbt_mo.png",
+        "https://www.dongjak.go.kr/static/portal/img/main/2023/corona_hd_bt.png",
+        "https://www.dongjak.go.kr/static/portal/img/main/2023/search.png",
+        "https://www.dongjak.go.kr/static/portal/img/main/2026/n26_htp_ic1.png",
+        "https://www.dongjak.go.kr/static/portal/img/main/2026/logo_new20260701.png",
+        "https://www.dongjak.go.kr/static/portal/img/main/2022/mo_m_close.png",
+        "https://www.dongjak.go.kr/static/portal/img/main/2023/menu_ico1.png",
+        "https://www.dongjak.go.kr/static/portal/img/main/2023/menu_ico2.png",
+        "https://www.dongjak.go.kr/static/portal/img/main/2023/menu_ico3.png",
+        "https://www.dongjak.go.kr/static/portal/img/main/2023/menu_ico4.png",
+        "https://www.dongjak.go.kr/static/portal/img/main/2023/menu_ico5.png",
+        "https://www.dongjak.go.kr/static/portal/img/main/2023/menu_ico6.png",
+        "https://www.dongjak.go.kr/static/portal/img/main/2023/menu_ico7.png",
+        "https://www.dongjak.go.kr/static/portal/img/main/2022/menu_sw.jpg",
+        "https://www.dongjak.go.kr/static/portal/img/main/2022/home_ic.jpg",
+        "https://www.dongjak.go.kr/static/portal/img/main/2024/sns_ic.png",
+        "https://www.dongjak.go.kr/static/portal/img/main/2022/print_ic.jpg",
+        "https://www.dongjak.go.kr/editorUpload/87d2d3f7-3fc1-468a-a327-231755dd7a0f.png"
+      ]
     },
     {
       "id": "동작문화재단",
@@ -10655,9 +10811,18 @@
       "official_source_page": "http://www.idfac.or.kr/intro/ci.php",
       "website": "http://www.idfac.or.kr/",
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
-      "status": "page-fetch-failed",
-      "asset_links": [],
-      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+      "status": "asset-links-found",
+      "asset_links": [
+        "http://www.idfac.or.kr/img/etc/ico_jquery_bpopup_close.png",
+        "http://www.idfac.or.kr/resources/user/img/common/logo_header.png",
+        "http://www.idfac.or.kr/images/main/top_register.png",
+        "http://www.idfac.or.kr/resources/user/img/temp/intro_04.jpg",
+        "http://www.idfac.or.kr/data/ci_idfac.zip",
+        "http://www.idfac.or.kr/resources/user/img/common/logo_footer.png",
+        "http://www.idfac.or.kr/images/main/lib_ico.png",
+        "http://www.idfac.or.kr/images/common/web02.png",
+        "http://www.idfac.or.kr/images/common/web03.png"
+      ]
     },
     {
       "id": "동작복지재단",
@@ -10666,9 +10831,8 @@
       "official_source_page": "https://www.smile-d.or.kr/",
       "website": "https://www.smile-d.or.kr/",
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
-      "status": "page-fetch-failed",
-      "asset_links": [],
-      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+      "status": "page-no-direct-asset",
+      "asset_links": []
     },
     {
       "id": "동해문화관광재단",
@@ -10679,7 +10843,7 @@
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
       "status": "page-fetch-failed",
       "asset_links": [],
-      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+      "error": "HTTP Error 404: Not Found"
     },
     {
       "id": "동해시",
@@ -10690,7 +10854,7 @@
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
       "status": "page-fetch-failed",
       "asset_links": [],
-      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+      "error": "HTTP Error 404: Not Found"
     },
     {
       "id": "동해시시설관리공단",
@@ -10699,9 +10863,20 @@
       "official_source_page": "https://www.dhsisul.org/pages/sub.htm?nav_code=new1698109399",
       "website": "https://www.dhsisul.org/pages/index.htm",
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
-      "status": "page-fetch-failed",
-      "asset_links": [],
-      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+      "status": "asset-links-found",
+      "asset_links": [
+        "https://www.dhsisul.org/img/logo.png",
+        "https://www.dhsisul.org/img/ci_img01.png",
+        "https://www.dhsisul.org/img/ci_img02.png",
+        "https://www.dhsisul.org/img/ci_img03.png",
+        "https://www.dhsisul.org/img/ci_img04.png",
+        "https://www.dhsisul.org/img/ci_img05.png",
+        "https://www.dhsisul.org/img/ci_img06.png",
+        "https://www.dhsisul.org/img/Hwangeumi_2D.zip",
+        "https://www.dhsisul.org/img/ci_img07.png",
+        "https://www.dhsisul.org/img/Hwangeumi_3D.zip",
+        "https://www.dhsisul.org/img/wa-mark.png"
+      ]
     }
   ]
 }
