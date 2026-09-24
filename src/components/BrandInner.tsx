@@ -631,6 +631,10 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
             )}
             {/* 매뉴얼 원본은 로고 파일만큼 값어치가 있다 — 컬러 팔레트·
                 최소규격·응용례가 들어 있다. 배포처가 준 경우에만 뜬다. */}
+            {brand.source_zip && (
+              <a href={`${CDN}/${brand.id}/${brand.source_zip}?v=${VERSION}`} download title="공식 원본 ZIP 내려받기"
+                 style={{ display:"inline-flex", alignItems:"center", gap:3, padding:"1px 7px", borderRadius:999, fontSize:11, fontWeight:600, color:"#166534", background:"rgba(34,197,94,.1)", border:"1px solid rgba(34,197,94,.25)", textDecoration:"none" }}><T>{"📦 공식 원본 ZIP"}</T></a>
+            )}
             {brand.brand_manual && (
               <a href={`${CDN}/${brand.id}/${brand.brand_manual}?v=${VERSION}`}
                  download

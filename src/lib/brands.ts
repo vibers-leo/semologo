@@ -41,6 +41,8 @@ export interface Brand {
   /** 배포처가 함께 제공한 브랜드 매뉴얼 원본(.ai/.pdf). _clients/{id} 기준 상대경로.
    *  컬러 팔레트·최소규격·응용례가 들어 있어 로고 파일만큼 값어치가 있다. */
   brand_manual?: string;
+  /** 공식 배포처가 제공한 원본 ZIP 자산 */
+  source_zip?: string;
   original_ai_url?: string;
   domain?: string;
   website?: string;
