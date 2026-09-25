@@ -11,15 +11,9 @@ export const SUBMITTED_BRANDS: Brand[] = [
   sources: [{ provider: "revibe-submission", file: "spursmtech-logo-color.png", label: "내부 프로젝트 제보", source_url: "내부 검토 자산" }],
   },
   ...[
-    ["spursmtech-partner-danggeun", "당근마켓", 2],
-    ["spursmtech-partner-hyundai-autoever", "현대오토에버", 3],
-    ["spursmtech-partner-kt", "KT", 4],
-    ["spursmtech-partner-woori-bank", "우리은행", 7],
     ["spursmtech-partner-navis-ams", "NAVIS-AMS", 8],
     ["spursmtech-partner-busan-tourism", "부산관광공사", 11],
     ["spursmtech-partner-poi-supplier", "POI 공급 파트너", 9],
-    ["spursmtech-partner-hana-card", "하나카드", 6],
-    ["spursmtech-partner-naver", "NAVER", 1],
   ].map(([id, name, fileNo]) => ({
     id: id as string, seq: 1000010 + Number(fileNo), added_at: "2026-09-26",
     name_ko: name as string, name_en: name as string, aliases: ["스펄스엠텍", "파트너"],
