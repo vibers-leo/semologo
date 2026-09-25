@@ -123,6 +123,19 @@ export default function BrandGrid({
         ...data.brands.filter(brand => !current.some(existing => existing.id === brand.id)),
       ]);
       setResultTotal(data.total);
+      // 다음 스크롤에서 보일 첫 카드들을 브라우저 캐시에 미리 넣어
+      // 카드가 화면에 들어오는 순간 빈 체커가 보이지 않게 한다.
+      // 전체 60장을 한꺼번에 요청하지 않고 18장만 선예약해 네트워크 폭주를 막는다.
+      if (typeof window !== "undefined") {
+        for (const brand of data.brands.slice(0, 18)) {
+          const src = typeof brand.logo_png === "string" && brand.logo_png.startsWith("/")
+            ? brand.logo_png
+            : `${CDN}/${brand.id}/${brand.logo_svg || brand.has_svg ? "logo.svg" : "logo-transparent.png"}?v=${VERSION}`;
+          const warm = new window.Image();
+          warm.decoding = "async";
+          warm.src = src;
+        }
+      }
     } catch {
       if (requestId === requestIdRef.current) setLoadError(true);
     } finally {
@@ -435,7 +448,7 @@ export default function BrandGrid({
                 setSelected(brand);
                 history.replaceState(null, "", path(`/brand/${brand.id}`));
               }}
-              priority={i < 12}
+              priority={i < 24}
             />
         ))}
       </div>
