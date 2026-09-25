@@ -503,10 +503,12 @@ function BrandCard({ brand, onClick, priority }: { brand: Brand; onClick: () => 
   const transparentUrl = `${CDN}/${brand.id}/logo-transparent.png?v=${VERSION}`;
   const hasSvg = !!(brand.logo_svg || brand.has_svg);
   const hasPng = !!(brand.logo_png || brand.has_png);
+  const directPng = typeof brand.logo_png === "string" && brand.logo_png.startsWith("/")
+    ? brand.logo_png : pngUrl;
   // PNG 원본은 기관 배포물의 흰 캔버스를 포함하는 경우가 많다.
   // 카드에서는 자동으로 여백·흰 배경을 제거한 파생물을 먼저 보여주고,
   // 원본 파일은 상세 화면의 다운로드 카드에서 그대로 제공한다.
-  const initSrc = hasSvg ? svgUrl : transparentUrl;
+  const initSrc = hasSvg ? svgUrl : (typeof brand.logo_png === "string" && brand.logo_png.startsWith("/") ? directPng : transparentUrl);
 
   return (
     <div className="logo-card" onClick={() => { trackEvent("brand_opened", { brand_id: brand.id, category: brand.category || "기타" }); sendHit(brand.id, "view"); onClick(); }}>
@@ -526,8 +528,8 @@ function BrandCard({ brand, onClick, priority }: { brand: Brand; onClick: () => 
           }}
           onError={e => {
             const img = e.currentTarget as HTMLImageElement;
-            if (hasPng && img.src !== pngUrl) {
-              img.src = pngUrl;
+            if (hasPng && img.src !== directPng) {
+              img.src = directPng;
               return;
             }
             // 일부 레거시 항목은 metadata에는 PNG가 있지만 기본 파일 대신
