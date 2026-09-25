@@ -81,14 +81,9 @@ async function fetchBrandData(file: string): Promise<unknown> {
 
   for (const source of sources) {
     try {
-      // Next's Data Cache rejects payloads over 2MB.  The slim catalog is
-      // currently larger than that, so asking Next to cache it only produces
-      // a warning and a failed cache write.  Keep the URL versioned and let
-      // the module/request cache own reuse until the catalog is chunked.
-      const init = file === "brands-slim.json"
-        ? { cache: "no-store" as const }
-        : { next: { revalidate: 21600 } };
-      const res = await fetch(`${source}/${file}?v=${VERSION}`, init);
+      const res = await fetch(`${source}/${file}?v=${VERSION}`, {
+        next: { revalidate: 21600 },
+      });
       if (!res.ok) throw new Error(`브랜드 데이터 응답 오류: HTTP ${res.status}`);
       if (looksLikeHtml(res.headers.get("content-type"))) {
         throw new Error("브랜드 데이터가 JSON 대신 HTML을 반환했어요.");
