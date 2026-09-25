@@ -247,7 +247,8 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
 
   const cdnUrl = (file: string) => `${CDN}/${brand.id}/${file}?v=${VERSION}`;
   const svgUrl  = cdnUrl(brand.svg_transparent || "logo.svg");
-  const pngUrl  = cdnUrl("logo.png");
+  const directPng = typeof brand.logo_png === "string" && brand.logo_png.startsWith("/") ? brand.logo_png : null;
+  const pngUrl  = directPng || cdnUrl("logo.png");
   const darkUrl = cdnUrl("logo-transparent.png");
   const whiteUrl = cdnUrl("logo-white.png");
   const hasSvg = !!(brand.logo_svg || brand.has_svg);
@@ -300,7 +301,7 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
     (v.color === "white" || /(^|[-_])white$/.test(v.key)) ? DARK_TILE : tile(CHECKER);
   // 기관 원본 PNG에는 흰 캔버스가 포함된 경우가 많다. 대표 미리보기는
   // 배경 제거 파생물을 먼저 사용하고, 파생물이 없을 때만 원본으로 폴백한다.
-  const mainUrl = hasSvg ? svgUrl : darkUrl;
+  const mainUrl = hasSvg ? svgUrl : (directPng || darkUrl);
   // 일부 기관 수집본의 원본 SVG에는 로고 주변의 안내 문서/캔버스가
   // 함께 들어온다. 다운로드 원본은 보존하되, 대표 화면은 검수된 가공본을
   // 우선 사용한다. KCA는 logo-800.png가 실제 로고만 담은 가공본이다.
