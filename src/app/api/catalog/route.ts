@@ -4,6 +4,7 @@ import { fetchBrandsSlim, sortForGrid, type Brand } from "@/lib/brands";
 import { redis } from "@/lib/redis";
 import { isChoseongQuery, choseongIndex } from "@/lib/hangul";
 import { VERSION } from "@/lib/cdn";
+import { SUBMITTED_BRANDS } from "@/lib/submissions";
 
 export const dynamic = "force-dynamic";
 
@@ -91,7 +92,9 @@ export async function GET(request: NextRequest) {
         // Cache failures and malformed entries fall through to the source catalog.
       }
     }
-    const all = await fetchBrandsSlim();
+    const catalog = await fetchBrandsSlim();
+    const known = new Set(catalog.map(brand => brand.id));
+    const all = [...catalog, ...SUBMITTED_BRANDS.filter(brand => !known.has(brand.id))];
     const scores = mode === "fame" ? await popularityScores() : {};
     const sorted = sortedCatalog(all, mode, scores);
     let matches = sorted;
