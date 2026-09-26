@@ -13,10 +13,10 @@ export const SUBMITTED_BRANDS: Brand[] = [
   ...[
     ["spursmtech-partner-navis-ams", "NAVIS-AMS", 8],
     ["spursmtech-partner-busan-tourism", "부산관광공사", 11],
-    ["spursmtech-partner-poi-supplier", "POI 공급 파트너", 9],
+    ["spursmtech-partner-tmap", "티맵", 9],
   ].map(([id, name, fileNo]) => ({
     id: id as string, seq: 1000010 + Number(fileNo), added_at: "2026-09-26",
-    name_ko: name as string, name_en: name as string, aliases: ["스펄스엠텍", "파트너"],
+    name_ko: name as string, name_en: name as string, aliases: ["T map", "T맵", "티맵", "스펄스엠텍", "파트너"],
     category: "서비스·기업", logo_png: `/submissions/spursmtech/partners/ai_partner_${fileNo}.png`, has_png: true,
     origin: "KR", kr_kind: "제보 파트너 로고", asset_origin: "스펄스엠텍 내부 제보 파트너 자산",
     sources: [{ provider: "revibe-submission", file: `ai_partner_${fileNo}.png`, label: "파트너 로고 제보", source_url: "내부 검토 자산" }],
