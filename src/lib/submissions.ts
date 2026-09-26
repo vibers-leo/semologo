@@ -22,5 +22,6 @@ export const SUBMITTED_BRANDS: Brand[] = [
     sources: [{ provider: "revibe-submission", file: `ai_partner_${fileNo}.png`, label: "파트너 로고 제보", source_url: "내부 검토 자산" }],
   } as Brand)),
 
+  { id: "osan-cultural-foundation", seq: 1000301, added_at: "2026-09-27", name_ko: "오산문화재단", name_en: "Osan Cultural Foundation", category: "공공·기관", logo_png: "/submissions/official-ci-osan.png", has_png: true, origin: "KR", kr_kind: "공공기관 공식 CI", asset_origin: "공식 CI 수집 자산", official_source_page: "https://www.osan.go.kr/arts/contents.do?mId=0701050000", sources: [{ provider: "official-ci-page", file: "ci5.jpg", label: "공식 CI 원본", source_url: "https://www.osan.go.kr/arts/contents.do?mId=0701050000" }] },
 
 ];
