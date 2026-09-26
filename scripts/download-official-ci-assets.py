@@ -3,6 +3,7 @@ import json, re, sys
 from pathlib import Path
 from urllib.parse import urlparse
 from urllib.request import Request,urlopen
+from socket import timeout as SocketTimeout
 ROOT=Path(__file__).resolve().parents[1]; src=ROOT/'data/collection/official-ci-assets-staged.json'; out=ROOT/'artifacts/public-ci-assets'
 
 def main():
@@ -16,7 +17,7 @@ def main():
    name=re.sub(r'[^0-9A-Za-z가-힣._-]','_',name); path=folder/name
    try:
     req=Request(u,headers={'User-Agent':'SemoLogo-official-ci-collector/1.0','Referer':item['official_source_page']})
-    with urlopen(req,timeout=25) as r: data=r.read()
+    with urlopen(req,timeout=8) as r: data=r.read()
     if len(data)<100: raise ValueError('too-small')
     path.write_bytes(data); results.append({'url':u,'file':str(path.relative_to(ROOT)),'bytes':len(data)}); ok+=1
    except Exception as e: results.append({'url':u,'error':str(e)[:180]})
