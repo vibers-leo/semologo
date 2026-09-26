@@ -1,0 +1,64 @@
+{
+  "schema_version": "1.0",
+  "created_at": "2026-09-26",
+  "purpose": "Constituent-first logo collection queue for US listed companies",
+  "download_policy": "queue-only",
+  "download_started": false,
+  "dedupe_keys": ["ticker", "exchange", "cik", "normalized_name", "official_domain"],
+  "asset_policy": {
+    "allowed_formats": ["svg", "png", "jpg", "jpeg", "zip", "ai"],
+    "require_official_source": true,
+    "rights_review": "required-before-publication",
+    "do_not_publish_until_verified": true
+  },
+  "queues": [
+    {
+      "id": "us-sp500",
+      "name": "S&P 500",
+      "market": "US",
+      "target_count": 503,
+      "status": "queued",
+      "source": {
+        "provider": "S&P Dow Jones Indices",
+        "url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+        "type": "official-index-page",
+        "constituent_snapshot": null
+      },
+      "record_schema": {
+        "required": ["ticker", "company_name", "exchange", "official_domain"],
+        "optional": ["cik", "gics_sector", "source_url", "logo_url"]
+      },
+      "items": []
+    },
+    {
+      "id": "us-russell-2000",
+      "name": "Russell 2000",
+      "market": "US",
+      "target_count": 2000,
+      "status": "queued",
+      "source": {
+        "provider": "FTSE Russell",
+        "url": "https://www.lseg.com/en/ftse-russell/",
+        "type": "official-index-page",
+        "constituent_snapshot": null
+      },
+      "record_schema": {
+        "required": ["ticker", "company_name", "exchange", "official_domain"],
+        "optional": ["cik", "gics_sector", "source_url", "logo_url"]
+      },
+      "items": []
+    }
+  ],
+  "merge_instructions": {
+    "catalog_match_order": ["cik", "exchange:ticker", "official_domain", "normalized_name"],
+    "on_match": "attach index_memberships to existing brand record; do not create duplicate card",
+    "on_miss": "create review-pending candidate without public publication",
+    "index_memberships": ["S&P 500", "Russell 2000"]
+  },
+  "next_steps": [
+    "Obtain a dated constituent snapshot from the official index provider or licensed data source",
+    "Normalize ticker, exchange, CIK, legal name, and official domain",
+    "Join against the existing catalog using merge_instructions",
+    "Resolve official logo asset and rights review before CDN/publication"
+  ]
+}
