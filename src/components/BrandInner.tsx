@@ -247,7 +247,7 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
 
   const cdnUrl = (file: string) => `${CDN}/${brand.id}/${file}?v=${VERSION}`;
   const svgUrl  = cdnUrl(brand.svg_transparent || "logo.svg");
-  const directPng = typeof brand.logo_png === "string" && brand.logo_png.startsWith("/") ? brand.logo_png : null;
+  const directPng = typeof brand.logo_png === "string" && brand.logo_png.startsWith("/") ? `${brand.logo_png}?v=${VERSION}` : null;
   const pngUrl  = directPng || cdnUrl("logo.png");
   const darkUrl = cdnUrl("logo-transparent.png");
   const whiteUrl = cdnUrl("logo-white.png");

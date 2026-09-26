@@ -129,7 +129,7 @@ export default function BrandGrid({
       if (typeof window !== "undefined") {
         for (const brand of data.brands.slice(0, 18)) {
           const src = typeof brand.logo_png === "string" && brand.logo_png.startsWith("/")
-            ? brand.logo_png
+            ? `${brand.logo_png}?v=${VERSION}`
             : `${CDN}/${brand.id}/${brand.logo_svg || brand.has_svg ? "logo.svg" : "logo-transparent.png"}?v=${VERSION}`;
           const warm = new window.Image();
           warm.decoding = "async";
@@ -517,7 +517,7 @@ function BrandCard({ brand, onClick, priority }: { brand: Brand; onClick: () => 
   const hasSvg = !!(brand.logo_svg || brand.has_svg);
   const hasPng = !!(brand.logo_png || brand.has_png);
   const directPng = typeof brand.logo_png === "string" && brand.logo_png.startsWith("/")
-    ? brand.logo_png : pngUrl;
+    ? `${brand.logo_png}?v=${VERSION}` : pngUrl;
   // PNG 원본은 기관 배포물의 흰 캔버스를 포함하는 경우가 많다.
   // 카드에서는 자동으로 여백·흰 배경을 제거한 파생물을 먼저 보여주고,
   // 원본 파일은 상세 화면의 다운로드 카드에서 그대로 제공한다.
