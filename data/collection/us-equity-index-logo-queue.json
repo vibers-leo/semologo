@@ -6629,48 +6629,52 @@
           "company_name": "Twist Bioscience",
           "exchange": "NASDAQ",
           "cik": null,
-          "official_domain": null,
+          "official_domain": "twistbioscience.com",
           "source_url": "https://www.ishares.com/us/products/239710/ishares-russell-2000-etf/latest-holdings.csv",
           "index_memberships": [
             "Russell 2000"
           ],
-          "status": "constituent-pending-logo"
+          "status": "official-domain-verified",
+          "official_source_url": "https://www.twistbioscience.com/"
         },
         {
           "ticker": "MOG A",
           "company_name": "Moog Inc Class A",
           "exchange": "NYSE",
           "cik": null,
-          "official_domain": null,
+          "official_domain": "moog.com",
           "source_url": "https://www.ishares.com/us/products/239710/ishares-russell-2000-etf/latest-holdings.csv",
           "index_memberships": [
             "Russell 2000"
           ],
-          "status": "constituent-pending-logo"
+          "status": "official-domain-verified",
+          "official_source_url": "https://www.moog.com/"
         },
         {
           "ticker": "HUT",
           "company_name": "Hut Corp",
           "exchange": "NASDAQ",
           "cik": null,
-          "official_domain": null,
+          "official_domain": "hut8.com",
           "source_url": "https://www.ishares.com/us/products/239710/ishares-russell-2000-etf/latest-holdings.csv",
           "index_memberships": [
             "Russell 2000"
           ],
-          "status": "constituent-pending-logo"
+          "status": "official-domain-verified",
+          "official_source_url": "https://www.hut8.com/"
         },
         {
           "ticker": "FROG",
           "company_name": "Jfrog",
           "exchange": "NASDAQ",
           "cik": null,
-          "official_domain": null,
+          "official_domain": "jfrog.com",
           "source_url": "https://www.ishares.com/us/products/239710/ishares-russell-2000-etf/latest-holdings.csv",
           "index_memberships": [
             "Russell 2000"
           ],
-          "status": "constituent-pending-logo"
+          "status": "official-domain-verified",
+          "official_source_url": "https://jfrog.com/"
         },
         {
           "ticker": "UMBF",
@@ -30312,7 +30316,8 @@
           ],
           "status": "constituent-pending-logo"
         }
-      ]
+      ],
+      "domain_reviewed_count": 4
     }
   ],
   "merge_instructions": {
