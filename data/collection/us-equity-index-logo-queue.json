@@ -6785,48 +6785,52 @@
           "company_name": "Cytokinetics",
           "exchange": "NASDAQ",
           "cik": null,
-          "official_domain": null,
+          "official_domain": "cytokinetics.com",
           "source_url": "https://www.ishares.com/us/products/239710/ishares-russell-2000-etf/latest-holdings.csv",
           "index_memberships": [
             "Russell 2000"
           ],
-          "status": "constituent-pending-logo"
+          "status": "official-domain-verified",
+          "official_source_url": "https://cytokinetics.com/"
         },
         {
           "ticker": "ONB",
           "company_name": "Old National Bancorp",
           "exchange": "NASDAQ",
           "cik": null,
-          "official_domain": null,
+          "official_domain": "oldnational.com",
           "source_url": "https://www.ishares.com/us/products/239710/ishares-russell-2000-etf/latest-holdings.csv",
           "index_memberships": [
             "Russell 2000"
           ],
-          "status": "constituent-pending-logo"
+          "status": "official-domain-verified",
+          "official_source_url": "https://www.oldnational.com/"
         },
         {
           "ticker": "FCFS",
           "company_name": "Firstcash Holdings Inc",
           "exchange": "NASDAQ",
           "cik": null,
-          "official_domain": null,
+          "official_domain": "firstcash.com",
           "source_url": "https://www.ishares.com/us/products/239710/ishares-russell-2000-etf/latest-holdings.csv",
           "index_memberships": [
             "Russell 2000"
           ],
-          "status": "constituent-pending-logo"
+          "status": "official-domain-verified",
+          "official_source_url": "https://firstcash.com/"
         },
         {
           "ticker": "IDCC",
           "company_name": "Interdigital Inc",
           "exchange": "NASDAQ",
           "cik": null,
-          "official_domain": null,
+          "official_domain": "interdigital.com",
           "source_url": "https://www.ishares.com/us/products/239710/ishares-russell-2000-etf/latest-holdings.csv",
           "index_memberships": [
             "Russell 2000"
           ],
-          "status": "constituent-pending-logo"
+          "status": "official-domain-verified",
+          "official_source_url": "https://www.interdigital.com/"
         },
         {
           "ticker": "SM",
@@ -30325,7 +30329,7 @@
           "status": "constituent-pending-logo"
         }
       ],
-      "domain_reviewed_count": 12
+      "domain_reviewed_count": 16
     }
   ],
   "merge_instructions": {

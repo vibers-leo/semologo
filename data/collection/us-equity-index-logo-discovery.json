@@ -344,6 +344,127 @@
         "https://www.glaukos.com/wp-content/themes/pint-glaukos/assets/manifest/apple-touch-icon.png",
         "https://www.glaukos.com/wp-content/themes/pint-glaukos/assets/images/glaukos-logo-green.svg"
       ]
+    },
+    {
+      "ticker": "CYTK",
+      "company_name": "Cytokinetics",
+      "exchange": "NASDAQ",
+      "cik": null,
+      "official_domain": "cytokinetics.com",
+      "source_url": "https://www.ishares.com/us/products/239710/ishares-russell-2000-etf/latest-holdings.csv",
+      "index_memberships": [
+        "Russell 2000"
+      ],
+      "status": "logo-candidates-found",
+      "official_source_url": "https://cytokinetics.com/",
+      "asset_links": [
+        "https://cytokinetics.com/wp-content/themes/cytokinetics/assets/images/logo-cytokinetics.png",
+        "https://cytokinetics.com/wp-content/uploads/2025/05/medicines-and-research_desktop_@2x-min.png",
+        "https://cytokinetics.com/wp-content/uploads/2024/04/avonne-w-frame.png",
+        "https://cytokinetics.com/wp-content/uploads/2026/01/2026-Corp-Pres-Cover-Thumbnail.jpg",
+        "https://cytokinetics.com/wp-content/uploads/2023/08/photo-company-1.png",
+        "https://cytokinetics.com/wp-content/uploads/2023/08/photo-responsibility-1.png",
+        "https://cytokinetics.com/wp-content/uploads/2023/08/photo-careers-1.png",
+        "https://cytokinetics.com/wp-content/themes/cytokinetics/assets/images/logo-cytokinetics-footer.png"
+      ]
+    },
+    {
+      "ticker": "ONB",
+      "company_name": "Old National Bancorp",
+      "exchange": "NASDAQ",
+      "cik": null,
+      "official_domain": "oldnational.com",
+      "source_url": "https://www.ishares.com/us/products/239710/ishares-russell-2000-etf/latest-holdings.csv",
+      "index_memberships": [
+        "Russell 2000"
+      ],
+      "status": "logo-candidates-found",
+      "official_source_url": "https://www.oldnational.com/",
+      "asset_links": [
+        "https://oldnational.com/apple-touch-icon-57x57.png",
+        "https://oldnational.com/apple-touch-icon-60x60.png",
+        "https://oldnational.com/apple-touch-icon-72x72.png",
+        "https://oldnational.com/apple-touch-icon-76x76.png",
+        "https://oldnational.com/apple-touch-icon-114x114.png",
+        "https://oldnational.com/apple-touch-icon-120x120.png",
+        "https://oldnational.com/apple-touch-icon-144x144.png",
+        "https://oldnational.com/apple-touch-icon-152x152.png",
+        "https://oldnational.com/apple-touch-icon-180x180.png",
+        "https://oldnational.com/android-icon-192x192.png",
+        "https://oldnational.com/favicon-32x32.png",
+        "https://oldnational.com/favicon-96x96.png",
+        "https://oldnational.com/favicon-16x16.png",
+        "https://oldnational.com/49f4d1/globalassets/onb-site/onb-images/onb-personal/onb-checking/gettyimages-1254779444_1512x375.jpg?format=webp",
+        "https://oldnational.com/4aeee6/globalassets/onb-site/onb-images/onb-homepage/gettyimages-1248264659_800x420.jpg?format=webp",
+        "https://oldnational.com/4aef0a/globalassets/onb-site/onb-images/onb-homepage/gettyimages-1403196779_800x420.jpg?format=webp",
+        "https://oldnational.com/4aef19/globalassets/onb-site/onb-images/onb-homepage/gettyimages-1431089640_800x420.jpg?format=webp",
+        "https://oldnational.com/4963ad/globalassets/onb-site/onb-images/onb-about-us/onb-all-about-protection/gettyimages-2242090273_800x534.jpg?format=webp",
+        "https://oldnational.com/49f0a0/globalassets/onb-site/onb-images/onb-homepage/on-bancorp-hdqrtrs-800x534.jpg?format=webp",
+        "https://oldnational.com/49f08e/globalassets/onb-site/onb-images/onb-homepage/gettyimages-2205572960-800x534.jpg?format=webp",
+        "https://oldnational.com/4acbe5/globalassets/onb-site/onb-images/onb-homepage/2432183-love-for-louisville-800x534.jpg?format=webp",
+        "https://oldnational.com/496358/globalassets/images/global/fdic_member-white.png?format=webp",
+        "https://oldnational.com/4961a3/globalassets/images/global/equal_housing_lender-white.png?format=webp"
+      ]
+    },
+    {
+      "ticker": "FCFS",
+      "company_name": "Firstcash Holdings Inc",
+      "exchange": "NASDAQ",
+      "cik": null,
+      "official_domain": "firstcash.com",
+      "source_url": "https://www.ishares.com/us/products/239710/ishares-russell-2000-etf/latest-holdings.csv",
+      "index_memberships": [
+        "Russell 2000"
+      ],
+      "status": "logo-candidates-found",
+      "official_source_url": "https://firstcash.com/",
+      "asset_links": [
+        "https://firstcash.com/wp-content/uploads/2019/03/firstcash-logo-color.png",
+        "https://firstcash.com/wp-content/uploads/2019/06/alabama.png",
+        "https://firstcash.com/wp-content/uploads/2019/06/alaska.png",
+        "https://firstcash.com/wp-content/uploads/2019/06/arizona.png",
+        "https://firstcash.com/wp-content/uploads/2019/06/colorado.png",
+        "https://firstcash.com/wp-content/uploads/2019/06/florida.png",
+        "https://firstcash.com/wp-content/uploads/2019/06/georgia.png",
+        "https://firstcash.com/wp-content/uploads/2019/06/illionis.png",
+        "https://firstcash.com/wp-content/uploads/2019/06/indiana.png",
+        "https://firstcash.com/wp-content/uploads/2019/06/kentucky.png",
+        "https://firstcash.com/wp-content/uploads/2019/06/louisiana.png",
+        "https://firstcash.com/wp-content/uploads/2019/06/maryland.png",
+        "https://firstcash.com/wp-content/uploads/2021/10/mississippi.png",
+        "https://firstcash.com/wp-content/uploads/2019/06/missouri.png",
+        "https://firstcash.com/wp-content/uploads/2021/11/Nebraska.png",
+        "https://firstcash.com/wp-content/uploads/2019/06/nevada.png",
+        "https://firstcash.com/wp-content/uploads/2019/06/north-carolina.png",
+        "https://firstcash.com/wp-content/uploads/2019/06/ohio.png",
+        "https://firstcash.com/wp-content/uploads/2019/06/oklahoma.png",
+        "https://firstcash.com/wp-content/uploads/2019/06/south-carolina.png",
+        "https://firstcash.com/wp-content/uploads/2019/06/tennesee.png",
+        "https://firstcash.com/wp-content/uploads/2019/06/texas.png",
+        "https://firstcash.com/wp-content/uploads/2019/06/utah.png",
+        "https://firstcash.com/wp-content/uploads/2019/06/virginia.png",
+        "https://firstcash.com/wp-content/uploads/2019/06/washington.png",
+        "https://firstcash.com/wp-content/uploads/2019/06/district.png",
+        "https://firstcash.com/wp-content/uploads/2019/06/wyoming.png",
+        "https://firstcash.com/wp-content/uploads/2019/05/scrapgold-1.jpg",
+        "https://firstcash.com/wp-content/uploads/2019/05/whatwebuy.jpg",
+        "https://firstcash.com/wp-content/uploads/2019/07/store.jpg"
+      ]
+    },
+    {
+      "ticker": "IDCC",
+      "company_name": "Interdigital Inc",
+      "exchange": "NASDAQ",
+      "cik": null,
+      "official_domain": "interdigital.com",
+      "source_url": "https://www.ishares.com/us/products/239710/ishares-russell-2000-etf/latest-holdings.csv",
+      "index_memberships": [
+        "Russell 2000"
+      ],
+      "status": "domain-fetch-failed",
+      "official_source_url": "https://www.interdigital.com/",
+      "asset_links": [],
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'interdigital.com'. (_ssl.c:1081)>"
     }
   ]
 }
