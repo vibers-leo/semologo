@@ -30,7 +30,7 @@
       "index_memberships": [
         "Russell 2000"
       ],
-      "status": "logo-candidates-found",
+      "status": "candidate-assets-staged",
       "official_source_url": "https://www.twistbioscience.com/",
       "asset_links": [
         "https://twistbioscience.com/content/dam/twistbioscience/themes/custom/twist_barrio/favicon.png",
@@ -63,6 +63,26 @@
         "https://twistbioscience.com/content/dam/twistbioscience/2021-05/icon-ngs.png",
         "https://twistbioscience.com/content/dam/twistbioscience/2021-05/icon-libraries.png",
         "https://twistbioscience.com/content/dam/twistbioscience/close.png"
+      ],
+      "downloaded_candidates": [
+        {
+          "url": "https://twistbioscience.com/content/dam/twistbioscience/themes/custom/twist_barrio/favicon.png",
+          "file": "artifacts/index-logo-candidates/TWST/favicon.png",
+          "bytes": 15431,
+          "content_type": "image/png"
+        },
+        {
+          "url": "https://twistbioscience.com/content/dam/twist-aem-migration/twist-home-logo.svg",
+          "file": "artifacts/index-logo-candidates/TWST/twist-home-logo.svg",
+          "bytes": 14627,
+          "content_type": "image/svg+xml"
+        },
+        {
+          "url": "https://twistbioscience.com/content/dam/twist-aem-migration/logos/logo-dark-mode.svg",
+          "file": "artifacts/index-logo-candidates/TWST/logo-dark-mode.svg",
+          "bytes": 15018,
+          "content_type": "image/svg+xml"
+        }
       ]
     },
     {
@@ -98,7 +118,8 @@
         "https://moog.com/content/dam/sites/moog/images/icons/social-media-icons/YouTube_Icon.png",
         "https://moog.com/content/dam/sites/moog/images/icons/social-media-icons/LinkedIn_Icon.png",
         "https://moog.com/content/dam/sites/moog/images/icons/social-media-icons/Facebook_Icon.png"
-      ]
+      ],
+      "downloaded_candidates": []
     },
     {
       "ticker": "FROG",
@@ -124,7 +145,7 @@
       "index_memberships": [
         "Russell 2000"
       ],
-      "status": "logo-candidates-found",
+      "status": "candidate-assets-staged",
       "official_source_url": "https://www.umb.com/",
       "asset_links": [
         "https://umb.com/favicon-96x96.png?v=2",
@@ -157,6 +178,26 @@
         "https://umb.com/sites/default/files/styles/coh_medium/public/blog/2026/08/Gen-X-retirement.jpg?itok=s9RYew6B",
         "https://umb.com/sites/default/files/styles/text_and_image_mobile/public/2023-07/Simply%20Rewards%20Credit%20Card%20640x350.png?h=13d73c84&amp;itok=Po88roi9",
         "https://umb.com/sites/default/files/styles/text_and_image_mobile/public/2023-06/UMB-T-ATM-640x350.jpg?h=13d73c84&amp;itok=_MM311Cl"
+      ],
+      "downloaded_candidates": [
+        {
+          "url": "https://umb.com/favicon-96x96.png?v=2",
+          "file": "artifacts/index-logo-candidates/UMBF/favicon-96x96.png",
+          "bytes": 3056,
+          "content_type": "image/png"
+        },
+        {
+          "url": "https://umb.com/favicon.svg?v=2",
+          "file": "artifacts/index-logo-candidates/UMBF/favicon.svg",
+          "bytes": 6492,
+          "content_type": "image/svg+xml"
+        },
+        {
+          "url": "https://umb.com/apple-touch-icon.png?v=2",
+          "file": "artifacts/index-logo-candidates/UMBF/apple-touch-icon.png",
+          "bytes": 5032,
+          "content_type": "image/png"
+        }
       ]
     },
     {
@@ -184,7 +225,7 @@
       "index_memberships": [
         "Russell 2000"
       ],
-      "status": "logo-candidates-found",
+      "status": "candidate-assets-staged",
       "official_source_url": "https://www.viasat.com/",
       "asset_links": [
         "https://viasat.com/content/dam/us-site/residential/dm-images/Starry-night-sky-with-trees-1920x1080.png",
@@ -203,6 +244,20 @@
         "https://viasat.com/content/dam/us-site/aviation/dm-images/advertising/GEM-Ad-airplane-passenger-mobile-phone.jpg",
         "https://viasat.com/content/dam/us-site/corporate/dm-images/generic/CORP_Viasat_Carlsbad_headquarters_5439.jpg",
         "https://viasat.com/content/dam/us-site/corporate/dm-images/sustainability/CORP_ESG_FY26.jpg"
+      ],
+      "downloaded_candidates": [
+        {
+          "url": "https://viasat.com/content/dam/us-site/corporate/dm-images/technology/vs3/f3/VS3F3-Webpage-Banner-3790x1440-18036881217-001.jpg",
+          "file": "artifacts/index-logo-candidates/VSAT/VS3F3-Webpage-Banner-3790x1440-18036881217-001.jpg",
+          "bytes": 1176056,
+          "content_type": "image/jpeg"
+        },
+        {
+          "url": "https://viasat.com/content/dam/us-site/corporate/dm-images/technology/vs3/VS3-F2-logo-white-v2.png",
+          "file": "artifacts/index-logo-candidates/VSAT/VS3-F2-logo-white-v2.png",
+          "bytes": 10514,
+          "content_type": "image/png"
+        }
       ]
     },
     {
@@ -215,7 +270,7 @@
       "index_memberships": [
         "Russell 2000"
       ],
-      "status": "logo-candidates-found",
+      "status": "candidate-assets-staged",
       "official_source_url": "https://www.brightspringhealth.com/",
       "asset_links": [
         "https://www.brightspringhealth.com/wp-content/uploads/cropped-BrightSpring_Favicon_512x512-32x32.png",
@@ -248,6 +303,26 @@
         "https://www.brightspringhealth.com/wp-content/uploads/2026/07/EOY-East-Central-Win-JR.png",
         "https://www.brightspringhealth.com/wp-content/uploads/2026/05/BSH-scholarship-winners-2026-1.png",
         "https://www.brightspringhealth.com/wp-content/uploads/2026/04/gateway-Peds-BHCOE-Eval-2.png"
+      ],
+      "downloaded_candidates": [
+        {
+          "url": "https://www.brightspringhealth.com/wp-content/uploads/cropped-BrightSpring_Favicon_512x512-32x32.png",
+          "file": "artifacts/index-logo-candidates/BTSG/cropped-BrightSpring_Favicon_512x512-32x32.png",
+          "bytes": 380,
+          "content_type": "image/png"
+        },
+        {
+          "url": "https://www.brightspringhealth.com/wp-content/uploads/cropped-BrightSpring_Favicon_512x512-192x192.png",
+          "file": "artifacts/index-logo-candidates/BTSG/cropped-BrightSpring_Favicon_512x512-192x192.png",
+          "bytes": 3116,
+          "content_type": "image/png"
+        },
+        {
+          "url": "https://www.brightspringhealth.com/wp-content/uploads/cropped-BrightSpring_Favicon_512x512-180x180.png",
+          "file": "artifacts/index-logo-candidates/BTSG/cropped-BrightSpring_Favicon_512x512-180x180.png",
+          "bytes": 7476,
+          "content_type": "image/png"
+        }
       ]
     },
     {
@@ -260,7 +335,7 @@
       "index_memberships": [
         "Russell 2000"
       ],
-      "status": "logo-candidates-found",
+      "status": "candidate-assets-staged",
       "official_source_url": "https://www.krystalbio.com/",
       "asset_links": [
         "https://krystalbio.com/wp-content/uploads/fbrfg/apple-touch-icon.png",
@@ -282,6 +357,26 @@
         "https://www.krystalbio.com/wp-content/uploads/2023/10/x-logo.png",
         "https://www.krystalbio.com/wp-content/uploads/2023/10/KRYS-logo-black.svg",
         "https://www.krystalbio.com/wp-content/uploads/2018/07/KRYS-logo-80h.jpg"
+      ],
+      "downloaded_candidates": [
+        {
+          "url": "https://krystalbio.com/wp-content/uploads/fbrfg/apple-touch-icon.png",
+          "file": "artifacts/index-logo-candidates/KRYS/apple-touch-icon.png",
+          "bytes": 9441,
+          "content_type": "image/png"
+        },
+        {
+          "url": "https://krystalbio.com/wp-content/uploads/fbrfg/favicon-32x32.png",
+          "file": "artifacts/index-logo-candidates/KRYS/favicon-32x32.png",
+          "bytes": 1318,
+          "content_type": "image/png"
+        },
+        {
+          "url": "https://krystalbio.com/wp-content/uploads/fbrfg/favicon-16x16.png",
+          "file": "artifacts/index-logo-candidates/KRYS/favicon-16x16.png",
+          "bytes": 583,
+          "content_type": "image/png"
+        }
       ]
     },
     {
@@ -308,7 +403,7 @@
       "index_memberships": [
         "Russell 2000"
       ],
-      "status": "logo-candidates-found",
+      "status": "candidate-assets-staged",
       "official_source_url": "https://www.caretrustreit.com/",
       "asset_links": [
         "https://caretrustreit.com/assets/logos/caretrust-logo.svg",
@@ -324,6 +419,26 @@
         "https://www.caretrustreit.com/uploads/_419x688_crop_center-center_none/Columbia-Post-Acute.jpg",
         "https://www.caretrustreit.com/uploads/_419x688_crop_center-center_none/freeland.jpg",
         "https://www.caretrustreit.com/uploads/_419x688_crop_center-center_none/lomond-view.jpg"
+      ],
+      "downloaded_candidates": [
+        {
+          "url": "https://caretrustreit.com/assets/logos/caretrust-logo.svg",
+          "file": "artifacts/index-logo-candidates/CTRE/caretrust-logo.svg",
+          "bytes": 1277,
+          "content_type": "image/svg+xml"
+        },
+        {
+          "url": "https://www.caretrustreit.com/uploads/caretrust-reit-hero.png",
+          "file": "artifacts/index-logo-candidates/CTRE/caretrust-reit-hero.png",
+          "bytes": 1707725,
+          "content_type": "image/png"
+        },
+        {
+          "url": "https://www.caretrustreit.com/uploads/ChatGPT-Image-Jan-12-2026-12_17_08-PM_2026-01-12-201959_casd.png",
+          "file": "artifacts/index-logo-candidates/CTRE/ChatGPT-Image-Jan-12-2026-12_17_08-PM_2026-01-12-201959_casd.png",
+          "bytes": 1960281,
+          "content_type": "image/png"
+        }
       ]
     },
     {
@@ -336,13 +451,33 @@
       "index_memberships": [
         "Russell 2000"
       ],
-      "status": "logo-candidates-found",
+      "status": "candidate-assets-staged",
       "official_source_url": "https://www.glaukos.com/",
       "asset_links": [
         "https://www.glaukos.com/wp-content/themes/pint-glaukos/assets/manifest/favicon.png",
         "https://www.glaukos.com/wp-content/themes/pint-glaukos/assets/manifest/favicon.svg",
         "https://www.glaukos.com/wp-content/themes/pint-glaukos/assets/manifest/apple-touch-icon.png",
         "https://www.glaukos.com/wp-content/themes/pint-glaukos/assets/images/glaukos-logo-green.svg"
+      ],
+      "downloaded_candidates": [
+        {
+          "url": "https://www.glaukos.com/wp-content/themes/pint-glaukos/assets/manifest/favicon.png",
+          "file": "artifacts/index-logo-candidates/GKOS/favicon.png",
+          "bytes": 793,
+          "content_type": "image/png"
+        },
+        {
+          "url": "https://www.glaukos.com/wp-content/themes/pint-glaukos/assets/manifest/favicon.svg",
+          "file": "artifacts/index-logo-candidates/GKOS/favicon.svg",
+          "bytes": 7090,
+          "content_type": "image/svg+xml"
+        },
+        {
+          "url": "https://www.glaukos.com/wp-content/themes/pint-glaukos/assets/manifest/apple-touch-icon.png",
+          "file": "artifacts/index-logo-candidates/GKOS/apple-touch-icon.png",
+          "bytes": 9607,
+          "content_type": "image/png"
+        }
       ]
     },
     {
@@ -355,7 +490,7 @@
       "index_memberships": [
         "Russell 2000"
       ],
-      "status": "logo-candidates-found",
+      "status": "candidate-assets-staged",
       "official_source_url": "https://cytokinetics.com/",
       "asset_links": [
         "https://cytokinetics.com/wp-content/themes/cytokinetics/assets/images/logo-cytokinetics.png",
@@ -366,6 +501,26 @@
         "https://cytokinetics.com/wp-content/uploads/2023/08/photo-responsibility-1.png",
         "https://cytokinetics.com/wp-content/uploads/2023/08/photo-careers-1.png",
         "https://cytokinetics.com/wp-content/themes/cytokinetics/assets/images/logo-cytokinetics-footer.png"
+      ],
+      "downloaded_candidates": [
+        {
+          "url": "https://cytokinetics.com/wp-content/themes/cytokinetics/assets/images/logo-cytokinetics.png",
+          "file": "artifacts/index-logo-candidates/CYTK/logo-cytokinetics.png",
+          "bytes": 323088,
+          "content_type": "image/png"
+        },
+        {
+          "url": "https://cytokinetics.com/wp-content/uploads/2025/05/medicines-and-research_desktop_@2x-min.png",
+          "file": "artifacts/index-logo-candidates/CYTK/medicines-and-research_desktop__2x-min.png",
+          "bytes": 488861,
+          "content_type": "image/png"
+        },
+        {
+          "url": "https://cytokinetics.com/wp-content/uploads/2024/04/avonne-w-frame.png",
+          "file": "artifacts/index-logo-candidates/CYTK/avonne-w-frame.png",
+          "bytes": 122954,
+          "content_type": "image/png"
+        }
       ]
     },
     {
@@ -378,7 +533,7 @@
       "index_memberships": [
         "Russell 2000"
       ],
-      "status": "logo-candidates-found",
+      "status": "candidate-assets-staged",
       "official_source_url": "https://www.oldnational.com/",
       "asset_links": [
         "https://oldnational.com/apple-touch-icon-57x57.png",
@@ -404,6 +559,26 @@
         "https://oldnational.com/4acbe5/globalassets/onb-site/onb-images/onb-homepage/2432183-love-for-louisville-800x534.jpg?format=webp",
         "https://oldnational.com/496358/globalassets/images/global/fdic_member-white.png?format=webp",
         "https://oldnational.com/4961a3/globalassets/images/global/equal_housing_lender-white.png?format=webp"
+      ],
+      "downloaded_candidates": [
+        {
+          "url": "https://oldnational.com/apple-touch-icon-57x57.png",
+          "file": "artifacts/index-logo-candidates/ONB/apple-touch-icon-57x57.png",
+          "bytes": 325,
+          "content_type": "image/png"
+        },
+        {
+          "url": "https://oldnational.com/apple-touch-icon-60x60.png",
+          "file": "artifacts/index-logo-candidates/ONB/apple-touch-icon-60x60.png",
+          "bytes": 302,
+          "content_type": "image/png"
+        },
+        {
+          "url": "https://oldnational.com/apple-touch-icon-72x72.png",
+          "file": "artifacts/index-logo-candidates/ONB/apple-touch-icon-72x72.png",
+          "bytes": 358,
+          "content_type": "image/png"
+        }
       ]
     },
     {
@@ -416,7 +591,7 @@
       "index_memberships": [
         "Russell 2000"
       ],
-      "status": "logo-candidates-found",
+      "status": "candidate-assets-staged",
       "official_source_url": "https://firstcash.com/",
       "asset_links": [
         "https://firstcash.com/wp-content/uploads/2019/03/firstcash-logo-color.png",
@@ -449,6 +624,26 @@
         "https://firstcash.com/wp-content/uploads/2019/05/scrapgold-1.jpg",
         "https://firstcash.com/wp-content/uploads/2019/05/whatwebuy.jpg",
         "https://firstcash.com/wp-content/uploads/2019/07/store.jpg"
+      ],
+      "downloaded_candidates": [
+        {
+          "url": "https://firstcash.com/wp-content/uploads/2019/03/firstcash-logo-color.png",
+          "file": "artifacts/index-logo-candidates/FCFS/firstcash-logo-color.png",
+          "bytes": 10882,
+          "content_type": "image/png"
+        },
+        {
+          "url": "https://firstcash.com/wp-content/uploads/2019/06/alabama.png",
+          "file": "artifacts/index-logo-candidates/FCFS/alabama.png",
+          "bytes": 8307,
+          "content_type": "image/png"
+        },
+        {
+          "url": "https://firstcash.com/wp-content/uploads/2019/06/alaska.png",
+          "file": "artifacts/index-logo-candidates/FCFS/alaska.png",
+          "bytes": 16422,
+          "content_type": "image/png"
+        }
       ]
     },
     {
