@@ -6681,48 +6681,52 @@
           "company_name": "Umb Financial",
           "exchange": "NASDAQ",
           "cik": null,
-          "official_domain": null,
+          "official_domain": "umb.com",
           "source_url": "https://www.ishares.com/us/products/239710/ishares-russell-2000-etf/latest-holdings.csv",
           "index_memberships": [
             "Russell 2000"
           ],
-          "status": "constituent-pending-logo"
+          "status": "official-domain-verified",
+          "official_source_url": "https://www.umb.com/"
         },
         {
           "ticker": "TXG",
           "company_name": "10X Genomics Class A",
           "exchange": "NASDAQ",
           "cik": null,
-          "official_domain": null,
+          "official_domain": "10xgenomics.com",
           "source_url": "https://www.ishares.com/us/products/239710/ishares-russell-2000-etf/latest-holdings.csv",
           "index_memberships": [
             "Russell 2000"
           ],
-          "status": "constituent-pending-logo"
+          "status": "official-domain-verified",
+          "official_source_url": "https://www.10xgenomics.com/"
         },
         {
           "ticker": "VSAT",
           "company_name": "Viasat Inc",
           "exchange": "NASDAQ",
           "cik": null,
-          "official_domain": null,
+          "official_domain": "viasat.com",
           "source_url": "https://www.ishares.com/us/products/239710/ishares-russell-2000-etf/latest-holdings.csv",
           "index_memberships": [
             "Russell 2000"
           ],
-          "status": "constituent-pending-logo"
+          "status": "official-domain-verified",
+          "official_source_url": "https://www.viasat.com/"
         },
         {
           "ticker": "BTSG",
           "company_name": "Brightspring Health Services Inc",
           "exchange": "NASDAQ",
           "cik": null,
-          "official_domain": null,
+          "official_domain": "brightspringhealth.com",
           "source_url": "https://www.ishares.com/us/products/239710/ishares-russell-2000-etf/latest-holdings.csv",
           "index_memberships": [
             "Russell 2000"
           ],
-          "status": "constituent-pending-logo"
+          "status": "official-domain-verified",
+          "official_source_url": "https://www.brightspringhealth.com/"
         },
         {
           "ticker": "KRYS",
@@ -30317,7 +30321,7 @@
           "status": "constituent-pending-logo"
         }
       ],
-      "domain_reviewed_count": 4
+      "domain_reviewed_count": 8
     }
   ],
   "merge_instructions": {
