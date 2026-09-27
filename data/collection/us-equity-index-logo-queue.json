@@ -6733,48 +6733,52 @@
           "company_name": "Krystal Biotech",
           "exchange": "NASDAQ",
           "cik": null,
-          "official_domain": null,
+          "official_domain": "krystalbio.com",
           "source_url": "https://www.ishares.com/us/products/239710/ishares-russell-2000-etf/latest-holdings.csv",
           "index_memberships": [
             "Russell 2000"
           ],
-          "status": "constituent-pending-logo"
+          "status": "official-domain-verified",
+          "official_source_url": "https://www.krystalbio.com/"
         },
         {
           "ticker": "EAT",
           "company_name": "Brinker International Inc",
           "exchange": "NYSE",
           "cik": null,
-          "official_domain": null,
+          "official_domain": "brinker.com",
           "source_url": "https://www.ishares.com/us/products/239710/ishares-russell-2000-etf/latest-holdings.csv",
           "index_memberships": [
             "Russell 2000"
           ],
-          "status": "constituent-pending-logo"
+          "status": "official-domain-verified",
+          "official_source_url": "https://www.brinker.com/"
         },
         {
           "ticker": "CTRE",
           "company_name": "Caretrust Reit",
           "exchange": "NYSE",
           "cik": null,
-          "official_domain": null,
+          "official_domain": "caretrustreit.com",
           "source_url": "https://www.ishares.com/us/products/239710/ishares-russell-2000-etf/latest-holdings.csv",
           "index_memberships": [
             "Russell 2000"
           ],
-          "status": "constituent-pending-logo"
+          "status": "official-domain-verified",
+          "official_source_url": "https://www.caretrustreit.com/"
         },
         {
           "ticker": "GKOS",
           "company_name": "Glaukos",
           "exchange": "NYSE",
           "cik": null,
-          "official_domain": null,
+          "official_domain": "glaukos.com",
           "source_url": "https://www.ishares.com/us/products/239710/ishares-russell-2000-etf/latest-holdings.csv",
           "index_memberships": [
             "Russell 2000"
           ],
-          "status": "constituent-pending-logo"
+          "status": "official-domain-verified",
+          "official_source_url": "https://www.glaukos.com/"
         },
         {
           "ticker": "CYTK",
@@ -30321,7 +30325,7 @@
           "status": "constituent-pending-logo"
         }
       ],
-      "domain_reviewed_count": 8
+      "domain_reviewed_count": 12
     }
   ],
   "merge_instructions": {
