@@ -1,0 +1,187 @@
+{
+  "schema": 1,
+  "source_queue": "data/collection/us-equity-index-logo-queue.json",
+  "policy": "official-domain and rights review required before publication",
+  "items": [
+    {
+      "ticker": "TWST",
+      "company_name": "Twist Bioscience",
+      "exchange": "NASDAQ",
+      "cik": null,
+      "official_domain": "twistbioscience.com",
+      "source_url": "https://www.ishares.com/us/products/239710/ishares-russell-2000-etf/latest-holdings.csv",
+      "index_memberships": [
+        "Russell 2000"
+      ],
+      "status": "domain-fetch-failed",
+      "official_source_url": "https://www.twistbioscience.com/",
+      "asset_links": [],
+      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+    },
+    {
+      "ticker": "MOG A",
+      "company_name": "Moog Inc Class A",
+      "exchange": "NYSE",
+      "cik": null,
+      "official_domain": "moog.com",
+      "source_url": "https://www.ishares.com/us/products/239710/ishares-russell-2000-etf/latest-holdings.csv",
+      "index_memberships": [
+        "Russell 2000"
+      ],
+      "status": "domain-fetch-failed",
+      "official_source_url": "https://www.moog.com/",
+      "asset_links": [],
+      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+    },
+    {
+      "ticker": "HUT",
+      "company_name": "Hut Corp",
+      "exchange": "NASDAQ",
+      "cik": null,
+      "official_domain": "hut8.com",
+      "source_url": "https://www.ishares.com/us/products/239710/ishares-russell-2000-etf/latest-holdings.csv",
+      "index_memberships": [
+        "Russell 2000"
+      ],
+      "status": "domain-fetch-failed",
+      "official_source_url": "https://www.hut8.com/",
+      "asset_links": [],
+      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+    },
+    {
+      "ticker": "FROG",
+      "company_name": "Jfrog",
+      "exchange": "NASDAQ",
+      "cik": null,
+      "official_domain": "jfrog.com",
+      "source_url": "https://www.ishares.com/us/products/239710/ishares-russell-2000-etf/latest-holdings.csv",
+      "index_memberships": [
+        "Russell 2000"
+      ],
+      "status": "domain-fetch-failed",
+      "official_source_url": "https://jfrog.com/",
+      "asset_links": [],
+      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+    },
+    {
+      "ticker": "UMBF",
+      "company_name": "Umb Financial",
+      "exchange": "NASDAQ",
+      "cik": null,
+      "official_domain": "umb.com",
+      "source_url": "https://www.ishares.com/us/products/239710/ishares-russell-2000-etf/latest-holdings.csv",
+      "index_memberships": [
+        "Russell 2000"
+      ],
+      "status": "domain-fetch-failed",
+      "official_source_url": "https://www.umb.com/",
+      "asset_links": [],
+      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+    },
+    {
+      "ticker": "TXG",
+      "company_name": "10X Genomics Class A",
+      "exchange": "NASDAQ",
+      "cik": null,
+      "official_domain": "10xgenomics.com",
+      "source_url": "https://www.ishares.com/us/products/239710/ishares-russell-2000-etf/latest-holdings.csv",
+      "index_memberships": [
+        "Russell 2000"
+      ],
+      "status": "domain-fetch-failed",
+      "official_source_url": "https://www.10xgenomics.com/",
+      "asset_links": [],
+      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+    },
+    {
+      "ticker": "VSAT",
+      "company_name": "Viasat Inc",
+      "exchange": "NASDAQ",
+      "cik": null,
+      "official_domain": "viasat.com",
+      "source_url": "https://www.ishares.com/us/products/239710/ishares-russell-2000-etf/latest-holdings.csv",
+      "index_memberships": [
+        "Russell 2000"
+      ],
+      "status": "domain-fetch-failed",
+      "official_source_url": "https://www.viasat.com/",
+      "asset_links": [],
+      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+    },
+    {
+      "ticker": "BTSG",
+      "company_name": "Brightspring Health Services Inc",
+      "exchange": "NASDAQ",
+      "cik": null,
+      "official_domain": "brightspringhealth.com",
+      "source_url": "https://www.ishares.com/us/products/239710/ishares-russell-2000-etf/latest-holdings.csv",
+      "index_memberships": [
+        "Russell 2000"
+      ],
+      "status": "domain-fetch-failed",
+      "official_source_url": "https://www.brightspringhealth.com/",
+      "asset_links": [],
+      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+    },
+    {
+      "ticker": "KRYS",
+      "company_name": "Krystal Biotech",
+      "exchange": "NASDAQ",
+      "cik": null,
+      "official_domain": "krystalbio.com",
+      "source_url": "https://www.ishares.com/us/products/239710/ishares-russell-2000-etf/latest-holdings.csv",
+      "index_memberships": [
+        "Russell 2000"
+      ],
+      "status": "domain-fetch-failed",
+      "official_source_url": "https://www.krystalbio.com/",
+      "asset_links": [],
+      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+    },
+    {
+      "ticker": "EAT",
+      "company_name": "Brinker International Inc",
+      "exchange": "NYSE",
+      "cik": null,
+      "official_domain": "brinker.com",
+      "source_url": "https://www.ishares.com/us/products/239710/ishares-russell-2000-etf/latest-holdings.csv",
+      "index_memberships": [
+        "Russell 2000"
+      ],
+      "status": "domain-fetch-failed",
+      "official_source_url": "https://www.brinker.com/",
+      "asset_links": [],
+      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+    },
+    {
+      "ticker": "CTRE",
+      "company_name": "Caretrust Reit",
+      "exchange": "NYSE",
+      "cik": null,
+      "official_domain": "caretrustreit.com",
+      "source_url": "https://www.ishares.com/us/products/239710/ishares-russell-2000-etf/latest-holdings.csv",
+      "index_memberships": [
+        "Russell 2000"
+      ],
+      "status": "domain-fetch-failed",
+      "official_source_url": "https://www.caretrustreit.com/",
+      "asset_links": [],
+      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+    },
+    {
+      "ticker": "GKOS",
+      "company_name": "Glaukos",
+      "exchange": "NYSE",
+      "cik": null,
+      "official_domain": "glaukos.com",
+      "source_url": "https://www.ishares.com/us/products/239710/ishares-russell-2000-etf/latest-holdings.csv",
+      "index_memberships": [
+        "Russell 2000"
+      ],
+      "status": "domain-fetch-failed",
+      "official_source_url": "https://www.glaukos.com/",
+      "asset_links": [],
+      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+    }
+  ]
+}
