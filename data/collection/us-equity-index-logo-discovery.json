@@ -13,10 +13,12 @@
       "index_memberships": [
         "Russell 2000"
       ],
-      "status": "domain-fetch-failed",
+      "status": "official-page-confirmed",
       "official_source_url": "https://www.twistbioscience.com/",
       "asset_links": [],
-      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+      "discovery_source_pages": [
+        "https://www.twistbioscience.com/"
+      ]
     },
     {
       "ticker": "MOG A",
@@ -28,10 +30,12 @@
       "index_memberships": [
         "Russell 2000"
       ],
-      "status": "domain-fetch-failed",
+      "status": "official-page-confirmed",
       "official_source_url": "https://www.moog.com/",
       "asset_links": [],
-      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+      "discovery_source_pages": [
+        "https://www.moog.com/"
+      ]
     },
     {
       "ticker": "HUT",
@@ -43,10 +47,12 @@
       "index_memberships": [
         "Russell 2000"
       ],
-      "status": "domain-fetch-failed",
+      "status": "asset-source-page-found",
       "official_source_url": "https://www.hut8.com/",
       "asset_links": [],
-      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+      "discovery_source_pages": [
+        "https://www.hut8.com/news-insights/resources"
+      ]
     },
     {
       "ticker": "FROG",
@@ -58,10 +64,12 @@
       "index_memberships": [
         "Russell 2000"
       ],
-      "status": "domain-fetch-failed",
+      "status": "official-page-confirmed",
       "official_source_url": "https://jfrog.com/",
       "asset_links": [],
-      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+      "discovery_source_pages": [
+        "https://jfrog.com/getcli/"
+      ]
     },
     {
       "ticker": "UMBF",
@@ -183,5 +191,6 @@
       "asset_links": [],
       "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
     }
-  ]
+  ],
+  "browser_verified_at": "2026-09-27"
 }
