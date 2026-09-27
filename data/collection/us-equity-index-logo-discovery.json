@@ -4,40 +4,6 @@
   "policy": "official-domain and rights review required before publication",
   "items": [
     {
-      "ticker": "TWST",
-      "company_name": "Twist Bioscience",
-      "exchange": "NASDAQ",
-      "cik": null,
-      "official_domain": "twistbioscience.com",
-      "source_url": "https://www.ishares.com/us/products/239710/ishares-russell-2000-etf/latest-holdings.csv",
-      "index_memberships": [
-        "Russell 2000"
-      ],
-      "status": "official-page-confirmed",
-      "official_source_url": "https://www.twistbioscience.com/",
-      "asset_links": [],
-      "discovery_source_pages": [
-        "https://www.twistbioscience.com/"
-      ]
-    },
-    {
-      "ticker": "MOG A",
-      "company_name": "Moog Inc Class A",
-      "exchange": "NYSE",
-      "cik": null,
-      "official_domain": "moog.com",
-      "source_url": "https://www.ishares.com/us/products/239710/ishares-russell-2000-etf/latest-holdings.csv",
-      "index_memberships": [
-        "Russell 2000"
-      ],
-      "status": "official-page-confirmed",
-      "official_source_url": "https://www.moog.com/",
-      "asset_links": [],
-      "discovery_source_pages": [
-        "https://www.moog.com/"
-      ]
-    },
-    {
       "ticker": "HUT",
       "company_name": "Hut Corp",
       "exchange": "NASDAQ",
@@ -55,6 +21,86 @@
       ]
     },
     {
+      "ticker": "TWST",
+      "company_name": "Twist Bioscience",
+      "exchange": "NASDAQ",
+      "cik": null,
+      "official_domain": "twistbioscience.com",
+      "source_url": "https://www.ishares.com/us/products/239710/ishares-russell-2000-etf/latest-holdings.csv",
+      "index_memberships": [
+        "Russell 2000"
+      ],
+      "status": "logo-candidates-found",
+      "official_source_url": "https://www.twistbioscience.com/",
+      "asset_links": [
+        "https://twistbioscience.com/content/dam/twistbioscience/themes/custom/twist_barrio/favicon.png",
+        "https://twistbioscience.com/content/dam/twist-aem-migration/twist-home-logo.svg",
+        "https://twistbioscience.com/content/dam/twist-aem-migration/logos/logo-dark-mode.svg",
+        "https://twistbioscience.com/content/dam/twist-aem-migration/about/be629ff0-69e8-48a7-b80d-97a2827a344b.svg",
+        "https://twistbioscience.com/content/dam/twist-aem-migration/about/tlogo.svg",
+        "https://twistbioscience.com/content/dam/twistbioscience/logo-desktop-white.svg",
+        "https://twistbioscience.com/content/dam/twistbioscience/logo-mobile-white.svg",
+        "https://twistbioscience.com/content/dam/twistbioscience/2025-02/Genes-Logo-42x42.svg",
+        "https://twistbioscience.com/content/dam/twistbioscience/2025-02/Oligo-Pools%20Logo-42x42.svg",
+        "https://twistbioscience.com/content/dam/twistbioscience/2025-02/NGS-Logo-42x42.svg",
+        "https://twistbioscience.com/content/dam/twistbioscience/2025-02/Variant-Libraries%20Logo-42x42.svg",
+        "https://twistbioscience.com/content/dam/twist-aem-migration/primary-navigation/icon-antibodies.png",
+        "https://twistbioscience.com/content/dam/twistbioscience/2025-02/IVDR-Logo-42x42_0.svg",
+        "https://twistbioscience.com/content/dam/twistbioscience/themes/custom/twist_barrio/images/ExternalLink.svg",
+        "https://twistbioscience.com/content/dam/twist-aem-migration/primary-navigation/genes-feature.png",
+        "https://twistbioscience.com/content/dam/twist-aem-migration/primary-navigation/oligo-pools-global_0.png",
+        "https://twistbioscience.com/content/dam/twistbioscience/2026-02/trueamp-product-image.png",
+        "https://twistbioscience.com/content/dam/twist-aem-migration/primary-navigation/CVL-library-promo-426x272.png",
+        "https://twistbioscience.com/content/dam/twist-aem-migration/primary-navigation/antibodies-promo-thumbnail.png",
+        "https://twistbioscience.com/content/dam/twist-aem-migration/primary-navigation/personalized-sequencing-promo-thumbnail-426x272_0.png",
+        "https://twistbioscience.com/content/dam/twist-aem-migration/primary-navigation/SARS-CoV-2-NGS-Assay-EUA-global-213-136.png",
+        "https://twistbioscience.com/content/dam/twist-aem-migration/primary-navigation/Frame2.png",
+        "https://twistbioscience.com/content/dam/twistbioscience/2020-08/COVID-ICON.svg",
+        "https://twistbioscience.com/content/dam/twistbioscience/2021-05/icon-genes.png",
+        "https://twistbioscience.com/content/dam/twistbioscience/2021-05/icon-pools.png",
+        "https://twistbioscience.com/content/dam/twistbioscience/2021-05/icon-custom-vectors.png",
+        "https://twistbioscience.com/content/dam/twistbioscience/2021-12/icon-antibodies.png",
+        "https://twistbioscience.com/content/dam/twistbioscience/2021-05/icon-ngs.png",
+        "https://twistbioscience.com/content/dam/twistbioscience/2021-05/icon-libraries.png",
+        "https://twistbioscience.com/content/dam/twistbioscience/close.png"
+      ]
+    },
+    {
+      "ticker": "MOG A",
+      "company_name": "Moog Inc Class A",
+      "exchange": "NYSE",
+      "cik": null,
+      "official_domain": "moog.com",
+      "source_url": "https://www.ishares.com/us/products/239710/ishares-russell-2000-etf/latest-holdings.csv",
+      "index_memberships": [
+        "Russell 2000"
+      ],
+      "status": "logo-candidates-found",
+      "official_source_url": "https://www.moog.com/",
+      "asset_links": [
+        "https://moog.com/content/dam/internet-explorer.png",
+        "https://moog.com/content/dam/chrome.png",
+        "https://moog.com/content/dam/firefox.png",
+        "https://moog.com/content/dam/sites/moog/images/logos/Moog_logo_white_1450.webp",
+        "https://moog.com/content/dam/sites/moog/images/Investors/new-web-design/icons/news-icon.png",
+        "https://moog.com/content/dam/sites/moog/images/Investors/new-web-design/icons/presentations-icon.png",
+        "https://moog.com/content/dam/sites/moog/images/Investors/new-web-design/icons/financial-icon.png",
+        "https://moog.com/content/dam/sites/moog/images/Investors/new-web-design/icons/stock-icon.png",
+        "https://moog.com/content/dam/sites/moog/images/Investors/new-web-design/icons/governance-icon.png",
+        "https://moog.com/content/dam/sites/moog/images/Investors/new-web-design/icons/contact-icon.png",
+        "https://moog.com/content/dam/sites/moog/images/Investors/new-web-design/icons/investors-home-icon.png",
+        "https://moog.com/content/dam/sites/moog/images/icons/careers-icons/life-at-moog-icon.png",
+        "https://moog.com/content/dam/sites/moog/images/icons/careers-icons/what-we-offer-icon.png",
+        "https://moog.com/content/dam/sites/moog/images/icons/careers-icons/students-and-interns-icon.png",
+        "https://moog.com/content/dam/sites/moog/images/about-us/Components_Group/sustainability-icons/environment-icon.png",
+        "https://moog.com/content/dam/sites/moog/images/about-us/Components_Group/sustainability-icons/social-icon.png",
+        "https://moog.com/content/dam/sites/moog/images/about-us/Components_Group/sustainability-icons/governance-icon.png",
+        "https://moog.com/content/dam/sites/moog/images/icons/social-media-icons/YouTube_Icon.png",
+        "https://moog.com/content/dam/sites/moog/images/icons/social-media-icons/LinkedIn_Icon.png",
+        "https://moog.com/content/dam/sites/moog/images/icons/social-media-icons/Facebook_Icon.png"
+      ]
+    },
+    {
       "ticker": "FROG",
       "company_name": "Jfrog",
       "exchange": "NASDAQ",
@@ -64,12 +110,9 @@
       "index_memberships": [
         "Russell 2000"
       ],
-      "status": "official-page-confirmed",
+      "status": "no-direct-logo-link",
       "official_source_url": "https://jfrog.com/",
-      "asset_links": [],
-      "discovery_source_pages": [
-        "https://jfrog.com/getcli/"
-      ]
+      "asset_links": []
     },
     {
       "ticker": "UMBF",
@@ -81,10 +124,40 @@
       "index_memberships": [
         "Russell 2000"
       ],
-      "status": "domain-fetch-failed",
+      "status": "logo-candidates-found",
       "official_source_url": "https://www.umb.com/",
-      "asset_links": [],
-      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+      "asset_links": [
+        "https://umb.com/favicon-96x96.png?v=2",
+        "https://umb.com/favicon.svg?v=2",
+        "https://umb.com/apple-touch-icon.png?v=2",
+        "https://umb.com/sites/default/files/2023-05/Location.svg",
+        "https://umb.com/sites/default/files/2023-05/Phone.svg",
+        "https://umb.com/sites/default/files/UMB-2x-Logo-Digital-BlueCyan-RGB.svg",
+        "https://umb.com/sites/default/files/2026-07/33227dc0-bill-pay-update-2025-hero-3000x2015-v2_11b00vk1ay0vk00000001o.jpg",
+        "https://umb.com/sites/default/files/2023-05/UMB-TL-Mortgage-Home-Loans-840x500.jpg",
+        "https://umb.com/sites/default/files/blog/2022/05/HELOC-or-second-mortgage.jpg",
+        "https://umb.com/sites/default/files/2023-05/umb-icon-checking.svg",
+        "https://umb.com/sites/default/files/2023-05/umb-icon-savings.svg",
+        "https://umb.com/sites/default/files/2023-05/umb-icon-credit-card.svg",
+        "https://umb.com/sites/default/files/2023-05/umb-icon-financial-planning.svg",
+        "https://umb.com/sites/default/files/2023-05/real-estate-action-building-key.svg",
+        "https://umb.com/sites/default/files/2023-05/umb-icon-private-banking.svg",
+        "https://umb.com/sites/default/files/2023-05/cash-pin-map.svg",
+        "https://umb.com/sites/default/files/2023-05/car-dashboard-speed.svg",
+        "https://umb.com/sites/default/files/styles/text_and_image_mobile/public/2023-10/husband%20and%20wife%20on%20couch%20with%20laptop.jpg?h=41f55a5b&amp;itok=7g5tzhFA",
+        "https://umb.com/sites/default/files/styles/card_featured_content_promo_carousel/public/2023-07/black-couple-financial-advisor-and-investment-pla-2023-02-28-05-49-49-utc.jpg?h=f79df368&amp;itok=_K1BzjpH",
+        "https://umb.com/sites/default/files/styles/card_featured_content_promo_carousel/public/2023-05/Checking-and-Savings-account.jpg?h=10d202d3&amp;itok=XSGiyU6w",
+        "https://umb.com/sites/default/files/styles/card_featured_content_promo_carousel/public/2026-07/Woman-looking-out-window.jpg?h=0b779136&amp;itok=Yz9grWql",
+        "https://umb.com/sites/default/files/styles/text_and_image_mobile/public/2023-06/UMB-T-Phone-Banking-640x350.jpg?h=13d73c84&amp;itok=sMqI35eM",
+        "https://umb.com/sites/default/files/styles/featured_image/public/2023-06/UMB-H-SBB-A-Home-Page-Hero-1680x600.jpg?h=0a482f9b&amp;itok=1wz31eMc",
+        "https://umb.com/sites/default/files/styles/coh_medium/public/blog/2025/10/stay-home-parent.jpg?itok=hCxKid4Y",
+        "https://umb.com/sites/default/files/styles/coh_medium/public/blog/2025/07/money-market-account.jpg?itok=q6Kpb4NU",
+        "https://umb.com/sites/default/files/styles/coh_medium/public/blog/2026/09/Reassessing-target-date-funds.jpg?itok=9Sg8i2is",
+        "https://umb.com/sites/default/files/styles/coh_medium/public/blog/2023/03/understanding-lines-of-credit.jpg?itok=EUzEJoiG",
+        "https://umb.com/sites/default/files/styles/coh_medium/public/blog/2026/08/Gen-X-retirement.jpg?itok=s9RYew6B",
+        "https://umb.com/sites/default/files/styles/text_and_image_mobile/public/2023-07/Simply%20Rewards%20Credit%20Card%20640x350.png?h=13d73c84&amp;itok=Po88roi9",
+        "https://umb.com/sites/default/files/styles/text_and_image_mobile/public/2023-06/UMB-T-ATM-640x350.jpg?h=13d73c84&amp;itok=_MM311Cl"
+      ]
     },
     {
       "ticker": "TXG",
@@ -99,7 +172,7 @@
       "status": "domain-fetch-failed",
       "official_source_url": "https://www.10xgenomics.com/",
       "asset_links": [],
-      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+      "error": "HTTP Error 429: Too Many Requests"
     },
     {
       "ticker": "VSAT",
@@ -111,10 +184,26 @@
       "index_memberships": [
         "Russell 2000"
       ],
-      "status": "domain-fetch-failed",
+      "status": "logo-candidates-found",
       "official_source_url": "https://www.viasat.com/",
-      "asset_links": [],
-      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+      "asset_links": [
+        "https://viasat.com/content/dam/us-site/residential/dm-images/Starry-night-sky-with-trees-1920x1080.png",
+        "https://viasat.com/content/dam/us-site/corporate/dm-images/technology/vs3/f3/VS3F3-Webpage-Banner-3790x1440-18036881217-001.jpg",
+        "https://viasat.com/content/dam/us-site/corporate/dm-images/technology/vs3/VS3-F2-logo-white-v2.png",
+        "https://viasat.com/content/dam/us-site/corporate/dm-images/technology/vs3/f3/VS3F3-Webpage-Banner-3840x2160-18036881217-001.jpg",
+        "https://viasat.com/content/dam/us-site/aviation/dm-images/commercial-aviation/Gradient-Teal.png",
+        "https://viasat.com/content/dam/us-site/aviation/dm-images/commercial-aviation/front-view-plane.png",
+        "https://viasat.com/content/dam/us-site/corporate/dm-images/home/woman-laptop-porch-1920-1080.jpg",
+        "https://viasat.com/content/dam/us-site/corporate/dm-images/home/business-man-and-woman-inventory-OP.jpg",
+        "https://viasat.com/content/dam/us-site/corporate/dm-images/home/CORP_gi511713586.jpg",
+        "https://viasat.com/content/dam/us-site/energy-services/dm-images/energy/energy-systems-integration.jpg",
+        "https://viasat.com/content/dam/us-site/enterprise/dm-images/ELM_is1466981195.jpg",
+        "https://viasat.com/content/dam/us-site/corporate/images/soldiers-helicopter-dusk.jpg",
+        "https://viasat.com/content/dam/us-site/maritime/dm-images/Viasat-GEM-container-ship-aerial .jpg",
+        "https://viasat.com/content/dam/us-site/aviation/dm-images/advertising/GEM-Ad-airplane-passenger-mobile-phone.jpg",
+        "https://viasat.com/content/dam/us-site/corporate/dm-images/generic/CORP_Viasat_Carlsbad_headquarters_5439.jpg",
+        "https://viasat.com/content/dam/us-site/corporate/dm-images/sustainability/CORP_ESG_FY26.jpg"
+      ]
     },
     {
       "ticker": "BTSG",
@@ -126,10 +215,40 @@
       "index_memberships": [
         "Russell 2000"
       ],
-      "status": "domain-fetch-failed",
+      "status": "logo-candidates-found",
       "official_source_url": "https://www.brightspringhealth.com/",
-      "asset_links": [],
-      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+      "asset_links": [
+        "https://www.brightspringhealth.com/wp-content/uploads/cropped-BrightSpring_Favicon_512x512-32x32.png",
+        "https://www.brightspringhealth.com/wp-content/uploads/cropped-BrightSpring_Favicon_512x512-192x192.png",
+        "https://www.brightspringhealth.com/wp-content/uploads/cropped-BrightSpring_Favicon_512x512-180x180.png",
+        "https://www.brightspringhealth.com/wp-content/uploads/2024/10/external-link.svg",
+        "https://www.brightspringhealth.com/wp-content/uploads/2024/10/logo-brightspring4-h.svg",
+        "https://www.brightspringhealth.com/wp-content/uploads/2024/12/Who-We-Are.png",
+        "https://www.brightspringhealth.com/wp-content/uploads/2024/12/Our-People.png",
+        "https://www.brightspringhealth.com/wp-content/uploads/2024/09/leadership-nav.jpg",
+        "https://www.brightspringhealth.com/wp-content/uploads/2024/09/managed-care-nav.jpg",
+        "https://www.brightspringhealth.com/wp-content/uploads/2024/12/iStock-1501184003-scaled.jpg",
+        "https://www.brightspringhealth.com/wp-content/uploads/2024/12/iStock-1403075967.jpg",
+        "https://www.brightspringhealth.com/wp-content/uploads/2024/12/Pharmacy-Services.png",
+        "https://www.brightspringhealth.com/wp-content/uploads/2024/12/iStock-1020585000-scaled.jpg",
+        "https://www.brightspringhealth.com/wp-content/uploads/2024/12/iStock-1441689259-1-scaled.jpg",
+        "https://www.brightspringhealth.com/wp-content/uploads/2026/07/BHS-Infusion-Therapy-whitepaper.png",
+        "https://www.brightspringhealth.com/wp-content/uploads/2024/12/GettyImages-1483379818-scaled.jpg",
+        "https://www.brightspringhealth.com/wp-content/uploads/2024/12/brightspring-home-health-care.jpg",
+        "https://www.brightspringhealth.com/wp-content/uploads/2024/12/brightspring-community-rehab-services.jpg",
+        "https://www.brightspringhealth.com/wp-content/uploads/2025/01/GettyImages-165995755-1200x800.jpg",
+        "https://www.brightspringhealth.com/wp-content/uploads/2024/12/brightspring-home-community-pharmacies.jpg",
+        "https://www.brightspringhealth.com/wp-content/uploads/2024/12/brightspring-home-based-primary-care.jpg",
+        "https://www.brightspringhealth.com/wp-content/uploads/2024/12/brightspring-managed-care.jpg",
+        "https://www.brightspringhealth.com/wp-content/uploads/2026/09/ZENBEXUS_Onco360.png",
+        "https://www.brightspringhealth.com/wp-content/uploads/2026/09/ETCAMAH_Onco360.png",
+        "https://www.brightspringhealth.com/wp-content/uploads/2026/09/2026_Mimrylo-Onco360.jpg",
+        "https://www.brightspringhealth.com/wp-content/uploads/2026/08/2026_RASONQUE-Onco360.jpg",
+        "https://www.brightspringhealth.com/wp-content/uploads/2026/07/Veppanu_Onco360.png",
+        "https://www.brightspringhealth.com/wp-content/uploads/2026/07/EOY-East-Central-Win-JR.png",
+        "https://www.brightspringhealth.com/wp-content/uploads/2026/05/BSH-scholarship-winners-2026-1.png",
+        "https://www.brightspringhealth.com/wp-content/uploads/2026/04/gateway-Peds-BHCOE-Eval-2.png"
+      ]
     },
     {
       "ticker": "KRYS",
@@ -141,10 +260,29 @@
       "index_memberships": [
         "Russell 2000"
       ],
-      "status": "domain-fetch-failed",
+      "status": "logo-candidates-found",
       "official_source_url": "https://www.krystalbio.com/",
-      "asset_links": [],
-      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+      "asset_links": [
+        "https://krystalbio.com/wp-content/uploads/fbrfg/apple-touch-icon.png",
+        "https://krystalbio.com/wp-content/uploads/fbrfg/favicon-32x32.png",
+        "https://krystalbio.com/wp-content/uploads/fbrfg/favicon-16x16.png",
+        "https://krystalbio.com/wp-content/uploads/fbrfg/safari-pinned-tab.svg",
+        "https://www.krystalbio.com/wp-content/uploads/2023/12/KRYS-logo-black222.png",
+        "https://krystalbio.com/wp-content/uploads/2024/11/globe.png",
+        "https://krystalbio.com/wp-content/uploads/2024/11/Flag_of_the_United_States.png",
+        "https://krystalbio.com/wp-content/uploads/2024/11/Flag_of_Germany.png",
+        "https://krystalbio.com/wp-content/uploads/2024/12/Flag_of_France.png",
+        "https://krystalbio.com/wp-content/uploads/2025/05/Flag_of_Japan.png",
+        "https://www.krystalbio.com/wp-content/uploads/2023/09/cta1.jpeg",
+        "https://www.krystalbio.com/wp-content/uploads/2023/09/cta2.jpeg",
+        "https://www.krystalbio.com/wp-content/uploads/2023/10/IR-banner-e1536797567858.jpg",
+        "https://www.krystalbio.com/wp-content/uploads/2023/09/pitt-bridge.png",
+        "https://www.krystalbio.com/wp-content/uploads/2023/10/MicrosoftTeams-image.png",
+        "https://www.krystalbio.com/wp-content/uploads/2023/08/linkedin-1.png",
+        "https://www.krystalbio.com/wp-content/uploads/2023/10/x-logo.png",
+        "https://www.krystalbio.com/wp-content/uploads/2023/10/KRYS-logo-black.svg",
+        "https://www.krystalbio.com/wp-content/uploads/2018/07/KRYS-logo-80h.jpg"
+      ]
     },
     {
       "ticker": "EAT",
@@ -156,10 +294,9 @@
       "index_memberships": [
         "Russell 2000"
       ],
-      "status": "domain-fetch-failed",
+      "status": "no-direct-logo-link",
       "official_source_url": "https://www.brinker.com/",
-      "asset_links": [],
-      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+      "asset_links": []
     },
     {
       "ticker": "CTRE",
@@ -171,10 +308,23 @@
       "index_memberships": [
         "Russell 2000"
       ],
-      "status": "domain-fetch-failed",
+      "status": "logo-candidates-found",
       "official_source_url": "https://www.caretrustreit.com/",
-      "asset_links": [],
-      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+      "asset_links": [
+        "https://caretrustreit.com/assets/logos/caretrust-logo.svg",
+        "https://www.caretrustreit.com/uploads/caretrust-reit-hero.png",
+        "https://www.caretrustreit.com/uploads/ChatGPT-Image-Jan-12-2026-12_17_08-PM_2026-01-12-201959_casd.png",
+        "https://www.caretrustreit.com/uploads/_419x688_crop_center-center_none/WILLOW-KNOLL.jpg",
+        "https://www.caretrustreit.com/uploads/_419x688_crop_center-center_none/Lexington-ALF.jpeg",
+        "https://www.caretrustreit.com/uploads/_419x688_crop_center-center_none/the-suites-rio-vista.jpg",
+        "https://www.caretrustreit.com/uploads/_419x688_crop_center-center_none/corbrook-park.jpg",
+        "https://www.caretrustreit.com/uploads/_419x688_crop_center-center_none/eastleigh-minehead.jpg",
+        "https://www.caretrustreit.com/uploads/_419x688_crop_center-center_none/julia-temple.jpg",
+        "https://www.caretrustreit.com/uploads/_419x688_crop_center-center_none/orem-rehab.jpg",
+        "https://www.caretrustreit.com/uploads/_419x688_crop_center-center_none/Columbia-Post-Acute.jpg",
+        "https://www.caretrustreit.com/uploads/_419x688_crop_center-center_none/freeland.jpg",
+        "https://www.caretrustreit.com/uploads/_419x688_crop_center-center_none/lomond-view.jpg"
+      ]
     },
     {
       "ticker": "GKOS",
@@ -186,11 +336,14 @@
       "index_memberships": [
         "Russell 2000"
       ],
-      "status": "domain-fetch-failed",
+      "status": "logo-candidates-found",
       "official_source_url": "https://www.glaukos.com/",
-      "asset_links": [],
-      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+      "asset_links": [
+        "https://www.glaukos.com/wp-content/themes/pint-glaukos/assets/manifest/favicon.png",
+        "https://www.glaukos.com/wp-content/themes/pint-glaukos/assets/manifest/favicon.svg",
+        "https://www.glaukos.com/wp-content/themes/pint-glaukos/assets/manifest/apple-touch-icon.png",
+        "https://www.glaukos.com/wp-content/themes/pint-glaukos/assets/images/glaukos-logo-green.svg"
+      ]
     }
-  ],
-  "browser_verified_at": "2026-09-27"
+  ]
 }
