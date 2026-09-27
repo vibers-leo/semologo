@@ -30,12 +30,12 @@
       "name": "S&P 500",
       "market": "US",
       "target_count": 503,
-      "status": "partial-constituents-loaded",
+      "status": "constituents-loaded",
       "source": {
         "provider": "S&P Dow Jones Indices",
         "url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
         "type": "official-index-page",
-        "constituent_snapshot": "browser-retrieved CSV excerpt; 220 rows available, full snapshot pending network restoration"
+        "constituent_snapshot": "browser-retrieved full CSV, 504 lines including header (2026-09-27)"
       },
       "record_schema": {
         "required": [
@@ -2905,6 +2905,3685 @@
           "exchange": "US",
           "cik": "0001123360",
           "gics_sector": "Financials",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "GL",
+          "company_name": "Globe Life",
+          "exchange": "US",
+          "cik": "0000320335",
+          "gics_sector": "Financials",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "GDDY",
+          "company_name": "GoDaddy",
+          "exchange": "US",
+          "cik": "0001609711",
+          "gics_sector": "Information Technology",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "GS",
+          "company_name": "Goldman Sachs",
+          "exchange": "US",
+          "cik": "0000886982",
+          "gics_sector": "Financials",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "HAL",
+          "company_name": "Halliburton",
+          "exchange": "US",
+          "cik": "0000045012",
+          "gics_sector": "Energy",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "HIG",
+          "company_name": "Hartford (The)",
+          "exchange": "US",
+          "cik": "0000874766",
+          "gics_sector": "Financials",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "HAS",
+          "company_name": "Hasbro",
+          "exchange": "US",
+          "cik": "0000046080",
+          "gics_sector": "Consumer Discretionary",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "HCA",
+          "company_name": "HCA Healthcare",
+          "exchange": "US",
+          "cik": "0000860730",
+          "gics_sector": "Health Care",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "DOC",
+          "company_name": "Healthpeak Properties",
+          "exchange": "US",
+          "cik": "0000765880",
+          "gics_sector": "Real Estate",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "HSIC",
+          "company_name": "Henry Schein",
+          "exchange": "US",
+          "cik": "0001000228",
+          "gics_sector": "Health Care",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "HSY",
+          "company_name": "Hershey Company (The)",
+          "exchange": "US",
+          "cik": "0000047111",
+          "gics_sector": "Consumer Staples",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "HPE",
+          "company_name": "Hewlett Packard Enterprise",
+          "exchange": "US",
+          "cik": "0001645590",
+          "gics_sector": "Information Technology",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "HLT",
+          "company_name": "Hilton Worldwide",
+          "exchange": "US",
+          "cik": "0001585689",
+          "gics_sector": "Consumer Discretionary",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "HD",
+          "company_name": "Home Depot (The)",
+          "exchange": "US",
+          "cik": "0000354950",
+          "gics_sector": "Consumer Discretionary",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "HONA",
+          "company_name": "Honeywell Aerospace",
+          "exchange": "US",
+          "cik": "0002089271",
+          "gics_sector": "Industrials",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "HON",
+          "company_name": "Honeywell Technologies",
+          "exchange": "US",
+          "cik": "0000773840",
+          "gics_sector": "Industrials",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "HRL",
+          "company_name": "Hormel Foods",
+          "exchange": "US",
+          "cik": "0000048465",
+          "gics_sector": "Consumer Staples",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "HST",
+          "company_name": "Host Hotels & Resorts",
+          "exchange": "US",
+          "cik": "0001070750",
+          "gics_sector": "Real Estate",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "HWM",
+          "company_name": "Howmet Aerospace",
+          "exchange": "US",
+          "cik": "0000004281",
+          "gics_sector": "Industrials",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "HPQ",
+          "company_name": "HP Inc.",
+          "exchange": "US",
+          "cik": "0000047217",
+          "gics_sector": "Information Technology",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "HUBB",
+          "company_name": "Hubbell Incorporated",
+          "exchange": "US",
+          "cik": "0000048898",
+          "gics_sector": "Industrials",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "HUM",
+          "company_name": "Humana",
+          "exchange": "US",
+          "cik": "0000049071",
+          "gics_sector": "Health Care",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "HBAN",
+          "company_name": "Huntington Bancshares",
+          "exchange": "US",
+          "cik": "0000049196",
+          "gics_sector": "Financials",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "HII",
+          "company_name": "Huntington Ingalls Industries",
+          "exchange": "US",
+          "cik": "0001501585",
+          "gics_sector": "Industrials",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "IBM",
+          "company_name": "IBM",
+          "exchange": "US",
+          "cik": "0000051143",
+          "gics_sector": "Information Technology",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "IEX",
+          "company_name": "IDEX Corporation",
+          "exchange": "US",
+          "cik": "0000832101",
+          "gics_sector": "Industrials",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "IDXX",
+          "company_name": "Idexx Laboratories",
+          "exchange": "US",
+          "cik": "0000874716",
+          "gics_sector": "Health Care",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "ITW",
+          "company_name": "Illinois Tool Works",
+          "exchange": "US",
+          "cik": "0000049826",
+          "gics_sector": "Industrials",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "INCY",
+          "company_name": "Incyte",
+          "exchange": "US",
+          "cik": "0000879169",
+          "gics_sector": "Health Care",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "IR",
+          "company_name": "Ingersoll Rand",
+          "exchange": "US",
+          "cik": "0001699150",
+          "gics_sector": "Industrials",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "PODD",
+          "company_name": "Insulet Corporation",
+          "exchange": "US",
+          "cik": "0001145197",
+          "gics_sector": "Health Care",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "INTC",
+          "company_name": "Intel",
+          "exchange": "US",
+          "cik": "0000050863",
+          "gics_sector": "Information Technology",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "IBKR",
+          "company_name": "Interactive Brokers",
+          "exchange": "US",
+          "cik": "0001381197",
+          "gics_sector": "Financials",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "ICE",
+          "company_name": "Intercontinental Exchange",
+          "exchange": "US",
+          "cik": "0001571949",
+          "gics_sector": "Financials",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "IFF",
+          "company_name": "International Flavors & Fragrances",
+          "exchange": "US",
+          "cik": "0000051253",
+          "gics_sector": "Materials",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "IP",
+          "company_name": "International Paper",
+          "exchange": "US",
+          "cik": "0000051434",
+          "gics_sector": "Materials",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "INTU",
+          "company_name": "Intuit",
+          "exchange": "US",
+          "cik": "0000896878",
+          "gics_sector": "Information Technology",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "ISRG",
+          "company_name": "Intuitive Surgical",
+          "exchange": "US",
+          "cik": "0001035267",
+          "gics_sector": "Health Care",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "IVZ",
+          "company_name": "Invesco",
+          "exchange": "US",
+          "cik": "0000914208",
+          "gics_sector": "Financials",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "INVH",
+          "company_name": "Invitation Homes",
+          "exchange": "US",
+          "cik": "0001687229",
+          "gics_sector": "Real Estate",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "IQV",
+          "company_name": "IQVIA",
+          "exchange": "US",
+          "cik": "0001478242",
+          "gics_sector": "Health Care",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "IRM",
+          "company_name": "Iron Mountain",
+          "exchange": "US",
+          "cik": "0001020569",
+          "gics_sector": "Real Estate",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "JBHT",
+          "company_name": "J.B. Hunt",
+          "exchange": "US",
+          "cik": "0000728535",
+          "gics_sector": "Industrials",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "JBL",
+          "company_name": "Jabil",
+          "exchange": "US",
+          "cik": "0000898293",
+          "gics_sector": "Information Technology",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "JKHY",
+          "company_name": "Jack Henry & Associates",
+          "exchange": "US",
+          "cik": "0000779152",
+          "gics_sector": "Financials",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "J",
+          "company_name": "Jacobs Solutions",
+          "exchange": "US",
+          "cik": "0000052988",
+          "gics_sector": "Industrials",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "JNJ",
+          "company_name": "Johnson & Johnson",
+          "exchange": "US",
+          "cik": "0000200406",
+          "gics_sector": "Health Care",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "JCI",
+          "company_name": "Johnson Controls",
+          "exchange": "US",
+          "cik": "0000833444",
+          "gics_sector": "Industrials",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "JPM",
+          "company_name": "JPMorgan Chase",
+          "exchange": "US",
+          "cik": "0000019617",
+          "gics_sector": "Financials",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "KVUE",
+          "company_name": "Kenvue",
+          "exchange": "US",
+          "cik": "0001944048",
+          "gics_sector": "Consumer Staples",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "KDP",
+          "company_name": "Keurig Dr Pepper",
+          "exchange": "US",
+          "cik": "0001418135",
+          "gics_sector": "Consumer Staples",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "KEY",
+          "company_name": "KeyCorp",
+          "exchange": "US",
+          "cik": "0000091576",
+          "gics_sector": "Financials",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "KEYS",
+          "company_name": "Keysight Technologies",
+          "exchange": "US",
+          "cik": "0001601046",
+          "gics_sector": "Information Technology",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "KMB",
+          "company_name": "Kimberly-Clark",
+          "exchange": "US",
+          "cik": "0000055785",
+          "gics_sector": "Consumer Staples",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "KIM",
+          "company_name": "Kimco Realty",
+          "exchange": "US",
+          "cik": "0000879101",
+          "gics_sector": "Real Estate",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "KMI",
+          "company_name": "Kinder Morgan",
+          "exchange": "US",
+          "cik": "0001506307",
+          "gics_sector": "Energy",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "KKR",
+          "company_name": "KKR & Co.",
+          "exchange": "US",
+          "cik": "0001404912",
+          "gics_sector": "Financials",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "KLAC",
+          "company_name": "KLA Corporation",
+          "exchange": "US",
+          "cik": "0000319201",
+          "gics_sector": "Information Technology",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "KHC",
+          "company_name": "Kraft Heinz",
+          "exchange": "US",
+          "cik": "0001637459",
+          "gics_sector": "Consumer Staples",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "KR",
+          "company_name": "Kroger",
+          "exchange": "US",
+          "cik": "0000056873",
+          "gics_sector": "Consumer Staples",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "LHX",
+          "company_name": "L3Harris",
+          "exchange": "US",
+          "cik": "0000202058",
+          "gics_sector": "Industrials",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "LH",
+          "company_name": "Labcorp",
+          "exchange": "US",
+          "cik": "0000920148",
+          "gics_sector": "Health Care",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "LRCX",
+          "company_name": "Lam Research",
+          "exchange": "US",
+          "cik": "0000707549",
+          "gics_sector": "Information Technology",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "LVS",
+          "company_name": "Las Vegas Sands",
+          "exchange": "US",
+          "cik": "0001300514",
+          "gics_sector": "Consumer Discretionary",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "LDOS",
+          "company_name": "Leidos",
+          "exchange": "US",
+          "cik": "0001336920",
+          "gics_sector": "Industrials",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "LEN",
+          "company_name": "Lennar",
+          "exchange": "US",
+          "cik": "0000920760",
+          "gics_sector": "Consumer Discretionary",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "LII",
+          "company_name": "Lennox International",
+          "exchange": "US",
+          "cik": "0001069202",
+          "gics_sector": "Industrials",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "LLY",
+          "company_name": "Lilly (Eli)",
+          "exchange": "US",
+          "cik": "0000059478",
+          "gics_sector": "Health Care",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "LIN",
+          "company_name": "Linde plc",
+          "exchange": "US",
+          "cik": "0001707925",
+          "gics_sector": "Materials",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "LYV",
+          "company_name": "Live Nation Entertainment",
+          "exchange": "US",
+          "cik": "0001335258",
+          "gics_sector": "Communication Services",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "LMT",
+          "company_name": "Lockheed Martin",
+          "exchange": "US",
+          "cik": "0000936468",
+          "gics_sector": "Industrials",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "L",
+          "company_name": "Loews Corporation",
+          "exchange": "US",
+          "cik": "0000060086",
+          "gics_sector": "Financials",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "LOW",
+          "company_name": "Lowe's",
+          "exchange": "US",
+          "cik": "0000060667",
+          "gics_sector": "Consumer Discretionary",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "LULU",
+          "company_name": "Lululemon Athletica",
+          "exchange": "US",
+          "cik": "0001397187",
+          "gics_sector": "Consumer Discretionary",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "LITE",
+          "company_name": "Lumentum",
+          "exchange": "US",
+          "cik": "0001633978",
+          "gics_sector": "Information Technology",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "LYB",
+          "company_name": "LyondellBasell",
+          "exchange": "US",
+          "cik": "0001489393",
+          "gics_sector": "Materials",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "MTB",
+          "company_name": "M&T Bank",
+          "exchange": "US",
+          "cik": "0000036270",
+          "gics_sector": "Financials",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "MPC",
+          "company_name": "Marathon Petroleum",
+          "exchange": "US",
+          "cik": "0001510295",
+          "gics_sector": "Energy",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "MAR",
+          "company_name": "Marriott International",
+          "exchange": "US",
+          "cik": "0001048286",
+          "gics_sector": "Consumer Discretionary",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "MRSH",
+          "company_name": "Marsh McLennan",
+          "exchange": "US",
+          "cik": "0000062709",
+          "gics_sector": "Financials",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "MLM",
+          "company_name": "Martin Marietta Materials",
+          "exchange": "US",
+          "cik": "0000916076",
+          "gics_sector": "Materials",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "MRVL",
+          "company_name": "Marvell Technology",
+          "exchange": "US",
+          "cik": "0001835632",
+          "gics_sector": "Information Technology",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "MAS",
+          "company_name": "Masco",
+          "exchange": "US",
+          "cik": "0000062996",
+          "gics_sector": "Industrials",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "MA",
+          "company_name": "Mastercard",
+          "exchange": "US",
+          "cik": "0001141391",
+          "gics_sector": "Financials",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "MKC",
+          "company_name": "McCormick & Company",
+          "exchange": "US",
+          "cik": "0000063754",
+          "gics_sector": "Consumer Staples",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "MCD",
+          "company_name": "McDonald's",
+          "exchange": "US",
+          "cik": "0000063908",
+          "gics_sector": "Consumer Discretionary",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "MCK",
+          "company_name": "McKesson Corporation",
+          "exchange": "US",
+          "cik": "0000927653",
+          "gics_sector": "Health Care",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "MDT",
+          "company_name": "Medtronic",
+          "exchange": "US",
+          "cik": "0001613103",
+          "gics_sector": "Health Care",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "MRK",
+          "company_name": "Merck & Co.",
+          "exchange": "US",
+          "cik": "0000310158",
+          "gics_sector": "Health Care",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "META",
+          "company_name": "Meta Platforms",
+          "exchange": "US",
+          "cik": "0001326801",
+          "gics_sector": "Communication Services",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "MET",
+          "company_name": "MetLife",
+          "exchange": "US",
+          "cik": "0001099219",
+          "gics_sector": "Financials",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "MTD",
+          "company_name": "Mettler Toledo",
+          "exchange": "US",
+          "cik": "0001037646",
+          "gics_sector": "Health Care",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "MGM",
+          "company_name": "MGM Resorts",
+          "exchange": "US",
+          "cik": "0000789570",
+          "gics_sector": "Consumer Discretionary",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "MCHP",
+          "company_name": "Microchip Technology",
+          "exchange": "US",
+          "cik": "0000827054",
+          "gics_sector": "Information Technology",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "MU",
+          "company_name": "Micron Technology",
+          "exchange": "US",
+          "cik": "0000723125",
+          "gics_sector": "Information Technology",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "MSFT",
+          "company_name": "Microsoft",
+          "exchange": "US",
+          "cik": "0000789019",
+          "gics_sector": "Information Technology",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "MAA",
+          "company_name": "Mid-America Apartment Communities",
+          "exchange": "US",
+          "cik": "0000912595",
+          "gics_sector": "Real Estate",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "MRNA",
+          "company_name": "Moderna",
+          "exchange": "US",
+          "cik": "0001682852",
+          "gics_sector": "Health Care",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "TAP",
+          "company_name": "Molson Coors Beverage Company",
+          "exchange": "US",
+          "cik": "0000024545",
+          "gics_sector": "Consumer Staples",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "MDLZ",
+          "company_name": "Mondelez International",
+          "exchange": "US",
+          "cik": "0001103982",
+          "gics_sector": "Consumer Staples",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "MPWR",
+          "company_name": "Monolithic Power Systems",
+          "exchange": "US",
+          "cik": "0001280452",
+          "gics_sector": "Information Technology",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "MNST",
+          "company_name": "Monster Beverage",
+          "exchange": "US",
+          "cik": "0000865752",
+          "gics_sector": "Consumer Staples",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "MCO",
+          "company_name": "Moody's Corporation",
+          "exchange": "US",
+          "cik": "0001059556",
+          "gics_sector": "Financials",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "MS",
+          "company_name": "Morgan Stanley",
+          "exchange": "US",
+          "cik": "0000895421",
+          "gics_sector": "Financials",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "MOS",
+          "company_name": "Mosaic Company (The)",
+          "exchange": "US",
+          "cik": "0001285785",
+          "gics_sector": "Materials",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "MSI",
+          "company_name": "Motorola Solutions",
+          "exchange": "US",
+          "cik": "0000068505",
+          "gics_sector": "Information Technology",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "MSCI",
+          "company_name": "MSCI",
+          "exchange": "US",
+          "cik": "0001408198",
+          "gics_sector": "Financials",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "NDAQ",
+          "company_name": "Nasdaq, Inc.",
+          "exchange": "US",
+          "cik": "0001120193",
+          "gics_sector": "Financials",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "NTAP",
+          "company_name": "NetApp",
+          "exchange": "US",
+          "cik": "0001002047",
+          "gics_sector": "Information Technology",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "NFLX",
+          "company_name": "Netflix",
+          "exchange": "US",
+          "cik": "0001065280",
+          "gics_sector": "Communication Services",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "NEM",
+          "company_name": "Newmont",
+          "exchange": "US",
+          "cik": "0001164727",
+          "gics_sector": "Materials",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "NWSA",
+          "company_name": "News Corp (Class A)",
+          "exchange": "US",
+          "cik": "0001564708",
+          "gics_sector": "Communication Services",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "NWS",
+          "company_name": "News Corp (Class B)",
+          "exchange": "US",
+          "cik": "0001564708",
+          "gics_sector": "Communication Services",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "NEE",
+          "company_name": "NextEra Energy",
+          "exchange": "US",
+          "cik": "0000753308",
+          "gics_sector": "Utilities",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "NKE",
+          "company_name": "Nike, Inc.",
+          "exchange": "US",
+          "cik": "0000320187",
+          "gics_sector": "Consumer Discretionary",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "NI",
+          "company_name": "NiSource",
+          "exchange": "US",
+          "cik": "0001111711",
+          "gics_sector": "Utilities",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "NDSN",
+          "company_name": "Nordson Corporation",
+          "exchange": "US",
+          "cik": "0000072331",
+          "gics_sector": "Industrials",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "NSC",
+          "company_name": "Norfolk Southern",
+          "exchange": "US",
+          "cik": "0000702165",
+          "gics_sector": "Industrials",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "NTRS",
+          "company_name": "Northern Trust",
+          "exchange": "US",
+          "cik": "0000073124",
+          "gics_sector": "Financials",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "NOC",
+          "company_name": "Northrop Grumman",
+          "exchange": "US",
+          "cik": "0001133421",
+          "gics_sector": "Industrials",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "NCLH",
+          "company_name": "Norwegian Cruise Line Holdings",
+          "exchange": "US",
+          "cik": "0001513761",
+          "gics_sector": "Consumer Discretionary",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "NRG",
+          "company_name": "NRG Energy",
+          "exchange": "US",
+          "cik": "0001013871",
+          "gics_sector": "Utilities",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "NUE",
+          "company_name": "Nucor",
+          "exchange": "US",
+          "cik": "0000073309",
+          "gics_sector": "Materials",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "NVDA",
+          "company_name": "Nvidia",
+          "exchange": "US",
+          "cik": "0001045810",
+          "gics_sector": "Information Technology",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "NVR",
+          "company_name": "NVR, Inc.",
+          "exchange": "US",
+          "cik": "0000906163",
+          "gics_sector": "Consumer Discretionary",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "NXPI",
+          "company_name": "NXP Semiconductors",
+          "exchange": "US",
+          "cik": "0001413447",
+          "gics_sector": "Information Technology",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "ORLY",
+          "company_name": "O'Reilly Automotive",
+          "exchange": "US",
+          "cik": "0000898173",
+          "gics_sector": "Consumer Discretionary",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "OXY",
+          "company_name": "Occidental Petroleum",
+          "exchange": "US",
+          "cik": "0000797468",
+          "gics_sector": "Energy",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "ODFL",
+          "company_name": "Old Dominion",
+          "exchange": "US",
+          "cik": "0000878927",
+          "gics_sector": "Industrials",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "OMC",
+          "company_name": "Omnicom Group",
+          "exchange": "US",
+          "cik": "0000029989",
+          "gics_sector": "Communication Services",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "ON",
+          "company_name": "ON Semiconductor",
+          "exchange": "US",
+          "cik": "0001097864",
+          "gics_sector": "Information Technology",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "OKE",
+          "company_name": "Oneok",
+          "exchange": "US",
+          "cik": "0001039684",
+          "gics_sector": "Energy",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "ORCL",
+          "company_name": "Oracle Corporation",
+          "exchange": "US",
+          "cik": "0001341439",
+          "gics_sector": "Information Technology",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "OTIS",
+          "company_name": "Otis Worldwide",
+          "exchange": "US",
+          "cik": "0001781335",
+          "gics_sector": "Industrials",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "PCAR",
+          "company_name": "Paccar",
+          "exchange": "US",
+          "cik": "0000075362",
+          "gics_sector": "Industrials",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "PKG",
+          "company_name": "Packaging Corporation of America",
+          "exchange": "US",
+          "cik": "0000075677",
+          "gics_sector": "Materials",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "PLTR",
+          "company_name": "Palantir Technologies",
+          "exchange": "US",
+          "cik": "0001321655",
+          "gics_sector": "Information Technology",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "PANW",
+          "company_name": "Palo Alto Networks",
+          "exchange": "US",
+          "cik": "0001327567",
+          "gics_sector": "Information Technology",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "PSKY",
+          "company_name": "Paramount Skydance Corporation",
+          "exchange": "US",
+          "cik": "0002041610",
+          "gics_sector": "Communication Services",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "PH",
+          "company_name": "Parker Hannifin",
+          "exchange": "US",
+          "cik": "0000076334",
+          "gics_sector": "Industrials",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "PAYX",
+          "company_name": "Paychex",
+          "exchange": "US",
+          "cik": "0000723531",
+          "gics_sector": "Industrials",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "PYPL",
+          "company_name": "PayPal",
+          "exchange": "US",
+          "cik": "0001633917",
+          "gics_sector": "Financials",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "PNR",
+          "company_name": "Pentair",
+          "exchange": "US",
+          "cik": "0000077360",
+          "gics_sector": "Industrials",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "PEP",
+          "company_name": "PepsiCo",
+          "exchange": "US",
+          "cik": "0000077476",
+          "gics_sector": "Consumer Staples",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "PFE",
+          "company_name": "Pfizer",
+          "exchange": "US",
+          "cik": "0000078003",
+          "gics_sector": "Health Care",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "PCG",
+          "company_name": "PG&E Corporation",
+          "exchange": "US",
+          "cik": "0001004980",
+          "gics_sector": "Utilities",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "PM",
+          "company_name": "Philip Morris International",
+          "exchange": "US",
+          "cik": "0001413329",
+          "gics_sector": "Consumer Staples",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "PSX",
+          "company_name": "Phillips 66",
+          "exchange": "US",
+          "cik": "0001534701",
+          "gics_sector": "Energy",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "PNW",
+          "company_name": "Pinnacle West Capital",
+          "exchange": "US",
+          "cik": "0000764622",
+          "gics_sector": "Utilities",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "PNC",
+          "company_name": "PNC Financial Services",
+          "exchange": "US",
+          "cik": "0000713676",
+          "gics_sector": "Financials",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "PPG",
+          "company_name": "PPG Industries",
+          "exchange": "US",
+          "cik": "0000079879",
+          "gics_sector": "Materials",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "PPL",
+          "company_name": "PPL Corporation",
+          "exchange": "US",
+          "cik": "0000922224",
+          "gics_sector": "Utilities",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "PFG",
+          "company_name": "Principal Financial Group",
+          "exchange": "US",
+          "cik": "0001126328",
+          "gics_sector": "Financials",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "PG",
+          "company_name": "Procter & Gamble",
+          "exchange": "US",
+          "cik": "0000080424",
+          "gics_sector": "Consumer Staples",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "PGR",
+          "company_name": "Progressive Corporation",
+          "exchange": "US",
+          "cik": "0000080661",
+          "gics_sector": "Financials",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "PLD",
+          "company_name": "Prologis",
+          "exchange": "US",
+          "cik": "0001045609",
+          "gics_sector": "Real Estate",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "PRU",
+          "company_name": "Prudential Financial",
+          "exchange": "US",
+          "cik": "0001137774",
+          "gics_sector": "Financials",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "PEG",
+          "company_name": "Public Service Enterprise Group",
+          "exchange": "US",
+          "cik": "0000788784",
+          "gics_sector": "Utilities",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "PTC",
+          "company_name": "PTC Inc.",
+          "exchange": "US",
+          "cik": "0000857005",
+          "gics_sector": "Information Technology",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "PSA",
+          "company_name": "Public Storage",
+          "exchange": "US",
+          "cik": "0001393311",
+          "gics_sector": "Real Estate",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "PHM",
+          "company_name": "PulteGroup",
+          "exchange": "US",
+          "cik": "0000822416",
+          "gics_sector": "Consumer Discretionary",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "PWR",
+          "company_name": "Quanta Services",
+          "exchange": "US",
+          "cik": "0001050915",
+          "gics_sector": "Industrials",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "QCOM",
+          "company_name": "Qualcomm",
+          "exchange": "US",
+          "cik": "0000804328",
+          "gics_sector": "Information Technology",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "DGX",
+          "company_name": "Quest Diagnostics",
+          "exchange": "US",
+          "cik": "0001022079",
+          "gics_sector": "Health Care",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "Q",
+          "company_name": "Qnity Electronics",
+          "exchange": "US",
+          "cik": "0002058873",
+          "gics_sector": "Information Technology",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "RL",
+          "company_name": "Ralph Lauren Corporation",
+          "exchange": "US",
+          "cik": "0001037038",
+          "gics_sector": "Consumer Discretionary",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "RJF",
+          "company_name": "Raymond James Financial",
+          "exchange": "US",
+          "cik": "0000720005",
+          "gics_sector": "Financials",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "RDDT",
+          "company_name": "Reddit",
+          "exchange": "US",
+          "cik": "0001713445",
+          "gics_sector": "Communication Services",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "RTX",
+          "company_name": "RTX Corporation",
+          "exchange": "US",
+          "cik": "0000101829",
+          "gics_sector": "Industrials",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "O",
+          "company_name": "Realty Income",
+          "exchange": "US",
+          "cik": "0000726728",
+          "gics_sector": "Real Estate",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "REG",
+          "company_name": "Regency Centers",
+          "exchange": "US",
+          "cik": "0000910606",
+          "gics_sector": "Real Estate",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "REGN",
+          "company_name": "Regeneron Pharmaceuticals",
+          "exchange": "US",
+          "cik": "0000872589",
+          "gics_sector": "Health Care",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "RF",
+          "company_name": "Regions Financial Corporation",
+          "exchange": "US",
+          "cik": "0001281761",
+          "gics_sector": "Financials",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "RSG",
+          "company_name": "Republic Services",
+          "exchange": "US",
+          "cik": "0001060391",
+          "gics_sector": "Industrials",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "RMD",
+          "company_name": "ResMed|",
+          "exchange": "US",
+          "cik": "0000943819",
+          "gics_sector": "Health Care",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "RVTY",
+          "company_name": "Revvity",
+          "exchange": "US",
+          "cik": "0000031791",
+          "gics_sector": "Health Care",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "HOOD",
+          "company_name": "Robinhood Markets",
+          "exchange": "US",
+          "cik": "0001783879",
+          "gics_sector": "Financials",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "ROK",
+          "company_name": "Rockwell Automation",
+          "exchange": "US",
+          "cik": "0001024478",
+          "gics_sector": "Industrials",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "ROL",
+          "company_name": "Rollins, Inc.",
+          "exchange": "US",
+          "cik": "0000084839",
+          "gics_sector": "Industrials",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "ROP",
+          "company_name": "Roper Technologies",
+          "exchange": "US",
+          "cik": "0000882835",
+          "gics_sector": "Information Technology",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "ROST",
+          "company_name": "Ross Stores",
+          "exchange": "US",
+          "cik": "0000745732",
+          "gics_sector": "Consumer Discretionary",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "RCL",
+          "company_name": "Royal Caribbean Group",
+          "exchange": "US",
+          "cik": "0000884887",
+          "gics_sector": "Consumer Discretionary",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "SPGI",
+          "company_name": "S&P Global",
+          "exchange": "US",
+          "cik": "0000064040",
+          "gics_sector": "Financials",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "CRM",
+          "company_name": "Salesforce",
+          "exchange": "US",
+          "cik": "0001108524",
+          "gics_sector": "Information Technology",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "SNDK",
+          "company_name": "Sandisk",
+          "exchange": "US",
+          "cik": "0002023554",
+          "gics_sector": "Information Technology",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "SBAC",
+          "company_name": "SBA Communications",
+          "exchange": "US",
+          "cik": "0001034054",
+          "gics_sector": "Real Estate",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "SLB",
+          "company_name": "Schlumberger",
+          "exchange": "US",
+          "cik": "0000087347",
+          "gics_sector": "Energy",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "STX",
+          "company_name": "Seagate Technology",
+          "exchange": "US",
+          "cik": "0001137789",
+          "gics_sector": "Information Technology",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "SRE",
+          "company_name": "Sempra",
+          "exchange": "US",
+          "cik": "0001032208",
+          "gics_sector": "Utilities",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "NOW",
+          "company_name": "ServiceNow",
+          "exchange": "US",
+          "cik": "0001373715",
+          "gics_sector": "Information Technology",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "SHW",
+          "company_name": "Sherwin-Williams",
+          "exchange": "US",
+          "cik": "0000089800",
+          "gics_sector": "Materials",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "SPG",
+          "company_name": "Simon Property Group",
+          "exchange": "US",
+          "cik": "0001063761",
+          "gics_sector": "Real Estate",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "SWKS",
+          "company_name": "Skyworks Solutions",
+          "exchange": "US",
+          "cik": "0000004127",
+          "gics_sector": "Information Technology",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "SJM",
+          "company_name": "J.M. Smucker Company (The)",
+          "exchange": "US",
+          "cik": "0000091419",
+          "gics_sector": "Consumer Staples",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "SW",
+          "company_name": "Smurfit Westrock",
+          "exchange": "US",
+          "cik": "0002005951",
+          "gics_sector": "Materials",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "SNA",
+          "company_name": "Snap-on",
+          "exchange": "US",
+          "cik": "0000091440",
+          "gics_sector": "Industrials",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "SOLV",
+          "company_name": "Solventum",
+          "exchange": "US",
+          "cik": "0001964738",
+          "gics_sector": "Health Care",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "SO",
+          "company_name": "Southern Company",
+          "exchange": "US",
+          "cik": "0000092122",
+          "gics_sector": "Utilities",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "LUV",
+          "company_name": "Southwest Airlines",
+          "exchange": "US",
+          "cik": "0000092380",
+          "gics_sector": "Industrials",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "SWK",
+          "company_name": "Stanley Black & Decker",
+          "exchange": "US",
+          "cik": "0000093556",
+          "gics_sector": "Industrials",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "SBUX",
+          "company_name": "Starbucks",
+          "exchange": "US",
+          "cik": "0000829224",
+          "gics_sector": "Consumer Discretionary",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "STT",
+          "company_name": "State Street Corporation",
+          "exchange": "US",
+          "cik": "0000093751",
+          "gics_sector": "Financials",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "STLD",
+          "company_name": "Steel Dynamics",
+          "exchange": "US",
+          "cik": "0001022671",
+          "gics_sector": "Materials",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "STE",
+          "company_name": "Steris",
+          "exchange": "US",
+          "cik": "0001757898",
+          "gics_sector": "Health Care",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "SYK",
+          "company_name": "Stryker Corporation",
+          "exchange": "US",
+          "cik": "0000310764",
+          "gics_sector": "Health Care",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "SMCI",
+          "company_name": "Supermicro",
+          "exchange": "US",
+          "cik": "0001375365",
+          "gics_sector": "Information Technology",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "SYF",
+          "company_name": "Synchrony Financial",
+          "exchange": "US",
+          "cik": "0001601712",
+          "gics_sector": "Financials",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "SNPS",
+          "company_name": "Synopsys",
+          "exchange": "US",
+          "cik": "0000883241",
+          "gics_sector": "Information Technology",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "SYY",
+          "company_name": "Sysco",
+          "exchange": "US",
+          "cik": "0000096021",
+          "gics_sector": "Consumer Staples",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "TMUS",
+          "company_name": "T-Mobile US",
+          "exchange": "US",
+          "cik": "0001283699",
+          "gics_sector": "Communication Services",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "TROW",
+          "company_name": "T. Rowe Price",
+          "exchange": "US",
+          "cik": "0001113169",
+          "gics_sector": "Financials",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "TTWO",
+          "company_name": "Take-Two Interactive",
+          "exchange": "US",
+          "cik": "0000946581",
+          "gics_sector": "Communication Services",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "TPR",
+          "company_name": "Tapestry, Inc.",
+          "exchange": "US",
+          "cik": "0001116132",
+          "gics_sector": "Consumer Discretionary",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "TRGP",
+          "company_name": "Targa Resources",
+          "exchange": "US",
+          "cik": "0001389170",
+          "gics_sector": "Energy",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "TGT",
+          "company_name": "Target Corporation",
+          "exchange": "US",
+          "cik": "0000027419",
+          "gics_sector": "Consumer Staples",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "TEL",
+          "company_name": "TE Connectivity",
+          "exchange": "US",
+          "cik": "0001385157",
+          "gics_sector": "Information Technology",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "TDY",
+          "company_name": "Teledyne Technologies",
+          "exchange": "US",
+          "cik": "0001094285",
+          "gics_sector": "Information Technology",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "TER",
+          "company_name": "Teradyne",
+          "exchange": "US",
+          "cik": "0000097210",
+          "gics_sector": "Information Technology",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "TSLA",
+          "company_name": "Tesla, Inc.",
+          "exchange": "US",
+          "cik": "0001318605",
+          "gics_sector": "Consumer Discretionary",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "TXN",
+          "company_name": "Texas Instruments",
+          "exchange": "US",
+          "cik": "0000097476",
+          "gics_sector": "Information Technology",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "TPL",
+          "company_name": "Texas Pacific Land Corporation",
+          "exchange": "US",
+          "cik": "0001811074",
+          "gics_sector": "Energy",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "TXT",
+          "company_name": "Textron",
+          "exchange": "US",
+          "cik": "0000217346",
+          "gics_sector": "Industrials",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "TMO",
+          "company_name": "Thermo Fisher Scientific",
+          "exchange": "US",
+          "cik": "0000097745",
+          "gics_sector": "Health Care",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "TJX",
+          "company_name": "TJX Companies",
+          "exchange": "US",
+          "cik": "0000109198",
+          "gics_sector": "Consumer Discretionary",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "TKO",
+          "company_name": "TKO Group Holdings",
+          "exchange": "US",
+          "cik": "0001973266",
+          "gics_sector": "Communication Services",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "TTD",
+          "company_name": "Trade Desk (The)",
+          "exchange": "US",
+          "cik": "0001671933",
+          "gics_sector": "Communication Services",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "TSCO",
+          "company_name": "Tractor Supply",
+          "exchange": "US",
+          "cik": "0000916365",
+          "gics_sector": "Consumer Discretionary",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "TT",
+          "company_name": "Trane Technologies",
+          "exchange": "US",
+          "cik": "0001466258",
+          "gics_sector": "Industrials",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "TDG",
+          "company_name": "TransDigm Group",
+          "exchange": "US",
+          "cik": "0001260221",
+          "gics_sector": "Industrials",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "TRV",
+          "company_name": "Travelers Companies (The)",
+          "exchange": "US",
+          "cik": "0000086312",
+          "gics_sector": "Financials",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "TRMB",
+          "company_name": "Trimble Inc.",
+          "exchange": "US",
+          "cik": "0000864749",
+          "gics_sector": "Information Technology",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "TFC",
+          "company_name": "Truist Financial",
+          "exchange": "US",
+          "cik": "0000092230",
+          "gics_sector": "Financials",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "TYL",
+          "company_name": "Tyler Technologies",
+          "exchange": "US",
+          "cik": "0000860731",
+          "gics_sector": "Information Technology",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "TSN",
+          "company_name": "Tyson Foods",
+          "exchange": "US",
+          "cik": "0000100493",
+          "gics_sector": "Consumer Staples",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "USB",
+          "company_name": "U.S. Bancorp",
+          "exchange": "US",
+          "cik": "0000036104",
+          "gics_sector": "Financials",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "UBER",
+          "company_name": "Uber",
+          "exchange": "US",
+          "cik": "0001543151",
+          "gics_sector": "Industrials",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "UDR",
+          "company_name": "UDR, Inc.",
+          "exchange": "US",
+          "cik": "0000074208",
+          "gics_sector": "Real Estate",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "ULTA",
+          "company_name": "Ulta Beauty",
+          "exchange": "US",
+          "cik": "0001403568",
+          "gics_sector": "Consumer Discretionary",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "UNP",
+          "company_name": "Union Pacific Corporation",
+          "exchange": "US",
+          "cik": "0000100885",
+          "gics_sector": "Industrials",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "UAL",
+          "company_name": "United Airlines Holdings",
+          "exchange": "US",
+          "cik": "0000100517",
+          "gics_sector": "Industrials",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "UPS",
+          "company_name": "United Parcel Service",
+          "exchange": "US",
+          "cik": "0001090727",
+          "gics_sector": "Industrials",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "URI",
+          "company_name": "United Rentals",
+          "exchange": "US",
+          "cik": "0001067701",
+          "gics_sector": "Industrials",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "UNH",
+          "company_name": "UnitedHealth Group",
+          "exchange": "US",
+          "cik": "0000731766",
+          "gics_sector": "Health Care",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "UHS",
+          "company_name": "Universal Health Services",
+          "exchange": "US",
+          "cik": "0000352915",
+          "gics_sector": "Health Care",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "VLO",
+          "company_name": "Valero Energy",
+          "exchange": "US",
+          "cik": "0001035002",
+          "gics_sector": "Energy",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "VEEV",
+          "company_name": "Veeva Systems",
+          "exchange": "US",
+          "cik": "0001393052",
+          "gics_sector": "Health Care",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "VTR",
+          "company_name": "Ventas",
+          "exchange": "US",
+          "cik": "0000740260",
+          "gics_sector": "Real Estate",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "VLTO",
+          "company_name": "Veralto",
+          "exchange": "US",
+          "cik": "0001967680",
+          "gics_sector": "Industrials",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "VRSN",
+          "company_name": "Verisign",
+          "exchange": "US",
+          "cik": "0001014473",
+          "gics_sector": "Information Technology",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "VRSK",
+          "company_name": "Verisk Analytics",
+          "exchange": "US",
+          "cik": "0001442145",
+          "gics_sector": "Industrials",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "VZ",
+          "company_name": "Verizon",
+          "exchange": "US",
+          "cik": "0000732712",
+          "gics_sector": "Communication Services",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "VRTX",
+          "company_name": "Vertex Pharmaceuticals",
+          "exchange": "US",
+          "cik": "0000875320",
+          "gics_sector": "Health Care",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "VRT",
+          "company_name": "Vertiv",
+          "exchange": "US",
+          "cik": "0001674101",
+          "gics_sector": "Industrials",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "VTRS",
+          "company_name": "Viatris",
+          "exchange": "US",
+          "cik": "0001792044",
+          "gics_sector": "Health Care",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "VICI",
+          "company_name": "Vici Properties",
+          "exchange": "US",
+          "cik": "0001705696",
+          "gics_sector": "Real Estate",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "V",
+          "company_name": "Visa Inc.",
+          "exchange": "US",
+          "cik": "0001403161",
+          "gics_sector": "Financials",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "VST",
+          "company_name": "Vistra Corp.",
+          "exchange": "US",
+          "cik": "0001692819",
+          "gics_sector": "Utilities",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "VMRK",
+          "company_name": "Vivmark Residential",
+          "exchange": "US",
+          "cik": "0000906107",
+          "gics_sector": "Real Estate",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "VMC",
+          "company_name": "Vulcan Materials Company",
+          "exchange": "US",
+          "cik": "0001396009",
+          "gics_sector": "Materials",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "WRB",
+          "company_name": "W. R. Berkley Corporation",
+          "exchange": "US",
+          "cik": "0000011544",
+          "gics_sector": "Financials",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "GWW",
+          "company_name": "W. W. Grainger",
+          "exchange": "US",
+          "cik": "0000277135",
+          "gics_sector": "Industrials",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "WAB",
+          "company_name": "Wabtec",
+          "exchange": "US",
+          "cik": "0000943452",
+          "gics_sector": "Industrials",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "WMT",
+          "company_name": "Walmart",
+          "exchange": "US",
+          "cik": "0000104169",
+          "gics_sector": "Consumer Staples",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "DIS",
+          "company_name": "Walt Disney Company (The)",
+          "exchange": "US",
+          "cik": "0001744489",
+          "gics_sector": "Communication Services",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "WBD",
+          "company_name": "Warner Bros. Discovery",
+          "exchange": "US",
+          "cik": "0001437107",
+          "gics_sector": "Communication Services",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "WM",
+          "company_name": "Waste Management",
+          "exchange": "US",
+          "cik": "0000823768",
+          "gics_sector": "Industrials",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "WAT",
+          "company_name": "Waters Corporation",
+          "exchange": "US",
+          "cik": "0001000697",
+          "gics_sector": "Health Care",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "WEC",
+          "company_name": "WEC Energy Group",
+          "exchange": "US",
+          "cik": "0000783325",
+          "gics_sector": "Utilities",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "WFC",
+          "company_name": "Wells Fargo",
+          "exchange": "US",
+          "cik": "0000072971",
+          "gics_sector": "Financials",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "WELL",
+          "company_name": "Welltower",
+          "exchange": "US",
+          "cik": "0000766704",
+          "gics_sector": "Real Estate",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "WST",
+          "company_name": "West Pharmaceutical Services",
+          "exchange": "US",
+          "cik": "0000105770",
+          "gics_sector": "Health Care",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "WDC",
+          "company_name": "Western Digital",
+          "exchange": "US",
+          "cik": "0000106040",
+          "gics_sector": "Information Technology",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "WY",
+          "company_name": "Weyerhaeuser",
+          "exchange": "US",
+          "cik": "0000106535",
+          "gics_sector": "Real Estate",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "WSM",
+          "company_name": "Williams-Sonoma, Inc.",
+          "exchange": "US",
+          "cik": "0000719955",
+          "gics_sector": "Consumer Discretionary",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "WMB",
+          "company_name": "Williams Companies",
+          "exchange": "US",
+          "cik": "0000107263",
+          "gics_sector": "Energy",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "WTW",
+          "company_name": "Willis Towers Watson",
+          "exchange": "US",
+          "cik": "0001140536",
+          "gics_sector": "Financials",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "WDAY",
+          "company_name": "Workday, Inc.",
+          "exchange": "US",
+          "cik": "0001327811",
+          "gics_sector": "Information Technology",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "WYNN",
+          "company_name": "Wynn Resorts",
+          "exchange": "US",
+          "cik": "0001174922",
+          "gics_sector": "Consumer Discretionary",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "XEL",
+          "company_name": "Xcel Energy",
+          "exchange": "US",
+          "cik": "0000072903",
+          "gics_sector": "Utilities",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "XYL",
+          "company_name": "Xylem Inc.",
+          "exchange": "US",
+          "cik": "0001524472",
+          "gics_sector": "Industrials",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "YUM",
+          "company_name": "Yum! Brands",
+          "exchange": "US",
+          "cik": "0001041061",
+          "gics_sector": "Consumer Discretionary",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "ZBRA",
+          "company_name": "Zebra Technologies",
+          "exchange": "US",
+          "cik": "0000877212",
+          "gics_sector": "Information Technology",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "ZBH",
+          "company_name": "Zimmer Biomet",
+          "exchange": "US",
+          "cik": "0001136869",
+          "gics_sector": "Health Care",
+          "official_domain": null,
+          "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+          "index_memberships": [
+            "S&P 500"
+          ],
+          "status": "constituent-pending-logo"
+        },
+        {
+          "ticker": "ZTS",
+          "company_name": "Zoetis",
+          "exchange": "US",
+          "cik": "0001555280",
+          "gics_sector": "Health Care",
           "official_domain": null,
           "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
           "index_memberships": [
