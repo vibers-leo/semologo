@@ -16,6 +16,13 @@ def one(job):
         with urlopen(req,timeout=12) as r:
             data=r.read(1024*1024+1); ct=r.headers.get('Content-Type','')
         if len(data)>1024*1024 or len(data)<100: return item['ticker'],None
+        if 'text/html' in (ct or '').lower() or data.lstrip().lower().startswith(b'<!doctype html'):
+            return item['ticker'],None
+        path_hint = u.lower().split('?')[0]
+        if path_hint.endswith('.svg') and b'<svg' not in data[:4096].lower():
+            return item['ticker'],None
+        if not path_hint.endswith('.svg') and not (ct.lower().startswith('image/') or data.startswith((b'\x89PNG',b'\xff\xd8\xff',b'RIFF'))):
+            return item['ticker'],None
         name=re.sub(r'[^0-9A-Za-z._-]','_',Path(urlparse(u).path).name or 'logo')
         folder=OUT/re.sub(r'[^A-Za-z0-9._-]','_',item['ticker']); folder.mkdir(parents=True,exist_ok=True)
         path=folder/name; path.write_bytes(data)

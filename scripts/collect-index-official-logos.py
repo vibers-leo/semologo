@@ -31,6 +31,15 @@ def discover(domain):
             links.append(u)
     return links[:30]
 
+def is_image_response(data, content_type, url):
+    ct = (content_type or '').lower()
+    if 'text/html' in ct or data.lstrip().lower().startswith(b'<!doctype html'):
+        return False
+    path = url.lower().split('?')[0]
+    if path.endswith('.svg'):
+        return b'<svg' in data[:4096].lower()
+    return ct.startswith('image/') or data.startswith((b'\x89PNG', b'\xff\xd8\xff', b'RIFF'))
+
 def main():
     offset = int(sys.argv[1]) if len(sys.argv) > 1 else 0
     limit = int(sys.argv[2]) if len(sys.argv) > 2 else 20
