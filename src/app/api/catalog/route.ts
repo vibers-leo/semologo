@@ -5,7 +5,7 @@ import { redis } from "@/lib/redis";
 import { isChoseongQuery, choseongIndex } from "@/lib/hangul";
 import { VERSION } from "@/lib/cdn";
 import { SUBMITTED_BRANDS } from "@/lib/submissions";
-import { INDEX_CANDIDATE_BRANDS } from "@/lib/index-candidate-submissions";
+
 
 export const dynamic = "force-dynamic";
 
@@ -96,8 +96,7 @@ export async function GET(request: NextRequest) {
     const catalog = await fetchBrandsSlim();
     const known = new Set(catalog.map(brand => brand.id));
     const submitted = SUBMITTED_BRANDS.filter(brand => !known.has(brand.id));
-    const submittedIds = new Set([...known, ...submitted.map(brand => brand.id)]);
-    const all = [...catalog, ...submitted, ...INDEX_CANDIDATE_BRANDS.filter(brand => !submittedIds.has(brand.id))];
+    const all = [...catalog, ...submitted];
     const scores = mode === "fame" ? await popularityScores() : {};
     const sorted = sortedCatalog(all, mode, scores);
     let matches = sorted;
