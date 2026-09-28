@@ -130,7 +130,9 @@ export default function BrandGrid({
         for (const brand of data.brands.slice(0, 18)) {
           const src = typeof brand.logo_png === "string" && brand.logo_png.startsWith("/")
             ? `${brand.logo_png}?v=${VERSION}`
-            : `${CDN}/${brand.id}/${brand.logo_svg || brand.has_svg ? "logo.svg" : "logo-transparent.png"}?v=${VERSION}`;
+            : typeof brand.logo_svg === "string" && brand.logo_svg.startsWith("/")
+              ? `${brand.logo_svg}?v=${VERSION}`
+              : `${CDN}/${brand.id}/${brand.has_svg ? "logo.svg" : "logo-transparent.png"}?v=${VERSION}`;
           const warm = new window.Image();
           warm.decoding = "async";
           warm.src = src;
@@ -511,7 +513,9 @@ export default function BrandGrid({
 
 function BrandCard({ brand, onClick, priority }: { brand: Brand; onClick: () => void; priority: boolean }) {
   const {en, t} = useLocale();
-  const svgUrl = `${CDN}/${brand.id}/${brand.svg_transparent || "logo.svg"}?v=${VERSION}`;
+  const svgUrl = typeof brand.logo_svg === "string" && brand.logo_svg.startsWith("/")
+    ? `${brand.logo_svg}?v=${VERSION}`
+    : `${CDN}/${brand.id}/${brand.svg_transparent || "logo.svg"}?v=${VERSION}`;
   const pngUrl = `${CDN}/${brand.id}/logo.png?v=${VERSION}`;
   const transparentUrl = `${CDN}/${brand.id}/logo-transparent.png?v=${VERSION}`;
   const hasSvg = !!(brand.logo_svg || brand.has_svg);
