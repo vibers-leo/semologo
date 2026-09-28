@@ -6,6 +6,7 @@ import { isChoseongQuery, choseongIndex } from "@/lib/hangul";
 import { VERSION } from "@/lib/cdn";
 import { SUBMITTED_BRANDS } from "@/lib/submissions";
 import { SIMPLE_ICONS_BRANDS } from "@/lib/simple-icons-submissions";
+import { STREAMING_SUBMISSIONS } from "@/lib/streaming-submissions";
 
 
 export const dynamic = "force-dynamic";
@@ -98,7 +99,7 @@ export async function GET(request: NextRequest) {
     const known = new Set(catalog.map(brand => brand.id));
     const submitted = SUBMITTED_BRANDS.filter(brand => !known.has(brand.id));
     const submittedIds = new Set([...known, ...submitted.map(brand => brand.id)]);
-    const all = [...catalog, ...submitted, ...SIMPLE_ICONS_BRANDS.filter(brand => !submittedIds.has(brand.id))];
+    const all = [...catalog, ...submitted, ...SIMPLE_ICONS_BRANDS.filter(brand => !submittedIds.has(brand.id)), ...STREAMING_SUBMISSIONS.filter(brand => !submittedIds.has(brand.id))];
     const scores = mode === "fame" ? await popularityScores() : {};
     const sorted = sortedCatalog(all, mode, scores);
     let matches = sorted;

@@ -1,0 +1,8 @@
+{
+  "updated_at": "2026-09-28",
+  "method": "Pinned Simple Icons snapshot with local SVG safety validation",
+  "published": ["Apple TV", "TIDAL", "Max", "HBO Max"],
+  "replaced": [{"name": "TIDAL", "issue": "previous remote image returned 404", "asset": "/submissions/streaming/tidal.svg"}],
+  "pending_official_asset": ["Coupang Play", "KOCOWA+", "Coupang Rocket Wow"],
+  "note": "Pending entries are intentionally not rendered until an official downloadable asset or approved submission is verified."
+}
