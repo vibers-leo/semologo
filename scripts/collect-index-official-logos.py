@@ -5,7 +5,7 @@ Only domains already marked official-domain-verified are fetched.  The script
 records candidate SVG/PNG/JPG/WEBP links and provenance; it never publishes or
 overwrites a brand record automatically.
 """
-import json, re, sys
+import concurrent.futures, json, re, sys
 from pathlib import Path
 from urllib.parse import urljoin, urlparse
 from urllib.request import Request, urlopen
@@ -38,17 +38,23 @@ def main():
     q = next(x for x in data['queues'] if x['id'] == 'us-russell-2000')
     old = {}
     if OUT.exists(): old = {x['ticker']: x for x in json.loads(OUT.read_text()).get('items', [])}
-    verified = [x for x in q['items'] if x.get('official_domain')][offset:offset+limit]
-    for item in verified:
-        if item['ticker'] in old: continue
+    verified = [x for x in q['items'] if x.get('official_domain') or x.get('domain_candidate')][offset:offset+limit]
+    def one(item):
+        domain = item.get('official_domain') or item.get('domain_candidate')
         try:
-            assets = discover(item['official_domain'])
-            old[item['ticker']] = {**item, 'asset_links': assets,
-                'status': 'logo-candidates-found' if assets else 'no-direct-logo-link'}
-            print(item['ticker'], len(assets))
+            assets = discover(domain)
+            return item, assets, None
         except Exception as e:
-            old[item['ticker']] = {**item, 'asset_links': [], 'status': 'domain-fetch-failed', 'error': str(e)[:200]}
-            print(item['ticker'], 'ERROR', e, file=sys.stderr)
+            return item, [], str(e)[:200]
+    with concurrent.futures.ThreadPoolExecutor(max_workers=32) as pool:
+      results = pool.map(one, verified)
+      for item, assets, error in results:
+        if error:
+            old[item['ticker']] = {**item, 'asset_links': [], 'status': 'domain-fetch-failed', 'error': error}
+            continue
+        old[item['ticker']] = {**item, 'asset_links': assets,
+            'status': 'logo-candidates-found' if assets else 'no-direct-logo-link'}
+        print(item['ticker'], len(assets))
     OUT.write_text(json.dumps({'schema': 1, 'source_queue': str(QUEUE.relative_to(ROOT)),
         'policy': 'official-domain and rights review required before publication',
         'items': list(old.values())}, ensure_ascii=False, indent=2) + '\n')
