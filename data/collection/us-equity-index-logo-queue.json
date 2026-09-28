@@ -6837,48 +6837,52 @@
           "company_name": "Sm Energy",
           "exchange": "NYSE",
           "cik": null,
-          "official_domain": null,
+          "official_domain": "sm-energy.com",
           "source_url": "https://www.ishares.com/us/products/239710/ishares-russell-2000-etf/latest-holdings.csv",
           "index_memberships": [
             "Russell 2000"
           ],
-          "status": "constituent-pending-logo"
+          "status": "official-domain-verified",
+          "official_source_url": "https://www.sm-energy.com/"
         },
         {
           "ticker": "PTGX",
           "company_name": "Protagonist Therapeutics",
           "exchange": "NASDAQ",
           "cik": null,
-          "official_domain": null,
+          "official_domain": "protagonist-inc.com",
           "source_url": "https://www.ishares.com/us/products/239710/ishares-russell-2000-etf/latest-holdings.csv",
           "index_memberships": [
             "Russell 2000"
           ],
-          "status": "constituent-pending-logo"
+          "status": "official-domain-verified",
+          "official_source_url": "https://www.protagonist-inc.com/"
         },
         {
           "ticker": "RIOT",
           "company_name": "Riot Platforms",
           "exchange": "NASDAQ",
           "cik": null,
-          "official_domain": null,
+          "official_domain": "riotplatforms.com",
           "source_url": "https://www.ishares.com/us/products/239710/ishares-russell-2000-etf/latest-holdings.csv",
           "index_memberships": [
             "Russell 2000"
           ],
-          "status": "constituent-pending-logo"
+          "status": "official-domain-verified",
+          "official_source_url": "https://www.riotplatforms.com/"
         },
         {
           "ticker": "TGTX",
           "company_name": "Tg Therapeutics",
           "exchange": "NASDAQ",
           "cik": null,
-          "official_domain": null,
+          "official_domain": "tgtherapeutics.com",
           "source_url": "https://www.ishares.com/us/products/239710/ishares-russell-2000-etf/latest-holdings.csv",
           "index_memberships": [
             "Russell 2000"
           ],
-          "status": "constituent-pending-logo"
+          "status": "official-domain-verified",
+          "official_source_url": "https://www.tgtherapeutics.com/"
         },
         {
           "ticker": "RHP",
@@ -30329,7 +30333,7 @@
           "status": "constituent-pending-logo"
         }
       ],
-      "domain_reviewed_count": 16
+      "domain_reviewed_count": 20
     }
   ],
   "merge_instructions": {

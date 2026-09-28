@@ -660,6 +660,80 @@
       "official_source_url": "https://www.interdigital.com/",
       "asset_links": [],
       "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'interdigital.com'. (_ssl.c:1081)>"
+    },
+    {
+      "ticker": "SM",
+      "company_name": "Sm Energy",
+      "exchange": "NYSE",
+      "cik": null,
+      "official_domain": "sm-energy.com",
+      "source_url": "https://www.ishares.com/us/products/239710/ishares-russell-2000-etf/latest-holdings.csv",
+      "index_memberships": [
+        "Russell 2000"
+      ],
+      "status": "no-direct-logo-link",
+      "official_source_url": "https://www.sm-energy.com/",
+      "asset_links": []
+    },
+    {
+      "ticker": "PTGX",
+      "company_name": "Protagonist Therapeutics",
+      "exchange": "NASDAQ",
+      "cik": null,
+      "official_domain": "protagonist-inc.com",
+      "source_url": "https://www.ishares.com/us/products/239710/ishares-russell-2000-etf/latest-holdings.csv",
+      "index_memberships": [
+        "Russell 2000"
+      ],
+      "status": "no-direct-logo-link",
+      "official_source_url": "https://www.protagonist-inc.com/",
+      "asset_links": []
+    },
+    {
+      "ticker": "RIOT",
+      "company_name": "Riot Platforms",
+      "exchange": "NASDAQ",
+      "cik": null,
+      "official_domain": "riotplatforms.com",
+      "source_url": "https://www.ishares.com/us/products/239710/ishares-russell-2000-etf/latest-holdings.csv",
+      "index_memberships": [
+        "Russell 2000"
+      ],
+      "status": "logo-candidates-found",
+      "official_source_url": "https://www.riotplatforms.com/",
+      "asset_links": [
+        "https://www.riotplatforms.com/wp-content/uploads/2026/04/cropped-riot-logo-32x32.webp",
+        "https://www.riotplatforms.com/wp-content/uploads/2026/04/cropped-riot-logo-192x192.webp",
+        "https://www.riotplatforms.com/wp-content/uploads/2026/04/cropped-riot-logo-180x180.webp",
+        "https://www.riotplatforms.com/wp-content/uploads/2026/04/riot-logo.webp",
+        "https://www.riotplatforms.com/wp-content/uploads/2026/05/riot-platforms.webp",
+        "https://www.riotplatforms.com/wp-content/uploads/2026/05/riot-platforms-mark.webp",
+        "https://www.riotplatforms.com/wp-content/uploads/2026/05/riot-logo.png",
+        "https://www.riotplatforms.com/wp-content/plugins/cookie-law-info/lite/frontend/images/revisit.svg",
+        "https://www.riotplatforms.com/wp-content/plugins/cookie-law-info/lite/frontend/images/close.svg"
+      ]
+    },
+    {
+      "ticker": "TGTX",
+      "company_name": "Tg Therapeutics",
+      "exchange": "NASDAQ",
+      "cik": null,
+      "official_domain": "tgtherapeutics.com",
+      "source_url": "https://www.ishares.com/us/products/239710/ishares-russell-2000-etf/latest-holdings.csv",
+      "index_memberships": [
+        "Russell 2000"
+      ],
+      "status": "logo-candidates-found",
+      "official_source_url": "https://www.tgtherapeutics.com/",
+      "asset_links": [
+        "https://www.tgtherapeutics.com/wp-content/uploads/2025/02/TG_Icon_16.svg",
+        "https://www.tgtherapeutics.com/wp-content/uploads/2026/02/TGT_Logo_RGB-1.svg-1.svg",
+        "https://tgtherapeutics.com/wp-content/uploads/2025/02/hear-our-story.svg",
+        "https://tgtherapeutics.com/wp-content/uploads/2025/02/read-our-publication-1.svg",
+        "https://tgtherapeutics.com/wp-content/uploads/2025/02/getinvestor-information.svg",
+        "https://tgtherapeutics.com/wp-content/uploads/2025/02/exploreour-pipeline.svg",
+        "https://tgtherapeutics.com/wp-content/uploads/2025/02/Joinour-team.svg"
+      ]
     }
   ]
 }
