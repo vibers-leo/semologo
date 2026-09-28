@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-09-28",
+  "purpose": "Prioritized open-source logo sources for quality-first collection",
+  "policy": "Keep upstream commit, per-asset license and trademark source. Review before public publication.",
+  "sources": [
+    {
+      "id": "simple-icons",
+      "name": "Simple Icons",
+      "url": "https://github.com/simple-icons/simple-icons",
+      "asset_count": 3400,
+      "format": "SVG",
+      "code_license": "CC0-1.0",
+      "asset_license": "per-icon license/source; verify individually",
+      "priority": 1,
+      "collection_method": "pinned git snapshot + SVG validation"
+    },
+    {
+      "id": "thesvg",
+      "name": "theSVG",
+      "url": "https://github.com/glincker/thesvg",
+      "asset_count": 7400,
+      "format": "SVG",
+      "code_license": "open source",
+      "asset_license": "per-icon metadata; verify individually",
+      "priority": 2,
+      "collection_method": "manifest-driven download + duplicate/render checks"
+    },
+    {
+      "id": "allogo",
+      "name": "Allogo",
+      "url": "https://github.com/callback-io/allogo",
+      "asset_count": 2900,
+      "format": "SVG/PNG/JPG",
+      "code_license": "MIT",
+      "asset_license": "brand trademarks; retain official source link",
+      "priority": 3,
+      "collection_method": "SVG first; raster only when no vector exists"
+    },
+    {
+      "id": "brandbase",
+      "name": "Brandbase",
+      "url": "https://github.com/MassiveMassimo/brandbase",
+      "asset_count": null,
+      "format": "SVG",
+      "code_license": "MIT",
+      "asset_license": "brand trademarks; verify source",
+      "priority": 4,
+      "collection_method": "manifest-driven download"
+    }
+  ]
+}
