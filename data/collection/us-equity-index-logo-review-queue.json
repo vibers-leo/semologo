@@ -1,0 +1,1484 @@
+{
+  "schema": 1,
+  "source": "us-equity-index-logo-discovery.json",
+  "external_root": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928",
+  "count": 246,
+  "items": [
+    {
+      "ticker": "MGY",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/MGY/magnolia-oil-and-gas-logo.png",
+      "bytes": 10975,
+      "format": "png"
+    },
+    {
+      "ticker": "CBU",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/CBU/CFSI_Logo_RGB.png",
+      "bytes": 7335,
+      "format": "png"
+    },
+    {
+      "ticker": "TREE",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/TREE/trustpilot-logo.svg",
+      "bytes": 8365,
+      "format": "svg"
+    },
+    {
+      "ticker": "VSEC",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/VSEC/logo.svg",
+      "bytes": 121823,
+      "format": "svg"
+    },
+    {
+      "ticker": "NKTX",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/NKTX/logo.svg",
+      "bytes": 2676,
+      "format": "svg"
+    },
+    {
+      "ticker": "IRWD",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/IRWD/ironwood-logo-main-title.svg",
+      "bytes": 3434,
+      "format": "svg"
+    },
+    {
+      "ticker": "PCT",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/PCT/logo2.png",
+      "bytes": 7046,
+      "format": "png"
+    },
+    {
+      "ticker": "OMCL",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/OMCL/omnicell-logo-r-hz-grn-rgb-300.png",
+      "bytes": 10216,
+      "format": "png"
+    },
+    {
+      "ticker": "QTWO",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/QTWO/Data_20Driven_20Marketing.svg",
+      "bytes": 2316,
+      "format": "svg"
+    },
+    {
+      "ticker": "LXU",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/LXU/lsb-logo-green-white.png",
+      "bytes": 24438,
+      "format": "png"
+    },
+    {
+      "ticker": "ATRO",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/ATRO/corepower-logo.jpg",
+      "bytes": 5071,
+      "format": "jpg"
+    },
+    {
+      "ticker": "SD",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/SD/sandridge-logo.svg",
+      "bytes": 5029,
+      "format": "svg"
+    },
+    {
+      "ticker": "NMRK",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/NMRK/logo.png",
+      "bytes": 29502,
+      "format": "png"
+    },
+    {
+      "ticker": "FLNC",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/FLNC/site-logo--color.svg",
+      "bytes": 37779,
+      "format": "svg"
+    },
+    {
+      "ticker": "BBNX",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/BBNX/logo-white.svg",
+      "bytes": 19627,
+      "format": "svg"
+    },
+    {
+      "ticker": "REA",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/REA/logo-dark.webp",
+      "bytes": 37082,
+      "format": "webp"
+    },
+    {
+      "ticker": "ALEC",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/ALEC/alector-white-text-logo.svg",
+      "bytes": 3231,
+      "format": "svg"
+    },
+    {
+      "ticker": "TWST",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/TWST/logo-dark-mode.svg",
+      "bytes": 15018,
+      "format": "svg"
+    },
+    {
+      "ticker": "GRDN",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/GRDN/2026-logo-pride-logo-plain2_orig.png",
+      "bytes": 143315,
+      "format": "png"
+    },
+    {
+      "ticker": "BELFA",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/BELFA/Bel-masterbrand-without-tagline-rgb.png",
+      "bytes": 199133,
+      "format": "png"
+    },
+    {
+      "ticker": "EYE",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/EYE/NV_BlueLogo.797bcf019409.png",
+      "bytes": 56090,
+      "format": "png"
+    },
+    {
+      "ticker": "QBTS",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/QBTS/d-wave-corporate-logo-full-color-light.png",
+      "bytes": 5837,
+      "format": "png"
+    },
+    {
+      "ticker": "CLNE",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/CLNE/ce-sm-logo.svg",
+      "bytes": 1778,
+      "format": "svg"
+    },
+    {
+      "ticker": "OSW",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/OSW/Lee_Hildebrand_Review_Sly_Stone.jpg",
+      "bytes": 522995,
+      "format": "jpg"
+    },
+    {
+      "ticker": "DSGR",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/DSGR/logo-graphic.svg",
+      "bytes": 3145,
+      "format": "svg"
+    },
+    {
+      "ticker": "UUUU",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/UUUU/EnergyFuels-Logo.png",
+      "bytes": 17676,
+      "format": "png"
+    },
+    {
+      "ticker": "OSCR",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/OSCR/logo_black_header.svg",
+      "bytes": 8820,
+      "format": "svg"
+    },
+    {
+      "ticker": "CPS",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/CPS/CPS-Logo-Digital-Nav_20Bar-v4.svg",
+      "bytes": 8620,
+      "format": "svg"
+    },
+    {
+      "ticker": "MNTK",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/MNTK/GSF_logo2-removebg-preview.png",
+      "bytes": 60913,
+      "format": "png"
+    },
+    {
+      "ticker": "EPC",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/EPC/epc_logo_neu_blau_2.png",
+      "bytes": 7184,
+      "format": "png"
+    },
+    {
+      "ticker": "GPI",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/GPI/logoA.png",
+      "bytes": 41971,
+      "format": "png"
+    },
+    {
+      "ticker": "GT",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/GT/ct-2026-financial-stock-exchange-market.jpg",
+      "bytes": 24150,
+      "format": "jpg"
+    },
+    {
+      "ticker": "NEO",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/NEO/neo-logo.svg",
+      "bytes": 7518,
+      "format": "svg"
+    },
+    {
+      "ticker": "ACNB",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/ACNB/Color-and-White-logo-no-background.png",
+      "bytes": 470277,
+      "format": "png"
+    },
+    {
+      "ticker": "NRGV",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/NRGV/ev-logo-hor-v3.png",
+      "bytes": 14477,
+      "format": "png"
+    },
+    {
+      "ticker": "MGNI",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/MGNI/Logo.svg",
+      "bytes": 2665,
+      "format": "svg"
+    },
+    {
+      "ticker": "BOOT",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/BOOT/logo2x.png",
+      "bytes": 5476,
+      "format": "png"
+    },
+    {
+      "ticker": "ASB",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/ASB/american-state-bank-logo-white.svg",
+      "bytes": 36209,
+      "format": "svg"
+    },
+    {
+      "ticker": "SRZN",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/SRZN/surrozen-logo-final.svg",
+      "bytes": 8075,
+      "format": "svg"
+    },
+    {
+      "ticker": "BFC",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/BFC/fdic-logo.svg",
+      "bytes": 0,
+      "format": "svg"
+    },
+    {
+      "ticker": "SGRY",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/SGRY/sp-covid-logo.svg",
+      "bytes": 13113,
+      "format": "svg"
+    },
+    {
+      "ticker": "SAM",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/SAM/boston-beer-company-logo-white.svg",
+      "bytes": 9937,
+      "format": "svg"
+    },
+    {
+      "ticker": "AP",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/AP/AXIOMETRIX_Logo_WHITE_2022.svg",
+      "bytes": 22674,
+      "format": "svg"
+    },
+    {
+      "ticker": "SMA",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/SMA/smartstop_websitelogo_hangingbadge-002-1.png",
+      "bytes": 24612,
+      "format": "png"
+    },
+    {
+      "ticker": "ADTN",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/ADTN/adtran-logo.svg",
+      "bytes": 3066,
+      "format": "svg"
+    },
+    {
+      "ticker": "ATEC",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/ATEC/logo-header.png",
+      "bytes": 9033,
+      "format": "png"
+    },
+    {
+      "ticker": "NTGR",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/NTGR/brand-logo.svg",
+      "bytes": 1790,
+      "format": "svg"
+    },
+    {
+      "ticker": "CARL",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/CARL/aprevo-logo.webp",
+      "bytes": 10456,
+      "format": "webp"
+    },
+    {
+      "ticker": "WHD",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/WHD/cactus-logo.svg",
+      "bytes": 2187,
+      "format": "svg"
+    },
+    {
+      "ticker": "BZAI",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/BZAI/BLZ-Logo-RGB-White.svg",
+      "bytes": 8895,
+      "format": "svg"
+    },
+    {
+      "ticker": "LCUT",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/LCUT/Logo-LTB2.svg",
+      "bytes": 13212,
+      "format": "svg"
+    },
+    {
+      "ticker": "RPAY",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/RPAY/REP-0004_Logo_CMYK_hz-813w.png",
+      "bytes": 35249,
+      "format": "png"
+    },
+    {
+      "ticker": "FCCO",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/FCCO/logo-2x.png",
+      "bytes": 19357,
+      "format": "png"
+    },
+    {
+      "ticker": "EVCM",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/EVCM/Mark-FullColorCircle-2021.svg",
+      "bytes": 1454,
+      "format": "svg"
+    },
+    {
+      "ticker": "SATL",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/SATL/logo-satellogic-150x150.png",
+      "bytes": 9349,
+      "format": "png"
+    },
+    {
+      "ticker": "ASUR",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/ASUR/Asure-Software-Logo-SVG-1.svg",
+      "bytes": 2292,
+      "format": "svg"
+    },
+    {
+      "ticker": "LIF",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/LIF/life360-logo-dark.svg",
+      "bytes": 6076,
+      "format": "svg"
+    },
+    {
+      "ticker": "DMRC",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/DMRC/logo_20schnucks_20black.png",
+      "bytes": 15030,
+      "format": "png"
+    },
+    {
+      "ticker": "TGTX",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/TGTX/TGT_Logo_RGB-1.svg-1.svg",
+      "bytes": 7712,
+      "format": "svg"
+    },
+    {
+      "ticker": "DDD",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/DDD/logo-3ds-dark.svg",
+      "bytes": 29559,
+      "format": "svg"
+    },
+    {
+      "ticker": "BMI",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/BMI/BlueEdge_Logo.png",
+      "bytes": 7327,
+      "format": "png"
+    },
+    {
+      "ticker": "CRK",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/CRK/ComstockResourceslogo.png",
+      "bytes": 418443,
+      "format": "png"
+    },
+    {
+      "ticker": "NUVB",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/NUVB/nuvationbio-logo.svg",
+      "bytes": 14889,
+      "format": "svg"
+    },
+    {
+      "ticker": "KWY",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/KWY/kingsway-logo.svg",
+      "bytes": 8011,
+      "format": "svg"
+    },
+    {
+      "ticker": "EE",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/EE/test-logo.svg",
+      "bytes": 4353,
+      "format": "svg"
+    },
+    {
+      "ticker": "CTRE",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/CTRE/caretrust-logo.svg",
+      "bytes": 1277,
+      "format": "svg"
+    },
+    {
+      "ticker": "FC",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/FC/FC_logo.svg",
+      "bytes": 4094,
+      "format": "svg"
+    },
+    {
+      "ticker": "ELVN",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/ELVN/logo.svg",
+      "bytes": 9843,
+      "format": "svg"
+    },
+    {
+      "ticker": "SYNA",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/SYNA/synaptics-bean-only-logo-all-blue_0.png",
+      "bytes": 80386,
+      "format": "png"
+    },
+    {
+      "ticker": "UCB",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/UCB/logo.svg",
+      "bytes": 12149,
+      "format": "svg"
+    },
+    {
+      "ticker": "OBIO",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/OBIO/logo-light.png",
+      "bytes": 13111,
+      "format": "png"
+    },
+    {
+      "ticker": "RGNX",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/RGNX/regenx-logo.svg",
+      "bytes": 12397,
+      "format": "svg"
+    },
+    {
+      "ticker": "INVA",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/INVA/logo.png",
+      "bytes": 21520,
+      "format": "png"
+    },
+    {
+      "ticker": "NABL",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/NABL/logo-n-able-symbol-only-light.svg",
+      "bytes": 328,
+      "format": "svg"
+    },
+    {
+      "ticker": "APAM",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/APAM/aplp-logo.png",
+      "bytes": 37495,
+      "format": "png"
+    },
+    {
+      "ticker": "STRA",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/STRA/Header_Logo_SEI.svg",
+      "bytes": 10138,
+      "format": "svg"
+    },
+    {
+      "ticker": "ADPT",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/ADPT/APT-Main-Logo.png",
+      "bytes": 99306,
+      "format": "png"
+    },
+    {
+      "ticker": "JOBY",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/JOBY/logo-animated-256.webp",
+      "bytes": 261072,
+      "format": "webp"
+    },
+    {
+      "ticker": "NNE",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/NNE/NANO-Nuclear-logoHorizontal.png",
+      "bytes": 8678,
+      "format": "png"
+    },
+    {
+      "ticker": "OPTX",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/OPTX/cropped-syntec_optics_logo.png",
+      "bytes": 5852,
+      "format": "png"
+    },
+    {
+      "ticker": "OFLX",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/OFLX/MediTracLogo_ko_500x200.png",
+      "bytes": 13166,
+      "format": "png"
+    },
+    {
+      "ticker": "HPP",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/HPP/logo-naiop.05b66439.svg",
+      "bytes": 31847,
+      "format": "svg"
+    },
+    {
+      "ticker": "ANNX",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/ANNX/logo.jpg",
+      "bytes": 16378,
+      "format": "jpg"
+    },
+    {
+      "ticker": "GEO",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/GEO/we-are-geo-logo_white.png",
+      "bytes": 108875,
+      "format": "png"
+    },
+    {
+      "ticker": "OII",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/OII/icon64_logo.png",
+      "bytes": 7800,
+      "format": "png"
+    },
+    {
+      "ticker": "PBYI",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/PBYI/logo.png",
+      "bytes": 28643,
+      "format": "png"
+    },
+    {
+      "ticker": "ALMS",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/ALMS/logo.svg",
+      "bytes": 2327,
+      "format": "svg"
+    },
+    {
+      "ticker": "NAVI",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/NAVI/navient-rbg-logo.svg",
+      "bytes": 1768,
+      "format": "svg"
+    },
+    {
+      "ticker": "SGHT",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/SGHT/logo_light.svg",
+      "bytes": 18514,
+      "format": "svg"
+    },
+    {
+      "ticker": "VISN",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/VISN/vistance_logo_horizontal_tm_rgb_primary.png",
+      "bytes": 97890,
+      "format": "png"
+    },
+    {
+      "ticker": "NOVT",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/NOVT/cropped-novanta-logo.png",
+      "bytes": 6139,
+      "format": "png"
+    },
+    {
+      "ticker": "FTRE",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/FTRE/logo-footer.webp",
+      "bytes": 6160,
+      "format": "webp"
+    },
+    {
+      "ticker": "PAL",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/PAL/PAL-logo_White-Outline-629x1024.png",
+      "bytes": 16673,
+      "format": "png"
+    },
+    {
+      "ticker": "SENS",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/SENS/logo.png",
+      "bytes": 7201,
+      "format": "png"
+    },
+    {
+      "ticker": "OPCH",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/OPCH/option-care-logo.png",
+      "bytes": 30482,
+      "format": "png"
+    },
+    {
+      "ticker": "SRI",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/SRI/stoneridge-logo.png",
+      "bytes": 11871,
+      "format": "png"
+    },
+    {
+      "ticker": "AVPT",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/AVPT/avepoint-logo.svg",
+      "bytes": 3872,
+      "format": "svg"
+    },
+    {
+      "ticker": "VRRM",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/VRRM/verra_transparent-logo.png",
+      "bytes": 93448,
+      "format": "png"
+    },
+    {
+      "ticker": "FIVN",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/FIVN/five9-logo.svg",
+      "bytes": 1849,
+      "format": "svg"
+    },
+    {
+      "ticker": "RAPP",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/RAPP/rapplogo.svg",
+      "bytes": 2873,
+      "format": "svg"
+    },
+    {
+      "ticker": "TTAN",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/TTAN/brand-static-sprite.6073efd1.svg",
+      "bytes": 245344,
+      "format": "svg"
+    },
+    {
+      "ticker": "ZVRA",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/ZVRA/zvra-logo.png",
+      "bytes": 31549,
+      "format": "png"
+    },
+    {
+      "ticker": "INBK",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/INBK/inbk-footer-logo.svg",
+      "bytes": 6101,
+      "format": "svg"
+    },
+    {
+      "ticker": "ALNT",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/ALNT/Allient-Logo.webp",
+      "bytes": 5166,
+      "format": "webp"
+    },
+    {
+      "ticker": "ACU",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/ACU/logo_acme.png",
+      "bytes": 5513,
+      "format": "png"
+    },
+    {
+      "ticker": "BLFS",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/BLFS/Header-logo.svg",
+      "bytes": 13436,
+      "format": "svg"
+    },
+    {
+      "ticker": "QCRH",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/QCRH/qcr-logo-white.svg",
+      "bytes": 8933,
+      "format": "svg"
+    },
+    {
+      "ticker": "BVS",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/BVS/bioventus-logo-color.png",
+      "bytes": 7298,
+      "format": "png"
+    },
+    {
+      "ticker": "TRAK",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/TRAK/rt_logo.svg",
+      "bytes": 8507,
+      "format": "svg"
+    },
+    {
+      "ticker": "CADL",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/CADL/cdtlogo_small.png",
+      "bytes": 44418,
+      "format": "png"
+    },
+    {
+      "ticker": "AORT",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/AORT/artivion_logo_big.png",
+      "bytes": 49740,
+      "format": "png"
+    },
+    {
+      "ticker": "KREF",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/KREF/App-Logo-150x150.png",
+      "bytes": 5999,
+      "format": "png"
+    },
+    {
+      "ticker": "MCB",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/MCB/MCB_logo_retina.png",
+      "bytes": 27892,
+      "format": "png"
+    },
+    {
+      "ticker": "GENB",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/GENB/flagship-logo.svg",
+      "bytes": 10414,
+      "format": "svg"
+    },
+    {
+      "ticker": "SONO",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/SONO/wtm-logo.png",
+      "bytes": 5095,
+      "format": "png"
+    },
+    {
+      "ticker": "VCYT",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/VCYT/vcyt-multi-color-logo-rgb.svg",
+      "bytes": 3237,
+      "format": "svg"
+    },
+    {
+      "ticker": "SPOK",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/SPOK/logo-us.png",
+      "bytes": 16079,
+      "format": "png"
+    },
+    {
+      "ticker": "EVTC",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/EVTC/evertec-logo.png",
+      "bytes": 42625,
+      "format": "png"
+    },
+    {
+      "ticker": "ABCB",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/ABCB/new_logo.jpg",
+      "bytes": 20600,
+      "format": "jpg"
+    },
+    {
+      "ticker": "OCFC",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/OCFC/cropped-OCFC-Logo-Black-32x32.jpg",
+      "bytes": 6381,
+      "format": "jpg"
+    },
+    {
+      "ticker": "MMS",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/MMS/logo-maximus-white.svg",
+      "bytes": 3499,
+      "format": "svg"
+    },
+    {
+      "ticker": "RDNT",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/RDNT/radnet-logo-no-tagline.webp",
+      "bytes": 15864,
+      "format": "webp"
+    },
+    {
+      "ticker": "GPGI",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/GPGI/GPGI_Logo-e1767965950157-1024x455.png",
+      "bytes": 33424,
+      "format": "png"
+    },
+    {
+      "ticker": "WRBY",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/WRBY/warby-logo-f043b63a4b054f018dbe99454ee56fc9.svg",
+      "bytes": 8561,
+      "format": "svg"
+    },
+    {
+      "ticker": "PCB",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/PCB/PCB-Logo-2020.png",
+      "bytes": 8808,
+      "format": "png"
+    },
+    {
+      "ticker": "USNA",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/USNA/logo-blue.svg",
+      "bytes": 90033,
+      "format": "svg"
+    },
+    {
+      "ticker": "ATRC",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/ATRC/logo.svg",
+      "bytes": 2733,
+      "format": "svg"
+    },
+    {
+      "ticker": "MAC",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/MAC/logo-macerich.svg",
+      "bytes": 2827,
+      "format": "svg"
+    },
+    {
+      "ticker": "LADR",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/LADR/logo.png",
+      "bytes": 23606,
+      "format": "png"
+    },
+    {
+      "ticker": "GOLD",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/GOLD/Logomark-Light_Background_321x321-300x300.png",
+      "bytes": 31359,
+      "format": "png"
+    },
+    {
+      "ticker": "CYTK",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/CYTK/avonne-w-frame.png",
+      "bytes": 122954,
+      "format": "png"
+    },
+    {
+      "ticker": "MGPI",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/MGPI/logo-white.png",
+      "bytes": 6051,
+      "format": "png"
+    },
+    {
+      "ticker": "LXP",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/LXP/logo_normal-150x85.png",
+      "bytes": 7551,
+      "format": "png"
+    },
+    {
+      "ticker": "MBIN",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/MBIN/mbin-wordmark-red.png",
+      "bytes": 17372,
+      "format": "png"
+    },
+    {
+      "ticker": "VITL",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/VITL/vf-logo.svg",
+      "bytes": 16841,
+      "format": "svg"
+    },
+    {
+      "ticker": "RBBN",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/RBBN/ribbon-logo-color-1.svg",
+      "bytes": 10581,
+      "format": "svg"
+    },
+    {
+      "ticker": "CRBU",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/CRBU/logo.svg",
+      "bytes": 6289,
+      "format": "svg"
+    },
+    {
+      "ticker": "AESI",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/AESI/AESI-Updated-Logo-3.jpg",
+      "bytes": 31668,
+      "format": "jpg"
+    },
+    {
+      "ticker": "STAA",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/STAA/logo-ascrs.png",
+      "bytes": 10500,
+      "format": "png"
+    },
+    {
+      "ticker": "SR",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/SR/spire-global-cubesat-satellite-logo.svg",
+      "bytes": 4249,
+      "format": "svg"
+    },
+    {
+      "ticker": "BELFB",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/BELFB/Bel-masterbrand-without-tagline-rgb.png",
+      "bytes": 199133,
+      "format": "png"
+    },
+    {
+      "ticker": "LCNB",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/LCNB/BrokerCheck_logo_big.png",
+      "bytes": 28923,
+      "format": "png"
+    },
+    {
+      "ticker": "CELC",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/CELC/REVT_TM_Logo_DosAdm_RGB_Blk_Pos-1.svg",
+      "bytes": 14492,
+      "format": "svg"
+    },
+    {
+      "ticker": "LEGH",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/LEGH/legacy-housing-logo.png",
+      "bytes": 5952,
+      "format": "png"
+    },
+    {
+      "ticker": "NWE",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/NWE/logo192.png",
+      "bytes": 5347,
+      "format": "png"
+    },
+    {
+      "ticker": "CALY",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/CALY/logo.png",
+      "bytes": 23479,
+      "format": "png"
+    },
+    {
+      "ticker": "AGL",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/AGL/agilon-health-_Logo_CMYK_Horiz_Best-for-Printing-scaled.png",
+      "bytes": 86522,
+      "format": "png"
+    },
+    {
+      "ticker": "BLBD",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/BLBD/blbd-logo.png",
+      "bytes": 28695,
+      "format": "png"
+    },
+    {
+      "ticker": "CNR",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/CNR/logo.svg",
+      "bytes": 2009,
+      "format": "svg"
+    },
+    {
+      "ticker": "NRDS",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/NRDS/NW_logo_200x200.png",
+      "bytes": 10330,
+      "format": "png"
+    },
+    {
+      "ticker": "HRTG",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/HRTG/HRTG_logo_white.svg",
+      "bytes": 3574,
+      "format": "svg"
+    },
+    {
+      "ticker": "CENTA",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/CENTA/logo-tax-num.png",
+      "bytes": 22011,
+      "format": "png"
+    },
+    {
+      "ticker": "CNMD",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/CNMD/conmed_logo_header_rgb.svg",
+      "bytes": 2108,
+      "format": "svg"
+    },
+    {
+      "ticker": "GSIT",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/GSIT/GSIT-logo-blue-2023-withTag.png",
+      "bytes": 5842,
+      "format": "png"
+    },
+    {
+      "ticker": "CLDT",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/CLDT/logotype-150x150.png",
+      "bytes": 13898,
+      "format": "png"
+    },
+    {
+      "ticker": "SWIM",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/SWIM/swim_logo.svg",
+      "bytes": 8411,
+      "format": "svg"
+    },
+    {
+      "ticker": "MRCY",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/MRCY/mercury-logo.svg",
+      "bytes": 2280,
+      "format": "svg"
+    },
+    {
+      "ticker": "GLNG",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/GLNG/logo.png",
+      "bytes": 10243,
+      "format": "png"
+    },
+    {
+      "ticker": "ACHC",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/ACHC/AcadiaHealthcare-Logo-Desktop-Color.svg",
+      "bytes": 33813,
+      "format": "svg"
+    },
+    {
+      "ticker": "HWBK",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/HWBK/HBancshares-Logo-2024-Horizontal_Reverse_RGB.png",
+      "bytes": 15730,
+      "format": "png"
+    },
+    {
+      "ticker": "SHAZ",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/SHAZ/sharon-logo.png",
+      "bytes": 5161,
+      "format": "png"
+    },
+    {
+      "ticker": "ACMR",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/ACMR/acm_logo.png",
+      "bytes": 5414,
+      "format": "png"
+    },
+    {
+      "ticker": "BH_A",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/BH_A/logo-gigaset.png",
+      "bytes": 6886,
+      "format": "png"
+    },
+    {
+      "ticker": "RDVT",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/RDVT/redviolet-logo.svg",
+      "bytes": 6153,
+      "format": "svg"
+    },
+    {
+      "ticker": "DEC",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/DEC/logo-white.png",
+      "bytes": 40060,
+      "format": "png"
+    },
+    {
+      "ticker": "ATLO",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/ATLO/MobileLogo_HighRes.png",
+      "bytes": 79498,
+      "format": "png"
+    },
+    {
+      "ticker": "IRON",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/IRON/new-logo.svg",
+      "bytes": 7111,
+      "format": "svg"
+    },
+    {
+      "ticker": "FLYW",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/FLYW/flywire-logo.svg",
+      "bytes": 1898,
+      "format": "svg"
+    },
+    {
+      "ticker": "ANRO",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/ANRO/Alto_Neuroscience-Logo.svg",
+      "bytes": 7003,
+      "format": "svg"
+    },
+    {
+      "ticker": "TAYD",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/TAYD/Taylor-Devices-Logos_Taylor-Logo-Linear-1024x169.png",
+      "bytes": 28335,
+      "format": "png"
+    },
+    {
+      "ticker": "CBNA",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/CBNA/2026-Forbes-America_s-Best-Banks-Award-Logo-Square-Dark-01.png",
+      "bytes": 399095,
+      "format": "png"
+    },
+    {
+      "ticker": "SNDA",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/SNDA/logo_sonida-senior-living.svg",
+      "bytes": 11788,
+      "format": "svg"
+    },
+    {
+      "ticker": "FOR",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/FOR/digimedia-logo.webp",
+      "bytes": 19782,
+      "format": "webp"
+    },
+    {
+      "ticker": "DAVE",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/DAVE/dave-logo.svg",
+      "bytes": 5777,
+      "format": "svg"
+    },
+    {
+      "ticker": "NUTX",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/NUTX/Nutex_Logo_Mar2022_White-Wordmark-scaled.png",
+      "bytes": 16732,
+      "format": "png"
+    },
+    {
+      "ticker": "FCFS",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/FCFS/alaska.png",
+      "bytes": 16422,
+      "format": "png"
+    },
+    {
+      "ticker": "INTA",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/INTA/Intapp_Logo_FullColor_Negative.svg",
+      "bytes": 3758,
+      "format": "svg"
+    },
+    {
+      "ticker": "MCBS",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/MCBS/mcbs-logo.jpg",
+      "bytes": 47065,
+      "format": "jpg"
+    },
+    {
+      "ticker": "ROOT",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/ROOT/sec-logo.png",
+      "bytes": 12857,
+      "format": "png"
+    },
+    {
+      "ticker": "VALU",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/VALU/stock_market_today_1.jpg",
+      "bytes": 72069,
+      "format": "jpg"
+    },
+    {
+      "ticker": "IVT",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/IVT/InvenTrust_Logo_4C_K-01.png",
+      "bytes": 5531,
+      "format": "png"
+    },
+    {
+      "ticker": "XNCR",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/XNCR/logo-e1455642879309-180x180.png",
+      "bytes": 9919,
+      "format": "png"
+    },
+    {
+      "ticker": "INTT",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/INTT/logo.png",
+      "bytes": 17286,
+      "format": "png"
+    },
+    {
+      "ticker": "CVSA",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/CVSA/cv_logo.svg",
+      "bytes": 2965,
+      "format": "svg"
+    },
+    {
+      "ticker": "SBH",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/SBH/Happy_Beauty_Logo.svg",
+      "bytes": 15710,
+      "format": "svg"
+    },
+    {
+      "ticker": "MQ",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/MQ/Awards_Updated-logo.svg",
+      "bytes": 21915,
+      "format": "svg"
+    },
+    {
+      "ticker": "SND",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/SND/SS_2022-LOGO.png",
+      "bytes": 309428,
+      "format": "png"
+    },
+    {
+      "ticker": "MOG_A",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/MOG_A/Moog_logo_white_1450.webp",
+      "bytes": 10746,
+      "format": "webp"
+    },
+    {
+      "ticker": "ASO",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/ASO/ASOLogoV2.png",
+      "bytes": 87181,
+      "format": "png"
+    },
+    {
+      "ticker": "BKH",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/BKH/blackhillscom-logo-1024x125.png",
+      "bytes": 40795,
+      "format": "png"
+    },
+    {
+      "ticker": "IIIV",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/IIIV/i3CourtOne_Logo_Green_Horizontal_DARK-768x230.png",
+      "bytes": 39982,
+      "format": "png"
+    },
+    {
+      "ticker": "SCSC",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/SCSC/scansource_logo.svg",
+      "bytes": 4076,
+      "format": "svg"
+    },
+    {
+      "ticker": "GLOB",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/GLOB/GLOB.AI_logo.svg",
+      "bytes": 3702,
+      "format": "svg"
+    },
+    {
+      "ticker": "BSVN",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/BSVN/Bank7_LogoFINALRGB-e1488760675798.png",
+      "bytes": 65209,
+      "format": "png"
+    },
+    {
+      "ticker": "FMNB",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/FMNB/logo.png",
+      "bytes": 24774,
+      "format": "png"
+    },
+    {
+      "ticker": "KOPN",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/KOPN/Kopin-Logo-Color.svg",
+      "bytes": 18955,
+      "format": "svg"
+    },
+    {
+      "ticker": "OXM",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/OXM/logo.jpg",
+      "bytes": 22013,
+      "format": "jpg"
+    },
+    {
+      "ticker": "URBN",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/URBN/logo-investor-relations.svg",
+      "bytes": 3998,
+      "format": "svg"
+    },
+    {
+      "ticker": "KPTI",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/KPTI/karyopharm-therapeutics-logo-1024x249.webp",
+      "bytes": 28332,
+      "format": "webp"
+    },
+    {
+      "ticker": "ACCO",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/ACCO/acco_brands_logo_reversed_1784059166.svg",
+      "bytes": 4046,
+      "format": "svg"
+    },
+    {
+      "ticker": "DXPE",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/DXPE/DXP_Logo.svg",
+      "bytes": 13113,
+      "format": "svg"
+    },
+    {
+      "ticker": "CC",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/CC/cc-logo.svg",
+      "bytes": 7273,
+      "format": "svg"
+    },
+    {
+      "ticker": "EVMN",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/EVMN/Evommune-Logo.svg",
+      "bytes": 11662,
+      "format": "svg"
+    },
+    {
+      "ticker": "CUBI",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/CUBI/Logo-40-Cubi.png",
+      "bytes": 5085,
+      "format": "png"
+    },
+    {
+      "ticker": "MTW",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/MTW/logo-manitowoc-c.svg",
+      "bytes": 5112,
+      "format": "svg"
+    },
+    {
+      "ticker": "EFSI",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/EFSI/efsi-logo-v2.png",
+      "bytes": 50736,
+      "format": "png"
+    },
+    {
+      "ticker": "GDOT",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/GDOT/Logo.svg",
+      "bytes": 9237,
+      "format": "svg"
+    },
+    {
+      "ticker": "PFBC",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/PFBC/preferred-bank-logo.png",
+      "bytes": 9767,
+      "format": "png"
+    },
+    {
+      "ticker": "CEVA",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/CEVA/cropped-Logo-Ceva-512x512-1-380x380.png",
+      "bytes": 96002,
+      "format": "png"
+    },
+    {
+      "ticker": "WEST",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/WEST/westrock-logo-150x150.png",
+      "bytes": 6037,
+      "format": "png"
+    },
+    {
+      "ticker": "WOR",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/WOR/logo-white-tm.svg",
+      "bytes": 5390,
+      "format": "svg"
+    },
+    {
+      "ticker": "AVNT",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/AVNT/PrintMarkInks_01_129x132.jpg",
+      "bytes": 8166,
+      "format": "jpg"
+    },
+    {
+      "ticker": "ACEL",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/ACEL/AE_Circle_20Logo_Flat.png",
+      "bytes": 155971,
+      "format": "png"
+    },
+    {
+      "ticker": "DBD",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/DBD/dn-white-logo.svg",
+      "bytes": 8384,
+      "format": "svg"
+    },
+    {
+      "ticker": "RPD",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/RPD/rapid7-logo.2ueoguhn_hq76.svg",
+      "bytes": 1585,
+      "format": "svg"
+    },
+    {
+      "ticker": "PLMR",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/PLMR/PALOMAR-WHITE-logo-e1727093428460.png",
+      "bytes": 23232,
+      "format": "png"
+    },
+    {
+      "ticker": "POWW",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/POWW/ohc-logo-2026-stacked-color-white.png",
+      "bytes": 11666,
+      "format": "png"
+    },
+    {
+      "ticker": "RPC",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/RPC/Logo_Horizontal-scaled.png",
+      "bytes": 27329,
+      "format": "png"
+    },
+    {
+      "ticker": "STRW",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/STRW/logo.png",
+      "bytes": 64443,
+      "format": "png"
+    },
+    {
+      "ticker": "WDFC",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/WDFC/logo.svg",
+      "bytes": 27350,
+      "format": "svg"
+    },
+    {
+      "ticker": "JCAP",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/JCAP/logo.svg",
+      "bytes": 5759,
+      "format": "svg"
+    },
+    {
+      "ticker": "BKU",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/BKU/fdic_logo67e43eac-13ac-4816-8e91-14796f28b280.svg",
+      "bytes": 1053,
+      "format": "svg"
+    },
+    {
+      "ticker": "CVRX",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/CVRX/barostim-logo-new.svg",
+      "bytes": 8089,
+      "format": "svg"
+    },
+    {
+      "ticker": "OPFI",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/OPFI/logo-color.svg",
+      "bytes": 4816,
+      "format": "svg"
+    },
+    {
+      "ticker": "SPCE",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/SPCE/SPCE-Logotype_Black.png",
+      "bytes": 13057,
+      "format": "png"
+    },
+    {
+      "ticker": "PLUG",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/PLUG/plug-logo.svg",
+      "bytes": 1437,
+      "format": "svg"
+    },
+    {
+      "ticker": "MGRC",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/MGRC/mgrc-logo.svg",
+      "bytes": 6496,
+      "format": "svg"
+    },
+    {
+      "ticker": "TXNM",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/TXNM/TXNM-Energy-logo.png",
+      "bytes": 12200,
+      "format": "png"
+    },
+    {
+      "ticker": "GENI",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/GENI/logo.svg",
+      "bytes": 1736,
+      "format": "svg"
+    },
+    {
+      "ticker": "OSPN",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/OSPN/logos-mobile-slider.png",
+      "bytes": 8039,
+      "format": "png"
+    },
+    {
+      "ticker": "VSAT",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/VSAT/VS3-F2-logo-white-v2.png",
+      "bytes": 10514,
+      "format": "png"
+    },
+    {
+      "ticker": "NVRI",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/NVRI/logo.png",
+      "bytes": 9328,
+      "format": "png"
+    },
+    {
+      "ticker": "HZO",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/HZO/marinemax-logo_ac51691e-1d13-479f-b078-960321658de2.svg",
+      "bytes": 0,
+      "format": "svg"
+    },
+    {
+      "ticker": "DGII",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/DGII/logo-digi-svg.svg",
+      "bytes": 2827,
+      "format": "svg"
+    },
+    {
+      "ticker": "WLTH",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/WLTH/wordmark-surface-dark.contenthash.0eff70a79bddf191f2be3b9c62051ae9a9c7619e.svg",
+      "bytes": 5666,
+      "format": "svg"
+    },
+    {
+      "ticker": "KLTR",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/KLTR/Kaltura_logo-bb-static-1.svg",
+      "bytes": 12378,
+      "format": "svg"
+    },
+    {
+      "ticker": "ALKS",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/ALKS/logo.svg",
+      "bytes": 4488,
+      "format": "svg"
+    },
+    {
+      "ticker": "USLM",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/USLM/market.jpg",
+      "bytes": 147801,
+      "format": "jpg"
+    },
+    {
+      "ticker": "FIZZ",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/FIZZ/logo.png",
+      "bytes": 5047,
+      "format": "png"
+    },
+    {
+      "ticker": "WS",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/WS/green-star-award-logo__green_rgb_2024_1250x900px.jpg",
+      "bytes": 106931,
+      "format": "jpg"
+    },
+    {
+      "ticker": "SCHL",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/SCHL/scholastic-logo-red-bar-white-outline.svg",
+      "bytes": 4222,
+      "format": "svg"
+    },
+    {
+      "ticker": "SABS",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/SABS/logo-01.svg",
+      "bytes": 7943,
+      "format": "svg"
+    },
+    {
+      "ticker": "APPN",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/APPN/Appian_Digital_Logo_Blue.png",
+      "bytes": 22335,
+      "format": "png"
+    },
+    {
+      "ticker": "NKSH",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/NKSH/NBI-logo-2024.svg",
+      "bytes": 5967,
+      "format": "svg"
+    },
+    {
+      "ticker": "VAL",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/VAL/Logo.svg",
+      "bytes": 8044,
+      "format": "svg"
+    },
+    {
+      "ticker": "IMRX",
+      "file": "/Volumes/2F-HDD-1TB/semologo-archive/index-logo-candidates-20260928/IMRX/immuneering-logo-no-shadow.png",
+      "bytes": 16524,
+      "format": "png"
+    }
+  ]
+}
