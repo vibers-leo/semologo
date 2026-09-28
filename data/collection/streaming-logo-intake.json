@@ -24,5 +24,12 @@
     "KOCOWA+": "https://corp.kocowa.com/brand-assets/",
     "Coupang Play": "https://news.coupang.com/archives/37976/",
     "Coupang Rocket Wow": "https://news.coupang.com/archives/56135/"
+  },
+  "variants": {
+    "KOCOWA+": [
+      "/submissions/streaming/kocowa-KOCOWA_BI_Black.png",
+      "/submissions/streaming/kocowa-grey-KOCOWA_BI_Grey.png",
+      "/submissions/streaming/kocowa-white-KOCOWA_BI_White.png"
+    ]
   }
 }
