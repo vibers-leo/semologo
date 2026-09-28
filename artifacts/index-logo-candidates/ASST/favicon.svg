@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+  <!-- Strive wordmark "E", official two-tone favicon treatment (only the
+       middle bar orange) from the brand favicon kit's Dark/Light pair:
+       outer bars black on light UI, white on dark UI. Pixel-hinted 16-grid.
+       Regenerate set: node scripts/generate-brand-assets.mjs -->
+  <style>.o{fill:#000}@media(prefers-color-scheme:dark){.o{fill:#fff}}</style>
+  <path class="o" d="M0 0H16L14 4H0Z"/>
+  <path fill="#f7931a" d="M0 6H14L12 10H0Z"/>
+  <path class="o" d="M0 12H16L14 16H0Z"/>
+</svg>

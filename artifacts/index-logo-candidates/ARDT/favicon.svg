@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ARDT site icon.
+
+     The glyph is the burst rupture disk from the ARDT logo - the green element that sits in
+     the bowl of the "d" in ardt-mark-dark.svg - lifted as EXACT path data, not redrawn. Its
+     box was measured with getBBox in a real browser (x 289.41, y 90.66, w 121.62, h 132.01),
+     which is why the viewBox below is in the logo's own coordinate space rather than a tidy
+     0 0 64 64: keeping the coordinates means the icon and the header logo can never drift.
+
+     It replaces a hand-drawn predecessor that stood the same element UPRIGHT and made it
+     symmetric. That version was derived from the logo too, but a dome directly above a small
+     circle on a vertical stem is the map-pin gestalt, and it read as a map marker to everyone
+     who saw it. The logo's element is diagonal and asymmetric, which is what stops that.
+
+     White knocked out of a brand-green tile, because at 16px an outline glyph on a transparent
+     ground has too little mass to find in a crowded tab strip. Green is the LOGO green
+     (#abce37), not the CSS custom property named color-accent (#8DC63F); they differ, and as a brand
+     asset this one follows the logo.
+
+     NOTE: no "- -" (without the space) anywhere in this comment - a double hyphen is
+     illegal inside an XML comment and silently makes the whole file unparseable.
+
+     Rounded corners are correct here and WRONG for apple-touch-icon.png, which iOS masks
+     itself - that file is deliberately full-bleed and square. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="257.81 64.26 184.81 184.81">
+  <rect x="257.81" y="64.26" width="184.81" height="184.81" rx="33.27" fill="#abce37"/>
+  <path fill="#ffffff" fill-rule="evenodd" d="M326.271,100.127c1.235-.156,2.491-.228,3.789-.228,7.318,0,13.63,2.657,18.801,8.097,5.18,5.43,7.962,11.866,8.098,19.454.104,7.942-2.533,14.898-8.212,20.836-5.564,5.803-12.261,8.575-20.212,8.191l-2.263-.198c6.425-.446,11.97-3.186,16.693-8.108,5.658-5.886,8.274-12.82,8.17-20.711-.135-7.537-2.896-13.942-8.056-19.35-4.692-4.941-10.319-7.568-16.807-7.984M302.83,99.805c-16.072,13.709-17.985,37.868-4.257,53.943,6.36,7.478,14.984,11.895,24,13.103,16.729,2.224,27.284-2.326,40.841,13.55,4.396,5.159,6.774,9.578,7.882,13.976l.623-1.37c-.823,1.669-1.422,3.483-1.769,5.404-2.018,11.189,5.427,21.911,16.616,23.929,11.188,2.018,21.911-5.427,23.929-16.615,2.018-11.189-5.427-21.911-16.615-23.929-2.327-.42-4.622-.437-6.925-.059-4.889-1.968-9.391-5.265-13.891-10.547-11.378-13.355-9.158-23.232-7.547-38.191,1.088-10.082-1.821-20.592-8.927-28.914-13.729-16.075-37.867-17.985-53.96-4.28Z"/>
+</svg>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48" role="img" aria-label="George Black Textile Group">
+  <rect width="48" height="48" rx="11" fill="#1F2D3A"/>
+  <g fill="none" stroke-width="3.6" stroke-linecap="round">
+    <path d="M24 11.5 A13 13 0 1 0 36 30.5" stroke="#EDEFF1"/>
+    <path d="M24 11.5 A13 13 0 0 1 36 17" stroke="#E67E22"/>
+    <path d="M36 24 H27" stroke="#EDEFF1"/>
+  </g>
+</svg>

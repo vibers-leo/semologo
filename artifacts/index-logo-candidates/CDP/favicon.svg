@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0f3166"/>
+      <stop offset=".55" stop-color="#081b44"/>
+      <stop offset="1" stop-color="#050d28"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="64" height="64" rx="14" fill="url(#bg)"/>
+
+  <!-- brand burst: gradient dash fans above and below, lit top-left to bottom-right like the original -->
+  <g stroke-width="3.2" stroke-linecap="round">
+    <line x1="22.62" y1="22.29" x2="14.63" y2="14.02" stroke="#cce0f4"/>
+    <line x1="26.19" y1="17.63" x2="23.95" y2="12.07" stroke="#a9d2ee"/>
+    <line x1="32.00" y1="18.50" x2="32.00" y2="7.00" stroke="#7fc2e7"/>
+    <line x1="37.81" y1="17.63" x2="40.05" y2="12.07" stroke="#46abdd"/>
+    <line x1="41.38" y1="22.29" x2="49.37" y2="14.02" stroke="#1e9cd7"/>
+    <line x1="41.38" y1="41.71" x2="49.37" y2="49.98" stroke="#46abdd"/>
+    <line x1="37.81" y1="46.37" x2="40.05" y2="51.93" stroke="#1e9cd7"/>
+    <line x1="32.00" y1="45.50" x2="32.00" y2="57.00" stroke="#0d7fc9"/>
+    <line x1="26.19" y1="46.37" x2="23.95" y2="51.93" stroke="#1a6fd4"/>
+    <line x1="22.62" y1="41.71" x2="14.63" y2="49.98" stroke="#2456d6"/>
+  </g>
+
+  <!-- CDP — the exact letterforms from cdp.com/logo.svg, slightly boldened for small sizes -->
+  <g transform="translate(-33.71,-22.25) scale(0.7292)" fill="#fff" stroke="#fff" stroke-width="1.6" stroke-linejoin="round">
+    <path d="M51.72,75.84v-.07c0-7.3,5.47-13.28,13.25-13.28,4.73,0,7.6,1.65,10.05,4l-2.9,3.34c-2.05-1.91-4.26-3.19-7.19-3.19-4.92,0-8.48,4.04-8.48,9.06v.07c0,5.03,3.56,9.14,8.48,9.14,3.16,0,5.17-1.28,7.38-3.34l2.9,2.94c-2.68,2.79-5.61,4.55-10.42,4.55-7.49,0-13.06-5.83-13.06-13.21Z"/>
+    <path d="M79.94,62.92h9.58c8.07,0,13.65,5.54,13.65,12.77v.07c0,7.23-5.58,12.84-13.65,12.84h-9.58v-25.69ZM89.51,84.5c5.39,0,8.92-3.63,8.92-8.66v-.07c0-5.03-3.52-8.73-8.92-8.73h-5.06v17.47h5.06Z"/>
+    <path d="M108.63,62.92h10.13c5.98,0,9.76,3.41,9.76,8.59v.07c0,5.76-4.62,8.77-10.27,8.77h-5.1v8.26h-4.51v-25.69ZM118.39,76.28c3.41,0,5.54-1.91,5.54-4.59v-.07c0-3.01-2.17-4.59-5.54-4.59h-5.25v9.25h5.25Z"/>
+  </g>
+</svg>
