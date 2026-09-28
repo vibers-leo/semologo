@@ -78,8 +78,6 @@ export const STREAMING_SUBMISSIONS: Brand[] = [
   },
 ];
 
-];
-
 /** Names still awaiting an official downloadable/press asset. */
 export const STREAMING_PENDING = [
   { name_ko: "쿠팡플레이", name_en: "Coupang Play", website: "https://www.coupangplay.com/", reason: "공식 다운로드 가능한 검증 SVG 미확보" },
