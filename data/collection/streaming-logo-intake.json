@@ -6,7 +6,8 @@
     "TIDAL",
     "Max",
     "HBO Max",
-    "KOCOWA+"
+    "KOCOWA+",
+    "쿠팡 로켓와우"
   ],
   "replaced": [
     {
@@ -16,8 +17,7 @@
     }
   ],
   "pending_official_asset": [
-    "Coupang Play",
-    "Coupang Rocket Wow"
+    "Coupang Play"
   ],
   "note": "Pending entries are intentionally not rendered until an official downloadable asset or approved submission is verified.",
   "sources": {

@@ -76,10 +76,24 @@ export const STREAMING_SUBMISSIONS: Brand[] = [
     asset_origin: "KOCOWA official brand assets · trademark review required",
     sources: [{ provider: "KOCOWA / wavve Americas", file: "submissions/streaming/kocowa-KOCOWA_BI_Black.png", label: "공식 브랜드 자산", source_url: "https://corp.kocowa.com/brand-assets/" }],
   },
+  {
+    id: "streaming-coupang-wow",
+    seq: 1200105,
+    added_at: "2026-09-28",
+    name_ko: "쿠팡 로켓와우",
+    name_en: "Coupang WOW",
+    aliases: ["로켓와우", "WOW Membership"],
+    category: "미디어·엔터",
+    logo_png: "/submissions/streaming/coupang-wow-Coupang WOW Logo_White solid.png",
+    has_png: true,
+    origin: "KR",
+    light: true,
+    asset_origin: "Coupang official media asset ZIP · trademark use subject to brand guidelines",
+    sources: [{ provider: "Coupang Newsroom", file: "submissions/streaming/coupang-wow-Coupang WOW Logo_White solid.png", label: "공식 브랜드 자산", source_url: "https://news.coupang.com/archives/56135/" }],
+  },
 ];
 
 /** Names still awaiting an official downloadable/press asset. */
 export const STREAMING_PENDING = [
   { name_ko: "쿠팡플레이", name_en: "Coupang Play", website: "https://www.coupangplay.com/", reason: "공식 다운로드 가능한 검증 SVG 미확보" },
-  { name_ko: "쿠팡 로켓와우", name_en: "Coupang Rocket Wow", website: "https://www.coupang.com/", reason: "선택 항목 · 공식 전용 로고 확인 필요" },
 ] as const;
