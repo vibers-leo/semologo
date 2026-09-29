@@ -1,0 +1,1553 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>CTOx Accelerator: Build a 6-7 Figure Fractional CTO Practice</title>
+<meta name="description" content="The proven launchpad for senior tech leaders who want to earn $500k+/yr as a Fractional CTO. Training, tech, coaching, and community in one membership." />
+<meta property="og:title" content="CTOx — Everything you need to earn 6-7 figures as a Fractional CTO" />
+<meta property="og:description" content="The proven launchpad for senior tech leaders who want to earn $500k+/yr as a Fractional CTO. Training, tech, coaching, and community in one membership." />
+<meta property="og:type" content="website" />
+<meta property="og:image" content="/assets-v2/podcast-cover-v2.jpg" />
+<link rel="icon" type="image/png" href="/assets-v2/favicon.png" />
+<link rel="apple-touch-icon" href="/assets-v2/apple-touch-icon.png" />
+<link rel="preload" href="/assets-v2/fonts/poppins-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets-v2/fonts/poppins-600.woff2" as="font" type="font/woff2" crossorigin>
+<style>/* self-hosted-poppins */
+@font-face { font-family:'Poppins'; font-style:italic; font-weight:400; font-display:swap; src:url(/assets-v2/fonts/poppins-400-italic.woff2) format('woff2'); unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD; }
+@font-face { font-family:'Poppins'; font-style:normal; font-weight:300; font-display:swap; src:url(/assets-v2/fonts/poppins-300.woff2) format('woff2'); unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD; }
+@font-face { font-family:'Poppins'; font-style:normal; font-weight:400; font-display:swap; src:url(/assets-v2/fonts/poppins-400.woff2) format('woff2'); unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD; }
+@font-face { font-family:'Poppins'; font-style:normal; font-weight:500; font-display:swap; src:url(/assets-v2/fonts/poppins-500.woff2) format('woff2'); unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD; }
+@font-face { font-family:'Poppins'; font-style:normal; font-weight:600; font-display:swap; src:url(/assets-v2/fonts/poppins-600.woff2) format('woff2'); unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD; }
+@font-face { font-family:'Poppins'; font-style:normal; font-weight:700; font-display:swap; src:url(/assets-v2/fonts/poppins-700.woff2) format('woff2'); unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD; }
+</style>
+<style>
+  /* ===== Tokens — from Figma file oMHA7hHb4ukdZgeKEWedgX, frame 0:10 ===== */
+  :root {
+    --orange: #FF4A00;
+    --orange-input: #DA3F00;      /* newsletter input fill */
+    --orange-under-f: #DF3500;    /* footer keybtn base */
+    --orange-under-h: #A73000;    /* header keybtn base */
+    --ink: #F4EDE8;
+    --ink-alt: #E9E1DB;
+    --ink-faq: #EFE7E1;
+    --muted: #9B928B;             /* muted headline gray */
+    --key-base: #AFAFAF;          /* Orange Button gray base */
+    --cream: rgba(255,255,255,0.05);   /* FAQ pills — glass */
+    --cream-panel: #FFECE4;       /* light image panels — kept as bright accents */
+    --band-white: rgba(0,0,0,0.85);    /* jet bands */
+    --footer-bg: rgba(0,0,0,0.55);
+    --bg-page: #0A0A0A;           /* near-black page bg */
+    --surface: rgba(255,255,255,0.05); /* glass cards */
+    --glass-border: rgba(255,255,255,0.08);
+    --hairline: rgba(255,255,255,0.14);
+    --grid: rgba(255,74,0,0.13);
+    --mono: 'Poppins', system-ui, sans-serif;
+    --content: 1340px;
+    --gutter: 24px;                              /* one horizontal gutter everywhere */
+    --section-y: clamp(72px, 9vw, 120px);        /* one vertical rhythm everywhere */
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  [id] { scroll-margin-top: 110px; }
+  body {
+    background: var(--bg-page); color: var(--ink);
+    font-family: 'Poppins', system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 16px;
+    overflow-x: hidden;
+  }
+  /* Fixed 48px orange grid over the whole page */
+  body::before {
+    content: ""; position: fixed; inset: 0;
+    background-image:
+      linear-gradient(var(--grid) 1px, transparent 1px),
+      linear-gradient(90deg, var(--grid) 1px, transparent 1px);
+    background-size: 48px 48px;
+    pointer-events: none; z-index: 0;
+  }
+  main, section, .newsletter-belt, .footer { position: relative; z-index: 1; }
+
+  /* Orange glow that follows the cursor (desktop pointers only) */
+  .cursor-glow {
+    position: fixed; top: 0; left: 0;
+    width: 640px; height: 640px;
+    margin: -320px 0 0 -320px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(255,74,0,0.30) 0%, rgba(255,74,0,0.11) 45%, transparent 70%);
+    pointer-events: none; z-index: 40;
+    mix-blend-mode: screen;
+    opacity: 0;
+    transition: opacity .5s ease;
+    will-change: transform;
+  }
+
+  /* Trustpilot link */
+  .tp-link {
+    display: inline-flex; align-items: center; gap: 10px;
+    opacity: .9; transition: opacity .2s;
+  }
+  .tp-link:hover { opacity: 1; }
+  .tp-link img { width: 149px; height: 18px; filter: invert(1); }
+  .tp-link .tp-text {
+    font-family: var(--mono); font-size: 11px; letter-spacing: 0.06em;
+    text-transform: uppercase; color: rgba(255,255,255,0.7);
+  }
+  .tp-link:hover .tp-text { color: var(--orange); }
+  .tp-center { display: flex; justify-content: center; margin-top: 10px; }
+  img { display: block; max-width: 100%; height: auto; }
+  a { color: inherit; text-decoration: none; }
+  button, input { font: inherit; }
+  button { cursor: pointer; border: none; background: none; }
+
+  .wrap { max-width: var(--content); margin: 0 auto; padding: 0 var(--gutter); }
+
+  /* Monochrome raster/vector art drawn black in Figma — inverted for dark bg.
+     (Trustpilot strips, plus icons; skips orange/color imagery.) */
+  .hero-stars, .ninety .stars, .faq-q img { filter: invert(1); }
+
+  /* ===== Buttons — keycap treatment (base layer + raised face) ===== */
+  .btn {
+    position: relative; z-index: 0;
+    display: inline-flex; align-items: center; justify-content: center; gap: 8px;
+    width: 245px; height: 52px; padding-bottom: 7px;
+    border-radius: 6px;
+    font-weight: 600; font-size: 15px; line-height: 25px;
+  }
+  .btn::before {
+    content: ""; position: absolute; z-index: -1;
+    top: 0; left: 50%; transform: translateX(-50%);
+    width: calc(100% - 12px); height: calc(100% - 7px);
+    border-radius: 6px;
+    transition: height .12s, background .15s;
+  }
+  .btn:hover::before { height: calc(100% - 3px); }
+  /* orange keycap — primary opt-ins */
+  .btn-primary, .btn-orange-outline {
+    background: var(--orange-under-h); color: #fff;
+    box-shadow: 0 0 56px rgba(255,74,0,0.3);
+  }
+  .btn-primary::before, .btn-orange-outline::before { background: var(--orange); }
+  .btn-primary:hover::before, .btn-orange-outline:hover::before { background: #FF6422; }
+  /* white-face keycap — secondary actions */
+  .btn-dark-outline, .btn-white, .btn-white-outline {
+    background: var(--key-base); color: var(--orange);
+  }
+  .btn-dark-outline::before, .btn-white::before, .btn-white-outline::before { background: #fff; }
+
+  /* Keycap button — colored base, raised face (brand keyboard motif) */
+  .keybtn {
+    position: relative; display: inline-flex;
+    background: var(--key-base); border-radius: 5px;
+    width: 226px; height: 63px;
+    flex-shrink: 0;
+  }
+  .keybtn .face {
+    position: absolute; top: 0; left: 50%; transform: translateX(-50%);
+    width: calc(100% - 14px); height: calc(100% - 9px);
+    border-radius: 5px; background: #fff; color: var(--orange);
+    display: flex; align-items: center; justify-content: center;
+    font-weight: 600; font-size: 16px;
+    transition: height .1s;
+  }
+  .keybtn:hover .face { height: calc(100% - 4px); }
+
+  /* ===== Header ===== */
+  .header {
+    position: sticky; top: 0; z-index: 50;
+    background: rgba(0,0,0,0.60);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-bottom: 1px solid var(--orange);
+  }
+  .header-inner {
+    height: 93px;
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 0 var(--gutter);
+    max-width: var(--content); margin: 0 auto;
+  }
+  .header-logo img { width: 144px; height: auto; }
+  .nav { display: flex; gap: 47px; }
+  .nav a { font-size: 16px; font-weight: 400; color: var(--ink); line-height: 93px; }
+  .nav a:hover { color: var(--orange); }
+  .keybtn-header {
+    background: var(--orange-under-h);
+    width: 122px; height: 37px;
+  }
+  .keybtn-header .face {
+    width: 111px; height: 32px;
+    background: var(--orange); color: #fff;
+    font-weight: 600; font-size: 14px;
+  }
+  .keybtn-header:hover .face { height: 35px; }
+  .menu-toggle { display: none; width: 44px; height: 44px; position: relative; }
+  .menu-toggle span, .menu-toggle span::before, .menu-toggle span::after {
+    content: ""; position: absolute; left: 10px; width: 24px; height: 2px;
+    background: var(--ink); transition: transform .2s, opacity .2s;
+  }
+  .menu-toggle span { top: 21px; }
+  .menu-toggle span::before { left: 0; top: -7px; }
+  .menu-toggle span::after { left: 0; top: 7px; }
+  .header.menu-open .menu-toggle span { transform: rotate(45deg); }
+  .header.menu-open .menu-toggle span::before { transform: rotate(-90deg) translateX(-7px); }
+  .header.menu-open .menu-toggle span::after { opacity: 0; }
+
+  /* ===== Hero ===== */
+  .hero { position: relative; overflow: hidden; }
+  .hero-tp { margin-bottom: 28px; }
+  .hero-inner {
+    position: relative;
+    max-width: var(--content); margin: 0 auto;
+    padding: 170px var(--gutter) var(--section-y);
+    min-height: 700px;
+  }
+  .hero-copy { position: relative; z-index: 2; max-width: 538px; }
+  .hero-stars { width: 149px; height: 18px; margin-bottom: 20px; }
+  .hero h1 {
+    font-weight: 600; font-size: 42px; line-height: 47px;
+    color: var(--ink);
+  }
+  .hero h1 .accent { color: var(--orange); }
+  .hero .lede {
+    margin-top: 34px;
+    font-weight: 300; font-size: 20px; line-height: 25px;
+    max-width: 521px;
+  }
+  .hero-ctas { display: flex; gap: 16px; margin-top: 29px; flex-wrap: wrap; }
+  .hero-trust {
+    margin-top: 22px;
+    display: flex; align-items: center; gap: 6px;
+    font-family: var(--mono); font-size: 11px; letter-spacing: 0.06em;
+    color: rgba(255,255,255,0.7); text-transform: uppercase;
+  }
+  .hero-trust::before { content: '✓'; color: #27C93F; font-weight: 700; }
+  .hero-art {
+    position: absolute; z-index: 1;
+    top: 76px; left: 42%;
+    width: 1301px; max-width: none;
+  }
+  /* Large static glow emanating from behind the hero devices */
+  .hero-device-glow {
+    position: absolute; z-index: 0;
+    top: 370px; left: calc(42% + 650px);
+    width: 1500px; height: 1200px;
+    transform: translate(-50%, -50%);
+    background: radial-gradient(circle, rgba(255,74,0,0.85) 0%, rgba(255,74,0,0.42) 48%, transparent 76%);
+    pointer-events: none;
+  }
+
+  /* ===== Brand logo marquee ===== */
+  .brand-label {
+    display: flex; align-items: center; justify-content: center; gap: 14px;
+    font-family: var(--mono); font-size: 11px; line-height: 24px;
+    color: rgba(255,255,255,0.55); letter-spacing: 0.16em;
+    text-transform: uppercase;
+    padding-bottom: 22px;
+  }
+  .brand-label::before, .brand-label::after {
+    content: ""; width: 36px; height: 1px; background: rgba(255,74,0,0.25);
+  }
+  .brands { position: relative; z-index: 2; padding-bottom: 40px; }
+  .brands-track { overflow: hidden; position: relative; }
+  .brands-row {
+    display: flex; align-items: center;
+    width: max-content;
+    animation: marquee 60s linear infinite;
+  }
+  /* Wrapper only exists as a box on mobile; desktop/tablet see through it */
+  .hero-visual { display: contents; }
+  @media (hover: hover) {
+    .brands-track:hover .brands-row { animation-play-state: paused; }
+  }
+  .brand-slot {
+    /* ~6.6 visible at a time → each slot is 15vw */
+    flex: 0 0 15vw;
+    display: flex; align-items: center; justify-content: center;
+    height: 64px;
+    padding: 0 clamp(10px, 1.2vw, 24px);
+  }
+  .brand-slot img {
+    max-height: 38px; max-width: 100%; width: auto;
+    display: block;
+    filter: brightness(0) invert(1);
+    opacity: 0.5;
+    transition: opacity 0.25s;
+  }
+  .brand-slot:hover img { opacity: 1; }
+  @media (max-width: 900px) {
+    .brand-slot { flex-basis: 27vw; }   /* ~3.7 visible on tablet */
+  }
+  @media (max-width: 640px) {
+    .brand-slot { flex-basis: 42vw; }   /* ~2.4 visible on mobile */
+    .brand-slot img { max-height: 30px; }
+  }
+  @keyframes marquee {
+    from { transform: translateX(0); }
+    to { transform: translateX(-50%); }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .marquee { animation: none; }
+  }
+
+  /* ===== Fractional 101 — video player + playlist (orange band) ===== */
+  .fractional {
+    background: var(--orange);
+    border-top: 1px solid rgba(255,255,255,0.08);
+    border-bottom: 1px solid rgba(255,255,255,0.08);
+    padding: var(--section-y) 0 48px;
+  }
+  /* re-tune orange-accented components for the orange background */
+  .fractional .section-h2 { color: #fff; }
+  .fractional .f101-progress { color: rgba(255,255,255,0.75); }
+  .fractional .f101-progress .bar { background: rgba(0,0,0,0.22); }
+  .fractional .f101-progress .bar i { background: #fff; }
+  .fractional .player { border-color: rgba(255,255,255,0.35); }
+  .fractional .playlist-h { color: rgba(255,255,255,0.75); }
+  .fractional .ep { border-color: rgba(255,255,255,0.28); }
+  .fractional .ep:hover { border-color: rgba(255,255,255,0.55); background: rgba(255,255,255,0.08); }
+  .fractional .ep.active { border-color: #fff; background: rgba(255,255,255,0.14); }
+  .fractional .ep-num { color: rgba(255,255,255,0.6); }
+  .fractional .ep.active .ep-num, .fractional .ep.done .ep-num { color: #fff; }
+  .fractional .ep-body span { color: rgba(255,255,255,0.65); }
+  .fractional .fr-tagline { color: rgba(255,255,255,0.9); }
+  .fractional .fr-tagline::before { color: #fff; }
+  .f101-progress {
+    display: flex; align-items: center; gap: 12px;
+    margin: 40px 0 26px;
+    font-family: var(--mono); font-size: 12px;
+    color: rgba(255,255,255,0.45); letter-spacing: 0.03em;
+  }
+  .f101-progress .bar {
+    flex: 1; height: 4px;
+    background: rgba(255,255,255,0.10);
+    border-radius: 100px; overflow: hidden;
+  }
+  .f101-progress .bar i {
+    display: block; height: 100%; width: 20%;
+    background: var(--orange); border-radius: 100px;
+    transition: width .4s ease;
+  }
+  .f101-grid {
+    /* player sized so its 16:9 height (450px) matches the playlist column;
+       playlist fills the remaining width */
+    display: grid; grid-template-columns: minmax(0, 800px) 1fr;
+    gap: 28px; align-items: start;
+  }
+  .player {
+    aspect-ratio: 16 / 9; width: 100%;
+    background: #000;
+    border: 1px solid rgba(255,255,255,0.18);
+    border-radius: 16px; overflow: hidden;
+    position: relative;
+    display: flex; align-items: center; justify-content: center;
+  }
+  .player iframe, .player video { width: 100%; height: 100%; border: 0; display: block; }
+  .cover-link {
+    position: absolute; inset: 0; display: block;
+    width: 100%; height: 100%;
+    padding: 0; margin: 0; border: 0;
+    background: none; font: inherit; color: inherit;
+    cursor: pointer; overflow: hidden;
+  }
+  .cover-link img {
+    width: 100%; height: 100%; object-fit: cover; display: block;
+    transition: transform .35s ease, filter .25s ease;
+  }
+  .cover-link:hover img { transform: scale(1.03); filter: brightness(0.9); }
+  .play-badge {
+    position: absolute; top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    width: 74px; height: 74px; border-radius: 50%;
+    background: var(--orange);
+    display: flex; align-items: center; justify-content: center;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.4);
+    transition: transform .16s ease, filter .18s ease;
+  }
+  .play-badge svg { margin-left: 4px; }
+  .cover-link:hover .play-badge { transform: translate(-50%, -50%) scale(1.08); filter: brightness(1.06); }
+  .playlist-h {
+    font-family: var(--mono); font-size: 11px; letter-spacing: 0.06em;
+    text-transform: uppercase; color: rgba(255,255,255,0.45);
+    margin-bottom: 14px;
+  }
+  .ep {
+    display: flex; gap: 14px; align-items: center;
+    padding: 12px;
+    border: 1px solid rgba(255,255,255,0.10); border-radius: 12px;
+    margin-bottom: 10px;
+    cursor: pointer; background: transparent;
+    width: 100%; text-align: left; color: inherit; font-family: inherit;
+    transition: border-color .16s ease, background .16s ease;
+  }
+  .ep:hover { border-color: rgba(255,255,255,0.18); background: rgba(255,255,255,0.04); }
+  .ep.active { border-color: var(--orange); background: rgba(255,74,0,0.12); }
+  .ep-num {
+    font-family: var(--mono); font-size: 13px; font-weight: 700;
+    color: rgba(255,255,255,0.4);
+    flex: 0 0 auto; min-width: 22px;
+  }
+  .ep.active .ep-num, .ep.done .ep-num { color: var(--orange); }
+  .ep-body strong {
+    display: block; font-weight: 600; font-size: 14px;
+    letter-spacing: -0.01em; margin-bottom: 2px;
+  }
+  .ep-body span {
+    font-family: var(--mono); font-size: 11px;
+    color: rgba(255,255,255,0.4); letter-spacing: 0.03em;
+  }
+  .fr-bottom {
+    margin-top: 64px;
+    display: flex; flex-direction: column; align-items: center; gap: 18px;
+  }
+  .fr-bottom .ctas { display: flex; gap: 16px; flex-wrap: wrap; justify-content: center; }
+  .fr-tagline {
+    display: flex; align-items: center; gap: 6px;
+    font-family: var(--mono); font-size: 11px; letter-spacing: 0.06em;
+    text-transform: uppercase; color: rgba(255,255,255,0.7);
+  }
+  .fr-tagline::before { content: '✓'; color: #27C93F; font-weight: 700; }
+
+  /* ===== Jet band primitive (visual break w/ own fixed grid) ===== */
+  .jet {
+    background-color: rgba(0,0,0,0.76);
+    background-image:
+      linear-gradient(rgba(255,74,0,0.15) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255,74,0,0.15) 1px, transparent 1px);
+    background-size: 48px 48px;
+    background-attachment: fixed;
+    border-top: 1px solid rgba(255,255,255,0.04);
+    border-bottom: 1px solid rgba(255,255,255,0.04);
+  }
+
+  /* ===== Testimonials band ===== */
+  .band { padding: var(--section-y) 0; overflow: hidden; }
+  .band-h2 {
+    text-align: center;
+    font-weight: 600; font-size: 40px; line-height: 78px;
+    color: var(--orange);
+  }
+  .band-sub {
+    text-align: center;
+    font-weight: 600; font-size: 18px; line-height: 45px;
+    color: var(--ink);
+  }
+  .marquee-clip { margin-top: 56px; overflow: hidden; }
+  .marquee {
+    display: flex; gap: 15px;
+    animation: marquee 70s linear infinite;
+    width: max-content;
+    padding: 20px 0 30px;
+  }
+  @media (hover: hover) {
+    .marquee:hover { animation-play-state: paused; }
+  }
+  .t-card {
+    width: 380px;
+    background: var(--surface);
+    backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px);
+    border: 1px solid var(--glass-border);
+    border-radius: 16px; padding: 32px;
+    box-shadow: inset 0 4px 8px rgba(0,0,0,0.35), inset 0 -4px 8px rgba(255,255,255,0.04);
+    display: flex; flex-direction: column;
+    flex-shrink: 0;
+    transition: border-color .25s;
+  }
+  .t-card:hover { border-color: rgba(255,74,0,0.4); }
+  .t-card .q-head { display: flex; align-items: center; gap: 14px; margin-bottom: 18px; }
+  .t-card .q-head img {
+    width: 56px; height: 56px; border-radius: 50%;
+    object-fit: cover; border: 2px solid var(--orange); flex-shrink: 0;
+    background: var(--orange);
+  }
+  .t-card .q-name { font-weight: 600; font-size: 17px; color: var(--orange); }
+  .t-card .q-role { font-family: var(--mono); font-size: 10.5px; color: rgba(255,255,255,0.55); letter-spacing: 0.04em; margin-top: 2px; }
+  .t-card .q-stars { color: var(--orange); font-size: 14px; letter-spacing: 3px; margin-bottom: 12px; }
+  .t-card blockquote { font-weight: 300; font-size: 15px; line-height: 1.6; color: rgba(255,255,255,0.82); flex: 1; }
+
+  /* ===== Featured video testimonials (inside band) ===== */
+  .vt-grid {
+    max-width: var(--content); margin: 64px auto 0;
+    padding: 0 var(--gutter);
+    display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px;
+  }
+  .vt-card {
+    background: var(--surface);
+    border: 1px solid var(--glass-border); border-radius: 14px;
+    overflow: hidden; display: flex; flex-direction: column;
+    transition: border-color .2s;
+  }
+  .vt-card:hover { border-color: rgba(255,74,0,0.4); }
+  .vt-thumb {
+    aspect-ratio: 16 / 9; position: relative;
+    background: #000; cursor: pointer; overflow: hidden;
+  }
+  .vt-thumb img {
+    width: 100%; height: 100%; object-fit: cover;
+    transition: transform .35s ease, filter .25s ease;
+  }
+  .vt-thumb:hover img { transform: scale(1.03); filter: brightness(0.9); }
+  .vt-thumb iframe { width: 100%; height: 100%; border: 0; display: block; }
+  .vt-play {
+    position: absolute; top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    width: 54px; height: 54px; border-radius: 50%;
+    background: var(--orange);
+    display: flex; align-items: center; justify-content: center;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.4);
+    transition: transform .16s ease;
+    pointer-events: none;
+  }
+  .vt-thumb:hover .vt-play { transform: translate(-50%, -50%) scale(1.08); }
+  .vt-body { padding: 18px 22px 22px; display: flex; flex-direction: column; flex: 1; }
+  .vt-body blockquote { font-weight: 300; font-size: 14.5px; line-height: 1.6; color: rgba(255,255,255,0.8); flex: 1; }
+  .vt-body .vt-name {
+    margin-top: 12px;
+    font-family: var(--mono); font-size: 11px; font-weight: 700;
+    letter-spacing: 0.06em; text-transform: uppercase; color: var(--orange);
+  }
+  .vt-more {
+    display: flex; justify-content: center;
+    margin-top: 48px; margin-bottom: 64px;
+  }
+  .vt-more a {
+    font-weight: 600; font-size: 15px; color: var(--ink);
+    text-decoration: underline; text-underline-offset: 3px;
+    transition: color .15s;
+  }
+  .vt-more a:hover { color: var(--orange); }
+  .vt-more a.btn { text-decoration: none; }
+  .vt-more a.btn:hover { color: #fff; }
+  .vt-viewmore { display: none; }
+  .vt-viewmore button {
+    background: none; border: 0; padding: 0; cursor: pointer;
+    font-family: inherit; font-weight: 600; font-size: 14px; color: var(--ink);
+    text-decoration: underline; text-underline-offset: 3px;
+    transition: color .15s;
+  }
+  .vt-viewmore button:hover { color: var(--orange); }
+
+  /* ===== 90-day section (inside band) ===== */
+  .ninety {
+    margin-top: 120px;
+    display: grid; grid-template-columns: 568px 1fr;
+    gap: 97px; align-items: center;
+  }
+  .ninety-visual {
+    border-radius: 20px; overflow: hidden;
+    aspect-ratio: 568 / 602;
+  }
+  .ninety-visual img { width: 100%; height: 100%; object-fit: cover; }
+  .ninety h2 { font-weight: 600; font-size: 40px; line-height: 45px; }
+  .ninety h2 .accent { color: var(--orange); }
+  .ninety .leadin {
+    margin-top: 34px;
+    font-weight: 600; font-size: 20px; line-height: 35px;
+  }
+  .ninety ul { list-style: none; margin-top: 10px; }
+  .ninety ul li {
+    display: flex; align-items: center; gap: 12px;
+    font-weight: 400; font-size: 18px; line-height: 35px;
+  }
+  .ninety ul li::before {
+    content: ""; width: 22px; height: 22px; flex-shrink: 0;
+    background: url('assets-v2/check-orange.png') center/contain no-repeat;
+  }
+  .ninety .ctas { margin-top: 40px; display: flex; gap: 16px; flex-wrap: wrap; }
+  .ninety .stars { width: 149px; height: 18px; margin-top: 20px; }
+
+  /* ===== One membership ===== */
+  .membership {
+    border-top: 1px solid rgba(255,74,0,0.35);
+    padding: var(--section-y) 0;
+  }
+  .section-h2 {
+    text-align: center;
+    font-weight: 600; font-size: 40px; line-height: 45px;
+    color: var(--orange);
+  }
+  .m-card {
+    background: var(--surface); border-radius: 14px;
+    backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px);
+    border: 1px solid var(--glass-border);
+    box-shadow: inset 0 4px 8px rgba(0,0,0,0.35), inset 0 -4px 8px rgba(255,255,255,0.04);
+    position: relative; overflow: hidden;
+    transition: border-color .25s, transform .25s, box-shadow .25s;
+  }
+  .m-card::before {
+    content: ""; position: absolute; top: 0; left: 0; right: 0; height: 2px;
+    background: var(--orange);
+    transform: scaleX(0); transform-origin: left;
+    transition: transform .35s ease;
+    z-index: 1;
+  }
+  .m-card:hover {
+    border-color: rgba(255,74,0,0.5);
+    transform: translateY(-4px);
+    box-shadow: inset 0 4px 8px rgba(0,0,0,0.35), inset 0 -4px 8px rgba(255,255,255,0.04), 0 16px 40px rgba(0,0,0,0.3);
+  }
+  .m-card:hover::before { transform: scaleX(1); }
+  .m-wide {
+    margin-top: 50px;
+    display: grid; grid-template-columns: 1fr 753px;
+    gap: 48px; align-items: center;
+    padding: 74px 48px 74px 87px;
+  }
+  .m-heading { font-weight: 600; font-size: 30px; line-height: 35px; color: var(--orange); }
+  .m-heading .rest { color: #fff; }
+  .m-includes {
+    margin-top: 44px;
+    display: flex; align-items: center; gap: 16px;
+    font-weight: 600; font-size: 16px; line-height: 30px; color: var(--ink);
+  }
+  .m-includes::after { content: ""; flex: 1; max-width: 300px; height: 1px; background: var(--hairline); }
+  .m-list { list-style: none; margin-top: 14px; }
+  .m-list li {
+    display: flex; align-items: flex-start; gap: 10px;
+    font-weight: 400; font-size: 16px; line-height: 30px; color: var(--ink);
+  }
+  .m-list li::before {
+    content: ""; width: 21px; height: 21px; flex-shrink: 0; margin-top: 4px;
+    background: url('assets-v2/check-orange.png') center/contain no-repeat;
+  }
+  .pill {
+    position: absolute; bottom: 26px; right: 32px;
+    font-weight: 600; font-size: 15px; color: var(--ink);
+    text-decoration: underline; text-underline-offset: 3px;
+    transition: color .15s;
+  }
+  .pill:hover { color: var(--orange); }
+  .m-wide-visual {
+    border-radius: 20px; overflow: hidden;
+    aspect-ratio: 2258 / 1418;
+  }
+  .m-wide-visual img { width: 100%; height: 100%; object-fit: cover; }
+  .m-pair {
+    margin-top: 48px;
+    display: grid; grid-template-columns: 1fr 1fr;
+    gap: 44px;
+  }
+  .m-half {
+    padding: 60px 87px 72px;
+    display: flex; flex-direction: column; align-items: flex-start;
+  }
+  .m-half .pic {
+    align-self: stretch;
+    border-radius: 14px; overflow: hidden;
+    aspect-ratio: 1395 / 577;
+    margin-bottom: 32px;
+  }
+  .m-half .pic img { width: 100%; height: 100%; object-fit: cover; }
+
+  /* ===== Guarantee band ===== */
+  .guarantee {
+    background: var(--orange); color: #fff; padding: var(--section-y) 0;
+    border-top: 1px solid rgba(255,255,255,0.08);
+    border-bottom: 1px solid rgba(255,255,255,0.08);
+  }
+  .guarantee-grid {
+    display: grid; grid-template-columns: 342px 1fr;
+    gap: 87px; align-items: center;
+  }
+  .guarantee .badge {
+    width: 342px; height: 342px; object-fit: contain;
+    filter: drop-shadow(0 0 28px rgba(255,255,255,0.55)) drop-shadow(0 0 90px rgba(255,255,255,0.35));
+  }
+  .guarantee h2 { font-weight: 600; font-size: 40px; line-height: 45px; }
+  .guarantee p {
+    margin-top: 28px;
+    font-weight: 500; font-size: 20px; line-height: 30px;
+    max-width: 811px;
+  }
+  .guarantee .keybtn { margin-top: 40px; }
+
+  /* ===== Podcast ===== */
+  .podcast-section { padding: var(--section-y) 0; }
+  .pod-head {
+    display: flex; justify-content: space-between; align-items: flex-end;
+    flex-wrap: wrap; gap: 18px;
+  }
+  .pod-head h2 {
+    font-weight: 600; font-size: 40px; line-height: 45px; color: var(--orange);
+  }
+  .pod-head .pod-sub { margin-top: 12px; font-size: 17px; color: rgba(255,255,255,0.62); max-width: 56ch; }
+  .pod-links { display: flex; gap: 10px; flex-wrap: wrap; }
+  .pod-links a {
+    font-family: var(--mono); font-size: 12px; font-weight: 700;
+    color: rgba(255,255,255,0.75);
+    border: 1px solid var(--glass-border); border-radius: 30px;
+    padding: 8px 15px 8px 12px;
+    background: var(--surface);
+    display: inline-flex; align-items: center; gap: 8px;
+    transition: border-color .15s, color .15s;
+  }
+  .pod-links a svg { display: block; flex-shrink: 0; }
+  .pod-links a:hover { border-color: var(--orange); color: #fff; }
+  .pod-grid {
+    display: grid; grid-template-columns: repeat(3, 1fr);
+    gap: 24px; margin-top: 44px;
+  }
+  .pod-card {
+    border: 1px solid var(--glass-border); border-radius: 16px;
+    background: var(--surface);
+    backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px);
+    display: flex; flex-direction: column; overflow: hidden;
+    transition: border-color .18s, transform .18s;
+  }
+  .pod-card:hover { border-color: rgba(255,74,0,0.5); transform: translateY(-2px); }
+  .pod-thumb { aspect-ratio: 1 / 1; overflow: hidden; }
+  .pod-thumb img { width: 100%; height: 100%; object-fit: cover; }
+  .pod-body { padding: 22px 24px 26px; display: flex; flex-direction: column; gap: 12px; flex: 1; }
+  .pod-card h4 { font-size: 17px; font-weight: 600; line-height: 1.28; letter-spacing: -0.01em; }
+  .pod-card p { font-size: 14px; color: rgba(255,255,255,0.62); line-height: 1.45; flex: 1; }
+  .pod-listen {
+    font-weight: 600; font-size: 15px; color: var(--orange);
+    text-decoration: underline; text-underline-offset: 3px;
+  }
+  @media (max-width: 900px) {
+    .pod-grid { grid-template-columns: 1fr; }
+  }
+
+  /* ===== FAQ ===== */
+  .faq-section {
+    padding: var(--section-y) 0;
+    border-top: 1px solid rgba(255,74,0,0.35);  /* line break vs podcast section */
+  }
+  .faq-section .section-h2 { line-height: 45px; }
+  .faq-list { margin-top: 39px; display: flex; flex-direction: column; gap: 12px; }
+  .faq-item {
+    background: var(--surface); border-radius: 14px;
+    backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px);
+    border: 1px solid var(--glass-border);
+    box-shadow: inset 0 4px 8px rgba(0,0,0,0.35), inset 0 -4px 8px rgba(255,255,255,0.04);
+    padding: 0 55px;
+    overflow: hidden;
+    transition: border-color .2s, background .2s;
+  }
+  .faq-item:hover, .faq-item[open] { border-color: rgba(255,74,0,0.5); background: rgba(255,74,0,0.05); }
+  .faq-q {
+    list-style: none;
+    min-height: 66px;
+    display: flex; align-items: center; justify-content: space-between; gap: 24px;
+    font-weight: 500; font-size: 20px; color: var(--ink-faq);
+    cursor: pointer;
+  }
+  .faq-q::-webkit-details-marker { display: none; }
+  .faq-q img { width: 22px; height: 22px; flex-shrink: 0; transition: transform .2s; }
+  .faq-item[open] .faq-q img { transform: rotate(45deg); }
+  .faq-a {
+    padding: 0 0 26px;
+    font-weight: 400; font-size: 16px; line-height: 1.6;
+    max-width: 1000px;
+  }
+  .faq-ctas { margin-top: 53px; display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; }
+
+  /* ===== Newsletter ===== */
+  .newsletter-belt { padding: 48px 0; }
+  .newsletter {
+    background: var(--orange); border-radius: 30px;
+    padding: 78px 60px 78px 121px;
+    display: grid; grid-template-columns: 236px 1fr;
+    gap: 66px; align-items: center;
+    color: #fff;
+  }
+  .newsletter .pic { position: relative; display: inline-block; }
+  .newsletter .pic::before {
+    content: ''; position: absolute; inset: -45% -35%;
+    background: radial-gradient(closest-side, rgba(255,255,255,0.55) 0%, rgba(255,255,255,0.22) 55%, transparent 100%);
+    pointer-events: none;
+  }
+  .newsletter .pic img {
+    width: 260px; height: auto;
+    position: relative;
+    filter: drop-shadow(0 0 18px rgba(255,255,255,0.4));
+  }
+  .newsletter .body-copy {
+    margin-top: 18px;
+    font-weight: 400; font-size: 17px; line-height: 1.55;
+    color: rgba(255,255,255,0.9); max-width: 680px;
+  }
+  .newsletter h2 {
+    font-weight: 600; font-size: 40px; line-height: 45px;
+    max-width: 749px;
+  }
+  .newsletter .form {
+    margin-top: 30px;
+    display: flex; gap: 6px; flex-wrap: wrap; align-items: flex-start;
+  }
+  .newsletter input {
+    background: var(--orange-input);
+    border: 1px solid #fff; border-radius: 5px;
+    height: 60px; width: 269px;
+    padding: 0 22px;
+    color: #fff;
+    font-weight: 400; font-size: 18px; line-height: 25px;
+  }
+  .newsletter input::placeholder { color: #fff; opacity: .95; }
+  .newsletter .keybtn { width: 226px; height: 60px; }
+
+  /* ===== Footer ===== */
+  .footer { background: var(--footer-bg); padding: var(--section-y) 0 48px; }
+  .footer-row {
+    display: flex; align-items: center; justify-content: space-between;
+    gap: 40px; flex-wrap: wrap;
+  }
+  .footer-logo img { width: 298px; height: auto; }
+  .footer-nav { display: flex; gap: 42px; flex-wrap: wrap; }
+  .footer-nav a { font-weight: 500; font-size: 18px; line-height: 45px; color: var(--ink); }
+  .footer-nav a:hover { color: var(--orange); }
+  .keybtn-footer {
+    background: var(--orange-under-f);
+    width: 232px; height: 55px; border-radius: 12px;
+  }
+  .keybtn-footer .face {
+    width: 217px; height: 45px; border-radius: 8px;
+    background: var(--orange); color: #F9F9F9;
+    font-weight: 600; font-size: 18px;
+  }
+  .keybtn-footer:hover .face { height: 51px; }
+  .footer-copy {
+    text-align: center;
+    font-weight: 300; font-size: 18px; line-height: 45px;
+    color: rgba(255,255,255,0.55); margin-top: 64px;
+  }
+  .footer-legal {
+    display: flex; justify-content: center; gap: 10px; flex-wrap: wrap;
+    font-weight: 300; font-size: 14px; color: rgba(255,255,255,0.45);
+  }
+  .footer-legal a:hover { color: var(--orange); }
+
+  /* ===== Responsive — tablet ===== */
+  @media (max-width: 1440px) {
+    .hero-art { left: 46%; width: min(1100px, 78vw); top: 130px; }
+    .m-wide { grid-template-columns: 1fr 1fr; padding: 56px; }
+  }
+  @media (max-width: 1100px) {
+    .nav { display: none; }
+    .menu-toggle { display: block; }
+    .header-inner { padding: 0 24px; height: 72px; }
+    .nav.open {
+      display: flex; flex-direction: column; gap: 0;
+      position: absolute; top: 72px; left: 0; right: 0;
+      background: rgba(10,10,10,0.97); padding: 8px 24px 16px;
+      box-shadow: 0 20px 30px rgba(0,0,0,0.5);
+    }
+    .nav.open a { line-height: 52px; font-size: 18px; border-bottom: 1px solid rgba(255,255,255,0.07); }
+
+    .hero-inner { padding: 64px var(--gutter) 0; min-height: 0; }
+    .hero-art {
+      position: static; width: calc(100% + 2 * var(--gutter));
+      margin: 40px calc(-1 * var(--gutter)) 0;
+    }
+    .hero-device-glow { top: auto; bottom: 0; left: 50%; width: 900px; height: 700px; }
+    .brands { padding-top: 24px; }
+
+    .f101-grid, .ninety, .m-wide, .m-pair, .guarantee-grid, .newsletter, .vt-grid {
+      grid-template-columns: 1fr;
+    }
+    .f101-grid { gap: 40px; }
+    .ninety { gap: 48px; margin-top: 72px; }
+    .ninety-visual { aspect-ratio: auto; padding: 40px 24px; }
+    .m-wide { padding: 48px 32px 80px; gap: 40px; }
+    .m-half { padding: 48px 32px 80px; }
+    .m-pair { gap: 28px; }
+    .guarantee-grid { gap: 40px; justify-items: center; text-align: center; }
+    .guarantee p { max-width: 640px; }
+    .newsletter { padding: 48px 32px; gap: 40px; justify-items: center; text-align: center; }
+    .newsletter .form { justify-content: center; }
+    .footer-row { flex-direction: column; }
+
+  }
+
+  /* ===== Responsive — mobile ===== */
+  @media (max-width: 640px) {
+    /* Hero: flatten hero-copy so the device image can slot in above the CTAs */
+    .hero-inner { display: flex; flex-direction: column; padding-top: 48px; }
+    .hero-copy { display: contents; }
+    .hero-tp { order: 1; }
+    .hero h1 { order: 2; font-size: 44px; line-height: 50px; }
+    .hero .lede { order: 3; font-size: 18px; line-height: 24px; }
+    .hero-visual {
+      display: block; position: relative; order: 4;
+      margin: 32px calc(-1 * var(--gutter)) 0;
+    }
+    .hero-art {
+      position: relative; z-index: 1; top: 0; left: 20px;
+      display: block; width: 100%; margin: 0;
+    }
+    .hero-device-glow {
+      top: 50%; left: 50%; bottom: auto;
+      width: 170vw; height: 210%;
+      background: radial-gradient(closest-side, rgba(255,74,0,0.85) 0%, rgba(255,74,0,0.55) 45%, rgba(255,74,0,0.22) 75%, transparent 100%);
+    }
+    .hero-ctas { order: 5; }
+    .hero-trust { order: 6; justify-content: center; }
+    .brands-row { animation-duration: 30s; }
+    .brand-label { white-space: nowrap; font-size: 9px; letter-spacing: 0.08em; gap: 8px; padding-left: 8px; padding-right: 8px; }
+    .brand-label::before, .brand-label::after { width: 20px; flex-shrink: 0; }
+
+    /* Video wall: show 9 cards, fade the 10th out as a teaser */
+    .vt-grid.vt-collapsed .vt-card:nth-child(10) {
+      max-height: 190px; overflow: hidden;
+      -webkit-mask-image: linear-gradient(to bottom, #000 0%, rgba(0,0,0,0.6) 45%, transparent 95%);
+      mask-image: linear-gradient(to bottom, #000 0%, rgba(0,0,0,0.6) 45%, transparent 95%);
+      pointer-events: none;
+    }
+    .vt-grid.vt-collapsed .vt-card:nth-child(10) > * { flex-shrink: 0; }
+    .vt-grid.vt-collapsed .vt-card:nth-child(n+11) { display: none; }
+    .vt-grid.vt-collapsed ~ .vt-viewmore {
+      display: flex; justify-content: center;
+      margin-top: 20px; padding: 0 var(--gutter);
+    }
+    .band-h2, .section-h2, .ninety h2, .guarantee h2,
+    .newsletter h2 { font-size: 30px; line-height: 36px; }
+    .band-h2 { line-height: 40px; }
+    .band-sub { line-height: 28px; margin-top: 10px; }
+    .tp-center { flex-direction: column; gap: 8px; align-items: center; }
+    .hero-ctas, .fr-bottom .ctas, .ninety .ctas, .faq-ctas {
+      flex-direction: column; align-items: stretch; width: 100%;
+    }
+    .btn { width: 100%; }
+    .play-badge { width: 58px; height: 58px; }
+    .t-card { width: 300px; padding: 26px 24px; }
+    .vt-more .btn { width: auto; padding-left: 36px; padding-right: 36px; }
+    .m-wide, .m-half { padding: 36px 20px 76px; }
+    .m-heading { font-size: 26px; line-height: 32px; }
+    .guarantee .badge { width: 240px; height: 240px; }
+    .faq-item { padding: 0 24px; }
+    .faq-q { font-size: 17px; min-height: 60px; }
+    .newsletter { padding: 40px 24px; }
+    .newsletter .pic img { width: 180px; }
+    .newsletter .form { flex-direction: column; align-items: stretch; }
+    .newsletter input { width: 100%; }
+    .newsletter .keybtn { width: 100%; }
+    .footer-logo img { width: 220px; }
+    .footer-nav { gap: 12px 28px; justify-content: center; }
+    .footer-copy { font-size: 15px; margin-top: 40px; }
+  }
+</style>
+<link rel="canonical" href="https://ctox.com/" />
+<!-- schema-block -->
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://ctox.com/#organization","name":"CTOx","alternateName":["CTO Exponential","CTOx Accelerator"],"url":"https://ctox.com/","logo":{"@type":"ImageObject","@id":"https://ctox.com/#logo","url":"https://ctox.com/assets-v2/apple-touch-icon.png","contentUrl":"https://ctox.com/assets-v2/apple-touch-icon.png","width":180,"height":180,"caption":"CTOx"},"image":{"@id":"https://ctox.com/#logo"},"description":"CTOx helps businesses hire vetted fractional CTOs, and trains senior technology leaders to build fractional CTO practices through the CTOx Accelerator.","foundingDate":"2024-01","founder":{"@id":"https://ctox.com/#lior-weinstein"},"sameAs":["https://www.linkedin.com/company/ctox-fractional-cto","https://www.trustpilot.com/review/ctox.com"]},{"@type":"WebSite","@id":"https://ctox.com/#website","url":"https://ctox.com/","name":"CTOx","description":"Fractional CTO services for businesses and the CTOx Accelerator for technology leaders.","publisher":{"@id":"https://ctox.com/#organization"},"inLanguage":"en-US"},{"@type":"Person","@id":"https://ctox.com/#lior-weinstein","name":"Lior Weinstein","givenName":"Lior","familyName":"Weinstein","url":"https://ctox.com/lior-weinstein/","image":{"@type":"ImageObject","@id":"https://ctox.com/lior-weinstein/#photo","url":"https://ctox.com/assets-v2/lior-photo.jpg","contentUrl":"https://ctox.com/assets-v2/lior-photo.jpg","caption":"Lior Weinstein"},"jobTitle":"Founder & CEO","worksFor":{"@id":"https://ctox.com/#organization"},"description":"Serial entrepreneur, fractional CTO and founder of CTOx. Author of The Agent Advantage (with Tony Robbins), holder of multiple machine learning and AI patents, and a Forbes Business Council member.","knowsAbout":["Fractional CTO","Technology leadership","Artificial intelligence","Digital transformation","AI agents","Entrepreneurship"],"sameAs":["https://www.wikidata.org/wiki/Q141538021","https://www.linkedin.com/in/liorweinstein","https://www.cio.com/profile/lior-weinstein/","https://www.instagram.com/liorwn/","https://www.crunchbase.com/person/lior-weinstein","https://www.forbes.com/councils/forbesbusinesscouncil/people/liorweinstein/","https://councils.forbes.com/profile/Lior-Weinstein-CEO-CTOx-CTOx/6fbea1b8-16ca-4131-895d-50c7b751cac1"]},{"@type":"WebPage","@id":"https://ctox.com/","url":"https://ctox.com/","name":"CTOx Accelerator: Build a 6-7 Figure Fractional CTO Practice","description":"The proven launchpad for senior tech leaders who want to earn $500k+/yr as a Fractional CTO. Training, tech, coaching, and community in one membership.","isPartOf":{"@id":"https://ctox.com/#website"},"about":{"@id":"https://ctox.com/#organization"},"primaryImageOfPage":{"@type":"ImageObject","url":"https://ctox.com/assets-v2/podcast-cover-v2.jpg"},"image":{"@type":"ImageObject","url":"https://ctox.com/assets-v2/podcast-cover-v2.jpg"},"breadcrumb":{"@type":"BreadcrumbList","@id":"https://ctox.com/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://ctox.com/"}]},"inLanguage":"en-US"}]}</script>
+<!-- /schema-block -->
+<!-- Google Tag Manager (server container at sio2.ctox.com) — container GTM-TGRXM9MJ,
+     extracted from live ctox.com 2026-08-04. Loaded on first user interaction or
+     after 5s, matching the OLD site's WP Rocket delay-JS behavior (its lab TBT was
+     0ms for the same reason). Tracking semantics unchanged vs. the WordPress era. -->
+<script>
+(function(){
+  var loaded = false;
+  function loadGTM(){
+    if (loaded) return; loaded = true;
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//sio2.ctox.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-TGRXM9MJ');
+    ['pointerdown','scroll','keydown','touchstart','mousemove'].forEach(function(e){
+      window.removeEventListener(e, loadGTM, {passive:true});
+    });
+  }
+  ['pointerdown','scroll','keydown','touchstart','mousemove'].forEach(function(e){
+    window.addEventListener(e, loadGTM, {passive:true, once:true});
+  });
+  setTimeout(loadGTM, 5000);
+})();
+</script>
+<!-- End Google Tag Manager -->
+</head>
+<body>
+<noscript><iframe src="https://sio2.ctox.com/ns.html?id=GTM-TGRXM9MJ" height="0" width="0" style="display:none;visibility:hidden" aria-hidden="true"></iframe></noscript>
+
+<div class="cursor-glow" id="cursorGlow"></div>
+
+<!-- Header -->
+<header class="header" id="top">
+  <div class="header-inner">
+    <a class="header-logo" href="#top"><img src="/assets-v2/logo-ctox-dark.svg" width="144" height="44" alt="CTOx" /></a>
+    <nav class="nav" id="nav">
+      <a href="/" style="color: var(--orange);">Home</a>
+      <a href="/fractional-cto-services/">For Businesses</a>
+      <a href="/blog/">Blog</a>
+      <a href="/podcast/">Podcast</a>
+      <a href="/our-team/">Team</a>
+      <a href="/testimonials/">Reviews</a>
+      <a href="/lunch/">Lunch with Lior</a>
+      <a href="https://join.slack.com/t/ctoxcommunity/shared_invite/zt-401ew8735-PW2kGKD18dL5yxewzNkiQg" target="_blank" rel="noopener">Join Community</a>
+    </nav>
+    <div style="display:flex; align-items:center; gap:8px;">
+      <a class="keybtn keybtn-header" href="https://go.ctox.com/join/1/learn"><span class="face">Get Started</span></a>
+      <button class="menu-toggle" aria-label="Menu" onclick="document.querySelector('.header').classList.toggle('menu-open');document.getElementById('nav').classList.toggle('open')"><span></span></button>
+    </div>
+  </div>
+</header>
+
+<!-- Hero -->
+<section class="hero">
+  <div class="hero-inner">
+    <div class="hero-copy">
+      <a class="tp-link hero-tp" href="https://www.trustpilot.com/review/ctox.com" target="_blank" rel="noopener" aria-label="CTOx reviews on Trustpilot">
+        <img src="/assets-v2/trustpilot-298.webp" alt="Rated 5 stars on Trustpilot" />
+      </a>
+      <h1><span class="accent">Everything you need to earn 6-7 figures</span> as a Fractional CTO.</h1>
+      <p class="lede">The proven launchpad for Senior Tech Leaders who want to earn +$500k/yr Fractional CTO.</p>
+      <div class="hero-ctas">
+        <a class="btn btn-primary" href="https://go.ctox.com/join/1/learn">Start the Program Today &rarr;</a>
+        <a class="btn btn-dark-outline" href="#training">Learn More</a>
+      </div>
+      <div class="hero-trust">Over 300 CTOs Trained!</div>
+      <p class="hero-hire" style="margin-top:14px;font-size:14px;color:rgba(255,255,255,.72)">Looking to hire a Fractional CTO for your company? <a href="/fractional-cto-services/" style="color:#fff;text-decoration:underline">See our fractional CTO services →</a></p>
+    </div>
+    <div class="hero-visual">
+      <div class="hero-device-glow"></div>
+      <img class="hero-art" src="/assets-v2/hero-devices.webp" srcset="/assets-v2/hero-devices-880.webp 880w, /assets-v2/hero-devices-1100.webp 1100w, /assets-v2/hero-devices-1400.webp 1400w, /assets-v2/hero-devices.webp 2200w" sizes="(max-width: 900px) 100vw, 1100px" fetchpriority="high" width="2200" height="992" alt="CTOx program on laptop, tablet and phone" />
+    </div>
+  </div>
+
+  <!-- Brand logos -->
+  <div class="brands">
+    <div class="brand-label">Trusted by tech leaders from the leading brands.</div>
+    <div class="brands-track">
+      <div class="brands-row" id="brandsRow">
+        <!-- BRAND_LOGOS -->
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Fractional 101 — player + playlist -->
+<section class="fractional" id="training">
+  <div class="wrap">
+    <h2 class="section-h2">Fractional CTO 101</h2>
+
+    <div class="f101-progress">
+      <span id="progress-label">Part 1 of 5</span>
+      <span class="bar"><i id="progress-bar"></i></span>
+      <span id="progress-pct">20%</span>
+    </div>
+
+    <div class="f101-grid">
+      <!-- player column -->
+      <div>
+        <div class="player" id="player"></div>
+      </div>
+
+      <!-- playlist column -->
+      <aside>
+        <div class="playlist-h">The 5 things</div>
+        <button class="ep active" data-i="0">
+          <span class="ep-num">01</span>
+          <span class="ep-body"><strong>What is a Fractional CTO</strong><span>Part 1</span></span>
+        </button>
+        <button class="ep" data-i="1">
+          <span class="ep-num">02</span>
+          <span class="ep-body"><strong>How to know if you&rsquo;re qualified</strong><span>Part 2</span></span>
+        </button>
+        <button class="ep" data-i="2">
+          <span class="ep-num">03</span>
+          <span class="ep-body"><strong>How to find clients</strong><span>Part 3</span></span>
+        </button>
+        <button class="ep" data-i="3">
+          <span class="ep-num">04</span>
+          <span class="ep-body"><strong>What is a day in the life</strong><span>Part 4</span></span>
+        </button>
+        <button class="ep" data-i="4">
+          <span class="ep-num">05</span>
+          <span class="ep-body"><strong>Not a salesperson? No worries.</strong><span>Part 5</span></span>
+        </button>
+
+      </aside>
+    </div>
+
+    <div class="fr-bottom">
+      <div class="ctas">
+        <a class="btn btn-white" href="https://go.ctox.com/join/1/learn">Get Started &rarr;</a>
+      </div>
+      <div class="fr-tagline">Over 300 CTOs Trained!</div>
+    </div>
+  </div>
+</section>
+
+<!-- Testimonials + 90-day -->
+<section class="band jet" id="results">
+  <h2 class="band-h2">We&rsquo;ve made our members millions.</h2>
+  <div class="band-sub">Trusted by over 300 tech leaders</div>
+  <a class="tp-link tp-center" href="https://www.trustpilot.com/review/ctox.com" target="_blank" rel="noopener">
+    <img src="/assets-v2/trustpilot-298.webp" alt="Rated 5 stars on Trustpilot" />
+    <span class="tp-text">Read our reviews on Trustpilot &rarr;</span>
+  </a>
+
+  <div class="marquee-clip" id="reviews">
+    <div class="marquee" id="marquee">
+      <!-- T_CARDS -->
+    </div>
+  </div>
+
+  <!-- Video testimonials — the full wall -->
+  <div class="vt-grid vt-collapsed" id="vtGrid"></div>
+  <div class="vt-viewmore"><button onclick="document.getElementById('vtGrid').classList.remove('vt-collapsed')">View More &darr;</button></div>
+  <div class="vt-more"><a class="btn btn-primary" href="https://go.ctox.com/join/1/learn">Get Started &rarr;</a></div>
+
+  <!-- 90-day -->
+  <div class="wrap ninety">
+    <div class="ninety-visual">
+      <img src="/assets-v2/client-90-devices-672.webp" alt="CTOx Flight Plan and coaching call on laptop, tablet and phone" />
+    </div>
+    <div>
+      <h2><span class="accent">Get your first client in 90 days</span> by learning exactly how to package and sell your expertise.</h2>
+      <p class="leadin">With CTOx, you&rsquo;ll learn exactly how to:</p>
+      <ul>
+        <li>Sell $15k/mo retainers.</li>
+        <li>Make clients come to you.</li>
+        <li>Package your expertise.</li>
+        <li>Earn equity and residuals.</li>
+        <li>Build your niche</li>
+        <li>Diversify revenue streams.</li>
+        <li>Work less to earn more.</li>
+      </ul>
+      <div class="ctas">
+        <a class="btn btn-orange-outline" href="https://go.ctox.com/join/1/learn">Get Started &rarr;</a>
+      </div>
+      <img class="stars" src="/assets-v2/trustpilot-298.webp" alt="Rated 5 stars on Trustpilot" />
+    </div>
+  </div>
+</section>
+
+<!-- One membership -->
+<section class="membership" id="program">
+  <div class="wrap">
+    <h2 class="section-h2">One membership. Everything you need.</h2>
+
+    <div class="m-card m-wide">
+      <div>
+        <h3 class="m-heading">Learn how to become a Fractional CTO <span class="rest">with hundreds of trainings, courses, and workshops.</span></h3>
+        <div class="m-includes">Includes</div>
+        <ul class="m-list">
+          <li>Access to the Resource Library</li>
+          <li>100+ Templates and Scripts</li>
+          <li>Access to Video Training Curriculum</li>
+          <li>Nail your Niche Workshop</li>
+          <li>Access to Flight Plan</li>
+        </ul>
+        <a class="pill" href="https://go.ctox.com/join/1/learn">Get Started</a>
+      </div>
+      <div class="m-wide-visual">
+        <img src="/assets-v2/membership-laptop-900.webp" alt="CTOx Accelerator learning modules on a laptop" />
+      </div>
+    </div>
+
+    <div class="m-pair">
+      <div class="m-card m-half">
+        <div class="pic"><img src="/assets-v2/membership-tech-900.webp" alt="CTOx CRM, contracts, earnings dashboard and DealGPT" /></div>
+        <h3 class="m-heading">Equip yourself with purpose built CTO technology, <span class="rest">CRMs, GPTs, and contracts to run your business.</span></h3>
+        <div class="m-includes">Includes</div>
+        <ul class="m-list">
+          <li>Access to CRMx</li>
+          <li>Templates, Automations, Pipelines</li>
+          <li>Custom Trained AI GPTs</li>
+          <li>Contract Templates</li>
+          <li>Proposal Templates</li>
+        </ul>
+        <a class="pill" href="https://go.ctox.com/join/1/learn">Get Started</a>
+      </div>
+      <div class="m-card m-half">
+        <div class="pic"><img src="/assets-v2/membership-coaching-900.webp" alt="CTOx community call, playbook and coaching" /></div>
+        <h3 class="m-heading">Stay on course with an army behind you <span class="rest">with live coaching and community to thrive as you implement.</span></h3>
+        <div class="m-includes">Includes</div>
+        <ul class="m-list">
+          <li>Deal Support</li>
+          <li>Proposal Feedback</li>
+          <li>CTOx Slack Community</li>
+          <li>Starter Guide Book</li>
+          <li>One on One Coaching Calls</li>
+        </ul>
+        <a class="pill" href="https://go.ctox.com/join/1/learn">Get Started</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Guarantee -->
+<section class="guarantee" id="guarantee">
+  <div class="wrap guarantee-grid">
+    <img class="badge" src="/assets-v2/guarantee-badge-320.webp" alt="16-week results extension guarantee badge" />
+    <div>
+      <h2>Does it work? We guarantee it.</h2>
+      <p>Complete the core steps in the first 90 days: clarify your offer, map your network, send outreach. If you do that and you still don&rsquo;t feel traction, we extend your access another 90 days at no cost. Just show us you did the steps.</p>
+      <a class="keybtn" href="https://go.ctox.com/join/1/learn"><span class="face">Join CTOx Today</span></a>
+    </div>
+  </div>
+</section>
+
+<!-- Podcast -->
+<section class="podcast-section jet" id="podcast">
+  <div class="wrap">
+    <div class="pod-head">
+      <div>
+        <h2>Your new favorite podcast.</h2>
+        <p class="pod-sub">Lior and Marissa Brassfield, every week, on building a fractional practice that actually pays.</p>
+      </div>
+      <div class="pod-links">
+        <a href="https://podcasts.apple.com/us/podcast/the-ctox-podcast/id1814365787" target="_blank" rel="noopener"><svg width="17" height="17" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12" fill="#9444E5"/><rect x="10.2" y="5.4" width="3.6" height="8" rx="1.8" fill="#fff"/><path d="M8 11a4 4 0 0 0 8 0" stroke="#fff" stroke-width="1.4" fill="none" stroke-linecap="round"/><path d="M12 15v3" stroke="#fff" stroke-width="1.4" stroke-linecap="round"/></svg>Apple Podcasts</a>
+        <a href="https://open.spotify.com/show/5jWuTo26ciATqJt7HEG7NW" target="_blank" rel="noopener"><svg width="17" height="17" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12" fill="#1DB954"/><path d="M6 9.6c4-1.2 8.6-.8 12.2 1.3M6.9 13c3.2-1 6.8-.6 9.6 1.1M7.7 16.1c2.4-.7 5-.5 7.3.9" stroke="#fff" stroke-width="1.5" fill="none" stroke-linecap="round"/></svg>Spotify</a>
+        <a href="https://youtube.com/playlist?list=PLXWIG6uyAjJiEAAPRYAZdshsjpBWk-9Cz" target="_blank" rel="noopener"><svg width="22" height="16" viewBox="0 0 28 20"><rect x="0" y="1" width="28" height="18" rx="5" fill="#FF0000"/><path d="M11 5.5l7 4.5-7 4.5z" fill="#fff"/></svg>YouTube</a>
+        <a href="/podcast/">All episodes &rarr;</a>
+      </div>
+    </div>
+    <div class="pod-grid">
+      <a class="pod-card" href="https://ctox.podbean.com/e/when-a-ceo-wants-a-player-coach-here-is-what-they-actually-mean/" target="_blank" rel="noopener">
+        <div class="pod-thumb"><img src="/assets-v2/podcast-cover-v2.jpg" alt="The CTOx Podcast" /></div>
+        <div class="pod-body">
+          <h4>When a CEO Wants a Player-Coach, Here Is What They Actually Mean</h4>
+          <p>They want two roles for the price of one. Why that pulls a fractional leader out of their lane, and what it really costs.</p>
+          <span class="pod-listen">Listen &rarr;</span>
+        </div>
+      </a>
+      <a class="pod-card" href="https://ctox.podbean.com/e/how-to-go-fractional-from-strength-not-desperation/" target="_blank" rel="noopener">
+        <div class="pod-thumb"><img src="/assets-v2/podcast-cover-v2.jpg" alt="The CTOx Podcast" /></div>
+        <div class="pod-body">
+          <h4>How to Go Fractional From Strength, Not Desperation</h4>
+          <p>The best time to make the leap is while you still have income. How desperation makes bad clients look acceptable.</p>
+          <span class="pod-listen">Listen &rarr;</span>
+        </div>
+      </a>
+      <a class="pod-card" href="https://ctox.podbean.com/e/your-clients-are-buying-your-bias-how-to-use-it-without-letting-it-blind-you/" target="_blank" rel="noopener">
+        <div class="pod-thumb"><img src="/assets-v2/podcast-cover-v2.jpg" alt="The CTOx Podcast" /></div>
+        <div class="pod-body">
+          <h4>Your Clients Are Buying Your Bias</h4>
+          <p>Clients aren&rsquo;t paying for a blank slate. Your judgment and pattern recognition are the asset. How to wield it without going blind.</p>
+          <span class="pod-listen">Listen &rarr;</span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="faq-section jet" id="faq">
+  <div class="wrap">
+    <h2 class="section-h2">Frequently Asked</h2>
+    <div class="faq-list">
+      <details class="faq-item">
+        <summary class="faq-q"><span>How does it work?</span><img src="/assets-v2/plus.png" alt="" /></summary>
+        <div class="faq-a">Three steps: book a call (or check out directly) &mdash; you get immediate access to the program while we schedule your onboarding &mdash; then we reach out to plan your 1-on-1 coaching.</div>
+      </details>
+      <details class="faq-item">
+        <summary class="faq-q"><span>What is CTOx?</span><img src="/assets-v2/plus.png" alt="" /></summary>
+        <div class="faq-a">CTOx is the proven launchpad for senior tech leaders who want to earn $500k+/yr as a Fractional CTO. Training, tech, coaching, and community in one membership.</div>
+      </details>
+      <details class="faq-item">
+        <summary class="faq-q"><span>Who is CTOx for?</span><img src="/assets-v2/plus.png" alt="" /></summary>
+        <div class="faq-a">Senior engineering leaders, VPs, and current/former CTOs who want to package their expertise into a fractional practice.</div>
+      </details>
+      <details class="faq-item">
+        <summary class="faq-q"><span>Do I need to already be a CTO?</span><img src="/assets-v2/plus.png" alt="" /></summary>
+        <div class="faq-a">No. If you have senior tech leadership experience and the appetite to operate as a strategic advisor, you&rsquo;re qualified.</div>
+      </details>
+      <details class="faq-item">
+        <summary class="faq-q"><span>How fast can I get results?</span><img src="/assets-v2/plus.png" alt="" /></summary>
+        <div class="faq-a">Most members land their first client inside 90 days when they complete the core steps.</div>
+      </details>
+      <details class="faq-item">
+        <summary class="faq-q"><span>What&rsquo;s included?</span><img src="/assets-v2/plus.png" alt="" /></summary>
+        <div class="faq-a">Full curriculum, CRMx, custom GPTs, contract &amp; proposal templates, deal support, weekly coaching, and the private community.</div>
+      </details>
+      <details class="faq-item">
+        <summary class="faq-q"><span>How many CTOs have done this?</span><img src="/assets-v2/plus.png" alt="" /></summary>
+        <div class="faq-a">300+ tech leaders have been trained through the CTOx Accelerator.</div>
+      </details>
+      <details class="faq-item">
+        <summary class="faq-q"><span>What if I have a W2 job?</span><img src="/assets-v2/plus.png" alt="" /></summary>
+        <div class="faq-a">Many members start fractional work alongside a W2 role. The program is designed to be completed at your own pace.</div>
+      </details>
+    </div>
+    <div class="faq-ctas">
+      <a class="btn btn-orange-outline" href="https://go.ctox.com/join/1/learn">Get Started &rarr;</a>
+    </div>
+  </div>
+</section>
+
+<!-- Newsletter -->
+<div class="newsletter-belt jet">
+  <div class="wrap">
+    <div class="newsletter" id="call">
+      <div class="pic"><img src="/assets-v2/pizza-lego-360.webp" srcset="/assets-v2/pizza-lego-360.webp 360w, /assets-v2/pizza-lego-472.webp 472w" sizes="(max-width: 640px) 180px, 236px" width="360" height="328" alt="Lego pizza slice" /></div>
+      <div>
+        <h2>Still hungry for answers? Let&rsquo;s talk over lunch.</h2>
+        <p class="body-copy">Every other week, our founder <a href="/lior-weinstein/" style="color:inherit;text-decoration:underline">Lior Weinstein</a> sits down for a lunch zoom call just for you. It&rsquo;s 100% free for you to come and ask all your burning questions. Unfortunately, lunch is not included.</p>
+        <div class="form">
+          <a class="keybtn" href="/lunch/"><span class="face">Save my seat</span></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer-row">
+      <a class="footer-logo" href="#top"><img src="/assets-v2/logo-ctox-footer-dark.svg" width="298" height="90" alt="CTOx" /></a>
+      <nav class="footer-nav">
+        <a href="#top">Home</a>
+        <a href="/blog/">Blog</a>
+        <a href="/podcast/">Podcast</a>
+        <a href="/testimonials/">Results</a>
+        <a href="/our-team/">About</a>
+      </nav>
+      <a class="keybtn keybtn-footer" href="https://go.ctox.com/join/1/learn"><span class="face">Get Started</span></a>
+    </div>
+    <!-- footer-sitemap -->
+<style>
+  .footer-links { display:grid; grid-template-columns:repeat(4,1fr); gap:28px 40px; margin-top:56px; padding-top:40px; border-top:1px solid rgba(255,255,255,0.08); }
+  .footer-links h4 { font-size:13px; font-weight:600; letter-spacing:0.08em; text-transform:uppercase; color:rgba(255,255,255,0.45); margin:0 0 12px; }
+  .footer-links a { display:block; font-weight:300; font-size:14.5px; line-height:2; color:rgba(255,255,255,0.72); text-decoration:none; }
+  .footer-links a:hover { color: var(--orange); }
+  @media (max-width:860px){ .footer-links { grid-template-columns:repeat(2,1fr); } }
+  @media (max-width:430px){ .footer-links { grid-template-columns:1fr; } }
+</style>
+<div class="footer-links">
+  <div>
+    <h4>Company</h4>
+    <a href="/about-ctox/">About CTOx</a>
+    <a href="/our-team/">Our Team</a>
+    <a href="/lior-weinstein/">Lior Weinstein</a>
+    <a href="/testimonials/">Testimonials</a>
+    <a href="/spotlight/">Member Spotlights</a>
+    <a href="/contact/">Contact</a>
+    <a href="/frequently-asked-questions/">FAQ</a>
+  </div>
+  <div>
+    <h4>For Businesses</h4>
+    <a href="/fractional-cto-services/">Fractional CTO Services</a>
+    <a href="/consultation/">Book a Consultation</a>
+    <a href="/part-time-cto/">Part-Time CTO</a>
+    <a href="/virtual-cto/">Virtual CTO</a>
+    <a href="/cto-technology-executive-search/">CTO Executive Search</a>
+    <a href="/part-time-cto-for-private-equity/">Private Equity</a>
+    <a href="/our-services-for-businesses/">Our Services</a>
+  </div>
+  <div>
+    <h4>For Tech Leaders</h4>
+    <a href="/accelerator/">CTOx Accelerator™</a>
+    <a href="/fractional-cto-101/">Fractional CTO 101</a>
+    <a href="/accelerator/comfort-trap/">The Comfort Trap</a>
+    <a href="/three-anxieties/">The Three Anxieties</a>
+    <a href="/lunch/">Lunch with Lior</a>
+  </div>
+  <div>
+    <h4>Podcast & Content</h4>
+    <a href="/blog/">Blog</a>
+    <a href="/podcast/">All Episodes</a>
+    <a href="/ctox-podcast-overview/">Podcast Overview</a>
+    <a href="/ctox-podcast/the-ctox-podcast/">The CTOx Podcast</a>
+    <a href="/ctox-podcast/inside-ctox/">Inside CTOx</a>
+  </div>
+</div>
+<!-- /footer-sitemap -->
+    <div class="footer-copy">Copyright 2026 @CTOx, LLC</div>
+    <div class="footer-legal">
+      <a href="/privacy-policy/">Privacy Policy</a><span>|</span>
+      <a href="/terms-conditions/">Terms &amp; Conditions</a><span>|</span>
+      <a href="/earnings-disclaimer/">Earnings Disclaimer</a>
+    </div>
+  </div>
+</footer>
+
+<script>
+  // Testimonials — content doubled for seamless marquee
+  const TESTIMONIALS = [
+    ["Paul McRae", "CEO, TransformativeHLTH", "avatar-paul-mcrae-104.webp", "\u201cThe KPI-driven framework became a real hook in my sales conversations. Once I started framing things that way, it changed how I approached clients and helped me stand out.\u201d"],
+    ["Chris Marrs", "President, ChrisMarrsCTO", "avatar-chris-104.webp", "\u201cThe KPI-driven framework became a real hook in my sales conversations. Once I started framing things that way, it changed how I approached clients and helped me stand out.\u201d"],
+    ["Brian Dedischew", "Fractional CTO | TodayCTO", "avatar-brian-104.webp", "\u201cYou\u2019ve completely changed my paradigm. I was looking at this all wrong\u2026 This is exactly what I needed to get back on track. You completely shifted my mindset. I wish I had done this a month ago.\u201d"],
+    ["Paul Benson", "Founder, MRPABENSON IT", "avatar-paul-benson-104.webp", "\u201cWorking with CTOx has been one of the most transformative and strategically valuable collaborations I\u2019ve experienced. Simply put, CTOx vastly exceeded expectations.\u201d"],
+    ["David Shake", "CTO | Fusion Solutions Group", "avatar-david-104.webp", "\u201cI\u2019ve been in C-level roles for years. But this (CTOx Accelerator) is exactly what I needed to succeed as a fractional CTO. The resources, the people, the tools\u2014it\u2019s been invaluable.\u201d"],
+    ["Gav M.", "Tech Startups/Multiple Exits", "avatar-gav-104.webp", "\u201cCTOx helped me build a $500K+ consulting business in months\u2014and I\u2019m just getting started. I actually took my website down because I was getting too many leads. That\u2019s how well it\u2019s working.\u201d"],
+    ["Tony Winter", "Fractional CTO", "avatar-tony-104.webp", "\u201cCTOx Accelerator was one of the best choices I could have made. Without it, I\u2019d be stuck in months of trial and error trying to launch my fractional practice. It\u2019s all been invaluable.\u201d"],
+    ["Keith Piccininno", "Fractional CTO", "avatar-keith-104.webp", "\u201cThe best part of CTOx Accelerator is the community and the tools. You\u2019re not just networking, you\u2019re accelerating. They give you a real head start in building whatever you need next.\u201d"]
+  ];
+  const cardHTML = ([name, role, avatar, quote]) => `
+    <div class="t-card">
+      <div class="q-head">
+        <img src="/assets-v2/${avatar}" alt="" onerror="this.style.visibility='hidden'" />
+        <div><div class="q-name">${name}</div><div class="q-role">${role}</div></div>
+      </div>
+      <div class="q-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+      <blockquote>${quote}</blockquote>
+    </div>`;
+  document.getElementById("marquee").innerHTML =
+    TESTIMONIALS.map(cardHTML).join("") + TESTIMONIALS.map(cardHTML).join("");
+
+  // Brand logos — content doubled for seamless marquee
+  const BRANDS = [
+    ["logo-apple.svg", "Apple", "lg"],
+    ["logo-intuit.svg", "Intuit", ""],
+    ["logo-uber.svg", "Uber", ""],
+    ["logo-cisco.svg", "Cisco", ""],
+    ["logo-aramark.svg", "Aramark", ""],
+    ["logo-southwest.svg", "Southwest", ""],
+    ["logo-northrop.svg", "Northrop Grumman", ""],
+    ["logo-verizon.svg", "Verizon", ""],
+    ["logo-accenture.svg", "Accenture", ""],
+    ["logo-caterpillar.svg", "Caterpillar", ""],
+    ["logo-honeywell.svg", "Honeywell", ""]
+  ];
+  const logoHTML = ([file, name, cls]) =>
+    `<div class="brand-slot"><img src="/assets-v2/${file}" alt="${name}" onerror="this.parentNode.remove()" /></div>`;
+  const logosStrip = BRANDS.map(logoHTML).join("") + BRANDS.map(logoHTML).join("");
+  document.getElementById("brandsRow").innerHTML = logosStrip;
+
+  // iOS Safari snapshots accelerated keyframe transforms when the animation
+  // first starts — at that point these rows are empty (width 0), so the
+  // translateX(-50%) resolves to 0px and the marquee never moves. Restart
+  // the animations now that the rows have their real width.
+  requestAnimationFrame(() => {
+    // Batch: one style write pass, ONE forced reflow, one restore pass
+    // (two separate offsetWidth reads showed up as 56ms forced reflow in PSI).
+    const els = ["brandsRow", "marquee"].map(id => document.getElementById(id)).filter(Boolean);
+    els.forEach(el => { el.style.animation = "none"; });
+    if (els[0]) void els[0].offsetWidth;
+    els.forEach(el => { el.style.animation = ""; });
+  });
+
+  // Fractional 101 — player + playlist (video IDs from fractional-cto-101)
+  const EPISODES = [
+    { n: "01", title: "What is a Fractional CTO",
+      desc: "The role, the model, and why companies pay for part-time technical leadership.",
+      cover: "assets-v2/video-1-what-is-it-726.webp", ytid: "tYQAGlgJqvA" },
+    { n: "02", title: "How to know if you’re qualified",
+      desc: "The real bar for going fractional, and why you likely already clear it.",
+      cover: "assets-v2/video-2-qualified-726.webp", ytid: "QsbQ-Ws86rQ" },
+    { n: "03", title: "How to find clients",
+      desc: "Where the first engagements come from, and the outreach that fills a pipeline.",
+      cover: "assets-v2/video-3-clients-726.webp", ytid: "KWq7Pqe6P6I" },
+    { n: "04", title: "What is a day in the life",
+      desc: "What the work really looks like week to week once you’re running a fractional practice.",
+      cover: "assets-v2/video-4-becoming-726.webp", ytid: "3yy8AKf_4-A" },
+    { n: "05", title: "Not a salesperson? No worries.",
+      desc: "How to land clients without selling, and why the best fractional CTOs rarely pitch.",
+      cover: "assets-v2/video-5-sales-726.webp", ytid: "pKJgM2lgGzk" }
+  ];
+  const epButtons = document.querySelectorAll(".ep");
+  function selectEpisode(i) {
+    const e = EPISODES[i];
+    epButtons.forEach((el, idx) => {
+      el.classList.toggle("active", idx === i);
+      el.classList.toggle("done", idx < i);
+      el.querySelector(".ep-body span").textContent =
+        idx === i ? "Now playing" : (idx < i ? "Watched" : "Part " + EPISODES[idx].n);
+    });
+    const pct = Math.round(((i + 1) / EPISODES.length) * 100);
+    document.getElementById("progress-bar").style.width = pct + "%";
+    document.getElementById("progress-label").textContent = "Part " + (i + 1) + " of " + EPISODES.length;
+    document.getElementById("progress-pct").textContent = pct + "%";
+    const player = document.getElementById("player");
+    player.innerHTML =
+      '<button class="cover-link" type="button" aria-label="Play part ' + e.n + '">' +
+        '<img src="' + e.cover + '" alt="' + e.title + '">' +
+        '<span class="play-badge">' +
+          '<svg width="30" height="30" viewBox="0 0 24 24" fill="#1A0A03"><path d="M8 5v14l11-7z"/></svg>' +
+        '</span>' +
+      '</button>';
+    player.querySelector(".cover-link").addEventListener("click", () => playInline(e.ytid));
+  }
+  function playInline(id) {
+    // YouTube rejects referrer-less embeds (Error 153) — from a local file://
+    // preview, open the video on YouTube instead of a dead iframe.
+    if (location.protocol === "file:") {
+      window.open("https://www.youtube.com/watch?v=" + id, "_blank", "noopener");
+      return;
+    }
+    document.getElementById("player").innerHTML =
+      '<iframe src="https://www.youtube-nocookie.com/embed/' + id +
+      '?rel=0&autoplay=1&playsinline=1" ' +
+      'referrerpolicy="strict-origin-when-cross-origin" ' +
+      'allow="autoplay; fullscreen; picture-in-picture; encrypted-media" allowfullscreen></iframe>';
+  }
+  epButtons.forEach(el => el.addEventListener("click", () => selectEpisode(parseInt(el.dataset.i, 10))));
+  selectEpisode(0);
+
+  // Orange glow trails the cursor (mouse pointers only; touch stays glow-free)
+  (function () {
+    const glow = document.getElementById("cursorGlow");
+    if (!glow || !window.matchMedia("(pointer: fine)").matches) return;
+    const snap = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    let tx = innerWidth / 2, ty = innerHeight / 3, x = tx, y = ty, shown = false;
+    addEventListener("mousemove", e => {
+      tx = e.clientX; ty = e.clientY;
+      if (!shown) { shown = true; x = tx; y = ty; glow.style.opacity = "1"; }
+    });
+    document.documentElement.addEventListener("mouseleave", () => { glow.style.opacity = "0"; shown = false; });
+    (function tick() {
+      var dx = tx - x, dy = ty - y;
+      // only write styles while the glow is still catching up — constant
+      // style writes under the pointer suppress custom CSS cursors in Chrome
+      if (Math.abs(dx) > 0.5 || Math.abs(dy) > 0.5) {
+        x += dx * (snap ? 1 : 0.08);
+        y += dy * (snap ? 1 : 0.08);
+        glow.style.transform = "translate3d(" + x + "px," + y + "px,0)";
+      }
+      requestAnimationFrame(tick);
+    })();
+  })();
+
+  // Video testimonials — all of them (data mirrors testimonials.html)
+  const VT_ALL = [
+  ["Sanjay Akut","h3RwXdzQYRg","The \u2018Engage, Advisor, Workshop\u2019 offerings were humongous because that\u2019s literally the core of my business at this point."],
+  ["George Reyna","zSHgvs37exc","CTOx gave me the space to show up authentically and make a real impact in others\u2019 businesses\u2014and that\u2019s been incredibly rewarding."],
+  ["Amit Moravchick","T3JMYyNFmys","I\u2019ve found my destiny. Being a fCTO finally feels like the right fit. The freedom to live fully. The clarity on where I bring value. It all makes sense now."],
+  ["Christopher Grant","AmbYdVCFFQU","The meetings are engaging, the content is diverse, and I genuinely enjoy connecting with the people on calls and in Slack. Makes a big difference."],
+  ["Christian Wiles","9fDHdf7BlBk","The relationships, the tech-forward mindset, the peer group calls. CTOx creates the environment where you\u2019re constantly learning and building."],
+  ["Jon Freedman","5Acqr7vgYKg","CTOx did exactly what it promised\u2014it accelerated my business setup. The ROI was clear, and the feedback from real humans made all the difference."],
+  ["Todd Deshane","i1S0qqOn-EM","CTOx gave me the clarity I couldn\u2019t find on my own. The community, the coaching, the accountability\u2014it pushed me to commit, act, and win early."],
+  ["Gav M.","U-AI9QysyWk","I was blown away by the content and the sessions. It\u2019s great to be part of a community like this. I\u2019m a very happy customer."],
+  ["Shubham Sethi","SSUE0wa53Oc","Landing that first client changed everything. I went from anxious to confident, from uncertain to building momentum. Now I know I can scale."],
+  ["Dawn Fitzgerald","a9zh06udCj0","Fractional CTO is a richer, long-term way to support growing companies. CTOx gave me the training and a community of peers to grow alongside."],
+  ["Michael Virnoche","kjdJTMI7C14","The biggest benefit I got out of CTOx really comes down to the community. Having access to so much experience is what truly pays dividends when working with clients."],
+  ["Taylor Johnson","6coueSooXWY","There\u2019s no fluff. It\u2019s just very direct, very real. I\u2019m like, this is incredibly valuable. One of my buddies is a CRO, and he\u2019s heard of you guys and he\u2019s like, \u2018Oh, they do great work!\u2019"],
+  ["Tony Winter","Ui1lzX1Nurw","CTOx Accelerator was one of the best choices I could have made. Without it, I\u2019d be stuck in months of trial and error trying to launch my fractional practice. It\u2019s all been invaluable."],
+  ["David Brumbaugh","it3bonk1W4M","CTOx isn\u2019t just coaching \u2014 it\u2019s an incredible mix of great people, powerful peer groups, and more resources than I can count. I love it. Glad to be part of it."],
+  ["Ravi Sandhu","8ZB4mVkksS4","A lot of the stuff you teach at CTOx matched the way I already thought \u2014 but you gave it words and legitimacy. It matched my skills more than just doing consultancy."],
+  ["Vinay Venkataraghavan","ljtTHIr4Zkw","The clarity and the way you\u2019re framing everything is incredible. You\u2019re amazing at what you do."],
+  ["Bob Stewart","CkkdFXbyIZY","I saw CTOx Accelerator as more than just a peer network. It\u2019s a signal amplifier for those of us stewarding the future of intelligence\u2014where leverage comes not just from tech, but execution."],
+  ["Yeomy Waller","MbMdj-4KysQ","By asking, you\u2019re not bothering people\u2014you\u2019re giving them the opportunity to help. That\u2019s priceless for them, too. Network activation changed everything. Just stick with the program\u2014it works."],
+  ["Keith Piccininno","vLpqeTgXdQc","The best part of CTOx Accelerator is the community and the tools. You\u2019re not just networking\u2014you\u2019re accelerating. They give you a real head start in building whatever you need next."],
+  ["Michael Kofman","_Jo8JW1fWlI","I had low expectations, but CTOx became everything I didn\u2019t know I needed. It\u2019s not just strategy\u2014it\u2019s the people, the support, and the push I needed to finally succeed."],
+  ["Asim Mohammad","hxGBORlVjos","CTOx is an enabling tool. The only way to stay ahead in tech is by surrounding yourself with smart, capable people\u2014and CTOx offers exactly that kind of forward-thinking community."],
+  ["Paul McRae","IjyrkcfjMZU","This program gave me the mindset shift I didn\u2019t know I needed. It\u2019s not just about business growth\u2014it\u2019s about rewiring how you think, evaluate opportunity, and reclaim your time and purpose."],
+  ["Jacob Silberstein","LmeXCAwgblg","Just as I was ready to give up, CTOx pulled me back in. That one check-in unlocked the opportunity I needed\u2014and helped me step into a stronger version of myself."],
+  ["John Fitzpatrick","XT8Fk8EJaQY","The CTOx Accelerator is great for framing how to think independently\u2014while also giving you access to a brilliant peer network where ideas, platforms, and tools are shared generously."],
+  ["Jon Benedict","yo5ui8SpZRc","Before the CTOx Accelerator, I was lost trying to market myself. Now, I\u2019m a confident entrepreneur with a clear message, a repeatable system, and zero hesitation about showing up as myself."],
+  ["Paul Benson","Fr3l1gA_3mU","CTOx challenged decades of W2 thinking. I didn\u2019t just learn new tactics\u2014I learned how to think like a founder. Now I choose who I work with and why. That changed everything."],
+  ["Glenn Antoine","yoX-IwvZU-w","CTOx helped me escape the repetition of W2 life. As a fractional leader, I solve diverse challenges across companies\u2014learning, growing, and delivering impact far beyond any one seat. That\u2019s freedom."],
+  ["David Shake","fjILuW6mnRk","CTOx is literally the accelerator\u2014it gave me a four- to five-year head start over where I would have been without it. I wouldn\u2019t be where I am today without CTOx; it\u2019s truly been a lifesaver."],
+  ["Prashanthi Nuthi","TCxTElu6Ars","Before CTOx I was skeptical and kept asking people for roles because I couldn\u2019t explain my value. A month later I\u2019m finally clear about my skills, and opportunities started coming my way."]
+];
+  document.getElementById("vtGrid").innerHTML = VT_ALL.slice(0, 27).map(([n, id, q]) => `
+    <div class="vt-card">
+      <div class="vt-thumb" data-id="${id}" role="button" aria-label="Play ${n}&rsquo;s testimonial">
+        <img src="https://i.ytimg.com/vi/${id}/hqdefault.jpg" alt="${n}&rsquo;s CTOx testimonial" loading="lazy" />
+        <span class="vt-play"><svg width="22" height="22" viewBox="0 0 24 24" fill="#fff"><path d="M8 5v14l11-7z"/></svg></span>
+      </div>
+      <div class="vt-body">
+        <blockquote>&ldquo;${q}&rdquo;</blockquote>
+        <div class="vt-name">${n}</div>
+      </div>
+    </div>`).join("");
+  document.querySelectorAll(".vt-thumb").forEach(t => t.addEventListener("click", () => {
+    const id = t.dataset.id;
+    if (location.protocol === "file:") { window.open("https://www.youtube.com/watch?v=" + id, "_blank", "noopener"); return; }
+    t.innerHTML = '<iframe src="https://www.youtube-nocookie.com/embed/' + id +
+      '?rel=0&autoplay=1&playsinline=1" referrerpolicy="strict-origin-when-cross-origin" ' +
+      'allow="autoplay; fullscreen; picture-in-picture; encrypted-media" allowfullscreen></iframe>';
+    t.style.cursor = "default";
+  }));
+
+  // Close mobile nav when a link is tapped
+  document.querySelectorAll("#nav a").forEach(a => a.addEventListener("click", () => {
+    document.querySelector(".header").classList.remove("menu-open");
+    document.getElementById("nav").classList.remove("open");
+  }));
+</script>
+</body>
+</html>
