@@ -1,0 +1,2052 @@
+{
+  "schema": 1,
+  "generated_at": "2026-09-29",
+  "scope": "public/submissions served assets",
+  "count": 214,
+  "ok": 212,
+  "review": 2,
+  "assets": [
+    {
+      "file": "public/submissions/official-ci-osan.png",
+      "format": "png",
+      "bytes": 84535,
+      "exists": true,
+      "status": "ok",
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/index-candidates/UMBF.svg",
+      "format": "svg",
+      "bytes": 3257,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/index-candidates/TRST.svg",
+      "format": "svg",
+      "bytes": 25313,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 1,
+      "suggested_background": "dark"
+    },
+    {
+      "file": "public/submissions/index-candidates/PBI.svg",
+      "format": "svg",
+      "bytes": 3786,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/index-candidates/GVA.svg",
+      "format": "svg",
+      "bytes": 63843,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/index-candidates/SR.svg",
+      "format": "svg",
+      "bytes": 4249,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/index-candidates/MAC.svg",
+      "format": "svg",
+      "bytes": 2827,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/index-candidates/RGTI.svg",
+      "format": "svg",
+      "bytes": 1200,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/index-candidates/JOBY.svg",
+      "format": "svg",
+      "bytes": 15536,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/index-candidates/TWST.png",
+      "format": "png",
+      "bytes": 15431,
+      "exists": true,
+      "status": "ok",
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/index-candidates/MOG_A.webp",
+      "format": "webp",
+      "bytes": 10746,
+      "exists": true,
+      "status": "ok",
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/index-candidates/ANRO.svg",
+      "format": "svg",
+      "bytes": 7003,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 1,
+      "suggested_background": "dark"
+    },
+    {
+      "file": "public/submissions/index-candidates/BTSG.svg",
+      "format": "svg",
+      "bytes": 6745,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/index-candidates/CNR.svg",
+      "format": "svg",
+      "bytes": 2009,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/index-candidates/HUT.png",
+      "format": "png",
+      "bytes": 5319,
+      "exists": true,
+      "status": "ok",
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/index-candidates/GKOS.png",
+      "format": "png",
+      "bytes": 793,
+      "exists": true,
+      "status": "ok",
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/index-candidates/SSRM.png",
+      "format": "png",
+      "bytes": 1011,
+      "exists": true,
+      "status": "ok",
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/index-candidates/WEN.svg",
+      "format": "svg",
+      "bytes": 39303,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/index-candidates/SEPN.svg",
+      "format": "svg",
+      "bytes": 2449,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 1,
+      "suggested_background": "dark"
+    },
+    {
+      "file": "public/submissions/index-candidates/HRTG.svg",
+      "format": "svg",
+      "bytes": 3574,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 7,
+      "suggested_background": "dark"
+    },
+    {
+      "file": "public/submissions/index-candidates/MITK.svg",
+      "format": "svg",
+      "bytes": 2002,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/index-candidates/AGL.svg",
+      "format": "svg",
+      "bytes": 33982,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/index-candidates/DLO.svg",
+      "format": "svg",
+      "bytes": 6784,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 1,
+      "suggested_background": "dark"
+    },
+    {
+      "file": "public/submissions/index-candidates/DBD.svg",
+      "format": "svg",
+      "bytes": 8384,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 1,
+      "suggested_background": "dark"
+    },
+    {
+      "file": "public/submissions/index-candidates/NBN.svg",
+      "format": "svg",
+      "bytes": 8055,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/index-candidates/GKOS.svg",
+      "format": "svg",
+      "bytes": 16989,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/index-candidates/JBTM.svg",
+      "format": "svg",
+      "bytes": 1905,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/index-candidates/BTSG.png",
+      "format": "png",
+      "bytes": 380,
+      "exists": true,
+      "status": "ok",
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/index-candidates/RIOT.webp",
+      "format": "webp",
+      "bytes": 884,
+      "exists": true,
+      "status": "ok",
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/index-candidates/GCMG.svg",
+      "format": "svg",
+      "bytes": 7116,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 11,
+      "suggested_background": "dark"
+    },
+    {
+      "file": "public/submissions/index-candidates/RAPP.svg",
+      "format": "svg",
+      "bytes": 2873,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/index-candidates/EPC.svg",
+      "format": "svg",
+      "bytes": 8538,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/index-candidates/PLXS.svg",
+      "format": "svg",
+      "bytes": 5717,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 7,
+      "suggested_background": "dark"
+    },
+    {
+      "file": "public/submissions/index-candidates/RDVT.svg",
+      "format": "svg",
+      "bytes": 6153,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/index-candidates/CORZ.svg",
+      "format": "svg",
+      "bytes": 7307,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/index-candidates/ACA.png",
+      "format": "png",
+      "bytes": 1125,
+      "exists": true,
+      "status": "ok",
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/index-candidates/NWPX.svg",
+      "format": "svg",
+      "bytes": 5403,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 1,
+      "suggested_background": "dark"
+    },
+    {
+      "file": "public/submissions/index-candidates/FLO.svg",
+      "format": "svg",
+      "bytes": 2759,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/index-candidates/CGEM.svg",
+      "format": "svg",
+      "bytes": 9915,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/index-candidates/TWST.svg",
+      "format": "svg",
+      "bytes": 14627,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/index-candidates/SNDA.svg",
+      "format": "svg",
+      "bytes": 11788,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/index-candidates/RDN.svg",
+      "format": "svg",
+      "bytes": 2583,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 1,
+      "suggested_background": "dark"
+    },
+    {
+      "file": "public/submissions/index-candidates/CERT.svg",
+      "format": "svg",
+      "bytes": 4337,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/index-candidates/GENI.svg",
+      "format": "svg",
+      "bytes": 1736,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/index-candidates/OSCR.svg",
+      "format": "svg",
+      "bytes": 8820,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 1,
+      "suggested_background": "dark"
+    },
+    {
+      "file": "public/submissions/index-candidates/CDP.svg",
+      "format": "svg",
+      "bytes": 11879,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/index-candidates/TGTX.svg",
+      "format": "svg",
+      "bytes": 7712,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/index-candidates/UMBF.png",
+      "format": "png",
+      "bytes": 3056,
+      "exists": true,
+      "status": "ok",
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/index-candidates/VSAT.png",
+      "format": "png",
+      "bytes": 10514,
+      "exists": true,
+      "status": "ok",
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/index-candidates/RDNT.svg",
+      "format": "svg",
+      "bytes": 18311,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/index-candidates/WLTH.svg",
+      "format": "svg",
+      "bytes": 5666,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/index-candidates/ASTE.svg",
+      "format": "svg",
+      "bytes": 1882,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/index-candidates/ONB.png",
+      "format": "png",
+      "bytes": 252,
+      "exists": true,
+      "status": "ok",
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/index-candidates/RPD.svg",
+      "format": "svg",
+      "bytes": 1585,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/index-candidates/CVSA.svg",
+      "format": "svg",
+      "bytes": 2965,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/index-candidates/UMH.svg",
+      "format": "svg",
+      "bytes": 8524,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 3,
+      "suggested_background": "dark"
+    },
+    {
+      "file": "public/submissions/index-candidates/THRM.svg",
+      "format": "svg",
+      "bytes": 1918,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/index-candidates/MXL.png",
+      "format": "png",
+      "bytes": 592,
+      "exists": true,
+      "status": "ok",
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/index-candidates/INSW.svg",
+      "format": "svg",
+      "bytes": 11525,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 1,
+      "suggested_background": "dark"
+    },
+    {
+      "file": "public/submissions/index-candidates/PCVX.png",
+      "format": "png",
+      "bytes": 1071,
+      "exists": true,
+      "status": "ok",
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/index-candidates/TCBI.svg",
+      "format": "svg",
+      "bytes": 193053,
+      "exists": true,
+      "status": "review",
+      "svg_valid": false,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/index-candidates/VSEC.svg",
+      "format": "svg",
+      "bytes": 121823,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/index-candidates/CTRE.svg",
+      "format": "svg",
+      "bytes": 1277,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 1,
+      "suggested_background": "dark"
+    },
+    {
+      "file": "public/submissions/index-candidates/GATX.svg",
+      "format": "svg",
+      "bytes": 724,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/index-candidates/FCEL.svg",
+      "format": "svg",
+      "bytes": 6913,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/index-candidates/ASB.svg",
+      "format": "svg",
+      "bytes": 36209,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 2,
+      "suggested_background": "dark"
+    },
+    {
+      "file": "public/submissions/index-candidates/MGY.svg",
+      "format": "svg",
+      "bytes": 29979,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/index-candidates/PLOW.svg",
+      "format": "svg",
+      "bytes": 10284,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/index-candidates/ARDX.svg",
+      "format": "svg",
+      "bytes": 7850,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 2,
+      "suggested_background": "dark"
+    },
+    {
+      "file": "public/submissions/index-candidates/KRYS.svg",
+      "format": "svg",
+      "bytes": 7788,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/index-candidates/HCC.svg",
+      "format": "svg",
+      "bytes": 2627,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 1,
+      "suggested_background": "dark"
+    },
+    {
+      "file": "public/submissions/index-candidates/ATEX.svg",
+      "format": "svg",
+      "bytes": 8227,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 10,
+      "suggested_background": "dark"
+    },
+    {
+      "file": "public/submissions/index-candidates/NOVT.svg",
+      "format": "svg",
+      "bytes": 2356,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 1,
+      "suggested_background": "dark"
+    },
+    {
+      "file": "public/submissions/index-candidates/RHP.svg",
+      "format": "svg",
+      "bytes": 7636,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 6,
+      "suggested_background": "dark"
+    },
+    {
+      "file": "public/submissions/index-candidates/CWST.svg",
+      "format": "svg",
+      "bytes": 344122,
+      "exists": true,
+      "status": "review",
+      "svg_valid": false,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/index-candidates/WHD.svg",
+      "format": "svg",
+      "bytes": 2187,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/index-candidates/LNTH.svg",
+      "format": "svg",
+      "bytes": 3561,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 1,
+      "suggested_background": "dark"
+    },
+    {
+      "file": "public/submissions/index-candidates/RHP.png",
+      "format": "png",
+      "bytes": 2047,
+      "exists": true,
+      "status": "ok",
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/index-candidates/BBNX.svg",
+      "format": "svg",
+      "bytes": 19627,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 1,
+      "suggested_background": "dark"
+    },
+    {
+      "file": "public/submissions/index-candidates/SLAB.svg",
+      "format": "svg",
+      "bytes": 934,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 2,
+      "suggested_background": "dark"
+    },
+    {
+      "file": "public/submissions/index-candidates/FSS.svg",
+      "format": "svg",
+      "bytes": 927,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/index-candidates/MRCY.svg",
+      "format": "svg",
+      "bytes": 2280,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/index-candidates/KRYS.png",
+      "format": "png",
+      "bytes": 1318,
+      "exists": true,
+      "status": "ok",
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/index-candidates/FCFS.png",
+      "format": "png",
+      "bytes": 10882,
+      "exists": true,
+      "status": "ok",
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/index-candidates/IE.svg",
+      "format": "svg",
+      "bytes": 7763,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/index-candidates/ZYME.svg",
+      "format": "svg",
+      "bytes": 6103,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 1,
+      "suggested_background": "dark"
+    },
+    {
+      "file": "public/submissions/index-candidates/SGRY.svg",
+      "format": "svg",
+      "bytes": 13113,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 1,
+      "suggested_background": "dark"
+    },
+    {
+      "file": "public/submissions/index-candidates/PCVX.svg",
+      "format": "svg",
+      "bytes": 26320,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 1,
+      "suggested_background": "dark"
+    },
+    {
+      "file": "public/submissions/index-candidates/NUVB.svg",
+      "format": "svg",
+      "bytes": 14889,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/index-candidates/CYRX.svg",
+      "format": "svg",
+      "bytes": 227527,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/index-candidates/VAL.svg",
+      "format": "svg",
+      "bytes": 8044,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/index-candidates/DC.svg",
+      "format": "svg",
+      "bytes": 8735014,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/index-candidates/KOPN.svg",
+      "format": "svg",
+      "bytes": 18955,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/index-candidates/MXL.svg",
+      "format": "svg",
+      "bytes": 8663,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/index-candidates/EE.svg",
+      "format": "svg",
+      "bytes": 4353,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 7,
+      "suggested_background": "dark"
+    },
+    {
+      "file": "public/submissions/index-candidates/ALKS.svg",
+      "format": "svg",
+      "bytes": 4488,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 1,
+      "suggested_background": "dark"
+    },
+    {
+      "file": "public/submissions/index-candidates/WOLF.svg",
+      "format": "svg",
+      "bytes": 10300,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 2,
+      "suggested_background": "dark"
+    },
+    {
+      "file": "public/submissions/index-candidates/CYTK.png",
+      "format": "png",
+      "bytes": 323088,
+      "exists": true,
+      "status": "ok",
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/index-candidates/URBN.svg",
+      "format": "svg",
+      "bytes": 3998,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/simple-icons/bootstrap.svg",
+      "format": "svg",
+      "bytes": 854,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/simple-icons/apachekylin.svg",
+      "format": "svg",
+      "bytes": 7202,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/simple-icons/apachelucene.svg",
+      "format": "svg",
+      "bytes": 2145,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/simple-icons/rook.svg",
+      "format": "svg",
+      "bytes": 1376,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/simple-icons/haveibeenpwned.svg",
+      "format": "svg",
+      "bytes": 306,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/simple-icons/openjdk.svg",
+      "format": "svg",
+      "bytes": 1774,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/simple-icons/gnusocial.svg",
+      "format": "svg",
+      "bytes": 1009,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/simple-icons/phosphoricons.svg",
+      "format": "svg",
+      "bytes": 558,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/simple-icons/packagist.svg",
+      "format": "svg",
+      "bytes": 12774,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/simple-icons/apache.svg",
+      "format": "svg",
+      "bytes": 2824,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/simple-icons/javascript.svg",
+      "format": "svg",
+      "bytes": 974,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/simple-icons/apachedolphinscheduler.svg",
+      "format": "svg",
+      "bytes": 2785,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/simple-icons/apacheavro.svg",
+      "format": "svg",
+      "bytes": 868,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/simple-icons/apacheairflow.svg",
+      "format": "svg",
+      "bytes": 2253,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/simple-icons/simpleicons.svg",
+      "format": "svg",
+      "bytes": 357,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/simple-icons/githubcopilot.svg",
+      "format": "svg",
+      "bytes": 1744,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/simple-icons/apachepdfbox.svg",
+      "format": "svg",
+      "bytes": 2066,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/simple-icons/apachetomcat.svg",
+      "format": "svg",
+      "bytes": 3153,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/simple-icons/apachecloudstack.svg",
+      "format": "svg",
+      "bytes": 4614,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/simple-icons/apachedoris.svg",
+      "format": "svg",
+      "bytes": 1214,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/simple-icons/apacherocketmq.svg",
+      "format": "svg",
+      "bytes": 1940,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/simple-icons/saltproject.svg",
+      "format": "svg",
+      "bytes": 152,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/simple-icons/setuptools.svg",
+      "format": "svg",
+      "bytes": 4211,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/simple-icons/gleam.svg",
+      "format": "svg",
+      "bytes": 1466,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/simple-icons/sourcehut.svg",
+      "format": "svg",
+      "bytes": 304,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/simple-icons/apachejmeter.svg",
+      "format": "svg",
+      "bytes": 6542,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/simple-icons/ada.svg",
+      "format": "svg",
+      "bytes": 978,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/simple-icons/apachearrow.svg",
+      "format": "svg",
+      "bytes": 198,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/simple-icons/apachespark.svg",
+      "format": "svg",
+      "bytes": 1842,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/simple-icons/gnubash.svg",
+      "format": "svg",
+      "bytes": 2032,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/simple-icons/sqlalchemy.svg",
+      "format": "svg",
+      "bytes": 2457,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/simple-icons/apachepulsar.svg",
+      "format": "svg",
+      "bytes": 668,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/simple-icons/nanostores.svg",
+      "format": "svg",
+      "bytes": 226,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/simple-icons/hashcat.svg",
+      "format": "svg",
+      "bytes": 844,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/simple-icons/markdown.svg",
+      "format": "svg",
+      "bytes": 401,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/simple-icons/apachehbase.svg",
+      "format": "svg",
+      "bytes": 4890,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/simple-icons/apacheecharts.svg",
+      "format": "svg",
+      "bytes": 756,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/simple-icons/activitypub.svg",
+      "format": "svg",
+      "bytes": 302,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/simple-icons/apacheflink.svg",
+      "format": "svg",
+      "bytes": 11222,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/simple-icons/fluentd.svg",
+      "format": "svg",
+      "bytes": 2048,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/simple-icons/airbrake.svg",
+      "format": "svg",
+      "bytes": 334,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/simple-icons/sanity.svg",
+      "format": "svg",
+      "bytes": 592,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/simple-icons/apachenetbeanside.svg",
+      "format": "svg",
+      "bytes": 1051,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/simple-icons/ajv.svg",
+      "format": "svg",
+      "bytes": 504,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/simple-icons/cheerio.svg",
+      "format": "svg",
+      "bytes": 2263,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/simple-icons/iconify.svg",
+      "format": "svg",
+      "bytes": 1284,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/simple-icons/omarchy.svg",
+      "format": "svg",
+      "bytes": 237,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/simple-icons/gradleplaypublisher.svg",
+      "format": "svg",
+      "bytes": 693,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/simple-icons/apachehive.svg",
+      "format": "svg",
+      "bytes": 6303,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/simple-icons/apachesuperset.svg",
+      "format": "svg",
+      "bytes": 917,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/simple-icons/apachecordova.svg",
+      "format": "svg",
+      "bytes": 675,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/simple-icons/aiohttp.svg",
+      "format": "svg",
+      "bytes": 1454,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/simple-icons/apachenifi.svg",
+      "format": "svg",
+      "bytes": 1314,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/simple-icons/apachegroovy.svg",
+      "format": "svg",
+      "bytes": 4557,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/simple-icons/liberapay.svg",
+      "format": "svg",
+      "bytes": 1064,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/simple-icons/apachedruid.svg",
+      "format": "svg",
+      "bytes": 1676,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/simple-icons/materialdesignicons.svg",
+      "format": "svg",
+      "bytes": 337,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/simple-icons/codeberg.svg",
+      "format": "svg",
+      "bytes": 631,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/simple-icons/apacheparquet.svg",
+      "format": "svg",
+      "bytes": 1881,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/simple-icons/gulp.svg",
+      "format": "svg",
+      "bytes": 6062,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/simple-icons/apacheopenoffice.svg",
+      "format": "svg",
+      "bytes": 926,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/simple-icons/apacheguacamole.svg",
+      "format": "svg",
+      "bytes": 3026,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/simple-icons/apachesolr.svg",
+      "format": "svg",
+      "bytes": 679,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/simple-icons/apachestorm.svg",
+      "format": "svg",
+      "bytes": 1410,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/simple-icons/mantine.svg",
+      "format": "svg",
+      "bytes": 732,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/simple-icons/apachecassandra.svg",
+      "format": "svg",
+      "bytes": 4398,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/simple-icons/apachehadoop.svg",
+      "format": "svg",
+      "bytes": 7616,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/simple-icons/jhipster.svg",
+      "format": "svg",
+      "bytes": 355,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/simple-icons/deno.svg",
+      "format": "svg",
+      "bytes": 1037,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/simple-icons/authelia.svg",
+      "format": "svg",
+      "bytes": 2422,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/simple-icons/apachemaven.svg",
+      "format": "svg",
+      "bytes": 5674,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/simple-icons/apachefreemarker.svg",
+      "format": "svg",
+      "bytes": 2032,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/simple-icons/abdownloadmanager.svg",
+      "format": "svg",
+      "bytes": 1533,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/simple-icons/alacritty.svg",
+      "format": "svg",
+      "bytes": 344,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/simple-icons/sphinx.svg",
+      "format": "svg",
+      "bytes": 1782,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/simple-icons/apachekafka.svg",
+      "format": "svg",
+      "bytes": 2724,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/simple-icons/apachecouchdb.svg",
+      "format": "svg",
+      "bytes": 840,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/simple-icons/apacheant.svg",
+      "format": "svg",
+      "bytes": 5174,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/simple-icons/lobsters.svg",
+      "format": "svg",
+      "bytes": 750,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/simple-icons/conventionalcommits.svg",
+      "format": "svg",
+      "bytes": 286,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/spursmtech/spursmtech-mark.png",
+      "format": "png",
+      "bytes": 27551,
+      "exists": true,
+      "status": "ok",
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/spursmtech/spursmtech-logo-white.png",
+      "format": "png",
+      "bytes": 10011,
+      "exists": true,
+      "status": "ok",
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/spursmtech/spursmtech-logo-color.png",
+      "format": "png",
+      "bytes": 11039,
+      "exists": true,
+      "status": "ok",
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/streaming/kocowa-white-KOCOWA_BI_White.png",
+      "format": "png",
+      "bytes": 2522,
+      "exists": true,
+      "status": "ok",
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/streaming/tidal.svg",
+      "format": "svg",
+      "bytes": 305,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/streaming/hbo-max.svg",
+      "format": "svg",
+      "bytes": 1072,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/streaming/coupang-wow-Coupang WOW Logo_White solid.png",
+      "format": "png",
+      "bytes": 150933,
+      "exists": true,
+      "status": "ok",
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/streaming/kocowa-KOCOWA_BI_Black.png",
+      "format": "png",
+      "bytes": 11739,
+      "exists": true,
+      "status": "ok",
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/streaming/kocowa-grey-KOCOWA_BI_Grey.png",
+      "format": "png",
+      "bytes": 11786,
+      "exists": true,
+      "status": "ok",
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/streaming/apple-tv.svg",
+      "format": "svg",
+      "bytes": 924,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/streaming/max.svg",
+      "format": "svg",
+      "bytes": 807,
+      "exists": true,
+      "status": "ok",
+      "svg_valid": true,
+      "white_paints": 0,
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/official-ci-next/ci-02.png",
+      "format": "png",
+      "bytes": 7694,
+      "exists": true,
+      "status": "ok",
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/official-ci-next/ci-03.png",
+      "format": "png",
+      "bytes": 187,
+      "exists": true,
+      "status": "ok",
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/official-ci-next/ci-01.png",
+      "format": "png",
+      "bytes": 1891,
+      "exists": true,
+      "status": "ok",
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/official-ci-next/ci-10.png",
+      "format": "png",
+      "bytes": 7655,
+      "exists": true,
+      "status": "ok",
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/official-ci-next/ci-04.png",
+      "format": "png",
+      "bytes": 7241,
+      "exists": true,
+      "status": "ok",
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/official-ci-next/ci-05.png",
+      "format": "png",
+      "bytes": 4007,
+      "exists": true,
+      "status": "ok",
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/official-ci-next/ci-07.png",
+      "format": "png",
+      "bytes": 12328,
+      "exists": true,
+      "status": "ok",
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/official-ci-next/ci-06.png",
+      "format": "png",
+      "bytes": 23895,
+      "exists": true,
+      "status": "ok",
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/official-ci-next/ci-08.png",
+      "format": "png",
+      "bytes": 10429,
+      "exists": true,
+      "status": "ok",
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/official-ci-next/ci-09.png",
+      "format": "png",
+      "bytes": 1891,
+      "exists": true,
+      "status": "ok",
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/official-ci/발효미생물산업진흥원.png",
+      "format": "png",
+      "bytes": 2937,
+      "exists": true,
+      "status": "ok",
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/official-ci/성주군별고을장학회.png",
+      "format": "png",
+      "bytes": 1952,
+      "exists": true,
+      "status": "ok",
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/official-ci/시흥시도시재생지원센터.png",
+      "format": "png",
+      "bytes": 55052,
+      "exists": true,
+      "status": "ok",
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/official-ci/사천시미생물발효재단.png",
+      "format": "png",
+      "bytes": 12006,
+      "exists": true,
+      "status": "ok",
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/official-ci/영양군인재육성장학회.png",
+      "format": "png",
+      "bytes": 4675,
+      "exists": true,
+      "status": "ok",
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/spursmtech/partners/ai_partner_11.png",
+      "format": "png",
+      "bytes": 24359,
+      "exists": true,
+      "status": "ok",
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/spursmtech/partners/ai_partner_6.png",
+      "format": "png",
+      "bytes": 12474,
+      "exists": true,
+      "status": "ok",
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/spursmtech/partners/ai_partner_7.png",
+      "format": "png",
+      "bytes": 19339,
+      "exists": true,
+      "status": "ok",
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/spursmtech/partners/ai_partner_4.png",
+      "format": "png",
+      "bytes": 7676,
+      "exists": true,
+      "status": "ok",
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/spursmtech/partners/ai_partner_1.png",
+      "format": "png",
+      "bytes": 13449,
+      "exists": true,
+      "status": "ok",
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/spursmtech/partners/ai_partner_3.png",
+      "format": "png",
+      "bytes": 18244,
+      "exists": true,
+      "status": "ok",
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/spursmtech/partners/ai_partner_2.png",
+      "format": "png",
+      "bytes": 11029,
+      "exists": true,
+      "status": "ok",
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/spursmtech/partners/ai_partner_9.png",
+      "format": "png",
+      "bytes": 3901,
+      "exists": true,
+      "status": "ok",
+      "suggested_background": "light"
+    },
+    {
+      "file": "public/submissions/spursmtech/partners/ai_partner_8.png",
+      "format": "png",
+      "bytes": 18382,
+      "exists": true,
+      "status": "ok",
+      "suggested_background": "light"
+    }
+  ]
+}
