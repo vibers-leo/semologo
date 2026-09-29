@@ -284,10 +284,9 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
   const isLightLogo = bgOverride ? bgOverride === "dark" : !!(brand.light || brand.light_logo || brand.dark_variant === "white");
   const toggleBg = async (e: React.MouseEvent) => {
     e.stopPropagation();
-    if (!isAdmin) return;
     const next: "dark" | "light" = isLightLogo ? "light" : "dark";
     try {
-      await setDoc(doc(getClientDb(), "logo_votes", brand.id), { bg: next, bg_by: ADMIN_EMAIL }, { merge: true });
+      await setDoc(doc(getClientDb(), "logo_votes", brand.id), { bg: next, bg_by: getClientAuth().currentUser?.email || "public-vote" }, { merge: true });
       setBgOverride(next);
       toast(next === "dark" ? "검정 배경으로 메인 노출 · 다음 배포에 반영" : "흰 배경으로 되돌림");
     } catch { toast("저장 실패 — 다시 시도해 주세요"); }
@@ -784,9 +783,9 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
           </div>
 
           {/* 다크 프리뷰 — 관리자는 클릭해서 "검정 배경으로 메인 노출"을 지정한다 */}
-          <div style={{ borderRadius:8, overflow:"hidden", cursor: isAdmin ? "pointer" : undefined, outline: bgOverride ? "2px solid #22c55e" : undefined }}
-               onClick={isAdmin ? toggleBg : undefined}
-               title={isAdmin ? (isLightLogo ? "클릭: 흰 배경으로 되돌리기" : "클릭: 검정 배경으로 메인 노출") : undefined}>
+          <div style={{ borderRadius:8, overflow:"hidden", cursor: "pointer", outline: bgOverride ? "2px solid #22c55e" : undefined }}
+               onClick={toggleBg}
+               title={isLightLogo ? "클릭: 흰 배경으로 되돌리기" : "클릭: 검정 배경으로 메인 노출"}>
             <div style={{ ...(invertedUrl ? { background:"#111114" } : getDarkPreviewStyle(visibility)), position:"relative", height:72 }}>
               {bgOverride && (
                 <span style={{ position:"absolute", top:4, right:6, fontSize:10, fontWeight:700, padding:"1px 6px", borderRadius:8, background: bgOverride === "dark" ? "#22c55e" : "#e4e4e7", color: bgOverride === "dark" ? "#fff" : "#52525b" }}>
@@ -860,12 +859,12 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
           {/* 인트로 라이트/다크 — 배경별로 어떻게 보이는지 확인용 */}
           <div style={{ display:"grid", gridTemplateColumns:"1fr 1fr", borderRadius:12, overflow:"hidden", height:132, marginBottom:16 }}>
             <LogoBox src={previewUrl} alt={en ? brand.name_en || brand.name_ko : brand.name_ko} height={132} padding={18} bg={isLightLogo ? "dark" : "white"} fallback={pngUrl} />
-            <div style={{ ...(invertedUrl ? { background:"#111114" } : getDarkPreviewStyle(visibility)), position:"relative", height:132, cursor: isAdmin ? "pointer" : undefined, outline: bgOverride ? "2px solid #22c55e" : undefined, outlineOffset: -2 }}
-                 onClick={isAdmin ? toggleBg : undefined}
-                 title={isAdmin ? (isLightLogo ? "클릭: 흰 배경으로 되돌리기" : "클릭: 검정 배경으로 메인 노출") : undefined}>
+            <div style={{ ...(invertedUrl ? { background:"#111114" } : getDarkPreviewStyle(visibility)), position:"relative", height:132, cursor: "pointer", outline: bgOverride ? "2px solid #22c55e" : undefined, outlineOffset: -2 }}
+                 onClick={toggleBg}
+                 title={isLightLogo ? "클릭: 흰 배경으로 되돌리기" : "클릭: 검정 배경으로 메인 노출"}>
               {/* 관리자 지정 지점 — 사용자가 "상단 오른쪽 검정 패널을 클릭하면 검정 메인"을 원했다(2026-09-04).
                   라벨은 로그인 복원 뒤에만 뜨므로 '라벨이 보이면 누를 수 있다'는 신호도 된다. */}
-              {isAdmin && (
+              {(
                 <span style={{ position:"absolute", top:8, right:10, fontSize:11, fontWeight:700, padding:"3px 9px", borderRadius:10, pointerEvents:"none",
                                background: bgOverride === "dark" ? "#22c55e" : "rgba(255,255,255,.92)", color: bgOverride === "dark" ? "#fff" : "#18181b", border:"1px solid rgba(0,0,0,.15)" }}>
                   {bgOverride === "dark" ? "📌 검정 메인 · 클릭하면 해제" : isLightLogo ? "↩ 흰 배경으로" : "▶ 검정 배경으로 메인 노출"}
