@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-09-24",
+  "updated_at": "2026-09-30",
   "sources": [
     {
       "id": "getlogo-kr",
@@ -33,6 +33,30 @@
       "kind": "official",
       "priority": 1,
       "strategy": "CI·BI·브랜드 가이드·로고 다운로드 페이지에서 SVG·AI·EPS·PNG·ZIP 원본 보존"
+    },
+    {
+      "id": "kogl-open-license",
+      "name": "공공누리",
+      "url": "https://www.kogl.or.kr/",
+      "kind": "public-license-catalog",
+      "priority": 2,
+      "strategy": "공공기관 CI·캐릭터 검색 후 공공누리 이용조건과 기관 공식 원본을 함께 검수; 라이선스 확인 전 공개하지 않음"
+    },
+    {
+      "id": "krx-listed-company-info",
+      "name": "한국거래소 상장법인 정보",
+      "url": "https://global.krx.co.kr/contents/GLB/05/0501/0501010000/GLB0501010000.jsp",
+      "kind": "official-registry",
+      "priority": 2,
+      "strategy": "상장사 목록을 기준으로 공식 홈페이지 CI/브랜드 가이드 URL을 탐색하고 원본 SVG·PNG만 출처와 함께 자산화"
+    },
+    {
+      "id": "simple-icons",
+      "name": "Simple Icons",
+      "url": "https://github.com/simple-icons/simple-icons",
+      "kind": "github-open-source",
+      "priority": 2,
+      "strategy": "CC0 코드 저장소의 아이콘과 개별 브랜드 라이선스·출처를 확인한 뒤 SVG 우선 수집"
     }
   ]
 }
