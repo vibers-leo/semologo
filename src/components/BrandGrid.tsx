@@ -10,6 +10,7 @@ import { loadFlaggedIds } from "@/lib/logo-quality";
 import { trackEvent } from "@/lib/analytics";
 import BrandModal from "./BrandModal";
 import { useSearch } from "@/lib/search-context";
+import { listPublishedLogoPosts, type LogoPost } from "@/lib/logo-posts";
 
 const AdSlot = dynamic(() => import("./AdSlot"), { ssr: false });
 
@@ -51,6 +52,19 @@ export default function BrandGrid({
   const [loadError, setLoadError] = useState(false);
   const [catalogLoading, setCatalogLoading] = useState(false);
   const [catalogStats, setCatalogStats] = useState<CatalogStats | null>(initialCatalogStats);
+  // 신규 CMS 게시물은 코드 배포 없이 클라이언트에서 병합한다.
+  useEffect(() => {
+    let alive = true;
+    listPublishedLogoPosts().then((posts: LogoPost[]) => {
+      if (!alive || !posts.length) return;
+      setBrands(prev => {
+        const map = new Map(prev.map(brand => [brand.id, brand]));
+        for (const post of posts) map.set(post.id, post);
+        return [...map.values()];
+      });
+    }).catch(() => {});
+    return () => { alive = false; };
+  }, []);
   const [resultTotal, setResultTotal] = useState(initialCatalogStats?.visible ?? initialBrands.length);
   const allCatalogCount = catalogStats?.visible ?? resultTotal;
   const [selected, setSelected] = useState<Brand | null>(null);
