@@ -40,6 +40,11 @@ export async function listPublishedLogoPosts(): Promise<LogoPost[]> {
     .filter(post => post.status === "published");
 }
 
+export async function listLogoPosts(): Promise<LogoPost[]> {
+  const snap = await getDocs(query(collection(getClientDb(), LOGO_POSTS_COLLECTION), orderBy("updated_at", "desc")));
+  return snap.docs.map(d => d.data() as LogoPost);
+}
+
 export async function saveLogoPost(post: LogoPost): Promise<void> {
   await setDoc(doc(getClientDb(), LOGO_POSTS_COLLECTION, post.id), {
     ...post,
