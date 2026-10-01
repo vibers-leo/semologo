@@ -1,5 +1,4 @@
 import { NextRequest, NextResponse } from "next/server";
-import { redis } from "@/lib/redis";
 
 /**
  * 브랜드 히트 수집. 순위(인기순 정렬)의 원천 데이터다.
@@ -28,9 +27,6 @@ const COOLDOWN = 600;    // 같은 세션·브랜드·종류 재카운트 방지
 const IP_LIMIT = 120;    // IP 당 분당 히트 상한
 
 export async function POST(req: NextRequest) {
-  const r = redis();
-  if (!r) return NextResponse.json({ ok: false, reason: "no_redis" });
-
   const ua = req.headers.get("user-agent") ?? "";
   if (BOT.test(ua)) return NextResponse.json({ ok: false, reason: "bot" });
 
@@ -49,30 +45,6 @@ export async function POST(req: NextRequest) {
   const ip = (req.headers.get("cf-connecting-ip") || req.headers.get("x-forwarded-for") || "0")
     .split(",")[0].trim();
 
-  try {
-    // ③ IP 상한 — 넘으면 조용히 무시한다(공격자에게 알려줄 필요 없다)
-    const ipKey = `rl:${ip}:${Math.floor(Date.now() / 60000)}`;
-    const n = await r.incr(ipKey);
-    if (n === 1) await r.expire(ipKey, 120);
-    if (n > IP_LIMIT) return NextResponse.json({ ok: false, reason: "rate" });
-
-    // ② 세션 중복 — sid 가 없으면 IP 로 대체한다
-    const dedupe = `dq:${sid || ip}:${type}:${id}`;
-    const fresh = await r.set(dedupe, "1", "EX", COOLDOWN, "NX");
-    if (!fresh) return NextResponse.json({ ok: true, counted: false });
-
-    const day = new Date().toISOString().slice(0, 10).replace(/-/g, "");
-    await r.multi()
-      .zincrby("fame:total", w, id)        // 누적 점수 (정렬에 쓴다)
-      .zincrby(`fame:d:${day}`, w, id)     // 일별 — 나중에 시간 감쇠·급상승에 쓴다
-      .expire(`fame:d:${day}`, 60 * 60 * 24 * 90)
-      .hincrby(`hits:${id}`, type!, 1)     // 종류별 원본 카운트(관리자 확인용)
-      .exec();
-
-    return NextResponse.json({ ok: true, counted: true });
-  } catch (e) {
-    // 실패를 성공처럼 넘기지 않는다 — 로그에 남겨야 '왜 순위가 안 오르지'를 추적할 수 있다
-    console.error("[hit]", (e as Error).message.slice(0, 120));
-    return NextResponse.json({ ok: false, reason: "redis_error" });
-  }
+  // 인기순은 PostgreSQL/GA4 집계로 대체한다. Redis 없이도 이벤트 호출은 성공 처리한다.
+  return NextResponse.json({ ok: true, counted: false, reason: "redis_disabled" });
 }

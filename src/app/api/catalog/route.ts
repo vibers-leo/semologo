@@ -1,7 +1,6 @@
 import { createHash } from "node:crypto";
 import { NextRequest, NextResponse } from "next/server";
 import { fetchBrandsSlim, sortForGrid, type Brand } from "@/lib/brands";
-import { redis } from "@/lib/redis";
 import { isChoseongQuery, choseongIndex } from "@/lib/hangul";
 import { VERSION } from "@/lib/cdn";
 import { SUBMITTED_BRANDS } from "@/lib/submissions";
@@ -21,18 +20,7 @@ let scoreCache: { at: number; scores: Record<string, number> } | null = null;
 const sortedCache = new Map<string, { at: number; brands: Brand[] }>();
 
 async function popularityScores(): Promise<Record<string, number>> {
-  if (scoreCache && Date.now() - scoreCache.at < POPULARITY_TTL) return scoreCache.scores;
-  const client = redis();
-  if (!client) return {};
-  try {
-    const flat = await client.zrevrange("fame:total", 0, 2999, "WITHSCORES");
-    const scores: Record<string, number> = {};
-    for (let i = 0; i < flat.length; i += 2) scores[flat[i]] = Number(flat[i + 1]);
-    scoreCache = { at: Date.now(), scores };
-    return scores;
-  } catch {
-    return {};
-  }
+  return {};
 }
 
 function pageCacheKey(input: {
@@ -82,20 +70,6 @@ export async function GET(request: NextRequest) {
     : null;
 
   try {
-    const client = pageKey ? redis() : null;
-    if (client && pageKey) {
-      try {
-        const cached = await client.get(pageKey);
-        if (cached) {
-          const payload = JSON.parse(cached) as { brands?: unknown; total?: unknown };
-          if (Array.isArray(payload.brands) && typeof payload.total === "number") {
-            return NextResponse.json(payload, { headers: { "Cache-Control": "private, no-store" } });
-          }
-        }
-      } catch {
-        // Cache failures and malformed entries fall through to the source catalog.
-      }
-    }
     const catalog = await fetchBrandsSlim();
     const known = new Set(catalog.map(brand => brand.id));
     const submitted = SUBMITTED_BRANDS.filter(brand => !known.has(brand.id));
@@ -133,33 +107,6 @@ export async function GET(request: NextRequest) {
       limit,
       hasMore: offset + limit < matches.length,
     };
-    if (pageKey) {
-      const client = redis();
-      if (client) {
-        const pipeline = client.pipeline();
-        pipeline.set(pageKey, JSON.stringify(payload), "EX", PAGE_CACHE_TTL_SECONDS);
-
-        // The first request already has the full sorted catalog in memory. Use it
-        // to warm the next 19 normal browse pages together, so scrolling does not
-        // trigger another full-catalog fetch/sort for every 60-brand page.
-        if (offset === 0 && limit === 60 && categories.size === 0 && !origin && !svgOnly) {
-          for (let pageIndex = 1; pageIndex < PREFETCH_PAGE_COUNT; pageIndex++) {
-            const pageOffset = pageIndex * limit;
-            if (pageOffset >= matches.length) break;
-            const nextPayload = {
-              brands: matches.slice(pageOffset, pageOffset + limit),
-              total: matches.length,
-              offset: pageOffset,
-              limit,
-              hasMore: pageOffset + limit < matches.length,
-            };
-            const nextKey = pageCacheKey({ mode, offset: pageOffset, limit, categories, origin, svgOnly });
-            pipeline.set(nextKey, JSON.stringify(nextPayload), "EX", PAGE_CACHE_TTL_SECONDS);
-          }
-        }
-        pipeline.exec().catch(() => {});
-      }
-    }
     return NextResponse.json(payload, { headers: { "Cache-Control": "private, no-store" } });
   } catch (error) {
     console.error("[catalog]", error instanceof Error ? error.message.slice(0, 160) : "unknown error");

@@ -1,5 +1,4 @@
 import { NextResponse } from "next/server";
-import { redis } from "@/lib/redis";
 
 /**
  * 히트 기반 인기 점수를 내려준다. 그리드가 이 값으로 정렬한다.
@@ -23,18 +22,5 @@ export async function GET() {
   if (cache && Date.now() - cache.at < TTL * 1000) {
     return NextResponse.json({ scores: cache.data, cached: true });
   }
-  const r = redis();
-  if (!r) return NextResponse.json({ scores: {}, reason: "no_redis" });
-  try {
-    // 점수 높은 순 상위 N — WITHSCORES 로 한 번에 받는다
-    const flat = await r.zrevrange("fame:total", 0, TOP_N - 1, "WITHSCORES");
-    const scores: Record<string, number> = {};
-    for (let i = 0; i < flat.length; i += 2) scores[flat[i]] = Number(flat[i + 1]);
-    cache = { at: Date.now(), data: scores };
-    return NextResponse.json({ scores, count: Object.keys(scores).length });
-  } catch (e) {
-    console.error("[popularity]", (e as Error).message.slice(0, 120));
-    // 빈 결과와 실패를 구분해서 보낸다 — 클라이언트는 어느 쪽이든 fame 으로 폴백한다
-    return NextResponse.json({ scores: {}, reason: "redis_error" });
-  }
+  return NextResponse.json({ scores: {}, reason: "fame_fallback" });
 }
