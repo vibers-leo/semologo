@@ -334,3 +334,9 @@ export function sortForGrid(
       return byDate !== 0 ? byDate : seqOf(b) - seqOf(a);
     });
 }
+
+/** 검색 색인에 올릴 수 있는 최소 품질 기준. 빈/깨진 자산과 변형 중복은 sitemap에서 제외한다. */
+export function isIndexableBrand(brand: Brand): boolean {
+  const hasAsset = typeof brand.logo_svg === "string" || typeof brand.logo_png === "string" || brand.logo_svg === true || brand.logo_png === true;
+  return !brand.hidden && !brand.variant_of && Boolean(brand.id && brand.name_ko) && hasAsset;
+}

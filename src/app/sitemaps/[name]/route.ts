@@ -1,4 +1,4 @@
-import { fetchBrandsSlim } from "@/lib/brands";
+import { fetchBrandsSlim, isIndexableBrand } from "@/lib/brands";
 
 export const dynamic = "force-dynamic";
 export const revalidate = 3600;
@@ -13,7 +13,7 @@ export async function GET(_: Request, { params }: { params: Promise<{ name: stri
   if (!m) return new Response("Not found", { status: 404 });
   const locale = m[1];
   const page = Number(m[2]);
-  const brands = (await fetchBrandsSlim()).filter((b) => !b.variant_of && !b.hidden);
+  const brands = (await fetchBrandsSlim()).filter(isIndexableBrand);
   const entries = brands.slice(page * CHUNK, (page + 1) * CHUNK);
   if (!entries.length && page !== 0) return new Response("Not found", { status: 404 });
   const prefix = locale === "en" ? "/en" : "";

@@ -1,7 +1,7 @@
 import { languageAlternates, localePath, type Locale } from "@/lib/locales";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { fetchBrand, fetchBrandsSlim, fetchCategoryPeers } from "@/lib/brands";
+import { fetchBrand, fetchBrandsSlim, fetchCategoryPeers, isIndexableBrand } from "@/lib/brands";
 import { CDN } from "@/lib/cdn";
 import Header from "@/components/Header";
 import BrandDetailClient from "./BrandDetailClient";
@@ -25,7 +25,7 @@ const PRERENDER = 700;
 export async function generateStaticParams() {
   const brands = await fetchBrandsSlim();
   return brands
-    .filter((b) => !b.variant_of && !b.hidden)
+    .filter(isIndexableBrand)
     .sort((a, b) => (b.added_at ?? "").localeCompare(a.added_at ?? ""))
     .slice(0, PRERENDER)
     .map((b) => ({ id: b.id }));
