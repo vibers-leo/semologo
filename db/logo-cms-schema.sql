@@ -1,26 +1,22 @@
-CREATE TABLE IF NOT EXISTS logo_posts (
+-- NCP Vibers PostgreSQL: semologo owns an isolated schema so the legacy
+-- application tables remain untouched during the CMS migration.
+CREATE SCHEMA IF NOT EXISTS semologo;
+
+CREATE TABLE IF NOT EXISTS semologo.logo_posts (
   id text PRIMARY KEY,
-  name_ko text NOT NULL,
-  name_en text,
-  category text NOT NULL DEFAULT '기타',
-  origin text CHECK (origin IN ('KR','GLOBAL')),
+  payload jsonb NOT NULL,
   status text NOT NULL DEFAULT 'draft' CHECK (status IN ('draft','published','archived')),
-  logo_svg text,
-  logo_png text,
-  website text,
-  official_source_page text,
-  asset_origin text,
-  tags jsonb NOT NULL DEFAULT '[]'::jsonb,
-  related_ids jsonb NOT NULL DEFAULT '[]'::jsonb,
-  sources jsonb NOT NULL DEFAULT '[]'::jsonb,
-  metadata jsonb NOT NULL DEFAULT '{}'::jsonb,
-  migration_batch text,
-  legacy_source text,
-  asset_review_status text NOT NULL DEFAULT 'pending',
-  created_at timestamptz NOT NULL DEFAULT now(),
   updated_at timestamptz NOT NULL DEFAULT now(),
-  published_at timestamptz
+  created_at timestamptz NOT NULL DEFAULT now()
 );
-CREATE INDEX IF NOT EXISTS logo_posts_status_updated_idx ON logo_posts(status, updated_at DESC);
-CREATE INDEX IF NOT EXISTS logo_posts_name_ko_idx ON logo_posts USING gin (to_tsvector('simple', name_ko));
-CREATE INDEX IF NOT EXISTS logo_posts_category_idx ON logo_posts(category);
+
+-- JSON staging keeps the 182k-record legacy export lossless. Validate counts
+-- and payload IDs before promoting into logo_posts.
+CREATE TABLE IF NOT EXISTS semologo.logo_posts_staging (
+  id text PRIMARY KEY,
+  payload jsonb NOT NULL,
+  imported_at timestamptz NOT NULL DEFAULT now()
+);
+
+CREATE INDEX IF NOT EXISTS logo_posts_status_updated_idx ON semologo.logo_posts(status, updated_at DESC);
+CREATE INDEX IF NOT EXISTS logo_posts_payload_idx ON semologo.logo_posts USING gin (payload);
