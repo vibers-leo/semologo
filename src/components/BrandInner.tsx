@@ -288,7 +288,8 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
     try {
       await setDoc(doc(getClientDb(), "logo_votes", brand.id), { bg: next, bg_by: getClientAuth().currentUser?.email || "public-vote" }, { merge: true });
       setBgOverride(next);
-      toast(next === "dark" ? "검정 배경으로 메인 노출 · 다음 배포에 반영" : "흰 배경으로 되돌림");
+      window.dispatchEvent(new CustomEvent("semologo:bg-vote", { detail: { brandId: brand.id, bg: next } }));
+      toast(next === "dark" ? "검정 배경으로 메인 노출" : "흰 배경으로 되돌림");
     } catch { toast("저장 실패 — 다시 시도해 주세요"); }
   };
   const DARK_TILE: React.CSSProperties = { background: "#18181b", backgroundImage: "none" };
@@ -410,8 +411,8 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
           }
           setVotes(decoded);
           if (data.swap_pending) setSwapTarget(data.swap_target || null);
-          // 관리자가 찍은 배경 지정. bg_by 가 관리자가 아니면 무시 — 규칙이 write:true 라 누구나 쓸 수 있다.
-          if ((data.bg === "dark" || data.bg === "light") && data.bg_by === "juuuno1116@gmail.com") setBgOverride(data.bg);
+          // 공개 배경 투표 결과를 사용한다. 마지막 투표가 대표 배경이 된다.
+          if (data.bg === "dark" || data.bg === "light") setBgOverride(data.bg);
         }
         if (sSnap.exists()) setShareFeed(sSnap.data().recent || []);
       } catch {}

@@ -71,6 +71,16 @@ export default function BrandGrid({
   const [hits, setHits] = useState<Record<string, number>>({});
   // '교체 필요'로 신고된 브랜드 — 인기순에서만 뒤로 보낸다(목록엔 남는다)
   const [flagged, setFlagged] = useState<Set<string>>(new Set());
+  // 모달에서 저장한 공개 배경 투표를 같은 화면의 카드에도 즉시 반영한다.
+  const [bgVotes, setBgVotes] = useState<Record<string, "dark" | "light">>({});
+  useEffect(() => {
+    const onBgVote = (event: Event) => {
+      const detail = (event as CustomEvent<{ brandId?: string; bg?: "dark" | "light" }>).detail;
+      if (detail?.brandId && detail.bg) setBgVotes(prev => ({ ...prev, [detail.brandId!]: detail.bg! }));
+    };
+    window.addEventListener("semologo:bg-vote", onBgVote);
+    return () => window.removeEventListener("semologo:bg-vote", onBgVote);
+  }, []);
   useEffect(() => {
     let alive = true;
     loadFlaggedIds()
@@ -446,6 +456,7 @@ export default function BrandGrid({
             <BrandCard
               key={brand.id}
               brand={brand}
+              bgVote={bgVotes[brand.id]}
               onClick={() => {
                 setSelected(brand);
                 history.replaceState(null, "", path(`/brand/${brand.id}`));
@@ -511,7 +522,7 @@ export default function BrandGrid({
   );
 }
 
-function BrandCard({ brand, onClick, priority }: { brand: Brand; onClick: () => void; priority: boolean }) {
+function BrandCard({ brand, onClick, priority, bgVote }: { brand: Brand; onClick: () => void; priority: boolean; bgVote?: "dark" | "light" }) {
   const {en, t} = useLocale();
   const svgUrl = typeof brand.logo_svg === "string" && brand.logo_svg.startsWith("/")
     ? `${brand.logo_svg}?v=${VERSION}`
@@ -530,7 +541,7 @@ function BrandCard({ brand, onClick, priority }: { brand: Brand; onClick: () => 
   return (
     <div className="logo-card" onClick={() => { trackEvent("brand_opened", { brand_id: brand.id, category: brand.category || "기타" }); sendHit(brand.id, "view"); onClick(); }}>
       {/* 흰색 로고는 밝은 체커 배경에서 안 보여 '빈 카드'처럼 된다 → 어두운 배경 */}
-      <div className="card-preview" style={(brand.light || brand.light_logo || brand.dark_variant === "white") ? { background: "#18181b", backgroundImage: "none" } : undefined}>
+              <div className="card-preview" style={(bgVote === "dark" || (!bgVote && (brand.light || brand.light_logo || brand.dark_variant === "white"))) ? { background: "#18181b", backgroundImage: "none" } : undefined}>
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img src={initSrc} alt={en ? brand.name_en || brand.name_ko : brand.name_ko} width={320} height={180}
           decoding="async" fetchPriority={priority ? "high" : "auto"} loading={priority ? "eager" : "lazy"}
