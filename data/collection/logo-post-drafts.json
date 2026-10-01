@@ -253,6 +253,17 @@
     "asset_origin": "Russell 2000 공식 도메인 후보 · 관리자 검수 대기"
   },
   {
+    "id": "us-russell-2000-arhs",
+    "name_ko": "ARHS",
+    "name_en": "ARHS",
+    "category": "서비스·기업",
+    "origin": "GLOBAL",
+    "status": "draft",
+    "logo_svg": "/submissions/index-candidates/ARHS.svg",
+    "logo_png": null,
+    "asset_origin": "Russell 2000 공식 도메인 후보 · 관리자 검수 대기"
+  },
+  {
     "id": "us-russell-2000-arlo",
     "name_ko": "ARLO",
     "name_en": "ARLO",
@@ -1353,6 +1364,17 @@
     "asset_origin": "Russell 2000 공식 도메인 후보 · 관리자 검수 대기"
   },
   {
+    "id": "us-russell-2000-genb",
+    "name_ko": "GENB",
+    "name_en": "GENB",
+    "category": "서비스·기업",
+    "origin": "GLOBAL",
+    "status": "draft",
+    "logo_svg": "/submissions/index-candidates/GENB.svg",
+    "logo_png": null,
+    "asset_origin": "Russell 2000 공식 도메인 후보 · 관리자 검수 대기"
+  },
+  {
     "id": "us-russell-2000-geni",
     "name_ko": "GENI",
     "name_en": "GENI",
@@ -1888,6 +1910,17 @@
     "origin": "GLOBAL",
     "status": "draft",
     "logo_svg": "/submissions/index-candidates/LCUT.svg",
+    "logo_png": null,
+    "asset_origin": "Russell 2000 공식 도메인 후보 · 관리자 검수 대기"
+  },
+  {
+    "id": "us-russell-2000-lif",
+    "name_ko": "LIF",
+    "name_en": "LIF",
+    "category": "서비스·기업",
+    "origin": "GLOBAL",
+    "status": "draft",
+    "logo_svg": "/submissions/index-candidates/LIF.svg",
     "logo_png": null,
     "asset_origin": "Russell 2000 공식 도메인 후보 · 관리자 검수 대기"
   },

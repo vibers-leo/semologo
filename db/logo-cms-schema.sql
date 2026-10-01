@@ -13,6 +13,10 @@ CREATE TABLE IF NOT EXISTS logo_posts (
   tags jsonb NOT NULL DEFAULT '[]'::jsonb,
   related_ids jsonb NOT NULL DEFAULT '[]'::jsonb,
   sources jsonb NOT NULL DEFAULT '[]'::jsonb,
+  metadata jsonb NOT NULL DEFAULT '{}'::jsonb,
+  migration_batch text,
+  legacy_source text,
+  asset_review_status text NOT NULL DEFAULT 'pending',
   created_at timestamptz NOT NULL DEFAULT now(),
   updated_at timestamptz NOT NULL DEFAULT now(),
   published_at timestamptz
