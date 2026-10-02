@@ -107,7 +107,13 @@ export async function GET(request: NextRequest) {
       limit,
       hasMore: offset + limit < matches.length,
     };
-    return NextResponse.json(payload, { headers: { "Cache-Control": "private, no-store" } });
+    // Catalog pages are immutable for the current VERSION and safe to cache at
+    // the edge. Search results remain short-lived, while browse pages avoid
+    // repeatedly parsing the 34 MB slim catalog on every scroll request.
+    const cacheControl = query
+      ? "private, max-age=15, stale-while-revalidate=30"
+      : "public, max-age=30, s-maxage=300, stale-while-revalidate=86400";
+    return NextResponse.json(payload, { headers: { "Cache-Control": cacheControl } });
   } catch (error) {
     console.error("[catalog]", error instanceof Error ? error.message.slice(0, 160) : "unknown error");
     return NextResponse.json({ error: "catalog_unavailable" }, { status: 503 });
