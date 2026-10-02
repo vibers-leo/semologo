@@ -18,7 +18,8 @@ export async function GET(_: Request, { params }: { params: Promise<{ name: stri
   if (!entries.length && page !== 0) return new Response("Not found", { status: 404 });
   const prefix = locale === "en" ? "/en" : "";
   const fixed = page === 0 ? core.map((p) => `${BASE}${prefix}${p}`) : [];
-  const urls = [...fixed, ...entries.map((b) => `${BASE}${prefix}/brand/${encodeURIComponent(b.id)}`)];
-  const body = `<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${urls.map((u) => `<url><loc>${esc(u)}</loc></url>`).join("")}</urlset>`;
+  const urls = entries.map((b) => `<url><loc>${esc(`${BASE}${prefix}/brand/${encodeURIComponent(b.id)}`)}</loc>${b.added_at ? `<lastmod>${esc(b.added_at.slice(0, 10))}</lastmod>` : ""}</url>`);
+  const fixedUrls = fixed.map((u) => `<url><loc>${esc(u)}</loc></url>`);
+  const body = `<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${[...fixedUrls, ...urls].join("")}</urlset>`;
   return new Response(body, { headers: { "content-type": "application/xml; charset=utf-8", "cache-control": "public, max-age=300, s-maxage=3600, stale-while-revalidate=86400" } });
 }
