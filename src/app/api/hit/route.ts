@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
+import { Pool } from "pg";
 
 /**
  * 브랜드 히트 수집. 순위(인기순 정렬)의 원천 데이터다.
@@ -26,6 +27,13 @@ const BOT = /bot|crawler|spider|crawling|headless|preview|scan|curl|wget|python-
 const COOLDOWN = 600;    // 같은 세션·브랜드·종류 재카운트 방지(초)
 const IP_LIMIT = 120;    // IP 당 분당 히트 상한
 
+let pool: Pool | null = null;
+function getPool() {
+  if (!process.env.DB_VIBERS_MAIN_URL) return null;
+  pool ??= new Pool({ connectionString: process.env.DB_VIBERS_MAIN_URL, max: 3, idleTimeoutMillis: 10_000 });
+  return pool;
+}
+
 export async function POST(req: NextRequest) {
   const ua = req.headers.get("user-agent") ?? "";
   if (BOT.test(ua)) return NextResponse.json({ ok: false, reason: "bot" });
@@ -45,6 +53,16 @@ export async function POST(req: NextRequest) {
   const ip = (req.headers.get("cf-connecting-ip") || req.headers.get("x-forwarded-for") || "0")
     .split(",")[0].trim();
 
-  // 인기순은 PostgreSQL/GA4 집계로 대체한다. Redis 없이도 이벤트 호출은 성공 처리한다.
-  return NextResponse.json({ ok: true, counted: false, reason: "redis_disabled" });
+  const db = getPool();
+  if (!db) return NextResponse.json({ ok: true, counted: false, reason: "db_disabled" });
+  try {
+    await db.query(`INSERT INTO semologo.logo_hits (brand_id, hit_type, hit_count)
+      VALUES ($1, $2, 1)
+      ON CONFLICT (brand_id, hit_type)
+      DO UPDATE SET hit_count = semologo.logo_hits.hit_count + 1, updated_at = now()`, [id, type]);
+    return NextResponse.json({ ok: true, counted: true });
+  } catch (error) {
+    console.error("logo hit write failed", error);
+    return NextResponse.json({ ok: true, counted: false, reason: "db_error" });
+  }
 }

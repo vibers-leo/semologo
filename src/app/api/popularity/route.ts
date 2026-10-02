@@ -1,4 +1,5 @@
 import { NextResponse } from "next/server";
+import { Pool } from "pg";
 
 /**
  * 히트 기반 인기 점수를 내려준다. 그리드가 이 값으로 정렬한다.
@@ -17,10 +18,30 @@ const TOP_N = 3000;
 const TTL = 600;                          // 10분 — 순위는 실시간일 필요가 없다
 
 let cache: { at: number; data: Record<string, number> } | null = null;
+let pool: Pool | null = null;
+function getPool() {
+  if (!process.env.DB_VIBERS_MAIN_URL) return null;
+  pool ??= new Pool({ connectionString: process.env.DB_VIBERS_MAIN_URL, max: 2, idleTimeoutMillis: 10_000 });
+  return pool;
+}
 
 export async function GET() {
   if (cache && Date.now() - cache.at < TTL * 1000) {
     return NextResponse.json({ scores: cache.data, cached: true });
   }
-  return NextResponse.json({ scores: {}, reason: "fame_fallback" });
+  const db = getPool();
+  if (!db) return NextResponse.json({ scores: {}, reason: "fame_fallback" });
+  try {
+    const result = await db.query(`SELECT brand_id,
+      SUM(hit_count * CASE hit_type WHEN 'download' THEN 10 WHEN 'ad' THEN 5
+        WHEN 'view' THEN 3 WHEN 'search' THEN 2 WHEN 'dwell' THEN 2 ELSE 0 END)::bigint AS score
+      FROM semologo.logo_hits GROUP BY brand_id
+      ORDER BY score DESC LIMIT $1`, [TOP_N]);
+    const scores = Object.fromEntries(result.rows.map(row => [row.brand_id, Number(row.score)]));
+    cache = { at: Date.now(), data: scores };
+    return NextResponse.json({ scores, cached: false });
+  } catch (error) {
+    console.error("logo popularity read failed", error);
+    return NextResponse.json({ scores: {}, reason: "fame_fallback" });
+  }
 }

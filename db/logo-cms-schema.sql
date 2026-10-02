@@ -20,3 +20,14 @@ CREATE TABLE IF NOT EXISTS semologo.logo_posts_staging (
 
 CREATE INDEX IF NOT EXISTS logo_posts_status_updated_idx ON semologo.logo_posts(status, updated_at DESC);
 CREATE INDEX IF NOT EXISTS logo_posts_payload_idx ON semologo.logo_posts USING gin (payload);
+
+-- Redis replacement for popularity counters. One row per brand/event type keeps
+-- writes small and makes ranking a single indexed aggregate query.
+CREATE TABLE IF NOT EXISTS semologo.logo_hits (
+  brand_id text NOT NULL,
+  hit_type text NOT NULL,
+  hit_count bigint NOT NULL DEFAULT 0,
+  updated_at timestamptz NOT NULL DEFAULT now(),
+  PRIMARY KEY (brand_id, hit_type)
+);
+CREATE INDEX IF NOT EXISTS logo_hits_updated_idx ON semologo.logo_hits(updated_at DESC);

@@ -1,5 +1,6 @@
 import { createHash } from "node:crypto";
 import { NextRequest, NextResponse } from "next/server";
+import { Pool } from "pg";
 import { fetchBrandsSlim, sortForGrid, type Brand } from "@/lib/brands";
 import { isChoseongQuery, choseongIndex } from "@/lib/hangul";
 import { VERSION } from "@/lib/cdn";
@@ -18,9 +19,29 @@ const PREFETCH_PAGE_COUNT = 20;
 
 let scoreCache: { at: number; scores: Record<string, number> } | null = null;
 const sortedCache = new Map<string, { at: number; brands: Brand[] }>();
+let pool: Pool | null = null;
+function getPool() {
+  if (!process.env.DB_VIBERS_MAIN_URL) return null;
+  pool ??= new Pool({ connectionString: process.env.DB_VIBERS_MAIN_URL, max: 2, idleTimeoutMillis: 10_000 });
+  return pool;
+}
 
 async function popularityScores(): Promise<Record<string, number>> {
-  return {};
+  if (scoreCache && Date.now() - scoreCache.at < POPULARITY_TTL) return scoreCache.scores;
+  const db = getPool();
+  if (!db) return {};
+  try {
+    const result = await db.query(`SELECT brand_id,
+      SUM(hit_count * CASE hit_type WHEN 'download' THEN 10 WHEN 'ad' THEN 5
+        WHEN 'view' THEN 3 WHEN 'search' THEN 2 WHEN 'dwell' THEN 2 ELSE 0 END)::bigint AS score
+      FROM semologo.logo_hits GROUP BY brand_id ORDER BY score DESC LIMIT 3000`);
+    const scores = Object.fromEntries(result.rows.map(row => [row.brand_id, Number(row.score)]));
+    scoreCache = { at: Date.now(), scores };
+    return scores;
+  } catch (error) {
+    console.error("logo popularity query failed", error);
+    return {};
+  }
 }
 
 function pageCacheKey(input: {
