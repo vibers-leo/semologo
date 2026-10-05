@@ -154,11 +154,7 @@ export default function BrandGrid({
         for (const brand of data.brands.slice(0, 18)) {
           const src = typeof brand.logo_png === "string" && brand.logo_png.startsWith("/")
             ? `${brand.logo_png}?v=${VERSION}`
-            : brand.has_png
-              ? `${CDN}/${brand.id}/logo-transparent.png?v=${VERSION}`
-              : typeof brand.logo_svg === "string" && brand.logo_svg.startsWith("/")
-              ? `${brand.logo_svg}?v=${VERSION}`
-              : `${CDN}/${brand.id}/${brand.has_svg ? "logo.svg" : "logo-transparent.png"}?v=${VERSION}`;
+            : `${CDN}/${brand.id}/logo-transparent.png?v=${VERSION}`;
           const warm = new window.Image();
           warm.decoding = "async";
           warm.src = src;
@@ -540,9 +536,6 @@ export default function BrandGrid({
 
 function BrandCard({ brand, onClick, priority, bgVote }: { brand: Brand; onClick: () => void; priority: boolean; bgVote?: "dark" | "light" }) {
   const {en, t} = useLocale();
-  const svgUrl = typeof brand.logo_svg === "string" && brand.logo_svg.startsWith("/")
-    ? `${brand.logo_svg}?v=${VERSION}`
-    : `${CDN}/${brand.id}/${brand.svg_transparent || "logo.svg"}?v=${VERSION}`;
   const pngUrl = `${CDN}/${brand.id}/logo.png?v=${VERSION}`;
   const transparentUrl = `${CDN}/${brand.id}/logo-transparent.png?v=${VERSION}`;
   const hasSvg = !!(brand.logo_svg || brand.has_svg);
@@ -555,9 +548,11 @@ function BrandCard({ brand, onClick, priority, bgVote }: { brand: Brand; onClick
   // Cards use the lightweight transparent PNG first. SVG remains the download
   // and detail-page source, while PNG thumbnails avoid hundreds of large SVG
   // parses blocking the first viewport during fast scrolling.
+  // 카드와 미리보기는 항상 PNG만 사용한다. SVG는 상세 화면의 다운로드
+  // 링크에서만 제공해 첫 화면의 벡터 파싱과 느린 fallback을 막는다.
   const initSrc = hasPng
     ? (typeof brand.logo_png === "string" && brand.logo_png.startsWith("/") ? directPng : transparentUrl)
-    : svgUrl;
+    : transparentUrl;
 
   return (
     <div className="logo-card" onClick={() => { trackEvent("brand_opened", { brand_id: brand.id, category: brand.category || "기타" }); sendHit(brand.id, "view"); onClick(); }}>
