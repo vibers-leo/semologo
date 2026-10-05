@@ -2,6 +2,8 @@ import type { Brand } from './brands';
 import { CDN, VERSION } from './cdn';
 /** One serving order for cards and prefetch. Flags alone never prove file existence. */
 export function logoPngCandidates(brand: Brand): string[] {
+  // Personal uploads stay in their authenticated blob URL; never probe public CDN paths.
+  if (typeof brand.logo_png === 'string' && brand.logo_png.startsWith('blob:')) return [brand.logo_png];
   const recovery = `/api/logo-preview/?id=${encodeURIComponent(brand.id)}`;
   const localSvgOnly = !(brand.logo_png || brand.has_png) && typeof brand.logo_svg === 'string' && brand.logo_svg.startsWith('/submissions/');
   // Legacy JPEG filed as PNG: normalize the bytes without replacing the original.

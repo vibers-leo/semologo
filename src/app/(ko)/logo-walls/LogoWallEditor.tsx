@@ -2,7 +2,9 @@
 import { useEffect, useRef, useState, type PointerEvent } from 'react';
 import { onAuthStateChanged, type User } from 'firebase/auth';
 import { getClientAuth } from '@/lib/firebase';
-import { CDN, VERSION } from '@/lib/cdn';
+import { CATALOG_VERSION } from '@/lib/cdn';
+import { logoPngCandidates } from '@/lib/logo-png-source';
+import { applyQualityReview } from '@/lib/logo-quality-review';
 import type { Brand } from '@/lib/brands';
 import Header from '@/components/Header';
 import styles from './LogoWallEditor.module.css';
@@ -11,10 +13,14 @@ type Layout = { background: 'auto' | 'light' | 'dark'; columns: number; motion: 
 const defaultLayout: Layout = { background: 'auto', columns: 4, motion: 'static', speed: 'normal' };
 type Wall = { id: string; title: string; version: number; settings?: Layout };
 type Item = { brand_id: string; asset_snapshot: { name?: string; logo_png?: string | boolean; light?: boolean; user_logo_id?: string } };
-function SearchLogo({ brand, src, large = false, background }: { brand: Brand; src: string; large?: boolean; background?: string }) {
+type SearchLogoProps = { brand: Brand; src: string; large?: boolean; background?: string };
+function SearchLogo(props: SearchLogoProps) {
+  return <SearchLogoImage key={`${props.brand.id}:${props.src}`} {...props} />;
+}
+function SearchLogoImage({ brand, src, large = false, background }: SearchLogoProps) {
   const [failed, setFailed] = useState(false);
   const [candidate, setCandidate] = useState(0);
-  const candidates = [...new Set([src, `${CDN}/${encodeURIComponent(brand.id)}/logo.png?v=${VERSION}`, `/api/logo-preview/?id=${encodeURIComponent(brand.id)}`])];
+  const candidates = [...new Set([src, ...logoPngCandidates(brand)])];
   return <span style={{ width: large ? '100%' : 80, height: large ? 100 : 48, flexShrink: 0, display: 'flex', alignItems: 'center', justifyContent: 'center', borderRadius: 6, background: background ?? (brand.light || brand.light_logo || brand.dark_variant === 'white' ? '#18181b' : '#f4f4f5') }}>
     {failed ? <span style={{ fontSize: 11, color: '#71717a' }}>미리보기 없음</span> : <img draggable={false} src={candidates[candidate]} alt={large ? brand.name_ko : ''} width={large ? 240 : 80} height={large ? 100 : 48} decoding="async" style={{ width: large ? '85%' : 72, height: large ? 80 : 40, objectFit: 'contain' }} onError={() => candidate + 1 < candidates.length ? setCandidate(candidate + 1) : setFailed(true)} />}
   </span>;
@@ -144,19 +150,18 @@ export default function LogoWallEditor() {
     setResults([]); setSearching(true);
     const abort = new AbortController();
     const timer = setTimeout(() => {
-      fetch(`/api/catalog/?q=${encodeURIComponent(query)}&offset=0&limit=12`, { signal: abort.signal })
+      fetch(`/api/catalog/?q=${encodeURIComponent(query)}&offset=0&limit=12&revision=${CATALOG_VERSION}`, { signal: abort.signal })
         .then(r => { if (!r.ok) throw new Error('검색에 연결할 수 없어요.'); return r.json(); })
         .then(d => { if (!abort.signal.aborted) setResults(d.brands || []); }).catch(e => { if (!abort.signal.aborted) setMessage(e.message); }).finally(() => { if (!abort.signal.aborted) setSearching(false); });
     }, 300);
     return () => { clearTimeout(timer); abort.abort(); };
   }, [query]);
-  const preview = (b: Brand) => typeof b.logo_png === 'string' && (/\.png(?:\?|$)/i.test(b.logo_png) || b.logo_png.startsWith('blob:'))
-    ? b.logo_png : `${CDN}/${encodeURIComponent(b.id)}/logo-transparent.png?v=${VERSION}`;
+  const preview = (b: Brand) => logoPngCandidates(b)[0];
   async function open(w: Wall) {
     if (!canSwitch()) return;
     await run(async () => {
       const d = await api('GET', w.id);
-      const items = await Promise.all(d.wall.items.map(async (i: Item) => i.asset_snapshot.user_logo_id ? privateBrand(i.asset_snapshot.user_logo_id, i.asset_snapshot.name || '내 로고') : ({ id: i.brand_id, name_ko: i.asset_snapshot.name || i.brand_id, name_en: '', category: '', logo_png: i.asset_snapshot.logo_png, light: i.asset_snapshot.light })));
+      const items = await Promise.all(d.wall.items.map(async (i: Item) => i.asset_snapshot.user_logo_id ? privateBrand(i.asset_snapshot.user_logo_id, i.asset_snapshot.name || '내 로고') : applyQualityReview({ id: i.brand_id, name_ko: i.asset_snapshot.name || i.brand_id, name_en: '', category: '', logo_png: i.asset_snapshot.logo_png, light: i.asset_snapshot.light })));
       const settings = { ...defaultLayout, ...d.wall.settings };
       setCurrent(d.wall); setTitle(d.wall.title); setSelected(items); setLayout(settings);
       setSaved(JSON.stringify({ title: d.wall.title, ids: items.map((b: Brand) => b.id), layout: settings }));
