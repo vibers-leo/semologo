@@ -169,7 +169,7 @@ export default function LogoWallEditor() {
       if (!response.ok) { const error = await response.json(); throw new Error(`${error.error}${Array.isArray(error.details) ? ` (${error.details.join(', ')})` : ''}`); }
       const url = URL.createObjectURL(await response.blob());
       const link = document.createElement('a'); link.href = url; link.download = `logo-wall-${current.id}.zip`; document.body.appendChild(link); link.click(); link.remove();
-      setTimeout(() => URL.revokeObjectURL(url), 60_000); setMessage('PNG 파일과 배치 설정을 ZIP으로 내려받았어요.');
+      setTimeout(() => URL.revokeObjectURL(url), 60_000); setMessage('PNG·설정·독립 미리보기를 ZIP으로 내려받았어요.');
     });
   }
   async function save() {
@@ -218,8 +218,8 @@ export default function LogoWallEditor() {
           {selected.length > 0 && layout.motion !== 'static' && <section aria-label="움직임 미리보기">
             <div className={styles.sectionTitle}><h2>움직임 미리보기</h2><button onClick={() => setPaused(p => !p)} aria-pressed={paused}>{paused ? '재생하기' : '일시정지'}</button></div>
             <div className={styles.motionStage} style={{ background: layout.background === 'dark' ? '#18181b' : '#fafafa' }}>
-              {Array.from({ length: layout.motion === 'alternating' ? Math.min(3, Math.ceil(selected.length / layout.columns)) : 1 }, (_, row) => {
-                const rows = layout.motion === 'alternating' ? Math.min(3, Math.ceil(selected.length / layout.columns)) : 1;
+              {Array.from({ length: layout.motion === 'alternating' ? Math.min(3, selected.length, Math.max(2, Math.ceil(selected.length / layout.columns))) : 1 }, (_, row) => {
+                const rows = layout.motion === 'alternating' ? Math.min(3, selected.length, Math.max(2, Math.ceil(selected.length / layout.columns))) : 1;
                 const logos = selected.filter((_, i) => i % rows === row);
                 const repeated = Array.from({ length: Math.max(1, Math.ceil(8 / logos.length)) }, () => logos).flat();
                 return <div className={styles.motionRow} key={row}><div className={styles.motionTrack} style={{ animationDuration: `${{ slow: 48, normal: 28, fast: 14 }[layout.speed]}s`, animationDirection: row % 2 ? 'reverse' : 'normal', animationPlayState: paused ? 'paused' : 'running' }}>
@@ -235,7 +235,7 @@ export default function LogoWallEditor() {
             </div>)}</div>}
           </div>
           <p className={styles.hint}>로고를 끌어서 순서를 바꿔보세요. 화살표로도 이동할 수 있어요. 배경과 배치도 함께 저장돼요.</p>
-          <div className={styles.footer}><button disabled={busy || !current || dirty} onClick={download}>PNG·설정 ZIP 다운로드</button><span>최대 100개 · 저장 후 ZIP 다운로드</span>{current && <button className={styles.danger} disabled={busy} onClick={() => { if (window.confirm('이 로고월을 삭제할까요?')) void run(async () => { await api('DELETE', current.id); reset(); setWalls((await api()).walls); setMessage('삭제했어요.'); }); }}>로고월 삭제</button>}</div>
+          <div className={styles.footer}><button disabled={busy || !current || dirty} onClick={download}>로고월 ZIP 다운로드</button><span>최대 100개 · 저장 후 ZIP 다운로드</span>{current && <button className={styles.danger} disabled={busy} onClick={() => { if (window.confirm('이 로고월을 삭제할까요?')) void run(async () => { await api('DELETE', current.id); reset(); setWalls((await api()).walls); setMessage('삭제했어요.'); }); }}>로고월 삭제</button>}</div>
         </section>
       </div>
     </>}

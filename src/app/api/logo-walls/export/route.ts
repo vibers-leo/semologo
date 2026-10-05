@@ -3,6 +3,7 @@ import sharp from 'sharp';
 import { createHash } from 'node:crypto';
 import { logoOwner } from '@/lib/logo-owner';
 import { logoWallZip } from '@/lib/logo-wall-zip';
+import { logoWallHtml } from '@/lib/logo-wall-html';
 import { CDN, VERSION } from '@/lib/cdn';
 import { GET as recoverPng } from '@/app/api/logo-preview/route';
 
@@ -53,10 +54,10 @@ export async function GET(request: Request) {
     const privateIds = wall.items.map((i: { snapshot: { user_logo_id?: string } }) => i.snapshot.user_logo_id).filter(Boolean);
     const personal = await pool.query('SELECT id,png FROM semologo.personal_logos WHERE owner_id=$1 AND id=ANY($2::text[])', [uid, privateIds]);
     const own = new Map<string, Buffer>(personal.rows.map(r => [r.id, r.png]));
-    const files: { name: string; data: Uint8Array }[] = []; const entries: unknown[] = []; const missing: string[] = [];
+    const files: { name: string; data: Uint8Array }[] = []; const entries: { id: string; name?: string; file: string; light: boolean; sha256: string; captured_at?: string }[] = []; const missing: string[] = [];
     let bytes = 0; let index = 0; const deadline = Date.now() + 60_000;
     // Two workers bound upstream requests and CPU; output order is fixed below.
-    const output: ({ name: string; data: Buffer; entry: unknown } | undefined)[] = new Array(wall.items.length);
+    const output: ({ name: string; data: Buffer; entry: typeof entries[number] } | undefined)[] = new Array(wall.items.length);
     await Promise.all([0,1].map(async () => {
       while (index < wall.items.length) {
         const n = index++; const item = wall.items[n]; const logoId = item.snapshot.user_logo_id || item.brand_id;
@@ -67,15 +68,16 @@ export async function GET(request: Request) {
           if (!data) throw new Error('missing');
           bytes += data.length; if (bytes > 25_000_000) throw new Error('large export');
           const filename = `logos/${String(n + 1).padStart(3, '0')}-${logoId}.png`;
-          output[n] = { name: filename, data, entry: { id: logoId, name: item.snapshot.name, file: filename, sha256: createHash('sha256').update(data).digest('hex'), captured_at: item.snapshot.captured_at } };
+          output[n] = { name: filename, data, entry: { id: logoId, name: item.snapshot.name, file: filename, light: Boolean(item.snapshot.light), sha256: createHash('sha256').update(data).digest('hex'), captured_at: item.snapshot.captured_at } };
         } catch { missing.push(item.snapshot.name || logoId || String(n + 1)); }
       }
     }));
     if (missing.length) return reply('일부 로고를 준비하지 못했어요. 잠시 후 다시 시도해 주세요.', 422, missing);
     for (const file of output) { if (!file) throw new Error('incomplete'); files.push({ name: file.name, data: file.data }); entries.push(file.entry); }
     const manifest = { format_version: 1, wall: { id: wall.id, title: wall.title, version: wall.version, settings: wall.settings }, exported_at: new Date().toISOString(), cdn_version: VERSION, logos: entries };
+    files.push({ name: 'index.html', data: Buffer.from(logoWallHtml(wall.title, wall.settings ?? {}, entries)) });
     files.push({ name: 'manifest.json', data: Buffer.from(JSON.stringify(manifest, null, 2)) });
-    files.push({ name: 'README.txt', data: Buffer.from('로고월 PNG 파일과 배치·움직임 설정을 담은 다운로드입니다.\n이미지를 내려받아 자신의 서비스에 보관하면 세모로고 접속과 관계없이 사용할 수 있어요.\n각 브랜드의 상표와 사용 조건은 해당 권리자에게 있어요.\n') });
+    files.push({ name: 'README.txt', data: Buffer.from('ZIP을 풀고 index.html을 열면 로고월이 보여요.\nPNG 파일과 배치·움직임 설정도 함께 담았습니다.\n이미지를 내려받아 자신의 서비스에 보관하면 세모로고 접속과 관계없이 사용할 수 있어요.\n각 브랜드의 상표와 사용 조건은 해당 권리자에게 있어요.\n') });
     return new Response(new Uint8Array(logoWallZip(files)), { headers: { ...privateHeaders, 'Content-Type': 'application/zip', 'Content-Disposition': `attachment; filename="logo-wall-${wall.id}.zip"` } });
   } catch { return reply('다운로드를 준비하지 못했어요. 잠시 후 다시 시도해 주세요.', 503); }
   finally { if (acquired) active--; }

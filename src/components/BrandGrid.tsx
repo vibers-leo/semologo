@@ -154,7 +154,7 @@ export default function BrandGrid({
         for (const brand of data.brands.slice(0, 18)) {
           const src = typeof brand.logo_png === "string" && brand.logo_png.startsWith("/")
             ? `${brand.logo_png}?v=${VERSION}`
-            : `${CDN}/${brand.id}/logo-transparent.png?v=${VERSION}`;
+            : `${CDN}/${brand.id}/logo.png?v=${VERSION}`;
           const warm = new window.Image();
           warm.decoding = "async";
           warm.src = src;
@@ -542,15 +542,9 @@ function BrandCard({ brand, onClick, priority, bgVote }: { brand: Brand; onClick
   const hasPng = !!(brand.logo_png || brand.has_png);
   const directPng = typeof brand.logo_png === "string" && /\.png(?:\?|$)/i.test(brand.logo_png)
     ? brand.logo_png : pngUrl;
-  // PNG 원본은 기관 배포물의 흰 캔버스를 포함하는 경우가 많다.
-  // 카드에서는 자동으로 여백·흰 배경을 제거한 파생물을 먼저 보여주고,
-  // 원본 파일은 상세 화면의 다운로드 카드에서 그대로 제공한다.
-  // Cards use the lightweight transparent PNG first. SVG remains the download
-  // and detail-page source, while PNG thumbnails avoid hundreds of large SVG
-  // parses blocking the first viewport during fast scrolling.
-  // 카드와 미리보기는 항상 PNG만 사용한다. SVG는 상세 화면의 다운로드
-  // 링크에서만 제공해 첫 화면의 벡터 파싱과 느린 fallback을 막는다.
-  const candidates = [...new Set([transparentUrl, directPng, `/api/logo-preview/?id=${encodeURIComponent(brand.id)}`])];
+  // Request the published PNG first: transparent derivatives are optional.
+  // Missing derivatives must not delay every card before the available original.
+  const candidates = [...new Set([directPng, transparentUrl, `/api/logo-preview/?id=${encodeURIComponent(brand.id)}`])];
   const initSrc = candidates[0];
 
   return (
