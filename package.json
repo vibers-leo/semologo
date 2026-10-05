@@ -4,12 +4,13 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
-    "build:webpack": "next build --webpack",
+    "build": "node scripts/check-local-logo-sources.cjs && next build",
+    "build:webpack": "node scripts/check-local-logo-sources.cjs && next build --webpack",
     "start": "next start",
     "type-check": "tsc --noEmit",
     "check:cdn": "node scripts/check-cdn.mjs",
-    "verify": "pnpm type-check && pnpm check:cdn"
+    "verify": "pnpm type-check && pnpm check:local-logos && pnpm check:cdn",
+    "check:local-logos": "node scripts/check-local-logo-sources.cjs"
   },
   "dependencies": {
     "@types/nodemailer": "^8.0.1",

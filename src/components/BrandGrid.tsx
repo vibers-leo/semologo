@@ -1,4 +1,5 @@
 "use client";
+import { logoPngCandidates } from "@/lib/logo-png-source";
 import { collection, getDocs, query as firestoreQuery, where } from "firebase/firestore";
 import { getClientDb } from "@/lib/firebase";
 import { analyzeLogoVisibility } from "@/lib/logo-visibility";
@@ -164,11 +165,7 @@ export default function BrandGrid({
       // 전체 60장을 한꺼번에 요청하지 않고 18장만 선예약해 네트워크 폭주를 막는다.
       if (typeof window !== "undefined") {
         for (const brand of data.brands.slice(0, 18)) {
-          const src = typeof brand.logo_png === "string" && brand.logo_png.startsWith("/")
-            ? `${brand.logo_png}?v=${VERSION}`
-            : !brand.has_png && !brand.logo_png && typeof brand.logo_svg === "string" && brand.logo_svg.startsWith("/submissions/index-candidates/")
-              ? `/api/logo-preview/?id=${encodeURIComponent(brand.id)}`
-              : `${CDN}/${brand.id}/logo.png?v=${VERSION}`;
+          const src = logoPngCandidates(brand)[0];
           const warm = new window.Image();
           warm.decoding = "async";
           warm.src = src;
@@ -558,9 +555,7 @@ function BrandCard({ brand, onClick, priority, bgVote }: { brand: Brand; onClick
     ? brand.logo_png : pngUrl;
   // Request the published PNG first: transparent derivatives are optional.
   // Missing derivatives must not delay every card before the available original.
-  const recovery = `/api/logo-preview/?id=${encodeURIComponent(brand.id)}`;
-  const localSvgOnly = !hasPng && typeof brand.logo_svg === "string" && brand.logo_svg.startsWith("/submissions/index-candidates/");
-  const candidates = [...new Set(localSvgOnly ? [recovery] : [directPng, transparentUrl, recovery])];
+  const candidates = logoPngCandidates(brand);
   const [votedSrc, setVotedSrc] = useState<string | null>(null);
   useEffect(() => {
     let alive = true;
@@ -582,7 +577,7 @@ function BrandCard({ brand, onClick, priority, bgVote }: { brand: Brand; onClick
       {/* 흰색 로고는 밝은 체커 배경에서 안 보여 '빈 카드'처럼 된다 → 어두운 배경 */}
               <div className="card-preview" style={(bgVote === "dark" || (!bgVote && (brand.light || brand.light_logo || brand.dark_variant === "white"))) ? { background: "#18181b", backgroundImage: "none" } : undefined}>
         {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img key={initSrc} src={initSrc} alt={en ? brand.name_en || brand.name_ko : brand.name_ko} width={320} height={180}
+        <img key={initSrc} ref={img => { if (img?.complete && img.naturalWidth > 0) img.dataset.loaded = "1"; }} src={initSrc} alt={en ? brand.name_en || brand.name_ko : brand.name_ko} width={320} height={180}
           decoding="async" fetchPriority={priority ? "high" : "auto"} loading={priority ? "eager" : "lazy"}
           onLoad={e => {
             // 재시도로 살아났으면 자리표시자를 걷어낸다
@@ -608,7 +603,7 @@ function BrandCard({ brand, onClick, priority, bgVote }: { brand: Brand; onClick
               img.dataset.previewRetry = String(retries + 1);
               setTimeout(() => {
                 if (img.isConnected) img.src = `${candidates[candidates.length - 1]}&retry=${retries + 1}`;
-              }, 2000 * (retries + 1));
+              }, 15000 * (retries + 1));
               return;
             }
             img.style.display = "none";
@@ -616,10 +611,10 @@ function BrandCard({ brand, onClick, priority, bgVote }: { brand: Brand; onClick
             if (box && !box.querySelector(".card-fallback")) {
               const ph = document.createElement("div");
               ph.className = "card-fallback";
-              ph.textContent = (brand.name_en || brand.name_ko || "?").charAt(0).toUpperCase();
+              ph.textContent = t("이미지를 준비하지 못했어요");
               ph.style.cssText =
                 "position:absolute;inset:0;display:flex;align-items:center;" +
-                "justify-content:center;font-size:44px;font-weight:800;color:#d4d4d8";
+                "justify-content:center;font-size:12px;font-weight:500;color:#71717a";
               box.appendChild(ph);
             }
           }} />
