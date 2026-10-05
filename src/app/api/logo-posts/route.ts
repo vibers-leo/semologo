@@ -1,4 +1,5 @@
 import { NextResponse } from "next/server";
+import { cmsBrand } from "@/lib/cms-brand";
 import { Pool } from "pg";
 
 export const dynamic = "force-dynamic";
@@ -22,7 +23,7 @@ export async function GET(request: Request) {
        ORDER BY updated_at DESC
        LIMIT $1`, [limit],
     );
-    return NextResponse.json({ posts: result.rows.map(row => row.payload), source: "postgres" }, {
+    return NextResponse.json({ posts: result.rows.map(row => cmsBrand(row.payload.id, row.payload)).filter(brand => !brand.hidden && !brand.variant_of), source: "postgres" }, {
       headers: { "Cache-Control": "public, s-maxage=60, stale-while-revalidate=300" },
     });
   } catch (error) {

@@ -61,3 +61,29 @@
 .motionLogo { width: 160px; height: 80px; display: flex; align-items: center; justify-content: center; }
 @keyframes logoMarquee { from { transform: translateX(0); } to { transform: translateX(-50%); } }
 @media (prefers-reduced-motion: reduce) { .motionTrack { animation: none; } }
+
+.page [hidden] { display: none !important; }
+.presentation { grid-template-columns: minmax(0, 1fr); }
+.page .presets { display: flex; align-items: center; flex-wrap: wrap; gap: 8px; padding: 0 0 20px; }
+.presets > span { color: #71717a; font-size: 12px; margin-right: 4px; }
+.page .presets button { border-radius: 999px; font-size: 12px; padding: 8px 12px; }
+.controls .check { display: flex; align-items: center; gap: 7px; min-height: 38px; }
+.check input { accent-color: #18181b; width: 16px; height: 16px; }
+.wall { gap: var(--wall-gap, 24px); }
+.canvas { padding: clamp(16px, 3vw, 40px); background: #fff; }
+.canvas[data-appearance=clean] .tile { border-color: transparent; background: transparent; border-radius: 12px; }
+.canvas[data-appearance=clean] .caption { border-top-color: transparent; }
+.canvas[data-presentation] .dragSurface { cursor: default; touch-action: auto; }
+.canvas[data-presentation] .caption { text-align: center; padding: 4px 12px 16px; }
+.motionGroup { gap: var(--wall-gap, 24px); padding-right: var(--wall-gap, 24px); }
+.motionLogo { width: 200px; height: calc(var(--logo-height, 80px) + 40px); }
+.tile { transition: border-color .2s ease, box-shadow .2s ease; }
+.tile:hover { border-color: #d4d4d8; }
+.footer { flex-wrap: wrap; }
+@media (max-width: 700px) { .wall { gap: min(var(--wall-gap, 24px), 20px); } .editor .sectionTitle button { font-size: 12px; } .footer > span { width: 100%; order: 3; } }
+
+.canvas[data-dark][data-appearance=clean] .caption { color: #a1a1aa; }
+.srOnly { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+
+.motionNames { display: flex; flex-wrap: wrap; gap: 8px 20px; padding: 12px 0; color: #71717a; font-size: 12px; list-style: none; }
+@media (max-width: 700px) { .page .caption button { min-width: 32px; min-height: 32px; } }

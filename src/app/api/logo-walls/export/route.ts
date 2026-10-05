@@ -4,6 +4,9 @@ import { createHash } from 'node:crypto';
 import { logoOwner } from '@/lib/logo-owner';
 import { logoWallZip } from '@/lib/logo-wall-zip';
 import { logoWallHtml } from '@/lib/logo-wall-html';
+import { logoPngCandidates } from '@/lib/logo-png-source';
+import { logoWallAsset } from '@/lib/cms-brand';
+import type { Brand } from '@/lib/brands';
 import { CDN, VERSION } from '@/lib/cdn';
 import { GET as recoverPng } from '@/app/api/logo-preview/route';
 
@@ -14,10 +17,16 @@ let active = 0;
 const privateHeaders = { 'Cache-Control': 'private, no-store', 'X-Content-Type-Options': 'nosniff' };
 const reply = (error: string, status: number, details?: unknown) => Response.json({ error, details }, { status, headers: privateHeaders });
 
-async function cdnPng(id: string): Promise<Buffer> {
-  for (const name of ['logo-transparent.png', 'logo.png']) {
+async function cdnPng(brand: Brand): Promise<Buffer> {
+  const id = brand.id;
+  const root = new URL(CDN);
+  for (const candidate of logoPngCandidates(brand)) {
+    // Only fetch this brand's known CDN directory; never arbitrary snapshot URLs.
+    let url: URL;
+    try { url = new URL(candidate); } catch { continue; }
+    if (url.origin !== root.origin || !url.pathname.startsWith(`${root.pathname}/${encodeURIComponent(id)}/`)) continue;
     try {
-      const r = await fetch(`${CDN}/${encodeURIComponent(id)}/${name}?v=${VERSION}`, { cache: 'no-store', redirect: 'error', signal: AbortSignal.timeout(6000) });
+      const r = await fetch(url.href, { cache: 'no-store', redirect: 'error', signal: AbortSignal.timeout(6000) });
       if (!r.ok || !r.body) continue;
       const reader = r.body.getReader(); const chunks: Uint8Array[] = []; let size = 0;
       try { while (true) { const part = await reader.read(); if (part.done) break; size += part.value.byteLength; if (size > 2_000_000) throw new Error('large'); chunks.push(part.value); } } finally { await reader.cancel(); }
@@ -43,8 +52,8 @@ export async function GET(request: Request) {
     pool ??= new Pool({ connectionString: process.env.DB_VIBERS_MAIN_URL, max: 2, connectionTimeoutMillis: 5000 });
     // Fetch one consistent wall version with ordered items in a single statement.
     const result = await pool.query(`SELECT w.id,w.title,w.version,w.settings,
-      COALESCE(jsonb_agg(jsonb_build_object('brand_id',i.brand_id,'snapshot',i.asset_snapshot) ORDER BY i.position) FILTER(WHERE i.item_id IS NOT NULL),'[]'::jsonb) AS items
-      FROM semologo.logo_walls w LEFT JOIN semologo.logo_wall_items i ON i.wall_id=w.id
+      COALESCE(jsonb_agg(jsonb_build_object('brand_id',i.brand_id,'snapshot',i.asset_snapshot,'catalog',p.payload) ORDER BY i.position) FILTER(WHERE i.item_id IS NOT NULL),'[]'::jsonb) AS items
+      FROM semologo.logo_walls w LEFT JOIN semologo.logo_wall_items i ON i.wall_id=w.id LEFT JOIN semologo.logo_posts p ON p.id=i.brand_id
       WHERE w.id=$1 AND w.owner_id=$2 GROUP BY w.id`, [id, uid]);
     if (!result.rowCount) return reply('로고월을 찾을 수 없어요.', 404);
     const wall = result.rows[0];
@@ -64,11 +73,13 @@ export async function GET(request: Request) {
         try {
           if (Date.now() > deadline) throw new Error('export timeout');
           if (typeof logoId !== 'string' || !/^[\w가-힣-]{1,200}$/.test(logoId)) throw new Error('invalid');
-          const data = item.snapshot.user_logo_id ? own.get(logoId) : await cdnPng(logoId);
+          const brand = logoWallAsset(logoId, item.catalog || {}, item.snapshot);
+          if (!item.snapshot.user_logo_id && brand.hidden) throw new Error('review required');
+          const data = item.snapshot.user_logo_id ? own.get(logoId) : await cdnPng(brand);
           if (!data) throw new Error('missing');
           bytes += data.length; if (bytes > 25_000_000) throw new Error('large export');
           const filename = `logos/${String(n + 1).padStart(3, '0')}-${logoId}.png`;
-          output[n] = { name: filename, data, entry: { id: logoId, name: item.snapshot.name, file: filename, light: Boolean(item.snapshot.light), sha256: createHash('sha256').update(data).digest('hex'), captured_at: item.snapshot.captured_at } };
+          output[n] = { name: filename, data, entry: { id: logoId, name: item.snapshot.name, file: filename, light: Boolean(brand.light), sha256: createHash('sha256').update(data).digest('hex'), captured_at: item.snapshot.captured_at } };
         } catch { missing.push(item.snapshot.name || logoId || String(n + 1)); }
       }
     }));

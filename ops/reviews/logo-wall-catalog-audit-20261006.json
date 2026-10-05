@@ -1,0 +1,27 @@
+{
+  "checked_at": "2026-10-05T15:44:59.480Z",
+  "scope": "all published metadata; no asset byte downloads",
+  "published_records": 182327,
+  "missing_name": 0,
+  "png_declared": 58229,
+  "svg_declared": 175227,
+  "no_asset_declared": 0,
+  "quality_reviews": [
+    {
+      "status": "merged",
+      "count": 1
+    },
+    {
+      "status": "pending",
+      "count": 18
+    },
+    {
+      "status": "quarantined",
+      "count": 97
+    },
+    {
+      "status": "repaired",
+      "count": 7
+    }
+  ]
+}

@@ -1,6 +1,9 @@
 import { randomUUID } from 'node:crypto';
 import { Pool } from 'pg';
 import { logoOwner } from '@/lib/logo-owner';
+import { logoWallLayout } from '@/lib/logo-wall-layout';
+import { cmsBrand, logoWallAsset } from '@/lib/cms-brand';
+import type { Brand } from '@/lib/brands';
 
 export const dynamic = 'force-dynamic';
 let pool: Pool | undefined;
@@ -25,8 +28,13 @@ async function handle(request: Request) {
       }
       const wall = await pool.query('SELECT id,title,settings,version,updated_at FROM semologo.logo_walls WHERE id=$1 AND owner_id=$2', [id, uid]);
       if (!wall.rowCount) return reply({ error: '로고월을 찾을 수 없어요.' }, 404);
-      const items = await pool.query('SELECT item_id,brand_id,position,asset_snapshot FROM semologo.logo_wall_items WHERE wall_id=$1 ORDER BY position', [id]);
-      return reply({ wall: { ...wall.rows[0], items: items.rows } });
+      const items = await pool.query('SELECT i.item_id,i.brand_id,i.position,i.asset_snapshot,p.payload FROM semologo.logo_wall_items i LEFT JOIN semologo.logo_posts p ON p.id=i.brand_id WHERE i.wall_id=$1 ORDER BY i.position', [id]);
+      const restored = items.rows.map(item => {
+        if (!item.payload || item.asset_snapshot.user_logo_id) { const { payload: _, ...ownItem } = item; return ownItem; }
+        const asset = logoWallAsset(item.brand_id, item.payload, item.asset_snapshot);
+        return { item_id: item.item_id, brand_id: item.brand_id, position: item.position, asset_snapshot: { ...item.asset_snapshot, logo_png: asset.logo_png, logo_svg: asset.logo_svg, has_png: asset.has_png, preview_png: asset.preview_png, light: asset.light } };
+      });
+      return reply({ wall: { ...wall.rows[0], items: restored } });
     }
     if (request.method === 'DELETE') {
       if (!id) return reply({ error: '로고월 ID가 필요해요.' }, 400);
@@ -42,20 +50,16 @@ async function handle(request: Request) {
     }
     if (new Set(body.brandIds).size !== body.brandIds.length) return reply({ error: '같은 로고를 중복해서 추가할 수 없어요.' }, 400);
     if (request.method === 'PUT' && (!id || !Number.isInteger(body.version) || body.version < 1)) return reply({ error: 'ID와 저장 버전이 필요해요.' }, 400);
-    const settings = body.settings ?? { background: 'auto', columns: 4 };
-    if (!settings || !['auto', 'light', 'dark'].includes(settings.background) || ![2, 3, 4, 6].includes(settings.columns)) return reply({ error: '배경과 배치 설정을 확인해 주세요.' }, 400);
-    const motion = settings.motion ?? 'static';
-    const speed = settings.speed ?? 'normal';
-    if (!['static', 'marquee', 'alternating'].includes(motion) || !['slow', 'normal', 'fast'].includes(speed)) return reply({ error: '움직임과 속도를 확인해 주세요.' }, 400);
-    const layout = { background: settings.background, columns: settings.columns, motion, speed };
+    let layout;
+    try { layout = logoWallLayout(body.settings); } catch { return reply({ error: '로고월 배치 설정을 확인해 주세요.' }, 400); }
     const db = await pool.connect();
     try {
       await db.query('BEGIN');
       const brands = await db.query("SELECT id,payload FROM semologo.logo_posts WHERE id=ANY($1::text[]) AND status='published'", [body.brandIds]);
-      const byId = new Map(brands.rows.map(b => [b.id, b.payload]));
+      const byId = new Map<string, Brand & { user_logo_id?: string }>(brands.rows.map(b => [b.id, cmsBrand(b.id, b.payload)]));
       const personal = await db.query('SELECT id,name FROM semologo.personal_logos WHERE owner_id=$1 AND id=ANY($2::text[])', [uid, body.brandIds]);
-      for (const b of personal.rows) byId.set(b.id, { name_ko: b.name, user_logo_id: b.id });
-      if (body.brandIds.some((b: string) => !byId.has(b))) { await db.query('ROLLBACK'); return reply({ error: '공개 브랜드 또는 내 계정에 등록한 로고만 추가할 수 있어요.' }, 400); }
+      for (const b of personal.rows) byId.set(b.id, { id: b.id, name_ko: b.name, name_en: '', category: '', user_logo_id: b.id });
+      if (body.brandIds.some((b: string) => !byId.has(b) || byId.get(b)?.hidden)) { await db.query('ROLLBACK'); return reply({ error: '검수된 공개 브랜드 또는 내 계정에 등록한 로고만 추가할 수 있어요.' }, 400); }
       const wallId = request.method === 'POST' ? randomUUID() : id!;
       let wall;
       if (request.method === 'POST') {
@@ -67,9 +71,9 @@ async function handle(request: Request) {
       }
       for (let i = 0; i < body.brandIds.length; i++) {
         const brandId = body.brandIds[i];
-        const brand = byId.get(brandId);
+        const brand = byId.get(brandId)!;
         // Freeze the selected metadata. Export will later materialize immutable assets.
-        const snapshot = { user_logo_id: brand.user_logo_id, name: brand.name_ko, logo_png: brand.logo_png, has_png: brand.has_png, light: brand.light || brand.light_logo || brand.dark_variant === 'white', source: brand.sources, captured_at: new Date().toISOString() };
+        const snapshot = { user_logo_id: brand.user_logo_id, name: brand.name_ko, logo_png: brand.logo_png, preview_png: brand.preview_png, logo_svg: brand.logo_svg, has_png: brand.has_png, light: brand.light || brand.light_logo || brand.dark_variant === 'white', source: brand.sources, captured_at: new Date().toISOString() };
         await db.query('INSERT INTO semologo.logo_wall_items(wall_id,item_id,brand_id,position,asset_snapshot) VALUES($1,$2,$3,$4,$5)', [wallId, randomUUID(), brand.user_logo_id ? null : brandId, i, snapshot]);
       }
       await db.query('COMMIT');

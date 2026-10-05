@@ -9,8 +9,9 @@
     "start": "next start",
     "type-check": "tsc --noEmit",
     "check:cdn": "node scripts/check-cdn.mjs",
-    "verify": "pnpm type-check && pnpm check:local-logos && pnpm check:cdn",
-    "check:local-logos": "node scripts/check-local-logo-sources.cjs"
+    "verify": "pnpm type-check && pnpm check:logo-wall && pnpm check:local-logos && pnpm check:cdn",
+    "check:local-logos": "node scripts/check-local-logo-sources.cjs",
+    "check:logo-wall": "node scripts/check-logo-wall.cjs"
   },
   "dependencies": {
     "@types/nodemailer": "^8.0.1",
