@@ -8,6 +8,12 @@ import Header from '@/components/Header';
 
 type Wall = { id: string; title: string; version: number };
 type Item = { brand_id: string; asset_snapshot: { name?: string; logo_png?: string | boolean } };
+function SearchLogo({ brand, src }: { brand: Brand; src: string }) {
+  const [failed, setFailed] = useState(false);
+  return <span style={{ width: 80, height: 48, flexShrink: 0, display: 'flex', alignItems: 'center', justifyContent: 'center', borderRadius: 6, background: brand.light || brand.light_logo || brand.dark_variant === 'white' ? '#18181b' : '#f4f4f5' }}>
+    {failed ? <span style={{ fontSize: 11, color: '#71717a' }}>미리보기 없음</span> : <img src={src} alt="" width={80} height={48} decoding="async" style={{ width: 72, height: 40, objectFit: 'contain' }} onError={() => setFailed(true)} />}
+  </span>;
+}
 export default function LogoWallEditor() {
   const [user, setUser] = useState<User | null>(null);
   const [ready, setReady] = useState(false);
@@ -71,7 +77,7 @@ export default function LogoWallEditor() {
       </div>
       <label className="block">로고월 제목<input className="block border rounded p-2 w-full" maxLength={120} value={title} disabled={busy} onChange={e => setTitle(e.target.value)} /></label>
       <label className="block">브랜드 검색<input className="block border rounded p-2 w-full" value={query} onChange={e => setQuery(e.target.value)} /></label>
-      <div className="flex gap-3 flex-wrap">{results.map(b => <button key={b.id} disabled={busy || selected.length >= 100 || selected.some(s => s.id === b.id)} onClick={() => setSelected(s => [...s, b])}>＋ {b.name_ko}</button>)}</div>
+      <div aria-label="브랜드 검색 결과" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))', gap: 8 }}>{results.map(b => <button key={b.id} style={{ display: 'flex', alignItems: 'center', gap: 12, padding: 8, border: '1px solid #e4e4e7', borderRadius: 8, textAlign: 'left' }} disabled={busy || selected.length >= 100 || selected.some(s => s.id === b.id)} onClick={() => setSelected(s => [...s, b])}><SearchLogo brand={b} src={preview(b)} /><span>＋ {b.name_ko}</span></button>)}</div>
       <p>{selected.length}개 선택 · 추가한 순서로 표시해요.</p>
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4 border rounded p-4">{selected.map((b, index) => <div key={b.id}>
         <img src={preview(b)} alt={b.name_ko} width={240} height={120} loading="lazy" className="h-24 w-full object-contain" />
