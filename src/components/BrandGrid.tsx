@@ -578,6 +578,15 @@ function BrandCard({ brand, onClick, priority, bgVote }: { brand: Brand; onClick
               img.src = candidates[next];
               return;
             }
+            // A busy conversion queue can recover; retry the PNG endpoint twice only.
+            const retries = Number(img.dataset.previewRetry ?? 0);
+            if (retries < 2) {
+              img.dataset.previewRetry = String(retries + 1);
+              setTimeout(() => {
+                if (img.isConnected) img.src = `${candidates[candidates.length - 1]}&retry=${retries + 1}`;
+              }, 2000 * (retries + 1));
+              return;
+            }
             img.style.display = "none";
             const box = img.parentElement;
             if (box && !box.querySelector(".card-fallback")) {
