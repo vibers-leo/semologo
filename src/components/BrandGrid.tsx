@@ -9,7 +9,7 @@ import { useLocale, T } from "@/lib/locale-context";
 import { useMemo, useState, useEffect, useRef, useDeferredValue } from "react";
 import dynamic from "next/dynamic";
 import { Brand, sortForGrid, type CatalogStats, type SortMode } from "@/lib/brands";
-import { CDN, VERSION } from "@/lib/cdn";
+import { CDN, VERSION, CATALOG_VERSION } from "@/lib/cdn";
 import { sendHit } from "@/lib/hit";
 import { loadFlaggedIds } from "@/lib/logo-quality";
 import { trackEvent } from "@/lib/analytics";
@@ -145,6 +145,7 @@ export default function BrandGrid({
   if (origin) apiParams.set("origin", origin);
   if (fmt === "svg") apiParams.set("svg", "1");
   apiParams.set("sort", sortMode);
+  apiParams.set("revision", CATALOG_VERSION);
   const queryKey = apiParams.toString();
 
   const fetchPage = async (offset: number, replace: boolean, requestId: number) => {
