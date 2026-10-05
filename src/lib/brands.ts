@@ -81,9 +81,13 @@ async function fetchBrandData(file: string): Promise<unknown> {
 
   for (const source of sources) {
     try {
-      const res = await fetch(`${source}/${file}?v=${VERSION}`, {
-        next: { revalidate: 21600 },
-      });
+      // Next 데이터 캐시는 응답 2MB까지만 저장한다. 46MB에 달하는
+      // brands-slim.json을 여기에 넣으려 하면 빌드마다 경고가 나고 캐시도
+      // 저장되지 않으므로, 큰 카탈로그는 CDN 캐시만 사용한다.
+      const isLargeCatalog = file === "brands.json" || file === "brands-slim.json";
+      const res = await fetch(`${source}/${file}?v=${VERSION}`, isLargeCatalog
+        ? { cache: "no-store" }
+        : { next: { revalidate: 21600 } });
       if (!res.ok) throw new Error(`브랜드 데이터 응답 오류: HTTP ${res.status}`);
       if (looksLikeHtml(res.headers.get("content-type"))) {
         throw new Error("브랜드 데이터가 JSON 대신 HTML을 반환했어요.");
