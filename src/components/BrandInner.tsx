@@ -815,7 +815,7 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
                 <div key={t(m.label)} style={{ display:"flex", flexDirection:"column", alignItems:"center", gap:5 }}>
                   <div style={m.style}>
                     {/* eslint-disable-next-line @next/next/no-img-element */}
-                    <img src={hasSvg ? svgUrl : darkUrl} alt="" style={{ position:"absolute", inset:"10%", width:"80%", height:"80%", objectFit:"contain", objectPosition:"center" }} onError={e => { e.currentTarget.src = pngUrl; }} />
+                    <img src={previewUrl} alt="" style={{ position:"absolute", inset:"10%", width:"80%", height:"80%", objectFit:"contain", objectPosition:"center" }} onError={e => { e.currentTarget.src = pngUrl; }} />
                   </div>
                   <span style={{ fontSize: 11, color:"#71717a", textAlign:"center" }}>{t(m.label)}</span>
                 </div>
