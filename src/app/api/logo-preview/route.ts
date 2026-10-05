@@ -1,3 +1,6 @@
+import { readFile } from 'node:fs/promises';
+import { join } from 'node:path';
+import { INDEX_REVIEW_BRANDS } from '@/lib/index-candidate-review-submissions';
 import sharp from 'sharp';
 import { CDN, VERSION } from '@/lib/cdn';
 
@@ -21,6 +24,12 @@ function release() {
 async function render(id: string) {
   await acquire();
   try {
+    const local = INDEX_REVIEW_BRANDS.find(b => b.id === id)?.logo_svg;
+    let input: Buffer;
+    if (typeof local === 'string' && /^\/submissions\/index-candidates\/[A-Z0-9_-]+\.svg$/.test(local)) {
+      input = await readFile(join(process.cwd(), 'public', local));
+      if (input.length > 2_000_000) throw new Error('large');
+    } else {
     const response = await fetch(`${CDN}/${encodeURIComponent(id)}/logo.svg?v=${VERSION}`, { cache: 'no-store', redirect: 'error', signal: AbortSignal.timeout(6000) });
     if (!response.ok || !response.body) throw new Error('missing');
     const reader = response.body.getReader();
@@ -35,7 +44,8 @@ async function render(id: string) {
         chunks.push(part.value);
       }
     } finally { await reader.cancel(); }
-    const input = Buffer.concat(chunks);
+    input = Buffer.concat(chunks);
+    }
     const svg = input.toString('utf8');
     const references = [...svg.matchAll(/\b(?:[\w-]+:)?href\s*=\s*["']([^"']*)["']|url\(\s*["']?([^)'"\s]*)/gi)];
     if (!/<svg\b/i.test(svg) || /<!DOCTYPE|<!ENTITY|<script\b|<foreignObject\b/i.test(svg) || references.some(m => !(m[1] ?? m[2]).trim().startsWith('#'))) throw new Error('unsupported');

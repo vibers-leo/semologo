@@ -154,7 +154,9 @@ export default function BrandGrid({
         for (const brand of data.brands.slice(0, 18)) {
           const src = typeof brand.logo_png === "string" && brand.logo_png.startsWith("/")
             ? `${brand.logo_png}?v=${VERSION}`
-            : `${CDN}/${brand.id}/logo.png?v=${VERSION}`;
+            : !brand.has_png && !brand.logo_png && typeof brand.logo_svg === "string" && brand.logo_svg.startsWith("/submissions/index-candidates/")
+              ? `/api/logo-preview/?id=${encodeURIComponent(brand.id)}`
+              : `${CDN}/${brand.id}/logo.png?v=${VERSION}`;
           const warm = new window.Image();
           warm.decoding = "async";
           warm.src = src;
@@ -544,7 +546,9 @@ function BrandCard({ brand, onClick, priority, bgVote }: { brand: Brand; onClick
     ? brand.logo_png : pngUrl;
   // Request the published PNG first: transparent derivatives are optional.
   // Missing derivatives must not delay every card before the available original.
-  const candidates = [...new Set([directPng, transparentUrl, `/api/logo-preview/?id=${encodeURIComponent(brand.id)}`])];
+  const recovery = `/api/logo-preview/?id=${encodeURIComponent(brand.id)}`;
+  const localSvgOnly = !hasPng && typeof brand.logo_svg === "string" && brand.logo_svg.startsWith("/submissions/index-candidates/");
+  const candidates = [...new Set(localSvgOnly ? [recovery] : [directPng, transparentUrl, recovery])];
   const initSrc = candidates[0];
 
   return (
