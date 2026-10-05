@@ -1,4 +1,5 @@
 "use client";
+import { generateInverted } from "@/lib/logo-dark-png";
 
 import { useLocale, T } from "@/lib/locale-context";
 import { useEffect, useState, useCallback } from "react";
@@ -139,50 +140,6 @@ function relTime(ts: number) {
 
 type ShareEntry = { emoji: string; ts: number; type?: string; label?: string; file?: string };
 
-async function generateInverted(src: string): Promise<string | null> {
-  return new Promise(resolve => {
-    const img = new Image();
-    img.crossOrigin = "anonymous";
-    img.onload = () => {
-      try {
-        const canvas = document.createElement("canvas");
-        canvas.width = img.naturalWidth || 800;
-        canvas.height = img.naturalHeight || 800;
-        const ctx = canvas.getContext("2d");
-        if (!ctx) { resolve(null); return; }
-        ctx.drawImage(img, 0, 0);
-          const imageData = ctx.getImageData(0, 0, canvas.width, canvas.height);
-          const d = imageData.data;
-
-          // ⚠️ 예전엔 모든 픽셀을 255-값 으로 뒤집었다. 그래서 색이 있는 로고가
-          //    보색이 됐다 — 한국투자증권의 파란 심볼이 주황색이 됐다.
-          //    build-variants.py 의 make_white_version 과 같은 규칙을 쓴다:
-          //      · 무채색(흑백) 로고 → 통째로 흰색으로
-          //      · 색이 있는 로고   → 색은 그대로 두고 **어두운 부분만** 흰색으로
-          //        (검은 배경에서 까맣게 묻히는 글자만 살리는 것)
-          let colored = 0, opaque = 0;
-          for (let i = 0; i < d.length; i += 4) {
-            if (d[i + 3] <= 10) continue;
-            opaque++;
-            if (Math.max(d[i], d[i + 1], d[i + 2]) - Math.min(d[i], d[i + 1], d[i + 2]) > 40) colored++;
-          }
-          const isMono = opaque === 0 || colored / opaque <= 0.02;
-
-          for (let i = 0; i < d.length; i += 4) {
-            if (d[i + 3] <= 10) continue;
-            if (isMono) { d[i] = d[i + 1] = d[i + 2] = 255; continue; }
-            const chroma = Math.max(d[i], d[i + 1], d[i + 2]) - Math.min(d[i], d[i + 1], d[i + 2]);
-            const lum = (d[i] + d[i + 1] + d[i + 2]) / 3;
-            if (chroma <= 40 && lum < 128) { d[i] = d[i + 1] = d[i + 2] = 255; }
-          }
-        ctx.putImageData(imageData, 0, 0);
-        resolve(canvas.toDataURL("image/png"));
-      } catch { resolve(null); }
-    };
-    img.onerror = () => resolve(null);
-    img.src = src;
-  });
-}
 
 function toast(msg: string) {
   if (typeof document === "undefined") return;
@@ -775,7 +732,7 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
 
           {/* 메인 프리뷰 */}
           <div style={{ border:"1px solid #f0f0f2", borderRadius:8, overflow:"hidden", position:"relative" }}>
-            <LogoBox src={previewUrl} alt={en ? brand.name_en || brand.name_ko : brand.name_ko} height={128} padding={16} bg={isLightLogo ? "dark" : "white"} fallback={pngUrl} />
+            <LogoBox src={bgOverride === "dark" ? (invertedUrl || darkPreviewSrc) : previewUrl} alt={en ? brand.name_en || brand.name_ko : brand.name_ko} height={128} padding={16} bg={isLightLogo ? "dark" : "white"} fallback={pngUrl} />
             {brand.original_ai_url && (
               <a href={brand.original_ai_url} target="_blank" rel="noopener noreferrer"
                 style={{ position:"absolute", bottom:6, right:6, display:"inline-flex", alignItems:"center", gap:3, padding:"2px 7px", background:"#eff6ff", border:"1px solid #bfdbfe", borderRadius:10, fontSize: 11, fontWeight:700, color:"#2563eb", textDecoration:"none", letterSpacing:".04em" }}>
@@ -815,7 +772,7 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
                 <div key={t(m.label)} style={{ display:"flex", flexDirection:"column", alignItems:"center", gap:5 }}>
                   <div style={m.style}>
                     {/* eslint-disable-next-line @next/next/no-img-element */}
-                    <img src={previewUrl} alt="" style={{ position:"absolute", inset:"10%", width:"80%", height:"80%", objectFit:"contain", objectPosition:"center" }} onError={e => { e.currentTarget.src = pngUrl; }} />
+                    <img src={bgOverride === "dark" ? (invertedUrl || darkPreviewSrc) : previewUrl} alt="" style={{ position:"absolute", inset:"10%", width:"80%", height:"80%", objectFit:"contain", objectPosition:"center" }} onError={e => { e.currentTarget.src = pngUrl; }} />
                   </div>
                   <span style={{ fontSize: 11, color:"#71717a", textAlign:"center" }}>{t(m.label)}</span>
                 </div>
@@ -859,7 +816,7 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
         <div className="mscroll" style={{ overflowY: isPage ? undefined : "auto", padding:"22px 24px", scrollbarWidth:"thin" }}>
           {/* 인트로 라이트/다크 — 배경별로 어떻게 보이는지 확인용 */}
           <div style={{ display:"grid", gridTemplateColumns:"1fr 1fr", borderRadius:12, overflow:"hidden", height:132, marginBottom:16 }}>
-            <LogoBox src={previewUrl} alt={en ? brand.name_en || brand.name_ko : brand.name_ko} height={132} padding={18} bg={isLightLogo ? "dark" : "white"} fallback={pngUrl} />
+            <LogoBox src={bgOverride === "dark" ? (invertedUrl || darkPreviewSrc) : previewUrl} alt={en ? brand.name_en || brand.name_ko : brand.name_ko} height={132} padding={18} bg={isLightLogo ? "dark" : "white"} fallback={pngUrl} />
             <div style={{ ...(invertedUrl ? { background:"#111114" } : getDarkPreviewStyle(visibility)), position:"relative", height:132, cursor: "pointer", outline: bgOverride ? "2px solid #22c55e" : undefined, outlineOffset: -2 }}
                  onClick={toggleBg}
                  title={isLightLogo ? "클릭: 흰 배경으로 되돌리기" : "클릭: 검정 배경으로 메인 노출"}>

@@ -1,4 +1,8 @@
 "use client";
+import { collection, getDocs, query as firestoreQuery, where } from "firebase/firestore";
+import { getClientDb } from "@/lib/firebase";
+import { analyzeLogoVisibility } from "@/lib/logo-visibility";
+import { generateInverted } from "@/lib/logo-dark-png";
 
 import { useLocale, T } from "@/lib/locale-context";
 import { useMemo, useState, useEffect, useRef, useDeferredValue } from "react";
@@ -87,6 +91,14 @@ export default function BrandGrid({
   const [flagged, setFlagged] = useState<Set<string>>(new Set());
   // 모달에서 저장한 공개 배경 투표를 같은 화면의 카드에도 즉시 반영한다.
   const [bgVotes, setBgVotes] = useState<Record<string, "dark" | "light">>({});
+  useEffect(() => {
+    let alive = true;
+    getDocs(firestoreQuery(collection(getClientDb(), "logo_votes"), where("bg", "in", ["dark", "light"])))
+      .then(snapshot => { if (alive) setBgVotes(prev => ({ ...Object.fromEntries(snapshot.docs.map(doc => [doc.id, doc.data().bg])), ...prev })); })
+      .catch(() => {});
+    return () => { alive = false; };
+  }, []);
+
   useEffect(() => {
     const onBgVote = (event: Event) => {
       const detail = (event as CustomEvent<{ brandId?: string; bg?: "dark" | "light" }>).detail;
@@ -549,14 +561,28 @@ function BrandCard({ brand, onClick, priority, bgVote }: { brand: Brand; onClick
   const recovery = `/api/logo-preview/?id=${encodeURIComponent(brand.id)}`;
   const localSvgOnly = !hasPng && typeof brand.logo_svg === "string" && brand.logo_svg.startsWith("/submissions/index-candidates/");
   const candidates = [...new Set(localSvgOnly ? [recovery] : [directPng, transparentUrl, recovery])];
-  const initSrc = candidates[0];
+  const [votedSrc, setVotedSrc] = useState<string | null>(null);
+  useEffect(() => {
+    let alive = true;
+    setVotedSrc(null);
+    if (bgVote === "dark") {
+      analyzeLogoVisibility(brand.id, pngUrl, transparentUrl).then(async result => {
+        const src = result.darkMode === "white-only"
+          ? await generateInverted(transparentUrl) ?? await generateInverted(directPng)
+          : result.hasTransparent ? transparentUrl : directPng;
+        if (alive) setVotedSrc(src);
+      }).catch(() => {});
+    }
+    return () => { alive = false; };
+  }, [bgVote, brand.id, pngUrl, transparentUrl, directPng]);
+  const initSrc = votedSrc || candidates[0];
 
   return (
     <div className="logo-card" onClick={() => { trackEvent("brand_opened", { brand_id: brand.id, category: brand.category || "기타" }); sendHit(brand.id, "view"); onClick(); }}>
       {/* 흰색 로고는 밝은 체커 배경에서 안 보여 '빈 카드'처럼 된다 → 어두운 배경 */}
               <div className="card-preview" style={(bgVote === "dark" || (!bgVote && (brand.light || brand.light_logo || brand.dark_variant === "white"))) ? { background: "#18181b", backgroundImage: "none" } : undefined}>
         {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img src={initSrc} alt={en ? brand.name_en || brand.name_ko : brand.name_ko} width={320} height={180}
+        <img key={initSrc} src={initSrc} alt={en ? brand.name_en || brand.name_ko : brand.name_ko} width={320} height={180}
           decoding="async" fetchPriority={priority ? "high" : "auto"} loading={priority ? "eager" : "lazy"}
           onLoad={e => {
             // 재시도로 살아났으면 자리표시자를 걷어낸다
