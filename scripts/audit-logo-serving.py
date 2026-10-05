@@ -18,7 +18,10 @@ def main():
  def check(b):
   direct=b.get('logo_png');u=(base+direct if direct.startswith('/') else direct) if isinstance(direct,str) and '.png' in direct else cdn+'/'+urllib.parse.quote(b['id'])+'/logo.png'
   result=get(u);r={'id':b['id'],'name':b['name_ko'],'png_url':u,'primary':result,'local_svg':isinstance(b.get('logo_svg'),str) and b['logo_svg'].startswith('/')}
-  if not(result['status']==200 and result['valid_png']):r['recovery']=get(base+'/api/logo-preview/?id='+urllib.parse.quote(b['id']))
+  if not(result['status']==200 and result['valid_png']):
+   transparent=cdn+'/'+urllib.parse.quote(b['id'])+'/logo-transparent.png';r['transparent']=get(transparent)
+   if r['transparent']['status']==200 and r['transparent']['valid_png']:r['recovery']=r['transparent'];r['recovery_url']=transparent
+   else:r['recovery']=get(base+'/api/logo-preview/?id='+urllib.parse.quote(b['id']));r['recovery_url']=base+'/api/logo-preview/?id='+urllib.parse.quote(b['id'])
   return r
  rows=[]
  with concurrent.futures.ThreadPoolExecutor(max_workers=3) as ex:
