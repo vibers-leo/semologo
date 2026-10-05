@@ -6,13 +6,13 @@
 .page :is(button,input,select,a):focus-visible { outline: 3px solid #a5b4fc; outline-offset: 3px; }
 .heading { display: flex; align-items: center; justify-content: space-between; gap: 24px; margin-bottom: 28px; }
 .eyebrow { font-size: 11px; font-weight: 700; letter-spacing: .15em; color: #71717a; }
-.heading h1 { font-size: clamp(24px,3vw,34px); letter-spacing: -.04em; margin: 8px 0 10px; }
+.heading h1 { font-size: clamp(24px,3vw,34px); font-weight: 700; letter-spacing: -.04em; margin: 8px 0 10px; }
 .heading p, .hint { color: #71717a; font-size: 13px; line-height: 1.7; }
 .page .primary { color: #fff; background: #18181b; padding: 13px 20px; white-space: nowrap; text-decoration: none; border-radius: 10px; font-weight: 600; }
 .page .primary:hover:not(:disabled) { background: #333; }
 .saved { display: flex; gap: 8px; overflow: auto; padding-bottom: 16px; margin-bottom: 8px; }
 .saved button { white-space: nowrap; font-size: 13px; }
-.saved button[aria-pressed=true] { background: #18181b; color: white; }
+.page .saved button[aria-pressed=true], .page .saved button[aria-pressed=true]:hover { background: #18181b; color: white; }
 .workspace { display: grid; grid-template-columns: 320px minmax(0,1fr); gap: 24px; align-items: start; }
 .library, .editor { border: 1px solid #e4e4e7; border-radius: 16px; padding: 24px; min-width: 0; background: #fff; }
 .sectionTitle { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 20px; }
