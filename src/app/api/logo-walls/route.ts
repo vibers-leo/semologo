@@ -55,6 +55,9 @@ async function handle(request: Request) {
       return reply({ error: '제목과 최대 100개의 브랜드를 선택해 주세요.' }, 400);
     }
     if (request.method === 'PUT' && (!id || !Number.isInteger(body.version) || body.version < 1)) return reply({ error: 'ID와 저장 버전이 필요해요.' }, 400);
+    const settings = body.settings ?? { background: 'auto', columns: 4 };
+    if (!settings || !['auto', 'light', 'dark'].includes(settings.background) || ![2, 3, 4, 6].includes(settings.columns)) return reply({ error: '배경과 배치 설정을 확인해 주세요.' }, 400);
+    const layout = { background: settings.background, columns: settings.columns };
     const db = await pool.connect();
     try {
       await db.query('BEGIN');
@@ -64,9 +67,9 @@ async function handle(request: Request) {
       const wallId = request.method === 'POST' ? randomUUID() : id!;
       let wall;
       if (request.method === 'POST') {
-        wall = await db.query('INSERT INTO semologo.logo_walls(id,owner_id,title) VALUES($1,$2,$3) RETURNING id,title,version', [wallId, uid, body.title.trim()]);
+        wall = await db.query('INSERT INTO semologo.logo_walls(id,owner_id,title,settings) VALUES($1,$2,$3,$4) RETURNING id,title,version,settings', [wallId, uid, body.title.trim(), layout]);
       } else {
-        wall = await db.query('UPDATE semologo.logo_walls SET title=$3,version=version+1,updated_at=now() WHERE id=$1 AND owner_id=$2 AND version=$4 RETURNING id,title,version', [wallId, uid, body.title.trim(), body.version]);
+        wall = await db.query('UPDATE semologo.logo_walls SET title=$3,version=version+1,updated_at=now(),settings=$5 WHERE id=$1 AND owner_id=$2 AND version=$4 RETURNING id,title,version,settings', [wallId, uid, body.title.trim(), body.version, layout]);
         if (!wall.rowCount) { await db.query('ROLLBACK'); return reply({ error: '로고월이 변경됐거나 접근할 수 없어요. 다시 불러와 주세요.' }, 409); }
         await db.query('DELETE FROM semologo.logo_wall_items WHERE wall_id=$1', [wallId]);
       }
@@ -74,7 +77,7 @@ async function handle(request: Request) {
         const brandId = body.brandIds[i];
         const brand = byId.get(brandId);
         // Freeze the selected metadata. Export will later materialize immutable assets.
-        const snapshot = { name: brand.name_ko, logo_png: brand.logo_png, has_png: brand.has_png, source: brand.sources, captured_at: new Date().toISOString() };
+        const snapshot = { name: brand.name_ko, logo_png: brand.logo_png, has_png: brand.has_png, light: brand.light || brand.light_logo || brand.dark_variant === 'white', source: brand.sources, captured_at: new Date().toISOString() };
         await db.query('INSERT INTO semologo.logo_wall_items(wall_id,item_id,brand_id,position,asset_snapshot) VALUES($1,$2,$3,$4,$5)', [wallId, randomUUID(), brandId, i, snapshot]);
       }
       await db.query('COMMIT');

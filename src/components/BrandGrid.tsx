@@ -540,8 +540,8 @@ function BrandCard({ brand, onClick, priority, bgVote }: { brand: Brand; onClick
   const transparentUrl = `${CDN}/${brand.id}/logo-transparent.png?v=${VERSION}`;
   const hasSvg = !!(brand.logo_svg || brand.has_svg);
   const hasPng = !!(brand.logo_png || brand.has_png);
-  const directPng = typeof brand.logo_png === "string" && brand.logo_png.startsWith("/")
-    ? `${brand.logo_png}?v=${VERSION}` : pngUrl;
+  const directPng = typeof brand.logo_png === "string" && /\.png(?:\?|$)/i.test(brand.logo_png)
+    ? brand.logo_png : pngUrl;
   // PNG 원본은 기관 배포물의 흰 캔버스를 포함하는 경우가 많다.
   // 카드에서는 자동으로 여백·흰 배경을 제거한 파생물을 먼저 보여주고,
   // 원본 파일은 상세 화면의 다운로드 카드에서 그대로 제공한다.
@@ -550,9 +550,8 @@ function BrandCard({ brand, onClick, priority, bgVote }: { brand: Brand; onClick
   // parses blocking the first viewport during fast scrolling.
   // 카드와 미리보기는 항상 PNG만 사용한다. SVG는 상세 화면의 다운로드
   // 링크에서만 제공해 첫 화면의 벡터 파싱과 느린 fallback을 막는다.
-  const initSrc = hasPng
-    ? (typeof brand.logo_png === "string" && brand.logo_png.startsWith("/") ? directPng : transparentUrl)
-    : transparentUrl;
+  const candidates = [...new Set([transparentUrl, directPng, `/api/logo-preview/?id=${encodeURIComponent(brand.id)}`])];
+  const initSrc = candidates[0];
 
   return (
     <div className="logo-card" onClick={() => { trackEvent("brand_opened", { brand_id: brand.id, category: brand.category || "기타" }); sendHit(brand.id, "view"); onClick(); }}>
@@ -572,38 +571,13 @@ function BrandCard({ brand, onClick, priority, bgVote }: { brand: Brand; onClick
           }}
           onError={e => {
             const img = e.currentTarget as HTMLImageElement;
-            if (hasPng && img.src !== directPng) {
-              img.src = directPng;
+            // Walk each PNG candidate once; never bounce between two missing files.
+            const next = Number(img.dataset.candidate ?? 0) + 1;
+            if (next < candidates.length) {
+              img.dataset.candidate = String(next);
+              img.src = candidates[next];
               return;
             }
-            // 일부 레거시 항목은 metadata에는 PNG가 있지만 기본 파일 대신
-            // 투명/다크 변형만 CDN에 남아 있다. 카드가 빈칸이 되지 않도록 한 번 더 시도한다.
-            if (img.src !== transparentUrl) {
-              img.src = transparentUrl;
-              return;
-            }
-            // 한 번은 다시 시도한다.
-            // 빠르게 스크롤하면 요청이 몰려 CDN rate-limit·취소로 실패하는데,
-            // 그건 파일이 없는 게 아니라 일시적인 것이다. 잠깐 뒤 재시도하면
-            // 대부분 복구된다 (실측: 전량 실패 → 전량 복구).
-            // 실패는 대부분 '파일 없음'이 아니라 요청 폭주로 CDN 이 끊은 것이다.
-            // 스로틀이 풀릴 때까지 지수 백오프로 기다렸다 다시 시도한다.
-            // (2회·최대 1.2초로는 부족해 자리표시자가 그대로 남았다)
-            const tries = Number(img.dataset.retry ?? 0);
-            if (tries < 4) {
-              img.dataset.retry = String(tries + 1);
-              const src = img.src;
-              const wait = 500 * Math.pow(2, tries) + Math.random() * 400;
-              setTimeout(() => { img.src = ""; img.src = src; }, wait);
-              return;
-            }
-            // 카드를 숨기면 안 된다.
-            // 빠르게 스크롤하면 lazy 이미지가 한꺼번에 요청되면서 CDN
-            // rate-limit·브라우저 취소로 onError 가 무더기로 난다. 그때 카드를
-            // display:none 하면 그리드가 계속 줄어들어(실측: 1,500장 중 1,260장
-            // 숨김) 스크롤 위치 아래가 텅 비어 보인다.
-            // 일시적 실패와 진짜 없는 파일은 구분할 수 없으므로, 카드는 그대로
-            // 두고 자리표시자만 띄운다.
             img.style.display = "none";
             const box = img.parentElement;
             if (box && !box.querySelector(".card-fallback")) {
