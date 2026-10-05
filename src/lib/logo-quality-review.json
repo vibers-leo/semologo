@@ -1,0 +1,747 @@
+{
+  "ambseoulesteriit": {
+    "reviewed_at": "2026-10-05",
+    "status": "quarantined",
+    "reason": "대표 PNG와 복구 경로 모두 제공 불가. 원본 보존 후 재수집 필요",
+    "down_at_review": 1
+  },
+  "arte-2": {
+    "reviewed_at": "2026-10-05",
+    "status": "merged",
+    "reason": "정상 동일 기관 레코드 확인. Facebook 오수집본 제외",
+    "replacement_id": "gongu-ci-1603",
+    "down_at_review": 1
+  },
+  "bakmunhicehs": {
+    "reviewed_at": "2026-10-05",
+    "status": "quarantined",
+    "reason": "대표 PNG와 복구 경로 모두 제공 불가. 원본 보존 후 재수집 필요",
+    "down_at_review": 1
+  },
+  "boditech": {
+    "reviewed_at": "2026-10-05",
+    "status": "quarantined",
+    "reason": "대표 PNG와 복구 경로 모두 제공 불가. 원본 보존 후 재수집 필요",
+    "down_at_review": 1
+  },
+  "bonghwa": {
+    "reviewed_at": "2026-10-05",
+    "status": "pending",
+    "reason": "대표 자산 확인. 투표 사유/공식 대체 원본 추가 확인 필요",
+    "down_at_review": 1
+  },
+  "boor": {
+    "reviewed_at": "2026-10-05",
+    "status": "quarantined",
+    "reason": "대표 PNG와 복구 경로 모두 제공 불가. 원본 보존 후 재수집 필요",
+    "down_at_review": 1
+  },
+  "busan": {
+    "reviewed_at": "2026-10-05",
+    "status": "pending",
+    "reason": "대표 자산 확인. 투표 사유/공식 대체 원본 추가 확인 필요",
+    "down_at_review": 1
+  },
+  "busanipark": {
+    "reviewed_at": "2026-10-05",
+    "status": "quarantined",
+    "reason": "대표 PNG와 복구 경로 모두 제공 불가. 원본 보존 후 재수집 필요",
+    "down_at_review": 1
+  },
+  "castelbajac": {
+    "reviewed_at": "2026-10-05",
+    "status": "quarantined",
+    "reason": "대표 PNG와 복구 경로 모두 제공 불가. 원본 보존 후 재수집 필요",
+    "down_at_review": 1
+  },
+  "cnofnb": {
+    "reviewed_at": "2026-10-05",
+    "status": "quarantined",
+    "reason": "공지사항 버튼",
+    "down_at_review": 1
+  },
+  "conus": {
+    "reviewed_at": "2026-10-05",
+    "status": "quarantined",
+    "reason": "대표 PNG와 복구 경로 모두 제공 불가. 원본 보존 후 재수집 필요",
+    "down_at_review": 1
+  },
+  "coreedusuddiplomatiegouvci": {
+    "reviewed_at": "2026-10-05",
+    "status": "quarantined",
+    "reason": "대표 PNG와 복구 경로 모두 제공 불가. 원본 보존 후 재수집 필요",
+    "down_at_review": 1
+  },
+  "cptime": {
+    "reviewed_at": "2026-10-05",
+    "status": "quarantined",
+    "reason": "음식 상품 사진",
+    "down_at_review": 1
+  },
+  "daehyun": {
+    "reviewed_at": "2026-10-05",
+    "status": "quarantined",
+    "reason": "대표 PNG와 복구 경로 모두 제공 불가. 원본 보존 후 재수집 필요",
+    "down_at_review": 1
+  },
+  "daejooinc": {
+    "reviewed_at": "2026-10-05",
+    "status": "quarantined",
+    "reason": "대표 PNG와 복구 경로 모두 제공 불가. 원본 보존 후 재수집 필요",
+    "down_at_review": 1
+  },
+  "daejung": {
+    "reviewed_at": "2026-10-05",
+    "status": "pending",
+    "reason": "대표 자산 확인. 투표 사유/공식 대체 원본 추가 확인 필요",
+    "down_at_review": 1
+  },
+  "daisyUI": {
+    "reviewed_at": "2026-10-05",
+    "status": "repaired",
+    "reason": "정상 내부 SVG의 PNG 복구 연결 확인",
+    "down_at_review": 1
+  },
+  "daisyUI-icon": {
+    "reviewed_at": "2026-10-05",
+    "status": "repaired",
+    "reason": "정상 내부 SVG의 PNG 복구 연결 확인",
+    "down_at_review": 1
+  },
+  "descente-co": {
+    "reviewed_at": "2026-10-05",
+    "status": "pending",
+    "reason": "대표 자산 확인. 투표 사유/공식 대체 원본 추가 확인 필요",
+    "down_at_review": 1
+  },
+  "donggu": {
+    "reviewed_at": "2026-10-05",
+    "status": "pending",
+    "reason": "대표 자산 확인. 투표 사유/공식 대체 원본 추가 확인 필요",
+    "down_at_review": 1
+  },
+  "dsol": {
+    "reviewed_at": "2026-10-05",
+    "status": "quarantined",
+    "reason": "대표 PNG와 복구 경로 모두 제공 불가. 원본 보존 후 재수집 필요",
+    "down_at_review": 1
+  },
+  "eagon": {
+    "reviewed_at": "2026-10-05",
+    "status": "quarantined",
+    "reason": "대표 PNG와 복구 경로 모두 제공 불가. 원본 보존 후 재수집 필요",
+    "down_at_review": 1
+  },
+  "ecorecancilleriagobar": {
+    "reviewed_at": "2026-10-05",
+    "status": "quarantined",
+    "reason": "대표 PNG와 복구 경로 모두 제공 불가. 원본 보존 후 재수집 필요",
+    "down_at_review": 1
+  },
+  "edonghak": {
+    "reviewed_at": "2026-10-05",
+    "status": "quarantined",
+    "reason": "책 상품 사진",
+    "down_at_review": 1
+  },
+  "eeris": {
+    "reviewed_at": "2026-10-05",
+    "status": "quarantined",
+    "reason": "대표 PNG와 복구 경로 모두 제공 불가. 원본 보존 후 재수집 필요",
+    "down_at_review": 1
+  },
+  "enmkes": {
+    "reviewed_at": "2026-10-05",
+    "status": "quarantined",
+    "reason": "대표 PNG와 복구 경로 모두 제공 불가. 원본 보존 후 재수집 필요",
+    "down_at_review": 1
+  },
+  "enolja": {
+    "reviewed_at": "2026-10-05",
+    "status": "quarantined",
+    "reason": "대표 PNG와 복구 경로 모두 제공 불가. 원본 보존 후 재수집 필요",
+    "down_at_review": 1
+  },
+  "epsagon": {
+    "reviewed_at": "2026-10-05",
+    "status": "quarantined",
+    "reason": "잘린 워드마크",
+    "down_at_review": 1
+  },
+  "gbpolice": {
+    "reviewed_at": "2026-10-05",
+    "status": "quarantined",
+    "reason": "대표 PNG와 복구 경로 모두 제공 불가. 원본 보존 후 재수집 필요",
+    "down_at_review": 1
+  },
+  "gbpolicego": {
+    "reviewed_at": "2026-10-05",
+    "status": "quarantined",
+    "reason": "대표 PNG와 복구 경로 모두 제공 불가. 원본 보존 후 재수집 필요",
+    "down_at_review": 1
+  },
+  "gimcheon": {
+    "reviewed_at": "2026-10-05",
+    "status": "quarantined",
+    "reason": "잘린 심볼",
+    "down_at_review": 1
+  },
+  "gobpe": {
+    "reviewed_at": "2026-10-05",
+    "status": "quarantined",
+    "reason": "대표 PNG와 복구 경로 모두 제공 불가. 원본 보존 후 재수집 필요",
+    "down_at_review": 1
+  },
+  "google-gsuite": {
+    "reviewed_at": "2026-10-05",
+    "status": "quarantined",
+    "reason": "이름 첫 글자 대체 이미지",
+    "down_at_review": 1
+  },
+  "h21hani": {
+    "reviewed_at": "2026-10-05",
+    "status": "quarantined",
+    "reason": "대표 PNG와 복구 경로 모두 제공 불가. 원본 보존 후 재수집 필요",
+    "down_at_review": 1
+  },
+  "idisglobal": {
+    "reviewed_at": "2026-10-05",
+    "status": "quarantined",
+    "reason": "대표 PNG와 복구 경로 모두 제공 불가. 원본 보존 후 재수집 필요",
+    "down_at_review": 1
+  },
+  "incheonghicehs": {
+    "reviewed_at": "2026-10-05",
+    "status": "quarantined",
+    "reason": "대표 PNG와 복구 경로 모두 제공 불가. 원본 보존 후 재수집 필요",
+    "down_at_review": 1
+  },
+  "infokorail": {
+    "reviewed_at": "2026-10-05",
+    "status": "quarantined",
+    "reason": "대표 PNG와 복구 경로 모두 제공 불가. 원본 보존 후 재수집 필요",
+    "down_at_review": 1
+  },
+  "jejubuckwheat": {
+    "reviewed_at": "2026-10-05",
+    "status": "quarantined",
+    "reason": "검색 버튼",
+    "down_at_review": 1
+  },
+  "jinjumuseumgo": {
+    "reviewed_at": "2026-10-05",
+    "status": "pending",
+    "reason": "대표 자산 확인. 투표 사유/공식 대체 원본 추가 확인 필요",
+    "down_at_review": 1
+  },
+  "jinseonsenhs": {
+    "reviewed_at": "2026-10-05",
+    "status": "quarantined",
+    "reason": "대표 PNG와 복구 경로 모두 제공 불가. 원본 보존 후 재수집 필요",
+    "down_at_review": 1
+  },
+  "kb-financial-group": {
+    "reviewed_at": "2026-10-05",
+    "status": "pending",
+    "reason": "대표 자산 확인. 투표 사유/공식 대체 원본 추가 확인 필요",
+    "down_at_review": 1
+  },
+  "kca": {
+    "reviewed_at": "2026-10-05",
+    "status": "repaired",
+    "reason": "정상 KCA 로고 가공본 확인",
+    "down_at_review": 0
+  },
+  "khu": {
+    "reviewed_at": "2026-10-05",
+    "status": "quarantined",
+    "reason": "대학 대신 Instagram 로고",
+    "down_at_review": 1
+  },
+  "kigepe": {
+    "reviewed_at": "2026-10-05",
+    "status": "quarantined",
+    "reason": "국가상징 버튼",
+    "down_at_review": 1
+  },
+  "kihasa": {
+    "reviewed_at": "2026-10-05",
+    "status": "pending",
+    "reason": "대표 자산 확인. 투표 사유/공식 대체 원본 추가 확인 필요",
+    "down_at_review": 1
+  },
+  "kipi": {
+    "reviewed_at": "2026-10-05",
+    "status": "quarantined",
+    "reason": "대표 PNG와 복구 경로 모두 제공 불가. 원본 보존 후 재수집 필요",
+    "down_at_review": 1
+  },
+  "kips": {
+    "reviewed_at": "2026-10-05",
+    "status": "quarantined",
+    "reason": "대표 PNG와 복구 경로 모두 제공 불가. 원본 보존 후 재수집 필요",
+    "down_at_review": 1
+  },
+  "kiria": {
+    "reviewed_at": "2026-10-05",
+    "status": "pending",
+    "reason": "대표 자산 확인. 투표 사유/공식 대체 원본 추가 확인 필요",
+    "down_at_review": 1
+  },
+  "klngovmy": {
+    "reviewed_at": "2026-10-05",
+    "status": "quarantined",
+    "reason": "대표 PNG와 복구 경로 모두 제공 불가. 원본 보존 후 재수집 필요",
+    "down_at_review": 1
+  },
+  "korailtravel": {
+    "reviewed_at": "2026-10-05",
+    "status": "quarantined",
+    "reason": "대표 PNG와 복구 경로 모두 제공 불가. 원본 보존 후 재수집 필요",
+    "down_at_review": 1
+  },
+  "korcham": {
+    "reviewed_at": "2026-10-05",
+    "status": "quarantined",
+    "reason": "대한상의 대신 금융위원회 로고",
+    "down_at_review": 1
+  },
+  "korea-investment-corporation": {
+    "reviewed_at": "2026-10-05",
+    "status": "quarantined",
+    "reason": "대표 PNG와 복구 경로 모두 제공 불가. 원본 보존 후 재수집 필요",
+    "down_at_review": 1
+  },
+  "korean-environmental-education-network": {
+    "reviewed_at": "2026-10-05",
+    "status": "pending",
+    "reason": "대표 자산 확인. 투표 사유/공식 대체 원본 추가 확인 필요",
+    "down_at_review": 1
+  },
+  "koreha": {
+    "reviewed_at": "2026-10-05",
+    "status": "pending",
+    "reason": "대표 자산 확인. 투표 사유/공식 대체 원본 추가 확인 필요",
+    "down_at_review": 1
+  },
+  "kovo": {
+    "reviewed_at": "2026-10-05",
+    "status": "quarantined",
+    "reason": "우리카드 배구단 대신 KOVO 연맹 로고",
+    "down_at_review": 1
+  },
+  "kpipa": {
+    "reviewed_at": "2026-10-05",
+    "status": "quarantined",
+    "reason": "대표 PNG와 복구 경로 모두 제공 불가. 원본 보존 후 재수집 필요",
+    "down_at_review": 1
+  },
+  "kpxls": {
+    "reviewed_at": "2026-10-05",
+    "status": "quarantined",
+    "reason": "10px 폭의 UI 조각",
+    "down_at_review": 1
+  },
+  "krmotors": {
+    "reviewed_at": "2026-10-05",
+    "status": "quarantined",
+    "reason": "내용이 보이지 않는 잘린 이미지",
+    "down_at_review": 1
+  },
+  "krspine": {
+    "reviewed_at": "2026-10-05",
+    "status": "quarantined",
+    "reason": "대표 PNG와 복구 경로 모두 제공 불가. 원본 보존 후 재수집 필요",
+    "down_at_review": 1
+  },
+  "kvic": {
+    "reviewed_at": "2026-10-05",
+    "status": "quarantined",
+    "reason": "대표 PNG와 복구 경로 모두 제공 불가. 원본 보존 후 재수집 필요",
+    "down_at_review": 1
+  },
+  "lemi": {
+    "reviewed_at": "2026-10-05",
+    "status": "quarantined",
+    "reason": "대표 PNG와 복구 경로 모두 제공 불가. 원본 보존 후 재수집 필요",
+    "down_at_review": 1
+  },
+  "lfcorp": {
+    "reviewed_at": "2026-10-05",
+    "status": "quarantined",
+    "reason": "대표 PNG와 복구 경로 모두 제공 불가. 원본 보존 후 재수집 필요",
+    "down_at_review": 1
+  },
+  "logo-qr": {
+    "reviewed_at": "2026-10-05",
+    "status": "quarantined",
+    "reason": "브랜드명이 없는 LG 아이콘 조각",
+    "down_at_review": 1
+  },
+  "macOS": {
+    "reviewed_at": "2026-10-05",
+    "status": "repaired",
+    "reason": "정상 워드마크 PNG 복구 확인",
+    "down_at_review": 1
+  },
+  "malja": {
+    "reviewed_at": "2026-10-05",
+    "status": "quarantined",
+    "reason": "업체 대신 TikTok 로고",
+    "down_at_review": 1
+  },
+  "megabion": {
+    "reviewed_at": "2026-10-05",
+    "status": "pending",
+    "reason": "대표 자산 확인. 투표 사유/공식 대체 원본 추가 확인 필요",
+    "down_at_review": 1
+  },
+  "ministry-of-data-and-statistics": {
+    "reviewed_at": "2026-10-05",
+    "status": "pending",
+    "reason": "대표 자산 확인. 투표 사유/공식 대체 원본 추가 확인 필요",
+    "down_at_review": 1
+  },
+  "moe-go": {
+    "reviewed_at": "2026-10-05",
+    "status": "quarantined",
+    "reason": "대표 PNG와 복구 경로 모두 제공 불가. 원본 보존 후 재수집 필요",
+    "down_at_review": 1
+  },
+  "mofago": {
+    "reviewed_at": "2026-10-05",
+    "status": "pending",
+    "reason": "대표 자산 확인. 투표 사유/공식 대체 원본 추가 확인 필요",
+    "down_at_review": 1
+  },
+  "museumgo": {
+    "reviewed_at": "2026-10-05",
+    "status": "pending",
+    "reason": "대표 자산 확인. 투표 사유/공식 대체 원본 추가 확인 필요",
+    "down_at_review": 1
+  },
+  "ncc-3": {
+    "reviewed_at": "2026-10-05",
+    "status": "quarantined",
+    "reason": "대표 PNG와 복구 경로 모두 제공 불가. 원본 보존 후 재수집 필요",
+    "down_at_review": 1
+  },
+  "ndtigo": {
+    "reviewed_at": "2026-10-05",
+    "status": "quarantined",
+    "reason": "외부 링크 버튼",
+    "down_at_review": 1
+  },
+  "nfago": {
+    "reviewed_at": "2026-10-05",
+    "status": "quarantined",
+    "reason": "국가상징 링크 배너",
+    "down_at_review": 1
+  },
+  "nrc-2": {
+    "reviewed_at": "2026-10-05",
+    "status": "quarantined",
+    "reason": "대표 PNG와 복구 경로 모두 제공 불가. 원본 보존 후 재수집 필요",
+    "down_at_review": 1
+  },
+  "ociholdings": {
+    "reviewed_at": "2026-10-05",
+    "status": "quarantined",
+    "reason": "대표 PNG와 복구 경로 모두 제공 불가. 원본 보존 후 재수집 필요",
+    "down_at_review": 1
+  },
+  "official-ci-08": {
+    "reviewed_at": "2026-10-05",
+    "status": "quarantined",
+    "reason": "대표 PNG와 복구 경로 모두 제공 불가. 원본 보존 후 재수집 필요",
+    "down_at_review": 1
+  },
+  "official-ci-40": {
+    "reviewed_at": "2026-10-05",
+    "status": "quarantined",
+    "reason": "대표 PNG와 복구 경로 모두 제공 불가. 원본 보존 후 재수집 필요",
+    "down_at_review": 1
+  },
+  "official-ci-next-01": {
+    "reviewed_at": "2026-10-05",
+    "status": "quarantined",
+    "reason": "기관 대신 Gabia 로고",
+    "down_at_review": 1
+  },
+  "official-ci-next-03": {
+    "reviewed_at": "2026-10-05",
+    "status": "quarantined",
+    "reason": "23x15 버튼 아이콘",
+    "down_at_review": 1
+  },
+  "official-ci-next-04": {
+    "reviewed_at": "2026-10-05",
+    "status": "quarantined",
+    "reason": "규격 안내 포함한 CI 문서",
+    "down_at_review": 1
+  },
+  "official-ci-next-09": {
+    "reviewed_at": "2026-10-05",
+    "status": "quarantined",
+    "reason": "기관 대신 Gabia 로고",
+    "down_at_review": 1
+  },
+  "official-ci-next-10": {
+    "reviewed_at": "2026-10-05",
+    "status": "quarantined",
+    "reason": "내용이 보이지 않는 이미지",
+    "down_at_review": 1
+  },
+  "onjeongdonkatsu": {
+    "reviewed_at": "2026-10-05",
+    "status": "quarantined",
+    "reason": "상품 사진",
+    "down_at_review": 1
+  },
+  "osan-cultural-foundation": {
+    "reviewed_at": "2026-10-05",
+    "status": "quarantined",
+    "reason": "다중 CI 안내 문서",
+    "down_at_review": 1
+  },
+  "oxc-dark": {
+    "reviewed_at": "2026-10-05",
+    "status": "repaired",
+    "reason": "정상 다크용 투명 PNG 대표 적용",
+    "preview_file": "logo-transparent.png",
+    "light": true,
+    "down_at_review": 1
+  },
+  "physiostudioio": {
+    "reviewed_at": "2026-10-05",
+    "status": "pending",
+    "reason": "대표 자산 확인. 투표 사유/공식 대체 원본 추가 확인 필요",
+    "down_at_review": 1
+  },
+  "playd": {
+    "reviewed_at": "2026-10-05",
+    "status": "quarantined",
+    "reason": "대표 PNG와 복구 경로 모두 제공 불가. 원본 보존 후 재수집 필요",
+    "down_at_review": 1
+  },
+  "policeac": {
+    "reviewed_at": "2026-10-05",
+    "status": "quarantined",
+    "reason": "국가상징 링크 배너",
+    "down_at_review": 1
+  },
+  "psipoliceac": {
+    "reviewed_at": "2026-10-05",
+    "status": "quarantined",
+    "reason": "100% 진행률 표시",
+    "down_at_review": 1
+  },
+  "rolldown-dark": {
+    "reviewed_at": "2026-10-05",
+    "status": "repaired",
+    "reason": "정상 다크용 투명 PNG 대표 적용",
+    "preview_file": "logo-transparent.png",
+    "light": true,
+    "down_at_review": 1
+  },
+  "sac": {
+    "reviewed_at": "2026-10-05",
+    "status": "quarantined",
+    "reason": "대표 PNG와 복구 경로 모두 제공 불가. 원본 보존 후 재수집 필요",
+    "down_at_review": 1
+  },
+  "salondepishon": {
+    "reviewed_at": "2026-10-05",
+    "status": "quarantined",
+    "reason": "업체 대신 영국 국기",
+    "down_at_review": 1
+  },
+  "samwonsteel": {
+    "reviewed_at": "2026-10-05",
+    "status": "quarantined",
+    "reason": "대표 PNG와 복구 경로 모두 제공 불가. 원본 보존 후 재수집 필요",
+    "down_at_review": 1
+  },
+  "schem": {
+    "reviewed_at": "2026-10-05",
+    "status": "quarantined",
+    "reason": "업체 대신 태극기",
+    "down_at_review": 1
+  },
+  "schooljjego": {
+    "reviewed_at": "2026-10-05",
+    "status": "quarantined",
+    "reason": "학교 대신 태극기",
+    "down_at_review": 1
+  },
+  "senko": {
+    "reviewed_at": "2026-10-05",
+    "status": "quarantined",
+    "reason": "메뉴 버튼",
+    "down_at_review": 1
+  },
+  "seoulhyumc": {
+    "reviewed_at": "2026-10-05",
+    "status": "quarantined",
+    "reason": "대표 PNG와 복구 경로 모두 제공 불가. 원본 보존 후 재수집 필요",
+    "down_at_review": 1
+  },
+  "sindoh-co-ltd": {
+    "reviewed_at": "2026-10-05",
+    "status": "quarantined",
+    "reason": "대표 PNG와 복구 경로 모두 제공 불가. 원본 보존 후 재수집 필요",
+    "down_at_review": 1
+  },
+  "snstech": {
+    "reviewed_at": "2026-10-05",
+    "status": "quarantined",
+    "reason": "대표 PNG와 복구 경로 모두 제공 불가. 원본 보존 후 재수집 필요",
+    "down_at_review": 1
+  },
+  "sonosa": {
+    "reviewed_at": "2026-10-05",
+    "status": "quarantined",
+    "reason": "대표 PNG와 복구 경로 모두 제공 불가. 원본 보존 후 재수집 필요",
+    "down_at_review": 1
+  },
+  "tenasiahankyung": {
+    "reviewed_at": "2026-10-05",
+    "status": "quarantined",
+    "reason": "대표 PNG와 복구 경로 모두 제공 불가. 원본 보존 후 재수집 필요",
+    "down_at_review": 1
+  },
+  "tovism": {
+    "reviewed_at": "2026-10-05",
+    "status": "quarantined",
+    "reason": "대표 PNG와 복구 경로 모두 제공 불가. 원본 보존 후 재수집 필요",
+    "down_at_review": 1
+  },
+  "ttp": {
+    "reviewed_at": "2026-10-05",
+    "status": "quarantined",
+    "reason": "대표 PNG와 복구 경로 모두 제공 불가. 원본 보존 후 재수집 필요",
+    "down_at_review": 1
+  },
+  "uefa-europa-league": {
+    "reviewed_at": "2026-10-05",
+    "status": "quarantined",
+    "reason": "잘린 아이콘",
+    "down_at_review": 1
+  },
+  "us-russell-2000-alg": {
+    "reviewed_at": "2026-10-05",
+    "status": "quarantined",
+    "reason": "대표 PNG와 복구 경로 모두 제공 불가. 원본 보존 후 재수집 필요",
+    "down_at_review": 1
+  },
+  "us-russell-2000-belfa": {
+    "reviewed_at": "2026-10-05",
+    "status": "quarantined",
+    "reason": "닫기 X 버튼",
+    "down_at_review": 1
+  },
+  "us-russell-2000-belfb": {
+    "reviewed_at": "2026-10-05",
+    "status": "quarantined",
+    "reason": "닫기 X 버튼",
+    "down_at_review": 1
+  },
+  "us-russell-2000-cto": {
+    "reviewed_at": "2026-10-05",
+    "status": "quarantined",
+    "reason": "대표 PNG와 복구 경로 모두 제공 불가. 원본 보존 후 재수집 필요",
+    "down_at_review": 1
+  },
+  "us-russell-2000-eu": {
+    "reviewed_at": "2026-10-05",
+    "status": "quarantined",
+    "reason": "체크 표시",
+    "down_at_review": 1
+  },
+  "us-russell-2000-mmed": {
+    "reviewed_at": "2026-10-05",
+    "status": "quarantined",
+    "reason": "Instagram 아이콘",
+    "down_at_review": 1
+  },
+  "vercel-icon": {
+    "reviewed_at": "2026-10-05",
+    "status": "pending",
+    "reason": "대표 자산 확인. 투표 사유/공식 대체 원본 추가 확인 필요",
+    "down_at_review": 1
+  },
+  "vibers-arthyun": {
+    "reviewed_at": "2026-10-05",
+    "status": "pending",
+    "reason": "대표 자산 확인. 투표 사유/공식 대체 원본 추가 확인 필요",
+    "down_at_review": 1
+  },
+  "vibers-whymove": {
+    "reviewed_at": "2026-10-05",
+    "status": "quarantined",
+    "reason": "와이무브 대신 GOODZZ 로고",
+    "down_at_review": 1
+  },
+  "victents": {
+    "reviewed_at": "2026-10-05",
+    "status": "quarantined",
+    "reason": "대표 PNG와 복구 경로 모두 제공 불가. 원본 보존 후 재수집 필요",
+    "down_at_review": 1
+  },
+  "vite-dark": {
+    "reviewed_at": "2026-10-05",
+    "status": "repaired",
+    "reason": "정상 다크용 투명 PNG 대표 적용",
+    "preview_file": "logo-transparent.png",
+    "light": true,
+    "down_at_review": 1
+  },
+  "w3sbs": {
+    "reviewed_at": "2026-10-05",
+    "status": "quarantined",
+    "reason": "대표 PNG와 복구 경로 모두 제공 불가. 원본 보존 후 재수집 필요",
+    "down_at_review": 1
+  },
+  "wingyipfood": {
+    "reviewed_at": "2026-10-05",
+    "status": "quarantined",
+    "reason": "대표 PNG와 복구 경로 모두 제공 불가. 원본 보존 후 재수집 필요",
+    "down_at_review": 1
+  },
+  "xn3r5bmjo59a": {
+    "reviewed_at": "2026-10-05",
+    "status": "quarantined",
+    "reason": "상품 메뉴 배너",
+    "down_at_review": 1
+  },
+  "xno39as6b55vgzev7h": {
+    "reviewed_at": "2026-10-05",
+    "status": "quarantined",
+    "reason": "빈 이미지/잘린 조각",
+    "down_at_review": 1
+  },
+  "xnsh1b6nw5n8pcxvw8ib": {
+    "reviewed_at": "2026-10-05",
+    "status": "quarantined",
+    "reason": "자주 묻는 질문 버튼",
+    "down_at_review": 1
+  },
+  "xnz92bv1i08d": {
+    "reviewed_at": "2026-10-05",
+    "status": "quarantined",
+    "reason": "제품 포장 사진",
+    "down_at_review": 1
+  },
+  "계룡시": {
+    "reviewed_at": "2026-10-05",
+    "status": "quarantined",
+    "reason": "기관 대신 웹 접근성 인증 마크",
+    "down_at_review": 1
+  },
+  "계룡시애향장학회": {
+    "reviewed_at": "2026-10-05",
+    "status": "quarantined",
+    "reason": "기관 대신 웹 접근성 인증 마크",
+    "down_at_review": 1
+  }
+}

@@ -1,4 +1,7 @@
+import { applyQualityReview } from "./logo-quality-review";
+
 export interface Brand {
+  preview_png?: string;
   /** brands-slim.json 이 싣는 추가 순서. 같은 날 추가분의 정렬 기준. */
   seq?: number;
   /** 검색 전용 별칭 — LG 를 '엘지'로도 찾게 한다 */
@@ -196,7 +199,7 @@ export async function fetchBrandsSlim(): Promise<Brand[]> {
       if (!hasUsableBrandData(list)) {
         throw new Error("브랜드 CDN 데이터가 비었거나 형식이 올바르지 않아요.");
       }
-      return list;
+      return list.map(applyQualityReview);
     })();
   }
   return slimCache;
@@ -215,11 +218,12 @@ export async function fetchBrandsSlim(): Promise<Brand[]> {
 export async function fetchBrand(id: string): Promise<Brand | null> {
   try {
     const b = (await fetchBrandData(`${id}/brand.json`)) as Brand;
-    if (b && b.id) return b;
+    if (b && b.id) return applyQualityReview(b);
   } catch {
     // 폴백으로 넘어간다
   }
-  return (await getBrandMap()).get(id) ?? null;
+  const brand = (await getBrandMap()).get(id);
+  return brand ? applyQualityReview(brand) : null;
 }
 
 export async function getBrandMap(): Promise<Map<string, Brand>> {
@@ -315,6 +319,7 @@ export function sortForGrid(
   const fallback = new Map(brands.map((b, i) => [b.id, i]));
   const seqOf = (b: Brand) => b.seq ?? fallback.get(b.id) ?? 0;
   return brands
+    .map(applyQualityReview)
     .filter((b) => !b.variant_of && !b.hidden && hasLogo(b))
     .sort((a, b) => {
       // 인기순 — fame 은 위키백과 언어판 수(Wikidata sitelinks). 인지도 대리 지표다.

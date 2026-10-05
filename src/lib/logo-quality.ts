@@ -1,3 +1,4 @@
+import { QUALITY_REVIEWS } from "./logo-quality-review";
 /**
  * 로고 품질 투표 — Firestore `logo_quality/{brandId}`
  *
@@ -49,7 +50,7 @@ export async function loadQuality(brandId: string): Promise<QualityData> {
     const snap = await getDoc(doc(db, COLL, brandId));
     if (!snap.exists()) return { up: 0, down: 0, flagged: false };
     const d = snap.data() as DocumentData;
-    return { up: d.up || 0, down: d.down || 0, flagged: d.flagged || false };
+    return { up: d.up || 0, down: d.down || 0, flagged: QUALITY_REVIEWS[brandId]?.status === "repaired" && (d.down || 0) <= QUALITY_REVIEWS[brandId].down_at_review ? false : d.flagged || false };
   } catch {
     return { up: 0, down: 0, flagged: false };
   }
@@ -149,7 +150,7 @@ export async function loadFlaggedIds(): Promise<Set<string>> {
   try {
     const db = getClientDb();
     const snap = await getDocs(query(collection(db, COLL), where("flagged", "==", true), limit(500)));
-    return new Set(snap.docs.map(d => d.id));
+    return new Set(snap.docs.filter(d => QUALITY_REVIEWS[d.id]?.status !== "repaired" || (d.data().down || 0) > QUALITY_REVIEWS[d.id].down_at_review).map(d => d.id));
   } catch {
     return new Set();
   }
@@ -165,7 +166,7 @@ export async function loadQualityRanking(maxItems = 100): Promise<QualityEntry[]
       brandId: d.id,
       up: d.data().up || 0,
       down: d.data().down || 0,
-      flagged: d.data().flagged || false,
+      flagged: QUALITY_REVIEWS[d.id]?.status === "repaired" && (d.data().down || 0) <= QUALITY_REVIEWS[d.id].down_at_review ? false : d.data().flagged || false,
       resolvedAt: d.data().resolvedAt || undefined,
     }));
   } catch {

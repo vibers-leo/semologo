@@ -51,3 +51,8 @@ marketing/assets/
 /artifacts/logo-collection-20260908/
 /artifacts/ai-svg-collection/
 __pycache__/
+
+# Local visual review snapshots; decisions are versioned separately.
+ops/reviews/*.png
+ops/reviews/quality-votes-*.json
+ops/reviews/quality-assets-*.json

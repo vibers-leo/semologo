@@ -264,7 +264,7 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
   // 일부 기관 수집본의 원본 SVG에는 로고 주변의 안내 문서/캔버스가
   // 함께 들어온다. 다운로드 원본은 보존하되, 대표 화면은 검수된 가공본을
   // 우선 사용한다. KCA는 logo-800.png가 실제 로고만 담은 가공본이다.
-  const previewUrl = brand.id === "kca" ? cdnUrl("logo-800.png") : hasPng ? pngUrl : `/api/logo-preview/?id=${encodeURIComponent(brand.id)}`;
+  const previewUrl = brand.preview_png || (brand.id === "kca" ? cdnUrl("logo-800.png") : hasPng ? pngUrl : `/api/logo-preview/?id=${encodeURIComponent(brand.id)}`);
   // 정본 브랜드 페이지 주소. 예전엔 `${origin}/#${brand.id}` 라 홈으로 보내놓고
   // 해시로 모달을 여는 링크였다 — 사이트맵·canonical 과 다른 주소를 공유하던 셈이다.
   //
