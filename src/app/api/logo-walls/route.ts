@@ -1,24 +1,10 @@
 import { randomUUID } from 'node:crypto';
 import { Pool } from 'pg';
+import { logoOwner } from '@/lib/logo-owner';
 
 export const dynamic = 'force-dynamic';
 let pool: Pool | undefined;
 const reply = (body: unknown, status = 200) => Response.json(body, { status, headers: { 'Cache-Control': 'private, no-store' } });
-
-// Ask Firebase to validate the existing login token; never trust a client-supplied UID.
-async function owner(request: Request): Promise<string | null> {
-  const token = request.headers.get('authorization')?.match(/^Bearer (\S+)$/)?.[1];
-  const key = process.env.NEXT_PUBLIC_FIREBASE_API_KEY;
-  if (!token || !key) return null;
-  const response = await fetch(`https://identitytoolkit.googleapis.com/v1/accounts:lookup?key=${encodeURIComponent(key)}`, {
-    method: 'POST', headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ idToken: token }), cache: 'no-store', signal: AbortSignal.timeout(8000),
-  });
-  if (!response.ok) return null;
-  const result = await response.json();
-  const user = result.users?.[0];
-  return user && !user.disabled && typeof user.localId === 'string' ? user.localId : null;
-}
 
 export async function GET(request: Request) { return handle(request); }
 export async function POST(request: Request) { return handle(request); }
@@ -27,7 +13,7 @@ export async function DELETE(request: Request) { return handle(request); }
 
 async function handle(request: Request) {
   try {
-    const uid = await owner(request);
+    const uid = await logoOwner(request);
     if (!uid) return reply({ error: '로그인 후 이용해 주세요.' }, 401);
     if (!process.env.DB_VIBERS_MAIN_URL) return reply({ error: '저장 서비스를 준비 중이에요.' }, 503);
     pool ??= new Pool({ connectionString: process.env.DB_VIBERS_MAIN_URL, max: 3, connectionTimeoutMillis: 5000 });
@@ -54,16 +40,22 @@ async function handle(request: Request) {
     if (!body || typeof body.title !== 'string' || !body.title.trim() || body.title.length > 120 || !Array.isArray(body.brandIds) || body.brandIds.length > 100 || body.brandIds.some((b: unknown) => typeof b !== 'string' || !/^[\w가-힣-]{1,200}$/.test(b))) {
       return reply({ error: '제목과 최대 100개의 브랜드를 선택해 주세요.' }, 400);
     }
+    if (new Set(body.brandIds).size !== body.brandIds.length) return reply({ error: '같은 로고를 중복해서 추가할 수 없어요.' }, 400);
     if (request.method === 'PUT' && (!id || !Number.isInteger(body.version) || body.version < 1)) return reply({ error: 'ID와 저장 버전이 필요해요.' }, 400);
     const settings = body.settings ?? { background: 'auto', columns: 4 };
     if (!settings || !['auto', 'light', 'dark'].includes(settings.background) || ![2, 3, 4, 6].includes(settings.columns)) return reply({ error: '배경과 배치 설정을 확인해 주세요.' }, 400);
-    const layout = { background: settings.background, columns: settings.columns };
+    const motion = settings.motion ?? 'static';
+    const speed = settings.speed ?? 'normal';
+    if (!['static', 'marquee', 'alternating'].includes(motion) || !['slow', 'normal', 'fast'].includes(speed)) return reply({ error: '움직임과 속도를 확인해 주세요.' }, 400);
+    const layout = { background: settings.background, columns: settings.columns, motion, speed };
     const db = await pool.connect();
     try {
       await db.query('BEGIN');
       const brands = await db.query("SELECT id,payload FROM semologo.logo_posts WHERE id=ANY($1::text[]) AND status='published'", [body.brandIds]);
       const byId = new Map(brands.rows.map(b => [b.id, b.payload]));
-      if (body.brandIds.some((b: string) => !byId.has(b))) { await db.query('ROLLBACK'); return reply({ error: '공개된 브랜드만 추가할 수 있어요.' }, 400); }
+      const personal = await db.query('SELECT id,name FROM semologo.personal_logos WHERE owner_id=$1 AND id=ANY($2::text[])', [uid, body.brandIds]);
+      for (const b of personal.rows) byId.set(b.id, { name_ko: b.name, user_logo_id: b.id });
+      if (body.brandIds.some((b: string) => !byId.has(b))) { await db.query('ROLLBACK'); return reply({ error: '공개 브랜드 또는 내 계정에 등록한 로고만 추가할 수 있어요.' }, 400); }
       const wallId = request.method === 'POST' ? randomUUID() : id!;
       let wall;
       if (request.method === 'POST') {
@@ -77,8 +69,8 @@ async function handle(request: Request) {
         const brandId = body.brandIds[i];
         const brand = byId.get(brandId);
         // Freeze the selected metadata. Export will later materialize immutable assets.
-        const snapshot = { name: brand.name_ko, logo_png: brand.logo_png, has_png: brand.has_png, light: brand.light || brand.light_logo || brand.dark_variant === 'white', source: brand.sources, captured_at: new Date().toISOString() };
-        await db.query('INSERT INTO semologo.logo_wall_items(wall_id,item_id,brand_id,position,asset_snapshot) VALUES($1,$2,$3,$4,$5)', [wallId, randomUUID(), brandId, i, snapshot]);
+        const snapshot = { user_logo_id: brand.user_logo_id, name: brand.name_ko, logo_png: brand.logo_png, has_png: brand.has_png, light: brand.light || brand.light_logo || brand.dark_variant === 'white', source: brand.sources, captured_at: new Date().toISOString() };
+        await db.query('INSERT INTO semologo.logo_wall_items(wall_id,item_id,brand_id,position,asset_snapshot) VALUES($1,$2,$3,$4,$5)', [wallId, randomUUID(), brand.user_logo_id ? null : brandId, i, snapshot]);
       }
       await db.query('COMMIT');
       return reply({ wall: wall.rows[0] }, request.method === 'POST' ? 201 : 200);
