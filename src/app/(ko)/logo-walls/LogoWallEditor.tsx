@@ -198,11 +198,11 @@ export default function LogoWallEditor() {
           })}</div>
           <hr style={{ margin: '24px 0', borderColor: '#e4e4e7' }} />
           <h2 style={{ fontSize: 16 }}>내 로고·다른 로고 등록</h2>
-          <p className={styles.hint}>PNG를 등록하면 바로 활용할 수 있어요. 내 계정에만 비공개로 저장돼요.</p>
+          <p className={styles.hint}>PNG를 등록하면 로고월에서 바로 활용할 수 있어요. 원하시면 세모로고에도 등록해드려요.</p>
           <label className={styles.field}>로고 이름<input maxLength={120} value={uploadName} onChange={e => setUploadName(e.target.value)} disabled={busy} /></label>
           <label className={styles.field}>PNG 파일 (최대 2MB)<input ref={uploadInput} type="file" accept="image/png" disabled={busy} onChange={e => setUploadFile(e.target.files?.[0] ?? null)} /></label>
           <button disabled={busy || !uploadFile || !uploadName.trim()} onClick={upload}>등록하고 추가하기</button>
-          <p className={styles.hint}>계정당 최대 20개 · 공개 등록은 <a href="/submit/">로고 제보</a>로 신청해 주세요.</p>
+          <p className={styles.hint}>계정당 최대 20개 · <a href="/submit/">세모로고 등록 요청하기 →</a></p>
           <div className={styles.results}>{myLogos.map(b => <button key={b.id} className={styles.result} disabled={busy || selected.length >= 100 || selected.some(s => s.id === b.id)} onClick={() => setSelected(s => [...s, b])}><SearchLogo brand={b} src={preview(b)} /><span>{b.name_ko}</span></button>)}</div>
         </section>
         <section className={styles.editor} aria-label="로고월 편집">
