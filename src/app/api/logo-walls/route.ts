@@ -81,7 +81,10 @@ async function handle(request: Request) {
       return reply({ wall: wall.rows[0] }, request.method === 'POST' ? 201 : 200);
     } catch (error) { await db.query('ROLLBACK'); throw error; }
     finally { db.release(); }
-  } catch {
+  } catch (error) {
+    // Log codes only: request tokens, URLs and database credentials must stay private.
+    const failure = error as { name?: string; code?: string; cause?: { code?: string } };
+    console.error('logo-walls operation failed', { name: failure?.name, code: failure?.code ?? failure?.cause?.code });
     return reply({ error: '지금 저장 서비스에 연결할 수 없어요. 잠시 후 다시 시도해 주세요.' }, 503);
   }
 }

@@ -43,7 +43,7 @@ QID·도메인 일치만으로 자동 병합하지 않는다. 같은 브랜드 �
 C01/C02/C07 스키마 검증 → 공식 명부 매칭 → C06 주소 보강 → W02 저장 API/권한 → W02 UI → W03 내보내기 → W04 API/MCP → B01 제한.
 자산 디스크 작업 재개 시 A01/A02/A03/A04를 병행한다.
 
-운영 DB 적용: 2026-10-05 완료. 배포: 진행 중.
+운영 DB 적용: 2026-10-05 완료. 배포: e86ae65 운영 반영 완료.
 이우 점검: 공개 컬렉션 완성도는 신뢰 자료로, 내부 누락·검수 큐는 보완 근거로 활용한다.
 
 2026-10-05 개발: src/app/api/logo-walls/route.ts 추가. Authorization Bearer 토큰 필수. GET 목록/상세, POST {title,brandIds}, PUT ?id= {title,brandIds,version}, DELETE ?id=. 최대 100 항목, 공개 브랜드만 허용. 자산 스냅샷은 metadata이며 실제 파일 불변 버전·ZIP 내보내기는 후속 작업. 운영 DB 적용·배포 미실행.
@@ -51,3 +51,7 @@ C01/C02/C07 스키마 검증 → 공식 명부 매칭 → C06 주소 보강 → 
 편집 UI: /logo-walls 경로. 검색·추가·제거·불러오기·복제·저장·삭제 연결. TypeScript 검사 통과. 운영 DB 적용 전에는 저장 서비스가 503을 반환할 수 있으며 프론트에 실패 문구를 표시한다. 운영 배포·브라우저 종단 검증은 미실행.
 
 운영 검증: 컬렉션·관계·로고월 테이블 생성 트랜잭션 완료. 기존 logo_posts 182327개 확인. 롤백 테스트에서 다른 소유자 UPDATE 0건, 일치 버전 UPDATE 1건, 오래된 버전 UPDATE 0건 확인. TypeScript 통과. 실제 로그인 토큰 E2E 검증은 미완료.
+
+배포 검증: /logo-walls/ HTTP 200, /api/logo-walls/ 비로그인 및 잘못된 Bearer 토큰 HTTP 401. check-deploy.sh DEPLOY OK, restarts=0. 실제 사용자 로그인 CRUD와 브라우저 편집 동작 검증은 남아 있다.
+
+브라우저 E2E: 운영 /logo-walls/ 비로그인 안내 및 로그인 이동 확인. Google로 계속하기 클릭 시 로그인 실패 안내 표시. 로그인 CRUD는 미검증. 로고월 로그인 링크에 next 복귀 경로 보완(로컬). HDD 작업은 2F→1F APFS 이전 완료 안내까지 보류.

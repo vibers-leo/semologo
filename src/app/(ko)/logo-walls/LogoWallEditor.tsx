@@ -59,7 +59,7 @@ export default function LogoWallEditor() {
     ? b.logo_png : `${CDN}/${encodeURIComponent(b.id)}/logo-transparent.png?v=${VERSION}`;
   return <><Header /><main className="max-w-5xl mx-auto p-6 space-y-6">
     <h1 className="text-2xl font-bold">내 로고월</h1>
-    {!ready ? <p>로그인을 확인하고 있어요.</p> : !user ? <a href="/login/">로그인하고 로고월 만들기</a> : <>
+    {!ready ? <p>로그인을 확인하고 있어요.</p> : !user ? <a href="/login/?next=%2Flogo-walls%2F">로그인하고 로고월 만들기</a> : <>
       <p>브랜드를 검색해서 로고월에 추가해 보세요. 최대 100개를 저장할 수 있어요.</p>
       <div className="flex gap-3 flex-wrap">
         <button disabled={busy} onClick={() => { setCurrent(null); setTitle('새 로고월'); setSelected([]); setMessage(''); }}>새로 만들기</button>
