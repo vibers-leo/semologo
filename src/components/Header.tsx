@@ -45,7 +45,8 @@ function UserMenu({ user }: { user: User }) {
 
 const ADMIN_EMAIL = "juuuno1116@gmail.com";
 
-const NAV_LINKS = [
+const NAV_LINKS: { label: string; href: string; beta?: boolean }[] = [
+  { label: "로고월", href: "/logo-walls", beta: true },
   { label: "로고 제보", href: "/submit" },
   { label: "로고 요청", href: "/request" },
   { label: "로고 이야기", href: "/blog" },
@@ -150,11 +151,12 @@ export default function Header() {
           <LanguageSwitch />
           {/* 데스크탑 우측 메뉴 */}
           <nav className="hidden lg:flex items-center gap-2 shrink-0 ml-auto">
-            {NAV_LINKS.map(({ label, href }) => (
-              <Link key={href} href={path(href)}
-                className="flex items-center text-sm px-3 py-1.5 rounded-lg transition-colors hover:bg-gray-100"
+            {NAV_LINKS.map(({ label, href, beta }) => (
+              <Link key={href} href={beta ? href : path(href)}
+                className="flex items-center gap-1.5 whitespace-nowrap text-sm px-2 py-1.5 rounded-lg transition-colors hover:bg-gray-100"
                 style={{ color: "var(--text-secondary)" }}>
-                {t(label)}
+                {beta && en ? "Logo wall" : t(label)}
+                {beta && <span className="rounded-full bg-violet-50 px-1.5 py-0.5 text-[10px] font-semibold leading-none text-violet-700">BETA</span>}
               </Link>
             ))}
             {user?.email === ADMIN_EMAIL && (
@@ -199,12 +201,13 @@ export default function Header() {
               {menuOpen && (
                 <div className="absolute right-0 mt-2 w-44 rounded-xl border shadow-lg overflow-hidden z-50"
                   style={{ background: "#fff", borderColor: "var(--border)" }}>
-                  {NAV_LINKS.map(({ label, href }) => (
-                    <Link key={href} href={path(href)}
+                  {NAV_LINKS.map(({ label, href, beta }) => (
+                    <Link key={href} href={beta ? href : path(href)}
                       onClick={() => setMenuOpen(false)}
-                      className="block px-4 py-3 text-sm hover:bg-gray-50 transition-colors"
+                      className="flex items-center gap-2 px-4 py-3 text-sm hover:bg-gray-50 transition-colors"
                       style={{ color: "var(--text)" }}>
-                      {t(label)}
+                      {beta && en ? "Logo wall" : t(label)}
+                {beta && <span className="rounded-full bg-violet-50 px-1.5 py-0.5 text-[10px] font-semibold leading-none text-violet-700">BETA</span>}
                     </Link>
                   ))}
                   {user?.email === ADMIN_EMAIL && (
