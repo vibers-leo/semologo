@@ -1,0 +1,31 @@
+{
+  "checked_at": "2026-10-06T23:09:44.048561+00:00",
+  "collections": [
+    {
+      "id": "us-sp500",
+      "name": "S&P 500",
+      "as_of": "2026-09-27",
+      "source_kind": "saved_constituent_roster",
+      "source_url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
+      "source_revision": "79489c00821d8a156f619fa459248700014bcf6f7e843aeeedb04448b3fa842e",
+      "count_unit": "entity",
+      "total": 500,
+      "securities": 503,
+      "verified": 17,
+      "candidates": 388
+    },
+    {
+      "id": "us-russell-2000",
+      "name": "Russell 2000 · IWM 보유종목 기준",
+      "as_of": "2026-09-24",
+      "source_kind": "etf_holdings_proxy",
+      "source_url": "https://www.ishares.com/us/products/239710/ishares-russell-2000-etf/latest-holdings.csv",
+      "source_revision": "79489c00821d8a156f619fa459248700014bcf6f7e843aeeedb04448b3fa842e",
+      "count_unit": "security",
+      "total": 1974,
+      "securities": 1974,
+      "verified": 0,
+      "candidates": 541
+    }
+  ]
+}
