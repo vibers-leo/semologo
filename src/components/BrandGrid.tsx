@@ -1,4 +1,5 @@
 "use client";
+import CardLogo from "./CardLogo";
 import { logoPngCandidates } from "@/lib/logo-png-source";
 import { collection, getDocs, query as firestoreQuery, where } from "firebase/firestore";
 import { getClientDb } from "@/lib/firebase";
@@ -281,7 +282,7 @@ export default function BrandGrid({
     if (!sentinelRef.current || !hasMore || catalogLoading) return;
     const obs = new IntersectionObserver(entries => {
       if (entries[0]?.isIntersecting) nextPageRef.current?.();
-    }, { rootMargin: "550px" });
+    }, { rootMargin: "1400px" });
     obs.observe(sentinelRef.current);
     return () => obs.disconnect();
   }, [hasMore, catalogLoading, visible.length]);
@@ -553,7 +554,7 @@ function BrandCard({ brand, onClick, priority, bgVote }: { brand: Brand; onClick
   const hasSvg = !!(brand.logo_svg || brand.has_svg);
   const hasPng = !!(brand.logo_png || brand.has_png);
   const directPng = typeof brand.logo_png === "string" && /\.png(?:\?|$)/i.test(brand.logo_png)
-    ? brand.logo_png : pngUrl;
+    ? (/^(?:https?:\/\/|\/)/.test(brand.logo_png) ? brand.logo_png : `${CDN}/${brand.id}/${brand.logo_png}?v=${VERSION}`) : pngUrl;
   // Request the published PNG first: transparent derivatives are optional.
   // Missing derivatives must not delay every card before the available original.
   const candidates = logoPngCandidates(brand);
@@ -578,47 +579,9 @@ function BrandCard({ brand, onClick, priority, bgVote }: { brand: Brand; onClick
       {/* 흰색 로고는 밝은 체커 배경에서 안 보여 '빈 카드'처럼 된다 → 어두운 배경 */}
               <div className="card-preview" style={(bgVote === "dark" || (!bgVote && (brand.light || brand.light_logo || brand.dark_variant === "white"))) ? { background: "#18181b", backgroundImage: "none" } : undefined}>
         {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img key={initSrc} ref={img => { if (img?.complete && img.naturalWidth > 0) img.dataset.loaded = "1"; }} src={initSrc} alt={en ? brand.name_en || brand.name_ko : brand.name_ko} width={320} height={180}
-          decoding="async" fetchPriority={priority ? "high" : "auto"} loading={priority ? "eager" : "lazy"}
-          onLoad={e => {
-            // 재시도로 살아났으면 자리표시자를 걷어낸다
-            const img = e.currentTarget as HTMLImageElement;
-            img.style.display = "";
-              // 실제로 그려진 것만 보이게 한다 — 로딩 전엔 브라우저가
-              // '깨진 아이콘 + alt 텍스트'를 그려 화면이 지저분해진다
-              img.dataset.loaded = "1";
-            img.parentElement?.querySelector(".card-fallback")?.remove();
-          }}
-          onError={e => {
-            const img = e.currentTarget as HTMLImageElement;
-            // Walk each PNG candidate once; never bounce between two missing files.
-            const next = Number(img.dataset.candidate ?? 0) + 1;
-            if (next < candidates.length) {
-              img.dataset.candidate = String(next);
-              img.src = candidates[next];
-              return;
-            }
-            // A busy conversion queue can recover; retry the PNG endpoint twice only.
-            const retries = Number(img.dataset.previewRetry ?? 0);
-            if (retries < 2) {
-              img.dataset.previewRetry = String(retries + 1);
-              setTimeout(() => {
-                if (img.isConnected) img.src = `${candidates[candidates.length - 1]}&retry=${retries + 1}`;
-              }, 15000 * (retries + 1));
-              return;
-            }
-            img.style.display = "none";
-            const box = img.parentElement;
-            if (box && !box.querySelector(".card-fallback")) {
-              const ph = document.createElement("div");
-              ph.className = "card-fallback";
-              ph.textContent = t("이미지를 준비하지 못했어요");
-              ph.style.cssText =
-                "position:absolute;inset:0;display:flex;align-items:center;" +
-                "justify-content:center;font-size:12px;font-weight:500;color:#71717a";
-              box.appendChild(ph);
-            }
-          }} />
+        <CardLogo key={initSrc} candidates={[...new Set([initSrc, ...candidates])]} priority={priority}
+          alt={en ? brand.name_en || brand.name_ko : brand.name_ko}
+          failureLabel={t("이미지를 준비하지 못했어요")} retryLabel={t("다시 불러오기")} />
       </div>
       {/* 이름은 한 줄을 통째로 쓴다. 예전엔 이름과 SVG/PNG 배지가 같은 줄에
             나란히 있어서 배지가 이름을 밀어냈고 긴 브랜드명이 대부분 잘렸다.

@@ -5,9 +5,10 @@ import { CDN } from './cdn';
 // indiscriminately: the Seongnam symbol contains intentional white artwork.
 const official = 'sources/official-ci-20261006';
 export function applyReviewedAssets(brand: Brand): Brand {
-  if (brand.id === 'cj') return { ...brand,
-    preview_png: `${CDN}/cj/logo-transparent.png?v=20261006`,
+  if (['cj', 'roblox', 'olive-young', 'bucketplace', 'myrealtrip', 'hyundai', 'incheon-michuhol-gu', 'shinhan-bank', 'samsung', 'samsung-ct', 'anua', 'samsungbioepis', 'hyundai-glovis', 'samsung-bespoke', 'studio-dragon', 'watcha'].includes(brand.id)) return { ...brand,
+    preview_png: `${CDN}/${brand.id}/logo-transparent.png?v=20261006-2`,
     logo_png: 'logo-transparent.png',
+    ...(brand.id === 'hyundai-glovis' ? { name_ko: '현대글로비스', name_en: 'Hyundai Glovis' } : {}),
   };
   if (brand.id === 'gongu-ci-1228') return { ...brand,
     variant_of: 'seongnam', hidden: true,

@@ -26,6 +26,13 @@ function load(file){
  vm.runInNewContext(code,{exports,require:localRequire,process:{env:{DB_VIBERS_MAIN_URL:'test-only',NEXT_PUBLIC_CDN_URL:'https://cdn.example/_clients'}},console,Buffer,Response,Request,URL,AbortSignal,setTimeout,fetch:async url=>{fetched.push(String(url));return new Response(png);}},{filename:file});return exports;
 }
 async function main(){
+ const {logoPngCandidates}=load('src/lib/logo-png-source.ts');
+ const relative=logoPngCandidates({id:'relative',logo_png:'logo.png'});
+ assert.equal(relative[0],'https://cdn.example/_clients/relative/logo.png?v=1790381000');
+ assert.equal(logoPngCandidates({id:'nested',logo_png:'sources/reviewed/logo.png'})[0],'https://cdn.example/_clients/nested/sources/reviewed/logo.png?v=1790381000');
+ assert.equal(logoPngCandidates({id:'upload',logo_png:'/submissions/test.png'})[0],'/submissions/test.png');
+ assert.equal(logoPngCandidates({id:'cdn',logo_png:'https://assets.example/logo.png'})[0],'https://assets.example/logo.png');
+
  const {logoWallLayout}=load('src/lib/logo-wall-layout.ts');
  const old=logoWallLayout({background:'auto',columns:4});assert.equal(old.appearance,'cards');assert.equal(old.showNames,true);
  const layout=logoWallLayout({appearance:'clean',spacing:'airy',logoSize:'large',showNames:false,motion:'alternating'});
