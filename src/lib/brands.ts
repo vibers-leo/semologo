@@ -1,3 +1,4 @@
+import { reviewedVariants } from "./reviewed-logo-assets";
 import { applyQualityReview } from "./logo-quality-review";
 
 export interface Brand {
@@ -269,6 +270,7 @@ export interface VariantManifest {
  * 지금과 똑같이 동작한다.
  */
 export async function fetchVariants(id: string): Promise<VariantManifest | null> {
+  if (reviewedVariants[id]) return reviewedVariants[id];
   try {
     const res = await fetch(`${CDN}/${id}/variants.json?v=${VERSION}`, {
       cache: "force-cache",

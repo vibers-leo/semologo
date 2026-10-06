@@ -206,7 +206,7 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
   const svgUrl  = typeof brand.logo_svg === "string" && brand.logo_svg.startsWith("/")
     ? `${brand.logo_svg}?v=${VERSION}`
     : cdnUrl(brand.svg_transparent || "logo.svg");
-  const directPng = typeof brand.logo_png === "string" && brand.logo_png.startsWith("/") ? `${brand.logo_png}?v=${VERSION}` : null;
+  const directPng = typeof brand.logo_png === "string" ? (/^https?:\/\//.test(brand.logo_png) ? brand.logo_png : brand.logo_png.startsWith("/") ? `${brand.logo_png}?v=${VERSION}` : cdnUrl(brand.logo_png)) : null;
   const pngUrl  = directPng || cdnUrl("logo.png");
   const darkUrl = cdnUrl("logo-transparent.png");
   const whiteUrl = cdnUrl("logo-white.png");
@@ -887,7 +887,7 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
                       {shown.map(v => {
                         const svgFile = v.files.svg;
                         const pngFile = v.files.png;
-                        const previewUrl = cdnUrl(svgFile || pngFile || "logo.png");
+                        const previewUrl = cdnUrl(pngFile || "logo.png");
                         return (
                           <div key={v.key} style={{ display:"flex", alignItems:"center", gap:10,
                             background:"#fafafa", border:"1px solid #e4e4e7", borderRadius:8,

@@ -1,8 +1,10 @@
+import { applyReviewedAssets } from './reviewed-logo-assets';
 import records from './logo-quality-review.json';
 import type { Brand } from './brands';
 import { CDN, VERSION } from './cdn';
 export const QUALITY_REVIEWS: Record<string, { status: string; reason: string; reviewed_at: string; down_at_review: number; replacement_id?: string; preview_file?: string; light?: boolean }> = records;
 export function applyQualityReview(brand: Brand): Brand {
+  brand = applyReviewedAssets(brand);
   const review = QUALITY_REVIEWS[brand.id];
   if (!review) return brand;
   return { ...brand,
