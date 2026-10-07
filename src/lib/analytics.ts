@@ -24,6 +24,6 @@ export function trackEvent(eventName: string, params: EventParams = {}) {
       for (const k of ['utm_source', 'utm_medium', 'utm_campaign', 'utm_content', 'utm_term']) values[k] = query.get(k)?.slice(0, 80) || '';
       attribution = JSON.stringify(values); sessionStorage.setItem(attributionKey, attribution);
     }
-    void fetch('/api/traffic', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ session_id: sessionId, event: eventName, params, path: location.pathname, attribution: JSON.parse(attribution) }), keepalive: true }).catch(() => {});
+    void fetch('/api/traffic/', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ session_id: sessionId, event: eventName, params, path: location.pathname, attribution: JSON.parse(attribution) }), keepalive: true }).catch(() => {});
   } catch { /* Analytics must never block browsing, including disabled storage. */ }
 }

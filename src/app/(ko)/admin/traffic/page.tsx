@@ -13,7 +13,7 @@ export default function TrafficAdmin() {
   useEffect(()=>{const abort=new AbortController();const unsub=onAuthStateChanged(getClientAuth(), async user=>{
     setLoading(true);setError('');setData(null);
     if (!user) {setError('관리자 계정으로 로그인해 주세요.');setLoading(false);return;}
-    try {const token=await user.getIdToken();const r=await fetch(`/api/admin/traffic?days=${days}&q=${encodeURIComponent(filter)}`,{headers:{Authorization:`Bearer ${token}`},cache:'no-store',signal:abort.signal});const j=await r.json();if(!r.ok)throw Error(j.error);setData(j);}catch(e){if(!abort.signal.aborted)setError(e instanceof Error?e.message:'불러오지 못했어요.');}finally{if(!abort.signal.aborted)setLoading(false);}
+    try {const token=await user.getIdToken();const r=await fetch(`/api/admin/traffic/?days=${days}&q=${encodeURIComponent(filter)}`,{headers:{Authorization:`Bearer ${token}`},cache:'no-store',signal:abort.signal});const j=await r.json();if(!r.ok)throw Error(j.error);setData(j);}catch(e){if(!abort.signal.aborted)setError(e instanceof Error?e.message:'불러오지 못했어요.');}finally{if(!abort.signal.aborted)setLoading(false);}
   });return()=>{abort.abort();unsub();};},[days,filter,tick]);
   const n=(event:string)=>data?.summary.find(x=>x.event===event)?.count||0;
   return <><Header/><main className="mx-auto max-w-6xl px-4 py-8">

@@ -25,7 +25,9 @@ export async function POST(request: Request) {
     try { while (true) { const part = await reader.read(); if (part.done) break; size += part.value.byteLength; if (size > 8192) return reply(413); chunks.push(part.value); } } finally { await reader.cancel(); }
     const text = Buffer.concat(chunks).toString('utf8');
     if (text.length > 8192) return reply(413);
-    const b = normalizeTraffic(JSON.parse(text));
+    let input: unknown;
+    try { input = JSON.parse(text); } catch { return reply(400); }
+    const b = normalizeTraffic(input);
     if (!b) return reply(400);
     if (b.path.startsWith('/admin')) return reply(204);
     const db = await trafficDb().connect();

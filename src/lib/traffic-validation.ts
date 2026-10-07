@@ -3,7 +3,7 @@ const clean = (value: unknown, max = 160) => typeof value === 'string' ? value.r
 export function normalizeTraffic(value: unknown) {
   if (!value || typeof value !== 'object') return null;
   const b = value as Record<string, unknown>;
-  if (!/^[a-f0-9-]{36}$/i.test(String(b.session_id)) || !TRAFFIC_EVENTS.includes(b.event as typeof TRAFFIC_EVENTS[number])) return null;
+  if (!/^[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12}$/i.test(String(b.session_id)) || !TRAFFIC_EVENTS.includes(b.event as typeof TRAFFIC_EVENTS[number])) return null;
   const p = b.params && typeof b.params === 'object' ? b.params as Record<string, unknown> : {};
   const a = b.attribution && typeof b.attribution === 'object' ? b.attribution as Record<string, unknown> : {};
   const attribution: Record<string, string> = {};
