@@ -5,6 +5,16 @@ import { CDN } from './cdn';
 // indiscriminately: the Seongnam symbol contains intentional white artwork.
 const official = 'sources/official-ci-20261007';
 export function applyReviewedAssets(brand: Brand): Brand {
+  if (['bonghwa', 'geochang'].includes(brand.id)) return { ...brand,
+    logo_png: 'sources/official-municipality-20261007/logo.png', has_png: true,
+    preview_png: `${CDN}/${brand.id}/sources/official-municipality-20261007/logo.png`,
+    light: false, light_logo: false, dark_variant: false,
+    official_source_page: brand.id === 'bonghwa'
+      ? 'https://www.bonghwa.go.kr/portal/contents.do?mid=0402020000'
+      : 'https://www.geochang.go.kr/00314/00317/00330.web',
+    website: `https://www.${brand.id}.go.kr/`,
+    rejected_asset_files: ['logo-800.png', 'logo-icon.png', 'logo-transparent.png', 'logo-white.png'],
+  };
   if (['cj', 'roblox', 'olive-young', 'bucketplace', 'myrealtrip', 'hyundai', 'incheon-michuhol-gu', 'shinhan-bank', 'samsung', 'samsung-ct', 'anua', 'samsungbioepis', 'hyundai-glovis', 'samsung-bespoke', 'studio-dragon', 'watcha', 'kca', 'reddit', 'gs-caltex'].includes(brand.id)) return { ...brand,
     preview_png: `${CDN}/${brand.id}/logo-transparent.png?v=20261006-2`,
     logo_png: 'logo-transparent.png',
