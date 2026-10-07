@@ -9,5 +9,5 @@ export function logoPngCandidates(brand: Brand): string[] {
   // Legacy JPEG filed as PNG: normalize the bytes without replacing the original.
   if (localSvgOnly || brand.id === 'osan-cultural-foundation') return [recovery];
   const png = typeof brand.logo_png === 'string' && /\.png(?:\?|$)/i.test(brand.logo_png) ? (/^(?:https?:\/\/|\/)/.test(brand.logo_png) ? brand.logo_png : `${CDN}/${brand.id}/${brand.logo_png}?v=${VERSION}`) : `${CDN}/${brand.id}/logo.png?v=${VERSION}`;
-  return [...new Set([...(brand.preview_png ? [brand.preview_png] : []), png, `${CDN}/${brand.id}/logo-transparent.png?v=${VERSION}`, recovery])];
+  return [...new Set([...(brand.preview_png ? [brand.preview_png] : []), png, ...(brand.rejected_asset_files?.includes("logo-transparent.png") ? [] : [`${CDN}/${brand.id}/logo-transparent.png?v=${VERSION}`]), recovery])];
 }

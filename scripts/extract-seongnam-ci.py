@@ -1,6 +1,6 @@
 from pathlib import Path
 import fitz,shutil
-root=Path(__file__).resolve().parents[1]/'marketing/assets/seongnam-official-20261006';out=root/'publish';out.mkdir(exist_ok=True)
+root=Path(__file__).resolve().parents[1]/'marketing/assets/seongnam-official-20261006';out=root/'publish-v2';out.mkdir(exist_ok=True)
 for key,box,name in [('CI_BS04',(188,440,376,510),'horizontal'),('CI_BS05',(181,400,265,550),'vertical'),('CI_BS01',(85,170,275,350),'symbol')]:
  d=fitz.open(root/(key+'.ai'));clip=fitz.Rect(box);paths=[x for x in d[0].get_drawings() if clip.contains(x['rect']) and x.get('fill') is not None]
  assert paths,name
@@ -12,7 +12,11 @@ for key,box,name in [('CI_BS04',(188,440,376,510),'horizontal'),('CI_BS05',(181,
   for it in p['items']:
    if it[0]=='l':shape.draw_line(it[1],it[2])
    elif it[0]=='c':shape.draw_bezier(it[1],it[2],it[3],it[4])
-   elif it[0]=='re':shape.draw_rect(it[1])
+   elif it[0]=='re':
+    if len(it)>2 and it[2]==-1:
+     r=it[1]
+     for a,b in [(r.tl,r.tr),(r.tr,r.br),(r.br,r.bl),(r.bl,r.tl)]:shape.draw_line(a,b)
+    else:shape.draw_rect(it[1])
    elif it[0]=='qu':shape.draw_quad(it[1])
    else:raise ValueError(it[0])
   shape.finish(fill=p['fill'],color=p.get('color'),width=p.get('width') or 0,closePath=p.get('closePath',True),even_odd=p.get('even_odd',False),fill_opacity=p.get('fill_opacity') or 1,stroke_opacity=p.get('stroke_opacity') or 1);shape.commit()

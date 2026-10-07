@@ -27,6 +27,12 @@ function load(file){
 }
 async function main(){
  const {logoPngCandidates}=load('src/lib/logo-png-source.ts');
+ const {applyReviewedAssets,reviewedVariants}=load('src/lib/reviewed-logo-assets.ts');
+ const nh=applyReviewedAssets({id:'nhqv',logo_svg:'logo.svg',has_svg:true,logo_png:true});
+ assert.equal(nh.has_svg,false);assert.equal(reviewedVariants.nhqv.variants.length,0);
+ assert(!logoPngCandidates(nh).some(url=>url.includes('logo-transparent.png')));
+ const seongnam=applyReviewedAssets({id:'seongnam'});
+ assert(seongnam.preview_png.includes('official-ci-20261007'));
  const relative=logoPngCandidates({id:'relative',logo_png:'logo.png'});
  assert.equal(relative[0],'https://cdn.example/_clients/relative/logo.png?v=1790381000');
  assert.equal(logoPngCandidates({id:'nested',logo_png:'sources/reviewed/logo.png'})[0],'https://cdn.example/_clients/nested/sources/reviewed/logo.png?v=1790381000');

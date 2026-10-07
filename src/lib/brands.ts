@@ -3,6 +3,7 @@ import { applyQualityReview } from "./logo-quality-review";
 
 export interface Brand {
   preview_png?: string;
+  rejected_asset_files?: string[];
   /** brands-slim.json 이 싣는 추가 순서. 같은 날 추가분의 정렬 기준. */
   seq?: number;
   /** 검색 전용 별칭 — LG 를 '엘지'로도 찾게 한다 */

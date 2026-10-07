@@ -14,10 +14,10 @@ def main():
   if k in ['NCP_ACCESS_KEY','NCP_SECRET_KEY']:
    parts=shlex.split(v,comments=True);env[k]=parts[0] if parts else ''
  s3=boto3.client('s3',region_name='kr-standard',endpoint_url='https://kr.object.ncloudstorage.com',aws_access_key_id=env['NCP_ACCESS_KEY'],aws_secret_access_key=env['NCP_SECRET_KEY'],config=Config(signature_version='s3v4',request_checksum_calculation='when_required',response_checksum_validation='when_required',max_pool_connections=16,retries={'max_attempts':5}))
- root=ROOT/'marketing/assets/seongnam-official-20261006/publish'
+ root=ROOT/'marketing/assets/seongnam-official-20261006/publish-v2'
  verified=[]
  for p in sorted(root.iterdir()):
-  rel=p.name if p.suffix=='.zip' else 'sources/official-ci-20261006/'+p.name
+  rel=p.name if p.suffix=='.zip' else 'sources/official-ci-20261007/'+p.name
   key='_clients/seongnam/'+rel;raw=p.read_bytes()
   try:
    old=s3.get_object(Bucket='vibers-bucket',Key=key)['Body'].read()

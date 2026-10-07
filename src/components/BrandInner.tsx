@@ -208,7 +208,7 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
     : cdnUrl(brand.svg_transparent || "logo.svg");
   const directPng = typeof brand.logo_png === "string" ? (/^https?:\/\//.test(brand.logo_png) ? brand.logo_png : brand.logo_png.startsWith("/") ? `${brand.logo_png}?v=${VERSION}` : cdnUrl(brand.logo_png)) : null;
   const pngUrl  = directPng || cdnUrl("logo.png");
-  const darkUrl = cdnUrl("logo-transparent.png");
+  const darkUrl = brand.rejected_asset_files?.includes("logo-transparent.png") ? pngUrl : cdnUrl("logo-transparent.png");
   const whiteUrl = cdnUrl("logo-white.png");
   const hasSvg = !!(brand.logo_svg || brand.has_svg);
   // 예전엔 PNG 칩이 무조건 참이었다. 실제로는 logo.png 가 없는 브랜드가 있었고
@@ -299,6 +299,7 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
    * 매니페스트가 없는 브랜드만 기존 프로브 방식으로 동작한다.
    */
   const fallbackVariants = VARIANTS.filter(v => {
+    if (brand.rejected_asset_files?.includes(v.file)) return false;
     if (v.svgOnly && !hasSvg) return false;
     if (v.langEn && !brand.lang_en) return false;
     return true;
@@ -384,8 +385,8 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
     setInvertedUrl(null);
     analyzeLogoVisibility(
       brand.id,
-      `${CDN}/${brand.id}/logo.png`,
-      `${CDN}/${brand.id}/logo-transparent.png`,
+      previewUrl,
+      darkUrl,
     ).then(async result => {
       setVisibility(result);
       if (result.darkMode === "white-only") {
@@ -395,6 +396,7 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
         setInvertedUrl(inv);
       }
     });
+    if (brand.rejected_asset_files?.includes("logo-white.png")) { setHasWhiteLogo(false); return; }
     const img = new Image();
     img.onload = () => setHasWhiteLogo(true);
     img.onerror = () => setHasWhiteLogo(false);

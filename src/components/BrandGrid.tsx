@@ -550,7 +550,7 @@ export default function BrandGrid({
 function BrandCard({ brand, onClick, priority, bgVote }: { brand: Brand; onClick: () => void; priority: boolean; bgVote?: "dark" | "light" }) {
   const {en, t} = useLocale();
   const pngUrl = `${CDN}/${brand.id}/logo.png?v=${VERSION}`;
-  const transparentUrl = `${CDN}/${brand.id}/logo-transparent.png?v=${VERSION}`;
+  const transparentUrl = brand.rejected_asset_files?.includes("logo-transparent.png") ? pngUrl : `${CDN}/${brand.id}/logo-transparent.png?v=${VERSION}`;
   const hasSvg = !!(brand.logo_svg || brand.has_svg);
   const hasPng = !!(brand.logo_png || brand.has_png);
   const directPng = typeof brand.logo_png === "string" && /\.png(?:\?|$)/i.test(brand.logo_png)

@@ -39,7 +39,7 @@ async function render(id: string) {
       input = await readFile(join(process.cwd(), 'public', local));
       if (input.length > 12_000_000) throw new Error('large');
     } else {
-    const response = await fetch(`${CDN}/${encodeURIComponent(id)}/logo.svg?v=${VERSION}`, { cache: 'no-store', redirect: 'error', signal: AbortSignal.timeout(6000) });
+    const response = await fetch(`${CDN}/${encodeURIComponent(id)}/${id === "nhqv" ? "logo.png" : "logo.svg"}?v=${VERSION}`, { cache: 'no-store', redirect: 'error', signal: AbortSignal.timeout(6000) });
     if (!response.ok || !response.body) throw new Error(response.status === 404 ? 'missing' : 'upstream');
     const reader = response.body.getReader();
     const chunks: Uint8Array[] = [];
