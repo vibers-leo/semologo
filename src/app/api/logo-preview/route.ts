@@ -33,7 +33,7 @@ async function render(id: string) {
   await acquire();
   try {
     const brand = registered.get(id);
-    const local = typeof brand?.logo_png === 'string' ? brand.logo_png : brand?.logo_svg;
+    const local = typeof brand?.logo_png === 'string' && brand.logo_png.startsWith('/submissions/') ? brand.logo_png : brand?.logo_svg;
     let input: Buffer;
     if (typeof local === 'string' && local.startsWith('/submissions/') && !local.includes('..') && !local.includes('\\') && /\.(png|svg)$/.test(local)) {
       input = await readFile(join(process.cwd(), 'public', local));

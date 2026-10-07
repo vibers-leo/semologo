@@ -48,7 +48,7 @@ const nextConfig: NextConfig = {
         //    **HTML 의 stale 은 배포 주기보다 길면 안 된다.** 청크 파일명이
         //    배포마다 바뀌기 때문이다. 정적 자산(_next/static)은 파일명에
         //    해시가 있어 그대로 immutable 이어도 안전하다 — 여기 대상이 아니다.
-        source: "/((?!_next/static|_next/image).*)",
+        source: "/((?!_next/static|_next/image|api/).*)",
         headers: [
           {
             key: "Cache-Control",

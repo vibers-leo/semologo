@@ -19,7 +19,14 @@ export default function CardLogo({ candidates, priority, alt, failureLabel, retr
     observer.observe(image.current);
     return () => observer.disconnect();
   }, [near]);
-  const url = candidates[index];
+  const candidateKey = candidates.join('|');
+  useEffect(() => { setIndex(0); setAttempt(0); setFailed(false); setLoaded(false); }, [candidateKey]);
+  useEffect(() => {
+    if (!failed || attempt >= 2) return;
+    const timer = window.setTimeout(() => { setIndex(0); setAttempt(a => a + 1); setFailed(false); }, 15_000);
+    return () => window.clearTimeout(timer);
+  }, [failed, attempt]);
+  const url = candidates[index] || candidates[0];
   const src = attempt ? `${url}${url.includes('?') ? '&' : '?'}retry=${attempt}` : url;
   return <>
     {/* Start nearby cards early, without requesting the entire growing grid. */}

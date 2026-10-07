@@ -1,5 +1,5 @@
 const fs=require('fs'),path=require('path'),ts=require('typescript');
-function load(file){const m={exports:{}};new Function('exports','require','module',ts.transpileModule(fs.readFileSync(file,'utf8'),{compilerOptions:{module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2020}}).outputText)(m.exports,require,m);return m.exports;}
+function load(file){const m={exports:{}};new Function('exports','require','module',ts.transpileModule(fs.readFileSync(file,'utf8'),{compilerOptions:{esModuleInterop:true,module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2020}}).outputText)(m.exports,require('node:module').createRequire(path.resolve(file)),m);return m.exports;}
 const {prepareSvgPreview}=load('src/lib/logo-svg-preview.ts');let count=0;const failed=[];
 for(const file of ['submissions','simple-icons-submissions','streaming-submissions','index-candidate-review-submissions']){
  const brands=Object.values(load('src/lib/'+file+'.ts')).find(Array.isArray);
