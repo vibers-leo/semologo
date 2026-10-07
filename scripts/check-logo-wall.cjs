@@ -16,6 +16,7 @@ function load(file){
  const code=ts.transpileModule(fs.readFileSync(file,'utf8'),{compilerOptions:{module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2020,esModuleInterop:true}}).outputText;
  const localRequire=(name)=>{
   if(name==='pg')return{Pool};
+  if(name==='@/lib/brands')return{fetchBrandsSlim:async()=>[],sortForGrid:load('src/lib/brands.ts').sortForGrid};
   if(name==='sharp')return input=>{const chain={resize:()=>chain,timeout:()=>chain,png:()=>chain,toBuffer:async()=>input};return chain;};
   if(name==='@/app/api/logo-preview/route')return{GET:async()=>new Response(png)};
   if(name==='@/lib/logo-owner')return{logoOwner:async()=>owner};
@@ -68,6 +69,10 @@ async function main(){
  assert.equal((await exporter.GET(new Request('https://example.test/?id=test-wall'))).status,200);assert(fetched[0].includes('/logo.png'));
  fetched.length=0;exportWall.items=[{brand_id:id,snapshot:{name:'bad'}}];assert.equal((await exporter.GET(new Request('https://example.test/?id=test-wall'))).status,422);assert.equal(fetched.length,0);
  exportWall=undefined;assert.equal((await exporter.GET(new Request('https://example.test/?id=test-wall'))).status,404);
+ rows=[{id:'new-cms-logo',payload:{id:'new-cms-logo',name_ko:'신규 CMS 검증',logo_png:'logo.png',added_at:'2026-10-07',status:'published'}}];
+ const catalog=load('src/app/api/catalog/route.ts');
+ const catalogResult=await catalog.GET({nextUrl:new URL('https://example.test/api/catalog/?q='+encodeURIComponent('신규 CMS 검증'))});
+ assert.equal(catalogResult.status,200);assert.equal((await catalogResult.json()).brands[0].id,'new-cms-logo');
  console.log('PASS: legacy layouts, safe persisted styles, migrated asset flags, offline HTML, auth, quarantine save/export guards and representative PNG export order');
 }
 main().catch(e=>{console.error(e);process.exitCode=1});

@@ -1,3 +1,4 @@
+import { cmsBrand } from "@/lib/cms-brand";
 import { createHash } from "node:crypto";
 import { NextRequest, NextResponse } from "next/server";
 import { Pool } from "pg";
@@ -24,6 +25,24 @@ function getPool() {
   if (!process.env.DB_VIBERS_MAIN_URL) return null;
   pool ??= new Pool({ connectionString: process.env.DB_VIBERS_MAIN_URL, max: 2, idleTimeoutMillis: 10_000 });
   return pool;
+}
+
+let cmsCache: { at: number; brands: Brand[] } | null = null;
+async function recentCmsBrands(): Promise<Brand[]> {
+  if (cmsCache && Date.now() - cmsCache.at < POPULARITY_TTL) return cmsCache.brands;
+  const db = getPool();
+  if (!db) return [];
+  try {
+    const result = await db.query(`SELECT id,payload FROM semologo.logo_posts
+      WHERE status='published' ORDER BY updated_at DESC LIMIT 1000`);
+    const brands = result.rows.map(row => cmsBrand(row.id, row.payload))
+      .filter(brand => !brand.hidden && !brand.variant_of);
+    cmsCache = { at: Date.now(), brands };
+    return brands;
+  } catch (error) {
+    console.error("catalog CMS supplement failed", error);
+    return cmsCache?.brands ?? [];
+  }
 }
 
 async function popularityScores(): Promise<Record<string, number>> {
@@ -65,7 +84,7 @@ function pageCacheKey(input: {
 }
 
 function sortedCatalog(brands: Brand[], mode: "fame" | "recent", scores: Record<string, number>) {
-  const cacheKey = `${mode}:${scoreCache?.at ?? 0}`;
+  const cacheKey = `${mode}:${scoreCache?.at ?? 0}:${cmsCache?.at ?? 0}`;
   const cached = sortedCache.get(cacheKey);
   if (cached && Date.now() - cached.at < POPULARITY_TTL) return cached.brands;
   const sorted = sortForGrid(brands, mode, scores);
@@ -95,7 +114,12 @@ export async function GET(request: NextRequest) {
     const known = new Set(catalog.map(brand => brand.id));
     const submitted = SUBMITTED_BRANDS.filter(brand => !known.has(brand.id));
     const submittedIds = new Set([...known, ...submitted.map(brand => brand.id)]);
-    const all = [...catalog, ...submitted, ...SIMPLE_ICONS_BRANDS.filter(brand => !submittedIds.has(brand.id)), ...STREAMING_SUBMISSIONS.filter(brand => !submittedIds.has(brand.id)), ...INDEX_REVIEW_BRANDS.filter(brand => !submittedIds.has(brand.id))];
+    const base = [...catalog, ...submitted, ...SIMPLE_ICONS_BRANDS.filter(brand => !submittedIds.has(brand.id)), ...STREAMING_SUBMISSIONS.filter(brand => !submittedIds.has(brand.id)), ...INDEX_REVIEW_BRANDS.filter(brand => !submittedIds.has(brand.id))];
+    const merged = new Map(base.map(brand => [brand.id, brand]));
+    // Existing reviewed catalog entries remain authoritative; new CMS posts
+    // become searchable without adding a submission to the application code.
+    for (const brand of await recentCmsBrands()) if (!merged.has(brand.id)) merged.set(brand.id, brand);
+    const all = [...merged.values()];
     const scores = mode === "fame" ? await popularityScores() : {};
     const sorted = sortedCatalog(all, mode, scores);
     let matches = sorted;

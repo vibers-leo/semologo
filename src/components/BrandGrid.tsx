@@ -54,6 +54,7 @@ export default function BrandGrid({
   const {en, t, path} = useLocale();
   const { query, selectedCats, toggleCat, clearCats } = useSearch();
   const [brands, setBrands] = useState<Brand[]>(initialBrands);
+  const [recentPosts, setRecentPosts] = useState<Brand[]>([]);
   const [loading, setLoading] = useState(initialBrands.length === 0);
   const [loadError, setLoadError] = useState(false);
   const [catalogLoading, setCatalogLoading] = useState(false);
@@ -63,6 +64,8 @@ export default function BrandGrid({
     let alive = true;
     listPublishedLogoPosts().then((posts: LogoPost[]) => {
       if (!alive || !posts.length) return;
+      setRecentPosts([...posts].filter(post => post.added_at && !post.hidden && !post.variant_of)
+        .sort((a, b) => (b.added_at || '').localeCompare(a.added_at || '')).slice(0, 6));
       setBrands(prev => {
         const map = new Map(prev.map(brand => [brand.id, brand]));
         for (const post of posts) map.set(post.id, post);
@@ -446,6 +449,21 @@ export default function BrandGrid({
           </div>
         )}
       </div>
+
+      {!query && selectedCats.size === 0 && !origin && !fmt && sortMode === 'fame' && recentPosts.length > 0 && (
+        <section className="mb-8" aria-label={t("새로 등록된 로고")}>
+          <div className="flex items-center justify-between mb-3">
+            <h2 className="text-sm font-semibold"><T>{"새로 등록된 로고"}</T></h2>
+            <button type="button" className="text-xs underline" onClick={() => { setSortMode('recent'); setPage(1); }}>
+              <T>{"최신순으로 모두 보기"}</T>
+            </button>
+          </div>
+          <div className="grid grid-cols-2 sm:grid-cols-4 xl:grid-cols-6 gap-3">
+            {recentPosts.map(brand => <BrandCard key={brand.id} brand={brand} priority bgVote={bgVotes[brand.id]}
+              onClick={() => { setSelected(brand); history.replaceState(null, '', path(`/brand/${brand.id}`)); }} />)}
+          </div>
+        </section>
+      )}
 
       {/* ── 결과 카운트 ── */}
       <div className="flex items-center justify-between mb-4">
