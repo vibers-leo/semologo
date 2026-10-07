@@ -1,0 +1,78 @@
+{
+  "checked_at": "2026-10-07",
+  "policy": "Official denominators; exact-name candidates are not verified completion. Central and local scopes are separate.",
+  "collections": [
+    {
+      "id": "kr-public-institutions",
+      "name": "대한민국 공공기관",
+      "as_of": "2026-01-29",
+      "source_url": "https://www.ic.ac.kr/bbs/mana/501/146053/download.do",
+      "total": 342,
+      "verified": 0,
+      "candidates": 331
+    },
+    {
+      "id": "kr-public-enterprises",
+      "name": "공기업",
+      "as_of": "2026-01-29",
+      "source_url": "https://www.ic.ac.kr/bbs/mana/501/146053/download.do",
+      "total": 30,
+      "verified": 0,
+      "candidates": 30
+    },
+    {
+      "id": "kr-quasi-government",
+      "name": "준정부기관",
+      "as_of": "2026-01-29",
+      "source_url": "https://www.ic.ac.kr/bbs/mana/501/146053/download.do",
+      "total": 58,
+      "verified": 0,
+      "candidates": 58
+    },
+    {
+      "id": "kr-other-public-institutions",
+      "name": "기타공공기관",
+      "as_of": "2026-01-29",
+      "source_url": "https://www.ic.ac.kr/bbs/mana/501/146053/download.do",
+      "total": 254,
+      "verified": 0,
+      "candidates": 243
+    },
+    {
+      "id": "kr-local-public-enterprises",
+      "name": "지방공사·공단",
+      "as_of": "2026-06-30",
+      "source_url": "https://www.cleaneye.go.kr/user/referenceRoomList.do?pageIndex=1",
+      "total": 167,
+      "verified": 0,
+      "candidates": 138
+    },
+    {
+      "id": "kr-local-corporations",
+      "name": "지방공사",
+      "as_of": "2026-06-30",
+      "source_url": "https://www.cleaneye.go.kr/user/referenceRoomList.do?pageIndex=1",
+      "total": 78,
+      "verified": 0,
+      "candidates": 72
+    },
+    {
+      "id": "kr-local-authorities",
+      "name": "지방공단",
+      "as_of": "2026-06-30",
+      "source_url": "https://www.cleaneye.go.kr/user/referenceRoomList.do?pageIndex=1",
+      "total": 89,
+      "verified": 0,
+      "candidates": 66
+    },
+    {
+      "id": "kr-local-invested-institutions",
+      "name": "지방 출자·출연기관",
+      "as_of": "2026-06-30",
+      "source_url": "https://www.cleaneye.go.kr/user/referenceRoomList.do?pageIndex=1",
+      "total": 892,
+      "verified": 0,
+      "candidates": 760
+    }
+  ]
+}

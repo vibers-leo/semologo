@@ -5,6 +5,15 @@ import { CDN } from './cdn';
 // indiscriminately: the Seongnam symbol contains intentional white artwork.
 const official = 'sources/official-ci-20261007';
 export function applyReviewedAssets(brand: Brand): Brand {
+  if (brand.id === 'h-m') return { ...brand, variant_of: 'h-m-1', hidden: true,
+    hidden_reason: 'H&M 중복 로고를 투명 원본 대표 콘텐츠로 통합',
+  };
+  if (brand.id === 'h-m-1') return { ...brand, name_ko: 'H&M', name_en: 'H&M',
+    aliases: [...(brand.aliases ?? []), '에이치앤엠', '에이치 앤 엠'],
+    logo_png: 'sources/reviewed-merge-20261007/logo.png', has_png: true,
+    preview_png: `${CDN}/h-m-1/sources/reviewed-merge-20261007/logo.png`,
+    light: false, light_logo: false, dark_variant: false,
+  };
   if (['bonghwa', 'geochang'].includes(brand.id)) return { ...brand,
     logo_png: 'sources/official-municipality-20261007/logo.png', has_png: true,
     preview_png: `${CDN}/${brand.id}/sources/official-municipality-20261007/logo.png`,
@@ -52,6 +61,10 @@ export function applyReviewedAssets(brand: Brand): Brand {
 }
 
 export const reviewedVariants: Record<string, VariantManifest> = {
+  'h-m-1': { schema: 1, algo_v: 1, id: 'h-m-1', primary: 'original', variants: [
+    { key: 'original', form: 'wordmark', lang: 'en', color: 'original', label: '투명 워드마크', files: { svg: 'logo.svg', png: 'sources/reviewed-merge-20261007/logo.png' }, provider: '기존 보유 원본', origin: 'collected', order: 0 },
+    { key: 'legacy', form: 'wordmark', lang: 'en', color: 'original', label: '기존 워드마크', files: { svg: 'sources/reviewed-merge-20261007/legacy.svg', png: 'sources/reviewed-merge-20261007/logo.png' }, provider: '통합한 기존 콘텐츠 원본', origin: 'collected', order: 1 },
+  ] },
   nhqv: { schema: 1, algo_v: 1, id: "nhqv", primary: "reviewed-korean", variants: [{
     key: 'reviewed-korean', form: 'horizontal', lang: 'ko', color: 'original', label: '한글 워드마크',
     files: { png: 'sources/reviewed-transparent-20261007/logo.png', svg: 'sources/reviewed-transparent-20261007/logo.svg' },
