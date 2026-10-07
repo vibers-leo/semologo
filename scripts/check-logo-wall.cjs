@@ -33,6 +33,8 @@ async function main(){
  assert.equal(nh.has_svg,true);assert.equal(reviewedVariants.nhqv.variants.length,1);
  assert(nh.svg_transparent.includes("reviewed-transparent-20261007"));
  assert(!logoPngCandidates(nh).some(url=>url.includes('logo-transparent.png')));
+ const gs=applyReviewedAssets({id:'gscaltex',name_ko:'GS건설',domain:'gscaltex.com'});
+ assert.equal(gs.variant_of,'gs-caltex');assert.equal(gs.name_ko,'GS칼텍스');
  const seongnam=applyReviewedAssets({id:'seongnam'});
  assert(seongnam.preview_png.includes('official-ci-20261007'));
  const relative=logoPngCandidates({id:'relative',logo_png:'logo.png'});

@@ -11,6 +11,11 @@ export function applyReviewedAssets(brand: Brand): Brand {
     ...(brand.id === 'hyundai-glovis' ? { name_ko: '현대글로비스', name_en: 'Hyundai Glovis' } : {}),
     ...(brand.id === 'gs-caltex' ? { name_ko: 'GS칼텍스', name_en: 'GS Caltex' } : {}),
   };
+  if (brand.id === 'gscaltex') return { ...brand,
+    name_ko: 'GS칼텍스', name_en: 'GS Caltex', category: '에너지·화학',
+    variant_of: 'gs-caltex', hidden: true,
+    hidden_reason: 'GS칼텍스 도메인·로고의 오기명 중복을 GS칼텍스 대표 콘텐츠로 통합',
+  };
   if (brand.id === 'skbroadband') return { ...brand,
     preview_png: `${CDN}/skbroadband/sources/reviewed-transparent-20261007/logo.png`,
     logo_png: 'sources/reviewed-transparent-20261007/logo.png',
