@@ -383,6 +383,9 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
 
   useEffect(() => {
     setInvertedUrl(null);
+    if (brand.rejected_asset_files?.includes("logo-transparent.png")) {
+      setVisibility(null); setHasWhiteLogo(false); return;
+    }
     analyzeLogoVisibility(
       brand.id,
       previewUrl,
@@ -390,8 +393,8 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
     ).then(async result => {
       setVisibility(result);
       if (result.darkMode === "white-only") {
-        const transparentSrc = `${CDN}/${brand.id}/logo-transparent.png?v=${VERSION}`;
-        const pngSrc = `${CDN}/${brand.id}/logo.png?v=${VERSION}`;
+        const transparentSrc = darkUrl;
+        const pngSrc = previewUrl;
         const inv = await generateInverted(transparentSrc) ?? await generateInverted(pngSrc);
         setInvertedUrl(inv);
       }
