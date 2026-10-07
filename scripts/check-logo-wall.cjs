@@ -30,7 +30,8 @@ async function main(){
  const {logoPngCandidates}=load('src/lib/logo-png-source.ts');
  const {applyReviewedAssets,reviewedVariants}=load('src/lib/reviewed-logo-assets.ts');
  const nh=applyReviewedAssets({id:'nhqv',logo_svg:'logo.svg',has_svg:true,logo_png:true});
- assert.equal(nh.has_svg,false);assert.equal(reviewedVariants.nhqv.variants.length,0);
+ assert.equal(nh.has_svg,true);assert.equal(reviewedVariants.nhqv.variants.length,1);
+ assert(nh.svg_transparent.includes("reviewed-transparent-20261007"));
  assert(!logoPngCandidates(nh).some(url=>url.includes('logo-transparent.png')));
  const seongnam=applyReviewedAssets({id:'seongnam'});
  assert(seongnam.preview_png.includes('official-ci-20261007'));
