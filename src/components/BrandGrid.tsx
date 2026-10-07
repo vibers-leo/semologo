@@ -267,7 +267,7 @@ export default function BrandGrid({
   const trackedSearches = useRef(new Set<string>());
   useEffect(() => {
     const term = deferredQuery.trim();
-    if (!term || trackedSearches.current.has(term)) return;
+    if (!term || catalogLoading || loadError || trackedSearches.current.has(term)) return;
     const timer = window.setTimeout(() => {
       trackedSearches.current.add(term);
       // 한 세션에서 지나치게 많은 이벤트가 쌓이지 않도록 상한을 둔다.
@@ -276,7 +276,7 @@ export default function BrandGrid({
       if (resultTotal === 0) trackEvent("search_no_result", { search_term: term });
     }, 700);
     return () => window.clearTimeout(timer);
-  }, [deferredQuery, resultTotal]);
+  }, [deferredQuery, resultTotal, catalogLoading, loadError]);
 
   const visible = filtered.slice(0, page * PAGE_SIZE);
   const hasMore = visible.length < resultTotal;
