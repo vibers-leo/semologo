@@ -105,6 +105,7 @@ export default function AdminPage() {
         {/* 외부 도구 */}
         <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit,minmax(240px,1fr))", gap: 12, marginBottom: 14 }}>
           {[
+            { href: "/admin/traffic", emoji: "🔎", title: "접속·검색·다운로드", desc: "UTM 유입과 방문별 행동 기록", ext: false },
             { href: FANEASY_ADMIN, emoji: "🗂", title: "통합 어드민", desc: "여러 사이트의 통계·문의를 한 곳에서", ext: true },
             { href: GA_PROPERTY, emoji: "📈", title: "방문 통계 (GA4)", desc: "유입·검색어·페이지별 방문", ext: true },
             { href: "/requests", emoji: "📮", title: "요청·제보 접수", desc: "들어온 로고 요청과 품질 신고 처리", ext: false },

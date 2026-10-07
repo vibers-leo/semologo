@@ -31,6 +31,7 @@ export default function PrivacyPage() {
             <ul className="flex flex-col gap-2 pl-4" style={{ listStyleType: "disc" }}>
               <li><strong>Google 로그인 시:</strong> 이름, 이메일, 프로필 사진 (Google OAuth 제공 정보)</li>
               <li><strong>로고 제보 시:</strong> 이메일(선택), 제보 내용</li>
+              <li><strong>서비스 이용 분석:</strong> 익명 방문 세션, UTM 유입 경로, 페이지 방문, 검색어, 로고 열람 및 다운로드 선택, 기기·브라우저 종류를 기록합니다. 이메일·이름과 연결하지 않으며 원본 IP를 저장하지 않습니다. 이 기록은 90일 후 삭제합니다.</li>
               <li><strong>자동 수집:</strong> 서비스 이용 기록, 접속 IP, 브라우저 정보 (Google Analytics)</li>
             </ul>
           </section>

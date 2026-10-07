@@ -1,10 +1,30 @@
 "use client";
 import { useEffect } from "react";
+import { usePathname } from "next/navigation";
+import { trackEvent } from "@/lib/analytics";
 const API = `${(process.env.NEXT_PUBLIC_FANEASY_API_BASE || "https://www.faneasy.kr").replace(/\/$/, "")}/api/track-view`;
 // Only campaign parameters are retained: search terms, tokens and arbitrary query values are excluded.
 const UTM_KEYS = ["utm_source", "utm_medium", "utm_campaign", "utm_content", "utm_term"];
 let pending: Promise<void> | undefined;
+let lastTrackedPath = '';
 export default function ViewTracker() {
+  const pathname = usePathname();
+  useEffect(() => {
+    // ZIP/AI originals use direct links rather than the logo download helper.
+    const original = (event: MouseEvent) => {
+      const anchor = (event.target as Element | null)?.closest?.('a[download]') as HTMLAnchorElement | null;
+      if (!anchor || !/\.(zip|ai)(?:[?#]|$)/i.test(anchor.href)) return;
+      try { const url = new URL(anchor.href); const parts = url.pathname.split('/'); const root = parts.indexOf('_clients');
+        if (root < 0) return;
+        trackEvent('logo_downloaded', { brand_id: parts[root + 1], file_name: decodeURIComponent(parts.at(-1) || ''), download_method: 'original_link' });
+      } catch { /* Optional analytics. */ }
+    };
+    document.addEventListener('click', original);
+    return () => document.removeEventListener('click', original);
+  }, []);
+  useEffect(() => {
+    if (pathname !== lastTrackedPath) { lastTrackedPath = pathname; trackEvent('page_view'); }
+  }, [pathname]);
   useEffect(() => {
     if (!/^(www\.)?semologo\.com$/.test(location.hostname)) return;
     let cleanup = () => {};
