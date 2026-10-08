@@ -764,7 +764,7 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
           <div style={{ borderRadius:8, overflow:"hidden", cursor: "pointer", outline: bgOverride ? "2px solid #22c55e" : undefined }}
                onClick={toggleBg}
                title={isLightLogo ? "클릭: 흰 배경으로 되돌리기" : "클릭: 검정 배경으로 메인 노출"}>
-            <div style={{ ...(invertedUrl ? { background:"#111114" } : getDarkPreviewStyle(visibility)), position:"relative", height:72 }}>
+            <div style={{ ...(invertedUrl || brand.dark_png ? { background:"#111114" } : getDarkPreviewStyle(visibility)), position:"relative", height:72 }}>
               {bgOverride && (
                 <span style={{ position:"absolute", top:4, right:6, fontSize:10, fontWeight:700, padding:"1px 6px", borderRadius:8, background: bgOverride === "dark" ? "#22c55e" : "#e4e4e7", color: bgOverride === "dark" ? "#fff" : "#52525b" }}>
                   {bgOverride === "dark" ? "📌 검정 메인" : "📌 흰 배경"}
@@ -836,14 +836,14 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
         <div className="mscroll" style={{ overflowY: isPage ? undefined : "auto", padding:"22px 24px", scrollbarWidth:"thin" }}>
           {isAdmin && <section aria-label="대표 이미지 선택" style={{border:'1px solid #c7d2fe',borderRadius:12,padding:14,marginBottom:16,background:'#f8f7ff'}}>
             <b style={{fontSize:13}}>대표 이미지 선택</b><p style={{fontSize:11,color:'#71717a',margin:'5px 0 10px'}}>파일과 배경을 함께 선택해요. 저장하면 목록과 상세 화면에 반영돼요.</p>
-            <div style={{display:'flex',gap:8,overflowX:'auto',paddingBottom:8}}>{mainCandidates.map(v=><button key={v.file} type="button" onClick={()=>setPickFile(v.file)} aria-pressed={pickFile===v.file} style={{minWidth:120,border:pickFile===v.file?'2px solid #6366f1':'1px solid #e4e4e7',borderRadius:8,padding:8,background:'#fff',cursor:'pointer'}}><img src={cdnUrl(v.file)} alt="" style={{width:100,height:48,objectFit:'contain',background:pickBg==='dark'?'#18181b':'#fff'}}/><span style={{display:'block',fontSize:11,marginTop:6}}>{v.label}</span></button>)}</div>
+            <div style={{display:'flex',gap:8,overflowX:'auto',paddingBottom:8}}>{mainCandidates.map(v=><button key={v.file} type="button" onClick={()=>setPickFile(v.file)} aria-pressed={pickFile===v.file} style={{minWidth:120,border:pickFile===v.file?'2px solid #6366f1':'1px solid #e4e4e7',borderRadius:8,padding:8,background:'#fff',cursor:'pointer'}}><img src={cdnUrl(v.file)} alt="" style={{width:100,height:48,objectFit:'contain',background:v.file===brand.dark_png||v.file==='logo-white.png'||pickBg==='dark'?'#18181b':'#fff'}}/><span style={{display:'block',fontSize:11,marginTop:6}}>{v.label}</span></button>)}</div>
             <div style={{display:'flex',gap:10,alignItems:'center',flexWrap:'wrap',marginTop:8}}><label><input type="radio" name={`main-bg-${brand.id}`} checked={pickBg==='light'} onChange={()=>setPickBg('light')}/> 흰 배경</label><label><input type="radio" name={`main-bg-${brand.id}`} checked={pickBg==='dark'} onChange={()=>setPickBg('dark')}/> 어두운 배경</label><button type="button" disabled={!pickFile||savingPresentation} onClick={()=>void savePresentation(pickFile,pickBg)} style={{padding:'7px 12px',border:0,borderRadius:7,color:'#fff',background:'#6366f1',cursor:'pointer'}}>{savingPresentation?'저장 중…':'대표로 지정하기'}</button>{presentation&&<span style={{fontSize:11,color:'#15803d'}}>✓ 대표 이미지 지정됨</span>}</div>
           </section>}
           <LogoVersionHistory brandId={brand.id} isAdmin={isAdmin}/>
           {/* 인트로 라이트/다크 — 배경별로 어떻게 보이는지 확인용 */}
           <div style={{ display:"grid", gridTemplateColumns:"1fr 1fr", borderRadius:12, overflow:"hidden", height:132, marginBottom:16 }}>
             <LogoBox src={!presentation && bgOverride === "dark" ? (invertedUrl || darkPreviewSrc) : previewUrl} alt={en ? brand.name_en || brand.name_ko : brand.name_ko} height={132} padding={18} bg={isLightLogo ? "dark" : "white"} fallback={pngUrl} />
-            <div style={{ ...(invertedUrl ? { background:"#111114" } : getDarkPreviewStyle(visibility)), position:"relative", height:132, cursor: "pointer", outline: bgOverride ? "2px solid #22c55e" : undefined, outlineOffset: -2 }}
+            <div style={{ ...(invertedUrl || brand.dark_png ? { background:"#111114" } : getDarkPreviewStyle(visibility)), position:"relative", height:132, cursor: "pointer", outline: bgOverride ? "2px solid #22c55e" : undefined, outlineOffset: -2 }}
                  onClick={toggleBg}
                  title={isLightLogo ? "클릭: 흰 배경으로 되돌리기" : "클릭: 검정 배경으로 메인 노출"}>
               {/* 관리자 지정 지점 — 사용자가 "상단 오른쪽 검정 패널을 클릭하면 검정 메인"을 원했다(2026-09-04).
