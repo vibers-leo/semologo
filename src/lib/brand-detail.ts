@@ -12,7 +12,7 @@ export const fetchBrand = cache(async (id: string): Promise<Brand | null> => {
         "SELECT payload,status FROM semologo.logo_posts WHERE id=$1", [id],
       );
       const row = result.rows[0];
-      if (row) return row.status === 'published' ? cmsBrand(id, row.payload) : null;
+      return row?.status === 'published' ? cmsBrand(id, row.payload) : null;
     } catch {
       // Keep the existing catalog available during a temporary CMS outage.
     }
