@@ -1,7 +1,8 @@
 import { languageAlternates, localePath, type Locale } from "@/lib/locales";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { fetchBrand, fetchBrandsSlim, fetchCategoryPeers, isIndexableBrand } from "@/lib/brands";
+import { fetchBrandsSlim, fetchCategoryPeers, isIndexableBrand } from "@/lib/brands";
+import { fetchBrand } from "@/lib/brand-detail";
 import { logoPngCandidates } from "@/lib/logo-png-source";
 import Header from "@/components/Header";
 import BrandDetailClient from "./BrandDetailClient";
