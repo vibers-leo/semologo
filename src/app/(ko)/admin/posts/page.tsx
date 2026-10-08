@@ -13,12 +13,12 @@ export default function AdminPostsPage(){
  const refresh=useCallback(async(signal?:AbortSignal)=>{
   setLoading(true);setError('');setPosts([]);
   try{const token=await getClientAuth().currentUser?.getIdToken();if(!token)throw Error('관리자 로그인이 필요해요.');
-   const r=await fetch(`/api/admin/logo-posts/?status=${status}&q=${encodeURIComponent(search)}&page=${page}`,{headers:{Authorization:`Bearer ${token}`},cache:'no-store',signal});const data=await r.json();if(!r.ok)throw Error(data.error);if(!signal?.aborted){setPosts(data.posts);setTotal(data.total);}
+   const r=await fetch(`/api/admin/logo-posts/?status=${status}&q=${encodeURIComponent(search)}&page=${page}`,{headers:{Authorization:`Bearer ${token}`},cache:'no-store',signal});if(!r.headers.get('content-type')?.includes('application/json'))throw Error('일시적으로 연결하지 못했어요. 다시 불러와 주세요.');const data=await r.json();if(!r.ok)throw Error(data.error);if(!signal?.aborted){setPosts(data.posts);setTotal(data.total);}
   }catch(e){if(!signal?.aborted)setError(e instanceof Error?e.message:'목록을 불러오지 못했어요.');}finally{if(!signal?.aborted)setLoading(false);}
  },[status,search,page]);
  useEffect(()=>onAuthStateChanged(getClientAuth(),u=>{setAdmin(u?.email?.toLowerCase()==='juuuno1116@gmail.com');setReady(true);}),[]);
  useEffect(()=>{if(!admin)return;const c=new AbortController();void refresh(c.signal);return()=>c.abort();},[admin,refresh]);
- async function change(post:LogoPost,next:keyof typeof labels){setBusy(post.id);setError('');try{const token=await getClientAuth().currentUser?.getIdToken();const r=await fetch('/api/admin/logo-posts/',{method:'PATCH',headers:{Authorization:`Bearer ${token}`,'Content-Type':'application/json'},body:JSON.stringify({id:post.id,status:next})});const data=await r.json();if(!r.ok)throw Error(data.error);await refresh();}catch(e){setError(e instanceof Error?e.message:'저장하지 못했어요.');}finally{setBusy('');}}
+ async function change(post:LogoPost,next:keyof typeof labels){setBusy(post.id);setError('');try{const token=await getClientAuth().currentUser?.getIdToken();const r=await fetch('/api/admin/logo-posts/',{method:'PATCH',headers:{Authorization:`Bearer ${token}`,'Content-Type':'application/json'},body:JSON.stringify({id:post.id,status:next})});if(!r.headers.get('content-type')?.includes('application/json'))throw Error('일시적으로 연결하지 못했어요. 다시 불러와 주세요.');const data=await r.json();if(!r.ok)throw Error(data.error);await refresh();}catch(e){setError(e instanceof Error?e.message:'저장하지 못했어요.');}finally{setBusy('');}}
  return <div style={{minHeight:'100vh',background:'var(--bg)'}}><Header/><main style={{maxWidth:1000,margin:'0 auto',padding:'32px 16px'}}>
  <h1 style={{fontSize:24,fontWeight:800}}>로고 콘텐츠 관리</h1><p style={{color:'var(--text-secondary)',fontSize:13,margin:'8px 0 20px'}}>수집한 로고를 검색하고 게시 상태를 관리해요. 보관해도 원본 파일은 유지돼요.</p>
  {!ready?<p>불러오는 중이에요.</p>:!admin?<p>관리자 계정으로 로그인해 주세요. <a href="/login/">로그인</a></p>:<>
