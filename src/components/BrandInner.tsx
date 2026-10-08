@@ -301,7 +301,10 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
    * 목록에 있는 파일은 반드시 있다. 그래서 이미지 프로브가 필요 없다.
    * 매니페스트가 없는 브랜드만 기존 프로브 방식으로 동작한다.
    */
-  const fallbackVariants = VARIANTS.filter(v => {
+  const fallbackVariants = VARIANTS.map(v => {
+    const file = v.file === "logo.png" ? brand.logo_png : v.file === "logo.svg" ? brand.svg_transparent : undefined;
+    return typeof file === "string" && !file.startsWith("/") && !file.startsWith("http") ? {...v,file} : v;
+  }).filter(v => {
     if (brand.rejected_asset_files?.includes(v.file)) return false;
     if (v.svgOnly && !hasSvg) return false;
     if (v.langEn && !brand.lang_en) return false;
