@@ -29,6 +29,9 @@ function load(file){
 async function main(){
  const {logoPngCandidates,logoImageCandidates}=load('src/lib/logo-png-source.ts');
  const {applyReviewedAssets,reviewedVariants}=load('src/lib/reviewed-logo-assets.ts');
+ const duplicate=applyReviewedAssets({id:'cj-hole-6464'});assert.equal(duplicate.hidden,true);assert.equal(duplicate.merged_into,'cj-hole');
+ const raster=applyReviewedAssets({id:'policja',has_svg:true});assert.equal(raster.has_svg,false);assert.equal(raster.logo_svg,false);assert(!reviewedVariants.policja.variants[0].files.svg);
+ const cj=applyReviewedAssets({id:'cj-logo',light:true});assert.equal(cj.presentation.bg,'light');assert.equal(cj.light,false);
  const nh=applyReviewedAssets({id:'nhqv',logo_svg:'logo.svg',has_svg:true,logo_png:true});
  assert.equal(nh.has_svg,true);assert.equal(reviewedVariants.nhqv.variants.length,1);
  assert(nh.svg_transparent.includes("reviewed-transparent-20261007"));

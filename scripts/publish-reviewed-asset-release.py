@@ -1,5 +1,5 @@
 """Publish reviewed immutable SVG/PNG objects and patch existing CMS metadata."""
-import concurrent.futures,hashlib,json,mimetypes,shlex,subprocess
+import argparse,concurrent.futures,hashlib,json,mimetypes,shlex,subprocess
 from pathlib import Path
 import boto3
 from botocore.config import Config
@@ -7,6 +7,8 @@ from botocore.exceptions import ClientError
 from PIL import Image
 ROOT=Path(__file__).resolve().parents[1];OUT=ROOT/'marketing/assets/asset-release-20261008'
 def main():
+ global OUT
+ parser=argparse.ArgumentParser();parser.add_argument('--release-dir',type=Path,default=OUT);args=parser.parse_args();OUT=args.release_dir.resolve();assert OUT.is_relative_to(ROOT/'marketing/assets')
  release=json.loads((OUT/'release.json').read_text());uploads=json.loads((OUT/'uploads.json').read_text())
  for u in uploads:
   f=ROOT/u['file'];assert hashlib.sha256(f.read_bytes()).hexdigest()==u['sha256']

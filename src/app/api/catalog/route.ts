@@ -4,7 +4,7 @@ import { NextRequest, NextResponse } from "next/server";
 import { Pool } from "pg";
 import { fetchBrandsSlim, sortForGrid, type Brand } from "@/lib/brands";
 import { isChoseongQuery, choseongIndex } from "@/lib/hangul";
-import { VERSION } from "@/lib/cdn";
+import { VERSION, CATALOG_VERSION } from "@/lib/cdn";
 import { SUBMITTED_BRANDS } from "@/lib/submissions";
 import { SIMPLE_ICONS_BRANDS } from "@/lib/simple-icons-submissions";
 import { STREAMING_SUBMISSIONS } from "@/lib/streaming-submissions";
@@ -73,6 +73,7 @@ function pageCacheKey(input: {
 }): string {
   const fingerprint = createHash("sha1").update(JSON.stringify({
     version: VERSION,
+    catalogVersion: CATALOG_VERSION,
     mode: input.mode,
     offset: input.offset,
     limit: input.limit,

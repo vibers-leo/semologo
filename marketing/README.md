@@ -49,3 +49,5 @@
 - 2026-10-06: 로고월 베타 메뉴·등록 안내·추천 스타일/간격/크기/이름 표시/로고월만 보기 개발. 대표 PNG 및 CMS 메타데이터 복원 점검. 브라우저 관리자 정책 확인 오류로 최신 화면 캡처는 보류.
 
 - 2026-10-07: yahwa 참고 익명 UTM 세션·검색·열람·다운로드 분석을 NCP PostgreSQL 및 /admin/traffic에 연결. 90일 자동 보관 정리, 관리자 접근 차단, 운영 저장 E2E 및 테스트 기록 삭제 검증.
+
+- 2026-10-08: 흰 배경 전후 검수 226개, 바깥 배경 제거 222개, 혼합 SVG 4개 PNG 전환, 중복 7쌍 통합(기존 주소·버전 보존). 근거: `data/collection/background-merge-release-20261008.json`, 원본·전후 이미지: `marketing/assets/background-merge-review-20261008/`.

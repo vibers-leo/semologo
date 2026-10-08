@@ -1,6 +1,6 @@
 import { languageAlternates, localePath, type Locale } from "@/lib/locales";
 import type { Metadata } from "next";
-import { notFound } from "next/navigation";
+import { notFound, permanentRedirect } from "next/navigation";
 import { fetchBrandsSlim, fetchCategoryPeers, isIndexableBrand } from "@/lib/brands";
 import { fetchBrand } from "@/lib/brand-detail";
 import { logoPngCandidates } from "@/lib/logo-png-source";
@@ -81,12 +81,15 @@ export async function brandMetadata(
 
 export const generateMetadata = (props: {params: Promise<{id: string}>}) => brandMetadata(props);
 
-export default async function BrandPage(
-  { params }: { params: Promise<{ id: string }> }
+export async function renderBrandPage(
+  { params }: { params: Promise<{ id: string }> }, locale: Locale = "ko"
 ) {
   const { id } = await params;
   const brand = await fetchBrand(id);
   if (!brand) notFound();
+  if (brand.merged_into && brand.merged_into !== id && /^[\p{L}\p{N}._-]{1,200}$/u.test(brand.merged_into)) {
+    permanentRedirect(localePath(`/brand/${brand.merged_into}`, locale));
+  }
   // 연관 브랜드는 같은 카테고리 12개뿐이다. 전체 목록(12.9MB)을 받으면
   // 빌드 워커마다 그걸 파싱해 힙이 터진다 — 실제로 배포가 실패했다.
   const peers = await fetchCategoryPeers(brand.category || "기타");
@@ -143,4 +146,8 @@ export default async function BrandPage(
       </div>
     </>
   );
+}
+
+export default function BrandPage(props: { params: Promise<{ id: string }> }) {
+  return renderBrandPage(props);
 }

@@ -1,0 +1,1678 @@
+{
+  "date": "2026-10-08",
+  "scope": "Explicit before/after visual reviews; current CDN source byte match required",
+  "brands": 226,
+  "canvas_removed": 222,
+  "png_only": 4,
+  "merges": [
+    {
+      "source": "cj-hole-6464",
+      "target": "cj-hole",
+      "same_dimensions": true,
+      "mean_channel_difference": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "review": "same brand text, composition and artwork; no year inferred"
+    },
+    {
+      "source": "alma-agencja-14936",
+      "target": "alma-agencja",
+      "same_dimensions": true,
+      "mean_channel_difference": [
+        1.1599843331089952,
+        1.0698390282114367,
+        1.06743107119609,
+        0.29499266304048016
+      ],
+      "review": "same brand text, composition and artwork; no year inferred"
+    },
+    {
+      "source": "agencja-13-27667",
+      "target": "agencja-13",
+      "same_dimensions": true,
+      "mean_channel_difference": [
+        0.056255933433852684,
+        0.00961914335176188,
+        0.011531803205450383,
+        0.07010526609705701
+      ],
+      "review": "same brand text, composition and artwork; no year inferred"
+    },
+    {
+      "source": "agencja-zarzadu-14870",
+      "target": "agencja-zarzadu",
+      "same_dimensions": true,
+      "mean_channel_difference": [
+        0.031371703892985235,
+        0.011772085648753906,
+        0.004833520619429522,
+        0.002659206009574681
+      ],
+      "review": "same brand text, composition and artwork; no year inferred"
+    },
+    {
+      "source": "agencja-budowy-autostrad-5382",
+      "target": "agencja-budowy-autostrad",
+      "same_dimensions": true,
+      "mean_channel_difference": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "review": "same brand text, composition and artwork; no year inferred"
+    },
+    {
+      "source": "agencja-reklama-pocztowa-551",
+      "target": "agencja-reklama-pocztowa",
+      "same_dimensions": true,
+      "mean_channel_difference": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "review": "same brand text, composition and artwork; no year inferred"
+    },
+    {
+      "source": "cj-logo-1",
+      "target": "cj-logo",
+      "same_dimensions": true,
+      "mean_channel_difference": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "review": "same brand text, composition and artwork; no year inferred"
+    }
+  ],
+  "held_changed_source": [],
+  "decisions": [
+    {
+      "id": "konwencja-gdynska",
+      "source_sha256": "ccaa46972e05f5df8bfd19dcedfdbc9074c292e6901119ac5644cbf973e98b68",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "optimus-integracja",
+      "source_sha256": "578fd532c5c04205b2590967c07e349dbbf6383537f94ca5d4793f074c9c54aa",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "specjal-beer",
+      "source_sha256": "0c73d5ec35515c06b2aa48d620e61265f811de78556421bee8bd3f8c25b41eb9",
+      "canvas_removed": true,
+      "png_only": true,
+      "white_art_preserved": false
+    },
+    {
+      "id": "ccjs",
+      "source_sha256": "5d2d83cc488dc5f04da8aa3514aca79d3ad1c1365c76a0deb840e2de239e070a",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "inspekcja-transportu-drogowego",
+      "source_sha256": "8eb1eef8291d17fb35d55fe0966a309df881b4b1d1de86dec3867763443e17e2",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "izolacjasa",
+      "source_sha256": "a5383426816ea8b8ad7986738357b3ee42bf457d75c69225cdbc209152e1b5b2",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "izolacja-nidzica",
+      "source_sha256": "677a81b1693f12dfbdc280b21e38c356e797759c358f945f414095617a7f58a8",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "policja",
+      "source_sha256": "b94029fcf390d3983d2673931d7cf8ebd53e9d4448146cfb44feb8a45e305cf6",
+      "canvas_removed": true,
+      "png_only": true,
+      "white_art_preserved": false
+    },
+    {
+      "id": "sos-djecje-selo-hrvatska",
+      "source_sha256": "22e90815acbf92959112d77a236057168d62e64960fd6fe09be49a47a20cef7c",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "alma-agencja",
+      "source_sha256": "9b91bc0698a3845cf2bec06ffc8e372acef5916979531ac236163281abc73033",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "alma-agencja-14936",
+      "source_sha256": "6144972ab1fa6a22fc7644ad68d6779b66880d8e4f6bf06b12d66a8982c8f931",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "kks-sandecja-nowy-sacz",
+      "source_sha256": "ddf24cc0eeb3489cda0a9afe63dab72f46fc037aacfa2f394c1a2338fa82cb60",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "korelacja",
+      "source_sha256": "c1c40d6696337e0d7d7ab01894599389c02f942d8cd5aa66edc6c4a7aadcc83d",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "legion-agencja",
+      "source_sha256": "1c2ccd02188b40f187dc73989d06e584a455560a9891eed450e44cc06eeb614b",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "mitel-agencja",
+      "source_sha256": "2dd34db8b0197c099af942eae67b54e0cf83356419b3b32bfdf6725311554bbf",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "ncjw",
+      "source_sha256": "1a2ba1912c8fa8f210a38e148a566b5134a6b85be9b2ef94a6b218bb0bd4155c",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "panstwowa-inspekcja-sanitar",
+      "source_sha256": "3d034524b89106a021d8873761cd862dc3a3593af5a2390287303292adf16e92",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "polskie-agencje-ochrony",
+      "source_sha256": "a6503c8746d4a8620ab23a3311c6cb53abddf74cc1065e8f7938bcbc910f0603",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "radiostacja",
+      "source_sha256": "e2a05d353ae22bf05dc8ed38df9e3fbe72959c4735d28e684dd7aa12a9a539ed",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "tp-telekomunikacja-polska",
+      "source_sha256": "ba5949f4c17646c991e7c987df203270c445206f765fd18b92693e4d2583e2c7",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "turcja",
+      "source_sha256": "cef13dab0b5b47d586042632692fb31c8b46aaf97a89a9f356014e2657f37213",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "agencja-13-27667",
+      "source_sha256": "82d89d684a800517a9cc2c45b75959cb2ea1b193e2271a965829e4bbe2feeefb",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "agencja-reklama-pocztowa-551",
+      "source_sha256": "a57de13223001ce04b49a2ee444a57b26aa0f79ad2aacbc3877051287021e529",
+      "canvas_removed": true,
+      "png_only": true,
+      "white_art_preserved": false
+    },
+    {
+      "id": "agencja-budowy-autostrad",
+      "source_sha256": "3f2d0c840df25e9b88157aec167b23718017094270c5df1617526cbbac18c30d",
+      "canvas_removed": false,
+      "png_only": false,
+      "white_art_preserved": true
+    },
+    {
+      "id": "agencja-13",
+      "source_sha256": "94532292d188a87fd4f980cfaa6cdf15f4ff5ed19c1cfbf3dd15b83e8d41612b",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "agencja-zarzadu-14870",
+      "source_sha256": "41a405ced5dd8c074307bd160da95ea2a76fde5e1a5e4340afc6e845254f5cea",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": true
+    },
+    {
+      "id": "agencja-budowy-autostrad-5382",
+      "source_sha256": "3f2d0c840df25e9b88157aec167b23718017094270c5df1617526cbbac18c30d",
+      "canvas_removed": false,
+      "png_only": false,
+      "white_art_preserved": true
+    },
+    {
+      "id": "agencja-reklama-pocztowa",
+      "source_sha256": "a57de13223001ce04b49a2ee444a57b26aa0f79ad2aacbc3877051287021e529",
+      "canvas_removed": true,
+      "png_only": true,
+      "white_art_preserved": false
+    },
+    {
+      "id": "agencja-zarzadu",
+      "source_sha256": "f4bb4f9a837d9b7415b55b9e069dd9ff1fbebe8af28d378fdb5811b19a15ffd0",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": true
+    },
+    {
+      "id": "cj-coiffure",
+      "source_sha256": "48ec4667acdcf7457500359ffe325597049d982d39337e9fe88082caccf35bf3",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "cj-hole-6464",
+      "source_sha256": "7b28bdb606ac8fbce26a56b1402bb045e09ad11477b694b78f2e061fbe3b3e8d",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "cj-logo-1",
+      "source_sha256": "9c948f9fc863608cf67915bb7c790d335cbd08724fb97f7309c7603718cdec97",
+      "canvas_removed": false,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "cj-logo",
+      "source_sha256": "9c948f9fc863608cf67915bb7c790d335cbd08724fb97f7309c7603718cdec97",
+      "canvas_removed": false,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "cj-hole",
+      "source_sha256": "7b28bdb606ac8fbce26a56b1402bb045e09ad11477b694b78f2e061fbe3b3e8d",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "cjrw",
+      "source_sha256": "1c7f231cd733ea47c882e7466937e8990178d008216b38ec239f884470b3467b",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": true
+    },
+    {
+      "id": "sanofi",
+      "source_sha256": "7d79afeb7c432c2f28ae3ba716f241caad1683debe26b085e5e7eba1976595c0",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "briar",
+      "source_sha256": "407a2ee4ec82914dd8b2acb092fd666f4783f59d0f943f51665d0ebbb1cf4798",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "kpmg",
+      "source_sha256": "a0d1cf6d64677bbcab4844c36cc4f43a70fe1376a170804e78a2997d43ebb088",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "tokyo-zokei-university",
+      "source_sha256": "ac8334163ba919e19b6013811ba3e8e691e4e1459425bd3085b59a927932fa99",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "luckyframework",
+      "source_sha256": "82eb8b544b5210f40d801d4aac7d9d1df0454a3a71c1d6f00d59d8beb29886d3",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "coil",
+      "source_sha256": "abd0ab57874b7d1f4b3b11a30b904502c2f4c2d0783279a030644e1d59f36f51",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "psg",
+      "source_sha256": "fbc6c0e3eaf50767ecfc47acb4a978651ad494f62f8618e5e5e7e59422f0358e",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "parrotos",
+      "source_sha256": "d3ae26095b3b92894f42045dd141dc6fe8c24683e50f7cc5b784826b5a798b58",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "cce",
+      "source_sha256": "cc412cabe0488c63b9c0d56dbdfd5d7cee79b747331e795b4905d50ee02a087c",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "db-fi",
+      "source_sha256": "a8def524e0ee918c184eabb0a652ea372073dc951f8c3998a1387db5cddb2daf",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "gucci",
+      "source_sha256": "4d14b410a2fafba534b9746faf6371162cf10f41d6e8cd7d3d72f0a86c8f5e2c",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "raytheon",
+      "source_sha256": "b80f13b2327076e9b076ae735849120ace869c1f44a2517f911741ce28e962d7",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "expressionengine",
+      "source_sha256": "e42d088dc317d6e23a8c3043682eca385af68b17005987942bcbf5d4b098dd0a",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "x11",
+      "source_sha256": "74b5876590b77b5e9a26ca0330327ac35d9d3b2eb4077f9a3599b921ad9d1c55",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "homekit",
+      "source_sha256": "72c7241c409b20057a07d386b4a05e2e09517f0802fd9d3be6811d0fc5ecd12c",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "hok",
+      "source_sha256": "29e338d080539720611fcc7171d5849886ccfc2e9d72c8414a28052f116f3f4d",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "roche",
+      "source_sha256": "f3316109cb22b266302dab5029a998d7dd37607bb565603b7dc3c98a31967784",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "e-rara-ch",
+      "source_sha256": "e7027f9007f7ea4d0b84dc522d581b2fa4c97983488c472f54762467241a1bce",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "phoible",
+      "source_sha256": "dd7613cabf2e3519c3b34a65867de4376d28bf186a7165a5f9e0b582c86958a5",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "borussia-monchengladbach",
+      "source_sha256": "4aeaed8be3d8d3abf31d2f7ac4fa913df73f0d27375df08a8ec914b9dbe58a1d",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "gartner",
+      "source_sha256": "881b14a76e6056dd6354bb4c9639ee20e84754ec390573d12a5f13cc7914045d",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "cimpor",
+      "source_sha256": "9b405ee537b4acd7872145de0d60bc5dc7188e146e284b2b0de2969f77a68060",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "okfinancialgroup",
+      "source_sha256": "787e887db7a6ac7b0812332357949eeae98d06c585cf439fe2cbeaba557af960",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "kraft",
+      "source_sha256": "f4ab85c2db3e2c47b72933fc484b45df12e61bf04c32f911684fed5778ba2a78",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "omega",
+      "source_sha256": "36562eafbde8c493374726c80236f38e758b3c52c7a1c596789a9e472e507245",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "downpour",
+      "source_sha256": "c23e66fbd01113030a7c941c45a2f796faeec8813e60e335b2424d664b2148b6",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "calvinklein",
+      "source_sha256": "26893440c92a2b46271711581eb58281d72ac1edf776ef9b808ee8eac999935f",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "inicis",
+      "source_sha256": "a48ff4eac92c899011ee6ee1b4bd661aa5dc8251e5282a7e869a7e4df6cb31dc",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "kgmobility",
+      "source_sha256": "a48ff4eac92c899011ee6ee1b4bd661aa5dc8251e5282a7e869a7e4df6cb31dc",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "yamaki",
+      "source_sha256": "bcde40241038230826efc20e3e322f8d1eb15e4b7afc47679d12c4f08070c380",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "socar",
+      "source_sha256": "56e61d330a7bdcf51bbc04220ad7adc84f489b85057f56257128b508f8a49fb7",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "asics",
+      "source_sha256": "2db8dbe7dd84d292d11a0efa3990dcdcf88f46afad76f1aa2736c9717a98dd45",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "adobe-firefly",
+      "source_sha256": "cfc0700e63e4c612016b2c121f56c58e424317e9dd7f7c32082a580ef4d5a9c2",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "arirang",
+      "source_sha256": "e86de76c4743d0b9cf404243c86f46a97f3c00fe46a6b94df905353bdc599a6f",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "tvchosun",
+      "source_sha256": "e86de76c4743d0b9cf404243c86f46a97f3c00fe46a6b94df905353bdc599a6f",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "worldvision",
+      "source_sha256": "8ff18cec3f8e9055f10cb43a5a095dc8beb119b5c77ea35d09d1bbe4e3e060c5",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "cliffordchance",
+      "source_sha256": "27593485dd71aeb7a5a32b319fa443761070801876ffc8ced8c6a2f06468dd64",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "gopay",
+      "source_sha256": "820f90459ed1af89b186e792b482f109bc54b92e2f5c036435e70e2b5270ee8d",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "miumiu",
+      "source_sha256": "387de8f51c629618e33e0551f80dcf34b4eceab4c9111595d381f68aa3565892",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "chanel",
+      "source_sha256": "17c1de63f59f398b0b7b5d814bc497dc0488ea454fab07949e9ca224d9a78bcf",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "versace",
+      "source_sha256": "7589cfeeffaae8a44bf0cae66f8a01a06709b3ec8d6efe2a2aa592ddc7a9203f",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "shinhanbank",
+      "source_sha256": "343da30a1e72c262917613b100595ce8a1721e96f2afd068ec2295ae2a3b9e4d",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "oxford",
+      "source_sha256": "6e706f603e6c918fad14ca2817a12033d773b29f279dd5f76749de0f99b91815",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "delek-group-ltd",
+      "source_sha256": "af2f91c392a4a84e041f0d331291c6b455a8712e41c8ba72882cc964faf47068",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "peoplepc",
+      "source_sha256": "10ca11a2549897095a1923c83f845a2eb024b80ca84783e48a5393f9f6485b36",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "baesystems",
+      "source_sha256": "060c4d34daa989f02194e7c954026815838993d9cadb594f4b1fd3bc08ba544e",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "genesis",
+      "source_sha256": "281cc35b5c6a642b58b665521c28a06b6af462c6fa7f17ef849fdfe6f5d35272",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "sktelecom",
+      "source_sha256": "9ac29fd41ec24c4c4aa28029afee85f8c8eb8deaa67a3ce0ebe557291e6394da",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "rolex",
+      "source_sha256": "f56bf286d9aa83b0b38066b3b1fb19f0e81e95c1dec525c4e43faa18a591832a",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "givenchy",
+      "source_sha256": "c2cacd008a878dd3ccec9490d96607c0cd0f52bd6af660f91b8e67240530c9a6",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "tsuruoka-art-forum",
+      "source_sha256": "2d1296fd09013a03ee51aceb2c1b187909efeee9fcec8625274db86c74d8f103",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "bottegaveneta",
+      "source_sha256": "74427f87ac23f916c6fe41d64f25237ed5ce231b1e84d4acc875d313073ab566",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "lockheedmartin",
+      "source_sha256": "1f0e9dc9e43690df28d6a11b03be40571617d36ffc7830a892d51089b406abe8",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "norwegian-red-cross",
+      "source_sha256": "82d34ddbeaa70a76293491653e051cd2ad4ea8bf896eb3474329de360cee8828",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "pradomuseum",
+      "source_sha256": "858086024752aaac25049b9f2638cf96c1b08f3e3e0c8067ed1defaf6c2ac1dd",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "prada",
+      "source_sha256": "d4cf8c4b9cb4604b9687d08f128ade403bcb107bfab794587ea2f33440551391",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "leonardodefense",
+      "source_sha256": "5821eef2dbb6d371aac8af4f4f3587893e63f75294544a460a8f7d2705760e54",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "logo-daewoo-electronics-south-korea",
+      "source_sha256": "99c7d7adfd6651042a75833dd1b21fcd024454aff163ec81b7d10da12a4dd88d",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "louisvuitton",
+      "source_sha256": "872d4b31d8a3712420b73189a19ddafa9f9737c3dc26175fadecf80158d612b9",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "skii",
+      "source_sha256": "0505cb6bc2001b9362f68beeaa4277b3f42d8234747d382da5eb158556bdc14b",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "cambridge",
+      "source_sha256": "5a4926371032567f2f0648a9548abe476760324d9717d481b94d78a7d34c6ec1",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "atlanticrecords",
+      "source_sha256": "f14e994be47dc0da182d1c2b446f18857cd9104213bd2e07edd0b0d026e8d3e3",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "auria-tv",
+      "source_sha256": "82123547c251a0dbed5f31ed2666081b7dc9062688621f3e8a2323117d4c1aff",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "valentino",
+      "source_sha256": "904eee580ef0c06c5a3d68597e08e446f503dce2fe65d69966af7f0fd7a4187e",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "gnu-taler",
+      "source_sha256": "5bd040f8d06b1b5509e0d9abdd59933198c66539aec55edb7f15377de5a7ee9b",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "carlsberg",
+      "source_sha256": "467e30a24cfb2f9464b084f38b281fdf4477cba0a0b3ec005f4c03549672b508",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "biogen",
+      "source_sha256": "2c2d9108dad78de16ca04d596f1abca7882a092533dcf924c0d3f808abd1dc20",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "primera",
+      "source_sha256": "0cde1238afe4a308b923b4db01c9183c4a2bd4189d996a9b4d12d429ec40059f",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "anobii",
+      "source_sha256": "d9624e2074d4edd9cd8455a6eb0ca5bed616ce93d5333e36572c814e40b21c43",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "cadw",
+      "source_sha256": "87fcf640ba979b6e63dd443c7b19453607ca8f6d5f13b9b876a1cfaf776926cb",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "alstria-office-reit",
+      "source_sha256": "8edb5451309716fdce15ef77b8fd5f82e92e58a7667b3d34e192b8e1e3161b32",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "heinz",
+      "source_sha256": "ea4685f42142cb59d17b4430525989d2f83c8afce6930f46c5eae0bf69110fef",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "balenciaga",
+      "source_sha256": "466dda6dee1baddd72272caf7b31f92a7ece8ff83354b1148a9763bb0fbc9fb3",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "williamsracing",
+      "source_sha256": "02b6f234d5b8c8158b02a97cbc01328cc070fbcedfb8c61b8ee49e3d93e5ddf6",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "bloomberg",
+      "source_sha256": "6a2c365ce77ae35a1a1e7bce5fb8a0756aad34c529f0a55afd3caa760bd38400",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "zdnet-co",
+      "source_sha256": "530e9acf9ab01d33aff59b4338624670cf86e4c6b64be31d1641d6b7bb97cf4c",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "allenovery",
+      "source_sha256": "f217791b0e1ba63e37ba9709320235a6a52ccb15f02465d9f5eadfa7ee1f79d9",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "parexel",
+      "source_sha256": "97f63ff87785c8c1ab0a7200396c2a7998a9c353630df8892a7bc32005e71d57",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "cvs",
+      "source_sha256": "5aed702a9c87e84c205f1c1ea4665db047a6463a860ab2d38517f35a3d33fc9f",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "docomo",
+      "source_sha256": "a5b37e2a534267b6245b019c8c34156b64de6dc402a8662d78ee46fe4b15244c",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "sprint",
+      "source_sha256": "42403bf783288eeff66823fed15c453423db99aed80c61729ba5c00492632c1c",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "maltego-technologies",
+      "source_sha256": "092058d04aee6126f359d5b51613722e4e13d5204cda7bcd4969b43681553e42",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "superhi",
+      "source_sha256": "0afb496d11c64c17f2efd3afb1d57db1d37032760843e35f207134a18a516b09",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "ostwest",
+      "source_sha256": "554de894a13592e716dc287e43d127b48549a2b339d939820267e5291ab4aab1",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "dunkindonuts",
+      "source_sha256": "3c001135f6553e92d2f0010035088a4e1827db1174ff37c0fe6bea18994084aa",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "coburg",
+      "source_sha256": "042661d0afc94c33eac4f2a1de478e856bfc607b4a5327bbe1631447b1348b5b",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "guinness",
+      "source_sha256": "0e3b86278c18904953bd2899350d647b03b367a8eb16f42bb012c7b41cbd0dc7",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "lxhausys",
+      "source_sha256": "3a5bc501e25bbbb0b52c23e03a34c272b20048102716c3559c8e10fa442a255e",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "lxinternational",
+      "source_sha256": "3a5bc501e25bbbb0b52c23e03a34c272b20048102716c3559c8e10fa442a255e",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "grand-casino-as",
+      "source_sha256": "5f373cfe1d9646523b8ff2078863656c40cb5f38324631ea2bb9c325a481458d",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "averbis",
+      "source_sha256": "dd2db0b5fccf36692632028a70904924a6332e4495029f25599ebcda8d1aa6df",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "fiaf1",
+      "source_sha256": "4e0106260a0ba694b83551f6a7177a3388df115db9b09fa3e248882c07756a33",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "lemans",
+      "source_sha256": "727bf10b9f9fa2925b90e118034d5e9d1728a37ecd9b56052da291ddd48986b1",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "asiana",
+      "source_sha256": "cf50aa5ec2aa7fd9acaf4d9d65637292ade96bf3f07cceb3788a7ef20dee71d1",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "foxnews",
+      "source_sha256": "9ab7a8dd993d742baea159f6e3bf2bfeafc9aa1876c70129b09eabe3772a1679",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "habitatforhumanity",
+      "source_sha256": "7329ee4e70d5463be682b68fcd9a2faec42d84f593776bd9055d86c61fd92011",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "wyndham",
+      "source_sha256": "3653181b674f2cc5510d3c60f84933aeeaf9313f5dc3775ad377456d42f6f972",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "video-game-history-foundation",
+      "source_sha256": "dfce9c6eb96ea49b001da3b17ef28740aaf6918dd71665856fb48b02ff7c5bb4",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "besiktas",
+      "source_sha256": "c88432d7e28c65fca287808ec5afd7ef4fe373ef192ef95c0f2d8aa7b0fa2690",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "dmcmedia-co",
+      "source_sha256": "387210ccd0f8709b6551f79564afb79cb03abc6a2656d6f539ff088d42c5d2f8",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "katwijk",
+      "source_sha256": "e01064f999868aac3cd0b7b97ae98c7eb0c7d34cadd429037ce1a49ee4b7bfc4",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "pingo-doce",
+      "source_sha256": "d5f7c63cb92bdf9277e6d93e4acdbd95d1be573c175d7f697347ffb08d4510c2",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "eintracht-frankfurt",
+      "source_sha256": "b77d8f69f0690fb67f5ab358eec764d54c76b7f9ed216562c67d78b5469c974d",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "novartis",
+      "source_sha256": "d648222e2f328ece26ea1f314c4d334b58ff07b04409bc23fb4607ac025edaf4",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "hungarian-red-cross",
+      "source_sha256": "354887ac485ca375e359458cf0d0d6f07914daa5b775a6f6f52802eea6ef307b",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "ssfshop",
+      "source_sha256": "bd41fd8e21284000e60edf231508f6c77df057bccfeeb9de0fd56c9b792f716d",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "patagonia",
+      "source_sha256": "5be68a41ab4eb424891e8f4d0fb4686320c024477f44d78271e8fe73e21df9b5",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "gelesis",
+      "source_sha256": "7bf02b62e4315cc64e9ca1c13f589a24dd85a7d52547a5992aada433ee4f2657",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "ocn-co",
+      "source_sha256": "796d30d55268e0f26c4ea3f4fdc7e8a49fa921a6f469a2450d88e2ea787e63ac",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "bayernmunich",
+      "source_sha256": "17d7fc89fdfdad267d37dc913491d88890b32883e7c6266bff9824aaf1da83cb",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "new-zealand-red-cross",
+      "source_sha256": "052200324d5f491dde6296bc572d89c356e8d3e746b0cb705f7eba6d0c8c7a8c",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "atalanta",
+      "source_sha256": "70e91d367aa8c73e142b4f80fb8c612337e031f5392a6516ab1e04523b6e29fc",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "kicksauber",
+      "source_sha256": "52658e714a2046b2f015f4246a3847e2d961e0115ababa9d7db03739cfda1e6e",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "johnson",
+      "source_sha256": "fcad40c3ecca958e3ed9cee4581c963fbc384b8534f74bda40435cc97ff9d6c2",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "lowes",
+      "source_sha256": "a0d886ea22a214eda38837d4bb2c87b7471c9b17ca23d3163c831abf3b0d2b8b",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "subway",
+      "source_sha256": "3645cbe0986603b511957e661d1a10e45bd6361b1c19cf83e09f75e2a34c09df",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "nfl",
+      "source_sha256": "33ec5c75116f54f5e9fe60811d0375bbfd37eb79a99cfe2573ab20d76f2675ac",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "forrester",
+      "source_sha256": "034b5063f3a57c05ef68aa3c9dc02300b2d563e63fee648a2c5a0f52b7044b93",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "chinamobile",
+      "source_sha256": "de9f3d012a075e78ef7b2ce01d937d32681e17378f32dfb36dd7e08a827f09f3",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "defjanrecordings",
+      "source_sha256": "8b36701628ca9931ebc60d42a37c2ab84db6f94d219869dd1e96422413504a78",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "alexandermcqueen",
+      "source_sha256": "da5f3f0af59e63df577f26b88beabe8bfc3ba5ecd4ce0e85302d3b6ba3c1a803",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "cruz-azul",
+      "source_sha256": "55df66856f10faba48fa4c4887f4cc2fba7246cbceda0a60fae0756fcb8d53be",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "interscope",
+      "source_sha256": "59040eed2eb5335aa95e18985f673e5c1dcc2e98a35d0157f70391666213a1dd",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "botin-centre",
+      "source_sha256": "fadc36226698f31bc53c659ba5df3aaf75a0184bda96e54e54d5a9515dfe9dcb",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "samsonite",
+      "source_sha256": "a25bec90297ced072fa3b6d18b7b4dc55e2ce0f8768a0058e961ee430b15789d",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "foresight",
+      "source_sha256": "1db6adfa2df79d94dc5b1568a8aa4edc0893ae697a31bf07d2b26ceaabbc0492",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "radisson",
+      "source_sha256": "e67a68b785e3cd34547744ef1e410f2c21a9f82bd023ded310a2220c543ebeda",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "timberland",
+      "source_sha256": "c525517367721f7ecedcd9e102772af2600bc28af38b6c6f1860de9867c9980e",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "moscow-center-of-sparc-technologies",
+      "source_sha256": "8db931cef751dbf76c06934656a37086201450c0f4bf9087093525737a24af61",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "careinternational",
+      "source_sha256": "27619a9832020588a615ae2358ba962f7d69b483574a911e2701e6ff1efe5147",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "hyosung",
+      "source_sha256": "2330edda3fa710e3eab702d7fd7d07fc6c4f024afe3e7abbefddaa35e4bbd39d",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "dnalink-ci-c",
+      "source_sha256": "cf342223661787944fd911b7d532fb3e9e817fee82cde6ac3bdd6216f1852279",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "oasis-market",
+      "source_sha256": "1bfadf7485ea2e0485a026658b928a64e7c3e0a8a956f14ac1d1693cdd5576f3",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "lego",
+      "source_sha256": "9b90864632222a2f0cd5b5875154eba3f254f06d85959077022af393ce6b6626",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "pit-stop",
+      "source_sha256": "647775f32d029d4d646d340e0c95326d08ae5e63ca9e3ddc75f68c6beeece364",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "chart-pattana-party",
+      "source_sha256": "f1b5152e089dd34383c50906c7f19bda4f6f9b0493201c20f101c7224f92ff22",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "ebs-co",
+      "source_sha256": "a133ee791a20344650b74cf65dc0e96b15b08b94e813404f16698357c89f0e93",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "ebsi-co",
+      "source_sha256": "a133ee791a20344650b74cf65dc0e96b15b08b94e813404f16698357c89f0e93",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "agentregistry",
+      "source_sha256": "4b62cfbae65a4a5ef67b6ab360e6690b12ed1bac622d048cfc7898d65f6bdf9e",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "idc",
+      "source_sha256": "a95b3583aad1d604918ce100cfc0f87c0295daa2c397ec1af2299bb09ac732c4",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "wsj",
+      "source_sha256": "4a751add57906be2c6a042c394e6ff462f8522b950d07a06eb9e73375bd6a5f1",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "rolandberger",
+      "source_sha256": "9a191f2afdb07a600caf632cbb4a1c833179b710d29688119e14fc565b16f8cb",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "republicrecords",
+      "source_sha256": "70b25ca59f468d7529d41a95fa325fc61fe6b332c639271197e6e96a78c6bb01",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "cake-and-cunnilingus-day",
+      "source_sha256": "0bf05aa4a9231cb0f49a5340964457c91aa55eb2fb1cde101cebc66a848a33f5",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "dijk-en-waard",
+      "source_sha256": "1cc3d08c727b207aa043cb6c2257dbbb1ae9f5251c7b4dd618c87d3e4e2ea968",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "popeyes",
+      "source_sha256": "10cabb290fbe339e6224156c70692fe70f5d70cd12c1b36ba9792951ef1ddf83",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "festspiele-mecklenburg-vorpommern",
+      "source_sha256": "eb00c3fe0a74cb28563a1efa465006cf09bd981dac51e8bfc43780fa2324fd56",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "ecopark",
+      "source_sha256": "0cfc5a72a53b181bfa5bcf0d8ec87f7401e682d8d02b70fba0f4825affb48c80",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "reuters",
+      "source_sha256": "aa437886b89685ce8070ea5515cefd0b3126ea6cdbe4fd037043b93e93dd92bf",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "cathaypacific",
+      "source_sha256": "60bf6ddf113fc6bcbd359364ae90fa3506fe9510ac88a3cecb422c82fbac6bfb",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "bulls",
+      "source_sha256": "698347fbb31db97c37c6013014fe80c9d6ad4c287bdc968b25cb687fea08e329",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "mbc-co",
+      "source_sha256": "d15a89f983862acb7eb9ba95b785ecb78e15c424c0450ac8db147cc954033159",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "nestle",
+      "source_sha256": "8e406ee59f07dd67bc54f7035b120e1c5c822962224747d423768e14424132e2",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "ja-de-editorial",
+      "source_sha256": "1934967cf131d4820d496ce12f046d91b264ae8b1d8f6f92ea8adc3b43b624c7",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "gesis-leibniz-institute-for-the-social-sciences",
+      "source_sha256": "f19a02babd83c5f76448ec4b9f8983f31da037738a4a8f99f0bf1c2aa614d453",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "ferrarif1",
+      "source_sha256": "08493025e6935890dfbf0937564b4f2afdb4f8e3939638ca4c8874a04f13c9c2",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "walgreens",
+      "source_sha256": "7306769d4c7fd201478869defe27a1912186503f26c9335b9400f79045ef7a92",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "bestwestern",
+      "source_sha256": "d15f983e1c717d6d14d22cb8726aa0263100cf3b24d0f0df5c81c98b322ee4f8",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "esa",
+      "source_sha256": "566222c59f5628c4c5dcb7fd4f4c35a8c3587e10aeaccc93bf15486b72450038",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "barnim-nature-park",
+      "source_sha256": "a9ca674155491f0887ecf96910db84f3d7a41d7994bbe4804a3cdedc40387fdd",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "aukrug-nature-park",
+      "source_sha256": "6146bdc11b3474921f9b43ec4677da0b3121fbce18d8170d307a03467bd61d25",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "msf",
+      "source_sha256": "8ee6ea23d44865ccbabf3932a6419a04cd5e988ee545be392b33b65d80531e0f",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "westensee-nature-park",
+      "source_sha256": "4c6b86f5104312b78074054dd9be3054849c976c8e70ae996bd65de974b03510",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "btgroup",
+      "source_sha256": "18b050b697377b9c42443f0d9a4884ae09c56cdc179ab7d48c0f24f2bada35d1",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "lakers",
+      "source_sha256": "7871607573a433ceca1832626e9f2aa9d7cdaa29ab8f9f43a285a5f993eca2e4",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "hainich-national-park",
+      "source_sha256": "eb83bb500de51f1218a33cea8662aa6f941836ea3d729232a69e766fabb26707",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "nus",
+      "source_sha256": "8e7840db3d22a1d57f887161aa9482f0215508427b8b24fe1cfe7806d0277b99",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "eifel-national-park",
+      "source_sha256": "83468b3924c9b9ffa352955bbde9807de75c0a040f12ab3825d2a9ba0045cdab",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "manchesterunited",
+      "source_sha256": "96da3013c6c925aa2b86f7142e64c5674bd9a040a8d6eb9f69a5301162e3259c",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "everton",
+      "source_sha256": "7900a3e5bcd71fe513ae6bfe18a47be1a776367d2991024854a112efcec7500f",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "alaskaairlines",
+      "source_sha256": "ff8e769e6510a69c6fb0be44f114571e1199e4a2567e6d0b7f64eba48bf71ef0",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "greenpeace",
+      "source_sha256": "ca28a9d99d34e815b9a89619dcf6c99590aea05972ebeff8fa28266ffe6fe4ff",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "united-states-capitol-visitor-center",
+      "source_sha256": "56bbfc9d0c8e2c020a43772690ec9133cccf2e4a1643469a3cfb28bc1b26efe9",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "hu-ttener-berge-nature-park",
+      "source_sha256": "0352e927318afff09b32f019ce0275c1d114c5c64bf1a2cca896840c0bbe9dfd",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "unteres-saaletal-nature-park",
+      "source_sha256": "6cb8d266b56aadd1ce3148689e2e62e1624782dc95ad9a3dfe538686e81cbb3e",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "dahme-heideseen-nature-park",
+      "source_sha256": "d0aa0882eec08d0fa59c17de72b1ad328a649993dbcccbadc485cefcccef731f",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "gymnasium-herzogenaurach",
+      "source_sha256": "7b2f22d3326803bee65ad8404f97fb2295dc0e320bd355834be64b5d6d8c1d7b",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "berchtesgaden-national-park",
+      "source_sha256": "ee87ebafba45273cd9d6a07d5a5a51bbc70a193ea6f4577c30d728c0df847e00",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "kellerwald-edersee-national-park",
+      "source_sha256": "8cb408db362dbdb8e5a149a4adcc0371d5c86bd70747ac1bf38a944bf10e2a42",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "saale-unstrut-triasland-nature-park",
+      "source_sha256": "0f9bfa4c90475dbecc5063e02de8ffe7bf8c0a7dc3c9d66a4e59773a97406df0",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "fla-ming-nature-park",
+      "source_sha256": "d9f35022d3fd68a134f8acda16754a803a39b8046d528aa3f39c2543e036271e",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "club-brugge",
+      "source_sha256": "c3a9ac4ff18c3434bc46de4959128be71398a1cf9196b971f6fc55e66891462f",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "nossentiner-schwinzer-heath-nature-park",
+      "source_sha256": "3ebdc86949086b3e1b994e7a11c0b20cdfe65a2ee2e986b04fdbd104ce8d7ee5",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "jacobs",
+      "source_sha256": "21d3f1d64dc5815f5b45b22ba41a151f1bcdec994872360826d74a62a302c4a6",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "naturpark-thu-ringer-schiefergebirge-obere-saale",
+      "source_sha256": "16944415391091a51d7b67b1546b95f3b707d99916a4545f351f34025d4aaffb",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "ho-rstreich",
+      "source_sha256": "729e79a3214d9e90b13b2bf43f16731c7e4092856b68d5a8e9b2b14f0599c78b",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "anderlecht",
+      "source_sha256": "8a416c422d8f6ac20895115d6be3350ed284d32e492b4d05245d44f328088b2c",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "oberlausitzer-heide-und-teichlandschaft-biosphere-reserve",
+      "source_sha256": "1527e805c52b13b7570959d15de0a1b254e67fbe8846c04f1d4a2f4be0a7ecfa",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "newcastle-united",
+      "source_sha256": "02e0682046ad0345da6c39772fcb5049f1d0778606dbbaeaf8479e43a202cbc5",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "uefa",
+      "source_sha256": "e54dbb9252941e04fccb1cda49df933d68956ae28c14696eb6484de3eb874a08",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    },
+    {
+      "id": "fc-porto",
+      "source_sha256": "1b2f56d05f769a87a6ef19806b3aaa6421486c551db21d627abf7d73cee139f0",
+      "canvas_removed": true,
+      "png_only": false,
+      "white_art_preserved": false
+    }
+  ]
+}
