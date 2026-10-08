@@ -1,0 +1,737 @@
+{
+  "patches": {
+    "deepmind": {
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": true,
+      "logo_png": "sources/reviewed-transparent-20261009/b0fe3587c9cfe92e.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/deepmind/sources/reviewed-transparent-20261009/b0fe3587c9cfe92e.png",
+      "svg_transparent": "sources/reviewed-transparent-20261009/b0fe3587c9cfe92e.svg",
+      "light": false,
+      "light_logo": false,
+      "dark_variant": false,
+      "asset_review_status": "verified",
+      "rejected_asset_files": [
+        "logo.png",
+        "logo-800.png",
+        "logo-transparent.png",
+        "logo-icon.png",
+        "logo-white.png"
+      ]
+    },
+    "google-cloud": {
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": true,
+      "logo_png": "sources/reviewed-transparent-20261009/af66d3a93bd8c33c.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/google-cloud/sources/reviewed-transparent-20261009/af66d3a93bd8c33c.png",
+      "svg_transparent": "sources/reviewed-transparent-20261009/af66d3a93bd8c33c.svg",
+      "light": false,
+      "light_logo": false,
+      "dark_variant": false,
+      "asset_review_status": "verified",
+      "rejected_asset_files": [
+        "logo.png",
+        "logo-800.png",
+        "logo-transparent.png",
+        "logo-icon.png",
+        "logo-white.png"
+      ]
+    },
+    "google": {
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": true,
+      "logo_png": "sources/reviewed-transparent-20261009/16bfb6998cc45427.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/google/sources/reviewed-transparent-20261009/16bfb6998cc45427.png",
+      "svg_transparent": "sources/reviewed-transparent-20261009/16bfb6998cc45427.svg",
+      "light": false,
+      "light_logo": false,
+      "dark_variant": false,
+      "asset_review_status": "verified",
+      "rejected_asset_files": [
+        "logo.png",
+        "logo-800.png",
+        "logo-transparent.png",
+        "logo-icon.png",
+        "logo-white.png"
+      ]
+    },
+    "google-search-console": {
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": true,
+      "logo_png": "sources/reviewed-transparent-20261009/7587bd637a6bae65.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/google-search-console/sources/reviewed-transparent-20261009/7587bd637a6bae65.png",
+      "svg_transparent": "sources/reviewed-transparent-20261009/7587bd637a6bae65.svg",
+      "light": false,
+      "light_logo": false,
+      "dark_variant": false,
+      "asset_review_status": "verified",
+      "rejected_asset_files": [
+        "logo.png",
+        "logo-800.png",
+        "logo-transparent.png",
+        "logo-icon.png",
+        "logo-white.png"
+      ]
+    },
+    "google-photos": {
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": true,
+      "logo_png": "sources/reviewed-transparent-20261009/be2a75074c758a69.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/google-photos/sources/reviewed-transparent-20261009/be2a75074c758a69.png",
+      "svg_transparent": "sources/reviewed-transparent-20261009/be2a75074c758a69.svg",
+      "light": false,
+      "light_logo": false,
+      "dark_variant": false,
+      "asset_review_status": "verified",
+      "rejected_asset_files": [
+        "logo.png",
+        "logo-800.png",
+        "logo-transparent.png",
+        "logo-icon.png",
+        "logo-white.png"
+      ]
+    },
+    "google-optimize": {
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": true,
+      "logo_png": "sources/reviewed-transparent-20261009/699d07b96136776f.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/google-optimize/sources/reviewed-transparent-20261009/699d07b96136776f.png",
+      "svg_transparent": "sources/reviewed-transparent-20261009/699d07b96136776f.svg",
+      "light": false,
+      "light_logo": false,
+      "dark_variant": false,
+      "asset_review_status": "verified",
+      "rejected_asset_files": [
+        "logo.png",
+        "logo-800.png",
+        "logo-transparent.png",
+        "logo-icon.png",
+        "logo-white.png"
+      ]
+    },
+    "google-meet": {
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": true,
+      "logo_png": "sources/reviewed-transparent-20261009/0c4d8169a302d2dd.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/google-meet/sources/reviewed-transparent-20261009/0c4d8169a302d2dd.png",
+      "svg_transparent": "sources/reviewed-transparent-20261009/0c4d8169a302d2dd.svg",
+      "light": false,
+      "light_logo": false,
+      "dark_variant": false,
+      "asset_review_status": "verified",
+      "rejected_asset_files": [
+        "logo.png",
+        "logo-800.png",
+        "logo-transparent.png",
+        "logo-icon.png",
+        "logo-white.png"
+      ]
+    },
+    "google-fit": {
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": true,
+      "logo_png": "sources/reviewed-transparent-20261009/4b23e97e4e49ec72.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/google-fit/sources/reviewed-transparent-20261009/4b23e97e4e49ec72.png",
+      "svg_transparent": "sources/reviewed-transparent-20261009/4b23e97e4e49ec72.svg",
+      "light": false,
+      "light_logo": false,
+      "dark_variant": false,
+      "asset_review_status": "verified",
+      "rejected_asset_files": [
+        "logo.png",
+        "logo-800.png",
+        "logo-transparent.png",
+        "logo-icon.png",
+        "logo-white.png"
+      ]
+    },
+    "google-developers": {
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": true,
+      "logo_png": "sources/reviewed-transparent-20261009/523475b40ca63f73.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/google-developers/sources/reviewed-transparent-20261009/523475b40ca63f73.png",
+      "svg_transparent": "sources/reviewed-transparent-20261009/523475b40ca63f73.svg",
+      "light": false,
+      "light_logo": false,
+      "dark_variant": false,
+      "asset_review_status": "verified",
+      "rejected_asset_files": [
+        "logo.png",
+        "logo-800.png",
+        "logo-transparent.png",
+        "logo-icon.png",
+        "logo-white.png"
+      ]
+    },
+    "google-calendar": {
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": true,
+      "logo_png": "sources/reviewed-transparent-20261009/abb49cdf3ca97bd6.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/google-calendar/sources/reviewed-transparent-20261009/abb49cdf3ca97bd6.png",
+      "svg_transparent": "sources/reviewed-transparent-20261009/abb49cdf3ca97bd6.svg",
+      "light": false,
+      "light_logo": false,
+      "dark_variant": false,
+      "asset_review_status": "verified",
+      "rejected_asset_files": [
+        "logo.png",
+        "logo-800.png",
+        "logo-transparent.png",
+        "logo-icon.png",
+        "logo-white.png"
+      ]
+    },
+    "google-analytics": {
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": true,
+      "logo_png": "sources/reviewed-transparent-20261009/a4fc289a113c7de2.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/google-analytics/sources/reviewed-transparent-20261009/a4fc289a113c7de2.png",
+      "svg_transparent": "sources/reviewed-transparent-20261009/a4fc289a113c7de2.svg",
+      "light": false,
+      "light_logo": false,
+      "dark_variant": false,
+      "asset_review_status": "verified",
+      "rejected_asset_files": [
+        "logo.png",
+        "logo-800.png",
+        "logo-transparent.png",
+        "logo-icon.png",
+        "logo-white.png"
+      ]
+    },
+    "fuchsia": {
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": true,
+      "logo_png": "sources/reviewed-transparent-20261009/90c04cf1be6cd178.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/fuchsia/sources/reviewed-transparent-20261009/90c04cf1be6cd178.png",
+      "svg_transparent": "sources/reviewed-transparent-20261009/90c04cf1be6cd178.svg",
+      "light": false,
+      "light_logo": false,
+      "dark_variant": false,
+      "asset_review_status": "verified",
+      "rejected_asset_files": [
+        "logo.png",
+        "logo-800.png",
+        "logo-transparent.png",
+        "logo-icon.png",
+        "logo-white.png"
+      ]
+    },
+    "google-play": {
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": true,
+      "logo_png": "sources/reviewed-transparent-20261009/48678ce16597a1c4.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/google-play/sources/reviewed-transparent-20261009/48678ce16597a1c4.png",
+      "svg_transparent": "sources/reviewed-transparent-20261009/48678ce16597a1c4.svg",
+      "light": false,
+      "light_logo": false,
+      "dark_variant": false,
+      "asset_review_status": "verified",
+      "rejected_asset_files": [
+        "logo.png",
+        "logo-800.png",
+        "logo-transparent.png",
+        "logo-icon.png",
+        "logo-white.png"
+      ]
+    }
+  },
+  "variants": {
+    "deepmind": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "deepmind",
+      "primary": "reviewed-transparent",
+      "fingerprint": {
+        "logo.svg": "49fe9a055e74a97f"
+      },
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "symbol",
+          "lang": "none",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-transparent-20261009/b0fe3587c9cfe92e.svg",
+            "png": "sources/reviewed-transparent-20261009/b0fe3587c9cfe92e.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0
+        }
+      ]
+    },
+    "google-cloud": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "google-cloud",
+      "primary": "reviewed-transparent",
+      "fingerprint": {
+        "logo.svg": "dab446c7c8b9c401",
+        "sources/vlz/wide.svg": "450fac7a136467f4"
+      },
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "symbol",
+          "lang": "none",
+          "color": "original",
+          "label": "컬러 심볼마크",
+          "files": {
+            "svg": "sources/reviewed-transparent-20261009/af66d3a93bd8c33c.svg",
+            "png": "sources/reviewed-transparent-20261009/af66d3a93bd8c33c.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0
+        },
+        {
+          "key": "horizontal",
+          "form": "horizontal",
+          "lang": "unknown",
+          "color": "color",
+          "label": "가로조합형",
+          "files": {
+            "svg": "sources/vlz/wide.svg"
+          },
+          "aspect": 2.116,
+          "provider": "vectorlogozone",
+          "origin": "collected",
+          "order": 10
+        },
+        {
+          "key": "symbol",
+          "form": "symbol",
+          "lang": "en",
+          "color": "blue",
+          "label": "블루 심볼마크",
+          "files": {
+            "svg": "sources/reviewed-transparent-20261009/eb848405c6a1ed56.svg",
+            "png": "sources/reviewed-transparent-20261009/eb848405c6a1ed56.png"
+          },
+          "aspect": 1.247,
+          "provider": "simple-icons",
+          "origin": "collected",
+          "order": 20
+        }
+      ]
+    },
+    "google": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "google",
+      "primary": "reviewed-transparent",
+      "fingerprint": {
+        "logo.svg": "0b25e4ac013da801",
+        "sources/google-icon.svg": "2b76a6c190d0216c",
+        "sources/thesvg/wordmark.svg": "e92a0a47963a3733",
+        "sources/supertiny/google.svg": "665d62f84109d265"
+      },
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "symbol",
+          "lang": "none",
+          "color": "black",
+          "label": "블랙 심볼마크",
+          "files": {
+            "svg": "sources/reviewed-transparent-20261009/16bfb6998cc45427.svg",
+            "png": "sources/reviewed-transparent-20261009/16bfb6998cc45427.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0
+        },
+        {
+          "key": "symbol",
+          "form": "symbol",
+          "lang": "en",
+          "color": "blue",
+          "label": "블루 심볼마크",
+          "files": {
+            "svg": "sources/reviewed-transparent-20261009/147b64b183daad84.svg",
+            "png": "sources/reviewed-transparent-20261009/147b64b183daad84.png"
+          },
+          "aspect": 0.976,
+          "provider": "simple-icons",
+          "origin": "collected",
+          "order": 20,
+          "alts": [
+            {
+              "provider": "merged",
+              "file": "sources/google-icon.svg"
+            },
+            {
+              "provider": "supertiny",
+              "file": "sources/supertiny/google.svg"
+            }
+          ]
+        },
+        {
+          "key": "wordmark",
+          "form": "wordmark",
+          "lang": "unknown",
+          "color": "color",
+          "label": "워드마크형",
+          "files": {
+            "svg": "sources/thesvg/wordmark.svg"
+          },
+          "aspect": 3.044,
+          "provider": "thesvg",
+          "origin": "collected",
+          "order": 40
+        }
+      ]
+    },
+    "google-search-console": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "google-search-console",
+      "primary": "reviewed-transparent",
+      "fingerprint": {
+        "logo.svg": "789707504cf7c057",
+        "sources/iconify/google-search-console.svg": "789707504cf7c057",
+        "sources/wvl/google-search-console.svg": "741232562a1157ae",
+        "sources/thesvg/wordmark.svg": "be1e1e3ba23af608"
+      },
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "symbol",
+          "lang": "none",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-transparent-20261009/7587bd637a6bae65.svg",
+            "png": "sources/reviewed-transparent-20261009/7587bd637a6bae65.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0
+        },
+        {
+          "key": "wordmark",
+          "form": "wordmark",
+          "lang": "unknown",
+          "color": "color",
+          "label": "워드마크형",
+          "files": {
+            "svg": "sources/thesvg/wordmark.svg"
+          },
+          "aspect": 8.571,
+          "provider": "thesvg",
+          "origin": "collected",
+          "order": 40
+        }
+      ]
+    },
+    "google-photos": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "google-photos",
+      "primary": "reviewed-transparent",
+      "fingerprint": {
+        "logo.svg": "91967f06b5042f76",
+        "sources/iconify/google-photos.svg": "91967f06b5042f76",
+        "sources/wvl/google-photos.svg": "4b9e32cf17039c28",
+        "sources/commons-wm/wordmark.svg": "3df7ef657303bd1e"
+      },
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "symbol",
+          "lang": "none",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-transparent-20261009/be2a75074c758a69.svg",
+            "png": "sources/reviewed-transparent-20261009/be2a75074c758a69.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0
+        },
+        {
+          "key": "wordmark",
+          "form": "wordmark",
+          "lang": "unknown",
+          "color": "color",
+          "label": "워드마크형",
+          "files": {
+            "svg": "sources/commons-wm/wordmark.svg"
+          },
+          "aspect": 5.921,
+          "provider": "wikimedia",
+          "origin": "collected",
+          "order": 40
+        }
+      ]
+    },
+    "google-optimize": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "google-optimize",
+      "primary": "reviewed-transparent",
+      "fingerprint": {
+        "logo.svg": "05d7232f6e934e14",
+        "sources/iconify/google-optimize.svg": "05d7232f6e934e14",
+        "sources/wvl/google-optimize.svg": "ca68d2a7054483cc"
+      },
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "symbol",
+          "lang": "none",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-transparent-20261009/699d07b96136776f.svg",
+            "png": "sources/reviewed-transparent-20261009/699d07b96136776f.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0
+        }
+      ]
+    },
+    "google-meet": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "google-meet",
+      "primary": "reviewed-transparent",
+      "fingerprint": {
+        "logo.svg": "2b443b63bacbbe08",
+        "sources/iconify/google-meet.svg": "2b443b63bacbbe08",
+        "sources/wvl/google-meet.svg": "055d6f14202a2020"
+      },
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "symbol",
+          "lang": "none",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-transparent-20261009/0c4d8169a302d2dd.svg",
+            "png": "sources/reviewed-transparent-20261009/0c4d8169a302d2dd.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0
+        }
+      ]
+    },
+    "google-fit": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "google-fit",
+      "primary": "reviewed-transparent",
+      "fingerprint": {
+        "logo.svg": "13742872fd3755d5",
+        "sources/iconify/google-fit.svg": "13742872fd3755d5",
+        "sources/wvl/google-fit.svg": "aee27e0da1b73cd4",
+        "sources/supertiny/google_fit.svg": "9aa9c9a7f1fb2b81"
+      },
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "symbol",
+          "lang": "none",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-transparent-20261009/4b23e97e4e49ec72.svg",
+            "png": "sources/reviewed-transparent-20261009/4b23e97e4e49ec72.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0
+        }
+      ]
+    },
+    "google-developers": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "google-developers",
+      "primary": "reviewed-transparent",
+      "fingerprint": {
+        "logo.svg": "fa22d61b7afe25eb",
+        "sources/iconify/google-developers.svg": "fa22d61b7afe25eb",
+        "sources/wvl/google-developers.svg": "b45e763454c5b187",
+        "sources/iconify/google-developers-icon.svg": "3a47e5f7bc83152f"
+      },
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "symbol",
+          "lang": "none",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-transparent-20261009/523475b40ca63f73.svg",
+            "png": "sources/reviewed-transparent-20261009/523475b40ca63f73.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0
+        }
+      ]
+    },
+    "google-calendar": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "google-calendar",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "symbol",
+          "lang": "none",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-transparent-20261009/abb49cdf3ca97bd6.svg",
+            "png": "sources/reviewed-transparent-20261009/abb49cdf3ca97bd6.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0
+        }
+      ],
+      "primary": "reviewed-transparent"
+    },
+    "google-analytics": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "google-analytics",
+      "primary": "reviewed-transparent",
+      "fingerprint": {
+        "logo.svg": "956fd964edb6d415",
+        "sources/iconify/google-analytics.svg": "956fd964edb6d415",
+        "sources/wvl/google-analytics.svg": "726a366e20413fae",
+        "sources/vlz/wide.svg": "3e97912e4d17c205"
+      },
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "symbol",
+          "lang": "none",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-transparent-20261009/a4fc289a113c7de2.svg",
+            "png": "sources/reviewed-transparent-20261009/a4fc289a113c7de2.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0
+        },
+        {
+          "key": "horizontal",
+          "form": "horizontal",
+          "lang": "unknown",
+          "color": "color",
+          "label": "가로조합형",
+          "files": {
+            "svg": "sources/vlz/wide.svg"
+          },
+          "aspect": 2.688,
+          "provider": "vectorlogozone",
+          "origin": "collected",
+          "order": 10
+        }
+      ]
+    },
+    "fuchsia": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "fuchsia",
+      "primary": "reviewed-transparent",
+      "fingerprint": {
+        "logo.svg": "5573ddc7f8dd7e0a",
+        "sources/iconify/fuchsia.svg": "5573ddc7f8dd7e0a",
+        "sources/wvl/fuchsia.svg": "efc53b78cc348d37"
+      },
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "symbol",
+          "lang": "none",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-transparent-20261009/90c04cf1be6cd178.svg",
+            "png": "sources/reviewed-transparent-20261009/90c04cf1be6cd178.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0
+        }
+      ]
+    },
+    "google-play": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "google-play",
+      "primary": "reviewed-transparent",
+      "fingerprint": {
+        "logo.svg": "b02e7c663a53b9c3",
+        "sources/fa.svg": "b02e7c663a53b9c3",
+        "sources/iconify/google-play.svg": "f6d5c509f322f34f",
+        "sources/iconify/google-play-icon.svg": "d4b2d9859e9a31ae",
+        "sources/wvl/google-play-icon.svg": "50dece86dd13d6c0",
+        "sources/wvl/google-play.svg": "a8cdb951b01660ab",
+        "sources/google-play-icon.svg": "50dece86dd13d6c0"
+      },
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "symbol",
+          "lang": "none",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-transparent-20261009/48678ce16597a1c4.svg",
+            "png": "sources/reviewed-transparent-20261009/48678ce16597a1c4.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0
+        },
+        {
+          "key": "wordmark",
+          "form": "wordmark",
+          "lang": "en",
+          "color": "color",
+          "label": "워드마크형",
+          "files": {
+            "svg": "sources/iconify/google-play.svg",
+            "png": "sources/iconify/google-play.png"
+          },
+          "aspect": 5.056,
+          "provider": "iconify",
+          "origin": "collected",
+          "order": 40,
+          "alts": [
+            {
+              "provider": "wvl",
+              "file": "sources/wvl/google-play.svg"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

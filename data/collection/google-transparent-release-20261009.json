@@ -1,0 +1,112 @@
+{
+  "date": "2026-10-09",
+  "reviewed_brands": 13,
+  "objects": 30,
+  "review": "Before/after dark and gray backgrounds reviewed; SVG alpha render at target resolution",
+  "decisions": [
+    {
+      "id": "deepmind",
+      "source_sha256": "b0fe3587c9cfe92eee70c00861be1572b15091c0366065e5bfbc83ecc4c31c05",
+      "original_svg_already_transparent": true,
+      "opaque_legacy_png": true,
+      "preserved_internal_white": false,
+      "source_note": "SVG unchanged; Sharp alpha render preserves gradients and internal white"
+    },
+    {
+      "id": "google-cloud",
+      "source_sha256": "eb848405c6a1ed56510e7cc88ffe6e2e12cd8331be4b0c8c31048d0b0e6d53a9",
+      "original_svg_already_transparent": true,
+      "opaque_legacy_png": true,
+      "preserved_internal_white": false,
+      "source_note": "Extracted four unchanged symbol paths from collected wide vector; blue SVG retained"
+    },
+    {
+      "id": "google",
+      "source_sha256": "147b64b183daad84440103815845150903f6175357419b0ccf2e5a6b622e62fa",
+      "original_svg_already_transparent": true,
+      "opaque_legacy_png": true,
+      "preserved_internal_white": false,
+      "source_note": "Preserved existing displayed monochrome black variant; blue SVG retained"
+    },
+    {
+      "id": "google-search-console",
+      "source_sha256": "7587bd637a6bae65f4f9c55cf03a7b1041b55f5cc820b54bbce5cf6f250a059c",
+      "original_svg_already_transparent": true,
+      "opaque_legacy_png": true,
+      "preserved_internal_white": true,
+      "source_note": "SVG unchanged; Sharp alpha render preserves gradients and internal white"
+    },
+    {
+      "id": "google-photos",
+      "source_sha256": "be2a75074c758a69ffcd76e004df515a779dd787f5e1bfd66e11c0c477e28956",
+      "original_svg_already_transparent": true,
+      "opaque_legacy_png": true,
+      "preserved_internal_white": false,
+      "source_note": "SVG unchanged; Sharp alpha render preserves gradients and internal white"
+    },
+    {
+      "id": "google-optimize",
+      "source_sha256": "699d07b96136776fa3b2db6319bfbb96f302202ee2eed59656f97910613c58e7",
+      "original_svg_already_transparent": true,
+      "opaque_legacy_png": true,
+      "preserved_internal_white": false,
+      "source_note": "SVG unchanged; Sharp alpha render preserves gradients and internal white"
+    },
+    {
+      "id": "google-meet",
+      "source_sha256": "0c4d8169a302d2dd95dca4477e30eba0451b769eaf6829b70ad4bd24264890ba",
+      "original_svg_already_transparent": true,
+      "opaque_legacy_png": true,
+      "preserved_internal_white": false,
+      "source_note": "SVG unchanged; Sharp alpha render preserves gradients and internal white"
+    },
+    {
+      "id": "google-fit",
+      "source_sha256": "4b23e97e4e49ec72b4a4d1d846377c920f00f94ecfd8e305483ac32a7bbbcf8a",
+      "original_svg_already_transparent": true,
+      "opaque_legacy_png": true,
+      "preserved_internal_white": false,
+      "source_note": "SVG unchanged; Sharp alpha render preserves gradients and internal white"
+    },
+    {
+      "id": "google-developers",
+      "source_sha256": "523475b40ca63f730bdde3cbcce7a07c392788c8b414560c09c4ca827a688d9e",
+      "original_svg_already_transparent": true,
+      "opaque_legacy_png": true,
+      "preserved_internal_white": false,
+      "source_note": "SVG unchanged; Sharp alpha render preserves gradients and internal white"
+    },
+    {
+      "id": "google-calendar",
+      "source_sha256": "abb49cdf3ca97bd695279447c7fb452362720bd471f81ad2c0aba4c9f352efec",
+      "original_svg_already_transparent": true,
+      "opaque_legacy_png": true,
+      "preserved_internal_white": true,
+      "source_note": "SVG unchanged; Sharp alpha render preserves gradients and internal white"
+    },
+    {
+      "id": "google-analytics",
+      "source_sha256": "a4fc289a113c7de23f4df5fac20d53cc2567db75f6a1a7060b56b09a70f1a9e9",
+      "original_svg_already_transparent": true,
+      "opaque_legacy_png": true,
+      "preserved_internal_white": false,
+      "source_note": "SVG unchanged; Sharp alpha render preserves gradients and internal white"
+    },
+    {
+      "id": "fuchsia",
+      "source_sha256": "90c04cf1be6cd178f1d9c90bf5d67220e545579626e7ec599afb00f41c02c02b",
+      "original_svg_already_transparent": true,
+      "opaque_legacy_png": true,
+      "preserved_internal_white": false,
+      "source_note": "SVG unchanged; Sharp alpha render preserves gradients and internal white"
+    },
+    {
+      "id": "google-play",
+      "source_sha256": "48678ce16597a1c4c3ac514d50515a5bfe7dda37df1bd1ac405c653141da912d",
+      "original_svg_already_transparent": true,
+      "opaque_legacy_png": true,
+      "preserved_internal_white": false,
+      "source_note": "SVG unchanged; Sharp alpha render preserves gradients and internal white"
+    }
+  ]
+}

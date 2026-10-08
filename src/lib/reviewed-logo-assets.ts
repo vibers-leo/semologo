@@ -2,7 +2,8 @@ import type { Brand, VariantManifest } from './brands';
 import { CDN, VERSION } from './cdn';
 import release from './reviewed-asset-release-20261008.json';
 import backgroundMerge from './reviewed-background-merge-20261008.json';
-const releasePatches = { ...release.patches, ...backgroundMerge.patches } as unknown as Record<string, Partial<Brand>>;
+import googleTransparent from './reviewed-google-transparent-20261009.json';
+const releasePatches = { ...release.patches, ...backgroundMerge.patches, ...googleTransparent.patches } as unknown as Record<string, Partial<Brand>>;
 
 // Only visually reviewed transparent assets belong here. Never remove white
 // indiscriminately: the Seongnam symbol contains intentional white artwork.
@@ -74,6 +75,7 @@ export function applyReviewedAssets(brand: Brand): Brand {
 export const reviewedVariants: Record<string, VariantManifest> = {
   ...(release.variants as unknown as Record<string, VariantManifest>),
   ...(backgroundMerge.variants as unknown as Record<string, VariantManifest>),
+  ...(googleTransparent.variants as unknown as Record<string, VariantManifest>),
   'h-m-1': { schema: 1, algo_v: 1, id: 'h-m-1', primary: 'original', variants: [
     { key: 'original', form: 'wordmark', lang: 'en', color: 'original', label: '투명 워드마크', files: { svg: 'logo.svg', png: 'sources/reviewed-merge-20261007/logo.png' }, provider: '기존 보유 원본', origin: 'collected', order: 0 },
     { key: 'legacy', form: 'wordmark', lang: 'en', color: 'original', label: '기존 워드마크', files: { svg: 'sources/reviewed-merge-20261007/legacy.svg', png: 'sources/reviewed-merge-20261007/logo.png' }, provider: '통합한 기존 콘텐츠 원본', origin: 'collected', order: 1 },
