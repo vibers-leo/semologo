@@ -1,0 +1,107 @@
+{
+  "checked_at": "2026-10-08T02:06:05.214681+00:00",
+  "policy": "Previously visually reviewed institution identities; public detail and PNG decoding/hash verified. Nested sets overlap.",
+  "passed": 92,
+  "official_zips": [
+    {
+      "name": "한국남부발전(주)",
+      "official_page": "https://www.kospo.co.kr/kospo/192/subview.do",
+      "official_zip_url": "https://www.kospo.co.kr/sites/kospo/download/KOSPO_CI.zip",
+      "local_file": "marketing/assets/public-institution-vectors-20261007/alio-f19c6153841df6d1/candidate-0.zip",
+      "sha256": "83bb28e356f475beac7426ddb8d24254434e8e8fae0c1b39e0e97987711c7655",
+      "vector_members": [
+        "│▓║╬CI-1.AI",
+        "│▓║╬CI-1.pdf",
+        "│▓║╬CI-2.AI",
+        "│▓║╬CI-2.pdf"
+      ],
+      "visual_evidence": "marketing/assets/public-institution-vectors-20261007/prepared/alio-f19c6153841df6d1/c2b473d6cc68c1f7.png",
+      "status": "official-zip-crc-live-hash-and-logo-visual-checked",
+      "policy": "Original remains private locally; download from official institution only.",
+      "institution_id": "alio-f19c6153841df6d1"
+    },
+    {
+      "name": "한국서부발전(주)",
+      "official_page": "https://www.iwest.co.kr/iwest/546/subview.do",
+      "official_zip_url": "https://www.iwest.co.kr/sites//iwest/files/iwest_CI.zip",
+      "local_file": "marketing/assets/public-institution-vectors-20261007/alio-690d2fe37bf93842/candidate-0.zip",
+      "sha256": "f5df4f80c9b7e547b15752eb7bc5adf8f18627c56731b2b66416bb68b63893bc",
+      "vector_members": [
+        "iwest_CI_eng/illust/KOWEPO╕≡└╜.ai",
+        "iwest_CI_eng/illust/KOWEPO╕≡└╜.pdf",
+        "iwest_CI/ci_╝╝╖╬.ai",
+        "iwest_CI/ci╕≡└╜1.ai",
+        "iwest_CI/ci╕≡└╜2.ai"
+      ],
+      "visual_evidence": "marketing/assets/public-institution-vectors-20261007/prepared/alio-690d2fe37bf93842/84ba6c53ab9c4e79.png",
+      "status": "official-zip-crc-live-hash-and-logo-visual-checked",
+      "policy": "Original remains private locally; download from official institution only.",
+      "institution_id": "alio-690d2fe37bf93842"
+    },
+    {
+      "name": "한국수자원공사",
+      "official_page": "http://www.kwater.or.kr/water/sub01/sub06/explPage.do?s_mid=129",
+      "official_zip_url": "http://www.kwater.or.kr/download/water/k-water_ci_ai.zip",
+      "local_file": "marketing/assets/public-institution-vectors-20261007/alio-f55ac0aab320b4f0/candidate-1.zip",
+      "sha256": "4068b5d52a3ad2f408da6afb0a68e5a7327737343b48b115553e700580da026a",
+      "vector_members": [
+        "05 워드마크.ai",
+        "06 워드마크응용형.ai",
+        "07 워드마크색상규정.ai",
+        "08 색상규정.ai",
+        "09 시그니처.ai",
+        "11 슬로건.ai",
+        "★한국수자원공사(국문)CI.ai",
+        "★한국수자원공사(국문상하병기)CI.ai",
+        "★한국수자원공사(국문좌우병기)CI.ai"
+      ],
+      "visual_evidence": "marketing/assets/public-institution-vectors-20261007/prepared/alio-f55ac0aab320b4f0/db246e20fec30d7f.png",
+      "status": "official-zip-crc-live-hash-and-logo-visual-checked",
+      "policy": "Original remains private locally; download from official institution only.",
+      "institution_id": "alio-f55ac0aab320b4f0"
+    }
+  ],
+  "collections": [
+    {
+      "id": "kr-public-institutions",
+      "total": 342,
+      "verified": 78
+    },
+    {
+      "id": "kr-public-enterprises",
+      "total": 30,
+      "verified": 10
+    },
+    {
+      "id": "kr-quasi-government",
+      "total": 58,
+      "verified": 21
+    },
+    {
+      "id": "kr-other-public-institutions",
+      "total": 254,
+      "verified": 47
+    },
+    {
+      "id": "kr-local-public-enterprises",
+      "total": 167,
+      "verified": 1
+    },
+    {
+      "id": "kr-local-corporations",
+      "total": 78,
+      "verified": 1
+    },
+    {
+      "id": "kr-local-authorities",
+      "total": 89,
+      "verified": 0
+    },
+    {
+      "id": "kr-local-invested-institutions",
+      "total": 892,
+      "verified": 13
+    }
+  ],
+  "evidence_dir": "marketing/assets/public-institution-review-20261008"
+}
