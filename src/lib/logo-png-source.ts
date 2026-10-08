@@ -9,5 +9,27 @@ export function logoPngCandidates(brand: Brand): string[] {
   // Legacy JPEG filed as PNG: normalize the bytes without replacing the original.
   if (localSvgOnly || brand.id === 'osan-cultural-foundation') return [recovery];
   const png = typeof brand.logo_png === 'string' && /\.png(?:\?|$)/i.test(brand.logo_png) ? (/^(?:https?:\/\/|\/)/.test(brand.logo_png) ? brand.logo_png : `${CDN}/${brand.id}/${brand.logo_png}?v=${VERSION}`) : `${CDN}/${brand.id}/logo.png?v=${VERSION}`;
-  return [...new Set([...(brand.preview_png ? [brand.preview_png] : []), png, ...(brand.rejected_asset_files?.includes("logo-transparent.png") ? [] : [`${CDN}/${brand.id}/logo-transparent.png?v=${VERSION}`]), recovery])];
+  const transparent = `${CDN}/${brand.id}/logo-transparent.png?v=${VERSION}`;
+  const transparentReviewed = ['s-oil', 'sk'].includes(brand.id)
+    && !brand.rejected_asset_files?.includes('logo-transparent.png');
+  return [...new Set([
+    ...(transparentReviewed ? [transparent] : []),
+    ...(brand.preview_png ? [brand.preview_png] : []),
+    png,
+    ...(!transparentReviewed && !brand.rejected_asset_files?.includes('logo-transparent.png') ? [transparent] : []),
+    recovery,
+  ])];
+}
+
+/** Browser cards can display real SVG directly; keep PNG-only exports separate. */
+export function logoImageCandidates(brand: Brand): string[] {
+  const png=logoPngCandidates(brand);
+  if (!(brand.has_svg || brand.logo_svg) || (typeof brand.logo_png==='string' && brand.logo_png.startsWith('blob:')) || (typeof brand.logo_svg==='string' && brand.logo_svg.startsWith('/submissions/'))) return png;
+  const file=brand.svg_transparent || 'logo.svg';
+  if (brand.rejected_asset_files?.includes(file) || file.includes('..') || !/^(?:[\w-]+\/)*[\w.-]+\.svg$/.test(file)) return png;
+  const svg=`${CDN}/${brand.id}/${file}?v=${VERSION}`;
+  // SVG-only brands must not queue behind two missing PNG probes and server rendering.
+  if (!(brand.has_png || brand.logo_png || brand.preview_png)) return [svg,...png];
+  const recovery=png.filter(url=>url.startsWith('/api/logo-preview/'));
+  return [...new Set([...png.filter(url=>!recovery.includes(url)),svg,...recovery])];
 }

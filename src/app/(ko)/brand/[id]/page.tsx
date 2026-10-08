@@ -2,7 +2,7 @@ import { languageAlternates, localePath, type Locale } from "@/lib/locales";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { fetchBrand, fetchBrandsSlim, fetchCategoryPeers, isIndexableBrand } from "@/lib/brands";
-import { CDN } from "@/lib/cdn";
+import { logoPngCandidates } from "@/lib/logo-png-source";
 import Header from "@/components/Header";
 import BrandDetailClient from "./BrandDetailClient";
 
@@ -38,9 +38,8 @@ export async function brandMetadata(
   const brand = await fetchBrand(id);
   if (!brand) return {};
 
-  const logoUrl = brand.logo_svg
-    ? `${CDN}/${brand.id}/logo.svg`
-    : `${CDN}/${brand.id}/logo-transparent.png`;
+  const image = logoPngCandidates(brand)[0];
+  const logoUrl = image.startsWith("/") ? BASE + image : image;
 
   // hidden 은 로고답지 않은 이미지다. 페이지는 살려 두되(이미 색인된 URL 을
   // 404 로 만들면 SEO 만 잃는다) 새로 색인되지는 않게 한다.
@@ -60,7 +59,7 @@ export async function brandMetadata(
       type: "website",
       url: BASE + localePath(`/brand/${brand.id}`, locale),
       locale: locale === "en" ? "en_US" : "ko_KR",
-      images: [{ url: logoUrl, width: 800, height: 800, alt: locale === "en" ? `${name} logo` : `${name} 로고` }],
+      images: [{ url: logoUrl, alt: locale === "en" ? `${name} logo` : `${name} 로고` }],
       siteName: "세모로고",
     },
     twitter: {
@@ -91,9 +90,8 @@ export default async function BrandPage(
   // 빌드 워커마다 그걸 파싱해 힙이 터진다 — 실제로 배포가 실패했다.
   const peers = await fetchCategoryPeers(brand.category || "기타");
 
-  const logoUrl = brand.logo_svg
-    ? `${CDN}/${brand.id}/logo.svg`
-    : `${CDN}/${brand.id}/logo-transparent.png`;
+  const image = logoPngCandidates(brand)[0];
+  const logoUrl = image.startsWith("/") ? BASE + image : image;
 
   const jsonLd = [
     {
@@ -118,7 +116,7 @@ export default async function BrandPage(
       "@type": "ImageObject",
       name: `${brand.name_ko} 로고`,
       contentUrl: logoUrl,
-      encodingFormat: brand.logo_svg ? "image/svg+xml" : "image/png",
+      encodingFormat: "image/png",
       about: {
         "@type": "Organization",
         name: brand.name_ko,

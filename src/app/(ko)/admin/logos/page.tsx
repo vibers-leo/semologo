@@ -109,7 +109,7 @@ export default function AdminPage() {
             { href: FANEASY_ADMIN, emoji: "🗂", title: "통합 어드민", desc: "여러 사이트의 통계·문의를 한 곳에서", ext: true },
             { href: GA_PROPERTY, emoji: "📈", title: "방문 통계 (GA4)", desc: "유입·검색어·페이지별 방문", ext: true },
             { href: "/requests", emoji: "📮", title: "요청·제보 접수", desc: "들어온 로고 요청과 품질 신고 처리", ext: false },
-            { href: "/admin/posts", emoji: "📝", title: "CMS 로고 게시물", desc: "신규 로고 게시·보관·삭제", ext: false },
+            { href: "/admin/posts", emoji: "📝", title: "로고 콘텐츠 관리", desc: "신규 로고 게시·보관·삭제", ext: false },
           ].map(({ href, emoji, title, desc, ext }) => {
             const inner = (
               <>

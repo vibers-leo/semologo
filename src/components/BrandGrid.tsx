@@ -1,6 +1,7 @@
 "use client";
+import { applyPresentation, type LogoPresentation } from "@/lib/logo-presentation";
 import CardLogo from "./CardLogo";
-import { logoPngCandidates } from "@/lib/logo-png-source";
+import { logoPngCandidates, logoImageCandidates } from "@/lib/logo-png-source";
 import { collection, getDocs, query as firestoreQuery, where } from "firebase/firestore";
 import { getClientDb } from "@/lib/firebase";
 import { analyzeLogoVisibility } from "@/lib/logo-visibility";
@@ -95,6 +96,9 @@ export default function BrandGrid({
   // '교체 필요'로 신고된 브랜드 — 인기순에서만 뒤로 보낸다(목록엔 남는다)
   const [flagged, setFlagged] = useState<Set<string>>(new Set());
   // 모달에서 저장한 공개 배경 투표를 같은 화면의 카드에도 즉시 반영한다.
+  const [presentations,setPresentations]=useState<Record<string,LogoPresentation>>({});
+  useEffect(()=>{let alive=true;fetch('/api/logo-presentation/',{cache:'no-store'}).then(r=>r.ok?r.json():null).then(d=>{if(alive&&d?.presentations)setPresentations(p=>({...d.presentations,...p}));}).catch(()=>{});const changed=(e:Event)=>{const d=(e as CustomEvent).detail;if(d?.brandId&&d.presentation)setPresentations(p=>({...p,[d.brandId]:d.presentation}));};window.addEventListener('semologo:presentation',changed);return()=>{alive=false;window.removeEventListener('semologo:presentation',changed);};},[]);
+  const presented=(brand:Brand)=>applyPresentation(brand,presentations[brand.id] || brand.presentation);
   const [bgVotes, setBgVotes] = useState<Record<string, "dark" | "light">>({});
   useEffect(() => {
     let alive = true;
@@ -459,7 +463,7 @@ export default function BrandGrid({
             </button>
           </div>
           <div className="grid grid-cols-2 sm:grid-cols-4 xl:grid-cols-6 gap-3">
-            {recentPosts.map(brand => <BrandCard key={brand.id} brand={brand} priority bgVote={bgVotes[brand.id]}
+            {recentPosts.map(brand => <BrandCard key={brand.id} brand={presented(brand)} priority bgVote={presentations[brand.id] || brand.presentation ? undefined : bgVotes[brand.id]}
               onClick={() => { setSelected(brand); history.replaceState(null, '', path(`/brand/${brand.id}`)); }} />)}
           </div>
         </section>
@@ -498,8 +502,8 @@ export default function BrandGrid({
         {visible.map((brand, i) => (
             <BrandCard
               key={brand.id}
-              brand={brand}
-              bgVote={bgVotes[brand.id]}
+              brand={presented(brand)}
+              bgVote={presentations[brand.id] || brand.presentation ? undefined : bgVotes[brand.id]}
               onClick={() => {
                 setSelected(brand);
                 history.replaceState(null, "", path(`/brand/${brand.id}`));
@@ -549,7 +553,7 @@ export default function BrandGrid({
 
       {selected && (
         <BrandModal
-          brand={selected}
+          brand={presented(selected)}
           onClose={() => {
             setSelected(null);
             history.replaceState(null, "", path("/"));
@@ -575,7 +579,7 @@ function BrandCard({ brand, onClick, priority, bgVote }: { brand: Brand; onClick
     ? (/^(?:https?:\/\/|\/)/.test(brand.logo_png) ? brand.logo_png : `${CDN}/${brand.id}/${brand.logo_png}?v=${VERSION}`) : pngUrl;
   // Request the published PNG first: transparent derivatives are optional.
   // Missing derivatives must not delay every card before the available original.
-  const candidates = logoPngCandidates(brand);
+  const candidates = logoImageCandidates(brand);
   const [votedSrc, setVotedSrc] = useState<string | null>(null);
   useEffect(() => {
     let alive = true;

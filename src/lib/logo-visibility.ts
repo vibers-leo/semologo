@@ -22,7 +22,7 @@ export interface VisibilityResult {
   confidence: number;      // 0~1 (높을수록 신뢰)
 }
 
-const CACHE_KEY = (id: string) => `semo-vis-v2:${id}`;
+const CACHE_KEY = (id: string) => `semo-vis-v3:${id}`;
 const CACHE_TTL = 30 * 24 * 60 * 60 * 1000; // 30일
 
 /** 이미지 로드 (5초 타임아웃) */
@@ -131,7 +131,7 @@ export async function analyzeLogoVisibility(
 
   // 캐시 확인
   try {
-    const cached = localStorage.getItem(CACHE_KEY(brandId));
+    const cached = localStorage.getItem(CACHE_KEY(brandId) + pngUrl + transparentUrl);
     if (cached) {
       const parsed = JSON.parse(cached) as VisibilityResult;
       if (Date.now() - parsed.analyzedAt < CACHE_TTL) return parsed;
@@ -149,7 +149,7 @@ export async function analyzeLogoVisibility(
       hasTransparent: true,
       confidence: 0.88,
     };
-    try { localStorage.setItem(CACHE_KEY(brandId), JSON.stringify(result)); } catch {}
+    try { localStorage.setItem(CACHE_KEY(brandId) + pngUrl + transparentUrl, JSON.stringify(result)); } catch {}
     return result;
   }
 
@@ -157,7 +157,7 @@ export async function analyzeLogoVisibility(
   const mainImg = await loadImage(pngUrl);
   if (!mainImg) {
     const result: VisibilityResult = { darkMode: "unknown", analyzedAt: Date.now(), hasTransparent: false, confidence: 0 };
-    try { localStorage.setItem(CACHE_KEY(brandId), JSON.stringify(result)); } catch {}
+    try { localStorage.setItem(CACHE_KEY(brandId) + pngUrl + transparentUrl, JSON.stringify(result)); } catch {}
     return result;
   }
 
@@ -169,7 +169,7 @@ export async function analyzeLogoVisibility(
     hasTransparent: false,
     confidence: 0.70,
   };
-  try { localStorage.setItem(CACHE_KEY(brandId), JSON.stringify(result)); } catch {}
+  try { localStorage.setItem(CACHE_KEY(brandId) + pngUrl + transparentUrl, JSON.stringify(result)); } catch {}
   return result;
 }
 
@@ -177,9 +177,9 @@ export async function analyzeLogoVisibility(
 export function clearVisibilityCache(brandId?: string) {
   if (typeof window === "undefined") return;
   if (brandId) {
-    localStorage.removeItem(CACHE_KEY(brandId));
+    Object.keys(localStorage).filter(k => k.startsWith(CACHE_KEY(brandId))).forEach(k => localStorage.removeItem(k));
   } else {
-    const keys = Object.keys(localStorage).filter(k => k.startsWith("semo-vis-v2:"));
+    const keys = Object.keys(localStorage).filter(k => k.startsWith("semo-vis-v3:"));
     keys.forEach(k => localStorage.removeItem(k));
   }
 }

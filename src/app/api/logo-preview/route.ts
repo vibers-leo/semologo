@@ -1,3 +1,4 @@
+import { applyReviewedAssets } from '@/lib/reviewed-logo-assets';
 import { prepareSvgPreview } from '@/lib/logo-svg-preview';
 import { readFile } from 'node:fs/promises';
 import { join } from 'node:path';
@@ -32,14 +33,15 @@ function failureAt(id: string) { const f = failures.get(id); return f && Date.no
 async function render(id: string) {
   await acquire();
   try {
-    const brand = registered.get(id);
+    const brand = applyReviewedAssets(registered.get(id) ?? {id,name_ko:id,name_en:id,category:''});
     const local = typeof brand?.logo_png === 'string' && brand.logo_png.startsWith('/submissions/') ? brand.logo_png : brand?.logo_svg;
     let input: Buffer;
     if (typeof local === 'string' && local.startsWith('/submissions/') && !local.includes('..') && !local.includes('\\') && /\.(png|svg)$/.test(local)) {
       input = await readFile(join(process.cwd(), 'public', local));
       if (input.length > 12_000_000) throw new Error('large');
     } else {
-    const response = await fetch(`${CDN}/${encodeURIComponent(id)}/${id === "nhqv" ? "logo.png" : "logo.svg"}?v=${VERSION}`, { cache: 'no-store', redirect: 'error', signal: AbortSignal.timeout(6000) });
+    const remoteFile = typeof brand.logo_png === "string" && /^(?:[\w-]+\/)*[\w.-]+\.png$/.test(brand.logo_png) && !brand.logo_png.includes("..") ? brand.logo_png : brand.svg_transparent || (id === "nhqv" ? "logo.png" : "logo.svg");
+    const response = await fetch(`${CDN}/${encodeURIComponent(id)}/${remoteFile}?v=${VERSION}`, { cache: 'no-store', redirect: 'error', signal: AbortSignal.timeout(6000) });
     if (!response.ok || !response.body) throw new Error(response.status === 404 ? 'missing' : 'upstream');
     const reader = response.body.getReader();
     const chunks: Uint8Array[] = [];

@@ -2,6 +2,7 @@ import { reviewedVariants } from "./reviewed-logo-assets";
 import { applyQualityReview } from "./logo-quality-review";
 
 export interface Brand {
+  presentation?: { file: string; bg: "light" | "dark" };
   preview_png?: string;
   rejected_asset_files?: string[];
   /** brands-slim.json 이 싣는 추가 순서. 같은 날 추가분의 정렬 기준. */
@@ -48,6 +49,8 @@ export interface Brand {
   brand_manual?: string;
   /** 공식 배포처가 제공한 원본 ZIP 자산 */
   source_zip?: string;
+  official_zip_url?: string;
+  dark_png?: string;
   original_ai_url?: string;
   domain?: string;
   website?: string;
@@ -239,7 +242,7 @@ export async function getBrandMap(): Promise<Map<string, Brand>> {
 
 // ── 로고 변형 매니페스트 ─────────────────────────────────────────────────────
 
-export type VariantForm = "symbol" | "horizontal" | "vertical" | "wordmark" | "unknown";
+export type VariantForm = "symbol" | "horizontal" | "vertical" | "wordmark" | "emblem" | "typography" | "mascot" | "unknown";
 
 export interface VariantRecord {
   key: string;
@@ -252,6 +255,8 @@ export interface VariantRecord {
   provider?: string;
   origin: "collected" | "derived" | "manual";
   order: number;
+  asset_group?: "emblem" | "logotype" | "symbol" | "typography" | "mascot";
+  source_url?: string;
   derived_from?: string;
   confidence?: number;
   alts?: { provider: string; file: string }[];

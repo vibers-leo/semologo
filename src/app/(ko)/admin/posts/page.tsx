@@ -1,67 +1,32 @@
 "use client";
-
-import { useEffect, useState } from "react";
-import { onAuthStateChanged } from "firebase/auth";
-import { getClientAuth } from "@/lib/firebase";
-import { deleteLogoPost, listLogoPosts, saveLogoPost, toLogoPost, type LogoPost } from "@/lib/logo-posts";
-import { INDEX_REVIEW_BRANDS } from "@/lib/index-candidate-review-submissions";
-import Header from "@/components/Header";
-
-const ADMIN_EMAIL = "juuuno1116@gmail.com";
-
-export default function AdminPostsPage() {
-  const [ready, setReady] = useState(false);
-  const [admin, setAdmin] = useState(false);
-  const [posts, setPosts] = useState<LogoPost[]>([]);
-  const [error, setError] = useState("");
-
-  async function refresh() {
-    try { setPosts(await listLogoPosts()); }
-    catch { setError("게시물을 불러오지 못했어요. Firestore 권한을 확인해 주세요."); }
-  }
-
-  useEffect(() => onAuthStateChanged(getClientAuth(), user => {
-    const ok = user?.email === ADMIN_EMAIL;
-    setAdmin(ok); setReady(true); if (ok) refresh();
-  }), []);
-
-  if (!ready) return <><Header /><p style={{ padding: 80, textAlign: "center" }}>불러오는 중…</p></>;
-  if (!admin) return null;
-
-  async function archive(post: LogoPost) {
-    await saveLogoPost({ ...post, status: "archived", updated_at: new Date().toISOString() });
-    await refresh();
-  }
-
-  async function publish(post: LogoPost) {
-    await saveLogoPost({ ...post, status: "published", published_at: post.published_at || new Date().toISOString(), updated_at: new Date().toISOString() });
-    await refresh();
-  }
-
-  async function remove(post: LogoPost) {
-    if (!window.confirm(`${post.name_ko} 게시물을 삭제할까요?`)) return;
-    await deleteLogoPost(post.id); await refresh();
-  }
-
-  async function importCandidates() {
-    const existing = new Set(posts.map(post => post.id));
-    const candidates = INDEX_REVIEW_BRANDS.filter(brand => !existing.has(brand.id));
-    for (const brand of candidates) await saveLogoPost(toLogoPost(brand, { status: "draft", author_uid: getClientAuth().currentUser?.uid }));
-    await refresh();
-  }
-
-  return <div style={{ minHeight: "100vh", background: "var(--bg)" }}><Header /><main style={{ maxWidth: 900, margin: "0 auto", padding: "32px 16px" }}>
-    <h1 style={{ fontSize: 24, fontWeight: 800 }}>CMS 로고 게시물</h1>
-    <p style={{ color: "var(--text-secondary)", fontSize: 13, margin: "6px 0 20px" }}>신규 수집 로고를 게시·보관·삭제합니다. 기존 정적 카탈로그는 그대로 유지됩니다.</p>
-    <button onClick={importCandidates} style={{ padding: "9px 13px", borderRadius: 9, background: "#111", color: "#fff", border: 0, marginBottom: 18 }}>신규 수집 후보를 초안으로 가져오기 ({INDEX_REVIEW_BRANDS.length})</button>
-    {error && <p role="alert" style={{ color: "#dc2626", fontSize: 13 }}>{error}</p>}
-    {!error && posts.length === 0 && <p style={{ padding: 40, textAlign: "center", color: "var(--text-secondary)" }}>게시된 CMS 로고가 아직 없어요.</p>}
-    <div style={{ display: "grid", gap: 10 }}>{posts.map(post => <article key={post.id} style={{ background: "#fff", border: "1px solid var(--border)", borderRadius: 12, padding: 14, display: "flex", alignItems: "center", gap: 14 }}>
-      <div style={{ width: 100, height: 60, display: "grid", placeItems: "center", background: "#f4f4f5", borderRadius: 8 }}><img src={typeof post.logo_svg === "string" ? post.logo_svg : (typeof post.logo_png === "string" ? post.logo_png : "")} alt="" style={{ maxWidth: "88px", maxHeight: "48px" }} /></div>
-      <div style={{ flex: 1 }}><b>{post.name_ko}</b><div style={{ fontSize: 12, color: "#71717a" }}>{post.category} · {post.status}</div></div>
-      {post.status === "draft" && <button onClick={() => publish(post)} style={{ padding: "7px 10px", background: "#6366f1", color: "#fff", border: 0, borderRadius: 7 }}>게시</button>}
-      {post.status === "published" && <button onClick={() => archive(post)} style={{ padding: "7px 10px" }}>보관</button>}
-      <button onClick={() => remove(post)} style={{ padding: "7px 10px", color: "#dc2626" }}>삭제</button>
-    </article>)}</div>
-  </main></div>;
+import { useCallback, useEffect, useState } from 'react';
+import { onAuthStateChanged } from 'firebase/auth';
+import { getClientAuth } from '@/lib/firebase';
+import type { LogoPost } from '@/lib/logo-posts';
+import { logoPngCandidates } from '@/lib/logo-png-source';
+import Header from '@/components/Header';
+type ManagedLogoPost=LogoPost & {logo_version?:{year:number|null;label:string;review_status:string}};
+const labels={published:'게시 중',draft:'검수 대기',archived:'보관'};
+export default function AdminPostsPage(){
+ const [ready,setReady]=useState(false),[admin,setAdmin]=useState(false),[posts,setPosts]=useState<ManagedLogoPost[]>([]),[error,setError]=useState(''),[loading,setLoading]=useState(false),[busy,setBusy]=useState('');
+ const [query,setQuery]=useState(''),[search,setSearch]=useState(''),[status,setStatus]=useState<keyof typeof labels>('published'),[page,setPage]=useState(1),[total,setTotal]=useState(0);
+ const refresh=useCallback(async(signal?:AbortSignal)=>{
+  setLoading(true);setError('');setPosts([]);
+  try{const token=await getClientAuth().currentUser?.getIdToken();if(!token)throw Error('관리자 로그인이 필요해요.');
+   const r=await fetch(`/api/admin/logo-posts/?status=${status}&q=${encodeURIComponent(search)}&page=${page}`,{headers:{Authorization:`Bearer ${token}`},cache:'no-store',signal});const data=await r.json();if(!r.ok)throw Error(data.error);if(!signal?.aborted){setPosts(data.posts);setTotal(data.total);}
+  }catch(e){if(!signal?.aborted)setError(e instanceof Error?e.message:'목록을 불러오지 못했어요.');}finally{if(!signal?.aborted)setLoading(false);}
+ },[status,search,page]);
+ useEffect(()=>onAuthStateChanged(getClientAuth(),u=>{setAdmin(u?.email?.toLowerCase()==='juuuno1116@gmail.com');setReady(true);}),[]);
+ useEffect(()=>{if(!admin)return;const c=new AbortController();void refresh(c.signal);return()=>c.abort();},[admin,refresh]);
+ async function change(post:LogoPost,next:keyof typeof labels){setBusy(post.id);setError('');try{const token=await getClientAuth().currentUser?.getIdToken();const r=await fetch('/api/admin/logo-posts/',{method:'PATCH',headers:{Authorization:`Bearer ${token}`,'Content-Type':'application/json'},body:JSON.stringify({id:post.id,status:next})});const data=await r.json();if(!r.ok)throw Error(data.error);await refresh();}catch(e){setError(e instanceof Error?e.message:'저장하지 못했어요.');}finally{setBusy('');}}
+ return <div style={{minHeight:'100vh',background:'var(--bg)'}}><Header/><main style={{maxWidth:1000,margin:'0 auto',padding:'32px 16px'}}>
+ <h1 style={{fontSize:24,fontWeight:800}}>로고 콘텐츠 관리</h1><p style={{color:'var(--text-secondary)',fontSize:13,margin:'8px 0 20px'}}>수집한 로고를 검색하고 게시 상태를 관리해요. 보관해도 원본 파일은 유지돼요.</p>
+ {!ready?<p>불러오는 중이에요.</p>:!admin?<p>관리자 계정으로 로그인해 주세요. <a href="/login/">로그인</a></p>:<>
+ <form onSubmit={e=>{e.preventDefault();setPage(1);setSearch(query);}} style={{display:'flex',gap:8,flexWrap:'wrap',marginBottom:16}}><input aria-label="로고 이름 검색" placeholder="로고 이름으로 검색" value={query} onChange={e=>setQuery(e.target.value)} style={{padding:10,border:'1px solid var(--border)',borderRadius:8,flex:1,minWidth:180}}/><button type="submit">검색</button><select aria-label="게시 상태" value={status} onChange={e=>{setStatus(e.target.value as keyof typeof labels);setPage(1);}}>{Object.entries(labels).map(([k,v])=><option key={k} value={k}>{v}</option>)}</select></form>
+ {error&&<p role="alert" style={{color:'#dc2626'}}>{error} <button onClick={()=>void refresh()}>다시 불러오기</button></p>}
+ <p aria-live="polite" style={{fontSize:13,color:'var(--text-secondary)'}}>{loading?'불러오는 중이에요.':`${labels[status]} ${total.toLocaleString()}개`}</p>
+ {!loading&&!error&&!posts.length&&<p>조건에 맞는 로고가 없어요.</p>}
+ <div style={{display:'grid',gap:10,marginTop:12}}>{posts.map(post=><article key={post.id} style={{border:'1px solid var(--border)',borderRadius:12,padding:12,display:'flex',alignItems:'center',gap:12,flexWrap:'wrap'}}><img src={logoPngCandidates(post)[0]} alt="" style={{width:80,height:50,objectFit:'contain',background:post.light?'#27272a':'#f4f4f5',borderRadius:6}} onError={e=>{e.currentTarget.style.visibility='hidden';}}/><div style={{flex:1,minWidth:120}}><b>{post.name_ko}</b><p style={{fontSize:12,marginTop:4,color:'var(--text-secondary)'}}>{post.category} · {labels[post.status]} · {post.logo_version?.year ? `${post.logo_version.year}년 로고` : '도입 연도 미확인'}</p></div><a href={`/brand/${encodeURIComponent(post.id)}/`} target="_blank" rel="noopener noreferrer">콘텐츠 보기</a><button disabled={busy===post.id} onClick={()=>void change(post,post.status==='published'?'archived':'published')}>{busy===post.id?'저장 중…':post.status==='published'?'보관하기':'게시하기'}</button></article>)}</div>
+ <nav aria-label="페이지 이동" style={{display:'flex',gap:12,marginTop:20,alignItems:'center'}}><button disabled={page<=1||loading} onClick={()=>setPage(p=>p-1)}>이전</button><span>{page} / {Math.max(1,Math.ceil(total/50))}</span><button disabled={page*50>=total||loading} onClick={()=>setPage(p=>p+1)}>다음</button></nav></>}
+ </main></div>;
 }

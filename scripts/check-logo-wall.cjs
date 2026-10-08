@@ -27,7 +27,7 @@ function load(file){
  vm.runInNewContext(code,{exports,require:localRequire,process:{env:{DB_VIBERS_MAIN_URL:'test-only',NEXT_PUBLIC_CDN_URL:'https://cdn.example/_clients'}},console,Buffer,Response,Request,URL,AbortSignal,setTimeout,fetch:async url=>{fetched.push(String(url));return new Response(png);}},{filename:file});return exports;
 }
 async function main(){
- const {logoPngCandidates}=load('src/lib/logo-png-source.ts');
+ const {logoPngCandidates,logoImageCandidates}=load('src/lib/logo-png-source.ts');
  const {applyReviewedAssets,reviewedVariants}=load('src/lib/reviewed-logo-assets.ts');
  const nh=applyReviewedAssets({id:'nhqv',logo_svg:'logo.svg',has_svg:true,logo_png:true});
  assert.equal(nh.has_svg,true);assert.equal(reviewedVariants.nhqv.variants.length,1);
@@ -43,6 +43,9 @@ async function main(){
  assert.equal(logoPngCandidates({id:'upload',logo_png:'/submissions/test.png'})[0],'/submissions/test.png');
  assert.equal(logoPngCandidates({id:'cdn',logo_png:'https://assets.example/logo.png'})[0],'https://assets.example/logo.png');
 
+ assert(logoImageCandidates({id:'svg-only',has_svg:true,has_png:false})[0].includes('/svg-only/logo.svg'));
+ assert(logoImageCandidates({id:'png-first',has_svg:true,has_png:true})[0].includes('/png-first/logo.png'));
+ assert(!logoImageCandidates({id:'raster',has_svg:false,has_png:true}).some(u=>u.endsWith('.svg')));
  const {logoWallLayout}=load('src/lib/logo-wall-layout.ts');
  const old=logoWallLayout({background:'auto',columns:4});assert.equal(old.appearance,'cards');assert.equal(old.showNames,true);
  const layout=logoWallLayout({appearance:'clean',spacing:'airy',logoSize:'large',showNames:false,motion:'alternating'});

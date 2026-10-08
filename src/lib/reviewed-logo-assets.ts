@@ -1,10 +1,13 @@
 import type { Brand, VariantManifest } from './brands';
-import { CDN } from './cdn';
+import { CDN, VERSION } from './cdn';
+import release from './reviewed-asset-release-20261008.json';
+const releasePatches = release.patches as unknown as Record<string, Partial<Brand>>;
 
 // Only visually reviewed transparent assets belong here. Never remove white
 // indiscriminately: the Seongnam symbol contains intentional white artwork.
 const official = 'sources/official-ci-20261007';
 export function applyReviewedAssets(brand: Brand): Brand {
+  if (releasePatches[brand.id]) return { ...brand, ...releasePatches[brand.id] };
   if (brand.id === 'h-m') return { ...brand, variant_of: 'h-m-1', hidden: true,
     hidden_reason: 'H&M 중복 로고를 투명 원본 대표 콘텐츠로 통합',
   };
@@ -24,6 +27,13 @@ export function applyReviewedAssets(brand: Brand): Brand {
     website: `https://www.${brand.id}.go.kr/`,
     rejected_asset_files: ['logo-800.png', 'logo-icon.png', 'logo-transparent.png', 'logo-white.png'],
   };
+  // 2026-10-07 visual review: both derivatives have transparent alpha and
+  // remove the white rectangles visible in the S-Oil and SK catalog cards.
+  if (['s-oil', 'sk'].includes(brand.id)
+    && !brand.rejected_asset_files?.includes('logo-transparent.png')) return { ...brand,
+      preview_png: `${CDN}/${brand.id}/logo-transparent.png?v=${VERSION}`,
+      logo_png: 'logo-transparent.png', has_png: true,
+    };
   if (['cj', 'roblox', 'olive-young', 'bucketplace', 'myrealtrip', 'hyundai', 'incheon-michuhol-gu', 'shinhan-bank', 'samsung', 'samsung-ct', 'anua', 'samsungbioepis', 'hyundai-glovis', 'samsung-bespoke', 'studio-dragon', 'watcha', 'kca', 'reddit', 'gs-caltex'].includes(brand.id)) return { ...brand,
     preview_png: `${CDN}/${brand.id}/logo-transparent.png?v=20261006-2`,
     logo_png: 'logo-transparent.png',
@@ -61,6 +71,7 @@ export function applyReviewedAssets(brand: Brand): Brand {
 }
 
 export const reviewedVariants: Record<string, VariantManifest> = {
+  ...(release.variants as unknown as Record<string, VariantManifest>),
   'h-m-1': { schema: 1, algo_v: 1, id: 'h-m-1', primary: 'original', variants: [
     { key: 'original', form: 'wordmark', lang: 'en', color: 'original', label: '투명 워드마크', files: { svg: 'logo.svg', png: 'sources/reviewed-merge-20261007/logo.png' }, provider: '기존 보유 원본', origin: 'collected', order: 0 },
     { key: 'legacy', form: 'wordmark', lang: 'en', color: 'original', label: '기존 워드마크', files: { svg: 'sources/reviewed-merge-20261007/legacy.svg', png: 'sources/reviewed-merge-20261007/logo.png' }, provider: '통합한 기존 콘텐츠 원본', origin: 'collected', order: 1 },

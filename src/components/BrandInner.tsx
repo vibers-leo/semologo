@@ -1,4 +1,5 @@
 "use client";
+import { validPresentation, type LogoPresentation } from "@/lib/logo-presentation";
 import { generateInverted } from "@/lib/logo-dark-png";
 
 import { useLocale, T } from "@/lib/locale-context";
@@ -7,6 +8,7 @@ import Link from "next/link";
 import { Brand, fetchVariants, type VariantManifest, type VariantRecord } from "@/lib/brands";
 import { BRAND_RELATIONS, RELATION_LABEL, RELATION_COLOR } from "@/lib/brand-relations";
 import { getClientAuth, getClientDb } from "@/lib/firebase";
+import LogoVersionHistory from "./LogoVersionHistory";
 import CoupangSlot from "./CoupangSlot";
 
 const SITE_URL = "https://semologo.com";
@@ -94,10 +96,10 @@ const CHECKER: React.CSSProperties = {
 const VARIANTS = [
   { file: "logo.svg",            name: "SVG 벡터",        desc: "확대해도 깨짐 없음",       bg: "white", svgOnly: true,  langEn: false },
   { file: "logo-en.svg",         name: "영문 SVG",         desc: "영문 벡터",                bg: "white", svgOnly: true,  langEn: true  },
-  { file: "logo-800.png",        name: "PNG 800px",        desc: "고해상도 래스터",          bg: "white", svgOnly: false, langEn: false },
-  { file: "logo-icon.png",       name: "파비콘 / 아이콘",  desc: "64px · 파비콘·앱 아이콘용", bg: "checker",svgOnly: false, langEn: false },
-  { file: "logo-transparent.png",name: "투명 배경",        desc: "배경 제거 PNG",            bg: "checker",svgOnly: false, langEn: false },
-  { file: "logo.png",            name: "PNG 원본",         desc: "기본 PNG",                 bg: "white", svgOnly: false, langEn: false },
+  { file: "logo-800.png",        name: "고해상도 PNG",        desc: "큰 화면·편집 작업용",          bg: "white", svgOnly: false, langEn: false },
+  { file: "logo-icon.png",       name: "아이콘용 PNG",  desc: "파비콘·앱 아이콘용", bg: "checker",svgOnly: false, langEn: false },
+  { file: "logo-transparent.png",name: "투명 PNG",        desc: "배경 제거 PNG",            bg: "checker",svgOnly: false, langEn: false },
+  { file: "logo.png",            name: "기본 PNG",         desc: "기본 PNG",                 bg: "white", svgOnly: false, langEn: false },
   { file: "logo-en.png",         name: "영문 PNG",         desc: "영문 기본 PNG",            bg: "white", svgOnly: false, langEn: true  },
 ];
 
@@ -209,7 +211,7 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
   const directPng = typeof brand.logo_png === "string" ? (/^https?:\/\//.test(brand.logo_png) ? brand.logo_png : brand.logo_png.startsWith("/") ? `${brand.logo_png}?v=${VERSION}` : cdnUrl(brand.logo_png)) : null;
   const pngUrl  = directPng || cdnUrl("logo.png");
   const darkUrl = brand.rejected_asset_files?.includes("logo-transparent.png") ? pngUrl : cdnUrl("logo-transparent.png");
-  const whiteUrl = cdnUrl("logo-white.png");
+  const whiteUrl = cdnUrl(brand.dark_png || "logo-white.png");
   const hasSvg = !!(brand.logo_svg || brand.has_svg);
   // 예전엔 PNG 칩이 무조건 참이었다. 실제로는 logo.png 가 없는 브랜드가 있었고
   // (신규 수집분 231개 전부) PNG 다운로드 버튼이 404 를 받고 있었다.
@@ -227,6 +229,11 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
    * 관리자가 모달의 다크 프리뷰를 클릭하면 logo_votes/{id}.bg 에 남고,
    * brand-logos/scripts/pull-bg-overrides.py 가 그걸 내려받아 목록 전체에 반영한다.
    */
+  const [presentation,setPresentation]=useState<LogoPresentation | null>(brand.presentation || null);
+  const [pickFile,setPickFile]=useState(brand.presentation?.file || "");
+  const [pickBg,setPickBg]=useState<"light"|"dark">(brand.presentation?.bg || "light");
+  const [savingPresentation,setSavingPresentation]=useState(false);
+  useEffect(()=>{let alive=true;setPresentation(brand.presentation || null);fetch(`/api/logo-presentation/?id=${encodeURIComponent(brand.id)}`,{cache:"no-store"}).then(r=>r.ok?r.json():null).then(data=>{const p=data?.presentations?.[brand.id];if(alive&&validPresentation(p)){setPresentation(p);setPickFile(p.file);setPickBg(p.bg);}}).catch(()=>{});return()=>{alive=false;};},[brand.id]);
   const [bgOverride, setBgOverride] = useState<"dark" | "light" | null>(null);
   const ADMIN_EMAIL = "juuuno1116@gmail.com";
   // 렌더 중에 getClientAuth() 를 부르면 SSR 에서 깨진다 — 효과 안에서만 읽는다.
@@ -238,17 +245,13 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
       return onAuthStateChanged(auth, u => setIsAdmin(u?.email === ADMIN_EMAIL));
     } catch { /* 서버 렌더·비로그인 */ }
   }, []);
-  const isLightLogo = bgOverride ? bgOverride === "dark" : !!(brand.light || brand.light_logo || brand.dark_variant === "white");
-  const toggleBg = async (e: React.MouseEvent) => {
-    e.stopPropagation();
-    const next: "dark" | "light" = isLightLogo ? "light" : "dark";
-    try {
-      await setDoc(doc(getClientDb(), "logo_votes", brand.id), { bg: next, bg_by: getClientAuth().currentUser?.email || "public-vote" }, { merge: true });
-      setBgOverride(next);
-      window.dispatchEvent(new CustomEvent("semologo:bg-vote", { detail: { brandId: brand.id, bg: next } }));
-      toast(next === "dark" ? "검정 배경으로 메인 노출" : "흰 배경으로 되돌림");
-    } catch { toast("저장 실패 — 다시 시도해 주세요"); }
+  const isLightLogo = presentation ? presentation.bg === "dark" : bgOverride ? bgOverride === "dark" : !!(brand.light || brand.light_logo || brand.dark_variant === "white");
+  const savePresentation = async (file:string,bg:"light"|"dark") => {
+    if(!isAdmin||!file)return;
+    setSavingPresentation(true);
+    try{const token=await getClientAuth().currentUser?.getIdToken();const r=await fetch('/api/logo-presentation/',{method:'PATCH',headers:{Authorization:`Bearer ${token}`,'Content-Type':'application/json'},body:JSON.stringify({id:brand.id,file,bg})});const data=await r.json();if(!r.ok)throw Error(data.error);setPresentation(data.presentation);setBgOverride(null);setPickFile(file);setPickBg(bg);window.dispatchEvent(new CustomEvent('semologo:presentation',{detail:{brandId:brand.id,presentation:data.presentation}}));toast('대표 이미지와 배경을 저장했어요.');}catch(e){toast(e instanceof Error?e.message:'저장하지 못했어요.');}finally{setSavingPresentation(false);}
   };
+  const toggleBg = (e:React.MouseEvent) => {e.stopPropagation();if(!isAdmin)return;void savePresentation(presentation?.file || (typeof brand.logo_png==='string'&&!brand.logo_png.startsWith('http')?brand.logo_png:'logo.png'),isLightLogo?'light':'dark');};
   const DARK_TILE: React.CSSProperties = { background: "#18181b", backgroundImage: "none" };
   /** 밝은 로고면 어두운 타일, 아니면 원래 배경 */
   const tile = (base?: React.CSSProperties): React.CSSProperties =>
@@ -264,7 +267,7 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
   // 일부 기관 수집본의 원본 SVG에는 로고 주변의 안내 문서/캔버스가
   // 함께 들어온다. 다운로드 원본은 보존하되, 대표 화면은 검수된 가공본을
   // 우선 사용한다. KCA는 logo-800.png가 실제 로고만 담은 가공본이다.
-  const previewUrl = brand.preview_png || (brand.id === "kca" ? cdnUrl("logo-800.png") : hasPng ? pngUrl : `/api/logo-preview/?id=${encodeURIComponent(brand.id)}`);
+  const previewUrl = presentation ? cdnUrl(presentation.file) : brand.preview_png || (brand.id === "kca" ? cdnUrl("logo-800.png") : hasPng ? pngUrl : `/api/logo-preview/?id=${encodeURIComponent(brand.id)}`);
   // 정본 브랜드 페이지 주소. 예전엔 `${origin}/#${brand.id}` 라 홈으로 보내놓고
   // 해시로 모달을 여는 링크였다 — 사이트맵·canonical 과 다른 주소를 공유하던 셈이다.
   //
@@ -320,12 +323,20 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
   const sections = manifest
     ? Object.entries(
         manifest.variants.reduce<Record<string, VariantRecord[]>>((acc, v) => {
-          (acc[v.label] ||= []).push(v);
+          const group = v.asset_group ? ({ emblem: "엠블럼", logotype: "로고타입", symbol: "심볼마크", typography: "타이포그래피 안내", mascot: "마스코트" }[v.asset_group]) : v.label;
+          (acc[group] ||= []).push(v);
           return acc;
         }, {})
       ).sort((a, b) => (a[1][0].order ?? 99) - (b[1][0].order ?? 99))
     : [];
 
+  const mainCandidates = Array.from(new Map([
+    ...variants.map(v=>({file:v.file,label:v.name})),
+    ...(manifest?.variants || []).map(v=>({file:v.files.png || v.files.svg || '',label:v.label})),
+    ...(brand.dark_png ? [{file:brand.dark_png,label:'다크 배경용 PNG'}] : []),
+    ...(hasWhiteLogo && !brand.dark_png ? [{file:'logo-white.png',label:'화이트 로고 PNG'}] : []),
+    ...(typeof brand.logo_png==='string' && !brand.logo_png.startsWith('http') && !brand.logo_png.startsWith('/') ? [{file:brand.logo_png,label:'현재 대표 PNG'}] : []),
+  ].filter(v=>v.file.endsWith('.png')).map(v=>[v.file,v])).values());
   // 언어 탭은 unknown 이 아닌 언어가 2개 이상일 때만 의미가 있다
   const langs = manifest
     ? Array.from(new Set(manifest.variants.map(v => v.lang).filter(l => l === "ko" || l === "en")))
@@ -369,8 +380,8 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
           }
           setVotes(decoded);
           if (data.swap_pending) setSwapTarget(data.swap_target || null);
-          // 공개 배경 투표 결과를 사용한다. 마지막 투표가 대표 배경이 된다.
-          if (data.bg === "dark" || data.bg === "light") setBgOverride(data.bg);
+          // 공개 배경 투표 결과를 사용한다. 대표 배경은 관리자 선택 API에서 불러온다.
+          // Legacy public background votes never override the administrator's selected file.
         }
         if (sSnap.exists()) setShareFeed(sSnap.data().recent || []);
       } catch {}
@@ -383,6 +394,7 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
 
   useEffect(() => {
     setInvertedUrl(null);
+    if (brand.dark_png) { setVisibility(null); setHasWhiteLogo(true); return; }
     if (brand.rejected_asset_files?.includes("logo-transparent.png")) {
       setVisibility(null); setHasWhiteLogo(false); return;
     }
@@ -550,7 +562,7 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
     ? { width: "100%", maxWidth: 1400, margin: "0 auto", display: "flex", flexDirection: "column", background: "#ffffff" }
     : { position: "relative", display: "flex", flexDirection: "column", width: "90vw", maxWidth: 1400, height: "90vh", background: "#ffffff", border: "1px solid #e4e4e7", borderRadius: 20, boxShadow: "0 24px 80px rgba(0,0,0,.15)", animation: "modalIn .18s ease" };
 
-  const darkPreviewSrc = hasWhiteLogo && visibility?.darkMode !== "white-only"
+  const darkPreviewSrc = presentation ? previewUrl : brand.dark_png ? whiteUrl : hasWhiteLogo && visibility?.darkMode !== "white-only"
     ? whiteUrl
     : getDarkPreviewUrl(visibility, darkUrl, previewUrl);
 
@@ -596,9 +608,9 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
             )}
             {/* 매뉴얼 원본은 로고 파일만큼 값어치가 있다 — 컬러 팔레트·
                 최소규격·응용례가 들어 있다. 배포처가 준 경우에만 뜬다. */}
-            {brand.source_zip && (
-              <a href={`${CDN}/${brand.id}/${brand.source_zip}?v=${VERSION}`} download title="공식 원본 ZIP 내려받기"
-                 style={{ display:"inline-flex", alignItems:"center", gap:3, padding:"1px 7px", borderRadius:999, fontSize:11, fontWeight:600, color:"#166534", background:"rgba(34,197,94,.1)", border:"1px solid rgba(34,197,94,.25)", textDecoration:"none" }}><T>{"📦 공식 원본 ZIP"}</T></a>
+            {(brand.official_zip_url || brand.source_zip) && (
+              <a href={brand.official_zip_url || `${CDN}/${brand.id}/${brand.source_zip}?v=${VERSION}`} target={brand.official_zip_url ? "_blank" : undefined} rel={brand.official_zip_url ? "noopener noreferrer" : undefined} download={!brand.official_zip_url} title="공식 제공 원본 ZIP 내려받기"
+                 style={{ display:"inline-flex", alignItems:"center", gap:3, padding:"1px 7px", borderRadius:999, fontSize:11, fontWeight:600, color:"#166534", background:"rgba(34,197,94,.1)", border:"1px solid rgba(34,197,94,.25)", textDecoration:"none" }}><T>{"📦 공식 제공 원본 ZIP"}</T></a>
             )}
             {brand.brand_manual && (
               <a href={`${CDN}/${brand.id}/${brand.brand_manual}?v=${VERSION}`}
@@ -737,7 +749,7 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
 
           {/* 메인 프리뷰 */}
           <div style={{ border:"1px solid #f0f0f2", borderRadius:8, overflow:"hidden", position:"relative" }}>
-            <LogoBox src={bgOverride === "dark" ? (invertedUrl || darkPreviewSrc) : previewUrl} alt={en ? brand.name_en || brand.name_ko : brand.name_ko} height={128} padding={16} bg={isLightLogo ? "dark" : "white"} fallback={pngUrl} />
+            <LogoBox src={!presentation && bgOverride === "dark" ? (invertedUrl || darkPreviewSrc) : previewUrl} alt={en ? brand.name_en || brand.name_ko : brand.name_ko} height={128} padding={16} bg={isLightLogo ? "dark" : "white"} fallback={pngUrl} />
             {brand.original_ai_url && (
               <a href={brand.original_ai_url} target="_blank" rel="noopener noreferrer"
                 style={{ position:"absolute", bottom:6, right:6, display:"inline-flex", alignItems:"center", gap:3, padding:"2px 7px", background:"#eff6ff", border:"1px solid #bfdbfe", borderRadius:10, fontSize: 11, fontWeight:700, color:"#2563eb", textDecoration:"none", letterSpacing:".04em" }}>
@@ -777,7 +789,7 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
                 <div key={t(m.label)} style={{ display:"flex", flexDirection:"column", alignItems:"center", gap:5 }}>
                   <div style={m.style}>
                     {/* eslint-disable-next-line @next/next/no-img-element */}
-                    <img src={bgOverride === "dark" ? (invertedUrl || darkPreviewSrc) : previewUrl} alt="" style={{ position:"absolute", inset:"10%", width:"80%", height:"80%", objectFit:"contain", objectPosition:"center" }} onError={e => { e.currentTarget.src = pngUrl; }} />
+                    <img src={!presentation && bgOverride === "dark" ? (invertedUrl || darkPreviewSrc) : previewUrl} alt="" style={{ position:"absolute", inset:"10%", width:"80%", height:"80%", objectFit:"contain", objectPosition:"center" }} onError={e => { e.currentTarget.src = pngUrl; }} />
                   </div>
                   <span style={{ fontSize: 11, color:"#71717a", textAlign:"center" }}>{t(m.label)}</span>
                 </div>
@@ -789,7 +801,7 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
           <div>
             <div style={{ fontSize: 11, fontWeight:700, color:"#71717a", letterSpacing:".08em", textTransform:"uppercase", marginBottom:10 }}><T>{"보유 형식"}</T></div>
             <div style={{ display:"flex", flexDirection:"column", gap:5 }}>
-              {[{ label:"SVG 벡터", ok:hasSvg }, { label:"PNG", ok:hasPng }, { label:"영문 버전", ok:hasEn }].map(({ label, ok }) => (
+              {[{ label:"SVG 벡터", ok:hasSvg || !!manifest?.variants.some(v=>v.files.svg) }, { label:"PNG", ok:hasPng }, { label:"영문 버전", ok:hasEn }].map(({ label, ok }) => (
                 <span key={t(label)} style={{ display:"inline-flex", alignItems:"center", gap:4, padding:"4px 10px", borderRadius:20, fontSize:11, fontWeight:600, background:ok?"rgba(34,197,94,0.12)":"#f4f4f5", color:ok?"#22c55e":"#71717a", border:`1px solid ${ok?"rgba(34,197,94,0.2)":"#e4e4e7"}` }}>
                   {ok ? "✓" : "✗"} {t(label)}
                 </span>
@@ -819,15 +831,21 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
 
         {/* ── MID: 인트로 + 변형 그리드 ── */}
         <div className="mscroll" style={{ overflowY: isPage ? undefined : "auto", padding:"22px 24px", scrollbarWidth:"thin" }}>
+          {isAdmin && <section aria-label="대표 이미지 선택" style={{border:'1px solid #c7d2fe',borderRadius:12,padding:14,marginBottom:16,background:'#f8f7ff'}}>
+            <b style={{fontSize:13}}>대표 이미지 선택</b><p style={{fontSize:11,color:'#71717a',margin:'5px 0 10px'}}>파일과 배경을 함께 선택해요. 저장하면 목록과 상세 화면에 반영돼요.</p>
+            <div style={{display:'flex',gap:8,overflowX:'auto',paddingBottom:8}}>{mainCandidates.map(v=><button key={v.file} type="button" onClick={()=>setPickFile(v.file)} aria-pressed={pickFile===v.file} style={{minWidth:120,border:pickFile===v.file?'2px solid #6366f1':'1px solid #e4e4e7',borderRadius:8,padding:8,background:'#fff',cursor:'pointer'}}><img src={cdnUrl(v.file)} alt="" style={{width:100,height:48,objectFit:'contain',background:pickBg==='dark'?'#18181b':'#fff'}}/><span style={{display:'block',fontSize:11,marginTop:6}}>{v.label}</span></button>)}</div>
+            <div style={{display:'flex',gap:10,alignItems:'center',flexWrap:'wrap',marginTop:8}}><label><input type="radio" name={`main-bg-${brand.id}`} checked={pickBg==='light'} onChange={()=>setPickBg('light')}/> 흰 배경</label><label><input type="radio" name={`main-bg-${brand.id}`} checked={pickBg==='dark'} onChange={()=>setPickBg('dark')}/> 어두운 배경</label><button type="button" disabled={!pickFile||savingPresentation} onClick={()=>void savePresentation(pickFile,pickBg)} style={{padding:'7px 12px',border:0,borderRadius:7,color:'#fff',background:'#6366f1',cursor:'pointer'}}>{savingPresentation?'저장 중…':'대표로 지정하기'}</button>{presentation&&<span style={{fontSize:11,color:'#15803d'}}>✓ 대표 이미지 지정됨</span>}</div>
+          </section>}
+          <LogoVersionHistory brandId={brand.id} isAdmin={isAdmin}/>
           {/* 인트로 라이트/다크 — 배경별로 어떻게 보이는지 확인용 */}
           <div style={{ display:"grid", gridTemplateColumns:"1fr 1fr", borderRadius:12, overflow:"hidden", height:132, marginBottom:16 }}>
-            <LogoBox src={bgOverride === "dark" ? (invertedUrl || darkPreviewSrc) : previewUrl} alt={en ? brand.name_en || brand.name_ko : brand.name_ko} height={132} padding={18} bg={isLightLogo ? "dark" : "white"} fallback={pngUrl} />
+            <LogoBox src={!presentation && bgOverride === "dark" ? (invertedUrl || darkPreviewSrc) : previewUrl} alt={en ? brand.name_en || brand.name_ko : brand.name_ko} height={132} padding={18} bg={isLightLogo ? "dark" : "white"} fallback={pngUrl} />
             <div style={{ ...(invertedUrl ? { background:"#111114" } : getDarkPreviewStyle(visibility)), position:"relative", height:132, cursor: "pointer", outline: bgOverride ? "2px solid #22c55e" : undefined, outlineOffset: -2 }}
                  onClick={toggleBg}
                  title={isLightLogo ? "클릭: 흰 배경으로 되돌리기" : "클릭: 검정 배경으로 메인 노출"}>
               {/* 관리자 지정 지점 — 사용자가 "상단 오른쪽 검정 패널을 클릭하면 검정 메인"을 원했다(2026-09-04).
                   라벨은 로그인 복원 뒤에만 뜨므로 '라벨이 보이면 누를 수 있다'는 신호도 된다. */}
-              {(
+              {isAdmin && (
                 <span style={{ position:"absolute", top:8, right:10, fontSize:11, fontWeight:700, padding:"3px 9px", borderRadius:10, pointerEvents:"none",
                                background: bgOverride === "dark" ? "#22c55e" : "rgba(255,255,255,.92)", color: bgOverride === "dark" ? "#fff" : "#18181b", border:"1px solid rgba(0,0,0,.15)" }}>
                   {bgOverride === "dark" ? "📌 검정 메인 · 클릭하면 해제" : isLightLogo ? "↩ 흰 배경으로" : "▶ 검정 배경으로 메인 노출"}
@@ -838,7 +856,7 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
                   가장자리에 흰 테두리가 남는다. 어두운 배경에서 그게 후광처럼 보여
                   로고가 깨져 보였다. SVG 는 진짜 투명이라 그런 잔상이 없다. */}
               <LogoBox
-                src={invertedUrl || (hasSvg ? previewUrl : getDarkPreviewUrl(visibility, darkUrl, previewUrl))}
+                src={invertedUrl || (brand.dark_png ? darkPreviewSrc : hasSvg ? previewUrl : getDarkPreviewUrl(visibility, darkUrl, previewUrl))}
                 alt={en ? brand.name_en || brand.name_ko : brand.name_ko} height={132} padding={20} bg="transparent" fallback={previewUrl} />
               {visibility && (
                 <span style={{ position:"absolute", bottom:6, left:0, right:0, textAlign:"center", fontSize: 11, letterSpacing:".06em", textTransform:"uppercase", opacity:.6, color: invertedUrl ? "#71717a" : (visibility.darkMode === "white-only" ? "#52525b" : "#a1a1aa") }}>
@@ -883,6 +901,7 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
                       {t(label)}
                       <span style={{ marginLeft:6, fontWeight:400, color:"#a1a1aa" }}>{shown.length}<T>{"종"}</T></span>
                     </div>
+                    {items[0].asset_group === "typography" && <p style={{fontSize:11,color:"#71717a",marginBottom:6}}>공식 서체 안내 이미지예요. 설치용 폰트 파일은 포함하지 않아요.</p>}
                     {/* 가로 행 리스트.
                         예전엔 minmax(170px,1fr) 카드 그리드였는데, 모달 가운데 폭이
                         좁아서 한 줄에 한 장씩만 들어가 세로로 길어졌고, 그 아래

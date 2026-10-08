@@ -1,0 +1,987 @@
+{
+  "reviewed_on": "2026-10-08",
+  "patch_count": 190,
+  "public_objects": 500,
+  "institution_count": 138,
+  "svg_background_scan": {
+    "scanned": 45656,
+    "candidates": 397,
+    "approved_full_canvas_removals": 40,
+    "mixed_svg_png_recovery": 1
+  },
+  "institutions": [
+    {
+      "institution_id": "alio-33a5126295ddff1c",
+      "brand_id": "kr-kepco",
+      "name": "한국전력공사",
+      "png_file": "sources/official-reviewed-20261008/3b5b25c8a292f3dd.png",
+      "source_page": "https://www.kepco.co.kr/home/about/introduce/ci/conts.do"
+    },
+    {
+      "institution_id": "alio-3d26b3626a90e10b",
+      "brand_id": "lh-or",
+      "name": "한국토지주택공사",
+      "png_file": "sources/official-reviewed-20261008/9ef3beaa6c99e734.png",
+      "source_page": "https://www.lh.or.kr/menu.es?mid=a10702040100"
+    },
+    {
+      "institution_id": "alio-60ef63d5ed9efa46",
+      "brand_id": "gongu-ci-0687",
+      "name": "한국광해광업공단",
+      "png_file": "sources/official-reviewed-20261008/0071bbdd0066beab.png",
+      "source_page": "https://www.komir.or.kr/kor/contents/29"
+    },
+    {
+      "institution_id": "alio-68699e3bd1fb4e82",
+      "brand_id": "nps",
+      "name": "국민연금공단",
+      "png_file": "sources/official-reviewed-20261008/0094b4f8fda5637a.png",
+      "source_page": "https://www.nps.or.kr/pbcpgdnc/ci/getOHAG0010M0.do?menuId=MN24001020"
+    },
+    {
+      "institution_id": "alio-8d1c41e570bdcbd5",
+      "brand_id": "geps",
+      "name": "공무원연금공단",
+      "png_file": "sources/official-reviewed-20261008/a06fc9c2233fe3a4.png",
+      "source_page": "https://www.geps.or.kr/gepsIntro_gepsIs_brandIntro_ciInfo"
+    },
+    {
+      "institution_id": "alio-7d51de4a4ee7f3fd",
+      "brand_id": "gongu-ci-1460",
+      "name": "중소벤처기업진흥공단",
+      "png_file": "sources/official-reviewed-20261008/f11e6c9fb8075d72.png",
+      "source_page": "https://www.kosmes.or.kr/nsh/SH/SIT/SHSIT003M0.do"
+    },
+    {
+      "institution_id": "alio-7db39a01dd453231",
+      "brand_id": "hrdkorea",
+      "name": "한국산업인력공단",
+      "png_file": "sources/official-reviewed-20261008/52b469afa2146ec7.png",
+      "source_page": "https://www.hrdkorea.or.kr/3/2/2/1"
+    },
+    {
+      "institution_id": "alio-22aff51f9ff3d238",
+      "brand_id": "kead",
+      "name": "한국장애인고용공단",
+      "png_file": "sources/official-reviewed-20261008/226641e06870aa6e.png",
+      "source_page": "https://www.kead.or.kr/symmk/cntntsPage.do?menuId=MENU0902"
+    },
+    {
+      "institution_id": "alio-1a3a734599e81b07",
+      "brand_id": "kibo",
+      "name": "기술보증기금",
+      "png_file": "sources/official-reviewed-20261008/bf8f0be5c69d1196.png",
+      "source_page": "https://www.kibo.or.kr/main/about/about0703-01.do"
+    },
+    {
+      "institution_id": "alio-d6d730d9f20295f7",
+      "brand_id": "pola",
+      "name": "(재)우체국물류지원단",
+      "png_file": "sources/official-reviewed-20261008/67333a20d1001c42.png",
+      "source_page": "https://www.pola.or.kr/web/content.do?proFn=ci"
+    },
+    {
+      "institution_id": "alio-9e7d0e8b81022701",
+      "brand_id": "posid",
+      "name": "(재)우체국금융개발원",
+      "png_file": "sources/official-reviewed-20261008/cd220585378a2d61.png",
+      "source_page": "https://www.posid.or.kr/introduction/ci.do"
+    },
+    {
+      "institution_id": "alio-0dac11533b5781de",
+      "brand_id": "nrf-re",
+      "name": "한국연구재단",
+      "png_file": "sources/official-reviewed-20261008/89ad15ca561e1635.png",
+      "source_page": "https://www.nrf.re.kr/page/83?menuNo=83"
+    },
+    {
+      "institution_id": "alio-39a16e41902c8db2",
+      "brand_id": "energy-2",
+      "name": "한국에너지공단",
+      "png_file": "sources/official-reviewed-20261008/ee312dc87a0c8f32.png",
+      "source_page": "https://www.energy.or.kr/front/conts/102013001000000.do"
+    },
+    {
+      "institution_id": "alio-95a22aadb3c5054c",
+      "brand_id": "koreha",
+      "name": "한국법무보호복지공단",
+      "png_file": "sources/official-reviewed-20261008/946d82f9847164d5.png",
+      "source_page": "https://www.koreha.or.kr/sub/06_02_4.do?MN1=7&amp;MN2=42&amp;MN3=74&amp;MN=74"
+    },
+    {
+      "institution_id": "alio-6f202cb2978ea3f4",
+      "brand_id": "korea-tourism-organization",
+      "name": "한국관광공사",
+      "png_file": "sources/official-reviewed-filter-20261008/7a485b982348d500.png",
+      "source_page": "https://knto.or.kr/ktoCI"
+    },
+    {
+      "institution_id": "alio-a942faf1c2b15fcc",
+      "brand_id": "korea-gas-safety",
+      "name": "한국가스안전공사",
+      "png_file": "sources/official-reviewed-20261008/41d007f54afacb84.png",
+      "source_page": "https://www.kgs.or.kr/kgs/adcc/view.do"
+    },
+    {
+      "institution_id": "alio-b3e19565a6e48e12",
+      "brand_id": "koreatech",
+      "name": "한국기술교육대학교",
+      "png_file": "sources/official-reviewed-20261008/64f332735bbfd5dc.png",
+      "source_page": "https://www.koreatech.ac.kr/menu.es?mid=a10101030100"
+    },
+    {
+      "institution_id": "alio-76002776ed8499fc",
+      "brand_id": "gongu-ci-0964",
+      "name": "국립부산과학관",
+      "png_file": "sources/official-reviewed-20261008/351f6de5b842fc69.png",
+      "source_page": "https://www.sciport.or.kr/kor/CMS/Contents/Contents.do?mCode=MN102"
+    },
+    {
+      "institution_id": "alio-1af8b8cc8c758666",
+      "brand_id": "kistepre",
+      "name": "한국과학기술기획평가원",
+      "png_file": "sources/official-reviewed-20261008/e21896478db68cca.png",
+      "source_page": "https://www.kistep.re.kr/menu.es?mid=a10201010000"
+    },
+    {
+      "institution_id": "alio-6f52ca02b0ba7610",
+      "brand_id": "poma",
+      "name": "(재)우체국시설관리단",
+      "png_file": "sources/official-reviewed-20261008/1a75327070649238.png",
+      "source_page": "https://www.poma.or.kr/poma/ci.do"
+    },
+    {
+      "institution_id": "alio-fe4bcd3f0eedb2d2",
+      "brand_id": "socialenterprise",
+      "name": "한국사회적기업진흥원",
+      "png_file": "sources/official-reviewed-20261008/0149426d7abd7059.png",
+      "source_page": "https://www.socialenterprise.or.kr/homepage/contents/contents.do?ciIdx=10038&amp;menuId=888"
+    },
+    {
+      "institution_id": "alio-c2ed1f13e76d3c07",
+      "brand_id": "innopolis",
+      "name": "연구개발특구진흥재단",
+      "png_file": "sources/official-reviewed-20261008/652f95cdf14f472d.png",
+      "source_page": "https://www.innopolis.or.kr/board?menuId=MENU00875&amp;siteId=null"
+    },
+    {
+      "institution_id": "alio-96dda75b4cdaf4c6",
+      "brand_id": "pnuh",
+      "name": "부산대학교병원",
+      "png_file": "sources/official-reviewed-20261008/9de40c8d2e50c752.png",
+      "source_page": "https://www.pnuh.or.kr/pnuh/hospital/information/HI.do"
+    },
+    {
+      "institution_id": "alio-8195bcf447ee4bab",
+      "brand_id": "gongu-ci-0912",
+      "name": "과학기술정책연구원",
+      "png_file": "sources/official-reviewed-20261008/0906939eb6582d8a.png",
+      "source_page": "https://www.stepi.re.kr/site/stepiko/06/10605010000002020102915.jsp"
+    },
+    {
+      "institution_id": "alio-598238e9b6b61c7d",
+      "brand_id": "keei-re",
+      "name": "에너지경제연구원",
+      "png_file": "sources/official-reviewed-20261008/e9e5f73f253315ee.png",
+      "source_page": "https://www.keei.re.kr/menu.es?mid=a10308030000"
+    },
+    {
+      "institution_id": "alio-3b8f815c2760374a",
+      "brand_id": "kisdi",
+      "name": "정보통신정책연구원",
+      "png_file": "sources/official-reviewed-20261008/655124c56fb873d5.png",
+      "source_page": "https://www.kisdi.re.kr/content.do?key=m2101113072266"
+    },
+    {
+      "institution_id": "alio-4cf5163a55ed78d4",
+      "brand_id": "kinfa",
+      "name": "서민금융진흥원",
+      "png_file": "sources/official-reviewed-20261008/f76c33e5a53b316e.png",
+      "source_page": "https://www.kinfa.or.kr/introduce/kinfaCI.do"
+    },
+    {
+      "institution_id": "alio-4b76d9dd985f9f87",
+      "brand_id": "knfc",
+      "name": "한전원자력연료주식회사",
+      "png_file": "sources/official-reviewed-20261008/a4c1bf31ebf45115.png",
+      "source_page": "https://www.knfc.co.kr/board?menuId=MENU00500&amp;siteId=null"
+    },
+    {
+      "institution_id": "alio-9d0c89dd913ad3f5",
+      "brand_id": "game-rating-and-administration-committee",
+      "name": "게임물관리위원회",
+      "png_file": "sources/official-reviewed-20261008/071c2dfbb5d6ec24.png",
+      "source_page": "https://www.grac.or.kr/Committee/SecretariatLogo01.aspx"
+    },
+    {
+      "institution_id": "alio-79f8f2d18a350612",
+      "brand_id": "ksif",
+      "name": "세종학당재단",
+      "png_file": "sources/official-reviewed-20261008/f7d2695ded40b7fc.png",
+      "source_page": "https://www.ksif.or.kr/com/cmm/EgovContentView.do?menuNo=10101061"
+    },
+    {
+      "institution_id": "alio-6127b3fb31b2e261",
+      "brand_id": "korean-sport-olympic-committee",
+      "name": "대한체육회",
+      "png_file": "sources/official-reviewed-20261008/85972d8dee05a33c.png",
+      "source_page": "https://www.sports.or.kr/sports/main/contents.do?menuNo=200058"
+    },
+    {
+      "institution_id": "alio-ec1dd232bab8ea21",
+      "brand_id": "kofic",
+      "name": "영화진흥위원회",
+      "png_file": "sources/official-reviewed-20261008/b700aafc05f37680.png",
+      "source_page": "http://www.kofic.or.kr/kofic/business/intr/introCI.do"
+    },
+    {
+      "institution_id": "alio-5bb39fc15634d292",
+      "brand_id": "ksponco",
+      "name": "한국체육산업개발(주)",
+      "png_file": "sources/official-reviewed-20261008/7ac30b44783d0c5c.png",
+      "source_page": "https://www.ksponco.or.kr/menu.es?mid=a10604010000"
+    },
+    {
+      "institution_id": "alio-df1c8b880f81dd0b",
+      "brand_id": "kocca",
+      "name": "한국콘텐츠진흥원",
+      "png_file": "sources/official-reviewed-20261008/6bd87ec8a2e0ee65.png",
+      "source_page": "https://www.kocca.kr/kocca/subPage.do?menuNo=204762"
+    },
+    {
+      "institution_id": "alio-a8406601faa7e41e",
+      "brand_id": "kcopa",
+      "name": "한국저작권보호원",
+      "png_file": "sources/official-reviewed-20261008/ca4bdb748a7bb7c9.png",
+      "source_page": "https://www.kcopa.or.kr/lay1/S1T9C197/contents.do"
+    },
+    {
+      "institution_id": "alio-065df952866accb8",
+      "brand_id": "kgls",
+      "name": "정부법무공단",
+      "png_file": "sources/official-reviewed-20261008/89068ed540d63b9c.png",
+      "source_page": "http://www.kgls.or.kr/intro/ci.html"
+    },
+    {
+      "institution_id": "alio-a2ccdc220e3255a5",
+      "brand_id": "national-medical-center",
+      "name": "국립중앙의료원",
+      "png_file": "sources/official-reviewed-filter-20261008/3704b4de807a75ed.png",
+      "source_page": "https://www.nmc.or.kr/nmc/contents/symbol"
+    },
+    {
+      "institution_id": "alio-678443b62c392a87",
+      "brand_id": "kbio",
+      "name": "오송첨단의료산업진흥재단",
+      "png_file": "sources/official-reviewed-20261008/40d5aa4218a4e7da.png",
+      "source_page": "https://www.kbiohealth.kr/menu.es?mid=a10105000000"
+    },
+    {
+      "institution_id": "alio-32cdb62cb03cb8c0",
+      "brand_id": "kdissw",
+      "name": "재단법인 한국자활복지개발원",
+      "png_file": "sources/official-reviewed-20261008/b1ef2dcbe1f7ed85.png",
+      "source_page": "https://www.kdissw.or.kr/menu.es?mid=a10101040000"
+    },
+    {
+      "institution_id": "alio-5937ce47db75a731",
+      "brand_id": "gongu-ci-1554",
+      "name": "한국건강증진개발원",
+      "png_file": "sources/official-reviewed-20261008/8002da64ea05309e.png",
+      "source_page": "https://www.khepi.or.kr/board?menuId=MENU00919"
+    },
+    {
+      "institution_id": "alio-e40f768448389733",
+      "brand_id": "dgmif",
+      "name": "대구경북첨단의료산업진흥재단",
+      "png_file": "sources/official-reviewed-20261008/6e5965cd64fe1da5.png",
+      "source_page": "https://www.kmedihub.re.kr/index.do?menu_id=00000014"
+    },
+    {
+      "institution_id": "alio-5420d2606657bcf2",
+      "brand_id": "gongu-ci-1635",
+      "name": "한국세라믹기술원",
+      "png_file": "sources/official-reviewed-20261008/ceaea04b461b45e9.png",
+      "source_page": "https://www.kicet.re.kr/00015/00031.web"
+    },
+    {
+      "institution_id": "alio-4eb18c1bb90e8298",
+      "brand_id": "kyci",
+      "name": "한국청소년상담복지개발원",
+      "png_file": "sources/official-reviewed-20261008/43b07f709575a1b5.png",
+      "source_page": "https://www.kyci.or.kr/userSite/sub01_7_2.asp"
+    },
+    {
+      "institution_id": "alio-2580a919f8809404",
+      "brand_id": "kicgo",
+      "name": "한국투자공사",
+      "png_file": "sources/official-reviewed-20261008/68d8dbe9667fd021.png",
+      "source_page": "https://www.kic.kr/ko/about-kic/overview/kic"
+    },
+    {
+      "institution_id": "alio-ed0e1a45674d2902",
+      "brand_id": "debc",
+      "name": "재단법인 장애인기업종합지원센터",
+      "png_file": "sources/official-reviewed-20261008/558f218442065298.png",
+      "source_page": "https://www.debc.or.kr/s6/s6_5.php"
+    },
+    {
+      "institution_id": "alio-657d490c6b522981",
+      "brand_id": "gongu-ci-1657",
+      "name": "한국원자력안전재단",
+      "png_file": "sources/official-reviewed-20261008/08ef8e14ff286a76.png",
+      "source_page": "https://www.kofons.or.kr/web/content.do?proFn=9150000"
+    },
+    {
+      "institution_id": "alio-011bfe8e046e232c",
+      "brand_id": "gongu-ci-1457",
+      "name": "한국중소벤처기업유통원",
+      "png_file": "sources/official-reviewed-20261008/567b64cebe317e84.png",
+      "source_page": "https://www.kodma.or.kr/content.do?key=2409260005"
+    },
+    {
+      "institution_id": "alio-e2a1e05519b8ae5b",
+      "brand_id": "kiip",
+      "name": "한국지식재산연구원",
+      "png_file": "sources/official-reviewed-20261008/337bc84cf75b02e5.png",
+      "source_page": "https://www.kiip.re.kr/contents/ci.do"
+    },
+    {
+      "institution_id": "alio-b0036f694a2c15a8",
+      "brand_id": "gongu-ci-1711",
+      "name": "한국해양과학기술원",
+      "png_file": "sources/official-reviewed-20261008/a8d8f4a5991e48b3.png",
+      "source_page": "http://www.kiost.ac.kr/kor/sub04_08_01.do"
+    },
+    {
+      "institution_id": "cleaneye-company-3",
+      "brand_id": "seoul-metro",
+      "name": "서울교통공사",
+      "png_file": "sources/official-reviewed-20261008/04d5dbbae0cdfd43.png",
+      "source_page": "http://www.seoulmetro.co.kr/kr/page.do?menuIdx=507"
+    },
+    {
+      "institution_id": "alio-9bed63c2d6fe4ba8",
+      "brand_id": "ygpa",
+      "name": "여수광양항만공사",
+      "png_file": "sources/official-reviewed-20261008/e8ac4523a8b13777.png",
+      "source_page": "https://www.ygpa.or.kr/hmpg/ygpa/ygpa/prom/cich/ci01/contPageDetail.do?conts_no=73CF9B8C97DE49EB9BF4BC6CF3BB3BA2"
+    },
+    {
+      "institution_id": "cleaneye-company-7",
+      "brand_id": "gongu-ci-1208",
+      "name": "서울시설공단",
+      "png_file": "sources/official-reviewed-20261008/13604489d17b87f9.png",
+      "source_page": "https://www.sisul.or.kr/open_content/main/introduce/ci.jsp"
+    },
+    {
+      "institution_id": "alio-9b1bff15bb3d2512",
+      "brand_id": "fomo-2",
+      "name": "(재)일제강제동원피해자지원재단",
+      "png_file": "sources/official-reviewed-20261008/23dacb7191d2ad0a.png",
+      "source_page": "https://www.fomo.or.kr/kor/contents/7"
+    },
+    {
+      "institution_id": "cleaneye-company-31",
+      "brand_id": "gongu-ci-0712",
+      "name": "송파구시설관리공단",
+      "png_file": "sources/official-reviewed-20261008/5e2a33424dc0cc6c.png",
+      "source_page": "https://www.songpagongdan.or.kr/intro/intro03.asp"
+    },
+    {
+      "institution_id": "cleaneye-company-52",
+      "brand_id": "gongu-ci-1377",
+      "name": "인천교통공사",
+      "png_file": "sources/official-reviewed-20261008/0fc490ece787555c.png",
+      "source_page": "https://www.ictr.or.kr/main/introduction/status/ci.jsp"
+    },
+    {
+      "institution_id": "cleaneye-company-38",
+      "brand_id": "bisco",
+      "name": "부산시설공단",
+      "png_file": "sources/official-reviewed-20261008/25b2f6c1580eca8e.png",
+      "source_page": "http://www.bisco.or.kr/about/about03/about03_1/"
+    },
+    {
+      "institution_id": "cleaneye-company-47",
+      "brand_id": "gongu-ci-0625",
+      "name": "대구농수산물유통관리공사",
+      "png_file": "sources/official-reviewed-20261008/15f8165a8169d3cc.png",
+      "source_page": "https://www.dafco.or.kr/"
+    },
+    {
+      "institution_id": "cleaneye-company-67",
+      "brand_id": "grtc",
+      "name": "광주교통공사",
+      "png_file": "sources/official-reviewed-20261008/9e1c5c1d5e6c7fc3.png",
+      "source_page": "https://www.grtc.co.kr/subway/contents/symbolicConcept"
+    },
+    {
+      "institution_id": "cleaneye-company-160",
+      "brand_id": "gongu-ci-0652",
+      "name": "구리도시공사",
+      "png_file": "sources/official-reviewed-20261008/6ce1cd48e635bae9.png",
+      "source_page": "https://www.guriuc.or.kr/main/main.do"
+    },
+    {
+      "institution_id": "cleaneye-company-194",
+      "brand_id": "gongu-ci-0646",
+      "name": "양평공사",
+      "png_file": "sources/official-reviewed-20261008/8be8483bbb568465.png",
+      "source_page": "https://yp04.or.kr/?menuno=149"
+    },
+    {
+      "institution_id": "cleaneye-company-414",
+      "brand_id": "gongu-ci-0634",
+      "name": "합천군 시설관리공단",
+      "png_file": "sources/official-reviewed-20261008/5d54f32b954d9819.png",
+      "source_page": "https://www.hfmc.or.kr/content/85"
+    },
+    {
+      "institution_id": "cleaneye-company-421",
+      "brand_id": "gongu-ci-0716",
+      "name": "제주특별자치도개발공사",
+      "png_file": "sources/official-reviewed-20261008/72f634dd938475d7.png",
+      "source_page": "https://www.jpdc.co.kr/info/design.htm?act=view&amp;seq=17428"
+    },
+    {
+      "institution_id": "cleaneye-출자-43",
+      "brand_id": "gongu-ci-1756",
+      "name": "(주)블랙밸리컨트리클럽",
+      "png_file": "sources/official-reviewed-20261008/3e392d7d842ddc26.png",
+      "source_page": "https://www.blackcc.co.kr/About/logo.aspx"
+    },
+    {
+      "institution_id": "cleaneye-출연-9",
+      "brand_id": "gongu-ci-1206",
+      "name": "서울시립교향악단",
+      "png_file": "sources/official-reviewed-20261008/ee6f4c6942d6e3b4.png",
+      "source_page": "https://www.seoulphil.or.kr/introduce/spo/info?langCd=ko&amp;menuFlag=MFLG0002"
+    },
+    {
+      "institution_id": "cleaneye-출연-16",
+      "brand_id": "gongu-ci-1198",
+      "name": "서울관광재단",
+      "png_file": "sources/official-reviewed-20261008/d24dd54f2c7a97c2.png",
+      "source_page": "http://www.sto.or.kr/ci"
+    },
+    {
+      "institution_id": "cleaneye-출연-19",
+      "brand_id": "gongu-ci-0253",
+      "name": "재단법인 종로복지재단",
+      "png_file": "sources/official-reviewed-20261008/fc3dd9955972fa19.png",
+      "source_page": "https://jongnowf.or.kr/web/intro/ci.do"
+    },
+    {
+      "institution_id": "cleaneye-출연-10",
+      "brand_id": "gongu-ci-1202",
+      "name": "서울디자인재단",
+      "png_file": "sources/official-reviewed-20261008/c815ea744d76c796.png",
+      "source_page": "https://seouldesign.or.kr/?menuno=40"
+    },
+    {
+      "institution_id": "cleaneye-출연-8",
+      "brand_id": "seoul-sfac",
+      "name": "서울문화재단",
+      "png_file": "sources/official-reviewed-20261008/b1eae1662402dc3f.png",
+      "source_page": "https://www.sfac.or.kr/site/SFAC_KOR/05/10502040000002018102204.jsp"
+    },
+    {
+      "institution_id": "cleaneye-출연-33",
+      "brand_id": "gongu-ci-0833",
+      "name": "강북문화재단",
+      "png_file": "sources/official-reviewed-20261008/e463a52437a402da.png",
+      "source_page": "http://www.gbcf.or.kr/load.asp?subPage=720"
+    },
+    {
+      "institution_id": "cleaneye-출연-70",
+      "brand_id": "gongu-ci-0284",
+      "name": "재단법인 부산연구원",
+      "png_file": "sources/official-reviewed-20261008/4cfe88790fe11bcb.png",
+      "source_page": "https://www.bdi.re.kr/www/content/15"
+    },
+    {
+      "institution_id": "cleaneye-출연-74",
+      "brand_id": "gongu-ci-0288",
+      "name": "부산의료원",
+      "png_file": "sources/official-reviewed-20261008/cff016197614ca87.png",
+      "source_page": "https://www.busanmc.or.kr/busanmc/index.php?pCode=hilogo_new"
+    },
+    {
+      "institution_id": "cleaneye-출연-73",
+      "brand_id": "gongu-ci-1164",
+      "name": "부산여성가족과 평생교육진흥원",
+      "png_file": "sources/official-reviewed-20261008/d24a24ee1b385082.png",
+      "source_page": "https://www.bgli.re.kr/kor/CMS/Contents/Contents.do?mCode=MN134"
+    },
+    {
+      "institution_id": "cleaneye-출연-51",
+      "brand_id": "gongu-ci-1300",
+      "name": "영등포문화재단",
+      "png_file": "sources/official-reviewed-20261008/7d72385d36aea0ea.png",
+      "source_page": "https://www.ydpcf.or.kr/foundation/ci.do"
+    },
+    {
+      "institution_id": "cleaneye-출연-98",
+      "brand_id": "gongu-ci-0312",
+      "name": "재단법인 대구디지털혁신진흥원",
+      "png_file": "sources/official-reviewed-20261008/aef8c4a53ad2fe38.png",
+      "source_page": "https://www.dip.or.kr/home/intro/ci/pageView.ubs"
+    },
+    {
+      "institution_id": "cleaneye-출연-101",
+      "brand_id": "gongu-ci-1076",
+      "name": "대구광역시 행복진흥사회서비스원",
+      "png_file": "sources/official-reviewed-20261008/c62dc92bd7e52e22.png",
+      "source_page": "https://daegu.pass.or.kr/index.do?menu_id=00004976"
+    },
+    {
+      "institution_id": "cleaneye-출연-99",
+      "brand_id": "daegu-dgfca",
+      "name": "재단법인 대구문화예술진흥원",
+      "png_file": "sources/official-reviewed-20261008/fc11ad0b2d2a63e0.png",
+      "source_page": "https://dgfca.or.kr/page/99"
+    },
+    {
+      "institution_id": "cleaneye-출연-108",
+      "brand_id": "gongu-ci-0318",
+      "name": "수성문화재단",
+      "png_file": "sources/official-reviewed-20261008/5930f393c93f4ed2.png",
+      "source_page": "https://www.sscf.or.kr/pages/sub.htm?nav_code=new1628594293"
+    },
+    {
+      "institution_id": "cleaneye-출연-136",
+      "brand_id": "gongu-ci-0226",
+      "name": "재단법인 강화군복지재단",
+      "png_file": "sources/official-reviewed-20261008/32c16a62a680ec33.png",
+      "source_page": "https://www.ghwelf.or.kr/introduce/ci.jsp"
+    },
+    {
+      "institution_id": "cleaneye-출연-120",
+      "brand_id": "incheon-ifac",
+      "name": "인천문화재단",
+      "png_file": "sources/official-reviewed-20261008/c82c82c1adf9c975.png",
+      "source_page": "https://www.ifac.or.kr/ifacintro/intro/institutionSymbol.do?key=m2501143803899"
+    },
+    {
+      "institution_id": "cleaneye-출연-143",
+      "brand_id": "gongu-ci-0324",
+      "name": "재단법인 광주디자인진흥원",
+      "png_file": "sources/official-reviewed-20261008/6a9bdcb52b0deb6b.png",
+      "source_page": "https://www.gdc.or.kr/contents.do?S=S01&amp;M=0608000000"
+    },
+    {
+      "institution_id": "cleaneye-출연-151",
+      "brand_id": "gongu-ci-0931",
+      "name": "재단법인 광주광역시 사회서비스원",
+      "png_file": "sources/official-reviewed-20261008/6d81cd588acc2412.png",
+      "source_page": "https://gj.pass.or.kr/introduce-CI_introduce"
+    },
+    {
+      "institution_id": "cleaneye-출연-164",
+      "brand_id": "gongu-ci-0297",
+      "name": "재단법인 대전청년내일재단",
+      "png_file": "sources/official-reviewed-20261008/0beaad9d7a2e7e8f.png",
+      "source_page": "https://www.daejeon.go.kr/drh/DrhContentsHtmlView.do?menuSeq=1711"
+    },
+    {
+      "institution_id": "cleaneye-출연-165",
+      "brand_id": "gongu-ci-0304",
+      "name": "대전테크노파크",
+      "png_file": "sources/official-reviewed-20261008/47afc662e20ceb2f.png",
+      "source_page": "https://www.djtp.or.kr/menu.es?mid=a20502020000"
+    },
+    {
+      "institution_id": "cleaneye-출연-161",
+      "brand_id": "dsire",
+      "name": "재단법인 대전연구원",
+      "png_file": "sources/official-reviewed-20261008/3d825c162e29c940.png",
+      "source_page": "https://www.dji.re.kr/menu.es?mid=a10519000000"
+    },
+    {
+      "institution_id": "cleaneye-출연-169",
+      "brand_id": "gongu-ci-0300",
+      "name": "재단법인 대전과학산업진흥원",
+      "png_file": "sources/official-reviewed-20261008/cd8e1c3707b5f963.png",
+      "source_page": "https://www.distep.re.kr/ci"
+    },
+    {
+      "institution_id": "cleaneye-출연-172",
+      "brand_id": "gongu-ci-1346",
+      "name": "유성구행복누리재단",
+      "png_file": "sources/official-reviewed-20261008/6408b0ad67a6501c.png",
+      "source_page": "http://ys-happy.or.kr/app/page/index?md_id=pageci"
+    },
+    {
+      "institution_id": "cleaneye-출연-175",
+      "brand_id": "gongu-ci-1324",
+      "name": "재단법인 울산경제일자리진흥원",
+      "png_file": "sources/official-reviewed-20261008/982f00097bd2ca84.png",
+      "source_page": "https://www.ubpi.or.kr/sub/?mcode=0405060000"
+    },
+    {
+      "institution_id": "cleaneye-출연-176",
+      "brand_id": "urire",
+      "name": "재단법인 울산연구원",
+      "png_file": "sources/official-reviewed-20261008/8f4bd29f65c5d2e9.png",
+      "source_page": "https://www.uri.re.kr/contPage.do?menuNo=5040100"
+    },
+    {
+      "institution_id": "cleaneye-출연-181",
+      "brand_id": "ulsan-uctf",
+      "name": "재단법인 울산문화관광재단",
+      "png_file": "sources/official-reviewed-20261008/e32342a34367d33d.png",
+      "source_page": "https://uctf.or.kr/intro/ci"
+    },
+    {
+      "institution_id": "cleaneye-출연-145",
+      "brand_id": "gongu-ci-0326",
+      "name": "광주신용보증재단",
+      "png_file": "sources/official-reviewed-20261008/bf267798a25f2c3c.png",
+      "source_page": "https://www.gjsinbo.or.kr/?d=foundation4"
+    },
+    {
+      "institution_id": "cleaneye-출연-188",
+      "brand_id": "gongu-ci-0242",
+      "name": "세종신용보증재단",
+      "png_file": "sources/official-reviewed-20261008/d73c5ba570739f93.png",
+      "source_page": "https://www.sjsinbo.or.kr/sub0704"
+    },
+    {
+      "institution_id": "cleaneye-출연-191",
+      "brand_id": "gongu-ci-0239",
+      "name": "재단법인 세종테크노파크",
+      "png_file": "sources/official-reviewed-20261008/c72c7a72a219d068.png",
+      "source_page": "https://www.sjtp.or.kr/bbs/introduce/introduce05.php?bo_table=introduce05"
+    },
+    {
+      "institution_id": "cleaneye-출연-190",
+      "brand_id": "gongu-ci-0238",
+      "name": "재단법인 세종특별자치시 사회서비스원",
+      "png_file": "sources/official-reviewed-20261008/e70993b8e78eeaec.png",
+      "source_page": "https://sj.pass.or.kr/main/"
+    },
+    {
+      "institution_id": "cleaneye-출연-227",
+      "brand_id": "gongu-ci-0902",
+      "name": "고양시청소년재단",
+      "png_file": "sources/official-reviewed-20261008/69001b153975ee37.png",
+      "source_page": "https://www.gcyf.or.kr/bbs/content.php?co_id=gcyf_01_9"
+    },
+    {
+      "institution_id": "cleaneye-출연-249",
+      "brand_id": "gongu-ci-0482",
+      "name": "재단법인 부천아트센터",
+      "png_file": "sources/official-reviewed-20261008/03b38cf3682d49b0.png",
+      "source_page": "https://www.bac.or.kr/home/display/region/content/JSVFcEJ4SDk2Q1ZvdC93L2NtNXlBWEUzZkI5dXh4bmZJdlVIMURSSWpNV3dJYz0="
+    },
+    {
+      "institution_id": "cleaneye-출연-265",
+      "brand_id": "gongu-ci-0475",
+      "name": "재단법인 안양 군포 의왕 과천 공동급식지원센터",
+      "png_file": "sources/official-reviewed-20261008/1c832d963ae3c00e.png",
+      "source_page": "https://www.agucfc.or.kr/base/contents/view?contentsNo=121&amp;menuLevel=3&amp;menuNo=167"
+    },
+    {
+      "institution_id": "cleaneye-출연-285",
+      "brand_id": "gongu-ci-0478",
+      "name": "재단법인 시흥시인재양성재단",
+      "png_file": "sources/official-reviewed-20261008/b818b2bac6a705e7.png",
+      "source_page": "https://www.shinjae.or.kr/programs/user/intro/logo_ci.asp"
+    },
+    {
+      "institution_id": "cleaneye-출연-296",
+      "brand_id": "gongu-ci-1023",
+      "name": "김포문화재단",
+      "png_file": "sources/official-reviewed-20261008/44370d9112a19a4f.png",
+      "source_page": "https://www.gcf.or.kr/main/content/view.do?sn=60"
+    },
+    {
+      "institution_id": "cleaneye-출연-301",
+      "brand_id": "gongu-ci-0916",
+      "name": "광명문화재단",
+      "png_file": "sources/official-reviewed-20261008/cda8edf72b5927b8.png",
+      "source_page": "http://www.gmcf.or.kr/Introduction/Ci/Index"
+    },
+    {
+      "institution_id": "cleaneye-출연-327",
+      "brand_id": "gongu-ci-1546",
+      "name": "하남문화재단",
+      "png_file": "sources/official-reviewed-20261008/bb703f3a83462de5.png",
+      "source_page": "https://www.hnart.or.kr/hnart/contents.do?key=325"
+    },
+    {
+      "institution_id": "cleaneye-출연-339",
+      "brand_id": "gongu-ci-1296",
+      "name": "연천군청소년육성재단",
+      "png_file": "sources/official-reviewed-20261008/6ea094a4a9032b72.png",
+      "source_page": "https://www.ycyc.or.kr/foundation/ci"
+    },
+    {
+      "institution_id": "cleaneye-출연-340",
+      "brand_id": "gongu-ci-0839",
+      "name": "강원신용보증재단",
+      "png_file": "sources/official-reviewed-20261008/b29fc5aae7721f0f.png",
+      "source_page": "https://www.gwsinbo.or.kr/newpage/newpage.php?f_id=sub2_11"
+    },
+    {
+      "institution_id": "cleaneye-출연-342",
+      "brand_id": "gongu-ci-0571",
+      "name": "재단법인 강원특별자치도경제진흥원",
+      "png_file": "sources/official-reviewed-20261008/fb7321b2c1b67987.png",
+      "source_page": "https://gwep.or.kr/theme/page/html/company/023.php"
+    },
+    {
+      "institution_id": "cleaneye-출연-358",
+      "brand_id": "gongu-ci-0570",
+      "name": "재단법인 강원특별자치도 사회서비스원",
+      "png_file": "sources/official-reviewed-20261008/66cabebbcaa5517f.png",
+      "source_page": "https://gangwon.pass.or.kr/content.php?page=ci"
+    },
+    {
+      "institution_id": "cleaneye-출연-365",
+      "brand_id": "gongu-ci-0555",
+      "name": "재단법인 춘천지역먹거리통합지원센터",
+      "png_file": "sources/official-reviewed-20261008/814e57098612e218.png",
+      "source_page": "http://xn--v69a04wbmav5uqjg9mbj7jea696d8tcotprrbe1z.kr/basic/cn.do?n=703"
+    },
+    {
+      "institution_id": "cleaneye-출연-381",
+      "brand_id": "gongu-ci-0565",
+      "name": "재단법인 속초문화관광재단",
+      "png_file": "sources/official-reviewed-20261008/5b62ba13928e985d.png",
+      "source_page": "http://sokchocf.or.kr/sokchocf/foundation/ci"
+    },
+    {
+      "institution_id": "cleaneye-출연-394",
+      "brand_id": "gongu-ci-0552",
+      "name": "재단법인 평창유산재단",
+      "png_file": "sources/official-reviewed-20261008/860f6c6db7b74a60.png",
+      "source_page": "https://pchf.or.kr/pchf/foundation/corporate_identity"
+    },
+    {
+      "institution_id": "cleaneye-출연-412",
+      "brand_id": "gongu-ci-0550",
+      "name": "재단법인 해양심층수산업 고성진흥원",
+      "png_file": "sources/official-reviewed-20261008/db751392cc401e92.png",
+      "source_page": "https://gdif.co.kr/theme/gdif_02/html/company/05.php"
+    },
+    {
+      "institution_id": "cleaneye-출연-425",
+      "brand_id": "cjmct",
+      "name": "충청북도 충주의료원",
+      "png_file": "sources/official-reviewed-20261008/ccb018c30e318d5c.png",
+      "source_page": "https://cjmct.or.kr/index"
+    },
+    {
+      "institution_id": "cleaneye-출연-455",
+      "brand_id": "cihc",
+      "name": "충남역사문화연구원",
+      "png_file": "sources/official-reviewed-20261008/31d8987b78595bc9.png",
+      "source_page": "https://www.cihc.or.kr/kor/contents/16"
+    },
+    {
+      "institution_id": "cleaneye-출연-457",
+      "brand_id": "gongu-ci-1503",
+      "name": "재단법인 충남콘텐츠진흥원",
+      "png_file": "sources/official-reviewed-20261008/71c9d3d64a6c9c13.png",
+      "source_page": "https://ccon.kr/bbs/content.php?co_id=ci"
+    },
+    {
+      "institution_id": "cleaneye-출연-461",
+      "brand_id": "gongu-ci-0049",
+      "name": "천안의료원",
+      "png_file": "sources/official-reviewed-filter-20261008/4eb489e314c828f7.png",
+      "source_page": "https://www.camc.or.kr/index"
+    },
+    {
+      "institution_id": "cleaneye-출연-488",
+      "brand_id": "gongu-ci-1002",
+      "name": "재단법인 계룡시 문화관광재단",
+      "png_file": "sources/official-reviewed-20261008/47c8718fe1ea8b7e.png",
+      "source_page": "https://www.gcfct.org/symbolic"
+    },
+    {
+      "institution_id": "cleaneye-출연-499",
+      "brand_id": "gongu-ci-0067",
+      "name": "재단법인 부여군지역공동체활성화재단",
+      "png_file": "sources/official-reviewed-20261008/1fca3ce86a98c547.png",
+      "source_page": "https://www.blcrf.com/sub.php?menu=5"
+    },
+    {
+      "institution_id": "cleaneye-출연-501",
+      "brand_id": "gongu-ci-0064",
+      "name": "재단법인 서천문화관광재단",
+      "png_file": "sources/official-reviewed-20261008/aa19a8bd5b5469df.png",
+      "source_page": "https://seocheonctf.or.kr/content/166.do"
+    },
+    {
+      "institution_id": "cleaneye-출연-521",
+      "brand_id": "gongu-ci-1410",
+      "name": "전북특별자치도 남원의료원",
+      "png_file": "sources/official-reviewed-filter-20261008/eb61dfa08ca38574.png",
+      "source_page": "https://www.namwonmed.or.kr:19005/ds1_7_1.html"
+    },
+    {
+      "institution_id": "cleaneye-출연-524",
+      "brand_id": "jeonbuk-jbct",
+      "name": "재단법인 전북특별자치도문화관광재단",
+      "png_file": "sources/official-reviewed-20261008/fd34df601622c139.png",
+      "source_page": "https://www.jbct.or.kr/ci.php"
+    },
+    {
+      "institution_id": "cleaneye-출연-529",
+      "brand_id": "gongu-ci-1420",
+      "name": "전주문화재단",
+      "png_file": "sources/official-reviewed-20261008/355fba675147bda5.png",
+      "source_page": "https://jjcf.or.kr/main/inner.php?sMenu=G2300"
+    },
+    {
+      "institution_id": "cleaneye-출연-531",
+      "brand_id": "gongu-ci-0107",
+      "name": "전주푸드통합지원센터",
+      "png_file": "sources/official-reviewed-20261008/440d197b6e4a7a72.png",
+      "source_page": "https://www.jeonjufood.org/site/menu/MENU_000000000000002"
+    },
+    {
+      "institution_id": "cleaneye-출연-611",
+      "brand_id": "gongu-ci-0201",
+      "name": "담양군문화재단",
+      "png_file": "sources/official-reviewed-20261008/f7fa70f540907e42.png",
+      "source_page": "https://www.damyangcf.or.kr/user/sub1030"
+    },
+    {
+      "institution_id": "cleaneye-출연-640",
+      "brand_id": "gongu-ci-0176",
+      "name": "재단법인 신안신재생에너지재단",
+      "png_file": "sources/official-reviewed-20261008/2561c282b6bdab59.png",
+      "source_page": "https://www.snef.or.kr/user/contents.php?sq=17"
+    },
+    {
+      "institution_id": "cleaneye-출연-643",
+      "brand_id": "gongu-ci-0157",
+      "name": "재단법인 해남문화관광재단",
+      "png_file": "sources/official-reviewed-20261008/a8984a7ab8a46fbb.png",
+      "source_page": "https://www.haenamct.or.kr/menu.es?mid=a10104000000"
+    },
+    {
+      "institution_id": "cleaneye-출연-645",
+      "brand_id": "pmc",
+      "name": "경상북도포항의료원",
+      "png_file": "sources/official-reviewed-20261008/f342cf199da49538.png",
+      "source_page": "https://pmc.or.kr/front/about/ci.do"
+    },
+    {
+      "institution_id": "cleaneye-출연-647",
+      "brand_id": "amc-2",
+      "name": "경상북도안동의료원",
+      "png_file": "sources/official-reviewed-20261008/6b722cce89986e73.png",
+      "source_page": "https://amc.or.kr/front/page.do?pageView=/about/symbol"
+    },
+    {
+      "institution_id": "cleaneye-출연-659",
+      "brand_id": "gongu-ci-0383",
+      "name": "경상북도 농식품유통교육진흥원",
+      "png_file": "sources/official-reviewed-20261008/2c63442a557414ca.png",
+      "source_page": "https://www.gbfood.or.kr/bbs/content.php?co_id=6_6"
+    },
+    {
+      "institution_id": "cleaneye-출연-656",
+      "brand_id": "gongu-ci-0385",
+      "name": "경북여성정책개발원",
+      "png_file": "sources/official-reviewed-20261008/448f1aa5a496338b.png",
+      "source_page": "https://forwoman.or.kr/main/contents.do?idx=2748"
+    },
+    {
+      "institution_id": "cleaneye-출연-670",
+      "brand_id": "gongu-ci-0379",
+      "name": "경주문화재단",
+      "png_file": "sources/official-reviewed-20261008/764c9e986d20d918.png",
+      "source_page": "https://garts.kr/index.do?menuId=00000390"
+    },
+    {
+      "institution_id": "cleaneye-출연-672",
+      "brand_id": "gongu-ci-0891",
+      "name": "경주화백컨벤션센터",
+      "png_file": "sources/official-reviewed-20261008/5d956e5d98308f8f.png",
+      "source_page": "https://www.hico.or.kr/hico/ko/about/design_guide.do"
+    },
+    {
+      "institution_id": "cleaneye-출연-678",
+      "brand_id": "gongu-ci-0375",
+      "name": "구미전자정보기술원",
+      "png_file": "sources/official-reviewed-20261008/4ef8b3365256786d.png",
+      "source_page": "https://www.geri.re.kr/html/sub_05_08.asp"
+    },
+    {
+      "institution_id": "cleaneye-출연-695",
+      "brand_id": "gongu-ci-1493",
+      "name": "청송문화관광재단",
+      "png_file": "sources/official-reviewed-20261008/094154e5f5bcf8dd.png",
+      "source_page": "http://www.cctf.or.kr/coding/sub1/sub5.asp"
+    },
+    {
+      "institution_id": "cleaneye-출연-680",
+      "brand_id": "gongu-ci-0350",
+      "name": "재단법인 구미먹거리통합지원센터",
+      "png_file": "sources/official-reviewed-20261008/37335dbadf1eba4c.png",
+      "source_page": "https://gmff.or.kr/ci/"
+    },
+    {
+      "institution_id": "cleaneye-출연-709",
+      "brand_id": "gongu-ci-0348",
+      "name": "재단법인 봉화축제관광재단",
+      "png_file": "sources/official-reviewed-20261008/c5c28160d8dd6e3a.png",
+      "source_page": "https://bhftf.or.kr/bbs/content.php?co_id=ci"
+    },
+    {
+      "institution_id": "cleaneye-출연-711",
+      "brand_id": "gongu-ci-0355",
+      "name": "울진군장학재단",
+      "png_file": "sources/official-reviewed-20261008/714e8d020c3613bf.png",
+      "source_page": "https://www.uljin.go.kr/index.uljin?menuCd=DOM_000000104003001000"
+    },
+    {
+      "institution_id": "cleaneye-출연-743",
+      "brand_id": "gongu-ci-1179",
+      "name": "사천문화재단",
+      "png_file": "sources/official-reviewed-20261008/08006275a52d48ac.png",
+      "source_page": "https://www.sccf.or.kr/sub/vision.php"
+    },
+    {
+      "institution_id": "cleaneye-출연-757",
+      "brand_id": "gongu-ci-0435",
+      "name": "거제시희망복지재단",
+      "png_file": "sources/official-reviewed-20261008/631c7d4706989dc5.png",
+      "source_page": "http://www.gjchwf.or.kr/intro/05_intro.html"
+    },
+    {
+      "institution_id": "cleaneye-출연-756",
+      "brand_id": "gongu-ci-0844",
+      "name": "거제시문화예술재단",
+      "png_file": "sources/official-reviewed-20261008/5e74bed8e9cd4477.png",
+      "source_page": "https://www.geojeart.or.kr/intro/intro_2.asp"
+    },
+    {
+      "institution_id": "cleaneye-출연-762",
+      "brand_id": "gongu-ci-0404",
+      "name": "재단법인 창녕양파앤마늘식품연구원",
+      "png_file": "sources/official-reviewed-20261008/b45987c3b9a15285.png",
+      "source_page": "https://www.cng.go.kr/00004/00567/00569.web"
+    },
+    {
+      "institution_id": "cleaneye-출연-789",
+      "brand_id": "gongu-ci-0100",
+      "name": "재단법인 제주특별자치도 사회서비스원",
+      "png_file": "sources/official-reviewed-20261008/68e92875af564916.png",
+      "source_page": "https://jeju.pass.or.kr/introduce-CI_introduce"
+    }
+  ],
+  "known_years": {
+    "gemini": {
+      "introduced_year": 2025,
+      "source": "https://commons.wikimedia.org/wiki/File:Google_Gemini_logo_2025.svg"
+    }
+  },
+  "policy": "Unknown years remain null; reviewed files are immutable; all original sources are preserved privately."
+}
