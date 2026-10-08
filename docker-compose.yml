@@ -16,8 +16,11 @@ services:
       - .env
     # 무제한(0)으로 두면 이 컨테이너가 RAM 을 먹어 서버 전체가 스왑에 빠진다.
     # memswap 을 같은 값으로 두어 스왑 없이 OOM Kill → 자동 재시작 되게 한다.
-    mem_limit: 768m
-    memswap_limit: 768m
+    mem_limit: 1g
+    memswap_limit: 1g
+    environment:
+      # Keep the JS heap bounded and leave native buffers/renderers headroom.
+      NODE_OPTIONS: "--max-old-space-size=384"
     restart: unless-stopped
     healthcheck:
       test: ["CMD", "wget", "-qO-", "http://localhost:3000/api/health"]

@@ -1,3 +1,4 @@
+import { createCatalogMerger } from "@/lib/catalog-merge";
 import { cmsBrand } from "@/lib/cms-brand";
 import { createHash } from "node:crypto";
 import { NextRequest, NextResponse } from "next/server";
@@ -12,6 +13,8 @@ import { INDEX_REVIEW_BRANDS } from "@/lib/index-candidate-review-submissions";
 
 
 export const dynamic = "force-dynamic";
+
+const mergeCatalog = createCatalogMerger(SUBMITTED_BRANDS, [...SIMPLE_ICONS_BRANDS, ...STREAMING_SUBMISSIONS, ...INDEX_REVIEW_BRANDS]);
 
 const PAGE_SIZE_MAX = 120;
 const POPULARITY_TTL = 60_000;
@@ -112,15 +115,7 @@ export async function GET(request: NextRequest) {
 
   try {
     const catalog = await fetchBrandsSlim();
-    const known = new Set(catalog.map(brand => brand.id));
-    const submitted = SUBMITTED_BRANDS.filter(brand => !known.has(brand.id));
-    const submittedIds = new Set([...known, ...submitted.map(brand => brand.id)]);
-    const base = [...catalog, ...submitted, ...SIMPLE_ICONS_BRANDS.filter(brand => !submittedIds.has(brand.id)), ...STREAMING_SUBMISSIONS.filter(brand => !submittedIds.has(brand.id)), ...INDEX_REVIEW_BRANDS.filter(brand => !submittedIds.has(brand.id))];
-    const merged = new Map(base.map(brand => [brand.id, brand]));
-    // Existing reviewed catalog entries remain authoritative; new CMS posts
-    // become searchable without adding a submission to the application code.
-    for (const brand of await recentCmsBrands()) if (!merged.has(brand.id)) merged.set(brand.id, brand);
-    const all = [...merged.values()];
+    const all = mergeCatalog(catalog, await recentCmsBrands());
     const scores = mode === "fame" ? await popularityScores() : {};
     const sorted = sortedCatalog(all, mode, scores);
     let matches = sorted;
