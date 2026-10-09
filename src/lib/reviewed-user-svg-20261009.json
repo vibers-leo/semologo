@@ -28,7 +28,8 @@
         "logo-transparent.png",
         "logo-white.png",
         "logo-icon.png"
-      ]
+      ],
+      "logo_published_at": "2026-10-09T21:56:43+09:00"
     },
     "samsungpay": {
       "name_ko": "삼성페이",
@@ -58,7 +59,8 @@
         "logo-transparent.png",
         "logo-white.png",
         "logo-icon.png"
-      ]
+      ],
+      "logo_published_at": "2026-10-09T21:56:43+09:00"
     },
     "kakaobank": {
       "name_ko": "카카오뱅크",
@@ -88,7 +90,8 @@
         "logo-transparent.png",
         "logo-white.png",
         "logo-icon.png"
-      ]
+      ],
+      "logo_published_at": "2026-10-09T21:56:43+09:00"
     },
     "korean-air": {
       "variant_of": "koreanair",

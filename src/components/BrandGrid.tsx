@@ -65,16 +65,14 @@ export default function BrandGrid({
     let alive = true;
     listPublishedLogoPosts().then((posts: LogoPost[]) => {
       if (!alive || !posts.length) return;
-      setRecentPosts([...posts].filter(post => post.added_at && !post.hidden && !post.variant_of)
-        .sort((a, b) => (b.added_at || '').localeCompare(a.added_at || '')).slice(0, 6));
-      setBrands(prev => {
-        const map = new Map(prev.map(brand => [brand.id, brand]));
-        for (const post of posts) map.set(post.id, post);
-        return [...map.values()];
-      });
+      setRecentPosts([...posts].filter(post => (post.logo_published_at || post.added_at) && !post.hidden && !post.variant_of)
+        .sort((a, b) => (b.logo_published_at || b.added_at || '').localeCompare(a.logo_published_at || a.added_at || '')).slice(0, 6));
+      // The catalog API merges CMS records before sorting and pagination.
+      // A second client merge would append records outside the requested page order.
     }).catch(() => {});
     return () => { alive = false; };
   }, []);
+  const [apiOrdered, setApiOrdered] = useState(false);
   const [resultTotal, setResultTotal] = useState(initialCatalogStats?.visible ?? initialBrands.length);
   const allCatalogCount = catalogStats?.visible ?? resultTotal;
   const [selected, setSelected] = useState<Brand | null>(null);
@@ -168,6 +166,7 @@ export default function BrandGrid({
         ...current,
         ...data.brands.filter(brand => !current.some(existing => existing.id === brand.id)),
       ]);
+      setApiOrdered(true);
       setResultTotal(data.total);
       // 다음 스크롤에서 보일 첫 카드들을 브라우저 캐시에 미리 넣어
       // 카드가 화면에 들어오는 순간 빈 체커가 보이지 않게 한다.
@@ -243,8 +242,10 @@ export default function BrandGrid({
   // 한글 IME 조합이 끊겼다("자음 입력 시 뚝뚝 끊김").
   // 서버(빌드 시 첫 화면)와 **같은 규칙**을 쓴다 — 어긋나면 하이드레이션 때 화면이 튄다
   const sorted = useMemo(
-    () => sortForGrid(brands, sortMode, hits, flagged),
-    [brands, sortMode, hits, flagged],
+    () => apiOrdered
+      ? (sortMode === 'fame' ? [...brands].sort((a,b) => Number(flagged.has(a.id))-Number(flagged.has(b.id))) : brands)
+      : sortForGrid(brands, sortMode, hits, flagged),
+    [brands, sortMode, hits, flagged, apiOrdered],
   );
 
   const filtered = sorted;

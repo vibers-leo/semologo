@@ -15,7 +15,7 @@ import { Pool } from "pg";
 
 export const dynamic = "force-dynamic";   // 빌드 시점에 굳으면 영원히 빈 값이 캐시된다
 const TOP_N = 3000;
-const TTL = 600;                          // 10분 — 순위는 실시간일 필요가 없다
+const TTL = 60;                           // 카탈로그 인기순과 같은 갱신 주기
 
 let cache: { at: number; data: Record<string, number> } | null = null;
 let pool: Pool | null = null;

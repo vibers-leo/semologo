@@ -12,7 +12,13 @@ export function createCatalogMerger(submissions: Brand[], supplements: Brand[]) 
       ...supplements.filter(brand => !submittedIds.has(brand.id)),
     ].map(brand => [brand.id, brand]));
     // Reviewed catalog data stays authoritative; newly published CMS records remain searchable.
-    for (const brand of cms) if (!merged.has(brand.id)) merged.set(brand.id, brand);
+    for (const brand of cms) {
+      const reviewed = merged.get(brand.id);
+      if (!reviewed) merged.set(brand.id, brand);
+      else if (brand.logo_published_at && Number.isFinite(Date.parse(brand.logo_published_at))) {
+        merged.set(brand.id, { ...reviewed, logo_published_at: brand.logo_published_at });
+      }
+    }
     const brands = [...merged.values()];
     cached = { catalog, cms, brands };
     return brands;

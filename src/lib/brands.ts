@@ -41,6 +41,8 @@ export interface Brand {
   dark_variant?: boolean | string;
   lang_en?: boolean;
   added_at?: string;
+  /** 새 로고 원본·버전을 공개한 시각. 배경 정리·대표 이미지 변경에서는 유지한다. */
+  logo_published_at?: string;
   sources?: { provider: string; file: string; label: string; origin?: string; source_url?: string }[];
   official_source_page?: string;
   ci_page_url?: string;
@@ -348,7 +350,7 @@ export function sortForGrid(
         const byFame = (b.fame ?? 0) - (a.fame ?? 0);
         if (byFame !== 0) return byFame;
       }
-      const byDate = (b.added_at ?? "").localeCompare(a.added_at ?? "");
+      const byDate = (b.logo_published_at ?? b.added_at ?? "").localeCompare(a.logo_published_at ?? a.added_at ?? "");
       return byDate !== 0 ? byDate : seqOf(b) - seqOf(a);
     });
 }

@@ -37,7 +37,9 @@ async function recentCmsBrands(): Promise<Brand[]> {
   if (!db) return [];
   try {
     const result = await db.query(`SELECT id,payload FROM semologo.logo_posts
-      WHERE status='published' ORDER BY updated_at DESC LIMIT 1000`);
+      WHERE status='published' AND payload ? 'logo_published_at'
+      UNION SELECT id,payload FROM (SELECT id,payload FROM semologo.logo_posts
+      WHERE status='published' ORDER BY updated_at DESC LIMIT 1000) recent`);
     const brands = result.rows.map(row => cmsBrand(row.id, row.payload))
       .filter(brand => !brand.hidden && !brand.variant_of);
     cmsCache = { at: Date.now(), brands };
@@ -153,7 +155,7 @@ export async function GET(request: NextRequest) {
     // repeatedly parsing the 34 MB slim catalog on every scroll request.
     const cacheControl = query
       ? "private, max-age=15, stale-while-revalidate=30"
-      : "public, max-age=30, s-maxage=300, stale-while-revalidate=86400";
+      : "public, max-age=30, s-maxage=60, stale-while-revalidate=30";
     return NextResponse.json(payload, { headers: { "Cache-Control": cacheControl } });
   } catch (error) {
     console.error("[catalog]", error instanceof Error ? error.message.slice(0, 160) : "unknown error");

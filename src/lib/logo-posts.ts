@@ -28,6 +28,7 @@ export function toLogoPost(brand: Brand, extra: Partial<LogoPost> = {}): LogoPos
     post_type: "logo",
     status: "published",
     created_at: now,
+    logo_published_at: now,
     updated_at: now,
     ...extra,
   };

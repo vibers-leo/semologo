@@ -24,7 +24,7 @@ export async function PATCH(request: Request) {
     const input=await request.json();
     if (typeof input.id!=='string' || !/^[\p{L}\p{N}._-]{1,200}$/u.test(input.id) || !['draft','published','archived'].includes(input.status)) return reply({error:'로고와 게시 상태를 확인해 주세요.'},400);
     // Only change publication state. Assets and human review decisions remain intact.
-    const r=await trafficDb().query(`UPDATE semologo.logo_posts SET status=$2,payload=jsonb_set(payload,'{status}',to_jsonb($2::text)),updated_at=now() WHERE id=$1 RETURNING id`,[input.id,input.status]);
+    const r=await trafficDb().query(`UPDATE semologo.logo_posts SET status=$2,payload=jsonb_set(payload,'{status}',to_jsonb($2::text)) || CASE WHEN $2='published' AND NOT payload ? 'logo_published_at' THEN jsonb_build_object('logo_published_at',now()) ELSE '{}'::jsonb END,updated_at=now() WHERE id=$1 RETURNING id`,[input.id,input.status]);
     return r.rowCount===1 ? reply({ok:true}) : reply({error:'로고를 찾지 못했어요.'},404);
   } catch { return reply({error:'게시 상태를 저장하지 못했어요. 다시 시도해 주세요.'},503); }
 }

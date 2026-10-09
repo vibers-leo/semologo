@@ -14,7 +14,14 @@ const releasePatches = { ...release.patches, ...backgroundMerge.patches, ...goog
 // indiscriminately: the Seongnam symbol contains intentional white artwork.
 const official = 'sources/official-ci-20261007';
 export function applyReviewedAssets(brand: Brand): Brand {
-  if (releasePatches[brand.id]) return { ...brand, ...releasePatches[brand.id] };
+  if (releasePatches[brand.id]) {
+    const patch = releasePatches[brand.id];
+    const reviewed = { ...brand, ...patch };
+    if (brand.logo_published_at && Date.parse(brand.logo_published_at) > Date.parse(patch.logo_published_at ?? '1970-01-01')) {
+      reviewed.logo_published_at = brand.logo_published_at;
+    }
+    return reviewed;
+  }
   if (brand.id === 'h-m') return { ...brand, variant_of: 'h-m-1', hidden: true,
     hidden_reason: 'H&M 중복 로고를 투명 원본 대표 콘텐츠로 통합',
   };
