@@ -200,3 +200,17 @@ brand-logos 배포보다 **52초 먼저** 시작해서 났다. 증상이 같으�
 ## 세모로고 별칭
 "세모로고에서 찾아봐" → https://logo.vibers.co.kr/_clients/brands.json fetch 후 검색
 "로고 CDN URL" → https://logo.vibers.co.kr/_clients/{brand-id}/logo.svg
+
+## 세모로고 1F 디스크 작업 경로 (2026-10-09)
+- 실제 프로젝트: `/Volumes/HDD-1TB/semologo-migration/20261005/project`.
+- 기존 Desktop → Untitled → HDD 앱 심링크는 그대로 유지한다. 삭제·재생성 금지.
+- 임시 파일·다운로드 원본·프로젝트 캐시는 `/Volumes/HDD-1TB/semologo-migration` 아래에 둔다.
+- 로컬 명령은 `bash scripts/with-local-storage.sh <명령>`으로 실행한다. 디스크 미마운트 시 실패하며 내장 디스크에 대체 폴더를 만들지 않는다.
+- `.next`와 `node_modules`는 프로젝트 안 실폴더로 유지한다. 공유 pnpm 스토어를 다른 앱까지 임의 이전하지 않는다.
+- 새 의존성 설치가 필요하면 같은 디스크의 전용 store-dir을 명시하고 기존 node_modules의 storeDir과 차이를 먼저 확인한다.
+
+## 목록 정렬 (2026-10-09)
+- 인기순은 이용 기록 점수를 우선하고, 같은 점수는 기존 fame 기준을 쓴다. 카탈로그 API가 페이지 단위 정렬의 기준이다.
+- 최신순은 `logo_published_at`(새 원본·버전 공개 시각), 없으면 `added_at`을 쓴다.
+- 새 원본 공개 작업은 CMS payload와 검수 오버레이에 `logo_published_at`을 기록한다. 로고 도입 연도와 서비스 공개 시각은 별개다.
+- 배경 제거·명칭 정리·대표 이미지 선택만으로 공개 시각을 바꾸지 않는다.
