@@ -1,0 +1,954 @@
+{
+  "patches": {
+    "hanwha-vision": {
+      "logo_svg": true,
+      "has_svg": true,
+      "has_png": true,
+      "logo_png": "sources/reviewed-requested-background-20261009/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/hanwha-vision/sources/reviewed-requested-background-20261009/logo.png",
+      "svg_transparent": "sources/reviewed-requested-background-20261009/logo.svg",
+      "light": false,
+      "light_logo": false,
+      "dark_variant": false,
+      "presentation": {
+        "file": "sources/reviewed-requested-background-20261009/logo.png",
+        "bg": "light"
+      },
+      "rejected_asset_files": [
+        "logo.png",
+        "logo-800.png",
+        "logo-transparent.png",
+        "logo-white.png",
+        "logo-icon.png"
+      ]
+    },
+    "ktskylife": {
+      "logo_svg": true,
+      "has_svg": true,
+      "has_png": true,
+      "logo_png": "sources/reviewed-requested-background-20261009/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/ktskylife/sources/reviewed-requested-background-20261009/logo.png",
+      "svg_transparent": "sources/reviewed-requested-background-20261009/logo.svg",
+      "light": false,
+      "light_logo": false,
+      "dark_variant": false,
+      "presentation": {
+        "file": "sources/reviewed-requested-background-20261009/logo.png",
+        "bg": "light"
+      },
+      "rejected_asset_files": [
+        "logo.png",
+        "logo-800.png",
+        "logo-transparent.png",
+        "logo-white.png",
+        "logo-icon.png"
+      ]
+    },
+    "kt-skylife": {
+      "logo_svg": true,
+      "has_svg": true,
+      "has_png": true,
+      "logo_png": "sources/reviewed-requested-background-20261009/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/kt-skylife/sources/reviewed-requested-background-20261009/logo.png",
+      "svg_transparent": "sources/reviewed-requested-background-20261009/logo.svg",
+      "light": false,
+      "light_logo": false,
+      "dark_variant": false,
+      "presentation": {
+        "file": "sources/reviewed-requested-background-20261009/logo.png",
+        "bg": "light"
+      },
+      "rejected_asset_files": [
+        "logo.png",
+        "logo-800.png",
+        "logo-transparent.png",
+        "logo-white.png",
+        "logo-icon.png"
+      ]
+    },
+    "samsung-sds": {
+      "logo_svg": true,
+      "has_svg": true,
+      "has_png": true,
+      "logo_png": "sources/reviewed-requested-background-20261009/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/samsung-sds/sources/reviewed-requested-background-20261009/logo.png",
+      "svg_transparent": "sources/reviewed-requested-background-20261009/logo.svg",
+      "light": false,
+      "light_logo": false,
+      "dark_variant": false,
+      "presentation": {
+        "file": "sources/reviewed-requested-background-20261009/logo.png",
+        "bg": "light"
+      },
+      "rejected_asset_files": [
+        "logo.png",
+        "logo-800.png",
+        "logo-transparent.png",
+        "logo-white.png",
+        "logo-icon.png"
+      ]
+    },
+    "hyundai-mobis": {
+      "logo_svg": true,
+      "has_svg": true,
+      "has_png": true,
+      "logo_png": "sources/reviewed-requested-background-20261009/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/hyundai-mobis/sources/reviewed-requested-background-20261009/logo.png",
+      "svg_transparent": "sources/reviewed-requested-background-20261009/logo.svg",
+      "light": false,
+      "light_logo": false,
+      "dark_variant": false,
+      "presentation": {
+        "file": "sources/reviewed-requested-background-20261009/logo.png",
+        "bg": "light"
+      },
+      "rejected_asset_files": [
+        "logo.png",
+        "logo-800.png",
+        "logo-transparent.png",
+        "logo-white.png",
+        "logo-icon.png"
+      ]
+    },
+    "perplexity": {
+      "logo_svg": true,
+      "has_svg": true,
+      "has_png": true,
+      "logo_png": "sources/reviewed-requested-background-20261009/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/perplexity/sources/reviewed-requested-background-20261009/logo.png",
+      "svg_transparent": "sources/reviewed-requested-background-20261009/logo.svg",
+      "light": false,
+      "light_logo": false,
+      "dark_variant": false,
+      "presentation": {
+        "file": "sources/reviewed-requested-background-20261009/logo.png",
+        "bg": "light"
+      },
+      "rejected_asset_files": [
+        "logo.png",
+        "logo-800.png",
+        "logo-transparent.png",
+        "logo-white.png",
+        "logo-icon.png"
+      ]
+    },
+    "perplexityai": {
+      "logo_svg": true,
+      "has_svg": true,
+      "has_png": true,
+      "logo_png": "sources/reviewed-requested-background-20261009/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/perplexityai/sources/reviewed-requested-background-20261009/logo.png",
+      "svg_transparent": "sources/reviewed-requested-background-20261009/logo.svg",
+      "light": false,
+      "light_logo": false,
+      "dark_variant": false,
+      "presentation": {
+        "file": "sources/reviewed-requested-background-20261009/logo.png",
+        "bg": "light"
+      },
+      "rejected_asset_files": [
+        "logo.png",
+        "logo-800.png",
+        "logo-transparent.png",
+        "logo-white.png",
+        "logo-icon.png"
+      ]
+    },
+    "bts": {
+      "logo_svg": true,
+      "has_svg": true,
+      "has_png": true,
+      "logo_png": "sources/reviewed-requested-background-20261009/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/bts/sources/reviewed-requested-background-20261009/logo.png",
+      "svg_transparent": "sources/reviewed-requested-background-20261009/logo.svg",
+      "light": false,
+      "light_logo": false,
+      "dark_variant": false,
+      "presentation": {
+        "file": "sources/reviewed-requested-background-20261009/logo.png",
+        "bg": "light"
+      },
+      "rejected_asset_files": [
+        "logo.png",
+        "logo-800.png",
+        "logo-transparent.png",
+        "logo-white.png",
+        "logo-icon.png"
+      ],
+      "name_ko": "BTS(방탄소년단)",
+      "name_en": "BTS",
+      "aliases": [
+        "BTS",
+        "방탄소년단",
+        "비티에스",
+        "Bangtan",
+        "Bangtan Sonyeondan",
+        "防彈少年團"
+      ]
+    },
+    "skala-banka": {
+      "logo_svg": true,
+      "has_svg": true,
+      "has_png": true,
+      "logo_png": "sources/reviewed-requested-background-20261009/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/skala-banka/sources/reviewed-requested-background-20261009/logo.png",
+      "svg_transparent": "sources/reviewed-requested-background-20261009/logo.svg",
+      "light": false,
+      "light_logo": false,
+      "dark_variant": false,
+      "presentation": {
+        "file": "sources/reviewed-requested-background-20261009/logo.png",
+        "bg": "light"
+      },
+      "rejected_asset_files": [
+        "logo.png",
+        "logo-800.png",
+        "logo-transparent.png",
+        "logo-white.png",
+        "logo-icon.png",
+        "logo.svg"
+      ]
+    },
+    "skals-solid": {
+      "logo_svg": true,
+      "has_svg": true,
+      "has_png": true,
+      "logo_png": "sources/reviewed-requested-background-20261009/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/skals-solid/sources/reviewed-requested-background-20261009/logo.png",
+      "svg_transparent": "sources/reviewed-requested-background-20261009/logo.svg",
+      "light": false,
+      "light_logo": false,
+      "dark_variant": false,
+      "presentation": {
+        "file": "sources/reviewed-requested-background-20261009/logo.png",
+        "bg": "light"
+      },
+      "rejected_asset_files": [
+        "logo.png",
+        "logo-800.png",
+        "logo-transparent.png",
+        "logo-white.png",
+        "logo-icon.png",
+        "logo.svg"
+      ]
+    },
+    "alabama-state-hornets": {
+      "logo_svg": true,
+      "has_svg": true,
+      "has_png": true,
+      "logo_png": "sources/reviewed-requested-background-20261009/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/alabama-state-hornets/sources/reviewed-requested-background-20261009/logo.png",
+      "svg_transparent": "sources/reviewed-requested-background-20261009/logo.svg",
+      "light": false,
+      "light_logo": false,
+      "dark_variant": false,
+      "presentation": {
+        "file": "sources/reviewed-requested-background-20261009/logo.png",
+        "bg": "light"
+      },
+      "rejected_asset_files": [
+        "logo.png",
+        "logo-800.png",
+        "logo-transparent.png",
+        "logo-white.png",
+        "logo-icon.png",
+        "logo.svg"
+      ]
+    },
+    "gemini": {
+      "presentation": {
+        "file": "sources/official-gemini-gradient-20261008/wordmark.png",
+        "bg": "light"
+      }
+    },
+    "smilegate": {
+      "logo_svg": true,
+      "has_svg": true,
+      "has_png": true,
+      "logo_png": "sources/reviewed-requested-background-20261009/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/smilegate/sources/reviewed-requested-background-20261009/logo.png",
+      "svg_transparent": "sources/reviewed-requested-background-20261009/logo.svg",
+      "light": false,
+      "light_logo": false,
+      "dark_variant": false,
+      "presentation": {
+        "file": "sources/reviewed-requested-background-20261009/logo.png",
+        "bg": "light"
+      },
+      "rejected_asset_files": [
+        "logo.png",
+        "logo-800.png",
+        "logo-transparent.png",
+        "logo-white.png",
+        "logo-icon.png"
+      ]
+    },
+    "hmm": {
+      "logo_svg": true,
+      "has_svg": true,
+      "has_png": true,
+      "logo_png": "sources/reviewed-requested-background-20261009/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/hmm/sources/reviewed-requested-background-20261009/logo.png",
+      "svg_transparent": "sources/reviewed-requested-background-20261009/logo.svg",
+      "light": false,
+      "light_logo": false,
+      "dark_variant": false,
+      "presentation": {
+        "file": "sources/reviewed-requested-background-20261009/logo.png",
+        "bg": "light"
+      },
+      "rejected_asset_files": [
+        "logo.png",
+        "logo-800.png",
+        "logo-transparent.png",
+        "logo-white.png",
+        "logo-icon.png"
+      ]
+    },
+    "google-gemini": {
+      "logo_svg": true,
+      "has_svg": true,
+      "has_png": true,
+      "logo_png": "sources/reviewed-requested-background-20261009/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/google-gemini/sources/reviewed-requested-background-20261009/logo.png",
+      "svg_transparent": "sources/reviewed-requested-background-20261009/logo.svg",
+      "light": false,
+      "light_logo": false,
+      "dark_variant": false,
+      "presentation": {
+        "file": "sources/reviewed-requested-background-20261009/logo.png",
+        "bg": "light"
+      },
+      "rejected_asset_files": [
+        "logo.png",
+        "logo-800.png",
+        "logo-transparent.png",
+        "logo-white.png",
+        "logo-icon.png"
+      ]
+    },
+    "googlegemini": {
+      "logo_svg": true,
+      "has_svg": true,
+      "has_png": true,
+      "logo_png": "sources/reviewed-requested-background-20261009/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/googlegemini/sources/reviewed-requested-background-20261009/logo.png",
+      "svg_transparent": "sources/reviewed-requested-background-20261009/logo.svg",
+      "light": false,
+      "light_logo": false,
+      "dark_variant": false,
+      "presentation": {
+        "file": "sources/reviewed-requested-background-20261009/logo.png",
+        "bg": "light"
+      },
+      "rejected_asset_files": [
+        "logo.png",
+        "logo-800.png",
+        "logo-transparent.png",
+        "logo-white.png",
+        "logo-icon.png"
+      ]
+    },
+    "google-gemini-icon": {
+      "logo_svg": true,
+      "has_svg": true,
+      "has_png": true,
+      "logo_png": "sources/reviewed-requested-background-20261009/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/google-gemini-icon/sources/reviewed-requested-background-20261009/logo.png",
+      "svg_transparent": "sources/reviewed-requested-background-20261009/logo.svg",
+      "light": false,
+      "light_logo": false,
+      "dark_variant": false,
+      "presentation": {
+        "file": "sources/reviewed-requested-background-20261009/logo.png",
+        "bg": "light"
+      },
+      "rejected_asset_files": [
+        "logo.png",
+        "logo-800.png",
+        "logo-transparent.png",
+        "logo-white.png",
+        "logo-icon.png"
+      ]
+    }
+  },
+  "variants": {
+    "hanwha-vision": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "hanwha-vision",
+      "primary": "horizontal",
+      "fingerprint": {
+        "logo.svg": "a40ecf06fc38d02e"
+      },
+      "variants": [
+        {
+          "key": "horizontal",
+          "form": "horizontal",
+          "lang": "unknown",
+          "color": "color",
+          "label": "가로조합형",
+          "files": {
+            "svg": "sources/reviewed-requested-background-20261009/logo.svg",
+            "png": "sources/reviewed-requested-background-20261009/logo.png"
+          },
+          "aspect": 1.275,
+          "provider": "wikimedia",
+          "origin": "collected",
+          "order": 10
+        }
+      ]
+    },
+    "ktskylife": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "ktskylife",
+      "primary": "wordmark",
+      "fingerprint": {
+        "logo.svg": "cffbd3d90fd304f7"
+      },
+      "variants": [
+        {
+          "key": "wordmark",
+          "form": "wordmark",
+          "lang": "unknown",
+          "color": "color",
+          "label": "워드마크형",
+          "files": {
+            "svg": "sources/reviewed-requested-background-20261009/logo.svg",
+            "png": "sources/reviewed-requested-background-20261009/logo.png"
+          },
+          "aspect": 3.929,
+          "provider": "krx-rendered",
+          "origin": "collected",
+          "order": 40
+        }
+      ]
+    },
+    "kt-skylife": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "kt-skylife",
+      "primary": "wordmark",
+      "fingerprint": {
+        "logo.svg": "f6dffa005f232b07"
+      },
+      "variants": [
+        {
+          "key": "wordmark",
+          "form": "wordmark",
+          "lang": "unknown",
+          "color": "color",
+          "label": "심볼+워드마크 (가로형)",
+          "files": {
+            "svg": "sources/reviewed-requested-background-20261009/logo.svg",
+            "png": "sources/reviewed-requested-background-20261009/logo.png"
+          },
+          "aspect": 3.947,
+          "provider": "wikimedia",
+          "origin": "collected",
+          "order": 10
+        },
+        {
+          "key": "symbol",
+          "form": "symbol",
+          "lang": "none",
+          "color": "color",
+          "label": "심볼만",
+          "files": {
+            "svg": "variants/symbol.svg",
+            "png": "variants/symbol-512.png"
+          },
+          "aspect": null,
+          "provider": "derived:autocrop",
+          "origin": "derived",
+          "order": 30,
+          "derived_from": "logo.svg",
+          "confidence": 0.964
+        }
+      ]
+    },
+    "samsung-sds": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "samsung-sds",
+      "primary": "wordmark",
+      "fingerprint": {
+        "logo.svg": "2f8f1b70fa17534b"
+      },
+      "variants": [
+        {
+          "key": "wordmark",
+          "form": "wordmark",
+          "lang": "unknown",
+          "color": "mono-dark",
+          "label": "워드마크형",
+          "files": {
+            "svg": "sources/reviewed-requested-background-20261009/logo.svg",
+            "png": "sources/reviewed-requested-background-20261009/logo.png"
+          },
+          "aspect": 8.411,
+          "provider": "inkscape-converted",
+          "origin": "collected",
+          "order": 40
+        }
+      ]
+    },
+    "hyundai-mobis": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "hyundai-mobis",
+      "primary": "horizontal",
+      "fingerprint": {
+        "logo.svg": "ff32b701a2e1e2cf"
+      },
+      "variants": [
+        {
+          "key": "horizontal",
+          "form": "horizontal",
+          "lang": "unknown",
+          "color": "color",
+          "label": "가로조합형",
+          "files": {
+            "svg": "sources/reviewed-requested-background-20261009/logo.svg",
+            "png": "sources/reviewed-requested-background-20261009/logo.png"
+          },
+          "aspect": 2.903,
+          "provider": "wikimedia",
+          "origin": "collected",
+          "order": 10
+        }
+      ]
+    },
+    "perplexity": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "perplexity",
+      "primary": "wordmark",
+      "fingerprint": {
+        "logo.svg": "5925667e14a3e017",
+        "sources/iconify/perplexity.svg": "5925667e14a3e017",
+        "sources/iconify/perplexity-icon.svg": "2b6bf0617165a012",
+        "sources/wvl/perplexity-icon.svg": "22d77a282d757964",
+        "sources/wvl/perplexity.svg": "248f976a0f2e7eee",
+        "sources/perplexity-icon.svg": "22d77a282d757964",
+        "sources/supertiny/perplexity.svg": "7d3d18d40831f011",
+        "sources/lobe/perplexity-color.svg": "9ce6c3eeccc579a3",
+        "sources/lobe/perplexity-text.svg": "281e917900223871"
+      },
+      "variants": [
+        {
+          "key": "symbol",
+          "form": "symbol",
+          "lang": "en",
+          "color": "color",
+          "label": "심볼형",
+          "files": {
+            "svg": "sources/iconify/perplexity-icon.svg",
+            "png": "sources/iconify/perplexity-icon.png"
+          },
+          "aspect": 0.861,
+          "provider": "iconify",
+          "origin": "collected",
+          "order": 30,
+          "alts": [
+            {
+              "provider": "wvl",
+              "file": "sources/wvl/perplexity-icon.svg"
+            },
+            {
+              "provider": "merged",
+              "file": "sources/perplexity-icon.svg"
+            },
+            {
+              "provider": "lobe",
+              "file": "sources/lobe/perplexity-color.svg"
+            },
+            {
+              "provider": "supertiny",
+              "file": "sources/supertiny/perplexity.svg"
+            }
+          ]
+        },
+        {
+          "key": "wordmark",
+          "form": "wordmark",
+          "lang": "en",
+          "color": "color",
+          "label": "워드마크형",
+          "files": {
+            "svg": "sources/reviewed-requested-background-20261009/logo.svg",
+            "png": "sources/reviewed-requested-background-20261009/logo.png"
+          },
+          "aspect": 4.615,
+          "provider": "iconify",
+          "origin": "collected",
+          "order": 40,
+          "alts": [
+            {
+              "provider": "iconify",
+              "file": "sources/iconify/perplexity.svg"
+            },
+            {
+              "provider": "wvl",
+              "file": "sources/wvl/perplexity.svg"
+            },
+            {
+              "provider": "lobe",
+              "file": "sources/lobe/perplexity-text.svg"
+            }
+          ]
+        }
+      ]
+    },
+    "perplexityai": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "perplexityai",
+      "primary": "symbol",
+      "fingerprint": {
+        "logo.svg": "9674839db0d4b6e0",
+        "sources/thesvg/wordmark.svg": "6cddde1963bc7b69"
+      },
+      "variants": [
+        {
+          "key": "symbol",
+          "form": "symbol",
+          "lang": "en",
+          "color": "color",
+          "label": "심볼형",
+          "files": {
+            "svg": "sources/reviewed-requested-background-20261009/logo.svg",
+            "png": "sources/reviewed-requested-background-20261009/logo.png"
+          },
+          "aspect": 0.867,
+          "provider": "simple-icons",
+          "origin": "collected",
+          "order": 30
+        },
+        {
+          "key": "wordmark",
+          "form": "wordmark",
+          "lang": "unknown",
+          "color": "color",
+          "label": "워드마크형",
+          "files": {
+            "svg": "sources/thesvg/wordmark.svg"
+          },
+          "aspect": 4.626,
+          "provider": "thesvg",
+          "origin": "collected",
+          "order": 40
+        }
+      ]
+    },
+    "bts": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "bts",
+      "primary": "vertical",
+      "fingerprint": {
+        "logo.svg": "d33d379fad08caf5",
+        "sources/bts-symbol-wordmark.svg": "8ecefceb6bdc6ef2",
+        "sources/bts-symbol-only.svg": "663b02e7cd75e010",
+        "sources/bts-horizontal.svg": "b3142536019d14ba",
+        "sources/wikimedia/logo.svg": "f7d35bee9427695f"
+      },
+      "variants": [
+        {
+          "key": "horizontal",
+          "form": "horizontal",
+          "lang": "unknown",
+          "color": "mono-dark",
+          "label": "가로조합형",
+          "files": {
+            "svg": "sources/bts-horizontal.svg",
+            "png": "sources/bts-horizontal.png"
+          },
+          "aspect": 1.826,
+          "provider": "wikimedia",
+          "origin": "collected",
+          "order": 10
+        },
+        {
+          "key": "vertical",
+          "form": "vertical",
+          "lang": "unknown",
+          "color": "mono-dark",
+          "label": "세로조합형",
+          "files": {
+            "svg": "sources/reviewed-requested-background-20261009/logo.svg",
+            "png": "sources/reviewed-requested-background-20261009/logo.png"
+          },
+          "aspect": 0.471,
+          "provider": "unknown",
+          "origin": "collected",
+          "order": 20,
+          "alts": [
+            {
+              "provider": "wikimedia",
+              "file": "sources/bts-symbol-only.svg"
+            },
+            {
+              "provider": "wikimedia",
+              "file": "sources/wikimedia/logo.svg"
+            }
+          ]
+        },
+        {
+          "key": "wordmark",
+          "form": "wordmark",
+          "lang": "unknown",
+          "color": "mono-dark",
+          "label": "워드마크형",
+          "files": {
+            "svg": "sources/bts-symbol-wordmark.svg",
+            "png": "sources/bts-symbol-wordmark.png"
+          },
+          "aspect": 2.707,
+          "provider": "wikimedia",
+          "origin": "collected",
+          "order": 40
+        }
+      ]
+    },
+    "skala-banka": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "skala-banka",
+      "primary": "transparent",
+      "variants": [
+        {
+          "key": "transparent",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-requested-background-20261009/logo.svg",
+            "png": "sources/reviewed-requested-background-20261009/logo.png"
+          },
+          "provider": "보유 벡터 · 배경 검수",
+          "origin": "derived",
+          "order": -1
+        }
+      ]
+    },
+    "skals-solid": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "skals-solid",
+      "primary": "transparent",
+      "variants": [
+        {
+          "key": "transparent",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-requested-background-20261009/logo.svg",
+            "png": "sources/reviewed-requested-background-20261009/logo.png"
+          },
+          "provider": "보유 벡터 · 배경 검수",
+          "origin": "derived",
+          "order": -1
+        }
+      ]
+    },
+    "alabama-state-hornets": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "alabama-state-hornets",
+      "primary": "transparent",
+      "variants": [
+        {
+          "key": "transparent",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-requested-background-20261009/logo.svg",
+            "png": "sources/reviewed-requested-background-20261009/logo.png"
+          },
+          "provider": "보유 벡터 · 배경 검수",
+          "origin": "derived",
+          "order": -1
+        }
+      ]
+    },
+    "smilegate": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "smilegate",
+      "primary": "wordmark",
+      "fingerprint": {
+        "logo.svg": "8cda3520bf6d98a3"
+      },
+      "variants": [
+        {
+          "key": "wordmark",
+          "form": "wordmark",
+          "lang": "unknown",
+          "color": "mono-dark",
+          "label": "워드마크형",
+          "files": {
+            "svg": "sources/reviewed-requested-background-20261009/logo.svg",
+            "png": "sources/reviewed-requested-background-20261009/logo.png"
+          },
+          "aspect": 5.056,
+          "provider": "wikimedia",
+          "origin": "collected",
+          "order": 40
+        }
+      ]
+    },
+    "hmm": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "hmm",
+      "primary": "horizontal",
+      "fingerprint": {
+        "logo.svg": "277f0d5d2be6c449"
+      },
+      "variants": [
+        {
+          "key": "horizontal",
+          "form": "horizontal",
+          "lang": "unknown",
+          "color": "color",
+          "label": "가로조합형",
+          "files": {
+            "svg": "sources/reviewed-requested-background-20261009/logo.svg",
+            "png": "sources/reviewed-requested-background-20261009/logo.png"
+          },
+          "aspect": 2.332,
+          "provider": "wikimedia",
+          "origin": "collected",
+          "order": 10
+        }
+      ]
+    },
+    "google-gemini": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "google-gemini",
+      "primary": "horizontal",
+      "fingerprint": {
+        "logo.svg": "28cc6209b4258ac7",
+        "sources/iconify/google-gemini.svg": "28cc6209b4258ac7",
+        "sources/wvl/google-gemini.svg": "042e6f0f0aa74e3b"
+      },
+      "variants": [
+        {
+          "key": "horizontal",
+          "form": "horizontal",
+          "lang": "en",
+          "color": "color",
+          "label": "가로조합형",
+          "files": {
+            "svg": "sources/reviewed-requested-background-20261009/logo.svg",
+            "png": "sources/reviewed-requested-background-20261009/logo.png"
+          },
+          "aspect": 2.721,
+          "provider": "iconify",
+          "origin": "collected",
+          "order": 10,
+          "alts": [
+            {
+              "provider": "iconify",
+              "file": "sources/iconify/google-gemini.svg"
+            },
+            {
+              "provider": "wvl",
+              "file": "sources/wvl/google-gemini.svg"
+            }
+          ]
+        }
+      ]
+    },
+    "googlegemini": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "googlegemini",
+      "primary": "symbol",
+      "fingerprint": {
+        "logo.svg": "e2146505a53fa588",
+        "sources/gilbarbara/full.svg": "042e6f0f0aa74e3b"
+      },
+      "variants": [
+        {
+          "key": "horizontal",
+          "form": "horizontal",
+          "lang": "unknown",
+          "color": "color",
+          "label": "가로조합형",
+          "files": {
+            "svg": "sources/gilbarbara/full.svg"
+          },
+          "aspect": 2.727,
+          "provider": "gilbarbara",
+          "origin": "collected",
+          "order": 10
+        },
+        {
+          "key": "symbol",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "color",
+          "label": "심볼형",
+          "files": {
+            "svg": "sources/reviewed-requested-background-20261009/logo.svg",
+            "png": "sources/reviewed-requested-background-20261009/logo.png"
+          },
+          "aspect": 0.999,
+          "provider": "simpleicons/googlegemini",
+          "origin": "collected",
+          "order": 30
+        }
+      ]
+    },
+    "google-gemini-icon": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "google-gemini-icon",
+      "primary": "symbol",
+      "fingerprint": {
+        "logo.svg": "54b5a6d623d8bada",
+        "sources/gilbarbara/full.svg": "042e6f0f0aa74e3b"
+      },
+      "variants": [
+        {
+          "key": "horizontal",
+          "form": "horizontal",
+          "lang": "unknown",
+          "color": "color",
+          "label": "가로조합형",
+          "files": {
+            "svg": "sources/gilbarbara/full.svg"
+          },
+          "aspect": 2.727,
+          "provider": "gilbarbara",
+          "origin": "collected",
+          "order": 10
+        },
+        {
+          "key": "symbol",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "color",
+          "label": "심볼형",
+          "files": {
+            "svg": "sources/reviewed-requested-background-20261009/logo.svg",
+            "png": "sources/reviewed-requested-background-20261009/logo.png"
+          },
+          "aspect": 1.0,
+          "provider": "unknown",
+          "origin": "collected",
+          "order": 30
+        }
+      ]
+    }
+  }
+}

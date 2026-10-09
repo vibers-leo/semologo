@@ -5,25 +5,26 @@ import { getClientAuth } from '@/lib/firebase';
 import { CATALOG_VERSION } from '@/lib/cdn';
 import { logoPngCandidates } from '@/lib/logo-png-source';
 import { applyQualityReview } from '@/lib/logo-quality-review';
-import type { Brand } from '@/lib/brands';
+import { fetchVariants, type Brand } from '@/lib/brands';
+import { wallVariant, wallLogoKey, type WallLogo } from '@/lib/logo-wall-variant';
 import Header from '@/components/Header';
-import { logoWallLayout, defaultLogoWallLayout, logoWallMetrics, type LogoWallLayout } from '@/lib/logo-wall-layout';
+import { logoWallLayout, defaultLogoWallLayout, logoWallMetrics, wallCardBackground, wallStageBackground, type CardBackground, type LogoWallLayout } from '@/lib/logo-wall-layout';
 import styles from './LogoWallEditor.module.css';
 
 type Layout = LogoWallLayout;
 const defaultLayout = defaultLogoWallLayout;
 type Wall = { id: string; title: string; version: number; settings?: Layout };
-type Item = { brand_id: string; asset_snapshot: { name?: string; logo_png?: string | boolean; preview_png?: string; logo_svg?: string; has_png?: boolean; light?: boolean; user_logo_id?: string } };
-type SearchLogoProps = { brand: Brand; src: string; large?: boolean; background?: string };
+type Item = { brand_id: string; asset_snapshot: { scale?: number; variant_key?: string; variant_label?: string; card_background?: CardBackground; name?: string; logo_png?: string | boolean; preview_png?: string; logo_svg?: string; has_png?: boolean; light?: boolean; user_logo_id?: string } };
+type SearchLogoProps = { brand: WallLogo; src: string; large?: boolean; background?: string };
 function SearchLogo(props: SearchLogoProps) {
   return <SearchLogoImage key={`${props.brand.id}:${props.src}`} {...props} />;
 }
 function SearchLogoImage({ brand, src, large = false, background }: SearchLogoProps) {
   const [failed, setFailed] = useState(false);
   const [candidate, setCandidate] = useState(0);
-  const candidates = [...new Set([src, ...logoPngCandidates(brand)])];
-  return <span style={{ width: large ? '100%' : 80, height: large ? 'calc(var(--logo-height, 80px) + 24px)' : 48, flexShrink: 0, display: 'flex', alignItems: 'center', justifyContent: 'center', borderRadius: 6, background: background ?? (brand.light || brand.light_logo || brand.dark_variant === 'white' ? '#18181b' : '#f4f4f5') }}>
-    {failed ? <span style={{ fontSize: 11, color: '#71717a' }}>미리보기 없음</span> : <img draggable={false} src={candidates[candidate]} alt={large ? brand.name_ko : ''} width={large ? 240 : 80} height={large ? 100 : 48} decoding="async" style={{ width: large ? '85%' : 72, height: large ? 'var(--logo-height, 80px)' : 40, objectFit: 'contain' }} onError={() => candidate + 1 < candidates.length ? setCandidate(candidate + 1) : setFailed(true)} />}
+  const candidates = brand.variantKey ? [src] : [...new Set([src, ...logoPngCandidates(brand)])];
+  return <span style={{ width: large ? '100%' : 80, height: large ? 'calc(var(--logo-height, 80px) + 48px)' : 48, flexShrink: 0, display: 'flex', alignItems: 'center', justifyContent: 'center', borderRadius: 6, background: background ?? (brand.light || brand.light_logo || brand.dark_variant === 'white' ? '#18181b' : '#f4f4f5') }}>
+    {failed ? <span style={{ fontSize: 11, color: '#71717a' }}>미리보기 없음</span> : <img draggable={false} src={candidates[candidate]} alt={large ? brand.name_ko : ''} width={large ? 240 : 80} height={large ? 100 : 48} decoding="async" style={{ width: large ? '85%' : 72, height: large ? 'var(--logo-height, 80px)' : 40, objectFit: 'contain', maxWidth: large ? `${100 / ((brand.scale || 100) / 100)}%` : undefined, maxHeight: large ? `calc((var(--logo-height, 80px) + 48px) / ${(brand.scale || 100) / 100})` : undefined, transform: large ? `scale(${(brand.scale || 100) / 100})` : undefined, transformOrigin: 'center' }} onError={() => candidate + 1 < candidates.length ? setCandidate(candidate + 1) : setFailed(true)} />}
   </span>;
 }
 export default function LogoWallEditor() {
@@ -32,9 +33,14 @@ export default function LogoWallEditor() {
   const [walls, setWalls] = useState<Wall[]>([]);
   const [current, setCurrent] = useState<Wall | null>(null);
   const [title, setTitle] = useState('새 로고월');
-  const [selected, setSelected] = useState<Brand[]>([]);
+  const [selected, setSelected] = useState<WallLogo[]>([]);
   const [query, setQuery] = useState('');
-  const [results, setResults] = useState<Brand[]>([]);
+  const [results, setResults] = useState<WallLogo[]>([]);
+  const [expanded, setExpanded] = useState<Record<string, WallLogo[]>>({});
+  const [expanding, setExpanding] = useState<string | null>(null);
+  const [formFilter, setFormFilter] = useState('all');
+  const [focused, setFocused] = useState<string | null>(null);
+  const resizing = useRef<{ key: string; pointer: number; x: number; y: number; scale: number } | null>(null);
   const [busy, setBusy] = useState(false);
   const [message, setMessage] = useState('');
   const [layout, setLayout] = useState<Layout>(defaultLayout);
@@ -52,6 +58,7 @@ export default function LogoWallEditor() {
   const [dropTarget, setDropTarget] = useState<string | null>(null);
   function stopDrag() { drag.current = null; setDragging(null); setDropTarget(null); }
   function startDrag(e: PointerEvent<HTMLElement>, id: string) {
+    setFocused(id);
     if (busy || selected.length < 2 || !e.isPrimary || e.button !== 0) return;
     e.currentTarget.setPointerCapture(e.pointerId);
     drag.current = { id, pointer: e.pointerId, x: e.clientX, y: e.clientY, target: null, moved: false };
@@ -73,8 +80,8 @@ export default function LogoWallEditor() {
     if (!item || item.pointer !== e.pointerId) return;
     if (item.moved && item.target && item.target !== item.id && !busy) {
       setSelected(items => {
-        const from = items.findIndex(b => b.id === item.id);
-        const to = items.findIndex(b => b.id === item.target);
+        const from = items.findIndex(b => wallLogoKey(b) === item.id);
+        const to = items.findIndex(b => wallLogoKey(b) === item.target);
         if (from < 0 || to < 0) return items;
         const next = [...items]; const [brand] = next.splice(from, 1); next.splice(to, 0, brand); return next;
       });
@@ -83,12 +90,52 @@ export default function LogoWallEditor() {
     stopDrag();
     if (e.currentTarget.hasPointerCapture(e.pointerId)) e.currentTarget.releasePointerCapture(e.pointerId);
   }
-  const fingerprint = JSON.stringify({ title, ids: selected.map(b => b.id), layout });
+  const fingerprint = JSON.stringify({ title, ids: selected.map(b => [wallLogoKey(b), b.cardBackground, b.scale || 100]), layout });
   const dirty = fingerprint !== (saved || JSON.stringify({ title: '새 로고월', ids: [], layout: defaultLayout }));
   const canSwitch = () => !dirty || window.confirm('저장하지 않은 변경사항이 있어요. 다른 로고월로 이동할까요?');
-  const reset = () => { setPresentation(false); setPaused(false); setCurrent(null); setTitle('새 로고월'); setSelected([]); setLayout(defaultLayout); setSaved(''); setMessage(''); };
-  function move(index: number, direction: number) {
-    setSelected(items => { const next = [...items]; const to = index + direction; if (to < 0 || to >= next.length) return items; [next[index], next[to]] = [next[to], next[index]]; return next; });
+  const reset = () => { setPresentation(false); setPaused(false); setFocused(null); setCurrent(null); setTitle('새 로고월'); setSelected([]); setLayout(defaultLayout); setSaved(''); setMessage(''); };
+  function setLogoScale(key: string, scale: number) { setSelected(s => s.map(b => wallLogoKey(b) === key ? { ...b, scale: Math.max(50, Math.min(150, Math.round(scale))) } : b)); }
+  function startResize(e: PointerEvent<HTMLElement>, b: WallLogo) {
+    e.stopPropagation(); if (busy || !e.isPrimary || e.button !== 0) return;
+    const key = wallLogoKey(b); setFocused(key); setDragging(key);
+    resizing.current = { key, pointer: e.pointerId, x: e.clientX, y: e.clientY, scale: b.scale || 100 };
+    e.currentTarget.setPointerCapture(e.pointerId);
+  }
+  function resizeMove(e: PointerEvent<HTMLElement>) {
+    const r = resizing.current; if (r && r.pointer === e.pointerId) setLogoScale(r.key, r.scale + ((e.clientX - r.x) + (e.clientY - r.y)) * .35);
+  }
+  function stopResize() { resizing.current = null; setDragging(null); }
+  async function autoFit() {
+    await run(async () => {
+      const measured = await Promise.all(selected.map(async b => {
+        const img = new Image(); img.crossOrigin = 'anonymous'; img.src = preview(b);
+        try { await Promise.race([img.decode(), new Promise((_, reject) => setTimeout(() => reject(new Error('timeout')), 6000))]); }
+        catch { img.removeAttribute('crossorigin'); try { await Promise.race([img.decode(), new Promise((_, reject) => setTimeout(() => reject(new Error('timeout')), 6000))]); } catch { return { b, area: 0, maxScale: 100 }; } }
+        const c = document.createElement('canvas'); c.width = 160; c.height = 160;
+        const ctx = c.getContext('2d', { willReadFrequently: true }); if (!ctx) return { b, area: 0, maxScale: 100 };
+        const ratio = img.naturalWidth / img.naturalHeight;
+        const w = ratio > 1 ? 160 : 160 * ratio, h = ratio > 1 ? 160 / ratio : 160;
+        ctx.drawImage(img, (160-w)/2, (160-h)/2, w, h);
+        let left = 160, right = 0, top = 160, bottom = 0;
+        try {
+          const pixels = ctx.getImageData(0, 0, 160, 160).data;
+          for (let y=0; y<160; y++) for (let x=0; x<160; x++) { const n=(y*160+x)*4;
+            if (pixels[n+3] > 40 && !(pixels[n]>245 && pixels[n+1]>245 && pixels[n+2]>245 && !b.light)) { left=Math.min(left,x);right=Math.max(right,x);top=Math.min(top,y);bottom=Math.max(bottom,y); }
+          }
+        } catch { left=(160-w)/2;right=left+w;top=(160-h)/2;bottom=top+h; }
+        if (right <= left || bottom <= top) { left=(160-w)/2;right=left+w;top=(160-h)/2;bottom=top+h; }
+        const box = document.querySelector<HTMLElement>(`[data-logo-wall-item="${CSS.escape(wallLogoKey(b))}"]`);
+        const availableW = Math.max(80, box?.clientWidth || 200) * .85;
+        const availableH = logoWallMetrics.logoSize[layout.logoSize];
+        const fit = Math.min(availableW/img.naturalWidth, availableH/img.naturalHeight);
+        const visibleW = (right-left)/w * img.naturalWidth * fit, visibleH = (bottom-top)/h * img.naturalHeight * fit;
+        return { b, area: visibleW*visibleH, maxScale: Math.min(150, availableW/visibleW*110, (availableH+24)/visibleH*100) };
+      }));
+      const areas = measured.filter(m => m.area > 0).map(m => m.area).sort((a,b)=>a-b);
+      const target = areas[Math.floor(areas.length/2)] || 0;
+      setSelected(items => items.map(b => { const m=measured.find(m=>wallLogoKey(m.b)===wallLogoKey(b)); return m?.area && target ? { ...b, scale: Math.round(Math.max(50, Math.min(m.maxScale, 100*Math.sqrt(target/m.area)))) } : b; }));
+      setMessage('로고의 그림 영역과 비율을 기준으로 크기를 맞췄어요. 모서리나 크기 슬라이더로 더 다듬어 보세요.');
+    });
   }
   useEffect(() => onAuthStateChanged(getClientAuth(), u => {
     setUser(u); setReady(true); setPresentation(false); setPaused(false); setTitle('새 로고월'); setUploadName(''); setUploadFile(null); setQuery(''); setWalls([]); setCurrent(null); setSelected([]); setLayout(defaultLayout); setSaved('');
@@ -158,15 +205,31 @@ export default function LogoWallEditor() {
     }, 300);
     return () => { clearTimeout(timer); abort.abort(); };
   }, [query]);
-  const preview = (b: Brand) => logoPngCandidates(b)[0];
+  useEffect(() => {
+    if (formFilter === 'all' || !results.length) return;
+    let active = true;
+    void Promise.all(results.map(async b => {
+      const manifest = await fetchVariants(b.id);
+      return [b.id, (manifest?.variants || []).map(v => { const logo = wallVariant(b,v); return logo ? { ...logo, category: v.form } as WallLogo : null; }).filter((v): v is WallLogo => Boolean(v))] as const;
+    })).then(rows => { if (active) setExpanded(v => ({ ...v, ...Object.fromEntries(rows) })); });
+    return () => { active = false; };
+  }, [results, formFilter]);
+  const preview = (b: WallLogo) => logoPngCandidates(b)[0];
   async function open(w: Wall) {
     if (!canSwitch()) return;
     await run(async () => {
       const d = await api('GET', w.id);
-      const items = await Promise.all(d.wall.items.map(async (i: Item) => i.asset_snapshot.user_logo_id ? privateBrand(i.asset_snapshot.user_logo_id, i.asset_snapshot.name || '내 로고') : applyQualityReview({ id: i.brand_id, name_ko: i.asset_snapshot.name || i.brand_id, name_en: '', category: '', logo_png: i.asset_snapshot.logo_png, preview_png: i.asset_snapshot.preview_png, logo_svg: i.asset_snapshot.logo_svg, has_png: i.asset_snapshot.has_png, light: i.asset_snapshot.light })));
+      const items: WallLogo[] = await Promise.all(d.wall.items.map(async (i: Item) => {
+        const snap = i.asset_snapshot;
+        const base = snap.user_logo_id ? await privateBrand(snap.user_logo_id, snap.name || '내 로고') : {
+          id: i.brand_id, name_ko: snap.name || i.brand_id, name_en: '', category: '', logo_png: snap.logo_png,
+          preview_png: snap.preview_png, logo_svg: snap.logo_svg, has_png: snap.has_png, light: snap.light,
+        } as Brand;
+        return { ...(snap.variant_key ? base : applyQualityReview(base)), variantKey: snap.variant_key, variantLabel: snap.variant_label, scale: snap.scale || 100, cardBackground: snap.card_background };
+      }));
       const settings = logoWallLayout(d.wall.settings);
-      setCurrent(d.wall); setTitle(d.wall.title); setSelected(items); setLayout(settings);
-      setSaved(JSON.stringify({ title: d.wall.title, ids: items.map((b: Brand) => b.id), layout: settings }));
+      setFocused(null); setCurrent(d.wall); setTitle(d.wall.title); setSelected(items); setLayout(settings);
+      setSaved(JSON.stringify({ title: d.wall.title, ids: items.map(b => [wallLogoKey(b), b.cardBackground, b.scale || 100]), layout: settings }));
     });
   }
   async function download() {
@@ -181,13 +244,27 @@ export default function LogoWallEditor() {
   }
   async function save() {
     await run(async () => {
-      const d = await api(current ? 'PUT' : 'POST', current?.id, { title, brandIds: selected.map(b => b.id), version: current?.version, settings: layout });
+      const d = await api(current ? 'PUT' : 'POST', current?.id, { title, items: selected.map(b => ({ brandId: b.id, variantKey: b.variantKey, cardBackground: b.cardBackground || 'inherit', scale: b.scale || 100 })), version: current?.version, settings: layout });
       setCurrent(d.wall); setTitle(d.wall.title);
-      setSaved(JSON.stringify({ title: d.wall.title, ids: selected.map(b => b.id), layout }));
+      setSaved(JSON.stringify({ title: d.wall.title, ids: selected.map(b => [wallLogoKey(b), b.cardBackground, b.scale || 100]), layout }));
       setWalls((await api()).walls); setMessage('저장했어요.');
     });
   }
-  return <><Header /><main className={styles.page} style={{ '--logo-height': `${logoWallMetrics.logoSize[layout.logoSize]}px`, '--wall-gap': `${logoWallMetrics.spacing[layout.spacing]}px` } as CSSProperties}>
+  async function expandBrand(b: Brand) {
+    if (expanded[b.id]) { setExpanded(v => { const next = { ...v }; delete next[b.id]; return next; }); return; }
+    setExpanding(b.id);
+    try {
+      const manifest = await fetchVariants(b.id);
+      const choices = (manifest?.variants || []).map(v => ({ ...v, label: `${v.label} · ${{ symbol: '심볼마크', horizontal: '가로 조합형', vertical: '세로 조합형', wordmark: '로고타입', emblem: '엠블럼', typography: '타이포그래피', mascot: '마스코트', unknown: '기타' }[v.form]}` }));
+      const variants = choices.map((v): WallLogo | null => { const logo = wallVariant(b, v); return logo ? { ...logo, category: v.form } : null; }).filter((v): v is WallLogo => Boolean(v));
+      setExpanded(v => ({ ...v, [b.id]: variants }));
+      if (!variants.length) setMessage('이 브랜드는 기본 로고만 준비돼 있어요.');
+    } finally { setExpanding(null); }
+  }
+  function addLogo(b: WallLogo) { setSelected(s => s.length >= 100 || s.some(v => wallLogoKey(v) === wallLogoKey(b)) ? s : [...s, b]); }
+  function setCardBackground(key: string, background: CardBackground) { setSelected(s => s.map(b => wallLogoKey(b) === key ? { ...b, cardBackground: background } : b)); }
+  const cardBackground = (b: WallLogo) => wallCardBackground(layout, Boolean(b.light || b.light_logo || b.dark_variant === 'white'), b.cardBackground);
+  return <><Header /><main className={styles.page} style={{ '--wall-columns': layout.columns, '--logo-height': `${logoWallMetrics.logoSize[layout.logoSize]}px`, '--wall-gap': `${logoWallMetrics.spacing[layout.spacing]}px` } as CSSProperties}>
     <div className={styles.heading}><div><span className={styles.eyebrow}>MY LOGO WALL</span><h1>로고를 모아, 나만의 로고월로.</h1><p>브랜드를 고르고 배치를 조정해 보세요. 만든 로고월은 내 계정에 저장돼요.</p></div>
       {user && <button className={styles.primary} disabled={busy || !title.trim() || !selected.length} onClick={save}>{busy ? '처리 중…' : '로고월 저장하기'}</button>}
     </div>
@@ -197,26 +274,30 @@ export default function LogoWallEditor() {
         <section hidden={presentation} className={styles.library} aria-label="로고 선택">
           <div className={styles.sectionTitle}><h2>1. 로고 선택</h2><span>{selected.length}/100</span></div>
           <label className={styles.field}>브랜드 검색<input placeholder="삼성, 네이버, Nike…" value={query} onChange={e => setQuery(e.target.value)} /></label>
-          <p className={styles.hint}>로고를 누르면 오른쪽 미리보기에 추가돼요.</p>
+          <p className={styles.hint}>기본 로고나 심볼·로고타입을 골라 추가해 보세요. 같은 브랜드의 다른 변형도 함께 넣을 수 있어요.</p>
           {searching ? <p role="status">로고를 찾고 있어요…</p> : query.trim() && !results.length ? <div className={styles.empty}>검색 결과가 없어요.<br /><a href="/submit/">없는 로고 제보하기 →</a></div> : !query.trim() ? <div className={styles.empty}>함께 보여주고 싶은<br />브랜드 이름을 검색해 보세요.</div> : null}
-          <div className={styles.results} aria-label="브랜드 검색 결과">{results.map(b => {
-            const added = selected.some(s => s.id === b.id);
-            return <button key={b.id} className={styles.result} disabled={busy || selected.length >= 100 || added} onClick={() => setSelected(s => [...s, b])}><SearchLogo brand={b} src={preview(b)} /><span>{b.name_ko}<small>{added ? '✓ 추가됨' : '＋ 추가하기'}</small></span></button>;
-          })}</div>
+          <label className={styles.field}>로고 형태<select aria-label="검색 로고 형태" value={formFilter} onChange={e => setFormFilter(e.target.value)}><option value="all">모든 형태</option><option value="symbol">심볼마크</option><option value="wordmark">로고타입</option><option value="horizontal">가로 조합형</option><option value="emblem">엠블럼</option></select></label>
+          <div className={styles.results} aria-label="브랜드 검색 결과">{results.map(b => <div key={b.id}>
+            <button className={styles.result} disabled={busy || selected.length >= 100 || selected.some(s => wallLogoKey(s) === wallLogoKey(b))} onClick={() => addLogo(b)}><SearchLogo brand={b} src={preview(b)} /><span>{b.name_ko}<small>{selected.some(s => wallLogoKey(s) === wallLogoKey(b)) ? '✓ 기본 로고 추가됨' : '＋ 기본 로고 추가'}</small></span></button>
+            <button className={styles.variantToggle} disabled={expanding === b.id} aria-expanded={Boolean(expanded[b.id])} onClick={() => void expandBrand(b)}>{expanding === b.id ? '변형을 찾고 있어요…' : expanded[b.id] ? '로고 변형 접기' : '심볼·로고타입 선택하기'}</button>
+            {expanded[b.id]?.filter(v => formFilter === 'all' || v.category === formFilter).map(v => <button key={wallLogoKey(v)} className={styles.result} disabled={busy || selected.length >= 100 || selected.some(s => wallLogoKey(s) === wallLogoKey(v))} onClick={() => addLogo(v)}><SearchLogo brand={v} src={preview(v)} /><span>{v.variantLabel}<small>{selected.some(s => wallLogoKey(s) === wallLogoKey(v)) ? '✓ 추가됨' : '＋ 이 로고 추가'}</small></span></button>)}
+            {expanded[b.id] && !expanded[b.id].some(v => formFilter === 'all' || v.category === formFilter) && <p className={styles.hint}>선택한 형태의 변형이 없어요.</p>}
+          </div>)}</div>
           <hr style={{ margin: '24px 0', borderColor: '#e4e4e7' }} />
           <h2 style={{ fontSize: 16 }}>내 로고·다른 로고 등록</h2>
-          <p className={styles.hint}>PNG를 등록하면 로고월에서 바로 활용할 수 있어요. 원하시면 세모로고에도 등록해드려요.</p>
+          <p className={styles.hint}>올린 PNG는 내 계정에만 보관돼요. 공개 검색이나 CMS 검수 목록에는 자동 등록되지 않아요.</p>
           <label className={styles.field}>로고 이름<input maxLength={120} value={uploadName} onChange={e => setUploadName(e.target.value)} disabled={busy} /></label>
           <label className={styles.field}>PNG 파일 (최대 2MB)<input ref={uploadInput} type="file" accept="image/png" disabled={busy} onChange={e => setUploadFile(e.target.files?.[0] ?? null)} /></label>
-          <button disabled={busy || !uploadFile || !uploadName.trim()} onClick={upload}>등록하고 추가하기</button>
-          <p className={styles.hint}>계정당 최대 20개 · <a href="/submit/">세모로고 등록 요청하기 →</a></p>
+          <button disabled={busy || !uploadFile || !uploadName.trim()} onClick={upload}>내 로고에 보관하고 추가</button>
+          <p className={styles.hint}>계정당 최대 20개 · <a href="/submit/">공개 등록은 별도로 제보하기 →</a></p>
           <div className={styles.results}>{myLogos.map(b => <button key={b.id} className={styles.result} disabled={busy || selected.length >= 100 || selected.some(s => s.id === b.id)} onClick={() => setSelected(s => [...s, b])}><SearchLogo brand={b} src={preview(b)} /><span>{b.name_ko}</span></button>)}</div>
         </section>
         <section className={styles.editor} aria-label="로고월 편집">
           <div className={styles.sectionTitle}><h2>{presentation ? title : '2. 배치와 미리보기'}</h2><button disabled={!selected.length && !presentation} aria-pressed={presentation} onClick={() => setPresentation(p => !p)}>{presentation ? '편집으로 돌아가기' : '로고월만 보기'}</button><span className={styles.saveState}>{dirty ? '저장하지 않은 변경사항' : current ? '저장됨 · 비공개' : '새 로고월 · 비공개'}</span></div>
           <label hidden={presentation} className={styles.field}>로고월 제목<input maxLength={120} value={title} disabled={busy} onChange={e => setTitle(e.target.value)} /></label>
           <div hidden={presentation} className={styles.controls}>
-            <label>배경<select aria-label="로고월 배경" value={layout.background} disabled={busy} onChange={e => setLayout(l => ({ ...l, background: e.target.value as Layout['background'] }))}><option value="auto">로고에 맞게</option><option value="light">밝게</option><option value="dark">어둡게</option></select></label>
+            <label>바깥 배경<select aria-label="로고월 배경" value={layout.background} disabled={busy} onChange={e => setLayout(l => ({ ...l, background: e.target.value as Layout['background'] }))}><option value="auto">연회색</option><option value="light">흰색</option><option value="dark">검정</option></select></label>
+            <label>카드 배경<select aria-label="카드 배경" value={layout.cardBackground} disabled={busy} onChange={e => setLayout(l => ({ ...l, cardBackground: e.target.value as Layout['cardBackground'] }))}><option value="auto">로고에 맞게</option><option value="white">흰색</option><option value="light">연회색</option><option value="dark">검정</option></select></label>
             <label>한 줄 배치<select aria-label="한 줄 로고 개수" value={layout.columns} disabled={busy} onChange={e => setLayout(l => ({ ...l, columns: Number(e.target.value) }))}>{[2,3,4,6].map(n => <option key={n} value={n}>{n}개</option>)}</select></label>
             <label>움직임<select aria-label="로고월 움직임" value={layout.motion} disabled={busy} onChange={e => { setPaused(false); setLayout(l => ({ ...l, motion: e.target.value as Layout['motion'] })); }}><option value="static">정지</option><option value="marquee">한 방향 마퀴</option><option value="alternating">줄마다 반대 방향 마퀴</option></select></label>
             <label>속도<select aria-label="마퀴 속도" value={layout.speed} disabled={busy || layout.motion === 'static'} onChange={e => setLayout(l => ({ ...l, speed: e.target.value as Layout['speed'] }))}><option value="slow">천천히</option><option value="normal">보통</option><option value="fast">빠르게</option></select></label>
@@ -227,26 +308,33 @@ export default function LogoWallEditor() {
             <button disabled={busy || !current} onClick={() => { setCurrent(null); setSaved(''); setTitle(`${title} 복사`); setMessage('저장하면 별도 로고월이 만들어져요.'); }}>복제하기</button>
           </div>
           <div hidden={presentation} className={styles.presets} aria-label="추천 로고월 스타일"><span>추천 스타일</span><button disabled={busy} onClick={() => setLayout({ ...defaultLayout, appearance: 'clean', spacing: 'airy', showNames: false })}>파트너 로고월</button><button disabled={busy} onClick={() => setLayout({ ...defaultLayout, appearance: 'cards', showNames: true })}>브랜드 카드</button><button disabled={busy} onClick={() => setLayout({ ...defaultLayout, appearance: 'clean', motion: 'alternating', showNames: false })}>움직이는 로고월</button></div>
+          <div hidden={presentation} className={styles.selectionBar}>
+            <button disabled={busy || !selected.length} onClick={() => void autoFit()}>✦ 크기 자동 맞춤</button>
+            <span>카드를 끌어 배치하고, 선택한 로고의 모서리를 끌어 크기를 조절해요.</span>
+          </div>
+          {!presentation && focused && selected.some(b => wallLogoKey(b) === focused) && (() => { const b = selected.find(b => wallLogoKey(b) === focused)!; return <div className={styles.inspector} aria-label="선택한 로고 설정"><strong>{b.name_ko}{b.variantLabel ? ` · ${b.variantLabel}` : ''}</strong><label>로고 크기 <input aria-label="선택한 로고 크기" disabled={busy} type="range" min="50" max="150" value={b.scale || 100} onChange={e => setLogoScale(focused, Number(e.target.value))} /><output>{b.scale || 100}%</output></label><label>카드 배경 <select aria-label="선택한 카드 배경" disabled={busy} value={b.cardBackground || 'inherit'} onChange={e => setCardBackground(focused,e.target.value as CardBackground)}><option value="inherit">전체 설정</option><option value="white">흰색</option><option value="light">연회색</option><option value="dark">검정</option></select></label><button disabled={busy} onClick={() => setLogoScale(focused,100)}>크기 초기화</button><button disabled={busy} onClick={() => { setSelected(s=>s.filter(v=>wallLogoKey(v)!==focused));setFocused(null); }}>제거</button></div>; })()}
           {selected.length > 0 && layout.motion !== 'static' && <section aria-label="움직임 미리보기">
             <div className={styles.sectionTitle}><h2>움직임 미리보기</h2><button onClick={() => setPaused(p => !p)} aria-pressed={paused}>{paused ? '재생하기' : '일시정지'}</button></div>
-            <div className={styles.motionStage} data-appearance={layout.appearance} style={{ background: layout.background === 'dark' ? '#18181b' : '#fff' }}>
+            <div className={styles.motionStage} data-logo-wall data-appearance={layout.appearance} style={{ background: wallStageBackground(layout) }}>
               {Array.from({ length: layout.motion === 'alternating' ? Math.min(3, selected.length, Math.max(2, Math.ceil(selected.length / layout.columns))) : 1 }, (_, row) => {
                 const rows = layout.motion === 'alternating' ? Math.min(3, selected.length, Math.max(2, Math.ceil(selected.length / layout.columns))) : 1;
                 const logos = selected.filter((_, i) => i % rows === row);
                 const repeated = Array.from({ length: Math.max(1, Math.ceil(8 / logos.length)) }, () => logos).flat();
-                return <div className={styles.motionRow} key={row}><div className={styles.motionTrack} style={{ animationDuration: `${{ slow: 48, normal: 28, fast: 14 }[layout.speed]}s`, animationDirection: row % 2 ? 'reverse' : 'normal', animationPlayState: paused ? 'paused' : 'running' }}>
-                  {[0, 1].map(copy => <div className={styles.motionGroup} key={copy} aria-hidden="true">{repeated.map((b, i) => <div className={styles.motionLogo} key={`${b.id}-${i}`}><SearchLogo brand={b} src={preview(b)} large background={layout.background === 'dark' ? '#18181b' : layout.background === 'light' ? '#fff' : undefined} /></div>)}</div>)}
+                return <div className={styles.motionRow} key={row}><div className={styles.motionTrack} style={{ animationDuration: `${{ slow: 48, normal: 28, fast: 14 }[layout.speed]}s`, animationDirection: row % 2 ? 'reverse' : 'normal', animationPlayState: paused || dragging ? 'paused' : 'running' }}>
+                  {[0, 1].map(copy => <div className={styles.motionGroup} key={copy} aria-hidden={copy === 1 || undefined}>{repeated.map((b, i) => <div className={`${styles.motionLogo} ${styles.dragSurface}`} key={`${wallLogoKey(b)}-${i}`} data-logo-wall-item={wallLogoKey(b)} data-selected={focused === wallLogoKey(b) || undefined} data-dragging={dragging === wallLogoKey(b) || undefined} data-drop-target={dropTarget === wallLogoKey(b) || undefined} style={{ background: cardBackground(b) }} onPointerDown={e => { if (!presentation) startDrag(e, wallLogoKey(b)); }} onPointerMove={dragMove} onPointerUp={endDrag} onPointerCancel={stopDrag} onLostPointerCapture={stopDrag} title={presentation ? b.name_ko : `${b.name_ko} · 끌어서 순서 변경`}><SearchLogo brand={b} src={preview(b)} large background="transparent" />{layout.showNames && <span className={styles.motionCaption}>{b.name_ko}</span>}{!presentation && <button className={styles.resizeHandle} aria-label={`${b.name_ko} 미리보기 크기 조절`} disabled={busy} onPointerDown={e => startResize(e,b)} onPointerMove={resizeMove} onPointerUp={stopResize} onPointerCancel={stopResize} onLostPointerCapture={stopResize}>↘</button>}</div>)}</div>)}
                 </div></div>;
               })}
-            </div><ul className={layout.showNames ? styles.motionNames : styles.srOnly}>{selected.map(b => <li key={b.id}>{b.name_ko}</li>)}</ul><p hidden={presentation} className={styles.hint}>아래에서 순서를 편집하세요. 움직임과 속도도 함께 저장돼요. 기기의 움직임 줄이기 설정을 따라요.</p>
+            </div><ul className={styles.srOnly}>{selected.map(b => <li key={wallLogoKey(b)}>{b.name_ko}{b.variantLabel ? ` · ${b.variantLabel}` : ''}</li>)}</ul><p hidden={presentation} className={styles.hint}>움직이는 로고를 바로 끌어 순서를 바꿔보세요. 드래그하는 동안 움직임이 멈춰요. 기기의 움직임 줄이기 설정을 따라요.</p>
           </section>}
-          <div hidden={presentation && layout.motion !== 'static'} className={styles.canvas} data-dark={layout.background === 'dark' || undefined} data-presentation={presentation || undefined} data-appearance={layout.appearance} style={{ background: layout.background === 'dark' ? '#18181b' : '#fff' }}>
-            {!selected.length ? <div className={styles.emptyCanvas}><span>＋</span><h3>첫 번째 로고를 추가해 보세요</h3><p>파트너·고객사·좋아하는 브랜드를 한곳에 모아보세요.</p></div> : <div className={styles.wall} data-logo-wall style={{ gridTemplateColumns: `repeat(${layout.columns}, minmax(0, 1fr))` }}>{selected.map((b, index) => <div className={styles.tile} key={b.id} data-logo-wall-item={b.id} data-dragging={dragging === b.id || undefined} data-drop-target={dropTarget === b.id || undefined}>
-              <div className={`${styles.logo} ${styles.dragSurface}`} onPointerDown={e => { if (!presentation) startDrag(e, b.id); }} onPointerMove={dragMove} onPointerUp={endDrag} onPointerCancel={stopDrag} onLostPointerCapture={stopDrag}><SearchLogo brand={b} src={preview(b)} large background={layout.background === 'dark' || (layout.background === 'auto' && (b.light || b.light_logo || b.dark_variant === 'white')) ? '#18181b' : '#fff'} /></div>
-              <div hidden={presentation && !layout.showNames} className={styles.caption}><span>{b.name_ko}</span><div hidden={presentation}><button aria-label={`${b.name_ko} 앞으로 이동`} disabled={busy || index === 0} onClick={() => move(index, -1)}>←</button><button aria-label={`${b.name_ko} 뒤로 이동`} disabled={busy || index === selected.length - 1} onClick={() => move(index, 1)}>→</button><button aria-label={`${b.name_ko} 제거`} disabled={busy} onClick={() => setSelected(s => s.filter((_, i) => i !== index))}>×</button></div></div>
+          <div hidden={presentation && layout.motion !== 'static'} className={styles.canvas} data-dark={layout.background === 'dark' || undefined} data-presentation={presentation || undefined} data-appearance={layout.appearance} style={{ background: wallStageBackground(layout) }}>
+            {!selected.length ? <div className={styles.emptyCanvas}><span>＋</span><h3>첫 번째 로고를 추가해 보세요</h3><p>파트너·고객사·좋아하는 브랜드를 한곳에 모아보세요.</p></div> : <div className={styles.wall} data-logo-wall style={{ gridTemplateColumns: `repeat(${layout.columns}, minmax(0, 1fr))` }}>{selected.map((b, index) => <div className={styles.tile} key={wallLogoKey(b)} data-logo-wall-item={wallLogoKey(b)} data-selected={focused === wallLogoKey(b) || undefined} data-dragging={dragging === wallLogoKey(b) || undefined} data-drop-target={dropTarget === wallLogoKey(b) || undefined} style={{ background: cardBackground(b) }}>
+              <div className={`${styles.logo} ${styles.dragSurface}`} tabIndex={presentation ? -1 : 0} role="button" aria-label={`${b.name_ko} 선택 및 이동`} onClick={() => setFocused(wallLogoKey(b))} onKeyDown={e => { if (presentation) return; const delta=e.key==='ArrowLeft'?-1:e.key==='ArrowRight'?1:0; if (delta) { e.preventDefault();setSelected(s=>{ const n=[...s],to=index+delta;if(to>=0&&to<n.length)[n[index],n[to]]=[n[to],n[index]];return n; }); } if(e.key==='Enter'||e.key===' ') { e.preventDefault();setFocused(wallLogoKey(b)); } }} onPointerDown={e => { if (!presentation) startDrag(e, wallLogoKey(b)); }} onPointerMove={dragMove} onPointerUp={endDrag} onPointerCancel={stopDrag} onLostPointerCapture={stopDrag}><SearchLogo brand={b} src={preview(b)} large background="transparent" /></div>
+              {layout.showNames && <div className={styles.caption}><span>{b.name_ko}</span>{b.variantLabel && <small>{b.variantLabel}</small>}</div>}
+              {!presentation && <><button className={styles.removeLogo} aria-label={`${b.name_ko} 제거`} disabled={busy} onClick={() => setSelected(s => s.filter((_, i) => i !== index))}>×</button><button className={styles.resizeHandle} aria-label={`${b.name_ko} 크기 조절`} title="드래그하거나 방향키로 크기 조절" disabled={busy} onPointerDown={e => startResize(e,b)} onPointerMove={resizeMove} onPointerUp={stopResize} onPointerCancel={stopResize} onLostPointerCapture={stopResize} onKeyDown={e => { if (['ArrowRight','ArrowUp','ArrowLeft','ArrowDown'].includes(e.key)) { e.preventDefault();setFocused(wallLogoKey(b));setLogoScale(wallLogoKey(b),(b.scale || 100)+(['ArrowRight','ArrowUp'].includes(e.key)?5:-5)); } }}>↘</button></>}
+
             </div>)}</div>}
           </div>
-          <p hidden={presentation} className={styles.hint}>로고를 끌어서 순서를 바꿔보세요. 화살표로도 이동할 수 있어요. 배경과 배치도 함께 저장돼요.</p>
+          <p hidden={presentation} className={styles.hint}>로고를 끌어서 순서를 바꿔보세요. 카드를 선택하면 크기와 배경을 바꿀 수 있어요. 배경이 포함된 PNG는 흰색 카드에 놓으면 자연스러워요. 카드마다 배경을 따로 고를 수도 있어요.</p>
           <div className={styles.footer}><button disabled={busy || !current || dirty} onClick={download}>로고월 ZIP 다운로드</button><span>최대 100개 · 저장 후 ZIP 다운로드</span>{current && <button className={styles.danger} disabled={busy} onClick={() => { if (window.confirm('이 로고월을 삭제할까요?')) void run(async () => { await api('DELETE', current.id); reset(); setWalls((await api()).walls); setMessage('삭제했어요.'); }); }}>로고월 삭제</button>}</div>
         </section>
       </div>

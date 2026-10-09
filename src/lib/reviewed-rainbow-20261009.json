@@ -1,0 +1,99 @@
+{
+  "patches": {
+    "rainbowrobotics": {
+      "hidden": false,
+      "hidden_reason": null,
+      "name_ko": "레인보우로보틱스",
+      "name_en": "Rainbow Robotics",
+      "category": "제조·그룹",
+      "origin": "KR",
+      "logo_svg": "sources/official-user-ci-20261009/black.svg",
+      "svg_transparent": "sources/official-user-ci-20261009/black.svg",
+      "logo_png": "sources/official-user-ci-20261009/black.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/rainbowrobotics/sources/official-user-ci-20261009/black.png",
+      "dark_png": "sources/official-user-ci-20261009/white.png",
+      "has_svg": true,
+      "has_png": true,
+      "light": false,
+      "light_logo": false,
+      "dark_variant": false,
+      "presentation": {
+        "file": "sources/official-user-ci-20261009/black.png",
+        "bg": "light"
+      },
+      "asset_review_status": "verified",
+      "asset_origin": "official",
+      "official_source_page": "https://rainbow-robotics.com/고객지원/자료실/media-kit/",
+      "original_ai_url": "https://logo.vibers.co.kr/_clients/rainbowrobotics/sources/official-user-ci-20261009/black.ai",
+      "sources": [
+        {
+          "provider": "official-user-ai",
+          "file": "sources/official-user-ci-20261009/black.ai",
+          "label": "블랙 AI 원본"
+        },
+        {
+          "provider": "official-user-ai",
+          "file": "sources/official-user-ci-20261009/white.ai",
+          "label": "화이트 AI 원본"
+        },
+        {
+          "provider": "official-user-ai",
+          "file": "sources/official-user-ci-20261009/all-white.ai",
+          "label": "올 화이트 AI 원본"
+        }
+      ]
+    }
+  },
+  "variants": {
+    "rainbowrobotics": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "rainbowrobotics",
+      "primary": "official-black",
+      "variants": [
+        {
+          "key": "official-black",
+          "form": "horizontal",
+          "lang": "en",
+          "color": "black",
+          "label": "블랙 로고",
+          "files": {
+            "svg": "sources/official-user-ci-20261009/black.svg",
+            "png": "sources/official-user-ci-20261009/black.png"
+          },
+          "provider": "레인보우로보틱스 공식 Media Kit · 사용자 제공 AI",
+          "origin": "collected",
+          "order": 0
+        },
+        {
+          "key": "official-white",
+          "form": "horizontal",
+          "lang": "en",
+          "color": "white",
+          "label": "화이트 로고 · 컬러 심볼",
+          "files": {
+            "svg": "sources/official-user-ci-20261009/white.svg",
+            "png": "sources/official-user-ci-20261009/white.png"
+          },
+          "provider": "레인보우로보틱스 공식 Media Kit · 사용자 제공 AI",
+          "origin": "collected",
+          "order": 1
+        },
+        {
+          "key": "official-all-white",
+          "form": "horizontal",
+          "lang": "en",
+          "color": "white",
+          "label": "올 화이트 로고",
+          "files": {
+            "svg": "sources/official-user-ci-20261009/all-white.svg",
+            "png": "sources/official-user-ci-20261009/all-white.png"
+          },
+          "provider": "레인보우로보틱스 공식 Media Kit · 사용자 제공 AI",
+          "origin": "collected",
+          "order": 2
+        }
+      ]
+    }
+  }
+}

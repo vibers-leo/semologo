@@ -16,7 +16,7 @@ function load(file){
  const code=ts.transpileModule(fs.readFileSync(file,'utf8'),{compilerOptions:{module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2020,esModuleInterop:true}}).outputText;
  const localRequire=(name)=>{
   if(name==='pg')return{Pool};
-  if(name==='@/lib/brands')return{fetchBrandsSlim:async()=>[],sortForGrid:load('src/lib/brands.ts').sortForGrid};
+  if(name==='@/lib/brands')return{fetchVariants:async id=>load('src/lib/reviewed-logo-assets.ts').reviewedVariants[id] || null,fetchBrandsSlim:async()=>[],sortForGrid:load('src/lib/brands.ts').sortForGrid};
   if(name==='sharp')return input=>{const chain={resize:()=>chain,timeout:()=>chain,png:()=>chain,toBuffer:async()=>input};return chain;};
   if(name==='@/app/api/logo-preview/route')return{GET:async()=>new Response(png)};
   if(name==='@/lib/logo-owner')return{logoOwner:async()=>owner};
@@ -73,6 +73,20 @@ async function main(){
  const review=JSON.parse(fs.readFileSync(path.join(root,'src/lib/logo-quality-review.json'),'utf8'));
  const id=Object.keys(review).find(id=>review[id].status==='quarantined');rows=[{id,payload:{name_ko:'quarantined'}}];
  assert.equal((await handler.POST(req({title:'test',brandIds:[id]}))).status,400);
+ const {wallVariant,wallLogoKey}=load('src/lib/logo-wall-variant.ts');
+ const rainbowManifest=reviewedVariants.rainbowrobotics;
+ const black=wallVariant({id:'rainbowrobotics',name_ko:'레인보우'},rainbowManifest.variants[0]);
+ const white=wallVariant({id:'rainbowrobotics',name_ko:'레인보우'},rainbowManifest.variants[1]);
+ assert.notEqual(wallLogoKey(black),wallLogoKey(white));assert.equal(white.light,true);assert.equal(black.light,false);
+ assert.equal(wallVariant({id:'x'},{key:'bad',files:{png:'../../evil.png'}}),null);
+ rows=[{id:'rainbowrobotics',payload:{name_ko:'레인보우',has_png:true}}];
+ const variantsBody={title:'variants',items:[{brandId:'rainbowrobotics',variantKey:black.variantKey,scale:75,cardBackground:'white'},{brandId:'rainbowrobotics',variantKey:white.variantKey,scale:125,cardBackground:'dark'}],settings:{cardBackground:'white'}};
+ assert.equal((await handler.POST(req(variantsBody))).status,201);assert.equal(storedSnapshot.scale,125);assert.equal(storedSnapshot.variant_key,white.variantKey);assert.equal(storedSnapshot.light,true);assert.equal(storedSnapshot.card_background,'dark');
+ assert.equal((await handler.POST(req({...variantsBody,items:[variantsBody.items[0],variantsBody.items[0]]}))).status,400);
+ assert.equal((await handler.POST(req({...variantsBody,items:[{brandId:'rainbowrobotics',variantKey:'missing'}]}))).status,400);
+ assert.equal((await handler.POST(req({...variantsBody,items:[{brandId:'rainbowrobotics',scale:999}]}))).status,400);
+ const pinned=logoWallAsset('rainbowrobotics',{},storedSnapshot);assert.equal(pinned.preview_png,storedSnapshot.preview_png);assert.equal(pinned.light,true);
+ const scaled=logoWallHtml('scale',{cardBackground:'white'},[{id:'test',file:'logos/001-test.png',scale:125,cardBackground:'dark'}]);assert(scaled.includes('transform:scale(1.25)'));assert(scaled.includes('background:#18181b'));
  const exporter=load('src/app/api/logo-walls/export/route.ts');
  exportWall={id:'test-wall',title:'export',version:1,settings:layout,items:[{brand_id:'test-brand',snapshot:{name:'test',logo_png:'https://cdn.example/_clients/test-brand/logo.png',light:false}}]};
  assert.equal((await exporter.GET(new Request('https://example.test/?id=test-wall'))).status,200);assert(fetched[0].includes('/logo.png'));
@@ -82,6 +96,6 @@ async function main(){
  const catalog=load('src/app/api/catalog/route.ts');
  const catalogResult=await catalog.GET({nextUrl:new URL('https://example.test/api/catalog/?q='+encodeURIComponent('신규 CMS 검증'))});
  assert.equal(catalogResult.status,200);assert.equal((await catalogResult.json()).brands[0].id,'new-cms-logo');
- console.log('PASS: legacy layouts, safe persisted styles, migrated asset flags, offline HTML, auth, quarantine save/export guards and representative PNG export order');
+ console.log('PASS: variants identity, server-resolved files, duplicate/unknown variant rejection, per-logo scale/background persistence and export;  legacy layouts, safe persisted styles, migrated asset flags, offline HTML, auth, quarantine save/export guards and representative PNG export order');
 }
 main().catch(e=>{console.error(e);process.exitCode=1});

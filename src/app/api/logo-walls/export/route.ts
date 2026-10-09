@@ -8,6 +8,7 @@ import { logoPngCandidates } from '@/lib/logo-png-source';
 import { logoWallAsset } from '@/lib/cms-brand';
 import type { Brand } from '@/lib/brands';
 import { CDN, VERSION } from '@/lib/cdn';
+import type { CardBackground } from '@/lib/logo-wall-layout';
 import { GET as recoverPng } from '@/app/api/logo-preview/route';
 
 export const runtime = 'nodejs';
@@ -17,10 +18,10 @@ let active = 0;
 const privateHeaders = { 'Cache-Control': 'private, no-store', 'X-Content-Type-Options': 'nosniff' };
 const reply = (error: string, status: number, details?: unknown) => Response.json({ error, details }, { status, headers: privateHeaders });
 
-async function cdnPng(brand: Brand): Promise<Buffer> {
+async function cdnPng(brand: Brand, explicitVariant = false): Promise<Buffer> {
   const id = brand.id;
   const root = new URL(CDN);
-  for (const candidate of logoPngCandidates(brand)) {
+  for (const candidate of explicitVariant ? [String(brand.preview_png)] : logoPngCandidates(brand)) {
     // Only fetch this brand's known CDN directory; never arbitrary snapshot URLs.
     let url: URL;
     try { url = new URL(candidate); } catch { continue; }
@@ -36,6 +37,7 @@ async function cdnPng(brand: Brand): Promise<Buffer> {
       return await sharp(png, { limitInputPixels: 16_000_000 }).resize(800, 800, { fit: 'inside', withoutEnlargement: true }).timeout({ seconds: 3 }).png().toBuffer();
     } catch { /* Try another known asset path, never a caller-provided URL. */ }
   }
+  if (explicitVariant) throw new Error('missing selected variant');
   const recovered = await recoverPng(new Request(`http://localhost/api/logo-preview/?id=${encodeURIComponent(id)}`));
   if (!recovered.ok) throw new Error('missing');
   return Buffer.from(await recovered.arrayBuffer());
@@ -63,7 +65,7 @@ export async function GET(request: Request) {
     const privateIds = wall.items.map((i: { snapshot: { user_logo_id?: string } }) => i.snapshot.user_logo_id).filter(Boolean);
     const personal = await pool.query('SELECT id,png FROM semologo.personal_logos WHERE owner_id=$1 AND id=ANY($2::text[])', [uid, privateIds]);
     const own = new Map<string, Buffer>(personal.rows.map(r => [r.id, r.png]));
-    const files: { name: string; data: Uint8Array }[] = []; const entries: { id: string; name?: string; file: string; light: boolean; sha256: string; captured_at?: string }[] = []; const missing: string[] = [];
+    const files: { name: string; data: Uint8Array }[] = []; const entries: { id: string; name?: string; file: string; light: boolean; scale?: number; cardBackground?: CardBackground; variantKey?: string; sha256: string; captured_at?: string }[] = []; const missing: string[] = [];
     let bytes = 0; let index = 0; const deadline = Date.now() + 60_000;
     // Two workers bound upstream requests and CPU; output order is fixed below.
     const output: ({ name: string; data: Buffer; entry: typeof entries[number] } | undefined)[] = new Array(wall.items.length);
@@ -75,11 +77,11 @@ export async function GET(request: Request) {
           if (typeof logoId !== 'string' || !/^[\w가-힣-]{1,200}$/.test(logoId)) throw new Error('invalid');
           const brand = logoWallAsset(logoId, item.catalog || {}, item.snapshot);
           if (!item.snapshot.user_logo_id && brand.hidden) throw new Error('review required');
-          const data = item.snapshot.user_logo_id ? own.get(logoId) : await cdnPng(brand);
+          const data = item.snapshot.user_logo_id ? own.get(logoId) : await cdnPng(brand, Boolean(item.snapshot.variant_key));
           if (!data) throw new Error('missing');
           bytes += data.length; if (bytes > 25_000_000) throw new Error('large export');
           const filename = `logos/${String(n + 1).padStart(3, '0')}-${logoId}.png`;
-          output[n] = { name: filename, data, entry: { id: logoId, name: item.snapshot.name, file: filename, light: Boolean(brand.light), sha256: createHash('sha256').update(data).digest('hex'), captured_at: item.snapshot.captured_at } };
+          output[n] = { name: filename, data, entry: { id: logoId, name: item.snapshot.name, file: filename, light: Boolean(brand.light), scale: item.snapshot.scale || 100, cardBackground: item.snapshot.card_background, variantKey: item.snapshot.variant_key, sha256: createHash('sha256').update(data).digest('hex'), captured_at: item.snapshot.captured_at } };
         } catch { missing.push(item.snapshot.name || logoId || String(n + 1)); }
       }
     }));

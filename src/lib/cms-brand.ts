@@ -12,6 +12,13 @@ export function cmsBrand(id: string, payload: Record<string, unknown>): Brand {
 
 /** Restore missing fields in old wall snapshots without changing their display names. */
 export function logoWallAsset(id: string, payload: Record<string, unknown>, snapshot: Record<string, unknown>): Brand {
+  if (snapshot.variant_key) {
+    // An explicitly selected variant keeps its asset identity across reopen/export.
+    return { ...cmsBrand(id, payload), ...snapshot, id, name_ko: String(snapshot.name || id),
+      logo_png: snapshot.logo_png as Brand['logo_png'], preview_png: snapshot.preview_png as Brand['preview_png'],
+      logo_svg: snapshot.logo_svg as Brand['logo_svg'], has_png: Boolean(snapshot.has_png),
+      light: Boolean(snapshot.light), light_logo: Boolean(snapshot.light), dark_variant: snapshot.light ? 'white' : false };
+  }
   const current = cmsBrand(id, payload);
   return applyQualityReview({ ...current, ...snapshot, id,
     name_ko: typeof snapshot.name === 'string' ? snapshot.name : current.name_ko,
