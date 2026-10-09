@@ -1,0 +1,532 @@
+{
+  "patches": {
+    "gongu-ci-1187": {
+      "name_ko": "산업연구원",
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": "sources/official-institution-20261010/32680b39c0a56a50.svg",
+      "svg_transparent": "sources/official-institution-20261010/32680b39c0a56a50.svg",
+      "logo_png": "sources/official-institution-20261010/32680b39c0a56a50.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/gongu-ci-1187/sources/official-institution-20261010/32680b39c0a56a50.png",
+      "light": false,
+      "light_logo": false,
+      "dark_variant": false,
+      "official_source_page": "https://www.kiet.re.kr/introduce/ci",
+      "asset_origin": "공식 기관 원본 · 기관 식별 및 벡터 육안 검수",
+      "logo_published_at": "2026-10-09T23:31:05.021135+00:00",
+      "rejected_asset_files": [
+        "logo-800.png",
+        "logo-white.png",
+        "logo-transparent.png",
+        "logo-icon.png"
+      ]
+    },
+    "gongu-ci-1683": {
+      "name_ko": "한국조세재정연구원",
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": "sources/official-institution-20261010/65d344e8f1209be6.svg",
+      "svg_transparent": "sources/official-institution-20261010/65d344e8f1209be6.svg",
+      "logo_png": "sources/official-institution-20261010/65d344e8f1209be6.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/gongu-ci-1683/sources/official-institution-20261010/65d344e8f1209be6.png",
+      "light": false,
+      "light_logo": false,
+      "dark_variant": false,
+      "official_source_page": "https://www.kipf.re.kr/kor/About_CI.do",
+      "asset_origin": "공식 기관 원본 · 기관 식별 및 벡터 육안 검수",
+      "logo_published_at": "2026-10-09T23:31:05.021135+00:00",
+      "rejected_asset_files": [
+        "logo-800.png",
+        "logo-white.png",
+        "logo-transparent.png",
+        "logo-icon.png"
+      ],
+      "official_zip_url": "https://www.kipf.re.kr/thumbnail/kor/ci_01.zip"
+    },
+    "lemi": {
+      "name_ko": "축산환경관리원",
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": "sources/official-institution-20261010/0a3bd3082baf04d2.svg",
+      "svg_transparent": "sources/official-institution-20261010/0a3bd3082baf04d2.svg",
+      "logo_png": "sources/official-institution-20261010/0a3bd3082baf04d2.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/lemi/sources/official-institution-20261010/0a3bd3082baf04d2.png",
+      "light": false,
+      "light_logo": false,
+      "dark_variant": false,
+      "official_source_page": "https://www.lemi.or.kr/contents.do?menuno=67",
+      "asset_origin": "공식 기관 원본 · 기관 식별 및 벡터 육안 검수",
+      "logo_published_at": "2026-10-09T23:31:05.021135+00:00",
+      "rejected_asset_files": [
+        "logo-800.png",
+        "logo-white.png",
+        "logo-transparent.png",
+        "logo-icon.png"
+      ]
+    },
+    "gongu-ci-1383": {
+      "name_ko": "인천스마트시티(주)",
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": "sources/official-institution-20261010/00fe2b12a1d5641d.svg",
+      "svg_transparent": "sources/official-institution-20261010/00fe2b12a1d5641d.svg",
+      "logo_png": "sources/official-institution-20261010/00fe2b12a1d5641d.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/gongu-ci-1383/sources/official-institution-20261010/00fe2b12a1d5641d.png",
+      "light": false,
+      "light_logo": false,
+      "dark_variant": false,
+      "official_source_page": "http://www.ismartcity.co.kr/default/mp4/mp4_sub1_3.php?sub=01_3",
+      "asset_origin": "공식 기관 원본 · 기관 식별 및 벡터 육안 검수",
+      "logo_published_at": "2026-10-09T23:31:05.021135+00:00",
+      "rejected_asset_files": [
+        "logo-800.png",
+        "logo-white.png",
+        "logo-transparent.png",
+        "logo-icon.png"
+      ],
+      "official_zip_url": "http://www.ismartcity.co.kr/default/img/CI.zip"
+    },
+    "gongu-ci-0252": {
+      "name_ko": "강동문화재단",
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": "sources/official-institution-20261010/e7b9e8cf4d6628ff.svg",
+      "svg_transparent": "sources/official-institution-20261010/e7b9e8cf4d6628ff.svg",
+      "logo_png": "sources/official-institution-20261010/e7b9e8cf4d6628ff.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/gongu-ci-0252/sources/official-institution-20261010/e7b9e8cf4d6628ff.png",
+      "light": false,
+      "light_logo": false,
+      "dark_variant": false,
+      "official_source_page": "https://www.gdfac.or.kr/home/display/region/content/JSVFN0I1ZWZMc1RFb0NkMWtHUkUvSW9YdjNvWG9HQThCamljZmpXdXg1ckN6VT0=",
+      "asset_origin": "공식 기관 원본 · 기관 식별 및 벡터 육안 검수",
+      "logo_published_at": "2026-10-09T23:31:05.021135+00:00",
+      "rejected_asset_files": [
+        "logo-800.png",
+        "logo-white.png",
+        "logo-transparent.png",
+        "logo-icon.png"
+      ],
+      "official_zip_url": "https://www.gdfac.or.kr/Document/CI/logo.zip"
+    },
+    "gongu-ci-0225": {
+      "name_ko": "남동문화재단",
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": "sources/official-institution-20261010/40c2cceb7a2b29a3.svg",
+      "svg_transparent": "sources/official-institution-20261010/40c2cceb7a2b29a3.svg",
+      "logo_png": "sources/official-institution-20261010/40c2cceb7a2b29a3.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/gongu-ci-0225/sources/official-institution-20261010/40c2cceb7a2b29a3.png",
+      "light": false,
+      "light_logo": false,
+      "dark_variant": false,
+      "official_source_page": "https://www.namdongcf.or.kr/user/contents.php?sq=109",
+      "asset_origin": "공식 기관 원본 · 기관 식별 및 벡터 육안 검수",
+      "logo_published_at": "2026-10-09T23:31:05.021135+00:00",
+      "rejected_asset_files": [
+        "logo-800.png",
+        "logo-white.png",
+        "logo-transparent.png",
+        "logo-icon.png"
+      ]
+    },
+    "gongu-ci-0325": {
+      "name_ko": "광주광역시동구문화관광재단",
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": "sources/official-institution-20261010/362d24cc2d0253af.svg",
+      "svg_transparent": "sources/official-institution-20261010/362d24cc2d0253af.svg",
+      "logo_png": "sources/official-institution-20261010/362d24cc2d0253af.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/gongu-ci-0325/sources/official-institution-20261010/362d24cc2d0253af.png",
+      "light": false,
+      "light_logo": false,
+      "dark_variant": false,
+      "official_source_page": "https://gdctf.or.kr/front/M0000159/content/view.do",
+      "asset_origin": "공식 기관 원본 · 기관 식별 및 벡터 육안 검수",
+      "logo_published_at": "2026-10-09T23:31:05.021135+00:00",
+      "rejected_asset_files": [
+        "logo-800.png",
+        "logo-white.png",
+        "logo-transparent.png",
+        "logo-icon.png"
+      ]
+    },
+    "gongu-ci-1483": {
+      "name_ko": "천안문화재단",
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": "sources/official-institution-20261010/409ffb6e7291587e.svg",
+      "svg_transparent": "sources/official-institution-20261010/409ffb6e7291587e.svg",
+      "logo_png": "sources/official-institution-20261010/409ffb6e7291587e.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/gongu-ci-1483/sources/official-institution-20261010/409ffb6e7291587e.png",
+      "light": false,
+      "light_logo": false,
+      "dark_variant": false,
+      "official_source_page": "https://www.cfac.or.kr/sub.php?menucode=0105",
+      "asset_origin": "공식 기관 원본 · 기관 식별 및 벡터 육안 검수",
+      "logo_published_at": "2026-10-09T23:31:05.021135+00:00",
+      "rejected_asset_files": [
+        "logo-800.png",
+        "logo-white.png",
+        "logo-transparent.png",
+        "logo-icon.png"
+      ],
+      "official_zip_url": "https://www.cfac.or.kr/img/CI_ai.zip"
+    },
+    "gongu-ci-1037": {
+      "name_ko": "남원시바이오산업연구원",
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": "sources/official-institution-20261010/37da3bfb289cd0f6.svg",
+      "svg_transparent": "sources/official-institution-20261010/37da3bfb289cd0f6.svg",
+      "logo_png": "sources/official-institution-20261010/37da3bfb289cd0f6.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/gongu-ci-1037/sources/official-institution-20261010/37da3bfb289cd0f6.png",
+      "light": false,
+      "light_logo": false,
+      "dark_variant": false,
+      "official_source_page": "https://nbn.re.kr/pages/company/ci",
+      "asset_origin": "공식 기관 원본 · 기관 식별 및 벡터 육안 검수",
+      "logo_published_at": "2026-10-09T23:31:05.021135+00:00",
+      "rejected_asset_files": [
+        "logo-800.png",
+        "logo-white.png",
+        "logo-transparent.png",
+        "logo-icon.png"
+      ]
+    },
+    "gongu-ci-0411": {
+      "name_ko": "창원복지재단",
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": "sources/official-institution-20261010/7ecb2e8dda468d87.svg",
+      "svg_transparent": "sources/official-institution-20261010/7ecb2e8dda468d87.svg",
+      "logo_png": "sources/official-institution-20261010/7ecb2e8dda468d87.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/gongu-ci-0411/sources/official-institution-20261010/7ecb2e8dda468d87.png",
+      "light": false,
+      "light_logo": false,
+      "dark_variant": false,
+      "official_source_page": "https://www.cwwf.or.kr/intro/sub_07_01.php",
+      "asset_origin": "공식 기관 원본 · 기관 식별 및 벡터 육안 검수",
+      "logo_published_at": "2026-10-09T23:31:05.021135+00:00",
+      "rejected_asset_files": [
+        "logo-800.png",
+        "logo-white.png",
+        "logo-transparent.png",
+        "logo-icon.png"
+      ]
+    },
+    "gongu-ci-0408": {
+      "name_ko": "통영문화재단",
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": "sources/official-institution-20261010/6167c5f6f9256d9b.svg",
+      "svg_transparent": "sources/official-institution-20261010/6167c5f6f9256d9b.svg",
+      "logo_png": "sources/official-institution-20261010/6167c5f6f9256d9b.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/gongu-ci-0408/sources/official-institution-20261010/6167c5f6f9256d9b.png",
+      "light": false,
+      "light_logo": false,
+      "dark_variant": false,
+      "official_source_page": "https://tyhansancf.or.kr/introduce/visiton_ci.html",
+      "asset_origin": "공식 기관 원본 · 기관 식별 및 벡터 육안 검수",
+      "logo_published_at": "2026-10-09T23:31:05.021135+00:00",
+      "rejected_asset_files": [
+        "logo-800.png",
+        "logo-white.png",
+        "logo-transparent.png",
+        "logo-icon.png"
+      ],
+      "official_zip_url": "https://tyhansancf.or.kr/introduce/download/symbol_ai.zip"
+    }
+  },
+  "variants": {
+    "gongu-ci-1187": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "gongu-ci-1187",
+      "primary": "horizontal",
+      "variants": [
+        {
+          "key": "horizontal",
+          "form": "horizontal",
+          "asset_group": "logotype",
+          "lang": "ko",
+          "color": "original",
+          "label": "공식 로고 · 가로형",
+          "files": {
+            "svg": "sources/official-institution-20261010/32680b39c0a56a50.svg",
+            "png": "sources/official-institution-20261010/32680b39c0a56a50.png"
+          },
+          "provider": "기관 공식 CI 원본에서 추출",
+          "origin": "derived",
+          "order": 0
+        }
+      ]
+    },
+    "gongu-ci-1683": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "gongu-ci-1683",
+      "primary": "official",
+      "variants": [
+        {
+          "key": "official",
+          "form": "horizontal",
+          "asset_group": "logotype",
+          "lang": "ko",
+          "color": "original",
+          "label": "공식 로고",
+          "files": {
+            "svg": "sources/official-institution-20261010/65d344e8f1209be6.svg",
+            "png": "sources/official-institution-20261010/65d344e8f1209be6.png"
+          },
+          "provider": "기관 공식 홈페이지",
+          "source_url": "https://www.kipf.re.kr/kor/About_CI.do",
+          "origin": "collected",
+          "order": 0
+        }
+      ]
+    },
+    "lemi": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "lemi",
+      "primary": "horizontal",
+      "variants": [
+        {
+          "key": "horizontal",
+          "form": "horizontal",
+          "asset_group": "logotype",
+          "lang": "ko",
+          "color": "original",
+          "label": "공식 로고 · 가로형",
+          "files": {
+            "svg": "sources/official-institution-20261010/0a3bd3082baf04d2.svg",
+            "png": "sources/official-institution-20261010/0a3bd3082baf04d2.png"
+          },
+          "provider": "기관 공식 CI 원본에서 추출",
+          "origin": "derived",
+          "order": 0
+        }
+      ]
+    },
+    "gongu-ci-1383": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "gongu-ci-1383",
+      "primary": "official",
+      "variants": [
+        {
+          "key": "official",
+          "form": "horizontal",
+          "asset_group": "logotype",
+          "lang": "ko",
+          "color": "original",
+          "label": "공식 로고",
+          "files": {
+            "svg": "sources/official-institution-20261010/00fe2b12a1d5641d.svg",
+            "png": "sources/official-institution-20261010/00fe2b12a1d5641d.png"
+          },
+          "provider": "기관 공식 홈페이지",
+          "source_url": "http://www.ismartcity.co.kr/default/mp4/mp4_sub1_3.php?sub=01_3",
+          "origin": "collected",
+          "order": 0
+        }
+      ]
+    },
+    "gongu-ci-0252": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "gongu-ci-0252",
+      "primary": "official",
+      "variants": [
+        {
+          "key": "official",
+          "form": "horizontal",
+          "asset_group": "logotype",
+          "lang": "ko",
+          "color": "original",
+          "label": "공식 로고",
+          "files": {
+            "svg": "sources/official-institution-20261010/e7b9e8cf4d6628ff.svg",
+            "png": "sources/official-institution-20261010/e7b9e8cf4d6628ff.png"
+          },
+          "provider": "기관 공식 홈페이지",
+          "source_url": "https://www.gdfac.or.kr/home/display/region/content/JSVFN0I1ZWZMc1RFb0NkMWtHUkUvSW9YdjNvWG9HQThCamljZmpXdXg1ckN6VT0=",
+          "origin": "collected",
+          "order": 0
+        }
+      ]
+    },
+    "gongu-ci-0225": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "gongu-ci-0225",
+      "primary": "official",
+      "variants": [
+        {
+          "key": "official",
+          "form": "horizontal",
+          "asset_group": "logotype",
+          "lang": "ko",
+          "color": "original",
+          "label": "공식 로고",
+          "files": {
+            "svg": "sources/official-institution-20261010/40c2cceb7a2b29a3.svg",
+            "png": "sources/official-institution-20261010/40c2cceb7a2b29a3.png"
+          },
+          "provider": "기관 공식 홈페이지",
+          "source_url": "https://www.namdongcf.or.kr/user/contents.php?sq=109",
+          "origin": "collected",
+          "order": 0
+        }
+      ]
+    },
+    "gongu-ci-0325": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "gongu-ci-0325",
+      "primary": "official",
+      "variants": [
+        {
+          "key": "official",
+          "form": "horizontal",
+          "asset_group": "logotype",
+          "lang": "ko",
+          "color": "original",
+          "label": "공식 로고",
+          "files": {
+            "svg": "sources/official-institution-20261010/362d24cc2d0253af.svg",
+            "png": "sources/official-institution-20261010/362d24cc2d0253af.png"
+          },
+          "provider": "기관 공식 홈페이지",
+          "source_url": "https://gdctf.or.kr/front/M0000159/content/view.do",
+          "origin": "collected",
+          "order": 0
+        }
+      ]
+    },
+    "gongu-ci-1483": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "gongu-ci-1483",
+      "primary": "official",
+      "variants": [
+        {
+          "key": "official",
+          "form": "horizontal",
+          "asset_group": "logotype",
+          "lang": "ko",
+          "color": "original",
+          "label": "공식 로고",
+          "files": {
+            "svg": "sources/official-institution-20261010/409ffb6e7291587e.svg",
+            "png": "sources/official-institution-20261010/409ffb6e7291587e.png"
+          },
+          "provider": "기관 공식 홈페이지",
+          "source_url": "https://www.cfac.or.kr/sub.php?menucode=0105",
+          "origin": "collected",
+          "order": 0
+        }
+      ]
+    },
+    "gongu-ci-1037": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "gongu-ci-1037",
+      "primary": "official",
+      "variants": [
+        {
+          "key": "official",
+          "form": "horizontal",
+          "asset_group": "logotype",
+          "lang": "ko",
+          "color": "original",
+          "label": "공식 로고",
+          "files": {
+            "svg": "sources/official-institution-20261010/37da3bfb289cd0f6.svg",
+            "png": "sources/official-institution-20261010/37da3bfb289cd0f6.png"
+          },
+          "provider": "기관 공식 홈페이지",
+          "source_url": "https://nbn.re.kr/pages/company/ci",
+          "origin": "collected",
+          "order": 0
+        }
+      ]
+    },
+    "gongu-ci-0411": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "gongu-ci-0411",
+      "primary": "horizontal",
+      "variants": [
+        {
+          "key": "horizontal",
+          "form": "horizontal",
+          "asset_group": "logotype",
+          "lang": "ko",
+          "color": "original",
+          "label": "공식 로고 · 가로형",
+          "files": {
+            "svg": "sources/official-institution-20261010/7ecb2e8dda468d87.svg",
+            "png": "sources/official-institution-20261010/7ecb2e8dda468d87.png"
+          },
+          "provider": "기관 공식 CI 원본에서 추출",
+          "origin": "derived",
+          "order": 0
+        },
+        {
+          "key": "vertical",
+          "form": "vertical",
+          "asset_group": "logotype",
+          "lang": "ko",
+          "color": "original",
+          "label": "공식 로고 · 세로형",
+          "files": {
+            "svg": "sources/official-institution-20261010/2373610636d6004d.svg",
+            "png": "sources/official-institution-20261010/2373610636d6004d.png"
+          },
+          "provider": "기관 공식 CI 원본에서 추출",
+          "origin": "derived",
+          "order": 1
+        }
+      ]
+    },
+    "gongu-ci-0408": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "gongu-ci-0408",
+      "primary": "horizontal",
+      "variants": [
+        {
+          "key": "horizontal",
+          "form": "horizontal",
+          "asset_group": "logotype",
+          "lang": "ko",
+          "color": "original",
+          "label": "공식 로고 · 가로형",
+          "files": {
+            "svg": "sources/official-institution-20261010/6167c5f6f9256d9b.svg",
+            "png": "sources/official-institution-20261010/6167c5f6f9256d9b.png"
+          },
+          "provider": "기관 공식 CI 원본에서 추출",
+          "origin": "derived",
+          "order": 0
+        },
+        {
+          "key": "vertical",
+          "form": "vertical",
+          "asset_group": "logotype",
+          "lang": "ko",
+          "color": "original",
+          "label": "공식 로고 · 세로형",
+          "files": {
+            "svg": "sources/official-institution-20261010/52b8d7b3019a0ea2.svg",
+            "png": "sources/official-institution-20261010/52b8d7b3019a0ea2.png"
+          },
+          "provider": "기관 공식 CI 원본에서 추출",
+          "origin": "derived",
+          "order": 1
+        }
+      ]
+    }
+  }
+}
