@@ -4,10 +4,11 @@ import release from './reviewed-asset-release-20261008.json';
 import backgroundMerge from './reviewed-background-merge-20261008.json';
 import googleTransparent from './reviewed-google-transparent-20261009.json';
 import requestedBackground from './reviewed-requested-background-20261009.json';
+import userSvg from './reviewed-user-svg-20261009.json';
 import netflix from './reviewed-netflix-20261009.json';
 import rainbow from './reviewed-rainbow-20261009.json';
 import institutions from './reviewed-institutions-20261009.json';
-const releasePatches = { ...release.patches, ...backgroundMerge.patches, ...googleTransparent.patches, ...institutions.patches, ...rainbow.patches, ...requestedBackground.patches, ...netflix.patches } as unknown as Record<string, Partial<Brand>>;
+const releasePatches = { ...release.patches, ...backgroundMerge.patches, ...googleTransparent.patches, ...institutions.patches, ...rainbow.patches, ...requestedBackground.patches, ...netflix.patches, ...userSvg.patches } as unknown as Record<string, Partial<Brand>>;
 
 // Only visually reviewed transparent assets belong here. Never remove white
 // indiscriminately: the Seongnam symbol contains intentional white artwork.
@@ -84,6 +85,7 @@ export const reviewedVariants: Record<string, VariantManifest> = {
   ...(rainbow.variants as unknown as Record<string, VariantManifest>),
   ...(requestedBackground.variants as unknown as Record<string, VariantManifest>),
   ...(netflix.variants as unknown as Record<string, VariantManifest>),
+  ...(userSvg.variants as unknown as Record<string, VariantManifest>),
   'h-m-1': { schema: 1, algo_v: 1, id: 'h-m-1', primary: 'original', variants: [
     { key: 'original', form: 'wordmark', lang: 'en', color: 'original', label: '투명 워드마크', files: { svg: 'logo.svg', png: 'sources/reviewed-merge-20261007/logo.png' }, provider: '기존 보유 원본', origin: 'collected', order: 0 },
     { key: 'legacy', form: 'wordmark', lang: 'en', color: 'original', label: '기존 워드마크', files: { svg: 'sources/reviewed-merge-20261007/legacy.svg', png: 'sources/reviewed-merge-20261007/logo.png' }, provider: '통합한 기존 콘텐츠 원본', origin: 'collected', order: 1 },

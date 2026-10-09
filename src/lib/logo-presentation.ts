@@ -10,3 +10,11 @@ export function applyPresentation(brand: Brand, value: unknown = brand.presentat
   if (!validPresentation(value)) return brand;
   return {...brand,presentation:value,preview_png:`${CDN}/${brand.id}/${value.file}?v=${VERSION}`,light:value.bg==='dark',light_logo:value.bg==='dark',dark_variant:false};
 }
+
+/** Accept only PNG files owned by this brand on the configured CDN. */
+export function presentationAssetFile(brand: Pick<Brand, "id">, asset: unknown): string | null {
+ if(typeof asset!=="string")return null;
+ const prefix=`${CDN}/${brand.id}/`;
+ const file=(asset.startsWith(prefix)?asset.slice(prefix.length):asset).split("?")[0];
+ return validPresentation({file,bg:"light"})?file:null;
+}

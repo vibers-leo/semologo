@@ -1,0 +1,186 @@
+{
+  "patches": {
+    "koreanair": {
+      "name_ko": "대한항공",
+      "name_en": "Korean Air",
+      "category": "물류·교통",
+      "origin": "KR",
+      "hidden": false,
+      "logo_svg": "sources/user-svg-20261009/korean-air-2025.svg",
+      "svg_transparent": "sources/user-svg-20261009/korean-air-2025.svg",
+      "logo_png": "sources/user-svg-20261009/korean-air-2025.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/koreanair/sources/user-svg-20261009/korean-air-2025.png",
+      "has_svg": true,
+      "has_png": true,
+      "light": false,
+      "light_logo": false,
+      "dark_variant": false,
+      "presentation": {
+        "file": "sources/user-svg-20261009/korean-air-2025.png",
+        "bg": "light"
+      },
+      "asset_origin": "user-provided",
+      "asset_review_status": "verified",
+      "rejected_asset_files": [
+        "logo.svg",
+        "logo.png",
+        "logo-800.png",
+        "logo-transparent.png",
+        "logo-white.png",
+        "logo-icon.png"
+      ]
+    },
+    "samsungpay": {
+      "name_ko": "삼성페이",
+      "name_en": "Samsung Pay",
+      "category": "금융·결제",
+      "origin": "KR",
+      "hidden": false,
+      "logo_svg": "sources/user-svg-20261009/samsung-pay.svg",
+      "svg_transparent": "sources/user-svg-20261009/samsung-pay.svg",
+      "logo_png": "sources/user-svg-20261009/samsung-pay.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/samsungpay/sources/user-svg-20261009/samsung-pay.png",
+      "has_svg": true,
+      "has_png": true,
+      "light": false,
+      "light_logo": false,
+      "dark_variant": false,
+      "presentation": {
+        "file": "sources/user-svg-20261009/samsung-pay.png",
+        "bg": "light"
+      },
+      "asset_origin": "user-provided",
+      "asset_review_status": "verified",
+      "rejected_asset_files": [
+        "logo.svg",
+        "logo.png",
+        "logo-800.png",
+        "logo-transparent.png",
+        "logo-white.png",
+        "logo-icon.png"
+      ]
+    },
+    "kakaobank": {
+      "name_ko": "카카오뱅크",
+      "name_en": "KakaoBank",
+      "category": "금융·결제",
+      "origin": "KR",
+      "hidden": false,
+      "logo_svg": "sources/user-svg-20261009/kakao-bank.svg",
+      "svg_transparent": "sources/user-svg-20261009/kakao-bank.svg",
+      "logo_png": "sources/user-svg-20261009/kakao-bank.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/kakaobank/sources/user-svg-20261009/kakao-bank.png",
+      "has_svg": true,
+      "has_png": true,
+      "light": false,
+      "light_logo": false,
+      "dark_variant": false,
+      "presentation": {
+        "file": "sources/user-svg-20261009/kakao-bank.png",
+        "bg": "light"
+      },
+      "asset_origin": "user-provided",
+      "asset_review_status": "verified",
+      "rejected_asset_files": [
+        "logo.svg",
+        "logo.png",
+        "logo-800.png",
+        "logo-transparent.png",
+        "logo-white.png",
+        "logo-icon.png"
+      ]
+    },
+    "korean-air": {
+      "variant_of": "koreanair",
+      "hidden": true,
+      "hidden_reason": "사용자 제공 SVG를 대표 브랜드 콘텐츠에 모아 제공"
+    },
+    "samsung-pay": {
+      "variant_of": "samsungpay",
+      "hidden": true,
+      "hidden_reason": "사용자 제공 SVG를 대표 브랜드 콘텐츠에 모아 제공"
+    }
+  },
+  "variants": {
+    "koreanair": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "koreanair",
+      "primary": "vertical",
+      "variants": [
+        {
+          "key": "vertical",
+          "label": "2025 세로 조합형",
+          "form": "vertical",
+          "lang": "en",
+          "color": "original",
+          "files": {
+            "svg": "sources/user-svg-20261009/korean-air-2025.svg",
+            "png": "sources/user-svg-20261009/korean-air-2025.png"
+          },
+          "provider": "사용자 제공 SVG · 검수",
+          "origin": "collected",
+          "order": 0
+        },
+        {
+          "key": "legacy-wordmark",
+          "label": "이전 로고타입",
+          "form": "wordmark",
+          "lang": "en",
+          "color": "original",
+          "files": {
+            "svg": "sources/user-svg-20261009/korean-air-legacy.svg",
+            "png": "sources/user-svg-20261009/korean-air-legacy.png"
+          },
+          "provider": "사용자 제공 SVG · 검수",
+          "origin": "collected",
+          "order": 1
+        }
+      ]
+    },
+    "samsungpay": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "samsungpay",
+      "primary": "user-wordmark",
+      "variants": [
+        {
+          "key": "user-wordmark",
+          "label": "Samsung Pay 로고타입",
+          "form": "wordmark",
+          "lang": "en",
+          "color": "original",
+          "files": {
+            "svg": "sources/user-svg-20261009/samsung-pay.svg",
+            "png": "sources/user-svg-20261009/samsung-pay.png"
+          },
+          "provider": "사용자 제공 SVG · 검수",
+          "origin": "collected",
+          "order": 0
+        }
+      ]
+    },
+    "kakaobank": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "kakaobank",
+      "primary": "user-horizontal",
+      "variants": [
+        {
+          "key": "user-horizontal",
+          "label": "심볼·로고타입 가로 조합형",
+          "form": "horizontal",
+          "lang": "en",
+          "color": "original",
+          "files": {
+            "svg": "sources/user-svg-20261009/kakao-bank.svg",
+            "png": "sources/user-svg-20261009/kakao-bank.png"
+          },
+          "provider": "사용자 제공 SVG · 검수",
+          "origin": "collected",
+          "order": 0
+        }
+      ]
+    }
+  }
+}

@@ -1,5 +1,5 @@
 "use client";
-import { validPresentation, type LogoPresentation } from "@/lib/logo-presentation";
+import { presentationAssetFile, validPresentation, type LogoPresentation } from "@/lib/logo-presentation";
 import { generateInverted } from "@/lib/logo-dark-png";
 
 import { useLocale, T } from "@/lib/locale-context";
@@ -251,7 +251,7 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
     setSavingPresentation(true);
     try{const token=await getClientAuth().currentUser?.getIdToken();const r=await fetch('/api/logo-presentation/',{method:'PATCH',headers:{Authorization:`Bearer ${token}`,'Content-Type':'application/json'},body:JSON.stringify({id:brand.id,file,bg})});const data=await r.json();if(!r.ok)throw Error(data.error);setPresentation(data.presentation);setBgOverride(null);setPickFile(file);setPickBg(bg);window.dispatchEvent(new CustomEvent('semologo:presentation',{detail:{brandId:brand.id,presentation:data.presentation}}));toast('대표 이미지와 배경을 저장했어요.');}catch(e){toast(e instanceof Error?e.message:'저장하지 못했어요.');}finally{setSavingPresentation(false);}
   };
-  const toggleBg = (e:React.MouseEvent) => {e.stopPropagation();if(!isAdmin)return;void savePresentation(presentation?.file || (typeof brand.logo_png==='string'&&!brand.logo_png.startsWith('http')?brand.logo_png:'logo.png'),isLightLogo?'light':'dark');};
+  const toggleBg = (e:React.MouseEvent) => {e.stopPropagation();if(!isAdmin)return;const fallback=presentationAssetFile(brand,brand.logo_png)||presentationAssetFile(brand,brand.preview_png)||"logo.png";const file=presentation?.file || (!isLightLogo ? brand.dark_png || (hasWhiteLogo ? "logo-white.png" : fallback) : fallback);void savePresentation(file,isLightLogo?"light":"dark");};
   const DARK_TILE: React.CSSProperties = { background: "#18181b", backgroundImage: "none" };
   /** 밝은 로고면 어두운 타일, 아니면 원래 배경 */
   const tile = (base?: React.CSSProperties): React.CSSProperties =>
@@ -338,7 +338,7 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
     ...(manifest?.variants || []).map(v=>({file:v.files.png || v.files.svg || '',label:v.label})),
     ...(brand.dark_png ? [{file:brand.dark_png,label:'다크 배경용 PNG'}] : []),
     ...(hasWhiteLogo && !brand.dark_png ? [{file:'logo-white.png',label:'화이트 로고 PNG'}] : []),
-    ...(typeof brand.logo_png==='string' && !brand.logo_png.startsWith('http') && !brand.logo_png.startsWith('/') ? [{file:brand.logo_png,label:'현재 대표 PNG'}] : []),
+    ...([brand.logo_png,brand.preview_png].flatMap(asset=>{const file=presentationAssetFile(brand,asset);return file?[{file,label:'현재 대표 PNG'}]:[];})),
   ].filter(v=>v.file.endsWith('.png')).map(v=>[v.file,v])).values());
   // 언어 탭은 unknown 이 아닌 언어가 2개 이상일 때만 의미가 있다
   const langs = manifest
