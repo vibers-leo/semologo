@@ -280,7 +280,9 @@
         "logo-transparent.png",
         "logo-icon.png"
       ],
-      "official_zip_url": "https://www.kasfo.or.kr/sites/kasfo/download/ciai_2018.zip"
+      "official_zip_url": "https://www.kasfo.or.kr/sites/kasfo/download/ciai_2018.zip",
+      "hidden": false,
+      "hidden_reason": null
     },
     "krei": {
       "name_ko": "한국농촌경제연구원",
@@ -539,7 +541,9 @@
         "logo-transparent.png",
         "logo-icon.png"
       ],
-      "official_zip_url": "https://www.utp.or.kr/download/UTP_CI_ai.zip"
+      "official_zip_url": "https://www.utp.or.kr/download/UTP_CI_ai.zip",
+      "hidden": false,
+      "hidden_reason": null
     },
     "gongu-ci-0232": {
       "name_ko": "울주문화재단",
@@ -583,7 +587,9 @@
         "logo-transparent.png",
         "logo-icon.png"
       ],
-      "official_zip_url": "https://www.gtp.or.kr/web/assets/site/tp_logo.zip"
+      "official_zip_url": "https://www.gtp.or.kr/web/assets/site/tp_logo.zip",
+      "hidden": false,
+      "hidden_reason": null
     },
     "gongu-ci-0474": {
       "name_ko": "안양시 인재육성재단",
