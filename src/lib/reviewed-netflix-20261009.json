@@ -1,0 +1,85 @@
+{
+  "patches": {
+    "netflix": {
+      "logo_svg": true,
+      "has_svg": true,
+      "has_png": true,
+      "logo_png": "sources/official-netflix-20261009-v2/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/netflix/sources/official-netflix-20261009-v2/logo.png",
+      "svg_transparent": "sources/official-netflix-20261009-v2/logo.svg",
+      "light": false,
+      "light_logo": false,
+      "dark_variant": false,
+      "dark_png": "sources/official-netflix-20261009-v2/logo.png",
+      "presentation": {
+        "file": "sources/official-netflix-20261009-v2/logo.png",
+        "bg": "dark"
+      },
+      "official_source_page": "https://about.netflix.com/en/company-assets",
+      "source_zip": "sources/official-netflix-20261009-v2/Netflix_Logo.zip",
+      "rejected_asset_files": [
+        "logo.svg",
+        "logo.png",
+        "logo-800.png",
+        "logo-transparent.png",
+        "logo-white.png",
+        "logo-icon.png",
+        "logo-en.png"
+      ],
+      "sources": [
+        {
+          "provider": "Netflix 공식",
+          "file": "sources/official-netflix-20261009-v2/logo.eps",
+          "label": "공식 로고타입 EPS"
+        },
+        {
+          "provider": "Netflix 공식",
+          "file": "sources/official-netflix-20261009-v2/symbol.eps",
+          "label": "공식 N 심볼 EPS"
+        }
+      ]
+    }
+  },
+  "variants": {
+    "netflix": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "netflix",
+      "primary": "wordmark",
+      "variants": [
+        {
+          "key": "wordmark",
+          "label": "NETFLIX 로고타입",
+          "form": "wordmark",
+          "asset_group": "logotype",
+          "lang": "en",
+          "color": "color",
+          "files": {
+            "svg": "sources/official-netflix-20261009-v2/logo.svg",
+            "png": "sources/official-netflix-20261009-v2/logo.png"
+          },
+          "provider": "Netflix 공식 EPS·PNG",
+          "origin": "official",
+          "source_url": "https://about.netflix.com/en/company-assets",
+          "order": 0
+        },
+        {
+          "key": "symbol",
+          "label": "N 심볼마크",
+          "form": "symbol",
+          "asset_group": "symbol",
+          "lang": "unknown",
+          "color": "color",
+          "files": {
+            "svg": "sources/official-netflix-20261009-v2/symbol.svg",
+            "png": "sources/official-netflix-20261009-v2/symbol.png"
+          },
+          "provider": "Netflix 공식 EPS·PNG",
+          "origin": "official",
+          "source_url": "https://about.netflix.com/en/company-assets",
+          "order": 1
+        }
+      ]
+    }
+  }
+}
