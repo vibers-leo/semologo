@@ -22,7 +22,7 @@
 - **패키지 매니저: pnpm** (2026-08-09 bun→pnpm 전환). `pnpm install` / `pnpm run build`
   - `node_modules`·`.next` 는 프로젝트 안 실폴더여야 한다. 외부 캐시로 나가는 심링크면
     Turbopack 이 "points out of the filesystem root" 로 죽는다 (예전 로컬 빌드 불가의 원인)
-  - 스토어 `/Volumes/Untitled/dev/.pnpm-store` — 프로젝트와 같은 볼륨이라 하드링크로 dedup
+  - 공유 스토어 기본값은 `/Volumes/Untitled/.pnpm-store`다. 세모로고 실폴더는 1F HDD로 이전되어 같은 볼륨이라는 가정을 하지 않는다. 아래 1F 디스크 규칙을 따른다.
 - 로컬 빌드 **가능** (약 3분, 6,822 페이지). 예전 "심링크 때문에 불가" 설명은 폐기
 - 배포: **NCP Docker** (위 '배포' 섹션 참고). GitHub Pages·Vercel 아님 — 2026-08-18 이전
 - 검증: `gh run list --repo vibers-leo/semologo` 두 워크플로 모두 success 확인 후 `curl -sI https://semologo.com`
