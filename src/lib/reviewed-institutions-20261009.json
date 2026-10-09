@@ -1,0 +1,223 @@
+{
+  "patches": {
+    "kra": {
+      "name_ko": "한국마사회",
+      "logo_svg": true,
+      "has_svg": true,
+      "has_png": true,
+      "logo_png": "sources/official-institution-20261009/9e90f24f3f027386.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/kra/sources/official-institution-20261009/9e90f24f3f027386.png",
+      "svg_transparent": "sources/official-institution-20261009/9e90f24f3f027386.svg",
+      "light": false,
+      "light_logo": false,
+      "dark_variant": false,
+      "official_source_page": "https://www.kra.co.kr/main.do",
+      "asset_origin": "공식 기관 홈페이지 · 원본 벡터 육안 검수",
+      "rejected_asset_files": [
+        "logo-800.png",
+        "logo-transparent.png",
+        "logo-white.png",
+        "logo-icon.png"
+      ]
+    },
+    "kdi": {
+      "name_ko": "한국개발연구원",
+      "logo_svg": true,
+      "has_svg": true,
+      "has_png": true,
+      "logo_png": "sources/official-institution-20261009/43192c5e4db98584.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/kdi/sources/official-institution-20261009/43192c5e4db98584.png",
+      "svg_transparent": "sources/official-institution-20261009/43192c5e4db98584.svg",
+      "light": false,
+      "light_logo": false,
+      "dark_variant": false,
+      "official_source_page": "https://www.kdi.re.kr/introduce/pmCi",
+      "asset_origin": "공식 기관 홈페이지 · 원본 벡터 육안 검수",
+      "rejected_asset_files": [
+        "logo-800.png",
+        "logo-transparent.png",
+        "logo-white.png",
+        "logo-icon.png"
+      ],
+      "official_zip_url": "https://www.kdi.re.kr/res/ci/logo_CI_ai.zip"
+    },
+    "bokji": {
+      "name_ko": "한국사회복지협의회",
+      "logo_svg": true,
+      "has_svg": true,
+      "has_png": true,
+      "logo_png": "sources/official-institution-20261009/1c9ecf4dd1719b8c.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/bokji/sources/official-institution-20261009/1c9ecf4dd1719b8c.png",
+      "svg_transparent": "sources/official-institution-20261009/1c9ecf4dd1719b8c.svg",
+      "light": false,
+      "light_logo": false,
+      "dark_variant": false,
+      "official_source_page": "https://www.bokji.net/ssn/inf/04.bokji",
+      "asset_origin": "공식 기관 홈페이지 · 원본 벡터 육안 검수",
+      "rejected_asset_files": [
+        "logo-800.png",
+        "logo-transparent.png",
+        "logo-white.png",
+        "logo-icon.png"
+      ],
+      "official_zip_url": "https://www.bokji.net/images/down/SSN_CI.zip"
+    },
+    "gongu-ci-1295": {
+      "name_ko": "연천군시설관리공단",
+      "has_png": true,
+      "has_svg": false,
+      "logo_svg": false,
+      "svg_transparent": null,
+      "logo_png": "sources/official-institution-20261009/794f021e6606daa7.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/gongu-ci-1295/sources/official-institution-20261009/794f021e6606daa7.png",
+      "dark_png": "sources/official-institution-20261009/7f80d8922c43e352.png",
+      "light": false,
+      "light_logo": false,
+      "dark_variant": false,
+      "official_source_page": "https://yccs.or.kr/pub/ci.do",
+      "asset_origin": "연천군시설관리공단 공식 PNG 원본 · 밝은/어두운 배경용",
+      "rejected_asset_files": [
+        "logo.svg",
+        "logo-800.png",
+        "logo-transparent.png",
+        "logo-white.png",
+        "logo-icon.png"
+      ]
+    },
+    "grtc": {
+      "logo_svg": true,
+      "has_svg": true,
+      "has_png": true,
+      "logo_png": "sources/official-reviewed-20261008/9e1c5c1d5e6c7fc3.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/grtc/sources/official-reviewed-20261008/9e1c5c1d5e6c7fc3.png",
+      "svg_transparent": "sources/official-reviewed-20261008/9e1c5c1d5e6c7fc3.svg",
+      "light": false,
+      "light_logo": false,
+      "dark_variant": false,
+      "official_source_page": "https://www.grtc.co.kr/subway/contents/symbolicConcept",
+      "asset_origin": "공식 기관 홈페이지 · 원본 벡터 검수",
+      "rejected_asset_files": [
+        "logo-800.png",
+        "logo-transparent.png",
+        "logo-white.png",
+        "logo-icon.png"
+      ],
+      "official_zip_url": "https://www.grtc.co.kr/upload/download/Symbol_ai.zip"
+    }
+  },
+  "variants": {
+    "kra": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "kra",
+      "primary": "official",
+      "variants": [
+        {
+          "key": "official",
+          "form": "horizontal",
+          "asset_group": "logotype",
+          "lang": "ko",
+          "color": "original",
+          "label": "공식 로고 · 그레이",
+          "files": {
+            "svg": "sources/official-institution-20261009/9e90f24f3f027386.svg",
+            "png": "sources/official-institution-20261009/9e90f24f3f027386.png"
+          },
+          "provider": "공식 기관 홈페이지",
+          "source_url": "https://www.kra.co.kr/common/images/common/logo_gray.svg",
+          "origin": "collected",
+          "order": 0,
+          "light": false
+        }
+      ]
+    },
+    "kdi": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "kdi",
+      "primary": "official",
+      "variants": [
+        {
+          "key": "official",
+          "form": "symbol",
+          "asset_group": "symbol",
+          "lang": "none",
+          "color": "original",
+          "label": "공식 심볼마크",
+          "files": {
+            "svg": "sources/official-institution-20261009/43192c5e4db98584.svg",
+            "png": "sources/official-institution-20261009/43192c5e4db98584.png"
+          },
+          "provider": "공식 기관 홈페이지",
+          "source_url": "https://www.kdi.re.kr/res/ci/logo_CI_ai.zip",
+          "origin": "collected",
+          "order": 0,
+          "light": false
+        }
+      ]
+    },
+    "bokji": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "bokji",
+      "primary": "official",
+      "variants": [
+        {
+          "key": "official",
+          "form": "horizontal",
+          "asset_group": "logotype",
+          "lang": "ko",
+          "color": "original",
+          "label": "공식 국문 시그니처",
+          "files": {
+            "svg": "sources/official-institution-20261009/1c9ecf4dd1719b8c.svg",
+            "png": "sources/official-institution-20261009/1c9ecf4dd1719b8c.png"
+          },
+          "provider": "공식 기관 홈페이지",
+          "source_url": "https://www.bokji.net/images/down/SSN_CI.zip",
+          "origin": "collected",
+          "order": 0,
+          "light": false
+        }
+      ]
+    },
+    "gongu-ci-1295": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "gongu-ci-1295",
+      "primary": "official-light",
+      "variants": [
+        {
+          "key": "official-light",
+          "form": "horizontal",
+          "asset_group": "logotype",
+          "lang": "ko",
+          "color": "original",
+          "label": "공식 국문·영문 시그니처",
+          "files": {
+            "png": "sources/official-institution-20261009/794f021e6606daa7.png"
+          },
+          "provider": "연천군시설관리공단 공식 홈페이지",
+          "origin": "collected",
+          "order": 0,
+          "light": false
+        },
+        {
+          "key": "official-header",
+          "form": "horizontal",
+          "asset_group": "logotype",
+          "lang": "ko",
+          "color": "white",
+          "label": "공식 국문·영문 시그니처 · 어두운 배경용",
+          "files": {
+            "png": "sources/official-institution-20261009/7f80d8922c43e352.png"
+          },
+          "provider": "연천군시설관리공단 공식 홈페이지",
+          "origin": "collected",
+          "order": 1,
+          "light": true
+        }
+      ]
+    }
+  }
+}
