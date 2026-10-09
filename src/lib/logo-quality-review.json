@@ -361,9 +361,9 @@
     "down_at_review": 1
   },
   "lemi": {
-    "reviewed_at": "2026-10-05",
-    "status": "quarantined",
-    "reason": "대표 PNG와 복구 경로 모두 제공 불가. 원본 보존 후 재수집 필요",
+    "reviewed_at": "2026-10-10",
+    "status": "restored",
+    "reason": "공식 CI 매뉴얼의 기관 로고 벡터를 추출하고 공개 PNG/CDN 원본 해시 검증 완료",
     "down_at_review": 1
   },
   "lfcorp": {

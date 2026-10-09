@@ -62,7 +62,9 @@
         "logo-white.png",
         "logo-transparent.png",
         "logo-icon.png"
-      ]
+      ],
+      "hidden": false,
+      "hidden_reason": null
     },
     "gongu-ci-1383": {
       "name_ko": "인천스마트시티(주)",
