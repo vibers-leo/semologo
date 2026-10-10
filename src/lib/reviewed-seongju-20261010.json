@@ -1,0 +1,561 @@
+{
+  "patches": {
+    "sj-2": {
+      "name_ko": "성주군",
+      "name_en": "Seongju County",
+      "origin": "KR",
+      "category": "공공·기관",
+      "website": "https://www.sj.go.kr/",
+      "has_png": true,
+      "has_svg": true,
+      "logo_png": "sources/seongju-20261010/3277d2675b848b6d.png",
+      "logo_svg": "sources/seongju-20261010/32f11c9fdedbadfc.svg",
+      "svg_transparent": "sources/seongju-20261010/32f11c9fdedbadfc.svg",
+      "preview_png": "https://logo.vibers.co.kr/_clients/sj-2/sources/seongju-20261010/3277d2675b848b6d.png",
+      "variants_n": 34,
+      "official_source_page": "https://www.sj.go.kr/page.do?mnu_uid=1014",
+      "asset_origin": "성주군 공식 상징물 · 물품 제작 및 행사 활용 시 군수 승인 필요",
+      "asset_review_status": "verified",
+      "light": false,
+      "light_logo": false,
+      "dark_variant": false,
+      "rejected_asset_files": [
+        "logo.png",
+        "logo-800.png",
+        "logo-transparent.png",
+        "logo-white.png",
+        "logo-icon.png"
+      ],
+      "logo_published_at": "2026-10-10T07:17:51.818053+00:00"
+    },
+    "gongu-ci-1235": {
+      "variant_of": "sj-2",
+      "merged_into": "sj-2",
+      "hidden": false,
+      "hidden_reason": "성주군 공식 상징물 콘텐츠로 통합"
+    }
+  },
+  "variants": {
+    "sj-2": {
+      "schema": 1,
+      "algo_v": 3,
+      "id": "sj-2",
+      "primary": "ci-symbol",
+      "variants": [
+        {
+          "key": "ci-symbol",
+          "label": "CI · 심볼마크",
+          "form": "symbol",
+          "lockup": "symbol",
+          "lang": "none",
+          "text_layout": "none",
+          "color": "original",
+          "files": {
+            "png": "sources/seongju-20261010/3277d2675b848b6d.png",
+            "svg": "sources/seongju-20261010/32f11c9fdedbadfc.svg"
+          },
+          "origin": "official",
+          "provider": "성주군 공식 상징물 · 활용 시 군수 승인 필요",
+          "order": 0
+        },
+        {
+          "key": "slogan-chamhada",
+          "label": "브랜드 슬로건 · 성주는 참하다",
+          "form": "wordmark",
+          "lockup": "wordmark",
+          "lang": "ko",
+          "text_layout": "ko",
+          "color": "original",
+          "files": {
+            "png": "sources/seongju-20261010/aec98c32cd523fc3.png",
+            "svg": "sources/seongju-20261010/b4f5607dd83510d5.svg"
+          },
+          "origin": "official",
+          "provider": "성주군 공식 상징물 · 활용 시 군수 승인 필요",
+          "order": 1
+        },
+        {
+          "key": "character-basic",
+          "label": "참별이 · 기본형",
+          "form": "mascot",
+          "lockup": "mascot",
+          "lang": "none",
+          "text_layout": "none",
+          "color": "original",
+          "files": {
+            "png": "sources/seongju-20261010/59f1b9302a5f9d31.png"
+          },
+          "origin": "official",
+          "provider": "성주군 공식 상징물 · 활용 시 군수 승인 필요",
+          "order": 2
+        },
+        {
+          "key": "character-outline",
+          "label": "참별이 · 단색형",
+          "form": "mascot",
+          "lockup": "mascot",
+          "lang": "none",
+          "text_layout": "none",
+          "color": "original",
+          "files": {
+            "png": "sources/seongju-20261010/90b4072e1710d109.png",
+            "svg": "sources/seongju-20261010/9ec0ea5c155b9be9.svg"
+          },
+          "origin": "official",
+          "provider": "성주군 공식 상징물 · 활용 시 군수 승인 필요",
+          "order": 3
+        },
+        {
+          "key": "character-motion2-1",
+          "label": "참별이 · 안녕",
+          "form": "mascot",
+          "lockup": "mascot",
+          "lang": "none",
+          "text_layout": "none",
+          "color": "original",
+          "files": {
+            "png": "sources/seongju-20261010/15c5177f11eb4eec.png"
+          },
+          "origin": "official",
+          "provider": "성주군 공식 상징물 · 활용 시 군수 승인 필요",
+          "order": 4
+        },
+        {
+          "key": "character-motion2-2",
+          "label": "참별이 · 최고야",
+          "form": "mascot",
+          "lockup": "mascot",
+          "lang": "none",
+          "text_layout": "none",
+          "color": "original",
+          "files": {
+            "png": "sources/seongju-20261010/927b8a26439b260c.png"
+          },
+          "origin": "official",
+          "provider": "성주군 공식 상징물 · 활용 시 군수 승인 필요",
+          "order": 5
+        },
+        {
+          "key": "character-motion2-3",
+          "label": "참별이 · 잘가",
+          "form": "mascot",
+          "lockup": "mascot",
+          "lang": "none",
+          "text_layout": "none",
+          "color": "original",
+          "files": {
+            "png": "sources/seongju-20261010/8bc4295ac3b95716.png"
+          },
+          "origin": "official",
+          "provider": "성주군 공식 상징물 · 활용 시 군수 승인 필요",
+          "order": 6
+        },
+        {
+          "key": "character-motion2-4",
+          "label": "참별이 · 힘차게",
+          "form": "mascot",
+          "lockup": "mascot",
+          "lang": "none",
+          "text_layout": "none",
+          "color": "original",
+          "files": {
+            "png": "sources/seongju-20261010/f9f28c985034a456.png"
+          },
+          "origin": "official",
+          "provider": "성주군 공식 상징물 · 활용 시 군수 승인 필요",
+          "order": 7
+        },
+        {
+          "key": "character-motion2-5",
+          "label": "참별이 · 금지",
+          "form": "mascot",
+          "lockup": "mascot",
+          "lang": "none",
+          "text_layout": "none",
+          "color": "original",
+          "files": {
+            "png": "sources/seongju-20261010/9405f702db0da7e3.png"
+          },
+          "origin": "official",
+          "provider": "성주군 공식 상징물 · 활용 시 군수 승인 필요",
+          "order": 8
+        },
+        {
+          "key": "character-motion2-6",
+          "label": "참별이 · 꿀잠",
+          "form": "mascot",
+          "lockup": "mascot",
+          "lang": "none",
+          "text_layout": "none",
+          "color": "original",
+          "files": {
+            "png": "sources/seongju-20261010/7f21f7acb418a127.png"
+          },
+          "origin": "official",
+          "provider": "성주군 공식 상징물 · 활용 시 군수 승인 필요",
+          "order": 9
+        },
+        {
+          "key": "character-motion2-7",
+          "label": "참별이 · 사랑해",
+          "form": "mascot",
+          "lockup": "mascot",
+          "lang": "none",
+          "text_layout": "none",
+          "color": "original",
+          "files": {
+            "png": "sources/seongju-20261010/0f4f87795e0b29f6.png"
+          },
+          "origin": "official",
+          "provider": "성주군 공식 상징물 · 활용 시 군수 승인 필요",
+          "order": 10
+        },
+        {
+          "key": "character-motion2-8",
+          "label": "참별이 · 축하해",
+          "form": "mascot",
+          "lockup": "mascot",
+          "lang": "none",
+          "text_layout": "none",
+          "color": "original",
+          "files": {
+            "png": "sources/seongju-20261010/acbbf3e0a3c97bdd.png"
+          },
+          "origin": "official",
+          "provider": "성주군 공식 상징물 · 활용 시 군수 승인 필요",
+          "order": 11
+        },
+        {
+          "key": "character-motion3-1",
+          "label": "참별이 · 안내 왼쪽",
+          "form": "mascot",
+          "lockup": "mascot",
+          "lang": "none",
+          "text_layout": "none",
+          "color": "original",
+          "files": {
+            "png": "sources/seongju-20261010/8b4be4b35d9d4729.png"
+          },
+          "origin": "official",
+          "provider": "성주군 공식 상징물 · 활용 시 군수 승인 필요",
+          "order": 12
+        },
+        {
+          "key": "character-motion3-2",
+          "label": "참별이 · 안내 오른쪽",
+          "form": "mascot",
+          "lockup": "mascot",
+          "lang": "none",
+          "text_layout": "none",
+          "color": "original",
+          "files": {
+            "png": "sources/seongju-20261010/cb5772694eb3dd4a.png"
+          },
+          "origin": "official",
+          "provider": "성주군 공식 상징물 · 활용 시 군수 승인 필요",
+          "order": 13
+        },
+        {
+          "key": "character-motion3-3",
+          "label": "참별이 · 부채질",
+          "form": "mascot",
+          "lockup": "mascot",
+          "lang": "none",
+          "text_layout": "none",
+          "color": "original",
+          "files": {
+            "png": "sources/seongju-20261010/7a05ab89404e3b5e.png"
+          },
+          "origin": "official",
+          "provider": "성주군 공식 상징물 · 활용 시 군수 승인 필요",
+          "order": 14
+        },
+        {
+          "key": "character-motion3-4",
+          "label": "참별이 · 둥둥",
+          "form": "mascot",
+          "lockup": "mascot",
+          "lang": "none",
+          "text_layout": "none",
+          "color": "original",
+          "files": {
+            "png": "sources/seongju-20261010/d368d69eda7b4a37.png"
+          },
+          "origin": "official",
+          "provider": "성주군 공식 상징물 · 활용 시 군수 승인 필요",
+          "order": 15
+        },
+        {
+          "key": "character-motion3-5",
+          "label": "참별이 · 알립니다",
+          "form": "mascot",
+          "lockup": "mascot",
+          "lang": "none",
+          "text_layout": "none",
+          "color": "original",
+          "files": {
+            "png": "sources/seongju-20261010/570114f8e3cdd606.png"
+          },
+          "origin": "official",
+          "provider": "성주군 공식 상징물 · 활용 시 군수 승인 필요",
+          "order": 16
+        },
+        {
+          "key": "character-motion3-6",
+          "label": "참별이 · 프레젠테이션",
+          "form": "mascot",
+          "lockup": "mascot",
+          "lang": "none",
+          "text_layout": "none",
+          "color": "original",
+          "files": {
+            "png": "sources/seongju-20261010/850917986db2f309.png"
+          },
+          "origin": "official",
+          "provider": "성주군 공식 상징물 · 활용 시 군수 승인 필요",
+          "order": 17
+        },
+        {
+          "key": "character-motion3-7",
+          "label": "참별이 · 멈춰요",
+          "form": "mascot",
+          "lockup": "mascot",
+          "lang": "none",
+          "text_layout": "none",
+          "color": "original",
+          "files": {
+            "png": "sources/seongju-20261010/7d3ad4cb3402921b.png"
+          },
+          "origin": "official",
+          "provider": "성주군 공식 상징물 · 활용 시 군수 승인 필요",
+          "order": 18
+        },
+        {
+          "key": "character-motion3-8",
+          "label": "참별이 · 복 받으세요",
+          "form": "mascot",
+          "lockup": "mascot",
+          "lang": "none",
+          "text_layout": "none",
+          "color": "original",
+          "files": {
+            "png": "sources/seongju-20261010/7f04b3462f6e416f.png"
+          },
+          "origin": "official",
+          "provider": "성주군 공식 상징물 · 활용 시 군수 승인 필요",
+          "order": 19
+        },
+        {
+          "key": "character-emotion-1",
+          "label": "참별이 · 힘내",
+          "form": "mascot",
+          "lockup": "mascot",
+          "lang": "none",
+          "text_layout": "none",
+          "color": "original",
+          "files": {
+            "png": "sources/seongju-20261010/e711975ed4e0eaea.png"
+          },
+          "origin": "official",
+          "provider": "성주군 공식 상징물 · 활용 시 군수 승인 필요",
+          "order": 20
+        },
+        {
+          "key": "character-emotion-2",
+          "label": "참별이 · 최고",
+          "form": "mascot",
+          "lockup": "mascot",
+          "lang": "none",
+          "text_layout": "none",
+          "color": "original",
+          "files": {
+            "png": "sources/seongju-20261010/800a19f42abf2eca.png"
+          },
+          "origin": "official",
+          "provider": "성주군 공식 상징물 · 활용 시 군수 승인 필요",
+          "order": 21
+        },
+        {
+          "key": "character-emotion-3",
+          "label": "참별이 · 열일 중",
+          "form": "mascot",
+          "lockup": "mascot",
+          "lang": "none",
+          "text_layout": "none",
+          "color": "original",
+          "files": {
+            "png": "sources/seongju-20261010/514fc0efcda5ba0a.png"
+          },
+          "origin": "official",
+          "provider": "성주군 공식 상징물 · 활용 시 군수 승인 필요",
+          "order": 22
+        },
+        {
+          "key": "character-emotion-4",
+          "label": "참별이 · 비 오는 날",
+          "form": "mascot",
+          "lockup": "mascot",
+          "lang": "none",
+          "text_layout": "none",
+          "color": "original",
+          "files": {
+            "png": "sources/seongju-20261010/3c060eb1dc0462ed.png"
+          },
+          "origin": "official",
+          "provider": "성주군 공식 상징물 · 활용 시 군수 승인 필요",
+          "order": 23
+        },
+        {
+          "key": "character-emotion-5",
+          "label": "참별이 · 시무룩",
+          "form": "mascot",
+          "lockup": "mascot",
+          "lang": "none",
+          "text_layout": "none",
+          "color": "original",
+          "files": {
+            "png": "sources/seongju-20261010/e447bca86e326f8d.png"
+          },
+          "origin": "official",
+          "provider": "성주군 공식 상징물 · 활용 시 군수 승인 필요",
+          "order": 24
+        },
+        {
+          "key": "character-emotion-6",
+          "label": "참별이 · 자축",
+          "form": "mascot",
+          "lockup": "mascot",
+          "lang": "none",
+          "text_layout": "none",
+          "color": "original",
+          "files": {
+            "png": "sources/seongju-20261010/47096ffaa1325d6e.png"
+          },
+          "origin": "official",
+          "provider": "성주군 공식 상징물 · 활용 시 군수 승인 필요",
+          "order": 25
+        },
+        {
+          "key": "character-emotion-7",
+          "label": "참별이 · 시원하다",
+          "form": "mascot",
+          "lockup": "mascot",
+          "lang": "none",
+          "text_layout": "none",
+          "color": "original",
+          "files": {
+            "png": "sources/seongju-20261010/bdf91e9bf506dd8b.png"
+          },
+          "origin": "official",
+          "provider": "성주군 공식 상징물 · 활용 시 군수 승인 필요",
+          "order": 26
+        },
+        {
+          "key": "character-emotion-8",
+          "label": "참별이 · 러브",
+          "form": "mascot",
+          "lockup": "mascot",
+          "lang": "none",
+          "text_layout": "none",
+          "color": "original",
+          "files": {
+            "png": "sources/seongju-20261010/7a4b5c4501021572.png"
+          },
+          "origin": "official",
+          "provider": "성주군 공식 상징물 · 활용 시 군수 승인 필요",
+          "order": 27
+        },
+        {
+          "key": "character-emotion-9",
+          "label": "참별이 · 궁금해",
+          "form": "mascot",
+          "lockup": "mascot",
+          "lang": "none",
+          "text_layout": "none",
+          "color": "original",
+          "files": {
+            "png": "sources/seongju-20261010/e4d45ab24fb1ace5.png"
+          },
+          "origin": "official",
+          "provider": "성주군 공식 상징물 · 활용 시 군수 승인 필요",
+          "order": 28
+        },
+        {
+          "key": "character-emotion-10",
+          "label": "참별이 · 아이 좋아",
+          "form": "mascot",
+          "lockup": "mascot",
+          "lang": "none",
+          "text_layout": "none",
+          "color": "original",
+          "files": {
+            "png": "sources/seongju-20261010/a96fa2d92a501bcc.png"
+          },
+          "origin": "official",
+          "provider": "성주군 공식 상징물 · 활용 시 군수 승인 필요",
+          "order": 29
+        },
+        {
+          "key": "chambyeolmiso",
+          "label": "공동브랜드 · 참별미소 · 투명",
+          "form": "wordmark",
+          "lockup": "wordmark",
+          "lang": "ko",
+          "text_layout": "ko",
+          "color": "original",
+          "files": {
+            "png": "sources/seongju-20261010/03b3db3a8e46d278.png"
+          },
+          "origin": "official",
+          "provider": "성주군 공식 상징물 · 활용 시 군수 승인 필요",
+          "order": 30
+        },
+        {
+          "key": "chambyeolmiso-white",
+          "label": "공동브랜드 · 참별미소 · 흰 배경 원본",
+          "form": "wordmark",
+          "lockup": "wordmark",
+          "lang": "ko",
+          "text_layout": "ko",
+          "color": "original",
+          "files": {
+            "png": "sources/seongju-20261010/748c09996844a7c9.png"
+          },
+          "origin": "official",
+          "provider": "성주군 공식 상징물 · 활용 시 군수 승인 필요",
+          "order": 31
+        },
+        {
+          "key": "byeolmat",
+          "label": "가공품 공동브랜드 · 별의별맛 · 투명",
+          "form": "wordmark",
+          "lockup": "wordmark",
+          "lang": "ko",
+          "text_layout": "ko",
+          "color": "original",
+          "files": {
+            "png": "sources/seongju-20261010/3aacbd2acdc464b2.png"
+          },
+          "origin": "official",
+          "provider": "성주군 공식 상징물 · 활용 시 군수 승인 필요",
+          "order": 32
+        },
+        {
+          "key": "byeolmat-white",
+          "label": "가공품 공동브랜드 · 별의별맛 · 흰 배경 원본",
+          "form": "wordmark",
+          "lockup": "wordmark",
+          "lang": "ko",
+          "text_layout": "ko",
+          "color": "original",
+          "files": {
+            "png": "sources/seongju-20261010/c2800c85e1caf0bc.png"
+          },
+          "origin": "official",
+          "provider": "성주군 공식 상징물 · 활용 시 군수 승인 필요",
+          "order": 33
+        }
+      ]
+    }
+  }
+}
