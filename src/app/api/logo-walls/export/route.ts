@@ -91,7 +91,7 @@ export async function GET(request: Request) {
     const og = await logoWallPreview(wall.settings ?? {}, output.map(file => ({ data: file!.data, ...file!.entry })));
     if (new URL(request.url).searchParams.get('format') === 'preview') {
       const images = Object.fromEntries(output.map(file => [file!.name, `data:image/png;base64,${file!.data.toString('base64')}`]));
-      return Response.json({ title: wall.title, html: logoWallInlineHtml(wall.title, wall.settings ?? {}, entries, images), image: `data:image/png;base64,${og.toString('base64')}`, count: entries.length }, { headers: privateHeaders });
+      return Response.json({ version: wall.version, settings: wall.settings, logos: entries, title: wall.title, html: logoWallInlineHtml(wall.title, wall.settings ?? {}, entries, images), image: `data:image/png;base64,${og.toString('base64')}`, count: entries.length }, { headers: privateHeaders });
     }
     const bundle = logoWallBundle(wall.title, wall.settings ?? {}, entries);
     const manifest = { format_version: 2, wall: { id: wall.id, title: wall.title, version: wall.version, settings: wall.settings }, exported_at: new Date().toISOString(), cdn_version: VERSION, logos: entries };

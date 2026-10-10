@@ -1,0 +1,1780 @@
+{
+  "patches": {
+    "abu-dhabi": {
+      "category": "공공·기관"
+    },
+    "aira": {
+      "category": "공공·기관"
+    },
+    "alaska": {
+      "category": "공공·기관"
+    },
+    "alberta": {
+      "category": "공공·기관"
+    },
+    "amherst-county": {
+      "category": "공공·기관"
+    },
+    "anyang": {
+      "category": "공공·기관"
+    },
+    "asahi": {
+      "category": "공공·기관"
+    },
+    "bath-county": {
+      "category": "공공·기관"
+    },
+    "beijing": {
+      "category": "공공·기관"
+    },
+    "boston": {
+      "category": "공공·기관"
+    },
+    "botetourt-county": {
+      "category": "공공·기관"
+    },
+    "brandenburgische-landeszentrale-fu-r-politische-bildung": {
+      "category": "공공·기관"
+    },
+    "bratislava": {
+      "category": "공공·기관"
+    },
+    "brno": {
+      "category": "공공·기관"
+    },
+    "bu-rgerschaft-of-bremen": {
+      "category": "공공·기관"
+    },
+    "budapest-district-vi": {
+      "category": "공공·기관"
+    },
+    "canton-of-appenzell-ausserrhoden": {
+      "category": "공공·기관"
+    },
+    "canton-of-appenzell-innerrhoden": {
+      "category": "공공·기관"
+    },
+    "canton-of-basel-landschaft": {
+      "category": "공공·기관"
+    },
+    "canton-of-berne": {
+      "category": "공공·기관"
+    },
+    "canton-of-fribourg": {
+      "category": "공공·기관"
+    },
+    "canton-of-uri": {
+      "category": "공공·기관"
+    },
+    "canton-of-valais": {
+      "category": "공공·기관"
+    },
+    "canton-of-vaud": {
+      "category": "공공·기관"
+    },
+    "cape-town": {
+      "category": "공공·기관"
+    },
+    "carabineros-de-chile": {
+      "category": "공공·기관"
+    },
+    "casablanca": {
+      "category": "공공·기관"
+    },
+    "cebu-city": {
+      "category": "공공·기관"
+    },
+    "cercani-as-leo-n": {
+      "category": "물류·교통"
+    },
+    "chizu": {
+      "category": "공공·기관"
+    },
+    "chongqing": {
+      "category": "공공·기관"
+    },
+    "coburg": {
+      "category": "공공·기관"
+    },
+    "columbus": {
+      "category": "공공·기관"
+    },
+    "compagnie-des-carabiniers-du-prince": {
+      "category": "공공·기관"
+    },
+    "davao-city": {
+      "category": "공공·기관"
+    },
+    "dayton": {
+      "category": "공공·기관"
+    },
+    "dearborn": {
+      "category": "공공·기관"
+    },
+    "delft": {
+      "category": "공공·기관"
+    },
+    "department-of-the-taoiseach": {
+      "category": "공공·기관"
+    },
+    "derbyshire-county-council": {
+      "category": "공공·기관"
+    },
+    "deventer": {
+      "category": "공공·기관"
+    },
+    "dnipro": {
+      "category": "공공·기관"
+    },
+    "dongguan": {
+      "category": "공공·기관"
+    },
+    "drummondville": {
+      "category": "공공·기관"
+    },
+    "du-sseldorf": {
+      "category": "공공·기관"
+    },
+    "dubai": {
+      "category": "공공·기관"
+    },
+    "dufferin-county": {
+      "category": "공공·기관"
+    },
+    "edmonton": {
+      "category": "공공·기관"
+    },
+    "enschede": {
+      "category": "공공·기관"
+    },
+    "entre-ri-os-province": {
+      "category": "공공·기관"
+    },
+    "flag-ad": {
+      "category": "국가·국기"
+    },
+    "flag-ae": {
+      "category": "국가·국기"
+    },
+    "flag-af": {
+      "category": "국가·국기"
+    },
+    "flag-ag": {
+      "category": "국가·국기"
+    },
+    "flag-al": {
+      "category": "국가·국기"
+    },
+    "flag-am": {
+      "category": "국가·국기"
+    },
+    "flag-ao": {
+      "category": "국가·국기"
+    },
+    "flag-ar": {
+      "category": "국가·국기"
+    },
+    "flag-arab": {
+      "category": "공공·기관"
+    },
+    "flag-asean": {
+      "category": "공공·기관"
+    },
+    "flag-at": {
+      "category": "국가·국기"
+    },
+    "flag-au": {
+      "category": "국가·국기"
+    },
+    "flag-az": {
+      "category": "국가·국기"
+    },
+    "flag-ba": {
+      "category": "국가·국기"
+    },
+    "flag-bb": {
+      "category": "국가·국기"
+    },
+    "flag-bd": {
+      "category": "국가·국기"
+    },
+    "flag-be": {
+      "category": "국가·국기"
+    },
+    "flag-bf": {
+      "category": "국가·국기"
+    },
+    "flag-bg": {
+      "category": "국가·국기"
+    },
+    "flag-bh": {
+      "category": "국가·국기"
+    },
+    "flag-bi": {
+      "category": "국가·국기"
+    },
+    "flag-bj": {
+      "category": "국가·국기"
+    },
+    "flag-bn": {
+      "category": "국가·국기"
+    },
+    "flag-bo": {
+      "category": "국가·국기"
+    },
+    "flag-br": {
+      "category": "국가·국기"
+    },
+    "flag-bs": {
+      "category": "국가·국기"
+    },
+    "flag-bt": {
+      "category": "국가·국기"
+    },
+    "flag-bw": {
+      "category": "국가·국기"
+    },
+    "flag-by": {
+      "category": "국가·국기"
+    },
+    "flag-bz": {
+      "category": "국가·국기"
+    },
+    "flag-ca": {
+      "category": "국가·국기"
+    },
+    "flag-cd": {
+      "category": "국가·국기"
+    },
+    "flag-cefta": {
+      "category": "공공·기관"
+    },
+    "flag-cf": {
+      "category": "국가·국기"
+    },
+    "flag-cg": {
+      "category": "국가·국기"
+    },
+    "flag-ch": {
+      "category": "국가·국기"
+    },
+    "flag-ci": {
+      "category": "국가·국기"
+    },
+    "flag-cl": {
+      "category": "국가·국기"
+    },
+    "flag-cm": {
+      "category": "국가·국기"
+    },
+    "flag-cn": {
+      "category": "국가·국기"
+    },
+    "flag-co": {
+      "category": "국가·국기"
+    },
+    "flag-cr": {
+      "category": "국가·국기"
+    },
+    "flag-cu": {
+      "category": "국가·국기"
+    },
+    "flag-cv": {
+      "category": "국가·국기"
+    },
+    "flag-cy": {
+      "category": "국가·국기"
+    },
+    "flag-cz": {
+      "category": "국가·국기"
+    },
+    "flag-de": {
+      "category": "국가·국기"
+    },
+    "flag-dj": {
+      "category": "국가·국기"
+    },
+    "flag-dk": {
+      "category": "국가·국기"
+    },
+    "flag-dm": {
+      "category": "국가·국기"
+    },
+    "flag-do": {
+      "category": "국가·국기"
+    },
+    "flag-dz": {
+      "category": "국가·국기"
+    },
+    "flag-eac": {
+      "category": "공공·기관"
+    },
+    "flag-ec": {
+      "category": "국가·국기"
+    },
+    "flag-ee": {
+      "category": "국가·국기"
+    },
+    "flag-eg": {
+      "category": "국가·국기"
+    },
+    "flag-er": {
+      "category": "국가·국기"
+    },
+    "flag-es": {
+      "category": "국가·국기"
+    },
+    "flag-et": {
+      "category": "국가·국기"
+    },
+    "flag-eu": {
+      "category": "공공·기관"
+    },
+    "flag-fi": {
+      "category": "국가·국기"
+    },
+    "flag-fj": {
+      "category": "국가·국기"
+    },
+    "flag-fm": {
+      "category": "국가·국기"
+    },
+    "flag-fr": {
+      "category": "국가·국기"
+    },
+    "flag-ga": {
+      "category": "국가·국기"
+    },
+    "flag-gb": {
+      "category": "국가·국기"
+    },
+    "flag-gd": {
+      "category": "국가·국기"
+    },
+    "flag-ge": {
+      "category": "국가·국기"
+    },
+    "flag-gh": {
+      "category": "국가·국기"
+    },
+    "flag-gm": {
+      "category": "국가·국기"
+    },
+    "flag-gn": {
+      "category": "국가·국기"
+    },
+    "flag-gq": {
+      "category": "국가·국기"
+    },
+    "flag-gr": {
+      "category": "국가·국기"
+    },
+    "flag-gt": {
+      "category": "국가·국기"
+    },
+    "flag-gw": {
+      "category": "국가·국기"
+    },
+    "flag-gy": {
+      "category": "국가·국기"
+    },
+    "flag-hn": {
+      "category": "국가·국기"
+    },
+    "flag-hr": {
+      "category": "국가·국기"
+    },
+    "flag-ht": {
+      "category": "국가·국기"
+    },
+    "flag-hu": {
+      "category": "국가·국기"
+    },
+    "flag-id": {
+      "category": "국가·국기"
+    },
+    "flag-ie": {
+      "category": "국가·국기"
+    },
+    "flag-il": {
+      "category": "국가·국기"
+    },
+    "flag-in": {
+      "category": "국가·국기"
+    },
+    "flag-iq": {
+      "category": "국가·국기"
+    },
+    "flag-ir": {
+      "category": "국가·국기"
+    },
+    "flag-is": {
+      "category": "국가·국기"
+    },
+    "flag-it": {
+      "category": "국가·국기"
+    },
+    "flag-jm": {
+      "category": "국가·국기"
+    },
+    "flag-jo": {
+      "category": "국가·국기"
+    },
+    "flag-jp": {
+      "category": "국가·국기"
+    },
+    "flag-ke": {
+      "category": "국가·국기"
+    },
+    "flag-kg": {
+      "category": "국가·국기"
+    },
+    "flag-kh": {
+      "category": "국가·국기"
+    },
+    "flag-ki": {
+      "category": "국가·국기"
+    },
+    "flag-km": {
+      "category": "국가·국기"
+    },
+    "flag-kn": {
+      "category": "국가·국기"
+    },
+    "flag-kp": {
+      "category": "국가·국기"
+    },
+    "flag-kr": {
+      "category": "국가·국기"
+    },
+    "flag-kw": {
+      "category": "국가·국기"
+    },
+    "flag-kz": {
+      "category": "국가·국기"
+    },
+    "flag-la": {
+      "category": "국가·국기"
+    },
+    "flag-lb": {
+      "category": "국가·국기"
+    },
+    "flag-lc": {
+      "category": "국가·국기"
+    },
+    "flag-li": {
+      "category": "국가·국기"
+    },
+    "flag-lk": {
+      "category": "국가·국기"
+    },
+    "flag-lr": {
+      "category": "국가·국기"
+    },
+    "flag-ls": {
+      "category": "국가·국기"
+    },
+    "flag-lt": {
+      "category": "국가·국기"
+    },
+    "flag-lu": {
+      "category": "국가·국기"
+    },
+    "flag-lv": {
+      "category": "국가·국기"
+    },
+    "flag-ly": {
+      "category": "국가·국기"
+    },
+    "flag-ma": {
+      "category": "국가·국기"
+    },
+    "flag-mc": {
+      "category": "국가·국기"
+    },
+    "flag-md": {
+      "category": "국가·국기"
+    },
+    "flag-me": {
+      "category": "국가·국기"
+    },
+    "flag-mg": {
+      "category": "국가·국기"
+    },
+    "flag-mh": {
+      "category": "국가·국기"
+    },
+    "flag-mk": {
+      "category": "국가·국기"
+    },
+    "flag-ml": {
+      "category": "국가·국기"
+    },
+    "flag-mm": {
+      "category": "국가·국기"
+    },
+    "flag-mn": {
+      "category": "국가·국기"
+    },
+    "flag-mr": {
+      "category": "국가·국기"
+    },
+    "flag-mt": {
+      "category": "국가·국기"
+    },
+    "flag-mu": {
+      "category": "국가·국기"
+    },
+    "flag-mv": {
+      "category": "국가·국기"
+    },
+    "flag-mw": {
+      "category": "국가·국기"
+    },
+    "flag-mx": {
+      "category": "국가·국기"
+    },
+    "flag-my": {
+      "category": "국가·국기"
+    },
+    "flag-mz": {
+      "category": "국가·국기"
+    },
+    "flag-na": {
+      "category": "국가·국기"
+    },
+    "flag-ne": {
+      "category": "국가·국기"
+    },
+    "flag-ng": {
+      "category": "국가·국기"
+    },
+    "flag-ni": {
+      "category": "국가·국기"
+    },
+    "flag-nl": {
+      "category": "국가·국기"
+    },
+    "flag-no": {
+      "category": "국가·국기"
+    },
+    "flag-np": {
+      "category": "국가·국기"
+    },
+    "flag-nr": {
+      "category": "국가·국기"
+    },
+    "flag-nz": {
+      "category": "국가·국기"
+    },
+    "flag-om": {
+      "category": "국가·국기"
+    },
+    "flag-pa": {
+      "category": "국가·국기"
+    },
+    "flag-pe": {
+      "category": "국가·국기"
+    },
+    "flag-pg": {
+      "category": "국가·국기"
+    },
+    "flag-ph": {
+      "category": "국가·국기"
+    },
+    "flag-pk": {
+      "category": "국가·국기"
+    },
+    "flag-pl": {
+      "category": "국가·국기"
+    },
+    "flag-ps": {
+      "category": "국가·국기"
+    },
+    "flag-pt": {
+      "category": "국가·국기"
+    },
+    "flag-pw": {
+      "category": "국가·국기"
+    },
+    "flag-py": {
+      "category": "국가·국기"
+    },
+    "flag-qa": {
+      "category": "국가·국기"
+    },
+    "flag-ro": {
+      "category": "국가·국기"
+    },
+    "flag-rs": {
+      "category": "국가·국기"
+    },
+    "flag-ru": {
+      "category": "국가·국기"
+    },
+    "flag-rw": {
+      "category": "국가·국기"
+    },
+    "flag-sa": {
+      "category": "국가·국기"
+    },
+    "flag-sb": {
+      "category": "국가·국기"
+    },
+    "flag-sc": {
+      "category": "국가·국기"
+    },
+    "flag-sd": {
+      "category": "국가·국기"
+    },
+    "flag-se": {
+      "category": "국가·국기"
+    },
+    "flag-sg": {
+      "category": "국가·국기"
+    },
+    "flag-si": {
+      "category": "국가·국기"
+    },
+    "flag-sk": {
+      "category": "국가·국기"
+    },
+    "flag-sl": {
+      "category": "국가·국기"
+    },
+    "flag-sm": {
+      "category": "국가·국기"
+    },
+    "flag-sn": {
+      "category": "국가·국기"
+    },
+    "flag-so": {
+      "category": "국가·국기"
+    },
+    "flag-sr": {
+      "category": "국가·국기"
+    },
+    "flag-ss": {
+      "category": "국가·국기"
+    },
+    "flag-st": {
+      "category": "국가·국기"
+    },
+    "flag-sv": {
+      "category": "국가·국기"
+    },
+    "flag-sy": {
+      "category": "국가·국기"
+    },
+    "flag-sz": {
+      "category": "국가·국기"
+    },
+    "flag-td": {
+      "category": "국가·국기"
+    },
+    "flag-tg": {
+      "category": "국가·국기"
+    },
+    "flag-th": {
+      "category": "국가·국기"
+    },
+    "flag-tj": {
+      "category": "국가·국기"
+    },
+    "flag-tl": {
+      "category": "국가·국기"
+    },
+    "flag-tm": {
+      "category": "국가·국기"
+    },
+    "flag-tn": {
+      "category": "국가·국기"
+    },
+    "flag-to": {
+      "category": "국가·국기"
+    },
+    "flag-tr": {
+      "category": "국가·국기"
+    },
+    "flag-tt": {
+      "category": "국가·국기"
+    },
+    "flag-tv": {
+      "category": "국가·국기"
+    },
+    "flag-tz": {
+      "category": "국가·국기"
+    },
+    "flag-ua": {
+      "category": "국가·국기"
+    },
+    "flag-ug": {
+      "category": "국가·국기"
+    },
+    "flag-un": {
+      "category": "공공·기관"
+    },
+    "flag-us": {
+      "category": "국가·국기"
+    },
+    "flag-uy": {
+      "category": "국가·국기"
+    },
+    "flag-uz": {
+      "category": "국가·국기"
+    },
+    "flag-va": {
+      "category": "국가·국기"
+    },
+    "flag-vc": {
+      "category": "국가·국기"
+    },
+    "flag-ve": {
+      "category": "국가·국기"
+    },
+    "flag-vn": {
+      "category": "국가·국기"
+    },
+    "flag-vu": {
+      "category": "국가·국기"
+    },
+    "flag-ws": {
+      "category": "국가·국기"
+    },
+    "flag-ye": {
+      "category": "국가·국기"
+    },
+    "flag-za": {
+      "category": "국가·국기"
+    },
+    "flag-zm": {
+      "category": "국가·국기"
+    },
+    "flag-zw": {
+      "category": "국가·국기"
+    },
+    "frederikshavn-municipality": {
+      "category": "공공·기관"
+    },
+    "frontenac-county": {
+      "category": "공공·기관"
+    },
+    "gangwon-province": {
+      "category": "공공·기관"
+    },
+    "gendarmerie-general-command": {
+      "category": "공공·기관"
+    },
+    "grey-county": {
+      "category": "공공·기관"
+    },
+    "hampshire-and-the-solent-combined-county-authority": {
+      "category": "공공·기관"
+    },
+    "hanoi": {
+      "category": "공공·기관"
+    },
+    "hastings-county": {
+      "category": "공공·기관"
+    },
+    "heilbronn-district": {
+      "category": "공공·기관"
+    },
+    "helmstedt-district": {
+      "category": "공공·기관"
+    },
+    "hildesheim": {
+      "category": "공공·기관"
+    },
+    "howard-county": {
+      "category": "공공·기관"
+    },
+    "itoshima": {
+      "category": "공공·기관"
+    },
+    "jeju-province": {
+      "category": "공공·기관"
+    },
+    "jena": {
+      "category": "공공·기관"
+    },
+    "jharkhand": {
+      "category": "공공·기관"
+    },
+    "jihlava": {
+      "category": "공공·기관"
+    },
+    "kalamazoo": {
+      "category": "공공·기관"
+    },
+    "kansas-city": {
+      "category": "공공·기관"
+    },
+    "katowice": {
+      "category": "공공·기관"
+    },
+    "kawauchi": {
+      "category": "공공·기관"
+    },
+    "kimino": {
+      "category": "공공·기관"
+    },
+    "kitaibaraki-city": {
+      "category": "공공·기관"
+    },
+    "kitsap-regional-library": {
+      "category": "공공·기관"
+    },
+    "klaipe-da": {
+      "category": "공공·기관"
+    },
+    "landtag-of-brandenburg": {
+      "category": "공공·기관"
+    },
+    "landtag-of-mecklenburg-vorpommern": {
+      "category": "공공·기관"
+    },
+    "lienchiang-county": {
+      "category": "공공·기관"
+    },
+    "linz": {
+      "category": "공공·기관"
+    },
+    "los-alamos-national-laboratory": {
+      "category": "공공·기관"
+    },
+    "lublin": {
+      "category": "공공·기관"
+    },
+    "lugo": {
+      "category": "공공·기관"
+    },
+    "manila": {
+      "category": "공공·기관"
+    },
+    "matsuno": {
+      "category": "공공·기관"
+    },
+    "miami": {
+      "category": "공공·기관"
+    },
+    "miami-dade-county": {
+      "category": "공공·기관"
+    },
+    "mine": {
+      "category": "공공·기관"
+    },
+    "minneapolis": {
+      "category": "공공·기관"
+    },
+    "mitsue": {
+      "category": "공공·기관"
+    },
+    "montreal": {
+      "category": "공공·기관"
+    },
+    "mountain-view": {
+      "category": "공공·기관"
+    },
+    "nahari": {
+      "category": "공공·기관"
+    },
+    "nakagawa": {
+      "category": "공공·기관"
+    },
+    "nara": {
+      "category": "공공·기관"
+    },
+    "new-york-city": {
+      "category": "공공·기관"
+    },
+    "norddjurs-municipality": {
+      "category": "공공·기관"
+    },
+    "nordic-council": {
+      "category": "공공·기관"
+    },
+    "north-chungcheong": {
+      "category": "공공·기관"
+    },
+    "north-gyeongsang": {
+      "category": "공공·기관"
+    },
+    "novi-sad": {
+      "category": "공공·기관"
+    },
+    "odesa": {
+      "category": "공공·기관"
+    },
+    "olomouc": {
+      "category": "공공·기관"
+    },
+    "pasig": {
+      "category": "공공·기관"
+    },
+    "pinellas-county": {
+      "category": "공공·기관"
+    },
+    "potsdam": {
+      "category": "공공·기관"
+    },
+    "president-of-russia": {
+      "category": "공공·기관"
+    },
+    "quebec-city": {
+      "category": "공공·기관"
+    },
+    "raleigh": {
+      "category": "공공·기관"
+    },
+    "rennes": {
+      "category": "공공·기관"
+    },
+    "rotterdam": {
+      "category": "공공·기관"
+    },
+    "sejong": {
+      "category": "공공·기관"
+    },
+    "seminole-county": {
+      "category": "공공·기관"
+    },
+    "sennan": {
+      "category": "공공·기관"
+    },
+    "shanghai": {
+      "category": "공공·기관"
+    },
+    "shymkent": {
+      "category": "공공·기관"
+    },
+    "sidewalk-labs": {
+      "category": "IT·테크"
+    },
+    "south-jeolla": {
+      "category": "공공·기관"
+    },
+    "strasbourg": {
+      "category": "공공·기관"
+    },
+    "surakarta": {
+      "category": "공공·기관"
+    },
+    "svalo-v-municipality": {
+      "category": "공공·기관"
+    },
+    "ta-y-ninh": {
+      "category": "공공·기관"
+    },
+    "taichung": {
+      "category": "공공·기관"
+    },
+    "tamano": {
+      "category": "공공·기관"
+    },
+    "tanashi": {
+      "category": "공공·기관"
+    },
+    "tel-aviv": {
+      "category": "공공·기관"
+    },
+    "ternopil": {
+      "category": "공공·기관"
+    },
+    "thanh-oai": {
+      "category": "공공·기관"
+    },
+    "thessaloniki": {
+      "category": "공공·기관"
+    },
+    "thunder-bay": {
+      "category": "공공·기관"
+    },
+    "toledo": {
+      "category": "공공·기관"
+    },
+    "tosashimizu": {
+      "category": "공공·기관"
+    },
+    "vi-nh-long": {
+      "category": "공공·기관"
+    },
+    "vitacura": {
+      "category": "공공·기관"
+    },
+    "warszawska-kolej-dojazdowa": {
+      "category": "물류·교통"
+    },
+    "wasatch-county": {
+      "category": "공공·기관"
+    },
+    "wayne-county": {
+      "category": "공공·기관"
+    },
+    "westmoreland-county": {
+      "category": "공공·기관"
+    },
+    "wichita": {
+      "category": "공공·기관"
+    },
+    "wiesbaden": {
+      "category": "공공·기관"
+    },
+    "xiamen": {
+      "category": "공공·기관"
+    },
+    "yokohama": {
+      "category": "공공·기관"
+    },
+    "yufu": {
+      "category": "공공·기관"
+    },
+    "yugawa": {
+      "category": "공공·기관"
+    },
+    "agen": {
+      "category": "공공·기관"
+    },
+    "ajax": {
+      "category": "브랜드"
+    },
+    "allentown": {
+      "category": "공공·기관"
+    },
+    "almelo": {
+      "category": "공공·기관"
+    },
+    "almere": {
+      "category": "공공·기관"
+    },
+    "altena": {
+      "category": "공공·기관"
+    },
+    "antony": {
+      "category": "공공·기관"
+    },
+    "arriach": {
+      "category": "공공·기관"
+    },
+    "asheville": {
+      "category": "공공·기관"
+    },
+    "assen": {
+      "category": "공공·기관"
+    },
+    "auburn": {
+      "category": "브랜드"
+    },
+    "avon": {
+      "category": "브랜드"
+    },
+    "be": {
+      "category": "브랜드"
+    },
+    "beauchamp": {
+      "category": "브랜드"
+    },
+    "beaumont-sur-oise": {
+      "category": "공공·기관"
+    },
+    "beekdaelen": {
+      "category": "공공·기관"
+    },
+    "bellinzona": {
+      "category": "공공·기관"
+    },
+    "benton-harbor": {
+      "category": "공공·기관"
+    },
+    "berg-en-dal": {
+      "category": "공공·기관"
+    },
+    "bergen": {
+      "category": "공공·기관"
+    },
+    "beuningen": {
+      "category": "공공·기관"
+    },
+    "birmingham": {
+      "category": "공공·기관"
+    },
+    "bloemendaal": {
+      "category": "공공·기관"
+    },
+    "bloomington": {
+      "category": "공공·기관"
+    },
+    "bourgogne-franche-comte": {
+      "category": "공공·기관"
+    },
+    "boxtel": {
+      "category": "공공·기관"
+    },
+    "boynton-beach": {
+      "category": "공공·기관"
+    },
+    "brentwood": {
+      "category": "브랜드"
+    },
+    "brighton": {
+      "category": "브랜드"
+    },
+    "bunnik": {
+      "category": "공공·기관"
+    },
+    "bv": {
+      "category": "브랜드"
+    },
+    "cap-sante": {
+      "category": "공공·기관"
+    },
+    "capelle-aan-den-ijssel": {
+      "category": "공공·기관"
+    },
+    "castricum": {
+      "category": "공공·기관"
+    },
+    "charleville-me-zie-res": {
+      "category": "공공·기관"
+    },
+    "cherisy": {
+      "category": "공공·기관"
+    },
+    "co-te-saint-luc": {
+      "category": "공공·기관"
+    },
+    "coconut-creek": {
+      "category": "공공·기관"
+    },
+    "crans-montana": {
+      "category": "공공·기관"
+    },
+    "culemborg": {
+      "category": "공공·기관"
+    },
+    "czechowice-dziedzice": {
+      "category": "공공·기관"
+    },
+    "de-bilt": {
+      "category": "공공·기관"
+    },
+    "deurne": {
+      "category": "공공·기관"
+    },
+    "dijk-en-waard": {
+      "category": "공공·기관"
+    },
+    "dinkelland": {
+      "category": "공공·기관"
+    },
+    "dk": {
+      "category": "브랜드"
+    },
+    "drechterland": {
+      "category": "공공·기관"
+    },
+    "dryden": {
+      "category": "공공·기관"
+    },
+    "duiven": {
+      "category": "공공·기관"
+    },
+    "eemsdelta": {
+      "category": "공공·기관"
+    },
+    "eersel": {
+      "category": "공공·기관"
+    },
+    "eijsden-margraten": {
+      "category": "공공·기관"
+    },
+    "el-kerma": {
+      "category": "공공·기관"
+    },
+    "enghien-les-bains": {
+      "category": "공공·기관"
+    },
+    "es": {
+      "category": "브랜드"
+    },
+    "everett": {
+      "category": "공공·기관"
+    },
+    "farmington-hills": {
+      "category": "공공·기관"
+    },
+    "fenton": {
+      "category": "브랜드"
+    },
+    "fernie": {
+      "category": "공공·기관"
+    },
+    "flag-ai": {
+      "category": "공공·기관"
+    },
+    "flag-aq": {
+      "category": "공공·기관"
+    },
+    "flag-as": {
+      "category": "공공·기관"
+    },
+    "flag-aw": {
+      "category": "공공·기관"
+    },
+    "flag-ax": {
+      "category": "공공·기관"
+    },
+    "flag-bl": {
+      "category": "공공·기관"
+    },
+    "flag-bm": {
+      "category": "공공·기관"
+    },
+    "flag-bq": {
+      "category": "공공·기관"
+    },
+    "flag-bv": {
+      "category": "공공·기관"
+    },
+    "flag-cc": {
+      "category": "공공·기관"
+    },
+    "flag-ck": {
+      "category": "공공·기관"
+    },
+    "flag-cp": {
+      "category": "공공·기관"
+    },
+    "flag-cw": {
+      "category": "공공·기관"
+    },
+    "flag-cx": {
+      "category": "공공·기관"
+    },
+    "flag-dg": {
+      "category": "공공·기관"
+    },
+    "flag-eh": {
+      "category": "공공·기관"
+    },
+    "flag-es-ct": {
+      "category": "공공·기관"
+    },
+    "flag-es-ga": {
+      "category": "공공·기관"
+    },
+    "flag-es-pv": {
+      "category": "공공·기관"
+    },
+    "flag-fk": {
+      "category": "공공·기관"
+    },
+    "flag-fo": {
+      "category": "공공·기관"
+    },
+    "flag-gb-eng": {
+      "category": "공공·기관"
+    },
+    "flag-gb-nir": {
+      "category": "공공·기관"
+    },
+    "flag-gb-sct": {
+      "category": "공공·기관"
+    },
+    "flag-gb-wls": {
+      "category": "공공·기관"
+    },
+    "flag-gf": {
+      "category": "공공·기관"
+    },
+    "flag-gg": {
+      "category": "공공·기관"
+    },
+    "flag-gi": {
+      "category": "공공·기관"
+    },
+    "flag-gl": {
+      "category": "공공·기관"
+    },
+    "flag-gp": {
+      "category": "공공·기관"
+    },
+    "flag-gs": {
+      "category": "공공·기관"
+    },
+    "flag-gu": {
+      "category": "공공·기관"
+    },
+    "flag-hk": {
+      "category": "공공·기관"
+    },
+    "flag-hm": {
+      "category": "공공·기관"
+    },
+    "flag-ic": {
+      "category": "공공·기관"
+    },
+    "flag-im": {
+      "category": "공공·기관"
+    },
+    "flag-io": {
+      "category": "공공·기관"
+    },
+    "flag-je": {
+      "category": "공공·기관"
+    },
+    "flag-ky": {
+      "category": "공공·기관"
+    },
+    "flag-mf": {
+      "category": "공공·기관"
+    },
+    "flag-mo": {
+      "category": "공공·기관"
+    },
+    "flag-mp": {
+      "category": "공공·기관"
+    },
+    "flag-mq": {
+      "category": "공공·기관"
+    },
+    "flag-ms": {
+      "category": "공공·기관"
+    },
+    "flag-nc": {
+      "category": "공공·기관"
+    },
+    "flag-nf": {
+      "category": "공공·기관"
+    },
+    "flag-nu": {
+      "category": "공공·기관"
+    },
+    "flag-pc": {
+      "category": "공공·기관"
+    },
+    "flag-pf": {
+      "category": "공공·기관"
+    },
+    "flag-pm": {
+      "category": "공공·기관"
+    },
+    "flag-pn": {
+      "category": "공공·기관"
+    },
+    "flag-pr": {
+      "category": "공공·기관"
+    },
+    "flag-re": {
+      "category": "공공·기관"
+    },
+    "flag-sh": {
+      "category": "공공·기관"
+    },
+    "flag-sh-ac": {
+      "category": "공공·기관"
+    },
+    "flag-sh-hl": {
+      "category": "공공·기관"
+    },
+    "flag-sh-ta": {
+      "category": "공공·기관"
+    },
+    "flag-sj": {
+      "category": "공공·기관"
+    },
+    "flag-sx": {
+      "category": "공공·기관"
+    },
+    "flag-tc": {
+      "category": "공공·기관"
+    },
+    "flag-tf": {
+      "category": "공공·기관"
+    },
+    "flag-tk": {
+      "category": "공공·기관"
+    },
+    "flag-tw": {
+      "category": "국가·국기"
+    },
+    "flag-um": {
+      "category": "공공·기관"
+    },
+    "flag-vg": {
+      "category": "공공·기관"
+    },
+    "flag-vi": {
+      "category": "공공·기관"
+    },
+    "flag-wf": {
+      "category": "공공·기관"
+    },
+    "flag-xk": {
+      "category": "국가·국기"
+    },
+    "flag-xx": {
+      "category": "브랜드"
+    },
+    "flag-yt": {
+      "category": "공공·기관"
+    },
+    "forges-les-bains": {
+      "category": "공공·기관"
+    },
+    "fr": {
+      "category": "브랜드"
+    },
+    "gaillard": {
+      "category": "공공·기관"
+    },
+    "gary": {
+      "category": "공공·기관"
+    },
+    "geertruidenberg": {
+      "category": "공공·기관"
+    },
+    "genas": {
+      "category": "공공·기관"
+    },
+    "gilze-en-rijen": {
+      "category": "공공·기관"
+    },
+    "go-ppingen": {
+      "category": "공공·기관"
+    },
+    "gooise-meren": {
+      "category": "공공·기관"
+    },
+    "gouda": {
+      "category": "공공·기관"
+    },
+    "grand-est": {
+      "category": "공공·기관"
+    },
+    "grand-rapids": {
+      "category": "공공·기관"
+    },
+    "gulfport": {
+      "category": "공공·기관"
+    },
+    "gulpen-wittem": {
+      "category": "공공·기관"
+    },
+    "hamilton": {
+      "category": "브랜드"
+    },
+    "hardenberg": {
+      "category": "공공·기관"
+    },
+    "hellendoorn": {
+      "category": "공공·기관"
+    },
+    "heusden": {
+      "category": "공공·기관"
+    },
+    "hof-van-twente": {
+      "category": "공공·기관"
+    },
+    "hollands-kroon": {
+      "category": "공공·기관"
+    },
+    "holyoke": {
+      "category": "공공·기관"
+    },
+    "hoogeveen": {
+      "category": "공공·기관"
+    },
+    "horst-aan-de-maas": {
+      "category": "공공·기관"
+    },
+    "houten": {
+      "category": "공공·기관"
+    },
+    "hr": {
+      "category": "브랜드"
+    },
+    "huntington": {
+      "category": "공공·기관"
+    },
+    "it": {
+      "category": "브랜드"
+    },
+    "ittigen": {
+      "category": "공공·기관"
+    },
+    "kamp-lintfort": {
+      "category": "공공·기관"
+    },
+    "kampen": {
+      "category": "공공·기관"
+    },
+    "katwijk": {
+      "category": "공공·기관"
+    },
+    "kernen-im-remstal": {
+      "category": "공공·기관"
+    },
+    "krimpen-aan-den-ijssel": {
+      "category": "공공·기관"
+    },
+    "kufstein": {
+      "category": "공공·기관"
+    },
+    "kurzeme-region": {
+      "category": "공공·기관"
+    },
+    "la-pocatie-re": {
+      "category": "공공·기관"
+    },
+    "lafayette": {
+      "category": "공공·기관"
+    },
+    "lansing": {
+      "category": "공공·기관"
+    },
+    "lansingerland": {
+      "category": "공공·기관"
+    },
+    "laval": {
+      "category": "브랜드"
+    },
+    "le-teil": {
+      "category": "공공·기관"
+    },
+    "leduc": {
+      "category": "공공·기관"
+    },
+    "leidschendam-voorburg": {
+      "category": "공공·기관"
+    },
+    "leisure-world": {
+      "category": "브랜드"
+    },
+    "les-mureaux": {
+      "category": "공공·기관"
+    },
+    "lethbridge": {
+      "category": "공공·기관"
+    },
+    "leudal": {
+      "category": "공공·기관"
+    },
+    "liepa-ja": {
+      "category": "공공·기관"
+    },
+    "linares-de-riofri-o": {
+      "category": "공공·기관"
+    },
+    "livonia": {
+      "category": "공공·기관"
+    },
+    "lochem": {
+      "category": "공공·기관"
+    },
+    "lt": {
+      "category": "브랜드"
+    },
+    "lu": {
+      "category": "브랜드"
+    },
+    "lynchburg": {
+      "category": "공공·기관"
+    },
+    "lynnwood": {
+      "category": "공공·기관"
+    },
+    "magog": {
+      "category": "공공·기관"
+    },
+    "medford": {
+      "category": "공공·기관"
+    },
+    "menlo-park": {
+      "category": "공공·기관"
+    },
+    "mersin": {
+      "category": "공공·기관"
+    },
+    "middelburg": {
+      "category": "공공·기관"
+    },
+    "midden-groningen": {
+      "category": "공공·기관"
+    },
+    "midiateca-capixaba": {
+      "category": "공공·기관"
+    },
+    "millas": {
+      "category": "공공·기관"
+    },
+    "minden": {
+      "category": "공공·기관"
+    },
+    "mook-en-middelaar": {
+      "category": "공공·기관"
+    },
+    "neuilly-sur-seine": {
+      "category": "공공·기관"
+    },
+    "nieuwkoop": {
+      "category": "공공·기관"
+    },
+    "no": {
+      "category": "브랜드"
+    },
+    "norwalk": {
+      "category": "공공·기관"
+    },
+    "nuvali": {
+      "category": "건설·부동산"
+    },
+    "orillia": {
+      "category": "공공·기관"
+    },
+    "owen-sound": {
+      "category": "공공·기관"
+    },
+    "paradise": {
+      "category": "브랜드"
+    },
+    "pau": {
+      "category": "공공·기관"
+    },
+    "plaisance-du-touch": {
+      "category": "공공·기관"
+    },
+    "port-colborne": {
+      "category": "공공·기관"
+    },
+    "q200439": {
+      "category": "브랜드"
+    },
+    "raisio": {
+      "category": "공공·기관"
+    },
+    "red-deer": {
+      "category": "공공·기관"
+    },
+    "renens": {
+      "category": "공공·기관"
+    },
+    "rivie-re-a-pierre": {
+      "category": "공공·기관"
+    },
+    "royal-oak": {
+      "category": "공공·기관"
+    },
+    "ruhr": {
+      "category": "공공·기관"
+    },
+    "sallanches": {
+      "category": "공공·기관"
+    },
+    "sartrouville": {
+      "category": "공공·기관"
+    },
+    "seina-joki": {
+      "category": "공공·기관"
+    },
+    "sherbrooke": {
+      "category": "공공·기관"
+    },
+    "sion": {
+      "category": "공공·기관"
+    },
+    "sj": {
+      "category": "브랜드"
+    },
+    "skagen": {
+      "category": "공공·기관"
+    },
+    "southgate": {
+      "category": "브랜드"
+    },
+    "st-john-s": {
+      "category": "공공·기관"
+    },
+    "st-louis": {
+      "category": "공공·기관"
+    },
+    "st-paul": {
+      "category": "공공·기관"
+    },
+    "stamford": {
+      "category": "공공·기관"
+    },
+    "stratford": {
+      "category": "브랜드"
+    },
+    "su-leymanpas-a-district": {
+      "category": "공공·기관"
+    },
+    "sultangazi": {
+      "category": "공공·기관"
+    },
+    "suwanee": {
+      "category": "공공·기관"
+    },
+    "taguig": {
+      "category": "공공·기관"
+    },
+    "temiskaming-shores": {
+      "category": "공공·기관"
+    },
+    "the-line": {
+      "category": "건설·부동산"
+    },
+    "trois-rivie-res": {
+      "category": "공공·기관"
+    },
+    "troy": {
+      "category": "브랜드"
+    },
+    "val-des-sources": {
+      "category": "공공·기관"
+    },
+    "velbert": {
+      "category": "공공·기관"
+    },
+    "victoriaville": {
+      "category": "공공·기관"
+    },
+    "waterville": {
+      "category": "브랜드"
+    },
+    "weilburg": {
+      "category": "공공·기관"
+    },
+    "wentzville": {
+      "category": "공공·기관"
+    },
+    "west-palm-beach": {
+      "category": "공공·기관"
+    },
+    "westerveld": {
+      "category": "공공·기관"
+    },
+    "wetaskiwin": {
+      "category": "공공·기관"
+    },
+    "whitecourt": {
+      "category": "공공·기관"
+    },
+    "willisau": {
+      "category": "공공·기관"
+    },
+    "xanten": {
+      "category": "공공·기관"
+    },
+    "yorkton": {
+      "category": "공공·기관"
+    },
+    "yverdon-les-bains": {
+      "category": "공공·기관"
+    }
+  },
+  "backup": "marketing/assets/country-category-audit-20261010/cms-backup.json",
+  "provenance": "marketing/assets/country-category-audit-20261010/proposed-patch.json",
+  "hold_count": 0
+}

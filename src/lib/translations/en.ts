@@ -101,7 +101,7 @@ export const english: Record<string, string> = {
 "숙박/여행":"Hotels & Travel",
 "공공/기관":"Public Institutions",
 "암호화폐·블록체인":"Crypto & Blockchain",
-"국가·지역":"Countries & Regions",
+"국가·국기":"Countries & Flags",
 "Vibers 생태계":"Vibers Ecosystem",
 "배경 미확인":"Background not verified",
 "밝은 배경 전용":"Light backgrounds only",

@@ -1,0 +1,4150 @@
+{
+  "prepared_at": "2026-10-10T10:35:03.432368+00:00",
+  "source_category": "국가·지역",
+  "category_storage": "semologo.logo_posts.payload.category (text; separate category ID not used)",
+  "backup_sha256": "1fb5c273a7c6f0d692246a326c627f148d9db7fa1f31d5e9973d44d5d6bdf2ea",
+  "patches": {
+    "abu-dhabi": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "아부다비",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "aira": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "아이라시",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "alaska": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "알래스카주",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "alberta": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "앨버타주",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "amherst-county": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "애머스트군",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "anyang": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "안양시",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "asahi": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "아사히정",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "bath-county": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "배스군",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "beijing": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "베이징시",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "boston": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "보스턴",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "botetourt-county": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "보터토트군",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "brandenburgische-landeszentrale-fu-r-politische-bildung": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Brandenburgische Landeszentrale für politische Bildung",
+      "reason": "주정부 정치교육기관 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "bratislava": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "브라티슬라바",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "brno": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "브르노",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "bu-rgerschaft-of-bremen": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Bürgerschaft of Bremen",
+      "reason": "주 의회 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "budapest-district-vi": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "테레즈바로시",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "canton-of-appenzell-ausserrhoden": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "아펜첼아우서로덴주",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "canton-of-appenzell-innerrhoden": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "아펜첼이너로덴주",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "canton-of-basel-landschaft": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "바젤란트주",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "canton-of-berne": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "베른주",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "canton-of-fribourg": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "프리부르주",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "canton-of-uri": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "우리주",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "canton-of-valais": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "발레주",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "canton-of-vaud": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "보주",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "cape-town": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "케이프타운",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "carabineros-de-chile": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Carabineros de Chile",
+      "reason": "국가 경찰 기관 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "casablanca": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "카사블랑카",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "cebu-city": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "세부",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "cercani-as-leo-n": {
+      "before_category": "국가·지역",
+      "category": "물류·교통",
+      "name_ko": "Cercanías León",
+      "reason": "Cercanías 철도 운영 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "chizu": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "지즈정",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "chongqing": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "충칭시",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "coburg": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "코부르크",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-08T11:10:28.860Z"
+    },
+    "columbus": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "콜럼버스",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "compagnie-des-carabiniers-du-prince": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Compagnie des Carabiniers du Prince",
+      "reason": "공공 경호기관 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "davao-city": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "다바오",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "dayton": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "데이턴",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "dearborn": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "디어본",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "delft": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "델프트",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "department-of-the-taoiseach": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Department of the Taoiseach",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "derbyshire-county-council": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Derbyshire County Council",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "deventer": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "데벤터르",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "dnipro": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "드니프로",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "dongguan": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "둥관시",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "drummondville": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "드러먼드빌",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "du-sseldorf": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "뒤셀도르프",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "dubai": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "두바이",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "dufferin-county": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Dufferin County",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "edmonton": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "에드먼턴",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "enschede": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "엔스헤더",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "entre-ri-os-province": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "엔트레리오스주",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-ad": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "안도라",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-ae": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "아랍에미리트",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-af": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "아프가니스탄",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-ag": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "Antigua and Barbuda",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-al": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "알바니아",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-am": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "아르메니아",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-ao": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "앙골라",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-ar": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "아르헨티나",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-arab": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "League of Arab States",
+      "reason": "국가가 아닌 국제기구·지역협의체 깃발",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-asean": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Association of Southeast Asian Nations",
+      "reason": "국가가 아닌 국제기구·지역협의체 깃발",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-at": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "오스트리아",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-au": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "호주",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-az": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "아제르바이잔",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-ba": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "보스니아 헤르체고비나",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-bb": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "Barbados",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-bd": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "방글라데시",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-be": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "벨기에",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-bf": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "Burkina Faso",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-bg": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "불가리아",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-bh": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "바레인",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-bi": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "Burundi",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-bj": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "Benin",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-bn": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "Brunei Darussalam",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-bo": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "볼리비아",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-br": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "브라질",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-bs": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "Bahamas",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-bt": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "Bhutan",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-bw": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "Botswana",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-by": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "벨라루스",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-bz": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "Belize",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-ca": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "캐나다",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-cd": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "Democratic Republic of the Congo",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-cefta": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Central European Free Trade Agreement",
+      "reason": "국가가 아닌 국제기구·지역협의체 깃발",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-cf": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "Central African Republic",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-cg": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "Republic of the Congo",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-ch": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "스위스",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-ci": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "Côte d'Ivoire",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-cl": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "칠레",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-cm": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "Cameroon",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-cn": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "중국",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-co": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "콜롬비아",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-cr": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "Costa Rica",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-cu": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "쿠바",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-cv": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "Cabo Verde",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-cy": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "키프로스",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-cz": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "체코",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-de": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "독일",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-dj": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "Djibouti",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-dk": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "덴마크",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-dm": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "Dominica",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-do": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "Dominican Republic",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-dz": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "알제리",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-eac": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "East African Community",
+      "reason": "국가가 아닌 국제기구·지역협의체 깃발",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-ec": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "에콰도르",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-ee": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "에스토니아",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-eg": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "이집트",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-er": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "Eritrea",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-es": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "스페인",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-et": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "에티오피아",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-eu": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Europe",
+      "reason": "국가가 아닌 국제기구·지역협의체 깃발",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-fi": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "핀란드",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-fj": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "Fiji",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-fm": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "Federated States of Micronesia",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-fr": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "프랑스",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-ga": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "Gabon",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-gb": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "영국",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-gd": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "Grenada",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-ge": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "조지아",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-gh": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "가나",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-gm": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "Gambia",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-gn": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "Guinea",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-gq": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "Equatorial Guinea",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-gr": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "그리스",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-gt": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "과테말라",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-gw": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "Guinea-Bissau",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-gy": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "Guyana",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-hn": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "온두라스",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-hr": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "크로아티아",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-ht": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "Haiti",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-hu": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "헝가리",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-id": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "인도네시아",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-ie": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "아일랜드",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-il": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "이스라엘",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-in": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "인도",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-iq": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "이라크",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-ir": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "이란",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-is": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "아이슬란드",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-it": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "이탈리아",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-jm": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "자메이카",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-jo": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "요르단",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-jp": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "일본",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-ke": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "케냐",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-kg": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "키르기스스탄",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-kh": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "캄보디아",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-ki": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "Kiribati",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-km": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "Comoros",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-kn": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "Saint Kitts and Nevis",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-kp": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "북한",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-kr": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "대한민국",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-kw": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "쿠웨이트",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-kz": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "카자흐스탄",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-la": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "라오스",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-lb": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "레바논",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-lc": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "Saint Lucia",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-li": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "리히텐슈타인",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-lk": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "스리랑카",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-lr": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "Liberia",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-ls": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "Lesotho",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-lt": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "리투아니아",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-lu": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "룩셈부르크",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-lv": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "라트비아",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-ly": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "리비아",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-ma": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "모로코",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-mc": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "모나코",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-md": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "몰도바",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-me": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "몬테네그로",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-mg": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "Madagascar",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-mh": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "Marshall Islands",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-mk": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "북마케도니아",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-ml": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "Mali",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-mm": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "미얀마",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-mn": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "몽골",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-mr": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "Mauritania",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-mt": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "몰타",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-mu": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "Mauritius",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-mv": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "Maldives",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-mw": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "Malawi",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-mx": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "멕시코",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-my": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "말레이시아",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-mz": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "Mozambique",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-na": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "Namibia",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-ne": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "Niger",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-ng": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "나이지리아",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-ni": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "Nicaragua",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-nl": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "네덜란드",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-no": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "노르웨이",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-np": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "네팔",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-nr": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "Nauru",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-nz": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "뉴질랜드",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-om": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "오만",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-pa": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "파나마",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-pe": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "페루",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-pg": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "Papua New Guinea",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-ph": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "필리핀",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-pk": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "파키스탄",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-pl": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "폴란드",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-ps": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "State of Palestine",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-pt": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "포르투갈",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-pw": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "Palau",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-py": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "파라과이",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-qa": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "카타르",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-ro": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "루마니아",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-rs": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "세르비아",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-ru": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "러시아",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-rw": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "Rwanda",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-sa": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "사우디아라비아",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-sb": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "Solomon Islands",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-sc": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "Seychelles",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-sd": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "수단",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-se": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "스웨덴",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-sg": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "싱가포르",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-si": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "슬로베니아",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-sk": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "슬로바키아",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-sl": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "Sierra Leone",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-sm": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "San Marino",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-sn": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "Senegal",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-so": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "소말리아",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-sr": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "Suriname",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-ss": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "South Sudan",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-st": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "Sao Tome and Principe",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-sv": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "El Salvador",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-sy": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "시리아",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-sz": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "Eswatini",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-td": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "Chad",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-tg": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "Togo",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-th": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "태국",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-tj": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "타지키스탄",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-tl": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "Timor-Leste",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-tm": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "투르크메니스탄",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-tn": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "튀니지",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-to": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "Tonga",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-tr": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "Türkiye",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-tt": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "Trinidad and Tobago",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-tv": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "Tuvalu",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-tz": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "Tanzania",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-ua": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "우크라이나",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-ug": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "우간다",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-un": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "United Nations",
+      "reason": "국가가 아닌 국제기구·지역협의체 깃발",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-us": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "United States of America",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-uy": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "우루과이",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-uz": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "우즈베키스탄",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-va": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "Holy See",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-vc": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "Saint Vincent and the Grenadines",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-ve": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "베네수엘라",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-vn": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "베트남",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-vu": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "Vanuatu",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-ws": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "Samoa",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-ye": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "예멘",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-za": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "남아프리카공화국",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-zm": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "Zambia",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-zw": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "짐바브웨",
+      "reason": "국가 국기 식별자 · 193 UN 회원국 및 2 옵서버 국가에 해당",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "frederikshavn-municipality": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "프레데릭스하운시",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "frontenac-county": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Frontenac County",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "gangwon-province": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "강원특별자치도",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "gendarmerie-general-command": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Gendarmerie General Command",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "grey-county": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Grey County",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "hampshire-and-the-solent-combined-county-authority": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Hampshire and the Solent Combined County Authority",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "hanoi": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "하노이",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "hastings-county": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Hastings County",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "heilbronn-district": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Heilbronn District",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "helmstedt-district": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "헬름슈테트군",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "hildesheim": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "힐데스하임",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "howard-county": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "하워드군 (메릴랜드주)",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "itoshima": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "이토시마시",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "jeju-province": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "제주특별자치도",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "jena": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "예나",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "jharkhand": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "자르칸드주",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "jihlava": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "이흘라바",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "kalamazoo": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "캘러머주",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "kansas-city": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "캔자스시티",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "katowice": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "카토비체",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "kawauchi": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "가와우치촌",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "kimino": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "기미노정",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "kitaibaraki-city": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "기타이바라키시",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "kitsap-regional-library": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Kitsap Regional Library",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "klaipe-da": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "클라이페다",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "landtag-of-brandenburg": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Landtag of Brandenburg",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "landtag-of-mecklenburg-vorpommern": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Landtag of Mecklenburg-Vorpommern",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "lienchiang-county": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "롄장현",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "linz": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "린츠",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "los-alamos-national-laboratory": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "로스앨러모스 국립연구소",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "lublin": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "루블린",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "lugo": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "루고",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "manila": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "마닐라",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "matsuno": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "마쓰노정",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "miami": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "마이애미",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "miami-dade-county": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "마이애미데이드군",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "mine": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "미네시",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "minneapolis": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "미니애폴리스",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "mitsue": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "미쓰에촌",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "montreal": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "몬트리올",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "mountain-view": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "마운틴뷰",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "nahari": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "나하리정",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "nakagawa": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "나카가와시",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "nara": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "나라시",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "new-york-city": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "뉴욕",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "norddjurs-municipality": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "노르디우르스시",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "nordic-council": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "북유럽 이사회",
+      "reason": "국제 공공 협의체 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "north-chungcheong": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "충청북도",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-10T06:13:30.643Z"
+    },
+    "north-gyeongsang": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "경상북도",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "novi-sad": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "노비사드",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "odesa": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "오데사",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "olomouc": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "올로모우츠",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "pasig": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "파시그",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "pinellas-county": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "피넬러스군",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "potsdam": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "포츠담",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "president-of-russia": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "러시아의 대통령",
+      "reason": "대통령 기관 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "quebec-city": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "퀘벡",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "raleigh": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "롤리",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "rennes": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "렌",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "rotterdam": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Rotterdam",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "sejong": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "세종특별자치시",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "seminole-county": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "세미놀군",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "sennan": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "센난시",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "shanghai": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "상하이시",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "shymkent": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "쉼켄트",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "sidewalk-labs": {
+      "before_category": "국가·지역",
+      "category": "IT·테크",
+      "name_ko": "Sidewalk Labs",
+      "reason": "고유 기업명 Sidewalk Labs",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "south-jeolla": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "전라남도",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "strasbourg": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "스트라스부르",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "surakarta": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "수라카르타",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "svalo-v-municipality": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "스발뢰브시",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "ta-y-ninh": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "떠이닌성",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "taichung": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "타이중시",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "tamano": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "다마노시",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "tanashi": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "다나시시",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "tel-aviv": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "텔아비브",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "ternopil": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "테르노필",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "thanh-oai": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "타인오아이현",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "thessaloniki": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "테살로니키",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "thunder-bay": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "선더베이",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "toledo": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "털리도",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "tosashimizu": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "도사시미즈시",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "vi-nh-long": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "빈롱성",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "vitacura": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "비타쿠라",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "warszawska-kolej-dojazdowa": {
+      "before_category": "국가·지역",
+      "category": "물류·교통",
+      "name_ko": "Warszawska Kolej Dojazdowa",
+      "reason": "Warszawska Kolej Dojazdowa 철도 운영 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "wasatch-county": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "워새치군",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "wayne-county": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "웨인군",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "westmoreland-county": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "웨스트모얼랜드군",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "wichita": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "위치토",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "wiesbaden": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "비스바덴",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "xiamen": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "샤먼시",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "yokohama": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "요코하마시",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "yufu": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "유후시",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "yugawa": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "유가와촌",
+      "reason": "행정구역·지자체 또는 공공기관을 명시한 고유 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "agen": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "아쟁",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "ajax": {
+      "before_category": "국가·지역",
+      "category": "브랜드",
+      "name_ko": "에이젝스",
+      "reason": "국기 아님. 동명 기관·업체의 세부 업종은 추가 검토하되 일반 브랜드로 분류",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "allentown": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "앨런타운",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "almelo": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "알멜로",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "almere": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "알메러",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "altena": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Altena",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "antony": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "앙토니",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "arriach": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Arriach",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "asheville": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "애슈빌",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-10T10:32:04.894Z"
+    },
+    "assen": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "아선",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "auburn": {
+      "before_category": "국가·지역",
+      "category": "브랜드",
+      "name_ko": "오번",
+      "reason": "국기 아님. 동명 기관·업체의 세부 업종은 추가 검토하되 일반 브랜드로 분류",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "avon": {
+      "before_category": "국가·지역",
+      "category": "브랜드",
+      "name_ko": "Avon",
+      "reason": "국기 아님. 동명 기관·업체의 세부 업종은 추가 검토하되 일반 브랜드로 분류",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "be": {
+      "before_category": "국가·지역",
+      "category": "브랜드",
+      "name_ko": ".be",
+      "reason": "국기 아님. 동명 기관·업체의 세부 업종은 추가 검토하되 일반 브랜드로 분류",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "beauchamp": {
+      "before_category": "국가·지역",
+      "category": "브랜드",
+      "name_ko": "Beauchamp",
+      "reason": "국기 아님. 동명 기관·업체의 세부 업종은 추가 검토하되 일반 브랜드로 분류",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "beaumont-sur-oise": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "보몽쉬르우아즈",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "beekdaelen": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Beekdaelen",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "bellinzona": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "벨린초나",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "benton-harbor": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "벤턴하버",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "berg-en-dal": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Berg en Dal",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "bergen": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Bergen",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "beuningen": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Beuningen",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "birmingham": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "버밍햄",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "bloemendaal": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "블루멘달",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "bloomington": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "블루밍턴",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "bourgogne-franche-comte": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "부르고뉴프랑슈콩테",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "boxtel": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Boxtel",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "boynton-beach": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "보인턴비치",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "brentwood": {
+      "before_category": "국가·지역",
+      "category": "브랜드",
+      "name_ko": "브렌트우드",
+      "reason": "국기 아님. 동명 기관·업체의 세부 업종은 추가 검토하되 일반 브랜드로 분류",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "brighton": {
+      "before_category": "국가·지역",
+      "category": "브랜드",
+      "name_ko": "Brighton",
+      "reason": "국기 아님. 동명 기관·업체의 세부 업종은 추가 검토하되 일반 브랜드로 분류",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "bunnik": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Bunnik",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "bv": {
+      "before_category": "국가·지역",
+      "category": "브랜드",
+      "name_ko": ".bv",
+      "reason": "국기 아님. 동명 기관·업체의 세부 업종은 추가 검토하되 일반 브랜드로 분류",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "cap-sante": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Cap-Santé",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "capelle-aan-den-ijssel": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "카펠러안덴에이설",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "castricum": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "카스트리큄",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "charleville-me-zie-res": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "샤를빌메지에르",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "cherisy": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Cherisy",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "co-te-saint-luc": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Côte Saint-Luc",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "coconut-creek": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Coconut Creek",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "crans-montana": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "크랑몬타나",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "culemborg": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Culemborg",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "czechowice-dziedzice": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "체호비체지에지체",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "de-bilt": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "De Bilt",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "deurne": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Deurne",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "dijk-en-waard": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Dijk en Waard",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-08T11:10:28.860Z"
+    },
+    "dinkelland": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "딩켈란트",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "dk": {
+      "before_category": "국가·지역",
+      "category": "브랜드",
+      "name_ko": ".dk",
+      "reason": "국기 아님. 동명 기관·업체의 세부 업종은 추가 검토하되 일반 브랜드로 분류",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "drechterland": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Drechterland",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "dryden": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "드라이든",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "duiven": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Duiven",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "eemsdelta": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Eemsdelta",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "eersel": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Eersel",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "eijsden-margraten": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Eijsden-Margraten",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "el-kerma": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "El Kerma",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "enghien-les-bains": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Enghien-les-Bains",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "es": {
+      "before_category": "국가·지역",
+      "category": "브랜드",
+      "name_ko": ".es",
+      "reason": "국기 아님. 동명 기관·업체의 세부 업종은 추가 검토하되 일반 브랜드로 분류",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "everett": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "에버렛",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "farmington-hills": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "파밍턴힐스",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "fenton": {
+      "before_category": "국가·지역",
+      "category": "브랜드",
+      "name_ko": "Fenton",
+      "reason": "국기 아님. 동명 기관·업체의 세부 업종은 추가 검토하되 일반 브랜드로 분류",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "fernie": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "퍼니",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-ai": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Anguilla",
+      "reason": "지역·영토·공공 협의체 깃발. 나라 국기 카테고리에서 분리",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-aq": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Antarctica",
+      "reason": "지역·영토·공공 협의체 깃발. 나라 국기 카테고리에서 분리",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-as": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "American Samoa",
+      "reason": "지역·영토·공공 협의체 깃발. 나라 국기 카테고리에서 분리",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-aw": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Aruba",
+      "reason": "지역·영토·공공 협의체 깃발. 나라 국기 카테고리에서 분리",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-ax": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Aland Islands",
+      "reason": "지역·영토·공공 협의체 깃발. 나라 국기 카테고리에서 분리",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-bl": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Saint Barthélemy",
+      "reason": "지역·영토·공공 협의체 깃발. 나라 국기 카테고리에서 분리",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-bm": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Bermuda",
+      "reason": "지역·영토·공공 협의체 깃발. 나라 국기 카테고리에서 분리",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-bq": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Bonaire, Sint Eustatius and Saba",
+      "reason": "지역·영토·공공 협의체 깃발. 나라 국기 카테고리에서 분리",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-bv": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Bouvet Island",
+      "reason": "지역·영토·공공 협의체 깃발. 나라 국기 카테고리에서 분리",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-cc": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Cocos (Keeling) Islands",
+      "reason": "지역·영토·공공 협의체 깃발. 나라 국기 카테고리에서 분리",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-ck": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Cook Islands",
+      "reason": "지역·영토·공공 협의체 깃발. 나라 국기 카테고리에서 분리",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-cp": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Clipperton Island",
+      "reason": "지역·영토·공공 협의체 깃발. 나라 국기 카테고리에서 분리",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-cw": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Curaçao",
+      "reason": "지역·영토·공공 협의체 깃발. 나라 국기 카테고리에서 분리",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-cx": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Christmas Island",
+      "reason": "지역·영토·공공 협의체 깃발. 나라 국기 카테고리에서 분리",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-dg": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Diego Garcia",
+      "reason": "지역·영토·공공 협의체 깃발. 나라 국기 카테고리에서 분리",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-eh": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Western Sahara",
+      "reason": "지역·영토·공공 협의체 깃발. 나라 국기 카테고리에서 분리",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-es-ct": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Catalonia",
+      "reason": "지역·영토·공공 협의체 깃발. 나라 국기 카테고리에서 분리",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-es-ga": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Galicia",
+      "reason": "지역·영토·공공 협의체 깃발. 나라 국기 카테고리에서 분리",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-es-pv": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Basque Country",
+      "reason": "지역·영토·공공 협의체 깃발. 나라 국기 카테고리에서 분리",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-fk": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Falkland Islands",
+      "reason": "지역·영토·공공 협의체 깃발. 나라 국기 카테고리에서 분리",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-fo": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Faroe Islands",
+      "reason": "지역·영토·공공 협의체 깃발. 나라 국기 카테고리에서 분리",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-gb-eng": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "England",
+      "reason": "지역·영토·공공 협의체 깃발. 나라 국기 카테고리에서 분리",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-gb-nir": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Northern Ireland",
+      "reason": "지역·영토·공공 협의체 깃발. 나라 국기 카테고리에서 분리",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-gb-sct": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Scotland",
+      "reason": "지역·영토·공공 협의체 깃발. 나라 국기 카테고리에서 분리",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-gb-wls": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Wales",
+      "reason": "지역·영토·공공 협의체 깃발. 나라 국기 카테고리에서 분리",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-gf": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "French Guiana",
+      "reason": "지역·영토·공공 협의체 깃발. 나라 국기 카테고리에서 분리",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-gg": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Guernsey",
+      "reason": "지역·영토·공공 협의체 깃발. 나라 국기 카테고리에서 분리",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-gi": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Gibraltar",
+      "reason": "지역·영토·공공 협의체 깃발. 나라 국기 카테고리에서 분리",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-gl": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Greenland",
+      "reason": "지역·영토·공공 협의체 깃발. 나라 국기 카테고리에서 분리",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-gp": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Guadeloupe",
+      "reason": "지역·영토·공공 협의체 깃발. 나라 국기 카테고리에서 분리",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-gs": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "South Georgia and the South Sandwich Islands",
+      "reason": "지역·영토·공공 협의체 깃발. 나라 국기 카테고리에서 분리",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-gu": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Guam",
+      "reason": "지역·영토·공공 협의체 깃발. 나라 국기 카테고리에서 분리",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-hk": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Hong Kong",
+      "reason": "지역·영토·공공 협의체 깃발. 나라 국기 카테고리에서 분리",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-hm": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Heard Island and McDonald Islands",
+      "reason": "지역·영토·공공 협의체 깃발. 나라 국기 카테고리에서 분리",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-ic": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Canary Islands",
+      "reason": "지역·영토·공공 협의체 깃발. 나라 국기 카테고리에서 분리",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-im": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Isle of Man",
+      "reason": "지역·영토·공공 협의체 깃발. 나라 국기 카테고리에서 분리",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-io": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "British Indian Ocean Territory",
+      "reason": "지역·영토·공공 협의체 깃발. 나라 국기 카테고리에서 분리",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-je": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Jersey",
+      "reason": "지역·영토·공공 협의체 깃발. 나라 국기 카테고리에서 분리",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-ky": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Cayman Islands",
+      "reason": "지역·영토·공공 협의체 깃발. 나라 국기 카테고리에서 분리",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-mf": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Saint Martin",
+      "reason": "지역·영토·공공 협의체 깃발. 나라 국기 카테고리에서 분리",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-mo": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Macau",
+      "reason": "지역·영토·공공 협의체 깃발. 나라 국기 카테고리에서 분리",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-mp": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Northern Mariana Islands",
+      "reason": "지역·영토·공공 협의체 깃발. 나라 국기 카테고리에서 분리",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-mq": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Martinique",
+      "reason": "지역·영토·공공 협의체 깃발. 나라 국기 카테고리에서 분리",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-ms": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Montserrat",
+      "reason": "지역·영토·공공 협의체 깃발. 나라 국기 카테고리에서 분리",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-nc": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "New Caledonia",
+      "reason": "지역·영토·공공 협의체 깃발. 나라 국기 카테고리에서 분리",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-nf": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Norfolk Island",
+      "reason": "지역·영토·공공 협의체 깃발. 나라 국기 카테고리에서 분리",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-nu": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Niue",
+      "reason": "지역·영토·공공 협의체 깃발. 나라 국기 카테고리에서 분리",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-pc": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Pacific Community",
+      "reason": "지역·영토·공공 협의체 깃발. 나라 국기 카테고리에서 분리",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-pf": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "French Polynesia",
+      "reason": "지역·영토·공공 협의체 깃발. 나라 국기 카테고리에서 분리",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-pm": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Saint Pierre and Miquelon",
+      "reason": "지역·영토·공공 협의체 깃발. 나라 국기 카테고리에서 분리",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-pn": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Pitcairn",
+      "reason": "지역·영토·공공 협의체 깃발. 나라 국기 카테고리에서 분리",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-pr": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Puerto Rico",
+      "reason": "지역·영토·공공 협의체 깃발. 나라 국기 카테고리에서 분리",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-re": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Réunion",
+      "reason": "지역·영토·공공 협의체 깃발. 나라 국기 카테고리에서 분리",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-sh": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Saint Helena, Ascension and Tristan da Cunha",
+      "reason": "지역·영토·공공 협의체 깃발. 나라 국기 카테고리에서 분리",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-sh-ac": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Ascension Island",
+      "reason": "지역·영토·공공 협의체 깃발. 나라 국기 카테고리에서 분리",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-sh-hl": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Saint Helena",
+      "reason": "지역·영토·공공 협의체 깃발. 나라 국기 카테고리에서 분리",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-sh-ta": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Tristan da Cunha",
+      "reason": "지역·영토·공공 협의체 깃발. 나라 국기 카테고리에서 분리",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-sj": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Svalbard and Jan Mayen",
+      "reason": "지역·영토·공공 협의체 깃발. 나라 국기 카테고리에서 분리",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-sx": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Sint Maarten",
+      "reason": "지역·영토·공공 협의체 깃발. 나라 국기 카테고리에서 분리",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-tc": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Turks and Caicos Islands",
+      "reason": "지역·영토·공공 협의체 깃발. 나라 국기 카테고리에서 분리",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-tf": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "French Southern Territories",
+      "reason": "지역·영토·공공 협의체 깃발. 나라 국기 카테고리에서 분리",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-tk": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Tokelau",
+      "reason": "지역·영토·공공 협의체 깃발. 나라 국기 카테고리에서 분리",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-tw": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "대만",
+      "reason": "국가 국기 콘텐츠 식별자",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-um": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "United States Minor Outlying Islands",
+      "reason": "지역·영토·공공 협의체 깃발. 나라 국기 카테고리에서 분리",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-vg": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Virgin Islands (British)",
+      "reason": "지역·영토·공공 협의체 깃발. 나라 국기 카테고리에서 분리",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-vi": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Virgin Islands (U.S.)",
+      "reason": "지역·영토·공공 협의체 깃발. 나라 국기 카테고리에서 분리",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-wf": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Wallis and Futuna",
+      "reason": "지역·영토·공공 협의체 깃발. 나라 국기 카테고리에서 분리",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-xk": {
+      "before_category": "국가·지역",
+      "category": "국가·국기",
+      "name_ko": "코소보",
+      "reason": "국가 국기 콘텐츠 식별자",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-xx": {
+      "before_category": "국가·지역",
+      "category": "브랜드",
+      "name_ko": "Unknown",
+      "reason": "Unknown 표시용 특수 깃발. 나라 국기 아님",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "flag-yt": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Mayotte",
+      "reason": "지역·영토·공공 협의체 깃발. 나라 국기 카테고리에서 분리",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "forges-les-bains": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Forges-les-Bains",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "fr": {
+      "before_category": "국가·지역",
+      "category": "브랜드",
+      "name_ko": ".fr",
+      "reason": "국기 아님. 동명 기관·업체의 세부 업종은 추가 검토하되 일반 브랜드로 분류",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "gaillard": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Gaillard",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "gary": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "게리",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "geertruidenberg": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Geertruidenberg",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "genas": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Genas",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "gilze-en-rijen": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Gilze en Rijen",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "go-ppingen": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "괴핑겐",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "gooise-meren": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Gooise Meren",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "gouda": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "하우다",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "grand-est": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "그랑테스트",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "grand-rapids": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "그랜드래피즈",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "gulfport": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "걸프포트",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "gulpen-wittem": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Gulpen-Wittem",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "hamilton": {
+      "before_category": "국가·지역",
+      "category": "브랜드",
+      "name_ko": "해밀턴",
+      "reason": "국기 아님. 동명 기관·업체의 세부 업종은 추가 검토하되 일반 브랜드로 분류",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "hardenberg": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Hardenberg",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "hellendoorn": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Hellendoorn",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "heusden": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Heusden",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "hof-van-twente": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Hof van Twente",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "hollands-kroon": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "홀란츠크론",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "holyoke": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "홀리오크",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "hoogeveen": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "호헤베인",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "horst-aan-de-maas": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "호르스트안더마스",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "houten": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "하우턴",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "hr": {
+      "before_category": "국가·지역",
+      "category": "브랜드",
+      "name_ko": ".hr",
+      "reason": "국기 아님. 동명 기관·업체의 세부 업종은 추가 검토하되 일반 브랜드로 분류",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "huntington": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "헌팅턴",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "it": {
+      "before_category": "국가·지역",
+      "category": "브랜드",
+      "name_ko": ".it",
+      "reason": "국기 아님. 동명 기관·업체의 세부 업종은 추가 검토하되 일반 브랜드로 분류",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "ittigen": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "이티겐",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "kamp-lintfort": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Kamp-Lintfort",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "kampen": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Kampen",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "katwijk": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "카트베이크",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-08T11:10:28.860Z"
+    },
+    "kernen-im-remstal": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Kernen im Remstal",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "krimpen-aan-den-ijssel": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Krimpen aan den IJssel",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "kufstein": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "쿠프슈타인",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "kurzeme-region": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Kurzeme Region",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "la-pocatie-re": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "La Pocatière",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "lafayette": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "라페이엣",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "lansing": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "랜싱",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "lansingerland": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Lansingerland",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "laval": {
+      "before_category": "국가·지역",
+      "category": "브랜드",
+      "name_ko": "라발",
+      "reason": "국기 아님. 동명 기관·업체의 세부 업종은 추가 검토하되 일반 브랜드로 분류",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "le-teil": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "르테유",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "leduc": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "리덕",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "leidschendam-voorburg": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "레이츠헨담포르뷔르흐",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "leisure-world": {
+      "before_category": "국가·지역",
+      "category": "브랜드",
+      "name_ko": "Leisure World",
+      "reason": "국기 아님. 동명 기관·업체의 세부 업종은 추가 검토하되 일반 브랜드로 분류",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "les-mureaux": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "레뮈로",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "lethbridge": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "레스브리지",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "leudal": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Leudal",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "liepa-ja": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "리예파야",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "linares-de-riofri-o": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Linares de Riofrío",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "livonia": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "리보니아",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "lochem": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Lochem",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "lt": {
+      "before_category": "국가·지역",
+      "category": "브랜드",
+      "name_ko": ".lt",
+      "reason": "국기 아님. 동명 기관·업체의 세부 업종은 추가 검토하되 일반 브랜드로 분류",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "lu": {
+      "before_category": "국가·지역",
+      "category": "브랜드",
+      "name_ko": ".lu",
+      "reason": "국기 아님. 동명 기관·업체의 세부 업종은 추가 검토하되 일반 브랜드로 분류",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "lynchburg": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "린치버그",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "lynnwood": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "린우드",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "magog": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Magog",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "medford": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "메드퍼드",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "menlo-park": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "멘로파크",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "mersin": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "메르신",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "middelburg": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Middelburg",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "midden-groningen": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Midden-Groningen",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "midiateca-capixaba": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Midiateca Capixaba",
+      "reason": "주정부 문화기록 공개 플랫폼",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z",
+      "source_url": "https://www.es.gov.br/Noticia/governo-do-estado-lanca-a-plataforma-midiateca-capixaba"
+    },
+    "millas": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Millas",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "minden": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "민덴",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "mook-en-middelaar": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Mook en Middelaar",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "neuilly-sur-seine": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "뇌이쉬르센",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "nieuwkoop": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Nieuwkoop",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "no": {
+      "before_category": "국가·지역",
+      "category": "브랜드",
+      "name_ko": ".no",
+      "reason": "국기 아님. 동명 기관·업체의 세부 업종은 추가 검토하되 일반 브랜드로 분류",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "norwalk": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "노워크",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "nuvali": {
+      "before_category": "국가·지역",
+      "category": "건설·부동산",
+      "name_ko": "Nuvali",
+      "reason": "Ayala Land 부동산 개발 프로젝트",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z",
+      "source_url": "https://www.nuvali.ph/future-cbd/"
+    },
+    "orillia": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "오릴라",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "owen-sound": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "오언사운드",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "paradise": {
+      "before_category": "국가·지역",
+      "category": "브랜드",
+      "name_ko": "Paradise",
+      "reason": "국기 아님. 동명 기관·업체의 세부 업종은 추가 검토하되 일반 브랜드로 분류",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "pau": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "포",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "plaisance-du-touch": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Plaisance-du-Touch",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "port-colborne": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "포트콜본",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "q200439": {
+      "before_category": "국가·지역",
+      "category": "브랜드",
+      "name_ko": ".рф",
+      "reason": "국기 아님. 동명 기관·업체의 세부 업종은 추가 검토하되 일반 브랜드로 분류",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "raisio": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "라이시오",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "red-deer": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "레드디어",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "renens": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "레낭",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "rivie-re-a-pierre": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Rivière-à-Pierre",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "royal-oak": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "로열오크",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "ruhr": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "루르",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "sallanches": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "살랑슈",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "sartrouville": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "사르트루빌",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "seina-joki": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "세이네요키",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "sherbrooke": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "셔브룩",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "sion": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "시옹",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "sj": {
+      "before_category": "국가·지역",
+      "category": "브랜드",
+      "name_ko": ".sj",
+      "reason": "국기 아님. 동명 기관·업체의 세부 업종은 추가 검토하되 일반 브랜드로 분류",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "skagen": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "스카겐",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "southgate": {
+      "before_category": "국가·지역",
+      "category": "브랜드",
+      "name_ko": "Southgate",
+      "reason": "국기 아님. 동명 기관·업체의 세부 업종은 추가 검토하되 일반 브랜드로 분류",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "st-john-s": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "세인트존스",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "st-louis": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "세인트루이스",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "st-paul": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "St. Paul",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "stamford": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "스탬퍼드",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "stratford": {
+      "before_category": "국가·지역",
+      "category": "브랜드",
+      "name_ko": "스트랫퍼드",
+      "reason": "국기 아님. 동명 기관·업체의 세부 업종은 추가 검토하되 일반 브랜드로 분류",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "su-leymanpas-a-district": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Süleymanpaşa district",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "sultangazi": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Sultangazi",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "suwanee": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "스와니",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "taguig": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "타기그",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "temiskaming-shores": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "테미스카밍 쇼어",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "the-line": {
+      "before_category": "국가·지역",
+      "category": "건설·부동산",
+      "name_ko": "더 라인",
+      "reason": "The Line 도시 개발 프로젝트",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "trois-rivie-res": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "트루아리비에르",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "troy": {
+      "before_category": "국가·지역",
+      "category": "브랜드",
+      "name_ko": "트로이",
+      "reason": "국기 아님. 동명 기관·업체의 세부 업종은 추가 검토하되 일반 브랜드로 분류",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "val-des-sources": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Val-des-Sources",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "velbert": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Velbert",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "victoriaville": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Victoriaville",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "waterville": {
+      "before_category": "국가·지역",
+      "category": "브랜드",
+      "name_ko": "Waterville",
+      "reason": "국기 아님. 동명 기관·업체의 세부 업종은 추가 검토하되 일반 브랜드로 분류",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "weilburg": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "바일부르크",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "wentzville": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "웬츠빌",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "west-palm-beach": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "웨스트팜비치",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "westerveld": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "Westerveld",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-10T10:31:46.300Z"
+    },
+    "wetaskiwin": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "위태스키윈",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "whitecourt": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "화이트코트",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "willisau": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "빌리자우",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "xanten": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "크산텐",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "yorkton": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "요크턴",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    },
+    "yverdon-les-bains": {
+      "before_category": "국가·지역",
+      "category": "공공·기관",
+      "name_ko": "이베르동레뱅",
+      "reason": "개별 명칭 검토 결과 도시·지자체·행정지역 명칭",
+      "expected_updated_at": "2026-10-01T13:51:00.527Z"
+    }
+  },
+  "hold": [],
+  "policy": "proposed only; all 591 IDs assigned; nonflag ambiguous identities go generic 브랜드; no CMS mutation",
+  "reference": "https://www.un.org/tr/node/44724"
+}

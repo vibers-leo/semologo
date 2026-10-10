@@ -18,7 +18,7 @@ export function logoWallHtml(title: string, settings: Settings, logos: Logo[]): 
     if (!/^logos\/[\w가-힣-]+\.png$/.test(logo.file)) throw new Error('unsafe logo file');
     const name = escape(String(logo.name || logo.id));
     const background = wallCardBackground(layout, logo.light, logo.cardBackground);
-    return `<div class="tile" style="background:${background}"><img style="max-width:${100/(Math.max(50,Math.min(200,logo.scale || 100))/100)}%;max-height:${(height+48)/(Math.max(50,Math.min(200,logo.scale || 100))/100)}px;transform:scale(${Math.max(50,Math.min(200,logo.scale || 100))/100})" src="${escape(logo.file)}" alt="${decorative ? '' : name}" draggable="false">${!layout.showNames ? '' : `<span style="color:${background === '#18181b' ? '#a1a1aa' : '#71717a'}">${name}</span>`}</div>`;
+    return `<div class="tile" data-wall-file="${escape(logo.file)}" style="background:${background}"><img style="max-width:${100/(Math.max(50,Math.min(200,logo.scale || 100))/100)}%;max-height:${(height+48)/(Math.max(50,Math.min(200,logo.scale || 100))/100)}px;transform:scale(${Math.max(50,Math.min(200,logo.scale || 100))/100})" src="${escape(logo.file)}" alt="${decorative ? '' : name}" draggable="false">${!layout.showNames ? '' : `<span style="color:${background === '#18181b' ? '#a1a1aa' : '#71717a'}">${name}</span>`}</div>`;
   };
   let content: string;
   if (motion === 'static') content = `<div class="grid">${logos.map(l => tile(l)).join('')}</div>`;
@@ -50,7 +50,13 @@ export function logoWallBundle(title: string, settings: Settings, logos: Logo[])
 
 /** Preview HTML cannot fetch remote assets; only export-generated PNG data URLs are substituted. */
 export function logoWallInlineHtml(title: string, settings: Settings, logos: Logo[], images: Record<string, string>) {
-  return logoWallHtml(title, settings, logos).replace('</body>', `<script>window.addEventListener('message',event=>{if(event.source!==parent||event.data?.type!=='semologo-wall-play')return;document.body.classList.toggle('paused',!event.data.playing);const button=document.getElementById('pause');if(button){button.setAttribute('aria-pressed',String(!event.data.playing));button.textContent=event.data.playing?'일시정지':'재생하기'}});</script></body>`).replace(/src="(logos\/[\w가-힣-]+\.png)"/g, (_, file: string) => {
+  const height = logoWallMetrics.logoSize[logoWallLayout(settings).logoSize];
+  return logoWallHtml(title, settings, logos).replace('</head>', `<style>body,main{min-height:100vh}main{display:flex;flex-direction:column;justify-content:center;width:100%;padding:24px}header,footer{display:none}.tile{cursor:pointer}.tile[data-selected]{outline:3px solid #6366f1;outline-offset:-3px}.tile:focus-visible{outline:3px solid #6366f1}</style></head>`).replace('</body>', `<script>
+const tiles=[...document.querySelectorAll('[data-wall-file]')];
+function select(file){tiles.forEach(tile=>tile.toggleAttribute('data-selected',tile.dataset.wallFile===file));parent.postMessage({type:'semologo-wall-select',file},'*')}
+tiles.forEach(tile=>{tile.tabIndex=0;tile.setAttribute('role','button');tile.setAttribute('aria-label',tile.querySelector('img').alt||'로고 선택');tile.addEventListener('click',()=>select(tile.dataset.wallFile));tile.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();select(tile.dataset.wallFile)}})});
+window.addEventListener('message',event=>{if(event.source!==parent)return;const data=event.data;if(data?.type==='semologo-wall-focus'){tiles.forEach(tile=>tile.toggleAttribute('data-selected',tile.dataset.wallFile===data.file))}if(data?.type==='semologo-wall-play'){document.body.classList.toggle('paused',!data.playing)}if(data?.type==='semologo-wall-scale'&&Number.isFinite(data.scale)&&data.scale>=50&&data.scale<=200){tiles.filter(tile=>tile.dataset.wallFile===data.file).forEach(tile=>{const img=tile.querySelector('img');img.style.transform='scale('+data.scale/100+')';img.style.maxWidth=100/(data.scale/100)+'%';img.style.maxHeight=${height+48}/(data.scale/100)+'px'})}});
+</script></body>`).replace(/src="(logos\/[\w가-힣-]+\.png)"/g, (_, file: string) => {
     const image = images[file];
     if (!image || !/^data:image\/png;base64,[A-Za-z0-9+/=]+$/.test(image)) throw new Error('invalid preview PNG');
     return `src="${image}"`;

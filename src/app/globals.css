@@ -4,7 +4,8 @@
 :root {
   --bg: #ffffff;
   --surface: #ebebeb;
-  --logo-preview-bg: #d9d9db;
+  /* 2026-10-10: 기존 미리보기 바탕에 흰색을 약 15% 섞어 밝게 조정. */
+  --logo-preview-bg: #dfdfe0;
   --border: #e5e5e5;
   --border-hover: #111111;
   --text: #111111;
