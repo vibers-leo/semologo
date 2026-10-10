@@ -1,0 +1,1408 @@
+{
+  "checked_at": "2026-10-10T22:39:24.403130+00:00",
+  "sample": "first30 default fame ranking; not random; not population estimate",
+  "public_catalog_items": 181761,
+  "sample_n": 30,
+  "decoded_png": 30,
+  "transparent_png": 26,
+  "verified_svg_bytes": 28,
+  "note": "Opaque corners are review candidates, not proof of unwanted background. No images modified. Recovery API not exercised.",
+  "rows": [
+    {
+      "id": "ediya-coffee",
+      "svg_claimed": true,
+      "png_attempts": [
+        {
+          "url": "https://logo.vibers.co.kr/_clients/ediya-coffee/logo.png",
+          "curl_exit": 0,
+          "seconds": 0.438,
+          "format": "PNG",
+          "size": [
+            400,
+            39
+          ],
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "transparent_pixels_present": true,
+          "all_four_corners_opaque_white": false,
+          "status": "decoded-png"
+        }
+      ],
+      "png": {
+        "url": "https://logo.vibers.co.kr/_clients/ediya-coffee/logo.png",
+        "curl_exit": 0,
+        "seconds": 0.438,
+        "format": "PNG",
+        "size": [
+          400,
+          39
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "transparent_pixels_present": true,
+        "all_four_corners_opaque_white": false,
+        "status": "decoded-png"
+      },
+      "svg": {
+        "url": "https://logo.vibers.co.kr/_clients/ediya-coffee/logo.svg",
+        "curl_exit": 0,
+        "seconds": 0.572,
+        "svg_root_present": true,
+        "raster_or_active_content": false
+      }
+    },
+    {
+      "id": "roblox",
+      "svg_claimed": true,
+      "png_attempts": [
+        {
+          "url": "https://logo.vibers.co.kr/_clients/roblox/logo-transparent.png?v=20261006-2",
+          "curl_exit": 0,
+          "seconds": 0.323,
+          "format": "PNG",
+          "size": [
+            400,
+            400
+          ],
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "transparent_pixels_present": true,
+          "all_four_corners_opaque_white": false,
+          "status": "decoded-png"
+        }
+      ],
+      "png": {
+        "url": "https://logo.vibers.co.kr/_clients/roblox/logo-transparent.png?v=20261006-2",
+        "curl_exit": 0,
+        "seconds": 0.323,
+        "format": "PNG",
+        "size": [
+          400,
+          400
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "transparent_pixels_present": true,
+        "all_four_corners_opaque_white": false,
+        "status": "decoded-png"
+      },
+      "svg": {
+        "url": "https://logo.vibers.co.kr/_clients/roblox/logo.svg",
+        "curl_exit": 0,
+        "seconds": 0.545,
+        "svg_root_present": true,
+        "raster_or_active_content": false
+      }
+    },
+    {
+      "id": "myrealtrip",
+      "svg_claimed": true,
+      "png_attempts": [
+        {
+          "url": "https://logo.vibers.co.kr/_clients/myrealtrip/logo-transparent.png?v=20261006-2",
+          "curl_exit": 0,
+          "seconds": 0.326,
+          "format": "PNG",
+          "size": [
+            400,
+            400
+          ],
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "transparent_pixels_present": true,
+          "all_four_corners_opaque_white": false,
+          "status": "decoded-png"
+        }
+      ],
+      "png": {
+        "url": "https://logo.vibers.co.kr/_clients/myrealtrip/logo-transparent.png?v=20261006-2",
+        "curl_exit": 0,
+        "seconds": 0.326,
+        "format": "PNG",
+        "size": [
+          400,
+          400
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "transparent_pixels_present": true,
+        "all_four_corners_opaque_white": false,
+        "status": "decoded-png"
+      },
+      "svg": {
+        "url": "https://logo.vibers.co.kr/_clients/myrealtrip/logo.svg",
+        "curl_exit": 0,
+        "seconds": 0.558,
+        "svg_root_present": true,
+        "raster_or_active_content": false
+      }
+    },
+    {
+      "id": "naver",
+      "svg_claimed": true,
+      "png_attempts": [
+        {
+          "url": "https://logo.vibers.co.kr/_clients/naver/sources/naver-20261010/3504cae25d7512d44933.png?v=1790381000",
+          "curl_exit": 0,
+          "seconds": 0.543,
+          "format": "PNG",
+          "size": [
+            2000,
+            384
+          ],
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "transparent_pixels_present": true,
+          "all_four_corners_opaque_white": false,
+          "status": "decoded-png"
+        }
+      ],
+      "png": {
+        "url": "https://logo.vibers.co.kr/_clients/naver/sources/naver-20261010/3504cae25d7512d44933.png?v=1790381000",
+        "curl_exit": 0,
+        "seconds": 0.543,
+        "format": "PNG",
+        "size": [
+          2000,
+          384
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "transparent_pixels_present": true,
+        "all_four_corners_opaque_white": false,
+        "status": "decoded-png"
+      },
+      "svg": {
+        "url": "https://logo.vibers.co.kr/_clients/naver/sources/naver-20261010/089fe7c5467bb05f0bc1.svg",
+        "curl_exit": 0,
+        "seconds": 0.593,
+        "svg_root_present": true,
+        "raster_or_active_content": false
+      }
+    },
+    {
+      "id": "seoul-bike",
+      "svg_claimed": true,
+      "png_attempts": [
+        {
+          "url": "https://logo.vibers.co.kr/_clients/seoul-bike/logo.png",
+          "curl_exit": 0,
+          "seconds": 0.589,
+          "format": "PNG",
+          "size": [
+            400,
+            83
+          ],
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "transparent_pixels_present": true,
+          "all_four_corners_opaque_white": false,
+          "status": "decoded-png"
+        }
+      ],
+      "png": {
+        "url": "https://logo.vibers.co.kr/_clients/seoul-bike/logo.png",
+        "curl_exit": 0,
+        "seconds": 0.589,
+        "format": "PNG",
+        "size": [
+          400,
+          83
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "transparent_pixels_present": true,
+        "all_four_corners_opaque_white": false,
+        "status": "decoded-png"
+      },
+      "svg": {
+        "url": "https://logo.vibers.co.kr/_clients/seoul-bike/logo.svg",
+        "curl_exit": 0,
+        "seconds": 0.5,
+        "svg_root_present": true,
+        "raster_or_active_content": false
+      }
+    },
+    {
+      "id": "smartstore-naver",
+      "svg_claimed": true,
+      "png_attempts": [
+        {
+          "url": "https://logo.vibers.co.kr/_clients/smartstore-naver/sources/naver-20261010/c06986abc5c67cf5092f.png?v=1790381000",
+          "curl_exit": 0,
+          "seconds": 0.597,
+          "format": "PNG",
+          "size": [
+            2000,
+            2000
+          ],
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "transparent_pixels_present": true,
+          "all_four_corners_opaque_white": false,
+          "status": "decoded-png"
+        }
+      ],
+      "png": {
+        "url": "https://logo.vibers.co.kr/_clients/smartstore-naver/sources/naver-20261010/c06986abc5c67cf5092f.png?v=1790381000",
+        "curl_exit": 0,
+        "seconds": 0.597,
+        "format": "PNG",
+        "size": [
+          2000,
+          2000
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "transparent_pixels_present": true,
+        "all_four_corners_opaque_white": false,
+        "status": "decoded-png"
+      },
+      "svg": {
+        "url": "https://logo.vibers.co.kr/_clients/smartstore-naver/sources/naver-20261010/35186d48bd1943605bb2.svg",
+        "curl_exit": 0,
+        "seconds": 0.523,
+        "svg_root_present": true,
+        "raster_or_active_content": false
+      }
+    },
+    {
+      "id": "naver-blog",
+      "svg_claimed": true,
+      "png_attempts": [
+        {
+          "url": "https://logo.vibers.co.kr/_clients/naver-blog/sources/naver-20261010/39f93e469b55ed55c96d.png?v=1790381000",
+          "curl_exit": 0,
+          "seconds": 0.753,
+          "format": "PNG",
+          "size": [
+            2000,
+            940
+          ],
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "transparent_pixels_present": true,
+          "all_four_corners_opaque_white": false,
+          "status": "decoded-png"
+        }
+      ],
+      "png": {
+        "url": "https://logo.vibers.co.kr/_clients/naver-blog/sources/naver-20261010/39f93e469b55ed55c96d.png?v=1790381000",
+        "curl_exit": 0,
+        "seconds": 0.753,
+        "format": "PNG",
+        "size": [
+          2000,
+          940
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "transparent_pixels_present": true,
+        "all_four_corners_opaque_white": false,
+        "status": "decoded-png"
+      },
+      "svg": {
+        "url": "https://logo.vibers.co.kr/_clients/naver-blog/sources/naver-20261010/578083aa3f208654e2d5.svg",
+        "curl_exit": 0,
+        "seconds": 0.585,
+        "svg_root_present": true,
+        "raster_or_active_content": false
+      }
+    },
+    {
+      "id": "wavve",
+      "svg_claimed": true,
+      "png_attempts": [
+        {
+          "url": "https://logo.vibers.co.kr/_clients/wavve/logo.png",
+          "curl_exit": 0,
+          "seconds": 0.27,
+          "format": "PNG",
+          "size": [
+            400,
+            400
+          ],
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "transparent_pixels_present": true,
+          "all_four_corners_opaque_white": false,
+          "status": "decoded-png"
+        }
+      ],
+      "png": {
+        "url": "https://logo.vibers.co.kr/_clients/wavve/logo.png",
+        "curl_exit": 0,
+        "seconds": 0.27,
+        "format": "PNG",
+        "size": [
+          400,
+          400
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "transparent_pixels_present": true,
+        "all_four_corners_opaque_white": false,
+        "status": "decoded-png"
+      },
+      "svg": {
+        "url": "https://logo.vibers.co.kr/_clients/wavve/logo.svg",
+        "curl_exit": 0,
+        "seconds": 0.472,
+        "svg_root_present": true,
+        "raster_or_active_content": false
+      }
+    },
+    {
+      "id": "olive-young",
+      "svg_claimed": true,
+      "png_attempts": [
+        {
+          "url": "https://logo.vibers.co.kr/_clients/olive-young/logo-transparent.png?v=20261006-2",
+          "curl_exit": 0,
+          "seconds": 0.258,
+          "format": "PNG",
+          "size": [
+            400,
+            66
+          ],
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "transparent_pixels_present": true,
+          "all_four_corners_opaque_white": false,
+          "status": "decoded-png"
+        }
+      ],
+      "png": {
+        "url": "https://logo.vibers.co.kr/_clients/olive-young/logo-transparent.png?v=20261006-2",
+        "curl_exit": 0,
+        "seconds": 0.258,
+        "format": "PNG",
+        "size": [
+          400,
+          66
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "transparent_pixels_present": true,
+        "all_four_corners_opaque_white": false,
+        "status": "decoded-png"
+      },
+      "svg": {
+        "url": "https://logo.vibers.co.kr/_clients/olive-young/logo.svg",
+        "curl_exit": 0,
+        "seconds": 0.475,
+        "svg_root_present": true,
+        "raster_or_active_content": false
+      }
+    },
+    {
+      "id": "bucketplace",
+      "svg_claimed": true,
+      "png_attempts": [
+        {
+          "url": "https://logo.vibers.co.kr/_clients/bucketplace/logo-transparent.png?v=20261006-2",
+          "curl_exit": 0,
+          "seconds": 0.322,
+          "format": "PNG",
+          "size": [
+            400,
+            400
+          ],
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "transparent_pixels_present": true,
+          "all_four_corners_opaque_white": false,
+          "status": "decoded-png"
+        }
+      ],
+      "png": {
+        "url": "https://logo.vibers.co.kr/_clients/bucketplace/logo-transparent.png?v=20261006-2",
+        "curl_exit": 0,
+        "seconds": 0.322,
+        "format": "PNG",
+        "size": [
+          400,
+          400
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "transparent_pixels_present": true,
+        "all_four_corners_opaque_white": false,
+        "status": "decoded-png"
+      },
+      "svg": {
+        "url": "https://logo.vibers.co.kr/_clients/bucketplace/logo.svg",
+        "curl_exit": 0,
+        "seconds": 0.541,
+        "svg_root_present": true,
+        "raster_or_active_content": false
+      }
+    },
+    {
+      "id": "musinsa",
+      "svg_claimed": true,
+      "png_attempts": [
+        {
+          "url": "https://logo.vibers.co.kr/_clients/musinsa/logo.png",
+          "curl_exit": 0,
+          "seconds": 0.597,
+          "format": "PNG",
+          "size": [
+            400,
+            400
+          ],
+          "alpha_extrema": [
+            255,
+            255
+          ],
+          "transparent_pixels_present": false,
+          "all_four_corners_opaque_white": false,
+          "status": "decoded-png"
+        }
+      ],
+      "png": {
+        "url": "https://logo.vibers.co.kr/_clients/musinsa/logo.png",
+        "curl_exit": 0,
+        "seconds": 0.597,
+        "format": "PNG",
+        "size": [
+          400,
+          400
+        ],
+        "alpha_extrema": [
+          255,
+          255
+        ],
+        "transparent_pixels_present": false,
+        "all_four_corners_opaque_white": false,
+        "status": "decoded-png"
+      },
+      "svg": {
+        "url": "https://logo.vibers.co.kr/_clients/musinsa/logo.svg",
+        "curl_exit": 0,
+        "seconds": 0.489,
+        "svg_root_present": true,
+        "raster_or_active_content": false
+      }
+    },
+    {
+      "id": "national-intelligence-service",
+      "svg_claimed": true,
+      "png_attempts": [
+        {
+          "url": "https://logo.vibers.co.kr/_clients/national-intelligence-service/logo.png",
+          "curl_exit": 0,
+          "seconds": 0.408,
+          "format": "PNG",
+          "size": [
+            400,
+            400
+          ],
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "transparent_pixels_present": true,
+          "all_four_corners_opaque_white": false,
+          "status": "decoded-png"
+        }
+      ],
+      "png": {
+        "url": "https://logo.vibers.co.kr/_clients/national-intelligence-service/logo.png",
+        "curl_exit": 0,
+        "seconds": 0.408,
+        "format": "PNG",
+        "size": [
+          400,
+          400
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "transparent_pixels_present": true,
+        "all_four_corners_opaque_white": false,
+        "status": "decoded-png"
+      },
+      "svg": {
+        "url": "https://logo.vibers.co.kr/_clients/national-intelligence-service/logo.svg",
+        "curl_exit": 0,
+        "seconds": 0.591,
+        "svg_root_present": true,
+        "raster_or_active_content": false
+      }
+    },
+    {
+      "id": "gongu-ci-1748",
+      "svg_claimed": true,
+      "png_attempts": [
+        {
+          "url": "https://logo.vibers.co.kr/_clients/gongu-ci-1748/sources/official-recollection-20261010/a49cc8a3aca0c35968c4.png?v=1790381000",
+          "curl_exit": 0,
+          "seconds": 0.463,
+          "format": "PNG",
+          "size": [
+            1600,
+            309
+          ],
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "transparent_pixels_present": true,
+          "all_four_corners_opaque_white": false,
+          "status": "decoded-png"
+        }
+      ],
+      "png": {
+        "url": "https://logo.vibers.co.kr/_clients/gongu-ci-1748/sources/official-recollection-20261010/a49cc8a3aca0c35968c4.png?v=1790381000",
+        "curl_exit": 0,
+        "seconds": 0.463,
+        "format": "PNG",
+        "size": [
+          1600,
+          309
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "transparent_pixels_present": true,
+        "all_four_corners_opaque_white": false,
+        "status": "decoded-png"
+      },
+      "svg": {
+        "url": "https://logo.vibers.co.kr/_clients/gongu-ci-1748/sources/official-recollection-20261010/efcc866945e7eeb23c22.svg",
+        "curl_exit": 0,
+        "seconds": 0.444,
+        "svg_root_present": true,
+        "raster_or_active_content": false
+      }
+    },
+    {
+      "id": "sdm",
+      "svg_claimed": true,
+      "png_attempts": [
+        {
+          "url": "https://logo.vibers.co.kr/_clients/sdm/logo.png",
+          "curl_exit": 0,
+          "seconds": 0.698,
+          "format": "PNG",
+          "size": [
+            800,
+            273
+          ],
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "transparent_pixels_present": true,
+          "all_four_corners_opaque_white": false,
+          "status": "decoded-png"
+        }
+      ],
+      "png": {
+        "url": "https://logo.vibers.co.kr/_clients/sdm/logo.png",
+        "curl_exit": 0,
+        "seconds": 0.698,
+        "format": "PNG",
+        "size": [
+          800,
+          273
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "transparent_pixels_present": true,
+        "all_four_corners_opaque_white": false,
+        "status": "decoded-png"
+      },
+      "svg": {
+        "url": "https://logo.vibers.co.kr/_clients/sdm/logo.svg",
+        "curl_exit": 0,
+        "seconds": 0.843,
+        "svg_root_present": true,
+        "raster_or_active_content": false
+      }
+    },
+    {
+      "id": "korea-investment-securities",
+      "svg_claimed": true,
+      "png_attempts": [
+        {
+          "url": "https://logo.vibers.co.kr/_clients/korea-investment-securities/logo.png",
+          "curl_exit": 0,
+          "seconds": 0.262,
+          "format": "PNG",
+          "size": [
+            400,
+            62
+          ],
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "transparent_pixels_present": true,
+          "all_four_corners_opaque_white": false,
+          "status": "decoded-png"
+        }
+      ],
+      "png": {
+        "url": "https://logo.vibers.co.kr/_clients/korea-investment-securities/logo.png",
+        "curl_exit": 0,
+        "seconds": 0.262,
+        "format": "PNG",
+        "size": [
+          400,
+          62
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "transparent_pixels_present": true,
+        "all_four_corners_opaque_white": false,
+        "status": "decoded-png"
+      },
+      "svg": {
+        "url": "https://logo.vibers.co.kr/_clients/korea-investment-securities/logo.svg",
+        "curl_exit": 0,
+        "seconds": 0.524,
+        "svg_root_present": true,
+        "raster_or_active_content": false
+      }
+    },
+    {
+      "id": "vaundy",
+      "svg_claimed": true,
+      "png_attempts": [
+        {
+          "url": "https://logo.vibers.co.kr/_clients/vaundy/logo.png",
+          "curl_exit": 0,
+          "seconds": 0.396,
+          "format": "PNG",
+          "size": [
+            400,
+            76
+          ],
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "transparent_pixels_present": true,
+          "all_four_corners_opaque_white": false,
+          "status": "decoded-png"
+        }
+      ],
+      "png": {
+        "url": "https://logo.vibers.co.kr/_clients/vaundy/logo.png",
+        "curl_exit": 0,
+        "seconds": 0.396,
+        "format": "PNG",
+        "size": [
+          400,
+          76
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "transparent_pixels_present": true,
+        "all_four_corners_opaque_white": false,
+        "status": "decoded-png"
+      },
+      "svg": {
+        "url": "https://logo.vibers.co.kr/_clients/vaundy/logo.svg",
+        "curl_exit": 0,
+        "seconds": 0.526,
+        "svg_root_present": true,
+        "raster_or_active_content": false
+      }
+    },
+    {
+      "id": "apple-wallet",
+      "svg_claimed": true,
+      "png_attempts": [
+        {
+          "url": "https://logo.vibers.co.kr/_clients/apple-wallet/logo.png",
+          "curl_exit": 0,
+          "seconds": 0.551,
+          "format": "PNG",
+          "size": [
+            400,
+            300
+          ],
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "transparent_pixels_present": true,
+          "all_four_corners_opaque_white": false,
+          "status": "decoded-png"
+        }
+      ],
+      "png": {
+        "url": "https://logo.vibers.co.kr/_clients/apple-wallet/logo.png",
+        "curl_exit": 0,
+        "seconds": 0.551,
+        "format": "PNG",
+        "size": [
+          400,
+          300
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "transparent_pixels_present": true,
+        "all_four_corners_opaque_white": false,
+        "status": "decoded-png"
+      },
+      "svg": {
+        "url": "https://logo.vibers.co.kr/_clients/apple-wallet/logo.svg",
+        "curl_exit": 0,
+        "seconds": 0.506,
+        "svg_root_present": true,
+        "raster_or_active_content": false
+      }
+    },
+    {
+      "id": "koreanair",
+      "svg_claimed": true,
+      "png_attempts": [
+        {
+          "url": "https://logo.vibers.co.kr/_clients/koreanair/sources/user-svg-20261009/korean-air-2025.png?v=1790381000",
+          "curl_exit": 0,
+          "seconds": 0.464,
+          "format": "PNG",
+          "size": [
+            1400,
+            699
+          ],
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "transparent_pixels_present": true,
+          "all_four_corners_opaque_white": false,
+          "status": "decoded-png"
+        }
+      ],
+      "png": {
+        "url": "https://logo.vibers.co.kr/_clients/koreanair/sources/user-svg-20261009/korean-air-2025.png?v=1790381000",
+        "curl_exit": 0,
+        "seconds": 0.464,
+        "format": "PNG",
+        "size": [
+          1400,
+          699
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "transparent_pixels_present": true,
+        "all_four_corners_opaque_white": false,
+        "status": "decoded-png"
+      },
+      "svg": {
+        "url": "https://logo.vibers.co.kr/_clients/koreanair/sources/user-svg-20261009/korean-air-2025.svg",
+        "curl_exit": 0,
+        "seconds": 0.524,
+        "svg_root_present": true,
+        "raster_or_active_content": false
+      }
+    },
+    {
+      "id": "seongnam",
+      "svg_claimed": true,
+      "png_attempts": [
+        {
+          "url": "https://logo.vibers.co.kr/_clients/seongnam/sources/official-ci-20261007/horizontal.png",
+          "curl_exit": 0,
+          "seconds": 0.383,
+          "format": "PNG",
+          "size": [
+            800,
+            284
+          ],
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "transparent_pixels_present": true,
+          "all_four_corners_opaque_white": false,
+          "status": "decoded-png"
+        }
+      ],
+      "png": {
+        "url": "https://logo.vibers.co.kr/_clients/seongnam/sources/official-ci-20261007/horizontal.png",
+        "curl_exit": 0,
+        "seconds": 0.383,
+        "format": "PNG",
+        "size": [
+          800,
+          284
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "transparent_pixels_present": true,
+        "all_four_corners_opaque_white": false,
+        "status": "decoded-png"
+      },
+      "svg": {
+        "url": "https://logo.vibers.co.kr/_clients/seongnam/sources/official-ci-20261007/horizontal.svg",
+        "curl_exit": 0,
+        "seconds": 0.61,
+        "svg_root_present": true,
+        "raster_or_active_content": false
+      }
+    },
+    {
+      "id": "history-2",
+      "svg_claimed": false,
+      "png_attempts": [
+        {
+          "url": "https://logo.vibers.co.kr/_clients/history-2/logo.png",
+          "curl_exit": 0,
+          "seconds": 0.721,
+          "format": "PNG",
+          "size": [
+            388,
+            94
+          ],
+          "alpha_extrema": [
+            255,
+            255
+          ],
+          "transparent_pixels_present": false,
+          "all_four_corners_opaque_white": true,
+          "status": "decoded-png"
+        }
+      ],
+      "png": {
+        "url": "https://logo.vibers.co.kr/_clients/history-2/logo.png",
+        "curl_exit": 0,
+        "seconds": 0.721,
+        "format": "PNG",
+        "size": [
+          388,
+          94
+        ],
+        "alpha_extrema": [
+          255,
+          255
+        ],
+        "transparent_pixels_present": false,
+        "all_four_corners_opaque_white": true,
+        "status": "decoded-png"
+      }
+    },
+    {
+      "id": "ace-combat",
+      "svg_claimed": true,
+      "png_attempts": [
+        {
+          "url": "https://logo.vibers.co.kr/_clients/ace-combat/logo.png",
+          "curl_exit": 0,
+          "seconds": 0.263,
+          "format": "PNG",
+          "size": [
+            400,
+            38
+          ],
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "transparent_pixels_present": true,
+          "all_four_corners_opaque_white": false,
+          "status": "decoded-png"
+        }
+      ],
+      "png": {
+        "url": "https://logo.vibers.co.kr/_clients/ace-combat/logo.png",
+        "curl_exit": 0,
+        "seconds": 0.263,
+        "format": "PNG",
+        "size": [
+          400,
+          38
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "transparent_pixels_present": true,
+        "all_four_corners_opaque_white": false,
+        "status": "decoded-png"
+      },
+      "svg": {
+        "url": "https://logo.vibers.co.kr/_clients/ace-combat/logo.svg",
+        "curl_exit": 0,
+        "seconds": 0.54,
+        "svg_root_present": true,
+        "raster_or_active_content": false
+      }
+    },
+    {
+      "id": "lg-innotek",
+      "svg_claimed": true,
+      "png_attempts": [
+        {
+          "url": "https://logo.vibers.co.kr/_clients/lg-innotek/logo.png",
+          "curl_exit": 0,
+          "seconds": 0.27,
+          "format": "PNG",
+          "size": [
+            400,
+            74
+          ],
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "transparent_pixels_present": true,
+          "all_four_corners_opaque_white": false,
+          "status": "decoded-png"
+        }
+      ],
+      "png": {
+        "url": "https://logo.vibers.co.kr/_clients/lg-innotek/logo.png",
+        "curl_exit": 0,
+        "seconds": 0.27,
+        "format": "PNG",
+        "size": [
+          400,
+          74
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "transparent_pixels_present": true,
+        "all_four_corners_opaque_white": false,
+        "status": "decoded-png"
+      },
+      "svg": {
+        "url": "https://logo.vibers.co.kr/_clients/lg-innotek/logo.svg",
+        "curl_exit": 0,
+        "seconds": 0.563,
+        "svg_root_present": true,
+        "raster_or_active_content": false
+      }
+    },
+    {
+      "id": "mammoth-coffee",
+      "svg_claimed": true,
+      "png_attempts": [
+        {
+          "url": "https://logo.vibers.co.kr/_clients/mammoth-coffee/sources/reviewed-priority-20261008/logo.png",
+          "curl_exit": 0,
+          "seconds": 0.261,
+          "format": "PNG",
+          "size": [
+            800,
+            56
+          ],
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "transparent_pixels_present": true,
+          "all_four_corners_opaque_white": false,
+          "status": "decoded-png"
+        }
+      ],
+      "png": {
+        "url": "https://logo.vibers.co.kr/_clients/mammoth-coffee/sources/reviewed-priority-20261008/logo.png",
+        "curl_exit": 0,
+        "seconds": 0.261,
+        "format": "PNG",
+        "size": [
+          800,
+          56
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "transparent_pixels_present": true,
+        "all_four_corners_opaque_white": false,
+        "status": "decoded-png"
+      },
+      "svg": {
+        "url": "https://logo.vibers.co.kr/_clients/mammoth-coffee/sources/reviewed-priority-20261008/logo.svg",
+        "curl_exit": 0,
+        "seconds": 0.464,
+        "svg_root_present": true,
+        "raster_or_active_content": false
+      }
+    },
+    {
+      "id": "hanwhasolutions",
+      "svg_claimed": true,
+      "png_attempts": [
+        {
+          "url": "https://logo.vibers.co.kr/_clients/hanwhasolutions/logo.png",
+          "curl_exit": 0,
+          "seconds": 0.309,
+          "format": "PNG",
+          "size": [
+            400,
+            400
+          ],
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "transparent_pixels_present": true,
+          "all_four_corners_opaque_white": false,
+          "status": "decoded-png"
+        }
+      ],
+      "png": {
+        "url": "https://logo.vibers.co.kr/_clients/hanwhasolutions/logo.png",
+        "curl_exit": 0,
+        "seconds": 0.309,
+        "format": "PNG",
+        "size": [
+          400,
+          400
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "transparent_pixels_present": true,
+        "all_four_corners_opaque_white": false,
+        "status": "decoded-png"
+      },
+      "svg": {
+        "url": "https://logo.vibers.co.kr/_clients/hanwhasolutions/logo.svg",
+        "curl_exit": 0,
+        "seconds": 0.511,
+        "svg_root_present": true,
+        "raster_or_active_content": false
+      }
+    },
+    {
+      "id": "kiwoom",
+      "svg_claimed": false,
+      "png_attempts": [
+        {
+          "url": "https://logo.vibers.co.kr/_clients/kiwoom/logo.png",
+          "curl_exit": 0,
+          "seconds": 0.307,
+          "format": "PNG",
+          "size": [
+            400,
+            400
+          ],
+          "alpha_extrema": [
+            255,
+            255
+          ],
+          "transparent_pixels_present": false,
+          "all_four_corners_opaque_white": true,
+          "status": "decoded-png"
+        }
+      ],
+      "png": {
+        "url": "https://logo.vibers.co.kr/_clients/kiwoom/logo.png",
+        "curl_exit": 0,
+        "seconds": 0.307,
+        "format": "PNG",
+        "size": [
+          400,
+          400
+        ],
+        "alpha_extrema": [
+          255,
+          255
+        ],
+        "transparent_pixels_present": false,
+        "all_four_corners_opaque_white": true,
+        "status": "decoded-png"
+      }
+    },
+    {
+      "id": "spvg-berghofen",
+      "svg_claimed": true,
+      "png_attempts": [
+        {
+          "url": "https://logo.vibers.co.kr/_clients/spvg-berghofen/logo.png",
+          "curl_exit": 0,
+          "seconds": 0.425,
+          "format": "PNG",
+          "size": [
+            400,
+            472
+          ],
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "transparent_pixels_present": true,
+          "all_four_corners_opaque_white": false,
+          "status": "decoded-png"
+        }
+      ],
+      "png": {
+        "url": "https://logo.vibers.co.kr/_clients/spvg-berghofen/logo.png",
+        "curl_exit": 0,
+        "seconds": 0.425,
+        "format": "PNG",
+        "size": [
+          400,
+          472
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "transparent_pixels_present": true,
+        "all_four_corners_opaque_white": false,
+        "status": "decoded-png"
+      },
+      "svg": {
+        "url": "https://logo.vibers.co.kr/_clients/spvg-berghofen/logo.svg",
+        "curl_exit": 0,
+        "seconds": 0.529,
+        "svg_root_present": true,
+        "raster_or_active_content": false
+      }
+    },
+    {
+      "id": "tving",
+      "svg_claimed": true,
+      "png_attempts": [
+        {
+          "url": "https://logo.vibers.co.kr/_clients/tving/sources/reviewed-priority-20261008/logo.png",
+          "curl_exit": 0,
+          "seconds": 0.371,
+          "format": "PNG",
+          "size": [
+            800,
+            197
+          ],
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "transparent_pixels_present": true,
+          "all_four_corners_opaque_white": false,
+          "status": "decoded-png"
+        }
+      ],
+      "png": {
+        "url": "https://logo.vibers.co.kr/_clients/tving/sources/reviewed-priority-20261008/logo.png",
+        "curl_exit": 0,
+        "seconds": 0.371,
+        "format": "PNG",
+        "size": [
+          800,
+          197
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "transparent_pixels_present": true,
+        "all_four_corners_opaque_white": false,
+        "status": "decoded-png"
+      },
+      "svg": {
+        "url": "https://logo.vibers.co.kr/_clients/tving/sources/reviewed-priority-20261008/logo.svg",
+        "curl_exit": 0,
+        "seconds": 0.518,
+        "svg_root_present": true,
+        "raster_or_active_content": false
+      }
+    },
+    {
+      "id": "samsung",
+      "svg_claimed": true,
+      "png_attempts": [
+        {
+          "url": "https://logo.vibers.co.kr/_clients/samsung/logo-transparent.png?v=20261006-2",
+          "curl_exit": 0,
+          "seconds": 0.27,
+          "format": "PNG",
+          "size": [
+            400,
+            400
+          ],
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "transparent_pixels_present": true,
+          "all_four_corners_opaque_white": false,
+          "status": "decoded-png"
+        }
+      ],
+      "png": {
+        "url": "https://logo.vibers.co.kr/_clients/samsung/logo-transparent.png?v=20261006-2",
+        "curl_exit": 0,
+        "seconds": 0.27,
+        "format": "PNG",
+        "size": [
+          400,
+          400
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "transparent_pixels_present": true,
+        "all_four_corners_opaque_white": false,
+        "status": "decoded-png"
+      },
+      "svg": {
+        "url": "https://logo.vibers.co.kr/_clients/samsung/logo.svg",
+        "curl_exit": 0,
+        "seconds": 0.607,
+        "svg_root_present": true,
+        "raster_or_active_content": false
+      }
+    },
+    {
+      "id": "atleticomadrid",
+      "svg_claimed": true,
+      "png_attempts": [
+        {
+          "url": "https://logo.vibers.co.kr/_clients/atleticomadrid/logo.png",
+          "curl_exit": 0,
+          "seconds": 0.358,
+          "format": "PNG",
+          "size": [
+            512,
+            1202
+          ],
+          "alpha_extrema": [
+            255,
+            255
+          ],
+          "transparent_pixels_present": false,
+          "all_four_corners_opaque_white": true,
+          "status": "decoded-png"
+        }
+      ],
+      "png": {
+        "url": "https://logo.vibers.co.kr/_clients/atleticomadrid/logo.png",
+        "curl_exit": 0,
+        "seconds": 0.358,
+        "format": "PNG",
+        "size": [
+          512,
+          1202
+        ],
+        "alpha_extrema": [
+          255,
+          255
+        ],
+        "transparent_pixels_present": false,
+        "all_four_corners_opaque_white": true,
+        "status": "decoded-png"
+      },
+      "svg": {
+        "url": "https://logo.vibers.co.kr/_clients/atleticomadrid/logo.svg",
+        "curl_exit": 0,
+        "seconds": 0.549,
+        "svg_root_present": true,
+        "raster_or_active_content": false
+      }
+    },
+    {
+      "id": "baemin",
+      "svg_claimed": true,
+      "png_attempts": [
+        {
+          "url": "https://logo.vibers.co.kr/_clients/baemin/sources/baemin-guide-fix-20261010/d4c5ccbdcad27a3a.png?v=1790381000",
+          "curl_exit": 0,
+          "seconds": 0.665,
+          "format": "PNG",
+          "size": [
+            2000,
+            454
+          ],
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "transparent_pixels_present": true,
+          "all_four_corners_opaque_white": false,
+          "status": "decoded-png"
+        }
+      ],
+      "png": {
+        "url": "https://logo.vibers.co.kr/_clients/baemin/sources/baemin-guide-fix-20261010/d4c5ccbdcad27a3a.png?v=1790381000",
+        "curl_exit": 0,
+        "seconds": 0.665,
+        "format": "PNG",
+        "size": [
+          2000,
+          454
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "transparent_pixels_present": true,
+        "all_four_corners_opaque_white": false,
+        "status": "decoded-png"
+      },
+      "svg": {
+        "url": "https://logo.vibers.co.kr/_clients/baemin/sources/baemin-guide-fix-20261010/0a15e46fd676e635.svg",
+        "curl_exit": 0,
+        "seconds": 0.32,
+        "svg_root_present": true,
+        "raster_or_active_content": false
+      }
+    }
+  ]
+}
