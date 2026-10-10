@@ -1,88 +1,116 @@
 {
   "patches": {
     "adobe": {
-      "variants_n": 3
+      "variants_n": 3,
+      "logo_published_at": "2026-10-10T14:02:46.929508+00:00"
     },
     "airbnb": {
-      "variants_n": 3
+      "variants_n": 3,
+      "logo_published_at": "2026-10-10T14:02:46.929722+00:00"
     },
     "airtable": {
-      "variants_n": 6
+      "variants_n": 6,
+      "logo_published_at": "2026-10-10T14:02:46.929725+00:00"
     },
     "amazon": {
-      "variants_n": 3
+      "variants_n": 3,
+      "logo_published_at": "2026-10-10T14:02:46.929726+00:00"
     },
     "asana": {
-      "variants_n": 3
+      "variants_n": 3,
+      "logo_published_at": "2026-10-10T14:02:46.929727+00:00"
     },
     "atlassian": {
-      "variants_n": 3
+      "variants_n": 3,
+      "logo_published_at": "2026-10-10T14:02:46.929728+00:00"
     },
     "autodesk": {
-      "variants_n": 3
+      "variants_n": 3,
+      "logo_published_at": "2026-10-10T14:02:46.929729+00:00"
     },
     "dropbox": {
-      "variants_n": 6
+      "variants_n": 6,
+      "logo_published_at": "2026-10-10T14:02:46.929729+00:00"
     },
     "figma": {
-      "variants_n": 4
+      "variants_n": 4,
+      "logo_published_at": "2026-10-10T14:02:46.929730+00:00"
     },
     "github": {
-      "variants_n": 6
+      "variants_n": 6,
+      "logo_published_at": "2026-10-10T14:02:46.929731+00:00"
     },
     "google": {
-      "variants_n": 6
+      "variants_n": 6,
+      "logo_published_at": "2026-10-10T14:02:46.929732+00:00"
     },
     "ibm": {
-      "variants_n": 3
+      "variants_n": 3,
+      "logo_published_at": "2026-10-10T14:02:46.929733+00:00"
     },
     "linkedin": {
-      "variants_n": 3
+      "variants_n": 3,
+      "logo_published_at": "2026-10-10T14:02:46.929733+00:00"
     },
     "microsoft": {
-      "variants_n": 3
+      "variants_n": 3,
+      "logo_published_at": "2026-10-10T14:02:46.929734+00:00"
     },
     "netflix": {
-      "variants_n": 5
+      "variants_n": 5,
+      "logo_published_at": "2026-10-10T14:02:46.929735+00:00"
     },
     "oracle": {
-      "variants_n": 3
+      "variants_n": 3,
+      "logo_published_at": "2026-10-10T14:02:46.929736+00:00"
     },
     "paypal": {
-      "variants_n": 8
+      "variants_n": 8,
+      "logo_published_at": "2026-10-10T14:02:46.929736+00:00"
     },
     "pinterest": {
-      "variants_n": 3
+      "variants_n": 3,
+      "logo_published_at": "2026-10-10T14:02:46.929737+00:00"
     },
     "reddit": {
-      "variants_n": 3
+      "variants_n": 3,
+      "logo_published_at": "2026-10-10T14:02:46.929738+00:00"
     },
     "salesforce": {
-      "variants_n": 3
+      "variants_n": 3,
+      "logo_published_at": "2026-10-10T14:02:46.929739+00:00"
     },
     "spotify": {
-      "variants_n": 3
+      "variants_n": 3,
+      "logo_published_at": "2026-10-10T14:02:46.929739+00:00"
     },
     "stripe": {
-      "variants_n": 9
+      "variants_n": 9,
+      "logo_published_at": "2026-10-10T14:02:46.929740+00:00"
     },
     "tesla": {
-      "variants_n": 3
+      "variants_n": 3,
+      "logo_published_at": "2026-10-10T14:02:46.929741+00:00"
     },
     "twitch": {
-      "variants_n": 3
+      "variants_n": 3,
+      "logo_published_at": "2026-10-10T14:02:46.929742+00:00"
     },
     "uber": {
-      "variants_n": 2
+      "variants_n": 2,
+      "logo_published_at": "2026-10-10T14:02:46.929743+00:00"
     },
     "ycombinator": {
-      "variants_n": 3
+      "variants_n": 3,
+      "logo_published_at": "2026-10-10T14:02:46.929743+00:00"
     },
     "youtube": {
-      "variants_n": 3
+      "variants_n": 3,
+      "logo_published_at": "2026-10-10T14:02:46.929744+00:00"
     },
     "zoom": {
-      "variants_n": 3
+      "variants_n": 3,
+      "logo_published_at": "2026-10-10T14:02:46.929745+00:00"
     }
   },
   "variants": {

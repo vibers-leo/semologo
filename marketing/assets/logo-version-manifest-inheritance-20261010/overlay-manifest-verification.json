@@ -1,0 +1,10 @@
+{
+  "status": "verified",
+  "scoped": 295,
+  "restored_null": 7,
+  "untouched_nonnull": 288,
+  "remaining_null": 0,
+  "restored_entire_previous_manifest": true,
+  "expected_variants_deep_equal": true,
+  "original_version_manifests_unchanged": true
+}

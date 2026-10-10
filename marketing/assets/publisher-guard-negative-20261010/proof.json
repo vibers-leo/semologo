@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "rejection": "Existing variant would be lost adobe",
+  "before_after_hashes_equal": true,
+  "database": [
+    {
+      "payload_hash": "9742421b8e174547da33b8a9e960d0e5",
+      "manifest_hash": "f83e3ac87bbdba6673f78f23f6ef0779"
+    }
+  ]
+}

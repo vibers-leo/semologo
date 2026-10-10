@@ -1,0 +1,7 @@
+# 로고 버전 manifest 상속 수정
+
+운영 archive_logo_asset_change 함수만 transaction으로교체했습니다. 기존currentmanifest를FOR UPDATE로읽은뒤새version INSERT에상속하며,기존signature재사용ONCONFLICT는기존non-nullmanifest우선COALESCE합니다. snapshot함수·비교필드·날짜처리는변경하지않았습니다.
+
+Westerveld BEGIN테스트에서temporary source_zip변경→새currentmanifest전체동등검증→원payload재적용ONCONFLICT non-null보존→날짜만변경시version불변검증→ROLLBACK했습니다. 롤백후브랜드payload/status와모든version모든column이테스트전과deep equal입니다. 대표·variant2·files3원상유지. 외부에temporary값commit하지않았습니다.
+
+function-before.sql/JSON이정확한운영함수backup이며 migration.sql은함수만바꾸는transaction입니다. 운영DDL외다른schema변경없음. rollback-test-proof.json/migration-proof.json과재현JS를보관합니다.

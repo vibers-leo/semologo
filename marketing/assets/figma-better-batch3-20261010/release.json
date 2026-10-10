@@ -1,321 +1,173 @@
 {
   "patches": {
-    "zapier": {
+    "vsp": {
+      "variants_n": 3,
+      "logo_published_at": "2026-10-10T14:02:53.081073+00:00"
+    },
+    "university-of-michigan": {
+      "variants_n": 3,
+      "logo_published_at": "2026-10-10T14:02:53.081090+00:00"
+    },
+    "university-of-maryland": {
+      "variants_n": 3,
+      "logo_published_at": "2026-10-10T14:02:53.081092+00:00"
+    },
+    "uipath": {
+      "variants_n": 1,
+      "logo_published_at": "2026-10-10T14:02:53.081093+00:00"
+    },
+    "trade-republic": {
+      "variants_n": 1,
+      "logo_published_at": "2026-10-10T14:02:53.081093+00:00"
+    },
+    "tiktok": {
+      "variants_n": 3,
+      "logo_published_at": "2026-10-10T14:02:53.081094+00:00"
+    },
+    "snap": {
+      "variants_n": 3,
+      "logo_published_at": "2026-10-10T14:02:53.081095+00:00"
+    },
+    "slack": {
       "variants_n": 6,
-      "logo_published_at": "2026-10-10T14:02:51.296852+00:00"
+      "logo_published_at": "2026-10-10T14:02:53.081096+00:00"
     },
-    "wework": {
+    "silver-lake": {
+      "variants_n": 1,
+      "logo_published_at": "2026-10-10T14:02:53.081097+00:00"
+    },
+    "sequoia-capital": {
+      "variants_n": 3,
+      "logo_published_at": "2026-10-10T14:02:53.081098+00:00"
+    },
+    "robinhood": {
+      "variants_n": 3,
+      "logo_published_at": "2026-10-10T14:02:53.081099+00:00"
+    },
+    "rijksmuseum": {
+      "variants_n": 3,
+      "logo_published_at": "2026-10-10T14:02:53.081100+00:00"
+    },
+    "producthunt": {
+      "variants_n": 3,
+      "logo_published_at": "2026-10-10T14:02:53.081101+00:00"
+    },
+    "planned-parenthood": {
+      "variants_n": 3,
+      "logo_published_at": "2026-10-10T14:02:53.081102+00:00"
+    },
+    "one-medical": {
+      "variants_n": 1,
+      "logo_published_at": "2026-10-10T14:02:53.081102+00:00"
+    },
+    "miro": {
+      "variants_n": 6,
+      "logo_published_at": "2026-10-10T14:02:53.081103+00:00"
+    },
+    "michigan-state-university": {
+      "variants_n": 3,
+      "logo_published_at": "2026-10-10T14:02:53.081104+00:00"
+    },
+    "mendix": {
+      "variants_n": 1,
+      "logo_published_at": "2026-10-10T14:02:53.081105+00:00"
+    },
+    "mailerlite": {
+      "variants_n": 3,
+      "logo_published_at": "2026-10-10T14:02:53.081106+00:00"
+    },
+    "loom": {
+      "variants_n": 6,
+      "logo_published_at": "2026-10-10T14:02:53.081107+00:00"
+    },
+    "intercom": {
       "variants_n": 2,
-      "logo_published_at": "2026-10-10T14:02:51.296868+00:00"
+      "logo_published_at": "2026-10-10T14:02:53.081107+00:00"
     },
-    "wetransfer": {
+    "instagram": {
       "variants_n": 3,
-      "logo_published_at": "2026-10-10T14:02:51.296869+00:00"
+      "logo_published_at": "2026-10-10T14:02:53.081108+00:00"
     },
-    "webflow": {
-      "variants_n": 7,
-      "logo_published_at": "2026-10-10T14:02:51.296870+00:00"
-    },
-    "walgreens": {
-      "variants_n": 4,
-      "logo_published_at": "2026-10-10T14:02:51.296871+00:00"
-    },
-    "verizon": {
-      "variants_n": 1,
-      "logo_published_at": "2026-10-10T14:02:51.296872+00:00"
-    },
-    "the-verge": {
+    "indiehackers": {
       "variants_n": 3,
-      "logo_published_at": "2026-10-10T14:02:51.296873+00:00"
+      "logo_published_at": "2026-10-10T14:02:53.081110+00:00"
     },
-    "the-new-york-times": {
-      "variants_n": 1,
-      "logo_published_at": "2026-10-10T14:02:51.296874+00:00"
-    },
-    "target": {
+    "hims": {
       "variants_n": 3,
-      "logo_published_at": "2026-10-10T14:02:51.296874+00:00"
+      "logo_published_at": "2026-10-10T14:02:53.081110+00:00"
     },
-    "square": {
+    "harvard": {
       "variants_n": 3,
-      "logo_published_at": "2026-10-10T14:02:51.296875+00:00"
+      "logo_published_at": "2026-10-10T14:02:53.081111+00:00"
     },
-    "spacex": {
+    "greylock-partners": {
       "variants_n": 3,
-      "logo_published_at": "2026-10-10T14:02:51.296876+00:00"
+      "logo_published_at": "2026-10-10T14:02:53.081112+00:00"
     },
-    "softbank": {
+    "general-catalyst": {
       "variants_n": 3,
-      "logo_published_at": "2026-10-10T14:02:51.296876+00:00"
+      "logo_published_at": "2026-10-10T14:02:53.081113+00:00"
     },
-    "sketch": {
+    "funding-circle": {
       "variants_n": 3,
-      "logo_published_at": "2026-10-10T14:02:51.296877+00:00"
+      "logo_published_at": "2026-10-10T14:02:53.081114+00:00"
     },
-    "sap": {
+    "founders-fund": {
       "variants_n": 3,
-      "logo_published_at": "2026-10-10T14:02:51.296878+00:00"
+      "logo_published_at": "2026-10-10T14:02:53.081115+00:00"
     },
-    "qualcomm": {
-      "variants_n": 1,
-      "logo_published_at": "2026-10-10T14:02:51.296879+00:00"
-    },
-    "pwc": {
+    "dribbble": {
       "variants_n": 3,
-      "logo_published_at": "2026-10-10T14:02:51.296880+00:00"
+      "logo_published_at": "2026-10-10T14:02:53.081115+00:00"
     },
-    "polaroid": {
+    "dremio": {
       "variants_n": 3,
-      "logo_published_at": "2026-10-10T14:02:51.296881+00:00"
+      "logo_published_at": "2026-10-10T14:02:53.081116+00:00"
     },
-    "picsart": {
+    "discord": {
       "variants_n": 3,
-      "logo_published_at": "2026-10-10T14:02:51.296881+00:00"
+      "logo_published_at": "2026-10-10T14:02:53.081117+00:00"
     },
-    "patreon": {
+    "clickup": {
       "variants_n": 3,
-      "logo_published_at": "2026-10-10T14:02:51.296882+00:00"
+      "logo_published_at": "2026-10-10T14:02:53.081118+00:00"
     },
-    "palantir": {
+    "bridgewater": {
       "variants_n": 2,
-      "logo_published_at": "2026-10-10T14:02:51.296883+00:00"
+      "logo_published_at": "2026-10-10T14:02:53.081119+00:00"
     },
-    "nvidia": {
+    "big-fish-games": {
+      "variants_n": 3,
+      "logo_published_at": "2026-10-10T14:02:53.081120+00:00"
+    },
+    "beazer-homes": {
+      "variants_n": 3,
+      "logo_published_at": "2026-10-10T14:02:53.081121+00:00"
+    },
+    "bain-capital-ventures": {
       "variants_n": 1,
-      "logo_published_at": "2026-10-10T14:02:51.296885+00:00"
+      "logo_published_at": "2026-10-10T14:02:53.081121+00:00"
     },
-    "mozilla": {
+    "bankrate": {
+      "variants_n": 3,
+      "logo_published_at": "2026-10-10T14:02:53.081122+00:00"
+    },
+    "andreessen-horowitz": {
       "variants_n": 2,
-      "logo_published_at": "2026-10-10T14:02:51.296886+00:00"
+      "logo_published_at": "2026-10-10T14:02:53.081123+00:00"
     },
-    "morganstanley": {
+    "aclu": {
       "variants_n": 3,
-      "logo_published_at": "2026-10-10T14:02:51.296887+00:00"
+      "logo_published_at": "2026-10-10T14:02:53.081124+00:00"
     },
-    "metlife": {
+    "accel": {
       "variants_n": 3,
-      "logo_published_at": "2026-10-10T14:02:51.296888+00:00"
-    },
-    "magic-leap": {
-      "variants_n": 3,
-      "logo_published_at": "2026-10-10T14:02:51.296889+00:00"
-    },
-    "lyft": {
-      "variants_n": 3,
-      "logo_published_at": "2026-10-10T14:02:51.296890+00:00"
-    },
-    "logitech": {
-      "variants_n": 2,
-      "logo_published_at": "2026-10-10T14:02:51.296891+00:00"
-    },
-    "kpmg": {
-      "variants_n": 4,
-      "logo_published_at": "2026-10-10T14:02:51.296892+00:00"
-    },
-    "klarna": {
-      "variants_n": 8,
-      "logo_published_at": "2026-10-10T14:02:51.296893+00:00"
-    },
-    "honeywell": {
-      "variants_n": 3,
-      "logo_published_at": "2026-10-10T14:02:51.296894+00:00"
-    },
-    "gusto": {
-      "variants_n": 5,
-      "logo_published_at": "2026-10-10T14:02:51.296895+00:00"
-    },
-    "genentech": {
-      "variants_n": 3,
-      "logo_published_at": "2026-10-10T14:02:51.296896+00:00"
-    },
-    "fortune": {
-      "variants_n": 3,
-      "logo_published_at": "2026-10-10T14:02:51.296897+00:00"
-    },
-    "forbes": {
-      "variants_n": 3,
-      "logo_published_at": "2026-10-10T14:02:51.296897+00:00"
-    },
-    "flexport": {
-      "variants_n": 3,
-      "logo_published_at": "2026-10-10T14:02:51.296906+00:00"
-    },
-    "ey": {
-      "variants_n": 3,
-      "logo_published_at": "2026-10-10T14:02:51.296910+00:00"
-    },
-    "etsy": {
-      "variants_n": 3,
-      "logo_published_at": "2026-10-10T14:02:51.296912+00:00"
-    },
-    "duolingo": {
-      "variants_n": 1,
-      "logo_published_at": "2026-10-10T14:02:51.296912+00:00"
-    },
-    "dollar-tree": {
-      "variants_n": 3,
-      "logo_published_at": "2026-10-10T14:02:51.296913+00:00"
-    },
-    "deloitte": {
-      "variants_n": 3,
-      "logo_published_at": "2026-10-10T14:02:51.296914+00:00"
-    },
-    "convertkit": {
-      "variants_n": 3,
-      "logo_published_at": "2026-10-10T14:02:51.296915+00:00"
-    },
-    "citi": {
-      "variants_n": 3,
-      "logo_published_at": "2026-10-10T14:02:51.296916+00:00"
-    },
-    "circleci": {
-      "variants_n": 3,
-      "logo_published_at": "2026-10-10T14:02:51.296917+00:00"
-    },
-    "bumble": {
-      "variants_n": 3,
-      "logo_published_at": "2026-10-10T14:02:51.296918+00:00"
-    },
-    "accenture": {
-      "variants_n": 1,
-      "logo_published_at": "2026-10-10T14:02:51.296919+00:00"
+      "logo_published_at": "2026-10-10T14:02:53.081125+00:00"
     }
   },
   "variants": {
-    "zapier": {
-      "id": "zapier",
-      "algo_v": 1,
-      "schema": 1,
-      "primary": "wordmark",
-      "variants": [
-        {
-          "key": "symbol",
-          "form": "symbol",
-          "lang": "en",
-          "color": "color",
-          "files": {
-            "svg": "sources/iconify/zapier-icon.svg"
-          },
-          "label": "심볼형",
-          "order": 30,
-          "aspect": 1.002,
-          "origin": "collected",
-          "provider": "iconify"
-        },
-        {
-          "key": "wordmark",
-          "alts": [
-            {
-              "file": "sources/iconify/zapier.svg",
-              "provider": "iconify"
-            },
-            {
-              "file": "sources/wvl/zapier.svg",
-              "provider": "wvl"
-            }
-          ],
-          "form": "wordmark",
-          "lang": "en",
-          "color": "color",
-          "files": {
-            "png": "logo-800.png",
-            "svg": "logo.svg"
-          },
-          "label": "워드마크형",
-          "order": 40,
-          "aspect": 3.689,
-          "origin": "collected",
-          "provider": "iconify"
-        },
-        {
-          "key": "untitled-ui-community-lockup",
-          "form": "horizontal",
-          "lang": "en",
-          "color": "color",
-          "files": {
-            "png": "sources/untitled-ui-community-20261010/fd3d7ff282b19719.png",
-            "svg": "sources/untitled-ui-community-20261010/63e1cc46fa3d61a0.svg"
-          },
-          "label": "가로조합 · Untitled UI 커뮤니티 수록본",
-          "order": 90,
-          "aspect": 2.1855,
-          "origin": "collected",
-          "provider": "figma-community",
-          "preview_png": "sources/untitled-ui-community-20261010/832e1cd0e3a7d6ae.png",
-          "source_note": "사용자 제공 Untitled UI (Community) 내보내기. 공식 브랜드 배포 파일이 아닌 커뮤니티 수록본. 원본 벡터 경로를 보존하여 추출.",
-          "source_archive_url": "https://logo.vibers.co.kr/_clients/active-campaign/sources/untitled-ui-community-20261010/c3a00071febe9f83.zip",
-          "official_distribution": false
-        },
-        {
-          "key": "figma-better-original",
-          "label": "커뮤니티 수록 원색 · 시기 미확인",
-          "form": "horizontal",
-          "lockup": "horizontal",
-          "lang": "en",
-          "color": "original",
-          "light": false,
-          "files": {
-            "svg": "sources/figma-better-community-20261010/372ef61541397e8dbb35.svg",
-            "png": "sources/figma-better-community-20261010/67b93dd32d7b30d9957a.png"
-          },
-          "provider": "사용자 제공 Better Logos Figma Community 수집본",
-          "origin": "community",
-          "official": false,
-          "order": 3,
-          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
-          "png_width": 2000,
-          "png_height": 915
-        },
-        {
-          "key": "figma-better-white",
-          "label": "커뮤니티 수록 흰색 · 시기 미확인",
-          "form": "horizontal",
-          "lockup": "horizontal",
-          "lang": "en",
-          "color": "white",
-          "light": true,
-          "files": {
-            "svg": "sources/figma-better-community-20261010/68d11e3a6f053f511bac.svg",
-            "png": "sources/figma-better-community-20261010/f5bc391ed79b6d8e152b.png"
-          },
-          "provider": "사용자 제공 Better Logos Figma Community 수집본",
-          "origin": "community",
-          "official": false,
-          "order": 4,
-          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
-          "png_width": 2000,
-          "png_height": 915
-        },
-        {
-          "key": "figma-better-black",
-          "label": "커뮤니티 수록 검정 · 시기 미확인",
-          "form": "horizontal",
-          "lockup": "horizontal",
-          "lang": "en",
-          "color": "black",
-          "light": false,
-          "files": {
-            "svg": "sources/figma-better-community-20261010/6ffe9cf4fb5371665667.svg",
-            "png": "sources/figma-better-community-20261010/bf433aa26800082d61ae.png"
-          },
-          "provider": "사용자 제공 Better Logos Figma Community 수집본",
-          "origin": "community",
-          "official": false,
-          "order": 5,
-          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
-          "png_width": 2000,
-          "png_height": 915
-        }
-      ],
-      "fingerprint": {
-        "logo.svg": "ba037538ab444aa9",
-        "sources/wvl/zapier.svg": "675135ab0b0b84a9",
-        "sources/iconify/zapier.svg": "ba037538ab444aa9",
-        "sources/iconify/zapier-icon.svg": "6c30d7a206948c67"
-      }
-    },
-    "wework": {
-      "id": "wework",
+    "vsp": {
+      "id": "vsp",
       "schema": 1,
       "algo_v": 1,
       "primary": null,
@@ -329,8 +181,8 @@
           "color": "original",
           "light": false,
           "files": {
-            "svg": "sources/figma-better-community-20261010/a3aa2f0064601a3a6616.svg",
-            "png": "sources/figma-better-community-20261010/260ecbb7053d46a84fdb.png"
+            "svg": "sources/figma-better-community-20261010/f36fa863300aa82fcce0.svg",
+            "png": "sources/figma-better-community-20261010/4a1a2f94e8639db3e89c.png"
           },
           "provider": "사용자 제공 Better Logos Figma Community 수집본",
           "origin": "community",
@@ -338,7 +190,7 @@
           "order": 0,
           "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
           "png_width": 2000,
-          "png_height": 428
+          "png_height": 1685
         },
         {
           "key": "figma-better-white",
@@ -349,8 +201,8 @@
           "color": "white",
           "light": true,
           "files": {
-            "svg": "sources/figma-better-community-20261010/a968ae10bc2d4e1cd41d.svg",
-            "png": "sources/figma-better-community-20261010/af982cef8c807f345bf4.png"
+            "svg": "sources/figma-better-community-20261010/874783ff8a20b419a459.svg",
+            "png": "sources/figma-better-community-20261010/5507abd37671889021b4.png"
           },
           "provider": "사용자 제공 Better Logos Figma Community 수집본",
           "origin": "community",
@@ -358,55 +210,7 @@
           "order": 1,
           "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
           "png_width": 2000,
-          "png_height": 428
-        }
-      ]
-    },
-    "wetransfer": {
-      "id": "wetransfer",
-      "schema": 1,
-      "algo_v": 1,
-      "primary": null,
-      "variants": [
-        {
-          "key": "figma-better-original",
-          "label": "커뮤니티 수록 원색 · 시기 미확인",
-          "form": "horizontal",
-          "lockup": "horizontal",
-          "lang": "en",
-          "color": "original",
-          "light": false,
-          "files": {
-            "svg": "sources/figma-better-community-20261010/2b10b673cdfb024f5fb2.svg",
-            "png": "sources/figma-better-community-20261010/dc16bf46fd32597bdcf5.png"
-          },
-          "provider": "사용자 제공 Better Logos Figma Community 수집본",
-          "origin": "community",
-          "official": false,
-          "order": 0,
-          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
-          "png_width": 2000,
-          "png_height": 280
-        },
-        {
-          "key": "figma-better-white",
-          "label": "커뮤니티 수록 흰색 · 시기 미확인",
-          "form": "horizontal",
-          "lockup": "horizontal",
-          "lang": "en",
-          "color": "white",
-          "light": true,
-          "files": {
-            "svg": "sources/figma-better-community-20261010/765056ada9b738c646fc.svg",
-            "png": "sources/figma-better-community-20261010/0e188e5439311cc8a691.png"
-          },
-          "provider": "사용자 제공 Better Logos Figma Community 수집본",
-          "origin": "community",
-          "official": false,
-          "order": 1,
-          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
-          "png_width": 2000,
-          "png_height": 280
+          "png_height": 1685
         },
         {
           "key": "figma-better-black",
@@ -417,8 +221,8 @@
           "color": "black",
           "light": false,
           "files": {
-            "svg": "sources/figma-better-community-20261010/af211f96bf775776a11e.svg",
-            "png": "sources/figma-better-community-20261010/9b4b06b34a0c2b858b86.png"
+            "svg": "sources/figma-better-community-20261010/bc42603d982140c38fbf.svg",
+            "png": "sources/figma-better-community-20261010/0c3fbce130caa62b87a3.png"
           },
           "provider": "사용자 제공 Better Logos Figma Community 수집본",
           "origin": "community",
@@ -426,60 +230,391 @@
           "order": 2,
           "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
           "png_width": 2000,
-          "png_height": 280
+          "png_height": 1685
         }
       ]
     },
-    "webflow": {
-      "id": "webflow",
+    "university-of-michigan": {
+      "id": "university-of-michigan",
+      "schema": 1,
+      "algo_v": 1,
+      "primary": null,
+      "variants": [
+        {
+          "key": "figma-better-original",
+          "label": "커뮤니티 수록 원색 · 시기 미확인",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "en",
+          "color": "original",
+          "light": false,
+          "files": {
+            "svg": "sources/figma-better-community-20261010/83b89ed0174556f7edcd.svg",
+            "png": "sources/figma-better-community-20261010/4f7dfed5f09dc14e40ac.png"
+          },
+          "provider": "사용자 제공 Better Logos Figma Community 수집본",
+          "origin": "community",
+          "official": false,
+          "order": 0,
+          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
+          "png_width": 2000,
+          "png_height": 387
+        },
+        {
+          "key": "figma-better-white",
+          "label": "커뮤니티 수록 흰색 · 시기 미확인",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "en",
+          "color": "white",
+          "light": true,
+          "files": {
+            "svg": "sources/figma-better-community-20261010/3c23f7433520ef074f21.svg",
+            "png": "sources/figma-better-community-20261010/4540cf244cd291872417.png"
+          },
+          "provider": "사용자 제공 Better Logos Figma Community 수집본",
+          "origin": "community",
+          "official": false,
+          "order": 1,
+          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
+          "png_width": 2000,
+          "png_height": 387
+        },
+        {
+          "key": "figma-better-black",
+          "label": "커뮤니티 수록 검정 · 시기 미확인",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "en",
+          "color": "black",
+          "light": false,
+          "files": {
+            "svg": "sources/figma-better-community-20261010/8b48ab1f731622d44931.svg",
+            "png": "sources/figma-better-community-20261010/5b078c76d03da8363f47.png"
+          },
+          "provider": "사용자 제공 Better Logos Figma Community 수집본",
+          "origin": "community",
+          "official": false,
+          "order": 2,
+          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
+          "png_width": 2000,
+          "png_height": 387
+        }
+      ]
+    },
+    "university-of-maryland": {
+      "id": "university-of-maryland",
+      "schema": 1,
+      "algo_v": 1,
+      "primary": null,
+      "variants": [
+        {
+          "key": "figma-better-original",
+          "label": "커뮤니티 수록 원색 · 시기 미확인",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "en",
+          "color": "original",
+          "light": true,
+          "files": {
+            "svg": "sources/figma-better-community-20261010/2d7c45c2b6d28f225e0f.svg",
+            "png": "sources/figma-better-community-20261010/c69081b7d06b03ba7c40.png"
+          },
+          "provider": "사용자 제공 Better Logos Figma Community 수집본",
+          "origin": "community",
+          "official": false,
+          "order": 0,
+          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
+          "png_width": 2000,
+          "png_height": 324
+        },
+        {
+          "key": "figma-better-white",
+          "label": "커뮤니티 수록 흰색 · 시기 미확인",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "en",
+          "color": "white",
+          "light": true,
+          "files": {
+            "svg": "sources/figma-better-community-20261010/2124069723fba97a5e2a.svg",
+            "png": "sources/figma-better-community-20261010/ffd9b6fd60689581b160.png"
+          },
+          "provider": "사용자 제공 Better Logos Figma Community 수집본",
+          "origin": "community",
+          "official": false,
+          "order": 1,
+          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
+          "png_width": 2000,
+          "png_height": 324
+        },
+        {
+          "key": "figma-better-black",
+          "label": "커뮤니티 수록 검정 · 시기 미확인",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "en",
+          "color": "black",
+          "light": false,
+          "files": {
+            "svg": "sources/figma-better-community-20261010/d1226bcd5ee6dc69f2b5.svg",
+            "png": "sources/figma-better-community-20261010/14682a0ed0fba96fe309.png"
+          },
+          "provider": "사용자 제공 Better Logos Figma Community 수집본",
+          "origin": "community",
+          "official": false,
+          "order": 2,
+          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
+          "png_width": 2000,
+          "png_height": 324
+        }
+      ]
+    },
+    "uipath": {
+      "id": "uipath",
+      "schema": 1,
+      "algo_v": 1,
+      "primary": null,
+      "variants": [
+        {
+          "key": "figma-better-white",
+          "label": "커뮤니티 수록 흰색 · 시기 미확인",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "en",
+          "color": "white",
+          "light": true,
+          "files": {
+            "svg": "sources/figma-better-community-20261010/10c38ecb9b0cd7272a8a.svg",
+            "png": "sources/figma-better-community-20261010/0609636e6d28649d8b4c.png"
+          },
+          "provider": "사용자 제공 Better Logos Figma Community 수집본",
+          "origin": "community",
+          "official": false,
+          "order": 0,
+          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
+          "png_width": 2000,
+          "png_height": 681
+        }
+      ]
+    },
+    "trade-republic": {
+      "id": "trade-republic",
+      "schema": 1,
+      "algo_v": 1,
+      "primary": null,
+      "variants": [
+        {
+          "key": "figma-better-white",
+          "label": "커뮤니티 수록 흰색 · 시기 미확인",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "en",
+          "color": "white",
+          "light": true,
+          "files": {
+            "svg": "sources/figma-better-community-20261010/0b729f4d18acf474e89c.svg",
+            "png": "sources/figma-better-community-20261010/5f9289ddb874e5388d0e.png"
+          },
+          "provider": "사용자 제공 Better Logos Figma Community 수집본",
+          "origin": "community",
+          "official": false,
+          "order": 0,
+          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
+          "png_width": 2000,
+          "png_height": 825
+        }
+      ]
+    },
+    "tiktok": {
+      "id": "tiktok",
+      "schema": 1,
+      "algo_v": 1,
+      "primary": null,
+      "variants": [
+        {
+          "key": "figma-better-original",
+          "label": "커뮤니티 수록 원색 · 시기 미확인",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "en",
+          "color": "original",
+          "light": false,
+          "files": {
+            "svg": "sources/figma-better-community-20261010/da0ad157262f4c5f937e.svg",
+            "png": "sources/figma-better-community-20261010/9c7f0e3afdd92055dea3.png"
+          },
+          "provider": "사용자 제공 Better Logos Figma Community 수집본",
+          "origin": "community",
+          "official": false,
+          "order": 0,
+          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
+          "png_width": 2000,
+          "png_height": 451
+        },
+        {
+          "key": "figma-better-white",
+          "label": "커뮤니티 수록 흰색 · 시기 미확인",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "en",
+          "color": "white",
+          "light": true,
+          "files": {
+            "svg": "sources/figma-better-community-20261010/401d373a4864da6f2765.svg",
+            "png": "sources/figma-better-community-20261010/cbd34ed9424565b18e4c.png"
+          },
+          "provider": "사용자 제공 Better Logos Figma Community 수집본",
+          "origin": "community",
+          "official": false,
+          "order": 1,
+          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
+          "png_width": 2000,
+          "png_height": 451
+        },
+        {
+          "key": "figma-better-black",
+          "label": "커뮤니티 수록 검정 · 시기 미확인",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "en",
+          "color": "black",
+          "light": false,
+          "files": {
+            "svg": "sources/figma-better-community-20261010/94a0786f614e19362bc7.svg",
+            "png": "sources/figma-better-community-20261010/fcd26a8f53fb259cb4e6.png"
+          },
+          "provider": "사용자 제공 Better Logos Figma Community 수집본",
+          "origin": "community",
+          "official": false,
+          "order": 2,
+          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
+          "png_width": 2000,
+          "png_height": 451
+        }
+      ]
+    },
+    "snap": {
+      "id": "snap",
+      "schema": 1,
+      "algo_v": 1,
+      "primary": null,
+      "variants": [
+        {
+          "key": "figma-better-original",
+          "label": "커뮤니티 수록 원색 · 시기 미확인",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "en",
+          "color": "original",
+          "light": false,
+          "files": {
+            "svg": "sources/figma-better-community-20261010/f5cf5b8eb4caf708f90a.svg",
+            "png": "sources/figma-better-community-20261010/f90323cd8532f967e00a.png"
+          },
+          "provider": "사용자 제공 Better Logos Figma Community 수집본",
+          "origin": "community",
+          "official": false,
+          "order": 0,
+          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
+          "png_width": 2000,
+          "png_height": 474
+        },
+        {
+          "key": "figma-better-white",
+          "label": "커뮤니티 수록 흰색 · 시기 미확인",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "en",
+          "color": "white",
+          "light": true,
+          "files": {
+            "svg": "sources/figma-better-community-20261010/1b5632b1f802849a81c7.svg",
+            "png": "sources/figma-better-community-20261010/2eaecf06e21536284c0f.png"
+          },
+          "provider": "사용자 제공 Better Logos Figma Community 수집본",
+          "origin": "community",
+          "official": false,
+          "order": 1,
+          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
+          "png_width": 2000,
+          "png_height": 474
+        },
+        {
+          "key": "figma-better-black",
+          "label": "커뮤니티 수록 검정 · 시기 미확인",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "en",
+          "color": "black",
+          "light": false,
+          "files": {
+            "svg": "sources/figma-better-community-20261010/e25d6249d84567fcdb3b.svg",
+            "png": "sources/figma-better-community-20261010/58417c0632254df646bd.png"
+          },
+          "provider": "사용자 제공 Better Logos Figma Community 수집본",
+          "origin": "community",
+          "official": false,
+          "order": 2,
+          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
+          "png_width": 2000,
+          "png_height": 474
+        }
+      ]
+    },
+    "slack": {
+      "id": "slack",
       "algo_v": 1,
       "schema": 1,
       "primary": "wordmark",
       "variants": [
         {
-          "key": "horizontal",
-          "form": "horizontal",
-          "lang": "unknown",
-          "color": "color",
-          "files": {
-            "png": "sources/svgl/webflow.png",
-            "svg": "sources/svgl/webflow.svg"
-          },
-          "label": "가로조합형",
-          "order": 10,
-          "aspect": 1.601,
-          "origin": "collected",
-          "provider": "svgl"
-        },
-        {
           "key": "symbol",
+          "alts": [
+            {
+              "file": "sources/wvl/slack-icon.svg",
+              "provider": "wvl"
+            },
+            {
+              "file": "sources/devicons/slack-original.svg",
+              "provider": "devicons"
+            },
+            {
+              "file": "sources/supertiny/slack.svg",
+              "provider": "supertiny"
+            },
+            {
+              "file": "sources/fa.svg",
+              "provider": "font-awesome"
+            }
+          ],
           "form": "symbol",
           "lang": "en",
           "color": "color",
           "files": {
-            "png": "sources/devicons/webflow-original.png",
-            "svg": "sources/devicons/webflow-original.svg"
+            "png": "sources/iconify/slack-icon.png",
+            "svg": "sources/iconify/slack-icon.svg"
           },
           "label": "심볼형",
           "order": 30,
           "aspect": 1,
           "origin": "collected",
-          "provider": "devicons"
+          "provider": "iconify"
         },
         {
           "key": "wordmark",
           "alts": [
             {
-              "file": "sources/iconify/webflow.svg",
+              "file": "sources/iconify/slack.svg",
               "provider": "iconify"
             },
             {
-              "file": "sources/wvl/webflow.svg",
+              "file": "sources/wvl/slack.svg",
               "provider": "wvl"
             }
           ],
           "form": "wordmark",
-          "lang": "en",
+          "lang": "unknown",
           "color": "color",
           "files": {
             "png": "logo-800.png",
@@ -487,7 +622,549 @@
           },
           "label": "워드마크형",
           "order": 40,
-          "aspect": 3.965,
+          "aspect": 3.333,
+          "origin": "collected",
+          "provider": "worldvectorlogo/slack"
+        },
+        {
+          "key": "untitled-ui-community-lockup",
+          "form": "horizontal",
+          "lang": "en",
+          "color": "color",
+          "files": {
+            "png": "sources/untitled-ui-community-20261010/4c18b3630e5b2482.png",
+            "svg": "sources/untitled-ui-community-20261010/924015b04cc3b8f5.svg"
+          },
+          "label": "가로조합 · Untitled UI 커뮤니티 수록본",
+          "order": 90,
+          "aspect": 4.0238,
+          "origin": "collected",
+          "provider": "figma-community",
+          "preview_png": "sources/untitled-ui-community-20261010/34a45cc554b3db60.png",
+          "source_note": "사용자 제공 Untitled UI (Community) 내보내기. 공식 브랜드 배포 파일이 아닌 커뮤니티 수록본. 원본 벡터 경로를 보존하여 추출.",
+          "source_archive_url": "https://logo.vibers.co.kr/_clients/active-campaign/sources/untitled-ui-community-20261010/c3a00071febe9f83.zip",
+          "official_distribution": false
+        },
+        {
+          "key": "figma-better-white",
+          "label": "커뮤니티 수록 흰색 · 시기 미확인",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "en",
+          "color": "white",
+          "light": true,
+          "files": {
+            "svg": "sources/figma-better-community-20261010/824964ea34225b9d454f.svg",
+            "png": "sources/figma-better-community-20261010/04652cef751f74cb94c2.png"
+          },
+          "provider": "사용자 제공 Better Logos Figma Community 수집본",
+          "origin": "community",
+          "official": false,
+          "order": 3,
+          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
+          "png_width": 2000,
+          "png_height": 506
+        },
+        {
+          "key": "figma-better-black",
+          "label": "커뮤니티 수록 검정 · 시기 미확인",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "en",
+          "color": "black",
+          "light": false,
+          "files": {
+            "svg": "sources/figma-better-community-20261010/feb4e06c93a7c1ade4d3.svg",
+            "png": "sources/figma-better-community-20261010/687bec1d9f0e59c8ac86.png"
+          },
+          "provider": "사용자 제공 Better Logos Figma Community 수집본",
+          "origin": "community",
+          "official": false,
+          "order": 4,
+          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
+          "png_width": 2000,
+          "png_height": 506
+        },
+        {
+          "key": "figma-better-original",
+          "label": "커뮤니티 수록 원색 · 시기 미확인 · PNG 원본",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "en",
+          "color": "original",
+          "light": false,
+          "files": {
+            "png": "sources/figma-better-community-20261010/dc642432d9085a67d098.png"
+          },
+          "provider": "사용자 제공 Better Logos Figma Community 수집본",
+          "origin": "community",
+          "official": false,
+          "order": 5,
+          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
+          "png_width": 12400,
+          "png_height": 3163
+        }
+      ],
+      "fingerprint": {
+        "logo.svg": "3d209774d5335d2e",
+        "sources/fa.svg": "89f9bbc458b11911",
+        "sources/wvl/slack.svg": "c7033d231e4a1b86",
+        "sources/iconify/slack.svg": "6812845f7d427bb8",
+        "sources/wvl/slack-icon.svg": "9d28ec39296339aa",
+        "sources/supertiny/slack.svg": "7c15aaccd8dd4f83",
+        "sources/iconify/slack-icon.svg": "158b716f049121ee",
+        "sources/devicons/slack-original.svg": "aa64827a5a4ae81f"
+      }
+    },
+    "silver-lake": {
+      "id": "silver-lake",
+      "schema": 1,
+      "algo_v": 1,
+      "primary": null,
+      "variants": [
+        {
+          "key": "figma-better-white",
+          "label": "커뮤니티 수록 흰색 · 시기 미확인",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "en",
+          "color": "white",
+          "light": true,
+          "files": {
+            "svg": "sources/figma-better-community-20261010/351d169b42183e3319b0.svg",
+            "png": "sources/figma-better-community-20261010/06ac95622a05b43a8a41.png"
+          },
+          "provider": "사용자 제공 Better Logos Figma Community 수집본",
+          "origin": "community",
+          "official": false,
+          "order": 0,
+          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
+          "png_width": 2000,
+          "png_height": 322
+        }
+      ]
+    },
+    "sequoia-capital": {
+      "id": "sequoia-capital",
+      "schema": 1,
+      "algo_v": 1,
+      "primary": null,
+      "variants": [
+        {
+          "key": "figma-better-original",
+          "label": "커뮤니티 수록 원색 · 시기 미확인",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "en",
+          "color": "original",
+          "light": false,
+          "files": {
+            "svg": "sources/figma-better-community-20261010/5699cb4182a7000c295b.svg",
+            "png": "sources/figma-better-community-20261010/b03c49fb71dbb8297f9a.png"
+          },
+          "provider": "사용자 제공 Better Logos Figma Community 수집본",
+          "origin": "community",
+          "official": false,
+          "order": 0,
+          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
+          "png_width": 2000,
+          "png_height": 264
+        },
+        {
+          "key": "figma-better-white",
+          "label": "커뮤니티 수록 흰색 · 시기 미확인",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "en",
+          "color": "white",
+          "light": true,
+          "files": {
+            "svg": "sources/figma-better-community-20261010/ce5caf4468564970974e.svg",
+            "png": "sources/figma-better-community-20261010/027c8243979a33ebcc85.png"
+          },
+          "provider": "사용자 제공 Better Logos Figma Community 수집본",
+          "origin": "community",
+          "official": false,
+          "order": 1,
+          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
+          "png_width": 2000,
+          "png_height": 264
+        },
+        {
+          "key": "figma-better-black",
+          "label": "커뮤니티 수록 검정 · 시기 미확인",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "en",
+          "color": "black",
+          "light": false,
+          "files": {
+            "svg": "sources/figma-better-community-20261010/0c48ce82dc86fd54780c.svg",
+            "png": "sources/figma-better-community-20261010/bdf530887a11d7084e86.png"
+          },
+          "provider": "사용자 제공 Better Logos Figma Community 수집본",
+          "origin": "community",
+          "official": false,
+          "order": 2,
+          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
+          "png_width": 2000,
+          "png_height": 264
+        }
+      ]
+    },
+    "robinhood": {
+      "id": "robinhood",
+      "schema": 1,
+      "algo_v": 1,
+      "primary": null,
+      "variants": [
+        {
+          "key": "figma-better-original",
+          "label": "커뮤니티 수록 원색 · 시기 미확인",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "en",
+          "color": "original",
+          "light": false,
+          "files": {
+            "svg": "sources/figma-better-community-20261010/b2c77557e94b342b21e7.svg",
+            "png": "sources/figma-better-community-20261010/29239b3ad71d988acbf7.png"
+          },
+          "provider": "사용자 제공 Better Logos Figma Community 수집본",
+          "origin": "community",
+          "official": false,
+          "order": 0,
+          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
+          "png_width": 2000,
+          "png_height": 392
+        },
+        {
+          "key": "figma-better-white",
+          "label": "커뮤니티 수록 흰색 · 시기 미확인",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "en",
+          "color": "white",
+          "light": true,
+          "files": {
+            "svg": "sources/figma-better-community-20261010/2e4c279f54a80866325d.svg",
+            "png": "sources/figma-better-community-20261010/b9c95ec80f9814097e1d.png"
+          },
+          "provider": "사용자 제공 Better Logos Figma Community 수집본",
+          "origin": "community",
+          "official": false,
+          "order": 1,
+          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
+          "png_width": 2000,
+          "png_height": 392
+        },
+        {
+          "key": "figma-better-black",
+          "label": "커뮤니티 수록 검정 · 시기 미확인",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "en",
+          "color": "black",
+          "light": false,
+          "files": {
+            "svg": "sources/figma-better-community-20261010/42cf9f69b6e1d3af92a3.svg",
+            "png": "sources/figma-better-community-20261010/272b9e36b79af285b588.png"
+          },
+          "provider": "사용자 제공 Better Logos Figma Community 수집본",
+          "origin": "community",
+          "official": false,
+          "order": 2,
+          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
+          "png_width": 2000,
+          "png_height": 392
+        }
+      ]
+    },
+    "rijksmuseum": {
+      "id": "rijksmuseum",
+      "schema": 1,
+      "algo_v": 1,
+      "primary": null,
+      "variants": [
+        {
+          "key": "figma-better-original",
+          "label": "커뮤니티 수록 원색 · 시기 미확인",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "en",
+          "color": "original",
+          "light": false,
+          "files": {
+            "svg": "sources/figma-better-community-20261010/2bc8c076a14cf49ff360.svg",
+            "png": "sources/figma-better-community-20261010/a42cf7b4eedc6ed0ce94.png"
+          },
+          "provider": "사용자 제공 Better Logos Figma Community 수집본",
+          "origin": "community",
+          "official": false,
+          "order": 0,
+          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
+          "png_width": 2000,
+          "png_height": 236
+        },
+        {
+          "key": "figma-better-white",
+          "label": "커뮤니티 수록 흰색 · 시기 미확인",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "en",
+          "color": "white",
+          "light": true,
+          "files": {
+            "svg": "sources/figma-better-community-20261010/e23d97b732a7f3147449.svg",
+            "png": "sources/figma-better-community-20261010/b834835aa86fe5941c7f.png"
+          },
+          "provider": "사용자 제공 Better Logos Figma Community 수집본",
+          "origin": "community",
+          "official": false,
+          "order": 1,
+          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
+          "png_width": 2000,
+          "png_height": 236
+        },
+        {
+          "key": "figma-better-black",
+          "label": "커뮤니티 수록 검정 · 시기 미확인",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "en",
+          "color": "black",
+          "light": false,
+          "files": {
+            "svg": "sources/figma-better-community-20261010/b377aee4f27b048b0a2c.svg",
+            "png": "sources/figma-better-community-20261010/f3077ba9e03535b0efe7.png"
+          },
+          "provider": "사용자 제공 Better Logos Figma Community 수집본",
+          "origin": "community",
+          "official": false,
+          "order": 2,
+          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
+          "png_width": 2000,
+          "png_height": 236
+        }
+      ]
+    },
+    "producthunt": {
+      "id": "producthunt",
+      "schema": 1,
+      "algo_v": 1,
+      "primary": null,
+      "variants": [
+        {
+          "key": "figma-better-original",
+          "label": "커뮤니티 수록 원색 · 시기 미확인",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "en",
+          "color": "original",
+          "light": false,
+          "files": {
+            "svg": "sources/figma-better-community-20261010/ab91359b08e0c91043b7.svg",
+            "png": "sources/figma-better-community-20261010/3e42d7f1780bd1a3e303.png"
+          },
+          "provider": "사용자 제공 Better Logos Figma Community 수집본",
+          "origin": "community",
+          "official": false,
+          "order": 0,
+          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
+          "png_width": 2000,
+          "png_height": 468
+        },
+        {
+          "key": "figma-better-white",
+          "label": "커뮤니티 수록 흰색 · 시기 미확인",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "en",
+          "color": "white",
+          "light": true,
+          "files": {
+            "svg": "sources/figma-better-community-20261010/829ce0fcf22acc8a0cdd.svg",
+            "png": "sources/figma-better-community-20261010/003f8136a54906339779.png"
+          },
+          "provider": "사용자 제공 Better Logos Figma Community 수집본",
+          "origin": "community",
+          "official": false,
+          "order": 1,
+          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
+          "png_width": 2000,
+          "png_height": 468
+        },
+        {
+          "key": "figma-better-black",
+          "label": "커뮤니티 수록 검정 · 시기 미확인",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "en",
+          "color": "black",
+          "light": false,
+          "files": {
+            "svg": "sources/figma-better-community-20261010/dbd8c033d96b3f3a0d96.svg",
+            "png": "sources/figma-better-community-20261010/3050b7bb16e4dc477f45.png"
+          },
+          "provider": "사용자 제공 Better Logos Figma Community 수집본",
+          "origin": "community",
+          "official": false,
+          "order": 2,
+          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
+          "png_width": 2000,
+          "png_height": 468
+        }
+      ]
+    },
+    "planned-parenthood": {
+      "id": "planned-parenthood",
+      "schema": 1,
+      "algo_v": 1,
+      "primary": null,
+      "variants": [
+        {
+          "key": "figma-better-original",
+          "label": "커뮤니티 수록 원색 · 시기 미확인",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "en",
+          "color": "original",
+          "light": false,
+          "files": {
+            "svg": "sources/figma-better-community-20261010/aa2de0204473f4cfba7c.svg",
+            "png": "sources/figma-better-community-20261010/c11986f0bd2e4f0653ad.png"
+          },
+          "provider": "사용자 제공 Better Logos Figma Community 수집본",
+          "origin": "community",
+          "official": false,
+          "order": 0,
+          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
+          "png_width": 2000,
+          "png_height": 251
+        },
+        {
+          "key": "figma-better-white",
+          "label": "커뮤니티 수록 흰색 · 시기 미확인",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "en",
+          "color": "white",
+          "light": true,
+          "files": {
+            "svg": "sources/figma-better-community-20261010/196cdd190d3c8d2c285a.svg",
+            "png": "sources/figma-better-community-20261010/4ceb31ac34fd01345e24.png"
+          },
+          "provider": "사용자 제공 Better Logos Figma Community 수집본",
+          "origin": "community",
+          "official": false,
+          "order": 1,
+          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
+          "png_width": 2000,
+          "png_height": 251
+        },
+        {
+          "key": "figma-better-black",
+          "label": "커뮤니티 수록 검정 · 시기 미확인",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "en",
+          "color": "black",
+          "light": false,
+          "files": {
+            "svg": "sources/figma-better-community-20261010/212ea3bdb2a433196222.svg",
+            "png": "sources/figma-better-community-20261010/ff209f073b442331754d.png"
+          },
+          "provider": "사용자 제공 Better Logos Figma Community 수집본",
+          "origin": "community",
+          "official": false,
+          "order": 2,
+          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
+          "png_width": 2000,
+          "png_height": 251
+        }
+      ]
+    },
+    "one-medical": {
+      "id": "one-medical",
+      "schema": 1,
+      "algo_v": 1,
+      "primary": null,
+      "variants": [
+        {
+          "key": "figma-better-black",
+          "label": "커뮤니티 수록 검정 · 시기 미확인",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "en",
+          "color": "black",
+          "light": false,
+          "files": {
+            "svg": "sources/figma-better-community-20261010/f33e4e7d131c50c7ab5a.svg",
+            "png": "sources/figma-better-community-20261010/f432c4350e63c0fc12a5.png"
+          },
+          "provider": "사용자 제공 Better Logos Figma Community 수집본",
+          "origin": "community",
+          "official": false,
+          "order": 0,
+          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
+          "png_width": 2000,
+          "png_height": 250
+        }
+      ]
+    },
+    "miro": {
+      "id": "miro",
+      "algo_v": 1,
+      "schema": 1,
+      "primary": "horizontal",
+      "variants": [
+        {
+          "key": "horizontal",
+          "alts": [
+            {
+              "file": "sources/iconify/miro.svg",
+              "provider": "iconify"
+            },
+            {
+              "file": "sources/wvl/miro.svg",
+              "provider": "wvl"
+            }
+          ],
+          "form": "horizontal",
+          "lang": "en",
+          "color": "color",
+          "files": {
+            "png": "logo-800.png",
+            "svg": "logo.svg"
+          },
+          "label": "가로조합형",
+          "order": 10,
+          "aspect": 2.738,
+          "origin": "collected",
+          "provider": "iconify"
+        },
+        {
+          "key": "symbol",
+          "alts": [
+            {
+              "file": "sources/wvl/miro-icon.svg",
+              "provider": "wvl"
+            },
+            {
+              "file": "sources/miro-icon.svg",
+              "provider": "merged"
+            }
+          ],
+          "form": "symbol",
+          "lang": "en",
+          "color": "color",
+          "files": {
+            "png": "sources/iconify/miro-icon.png",
+            "svg": "sources/iconify/miro-icon.svg"
+          },
+          "label": "심볼형",
+          "order": 30,
+          "aspect": 1,
           "origin": "collected",
           "provider": "iconify"
         },
@@ -497,15 +1174,15 @@
           "lang": "en",
           "color": "color",
           "files": {
-            "png": "sources/untitled-ui-community-20261010/7672f9d838dfb339.png",
-            "svg": "sources/untitled-ui-community-20261010/d7bd05063405d2ad.svg"
+            "png": "sources/untitled-ui-community-20261010/15a1d7bed1871d88.png",
+            "svg": "sources/untitled-ui-community-20261010/6507d4621646caa5.svg"
           },
           "label": "가로조합 · Untitled UI 커뮤니티 수록본",
           "order": 90,
-          "aspect": 5.999,
+          "aspect": 2.8021,
           "origin": "collected",
           "provider": "figma-community",
-          "preview_png": "sources/untitled-ui-community-20261010/221148db9e8dedb8.png",
+          "preview_png": "sources/untitled-ui-community-20261010/50d2b5d80221c98c.png",
           "source_note": "사용자 제공 Untitled UI (Community) 내보내기. 공식 브랜드 배포 파일이 아닌 커뮤니티 수록본. 원본 벡터 경로를 보존하여 추출.",
           "source_archive_url": "https://logo.vibers.co.kr/_clients/active-campaign/sources/untitled-ui-community-20261010/c3a00071febe9f83.zip",
           "official_distribution": false
@@ -519,138 +1196,8 @@
           "color": "original",
           "light": false,
           "files": {
-            "svg": "sources/figma-better-community-20261010/7f9d3dd33c4f8af67eef.svg",
-            "png": "sources/figma-better-community-20261010/0659962da275c268c619.png"
-          },
-          "provider": "사용자 제공 Better Logos Figma Community 수집본",
-          "origin": "community",
-          "official": false,
-          "order": 4,
-          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
-          "png_width": 2000,
-          "png_height": 503
-        },
-        {
-          "key": "figma-better-white",
-          "label": "커뮤니티 수록 흰색 · 시기 미확인",
-          "form": "horizontal",
-          "lockup": "horizontal",
-          "lang": "en",
-          "color": "white",
-          "light": true,
-          "files": {
-            "svg": "sources/figma-better-community-20261010/638e4de776510824e4f6.svg",
-            "png": "sources/figma-better-community-20261010/5e2cf9e0a7ded041dfbf.png"
-          },
-          "provider": "사용자 제공 Better Logos Figma Community 수집본",
-          "origin": "community",
-          "official": false,
-          "order": 5,
-          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
-          "png_width": 2000,
-          "png_height": 503
-        },
-        {
-          "key": "figma-better-black",
-          "label": "커뮤니티 수록 검정 · 시기 미확인",
-          "form": "horizontal",
-          "lockup": "horizontal",
-          "lang": "en",
-          "color": "black",
-          "light": false,
-          "files": {
-            "svg": "sources/figma-better-community-20261010/506694a74f40ece208f2.svg",
-            "png": "sources/figma-better-community-20261010/471a271bf603059c934c.png"
-          },
-          "provider": "사용자 제공 Better Logos Figma Community 수집본",
-          "origin": "community",
-          "official": false,
-          "order": 6,
-          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
-          "png_width": 2000,
-          "png_height": 503
-        }
-      ],
-      "fingerprint": {
-        "logo.svg": "74c13bf1cd27d884",
-        "sources/wvl/webflow.svg": "3a568204631106c0",
-        "sources/svgl/webflow.svg": "53248fb4b45eb1da",
-        "sources/iconify/webflow.svg": "74c13bf1cd27d884",
-        "sources/devicons/webflow-original.svg": "382cffee9a38bade"
-      }
-    },
-    "walgreens": {
-      "id": "walgreens",
-      "algo_v": 1,
-      "schema": 1,
-      "primary": "reviewed",
-      "variants": [
-        {
-          "key": "reviewed",
-          "form": "unknown",
-          "lang": "unknown",
-          "color": "original",
-          "files": {
-            "png": "sources/reviewed-background-merge-20261008/da9fe96f2c4b52c0.png",
-            "svg": "sources/reviewed-background-merge-20261008/da9fe96f2c4b52c0.svg"
-          },
-          "label": "투명 배경 로고",
-          "light": false,
-          "order": 0,
-          "origin": "derived",
-          "provider": "보유 원본 · 배경과 흰색 도형 검수"
-        },
-        {
-          "key": "figma-better-original",
-          "label": "커뮤니티 수록 원색 · 시기 미확인",
-          "form": "horizontal",
-          "lockup": "horizontal",
-          "lang": "en",
-          "color": "original",
-          "light": false,
-          "files": {
-            "svg": "sources/figma-better-community-20261010/e3253552311298fadd12.svg",
-            "png": "sources/figma-better-community-20261010/e5de0edf86bb6053302d.png"
-          },
-          "provider": "사용자 제공 Better Logos Figma Community 수집본",
-          "origin": "community",
-          "official": false,
-          "order": 1,
-          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
-          "png_width": 2000,
-          "png_height": 414
-        },
-        {
-          "key": "figma-better-white",
-          "label": "커뮤니티 수록 흰색 · 시기 미확인",
-          "form": "horizontal",
-          "lockup": "horizontal",
-          "lang": "en",
-          "color": "white",
-          "light": true,
-          "files": {
-            "svg": "sources/figma-better-community-20261010/3d6dbafa378089a9b8d2.svg",
-            "png": "sources/figma-better-community-20261010/7aba2e56e4d60c78272e.png"
-          },
-          "provider": "사용자 제공 Better Logos Figma Community 수집본",
-          "origin": "community",
-          "official": false,
-          "order": 2,
-          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
-          "png_width": 2000,
-          "png_height": 414
-        },
-        {
-          "key": "figma-better-black",
-          "label": "커뮤니티 수록 검정 · 시기 미확인",
-          "form": "horizontal",
-          "lockup": "horizontal",
-          "lang": "en",
-          "color": "black",
-          "light": false,
-          "files": {
-            "svg": "sources/figma-better-community-20261010/8c8bac73a5443704cfbb.svg",
-            "png": "sources/figma-better-community-20261010/b01220fc5cb6af1ede02.png"
+            "svg": "sources/figma-better-community-20261010/23e2f2dd7acdd5bb445f.svg",
+            "png": "sources/figma-better-community-20261010/864e960d7f2dcc937044.png"
           },
           "provider": "사용자 제공 Better Logos Figma Community 수집본",
           "origin": "community",
@@ -658,63 +1205,7 @@
           "order": 3,
           "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
           "png_width": 2000,
-          "png_height": 414
-        }
-      ]
-    },
-    "verizon": {
-      "id": "verizon",
-      "schema": 1,
-      "algo_v": 1,
-      "primary": null,
-      "variants": [
-        {
-          "key": "figma-better-original",
-          "label": "커뮤니티 수록 원색 · 시기 미확인",
-          "form": "horizontal",
-          "lockup": "horizontal",
-          "lang": "en",
-          "color": "original",
-          "light": false,
-          "files": {
-            "svg": "sources/figma-better-community-20261010/be1fe6b55e2db8b11057.svg",
-            "png": "sources/figma-better-community-20261010/6413e52bc6529bafad44.png"
-          },
-          "provider": "사용자 제공 Better Logos Figma Community 수집본",
-          "origin": "community",
-          "official": false,
-          "order": 0,
-          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
-          "png_width": 2000,
-          "png_height": 443
-        }
-      ]
-    },
-    "the-verge": {
-      "id": "the-verge",
-      "schema": 1,
-      "algo_v": 1,
-      "primary": null,
-      "variants": [
-        {
-          "key": "figma-better-original",
-          "label": "커뮤니티 수록 원색 · 시기 미확인",
-          "form": "horizontal",
-          "lockup": "horizontal",
-          "lang": "en",
-          "color": "original",
-          "light": false,
-          "files": {
-            "svg": "sources/figma-better-community-20261010/27da68118b4f579241bc.svg",
-            "png": "sources/figma-better-community-20261010/a587274d75c74082946b.png"
-          },
-          "provider": "사용자 제공 Better Logos Figma Community 수집본",
-          "origin": "community",
-          "official": false,
-          "order": 0,
-          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
-          "png_width": 2000,
-          "png_height": 339
+          "png_height": 721
         },
         {
           "key": "figma-better-white",
@@ -725,16 +1216,16 @@
           "color": "white",
           "light": true,
           "files": {
-            "svg": "sources/figma-better-community-20261010/e560dabaf7b25e8e6370.svg",
-            "png": "sources/figma-better-community-20261010/fde0aeb2539afbdbb52e.png"
+            "svg": "sources/figma-better-community-20261010/af0fb424f3edade90d36.svg",
+            "png": "sources/figma-better-community-20261010/7cea703c0d4e4bbac65c.png"
           },
           "provider": "사용자 제공 Better Logos Figma Community 수집본",
           "origin": "community",
           "official": false,
-          "order": 1,
+          "order": 4,
           "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
           "png_width": 2000,
-          "png_height": 339
+          "png_height": 721
         },
         {
           "key": "figma-better-black",
@@ -745,49 +1236,29 @@
           "color": "black",
           "light": false,
           "files": {
-            "svg": "sources/figma-better-community-20261010/993e67171e79fb30e102.svg",
-            "png": "sources/figma-better-community-20261010/cb9cb450ed2fd592a3db.png"
+            "svg": "sources/figma-better-community-20261010/0bc512408811af84c185.svg",
+            "png": "sources/figma-better-community-20261010/346c95638276e972c030.png"
           },
           "provider": "사용자 제공 Better Logos Figma Community 수집본",
           "origin": "community",
           "official": false,
-          "order": 2,
+          "order": 5,
           "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
           "png_width": 2000,
-          "png_height": 339
+          "png_height": 721
         }
-      ]
+      ],
+      "fingerprint": {
+        "logo.svg": "ed7987127a4002ae",
+        "sources/wvl/miro.svg": "81dda5c2eed08a62",
+        "sources/miro-icon.svg": "ca1dde42ffb6eefa",
+        "sources/iconify/miro.svg": "ed7987127a4002ae",
+        "sources/wvl/miro-icon.svg": "ca1dde42ffb6eefa",
+        "sources/iconify/miro-icon.svg": "04651f822779cfda"
+      }
     },
-    "the-new-york-times": {
-      "id": "the-new-york-times",
-      "schema": 1,
-      "algo_v": 1,
-      "primary": null,
-      "variants": [
-        {
-          "key": "figma-better-black",
-          "label": "커뮤니티 수록 검정 · 시기 미확인",
-          "form": "horizontal",
-          "lockup": "horizontal",
-          "lang": "en",
-          "color": "black",
-          "light": false,
-          "files": {
-            "svg": "sources/figma-better-community-20261010/448cbef77f9c6a986cbb.svg",
-            "png": "sources/figma-better-community-20261010/ff043d3b5878d3a58154.png"
-          },
-          "provider": "사용자 제공 Better Logos Figma Community 수집본",
-          "origin": "community",
-          "official": false,
-          "order": 0,
-          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
-          "png_width": 2000,
-          "png_height": 263
-        }
-      ]
-    },
-    "target": {
-      "id": "target",
+    "michigan-state-university": {
+      "id": "michigan-state-university",
       "schema": 1,
       "algo_v": 1,
       "primary": null,
@@ -801,16 +1272,16 @@
           "color": "original",
           "light": false,
           "files": {
-            "svg": "sources/figma-better-community-20261010/d236f55fca8120901565.svg",
-            "png": "sources/figma-better-community-20261010/743e594e3ec97a8857ee.png"
+            "svg": "sources/figma-better-community-20261010/dfd27f6002a560dd7b27.svg",
+            "png": "sources/figma-better-community-20261010/48c466ecb37f172bec9b.png"
           },
           "provider": "사용자 제공 Better Logos Figma Community 수집본",
           "origin": "community",
           "official": false,
           "order": 0,
           "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
-          "png_width": 1583,
-          "png_height": 2016
+          "png_width": 2000,
+          "png_height": 223
         },
         {
           "key": "figma-better-white",
@@ -821,16 +1292,16 @@
           "color": "white",
           "light": true,
           "files": {
-            "svg": "sources/figma-better-community-20261010/d779888899aa1f3934f2.svg",
-            "png": "sources/figma-better-community-20261010/c26145ed30892cb9c867.png"
+            "svg": "sources/figma-better-community-20261010/98319f718520abaac290.svg",
+            "png": "sources/figma-better-community-20261010/0122f919bfc11ad3fb0d.png"
           },
           "provider": "사용자 제공 Better Logos Figma Community 수집본",
           "origin": "community",
           "official": false,
           "order": 1,
           "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
-          "png_width": 1583,
-          "png_height": 2016
+          "png_width": 2000,
+          "png_height": 223
         },
         {
           "key": "figma-better-black",
@@ -841,21 +1312,49 @@
           "color": "black",
           "light": false,
           "files": {
-            "svg": "sources/figma-better-community-20261010/912052943655942b5d9e.svg",
-            "png": "sources/figma-better-community-20261010/b162c82d96671bd95836.png"
+            "svg": "sources/figma-better-community-20261010/f358455f3123b06cc9c8.svg",
+            "png": "sources/figma-better-community-20261010/a91c15e4e36bb7d6d0c6.png"
           },
           "provider": "사용자 제공 Better Logos Figma Community 수집본",
           "origin": "community",
           "official": false,
           "order": 2,
           "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
-          "png_width": 1583,
-          "png_height": 2016
+          "png_width": 2000,
+          "png_height": 223
         }
       ]
     },
-    "square": {
-      "id": "square",
+    "mendix": {
+      "id": "mendix",
+      "schema": 1,
+      "algo_v": 1,
+      "primary": null,
+      "variants": [
+        {
+          "key": "figma-better-white",
+          "label": "커뮤니티 수록 흰색 · 시기 미확인",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "en",
+          "color": "white",
+          "light": true,
+          "files": {
+            "svg": "sources/figma-better-community-20261010/0ed7b4f3b43947327db3.svg",
+            "png": "sources/figma-better-community-20261010/be1e08b5d9283f89615a.png"
+          },
+          "provider": "사용자 제공 Better Logos Figma Community 수집본",
+          "origin": "community",
+          "official": false,
+          "order": 0,
+          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
+          "png_width": 2000,
+          "png_height": 620
+        }
+      ]
+    },
+    "mailerlite": {
+      "id": "mailerlite",
       "schema": 1,
       "algo_v": 1,
       "primary": null,
@@ -869,8 +1368,8 @@
           "color": "original",
           "light": false,
           "files": {
-            "svg": "sources/figma-better-community-20261010/8a646567aac291d65a14.svg",
-            "png": "sources/figma-better-community-20261010/607b053c94145db69371.png"
+            "svg": "sources/figma-better-community-20261010/feb667b537dc3ead4fa5.svg",
+            "png": "sources/figma-better-community-20261010/e31f88ba1474d20db39a.png"
           },
           "provider": "사용자 제공 Better Logos Figma Community 수집본",
           "origin": "community",
@@ -878,7 +1377,627 @@
           "order": 0,
           "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
           "png_width": 2000,
-          "png_height": 501
+          "png_height": 503
+        },
+        {
+          "key": "figma-better-white",
+          "label": "커뮤니티 수록 흰색 · 시기 미확인",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "en",
+          "color": "white",
+          "light": true,
+          "files": {
+            "svg": "sources/figma-better-community-20261010/4ddceec986ca3807399d.svg",
+            "png": "sources/figma-better-community-20261010/4fb5a15e0c8d81985a04.png"
+          },
+          "provider": "사용자 제공 Better Logos Figma Community 수집본",
+          "origin": "community",
+          "official": false,
+          "order": 1,
+          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
+          "png_width": 2000,
+          "png_height": 503
+        },
+        {
+          "key": "figma-better-black",
+          "label": "커뮤니티 수록 검정 · 시기 미확인",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "en",
+          "color": "black",
+          "light": false,
+          "files": {
+            "svg": "sources/figma-better-community-20261010/d4860b8b1d84c3ac0a74.svg",
+            "png": "sources/figma-better-community-20261010/b1050e9e9fd21bce765c.png"
+          },
+          "provider": "사용자 제공 Better Logos Figma Community 수집본",
+          "origin": "community",
+          "official": false,
+          "order": 2,
+          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
+          "png_width": 2000,
+          "png_height": 503
+        }
+      ]
+    },
+    "loom": {
+      "id": "loom",
+      "algo_v": 1,
+      "schema": 1,
+      "primary": "wordmark",
+      "variants": [
+        {
+          "key": "symbol",
+          "alts": [
+            {
+              "file": "sources/wvl/loom-icon.svg",
+              "provider": "wvl"
+            },
+            {
+              "file": "sources/loom-icon.svg",
+              "provider": "merged"
+            }
+          ],
+          "form": "symbol",
+          "lang": "en",
+          "color": "color",
+          "files": {
+            "png": "sources/iconify/loom-icon.png",
+            "svg": "sources/iconify/loom-icon.svg"
+          },
+          "label": "심볼형",
+          "order": 30,
+          "aspect": 1,
+          "origin": "collected",
+          "provider": "iconify"
+        },
+        {
+          "key": "wordmark",
+          "alts": [
+            {
+              "file": "sources/iconify/loom.svg",
+              "provider": "iconify"
+            },
+            {
+              "file": "sources/wvl/loom.svg",
+              "provider": "wvl"
+            }
+          ],
+          "form": "wordmark",
+          "lang": "en",
+          "color": "color",
+          "files": {
+            "png": "logo-800.png",
+            "svg": "logo.svg"
+          },
+          "label": "워드마크형",
+          "order": 40,
+          "aspect": 3.314,
+          "origin": "collected",
+          "provider": "iconify"
+        },
+        {
+          "key": "untitled-ui-community-lockup",
+          "form": "horizontal",
+          "lang": "en",
+          "color": "color",
+          "files": {
+            "png": "sources/untitled-ui-community-20261010/bfc95c8b6d1afebb.png",
+            "svg": "sources/untitled-ui-community-20261010/983d5460a0e8129d.svg"
+          },
+          "label": "가로조합 · Untitled UI 커뮤니티 수록본",
+          "order": 90,
+          "aspect": 3.3328,
+          "origin": "collected",
+          "provider": "figma-community",
+          "preview_png": "sources/untitled-ui-community-20261010/7beb869455d17107.png",
+          "source_note": "사용자 제공 Untitled UI (Community) 내보내기. 공식 브랜드 배포 파일이 아닌 커뮤니티 수록본. 원본 벡터 경로를 보존하여 추출.",
+          "source_archive_url": "https://logo.vibers.co.kr/_clients/active-campaign/sources/untitled-ui-community-20261010/c3a00071febe9f83.zip",
+          "official_distribution": false
+        },
+        {
+          "key": "figma-better-original",
+          "label": "커뮤니티 수록 원색 · 시기 미확인",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "en",
+          "color": "original",
+          "light": false,
+          "files": {
+            "svg": "sources/figma-better-community-20261010/48ea5854c2aafb42831f.svg",
+            "png": "sources/figma-better-community-20261010/9954c9f6f70ebffbd08c.png"
+          },
+          "provider": "사용자 제공 Better Logos Figma Community 수집본",
+          "origin": "community",
+          "official": false,
+          "order": 3,
+          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
+          "png_width": 2000,
+          "png_height": 603
+        },
+        {
+          "key": "figma-better-white",
+          "label": "커뮤니티 수록 흰색 · 시기 미확인",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "en",
+          "color": "white",
+          "light": true,
+          "files": {
+            "svg": "sources/figma-better-community-20261010/833edcfe6adff5e6d123.svg",
+            "png": "sources/figma-better-community-20261010/ce7650421b35e48d6563.png"
+          },
+          "provider": "사용자 제공 Better Logos Figma Community 수집본",
+          "origin": "community",
+          "official": false,
+          "order": 4,
+          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
+          "png_width": 2000,
+          "png_height": 603
+        },
+        {
+          "key": "figma-better-black",
+          "label": "커뮤니티 수록 검정 · 시기 미확인",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "en",
+          "color": "black",
+          "light": false,
+          "files": {
+            "svg": "sources/figma-better-community-20261010/2e596705182a427783d0.svg",
+            "png": "sources/figma-better-community-20261010/da8bf60e018b2ccbcb5e.png"
+          },
+          "provider": "사용자 제공 Better Logos Figma Community 수집본",
+          "origin": "community",
+          "official": false,
+          "order": 5,
+          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
+          "png_width": 2000,
+          "png_height": 603
+        }
+      ],
+      "fingerprint": {
+        "logo.svg": "647b254dc54eaae6",
+        "sources/wvl/loom.svg": "8788990f0c8586d6",
+        "sources/loom-icon.svg": "b1c884a3be8e9cf5",
+        "sources/iconify/loom.svg": "647b254dc54eaae6",
+        "sources/wvl/loom-icon.svg": "b1c884a3be8e9cf5",
+        "sources/iconify/loom-icon.svg": "efc6280f9156fd39"
+      }
+    },
+    "intercom": {
+      "id": "intercom",
+      "schema": 1,
+      "algo_v": 1,
+      "primary": null,
+      "variants": [
+        {
+          "key": "figma-better-original",
+          "label": "커뮤니티 수록 원색 · 시기 미확인",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "en",
+          "color": "original",
+          "light": false,
+          "files": {
+            "svg": "sources/figma-better-community-20261010/f47f2d633ca2a84f2b49.svg",
+            "png": "sources/figma-better-community-20261010/cd55faf645af48965a5f.png"
+          },
+          "provider": "사용자 제공 Better Logos Figma Community 수집본",
+          "origin": "community",
+          "official": false,
+          "order": 0,
+          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
+          "png_width": 2000,
+          "png_height": 492
+        },
+        {
+          "key": "figma-better-white",
+          "label": "커뮤니티 수록 흰색 · 시기 미확인",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "en",
+          "color": "white",
+          "light": true,
+          "files": {
+            "svg": "sources/figma-better-community-20261010/f49eb496841292b79fc0.svg",
+            "png": "sources/figma-better-community-20261010/12631d85afc8f29dc71d.png"
+          },
+          "provider": "사용자 제공 Better Logos Figma Community 수집본",
+          "origin": "community",
+          "official": false,
+          "order": 1,
+          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
+          "png_width": 2000,
+          "png_height": 492
+        }
+      ]
+    },
+    "instagram": {
+      "id": "instagram",
+      "schema": 1,
+      "algo_v": 1,
+      "primary": null,
+      "variants": [
+        {
+          "key": "figma-better-original",
+          "label": "커뮤니티 수록 원색 · 시기 미확인",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "en",
+          "color": "original",
+          "light": false,
+          "files": {
+            "svg": "sources/figma-better-community-20261010/3d07aacfabfeefa0d023.svg",
+            "png": "sources/figma-better-community-20261010/58e27ddf33c7ff88ca2d.png"
+          },
+          "provider": "사용자 제공 Better Logos Figma Community 수집본",
+          "origin": "community",
+          "official": false,
+          "order": 0,
+          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
+          "png_width": 2000,
+          "png_height": 567
+        },
+        {
+          "key": "figma-better-white",
+          "label": "커뮤니티 수록 흰색 · 시기 미확인",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "en",
+          "color": "white",
+          "light": true,
+          "files": {
+            "svg": "sources/figma-better-community-20261010/af9ee8b83858f21f1969.svg",
+            "png": "sources/figma-better-community-20261010/aad4f554a02ea1d60f7d.png"
+          },
+          "provider": "사용자 제공 Better Logos Figma Community 수집본",
+          "origin": "community",
+          "official": false,
+          "order": 1,
+          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
+          "png_width": 2000,
+          "png_height": 567
+        },
+        {
+          "key": "figma-better-black",
+          "label": "커뮤니티 수록 검정 · 시기 미확인",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "en",
+          "color": "black",
+          "light": false,
+          "files": {
+            "svg": "sources/figma-better-community-20261010/acf9f04d78652b389292.svg",
+            "png": "sources/figma-better-community-20261010/e13b818aace619f16064.png"
+          },
+          "provider": "사용자 제공 Better Logos Figma Community 수집본",
+          "origin": "community",
+          "official": false,
+          "order": 2,
+          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
+          "png_width": 2000,
+          "png_height": 567
+        }
+      ]
+    },
+    "indiehackers": {
+      "id": "indiehackers",
+      "schema": 1,
+      "algo_v": 1,
+      "primary": null,
+      "variants": [
+        {
+          "key": "figma-better-original",
+          "label": "커뮤니티 수록 원색 · 시기 미확인",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "en",
+          "color": "original",
+          "light": true,
+          "files": {
+            "svg": "sources/figma-better-community-20261010/541a1b13e1dac1603172.svg",
+            "png": "sources/figma-better-community-20261010/b16d55c8a442e02c0167.png"
+          },
+          "provider": "사용자 제공 Better Logos Figma Community 수집본",
+          "origin": "community",
+          "official": false,
+          "order": 0,
+          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
+          "png_width": 2000,
+          "png_height": 329
+        },
+        {
+          "key": "figma-better-white",
+          "label": "커뮤니티 수록 흰색 · 시기 미확인",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "en",
+          "color": "white",
+          "light": true,
+          "files": {
+            "svg": "sources/figma-better-community-20261010/12480b4a2ae6dc27da97.svg",
+            "png": "sources/figma-better-community-20261010/559c6e94b7e01ac6ee01.png"
+          },
+          "provider": "사용자 제공 Better Logos Figma Community 수집본",
+          "origin": "community",
+          "official": false,
+          "order": 1,
+          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
+          "png_width": 2000,
+          "png_height": 329
+        },
+        {
+          "key": "figma-better-black",
+          "label": "커뮤니티 수록 검정 · 시기 미확인",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "en",
+          "color": "black",
+          "light": false,
+          "files": {
+            "svg": "sources/figma-better-community-20261010/13e74323bcd9c7232b90.svg",
+            "png": "sources/figma-better-community-20261010/430c271d82a5f77370bf.png"
+          },
+          "provider": "사용자 제공 Better Logos Figma Community 수집본",
+          "origin": "community",
+          "official": false,
+          "order": 2,
+          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
+          "png_width": 2000,
+          "png_height": 329
+        }
+      ]
+    },
+    "hims": {
+      "id": "hims",
+      "schema": 1,
+      "algo_v": 1,
+      "primary": null,
+      "variants": [
+        {
+          "key": "figma-better-original",
+          "label": "커뮤니티 수록 원색 · 시기 미확인",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "en",
+          "color": "original",
+          "light": false,
+          "files": {
+            "svg": "sources/figma-better-community-20261010/e3c1889842f609a07f3a.svg",
+            "png": "sources/figma-better-community-20261010/3a27aed8e8de5bb81149.png"
+          },
+          "provider": "사용자 제공 Better Logos Figma Community 수집본",
+          "origin": "community",
+          "official": false,
+          "order": 0,
+          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
+          "png_width": 2000,
+          "png_height": 686
+        },
+        {
+          "key": "figma-better-white",
+          "label": "커뮤니티 수록 흰색 · 시기 미확인",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "en",
+          "color": "white",
+          "light": true,
+          "files": {
+            "svg": "sources/figma-better-community-20261010/1a7eb12e7f66904c7a43.svg",
+            "png": "sources/figma-better-community-20261010/d89e4ab11d4e4f27963d.png"
+          },
+          "provider": "사용자 제공 Better Logos Figma Community 수집본",
+          "origin": "community",
+          "official": false,
+          "order": 1,
+          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
+          "png_width": 2000,
+          "png_height": 686
+        },
+        {
+          "key": "figma-better-black",
+          "label": "커뮤니티 수록 검정 · 시기 미확인",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "en",
+          "color": "black",
+          "light": false,
+          "files": {
+            "svg": "sources/figma-better-community-20261010/bb4414a67a64dc93bebe.svg",
+            "png": "sources/figma-better-community-20261010/9970ad5f7b0fc060c22d.png"
+          },
+          "provider": "사용자 제공 Better Logos Figma Community 수집본",
+          "origin": "community",
+          "official": false,
+          "order": 2,
+          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
+          "png_width": 2000,
+          "png_height": 686
+        }
+      ]
+    },
+    "harvard": {
+      "id": "harvard",
+      "schema": 1,
+      "algo_v": 1,
+      "primary": null,
+      "variants": [
+        {
+          "key": "figma-better-original",
+          "label": "커뮤니티 수록 원색 · 시기 미확인",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "en",
+          "color": "original",
+          "light": false,
+          "files": {
+            "svg": "sources/figma-better-community-20261010/44366a64f41588bd066e.svg",
+            "png": "sources/figma-better-community-20261010/eb5c985d6ecae2231338.png"
+          },
+          "provider": "사용자 제공 Better Logos Figma Community 수집본",
+          "origin": "community",
+          "official": false,
+          "order": 0,
+          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
+          "png_width": 2000,
+          "png_height": 499
+        },
+        {
+          "key": "figma-better-white",
+          "label": "커뮤니티 수록 흰색 · 시기 미확인",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "en",
+          "color": "white",
+          "light": true,
+          "files": {
+            "svg": "sources/figma-better-community-20261010/7ec99715e5bbf96afd9b.svg",
+            "png": "sources/figma-better-community-20261010/adcb75c8cd22a71590c1.png"
+          },
+          "provider": "사용자 제공 Better Logos Figma Community 수집본",
+          "origin": "community",
+          "official": false,
+          "order": 1,
+          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
+          "png_width": 2000,
+          "png_height": 499
+        },
+        {
+          "key": "figma-better-black",
+          "label": "커뮤니티 수록 검정 · 시기 미확인 · PNG 원본",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "en",
+          "color": "black",
+          "light": false,
+          "files": {
+            "png": "sources/figma-better-community-20261010/44eb53b405ef3d7079ba.png"
+          },
+          "provider": "사용자 제공 Better Logos Figma Community 수집본",
+          "origin": "community",
+          "official": false,
+          "order": 2,
+          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
+          "png_width": 579,
+          "png_height": 145
+        }
+      ]
+    },
+    "greylock-partners": {
+      "id": "greylock-partners",
+      "schema": 1,
+      "algo_v": 1,
+      "primary": null,
+      "variants": [
+        {
+          "key": "figma-better-original",
+          "label": "커뮤니티 수록 원색 · 시기 미확인",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "en",
+          "color": "original",
+          "light": false,
+          "files": {
+            "svg": "sources/figma-better-community-20261010/55c24fcafd2844aa364c.svg",
+            "png": "sources/figma-better-community-20261010/36f93b8522d2ea2d4ed5.png"
+          },
+          "provider": "사용자 제공 Better Logos Figma Community 수집본",
+          "origin": "community",
+          "official": false,
+          "order": 0,
+          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
+          "png_width": 2000,
+          "png_height": 500
+        },
+        {
+          "key": "figma-better-white",
+          "label": "커뮤니티 수록 흰색 · 시기 미확인",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "en",
+          "color": "white",
+          "light": true,
+          "files": {
+            "svg": "sources/figma-better-community-20261010/01b9880978499053de48.svg",
+            "png": "sources/figma-better-community-20261010/a08c550ee026e89be998.png"
+          },
+          "provider": "사용자 제공 Better Logos Figma Community 수집본",
+          "origin": "community",
+          "official": false,
+          "order": 1,
+          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
+          "png_width": 2000,
+          "png_height": 500
+        },
+        {
+          "key": "figma-better-black",
+          "label": "커뮤니티 수록 검정 · 시기 미확인",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "en",
+          "color": "black",
+          "light": false,
+          "files": {
+            "svg": "sources/figma-better-community-20261010/b4f39f080c7d1a74b17b.svg",
+            "png": "sources/figma-better-community-20261010/e2821fe341547f604e57.png"
+          },
+          "provider": "사용자 제공 Better Logos Figma Community 수집본",
+          "origin": "community",
+          "official": false,
+          "order": 2,
+          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
+          "png_width": 2000,
+          "png_height": 500
+        }
+      ]
+    },
+    "general-catalyst": {
+      "id": "general-catalyst",
+      "schema": 1,
+      "algo_v": 1,
+      "primary": null,
+      "variants": [
+        {
+          "key": "figma-better-original",
+          "label": "커뮤니티 수록 원색 · 시기 미확인",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "en",
+          "color": "original",
+          "light": false,
+          "files": {
+            "svg": "sources/figma-better-community-20261010/ae74174658389fdeba06.svg",
+            "png": "sources/figma-better-community-20261010/72c97a695cb021e35bf2.png"
+          },
+          "provider": "사용자 제공 Better Logos Figma Community 수집본",
+          "origin": "community",
+          "official": false,
+          "order": 0,
+          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
+          "png_width": 2000,
+          "png_height": 270
+        },
+        {
+          "key": "figma-better-black",
+          "label": "커뮤니티 수록 검정 · 시기 미확인",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "en",
+          "color": "black",
+          "light": false,
+          "files": {
+            "svg": "sources/figma-better-community-20261010/72ade49a070571e5c294.svg",
+            "png": "sources/figma-better-community-20261010/b2dab7f5a67261994b05.png"
+          },
+          "provider": "사용자 제공 Better Logos Figma Community 수집본",
+          "origin": "community",
+          "official": false,
+          "order": 1,
+          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
+          "png_width": 2000,
+          "png_height": 270
         },
         {
           "key": "figma-better-white",
@@ -889,15 +2008,334 @@
           "color": "white",
           "light": true,
           "files": {
-            "png": "sources/figma-better-community-20261010/026167d77e8573f9117c.png"
+            "png": "sources/figma-better-community-20261010/cf9f2546422100970970.png"
+          },
+          "provider": "사용자 제공 Better Logos Figma Community 수집본",
+          "origin": "community",
+          "official": false,
+          "order": 2,
+          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
+          "png_width": 1067,
+          "png_height": 144
+        }
+      ]
+    },
+    "funding-circle": {
+      "id": "funding-circle",
+      "schema": 1,
+      "algo_v": 1,
+      "primary": null,
+      "variants": [
+        {
+          "key": "figma-better-original",
+          "label": "커뮤니티 수록 원색 · 시기 미확인",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "en",
+          "color": "original",
+          "light": false,
+          "files": {
+            "svg": "sources/figma-better-community-20261010/6454f349b88138d124a6.svg",
+            "png": "sources/figma-better-community-20261010/b9689b066ff3f59e778e.png"
+          },
+          "provider": "사용자 제공 Better Logos Figma Community 수집본",
+          "origin": "community",
+          "official": false,
+          "order": 0,
+          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
+          "png_width": 2000,
+          "png_height": 615
+        },
+        {
+          "key": "figma-better-white",
+          "label": "커뮤니티 수록 흰색 · 시기 미확인",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "en",
+          "color": "white",
+          "light": true,
+          "files": {
+            "svg": "sources/figma-better-community-20261010/150182a6085de4132e3a.svg",
+            "png": "sources/figma-better-community-20261010/32ce2c05ababd84ed5aa.png"
           },
           "provider": "사용자 제공 Better Logos Figma Community 수집본",
           "origin": "community",
           "official": false,
           "order": 1,
           "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
-          "png_width": 576,
+          "png_width": 2000,
+          "png_height": 615
+        },
+        {
+          "key": "figma-better-black",
+          "label": "커뮤니티 수록 검정 · 시기 미확인",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "en",
+          "color": "black",
+          "light": false,
+          "files": {
+            "svg": "sources/figma-better-community-20261010/1a5b19d2e48bbe6d55c5.svg",
+            "png": "sources/figma-better-community-20261010/70f04e1b8f0f43e0f49d.png"
+          },
+          "provider": "사용자 제공 Better Logos Figma Community 수집본",
+          "origin": "community",
+          "official": false,
+          "order": 2,
+          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
+          "png_width": 2000,
+          "png_height": 615
+        }
+      ]
+    },
+    "founders-fund": {
+      "id": "founders-fund",
+      "schema": 1,
+      "algo_v": 1,
+      "primary": null,
+      "variants": [
+        {
+          "key": "figma-better-original",
+          "label": "커뮤니티 수록 원색 · 시기 미확인",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "en",
+          "color": "original",
+          "light": true,
+          "files": {
+            "svg": "sources/figma-better-community-20261010/dfd6db4101c979eac770.svg",
+            "png": "sources/figma-better-community-20261010/fe1ea09adc24943c64b3.png"
+          },
+          "provider": "사용자 제공 Better Logos Figma Community 수집본",
+          "origin": "community",
+          "official": false,
+          "order": 0,
+          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
+          "png_width": 2000,
+          "png_height": 200
+        },
+        {
+          "key": "figma-better-black",
+          "label": "커뮤니티 수록 검정 · 시기 미확인",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "en",
+          "color": "black",
+          "light": false,
+          "files": {
+            "svg": "sources/figma-better-community-20261010/9f56f526a370edb7963a.svg",
+            "png": "sources/figma-better-community-20261010/19559419e52a7f85f8b5.png"
+          },
+          "provider": "사용자 제공 Better Logos Figma Community 수집본",
+          "origin": "community",
+          "official": false,
+          "order": 1,
+          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
+          "png_width": 2000,
+          "png_height": 210
+        },
+        {
+          "key": "figma-better-white",
+          "label": "커뮤니티 수록 흰색 · 시기 미확인 · PNG 원본",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "en",
+          "color": "white",
+          "light": true,
+          "files": {
+            "png": "sources/figma-better-community-20261010/0d370404d1839253080b.png"
+          },
+          "provider": "사용자 제공 Better Logos Figma Community 수집본",
+          "origin": "community",
+          "official": false,
+          "order": 2,
+          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
+          "png_width": 1442,
           "png_height": 144
+        }
+      ]
+    },
+    "dribbble": {
+      "id": "dribbble",
+      "schema": 1,
+      "algo_v": 1,
+      "primary": null,
+      "variants": [
+        {
+          "key": "figma-better-original",
+          "label": "커뮤니티 수록 원색 · 시기 미확인",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "en",
+          "color": "original",
+          "light": false,
+          "files": {
+            "svg": "sources/figma-better-community-20261010/c010d1d05abe607dbbfc.svg",
+            "png": "sources/figma-better-community-20261010/4124fd2b4d2cda42d8b9.png"
+          },
+          "provider": "사용자 제공 Better Logos Figma Community 수집본",
+          "origin": "community",
+          "official": false,
+          "order": 0,
+          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
+          "png_width": 2000,
+          "png_height": 489
+        },
+        {
+          "key": "figma-better-white",
+          "label": "커뮤니티 수록 흰색 · 시기 미확인",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "en",
+          "color": "white",
+          "light": true,
+          "files": {
+            "svg": "sources/figma-better-community-20261010/72eb66feb47af15da66f.svg",
+            "png": "sources/figma-better-community-20261010/f2bb035ab721ffafc691.png"
+          },
+          "provider": "사용자 제공 Better Logos Figma Community 수집본",
+          "origin": "community",
+          "official": false,
+          "order": 1,
+          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
+          "png_width": 2000,
+          "png_height": 489
+        },
+        {
+          "key": "figma-better-black",
+          "label": "커뮤니티 수록 검정 · 시기 미확인",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "en",
+          "color": "black",
+          "light": false,
+          "files": {
+            "svg": "sources/figma-better-community-20261010/4c2514ba6f85a444a2ee.svg",
+            "png": "sources/figma-better-community-20261010/49e2890b610840a31d02.png"
+          },
+          "provider": "사용자 제공 Better Logos Figma Community 수집본",
+          "origin": "community",
+          "official": false,
+          "order": 2,
+          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
+          "png_width": 2000,
+          "png_height": 489
+        }
+      ]
+    },
+    "dremio": {
+      "id": "dremio",
+      "schema": 1,
+      "algo_v": 1,
+      "primary": null,
+      "variants": [
+        {
+          "key": "figma-better-original",
+          "label": "커뮤니티 수록 원색 · 시기 미확인",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "en",
+          "color": "original",
+          "light": false,
+          "files": {
+            "svg": "sources/figma-better-community-20261010/08eb4a9d568087fc25eb.svg",
+            "png": "sources/figma-better-community-20261010/afebfc2938d4e1d57884.png"
+          },
+          "provider": "사용자 제공 Better Logos Figma Community 수집본",
+          "origin": "community",
+          "official": false,
+          "order": 0,
+          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
+          "png_width": 2000,
+          "png_height": 635
+        },
+        {
+          "key": "figma-better-white",
+          "label": "커뮤니티 수록 흰색 · 시기 미확인",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "en",
+          "color": "white",
+          "light": true,
+          "files": {
+            "svg": "sources/figma-better-community-20261010/083e691ebe2ad4c662e9.svg",
+            "png": "sources/figma-better-community-20261010/844d0171512ab8ef2398.png"
+          },
+          "provider": "사용자 제공 Better Logos Figma Community 수집본",
+          "origin": "community",
+          "official": false,
+          "order": 1,
+          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
+          "png_width": 2000,
+          "png_height": 635
+        },
+        {
+          "key": "figma-better-black",
+          "label": "커뮤니티 수록 검정 · 시기 미확인",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "en",
+          "color": "black",
+          "light": false,
+          "files": {
+            "svg": "sources/figma-better-community-20261010/cef18f119f949bf101bc.svg",
+            "png": "sources/figma-better-community-20261010/1cce06710c4def740ccc.png"
+          },
+          "provider": "사용자 제공 Better Logos Figma Community 수집본",
+          "origin": "community",
+          "official": false,
+          "order": 2,
+          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
+          "png_width": 2000,
+          "png_height": 635
+        }
+      ]
+    },
+    "discord": {
+      "id": "discord",
+      "schema": 1,
+      "algo_v": 1,
+      "primary": null,
+      "variants": [
+        {
+          "key": "figma-better-original",
+          "label": "커뮤니티 수록 원색 · 시기 미확인",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "en",
+          "color": "original",
+          "light": false,
+          "files": {
+            "svg": "sources/figma-better-community-20261010/da7d314f6eba43443367.svg",
+            "png": "sources/figma-better-community-20261010/336fd1766c9e964ef951.png"
+          },
+          "provider": "사용자 제공 Better Logos Figma Community 수집본",
+          "origin": "community",
+          "official": false,
+          "order": 0,
+          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
+          "png_width": 2000,
+          "png_height": 387
+        },
+        {
+          "key": "figma-better-white",
+          "label": "커뮤니티 수록 흰색 · 시기 미확인",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "en",
+          "color": "white",
+          "light": true,
+          "files": {
+            "svg": "sources/figma-better-community-20261010/28ff66768a49dcb3b388.svg",
+            "png": "sources/figma-better-community-20261010/4cc1cb04bbcfcab2d412.png"
+          },
+          "provider": "사용자 제공 Better Logos Figma Community 수집본",
+          "origin": "community",
+          "official": false,
+          "order": 1,
+          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
+          "png_width": 2000,
+          "png_height": 387
         },
         {
           "key": "figma-better-black",
@@ -908,20 +2346,20 @@
           "color": "black",
           "light": false,
           "files": {
-            "png": "sources/figma-better-community-20261010/b4f10d3be1ebc86a8d4a.png"
+            "png": "sources/figma-better-community-20261010/e34cfe974b6d0f6d9448.png"
           },
           "provider": "사용자 제공 Better Logos Figma Community 수집본",
           "origin": "community",
           "official": false,
           "order": 2,
           "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
-          "png_width": 1152,
+          "png_width": 1488,
           "png_height": 288
         }
       ]
     },
-    "spacex": {
-      "id": "spacex",
+    "clickup": {
+      "id": "clickup",
       "schema": 1,
       "algo_v": 1,
       "primary": null,
@@ -935,8 +2373,8 @@
           "color": "original",
           "light": false,
           "files": {
-            "svg": "sources/figma-better-community-20261010/7f05333181efcd7628da.svg",
-            "png": "sources/figma-better-community-20261010/0b0d22a32ece07d7c927.png"
+            "svg": "sources/figma-better-community-20261010/3bff847466b090fcab59.svg",
+            "png": "sources/figma-better-community-20261010/46a78165e2ee56c6cca3.png"
           },
           "provider": "사용자 제공 Better Logos Figma Community 수집본",
           "origin": "community",
@@ -944,7 +2382,7 @@
           "order": 0,
           "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
           "png_width": 2000,
-          "png_height": 246
+          "png_height": 485
         },
         {
           "key": "figma-better-white",
@@ -955,8 +2393,8 @@
           "color": "white",
           "light": true,
           "files": {
-            "svg": "sources/figma-better-community-20261010/599b61e1ad2cfc8cf46e.svg",
-            "png": "sources/figma-better-community-20261010/762514f3ffaa61356525.png"
+            "svg": "sources/figma-better-community-20261010/d2eb2f17540bf06d74de.svg",
+            "png": "sources/figma-better-community-20261010/692ed8e4fe4f40b0f026.png"
           },
           "provider": "사용자 제공 Better Logos Figma Community 수집본",
           "origin": "community",
@@ -964,7 +2402,7 @@
           "order": 1,
           "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
           "png_width": 2000,
-          "png_height": 246
+          "png_height": 485
         },
         {
           "key": "figma-better-black",
@@ -975,8 +2413,8 @@
           "color": "black",
           "light": false,
           "files": {
-            "svg": "sources/figma-better-community-20261010/993ae7a92e54029d44a2.svg",
-            "png": "sources/figma-better-community-20261010/d6900d0e57439530965c.png"
+            "svg": "sources/figma-better-community-20261010/d7916dcf8d1f1f32e294.svg",
+            "png": "sources/figma-better-community-20261010/b4052d51f43a31f70ad2.png"
           },
           "provider": "사용자 제공 Better Logos Figma Community 수집본",
           "origin": "community",
@@ -984,12 +2422,12 @@
           "order": 2,
           "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
           "png_width": 2000,
-          "png_height": 246
+          "png_height": 485
         }
       ]
     },
-    "softbank": {
-      "id": "softbank",
+    "bridgewater": {
+      "id": "bridgewater",
       "schema": 1,
       "algo_v": 1,
       "primary": null,
@@ -1003,8 +2441,8 @@
           "color": "original",
           "light": false,
           "files": {
-            "svg": "sources/figma-better-community-20261010/ed8205c3093150efda7e.svg",
-            "png": "sources/figma-better-community-20261010/7de947b2c4495e91ecd6.png"
+            "svg": "sources/figma-better-community-20261010/6e43ff8dd18d1f4bd4da.svg",
+            "png": "sources/figma-better-community-20261010/bc270503dbc42f7c4c26.png"
           },
           "provider": "사용자 제공 Better Logos Figma Community 수집본",
           "origin": "community",
@@ -1012,7 +2450,7 @@
           "order": 0,
           "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
           "png_width": 2000,
-          "png_height": 295
+          "png_height": 198
         },
         {
           "key": "figma-better-white",
@@ -1023,8 +2461,8 @@
           "color": "white",
           "light": true,
           "files": {
-            "svg": "sources/figma-better-community-20261010/7a86e82323c5b616c047.svg",
-            "png": "sources/figma-better-community-20261010/64d9b291a18691c6cebd.png"
+            "svg": "sources/figma-better-community-20261010/f1480e7271ddf8d18682.svg",
+            "png": "sources/figma-better-community-20261010/1ca9b275fe2134478937.png"
           },
           "provider": "사용자 제공 Better Logos Figma Community 수집본",
           "origin": "community",
@@ -1032,7 +2470,55 @@
           "order": 1,
           "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
           "png_width": 2000,
-          "png_height": 295
+          "png_height": 198
+        }
+      ]
+    },
+    "big-fish-games": {
+      "id": "big-fish-games",
+      "schema": 1,
+      "algo_v": 1,
+      "primary": null,
+      "variants": [
+        {
+          "key": "figma-better-original",
+          "label": "커뮤니티 수록 원색 · 시기 미확인",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "en",
+          "color": "original",
+          "light": false,
+          "files": {
+            "svg": "sources/figma-better-community-20261010/f30c5e43d5e85d5a8b84.svg",
+            "png": "sources/figma-better-community-20261010/9bda42d6393ce95dcbc7.png"
+          },
+          "provider": "사용자 제공 Better Logos Figma Community 수집본",
+          "origin": "community",
+          "official": false,
+          "order": 0,
+          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
+          "png_width": 2000,
+          "png_height": 356
+        },
+        {
+          "key": "figma-better-white",
+          "label": "커뮤니티 수록 흰색 · 시기 미확인",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "en",
+          "color": "white",
+          "light": true,
+          "files": {
+            "svg": "sources/figma-better-community-20261010/086b49762538a5cc87a4.svg",
+            "png": "sources/figma-better-community-20261010/83f3f28fa95c115f81fd.png"
+          },
+          "provider": "사용자 제공 Better Logos Figma Community 수집본",
+          "origin": "community",
+          "official": false,
+          "order": 1,
+          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
+          "png_width": 2000,
+          "png_height": 356
         },
         {
           "key": "figma-better-black",
@@ -1043,8 +2529,8 @@
           "color": "black",
           "light": false,
           "files": {
-            "svg": "sources/figma-better-community-20261010/9728d51052012a765021.svg",
-            "png": "sources/figma-better-community-20261010/4c14bce3b8fd0239f995.png"
+            "svg": "sources/figma-better-community-20261010/dcd49deb0902b56a548a.svg",
+            "png": "sources/figma-better-community-20261010/9523e4429ad5470b199c.png"
           },
           "provider": "사용자 제공 Better Logos Figma Community 수집본",
           "origin": "community",
@@ -1052,12 +2538,12 @@
           "order": 2,
           "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
           "png_width": 2000,
-          "png_height": 295
+          "png_height": 356
         }
       ]
     },
-    "sketch": {
-      "id": "sketch",
+    "beazer-homes": {
+      "id": "beazer-homes",
       "schema": 1,
       "algo_v": 1,
       "primary": null,
@@ -1071,8 +2557,8 @@
           "color": "original",
           "light": false,
           "files": {
-            "svg": "sources/figma-better-community-20261010/dc3e516b1dffc9690b83.svg",
-            "png": "sources/figma-better-community-20261010/89631e8d3cd1d9bff027.png"
+            "svg": "sources/figma-better-community-20261010/39748db8d8d70eecfff6.svg",
+            "png": "sources/figma-better-community-20261010/7ab1f9d1022db81b0354.png"
           },
           "provider": "사용자 제공 Better Logos Figma Community 수집본",
           "origin": "community",
@@ -1080,7 +2566,7 @@
           "order": 0,
           "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
           "png_width": 2000,
-          "png_height": 480
+          "png_height": 524
         },
         {
           "key": "figma-better-white",
@@ -1091,8 +2577,8 @@
           "color": "white",
           "light": true,
           "files": {
-            "svg": "sources/figma-better-community-20261010/8b85727bda212f42d0b9.svg",
-            "png": "sources/figma-better-community-20261010/db79effcb83c0495b9db.png"
+            "svg": "sources/figma-better-community-20261010/5e6195f185bea6df90a1.svg",
+            "png": "sources/figma-better-community-20261010/07df43707e0b22a35db6.png"
           },
           "provider": "사용자 제공 Better Logos Figma Community 수집본",
           "origin": "community",
@@ -1100,7 +2586,7 @@
           "order": 1,
           "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
           "png_width": 2000,
-          "png_height": 480
+          "png_height": 524
         },
         {
           "key": "figma-better-black",
@@ -1111,8 +2597,8 @@
           "color": "black",
           "light": false,
           "files": {
-            "svg": "sources/figma-better-community-20261010/1c883c895f6dabc09c0a.svg",
-            "png": "sources/figma-better-community-20261010/5c818ea662502ae37d4c.png"
+            "svg": "sources/figma-better-community-20261010/5e4200adf075ee3cb384.svg",
+            "png": "sources/figma-better-community-20261010/9042451bfd37f4bf44c9.png"
           },
           "provider": "사용자 제공 Better Logos Figma Community 수집본",
           "origin": "community",
@@ -1120,12 +2606,12 @@
           "order": 2,
           "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
           "png_width": 2000,
-          "png_height": 480
+          "png_height": 524
         }
       ]
     },
-    "sap": {
-      "id": "sap",
+    "bain-capital-ventures": {
+      "id": "bain-capital-ventures",
       "schema": 1,
       "algo_v": 1,
       "primary": null,
@@ -1139,8 +2625,8 @@
           "color": "original",
           "light": false,
           "files": {
-            "svg": "sources/figma-better-community-20261010/4a3e03907e0f13216e56.svg",
-            "png": "sources/figma-better-community-20261010/e4d00464dc5b32afa902.png"
+            "svg": "sources/figma-better-community-20261010/ae87417c57c85c41fcab.svg",
+            "png": "sources/figma-better-community-20261010/cf65cb2e6dfb334b4d71.png"
           },
           "provider": "사용자 제공 Better Logos Figma Community 수집본",
           "origin": "community",
@@ -1148,7 +2634,35 @@
           "order": 0,
           "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
           "png_width": 2000,
-          "png_height": 989
+          "png_height": 705
+        }
+      ]
+    },
+    "bankrate": {
+      "id": "bankrate",
+      "schema": 1,
+      "algo_v": 1,
+      "primary": null,
+      "variants": [
+        {
+          "key": "figma-better-original",
+          "label": "커뮤니티 수록 원색 · 시기 미확인",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "en",
+          "color": "original",
+          "light": false,
+          "files": {
+            "svg": "sources/figma-better-community-20261010/48ec713a73c1fdd63466.svg",
+            "png": "sources/figma-better-community-20261010/970ff1e880bd5b4ca745.png"
+          },
+          "provider": "사용자 제공 Better Logos Figma Community 수집본",
+          "origin": "community",
+          "official": false,
+          "order": 0,
+          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
+          "png_width": 2000,
+          "png_height": 398
         },
         {
           "key": "figma-better-white",
@@ -1159,8 +2673,8 @@
           "color": "white",
           "light": true,
           "files": {
-            "svg": "sources/figma-better-community-20261010/06e4fd82ad7381593b4f.svg",
-            "png": "sources/figma-better-community-20261010/6f72a220b28fa2bbeb2a.png"
+            "svg": "sources/figma-better-community-20261010/3aa97bd7c4d3f285284f.svg",
+            "png": "sources/figma-better-community-20261010/0e9bb7658b8514a427c6.png"
           },
           "provider": "사용자 제공 Better Logos Figma Community 수집본",
           "origin": "community",
@@ -1168,7 +2682,7 @@
           "order": 1,
           "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
           "png_width": 2000,
-          "png_height": 989
+          "png_height": 398
         },
         {
           "key": "figma-better-black",
@@ -1179,8 +2693,8 @@
           "color": "black",
           "light": false,
           "files": {
-            "svg": "sources/figma-better-community-20261010/8b770bd5070bf972b7fa.svg",
-            "png": "sources/figma-better-community-20261010/512e04de2fbc50e8b499.png"
+            "svg": "sources/figma-better-community-20261010/0d3155b57395fcc46a38.svg",
+            "png": "sources/figma-better-community-20261010/0a3c6e423ef3ec69e96b.png"
           },
           "provider": "사용자 제공 Better Logos Figma Community 수집본",
           "origin": "community",
@@ -1188,12 +2702,12 @@
           "order": 2,
           "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
           "png_width": 2000,
-          "png_height": 989
+          "png_height": 398
         }
       ]
     },
-    "qualcomm": {
-      "id": "qualcomm",
+    "andreessen-horowitz": {
+      "id": "andreessen-horowitz",
       "schema": 1,
       "algo_v": 1,
       "primary": null,
@@ -1207,8 +2721,8 @@
           "color": "original",
           "light": false,
           "files": {
-            "svg": "sources/figma-better-community-20261010/3fbfad61cd32c0bb5cfb.svg",
-            "png": "sources/figma-better-community-20261010/ec4d4897b8f228f0b7a9.png"
+            "svg": "sources/figma-better-community-20261010/7642ebe54f285ad0a40b.svg",
+            "png": "sources/figma-better-community-20261010/43c92ffee45e4bec4cb8.png"
           },
           "provider": "사용자 제공 Better Logos Figma Community 수집본",
           "origin": "community",
@@ -1216,12 +2730,31 @@
           "order": 0,
           "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
           "png_width": 2000,
-          "png_height": 367
+          "png_height": 458
+        },
+        {
+          "key": "figma-better-white",
+          "label": "커뮤니티 수록 흰색 · 시기 미확인 · PNG 원본",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "en",
+          "color": "white",
+          "light": true,
+          "files": {
+            "png": "sources/figma-better-community-20261010/f675554a7f83a4efd835.png"
+          },
+          "provider": "사용자 제공 Better Logos Figma Community 수집본",
+          "origin": "community",
+          "official": false,
+          "order": 1,
+          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
+          "png_width": 630,
+          "png_height": 144
         }
       ]
     },
-    "pwc": {
-      "id": "pwc",
+    "aclu": {
+      "id": "aclu",
       "schema": 1,
       "algo_v": 1,
       "primary": null,
@@ -1235,8 +2768,8 @@
           "color": "original",
           "light": false,
           "files": {
-            "svg": "sources/figma-better-community-20261010/de630a165c6b093df9b6.svg",
-            "png": "sources/figma-better-community-20261010/28d946e49e38de6491d4.png"
+            "svg": "sources/figma-better-community-20261010/934c87c0196e43db7021.svg",
+            "png": "sources/figma-better-community-20261010/2495a84a2fcfc8450479.png"
           },
           "provider": "사용자 제공 Better Logos Figma Community 수집본",
           "origin": "community",
@@ -1244,7 +2777,7 @@
           "order": 0,
           "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
           "png_width": 2000,
-          "png_height": 1504
+          "png_height": 705
         },
         {
           "key": "figma-better-white",
@@ -1255,8 +2788,8 @@
           "color": "white",
           "light": true,
           "files": {
-            "svg": "sources/figma-better-community-20261010/541c525277d728819a7f.svg",
-            "png": "sources/figma-better-community-20261010/12ebaa3a120f10b0e69a.png"
+            "svg": "sources/figma-better-community-20261010/0dab161f19ac8b47fb9b.svg",
+            "png": "sources/figma-better-community-20261010/9472443f83c562e3ede7.png"
           },
           "provider": "사용자 제공 Better Logos Figma Community 수집본",
           "origin": "community",
@@ -1264,7 +2797,7 @@
           "order": 1,
           "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
           "png_width": 2000,
-          "png_height": 1504
+          "png_height": 705
         },
         {
           "key": "figma-better-black",
@@ -1275,8 +2808,8 @@
           "color": "black",
           "light": false,
           "files": {
-            "svg": "sources/figma-better-community-20261010/50323f0be188f4dc4218.svg",
-            "png": "sources/figma-better-community-20261010/6d6060c95d92fa8ea7db.png"
+            "svg": "sources/figma-better-community-20261010/4d978b7ab97ae885c308.svg",
+            "png": "sources/figma-better-community-20261010/e5987087bf47e0a53146.png"
           },
           "provider": "사용자 제공 Better Logos Figma Community 수집본",
           "origin": "community",
@@ -1284,12 +2817,12 @@
           "order": 2,
           "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
           "png_width": 2000,
-          "png_height": 1504
+          "png_height": 705
         }
       ]
     },
-    "polaroid": {
-      "id": "polaroid",
+    "accel": {
+      "id": "accel",
       "schema": 1,
       "algo_v": 1,
       "primary": null,
@@ -1303,8 +2836,8 @@
           "color": "original",
           "light": false,
           "files": {
-            "svg": "sources/figma-better-community-20261010/26ef4c1110075e38d8af.svg",
-            "png": "sources/figma-better-community-20261010/02c4ceac96c3649fe212.png"
+            "svg": "sources/figma-better-community-20261010/a57f59490cf8580786a2.svg",
+            "png": "sources/figma-better-community-20261010/204838109bdfc55f7a87.png"
           },
           "provider": "사용자 제공 Better Logos Figma Community 수집본",
           "origin": "community",
@@ -1312,7 +2845,7 @@
           "order": 0,
           "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
           "png_width": 2000,
-          "png_height": 624
+          "png_height": 628
         },
         {
           "key": "figma-better-white",
@@ -1323,8 +2856,8 @@
           "color": "white",
           "light": true,
           "files": {
-            "svg": "sources/figma-better-community-20261010/7956c2a230f9de8a6cf4.svg",
-            "png": "sources/figma-better-community-20261010/1c12dbf97dd53389130f.png"
+            "svg": "sources/figma-better-community-20261010/d962ce56652a3d0480fa.svg",
+            "png": "sources/figma-better-community-20261010/0d607090a3309114923a.png"
           },
           "provider": "사용자 제공 Better Logos Figma Community 수집본",
           "origin": "community",
@@ -1332,7 +2865,7 @@
           "order": 1,
           "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
           "png_width": 2000,
-          "png_height": 418
+          "png_height": 628
         },
         {
           "key": "figma-better-black",
@@ -1343,8 +2876,8 @@
           "color": "black",
           "light": false,
           "files": {
-            "svg": "sources/figma-better-community-20261010/b003e645cc1bccddc20b.svg",
-            "png": "sources/figma-better-community-20261010/51d6b92b31b3a28d24a9.png"
+            "svg": "sources/figma-better-community-20261010/0f94d67716cdd000c420.svg",
+            "png": "sources/figma-better-community-20261010/5bd5daf5b537038a70e1.png"
           },
           "provider": "사용자 제공 Better Logos Figma Community 수집본",
           "origin": "community",
@@ -1352,1877 +2885,7 @@
           "order": 2,
           "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
           "png_width": 2000,
-          "png_height": 418
-        }
-      ]
-    },
-    "picsart": {
-      "id": "picsart",
-      "schema": 1,
-      "algo_v": 1,
-      "primary": null,
-      "variants": [
-        {
-          "key": "figma-better-original",
-          "label": "커뮤니티 수록 원색 · 시기 미확인",
-          "form": "horizontal",
-          "lockup": "horizontal",
-          "lang": "en",
-          "color": "original",
-          "light": false,
-          "files": {
-            "svg": "sources/figma-better-community-20261010/5dddad9f9660035eca5f.svg",
-            "png": "sources/figma-better-community-20261010/f55a13e298be987b5e5a.png"
-          },
-          "provider": "사용자 제공 Better Logos Figma Community 수집본",
-          "origin": "community",
-          "official": false,
-          "order": 0,
-          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
-          "png_width": 2000,
-          "png_height": 463
-        },
-        {
-          "key": "figma-better-white",
-          "label": "커뮤니티 수록 흰색 · 시기 미확인",
-          "form": "horizontal",
-          "lockup": "horizontal",
-          "lang": "en",
-          "color": "white",
-          "light": true,
-          "files": {
-            "svg": "sources/figma-better-community-20261010/37e2b2ffd1ce12f6e8f7.svg",
-            "png": "sources/figma-better-community-20261010/f3db164271dbd57029d6.png"
-          },
-          "provider": "사용자 제공 Better Logos Figma Community 수집본",
-          "origin": "community",
-          "official": false,
-          "order": 1,
-          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
-          "png_width": 2000,
-          "png_height": 463
-        },
-        {
-          "key": "figma-better-black",
-          "label": "커뮤니티 수록 검정 · 시기 미확인",
-          "form": "horizontal",
-          "lockup": "horizontal",
-          "lang": "en",
-          "color": "black",
-          "light": false,
-          "files": {
-            "svg": "sources/figma-better-community-20261010/f6a3a974f44edd05a0d7.svg",
-            "png": "sources/figma-better-community-20261010/e04ae26e74fdfac261c9.png"
-          },
-          "provider": "사용자 제공 Better Logos Figma Community 수집본",
-          "origin": "community",
-          "official": false,
-          "order": 2,
-          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
-          "png_width": 2000,
-          "png_height": 463
-        }
-      ]
-    },
-    "patreon": {
-      "id": "patreon",
-      "schema": 1,
-      "algo_v": 1,
-      "primary": null,
-      "variants": [
-        {
-          "key": "figma-better-original",
-          "label": "커뮤니티 수록 원색 · 시기 미확인",
-          "form": "horizontal",
-          "lockup": "horizontal",
-          "lang": "en",
-          "color": "original",
-          "light": false,
-          "files": {
-            "svg": "sources/figma-better-community-20261010/62bc85ecb4ebd82680b5.svg",
-            "png": "sources/figma-better-community-20261010/b334e495e52e0a069ef3.png"
-          },
-          "provider": "사용자 제공 Better Logos Figma Community 수집본",
-          "origin": "community",
-          "official": false,
-          "order": 0,
-          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
-          "png_width": 2000,
-          "png_height": 278
-        },
-        {
-          "key": "figma-better-white",
-          "label": "커뮤니티 수록 흰색 · 시기 미확인",
-          "form": "horizontal",
-          "lockup": "horizontal",
-          "lang": "en",
-          "color": "white",
-          "light": true,
-          "files": {
-            "svg": "sources/figma-better-community-20261010/27a445fd683a756feb39.svg",
-            "png": "sources/figma-better-community-20261010/8784934da40e49e44d67.png"
-          },
-          "provider": "사용자 제공 Better Logos Figma Community 수집본",
-          "origin": "community",
-          "official": false,
-          "order": 1,
-          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
-          "png_width": 2000,
-          "png_height": 278
-        },
-        {
-          "key": "figma-better-black",
-          "label": "커뮤니티 수록 검정 · 시기 미확인",
-          "form": "horizontal",
-          "lockup": "horizontal",
-          "lang": "en",
-          "color": "black",
-          "light": false,
-          "files": {
-            "svg": "sources/figma-better-community-20261010/cde33fc87b1c02dd9d4f.svg",
-            "png": "sources/figma-better-community-20261010/5033e156767e6daa202d.png"
-          },
-          "provider": "사용자 제공 Better Logos Figma Community 수집본",
-          "origin": "community",
-          "official": false,
-          "order": 2,
-          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
-          "png_width": 2000,
-          "png_height": 278
-        }
-      ]
-    },
-    "palantir": {
-      "id": "palantir",
-      "schema": 1,
-      "algo_v": 1,
-      "primary": null,
-      "variants": [
-        {
-          "key": "figma-better-original",
-          "label": "커뮤니티 수록 원색 · 시기 미확인",
-          "form": "horizontal",
-          "lockup": "horizontal",
-          "lang": "en",
-          "color": "original",
-          "light": false,
-          "files": {
-            "svg": "sources/figma-better-community-20261010/ed07abb8fa36d1c769eb.svg",
-            "png": "sources/figma-better-community-20261010/865e231b3aeafd3f5c9a.png"
-          },
-          "provider": "사용자 제공 Better Logos Figma Community 수집본",
-          "origin": "community",
-          "official": false,
-          "order": 0,
-          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
-          "png_width": 2000,
-          "png_height": 490
-        },
-        {
-          "key": "figma-better-white",
-          "label": "커뮤니티 수록 흰색 · 시기 미확인",
-          "form": "horizontal",
-          "lockup": "horizontal",
-          "lang": "en",
-          "color": "white",
-          "light": true,
-          "files": {
-            "svg": "sources/figma-better-community-20261010/dfa7049968a4d17ba3f6.svg",
-            "png": "sources/figma-better-community-20261010/b887131fedd8c10e0c32.png"
-          },
-          "provider": "사용자 제공 Better Logos Figma Community 수집본",
-          "origin": "community",
-          "official": false,
-          "order": 1,
-          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
-          "png_width": 2000,
-          "png_height": 490
-        }
-      ]
-    },
-    "nvidia": {
-      "id": "nvidia",
-      "schema": 1,
-      "algo_v": 1,
-      "primary": null,
-      "variants": [
-        {
-          "key": "figma-better-original",
-          "label": "커뮤니티 수록 원색 · 시기 미확인",
-          "form": "horizontal",
-          "lockup": "horizontal",
-          "lang": "en",
-          "color": "original",
-          "light": false,
-          "files": {
-            "svg": "sources/figma-better-community-20261010/5ef618c64e6d96b45eff.svg",
-            "png": "sources/figma-better-community-20261010/12b0c2031c08491ba2e5.png"
-          },
-          "provider": "사용자 제공 Better Logos Figma Community 수집본",
-          "origin": "community",
-          "official": false,
-          "order": 0,
-          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
-          "png_width": 2000,
-          "png_height": 380
-        }
-      ]
-    },
-    "mozilla": {
-      "id": "mozilla",
-      "schema": 1,
-      "algo_v": 1,
-      "primary": null,
-      "variants": [
-        {
-          "key": "figma-better-white",
-          "label": "커뮤니티 수록 흰색 · 시기 미확인",
-          "form": "horizontal",
-          "lockup": "horizontal",
-          "lang": "en",
-          "color": "white",
-          "light": true,
-          "files": {
-            "svg": "sources/figma-better-community-20261010/a85148e8bc8e4a63a36a.svg",
-            "png": "sources/figma-better-community-20261010/99726e1c67a3f3e8634d.png"
-          },
-          "provider": "사용자 제공 Better Logos Figma Community 수집본",
-          "origin": "community",
-          "official": false,
-          "order": 0,
-          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
-          "png_width": 2000,
-          "png_height": 440
-        },
-        {
-          "key": "figma-better-black",
-          "label": "커뮤니티 수록 검정 · 시기 미확인",
-          "form": "horizontal",
-          "lockup": "horizontal",
-          "lang": "en",
-          "color": "black",
-          "light": false,
-          "files": {
-            "svg": "sources/figma-better-community-20261010/2541cb7f133f73ff13f0.svg",
-            "png": "sources/figma-better-community-20261010/d222267064dc60036818.png"
-          },
-          "provider": "사용자 제공 Better Logos Figma Community 수집본",
-          "origin": "community",
-          "official": false,
-          "order": 1,
-          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
-          "png_width": 2000,
-          "png_height": 440
-        }
-      ]
-    },
-    "morganstanley": {
-      "id": "morganstanley",
-      "schema": 1,
-      "algo_v": 1,
-      "primary": null,
-      "variants": [
-        {
-          "key": "figma-better-original",
-          "label": "커뮤니티 수록 원색 · 시기 미확인",
-          "form": "horizontal",
-          "lockup": "horizontal",
-          "lang": "en",
-          "color": "original",
-          "light": false,
-          "files": {
-            "svg": "sources/figma-better-community-20261010/f9218cd2deaae1dea68c.svg",
-            "png": "sources/figma-better-community-20261010/87db514c21b717df81a1.png"
-          },
-          "provider": "사용자 제공 Better Logos Figma Community 수집본",
-          "origin": "community",
-          "official": false,
-          "order": 0,
-          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
-          "png_width": 2000,
-          "png_height": 295
-        },
-        {
-          "key": "figma-better-white",
-          "label": "커뮤니티 수록 흰색 · 시기 미확인",
-          "form": "horizontal",
-          "lockup": "horizontal",
-          "lang": "en",
-          "color": "white",
-          "light": true,
-          "files": {
-            "svg": "sources/figma-better-community-20261010/73b0beaf5341b243dd48.svg",
-            "png": "sources/figma-better-community-20261010/bbc25950569c291d4bed.png"
-          },
-          "provider": "사용자 제공 Better Logos Figma Community 수집본",
-          "origin": "community",
-          "official": false,
-          "order": 1,
-          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
-          "png_width": 2000,
-          "png_height": 295
-        },
-        {
-          "key": "figma-better-black",
-          "label": "커뮤니티 수록 검정 · 시기 미확인",
-          "form": "horizontal",
-          "lockup": "horizontal",
-          "lang": "en",
-          "color": "black",
-          "light": false,
-          "files": {
-            "svg": "sources/figma-better-community-20261010/4007c136f2d03388b03c.svg",
-            "png": "sources/figma-better-community-20261010/cd126f32b3d65b0b7461.png"
-          },
-          "provider": "사용자 제공 Better Logos Figma Community 수집본",
-          "origin": "community",
-          "official": false,
-          "order": 2,
-          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
-          "png_width": 2000,
-          "png_height": 295
-        }
-      ]
-    },
-    "metlife": {
-      "id": "metlife",
-      "schema": 1,
-      "algo_v": 1,
-      "primary": null,
-      "variants": [
-        {
-          "key": "figma-better-original",
-          "label": "커뮤니티 수록 원색 · 시기 미확인",
-          "form": "horizontal",
-          "lockup": "horizontal",
-          "lang": "en",
-          "color": "original",
-          "light": false,
-          "files": {
-            "svg": "sources/figma-better-community-20261010/9667079c699ba7dbebcf.svg",
-            "png": "sources/figma-better-community-20261010/80cfa74092eb783dbbf5.png"
-          },
-          "provider": "사용자 제공 Better Logos Figma Community 수집본",
-          "origin": "community",
-          "official": false,
-          "order": 0,
-          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
-          "png_width": 2000,
-          "png_height": 430
-        },
-        {
-          "key": "figma-better-white",
-          "label": "커뮤니티 수록 흰색 · 시기 미확인",
-          "form": "horizontal",
-          "lockup": "horizontal",
-          "lang": "en",
-          "color": "white",
-          "light": true,
-          "files": {
-            "svg": "sources/figma-better-community-20261010/a46ffa758de36394aba5.svg",
-            "png": "sources/figma-better-community-20261010/1be4bed25eeb405b18b1.png"
-          },
-          "provider": "사용자 제공 Better Logos Figma Community 수집본",
-          "origin": "community",
-          "official": false,
-          "order": 1,
-          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
-          "png_width": 2000,
-          "png_height": 430
-        },
-        {
-          "key": "figma-better-black",
-          "label": "커뮤니티 수록 검정 · 시기 미확인",
-          "form": "horizontal",
-          "lockup": "horizontal",
-          "lang": "en",
-          "color": "black",
-          "light": false,
-          "files": {
-            "svg": "sources/figma-better-community-20261010/adf0e2da268c15bbedac.svg",
-            "png": "sources/figma-better-community-20261010/4c5f654b52702a1f2eef.png"
-          },
-          "provider": "사용자 제공 Better Logos Figma Community 수집본",
-          "origin": "community",
-          "official": false,
-          "order": 2,
-          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
-          "png_width": 2000,
-          "png_height": 430
-        }
-      ]
-    },
-    "magic-leap": {
-      "id": "magic-leap",
-      "schema": 1,
-      "algo_v": 1,
-      "primary": null,
-      "variants": [
-        {
-          "key": "figma-better-original",
-          "label": "커뮤니티 수록 원색 · 시기 미확인",
-          "form": "horizontal",
-          "lockup": "horizontal",
-          "lang": "en",
-          "color": "original",
-          "light": false,
-          "files": {
-            "svg": "sources/figma-better-community-20261010/6eb7b1565672042edea6.svg",
-            "png": "sources/figma-better-community-20261010/f442565943b0341dec71.png"
-          },
-          "provider": "사용자 제공 Better Logos Figma Community 수집본",
-          "origin": "community",
-          "official": false,
-          "order": 0,
-          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
-          "png_width": 2000,
-          "png_height": 307
-        },
-        {
-          "key": "figma-better-white",
-          "label": "커뮤니티 수록 흰색 · 시기 미확인",
-          "form": "horizontal",
-          "lockup": "horizontal",
-          "lang": "en",
-          "color": "white",
-          "light": true,
-          "files": {
-            "svg": "sources/figma-better-community-20261010/390573d73ee971074863.svg",
-            "png": "sources/figma-better-community-20261010/57c78c0d71c0b36f8cd4.png"
-          },
-          "provider": "사용자 제공 Better Logos Figma Community 수집본",
-          "origin": "community",
-          "official": false,
-          "order": 1,
-          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
-          "png_width": 2000,
-          "png_height": 307
-        },
-        {
-          "key": "figma-better-black",
-          "label": "커뮤니티 수록 검정 · 시기 미확인",
-          "form": "horizontal",
-          "lockup": "horizontal",
-          "lang": "en",
-          "color": "black",
-          "light": false,
-          "files": {
-            "svg": "sources/figma-better-community-20261010/2e43a65180aa9574649f.svg",
-            "png": "sources/figma-better-community-20261010/bf4f7e08ef315fff7526.png"
-          },
-          "provider": "사용자 제공 Better Logos Figma Community 수집본",
-          "origin": "community",
-          "official": false,
-          "order": 2,
-          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
-          "png_width": 2000,
-          "png_height": 307
-        }
-      ]
-    },
-    "lyft": {
-      "id": "lyft",
-      "schema": 1,
-      "algo_v": 1,
-      "primary": null,
-      "variants": [
-        {
-          "key": "figma-better-original",
-          "label": "커뮤니티 수록 원색 · 시기 미확인",
-          "form": "horizontal",
-          "lockup": "horizontal",
-          "lang": "en",
-          "color": "original",
-          "light": false,
-          "files": {
-            "svg": "sources/figma-better-community-20261010/ad6a50d3d188f7653f6c.svg",
-            "png": "sources/figma-better-community-20261010/be09882396d5b3c46610.png"
-          },
-          "provider": "사용자 제공 Better Logos Figma Community 수집본",
-          "origin": "community",
-          "official": false,
-          "order": 0,
-          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
-          "png_width": 2000,
-          "png_height": 1416
-        },
-        {
-          "key": "figma-better-white",
-          "label": "커뮤니티 수록 흰색 · 시기 미확인",
-          "form": "horizontal",
-          "lockup": "horizontal",
-          "lang": "en",
-          "color": "white",
-          "light": true,
-          "files": {
-            "svg": "sources/figma-better-community-20261010/09115ca4775f92f4f069.svg",
-            "png": "sources/figma-better-community-20261010/b5525826f4230d0285da.png"
-          },
-          "provider": "사용자 제공 Better Logos Figma Community 수집본",
-          "origin": "community",
-          "official": false,
-          "order": 1,
-          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
-          "png_width": 2000,
-          "png_height": 1416
-        },
-        {
-          "key": "figma-better-black",
-          "label": "커뮤니티 수록 검정 · 시기 미확인 · PNG 원본",
-          "form": "horizontal",
-          "lockup": "horizontal",
-          "lang": "en",
-          "color": "black",
-          "light": false,
-          "files": {
-            "png": "sources/figma-better-community-20261010/73962b4303cae69a596e.png"
-          },
-          "provider": "사용자 제공 Better Logos Figma Community 수집본",
-          "origin": "community",
-          "official": false,
-          "order": 2,
-          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
-          "png_width": 611,
-          "png_height": 432
-        }
-      ]
-    },
-    "logitech": {
-      "id": "logitech",
-      "schema": 1,
-      "algo_v": 1,
-      "primary": null,
-      "variants": [
-        {
-          "key": "figma-better-original",
-          "label": "커뮤니티 수록 원색 · 시기 미확인",
-          "form": "horizontal",
-          "lockup": "horizontal",
-          "lang": "en",
-          "color": "original",
-          "light": false,
-          "files": {
-            "svg": "sources/figma-better-community-20261010/6da0d69bb895f4121cc7.svg",
-            "png": "sources/figma-better-community-20261010/afe54b8b96353fef7798.png"
-          },
-          "provider": "사용자 제공 Better Logos Figma Community 수집본",
-          "origin": "community",
-          "official": false,
-          "order": 0,
-          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
-          "png_width": 2000,
-          "png_height": 607
-        },
-        {
-          "key": "figma-better-white",
-          "label": "커뮤니티 수록 흰색 · 시기 미확인",
-          "form": "horizontal",
-          "lockup": "horizontal",
-          "lang": "en",
-          "color": "white",
-          "light": true,
-          "files": {
-            "svg": "sources/figma-better-community-20261010/13e9fffeddc067a11423.svg",
-            "png": "sources/figma-better-community-20261010/e84575130194508ce7eb.png"
-          },
-          "provider": "사용자 제공 Better Logos Figma Community 수집본",
-          "origin": "community",
-          "official": false,
-          "order": 1,
-          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
-          "png_width": 2000,
-          "png_height": 607
-        }
-      ]
-    },
-    "kpmg": {
-      "id": "kpmg",
-      "algo_v": 1,
-      "schema": 1,
-      "primary": "reviewed",
-      "variants": [
-        {
-          "key": "reviewed",
-          "form": "unknown",
-          "lang": "unknown",
-          "color": "original",
-          "files": {
-            "png": "sources/reviewed-background-merge-20261008/0db1dab2a19c0636.png",
-            "svg": "sources/reviewed-background-merge-20261008/0db1dab2a19c0636.svg"
-          },
-          "label": "투명 배경 로고",
-          "light": false,
-          "order": 0,
-          "origin": "derived",
-          "provider": "보유 원본 · 배경과 흰색 도형 검수"
-        },
-        {
-          "key": "figma-better-original",
-          "label": "커뮤니티 수록 원색 · 시기 미확인",
-          "form": "horizontal",
-          "lockup": "horizontal",
-          "lang": "en",
-          "color": "original",
-          "light": false,
-          "files": {
-            "svg": "sources/figma-better-community-20261010/c60a9de7f3cf6227ba70.svg",
-            "png": "sources/figma-better-community-20261010/bd7db65115410513d97c.png"
-          },
-          "provider": "사용자 제공 Better Logos Figma Community 수집본",
-          "origin": "community",
-          "official": false,
-          "order": 1,
-          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
-          "png_width": 2000,
-          "png_height": 796
-        },
-        {
-          "key": "figma-better-white",
-          "label": "커뮤니티 수록 흰색 · 시기 미확인",
-          "form": "horizontal",
-          "lockup": "horizontal",
-          "lang": "en",
-          "color": "white",
-          "light": true,
-          "files": {
-            "svg": "sources/figma-better-community-20261010/a180d3ec816f07a4ff73.svg",
-            "png": "sources/figma-better-community-20261010/f4df1c938f145db82293.png"
-          },
-          "provider": "사용자 제공 Better Logos Figma Community 수집본",
-          "origin": "community",
-          "official": false,
-          "order": 2,
-          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
-          "png_width": 2000,
-          "png_height": 796
-        },
-        {
-          "key": "figma-better-black",
-          "label": "커뮤니티 수록 검정 · 시기 미확인",
-          "form": "horizontal",
-          "lockup": "horizontal",
-          "lang": "en",
-          "color": "black",
-          "light": false,
-          "files": {
-            "svg": "sources/figma-better-community-20261010/ffcd2f11f9104e3be1b5.svg",
-            "png": "sources/figma-better-community-20261010/dbf0a00fa9b6cbb5469f.png"
-          },
-          "provider": "사용자 제공 Better Logos Figma Community 수집본",
-          "origin": "community",
-          "official": false,
-          "order": 3,
-          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
-          "png_width": 2000,
-          "png_height": 796
-        }
-      ]
-    },
-    "klarna": {
-      "id": "klarna",
-      "algo_v": 1,
-      "schema": 1,
-      "primary": "symbol",
-      "variants": [
-        {
-          "key": "symbol",
-          "form": "symbol",
-          "lang": "en",
-          "color": "color",
-          "files": {
-            "png": "logo-800.png",
-            "svg": "logo.svg"
-          },
-          "label": "심볼형",
-          "order": 30,
-          "aspect": 1.2,
-          "origin": "collected",
-          "provider": "simple-icons"
-        },
-        {
-          "key": "wordmark",
-          "form": "wordmark",
-          "lang": "unknown",
-          "color": "color",
-          "files": {
-            "svg": "sources/vlz/wide.svg"
-          },
-          "label": "워드마크형",
-          "order": 40,
-          "aspect": 4.299,
-          "origin": "collected",
-          "provider": "vectorlogozone"
-        },
-        {
-          "key": "community-payment-color",
-          "form": "wordmark",
-          "lang": "en",
-          "color": "color",
-          "files": {
-            "png": "sources/community-payment-20261010/f1d4a64949d1e772.png",
-            "svg": "sources/community-payment-20261010/65cd56a846d56939.svg"
-          },
-          "label": "컬러 · 커뮤니티 수록 변형",
-          "order": 90,
-          "origin": "collected",
-          "provider": "figma-community",
-          "preview_png": "sources/community-payment-20261010/5cb866683a7a6c5c.png",
-          "source_note": "사용자 제공 Logos - Payment (Community).svg에서 원본 벡터 경로/색상을 보존해 카드틀 없이 추출한 커뮤니티 변형. 공식 화이트/흑백 배포본으로 인증된 자료가 아니며 기존 공식 원본과 대표 이미지는 유지.",
-          "official_distribution": false
-        },
-        {
-          "key": "community-payment-black",
-          "form": "wordmark",
-          "lang": "en",
-          "color": "black",
-          "files": {
-            "png": "sources/community-payment-20261010/97fa6a507e3a1356.png",
-            "svg": "sources/community-payment-20261010/bc863175a9073b93.svg"
-          },
-          "label": "검정 · 커뮤니티 수록 변형",
-          "order": 91,
-          "origin": "collected",
-          "provider": "figma-community",
-          "preview_png": "sources/community-payment-20261010/fb66f56f52ca3ef6.png",
-          "source_note": "사용자 제공 Logos - Payment (Community).svg에서 원본 벡터 경로/색상을 보존해 카드틀 없이 추출한 커뮤니티 변형. 공식 화이트/흑백 배포본으로 인증된 자료가 아니며 기존 공식 원본과 대표 이미지는 유지.",
-          "official_distribution": false
-        },
-        {
-          "key": "community-payment-white",
-          "form": "wordmark",
-          "lang": "en",
-          "color": "white",
-          "files": {
-            "png": "sources/community-payment-20261010/3ec33e21ef61bbac.png",
-            "svg": "sources/community-payment-20261010/145b2b998460d821.svg"
-          },
-          "label": "화이트 · 커뮤니티 수록 변형",
-          "order": 92,
-          "origin": "collected",
-          "provider": "figma-community",
-          "preview_png": "sources/community-payment-20261010/2c2805c8723e6865.png",
-          "source_note": "사용자 제공 Logos - Payment (Community).svg에서 원본 벡터 경로/색상을 보존해 카드틀 없이 추출한 커뮤니티 변형. 공식 화이트/흑백 배포본으로 인증된 자료가 아니며 기존 공식 원본과 대표 이미지는 유지.",
-          "official_distribution": false
-        },
-        {
-          "key": "figma-better-original",
-          "label": "커뮤니티 수록 원색 · 시기 미확인",
-          "form": "horizontal",
-          "lockup": "horizontal",
-          "lang": "en",
-          "color": "original",
-          "light": false,
-          "files": {
-            "svg": "sources/figma-better-community-20261010/2565eb2f28545986ab31.svg",
-            "png": "sources/figma-better-community-20261010/fff1aa4b470c40b3d84b.png"
-          },
-          "provider": "사용자 제공 Better Logos Figma Community 수집본",
-          "origin": "community",
-          "official": false,
-          "order": 5,
-          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
-          "png_width": 2000,
-          "png_height": 446
-        },
-        {
-          "key": "figma-better-white",
-          "label": "커뮤니티 수록 흰색 · 시기 미확인",
-          "form": "horizontal",
-          "lockup": "horizontal",
-          "lang": "en",
-          "color": "white",
-          "light": true,
-          "files": {
-            "svg": "sources/figma-better-community-20261010/0a9c04917f6ddb9283c7.svg",
-            "png": "sources/figma-better-community-20261010/1956f4a15c3cf4b6b5ad.png"
-          },
-          "provider": "사용자 제공 Better Logos Figma Community 수집본",
-          "origin": "community",
-          "official": false,
-          "order": 6,
-          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
-          "png_width": 2000,
-          "png_height": 446
-        },
-        {
-          "key": "figma-better-black",
-          "label": "커뮤니티 수록 검정 · 시기 미확인",
-          "form": "horizontal",
-          "lockup": "horizontal",
-          "lang": "en",
-          "color": "black",
-          "light": false,
-          "files": {
-            "svg": "sources/figma-better-community-20261010/b7049f767b066c0d2cf9.svg",
-            "png": "sources/figma-better-community-20261010/e6a51fd0c72e82dd36ed.png"
-          },
-          "provider": "사용자 제공 Better Logos Figma Community 수집본",
-          "origin": "community",
-          "official": false,
-          "order": 7,
-          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
-          "png_width": 2000,
-          "png_height": 446
-        }
-      ],
-      "fingerprint": {
-        "logo.svg": "b253d9cd91461ea1",
-        "sources/vlz/wide.svg": "6e835f4593956a5e"
-      }
-    },
-    "honeywell": {
-      "id": "honeywell",
-      "schema": 1,
-      "algo_v": 1,
-      "primary": null,
-      "variants": [
-        {
-          "key": "figma-better-original",
-          "label": "커뮤니티 수록 원색 · 시기 미확인",
-          "form": "horizontal",
-          "lockup": "horizontal",
-          "lang": "en",
-          "color": "original",
-          "light": false,
-          "files": {
-            "svg": "sources/figma-better-community-20261010/9497e183bc799c4b6095.svg",
-            "png": "sources/figma-better-community-20261010/7182778a411130e4638b.png"
-          },
-          "provider": "사용자 제공 Better Logos Figma Community 수집본",
-          "origin": "community",
-          "official": false,
-          "order": 0,
-          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
-          "png_width": 2000,
-          "png_height": 354
-        },
-        {
-          "key": "figma-better-white",
-          "label": "커뮤니티 수록 흰색 · 시기 미확인",
-          "form": "horizontal",
-          "lockup": "horizontal",
-          "lang": "en",
-          "color": "white",
-          "light": true,
-          "files": {
-            "svg": "sources/figma-better-community-20261010/c35b8446ef86cd88c732.svg",
-            "png": "sources/figma-better-community-20261010/38ba509f7e6e1f6dd38e.png"
-          },
-          "provider": "사용자 제공 Better Logos Figma Community 수집본",
-          "origin": "community",
-          "official": false,
-          "order": 1,
-          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
-          "png_width": 2000,
-          "png_height": 354
-        },
-        {
-          "key": "figma-better-black",
-          "label": "커뮤니티 수록 검정 · 시기 미확인",
-          "form": "horizontal",
-          "lockup": "horizontal",
-          "lang": "en",
-          "color": "black",
-          "light": false,
-          "files": {
-            "svg": "sources/figma-better-community-20261010/e359751e43bbaa8219a1.svg",
-            "png": "sources/figma-better-community-20261010/02e2406507db821a22ba.png"
-          },
-          "provider": "사용자 제공 Better Logos Figma Community 수집본",
-          "origin": "community",
-          "official": false,
-          "order": 2,
-          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
-          "png_width": 2000,
-          "png_height": 354
-        }
-      ]
-    },
-    "gusto": {
-      "id": "gusto",
-      "algo_v": 1,
-      "schema": 1,
-      "primary": "horizontal",
-      "variants": [
-        {
-          "key": "horizontal",
-          "alts": [
-            {
-              "file": "sources/iconify/gusto.svg",
-              "provider": "iconify"
-            },
-            {
-              "file": "sources/wvl/gusto.svg",
-              "provider": "wvl"
-            }
-          ],
-          "form": "horizontal",
-          "lang": "en",
-          "color": "color",
-          "files": {
-            "png": "logo-800.png",
-            "svg": "logo.svg"
-          },
-          "label": "가로조합형",
-          "order": 10,
-          "aspect": 2.632,
-          "origin": "collected",
-          "provider": "iconify"
-        },
-        {
-          "key": "untitled-ui-community-lockup",
-          "form": "horizontal",
-          "lang": "en",
-          "color": "color",
-          "files": {
-            "png": "sources/untitled-ui-community-20261010/601c0dc10c45cbbc.png",
-            "svg": "sources/untitled-ui-community-20261010/6abb4c55604633a3.svg"
-          },
-          "label": "가로조합 · Untitled UI 커뮤니티 수록본",
-          "order": 90,
-          "aspect": 2.625,
-          "origin": "collected",
-          "provider": "figma-community",
-          "preview_png": "sources/untitled-ui-community-20261010/93d905d393cb3875.png",
-          "source_note": "사용자 제공 Untitled UI (Community) 내보내기. 공식 브랜드 배포 파일이 아닌 커뮤니티 수록본. 원본 벡터 경로를 보존하여 추출.",
-          "source_archive_url": "https://logo.vibers.co.kr/_clients/active-campaign/sources/untitled-ui-community-20261010/c3a00071febe9f83.zip",
-          "official_distribution": false
-        },
-        {
-          "key": "figma-better-original",
-          "label": "커뮤니티 수록 원색 · 시기 미확인",
-          "form": "horizontal",
-          "lockup": "horizontal",
-          "lang": "en",
-          "color": "original",
-          "light": false,
-          "files": {
-            "svg": "sources/figma-better-community-20261010/350e0552c48c547811fa.svg",
-            "png": "sources/figma-better-community-20261010/a4a07008e064ec38da4d.png"
-          },
-          "provider": "사용자 제공 Better Logos Figma Community 수집본",
-          "origin": "community",
-          "official": false,
-          "order": 2,
-          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
-          "png_width": 2000,
-          "png_height": 761
-        },
-        {
-          "key": "figma-better-white",
-          "label": "커뮤니티 수록 흰색 · 시기 미확인",
-          "form": "horizontal",
-          "lockup": "horizontal",
-          "lang": "en",
-          "color": "white",
-          "light": true,
-          "files": {
-            "svg": "sources/figma-better-community-20261010/059c9df6ec67a0950c0f.svg",
-            "png": "sources/figma-better-community-20261010/a2ba6da59ce1f15ce01c.png"
-          },
-          "provider": "사용자 제공 Better Logos Figma Community 수집본",
-          "origin": "community",
-          "official": false,
-          "order": 3,
-          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
-          "png_width": 2000,
-          "png_height": 761
-        },
-        {
-          "key": "figma-better-black",
-          "label": "커뮤니티 수록 검정 · 시기 미확인",
-          "form": "horizontal",
-          "lockup": "horizontal",
-          "lang": "en",
-          "color": "black",
-          "light": false,
-          "files": {
-            "svg": "sources/figma-better-community-20261010/38e65ea91eb0473a37c3.svg",
-            "png": "sources/figma-better-community-20261010/499697cd7359c34dfb7e.png"
-          },
-          "provider": "사용자 제공 Better Logos Figma Community 수집본",
-          "origin": "community",
-          "official": false,
-          "order": 4,
-          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
-          "png_width": 2000,
-          "png_height": 761
-        }
-      ],
-      "fingerprint": {
-        "logo.svg": "b1577813105fabfb",
-        "sources/wvl/gusto.svg": "d063f01a96265ca7",
-        "sources/iconify/gusto.svg": "b1577813105fabfb"
-      }
-    },
-    "genentech": {
-      "id": "genentech",
-      "schema": 1,
-      "algo_v": 1,
-      "primary": null,
-      "variants": [
-        {
-          "key": "figma-better-original",
-          "label": "커뮤니티 수록 원색 · 시기 미확인",
-          "form": "horizontal",
-          "lockup": "horizontal",
-          "lang": "en",
-          "color": "original",
-          "light": false,
-          "files": {
-            "svg": "sources/figma-better-community-20261010/aada4accecaabca6e71f.svg",
-            "png": "sources/figma-better-community-20261010/c3676bf7a43399232b72.png"
-          },
-          "provider": "사용자 제공 Better Logos Figma Community 수집본",
-          "origin": "community",
-          "official": false,
-          "order": 0,
-          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
-          "png_width": 2000,
-          "png_height": 284
-        },
-        {
-          "key": "figma-better-white",
-          "label": "커뮤니티 수록 흰색 · 시기 미확인",
-          "form": "horizontal",
-          "lockup": "horizontal",
-          "lang": "en",
-          "color": "white",
-          "light": true,
-          "files": {
-            "svg": "sources/figma-better-community-20261010/d07c0aab8bb1ff81b68f.svg",
-            "png": "sources/figma-better-community-20261010/a0459b0f249c8ebcd9fe.png"
-          },
-          "provider": "사용자 제공 Better Logos Figma Community 수집본",
-          "origin": "community",
-          "official": false,
-          "order": 1,
-          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
-          "png_width": 2000,
-          "png_height": 284
-        },
-        {
-          "key": "figma-better-black",
-          "label": "커뮤니티 수록 검정 · 시기 미확인",
-          "form": "horizontal",
-          "lockup": "horizontal",
-          "lang": "en",
-          "color": "black",
-          "light": false,
-          "files": {
-            "svg": "sources/figma-better-community-20261010/161de0e4f0761af36973.svg",
-            "png": "sources/figma-better-community-20261010/515b16268b2a4e314f84.png"
-          },
-          "provider": "사용자 제공 Better Logos Figma Community 수집본",
-          "origin": "community",
-          "official": false,
-          "order": 2,
-          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
-          "png_width": 2000,
-          "png_height": 284
-        }
-      ]
-    },
-    "fortune": {
-      "id": "fortune",
-      "schema": 1,
-      "algo_v": 1,
-      "primary": null,
-      "variants": [
-        {
-          "key": "figma-better-original",
-          "label": "커뮤니티 수록 원색 · 시기 미확인",
-          "form": "horizontal",
-          "lockup": "horizontal",
-          "lang": "en",
-          "color": "original",
-          "light": false,
-          "files": {
-            "svg": "sources/figma-better-community-20261010/7e092c74d47d7a78e0eb.svg",
-            "png": "sources/figma-better-community-20261010/be600a141a7fe91c71d4.png"
-          },
-          "provider": "사용자 제공 Better Logos Figma Community 수집본",
-          "origin": "community",
-          "official": false,
-          "order": 0,
-          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
-          "png_width": 2000,
-          "png_height": 464
-        },
-        {
-          "key": "figma-better-white",
-          "label": "커뮤니티 수록 흰색 · 시기 미확인",
-          "form": "horizontal",
-          "lockup": "horizontal",
-          "lang": "en",
-          "color": "white",
-          "light": true,
-          "files": {
-            "svg": "sources/figma-better-community-20261010/2097c4db42fe5d7bddd7.svg",
-            "png": "sources/figma-better-community-20261010/3a844848650df5f56974.png"
-          },
-          "provider": "사용자 제공 Better Logos Figma Community 수집본",
-          "origin": "community",
-          "official": false,
-          "order": 1,
-          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
-          "png_width": 2000,
-          "png_height": 464
-        },
-        {
-          "key": "figma-better-black",
-          "label": "커뮤니티 수록 검정 · 시기 미확인",
-          "form": "horizontal",
-          "lockup": "horizontal",
-          "lang": "en",
-          "color": "black",
-          "light": false,
-          "files": {
-            "svg": "sources/figma-better-community-20261010/29cacb16341a9f76d3af.svg",
-            "png": "sources/figma-better-community-20261010/b8088b46c75a376be1a0.png"
-          },
-          "provider": "사용자 제공 Better Logos Figma Community 수집본",
-          "origin": "community",
-          "official": false,
-          "order": 2,
-          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
-          "png_width": 2000,
-          "png_height": 464
-        }
-      ]
-    },
-    "forbes": {
-      "id": "forbes",
-      "schema": 1,
-      "algo_v": 1,
-      "primary": null,
-      "variants": [
-        {
-          "key": "figma-better-original",
-          "label": "커뮤니티 수록 원색 · 시기 미확인",
-          "form": "horizontal",
-          "lockup": "horizontal",
-          "lang": "en",
-          "color": "original",
-          "light": false,
-          "files": {
-            "svg": "sources/figma-better-community-20261010/ff6061148bd0d2532416.svg",
-            "png": "sources/figma-better-community-20261010/a055936be7b65b5e3762.png"
-          },
-          "provider": "사용자 제공 Better Logos Figma Community 수집본",
-          "origin": "community",
-          "official": false,
-          "order": 0,
-          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
-          "png_width": 2000,
-          "png_height": 523
-        },
-        {
-          "key": "figma-better-white",
-          "label": "커뮤니티 수록 흰색 · 시기 미확인",
-          "form": "horizontal",
-          "lockup": "horizontal",
-          "lang": "en",
-          "color": "white",
-          "light": true,
-          "files": {
-            "svg": "sources/figma-better-community-20261010/747faa57f9282a23ccb3.svg",
-            "png": "sources/figma-better-community-20261010/f40ed287cec8b36f3faf.png"
-          },
-          "provider": "사용자 제공 Better Logos Figma Community 수집본",
-          "origin": "community",
-          "official": false,
-          "order": 1,
-          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
-          "png_width": 2000,
-          "png_height": 523
-        },
-        {
-          "key": "figma-better-black",
-          "label": "커뮤니티 수록 검정 · 시기 미확인",
-          "form": "horizontal",
-          "lockup": "horizontal",
-          "lang": "en",
-          "color": "black",
-          "light": false,
-          "files": {
-            "svg": "sources/figma-better-community-20261010/d820d157104519855713.svg",
-            "png": "sources/figma-better-community-20261010/1f396440cb657b3036ab.png"
-          },
-          "provider": "사용자 제공 Better Logos Figma Community 수집본",
-          "origin": "community",
-          "official": false,
-          "order": 2,
-          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
-          "png_width": 2000,
-          "png_height": 523
-        }
-      ]
-    },
-    "flexport": {
-      "id": "flexport",
-      "schema": 1,
-      "algo_v": 1,
-      "primary": null,
-      "variants": [
-        {
-          "key": "figma-better-original",
-          "label": "커뮤니티 수록 원색 · 시기 미확인",
-          "form": "horizontal",
-          "lockup": "horizontal",
-          "lang": "en",
-          "color": "original",
-          "light": false,
-          "files": {
-            "svg": "sources/figma-better-community-20261010/caa86594fa1df80b0338.svg",
-            "png": "sources/figma-better-community-20261010/1aa8d1e99cc8a3d3c99e.png"
-          },
-          "provider": "사용자 제공 Better Logos Figma Community 수집본",
-          "origin": "community",
-          "official": false,
-          "order": 0,
-          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
-          "png_width": 2000,
-          "png_height": 451
-        },
-        {
-          "key": "figma-better-white",
-          "label": "커뮤니티 수록 흰색 · 시기 미확인",
-          "form": "horizontal",
-          "lockup": "horizontal",
-          "lang": "en",
-          "color": "white",
-          "light": true,
-          "files": {
-            "svg": "sources/figma-better-community-20261010/5743b7415d5d7162695c.svg",
-            "png": "sources/figma-better-community-20261010/03f189d62659790c4840.png"
-          },
-          "provider": "사용자 제공 Better Logos Figma Community 수집본",
-          "origin": "community",
-          "official": false,
-          "order": 1,
-          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
-          "png_width": 2000,
-          "png_height": 451
-        },
-        {
-          "key": "figma-better-black",
-          "label": "커뮤니티 수록 검정 · 시기 미확인",
-          "form": "horizontal",
-          "lockup": "horizontal",
-          "lang": "en",
-          "color": "black",
-          "light": false,
-          "files": {
-            "svg": "sources/figma-better-community-20261010/7a31b0a4c8a1afce2eac.svg",
-            "png": "sources/figma-better-community-20261010/46ede9fe5a71cbcdc3e9.png"
-          },
-          "provider": "사용자 제공 Better Logos Figma Community 수집본",
-          "origin": "community",
-          "official": false,
-          "order": 2,
-          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
-          "png_width": 2000,
-          "png_height": 451
-        }
-      ]
-    },
-    "ey": {
-      "id": "ey",
-      "schema": 1,
-      "algo_v": 1,
-      "primary": null,
-      "variants": [
-        {
-          "key": "figma-better-original",
-          "label": "커뮤니티 수록 원색 · 시기 미확인",
-          "form": "horizontal",
-          "lockup": "horizontal",
-          "lang": "en",
-          "color": "original",
-          "light": false,
-          "files": {
-            "svg": "sources/figma-better-community-20261010/988ed800c4ad11cff9f5.svg",
-            "png": "sources/figma-better-community-20261010/de6a03f3b836275215cf.png"
-          },
-          "provider": "사용자 제공 Better Logos Figma Community 수집본",
-          "origin": "community",
-          "official": false,
-          "order": 0,
-          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
-          "png_width": 2000,
-          "png_height": 973
-        },
-        {
-          "key": "figma-better-white",
-          "label": "커뮤니티 수록 흰색 · 시기 미확인",
-          "form": "horizontal",
-          "lockup": "horizontal",
-          "lang": "en",
-          "color": "white",
-          "light": true,
-          "files": {
-            "svg": "sources/figma-better-community-20261010/cc57d0fd1439790e78d5.svg",
-            "png": "sources/figma-better-community-20261010/cb1e0754e509eeab88eb.png"
-          },
-          "provider": "사용자 제공 Better Logos Figma Community 수집본",
-          "origin": "community",
-          "official": false,
-          "order": 1,
-          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
-          "png_width": 2000,
-          "png_height": 973
-        },
-        {
-          "key": "figma-better-black",
-          "label": "커뮤니티 수록 검정 · 시기 미확인",
-          "form": "horizontal",
-          "lockup": "horizontal",
-          "lang": "en",
-          "color": "black",
-          "light": false,
-          "files": {
-            "svg": "sources/figma-better-community-20261010/d1ca3be7c57d9b30cefd.svg",
-            "png": "sources/figma-better-community-20261010/fc15acbb3ed1d2152029.png"
-          },
-          "provider": "사용자 제공 Better Logos Figma Community 수집본",
-          "origin": "community",
-          "official": false,
-          "order": 2,
-          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
-          "png_width": 2000,
-          "png_height": 973
-        }
-      ]
-    },
-    "etsy": {
-      "id": "etsy",
-      "schema": 1,
-      "algo_v": 1,
-      "primary": null,
-      "variants": [
-        {
-          "key": "figma-better-original",
-          "label": "커뮤니티 수록 원색 · 시기 미확인",
-          "form": "horizontal",
-          "lockup": "horizontal",
-          "lang": "en",
-          "color": "original",
-          "light": false,
-          "files": {
-            "svg": "sources/figma-better-community-20261010/56678df4dd6dddecdb3d.svg",
-            "png": "sources/figma-better-community-20261010/27443a75717d2b971c5a.png"
-          },
-          "provider": "사용자 제공 Better Logos Figma Community 수집본",
-          "origin": "community",
-          "official": false,
-          "order": 0,
-          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
-          "png_width": 2000,
-          "png_height": 949
-        },
-        {
-          "key": "figma-better-white",
-          "label": "커뮤니티 수록 흰색 · 시기 미확인",
-          "form": "horizontal",
-          "lockup": "horizontal",
-          "lang": "en",
-          "color": "white",
-          "light": true,
-          "files": {
-            "svg": "sources/figma-better-community-20261010/8341be3d216b898a00b7.svg",
-            "png": "sources/figma-better-community-20261010/7e44faa5017e0c8eb4be.png"
-          },
-          "provider": "사용자 제공 Better Logos Figma Community 수집본",
-          "origin": "community",
-          "official": false,
-          "order": 1,
-          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
-          "png_width": 2000,
-          "png_height": 949
-        },
-        {
-          "key": "figma-better-black",
-          "label": "커뮤니티 수록 검정 · 시기 미확인 · PNG 원본",
-          "form": "horizontal",
-          "lockup": "horizontal",
-          "lang": "en",
-          "color": "black",
-          "light": false,
-          "files": {
-            "png": "sources/figma-better-community-20261010/e178afb399c70f4ea5c7.png"
-          },
-          "provider": "사용자 제공 Better Logos Figma Community 수집본",
-          "origin": "community",
-          "official": false,
-          "order": 2,
-          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
-          "png_width": 908,
-          "png_height": 432
-        }
-      ]
-    },
-    "duolingo": {
-      "id": "duolingo",
-      "schema": 1,
-      "algo_v": 1,
-      "primary": null,
-      "variants": [
-        {
-          "key": "figma-better-original",
-          "label": "커뮤니티 수록 원색 · 시기 미확인",
-          "form": "horizontal",
-          "lockup": "horizontal",
-          "lang": "en",
-          "color": "original",
-          "light": false,
-          "files": {
-            "svg": "sources/figma-better-community-20261010/ad02d8b0572cc9b678ba.svg",
-            "png": "sources/figma-better-community-20261010/4cf5365eeed0959089e2.png"
-          },
-          "provider": "사용자 제공 Better Logos Figma Community 수집본",
-          "origin": "community",
-          "official": false,
-          "order": 0,
-          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
-          "png_width": 2000,
-          "png_height": 461
-        }
-      ]
-    },
-    "dollar-tree": {
-      "id": "dollar-tree",
-      "schema": 1,
-      "algo_v": 1,
-      "primary": null,
-      "variants": [
-        {
-          "key": "figma-better-original",
-          "label": "커뮤니티 수록 원색 · 시기 미확인",
-          "form": "horizontal",
-          "lockup": "horizontal",
-          "lang": "en",
-          "color": "original",
-          "light": false,
-          "files": {
-            "svg": "sources/figma-better-community-20261010/04feacd428ed4196af75.svg",
-            "png": "sources/figma-better-community-20261010/f384c9abf1baef99695a.png"
-          },
-          "provider": "사용자 제공 Better Logos Figma Community 수집본",
-          "origin": "community",
-          "official": false,
-          "order": 0,
-          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
-          "png_width": 2000,
-          "png_height": 208
-        },
-        {
-          "key": "figma-better-white",
-          "label": "커뮤니티 수록 흰색 · 시기 미확인",
-          "form": "horizontal",
-          "lockup": "horizontal",
-          "lang": "en",
-          "color": "white",
-          "light": true,
-          "files": {
-            "svg": "sources/figma-better-community-20261010/bb73cc32fc258487be88.svg",
-            "png": "sources/figma-better-community-20261010/5d60aede8aa322137886.png"
-          },
-          "provider": "사용자 제공 Better Logos Figma Community 수집본",
-          "origin": "community",
-          "official": false,
-          "order": 1,
-          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
-          "png_width": 2000,
-          "png_height": 208
-        },
-        {
-          "key": "figma-better-black",
-          "label": "커뮤니티 수록 검정 · 시기 미확인",
-          "form": "horizontal",
-          "lockup": "horizontal",
-          "lang": "en",
-          "color": "black",
-          "light": false,
-          "files": {
-            "svg": "sources/figma-better-community-20261010/f44319a9804bb36990b8.svg",
-            "png": "sources/figma-better-community-20261010/db2b6669a76d37a4bb9e.png"
-          },
-          "provider": "사용자 제공 Better Logos Figma Community 수집본",
-          "origin": "community",
-          "official": false,
-          "order": 2,
-          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
-          "png_width": 2000,
-          "png_height": 208
-        }
-      ]
-    },
-    "deloitte": {
-      "id": "deloitte",
-      "schema": 1,
-      "algo_v": 1,
-      "primary": null,
-      "variants": [
-        {
-          "key": "figma-better-original",
-          "label": "커뮤니티 수록 원색 · 시기 미확인",
-          "form": "horizontal",
-          "lockup": "horizontal",
-          "lang": "en",
-          "color": "original",
-          "light": false,
-          "files": {
-            "svg": "sources/figma-better-community-20261010/50bed820e15ea8993835.svg",
-            "png": "sources/figma-better-community-20261010/aa94d258b2b47584432e.png"
-          },
-          "provider": "사용자 제공 Better Logos Figma Community 수집본",
-          "origin": "community",
-          "official": false,
-          "order": 0,
-          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
-          "png_width": 2000,
-          "png_height": 374
-        },
-        {
-          "key": "figma-better-white",
-          "label": "커뮤니티 수록 흰색 · 시기 미확인",
-          "form": "horizontal",
-          "lockup": "horizontal",
-          "lang": "en",
-          "color": "white",
-          "light": true,
-          "files": {
-            "svg": "sources/figma-better-community-20261010/fc4ff3a3b6e733aa4691.svg",
-            "png": "sources/figma-better-community-20261010/c4769cb4d8f0984c9647.png"
-          },
-          "provider": "사용자 제공 Better Logos Figma Community 수집본",
-          "origin": "community",
-          "official": false,
-          "order": 1,
-          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
-          "png_width": 2000,
-          "png_height": 374
-        },
-        {
-          "key": "figma-better-black",
-          "label": "커뮤니티 수록 검정 · 시기 미확인",
-          "form": "horizontal",
-          "lockup": "horizontal",
-          "lang": "en",
-          "color": "black",
-          "light": false,
-          "files": {
-            "svg": "sources/figma-better-community-20261010/70888ab43a26b3889336.svg",
-            "png": "sources/figma-better-community-20261010/7e9b15586218bcbc5843.png"
-          },
-          "provider": "사용자 제공 Better Logos Figma Community 수집본",
-          "origin": "community",
-          "official": false,
-          "order": 2,
-          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
-          "png_width": 2000,
-          "png_height": 374
-        }
-      ]
-    },
-    "convertkit": {
-      "id": "convertkit",
-      "schema": 1,
-      "algo_v": 1,
-      "primary": null,
-      "variants": [
-        {
-          "key": "figma-better-original",
-          "label": "커뮤니티 수록 원색 · 시기 미확인",
-          "form": "horizontal",
-          "lockup": "horizontal",
-          "lang": "en",
-          "color": "original",
-          "light": false,
-          "files": {
-            "svg": "sources/figma-better-community-20261010/7f1df9c056a2eaca99d5.svg",
-            "png": "sources/figma-better-community-20261010/efabed06069f2100c32e.png"
-          },
-          "provider": "사용자 제공 Better Logos Figma Community 수집본",
-          "origin": "community",
-          "official": false,
-          "order": 0,
-          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
-          "png_width": 2000,
-          "png_height": 399
-        },
-        {
-          "key": "figma-better-white",
-          "label": "커뮤니티 수록 흰색 · 시기 미확인",
-          "form": "horizontal",
-          "lockup": "horizontal",
-          "lang": "en",
-          "color": "white",
-          "light": true,
-          "files": {
-            "svg": "sources/figma-better-community-20261010/1cb1cb138d7628f61399.svg",
-            "png": "sources/figma-better-community-20261010/6cc6bfaa31884bec9bc3.png"
-          },
-          "provider": "사용자 제공 Better Logos Figma Community 수집본",
-          "origin": "community",
-          "official": false,
-          "order": 1,
-          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
-          "png_width": 2000,
-          "png_height": 399
-        },
-        {
-          "key": "figma-better-black",
-          "label": "커뮤니티 수록 검정 · 시기 미확인",
-          "form": "horizontal",
-          "lockup": "horizontal",
-          "lang": "en",
-          "color": "black",
-          "light": false,
-          "files": {
-            "svg": "sources/figma-better-community-20261010/d6b95db43d5738dc3d14.svg",
-            "png": "sources/figma-better-community-20261010/0e53b4c9db9b2e20da3d.png"
-          },
-          "provider": "사용자 제공 Better Logos Figma Community 수집본",
-          "origin": "community",
-          "official": false,
-          "order": 2,
-          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
-          "png_width": 2000,
-          "png_height": 399
-        }
-      ]
-    },
-    "citi": {
-      "id": "citi",
-      "schema": 1,
-      "algo_v": 1,
-      "primary": null,
-      "variants": [
-        {
-          "key": "figma-better-original",
-          "label": "커뮤니티 수록 원색 · 시기 미확인",
-          "form": "horizontal",
-          "lockup": "horizontal",
-          "lang": "en",
-          "color": "original",
-          "light": false,
-          "files": {
-            "svg": "sources/figma-better-community-20261010/19006effb1529f7b8a2f.svg",
-            "png": "sources/figma-better-community-20261010/4b593850d74a140c6454.png"
-          },
-          "provider": "사용자 제공 Better Logos Figma Community 수집본",
-          "origin": "community",
-          "official": false,
-          "order": 0,
-          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
-          "png_width": 2000,
-          "png_height": 1290
-        },
-        {
-          "key": "figma-better-white",
-          "label": "커뮤니티 수록 흰색 · 시기 미확인",
-          "form": "horizontal",
-          "lockup": "horizontal",
-          "lang": "en",
-          "color": "white",
-          "light": true,
-          "files": {
-            "svg": "sources/figma-better-community-20261010/70978d785810ecdf9403.svg",
-            "png": "sources/figma-better-community-20261010/4024a4f6fca0fa1d8304.png"
-          },
-          "provider": "사용자 제공 Better Logos Figma Community 수집본",
-          "origin": "community",
-          "official": false,
-          "order": 1,
-          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
-          "png_width": 2000,
-          "png_height": 1290
-        },
-        {
-          "key": "figma-better-black",
-          "label": "커뮤니티 수록 검정 · 시기 미확인",
-          "form": "horizontal",
-          "lockup": "horizontal",
-          "lang": "en",
-          "color": "black",
-          "light": false,
-          "files": {
-            "svg": "sources/figma-better-community-20261010/c8cc8f6c10f76739a177.svg",
-            "png": "sources/figma-better-community-20261010/4fe60171e03bed1681b9.png"
-          },
-          "provider": "사용자 제공 Better Logos Figma Community 수집본",
-          "origin": "community",
-          "official": false,
-          "order": 2,
-          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
-          "png_width": 2000,
-          "png_height": 1290
-        }
-      ]
-    },
-    "circleci": {
-      "id": "circleci",
-      "schema": 1,
-      "algo_v": 1,
-      "primary": null,
-      "variants": [
-        {
-          "key": "figma-better-original",
-          "label": "커뮤니티 수록 원색 · 시기 미확인",
-          "form": "horizontal",
-          "lockup": "horizontal",
-          "lang": "en",
-          "color": "original",
-          "light": false,
-          "files": {
-            "svg": "sources/figma-better-community-20261010/4b83dd465a550f2ed6b4.svg",
-            "png": "sources/figma-better-community-20261010/9d40cd8145c8236ed32d.png"
-          },
-          "provider": "사용자 제공 Better Logos Figma Community 수집본",
-          "origin": "community",
-          "official": false,
-          "order": 0,
-          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
-          "png_width": 2000,
-          "png_height": 418
-        },
-        {
-          "key": "figma-better-white",
-          "label": "커뮤니티 수록 흰색 · 시기 미확인",
-          "form": "horizontal",
-          "lockup": "horizontal",
-          "lang": "en",
-          "color": "white",
-          "light": true,
-          "files": {
-            "svg": "sources/figma-better-community-20261010/251c80441dbba0dea282.svg",
-            "png": "sources/figma-better-community-20261010/46c14f482b3e2792e76a.png"
-          },
-          "provider": "사용자 제공 Better Logos Figma Community 수집본",
-          "origin": "community",
-          "official": false,
-          "order": 1,
-          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
-          "png_width": 2000,
-          "png_height": 418
-        },
-        {
-          "key": "figma-better-black",
-          "label": "커뮤니티 수록 검정 · 시기 미확인",
-          "form": "horizontal",
-          "lockup": "horizontal",
-          "lang": "en",
-          "color": "black",
-          "light": false,
-          "files": {
-            "svg": "sources/figma-better-community-20261010/81b3b98256a4c83fd5f5.svg",
-            "png": "sources/figma-better-community-20261010/6b2619ed68867130aebf.png"
-          },
-          "provider": "사용자 제공 Better Logos Figma Community 수집본",
-          "origin": "community",
-          "official": false,
-          "order": 2,
-          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
-          "png_width": 2000,
-          "png_height": 418
-        }
-      ]
-    },
-    "bumble": {
-      "id": "bumble",
-      "schema": 1,
-      "algo_v": 1,
-      "primary": null,
-      "variants": [
-        {
-          "key": "figma-better-original",
-          "label": "커뮤니티 수록 원색 · 시기 미확인",
-          "form": "horizontal",
-          "lockup": "horizontal",
-          "lang": "en",
-          "color": "original",
-          "light": false,
-          "files": {
-            "svg": "sources/figma-better-community-20261010/bd306fab32b584cd0451.svg",
-            "png": "sources/figma-better-community-20261010/15fafdbf576d5cf5b7d5.png"
-          },
-          "provider": "사용자 제공 Better Logos Figma Community 수집본",
-          "origin": "community",
-          "official": false,
-          "order": 0,
-          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
-          "png_width": 2000,
-          "png_height": 322
-        },
-        {
-          "key": "figma-better-white",
-          "label": "커뮤니티 수록 흰색 · 시기 미확인",
-          "form": "horizontal",
-          "lockup": "horizontal",
-          "lang": "en",
-          "color": "white",
-          "light": true,
-          "files": {
-            "svg": "sources/figma-better-community-20261010/6e1bd23aa25af13f1c8b.svg",
-            "png": "sources/figma-better-community-20261010/881142e2ebdeec8752e0.png"
-          },
-          "provider": "사용자 제공 Better Logos Figma Community 수집본",
-          "origin": "community",
-          "official": false,
-          "order": 1,
-          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
-          "png_width": 2000,
-          "png_height": 322
-        },
-        {
-          "key": "figma-better-black",
-          "label": "커뮤니티 수록 검정 · 시기 미확인",
-          "form": "horizontal",
-          "lockup": "horizontal",
-          "lang": "en",
-          "color": "black",
-          "light": false,
-          "files": {
-            "svg": "sources/figma-better-community-20261010/71362fdac2d0d6ae590c.svg",
-            "png": "sources/figma-better-community-20261010/c71edfee6f141e90ff04.png"
-          },
-          "provider": "사용자 제공 Better Logos Figma Community 수집본",
-          "origin": "community",
-          "official": false,
-          "order": 2,
-          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
-          "png_width": 2000,
-          "png_height": 322
-        }
-      ]
-    },
-    "accenture": {
-      "id": "accenture",
-      "schema": 1,
-      "algo_v": 1,
-      "primary": null,
-      "variants": [
-        {
-          "key": "figma-better-original",
-          "label": "커뮤니티 수록 원색 · 시기 미확인",
-          "form": "horizontal",
-          "lockup": "horizontal",
-          "lang": "en",
-          "color": "original",
-          "light": false,
-          "files": {
-            "svg": "sources/figma-better-community-20261010/f1bea0be3ae74f1d1021.svg",
-            "png": "sources/figma-better-community-20261010/bad1d9143e509d7bda1d.png"
-          },
-          "provider": "사용자 제공 Better Logos Figma Community 수집본",
-          "origin": "community",
-          "official": false,
-          "order": 0,
-          "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
-          "png_width": 2000,
-          "png_height": 526
+          "png_height": 628
         }
       ]
     }

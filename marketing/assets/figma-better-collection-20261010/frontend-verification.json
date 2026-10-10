@@ -1,0 +1,44 @@
+[
+  {
+    "id": "adobe",
+    "ok": true,
+    "expected_variants": 3,
+    "bytes": 51432
+  },
+  {
+    "id": "stripe",
+    "ok": true,
+    "expected_variants": 9,
+    "bytes": 51050
+  },
+  {
+    "id": "sap",
+    "ok": true,
+    "expected_variants": 3,
+    "bytes": 50196
+  },
+  {
+    "id": "spacex",
+    "ok": true,
+    "expected_variants": 3,
+    "bytes": 50855
+  },
+  {
+    "id": "nhbank",
+    "ok": true,
+    "expected_variants": 9,
+    "bytes": 51278
+  },
+  {
+    "id": "kmcc",
+    "ok": true,
+    "expected_variants": 10,
+    "bytes": 53362
+  },
+  {
+    "id": "snuh",
+    "ok": true,
+    "expected_variants": 12,
+    "bytes": 51937
+  }
+]

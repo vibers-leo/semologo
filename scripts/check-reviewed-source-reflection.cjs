@@ -45,3 +45,18 @@ assert.equal(reviewedMergeTarget('ibk-en'),'ibk');
 assert.ok(reviewedVariants.ibk.variants.some(v=>v.lang==='en'));
 assert.ok(applyReviewedAssets({id:'kbstar'}).rejected_asset_files.includes('logo-800.png'));
 console.log('Bank contamination exclusion and IBK identity merges: passed');
+
+for (const id of ['no-verca', 'noordned', 'paddington']) {
+  const repaired = applyReviewedAssets({id,has_svg:true,logo_svg:true});
+  assert.equal(repaired.has_svg,false);
+  assert.equal(repaired.logo_svg,null);
+  assert.ok(repaired.presentation.file.startsWith('sources/raster-recovery-20261010/'));
+  assert.ok(reviewedVariants[id].variants.every(v => !v.files.svg));
+}
+for (const id of ['kudu','htv-x']) {
+  const repaired = applyReviewedAssets({id});
+  assert.equal(repaired.presentation.bg,'dark');
+  assert.ok(repaired.presentation.file.startsWith('sources/quality-public-recovery-20261010/'));
+}
+assert.equal(applyReviewedAssets({id:'capture-one'}).has_svg,true);
+console.log('Reviewed PNG repairs and white-logo background choices: passed');

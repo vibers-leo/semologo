@@ -1,0 +1,122 @@
+[
+  {
+    "key": "_clients/zillow/sources/figma-better-community-20261010/f0417245f43af37ad9ed.png",
+    "sha256": "f0417245f43af37ad9eda10343115e4cf8a25ff5bd6d14ef80934f6b833e0ad9",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/venmo/sources/figma-better-community-20261010/9231d6a35c796d5c2a69.png",
+    "sha256": "9231d6a35c796d5c2a69e85aa6ad24aaf57e89a434fccc7ae677b605b4338831",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/upwork/sources/figma-better-community-20261010/b5b8c7b3e202666b841a.png",
+    "sha256": "b5b8c7b3e202666b841a0da54d165be675f9107bd85c207140bc3bdbd17e7a7f",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/oxford/sources/figma-better-community-20261010/94d30d2a65e6a36c2532.png",
+    "sha256": "94d30d2a65e6a36c25327266896fb4c323d82a53396827e695f984c5cd12532a",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/techcrunch/sources/figma-better-community-20261010/824f09b22dd323577026.png",
+    "sha256": "824f09b22dd323577026dd636ba07b69caca3d6f42b3719f4e9c20a6cbccfcc2",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/taskrabbit/sources/figma-better-community-20261010/d22d391e0730d2b44419.png",
+    "sha256": "d22d391e0730d2b444196ed5300fc10f49ca431bf7add33461b5203211bd000d",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/search-engine-land/sources/figma-better-community-20261010/b7c5da79bbdc7aff0902.png",
+    "sha256": "b7c5da79bbdc7aff0902a7b4cfdb78b6cc776833828bb9c63ff4ff408b453c40",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/search-engine-land/sources/figma-better-community-20261010/73ff8a42b12ddb9bdec2.png",
+    "sha256": "73ff8a42b12ddb9bdec2e7dee44f64ecc50da82dda0688a557d9344865ac57de",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/reuters/sources/figma-better-community-20261010/e97b2f5cc3d218a8238b.png",
+    "sha256": "e97b2f5cc3d218a8238b1cfac2e6b0f6a1d09490c02eacb26f2afeb88bef1a5a",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/reuters/sources/figma-better-community-20261010/f6fab57ab6916111506e.png",
+    "sha256": "f6fab57ab6916111506eae20664081a4088636d160a7e46e409309e4ccfcaa86",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/nokia/sources/figma-better-community-20261010/f29ff0ffdc9cfc3980a6.png",
+    "sha256": "f29ff0ffdc9cfc3980a6c911056b976a9ed1937cbd1d277aff9a55e1a22282e7",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/instacart/sources/figma-better-community-20261010/8c5dc21163ab7d3d538d.png",
+    "sha256": "8c5dc21163ab7d3d538d3dd526eb176bb1b986d5ca4e70b006bfefe20e288134",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/cnet/sources/figma-better-community-20261010/190409bf9231b4184391.png",
+    "sha256": "190409bf9231b4184391fe4b8de51948e27097796ded8a76e3e94880b11f5168",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/cnet/sources/figma-better-community-20261010/44ba9b011c0ae6a1d681.png",
+    "sha256": "44ba9b011c0ae6a1d681dc6ea7054f4b450e036a9522c43ce62e52a6f7a1d9a6",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/bbc/sources/figma-better-community-20261010/ba9ad7449e99a1bb8476.png",
+    "sha256": "ba9ad7449e99a1bb8476b4b1f18b4079e8f0b31d1d8d62151314663059ec0920",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/frontify/sources/figma-better-community-20261010/fc6c8159af63c70ba3b1.png",
+    "sha256": "fc6c8159af63c70ba3b16e9755f6796a43a07f5a2224d9af861a2cc175811032",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/venrock/sources/figma-better-community-20261010/f38700b5c8155b323aaa.png",
+    "sha256": "f38700b5c8155b323aaa9a650d64456ae943c6488c70d0f0eae45fd2a754784e",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/mckinsey-company/sources/figma-better-community-20261010/eadbd456e920bd5098da.png",
+    "sha256": "eadbd456e920bd5098da3c30d42883456df9485b7a308637df3f5b55102c11e5",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/expedia/sources/figma-better-community-20261010/52f8adef5233fc12bf1e.png",
+    "sha256": "52f8adef5233fc12bf1e7e099cf8805c5bcbb5d50cca342d25bf86ebd636584c",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/ebay/sources/figma-better-community-20261010/5215207fbb6fb3fe1952.png",
+    "sha256": "5215207fbb6fb3fe19525801d56b024589bb24356bc2917ffd0834349f6311c0",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/prosus/sources/figma-better-community-20261010/3ab0d7698eb112cdfd5d.png",
+    "sha256": "3ab0d7698eb112cdfd5d0f4c9e564d0bcd9f201315b50b0288c1e217ed811570",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/pepsico/sources/figma-better-community-20261010/9203828e20d151b49a8c.png",
+    "sha256": "9203828e20d151b49a8cde28b0d6f2ba208b54a1668eeee5c4eefb14c06ca5b8",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/pepsico/sources/figma-better-community-20261010/ff43fce8afe00a60f256.png",
+    "sha256": "ff43fce8afe00a60f2563770a795875a8e9e7fe3d512c4661b2f1ff6860c206f",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/tencent/sources/figma-better-community-20261010/508ab6f8c1fc11f78dd3.png",
+    "sha256": "508ab6f8c1fc11f78dd363fe99269a100f0af1c8f5234e3f5f3b009aa7bd093a",
+    "cdn_verified": true
+  }
+]

@@ -650,6 +650,10 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
               <a href={`${CDN}/${brand.id}/${brand.source_ai}?v=${VERSION}`} download
                  style={{ display:"inline-flex", alignItems:"center", gap:3, padding:"1px 7px", borderRadius:999, fontSize:11, fontWeight:600, color:"#4338ca", background:"rgba(99,102,241,.1)", border:"1px solid rgba(99,102,241,.25)", textDecoration:"none" }}>원본 AI</a>
             )}
+            {brand.source_document_url?.startsWith(`${CDN}/${brand.id}/sources/`) && !brand.source_document_url.includes('..') && brand.source_document_url.endsWith('.pdf') && (
+              <a href={brand.source_document_url} download
+                 style={{ display:"inline-flex", alignItems:"center", gap:3, padding:"1px 7px", borderRadius:999, fontSize:11, fontWeight:600, color:"#4338ca", background:"rgba(99,102,241,.1)", border:"1px solid rgba(99,102,241,.25)", textDecoration:"none" }}>원본 PDF</a>
+            )}
             {brand.brand_manual && (
               <a href={`${CDN}/${brand.id}/${brand.brand_manual}?v=${VERSION}`}
                  download

@@ -32,6 +32,12 @@ const {Pool}=require('pg');(async()=>{const p=new Pool({connectionString:process
  for(const [id,manifest] of Object.entries(release.variants)){
   if(manifest.id!==id||!Array.isArray(manifest.variants)||!manifest.variants.length)throw Error('Invalid manifest '+id);
   const old=await d.query('SELECT payload,status FROM semologo.logo_posts WHERE id=$1 FOR UPDATE',[id]);
+  const previousVersions=await d.query('SELECT id,asset_manifest FROM semologo.logo_versions WHERE brand_id=$1 AND is_current FOR UPDATE',[id]);
+  const previousManifest=previousVersions.rows[0]?.asset_manifest||{};
+  for(const version of previousVersions.rows){
+   const prior=version.asset_manifest?.variants?.variants||[];
+   if(prior.some(v=>!manifest.variants.some(n=>n.key===v.key&&JSON.stringify(n.files)===JSON.stringify(v.files))))throw Error('Existing variant would be lost '+id);
+  }
   if(old.rowCount){
    if(old.rows[0].status!=='published'||old.rows[0].payload.hidden||old.rows[0].payload.merged_into)throw Error('Canonical identity required '+id);
    const attachments={};const patch=release.patches[id]||{};
@@ -48,9 +54,9 @@ const {Pool}=require('pg');(async()=>{const p=new Pool({connectionString:process
   }
   const versions=await d.query('SELECT id,asset_manifest FROM semologo.logo_versions WHERE brand_id=$1 AND is_current FOR UPDATE',[id]);
   for(const version of versions.rows){
-   const before=version.asset_manifest||{}, prior=before.variants?.variants||[];
+   const before={...previousManifest,...(version.asset_manifest||{})}, prior=before.variants?.variants||[];
    if(prior.some(v=>!manifest.variants.some(n=>n.key===v.key&&JSON.stringify(n.files)===JSON.stringify(v.files))))throw Error('Existing variant would be lost '+id);
-   const files=[...(before.files||[])];for(const f of uploads.filter(x=>x.id===id))if(!files.some(x=>x.key===f.key))files.push(f);
+   const files=[...(previousManifest.files||[])];for(const f of [...(before.files||[]),...uploads.filter(x=>x.id===id)])if(!files.some(x=>x.key===f.key))files.push(f);
    const after={...before,variants:manifest,files};
    await d.query('UPDATE semologo.logo_versions SET asset_manifest=$2::jsonb WHERE id=$1',[version.id,JSON.stringify(after)]);
    if(!old.rowCount)await d.query("UPDATE semologo.logo_versions SET review_status='verified',verified_at=now(),label='커뮤니티 수록 로고 · 벡터 검수',source_note='사용자 제공 Figma Community 내보내기에서 추출. 공식 배포 원본으로 표시하지 않음.' WHERE id=$1",[version.id]);

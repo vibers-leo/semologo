@@ -743,5 +743,49 @@
     "status": "quarantined",
     "reason": "기관 대신 웹 접근성 인증 마크",
     "down_at_review": 1
+  },
+  "capture-one": {
+    "status": "repaired",
+    "reason": "원본을 다시 확보하고 정상 PNG 대표·투명도·공개 CDN 파일을 검수함",
+    "reviewed_at": "2026-10-10T13:53:10.681495+00:00",
+    "down_at_review": 1
+  },
+  "kudu": {
+    "status": "repaired",
+    "reason": "원본을 다시 확보하고 정상 PNG 대표·투명도·공개 CDN 파일을 검수함",
+    "reviewed_at": "2026-10-10T13:53:10.681495+00:00",
+    "down_at_review": 1
+  },
+  "postemobile": {
+    "status": "repaired",
+    "reason": "원본을 다시 확보하고 정상 PNG 대표·투명도·공개 CDN 파일을 검수함",
+    "reviewed_at": "2026-10-10T13:53:10.681495+00:00",
+    "down_at_review": 1
+  },
+  "no-verca": {
+    "status": "repaired",
+    "reason": "원본을 다시 확보하고 정상 PNG 대표·투명도·공개 CDN 파일을 검수함",
+    "reviewed_at": "2026-10-10T13:53:10.681495+00:00",
+    "down_at_review": 1
+  },
+  "noordned": {
+    "status": "repaired",
+    "reason": "원본을 다시 확보하고 정상 PNG 대표·투명도·공개 CDN 파일을 검수함",
+    "reviewed_at": "2026-10-10T13:53:10.681495+00:00",
+    "down_at_review": 1
+  },
+  "paddington": {
+    "status": "repaired",
+    "reason": "원본을 다시 확보하고 정상 PNG 대표·투명도·공개 CDN 파일을 검수함",
+    "reviewed_at": "2026-10-10T13:53:10.681495+00:00",
+    "down_at_review": 1
+  },
+  "westerveld": {
+    "status": "repaired",
+    "reason": "검수된 원본 기반 PNG 복구 및 안전한 대표 이미지 지정",
+    "reviewed_at": "2026-10-10",
+    "down_at_review": 1,
+    "preview_file": "sources/westerveld-official-recovery-20261010/a2b5da0653402644b7b4.png",
+    "light": false
   }
 }
