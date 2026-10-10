@@ -1,0 +1,283 @@
+{
+  "patches": {
+    "kdi": {
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": "sources/official-institution-20261010-b5/d91c8288a498ae1d.svg",
+      "svg_transparent": "sources/official-institution-20261010-b5/d91c8288a498ae1d.svg",
+      "logo_png": "sources/official-institution-20261010-b5/d91c8288a498ae1d.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/kdi/sources/official-institution-20261010-b5/d91c8288a498ae1d.png",
+      "official_source_page": "https://www.kdi.re.kr/introduce/pmCi",
+      "official_zip_url": "https://www.kdi.re.kr/res/ci/logo_CI_ai.zip",
+      "asset_origin": "공식 기관 CI 원본 · 조합별 전체 도형 범위 검수",
+      "light": false,
+      "light_logo": false,
+      "dark_variant": false
+    },
+    "gongu-ci-0246": {
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": "sources/official-institution-20261010-b5/7697503e34d9434e.svg",
+      "svg_transparent": "sources/official-institution-20261010-b5/7697503e34d9434e.svg",
+      "logo_png": "sources/official-institution-20261010-b5/7697503e34d9434e.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/gongu-ci-0246/sources/official-institution-20261010-b5/7697503e34d9434e.png",
+      "official_source_page": "https://yfac.kr/main/contents.do?idx=2489",
+      "official_zip_url": "https://yfac.kr/nanum/site/builder/dir/main/img/menu2479/Ci_Download.zip",
+      "asset_origin": "공식 기관 CI 원본 · 조합별 전체 도형 범위 검수",
+      "light": false,
+      "light_logo": false,
+      "dark_variant": false
+    }
+  },
+  "variants": {
+    "kdi": {
+      "schema": 1,
+      "algo_v": 2,
+      "id": "kdi",
+      "primary": "horizontal-ko-en-vertical",
+      "variants": [
+        {
+          "key": "horizontal-ko",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "text_layout": "ko",
+          "asset_group": "logotype",
+          "lang": "ko",
+          "color": "original",
+          "label": "국문 좌우조합",
+          "files": {
+            "svg": "sources/official-institution-20261010-b5/8a087ba412f3a058.svg",
+            "png": "sources/official-institution-20261010-b5/8a087ba412f3a058.png"
+          },
+          "provider": "기관 공식 CI 원본",
+          "source_url": "https://www.kdi.re.kr/introduce/pmCi",
+          "origin": "derived",
+          "order": 0
+        },
+        {
+          "key": "horizontal-en",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "text_layout": "en",
+          "asset_group": "logotype",
+          "lang": "en",
+          "color": "original",
+          "label": "영문 좌우조합",
+          "files": {
+            "svg": "sources/official-institution-20261010-b5/b190a277c63a6c6a.svg",
+            "png": "sources/official-institution-20261010-b5/b190a277c63a6c6a.png"
+          },
+          "provider": "기관 공식 CI 원본",
+          "source_url": "https://www.kdi.re.kr/introduce/pmCi",
+          "origin": "derived",
+          "order": 1
+        },
+        {
+          "key": "horizontal-ko-en-vertical",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "text_layout": "ko-en-vertical",
+          "asset_group": "logotype",
+          "lang": "ko",
+          "color": "original",
+          "label": "국영문 좌우조합",
+          "files": {
+            "svg": "sources/official-institution-20261010-b5/d91c8288a498ae1d.svg",
+            "png": "sources/official-institution-20261010-b5/d91c8288a498ae1d.png"
+          },
+          "provider": "기관 공식 CI 원본",
+          "source_url": "https://www.kdi.re.kr/introduce/pmCi",
+          "origin": "derived",
+          "order": 2
+        }
+      ]
+    },
+    "gongu-ci-0246": {
+      "schema": 1,
+      "algo_v": 2,
+      "id": "gongu-ci-0246",
+      "primary": "vertical-B-ko-en-vertical",
+      "variants": [
+        {
+          "key": "vertical",
+          "form": "symbol",
+          "asset_group": "symbol",
+          "lang": "none",
+          "color": "original",
+          "label": "심볼마크",
+          "files": {
+            "svg": "sources/official-institution-20261010-b2/dd811dd20bbb60ce.svg",
+            "png": "sources/official-institution-20261010-b2/dd811dd20bbb60ce.png"
+          },
+          "provider": "기관 공식 CI 원본에서 추출",
+          "origin": "derived",
+          "order": 0,
+          "lockup": "symbol",
+          "text_layout": "none"
+        },
+        {
+          "key": "symbol",
+          "form": "symbol",
+          "lockup": "symbol",
+          "text_layout": "none",
+          "asset_group": "symbol",
+          "lang": "none",
+          "color": "original",
+          "label": "심볼마크",
+          "files": {
+            "svg": "sources/official-institution-20261010-b5/a4267fdf8ed8b9a7.svg",
+            "png": "sources/official-institution-20261010-b5/a4267fdf8ed8b9a7.png"
+          },
+          "provider": "기관 공식 CI 원본",
+          "source_url": "https://yfac.kr/main/contents.do?idx=2489",
+          "origin": "derived",
+          "order": 0
+        },
+        {
+          "key": "vertical-A-ko",
+          "form": "vertical",
+          "lockup": "vertical",
+          "text_layout": "ko",
+          "asset_group": "logotype",
+          "lang": "ko",
+          "color": "original",
+          "label": "세로조합형 A · 국문",
+          "files": {
+            "svg": "sources/official-institution-20261010-b5/d661f76c7cf5034c.svg",
+            "png": "sources/official-institution-20261010-b5/d661f76c7cf5034c.png"
+          },
+          "provider": "기관 공식 CI 원본",
+          "source_url": "https://yfac.kr/main/contents.do?idx=2489",
+          "origin": "derived",
+          "order": 1
+        },
+        {
+          "key": "vertical-A-ko-en-vertical",
+          "form": "vertical",
+          "lockup": "vertical",
+          "text_layout": "ko-en-vertical",
+          "asset_group": "logotype",
+          "lang": "ko",
+          "color": "original",
+          "label": "세로조합형 A · 국영문 상하조합",
+          "files": {
+            "svg": "sources/official-institution-20261010-b5/571d1b29bf36707f.svg",
+            "png": "sources/official-institution-20261010-b5/571d1b29bf36707f.png"
+          },
+          "provider": "기관 공식 CI 원본",
+          "source_url": "https://yfac.kr/main/contents.do?idx=2489",
+          "origin": "derived",
+          "order": 2
+        },
+        {
+          "key": "vertical-B-ko",
+          "form": "vertical",
+          "lockup": "vertical",
+          "text_layout": "ko",
+          "asset_group": "logotype",
+          "lang": "ko",
+          "color": "original",
+          "label": "세로조합형 B · 국문",
+          "files": {
+            "svg": "sources/official-institution-20261010-b5/6d8aa85a2de4657d.svg",
+            "png": "sources/official-institution-20261010-b5/6d8aa85a2de4657d.png"
+          },
+          "provider": "기관 공식 CI 원본",
+          "source_url": "https://yfac.kr/main/contents.do?idx=2489",
+          "origin": "derived",
+          "order": 3
+        },
+        {
+          "key": "vertical-B-ko-en-vertical",
+          "form": "vertical",
+          "lockup": "vertical",
+          "text_layout": "ko-en-vertical",
+          "asset_group": "logotype",
+          "lang": "ko",
+          "color": "original",
+          "label": "세로조합형 B · 국영문 상하조합",
+          "files": {
+            "svg": "sources/official-institution-20261010-b5/7697503e34d9434e.svg",
+            "png": "sources/official-institution-20261010-b5/7697503e34d9434e.png"
+          },
+          "provider": "기관 공식 CI 원본",
+          "source_url": "https://yfac.kr/main/contents.do?idx=2489",
+          "origin": "derived",
+          "order": 4
+        },
+        {
+          "key": "horizontal-ko",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "text_layout": "ko",
+          "asset_group": "logotype",
+          "lang": "ko",
+          "color": "original",
+          "label": "국문 좌우조합",
+          "files": {
+            "svg": "sources/official-institution-20261010-b5/324469b07fa6ec74.svg",
+            "png": "sources/official-institution-20261010-b5/324469b07fa6ec74.png"
+          },
+          "provider": "기관 공식 CI 원본",
+          "source_url": "https://yfac.kr/main/contents.do?idx=2489",
+          "origin": "derived",
+          "order": 5
+        },
+        {
+          "key": "horizontal-ko-en-vertical",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "text_layout": "ko-en-vertical",
+          "asset_group": "logotype",
+          "lang": "ko",
+          "color": "original",
+          "label": "국영문 좌우조합",
+          "files": {
+            "svg": "sources/official-institution-20261010-b5/a35b4fdb4e771f17.svg",
+            "png": "sources/official-institution-20261010-b5/a35b4fdb4e771f17.png"
+          },
+          "provider": "기관 공식 CI 원본",
+          "source_url": "https://yfac.kr/main/contents.do?idx=2489",
+          "origin": "derived",
+          "order": 6
+        },
+        {
+          "key": "wordmark-ko",
+          "form": "wordmark",
+          "lockup": "wordmark",
+          "text_layout": "ko",
+          "asset_group": "logotype",
+          "lang": "ko",
+          "color": "original",
+          "label": "국문 로고타입",
+          "files": {
+            "svg": "sources/official-institution-20261010-b5/ff41bd94e12ad518.svg",
+            "png": "sources/official-institution-20261010-b5/ff41bd94e12ad518.png"
+          },
+          "provider": "기관 공식 CI 원본",
+          "source_url": "https://yfac.kr/main/contents.do?idx=2489",
+          "origin": "derived",
+          "order": 7
+        },
+        {
+          "key": "wordmark-ko-en-vertical",
+          "form": "wordmark",
+          "lockup": "wordmark",
+          "text_layout": "ko-en-vertical",
+          "asset_group": "logotype",
+          "lang": "ko",
+          "color": "original",
+          "label": "국영문 로고타입",
+          "files": {
+            "svg": "sources/official-institution-20261010-b5/c5a20a0efb8699c5.svg",
+            "png": "sources/official-institution-20261010-b5/c5a20a0efb8699c5.png"
+          },
+          "provider": "기관 공식 CI 원본",
+          "source_url": "https://yfac.kr/main/contents.do?idx=2489",
+          "origin": "derived",
+          "order": 8
+        }
+      ]
+    }
+  }
+}

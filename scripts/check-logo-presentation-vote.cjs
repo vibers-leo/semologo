@@ -1,0 +1,12 @@
+const fs=require('fs'),ts=require('typescript'),vm=require('vm'),assert=require('assert');
+const out={};
+vm.runInNewContext(ts.transpileModule(fs.readFileSync(require('path').join(__dirname,'../src/lib/logo-presentation-vote.ts'),'utf8'),{compilerOptions:{module:ts.ModuleKind.CommonJS}}).outputText,{exports:out});
+const {presentationVoteKey:key,presentationVoteCount:count,legacyFileVoteKey:legacy}=out;
+assert.notEqual(key('sources/a.png','light'),key('sources/a.png','dark'));
+assert.notEqual(key('a/b.png','light'),key('a__b.png','light'));
+assert(!key('sources/a.png','light').includes('.'));
+const votes={[legacy('a.png')]:4,[key('a.png','light')]:2,[key('a.png','dark')]:3};
+assert.equal(count(votes,'a.png','light'),6);
+assert.equal(count(votes,'a.png','dark'),3);
+assert.equal(count(votes,'absent.png','light'),0);
+console.log('PASS distinct file/background identities, safe field paths, and legacy vote totals.');

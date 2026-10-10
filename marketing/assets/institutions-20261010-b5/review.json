@@ -1,0 +1,18 @@
+[
+  {
+    "id": "kdi",
+    "name": "한국개발연구원",
+    "source_page": "https://www.kdi.re.kr/introduce/pmCi",
+    "source_url": "https://www.kdi.re.kr/res/ci/logo_CI_ai.zip",
+    "sha256": "f2e8c11bbfc67c4538a4011c598247f05a19369cb5d9de0c75a8b5b4c8a5371c",
+    "collection_member_id": "alio-37b057855ab94c54"
+  },
+  {
+    "id": "gongu-ci-0246",
+    "name": "재단법인 양천문화재단",
+    "source_page": "https://yfac.kr/main/contents.do?idx=2489",
+    "source_url": "https://yfac.kr/nanum/site/builder/dir/main/img/menu2479/Ci_Download.zip",
+    "sha256": "2f7e5f85bfadaf47d86e2f71682a2921d2861219caaf931ebeb1d4ce97dbb968",
+    "collection_member_id": "cleaneye-출연-44"
+  }
+]
