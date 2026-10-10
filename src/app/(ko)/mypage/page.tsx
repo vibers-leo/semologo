@@ -6,6 +6,7 @@ import { onAuthStateChanged, type User } from "firebase/auth";
 import { getClientAuth } from "@/lib/firebase";
 import { SUPPORT, API_PERKS, apiRequestTemplate } from "@/lib/support";
 import Header from "@/components/Header";
+import MyLogoWalls from "@/components/MyLogoWalls";
 
 export default function MyPage() {
   const router = useRouter();
@@ -58,6 +59,8 @@ export default function MyPage() {
             {user.displayName ? `${user.displayName}님, ` : ""}반가워요 👋
           </p>
         </div>
+
+        <MyLogoWalls user={user} />
 
         {/* API 키 발급 */}
         <section style={{ background: "#fff", border: "1px solid var(--border)", borderRadius: 16, padding: "22px 20px" }}>
@@ -142,7 +145,7 @@ export default function MyPage() {
         <section style={{ marginTop: 16, background: "#fff", border: "1px dashed var(--border)", borderRadius: 16, padding: "18px 20px" }}>
           <div style={{ fontSize: 12, fontWeight: 700, marginBottom: 8 }}>곧 생길 것들 🚧</div>
           <p style={{ fontSize: 12, lineHeight: 1.7, color: "var(--text-secondary)", margin: 0 }}>
-            내가 만든 리스트 · 제보한 로고 현황.
+            제보한 로고 현황.
             준비되는 대로 여기에 붙일게요.
           </p>
         </section>

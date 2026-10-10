@@ -1,0 +1,227 @@
+{
+  "patches": {
+    "baemin": {
+      "id": "baemin",
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": "sources/baemin-guide-fix-20261010/0a15e46fd676e635.svg",
+      "svg_transparent": "sources/baemin-guide-fix-20261010/0a15e46fd676e635.svg",
+      "logo_png": "sources/baemin-guide-fix-20261010/d4c5ccbdcad27a3a.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/baemin/sources/baemin-guide-fix-20261010/d4c5ccbdcad27a3a.png",
+      "brand_manual": "sources/baemin-guide-20261010/c6ef4d28f44ffa5a.pdf",
+      "asset_review_status": "verified",
+      "variants_n": 5,
+      "asset_origin": "사용자 제공 배달의민족 공식 로고 사용가이드 (2019.01.04)",
+      "light": false,
+      "light_logo": false,
+      "dark_variant": false,
+      "logo_published_at": "2026-10-10T08:00:00Z",
+      "rejected_asset_files": [
+        "logo-icon.png",
+        "logo-800.png",
+        "logo-transparent.png",
+        "logo-white.png"
+      ],
+      "icon_png": "sources/baemin-guide-20261010/37d6d0ad6603fb2f.png",
+      "name_ko": "배달의민족",
+      "name_en": "Baemin",
+      "origin": "KR",
+      "category": "IT·테크",
+      "related_ids": [
+        "baemin-riders"
+      ],
+      "presentation": {
+        "file": "sources/baemin-guide-fix-20261010/d4c5ccbdcad27a3a.png",
+        "bg": "light"
+      }
+    },
+    "baemin-riders": {
+      "id": "baemin-riders",
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": "sources/baemin-guide-fix-20261010/3678ea37804db8f9.svg",
+      "svg_transparent": "sources/baemin-guide-fix-20261010/3678ea37804db8f9.svg",
+      "logo_png": "sources/baemin-guide-fix-20261010/b18747fe7ad721ff.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/baemin-riders/sources/baemin-guide-fix-20261010/b18747fe7ad721ff.png",
+      "brand_manual": "sources/baemin-guide-20261010/c6ef4d28f44ffa5a.pdf",
+      "asset_review_status": "verified",
+      "variants_n": 2,
+      "asset_origin": "사용자 제공 배달의민족 공식 로고 사용가이드 (2019.01.04)",
+      "light": false,
+      "light_logo": false,
+      "dark_variant": false,
+      "logo_published_at": "2026-10-10T08:00:00Z",
+      "rejected_asset_files": [
+        "logo-icon.png",
+        "logo-800.png",
+        "logo-transparent.png",
+        "logo-white.png"
+      ],
+      "name_ko": "배민라이더스",
+      "name_en": "Baemin Riders",
+      "origin": "KR",
+      "category": "물류·교통",
+      "aliases": [
+        "배달의민족 라이더스",
+        "Baemin Riders"
+      ],
+      "added_at": "2026-10-10",
+      "related_ids": [
+        "baemin"
+      ],
+      "presentation": {
+        "file": "sources/baemin-guide-fix-20261010/b18747fe7ad721ff.png",
+        "bg": "light"
+      }
+    }
+  },
+  "variants": {
+    "baemin": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "baemin",
+      "primary": "wordmark-black",
+      "variants": [
+        {
+          "key": "wordmark-black",
+          "label": "로고타입 · 검정 · 2019 가이드",
+          "form": "wordmark",
+          "lockup": "wordmark",
+          "lang": "ko",
+          "color": "black",
+          "files": {
+            "svg": "sources/baemin-guide-fix-20261010/0a15e46fd676e635.svg",
+            "png": "sources/baemin-guide-fix-20261010/d4c5ccbdcad27a3a.png"
+          },
+          "aspect": 4.403712261005755,
+          "origin": "manual",
+          "provider": "사용자 제공 공식 PDF · 원본 경로 보존 검수 (2019.01.04)",
+          "derived_from": "[배달의민족]로고사용가이드_꼭 읽어보세요.pdf · p.9",
+          "order": 0,
+          "asset_group": "logotype",
+          "source_resolution": null
+        },
+        {
+          "key": "wordmark-white",
+          "label": "로고타입 · 흰색 · 2019 가이드",
+          "form": "wordmark",
+          "lockup": "wordmark",
+          "lang": "ko",
+          "color": "white",
+          "files": {
+            "svg": "sources/baemin-guide-fix-20261010/01d10aa5ce3d67fc.svg",
+            "png": "sources/baemin-guide-fix-20261010/f46bbbeb4a708116.png"
+          },
+          "aspect": 4.403634185303511,
+          "origin": "manual",
+          "provider": "사용자 제공 공식 PDF · 원본 경로 보존 검수 (2019.01.04)",
+          "derived_from": "[배달의민족]로고사용가이드_꼭 읽어보세요.pdf · p.10",
+          "order": 1,
+          "asset_group": "logotype",
+          "source_resolution": null
+        },
+        {
+          "key": "wordmark-mint",
+          "label": "로고타입 · 민트 · 2019 가이드",
+          "form": "wordmark",
+          "lockup": "wordmark",
+          "lang": "ko",
+          "color": "mint",
+          "files": {
+            "svg": "sources/baemin-guide-fix-20261010/e0e7d561f9f5afe0.svg",
+            "png": "sources/baemin-guide-fix-20261010/ec1bcbd5e03c9d1e.png"
+          },
+          "aspect": 4.403674121405744,
+          "origin": "manual",
+          "provider": "사용자 제공 공식 PDF · 원본 경로 보존 검수 (2019.01.04)",
+          "derived_from": "[배달의민족]로고사용가이드_꼭 읽어보세요.pdf · p.10",
+          "order": 2,
+          "asset_group": "logotype",
+          "source_resolution": null
+        },
+        {
+          "key": "app-icon-2019",
+          "label": "앱 아이콘 · 2019 가이드",
+          "form": "symbol",
+          "lockup": "symbol",
+          "lang": "ko",
+          "color": "original",
+          "files": {
+            "png": "sources/baemin-guide-20261010/37d6d0ad6603fb2f.png"
+          },
+          "aspect": 0.9978021978021978,
+          "origin": "manual",
+          "provider": "사용자 제공 공식 PDF · 2019.01.04 가이드",
+          "derived_from": "[배달의민족]로고사용가이드_꼭 읽어보세요.pdf · p.12",
+          "order": 3,
+          "asset_group": "symbol",
+          "source_resolution": "454×455 (PDF 내장 비트맵, 확대 없음)"
+        },
+        {
+          "key": "character-2019",
+          "label": "캐릭터 · 기본형 (2019 가이드)",
+          "form": "mascot",
+          "lockup": "unknown",
+          "lang": "none",
+          "color": "original",
+          "files": {
+            "png": "sources/baemin-guide-20261010/6dfb77861f601934.png"
+          },
+          "aspect": 0.865909090909091,
+          "origin": "manual",
+          "provider": "사용자 제공 공식 PDF · 2019.01.04 가이드",
+          "derived_from": "[배달의민족]로고사용가이드_꼭 읽어보세요.pdf · p.14",
+          "order": 4,
+          "asset_group": "mascot",
+          "source_resolution": "381×440 (PDF 내장 비트맵, 확대 없음)"
+        }
+      ]
+    },
+    "baemin-riders": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "baemin-riders",
+      "primary": "horizontal",
+      "variants": [
+        {
+          "key": "horizontal",
+          "label": "배민라이더스 · 가로조합 · 2019 가이드",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "ko",
+          "color": "original",
+          "files": {
+            "svg": "sources/baemin-guide-fix-20261010/3678ea37804db8f9.svg",
+            "png": "sources/baemin-guide-fix-20261010/b18747fe7ad721ff.png"
+          },
+          "aspect": 3.3997732030704815,
+          "origin": "manual",
+          "provider": "사용자 제공 공식 PDF · 원본 경로 보존 검수 (2019.01.04)",
+          "derived_from": "[배달의민족]로고사용가이드_꼭 읽어보세요.pdf · p.17",
+          "order": 0,
+          "asset_group": "logotype",
+          "source_resolution": null
+        },
+        {
+          "key": "vertical",
+          "label": "배민라이더스 · 세로조합 · 2019 가이드",
+          "form": "vertical",
+          "lockup": "vertical",
+          "lang": "ko",
+          "color": "original",
+          "files": {
+            "svg": "sources/baemin-guide-fix-20261010/864161b27b4669ed.svg",
+            "png": "sources/baemin-guide-fix-20261010/4c941cbb2a0767cc.png"
+          },
+          "aspect": 0.8283348115174078,
+          "origin": "manual",
+          "provider": "사용자 제공 공식 PDF · 원본 경로 보존 검수 (2019.01.04)",
+          "derived_from": "[배달의민족]로고사용가이드_꼭 읽어보세요.pdf · p.17",
+          "order": 1,
+          "asset_group": "logotype",
+          "source_resolution": null
+        }
+      ]
+    }
+  }
+}

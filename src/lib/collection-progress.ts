@@ -1,5 +1,5 @@
 import { Pool } from 'pg';
-export type CollectionProgress = { id: string; name: string; as_of: string; source_url: string; source_kind: string; count_unit: string; total: number; collected: number; verified: number; candidates: number; checked_at: string | null };
+export type CollectionProgress = { id: string; name: string; as_of: string; source_url: string; source_kind: string; count_unit: string; total: number; collected: number; verified: number; candidates: number; checked_at: string | null; sector?: string; country?: string; sport?: string; league?: string; season?: string; roster_status?: string; scope_note?: string };
 let pool: Pool | undefined;
 export async function collectionProgress(): Promise<CollectionProgress[]> {
   if (!process.env.DB_VIBERS_MAIN_URL) return [];
@@ -7,6 +7,9 @@ export async function collectionProgress(): Promise<CollectionProgress[]> {
   const result = await pool.query(`SELECT c.id,c.name,s.as_of::text,s.source_url,s.count_unit,s.expected_count AS total,
     coalesce(c.scope->>'source_kind','unknown') AS source_kind,
     c.scope->>'checked_at' AS checked_at,
+    c.scope->>'sector' AS sector, c.scope->>'country' AS country, c.scope->>'sport' AS sport,
+    c.scope->>'league' AS league, c.scope->>'season' AS season,
+    c.scope->>'roster_status' AS roster_status, c.scope->>'scope_note' AS scope_note,
     count(m.member_key) FILTER(WHERE m.brand_id IS NOT NULL AND p.status='published')::int AS collected,
     count(m.member_key) FILTER(WHERE m.review_status='verified' AND m.metadata->>'png_verified'='true' AND p.status='published')::int AS verified,
     count(m.member_key) FILTER(WHERE m.brand_id IS NOT NULL OR jsonb_array_length(coalesce(m.metadata->'candidates','[]'::jsonb))>0)::int AS candidates

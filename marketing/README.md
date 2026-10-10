@@ -9,6 +9,7 @@
 - (og-image·favicon 원본은 public/ 에 있음 — 추후 meta/ 로 이관 검토)
 
 ## 과업 로그 (최신이 위)
+- 2026-10-10 | 상세 로고 구성·다운로드 갤러리 통합, 중복 파일 제외 및 1:1 미리보기 적용. 데스크톱·모바일 운영 검증.
 - 2026-08-15 | CDN 실패 시 정적 페이지 누락 배포를 차단하고, 검색·다운로드·요청 행동 이벤트를 GA4에 추가.
 - 2026-08-13 | 키엔AI에 세모로고 브랜드 소개 매거진 발행 → https://keyenai.com/articles/vbs-semologo-intro
   (실측 기준: 사이트맵 브랜드 6,392 · CDN 인덱스 6,835 · SVG 6,321 · 다크변형 6,820 · 카테고리 40)
@@ -48,10 +49,32 @@
 
 - 2026-10-06: 로고월 베타 메뉴·등록 안내·추천 스타일/간격/크기/이름 표시/로고월만 보기 개발. 대표 PNG 및 CMS 메타데이터 복원 점검. 브라우저 관리자 정책 확인 오류로 최신 화면 캡처는 보류.
 
-- 2026-10-07: yahwa 참고 익명 UTM 세션·검색·열람·다운로드 분석을 NCP PostgreSQL 및 /admin/traffic에 연결. 90일 자동 보관 정리, 관리자 접근 차단, 운영 저장 E2E 및 테스트 기록 삭제 검증.
+- 2026-10-07: 해외 지수 미수집 주소 232항목 처리, 원본19개·PNG19개·검수 시트/manifest를 assets/index-collection-20261007에 저장. 자동 공개 없음.
+
+- 2026-10-07: 로고이야기에 수집 현황판 콘텐츠 추가. 운영 PostgreSQL 명부 연결·공개·PNG 검증률을 구분하며 60초 자동 갱신.
+- 2026-10-07: 기초자치단체 227곳 명부 연결 및 PNG 검수 100%; 봉화/거창 공식 출처·투명 PNG 추가(자산은 marketing/assets/local-government-ci-review-20261007).
+- 2026-10-07: 로고 컬렉션 현황을 전국 지자체/공공기관/지방공사·공단으로 묶어 개편; 중앙342·지방공사공단167·출자출연892 공식 명부와 후보 집계 추가, H&M 중복 통합.
+
+- 2026-10-07: yahwa 방식의 익명 세션·UTM·검색·로고 열람·다운로드 선택 분석을 PostgreSQL에 연결. /admin/traffic 어드민, 관리자 토큰 서버 검증, 90일 보관, 원본 IP·회원정보 미저장. 과거 GA 행동은 소급하지 않음.
 
 - 2026-10-08: 흰 배경 전후 검수 226개, 바깥 배경 제거 222개, 혼합 SVG 4개 PNG 전환, 중복 7쌍 통합(기존 주소·버전 보존). 근거: `data/collection/background-merge-release-20261008.json`, 원본·전후 이미지: `marketing/assets/background-merge-review-20261008/`.
 
 - 2026-10-09: 구글 계열 13개에서 투명 SVG 대신 불투명 PNG를 우선 노출하던 문제 수정. 벡터 기반 고해상도 투명 PNG·그라데이션·내부 흰색 보존 검수; `data/collection/google-transparent-release-20261009.json`, 전후 검수 시트 `marketing/assets/google-background-review-20261009/comparison-sharp.jpg`.
 
+- 2026-10-09: 서버 정리 후보·Cloudflare/NCP 이미지 서빙·Vercel 비용 비교 조사; 공식 기관 4곳 신규 검수 및 공식 ZIP 3곳 다운로드 확인. 근거: `marketing/assets/server-audit-20261009/`, `marketing/assets/institution-batch-20261009/`.
+
+- 2026-10-09: 운영 서버 구형 빌드 캐시 약19.2GB·journal 약3GB 정리, idle builder 중지, cold swap 배포 가드 보완 및 서비스 정상 검증. 근거: `marketing/assets/server-audit-20261009/cleanup-result-20261009.md`.
+
+- 2026-10-09: Vibers 러너 작업·DB 백업 11개 경로 데이터 디스크 이관 및 OS 재적재 차단 검증. 상세: `assets/server-audit-20261009/data-move-result-20261009.md`.
+
+- 2026-10-09: 레인보우로보틱스 공식 AI 3종과 투명 배경 로고 17항목 검수·CMS 반영, BTS(방탄소년단) 명칭 정리. 로고월 변형 선택·드래그·개별 크기 및 자동 맞춤·카드 배경 개선. 근거: `assets/rainbow-20261009/`, `assets/requested-background-20261009/`.
+
+- 2026-10-09: Netflix 공식 Logo/Symbol ZIP 확보 및 EPS 기반 SVG·투명 PNG 검수. 잘못된 세로조합형 분류와 깨진 변형 PNG, 불투명 다크 미리보기 교체. 원본·검수: `assets/netflix-20261009/`.
+
+- 2026-10-09: 사용자 SVG 4개를 대한항공(2025/이전), 삼성페이, 카카오뱅크 CMS 및 프론트에 연결. 카탈로그 전용 항목 대표 지정 시 CMS 누락 404와 절대 CDN PNG 경로 미인식 수정. 검수: `assets/user-svg-20261009/`.
+
 - 2026-10-10: 로고 구성 카드에 공통 연회색 그리드 적용, 배경 약5% 진하게 조정. 노트북 광고 전용 열 및 모바일 상세 제목 줄바꿈 수정. TypeScript/로컬 화면1366·1440·390px 확인, 운영 미배포. 캡처: screenshots/20261010_layout/.
+
+- 2026-10-10: 모바일 상세를 바텀시트로 변경, 고정 X·단일 스크롤·safe area 적용. 네이버 등 인앱 구글 로그인은 외부 브라우저 안내로 전환. 브라우저 캡처는 관리 정책 확인 불가로 수행하지 못함.
+
+- 2026-10-10: 로고월 ZIP·HTML/OG 미리보기, 공통 본문 폭, 수집현황 세트 확장과 가공 아이콘 작업. App Store 준비 상태는 listings/app-store/RELEASE_READINESS.md에 기록.

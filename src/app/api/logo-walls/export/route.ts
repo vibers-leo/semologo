@@ -3,7 +3,8 @@ import sharp from 'sharp';
 import { createHash } from 'node:crypto';
 import { logoOwner } from '@/lib/logo-owner';
 import { logoWallZip } from '@/lib/logo-wall-zip';
-import { logoWallHtml } from '@/lib/logo-wall-html';
+import { logoWallBundle, logoWallInlineHtml } from '@/lib/logo-wall-html';
+import { logoWallPreview } from '@/lib/logo-wall-preview';
 import { logoPngCandidates } from '@/lib/logo-png-source';
 import { logoWallAsset } from '@/lib/cms-brand';
 import type { Brand } from '@/lib/brands';
@@ -87,10 +88,19 @@ export async function GET(request: Request) {
     }));
     if (missing.length) return reply('일부 로고를 준비하지 못했어요. 잠시 후 다시 시도해 주세요.', 422, missing);
     for (const file of output) { if (!file) throw new Error('incomplete'); files.push({ name: file.name, data: file.data }); entries.push(file.entry); }
-    const manifest = { format_version: 1, wall: { id: wall.id, title: wall.title, version: wall.version, settings: wall.settings }, exported_at: new Date().toISOString(), cdn_version: VERSION, logos: entries };
-    files.push({ name: 'index.html', data: Buffer.from(logoWallHtml(wall.title, wall.settings ?? {}, entries)) });
+    const og = await logoWallPreview(wall.settings ?? {}, output.map(file => ({ data: file!.data, ...file!.entry })));
+    if (new URL(request.url).searchParams.get('format') === 'preview') {
+      const images = Object.fromEntries(output.map(file => [file!.name, `data:image/png;base64,${file!.data.toString('base64')}`]));
+      return Response.json({ title: wall.title, html: logoWallInlineHtml(wall.title, wall.settings ?? {}, entries, images), image: `data:image/png;base64,${og.toString('base64')}`, count: entries.length }, { headers: privateHeaders });
+    }
+    const bundle = logoWallBundle(wall.title, wall.settings ?? {}, entries);
+    const manifest = { format_version: 2, wall: { id: wall.id, title: wall.title, version: wall.version, settings: wall.settings }, exported_at: new Date().toISOString(), cdn_version: VERSION, logos: entries };
+    files.push({ name: 'index.html', data: Buffer.from(bundle.html) });
+    files.push({ name: 'styles.css', data: Buffer.from(bundle.css) });
+    files.push({ name: 'script.js', data: Buffer.from(bundle.javascript) });
+    files.push({ name: 'og-preview.png', data: og });
     files.push({ name: 'manifest.json', data: Buffer.from(JSON.stringify(manifest, null, 2)) });
-    files.push({ name: 'README.txt', data: Buffer.from('ZIP을 풀고 index.html을 열면 로고월이 보여요.\nPNG 파일과 배치·움직임 설정도 함께 담았습니다.\n이미지를 내려받아 자신의 서비스에 보관하면 세모로고 접속과 관계없이 사용할 수 있어요.\n각 브랜드의 상표와 사용 조건은 해당 권리자에게 있어요.\n') });
+    files.push({ name: 'README.txt', data: Buffer.from('ZIP을 모두 풀고 index.html을 열면 로고월이 보여요. HTML 파일만 옮기지 말고 logos 폴더, styles.css, script.js를 함께 보관해 주세요.\n\n포함 파일\n- index.html: 바로 열어보는 로고월\n- styles.css: 배치와 애니메이션을 수정하는 CSS\n- script.js: 재생·일시정지 동작\n- manifest.json: 로고 순서, 크기, 배경, 배치 설정과 SHA-256 정보\n- og-preview.png: 1200×630 정적 미리보기 이미지(OG용)\n- logos/*.png: 로고별 PNG 이미지\n\n웹사이트: 위 파일을 같은 폴더 구조로 업로드하거나 HTML/CSS를 사이트에 맞게 옮겨 주세요.\n디자인·발표: og-preview.png 또는 logos 폴더의 PNG를 사용해 주세요.\n애니메이션은 index.html에서 재생되며 PNG 미리보기는 정적 이미지예요.\n이미지를 내려받아 자신의 서비스에 보관하면 세모로고 접속과 관계없이 사용할 수 있어요.\n각 브랜드의 상표와 사용 조건은 해당 권리자에게 있어요.\n') });
     return new Response(new Uint8Array(logoWallZip(files)), { headers: { ...privateHeaders, 'Content-Type': 'application/zip', 'Content-Disposition': `attachment; filename="logo-wall-${wall.id}.zip"` } });
   } catch { return reply('다운로드를 준비하지 못했어요. 잠시 후 다시 시도해 주세요.', 503); }
   finally { if (acquired) active--; }

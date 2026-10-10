@@ -11,10 +11,13 @@ export default async function Page({ params, searchParams }: { params: Promise<{
   const filter=(await searchParams).status;
   const members=await collectionMembers(id);
   const shown=members.filter(m => filter === 'missing' ? !m.candidates.length && !m.png_verified : filter === 'pending' ? !m.png_verified : true);
-  return <><Header/><main className="mx-auto max-w-5xl px-5 py-10">
+  return <><Header/><main className="content-page py-10">
     <Link href="/blog/collection-status/" className="text-sm text-gray-500 underline">← 로고 컬렉션 현황</Link>
     <h1 className="my-5 text-3xl font-bold">{collection.name}</h1>
     <p className="rounded-2xl bg-gray-50 p-5 text-gray-600">PNG 검수 완료 <strong className="text-gray-900">{collection.verified.toLocaleString()} / {collection.total.toLocaleString()}</strong> · 명부 기준 {collection.as_of}</p>
+    <p className="mt-3 text-sm text-gray-500">{[collection.country, collection.sport, collection.league, collection.season].filter(Boolean).join(' · ')} · 출처 확인 {collection.checked_at?.slice(0,10) ?? collection.as_of}</p>
+    {collection.scope_note && <p className="mt-2 text-sm text-gray-500">{collection.scope_note}</p>}
+    <a className="mt-3 inline-block text-sm underline" href={collection.source_url} target="_blank" rel="noopener noreferrer">명부 출처 확인</a>
     <nav style={{display:'flex',flexWrap:'wrap',gap:20,margin:'20px 0'}}>
       <Link href={`/collections/${id}`}>전체 {members.length}</Link>
       <Link href={`/collections/${id}?status=missing`}>추가 탐색 {members.filter(m=>!m.candidates.length&&!m.png_verified).length}</Link>

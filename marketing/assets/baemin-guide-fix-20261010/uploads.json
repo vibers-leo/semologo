@@ -1,0 +1,62 @@
+[
+  {
+    "id": "baemin",
+    "file": "marketing/assets/baemin-guide-fix-20261010/baemin/wordmark-black.svg",
+    "key": "_clients/baemin/sources/baemin-guide-fix-20261010/0a15e46fd676e635.svg",
+    "sha256": "0a15e46fd676e6352ae701e771fe057496eabcc2d361e9943b52df9995856ed9"
+  },
+  {
+    "id": "baemin",
+    "file": "marketing/assets/baemin-guide-fix-20261010/baemin/wordmark-black.png",
+    "key": "_clients/baemin/sources/baemin-guide-fix-20261010/d4c5ccbdcad27a3a.png",
+    "sha256": "d4c5ccbdcad27a3aa605c3e541b099800a102efe4beb2e1cb1c7d1f1e2e6af4a"
+  },
+  {
+    "id": "baemin",
+    "file": "marketing/assets/baemin-guide-fix-20261010/baemin/wordmark-white.svg",
+    "key": "_clients/baemin/sources/baemin-guide-fix-20261010/01d10aa5ce3d67fc.svg",
+    "sha256": "01d10aa5ce3d67fce16a5fd992799a150a4021aa28b7e3fe121aa23d7fbcf98c"
+  },
+  {
+    "id": "baemin",
+    "file": "marketing/assets/baemin-guide-fix-20261010/baemin/wordmark-white.png",
+    "key": "_clients/baemin/sources/baemin-guide-fix-20261010/f46bbbeb4a708116.png",
+    "sha256": "f46bbbeb4a7081169f66a6a4c269bdc3a1b0da29d7ece037abbe2f1c74ed4ce7"
+  },
+  {
+    "id": "baemin",
+    "file": "marketing/assets/baemin-guide-fix-20261010/baemin/wordmark-mint.svg",
+    "key": "_clients/baemin/sources/baemin-guide-fix-20261010/e0e7d561f9f5afe0.svg",
+    "sha256": "e0e7d561f9f5afe084a8475c3873f473e4b47686bc8fbc5f03fbc66eca03dc84"
+  },
+  {
+    "id": "baemin",
+    "file": "marketing/assets/baemin-guide-fix-20261010/baemin/wordmark-mint.png",
+    "key": "_clients/baemin/sources/baemin-guide-fix-20261010/ec1bcbd5e03c9d1e.png",
+    "sha256": "ec1bcbd5e03c9d1e60f5b4179205a753935c73f836dccb7977a2f67ac755c168"
+  },
+  {
+    "id": "baemin-riders",
+    "file": "marketing/assets/baemin-guide-fix-20261010/baemin-riders/horizontal.svg",
+    "key": "_clients/baemin-riders/sources/baemin-guide-fix-20261010/3678ea37804db8f9.svg",
+    "sha256": "3678ea37804db8f92f9a1476af555d4721234329df9d843a792d33ba60ab7057"
+  },
+  {
+    "id": "baemin-riders",
+    "file": "marketing/assets/baemin-guide-fix-20261010/baemin-riders/horizontal.png",
+    "key": "_clients/baemin-riders/sources/baemin-guide-fix-20261010/b18747fe7ad721ff.png",
+    "sha256": "b18747fe7ad721ffdf7ec460185ff3636ed5baf6e47bd58edf19d00b4efd18ed"
+  },
+  {
+    "id": "baemin-riders",
+    "file": "marketing/assets/baemin-guide-fix-20261010/baemin-riders/vertical.svg",
+    "key": "_clients/baemin-riders/sources/baemin-guide-fix-20261010/864161b27b4669ed.svg",
+    "sha256": "864161b27b4669eddfcae612081da9376e6a5e4b0d639caaf04ab7ad7308b1ab"
+  },
+  {
+    "id": "baemin-riders",
+    "file": "marketing/assets/baemin-guide-fix-20261010/baemin-riders/vertical.png",
+    "key": "_clients/baemin-riders/sources/baemin-guide-fix-20261010/4c941cbb2a0767cc.png",
+    "sha256": "4c941cbb2a0767cc46d161e04bf3d84bfef061c89c494642d92217a2fd5c7c8a"
+  }
+]

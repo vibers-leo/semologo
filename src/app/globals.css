@@ -189,3 +189,7 @@ body {
 @media (min-width: 1280px) {
   .catalog-logo-grid { grid-template-columns: repeat(6, minmax(0, 1fr)); }
 }
+
+/* Shared reading width for collection, request, submission, stories and FAQ. */
+.content-page { width: min(calc(100% - 40px), 1120px); max-width: 1120px; margin-inline: auto; }
+@media (max-width: 640px) { .content-page { width: calc(100% - 32px); } }

@@ -38,3 +38,21 @@ export function logoWallHtml(title: string, settings: Settings, logos: Logo[]): 
 </style></head><body><main><header><h1>${escape(title)}</h1>${motion !== 'static' ? '<button id="pause" type="button" aria-pressed="false">일시정지</button>' : ''}</header>${content}<footer>이미지는 이 ZIP에 포함된 PNG를 사용해요. 세모로고 접속 없이도 볼 수 있어요.<br>움직임 줄이기 설정을 따라요. 각 브랜드의 상표와 사용 조건은 해당 권리자에게 있어요.</footer></main>
 <script>const button=document.getElementById('pause');if(button)button.addEventListener('click',()=>{const paused=document.body.classList.toggle('paused');button.setAttribute('aria-pressed',String(paused));button.textContent=paused?'재생하기':'일시정지'});</script></body></html>`;
 }
+
+/** Split the generated standalone document into editable HTML/CSS/JS files. */
+export function logoWallBundle(title: string, settings: Settings, logos: Logo[]) {
+  const standalone = logoWallHtml(title, settings, logos);
+  const css = standalone.match(/<style>([\s\S]*?)<\/style>/)?.[1] || '';
+  const javascript = standalone.match(/<script>([\s\S]*?)<\/script>/)?.[1] || '';
+  const html = standalone.replace(/<style>[\s\S]*?<\/style>/, '<link rel="stylesheet" href="styles.css">').replace(/<script>[\s\S]*?<\/script>/, '<script src="script.js"></script>');
+  return { html, css, javascript };
+}
+
+/** Preview HTML cannot fetch remote assets; only export-generated PNG data URLs are substituted. */
+export function logoWallInlineHtml(title: string, settings: Settings, logos: Logo[], images: Record<string, string>) {
+  return logoWallHtml(title, settings, logos).replace('</body>', `<script>window.addEventListener('message',event=>{if(event.source!==parent||event.data?.type!=='semologo-wall-play')return;document.body.classList.toggle('paused',!event.data.playing);const button=document.getElementById('pause');if(button){button.setAttribute('aria-pressed',String(!event.data.playing));button.textContent=event.data.playing?'일시정지':'재생하기'}});</script></body>`).replace(/src="(logos\/[\w가-힣-]+\.png)"/g, (_, file: string) => {
+    const image = images[file];
+    if (!image || !/^data:image\/png;base64,[A-Za-z0-9+/=]+$/.test(image)) throw new Error('invalid preview PNG');
+    return `src="${image}"`;
+  });
+}

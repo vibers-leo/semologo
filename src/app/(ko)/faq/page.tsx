@@ -75,7 +75,7 @@ export default function FaqPage() {
     <div className="min-h-screen flex flex-col" style={{ background: "var(--bg)" }}>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <Header />
-      <main className="flex-1 max-w-[720px] mx-auto px-4 py-12">
+      <main className="content-page flex-1 py-12">
         <Link href="/" className="inline-flex items-center gap-1 text-sm mb-8"
           style={{ color: "var(--text-secondary)", textDecoration: "none" }}>
           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">

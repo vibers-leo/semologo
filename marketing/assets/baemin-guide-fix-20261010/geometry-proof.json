@@ -1,0 +1,82 @@
+[
+  {
+    "id": "baemin",
+    "key": "wordmark-black",
+    "page": 9,
+    "selected_paths": 8,
+    "path_commands_preserved": true,
+    "old_geometry_mismatch": 0.018788,
+    "new_geometry_mismatch": 0.0,
+    "comparison": "foreground silhouette mismatch outside 2px rasterizer tolerance at width1600",
+    "crop": [
+      272.984,
+      210.473,
+      283.99100000000004,
+      64.48899999999998
+    ]
+  },
+  {
+    "id": "baemin",
+    "key": "wordmark-white",
+    "page": 10,
+    "selected_paths": 8,
+    "path_commands_preserved": true,
+    "old_geometry_mismatch": 0.019929,
+    "new_geometry_mismatch": 6.4e-05,
+    "comparison": "foreground silhouette mismatch outside 2px rasterizer tolerance at width1600",
+    "crop": [
+      274.394,
+      276.614,
+      110.267,
+      25.04000000000002
+    ]
+  },
+  {
+    "id": "baemin",
+    "key": "wordmark-mint",
+    "page": 10,
+    "selected_paths": 8,
+    "path_commands_preserved": true,
+    "old_geometry_mismatch": 0.018172,
+    "new_geometry_mismatch": 1.4e-05,
+    "comparison": "foreground silhouette mismatch outside 2px rasterizer tolerance at width1600",
+    "crop": [
+      460.063,
+      276.614,
+      110.26799999999992,
+      25.04000000000002
+    ]
+  },
+  {
+    "id": "baemin-riders",
+    "key": "horizontal",
+    "page": 17,
+    "selected_paths": 19,
+    "path_commands_preserved": true,
+    "old_geometry_mismatch": 0.005138,
+    "new_geometry_mismatch": 0.0,
+    "comparison": "foreground silhouette mismatch outside 2px rasterizer tolerance at width1600",
+    "crop": [
+      154.914,
+      225.895,
+      272.82500000000005,
+      80.24800000000002
+    ]
+  },
+  {
+    "id": "baemin-riders",
+    "key": "vertical",
+    "page": 17,
+    "selected_paths": 17,
+    "path_commands_preserved": true,
+    "old_geometry_mismatch": 0.00871,
+    "new_geometry_mismatch": 1e-06,
+    "comparison": "foreground silhouette mismatch outside 2px rasterizer tolerance at width1600",
+    "crop": [
+      537.936,
+      166.125,
+      146.63099999999997,
+      177.01899999999995
+    ]
+  }
+]

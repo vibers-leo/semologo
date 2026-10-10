@@ -1,0 +1,172 @@
+[
+  {
+    "name": "Agence France Presse",
+    "country": "France",
+    "suspended": false
+  },
+  {
+    "name": "Agenzia Nazionale Stampa Associata",
+    "country": "Italy",
+    "suspended": false
+  },
+  {
+    "name": "Albanian Telegraphic Agency",
+    "country": "Albania",
+    "suspended": false
+  },
+  {
+    "name": "Anadolu Ajansı",
+    "country": "Türkiye",
+    "suspended": false
+  },
+  {
+    "name": "Andorran News Agency",
+    "country": "Andorra",
+    "suspended": false
+  },
+  {
+    "name": "Athens-Macedonian News Agency",
+    "country": "Greece",
+    "suspended": false
+  },
+  {
+    "name": "Austrian Press Agency",
+    "country": "Austria",
+    "suspended": false
+  },
+  {
+    "name": "Belgian News Agency",
+    "country": "Belgium",
+    "suspended": false
+  },
+  {
+    "name": "Bulgarian News Agency",
+    "country": "Bulgaria",
+    "suspended": false
+  },
+  {
+    "name": "Croatian News Agency",
+    "country": "Croatia",
+    "suspended": false
+  },
+  {
+    "name": "Cyprus News Agency",
+    "country": "Cyprus",
+    "suspended": false
+  },
+  {
+    "name": "Czech News Agency",
+    "country": "Czech Republic",
+    "suspended": false
+  },
+  {
+    "name": "Dutch News Agency",
+    "country": "Netherlands",
+    "suspended": false
+  },
+  {
+    "name": "Federal News Agency",
+    "country": "Bosnia and Herzegovina",
+    "suspended": false
+  },
+  {
+    "name": "Finnish News Agency",
+    "country": "Finland",
+    "suspended": false
+  },
+  {
+    "name": "German Press Agency",
+    "country": "Germany",
+    "suspended": false
+  },
+  {
+    "name": "Hungarian News Agency Corp.",
+    "country": "Hungary",
+    "suspended": false
+  },
+  {
+    "name": "Keystone-SDA",
+    "country": "Switzerland",
+    "suspended": false
+  },
+  {
+    "name": "KosovaPress",
+    "country": "Republic of Kosovo",
+    "suspended": false
+  },
+  {
+    "name": "Latvian National Information Agency",
+    "country": "Latvia",
+    "suspended": false
+  },
+  {
+    "name": "Lusa - Portuguese National News Agency",
+    "country": "Portugal",
+    "suspended": false
+  },
+  {
+    "name": "Norwegian Press Agency",
+    "country": "Norway",
+    "suspended": false
+  },
+  {
+    "name": "PA Media",
+    "country": "United Kingdom",
+    "suspended": false
+  },
+  {
+    "name": "Polish Press Agency",
+    "country": "Poland",
+    "suspended": false
+  },
+  {
+    "name": "RITZAUS BUREAU I/S",
+    "country": "Denmark",
+    "suspended": false
+  },
+  {
+    "name": "Romanian National News Agency",
+    "country": "Romania",
+    "suspended": false
+  },
+  {
+    "name": "Russian News Agency (suspended)",
+    "country": "Russian Federation",
+    "suspended": true
+  },
+  {
+    "name": "Slovakian Press Agency",
+    "country": "Slovakia",
+    "suspended": false
+  },
+  {
+    "name": "Slovene Press Agency",
+    "country": "Slovenia",
+    "suspended": false
+  },
+  {
+    "name": "Spanish News Agency",
+    "country": "Spain",
+    "suspended": false
+  },
+  {
+    "name": "State News Agency of the Republic of Azerbaijan",
+    "country": "Azerbaijan",
+    "suspended": false
+  },
+  {
+    "name": "Tanjug News Agency",
+    "country": "Serbia",
+    "suspended": false
+  },
+  {
+    "name": "TT News Agency",
+    "country": "Sweden",
+    "suspended": false
+  },
+  {
+    "name": "Ukranian National News Agency",
+    "country": "Ukraine",
+    "suspended": false
+  }
+]

@@ -67,7 +67,7 @@ export default function SubmitPage() {
   return (
     <div className="min-h-screen" style={{ background: "var(--bg)" }}>
       <Header />
-      <main className="max-w-[600px] mx-auto px-4 py-12">
+      <main className="content-page py-12">
 
         {status === "done" ? (
           <div className="text-center py-16">

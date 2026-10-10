@@ -4,9 +4,9 @@ export type LogoWallLayout = {
   spacing: 'compact' | 'balanced' | 'airy'; logoSize: 'small' | 'medium' | 'large';
   appearance: 'cards' | 'clean'; showNames: boolean;
 };
-export const defaultLogoWallLayout: LogoWallLayout = { background: 'auto', cardBackground: 'auto', columns: 4, motion: 'static', speed: 'normal', spacing: 'balanced', logoSize: 'medium', appearance: 'cards', showNames: true };
+export const defaultLogoWallLayout: LogoWallLayout = { background: 'auto', cardBackground: 'auto', columns: 4, motion: 'static', speed: 'normal', spacing: 'balanced', logoSize: 'medium', appearance: 'cards', showNames: false };
 export const logoWallMetrics = { spacing: { compact: 12, balanced: 24, airy: 40 }, logoSize: { small: 56, medium: 80, large: 104 } };
-/** Old saved walls retain their appearance; new settings are optional for old clients. */
+/** Normalize saved settings; logo walls display artwork without captions. */
 export function logoWallLayout(value: unknown): LogoWallLayout {
   const s = value && typeof value === 'object' ? value as Record<string, unknown> : {};
   const out = { ...defaultLogoWallLayout };
@@ -18,7 +18,7 @@ export function logoWallLayout(value: unknown): LogoWallLayout {
     }
   }
   if (s.columns !== undefined) { if (![2,3,4,6].includes(s.columns as number)) throw new Error('invalid columns'); out.columns = s.columns as number; }
-  if (s.showNames !== undefined) { if (typeof s.showNames !== 'boolean') throw new Error('invalid names'); out.showNames = s.showNames; }
+  if (s.showNames !== undefined) { if (typeof s.showNames !== 'boolean') throw new Error('invalid names'); out.showNames = false; }
   return out;
 }
 

@@ -12,25 +12,28 @@ def obj(brand,file):
  UPLOADS.append({'id':brand,'file':str(file.relative_to(ROOT)),'key':f'_clients/{brand}/{rel}','sha256':h});return rel
 
 def vector(page,zone,dest):
- pg=DOC[page-1];zone=fitz.Rect(zone);selected=[d for d in pg.get_drawings() if zone.contains(d['rect']) and d['rect'].width>0 and d['rect'].height>0]
+ # Preserve original PDF path d, M/Z subpaths and winding; never rebuild get_drawings.
+ from lxml import etree as E
+ import subprocess,copy
+ root=E.fromstring(DOC[page-1].get_svg_image(text_as_path=True).encode())
+ for i,el in enumerate(root):
+  if E.QName(el).localname!='defs':el.set('id',f'art-{i}')
+ queryfile=OUT/f'query-page-{page}.svg';queryfile.write_bytes(E.tostring(root))
+ query=subprocess.check_output(['inkscape','--query-all',str(queryfile)],text=True)
+ bounds={a[0]:tuple(map(float,a[1:])) for ln in query.splitlines() if len(a:=ln.split(','))==5}
+ selected=[];boxes=[]
+ for el in root:
+  box=bounds.get(el.get('id'))
+  if box and zone[0]<=box[0] and zone[1]<=box[1] and box[0]+box[2]<=zone[2] and box[1]+box[3]<=zone[3]:selected.append(copy.deepcopy(el));boxes.append(box)
  assert selected
- new=fitz.open();p=new.new_page(width=842,height=596)
- for d in selected:
-  shape=p.new_shape()
-  for item in d['items']:
-   typ=item[0]
-   if typ=='l':shape.draw_line(item[1],item[2])
-   elif typ=='c':shape.draw_bezier(*item[1:])
-   elif typ=='re':shape.draw_rect(item[1])
-   elif typ=='qu':shape.draw_quad(item[1])
-   else:raise ValueError(typ)
-  shape.finish(color=d.get('color'),fill=d.get('fill'),width=d.get('width') or 0,closePath=d.get('closePath',False),even_odd=d.get('even_odd',False),fill_opacity=d.get('fill_opacity') if d.get('fill_opacity') is not None else 1,stroke_opacity=d.get('stroke_opacity') if d.get('stroke_opacity') is not None else 1);shape.commit()
- bounds=selected[0]['rect']
- for d in selected[1:]:bounds|=d['rect']
- p.set_cropbox(bounds)
- raw=p.get_svg_image(text_as_path=True).encode();assert b'<image' not in raw;dest.write_bytes(raw)
- pix=p.get_pixmap(matrix=fitz.Matrix(2000/max(p.rect.width,p.rect.height),2000/max(p.rect.width,p.rect.height)),alpha=True);pix.save(dest.with_suffix('.png'))
- return bounds
+ x=min(b[0] for b in boxes);y=min(b[1] for b in boxes);w=max(b[0]+b[2] for b in boxes)-x;h=max(b[1]+b[3] for b in boxes)-y
+ result=E.Element(root.tag,nsmap=root.nsmap,viewBox=f'{x} {y} {w} {h}',width=str(w),height=str(h))
+ for el in root:
+  if E.QName(el).localname=='defs':result.append(copy.deepcopy(el))
+ result.extend(selected);raw=E.tostring(result);assert b'<image' not in raw;dest.write_bytes(raw)
+ import cairosvg
+ cairosvg.svg2png(bytestring=raw,write_to=str(dest.with_suffix('.png')),output_width=round(2000*w/max(w,h)),output_height=round(2000*h/max(w,h)))
+ return fitz.Rect(x,y,x+w,y+h)
 
 def raster(xref,dest,region=None):
  data=DOC.extract_image(xref);tmp=OUT/'embedded-source.jpg';tmp.write_bytes(data['image']);im=Image.open(tmp).convert('RGBA')

@@ -1,0 +1,3538 @@
+{
+  "checked_at": "2026-10-10T09:37:53.106742+00:00",
+  "collections": [
+    {
+      "id": "sports-kr-kleague1-2026",
+      "name": "K리그1 · 2026",
+      "country": "대한민국",
+      "sector": "sports",
+      "league": "K리그1",
+      "sport": "축구",
+      "season": "2026",
+      "scope_note": "2026 개막 일정의 12개 참가 구단 기준이에요.",
+      "roster_status": "official_roster_checked",
+      "as_of": "2026-10-10",
+      "source_kind": "official_directory_roster",
+      "source_url": "https://www.kleague.com/news_view.do?orderBy=seq&seq=94117",
+      "source_revision": "f6839ed167c03a578c8efa68c8b893f2e2f7b80a76e0959804d3ea2a2827145a",
+      "count_unit": "entity",
+      "total": 12,
+      "verified": 0,
+      "candidates": 6,
+      "members": [
+        {
+          "member_key": "03a96d7ba396731fccf2",
+          "name": "인천 유나이티드",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "6cbe75428c239e7b4a80",
+          "name": "FC 서울",
+          "brand_id": null,
+          "candidates": [
+            "fcseoul"
+          ],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "d05ef631f6318af91eea",
+          "name": "울산 HD",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "a4d618ff321844b996d4",
+          "name": "강원 FC",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "d97813544e5ba73fd32c",
+          "name": "김천 상무",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "db5aa3f4abecc1935b65",
+          "name": "포항 스틸러스",
+          "brand_id": null,
+          "candidates": [
+            "steelers"
+          ],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "b020fda7b6cab4668b0d",
+          "name": "전북 현대 모터스",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "a02daf33f02c07436a9f",
+          "name": "부천 FC 1995",
+          "brand_id": null,
+          "candidates": [
+            "bfc1995"
+          ],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "2baa45ff614248baa733",
+          "name": "제주 SK FC",
+          "brand_id": null,
+          "candidates": [
+            "jejuskfc"
+          ],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "23f65866acb3d90435e9",
+          "name": "광주 FC",
+          "brand_id": null,
+          "candidates": [
+            "gwangjufc"
+          ],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "c3f218aa685623692957",
+          "name": "대전 하나 시티즌",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "8ce0749345b0741987cc",
+          "name": "FC 안양",
+          "brand_id": null,
+          "candidates": [
+            "fcanyang"
+          ],
+          "identity_reviewed": false,
+          "png_verified": false
+        }
+      ]
+    },
+    {
+      "id": "sports-en-premierleague-2025-26",
+      "name": "프리미어리그 · 2025/26",
+      "country": "잉글랜드",
+      "sector": "sports",
+      "league": "Premier League",
+      "sport": "축구",
+      "season": "2025/26",
+      "scope_note": "2025년 8월 공식 안내의 참가 20개 구단이며 현재 시즌 전체를 뜻하지 않아요.",
+      "roster_status": "official_roster_checked",
+      "as_of": "2026-10-10",
+      "source_kind": "official_directory_roster",
+      "source_url": "https://www.premierleague.com/en/news/4373817/get-to-know-all-the-2025-26-premier-league-clubs-with-video-guides",
+      "source_revision": "4566503ae90fb0122a430ccafa41f95d501c41cbbe1a9e8e8a4675443d0e5386",
+      "count_unit": "entity",
+      "total": 20,
+      "verified": 0,
+      "candidates": 10,
+      "members": [
+        {
+          "member_key": "c999199b2612ce979df5",
+          "name": "Arsenal",
+          "brand_id": null,
+          "candidates": [
+            "arsenal",
+            "arsenal--src-08ff5e8"
+          ],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "2fa9bd880a4d7139b4a4",
+          "name": "Aston Villa",
+          "brand_id": null,
+          "candidates": [
+            "aston-villa"
+          ],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "d701a71a89cb43c380fd",
+          "name": "AFC Bournemouth",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "bb425ed28d8d445665b3",
+          "name": "Brentford",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "a70253e4cc94fab1c26a",
+          "name": "Brighton & Hove Albion",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "738d574a6a1465af6a29",
+          "name": "Burnley",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "836530272c76ba5639ab",
+          "name": "Chelsea",
+          "brand_id": null,
+          "candidates": [
+            "chelsea",
+            "chelsea--src-b0665e6"
+          ],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "4d48f1753671fbe36959",
+          "name": "Crystal Palace",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "327de51951336b6edddd",
+          "name": "Everton",
+          "brand_id": null,
+          "candidates": [
+            "everton",
+            "everton--src-de7a78e"
+          ],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "ff52101685ce9ea7e115",
+          "name": "Fulham",
+          "brand_id": null,
+          "candidates": [
+            "fulham"
+          ],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "c550616e40058e4ea7f8",
+          "name": "Leeds United",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "6a5ed83658ef85afc777",
+          "name": "Liverpool",
+          "brand_id": null,
+          "candidates": [
+            "liverpool",
+            "liverpool--src-77793ee"
+          ],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "9986911fa8ce0380db9f",
+          "name": "Manchester City",
+          "brand_id": null,
+          "candidates": [
+            "manchester-city"
+          ],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "2a3b62cd7af2a86a2009",
+          "name": "Manchester United",
+          "brand_id": null,
+          "candidates": [
+            "manchester-united",
+            "manchester-united--src-de241a1",
+            "manchesterunited"
+          ],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "f8730f344f256ee260ad",
+          "name": "Newcastle United",
+          "brand_id": null,
+          "candidates": [
+            "newcastle-united",
+            "newcastle-united--src-7caf721"
+          ],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "acae383b03a9529ed00a",
+          "name": "Nottingham Forest",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "e34eb721eceb4f461817",
+          "name": "Sunderland",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "8ecab079109a5e374f05",
+          "name": "Tottenham Hotspur",
+          "brand_id": null,
+          "candidates": [
+            "tottenham",
+            "tottenham-hotspur"
+          ],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "b3bdc9f71c470a1cc447",
+          "name": "West Ham United",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "830eb728338d7bf57e12",
+          "name": "Wolverhampton Wanderers",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        }
+      ]
+    },
+    {
+      "id": "sports-kr-kbo-2026",
+      "name": "KBO · 공식 구단 안내",
+      "country": "대한민국",
+      "sector": "sports",
+      "league": "KBO",
+      "sport": "야구",
+      "season": "2026",
+      "scope_note": "확인일의 공식 구단·순위 안내에 등재된 10개 구단이에요.",
+      "roster_status": "official_roster_checked",
+      "as_of": "2026-10-10",
+      "source_kind": "official_directory_roster",
+      "source_url": "https://eng.koreabaseball.com/Standings/TeamStandings.aspx",
+      "source_revision": "67f8ced905baaf2adde34aed2b3976462d220fb28078df5b3c1ba600d8e029e9",
+      "count_unit": "entity",
+      "total": 10,
+      "verified": 0,
+      "candidates": 9,
+      "members": [
+        {
+          "member_key": "b674f1140419751672c7",
+          "name": "LG Twins",
+          "brand_id": null,
+          "candidates": [
+            "lg-twins"
+          ],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "28be695a4d2a4d61faa8",
+          "name": "KT Wiz",
+          "brand_id": null,
+          "candidates": [
+            "kt-wiz"
+          ],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "9474c9700f11e803ae5d",
+          "name": "SSG Landers",
+          "brand_id": null,
+          "candidates": [
+            "ssglanders"
+          ],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "79d08c634e0b7f1f6c1d",
+          "name": "NC Dinos",
+          "brand_id": null,
+          "candidates": [
+            "ncdinos"
+          ],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "765d3318892ac5d79d9e",
+          "name": "Doosan Bears",
+          "brand_id": null,
+          "candidates": [
+            "doosan-bears"
+          ],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "1d1102d8b534f2313c38",
+          "name": "KIA Tigers",
+          "brand_id": null,
+          "candidates": [
+            "kia-tigers"
+          ],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "941b3010e133f660a909",
+          "name": "Lotte Giants",
+          "brand_id": null,
+          "candidates": [
+            "lotte-giants"
+          ],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "d23413ad2961fff21e4a",
+          "name": "Samsung Lions",
+          "brand_id": null,
+          "candidates": [
+            "samsung-lions"
+          ],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "7dc044590e7ee0ba86e4",
+          "name": "Hanwha Eagles",
+          "brand_id": null,
+          "candidates": [
+            "hanwhaeagles"
+          ],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "b5663e09819e920c3f4c",
+          "name": "Kiwoom Heroes",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        }
+      ]
+    },
+    {
+      "id": "sports-us-mlb-2026",
+      "name": "MLB · 공식 구단 안내",
+      "country": "미국·캐나다",
+      "sector": "sports",
+      "league": "MLB",
+      "sport": "야구",
+      "season": "2026",
+      "scope_note": "",
+      "roster_status": "official_roster_checked",
+      "as_of": "2026-10-10",
+      "source_kind": "official_directory_roster",
+      "source_url": "https://www.mlb.com/team",
+      "source_revision": "6f30cbc16987b3c34b32bfe4bcb4d2d247410e1dc3cf506f8f3b5cc19912e47f",
+      "count_unit": "entity",
+      "total": 30,
+      "verified": 0,
+      "candidates": 27,
+      "members": [
+        {
+          "member_key": "9cafb55230e844570cba",
+          "name": "Arizona Diamondbacks",
+          "brand_id": null,
+          "candidates": [
+            "arizona-diamond-backs",
+            "arizona-diamondbacks"
+          ],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "ede73bda9e4fe83aac98",
+          "name": "Atlanta Braves",
+          "brand_id": null,
+          "candidates": [
+            "atlanta-braves",
+            "atlanta-braves--src-30ae081"
+          ],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "f146f7b07e72eb5b10df",
+          "name": "Baltimore Orioles",
+          "brand_id": null,
+          "candidates": [
+            "baltimore-orioles",
+            "baltimore-orioles--src-358131a"
+          ],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "1232720c5d66c6b933b1",
+          "name": "Boston Red Sox",
+          "brand_id": null,
+          "candidates": [
+            "boston-red-sox"
+          ],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "5045d954dff86edb20a3",
+          "name": "Chicago Cubs",
+          "brand_id": null,
+          "candidates": [
+            "chicago-cubs",
+            "chicago-cubs--src-4b43e19"
+          ],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "97700ef0ac9b5f652dc8",
+          "name": "Chicago White Sox",
+          "brand_id": null,
+          "candidates": [
+            "chicago-white-sox",
+            "chicago-white-sox--src-ef2d8d5"
+          ],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "f30d0b9894e16eb27d7b",
+          "name": "Cincinnati Reds",
+          "brand_id": null,
+          "candidates": [
+            "cincinnati-reds",
+            "cincinnati-reds--src-19e0184"
+          ],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "d4f7181b21815ea65cca",
+          "name": "Cleveland Guardians",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "e89b6aabd4c62d13cd5b",
+          "name": "Colorado Rockies",
+          "brand_id": null,
+          "candidates": [
+            "colorado-rockies",
+            "colorado-rockies--src-02f8008"
+          ],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "bf57cf7c7e074c5b1285",
+          "name": "Detroit Tigers",
+          "brand_id": null,
+          "candidates": [
+            "detroit-tigers",
+            "detroit-tigers--src-371c73d"
+          ],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "4f11a5896c2424293b71",
+          "name": "Houston Astros",
+          "brand_id": null,
+          "candidates": [
+            "houston-astros",
+            "houston-astros--src-f629174"
+          ],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "e970e2eddcae72960962",
+          "name": "Kansas City Royals",
+          "brand_id": null,
+          "candidates": [
+            "kansas-city-royals"
+          ],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "7bb3c6db321c11c04e65",
+          "name": "Los Angeles Angels",
+          "brand_id": null,
+          "candidates": [
+            "los-angeles-angels"
+          ],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "8e80f9dd4c5e8e271303",
+          "name": "Los Angeles Dodgers",
+          "brand_id": null,
+          "candidates": [
+            "los-angeles-dodgers",
+            "los-angeles-dodgers--src-67d10c9"
+          ],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "ddbdbb1629906556ba9e",
+          "name": "Miami Marlins",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "2b194afddf3b5a1aebab",
+          "name": "Milwaukee Brewers",
+          "brand_id": null,
+          "candidates": [
+            "milwaukee-brewers"
+          ],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "e8c4e6927b2de6312052",
+          "name": "Minnesota Twins",
+          "brand_id": null,
+          "candidates": [
+            "minnesota-twins",
+            "minnesota-twins--src-5499256"
+          ],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "925a763503592bb01635",
+          "name": "New York Mets",
+          "brand_id": null,
+          "candidates": [
+            "new-york-mets",
+            "new-york-mets--src-c604618"
+          ],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "121ebaed4535b9a4192e",
+          "name": "New York Yankees",
+          "brand_id": null,
+          "candidates": [
+            "new-york-yankees",
+            "new-york-yankees--src-2c20d11"
+          ],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "ec1345a87fbf028b2c8b",
+          "name": "Athletics",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "afbfe3e36032f93146a2",
+          "name": "Philadelphia Phillies",
+          "brand_id": null,
+          "candidates": [
+            "philadelphia-phillies",
+            "philadelphia-phillies--src-0a1a795"
+          ],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "98ce616983426fff3798",
+          "name": "Pittsburgh Pirates",
+          "brand_id": null,
+          "candidates": [
+            "pittsburgh-pirates",
+            "pittsburgh-pirates--src-b88476a",
+            "pittsburgh-steelers"
+          ],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "51ef9899a7f5e079fdde",
+          "name": "San Diego Padres",
+          "brand_id": null,
+          "candidates": [
+            "san-diego-padres"
+          ],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "806cf8213d3808cf8b4d",
+          "name": "San Francisco Giants",
+          "brand_id": null,
+          "candidates": [
+            "san-francisco-giants",
+            "san-francisco-giants--src-7c56e05"
+          ],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "f0fa2004385d6680a8da",
+          "name": "Seattle Mariners",
+          "brand_id": null,
+          "candidates": [
+            "seattle-mariners"
+          ],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "90d0f7c9aec18ed9e073",
+          "name": "St. Louis Cardinals",
+          "brand_id": null,
+          "candidates": [
+            "arizona-cardinals",
+            "st-louis-cardinals"
+          ],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "fe07cf8c473a7064a57c",
+          "name": "Tampa Bay Rays",
+          "brand_id": null,
+          "candidates": [
+            "tampa-bay-rays"
+          ],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "b85216061897f3e81ab4",
+          "name": "Texas Rangers",
+          "brand_id": null,
+          "candidates": [
+            "texas-rangers",
+            "texas-rangers--src-14fa0b7"
+          ],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "118e9a57a501f6d5ebdd",
+          "name": "Toronto Blue Jays",
+          "brand_id": null,
+          "candidates": [
+            "toronto-blue-jays",
+            "toronto-blue-jays--src-d80f9b5"
+          ],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "99df68ab44be2dd39756",
+          "name": "Washington Nationals",
+          "brand_id": null,
+          "candidates": [
+            "washington-nationals",
+            "washington-nationals--src-ca0b9e5"
+          ],
+          "identity_reviewed": false,
+          "png_verified": false
+        }
+      ]
+    },
+    {
+      "id": "sports-us-nba-2025-26",
+      "name": "NBA · 2025/26",
+      "country": "미국·캐나다",
+      "sector": "sports",
+      "league": "NBA",
+      "sport": "농구",
+      "season": "2025/26",
+      "scope_note": "",
+      "roster_status": "official_roster_checked",
+      "as_of": "2026-10-10",
+      "source_kind": "official_directory_roster",
+      "source_url": "https://api-hub.nba.com/news/nba-rosters-set-for-2025-26-regular-season",
+      "source_revision": "bb09b440cf5c19bbec4c031c1ebd0741cb448cf3b250a84eada69cd4fdf06ef9",
+      "count_unit": "entity",
+      "total": 30,
+      "verified": 0,
+      "candidates": 29,
+      "members": [
+        {
+          "member_key": "b59c1c735494195442f8",
+          "name": "Atlanta Hawks",
+          "brand_id": null,
+          "candidates": [
+            "atlanta-hawks"
+          ],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "be2a4976aba4e7546782",
+          "name": "Boston Celtics",
+          "brand_id": null,
+          "candidates": [
+            "boston-celtics"
+          ],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "6efbd520bb7ecd10bd48",
+          "name": "Brooklyn Nets",
+          "brand_id": null,
+          "candidates": [
+            "brooklyn-nets"
+          ],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "c65360931346b18f7e27",
+          "name": "Charlotte Hornets",
+          "brand_id": null,
+          "candidates": [
+            "charlotte-hornets"
+          ],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "ca98e3a931ae7a342023",
+          "name": "Chicago Bulls",
+          "brand_id": null,
+          "candidates": [
+            "bulls",
+            "chicago-bulls"
+          ],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "d5348bdfebcc90c53887",
+          "name": "Cleveland Cavaliers",
+          "brand_id": null,
+          "candidates": [
+            "cleveland-cavaliers",
+            "cleveland-cavaliers--src-81d8b12"
+          ],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "7165dab9cae4e4676b3b",
+          "name": "Dallas Mavericks",
+          "brand_id": null,
+          "candidates": [
+            "dallas-mavericks"
+          ],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "c0312de0846305bae329",
+          "name": "Denver Nuggets",
+          "brand_id": null,
+          "candidates": [
+            "denver-nuggets"
+          ],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "5988658c6b9b62333409",
+          "name": "Detroit Pistons",
+          "brand_id": null,
+          "candidates": [
+            "detroit-pistons"
+          ],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "dfc9a735a4d7c18411a7",
+          "name": "Golden State Warriors",
+          "brand_id": null,
+          "candidates": [
+            "golden-state-warriors",
+            "warriors"
+          ],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "df2d9e9e8e207a5845f0",
+          "name": "Houston Rockets",
+          "brand_id": null,
+          "candidates": [
+            "houston-rockets"
+          ],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "f342c875e571edbb738a",
+          "name": "Indiana Pacers",
+          "brand_id": null,
+          "candidates": [
+            "indiana-pacers"
+          ],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "3e1ea77686b900731aac",
+          "name": "Los Angeles Clippers",
+          "brand_id": null,
+          "candidates": [
+            "los-angeles-clippers"
+          ],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "73aeb6743ec2d2e1dceb",
+          "name": "Los Angeles Lakers",
+          "brand_id": null,
+          "candidates": [
+            "los-angeles-lakers",
+            "los-angeles-lakers--src-e75c499"
+          ],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "2c653b0a5bbf15dbb63b",
+          "name": "Memphis Grizzlies",
+          "brand_id": null,
+          "candidates": [
+            "memphis-grizzlies"
+          ],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "26bb4dc5722f3cdef986",
+          "name": "Miami Heat",
+          "brand_id": null,
+          "candidates": [
+            "miami-heat"
+          ],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "14682ef45c4d2dd3b4d8",
+          "name": "Milwaukee Bucks",
+          "brand_id": null,
+          "candidates": [
+            "milwaukee-bucks"
+          ],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "fdae71fa88c68b3d3f48",
+          "name": "Minnesota Timberwolves",
+          "brand_id": null,
+          "candidates": [
+            "minnesota-timberwolves"
+          ],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "6c595835c85bf8e1c053",
+          "name": "New Orleans Pelicans",
+          "brand_id": null,
+          "candidates": [
+            "new-orleans-pelicans"
+          ],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "6a36e386117ede8ea26e",
+          "name": "New York Knicks",
+          "brand_id": null,
+          "candidates": [
+            "new-york-knicks"
+          ],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "d8ec6878976ac9c12a48",
+          "name": "Oklahoma City Thunder",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "cc72cd00eb95057878f3",
+          "name": "Orlando Magic",
+          "brand_id": null,
+          "candidates": [
+            "orlando-magic"
+          ],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "edf03ad3c346f7941585",
+          "name": "Philadelphia 76ers",
+          "brand_id": null,
+          "candidates": [
+            "philadelphia-76-ers",
+            "philadelphia-76ers"
+          ],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "9bf9a5fd18b1063b4da7",
+          "name": "Phoenix Suns",
+          "brand_id": null,
+          "candidates": [
+            "phoenix-suns"
+          ],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "0054c2679f7753beb5f4",
+          "name": "Portland Trail Blazers",
+          "brand_id": null,
+          "candidates": [
+            "portland-trail-blazers"
+          ],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "04e36c744934d2dbbf36",
+          "name": "Sacramento Kings",
+          "brand_id": null,
+          "candidates": [
+            "sacramento-kings"
+          ],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "e89f51275352e48d95c1",
+          "name": "San Antonio Spurs",
+          "brand_id": null,
+          "candidates": [
+            "san-antonio-spurs"
+          ],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "417f4fff4625e3c2d51e",
+          "name": "Toronto Raptors",
+          "brand_id": null,
+          "candidates": [
+            "toronto-raptors"
+          ],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "7c902bb2e27276e38d90",
+          "name": "Utah Jazz",
+          "brand_id": null,
+          "candidates": [
+            "utah-jazz"
+          ],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "8f17f23fb75312b567b4",
+          "name": "Washington Wizards",
+          "brand_id": null,
+          "candidates": [
+            "washington-wizards"
+          ],
+          "identity_reviewed": false,
+          "png_verified": false
+        }
+      ]
+    },
+    {
+      "id": "sports-kr-kovo-men",
+      "name": "KOVO · 남자부",
+      "country": "대한민국",
+      "sector": "sports",
+      "league": "V리그 남자부",
+      "sport": "배구",
+      "season": null,
+      "scope_note": "공식 경기장 안내의 구단 명단이에요. 시즌별 참가 명부 검증과는 구분해요.",
+      "roster_status": "official_roster_checked",
+      "as_of": "2026-10-10",
+      "source_kind": "official_directory_roster",
+      "source_url": "https://cdn.kovo.co.kr/court-views/index.html",
+      "source_revision": "86c7dc10a247cc002f6f60e0ae0413b59f596c77a2dad90746f46ecc845cfc56",
+      "count_unit": "entity",
+      "total": 7,
+      "verified": 0,
+      "candidates": 0,
+      "members": [
+        {
+          "member_key": "2a7fb835a4a1ef78a07d",
+          "name": "현대캐피탈 스카이워커스",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "ff4a2c2e0970c0bd085b",
+          "name": "대한항공 점보스",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "67f6ef9c6bcc1b76ba17",
+          "name": "KB손해보험 스타즈",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "2cd8b98c104df38cbc14",
+          "name": "우리카드 우리WON",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "cbd06de369295a4df1e7",
+          "name": "삼성화재 블루팡스",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "f17dcbd84df1a9a35553",
+          "name": "한국전력 빅스톰",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "756c5f9da9fcb34cecfb",
+          "name": "OK저축은행 읏맨",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        }
+      ]
+    },
+    {
+      "id": "sports-kr-kovo-women",
+      "name": "KOVO · 여자부",
+      "country": "대한민국",
+      "sector": "sports",
+      "league": "V리그 여자부",
+      "sport": "배구",
+      "season": null,
+      "scope_note": "공식 경기장 안내의 구단 명단이에요. 시즌별 참가 명부 검증과는 구분해요.",
+      "roster_status": "official_roster_checked",
+      "as_of": "2026-10-10",
+      "source_kind": "official_directory_roster",
+      "source_url": "https://cdn.kovo.co.kr/court-views/index.html",
+      "source_revision": "549816790621a6f87ac42efaf32ca6a48f41e877c06e67db2ad8900ae3b2e521",
+      "count_unit": "entity",
+      "total": 7,
+      "verified": 0,
+      "candidates": 0,
+      "members": [
+        {
+          "member_key": "9c1f87f259e53a258196",
+          "name": "흥국생명 핑크스파이더스",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "0e0b5e80cb8fd901349e",
+          "name": "정관장 레드스파크스",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "d32597c80f9863db2a6f",
+          "name": "현대건설 힐스테이트",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "a2ee1205f3ae885295c3",
+          "name": "IBK기업은행 알토스",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "fad3f4cfc5175e18fefe",
+          "name": "한국도로공사 하이패스",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "13d083ad572020df5734",
+          "name": "GS칼텍스 KIXX",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "d91c295360ecbd97d058",
+          "name": "페퍼저축은행 AI페퍼스",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        }
+      ]
+    },
+    {
+      "id": "education-uk-russell-group",
+      "name": "Russell Group · 회원 대학",
+      "country": "영국",
+      "sector": "education",
+      "league": null,
+      "sport": null,
+      "season": null,
+      "scope_note": "공식 협회가 안내하는 회원 대학 24곳이에요. 영국 전체 대학 명부가 아니에요.",
+      "roster_status": "official_roster_checked",
+      "as_of": "2026-10-10",
+      "source_kind": "official_directory_roster",
+      "source_url": "https://www.informedchoices.ac.uk/universities",
+      "source_revision": "925063ef34348ec4b4b6047c0632a5f9a79bdd1812d10926617d81ce10791c99",
+      "count_unit": "entity",
+      "total": 24,
+      "verified": 0,
+      "candidates": 14,
+      "members": [
+        {
+          "member_key": "514e1c86f3921e79e6fd",
+          "name": "University College London",
+          "brand_id": null,
+          "candidates": [
+            "university-college-london"
+          ],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "7c3bfdb489b9a357b1a4",
+          "name": "University of York",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "1970544d8f9eb125804c",
+          "name": "University of Nottingham",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "56f82166c129a22719e1",
+          "name": "Cardiff University",
+          "brand_id": null,
+          "candidates": [
+            "cardiff-university",
+            "cardiff-university--src-d7f6041"
+          ],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "cae855973a9dddfce677",
+          "name": "Durham University",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "6ae18c8937c5afd5ff3c",
+          "name": "University of Birmingham",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "f6629a978b5ff2b6cc54",
+          "name": "University of Warwick",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "e92e8268f85cf0117f9e",
+          "name": "University of Cambridge",
+          "brand_id": null,
+          "candidates": [
+            "cambridge"
+          ],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "cce01f20dad0a5b4de9c",
+          "name": "University of Sheffield",
+          "brand_id": null,
+          "candidates": [
+            "university-of-sheffield"
+          ],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "077c83c57f23bbcd873a",
+          "name": "University of Edinburgh",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "d5472e1966f79b457c76",
+          "name": "University of Liverpool",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "49d677cd775b85e8773e",
+          "name": "Queen's University Belfast",
+          "brand_id": null,
+          "candidates": [
+            "queen-s-university-belfast"
+          ],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "c45bae770df8fbc59dce",
+          "name": "Queen Mary University of London",
+          "brand_id": null,
+          "candidates": [
+            "queen-mary-university-of-london"
+          ],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "acc5c431776d3984c020",
+          "name": "University of Exeter",
+          "brand_id": null,
+          "candidates": [
+            "university-of-exeter"
+          ],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "c9f25d2b94a124d7835e",
+          "name": "University of Oxford",
+          "brand_id": null,
+          "candidates": [
+            "oxford"
+          ],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "33e369978ddb47fdbd3c",
+          "name": "University of Glasgow",
+          "brand_id": null,
+          "candidates": [
+            "university-of-glasgow"
+          ],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "b80f1bfc4301447cdecb",
+          "name": "London School of Economics and Political Science",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "647f9f9f941c87bbd0ea",
+          "name": "University of Leeds",
+          "brand_id": null,
+          "candidates": [
+            "university-of-leeds"
+          ],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "7698269a4826697c36b8",
+          "name": "Newcastle University",
+          "brand_id": null,
+          "candidates": [
+            "newcastle-university"
+          ],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "40497894547961675422",
+          "name": "University of Manchester",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "683993733d06f4b6db48",
+          "name": "University of Southampton",
+          "brand_id": null,
+          "candidates": [
+            "university-of-southampton"
+          ],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "0f5a57676c8f2f52f5e5",
+          "name": "King's College London",
+          "brand_id": null,
+          "candidates": [
+            "king-s-college-london"
+          ],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "08574431c00d5a83a67b",
+          "name": "Imperial College London",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "443bc2e132d730ce6b13",
+          "name": "University of Bristol",
+          "brand_id": null,
+          "candidates": [
+            "university-of-bristol"
+          ],
+          "identity_reviewed": false,
+          "png_verified": false
+        }
+      ]
+    },
+    {
+      "id": "media-ebu-albania",
+      "name": "EBU 방송 조직 · Albania",
+      "country": "Albania",
+      "sector": "media",
+      "league": null,
+      "sport": null,
+      "season": null,
+      "scope_note": "EBU 페이지에 개별 등재된 방송 조직 기준이에요. 국가 전체 방송·신문사 수나 EBU 회원 단위 수와는 달라요.",
+      "roster_status": "official_roster_checked",
+      "as_of": "2026-10-10",
+      "source_kind": "official_directory_roster",
+      "source_url": "https://www.ebu.ch/about/members",
+      "source_revision": "ad96d5bc64cc6a4085fc911164d353a4b8f8529f69b6897827b77e59e59a2cde",
+      "count_unit": "entity",
+      "total": 1,
+      "verified": 0,
+      "candidates": 1,
+      "members": [
+        {
+          "member_key": "ad96d5bc64cc6a4085fc",
+          "name": "RTSH",
+          "brand_id": null,
+          "candidates": [
+            "albanian-radio-television"
+          ],
+          "identity_reviewed": false,
+          "png_verified": false
+        }
+      ]
+    },
+    {
+      "id": "media-ebu-algeria",
+      "name": "EBU 방송 조직 · Algeria",
+      "country": "Algeria",
+      "sector": "media",
+      "league": null,
+      "sport": null,
+      "season": null,
+      "scope_note": "EBU 페이지에 개별 등재된 방송 조직 기준이에요. 국가 전체 방송·신문사 수나 EBU 회원 단위 수와는 달라요.",
+      "roster_status": "official_roster_checked",
+      "as_of": "2026-10-10",
+      "source_kind": "official_directory_roster",
+      "source_url": "https://www.ebu.ch/about/members",
+      "source_revision": "96b4e774bfee2b2b93ef81249538ee1bc8c345572cb7a6e98262f738d0cdb934",
+      "count_unit": "entity",
+      "total": 3,
+      "verified": 0,
+      "candidates": 1,
+      "members": [
+        {
+          "member_key": "f75fd0eaa87a88ed08d2",
+          "name": "Etablissement Public de Radiodiffusion Sonore",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "f6e7e8f9da38bfa5595b",
+          "name": "Etablissement Public de Télévision Algérienne",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "3982173e93e81ca212d0",
+          "name": "Télédiffusion d'Algérie",
+          "brand_id": null,
+          "candidates": [
+            "te-le-diffusion-d-alge-rie"
+          ],
+          "identity_reviewed": false,
+          "png_verified": false
+        }
+      ]
+    },
+    {
+      "id": "media-ebu-andorra",
+      "name": "EBU 방송 조직 · Andorra",
+      "country": "Andorra",
+      "sector": "media",
+      "league": null,
+      "sport": null,
+      "season": null,
+      "scope_note": "EBU 페이지에 개별 등재된 방송 조직 기준이에요. 국가 전체 방송·신문사 수나 EBU 회원 단위 수와는 달라요.",
+      "roster_status": "official_roster_checked",
+      "as_of": "2026-10-10",
+      "source_kind": "official_directory_roster",
+      "source_url": "https://www.ebu.ch/about/members",
+      "source_revision": "2f3a613f36e624c067020f5dc0aede609bb919234777e7b77235a5fa14e41c6c",
+      "count_unit": "entity",
+      "total": 1,
+      "verified": 0,
+      "candidates": 0,
+      "members": [
+        {
+          "member_key": "2f3a613f36e624c06702",
+          "name": "Ràdio i Televisió d’Andorra, S.A.",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        }
+      ]
+    },
+    {
+      "id": "media-ebu-armenia",
+      "name": "EBU 방송 조직 · Armenia",
+      "country": "Armenia",
+      "sector": "media",
+      "league": null,
+      "sport": null,
+      "season": null,
+      "scope_note": "EBU 페이지에 개별 등재된 방송 조직 기준이에요. 국가 전체 방송·신문사 수나 EBU 회원 단위 수와는 달라요.",
+      "roster_status": "official_roster_checked",
+      "as_of": "2026-10-10",
+      "source_kind": "official_directory_roster",
+      "source_url": "https://www.ebu.ch/about/members",
+      "source_revision": "e7785cb841871140ae242f584e27e84df7a12a40d6191a86fbca62a52acdb492",
+      "count_unit": "entity",
+      "total": 2,
+      "verified": 0,
+      "candidates": 0,
+      "members": [
+        {
+          "member_key": "46728e53ebde2b6d2c8f",
+          "name": "Public Radio of Armenia",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "634d8494d416b5fdfac6",
+          "name": "Public Television Company of Armenia",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        }
+      ]
+    },
+    {
+      "id": "media-ebu-austria",
+      "name": "EBU 방송 조직 · Austria",
+      "country": "Austria",
+      "sector": "media",
+      "league": null,
+      "sport": null,
+      "season": null,
+      "scope_note": "EBU 페이지에 개별 등재된 방송 조직 기준이에요. 국가 전체 방송·신문사 수나 EBU 회원 단위 수와는 달라요.",
+      "roster_status": "official_roster_checked",
+      "as_of": "2026-10-10",
+      "source_kind": "official_directory_roster",
+      "source_url": "https://www.ebu.ch/about/members",
+      "source_revision": "6c93c45604372fb748f4f55c23c3af884c7b88abc01b5eb0617c6befd13751fb",
+      "count_unit": "entity",
+      "total": 1,
+      "verified": 0,
+      "candidates": 1,
+      "members": [
+        {
+          "member_key": "6c93c45604372fb748f4",
+          "name": "Österreichischer Rundfunk",
+          "brand_id": null,
+          "candidates": [
+            "o-sterreichischer-rundfunk"
+          ],
+          "identity_reviewed": false,
+          "png_verified": false
+        }
+      ]
+    },
+    {
+      "id": "media-ebu-azerbaijan",
+      "name": "EBU 방송 조직 · Azerbaijan",
+      "country": "Azerbaijan",
+      "sector": "media",
+      "league": null,
+      "sport": null,
+      "season": null,
+      "scope_note": "EBU 페이지에 개별 등재된 방송 조직 기준이에요. 국가 전체 방송·신문사 수나 EBU 회원 단위 수와는 달라요.",
+      "roster_status": "official_roster_checked",
+      "as_of": "2026-10-10",
+      "source_kind": "official_directory_roster",
+      "source_url": "https://www.ebu.ch/about/members",
+      "source_revision": "76eccb5c16d4db4069fd23d4f6dddf77140cdf7453b98515085a981629745732",
+      "count_unit": "entity",
+      "total": 1,
+      "verified": 0,
+      "candidates": 0,
+      "members": [
+        {
+          "member_key": "76eccb5c16d4db4069fd",
+          "name": "Ictimai",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        }
+      ]
+    },
+    {
+      "id": "media-ebu-belgium",
+      "name": "EBU 방송 조직 · Belgium",
+      "country": "Belgium",
+      "sector": "media",
+      "league": null,
+      "sport": null,
+      "season": null,
+      "scope_note": "EBU 페이지에 개별 등재된 방송 조직 기준이에요. 국가 전체 방송·신문사 수나 EBU 회원 단위 수와는 달라요.",
+      "roster_status": "official_roster_checked",
+      "as_of": "2026-10-10",
+      "source_kind": "official_directory_roster",
+      "source_url": "https://www.ebu.ch/about/members",
+      "source_revision": "de5da4132f64fdf5f446a37485ab4f945b9f3ddb722aa5dcb98897d92a0d022d",
+      "count_unit": "entity",
+      "total": 2,
+      "verified": 0,
+      "candidates": 0,
+      "members": [
+        {
+          "member_key": "29615b72ae2706934e23",
+          "name": "Radio-Télévision Belge de la Communauté française",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "cb599f6ebd653d41d20a",
+          "name": "Vlaamse Radio en Televisieomroep",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        }
+      ]
+    },
+    {
+      "id": "media-ebu-bosniaherzegovina",
+      "name": "EBU 방송 조직 · Bosnia-Herzegovina",
+      "country": "Bosnia-Herzegovina",
+      "sector": "media",
+      "league": null,
+      "sport": null,
+      "season": null,
+      "scope_note": "EBU 페이지에 개별 등재된 방송 조직 기준이에요. 국가 전체 방송·신문사 수나 EBU 회원 단위 수와는 달라요.",
+      "roster_status": "official_roster_checked",
+      "as_of": "2026-10-10",
+      "source_kind": "official_directory_roster",
+      "source_url": "https://www.ebu.ch/about/members",
+      "source_revision": "25bc7d6ff1eeca9c4ec77e2a215ca4cc303f39b9c27dda733541ce640bddabc3",
+      "count_unit": "entity",
+      "total": 1,
+      "verified": 0,
+      "candidates": 1,
+      "members": [
+        {
+          "member_key": "25bc7d6ff1eeca9c4ec7",
+          "name": "Radio and Television of Bosnia and Herzegovina",
+          "brand_id": null,
+          "candidates": [
+            "radio-and-television-of-bosnia-and-herzegovina"
+          ],
+          "identity_reviewed": false,
+          "png_verified": false
+        }
+      ]
+    },
+    {
+      "id": "media-ebu-bulgaria",
+      "name": "EBU 방송 조직 · Bulgaria",
+      "country": "Bulgaria",
+      "sector": "media",
+      "league": null,
+      "sport": null,
+      "season": null,
+      "scope_note": "EBU 페이지에 개별 등재된 방송 조직 기준이에요. 국가 전체 방송·신문사 수나 EBU 회원 단위 수와는 달라요.",
+      "roster_status": "official_roster_checked",
+      "as_of": "2026-10-10",
+      "source_kind": "official_directory_roster",
+      "source_url": "https://www.ebu.ch/about/members",
+      "source_revision": "b2e3ea6a108df5e9ca2f5f048dc6924a9c05daf6d98fd80358a1f8e6ee2f688e",
+      "count_unit": "entity",
+      "total": 2,
+      "verified": 0,
+      "candidates": 0,
+      "members": [
+        {
+          "member_key": "f52016c0c44d79d5ce9c",
+          "name": "Balgarska Nationalna Televizija",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "f0bacfc0925380039892",
+          "name": "Balgarsko Nationalno Radio",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        }
+      ]
+    },
+    {
+      "id": "media-ebu-canada",
+      "name": "EBU 방송 조직 · Canada",
+      "country": "Canada",
+      "sector": "media",
+      "league": null,
+      "sport": null,
+      "season": null,
+      "scope_note": "EBU 페이지에 개별 등재된 방송 조직 기준이에요. 국가 전체 방송·신문사 수나 EBU 회원 단위 수와는 달라요.",
+      "roster_status": "official_roster_checked",
+      "as_of": "2026-10-10",
+      "source_kind": "official_directory_roster",
+      "source_url": "https://www.ebu.ch/about/members",
+      "source_revision": "5d3d29afd927591e06ed39f3c59cdbfcc4cc73ae8a8904d916654218ac59c462",
+      "count_unit": "entity",
+      "total": 1,
+      "verified": 0,
+      "candidates": 1,
+      "members": [
+        {
+          "member_key": "5d3d29afd927591e06ed",
+          "name": "CBC/Radio-Canada",
+          "brand_id": null,
+          "candidates": [
+            "canadian-broadcasting-corporation",
+            "cbc-radio-canada"
+          ],
+          "identity_reviewed": false,
+          "png_verified": false
+        }
+      ]
+    },
+    {
+      "id": "media-ebu-croatia",
+      "name": "EBU 방송 조직 · Croatia",
+      "country": "Croatia",
+      "sector": "media",
+      "league": null,
+      "sport": null,
+      "season": null,
+      "scope_note": "EBU 페이지에 개별 등재된 방송 조직 기준이에요. 국가 전체 방송·신문사 수나 EBU 회원 단위 수와는 달라요.",
+      "roster_status": "official_roster_checked",
+      "as_of": "2026-10-10",
+      "source_kind": "official_directory_roster",
+      "source_url": "https://www.ebu.ch/about/members",
+      "source_revision": "d2f7f2f0465aafaf3ccabc94045ffc91d9a9fb8a8fdb613b2999bed2b968c995",
+      "count_unit": "entity",
+      "total": 1,
+      "verified": 0,
+      "candidates": 0,
+      "members": [
+        {
+          "member_key": "d2f7f2f0465aafaf3cca",
+          "name": "Hrvatska Radiotelevizija",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        }
+      ]
+    },
+    {
+      "id": "media-ebu-cyprus",
+      "name": "EBU 방송 조직 · Cyprus",
+      "country": "Cyprus",
+      "sector": "media",
+      "league": null,
+      "sport": null,
+      "season": null,
+      "scope_note": "EBU 페이지에 개별 등재된 방송 조직 기준이에요. 국가 전체 방송·신문사 수나 EBU 회원 단위 수와는 달라요.",
+      "roster_status": "official_roster_checked",
+      "as_of": "2026-10-10",
+      "source_kind": "official_directory_roster",
+      "source_url": "https://www.ebu.ch/about/members",
+      "source_revision": "4927b36136aabab0e0b1db7d5663ac7ba00294112d14a35314664ec5d1ea09de",
+      "count_unit": "entity",
+      "total": 1,
+      "verified": 0,
+      "candidates": 0,
+      "members": [
+        {
+          "member_key": "4927b36136aabab0e0b1",
+          "name": "Cyprus Broadcasting Corporation",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        }
+      ]
+    },
+    {
+      "id": "media-ebu-czechia",
+      "name": "EBU 방송 조직 · Czechia",
+      "country": "Czechia",
+      "sector": "media",
+      "league": null,
+      "sport": null,
+      "season": null,
+      "scope_note": "EBU 페이지에 개별 등재된 방송 조직 기준이에요. 국가 전체 방송·신문사 수나 EBU 회원 단위 수와는 달라요.",
+      "roster_status": "official_roster_checked",
+      "as_of": "2026-10-10",
+      "source_kind": "official_directory_roster",
+      "source_url": "https://www.ebu.ch/about/members",
+      "source_revision": "f0ea8019c13ff897843484ed0d6409e93647f7ffc8438607ff7065169f4c5f20",
+      "count_unit": "entity",
+      "total": 2,
+      "verified": 0,
+      "candidates": 0,
+      "members": [
+        {
+          "member_key": "b1ce42d4bc73b244d99f",
+          "name": "Cesky Rozhlas",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "a78b9bb3e4946186b932",
+          "name": "Ceská Televize",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        }
+      ]
+    },
+    {
+      "id": "media-ebu-denmark",
+      "name": "EBU 방송 조직 · Denmark",
+      "country": "Denmark",
+      "sector": "media",
+      "league": null,
+      "sport": null,
+      "season": null,
+      "scope_note": "EBU 페이지에 개별 등재된 방송 조직 기준이에요. 국가 전체 방송·신문사 수나 EBU 회원 단위 수와는 달라요.",
+      "roster_status": "official_roster_checked",
+      "as_of": "2026-10-10",
+      "source_kind": "official_directory_roster",
+      "source_url": "https://www.ebu.ch/about/members",
+      "source_revision": "fc71c1440aa6fdd4977778733ba624e523971309c2f4019734ccb435228846ac",
+      "count_unit": "entity",
+      "total": 2,
+      "verified": 0,
+      "candidates": 1,
+      "members": [
+        {
+          "member_key": "df36df30b2d54032821a",
+          "name": "Danmarks Radio",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "504e76fb99fa3591415c",
+          "name": "TV 2 DANMARK",
+          "brand_id": null,
+          "candidates": [
+            "dr2"
+          ],
+          "identity_reviewed": false,
+          "png_verified": false
+        }
+      ]
+    },
+    {
+      "id": "media-ebu-egypt",
+      "name": "EBU 방송 조직 · Egypt",
+      "country": "Egypt",
+      "sector": "media",
+      "league": null,
+      "sport": null,
+      "season": null,
+      "scope_note": "EBU 페이지에 개별 등재된 방송 조직 기준이에요. 국가 전체 방송·신문사 수나 EBU 회원 단위 수와는 달라요.",
+      "roster_status": "official_roster_checked",
+      "as_of": "2026-10-10",
+      "source_kind": "official_directory_roster",
+      "source_url": "https://www.ebu.ch/about/members",
+      "source_revision": "f4577b3646a88902a8abd0f2c9ad771658c95323e8691a7af56b68b05a1ef27e",
+      "count_unit": "entity",
+      "total": 1,
+      "verified": 0,
+      "candidates": 1,
+      "members": [
+        {
+          "member_key": "f4577b3646a88902a8ab",
+          "name": "National Media Authority",
+          "brand_id": null,
+          "candidates": [
+            "national-media-authority"
+          ],
+          "identity_reviewed": false,
+          "png_verified": false
+        }
+      ]
+    },
+    {
+      "id": "media-ebu-estonia",
+      "name": "EBU 방송 조직 · Estonia",
+      "country": "Estonia",
+      "sector": "media",
+      "league": null,
+      "sport": null,
+      "season": null,
+      "scope_note": "EBU 페이지에 개별 등재된 방송 조직 기준이에요. 국가 전체 방송·신문사 수나 EBU 회원 단위 수와는 달라요.",
+      "roster_status": "official_roster_checked",
+      "as_of": "2026-10-10",
+      "source_kind": "official_directory_roster",
+      "source_url": "https://www.ebu.ch/about/members",
+      "source_revision": "32ad5943ba23c3a0fe4c5eb7ceb89c0a11ec3479dd11d28a50f32bd348f98bb2",
+      "count_unit": "entity",
+      "total": 1,
+      "verified": 0,
+      "candidates": 0,
+      "members": [
+        {
+          "member_key": "32ad5943ba23c3a0fe4c",
+          "name": "Eesti Rahvusringhääling",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        }
+      ]
+    },
+    {
+      "id": "media-ebu-finland",
+      "name": "EBU 방송 조직 · Finland",
+      "country": "Finland",
+      "sector": "media",
+      "league": null,
+      "sport": null,
+      "season": null,
+      "scope_note": "EBU 페이지에 개별 등재된 방송 조직 기준이에요. 국가 전체 방송·신문사 수나 EBU 회원 단위 수와는 달라요.",
+      "roster_status": "official_roster_checked",
+      "as_of": "2026-10-10",
+      "source_kind": "official_directory_roster",
+      "source_url": "https://www.ebu.ch/about/members",
+      "source_revision": "7ac3b556338934e3a78e5abe36a81a08c43d94316fa724ddd0c0d17fb8a45fdf",
+      "count_unit": "entity",
+      "total": 1,
+      "verified": 0,
+      "candidates": 0,
+      "members": [
+        {
+          "member_key": "7ac3b556338934e3a78e",
+          "name": "Oy Yleisradio Ab",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        }
+      ]
+    },
+    {
+      "id": "media-ebu-france",
+      "name": "EBU 방송 조직 · France",
+      "country": "France",
+      "sector": "media",
+      "league": null,
+      "sport": null,
+      "season": null,
+      "scope_note": "EBU 페이지에 개별 등재된 방송 조직 기준이에요. 국가 전체 방송·신문사 수나 EBU 회원 단위 수와는 달라요.",
+      "roster_status": "official_roster_checked",
+      "as_of": "2026-10-10",
+      "source_kind": "official_directory_roster",
+      "source_url": "https://www.ebu.ch/about/members",
+      "source_revision": "db08c74c583dfdf51f0649fe0191f551cdeca88a59022a9f5812d078c2d82054",
+      "count_unit": "entity",
+      "total": 4,
+      "verified": 0,
+      "candidates": 3,
+      "members": [
+        {
+          "member_key": "3dadc071acafcfc09054",
+          "name": "ARTE",
+          "brand_id": null,
+          "candidates": [
+            "arte",
+            "arte--src-5470d54"
+          ],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "19343c7025fbd81e26f8",
+          "name": "France Médias Monde",
+          "brand_id": null,
+          "candidates": [
+            "france-me-dias-monde"
+          ],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "c8205a06761d437d9d23",
+          "name": "France Télévisions",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "9d7f717a8ff9a4f8abd7",
+          "name": "Radio France",
+          "brand_id": null,
+          "candidates": [
+            "radio-france",
+            "radiofrance"
+          ],
+          "identity_reviewed": false,
+          "png_verified": false
+        }
+      ]
+    },
+    {
+      "id": "media-ebu-georgia",
+      "name": "EBU 방송 조직 · Georgia",
+      "country": "Georgia",
+      "sector": "media",
+      "league": null,
+      "sport": null,
+      "season": null,
+      "scope_note": "EBU 페이지에 개별 등재된 방송 조직 기준이에요. 국가 전체 방송·신문사 수나 EBU 회원 단위 수와는 달라요.",
+      "roster_status": "official_roster_checked",
+      "as_of": "2026-10-10",
+      "source_kind": "official_directory_roster",
+      "source_url": "https://www.ebu.ch/about/members",
+      "source_revision": "06751ecec7bef999478cfc6b06bec18aa69d4cc8127e2f67241c304b7d8f5a40",
+      "count_unit": "entity",
+      "total": 1,
+      "verified": 0,
+      "candidates": 0,
+      "members": [
+        {
+          "member_key": "06751ecec7bef999478c",
+          "name": "Public Broadcaster",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        }
+      ]
+    },
+    {
+      "id": "media-ebu-germany",
+      "name": "EBU 방송 조직 · Germany",
+      "country": "Germany",
+      "sector": "media",
+      "league": null,
+      "sport": null,
+      "season": null,
+      "scope_note": "EBU 페이지에 개별 등재된 방송 조직 기준이에요. 국가 전체 방송·신문사 수나 EBU 회원 단위 수와는 달라요.",
+      "roster_status": "official_roster_checked",
+      "as_of": "2026-10-10",
+      "source_kind": "official_directory_roster",
+      "source_url": "https://www.ebu.ch/about/members",
+      "source_revision": "cba7cd38d2127b23be953bd64feab6319be13ffeadb5ea734aa32a68487362e1",
+      "count_unit": "entity",
+      "total": 13,
+      "verified": 0,
+      "candidates": 10,
+      "members": [
+        {
+          "member_key": "6af0be2188ae5cd03bca",
+          "name": "ARD",
+          "brand_id": null,
+          "candidates": [
+            "ard",
+            "ard-digital"
+          ],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "00f13e3937574f2226fb",
+          "name": "Bayerischer Rundfunk",
+          "brand_id": null,
+          "candidates": [
+            "bayerischer-rundfunk"
+          ],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "6c3827ea69425818d103",
+          "name": "Deutsche Welle",
+          "brand_id": null,
+          "candidates": [
+            "deutsche-welle",
+            "deutschewelle"
+          ],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "0487261861caae63f199",
+          "name": "Deutschlandradio",
+          "brand_id": null,
+          "candidates": [
+            "deutschlandradio"
+          ],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "845055924f6080544a22",
+          "name": "Hessischer Rundfunk",
+          "brand_id": null,
+          "candidates": [
+            "hessischer-rundfunk"
+          ],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "a588afa10ee42198f561",
+          "name": "Mitteldeutscher Rundfunk",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "f1bebc9f1309cd2eb5e8",
+          "name": "Norddeutscher Rundfunk",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "3b0280b271307d490dfe",
+          "name": "Radio Bremen",
+          "brand_id": null,
+          "candidates": [
+            "radio-bremen"
+          ],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "8a6dacf848ef8f549fac",
+          "name": "Rundfunk Berlin-Brandenburg",
+          "brand_id": null,
+          "candidates": [
+            "rundfunk-berlin-brandenburg"
+          ],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "f1b54fbe3a688601f1d7",
+          "name": "Saarländischer Rundfunk",
+          "brand_id": null,
+          "candidates": [
+            "saarla-ndischer-rundfunk"
+          ],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "86e2d9f5e84e33222c80",
+          "name": "Südwestrundfunk",
+          "brand_id": null,
+          "candidates": [
+            "su-dwestrundfunk"
+          ],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "9cd4db81b0381c4a2af7",
+          "name": "Westdeutscher Rundfunk",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "67848f6a14d5ff717194",
+          "name": "ZDF",
+          "brand_id": null,
+          "candidates": [
+            "zdf",
+            "zdf--src-72ebd43"
+          ],
+          "identity_reviewed": false,
+          "png_verified": false
+        }
+      ]
+    },
+    {
+      "id": "media-ebu-greece",
+      "name": "EBU 방송 조직 · Greece",
+      "country": "Greece",
+      "sector": "media",
+      "league": null,
+      "sport": null,
+      "season": null,
+      "scope_note": "EBU 페이지에 개별 등재된 방송 조직 기준이에요. 국가 전체 방송·신문사 수나 EBU 회원 단위 수와는 달라요.",
+      "roster_status": "official_roster_checked",
+      "as_of": "2026-10-10",
+      "source_kind": "official_directory_roster",
+      "source_url": "https://www.ebu.ch/about/members",
+      "source_revision": "4fa8fcc52f25476e233374cc3468e770ad8ac38230a63f5692842ff1e1cce139",
+      "count_unit": "entity",
+      "total": 1,
+      "verified": 0,
+      "candidates": 0,
+      "members": [
+        {
+          "member_key": "4fa8fcc52f25476e2333",
+          "name": "Elliniki Radiophonia-Tileorassi SA",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        }
+      ]
+    },
+    {
+      "id": "media-ebu-hungary",
+      "name": "EBU 방송 조직 · Hungary",
+      "country": "Hungary",
+      "sector": "media",
+      "league": null,
+      "sport": null,
+      "season": null,
+      "scope_note": "EBU 페이지에 개별 등재된 방송 조직 기준이에요. 국가 전체 방송·신문사 수나 EBU 회원 단위 수와는 달라요.",
+      "roster_status": "official_roster_checked",
+      "as_of": "2026-10-10",
+      "source_kind": "official_directory_roster",
+      "source_url": "https://www.ebu.ch/about/members",
+      "source_revision": "786f13efbb5dc5820258ae277ff22dca0888fce4cf12f81a73685786867c7102",
+      "count_unit": "entity",
+      "total": 2,
+      "verified": 0,
+      "candidates": 0,
+      "members": [
+        {
+          "member_key": "4231269a4afe9e18e7b9",
+          "name": "Duna Media Service Provider",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "cef5ad200057ea2e5a75",
+          "name": "Media Support and Asset Management Fund",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        }
+      ]
+    },
+    {
+      "id": "media-ebu-iceland",
+      "name": "EBU 방송 조직 · Iceland",
+      "country": "Iceland",
+      "sector": "media",
+      "league": null,
+      "sport": null,
+      "season": null,
+      "scope_note": "EBU 페이지에 개별 등재된 방송 조직 기준이에요. 국가 전체 방송·신문사 수나 EBU 회원 단위 수와는 달라요.",
+      "roster_status": "official_roster_checked",
+      "as_of": "2026-10-10",
+      "source_kind": "official_directory_roster",
+      "source_url": "https://www.ebu.ch/about/members",
+      "source_revision": "9bb683ac2321fb3ce4154320fc37ca37b5efa8885e253e2953d5b45145717bba",
+      "count_unit": "entity",
+      "total": 1,
+      "verified": 0,
+      "candidates": 0,
+      "members": [
+        {
+          "member_key": "9bb683ac2321fb3ce415",
+          "name": "Ríkisútvarpid",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        }
+      ]
+    },
+    {
+      "id": "media-ebu-ireland",
+      "name": "EBU 방송 조직 · Ireland",
+      "country": "Ireland",
+      "sector": "media",
+      "league": null,
+      "sport": null,
+      "season": null,
+      "scope_note": "EBU 페이지에 개별 등재된 방송 조직 기준이에요. 국가 전체 방송·신문사 수나 EBU 회원 단위 수와는 달라요.",
+      "roster_status": "official_roster_checked",
+      "as_of": "2026-10-10",
+      "source_kind": "official_directory_roster",
+      "source_url": "https://www.ebu.ch/about/members",
+      "source_revision": "ba3b45f5ea32c13c646ce0b5e7b9436a7c29d215fe741801f6fff0fcbc64e962",
+      "count_unit": "entity",
+      "total": 2,
+      "verified": 0,
+      "candidates": 1,
+      "members": [
+        {
+          "member_key": "66379e57c611ba18c29a",
+          "name": "Raidió Teilifís Éireann",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "96451297fa87b507fcb2",
+          "name": "TG4",
+          "brand_id": null,
+          "candidates": [
+            "tg4"
+          ],
+          "identity_reviewed": false,
+          "png_verified": false
+        }
+      ]
+    },
+    {
+      "id": "media-ebu-israel",
+      "name": "EBU 방송 조직 · Israel",
+      "country": "Israel",
+      "sector": "media",
+      "league": null,
+      "sport": null,
+      "season": null,
+      "scope_note": "EBU 페이지에 개별 등재된 방송 조직 기준이에요. 국가 전체 방송·신문사 수나 EBU 회원 단위 수와는 달라요.",
+      "roster_status": "official_roster_checked",
+      "as_of": "2026-10-10",
+      "source_kind": "official_directory_roster",
+      "source_url": "https://www.ebu.ch/about/members",
+      "source_revision": "d24840cac1a2d9803c9ae028e08c283ff0cfef011e9c2b5bf92cb87149a2ad17",
+      "count_unit": "entity",
+      "total": 1,
+      "verified": 0,
+      "candidates": 0,
+      "members": [
+        {
+          "member_key": "d24840cac1a2d9803c9a",
+          "name": "Israeli Public Broadcasting Corporation",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        }
+      ]
+    },
+    {
+      "id": "media-ebu-italy",
+      "name": "EBU 방송 조직 · Italy",
+      "country": "Italy",
+      "sector": "media",
+      "league": null,
+      "sport": null,
+      "season": null,
+      "scope_note": "EBU 페이지에 개별 등재된 방송 조직 기준이에요. 국가 전체 방송·신문사 수나 EBU 회원 단위 수와는 달라요.",
+      "roster_status": "official_roster_checked",
+      "as_of": "2026-10-10",
+      "source_kind": "official_directory_roster",
+      "source_url": "https://www.ebu.ch/about/members",
+      "source_revision": "f50a5c3bbdca90deaf8da809c47493c6d8a626673da57e9398d598c96d0162b2",
+      "count_unit": "entity",
+      "total": 1,
+      "verified": 0,
+      "candidates": 1,
+      "members": [
+        {
+          "member_key": "f50a5c3bbdca90deaf8d",
+          "name": "Radiotelevisione Italiana",
+          "brand_id": null,
+          "candidates": [
+            "rai"
+          ],
+          "identity_reviewed": false,
+          "png_verified": false
+        }
+      ]
+    },
+    {
+      "id": "media-ebu-jordan",
+      "name": "EBU 방송 조직 · Jordan",
+      "country": "Jordan",
+      "sector": "media",
+      "league": null,
+      "sport": null,
+      "season": null,
+      "scope_note": "EBU 페이지에 개별 등재된 방송 조직 기준이에요. 국가 전체 방송·신문사 수나 EBU 회원 단위 수와는 달라요.",
+      "roster_status": "official_roster_checked",
+      "as_of": "2026-10-10",
+      "source_kind": "official_directory_roster",
+      "source_url": "https://www.ebu.ch/about/members",
+      "source_revision": "50208c92a1a38bca68a8c434017a24f8b2899cd3c3340e452ad756651aac64b9",
+      "count_unit": "entity",
+      "total": 1,
+      "verified": 0,
+      "candidates": 0,
+      "members": [
+        {
+          "member_key": "50208c92a1a38bca68a8",
+          "name": "Jordan Radio and Television Corporation",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        }
+      ]
+    },
+    {
+      "id": "media-ebu-latvia",
+      "name": "EBU 방송 조직 · Latvia",
+      "country": "Latvia",
+      "sector": "media",
+      "league": null,
+      "sport": null,
+      "season": null,
+      "scope_note": "EBU 페이지에 개별 등재된 방송 조직 기준이에요. 국가 전체 방송·신문사 수나 EBU 회원 단위 수와는 달라요.",
+      "roster_status": "official_roster_checked",
+      "as_of": "2026-10-10",
+      "source_kind": "official_directory_roster",
+      "source_url": "https://www.ebu.ch/about/members",
+      "source_revision": "7677d9ac421350d207bc769aa5c525dddd38218a8c3b944f0d466bf08d329c82",
+      "count_unit": "entity",
+      "total": 1,
+      "verified": 0,
+      "candidates": 0,
+      "members": [
+        {
+          "member_key": "7677d9ac421350d207bc",
+          "name": "Latvijas Sabiedriskais medijs",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        }
+      ]
+    },
+    {
+      "id": "media-ebu-lebanon",
+      "name": "EBU 방송 조직 · Lebanon",
+      "country": "Lebanon",
+      "sector": "media",
+      "league": null,
+      "sport": null,
+      "season": null,
+      "scope_note": "EBU 페이지에 개별 등재된 방송 조직 기준이에요. 국가 전체 방송·신문사 수나 EBU 회원 단위 수와는 달라요.",
+      "roster_status": "official_roster_checked",
+      "as_of": "2026-10-10",
+      "source_kind": "official_directory_roster",
+      "source_url": "https://www.ebu.ch/about/members",
+      "source_revision": "9a06e2cbd352da857c4bba2cd3950503285950b314a001cc079737132aac55c6",
+      "count_unit": "entity",
+      "total": 1,
+      "verified": 0,
+      "candidates": 0,
+      "members": [
+        {
+          "member_key": "9a06e2cbd352da857c4b",
+          "name": "Télé-Liban",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        }
+      ]
+    },
+    {
+      "id": "media-ebu-libya",
+      "name": "EBU 방송 조직 · Libya",
+      "country": "Libya",
+      "sector": "media",
+      "league": null,
+      "sport": null,
+      "season": null,
+      "scope_note": "EBU 페이지에 개별 등재된 방송 조직 기준이에요. 국가 전체 방송·신문사 수나 EBU 회원 단위 수와는 달라요.",
+      "roster_status": "official_roster_checked",
+      "as_of": "2026-10-10",
+      "source_kind": "official_directory_roster",
+      "source_url": "https://www.ebu.ch/about/members",
+      "source_revision": "e02caa44fa4db98c1d9afe374f5d3da7e7ac4a338d49c236ff07018dcdfc03ef",
+      "count_unit": "entity",
+      "total": 1,
+      "verified": 0,
+      "candidates": 0,
+      "members": [
+        {
+          "member_key": "e02caa44fa4db98c1d9a",
+          "name": "Libya National Channel",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        }
+      ]
+    },
+    {
+      "id": "media-ebu-lithuania",
+      "name": "EBU 방송 조직 · Lithuania",
+      "country": "Lithuania",
+      "sector": "media",
+      "league": null,
+      "sport": null,
+      "season": null,
+      "scope_note": "EBU 페이지에 개별 등재된 방송 조직 기준이에요. 국가 전체 방송·신문사 수나 EBU 회원 단위 수와는 달라요.",
+      "roster_status": "official_roster_checked",
+      "as_of": "2026-10-10",
+      "source_kind": "official_directory_roster",
+      "source_url": "https://www.ebu.ch/about/members",
+      "source_revision": "d74f54b9bbdf7d6549ebca9fab52376efcb7696567fda37c1ffb009a44aae2f0",
+      "count_unit": "entity",
+      "total": 1,
+      "verified": 0,
+      "candidates": 0,
+      "members": [
+        {
+          "member_key": "d74f54b9bbdf7d6549eb",
+          "name": "Lietuvos Radijas ir Televizija",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        }
+      ]
+    },
+    {
+      "id": "media-ebu-luxembourg",
+      "name": "EBU 방송 조직 · Luxembourg",
+      "country": "Luxembourg",
+      "sector": "media",
+      "league": null,
+      "sport": null,
+      "season": null,
+      "scope_note": "EBU 페이지에 개별 등재된 방송 조직 기준이에요. 국가 전체 방송·신문사 수나 EBU 회원 단위 수와는 달라요.",
+      "roster_status": "official_roster_checked",
+      "as_of": "2026-10-10",
+      "source_kind": "official_directory_roster",
+      "source_url": "https://www.ebu.ch/about/members",
+      "source_revision": "ae2b4832aa25bac10cba00bcf120a813883fb3f105396a1a868fdb92423443b2",
+      "count_unit": "entity",
+      "total": 2,
+      "verified": 0,
+      "candidates": 1,
+      "members": [
+        {
+          "member_key": "4f28356a1624e7b88c73",
+          "name": "CLT-UFA",
+          "brand_id": null,
+          "candidates": [
+            "clt-ufa"
+          ],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "a3044440237f3a76bc21",
+          "name": "Média de Service Public 100.7",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        }
+      ]
+    },
+    {
+      "id": "media-ebu-malta",
+      "name": "EBU 방송 조직 · Malta",
+      "country": "Malta",
+      "sector": "media",
+      "league": null,
+      "sport": null,
+      "season": null,
+      "scope_note": "EBU 페이지에 개별 등재된 방송 조직 기준이에요. 국가 전체 방송·신문사 수나 EBU 회원 단위 수와는 달라요.",
+      "roster_status": "official_roster_checked",
+      "as_of": "2026-10-10",
+      "source_kind": "official_directory_roster",
+      "source_url": "https://www.ebu.ch/about/members",
+      "source_revision": "364470abbc1b5ab0bba8b0f11732681d3ff0056a24e6474bf892433037f91bce",
+      "count_unit": "entity",
+      "total": 1,
+      "verified": 0,
+      "candidates": 0,
+      "members": [
+        {
+          "member_key": "364470abbc1b5ab0bba8",
+          "name": "Public Broadcasting Services Ltd",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        }
+      ]
+    },
+    {
+      "id": "media-ebu-moldova",
+      "name": "EBU 방송 조직 · Moldova",
+      "country": "Moldova",
+      "sector": "media",
+      "league": null,
+      "sport": null,
+      "season": null,
+      "scope_note": "EBU 페이지에 개별 등재된 방송 조직 기준이에요. 국가 전체 방송·신문사 수나 EBU 회원 단위 수와는 달라요.",
+      "roster_status": "official_roster_checked",
+      "as_of": "2026-10-10",
+      "source_kind": "official_directory_roster",
+      "source_url": "https://www.ebu.ch/about/members",
+      "source_revision": "d4f413d2ed61b34f2caefe8dcd84d473b92cd77264cbd8ede996e099e191cb6c",
+      "count_unit": "entity",
+      "total": 1,
+      "verified": 0,
+      "candidates": 0,
+      "members": [
+        {
+          "member_key": "d4f413d2ed61b34f2cae",
+          "name": "Teleradio-Moldova",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        }
+      ]
+    },
+    {
+      "id": "media-ebu-monaco",
+      "name": "EBU 방송 조직 · Monaco",
+      "country": "Monaco",
+      "sector": "media",
+      "league": null,
+      "sport": null,
+      "season": null,
+      "scope_note": "EBU 페이지에 개별 등재된 방송 조직 기준이에요. 국가 전체 방송·신문사 수나 EBU 회원 단위 수와는 달라요.",
+      "roster_status": "official_roster_checked",
+      "as_of": "2026-10-10",
+      "source_kind": "official_directory_roster",
+      "source_url": "https://www.ebu.ch/about/members",
+      "source_revision": "b4ff67b24f2692a581d740233c6d8a6e3b9cd1a6de760fa34f754180a1066e44",
+      "count_unit": "entity",
+      "total": 2,
+      "verified": 0,
+      "candidates": 1,
+      "members": [
+        {
+          "member_key": "5936446651bc00e62f2a",
+          "name": "Monaco Media Diffusion",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "8e9aed36a920a867a814",
+          "name": "TV Monaco",
+          "brand_id": null,
+          "candidates": [
+            "tvmonaco"
+          ],
+          "identity_reviewed": false,
+          "png_verified": false
+        }
+      ]
+    },
+    {
+      "id": "media-ebu-montenegro",
+      "name": "EBU 방송 조직 · Montenegro",
+      "country": "Montenegro",
+      "sector": "media",
+      "league": null,
+      "sport": null,
+      "season": null,
+      "scope_note": "EBU 페이지에 개별 등재된 방송 조직 기준이에요. 국가 전체 방송·신문사 수나 EBU 회원 단위 수와는 달라요.",
+      "roster_status": "official_roster_checked",
+      "as_of": "2026-10-10",
+      "source_kind": "official_directory_roster",
+      "source_url": "https://www.ebu.ch/about/members",
+      "source_revision": "556168500a3dada1bd8deb5d4fc31846ddbc197a73b99f7d9d515e977947244d",
+      "count_unit": "entity",
+      "total": 1,
+      "verified": 0,
+      "candidates": 0,
+      "members": [
+        {
+          "member_key": "556168500a3dada1bd8d",
+          "name": "Radio i Televizija Crne Gore",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        }
+      ]
+    },
+    {
+      "id": "media-ebu-morocco",
+      "name": "EBU 방송 조직 · Morocco",
+      "country": "Morocco",
+      "sector": "media",
+      "league": null,
+      "sport": null,
+      "season": null,
+      "scope_note": "EBU 페이지에 개별 등재된 방송 조직 기준이에요. 국가 전체 방송·신문사 수나 EBU 회원 단위 수와는 달라요.",
+      "roster_status": "official_roster_checked",
+      "as_of": "2026-10-10",
+      "source_kind": "official_directory_roster",
+      "source_url": "https://www.ebu.ch/about/members",
+      "source_revision": "587baaa72fe988bd465a763f80f966d1ade52a8d12ecdce5396f1c7db3046c3e",
+      "count_unit": "entity",
+      "total": 1,
+      "verified": 0,
+      "candidates": 0,
+      "members": [
+        {
+          "member_key": "587baaa72fe988bd465a",
+          "name": "Société Nationale de Radio Télévision",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        }
+      ]
+    },
+    {
+      "id": "media-ebu-netherlands",
+      "name": "EBU 방송 조직 · Netherlands",
+      "country": "Netherlands",
+      "sector": "media",
+      "league": null,
+      "sport": null,
+      "season": null,
+      "scope_note": "EBU 페이지에 개별 등재된 방송 조직 기준이에요. 국가 전체 방송·신문사 수나 EBU 회원 단위 수와는 달라요.",
+      "roster_status": "official_roster_checked",
+      "as_of": "2026-10-10",
+      "source_kind": "official_directory_roster",
+      "source_url": "https://www.ebu.ch/about/members",
+      "source_revision": "1dc08cf338f0651a0006d3d98daeb58950c88d5901e0a080c205313d1c113002",
+      "count_unit": "entity",
+      "total": 9,
+      "verified": 0,
+      "candidates": 5,
+      "members": [
+        {
+          "member_key": "364f300696dc32436973",
+          "name": "AVROTROS",
+          "brand_id": null,
+          "candidates": [
+            "avrotros"
+          ],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "686e963d7eaf4fcb3972",
+          "name": "KRO-NCRV",
+          "brand_id": null,
+          "candidates": [
+            "kro-ncrv",
+            "kro-ncrv--src-b826bab"
+          ],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "f8046fd80ae15dafcc7b",
+          "name": "NTR",
+          "brand_id": null,
+          "candidates": [
+            "ntr",
+            "ntr--src-5709009"
+          ],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "124846520e72abb5f4b1",
+          "name": "Nederlandse Omroep Stichting",
+          "brand_id": null,
+          "candidates": [
+            "nederlandse-omroep-stichting"
+          ],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "47b85e829a165b72ab1b",
+          "name": "Nederlandse Publieke Omroep",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "a53ecf62419c2a95c092",
+          "name": "Omroep MAX",
+          "brand_id": null,
+          "candidates": [
+            "omroep-max"
+          ],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "41dcdbd9931b811be5fb",
+          "name": "Omroepvereniging BNN-VARA",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "4e3206b21323357ef9e0",
+          "name": "Omroepvereniging VPRO",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "44e41083a6ee611d124b",
+          "name": "Vereniging De Evangelische Omroep",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        }
+      ]
+    },
+    {
+      "id": "media-ebu-northmacedonia",
+      "name": "EBU 방송 조직 · North Macedonia",
+      "country": "North Macedonia",
+      "sector": "media",
+      "league": null,
+      "sport": null,
+      "season": null,
+      "scope_note": "EBU 페이지에 개별 등재된 방송 조직 기준이에요. 국가 전체 방송·신문사 수나 EBU 회원 단위 수와는 달라요.",
+      "roster_status": "official_roster_checked",
+      "as_of": "2026-10-10",
+      "source_kind": "official_directory_roster",
+      "source_url": "https://www.ebu.ch/about/members",
+      "source_revision": "72e9468928a0259935402bf3f944b440d43ad727d7f3b6c5de4dba7811bbf036",
+      "count_unit": "entity",
+      "total": 1,
+      "verified": 0,
+      "candidates": 0,
+      "members": [
+        {
+          "member_key": "72e9468928a025993540",
+          "name": "MKRTV",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        }
+      ]
+    },
+    {
+      "id": "media-ebu-norway",
+      "name": "EBU 방송 조직 · Norway",
+      "country": "Norway",
+      "sector": "media",
+      "league": null,
+      "sport": null,
+      "season": null,
+      "scope_note": "EBU 페이지에 개별 등재된 방송 조직 기준이에요. 국가 전체 방송·신문사 수나 EBU 회원 단위 수와는 달라요.",
+      "roster_status": "official_roster_checked",
+      "as_of": "2026-10-10",
+      "source_kind": "official_directory_roster",
+      "source_url": "https://www.ebu.ch/about/members",
+      "source_revision": "23d58e21d1593b39c16167dd69864b68b971f281f4d5b9de5ccade9118f00fd6",
+      "count_unit": "entity",
+      "total": 2,
+      "verified": 0,
+      "candidates": 0,
+      "members": [
+        {
+          "member_key": "41f50cf4cf166999b951",
+          "name": "Norsk rikskringkasting",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "1fd336b15d14100871fe",
+          "name": "TV 2 AS",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        }
+      ]
+    },
+    {
+      "id": "media-ebu-poland",
+      "name": "EBU 방송 조직 · Poland",
+      "country": "Poland",
+      "sector": "media",
+      "league": null,
+      "sport": null,
+      "season": null,
+      "scope_note": "EBU 페이지에 개별 등재된 방송 조직 기준이에요. 국가 전체 방송·신문사 수나 EBU 회원 단위 수와는 달라요.",
+      "roster_status": "official_roster_checked",
+      "as_of": "2026-10-10",
+      "source_kind": "official_directory_roster",
+      "source_url": "https://www.ebu.ch/about/members",
+      "source_revision": "0b72753e27ffd7b740817c13bcbbd0afefa84e9b4f23b58441a2eca946cac98a",
+      "count_unit": "entity",
+      "total": 2,
+      "verified": 0,
+      "candidates": 1,
+      "members": [
+        {
+          "member_key": "6399d8a0624c33d32cdf",
+          "name": "Polskie Radio SA",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "54d023e6142be32bf22f",
+          "name": "Telewizja Polska SA",
+          "brand_id": null,
+          "candidates": [
+            "telewizja-polska"
+          ],
+          "identity_reviewed": false,
+          "png_verified": false
+        }
+      ]
+    },
+    {
+      "id": "media-ebu-portugal",
+      "name": "EBU 방송 조직 · Portugal",
+      "country": "Portugal",
+      "sector": "media",
+      "league": null,
+      "sport": null,
+      "season": null,
+      "scope_note": "EBU 페이지에 개별 등재된 방송 조직 기준이에요. 국가 전체 방송·신문사 수나 EBU 회원 단위 수와는 달라요.",
+      "roster_status": "official_roster_checked",
+      "as_of": "2026-10-10",
+      "source_kind": "official_directory_roster",
+      "source_url": "https://www.ebu.ch/about/members",
+      "source_revision": "8501796b89b10ca0c132976b7aedbf18ab0ac17e7bcd652a085fc2dbf0937ca7",
+      "count_unit": "entity",
+      "total": 1,
+      "verified": 0,
+      "candidates": 1,
+      "members": [
+        {
+          "member_key": "8501796b89b10ca0c132",
+          "name": "Rádio e Televisão de Portugal",
+          "brand_id": null,
+          "candidates": [
+            "ra-dio-e-televisa-o-de-portugal"
+          ],
+          "identity_reviewed": false,
+          "png_verified": false
+        }
+      ]
+    },
+    {
+      "id": "media-ebu-romania",
+      "name": "EBU 방송 조직 · Romania",
+      "country": "Romania",
+      "sector": "media",
+      "league": null,
+      "sport": null,
+      "season": null,
+      "scope_note": "EBU 페이지에 개별 등재된 방송 조직 기준이에요. 국가 전체 방송·신문사 수나 EBU 회원 단위 수와는 달라요.",
+      "roster_status": "official_roster_checked",
+      "as_of": "2026-10-10",
+      "source_kind": "official_directory_roster",
+      "source_url": "https://www.ebu.ch/about/members",
+      "source_revision": "a67d2749feb393ffbe38126966977a8731834189052d2c03da56e94c1c27311a",
+      "count_unit": "entity",
+      "total": 2,
+      "verified": 0,
+      "candidates": 0,
+      "members": [
+        {
+          "member_key": "fe83c68ea37197d7e116",
+          "name": "Societatea Româna de Radiodifuziune",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "0920575a38604b11f8c8",
+          "name": "Societatea Româna de Televiziune",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        }
+      ]
+    },
+    {
+      "id": "media-ebu-sanmarino",
+      "name": "EBU 방송 조직 · San Marino",
+      "country": "San Marino",
+      "sector": "media",
+      "league": null,
+      "sport": null,
+      "season": null,
+      "scope_note": "EBU 페이지에 개별 등재된 방송 조직 기준이에요. 국가 전체 방송·신문사 수나 EBU 회원 단위 수와는 달라요.",
+      "roster_status": "official_roster_checked",
+      "as_of": "2026-10-10",
+      "source_kind": "official_directory_roster",
+      "source_url": "https://www.ebu.ch/about/members",
+      "source_revision": "0bdb3b93597018953cbc0814577eb52a162c136355b559ed779c0d6ae4382546",
+      "count_unit": "entity",
+      "total": 1,
+      "verified": 0,
+      "candidates": 1,
+      "members": [
+        {
+          "member_key": "0bdb3b93597018953cbc",
+          "name": "San Marino RTV",
+          "brand_id": null,
+          "candidates": [
+            "san-marino-rtv"
+          ],
+          "identity_reviewed": false,
+          "png_verified": false
+        }
+      ]
+    },
+    {
+      "id": "media-ebu-serbia",
+      "name": "EBU 방송 조직 · Serbia",
+      "country": "Serbia",
+      "sector": "media",
+      "league": null,
+      "sport": null,
+      "season": null,
+      "scope_note": "EBU 페이지에 개별 등재된 방송 조직 기준이에요. 국가 전체 방송·신문사 수나 EBU 회원 단위 수와는 달라요.",
+      "roster_status": "official_roster_checked",
+      "as_of": "2026-10-10",
+      "source_kind": "official_directory_roster",
+      "source_url": "https://www.ebu.ch/about/members",
+      "source_revision": "887f30376c89cde135858dd99c2080bf5014cf76e2810d1d43f6f84e8ad85b5b",
+      "count_unit": "entity",
+      "total": 1,
+      "verified": 0,
+      "candidates": 1,
+      "members": [
+        {
+          "member_key": "887f30376c89cde13585",
+          "name": "Radiotelevizija Srbije",
+          "brand_id": null,
+          "candidates": [
+            "radio-television-of-serbia"
+          ],
+          "identity_reviewed": false,
+          "png_verified": false
+        }
+      ]
+    },
+    {
+      "id": "media-ebu-slovakia",
+      "name": "EBU 방송 조직 · Slovakia",
+      "country": "Slovakia",
+      "sector": "media",
+      "league": null,
+      "sport": null,
+      "season": null,
+      "scope_note": "EBU 페이지에 개별 등재된 방송 조직 기준이에요. 국가 전체 방송·신문사 수나 EBU 회원 단위 수와는 달라요.",
+      "roster_status": "official_roster_checked",
+      "as_of": "2026-10-10",
+      "source_kind": "official_directory_roster",
+      "source_url": "https://www.ebu.ch/about/members",
+      "source_revision": "84e62e186fde1cb02ad2cd4aff05eed5b11e8bbc3583b7ea395ecd29f59535c3",
+      "count_unit": "entity",
+      "total": 1,
+      "verified": 0,
+      "candidates": 0,
+      "members": [
+        {
+          "member_key": "84e62e186fde1cb02ad2",
+          "name": "Slovenská televízia a rozhlas",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        }
+      ]
+    },
+    {
+      "id": "media-ebu-slovenia",
+      "name": "EBU 방송 조직 · Slovenia",
+      "country": "Slovenia",
+      "sector": "media",
+      "league": null,
+      "sport": null,
+      "season": null,
+      "scope_note": "EBU 페이지에 개별 등재된 방송 조직 기준이에요. 국가 전체 방송·신문사 수나 EBU 회원 단위 수와는 달라요.",
+      "roster_status": "official_roster_checked",
+      "as_of": "2026-10-10",
+      "source_kind": "official_directory_roster",
+      "source_url": "https://www.ebu.ch/about/members",
+      "source_revision": "98977a4761ec9e4cdb38326ac2638f4d80437129b266cb3c4f6a850ca6319298",
+      "count_unit": "entity",
+      "total": 1,
+      "verified": 0,
+      "candidates": 0,
+      "members": [
+        {
+          "member_key": "98977a4761ec9e4cdb38",
+          "name": "Radiotelevizija Slovenija",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        }
+      ]
+    },
+    {
+      "id": "media-ebu-spain",
+      "name": "EBU 방송 조직 · Spain",
+      "country": "Spain",
+      "sector": "media",
+      "league": null,
+      "sport": null,
+      "season": null,
+      "scope_note": "EBU 페이지에 개별 등재된 방송 조직 기준이에요. 국가 전체 방송·신문사 수나 EBU 회원 단위 수와는 달라요.",
+      "roster_status": "official_roster_checked",
+      "as_of": "2026-10-10",
+      "source_kind": "official_directory_roster",
+      "source_url": "https://www.ebu.ch/about/members",
+      "source_revision": "a6ca31e45ff049be5730e07505da91e3168f8f76e29d87a0e4ec8f6ec5152ae0",
+      "count_unit": "entity",
+      "total": 1,
+      "verified": 0,
+      "candidates": 0,
+      "members": [
+        {
+          "member_key": "a6ca31e45ff049be5730",
+          "name": "Radiotelevisión Española",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        }
+      ]
+    },
+    {
+      "id": "media-ebu-sweden",
+      "name": "EBU 방송 조직 · Sweden",
+      "country": "Sweden",
+      "sector": "media",
+      "league": null,
+      "sport": null,
+      "season": null,
+      "scope_note": "EBU 페이지에 개별 등재된 방송 조직 기준이에요. 국가 전체 방송·신문사 수나 EBU 회원 단위 수와는 달라요.",
+      "roster_status": "official_roster_checked",
+      "as_of": "2026-10-10",
+      "source_kind": "official_directory_roster",
+      "source_url": "https://www.ebu.ch/about/members",
+      "source_revision": "fd3473a25625b0192a925a5eb84f3f8fd6d6da699b01fc7ba9bf46e52d62d267",
+      "count_unit": "entity",
+      "total": 3,
+      "verified": 0,
+      "candidates": 1,
+      "members": [
+        {
+          "member_key": "b5b196ad61e7d2f9c1cf",
+          "name": "Sveriges Radio Ab",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "071515ab52934c6dd232",
+          "name": "Sveriges Television Ab",
+          "brand_id": null,
+          "candidates": [
+            "sveriges-television"
+          ],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "6b086f97e9ae2ad5ec2c",
+          "name": "Swedish Educational Broadcasting Company",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        }
+      ]
+    },
+    {
+      "id": "media-ebu-switzerland",
+      "name": "EBU 방송 조직 · Switzerland",
+      "country": "Switzerland",
+      "sector": "media",
+      "league": null,
+      "sport": null,
+      "season": null,
+      "scope_note": "EBU 페이지에 개별 등재된 방송 조직 기준이에요. 국가 전체 방송·신문사 수나 EBU 회원 단위 수와는 달라요.",
+      "roster_status": "official_roster_checked",
+      "as_of": "2026-10-10",
+      "source_kind": "official_directory_roster",
+      "source_url": "https://www.ebu.ch/about/members",
+      "source_revision": "6a40b9df32283d79aae91b0e17eddb8bda560c11405e96897deed7c9d9f858d3",
+      "count_unit": "entity",
+      "total": 1,
+      "verified": 0,
+      "candidates": 1,
+      "members": [
+        {
+          "member_key": "6a40b9df32283d79aae9",
+          "name": "SRG SSR",
+          "brand_id": null,
+          "candidates": [
+            "srgssr"
+          ],
+          "identity_reviewed": false,
+          "png_verified": false
+        }
+      ]
+    },
+    {
+      "id": "media-ebu-tunisia",
+      "name": "EBU 방송 조직 · Tunisia",
+      "country": "Tunisia",
+      "sector": "media",
+      "league": null,
+      "sport": null,
+      "season": null,
+      "scope_note": "EBU 페이지에 개별 등재된 방송 조직 기준이에요. 국가 전체 방송·신문사 수나 EBU 회원 단위 수와는 달라요.",
+      "roster_status": "official_roster_checked",
+      "as_of": "2026-10-10",
+      "source_kind": "official_directory_roster",
+      "source_url": "https://www.ebu.ch/about/members",
+      "source_revision": "fce395173cfc7b0360638d854e584a956bb3adc93d2e6c7fccd6310ec2ae07ee",
+      "count_unit": "entity",
+      "total": 2,
+      "verified": 0,
+      "candidates": 0,
+      "members": [
+        {
+          "member_key": "e4484663e4572c420a18",
+          "name": "Radio tunisienne",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "889fec259d8f1d9f49df",
+          "name": "Télévision tunisienne",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        }
+      ]
+    },
+    {
+      "id": "media-ebu-trkiye",
+      "name": "EBU 방송 조직 · Türkiye",
+      "country": "Türkiye",
+      "sector": "media",
+      "league": null,
+      "sport": null,
+      "season": null,
+      "scope_note": "EBU 페이지에 개별 등재된 방송 조직 기준이에요. 국가 전체 방송·신문사 수나 EBU 회원 단위 수와는 달라요.",
+      "roster_status": "official_roster_checked",
+      "as_of": "2026-10-10",
+      "source_kind": "official_directory_roster",
+      "source_url": "https://www.ebu.ch/about/members",
+      "source_revision": "859c2de80775b1df780397029a52b9cabf58212857d69c11fd659ed9d4c48401",
+      "count_unit": "entity",
+      "total": 1,
+      "verified": 0,
+      "candidates": 0,
+      "members": [
+        {
+          "member_key": "859c2de80775b1df7803",
+          "name": "Türkiye Radyo-Televizyon Kurumu",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        }
+      ]
+    },
+    {
+      "id": "media-ebu-ukraine",
+      "name": "EBU 방송 조직 · Ukraine",
+      "country": "Ukraine",
+      "sector": "media",
+      "league": null,
+      "sport": null,
+      "season": null,
+      "scope_note": "EBU 페이지에 개별 등재된 방송 조직 기준이에요. 국가 전체 방송·신문사 수나 EBU 회원 단위 수와는 달라요.",
+      "roster_status": "official_roster_checked",
+      "as_of": "2026-10-10",
+      "source_kind": "official_directory_roster",
+      "source_url": "https://www.ebu.ch/about/members",
+      "source_revision": "dc3681e92d9da7716362fefd0ce7cb27e9d6589e7e7adea0f992e93e15e55437",
+      "count_unit": "entity",
+      "total": 1,
+      "verified": 0,
+      "candidates": 0,
+      "members": [
+        {
+          "member_key": "dc3681e92d9da7716362",
+          "name": "Suspilne Ukraine",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        }
+      ]
+    },
+    {
+      "id": "media-ebu-unitedkingdom",
+      "name": "EBU 방송 조직 · United Kingdom",
+      "country": "United Kingdom",
+      "sector": "media",
+      "league": null,
+      "sport": null,
+      "season": null,
+      "scope_note": "EBU 페이지에 개별 등재된 방송 조직 기준이에요. 국가 전체 방송·신문사 수나 EBU 회원 단위 수와는 달라요.",
+      "roster_status": "official_roster_checked",
+      "as_of": "2026-10-10",
+      "source_kind": "official_directory_roster",
+      "source_url": "https://www.ebu.ch/about/members",
+      "source_revision": "7eb9d111a55201008b870276806fc2388b271a6035a41b128a2edae34818ea98",
+      "count_unit": "entity",
+      "total": 4,
+      "verified": 0,
+      "candidates": 1,
+      "members": [
+        {
+          "member_key": "3af9be044834bbf8334f",
+          "name": "British Broadcasting Corporation",
+          "brand_id": null,
+          "candidates": [
+            "bbc-proms",
+            "british-broadcasting-corporation"
+          ],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "d4a9d8f530919d6dcb18",
+          "name": "Sianel 4 Cymru",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "cadc09a2e1b741ae1ef0",
+          "name": "UK STV",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        },
+        {
+          "member_key": "03107df5e0716fe0f673",
+          "name": "United Kingdom Independent Broadcasting",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        }
+      ]
+    },
+    {
+      "id": "media-ebu-vaticanstate",
+      "name": "EBU 방송 조직 · Vatican State",
+      "country": "Vatican State",
+      "sector": "media",
+      "league": null,
+      "sport": null,
+      "season": null,
+      "scope_note": "EBU 페이지에 개별 등재된 방송 조직 기준이에요. 국가 전체 방송·신문사 수나 EBU 회원 단위 수와는 달라요.",
+      "roster_status": "official_roster_checked",
+      "as_of": "2026-10-10",
+      "source_kind": "official_directory_roster",
+      "source_url": "https://www.ebu.ch/about/members",
+      "source_revision": "c8859848a917cc422c33ccea3c83a149b01b3eb9c49656901faee0a5dc9977d0",
+      "count_unit": "entity",
+      "total": 1,
+      "verified": 0,
+      "candidates": 0,
+      "members": [
+        {
+          "member_key": "c8859848a917cc422c33",
+          "name": "Radio Vaticana",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        }
+      ]
+    }
+  ]
+}

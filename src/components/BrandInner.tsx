@@ -10,6 +10,7 @@ import { Brand, fetchVariants, type VariantManifest } from "@/lib/brands";
 import { BRAND_RELATIONS, RELATION_LABEL, RELATION_COLOR } from "@/lib/brand-relations";
 import { getClientAuth, getClientDb } from "@/lib/firebase";
 import LogoVersionHistory from "./LogoVersionHistory";
+import ProcessedLogoIcons from "./ProcessedLogoIcons";
 import { logoVariantLabel } from "@/lib/logo-variant-label";
 import CoupangSlot from "./CoupangSlot";
 
@@ -878,6 +879,7 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
               })}
             </div>
           </section>
+          <ProcessedLogoIcons key={brand.id} brandId={brand.id} onDownload={grab}/>
           <LogoVersionHistory brandId={brand.id} isAdmin={isAdmin}/>
 
           <section aria-label="로고 구성">

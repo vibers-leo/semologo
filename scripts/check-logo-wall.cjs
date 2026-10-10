@@ -16,6 +16,7 @@ function load(file){
  const code=ts.transpileModule(fs.readFileSync(file,'utf8'),{compilerOptions:{module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2020,esModuleInterop:true}}).outputText;
  const localRequire=(name)=>{
   if(name==='pg')return{Pool};
+  if(name==='@/lib/logo-wall-preview')return{logoWallPreview:async()=>png};
   if(name==='@/lib/brands')return{fetchVariants:async id=>load('src/lib/reviewed-logo-assets.ts').reviewedVariants[id] || null,fetchBrandsSlim:async()=>[],sortForGrid:load('src/lib/brands.ts').sortForGrid};
   if(name==='sharp')return input=>{const chain={resize:()=>chain,timeout:()=>chain,png:()=>chain,toBuffer:async()=>input};return chain;};
   if(name==='@/app/api/logo-preview/route')return{GET:async()=>new Response(png)};
@@ -55,7 +56,7 @@ async function main(){
  assert(fetched[0].includes('/png-only-recovery/logo.png'),'PNG-only recovery must try existing PNG before missing SVG');fetched.length=0;
  assert(!logoImageCandidates({id:'raster',has_svg:false,has_png:true}).some(u=>u.endsWith('.svg')));
  const {logoWallLayout}=load('src/lib/logo-wall-layout.ts');
- const old=logoWallLayout({background:'auto',columns:4});assert.equal(old.appearance,'cards');assert.equal(old.showNames,true);
+ const old=logoWallLayout({background:'auto',columns:4});assert.equal(old.appearance,'cards');assert.equal(old.showNames,false);assert.equal(logoWallLayout({showNames:true}).showNames,false);
  const layout=logoWallLayout({appearance:'clean',spacing:'airy',logoSize:'large',showNames:false,motion:'alternating'});
  assert.throws(()=>logoWallLayout({columns:999}));assert.throws(()=>logoWallLayout({showNames:'false'}));assert.throws(()=>logoWallLayout({appearance:'url(evil)'}));
  const {cmsBrand,logoWallAsset}=load('src/lib/cms-brand.ts');
@@ -102,7 +103,9 @@ async function main(){
  assert(logoWallHtml('scale 200',{},[{id:'test',file:'logos/001-test.png',scale:200}]).includes('transform:scale(2)'));
  const exporter=load('src/app/api/logo-walls/export/route.ts');
  exportWall={id:'test-wall',title:'export',version:1,settings:layout,items:[{brand_id:'test-brand',snapshot:{name:'test',logo_png:'https://cdn.example/_clients/test-brand/logo.png',light:false}}]};
- assert.equal((await exporter.GET(new Request('https://example.test/?id=test-wall'))).status,200);assert(fetched[0].includes('/logo.png'));
+ const zipResponse=await exporter.GET(new Request('https://example.test/?id=test-wall'));assert.equal(zipResponse.status,200);assert(fetched[0].includes('/logo.png'));const zipBody=Buffer.from(await zipResponse.arrayBuffer());for(const filename of ['index.html','styles.css','script.js','manifest.json','og-preview.png','README.txt','logos/001-test-brand.png'])assert(zipBody.includes(Buffer.from(filename)),filename+' missing from ZIP');
+ const inline=await exporter.GET(new Request('https://example.test/?id=test-wall&format=preview'));assert.equal(inline.status,200);const inlineBody=await inline.json();assert(inlineBody.html.includes('src="data:image/png;base64,'));assert(!inlineBody.html.includes('src="logos/'));assert(inlineBody.image.startsWith('data:image/png;base64,'));
+ owner=null;assert.equal((await exporter.GET(new Request('https://example.test/?id=test-wall&format=preview'))).status,401);owner='test-owner';
  fetched.length=0;exportWall.items=[{brand_id:id,snapshot:{name:'bad'}}];assert.equal((await exporter.GET(new Request('https://example.test/?id=test-wall'))).status,422);assert.equal(fetched.length,0);
  exportWall=undefined;assert.equal((await exporter.GET(new Request('https://example.test/?id=test-wall'))).status,404);
  rows=[{id:'new-cms-logo',payload:{id:'new-cms-logo',name_ko:'신규 CMS 검증',logo_png:'logo.png',added_at:'2026-10-07',status:'published'}}];

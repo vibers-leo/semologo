@@ -1,0 +1,1016 @@
+[
+  {
+    "id": "zoominfo-1",
+    "transparent_fraction": 0.6449,
+    "decision": "visually-reviewed-native-alpha",
+    "source_sha256": "49866dc9ae1315b8e0ab166d6c950adc63decf641825d9e0585afeb24fb6041f",
+    "removed_exact_canvas_path": false,
+    "review": "No SVG edits or white removal. Original vector alpha rendered; light/dark contact reviewed."
+  },
+  {
+    "id": "zoom-info",
+    "transparent_fraction": 0.6449,
+    "decision": "visually-reviewed-native-alpha",
+    "source_sha256": "49866dc9ae1315b8e0ab166d6c950adc63decf641825d9e0585afeb24fb6041f",
+    "removed_exact_canvas_path": false,
+    "review": "No SVG edits or white removal. Original vector alpha rendered; light/dark contact reviewed."
+  },
+  {
+    "id": "zoom-app",
+    "transparent_fraction": 0.2116,
+    "decision": "visually-reviewed-native-alpha",
+    "source_sha256": "95f4b2d01367b90227bdc7be0d8777b27e33a83c4793e7d2088956ef31b11253",
+    "removed_exact_canvas_path": false,
+    "review": "No SVG edits or white removal. Original vector alpha rendered; light/dark contact reviewed."
+  },
+  {
+    "id": "zone",
+    "transparent_fraction": 0.0,
+    "decision": "opaque-background-manual-review",
+    "source_sha256": "f16db1839936f926c684f17849db11df3d9537f729162cff42d7fa7a3547513b",
+    "removed_exact_canvas_path": false
+  },
+  {
+    "id": "zomato-2",
+    "transparent_fraction": 0.464,
+    "decision": "visually-reviewed-native-alpha",
+    "source_sha256": "a6363690ff097247820fdb32495e60a9de44d732d3f2df61fcc1b08e5001d15a",
+    "removed_exact_canvas_path": false,
+    "review": "No SVG edits or white removal. Original vector alpha rendered; light/dark contact reviewed."
+  },
+  {
+    "id": "zombiekanapa",
+    "transparent_fraction": 0.4451,
+    "decision": "visually-reviewed-native-alpha",
+    "source_sha256": "6fd6345ebcb1f03b706dbcf21de00a737f8a547fd33a3e5c01799f96265db7c9",
+    "removed_exact_canvas_path": false,
+    "review": "No SVG edits or white removal. Original vector alpha rendered; light/dark contact reviewed."
+  },
+  {
+    "id": "zolvac-technologies-2",
+    "transparent_fraction": 0.6759,
+    "decision": "visually-reviewed-native-alpha",
+    "source_sha256": "abf64828afe8eaaf3132afc36d940b69e4eb060468c98b7c53b6c9b21d17f216",
+    "removed_exact_canvas_path": false,
+    "review": "No SVG edits or white removal. Original vector alpha rendered; light/dark contact reviewed."
+  },
+  {
+    "id": "zomato-1",
+    "transparent_fraction": 0.0,
+    "decision": "opaque-background-manual-review",
+    "source_sha256": "60b50275c4d04b4e0feba82adcdc9186912247276ed5b774e0346bd346e4a0d8",
+    "removed_exact_canvas_path": false
+  },
+  {
+    "id": "zonealarm-logo",
+    "transparent_fraction": 0.5504,
+    "decision": "visually-reviewed-native-alpha",
+    "source_sha256": "10a17bb6865e23bde37edb91453250fcde485b6dbf69dc33c8d1b7ef915c8b22",
+    "removed_exact_canvas_path": false,
+    "review": "No SVG edits or white removal. Original vector alpha rendered; light/dark contact reviewed."
+  },
+  {
+    "id": "zone5300",
+    "transparent_fraction": 0.2115,
+    "decision": "visually-reviewed-native-alpha",
+    "source_sha256": "7d81664714405cd94699fa64de5e05fe00107c36db83e107136910b77b34b0e1",
+    "removed_exact_canvas_path": false,
+    "review": "No SVG edits or white removal. Original vector alpha rendered; light/dark contact reviewed."
+  },
+  {
+    "id": "zoom-communications-logo",
+    "transparent_fraction": 0.4781,
+    "decision": "visually-reviewed-native-alpha",
+    "source_sha256": "07bc3126d797e2f5d61a3b26d6bd9b3886bb7d3f13d25ea26fdb441b4b5b573d",
+    "removed_exact_canvas_path": false,
+    "review": "No SVG edits or white removal. Original vector alpha rendered; light/dark contact reviewed."
+  },
+  {
+    "id": "zoom-communications-logo-1",
+    "transparent_fraction": 0.4781,
+    "decision": "visually-reviewed-native-alpha",
+    "source_sha256": "07bc3126d797e2f5d61a3b26d6bd9b3886bb7d3f13d25ea26fdb441b4b5b573d",
+    "removed_exact_canvas_path": false,
+    "review": "No SVG edits or white removal. Original vector alpha rendered; light/dark contact reviewed."
+  },
+  {
+    "id": "zollner",
+    "transparent_fraction": 0.506,
+    "decision": "visually-reviewed-native-alpha",
+    "source_sha256": "f2c71b51d426a9cba0995a675cfc7e6cd8a5e299265e73011dc610957a3dec19",
+    "removed_exact_canvas_path": false,
+    "review": "No SVG edits or white removal. Original vector alpha rendered; light/dark contact reviewed."
+  },
+  {
+    "id": "zodiac-3",
+    "transparent_fraction": 0.2382,
+    "decision": "visually-reviewed-native-alpha",
+    "source_sha256": "292b2edb8c32c8c61c4f37ededd9654a8658de5ce34d68d49f12ea6e60053a49",
+    "removed_exact_canvas_path": false,
+    "review": "No SVG edits or white removal. Original vector alpha rendered; light/dark contact reviewed."
+  },
+  {
+    "id": "zolla-creations-1",
+    "transparent_fraction": 0.9327,
+    "decision": "visually-reviewed-native-alpha",
+    "source_sha256": "221d8df4cce41222cf33e0ddf1d7445f5d36fab52238e51e4bc28d174e3a4295",
+    "removed_exact_canvas_path": false,
+    "review": "No SVG edits or white removal. Original vector alpha rendered; light/dark contact reviewed."
+  },
+  {
+    "id": "zodan",
+    "transparent_fraction": 0.4921,
+    "decision": "visually-reviewed-native-alpha",
+    "source_sha256": "ee6857fe3c513ee1bdbd888e2bd382ad720f5fe19448fec5518d23320199542f",
+    "removed_exact_canvas_path": false,
+    "review": "No SVG edits or white removal. Original vector alpha rendered; light/dark contact reviewed."
+  },
+  {
+    "id": "zojirushi-logo",
+    "transparent_fraction": 0.6654,
+    "decision": "visually-reviewed-native-alpha",
+    "source_sha256": "3e0398e316b10ac2ed494c11e303f29441eceff1665790e5e04ad33fd5014158",
+    "removed_exact_canvas_path": false,
+    "review": "No SVG edits or white removal. Original vector alpha rendered; light/dark contact reviewed."
+  },
+  {
+    "id": "zoil-1",
+    "transparent_fraction": 0.3585,
+    "decision": "visually-reviewed-native-alpha",
+    "source_sha256": "cfb2a093d2d432169d2efc0d17d3641cf1eae40c837cac367ca767c1f835e609",
+    "removed_exact_canvas_path": false,
+    "review": "No SVG edits or white removal. Original vector alpha rendered; light/dark contact reviewed."
+  },
+  {
+    "id": "zojirushi-1",
+    "transparent_fraction": 0.6654,
+    "decision": "visually-reviewed-native-alpha",
+    "source_sha256": "3e0398e316b10ac2ed494c11e303f29441eceff1665790e5e04ad33fd5014158",
+    "removed_exact_canvas_path": false,
+    "review": "No SVG edits or white removal. Original vector alpha rendered; light/dark contact reviewed."
+  },
+  {
+    "id": "zoho-1",
+    "transparent_fraction": 0.2644,
+    "decision": "visually-reviewed-native-alpha",
+    "source_sha256": "ad243735beab13f454c5a50bbe6cf3a924b1782123453e71bc48fce38385db53",
+    "removed_exact_canvas_path": false,
+    "review": "No SVG edits or white removal. Original vector alpha rendered; light/dark contact reviewed."
+  },
+  {
+    "id": "zoah-1",
+    "transparent_fraction": 0.7637,
+    "decision": "visually-reviewed-native-alpha",
+    "source_sha256": "13645eefab00eb1e16c80eb304f860add39f1f0655615f7e290fcc7570e8a7bf",
+    "removed_exact_canvas_path": false,
+    "review": "No SVG edits or white removal. Original vector alpha rendered; light/dark contact reviewed."
+  },
+  {
+    "id": "zkb--src-1bb8403",
+    "transparent_fraction": 0.5895,
+    "decision": "visually-reviewed-native-alpha",
+    "source_sha256": "afd5b406f0a667afd0961ba6a6ae9e4ec2d4c838608769a37cac37cf986ddb48",
+    "removed_exact_canvas_path": false,
+    "review": "No SVG edits or white removal. Original vector alpha rendered; light/dark contact reviewed."
+  },
+  {
+    "id": "ziprecruiter-blacktext",
+    "transparent_fraction": 0.7367,
+    "decision": "visually-reviewed-native-alpha",
+    "source_sha256": "776bc47d9d271ce3bd81d0f617ad02b7c803587abb2288470ac1f05553d256ce",
+    "removed_exact_canvas_path": false,
+    "review": "No SVG edits or white removal. Original vector alpha rendered; light/dark contact reviewed."
+  },
+  {
+    "id": "zirkak-1",
+    "transparent_fraction": 0.2118,
+    "decision": "visually-reviewed-native-alpha",
+    "source_sha256": "f16c47fcea5eef03a9265b3a87ba4cf314a89e4718c9cb78ae4114a3f0eb3e1f",
+    "removed_exact_canvas_path": false,
+    "review": "No SVG edits or white removal. Original vector alpha rendered; light/dark contact reviewed."
+  },
+  {
+    "id": "zipped-news",
+    "transparent_fraction": 0.6115,
+    "decision": "visually-reviewed-native-alpha",
+    "source_sha256": "fcb67e913f23cf93b9e799ca615ee201845e056f04fe0bb34af3bb23a09c7046",
+    "removed_exact_canvas_path": false,
+    "review": "No SVG edits or white removal. Original vector alpha rendered; light/dark contact reviewed."
+  },
+  {
+    "id": "zippay-1",
+    "transparent_fraction": 0.5505,
+    "decision": "visually-reviewed-native-alpha",
+    "source_sha256": "d00c960b50f6f9ac7c69d3bee8a134a78ffef5d49b19c7edf7edb4e5e37d3f34",
+    "removed_exact_canvas_path": false,
+    "review": "No SVG edits or white removal. Original vector alpha rendered; light/dark contact reviewed."
+  },
+  {
+    "id": "zippo-logo",
+    "transparent_fraction": 0.5736,
+    "decision": "visually-reviewed-native-alpha",
+    "source_sha256": "5014bb8eaf4f1f105de50e8044464553593f9b156d6626c80c38030cea680d9d",
+    "removed_exact_canvas_path": false,
+    "review": "No SVG edits or white removal. Original vector alpha rendered; light/dark contact reviewed."
+  },
+  {
+    "id": "zipcar",
+    "transparent_fraction": 0.6218,
+    "decision": "visually-reviewed-native-alpha",
+    "source_sha256": "ba514d97cb11e729bf91b5a1e1254261335da4d201fa0dca8c46569398210155",
+    "removed_exact_canvas_path": false,
+    "review": "No SVG edits or white removal. Original vector alpha rendered; light/dark contact reviewed."
+  },
+  {
+    "id": "zinfog",
+    "transparent_fraction": 0.7915,
+    "decision": "visually-reviewed-native-alpha",
+    "source_sha256": "f6a09c385486d796f459507c0791728ba65a42157dce78d48bf849975c31c86a",
+    "removed_exact_canvas_path": false,
+    "review": "No SVG edits or white removal. Original vector alpha rendered; light/dark contact reviewed."
+  },
+  {
+    "id": "zinburger-1",
+    "transparent_fraction": 0.5898,
+    "decision": "visually-reviewed-native-alpha",
+    "source_sha256": "ece3fc927f68e814eedfcd8871195ce393b1539db19581d02a75b73ff61bee86",
+    "removed_exact_canvas_path": false,
+    "review": "No SVG edits or white removal. Original vector alpha rendered; light/dark contact reviewed."
+  },
+  {
+    "id": "zionsville-high-school",
+    "transparent_fraction": 0.3809,
+    "decision": "visually-reviewed-native-alpha",
+    "source_sha256": "4336a6139c92da1742827b9233a76a4f4308e78b86b4aa2b5a809f5b93466d91",
+    "removed_exact_canvas_path": false,
+    "review": "No SVG edits or white removal. Original vector alpha rendered; light/dark contact reviewed."
+  },
+  {
+    "id": "zinfog-codelabs",
+    "transparent_fraction": 0.7915,
+    "decision": "visually-reviewed-native-alpha",
+    "source_sha256": "f6a09c385486d796f459507c0791728ba65a42157dce78d48bf849975c31c86a",
+    "removed_exact_canvas_path": false,
+    "review": "No SVG edits or white removal. Original vector alpha rendered; light/dark contact reviewed."
+  },
+  {
+    "id": "zion-forever-project",
+    "transparent_fraction": 0.2118,
+    "decision": "visually-reviewed-native-alpha",
+    "source_sha256": "c299f4e03441c6faa1f5387364df2da246b54aa59f407da6f4b2e8d1aacb6b09",
+    "removed_exact_canvas_path": false,
+    "review": "No SVG edits or white removal. Original vector alpha rendered; light/dark contact reviewed."
+  },
+  {
+    "id": "zimmermann",
+    "transparent_fraction": 0.6577,
+    "decision": "visually-reviewed-native-alpha",
+    "source_sha256": "212dc9ae26ac348686981b5887b002b73f9fce99b4420eeebc703be52215ad92",
+    "removed_exact_canvas_path": false,
+    "review": "No SVG edits or white removal. Original vector alpha rendered; light/dark contact reviewed."
+  },
+  {
+    "id": "zimmer-biomet-logo-1",
+    "transparent_fraction": 0.8017,
+    "decision": "visually-reviewed-native-alpha",
+    "source_sha256": "90c7587dcd540e7f4d3ca88d74696c46088ce3ed868f12e7b2c437accb745857",
+    "removed_exact_canvas_path": false,
+    "review": "No SVG edits or white removal. Original vector alpha rendered; light/dark contact reviewed."
+  },
+  {
+    "id": "zima",
+    "transparent_fraction": 0.0,
+    "decision": "opaque-background-manual-review",
+    "source_sha256": "45ab90f740617967a527272aeff67a719233bcc194ae8748caaf52bdefb0949d",
+    "removed_exact_canvas_path": false
+  },
+  {
+    "id": "zimmer-biomet-logo",
+    "transparent_fraction": 0.8026,
+    "decision": "visually-reviewed-native-alpha",
+    "source_sha256": "31d04e100b7c06848e91e16f0ea32d545d0a4447b434c9481132acedbcae5542",
+    "removed_exact_canvas_path": false,
+    "review": "No SVG edits or white removal. Original vector alpha rendered; light/dark contact reviewed."
+  },
+  {
+    "id": "zimbabwe",
+    "transparent_fraction": 0.0,
+    "decision": "opaque-background-manual-review",
+    "source_sha256": "51eb14ba5bdf3999d11167e30caf84bbb4559bf3ce9bcd2c324effc739849437",
+    "removed_exact_canvas_path": false
+  },
+  {
+    "id": "zim-logo",
+    "transparent_fraction": 0.6805,
+    "decision": "visually-reviewed-native-alpha",
+    "source_sha256": "ac66a131e9843969988412b05a8ab7df3977cd33671ac01b3e99d839bd9dadb3",
+    "removed_exact_canvas_path": false,
+    "review": "No SVG edits or white removal. Original vector alpha rendered; light/dark contact reviewed."
+  },
+  {
+    "id": "zima-1",
+    "transparent_fraction": 0.7456,
+    "decision": "visually-reviewed-native-alpha",
+    "source_sha256": "5b2b6ba3717cdd502e210212c1ef8f49cf0236ed0b62fc8c4264ed70fd3a09c8",
+    "removed_exact_canvas_path": false,
+    "review": "No SVG edits or white removal. Original vector alpha rendered; light/dark contact reviewed."
+  },
+  {
+    "id": "zilliqa--src-c2357c5",
+    "transparent_fraction": 0.4431,
+    "decision": "visually-reviewed-native-alpha",
+    "source_sha256": "c851829f31dd76f249dedebb2eb7f8a79a80de4637314282240933387847bea4",
+    "removed_exact_canvas_path": false,
+    "review": "No SVG edits or white removal. Original vector alpha rendered; light/dark contact reviewed."
+  },
+  {
+    "id": "zilina",
+    "transparent_fraction": 0.3877,
+    "decision": "visually-reviewed-native-alpha",
+    "source_sha256": "f1f080e49d145a07dd4e96d7c4b23fe5de47595f6a727a1952a59e799d27d7ce",
+    "removed_exact_canvas_path": false,
+    "review": "No SVG edits or white removal. Original vector alpha rendered; light/dark contact reviewed."
+  },
+  {
+    "id": "zigbee--src-10ef1cd",
+    "transparent_fraction": 0.2115,
+    "decision": "visually-reviewed-native-alpha",
+    "source_sha256": "a82ec2e65e3aa901afecbc77806fc583a9ccf04c2b5975cadde50618cf42162a",
+    "removed_exact_canvas_path": false,
+    "review": "No SVG edits or white removal. Original vector alpha rendered; light/dark contact reviewed."
+  },
+  {
+    "id": "zillow-1",
+    "transparent_fraction": 0.2118,
+    "decision": "visually-reviewed-native-alpha",
+    "source_sha256": "0d4ba1646f50ef675c865279ab88f2cca4e44705127b0140267157288a824bef",
+    "removed_exact_canvas_path": false,
+    "review": "No SVG edits or white removal. Original vector alpha rendered; light/dark contact reviewed."
+  },
+  {
+    "id": "zigya-1",
+    "transparent_fraction": 0.1129,
+    "decision": "visually-reviewed-native-alpha",
+    "source_sha256": "b906ff47b2a8ff70752a7e014672b7e9c6e8e27e6cd4b8d8655a5214154a77e0",
+    "removed_exact_canvas_path": false,
+    "review": "No SVG edits or white removal. Original vector alpha rendered; light/dark contact reviewed."
+  },
+  {
+    "id": "zillow--src-b604b55",
+    "transparent_fraction": 0.4574,
+    "decision": "visually-reviewed-native-alpha",
+    "source_sha256": "8bf349911ff83c3302ccc60b56488da1bc5a36ec430b00035d59eac570e9547f",
+    "removed_exact_canvas_path": false,
+    "review": "No SVG edits or white removal. Original vector alpha rendered; light/dark contact reviewed."
+  },
+  {
+    "id": "ziggo--src-1a2c2fb",
+    "transparent_fraction": 0.598,
+    "decision": "visually-reviewed-native-alpha",
+    "source_sha256": "dd2c26f8e421de3d4edef7bf22ca9d93cef2dda979b302667de6bec4fdc87165",
+    "removed_exact_canvas_path": false,
+    "review": "No SVG edits or white removal. Original vector alpha rendered; light/dark contact reviewed."
+  },
+  {
+    "id": "zhihu-logo-1",
+    "transparent_fraction": 0.7009,
+    "decision": "visually-reviewed-native-alpha",
+    "source_sha256": "16cb954e8ebbe1978012ff0f0323433f24096ba68cd0b03c6780aae889b2f920",
+    "removed_exact_canvas_path": false,
+    "review": "No SVG edits or white removal. Original vector alpha rendered; light/dark contact reviewed."
+  },
+  {
+    "id": "zhihu-logo",
+    "transparent_fraction": 0.7009,
+    "decision": "visually-reviewed-native-alpha",
+    "source_sha256": "16cb954e8ebbe1978012ff0f0323433f24096ba68cd0b03c6780aae889b2f920",
+    "removed_exact_canvas_path": false,
+    "review": "No SVG edits or white removal. Original vector alpha rendered; light/dark contact reviewed."
+  },
+  {
+    "id": "zf-logo-std-blue-3cc",
+    "transparent_fraction": 0.634,
+    "decision": "visually-reviewed-native-alpha",
+    "source_sha256": "90ea9683467e6acc6eb408ed97455c8c0711b8e7cd848254a711667453ee572c",
+    "removed_exact_canvas_path": false,
+    "review": "No SVG edits or white removal. Original vector alpha rendered; light/dark contact reviewed."
+  },
+  {
+    "id": "zhemch-1",
+    "transparent_fraction": 0.2122,
+    "decision": "visually-reviewed-native-alpha",
+    "source_sha256": "1dfb6307b8d412e85f2efcebea7612f91b0f894bb53469faabe7181f2e23d788",
+    "removed_exact_canvas_path": false,
+    "review": "No SVG edits or white removal. Original vector alpha rendered; light/dark contact reviewed."
+  },
+  {
+    "id": "zf-1",
+    "transparent_fraction": 0.5989,
+    "decision": "visually-reviewed-native-alpha",
+    "source_sha256": "14fb2a8495db52a4b883727975517a5ce8111ed763b4ee4b7249603906d56801",
+    "removed_exact_canvas_path": false,
+    "review": "No SVG edits or white removal. Original vector alpha rendered; light/dark contact reviewed."
+  },
+  {
+    "id": "zf-lenksysteme",
+    "transparent_fraction": 0.6141,
+    "decision": "visually-reviewed-native-alpha",
+    "source_sha256": "38f073930cbb23a5a115dd2f410cfe3009b1e21304eb6009f2e693f497db3162",
+    "removed_exact_canvas_path": false,
+    "review": "No SVG edits or white removal. Original vector alpha rendered; light/dark contact reviewed."
+  },
+  {
+    "id": "zeytin-1",
+    "transparent_fraction": 0.2124,
+    "decision": "visually-reviewed-native-alpha",
+    "source_sha256": "93cc25eff34d9429a790c154a26796595ac7ee1528e6fa87e76f475cc5a4413a",
+    "removed_exact_canvas_path": false,
+    "review": "No SVG edits or white removal. Original vector alpha rendered; light/dark contact reviewed."
+  },
+  {
+    "id": "zevahir-nakliyat-logo",
+    "transparent_fraction": 0.6926,
+    "decision": "visually-reviewed-native-alpha",
+    "source_sha256": "f984020676f1442f12fd410b6b99c08ebf5a58dd50945b9ecd95e3d700bb64dd",
+    "removed_exact_canvas_path": false,
+    "review": "No SVG edits or white removal. Original vector alpha rendered; light/dark contact reviewed."
+  },
+  {
+    "id": "zett-1",
+    "transparent_fraction": 0.4106,
+    "decision": "visually-reviewed-native-alpha",
+    "source_sha256": "c616951c14a32487d510678bb5cdca15601f46f9237bd90508a2b88b7d0d02b8",
+    "removed_exact_canvas_path": false,
+    "review": "No SVG edits or white removal. Original vector alpha rendered; light/dark contact reviewed."
+  },
+  {
+    "id": "zettacare",
+    "transparent_fraction": 0.6318,
+    "decision": "visually-reviewed-native-alpha",
+    "source_sha256": "e1ff4f29ac2bb955e3ce4df9333256c55885df0bebc3e5030155212b93cf4bea",
+    "removed_exact_canvas_path": false,
+    "review": "No SVG edits or white removal. Original vector alpha rendered; light/dark contact reviewed."
+  },
+  {
+    "id": "zexy",
+    "transparent_fraction": 0.7095,
+    "decision": "visually-reviewed-native-alpha",
+    "source_sha256": "c87285c3c100d0491a7ee8bda08d61b520679f64972a3547f9479520dc108b84",
+    "removed_exact_canvas_path": false,
+    "review": "No SVG edits or white removal. Original vector alpha rendered; light/dark contact reviewed."
+  },
+  {
+    "id": "zeta-division-3",
+    "transparent_fraction": 0.5583,
+    "decision": "visually-reviewed-native-alpha",
+    "source_sha256": "1c7d582372ca448d6693eb9ddf921c9c6846d58090cb978ab28a418ec506c46c",
+    "removed_exact_canvas_path": false,
+    "review": "No SVG edits or white removal. Original vector alpha rendered; light/dark contact reviewed."
+  },
+  {
+    "id": "zero-bs-crm",
+    "transparent_fraction": 0.0,
+    "decision": "opaque-background-manual-review",
+    "source_sha256": "8c06f592c7f3798bdb125f65cf8b7792a782d7850a2572c21cc304dc1438badc",
+    "removed_exact_canvas_path": false
+  },
+  {
+    "id": "zest-2",
+    "transparent_fraction": 0.7182,
+    "decision": "visually-reviewed-native-alpha",
+    "source_sha256": "cecda005ed1dcaa179a97df2a5430c82ba3f163a3c3402f27338ff8949b30a3a",
+    "removed_exact_canvas_path": false,
+    "review": "No SVG edits or white removal. Original vector alpha rendered; light/dark contact reviewed."
+  },
+  {
+    "id": "zerozilla",
+    "transparent_fraction": 0.6953,
+    "decision": "visually-reviewed-native-alpha",
+    "source_sha256": "4c99d10cb6e86107d7bf58cecfe0d5b1c1f6b3155f55308c30de79ac75d5e3f3",
+    "removed_exact_canvas_path": false,
+    "review": "No SVG edits or white removal. Original vector alpha rendered; light/dark contact reviewed."
+  },
+  {
+    "id": "zest-1",
+    "transparent_fraction": 0.5044,
+    "decision": "visually-reviewed-native-alpha",
+    "source_sha256": "120be6d0fbd307c4642e9299692675b48b9f4a1a7f3f8de7474ac9cec994119c",
+    "removed_exact_canvas_path": false,
+    "review": "No SVG edits or white removal. Original vector alpha rendered; light/dark contact reviewed."
+  },
+  {
+    "id": "zest--src-a5f95aa",
+    "transparent_fraction": 0.7182,
+    "decision": "visually-reviewed-native-alpha",
+    "source_sha256": "681cdccacb43e9368e081eb4f19dd2ab7e18e2afae3d44f23a0ba71bababb6e7",
+    "removed_exact_canvas_path": false,
+    "review": "No SVG edits or white removal. Original vector alpha rendered; light/dark contact reviewed."
+  },
+  {
+    "id": "zeta-division-2",
+    "transparent_fraction": 0.7214,
+    "decision": "visually-reviewed-native-alpha",
+    "source_sha256": "7ad9d94763449cc46c69c3033d61e79d81d28f247bdedb9af4ed9b78812bd829",
+    "removed_exact_canvas_path": false,
+    "review": "No SVG edits or white removal. Original vector alpha rendered; light/dark contact reviewed."
+  },
+  {
+    "id": "zeta-division",
+    "transparent_fraction": 0.7214,
+    "decision": "visually-reviewed-native-alpha",
+    "source_sha256": "7ad9d94763449cc46c69c3033d61e79d81d28f247bdedb9af4ed9b78812bd829",
+    "removed_exact_canvas_path": false,
+    "review": "No SVG edits or white removal. Original vector alpha rendered; light/dark contact reviewed."
+  },
+  {
+    "id": "zero-club",
+    "transparent_fraction": 0.6876,
+    "decision": "visually-reviewed-native-alpha",
+    "source_sha256": "73075325a768e231de19caa7f10b8c93f639f1664bb0b9f4cbdd52537f2ac3a3",
+    "removed_exact_canvas_path": false,
+    "review": "No SVG edits or white removal. Original vector alpha rendered; light/dark contact reviewed."
+  },
+  {
+    "id": "zeptolab",
+    "transparent_fraction": 0.446,
+    "decision": "visually-reviewed-native-alpha",
+    "source_sha256": "4224a70fe268e99f0b2fecc40842eccca21f087e72093b6041024d3d14992e7d",
+    "removed_exact_canvas_path": false,
+    "review": "No SVG edits or white removal. Original vector alpha rendered; light/dark contact reviewed."
+  },
+  {
+    "id": "zeon-2",
+    "transparent_fraction": 0.5271,
+    "decision": "visually-reviewed-native-alpha",
+    "source_sha256": "0e4238a7833d2d1965796ff067eb381b397b16d9df7723e464f385b3b2d43296",
+    "removed_exact_canvas_path": false,
+    "review": "No SVG edits or white removal. Original vector alpha rendered; light/dark contact reviewed."
+  },
+  {
+    "id": "zepter-1",
+    "transparent_fraction": 0.7238,
+    "decision": "visually-reviewed-native-alpha",
+    "source_sha256": "43256d30d69a538f03f567ee1232ebd7165faaad9240a4b1bc3f603c734623a7",
+    "removed_exact_canvas_path": false,
+    "review": "No SVG edits or white removal. Original vector alpha rendered; light/dark contact reviewed."
+  },
+  {
+    "id": "zeon-1",
+    "transparent_fraction": 0.4343,
+    "decision": "visually-reviewed-native-alpha",
+    "source_sha256": "af90715e576b306e50782e0d82cf08aa343b9ebb8d23452e77787a64aec5e536",
+    "removed_exact_canvas_path": false,
+    "review": "No SVG edits or white removal. Original vector alpha rendered; light/dark contact reviewed."
+  },
+  {
+    "id": "zeplin--src-23dc133",
+    "transparent_fraction": 0.4842,
+    "decision": "visually-reviewed-native-alpha",
+    "source_sha256": "3b5b7985d3edf373f59227fd8ce1a0ecd51ea96f65327d7411979db2f2a7ddf2",
+    "removed_exact_canvas_path": false,
+    "review": "No SVG edits or white removal. Original vector alpha rendered; light/dark contact reviewed."
+  },
+  {
+    "id": "zeon-4",
+    "transparent_fraction": 0.1321,
+    "decision": "visually-reviewed-native-alpha",
+    "source_sha256": "7991dea056ba17d251f7fd31262d4d9a4eef4ee370be0c5bb317ddc5ca76aac2",
+    "removed_exact_canvas_path": false,
+    "review": "No SVG edits or white removal. Original vector alpha rendered; light/dark contact reviewed."
+  },
+  {
+    "id": "zero-bs-crm-1",
+    "transparent_fraction": 0.0,
+    "decision": "opaque-background-manual-review",
+    "source_sha256": "bc03ead004f6c210541bb18b8ada0d02c700a181266bd024eb45eba4d59caa66",
+    "removed_exact_canvas_path": false
+  },
+  {
+    "id": "zeon-3",
+    "transparent_fraction": 0.6971,
+    "decision": "visually-reviewed-native-alpha",
+    "source_sha256": "327f756677ee099f33062c36007f48eb78397fcda647ed45da195bf0ce50d77b",
+    "removed_exact_canvas_path": false,
+    "review": "No SVG edits or white removal. Original vector alpha rendered; light/dark contact reviewed."
+  },
+  {
+    "id": "zeon",
+    "transparent_fraction": 0.4343,
+    "decision": "visually-reviewed-native-alpha",
+    "source_sha256": "af90715e576b306e50782e0d82cf08aa343b9ebb8d23452e77787a64aec5e536",
+    "removed_exact_canvas_path": false,
+    "review": "No SVG edits or white removal. Original vector alpha rendered; light/dark contact reviewed."
+  },
+  {
+    "id": "zent-1",
+    "transparent_fraction": 0.4587,
+    "decision": "visually-reviewed-native-alpha",
+    "source_sha256": "1e3509dbb767421af273d828aa6a9ba3178607d48211a39632381e4fd5a41433",
+    "removed_exact_canvas_path": false,
+    "review": "No SVG edits or white removal. Original vector alpha rendered; light/dark contact reviewed."
+  },
+  {
+    "id": "zenith-uhrenmanufaktur-logo",
+    "transparent_fraction": 0.8721,
+    "decision": "visually-reviewed-native-alpha",
+    "source_sha256": "960de390022cc650fdfd6176aa571f1cdb9d2d94eaa5183b7501b7d2ccc8857a",
+    "removed_exact_canvas_path": false,
+    "review": "No SVG edits or white removal. Original vector alpha rendered; light/dark contact reviewed."
+  },
+  {
+    "id": "zenlayer",
+    "transparent_fraction": 0.7781,
+    "decision": "visually-reviewed-native-alpha",
+    "source_sha256": "8dcf886169d6c0415494e4cc7450e37d659ba9b14b04387027a5147aaaf9c603",
+    "removed_exact_canvas_path": false,
+    "review": "No SVG edits or white removal. Original vector alpha rendered; light/dark contact reviewed."
+  },
+  {
+    "id": "zenna-1",
+    "transparent_fraction": 0.3277,
+    "decision": "visually-reviewed-native-alpha",
+    "source_sha256": "cc697a64f9468e4019c5eef1fbd7fe8f310f0c92c17f34a878f536edf4f1f6b4",
+    "removed_exact_canvas_path": false,
+    "review": "No SVG edits or white removal. Original vector alpha rendered; light/dark contact reviewed."
+  },
+  {
+    "id": "zenrousai",
+    "transparent_fraction": 0.4723,
+    "decision": "visually-reviewed-native-alpha",
+    "source_sha256": "2efcb89d07aa77fa092700fec6dce72eecf2b882cc32b7c183e2d67a5cd33214",
+    "removed_exact_canvas_path": false,
+    "review": "No SVG edits or white removal. Original vector alpha rendered; light/dark contact reviewed."
+  },
+  {
+    "id": "zenrin-logo",
+    "transparent_fraction": 0.4457,
+    "decision": "visually-reviewed-native-alpha",
+    "source_sha256": "111b5742a524bef765e470fb25809aa012876475dd36b3bbf08e1ba17f235e51",
+    "removed_exact_canvas_path": false,
+    "review": "No SVG edits or white removal. Original vector alpha rendered; light/dark contact reviewed."
+  },
+  {
+    "id": "zensho-logo",
+    "transparent_fraction": 0.5463,
+    "decision": "visually-reviewed-native-alpha",
+    "source_sha256": "244b6478988155d4099bfba1a1f6734eafcb54c19fcb9a604603c6e0b96b844b",
+    "removed_exact_canvas_path": false,
+    "review": "No SVG edits or white removal. Original vector alpha rendered; light/dark contact reviewed."
+  },
+  {
+    "id": "zenlayer-1",
+    "transparent_fraction": 0.4863,
+    "decision": "visually-reviewed-native-alpha",
+    "source_sha256": "0ea05833abd2552e028f55abb7c66afd8b8fde9b2c624cb8107b11ca6098a2ab",
+    "removed_exact_canvas_path": false,
+    "review": "No SVG edits or white removal. Original vector alpha rendered; light/dark contact reviewed."
+  },
+  {
+    "id": "zentiva-logo",
+    "transparent_fraction": 0.536,
+    "decision": "visually-reviewed-native-alpha",
+    "source_sha256": "af5eee45dbc54621fcd4475e34527d2d65c39e2ce03b2758827b688c91bfbd44",
+    "removed_exact_canvas_path": false,
+    "review": "No SVG edits or white removal. Original vector alpha rendered; light/dark contact reviewed."
+  },
+  {
+    "id": "zenith-esports",
+    "transparent_fraction": 0.6625,
+    "decision": "visually-reviewed-native-alpha",
+    "source_sha256": "3a3e32ed7391a860917edc606063e0dc70d6a6fb0a219ce7cf5e1c6b136f2665",
+    "removed_exact_canvas_path": false,
+    "review": "No SVG edits or white removal. Original vector alpha rendered; light/dark contact reviewed."
+  },
+  {
+    "id": "zenrin-logo-1",
+    "transparent_fraction": 0.4423,
+    "decision": "visually-reviewed-native-alpha",
+    "source_sha256": "f5c8e20572ca54492be5c03930fb6a94f8a4f9ab50074d6d6a5e1166bbbc4b0f",
+    "removed_exact_canvas_path": false,
+    "review": "No SVG edits or white removal. Original vector alpha rendered; light/dark contact reviewed."
+  },
+  {
+    "id": "zendesk-2",
+    "transparent_fraction": 0.6317,
+    "decision": "visually-reviewed-native-alpha",
+    "source_sha256": "6a3395c9a569b6fc63e5b13675efb79dace372c6fd28fed1267bd23c0d4f9ec3",
+    "removed_exact_canvas_path": false,
+    "review": "No SVG edits or white removal. Original vector alpha rendered; light/dark contact reviewed."
+  },
+  {
+    "id": "zenith-2",
+    "transparent_fraction": 0.4419,
+    "decision": "visually-reviewed-native-alpha",
+    "source_sha256": "49ec6b8e87b0a96d256999f6436c146e4a9c16cbe6b69a4e370778c65fb50515",
+    "removed_exact_canvas_path": false,
+    "review": "No SVG edits or white removal. Original vector alpha rendered; light/dark contact reviewed."
+  },
+  {
+    "id": "zen-design-advertising",
+    "transparent_fraction": 0.8846,
+    "decision": "visually-reviewed-native-alpha",
+    "source_sha256": "a50f05e157cfd2e0195daa3d204b538dca17282e462bd9ae19f9024efdc4af31",
+    "removed_exact_canvas_path": false,
+    "review": "No SVG edits or white removal. Original vector alpha rendered; light/dark contact reviewed."
+  },
+  {
+    "id": "zendesk-3",
+    "transparent_fraction": 0.4341,
+    "decision": "visually-reviewed-native-alpha",
+    "source_sha256": "31449b89941642dc25c04cdf90da9fe96b0bb0c9cef06962d7f48539d7d84fd9",
+    "removed_exact_canvas_path": false,
+    "review": "No SVG edits or white removal. Original vector alpha rendered; light/dark contact reviewed."
+  },
+  {
+    "id": "zendesk-1",
+    "transparent_fraction": 0.7114,
+    "decision": "visually-reviewed-native-alpha",
+    "source_sha256": "b35039252dfb9f9c2f96b3cb4e2139b2c13159a871822d026eba7088784fa5bf",
+    "removed_exact_canvas_path": false,
+    "review": "No SVG edits or white removal. Original vector alpha rendered; light/dark contact reviewed."
+  },
+  {
+    "id": "zencash-1",
+    "transparent_fraction": 0.3465,
+    "decision": "visually-reviewed-native-alpha",
+    "source_sha256": "0a5dd8da193f716f41539f10fd0cd2da0e51ee40026c78cbdd8ef6865085345f",
+    "removed_exact_canvas_path": false,
+    "review": "No SVG edits or white removal. Original vector alpha rendered; light/dark contact reviewed."
+  },
+  {
+    "id": "zend-framework--src-7dbbe13",
+    "transparent_fraction": 0.4976,
+    "decision": "visually-reviewed-native-alpha",
+    "source_sha256": "3ffa3e3e6be547575b1162710aa784bfcff9b35234a0f019cd94fc0a07443502",
+    "removed_exact_canvas_path": false,
+    "review": "No SVG edits or white removal. Original vector alpha rendered; light/dark contact reviewed."
+  },
+  {
+    "id": "zenefits--src-919911f",
+    "transparent_fraction": 0.7721,
+    "decision": "visually-reviewed-native-alpha",
+    "source_sha256": "ec7c5b0ddf04de2756307a5ad4f0010d1a0a891d4ca42795e477a70e6792f6e1",
+    "removed_exact_canvas_path": false,
+    "review": "No SVG edits or white removal. Original vector alpha rendered; light/dark contact reviewed."
+  },
+  {
+    "id": "zenhub--src-61fecba",
+    "transparent_fraction": 0.0,
+    "decision": "opaque-background-manual-review",
+    "source_sha256": "b866bcbe32243379582256d9c28d698c1c0cf63552b40cdc191c953620f60b60",
+    "removed_exact_canvas_path": false
+  },
+  {
+    "id": "zenit--src-1683cab",
+    "transparent_fraction": 0.6995,
+    "decision": "visually-reviewed-native-alpha",
+    "source_sha256": "1fb6e147484a15f2e3899e6f768e1bbacadee9b1ac5695a10a8e5178564ac0df",
+    "removed_exact_canvas_path": false,
+    "review": "No SVG edits or white removal. Original vector alpha rendered; light/dark contact reviewed."
+  },
+  {
+    "id": "zen-5",
+    "transparent_fraction": 0.6092,
+    "decision": "visually-reviewed-native-alpha",
+    "source_sha256": "a6575e979967ec7ed66b6909028057bc6313520acd5f88b0043765e32808b464",
+    "removed_exact_canvas_path": false,
+    "review": "No SVG edits or white removal. Original vector alpha rendered; light/dark contact reviewed."
+  },
+  {
+    "id": "zendesk--src-22d91e6",
+    "transparent_fraction": 0.5642,
+    "decision": "visually-reviewed-native-alpha",
+    "source_sha256": "6515c6e19e416ad80f815e29eebf3014f63afaa0662e6230a1a413faea0c8365",
+    "removed_exact_canvas_path": false,
+    "review": "No SVG edits or white removal. Original vector alpha rendered; light/dark contact reviewed."
+  },
+  {
+    "id": "zen-4",
+    "transparent_fraction": 0.6092,
+    "decision": "visually-reviewed-native-alpha",
+    "source_sha256": "a6575e979967ec7ed66b6909028057bc6313520acd5f88b0043765e32808b464",
+    "removed_exact_canvas_path": false,
+    "review": "No SVG edits or white removal. Original vector alpha rendered; light/dark contact reviewed."
+  },
+  {
+    "id": "zelda-logo",
+    "transparent_fraction": 0.5157,
+    "decision": "visually-reviewed-native-alpha",
+    "source_sha256": "a362a7a182a967bbf8beb532947707b1cca5d9d0fefc8333b16d30110ca168ac",
+    "removed_exact_canvas_path": false,
+    "review": "No SVG edits or white removal. Original vector alpha rendered; light/dark contact reviewed."
+  },
+  {
+    "id": "zen-design-advertising-1",
+    "transparent_fraction": 0.8661,
+    "decision": "visually-reviewed-native-alpha",
+    "source_sha256": "f110bfe97ab6057b7abcd7935b16852ddec3087fafacf811ee78676ea2049445",
+    "removed_exact_canvas_path": false,
+    "review": "No SVG edits or white removal. Original vector alpha rendered; light/dark contact reviewed."
+  },
+  {
+    "id": "zelle-1",
+    "transparent_fraction": 0.5832,
+    "decision": "visually-reviewed-native-alpha",
+    "source_sha256": "6b6bd08ceb34282761dfacc5c9d0502fe10ddb99d92092d979e6b3c556c5ebe3",
+    "removed_exact_canvas_path": false,
+    "review": "No SVG edits or white removal. Original vector alpha rendered; light/dark contact reviewed."
+  },
+  {
+    "id": "zeljez-1",
+    "transparent_fraction": 0.3228,
+    "decision": "visually-reviewed-native-alpha",
+    "source_sha256": "2df49f01c136ab091c302d9d7b0155ab6d0abf3f5cd10c6550e5c8b422c55634",
+    "removed_exact_canvas_path": false,
+    "review": "No SVG edits or white removal. Original vector alpha rendered; light/dark contact reviewed."
+  },
+  {
+    "id": "zeepin",
+    "transparent_fraction": 0.5961,
+    "decision": "visually-reviewed-native-alpha",
+    "source_sha256": "9e1f9df0ca4ab692b2d4e9b1d4958389063455cb9ba2ea9df56b4f86589a0506",
+    "removed_exact_canvas_path": false,
+    "review": "No SVG edits or white removal. Original vector alpha rendered; light/dark contact reviewed."
+  },
+  {
+    "id": "zee-towels",
+    "transparent_fraction": 0.2737,
+    "decision": "visually-reviewed-native-alpha",
+    "source_sha256": "919f3050823986676f6856267b930f88073f7504c1684ed972cb7d72e73fa654",
+    "removed_exact_canvas_path": false,
+    "review": "No SVG edits or white removal. Original vector alpha rendered; light/dark contact reviewed."
+  },
+  {
+    "id": "zecoex",
+    "transparent_fraction": 0.2118,
+    "decision": "visually-reviewed-native-alpha",
+    "source_sha256": "4707e3ad7340e2de4ce1fa7673b4314d36cfd3a57bd36876cfd2e057daf06697",
+    "removed_exact_canvas_path": false,
+    "review": "No SVG edits or white removal. Original vector alpha rendered; light/dark contact reviewed."
+  },
+  {
+    "id": "zebra-technologies-logo",
+    "transparent_fraction": 0.6902,
+    "decision": "visually-reviewed-native-alpha",
+    "source_sha256": "01c2d223a4753d355c8e2062aad07e24fc290562bec1a5423461f0903d4befdd",
+    "removed_exact_canvas_path": false,
+    "review": "No SVG edits or white removal. Original vector alpha rendered; light/dark contact reviewed."
+  },
+  {
+    "id": "zebra-pen-company-logo",
+    "transparent_fraction": 0.2984,
+    "decision": "visually-reviewed-native-alpha",
+    "source_sha256": "59698647c54f3b69d54916915cc310e3a9799686a13525cb91a5468712db3776",
+    "removed_exact_canvas_path": false,
+    "review": "No SVG edits or white removal. Original vector alpha rendered; light/dark contact reviewed."
+  },
+  {
+    "id": "zebra-pen-company-logo-1",
+    "transparent_fraction": 0.2851,
+    "decision": "visually-reviewed-native-alpha",
+    "source_sha256": "9ed0a86380298458932fb06b7af41467fe5f06a56cce2b7dcacb0aafecccb7a2",
+    "removed_exact_canvas_path": false,
+    "review": "No SVG edits or white removal. Original vector alpha rendered; light/dark contact reviewed."
+  },
+  {
+    "id": "zdf-logo",
+    "transparent_fraction": 0.4357,
+    "decision": "visually-reviewed-native-alpha",
+    "source_sha256": "3259652fcbc84f272dc43f63a81eb0af40a44b906d26b818386c9ca038cb9331",
+    "removed_exact_canvas_path": false,
+    "review": "No SVG edits or white removal. Original vector alpha rendered; light/dark contact reviewed."
+  },
+  {
+    "id": "zdrav",
+    "transparent_fraction": 0.5926,
+    "decision": "visually-reviewed-native-alpha",
+    "source_sha256": "8e6dfff2e933c97cbd6280d02e954628439c3f27aff8b9a1e7cfb37485d50b7f",
+    "removed_exact_canvas_path": false,
+    "review": "No SVG edits or white removal. Original vector alpha rendered; light/dark contact reviewed."
+  },
+  {
+    "id": "zdf-logo-1",
+    "transparent_fraction": 0.4357,
+    "decision": "visually-reviewed-native-alpha",
+    "source_sha256": "3259652fcbc84f272dc43f63a81eb0af40a44b906d26b818386c9ca038cb9331",
+    "removed_exact_canvas_path": false,
+    "review": "No SVG edits or white removal. Original vector alpha rendered; light/dark contact reviewed."
+  },
+  {
+    "id": "zayre",
+    "transparent_fraction": 0.4547,
+    "decision": "visually-reviewed-native-alpha",
+    "source_sha256": "12199db141908ac302cba5141247d96f0212de63b2d48dcf053cd3b4f9d338d4",
+    "removed_exact_canvas_path": false,
+    "review": "No SVG edits or white removal. Original vector alpha rendered; light/dark contact reviewed."
+  },
+  {
+    "id": "zb-token",
+    "transparent_fraction": 0.5865,
+    "decision": "visually-reviewed-native-alpha",
+    "source_sha256": "ea0aec8d089ebbf0377e57741e6e7c32130807659f157ececcb84e2c9c77d48c",
+    "removed_exact_canvas_path": false,
+    "review": "No SVG edits or white removal. Original vector alpha rendered; light/dark contact reviewed."
+  },
+  {
+    "id": "zclassic--src-042422d",
+    "transparent_fraction": 0.5607,
+    "decision": "visually-reviewed-native-alpha",
+    "source_sha256": "4a43b781684fae48267a552fdddc8c0dca12dbb0aa4c07c267b026c616e119b8",
+    "removed_exact_canvas_path": false,
+    "review": "No SVG edits or white removal. Original vector alpha rendered; light/dark contact reviewed."
+  },
+  {
+    "id": "zcash-zec",
+    "transparent_fraction": 0.5428,
+    "decision": "visually-reviewed-native-alpha",
+    "source_sha256": "120c7cfaee0fdabb1428f1513450d5841fc7bb714fb85b3fbc9be1fe04f7e11b",
+    "removed_exact_canvas_path": false,
+    "review": "No SVG edits or white removal. Original vector alpha rendered; light/dark contact reviewed."
+  },
+  {
+    "id": "zbc-hits-2",
+    "transparent_fraction": 0.0,
+    "decision": "opaque-background-manual-review",
+    "source_sha256": "384a5f61d8d116b12ecb6ca852594645d0f55fd09358db3a587891d94500faba",
+    "removed_exact_canvas_path": false
+  },
+  {
+    "id": "zatarains-1",
+    "transparent_fraction": 0.4388,
+    "decision": "visually-reviewed-native-alpha",
+    "source_sha256": "74f4ea7fdca1c56f559be1399d7651fa44fab6aac589f90e165a0eb9b92c2f00",
+    "removed_exact_canvas_path": false,
+    "review": "No SVG edits or white removal. Original vector alpha rendered; light/dark contact reviewed."
+  },
+  {
+    "id": "zb-1",
+    "transparent_fraction": 0.6003,
+    "decision": "visually-reviewed-native-alpha",
+    "source_sha256": "61b978ad523667313cade948d3cf93e693cf9bd79cceadfc130cd2bf0ef4f845",
+    "removed_exact_canvas_path": false,
+    "review": "No SVG edits or white removal. Original vector alpha rendered; light/dark contact reviewed."
+  },
+  {
+    "id": "zazz",
+    "transparent_fraction": 0.3567,
+    "decision": "visually-reviewed-native-alpha",
+    "source_sha256": "d4699d2822f805b962ee3441e302ddf783bdc17b7a1f0497c19eee1fe24afef3",
+    "removed_exact_canvas_path": false,
+    "review": "No SVG edits or white removal. Original vector alpha rendered; light/dark contact reviewed."
+  },
+  {
+    "id": "zcash-1",
+    "transparent_fraction": 0.2127,
+    "decision": "held-renderer-missing-detail",
+    "source_sha256": "29498522b5758aed3f74728275bf291eef2504ca19afb75ce9f6427a702bb5c3",
+    "removed_exact_canvas_path": false
+  },
+  {
+    "id": "zcash-logo",
+    "transparent_fraction": 0.5855,
+    "decision": "held-renderer-missing-detail",
+    "source_sha256": "134618a530e5001de3dcf4ebb8321cf27aadff8a998f29829d5604cef2da7fa5",
+    "removed_exact_canvas_path": false
+  },
+  {
+    "id": "zastava-waffenfabrik-logo",
+    "transparent_fraction": 0.7178,
+    "decision": "visually-reviewed-native-alpha",
+    "source_sha256": "f132b09a056697bc1942569794851e804e091fa8be55bafc2fc6dc879aee7296",
+    "removed_exact_canvas_path": false,
+    "review": "No SVG edits or white removal. Original vector alpha rendered; light/dark contact reviewed."
+  },
+  {
+    "id": "zcash--src-38e94e4",
+    "transparent_fraction": 0.7058,
+    "decision": "visually-reviewed-native-alpha",
+    "source_sha256": "59f18d2128cb9dbdbc7fff8bbcbb527533df4330ddd51922a40a32b7e9aa576b",
+    "removed_exact_canvas_path": false,
+    "review": "No SVG edits or white removal. Original vector alpha rendered; light/dark contact reviewed."
+  },
+  {
+    "id": "zcoin-xzc",
+    "transparent_fraction": 0.3529,
+    "decision": "visually-reviewed-native-alpha",
+    "source_sha256": "46d05b8930e199ccf3cc9cbc20f73c018714da67f2ec1b4eb7c0a900bad2b495",
+    "removed_exact_canvas_path": false,
+    "review": "No SVG edits or white removal. Original vector alpha rendered; light/dark contact reviewed."
+  },
+  {
+    "id": "zastava-750",
+    "transparent_fraction": 0.7993,
+    "decision": "visually-reviewed-native-alpha",
+    "source_sha256": "55b172667dbe10a2785030542c0b22fd87a08f8adda8c4c54d195b6c1e610721",
+    "removed_exact_canvas_path": false,
+    "review": "No SVG edits or white removal. Original vector alpha rendered; light/dark contact reviewed."
+  },
+  {
+    "id": "zara--src-8db88c1",
+    "transparent_fraction": 0.6818,
+    "decision": "visually-reviewed-native-alpha",
+    "source_sha256": "961ded260861a6718df7f2b1265abbe21ce67eca926ed3c3fd01954bf68e5b2d",
+    "removed_exact_canvas_path": false,
+    "review": "No SVG edits or white removal. Original vector alpha rendered; light/dark contact reviewed."
+  }
+]

@@ -135,3 +135,17 @@
 .motionLogo { position: relative; }
 .motionLogo .resizeHandle { right: 4px; bottom: 4px; }
 .motionLogo:hover .resizeHandle, .motionLogo[data-selected] .resizeHandle { opacity: 1; }
+
+/* Stable editing cards stay fully visible; motion is a separate output preview. */
+.page { max-width: 1680px; width: 96%; padding-inline: 20px; }
+.workspace { grid-template-columns: 300px minmax(0, 1fr); }
+.settings { margin: 18px 0; border: 1px solid #e4e4e7; border-radius: 10px; padding: 14px; }
+.settings summary { cursor: pointer; font-size: 13px; font-weight: 600; }
+.settings .controls { margin-bottom: 0; }
+.canvas { overflow: visible; margin-bottom: 12px; }
+.tile { overflow: visible; position: relative; }
+.tile[data-selected] { outline: 2px solid #6366f1; outline-offset: 3px; }
+.motionLogo { position: relative; cursor: default; }
+.inspector { position: static; transform: none; width: 100%; margin-block: 16px; box-shadow: none; }
+@media (max-width: 900px) { .workspace { grid-template-columns: 240px minmax(0, 1fr); } }
+@media (max-width: 700px) { .page { width: 100%; padding-inline: 12px; } .workspace { grid-template-columns: 1fr; } }

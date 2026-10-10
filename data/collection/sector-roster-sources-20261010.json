@@ -1,0 +1,520 @@
+{
+  "ebu_directory_entries": [
+    {
+      "name": "ARD",
+      "url": "https://www.ard.de",
+      "country": "Germany"
+    },
+    {
+      "name": "ARTE",
+      "url": "https://www.arte.tv",
+      "country": "France"
+    },
+    {
+      "name": "AVROTROS",
+      "url": "https://www.avrotros.nl",
+      "country": "Netherlands"
+    },
+    {
+      "name": "Balgarska Nationalna Televizija",
+      "url": "https://bnt.bg",
+      "country": "Bulgaria"
+    },
+    {
+      "name": "Balgarsko Nationalno Radio",
+      "url": "https://bnr.bg",
+      "country": "Bulgaria"
+    },
+    {
+      "name": "Bayerischer Rundfunk",
+      "url": "https://www.br.de",
+      "country": "Germany"
+    },
+    {
+      "name": "British Broadcasting Corporation",
+      "url": "https://www.bbc.com",
+      "country": "United Kingdom"
+    },
+    {
+      "name": "CBC/Radio-Canada",
+      "url": "https://cbc.radio-canada.ca",
+      "country": "Canada"
+    },
+    {
+      "name": "CLT-UFA",
+      "url": "https://www.rtl.lu",
+      "country": "Luxembourg"
+    },
+    {
+      "name": "Cesky Rozhlas",
+      "url": "https://www.rozhlas.cz",
+      "country": "Czechia"
+    },
+    {
+      "name": "Ceská Televize",
+      "url": "https://www.ceskatelevize.cz",
+      "country": "Czechia"
+    },
+    {
+      "name": "Cyprus Broadcasting Corporation",
+      "url": "https://www.cybc.com.cy",
+      "country": "Cyprus"
+    },
+    {
+      "name": "Danmarks Radio",
+      "url": "https://www.dr.dk",
+      "country": "Denmark"
+    },
+    {
+      "name": "Deutsche Welle",
+      "url": "https://www.dw.de",
+      "country": "Germany"
+    },
+    {
+      "name": "Deutschlandradio",
+      "url": "https://www.dradio.de",
+      "country": "Germany"
+    },
+    {
+      "name": "Duna Media Service Provider",
+      "url": "https://dunamsz.hu",
+      "country": "Hungary"
+    },
+    {
+      "name": "Eesti Rahvusringhääling",
+      "url": "https://www.err.ee",
+      "country": "Estonia"
+    },
+    {
+      "name": "Elliniki Radiophonia-Tileorassi SA",
+      "url": "https://www.ert.gr",
+      "country": "Greece"
+    },
+    {
+      "name": "Etablissement Public de Radiodiffusion Sonore",
+      "url": "https://news.radioalgerie.dz",
+      "country": "Algeria"
+    },
+    {
+      "name": "Etablissement Public de Télévision Algérienne",
+      "url": "https://www.entv.dz",
+      "country": "Algeria"
+    },
+    {
+      "name": "France Médias Monde",
+      "url": "https://www.francemediasmonde.com",
+      "country": "France"
+    },
+    {
+      "name": "France Télévisions",
+      "url": "https://www.francetv.fr",
+      "country": "France"
+    },
+    {
+      "name": "Hessischer Rundfunk",
+      "url": "https://www.hr.de",
+      "country": "Germany"
+    },
+    {
+      "name": "Hrvatska Radiotelevizija",
+      "url": "https://www.hrt.hr",
+      "country": "Croatia"
+    },
+    {
+      "name": "Ictimai",
+      "url": "https://itv.az",
+      "country": "Azerbaijan"
+    },
+    {
+      "name": "Israeli Public Broadcasting Corporation",
+      "url": "https://www.kan.org.il",
+      "country": "Israel"
+    },
+    {
+      "name": "Jordan Radio and Television Corporation",
+      "url": "https://jrtv.gov.jo",
+      "country": "Jordan"
+    },
+    {
+      "name": "KRO-NCRV",
+      "url": "https://www.kro-ncrv.nl",
+      "country": "Netherlands"
+    },
+    {
+      "name": "Latvijas Sabiedriskais medijs",
+      "url": "https://www.lsm.lv",
+      "country": "Latvia"
+    },
+    {
+      "name": "Libya National Channel",
+      "url": "https://www.libyaschannel.com",
+      "country": "Libya"
+    },
+    {
+      "name": "Lietuvos Radijas ir Televizija",
+      "url": "https://www.lrt.lt",
+      "country": "Lithuania"
+    },
+    {
+      "name": "MKRTV",
+      "url": "https://play.mrt.com.mk",
+      "country": "North Macedonia"
+    },
+    {
+      "name": "Media Support and Asset Management Fund",
+      "url": "https://www.mtva.hu",
+      "country": "Hungary"
+    },
+    {
+      "name": "Mitteldeutscher Rundfunk",
+      "url": "https://www.mdr.de",
+      "country": "Germany"
+    },
+    {
+      "name": "Monaco Media Diffusion",
+      "url": "https://www.mcr.mc",
+      "country": "Monaco"
+    },
+    {
+      "name": "Média de Service Public 100.7",
+      "url": "https://www.100komma7.lu",
+      "country": "Luxembourg"
+    },
+    {
+      "name": "NTR",
+      "url": "https://www.ntr.nl",
+      "country": "Netherlands"
+    },
+    {
+      "name": "National Media Authority",
+      "url": "https://www.maspero.eg",
+      "country": "Egypt"
+    },
+    {
+      "name": "Nederlandse Omroep Stichting",
+      "url": "https://nos.nl",
+      "country": "Netherlands"
+    },
+    {
+      "name": "Nederlandse Publieke Omroep",
+      "url": "https://www.publiekeomroep.nl",
+      "country": "Netherlands"
+    },
+    {
+      "name": "Norddeutscher Rundfunk",
+      "url": "https://www.ndr.de",
+      "country": "Germany"
+    },
+    {
+      "name": "Norsk rikskringkasting",
+      "url": "https://www.nrk.no",
+      "country": "Norway"
+    },
+    {
+      "name": "Omroep MAX",
+      "url": "https://www.omroepmax.nl",
+      "country": "Netherlands"
+    },
+    {
+      "name": "Omroepvereniging BNN-VARA",
+      "url": "https://www.bnnvara.nl",
+      "country": "Netherlands"
+    },
+    {
+      "name": "Omroepvereniging VPRO",
+      "url": "https://www.vpro.nl",
+      "country": "Netherlands"
+    },
+    {
+      "name": "Oy Yleisradio Ab",
+      "url": "https://yle.fi",
+      "country": "Finland"
+    },
+    {
+      "name": "Polskie Radio SA",
+      "url": "https://www.polskieradio.pl",
+      "country": "Poland"
+    },
+    {
+      "name": "Public Broadcaster",
+      "url": "https://1tv.ge",
+      "country": "Georgia"
+    },
+    {
+      "name": "Public Broadcasting Services Ltd",
+      "url": "https://www.tvm.com.mt",
+      "country": "Malta"
+    },
+    {
+      "name": "Public Radio of Armenia",
+      "url": "https://www.armradio.am",
+      "country": "Armenia"
+    },
+    {
+      "name": "Public Television Company of Armenia",
+      "url": "https://www.1tv.am",
+      "country": "Armenia"
+    },
+    {
+      "name": "RTSH",
+      "url": "https://www.rtsh.al",
+      "country": "Albania"
+    },
+    {
+      "name": "Radio Bremen",
+      "url": "https://www.radiobremen.de",
+      "country": "Germany"
+    },
+    {
+      "name": "Radio France",
+      "url": "https://www.radiofrance.fr",
+      "country": "France"
+    },
+    {
+      "name": "Radio Vaticana",
+      "url": "https://www.radiovaticana.va",
+      "country": "Vatican State"
+    },
+    {
+      "name": "Radio and Television of Bosnia and Herzegovina",
+      "url": "https://www.bhrt.ba",
+      "country": "Bosnia-Herzegovina"
+    },
+    {
+      "name": "Radio i Televizija Crne Gore",
+      "url": "https://www.rtcg.me",
+      "country": "Montenegro"
+    },
+    {
+      "name": "Radio tunisienne",
+      "url": "https://www.radiotunisienne.tn",
+      "country": "Tunisia"
+    },
+    {
+      "name": "Radio-Télévision Belge de la Communauté française",
+      "url": "https://www.rtbf.be",
+      "country": "Belgium"
+    },
+    {
+      "name": "Radiotelevisione Italiana",
+      "url": "https://www.rai.it",
+      "country": "Italy"
+    },
+    {
+      "name": "Radiotelevisión Española",
+      "url": "https://www.rtve.es",
+      "country": "Spain"
+    },
+    {
+      "name": "Radiotelevizija Slovenija",
+      "url": "https://www.rtvslo.si",
+      "country": "Slovenia"
+    },
+    {
+      "name": "Radiotelevizija Srbije",
+      "url": "https://www.rts.rs",
+      "country": "Serbia"
+    },
+    {
+      "name": "Raidió Teilifís Éireann",
+      "url": "https://www.rte.ie",
+      "country": "Ireland"
+    },
+    {
+      "name": "Rundfunk Berlin-Brandenburg",
+      "url": "https://www.rbb-online.de",
+      "country": "Germany"
+    },
+    {
+      "name": "Ràdio i Televisió d’Andorra, S.A.",
+      "url": "https://www.rtva.ad",
+      "country": "Andorra"
+    },
+    {
+      "name": "Rádio e Televisão de Portugal",
+      "url": "https://www.rtp.pt",
+      "country": "Portugal"
+    },
+    {
+      "name": "Ríkisútvarpid",
+      "url": "https://www.ruv.is",
+      "country": "Iceland"
+    },
+    {
+      "name": "SRG SSR",
+      "url": "https://www.srgssr.ch",
+      "country": "Switzerland"
+    },
+    {
+      "name": "Saarländischer Rundfunk",
+      "url": "https://www.sr-online.de",
+      "country": "Germany"
+    },
+    {
+      "name": "San Marino RTV",
+      "url": "https://www.sanmarinortv.sm",
+      "country": "San Marino"
+    },
+    {
+      "name": "Sianel 4 Cymru",
+      "url": "https://www.s4c.co.uk",
+      "country": "United Kingdom"
+    },
+    {
+      "name": "Slovenská televízia a rozhlas",
+      "url": "https://www.stvr.sk",
+      "country": "Slovakia"
+    },
+    {
+      "name": "Societatea Româna de Radiodifuziune",
+      "url": "https://www.srr.ro",
+      "country": "Romania"
+    },
+    {
+      "name": "Societatea Româna de Televiziune",
+      "url": "https://www.tvr.ro",
+      "country": "Romania"
+    },
+    {
+      "name": "Société Nationale de Radio Télévision",
+      "url": "https://www.snrt.ma",
+      "country": "Morocco"
+    },
+    {
+      "name": "Suspilne Ukraine",
+      "url": "https://tv.suspilne.media",
+      "country": "Ukraine"
+    },
+    {
+      "name": "Sveriges Radio Ab",
+      "url": "https://sverigesradio.se",
+      "country": "Sweden"
+    },
+    {
+      "name": "Sveriges Television Ab",
+      "url": "https://www.svt.se",
+      "country": "Sweden"
+    },
+    {
+      "name": "Swedish Educational Broadcasting Company",
+      "url": "https://www.ur.se",
+      "country": "Sweden"
+    },
+    {
+      "name": "Südwestrundfunk",
+      "url": "https://www.swr.de",
+      "country": "Germany"
+    },
+    {
+      "name": "TG4",
+      "url": "https://www.tg4.ie",
+      "country": "Ireland"
+    },
+    {
+      "name": "TV 2 AS",
+      "url": "https://www.tv2.no",
+      "country": "Norway"
+    },
+    {
+      "name": "TV 2 DANMARK",
+      "url": "https://tv2.dk",
+      "country": "Denmark"
+    },
+    {
+      "name": "TV Monaco",
+      "url": "https://www.tvmonaco.com",
+      "country": "Monaco"
+    },
+    {
+      "name": "Teleradio-Moldova",
+      "url": "https://www.trm.md",
+      "country": "Moldova"
+    },
+    {
+      "name": "Telewizja Polska SA",
+      "url": "https://www.tvp.pl",
+      "country": "Poland"
+    },
+    {
+      "name": "Télé-Liban",
+      "url": "https://www.teleliban.com.lb",
+      "country": "Lebanon"
+    },
+    {
+      "name": "Télédiffusion d'Algérie",
+      "url": "https://www.tda.dz",
+      "country": "Algeria"
+    },
+    {
+      "name": "Télévision tunisienne",
+      "url": "https://www.watania1.tn",
+      "country": "Tunisia"
+    },
+    {
+      "name": "Türkiye Radyo-Televizyon Kurumu",
+      "url": "https://www.trt.net.tr",
+      "country": "Türkiye"
+    },
+    {
+      "name": "UK STV",
+      "url": "https://www.stv.tv",
+      "country": "United Kingdom"
+    },
+    {
+      "name": "United Kingdom Independent Broadcasting",
+      "url": "https://www.itv.com",
+      "country": "United Kingdom"
+    },
+    {
+      "name": "Vereniging De Evangelische Omroep",
+      "url": "https://www.eo.nl",
+      "country": "Netherlands"
+    },
+    {
+      "name": "Vlaamse Radio en Televisieomroep",
+      "url": "https://www.vrt.be",
+      "country": "Belgium"
+    },
+    {
+      "name": "Westdeutscher Rundfunk",
+      "url": "https://www.wdr.de",
+      "country": "Germany"
+    },
+    {
+      "name": "ZDF",
+      "url": "https://www.zdf.de",
+      "country": "Germany"
+    },
+    {
+      "name": "Österreichischer Rundfunk",
+      "url": "https://www.orf.at",
+      "country": "Austria"
+    }
+  ],
+  "russell_group_universities": [
+    "University College London",
+    "University of York",
+    "University of Nottingham",
+    "Cardiff University",
+    "Durham University",
+    "University of Birmingham",
+    "University of Warwick",
+    "University of Cambridge",
+    "University of Sheffield",
+    "University of Edinburgh",
+    "University of Liverpool",
+    "Queen's University Belfast",
+    "Queen Mary University of London",
+    "University of Exeter",
+    "University of Oxford",
+    "University of Glasgow",
+    "London School of Economics and Political Science",
+    "University of Leeds",
+    "Newcastle University",
+    "University of Manchester",
+    "University of Southampton",
+    "King's College London",
+    "Imperial College London",
+    "University of Bristol"
+  ]
+}

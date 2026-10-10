@@ -15,7 +15,7 @@ export const CDN =
 
 export const VERSION = "1790381000";
 // Metadata revisions invalidate cached catalog responses without reloading logo bytes.
-export const CATALOG_VERSION = "20261010-official-svg-baemin";
+export const CATALOG_VERSION = "20261010-wall-sets-assets";
 
 /** 캐시 버스터가 붙은 브랜드 자산 URL */
 export function assetUrl(brandId: string, file: string): string {

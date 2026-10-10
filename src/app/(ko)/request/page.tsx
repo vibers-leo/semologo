@@ -138,7 +138,7 @@ export default function RequestPage() {
   return (
     <div className="min-h-screen" style={{ background: "var(--bg)" }}>
       <Header />
-      <main className="max-w-[720px] mx-auto px-4 py-12">
+      <main className="content-page py-12">
 
         {/* 페이지 헤더 */}
         <div className="mb-8">

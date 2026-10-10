@@ -1,0 +1,867 @@
+{
+  "checked_at": "2026-10-10T09:41:40.410625+00:00",
+  "collections": [
+    {
+      "id": "news-eana-france",
+      "name": "EANA 통신사 · France",
+      "country": "France",
+      "sector": "media",
+      "roster_status": "official_roster_checked",
+      "scope_note": "EANA 공식 디렉터리에 등재된 통신사이며 명시적으로 정지된 회원은 제외했어요. 국가 전체 신문·언론사 수가 아니에요.",
+      "as_of": "2026-10-10",
+      "source_kind": "official_directory_roster",
+      "source_url": "https://newsalliance.org/members/",
+      "source_revision": "c534c0abd87d15d27a4c61ff42bbf55c660f1505ba1f8e99c994dfdf792fcc50",
+      "count_unit": "entity",
+      "total": 1,
+      "verified": 0,
+      "candidates": 1,
+      "members": [
+        {
+          "member_key": "8269199d83b4bb4114d8",
+          "name": "Agence France Presse",
+          "brand_id": null,
+          "candidates": [
+            "agence-france-presse"
+          ],
+          "identity_reviewed": false,
+          "png_verified": false
+        }
+      ]
+    },
+    {
+      "id": "news-eana-italy",
+      "name": "EANA 통신사 · Italy",
+      "country": "Italy",
+      "sector": "media",
+      "roster_status": "official_roster_checked",
+      "scope_note": "EANA 공식 디렉터리에 등재된 통신사이며 명시적으로 정지된 회원은 제외했어요. 국가 전체 신문·언론사 수가 아니에요.",
+      "as_of": "2026-10-10",
+      "source_kind": "official_directory_roster",
+      "source_url": "https://newsalliance.org/members/",
+      "source_revision": "c534c0abd87d15d27a4c61ff42bbf55c660f1505ba1f8e99c994dfdf792fcc50",
+      "count_unit": "entity",
+      "total": 1,
+      "verified": 0,
+      "candidates": 1,
+      "members": [
+        {
+          "member_key": "7bfa9c1b875ec292d847",
+          "name": "Agenzia Nazionale Stampa Associata",
+          "brand_id": null,
+          "candidates": [
+            "agenzia-nazionale-stampa-associata"
+          ],
+          "identity_reviewed": false,
+          "png_verified": false
+        }
+      ]
+    },
+    {
+      "id": "news-eana-albania",
+      "name": "EANA 통신사 · Albania",
+      "country": "Albania",
+      "sector": "media",
+      "roster_status": "official_roster_checked",
+      "scope_note": "EANA 공식 디렉터리에 등재된 통신사이며 명시적으로 정지된 회원은 제외했어요. 국가 전체 신문·언론사 수가 아니에요.",
+      "as_of": "2026-10-10",
+      "source_kind": "official_directory_roster",
+      "source_url": "https://newsalliance.org/members/",
+      "source_revision": "c534c0abd87d15d27a4c61ff42bbf55c660f1505ba1f8e99c994dfdf792fcc50",
+      "count_unit": "entity",
+      "total": 1,
+      "verified": 0,
+      "candidates": 0,
+      "members": [
+        {
+          "member_key": "d91e6db4cdc3fff9c1aa",
+          "name": "Albanian Telegraphic Agency",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        }
+      ]
+    },
+    {
+      "id": "news-eana-trkiye",
+      "name": "EANA 통신사 · Türkiye",
+      "country": "Türkiye",
+      "sector": "media",
+      "roster_status": "official_roster_checked",
+      "scope_note": "EANA 공식 디렉터리에 등재된 통신사이며 명시적으로 정지된 회원은 제외했어요. 국가 전체 신문·언론사 수가 아니에요.",
+      "as_of": "2026-10-10",
+      "source_kind": "official_directory_roster",
+      "source_url": "https://newsalliance.org/members/",
+      "source_revision": "c534c0abd87d15d27a4c61ff42bbf55c660f1505ba1f8e99c994dfdf792fcc50",
+      "count_unit": "entity",
+      "total": 1,
+      "verified": 0,
+      "candidates": 0,
+      "members": [
+        {
+          "member_key": "419ae76b28871bba0143",
+          "name": "Anadolu Ajansı",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        }
+      ]
+    },
+    {
+      "id": "news-eana-andorra",
+      "name": "EANA 통신사 · Andorra",
+      "country": "Andorra",
+      "sector": "media",
+      "roster_status": "official_roster_checked",
+      "scope_note": "EANA 공식 디렉터리에 등재된 통신사이며 명시적으로 정지된 회원은 제외했어요. 국가 전체 신문·언론사 수가 아니에요.",
+      "as_of": "2026-10-10",
+      "source_kind": "official_directory_roster",
+      "source_url": "https://newsalliance.org/members/",
+      "source_revision": "c534c0abd87d15d27a4c61ff42bbf55c660f1505ba1f8e99c994dfdf792fcc50",
+      "count_unit": "entity",
+      "total": 1,
+      "verified": 0,
+      "candidates": 0,
+      "members": [
+        {
+          "member_key": "76030f6f5a6dbbb2cd19",
+          "name": "Andorran News Agency",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        }
+      ]
+    },
+    {
+      "id": "news-eana-greece",
+      "name": "EANA 통신사 · Greece",
+      "country": "Greece",
+      "sector": "media",
+      "roster_status": "official_roster_checked",
+      "scope_note": "EANA 공식 디렉터리에 등재된 통신사이며 명시적으로 정지된 회원은 제외했어요. 국가 전체 신문·언론사 수가 아니에요.",
+      "as_of": "2026-10-10",
+      "source_kind": "official_directory_roster",
+      "source_url": "https://newsalliance.org/members/",
+      "source_revision": "c534c0abd87d15d27a4c61ff42bbf55c660f1505ba1f8e99c994dfdf792fcc50",
+      "count_unit": "entity",
+      "total": 1,
+      "verified": 0,
+      "candidates": 0,
+      "members": [
+        {
+          "member_key": "1a09f071d88ec12f7b9e",
+          "name": "Athens-Macedonian News Agency",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        }
+      ]
+    },
+    {
+      "id": "news-eana-austria",
+      "name": "EANA 통신사 · Austria",
+      "country": "Austria",
+      "sector": "media",
+      "roster_status": "official_roster_checked",
+      "scope_note": "EANA 공식 디렉터리에 등재된 통신사이며 명시적으로 정지된 회원은 제외했어요. 국가 전체 신문·언론사 수가 아니에요.",
+      "as_of": "2026-10-10",
+      "source_kind": "official_directory_roster",
+      "source_url": "https://newsalliance.org/members/",
+      "source_revision": "c534c0abd87d15d27a4c61ff42bbf55c660f1505ba1f8e99c994dfdf792fcc50",
+      "count_unit": "entity",
+      "total": 1,
+      "verified": 0,
+      "candidates": 0,
+      "members": [
+        {
+          "member_key": "1184bcd51d93fe4b62c2",
+          "name": "Austrian Press Agency",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        }
+      ]
+    },
+    {
+      "id": "news-eana-belgium",
+      "name": "EANA 통신사 · Belgium",
+      "country": "Belgium",
+      "sector": "media",
+      "roster_status": "official_roster_checked",
+      "scope_note": "EANA 공식 디렉터리에 등재된 통신사이며 명시적으로 정지된 회원은 제외했어요. 국가 전체 신문·언론사 수가 아니에요.",
+      "as_of": "2026-10-10",
+      "source_kind": "official_directory_roster",
+      "source_url": "https://newsalliance.org/members/",
+      "source_revision": "c534c0abd87d15d27a4c61ff42bbf55c660f1505ba1f8e99c994dfdf792fcc50",
+      "count_unit": "entity",
+      "total": 1,
+      "verified": 0,
+      "candidates": 0,
+      "members": [
+        {
+          "member_key": "33151e5e42494c8f8fd5",
+          "name": "Belgian News Agency",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        }
+      ]
+    },
+    {
+      "id": "news-eana-bulgaria",
+      "name": "EANA 통신사 · Bulgaria",
+      "country": "Bulgaria",
+      "sector": "media",
+      "roster_status": "official_roster_checked",
+      "scope_note": "EANA 공식 디렉터리에 등재된 통신사이며 명시적으로 정지된 회원은 제외했어요. 국가 전체 신문·언론사 수가 아니에요.",
+      "as_of": "2026-10-10",
+      "source_kind": "official_directory_roster",
+      "source_url": "https://newsalliance.org/members/",
+      "source_revision": "c534c0abd87d15d27a4c61ff42bbf55c660f1505ba1f8e99c994dfdf792fcc50",
+      "count_unit": "entity",
+      "total": 1,
+      "verified": 0,
+      "candidates": 0,
+      "members": [
+        {
+          "member_key": "c31d285be9187a64a7ed",
+          "name": "Bulgarian News Agency",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        }
+      ]
+    },
+    {
+      "id": "news-eana-croatia",
+      "name": "EANA 통신사 · Croatia",
+      "country": "Croatia",
+      "sector": "media",
+      "roster_status": "official_roster_checked",
+      "scope_note": "EANA 공식 디렉터리에 등재된 통신사이며 명시적으로 정지된 회원은 제외했어요. 국가 전체 신문·언론사 수가 아니에요.",
+      "as_of": "2026-10-10",
+      "source_kind": "official_directory_roster",
+      "source_url": "https://newsalliance.org/members/",
+      "source_revision": "c534c0abd87d15d27a4c61ff42bbf55c660f1505ba1f8e99c994dfdf792fcc50",
+      "count_unit": "entity",
+      "total": 1,
+      "verified": 0,
+      "candidates": 0,
+      "members": [
+        {
+          "member_key": "2b50f7289091c64718fd",
+          "name": "Croatian News Agency",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        }
+      ]
+    },
+    {
+      "id": "news-eana-cyprus",
+      "name": "EANA 통신사 · Cyprus",
+      "country": "Cyprus",
+      "sector": "media",
+      "roster_status": "official_roster_checked",
+      "scope_note": "EANA 공식 디렉터리에 등재된 통신사이며 명시적으로 정지된 회원은 제외했어요. 국가 전체 신문·언론사 수가 아니에요.",
+      "as_of": "2026-10-10",
+      "source_kind": "official_directory_roster",
+      "source_url": "https://newsalliance.org/members/",
+      "source_revision": "c534c0abd87d15d27a4c61ff42bbf55c660f1505ba1f8e99c994dfdf792fcc50",
+      "count_unit": "entity",
+      "total": 1,
+      "verified": 0,
+      "candidates": 0,
+      "members": [
+        {
+          "member_key": "d8210c73f9ba08f7f322",
+          "name": "Cyprus News Agency",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        }
+      ]
+    },
+    {
+      "id": "news-eana-czechrepublic",
+      "name": "EANA 통신사 · Czech Republic",
+      "country": "Czech Republic",
+      "sector": "media",
+      "roster_status": "official_roster_checked",
+      "scope_note": "EANA 공식 디렉터리에 등재된 통신사이며 명시적으로 정지된 회원은 제외했어요. 국가 전체 신문·언론사 수가 아니에요.",
+      "as_of": "2026-10-10",
+      "source_kind": "official_directory_roster",
+      "source_url": "https://newsalliance.org/members/",
+      "source_revision": "c534c0abd87d15d27a4c61ff42bbf55c660f1505ba1f8e99c994dfdf792fcc50",
+      "count_unit": "entity",
+      "total": 1,
+      "verified": 0,
+      "candidates": 0,
+      "members": [
+        {
+          "member_key": "fd70f36f4eeaef62af54",
+          "name": "Czech News Agency",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        }
+      ]
+    },
+    {
+      "id": "news-eana-netherlands",
+      "name": "EANA 통신사 · Netherlands",
+      "country": "Netherlands",
+      "sector": "media",
+      "roster_status": "official_roster_checked",
+      "scope_note": "EANA 공식 디렉터리에 등재된 통신사이며 명시적으로 정지된 회원은 제외했어요. 국가 전체 신문·언론사 수가 아니에요.",
+      "as_of": "2026-10-10",
+      "source_kind": "official_directory_roster",
+      "source_url": "https://newsalliance.org/members/",
+      "source_revision": "c534c0abd87d15d27a4c61ff42bbf55c660f1505ba1f8e99c994dfdf792fcc50",
+      "count_unit": "entity",
+      "total": 1,
+      "verified": 0,
+      "candidates": 0,
+      "members": [
+        {
+          "member_key": "5b1c5ecd3d2024e39d27",
+          "name": "Dutch News Agency",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        }
+      ]
+    },
+    {
+      "id": "news-eana-bosniaandherzegovina",
+      "name": "EANA 통신사 · Bosnia and Herzegovina",
+      "country": "Bosnia and Herzegovina",
+      "sector": "media",
+      "roster_status": "official_roster_checked",
+      "scope_note": "EANA 공식 디렉터리에 등재된 통신사이며 명시적으로 정지된 회원은 제외했어요. 국가 전체 신문·언론사 수가 아니에요.",
+      "as_of": "2026-10-10",
+      "source_kind": "official_directory_roster",
+      "source_url": "https://newsalliance.org/members/",
+      "source_revision": "c534c0abd87d15d27a4c61ff42bbf55c660f1505ba1f8e99c994dfdf792fcc50",
+      "count_unit": "entity",
+      "total": 1,
+      "verified": 0,
+      "candidates": 0,
+      "members": [
+        {
+          "member_key": "0b65c42a62afc8cb16ab",
+          "name": "Federal News Agency",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        }
+      ]
+    },
+    {
+      "id": "news-eana-finland",
+      "name": "EANA 통신사 · Finland",
+      "country": "Finland",
+      "sector": "media",
+      "roster_status": "official_roster_checked",
+      "scope_note": "EANA 공식 디렉터리에 등재된 통신사이며 명시적으로 정지된 회원은 제외했어요. 국가 전체 신문·언론사 수가 아니에요.",
+      "as_of": "2026-10-10",
+      "source_kind": "official_directory_roster",
+      "source_url": "https://newsalliance.org/members/",
+      "source_revision": "c534c0abd87d15d27a4c61ff42bbf55c660f1505ba1f8e99c994dfdf792fcc50",
+      "count_unit": "entity",
+      "total": 1,
+      "verified": 0,
+      "candidates": 0,
+      "members": [
+        {
+          "member_key": "4b4eea34cad5f3d597a8",
+          "name": "Finnish News Agency",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        }
+      ]
+    },
+    {
+      "id": "news-eana-germany",
+      "name": "EANA 통신사 · Germany",
+      "country": "Germany",
+      "sector": "media",
+      "roster_status": "official_roster_checked",
+      "scope_note": "EANA 공식 디렉터리에 등재된 통신사이며 명시적으로 정지된 회원은 제외했어요. 국가 전체 신문·언론사 수가 아니에요.",
+      "as_of": "2026-10-10",
+      "source_kind": "official_directory_roster",
+      "source_url": "https://newsalliance.org/members/",
+      "source_revision": "c534c0abd87d15d27a4c61ff42bbf55c660f1505ba1f8e99c994dfdf792fcc50",
+      "count_unit": "entity",
+      "total": 1,
+      "verified": 0,
+      "candidates": 0,
+      "members": [
+        {
+          "member_key": "79cea8752a4050b3b229",
+          "name": "German Press Agency",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        }
+      ]
+    },
+    {
+      "id": "news-eana-hungary",
+      "name": "EANA 통신사 · Hungary",
+      "country": "Hungary",
+      "sector": "media",
+      "roster_status": "official_roster_checked",
+      "scope_note": "EANA 공식 디렉터리에 등재된 통신사이며 명시적으로 정지된 회원은 제외했어요. 국가 전체 신문·언론사 수가 아니에요.",
+      "as_of": "2026-10-10",
+      "source_kind": "official_directory_roster",
+      "source_url": "https://newsalliance.org/members/",
+      "source_revision": "c534c0abd87d15d27a4c61ff42bbf55c660f1505ba1f8e99c994dfdf792fcc50",
+      "count_unit": "entity",
+      "total": 1,
+      "verified": 0,
+      "candidates": 0,
+      "members": [
+        {
+          "member_key": "4a4f0f4706c666337736",
+          "name": "Hungarian News Agency Corp.",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        }
+      ]
+    },
+    {
+      "id": "news-eana-switzerland",
+      "name": "EANA 통신사 · Switzerland",
+      "country": "Switzerland",
+      "sector": "media",
+      "roster_status": "official_roster_checked",
+      "scope_note": "EANA 공식 디렉터리에 등재된 통신사이며 명시적으로 정지된 회원은 제외했어요. 국가 전체 신문·언론사 수가 아니에요.",
+      "as_of": "2026-10-10",
+      "source_kind": "official_directory_roster",
+      "source_url": "https://newsalliance.org/members/",
+      "source_revision": "c534c0abd87d15d27a4c61ff42bbf55c660f1505ba1f8e99c994dfdf792fcc50",
+      "count_unit": "entity",
+      "total": 1,
+      "verified": 0,
+      "candidates": 0,
+      "members": [
+        {
+          "member_key": "52d44f8526b97d7aa21c",
+          "name": "Keystone-SDA",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        }
+      ]
+    },
+    {
+      "id": "news-eana-republicofkosovo",
+      "name": "EANA 통신사 · Republic of Kosovo",
+      "country": "Republic of Kosovo",
+      "sector": "media",
+      "roster_status": "official_roster_checked",
+      "scope_note": "EANA 공식 디렉터리에 등재된 통신사이며 명시적으로 정지된 회원은 제외했어요. 국가 전체 신문·언론사 수가 아니에요.",
+      "as_of": "2026-10-10",
+      "source_kind": "official_directory_roster",
+      "source_url": "https://newsalliance.org/members/",
+      "source_revision": "c534c0abd87d15d27a4c61ff42bbf55c660f1505ba1f8e99c994dfdf792fcc50",
+      "count_unit": "entity",
+      "total": 1,
+      "verified": 0,
+      "candidates": 0,
+      "members": [
+        {
+          "member_key": "ab3af13bd51f839f31b0",
+          "name": "KosovaPress",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        }
+      ]
+    },
+    {
+      "id": "news-eana-latvia",
+      "name": "EANA 통신사 · Latvia",
+      "country": "Latvia",
+      "sector": "media",
+      "roster_status": "official_roster_checked",
+      "scope_note": "EANA 공식 디렉터리에 등재된 통신사이며 명시적으로 정지된 회원은 제외했어요. 국가 전체 신문·언론사 수가 아니에요.",
+      "as_of": "2026-10-10",
+      "source_kind": "official_directory_roster",
+      "source_url": "https://newsalliance.org/members/",
+      "source_revision": "c534c0abd87d15d27a4c61ff42bbf55c660f1505ba1f8e99c994dfdf792fcc50",
+      "count_unit": "entity",
+      "total": 1,
+      "verified": 0,
+      "candidates": 0,
+      "members": [
+        {
+          "member_key": "c2bec202f7a218d6180b",
+          "name": "Latvian National Information Agency",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        }
+      ]
+    },
+    {
+      "id": "news-eana-portugal",
+      "name": "EANA 통신사 · Portugal",
+      "country": "Portugal",
+      "sector": "media",
+      "roster_status": "official_roster_checked",
+      "scope_note": "EANA 공식 디렉터리에 등재된 통신사이며 명시적으로 정지된 회원은 제외했어요. 국가 전체 신문·언론사 수가 아니에요.",
+      "as_of": "2026-10-10",
+      "source_kind": "official_directory_roster",
+      "source_url": "https://newsalliance.org/members/",
+      "source_revision": "c534c0abd87d15d27a4c61ff42bbf55c660f1505ba1f8e99c994dfdf792fcc50",
+      "count_unit": "entity",
+      "total": 1,
+      "verified": 0,
+      "candidates": 0,
+      "members": [
+        {
+          "member_key": "047f1999aa9371605140",
+          "name": "Lusa - Portuguese National News Agency",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        }
+      ]
+    },
+    {
+      "id": "news-eana-norway",
+      "name": "EANA 통신사 · Norway",
+      "country": "Norway",
+      "sector": "media",
+      "roster_status": "official_roster_checked",
+      "scope_note": "EANA 공식 디렉터리에 등재된 통신사이며 명시적으로 정지된 회원은 제외했어요. 국가 전체 신문·언론사 수가 아니에요.",
+      "as_of": "2026-10-10",
+      "source_kind": "official_directory_roster",
+      "source_url": "https://newsalliance.org/members/",
+      "source_revision": "c534c0abd87d15d27a4c61ff42bbf55c660f1505ba1f8e99c994dfdf792fcc50",
+      "count_unit": "entity",
+      "total": 1,
+      "verified": 0,
+      "candidates": 0,
+      "members": [
+        {
+          "member_key": "9190692553ac9f035b4a",
+          "name": "Norwegian Press Agency",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        }
+      ]
+    },
+    {
+      "id": "news-eana-unitedkingdom",
+      "name": "EANA 통신사 · United Kingdom",
+      "country": "United Kingdom",
+      "sector": "media",
+      "roster_status": "official_roster_checked",
+      "scope_note": "EANA 공식 디렉터리에 등재된 통신사이며 명시적으로 정지된 회원은 제외했어요. 국가 전체 신문·언론사 수가 아니에요.",
+      "as_of": "2026-10-10",
+      "source_kind": "official_directory_roster",
+      "source_url": "https://newsalliance.org/members/",
+      "source_revision": "c534c0abd87d15d27a4c61ff42bbf55c660f1505ba1f8e99c994dfdf792fcc50",
+      "count_unit": "entity",
+      "total": 1,
+      "verified": 0,
+      "candidates": 0,
+      "members": [
+        {
+          "member_key": "7219e76b6010e59d77e2",
+          "name": "PA Media",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        }
+      ]
+    },
+    {
+      "id": "news-eana-poland",
+      "name": "EANA 통신사 · Poland",
+      "country": "Poland",
+      "sector": "media",
+      "roster_status": "official_roster_checked",
+      "scope_note": "EANA 공식 디렉터리에 등재된 통신사이며 명시적으로 정지된 회원은 제외했어요. 국가 전체 신문·언론사 수가 아니에요.",
+      "as_of": "2026-10-10",
+      "source_kind": "official_directory_roster",
+      "source_url": "https://newsalliance.org/members/",
+      "source_revision": "c534c0abd87d15d27a4c61ff42bbf55c660f1505ba1f8e99c994dfdf792fcc50",
+      "count_unit": "entity",
+      "total": 1,
+      "verified": 0,
+      "candidates": 0,
+      "members": [
+        {
+          "member_key": "e634f1ed6f86c6bb4eec",
+          "name": "Polish Press Agency",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        }
+      ]
+    },
+    {
+      "id": "news-eana-denmark",
+      "name": "EANA 통신사 · Denmark",
+      "country": "Denmark",
+      "sector": "media",
+      "roster_status": "official_roster_checked",
+      "scope_note": "EANA 공식 디렉터리에 등재된 통신사이며 명시적으로 정지된 회원은 제외했어요. 국가 전체 신문·언론사 수가 아니에요.",
+      "as_of": "2026-10-10",
+      "source_kind": "official_directory_roster",
+      "source_url": "https://newsalliance.org/members/",
+      "source_revision": "c534c0abd87d15d27a4c61ff42bbf55c660f1505ba1f8e99c994dfdf792fcc50",
+      "count_unit": "entity",
+      "total": 1,
+      "verified": 0,
+      "candidates": 0,
+      "members": [
+        {
+          "member_key": "ffdcd843f9702a4d4d92",
+          "name": "RITZAUS BUREAU I/S",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        }
+      ]
+    },
+    {
+      "id": "news-eana-romania",
+      "name": "EANA 통신사 · Romania",
+      "country": "Romania",
+      "sector": "media",
+      "roster_status": "official_roster_checked",
+      "scope_note": "EANA 공식 디렉터리에 등재된 통신사이며 명시적으로 정지된 회원은 제외했어요. 국가 전체 신문·언론사 수가 아니에요.",
+      "as_of": "2026-10-10",
+      "source_kind": "official_directory_roster",
+      "source_url": "https://newsalliance.org/members/",
+      "source_revision": "c534c0abd87d15d27a4c61ff42bbf55c660f1505ba1f8e99c994dfdf792fcc50",
+      "count_unit": "entity",
+      "total": 1,
+      "verified": 0,
+      "candidates": 0,
+      "members": [
+        {
+          "member_key": "48acf72a012aa88cf7c4",
+          "name": "Romanian National News Agency",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        }
+      ]
+    },
+    {
+      "id": "news-eana-slovakia",
+      "name": "EANA 통신사 · Slovakia",
+      "country": "Slovakia",
+      "sector": "media",
+      "roster_status": "official_roster_checked",
+      "scope_note": "EANA 공식 디렉터리에 등재된 통신사이며 명시적으로 정지된 회원은 제외했어요. 국가 전체 신문·언론사 수가 아니에요.",
+      "as_of": "2026-10-10",
+      "source_kind": "official_directory_roster",
+      "source_url": "https://newsalliance.org/members/",
+      "source_revision": "c534c0abd87d15d27a4c61ff42bbf55c660f1505ba1f8e99c994dfdf792fcc50",
+      "count_unit": "entity",
+      "total": 1,
+      "verified": 0,
+      "candidates": 0,
+      "members": [
+        {
+          "member_key": "8409bf3b84bbb30f2bfd",
+          "name": "Slovakian Press Agency",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        }
+      ]
+    },
+    {
+      "id": "news-eana-slovenia",
+      "name": "EANA 통신사 · Slovenia",
+      "country": "Slovenia",
+      "sector": "media",
+      "roster_status": "official_roster_checked",
+      "scope_note": "EANA 공식 디렉터리에 등재된 통신사이며 명시적으로 정지된 회원은 제외했어요. 국가 전체 신문·언론사 수가 아니에요.",
+      "as_of": "2026-10-10",
+      "source_kind": "official_directory_roster",
+      "source_url": "https://newsalliance.org/members/",
+      "source_revision": "c534c0abd87d15d27a4c61ff42bbf55c660f1505ba1f8e99c994dfdf792fcc50",
+      "count_unit": "entity",
+      "total": 1,
+      "verified": 0,
+      "candidates": 0,
+      "members": [
+        {
+          "member_key": "1ff241cff9988d718e39",
+          "name": "Slovene Press Agency",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        }
+      ]
+    },
+    {
+      "id": "news-eana-spain",
+      "name": "EANA 통신사 · Spain",
+      "country": "Spain",
+      "sector": "media",
+      "roster_status": "official_roster_checked",
+      "scope_note": "EANA 공식 디렉터리에 등재된 통신사이며 명시적으로 정지된 회원은 제외했어요. 국가 전체 신문·언론사 수가 아니에요.",
+      "as_of": "2026-10-10",
+      "source_kind": "official_directory_roster",
+      "source_url": "https://newsalliance.org/members/",
+      "source_revision": "c534c0abd87d15d27a4c61ff42bbf55c660f1505ba1f8e99c994dfdf792fcc50",
+      "count_unit": "entity",
+      "total": 1,
+      "verified": 0,
+      "candidates": 0,
+      "members": [
+        {
+          "member_key": "a3755a6821e4dc3b09d9",
+          "name": "Spanish News Agency",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        }
+      ]
+    },
+    {
+      "id": "news-eana-azerbaijan",
+      "name": "EANA 통신사 · Azerbaijan",
+      "country": "Azerbaijan",
+      "sector": "media",
+      "roster_status": "official_roster_checked",
+      "scope_note": "EANA 공식 디렉터리에 등재된 통신사이며 명시적으로 정지된 회원은 제외했어요. 국가 전체 신문·언론사 수가 아니에요.",
+      "as_of": "2026-10-10",
+      "source_kind": "official_directory_roster",
+      "source_url": "https://newsalliance.org/members/",
+      "source_revision": "c534c0abd87d15d27a4c61ff42bbf55c660f1505ba1f8e99c994dfdf792fcc50",
+      "count_unit": "entity",
+      "total": 1,
+      "verified": 0,
+      "candidates": 0,
+      "members": [
+        {
+          "member_key": "032059034fc662758d7d",
+          "name": "State News Agency of the Republic of Azerbaijan",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        }
+      ]
+    },
+    {
+      "id": "news-eana-serbia",
+      "name": "EANA 통신사 · Serbia",
+      "country": "Serbia",
+      "sector": "media",
+      "roster_status": "official_roster_checked",
+      "scope_note": "EANA 공식 디렉터리에 등재된 통신사이며 명시적으로 정지된 회원은 제외했어요. 국가 전체 신문·언론사 수가 아니에요.",
+      "as_of": "2026-10-10",
+      "source_kind": "official_directory_roster",
+      "source_url": "https://newsalliance.org/members/",
+      "source_revision": "c534c0abd87d15d27a4c61ff42bbf55c660f1505ba1f8e99c994dfdf792fcc50",
+      "count_unit": "entity",
+      "total": 1,
+      "verified": 0,
+      "candidates": 0,
+      "members": [
+        {
+          "member_key": "4cfb7f38825ca646e24e",
+          "name": "Tanjug News Agency",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        }
+      ]
+    },
+    {
+      "id": "news-eana-sweden",
+      "name": "EANA 통신사 · Sweden",
+      "country": "Sweden",
+      "sector": "media",
+      "roster_status": "official_roster_checked",
+      "scope_note": "EANA 공식 디렉터리에 등재된 통신사이며 명시적으로 정지된 회원은 제외했어요. 국가 전체 신문·언론사 수가 아니에요.",
+      "as_of": "2026-10-10",
+      "source_kind": "official_directory_roster",
+      "source_url": "https://newsalliance.org/members/",
+      "source_revision": "c534c0abd87d15d27a4c61ff42bbf55c660f1505ba1f8e99c994dfdf792fcc50",
+      "count_unit": "entity",
+      "total": 1,
+      "verified": 0,
+      "candidates": 0,
+      "members": [
+        {
+          "member_key": "98ff333cf02d86556fc6",
+          "name": "TT News Agency",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        }
+      ]
+    },
+    {
+      "id": "news-eana-ukraine",
+      "name": "EANA 통신사 · Ukraine",
+      "country": "Ukraine",
+      "sector": "media",
+      "roster_status": "official_roster_checked",
+      "scope_note": "EANA 공식 디렉터리에 등재된 통신사이며 명시적으로 정지된 회원은 제외했어요. 국가 전체 신문·언론사 수가 아니에요.",
+      "as_of": "2026-10-10",
+      "source_kind": "official_directory_roster",
+      "source_url": "https://newsalliance.org/members/",
+      "source_revision": "c534c0abd87d15d27a4c61ff42bbf55c660f1505ba1f8e99c994dfdf792fcc50",
+      "count_unit": "entity",
+      "total": 1,
+      "verified": 0,
+      "candidates": 0,
+      "members": [
+        {
+          "member_key": "c3eade95b7bee09a0921",
+          "name": "Ukranian National News Agency",
+          "brand_id": null,
+          "candidates": [],
+          "identity_reviewed": false,
+          "png_verified": false
+        }
+      ]
+    }
+  ]
+}

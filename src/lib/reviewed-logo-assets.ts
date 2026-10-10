@@ -24,7 +24,8 @@ import officialRecollection from './reviewed-official-recollection-20261010.json
 import svgPreviews from './reviewed-svg-previews-20261010.json';
 import baeminGuide from './reviewed-baemin-guide-20261010.json';
 import officialAi from './reviewed-official-ai-20261010.json';
-const releasePatches = { ...release.patches, ...backgroundMerge.patches, ...googleTransparent.patches, ...institutions.patches, ...institutionsNext.patches, ...rainbow.patches, ...requestedBackground.patches, ...netflix.patches, ...userSvg.patches, ...claudeMerge.patches, ...lockups.patches, ...yeonsu.patches, ...kepco.patches, ...chungbuk.patches, ...ftc.patches, ...cjwf.patches, ...seongju.patches, ...iconHd.patches, ...userIdentities.patches, ...cityMerges.patches, ...officialRecollection.patches, ...svgPreviews.patches, ...baeminGuide.patches, ...officialAi.patches } as unknown as Record<string, Partial<Brand>>;
+import nextAssets from './reviewed-assets-next-20261010.json';
+const releasePatches = { ...release.patches, ...backgroundMerge.patches, ...googleTransparent.patches, ...institutions.patches, ...institutionsNext.patches, ...rainbow.patches, ...requestedBackground.patches, ...netflix.patches, ...userSvg.patches, ...claudeMerge.patches, ...lockups.patches, ...yeonsu.patches, ...kepco.patches, ...chungbuk.patches, ...ftc.patches, ...cjwf.patches, ...seongju.patches, ...iconHd.patches, ...userIdentities.patches, ...cityMerges.patches, ...officialRecollection.patches, ...svgPreviews.patches, ...baeminGuide.patches, ...officialAi.patches, ...nextAssets.patches } as unknown as Record<string, Partial<Brand>>;
 
 // Only visually reviewed transparent assets belong here. Never remove white
 // indiscriminately: the Seongnam symbol contains intentional white artwork.
@@ -140,4 +141,5 @@ export const reviewedVariants: Record<string, VariantManifest> = {
       provider: '사용자 제공 공식 CI AI ZIP', origin: 'manual', order,
     })),
   },
+  ...nextAssets.variants as unknown as Record<string, VariantManifest>,
 };
