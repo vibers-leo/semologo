@@ -26,10 +26,11 @@ import baeminGuide from './reviewed-baemin-guide-20261010.json';
 import officialAi from './reviewed-official-ai-20261010.json';
 import nextAssets from './reviewed-assets-next-20261010.json';
 import sourceReflection from './reviewed-source-reflection-20261010.json';
+import naverRelease from './reviewed-naver-20261010.json';
 // Later releases often add only counts or icons. Preserve previously reviewed
 // representative paths unless the later patch explicitly replaces that field.
 const releasePatches = mergeBrandPatches([
-  release.patches, backgroundMerge.patches, googleTransparent.patches, institutions.patches, institutionsNext.patches, rainbow.patches, requestedBackground.patches, netflix.patches, userSvg.patches, claudeMerge.patches, lockups.patches, yeonsu.patches, kepco.patches, chungbuk.patches, ftc.patches, cjwf.patches, seongju.patches, iconHd.patches, userIdentities.patches, cityMerges.patches, officialRecollection.patches, svgPreviews.patches, baeminGuide.patches, officialAi.patches, nextAssets.patches, sourceReflection.patches
+  release.patches, backgroundMerge.patches, googleTransparent.patches, institutions.patches, institutionsNext.patches, rainbow.patches, requestedBackground.patches, netflix.patches, userSvg.patches, claudeMerge.patches, lockups.patches, yeonsu.patches, kepco.patches, chungbuk.patches, ftc.patches, cjwf.patches, seongju.patches, iconHd.patches, userIdentities.patches, cityMerges.patches, officialRecollection.patches, svgPreviews.patches, baeminGuide.patches, officialAi.patches, nextAssets.patches, sourceReflection.patches, naverRelease.patches
 ]);
 
 function mergeBrandPatches(releases: unknown[]): Record<string, Partial<Brand>> {
@@ -41,6 +42,11 @@ function mergeBrandPatches(releases: unknown[]): Record<string, Partial<Brand>> 
   }
   return merged;
 }
+
+// Complete approved identities also enter listing and sitemap before the next CDN catalog refresh.
+export const reviewedCatalogSeeds = Object.entries(releasePatches)
+  .filter(([id, patch]) => patch.id === id && Boolean(patch.name_ko) && Boolean(patch.category) && (patch.has_png || patch.has_svg))
+  .map(([, patch]) => patch as Brand);
 
 export function reviewedMergeTarget(id: string): string | null {
   const target = releasePatches[id]?.merged_into;
@@ -162,4 +168,5 @@ export const reviewedVariants: Record<string, VariantManifest> = {
     })),
   },
   ...nextAssets.variants as unknown as Record<string, VariantManifest>,
+  ...naverRelease.variants as unknown as Record<string, VariantManifest>,
 };

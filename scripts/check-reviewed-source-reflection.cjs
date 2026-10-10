@@ -22,3 +22,12 @@ console.log('Reviewed representative paths, 10 CJWF variants and duplicate redir
 
 assert.equal(reviewedMergeTarget("official-ci-next-02"), "gongu-ci-1495");
 assert.equal(reviewedMergeTarget("not-a-reviewed-brand"), null);
+const { reviewedCatalogSeeds } = moduleRef.exports;
+assert.ok(reviewedCatalogSeeds.some(b => b.id === 'naver-blog' && b.name_ko === '네이버 블로그'));
+assert.equal(reviewedVariants['naver-blog'].variants.length, 6);
+assert.equal(reviewedVariants['smartstore-naver'].variants.length, 2);
+assert.equal(reviewedVariants.naver.variants.length, 5);
+assert.equal(reviewedMergeTarget('naver-2'), 'naver');
+assert.equal(reviewedMergeTarget('naver--src-83d3c48'), 'naver');
+assert.ok(applyReviewedAssets({id:'naver-blog'}).aliases.includes('네이버블로그'));
+console.log('NAVER variants, aliases, merged identities and sitemap seed: passed');

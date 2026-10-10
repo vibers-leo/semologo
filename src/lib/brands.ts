@@ -1,4 +1,4 @@
-import { reviewedVariants } from "./reviewed-logo-assets";
+import { reviewedVariants, reviewedCatalogSeeds } from "./reviewed-logo-assets";
 import { applyQualityReview } from "./logo-quality-review";
 
 export interface Brand {
@@ -31,6 +31,8 @@ export interface Brand {
   /** 인지도 — 위키백과 언어판 수(Wikidata sitelinks). 그리드 기본 정렬 기준.
    *  값이 없으면 0 으로 본다(중간값으로 채우면 무명이 앞으로 온다). */
   fame?: number;
+  /** Editorial discoverability boost; kept separate from measured visits. */
+  discovery_boost?: number;
   /** 국내/해외 구분. Wikidata P17(국가) 근거이며 확보된 브랜드만 값이 있다.
    *  한글명 유무로 대체 불가 — '스타벅스'는 한글명이 있어도 미국 브랜드다. */
   origin?: "KR" | "GLOBAL";
@@ -211,7 +213,8 @@ export async function fetchBrandsSlim(): Promise<Brand[]> {
       if (!hasUsableBrandData(list)) {
         throw new Error("브랜드 CDN 데이터가 비었거나 형식이 올바르지 않아요.");
       }
-      return list.map(applyQualityReview);
+      const known = new Set(list.map(brand => brand.id));
+      return [...list, ...reviewedCatalogSeeds.filter(brand => !known.has(brand.id))].map(applyQualityReview);
     })();
   }
   return slimCache;
@@ -353,9 +356,9 @@ export function sortForGrid(
         // 제보받을 통로를 유지한다. 순위에서만 맨 뒤로 보낸다.
         const fa = flagged.has(a.id) ? 1 : 0, fb = flagged.has(b.id) ? 1 : 0;
         if (fa !== fb) return fa - fb;
-        // 실제 히트가 있으면 그게 우선이다 — 사용자가 실제로 찾는 것이 정답이다.
-        // 히트가 없는 브랜드끼리는 fame(위키백과 언어판 수)으로 가른다.
-        const ha = hits[a.id] ?? 0, hb = hits[b.id] ?? 0;
+        // Measured popularity plus an explicit editorial boost determines discovery.
+        // The boost never modifies stored traffic or analytics counts.
+        const ha = (hits[a.id] ?? 0) + (a.discovery_boost ?? 0), hb = (hits[b.id] ?? 0) + (b.discovery_boost ?? 0);
         if (ha !== hb) return hb - ha;
         const byFame = (b.fame ?? 0) - (a.fame ?? 0);
         if (byFame !== 0) return byFame;

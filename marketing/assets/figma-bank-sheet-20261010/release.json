@@ -1,0 +1,694 @@
+{
+  "patches": {
+    "wooribank": {
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": "sources/figma-bank-sheet-20261010/ba9efafd007ca2f3.svg",
+      "svg_transparent": "sources/figma-bank-sheet-20261010/ba9efafd007ca2f3.svg",
+      "logo_png": "sources/figma-bank-sheet-20261010/b7efc721f92e64cf.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/wooribank/sources/figma-bank-sheet-20261010/b7efc721f92e64cf.png",
+      "icon_png": "sources/figma-bank-sheet-20261010/a22576539280d2ea.png",
+      "collected_originals_url": "https://logo.vibers.co.kr/_clients/wooribank/sources/figma-bank-sheet-20261010/5cbdc1199326de74.zip",
+      "asset_origin": null,
+      "asset_review_status": "verified",
+      "variants_n": 3,
+      "light": false,
+      "light_logo": false,
+      "dark_variant": false,
+      "presentation": {
+        "file": "sources/figma-bank-sheet-20261010/b7efc721f92e64cf.png",
+        "bg": "light"
+      },
+      "rejected_asset_files": [
+        "logo-icon.png",
+        "logo-800.png",
+        "logo-transparent.png",
+        "logo-white.png"
+      ]
+    },
+    "sc-first-bank": {
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": "sources/figma-bank-sheet-20261010/0b641b80d3e73092.svg",
+      "svg_transparent": "sources/figma-bank-sheet-20261010/0b641b80d3e73092.svg",
+      "logo_png": "sources/figma-bank-sheet-20261010/7f0802c34896d5ef.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/sc-first-bank/sources/figma-bank-sheet-20261010/7f0802c34896d5ef.png",
+      "icon_png": "sources/figma-bank-sheet-20261010/ee1bc93c4f81ae85.png",
+      "collected_originals_url": "https://logo.vibers.co.kr/_clients/sc-first-bank/sources/figma-bank-sheet-20261010/e32f2d8831abb6dd.zip",
+      "asset_origin": null,
+      "asset_review_status": "verified",
+      "variants_n": 3,
+      "light": false,
+      "light_logo": false,
+      "dark_variant": false,
+      "presentation": {
+        "file": "sources/figma-bank-sheet-20261010/7f0802c34896d5ef.png",
+        "bg": "light"
+      },
+      "rejected_asset_files": [
+        "logo-icon.png",
+        "logo-800.png",
+        "logo-transparent.png",
+        "logo-white.png"
+      ],
+      "id": "sc-first-bank",
+      "name_ko": "SC제일은행",
+      "name_en": "SC First Bank",
+      "category": "금융·결제",
+      "origin": "KR",
+      "added_at": "2026-10-10",
+      "logo_published_at": "2026-10-10T11:30:00Z",
+      "aliases": [
+        "에스씨제일은행",
+        "SC제일은행"
+      ]
+    },
+    "shinhanbank": {
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": "sources/figma-bank-sheet-20261010/8913a8a5b3b30e95.svg",
+      "svg_transparent": "sources/figma-bank-sheet-20261010/8913a8a5b3b30e95.svg",
+      "logo_png": "sources/figma-bank-sheet-20261010/f287b68313077214.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/shinhanbank/sources/figma-bank-sheet-20261010/f287b68313077214.png",
+      "icon_png": "sources/figma-bank-sheet-20261010/1544da15890ae925.png",
+      "collected_originals_url": "https://logo.vibers.co.kr/_clients/shinhanbank/sources/figma-bank-sheet-20261010/adee771c78093760.zip",
+      "asset_origin": null,
+      "asset_review_status": "verified",
+      "variants_n": 3,
+      "light": false,
+      "light_logo": false,
+      "dark_variant": false,
+      "presentation": {
+        "file": "sources/figma-bank-sheet-20261010/f287b68313077214.png",
+        "bg": "light"
+      },
+      "rejected_asset_files": [
+        "logo-icon.png",
+        "logo-800.png",
+        "logo-transparent.png",
+        "logo-white.png"
+      ]
+    },
+    "kbstar": {
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": "sources/figma-bank-sheet-20261010/ab8dd53b88344b32.svg",
+      "svg_transparent": "sources/figma-bank-sheet-20261010/ab8dd53b88344b32.svg",
+      "logo_png": "sources/figma-bank-sheet-20261010/4af97eb83b789040.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/kbstar/sources/figma-bank-sheet-20261010/4af97eb83b789040.png",
+      "icon_png": "sources/figma-bank-sheet-20261010/52442f6e30705c00.png",
+      "collected_originals_url": "https://logo.vibers.co.kr/_clients/kbstar/sources/figma-bank-sheet-20261010/9043b18bb24ef4c8.zip",
+      "asset_origin": null,
+      "asset_review_status": "verified",
+      "variants_n": 3,
+      "light": false,
+      "light_logo": false,
+      "dark_variant": false,
+      "presentation": {
+        "file": "sources/figma-bank-sheet-20261010/4af97eb83b789040.png",
+        "bg": "light"
+      },
+      "rejected_asset_files": [
+        "logo-icon.png",
+        "logo-800.png",
+        "logo-transparent.png",
+        "logo-white.png"
+      ]
+    },
+    "hanabank": {
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": "sources/figma-bank-sheet-20261010/1b4eeeba3317a40a.svg",
+      "svg_transparent": "sources/figma-bank-sheet-20261010/1b4eeeba3317a40a.svg",
+      "logo_png": "sources/figma-bank-sheet-20261010/f8c446812af4bfc7.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/hanabank/sources/figma-bank-sheet-20261010/f8c446812af4bfc7.png",
+      "icon_png": "sources/figma-bank-sheet-20261010/ca27e8a0a59c5026.png",
+      "collected_originals_url": "https://logo.vibers.co.kr/_clients/hanabank/sources/figma-bank-sheet-20261010/e615353eb04d8403.zip",
+      "asset_origin": null,
+      "asset_review_status": "verified",
+      "variants_n": 3,
+      "light": false,
+      "light_logo": false,
+      "dark_variant": false,
+      "presentation": {
+        "file": "sources/figma-bank-sheet-20261010/f8c446812af4bfc7.png",
+        "bg": "light"
+      },
+      "rejected_asset_files": [
+        "logo-icon.png",
+        "logo-800.png",
+        "logo-transparent.png",
+        "logo-white.png"
+      ]
+    },
+    "citibank-korea": {
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": "sources/figma-bank-sheet-20261010/a74eb9b3aa32b57a.svg",
+      "svg_transparent": "sources/figma-bank-sheet-20261010/a74eb9b3aa32b57a.svg",
+      "logo_png": "sources/figma-bank-sheet-20261010/fea6f547f2aa57c2.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/citibank-korea/sources/figma-bank-sheet-20261010/fea6f547f2aa57c2.png",
+      "icon_png": "sources/figma-bank-sheet-20261010/f89cd4265f2c66d3.png",
+      "collected_originals_url": "https://logo.vibers.co.kr/_clients/citibank-korea/sources/figma-bank-sheet-20261010/6dc4f0806ea53245.zip",
+      "asset_origin": null,
+      "asset_review_status": "verified",
+      "variants_n": 3,
+      "light": false,
+      "light_logo": false,
+      "dark_variant": false,
+      "presentation": {
+        "file": "sources/figma-bank-sheet-20261010/fea6f547f2aa57c2.png",
+        "bg": "light"
+      },
+      "rejected_asset_files": [
+        "logo-icon.png",
+        "logo-800.png",
+        "logo-transparent.png",
+        "logo-white.png"
+      ]
+    },
+    "im-bank": {
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": "sources/figma-bank-sheet-20261010/adda660235902040.svg",
+      "svg_transparent": "sources/figma-bank-sheet-20261010/adda660235902040.svg",
+      "logo_png": "sources/figma-bank-sheet-20261010/affb3cefe248e4e3.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/im-bank/sources/figma-bank-sheet-20261010/affb3cefe248e4e3.png",
+      "icon_png": "sources/figma-bank-sheet-20261010/e2d35753ac8c8380.png",
+      "collected_originals_url": "https://logo.vibers.co.kr/_clients/im-bank/sources/figma-bank-sheet-20261010/9f4d9494b0707212.zip",
+      "asset_origin": null,
+      "asset_review_status": "verified",
+      "variants_n": 3,
+      "light": false,
+      "light_logo": false,
+      "dark_variant": false,
+      "presentation": {
+        "file": "sources/figma-bank-sheet-20261010/affb3cefe248e4e3.png",
+        "bg": "light"
+      },
+      "rejected_asset_files": [
+        "logo-icon.png",
+        "logo-800.png",
+        "logo-transparent.png",
+        "logo-white.png"
+      ],
+      "id": "im-bank",
+      "name_ko": "iM뱅크",
+      "name_en": "iM Bank",
+      "category": "금융·결제",
+      "origin": "KR",
+      "added_at": "2026-10-10",
+      "logo_published_at": "2026-10-10T11:30:00Z",
+      "aliases": [
+        "IM뱅크",
+        "아이엠뱅크",
+        "iM Bank",
+        "대구은행"
+      ]
+    }
+  },
+  "variants": {
+    "wooribank": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "wooribank",
+      "primary": "figma-horizontal",
+      "variants": [
+        {
+          "key": "figma-horizontal",
+          "label": "가로조합 · 커뮤니티 수록",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "ko",
+          "color": "original",
+          "files": {
+            "svg": "sources/figma-bank-sheet-20261010/ba9efafd007ca2f3.svg",
+            "png": "sources/figma-bank-sheet-20261010/b7efc721f92e64cf.png"
+          },
+          "aspect": 4.14958616804611,
+          "provider": "figma-community",
+          "origin": "derived",
+          "asset_group": "logotype",
+          "source_url": "https://www.figma.com/design/gdhfNboRnMJe001luewhIP?node-id=33-791",
+          "derived_from": "시중 은행 (1).svg",
+          "order": 0,
+          "official_distribution": false
+        },
+        {
+          "key": "figma-symbol",
+          "label": "심볼 · 커뮤니티 수록",
+          "form": "symbol",
+          "lockup": "symbol",
+          "lang": "none",
+          "color": "original",
+          "files": {
+            "svg": "sources/figma-bank-sheet-20261010/723b3f610fbbf2f7.svg",
+            "png": "sources/figma-bank-sheet-20261010/47788f4216a6380c.png"
+          },
+          "aspect": 1.000005555601854,
+          "provider": "figma-community",
+          "origin": "derived",
+          "asset_group": "symbol",
+          "source_url": "https://www.figma.com/design/gdhfNboRnMJe001luewhIP?node-id=33-791",
+          "derived_from": "시중 은행 (1).svg",
+          "order": 1,
+          "official_distribution": false
+        },
+        {
+          "key": "figma-app",
+          "label": "색 배경 앱 구성 · 커뮤니티 편집본",
+          "form": "symbol",
+          "lockup": "symbol",
+          "lang": "none",
+          "color": "original",
+          "files": {
+            "svg": "sources/figma-bank-sheet-20261010/e5656479c81d43c1.svg",
+            "png": "sources/figma-bank-sheet-20261010/758f931b2c2bd0fe.png"
+          },
+          "aspect": 1.0,
+          "provider": "figma-community",
+          "origin": "derived",
+          "asset_group": "symbol",
+          "source_url": "https://www.figma.com/design/gdhfNboRnMJe001luewhIP?node-id=33-791",
+          "derived_from": "시중 은행 (1).svg",
+          "order": 2,
+          "official_distribution": false
+        }
+      ]
+    },
+    "sc-first-bank": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "sc-first-bank",
+      "primary": "figma-horizontal",
+      "variants": [
+        {
+          "key": "figma-horizontal",
+          "label": "가로조합 · 커뮤니티 수록",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "ko",
+          "color": "original",
+          "files": {
+            "svg": "sources/figma-bank-sheet-20261010/0b641b80d3e73092.svg",
+            "png": "sources/figma-bank-sheet-20261010/7f0802c34896d5ef.png"
+          },
+          "aspect": 2.544634489222114,
+          "provider": "figma-community",
+          "origin": "derived",
+          "asset_group": "logotype",
+          "source_url": "https://www.figma.com/design/gdhfNboRnMJe001luewhIP?node-id=33-791",
+          "derived_from": "시중 은행 (1).svg",
+          "order": 0,
+          "official_distribution": false
+        },
+        {
+          "key": "figma-symbol",
+          "label": "심볼 · 커뮤니티 수록",
+          "form": "symbol",
+          "lockup": "symbol",
+          "lang": "none",
+          "color": "original",
+          "files": {
+            "svg": "sources/figma-bank-sheet-20261010/865b5216f25035a7.svg",
+            "png": "sources/figma-bank-sheet-20261010/92893878dcbeb55d.png"
+          },
+          "aspect": 0.6184775000000002,
+          "provider": "figma-community",
+          "origin": "derived",
+          "asset_group": "symbol",
+          "source_url": "https://www.figma.com/design/gdhfNboRnMJe001luewhIP?node-id=33-791",
+          "derived_from": "시중 은행 (1).svg",
+          "order": 1,
+          "official_distribution": false
+        },
+        {
+          "key": "figma-app",
+          "label": "색 배경 앱 구성 · 커뮤니티 편집본",
+          "form": "symbol",
+          "lockup": "symbol",
+          "lang": "none",
+          "color": "original",
+          "files": {
+            "svg": "sources/figma-bank-sheet-20261010/981ca514d916b534.svg",
+            "png": "sources/figma-bank-sheet-20261010/e00ded4b94fa6c52.png"
+          },
+          "aspect": 1.0,
+          "provider": "figma-community",
+          "origin": "derived",
+          "asset_group": "symbol",
+          "source_url": "https://www.figma.com/design/gdhfNboRnMJe001luewhIP?node-id=33-791",
+          "derived_from": "시중 은행 (1).svg",
+          "order": 2,
+          "official_distribution": false
+        }
+      ]
+    },
+    "shinhanbank": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "shinhanbank",
+      "primary": "figma-horizontal",
+      "variants": [
+        {
+          "key": "figma-horizontal",
+          "label": "가로조합 · 커뮤니티 수록",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "ko",
+          "color": "original",
+          "files": {
+            "svg": "sources/figma-bank-sheet-20261010/8913a8a5b3b30e95.svg",
+            "png": "sources/figma-bank-sheet-20261010/f287b68313077214.png"
+          },
+          "aspect": 3.8168602107526364,
+          "provider": "figma-community",
+          "origin": "derived",
+          "asset_group": "logotype",
+          "source_url": "https://www.figma.com/design/gdhfNboRnMJe001luewhIP?node-id=33-791",
+          "derived_from": "시중 은행 (1).svg",
+          "order": 0,
+          "official_distribution": false
+        },
+        {
+          "key": "figma-symbol",
+          "label": "심볼 · 커뮤니티 수록",
+          "form": "symbol",
+          "lockup": "symbol",
+          "lang": "none",
+          "color": "original",
+          "files": {
+            "svg": "sources/figma-bank-sheet-20261010/ee494493d20d3ee8.svg",
+            "png": "sources/figma-bank-sheet-20261010/a569691df9465cad.png"
+          },
+          "aspect": 0.9999944443827152,
+          "provider": "figma-community",
+          "origin": "derived",
+          "asset_group": "symbol",
+          "source_url": "https://www.figma.com/design/gdhfNboRnMJe001luewhIP?node-id=33-791",
+          "derived_from": "시중 은행 (1).svg",
+          "order": 1,
+          "official_distribution": false
+        },
+        {
+          "key": "figma-app",
+          "label": "색 배경 앱 구성 · 커뮤니티 편집본",
+          "form": "symbol",
+          "lockup": "symbol",
+          "lang": "none",
+          "color": "original",
+          "files": {
+            "svg": "sources/figma-bank-sheet-20261010/ac5207109e3fd7d9.svg",
+            "png": "sources/figma-bank-sheet-20261010/2df0575292cd7cbf.png"
+          },
+          "aspect": 1.0,
+          "provider": "figma-community",
+          "origin": "derived",
+          "asset_group": "symbol",
+          "source_url": "https://www.figma.com/design/gdhfNboRnMJe001luewhIP?node-id=33-791",
+          "derived_from": "시중 은행 (1).svg",
+          "order": 2,
+          "official_distribution": false
+        }
+      ]
+    },
+    "kbstar": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "kbstar",
+      "primary": "figma-horizontal",
+      "variants": [
+        {
+          "key": "figma-horizontal",
+          "label": "가로조합 · 커뮤니티 수록",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "ko",
+          "color": "original",
+          "files": {
+            "svg": "sources/figma-bank-sheet-20261010/ab8dd53b88344b32.svg",
+            "png": "sources/figma-bank-sheet-20261010/4af97eb83b789040.png"
+          },
+          "aspect": 6.071676339136821,
+          "provider": "figma-community",
+          "origin": "derived",
+          "asset_group": "logotype",
+          "source_url": "https://www.figma.com/design/gdhfNboRnMJe001luewhIP?node-id=33-791",
+          "derived_from": "시중 은행 (1).svg",
+          "order": 0,
+          "official_distribution": false
+        },
+        {
+          "key": "figma-symbol",
+          "label": "심볼 · 커뮤니티 수록",
+          "form": "symbol",
+          "lockup": "symbol",
+          "lang": "none",
+          "color": "original",
+          "files": {
+            "svg": "sources/figma-bank-sheet-20261010/b4b8b732310b07a8.svg",
+            "png": "sources/figma-bank-sheet-20261010/d3d3e3e683560039.png"
+          },
+          "aspect": 1.4441623540543347,
+          "provider": "figma-community",
+          "origin": "derived",
+          "asset_group": "symbol",
+          "source_url": "https://www.figma.com/design/gdhfNboRnMJe001luewhIP?node-id=33-791",
+          "derived_from": "시중 은행 (1).svg",
+          "order": 1,
+          "official_distribution": false
+        },
+        {
+          "key": "figma-app",
+          "label": "색 배경 앱 구성 · 커뮤니티 편집본",
+          "form": "symbol",
+          "lockup": "symbol",
+          "lang": "none",
+          "color": "original",
+          "files": {
+            "svg": "sources/figma-bank-sheet-20261010/c50b934698f4c3ad.svg",
+            "png": "sources/figma-bank-sheet-20261010/7691beb3aafe8cf6.png"
+          },
+          "aspect": 1.0,
+          "provider": "figma-community",
+          "origin": "derived",
+          "asset_group": "symbol",
+          "source_url": "https://www.figma.com/design/gdhfNboRnMJe001luewhIP?node-id=33-791",
+          "derived_from": "시중 은행 (1).svg",
+          "order": 2,
+          "official_distribution": false
+        }
+      ]
+    },
+    "hanabank": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "hanabank",
+      "primary": "figma-horizontal",
+      "variants": [
+        {
+          "key": "figma-horizontal",
+          "label": "가로조합 · 커뮤니티 수록",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "ko",
+          "color": "original",
+          "files": {
+            "svg": "sources/figma-bank-sheet-20261010/1b4eeeba3317a40a.svg",
+            "png": "sources/figma-bank-sheet-20261010/f8c446812af4bfc7.png"
+          },
+          "aspect": 3.7314012276145623,
+          "provider": "figma-community",
+          "origin": "derived",
+          "asset_group": "logotype",
+          "source_url": "https://www.figma.com/design/gdhfNboRnMJe001luewhIP?node-id=33-791",
+          "derived_from": "시중 은행 (1).svg",
+          "order": 0,
+          "official_distribution": false
+        },
+        {
+          "key": "figma-symbol",
+          "label": "심볼 · 커뮤니티 수록",
+          "form": "symbol",
+          "lockup": "symbol",
+          "lang": "none",
+          "color": "original",
+          "files": {
+            "svg": "sources/figma-bank-sheet-20261010/50b9a17f695f5525.svg",
+            "png": "sources/figma-bank-sheet-20261010/76063c889d6a79aa.png"
+          },
+          "aspect": 1.101173860138862,
+          "provider": "figma-community",
+          "origin": "derived",
+          "asset_group": "symbol",
+          "source_url": "https://www.figma.com/design/gdhfNboRnMJe001luewhIP?node-id=33-791",
+          "derived_from": "시중 은행 (1).svg",
+          "order": 1,
+          "official_distribution": false
+        },
+        {
+          "key": "figma-app",
+          "label": "색 배경 앱 구성 · 커뮤니티 편집본",
+          "form": "symbol",
+          "lockup": "symbol",
+          "lang": "none",
+          "color": "original",
+          "files": {
+            "svg": "sources/figma-bank-sheet-20261010/730508fafc6b4870.svg",
+            "png": "sources/figma-bank-sheet-20261010/67183217046cdb06.png"
+          },
+          "aspect": 1.0,
+          "provider": "figma-community",
+          "origin": "derived",
+          "asset_group": "symbol",
+          "source_url": "https://www.figma.com/design/gdhfNboRnMJe001luewhIP?node-id=33-791",
+          "derived_from": "시중 은행 (1).svg",
+          "order": 2,
+          "official_distribution": false
+        }
+      ]
+    },
+    "citibank-korea": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "citibank-korea",
+      "primary": "figma-horizontal",
+      "variants": [
+        {
+          "key": "figma-horizontal",
+          "label": "가로조합 · 커뮤니티 수록",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "ko",
+          "color": "original",
+          "files": {
+            "svg": "sources/figma-bank-sheet-20261010/a74eb9b3aa32b57a.svg",
+            "png": "sources/figma-bank-sheet-20261010/fea6f547f2aa57c2.png"
+          },
+          "aspect": 3.9693749999999994,
+          "provider": "figma-community",
+          "origin": "derived",
+          "asset_group": "logotype",
+          "source_url": "https://www.figma.com/design/gdhfNboRnMJe001luewhIP?node-id=33-791",
+          "derived_from": "시중 은행 (1).svg",
+          "order": 0,
+          "official_distribution": false
+        },
+        {
+          "key": "figma-symbol",
+          "label": "심볼 · 커뮤니티 수록",
+          "form": "symbol",
+          "lockup": "symbol",
+          "lang": "none",
+          "color": "original",
+          "files": {
+            "svg": "sources/figma-bank-sheet-20261010/b45c19a781a4bc41.svg",
+            "png": "sources/figma-bank-sheet-20261010/36907d46fea0f915.png"
+          },
+          "aspect": 1.6935483870967774,
+          "provider": "figma-community",
+          "origin": "derived",
+          "asset_group": "symbol",
+          "source_url": "https://www.figma.com/design/gdhfNboRnMJe001luewhIP?node-id=33-791",
+          "derived_from": "시중 은행 (1).svg",
+          "order": 1,
+          "official_distribution": false
+        },
+        {
+          "key": "figma-app",
+          "label": "색 배경 앱 구성 · 커뮤니티 편집본",
+          "form": "symbol",
+          "lockup": "symbol",
+          "lang": "none",
+          "color": "original",
+          "files": {
+            "svg": "sources/figma-bank-sheet-20261010/c498d5b497458dac.svg",
+            "png": "sources/figma-bank-sheet-20261010/b10ddff6ca2bc9aa.png"
+          },
+          "aspect": 1.0,
+          "provider": "figma-community",
+          "origin": "derived",
+          "asset_group": "symbol",
+          "source_url": "https://www.figma.com/design/gdhfNboRnMJe001luewhIP?node-id=33-791",
+          "derived_from": "시중 은행 (1).svg",
+          "order": 2,
+          "official_distribution": false
+        }
+      ]
+    },
+    "im-bank": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "im-bank",
+      "primary": "figma-horizontal",
+      "variants": [
+        {
+          "key": "figma-horizontal",
+          "label": "가로조합 · 커뮤니티 수록",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "ko",
+          "color": "original",
+          "files": {
+            "svg": "sources/figma-bank-sheet-20261010/adda660235902040.svg",
+            "png": "sources/figma-bank-sheet-20261010/affb3cefe248e4e3.png"
+          },
+          "aspect": 5.837615384615384,
+          "provider": "figma-community",
+          "origin": "derived",
+          "asset_group": "logotype",
+          "source_url": "https://www.figma.com/design/gdhfNboRnMJe001luewhIP?node-id=33-791",
+          "derived_from": "시중 은행 (1).svg",
+          "order": 0,
+          "official_distribution": false
+        },
+        {
+          "key": "figma-symbol",
+          "label": "심볼 · 커뮤니티 수록",
+          "form": "symbol",
+          "lockup": "symbol",
+          "lang": "none",
+          "color": "original",
+          "files": {
+            "svg": "sources/figma-bank-sheet-20261010/cf7181e3e2972792.svg",
+            "png": "sources/figma-bank-sheet-20261010/261870c1c16ff4dd.png"
+          },
+          "aspect": 2.0,
+          "provider": "figma-community",
+          "origin": "derived",
+          "asset_group": "symbol",
+          "source_url": "https://www.figma.com/design/gdhfNboRnMJe001luewhIP?node-id=33-791",
+          "derived_from": "시중 은행 (1).svg",
+          "order": 1,
+          "official_distribution": false
+        },
+        {
+          "key": "figma-app",
+          "label": "색 배경 앱 구성 · 커뮤니티 편집본",
+          "form": "symbol",
+          "lockup": "symbol",
+          "lang": "none",
+          "color": "original",
+          "files": {
+            "svg": "sources/figma-bank-sheet-20261010/1c3c005d9d491008.svg",
+            "png": "sources/figma-bank-sheet-20261010/132b70f09de8fe06.png"
+          },
+          "aspect": 1.0,
+          "provider": "figma-community",
+          "origin": "derived",
+          "asset_group": "symbol",
+          "source_url": "https://www.figma.com/design/gdhfNboRnMJe001luewhIP?node-id=33-791",
+          "derived_from": "시중 은행 (1).svg",
+          "order": 2,
+          "official_distribution": false
+        }
+      ]
+    }
+  },
+  "merge_candidates": {
+    "logo-of-woori-bank": "wooribank",
+    "shinhan-bank": "shinhanbank",
+    "shinhan": "shinhanbank",
+    "hana-bank": "hanabank"
+  }
+}

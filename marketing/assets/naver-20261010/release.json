@@ -1,0 +1,358 @@
+{
+  "patches": {
+    "naver-blog": {
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": "sources/naver-20261010/578083aa3f208654e2d5.svg",
+      "svg_transparent": "sources/naver-20261010/578083aa3f208654e2d5.svg",
+      "logo_png": "sources/naver-20261010/39f93e469b55ed55c96d.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/naver-blog/sources/naver-20261010/39f93e469b55ed55c96d.png",
+      "presentation": {
+        "file": "sources/naver-20261010/39f93e469b55ed55c96d.png",
+        "bg": "light"
+      },
+      "light": false,
+      "light_logo": false,
+      "dark_variant": false,
+      "variants_n": 6,
+      "asset_review_status": "verified",
+      "asset_origin": "사용자 제공 네이버 벡터 원본",
+      "origin": "KR",
+      "hidden": false,
+      "logo_published_at": "2026-10-10T11:25:00Z",
+      "rejected_asset_files": [
+        "logo-icon.png",
+        "logo-800.png",
+        "logo-transparent.png",
+        "logo-white.png"
+      ],
+      "source_zip": "sources/naver-20261010/db4fd94bfcd145bdaaf0.zip",
+      "id": "naver-blog",
+      "name_ko": "네이버 블로그",
+      "name_en": "NAVER Blog",
+      "aliases": [
+        "네이버블로그",
+        "블로그",
+        "NAVER BLOG",
+        "Naver Blog",
+        "blog",
+        "2026 네이버 블로그",
+        "네이버 블로그 리브랜딩"
+      ],
+      "category": "미디어·엔터",
+      "added_at": "2026-10-10",
+      "icon_png": "sources/naver-20261010/dc017db11ca1d03f27b1.png",
+      "discovery_boost": 100
+    },
+    "naver": {
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": "sources/naver-20261010/089fe7c5467bb05f0bc1.svg",
+      "svg_transparent": "sources/naver-20261010/089fe7c5467bb05f0bc1.svg",
+      "logo_png": "sources/naver-20261010/3504cae25d7512d44933.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/naver/sources/naver-20261010/3504cae25d7512d44933.png",
+      "presentation": {
+        "file": "sources/naver-20261010/3504cae25d7512d44933.png",
+        "bg": "light"
+      },
+      "light": false,
+      "light_logo": false,
+      "dark_variant": false,
+      "variants_n": 5,
+      "asset_review_status": "verified",
+      "asset_origin": "사용자 제공 네이버 벡터 원본",
+      "origin": "KR",
+      "hidden": false,
+      "logo_published_at": "2026-10-10T11:25:00Z",
+      "rejected_asset_files": [
+        "logo-icon.png",
+        "logo-800.png",
+        "logo-transparent.png",
+        "logo-white.png"
+      ],
+      "source_zip": "sources/naver-20261010/c1cd6493cd9a21464ee7.zip",
+      "name_ko": "네이버",
+      "name_en": "NAVER",
+      "aliases": [
+        "네이버",
+        "NAVER",
+        "Naver Corporation",
+        "네이버 로고",
+        "네이버 공식 로고",
+        "네이버 주식회사"
+      ],
+      "discovery_boost": 120
+    },
+    "smartstore-naver": {
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": "sources/naver-20261010/35186d48bd1943605bb2.svg",
+      "svg_transparent": "sources/naver-20261010/35186d48bd1943605bb2.svg",
+      "logo_png": "sources/naver-20261010/c06986abc5c67cf5092f.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/smartstore-naver/sources/naver-20261010/c06986abc5c67cf5092f.png",
+      "presentation": {
+        "file": "sources/naver-20261010/c06986abc5c67cf5092f.png",
+        "bg": "light"
+      },
+      "light": false,
+      "light_logo": false,
+      "dark_variant": false,
+      "variants_n": 2,
+      "asset_review_status": "verified",
+      "asset_origin": "사용자 제공 네이버 벡터 원본",
+      "origin": "KR",
+      "hidden": false,
+      "logo_published_at": "2026-10-10T11:25:00Z",
+      "rejected_asset_files": [
+        "logo-icon.png",
+        "logo-800.png",
+        "logo-transparent.png",
+        "logo-white.png"
+      ],
+      "source_zip": "sources/naver-20261010/eaf55902a64fd691fcb7.zip",
+      "name_ko": "네이버 스마트스토어",
+      "name_en": "NAVER Smart Store",
+      "aliases": [
+        "네이버스마트스토어",
+        "스마트스토어",
+        "Smart Store",
+        "Smartstore",
+        "네이버 스토어"
+      ],
+      "category": "유통·쇼핑",
+      "icon_png": "sources/naver-20261010/c06986abc5c67cf5092f.png",
+      "discovery_boost": 80
+    },
+    "naver-2": {
+      "variant_of": "naver",
+      "merged_into": "naver",
+      "hidden": true,
+      "hidden_reason": "공식 제공 네이버 로고와 이전 수집본을 하나의 콘텐츠로 통합"
+    },
+    "naver--src-83d3c48": {
+      "variant_of": "naver",
+      "merged_into": "naver",
+      "hidden": true,
+      "hidden_reason": "공식 제공 네이버 로고와 이전 수집본을 하나의 콘텐츠로 통합"
+    }
+  },
+  "variants": {
+    "naver-blog": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "naver-blog",
+      "primary": "wordmark",
+      "variants": [
+        {
+          "key": "wordmark",
+          "label": "blog 워드마크",
+          "form": "wordmark",
+          "lockup": "wordmark",
+          "lang": "ko",
+          "color": "original",
+          "files": {
+            "svg": "sources/naver-20261010/578083aa3f208654e2d5.svg",
+            "png": "sources/naver-20261010/39f93e469b55ed55c96d.png"
+          },
+          "provider": "사용자 제공 네이버 벡터 원본",
+          "origin": "manual",
+          "order": 0
+        },
+        {
+          "key": "symbol",
+          "label": "블로그 심볼",
+          "form": "symbol",
+          "lockup": "symbol",
+          "lang": "ko",
+          "color": "original",
+          "files": {
+            "svg": "sources/naver-20261010/06427a93793f2a0f8832.svg",
+            "png": "sources/naver-20261010/d4fb24291edad8ced7ab.png"
+          },
+          "provider": "사용자 제공 네이버 벡터 원본",
+          "origin": "manual",
+          "order": 1
+        },
+        {
+          "key": "app-black",
+          "label": "앱 아이콘 · 검정 배경",
+          "form": "symbol",
+          "lockup": "symbol",
+          "lang": "ko",
+          "color": "original",
+          "files": {
+            "svg": "sources/naver-20261010/d369154be847c9fe5d09.svg",
+            "png": "sources/naver-20261010/ac09913d70ab986e906e.png"
+          },
+          "provider": "사용자 제공 네이버 벡터 원본",
+          "origin": "manual",
+          "order": 2
+        },
+        {
+          "key": "n-blog",
+          "label": "N blog 가로조합",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "ko",
+          "color": "original",
+          "files": {
+            "svg": "sources/naver-20261010/ae89a1cdf1c61ec8180e.svg",
+            "png": "sources/naver-20261010/dd7eea5d8de664aa7d2f.png"
+          },
+          "provider": "사용자 제공 네이버 벡터 원본",
+          "origin": "manual",
+          "order": 3
+        },
+        {
+          "key": "naver-blog",
+          "label": "NAVER blog 가로조합",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "ko",
+          "color": "original",
+          "files": {
+            "svg": "sources/naver-20261010/6773e132a0365ef11b15.svg",
+            "png": "sources/naver-20261010/397bb6773a8b5e485844.png"
+          },
+          "provider": "사용자 제공 네이버 벡터 원본",
+          "origin": "manual",
+          "order": 4
+        },
+        {
+          "key": "app-green",
+          "label": "앱 아이콘 · 녹색 배경",
+          "form": "symbol",
+          "lockup": "symbol",
+          "lang": "ko",
+          "color": "original",
+          "files": {
+            "svg": "sources/naver-20261010/c704f53fbebef7c9b324.svg",
+            "png": "sources/naver-20261010/dc017db11ca1d03f27b1.png"
+          },
+          "provider": "사용자 제공 네이버 벡터 원본",
+          "origin": "manual",
+          "order": 5
+        }
+      ]
+    },
+    "naver": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "naver",
+      "primary": "green",
+      "variants": [
+        {
+          "key": "green",
+          "label": "NAVER 워드마크 · Green",
+          "form": "wordmark",
+          "lockup": "wordmark",
+          "lang": "en",
+          "color": "green",
+          "files": {
+            "svg": "sources/naver-20261010/089fe7c5467bb05f0bc1.svg",
+            "png": "sources/naver-20261010/3504cae25d7512d44933.png"
+          },
+          "provider": "사용자 제공 네이버 벡터 원본",
+          "origin": "manual",
+          "order": 0
+        },
+        {
+          "key": "black",
+          "label": "NAVER 워드마크 · Black",
+          "form": "wordmark",
+          "lockup": "wordmark",
+          "lang": "en",
+          "color": "black",
+          "files": {
+            "svg": "sources/naver-20261010/aaff90f97fdc7985a6bf.svg",
+            "png": "sources/naver-20261010/00279bff055bd1e7715e.png"
+          },
+          "provider": "사용자 제공 네이버 벡터 원본",
+          "origin": "manual",
+          "order": 1
+        },
+        {
+          "key": "white",
+          "label": "NAVER 워드마크 · White",
+          "form": "wordmark",
+          "lockup": "wordmark",
+          "lang": "en",
+          "color": "white",
+          "files": {
+            "svg": "sources/naver-20261010/3bb254d6f0d92ce3f7bc.svg",
+            "png": "sources/naver-20261010/2815166e6ab74eef9c2b.png"
+          },
+          "provider": "사용자 제공 네이버 벡터 원본",
+          "origin": "manual",
+          "order": 2
+        },
+        {
+          "key": "legacy-naver-2",
+          "label": "이전 NAVER 워드마크 · 기존 수집본",
+          "form": "horizontal",
+          "lang": "en",
+          "color": "original",
+          "files": {
+            "svg": "sources/naver-20261010/aba49be098cd96cab20d.svg",
+            "png": "sources/naver-20261010/a8d68607a6351f6caeed.png"
+          },
+          "origin": "collected",
+          "provider": "통합한 기존 네이버 콘텐츠",
+          "order": 3
+        },
+        {
+          "key": "legacy-naver-src",
+          "label": "이전 모자 심볼 조합 · 기존 수집본",
+          "form": "horizontal",
+          "lang": "en",
+          "color": "original",
+          "files": {
+            "svg": "sources/naver-20261010/5473c645adbaed0a633e.svg",
+            "png": "sources/naver-20261010/d570c0b61d220e037573.png"
+          },
+          "origin": "collected",
+          "provider": "통합한 기존 네이버 콘텐츠",
+          "order": 4
+        }
+      ]
+    },
+    "smartstore-naver": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "smartstore-naver",
+      "primary": "icon",
+      "variants": [
+        {
+          "key": "icon",
+          "label": "스마트스토어 앱 아이콘",
+          "form": "symbol",
+          "lockup": "symbol",
+          "lang": "ko",
+          "color": "original",
+          "files": {
+            "svg": "sources/naver-20261010/35186d48bd1943605bb2.svg",
+            "png": "sources/naver-20261010/c06986abc5c67cf5092f.png"
+          },
+          "provider": "사용자 제공 네이버 벡터 원본",
+          "origin": "manual",
+          "order": 0
+        },
+        {
+          "key": "vertical",
+          "label": "스마트스토어 세로조합",
+          "form": "vertical",
+          "lockup": "vertical",
+          "lang": "ko",
+          "color": "original",
+          "files": {
+            "svg": "sources/naver-20261010/9ffe30d508d07536edb5.svg",
+            "png": "sources/naver-20261010/8acb3d4dd65fa3a7afcf.png"
+          },
+          "provider": "사용자 제공 네이버 벡터 원본",
+          "origin": "manual",
+          "order": 1
+        }
+      ]
+    }
+  }
+}

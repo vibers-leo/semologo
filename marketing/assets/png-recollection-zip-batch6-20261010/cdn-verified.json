@@ -1,0 +1,698 @@
+[
+  {
+    "id": "gongu-ci-1754",
+    "key": "_clients/gongu-ci-1754/sources/official-zip-batch6-20261010/325e9724d063224701a2.svg",
+    "url": "https://logo.vibers.co.kr/_clients/gongu-ci-1754/sources/official-zip-batch6-20261010/325e9724d063224701a2.svg?v=325e9724d063224701a2",
+    "status": 200,
+    "sha256": "325e9724d063224701a2fe913c631e9a03d6705283986e4afa2986c6446c3f39",
+    "bytes": 29621
+  },
+  {
+    "id": "gongu-ci-1754",
+    "key": "_clients/gongu-ci-1754/sources/official-zip-batch6-20261010/a5d299240a3d02330ab8.ai",
+    "url": "https://logo.vibers.co.kr/_clients/gongu-ci-1754/sources/official-zip-batch6-20261010/a5d299240a3d02330ab8.ai?v=a5d299240a3d02330ab8",
+    "status": 200,
+    "sha256": "a5d299240a3d02330ab84150cf7de02cd5f826355458820c8a851156ecb9814c",
+    "bytes": 162053
+  },
+  {
+    "id": "gongu-ci-1754",
+    "key": "_clients/gongu-ci-1754/sources/official-zip-batch6-20261010/739d9a3605f4a38b7c2d.zip",
+    "url": "https://logo.vibers.co.kr/_clients/gongu-ci-1754/sources/official-zip-batch6-20261010/739d9a3605f4a38b7c2d.zip?v=739d9a3605f4a38b7c2d",
+    "status": 200,
+    "sha256": "739d9a3605f4a38b7c2da2edfe28bb5925cc296c1179c2a23dd4bb4f4832979d",
+    "bytes": 1067779
+  },
+  {
+    "id": "gongu-ci-1754",
+    "key": "_clients/gongu-ci-1754/sources/official-zip-batch6-20261010/c811339054b73c72e96e.png",
+    "url": "https://logo.vibers.co.kr/_clients/gongu-ci-1754/sources/official-zip-batch6-20261010/c811339054b73c72e96e.png?v=c811339054b73c72e96e",
+    "status": 200,
+    "sha256": "c811339054b73c72e96e39ed74c1d05bc2672284d619e67464bb4fc89b96fe2e",
+    "bytes": 69667
+  },
+  {
+    "id": "gongu-ci-1754",
+    "key": "_clients/gongu-ci-1754/sources/official-zip-batch6-20261010/dd82fee847ccbfd86250.svg",
+    "url": "https://logo.vibers.co.kr/_clients/gongu-ci-1754/sources/official-zip-batch6-20261010/dd82fee847ccbfd86250.svg?v=dd82fee847ccbfd86250",
+    "status": 200,
+    "sha256": "dd82fee847ccbfd86250c8a1253b89185f1ca84504009280b33101ee06d12a98",
+    "bytes": 33582
+  },
+  {
+    "id": "gongu-ci-1754",
+    "key": "_clients/gongu-ci-1754/sources/official-zip-batch6-20261010/f4fe99186be7ca4691e4.svg",
+    "url": "https://logo.vibers.co.kr/_clients/gongu-ci-1754/sources/official-zip-batch6-20261010/f4fe99186be7ca4691e4.svg?v=f4fe99186be7ca4691e4",
+    "status": 200,
+    "sha256": "f4fe99186be7ca4691e46915c24459a8d910237973dcee312675190e97a21b5e",
+    "bytes": 33625
+  },
+  {
+    "id": "gongu-ci-1754",
+    "key": "_clients/gongu-ci-1754/sources/official-zip-batch6-20261010/201bcd0f3fe29c59faf1.svg",
+    "url": "https://logo.vibers.co.kr/_clients/gongu-ci-1754/sources/official-zip-batch6-20261010/201bcd0f3fe29c59faf1.svg?v=201bcd0f3fe29c59faf1",
+    "status": 200,
+    "sha256": "201bcd0f3fe29c59faf1fd8b8a05b5085551d0c7f5d6f63d43788d0330ccbe0e",
+    "bytes": 33650
+  },
+  {
+    "id": "gongu-ci-1754",
+    "key": "_clients/gongu-ci-1754/sources/official-zip-batch6-20261010/a44bb66e889b795fde87.png",
+    "url": "https://logo.vibers.co.kr/_clients/gongu-ci-1754/sources/official-zip-batch6-20261010/a44bb66e889b795fde87.png?v=a44bb66e889b795fde87",
+    "status": 200,
+    "sha256": "a44bb66e889b795fde87a122648a61cbb56e28d25682d873af696fd6c2cf2053",
+    "bytes": 372779
+  },
+  {
+    "id": "gongu-ci-1754",
+    "key": "_clients/gongu-ci-1754/sources/official-zip-batch6-20261010/13890d458a360401ac47.png",
+    "url": "https://logo.vibers.co.kr/_clients/gongu-ci-1754/sources/official-zip-batch6-20261010/13890d458a360401ac47.png?v=13890d458a360401ac47",
+    "status": 200,
+    "sha256": "13890d458a360401ac47564501badb77178f9c6cb37c85776198637e76e51810",
+    "bytes": 383319
+  },
+  {
+    "id": "gongu-ci-1744",
+    "key": "_clients/gongu-ci-1744/sources/official-zip-batch6-20261010/06aed64d8faa2955114b.svg",
+    "url": "https://logo.vibers.co.kr/_clients/gongu-ci-1744/sources/official-zip-batch6-20261010/06aed64d8faa2955114b.svg?v=06aed64d8faa2955114b",
+    "status": 200,
+    "sha256": "06aed64d8faa2955114bf95c268d83e6fa9f44ce75b8b4b7b42dbc6f4bb75970",
+    "bytes": 97256
+  },
+  {
+    "id": "gongu-ci-1744",
+    "key": "_clients/gongu-ci-1744/sources/official-zip-batch6-20261010/d47d4f3826ff333463ef.ai",
+    "url": "https://logo.vibers.co.kr/_clients/gongu-ci-1744/sources/official-zip-batch6-20261010/d47d4f3826ff333463ef.ai?v=d47d4f3826ff333463ef",
+    "status": 200,
+    "sha256": "d47d4f3826ff333463efeaccc7dbf5cec785428eb9e4c98f8f38fece6d4625ec",
+    "bytes": 1215621
+  },
+  {
+    "id": "gongu-ci-1754",
+    "key": "_clients/gongu-ci-1754/sources/official-zip-batch6-20261010/9169f440f8cc77e6cdd0.png",
+    "url": "https://logo.vibers.co.kr/_clients/gongu-ci-1754/sources/official-zip-batch6-20261010/9169f440f8cc77e6cdd0.png?v=9169f440f8cc77e6cdd0",
+    "status": 200,
+    "sha256": "9169f440f8cc77e6cdd05fbe9837e427eb63bccd979cedbe2a7457d7d9f28df9",
+    "bytes": 384380
+  },
+  {
+    "id": "gongu-ci-1744",
+    "key": "_clients/gongu-ci-1744/sources/official-zip-batch6-20261010/827b5be33991412f760c.png",
+    "url": "https://logo.vibers.co.kr/_clients/gongu-ci-1744/sources/official-zip-batch6-20261010/827b5be33991412f760c.png?v=827b5be33991412f760c",
+    "status": 200,
+    "sha256": "827b5be33991412f760c4d6054c5efb7fdfc78df1fe281fc1410262d92575b52",
+    "bytes": 93011
+  },
+  {
+    "id": "gongu-ci-1744",
+    "key": "_clients/gongu-ci-1744/sources/official-zip-batch6-20261010/256bb121d4428b1895d3.zip",
+    "url": "https://logo.vibers.co.kr/_clients/gongu-ci-1744/sources/official-zip-batch6-20261010/256bb121d4428b1895d3.zip?v=256bb121d4428b1895d3",
+    "status": 200,
+    "sha256": "256bb121d4428b1895d3a0a735c308396a611b30207d5b6809e7e66dbda5eb63",
+    "bytes": 1031452
+  },
+  {
+    "id": "gongu-ci-1744",
+    "key": "_clients/gongu-ci-1744/sources/official-zip-batch6-20261010/3b5888c40381ef4f002f.zip",
+    "url": "https://logo.vibers.co.kr/_clients/gongu-ci-1744/sources/official-zip-batch6-20261010/3b5888c40381ef4f002f.zip?v=3b5888c40381ef4f002f",
+    "status": 200,
+    "sha256": "3b5888c40381ef4f002f765de85c89d0ead5706a8340e0d0c0c702a80607b519",
+    "bytes": 1380235
+  },
+  {
+    "id": "gongu-ci-1744",
+    "key": "_clients/gongu-ci-1744/sources/official-zip-batch6-20261010/cfdc4fc04575763f4f1f.svg",
+    "url": "https://logo.vibers.co.kr/_clients/gongu-ci-1744/sources/official-zip-batch6-20261010/cfdc4fc04575763f4f1f.svg?v=cfdc4fc04575763f4f1f",
+    "status": 200,
+    "sha256": "cfdc4fc04575763f4f1f15f6f7980dfb054aee0bf8365506120d9ad5f598f4be",
+    "bytes": 7140
+  },
+  {
+    "id": "gongu-ci-1744",
+    "key": "_clients/gongu-ci-1744/sources/official-zip-batch6-20261010/e90b0dc9ab7927358edf.png",
+    "url": "https://logo.vibers.co.kr/_clients/gongu-ci-1744/sources/official-zip-batch6-20261010/e90b0dc9ab7927358edf.png?v=e90b0dc9ab7927358edf",
+    "status": 200,
+    "sha256": "e90b0dc9ab7927358edf518eb0d1d7d4c72130cdfe3bea15e1d46984c2af1736",
+    "bytes": 39939
+  },
+  {
+    "id": "gongu-ci-1744",
+    "key": "_clients/gongu-ci-1744/sources/official-zip-batch6-20261010/2bec9a8689c43f6e3932.svg",
+    "url": "https://logo.vibers.co.kr/_clients/gongu-ci-1744/sources/official-zip-batch6-20261010/2bec9a8689c43f6e3932.svg?v=2bec9a8689c43f6e3932",
+    "status": 200,
+    "sha256": "2bec9a8689c43f6e3932398b36f33bd4e8b1752df0135f599d3b6e7914dc5b10",
+    "bytes": 7809
+  },
+  {
+    "id": "gongu-ci-1744",
+    "key": "_clients/gongu-ci-1744/sources/official-zip-batch6-20261010/3d3ecc92751583e1bebc.ai",
+    "url": "https://logo.vibers.co.kr/_clients/gongu-ci-1744/sources/official-zip-batch6-20261010/3d3ecc92751583e1bebc.ai?v=3d3ecc92751583e1bebc",
+    "status": 200,
+    "sha256": "3d3ecc92751583e1bebc72bfb6fdc3b6e04af2f70999ab720f700f2db1c68a7c",
+    "bytes": 1429169
+  },
+  {
+    "id": "gongu-ci-1725",
+    "key": "_clients/gongu-ci-1725/sources/official-zip-batch6-20261010/efc98fa3d1a15a2ea48e.ai",
+    "url": "https://logo.vibers.co.kr/_clients/gongu-ci-1725/sources/official-zip-batch6-20261010/efc98fa3d1a15a2ea48e.ai?v=efc98fa3d1a15a2ea48e",
+    "status": 200,
+    "sha256": "efc98fa3d1a15a2ea48e04bc90471c82bb157d8daef5b2977753d9a592013fd2",
+    "bytes": 1167133
+  },
+  {
+    "id": "gongu-ci-1725",
+    "key": "_clients/gongu-ci-1725/sources/official-zip-batch6-20261010/70e02083542b8f01d10d.zip",
+    "url": "https://logo.vibers.co.kr/_clients/gongu-ci-1725/sources/official-zip-batch6-20261010/70e02083542b8f01d10d.zip?v=70e02083542b8f01d10d",
+    "status": 200,
+    "sha256": "70e02083542b8f01d10df536e5e7c871c1acfa450b5e29a09aae6f5184476cd8",
+    "bytes": 978153
+  },
+  {
+    "id": "gongu-ci-1744",
+    "key": "_clients/gongu-ci-1744/sources/official-zip-batch6-20261010/af822a09116c28e36fb8.png",
+    "url": "https://logo.vibers.co.kr/_clients/gongu-ci-1744/sources/official-zip-batch6-20261010/af822a09116c28e36fb8.png?v=af822a09116c28e36fb8",
+    "status": 200,
+    "sha256": "af822a09116c28e36fb8172d3355092e1dd47a52bf5660bed0eeee17fd8e698d",
+    "bytes": 37068
+  },
+  {
+    "id": "gongu-ci-1725",
+    "key": "_clients/gongu-ci-1725/sources/official-zip-batch6-20261010/c971daaec7ccfb13d35a.svg",
+    "url": "https://logo.vibers.co.kr/_clients/gongu-ci-1725/sources/official-zip-batch6-20261010/c971daaec7ccfb13d35a.svg?v=c971daaec7ccfb13d35a",
+    "status": 200,
+    "sha256": "c971daaec7ccfb13d35aac0a5e9f38592fd4308e174e14c3ad9f232fe0339805",
+    "bytes": 8969
+  },
+  {
+    "id": "gongu-ci-1725",
+    "key": "_clients/gongu-ci-1725/sources/official-zip-batch6-20261010/bde0fe5642e052d63848.svg",
+    "url": "https://logo.vibers.co.kr/_clients/gongu-ci-1725/sources/official-zip-batch6-20261010/bde0fe5642e052d63848.svg?v=bde0fe5642e052d63848",
+    "status": 200,
+    "sha256": "bde0fe5642e052d63848fed948953a3559f97e59ad76c09943598c5a72ee4b11",
+    "bytes": 9072
+  },
+  {
+    "id": "gongu-ci-1725",
+    "key": "_clients/gongu-ci-1725/sources/official-zip-batch6-20261010/55eb87dd7fd7acf5a1c2.png",
+    "url": "https://logo.vibers.co.kr/_clients/gongu-ci-1725/sources/official-zip-batch6-20261010/55eb87dd7fd7acf5a1c2.png?v=55eb87dd7fd7acf5a1c2",
+    "status": 200,
+    "sha256": "55eb87dd7fd7acf5a1c2f47a2ec489984f647d1cececa392f3c1e1ad23359944",
+    "bytes": 60818
+  },
+  {
+    "id": "gongu-ci-1725",
+    "key": "_clients/gongu-ci-1725/sources/official-zip-batch6-20261010/134d87c138cdafa5ac7a.svg",
+    "url": "https://logo.vibers.co.kr/_clients/gongu-ci-1725/sources/official-zip-batch6-20261010/134d87c138cdafa5ac7a.svg?v=134d87c138cdafa5ac7a",
+    "status": 200,
+    "sha256": "134d87c138cdafa5ac7ac33316b4b3c2975913a7f86a453b884e0e657aaa28b9",
+    "bytes": 17745
+  },
+  {
+    "id": "gongu-ci-1725",
+    "key": "_clients/gongu-ci-1725/sources/official-zip-batch6-20261010/fcddcb06e6d851fa6de5.png",
+    "url": "https://logo.vibers.co.kr/_clients/gongu-ci-1725/sources/official-zip-batch6-20261010/fcddcb06e6d851fa6de5.png?v=fcddcb06e6d851fa6de5",
+    "status": 200,
+    "sha256": "fcddcb06e6d851fa6de5441b4b506cb561d3d0c82cd2d144065a98472423e402",
+    "bytes": 78157
+  },
+  {
+    "id": "gongu-ci-1725",
+    "key": "_clients/gongu-ci-1725/sources/official-zip-batch6-20261010/7d402fda44cdcaff4d31.png",
+    "url": "https://logo.vibers.co.kr/_clients/gongu-ci-1725/sources/official-zip-batch6-20261010/7d402fda44cdcaff4d31.png?v=7d402fda44cdcaff4d31",
+    "status": 200,
+    "sha256": "7d402fda44cdcaff4d31e728646c036f1798a992a0a4e3b4ace053882fa2ba6d",
+    "bytes": 95760
+  },
+  {
+    "id": "gongu-ci-1725",
+    "key": "_clients/gongu-ci-1725/sources/official-zip-batch6-20261010/cf5f29056307ab56ef3b.svg",
+    "url": "https://logo.vibers.co.kr/_clients/gongu-ci-1725/sources/official-zip-batch6-20261010/cf5f29056307ab56ef3b.svg?v=cf5f29056307ab56ef3b",
+    "status": 200,
+    "sha256": "cf5f29056307ab56ef3b4a0c300aca0a683843fa333c6331b8c26ca63d817a19",
+    "bytes": 19864
+  },
+  {
+    "id": "gongu-ci-1725",
+    "key": "_clients/gongu-ci-1725/sources/official-zip-batch6-20261010/9509bf097e1b11e60fdb.svg",
+    "url": "https://logo.vibers.co.kr/_clients/gongu-ci-1725/sources/official-zip-batch6-20261010/9509bf097e1b11e60fdb.svg?v=9509bf097e1b11e60fdb",
+    "status": 200,
+    "sha256": "9509bf097e1b11e60fdb90aea4781bcf411ae9c2192c2a5a2210ff1c6d6d7786",
+    "bytes": 17288
+  },
+  {
+    "id": "gongu-ci-1725",
+    "key": "_clients/gongu-ci-1725/sources/official-zip-batch6-20261010/7687ca7777412cbc6636.png",
+    "url": "https://logo.vibers.co.kr/_clients/gongu-ci-1725/sources/official-zip-batch6-20261010/7687ca7777412cbc6636.png?v=7687ca7777412cbc6636",
+    "status": 200,
+    "sha256": "7687ca7777412cbc6636f1f315304faa1648ea29c4350de132895057cd8205c4",
+    "bytes": 98977
+  },
+  {
+    "id": "gongu-ci-1725",
+    "key": "_clients/gongu-ci-1725/sources/official-zip-batch6-20261010/ca15eddb12822bced2ab.svg",
+    "url": "https://logo.vibers.co.kr/_clients/gongu-ci-1725/sources/official-zip-batch6-20261010/ca15eddb12822bced2ab.svg?v=ca15eddb12822bced2ab",
+    "status": 200,
+    "sha256": "ca15eddb12822bced2ab499a71a4f76ffab0f0d03f9df1fc0658de951ecb43a6",
+    "bytes": 17535
+  },
+  {
+    "id": "gongu-ci-1725",
+    "key": "_clients/gongu-ci-1725/sources/official-zip-batch6-20261010/f956019bad38d280fd97.png",
+    "url": "https://logo.vibers.co.kr/_clients/gongu-ci-1725/sources/official-zip-batch6-20261010/f956019bad38d280fd97.png?v=f956019bad38d280fd97",
+    "status": 200,
+    "sha256": "f956019bad38d280fd97f7f5fa4f3ef938a8786a5bad757acb85c81887e0d41a",
+    "bytes": 93025
+  },
+  {
+    "id": "gongu-ci-1725",
+    "key": "_clients/gongu-ci-1725/sources/official-zip-batch6-20261010/e4cccd6337ad361ac9af.svg",
+    "url": "https://logo.vibers.co.kr/_clients/gongu-ci-1725/sources/official-zip-batch6-20261010/e4cccd6337ad361ac9af.svg?v=e4cccd6337ad361ac9af",
+    "status": 200,
+    "sha256": "e4cccd6337ad361ac9af98580040a750482e3f71b429ff31c97bd231697b391b",
+    "bytes": 5999
+  },
+  {
+    "id": "gongu-ci-1725",
+    "key": "_clients/gongu-ci-1725/sources/official-zip-batch6-20261010/11ce56c7bb16a235671a.svg",
+    "url": "https://logo.vibers.co.kr/_clients/gongu-ci-1725/sources/official-zip-batch6-20261010/11ce56c7bb16a235671a.svg?v=11ce56c7bb16a235671a",
+    "status": 200,
+    "sha256": "11ce56c7bb16a235671aee406793d3ddb18f1d4fb6706e88bee61da03b803fc1",
+    "bytes": 8651
+  },
+  {
+    "id": "gongu-ci-1725",
+    "key": "_clients/gongu-ci-1725/sources/official-zip-batch6-20261010/ac7d9266843a981d75de.png",
+    "url": "https://logo.vibers.co.kr/_clients/gongu-ci-1725/sources/official-zip-batch6-20261010/ac7d9266843a981d75de.png?v=ac7d9266843a981d75de",
+    "status": 200,
+    "sha256": "ac7d9266843a981d75defb11a5dc6233ab21db037604382e0821d8866ef649e8",
+    "bytes": 250352
+  },
+  {
+    "id": "gongu-ci-1725",
+    "key": "_clients/gongu-ci-1725/sources/official-zip-batch6-20261010/e142be6aaf0280cad06c.png",
+    "url": "https://logo.vibers.co.kr/_clients/gongu-ci-1725/sources/official-zip-batch6-20261010/e142be6aaf0280cad06c.png?v=e142be6aaf0280cad06c",
+    "status": 200,
+    "sha256": "e142be6aaf0280cad06ce2a61aa657f2332f4e550a083a8cd0c34678af42d66b",
+    "bytes": 184929
+  },
+  {
+    "id": "gongu-ci-1725",
+    "key": "_clients/gongu-ci-1725/sources/official-zip-batch6-20261010/f7a5c0da24ea9bcbc794.png",
+    "url": "https://logo.vibers.co.kr/_clients/gongu-ci-1725/sources/official-zip-batch6-20261010/f7a5c0da24ea9bcbc794.png?v=f7a5c0da24ea9bcbc794",
+    "status": 200,
+    "sha256": "f7a5c0da24ea9bcbc7947507a9bbe54480589b05527b8302830890cbc6baad0b",
+    "bytes": 226189
+  },
+  {
+    "id": "gongu-ci-1753",
+    "key": "_clients/gongu-ci-1753/sources/official-zip-batch6-20261010/5f398f4a240fa091d524.svg",
+    "url": "https://logo.vibers.co.kr/_clients/gongu-ci-1753/sources/official-zip-batch6-20261010/5f398f4a240fa091d524.svg?v=5f398f4a240fa091d524",
+    "status": 200,
+    "sha256": "5f398f4a240fa091d5244f79678e8c6ebfb888fc963d08d7a59c6ccf2ae113bf",
+    "bytes": 18144
+  },
+  {
+    "id": "gongu-ci-1753",
+    "key": "_clients/gongu-ci-1753/sources/official-zip-batch6-20261010/457c14d4817878f4ea7b.zip",
+    "url": "https://logo.vibers.co.kr/_clients/gongu-ci-1753/sources/official-zip-batch6-20261010/457c14d4817878f4ea7b.zip?v=457c14d4817878f4ea7b",
+    "status": 200,
+    "sha256": "457c14d4817878f4ea7bf2f6268760f8004c4fca92a762d2569618a12402ece2",
+    "bytes": 8357253
+  },
+  {
+    "id": "gongu-ci-1753",
+    "key": "_clients/gongu-ci-1753/sources/official-zip-batch6-20261010/6391a0c106aa0c1b45a8.png",
+    "url": "https://logo.vibers.co.kr/_clients/gongu-ci-1753/sources/official-zip-batch6-20261010/6391a0c106aa0c1b45a8.png?v=6391a0c106aa0c1b45a8",
+    "status": 200,
+    "sha256": "6391a0c106aa0c1b45a8c6e68874aa6b1c73ad3f864de2dae3bc8475c264cb16",
+    "bytes": 126099
+  },
+  {
+    "id": "gongu-ci-1753",
+    "key": "_clients/gongu-ci-1753/sources/official-zip-batch6-20261010/066e696242484fa9fdb0.svg",
+    "url": "https://logo.vibers.co.kr/_clients/gongu-ci-1753/sources/official-zip-batch6-20261010/066e696242484fa9fdb0.svg?v=066e696242484fa9fdb0",
+    "status": 200,
+    "sha256": "066e696242484fa9fdb0efe64c191f773a5e8d4393ab9a01d65a3bca6f2bfcb4",
+    "bytes": 2086
+  },
+  {
+    "id": "gongu-ci-1753",
+    "key": "_clients/gongu-ci-1753/sources/official-zip-batch6-20261010/a1460a8a4c8f58bff89b.png",
+    "url": "https://logo.vibers.co.kr/_clients/gongu-ci-1753/sources/official-zip-batch6-20261010/a1460a8a4c8f58bff89b.png?v=a1460a8a4c8f58bff89b",
+    "status": 200,
+    "sha256": "a1460a8a4c8f58bff89b75593f8b4e19f5291ee332e97a6f22826c91ac670080",
+    "bytes": 40128
+  },
+  {
+    "id": "gongu-ci-1753",
+    "key": "_clients/gongu-ci-1753/sources/official-zip-batch6-20261010/7fcbb8e33f91208c8a2f.svg",
+    "url": "https://logo.vibers.co.kr/_clients/gongu-ci-1753/sources/official-zip-batch6-20261010/7fcbb8e33f91208c8a2f.svg?v=7fcbb8e33f91208c8a2f",
+    "status": 200,
+    "sha256": "7fcbb8e33f91208c8a2f9cd70f03f2d5eaf83038ef833cdf583eaa455f2102da",
+    "bytes": 6351
+  },
+  {
+    "id": "gongu-ci-1753",
+    "key": "_clients/gongu-ci-1753/sources/official-zip-batch6-20261010/68e12e05faa34da9012b.png",
+    "url": "https://logo.vibers.co.kr/_clients/gongu-ci-1753/sources/official-zip-batch6-20261010/68e12e05faa34da9012b.png?v=68e12e05faa34da9012b",
+    "status": 200,
+    "sha256": "68e12e05faa34da9012ba26a2e69dc45f61a332dfda2ccb9ce65bd0160edbdf5",
+    "bytes": 43069
+  },
+  {
+    "id": "gongu-ci-1753",
+    "key": "_clients/gongu-ci-1753/sources/official-zip-batch6-20261010/db272148c01f5638390e.ai",
+    "url": "https://logo.vibers.co.kr/_clients/gongu-ci-1753/sources/official-zip-batch6-20261010/db272148c01f5638390e.ai?v=db272148c01f5638390e",
+    "status": 200,
+    "sha256": "db272148c01f5638390e115e07e93dd6914896de8bc0b05639f635c456cf95c3",
+    "bytes": 1637041
+  },
+  {
+    "id": "gongu-ci-1753",
+    "key": "_clients/gongu-ci-1753/sources/official-zip-batch6-20261010/c7ec9d20db16f5ac5760.ai",
+    "url": "https://logo.vibers.co.kr/_clients/gongu-ci-1753/sources/official-zip-batch6-20261010/c7ec9d20db16f5ac5760.ai?v=c7ec9d20db16f5ac5760",
+    "status": 200,
+    "sha256": "c7ec9d20db16f5ac57607758fa85e22baf865800005cbd57ab012f4a7d8b1bcf",
+    "bytes": 1648160
+  },
+  {
+    "id": "gongu-ci-1753",
+    "key": "_clients/gongu-ci-1753/sources/official-zip-batch6-20261010/afa105d806ab0804285b.svg",
+    "url": "https://logo.vibers.co.kr/_clients/gongu-ci-1753/sources/official-zip-batch6-20261010/afa105d806ab0804285b.svg?v=afa105d806ab0804285b",
+    "status": 200,
+    "sha256": "afa105d806ab0804285b806680ebf6bd4732b43b2301bf62ea4736488dccf105",
+    "bytes": 17674
+  },
+  {
+    "id": "gongu-ci-1698",
+    "key": "_clients/gongu-ci-1698/sources/official-zip-batch6-20261010/09e4d1caca0179182d7a.ai",
+    "url": "https://logo.vibers.co.kr/_clients/gongu-ci-1698/sources/official-zip-batch6-20261010/09e4d1caca0179182d7a.ai?v=09e4d1caca0179182d7a",
+    "status": 200,
+    "sha256": "09e4d1caca0179182d7a6a941f9db055802a76077e35b3912e8265eb37a19ab4",
+    "bytes": 328631
+  },
+  {
+    "id": "gongu-ci-1753",
+    "key": "_clients/gongu-ci-1753/sources/official-zip-batch6-20261010/abfdc01417babfee7b6c.png",
+    "url": "https://logo.vibers.co.kr/_clients/gongu-ci-1753/sources/official-zip-batch6-20261010/abfdc01417babfee7b6c.png?v=abfdc01417babfee7b6c",
+    "status": 200,
+    "sha256": "abfdc01417babfee7b6cd36bdfbfa6bdd4aa3784717508178711d556abebb041",
+    "bytes": 66695
+  },
+  {
+    "id": "gongu-ci-1698",
+    "key": "_clients/gongu-ci-1698/sources/official-zip-batch6-20261010/9ed5265ff060d3010917.svg",
+    "url": "https://logo.vibers.co.kr/_clients/gongu-ci-1698/sources/official-zip-batch6-20261010/9ed5265ff060d3010917.svg?v=9ed5265ff060d3010917",
+    "status": 200,
+    "sha256": "9ed5265ff060d3010917cf345f7dd5ce0bb6e362278308e1cca62570dae7ddc8",
+    "bytes": 24670
+  },
+  {
+    "id": "gongu-ci-1698",
+    "key": "_clients/gongu-ci-1698/sources/official-zip-batch6-20261010/bb6e699d1dfe8941132a.png",
+    "url": "https://logo.vibers.co.kr/_clients/gongu-ci-1698/sources/official-zip-batch6-20261010/bb6e699d1dfe8941132a.png?v=bb6e699d1dfe8941132a",
+    "status": 200,
+    "sha256": "bb6e699d1dfe8941132a7bcfda0b1bf61feae9d1a80bc2d5132bc8bbc97f958e",
+    "bytes": 151139
+  },
+  {
+    "id": "gongu-ci-1698",
+    "key": "_clients/gongu-ci-1698/sources/official-zip-batch6-20261010/ebc40590b628d52105df.svg",
+    "url": "https://logo.vibers.co.kr/_clients/gongu-ci-1698/sources/official-zip-batch6-20261010/ebc40590b628d52105df.svg?v=ebc40590b628d52105df",
+    "status": 200,
+    "sha256": "ebc40590b628d52105df32b464684cb5f5507a25e4f8e25c7c6d76d443fb698c",
+    "bytes": 16293
+  },
+  {
+    "id": "gongu-ci-1698",
+    "key": "_clients/gongu-ci-1698/sources/official-zip-batch6-20261010/7accae1c786c113d6d5a.svg",
+    "url": "https://logo.vibers.co.kr/_clients/gongu-ci-1698/sources/official-zip-batch6-20261010/7accae1c786c113d6d5a.svg?v=7accae1c786c113d6d5a",
+    "status": 200,
+    "sha256": "7accae1c786c113d6d5ad201b8a94f0395e712eb371757fe005954d09e6ec05e",
+    "bytes": 24641
+  },
+  {
+    "id": "gongu-ci-1698",
+    "key": "_clients/gongu-ci-1698/sources/official-zip-batch6-20261010/f5f45ccc39ebd57cdedd.zip",
+    "url": "https://logo.vibers.co.kr/_clients/gongu-ci-1698/sources/official-zip-batch6-20261010/f5f45ccc39ebd57cdedd.zip?v=f5f45ccc39ebd57cdedd",
+    "status": 200,
+    "sha256": "f5f45ccc39ebd57cdedd4eddafe172a7dae0acc0b0d6fd48f3b8258a8e7a2beb",
+    "bytes": 711055
+  },
+  {
+    "id": "gongu-ci-1698",
+    "key": "_clients/gongu-ci-1698/sources/official-zip-batch6-20261010/9d5b39db1359675751b1.png",
+    "url": "https://logo.vibers.co.kr/_clients/gongu-ci-1698/sources/official-zip-batch6-20261010/9d5b39db1359675751b1.png?v=9d5b39db1359675751b1",
+    "status": 200,
+    "sha256": "9d5b39db1359675751b125e158a32609f6e5c92da6e8cdfa59c3e7dcad8d8fc0",
+    "bytes": 49887
+  },
+  {
+    "id": "gongu-ci-1698",
+    "key": "_clients/gongu-ci-1698/sources/official-zip-batch6-20261010/776a96656b6ec14ad904.png",
+    "url": "https://logo.vibers.co.kr/_clients/gongu-ci-1698/sources/official-zip-batch6-20261010/776a96656b6ec14ad904.png?v=776a96656b6ec14ad904",
+    "status": 200,
+    "sha256": "776a96656b6ec14ad9042ac1097982c793ee492a1c235743cc50e9ff4935fd4a",
+    "bytes": 75472
+  },
+  {
+    "id": "gongu-ci-1698",
+    "key": "_clients/gongu-ci-1698/sources/official-zip-batch6-20261010/c833c797cdfb9813c6ca.svg",
+    "url": "https://logo.vibers.co.kr/_clients/gongu-ci-1698/sources/official-zip-batch6-20261010/c833c797cdfb9813c6ca.svg?v=c833c797cdfb9813c6ca",
+    "status": 200,
+    "sha256": "c833c797cdfb9813c6ca8721109f7ec0e6de5252f199a0a04bb7205481925ed0",
+    "bytes": 16650
+  },
+  {
+    "id": "gongu-ci-1698",
+    "key": "_clients/gongu-ci-1698/sources/official-zip-batch6-20261010/e88716cf0eef8e1061e3.png",
+    "url": "https://logo.vibers.co.kr/_clients/gongu-ci-1698/sources/official-zip-batch6-20261010/e88716cf0eef8e1061e3.png?v=e88716cf0eef8e1061e3",
+    "status": 200,
+    "sha256": "e88716cf0eef8e1061e382fd033037aa6b815072ab587b835fa9943c0330dec8",
+    "bytes": 115107
+  },
+  {
+    "id": "gongu-ci-1698",
+    "key": "_clients/gongu-ci-1698/sources/official-zip-batch6-20261010/55a8ef726d587f3ce319.svg",
+    "url": "https://logo.vibers.co.kr/_clients/gongu-ci-1698/sources/official-zip-batch6-20261010/55a8ef726d587f3ce319.svg?v=55a8ef726d587f3ce319",
+    "status": 200,
+    "sha256": "55a8ef726d587f3ce3191b735d06bf5887cbf6caf6769b5ebb72e3caaeb249f6",
+    "bytes": 16458
+  },
+  {
+    "id": "gongu-ci-1698",
+    "key": "_clients/gongu-ci-1698/sources/official-zip-batch6-20261010/88d19402c15fc132d969.svg",
+    "url": "https://logo.vibers.co.kr/_clients/gongu-ci-1698/sources/official-zip-batch6-20261010/88d19402c15fc132d969.svg?v=88d19402c15fc132d969",
+    "status": 200,
+    "sha256": "88d19402c15fc132d969e02129196c5ada04fc79ff3a34409cb899bf6e372d99",
+    "bytes": 16754
+  },
+  {
+    "id": "gongu-ci-1698",
+    "key": "_clients/gongu-ci-1698/sources/official-zip-batch6-20261010/27731de48790befafd0a.png",
+    "url": "https://logo.vibers.co.kr/_clients/gongu-ci-1698/sources/official-zip-batch6-20261010/27731de48790befafd0a.png?v=27731de48790befafd0a",
+    "status": 200,
+    "sha256": "27731de48790befafd0a3750b3e34727683111ea55cc25da2d6e863f0e164fe0",
+    "bytes": 108282
+  },
+  {
+    "id": "gongu-ci-1698",
+    "key": "_clients/gongu-ci-1698/sources/official-zip-batch6-20261010/8ccfe3f6c0cf271b2acc.svg",
+    "url": "https://logo.vibers.co.kr/_clients/gongu-ci-1698/sources/official-zip-batch6-20261010/8ccfe3f6c0cf271b2acc.svg?v=8ccfe3f6c0cf271b2acc",
+    "status": 200,
+    "sha256": "8ccfe3f6c0cf271b2acc6c888d11e8d10577b9e16c8e87fe420215931df73b1e",
+    "bytes": 8507
+  },
+  {
+    "id": "gongu-ci-1698",
+    "key": "_clients/gongu-ci-1698/sources/official-zip-batch6-20261010/7a572bdcd9a3fd1e0a9f.png",
+    "url": "https://logo.vibers.co.kr/_clients/gongu-ci-1698/sources/official-zip-batch6-20261010/7a572bdcd9a3fd1e0a9f.png?v=7a572bdcd9a3fd1e0a9f",
+    "status": 200,
+    "sha256": "7a572bdcd9a3fd1e0a9faf4111c3b24604f4dcf9886978fec145be0d03bf3cfb",
+    "bytes": 51034
+  },
+  {
+    "id": "gongu-ci-1698",
+    "key": "_clients/gongu-ci-1698/sources/official-zip-batch6-20261010/ea8486299a5f24cfa355.png",
+    "url": "https://logo.vibers.co.kr/_clients/gongu-ci-1698/sources/official-zip-batch6-20261010/ea8486299a5f24cfa355.png?v=ea8486299a5f24cfa355",
+    "status": 200,
+    "sha256": "ea8486299a5f24cfa355727fd9fca33e931f85b6752d3109a1f84899f1abc9e9",
+    "bytes": 74470
+  },
+  {
+    "id": "gongu-ci-1649",
+    "key": "_clients/gongu-ci-1649/sources/official-zip-batch6-20261010/66b3ab2efd30ff00fa25.ai",
+    "url": "https://logo.vibers.co.kr/_clients/gongu-ci-1649/sources/official-zip-batch6-20261010/66b3ab2efd30ff00fa25.ai?v=66b3ab2efd30ff00fa25",
+    "status": 200,
+    "sha256": "66b3ab2efd30ff00fa25be5f83eaf5bc53001fea888f1cd931710f73bd37229a",
+    "bytes": 273257
+  },
+  {
+    "id": "gongu-ci-1649",
+    "key": "_clients/gongu-ci-1649/sources/official-zip-batch6-20261010/594965cb41ba16748766.svg",
+    "url": "https://logo.vibers.co.kr/_clients/gongu-ci-1649/sources/official-zip-batch6-20261010/594965cb41ba16748766.svg?v=594965cb41ba16748766",
+    "status": 200,
+    "sha256": "594965cb41ba167487666afee77a44611ba126bc4e1ab76a71cc0d1ae8dde427",
+    "bytes": 18098
+  },
+  {
+    "id": "gongu-ci-1649",
+    "key": "_clients/gongu-ci-1649/sources/official-zip-batch6-20261010/f3f55e695867e9052c53.ai",
+    "url": "https://logo.vibers.co.kr/_clients/gongu-ci-1649/sources/official-zip-batch6-20261010/f3f55e695867e9052c53.ai?v=f3f55e695867e9052c53",
+    "status": 200,
+    "sha256": "f3f55e695867e9052c537bacceb54e21b6f705cc97fa939b989ad35ebe75702f",
+    "bytes": 246590
+  },
+  {
+    "id": "gongu-ci-1649",
+    "key": "_clients/gongu-ci-1649/sources/official-zip-batch6-20261010/5d70068f667ce32c51ce.zip",
+    "url": "https://logo.vibers.co.kr/_clients/gongu-ci-1649/sources/official-zip-batch6-20261010/5d70068f667ce32c51ce.zip?v=5d70068f667ce32c51ce",
+    "status": 200,
+    "sha256": "5d70068f667ce32c51cecb7360b646869c9078371e39bad31bfad3398b6c2df6",
+    "bytes": 842339
+  },
+  {
+    "id": "gongu-ci-1649",
+    "key": "_clients/gongu-ci-1649/sources/official-zip-batch6-20261010/421b62d4241e00565a4f.ai",
+    "url": "https://logo.vibers.co.kr/_clients/gongu-ci-1649/sources/official-zip-batch6-20261010/421b62d4241e00565a4f.ai?v=421b62d4241e00565a4f",
+    "status": 200,
+    "sha256": "421b62d4241e00565a4fab40fabebdde6b0ebb86b50d97fc22922dd170459f7c",
+    "bytes": 249499
+  },
+  {
+    "id": "gongu-ci-1649",
+    "key": "_clients/gongu-ci-1649/sources/official-zip-batch6-20261010/cd8b5912c4b4472b72e4.png",
+    "url": "https://logo.vibers.co.kr/_clients/gongu-ci-1649/sources/official-zip-batch6-20261010/cd8b5912c4b4472b72e4.png?v=cd8b5912c4b4472b72e4",
+    "status": 200,
+    "sha256": "cd8b5912c4b4472b72e49af0bbf6d9d9ab92367f36dc01c54147446c137d4d1f",
+    "bytes": 39081
+  },
+  {
+    "id": "gongu-ci-1649",
+    "key": "_clients/gongu-ci-1649/sources/official-zip-batch6-20261010/2b6d607364f9dd16cc6e.svg",
+    "url": "https://logo.vibers.co.kr/_clients/gongu-ci-1649/sources/official-zip-batch6-20261010/2b6d607364f9dd16cc6e.svg?v=2b6d607364f9dd16cc6e",
+    "status": 200,
+    "sha256": "2b6d607364f9dd16cc6eaf4983f03b542f5e0c65a8f60ff7a8e3ff4f72a14da3",
+    "bytes": 10008
+  },
+  {
+    "id": "gongu-ci-1649",
+    "key": "_clients/gongu-ci-1649/sources/official-zip-batch6-20261010/8a8f9f969c8081c17632.png",
+    "url": "https://logo.vibers.co.kr/_clients/gongu-ci-1649/sources/official-zip-batch6-20261010/8a8f9f969c8081c17632.png?v=8a8f9f969c8081c17632",
+    "status": 200,
+    "sha256": "8a8f9f969c8081c17632d06a2d7211331141be45b0574dd7d7badb6b446dd05c",
+    "bytes": 57387
+  },
+  {
+    "id": "gongu-ci-1649",
+    "key": "_clients/gongu-ci-1649/sources/official-zip-batch6-20261010/370ade49e128be95b16c.svg",
+    "url": "https://logo.vibers.co.kr/_clients/gongu-ci-1649/sources/official-zip-batch6-20261010/370ade49e128be95b16c.svg?v=370ade49e128be95b16c",
+    "status": 200,
+    "sha256": "370ade49e128be95b16c7a7084e84bc26e59e9c7713ba49676f37d8fa370be05",
+    "bytes": 12882
+  },
+  {
+    "id": "gongu-ci-1649",
+    "key": "_clients/gongu-ci-1649/sources/official-zip-batch6-20261010/50a5e5bcdf606721b25a.png",
+    "url": "https://logo.vibers.co.kr/_clients/gongu-ci-1649/sources/official-zip-batch6-20261010/50a5e5bcdf606721b25a.png?v=50a5e5bcdf606721b25a",
+    "status": 200,
+    "sha256": "50a5e5bcdf606721b25a5d28dc789478aa99b682fdca29eced91749452fea4d7",
+    "bytes": 67620
+  },
+  {
+    "id": "gongu-ci-1635",
+    "key": "_clients/gongu-ci-1635/sources/official-zip-batch6-20261010/e14fa329e993264e3d1f.svg",
+    "url": "https://logo.vibers.co.kr/_clients/gongu-ci-1635/sources/official-zip-batch6-20261010/e14fa329e993264e3d1f.svg?v=e14fa329e993264e3d1f",
+    "status": 200,
+    "sha256": "e14fa329e993264e3d1f84ef823bd6e4b3d4bd89aab0fb7d8244c2f71b960f9b",
+    "bytes": 1594
+  },
+  {
+    "id": "gongu-ci-1635",
+    "key": "_clients/gongu-ci-1635/sources/official-zip-batch6-20261010/e7d657eef8a39d34d19e.ai",
+    "url": "https://logo.vibers.co.kr/_clients/gongu-ci-1635/sources/official-zip-batch6-20261010/e7d657eef8a39d34d19e.ai?v=e7d657eef8a39d34d19e",
+    "status": 200,
+    "sha256": "e7d657eef8a39d34d19e3a46cc32a15958642ab53e42ff3d14a138cba30904a7",
+    "bytes": 1048365
+  },
+  {
+    "id": "gongu-ci-1635",
+    "key": "_clients/gongu-ci-1635/sources/official-zip-batch6-20261010/c5677fb96ae719c71453.zip",
+    "url": "https://logo.vibers.co.kr/_clients/gongu-ci-1635/sources/official-zip-batch6-20261010/c5677fb96ae719c71453.zip?v=c5677fb96ae719c71453",
+    "status": 200,
+    "sha256": "c5677fb96ae719c71453f0529ec4734ed5130a25e93cadb87e6395fce5c62553",
+    "bytes": 995667
+  },
+  {
+    "id": "gongu-ci-1635",
+    "key": "_clients/gongu-ci-1635/sources/official-zip-batch6-20261010/8c535bf18bb0e777ec18.png",
+    "url": "https://logo.vibers.co.kr/_clients/gongu-ci-1635/sources/official-zip-batch6-20261010/8c535bf18bb0e777ec18.png?v=8c535bf18bb0e777ec18",
+    "status": 200,
+    "sha256": "8c535bf18bb0e777ec1840baa4967a1d81e9ce38cbc91387758b14a68a1d1763",
+    "bytes": 61975
+  },
+  {
+    "id": "gongu-ci-1635",
+    "key": "_clients/gongu-ci-1635/sources/official-zip-batch6-20261010/cc155bef9732092e1073.ai",
+    "url": "https://logo.vibers.co.kr/_clients/gongu-ci-1635/sources/official-zip-batch6-20261010/cc155bef9732092e1073.ai?v=cc155bef9732092e1073",
+    "status": 200,
+    "sha256": "cc155bef9732092e1073b78aa51dc3febacfc0c647a465c2dfc3cb12da9aef22",
+    "bytes": 1273091
+  },
+  {
+    "id": "gongu-ci-1635",
+    "key": "_clients/gongu-ci-1635/sources/official-zip-batch6-20261010/73cbebb3d2ec344e16e9.svg",
+    "url": "https://logo.vibers.co.kr/_clients/gongu-ci-1635/sources/official-zip-batch6-20261010/73cbebb3d2ec344e16e9.svg?v=73cbebb3d2ec344e16e9",
+    "status": 200,
+    "sha256": "73cbebb3d2ec344e16e9180a72a53136901e63d395ad471bc3033052e8f82dfb",
+    "bytes": 6640
+  },
+  {
+    "id": "gongu-ci-1620",
+    "key": "_clients/gongu-ci-1620/sources/official-zip-batch6-20261010/0f7c214eba801231651f.ai",
+    "url": "https://logo.vibers.co.kr/_clients/gongu-ci-1620/sources/official-zip-batch6-20261010/0f7c214eba801231651f.ai?v=0f7c214eba801231651f",
+    "status": 200,
+    "sha256": "0f7c214eba801231651fe1ba239ac4a9f85104859c3dcf4431d0b4a9c9451408",
+    "bytes": 197719
+  },
+  {
+    "id": "gongu-ci-1620",
+    "key": "_clients/gongu-ci-1620/sources/official-zip-batch6-20261010/2dfd0b30be756508e318.zip",
+    "url": "https://logo.vibers.co.kr/_clients/gongu-ci-1620/sources/official-zip-batch6-20261010/2dfd0b30be756508e318.zip?v=2dfd0b30be756508e318",
+    "status": 200,
+    "sha256": "2dfd0b30be756508e31878a11c205061ec226777d22a0c60df94fe19f4a14cf9",
+    "bytes": 187103
+  },
+  {
+    "id": "gongu-ci-1620",
+    "key": "_clients/gongu-ci-1620/sources/official-zip-batch6-20261010/621eab2b2299ae916ed0.svg",
+    "url": "https://logo.vibers.co.kr/_clients/gongu-ci-1620/sources/official-zip-batch6-20261010/621eab2b2299ae916ed0.svg?v=621eab2b2299ae916ed0",
+    "status": 200,
+    "sha256": "621eab2b2299ae916ed0ceaaeb01072eb051ad2fa7f7db7b152713c293cbdd8f",
+    "bytes": 8807
+  },
+  {
+    "id": "gongu-ci-1620",
+    "key": "_clients/gongu-ci-1620/sources/official-zip-batch6-20261010/d5c2ff81c1dcd03dd60a.png",
+    "url": "https://logo.vibers.co.kr/_clients/gongu-ci-1620/sources/official-zip-batch6-20261010/d5c2ff81c1dcd03dd60a.png?v=d5c2ff81c1dcd03dd60a",
+    "status": 200,
+    "sha256": "d5c2ff81c1dcd03dd60a27d0d8ce8e7694d252f1979d657871a484d42cd7ba7e",
+    "bytes": 50966
+  },
+  {
+    "id": "gongu-ci-1635",
+    "key": "_clients/gongu-ci-1635/sources/official-zip-batch6-20261010/eccd5281b20d77340aa1.png",
+    "url": "https://logo.vibers.co.kr/_clients/gongu-ci-1635/sources/official-zip-batch6-20261010/eccd5281b20d77340aa1.png?v=eccd5281b20d77340aa1",
+    "status": 200,
+    "sha256": "eccd5281b20d77340aa142f218e198ceac7036acc4d83fab1ee59c0bd863e448",
+    "bytes": 37737
+  },
+  {
+    "id": "gongu-ci-1635",
+    "key": "_clients/gongu-ci-1635/sources/official-zip-batch6-20261010/aa43990acd8a93480360.zip",
+    "url": "https://logo.vibers.co.kr/_clients/gongu-ci-1635/sources/official-zip-batch6-20261010/aa43990acd8a93480360.zip?v=aa43990acd8a93480360",
+    "status": 200,
+    "sha256": "aa43990acd8a93480360e475c1df19b1e777c9ca1076808f0896fe9caca38020",
+    "bytes": 1231145
+  }
+]

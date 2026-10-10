@@ -20,3 +20,10 @@ assert.equal(sorting.sortForGrid(fixtures,'recent')[0].id,'old');
 assert.equal(sorting.sortForGrid(fixtures,'recent').at(-1).id,'cleanup');
 assert.equal(sorting.sortForGrid(fixtures,'fame',{import:100,old:1})[0].id,'import');
 console.log('PASS new version leads latest; cosmetic edits do not bump; real popularity wins');
+
+const boosted=[{id:'naver-blog',has_svg:true,discovery_boost:100},{id:'other',has_svg:true}];
+const measured={other:50};
+assert.equal(sorting.sortForGrid(boosted,'fame',measured)[0].id,'naver-blog');
+assert.equal(measured.other,50);
+assert.equal(sorting.sortForGrid(boosted,'fame',{other:200})[0].id,'other');
+console.log('PASS explicit discovery boost leaves measured traffic unchanged');
