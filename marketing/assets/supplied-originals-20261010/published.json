@@ -1,5 +1,7 @@
 {
   "objects": 8,
   "patched": 8,
-  "status": "all-bytes-verified"
+  "status": "cdn-200-bytehash-verified-and-manifests-preserved",
+  "cdn_verified": 8,
+  "source_files": 21
 }
