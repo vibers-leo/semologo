@@ -627,6 +627,7 @@ function BrandCard({ brand, onClick, priority, bgVote }: { brand: Brand; onClick
           <div className="card-meta">
             <span className="card-category truncate">{t(brand.category || "기타")}</span>
             <span className="card-tags">
+              {Number(brand.variants_n) > 1 && <span className="card-tag" style={{ background: "#ede9fe", color: "#6d28d9" }} title={en ? "Available logo variations" : "선택할 수 있는 로고 구성"}>{en ? `${brand.variants_n} variants` : `구성 ${brand.variants_n}종`}</span>}
               {hasSvg && <span className="card-tag tag-svg">SVG</span>}
               {hasPng && <span className="card-tag tag-png">PNG</span>}
             </span>

@@ -1,0 +1,1549 @@
+[
+  {
+    "id": "zapier",
+    "color": "original",
+    "key": "figma-better-original",
+    "visual_review": "approved",
+    "transparent": true,
+    "vector_only": true,
+    "png_dimensions": [
+      2000,
+      915
+    ],
+    "raster_original_preserved": false
+  },
+  {
+    "id": "zapier",
+    "color": "white",
+    "key": "figma-better-white",
+    "visual_review": "approved",
+    "transparent": true,
+    "vector_only": true,
+    "png_dimensions": [
+      2000,
+      915
+    ],
+    "raster_original_preserved": false
+  },
+  {
+    "id": "zapier",
+    "color": "black",
+    "key": "figma-better-black",
+    "visual_review": "approved",
+    "transparent": true,
+    "vector_only": true,
+    "png_dimensions": [
+      2000,
+      915
+    ],
+    "raster_original_preserved": false
+  },
+  {
+    "id": "wework",
+    "color": "original",
+    "key": "figma-better-original",
+    "visual_review": "approved",
+    "transparent": true,
+    "vector_only": true,
+    "png_dimensions": [
+      2000,
+      428
+    ],
+    "raster_original_preserved": false
+  },
+  {
+    "id": "wework",
+    "color": "white",
+    "key": "figma-better-white",
+    "visual_review": "approved",
+    "transparent": true,
+    "vector_only": true,
+    "png_dimensions": [
+      2000,
+      428
+    ],
+    "raster_original_preserved": false
+  },
+  {
+    "id": "wetransfer",
+    "color": "original",
+    "key": "figma-better-original",
+    "visual_review": "approved",
+    "transparent": true,
+    "vector_only": true,
+    "png_dimensions": [
+      2000,
+      280
+    ],
+    "raster_original_preserved": false
+  },
+  {
+    "id": "wetransfer",
+    "color": "white",
+    "key": "figma-better-white",
+    "visual_review": "approved",
+    "transparent": true,
+    "vector_only": true,
+    "png_dimensions": [
+      2000,
+      280
+    ],
+    "raster_original_preserved": false
+  },
+  {
+    "id": "wetransfer",
+    "color": "black",
+    "key": "figma-better-black",
+    "visual_review": "approved",
+    "transparent": true,
+    "vector_only": true,
+    "png_dimensions": [
+      2000,
+      280
+    ],
+    "raster_original_preserved": false
+  },
+  {
+    "id": "webflow",
+    "color": "original",
+    "key": "figma-better-original",
+    "visual_review": "approved",
+    "transparent": true,
+    "vector_only": true,
+    "png_dimensions": [
+      2000,
+      503
+    ],
+    "raster_original_preserved": false
+  },
+  {
+    "id": "webflow",
+    "color": "white",
+    "key": "figma-better-white",
+    "visual_review": "approved",
+    "transparent": true,
+    "vector_only": true,
+    "png_dimensions": [
+      2000,
+      503
+    ],
+    "raster_original_preserved": false
+  },
+  {
+    "id": "webflow",
+    "color": "black",
+    "key": "figma-better-black",
+    "visual_review": "approved",
+    "transparent": true,
+    "vector_only": true,
+    "png_dimensions": [
+      2000,
+      503
+    ],
+    "raster_original_preserved": false
+  },
+  {
+    "id": "walgreens",
+    "color": "original",
+    "key": "figma-better-original",
+    "visual_review": "approved",
+    "transparent": true,
+    "vector_only": true,
+    "png_dimensions": [
+      2000,
+      414
+    ],
+    "raster_original_preserved": false
+  },
+  {
+    "id": "walgreens",
+    "color": "white",
+    "key": "figma-better-white",
+    "visual_review": "approved",
+    "transparent": true,
+    "vector_only": true,
+    "png_dimensions": [
+      2000,
+      414
+    ],
+    "raster_original_preserved": false
+  },
+  {
+    "id": "walgreens",
+    "color": "black",
+    "key": "figma-better-black",
+    "visual_review": "approved",
+    "transparent": true,
+    "vector_only": true,
+    "png_dimensions": [
+      2000,
+      414
+    ],
+    "raster_original_preserved": false
+  },
+  {
+    "id": "verizon",
+    "color": "original",
+    "key": "figma-better-original",
+    "visual_review": "approved",
+    "transparent": true,
+    "vector_only": true,
+    "png_dimensions": [
+      2000,
+      443
+    ],
+    "raster_original_preserved": false
+  },
+  {
+    "id": "the-verge",
+    "color": "original",
+    "key": "figma-better-original",
+    "visual_review": "approved",
+    "transparent": true,
+    "vector_only": true,
+    "png_dimensions": [
+      2000,
+      339
+    ],
+    "raster_original_preserved": false
+  },
+  {
+    "id": "the-verge",
+    "color": "white",
+    "key": "figma-better-white",
+    "visual_review": "approved",
+    "transparent": true,
+    "vector_only": true,
+    "png_dimensions": [
+      2000,
+      339
+    ],
+    "raster_original_preserved": false
+  },
+  {
+    "id": "the-verge",
+    "color": "black",
+    "key": "figma-better-black",
+    "visual_review": "approved",
+    "transparent": true,
+    "vector_only": true,
+    "png_dimensions": [
+      2000,
+      339
+    ],
+    "raster_original_preserved": false
+  },
+  {
+    "id": "the-new-york-times",
+    "color": "black",
+    "key": "figma-better-black",
+    "visual_review": "approved",
+    "transparent": true,
+    "vector_only": true,
+    "png_dimensions": [
+      2000,
+      263
+    ],
+    "raster_original_preserved": false
+  },
+  {
+    "id": "target",
+    "color": "original",
+    "key": "figma-better-original",
+    "visual_review": "approved",
+    "transparent": true,
+    "vector_only": true,
+    "png_dimensions": [
+      1583,
+      2016
+    ],
+    "raster_original_preserved": false
+  },
+  {
+    "id": "target",
+    "color": "white",
+    "key": "figma-better-white",
+    "visual_review": "approved",
+    "transparent": true,
+    "vector_only": true,
+    "png_dimensions": [
+      1583,
+      2016
+    ],
+    "raster_original_preserved": false
+  },
+  {
+    "id": "target",
+    "color": "black",
+    "key": "figma-better-black",
+    "visual_review": "approved",
+    "transparent": true,
+    "vector_only": true,
+    "png_dimensions": [
+      1583,
+      2016
+    ],
+    "raster_original_preserved": false
+  },
+  {
+    "id": "square",
+    "color": "original",
+    "key": "figma-better-original",
+    "visual_review": "approved",
+    "transparent": true,
+    "vector_only": true,
+    "png_dimensions": [
+      2000,
+      501
+    ],
+    "raster_original_preserved": false
+  },
+  {
+    "id": "spacex",
+    "color": "original",
+    "key": "figma-better-original",
+    "visual_review": "approved",
+    "transparent": true,
+    "vector_only": true,
+    "png_dimensions": [
+      2000,
+      246
+    ],
+    "raster_original_preserved": false
+  },
+  {
+    "id": "spacex",
+    "color": "white",
+    "key": "figma-better-white",
+    "visual_review": "approved",
+    "transparent": true,
+    "vector_only": true,
+    "png_dimensions": [
+      2000,
+      246
+    ],
+    "raster_original_preserved": false
+  },
+  {
+    "id": "spacex",
+    "color": "black",
+    "key": "figma-better-black",
+    "visual_review": "approved",
+    "transparent": true,
+    "vector_only": true,
+    "png_dimensions": [
+      2000,
+      246
+    ],
+    "raster_original_preserved": false
+  },
+  {
+    "id": "softbank",
+    "color": "original",
+    "key": "figma-better-original",
+    "visual_review": "approved",
+    "transparent": true,
+    "vector_only": true,
+    "png_dimensions": [
+      2000,
+      295
+    ],
+    "raster_original_preserved": false
+  },
+  {
+    "id": "softbank",
+    "color": "white",
+    "key": "figma-better-white",
+    "visual_review": "approved",
+    "transparent": true,
+    "vector_only": true,
+    "png_dimensions": [
+      2000,
+      295
+    ],
+    "raster_original_preserved": false
+  },
+  {
+    "id": "softbank",
+    "color": "black",
+    "key": "figma-better-black",
+    "visual_review": "approved",
+    "transparent": true,
+    "vector_only": true,
+    "png_dimensions": [
+      2000,
+      295
+    ],
+    "raster_original_preserved": false
+  },
+  {
+    "id": "sketch",
+    "color": "original",
+    "key": "figma-better-original",
+    "visual_review": "approved",
+    "transparent": true,
+    "vector_only": true,
+    "png_dimensions": [
+      2000,
+      480
+    ],
+    "raster_original_preserved": false
+  },
+  {
+    "id": "sketch",
+    "color": "white",
+    "key": "figma-better-white",
+    "visual_review": "approved",
+    "transparent": true,
+    "vector_only": true,
+    "png_dimensions": [
+      2000,
+      480
+    ],
+    "raster_original_preserved": false
+  },
+  {
+    "id": "sketch",
+    "color": "black",
+    "key": "figma-better-black",
+    "visual_review": "approved",
+    "transparent": true,
+    "vector_only": true,
+    "png_dimensions": [
+      2000,
+      480
+    ],
+    "raster_original_preserved": false
+  },
+  {
+    "id": "sap",
+    "color": "original",
+    "key": "figma-better-original",
+    "visual_review": "approved",
+    "transparent": true,
+    "vector_only": true,
+    "png_dimensions": [
+      2000,
+      989
+    ],
+    "raster_original_preserved": false
+  },
+  {
+    "id": "sap",
+    "color": "white",
+    "key": "figma-better-white",
+    "visual_review": "approved",
+    "transparent": true,
+    "vector_only": true,
+    "png_dimensions": [
+      2000,
+      989
+    ],
+    "raster_original_preserved": false
+  },
+  {
+    "id": "sap",
+    "color": "black",
+    "key": "figma-better-black",
+    "visual_review": "approved",
+    "transparent": true,
+    "vector_only": true,
+    "png_dimensions": [
+      2000,
+      989
+    ],
+    "raster_original_preserved": false
+  },
+  {
+    "id": "qualcomm",
+    "color": "original",
+    "key": "figma-better-original",
+    "visual_review": "approved",
+    "transparent": true,
+    "vector_only": true,
+    "png_dimensions": [
+      2000,
+      367
+    ],
+    "raster_original_preserved": false
+  },
+  {
+    "id": "pwc",
+    "color": "original",
+    "key": "figma-better-original",
+    "visual_review": "approved",
+    "transparent": true,
+    "vector_only": true,
+    "png_dimensions": [
+      2000,
+      1504
+    ],
+    "raster_original_preserved": false
+  },
+  {
+    "id": "pwc",
+    "color": "white",
+    "key": "figma-better-white",
+    "visual_review": "approved",
+    "transparent": true,
+    "vector_only": true,
+    "png_dimensions": [
+      2000,
+      1504
+    ],
+    "raster_original_preserved": false
+  },
+  {
+    "id": "pwc",
+    "color": "black",
+    "key": "figma-better-black",
+    "visual_review": "approved",
+    "transparent": true,
+    "vector_only": true,
+    "png_dimensions": [
+      2000,
+      1504
+    ],
+    "raster_original_preserved": false
+  },
+  {
+    "id": "polaroid",
+    "color": "original",
+    "key": "figma-better-original",
+    "visual_review": "approved",
+    "transparent": true,
+    "vector_only": true,
+    "png_dimensions": [
+      2000,
+      624
+    ],
+    "raster_original_preserved": false
+  },
+  {
+    "id": "polaroid",
+    "color": "white",
+    "key": "figma-better-white",
+    "visual_review": "approved",
+    "transparent": true,
+    "vector_only": true,
+    "png_dimensions": [
+      2000,
+      418
+    ],
+    "raster_original_preserved": false
+  },
+  {
+    "id": "polaroid",
+    "color": "black",
+    "key": "figma-better-black",
+    "visual_review": "approved",
+    "transparent": true,
+    "vector_only": true,
+    "png_dimensions": [
+      2000,
+      418
+    ],
+    "raster_original_preserved": false
+  },
+  {
+    "id": "picsart",
+    "color": "original",
+    "key": "figma-better-original",
+    "visual_review": "approved",
+    "transparent": true,
+    "vector_only": true,
+    "png_dimensions": [
+      2000,
+      463
+    ],
+    "raster_original_preserved": false
+  },
+  {
+    "id": "picsart",
+    "color": "white",
+    "key": "figma-better-white",
+    "visual_review": "approved",
+    "transparent": true,
+    "vector_only": true,
+    "png_dimensions": [
+      2000,
+      463
+    ],
+    "raster_original_preserved": false
+  },
+  {
+    "id": "picsart",
+    "color": "black",
+    "key": "figma-better-black",
+    "visual_review": "approved",
+    "transparent": true,
+    "vector_only": true,
+    "png_dimensions": [
+      2000,
+      463
+    ],
+    "raster_original_preserved": false
+  },
+  {
+    "id": "patreon",
+    "color": "original",
+    "key": "figma-better-original",
+    "visual_review": "approved",
+    "transparent": true,
+    "vector_only": true,
+    "png_dimensions": [
+      2000,
+      278
+    ],
+    "raster_original_preserved": false
+  },
+  {
+    "id": "patreon",
+    "color": "white",
+    "key": "figma-better-white",
+    "visual_review": "approved",
+    "transparent": true,
+    "vector_only": true,
+    "png_dimensions": [
+      2000,
+      278
+    ],
+    "raster_original_preserved": false
+  },
+  {
+    "id": "patreon",
+    "color": "black",
+    "key": "figma-better-black",
+    "visual_review": "approved",
+    "transparent": true,
+    "vector_only": true,
+    "png_dimensions": [
+      2000,
+      278
+    ],
+    "raster_original_preserved": false
+  },
+  {
+    "id": "palantir",
+    "color": "original",
+    "key": "figma-better-original",
+    "visual_review": "approved",
+    "transparent": true,
+    "vector_only": true,
+    "png_dimensions": [
+      2000,
+      490
+    ],
+    "raster_original_preserved": false
+  },
+  {
+    "id": "palantir",
+    "color": "white",
+    "key": "figma-better-white",
+    "visual_review": "approved",
+    "transparent": true,
+    "vector_only": true,
+    "png_dimensions": [
+      2000,
+      490
+    ],
+    "raster_original_preserved": false
+  },
+  {
+    "id": "nvidia",
+    "color": "original",
+    "key": "figma-better-original",
+    "visual_review": "approved",
+    "transparent": true,
+    "vector_only": true,
+    "png_dimensions": [
+      2000,
+      380
+    ],
+    "raster_original_preserved": false
+  },
+  {
+    "id": "mozilla",
+    "color": "white",
+    "key": "figma-better-white",
+    "visual_review": "approved",
+    "transparent": true,
+    "vector_only": true,
+    "png_dimensions": [
+      2000,
+      440
+    ],
+    "raster_original_preserved": false
+  },
+  {
+    "id": "mozilla",
+    "color": "black",
+    "key": "figma-better-black",
+    "visual_review": "approved",
+    "transparent": true,
+    "vector_only": true,
+    "png_dimensions": [
+      2000,
+      440
+    ],
+    "raster_original_preserved": false
+  },
+  {
+    "id": "morganstanley",
+    "color": "original",
+    "key": "figma-better-original",
+    "visual_review": "approved",
+    "transparent": true,
+    "vector_only": true,
+    "png_dimensions": [
+      2000,
+      295
+    ],
+    "raster_original_preserved": false
+  },
+  {
+    "id": "morganstanley",
+    "color": "white",
+    "key": "figma-better-white",
+    "visual_review": "approved",
+    "transparent": true,
+    "vector_only": true,
+    "png_dimensions": [
+      2000,
+      295
+    ],
+    "raster_original_preserved": false
+  },
+  {
+    "id": "morganstanley",
+    "color": "black",
+    "key": "figma-better-black",
+    "visual_review": "approved",
+    "transparent": true,
+    "vector_only": true,
+    "png_dimensions": [
+      2000,
+      295
+    ],
+    "raster_original_preserved": false
+  },
+  {
+    "id": "metlife",
+    "color": "original",
+    "key": "figma-better-original",
+    "visual_review": "approved",
+    "transparent": true,
+    "vector_only": true,
+    "png_dimensions": [
+      2000,
+      430
+    ],
+    "raster_original_preserved": false
+  },
+  {
+    "id": "metlife",
+    "color": "white",
+    "key": "figma-better-white",
+    "visual_review": "approved",
+    "transparent": true,
+    "vector_only": true,
+    "png_dimensions": [
+      2000,
+      430
+    ],
+    "raster_original_preserved": false
+  },
+  {
+    "id": "metlife",
+    "color": "black",
+    "key": "figma-better-black",
+    "visual_review": "approved",
+    "transparent": true,
+    "vector_only": true,
+    "png_dimensions": [
+      2000,
+      430
+    ],
+    "raster_original_preserved": false
+  },
+  {
+    "id": "magic-leap",
+    "color": "original",
+    "key": "figma-better-original",
+    "visual_review": "approved",
+    "transparent": true,
+    "vector_only": true,
+    "png_dimensions": [
+      2000,
+      307
+    ],
+    "raster_original_preserved": false
+  },
+  {
+    "id": "magic-leap",
+    "color": "white",
+    "key": "figma-better-white",
+    "visual_review": "approved",
+    "transparent": true,
+    "vector_only": true,
+    "png_dimensions": [
+      2000,
+      307
+    ],
+    "raster_original_preserved": false
+  },
+  {
+    "id": "magic-leap",
+    "color": "black",
+    "key": "figma-better-black",
+    "visual_review": "approved",
+    "transparent": true,
+    "vector_only": true,
+    "png_dimensions": [
+      2000,
+      307
+    ],
+    "raster_original_preserved": false
+  },
+  {
+    "id": "lyft",
+    "color": "original",
+    "key": "figma-better-original",
+    "visual_review": "approved",
+    "transparent": true,
+    "vector_only": true,
+    "png_dimensions": [
+      2000,
+      1416
+    ],
+    "raster_original_preserved": false
+  },
+  {
+    "id": "lyft",
+    "color": "white",
+    "key": "figma-better-white",
+    "visual_review": "approved",
+    "transparent": true,
+    "vector_only": true,
+    "png_dimensions": [
+      2000,
+      1416
+    ],
+    "raster_original_preserved": false
+  },
+  {
+    "id": "logitech",
+    "color": "original",
+    "key": "figma-better-original",
+    "visual_review": "approved",
+    "transparent": true,
+    "vector_only": true,
+    "png_dimensions": [
+      2000,
+      607
+    ],
+    "raster_original_preserved": false
+  },
+  {
+    "id": "logitech",
+    "color": "white",
+    "key": "figma-better-white",
+    "visual_review": "approved",
+    "transparent": true,
+    "vector_only": true,
+    "png_dimensions": [
+      2000,
+      607
+    ],
+    "raster_original_preserved": false
+  },
+  {
+    "id": "kpmg",
+    "color": "original",
+    "key": "figma-better-original",
+    "visual_review": "approved",
+    "transparent": true,
+    "vector_only": true,
+    "png_dimensions": [
+      2000,
+      796
+    ],
+    "raster_original_preserved": false
+  },
+  {
+    "id": "kpmg",
+    "color": "white",
+    "key": "figma-better-white",
+    "visual_review": "approved",
+    "transparent": true,
+    "vector_only": true,
+    "png_dimensions": [
+      2000,
+      796
+    ],
+    "raster_original_preserved": false
+  },
+  {
+    "id": "kpmg",
+    "color": "black",
+    "key": "figma-better-black",
+    "visual_review": "approved",
+    "transparent": true,
+    "vector_only": true,
+    "png_dimensions": [
+      2000,
+      796
+    ],
+    "raster_original_preserved": false
+  },
+  {
+    "id": "klarna",
+    "color": "original",
+    "key": "figma-better-original",
+    "visual_review": "approved",
+    "transparent": true,
+    "vector_only": true,
+    "png_dimensions": [
+      2000,
+      446
+    ],
+    "raster_original_preserved": false
+  },
+  {
+    "id": "klarna",
+    "color": "white",
+    "key": "figma-better-white",
+    "visual_review": "approved",
+    "transparent": true,
+    "vector_only": true,
+    "png_dimensions": [
+      2000,
+      446
+    ],
+    "raster_original_preserved": false
+  },
+  {
+    "id": "klarna",
+    "color": "black",
+    "key": "figma-better-black",
+    "visual_review": "approved",
+    "transparent": true,
+    "vector_only": true,
+    "png_dimensions": [
+      2000,
+      446
+    ],
+    "raster_original_preserved": false
+  },
+  {
+    "id": "honeywell",
+    "color": "original",
+    "key": "figma-better-original",
+    "visual_review": "approved",
+    "transparent": true,
+    "vector_only": true,
+    "png_dimensions": [
+      2000,
+      354
+    ],
+    "raster_original_preserved": false
+  },
+  {
+    "id": "honeywell",
+    "color": "white",
+    "key": "figma-better-white",
+    "visual_review": "approved",
+    "transparent": true,
+    "vector_only": true,
+    "png_dimensions": [
+      2000,
+      354
+    ],
+    "raster_original_preserved": false
+  },
+  {
+    "id": "honeywell",
+    "color": "black",
+    "key": "figma-better-black",
+    "visual_review": "approved",
+    "transparent": true,
+    "vector_only": true,
+    "png_dimensions": [
+      2000,
+      354
+    ],
+    "raster_original_preserved": false
+  },
+  {
+    "id": "gusto",
+    "color": "original",
+    "key": "figma-better-original",
+    "visual_review": "approved",
+    "transparent": true,
+    "vector_only": true,
+    "png_dimensions": [
+      2000,
+      761
+    ],
+    "raster_original_preserved": false
+  },
+  {
+    "id": "gusto",
+    "color": "white",
+    "key": "figma-better-white",
+    "visual_review": "approved",
+    "transparent": true,
+    "vector_only": true,
+    "png_dimensions": [
+      2000,
+      761
+    ],
+    "raster_original_preserved": false
+  },
+  {
+    "id": "gusto",
+    "color": "black",
+    "key": "figma-better-black",
+    "visual_review": "approved",
+    "transparent": true,
+    "vector_only": true,
+    "png_dimensions": [
+      2000,
+      761
+    ],
+    "raster_original_preserved": false
+  },
+  {
+    "id": "genentech",
+    "color": "original",
+    "key": "figma-better-original",
+    "visual_review": "approved",
+    "transparent": true,
+    "vector_only": true,
+    "png_dimensions": [
+      2000,
+      284
+    ],
+    "raster_original_preserved": false
+  },
+  {
+    "id": "genentech",
+    "color": "white",
+    "key": "figma-better-white",
+    "visual_review": "approved",
+    "transparent": true,
+    "vector_only": true,
+    "png_dimensions": [
+      2000,
+      284
+    ],
+    "raster_original_preserved": false
+  },
+  {
+    "id": "genentech",
+    "color": "black",
+    "key": "figma-better-black",
+    "visual_review": "approved",
+    "transparent": true,
+    "vector_only": true,
+    "png_dimensions": [
+      2000,
+      284
+    ],
+    "raster_original_preserved": false
+  },
+  {
+    "id": "fortune",
+    "color": "original",
+    "key": "figma-better-original",
+    "visual_review": "approved",
+    "transparent": true,
+    "vector_only": true,
+    "png_dimensions": [
+      2000,
+      464
+    ],
+    "raster_original_preserved": false
+  },
+  {
+    "id": "fortune",
+    "color": "white",
+    "key": "figma-better-white",
+    "visual_review": "approved",
+    "transparent": true,
+    "vector_only": true,
+    "png_dimensions": [
+      2000,
+      464
+    ],
+    "raster_original_preserved": false
+  },
+  {
+    "id": "fortune",
+    "color": "black",
+    "key": "figma-better-black",
+    "visual_review": "approved",
+    "transparent": true,
+    "vector_only": true,
+    "png_dimensions": [
+      2000,
+      464
+    ],
+    "raster_original_preserved": false
+  },
+  {
+    "id": "forbes",
+    "color": "original",
+    "key": "figma-better-original",
+    "visual_review": "approved",
+    "transparent": true,
+    "vector_only": true,
+    "png_dimensions": [
+      2000,
+      523
+    ],
+    "raster_original_preserved": false
+  },
+  {
+    "id": "forbes",
+    "color": "white",
+    "key": "figma-better-white",
+    "visual_review": "approved",
+    "transparent": true,
+    "vector_only": true,
+    "png_dimensions": [
+      2000,
+      523
+    ],
+    "raster_original_preserved": false
+  },
+  {
+    "id": "forbes",
+    "color": "black",
+    "key": "figma-better-black",
+    "visual_review": "approved",
+    "transparent": true,
+    "vector_only": true,
+    "png_dimensions": [
+      2000,
+      523
+    ],
+    "raster_original_preserved": false
+  },
+  {
+    "id": "flexport",
+    "color": "original",
+    "key": "figma-better-original",
+    "visual_review": "approved",
+    "transparent": true,
+    "vector_only": true,
+    "png_dimensions": [
+      2000,
+      451
+    ],
+    "raster_original_preserved": false
+  },
+  {
+    "id": "flexport",
+    "color": "white",
+    "key": "figma-better-white",
+    "visual_review": "approved",
+    "transparent": true,
+    "vector_only": true,
+    "png_dimensions": [
+      2000,
+      451
+    ],
+    "raster_original_preserved": false
+  },
+  {
+    "id": "flexport",
+    "color": "black",
+    "key": "figma-better-black",
+    "visual_review": "approved",
+    "transparent": true,
+    "vector_only": true,
+    "png_dimensions": [
+      2000,
+      451
+    ],
+    "raster_original_preserved": false
+  },
+  {
+    "id": "ey",
+    "color": "original",
+    "key": "figma-better-original",
+    "visual_review": "approved",
+    "transparent": true,
+    "vector_only": true,
+    "png_dimensions": [
+      2000,
+      973
+    ],
+    "raster_original_preserved": false
+  },
+  {
+    "id": "ey",
+    "color": "white",
+    "key": "figma-better-white",
+    "visual_review": "approved",
+    "transparent": true,
+    "vector_only": true,
+    "png_dimensions": [
+      2000,
+      973
+    ],
+    "raster_original_preserved": false
+  },
+  {
+    "id": "ey",
+    "color": "black",
+    "key": "figma-better-black",
+    "visual_review": "approved",
+    "transparent": true,
+    "vector_only": true,
+    "png_dimensions": [
+      2000,
+      973
+    ],
+    "raster_original_preserved": false
+  },
+  {
+    "id": "etsy",
+    "color": "original",
+    "key": "figma-better-original",
+    "visual_review": "approved",
+    "transparent": true,
+    "vector_only": true,
+    "png_dimensions": [
+      2000,
+      949
+    ],
+    "raster_original_preserved": false
+  },
+  {
+    "id": "etsy",
+    "color": "white",
+    "key": "figma-better-white",
+    "visual_review": "approved",
+    "transparent": true,
+    "vector_only": true,
+    "png_dimensions": [
+      2000,
+      949
+    ],
+    "raster_original_preserved": false
+  },
+  {
+    "id": "duolingo",
+    "color": "original",
+    "key": "figma-better-original",
+    "visual_review": "approved",
+    "transparent": true,
+    "vector_only": true,
+    "png_dimensions": [
+      2000,
+      461
+    ],
+    "raster_original_preserved": false
+  },
+  {
+    "id": "dollar-tree",
+    "color": "original",
+    "key": "figma-better-original",
+    "visual_review": "approved",
+    "transparent": true,
+    "vector_only": true,
+    "png_dimensions": [
+      2000,
+      208
+    ],
+    "raster_original_preserved": false
+  },
+  {
+    "id": "dollar-tree",
+    "color": "white",
+    "key": "figma-better-white",
+    "visual_review": "approved",
+    "transparent": true,
+    "vector_only": true,
+    "png_dimensions": [
+      2000,
+      208
+    ],
+    "raster_original_preserved": false
+  },
+  {
+    "id": "dollar-tree",
+    "color": "black",
+    "key": "figma-better-black",
+    "visual_review": "approved",
+    "transparent": true,
+    "vector_only": true,
+    "png_dimensions": [
+      2000,
+      208
+    ],
+    "raster_original_preserved": false
+  },
+  {
+    "id": "deloitte",
+    "color": "original",
+    "key": "figma-better-original",
+    "visual_review": "approved",
+    "transparent": true,
+    "vector_only": true,
+    "png_dimensions": [
+      2000,
+      374
+    ],
+    "raster_original_preserved": false
+  },
+  {
+    "id": "deloitte",
+    "color": "white",
+    "key": "figma-better-white",
+    "visual_review": "approved",
+    "transparent": true,
+    "vector_only": true,
+    "png_dimensions": [
+      2000,
+      374
+    ],
+    "raster_original_preserved": false
+  },
+  {
+    "id": "deloitte",
+    "color": "black",
+    "key": "figma-better-black",
+    "visual_review": "approved",
+    "transparent": true,
+    "vector_only": true,
+    "png_dimensions": [
+      2000,
+      374
+    ],
+    "raster_original_preserved": false
+  },
+  {
+    "id": "convertkit",
+    "color": "original",
+    "key": "figma-better-original",
+    "visual_review": "approved",
+    "transparent": true,
+    "vector_only": true,
+    "png_dimensions": [
+      2000,
+      399
+    ],
+    "raster_original_preserved": false
+  },
+  {
+    "id": "convertkit",
+    "color": "white",
+    "key": "figma-better-white",
+    "visual_review": "approved",
+    "transparent": true,
+    "vector_only": true,
+    "png_dimensions": [
+      2000,
+      399
+    ],
+    "raster_original_preserved": false
+  },
+  {
+    "id": "convertkit",
+    "color": "black",
+    "key": "figma-better-black",
+    "visual_review": "approved",
+    "transparent": true,
+    "vector_only": true,
+    "png_dimensions": [
+      2000,
+      399
+    ],
+    "raster_original_preserved": false
+  },
+  {
+    "id": "citi",
+    "color": "original",
+    "key": "figma-better-original",
+    "visual_review": "approved",
+    "transparent": true,
+    "vector_only": true,
+    "png_dimensions": [
+      2000,
+      1290
+    ],
+    "raster_original_preserved": false
+  },
+  {
+    "id": "citi",
+    "color": "white",
+    "key": "figma-better-white",
+    "visual_review": "approved",
+    "transparent": true,
+    "vector_only": true,
+    "png_dimensions": [
+      2000,
+      1290
+    ],
+    "raster_original_preserved": false
+  },
+  {
+    "id": "citi",
+    "color": "black",
+    "key": "figma-better-black",
+    "visual_review": "approved",
+    "transparent": true,
+    "vector_only": true,
+    "png_dimensions": [
+      2000,
+      1290
+    ],
+    "raster_original_preserved": false
+  },
+  {
+    "id": "circleci",
+    "color": "original",
+    "key": "figma-better-original",
+    "visual_review": "approved",
+    "transparent": true,
+    "vector_only": true,
+    "png_dimensions": [
+      2000,
+      418
+    ],
+    "raster_original_preserved": false
+  },
+  {
+    "id": "circleci",
+    "color": "white",
+    "key": "figma-better-white",
+    "visual_review": "approved",
+    "transparent": true,
+    "vector_only": true,
+    "png_dimensions": [
+      2000,
+      418
+    ],
+    "raster_original_preserved": false
+  },
+  {
+    "id": "circleci",
+    "color": "black",
+    "key": "figma-better-black",
+    "visual_review": "approved",
+    "transparent": true,
+    "vector_only": true,
+    "png_dimensions": [
+      2000,
+      418
+    ],
+    "raster_original_preserved": false
+  },
+  {
+    "id": "bumble",
+    "color": "original",
+    "key": "figma-better-original",
+    "visual_review": "approved",
+    "transparent": true,
+    "vector_only": true,
+    "png_dimensions": [
+      2000,
+      322
+    ],
+    "raster_original_preserved": false
+  },
+  {
+    "id": "bumble",
+    "color": "white",
+    "key": "figma-better-white",
+    "visual_review": "approved",
+    "transparent": true,
+    "vector_only": true,
+    "png_dimensions": [
+      2000,
+      322
+    ],
+    "raster_original_preserved": false
+  },
+  {
+    "id": "bumble",
+    "color": "black",
+    "key": "figma-better-black",
+    "visual_review": "approved",
+    "transparent": true,
+    "vector_only": true,
+    "png_dimensions": [
+      2000,
+      322
+    ],
+    "raster_original_preserved": false
+  },
+  {
+    "id": "accenture",
+    "color": "original",
+    "key": "figma-better-original",
+    "visual_review": "approved",
+    "transparent": true,
+    "vector_only": true,
+    "png_dimensions": [
+      2000,
+      526
+    ],
+    "raster_original_preserved": false
+  },
+  {
+    "id": "square",
+    "color": "white",
+    "key": "figma-better-white",
+    "visual_review": "approved",
+    "transparent": true,
+    "vector_only": false,
+    "png_dimensions": [
+      576,
+      144
+    ],
+    "raster_original_preserved": true
+  },
+  {
+    "id": "square",
+    "color": "black",
+    "key": "figma-better-black",
+    "visual_review": "approved",
+    "transparent": true,
+    "vector_only": false,
+    "png_dimensions": [
+      1152,
+      288
+    ],
+    "raster_original_preserved": true
+  },
+  {
+    "id": "lyft",
+    "color": "black",
+    "key": "figma-better-black",
+    "visual_review": "approved",
+    "transparent": true,
+    "vector_only": false,
+    "png_dimensions": [
+      611,
+      432
+    ],
+    "raster_original_preserved": true
+  },
+  {
+    "id": "etsy",
+    "color": "black",
+    "key": "figma-better-black",
+    "visual_review": "approved",
+    "transparent": true,
+    "vector_only": false,
+    "png_dimensions": [
+      908,
+      432
+    ],
+    "raster_original_preserved": true
+  }
+]

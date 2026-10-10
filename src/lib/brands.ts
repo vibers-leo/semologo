@@ -56,6 +56,7 @@ export interface Brand {
   brand_manual?: string;
   /** 공식 배포처가 제공한 원본 ZIP 자산 */
   source_zip?: string;
+  source_ai?: string;
   official_zip_url?: string;
   /** Official files collected into our own archive; distinct from an official distribution ZIP. */
   collected_originals_url?: string;
@@ -260,7 +261,7 @@ export interface VariantRecord {
   lang: "ko" | "en" | "none" | "unknown";
   color: string;
   label: string;
-  files: { svg?: string; png?: string };
+  files: { svg?: string; png?: string; ai?: string; pdf?: string; zip?: string };
   /** Optional lightweight preview and untouched PNG, owned by this brand. */
   preview_png?: string;
   original_png?: string;

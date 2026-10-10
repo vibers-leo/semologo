@@ -1,0 +1,387 @@
+{
+  "patches": {
+    "amc-design": {
+      "variants_n": 1,
+      "presentation": {
+        "file": "sources/representative-votes-20261010/c11bfaf7e1e4983bcd69.png",
+        "bg": "dark"
+      }
+    },
+    "big-hit-music": {
+      "variants_n": 1,
+      "presentation": {
+        "file": "sources/representative-votes-20261010/ec36ded642df44445f00.png",
+        "bg": "light"
+      }
+    },
+    "cj": {
+      "variants_n": 1,
+      "presentation": {
+        "file": "sources/representative-votes-20261010/d0b7d1233a344f0f8179.png",
+        "bg": "light"
+      }
+    },
+    "google-cloud": {
+      "variants_n": 4,
+      "presentation": {
+        "file": "sources/representative-votes-20261010/53bc63edf3ce6a5ade60.png",
+        "bg": "light"
+      }
+    },
+    "google-gemini-icon": {
+      "variants_n": 3,
+      "presentation": {
+        "file": "sources/representative-votes-20261010/45691e9a6679c731b1b7.png",
+        "bg": "light"
+      }
+    },
+    "kr-fsc": {
+      "variants_n": 1,
+      "presentation": {
+        "file": "sources/representative-votes-20261010/2f21c2da563d8fb6ed64.png",
+        "bg": "light"
+      }
+    },
+    "kr-kftc": {
+      "variants_n": 5,
+      "presentation": {
+        "file": "sources/representative-votes-20261010/30f62b92fa06d3108b76.png",
+        "bg": "light"
+      }
+    },
+    "ottogi": {
+      "variants_n": 1,
+      "presentation": {
+        "file": "sources/representative-votes-20261010/d154d6d0da7c5fab06da.png",
+        "bg": "light"
+      }
+    }
+  },
+  "variants": {
+    "amc-design": {
+      "schema": 1,
+      "id": "amc-design",
+      "primary": "representative-vote-c11bfaf7e1e4",
+      "variants": [
+        {
+          "key": "representative-vote-c11bfaf7e1e4",
+          "label": "대표 추천 검수 · 검정 배경용",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "mono-light",
+          "files": {
+            "png": "sources/representative-votes-20261010/c11bfaf7e1e4983bcd69.png"
+          },
+          "origin": "derived",
+          "provider": "기존 수집본 · 대표 추천 검수",
+          "order": 100,
+          "derived_from": "logo.png"
+        }
+      ]
+    },
+    "big-hit-music": {
+      "schema": 1,
+      "id": "big-hit-music",
+      "primary": "representative-vote-ec36ded642df",
+      "variants": [
+        {
+          "key": "representative-vote-ec36ded642df",
+          "label": "대표 추천 검수본",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "png": "sources/representative-votes-20261010/ec36ded642df44445f00.png"
+          },
+          "origin": "collected",
+          "provider": "기존 수집본 · 대표 추천 검수",
+          "order": 100,
+          "derived_from": "logo-transparent.png"
+        }
+      ]
+    },
+    "cj": {
+      "schema": 1,
+      "id": "cj",
+      "primary": "representative-vote-d0b7d1233a34",
+      "variants": [
+        {
+          "key": "representative-vote-d0b7d1233a34",
+          "label": "대표 추천 검수본",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "png": "sources/representative-votes-20261010/d0b7d1233a344f0f8179.png"
+          },
+          "origin": "collected",
+          "provider": "기존 수집본 · 대표 추천 검수",
+          "order": 100,
+          "derived_from": "logo-transparent.png"
+        }
+      ]
+    },
+    "google-cloud": {
+      "id": "google-cloud",
+      "algo_v": 1,
+      "schema": 1,
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "symbol",
+          "lang": "none",
+          "color": "original",
+          "files": {
+            "png": "sources/reviewed-transparent-20261009/af66d3a93bd8c33c.png",
+            "svg": "sources/reviewed-transparent-20261009/af66d3a93bd8c33c.svg"
+          },
+          "label": "컬러 심볼마크",
+          "order": 0,
+          "origin": "derived",
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성"
+        },
+        {
+          "key": "horizontal",
+          "form": "horizontal",
+          "lang": "unknown",
+          "color": "color",
+          "files": {
+            "svg": "sources/vlz/wide.svg"
+          },
+          "label": "가로조합형",
+          "order": 10,
+          "aspect": 2.116,
+          "origin": "collected",
+          "provider": "vectorlogozone"
+        },
+        {
+          "key": "symbol",
+          "form": "symbol",
+          "lang": "en",
+          "color": "blue",
+          "files": {
+            "png": "sources/reviewed-transparent-20261009/eb848405c6a1ed56.png",
+            "svg": "sources/reviewed-transparent-20261009/eb848405c6a1ed56.svg"
+          },
+          "label": "블루 심볼마크",
+          "order": 20,
+          "aspect": 1.247,
+          "origin": "collected",
+          "provider": "simple-icons"
+        },
+        {
+          "key": "representative-vote-53bc63edf3ce",
+          "label": "대표 추천 검수본",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "png": "sources/representative-votes-20261010/53bc63edf3ce6a5ade60.png"
+          },
+          "origin": "collected",
+          "provider": "기존 수집본 · 대표 추천 검수",
+          "order": 100,
+          "derived_from": "logo-transparent.png"
+        }
+      ],
+      "fingerprint": {
+        "logo.svg": "dab446c7c8b9c401",
+        "sources/vlz/wide.svg": "450fac7a136467f4"
+      }
+    },
+    "google-gemini-icon": {
+      "id": "google-gemini-icon",
+      "algo_v": 1,
+      "schema": 1,
+      "primary": "symbol",
+      "variants": [
+        {
+          "key": "horizontal",
+          "form": "horizontal",
+          "lang": "unknown",
+          "color": "color",
+          "files": {
+            "svg": "sources/gilbarbara/full.svg"
+          },
+          "label": "가로조합형",
+          "order": 10,
+          "aspect": 2.727,
+          "origin": "collected",
+          "provider": "gilbarbara"
+        },
+        {
+          "key": "symbol",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "color",
+          "files": {
+            "png": "sources/reviewed-requested-background-20261009/logo.png",
+            "svg": "sources/reviewed-requested-background-20261009/logo.svg"
+          },
+          "label": "심볼형",
+          "order": 30,
+          "aspect": 1,
+          "origin": "collected",
+          "provider": "unknown"
+        },
+        {
+          "key": "representative-vote-45691e9a6679",
+          "label": "대표 추천 검수본",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "png": "sources/representative-votes-20261010/45691e9a6679c731b1b7.png",
+            "svg": "sources/gilbarbara/full.svg"
+          },
+          "origin": "derived",
+          "provider": "기존 수집본 · 대표 추천 검수",
+          "order": 100,
+          "derived_from": "sources/gilbarbara/full.svg"
+        }
+      ],
+      "fingerprint": {
+        "logo.svg": "54b5a6d623d8bada",
+        "sources/gilbarbara/full.svg": "042e6f0f0aa74e3b"
+      }
+    },
+    "kr-fsc": {
+      "schema": 1,
+      "id": "kr-fsc",
+      "primary": "representative-vote-2f21c2da563d",
+      "variants": [
+        {
+          "key": "representative-vote-2f21c2da563d",
+          "label": "대표 추천 검수본",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "png": "sources/representative-votes-20261010/2f21c2da563d8fb6ed64.png",
+            "svg": "sources/wikimedia/logo.svg"
+          },
+          "origin": "derived",
+          "provider": "기존 수집본 · 대표 추천 검수",
+          "order": 100,
+          "derived_from": "sources/wikimedia/logo.svg"
+        }
+      ]
+    },
+    "kr-kftc": {
+      "id": "kr-kftc",
+      "algo_v": 1,
+      "schema": 1,
+      "primary": "wordmark",
+      "variants": [
+        {
+          "key": "horizontal",
+          "form": "vertical",
+          "lang": "ko",
+          "color": "color",
+          "files": {
+            "png": "sources/ftc-png-20261010/9147775c697df3fe.png",
+            "svg": "sources/wikimedia/logo.svg"
+          },
+          "label": "국문 상하조합",
+          "order": 10,
+          "aspect": 1.324,
+          "lockup": "vertical",
+          "origin": "collected",
+          "provider": "wikimedia",
+          "text_layout": "ko"
+        },
+        {
+          "key": "wordmark",
+          "form": "horizontal",
+          "lang": "en",
+          "color": "color",
+          "files": {
+            "png": "sources/ftc-png-20261010/15f3d83ec12931a0.png",
+            "svg": "logo.svg"
+          },
+          "label": "영문 좌우조합 · 투명",
+          "order": 10,
+          "aspect": 5.143,
+          "lockup": "horizontal",
+          "origin": "collected",
+          "provider": "wikimedia-commons",
+          "text_layout": "en"
+        },
+        {
+          "key": "symbol",
+          "form": "symbol",
+          "lang": "none",
+          "color": "color",
+          "files": {
+            "png": "sources/ftc-png-20261010/8af430c237781fa1.png",
+            "svg": "variants/symbol.svg"
+          },
+          "label": "심볼만",
+          "order": 30,
+          "aspect": null,
+          "origin": "derived",
+          "provider": "derived:autocrop",
+          "confidence": 1,
+          "derived_from": "logo.svg"
+        },
+        {
+          "key": "english-white-background",
+          "form": "horizontal",
+          "lang": "en",
+          "color": "color",
+          "files": {
+            "png": "logo-800.png"
+          },
+          "label": "영문 좌우조합 · 흰 배경 원본",
+          "order": 40,
+          "aspect": 5.143,
+          "lockup": "horizontal",
+          "origin": "collected",
+          "provider": "wikimedia-commons",
+          "text_layout": "en"
+        },
+        {
+          "key": "representative-vote-30f62b92fa06",
+          "label": "대표 추천 검수본",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "png": "sources/representative-votes-20261010/30f62b92fa06d3108b76.png",
+            "svg": "sources/wikimedia/logo.svg"
+          },
+          "origin": "derived",
+          "provider": "기존 수집본 · 대표 추천 검수",
+          "order": 100,
+          "derived_from": "sources/wikimedia/logo.svg"
+        }
+      ],
+      "fingerprint": {
+        "logo.svg": "486ffb6bf3627cac",
+        "sources/wikimedia/logo.svg": "ba39cd396b318848"
+      }
+    },
+    "ottogi": {
+      "schema": 1,
+      "id": "ottogi",
+      "primary": "representative-vote-d154d6d0da7c",
+      "variants": [
+        {
+          "key": "representative-vote-d154d6d0da7c",
+          "label": "대표 추천 검수본",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "png": "sources/representative-votes-20261010/d154d6d0da7c5fab06da.png"
+          },
+          "origin": "collected",
+          "provider": "기존 수집본 · 대표 추천 검수",
+          "order": 100,
+          "derived_from": "logo.png"
+        }
+      ]
+    }
+  }
+}

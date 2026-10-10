@@ -1,0 +1,572 @@
+[
+  {
+    "id": "kmcc",
+    "file": "marketing/assets/official-institutions-request-20261010/release/kmcc/official-mi-1.svg",
+    "key": "_clients/kmcc/sources/official-identities-20261010/d0572130c3dbd09a.svg",
+    "sha256": "d0572130c3dbd09a04aef3a453565d1093e24b3d9749cada459b361b19e70515"
+  },
+  {
+    "id": "kmcc",
+    "file": "marketing/assets/official-institutions-request-20261010/release/kmcc/official-mi-1.png",
+    "key": "_clients/kmcc/sources/official-identities-20261010/a76212f6d7d19449.png",
+    "sha256": "a76212f6d7d1944936b278285b997862faa21360d70cdc94a3ed31b8b260d89a"
+  },
+  {
+    "id": "kmcc",
+    "file": "marketing/assets/official-institutions-request-20261010/release/kmcc/official-mi-1-preview.png",
+    "key": "_clients/kmcc/sources/official-identities-20261010/ee52f4b5a8ecfe9c.png",
+    "sha256": "ee52f4b5a8ecfe9c4c8142c23a510145382a4fdf07fb76958ca9e7be3ac0e04b"
+  },
+  {
+    "id": "kmcc",
+    "file": "marketing/assets/official-institutions-request-20261010/release/kmcc/official-mi-2.svg",
+    "key": "_clients/kmcc/sources/official-identities-20261010/4cccfc31b7aa3647.svg",
+    "sha256": "4cccfc31b7aa36471e4805df3e455dd2b4242809c0bcff51014e78fb89c81e40"
+  },
+  {
+    "id": "kmcc",
+    "file": "marketing/assets/official-institutions-request-20261010/release/kmcc/official-mi-2.png",
+    "key": "_clients/kmcc/sources/official-identities-20261010/f57d5feca183054a.png",
+    "sha256": "f57d5feca183054ab19b4fa89271b93213d99a60ac09b65b8e8a145af7bd64f3"
+  },
+  {
+    "id": "kmcc",
+    "file": "marketing/assets/official-institutions-request-20261010/release/kmcc/official-mi-2-preview.png",
+    "key": "_clients/kmcc/sources/official-identities-20261010/119ebd5c866591c3.png",
+    "sha256": "119ebd5c866591c3adb917778a8c8c8181d8240ce12efa194e9707ea85c9e8ee"
+  },
+  {
+    "id": "kmcc",
+    "file": "marketing/assets/official-institutions-request-20261010/release/kmcc/official-mi-3.svg",
+    "key": "_clients/kmcc/sources/official-identities-20261010/a5a938a69d93c199.svg",
+    "sha256": "a5a938a69d93c199cfbf9419cd5ad7c1db4bf0d99a4d408dd4e17bf1fbf9b414"
+  },
+  {
+    "id": "kmcc",
+    "file": "marketing/assets/official-institutions-request-20261010/release/kmcc/official-mi-3.png",
+    "key": "_clients/kmcc/sources/official-identities-20261010/0e7c80cc8f7062f3.png",
+    "sha256": "0e7c80cc8f7062f3a1ea53f80b31902f90e336ee35f5bc36d2a5b8cf762d535f"
+  },
+  {
+    "id": "kmcc",
+    "file": "marketing/assets/official-institutions-request-20261010/release/kmcc/official-mi-3-preview.png",
+    "key": "_clients/kmcc/sources/official-identities-20261010/79c0440cccfcbc48.png",
+    "sha256": "79c0440cccfcbc48c26b9a527742701b8172414514a2ce449c2f50fad938af1d"
+  },
+  {
+    "id": "kmcc",
+    "file": "marketing/assets/official-institutions-request-20261010/release/kmcc/official-mi-4.svg",
+    "key": "_clients/kmcc/sources/official-identities-20261010/9266a0efd2145606.svg",
+    "sha256": "9266a0efd2145606d0d663f80b2a6741f02960154126346f5a2aff70d5a105a8"
+  },
+  {
+    "id": "kmcc",
+    "file": "marketing/assets/official-institutions-request-20261010/release/kmcc/official-mi-4.png",
+    "key": "_clients/kmcc/sources/official-identities-20261010/13452b9c5a94840d.png",
+    "sha256": "13452b9c5a94840db223b7db62b174558a590f58534c716bb93719029c22c27f"
+  },
+  {
+    "id": "kmcc",
+    "file": "marketing/assets/official-institutions-request-20261010/release/kmcc/official-mi-4-preview.png",
+    "key": "_clients/kmcc/sources/official-identities-20261010/46d5ed00179e7d87.png",
+    "sha256": "46d5ed00179e7d875bc4121b3209b4052ff2cd2c0408855d886325b54b7d1e39"
+  },
+  {
+    "id": "kmcc",
+    "file": "marketing/assets/official-institutions-request-20261010/release/kmcc/official-mi-5.svg",
+    "key": "_clients/kmcc/sources/official-identities-20261010/cdfd2797d81814e8.svg",
+    "sha256": "cdfd2797d81814e8ec5924a5c84ce03a532cf0a58e0f441f2274dfc0a849e5b4"
+  },
+  {
+    "id": "kmcc",
+    "file": "marketing/assets/official-institutions-request-20261010/release/kmcc/official-mi-5.png",
+    "key": "_clients/kmcc/sources/official-identities-20261010/b68167ab0b2066ab.png",
+    "sha256": "b68167ab0b2066ab379f7ffa02ab51e27366175594e62c9303bdba7b03ca8001"
+  },
+  {
+    "id": "kmcc",
+    "file": "marketing/assets/official-institutions-request-20261010/release/kmcc/official-mi-5-preview.png",
+    "key": "_clients/kmcc/sources/official-identities-20261010/a44fd42bf3049fe1.png",
+    "sha256": "a44fd42bf3049fe145a611252e248b1d56d80e297c6be241252ea31cd5e7e4c9"
+  },
+  {
+    "id": "kmcc",
+    "file": "marketing/assets/official-institutions-request-20261010/release/kmcc/official-mi-6.svg",
+    "key": "_clients/kmcc/sources/official-identities-20261010/83557da185b27531.svg",
+    "sha256": "83557da185b27531dbd658cf648afd7810dc6ab7fc58f11985282739ec379c79"
+  },
+  {
+    "id": "kmcc",
+    "file": "marketing/assets/official-institutions-request-20261010/release/kmcc/official-mi-6.png",
+    "key": "_clients/kmcc/sources/official-identities-20261010/57cdb19505c23db4.png",
+    "sha256": "57cdb19505c23db4eaf70a5f8936e663eeac54ca982334d519f65d8221a05c5a"
+  },
+  {
+    "id": "kmcc",
+    "file": "marketing/assets/official-institutions-request-20261010/release/kmcc/official-mi-6-preview.png",
+    "key": "_clients/kmcc/sources/official-identities-20261010/12a68935f6762a0a.png",
+    "sha256": "12a68935f6762a0acbaab9cba9883e1028b63d5477e437549a0feb4fbdc64ca5"
+  },
+  {
+    "id": "kmcc",
+    "file": "marketing/assets/official-institutions-request-20261010/release/kmcc/official-mi-7.svg",
+    "key": "_clients/kmcc/sources/official-identities-20261010/7120a155f049bbe9.svg",
+    "sha256": "7120a155f049bbe95efd689f75384ae1caec1808ede5e2341e498c0250e1a37e"
+  },
+  {
+    "id": "kmcc",
+    "file": "marketing/assets/official-institutions-request-20261010/release/kmcc/official-mi-7.png",
+    "key": "_clients/kmcc/sources/official-identities-20261010/0a26e568c97d4861.png",
+    "sha256": "0a26e568c97d4861950cf60a8069177b2c101921365401fed66b24af97aeecef"
+  },
+  {
+    "id": "kmcc",
+    "file": "marketing/assets/official-institutions-request-20261010/release/kmcc/official-mi-7-preview.png",
+    "key": "_clients/kmcc/sources/official-identities-20261010/945fe03a5222525c.png",
+    "sha256": "945fe03a5222525cddc854a9d685799bad6da885808230dc60d5a3eca4692fee"
+  },
+  {
+    "id": "kmcc",
+    "file": "marketing/assets/official-institutions-request-20261010/release/kmcc/official-mi-8.svg",
+    "key": "_clients/kmcc/sources/official-identities-20261010/a576d88739d371bc.svg",
+    "sha256": "a576d88739d371bc99abb287609ca2b527df58791155ccbfab2565b1c6c8935b"
+  },
+  {
+    "id": "kmcc",
+    "file": "marketing/assets/official-institutions-request-20261010/release/kmcc/official-mi-8.png",
+    "key": "_clients/kmcc/sources/official-identities-20261010/0d2ad1eb64b91d20.png",
+    "sha256": "0d2ad1eb64b91d2023d97d28aab1614e7e7ef37994092a5f44bd6df557db957c"
+  },
+  {
+    "id": "kmcc",
+    "file": "marketing/assets/official-institutions-request-20261010/release/kmcc/official-mi-8-preview.png",
+    "key": "_clients/kmcc/sources/official-identities-20261010/102d3b7068384b08.png",
+    "sha256": "102d3b7068384b0890dd1a791db0be83582e10e81e4e4181ce5165e470971271"
+  },
+  {
+    "id": "kmcc",
+    "file": "marketing/assets/official-institutions-request-20261010/release/kmcc/official-mi-9.svg",
+    "key": "_clients/kmcc/sources/official-identities-20261010/9afc741b954fa416.svg",
+    "sha256": "9afc741b954fa41612862bea3c41bd8f83a68d0a26033ff1008a7ff112d43e4e"
+  },
+  {
+    "id": "kmcc",
+    "file": "marketing/assets/official-institutions-request-20261010/release/kmcc/official-mi-9.png",
+    "key": "_clients/kmcc/sources/official-identities-20261010/b38720c58673a695.png",
+    "sha256": "b38720c58673a6958b0e2c5dafe4d52745bd5ecacafa8082b1e275c5273d3f0e"
+  },
+  {
+    "id": "kmcc",
+    "file": "marketing/assets/official-institutions-request-20261010/release/kmcc/official-mi-9-preview.png",
+    "key": "_clients/kmcc/sources/official-identities-20261010/14d77565a51f7ade.png",
+    "sha256": "14d77565a51f7ade8869fd176d81fe17d8d5ddd2b610278855df55fa7a0de7c1"
+  },
+  {
+    "id": "kmcc",
+    "file": "marketing/assets/official-institutions-request-20261010/release/kmcc/official-mi-10.svg",
+    "key": "_clients/kmcc/sources/official-identities-20261010/a5196ed0feccbee4.svg",
+    "sha256": "a5196ed0feccbee4129733a1e05a718aa4bf9b4f6bfa62a811b0f8c1396d4513"
+  },
+  {
+    "id": "kmcc",
+    "file": "marketing/assets/official-institutions-request-20261010/release/kmcc/official-mi-10.png",
+    "key": "_clients/kmcc/sources/official-identities-20261010/4fbc6a0d3171ef94.png",
+    "sha256": "4fbc6a0d3171ef94ae9d601ee8c8fd2078e93a90a39f144d2d6b3bc765e2c4fb"
+  },
+  {
+    "id": "kmcc",
+    "file": "marketing/assets/official-institutions-request-20261010/release/kmcc/official-mi-10-preview.png",
+    "key": "_clients/kmcc/sources/official-identities-20261010/13288a2d63976a51.png",
+    "sha256": "13288a2d63976a513d3a728f8616fd7318bfd5ae149ee41799f011016a7937ff"
+  },
+  {
+    "id": "engkrihs",
+    "file": "marketing/assets/official-institutions-request-20261010/release/engkrihs/official-ci_2-1.svg",
+    "key": "_clients/engkrihs/sources/official-identities-20261010/444df1e174002edf.svg",
+    "sha256": "444df1e174002edf7a9d7f6bcd3d23d68c682f0537aabad536e42799bc5b1392"
+  },
+  {
+    "id": "engkrihs",
+    "file": "marketing/assets/official-institutions-request-20261010/release/engkrihs/official-ci_2-1.png",
+    "key": "_clients/engkrihs/sources/official-identities-20261010/ddeef64b1ca693bd.png",
+    "sha256": "ddeef64b1ca693bd51763a2295b377532b12ac37535f83509ac287def917c3dd"
+  },
+  {
+    "id": "engkrihs",
+    "file": "marketing/assets/official-institutions-request-20261010/release/engkrihs/official-ci_2-1-preview.png",
+    "key": "_clients/engkrihs/sources/official-identities-20261010/ae5e06123739f3ab.png",
+    "sha256": "ae5e06123739f3ab59a58cbf56dbcc41581909fda2f319bb8d179e98ab31fe35"
+  },
+  {
+    "id": "engkrihs",
+    "file": "marketing/assets/official-institutions-request-20261010/release/engkrihs/official-ci_2-2.svg",
+    "key": "_clients/engkrihs/sources/official-identities-20261010/ef0fb32e8d2a3944.svg",
+    "sha256": "ef0fb32e8d2a3944de59edcd0ce2457051a859b49453eddda0f76ea5169db137"
+  },
+  {
+    "id": "engkrihs",
+    "file": "marketing/assets/official-institutions-request-20261010/release/engkrihs/official-ci_2-2.png",
+    "key": "_clients/engkrihs/sources/official-identities-20261010/02890441bb292050.png",
+    "sha256": "02890441bb2920507e1b578327c10a31d258f8637f95fa6be05840bff7faf9aa"
+  },
+  {
+    "id": "engkrihs",
+    "file": "marketing/assets/official-institutions-request-20261010/release/engkrihs/official-ci_2-2-preview.png",
+    "key": "_clients/engkrihs/sources/official-identities-20261010/7f318b6860fffc04.png",
+    "sha256": "7f318b6860fffc04ae35d535acfd89508c10189125fd31d0c764af54b47faddb"
+  },
+  {
+    "id": "engkrihs",
+    "file": "marketing/assets/official-institutions-request-20261010/release/engkrihs/official-ci_2-3.svg",
+    "key": "_clients/engkrihs/sources/official-identities-20261010/a5f204f2c2038159.svg",
+    "sha256": "a5f204f2c2038159520440de3bde1519349704fcb320558f78a49437a75414ab"
+  },
+  {
+    "id": "engkrihs",
+    "file": "marketing/assets/official-institutions-request-20261010/release/engkrihs/official-ci_2-3.png",
+    "key": "_clients/engkrihs/sources/official-identities-20261010/f123875abfe04672.png",
+    "sha256": "f123875abfe04672ac577f2a5203c49cdcc4ba672c65c1fbf2c5b7d55772dcf1"
+  },
+  {
+    "id": "engkrihs",
+    "file": "marketing/assets/official-institutions-request-20261010/release/engkrihs/official-ci_2-3-preview.png",
+    "key": "_clients/engkrihs/sources/official-identities-20261010/95c0ea83288d819b.png",
+    "sha256": "95c0ea83288d819b3ad5e3494d920250a1668613d78a04c2028bb237bccb9397"
+  },
+  {
+    "id": "engkrihs",
+    "file": "marketing/assets/official-institutions-request-20261010/release/engkrihs/official-ci_2-4.svg",
+    "key": "_clients/engkrihs/sources/official-identities-20261010/d50a442b4f3cd07e.svg",
+    "sha256": "d50a442b4f3cd07e9b0a97f004e3f412b8b2deec5e3dfb5a8fcd7377d746545e"
+  },
+  {
+    "id": "engkrihs",
+    "file": "marketing/assets/official-institutions-request-20261010/release/engkrihs/official-ci_2-4.png",
+    "key": "_clients/engkrihs/sources/official-identities-20261010/955fb726f7d327ec.png",
+    "sha256": "955fb726f7d327ececefc4c866bcc8bde6c515fe147de589d976c4d49a6ba75c"
+  },
+  {
+    "id": "engkrihs",
+    "file": "marketing/assets/official-institutions-request-20261010/release/engkrihs/official-ci_2-4-preview.png",
+    "key": "_clients/engkrihs/sources/official-identities-20261010/3aee00a2be9fda33.png",
+    "sha256": "3aee00a2be9fda33bb27c2e49c3775acaad56856d2820551f67ce673997b9c7d"
+  },
+  {
+    "id": "engkrihs",
+    "file": "marketing/assets/official-institutions-request-20261010/release/engkrihs/official-ci_3-1.svg",
+    "key": "_clients/engkrihs/sources/official-identities-20261010/d9ec724ef3b8530d.svg",
+    "sha256": "d9ec724ef3b8530d8e629ae30e4361956b6925240bccb3358a433ebf82cb006f"
+  },
+  {
+    "id": "engkrihs",
+    "file": "marketing/assets/official-institutions-request-20261010/release/engkrihs/official-ci_3-1.png",
+    "key": "_clients/engkrihs/sources/official-identities-20261010/2ae504e1adcb810b.png",
+    "sha256": "2ae504e1adcb810b4f6fd14b372e60715bfde4560f373258f250a0a57e0c6250"
+  },
+  {
+    "id": "engkrihs",
+    "file": "marketing/assets/official-institutions-request-20261010/release/engkrihs/official-ci_3-1-preview.png",
+    "key": "_clients/engkrihs/sources/official-identities-20261010/4ec16698dac6ca6e.png",
+    "sha256": "4ec16698dac6ca6e8b4171316e3e280871487a2bbe79b07b58cc28f17f480c52"
+  },
+  {
+    "id": "engkrihs",
+    "file": "marketing/assets/official-institutions-request-20261010/release/engkrihs/official-ci_3-2.svg",
+    "key": "_clients/engkrihs/sources/official-identities-20261010/6360db0f0038ef2b.svg",
+    "sha256": "6360db0f0038ef2b12c818c68cc86b5300dccc28e6341605f45cb2f72b1ff611"
+  },
+  {
+    "id": "engkrihs",
+    "file": "marketing/assets/official-institutions-request-20261010/release/engkrihs/official-ci_3-2.png",
+    "key": "_clients/engkrihs/sources/official-identities-20261010/8e024670325043c7.png",
+    "sha256": "8e024670325043c7d08328cb94a901db20a1e50036ce8692aba4f0a7d93b3b11"
+  },
+  {
+    "id": "engkrihs",
+    "file": "marketing/assets/official-institutions-request-20261010/release/engkrihs/official-ci_3-2-preview.png",
+    "key": "_clients/engkrihs/sources/official-identities-20261010/5c81c308870de3ca.png",
+    "sha256": "5c81c308870de3ca4eb2efe603bb5cb2d95d822c9f90976021d898ef74a225c4"
+  },
+  {
+    "id": "engkrihs",
+    "file": "marketing/assets/official-institutions-request-20261010/release/engkrihs/official-ci_3-3.svg",
+    "key": "_clients/engkrihs/sources/official-identities-20261010/e9a015baa6a8d6bf.svg",
+    "sha256": "e9a015baa6a8d6bf30b1e2c87789d0b4658ce38a014ce496714a1a53315195da"
+  },
+  {
+    "id": "engkrihs",
+    "file": "marketing/assets/official-institutions-request-20261010/release/engkrihs/official-ci_3-3.png",
+    "key": "_clients/engkrihs/sources/official-identities-20261010/8dbfa52370c588cf.png",
+    "sha256": "8dbfa52370c588cf67496787d941bfc883fbf9fd472c16f14d7f87eae77a7baa"
+  },
+  {
+    "id": "engkrihs",
+    "file": "marketing/assets/official-institutions-request-20261010/release/engkrihs/official-ci_3-3-preview.png",
+    "key": "_clients/engkrihs/sources/official-identities-20261010/3c704e78823cdba0.png",
+    "sha256": "3c704e78823cdba0dc14186eddbffd42d70094cd2d47feee62aeb0bf6235705f"
+  },
+  {
+    "id": "engkrihs",
+    "file": "marketing/assets/official-institutions-request-20261010/release/engkrihs/official-ci_3-4.svg",
+    "key": "_clients/engkrihs/sources/official-identities-20261010/9d051e7cdbfdfe95.svg",
+    "sha256": "9d051e7cdbfdfe959afad6d91d92a4705c2ee5a1e8b541e3b73e3dca3eab7a57"
+  },
+  {
+    "id": "engkrihs",
+    "file": "marketing/assets/official-institutions-request-20261010/release/engkrihs/official-ci_3-4.png",
+    "key": "_clients/engkrihs/sources/official-identities-20261010/1766b46a14a071a7.png",
+    "sha256": "1766b46a14a071a75c7ea4576606dce2192245a7391dce8f493867f27a102489"
+  },
+  {
+    "id": "engkrihs",
+    "file": "marketing/assets/official-institutions-request-20261010/release/engkrihs/official-ci_3-4-preview.png",
+    "key": "_clients/engkrihs/sources/official-identities-20261010/f1b7b782b1cd29e0.png",
+    "sha256": "f1b7b782b1cd29e0e806a2dcff44e968afdb415f93cbcb392a89909e0583e1d0"
+  },
+  {
+    "id": "engkrihs",
+    "file": "marketing/assets/official-institutions-request-20261010/release/engkrihs/official-ci_4-1.svg",
+    "key": "_clients/engkrihs/sources/official-identities-20261010/1a39dbf8d386a087.svg",
+    "sha256": "1a39dbf8d386a087f711035e54b0352c77d65eb713c9302bca64c538d4570fe7"
+  },
+  {
+    "id": "engkrihs",
+    "file": "marketing/assets/official-institutions-request-20261010/release/engkrihs/official-ci_4-1.png",
+    "key": "_clients/engkrihs/sources/official-identities-20261010/015a39d3e0a3aa6d.png",
+    "sha256": "015a39d3e0a3aa6da625566abc6b07593c467e2b71282a66a8936a492c2acbb4"
+  },
+  {
+    "id": "engkrihs",
+    "file": "marketing/assets/official-institutions-request-20261010/release/engkrihs/official-ci_4-1-preview.png",
+    "key": "_clients/engkrihs/sources/official-identities-20261010/4cfdc195995034d3.png",
+    "sha256": "4cfdc195995034d38145479ef3df9b2bed255d4d984f1914b203da2c2634bb36"
+  },
+  {
+    "id": "engkrihs",
+    "file": "marketing/assets/official-institutions-request-20261010/release/engkrihs/official-ci_4-2.svg",
+    "key": "_clients/engkrihs/sources/official-identities-20261010/fd982b5cd024c173.svg",
+    "sha256": "fd982b5cd024c1730fb0e64dbafc84e3f0b5168a151b0a7ca7ae7d7d2e15dfdb"
+  },
+  {
+    "id": "engkrihs",
+    "file": "marketing/assets/official-institutions-request-20261010/release/engkrihs/official-ci_4-2.png",
+    "key": "_clients/engkrihs/sources/official-identities-20261010/9a93d1d4eb383ad5.png",
+    "sha256": "9a93d1d4eb383ad5c1dfcf9c9312818ffdaef3c7ba889235a33127aeb265bb4d"
+  },
+  {
+    "id": "engkrihs",
+    "file": "marketing/assets/official-institutions-request-20261010/release/engkrihs/official-ci_4-2-preview.png",
+    "key": "_clients/engkrihs/sources/official-identities-20261010/35a30be9781a53ba.png",
+    "sha256": "35a30be9781a53bae3d0d6cf4a2d0028aa9e20745cbe122e7495ff783235b956"
+  },
+  {
+    "id": "engkrihs",
+    "file": "marketing/assets/official-institutions-request-20261010/release/engkrihs/official-ci_5-1.svg",
+    "key": "_clients/engkrihs/sources/official-identities-20261010/d17025749714d66e.svg",
+    "sha256": "d17025749714d66e2bd0b0a7b9ebdb6226488d9109bb38b30c6180137514f501"
+  },
+  {
+    "id": "engkrihs",
+    "file": "marketing/assets/official-institutions-request-20261010/release/engkrihs/official-ci_5-1.png",
+    "key": "_clients/engkrihs/sources/official-identities-20261010/2cd75f7c820055dc.png",
+    "sha256": "2cd75f7c820055dc38356a2b9f546c5870be99bb4504c25417e019fa2fb79ed5"
+  },
+  {
+    "id": "engkrihs",
+    "file": "marketing/assets/official-institutions-request-20261010/release/engkrihs/official-ci_5-1-preview.png",
+    "key": "_clients/engkrihs/sources/official-identities-20261010/c50be5c2988ad5c1.png",
+    "sha256": "c50be5c2988ad5c13eb9bb47cf7d06363a5c12d8a4376674ddd20342c1ac1395"
+  },
+  {
+    "id": "engkrihs",
+    "file": "marketing/assets/official-institutions-request-20261010/release/engkrihs/official-symbol.svg",
+    "key": "_clients/engkrihs/sources/official-identities-20261010/8d8a2d12fb67d2ad.svg",
+    "sha256": "8d8a2d12fb67d2adcbd79139bb2e34f80bd5f9d761310e3cbbbfe203f934d7cf"
+  },
+  {
+    "id": "engkrihs",
+    "file": "marketing/assets/official-institutions-request-20261010/release/engkrihs/official-symbol.png",
+    "key": "_clients/engkrihs/sources/official-identities-20261010/a9042a7747c4a77d.png",
+    "sha256": "a9042a7747c4a77d6af9c0ec682f1a62f26d7881ed2a479663bffb292a710114"
+  },
+  {
+    "id": "engkrihs",
+    "file": "marketing/assets/official-institutions-request-20261010/release/engkrihs/official-symbol-preview.png",
+    "key": "_clients/engkrihs/sources/official-identities-20261010/fc9153b6d2366cd0.png",
+    "sha256": "fc9153b6d2366cd035ab855928a8e553dec6513add029f24ac9bd9ef9cbc34c9"
+  },
+  {
+    "id": "kmcc",
+    "file": "marketing/assets/official-institutions-request-20261010/kmcc-originals.zip",
+    "key": "_clients/kmcc/sources/official-identities-20261010/e0a3e0ed486899e2.zip",
+    "sha256": "e0a3e0ed486899e210f6f6c272456e4341bea0accc594b91b3d1756e6c97024e"
+  },
+  {
+    "id": "engkrihs",
+    "file": "marketing/assets/official-institutions-request-20261010/krihs-originals.zip",
+    "key": "_clients/engkrihs/sources/official-identities-20261010/6230d1c561cdd54b.zip",
+    "sha256": "6230d1c561cdd54bae21c7d0713bd859cfc0cb21f9f4425081643cbefcbcf25b"
+  },
+  {
+    "id": "snuh",
+    "file": "marketing/assets/official-institutions-request-20261010/release/snuh/public-hi-1.png",
+    "key": "_clients/snuh/sources/official-identities-20261010/55bc8c81ff4c2da6.png",
+    "sha256": "55bc8c81ff4c2da60a35cdb676f5b4ae758c06d5a8e0795f6e88edd3739e26ee"
+  },
+  {
+    "id": "snuh",
+    "file": "marketing/assets/official-institutions-request-20261010/snuh-public/948ef660173d4b2883b5b4c28d3247b3.png",
+    "key": "_clients/snuh/sources/official-identities-20261010/287e2fc10d8a887e.png",
+    "sha256": "287e2fc10d8a887e51c3dbf6d82b414954dbbf16fca2b6381d2626dd2b34822f"
+  },
+  {
+    "id": "snuh",
+    "file": "marketing/assets/official-institutions-request-20261010/release/snuh/public-hi-2.png",
+    "key": "_clients/snuh/sources/official-identities-20261010/258dc481a2009701.png",
+    "sha256": "258dc481a2009701965b82fac9a7e2a5ca7345349fa3a3d48b94d4665e559471"
+  },
+  {
+    "id": "snuh",
+    "file": "marketing/assets/official-institutions-request-20261010/snuh-public/a590460517aa4c9a8d40f6dacc235e94.png",
+    "key": "_clients/snuh/sources/official-identities-20261010/b0fc0d3e913a4817.png",
+    "sha256": "b0fc0d3e913a4817dee6d17565b434c8e71c1744fb077b4f293922aea1fbffbe"
+  },
+  {
+    "id": "snuh",
+    "file": "marketing/assets/official-institutions-request-20261010/release/snuh/public-hi-3.png",
+    "key": "_clients/snuh/sources/official-identities-20261010/47476f916ddc70ff.png",
+    "sha256": "47476f916ddc70ff1cec68a07d5243ae0fb9a5a9403e2b6f01a7dc7624f05a9d"
+  },
+  {
+    "id": "snuh",
+    "file": "marketing/assets/official-institutions-request-20261010/snuh-public/0b4b20b7cee64a908541941109dda1d5.jpg",
+    "key": "_clients/snuh/sources/official-identities-20261010/ff57b3108e36cabb.jpg",
+    "sha256": "ff57b3108e36cabbfd752c1f9d3565a6492d3c204ecfe3b7d963ad7d99ab384f"
+  },
+  {
+    "id": "snuh",
+    "file": "marketing/assets/official-institutions-request-20261010/release/snuh/public-hi-4.png",
+    "key": "_clients/snuh/sources/official-identities-20261010/bfd2989c5258dd8e.png",
+    "sha256": "bfd2989c5258dd8e080b18a31a64d166ee1e1b309265da4b914c09c5ea555ddf"
+  },
+  {
+    "id": "snuh",
+    "file": "marketing/assets/official-institutions-request-20261010/snuh-public/74b14da720d24d53bf3c98ceac20b95a.jpg",
+    "key": "_clients/snuh/sources/official-identities-20261010/88b12f396448a6cc.jpg",
+    "sha256": "88b12f396448a6cc6920c7de769fe9a3b48843808f435ae039b2762c9c038847"
+  },
+  {
+    "id": "snuh",
+    "file": "marketing/assets/official-institutions-request-20261010/release/snuh/public-hi-5.png",
+    "key": "_clients/snuh/sources/official-identities-20261010/e318675c63ce5750.png",
+    "sha256": "e318675c63ce575089fd768efa9acb202257980bf8fd20c080e2b188b663e699"
+  },
+  {
+    "id": "snuh",
+    "file": "marketing/assets/official-institutions-request-20261010/snuh-public/4572bca4fb4246c6b603e5b312e83f97.png",
+    "key": "_clients/snuh/sources/official-identities-20261010/7e0de5345211053c.png",
+    "sha256": "7e0de5345211053ca26199603be763619a957914329e62998a382021ac9d2eb8"
+  },
+  {
+    "id": "snuh",
+    "file": "marketing/assets/official-institutions-request-20261010/release/snuh/public-hi-6.png",
+    "key": "_clients/snuh/sources/official-identities-20261010/b856e654eabad537.png",
+    "sha256": "b856e654eabad537c5edb71767a2ff72275b2a0537421f52ee39bc23ca580ad5"
+  },
+  {
+    "id": "snuh",
+    "file": "marketing/assets/official-institutions-request-20261010/snuh-public/1593d1b74ef0475c82d254ddfebca282.png",
+    "key": "_clients/snuh/sources/official-identities-20261010/86c4ac283b30ac62.png",
+    "sha256": "86c4ac283b30ac62a6a1151eb7c988b8cf34ba849bfa3022b5b6ca00587f53ed"
+  },
+  {
+    "id": "snuh",
+    "file": "marketing/assets/official-institutions-request-20261010/release/snuh/public-hi-7.png",
+    "key": "_clients/snuh/sources/official-identities-20261010/1c2a6cd31f7f3732.png",
+    "sha256": "1c2a6cd31f7f3732c74185143a4335bdc51412382713e6587ba072bb0c807e3b"
+  },
+  {
+    "id": "snuh",
+    "file": "marketing/assets/official-institutions-request-20261010/snuh-public/7a17e032a07040fba9ad4dce82c0fe0c.png",
+    "key": "_clients/snuh/sources/official-identities-20261010/266a00cd69520d18.png",
+    "sha256": "266a00cd69520d18d23b9f0e95b0dbb2537cb08a3b3ae73a7fd66c03254b5166"
+  },
+  {
+    "id": "snuh",
+    "file": "marketing/assets/official-institutions-request-20261010/release/snuh/public-hi-8.png",
+    "key": "_clients/snuh/sources/official-identities-20261010/208630ada8f82493.png",
+    "sha256": "208630ada8f824930cc664589faedbafadf8d5449d7f26c5995a50f5afbb55db"
+  },
+  {
+    "id": "snuh",
+    "file": "marketing/assets/official-institutions-request-20261010/snuh-public/f1f86ef4c69b4cf087ae3c7be8388633.png",
+    "key": "_clients/snuh/sources/official-identities-20261010/9191543b4d354141.png",
+    "sha256": "9191543b4d354141af45b7728523850a885b3bbf967bc646d2e0f8773fabfcd4"
+  },
+  {
+    "id": "snuh",
+    "file": "marketing/assets/official-institutions-request-20261010/release/snuh/public-hi-9.png",
+    "key": "_clients/snuh/sources/official-identities-20261010/f26cfdf5deb79b4f.png",
+    "sha256": "f26cfdf5deb79b4f5633c539d5f8819eb2dcdb65f33a9da1e41cf4eacf534174"
+  },
+  {
+    "id": "snuh",
+    "file": "marketing/assets/official-institutions-request-20261010/snuh-public/87876f7f4b6d4cd7be6347df345bfdc4.png",
+    "key": "_clients/snuh/sources/official-identities-20261010/b467cf5748d534d5.png",
+    "sha256": "b467cf5748d534d546426959e9640598a1873018c30b9b451ecf8849ffdc2264"
+  },
+  {
+    "id": "snuh",
+    "file": "marketing/assets/official-institutions-request-20261010/release/snuh/public-hi-10.png",
+    "key": "_clients/snuh/sources/official-identities-20261010/a452584aa60949cb.png",
+    "sha256": "a452584aa60949cbfb13b12c4624c744bf54e3c88cf4bf1b6a00b56614b87363"
+  },
+  {
+    "id": "snuh",
+    "file": "marketing/assets/official-institutions-request-20261010/snuh-public/1f3fcf3f8c914d1c949ead4856a39a06.png",
+    "key": "_clients/snuh/sources/official-identities-20261010/b49272c3998c5f52.png",
+    "sha256": "b49272c3998c5f527c763cf23d6d31df69da99e289bf85ba0bbf06fe57e36c34"
+  },
+  {
+    "id": "snuh",
+    "file": "marketing/assets/official-institutions-request-20261010/snuh-public-brochure-2020.pdf",
+    "key": "_clients/snuh/sources/official-identities-20261010/e000f210a666c960.pdf",
+    "sha256": "e000f210a666c960aaa7a15ed29a9987d62791be46685d65e8d057043552f4a3"
+  },
+  {
+    "id": "snuh",
+    "file": "marketing/assets/official-institutions-request-20261010/release/snuh/public-brochure-2020-horizontal.svg",
+    "key": "_clients/snuh/sources/official-identities-20261010/e9c09b913ebe2ee2.svg",
+    "sha256": "e9c09b913ebe2ee25efb8402b33f50660918d33608991e9c7fd9d829b806ba62"
+  },
+  {
+    "id": "snuh",
+    "file": "marketing/assets/official-institutions-request-20261010/release/snuh/public-brochure-2020-horizontal.png",
+    "key": "_clients/snuh/sources/official-identities-20261010/2136a9ab51d73de8.png",
+    "sha256": "2136a9ab51d73de8fa44d728f5ddf99fe6768b0b2bb966b864b8f7f6ff4e08fc"
+  },
+  {
+    "id": "snuh",
+    "file": "marketing/assets/official-institutions-request-20261010/release/snuh/public-brochure-2020-horizontal-preview.png",
+    "key": "_clients/snuh/sources/official-identities-20261010/438bf2aff05e495b.png",
+    "sha256": "438bf2aff05e495bc6673917c15b59503c123c74ec4323f78f72f65a1025b254"
+  },
+  {
+    "id": "snuh",
+    "file": "marketing/assets/official-institutions-request-20261010/release/snuh/public-brochure-2020-shield.svg",
+    "key": "_clients/snuh/sources/official-identities-20261010/7262c3fffa8bba4f.svg",
+    "sha256": "7262c3fffa8bba4f261008dacb489be65c4a55059eff6df314621adb30fd68f2"
+  },
+  {
+    "id": "snuh",
+    "file": "marketing/assets/official-institutions-request-20261010/release/snuh/public-brochure-2020-shield.png",
+    "key": "_clients/snuh/sources/official-identities-20261010/2c9181478436b9c6.png",
+    "sha256": "2c9181478436b9c6bee301f7289a4a6f069e64fff07b20ce738d2e50b7bc83ec"
+  },
+  {
+    "id": "snuh",
+    "file": "marketing/assets/official-institutions-request-20261010/release/snuh/public-brochure-2020-shield-preview.png",
+    "key": "_clients/snuh/sources/official-identities-20261010/4f17bd54f05ab11e.png",
+    "sha256": "4f17bd54f05ab11e372e5f0343be7d71b7b77b135f21a63ace9bb2327f1f5b73"
+  }
+]

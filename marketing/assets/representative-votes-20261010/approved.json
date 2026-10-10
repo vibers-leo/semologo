@@ -1,0 +1,106 @@
+[
+  {
+    "id": "amc-design",
+    "file": "generated-dark:logo.png",
+    "bg": "dark",
+    "votes": 2,
+    "presentation": {
+      "file": "sources/representative-votes-20261010/c11bfaf7e1e4983bcd69.png",
+      "bg": "dark"
+    },
+    "sha256": "c11bfaf7e1e4983bcd69ff82c66175475bfa012e77e561cbb5949287fe42679d",
+    "source": "logo.png",
+    "decision": "visually-reviewed-approved"
+  },
+  {
+    "id": "big-hit-music",
+    "file": "logo-transparent.png",
+    "bg": "light",
+    "votes": 1,
+    "presentation": {
+      "file": "sources/representative-votes-20261010/ec36ded642df44445f00.png",
+      "bg": "light"
+    },
+    "sha256": "ec36ded642df44445f0054bee5dc41fb7914e6abb03edcc275fd58c5b039fcfa",
+    "source": "logo-transparent.png",
+    "decision": "visually-reviewed-approved"
+  },
+  {
+    "id": "cj",
+    "file": "logo-transparent.png",
+    "bg": "light",
+    "votes": 1,
+    "presentation": {
+      "file": "sources/representative-votes-20261010/d0b7d1233a344f0f8179.png",
+      "bg": "light"
+    },
+    "sha256": "d0b7d1233a344f0f81799de5030f03a121df3da195b89adec7910aafd0247a55",
+    "source": "logo-transparent.png",
+    "decision": "visually-reviewed-approved"
+  },
+  {
+    "id": "google-cloud",
+    "file": "logo-transparent.png",
+    "bg": "light",
+    "votes": 1,
+    "presentation": {
+      "file": "sources/representative-votes-20261010/53bc63edf3ce6a5ade60.png",
+      "bg": "light"
+    },
+    "sha256": "53bc63edf3ce6a5ade60ef92041dfdfc84485e889833b11d7bdea8058f3ec47e",
+    "source": "logo-transparent.png",
+    "decision": "visually-reviewed-approved"
+  },
+  {
+    "id": "google-gemini-icon",
+    "file": "sources/gilbarbara/full.svg",
+    "bg": "light",
+    "votes": 1,
+    "presentation": {
+      "file": "sources/representative-votes-20261010/45691e9a6679c731b1b7.png",
+      "bg": "light"
+    },
+    "sha256": "45691e9a6679c731b1b728691f3f5475cc5e0fbd52e5e5c310db9ac3944bdb24",
+    "source": "sources/gilbarbara/full.svg",
+    "decision": "visually-reviewed-approved"
+  },
+  {
+    "id": "kr-fsc",
+    "file": "sources/wikimedia/logo.svg",
+    "bg": "light",
+    "votes": 1,
+    "presentation": {
+      "file": "sources/representative-votes-20261010/2f21c2da563d8fb6ed64.png",
+      "bg": "light"
+    },
+    "sha256": "2f21c2da563d8fb6ed64790b112f440bbdd2c703dda183297ddb82b6a837880a",
+    "source": "sources/wikimedia/logo.svg",
+    "decision": "visually-reviewed-approved"
+  },
+  {
+    "id": "kr-kftc",
+    "file": "sources/wikimedia/logo.svg",
+    "bg": "light",
+    "votes": 1,
+    "presentation": {
+      "file": "sources/representative-votes-20261010/30f62b92fa06d3108b76.png",
+      "bg": "light"
+    },
+    "sha256": "30f62b92fa06d3108b76ac4f7691ac86177ca02e283be50e9af3e6a7f2043b3b",
+    "source": "sources/wikimedia/logo.svg",
+    "decision": "visually-reviewed-approved"
+  },
+  {
+    "id": "ottogi",
+    "file": "logo.png",
+    "bg": "light",
+    "votes": 1,
+    "presentation": {
+      "file": "sources/representative-votes-20261010/d154d6d0da7c5fab06da.png",
+      "bg": "light"
+    },
+    "sha256": "d154d6d0da7c5fab06da2970ca1f0d1cdab8e841f907087116affc7775c08ad8",
+    "source": "logo.png",
+    "decision": "visually-reviewed-approved"
+  }
+]

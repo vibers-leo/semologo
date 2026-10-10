@@ -1,0 +1,26 @@
+[
+  {
+    "id": "yeonsu",
+    "old_variants_preserved": 15,
+    "new_variants": 24,
+    "primary_preserved": "logo",
+    "original_bundle_prior_contents_preserved": "f357be21b7dfccc9b7e4.zip",
+    "added_original_zip": "symbol_st_AI.zip",
+    "added_original_zip_sha256": "ab34b351f6e17f888d13d4777cf11e742ffae2dfc702ba7e85739ea9b4b0a027",
+    "visual_review": "approved",
+    "transparent_png": true,
+    "vector_only": true
+  },
+  {
+    "id": "kr-kepco",
+    "old_variants_preserved": 6,
+    "new_variants": 1,
+    "primary_preserved": "horizontal-ko",
+    "original_bundle_prior_contents_preserved": "9cc3b1662e115e3227be.zip",
+    "added_original_zip": "CI_한글로고_ai.zip",
+    "added_original_zip_sha256": "5203b1f3b002dda79185ff06eae4647d79436a28428d437a78fa457962d609da",
+    "visual_review": "approved",
+    "transparent_png": true,
+    "vector_only": true
+  }
+]

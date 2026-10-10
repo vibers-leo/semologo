@@ -1,0 +1,29 @@
+{
+  "canonical": "gongu-ci-1137",
+  "official_identity": "Busan Economic Promotion Agency / 부산경제진흥원",
+  "public_api_queries": [
+    "부산경제진흥원",
+    "BEPA",
+    "busan",
+    "economic promotion",
+    "promotion agency",
+    "부산경제",
+    "부산 경제",
+    "경제진흥원",
+    "BusanEconomicPromotion"
+  ],
+  "catalog_same_identity_matches": [
+    "gongu-ci-1137"
+  ],
+  "cms_same_identity_matches": [
+    "gongu-ci-1137"
+  ],
+  "merge_action": "No second same-identity record found; append official missing variations to existing canonical. Do not merge unrelated agencies or BEPA substring matches.",
+  "evidence_files": [
+    "public-catalog-search.json",
+    "public-catalog-search-extra.json",
+    "cms-before.json",
+    "cms-bepa-candidates.json"
+  ],
+  "user_reported_duplicate": "Not dismissed; exact duplicate URL/ID remains unidentified in current searches."
+}

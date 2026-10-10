@@ -33,11 +33,12 @@ assert.ok(applyReviewedAssets({id:'naver-blog'}).aliases.includes('네이버블�
 console.log('NAVER variants, aliases, merged identities and sitemap seed: passed');
 
 const nh = applyReviewedAssets({id:'nhbank',logo_svg:true,has_svg:true,icon_png:'logo-icon.png'});
-assert.equal(nh.has_svg,false);
-assert.ok(!nh.logo_svg && !nh.svg_transparent);
+assert.equal(nh.has_svg,true);
+assert.ok(nh.logo_svg && nh.svg_transparent.startsWith('sources/official-nhbank-bepa-20261010/'));
 assert.ok(nh.rejected_asset_files.includes('logo-icon.png'));
 assert.ok(nh.logo_png.startsWith('sources/bank-corrections-'));
-assert.ok(reviewedVariants.nhbank.variants.every(v => !v.files.svg));
+assert.ok(reviewedVariants.nhbank.variants.every(v => !v.files.svg || v.files.svg.startsWith('sources/official-nhbank-bepa-20261010/')));
+assert.equal(reviewedVariants.nhbank.variants.filter(v => v.files.svg).length, 8);
 assert.equal(reviewedMergeTarget('industrial-bank-of-korea'),'ibk');
 assert.equal(reviewedMergeTarget('ibk-co'),'ibk');
 assert.equal(reviewedMergeTarget('ibk-en'),'ibk');

@@ -1,0 +1,842 @@
+[
+  {
+    "key": "_clients/google-pay/sources/community-payment-20261010/47606839e3c06e46.svg",
+    "sha256": "47606839e3c06e466bcbf3a5572e6a701482f84fb43c895e17e23d9cfe259a61",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/google-pay/sources/community-payment-20261010/43bc78bc4fe44097.png",
+    "sha256": "43bc78bc4fe4409769906666d66062bc031f614ae29ce3ebcf3d37f8138391b8",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/google-pay/sources/community-payment-20261010/251216d2336b2d11.png",
+    "sha256": "251216d2336b2d11aba3a17b0b6c7738d648ee69311c5237975b74d420e69148",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/google-pay/sources/community-payment-20261010/42a8ccd177fc2051.svg",
+    "sha256": "42a8ccd177fc20512a19545a6448458309a10a7f018ec3ccc10003f6caac0489",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/google-pay/sources/community-payment-20261010/a32b790e7dc69124.png",
+    "sha256": "a32b790e7dc69124c7ff87bd405f6fa8d87cb9fd38c63f445396b3d950b14955",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/google-pay/sources/community-payment-20261010/0e20799ae76593ae.png",
+    "sha256": "0e20799ae76593ae7968e575071d65059ddbc97a4bcc5ac8b43e78ceabbc045c",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/google-pay/sources/community-payment-20261010/0dc35f8831da3533.svg",
+    "sha256": "0dc35f8831da35338d977ab6d3f026a81aa1206759dea54d0c818aed80734a26",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/google-pay/sources/community-payment-20261010/caac111945d1c006.png",
+    "sha256": "caac111945d1c0060ad89b8c84b8dd456f225aea973fd14de59ea840fb4f00c4",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/google-pay/sources/community-payment-20261010/3cc60bc0058cafef.png",
+    "sha256": "3cc60bc0058cafef1b5de96c2292fdc5f83d95631cbbd24e7666b1a2e5ae1ec8",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/apple-pay/sources/community-payment-20261010/e8801435a86c3be7.svg",
+    "sha256": "e8801435a86c3be7b372c9706cac938db8d1bdb2d9c25f191ba5f2243d5e0495",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/apple-pay/sources/community-payment-20261010/a3d5abd9fe0e65b2.png",
+    "sha256": "a3d5abd9fe0e65b2c30d33a2d755cd7bbaabc4564eb4191f75a87a76364b20d7",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/apple-pay/sources/community-payment-20261010/d029cbad80fca1f9.png",
+    "sha256": "d029cbad80fca1f9209312f6f20c6915fd3d274d9a96505fd761b9da20921026",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/apple-pay/sources/community-payment-20261010/5aee44b03ff04f29.svg",
+    "sha256": "5aee44b03ff04f29e9e143044e6ecc2615e6b067ac995f814146478b7e879f5c",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/apple-pay/sources/community-payment-20261010/b90ba65dd0674a7a.png",
+    "sha256": "b90ba65dd0674a7ae213e6141933f5a543201c1c1a4b03a0811ac58e2af0cb0f",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/apple-pay/sources/community-payment-20261010/1f1047d573d5fbd3.png",
+    "sha256": "1f1047d573d5fbd38b4d094e5c5731d30f27619b785422da907e50e982483110",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/visa/sources/community-payment-20261010/0792618c19775b0f.svg",
+    "sha256": "0792618c19775b0f899d87412e044b303558fd60fd1dc006f8b15dee85004075",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/visa/sources/community-payment-20261010/4488a41cf7d63c64.png",
+    "sha256": "4488a41cf7d63c649c6a931b5b528f06881c008ea7d9aac2e576bc26b551c871",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/visa/sources/community-payment-20261010/a3c86214e7956fc6.png",
+    "sha256": "a3c86214e7956fc6e212ce4c1001e9d0653b0676d746efedd846703be342e5b5",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/visa/sources/community-payment-20261010/af3744e0ea41a7cc.svg",
+    "sha256": "af3744e0ea41a7cc2d45ab87bcbaf738204419e1273e8a57dd3ba6e55cd81d82",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/visa/sources/community-payment-20261010/7ee2abb266b24737.png",
+    "sha256": "7ee2abb266b24737f48f28d78a3f0190615f33da20520e278bb4eee3863fc864",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/visa/sources/community-payment-20261010/11ba982e170ac5f6.png",
+    "sha256": "11ba982e170ac5f65d7ead9dc8d12c537a8fde9f75195f481ed69fa05ee13e39",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/visa/sources/community-payment-20261010/60a44fe2c3967878.svg",
+    "sha256": "60a44fe2c39678783c221650b500d45851655b66a98076cf641e853b3c7c911d",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/visa/sources/community-payment-20261010/177950ead04b1573.png",
+    "sha256": "177950ead04b157383639e87080f87f72585d63eb28a446ee4a3d3744422610a",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/visa/sources/community-payment-20261010/8772bc8e8ac9629d.png",
+    "sha256": "8772bc8e8ac9629dba3cddc2ae9ef2b297726442073a572b817a8caa321076b5",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/mastercard/sources/community-payment-20261010/af17819ae536d970.svg",
+    "sha256": "af17819ae536d970d86406b40cc0dfde020fc95f3b860a33ab731b52154c83f5",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/mastercard/sources/community-payment-20261010/394d154bc068b92f.png",
+    "sha256": "394d154bc068b92f251b4dccdcdae4e0e029893d1fbb34a13e749045bd699350",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/mastercard/sources/community-payment-20261010/1da2f53583deb307.png",
+    "sha256": "1da2f53583deb307187a4d055d791a0d993ab64064400e5dea47910c86cfd619",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/mastercard/sources/community-payment-20261010/83115b3696faef05.svg",
+    "sha256": "83115b3696faef05fb5b448e35bf2dfa55869c33eaa5fe154ab70c45b858d5cd",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/mastercard/sources/community-payment-20261010/90e30ac33eb5e81b.png",
+    "sha256": "90e30ac33eb5e81b3b887f197678866567c64c15cc19b5d198408bab81f50211",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/mastercard/sources/community-payment-20261010/d298aa4c47f96dc8.png",
+    "sha256": "d298aa4c47f96dc8c7ef52c47b7ad8ea8cee7dbadc6b9a41af5546959807cc81",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/mastercard/sources/community-payment-20261010/4c0a5a30c1f9e22b.svg",
+    "sha256": "4c0a5a30c1f9e22b4f664575943b7ae0809a646e3a6dab8da295fa4c549b8507",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/mastercard/sources/community-payment-20261010/19de604ace0b1fce.png",
+    "sha256": "19de604ace0b1fce6f3029fd46125746edf75694787b9f883b81654c2f109434",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/mastercard/sources/community-payment-20261010/cdd7b5fee6bb5c53.png",
+    "sha256": "cdd7b5fee6bb5c53b9a25f7d60bdd0fda52cefc60f13ba1bfa9672174d770526",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/maestro/sources/community-payment-20261010/215740321665bc8b.svg",
+    "sha256": "215740321665bc8bb8488f2df0857f3c4eb838c6967d8af7b9f12f1f1176ab84",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/maestro/sources/community-payment-20261010/0806f862fb324268.png",
+    "sha256": "0806f862fb3242683af907b192b7d507b683dc262ab6a8803e1ae150e5467409",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/maestro/sources/community-payment-20261010/4ba74e6de9649a96.png",
+    "sha256": "4ba74e6de9649a9602ac8ebe5237615a03ba6aa86d2a93e7f323f3cb3fc517f9",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/maestro/sources/community-payment-20261010/6ce7348941f059d7.svg",
+    "sha256": "6ce7348941f059d7c0d9c00f80a3f10e7441cd2d539c10e216c8f7a6991c1383",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/maestro/sources/community-payment-20261010/fa3504c156f65c94.png",
+    "sha256": "fa3504c156f65c94e0094b473df7837685ec7b93c3bffe8a4a09f4cf9d898402",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/maestro/sources/community-payment-20261010/a0f864ee995a0921.png",
+    "sha256": "a0f864ee995a092162e0f438a022ec8fc693d48bad19c1e94640a7d01f0c194f",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/maestro/sources/community-payment-20261010/bd5f907b8960746b.svg",
+    "sha256": "bd5f907b8960746b1985077ce5bfed1c4da6d62b1512ad14b00ba06fb59ecd01",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/maestro/sources/community-payment-20261010/051ffd29867472f5.png",
+    "sha256": "051ffd29867472f51932e65d9b57e91af5d379f048a6b1af5ce39112bf623927",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/maestro/sources/community-payment-20261010/fa4588b1faabb040.png",
+    "sha256": "fa4588b1faabb040d75e7a57960af41a76720cec763d05197b5f9137983038fc",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/stripe/sources/community-payment-20261010/1928e948fa35ed32.svg",
+    "sha256": "1928e948fa35ed3240bf8558eec500ebbfb749b39ac1f38f788e2000bdf46a23",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/stripe/sources/community-payment-20261010/1ccabfee5c5527de.png",
+    "sha256": "1ccabfee5c5527de8e112f260eb805a56c68d6cd2ff9cd43e8021035487b1e8f",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/stripe/sources/community-payment-20261010/a9ce6432402bda2b.png",
+    "sha256": "a9ce6432402bda2b9b8eb7beee3e3bfa0dc4d453042c4252c39e3fb093af5412",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/stripe/sources/community-payment-20261010/5b37f43e7ff84e88.svg",
+    "sha256": "5b37f43e7ff84e8800f6bba57f9b2404b3bbab4d34bdc4561f5f136bbf667b4a",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/stripe/sources/community-payment-20261010/1153dfe983fe177f.png",
+    "sha256": "1153dfe983fe177f55b0e9d95f0855d9c4cf91afdd98e1d18da7c5c11f928d1f",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/stripe/sources/community-payment-20261010/6aba9fac7071e80c.png",
+    "sha256": "6aba9fac7071e80c1b934c7c5deaa5dd6b89ad7ce06cb95f00c7965071e62370",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/stripe/sources/community-payment-20261010/397e2db53e50bbdd.svg",
+    "sha256": "397e2db53e50bbdd7badf13d328059f383e71d5a55fe2bf48501170f22f11f88",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/stripe/sources/community-payment-20261010/e2ce7e4c09fb3905.png",
+    "sha256": "e2ce7e4c09fb3905aba5c7c7adeb869a70c2e0e6c9887163152aac08862c6ec0",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/stripe/sources/community-payment-20261010/3214c7b500d35dac.png",
+    "sha256": "3214c7b500d35dac3fd0e9681fa5a6a5e495352565be2f2b39b79df8cac1a049",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/skrill/sources/community-payment-20261010/ab09857ebfb8bafe.svg",
+    "sha256": "ab09857ebfb8bafeb8292dbab0e5ed0df94710b8de5c93b5f74d26da5e515049",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/skrill/sources/community-payment-20261010/6436261962b39bfe.png",
+    "sha256": "6436261962b39bfee323bbc191b10a5952a07ab3b865acfbfb8f9de90761ba1b",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/skrill/sources/community-payment-20261010/0f185ea91a333356.png",
+    "sha256": "0f185ea91a33335640348b42e3f50be8e9762a0cbb7719fc3858a270235de60c",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/skrill/sources/community-payment-20261010/767b09f6f5fc4e10.svg",
+    "sha256": "767b09f6f5fc4e10f327cabf42995aa1ea6546a8af4de84fb258f66fe0e7465f",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/skrill/sources/community-payment-20261010/0045c0ce6f5581c9.png",
+    "sha256": "0045c0ce6f5581c9f8b3b8aeabacc8b223a81776d6f3976d86b56466cedd63a5",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/skrill/sources/community-payment-20261010/1a5b233d90263b75.png",
+    "sha256": "1a5b233d90263b7567b664b1c686f6215ec2898ef991b149850b33b17ed7822f",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/skrill/sources/community-payment-20261010/251bf4f4ee4210aa.svg",
+    "sha256": "251bf4f4ee4210aa49c6ce2e5820e4ebfeb81843c68821f55b8e2114e15e00ae",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/skrill/sources/community-payment-20261010/b82ae1e231794418.png",
+    "sha256": "b82ae1e2317944185d1120994e73bb1c65a0d6574bb6410394c8651aea69bc97",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/skrill/sources/community-payment-20261010/5527f65a35fcc30f.png",
+    "sha256": "5527f65a35fcc30f6a5dc7f48203832e486c4b0d98a3efce5210c5589e188071",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/klarna/sources/community-payment-20261010/65cd56a846d56939.svg",
+    "sha256": "65cd56a846d56939499418fdbcc9aeece84a1ae778e1b3faeb8d828611ccb29a",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/klarna/sources/community-payment-20261010/f1d4a64949d1e772.png",
+    "sha256": "f1d4a64949d1e772b144b0f73e8117522735e4c53d13019ab337559397104bc2",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/klarna/sources/community-payment-20261010/5cb866683a7a6c5c.png",
+    "sha256": "5cb866683a7a6c5c8faa1954982714f984503857f81a708e80e5305d87f6362c",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/klarna/sources/community-payment-20261010/bc863175a9073b93.svg",
+    "sha256": "bc863175a9073b93f70d6b0292fc6da93a715ac34916d1b18a0c303e91209477",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/klarna/sources/community-payment-20261010/97fa6a507e3a1356.png",
+    "sha256": "97fa6a507e3a13566ea48e55f8b7be0cbcab0019ff579dbe7ee7892fdc55c90a",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/klarna/sources/community-payment-20261010/fb66f56f52ca3ef6.png",
+    "sha256": "fb66f56f52ca3ef6e4bd66cc2ad767d1373878a4b668da77f357086f73c12b27",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/klarna/sources/community-payment-20261010/145b2b998460d821.svg",
+    "sha256": "145b2b998460d82182f4999998ff89c401806e7261a98716fccd998743c59fda",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/klarna/sources/community-payment-20261010/3ec33e21ef61bbac.png",
+    "sha256": "3ec33e21ef61bbac884afaddd3c6b6cd90bd8da784aed8f1e19a3c0daab267e9",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/klarna/sources/community-payment-20261010/2c2805c8723e6865.png",
+    "sha256": "2c2805c8723e686577df91f6b478cfc69aeef5ec7f35126d1ad52d2ce09eb232",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/amazon-pay/sources/community-payment-20261010/087783db577c772f.svg",
+    "sha256": "087783db577c772fe1a6f7390a5ecc94cfa16f93ee61db5b1d828c18ed758202",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/amazon-pay/sources/community-payment-20261010/c90259ce5141e526.png",
+    "sha256": "c90259ce5141e5267581b5fd9e37af661ca788890714934931849052e1c33c54",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/amazon-pay/sources/community-payment-20261010/aa3d4b9f318aff25.png",
+    "sha256": "aa3d4b9f318aff251a822507eea3139bfae9708420047ec1e718aa92bc42ad0d",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/amazon-pay/sources/community-payment-20261010/fbd13ebeafa91584.svg",
+    "sha256": "fbd13ebeafa9158484be7b6af21b9b15f2a46f22fbb172159d7529a0ed55666b",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/amazon-pay/sources/community-payment-20261010/53714613ebdbc674.png",
+    "sha256": "53714613ebdbc6743728bd4bd772ab95f015d9525f834cffde00f5c7ab2325d4",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/amazon-pay/sources/community-payment-20261010/7efeb47ca67ce925.png",
+    "sha256": "7efeb47ca67ce92596a667ba238cbfdcb5298f5239539adedbef7c0c3b0bd503",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/amazon-pay/sources/community-payment-20261010/74b5c840975f0516.svg",
+    "sha256": "74b5c840975f051633a043a60d95b6c156e27ef9985051fe4b9b095ebdb483e1",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/amazon-pay/sources/community-payment-20261010/f5c1f965762300a4.png",
+    "sha256": "f5c1f965762300a4f1d6cdf340663e169acd6db6a77cc8adc6246237e8e0a89f",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/amazon-pay/sources/community-payment-20261010/a4fc168dcbfaecfb.png",
+    "sha256": "a4fc168dcbfaecfbdfb423be09f48a9f429f7b8f41754429b9a37527c9e5c474",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/mercadopago/sources/community-payment-20261010/2b703bb86d343023.svg",
+    "sha256": "2b703bb86d343023811cdbcc89b3585184baed56c67af0373b6427d84c4049ca",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/mercadopago/sources/community-payment-20261010/8e409537d7ca24bb.png",
+    "sha256": "8e409537d7ca24bbb8fda2a64896d254bc309a11bef971f239735e9e00dc7838",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/mercadopago/sources/community-payment-20261010/3f0558d839ea809d.png",
+    "sha256": "3f0558d839ea809d1024cea690bf4350a18fe04abc56b0c76978a13f92cba3de",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/mercadopago/sources/community-payment-20261010/1b6f6ca93acf658d.svg",
+    "sha256": "1b6f6ca93acf658d00d9fbcb91a05f471d74dd998e34e1bfd04bd69e40b05152",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/mercadopago/sources/community-payment-20261010/72e885b9583a48eb.png",
+    "sha256": "72e885b9583a48ebbe177bc4f800066af6e2911cb743f565b6d26b1124dcf493",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/mercadopago/sources/community-payment-20261010/702c5d868f334f50.png",
+    "sha256": "702c5d868f334f506297dcf919ebc09a7c2198531f55321bb225999f0bccaa9c",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/mercadopago/sources/community-payment-20261010/6cf3301832714aa5.svg",
+    "sha256": "6cf3301832714aa5e70caae18966db8582096432b7ea6eade4dd8f279777d339",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/mercadopago/sources/community-payment-20261010/dee3470c003c5ac1.png",
+    "sha256": "dee3470c003c5ac138ae72a273bff7b2578dcacb7b4c237d9c1c9421abb2939c",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/mercadopago/sources/community-payment-20261010/8961e13423fc33be.png",
+    "sha256": "8961e13423fc33bef0cc494c96d298f47f22a43f1763edc0406dd2d5084347d9",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/diners/sources/community-payment-20261010/a2961fe8031cdf25.svg",
+    "sha256": "a2961fe8031cdf252dd48f3febc6c2802128d499bebc2ac975f2c2c75e3fec45",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/diners/sources/community-payment-20261010/df6d4bdc96198fe4.png",
+    "sha256": "df6d4bdc96198fe4808490af589fb97af7ad64d6283a0500df011d683afa3399",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/diners/sources/community-payment-20261010/59128defc29a5e12.png",
+    "sha256": "59128defc29a5e12f07a757cdecf68139d6bdd3a6ab58ab9a6da7b32349789c1",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/diners/sources/community-payment-20261010/39bb9e0ac7494ae2.svg",
+    "sha256": "39bb9e0ac7494ae294589c59a1e551a7842dfaeb607d489b95eb780b2f8c7b29",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/diners/sources/community-payment-20261010/d96b5af2b4a37b03.png",
+    "sha256": "d96b5af2b4a37b03ee79daeeaa1d8517d3a342c8e09cacabc817a7da8616930b",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/diners/sources/community-payment-20261010/2cc119d9bbfae8f0.png",
+    "sha256": "2cc119d9bbfae8f0e31bf93ea4d678d727bef809526e38be2ced7750b3a9545d",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/diners/sources/community-payment-20261010/b054e456da27ae13.svg",
+    "sha256": "b054e456da27ae13381815c4856466c59b73e1782b8538faabb5c02241bcc85b",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/diners/sources/community-payment-20261010/f568cdf66a1e5f63.png",
+    "sha256": "f568cdf66a1e5f636544f5991a987715ac9b0d072d5658cb4529382ac7abda05",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/diners/sources/community-payment-20261010/81d0f05677316705.png",
+    "sha256": "81d0f05677316705e14d858eca4e0101301af38957e50846d92f8827555e44a4",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/shop-pay/sources/community-payment-20261010/aacf213f2f3aabc9.svg",
+    "sha256": "aacf213f2f3aabc9acb48426d32f5500fff0af6d40e3949c45d2d420cc1e877d",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/shop-pay/sources/community-payment-20261010/08a7d3946ff07da8.png",
+    "sha256": "08a7d3946ff07da832a4d093c3bc6b4d53e9899b0f027b088bde2b8c5d1e33c1",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/shop-pay/sources/community-payment-20261010/4ea871c54bd506b2.png",
+    "sha256": "4ea871c54bd506b236ed5046e7b6ad3a95e535900145852a08113d1fa4b56ff7",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/shop-pay/sources/community-payment-20261010/d0dd01d936972130.svg",
+    "sha256": "d0dd01d936972130f32a716b7fea26e962a03e763ebc9c77f498413a1c5d321c",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/shop-pay/sources/community-payment-20261010/ee77cba2d18081f2.png",
+    "sha256": "ee77cba2d18081f2f76402aef7d1e036b3f5125f3bfd2050fcdc49f2ce3dfd4e",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/shop-pay/sources/community-payment-20261010/94881374ee093b87.png",
+    "sha256": "94881374ee093b8705e0de02621d204a0aaeaab3180cc2c1aaf30409564e42da",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/paypal/sources/community-payment-20261010/e42152575e0b48b8.svg",
+    "sha256": "e42152575e0b48b8e7068a0d943fcfab28bccb84bd4adcb420995baf21c617b0",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/paypal/sources/community-payment-20261010/7e532453fb68d71f.png",
+    "sha256": "7e532453fb68d71fe07481c0cee804d3d43aa98a1f161e365d743a6da627e887",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/paypal/sources/community-payment-20261010/bdf2e4a6182c1a0c.png",
+    "sha256": "bdf2e4a6182c1a0ca79674ad91d6f07bbe4eaba20b5c7f25ab8244c301df01b7",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/paypal/sources/community-payment-20261010/4595b3918554f316.svg",
+    "sha256": "4595b3918554f3166ec30db4173c95d29f9977a3ced60ef30288209f25df450f",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/paypal/sources/community-payment-20261010/d6989499a6a1b4bd.png",
+    "sha256": "d6989499a6a1b4bd19d22ac30abca62d3edfa52d4870eec317287d82d0fd50c8",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/paypal/sources/community-payment-20261010/73efc5f784015d45.png",
+    "sha256": "73efc5f784015d4534d4f44ec1f37e498db8bff3e0560603e9110da0bf178843",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/paypal/sources/community-payment-20261010/a254c4cd565268b4.svg",
+    "sha256": "a254c4cd565268b470e022d35a5d4b828899a9e8f95878ecd45f8289662c4362",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/paypal/sources/community-payment-20261010/e5adc0e4f9794d12.png",
+    "sha256": "e5adc0e4f9794d12e5a35f5631113080560b720b6016f216e0abcd7adbd734a1",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/paypal/sources/community-payment-20261010/2b70083930c625ae.png",
+    "sha256": "2b70083930c625ae866275b4656f6679580305feafcccf70add4dfb900fbe145",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/discover/sources/community-payment-20261010/a93ecaf472b5102d.svg",
+    "sha256": "a93ecaf472b5102d24058c76aebd8de120883bf9216da365f7ed61110c7b3409",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/discover/sources/community-payment-20261010/f798c3d3262b99e0.png",
+    "sha256": "f798c3d3262b99e01ba1e7382fed7d7b1b7c4a703e99adb97080058f84d40c9a",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/discover/sources/community-payment-20261010/45ec23d60d81265d.png",
+    "sha256": "45ec23d60d81265d9cf51eb430f35b2fbd54ca7f4431f923c151d98b2c2ce9c6",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/discover/sources/community-payment-20261010/58a0a53209be33e1.svg",
+    "sha256": "58a0a53209be33e112fb750b6544c6510f2ca8bdb6f86cba4c762fcd6e34aea7",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/discover/sources/community-payment-20261010/458742108bc3f3ec.png",
+    "sha256": "458742108bc3f3ec44021859b7ded60e3d4882a22b9e6f3acf4d8845987e71a3",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/discover/sources/community-payment-20261010/0d0dbd6a509c65d5.png",
+    "sha256": "0d0dbd6a509c65d5c4587c05917df6b998388c1cb0e20f038254f03b67956906",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/discover/sources/community-payment-20261010/f34c3ac4b356ea6a.svg",
+    "sha256": "f34c3ac4b356ea6a1681fec9b1c4c8075eb39608f7e25fca72dde481cc415578",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/discover/sources/community-payment-20261010/ac8460f05ade285a.png",
+    "sha256": "ac8460f05ade285ad6041c3868a3459f1c2a7f3a7d4362c4ff119f981191cd44",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/discover/sources/community-payment-20261010/e26d186e7be2f3e4.png",
+    "sha256": "e26d186e7be2f3e4970b96fd7dde5eafe085d7beb6f4096db47c3eb55efba159",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/bitpay/sources/community-payment-20261010/4b9676d2e2f026a9.svg",
+    "sha256": "4b9676d2e2f026a96660d80f4725fdbdb35ac17a0425e06d24abb937a4b241c1",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/bitpay/sources/community-payment-20261010/1ba20d9b58436993.png",
+    "sha256": "1ba20d9b58436993453e552ca457e797168b4adb5a6158628f1a02909e707e7e",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/bitpay/sources/community-payment-20261010/094ac5fd5566cf44.png",
+    "sha256": "094ac5fd5566cf44b773c219de1316a41eb6add0daaf9bb8c5413a206a4ffeda",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/bitpay/sources/community-payment-20261010/055bac34b2ceb8ec.svg",
+    "sha256": "055bac34b2ceb8ec9a1fc12b1f95f9fbbbb8cb14a52e1aa1194bd41b9f66b0cc",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/bitpay/sources/community-payment-20261010/7751badc4d7ea980.png",
+    "sha256": "7751badc4d7ea980d7a6c0e1727f27a1992eecbbe636aae76bf9252672ff206f",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/bitpay/sources/community-payment-20261010/b67750b9e8bb4655.png",
+    "sha256": "b67750b9e8bb46556f4257f8ac11bd806578b019e8c287dbc25402cf9d59db10",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/bitcoin/sources/community-payment-20261010/83f9e977b6a86856.svg",
+    "sha256": "83f9e977b6a868561362f3e6b64c0b7cf9af57e6ece9c831b6843a166b649ac7",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/bitcoin/sources/community-payment-20261010/a3d696bc1ad5f96c.png",
+    "sha256": "a3d696bc1ad5f96c57dbbd6fa6b1d4becb88bbe6e5f8e9a0eccaf740bead5f0d",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/bitcoin/sources/community-payment-20261010/d92aefb32b133db9.png",
+    "sha256": "d92aefb32b133db9684d7f22f8abbce05e2052261f8e3c4b68e41f5fed16ebb5",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/bitcoin/sources/community-payment-20261010/f8b49c8363ccfc64.svg",
+    "sha256": "f8b49c8363ccfc64265c87ba50496d9ca314e3aabef402af6b1ae7c47c8dbe4c",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/bitcoin/sources/community-payment-20261010/a3140c0f89858c8f.png",
+    "sha256": "a3140c0f89858c8fdb5a25507b0a0f5edfd48a4931a7fcd7cb92ac5616370847",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/bitcoin/sources/community-payment-20261010/8f4719fed4f443d3.png",
+    "sha256": "8f4719fed4f443d3e545fc93b9f750d2e5bd13446a07f4112dee9ee912445daa",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/bitcoin/sources/community-payment-20261010/c12d92f4167306f1.svg",
+    "sha256": "c12d92f4167306f13e051691a32c3897dcb9f0765a6d63128fd9b86e17b64888",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/bitcoin/sources/community-payment-20261010/c8ecbd710274b20a.png",
+    "sha256": "c8ecbd710274b20a805c1a5f108e5b8723b4db1a14b1e7f848fd6a2064bcb13f",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/bitcoin/sources/community-payment-20261010/e074527445bd4408.png",
+    "sha256": "e074527445bd4408c7e0ed00dfef0d1b409228bf2dc54e695dd6816c921bf90a",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/payoneer/sources/community-payment-20261010/6caa19172c063e37.svg",
+    "sha256": "6caa19172c063e370f3d23c46ec4de7097ce78ddb9dc13b9cae38dc2019aa537",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/payoneer/sources/community-payment-20261010/6fe66ef4b6f8a080.png",
+    "sha256": "6fe66ef4b6f8a080a125a3f5485c317aefe2347769fb326ee71cad89bfa9fdd3",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/payoneer/sources/community-payment-20261010/4e5906a7b203b810.png",
+    "sha256": "4e5906a7b203b810f14f7b83d8d9bd203396f8a7f380211992a4782069b6bfa9",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/payoneer/sources/community-payment-20261010/a197c30887f1d09d.svg",
+    "sha256": "a197c30887f1d09de0cae96e2b03c9591a42c75ba8bd21e9779e8b4aee85693b",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/payoneer/sources/community-payment-20261010/9f0331d0f422693b.png",
+    "sha256": "9f0331d0f422693bb20be4350ad6740e08004155e925ea9ecedef7ef579936d5",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/payoneer/sources/community-payment-20261010/091fcc1a7bf2165e.png",
+    "sha256": "091fcc1a7bf2165e09ad763e6c87d34cea81e99c988e6e436531780b7db493a0",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/payoneer/sources/community-payment-20261010/7ca0bb081ea74907.svg",
+    "sha256": "7ca0bb081ea74907a5fc7afc31e93f177d7a6386634241fe3513712cc886bc66",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/payoneer/sources/community-payment-20261010/c9246616f6a86631.png",
+    "sha256": "c9246616f6a86631092e046adb5f8d7ee3f49292593c1a5d90ea118e535b1ee5",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/payoneer/sources/community-payment-20261010/40ede81792c5673e.png",
+    "sha256": "40ede81792c5673e6e44c18d86a05ef20600c213db99b3716afe8e9083058852",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/ethereum/sources/community-payment-20261010/9882c25844fb5699.svg",
+    "sha256": "9882c25844fb5699e770b356be752327b6f27378f0396e1e613b91456f8a211e",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/ethereum/sources/community-payment-20261010/17f3c55ee9e3f175.png",
+    "sha256": "17f3c55ee9e3f175024704a49ff8476318e5a4a7f9d12c609a6b00715a7e5ded",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/ethereum/sources/community-payment-20261010/ae906eaed7a477bb.png",
+    "sha256": "ae906eaed7a477bb925d4f3da09b94bcc0a22c97070cfc47f216d33e4220a66e",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/ethereum/sources/community-payment-20261010/7fc93d7ee5fcf182.svg",
+    "sha256": "7fc93d7ee5fcf182ef135a0523f9dd52a6286d1078dc8d85c571f727389a7de1",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/ethereum/sources/community-payment-20261010/90d03a352edd320f.png",
+    "sha256": "90d03a352edd320f770ac0b42b443926806bdda6d0618d8d118c67f154ebe13e",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/ethereum/sources/community-payment-20261010/b5db05c7f115a164.png",
+    "sha256": "b5db05c7f115a16413c6b95b178a81f9fccad5759d48d03ac186b9b277c1f2e0",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/verifone/sources/community-payment-20261010/fa3d881850a82ff5.svg",
+    "sha256": "fa3d881850a82ff5d83ba75762de9ab0ca347f213451464d613a6bc6e69defb8",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/verifone/sources/community-payment-20261010/9399dd18b9c8fe83.png",
+    "sha256": "9399dd18b9c8fe8399267b2f5557082eeb202f3e330735357d95375b7a42f9b9",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/verifone/sources/community-payment-20261010/4497b8bdd2253d84.png",
+    "sha256": "4497b8bdd2253d84014471efd2d82741bb0b91606540adb4d721171356007dbd",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/verifone/sources/community-payment-20261010/18a0c25d37ef33c0.svg",
+    "sha256": "18a0c25d37ef33c0b47eaa5eb7bbe8484175abe97c41a6cb22dad34c9756ed88",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/verifone/sources/community-payment-20261010/fa3bba57b0cf9fa2.png",
+    "sha256": "fa3bba57b0cf9fa280003099365e9840779410fff7da441c57a198b71109fe55",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/verifone/sources/community-payment-20261010/35f4e6b8674d9186.png",
+    "sha256": "35f4e6b8674d91869d4888ba7f9ede1ef66c0c09d7009395f6fd153f0092ca63",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/verifone/sources/community-payment-20261010/992fcaa946d56e9d.svg",
+    "sha256": "992fcaa946d56e9d7a961055643453ceefa1374a07f2aab66ca3df349849f8bb",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/verifone/sources/community-payment-20261010/9d4c5ca3d791d78b.png",
+    "sha256": "9d4c5ca3d791d78b8e2d6695f61f3cc5180c4a58880d288afa9b145e9fe4bda2",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/verifone/sources/community-payment-20261010/1a94a679c544161e.png",
+    "sha256": "1a94a679c544161ee3f43cb4f587bebfcd14956b1a9edfd7c6665f6c9c601ffd",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/western-union/sources/community-payment-20261010/b7aad827859fb152.svg",
+    "sha256": "b7aad827859fb152615a38635255b276446f178dd24eeb8369db9d8f4e1ebf8b",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/western-union/sources/community-payment-20261010/bc03a154bb34529a.png",
+    "sha256": "bc03a154bb34529a7c0e0f2fd79ad0bbffe926c4d787e6da2562d9423164a730",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/western-union/sources/community-payment-20261010/c508404f116fc9bd.png",
+    "sha256": "c508404f116fc9bdc1c7d7044bd516d149cf718291399854cfbf0ab0100c7380",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/western-union/sources/community-payment-20261010/37012cda1207331f.svg",
+    "sha256": "37012cda1207331f88851850efadad476754f7646b0d21336400e43425e723e2",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/western-union/sources/community-payment-20261010/85d9ef1ca716d2c1.png",
+    "sha256": "85d9ef1ca716d2c1c95e6b892c9730c580162b4e2e7869ca9a985fd61e689ac7",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/western-union/sources/community-payment-20261010/20a38a1d5a896b6c.png",
+    "sha256": "20a38a1d5a896b6c30aff27f6ef8b537dc2037e9c52c13749cbb90cfa45d9d7c",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/western-union/sources/community-payment-20261010/b5120aca20b2492f.svg",
+    "sha256": "b5120aca20b2492f3f8236b2a42896a7edb1bd28e4257e41ddbfd8d5042e1f8e",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/western-union/sources/community-payment-20261010/80187a1cd1c8f298.png",
+    "sha256": "80187a1cd1c8f2989c81ab0dcd46cd79f05a2f3e3a57c413e7df7e500dc0eaf8",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/western-union/sources/community-payment-20261010/15ca94577c10757d.png",
+    "sha256": "15ca94577c10757d67f18f0d64b9f93202767f7f5a3907a337c1a5fc4d7c12d2",
+    "cdn_verified": true
+  }
+]

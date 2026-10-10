@@ -1,0 +1,515 @@
+{
+  "patches": {
+    "gongu-ci-1460": {
+      "variants_n": 29,
+      "source_zip": "sources/kosme-supplied-20261010/b80833b412ffe3244a92.zip",
+      "source_original_label": "사용자 제공 공식 CI 원본 ZIP"
+    }
+  },
+  "variants": {
+    "gongu-ci-1460": {
+      "id": "gongu-ci-1460",
+      "algo_v": 1,
+      "schema": 1,
+      "primary": "official-f11e6c9fb807",
+      "variants": [
+        {
+          "key": "official-f11e6c9fb807",
+          "form": "horizontal",
+          "lang": "ko",
+          "color": "original",
+          "files": {
+            "png": "sources/official-reviewed-20261008/f11e6c9fb8075d72.png",
+            "svg": "sources/official-reviewed-20261008/f11e6c9fb8075d72.svg"
+          },
+          "label": "공식 로고타입",
+          "light": false,
+          "order": -1,
+          "origin": "collected",
+          "provider": "공식 기관 홈페이지",
+          "asset_group": "logotype"
+        },
+        {
+          "key": "supplied-wordmark",
+          "label": "워드마크",
+          "form": "wordmark",
+          "lockup": "wordmark",
+          "lang": "ko",
+          "color": "original",
+          "light": false,
+          "files": {
+            "svg": "sources/kosme-supplied-20261010/5fea5eed6d2b8a0a972e.svg",
+            "png": "sources/kosme-supplied-20261010/4cdb8ecb492d7332b8d7.png"
+          },
+          "provider": "사용자 제공 기관 CI 원본 AI",
+          "origin": "manual",
+          "order": 1,
+          "source_original": "sources/kosme-supplied-20261010/b80833b412ffe3244a92.zip"
+        },
+        {
+          "key": "supplied-logotype-ko",
+          "label": "국문 로고타입",
+          "form": "wordmark",
+          "lockup": "wordmark",
+          "lang": "ko",
+          "color": "original",
+          "light": false,
+          "files": {
+            "svg": "sources/kosme-supplied-20261010/8bd30045c7341dbb2631.svg",
+            "png": "sources/kosme-supplied-20261010/9be630a3f470390390a0.png"
+          },
+          "provider": "사용자 제공 기관 CI 원본 AI",
+          "origin": "manual",
+          "order": 2,
+          "source_original": "sources/kosme-supplied-20261010/b80833b412ffe3244a92.zip"
+        },
+        {
+          "key": "supplied-logotype-en",
+          "label": "영문 로고타입",
+          "form": "wordmark",
+          "lockup": "wordmark",
+          "lang": "en",
+          "color": "original",
+          "light": false,
+          "files": {
+            "svg": "sources/kosme-supplied-20261010/ea8d2db432c0ffd7c16a.svg",
+            "png": "sources/kosme-supplied-20261010/8c760eb555a808f47321.png"
+          },
+          "provider": "사용자 제공 기관 CI 원본 AI",
+          "origin": "manual",
+          "order": 3,
+          "source_original": "sources/kosme-supplied-20261010/b80833b412ffe3244a92.zip"
+        },
+        {
+          "key": "supplied-logotype-mixed",
+          "label": "국영문 로고타입",
+          "form": "wordmark",
+          "lockup": "wordmark",
+          "lang": "mixed",
+          "color": "original",
+          "light": false,
+          "files": {
+            "svg": "sources/kosme-supplied-20261010/d44922ce481d5d3977de.svg",
+            "png": "sources/kosme-supplied-20261010/2adf73ecbe9979d9cac3.png"
+          },
+          "provider": "사용자 제공 기관 CI 원본 AI",
+          "origin": "manual",
+          "order": 4,
+          "source_original": "sources/kosme-supplied-20261010/b80833b412ffe3244a92.zip"
+        },
+        {
+          "key": "supplied-vertical-ko",
+          "label": "국문 세로 로고타입",
+          "form": "vertical",
+          "lockup": "vertical",
+          "lang": "ko",
+          "color": "original",
+          "light": false,
+          "files": {
+            "svg": "sources/kosme-supplied-20261010/097e539d179b2730fc4b.svg",
+            "png": "sources/kosme-supplied-20261010/4e2380d0f35a787f1228.png"
+          },
+          "provider": "사용자 제공 기관 CI 원본 AI",
+          "origin": "manual",
+          "order": 5,
+          "source_original": "sources/kosme-supplied-20261010/b80833b412ffe3244a92.zip"
+        },
+        {
+          "key": "supplied-vertical-en",
+          "label": "영문 세로 로고타입",
+          "form": "vertical",
+          "lockup": "vertical",
+          "lang": "en",
+          "color": "original",
+          "light": false,
+          "files": {
+            "svg": "sources/kosme-supplied-20261010/c362334a2a0cf870d000.svg",
+            "png": "sources/kosme-supplied-20261010/580836d0a09e84f763e1.png"
+          },
+          "provider": "사용자 제공 기관 CI 원본 AI",
+          "origin": "manual",
+          "order": 6,
+          "source_original": "sources/kosme-supplied-20261010/b80833b412ffe3244a92.zip"
+        },
+        {
+          "key": "supplied-vertical-mixed",
+          "label": "국영문 세로 로고타입",
+          "form": "vertical",
+          "lockup": "vertical",
+          "lang": "mixed",
+          "color": "original",
+          "light": false,
+          "files": {
+            "svg": "sources/kosme-supplied-20261010/5e191687391d12803c58.svg",
+            "png": "sources/kosme-supplied-20261010/f4e9656794973888414f.png"
+          },
+          "provider": "사용자 제공 기관 CI 원본 AI",
+          "origin": "manual",
+          "order": 7,
+          "source_original": "sources/kosme-supplied-20261010/b80833b412ffe3244a92.zip"
+        },
+        {
+          "key": "supplied-stacked-ko",
+          "label": "국문 상하조합",
+          "form": "stacked",
+          "lockup": "stacked",
+          "lang": "ko",
+          "color": "original",
+          "light": false,
+          "files": {
+            "svg": "sources/kosme-supplied-20261010/b78392ac3c4bc06e2149.svg",
+            "png": "sources/kosme-supplied-20261010/6940148159775f6c1597.png"
+          },
+          "provider": "사용자 제공 기관 CI 원본 AI",
+          "origin": "manual",
+          "order": 8,
+          "source_original": "sources/kosme-supplied-20261010/b80833b412ffe3244a92.zip"
+        },
+        {
+          "key": "supplied-stacked-en",
+          "label": "영문 상하조합",
+          "form": "stacked",
+          "lockup": "stacked",
+          "lang": "en",
+          "color": "original",
+          "light": false,
+          "files": {
+            "svg": "sources/kosme-supplied-20261010/8fd56cb4cedc6909c99c.svg",
+            "png": "sources/kosme-supplied-20261010/523a4fa2336b716c735f.png"
+          },
+          "provider": "사용자 제공 기관 CI 원본 AI",
+          "origin": "manual",
+          "order": 9,
+          "source_original": "sources/kosme-supplied-20261010/b80833b412ffe3244a92.zip"
+        },
+        {
+          "key": "supplied-stacked-mixed",
+          "label": "국영문 상하조합",
+          "form": "stacked",
+          "lockup": "stacked",
+          "lang": "mixed",
+          "color": "original",
+          "light": false,
+          "files": {
+            "svg": "sources/kosme-supplied-20261010/b85aa22277dc69f43ea6.svg",
+            "png": "sources/kosme-supplied-20261010/ca2c6c775e9f165c720d.png"
+          },
+          "provider": "사용자 제공 기관 CI 원본 AI",
+          "origin": "manual",
+          "order": 10,
+          "source_original": "sources/kosme-supplied-20261010/b80833b412ffe3244a92.zip"
+        },
+        {
+          "key": "supplied-horizontal-en",
+          "label": "영문 좌우조합",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "en",
+          "color": "original",
+          "light": false,
+          "files": {
+            "svg": "sources/kosme-supplied-20261010/8b3e7be42d3c35eb7375.svg",
+            "png": "sources/kosme-supplied-20261010/2e7606012af4582e2a08.png"
+          },
+          "provider": "사용자 제공 기관 CI 원본 AI",
+          "origin": "manual",
+          "order": 11,
+          "source_original": "sources/kosme-supplied-20261010/b80833b412ffe3244a92.zip"
+        },
+        {
+          "key": "supplied-horizontal-mixed",
+          "label": "국영문 좌우조합",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "mixed",
+          "color": "original",
+          "light": false,
+          "files": {
+            "svg": "sources/kosme-supplied-20261010/cb2dddbfbee398157806.svg",
+            "png": "sources/kosme-supplied-20261010/debd9e01050a37f3916b.png"
+          },
+          "provider": "사용자 제공 기관 CI 원본 AI",
+          "origin": "manual",
+          "order": 12,
+          "source_original": "sources/kosme-supplied-20261010/b80833b412ffe3244a92.zip"
+        },
+        {
+          "key": "supplied-signature-vertical-ko",
+          "label": "국문 세로 시그니처",
+          "form": "vertical",
+          "lockup": "vertical",
+          "lang": "ko",
+          "color": "original",
+          "light": false,
+          "files": {
+            "svg": "sources/kosme-supplied-20261010/6c22b0c46b64a8a395f5.svg",
+            "png": "sources/kosme-supplied-20261010/f02ac24782e919a4a21b.png"
+          },
+          "provider": "사용자 제공 기관 CI 원본 AI",
+          "origin": "manual",
+          "order": 13,
+          "source_original": "sources/kosme-supplied-20261010/b80833b412ffe3244a92.zip"
+        },
+        {
+          "key": "supplied-wordmark-blue",
+          "label": "청색 단색 워드마크",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "ko",
+          "color": "original",
+          "light": false,
+          "files": {
+            "svg": "sources/kosme-supplied-20261010/5e0763f9801f2516c928.svg",
+            "png": "sources/kosme-supplied-20261010/870b5dc7ad6de6c1f753.png"
+          },
+          "provider": "사용자 제공 기관 CI 원본 AI",
+          "origin": "manual",
+          "order": 14,
+          "source_original": "sources/kosme-supplied-20261010/b80833b412ffe3244a92.zip"
+        },
+        {
+          "key": "supplied-wordmark-black",
+          "label": "검정 워드마크",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "ko",
+          "color": "original",
+          "light": false,
+          "files": {
+            "svg": "sources/kosme-supplied-20261010/ece8c65098fe4b34fcb8.svg",
+            "png": "sources/kosme-supplied-20261010/59efe1e703a17633f22a.png"
+          },
+          "provider": "사용자 제공 기관 CI 원본 AI",
+          "origin": "manual",
+          "order": 15,
+          "source_original": "sources/kosme-supplied-20261010/b80833b412ffe3244a92.zip"
+        },
+        {
+          "key": "supplied-wordmark-gold",
+          "label": "금색 워드마크",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "ko",
+          "color": "original",
+          "light": false,
+          "files": {
+            "svg": "sources/kosme-supplied-20261010/d50a068835c676d51240.svg",
+            "png": "sources/kosme-supplied-20261010/77276ae8e6322f473a76.png"
+          },
+          "provider": "사용자 제공 기관 CI 원본 AI",
+          "origin": "manual",
+          "order": 16,
+          "source_original": "sources/kosme-supplied-20261010/b80833b412ffe3244a92.zip"
+        },
+        {
+          "key": "supplied-wordmark-silver",
+          "label": "은색 워드마크",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "ko",
+          "color": "original",
+          "light": false,
+          "files": {
+            "svg": "sources/kosme-supplied-20261010/51cc5f59c241b2d91d3f.svg",
+            "png": "sources/kosme-supplied-20261010/ed52e148fc96f7ac8b83.png"
+          },
+          "provider": "사용자 제공 기관 CI 원본 AI",
+          "origin": "manual",
+          "order": 17,
+          "source_original": "sources/kosme-supplied-20261010/b80833b412ffe3244a92.zip"
+        },
+        {
+          "key": "supplied-wordmark-negative-color",
+          "label": "밝은 글자 컬러 심볼",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "ko",
+          "color": "original",
+          "light": true,
+          "files": {
+            "svg": "sources/kosme-supplied-20261010/41cebf0b3f22f5357892.svg",
+            "png": "sources/kosme-supplied-20261010/32329dcc6d7f5ddfe614.png"
+          },
+          "provider": "사용자 제공 기관 CI 원본 AI",
+          "origin": "manual",
+          "order": 18,
+          "source_original": "sources/kosme-supplied-20261010/b80833b412ffe3244a92.zip"
+        },
+        {
+          "key": "supplied-wordmark-white",
+          "label": "흰색 워드마크",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "ko",
+          "color": "white",
+          "light": true,
+          "files": {
+            "svg": "sources/kosme-supplied-20261010/ebd01d1e450a2b35f279.svg",
+            "png": "sources/kosme-supplied-20261010/fc3ac6b31a68af6590cb.png"
+          },
+          "provider": "사용자 제공 기관 CI 원본 AI",
+          "origin": "manual",
+          "order": 19,
+          "source_original": "sources/kosme-supplied-20261010/b80833b412ffe3244a92.zip"
+        },
+        {
+          "key": "supplied-slogan-horizontal",
+          "label": "슬로건 가로형",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "ko",
+          "color": "original",
+          "light": false,
+          "files": {
+            "svg": "sources/kosme-supplied-20261010/6dff0bb91a682fd812e2.svg",
+            "png": "sources/kosme-supplied-20261010/5bc6bb1bad833e49875b.png"
+          },
+          "provider": "사용자 제공 기관 CI 원본 AI",
+          "origin": "manual",
+          "order": 20,
+          "source_original": "sources/kosme-supplied-20261010/b80833b412ffe3244a92.zip"
+        },
+        {
+          "key": "supplied-slogan-left",
+          "label": "슬로건 3줄 좌측정렬",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "ko",
+          "color": "original",
+          "light": false,
+          "files": {
+            "svg": "sources/kosme-supplied-20261010/0d621b92e30071240e27.svg",
+            "png": "sources/kosme-supplied-20261010/09fe2a8c030ea6f2cb70.png"
+          },
+          "provider": "사용자 제공 기관 CI 원본 AI",
+          "origin": "manual",
+          "order": 21,
+          "source_original": "sources/kosme-supplied-20261010/b80833b412ffe3244a92.zip"
+        },
+        {
+          "key": "supplied-slogan-center",
+          "label": "슬로건 3줄 중앙정렬",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "ko",
+          "color": "original",
+          "light": false,
+          "files": {
+            "svg": "sources/kosme-supplied-20261010/60906156cb34898ee956.svg",
+            "png": "sources/kosme-supplied-20261010/cfcaa3a5d0b9805cf6d0.png"
+          },
+          "provider": "사용자 제공 기관 CI 원본 AI",
+          "origin": "manual",
+          "order": 22,
+          "source_original": "sources/kosme-supplied-20261010/b80833b412ffe3244a92.zip"
+        },
+        {
+          "key": "supplied-slogan-signature-top",
+          "label": "슬로건 상단 시그니처",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "ko",
+          "color": "original",
+          "light": false,
+          "files": {
+            "svg": "sources/kosme-supplied-20261010/a26c54bc06d24c8e61b6.svg",
+            "png": "sources/kosme-supplied-20261010/aa25e04dec967446a3a0.png"
+          },
+          "provider": "사용자 제공 기관 CI 원본 AI",
+          "origin": "manual",
+          "order": 23,
+          "source_original": "sources/kosme-supplied-20261010/b80833b412ffe3244a92.zip"
+        },
+        {
+          "key": "supplied-slogan-signature-bottom",
+          "label": "슬로건 하단 시그니처",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "ko",
+          "color": "original",
+          "light": false,
+          "files": {
+            "svg": "sources/kosme-supplied-20261010/f72735c7a1f2d0f7f52f.svg",
+            "png": "sources/kosme-supplied-20261010/e1a31677ac072bcf41c5.png"
+          },
+          "provider": "사용자 제공 기관 CI 원본 AI",
+          "origin": "manual",
+          "order": 24,
+          "source_original": "sources/kosme-supplied-20261010/b80833b412ffe3244a92.zip"
+        },
+        {
+          "key": "supplied-emblem-color",
+          "label": "컬러 엠블럼",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "ko",
+          "color": "original",
+          "light": false,
+          "files": {
+            "svg": "sources/kosme-supplied-20261010/a8aa1ec14994b595837b.svg",
+            "png": "sources/kosme-supplied-20261010/1ab424782a842fc8a34b.png"
+          },
+          "provider": "사용자 제공 기관 CI 원본 AI",
+          "origin": "manual",
+          "order": 25,
+          "source_original": "sources/kosme-supplied-20261010/b80833b412ffe3244a92.zip"
+        },
+        {
+          "key": "supplied-emblem-gold",
+          "label": "금색 엠블럼",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "ko",
+          "color": "original",
+          "light": false,
+          "files": {
+            "svg": "sources/kosme-supplied-20261010/8adfced1c418c30a7ec3.svg",
+            "png": "sources/kosme-supplied-20261010/276a12a8e46cb9b5dba3.png"
+          },
+          "provider": "사용자 제공 기관 CI 원본 AI",
+          "origin": "manual",
+          "order": 26,
+          "source_original": "sources/kosme-supplied-20261010/b80833b412ffe3244a92.zip"
+        },
+        {
+          "key": "supplied-emblem-silver",
+          "label": "은색 엠블럼",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "ko",
+          "color": "original",
+          "light": false,
+          "files": {
+            "svg": "sources/kosme-supplied-20261010/73cfab7febffda2a7492.svg",
+            "png": "sources/kosme-supplied-20261010/fa9e9eb04c25fafbd4aa.png"
+          },
+          "provider": "사용자 제공 기관 CI 원본 AI",
+          "origin": "manual",
+          "order": 27,
+          "source_original": "sources/kosme-supplied-20261010/b80833b412ffe3244a92.zip"
+        },
+        {
+          "key": "supplied-emblem-black",
+          "label": "검정 엠블럼",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "ko",
+          "color": "original",
+          "light": false,
+          "files": {
+            "svg": "sources/kosme-supplied-20261010/953a816349f1fd2b3e90.svg",
+            "png": "sources/kosme-supplied-20261010/102bbc813d1fe4d6691c.png"
+          },
+          "provider": "사용자 제공 기관 CI 원본 AI",
+          "origin": "manual",
+          "order": 28,
+          "source_original": "sources/kosme-supplied-20261010/b80833b412ffe3244a92.zip"
+        }
+      ]
+    }
+  },
+  "source_url": "https://www.kosmes.or.kr/nsh/SH/SIT/SHSIT003M0.do",
+  "checked_at": "2026-10-10",
+  "existing_primary_preserved": true,
+  "new_variants": 28
+}

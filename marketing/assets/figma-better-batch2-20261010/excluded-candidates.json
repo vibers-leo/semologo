@@ -1,0 +1,27 @@
+[
+  {
+    "id": "wework",
+    "color": "black",
+    "reason": "같은 색상·아트 중복. 동일 벡터 또는 검정 SVG 우선"
+  },
+  {
+    "id": "palantir",
+    "color": "black",
+    "reason": "같은 색상·아트 중복. 동일 벡터 또는 검정 SVG 우선"
+  },
+  {
+    "id": "mozilla",
+    "color": "original",
+    "reason": "같은 색상·아트 중복. 동일 벡터 또는 검정 SVG 우선"
+  },
+  {
+    "id": "logitech",
+    "color": "black",
+    "reason": "같은 색상·아트 중복. 동일 벡터 또는 검정 SVG 우선"
+  },
+  {
+    "id": "the-new-york-times",
+    "color": "original",
+    "reason": "같은 색상·아트 중복. 동일 벡터 또는 검정 SVG 우선"
+  }
+]

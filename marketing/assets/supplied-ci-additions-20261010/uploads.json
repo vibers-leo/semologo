@@ -1,0 +1,366 @@
+[
+  {
+    "id": "yeonsu",
+    "file": "marketing/assets/supplied-ci-additions-20261010/yeonsu-originals.zip",
+    "key": "_clients/yeonsu/sources/supplied-ci-additions-20261010/21c683a37f059ac200fa.zip",
+    "sha256": "21c683a37f059ac200fac8d969990a15fb33078ac65f2503172e3149c9d23575",
+    "bytes": 807434
+  },
+  {
+    "id": "yeonsu",
+    "file": "marketing/assets/yeonsu-ci-supplied-20261010/reviewed/04-ko-horizontal/logo.svg",
+    "key": "_clients/yeonsu/sources/supplied-ci-additions-20261010/043efffeaec230457c10.svg",
+    "sha256": "043efffeaec230457c105ca647f2f9cfd6a157bb60554bfc6097d35b0f72d7e1",
+    "bytes": 2703
+  },
+  {
+    "id": "yeonsu",
+    "file": "marketing/assets/yeonsu-ci-supplied-20261010/reviewed/04-ko-horizontal/logo.png",
+    "key": "_clients/yeonsu/sources/supplied-ci-additions-20261010/1d49a7836a30b891f69d.png",
+    "sha256": "1d49a7836a30b891f69d4c926c75e3db4a0501958e5c5de76e30945e88c94875",
+    "bytes": 42858
+  },
+  {
+    "id": "yeonsu",
+    "file": "marketing/assets/yeonsu-ci-supplied-20261010/reviewed/04-zh-horizontal/logo.svg",
+    "key": "_clients/yeonsu/sources/supplied-ci-additions-20261010/201867729c9570144df9.svg",
+    "sha256": "201867729c9570144df9d60df8f87ba63f1f80957ca0bfd40a58d0f8a0870511",
+    "bytes": 5260
+  },
+  {
+    "id": "yeonsu",
+    "file": "marketing/assets/yeonsu-ci-supplied-20261010/reviewed/04-zh-horizontal/logo.png",
+    "key": "_clients/yeonsu/sources/supplied-ci-additions-20261010/239ce99e37eb1c9ca42c.png",
+    "sha256": "239ce99e37eb1c9ca42c733484ef95beda01c7d3fc0f7f0fefadee38df11331f",
+    "bytes": 46791
+  },
+  {
+    "id": "yeonsu",
+    "file": "marketing/assets/yeonsu-ci-supplied-20261010/reviewed/04-en-horizontal/logo.svg",
+    "key": "_clients/yeonsu/sources/supplied-ci-additions-20261010/f8b1e4cbe223eae1b35f.svg",
+    "sha256": "f8b1e4cbe223eae1b35ff6fe12dd990a5fe48278c7172117ccbcbfea7126c566",
+    "bytes": 5479
+  },
+  {
+    "id": "yeonsu",
+    "file": "marketing/assets/yeonsu-ci-supplied-20261010/reviewed/04-en-horizontal/logo.png",
+    "key": "_clients/yeonsu/sources/supplied-ci-additions-20261010/3e7d74a0810bae34460c.png",
+    "sha256": "3e7d74a0810bae34460cf64c8a36a7fc5e43ab0f7abfde998087c6a92a0612ff",
+    "bytes": 46148
+  },
+  {
+    "id": "yeonsu",
+    "file": "marketing/assets/yeonsu-ci-supplied-20261010/reviewed/04-ko-en-horizontal/logo.svg",
+    "key": "_clients/yeonsu/sources/supplied-ci-additions-20261010/ca5ee31b9096b4a4d471.svg",
+    "sha256": "ca5ee31b9096b4a4d4715300ae42f39694b45b869f5ad717f0e8e76a168a44c9",
+    "bytes": 7124
+  },
+  {
+    "id": "yeonsu",
+    "file": "marketing/assets/yeonsu-ci-supplied-20261010/reviewed/04-ko-en-horizontal/logo.png",
+    "key": "_clients/yeonsu/sources/supplied-ci-additions-20261010/b8651aaf809c8284df15.png",
+    "sha256": "b8651aaf809c8284df15f33fc5605a122e2855701cf8a13e2d1d551e34c792e6",
+    "bytes": 62863
+  },
+  {
+    "id": "yeonsu",
+    "file": "marketing/assets/yeonsu-ci-supplied-20261010/reviewed/04-zh-en-horizontal/logo.svg",
+    "key": "_clients/yeonsu/sources/supplied-ci-additions-20261010/202d18ce9e66226ece0d.svg",
+    "sha256": "202d18ce9e66226ece0d5487aef049c02a96775dfcd71ee30826dc4d66607304",
+    "bytes": 9671
+  },
+  {
+    "id": "yeonsu",
+    "file": "marketing/assets/yeonsu-ci-supplied-20261010/reviewed/04-zh-en-horizontal/logo.png",
+    "key": "_clients/yeonsu/sources/supplied-ci-additions-20261010/bd77240145edfe75cf89.png",
+    "sha256": "bd77240145edfe75cf8919cbe03e50e863b2afa835a49ba06aacd491b25fec84",
+    "bytes": 66648
+  },
+  {
+    "id": "yeonsu",
+    "file": "marketing/assets/yeonsu-ci-supplied-20261010/reviewed/05-ko-horizontal/logo.svg",
+    "key": "_clients/yeonsu/sources/supplied-ci-additions-20261010/e15fbac6455d0bb43889.svg",
+    "sha256": "e15fbac6455d0bb43889bcaa2a2203346e5a09c3e1c686a7fb60ba9f5b96cb6c",
+    "bytes": 6172
+  },
+  {
+    "id": "yeonsu",
+    "file": "marketing/assets/yeonsu-ci-supplied-20261010/reviewed/05-ko-horizontal/logo.png",
+    "key": "_clients/yeonsu/sources/supplied-ci-additions-20261010/c3c2134ceb2ca12db355.png",
+    "sha256": "c3c2134ceb2ca12db355524e056f8310cbc79b3d96f3c082a77c4a7ce45a9437",
+    "bytes": 36648
+  },
+  {
+    "id": "yeonsu",
+    "file": "marketing/assets/yeonsu-ci-supplied-20261010/reviewed/05-zh-horizontal/logo.svg",
+    "key": "_clients/yeonsu/sources/supplied-ci-additions-20261010/1c1153343c178298b2a3.svg",
+    "sha256": "1c1153343c178298b2a3925e521561e78fcd8166f1d387372607577b40d67ed7",
+    "bytes": 12087
+  },
+  {
+    "id": "yeonsu",
+    "file": "marketing/assets/yeonsu-ci-supplied-20261010/reviewed/05-zh-horizontal/logo.png",
+    "key": "_clients/yeonsu/sources/supplied-ci-additions-20261010/408efd33c07fc2553c2e.png",
+    "sha256": "408efd33c07fc2553c2e5aff4c3d73f53c87b8dfbce9f7db5c42dbe36649410b",
+    "bytes": 42731
+  },
+  {
+    "id": "yeonsu",
+    "file": "marketing/assets/yeonsu-ci-supplied-20261010/reviewed/05-en-horizontal/logo.svg",
+    "key": "_clients/yeonsu/sources/supplied-ci-additions-20261010/8cb463cd74bda9b9cbf5.svg",
+    "sha256": "8cb463cd74bda9b9cbf502e1ca779fea11b78e6008e656c87a2fef3c73633d79",
+    "bytes": 12589
+  },
+  {
+    "id": "yeonsu",
+    "file": "marketing/assets/yeonsu-ci-supplied-20261010/reviewed/05-en-horizontal/logo.png",
+    "key": "_clients/yeonsu/sources/supplied-ci-additions-20261010/8db1d6599050cce6c142.png",
+    "sha256": "8db1d6599050cce6c142dadf9bdb20c5d5d585ec37041882bbd6655eebf40bbd",
+    "bytes": 53765
+  },
+  {
+    "id": "yeonsu",
+    "file": "marketing/assets/yeonsu-ci-supplied-20261010/reviewed/05-ko-en-horizontal/logo.svg",
+    "key": "_clients/yeonsu/sources/supplied-ci-additions-20261010/ae5159c27a53f0737cd0.svg",
+    "sha256": "ae5159c27a53f0737cd0ba43e599afd9b4ba8c09a0585f246c87ebb9c6cb15d8",
+    "bytes": 17682
+  },
+  {
+    "id": "yeonsu",
+    "file": "marketing/assets/yeonsu-ci-supplied-20261010/reviewed/05-ko-en-horizontal/logo.png",
+    "key": "_clients/yeonsu/sources/supplied-ci-additions-20261010/963b2cc8c11f543ca9d2.png",
+    "sha256": "963b2cc8c11f543ca9d21a277445aa584dae96cb108ba033f8f7548fed82b0ff",
+    "bytes": 62090
+  },
+  {
+    "id": "yeonsu",
+    "file": "marketing/assets/yeonsu-ci-supplied-20261010/reviewed/05-zh-en-horizontal/logo.svg",
+    "key": "_clients/yeonsu/sources/supplied-ci-additions-20261010/a2c10b1f7e225c5cdff8.svg",
+    "sha256": "a2c10b1f7e225c5cdff866a741cb0d0a2b8a311affc61bec613df868412a6b05",
+    "bytes": 23530
+  },
+  {
+    "id": "yeonsu",
+    "file": "marketing/assets/yeonsu-ci-supplied-20261010/reviewed/05-zh-en-horizontal/logo.png",
+    "key": "_clients/yeonsu/sources/supplied-ci-additions-20261010/338a3d70027ff7c388d9.png",
+    "sha256": "338a3d70027ff7c388d917a99831187a70429d3128613a9c518ebdd2cf1d7b57",
+    "bytes": 67510
+  },
+  {
+    "id": "yeonsu",
+    "file": "marketing/assets/yeonsu-ci-supplied-20261010/reviewed/07-ko-stacked/logo.svg",
+    "key": "_clients/yeonsu/sources/supplied-ci-additions-20261010/b5854230bebd0226c50a.svg",
+    "sha256": "b5854230bebd0226c50a02410897a96cda28d526db71aab24dd3ad0f6ec645e5",
+    "bytes": 2709
+  },
+  {
+    "id": "yeonsu",
+    "file": "marketing/assets/yeonsu-ci-supplied-20261010/reviewed/07-ko-stacked/logo.png",
+    "key": "_clients/yeonsu/sources/supplied-ci-additions-20261010/9b599a6f6fd6176c0da8.png",
+    "sha256": "9b599a6f6fd6176c0da862a9228d798c2458219f20e8f20a02aaef9970285c24",
+    "bytes": 70573
+  },
+  {
+    "id": "yeonsu",
+    "file": "marketing/assets/yeonsu-ci-supplied-20261010/reviewed/07-zh-stacked/logo.svg",
+    "key": "_clients/yeonsu/sources/supplied-ci-additions-20261010/522358c3189ee469579b.svg",
+    "sha256": "522358c3189ee469579babe43ed93839ea18c44ad98900e98ba0ed9dd47be49d",
+    "bytes": 5216
+  },
+  {
+    "id": "yeonsu",
+    "file": "marketing/assets/yeonsu-ci-supplied-20261010/reviewed/07-zh-stacked/logo.png",
+    "key": "_clients/yeonsu/sources/supplied-ci-additions-20261010/378cc6162642e828aead.png",
+    "sha256": "378cc6162642e828aead094c8dff68128ff1250528bd1065a387efc7163ff46d",
+    "bytes": 73629
+  },
+  {
+    "id": "yeonsu",
+    "file": "marketing/assets/yeonsu-ci-supplied-20261010/reviewed/07-en-stacked/logo.svg",
+    "key": "_clients/yeonsu/sources/supplied-ci-additions-20261010/f331b7ef1931c95f1493.svg",
+    "sha256": "f331b7ef1931c95f1493d5d9c20a3ce29ca2fb60f6be91fae94df96553d42a36",
+    "bytes": 5448
+  },
+  {
+    "id": "yeonsu",
+    "file": "marketing/assets/yeonsu-ci-supplied-20261010/reviewed/07-en-stacked/logo.png",
+    "key": "_clients/yeonsu/sources/supplied-ci-additions-20261010/fb04aa7a4f559b329664.png",
+    "sha256": "fb04aa7a4f559b32966461a8b47175bfe04ff9d8c504d9dae07536864638b795",
+    "bytes": 63159
+  },
+  {
+    "id": "yeonsu",
+    "file": "marketing/assets/yeonsu-ci-supplied-20261010/reviewed/07-ko-en-stacked/logo.svg",
+    "key": "_clients/yeonsu/sources/supplied-ci-additions-20261010/6a0ccee8d352958a5603.svg",
+    "sha256": "6a0ccee8d352958a5603d70894f69a93feeb360503866b99d13775ffdca9ee64",
+    "bytes": 7115
+  },
+  {
+    "id": "yeonsu",
+    "file": "marketing/assets/yeonsu-ci-supplied-20261010/reviewed/07-ko-en-stacked/logo.png",
+    "key": "_clients/yeonsu/sources/supplied-ci-additions-20261010/c4a2c03965d32fb30fd9.png",
+    "sha256": "c4a2c03965d32fb30fd91171c321a4a01cafec6eb777e08a6e84f68db42ac946",
+    "bytes": 90418
+  },
+  {
+    "id": "yeonsu",
+    "file": "marketing/assets/yeonsu-ci-supplied-20261010/reviewed/07-zh-en-stacked/logo.svg",
+    "key": "_clients/yeonsu/sources/supplied-ci-additions-20261010/3130890285b16783aebb.svg",
+    "sha256": "3130890285b16783aebb371a90fe184ff43fc66885ae16503ed354330daccdeb",
+    "bytes": 9663
+  },
+  {
+    "id": "yeonsu",
+    "file": "marketing/assets/yeonsu-ci-supplied-20261010/reviewed/07-zh-en-stacked/logo.png",
+    "key": "_clients/yeonsu/sources/supplied-ci-additions-20261010/af4171ccb835a39f0d75.png",
+    "sha256": "af4171ccb835a39f0d75735eba592de224587a704fb42b06bf5111a35cb4c4d7",
+    "bytes": 94811
+  },
+  {
+    "id": "yeonsu",
+    "file": "marketing/assets/yeonsu-ci-supplied-20261010/reviewed/08-ko-stacked/logo.svg",
+    "key": "_clients/yeonsu/sources/supplied-ci-additions-20261010/88a00cbdf76fbe7ecb2c.svg",
+    "sha256": "88a00cbdf76fbe7ecb2ca62f7ffbef579b54e218fe1d368079f7f24eec31e2c1",
+    "bytes": 6168
+  },
+  {
+    "id": "yeonsu",
+    "file": "marketing/assets/yeonsu-ci-supplied-20261010/reviewed/08-ko-stacked/logo.png",
+    "key": "_clients/yeonsu/sources/supplied-ci-additions-20261010/1d31001f0899f7e9d222.png",
+    "sha256": "1d31001f0899f7e9d222168067affeec9a3ccf6b2b4c69f66397c3efd32926a3",
+    "bytes": 51404
+  },
+  {
+    "id": "yeonsu",
+    "file": "marketing/assets/yeonsu-ci-supplied-20261010/reviewed/08-zh-stacked/logo.svg",
+    "key": "_clients/yeonsu/sources/supplied-ci-additions-20261010/c0686e4972e9797365a6.svg",
+    "sha256": "c0686e4972e9797365a633bde0f763610b76650df6f3bf3c2e7eb6845f94283c",
+    "bytes": 11966
+  },
+  {
+    "id": "yeonsu",
+    "file": "marketing/assets/yeonsu-ci-supplied-20261010/reviewed/08-zh-stacked/logo.png",
+    "key": "_clients/yeonsu/sources/supplied-ci-additions-20261010/a4589abb761d8e957ba1.png",
+    "sha256": "a4589abb761d8e957ba1d95017f25b28a16fc43a20ebb3dd5bb43b3bb0100131",
+    "bytes": 57419
+  },
+  {
+    "id": "yeonsu",
+    "file": "marketing/assets/yeonsu-ci-supplied-20261010/reviewed/08-en-stacked/logo.svg",
+    "key": "_clients/yeonsu/sources/supplied-ci-additions-20261010/75c407fc03e61f0a1ec9.svg",
+    "sha256": "75c407fc03e61f0a1ec90c1dc4d46b884d9f6ecc08027c47c1e61489c949576d",
+    "bytes": 12553
+  },
+  {
+    "id": "yeonsu",
+    "file": "marketing/assets/yeonsu-ci-supplied-20261010/reviewed/08-en-stacked/logo.png",
+    "key": "_clients/yeonsu/sources/supplied-ci-additions-20261010/3f0ebce2f9e67e86c62d.png",
+    "sha256": "3f0ebce2f9e67e86c62d1659e539ed22d59cfbd6f8d4e4e693025fdbfe1dbbd8",
+    "bytes": 65025
+  },
+  {
+    "id": "yeonsu",
+    "file": "marketing/assets/yeonsu-ci-supplied-20261010/reviewed/08-ko-en-stacked/logo.svg",
+    "key": "_clients/yeonsu/sources/supplied-ci-additions-20261010/af143067fbaa6e09f0df.svg",
+    "sha256": "af143067fbaa6e09f0dfa0efcd177066c3cb7f8c39d34913992a3e6f89247462",
+    "bytes": 17687
+  },
+  {
+    "id": "yeonsu",
+    "file": "marketing/assets/yeonsu-ci-supplied-20261010/reviewed/08-ko-en-stacked/logo.png",
+    "key": "_clients/yeonsu/sources/supplied-ci-additions-20261010/1bc18b790f956d3bbabd.png",
+    "sha256": "1bc18b790f956d3bbabdd460194da66cbffdf9b3b47ef871b17c1f7f5c5ec82d",
+    "bytes": 76769
+  },
+  {
+    "id": "yeonsu",
+    "file": "marketing/assets/yeonsu-ci-supplied-20261010/reviewed/08-zh-en-stacked/logo.svg",
+    "key": "_clients/yeonsu/sources/supplied-ci-additions-20261010/2cad5a9f0942b9d585fe.svg",
+    "sha256": "2cad5a9f0942b9d585fe02476dde5a89aea6f27d4cd5cad8da3390311b2fd9c1",
+    "bytes": 23532
+  },
+  {
+    "id": "yeonsu",
+    "file": "marketing/assets/yeonsu-ci-supplied-20261010/reviewed/08-zh-en-stacked/logo.png",
+    "key": "_clients/yeonsu/sources/supplied-ci-additions-20261010/a88be00ba2b09f619f69.png",
+    "sha256": "a88be00ba2b09f619f692e4c9d139b010fb93ffc66367fd869a0af281cd9e5a5",
+    "bytes": 83631
+  },
+  {
+    "id": "yeonsu",
+    "file": "marketing/assets/yeonsu-ci-supplied-20261010/reviewed/04-symbol/logo.svg",
+    "key": "_clients/yeonsu/sources/supplied-ci-additions-20261010/ca51c8f9246e98b254ff.svg",
+    "sha256": "ca51c8f9246e98b254ffed1b84d68a12849d18a25f3e0b64d4ef4b403978070a",
+    "bytes": 1040
+  },
+  {
+    "id": "yeonsu",
+    "file": "marketing/assets/yeonsu-ci-supplied-20261010/reviewed/04-symbol/logo.png",
+    "key": "_clients/yeonsu/sources/supplied-ci-additions-20261010/7975db58ddc534d0990f.png",
+    "sha256": "7975db58ddc534d0990fd3ed421fe5dbaec2228562d9f5cf46444c3ae1a06490",
+    "bytes": 69972
+  },
+  {
+    "id": "yeonsu",
+    "file": "marketing/assets/yeonsu-ci-supplied-20261010/reviewed/04-logotype-ko/logo.svg",
+    "key": "_clients/yeonsu/sources/supplied-ci-additions-20261010/e287e96f12b557a89474.svg",
+    "sha256": "e287e96f12b557a89474af869de41b16e24b0908b1705f316d6e410b161f6997",
+    "bytes": 1854
+  },
+  {
+    "id": "yeonsu",
+    "file": "marketing/assets/yeonsu-ci-supplied-20261010/reviewed/04-logotype-ko/logo.png",
+    "key": "_clients/yeonsu/sources/supplied-ci-additions-20261010/8ff74b5f753135aee1b9.png",
+    "sha256": "8ff74b5f753135aee1b9682ed84855a576cb1b76f2f8d9a382d1eab7451a9e46",
+    "bytes": 32879
+  },
+  {
+    "id": "yeonsu",
+    "file": "marketing/assets/yeonsu-ci-supplied-20261010/reviewed/04-logotype-zh/logo.svg",
+    "key": "_clients/yeonsu/sources/supplied-ci-additions-20261010/f0792d04c026fba56026.svg",
+    "sha256": "f0792d04c026fba56026e65c989812096805fc6ecf682ea45db4ac7c40c412d4",
+    "bytes": 4390
+  },
+  {
+    "id": "yeonsu",
+    "file": "marketing/assets/yeonsu-ci-supplied-20261010/reviewed/04-logotype-zh/logo.png",
+    "key": "_clients/yeonsu/sources/supplied-ci-additions-20261010/3d39bec043e23316f0f0.png",
+    "sha256": "3d39bec043e23316f0f0b9e355a39090717d083e858880f5572c476225e9c377",
+    "bytes": 38434
+  },
+  {
+    "id": "yeonsu",
+    "file": "marketing/assets/yeonsu-ci-supplied-20261010/reviewed/04-logotype-en/logo.svg",
+    "key": "_clients/yeonsu/sources/supplied-ci-additions-20261010/2ea596e2ce7b363e62c3.svg",
+    "sha256": "2ea596e2ce7b363e62c37ee82ae3bcddbecbbfec86bb13462d2cb4cb00506f21",
+    "bytes": 4624
+  },
+  {
+    "id": "yeonsu",
+    "file": "marketing/assets/yeonsu-ci-supplied-20261010/reviewed/04-logotype-en/logo.png",
+    "key": "_clients/yeonsu/sources/supplied-ci-additions-20261010/051855b43ff71acd8ced.png",
+    "sha256": "051855b43ff71acd8ced194805251509f34ce500379412515cb5726f850cdcff",
+    "bytes": 39781
+  },
+  {
+    "id": "kr-kepco",
+    "file": "marketing/assets/supplied-ci-additions-20261010/kr-kepco-originals.zip",
+    "key": "_clients/kr-kepco/sources/supplied-ci-additions-20261010/850a19d38ecf76eb69de.zip",
+    "sha256": "850a19d38ecf76eb69deb93d9b0fbab39ebe7643c8653ed124b71039d47db4d1",
+    "bytes": 2660120
+  },
+  {
+    "id": "kr-kepco",
+    "file": "marketing/assets/supplied-ci-additions-20261010/kepco-ko-logotype.svg",
+    "key": "_clients/kr-kepco/sources/supplied-ci-additions-20261010/bc49bb47f394e78870e3.svg",
+    "sha256": "bc49bb47f394e78870e31d3e0a1482fc36aca46d6e3509dba45752c69803b231",
+    "bytes": 4562
+  },
+  {
+    "id": "kr-kepco",
+    "file": "marketing/assets/supplied-ci-additions-20261010/kepco-ko-logotype.png",
+    "key": "_clients/kr-kepco/sources/supplied-ci-additions-20261010/839b63f3ab15da9cc055.png",
+    "sha256": "839b63f3ab15da9cc055091088fffdc2ba55c6b16b76d40175d7169eff14c8ba",
+    "bytes": 26841
+  }
+]

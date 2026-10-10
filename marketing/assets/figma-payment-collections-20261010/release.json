@@ -1,0 +1,1788 @@
+{
+  "patches": {
+    "google-pay": {
+      "variants_n": 5
+    },
+    "apple-pay": {
+      "variants_n": 3
+    },
+    "visa": {
+      "variants_n": 5
+    },
+    "mastercard": {
+      "variants_n": 4
+    },
+    "maestro": {
+      "variants_n": 4
+    },
+    "stripe": {
+      "variants_n": 6
+    },
+    "skrill": {
+      "variants_n": 4
+    },
+    "klarna": {
+      "variants_n": 5
+    },
+    "amazon-pay": {
+      "variants_n": 4
+    },
+    "mercadopago": {
+      "variants_n": 5
+    },
+    "diners": {
+      "variants_n": 4
+    },
+    "shop-pay": {
+      "variants_n": 2,
+      "id": "shop-pay",
+      "name_en": "Shop Pay",
+      "name_ko": "Shop Pay",
+      "category": "금융·결제",
+      "origin": "GLOBAL",
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": "sources/community-payment-20261010/aacf213f2f3aabc9.svg",
+      "svg_transparent": "sources/community-payment-20261010/aacf213f2f3aabc9.svg",
+      "logo_png": "sources/community-payment-20261010/08a7d3946ff07da8.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/shop-pay/sources/community-payment-20261010/4ea871c54bd506b2.png",
+      "asset_origin": "사용자 제공 Figma Community 수집본",
+      "asset_review_status": "verified",
+      "sources": [
+        {
+          "provider": "figma-community",
+          "file": "Logos - Payment (Community).svg",
+          "label": "사용자 제공 커뮤니티 수록본"
+        }
+      ],
+      "metadata": {
+        "has_svg": true,
+        "has_png": true,
+        "added_at": "2026-10-10"
+      },
+      "aliases": [
+        "샵페이",
+        "ShopPay",
+        "쇼피파이 페이"
+      ],
+      "presentation": {
+        "file": "sources/community-payment-20261010/08a7d3946ff07da8.png",
+        "bg": "light"
+      },
+      "official_asset_reviewed": false,
+      "added_at": "2026-10-10",
+      "logo_published_at": "2026-10-10T13:25:47Z"
+    },
+    "paypal": {
+      "variants_n": 5
+    },
+    "discover": {
+      "variants_n": 4
+    },
+    "bitpay": {
+      "variants_n": 2
+    },
+    "bitcoin": {
+      "variants_n": 5
+    },
+    "payoneer": {
+      "variants_n": 5
+    },
+    "ethereum": {
+      "variants_n": 3
+    },
+    "verifone": {
+      "variants_n": 4
+    },
+    "western-union": {
+      "variants_n": 3
+    }
+  },
+  "variants": {
+    "google-pay": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "google-pay",
+      "primary": "horizontal",
+      "fingerprint": {
+        "logo.svg": "e4081ded49ff96e0",
+        "sources/fa.svg": "e4081ded49ff96e0",
+        "sources/iconify/google-pay.svg": "18f385f325901cda",
+        "sources/wvl/google-pay.svg": "da1c0c417bb01b12",
+        "sources/iconify/google-pay-icon.svg": "c42fb2cb025126b0"
+      },
+      "variants": [
+        {
+          "key": "horizontal",
+          "form": "horizontal",
+          "lang": "en",
+          "color": "mono-dark",
+          "label": "가로조합형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 2.473,
+          "provider": "font-awesome",
+          "origin": "collected",
+          "order": 10,
+          "alts": [
+            {
+              "provider": "iconify",
+              "file": "sources/iconify/google-pay.svg"
+            },
+            {
+              "provider": "wvl",
+              "file": "sources/wvl/google-pay.svg"
+            },
+            {
+              "provider": "font-awesome",
+              "file": "sources/fa.svg"
+            }
+          ]
+        },
+        {
+          "key": "symbol",
+          "form": "symbol",
+          "lang": "en",
+          "color": "color",
+          "label": "심볼형",
+          "files": {
+            "svg": "sources/iconify/google-pay-icon.svg"
+          },
+          "aspect": 1.174,
+          "provider": "iconify",
+          "origin": "collected",
+          "order": 30
+        },
+        {
+          "key": "community-payment-color",
+          "label": "컬러 · 커뮤니티 수록 변형",
+          "form": "wordmark",
+          "lang": "en",
+          "color": "color",
+          "files": {
+            "svg": "sources/community-payment-20261010/47606839e3c06e46.svg",
+            "png": "sources/community-payment-20261010/43bc78bc4fe44097.png"
+          },
+          "preview_png": "sources/community-payment-20261010/251216d2336b2d11.png",
+          "provider": "figma-community",
+          "origin": "collected",
+          "official_distribution": false,
+          "order": 90,
+          "source_note": "사용자 제공 Logos - Payment (Community).svg에서 원본 벡터 경로/색상을 보존해 카드틀 없이 추출한 커뮤니티 변형. 공식 화이트/흑백 배포본으로 인증된 자료가 아니며 기존 공식 원본과 대표 이미지는 유지."
+        },
+        {
+          "key": "community-payment-black",
+          "label": "검정 · 커뮤니티 수록 변형",
+          "form": "wordmark",
+          "lang": "en",
+          "color": "black",
+          "files": {
+            "svg": "sources/community-payment-20261010/42a8ccd177fc2051.svg",
+            "png": "sources/community-payment-20261010/a32b790e7dc69124.png"
+          },
+          "preview_png": "sources/community-payment-20261010/0e20799ae76593ae.png",
+          "provider": "figma-community",
+          "origin": "collected",
+          "official_distribution": false,
+          "order": 91,
+          "source_note": "사용자 제공 Logos - Payment (Community).svg에서 원본 벡터 경로/색상을 보존해 카드틀 없이 추출한 커뮤니티 변형. 공식 화이트/흑백 배포본으로 인증된 자료가 아니며 기존 공식 원본과 대표 이미지는 유지."
+        },
+        {
+          "key": "community-payment-white",
+          "label": "화이트 · 커뮤니티 수록 변형",
+          "form": "wordmark",
+          "lang": "en",
+          "color": "white",
+          "files": {
+            "svg": "sources/community-payment-20261010/0dc35f8831da3533.svg",
+            "png": "sources/community-payment-20261010/caac111945d1c006.png"
+          },
+          "preview_png": "sources/community-payment-20261010/3cc60bc0058cafef.png",
+          "provider": "figma-community",
+          "origin": "collected",
+          "official_distribution": false,
+          "order": 92,
+          "source_note": "사용자 제공 Logos - Payment (Community).svg에서 원본 벡터 경로/색상을 보존해 카드틀 없이 추출한 커뮤니티 변형. 공식 화이트/흑백 배포본으로 인증된 자료가 아니며 기존 공식 원본과 대표 이미지는 유지."
+        }
+      ]
+    },
+    "apple-pay": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "apple-pay",
+      "primary": "horizontal",
+      "fingerprint": {
+        "logo.svg": "0137335a0c1be40c",
+        "sources/fa.svg": "0137335a0c1be40c",
+        "sources/iconify/apple-pay.svg": "0c1caa1cb46ef74c",
+        "sources/wvl/apple-pay.svg": "3b16dbb8f5f02b32"
+      },
+      "variants": [
+        {
+          "key": "horizontal",
+          "form": "horizontal",
+          "lang": "en",
+          "color": "mono-dark",
+          "label": "가로조합형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 1.284,
+          "provider": "font-awesome",
+          "origin": "collected",
+          "order": 10,
+          "alts": [
+            {
+              "provider": "iconify",
+              "file": "sources/iconify/apple-pay.svg"
+            },
+            {
+              "provider": "wvl",
+              "file": "sources/wvl/apple-pay.svg"
+            },
+            {
+              "provider": "font-awesome",
+              "file": "sources/fa.svg"
+            }
+          ]
+        },
+        {
+          "key": "community-payment-color",
+          "label": "컬러 · 커뮤니티 수록 변형",
+          "form": "wordmark",
+          "lang": "en",
+          "color": "color",
+          "files": {
+            "svg": "sources/community-payment-20261010/e8801435a86c3be7.svg",
+            "png": "sources/community-payment-20261010/a3d5abd9fe0e65b2.png"
+          },
+          "preview_png": "sources/community-payment-20261010/d029cbad80fca1f9.png",
+          "provider": "figma-community",
+          "origin": "collected",
+          "official_distribution": false,
+          "order": 90,
+          "source_note": "사용자 제공 Logos - Payment (Community).svg에서 원본 벡터 경로/색상을 보존해 카드틀 없이 추출한 커뮤니티 변형. 공식 화이트/흑백 배포본으로 인증된 자료가 아니며 기존 공식 원본과 대표 이미지는 유지."
+        },
+        {
+          "key": "community-payment-white",
+          "label": "화이트 · 커뮤니티 수록 변형",
+          "form": "wordmark",
+          "lang": "en",
+          "color": "white",
+          "files": {
+            "svg": "sources/community-payment-20261010/5aee44b03ff04f29.svg",
+            "png": "sources/community-payment-20261010/b90ba65dd0674a7a.png"
+          },
+          "preview_png": "sources/community-payment-20261010/1f1047d573d5fbd3.png",
+          "provider": "figma-community",
+          "origin": "collected",
+          "official_distribution": false,
+          "order": 92,
+          "source_note": "사용자 제공 Logos - Payment (Community).svg에서 원본 벡터 경로/색상을 보존해 카드틀 없이 추출한 커뮤니티 변형. 공식 화이트/흑백 배포본으로 인증된 자료가 아니며 기존 공식 원본과 대표 이미지는 유지."
+        }
+      ]
+    },
+    "visa": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "visa",
+      "primary": "wordmark",
+      "fingerprint": {
+        "logo.svg": "b2f6016461022ff2",
+        "sources/supertiny/visa.svg": "c4bf7b230b409c4e"
+      },
+      "variants": [
+        {
+          "key": "horizontal",
+          "form": "horizontal",
+          "lang": "unknown",
+          "color": "color",
+          "label": "가로조합형",
+          "files": {
+            "svg": "sources/supertiny/visa.svg",
+            "png": "sources/supertiny/visa.png"
+          },
+          "aspect": 2.893,
+          "provider": "supertiny",
+          "origin": "collected",
+          "order": 10
+        },
+        {
+          "key": "wordmark",
+          "form": "wordmark",
+          "lang": "en",
+          "color": "color",
+          "label": "워드마크형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 3.082,
+          "provider": "simple-icons",
+          "origin": "collected",
+          "order": 40
+        },
+        {
+          "key": "community-payment-color",
+          "label": "컬러 · 커뮤니티 수록 변형",
+          "form": "wordmark",
+          "lang": "en",
+          "color": "color",
+          "files": {
+            "svg": "sources/community-payment-20261010/0792618c19775b0f.svg",
+            "png": "sources/community-payment-20261010/4488a41cf7d63c64.png"
+          },
+          "preview_png": "sources/community-payment-20261010/a3c86214e7956fc6.png",
+          "provider": "figma-community",
+          "origin": "collected",
+          "official_distribution": false,
+          "order": 90,
+          "source_note": "사용자 제공 Logos - Payment (Community).svg에서 원본 벡터 경로/색상을 보존해 카드틀 없이 추출한 커뮤니티 변형. 공식 화이트/흑백 배포본으로 인증된 자료가 아니며 기존 공식 원본과 대표 이미지는 유지."
+        },
+        {
+          "key": "community-payment-black",
+          "label": "검정 · 커뮤니티 수록 변형",
+          "form": "wordmark",
+          "lang": "en",
+          "color": "black",
+          "files": {
+            "svg": "sources/community-payment-20261010/af3744e0ea41a7cc.svg",
+            "png": "sources/community-payment-20261010/7ee2abb266b24737.png"
+          },
+          "preview_png": "sources/community-payment-20261010/11ba982e170ac5f6.png",
+          "provider": "figma-community",
+          "origin": "collected",
+          "official_distribution": false,
+          "order": 91,
+          "source_note": "사용자 제공 Logos - Payment (Community).svg에서 원본 벡터 경로/색상을 보존해 카드틀 없이 추출한 커뮤니티 변형. 공식 화이트/흑백 배포본으로 인증된 자료가 아니며 기존 공식 원본과 대표 이미지는 유지."
+        },
+        {
+          "key": "community-payment-white",
+          "label": "화이트 · 커뮤니티 수록 변형",
+          "form": "wordmark",
+          "lang": "en",
+          "color": "white",
+          "files": {
+            "svg": "sources/community-payment-20261010/60a44fe2c3967878.svg",
+            "png": "sources/community-payment-20261010/177950ead04b1573.png"
+          },
+          "preview_png": "sources/community-payment-20261010/8772bc8e8ac9629d.png",
+          "provider": "figma-community",
+          "origin": "collected",
+          "official_distribution": false,
+          "order": 92,
+          "source_note": "사용자 제공 Logos - Payment (Community).svg에서 원본 벡터 경로/색상을 보존해 카드틀 없이 추출한 커뮤니티 변형. 공식 화이트/흑백 배포본으로 인증된 자료가 아니며 기존 공식 원본과 대표 이미지는 유지."
+        }
+      ]
+    },
+    "mastercard": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "mastercard",
+      "primary": "horizontal",
+      "fingerprint": {
+        "logo.svg": "40b4c7e1223b5ed7",
+        "sources/supertiny/mastercard.svg": "a6af059078673759"
+      },
+      "variants": [
+        {
+          "key": "horizontal",
+          "form": "horizontal",
+          "lang": "en",
+          "color": "color",
+          "label": "가로조합형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 1.619,
+          "provider": "simple-icons",
+          "origin": "collected",
+          "order": 10,
+          "alts": [
+            {
+              "provider": "supertiny",
+              "file": "sources/supertiny/mastercard.svg"
+            }
+          ]
+        },
+        {
+          "key": "community-payment-color",
+          "label": "컬러 · 커뮤니티 수록 변형",
+          "form": "symbol",
+          "lang": "none",
+          "color": "color",
+          "files": {
+            "svg": "sources/community-payment-20261010/af17819ae536d970.svg",
+            "png": "sources/community-payment-20261010/394d154bc068b92f.png"
+          },
+          "preview_png": "sources/community-payment-20261010/1da2f53583deb307.png",
+          "provider": "figma-community",
+          "origin": "collected",
+          "official_distribution": false,
+          "order": 90,
+          "source_note": "사용자 제공 Logos - Payment (Community).svg에서 원본 벡터 경로/색상을 보존해 카드틀 없이 추출한 커뮤니티 변형. 공식 화이트/흑백 배포본으로 인증된 자료가 아니며 기존 공식 원본과 대표 이미지는 유지."
+        },
+        {
+          "key": "community-payment-black",
+          "label": "검정 · 커뮤니티 수록 변형",
+          "form": "symbol",
+          "lang": "none",
+          "color": "black",
+          "files": {
+            "svg": "sources/community-payment-20261010/83115b3696faef05.svg",
+            "png": "sources/community-payment-20261010/90e30ac33eb5e81b.png"
+          },
+          "preview_png": "sources/community-payment-20261010/d298aa4c47f96dc8.png",
+          "provider": "figma-community",
+          "origin": "collected",
+          "official_distribution": false,
+          "order": 91,
+          "source_note": "사용자 제공 Logos - Payment (Community).svg에서 원본 벡터 경로/색상을 보존해 카드틀 없이 추출한 커뮤니티 변형. 공식 화이트/흑백 배포본으로 인증된 자료가 아니며 기존 공식 원본과 대표 이미지는 유지."
+        },
+        {
+          "key": "community-payment-white",
+          "label": "화이트 · 커뮤니티 수록 변형",
+          "form": "symbol",
+          "lang": "none",
+          "color": "white",
+          "files": {
+            "svg": "sources/community-payment-20261010/4c0a5a30c1f9e22b.svg",
+            "png": "sources/community-payment-20261010/19de604ace0b1fce.png"
+          },
+          "preview_png": "sources/community-payment-20261010/cdd7b5fee6bb5c53.png",
+          "provider": "figma-community",
+          "origin": "collected",
+          "official_distribution": false,
+          "order": 92,
+          "source_note": "사용자 제공 Logos - Payment (Community).svg에서 원본 벡터 경로/색상을 보존해 카드틀 없이 추출한 커뮤니티 변형. 공식 화이트/흑백 배포본으로 인증된 자료가 아니며 기존 공식 원본과 대표 이미지는 유지."
+        }
+      ]
+    },
+    "maestro": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "maestro",
+      "primary": "horizontal",
+      "fingerprint": {
+        "logo.svg": "6f953b5ed91d44fb",
+        "sources/iconify/maestro.svg": "6f953b5ed91d44fb",
+        "sources/wvl/maestro.svg": "565b38e249639c6f"
+      },
+      "variants": [
+        {
+          "key": "horizontal",
+          "form": "horizontal",
+          "lang": "en",
+          "color": "color",
+          "label": "가로조합형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 1.288,
+          "provider": "iconify",
+          "origin": "collected",
+          "order": 10,
+          "alts": [
+            {
+              "provider": "iconify",
+              "file": "sources/iconify/maestro.svg"
+            },
+            {
+              "provider": "wvl",
+              "file": "sources/wvl/maestro.svg"
+            }
+          ]
+        },
+        {
+          "key": "community-payment-color",
+          "label": "컬러 · 커뮤니티 수록 변형",
+          "form": "symbol",
+          "lang": "none",
+          "color": "color",
+          "files": {
+            "svg": "sources/community-payment-20261010/215740321665bc8b.svg",
+            "png": "sources/community-payment-20261010/0806f862fb324268.png"
+          },
+          "preview_png": "sources/community-payment-20261010/4ba74e6de9649a96.png",
+          "provider": "figma-community",
+          "origin": "collected",
+          "official_distribution": false,
+          "order": 90,
+          "source_note": "사용자 제공 Logos - Payment (Community).svg에서 원본 벡터 경로/색상을 보존해 카드틀 없이 추출한 커뮤니티 변형. 공식 화이트/흑백 배포본으로 인증된 자료가 아니며 기존 공식 원본과 대표 이미지는 유지."
+        },
+        {
+          "key": "community-payment-black",
+          "label": "검정 · 커뮤니티 수록 변형",
+          "form": "symbol",
+          "lang": "none",
+          "color": "black",
+          "files": {
+            "svg": "sources/community-payment-20261010/6ce7348941f059d7.svg",
+            "png": "sources/community-payment-20261010/fa3504c156f65c94.png"
+          },
+          "preview_png": "sources/community-payment-20261010/a0f864ee995a0921.png",
+          "provider": "figma-community",
+          "origin": "collected",
+          "official_distribution": false,
+          "order": 91,
+          "source_note": "사용자 제공 Logos - Payment (Community).svg에서 원본 벡터 경로/색상을 보존해 카드틀 없이 추출한 커뮤니티 변형. 공식 화이트/흑백 배포본으로 인증된 자료가 아니며 기존 공식 원본과 대표 이미지는 유지."
+        },
+        {
+          "key": "community-payment-white",
+          "label": "화이트 · 커뮤니티 수록 변형",
+          "form": "symbol",
+          "lang": "none",
+          "color": "white",
+          "files": {
+            "svg": "sources/community-payment-20261010/bd5f907b8960746b.svg",
+            "png": "sources/community-payment-20261010/051ffd29867472f5.png"
+          },
+          "preview_png": "sources/community-payment-20261010/fa4588b1faabb040.png",
+          "provider": "figma-community",
+          "origin": "collected",
+          "official_distribution": false,
+          "order": 92,
+          "source_note": "사용자 제공 Logos - Payment (Community).svg에서 원본 벡터 경로/색상을 보존해 카드틀 없이 추출한 커뮤니티 변형. 공식 화이트/흑백 배포본으로 인증된 자료가 아니며 기존 공식 원본과 대표 이미지는 유지."
+        }
+      ]
+    },
+    "stripe": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "stripe",
+      "primary": "vertical",
+      "fingerprint": {
+        "logo.svg": "6f74473d03eed299",
+        "sources/svgl/stripe.svg": "9390cf5bbdb23cd1",
+        "sources/svgl/stripe_wordmark.svg": "d042bf10066a59d0"
+      },
+      "variants": [
+        {
+          "key": "horizontal",
+          "form": "horizontal",
+          "lang": "unknown",
+          "color": "color",
+          "label": "가로조합형",
+          "files": {
+            "svg": "sources/svgl/stripe_wordmark.svg",
+            "png": "sources/svgl/stripe_wordmark.png"
+          },
+          "aspect": 2.4,
+          "provider": "svgl",
+          "origin": "collected",
+          "order": 10
+        },
+        {
+          "key": "vertical",
+          "form": "vertical",
+          "lang": "en",
+          "color": "color",
+          "label": "세로조합형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 0.714,
+          "provider": "simple-icons",
+          "origin": "collected",
+          "order": 20
+        },
+        {
+          "key": "symbol",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "color",
+          "label": "심볼형",
+          "files": {
+            "svg": "sources/svgl/stripe.svg",
+            "png": "sources/svgl/stripe.png"
+          },
+          "aspect": 1.0,
+          "provider": "svgl",
+          "origin": "collected",
+          "order": 30
+        },
+        {
+          "key": "community-payment-color",
+          "label": "컬러 · 커뮤니티 수록 변형",
+          "form": "wordmark",
+          "lang": "en",
+          "color": "color",
+          "files": {
+            "svg": "sources/community-payment-20261010/1928e948fa35ed32.svg",
+            "png": "sources/community-payment-20261010/1ccabfee5c5527de.png"
+          },
+          "preview_png": "sources/community-payment-20261010/a9ce6432402bda2b.png",
+          "provider": "figma-community",
+          "origin": "collected",
+          "official_distribution": false,
+          "order": 90,
+          "source_note": "사용자 제공 Logos - Payment (Community).svg에서 원본 벡터 경로/색상을 보존해 카드틀 없이 추출한 커뮤니티 변형. 공식 화이트/흑백 배포본으로 인증된 자료가 아니며 기존 공식 원본과 대표 이미지는 유지."
+        },
+        {
+          "key": "community-payment-black",
+          "label": "검정 · 커뮤니티 수록 변형",
+          "form": "wordmark",
+          "lang": "en",
+          "color": "black",
+          "files": {
+            "svg": "sources/community-payment-20261010/5b37f43e7ff84e88.svg",
+            "png": "sources/community-payment-20261010/1153dfe983fe177f.png"
+          },
+          "preview_png": "sources/community-payment-20261010/6aba9fac7071e80c.png",
+          "provider": "figma-community",
+          "origin": "collected",
+          "official_distribution": false,
+          "order": 91,
+          "source_note": "사용자 제공 Logos - Payment (Community).svg에서 원본 벡터 경로/색상을 보존해 카드틀 없이 추출한 커뮤니티 변형. 공식 화이트/흑백 배포본으로 인증된 자료가 아니며 기존 공식 원본과 대표 이미지는 유지."
+        },
+        {
+          "key": "community-payment-white",
+          "label": "화이트 · 커뮤니티 수록 변형",
+          "form": "wordmark",
+          "lang": "en",
+          "color": "white",
+          "files": {
+            "svg": "sources/community-payment-20261010/397e2db53e50bbdd.svg",
+            "png": "sources/community-payment-20261010/e2ce7e4c09fb3905.png"
+          },
+          "preview_png": "sources/community-payment-20261010/3214c7b500d35dac.png",
+          "provider": "figma-community",
+          "origin": "collected",
+          "official_distribution": false,
+          "order": 92,
+          "source_note": "사용자 제공 Logos - Payment (Community).svg에서 원본 벡터 경로/색상을 보존해 카드틀 없이 추출한 커뮤니티 변형. 공식 화이트/흑백 배포본으로 인증된 자료가 아니며 기존 공식 원본과 대표 이미지는 유지."
+        }
+      ]
+    },
+    "skrill": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "skrill",
+      "primary": "wordmark",
+      "fingerprint": {
+        "logo.svg": "f16bd3315d698dba"
+      },
+      "variants": [
+        {
+          "key": "wordmark",
+          "form": "wordmark",
+          "lang": "unknown",
+          "color": "mono-dark",
+          "label": "워드마크형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 4.5,
+          "provider": "wikimedia",
+          "origin": "collected",
+          "order": 40
+        },
+        {
+          "key": "community-payment-color",
+          "label": "컬러 · 커뮤니티 수록 변형",
+          "form": "wordmark",
+          "lang": "en",
+          "color": "color",
+          "files": {
+            "svg": "sources/community-payment-20261010/ab09857ebfb8bafe.svg",
+            "png": "sources/community-payment-20261010/6436261962b39bfe.png"
+          },
+          "preview_png": "sources/community-payment-20261010/0f185ea91a333356.png",
+          "provider": "figma-community",
+          "origin": "collected",
+          "official_distribution": false,
+          "order": 90,
+          "source_note": "사용자 제공 Logos - Payment (Community).svg에서 원본 벡터 경로/색상을 보존해 카드틀 없이 추출한 커뮤니티 변형. 공식 화이트/흑백 배포본으로 인증된 자료가 아니며 기존 공식 원본과 대표 이미지는 유지."
+        },
+        {
+          "key": "community-payment-black",
+          "label": "검정 · 커뮤니티 수록 변형",
+          "form": "wordmark",
+          "lang": "en",
+          "color": "black",
+          "files": {
+            "svg": "sources/community-payment-20261010/767b09f6f5fc4e10.svg",
+            "png": "sources/community-payment-20261010/0045c0ce6f5581c9.png"
+          },
+          "preview_png": "sources/community-payment-20261010/1a5b233d90263b75.png",
+          "provider": "figma-community",
+          "origin": "collected",
+          "official_distribution": false,
+          "order": 91,
+          "source_note": "사용자 제공 Logos - Payment (Community).svg에서 원본 벡터 경로/색상을 보존해 카드틀 없이 추출한 커뮤니티 변형. 공식 화이트/흑백 배포본으로 인증된 자료가 아니며 기존 공식 원본과 대표 이미지는 유지."
+        },
+        {
+          "key": "community-payment-white",
+          "label": "화이트 · 커뮤니티 수록 변형",
+          "form": "wordmark",
+          "lang": "en",
+          "color": "white",
+          "files": {
+            "svg": "sources/community-payment-20261010/251bf4f4ee4210aa.svg",
+            "png": "sources/community-payment-20261010/b82ae1e231794418.png"
+          },
+          "preview_png": "sources/community-payment-20261010/5527f65a35fcc30f.png",
+          "provider": "figma-community",
+          "origin": "collected",
+          "official_distribution": false,
+          "order": 92,
+          "source_note": "사용자 제공 Logos - Payment (Community).svg에서 원본 벡터 경로/색상을 보존해 카드틀 없이 추출한 커뮤니티 변형. 공식 화이트/흑백 배포본으로 인증된 자료가 아니며 기존 공식 원본과 대표 이미지는 유지."
+        }
+      ]
+    },
+    "klarna": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "klarna",
+      "primary": "symbol",
+      "fingerprint": {
+        "logo.svg": "b253d9cd91461ea1",
+        "sources/vlz/wide.svg": "6e835f4593956a5e"
+      },
+      "variants": [
+        {
+          "key": "symbol",
+          "form": "symbol",
+          "lang": "en",
+          "color": "color",
+          "label": "심볼형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 1.2,
+          "provider": "simple-icons",
+          "origin": "collected",
+          "order": 30
+        },
+        {
+          "key": "wordmark",
+          "form": "wordmark",
+          "lang": "unknown",
+          "color": "color",
+          "label": "워드마크형",
+          "files": {
+            "svg": "sources/vlz/wide.svg"
+          },
+          "aspect": 4.299,
+          "provider": "vectorlogozone",
+          "origin": "collected",
+          "order": 40
+        },
+        {
+          "key": "community-payment-color",
+          "label": "컬러 · 커뮤니티 수록 변형",
+          "form": "wordmark",
+          "lang": "en",
+          "color": "color",
+          "files": {
+            "svg": "sources/community-payment-20261010/65cd56a846d56939.svg",
+            "png": "sources/community-payment-20261010/f1d4a64949d1e772.png"
+          },
+          "preview_png": "sources/community-payment-20261010/5cb866683a7a6c5c.png",
+          "provider": "figma-community",
+          "origin": "collected",
+          "official_distribution": false,
+          "order": 90,
+          "source_note": "사용자 제공 Logos - Payment (Community).svg에서 원본 벡터 경로/색상을 보존해 카드틀 없이 추출한 커뮤니티 변형. 공식 화이트/흑백 배포본으로 인증된 자료가 아니며 기존 공식 원본과 대표 이미지는 유지."
+        },
+        {
+          "key": "community-payment-black",
+          "label": "검정 · 커뮤니티 수록 변형",
+          "form": "wordmark",
+          "lang": "en",
+          "color": "black",
+          "files": {
+            "svg": "sources/community-payment-20261010/bc863175a9073b93.svg",
+            "png": "sources/community-payment-20261010/97fa6a507e3a1356.png"
+          },
+          "preview_png": "sources/community-payment-20261010/fb66f56f52ca3ef6.png",
+          "provider": "figma-community",
+          "origin": "collected",
+          "official_distribution": false,
+          "order": 91,
+          "source_note": "사용자 제공 Logos - Payment (Community).svg에서 원본 벡터 경로/색상을 보존해 카드틀 없이 추출한 커뮤니티 변형. 공식 화이트/흑백 배포본으로 인증된 자료가 아니며 기존 공식 원본과 대표 이미지는 유지."
+        },
+        {
+          "key": "community-payment-white",
+          "label": "화이트 · 커뮤니티 수록 변형",
+          "form": "wordmark",
+          "lang": "en",
+          "color": "white",
+          "files": {
+            "svg": "sources/community-payment-20261010/145b2b998460d821.svg",
+            "png": "sources/community-payment-20261010/3ec33e21ef61bbac.png"
+          },
+          "preview_png": "sources/community-payment-20261010/2c2805c8723e6865.png",
+          "provider": "figma-community",
+          "origin": "collected",
+          "official_distribution": false,
+          "order": 92,
+          "source_note": "사용자 제공 Logos - Payment (Community).svg에서 원본 벡터 경로/색상을 보존해 카드틀 없이 추출한 커뮤니티 변형. 공식 화이트/흑백 배포본으로 인증된 자료가 아니며 기존 공식 원본과 대표 이미지는 유지."
+        }
+      ]
+    },
+    "amazon-pay": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "amazon-pay",
+      "primary": "horizontal",
+      "fingerprint": {
+        "logo.svg": "f35dcf26cdc3959f",
+        "sources/fa.svg": "f35dcf26cdc3959f"
+      },
+      "variants": [
+        {
+          "key": "horizontal",
+          "form": "horizontal",
+          "lang": "en",
+          "color": "mono-dark",
+          "label": "가로조합형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 1.6,
+          "provider": "font-awesome",
+          "origin": "collected",
+          "order": 10,
+          "alts": [
+            {
+              "provider": "font-awesome",
+              "file": "sources/fa.svg"
+            }
+          ]
+        },
+        {
+          "key": "community-payment-color",
+          "label": "컬러 · 커뮤니티 수록 변형",
+          "form": "wordmark",
+          "lang": "en",
+          "color": "color",
+          "files": {
+            "svg": "sources/community-payment-20261010/087783db577c772f.svg",
+            "png": "sources/community-payment-20261010/c90259ce5141e526.png"
+          },
+          "preview_png": "sources/community-payment-20261010/aa3d4b9f318aff25.png",
+          "provider": "figma-community",
+          "origin": "collected",
+          "official_distribution": false,
+          "order": 90,
+          "source_note": "사용자 제공 Logos - Payment (Community).svg에서 원본 벡터 경로/색상을 보존해 카드틀 없이 추출한 커뮤니티 변형. 공식 화이트/흑백 배포본으로 인증된 자료가 아니며 기존 공식 원본과 대표 이미지는 유지."
+        },
+        {
+          "key": "community-payment-black",
+          "label": "검정 · 커뮤니티 수록 변형",
+          "form": "wordmark",
+          "lang": "en",
+          "color": "black",
+          "files": {
+            "svg": "sources/community-payment-20261010/fbd13ebeafa91584.svg",
+            "png": "sources/community-payment-20261010/53714613ebdbc674.png"
+          },
+          "preview_png": "sources/community-payment-20261010/7efeb47ca67ce925.png",
+          "provider": "figma-community",
+          "origin": "collected",
+          "official_distribution": false,
+          "order": 91,
+          "source_note": "사용자 제공 Logos - Payment (Community).svg에서 원본 벡터 경로/색상을 보존해 카드틀 없이 추출한 커뮤니티 변형. 공식 화이트/흑백 배포본으로 인증된 자료가 아니며 기존 공식 원본과 대표 이미지는 유지."
+        },
+        {
+          "key": "community-payment-white",
+          "label": "화이트 · 커뮤니티 수록 변형",
+          "form": "wordmark",
+          "lang": "en",
+          "color": "white",
+          "files": {
+            "svg": "sources/community-payment-20261010/74b5c840975f0516.svg",
+            "png": "sources/community-payment-20261010/f5c1f965762300a4.png"
+          },
+          "preview_png": "sources/community-payment-20261010/a4fc168dcbfaecfb.png",
+          "provider": "figma-community",
+          "origin": "collected",
+          "official_distribution": false,
+          "order": 92,
+          "source_note": "사용자 제공 Logos - Payment (Community).svg에서 원본 벡터 경로/색상을 보존해 카드틀 없이 추출한 커뮤니티 변형. 공식 화이트/흑백 배포본으로 인증된 자료가 아니며 기존 공식 원본과 대표 이미지는 유지."
+        }
+      ]
+    },
+    "mercadopago": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "mercadopago",
+      "primary": "horizontal",
+      "fingerprint": {
+        "logo.svg": "a81e4025addfed32",
+        "sources/svgl/mercado-pago-wordmark.svg": "fadd0071c3acde77"
+      },
+      "variants": [
+        {
+          "key": "horizontal",
+          "form": "horizontal",
+          "lang": "unknown",
+          "color": "mono-dark",
+          "label": "가로조합형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 1.461,
+          "provider": "unknown",
+          "origin": "collected",
+          "order": 10
+        },
+        {
+          "key": "wordmark",
+          "form": "wordmark",
+          "lang": "unknown",
+          "color": "color",
+          "label": "워드마크형",
+          "files": {
+            "svg": "sources/svgl/mercado-pago-wordmark.svg",
+            "png": "sources/svgl/mercado-pago-wordmark.png"
+          },
+          "aspect": 3.846,
+          "provider": "svgl",
+          "origin": "collected",
+          "order": 40
+        },
+        {
+          "key": "community-payment-color",
+          "label": "컬러 · 커뮤니티 수록 변형",
+          "form": "wordmark",
+          "lang": "en",
+          "color": "color",
+          "files": {
+            "svg": "sources/community-payment-20261010/2b703bb86d343023.svg",
+            "png": "sources/community-payment-20261010/8e409537d7ca24bb.png"
+          },
+          "preview_png": "sources/community-payment-20261010/3f0558d839ea809d.png",
+          "provider": "figma-community",
+          "origin": "collected",
+          "official_distribution": false,
+          "order": 90,
+          "source_note": "사용자 제공 Logos - Payment (Community).svg에서 원본 벡터 경로/색상을 보존해 카드틀 없이 추출한 커뮤니티 변형. 공식 화이트/흑백 배포본으로 인증된 자료가 아니며 기존 공식 원본과 대표 이미지는 유지."
+        },
+        {
+          "key": "community-payment-black",
+          "label": "검정 · 커뮤니티 수록 변형",
+          "form": "wordmark",
+          "lang": "en",
+          "color": "black",
+          "files": {
+            "svg": "sources/community-payment-20261010/1b6f6ca93acf658d.svg",
+            "png": "sources/community-payment-20261010/72e885b9583a48eb.png"
+          },
+          "preview_png": "sources/community-payment-20261010/702c5d868f334f50.png",
+          "provider": "figma-community",
+          "origin": "collected",
+          "official_distribution": false,
+          "order": 91,
+          "source_note": "사용자 제공 Logos - Payment (Community).svg에서 원본 벡터 경로/색상을 보존해 카드틀 없이 추출한 커뮤니티 변형. 공식 화이트/흑백 배포본으로 인증된 자료가 아니며 기존 공식 원본과 대표 이미지는 유지."
+        },
+        {
+          "key": "community-payment-white",
+          "label": "화이트 · 커뮤니티 수록 변형",
+          "form": "wordmark",
+          "lang": "en",
+          "color": "white",
+          "files": {
+            "svg": "sources/community-payment-20261010/6cf3301832714aa5.svg",
+            "png": "sources/community-payment-20261010/dee3470c003c5ac1.png"
+          },
+          "preview_png": "sources/community-payment-20261010/8961e13423fc33be.png",
+          "provider": "figma-community",
+          "origin": "collected",
+          "official_distribution": false,
+          "order": 92,
+          "source_note": "사용자 제공 Logos - Payment (Community).svg에서 원본 벡터 경로/색상을 보존해 카드틀 없이 추출한 커뮤니티 변형. 공식 화이트/흑백 배포본으로 인증된 자료가 아니며 기존 공식 원본과 대표 이미지는 유지."
+        }
+      ]
+    },
+    "diners": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "diners",
+      "primary": "horizontal",
+      "fingerprint": {
+        "logo.svg": "434d7b82ff534f60"
+      },
+      "variants": [
+        {
+          "key": "horizontal",
+          "form": "horizontal",
+          "lang": "unknown",
+          "color": "color",
+          "label": "가로조합형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 1.593,
+          "provider": "unknown",
+          "origin": "collected",
+          "order": 10
+        },
+        {
+          "key": "community-payment-color",
+          "label": "컬러 · 커뮤니티 수록 변형",
+          "form": "symbol",
+          "lang": "none",
+          "color": "color",
+          "files": {
+            "svg": "sources/community-payment-20261010/a2961fe8031cdf25.svg",
+            "png": "sources/community-payment-20261010/df6d4bdc96198fe4.png"
+          },
+          "preview_png": "sources/community-payment-20261010/59128defc29a5e12.png",
+          "provider": "figma-community",
+          "origin": "collected",
+          "official_distribution": false,
+          "order": 90,
+          "source_note": "사용자 제공 Logos - Payment (Community).svg에서 원본 벡터 경로/색상을 보존해 카드틀 없이 추출한 커뮤니티 변형. 공식 화이트/흑백 배포본으로 인증된 자료가 아니며 기존 공식 원본과 대표 이미지는 유지."
+        },
+        {
+          "key": "community-payment-black",
+          "label": "검정 · 커뮤니티 수록 변형",
+          "form": "symbol",
+          "lang": "none",
+          "color": "black",
+          "files": {
+            "svg": "sources/community-payment-20261010/39bb9e0ac7494ae2.svg",
+            "png": "sources/community-payment-20261010/d96b5af2b4a37b03.png"
+          },
+          "preview_png": "sources/community-payment-20261010/2cc119d9bbfae8f0.png",
+          "provider": "figma-community",
+          "origin": "collected",
+          "official_distribution": false,
+          "order": 91,
+          "source_note": "사용자 제공 Logos - Payment (Community).svg에서 원본 벡터 경로/색상을 보존해 카드틀 없이 추출한 커뮤니티 변형. 공식 화이트/흑백 배포본으로 인증된 자료가 아니며 기존 공식 원본과 대표 이미지는 유지."
+        },
+        {
+          "key": "community-payment-white",
+          "label": "화이트 · 커뮤니티 수록 변형",
+          "form": "symbol",
+          "lang": "none",
+          "color": "white",
+          "files": {
+            "svg": "sources/community-payment-20261010/b054e456da27ae13.svg",
+            "png": "sources/community-payment-20261010/f568cdf66a1e5f63.png"
+          },
+          "preview_png": "sources/community-payment-20261010/81d0f05677316705.png",
+          "provider": "figma-community",
+          "origin": "collected",
+          "official_distribution": false,
+          "order": 92,
+          "source_note": "사용자 제공 Logos - Payment (Community).svg에서 원본 벡터 경로/색상을 보존해 카드틀 없이 추출한 커뮤니티 변형. 공식 화이트/흑백 배포본으로 인증된 자료가 아니며 기존 공식 원본과 대표 이미지는 유지."
+        }
+      ]
+    },
+    "shop-pay": {
+      "schema": 1,
+      "id": "shop-pay",
+      "primary": "community-payment-color",
+      "variants": [
+        {
+          "key": "community-payment-color",
+          "label": "컬러 · 커뮤니티 수록 변형",
+          "form": "wordmark",
+          "lang": "en",
+          "color": "color",
+          "files": {
+            "svg": "sources/community-payment-20261010/aacf213f2f3aabc9.svg",
+            "png": "sources/community-payment-20261010/08a7d3946ff07da8.png"
+          },
+          "preview_png": "sources/community-payment-20261010/4ea871c54bd506b2.png",
+          "provider": "figma-community",
+          "origin": "collected",
+          "official_distribution": false,
+          "order": 90,
+          "source_note": "사용자 제공 Logos - Payment (Community).svg에서 원본 벡터 경로/색상을 보존해 카드틀 없이 추출한 커뮤니티 변형. 공식 화이트/흑백 배포본으로 인증된 자료가 아니며 기존 공식 원본과 대표 이미지는 유지."
+        },
+        {
+          "key": "community-payment-white",
+          "label": "화이트 · 커뮤니티 수록 변형",
+          "form": "wordmark",
+          "lang": "en",
+          "color": "white",
+          "files": {
+            "svg": "sources/community-payment-20261010/d0dd01d936972130.svg",
+            "png": "sources/community-payment-20261010/ee77cba2d18081f2.png"
+          },
+          "preview_png": "sources/community-payment-20261010/94881374ee093b87.png",
+          "provider": "figma-community",
+          "origin": "collected",
+          "official_distribution": false,
+          "order": 92,
+          "source_note": "사용자 제공 Logos - Payment (Community).svg에서 원본 벡터 경로/색상을 보존해 카드틀 없이 추출한 커뮤니티 변형. 공식 화이트/흑백 배포본으로 인증된 자료가 아니며 기존 공식 원본과 대표 이미지는 유지."
+        }
+      ]
+    },
+    "paypal": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "paypal",
+      "primary": "symbol",
+      "fingerprint": {
+        "logo.svg": "62732ac4dbef388f",
+        "sources/thesvg/wordmark.svg": "d38d9b4a8f652a8d",
+        "sources/supertiny/paypal.svg": "9b697bd8f621c979"
+      },
+      "variants": [
+        {
+          "key": "symbol",
+          "form": "symbol",
+          "lang": "en",
+          "color": "color",
+          "label": "심볼형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 0.849,
+          "provider": "simple-icons",
+          "origin": "collected",
+          "order": 30,
+          "alts": [
+            {
+              "provider": "supertiny",
+              "file": "sources/supertiny/paypal.svg"
+            }
+          ]
+        },
+        {
+          "key": "wordmark",
+          "form": "wordmark",
+          "lang": "unknown",
+          "color": "color",
+          "label": "워드마크형",
+          "files": {
+            "svg": "sources/thesvg/wordmark.svg"
+          },
+          "aspect": 4.128,
+          "provider": "thesvg",
+          "origin": "collected",
+          "order": 40
+        },
+        {
+          "key": "community-payment-color",
+          "label": "컬러 · 커뮤니티 수록 변형",
+          "form": "symbol",
+          "lang": "none",
+          "color": "color",
+          "files": {
+            "svg": "sources/community-payment-20261010/e42152575e0b48b8.svg",
+            "png": "sources/community-payment-20261010/7e532453fb68d71f.png"
+          },
+          "preview_png": "sources/community-payment-20261010/bdf2e4a6182c1a0c.png",
+          "provider": "figma-community",
+          "origin": "collected",
+          "official_distribution": false,
+          "order": 90,
+          "source_note": "사용자 제공 Logos - Payment (Community).svg에서 원본 벡터 경로/색상을 보존해 카드틀 없이 추출한 커뮤니티 변형. 공식 화이트/흑백 배포본으로 인증된 자료가 아니며 기존 공식 원본과 대표 이미지는 유지."
+        },
+        {
+          "key": "community-payment-black",
+          "label": "검정 · 커뮤니티 수록 변형",
+          "form": "symbol",
+          "lang": "none",
+          "color": "black",
+          "files": {
+            "svg": "sources/community-payment-20261010/4595b3918554f316.svg",
+            "png": "sources/community-payment-20261010/d6989499a6a1b4bd.png"
+          },
+          "preview_png": "sources/community-payment-20261010/73efc5f784015d45.png",
+          "provider": "figma-community",
+          "origin": "collected",
+          "official_distribution": false,
+          "order": 91,
+          "source_note": "사용자 제공 Logos - Payment (Community).svg에서 원본 벡터 경로/색상을 보존해 카드틀 없이 추출한 커뮤니티 변형. 공식 화이트/흑백 배포본으로 인증된 자료가 아니며 기존 공식 원본과 대표 이미지는 유지."
+        },
+        {
+          "key": "community-payment-white",
+          "label": "화이트 · 커뮤니티 수록 변형",
+          "form": "symbol",
+          "lang": "none",
+          "color": "white",
+          "files": {
+            "svg": "sources/community-payment-20261010/a254c4cd565268b4.svg",
+            "png": "sources/community-payment-20261010/e5adc0e4f9794d12.png"
+          },
+          "preview_png": "sources/community-payment-20261010/2b70083930c625ae.png",
+          "provider": "figma-community",
+          "origin": "collected",
+          "official_distribution": false,
+          "order": 92,
+          "source_note": "사용자 제공 Logos - Payment (Community).svg에서 원본 벡터 경로/색상을 보존해 카드틀 없이 추출한 커뮤니티 변형. 공식 화이트/흑백 배포본으로 인증된 자료가 아니며 기존 공식 원본과 대표 이미지는 유지."
+        }
+      ]
+    },
+    "discover": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "discover",
+      "primary": "wordmark",
+      "fingerprint": {
+        "logo.svg": "d9bc4a67a195d880",
+        "sources/iconify/discover.svg": "d9bc4a67a195d880",
+        "sources/wvl/discover.svg": "a81bf0e785988052"
+      },
+      "variants": [
+        {
+          "key": "wordmark",
+          "form": "wordmark",
+          "lang": "en",
+          "color": "mono-dark",
+          "label": "워드마크형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 5.94,
+          "provider": "iconify",
+          "origin": "collected",
+          "order": 40,
+          "alts": [
+            {
+              "provider": "iconify",
+              "file": "sources/iconify/discover.svg"
+            },
+            {
+              "provider": "wvl",
+              "file": "sources/wvl/discover.svg"
+            }
+          ]
+        },
+        {
+          "key": "community-payment-color",
+          "label": "컬러 · 커뮤니티 수록 변형",
+          "form": "wordmark",
+          "lang": "en",
+          "color": "color",
+          "files": {
+            "svg": "sources/community-payment-20261010/a93ecaf472b5102d.svg",
+            "png": "sources/community-payment-20261010/f798c3d3262b99e0.png"
+          },
+          "preview_png": "sources/community-payment-20261010/45ec23d60d81265d.png",
+          "provider": "figma-community",
+          "origin": "collected",
+          "official_distribution": false,
+          "order": 90,
+          "source_note": "사용자 제공 Logos - Payment (Community).svg에서 원본 벡터 경로/색상을 보존해 카드틀 없이 추출한 커뮤니티 변형. 공식 화이트/흑백 배포본으로 인증된 자료가 아니며 기존 공식 원본과 대표 이미지는 유지."
+        },
+        {
+          "key": "community-payment-black",
+          "label": "검정 · 커뮤니티 수록 변형",
+          "form": "wordmark",
+          "lang": "en",
+          "color": "black",
+          "files": {
+            "svg": "sources/community-payment-20261010/58a0a53209be33e1.svg",
+            "png": "sources/community-payment-20261010/458742108bc3f3ec.png"
+          },
+          "preview_png": "sources/community-payment-20261010/0d0dbd6a509c65d5.png",
+          "provider": "figma-community",
+          "origin": "collected",
+          "official_distribution": false,
+          "order": 91,
+          "source_note": "사용자 제공 Logos - Payment (Community).svg에서 원본 벡터 경로/색상을 보존해 카드틀 없이 추출한 커뮤니티 변형. 공식 화이트/흑백 배포본으로 인증된 자료가 아니며 기존 공식 원본과 대표 이미지는 유지."
+        },
+        {
+          "key": "community-payment-white",
+          "label": "화이트 · 커뮤니티 수록 변형",
+          "form": "wordmark",
+          "lang": "en",
+          "color": "white",
+          "files": {
+            "svg": "sources/community-payment-20261010/f34c3ac4b356ea6a.svg",
+            "png": "sources/community-payment-20261010/ac8460f05ade285a.png"
+          },
+          "preview_png": "sources/community-payment-20261010/e26d186e7be2f3e4.png",
+          "provider": "figma-community",
+          "origin": "collected",
+          "official_distribution": false,
+          "order": 92,
+          "source_note": "사용자 제공 Logos - Payment (Community).svg에서 원본 벡터 경로/색상을 보존해 카드틀 없이 추출한 커뮤니티 변형. 공식 화이트/흑백 배포본으로 인증된 자료가 아니며 기존 공식 원본과 대표 이미지는 유지."
+        }
+      ]
+    },
+    "bitpay": {
+      "schema": 1,
+      "id": "bitpay",
+      "primary": "community-payment-color",
+      "variants": [
+        {
+          "key": "community-payment-black",
+          "label": "검정 · 커뮤니티 수록 변형",
+          "form": "wordmark",
+          "lang": "en",
+          "color": "black",
+          "files": {
+            "svg": "sources/community-payment-20261010/4b9676d2e2f026a9.svg",
+            "png": "sources/community-payment-20261010/1ba20d9b58436993.png"
+          },
+          "preview_png": "sources/community-payment-20261010/094ac5fd5566cf44.png",
+          "provider": "figma-community",
+          "origin": "collected",
+          "official_distribution": false,
+          "order": 91,
+          "source_note": "사용자 제공 Logos - Payment (Community).svg에서 원본 벡터 경로/색상을 보존해 카드틀 없이 추출한 커뮤니티 변형. 공식 화이트/흑백 배포본으로 인증된 자료가 아니며 기존 공식 원본과 대표 이미지는 유지."
+        },
+        {
+          "key": "community-payment-white",
+          "label": "화이트 · 커뮤니티 수록 변형",
+          "form": "wordmark",
+          "lang": "en",
+          "color": "white",
+          "files": {
+            "svg": "sources/community-payment-20261010/055bac34b2ceb8ec.svg",
+            "png": "sources/community-payment-20261010/7751badc4d7ea980.png"
+          },
+          "preview_png": "sources/community-payment-20261010/b67750b9e8bb4655.png",
+          "provider": "figma-community",
+          "origin": "collected",
+          "official_distribution": false,
+          "order": 92,
+          "source_note": "사용자 제공 Logos - Payment (Community).svg에서 원본 벡터 경로/색상을 보존해 카드틀 없이 추출한 커뮤니티 변형. 공식 화이트/흑백 배포본으로 인증된 자료가 아니며 기존 공식 원본과 대표 이미지는 유지."
+        }
+      ]
+    },
+    "bitcoin": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "bitcoin",
+      "primary": "symbol",
+      "fingerprint": {
+        "logo.svg": "21270b1b63216b19",
+        "sources/vlz/wide.svg": "5c85e9414e3aee96",
+        "sources/supertiny/bitcoin.svg": "367738c4ee57ed6b"
+      },
+      "variants": [
+        {
+          "key": "symbol",
+          "form": "symbol",
+          "lang": "en",
+          "color": "color",
+          "label": "심볼형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 1.0,
+          "provider": "simple-icons",
+          "origin": "collected",
+          "order": 30,
+          "alts": [
+            {
+              "provider": "supertiny",
+              "file": "sources/supertiny/bitcoin.svg"
+            }
+          ]
+        },
+        {
+          "key": "wordmark",
+          "form": "wordmark",
+          "lang": "unknown",
+          "color": "color",
+          "label": "워드마크형",
+          "files": {
+            "svg": "sources/vlz/wide.svg"
+          },
+          "aspect": 4.8,
+          "provider": "vectorlogozone",
+          "origin": "collected",
+          "order": 40
+        },
+        {
+          "key": "community-payment-color",
+          "label": "컬러 · 커뮤니티 수록 변형",
+          "form": "symbol",
+          "lang": "none",
+          "color": "color",
+          "files": {
+            "svg": "sources/community-payment-20261010/83f9e977b6a86856.svg",
+            "png": "sources/community-payment-20261010/a3d696bc1ad5f96c.png"
+          },
+          "preview_png": "sources/community-payment-20261010/d92aefb32b133db9.png",
+          "provider": "figma-community",
+          "origin": "collected",
+          "official_distribution": false,
+          "order": 90,
+          "source_note": "사용자 제공 Logos - Payment (Community).svg에서 원본 벡터 경로/색상을 보존해 카드틀 없이 추출한 커뮤니티 변형. 공식 화이트/흑백 배포본으로 인증된 자료가 아니며 기존 공식 원본과 대표 이미지는 유지."
+        },
+        {
+          "key": "community-payment-black",
+          "label": "검정 · 커뮤니티 수록 변형",
+          "form": "symbol",
+          "lang": "none",
+          "color": "black",
+          "files": {
+            "svg": "sources/community-payment-20261010/f8b49c8363ccfc64.svg",
+            "png": "sources/community-payment-20261010/a3140c0f89858c8f.png"
+          },
+          "preview_png": "sources/community-payment-20261010/8f4719fed4f443d3.png",
+          "provider": "figma-community",
+          "origin": "collected",
+          "official_distribution": false,
+          "order": 91,
+          "source_note": "사용자 제공 Logos - Payment (Community).svg에서 원본 벡터 경로/색상을 보존해 카드틀 없이 추출한 커뮤니티 변형. 공식 화이트/흑백 배포본으로 인증된 자료가 아니며 기존 공식 원본과 대표 이미지는 유지."
+        },
+        {
+          "key": "community-payment-white",
+          "label": "화이트 · 커뮤니티 수록 변형",
+          "form": "symbol",
+          "lang": "none",
+          "color": "white",
+          "files": {
+            "svg": "sources/community-payment-20261010/c12d92f4167306f1.svg",
+            "png": "sources/community-payment-20261010/c8ecbd710274b20a.png"
+          },
+          "preview_png": "sources/community-payment-20261010/e074527445bd4408.png",
+          "provider": "figma-community",
+          "origin": "collected",
+          "official_distribution": false,
+          "order": 92,
+          "source_note": "사용자 제공 Logos - Payment (Community).svg에서 원본 벡터 경로/색상을 보존해 카드틀 없이 추출한 커뮤니티 변형. 공식 화이트/흑백 배포본으로 인증된 자료가 아니며 기존 공식 원본과 대표 이미지는 유지."
+        }
+      ]
+    },
+    "payoneer": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "payoneer",
+      "primary": "symbol",
+      "fingerprint": {
+        "logo.svg": "e94819eb06f282cd",
+        "sources/vlz/wide.svg": "e11f1b6b07f2cbd5"
+      },
+      "variants": [
+        {
+          "key": "horizontal",
+          "form": "horizontal",
+          "lang": "unknown",
+          "color": "color",
+          "label": "가로조합형",
+          "files": {
+            "svg": "sources/vlz/wide.svg"
+          },
+          "aspect": 2.737,
+          "provider": "vectorlogozone",
+          "origin": "collected",
+          "order": 10
+        },
+        {
+          "key": "symbol",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "mono-dark",
+          "label": "심볼형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 1.083,
+          "provider": "unknown",
+          "origin": "collected",
+          "order": 30
+        },
+        {
+          "key": "community-payment-color",
+          "label": "컬러 · 커뮤니티 수록 변형",
+          "form": "wordmark",
+          "lang": "en",
+          "color": "color",
+          "files": {
+            "svg": "sources/community-payment-20261010/6caa19172c063e37.svg",
+            "png": "sources/community-payment-20261010/6fe66ef4b6f8a080.png"
+          },
+          "preview_png": "sources/community-payment-20261010/4e5906a7b203b810.png",
+          "provider": "figma-community",
+          "origin": "collected",
+          "official_distribution": false,
+          "order": 90,
+          "source_note": "사용자 제공 Logos - Payment (Community).svg에서 원본 벡터 경로/색상을 보존해 카드틀 없이 추출한 커뮤니티 변형. 공식 화이트/흑백 배포본으로 인증된 자료가 아니며 기존 공식 원본과 대표 이미지는 유지."
+        },
+        {
+          "key": "community-payment-black",
+          "label": "검정 · 커뮤니티 수록 변형",
+          "form": "wordmark",
+          "lang": "en",
+          "color": "black",
+          "files": {
+            "svg": "sources/community-payment-20261010/a197c30887f1d09d.svg",
+            "png": "sources/community-payment-20261010/9f0331d0f422693b.png"
+          },
+          "preview_png": "sources/community-payment-20261010/091fcc1a7bf2165e.png",
+          "provider": "figma-community",
+          "origin": "collected",
+          "official_distribution": false,
+          "order": 91,
+          "source_note": "사용자 제공 Logos - Payment (Community).svg에서 원본 벡터 경로/색상을 보존해 카드틀 없이 추출한 커뮤니티 변형. 공식 화이트/흑백 배포본으로 인증된 자료가 아니며 기존 공식 원본과 대표 이미지는 유지."
+        },
+        {
+          "key": "community-payment-white",
+          "label": "화이트 · 커뮤니티 수록 변형",
+          "form": "wordmark",
+          "lang": "en",
+          "color": "white",
+          "files": {
+            "svg": "sources/community-payment-20261010/7ca0bb081ea74907.svg",
+            "png": "sources/community-payment-20261010/c9246616f6a86631.png"
+          },
+          "preview_png": "sources/community-payment-20261010/40ede81792c5673e.png",
+          "provider": "figma-community",
+          "origin": "collected",
+          "official_distribution": false,
+          "order": 92,
+          "source_note": "사용자 제공 Logos - Payment (Community).svg에서 원본 벡터 경로/색상을 보존해 카드틀 없이 추출한 커뮤니티 변형. 공식 화이트/흑백 배포본으로 인증된 자료가 아니며 기존 공식 원본과 대표 이미지는 유지."
+        }
+      ]
+    },
+    "ethereum": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "ethereum",
+      "primary": "vertical",
+      "fingerprint": {
+        "logo.svg": "737b230337fa0a9e",
+        "sources/ethereum-color.svg": "313496d6039824b8",
+        "sources/supertiny/ethereum.svg": "e588a5710ffd37f5"
+      },
+      "variants": [
+        {
+          "key": "vertical",
+          "form": "vertical",
+          "lang": "en",
+          "color": "mono-dark",
+          "label": "세로조합형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 0.618,
+          "provider": "simple-icons",
+          "origin": "collected",
+          "order": 20,
+          "alts": [
+            {
+              "provider": "merged",
+              "file": "sources/ethereum-color.svg"
+            },
+            {
+              "provider": "supertiny",
+              "file": "sources/supertiny/ethereum.svg"
+            }
+          ]
+        },
+        {
+          "key": "community-payment-color",
+          "label": "컬러 · 커뮤니티 수록 변형",
+          "form": "symbol",
+          "lang": "none",
+          "color": "color",
+          "files": {
+            "svg": "sources/community-payment-20261010/9882c25844fb5699.svg",
+            "png": "sources/community-payment-20261010/17f3c55ee9e3f175.png"
+          },
+          "preview_png": "sources/community-payment-20261010/ae906eaed7a477bb.png",
+          "provider": "figma-community",
+          "origin": "collected",
+          "official_distribution": false,
+          "order": 90,
+          "source_note": "사용자 제공 Logos - Payment (Community).svg에서 원본 벡터 경로/색상을 보존해 카드틀 없이 추출한 커뮤니티 변형. 공식 화이트/흑백 배포본으로 인증된 자료가 아니며 기존 공식 원본과 대표 이미지는 유지."
+        },
+        {
+          "key": "community-payment-white",
+          "label": "화이트 · 커뮤니티 수록 변형",
+          "form": "symbol",
+          "lang": "none",
+          "color": "white",
+          "files": {
+            "svg": "sources/community-payment-20261010/7fc93d7ee5fcf182.svg",
+            "png": "sources/community-payment-20261010/90d03a352edd320f.png"
+          },
+          "preview_png": "sources/community-payment-20261010/b5db05c7f115a164.png",
+          "provider": "figma-community",
+          "origin": "collected",
+          "official_distribution": false,
+          "order": 92,
+          "source_note": "사용자 제공 Logos - Payment (Community).svg에서 원본 벡터 경로/색상을 보존해 카드틀 없이 추출한 커뮤니티 변형. 공식 화이트/흑백 배포본으로 인증된 자료가 아니며 기존 공식 원본과 대표 이미지는 유지."
+        }
+      ]
+    },
+    "verifone": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "verifone",
+      "primary": "wordmark",
+      "fingerprint": {
+        "logo.svg": "eb914a14bccad6f3"
+      },
+      "variants": [
+        {
+          "key": "wordmark",
+          "form": "wordmark",
+          "lang": "unknown",
+          "color": "mono-dark",
+          "label": "워드마크형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 4.072,
+          "provider": "wikimedia",
+          "origin": "collected",
+          "order": 40
+        },
+        {
+          "key": "community-payment-color",
+          "label": "컬러 · 커뮤니티 수록 변형",
+          "form": "wordmark",
+          "lang": "en",
+          "color": "color",
+          "files": {
+            "svg": "sources/community-payment-20261010/fa3d881850a82ff5.svg",
+            "png": "sources/community-payment-20261010/9399dd18b9c8fe83.png"
+          },
+          "preview_png": "sources/community-payment-20261010/4497b8bdd2253d84.png",
+          "provider": "figma-community",
+          "origin": "collected",
+          "official_distribution": false,
+          "order": 90,
+          "source_note": "사용자 제공 Logos - Payment (Community).svg에서 원본 벡터 경로/색상을 보존해 카드틀 없이 추출한 커뮤니티 변형. 공식 화이트/흑백 배포본으로 인증된 자료가 아니며 기존 공식 원본과 대표 이미지는 유지."
+        },
+        {
+          "key": "community-payment-black",
+          "label": "검정 · 커뮤니티 수록 변형",
+          "form": "wordmark",
+          "lang": "en",
+          "color": "black",
+          "files": {
+            "svg": "sources/community-payment-20261010/18a0c25d37ef33c0.svg",
+            "png": "sources/community-payment-20261010/fa3bba57b0cf9fa2.png"
+          },
+          "preview_png": "sources/community-payment-20261010/35f4e6b8674d9186.png",
+          "provider": "figma-community",
+          "origin": "collected",
+          "official_distribution": false,
+          "order": 91,
+          "source_note": "사용자 제공 Logos - Payment (Community).svg에서 원본 벡터 경로/색상을 보존해 카드틀 없이 추출한 커뮤니티 변형. 공식 화이트/흑백 배포본으로 인증된 자료가 아니며 기존 공식 원본과 대표 이미지는 유지."
+        },
+        {
+          "key": "community-payment-white",
+          "label": "화이트 · 커뮤니티 수록 변형",
+          "form": "wordmark",
+          "lang": "en",
+          "color": "white",
+          "files": {
+            "svg": "sources/community-payment-20261010/992fcaa946d56e9d.svg",
+            "png": "sources/community-payment-20261010/9d4c5ca3d791d78b.png"
+          },
+          "preview_png": "sources/community-payment-20261010/1a94a679c544161e.png",
+          "provider": "figma-community",
+          "origin": "collected",
+          "official_distribution": false,
+          "order": 92,
+          "source_note": "사용자 제공 Logos - Payment (Community).svg에서 원본 벡터 경로/색상을 보존해 카드틀 없이 추출한 커뮤니티 변형. 공식 화이트/흑백 배포본으로 인증된 자료가 아니며 기존 공식 원본과 대표 이미지는 유지."
+        }
+      ]
+    },
+    "western-union": {
+      "schema": 1,
+      "id": "western-union",
+      "primary": "community-payment-color",
+      "variants": [
+        {
+          "key": "community-payment-color",
+          "label": "컬러 · 커뮤니티 수록 변형",
+          "form": "wordmark",
+          "lang": "en",
+          "color": "color",
+          "files": {
+            "svg": "sources/community-payment-20261010/b7aad827859fb152.svg",
+            "png": "sources/community-payment-20261010/bc03a154bb34529a.png"
+          },
+          "preview_png": "sources/community-payment-20261010/c508404f116fc9bd.png",
+          "provider": "figma-community",
+          "origin": "collected",
+          "official_distribution": false,
+          "order": 90,
+          "source_note": "사용자 제공 Logos - Payment (Community).svg에서 원본 벡터 경로/색상을 보존해 카드틀 없이 추출한 커뮤니티 변형. 공식 화이트/흑백 배포본으로 인증된 자료가 아니며 기존 공식 원본과 대표 이미지는 유지."
+        },
+        {
+          "key": "community-payment-black",
+          "label": "검정 · 커뮤니티 수록 변형",
+          "form": "wordmark",
+          "lang": "en",
+          "color": "black",
+          "files": {
+            "svg": "sources/community-payment-20261010/37012cda1207331f.svg",
+            "png": "sources/community-payment-20261010/85d9ef1ca716d2c1.png"
+          },
+          "preview_png": "sources/community-payment-20261010/20a38a1d5a896b6c.png",
+          "provider": "figma-community",
+          "origin": "collected",
+          "official_distribution": false,
+          "order": 91,
+          "source_note": "사용자 제공 Logos - Payment (Community).svg에서 원본 벡터 경로/색상을 보존해 카드틀 없이 추출한 커뮤니티 변형. 공식 화이트/흑백 배포본으로 인증된 자료가 아니며 기존 공식 원본과 대표 이미지는 유지."
+        },
+        {
+          "key": "community-payment-white",
+          "label": "화이트 · 커뮤니티 수록 변형",
+          "form": "wordmark",
+          "lang": "en",
+          "color": "white",
+          "files": {
+            "svg": "sources/community-payment-20261010/b5120aca20b2492f.svg",
+            "png": "sources/community-payment-20261010/80187a1cd1c8f298.png"
+          },
+          "preview_png": "sources/community-payment-20261010/15ca94577c10757d.png",
+          "provider": "figma-community",
+          "origin": "collected",
+          "official_distribution": false,
+          "order": 92,
+          "source_note": "사용자 제공 Logos - Payment (Community).svg에서 원본 벡터 경로/색상을 보존해 카드틀 없이 추출한 커뮤니티 변형. 공식 화이트/흑백 배포본으로 인증된 자료가 아니며 기존 공식 원본과 대표 이미지는 유지."
+        }
+      ]
+    }
+  },
+  "review": {
+    "source_sha256": "17571f6cdd93a6be5b931738d534c0bfaf58240ba869e8d7a23b507d90c5f862",
+    "official_representatives_preserved": true,
+    "existing_brands": 19,
+    "new_brands": [
+      "shop-pay"
+    ],
+    "duplicates_excluded": [
+      {
+        "id": "apple-pay",
+        "color": "black",
+        "reason": "same dominant RGB palette and same normalized artwork"
+      },
+      {
+        "id": "shop-pay",
+        "color": "black",
+        "reason": "same dominant RGB palette and same normalized artwork"
+      },
+      {
+        "id": "bitpay",
+        "color": "color",
+        "reason": "same dominant RGB palette and same normalized artwork"
+      },
+      {
+        "id": "ethereum",
+        "color": "black",
+        "reason": "same dominant RGB palette and same normalized artwork"
+      }
+    ],
+    "variant_count": 56,
+    "same_shape_different_palette_preserved": true,
+    "community_recolors_not_official_white": true
+  }
+}

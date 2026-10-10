@@ -1,0 +1,843 @@
+{
+  "patches": {
+    "appota": {
+      "id": "appota",
+      "name_ko": "Appota",
+      "name_en": "Appota",
+      "aliases": [
+        "Appota"
+      ],
+      "category": "금융·결제",
+      "origin": "VN",
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": "sources/community-vietnam-wallet-20261010/36dd0a3469e1f84cf520/logo.svg",
+      "svg_transparent": "sources/community-vietnam-wallet-20261010/36dd0a3469e1f84cf520/logo.svg",
+      "logo_png": "sources/community-vietnam-wallet-20261010/fd71b2b36ea45c91cbc9/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/appota/sources/community-vietnam-wallet-20261010/a5e28d841300fdd359f2/preview.png",
+      "presentation": {
+        "file": "sources/community-vietnam-wallet-20261010/fd71b2b36ea45c91cbc9/logo.png",
+        "bg": "light"
+      },
+      "variants_n": 1,
+      "asset_origin": "사용자 제공 Figma Community 수집본",
+      "asset_review_status": "verified",
+      "official_asset_reviewed": false,
+      "added_at": "2026-10-10",
+      "logo_published_at": "2026-10-10T13:12:18Z"
+    },
+    "baokim": {
+      "id": "baokim",
+      "name_ko": "BaoKim",
+      "name_en": "BaoKim",
+      "aliases": [
+        "BaoKim"
+      ],
+      "category": "금융·결제",
+      "origin": "VN",
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": "sources/community-vietnam-wallet-20261010/318582da757b8f91cbb0/logo.svg",
+      "svg_transparent": "sources/community-vietnam-wallet-20261010/318582da757b8f91cbb0/logo.svg",
+      "logo_png": "sources/community-vietnam-wallet-20261010/6ab82f97ece2d0620d73/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/baokim/sources/community-vietnam-wallet-20261010/9293a35720a76510a474/preview.png",
+      "presentation": {
+        "file": "sources/community-vietnam-wallet-20261010/6ab82f97ece2d0620d73/logo.png",
+        "bg": "light"
+      },
+      "variants_n": 1,
+      "asset_origin": "사용자 제공 Figma Community 수집본",
+      "asset_review_status": "verified",
+      "official_asset_reviewed": false,
+      "added_at": "2026-10-10",
+      "logo_published_at": "2026-10-10T13:12:18Z"
+    },
+    "ecpay-vietnam": {
+      "id": "ecpay-vietnam",
+      "name_ko": "ECPay",
+      "name_en": "ECPay",
+      "aliases": [
+        "ECPay"
+      ],
+      "category": "금융·결제",
+      "origin": "VN",
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": "sources/community-vietnam-wallet-20261010/754e7aaaa97063f6ef10/logo.svg",
+      "svg_transparent": "sources/community-vietnam-wallet-20261010/754e7aaaa97063f6ef10/logo.svg",
+      "logo_png": "sources/community-vietnam-wallet-20261010/26fa37596143bfaa0adf/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/ecpay-vietnam/sources/community-vietnam-wallet-20261010/9c79b3ebab60d1e6c506/preview.png",
+      "presentation": {
+        "file": "sources/community-vietnam-wallet-20261010/26fa37596143bfaa0adf/logo.png",
+        "bg": "light"
+      },
+      "variants_n": 1,
+      "asset_origin": "사용자 제공 Figma Community 수집본",
+      "asset_review_status": "verified",
+      "official_asset_reviewed": false,
+      "added_at": "2026-10-10",
+      "logo_published_at": "2026-10-10T13:12:18Z"
+    },
+    "momo-2": {
+      "variants_n": 2
+    },
+    "nextpay-vietnam": {
+      "id": "nextpay-vietnam",
+      "name_ko": "NextPay",
+      "name_en": "NextPay",
+      "aliases": [
+        "NextPay"
+      ],
+      "category": "금융·결제",
+      "origin": "VN",
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": "sources/community-vietnam-wallet-20261010/3c325e18d2daedb66e3f/logo.svg",
+      "svg_transparent": "sources/community-vietnam-wallet-20261010/3c325e18d2daedb66e3f/logo.svg",
+      "logo_png": "sources/community-vietnam-wallet-20261010/420fac70aa959e45b80f/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/nextpay-vietnam/sources/community-vietnam-wallet-20261010/1193b4629f3c31109274/preview.png",
+      "presentation": {
+        "file": "sources/community-vietnam-wallet-20261010/420fac70aa959e45b80f/logo.png",
+        "bg": "light"
+      },
+      "variants_n": 1,
+      "asset_origin": "사용자 제공 Figma Community 수집본",
+      "asset_review_status": "verified",
+      "official_asset_reviewed": false,
+      "added_at": "2026-10-10",
+      "logo_published_at": "2026-10-10T13:12:18Z"
+    },
+    "nganluong": {
+      "id": "nganluong",
+      "name_ko": "NganLuong.vn",
+      "name_en": "NganLuong.vn",
+      "aliases": [
+        "NganLuong.vn"
+      ],
+      "category": "금융·결제",
+      "origin": "VN",
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": "sources/community-vietnam-wallet-20261010/09397edc0dbe966f9a0a/logo.svg",
+      "svg_transparent": "sources/community-vietnam-wallet-20261010/09397edc0dbe966f9a0a/logo.svg",
+      "logo_png": "sources/community-vietnam-wallet-20261010/58e3dde9de84bb903fc6/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/nganluong/sources/community-vietnam-wallet-20261010/56084c38e3a163d9dfbb/preview.png",
+      "presentation": {
+        "file": "sources/community-vietnam-wallet-20261010/58e3dde9de84bb903fc6/logo.png",
+        "bg": "light"
+      },
+      "variants_n": 1,
+      "asset_origin": "사용자 제공 Figma Community 수집본",
+      "asset_review_status": "verified",
+      "official_asset_reviewed": false,
+      "added_at": "2026-10-10",
+      "logo_published_at": "2026-10-10T13:12:18Z"
+    },
+    "payme-vietnam": {
+      "id": "payme-vietnam",
+      "name_ko": "PayME",
+      "name_en": "PayME",
+      "aliases": [
+        "PayME"
+      ],
+      "category": "금융·결제",
+      "origin": "VN",
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": "sources/community-vietnam-wallet-20261010/1280976f2b2b41e91b62/logo.svg",
+      "svg_transparent": "sources/community-vietnam-wallet-20261010/1280976f2b2b41e91b62/logo.svg",
+      "logo_png": "sources/community-vietnam-wallet-20261010/76d8453f1bea53478298/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/payme-vietnam/sources/community-vietnam-wallet-20261010/dbd9d6b14781db6cdca9/preview.png",
+      "presentation": {
+        "file": "sources/community-vietnam-wallet-20261010/76d8453f1bea53478298/logo.png",
+        "bg": "light"
+      },
+      "variants_n": 1,
+      "asset_origin": "사용자 제공 Figma Community 수집본",
+      "asset_review_status": "verified",
+      "official_asset_reviewed": false,
+      "added_at": "2026-10-10",
+      "logo_published_at": "2026-10-10T13:12:18Z"
+    },
+    "payoo": {
+      "id": "payoo",
+      "name_ko": "Payoo",
+      "name_en": "Payoo",
+      "aliases": [
+        "Payoo"
+      ],
+      "category": "금융·결제",
+      "origin": "VN",
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": "sources/community-vietnam-wallet-20261010/a144253fbe74bf59a74b/logo.svg",
+      "svg_transparent": "sources/community-vietnam-wallet-20261010/a144253fbe74bf59a74b/logo.svg",
+      "logo_png": "sources/community-vietnam-wallet-20261010/76b8ca1851fda70004f4/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/payoo/sources/community-vietnam-wallet-20261010/7720d52c1382d22ae1c8/preview.png",
+      "presentation": {
+        "file": "sources/community-vietnam-wallet-20261010/76b8ca1851fda70004f4/logo.png",
+        "bg": "light"
+      },
+      "variants_n": 1,
+      "asset_origin": "사용자 제공 Figma Community 수집본",
+      "asset_review_status": "verified",
+      "official_asset_reviewed": false,
+      "added_at": "2026-10-10",
+      "logo_published_at": "2026-10-10T13:12:18Z"
+    },
+    "shopeepay": {
+      "id": "shopeepay",
+      "name_ko": "ShopeePay",
+      "name_en": "ShopeePay",
+      "aliases": [
+        "ShopeePay"
+      ],
+      "category": "금융·결제",
+      "origin": "VN",
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": "sources/community-vietnam-wallet-20261010/702cec6c5a4f4dbcbe42/logo.svg",
+      "svg_transparent": "sources/community-vietnam-wallet-20261010/702cec6c5a4f4dbcbe42/logo.svg",
+      "logo_png": "sources/community-vietnam-wallet-20261010/41b6f0786b4c8746a5cd/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/shopeepay/sources/community-vietnam-wallet-20261010/f2241c357126be4ae41a/preview.png",
+      "presentation": {
+        "file": "sources/community-vietnam-wallet-20261010/41b6f0786b4c8746a5cd/logo.png",
+        "bg": "light"
+      },
+      "variants_n": 1,
+      "asset_origin": "사용자 제공 Figma Community 수집본",
+      "asset_review_status": "verified",
+      "official_asset_reviewed": false,
+      "added_at": "2026-10-10",
+      "logo_published_at": "2026-10-10T13:12:18Z"
+    },
+    "truemoney": {
+      "id": "truemoney",
+      "name_ko": "TrueMoney",
+      "name_en": "TrueMoney",
+      "aliases": [
+        "TrueMoney"
+      ],
+      "category": "금융·결제",
+      "origin": "TH",
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": "sources/community-vietnam-wallet-20261010/bf7c279604a3930a10ca/logo.svg",
+      "svg_transparent": "sources/community-vietnam-wallet-20261010/bf7c279604a3930a10ca/logo.svg",
+      "logo_png": "sources/community-vietnam-wallet-20261010/b7df8fa861162444d856/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/truemoney/sources/community-vietnam-wallet-20261010/fe8f227a8913d6be8f87/preview.png",
+      "presentation": {
+        "file": "sources/community-vietnam-wallet-20261010/b7df8fa861162444d856/logo.png",
+        "bg": "light"
+      },
+      "variants_n": 1,
+      "asset_origin": "사용자 제공 Figma Community 수집본",
+      "asset_review_status": "verified",
+      "official_asset_reviewed": false,
+      "added_at": "2026-10-10",
+      "logo_published_at": "2026-10-10T13:12:18Z"
+    },
+    "viettel-money": {
+      "id": "viettel-money",
+      "name_ko": "Viettel Money",
+      "name_en": "Viettel Money",
+      "aliases": [
+        "Viettel Money"
+      ],
+      "category": "금융·결제",
+      "origin": "VN",
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": "sources/community-vietnam-wallet-20261010/f769954b6b456df5535b/logo.svg",
+      "svg_transparent": "sources/community-vietnam-wallet-20261010/f769954b6b456df5535b/logo.svg",
+      "logo_png": "sources/community-vietnam-wallet-20261010/21e3dfcb3c24fb1143c6/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/viettel-money/sources/community-vietnam-wallet-20261010/035e5795b8861a314efd/preview.png",
+      "presentation": {
+        "file": "sources/community-vietnam-wallet-20261010/21e3dfcb3c24fb1143c6/logo.png",
+        "bg": "light"
+      },
+      "variants_n": 1,
+      "asset_origin": "사용자 제공 Figma Community 수집본",
+      "asset_review_status": "verified",
+      "official_asset_reviewed": false,
+      "added_at": "2026-10-10",
+      "logo_published_at": "2026-10-10T13:12:18Z"
+    },
+    "vimo-vietnam": {
+      "id": "vimo-vietnam",
+      "name_ko": "VIMO",
+      "name_en": "VIMO",
+      "aliases": [
+        "VIMO"
+      ],
+      "category": "금융·결제",
+      "origin": "VN",
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": "sources/community-vietnam-wallet-20261010/9788157262bcbe39bcff/logo.svg",
+      "svg_transparent": "sources/community-vietnam-wallet-20261010/9788157262bcbe39bcff/logo.svg",
+      "logo_png": "sources/community-vietnam-wallet-20261010/de17581c9440fc855b71/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/vimo-vietnam/sources/community-vietnam-wallet-20261010/eae14f6667ce39c59903/preview.png",
+      "presentation": {
+        "file": "sources/community-vietnam-wallet-20261010/de17581c9440fc855b71/logo.png",
+        "bg": "light"
+      },
+      "variants_n": 1,
+      "asset_origin": "사용자 제공 Figma Community 수집본",
+      "asset_review_status": "verified",
+      "official_asset_reviewed": false,
+      "added_at": "2026-10-10",
+      "logo_published_at": "2026-10-10T13:12:18Z"
+    },
+    "vnpt-money": {
+      "id": "vnpt-money",
+      "name_ko": "VNPT Money",
+      "name_en": "VNPT Money",
+      "aliases": [
+        "VNPT Money"
+      ],
+      "category": "금융·결제",
+      "origin": "VN",
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": "sources/community-vietnam-wallet-20261010/eae9cfa59549535c6a6f/logo.svg",
+      "svg_transparent": "sources/community-vietnam-wallet-20261010/eae9cfa59549535c6a6f/logo.svg",
+      "logo_png": "sources/community-vietnam-wallet-20261010/d590d7a2c219031cee05/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/vnpt-money/sources/community-vietnam-wallet-20261010/1c9a25285a163118d8b4/preview.png",
+      "presentation": {
+        "file": "sources/community-vietnam-wallet-20261010/d590d7a2c219031cee05/logo.png",
+        "bg": "light"
+      },
+      "variants_n": 1,
+      "asset_origin": "사용자 제공 Figma Community 수집본",
+      "asset_review_status": "verified",
+      "official_asset_reviewed": false,
+      "added_at": "2026-10-10",
+      "logo_published_at": "2026-10-10T13:12:18Z"
+    },
+    "vnpay": {
+      "id": "vnpay",
+      "name_ko": "VNPAY",
+      "name_en": "VNPAY",
+      "aliases": [
+        "VNPAY"
+      ],
+      "category": "금융·결제",
+      "origin": "VN",
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": "sources/community-vietnam-wallet-20261010/8e1ced837269d080e010/logo.svg",
+      "svg_transparent": "sources/community-vietnam-wallet-20261010/8e1ced837269d080e010/logo.svg",
+      "logo_png": "sources/community-vietnam-wallet-20261010/958c3da5e9b4ae62d48e/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/vnpay/sources/community-vietnam-wallet-20261010/ca392ec3f5a1091c2433/preview.png",
+      "presentation": {
+        "file": "sources/community-vietnam-wallet-20261010/958c3da5e9b4ae62d48e/logo.png",
+        "bg": "light"
+      },
+      "variants_n": 1,
+      "asset_origin": "사용자 제공 Figma Community 수집본",
+      "asset_review_status": "verified",
+      "official_asset_reviewed": false,
+      "added_at": "2026-10-10",
+      "logo_published_at": "2026-10-10T13:12:18Z"
+    },
+    "vtc-pay": {
+      "id": "vtc-pay",
+      "name_ko": "VTC Pay",
+      "name_en": "VTC Pay",
+      "aliases": [
+        "VTC Pay"
+      ],
+      "category": "금융·결제",
+      "origin": "VN",
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": "sources/community-vietnam-wallet-20261010/a907989be9fe1ae3c7ce/logo.svg",
+      "svg_transparent": "sources/community-vietnam-wallet-20261010/a907989be9fe1ae3c7ce/logo.svg",
+      "logo_png": "sources/community-vietnam-wallet-20261010/0cdf6daca6864caba90c/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/vtc-pay/sources/community-vietnam-wallet-20261010/9baf9bb456fee62e9075/preview.png",
+      "presentation": {
+        "file": "sources/community-vietnam-wallet-20261010/0cdf6daca6864caba90c/logo.png",
+        "bg": "light"
+      },
+      "variants_n": 1,
+      "asset_origin": "사용자 제공 Figma Community 수집본",
+      "asset_review_status": "verified",
+      "official_asset_reviewed": false,
+      "added_at": "2026-10-10",
+      "logo_published_at": "2026-10-10T13:12:18Z"
+    },
+    "zalopay": {
+      "id": "zalopay",
+      "name_ko": "ZaloPay",
+      "name_en": "ZaloPay",
+      "aliases": [
+        "ZaloPay"
+      ],
+      "category": "금융·결제",
+      "origin": "VN",
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": "sources/community-vietnam-wallet-20261010/47c89e3680b8769bd105/logo.svg",
+      "svg_transparent": "sources/community-vietnam-wallet-20261010/47c89e3680b8769bd105/logo.svg",
+      "logo_png": "sources/community-vietnam-wallet-20261010/8a0ec4f466cd644b9ca3/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/zalopay/sources/community-vietnam-wallet-20261010/ab4f75d455bbf96af4ae/preview.png",
+      "presentation": {
+        "file": "sources/community-vietnam-wallet-20261010/8a0ec4f466cd644b9ca3/logo.png",
+        "bg": "light"
+      },
+      "variants_n": 1,
+      "asset_origin": "사용자 제공 Figma Community 수집본",
+      "asset_review_status": "verified",
+      "official_asset_reviewed": false,
+      "added_at": "2026-10-10",
+      "logo_published_at": "2026-10-10T13:12:18Z"
+    }
+  },
+  "variants": {
+    "appota": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "appota",
+      "primary": "community-vietnam-wallet-horizontal",
+      "variants": [
+        {
+          "key": "community-vietnam-wallet-horizontal",
+          "label": "커뮤니티 수록 가로형 · 시기 미확인",
+          "form": "horizontal",
+          "lang": "mixed",
+          "color": "original",
+          "files": {
+            "svg": "sources/community-vietnam-wallet-20261010/36dd0a3469e1f84cf520/logo.svg",
+            "png": "sources/community-vietnam-wallet-20261010/fd71b2b36ea45c91cbc9/logo.png"
+          },
+          "preview_png": "sources/community-vietnam-wallet-20261010/a5e28d841300fdd359f2/preview.png",
+          "provider": "사용자 제공 Figma Community 수집본",
+          "origin": "community",
+          "official": false,
+          "source_sha256": "e5aefb81082afb5e1d6cfc03658687a47f2bd1ebfd92e5871c880696599ef5dc",
+          "source_note": "커뮤니티 내보내기 수록 형태. 공식 배포 원본 또는 현행 CI로 표시하지 않음.",
+          "review_status": "verified",
+          "order": 100
+        }
+      ]
+    },
+    "baokim": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "baokim",
+      "primary": "community-vietnam-wallet-horizontal",
+      "variants": [
+        {
+          "key": "community-vietnam-wallet-horizontal",
+          "label": "커뮤니티 수록 가로형 · 시기 미확인",
+          "form": "horizontal",
+          "lang": "mixed",
+          "color": "original",
+          "files": {
+            "svg": "sources/community-vietnam-wallet-20261010/318582da757b8f91cbb0/logo.svg",
+            "png": "sources/community-vietnam-wallet-20261010/6ab82f97ece2d0620d73/logo.png"
+          },
+          "preview_png": "sources/community-vietnam-wallet-20261010/9293a35720a76510a474/preview.png",
+          "provider": "사용자 제공 Figma Community 수집본",
+          "origin": "community",
+          "official": false,
+          "source_sha256": "e5aefb81082afb5e1d6cfc03658687a47f2bd1ebfd92e5871c880696599ef5dc",
+          "source_note": "커뮤니티 내보내기 수록 형태. 공식 배포 원본 또는 현행 CI로 표시하지 않음.",
+          "review_status": "verified",
+          "order": 100
+        }
+      ]
+    },
+    "ecpay-vietnam": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "ecpay-vietnam",
+      "primary": "community-vietnam-wallet-horizontal",
+      "variants": [
+        {
+          "key": "community-vietnam-wallet-horizontal",
+          "label": "커뮤니티 수록 가로형 · 시기 미확인",
+          "form": "horizontal",
+          "lang": "mixed",
+          "color": "original",
+          "files": {
+            "svg": "sources/community-vietnam-wallet-20261010/754e7aaaa97063f6ef10/logo.svg",
+            "png": "sources/community-vietnam-wallet-20261010/26fa37596143bfaa0adf/logo.png"
+          },
+          "preview_png": "sources/community-vietnam-wallet-20261010/9c79b3ebab60d1e6c506/preview.png",
+          "provider": "사용자 제공 Figma Community 수집본",
+          "origin": "community",
+          "official": false,
+          "source_sha256": "e5aefb81082afb5e1d6cfc03658687a47f2bd1ebfd92e5871c880696599ef5dc",
+          "source_note": "커뮤니티 내보내기 수록 형태. 공식 배포 원본 또는 현행 CI로 표시하지 않음.",
+          "review_status": "verified",
+          "order": 100
+        }
+      ]
+    },
+    "momo-2": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "momo-2",
+      "primary": "existing-original",
+      "variants": [
+        {
+          "key": "existing-original",
+          "form": "symbol",
+          "color": "original",
+          "label": "기존 수집 심볼",
+          "files": {
+            "svg": "logo.svg"
+          },
+          "provider": "기존 수집 자산",
+          "origin": "collected",
+          "order": 0
+        },
+        {
+          "key": "community-vietnam-wallet-horizontal",
+          "label": "커뮤니티 수록 가로형 · 시기 미확인",
+          "form": "horizontal",
+          "lang": "mixed",
+          "color": "original",
+          "files": {
+            "svg": "sources/community-vietnam-wallet-20261010/87d48d8827052bcafff4/logo.svg",
+            "png": "sources/community-vietnam-wallet-20261010/cbe2c1b0ac4150733f27/logo.png"
+          },
+          "preview_png": "sources/community-vietnam-wallet-20261010/bd95e8be8f9818c02dcc/preview.png",
+          "provider": "사용자 제공 Figma Community 수집본",
+          "origin": "community",
+          "official": false,
+          "source_sha256": "e5aefb81082afb5e1d6cfc03658687a47f2bd1ebfd92e5871c880696599ef5dc",
+          "source_note": "커뮤니티 내보내기 수록 형태. 공식 배포 원본 또는 현행 CI로 표시하지 않음.",
+          "review_status": "verified",
+          "order": 100
+        }
+      ]
+    },
+    "nextpay-vietnam": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "nextpay-vietnam",
+      "primary": "community-vietnam-wallet-horizontal",
+      "variants": [
+        {
+          "key": "community-vietnam-wallet-horizontal",
+          "label": "커뮤니티 수록 가로형 · 시기 미확인",
+          "form": "horizontal",
+          "lang": "mixed",
+          "color": "original",
+          "files": {
+            "svg": "sources/community-vietnam-wallet-20261010/3c325e18d2daedb66e3f/logo.svg",
+            "png": "sources/community-vietnam-wallet-20261010/420fac70aa959e45b80f/logo.png"
+          },
+          "preview_png": "sources/community-vietnam-wallet-20261010/1193b4629f3c31109274/preview.png",
+          "provider": "사용자 제공 Figma Community 수집본",
+          "origin": "community",
+          "official": false,
+          "source_sha256": "e5aefb81082afb5e1d6cfc03658687a47f2bd1ebfd92e5871c880696599ef5dc",
+          "source_note": "커뮤니티 내보내기 수록 형태. 공식 배포 원본 또는 현행 CI로 표시하지 않음.",
+          "review_status": "verified",
+          "order": 100
+        }
+      ]
+    },
+    "nganluong": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "nganluong",
+      "primary": "community-vietnam-wallet-horizontal",
+      "variants": [
+        {
+          "key": "community-vietnam-wallet-horizontal",
+          "label": "커뮤니티 수록 가로형 · 시기 미확인",
+          "form": "horizontal",
+          "lang": "mixed",
+          "color": "original",
+          "files": {
+            "svg": "sources/community-vietnam-wallet-20261010/09397edc0dbe966f9a0a/logo.svg",
+            "png": "sources/community-vietnam-wallet-20261010/58e3dde9de84bb903fc6/logo.png"
+          },
+          "preview_png": "sources/community-vietnam-wallet-20261010/56084c38e3a163d9dfbb/preview.png",
+          "provider": "사용자 제공 Figma Community 수집본",
+          "origin": "community",
+          "official": false,
+          "source_sha256": "e5aefb81082afb5e1d6cfc03658687a47f2bd1ebfd92e5871c880696599ef5dc",
+          "source_note": "커뮤니티 내보내기 수록 형태. 공식 배포 원본 또는 현행 CI로 표시하지 않음.",
+          "review_status": "verified",
+          "order": 100
+        }
+      ]
+    },
+    "payme-vietnam": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "payme-vietnam",
+      "primary": "community-vietnam-wallet-horizontal",
+      "variants": [
+        {
+          "key": "community-vietnam-wallet-horizontal",
+          "label": "커뮤니티 수록 가로형 · 시기 미확인",
+          "form": "horizontal",
+          "lang": "mixed",
+          "color": "original",
+          "files": {
+            "svg": "sources/community-vietnam-wallet-20261010/1280976f2b2b41e91b62/logo.svg",
+            "png": "sources/community-vietnam-wallet-20261010/76d8453f1bea53478298/logo.png"
+          },
+          "preview_png": "sources/community-vietnam-wallet-20261010/dbd9d6b14781db6cdca9/preview.png",
+          "provider": "사용자 제공 Figma Community 수집본",
+          "origin": "community",
+          "official": false,
+          "source_sha256": "e5aefb81082afb5e1d6cfc03658687a47f2bd1ebfd92e5871c880696599ef5dc",
+          "source_note": "커뮤니티 내보내기 수록 형태. 공식 배포 원본 또는 현행 CI로 표시하지 않음.",
+          "review_status": "verified",
+          "order": 100
+        }
+      ]
+    },
+    "payoo": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "payoo",
+      "primary": "community-vietnam-wallet-horizontal",
+      "variants": [
+        {
+          "key": "community-vietnam-wallet-horizontal",
+          "label": "커뮤니티 수록 가로형 · 시기 미확인",
+          "form": "horizontal",
+          "lang": "mixed",
+          "color": "original",
+          "files": {
+            "svg": "sources/community-vietnam-wallet-20261010/a144253fbe74bf59a74b/logo.svg",
+            "png": "sources/community-vietnam-wallet-20261010/76b8ca1851fda70004f4/logo.png"
+          },
+          "preview_png": "sources/community-vietnam-wallet-20261010/7720d52c1382d22ae1c8/preview.png",
+          "provider": "사용자 제공 Figma Community 수집본",
+          "origin": "community",
+          "official": false,
+          "source_sha256": "e5aefb81082afb5e1d6cfc03658687a47f2bd1ebfd92e5871c880696599ef5dc",
+          "source_note": "커뮤니티 내보내기 수록 형태. 공식 배포 원본 또는 현행 CI로 표시하지 않음.",
+          "review_status": "verified",
+          "order": 100
+        }
+      ]
+    },
+    "shopeepay": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "shopeepay",
+      "primary": "community-vietnam-wallet-horizontal",
+      "variants": [
+        {
+          "key": "community-vietnam-wallet-horizontal",
+          "label": "커뮤니티 수록 가로형 · 시기 미확인",
+          "form": "horizontal",
+          "lang": "mixed",
+          "color": "original",
+          "files": {
+            "svg": "sources/community-vietnam-wallet-20261010/702cec6c5a4f4dbcbe42/logo.svg",
+            "png": "sources/community-vietnam-wallet-20261010/41b6f0786b4c8746a5cd/logo.png"
+          },
+          "preview_png": "sources/community-vietnam-wallet-20261010/f2241c357126be4ae41a/preview.png",
+          "provider": "사용자 제공 Figma Community 수집본",
+          "origin": "community",
+          "official": false,
+          "source_sha256": "e5aefb81082afb5e1d6cfc03658687a47f2bd1ebfd92e5871c880696599ef5dc",
+          "source_note": "커뮤니티 내보내기 수록 형태. 공식 배포 원본 또는 현행 CI로 표시하지 않음.",
+          "review_status": "verified",
+          "order": 100
+        }
+      ]
+    },
+    "truemoney": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "truemoney",
+      "primary": "community-vietnam-wallet-horizontal",
+      "variants": [
+        {
+          "key": "community-vietnam-wallet-horizontal",
+          "label": "커뮤니티 수록 가로형 · 시기 미확인",
+          "form": "horizontal",
+          "lang": "mixed",
+          "color": "original",
+          "files": {
+            "svg": "sources/community-vietnam-wallet-20261010/bf7c279604a3930a10ca/logo.svg",
+            "png": "sources/community-vietnam-wallet-20261010/b7df8fa861162444d856/logo.png"
+          },
+          "preview_png": "sources/community-vietnam-wallet-20261010/fe8f227a8913d6be8f87/preview.png",
+          "provider": "사용자 제공 Figma Community 수집본",
+          "origin": "community",
+          "official": false,
+          "source_sha256": "e5aefb81082afb5e1d6cfc03658687a47f2bd1ebfd92e5871c880696599ef5dc",
+          "source_note": "커뮤니티 내보내기 수록 형태. 공식 배포 원본 또는 현행 CI로 표시하지 않음.",
+          "review_status": "verified",
+          "order": 100
+        }
+      ]
+    },
+    "viettel-money": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "viettel-money",
+      "primary": "community-vietnam-wallet-horizontal",
+      "variants": [
+        {
+          "key": "community-vietnam-wallet-horizontal",
+          "label": "커뮤니티 수록 가로형 · 시기 미확인",
+          "form": "horizontal",
+          "lang": "mixed",
+          "color": "original",
+          "files": {
+            "svg": "sources/community-vietnam-wallet-20261010/f769954b6b456df5535b/logo.svg",
+            "png": "sources/community-vietnam-wallet-20261010/21e3dfcb3c24fb1143c6/logo.png"
+          },
+          "preview_png": "sources/community-vietnam-wallet-20261010/035e5795b8861a314efd/preview.png",
+          "provider": "사용자 제공 Figma Community 수집본",
+          "origin": "community",
+          "official": false,
+          "source_sha256": "e5aefb81082afb5e1d6cfc03658687a47f2bd1ebfd92e5871c880696599ef5dc",
+          "source_note": "커뮤니티 내보내기 수록 형태. 공식 배포 원본 또는 현행 CI로 표시하지 않음.",
+          "review_status": "verified",
+          "order": 100
+        }
+      ]
+    },
+    "vimo-vietnam": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "vimo-vietnam",
+      "primary": "community-vietnam-wallet-horizontal",
+      "variants": [
+        {
+          "key": "community-vietnam-wallet-horizontal",
+          "label": "커뮤니티 수록 가로형 · 시기 미확인",
+          "form": "horizontal",
+          "lang": "mixed",
+          "color": "original",
+          "files": {
+            "svg": "sources/community-vietnam-wallet-20261010/9788157262bcbe39bcff/logo.svg",
+            "png": "sources/community-vietnam-wallet-20261010/de17581c9440fc855b71/logo.png"
+          },
+          "preview_png": "sources/community-vietnam-wallet-20261010/eae14f6667ce39c59903/preview.png",
+          "provider": "사용자 제공 Figma Community 수집본",
+          "origin": "community",
+          "official": false,
+          "source_sha256": "e5aefb81082afb5e1d6cfc03658687a47f2bd1ebfd92e5871c880696599ef5dc",
+          "source_note": "커뮤니티 내보내기 수록 형태. 공식 배포 원본 또는 현행 CI로 표시하지 않음.",
+          "review_status": "verified",
+          "order": 100
+        }
+      ]
+    },
+    "vnpt-money": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "vnpt-money",
+      "primary": "community-vietnam-wallet-horizontal",
+      "variants": [
+        {
+          "key": "community-vietnam-wallet-horizontal",
+          "label": "커뮤니티 수록 가로형 · 시기 미확인",
+          "form": "horizontal",
+          "lang": "mixed",
+          "color": "original",
+          "files": {
+            "svg": "sources/community-vietnam-wallet-20261010/eae9cfa59549535c6a6f/logo.svg",
+            "png": "sources/community-vietnam-wallet-20261010/d590d7a2c219031cee05/logo.png"
+          },
+          "preview_png": "sources/community-vietnam-wallet-20261010/1c9a25285a163118d8b4/preview.png",
+          "provider": "사용자 제공 Figma Community 수집본",
+          "origin": "community",
+          "official": false,
+          "source_sha256": "e5aefb81082afb5e1d6cfc03658687a47f2bd1ebfd92e5871c880696599ef5dc",
+          "source_note": "커뮤니티 내보내기 수록 형태. 공식 배포 원본 또는 현행 CI로 표시하지 않음.",
+          "review_status": "verified",
+          "order": 100
+        }
+      ]
+    },
+    "vnpay": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "vnpay",
+      "primary": "community-vietnam-wallet-horizontal",
+      "variants": [
+        {
+          "key": "community-vietnam-wallet-horizontal",
+          "label": "커뮤니티 수록 가로형 · 시기 미확인",
+          "form": "horizontal",
+          "lang": "mixed",
+          "color": "original",
+          "files": {
+            "svg": "sources/community-vietnam-wallet-20261010/8e1ced837269d080e010/logo.svg",
+            "png": "sources/community-vietnam-wallet-20261010/958c3da5e9b4ae62d48e/logo.png"
+          },
+          "preview_png": "sources/community-vietnam-wallet-20261010/ca392ec3f5a1091c2433/preview.png",
+          "provider": "사용자 제공 Figma Community 수집본",
+          "origin": "community",
+          "official": false,
+          "source_sha256": "e5aefb81082afb5e1d6cfc03658687a47f2bd1ebfd92e5871c880696599ef5dc",
+          "source_note": "커뮤니티 내보내기 수록 형태. 공식 배포 원본 또는 현행 CI로 표시하지 않음.",
+          "review_status": "verified",
+          "order": 100
+        }
+      ]
+    },
+    "vtc-pay": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "vtc-pay",
+      "primary": "community-vietnam-wallet-horizontal",
+      "variants": [
+        {
+          "key": "community-vietnam-wallet-horizontal",
+          "label": "커뮤니티 수록 가로형 · 시기 미확인",
+          "form": "horizontal",
+          "lang": "mixed",
+          "color": "original",
+          "files": {
+            "svg": "sources/community-vietnam-wallet-20261010/a907989be9fe1ae3c7ce/logo.svg",
+            "png": "sources/community-vietnam-wallet-20261010/0cdf6daca6864caba90c/logo.png"
+          },
+          "preview_png": "sources/community-vietnam-wallet-20261010/9baf9bb456fee62e9075/preview.png",
+          "provider": "사용자 제공 Figma Community 수집본",
+          "origin": "community",
+          "official": false,
+          "source_sha256": "e5aefb81082afb5e1d6cfc03658687a47f2bd1ebfd92e5871c880696599ef5dc",
+          "source_note": "커뮤니티 내보내기 수록 형태. 공식 배포 원본 또는 현행 CI로 표시하지 않음.",
+          "review_status": "verified",
+          "order": 100
+        }
+      ]
+    },
+    "zalopay": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "zalopay",
+      "primary": "community-vietnam-wallet-horizontal",
+      "variants": [
+        {
+          "key": "community-vietnam-wallet-horizontal",
+          "label": "커뮤니티 수록 가로형 · 시기 미확인",
+          "form": "horizontal",
+          "lang": "mixed",
+          "color": "original",
+          "files": {
+            "svg": "sources/community-vietnam-wallet-20261010/47c89e3680b8769bd105/logo.svg",
+            "png": "sources/community-vietnam-wallet-20261010/8a0ec4f466cd644b9ca3/logo.png"
+          },
+          "preview_png": "sources/community-vietnam-wallet-20261010/ab4f75d455bbf96af4ae/preview.png",
+          "provider": "사용자 제공 Figma Community 수집본",
+          "origin": "community",
+          "official": false,
+          "source_sha256": "e5aefb81082afb5e1d6cfc03658687a47f2bd1ebfd92e5871c880696599ef5dc",
+          "source_note": "커뮤니티 내보내기 수록 형태. 공식 배포 원본 또는 현행 CI로 표시하지 않음.",
+          "review_status": "verified",
+          "order": 100
+        }
+      ]
+    }
+  }
+}

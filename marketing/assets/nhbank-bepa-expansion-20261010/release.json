@@ -1,0 +1,305 @@
+{
+  "patches": {
+    "nhbank": {
+      "variants_n": 9,
+      "source_zip": "sources/official-nhbank-bepa-20261010/d16275eaa257c4bfd4c6/nh-signature-ai.zip",
+      "source_ai": "sources/official-nhbank-bepa-20261010/da9e65cd40035ce3931a/nh-signature-ai.ai",
+      "svg_transparent": "sources/official-nhbank-bepa-20261010/36175ac840594a33e33a/ko-horizontal.svg"
+    },
+    "gongu-ci-1137": {
+      "variants_n": 4,
+      "source_zip": "sources/official-nhbank-bepa-20261010/f8af39994f47bf37478c/bepa-signature-ai.zip",
+      "source_ai": "sources/official-nhbank-bepa-20261010/83b51d7b30009c5d43f5/bepa_ci_signature_가로형.ai"
+    }
+  },
+  "variants": {
+    "nhbank": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "nhbank",
+      "primary": "verified-png",
+      "variants": [
+        {
+          "key": "verified-png",
+          "form": "vertical",
+          "lang": "ko",
+          "files": {
+            "png": "sources/bank-corrections-20261010/6b15663940dbea4b.png"
+          },
+          "label": "기본 PNG · 기존 수집본 검수",
+          "order": 0,
+          "origin": "collected",
+          "provider": "legacy-reviewed"
+        },
+        {
+          "key": "official-source-ko-horizontal",
+          "label": "국문 가로조합형 · 공식 AI 원본 추출",
+          "form": "horizontal",
+          "lang": "ko",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-nhbank-bepa-20261010/36175ac840594a33e33a/ko-horizontal.svg",
+            "png": "sources/official-nhbank-bepa-20261010/ac29709fd69d78288af3/ko-horizontal.png",
+            "ai": "sources/official-nhbank-bepa-20261010/da9e65cd40035ce3931a/nh-signature-ai.ai",
+            "zip": "sources/official-nhbank-bepa-20261010/d16275eaa257c4bfd4c6/nh-signature-ai.zip"
+          },
+          "preview_png": "sources/official-nhbank-bepa-20261010/0e798b46be2b184ab809/ko-horizontal-preview.png",
+          "origin": "official",
+          "provider": "공식 사이트 연결 AI 원본",
+          "official": true,
+          "derived_from": "https://www.nhbank.com/goSubPage.do?srchGb=KO_NHPR_10",
+          "original_ai": "sources/official-nhbank-bepa-20261010/da9e65cd40035ce3931a/nh-signature-ai.ai",
+          "source_note": "공식 CI 페이지에서 직접 연결된 AI/ZIP의 아트보드별 벡터 추출. 가이드 없는 로고만 제공하며 실제 흰 도형과 그라데이션은 보존.",
+          "review_status": "verified",
+          "order": 101
+        },
+        {
+          "key": "official-source-en-horizontal",
+          "label": "영문 가로조합형 · 공식 AI 원본 추출",
+          "form": "horizontal",
+          "lang": "en",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-nhbank-bepa-20261010/ad22fc991e8ee8337c95/en-horizontal.svg",
+            "png": "sources/official-nhbank-bepa-20261010/70a49ff2ddbae08708a4/en-horizontal.png",
+            "ai": "sources/official-nhbank-bepa-20261010/da9e65cd40035ce3931a/nh-signature-ai.ai",
+            "zip": "sources/official-nhbank-bepa-20261010/d16275eaa257c4bfd4c6/nh-signature-ai.zip"
+          },
+          "preview_png": "sources/official-nhbank-bepa-20261010/c4ea118acb5cf0e48c4c/en-horizontal-preview.png",
+          "origin": "official",
+          "provider": "공식 사이트 연결 AI 원본",
+          "official": true,
+          "derived_from": "https://www.nhbank.com/goSubPage.do?srchGb=KO_NHPR_10",
+          "original_ai": "sources/official-nhbank-bepa-20261010/da9e65cd40035ce3931a/nh-signature-ai.ai",
+          "source_note": "공식 CI 페이지에서 직접 연결된 AI/ZIP의 아트보드별 벡터 추출. 가이드 없는 로고만 제공하며 실제 흰 도형과 그라데이션은 보존.",
+          "review_status": "verified",
+          "order": 102
+        },
+        {
+          "key": "official-source-ko-stacked",
+          "label": "국문 상하조합형 · 공식 AI 원본 추출",
+          "form": "vertical",
+          "lang": "ko",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-nhbank-bepa-20261010/e0a57360df5310432805/ko-stacked.svg",
+            "png": "sources/official-nhbank-bepa-20261010/a6abd9a02236c535539b/ko-stacked.png",
+            "ai": "sources/official-nhbank-bepa-20261010/da9e65cd40035ce3931a/nh-signature-ai.ai",
+            "zip": "sources/official-nhbank-bepa-20261010/d16275eaa257c4bfd4c6/nh-signature-ai.zip"
+          },
+          "preview_png": "sources/official-nhbank-bepa-20261010/aa23e9926ed77f556314/ko-stacked-preview.png",
+          "origin": "official",
+          "provider": "공식 사이트 연결 AI 원본",
+          "official": true,
+          "derived_from": "https://www.nhbank.com/goSubPage.do?srchGb=KO_NHPR_10",
+          "original_ai": "sources/official-nhbank-bepa-20261010/da9e65cd40035ce3931a/nh-signature-ai.ai",
+          "source_note": "공식 CI 페이지에서 직접 연결된 AI/ZIP의 아트보드별 벡터 추출. 가이드 없는 로고만 제공하며 실제 흰 도형과 그라데이션은 보존.",
+          "review_status": "verified",
+          "order": 103
+        },
+        {
+          "key": "official-source-ko-vertical",
+          "label": "국문 세로조합형 · 공식 AI 원본 추출",
+          "form": "vertical",
+          "lang": "ko",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-nhbank-bepa-20261010/06992f75e2a6e44c82fc/ko-vertical.svg",
+            "png": "sources/official-nhbank-bepa-20261010/40ee174d91263efc68c5/ko-vertical.png",
+            "ai": "sources/official-nhbank-bepa-20261010/da9e65cd40035ce3931a/nh-signature-ai.ai",
+            "zip": "sources/official-nhbank-bepa-20261010/d16275eaa257c4bfd4c6/nh-signature-ai.zip"
+          },
+          "preview_png": "sources/official-nhbank-bepa-20261010/ed5e482066ed232289a8/ko-vertical-preview.png",
+          "origin": "official",
+          "provider": "공식 사이트 연결 AI 원본",
+          "official": true,
+          "derived_from": "https://www.nhbank.com/goSubPage.do?srchGb=KO_NHPR_10",
+          "original_ai": "sources/official-nhbank-bepa-20261010/da9e65cd40035ce3931a/nh-signature-ai.ai",
+          "source_note": "공식 CI 페이지에서 직접 연결된 AI/ZIP의 아트보드별 벡터 추출. 가이드 없는 로고만 제공하며 실제 흰 도형과 그라데이션은 보존.",
+          "review_status": "verified",
+          "order": 104
+        },
+        {
+          "key": "official-source-symbol",
+          "label": "농협은행 심볼 · 공식 AI 원본 추출",
+          "form": "symbol",
+          "lang": "ko",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-nhbank-bepa-20261010/8c506c9dc96d189ce50a/symbol.svg",
+            "png": "sources/official-nhbank-bepa-20261010/a506d3a5812133e4e658/symbol.png",
+            "ai": "sources/official-nhbank-bepa-20261010/06e08725b68b1aad5aa0/nh-symbol-ai.ai",
+            "zip": "sources/official-nhbank-bepa-20261010/82e033f5d4fd8b69e967/nh-symbol-ai.zip"
+          },
+          "preview_png": "sources/official-nhbank-bepa-20261010/12d0f1febab663c51a03/symbol-preview.png",
+          "origin": "official",
+          "provider": "공식 사이트 연결 AI 원본",
+          "official": true,
+          "derived_from": "https://www.nhbank.com/goSubPage.do?srchGb=KO_NHPR_10",
+          "original_ai": "sources/official-nhbank-bepa-20261010/06e08725b68b1aad5aa0/nh-symbol-ai.ai",
+          "source_note": "공식 CI 페이지에서 직접 연결된 AI/ZIP의 아트보드별 벡터 추출. 가이드 없는 로고만 제공하며 실제 흰 도형과 그라데이션은 보존.",
+          "review_status": "verified",
+          "order": 105
+        },
+        {
+          "key": "official-source-ko-corporate-wordmark",
+          "label": "농협은행주식회사 워드마크 · 공식 AI 원본 추출",
+          "form": "wordmark",
+          "lang": "ko",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-nhbank-bepa-20261010/610da153d224a4832afc/ko-corporate-wordmark.svg",
+            "png": "sources/official-nhbank-bepa-20261010/8db35d47b1d6431dede2/ko-corporate-wordmark.png",
+            "ai": "sources/official-nhbank-bepa-20261010/675fbddb137b979bd1e4/nh-logotype-ai.ai",
+            "zip": "sources/official-nhbank-bepa-20261010/c49f943c023dfc2b03ee/nh-logotype-ai.zip"
+          },
+          "preview_png": "sources/official-nhbank-bepa-20261010/e8f8f7d1142253010426/ko-corporate-wordmark-preview.png",
+          "origin": "official",
+          "provider": "공식 사이트 연결 AI 원본",
+          "official": true,
+          "derived_from": "https://www.nhbank.com/goSubPage.do?srchGb=KO_NHPR_10",
+          "original_ai": "sources/official-nhbank-bepa-20261010/675fbddb137b979bd1e4/nh-logotype-ai.ai",
+          "source_note": "공식 CI 페이지에서 직접 연결된 AI/ZIP의 아트보드별 벡터 추출. 가이드 없는 로고만 제공하며 실제 흰 도형과 그라데이션은 보존.",
+          "review_status": "verified",
+          "order": 106
+        },
+        {
+          "key": "official-source-ko-wordmark",
+          "label": "국문 워드마크 · 공식 AI 원본 추출",
+          "form": "wordmark",
+          "lang": "ko",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-nhbank-bepa-20261010/d4258de4a99c67c705db/ko-wordmark.svg",
+            "png": "sources/official-nhbank-bepa-20261010/03a6c59997a419cd3866/ko-wordmark.png",
+            "ai": "sources/official-nhbank-bepa-20261010/675fbddb137b979bd1e4/nh-logotype-ai.ai",
+            "zip": "sources/official-nhbank-bepa-20261010/c49f943c023dfc2b03ee/nh-logotype-ai.zip"
+          },
+          "preview_png": "sources/official-nhbank-bepa-20261010/6b0cb3c93d8ffc09f9c2/ko-wordmark-preview.png",
+          "origin": "official",
+          "provider": "공식 사이트 연결 AI 원본",
+          "official": true,
+          "derived_from": "https://www.nhbank.com/goSubPage.do?srchGb=KO_NHPR_10",
+          "original_ai": "sources/official-nhbank-bepa-20261010/675fbddb137b979bd1e4/nh-logotype-ai.ai",
+          "source_note": "공식 CI 페이지에서 직접 연결된 AI/ZIP의 아트보드별 벡터 추출. 가이드 없는 로고만 제공하며 실제 흰 도형과 그라데이션은 보존.",
+          "review_status": "verified",
+          "order": 107
+        },
+        {
+          "key": "official-source-en-wordmark",
+          "label": "영문 워드마크 · 공식 AI 원본 추출",
+          "form": "wordmark",
+          "lang": "en",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-nhbank-bepa-20261010/37b455b315da521f4fcb/en-wordmark.svg",
+            "png": "sources/official-nhbank-bepa-20261010/808946a659590730070d/en-wordmark.png",
+            "ai": "sources/official-nhbank-bepa-20261010/675fbddb137b979bd1e4/nh-logotype-ai.ai",
+            "zip": "sources/official-nhbank-bepa-20261010/c49f943c023dfc2b03ee/nh-logotype-ai.zip"
+          },
+          "preview_png": "sources/official-nhbank-bepa-20261010/b177db1bb17aa04224bc/en-wordmark-preview.png",
+          "origin": "official",
+          "provider": "공식 사이트 연결 AI 원본",
+          "official": true,
+          "derived_from": "https://www.nhbank.com/goSubPage.do?srchGb=KO_NHPR_10",
+          "original_ai": "sources/official-nhbank-bepa-20261010/675fbddb137b979bd1e4/nh-logotype-ai.ai",
+          "source_note": "공식 CI 페이지에서 직접 연결된 AI/ZIP의 아트보드별 벡터 추출. 가이드 없는 로고만 제공하며 실제 흰 도형과 그라데이션은 보존.",
+          "review_status": "verified",
+          "order": 108
+        }
+      ]
+    },
+    "gongu-ci-1137": {
+      "id": "gongu-ci-1137",
+      "algo_v": 1,
+      "schema": 1,
+      "primary": "candidate-1-page-0-main",
+      "variants": [
+        {
+          "key": "candidate-1-page-0-main",
+          "form": "horizontal",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "png": "sources/official-ai-batch4-20261010/d1d4032ecc91e7fc0f39.png",
+            "svg": "sources/official-ai-batch4-20261010/25a82e495513462fb1c5.svg"
+          },
+          "label": "공식 로고",
+          "order": 0,
+          "aspect": 5.46448087431694,
+          "lockup": "horizontal",
+          "origin": "official",
+          "provider": "공식 AI · 레이아웃 제거 검수",
+          "asset_group": "logotype",
+          "original_ai": "sources/official-ai-batch4-20261010/68d0f0489a4cb3e59588.ai",
+          "derived_from": "https://www.bepa.kr/data/kor/contents/bepa_ci_text.ai"
+        },
+        {
+          "key": "official-source-symbol",
+          "label": "심볼 · 공식 AI 원본 추출",
+          "form": "symbol",
+          "lang": "ko",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-nhbank-bepa-20261010/65d27942a240a6bc77f0/symbol.svg",
+            "png": "sources/official-nhbank-bepa-20261010/2d767bb34ae0fc76d46d/symbol.png",
+            "ai": "sources/official-nhbank-bepa-20261010/2689748665ee91a55242/bepa-graphic.ai"
+          },
+          "preview_png": "sources/official-nhbank-bepa-20261010/dd38b49ade4614f27c0b/symbol-preview.png",
+          "origin": "official",
+          "provider": "공식 사이트 연결 AI 원본",
+          "official": true,
+          "derived_from": "https://www.bepa.kr/english/view.do?no=1595",
+          "original_ai": "sources/official-nhbank-bepa-20261010/2689748665ee91a55242/bepa-graphic.ai",
+          "source_note": "공식 CI 페이지에서 직접 연결된 AI/ZIP의 아트보드별 벡터 추출. 가이드 없는 로고만 제공하며 실제 흰 도형과 그라데이션은 보존. CMYK AI를 Inkscape 기본 RGB 변환으로 내보냈으며 PDF 뷰어에 따라 색 변환 차이가 있을 수 있어 원본 AI도 함께 제공.",
+          "review_status": "verified",
+          "order": 101
+        },
+        {
+          "key": "official-source-ko-en-horizontal",
+          "label": "국영문 가로 시그니처 · 공식 AI 원본 추출",
+          "form": "horizontal",
+          "lang": "mixed",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-nhbank-bepa-20261010/70eb9e6a852c4581c8bb/ko-en-horizontal.svg",
+            "png": "sources/official-nhbank-bepa-20261010/90fb19ca9a7d35017a66/ko-en-horizontal.png",
+            "ai": "sources/official-nhbank-bepa-20261010/83b51d7b30009c5d43f5/bepa_ci_signature_가로형.ai",
+            "zip": "sources/official-nhbank-bepa-20261010/f8af39994f47bf37478c/bepa-signature-ai.zip"
+          },
+          "preview_png": "sources/official-nhbank-bepa-20261010/6396db61555bb12c48c7/ko-en-horizontal-preview.png",
+          "origin": "official",
+          "provider": "공식 사이트 연결 AI 원본",
+          "official": true,
+          "derived_from": "https://www.bepa.kr/english/view.do?no=1595",
+          "original_ai": "sources/official-nhbank-bepa-20261010/83b51d7b30009c5d43f5/bepa_ci_signature_가로형.ai",
+          "source_note": "공식 CI 페이지에서 직접 연결된 AI/ZIP의 아트보드별 벡터 추출. 가이드 없는 로고만 제공하며 실제 흰 도형과 그라데이션은 보존. CMYK AI를 Inkscape 기본 RGB 변환으로 내보냈으며 PDF 뷰어에 따라 색 변환 차이가 있을 수 있어 원본 AI도 함께 제공.",
+          "review_status": "verified",
+          "order": 102
+        },
+        {
+          "key": "official-source-ko-en-stacked",
+          "label": "국영문 세로 시그니처 · 공식 AI 원본 추출",
+          "form": "vertical",
+          "lang": "mixed",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-nhbank-bepa-20261010/07f11ee91f91ebba0eef/ko-en-stacked.svg",
+            "png": "sources/official-nhbank-bepa-20261010/94b42e6cf2910260639e/ko-en-stacked.png",
+            "ai": "sources/official-nhbank-bepa-20261010/9888229cefbab7bb9a1c/bepa_ci_signature_세로형.ai",
+            "zip": "sources/official-nhbank-bepa-20261010/f8af39994f47bf37478c/bepa-signature-ai.zip"
+          },
+          "preview_png": "sources/official-nhbank-bepa-20261010/8a2778ae0b2a652bb838/ko-en-stacked-preview.png",
+          "origin": "official",
+          "provider": "공식 사이트 연결 AI 원본",
+          "official": true,
+          "derived_from": "https://www.bepa.kr/english/view.do?no=1595",
+          "original_ai": "sources/official-nhbank-bepa-20261010/9888229cefbab7bb9a1c/bepa_ci_signature_세로형.ai",
+          "source_note": "공식 CI 페이지에서 직접 연결된 AI/ZIP의 아트보드별 벡터 추출. 가이드 없는 로고만 제공하며 실제 흰 도형과 그라데이션은 보존. CMYK AI를 Inkscape 기본 RGB 변환으로 내보냈으며 PDF 뷰어에 따라 색 변환 차이가 있을 수 있어 원본 AI도 함께 제공.",
+          "review_status": "verified",
+          "order": 103
+        }
+      ]
+    }
+  }
+}

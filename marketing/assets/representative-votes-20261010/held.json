@@ -1,0 +1,56 @@
+[
+  {
+    "id": "bts",
+    "decision": "tie-preserve-current",
+    "votes": 1,
+    "candidates": [
+      [
+        "logo.png",
+        "light"
+      ],
+      [
+        "logo-icon.png",
+        "light"
+      ],
+      [
+        "logo.svg",
+        "light"
+      ],
+      [
+        "logo-800.png",
+        "light"
+      ],
+      [
+        "logo-transparent.png",
+        "light"
+      ]
+    ]
+  },
+  {
+    "id": "us-russell-2000-edit",
+    "file": "generated-dark:sources/png-preview-20261007/logo.png",
+    "bg": "dark",
+    "votes": 1,
+    "decision": "canonical-review-required"
+  },
+  {
+    "id": "us-russell-2000-mfin",
+    "file": "generated-dark:sources/png-preview-20261007/logo.png",
+    "bg": "dark",
+    "votes": 1,
+    "decision": "canonical-review-required"
+  },
+  {
+    "id": "htv-x",
+    "file": "generated-dark:logo.png",
+    "bg": "dark",
+    "votes": 1,
+    "presentation": {
+      "file": "sources/representative-votes-20261010/901a469c04493b22be06.png",
+      "bg": "dark"
+    },
+    "sha256": "901a469c04493b22be06431c4a792d4b35eab5ae0ae1258f8fa4c97c6039378b",
+    "source": "logo.png",
+    "decision": "held-white-background-obscures-artwork"
+  }
+]

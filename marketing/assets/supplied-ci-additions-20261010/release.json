@@ -1,0 +1,770 @@
+{
+  "patches": {
+    "yeonsu": {
+      "variants_n": 39,
+      "source_zip": "sources/supplied-ci-additions-20261010/21c683a37f059ac200fa.zip",
+      "source_original_label": "사용자 제공 공식 원본 묶음"
+    },
+    "kr-kepco": {
+      "variants_n": 7,
+      "source_zip": "sources/supplied-ci-additions-20261010/850a19d38ecf76eb69de.zip",
+      "source_original_label": "사용자 제공 공식 원본 묶음"
+    }
+  },
+  "variants": {
+    "yeonsu": {
+      "id": "yeonsu",
+      "algo_v": 2,
+      "schema": 1,
+      "primary": "logo",
+      "variants": [
+        {
+          "key": "logo",
+          "form": "wordmark",
+          "lang": "en",
+          "color": "original",
+          "files": {
+            "png": "sources/reviewed-yeonsu-20261010/e9a91da13021075c.png",
+            "svg": "sources/reviewed-yeonsu-20261010/088336988f8e2e74.svg"
+          },
+          "label": "로고타입 · 영문",
+          "order": 0,
+          "lockup": "wordmark",
+          "origin": "official",
+          "provider": "연수구 BI·캐릭터 가이드 · 사용자 제공 AI",
+          "text_layout": "en"
+        },
+        {
+          "key": "signature-ko-a",
+          "form": "vertical",
+          "lang": "ko-en",
+          "color": "original",
+          "files": {
+            "png": "sources/reviewed-yeonsu-20261010/ded73444cf716a58.png",
+            "svg": "sources/reviewed-yeonsu-20261010/7adc2528a23845b8.svg"
+          },
+          "label": "시그니처 · 국문 A",
+          "order": 1,
+          "lockup": "vertical",
+          "origin": "official",
+          "provider": "연수구 BI·캐릭터 가이드 · 사용자 제공 AI",
+          "text_layout": "ko-en"
+        },
+        {
+          "key": "signature-ko-b",
+          "form": "vertical",
+          "lang": "ko-en",
+          "color": "original",
+          "files": {
+            "png": "sources/reviewed-yeonsu-20261010/4f5e1c4bf431017c.png",
+            "svg": "sources/reviewed-yeonsu-20261010/b5bd60a4757c1a69.svg"
+          },
+          "label": "시그니처 · 국문 B",
+          "order": 2,
+          "lockup": "vertical",
+          "origin": "official",
+          "provider": "연수구 BI·캐릭터 가이드 · 사용자 제공 AI",
+          "text_layout": "ko-en"
+        },
+        {
+          "key": "signature-hanja-a",
+          "form": "vertical",
+          "lang": "other",
+          "color": "original",
+          "files": {
+            "png": "sources/reviewed-yeonsu-20261010/6713372c401b9a81.png",
+            "svg": "sources/reviewed-yeonsu-20261010/d6026a5df4da8da8.svg"
+          },
+          "label": "시그니처 · 한자 A",
+          "order": 3,
+          "lockup": "vertical",
+          "origin": "official",
+          "provider": "연수구 BI·캐릭터 가이드 · 사용자 제공 AI",
+          "text_layout": "other"
+        },
+        {
+          "key": "signature-hanja-b",
+          "form": "vertical",
+          "lang": "other",
+          "color": "original",
+          "files": {
+            "png": "sources/reviewed-yeonsu-20261010/0255aec9921b948a.png",
+            "svg": "sources/reviewed-yeonsu-20261010/97c04f45aa843517.svg"
+          },
+          "label": "시그니처 · 한자 B",
+          "order": 4,
+          "lockup": "vertical",
+          "origin": "official",
+          "provider": "연수구 BI·캐릭터 가이드 · 사용자 제공 AI",
+          "text_layout": "other"
+        },
+        {
+          "key": "mascot-basic",
+          "form": "mascot",
+          "lang": "none",
+          "color": "original",
+          "files": {
+            "png": "sources/reviewed-yeonsu-20261010/e8102ac6bec64322.png",
+            "svg": "sources/reviewed-yeonsu-20261010/fc3ecd66f1f24ec4.svg"
+          },
+          "label": "마스코트 · 기본형",
+          "order": 5,
+          "lockup": "unknown",
+          "origin": "official",
+          "provider": "연수구 BI·캐릭터 가이드 · 사용자 제공 AI",
+          "text_layout": "none"
+        },
+        {
+          "key": "mascot-application-1",
+          "form": "mascot",
+          "lang": "none",
+          "color": "original",
+          "files": {
+            "png": "sources/reviewed-yeonsu-20261010/4e642eff88d34464.png",
+            "svg": "sources/reviewed-yeonsu-20261010/eb65b239bd3d5f58.svg"
+          },
+          "label": "마스코트 · 응용형 1",
+          "order": 6,
+          "lockup": "unknown",
+          "origin": "official",
+          "provider": "연수구 BI·캐릭터 가이드 · 사용자 제공 AI",
+          "text_layout": "none"
+        },
+        {
+          "key": "mascot-application-2",
+          "form": "mascot",
+          "lang": "none",
+          "color": "original",
+          "files": {
+            "png": "sources/reviewed-yeonsu-20261010/9d0eb2de3ab0f937.png",
+            "svg": "sources/reviewed-yeonsu-20261010/415f8940039245aa.svg"
+          },
+          "label": "마스코트 · 응용형 2",
+          "order": 7,
+          "lockup": "unknown",
+          "origin": "official",
+          "provider": "연수구 BI·캐릭터 가이드 · 사용자 제공 AI",
+          "text_layout": "none"
+        },
+        {
+          "key": "mascot-application-3",
+          "form": "mascot",
+          "lang": "none",
+          "color": "original",
+          "files": {
+            "png": "sources/reviewed-yeonsu-20261010/9c90cb2e5853c426.png",
+            "svg": "sources/reviewed-yeonsu-20261010/bdd390cf3357a784.svg"
+          },
+          "label": "마스코트 · 응용형 3",
+          "order": 8,
+          "lockup": "unknown",
+          "origin": "official",
+          "provider": "연수구 BI·캐릭터 가이드 · 사용자 제공 AI",
+          "text_layout": "none"
+        },
+        {
+          "key": "mascot-application-4",
+          "form": "mascot",
+          "lang": "none",
+          "color": "original",
+          "files": {
+            "png": "sources/reviewed-yeonsu-20261010/969343fa461bdfd4.png",
+            "svg": "sources/reviewed-yeonsu-20261010/96cc5d7a74fb9620.svg"
+          },
+          "label": "마스코트 · 응용형 4",
+          "order": 9,
+          "lockup": "unknown",
+          "origin": "official",
+          "provider": "연수구 BI·캐릭터 가이드 · 사용자 제공 AI",
+          "text_layout": "none"
+        },
+        {
+          "key": "mascot-application-5",
+          "form": "mascot",
+          "lang": "none",
+          "color": "original",
+          "files": {
+            "png": "sources/reviewed-yeonsu-20261010/1346d76690032aaa.png",
+            "svg": "sources/reviewed-yeonsu-20261010/b1a72990a70d98ee.svg"
+          },
+          "label": "마스코트 · 응용형 5",
+          "order": 10,
+          "lockup": "unknown",
+          "origin": "official",
+          "provider": "연수구 BI·캐릭터 가이드 · 사용자 제공 AI",
+          "text_layout": "none"
+        },
+        {
+          "key": "mascot-application-6",
+          "form": "mascot",
+          "lang": "none",
+          "color": "original",
+          "files": {
+            "png": "sources/reviewed-yeonsu-20261010/ef15b22e3fff6808.png",
+            "svg": "sources/reviewed-yeonsu-20261010/c2a303e5319c9492.svg"
+          },
+          "label": "마스코트 · 응용형 6",
+          "order": 11,
+          "lockup": "unknown",
+          "origin": "official",
+          "provider": "연수구 BI·캐릭터 가이드 · 사용자 제공 AI",
+          "text_layout": "none"
+        },
+        {
+          "key": "mascot-application-7",
+          "form": "mascot",
+          "lang": "none",
+          "color": "original",
+          "files": {
+            "png": "sources/reviewed-yeonsu-20261010/1dd44d11adc8f10e.png",
+            "svg": "sources/reviewed-yeonsu-20261010/f8ef283fbc26d019.svg"
+          },
+          "label": "마스코트 · 응용형 7",
+          "order": 12,
+          "lockup": "unknown",
+          "origin": "official",
+          "provider": "연수구 BI·캐릭터 가이드 · 사용자 제공 AI",
+          "text_layout": "none"
+        },
+        {
+          "key": "mascot-application-8",
+          "form": "mascot",
+          "lang": "none",
+          "color": "original",
+          "files": {
+            "png": "sources/reviewed-yeonsu-20261010/d40e4c35a92a168c.png",
+            "svg": "sources/reviewed-yeonsu-20261010/f97ec5b56596fdaa.svg"
+          },
+          "label": "마스코트 · 응용형 8",
+          "order": 13,
+          "lockup": "unknown",
+          "origin": "official",
+          "provider": "연수구 BI·캐릭터 가이드 · 사용자 제공 AI",
+          "text_layout": "none"
+        },
+        {
+          "key": "mascot-application-9",
+          "form": "mascot",
+          "lang": "none",
+          "color": "original",
+          "files": {
+            "png": "sources/reviewed-yeonsu-20261010/5714279b64a7c103.png",
+            "svg": "sources/reviewed-yeonsu-20261010/1f8f7aa192c687f0.svg"
+          },
+          "label": "마스코트 · 응용형 9",
+          "order": 14,
+          "lockup": "unknown",
+          "origin": "official",
+          "provider": "연수구 BI·캐릭터 가이드 · 사용자 제공 AI",
+          "text_layout": "none"
+        },
+        {
+          "key": "ci-supplied-04-ko-horizontal",
+          "label": "국문 좌우조합",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "ko",
+          "color": "original",
+          "files": {
+            "svg": "sources/supplied-ci-additions-20261010/043efffeaec230457c10.svg",
+            "png": "sources/supplied-ci-additions-20261010/1d49a7836a30b891f69d.png"
+          },
+          "provider": "사용자 제공 기관 CI 원본 AI",
+          "origin": "manual",
+          "order": 15,
+          "source_original": "sources/supplied-ci-additions-20261010/21c683a37f059ac200fa.zip"
+        },
+        {
+          "key": "ci-supplied-04-zh-horizontal",
+          "label": "한문 좌우조합",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "zh",
+          "color": "original",
+          "files": {
+            "svg": "sources/supplied-ci-additions-20261010/201867729c9570144df9.svg",
+            "png": "sources/supplied-ci-additions-20261010/239ce99e37eb1c9ca42c.png"
+          },
+          "provider": "사용자 제공 기관 CI 원본 AI",
+          "origin": "manual",
+          "order": 16,
+          "source_original": "sources/supplied-ci-additions-20261010/21c683a37f059ac200fa.zip"
+        },
+        {
+          "key": "ci-supplied-04-en-horizontal",
+          "label": "영문 좌우조합",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "en",
+          "color": "original",
+          "files": {
+            "svg": "sources/supplied-ci-additions-20261010/f8b1e4cbe223eae1b35f.svg",
+            "png": "sources/supplied-ci-additions-20261010/3e7d74a0810bae34460c.png"
+          },
+          "provider": "사용자 제공 기관 CI 원본 AI",
+          "origin": "manual",
+          "order": 17,
+          "source_original": "sources/supplied-ci-additions-20261010/21c683a37f059ac200fa.zip"
+        },
+        {
+          "key": "ci-supplied-04-ko-en-horizontal",
+          "label": "국영문 좌우조합",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "mixed",
+          "color": "original",
+          "files": {
+            "svg": "sources/supplied-ci-additions-20261010/ca5ee31b9096b4a4d471.svg",
+            "png": "sources/supplied-ci-additions-20261010/b8651aaf809c8284df15.png"
+          },
+          "provider": "사용자 제공 기관 CI 원본 AI",
+          "origin": "manual",
+          "order": 18,
+          "source_original": "sources/supplied-ci-additions-20261010/21c683a37f059ac200fa.zip"
+        },
+        {
+          "key": "ci-supplied-04-zh-en-horizontal",
+          "label": "한영문 좌우조합",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "mixed",
+          "color": "original",
+          "files": {
+            "svg": "sources/supplied-ci-additions-20261010/202d18ce9e66226ece0d.svg",
+            "png": "sources/supplied-ci-additions-20261010/bd77240145edfe75cf89.png"
+          },
+          "provider": "사용자 제공 기관 CI 원본 AI",
+          "origin": "manual",
+          "order": 19,
+          "source_original": "sources/supplied-ci-additions-20261010/21c683a37f059ac200fa.zip"
+        },
+        {
+          "key": "ci-supplied-05-ko-horizontal",
+          "label": "광역명 포함 국문 좌우조합",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "ko",
+          "color": "original",
+          "files": {
+            "svg": "sources/supplied-ci-additions-20261010/e15fbac6455d0bb43889.svg",
+            "png": "sources/supplied-ci-additions-20261010/c3c2134ceb2ca12db355.png"
+          },
+          "provider": "사용자 제공 기관 CI 원본 AI",
+          "origin": "manual",
+          "order": 20,
+          "source_original": "sources/supplied-ci-additions-20261010/21c683a37f059ac200fa.zip"
+        },
+        {
+          "key": "ci-supplied-05-zh-horizontal",
+          "label": "광역명 포함 한문 좌우조합",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "zh",
+          "color": "original",
+          "files": {
+            "svg": "sources/supplied-ci-additions-20261010/1c1153343c178298b2a3.svg",
+            "png": "sources/supplied-ci-additions-20261010/408efd33c07fc2553c2e.png"
+          },
+          "provider": "사용자 제공 기관 CI 원본 AI",
+          "origin": "manual",
+          "order": 21,
+          "source_original": "sources/supplied-ci-additions-20261010/21c683a37f059ac200fa.zip"
+        },
+        {
+          "key": "ci-supplied-05-en-horizontal",
+          "label": "광역명 포함 영문 좌우조합",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "en",
+          "color": "original",
+          "files": {
+            "svg": "sources/supplied-ci-additions-20261010/8cb463cd74bda9b9cbf5.svg",
+            "png": "sources/supplied-ci-additions-20261010/8db1d6599050cce6c142.png"
+          },
+          "provider": "사용자 제공 기관 CI 원본 AI",
+          "origin": "manual",
+          "order": 22,
+          "source_original": "sources/supplied-ci-additions-20261010/21c683a37f059ac200fa.zip"
+        },
+        {
+          "key": "ci-supplied-05-ko-en-horizontal",
+          "label": "광역명 포함 국영문 좌우조합",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "mixed",
+          "color": "original",
+          "files": {
+            "svg": "sources/supplied-ci-additions-20261010/ae5159c27a53f0737cd0.svg",
+            "png": "sources/supplied-ci-additions-20261010/963b2cc8c11f543ca9d2.png"
+          },
+          "provider": "사용자 제공 기관 CI 원본 AI",
+          "origin": "manual",
+          "order": 23,
+          "source_original": "sources/supplied-ci-additions-20261010/21c683a37f059ac200fa.zip"
+        },
+        {
+          "key": "ci-supplied-05-zh-en-horizontal",
+          "label": "광역명 포함 한영문 좌우조합",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "mixed",
+          "color": "original",
+          "files": {
+            "svg": "sources/supplied-ci-additions-20261010/a2c10b1f7e225c5cdff8.svg",
+            "png": "sources/supplied-ci-additions-20261010/338a3d70027ff7c388d9.png"
+          },
+          "provider": "사용자 제공 기관 CI 원본 AI",
+          "origin": "manual",
+          "order": 24,
+          "source_original": "sources/supplied-ci-additions-20261010/21c683a37f059ac200fa.zip"
+        },
+        {
+          "key": "ci-supplied-07-ko-stacked",
+          "label": "국문 상하조합",
+          "form": "stacked",
+          "lockup": "stacked",
+          "lang": "ko",
+          "color": "original",
+          "files": {
+            "svg": "sources/supplied-ci-additions-20261010/b5854230bebd0226c50a.svg",
+            "png": "sources/supplied-ci-additions-20261010/9b599a6f6fd6176c0da8.png"
+          },
+          "provider": "사용자 제공 기관 CI 원본 AI",
+          "origin": "manual",
+          "order": 25,
+          "source_original": "sources/supplied-ci-additions-20261010/21c683a37f059ac200fa.zip"
+        },
+        {
+          "key": "ci-supplied-07-zh-stacked",
+          "label": "한문 상하조합",
+          "form": "stacked",
+          "lockup": "stacked",
+          "lang": "zh",
+          "color": "original",
+          "files": {
+            "svg": "sources/supplied-ci-additions-20261010/522358c3189ee469579b.svg",
+            "png": "sources/supplied-ci-additions-20261010/378cc6162642e828aead.png"
+          },
+          "provider": "사용자 제공 기관 CI 원본 AI",
+          "origin": "manual",
+          "order": 26,
+          "source_original": "sources/supplied-ci-additions-20261010/21c683a37f059ac200fa.zip"
+        },
+        {
+          "key": "ci-supplied-07-en-stacked",
+          "label": "영문 상하조합",
+          "form": "stacked",
+          "lockup": "stacked",
+          "lang": "en",
+          "color": "original",
+          "files": {
+            "svg": "sources/supplied-ci-additions-20261010/f331b7ef1931c95f1493.svg",
+            "png": "sources/supplied-ci-additions-20261010/fb04aa7a4f559b329664.png"
+          },
+          "provider": "사용자 제공 기관 CI 원본 AI",
+          "origin": "manual",
+          "order": 27,
+          "source_original": "sources/supplied-ci-additions-20261010/21c683a37f059ac200fa.zip"
+        },
+        {
+          "key": "ci-supplied-07-ko-en-stacked",
+          "label": "국영문 상하조합",
+          "form": "stacked",
+          "lockup": "stacked",
+          "lang": "mixed",
+          "color": "original",
+          "files": {
+            "svg": "sources/supplied-ci-additions-20261010/6a0ccee8d352958a5603.svg",
+            "png": "sources/supplied-ci-additions-20261010/c4a2c03965d32fb30fd9.png"
+          },
+          "provider": "사용자 제공 기관 CI 원본 AI",
+          "origin": "manual",
+          "order": 28,
+          "source_original": "sources/supplied-ci-additions-20261010/21c683a37f059ac200fa.zip"
+        },
+        {
+          "key": "ci-supplied-07-zh-en-stacked",
+          "label": "한영문 상하조합",
+          "form": "stacked",
+          "lockup": "stacked",
+          "lang": "mixed",
+          "color": "original",
+          "files": {
+            "svg": "sources/supplied-ci-additions-20261010/3130890285b16783aebb.svg",
+            "png": "sources/supplied-ci-additions-20261010/af4171ccb835a39f0d75.png"
+          },
+          "provider": "사용자 제공 기관 CI 원본 AI",
+          "origin": "manual",
+          "order": 29,
+          "source_original": "sources/supplied-ci-additions-20261010/21c683a37f059ac200fa.zip"
+        },
+        {
+          "key": "ci-supplied-08-ko-stacked",
+          "label": "광역명 포함 국문 상하조합",
+          "form": "stacked",
+          "lockup": "stacked",
+          "lang": "ko",
+          "color": "original",
+          "files": {
+            "svg": "sources/supplied-ci-additions-20261010/88a00cbdf76fbe7ecb2c.svg",
+            "png": "sources/supplied-ci-additions-20261010/1d31001f0899f7e9d222.png"
+          },
+          "provider": "사용자 제공 기관 CI 원본 AI",
+          "origin": "manual",
+          "order": 30,
+          "source_original": "sources/supplied-ci-additions-20261010/21c683a37f059ac200fa.zip"
+        },
+        {
+          "key": "ci-supplied-08-zh-stacked",
+          "label": "광역명 포함 한문 상하조합",
+          "form": "stacked",
+          "lockup": "stacked",
+          "lang": "zh",
+          "color": "original",
+          "files": {
+            "svg": "sources/supplied-ci-additions-20261010/c0686e4972e9797365a6.svg",
+            "png": "sources/supplied-ci-additions-20261010/a4589abb761d8e957ba1.png"
+          },
+          "provider": "사용자 제공 기관 CI 원본 AI",
+          "origin": "manual",
+          "order": 31,
+          "source_original": "sources/supplied-ci-additions-20261010/21c683a37f059ac200fa.zip"
+        },
+        {
+          "key": "ci-supplied-08-en-stacked",
+          "label": "광역명 포함 영문 상하조합",
+          "form": "stacked",
+          "lockup": "stacked",
+          "lang": "en",
+          "color": "original",
+          "files": {
+            "svg": "sources/supplied-ci-additions-20261010/75c407fc03e61f0a1ec9.svg",
+            "png": "sources/supplied-ci-additions-20261010/3f0ebce2f9e67e86c62d.png"
+          },
+          "provider": "사용자 제공 기관 CI 원본 AI",
+          "origin": "manual",
+          "order": 32,
+          "source_original": "sources/supplied-ci-additions-20261010/21c683a37f059ac200fa.zip"
+        },
+        {
+          "key": "ci-supplied-08-ko-en-stacked",
+          "label": "광역명 포함 국영문 상하조합",
+          "form": "stacked",
+          "lockup": "stacked",
+          "lang": "mixed",
+          "color": "original",
+          "files": {
+            "svg": "sources/supplied-ci-additions-20261010/af143067fbaa6e09f0df.svg",
+            "png": "sources/supplied-ci-additions-20261010/1bc18b790f956d3bbabd.png"
+          },
+          "provider": "사용자 제공 기관 CI 원본 AI",
+          "origin": "manual",
+          "order": 33,
+          "source_original": "sources/supplied-ci-additions-20261010/21c683a37f059ac200fa.zip"
+        },
+        {
+          "key": "ci-supplied-08-zh-en-stacked",
+          "label": "광역명 포함 한영문 상하조합",
+          "form": "stacked",
+          "lockup": "stacked",
+          "lang": "mixed",
+          "color": "original",
+          "files": {
+            "svg": "sources/supplied-ci-additions-20261010/2cad5a9f0942b9d585fe.svg",
+            "png": "sources/supplied-ci-additions-20261010/a88be00ba2b09f619f69.png"
+          },
+          "provider": "사용자 제공 기관 CI 원본 AI",
+          "origin": "manual",
+          "order": 34,
+          "source_original": "sources/supplied-ci-additions-20261010/21c683a37f059ac200fa.zip"
+        },
+        {
+          "key": "ci-supplied-04-symbol",
+          "label": "심볼마크",
+          "form": "symbol",
+          "lockup": "symbol",
+          "lang": "ko",
+          "color": "original",
+          "files": {
+            "svg": "sources/supplied-ci-additions-20261010/ca51c8f9246e98b254ff.svg",
+            "png": "sources/supplied-ci-additions-20261010/7975db58ddc534d0990f.png"
+          },
+          "provider": "사용자 제공 기관 CI 원본 AI",
+          "origin": "manual",
+          "order": 35,
+          "source_original": "sources/supplied-ci-additions-20261010/21c683a37f059ac200fa.zip"
+        },
+        {
+          "key": "ci-supplied-04-logotype-ko",
+          "label": "국문 로고타입",
+          "form": "wordmark",
+          "lockup": "wordmark",
+          "lang": "ko",
+          "color": "original",
+          "files": {
+            "svg": "sources/supplied-ci-additions-20261010/e287e96f12b557a89474.svg",
+            "png": "sources/supplied-ci-additions-20261010/8ff74b5f753135aee1b9.png"
+          },
+          "provider": "사용자 제공 기관 CI 원본 AI",
+          "origin": "manual",
+          "order": 36,
+          "source_original": "sources/supplied-ci-additions-20261010/21c683a37f059ac200fa.zip"
+        },
+        {
+          "key": "ci-supplied-04-logotype-zh",
+          "label": "한문 로고타입",
+          "form": "wordmark",
+          "lockup": "wordmark",
+          "lang": "ko",
+          "color": "original",
+          "files": {
+            "svg": "sources/supplied-ci-additions-20261010/f0792d04c026fba56026.svg",
+            "png": "sources/supplied-ci-additions-20261010/3d39bec043e23316f0f0.png"
+          },
+          "provider": "사용자 제공 기관 CI 원본 AI",
+          "origin": "manual",
+          "order": 37,
+          "source_original": "sources/supplied-ci-additions-20261010/21c683a37f059ac200fa.zip"
+        },
+        {
+          "key": "ci-supplied-04-logotype-en",
+          "label": "영문 로고타입",
+          "form": "wordmark",
+          "lockup": "wordmark",
+          "lang": "ko",
+          "color": "original",
+          "files": {
+            "svg": "sources/supplied-ci-additions-20261010/2ea596e2ce7b363e62c3.svg",
+            "png": "sources/supplied-ci-additions-20261010/051855b43ff71acd8ced.png"
+          },
+          "provider": "사용자 제공 기관 CI 원본 AI",
+          "origin": "manual",
+          "order": 38,
+          "source_original": "sources/supplied-ci-additions-20261010/21c683a37f059ac200fa.zip"
+        }
+      ]
+    },
+    "kr-kepco": {
+      "id": "kr-kepco",
+      "algo_v": 2,
+      "schema": 1,
+      "primary": "horizontal-ko",
+      "variants": [
+        {
+          "key": "horizontal-ko",
+          "form": "horizontal",
+          "lang": "ko",
+          "color": "original",
+          "files": {
+            "png": "sources/reviewed-kepco-20261010/7339a45f2618aa04.png",
+            "svg": "sources/reviewed-kepco-20261010/1f0e470e3cca1ffd.svg"
+          },
+          "label": "가로조합형 · 한국전력공사",
+          "order": 0,
+          "lockup": "horizontal",
+          "origin": "official",
+          "provider": "한국전력공사 CI · 사용자 제공 AI",
+          "text_layout": "ko"
+        },
+        {
+          "key": "horizontal-ko-short",
+          "form": "horizontal",
+          "lang": "ko",
+          "color": "original",
+          "files": {
+            "png": "sources/reviewed-kepco-20261010/9dca8d35f7c6e519.png",
+            "svg": "sources/reviewed-kepco-20261010/3539b7b7c4c56e63.svg"
+          },
+          "label": "가로조합형 · 한국전력",
+          "order": 1,
+          "lockup": "horizontal",
+          "origin": "official",
+          "provider": "한국전력공사 CI · 사용자 제공 AI",
+          "text_layout": "ko"
+        },
+        {
+          "key": "horizontal-ko-en",
+          "form": "horizontal",
+          "lang": "ko-en",
+          "color": "original",
+          "files": {
+            "png": "sources/reviewed-kepco-20261010/89e2c1e25248bac1.png",
+            "svg": "sources/reviewed-kepco-20261010/1ea525b6cf35dbcc.svg"
+          },
+          "label": "가로조합형 · 국영문",
+          "order": 2,
+          "lockup": "horizontal",
+          "origin": "official",
+          "provider": "한국전력공사 CI · 사용자 제공 AI",
+          "text_layout": "ko-en"
+        },
+        {
+          "key": "horizontal-en",
+          "form": "horizontal",
+          "lang": "en",
+          "color": "original",
+          "files": {
+            "png": "sources/reviewed-kepco-20261010/305fbb65f26e5bed.png",
+            "svg": "sources/reviewed-kepco-20261010/521eae594a1258b0.svg"
+          },
+          "label": "가로조합형 · KEPCO",
+          "order": 3,
+          "lockup": "horizontal",
+          "origin": "official",
+          "provider": "한국전력공사 CI · 사용자 제공 AI",
+          "text_layout": "en"
+        },
+        {
+          "key": "symbol",
+          "form": "symbol",
+          "lang": "none",
+          "color": "original",
+          "files": {
+            "png": "sources/reviewed-kepco-20261010/95c3a902926c9662.png",
+            "svg": "sources/reviewed-kepco-20261010/773c20a08cc797bd.svg"
+          },
+          "label": "심볼마크",
+          "order": 4,
+          "lockup": "symbol",
+          "origin": "official",
+          "provider": "한국전력공사 CI · 사용자 제공 AI",
+          "text_layout": "none"
+        },
+        {
+          "key": "lettermark",
+          "form": "lettermark",
+          "lang": "en",
+          "color": "original",
+          "files": {
+            "png": "sources/reviewed-kepco-20261010/758266b448b72aee.png",
+            "svg": "sources/reviewed-kepco-20261010/f2ca5dd19fa3a21f.svg"
+          },
+          "label": "레터마크 · KEPCO",
+          "order": 5,
+          "lockup": "lettermark",
+          "origin": "official",
+          "provider": "한국전력공사 CI · 사용자 제공 AI",
+          "text_layout": "en"
+        },
+        {
+          "key": "ci-supplied-kepco-ko-logotype",
+          "label": "국문 로고타입 · 한국전력공사",
+          "form": "wordmark",
+          "lockup": "wordmark",
+          "lang": "ko",
+          "color": "original",
+          "files": {
+            "svg": "sources/supplied-ci-additions-20261010/bc49bb47f394e78870e3.svg",
+            "png": "sources/supplied-ci-additions-20261010/839b63f3ab15da9cc055.png"
+          },
+          "provider": "사용자 제공 기관 CI 원본 AI",
+          "origin": "manual",
+          "order": 6,
+          "source_original": "sources/supplied-ci-additions-20261010/850a19d38ecf76eb69de.zip"
+        }
+      ]
+    }
+  },
+  "checked_at": "2026-10-10",
+  "existing_representatives_preserved": true
+}

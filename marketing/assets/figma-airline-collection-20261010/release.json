@@ -1,0 +1,546 @@
+{
+  "patches": {
+    "aegean-airlines": {
+      "variants_n": 2
+    },
+    "brussels-airlines": {
+      "variants_n": 2
+    },
+    "aeromexico": {
+      "variants_n": 2
+    },
+    "cargolux": {
+      "variants_n": 2
+    },
+    "cathaypacific": {
+      "variants_n": 2
+    },
+    "lufthansa": {
+      "variants_n": 3
+    },
+    "aircanada": {
+      "variants_n": 2
+    },
+    "airbusan": {
+      "variants_n": 1
+    },
+    "airchina": {
+      "variants_n": 3
+    },
+    "chinaeasternairlines": {
+      "variants_n": 2
+    },
+    "chinasouthernairlines": {
+      "variants_n": 2
+    }
+  },
+  "variants": {
+    "aegean-airlines": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "aegean-airlines",
+      "primary": "wordmark",
+      "fingerprint": {
+        "logo.svg": "ac495e8db9377df2"
+      },
+      "variants": [
+        {
+          "key": "wordmark",
+          "form": "wordmark",
+          "lang": "unknown",
+          "color": "color",
+          "label": "워드마크형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 5.235,
+          "provider": "wikimedia",
+          "origin": "collected",
+          "order": 40
+        },
+        {
+          "key": "figma-airline-community-lockup",
+          "label": "조합형 · 커뮤니티 수록본 · 사용 시기 미확인",
+          "form": "horizontal",
+          "lang": "en",
+          "color": "color",
+          "files": {
+            "svg": "sources/figma-airline-community-20261010/a069de5457f1e5ff.svg",
+            "png": "sources/figma-airline-community-20261010/9ae91f950118fa92.png"
+          },
+          "preview_png": "sources/figma-airline-community-20261010/74e95bc2840b8fbd.png",
+          "aspect": 3.4276,
+          "provider": "figma-community",
+          "origin": "collected",
+          "official_distribution": false,
+          "order": 95,
+          "source_note": "사용자 제공 항공·화물·항공기술 Figma Community 수록집(1.svg)에서 원본 벡터 경로와 마스크를 보존하여 추출. 공식 배포 원본이 아니며 사용 시기는 확인되지 않음. 기존 대표 이미지는 유지함."
+        }
+      ]
+    },
+    "brussels-airlines": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "brussels-airlines",
+      "primary": "wordmark",
+      "fingerprint": {
+        "logo.svg": "014e6a001c0855ec"
+      },
+      "variants": [
+        {
+          "key": "wordmark",
+          "form": "wordmark",
+          "lang": "unknown",
+          "color": "color",
+          "label": "워드마크형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 4.472,
+          "provider": "wikimedia",
+          "origin": "collected",
+          "order": 40
+        },
+        {
+          "key": "figma-airline-community-lockup",
+          "label": "조합형 · 커뮤니티 수록본 · 사용 시기 미확인",
+          "form": "horizontal",
+          "lang": "en",
+          "color": "color",
+          "files": {
+            "svg": "sources/figma-airline-community-20261010/58109129ef281874.svg",
+            "png": "sources/figma-airline-community-20261010/7c1b76423c333a99.png"
+          },
+          "preview_png": "sources/figma-airline-community-20261010/69d76e144556a67a.png",
+          "aspect": 6.6355,
+          "provider": "figma-community",
+          "origin": "collected",
+          "official_distribution": false,
+          "order": 95,
+          "source_note": "사용자 제공 항공·화물·항공기술 Figma Community 수록집(1.svg)에서 원본 벡터 경로와 마스크를 보존하여 추출. 공식 배포 원본이 아니며 사용 시기는 확인되지 않음. 기존 대표 이미지는 유지함."
+        }
+      ]
+    },
+    "aeromexico": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "aeromexico",
+      "primary": "horizontal",
+      "fingerprint": {
+        "logo.svg": "64f5c95c5fa23156"
+      },
+      "variants": [
+        {
+          "key": "horizontal",
+          "form": "horizontal",
+          "lang": "unknown",
+          "color": "mono-dark",
+          "label": "가로조합형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 1.275,
+          "provider": "unknown",
+          "origin": "collected",
+          "order": 10
+        },
+        {
+          "key": "figma-airline-community-lockup",
+          "label": "조합형 · 커뮤니티 수록본 · 사용 시기 미확인",
+          "form": "horizontal",
+          "lang": "en",
+          "color": "color",
+          "files": {
+            "svg": "sources/figma-airline-community-20261010/6fdf360589611e45.svg",
+            "png": "sources/figma-airline-community-20261010/e145eb646f909eff.png"
+          },
+          "preview_png": "sources/figma-airline-community-20261010/2a635ad8b0c5cd2f.png",
+          "aspect": 6.6046,
+          "provider": "figma-community",
+          "origin": "collected",
+          "official_distribution": false,
+          "order": 95,
+          "source_note": "사용자 제공 항공·화물·항공기술 Figma Community 수록집(1.svg)에서 원본 벡터 경로와 마스크를 보존하여 추출. 공식 배포 원본이 아니며 사용 시기는 확인되지 않음. 기존 대표 이미지는 유지함."
+        }
+      ]
+    },
+    "cargolux": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "cargolux",
+      "primary": "horizontal",
+      "fingerprint": {
+        "logo.svg": "7804869c2b9f379d"
+      },
+      "variants": [
+        {
+          "key": "horizontal",
+          "form": "horizontal",
+          "lang": "unknown",
+          "color": "color",
+          "label": "가로조합형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 2.891,
+          "provider": "wikimedia",
+          "origin": "collected",
+          "order": 10
+        },
+        {
+          "key": "figma-airline-community-lockup",
+          "label": "조합형 · 커뮤니티 수록본 · 사용 시기 미확인",
+          "form": "vertical",
+          "lang": "en",
+          "color": "color",
+          "files": {
+            "svg": "sources/figma-airline-community-20261010/3623e544f35c3d8e.svg",
+            "png": "sources/figma-airline-community-20261010/225497f9a00c8428.png"
+          },
+          "preview_png": "sources/figma-airline-community-20261010/d95a9204b063778a.png",
+          "aspect": 1.4371,
+          "provider": "figma-community",
+          "origin": "collected",
+          "official_distribution": false,
+          "order": 95,
+          "source_note": "사용자 제공 항공·화물·항공기술 Figma Community 수록집(1.svg)에서 원본 벡터 경로와 마스크를 보존하여 추출. 공식 배포 원본이 아니며 사용 시기는 확인되지 않음. 기존 대표 이미지는 유지함."
+        }
+      ]
+    },
+    "cathaypacific": {
+      "id": "cathaypacific",
+      "algo_v": 1,
+      "schema": 1,
+      "primary": "reviewed",
+      "variants": [
+        {
+          "key": "reviewed",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "png": "sources/reviewed-background-merge-20261008/0e0a2f59705bff69.png",
+            "svg": "sources/reviewed-background-merge-20261008/0e0a2f59705bff69.svg"
+          },
+          "label": "투명 배경 로고",
+          "light": false,
+          "order": 0,
+          "origin": "derived",
+          "provider": "보유 원본 · 배경과 흰색 도형 검수"
+        },
+        {
+          "key": "figma-airline-community-lockup",
+          "label": "조합형 · 커뮤니티 수록본 · 사용 시기 미확인",
+          "form": "horizontal",
+          "lang": "en",
+          "color": "color",
+          "files": {
+            "svg": "sources/figma-airline-community-20261010/5fec93f698f4118c.svg",
+            "png": "sources/figma-airline-community-20261010/68be330fd3e89895.png"
+          },
+          "preview_png": "sources/figma-airline-community-20261010/0ccdcae13fb78683.png",
+          "aspect": 7.1633,
+          "provider": "figma-community",
+          "origin": "collected",
+          "official_distribution": false,
+          "order": 95,
+          "source_note": "사용자 제공 항공·화물·항공기술 Figma Community 수록집(1.svg)에서 원본 벡터 경로와 마스크를 보존하여 추출. 공식 배포 원본이 아니며 사용 시기는 확인되지 않음. 기존 대표 이미지는 유지함."
+        }
+      ]
+    },
+    "lufthansa": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "lufthansa",
+      "primary": "symbol",
+      "fingerprint": {
+        "logo.svg": "5c54cf2054acfc30",
+        "sources/commons-rev/wordmark.svg": "4078d40a196ab15a"
+      },
+      "variants": [
+        {
+          "key": "symbol",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "mono-dark",
+          "label": "심볼형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 1.0,
+          "provider": "unknown",
+          "origin": "collected",
+          "order": 30
+        },
+        {
+          "key": "wordmark",
+          "form": "wordmark",
+          "lang": "unknown",
+          "color": "color",
+          "label": "워드마크형",
+          "files": {
+            "svg": "sources/commons-rev/wordmark.svg"
+          },
+          "aspect": 6.074,
+          "provider": "wikimedia",
+          "origin": "collected",
+          "order": 40
+        },
+        {
+          "key": "figma-airline-community-lockup",
+          "label": "조합형 · 커뮤니티 수록본 · 사용 시기 미확인",
+          "form": "horizontal",
+          "lang": "en",
+          "color": "color",
+          "files": {
+            "svg": "sources/figma-airline-community-20261010/89a7a9107b307764.svg",
+            "png": "sources/figma-airline-community-20261010/30727213c6ab36b8.png"
+          },
+          "preview_png": "sources/figma-airline-community-20261010/d9db779aafb1a11d.png",
+          "aspect": 5.8325,
+          "provider": "figma-community",
+          "origin": "collected",
+          "official_distribution": false,
+          "order": 95,
+          "source_note": "사용자 제공 항공·화물·항공기술 Figma Community 수록집(1.svg)에서 원본 벡터 경로와 마스크를 보존하여 추출. 공식 배포 원본이 아니며 사용 시기는 확인되지 않음. 기존 대표 이미지는 유지함."
+        }
+      ]
+    },
+    "aircanada": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "aircanada",
+      "primary": "symbol",
+      "fingerprint": {
+        "logo.svg": "956cf5b9b510cb8f"
+      },
+      "variants": [
+        {
+          "key": "symbol",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "mono-dark",
+          "label": "심볼형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 1.023,
+          "provider": "unknown",
+          "origin": "collected",
+          "order": 30
+        },
+        {
+          "key": "figma-airline-community-lockup",
+          "label": "조합형 · 커뮤니티 수록본 · 사용 시기 미확인",
+          "form": "horizontal",
+          "lang": "en",
+          "color": "color",
+          "files": {
+            "svg": "sources/figma-airline-community-20261010/5f26def15b936af6.svg",
+            "png": "sources/figma-airline-community-20261010/dba1aa8ea5e533ee.png"
+          },
+          "preview_png": "sources/figma-airline-community-20261010/e5baa0f03c5a13cc.png",
+          "aspect": 7.6506,
+          "provider": "figma-community",
+          "origin": "collected",
+          "official_distribution": false,
+          "order": 95,
+          "source_note": "사용자 제공 항공·화물·항공기술 Figma Community 수록집(1.svg)에서 원본 벡터 경로와 마스크를 보존하여 추출. 공식 배포 원본이 아니며 사용 시기는 확인되지 않음. 기존 대표 이미지는 유지함."
+        }
+      ]
+    },
+    "airbusan": {
+      "schema": 1,
+      "id": "airbusan",
+      "primary": "figma-airline-community",
+      "variants": [
+        {
+          "key": "figma-airline-community-lockup",
+          "label": "조합형 · 커뮤니티 수록본 · 사용 시기 미확인",
+          "form": "horizontal",
+          "lang": "en",
+          "color": "color",
+          "files": {
+            "svg": "sources/figma-airline-community-20261010/453ea5bc4f0c37cc.svg",
+            "png": "sources/figma-airline-community-20261010/b51280493559deb1.png"
+          },
+          "preview_png": "sources/figma-airline-community-20261010/ff780dbb8a35790d.png",
+          "aspect": 3.2242,
+          "provider": "figma-community",
+          "origin": "collected",
+          "official_distribution": false,
+          "order": 95,
+          "source_note": "사용자 제공 항공·화물·항공기술 Figma Community 수록집(1.svg)에서 원본 벡터 경로와 마스크를 보존하여 추출. 공식 배포 원본이 아니며 사용 시기는 확인되지 않음. 기존 대표 이미지는 유지함."
+        }
+      ]
+    },
+    "airchina": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "airchina",
+      "primary": "symbol",
+      "fingerprint": {
+        "logo.svg": "b1ff8acf2e37818c",
+        "sources/commons-wm/wordmark.svg": "60ac49c1fd65532a"
+      },
+      "variants": [
+        {
+          "key": "symbol",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "mono-dark",
+          "label": "심볼형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 0.913,
+          "provider": "unknown",
+          "origin": "collected",
+          "order": 30
+        },
+        {
+          "key": "wordmark",
+          "form": "wordmark",
+          "lang": "unknown",
+          "color": "mono-dark",
+          "label": "워드마크형",
+          "files": {
+            "svg": "sources/commons-wm/wordmark.svg"
+          },
+          "aspect": 6.618,
+          "provider": "wikimedia",
+          "origin": "collected",
+          "order": 40
+        },
+        {
+          "key": "figma-airline-community-lockup",
+          "label": "조합형 · 커뮤니티 수록본 · 사용 시기 미확인",
+          "form": "horizontal",
+          "lang": "zh-en",
+          "color": "color",
+          "files": {
+            "svg": "sources/figma-airline-community-20261010/0fb526b1b260c948.svg",
+            "png": "sources/figma-airline-community-20261010/c1158f00e730de97.png"
+          },
+          "preview_png": "sources/figma-airline-community-20261010/ba5f947383c81357.png",
+          "aspect": 3.2103,
+          "provider": "figma-community",
+          "origin": "collected",
+          "official_distribution": false,
+          "order": 95,
+          "source_note": "사용자 제공 항공·화물·항공기술 Figma Community 수록집(1.svg)에서 원본 벡터 경로와 마스크를 보존하여 추출. 공식 배포 원본이 아니며 사용 시기는 확인되지 않음. 기존 대표 이미지는 유지함."
+        }
+      ]
+    },
+    "chinaeasternairlines": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "chinaeasternairlines",
+      "primary": "symbol",
+      "fingerprint": {
+        "logo.svg": "5dd7110212ff9104"
+      },
+      "variants": [
+        {
+          "key": "symbol",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "mono-dark",
+          "label": "심볼형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 1.247,
+          "provider": "unknown",
+          "origin": "collected",
+          "order": 30
+        },
+        {
+          "key": "figma-airline-community-lockup",
+          "label": "조합형 · 커뮤니티 수록본 · 사용 시기 미확인",
+          "form": "horizontal",
+          "lang": "zh-en",
+          "color": "color",
+          "files": {
+            "svg": "sources/figma-airline-community-20261010/34fc66440a4c1e90.svg",
+            "png": "sources/figma-airline-community-20261010/e9180e3740fa76e0.png"
+          },
+          "preview_png": "sources/figma-airline-community-20261010/e0f8474ed5ad783e.png",
+          "aspect": 4.6452,
+          "provider": "figma-community",
+          "origin": "collected",
+          "official_distribution": false,
+          "order": 95,
+          "source_note": "사용자 제공 항공·화물·항공기술 Figma Community 수록집(1.svg)에서 원본 벡터 경로와 마스크를 보존하여 추출. 공식 배포 원본이 아니며 사용 시기는 확인되지 않음. 기존 대표 이미지는 유지함."
+        }
+      ]
+    },
+    "chinasouthernairlines": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "chinasouthernairlines",
+      "primary": "horizontal",
+      "fingerprint": {
+        "logo.svg": "06223dbfe29d8a4d"
+      },
+      "variants": [
+        {
+          "key": "horizontal",
+          "form": "horizontal",
+          "lang": "unknown",
+          "color": "mono-dark",
+          "label": "가로조합형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 1.398,
+          "provider": "unknown",
+          "origin": "collected",
+          "order": 10
+        },
+        {
+          "key": "figma-airline-community-lockup",
+          "label": "조합형 · 커뮤니티 수록본 · 사용 시기 미확인",
+          "form": "horizontal",
+          "lang": "zh-en",
+          "color": "color",
+          "files": {
+            "svg": "sources/figma-airline-community-20261010/0927eb25d7633783.svg",
+            "png": "sources/figma-airline-community-20261010/a82fa478de6bfc43.png"
+          },
+          "preview_png": "sources/figma-airline-community-20261010/6ae49bd70c182b75.png",
+          "aspect": 4.5278,
+          "provider": "figma-community",
+          "origin": "collected",
+          "official_distribution": false,
+          "order": 95,
+          "source_note": "사용자 제공 항공·화물·항공기술 Figma Community 수록집(1.svg)에서 원본 벡터 경로와 마스크를 보존하여 추출. 공식 배포 원본이 아니며 사용 시기는 확인되지 않음. 기존 대표 이미지는 유지함."
+        }
+      ]
+    }
+  },
+  "review": {
+    "source_sha256": "1b45f8f5f9c14a26f615b1903d1f7b6d2113499aaf884b9864f8d9fe41f01c34",
+    "existing_representatives_preserved": true,
+    "official_metadata_preserved": true,
+    "dates_unknown": true,
+    "duplicates_excluded": [
+      "aer-lingus",
+      "latam",
+      "air-arabia"
+    ],
+    "identity_hold": [
+      "r02-c06 AIR AISIE is not established as AirAsia"
+    ],
+    "source_not_current_airline_roster": true
+  }
+}

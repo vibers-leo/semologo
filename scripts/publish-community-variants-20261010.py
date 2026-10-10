@@ -1,5 +1,5 @@
 """Publish reviewed community objects without changing existing official representatives."""
-import json,hashlib,shlex,mimetypes,subprocess,concurrent.futures,argparse
+import json,hashlib,shlex,mimetypes,subprocess,concurrent.futures,argparse,urllib.parse
 from pathlib import Path
 import boto3
 from botocore.config import Config
@@ -20,7 +20,7 @@ def publish(row):
   if e.response['Error']['Code'] not in ['NoSuchKey','404']:raise
   s3.put_object(Bucket='vibers-bucket',Key=row['key'],Body=raw,ACL='public-read',ContentType=mimetypes.guess_type(row['file'])[0] or 'application/octet-stream',CacheControl='public,max-age=31536000,immutable')
  assert s3.get_object(Bucket='vibers-bucket',Key=row['key'])['Body'].read()==raw
- url='https://logo.vibers.co.kr/'+row['key']
+ url='https://logo.vibers.co.kr/'+urllib.parse.quote(row['key'],safe='/')
  assert subprocess.run(['curl','--fail','--silent','--show-error','--max-time','40',url],capture_output=True,check=True).stdout==raw
  return {'key':row['key'],'sha256':row['sha256'],'cdn_verified':True}
 with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool:results=list(pool.map(publish,json.loads((folder/'uploads.json').read_text())))
@@ -34,7 +34,14 @@ const {Pool}=require('pg');(async()=>{const p=new Pool({connectionString:process
   const old=await d.query('SELECT payload,status FROM semologo.logo_posts WHERE id=$1 FOR UPDATE',[id]);
   if(old.rowCount){
    if(old.rows[0].status!=='published'||old.rows[0].payload.hidden||old.rows[0].payload.merged_into)throw Error('Canonical identity required '+id);
-   await d.query("UPDATE semologo.logo_posts SET payload=payload||jsonb_build_object('variants_n',$2::int),updated_at=now() WHERE id=$1",[id,manifest.variants.length]);
+   const attachments={};const patch=release.patches[id]||{};
+   for(const [field,extension] of [['source_zip','.zip'],['source_ai','.ai'],['svg_transparent','.svg']]){
+    if(patch[field]===undefined)continue;const file=patch[field];
+    if(typeof file!=='string'||!file.startsWith('sources/')||file.includes('..')||!file.endsWith(extension)||!uploads.some(x=>x.id===id&&x.key===`_clients/${id}/${file}`))throw Error('Unverified attachment '+id+' '+field);
+    attachments[field]=file;
+   }
+   if(attachments.svg_transparent){attachments.has_svg=true;attachments.logo_svg=true;}
+   await d.query("UPDATE semologo.logo_posts SET payload=payload||jsonb_build_object('variants_n',$2::int)||$3::jsonb,updated_at=now() WHERE id=$1",[id,manifest.variants.length,JSON.stringify(attachments)]);
   }else{
    const patch=release.patches[id];if(!patch||patch.id!==id||!patch.name_ko||!patch.category||!patch.has_png)throw Error('Complete new identity required '+id);
    await d.query("INSERT INTO semologo.logo_posts(id,payload,status) VALUES($1,$2::jsonb,'published')",[id,JSON.stringify(patch)]);

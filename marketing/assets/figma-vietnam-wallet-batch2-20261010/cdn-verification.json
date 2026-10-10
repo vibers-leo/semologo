@@ -1,0 +1,242 @@
+[
+  {
+    "key": "_clients/appota/sources/community-vietnam-wallet-20261010/36dd0a3469e1f84cf520/logo.svg",
+    "sha256": "36dd0a3469e1f84cf520b50c984094d552037a1a2ef0aa54c4f08089ed86cf1b",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/appota/sources/community-vietnam-wallet-20261010/fd71b2b36ea45c91cbc9/logo.png",
+    "sha256": "fd71b2b36ea45c91cbc9768828933f52ee73fba8f80c640fd67c970712a8e7c0",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/appota/sources/community-vietnam-wallet-20261010/a5e28d841300fdd359f2/preview.png",
+    "sha256": "a5e28d841300fdd359f23b9c4400bf6b4517946de19a8b5509808822e2d80e90",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/baokim/sources/community-vietnam-wallet-20261010/318582da757b8f91cbb0/logo.svg",
+    "sha256": "318582da757b8f91cbb0127218ac1454c5cf9e13c2b2747f24895bc7c1922774",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/baokim/sources/community-vietnam-wallet-20261010/6ab82f97ece2d0620d73/logo.png",
+    "sha256": "6ab82f97ece2d0620d73abd392fee291164e34969acae8ab55fe4dabe65923bf",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/baokim/sources/community-vietnam-wallet-20261010/9293a35720a76510a474/preview.png",
+    "sha256": "9293a35720a76510a474b0b7c9845cb64bb40fc6b10684d29d2fa994fc38d2ed",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/ecpay-vietnam/sources/community-vietnam-wallet-20261010/754e7aaaa97063f6ef10/logo.svg",
+    "sha256": "754e7aaaa97063f6ef10fbd8c547cd5064df06239cebf84d86e265ace727ca4e",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/ecpay-vietnam/sources/community-vietnam-wallet-20261010/26fa37596143bfaa0adf/logo.png",
+    "sha256": "26fa37596143bfaa0adfcf804934917420706c381af6cd03af2b0b2a4d8e18c6",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/ecpay-vietnam/sources/community-vietnam-wallet-20261010/9c79b3ebab60d1e6c506/preview.png",
+    "sha256": "9c79b3ebab60d1e6c50679ed4935016057e56b901958e07f8f5a629243084bac",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/momo-2/sources/community-vietnam-wallet-20261010/87d48d8827052bcafff4/logo.svg",
+    "sha256": "87d48d8827052bcafff43502a2028f16ebadff087cff8f49e356d531093ad012",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/momo-2/sources/community-vietnam-wallet-20261010/cbe2c1b0ac4150733f27/logo.png",
+    "sha256": "cbe2c1b0ac4150733f27a6c44119cec3a0d818ecd70748a118859423fba890d3",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/momo-2/sources/community-vietnam-wallet-20261010/bd95e8be8f9818c02dcc/preview.png",
+    "sha256": "bd95e8be8f9818c02dcc02c06a6f8012c4b5e5b5b02b7aea146fd674c63035a5",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/nextpay-vietnam/sources/community-vietnam-wallet-20261010/3c325e18d2daedb66e3f/logo.svg",
+    "sha256": "3c325e18d2daedb66e3f13d35adbee12a6155dccba2cb089e173091e0ff41748",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/nextpay-vietnam/sources/community-vietnam-wallet-20261010/420fac70aa959e45b80f/logo.png",
+    "sha256": "420fac70aa959e45b80fd8292ee097f33f40bc78ff41920788c0e46a006bf43b",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/nextpay-vietnam/sources/community-vietnam-wallet-20261010/1193b4629f3c31109274/preview.png",
+    "sha256": "1193b4629f3c311092741e729f49f32d6e6304f3903e908980a6a26cb5ec4525",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/nganluong/sources/community-vietnam-wallet-20261010/09397edc0dbe966f9a0a/logo.svg",
+    "sha256": "09397edc0dbe966f9a0a9515a5e75db5a49ede15877b7a25850f247f6826c64d",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/nganluong/sources/community-vietnam-wallet-20261010/58e3dde9de84bb903fc6/logo.png",
+    "sha256": "58e3dde9de84bb903fc6ac30d8cc517a95f0bfd3959f26686516e163237e6555",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/nganluong/sources/community-vietnam-wallet-20261010/56084c38e3a163d9dfbb/preview.png",
+    "sha256": "56084c38e3a163d9dfbb0465bf0d5108cf365f1929a757099c2ffe91af68b627",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/payme-vietnam/sources/community-vietnam-wallet-20261010/1280976f2b2b41e91b62/logo.svg",
+    "sha256": "1280976f2b2b41e91b620e2320639aae6e57fe792fb06b2586fe0634399d3e1d",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/payme-vietnam/sources/community-vietnam-wallet-20261010/76d8453f1bea53478298/logo.png",
+    "sha256": "76d8453f1bea534782989fee73504d9e14bdfc4284d74d9b468704290966fcd7",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/payme-vietnam/sources/community-vietnam-wallet-20261010/dbd9d6b14781db6cdca9/preview.png",
+    "sha256": "dbd9d6b14781db6cdca9a2c48c34d1ed60c5bc9ec2646a586cbb53e2918c5233",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/payoo/sources/community-vietnam-wallet-20261010/a144253fbe74bf59a74b/logo.svg",
+    "sha256": "a144253fbe74bf59a74b9448ca3605925314c13a03b14b48b6e982656f4a767d",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/payoo/sources/community-vietnam-wallet-20261010/76b8ca1851fda70004f4/logo.png",
+    "sha256": "76b8ca1851fda70004f448e0b3d30bbf22fe2bc5af00914e97b393ef35deac1c",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/payoo/sources/community-vietnam-wallet-20261010/7720d52c1382d22ae1c8/preview.png",
+    "sha256": "7720d52c1382d22ae1c8ffdc2f556ec37a9f85f6c4adc41af0acecf3f956a333",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/shopeepay/sources/community-vietnam-wallet-20261010/702cec6c5a4f4dbcbe42/logo.svg",
+    "sha256": "702cec6c5a4f4dbcbe42d3ddafe95a40a64315876f3a85c57df06f103bee11b5",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/shopeepay/sources/community-vietnam-wallet-20261010/41b6f0786b4c8746a5cd/logo.png",
+    "sha256": "41b6f0786b4c8746a5cd3d52539e12ea8cd5d0e124bd27d7021adc07a737bf57",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/shopeepay/sources/community-vietnam-wallet-20261010/f2241c357126be4ae41a/preview.png",
+    "sha256": "f2241c357126be4ae41a8b4c918e939ff2419c0645c1ddbfb6032007f86ddd4d",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/truemoney/sources/community-vietnam-wallet-20261010/bf7c279604a3930a10ca/logo.svg",
+    "sha256": "bf7c279604a3930a10ca085a985f98b094c860ec3fe2e8f8d8846972b4e65c7b",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/truemoney/sources/community-vietnam-wallet-20261010/b7df8fa861162444d856/logo.png",
+    "sha256": "b7df8fa861162444d856ab635bd271291b630ef92f1fa8bb49307d480bd6137c",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/truemoney/sources/community-vietnam-wallet-20261010/fe8f227a8913d6be8f87/preview.png",
+    "sha256": "fe8f227a8913d6be8f8777dd868786eae6f73ac671c8829966c1453e343d0970",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/viettel-money/sources/community-vietnam-wallet-20261010/f769954b6b456df5535b/logo.svg",
+    "sha256": "f769954b6b456df5535b5d5fa1d33438c8f9dc81041403dc31c4ed8d807059f5",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/viettel-money/sources/community-vietnam-wallet-20261010/21e3dfcb3c24fb1143c6/logo.png",
+    "sha256": "21e3dfcb3c24fb1143c6bb1b95306ae192a95bce44505f0ca5d6d2e94448bb89",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/viettel-money/sources/community-vietnam-wallet-20261010/035e5795b8861a314efd/preview.png",
+    "sha256": "035e5795b8861a314efd2f33a4f3dde0626339f372368a1294a787ee88e3b05e",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/vimo-vietnam/sources/community-vietnam-wallet-20261010/9788157262bcbe39bcff/logo.svg",
+    "sha256": "9788157262bcbe39bcff676bc652be57bef089ca0e42c1a1d47cb7a0f811e186",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/vimo-vietnam/sources/community-vietnam-wallet-20261010/de17581c9440fc855b71/logo.png",
+    "sha256": "de17581c9440fc855b717a5cb111f3eb785bacf365099032bcccccf8f51e93e9",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/vimo-vietnam/sources/community-vietnam-wallet-20261010/eae14f6667ce39c59903/preview.png",
+    "sha256": "eae14f6667ce39c599032385901c6e3b583c425e291e753121c222191441c257",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/vnpt-money/sources/community-vietnam-wallet-20261010/eae9cfa59549535c6a6f/logo.svg",
+    "sha256": "eae9cfa59549535c6a6f070b368b3842fd54a5b183db987cc3ac7eed99b8718f",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/vnpt-money/sources/community-vietnam-wallet-20261010/d590d7a2c219031cee05/logo.png",
+    "sha256": "d590d7a2c219031cee05e010714dee548cf1f70996b961a05f359390fc434c54",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/vnpt-money/sources/community-vietnam-wallet-20261010/1c9a25285a163118d8b4/preview.png",
+    "sha256": "1c9a25285a163118d8b43bf1249e9b7cd7135d35ced434f9e2dfec219984c9ad",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/vnpay/sources/community-vietnam-wallet-20261010/8e1ced837269d080e010/logo.svg",
+    "sha256": "8e1ced837269d080e010d263771d28d2d136485d9dafa49b009c01f10f01cf1b",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/vnpay/sources/community-vietnam-wallet-20261010/958c3da5e9b4ae62d48e/logo.png",
+    "sha256": "958c3da5e9b4ae62d48e7bc2b4fddd93356c16c75fcdf9ea4e825f46a0d9bdba",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/vnpay/sources/community-vietnam-wallet-20261010/ca392ec3f5a1091c2433/preview.png",
+    "sha256": "ca392ec3f5a1091c2433bce7d777c86232b78fd3f17857cdd24bea923a91a0c3",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/vtc-pay/sources/community-vietnam-wallet-20261010/a907989be9fe1ae3c7ce/logo.svg",
+    "sha256": "a907989be9fe1ae3c7ce7505c4d09a3d73417f516fca50aa73f7c637c03a606c",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/vtc-pay/sources/community-vietnam-wallet-20261010/0cdf6daca6864caba90c/logo.png",
+    "sha256": "0cdf6daca6864caba90ce2f8c099be6feabc9d3d2781ce398ecba729487bf8e8",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/vtc-pay/sources/community-vietnam-wallet-20261010/9baf9bb456fee62e9075/preview.png",
+    "sha256": "9baf9bb456fee62e9075ce51502c4d55f70fe022133402dcd031b2286301fc40",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/zalopay/sources/community-vietnam-wallet-20261010/47c89e3680b8769bd105/logo.svg",
+    "sha256": "47c89e3680b8769bd105410569d1a54a672a9bb76d235b0b79940d14a2c630d6",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/zalopay/sources/community-vietnam-wallet-20261010/8a0ec4f466cd644b9ca3/logo.png",
+    "sha256": "8a0ec4f466cd644b9ca3e1a9d80c24f177aa4295d57640f8134c42b63eac0ff3",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/zalopay/sources/community-vietnam-wallet-20261010/ab4f75d455bbf96af4ae/preview.png",
+    "sha256": "ab4f75d455bbf96af4aee04d52acbe1ada9eed87c16279560dc89dd3c2597888",
+    "cdn_verified": true
+  }
+]

@@ -92,3 +92,11 @@
 - 2026-10-10: 시중은행 SVG시트에서7은행21구성분리,56객체CDN해시확인. 커뮤니티출처표시·공식배지구분,공식자료보존. 공식원본batch6은8기관32종87객체검수게시(누계55기관). 영문PNGbatch4는127개508객체추가준비.
 
 - 2026-10-10: 공식원본batch7 3기관18조합43객체CDN해시검증게시, 누계58기관.
+
+- 2026-10-10: 영어 SVG 4차 127개 투명 PNG·640px 미리보기·2000px 다운로드를 게시하고 공개 CDN 508객체 SHA256 검증 완료. 근거: `assets/svg-transparent-batch4-20261010/`, 통합 검증 `assets/cdn-proof20261010/report.json`. 5차 123개는 별도 시트 검수 및 게시 진행.
+
+- 2026-10-10: 사용자 제공 글로벌 Community SVG 1,408컴포넌트 분리·PNG 렌더 및 22시트 준비, 기존 아트 비교 후 추가 가치 8개/24객체 후보 release 준비(`assets/figma-global-sample-release-20261010`). S&P Community는 별도 321컴포넌트·6시트와 기존 명부 51기업 매칭 후보로 분리 보존(`assets/figma-sp500-collection-20261010`), 현재 명부/verified 미변경.
+
+- 2026-10-10: Community 6개 묶음 검수: 102개 브랜드·283개 CDN 파일 게시, 자동차/베트남 수록 목록과 S&P 37/500 PNG 검수 반영. 배포 8faaf76 SUCCESS·6개 상세/목록 경로 200. 근거: assets/figma-export-intake-20261010/REPORT.md 및 deploy-verification.json.
+
+- 2026-10-10: Better Logos community color variants reviewed; user-original AI/ZIP downloads and variation counts exposed, eight visually reviewed representative recommendations applied. Evidence: assets/figma-better-collection-20261010/, assets/representative-votes-20261010/.

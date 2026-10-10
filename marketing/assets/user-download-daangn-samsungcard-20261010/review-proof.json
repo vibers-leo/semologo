@@ -1,0 +1,38 @@
+[
+  {
+    "id": "daangn",
+    "key": "user-source-horizontal-color",
+    "visual_review": "approved",
+    "existing_primary_preserved": "horizontal",
+    "source_kind": "user-provided-download-original",
+    "official": false,
+    "png_dimensions": "2000x1286"
+  },
+  {
+    "id": "daangn",
+    "key": "user-source-horizontal-white",
+    "visual_review": "approved",
+    "existing_primary_preserved": "horizontal",
+    "source_kind": "user-provided-download-original",
+    "official": false,
+    "png_dimensions": "2000x1286"
+  },
+  {
+    "id": "daangn",
+    "key": "user-source-app-icon",
+    "visual_review": "approved",
+    "existing_primary_preserved": "horizontal",
+    "source_kind": "user-provided-download-original",
+    "official": false,
+    "png_dimensions": "2000x2000"
+  },
+  {
+    "id": "samsungcard",
+    "key": "user-source-korean-horizontal",
+    "visual_review": "approved",
+    "existing_primary_preserved": "existing-original",
+    "source_kind": "user-provided-download-original",
+    "official": false,
+    "png_dimensions": "2000x719"
+  }
+]

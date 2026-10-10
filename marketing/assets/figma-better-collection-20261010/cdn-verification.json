@@ -1,0 +1,747 @@
+[
+  {
+    "key": "_clients/adobe/sources/figma-better-community-20261010/f4a57c6c19dd4955f66b.svg",
+    "sha256": "f4a57c6c19dd4955f66bb6df7d764d905bc1fb2c944685a95e02a28158aeea75",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/adobe/sources/figma-better-community-20261010/1bb9b8243d225bba39a8.png",
+    "sha256": "1bb9b8243d225bba39a8e9f1df9afe3ed34d64a5cf19e039f60b650284a6d2ab",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/adobe/sources/figma-better-community-20261010/ab97276a72741407006e.png",
+    "sha256": "ab97276a72741407006e1a93604147c8705f45f1036aba28907a242d66306e2d",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/adobe/sources/figma-better-community-20261010/0cf53165ab9a5315748f.svg",
+    "sha256": "0cf53165ab9a5315748fff768b305bdd1cc6a29de95d2533d37ac505b746b2f1",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/adobe/sources/figma-better-community-20261010/408d6863e162d94483fd.png",
+    "sha256": "408d6863e162d94483fd6670d1e0ef358dab14f72085a9f7279f6583e33a4534",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/airbnb/sources/figma-better-community-20261010/ca47af027855c1d5d13e.svg",
+    "sha256": "ca47af027855c1d5d13eb43b8028b558bae5863b8e5677c48f505103c5439b3e",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/airbnb/sources/figma-better-community-20261010/f1c3908a35d245b4fbeb.png",
+    "sha256": "f1c3908a35d245b4fbebf68a52e67fd5009f01eebce62f9a13e0a96035a5cb37",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/airbnb/sources/figma-better-community-20261010/096ff70d9df41778ffc9.png",
+    "sha256": "096ff70d9df41778ffc9d68e07d5bc24f12d0e1963a164a85d9d1401ffe6a06e",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/airbnb/sources/figma-better-community-20261010/0e3b71a8ac9cd55d807b.png",
+    "sha256": "0e3b71a8ac9cd55d807b90ad98e915bb58379b87dbfad733713891a8e3e1c2d5",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/airtable/sources/figma-better-community-20261010/b4eafdeeb3d30ade79e8.svg",
+    "sha256": "b4eafdeeb3d30ade79e85e0aa7482a2573a4d888330a2fd08d9cc647fa317ea9",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/airtable/sources/figma-better-community-20261010/e1d4246ecad3e01f3440.png",
+    "sha256": "e1d4246ecad3e01f3440f9a1c6db8bb93a7099875e5f3a62305568ea7a914181",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/airtable/sources/figma-better-community-20261010/8ce02e71b612430bf030.svg",
+    "sha256": "8ce02e71b612430bf0305cf735fb6f46842bcba96fe1f335ea518c71ddf7efdd",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/airtable/sources/figma-better-community-20261010/0cc3eb7c893c995b59b9.png",
+    "sha256": "0cc3eb7c893c995b59b9d3a998f4efd3f0f5d7793c5c26f01d5bf0543878e670",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/airtable/sources/figma-better-community-20261010/4f9235164f7edf7db6ec.svg",
+    "sha256": "4f9235164f7edf7db6ecb0ecdbc6d7c58617435c2b285c58250d6bd6f398cab8",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/airtable/sources/figma-better-community-20261010/769f082f298e109e8668.png",
+    "sha256": "769f082f298e109e8668cf5fe3c333f14d96394ee4b8fb663f884b3976fb234c",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/amazon/sources/figma-better-community-20261010/be70e28635637bafbfbd.svg",
+    "sha256": "be70e28635637bafbfbdc5b1fe07f7b9fd7ac63fccfb08fdf9b4367dd74ddf08",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/amazon/sources/figma-better-community-20261010/78e0b367773645876406.png",
+    "sha256": "78e0b36777364587640606e79e35f048796f288b96f8f45fea978dbf71a95263",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/amazon/sources/figma-better-community-20261010/694a95b082d1ed73894c.png",
+    "sha256": "694a95b082d1ed73894c5bbb6021f9a27c4183487358b8b54452966972795cb1",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/amazon/sources/figma-better-community-20261010/d2ca841cacac1f478c28.svg",
+    "sha256": "d2ca841cacac1f478c2810858ad7cad03cbc7de3897b9e72c56b651412b993c5",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/amazon/sources/figma-better-community-20261010/147bd60d7d949201c9c1.png",
+    "sha256": "147bd60d7d949201c9c150c5ec408787e9dc427a6459c8dff62e4536603c2e79",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/asana/sources/figma-better-community-20261010/60b13f5279aae9bdb5ec.svg",
+    "sha256": "60b13f5279aae9bdb5ec4e714cbe8f1607e84e8a10d960cba68e3b4f3b5b90d4",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/asana/sources/figma-better-community-20261010/ed5577af696422ad573c.png",
+    "sha256": "ed5577af696422ad573c7c2badbd351ceed87c5ca228352be4ab5268605c9b1f",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/asana/sources/figma-better-community-20261010/c853581a378cf7e1acff.svg",
+    "sha256": "c853581a378cf7e1acffc0c46480eda423ff4ce9d301ac020195267a5f11f2cc",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/asana/sources/figma-better-community-20261010/488765368c877a0824c0.png",
+    "sha256": "488765368c877a0824c0c1d3506b3357f764320305c9083cc9d9b3f7f22e2dd9",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/asana/sources/figma-better-community-20261010/ed7552ae2597fe54ef82.svg",
+    "sha256": "ed7552ae2597fe54ef8225578c235434b19075920f3a59d550c783e04629dc7c",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/asana/sources/figma-better-community-20261010/25f719332af2d4947d3e.png",
+    "sha256": "25f719332af2d4947d3e263e7f45d1832ffdfa20bc8a94c9d1cf107f2ad8f22e",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/atlassian/sources/figma-better-community-20261010/e07fd97c31746cc6723a.svg",
+    "sha256": "e07fd97c31746cc6723ad55d70f94a142a174e8aa4cfe1578c042d1bb6961f3a",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/atlassian/sources/figma-better-community-20261010/bae75bd77445e66812cb.png",
+    "sha256": "bae75bd77445e66812cba968c53de39f55ff82e19e5270cba62517e16f54e5dd",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/atlassian/sources/figma-better-community-20261010/4a91e1f6c4a5052ae568.svg",
+    "sha256": "4a91e1f6c4a5052ae568a3b8fdf6b4f3801058d2815fefc114b783b71f23bf5d",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/atlassian/sources/figma-better-community-20261010/3fa80ac57cd076e4ad9e.png",
+    "sha256": "3fa80ac57cd076e4ad9e5c3c26cc4ef790e56c231166ebf3fdb3ecc6c8775ee1",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/atlassian/sources/figma-better-community-20261010/db1dcec0abd4fa1eb832.svg",
+    "sha256": "db1dcec0abd4fa1eb8323b55e3592a901edd36234806a1367f74ef7cbb2ce5f7",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/atlassian/sources/figma-better-community-20261010/342699c648ab5cba0d54.png",
+    "sha256": "342699c648ab5cba0d545b5ed181f951ddb605eb5f80588c11b32e673e72f9b6",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/autodesk/sources/figma-better-community-20261010/3c9a72cd84f281d9c6c6.svg",
+    "sha256": "3c9a72cd84f281d9c6c626f584e17cb2bfb42043622d9124e66f2b8e576bcb1a",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/autodesk/sources/figma-better-community-20261010/9e7d70138beaabb88a73.png",
+    "sha256": "9e7d70138beaabb88a73493e38acf8ea568dbd2c8de8b0b09db06ebf961ea3e7",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/autodesk/sources/figma-better-community-20261010/0a17ded2d38e3ed9b410.svg",
+    "sha256": "0a17ded2d38e3ed9b410939ce6ca898b9887c933f97324b4947c809e65c3df8e",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/autodesk/sources/figma-better-community-20261010/8411737e6b991e9af72e.png",
+    "sha256": "8411737e6b991e9af72e2a8450022351a44ae8838686a4561adf6b1c4c51cf2c",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/autodesk/sources/figma-better-community-20261010/f3425b96a8b041b719a3.svg",
+    "sha256": "f3425b96a8b041b719a3eaa231cb056e73bbe6a0bf1e113c45ecee17578cfc07",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/autodesk/sources/figma-better-community-20261010/d4f7f4ca980d5512d26f.png",
+    "sha256": "d4f7f4ca980d5512d26f33961fe927028041812f8327ba5e42f7a36942a909b2",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/dropbox/sources/figma-better-community-20261010/ceb52754691e756a0a15.svg",
+    "sha256": "ceb52754691e756a0a15f0539eecc21d78ffe00bfc31a2e09a5276adf31e2e21",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/dropbox/sources/figma-better-community-20261010/3a62eb47c8ca1fc755a3.png",
+    "sha256": "3a62eb47c8ca1fc755a3175a676992ee724bd966e726c9bbd97d915fb6eec552",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/dropbox/sources/figma-better-community-20261010/5ff9223e1a8ebc4ed102.svg",
+    "sha256": "5ff9223e1a8ebc4ed1025fa1dd892592e6b9c56f7c9a924b804ba9e5817dedbe",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/dropbox/sources/figma-better-community-20261010/975505b69a2b79443fd2.png",
+    "sha256": "975505b69a2b79443fd2242c6e43bbb03bdda6be2eb481b8b7d655fd8eeec266",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/dropbox/sources/figma-better-community-20261010/b2bedad3f1e04831f70a.svg",
+    "sha256": "b2bedad3f1e04831f70a60ca400b2a765c5297908bc574d50743c5682ba2df64",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/dropbox/sources/figma-better-community-20261010/2f1e1fa8326661a9e380.png",
+    "sha256": "2f1e1fa8326661a9e380c311ae584591400cd57f7bf381c5db14b568b4ce5717",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/figma/sources/figma-better-community-20261010/e31b188c0e36a73f63ee.svg",
+    "sha256": "e31b188c0e36a73f63ee283d09d4f875fa3120cfdfab18eeb8c1819c92bf4ee1",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/figma/sources/figma-better-community-20261010/ec1ef9f7f2dea1d8f913.png",
+    "sha256": "ec1ef9f7f2dea1d8f913ca492840349f12b0e68afce5a3558b3a69c2a1c184bc",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/figma/sources/figma-better-community-20261010/2e425eb2514c25ba0239.svg",
+    "sha256": "2e425eb2514c25ba0239a7a8757313b4a0564141c318bf2586fb8b8c65a38a5e",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/figma/sources/figma-better-community-20261010/ef659b73f9320559eb5b.png",
+    "sha256": "ef659b73f9320559eb5bfd7ee511c9abf020ec709b6d534a8559576820c08e1a",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/github/sources/figma-better-community-20261010/4a55edad1b650be2c7c3.svg",
+    "sha256": "4a55edad1b650be2c7c3711e6c392cbd9a69ef7f220981ee0e3c332b4fc54843",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/github/sources/figma-better-community-20261010/7ccf158f0a45a490074e.png",
+    "sha256": "7ccf158f0a45a490074e2cb930936f792e95678d07d4409091f369e037a98861",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/github/sources/figma-better-community-20261010/76ee843ce9c5ed844132.svg",
+    "sha256": "76ee843ce9c5ed8441323c584f706671b1056d3b898c0a579d71bcdb381a10cd",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/github/sources/figma-better-community-20261010/be474c9414da670cb07d.png",
+    "sha256": "be474c9414da670cb07df5aef7f223e43c3ae5da3931a3fdb9ff76a2ba19f2ef",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/github/sources/figma-better-community-20261010/2c6bd34bb2aa44856f38.svg",
+    "sha256": "2c6bd34bb2aa44856f386757f735c6dcba1cce3cfbabb9e2ed65be5c440952ac",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/github/sources/figma-better-community-20261010/ff4851290087cb9ff765.png",
+    "sha256": "ff4851290087cb9ff7652b7627471bab72c0f64b094f4475fa3b83922069a1fd",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/google/sources/figma-better-community-20261010/1eea9236c4dc296a3d81.png",
+    "sha256": "1eea9236c4dc296a3d817fb35d3ab79cbb15e1118ca9d881ff5c736390846d6d",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/google/sources/figma-better-community-20261010/0c892bf2a76a9c4e4936.svg",
+    "sha256": "0c892bf2a76a9c4e49365ce9513c7c3f78e5454575c5483fb5c5f597d9c9c1fd",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/google/sources/figma-better-community-20261010/3a874e07bee30ed2fbfe.png",
+    "sha256": "3a874e07bee30ed2fbfea6a1782bdf501ec966cd8f256aed964a7bdffd7e0d2a",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/google/sources/figma-better-community-20261010/5a1c30e934eee747ed75.svg",
+    "sha256": "5a1c30e934eee747ed75363aec836e9b5dd548a5df90509750baca916a995560",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/google/sources/figma-better-community-20261010/7f178d17f4d9e343a7de.png",
+    "sha256": "7f178d17f4d9e343a7deb1212328ec94e79b1af442cd56fa889242803cd59f41",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/ibm/sources/figma-better-community-20261010/7c9b05daf4ad1f376499.svg",
+    "sha256": "7c9b05daf4ad1f376499c721189353895a235f8dca21416198cd46c5b20ba282",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/ibm/sources/figma-better-community-20261010/88c60d8d4e18455f662f.png",
+    "sha256": "88c60d8d4e18455f662f8bd424d5abbcd6d746b3faf824e396c51139336b7cba",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/ibm/sources/figma-better-community-20261010/325d549c6107ea7caefd.svg",
+    "sha256": "325d549c6107ea7caefd0aced74c424a222e5cdab000cc7965b4f3d21ca0f8d5",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/ibm/sources/figma-better-community-20261010/f6e295a928b226b96fde.png",
+    "sha256": "f6e295a928b226b96fde9583261e4bda0373208d65d128f1d988bb22d1ecd6d4",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/ibm/sources/figma-better-community-20261010/b7b20bf3ddda4a8a9df7.svg",
+    "sha256": "b7b20bf3ddda4a8a9df70eb7348cfaf9257092d3ef3a1044b030f15e62bcc4d0",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/ibm/sources/figma-better-community-20261010/efcbe9ad71dec74f550a.png",
+    "sha256": "efcbe9ad71dec74f550a09acb96e40406cd86a0b4b81843bba0cbd02c107086d",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/linkedin/sources/figma-better-community-20261010/9f5a49ba49da3f4cc38b.svg",
+    "sha256": "9f5a49ba49da3f4cc38bb3a23f0df5ba9aa5918061b5c489921c962084eb3650",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/linkedin/sources/figma-better-community-20261010/df8a7af2569e6153b21f.png",
+    "sha256": "df8a7af2569e6153b21f82461a33aeca5f55dea3e8a62e8fbcf165b02d54bf58",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/linkedin/sources/figma-better-community-20261010/da1993d97ebd4ab2e285.svg",
+    "sha256": "da1993d97ebd4ab2e285f2e0dd05026667e47ac513df1d6a4c0e6e43c3432bdd",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/linkedin/sources/figma-better-community-20261010/e3b883032631560958ab.png",
+    "sha256": "e3b883032631560958ab0b8405d458c50919cf7fc05eb3b550510569f1ec5da4",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/linkedin/sources/figma-better-community-20261010/e4b0ddb712e525e6095b.svg",
+    "sha256": "e4b0ddb712e525e6095bf0d9293e8d8c795a76fc134513a2b2f94faad85dceea",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/linkedin/sources/figma-better-community-20261010/57722ace1d3b0235869b.png",
+    "sha256": "57722ace1d3b0235869bf19af7187abd810a42774e8b636c555a00d7e4bd7427",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/microsoft/sources/figma-better-community-20261010/82efc9b58daa370903c2.svg",
+    "sha256": "82efc9b58daa370903c27c06714fc3ee0d28bcd5aa1673d98ca684bacd99553c",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/microsoft/sources/figma-better-community-20261010/05b509bc62f17c1c0777.png",
+    "sha256": "05b509bc62f17c1c07770e379746d1c77c1989ad0cfd3b4a9a895960e12190ef",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/microsoft/sources/figma-better-community-20261010/46aa0b836e8ad6c8bdc5.png",
+    "sha256": "46aa0b836e8ad6c8bdc569cf566d04e1e4562db2d054fb6b030041a270d3075d",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/microsoft/sources/figma-better-community-20261010/c8adfe0ae861314dbe9a.png",
+    "sha256": "c8adfe0ae861314dbe9a9d9c235f726a43a9afee1c551e8e0e3d0fa788592ef6",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/netflix/sources/figma-better-community-20261010/c92b875a10f7b898beed.svg",
+    "sha256": "c92b875a10f7b898beede4754e5d0ed3b0da8445f848e2769c4a30d653ad127d",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/netflix/sources/figma-better-community-20261010/ca1c641b932539b47e8b.png",
+    "sha256": "ca1c641b932539b47e8b1d2ae5c337278351d7e7a2acefaff756ed1e2afbf380",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/netflix/sources/figma-better-community-20261010/44c6c349ce26bb50d56a.svg",
+    "sha256": "44c6c349ce26bb50d56a286a2078d0bbaad71cbd498701e9a5c850c1cde7d45a",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/netflix/sources/figma-better-community-20261010/8223f597318edf69366c.png",
+    "sha256": "8223f597318edf69366cbf68cee2cbfb5fbd1999be6395c5c4109b4c2b5e1844",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/netflix/sources/figma-better-community-20261010/3150a686878a9972827c.svg",
+    "sha256": "3150a686878a9972827c2519eac42844c94260b3ca9fc7410e3d75bbb2a71b1f",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/netflix/sources/figma-better-community-20261010/452bb18a4e30ca875431.png",
+    "sha256": "452bb18a4e30ca875431b24ee1e5591154903e609709321f860c744473f2282e",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/oracle/sources/figma-better-community-20261010/da3dab4570efe59f3983.svg",
+    "sha256": "da3dab4570efe59f3983631f55d70910e863f2f304145b90e8269cc74e230918",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/oracle/sources/figma-better-community-20261010/5045b1cda77fd7b1a2d1.png",
+    "sha256": "5045b1cda77fd7b1a2d1fd17b2c538c018aeadb9dd845e97241099a7973395f9",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/oracle/sources/figma-better-community-20261010/330f0488f207f1693317.png",
+    "sha256": "330f0488f207f1693317b11cccd39e727c96a66b6b311d1d6fb7bc680cb10984",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/oracle/sources/figma-better-community-20261010/2ddd2992695a9e658a08.svg",
+    "sha256": "2ddd2992695a9e658a08644329a7a2041b089c476ec05a8b9ac622662dfb1d82",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/oracle/sources/figma-better-community-20261010/380a26d815ee488011c4.png",
+    "sha256": "380a26d815ee488011c4c98a1f0ce127ca4e011329ca4881599efdb545a31086",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/paypal/sources/figma-better-community-20261010/e794d2528b159066e29f.png",
+    "sha256": "e794d2528b159066e29fe5c69ebcfcb313672f6dc123d971e64ae2b668c6236f",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/paypal/sources/figma-better-community-20261010/0cbf7e625ff8b837582d.png",
+    "sha256": "0cbf7e625ff8b837582d4353d78550b7b53f884b5492ddb449755570f9e31d2c",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/paypal/sources/figma-better-community-20261010/d636c1b3ce9b7aaf8f99.svg",
+    "sha256": "d636c1b3ce9b7aaf8f992dafcfa816506267e2e1ba7fc64ab1e0292cdb45287a",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/paypal/sources/figma-better-community-20261010/c4816f8a8f862e0a332a.png",
+    "sha256": "c4816f8a8f862e0a332a70caff5928f416a22ca4d7b4d03a4d06a5ef263f6b05",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/pinterest/sources/figma-better-community-20261010/68ae82c4dbc7e4ad76c1.svg",
+    "sha256": "68ae82c4dbc7e4ad76c14aa382e785a9e163487372a86e6b442d678fe4df0d23",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/pinterest/sources/figma-better-community-20261010/5231c87413a31cac1b1c.png",
+    "sha256": "5231c87413a31cac1b1c880a2b7f2e14fa199c0c7fea1f2a61e7103f6c79af17",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/pinterest/sources/figma-better-community-20261010/8a70976434daeebc2429.svg",
+    "sha256": "8a70976434daeebc242942a2adb19266e3959376350c173908fcf3cc1166a91b",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/pinterest/sources/figma-better-community-20261010/a68667f49063c683adf2.png",
+    "sha256": "a68667f49063c683adf2a60d9038f4f152e7c037659b2970de6d56af4c98ca02",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/pinterest/sources/figma-better-community-20261010/86ad3e9fbdd14c0ef2fd.svg",
+    "sha256": "86ad3e9fbdd14c0ef2fd33acd9602f50f1dc5e939837f8cb28fce509ad945590",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/pinterest/sources/figma-better-community-20261010/fe05f6867832d52bd9a1.png",
+    "sha256": "fe05f6867832d52bd9a18617af942d73e87ba38ccd2e7b7417d41263685332af",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/reddit/sources/figma-better-community-20261010/24ca1610813f503135a5.svg",
+    "sha256": "24ca1610813f503135a5d103ffe0df42ccd0ea446192bcbefd4f7dfa97c90da8",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/reddit/sources/figma-better-community-20261010/37179a375bf0103d89a0.png",
+    "sha256": "37179a375bf0103d89a0ea26f999b4d648125e524623fee213eb50a0b23998e8",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/reddit/sources/figma-better-community-20261010/08b6090d6feb40a56694.svg",
+    "sha256": "08b6090d6feb40a56694856c4dbfa04058299f98d6208b2edc37a1c422d8f501",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/reddit/sources/figma-better-community-20261010/0fe5df3afee072dfbc84.png",
+    "sha256": "0fe5df3afee072dfbc84d0a3244909a1a9e5d5c856017beeddcb491a42b20504",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/reddit/sources/figma-better-community-20261010/7d0097713f6ef44314be.svg",
+    "sha256": "7d0097713f6ef44314be282d73ac51d0777a84c1b1d9f5b10ff3cc3858ab5ce4",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/reddit/sources/figma-better-community-20261010/bc826c207568caab104c.png",
+    "sha256": "bc826c207568caab104c49339b01e78fe23e818cd75a015df2b329ab3f10fc9e",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/salesforce/sources/figma-better-community-20261010/d27fed90f1d29368a20d.svg",
+    "sha256": "d27fed90f1d29368a20d0ff23d21d8a89b5b3927b44547b4c1d916a68112214b",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/salesforce/sources/figma-better-community-20261010/3487834b99e92173807d.png",
+    "sha256": "3487834b99e92173807dba4d6bf3b0a44bc3712522a0497cafaf1e8ac154c265",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/salesforce/sources/figma-better-community-20261010/7a30489da29fced919ee.png",
+    "sha256": "7a30489da29fced919ee30cd5a8475d882a10212af2fabe7989dc472b242aa31",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/salesforce/sources/figma-better-community-20261010/ab850bca1ced084a324a.svg",
+    "sha256": "ab850bca1ced084a324a3e44575d1d5a4cad4d04cd2ec86810546c47d5b60160",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/salesforce/sources/figma-better-community-20261010/cb4cef15ef6d28b97424.png",
+    "sha256": "cb4cef15ef6d28b9742497a0844fd16250aea76883f300b58bd87f1894a90554",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/spotify/sources/figma-better-community-20261010/850eae5a2aa3c20cc6bc.svg",
+    "sha256": "850eae5a2aa3c20cc6bcc4c75ab5ede916896846cdbe6c6aeaefb1ec9eb2cb65",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/spotify/sources/figma-better-community-20261010/e2f6b1b8510329a8da1e.png",
+    "sha256": "e2f6b1b8510329a8da1eb94cfe2a21795838eef02327499b6f5664a81a14bc7c",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/spotify/sources/figma-better-community-20261010/185c1eb118135f909c78.svg",
+    "sha256": "185c1eb118135f909c785032e1a04437ad346e99d8cecdb0f8f7bd8a532da054",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/spotify/sources/figma-better-community-20261010/ac510298c8dcecbda956.png",
+    "sha256": "ac510298c8dcecbda95621c14115339d7c90f785d83e7a447dd8be9a4cba4a35",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/spotify/sources/figma-better-community-20261010/8afeebc09f171870eeaf.png",
+    "sha256": "8afeebc09f171870eeaf7b246c4f85fe99ebdb924ea25a8d98615089631167ac",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/stripe/sources/figma-better-community-20261010/15223415ea7707f1af7b.svg",
+    "sha256": "15223415ea7707f1af7b720259d6af4ef6d6454762440457eb421e117b0afba9",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/stripe/sources/figma-better-community-20261010/4fc244505504e21041e2.png",
+    "sha256": "4fc244505504e21041e2236bf6bb7aea04e89b0e0a40832e4dd270af0393bebf",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/stripe/sources/figma-better-community-20261010/f845c1dd2302c80239a1.svg",
+    "sha256": "f845c1dd2302c80239a1ed93941c24448524ca1d25cf855a244a089df1b9dec9",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/stripe/sources/figma-better-community-20261010/9aa529802cd1da836e0d.png",
+    "sha256": "9aa529802cd1da836e0d224b0aba33a588d81ca4022a388c0d3d1e90a691773b",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/stripe/sources/figma-better-community-20261010/67ff3ce4cd4b2889f117.svg",
+    "sha256": "67ff3ce4cd4b2889f117bfd2fa3f7ff5a1ce6b3c4b23f3fc157cde483f161bb5",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/stripe/sources/figma-better-community-20261010/bcb3b0c9a3027d179916.png",
+    "sha256": "bcb3b0c9a3027d1799164186187b7c00402eec5c556ad4717c239b79b270bc7e",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/tesla/sources/figma-better-community-20261010/e9bc1197577cc277f3a9.svg",
+    "sha256": "e9bc1197577cc277f3a9b57042de41cb94fbacd698a7e447be2095013ca4ac20",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/tesla/sources/figma-better-community-20261010/e4174720788423620533.png",
+    "sha256": "e41747207884236205333af782120bf8955f8b6b6d3692f31c6f586d39fef080",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/tesla/sources/figma-better-community-20261010/489c285deb1ea39fca15.svg",
+    "sha256": "489c285deb1ea39fca150eadc5f57fdb311b1fe8a588e52e066afa44eea53ea3",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/tesla/sources/figma-better-community-20261010/75f79544176174d31b75.png",
+    "sha256": "75f79544176174d31b756db372bc78e816c50f2c6ecb4060a5a80d173a69d61a",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/tesla/sources/figma-better-community-20261010/777dca3edd49657364f8.svg",
+    "sha256": "777dca3edd49657364f8ad9cdd2c4e560a6a961d914ebe1e57736f5142adea69",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/tesla/sources/figma-better-community-20261010/f3b80927b1f6a3a2d5ab.png",
+    "sha256": "f3b80927b1f6a3a2d5ab15fe1f2c54861bd8f53d1b2dc210d73c1e12f520e64e",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/twitch/sources/figma-better-community-20261010/d870a31fec5691f937f0.svg",
+    "sha256": "d870a31fec5691f937f0d7324bce8fdd0729377e5279c267b51b3973ea82fb07",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/twitch/sources/figma-better-community-20261010/5074a0405e95e18c7455.png",
+    "sha256": "5074a0405e95e18c7455e5e7c195a8abde3cb12a7e5984be345ca6f218894e2f",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/twitch/sources/figma-better-community-20261010/0c20168407274547fb89.svg",
+    "sha256": "0c20168407274547fb895a8894cc34db59e43ea9510fa8a85a56c029e26dff9d",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/twitch/sources/figma-better-community-20261010/fe9700acffbc74e8673e.png",
+    "sha256": "fe9700acffbc74e8673e1cfb14377f63b883b68befca45765f12b71eb77a0f7d",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/twitch/sources/figma-better-community-20261010/3e27d242f438ca93a60f.svg",
+    "sha256": "3e27d242f438ca93a60fbda8f5107074101734b769c6a39951cd8ccaee737bbe",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/twitch/sources/figma-better-community-20261010/def1f48c67d9aee72fce.png",
+    "sha256": "def1f48c67d9aee72fce4bd18dd75f30abc4c20dfd93ad8fc727e0a093ca4c7b",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/uber/sources/figma-better-community-20261010/8c0132e706443a05b89b.svg",
+    "sha256": "8c0132e706443a05b89ba7bda8a4430ef607ae6f3d6fd5d7f0df5101996e69e8",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/uber/sources/figma-better-community-20261010/564d349c838eb934f52b.png",
+    "sha256": "564d349c838eb934f52b9f561b7078d7fc1e31898b7057c76f68dde1cf8dab41",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/uber/sources/figma-better-community-20261010/3f971a8654c000393c44.png",
+    "sha256": "3f971a8654c000393c4444f2b7f442a570c6925bbb8ba5c0468180150ee35072",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/ycombinator/sources/figma-better-community-20261010/a87961cceaf872e1daca.svg",
+    "sha256": "a87961cceaf872e1daca3879ad98cf207af5e6ab4596def06378232f0cb3df86",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/ycombinator/sources/figma-better-community-20261010/2b34b1f1f24284290385.png",
+    "sha256": "2b34b1f1f242842903850db146d1ca9b21b0e3ab2b50ec83db7c8272d3a1d8ca",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/ycombinator/sources/figma-better-community-20261010/ed6045f68ee3c5137aac.png",
+    "sha256": "ed6045f68ee3c5137aacb6ee8f78c91b4fa13a89c97997e6f5900e2b79d87e64",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/ycombinator/sources/figma-better-community-20261010/720b8150eb77b4f6bbac.png",
+    "sha256": "720b8150eb77b4f6bbac113146a24f0d1d67cc2ac7db896aadd9286b9993a462",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/youtube/sources/figma-better-community-20261010/445fd943f7adfd375a62.svg",
+    "sha256": "445fd943f7adfd375a627b7c3973b433ed79ed533af5e05f47acfcef26729675",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/youtube/sources/figma-better-community-20261010/3ea4e6d887af1c0bfbd6.png",
+    "sha256": "3ea4e6d887af1c0bfbd63a4851af8fd73dd471b446845c17c7c25b60025cf553",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/youtube/sources/figma-better-community-20261010/d62a3aba553037f158ae.svg",
+    "sha256": "d62a3aba553037f158aedb7c3b5c2aab5a25fbe70ca46544569a35707dd0308c",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/youtube/sources/figma-better-community-20261010/46447730c736565a0d4a.png",
+    "sha256": "46447730c736565a0d4a905c9678d6c5e6ead4be4778e29787222a965f370330",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/youtube/sources/figma-better-community-20261010/c4af9f604a0220b1ad5d.svg",
+    "sha256": "c4af9f604a0220b1ad5db12a7bfd7c11c60e4e6e88366841b20f64b7ce3bd11e",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/youtube/sources/figma-better-community-20261010/e6f4932e78fcfefdfed2.png",
+    "sha256": "e6f4932e78fcfefdfed2952e27e937d1f459ced6633753725f2bde4f275c0639",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/zoom/sources/figma-better-community-20261010/0be9c10f4e95d187645f.svg",
+    "sha256": "0be9c10f4e95d187645f1f02f341192acf3d5cef78880032a2b5380fe903b5f3",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/zoom/sources/figma-better-community-20261010/e4cf3f623eff1fe1047c.png",
+    "sha256": "e4cf3f623eff1fe1047c5a5a202380fbdb4a047e8d6d47482b070c35ba64638d",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/zoom/sources/figma-better-community-20261010/32f6527b34adb5c2aebf.svg",
+    "sha256": "32f6527b34adb5c2aebf76e8f190d3202e59a486cc2cba677d24482f42961661",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/zoom/sources/figma-better-community-20261010/cce743af584f4078474e.png",
+    "sha256": "cce743af584f4078474ee2a37aecde79ecf9d74fa5fda79f9c21e6476f15885f",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/zoom/sources/figma-better-community-20261010/0646d2af7de47f66217e.svg",
+    "sha256": "0646d2af7de47f66217e556bd8c0b43a95a670522c9e1e3d269639ecc7e63deb",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/zoom/sources/figma-better-community-20261010/b2fab81001e49b1a4349.png",
+    "sha256": "b2fab81001e49b1a43498478b545bb98b8750d6539aed7d8b10fb116e576cccf",
+    "cdn_verified": true
+  }
+]

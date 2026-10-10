@@ -1,0 +1,178 @@
+[
+  {
+    "id": "appota",
+    "source_id": "appota",
+    "name": "Appota",
+    "identity_reference": "https://appotapay.com/en/",
+    "existing": false,
+    "comparison": "No matching canonical identity in catalog and exact CMS ID query",
+    "vector_only": true,
+    "visual_review": "approved",
+    "official_asset": false
+  },
+  {
+    "id": "baokim",
+    "source_id": "baokim",
+    "name": "BaoKim",
+    "identity_reference": "https://www.baokim.vn/trang-chu",
+    "existing": false,
+    "comparison": "No matching canonical identity in catalog and exact CMS ID query",
+    "vector_only": true,
+    "visual_review": "approved",
+    "official_asset": false
+  },
+  {
+    "id": "ecpay-vietnam",
+    "source_id": "ecpay-vietnam",
+    "name": "ECPay",
+    "identity_reference": "https://baochinhphu.vn/ecpay-duoc-cung-ung-dich-vu-trung-gian-thanh-toan-102195730.htm",
+    "existing": false,
+    "comparison": "No matching canonical identity in catalog and exact CMS ID query",
+    "vector_only": true,
+    "visual_review": "approved",
+    "official_asset": false
+  },
+  {
+    "id": "momo-2",
+    "source_id": "momo-vietnam",
+    "name": "MoMo",
+    "identity_reference": "https://www.momo.vn/",
+    "existing": true,
+    "comparison": "Existing square MoMo icon preserved; source adds horizontal wordmark",
+    "vector_only": true,
+    "visual_review": "approved",
+    "official_asset": false
+  },
+  {
+    "id": "nextpay-vietnam",
+    "source_id": "nextpay-vietnam",
+    "name": "NextPay",
+    "identity_reference": "https://nextpay.vn/webviewer/pdf/nextpay-profile.pdf",
+    "existing": false,
+    "comparison": "No matching canonical identity in catalog and exact CMS ID query",
+    "vector_only": true,
+    "visual_review": "approved",
+    "official_asset": false
+  },
+  {
+    "id": "nganluong",
+    "source_id": "nganluong",
+    "name": "NganLuong.vn",
+    "identity_reference": "https://www.nganluong.vn/",
+    "existing": false,
+    "comparison": "No matching canonical identity in catalog and exact CMS ID query",
+    "vector_only": true,
+    "visual_review": "approved",
+    "official_asset": false
+  },
+  {
+    "id": "payme-vietnam",
+    "source_id": "payme-vietnam",
+    "name": "PayME",
+    "identity_reference": "https://payme.vn/en/web/terms-of-service",
+    "existing": false,
+    "comparison": "No matching canonical identity in catalog and exact CMS ID query",
+    "vector_only": true,
+    "visual_review": "approved",
+    "official_asset": false
+  },
+  {
+    "id": "payoo",
+    "source_id": "payoo",
+    "name": "Payoo",
+    "identity_reference": "https://app.payoo.vn/",
+    "existing": false,
+    "comparison": "No matching canonical identity in catalog and exact CMS ID query",
+    "vector_only": true,
+    "visual_review": "approved",
+    "official_asset": false
+  },
+  {
+    "id": "shopeepay",
+    "source_id": "shopeepay",
+    "name": "ShopeePay",
+    "identity_reference": "https://shopeepay.vn/tai-ung-dung",
+    "existing": false,
+    "comparison": "No matching canonical identity in catalog and exact CMS ID query",
+    "vector_only": true,
+    "visual_review": "approved",
+    "official_asset": false
+  },
+  {
+    "id": "truemoney",
+    "source_id": "truemoney",
+    "name": "TrueMoney",
+    "identity_reference": "https://www.truemoney.com/about/",
+    "existing": false,
+    "comparison": "No matching canonical identity in catalog and exact CMS ID query",
+    "vector_only": true,
+    "visual_review": "approved",
+    "official_asset": false
+  },
+  {
+    "id": "viettel-money",
+    "source_id": "viettel-money",
+    "name": "Viettel Money",
+    "identity_reference": "https://viettelmoney.vn/ctck/",
+    "existing": false,
+    "comparison": "No matching canonical identity in catalog and exact CMS ID query",
+    "vector_only": true,
+    "visual_review": "approved",
+    "official_asset": false
+  },
+  {
+    "id": "vimo-vietnam",
+    "source_id": "vimo-vietnam",
+    "name": "VIMO",
+    "identity_reference": "https://www.pgbank.com.vn/uploads/562023/119bd413-d682-4dc1-83c4-f8a607573329.pdf",
+    "existing": false,
+    "comparison": "No matching canonical identity in catalog and exact CMS ID query",
+    "vector_only": true,
+    "visual_review": "approved",
+    "official_asset": false
+  },
+  {
+    "id": "vnpt-money",
+    "source_id": "vnpt-money",
+    "name": "VNPT Money",
+    "identity_reference": "https://vnpt.vn/",
+    "existing": false,
+    "comparison": "No matching canonical identity in catalog and exact CMS ID query",
+    "vector_only": true,
+    "visual_review": "approved",
+    "official_asset": false
+  },
+  {
+    "id": "vnpay",
+    "source_id": "vnpay",
+    "name": "VNPAY",
+    "identity_reference": "https://pay.vnpay.vn/?vnp_Locale=vi-VN",
+    "existing": false,
+    "comparison": "No matching canonical identity in catalog and exact CMS ID query",
+    "vector_only": true,
+    "visual_review": "approved",
+    "official_asset": false
+  },
+  {
+    "id": "vtc-pay",
+    "source_id": "vtc-pay",
+    "name": "VTC Pay",
+    "identity_reference": "https://portal.vietcombank.com.vn/content/personal/KhoAnh/Danh%20sach%20cac%20vi%20dien%20tu%20lien%20ket%20truc%20tiep.pdf",
+    "existing": false,
+    "comparison": "No matching canonical identity in catalog and exact CMS ID query",
+    "vector_only": true,
+    "visual_review": "approved",
+    "official_asset": false
+  },
+  {
+    "id": "zalopay",
+    "source_id": "zalopay",
+    "name": "ZaloPay",
+    "identity_reference": "https://zalopay.vn/",
+    "existing": false,
+    "comparison": "No matching canonical identity in catalog and exact CMS ID query",
+    "vector_only": true,
+    "visual_review": "approved",
+    "official_asset": false
+  }
+]

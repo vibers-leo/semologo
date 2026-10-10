@@ -1,0 +1,156 @@
+{
+  "patches": {
+    "daangn": {
+      "variants_n": 4,
+      "source_zip": "sources/user-download-originals-20261010/cc976ad9575e4e8bda25/Daangn Signature Logo for Screen (RGB).zip",
+      "svg_transparent": "sources/user-download-originals-20261010/d676f2d004a94ffcd494/user-source-horizontal-color.svg",
+      "has_svg": true,
+      "logo_svg": true
+    },
+    "samsungcard": {
+      "variants_n": 2,
+      "source_ai": "sources/user-download-originals-20261010/823bba06925fc3a17454/삼성카드 로고.ai",
+      "svg_transparent": "sources/user-download-originals-20261010/0e632ba12cd1b88a2bb1/user-source-korean-horizontal.svg",
+      "has_svg": true,
+      "logo_svg": true
+    }
+  },
+  "variants": {
+    "daangn": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "daangn",
+      "primary": "horizontal",
+      "fingerprint": {
+        "logo.svg": "ebbefd970b12da27",
+        "sources/official/white.svg": "7f91f7e2eeea760e",
+        "sources/official/app-icon.svg": "3ff720598594efc3"
+      },
+      "variants": [
+        {
+          "key": "horizontal",
+          "form": "horizontal",
+          "lang": "unknown",
+          "color": "color",
+          "label": "가로조합형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 2.031,
+          "provider": "official-ci",
+          "origin": "collected",
+          "order": 10,
+          "alts": [
+            {
+              "provider": "official-ci",
+              "file": "sources/official/white.svg"
+            }
+          ]
+        },
+        {
+          "key": "user-source-horizontal-color",
+          "label": "컬러 가로형 · 사용자 제공 원본",
+          "form": "horizontal",
+          "color": "color",
+          "lang": "ko",
+          "files": {
+            "svg": "sources/user-download-originals-20261010/d676f2d004a94ffcd494/user-source-horizontal-color.svg",
+            "png": "sources/user-download-originals-20261010/0a53ade0f546608316ea/user-source-horizontal-color.png",
+            "ai": "sources/user-download-originals-20261010/41dcbf3dcec6fe0be9b7/Daangn_Signature_RGB.ai",
+            "pdf": "sources/user-download-originals-20261010/4070b9a431ee0b1962ed/Daangn_Signature_RGB.pdf",
+            "zip": "sources/user-download-originals-20261010/cc976ad9575e4e8bda25/Daangn Signature Logo for Screen (RGB).zip"
+          },
+          "preview_png": "sources/user-download-originals-20261010/4b137694fa64487d3ac4/user-source-horizontal-color-preview.png",
+          "provider": "사용자 제공 다운로드 원본",
+          "origin": "collected",
+          "official": false,
+          "source_note": "제공 ZIP의 SVG/AI/PDF 원본. 원본에 있는 컬러·화이트·앱아이콘을 각각 서비스. 공식 출처를 별도로 검증하지 않음.",
+          "order": 101,
+          "review_status": "verified"
+        },
+        {
+          "key": "user-source-horizontal-white",
+          "label": "흰색 가로형 · 사용자 제공 원본",
+          "form": "horizontal",
+          "color": "mono-light",
+          "lang": "ko",
+          "files": {
+            "svg": "sources/user-download-originals-20261010/d1cadaf62e3efa01221f/user-source-horizontal-white.svg",
+            "png": "sources/user-download-originals-20261010/39169f01134c8c518930/user-source-horizontal-white.png",
+            "ai": "sources/user-download-originals-20261010/a1d82b7014fa8a77324b/Daangn_Signature_White_RGB.ai",
+            "pdf": "sources/user-download-originals-20261010/318b0c023906c2275f8f/Daangn_Signature_White_RGB.pdf",
+            "zip": "sources/user-download-originals-20261010/cc976ad9575e4e8bda25/Daangn Signature Logo for Screen (RGB).zip"
+          },
+          "preview_png": "sources/user-download-originals-20261010/02c8346d5da79c383c32/user-source-horizontal-white-preview.png",
+          "provider": "사용자 제공 다운로드 원본",
+          "origin": "collected",
+          "official": false,
+          "source_note": "제공 ZIP의 SVG/AI/PDF 원본. 원본에 있는 컬러·화이트·앱아이콘을 각각 서비스. 공식 출처를 별도로 검증하지 않음.",
+          "order": 102,
+          "review_status": "verified"
+        },
+        {
+          "key": "user-source-app-icon",
+          "label": "앱아이콘 · 사용자 제공 원본",
+          "form": "symbol",
+          "color": "color",
+          "lang": "ko",
+          "files": {
+            "svg": "sources/user-download-originals-20261010/038d0716365a7f233a8a/user-source-app-icon.svg",
+            "png": "sources/user-download-originals-20261010/e0ed3d6ffb24d4699c1f/user-source-app-icon.png",
+            "ai": "sources/user-download-originals-20261010/6f993306759bc81b8c91/Daangn_AppIcon_RGB.ai",
+            "pdf": "sources/user-download-originals-20261010/b983af7c4efb678fd838/Daangn_AppIcon_RGB.pdf",
+            "zip": "sources/user-download-originals-20261010/9b6910c134f369f1ea22/Daangn App Icon for Screen (RGB).zip"
+          },
+          "preview_png": "sources/user-download-originals-20261010/579d3609b49fc46e148e/user-source-app-icon-preview.png",
+          "provider": "사용자 제공 다운로드 원본",
+          "origin": "collected",
+          "official": false,
+          "source_note": "제공 ZIP의 SVG/AI/PDF 원본. 원본에 있는 컬러·화이트·앱아이콘을 각각 서비스. 공식 출처를 별도로 검증하지 않음.",
+          "order": 103,
+          "review_status": "verified"
+        }
+      ]
+    },
+    "samsungcard": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "samsungcard",
+      "variants": [
+        {
+          "key": "existing-original",
+          "label": "기존 수집 영문형",
+          "form": "unknown",
+          "color": "original",
+          "files": {
+            "png": "logo.png"
+          },
+          "provider": "기존 수집 자산",
+          "origin": "collected",
+          "order": 0
+        },
+        {
+          "key": "user-source-korean-horizontal",
+          "label": "국문 가로형 · 사용자 제공 AI 추출",
+          "form": "horizontal",
+          "color": "color",
+          "lang": "ko",
+          "files": {
+            "svg": "sources/user-download-originals-20261010/0e632ba12cd1b88a2bb1/user-source-korean-horizontal.svg",
+            "png": "sources/user-download-originals-20261010/573807cd1216d4c56231/user-source-korean-horizontal.png",
+            "ai": "sources/user-download-originals-20261010/823bba06925fc3a17454/삼성카드 로고.ai"
+          },
+          "preview_png": "sources/user-download-originals-20261010/1eeda2ffde4d9b446a8e/user-source-korean-horizontal-preview.png",
+          "provider": "사용자 제공 다운로드 원본",
+          "origin": "collected",
+          "official": false,
+          "source_note": "제공 AI의 로고를 벡터 추출. 하단 다운로드 안내문만 제거했으며 원본 AI는 보존. 제작 시기 미확인.",
+          "order": 101,
+          "review_status": "verified"
+        }
+      ],
+      "primary": "existing-original"
+    }
+  }
+}

@@ -639,12 +639,16 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
             {/* 매뉴얼 원본은 로고 파일만큼 값어치가 있다 — 컬러 팔레트·
                 최소규격·응용례가 들어 있다. 배포처가 준 경우에만 뜬다. */}
             {(brand.official_zip_url || brand.source_zip) && (
-              <a href={brand.source_zip ? `${CDN}/${brand.id}/${brand.source_zip}?v=${VERSION}` : brand.official_zip_url} target={!brand.source_zip ? "_blank" : undefined} rel={!brand.source_zip ? "noopener noreferrer" : undefined} download={Boolean(brand.source_zip)} title="공식 제공 원본 ZIP 내려받기"
-                 style={{ display:"inline-flex", alignItems:"center", gap:3, padding:"1px 7px", borderRadius:999, fontSize:11, fontWeight:600, color:"#166534", background:"rgba(34,197,94,.1)", border:"1px solid rgba(34,197,94,.25)", textDecoration:"none" }}><T>{"📦 공식 제공 원본 ZIP"}</T></a>
+              <a href={brand.source_zip ? `${CDN}/${brand.id}/${brand.source_zip}?v=${VERSION}` : brand.official_zip_url} target={!brand.source_zip ? "_blank" : undefined} rel={!brand.source_zip ? "noopener noreferrer" : undefined} download={Boolean(brand.source_zip)} title="원본 ZIP 내려받기"
+                 style={{ display:"inline-flex", alignItems:"center", gap:3, padding:"1px 7px", borderRadius:999, fontSize:11, fontWeight:600, color:"#166534", background:"rgba(34,197,94,.1)", border:"1px solid rgba(34,197,94,.25)", textDecoration:"none" }}><T>{"📦 원본 ZIP"}</T></a>
             )}
             {brand.collected_originals_url?.startsWith(`${CDN}/${brand.id}/`) && (
               <a href={brand.collected_originals_url} download
                  style={{ display:"inline-flex", alignItems:"center", gap:3, padding:"1px 7px", borderRadius:999, fontSize:11, fontWeight:600, color:"#4338ca", background:"rgba(99,102,241,.1)", border:"1px solid rgba(99,102,241,.25)", textDecoration:"none" }}><T>{"📦 수집 원본 묶음"}</T></a>
+            )}
+            {brand.source_ai?.startsWith('sources/') && !brand.source_ai.includes('..') && brand.source_ai.endsWith('.ai') && (
+              <a href={`${CDN}/${brand.id}/${brand.source_ai}?v=${VERSION}`} download
+                 style={{ display:"inline-flex", alignItems:"center", gap:3, padding:"1px 7px", borderRadius:999, fontSize:11, fontWeight:600, color:"#4338ca", background:"rgba(99,102,241,.1)", border:"1px solid rgba(99,102,241,.25)", textDecoration:"none" }}>원본 AI</a>
             )}
             {brand.brand_manual && (
               <a href={`${CDN}/${brand.id}/${brand.brand_manual}?v=${VERSION}`}
@@ -930,6 +934,11 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
                               </div>
                             </div>
                             <div style={{ gridColumn:2, padding:"4px 12px 12px" }}><div style={{display:"flex",flexWrap:"wrap",gap:6}}>
+                              {(['ai','pdf','zip'] as const).map(ext => {
+                                const file = v.files[ext];
+                                return typeof file === 'string' && file.startsWith('sources/') && !file.split('/').includes('..') && file.toLowerCase().endsWith(`.${ext}`)
+                                  ? <button key={ext} onClick={() => grab(cdnUrl(file), `${brand.id}-${v.key}.${ext}`)} style={{fontSize:11,padding:"7px 11px",borderRadius:7,border:"1px solid #e4e4e7",background:"#fff",cursor:"pointer"}}>원본 {ext.toUpperCase()}</button> : null;
+                              })}
                               {originalFile && originalFile !== pngFile && <button onClick={() => grab(cdnUrl(originalFile), `${brand.id}-${v.key}-original.png`)} style={{fontSize:11,padding:"7px 11px",borderRadius:7,border:"1px solid #e4e4e7",background:"#fff",cursor:"pointer"}}>원본 PNG</button>}
                               {svgFile && (
                                 <button onClick={() => grab(cdnUrl(svgFile), `${brand.id}-${v.key}.svg`)}

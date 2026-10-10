@@ -19,3 +19,7 @@ Validation: TypeScript noEmit passed; source-reflection regression passed; IBK f
 This provides reviewable source sets and measurable gaps for collection planning; unreviewed source material stays separate from public assets.
 
 S&P source release: 16 additional existing brands / 48 CDN-verified objects. Combined six releases: 102 unique brands / 103 added variants / 283 objects; 12 new identities. Source variants do not automatically count as verified official-roster membership.
+
+Follow-up airline: 11 existing brands / 33 objects; Vietnam wallet: 16 brands / 48 objects including 15 new identities. Combined reviewed releases now 129 unique brands / 130 additions / 364 objects and 27 new identities. Vietnam source snapshot verified coverage is 28/84 after SHA-checked publication.
+
+Further CDN/CMS publication: Daangn/Samsung Card 2 brands and 4 added variants (21 objects); KOSME 28 added variants (57 objects); payment logos 20 brands and 56 variants (168 objects); Yeonsu/KEPCO 25 variants (52 objects); NH/BEPA 11 variants (43 objects). All published batches preserve existing variants and representatives. Eight vote winners passed visual review and were applied; BTS ties, two missing canonical records and HTV-X opaque white output were held. These updates require the next frontend deployment to expose their reviewed catalog overlays.
