@@ -1,0 +1,28 @@
+{
+  "checked_at": "2026-10-10",
+  "confirmed_mismatches": [
+    {
+      "id": "nhbank",
+      "provider": "worldvectorlogo/nh",
+      "asset": "https://logo.vibers.co.kr/_clients/nhbank/logo-800.png",
+      "sha256": "209293aa9218092a04290445e33c3e7005ffe3b1d6040e894ec56a78f0caf267",
+      "visible_identity": "FC NH Ostrava football crest"
+    },
+    {
+      "id": "ibk-co",
+      "provider": "worldvectorlogo/ibk",
+      "asset": "https://logo.vibers.co.kr/_clients/ibk-co/logo-800.png",
+      "sha256": "d5a1c535be19b12716a4798d6d8b8ac453b748e8923dfd397ec407f1a6ae2d82",
+      "visible_identity": "india by Kids contest graphic"
+    },
+    {
+      "id": "kbstar",
+      "provider": "worldvectorlogo/kb",
+      "asset": "https://logo.vibers.co.kr/_clients/kbstar/logo-800.png",
+      "sha256": "d34ec382fcb262883e2b35043407e48c58ab9bcfe72801cd96e324a6da7afef2",
+      "visible_identity": "KB 1876 football crest"
+    }
+  ],
+  "method": "Public CDN manifest and exact PNG downloaded with semologo Referer; contact sheets visually inspected; no CMS or common-code edits",
+  "limits": "Only fetched bank manifests/assets; new reviewed seven-bank release not modified. Other old assets were not assigned a new brand unless visually confirmed."
+}

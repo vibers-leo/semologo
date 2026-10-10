@@ -1,0 +1,1359 @@
+{
+  "schema": 1,
+  "reviewed": [
+    {
+      "id": "gongu-ci-1586",
+      "name_ko": "한국노동연구원",
+      "key": "candidate-0-63c312ae-page-0-vertical-ko",
+      "source_page": "https://www.kli.re.kr/menu.es?mid=a10503010000",
+      "source_url": "https://www.kli.re.kr/kli/file/kli_logo1.zip",
+      "original": "marketing/assets/png-recollection-zip-batch9-20261010/gongu-ci-1586/candidate-0-63c312ae.ai",
+      "original_zip": "marketing/assets/png-recollection-20261010/gongu-ci-1586/candidate-0.zip",
+      "archive_member": "KLI로고_3_4.ai",
+      "svg": "marketing/assets/png-recollection-zip-batch9-20261010/gongu-ci-1586/candidate-0-63c312ae-page-0-vertical-ko-extracted.svg",
+      "png": "marketing/assets/png-recollection-zip-batch9-20261010/gongu-ci-1586/candidate-0-63c312ae-page-0-vertical-ko-extracted.png",
+      "checked_at": "2026-10-10",
+      "review": "verified-vector-extract",
+      "label": "국문 상하조합",
+      "form": "vertical"
+    },
+    {
+      "id": "gongu-ci-1586",
+      "name_ko": "한국노동연구원",
+      "key": "candidate-0-63c312ae-page-0-vertical-en",
+      "source_page": "https://www.kli.re.kr/menu.es?mid=a10503010000",
+      "source_url": "https://www.kli.re.kr/kli/file/kli_logo1.zip",
+      "original": "marketing/assets/png-recollection-zip-batch9-20261010/gongu-ci-1586/candidate-0-63c312ae.ai",
+      "original_zip": "marketing/assets/png-recollection-20261010/gongu-ci-1586/candidate-0.zip",
+      "archive_member": "KLI로고_3_4.ai",
+      "svg": "marketing/assets/png-recollection-zip-batch9-20261010/gongu-ci-1586/candidate-0-63c312ae-page-0-vertical-en-extracted.svg",
+      "png": "marketing/assets/png-recollection-zip-batch9-20261010/gongu-ci-1586/candidate-0-63c312ae-page-0-vertical-en-extracted.png",
+      "checked_at": "2026-10-10",
+      "review": "verified-vector-extract",
+      "label": "영문 상하조합",
+      "form": "vertical"
+    },
+    {
+      "id": "gongu-ci-1579",
+      "name_ko": "한국기계연구원",
+      "key": "candidate-1-a5bca441-page-0-main",
+      "source_page": "https://www.kimm.re.kr/sub060206",
+      "source_url": "https://www.kimm.re.kr/main/down/logo_ai.zip",
+      "original": "marketing/assets/png-recollection-zip-batch9-20261010/gongu-ci-1579/candidate-1-a5bca441.ai",
+      "original_zip": "marketing/assets/png-recollection-20261010/gongu-ci-1579/candidate-1.zip",
+      "archive_member": "KIMM_logo.ai",
+      "svg": "marketing/assets/png-recollection-zip-batch9-20261010/gongu-ci-1579/candidate-1-a5bca441-page-0-main-extracted.svg",
+      "png": "marketing/assets/png-recollection-zip-batch9-20261010/gongu-ci-1579/candidate-1-a5bca441-page-0-main-extracted.png",
+      "checked_at": "2026-10-10",
+      "review": "verified-vector-extract",
+      "label": "공식 국영문 조합",
+      "form": "horizontal"
+    },
+    {
+      "id": "gongu-ci-1497",
+      "name_ko": "청주시문화산업진흥재단",
+      "key": "candidate-0-410c6f73-page-0-vertical-ko",
+      "source_page": "https://cjculture.org/sub.php?code=45",
+      "source_url": "https://cjculture.org/project/design/contents/logo_ci.zip",
+      "original": "marketing/assets/png-recollection-zip-batch9-20261010/gongu-ci-1497/candidate-0-410c6f73.ai",
+      "original_zip": "marketing/assets/png-recollection-20261010/gongu-ci-1497/candidate-0.zip",
+      "archive_member": "logo_ci.ai",
+      "svg": "marketing/assets/png-recollection-zip-batch9-20261010/gongu-ci-1497/candidate-0-410c6f73-page-0-vertical-ko-extracted.svg",
+      "png": "marketing/assets/png-recollection-zip-batch9-20261010/gongu-ci-1497/candidate-0-410c6f73-page-0-vertical-ko-extracted.png",
+      "checked_at": "2026-10-10",
+      "review": "verified-vector-extract",
+      "label": "국문 상하조합",
+      "form": "vertical"
+    },
+    {
+      "id": "gongu-ci-1497",
+      "name_ko": "청주시문화산업진흥재단",
+      "key": "candidate-0-410c6f73-page-0-vertical-en",
+      "source_page": "https://cjculture.org/sub.php?code=45",
+      "source_url": "https://cjculture.org/project/design/contents/logo_ci.zip",
+      "original": "marketing/assets/png-recollection-zip-batch9-20261010/gongu-ci-1497/candidate-0-410c6f73.ai",
+      "original_zip": "marketing/assets/png-recollection-20261010/gongu-ci-1497/candidate-0.zip",
+      "archive_member": "logo_ci.ai",
+      "svg": "marketing/assets/png-recollection-zip-batch9-20261010/gongu-ci-1497/candidate-0-410c6f73-page-0-vertical-en-extracted.svg",
+      "png": "marketing/assets/png-recollection-zip-batch9-20261010/gongu-ci-1497/candidate-0-410c6f73-page-0-vertical-en-extracted.png",
+      "checked_at": "2026-10-10",
+      "review": "verified-vector-extract",
+      "label": "영문 상하조합",
+      "form": "vertical"
+    },
+    {
+      "id": "gongu-ci-1497",
+      "name_ko": "청주시문화산업진흥재단",
+      "key": "candidate-0-410c6f73-page-0-vertical-koen",
+      "source_page": "https://cjculture.org/sub.php?code=45",
+      "source_url": "https://cjculture.org/project/design/contents/logo_ci.zip",
+      "original": "marketing/assets/png-recollection-zip-batch9-20261010/gongu-ci-1497/candidate-0-410c6f73.ai",
+      "original_zip": "marketing/assets/png-recollection-20261010/gongu-ci-1497/candidate-0.zip",
+      "archive_member": "logo_ci.ai",
+      "svg": "marketing/assets/png-recollection-zip-batch9-20261010/gongu-ci-1497/candidate-0-410c6f73-page-0-vertical-koen-extracted.svg",
+      "png": "marketing/assets/png-recollection-zip-batch9-20261010/gongu-ci-1497/candidate-0-410c6f73-page-0-vertical-koen-extracted.png",
+      "checked_at": "2026-10-10",
+      "review": "verified-vector-extract",
+      "label": "국영문 상하조합",
+      "form": "vertical"
+    },
+    {
+      "id": "gongu-ci-1497",
+      "name_ko": "청주시문화산업진흥재단",
+      "key": "candidate-0-410c6f73-page-0-vertical-en-left",
+      "source_page": "https://cjculture.org/sub.php?code=45",
+      "source_url": "https://cjculture.org/project/design/contents/logo_ci.zip",
+      "original": "marketing/assets/png-recollection-zip-batch9-20261010/gongu-ci-1497/candidate-0-410c6f73.ai",
+      "original_zip": "marketing/assets/png-recollection-20261010/gongu-ci-1497/candidate-0.zip",
+      "archive_member": "logo_ci.ai",
+      "svg": "marketing/assets/png-recollection-zip-batch9-20261010/gongu-ci-1497/candidate-0-410c6f73-page-0-vertical-en-left-extracted.svg",
+      "png": "marketing/assets/png-recollection-zip-batch9-20261010/gongu-ci-1497/candidate-0-410c6f73-page-0-vertical-en-left-extracted.png",
+      "checked_at": "2026-10-10",
+      "review": "verified-vector-extract",
+      "label": "영문 왼쪽정렬 상하조합",
+      "form": "vertical"
+    },
+    {
+      "id": "gongu-ci-1497",
+      "name_ko": "청주시문화산업진흥재단",
+      "key": "candidate-0-410c6f73-page-0-horizontal-en",
+      "source_page": "https://cjculture.org/sub.php?code=45",
+      "source_url": "https://cjculture.org/project/design/contents/logo_ci.zip",
+      "original": "marketing/assets/png-recollection-zip-batch9-20261010/gongu-ci-1497/candidate-0-410c6f73.ai",
+      "original_zip": "marketing/assets/png-recollection-20261010/gongu-ci-1497/candidate-0.zip",
+      "archive_member": "logo_ci.ai",
+      "svg": "marketing/assets/png-recollection-zip-batch9-20261010/gongu-ci-1497/candidate-0-410c6f73-page-0-horizontal-en-extracted.svg",
+      "png": "marketing/assets/png-recollection-zip-batch9-20261010/gongu-ci-1497/candidate-0-410c6f73-page-0-horizontal-en-extracted.png",
+      "checked_at": "2026-10-10",
+      "review": "verified-vector-extract",
+      "label": "영문 좌우조합",
+      "form": "horizontal"
+    },
+    {
+      "id": "gongu-ci-1497",
+      "name_ko": "청주시문화산업진흥재단",
+      "key": "candidate-0-410c6f73-page-0-horizontal-koen",
+      "source_page": "https://cjculture.org/sub.php?code=45",
+      "source_url": "https://cjculture.org/project/design/contents/logo_ci.zip",
+      "original": "marketing/assets/png-recollection-zip-batch9-20261010/gongu-ci-1497/candidate-0-410c6f73.ai",
+      "original_zip": "marketing/assets/png-recollection-20261010/gongu-ci-1497/candidate-0.zip",
+      "archive_member": "logo_ci.ai",
+      "svg": "marketing/assets/png-recollection-zip-batch9-20261010/gongu-ci-1497/candidate-0-410c6f73-page-0-horizontal-koen-extracted.svg",
+      "png": "marketing/assets/png-recollection-zip-batch9-20261010/gongu-ci-1497/candidate-0-410c6f73-page-0-horizontal-koen-extracted.png",
+      "checked_at": "2026-10-10",
+      "review": "verified-vector-extract",
+      "label": "국영문 좌우조합",
+      "form": "horizontal"
+    },
+    {
+      "id": "gongu-ci-1497",
+      "name_ko": "청주시문화산업진흥재단",
+      "key": "candidate-0-410c6f73-page-0-horizontal-ko",
+      "source_page": "https://cjculture.org/sub.php?code=45",
+      "source_url": "https://cjculture.org/project/design/contents/logo_ci.zip",
+      "original": "marketing/assets/png-recollection-zip-batch9-20261010/gongu-ci-1497/candidate-0-410c6f73.ai",
+      "original_zip": "marketing/assets/png-recollection-20261010/gongu-ci-1497/candidate-0.zip",
+      "archive_member": "logo_ci.ai",
+      "svg": "marketing/assets/png-recollection-zip-batch9-20261010/gongu-ci-1497/candidate-0-410c6f73-page-0-horizontal-ko-extracted.svg",
+      "png": "marketing/assets/png-recollection-zip-batch9-20261010/gongu-ci-1497/candidate-0-410c6f73-page-0-horizontal-ko-extracted.png",
+      "checked_at": "2026-10-10",
+      "review": "verified-vector-extract",
+      "label": "국문 좌우조합",
+      "form": "horizontal"
+    },
+    {
+      "id": "gongu-ci-1497",
+      "name_ko": "청주시문화산업진흥재단",
+      "key": "candidate-0-410c6f73-page-0-symbol",
+      "source_page": "https://cjculture.org/sub.php?code=45",
+      "source_url": "https://cjculture.org/project/design/contents/logo_ci.zip",
+      "original": "marketing/assets/png-recollection-zip-batch9-20261010/gongu-ci-1497/candidate-0-410c6f73.ai",
+      "original_zip": "marketing/assets/png-recollection-20261010/gongu-ci-1497/candidate-0.zip",
+      "archive_member": "logo_ci.ai",
+      "svg": "marketing/assets/png-recollection-zip-batch9-20261010/gongu-ci-1497/candidate-0-410c6f73-page-0-symbol-extracted.svg",
+      "png": "marketing/assets/png-recollection-zip-batch9-20261010/gongu-ci-1497/candidate-0-410c6f73-page-0-symbol-extracted.png",
+      "checked_at": "2026-10-10",
+      "review": "verified-vector-extract",
+      "label": "심볼마크",
+      "form": "symbol"
+    },
+    {
+      "id": "gongu-ci-1493",
+      "name_ko": "청송문화관광재단",
+      "key": "candidate-0-68c73483-page-0-main",
+      "source_page": "http://www.cctf.or.kr/coding/sub1/sub5.asp",
+      "source_url": "http://www.cctf.or.kr/coding/sub1/ci_ai.zip",
+      "original": "marketing/assets/png-recollection-zip-batch9-20261010/gongu-ci-1493/candidate-0-68c73483.ai",
+      "original_zip": "marketing/assets/png-recollection-20261010/gongu-ci-1493/candidate-0.zip",
+      "archive_member": "ci_ai.ai",
+      "svg": "marketing/assets/png-recollection-zip-batch9-20261010/gongu-ci-1493/candidate-0-68c73483-page-0-main-extracted.svg",
+      "png": "marketing/assets/png-recollection-zip-batch9-20261010/gongu-ci-1493/candidate-0-68c73483-page-0-main-extracted.png",
+      "checked_at": "2026-10-10",
+      "review": "verified-vector-extract",
+      "label": "국영문 좌우조합",
+      "form": "horizontal"
+    },
+    {
+      "id": "gongu-ci-1492",
+      "name_ko": "청송군",
+      "key": "candidate-0-eaef0ca7-page-0-main",
+      "source_page": "http://www.cs.go.kr/cheongsong/00003084/00003102.web",
+      "source_url": "http://www.cs.go.kr/upload/data/zip/cheongsong03_2.zip",
+      "original": "marketing/assets/png-recollection-zip-batch9-20261010/gongu-ci-1492/candidate-0-eaef0ca7.ai",
+      "original_zip": "marketing/assets/png-recollection-20261010/gongu-ci-1492/candidate-0.zip",
+      "archive_member": "산소카페 청송군BI.ai",
+      "svg": "marketing/assets/png-recollection-zip-batch9-20261010/gongu-ci-1492/candidate-0-eaef0ca7-page-0-main-extracted.svg",
+      "png": "marketing/assets/png-recollection-zip-batch9-20261010/gongu-ci-1492/candidate-0-eaef0ca7-page-0-main-extracted.png",
+      "checked_at": "2026-10-10",
+      "review": "verified-vector-extract",
+      "label": "슬로건 국문 좌우조합",
+      "form": "horizontal"
+    },
+    {
+      "id": "gongu-ci-1483",
+      "name_ko": "천안문화재단",
+      "key": "candidate-0-04bf3063-page-0-main",
+      "source_page": "https://www.cfac.or.kr/sub.php?menucode=0105",
+      "source_url": "https://www.cfac.or.kr/img/CI_ai.zip",
+      "original": "marketing/assets/png-recollection-zip-batch9-20261010/gongu-ci-1483/candidate-0-04bf3063.ai",
+      "original_zip": "marketing/assets/png-recollection-20261010/gongu-ci-1483/candidate-0.zip",
+      "archive_member": "CI.ai",
+      "svg": "marketing/assets/png-recollection-zip-batch9-20261010/gongu-ci-1483/candidate-0-04bf3063-page-0-main-extracted.svg",
+      "png": "marketing/assets/png-recollection-zip-batch9-20261010/gongu-ci-1483/candidate-0-04bf3063-page-0-main-extracted.png",
+      "checked_at": "2026-10-10",
+      "review": "verified-vector-extract",
+      "label": "국영문 상하조합",
+      "form": "vertical"
+    },
+    {
+      "id": "gongu-ci-1483",
+      "name_ko": "천안문화재단",
+      "key": "candidate-0-04bf3063-page-0-symbol",
+      "source_page": "https://www.cfac.or.kr/sub.php?menucode=0105",
+      "source_url": "https://www.cfac.or.kr/img/CI_ai.zip",
+      "original": "marketing/assets/png-recollection-zip-batch9-20261010/gongu-ci-1483/candidate-0-04bf3063.ai",
+      "original_zip": "marketing/assets/png-recollection-20261010/gongu-ci-1483/candidate-0.zip",
+      "archive_member": "CI.ai",
+      "svg": "marketing/assets/png-recollection-zip-batch9-20261010/gongu-ci-1483/candidate-0-04bf3063-page-0-symbol-extracted.svg",
+      "png": "marketing/assets/png-recollection-zip-batch9-20261010/gongu-ci-1483/candidate-0-04bf3063-page-0-symbol-extracted.png",
+      "checked_at": "2026-10-10",
+      "review": "verified-vector-extract",
+      "label": "심볼마크",
+      "form": "symbol"
+    }
+  ],
+  "uploads": [
+    {
+      "id": "gongu-ci-1586",
+      "file": "marketing/assets/png-recollection-zip-batch9-20261010/gongu-ci-1586/candidate-0-63c312ae.ai",
+      "key": "_clients/gongu-ci-1586/sources/official-zip-batch9-20261010/63c312ae3c777c8e16bf.ai",
+      "sha256": "63c312ae3c777c8e16bfce36459a25f2ba6c539f51d979c25389f579798b3021"
+    },
+    {
+      "id": "gongu-ci-1586",
+      "file": "marketing/assets/png-recollection-20261010/gongu-ci-1586/candidate-0.zip",
+      "key": "_clients/gongu-ci-1586/sources/official-zip-batch9-20261010/b548c440dd462975ee2c.zip",
+      "sha256": "b548c440dd462975ee2ca572984905b4448f3618c8d4b68e7169fb84fb41b335"
+    },
+    {
+      "id": "gongu-ci-1586",
+      "file": "marketing/assets/png-recollection-zip-batch9-20261010/gongu-ci-1586/candidate-0-63c312ae-page-0-vertical-ko-extracted.svg",
+      "key": "_clients/gongu-ci-1586/sources/official-zip-batch9-20261010/1bbd5dbbb0071ccc5828.svg",
+      "sha256": "1bbd5dbbb0071ccc5828c8ee8ae5fa3df94177bf6332ab02085454547bffbab3"
+    },
+    {
+      "id": "gongu-ci-1586",
+      "file": "marketing/assets/png-recollection-zip-batch9-20261010/gongu-ci-1586/candidate-0-63c312ae-page-0-vertical-ko-extracted.png",
+      "key": "_clients/gongu-ci-1586/sources/official-zip-batch9-20261010/2c5d00a28e436ee49f96.png",
+      "sha256": "2c5d00a28e436ee49f961777fa34fa92cbf7173f80c1cb7b0e0511b0a72dc8b0"
+    },
+    {
+      "id": "gongu-ci-1586",
+      "file": "marketing/assets/png-recollection-zip-batch9-20261010/gongu-ci-1586/candidate-0-63c312ae-page-0-vertical-en-extracted.svg",
+      "key": "_clients/gongu-ci-1586/sources/official-zip-batch9-20261010/c64bbf53e5c3f96d9b09.svg",
+      "sha256": "c64bbf53e5c3f96d9b0976219b6da3965e4b838347f5ff4c032472b33fb2eed8"
+    },
+    {
+      "id": "gongu-ci-1586",
+      "file": "marketing/assets/png-recollection-zip-batch9-20261010/gongu-ci-1586/candidate-0-63c312ae-page-0-vertical-en-extracted.png",
+      "key": "_clients/gongu-ci-1586/sources/official-zip-batch9-20261010/c38935bf3d598c568951.png",
+      "sha256": "c38935bf3d598c5689512ce211908699fea2bee46511579bd49bd6d8be46f9ad"
+    },
+    {
+      "id": "gongu-ci-1579",
+      "file": "marketing/assets/png-recollection-zip-batch9-20261010/gongu-ci-1579/candidate-1-a5bca441.ai",
+      "key": "_clients/gongu-ci-1579/sources/official-zip-batch9-20261010/a5bca4417b9302aab568.ai",
+      "sha256": "a5bca4417b9302aab568eae5c31ab8594b32f89ee3c85ff3b343b1c1daba6b89"
+    },
+    {
+      "id": "gongu-ci-1579",
+      "file": "marketing/assets/png-recollection-20261010/gongu-ci-1579/candidate-1.zip",
+      "key": "_clients/gongu-ci-1579/sources/official-zip-batch9-20261010/1b4b042792ec4e99eb13.zip",
+      "sha256": "1b4b042792ec4e99eb135b8ccecee3499cd1e6370a089329a39d710cd5eea116"
+    },
+    {
+      "id": "gongu-ci-1579",
+      "file": "marketing/assets/png-recollection-zip-batch9-20261010/gongu-ci-1579/candidate-1-a5bca441-page-0-main-extracted.svg",
+      "key": "_clients/gongu-ci-1579/sources/official-zip-batch9-20261010/c66fdba7b99bcb77190f.svg",
+      "sha256": "c66fdba7b99bcb77190f00a6285976f46f39f4192759e672851a566063086e67"
+    },
+    {
+      "id": "gongu-ci-1579",
+      "file": "marketing/assets/png-recollection-zip-batch9-20261010/gongu-ci-1579/candidate-1-a5bca441-page-0-main-extracted.png",
+      "key": "_clients/gongu-ci-1579/sources/official-zip-batch9-20261010/b1ce4bd881da8af0cdde.png",
+      "sha256": "b1ce4bd881da8af0cdde902510572750526fd31de38d8e8ef1bb157a811c0fae"
+    },
+    {
+      "id": "gongu-ci-1497",
+      "file": "marketing/assets/png-recollection-zip-batch9-20261010/gongu-ci-1497/candidate-0-410c6f73.ai",
+      "key": "_clients/gongu-ci-1497/sources/official-zip-batch9-20261010/410c6f73f2d4bedfbe3e.ai",
+      "sha256": "410c6f73f2d4bedfbe3e438a8c5f15a3d905b86c35f3533bd7c25199d5cbd7e5"
+    },
+    {
+      "id": "gongu-ci-1497",
+      "file": "marketing/assets/png-recollection-20261010/gongu-ci-1497/candidate-0.zip",
+      "key": "_clients/gongu-ci-1497/sources/official-zip-batch9-20261010/0c8d1e97edc79c85b3a6.zip",
+      "sha256": "0c8d1e97edc79c85b3a6bd3c3fe2e8746b3a1c50554d622f3ca92842d515cf3d"
+    },
+    {
+      "id": "gongu-ci-1497",
+      "file": "marketing/assets/png-recollection-zip-batch9-20261010/gongu-ci-1497/candidate-0-410c6f73-page-0-vertical-ko-extracted.svg",
+      "key": "_clients/gongu-ci-1497/sources/official-zip-batch9-20261010/fb36fc34d77a61dfd0ab.svg",
+      "sha256": "fb36fc34d77a61dfd0abc84b5546bfdd9563e02f25d81e35b5d5c3ddae4635c5"
+    },
+    {
+      "id": "gongu-ci-1497",
+      "file": "marketing/assets/png-recollection-zip-batch9-20261010/gongu-ci-1497/candidate-0-410c6f73-page-0-vertical-ko-extracted.png",
+      "key": "_clients/gongu-ci-1497/sources/official-zip-batch9-20261010/efcf7aa0ade7457f85d7.png",
+      "sha256": "efcf7aa0ade7457f85d7df7b6f982512ff3b65de7466aaf4b15bad9e8adf7e4e"
+    },
+    {
+      "id": "gongu-ci-1497",
+      "file": "marketing/assets/png-recollection-zip-batch9-20261010/gongu-ci-1497/candidate-0-410c6f73-page-0-vertical-en-extracted.svg",
+      "key": "_clients/gongu-ci-1497/sources/official-zip-batch9-20261010/6798d0a66abaec9b7e18.svg",
+      "sha256": "6798d0a66abaec9b7e18a517f98b20c3dfe1bf814c0cb0b934b188a64220575f"
+    },
+    {
+      "id": "gongu-ci-1497",
+      "file": "marketing/assets/png-recollection-zip-batch9-20261010/gongu-ci-1497/candidate-0-410c6f73-page-0-vertical-en-extracted.png",
+      "key": "_clients/gongu-ci-1497/sources/official-zip-batch9-20261010/e516b165ba09148cd601.png",
+      "sha256": "e516b165ba09148cd601a8a3b608540a8b149d5010936f438d07da69b41622c3"
+    },
+    {
+      "id": "gongu-ci-1497",
+      "file": "marketing/assets/png-recollection-zip-batch9-20261010/gongu-ci-1497/candidate-0-410c6f73-page-0-vertical-koen-extracted.svg",
+      "key": "_clients/gongu-ci-1497/sources/official-zip-batch9-20261010/8793ce83f9f056b735be.svg",
+      "sha256": "8793ce83f9f056b735be614ece5ac85f761d6206fb1f7fa932e8b7de341008c2"
+    },
+    {
+      "id": "gongu-ci-1497",
+      "file": "marketing/assets/png-recollection-zip-batch9-20261010/gongu-ci-1497/candidate-0-410c6f73-page-0-vertical-koen-extracted.png",
+      "key": "_clients/gongu-ci-1497/sources/official-zip-batch9-20261010/b579ebd49d8047d21cab.png",
+      "sha256": "b579ebd49d8047d21cab0232c7610271b496c3ab15621fb1fe8f67c258aed96f"
+    },
+    {
+      "id": "gongu-ci-1497",
+      "file": "marketing/assets/png-recollection-zip-batch9-20261010/gongu-ci-1497/candidate-0-410c6f73-page-0-vertical-en-left-extracted.svg",
+      "key": "_clients/gongu-ci-1497/sources/official-zip-batch9-20261010/a04cd731b7d28e97459f.svg",
+      "sha256": "a04cd731b7d28e97459f9ba621095685d3f4fb6cef5a7692828f2c81b19a3640"
+    },
+    {
+      "id": "gongu-ci-1497",
+      "file": "marketing/assets/png-recollection-zip-batch9-20261010/gongu-ci-1497/candidate-0-410c6f73-page-0-vertical-en-left-extracted.png",
+      "key": "_clients/gongu-ci-1497/sources/official-zip-batch9-20261010/1481126740eed3a25527.png",
+      "sha256": "1481126740eed3a25527d98d626604adddb0630b76137aca5c11e84250c0fc45"
+    },
+    {
+      "id": "gongu-ci-1497",
+      "file": "marketing/assets/png-recollection-zip-batch9-20261010/gongu-ci-1497/candidate-0-410c6f73-page-0-horizontal-en-extracted.svg",
+      "key": "_clients/gongu-ci-1497/sources/official-zip-batch9-20261010/1e35fb90d633e532187f.svg",
+      "sha256": "1e35fb90d633e532187fd1e9c735e927496fd2693014874c6b12f0d4717d39bf"
+    },
+    {
+      "id": "gongu-ci-1497",
+      "file": "marketing/assets/png-recollection-zip-batch9-20261010/gongu-ci-1497/candidate-0-410c6f73-page-0-horizontal-en-extracted.png",
+      "key": "_clients/gongu-ci-1497/sources/official-zip-batch9-20261010/47fc8c3dd9600541f14e.png",
+      "sha256": "47fc8c3dd9600541f14eeed329dd37a31c0203566e2b9e9aeb09371a47a0ca6f"
+    },
+    {
+      "id": "gongu-ci-1497",
+      "file": "marketing/assets/png-recollection-zip-batch9-20261010/gongu-ci-1497/candidate-0-410c6f73-page-0-horizontal-koen-extracted.svg",
+      "key": "_clients/gongu-ci-1497/sources/official-zip-batch9-20261010/a881d0bd519f224f5aa0.svg",
+      "sha256": "a881d0bd519f224f5aa080fad51d06266a5bfb0e230f877e9840e8fc1c3cde29"
+    },
+    {
+      "id": "gongu-ci-1497",
+      "file": "marketing/assets/png-recollection-zip-batch9-20261010/gongu-ci-1497/candidate-0-410c6f73-page-0-horizontal-koen-extracted.png",
+      "key": "_clients/gongu-ci-1497/sources/official-zip-batch9-20261010/6165f203403ddd44a4ce.png",
+      "sha256": "6165f203403ddd44a4cedcac9e93aab7a5079f0b8833387bff9c4bb0a00fdef3"
+    },
+    {
+      "id": "gongu-ci-1497",
+      "file": "marketing/assets/png-recollection-zip-batch9-20261010/gongu-ci-1497/candidate-0-410c6f73-page-0-horizontal-ko-extracted.svg",
+      "key": "_clients/gongu-ci-1497/sources/official-zip-batch9-20261010/105974e7a1e31153e696.svg",
+      "sha256": "105974e7a1e31153e696e86d817904ac89dfde6789b2cbcef380d93ddd9aa6f4"
+    },
+    {
+      "id": "gongu-ci-1497",
+      "file": "marketing/assets/png-recollection-zip-batch9-20261010/gongu-ci-1497/candidate-0-410c6f73-page-0-horizontal-ko-extracted.png",
+      "key": "_clients/gongu-ci-1497/sources/official-zip-batch9-20261010/c28e6ff763b460ac7e6c.png",
+      "sha256": "c28e6ff763b460ac7e6c55ee05535d92567db998aa9a90cae32a4a63e94c90e4"
+    },
+    {
+      "id": "gongu-ci-1497",
+      "file": "marketing/assets/png-recollection-zip-batch9-20261010/gongu-ci-1497/candidate-0-410c6f73-page-0-symbol-extracted.svg",
+      "key": "_clients/gongu-ci-1497/sources/official-zip-batch9-20261010/0a1a86accd39071c3c20.svg",
+      "sha256": "0a1a86accd39071c3c2078c3797edade453b205fa6137bc05154001a3296066f"
+    },
+    {
+      "id": "gongu-ci-1497",
+      "file": "marketing/assets/png-recollection-zip-batch9-20261010/gongu-ci-1497/candidate-0-410c6f73-page-0-symbol-extracted.png",
+      "key": "_clients/gongu-ci-1497/sources/official-zip-batch9-20261010/18f6e2504491d5e571eb.png",
+      "sha256": "18f6e2504491d5e571eb27dc4cc8e4fef1a2b963f6ec1f491394f0d29a0f4456"
+    },
+    {
+      "id": "gongu-ci-1493",
+      "file": "marketing/assets/png-recollection-zip-batch9-20261010/gongu-ci-1493/candidate-0-68c73483.ai",
+      "key": "_clients/gongu-ci-1493/sources/official-zip-batch9-20261010/68c7348341055089319d.ai",
+      "sha256": "68c7348341055089319d25cdbf333652165c5950d708f45356dcf921ce9efb4f"
+    },
+    {
+      "id": "gongu-ci-1493",
+      "file": "marketing/assets/png-recollection-20261010/gongu-ci-1493/candidate-0.zip",
+      "key": "_clients/gongu-ci-1493/sources/official-zip-batch9-20261010/594bec803c3bbcfbd5ff.zip",
+      "sha256": "594bec803c3bbcfbd5ff63211dd3e57eb349cb1dd592569d3088bd2ac7897ad4"
+    },
+    {
+      "id": "gongu-ci-1493",
+      "file": "marketing/assets/png-recollection-zip-batch9-20261010/gongu-ci-1493/candidate-0-68c73483-page-0-main-extracted.svg",
+      "key": "_clients/gongu-ci-1493/sources/official-zip-batch9-20261010/2f8b0d0add73fe205863.svg",
+      "sha256": "2f8b0d0add73fe205863d0dd4373cb8ca504384f9a68f7c032a966ac961cc0a3"
+    },
+    {
+      "id": "gongu-ci-1493",
+      "file": "marketing/assets/png-recollection-zip-batch9-20261010/gongu-ci-1493/candidate-0-68c73483-page-0-main-extracted.png",
+      "key": "_clients/gongu-ci-1493/sources/official-zip-batch9-20261010/3a2831557a0f426a4c31.png",
+      "sha256": "3a2831557a0f426a4c3182e1878a97d5fcc174b79260bfd8457e9c6f3faba179"
+    },
+    {
+      "id": "gongu-ci-1492",
+      "file": "marketing/assets/png-recollection-zip-batch9-20261010/gongu-ci-1492/candidate-0-eaef0ca7.ai",
+      "key": "_clients/gongu-ci-1492/sources/official-zip-batch9-20261010/eaef0ca7b971e03cc0db.ai",
+      "sha256": "eaef0ca7b971e03cc0db88532b7e72f0f09e5fbc33929052e9a2a61c62247f88"
+    },
+    {
+      "id": "gongu-ci-1492",
+      "file": "marketing/assets/png-recollection-20261010/gongu-ci-1492/candidate-0.zip",
+      "key": "_clients/gongu-ci-1492/sources/official-zip-batch9-20261010/cb7a4b581e0b1965bae3.zip",
+      "sha256": "cb7a4b581e0b1965bae3ffed8f603d7679e7f53e22e0b299c0da865b4a0927db"
+    },
+    {
+      "id": "gongu-ci-1492",
+      "file": "marketing/assets/png-recollection-zip-batch9-20261010/gongu-ci-1492/candidate-0-eaef0ca7-page-0-main-extracted.svg",
+      "key": "_clients/gongu-ci-1492/sources/official-zip-batch9-20261010/97430919a21518ea1472.svg",
+      "sha256": "97430919a21518ea1472d14105722be6b9468b8ff14fc82458c36c01eaec457b"
+    },
+    {
+      "id": "gongu-ci-1492",
+      "file": "marketing/assets/png-recollection-zip-batch9-20261010/gongu-ci-1492/candidate-0-eaef0ca7-page-0-main-extracted.png",
+      "key": "_clients/gongu-ci-1492/sources/official-zip-batch9-20261010/5f7ebf9e04e75c92f52f.png",
+      "sha256": "5f7ebf9e04e75c92f52fd8d949601cb49ca15c56677abafc9b404ad8ddb8c845"
+    },
+    {
+      "id": "gongu-ci-1483",
+      "file": "marketing/assets/png-recollection-zip-batch9-20261010/gongu-ci-1483/candidate-0-04bf3063.ai",
+      "key": "_clients/gongu-ci-1483/sources/official-zip-batch9-20261010/04bf30639f4a5142480c.ai",
+      "sha256": "04bf30639f4a5142480cde9ac8875cda687a2ba721e7c4711ffb46e5c92be822"
+    },
+    {
+      "id": "gongu-ci-1483",
+      "file": "marketing/assets/png-recollection-20261010/gongu-ci-1483/candidate-0.zip",
+      "key": "_clients/gongu-ci-1483/sources/official-zip-batch9-20261010/619356f0c5fe7a0b9784.zip",
+      "sha256": "619356f0c5fe7a0b97845fe394445fe118cf8d73defdbba5be239bbb82d246b0"
+    },
+    {
+      "id": "gongu-ci-1483",
+      "file": "marketing/assets/png-recollection-zip-batch9-20261010/gongu-ci-1483/candidate-0-04bf3063-page-0-main-extracted.svg",
+      "key": "_clients/gongu-ci-1483/sources/official-zip-batch9-20261010/a236c31d26f3051bce00.svg",
+      "sha256": "a236c31d26f3051bce00cb2810ebf696e0e6cfc4ac3936798c377192941f2f54"
+    },
+    {
+      "id": "gongu-ci-1483",
+      "file": "marketing/assets/png-recollection-zip-batch9-20261010/gongu-ci-1483/candidate-0-04bf3063-page-0-main-extracted.png",
+      "key": "_clients/gongu-ci-1483/sources/official-zip-batch9-20261010/a32ebbf9132096a8e8e2.png",
+      "sha256": "a32ebbf9132096a8e8e2820c41aaec7b33030394a85d94382e3bf4185e50a188"
+    },
+    {
+      "id": "gongu-ci-1483",
+      "file": "marketing/assets/png-recollection-zip-batch9-20261010/gongu-ci-1483/candidate-0-04bf3063-page-0-symbol-extracted.svg",
+      "key": "_clients/gongu-ci-1483/sources/official-zip-batch9-20261010/32663ab2c561d00e24c4.svg",
+      "sha256": "32663ab2c561d00e24c407b78fef41769e56d3215000ebe293caca03c28ace4f"
+    },
+    {
+      "id": "gongu-ci-1483",
+      "file": "marketing/assets/png-recollection-zip-batch9-20261010/gongu-ci-1483/candidate-0-04bf3063-page-0-symbol-extracted.png",
+      "key": "_clients/gongu-ci-1483/sources/official-zip-batch9-20261010/4bfe5b713a3e64ea9c94.png",
+      "sha256": "4bfe5b713a3e64ea9c94c72d87f0808735e11abc6e946f7c23d545e715f63efb"
+    }
+  ],
+  "patches": {
+    "gongu-ci-1586": {
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": "sources/official-zip-batch9-20261010/1bbd5dbbb0071ccc5828.svg",
+      "svg_transparent": "sources/official-zip-batch9-20261010/1bbd5dbbb0071ccc5828.svg",
+      "logo_png": "sources/official-zip-batch9-20261010/2c5d00a28e436ee49f96.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/gongu-ci-1586/sources/official-zip-batch9-20261010/2c5d00a28e436ee49f96.png",
+      "original_ai_url": "https://logo.vibers.co.kr/_clients/gongu-ci-1586/sources/official-zip-batch9-20261010/63c312ae3c777c8e16bf.ai",
+      "original_zip_url": "https://logo.vibers.co.kr/_clients/gongu-ci-1586/sources/official-zip-batch9-20261010/b548c440dd462975ee2c.zip",
+      "source_zip": "sources/official-zip-batch9-20261010/b548c440dd462975ee2c.zip",
+      "official_source_page": "https://www.kli.re.kr/menu.es?mid=a10503010000",
+      "variants_n": 2,
+      "asset_review_status": "verified",
+      "asset_origin": "공식 AI 원본 재수집 · 가이드 및 레이아웃 제거",
+      "asset_checked_at": "2026-10-10",
+      "logo_published_at": "2026-10-10T11:46:19.238680+00:00",
+      "light": false,
+      "light_logo": false,
+      "presentation": {
+        "file": "sources/official-zip-batch9-20261010/2c5d00a28e436ee49f96.png",
+        "bg": "light"
+      }
+    },
+    "gongu-ci-1579": {
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": "sources/official-zip-batch9-20261010/c66fdba7b99bcb77190f.svg",
+      "svg_transparent": "sources/official-zip-batch9-20261010/c66fdba7b99bcb77190f.svg",
+      "logo_png": "sources/official-zip-batch9-20261010/b1ce4bd881da8af0cdde.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/gongu-ci-1579/sources/official-zip-batch9-20261010/b1ce4bd881da8af0cdde.png",
+      "original_ai_url": "https://logo.vibers.co.kr/_clients/gongu-ci-1579/sources/official-zip-batch9-20261010/a5bca4417b9302aab568.ai",
+      "original_zip_url": "https://logo.vibers.co.kr/_clients/gongu-ci-1579/sources/official-zip-batch9-20261010/1b4b042792ec4e99eb13.zip",
+      "source_zip": "sources/official-zip-batch9-20261010/1b4b042792ec4e99eb13.zip",
+      "official_source_page": "https://www.kimm.re.kr/sub060206",
+      "variants_n": 1,
+      "asset_review_status": "verified",
+      "asset_origin": "공식 AI 원본 재수집 · 가이드 및 레이아웃 제거",
+      "asset_checked_at": "2026-10-10",
+      "logo_published_at": "2026-10-10T11:46:19.238837+00:00",
+      "light": false,
+      "light_logo": false,
+      "presentation": {
+        "file": "sources/official-zip-batch9-20261010/b1ce4bd881da8af0cdde.png",
+        "bg": "light"
+      }
+    },
+    "gongu-ci-1497": {
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": "sources/official-zip-batch9-20261010/a881d0bd519f224f5aa0.svg",
+      "svg_transparent": "sources/official-zip-batch9-20261010/a881d0bd519f224f5aa0.svg",
+      "logo_png": "sources/official-zip-batch9-20261010/6165f203403ddd44a4ce.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/gongu-ci-1497/sources/official-zip-batch9-20261010/6165f203403ddd44a4ce.png",
+      "original_ai_url": "https://logo.vibers.co.kr/_clients/gongu-ci-1497/sources/official-zip-batch9-20261010/410c6f73f2d4bedfbe3e.ai",
+      "original_zip_url": "https://logo.vibers.co.kr/_clients/gongu-ci-1497/sources/official-zip-batch9-20261010/0c8d1e97edc79c85b3a6.zip",
+      "source_zip": "sources/official-zip-batch9-20261010/0c8d1e97edc79c85b3a6.zip",
+      "official_source_page": "https://cjculture.org/sub.php?code=45",
+      "variants_n": 8,
+      "asset_review_status": "verified",
+      "asset_origin": "공식 AI 원본 재수집 · 가이드 및 레이아웃 제거",
+      "asset_checked_at": "2026-10-10",
+      "logo_published_at": "2026-10-10T11:46:19.238847+00:00",
+      "light": false,
+      "light_logo": false,
+      "presentation": {
+        "file": "sources/official-zip-batch9-20261010/6165f203403ddd44a4ce.png",
+        "bg": "light"
+      }
+    },
+    "gongu-ci-1493": {
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": "sources/official-zip-batch9-20261010/2f8b0d0add73fe205863.svg",
+      "svg_transparent": "sources/official-zip-batch9-20261010/2f8b0d0add73fe205863.svg",
+      "logo_png": "sources/official-zip-batch9-20261010/3a2831557a0f426a4c31.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/gongu-ci-1493/sources/official-zip-batch9-20261010/3a2831557a0f426a4c31.png",
+      "original_ai_url": "https://logo.vibers.co.kr/_clients/gongu-ci-1493/sources/official-zip-batch9-20261010/68c7348341055089319d.ai",
+      "original_zip_url": "https://logo.vibers.co.kr/_clients/gongu-ci-1493/sources/official-zip-batch9-20261010/594bec803c3bbcfbd5ff.zip",
+      "source_zip": "sources/official-zip-batch9-20261010/594bec803c3bbcfbd5ff.zip",
+      "official_source_page": "http://www.cctf.or.kr/coding/sub1/sub5.asp",
+      "variants_n": 1,
+      "asset_review_status": "verified",
+      "asset_origin": "공식 AI 원본 재수집 · 가이드 및 레이아웃 제거",
+      "asset_checked_at": "2026-10-10",
+      "logo_published_at": "2026-10-10T11:46:19.238852+00:00",
+      "light": false,
+      "light_logo": false,
+      "presentation": {
+        "file": "sources/official-zip-batch9-20261010/3a2831557a0f426a4c31.png",
+        "bg": "light"
+      }
+    },
+    "gongu-ci-1492": {
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": "sources/official-zip-batch9-20261010/97430919a21518ea1472.svg",
+      "svg_transparent": "sources/official-zip-batch9-20261010/97430919a21518ea1472.svg",
+      "logo_png": "sources/official-zip-batch9-20261010/5f7ebf9e04e75c92f52f.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/gongu-ci-1492/sources/official-zip-batch9-20261010/5f7ebf9e04e75c92f52f.png",
+      "original_ai_url": "https://logo.vibers.co.kr/_clients/gongu-ci-1492/sources/official-zip-batch9-20261010/eaef0ca7b971e03cc0db.ai",
+      "original_zip_url": "https://logo.vibers.co.kr/_clients/gongu-ci-1492/sources/official-zip-batch9-20261010/cb7a4b581e0b1965bae3.zip",
+      "source_zip": "sources/official-zip-batch9-20261010/cb7a4b581e0b1965bae3.zip",
+      "official_source_page": "http://www.cs.go.kr/cheongsong/00003084/00003102.web",
+      "variants_n": 1,
+      "asset_review_status": "verified",
+      "asset_origin": "공식 AI 원본 재수집 · 가이드 및 레이아웃 제거",
+      "asset_checked_at": "2026-10-10",
+      "logo_published_at": "2026-10-10T11:46:19.238855+00:00",
+      "light": false,
+      "light_logo": false,
+      "presentation": {
+        "file": "sources/official-zip-batch9-20261010/5f7ebf9e04e75c92f52f.png",
+        "bg": "light"
+      }
+    },
+    "gongu-ci-1483": {
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": "sources/official-zip-batch9-20261010/a236c31d26f3051bce00.svg",
+      "svg_transparent": "sources/official-zip-batch9-20261010/a236c31d26f3051bce00.svg",
+      "logo_png": "sources/official-zip-batch9-20261010/a32ebbf9132096a8e8e2.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/gongu-ci-1483/sources/official-zip-batch9-20261010/a32ebbf9132096a8e8e2.png",
+      "original_ai_url": "https://logo.vibers.co.kr/_clients/gongu-ci-1483/sources/official-zip-batch9-20261010/04bf30639f4a5142480c.ai",
+      "original_zip_url": "https://logo.vibers.co.kr/_clients/gongu-ci-1483/sources/official-zip-batch9-20261010/619356f0c5fe7a0b9784.zip",
+      "source_zip": "sources/official-zip-batch9-20261010/619356f0c5fe7a0b9784.zip",
+      "official_source_page": "https://www.cfac.or.kr/sub.php?menucode=0105",
+      "variants_n": 2,
+      "asset_review_status": "verified",
+      "asset_origin": "공식 AI 원본 재수집 · 가이드 및 레이아웃 제거",
+      "asset_checked_at": "2026-10-10",
+      "logo_published_at": "2026-10-10T11:46:19.238858+00:00",
+      "light": false,
+      "light_logo": false,
+      "presentation": {
+        "file": "sources/official-zip-batch9-20261010/a32ebbf9132096a8e8e2.png",
+        "bg": "light"
+      }
+    }
+  },
+  "manifests": {
+    "gongu-ci-1586": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "gongu-ci-1586",
+      "primary": "candidate-0-63c312ae-page-0-vertical-ko",
+      "variants": [
+        {
+          "key": "candidate-0-63c312ae-page-0-vertical-ko",
+          "label": "국문 상하조합",
+          "form": "vertical",
+          "lockup": "vertical",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-zip-batch9-20261010/1bbd5dbbb0071ccc5828.svg",
+            "png": "sources/official-zip-batch9-20261010/2c5d00a28e436ee49f96.png"
+          },
+          "aspect": 1.5408320493066257,
+          "origin": "official",
+          "provider": "공식 AI · 레이아웃 제거 검수",
+          "derived_from": "https://www.kli.re.kr/kli/file/kli_logo1.zip",
+          "original_ai": "sources/official-zip-batch9-20261010/63c312ae3c777c8e16bf.ai",
+          "original_zip": "sources/official-zip-batch9-20261010/b548c440dd462975ee2c.zip",
+          "order": 0,
+          "asset_group": "logotype"
+        },
+        {
+          "key": "candidate-0-63c312ae-page-0-vertical-en",
+          "label": "영문 상하조합",
+          "form": "vertical",
+          "lockup": "vertical",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-zip-batch9-20261010/c64bbf53e5c3f96d9b09.svg",
+            "png": "sources/official-zip-batch9-20261010/c38935bf3d598c568951.png"
+          },
+          "aspect": 1.7969451931716083,
+          "origin": "official",
+          "provider": "공식 AI · 레이아웃 제거 검수",
+          "derived_from": "https://www.kli.re.kr/kli/file/kli_logo1.zip",
+          "original_ai": "sources/official-zip-batch9-20261010/63c312ae3c777c8e16bf.ai",
+          "original_zip": "sources/official-zip-batch9-20261010/b548c440dd462975ee2c.zip",
+          "order": 1,
+          "asset_group": "logotype"
+        }
+      ]
+    },
+    "gongu-ci-1579": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "gongu-ci-1579",
+      "primary": "candidate-1-a5bca441-page-0-main",
+      "variants": [
+        {
+          "key": "candidate-1-a5bca441-page-0-main",
+          "label": "공식 국영문 조합",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-zip-batch9-20261010/c66fdba7b99bcb77190f.svg",
+            "png": "sources/official-zip-batch9-20261010/b1ce4bd881da8af0cdde.png"
+          },
+          "aspect": 5.571030640668524,
+          "origin": "official",
+          "provider": "공식 AI · 레이아웃 제거 검수",
+          "derived_from": "https://www.kimm.re.kr/main/down/logo_ai.zip",
+          "original_ai": "sources/official-zip-batch9-20261010/a5bca4417b9302aab568.ai",
+          "original_zip": "sources/official-zip-batch9-20261010/1b4b042792ec4e99eb13.zip",
+          "order": 0,
+          "asset_group": "logotype"
+        }
+      ]
+    },
+    "gongu-ci-1497": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "gongu-ci-1497",
+      "primary": "candidate-0-410c6f73-page-0-horizontal-koen",
+      "variants": [
+        {
+          "key": "candidate-0-410c6f73-page-0-vertical-ko",
+          "label": "국문 상하조합",
+          "form": "vertical",
+          "lockup": "vertical",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-zip-batch9-20261010/fb36fc34d77a61dfd0ab.svg",
+            "png": "sources/official-zip-batch9-20261010/efcf7aa0ade7457f85d7.png"
+          },
+          "aspect": 1.6680567139282736,
+          "origin": "official",
+          "provider": "공식 AI · 레이아웃 제거 검수",
+          "derived_from": "https://cjculture.org/project/design/contents/logo_ci.zip",
+          "original_ai": "sources/official-zip-batch9-20261010/410c6f73f2d4bedfbe3e.ai",
+          "original_zip": "sources/official-zip-batch9-20261010/0c8d1e97edc79c85b3a6.zip",
+          "order": 0,
+          "asset_group": "logotype"
+        },
+        {
+          "key": "candidate-0-410c6f73-page-0-vertical-en",
+          "label": "영문 상하조합",
+          "form": "vertical",
+          "lockup": "vertical",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-zip-batch9-20261010/6798d0a66abaec9b7e18.svg",
+            "png": "sources/official-zip-batch9-20261010/e516b165ba09148cd601.png"
+          },
+          "aspect": 1.7857142857142858,
+          "origin": "official",
+          "provider": "공식 AI · 레이아웃 제거 검수",
+          "derived_from": "https://cjculture.org/project/design/contents/logo_ci.zip",
+          "original_ai": "sources/official-zip-batch9-20261010/410c6f73f2d4bedfbe3e.ai",
+          "original_zip": "sources/official-zip-batch9-20261010/0c8d1e97edc79c85b3a6.zip",
+          "order": 1,
+          "asset_group": "logotype"
+        },
+        {
+          "key": "candidate-0-410c6f73-page-0-vertical-koen",
+          "label": "국영문 상하조합",
+          "form": "vertical",
+          "lockup": "vertical",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-zip-batch9-20261010/8793ce83f9f056b735be.svg",
+            "png": "sources/official-zip-batch9-20261010/b579ebd49d8047d21cab.png"
+          },
+          "aspect": 1.3596193065941535,
+          "origin": "official",
+          "provider": "공식 AI · 레이아웃 제거 검수",
+          "derived_from": "https://cjculture.org/project/design/contents/logo_ci.zip",
+          "original_ai": "sources/official-zip-batch9-20261010/410c6f73f2d4bedfbe3e.ai",
+          "original_zip": "sources/official-zip-batch9-20261010/0c8d1e97edc79c85b3a6.zip",
+          "order": 2,
+          "asset_group": "logotype"
+        },
+        {
+          "key": "candidate-0-410c6f73-page-0-vertical-en-left",
+          "label": "영문 왼쪽정렬 상하조합",
+          "form": "vertical",
+          "lockup": "vertical",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-zip-batch9-20261010/a04cd731b7d28e97459f.svg",
+            "png": "sources/official-zip-batch9-20261010/1481126740eed3a25527.png"
+          },
+          "aspect": 2.7472527472527473,
+          "origin": "official",
+          "provider": "공식 AI · 레이아웃 제거 검수",
+          "derived_from": "https://cjculture.org/project/design/contents/logo_ci.zip",
+          "original_ai": "sources/official-zip-batch9-20261010/410c6f73f2d4bedfbe3e.ai",
+          "original_zip": "sources/official-zip-batch9-20261010/0c8d1e97edc79c85b3a6.zip",
+          "order": 3,
+          "asset_group": "logotype"
+        },
+        {
+          "key": "candidate-0-410c6f73-page-0-horizontal-en",
+          "label": "영문 좌우조합",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-zip-batch9-20261010/1e35fb90d633e532187f.svg",
+            "png": "sources/official-zip-batch9-20261010/47fc8c3dd9600541f14e.png"
+          },
+          "aspect": 5.730659025787966,
+          "origin": "official",
+          "provider": "공식 AI · 레이아웃 제거 검수",
+          "derived_from": "https://cjculture.org/project/design/contents/logo_ci.zip",
+          "original_ai": "sources/official-zip-batch9-20261010/410c6f73f2d4bedfbe3e.ai",
+          "original_zip": "sources/official-zip-batch9-20261010/0c8d1e97edc79c85b3a6.zip",
+          "order": 4,
+          "asset_group": "logotype"
+        },
+        {
+          "key": "candidate-0-410c6f73-page-0-horizontal-koen",
+          "label": "국영문 좌우조합",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-zip-batch9-20261010/a881d0bd519f224f5aa0.svg",
+            "png": "sources/official-zip-batch9-20261010/6165f203403ddd44a4ce.png"
+          },
+          "aspect": 3.952569169960474,
+          "origin": "official",
+          "provider": "공식 AI · 레이아웃 제거 검수",
+          "derived_from": "https://cjculture.org/project/design/contents/logo_ci.zip",
+          "original_ai": "sources/official-zip-batch9-20261010/410c6f73f2d4bedfbe3e.ai",
+          "original_zip": "sources/official-zip-batch9-20261010/0c8d1e97edc79c85b3a6.zip",
+          "order": 5,
+          "asset_group": "logotype"
+        },
+        {
+          "key": "candidate-0-410c6f73-page-0-horizontal-ko",
+          "label": "국문 좌우조합",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-zip-batch9-20261010/105974e7a1e31153e696.svg",
+            "png": "sources/official-zip-batch9-20261010/c28e6ff763b460ac7e6c.png"
+          },
+          "aspect": 7.434944237918216,
+          "origin": "official",
+          "provider": "공식 AI · 레이아웃 제거 검수",
+          "derived_from": "https://cjculture.org/project/design/contents/logo_ci.zip",
+          "original_ai": "sources/official-zip-batch9-20261010/410c6f73f2d4bedfbe3e.ai",
+          "original_zip": "sources/official-zip-batch9-20261010/0c8d1e97edc79c85b3a6.zip",
+          "order": 6,
+          "asset_group": "logotype"
+        },
+        {
+          "key": "candidate-0-410c6f73-page-0-symbol",
+          "label": "심볼마크",
+          "form": "symbol",
+          "lockup": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-zip-batch9-20261010/0a1a86accd39071c3c20.svg",
+            "png": "sources/official-zip-batch9-20261010/18f6e2504491d5e571eb.png"
+          },
+          "aspect": 1.0,
+          "origin": "official",
+          "provider": "공식 AI · 레이아웃 제거 검수",
+          "derived_from": "https://cjculture.org/project/design/contents/logo_ci.zip",
+          "original_ai": "sources/official-zip-batch9-20261010/410c6f73f2d4bedfbe3e.ai",
+          "original_zip": "sources/official-zip-batch9-20261010/0c8d1e97edc79c85b3a6.zip",
+          "order": 7,
+          "asset_group": "symbol"
+        }
+      ]
+    },
+    "gongu-ci-1493": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "gongu-ci-1493",
+      "primary": "candidate-0-68c73483-page-0-main",
+      "variants": [
+        {
+          "key": "candidate-0-68c73483-page-0-main",
+          "label": "국영문 좌우조합",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-zip-batch9-20261010/2f8b0d0add73fe205863.svg",
+            "png": "sources/official-zip-batch9-20261010/3a2831557a0f426a4c31.png"
+          },
+          "aspect": 4.140786749482402,
+          "origin": "official",
+          "provider": "공식 AI · 레이아웃 제거 검수",
+          "derived_from": "http://www.cctf.or.kr/coding/sub1/ci_ai.zip",
+          "original_ai": "sources/official-zip-batch9-20261010/68c7348341055089319d.ai",
+          "original_zip": "sources/official-zip-batch9-20261010/594bec803c3bbcfbd5ff.zip",
+          "order": 0,
+          "asset_group": "logotype"
+        }
+      ]
+    },
+    "gongu-ci-1492": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "gongu-ci-1492",
+      "primary": "candidate-0-eaef0ca7-page-0-main",
+      "variants": [
+        {
+          "key": "candidate-0-eaef0ca7-page-0-main",
+          "label": "슬로건 국문 좌우조합",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-zip-batch9-20261010/97430919a21518ea1472.svg",
+            "png": "sources/official-zip-batch9-20261010/5f7ebf9e04e75c92f52f.png"
+          },
+          "aspect": 2.4906600249066004,
+          "origin": "official",
+          "provider": "공식 AI · 레이아웃 제거 검수",
+          "derived_from": "http://www.cs.go.kr/upload/data/zip/cheongsong03_2.zip",
+          "original_ai": "sources/official-zip-batch9-20261010/eaef0ca7b971e03cc0db.ai",
+          "original_zip": "sources/official-zip-batch9-20261010/cb7a4b581e0b1965bae3.zip",
+          "order": 0,
+          "asset_group": "logotype"
+        }
+      ]
+    },
+    "gongu-ci-1483": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "gongu-ci-1483",
+      "primary": "candidate-0-04bf3063-page-0-main",
+      "variants": [
+        {
+          "key": "candidate-0-04bf3063-page-0-main",
+          "label": "국영문 상하조합",
+          "form": "vertical",
+          "lockup": "vertical",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-zip-batch9-20261010/a236c31d26f3051bce00.svg",
+            "png": "sources/official-zip-batch9-20261010/a32ebbf9132096a8e8e2.png"
+          },
+          "aspect": 1.079913606911447,
+          "origin": "official",
+          "provider": "공식 AI · 레이아웃 제거 검수",
+          "derived_from": "https://www.cfac.or.kr/img/CI_ai.zip",
+          "original_ai": "sources/official-zip-batch9-20261010/04bf30639f4a5142480c.ai",
+          "original_zip": "sources/official-zip-batch9-20261010/619356f0c5fe7a0b9784.zip",
+          "order": 0,
+          "asset_group": "logotype"
+        },
+        {
+          "key": "candidate-0-04bf3063-page-0-symbol",
+          "label": "심볼마크",
+          "form": "symbol",
+          "lockup": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-zip-batch9-20261010/32663ab2c561d00e24c4.svg",
+            "png": "sources/official-zip-batch9-20261010/4bfe5b713a3e64ea9c94.png"
+          },
+          "aspect": 1.1025358324145536,
+          "origin": "official",
+          "provider": "공식 AI · 레이아웃 제거 검수",
+          "derived_from": "https://www.cfac.or.kr/img/CI_ai.zip",
+          "original_ai": "sources/official-zip-batch9-20261010/04bf30639f4a5142480c.ai",
+          "original_zip": "sources/official-zip-batch9-20261010/619356f0c5fe7a0b9784.zip",
+          "order": 1,
+          "asset_group": "symbol"
+        }
+      ]
+    }
+  },
+  "variants": {
+    "gongu-ci-1586": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "gongu-ci-1586",
+      "primary": "candidate-0-63c312ae-page-0-vertical-ko",
+      "variants": [
+        {
+          "key": "candidate-0-63c312ae-page-0-vertical-ko",
+          "label": "국문 상하조합",
+          "form": "vertical",
+          "lockup": "vertical",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-zip-batch9-20261010/1bbd5dbbb0071ccc5828.svg",
+            "png": "sources/official-zip-batch9-20261010/2c5d00a28e436ee49f96.png"
+          },
+          "aspect": 1.5408320493066257,
+          "origin": "official",
+          "provider": "공식 AI · 레이아웃 제거 검수",
+          "derived_from": "https://www.kli.re.kr/kli/file/kli_logo1.zip",
+          "original_ai": "sources/official-zip-batch9-20261010/63c312ae3c777c8e16bf.ai",
+          "original_zip": "sources/official-zip-batch9-20261010/b548c440dd462975ee2c.zip",
+          "order": 0,
+          "asset_group": "logotype"
+        },
+        {
+          "key": "candidate-0-63c312ae-page-0-vertical-en",
+          "label": "영문 상하조합",
+          "form": "vertical",
+          "lockup": "vertical",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-zip-batch9-20261010/c64bbf53e5c3f96d9b09.svg",
+            "png": "sources/official-zip-batch9-20261010/c38935bf3d598c568951.png"
+          },
+          "aspect": 1.7969451931716083,
+          "origin": "official",
+          "provider": "공식 AI · 레이아웃 제거 검수",
+          "derived_from": "https://www.kli.re.kr/kli/file/kli_logo1.zip",
+          "original_ai": "sources/official-zip-batch9-20261010/63c312ae3c777c8e16bf.ai",
+          "original_zip": "sources/official-zip-batch9-20261010/b548c440dd462975ee2c.zip",
+          "order": 1,
+          "asset_group": "logotype"
+        }
+      ]
+    },
+    "gongu-ci-1579": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "gongu-ci-1579",
+      "primary": "candidate-1-a5bca441-page-0-main",
+      "variants": [
+        {
+          "key": "candidate-1-a5bca441-page-0-main",
+          "label": "공식 국영문 조합",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-zip-batch9-20261010/c66fdba7b99bcb77190f.svg",
+            "png": "sources/official-zip-batch9-20261010/b1ce4bd881da8af0cdde.png"
+          },
+          "aspect": 5.571030640668524,
+          "origin": "official",
+          "provider": "공식 AI · 레이아웃 제거 검수",
+          "derived_from": "https://www.kimm.re.kr/main/down/logo_ai.zip",
+          "original_ai": "sources/official-zip-batch9-20261010/a5bca4417b9302aab568.ai",
+          "original_zip": "sources/official-zip-batch9-20261010/1b4b042792ec4e99eb13.zip",
+          "order": 0,
+          "asset_group": "logotype"
+        }
+      ]
+    },
+    "gongu-ci-1497": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "gongu-ci-1497",
+      "primary": "candidate-0-410c6f73-page-0-horizontal-koen",
+      "variants": [
+        {
+          "key": "candidate-0-410c6f73-page-0-vertical-ko",
+          "label": "국문 상하조합",
+          "form": "vertical",
+          "lockup": "vertical",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-zip-batch9-20261010/fb36fc34d77a61dfd0ab.svg",
+            "png": "sources/official-zip-batch9-20261010/efcf7aa0ade7457f85d7.png"
+          },
+          "aspect": 1.6680567139282736,
+          "origin": "official",
+          "provider": "공식 AI · 레이아웃 제거 검수",
+          "derived_from": "https://cjculture.org/project/design/contents/logo_ci.zip",
+          "original_ai": "sources/official-zip-batch9-20261010/410c6f73f2d4bedfbe3e.ai",
+          "original_zip": "sources/official-zip-batch9-20261010/0c8d1e97edc79c85b3a6.zip",
+          "order": 0,
+          "asset_group": "logotype"
+        },
+        {
+          "key": "candidate-0-410c6f73-page-0-vertical-en",
+          "label": "영문 상하조합",
+          "form": "vertical",
+          "lockup": "vertical",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-zip-batch9-20261010/6798d0a66abaec9b7e18.svg",
+            "png": "sources/official-zip-batch9-20261010/e516b165ba09148cd601.png"
+          },
+          "aspect": 1.7857142857142858,
+          "origin": "official",
+          "provider": "공식 AI · 레이아웃 제거 검수",
+          "derived_from": "https://cjculture.org/project/design/contents/logo_ci.zip",
+          "original_ai": "sources/official-zip-batch9-20261010/410c6f73f2d4bedfbe3e.ai",
+          "original_zip": "sources/official-zip-batch9-20261010/0c8d1e97edc79c85b3a6.zip",
+          "order": 1,
+          "asset_group": "logotype"
+        },
+        {
+          "key": "candidate-0-410c6f73-page-0-vertical-koen",
+          "label": "국영문 상하조합",
+          "form": "vertical",
+          "lockup": "vertical",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-zip-batch9-20261010/8793ce83f9f056b735be.svg",
+            "png": "sources/official-zip-batch9-20261010/b579ebd49d8047d21cab.png"
+          },
+          "aspect": 1.3596193065941535,
+          "origin": "official",
+          "provider": "공식 AI · 레이아웃 제거 검수",
+          "derived_from": "https://cjculture.org/project/design/contents/logo_ci.zip",
+          "original_ai": "sources/official-zip-batch9-20261010/410c6f73f2d4bedfbe3e.ai",
+          "original_zip": "sources/official-zip-batch9-20261010/0c8d1e97edc79c85b3a6.zip",
+          "order": 2,
+          "asset_group": "logotype"
+        },
+        {
+          "key": "candidate-0-410c6f73-page-0-vertical-en-left",
+          "label": "영문 왼쪽정렬 상하조합",
+          "form": "vertical",
+          "lockup": "vertical",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-zip-batch9-20261010/a04cd731b7d28e97459f.svg",
+            "png": "sources/official-zip-batch9-20261010/1481126740eed3a25527.png"
+          },
+          "aspect": 2.7472527472527473,
+          "origin": "official",
+          "provider": "공식 AI · 레이아웃 제거 검수",
+          "derived_from": "https://cjculture.org/project/design/contents/logo_ci.zip",
+          "original_ai": "sources/official-zip-batch9-20261010/410c6f73f2d4bedfbe3e.ai",
+          "original_zip": "sources/official-zip-batch9-20261010/0c8d1e97edc79c85b3a6.zip",
+          "order": 3,
+          "asset_group": "logotype"
+        },
+        {
+          "key": "candidate-0-410c6f73-page-0-horizontal-en",
+          "label": "영문 좌우조합",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-zip-batch9-20261010/1e35fb90d633e532187f.svg",
+            "png": "sources/official-zip-batch9-20261010/47fc8c3dd9600541f14e.png"
+          },
+          "aspect": 5.730659025787966,
+          "origin": "official",
+          "provider": "공식 AI · 레이아웃 제거 검수",
+          "derived_from": "https://cjculture.org/project/design/contents/logo_ci.zip",
+          "original_ai": "sources/official-zip-batch9-20261010/410c6f73f2d4bedfbe3e.ai",
+          "original_zip": "sources/official-zip-batch9-20261010/0c8d1e97edc79c85b3a6.zip",
+          "order": 4,
+          "asset_group": "logotype"
+        },
+        {
+          "key": "candidate-0-410c6f73-page-0-horizontal-koen",
+          "label": "국영문 좌우조합",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-zip-batch9-20261010/a881d0bd519f224f5aa0.svg",
+            "png": "sources/official-zip-batch9-20261010/6165f203403ddd44a4ce.png"
+          },
+          "aspect": 3.952569169960474,
+          "origin": "official",
+          "provider": "공식 AI · 레이아웃 제거 검수",
+          "derived_from": "https://cjculture.org/project/design/contents/logo_ci.zip",
+          "original_ai": "sources/official-zip-batch9-20261010/410c6f73f2d4bedfbe3e.ai",
+          "original_zip": "sources/official-zip-batch9-20261010/0c8d1e97edc79c85b3a6.zip",
+          "order": 5,
+          "asset_group": "logotype"
+        },
+        {
+          "key": "candidate-0-410c6f73-page-0-horizontal-ko",
+          "label": "국문 좌우조합",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-zip-batch9-20261010/105974e7a1e31153e696.svg",
+            "png": "sources/official-zip-batch9-20261010/c28e6ff763b460ac7e6c.png"
+          },
+          "aspect": 7.434944237918216,
+          "origin": "official",
+          "provider": "공식 AI · 레이아웃 제거 검수",
+          "derived_from": "https://cjculture.org/project/design/contents/logo_ci.zip",
+          "original_ai": "sources/official-zip-batch9-20261010/410c6f73f2d4bedfbe3e.ai",
+          "original_zip": "sources/official-zip-batch9-20261010/0c8d1e97edc79c85b3a6.zip",
+          "order": 6,
+          "asset_group": "logotype"
+        },
+        {
+          "key": "candidate-0-410c6f73-page-0-symbol",
+          "label": "심볼마크",
+          "form": "symbol",
+          "lockup": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-zip-batch9-20261010/0a1a86accd39071c3c20.svg",
+            "png": "sources/official-zip-batch9-20261010/18f6e2504491d5e571eb.png"
+          },
+          "aspect": 1.0,
+          "origin": "official",
+          "provider": "공식 AI · 레이아웃 제거 검수",
+          "derived_from": "https://cjculture.org/project/design/contents/logo_ci.zip",
+          "original_ai": "sources/official-zip-batch9-20261010/410c6f73f2d4bedfbe3e.ai",
+          "original_zip": "sources/official-zip-batch9-20261010/0c8d1e97edc79c85b3a6.zip",
+          "order": 7,
+          "asset_group": "symbol"
+        }
+      ]
+    },
+    "gongu-ci-1493": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "gongu-ci-1493",
+      "primary": "candidate-0-68c73483-page-0-main",
+      "variants": [
+        {
+          "key": "candidate-0-68c73483-page-0-main",
+          "label": "국영문 좌우조합",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-zip-batch9-20261010/2f8b0d0add73fe205863.svg",
+            "png": "sources/official-zip-batch9-20261010/3a2831557a0f426a4c31.png"
+          },
+          "aspect": 4.140786749482402,
+          "origin": "official",
+          "provider": "공식 AI · 레이아웃 제거 검수",
+          "derived_from": "http://www.cctf.or.kr/coding/sub1/ci_ai.zip",
+          "original_ai": "sources/official-zip-batch9-20261010/68c7348341055089319d.ai",
+          "original_zip": "sources/official-zip-batch9-20261010/594bec803c3bbcfbd5ff.zip",
+          "order": 0,
+          "asset_group": "logotype"
+        }
+      ]
+    },
+    "gongu-ci-1492": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "gongu-ci-1492",
+      "primary": "candidate-0-eaef0ca7-page-0-main",
+      "variants": [
+        {
+          "key": "candidate-0-eaef0ca7-page-0-main",
+          "label": "슬로건 국문 좌우조합",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-zip-batch9-20261010/97430919a21518ea1472.svg",
+            "png": "sources/official-zip-batch9-20261010/5f7ebf9e04e75c92f52f.png"
+          },
+          "aspect": 2.4906600249066004,
+          "origin": "official",
+          "provider": "공식 AI · 레이아웃 제거 검수",
+          "derived_from": "http://www.cs.go.kr/upload/data/zip/cheongsong03_2.zip",
+          "original_ai": "sources/official-zip-batch9-20261010/eaef0ca7b971e03cc0db.ai",
+          "original_zip": "sources/official-zip-batch9-20261010/cb7a4b581e0b1965bae3.zip",
+          "order": 0,
+          "asset_group": "logotype"
+        }
+      ]
+    },
+    "gongu-ci-1483": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "gongu-ci-1483",
+      "primary": "candidate-0-04bf3063-page-0-main",
+      "variants": [
+        {
+          "key": "candidate-0-04bf3063-page-0-main",
+          "label": "국영문 상하조합",
+          "form": "vertical",
+          "lockup": "vertical",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-zip-batch9-20261010/a236c31d26f3051bce00.svg",
+            "png": "sources/official-zip-batch9-20261010/a32ebbf9132096a8e8e2.png"
+          },
+          "aspect": 1.079913606911447,
+          "origin": "official",
+          "provider": "공식 AI · 레이아웃 제거 검수",
+          "derived_from": "https://www.cfac.or.kr/img/CI_ai.zip",
+          "original_ai": "sources/official-zip-batch9-20261010/04bf30639f4a5142480c.ai",
+          "original_zip": "sources/official-zip-batch9-20261010/619356f0c5fe7a0b9784.zip",
+          "order": 0,
+          "asset_group": "logotype"
+        },
+        {
+          "key": "candidate-0-04bf3063-page-0-symbol",
+          "label": "심볼마크",
+          "form": "symbol",
+          "lockup": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-zip-batch9-20261010/32663ab2c561d00e24c4.svg",
+            "png": "sources/official-zip-batch9-20261010/4bfe5b713a3e64ea9c94.png"
+          },
+          "aspect": 1.1025358324145536,
+          "origin": "official",
+          "provider": "공식 AI · 레이아웃 제거 검수",
+          "derived_from": "https://www.cfac.or.kr/img/CI_ai.zip",
+          "original_ai": "sources/official-zip-batch9-20261010/04bf30639f4a5142480c.ai",
+          "original_zip": "sources/official-zip-batch9-20261010/619356f0c5fe7a0b9784.zip",
+          "order": 1,
+          "asset_group": "symbol"
+        }
+      ]
+    }
+  },
+  "original_files": {
+    "gongu-ci-1586": [
+      "sources/official-zip-batch9-20261010/63c312ae3c777c8e16bf.ai"
+    ],
+    "gongu-ci-1579": [
+      "sources/official-zip-batch9-20261010/a5bca4417b9302aab568.ai"
+    ],
+    "gongu-ci-1497": [
+      "sources/official-zip-batch9-20261010/410c6f73f2d4bedfbe3e.ai"
+    ],
+    "gongu-ci-1493": [
+      "sources/official-zip-batch9-20261010/68c7348341055089319d.ai"
+    ],
+    "gongu-ci-1492": [
+      "sources/official-zip-batch9-20261010/eaef0ca7b971e03cc0db.ai"
+    ],
+    "gongu-ci-1483": [
+      "sources/official-zip-batch9-20261010/04bf30639f4a5142480c.ai"
+    ]
+  }
+}

@@ -12,8 +12,8 @@ export const dynamic='force-dynamic';
 const reply=(body:unknown,status=200)=>Response.json(body,{status,headers:{'Cache-Control':'no-store'}});
 export async function GET(request:Request){
  try{const id=new URL(request.url).searchParams.get('id');if(id&&!/^[\p{L}\p{N}._-]{1,200}$/u.test(id))return reply({error:'로고를 확인해 주세요.'},400);
- const rows=await trafficDb().query("SELECT id,payload->'presentation' presentation FROM semologo.logo_posts WHERE status='published' AND payload ? 'presentation' AND ($1::text IS NULL OR id=$1)",[id]);
- return reply({presentations:Object.fromEntries(rows.rows.filter(r=>validPresentation(r.presentation)).map(r=>[r.id,r.presentation]))});
+ const rows=await trafficDb().query("SELECT id,payload,payload->'presentation' presentation FROM semologo.logo_posts WHERE status='published' AND payload ? 'presentation' AND ($1::text IS NULL OR id=$1)",[id]);
+ return reply({presentations:Object.fromEntries(rows.rows.filter(r=>validPresentation(r.presentation)&&!cmsBrand(r.id,r.payload).rejected_asset_files?.includes(r.presentation.file)).map(r=>[r.id,r.presentation]))});
  }catch{return reply({error:'대표 이미지를 불러오지 못했어요.'},503);}
 }
 export async function PATCH(request:Request){

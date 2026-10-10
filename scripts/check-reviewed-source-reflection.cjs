@@ -31,3 +31,16 @@ assert.equal(reviewedMergeTarget('naver-2'), 'naver');
 assert.equal(reviewedMergeTarget('naver--src-83d3c48'), 'naver');
 assert.ok(applyReviewedAssets({id:'naver-blog'}).aliases.includes('네이버블로그'));
 console.log('NAVER variants, aliases, merged identities and sitemap seed: passed');
+
+const nh = applyReviewedAssets({id:'nhbank',logo_svg:true,has_svg:true,icon_png:'logo-icon.png'});
+assert.equal(nh.has_svg,false);
+assert.ok(!nh.logo_svg && !nh.svg_transparent);
+assert.ok(nh.rejected_asset_files.includes('logo-icon.png'));
+assert.ok(nh.logo_png.startsWith('sources/bank-corrections-'));
+assert.ok(reviewedVariants.nhbank.variants.every(v => !v.files.svg));
+assert.equal(reviewedMergeTarget('industrial-bank-of-korea'),'ibk');
+assert.equal(reviewedMergeTarget('ibk-co'),'ibk');
+assert.equal(reviewedMergeTarget('ibk-en'),'ibk');
+assert.ok(reviewedVariants.ibk.variants.some(v=>v.lang==='en'));
+assert.ok(applyReviewedAssets({id:'kbstar'}).rejected_asset_files.includes('logo-800.png'));
+console.log('Bank contamination exclusion and IBK identity merges: passed');

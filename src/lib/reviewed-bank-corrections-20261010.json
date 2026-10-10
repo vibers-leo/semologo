@@ -1,0 +1,300 @@
+{
+  "patches": {
+    "nhbank": {
+      "has_svg": false,
+      "has_png": true,
+      "logo_svg": null,
+      "svg_transparent": null,
+      "logo_png": "sources/bank-corrections-20261010/6b15663940dbea4b.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/nhbank/sources/bank-corrections-20261010/6b15663940dbea4b.png",
+      "icon_png": "sources/bank-corrections-20261010/6b15663940dbea4b.png",
+      "dark_png": null,
+      "light": false,
+      "light_logo": false,
+      "dark_variant": false,
+      "presentation": {
+        "file": "sources/bank-corrections-20261010/6b15663940dbea4b.png",
+        "bg": "light"
+      },
+      "rejected_asset_files": [
+        "logo.svg",
+        "logo-transparent.png",
+        "logo-icon.png",
+        "logo-800.png",
+        "logo-white.png",
+        "variants/symbol.svg",
+        "variants/symbol-512.png"
+      ],
+      "asset_review_status": "verified",
+      "asset_origin": null,
+      "variants_n": 1,
+      "official_source_page": "https://www.nhbank.com/nhmn/KO_NHMN_08.do"
+    },
+    "ibk": {
+      "name_ko": "IBK기업은행",
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": "sources/bank-corrections-20261010/34e127e48b7c0398.svg",
+      "svg_transparent": "sources/bank-corrections-20261010/34e127e48b7c0398.svg",
+      "logo_png": "sources/bank-corrections-20261010/cc51458b272cc0fe.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/ibk/sources/bank-corrections-20261010/cc51458b272cc0fe.png",
+      "icon_png": "sources/bank-corrections-20261010/9dc9ffe32fcd49e0.png",
+      "dark_png": null,
+      "light": false,
+      "light_logo": false,
+      "dark_variant": false,
+      "presentation": {
+        "file": "sources/bank-corrections-20261010/cc51458b272cc0fe.png",
+        "bg": "light"
+      },
+      "variants_n": 3,
+      "asset_review_status": "verified",
+      "asset_origin": null,
+      "official_source_page": "https://global.ibk.co.kr/en/company/CI",
+      "aliases": [
+        "기업은행",
+        "중소기업은행",
+        "IBK기업은행",
+        "Industrial Bank of Korea"
+      ]
+    },
+    "industrial-bank-of-korea": {
+      "hidden": true,
+      "merged_into": "ibk",
+      "variant_of": "ibk",
+      "hidden_reason": "IBK기업은행 구 CI 아카이브로 통합",
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": "sources/bank-corrections-20261010/2fff3763c2b803a5.svg",
+      "svg_transparent": "sources/bank-corrections-20261010/2fff3763c2b803a5.svg",
+      "logo_png": "sources/bank-corrections-20261010/e999ae2e34318f3c.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/industrial-bank-of-korea/sources/bank-corrections-20261010/e999ae2e34318f3c.png",
+      "presentation": {
+        "file": "sources/bank-corrections-20261010/e999ae2e34318f3c.png",
+        "bg": "light"
+      },
+      "dark_png": null,
+      "light": false,
+      "light_logo": false,
+      "dark_variant": false
+    },
+    "ibk-en": {
+      "hidden": true,
+      "merged_into": "ibk",
+      "variant_of": "ibk",
+      "hidden_reason": "같은 기업은행의 영문 조합을 대표 콘텐츠에 통합"
+    },
+    "ibk-co": {
+      "hidden": true,
+      "merged_into": "ibk",
+      "variant_of": "ibk",
+      "has_svg": false,
+      "logo_svg": null,
+      "svg_transparent": null,
+      "icon_png": null,
+      "dark_png": null,
+      "light": false,
+      "light_logo": false,
+      "dark_variant": false,
+      "rejected_asset_files": [
+        "logo.svg",
+        "logo-transparent.png",
+        "logo-icon.png",
+        "logo-800.png",
+        "logo-white.png",
+        "variants/symbol.svg",
+        "variants/symbol-512.png"
+      ],
+      "hidden_reason": "IBK기업은행으로 통합 · 잘못 연결된 타 브랜드 자산 제외"
+    },
+    "kbstar": {
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": "sources/figma-bank-sheet-20261010/ab8dd53b88344b32.svg",
+      "svg_transparent": "sources/figma-bank-sheet-20261010/ab8dd53b88344b32.svg",
+      "logo_png": "sources/figma-bank-sheet-20261010/4af97eb83b789040.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/kbstar/sources/figma-bank-sheet-20261010/4af97eb83b789040.png",
+      "icon_png": "sources/figma-bank-sheet-20261010/52442f6e30705c00.png",
+      "collected_originals_url": "https://logo.vibers.co.kr/_clients/kbstar/sources/figma-bank-sheet-20261010/9043b18bb24ef4c8.zip",
+      "asset_origin": null,
+      "asset_review_status": "verified",
+      "variants_n": 3,
+      "light": false,
+      "light_logo": false,
+      "dark_variant": false,
+      "presentation": {
+        "file": "sources/figma-bank-sheet-20261010/4af97eb83b789040.png",
+        "bg": "light"
+      },
+      "rejected_asset_files": [
+        "logo-800.png",
+        "logo-icon.png",
+        "logo-transparent.png",
+        "logo-white.png",
+        "logo.svg",
+        "variants/symbol-512.png",
+        "variants/symbol.svg"
+      ]
+    }
+  },
+  "variants": {
+    "nhbank": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "nhbank",
+      "primary": "verified-png",
+      "variants": [
+        {
+          "key": "verified-png",
+          "label": "기본 PNG · 기존 수집본 검수",
+          "form": "vertical",
+          "lang": "ko",
+          "files": {
+            "png": "sources/bank-corrections-20261010/6b15663940dbea4b.png"
+          },
+          "provider": "legacy-reviewed",
+          "origin": "collected",
+          "order": 0
+        }
+      ]
+    },
+    "ibk": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "ibk",
+      "primary": "ko-current",
+      "variants": [
+        {
+          "key": "ko-current",
+          "label": "국문 가로조합 · 슬로건 포함",
+          "form": "horizontal",
+          "lang": "ko",
+          "files": {
+            "svg": "sources/bank-corrections-20261010/34e127e48b7c0398.svg",
+            "png": "sources/bank-corrections-20261010/cc51458b272cc0fe.png"
+          },
+          "provider": "legacy-reviewed",
+          "origin": "collected",
+          "order": 0,
+          "source_url": "https://global.ibk.co.kr/en/company/CI"
+        },
+        {
+          "key": "en-current",
+          "label": "영문 가로조합",
+          "form": "horizontal",
+          "lang": "en",
+          "files": {
+            "svg": "sources/bank-corrections-20261010/113a82018aaba458.svg",
+            "png": "sources/bank-corrections-20261010/12ad51c22a37a6e3.png"
+          },
+          "provider": "legacy-reviewed",
+          "origin": "collected",
+          "order": 1,
+          "source_url": "https://global.ibk.co.kr/en/company/CI"
+        },
+        {
+          "key": "symbol-current",
+          "label": "심볼",
+          "form": "symbol",
+          "lang": "none",
+          "files": {
+            "svg": "sources/bank-corrections-20261010/3cb7b7b3e6aebd98.svg",
+            "png": "sources/bank-corrections-20261010/9dc9ffe32fcd49e0.png"
+          },
+          "provider": "legacy-reviewed",
+          "origin": "collected",
+          "order": 2,
+          "source_url": "https://global.ibk.co.kr/en/company/CI"
+        }
+      ]
+    },
+    "industrial-bank-of-korea": {
+      "schema": 1,
+      "id": "industrial-bank-of-korea",
+      "primary": "historical",
+      "variants": [
+        {
+          "key": "historical",
+          "label": "기업은행 구 CI · 2007년 변경 이전",
+          "form": "horizontal",
+          "lang": "ko",
+          "files": {
+            "svg": "sources/bank-corrections-20261010/2fff3763c2b803a5.svg",
+            "png": "sources/bank-corrections-20261010/e999ae2e34318f3c.png"
+          },
+          "provider": "legacy-reviewed",
+          "origin": "collected",
+          "order": 0
+        }
+      ]
+    },
+    "kbstar": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "kbstar",
+      "primary": "figma-horizontal",
+      "variants": [
+        {
+          "key": "figma-horizontal",
+          "label": "가로조합 · 커뮤니티 수록",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "ko",
+          "color": "original",
+          "files": {
+            "svg": "sources/figma-bank-sheet-20261010/ab8dd53b88344b32.svg",
+            "png": "sources/figma-bank-sheet-20261010/4af97eb83b789040.png"
+          },
+          "aspect": 6.071676339136821,
+          "provider": "figma-community",
+          "origin": "derived",
+          "asset_group": "logotype",
+          "source_url": "https://www.figma.com/design/gdhfNboRnMJe001luewhIP?node-id=33-791",
+          "derived_from": "시중 은행 (1).svg",
+          "order": 0,
+          "official_distribution": false
+        },
+        {
+          "key": "figma-symbol",
+          "label": "심볼 · 커뮤니티 수록",
+          "form": "symbol",
+          "lockup": "symbol",
+          "lang": "none",
+          "color": "original",
+          "files": {
+            "svg": "sources/figma-bank-sheet-20261010/b4b8b732310b07a8.svg",
+            "png": "sources/figma-bank-sheet-20261010/d3d3e3e683560039.png"
+          },
+          "aspect": 1.4441623540543347,
+          "provider": "figma-community",
+          "origin": "derived",
+          "asset_group": "symbol",
+          "source_url": "https://www.figma.com/design/gdhfNboRnMJe001luewhIP?node-id=33-791",
+          "derived_from": "시중 은행 (1).svg",
+          "order": 1,
+          "official_distribution": false
+        },
+        {
+          "key": "figma-app",
+          "label": "색 배경 앱 구성 · 커뮤니티 편집본",
+          "form": "symbol",
+          "lockup": "symbol",
+          "lang": "none",
+          "color": "original",
+          "files": {
+            "svg": "sources/figma-bank-sheet-20261010/c50b934698f4c3ad.svg",
+            "png": "sources/figma-bank-sheet-20261010/7691beb3aafe8cf6.png"
+          },
+          "aspect": 1.0,
+          "provider": "figma-community",
+          "origin": "derived",
+          "asset_group": "symbol",
+          "source_url": "https://www.figma.com/design/gdhfNboRnMJe001luewhIP?node-id=33-791",
+          "derived_from": "시중 은행 (1).svg",
+          "order": 2,
+          "official_distribution": false
+        }
+      ]
+    }
+  }
+}

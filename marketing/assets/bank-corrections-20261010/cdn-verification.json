@@ -1,0 +1,47 @@
+[
+  {
+    "key": "_clients/nhbank/sources/bank-corrections-20261010/6b15663940dbea4b.png",
+    "sha256": "6b15663940dbea4ba5978261387f35cc41deae3006ae521f97d31ed3a6299841",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/ibk/sources/bank-corrections-20261010/34e127e48b7c0398.svg",
+    "sha256": "34e127e48b7c0398f11a610d5f374f0525d861a4b9ec41b023f00553b5e31c68",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/ibk/sources/bank-corrections-20261010/cc51458b272cc0fe.png",
+    "sha256": "cc51458b272cc0fe494fb75f23a254faa1437087b613fbb9c8baf5817ff88efb",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/ibk/sources/bank-corrections-20261010/113a82018aaba458.svg",
+    "sha256": "113a82018aaba4583ea8494de5f7f5ee4ec65bc4a81e5386d6ad2b22a0507382",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/ibk/sources/bank-corrections-20261010/12ad51c22a37a6e3.png",
+    "sha256": "12ad51c22a37a6e3a437bfaae76af5ec518c21d5faeb86ad6cbeca164e32a372",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/ibk/sources/bank-corrections-20261010/3cb7b7b3e6aebd98.svg",
+    "sha256": "3cb7b7b3e6aebd98aca94333ca2c053ad47de17c0079329918649de4da523506",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/ibk/sources/bank-corrections-20261010/9dc9ffe32fcd49e0.png",
+    "sha256": "9dc9ffe32fcd49e09dfc74169823cd12343c2cab6bcb8eaf30133d98331a7fea",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/industrial-bank-of-korea/sources/bank-corrections-20261010/2fff3763c2b803a5.svg",
+    "sha256": "2fff3763c2b803a5d46355b78a30a2b3ab049932070cf233c6704cdbca6b0b2c",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/industrial-bank-of-korea/sources/bank-corrections-20261010/e999ae2e34318f3c.png",
+    "sha256": "e999ae2e34318f3cca52206749b0bf191a9e685e01cbdbe29160d3a5b4f520ac",
+    "cdn_verified": true
+  }
+]

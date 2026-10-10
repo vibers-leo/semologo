@@ -1,0 +1,1150 @@
+{
+  "schema": 1,
+  "reviewed": [
+    {
+      "id": "gongu-ci-1692",
+      "name_ko": "한국천문연구원",
+      "key": "candidate-0-9d61d49d-page-0-wordmark",
+      "source_page": "https://www.kasi.re.kr/kor/introduce/pageView/32",
+      "source_url": "https://www.kasi.re.kr/resources/file/CI_Kasi.zip",
+      "original": "marketing/assets/png-recollection-zip-batch6-20261010/gongu-ci-1692/candidate-0-9d61d49d.ai",
+      "original_zip": "marketing/assets/png-recollection-20261010/gongu-ci-1692/candidate-0.zip",
+      "archive_member": "ai/╖╬░φ└╟╣╠.ai",
+      "svg": "marketing/assets/png-recollection-zip-batch8-20261010/gongu-ci-1692/candidate-0-9d61d49d-page-0-wordmark-extracted.svg",
+      "png": "marketing/assets/png-recollection-zip-batch8-20261010/gongu-ci-1692/candidate-0-9d61d49d-page-0-wordmark-extracted.png",
+      "checked_at": "2026-10-10",
+      "review": "verified-vector-extract",
+      "label": "KASI 워드마크",
+      "form": "wordmark"
+    },
+    {
+      "id": "gongu-ci-1692",
+      "name_ko": "한국천문연구원",
+      "key": "candidate-0-151f69f1-page-0-horizontal-ko",
+      "source_page": "https://www.kasi.re.kr/kor/introduce/pageView/32",
+      "source_url": "https://www.kasi.re.kr/resources/file/CI_Kasi.zip",
+      "original": "marketing/assets/png-recollection-zip-batch6-20261010/gongu-ci-1692/candidate-0-151f69f1.ai",
+      "original_zip": "marketing/assets/png-recollection-20261010/gongu-ci-1692/candidate-0.zip",
+      "archive_member": "ai/╜├▒╫┤╧├τ(░í╖╬┴╢╟╒).ai",
+      "svg": "marketing/assets/png-recollection-zip-batch8-20261010/gongu-ci-1692/candidate-0-151f69f1-page-0-horizontal-ko-extracted.svg",
+      "png": "marketing/assets/png-recollection-zip-batch8-20261010/gongu-ci-1692/candidate-0-151f69f1-page-0-horizontal-ko-extracted.png",
+      "checked_at": "2026-10-10",
+      "review": "verified-vector-extract",
+      "label": "국문 좌우조합",
+      "form": "horizontal"
+    },
+    {
+      "id": "gongu-ci-1692",
+      "name_ko": "한국천문연구원",
+      "key": "candidate-0-151f69f1-page-0-horizontal-koen",
+      "source_page": "https://www.kasi.re.kr/kor/introduce/pageView/32",
+      "source_url": "https://www.kasi.re.kr/resources/file/CI_Kasi.zip",
+      "original": "marketing/assets/png-recollection-zip-batch6-20261010/gongu-ci-1692/candidate-0-151f69f1.ai",
+      "original_zip": "marketing/assets/png-recollection-20261010/gongu-ci-1692/candidate-0.zip",
+      "archive_member": "ai/╜├▒╫┤╧├τ(░í╖╬┴╢╟╒).ai",
+      "svg": "marketing/assets/png-recollection-zip-batch8-20261010/gongu-ci-1692/candidate-0-151f69f1-page-0-horizontal-koen-extracted.svg",
+      "png": "marketing/assets/png-recollection-zip-batch8-20261010/gongu-ci-1692/candidate-0-151f69f1-page-0-horizontal-koen-extracted.png",
+      "checked_at": "2026-10-10",
+      "review": "verified-vector-extract",
+      "label": "국영문 좌우조합",
+      "form": "horizontal"
+    },
+    {
+      "id": "gongu-ci-1692",
+      "name_ko": "한국천문연구원",
+      "key": "candidate-0-151f69f1-page-0-horizontal-en-stacked",
+      "source_page": "https://www.kasi.re.kr/kor/introduce/pageView/32",
+      "source_url": "https://www.kasi.re.kr/resources/file/CI_Kasi.zip",
+      "original": "marketing/assets/png-recollection-zip-batch6-20261010/gongu-ci-1692/candidate-0-151f69f1.ai",
+      "original_zip": "marketing/assets/png-recollection-20261010/gongu-ci-1692/candidate-0.zip",
+      "archive_member": "ai/╜├▒╫┤╧├τ(░í╖╬┴╢╟╒).ai",
+      "svg": "marketing/assets/png-recollection-zip-batch8-20261010/gongu-ci-1692/candidate-0-151f69f1-page-0-horizontal-en-stacked-extracted.svg",
+      "png": "marketing/assets/png-recollection-zip-batch8-20261010/gongu-ci-1692/candidate-0-151f69f1-page-0-horizontal-en-stacked-extracted.png",
+      "checked_at": "2026-10-10",
+      "review": "verified-vector-extract",
+      "label": "영문 2단 좌우조합",
+      "form": "horizontal"
+    },
+    {
+      "id": "gongu-ci-1692",
+      "name_ko": "한국천문연구원",
+      "key": "candidate-0-151f69f1-page-0-horizontal-en",
+      "source_page": "https://www.kasi.re.kr/kor/introduce/pageView/32",
+      "source_url": "https://www.kasi.re.kr/resources/file/CI_Kasi.zip",
+      "original": "marketing/assets/png-recollection-zip-batch6-20261010/gongu-ci-1692/candidate-0-151f69f1.ai",
+      "original_zip": "marketing/assets/png-recollection-20261010/gongu-ci-1692/candidate-0.zip",
+      "archive_member": "ai/╜├▒╫┤╧├τ(░í╖╬┴╢╟╒).ai",
+      "svg": "marketing/assets/png-recollection-zip-batch8-20261010/gongu-ci-1692/candidate-0-151f69f1-page-0-horizontal-en-extracted.svg",
+      "png": "marketing/assets/png-recollection-zip-batch8-20261010/gongu-ci-1692/candidate-0-151f69f1-page-0-horizontal-en-extracted.png",
+      "checked_at": "2026-10-10",
+      "review": "verified-vector-extract",
+      "label": "영문 좌우조합",
+      "form": "horizontal"
+    },
+    {
+      "id": "gongu-ci-1605",
+      "name_ko": "한국문화정보원",
+      "key": "candidate-0-9f17d9bf-page-0-horizontal-en",
+      "source_page": "https://www.kcisa.kr/kr/contents/center_cIinfo/view.do",
+      "source_url": "https://www.kcisa.kr/_img/web/pc/KCISA_CI.zip",
+      "original": "marketing/assets/png-recollection-zip-batch6-20261010/gongu-ci-1605/candidate-0-9f17d9bf.ai",
+      "original_zip": "marketing/assets/png-recollection-20261010/gongu-ci-1605/candidate-0.zip",
+      "archive_member": "╟╤▒╣╣«╚¡┴ñ║╕┐°_typeB_┐╡╣«.ai",
+      "svg": "marketing/assets/png-recollection-zip-batch8-20261010/gongu-ci-1605/candidate-0-9f17d9bf-page-0-horizontal-en-extracted.svg",
+      "png": "marketing/assets/png-recollection-zip-batch8-20261010/gongu-ci-1605/candidate-0-9f17d9bf-page-0-horizontal-en-extracted.png",
+      "checked_at": "2026-10-10",
+      "review": "verified-vector-extract",
+      "label": "영문 좌우조합",
+      "form": "horizontal"
+    },
+    {
+      "id": "gongu-ci-1605",
+      "name_ko": "한국문화정보원",
+      "key": "candidate-0-6d33dde5-page-0-horizontal-ko",
+      "source_page": "https://www.kcisa.kr/kr/contents/center_cIinfo/view.do",
+      "source_url": "https://www.kcisa.kr/_img/web/pc/KCISA_CI.zip",
+      "original": "marketing/assets/png-recollection-zip-batch6-20261010/gongu-ci-1605/candidate-0-6d33dde5.ai",
+      "original_zip": "marketing/assets/png-recollection-20261010/gongu-ci-1605/candidate-0.zip",
+      "archive_member": "╟╤▒╣╣«╚¡┴ñ║╕┐°_typeB_╟╤▒█.ai",
+      "svg": "marketing/assets/png-recollection-zip-batch8-20261010/gongu-ci-1605/candidate-0-6d33dde5-page-0-horizontal-ko-extracted.svg",
+      "png": "marketing/assets/png-recollection-zip-batch8-20261010/gongu-ci-1605/candidate-0-6d33dde5-page-0-horizontal-ko-extracted.png",
+      "checked_at": "2026-10-10",
+      "review": "verified-vector-extract",
+      "label": "국문 좌우조합",
+      "form": "horizontal"
+    },
+    {
+      "id": "gongu-ci-1605",
+      "name_ko": "한국문화정보원",
+      "key": "candidate-0-6d33dde5-page-0-wordmark",
+      "source_page": "https://www.kcisa.kr/kr/contents/center_cIinfo/view.do",
+      "source_url": "https://www.kcisa.kr/_img/web/pc/KCISA_CI.zip",
+      "original": "marketing/assets/png-recollection-zip-batch6-20261010/gongu-ci-1605/candidate-0-6d33dde5.ai",
+      "original_zip": "marketing/assets/png-recollection-20261010/gongu-ci-1605/candidate-0.zip",
+      "archive_member": "╟╤▒╣╣«╚¡┴ñ║╕┐°_typeB_╟╤▒█.ai",
+      "svg": "marketing/assets/png-recollection-zip-batch8-20261010/gongu-ci-1605/candidate-0-6d33dde5-page-0-wordmark-extracted.svg",
+      "png": "marketing/assets/png-recollection-zip-batch8-20261010/gongu-ci-1605/candidate-0-6d33dde5-page-0-wordmark-extracted.png",
+      "checked_at": "2026-10-10",
+      "review": "verified-vector-extract",
+      "label": "KCISA 워드마크",
+      "form": "wordmark"
+    },
+    {
+      "id": "gongu-ci-1605",
+      "name_ko": "한국문화정보원",
+      "key": "candidate-0-1bb38fc0-page-0-vertical-en",
+      "source_page": "https://www.kcisa.kr/kr/contents/center_cIinfo/view.do",
+      "source_url": "https://www.kcisa.kr/_img/web/pc/KCISA_CI.zip",
+      "original": "marketing/assets/png-recollection-zip-batch6-20261010/gongu-ci-1605/candidate-0-1bb38fc0.ai",
+      "original_zip": "marketing/assets/png-recollection-20261010/gongu-ci-1605/candidate-0.zip",
+      "archive_member": "╟╤▒╣╣«╚¡┴ñ║╕┐°_typeA_┐╡╣«.ai",
+      "svg": "marketing/assets/png-recollection-zip-batch8-20261010/gongu-ci-1605/candidate-0-1bb38fc0-page-0-vertical-en-extracted.svg",
+      "png": "marketing/assets/png-recollection-zip-batch8-20261010/gongu-ci-1605/candidate-0-1bb38fc0-page-0-vertical-en-extracted.png",
+      "checked_at": "2026-10-10",
+      "review": "verified-vector-extract",
+      "label": "영문 상하조합",
+      "form": "vertical"
+    },
+    {
+      "id": "gongu-ci-1585",
+      "name_ko": "한국남부발전(주)",
+      "key": "candidate-0-63b2c890-page-0-horizontal-ko",
+      "source_page": "https://www.kospo.co.kr/kospo/192/subview.do",
+      "source_url": "https://www.kospo.co.kr/sites/kospo/download/KOSPO_CI.zip",
+      "original": "marketing/assets/png-recollection-zip-batch6-20261010/gongu-ci-1585/candidate-0-63b2c890.ai",
+      "original_zip": "marketing/assets/png-recollection-20261010/gongu-ci-1585/candidate-0.zip",
+      "archive_member": "│▓║╬CI-2.AI",
+      "svg": "marketing/assets/png-recollection-zip-batch8-20261010/gongu-ci-1585/candidate-0-63b2c890-page-0-horizontal-ko-extracted.svg",
+      "png": "marketing/assets/png-recollection-zip-batch8-20261010/gongu-ci-1585/candidate-0-63b2c890-page-0-horizontal-ko-extracted.png",
+      "checked_at": "2026-10-10",
+      "review": "verified-vector-extract",
+      "label": "국문 정식명칭 좌우조합",
+      "form": "horizontal"
+    },
+    {
+      "id": "gongu-ci-1585",
+      "name_ko": "한국남부발전(주)",
+      "key": "candidate-0-63b2c890-page-0-horizontal-ko-short",
+      "source_page": "https://www.kospo.co.kr/kospo/192/subview.do",
+      "source_url": "https://www.kospo.co.kr/sites/kospo/download/KOSPO_CI.zip",
+      "original": "marketing/assets/png-recollection-zip-batch6-20261010/gongu-ci-1585/candidate-0-63b2c890.ai",
+      "original_zip": "marketing/assets/png-recollection-20261010/gongu-ci-1585/candidate-0.zip",
+      "archive_member": "│▓║╬CI-2.AI",
+      "svg": "marketing/assets/png-recollection-zip-batch8-20261010/gongu-ci-1585/candidate-0-63b2c890-page-0-horizontal-ko-short-extracted.svg",
+      "png": "marketing/assets/png-recollection-zip-batch8-20261010/gongu-ci-1585/candidate-0-63b2c890-page-0-horizontal-ko-short-extracted.png",
+      "checked_at": "2026-10-10",
+      "review": "verified-vector-extract",
+      "label": "국문 약식명칭 좌우조합",
+      "form": "horizontal"
+    },
+    {
+      "id": "gongu-ci-1585",
+      "name_ko": "한국남부발전(주)",
+      "key": "candidate-0-63b2c890-page-0-vertical-ko",
+      "source_page": "https://www.kospo.co.kr/kospo/192/subview.do",
+      "source_url": "https://www.kospo.co.kr/sites/kospo/download/KOSPO_CI.zip",
+      "original": "marketing/assets/png-recollection-zip-batch6-20261010/gongu-ci-1585/candidate-0-63b2c890.ai",
+      "original_zip": "marketing/assets/png-recollection-20261010/gongu-ci-1585/candidate-0.zip",
+      "archive_member": "│▓║╬CI-2.AI",
+      "svg": "marketing/assets/png-recollection-zip-batch8-20261010/gongu-ci-1585/candidate-0-63b2c890-page-0-vertical-ko-extracted.svg",
+      "png": "marketing/assets/png-recollection-zip-batch8-20261010/gongu-ci-1585/candidate-0-63b2c890-page-0-vertical-ko-extracted.png",
+      "checked_at": "2026-10-10",
+      "review": "verified-vector-extract",
+      "label": "국문 상하조합",
+      "form": "vertical"
+    },
+    {
+      "id": "gongu-ci-1585",
+      "name_ko": "한국남부발전(주)",
+      "key": "candidate-0-63b2c890-page-0-vertical-kospo",
+      "source_page": "https://www.kospo.co.kr/kospo/192/subview.do",
+      "source_url": "https://www.kospo.co.kr/sites/kospo/download/KOSPO_CI.zip",
+      "original": "marketing/assets/png-recollection-zip-batch6-20261010/gongu-ci-1585/candidate-0-63b2c890.ai",
+      "original_zip": "marketing/assets/png-recollection-20261010/gongu-ci-1585/candidate-0.zip",
+      "archive_member": "│▓║╬CI-2.AI",
+      "svg": "marketing/assets/png-recollection-zip-batch8-20261010/gongu-ci-1585/candidate-0-63b2c890-page-0-vertical-kospo-extracted.svg",
+      "png": "marketing/assets/png-recollection-zip-batch8-20261010/gongu-ci-1585/candidate-0-63b2c890-page-0-vertical-kospo-extracted.png",
+      "checked_at": "2026-10-10",
+      "review": "verified-vector-extract",
+      "label": "KOSPO 상하조합",
+      "form": "vertical"
+    },
+    {
+      "id": "gongu-ci-1585",
+      "name_ko": "한국남부발전(주)",
+      "key": "candidate-0-63b2c890-page-0-symbol",
+      "source_page": "https://www.kospo.co.kr/kospo/192/subview.do",
+      "source_url": "https://www.kospo.co.kr/sites/kospo/download/KOSPO_CI.zip",
+      "original": "marketing/assets/png-recollection-zip-batch6-20261010/gongu-ci-1585/candidate-0-63b2c890.ai",
+      "original_zip": "marketing/assets/png-recollection-20261010/gongu-ci-1585/candidate-0.zip",
+      "archive_member": "│▓║╬CI-2.AI",
+      "svg": "marketing/assets/png-recollection-zip-batch8-20261010/gongu-ci-1585/candidate-0-63b2c890-page-0-symbol-extracted.svg",
+      "png": "marketing/assets/png-recollection-zip-batch8-20261010/gongu-ci-1585/candidate-0-63b2c890-page-0-symbol-extracted.png",
+      "checked_at": "2026-10-10",
+      "review": "verified-vector-extract",
+      "label": "심볼마크",
+      "form": "symbol"
+    }
+  ],
+  "uploads": [
+    {
+      "id": "gongu-ci-1692",
+      "file": "marketing/assets/png-recollection-zip-batch6-20261010/gongu-ci-1692/candidate-0-9d61d49d.ai",
+      "key": "_clients/gongu-ci-1692/sources/official-zip-batch8-20261010/9d61d49d0c3a14971ed2.ai",
+      "sha256": "9d61d49d0c3a14971ed20e5a6322ae37afddef03fb90c9bccc903ff122b98ac9"
+    },
+    {
+      "id": "gongu-ci-1692",
+      "file": "marketing/assets/png-recollection-20261010/gongu-ci-1692/candidate-0.zip",
+      "key": "_clients/gongu-ci-1692/sources/official-zip-batch8-20261010/5fbedb21d5a4b728b9b2.zip",
+      "sha256": "5fbedb21d5a4b728b9b2eda720d3c2abf46618f9898a77fafda49c34321a64d9"
+    },
+    {
+      "id": "gongu-ci-1692",
+      "file": "marketing/assets/png-recollection-zip-batch8-20261010/gongu-ci-1692/candidate-0-9d61d49d-page-0-wordmark-extracted.svg",
+      "key": "_clients/gongu-ci-1692/sources/official-zip-batch8-20261010/058a6425d93fb55f489f.svg",
+      "sha256": "058a6425d93fb55f489f8c505840b2ab8f1a91e780630162a1f708996635e19b"
+    },
+    {
+      "id": "gongu-ci-1692",
+      "file": "marketing/assets/png-recollection-zip-batch8-20261010/gongu-ci-1692/candidate-0-9d61d49d-page-0-wordmark-extracted.png",
+      "key": "_clients/gongu-ci-1692/sources/official-zip-batch8-20261010/ecac540264c5560c236e.png",
+      "sha256": "ecac540264c5560c236e281f1eac2959c5d54d9a4b8e201b0c7a4b2ca79f5cfe"
+    },
+    {
+      "id": "gongu-ci-1692",
+      "file": "marketing/assets/png-recollection-zip-batch6-20261010/gongu-ci-1692/candidate-0-151f69f1.ai",
+      "key": "_clients/gongu-ci-1692/sources/official-zip-batch8-20261010/151f69f19744776c6249.ai",
+      "sha256": "151f69f19744776c624982bbed0ef1e3917375c0deabe280ff5e35d36f33e141"
+    },
+    {
+      "id": "gongu-ci-1692",
+      "file": "marketing/assets/png-recollection-zip-batch8-20261010/gongu-ci-1692/candidate-0-151f69f1-page-0-horizontal-ko-extracted.svg",
+      "key": "_clients/gongu-ci-1692/sources/official-zip-batch8-20261010/46d2f68362abaa89b4b3.svg",
+      "sha256": "46d2f68362abaa89b4b3bd29ffb3d81e7926edd38256cc744b25cebeacc66caf"
+    },
+    {
+      "id": "gongu-ci-1692",
+      "file": "marketing/assets/png-recollection-zip-batch8-20261010/gongu-ci-1692/candidate-0-151f69f1-page-0-horizontal-ko-extracted.png",
+      "key": "_clients/gongu-ci-1692/sources/official-zip-batch8-20261010/3779c66b5a03ee8738b5.png",
+      "sha256": "3779c66b5a03ee8738b5bc918a17f8aec467599299a13c8deba1991dca186715"
+    },
+    {
+      "id": "gongu-ci-1692",
+      "file": "marketing/assets/png-recollection-zip-batch8-20261010/gongu-ci-1692/candidate-0-151f69f1-page-0-horizontal-koen-extracted.svg",
+      "key": "_clients/gongu-ci-1692/sources/official-zip-batch8-20261010/46e1660ba1e4d42a1b4e.svg",
+      "sha256": "46e1660ba1e4d42a1b4e5b552a158fdb4639f96760cb593460b8a2fbc6a3b676"
+    },
+    {
+      "id": "gongu-ci-1692",
+      "file": "marketing/assets/png-recollection-zip-batch8-20261010/gongu-ci-1692/candidate-0-151f69f1-page-0-horizontal-koen-extracted.png",
+      "key": "_clients/gongu-ci-1692/sources/official-zip-batch8-20261010/f292aa6c733d9cd5afcc.png",
+      "sha256": "f292aa6c733d9cd5afcc69197c0e1a8b1205a9a0d5dd1a2a5fa610a1bc3763ec"
+    },
+    {
+      "id": "gongu-ci-1692",
+      "file": "marketing/assets/png-recollection-zip-batch8-20261010/gongu-ci-1692/candidate-0-151f69f1-page-0-horizontal-en-stacked-extracted.svg",
+      "key": "_clients/gongu-ci-1692/sources/official-zip-batch8-20261010/86389c189af3af56e33e.svg",
+      "sha256": "86389c189af3af56e33e6057c3ef3e9de8b1ef6f617df449f14380d9267c96a5"
+    },
+    {
+      "id": "gongu-ci-1692",
+      "file": "marketing/assets/png-recollection-zip-batch8-20261010/gongu-ci-1692/candidate-0-151f69f1-page-0-horizontal-en-stacked-extracted.png",
+      "key": "_clients/gongu-ci-1692/sources/official-zip-batch8-20261010/7f1d168484d6342332e5.png",
+      "sha256": "7f1d168484d6342332e5d195094a517c3adc8d8dd7cc56798c4971650c3d1a7f"
+    },
+    {
+      "id": "gongu-ci-1692",
+      "file": "marketing/assets/png-recollection-zip-batch8-20261010/gongu-ci-1692/candidate-0-151f69f1-page-0-horizontal-en-extracted.svg",
+      "key": "_clients/gongu-ci-1692/sources/official-zip-batch8-20261010/e5b1b004fc4784ebb8ab.svg",
+      "sha256": "e5b1b004fc4784ebb8aba1af4a3528d3ba2e54fb826a607ccc849c1f5892d0ae"
+    },
+    {
+      "id": "gongu-ci-1692",
+      "file": "marketing/assets/png-recollection-zip-batch8-20261010/gongu-ci-1692/candidate-0-151f69f1-page-0-horizontal-en-extracted.png",
+      "key": "_clients/gongu-ci-1692/sources/official-zip-batch8-20261010/b663096109d3d6e4ce34.png",
+      "sha256": "b663096109d3d6e4ce34e9e5bc6f99b712a4fa2360df64eb408f53020646e339"
+    },
+    {
+      "id": "gongu-ci-1605",
+      "file": "marketing/assets/png-recollection-zip-batch6-20261010/gongu-ci-1605/candidate-0-9f17d9bf.ai",
+      "key": "_clients/gongu-ci-1605/sources/official-zip-batch8-20261010/9f17d9bf21796f743b1d.ai",
+      "sha256": "9f17d9bf21796f743b1db2180672ca89b2053dbafd341a8144731b6b7558e376"
+    },
+    {
+      "id": "gongu-ci-1605",
+      "file": "marketing/assets/png-recollection-20261010/gongu-ci-1605/candidate-0.zip",
+      "key": "_clients/gongu-ci-1605/sources/official-zip-batch8-20261010/734c256da8c08aaa8b0a.zip",
+      "sha256": "734c256da8c08aaa8b0a541d6749e64aa0105ef7542fe96aff0faf6dc59eaa87"
+    },
+    {
+      "id": "gongu-ci-1605",
+      "file": "marketing/assets/png-recollection-zip-batch8-20261010/gongu-ci-1605/candidate-0-9f17d9bf-page-0-horizontal-en-extracted.svg",
+      "key": "_clients/gongu-ci-1605/sources/official-zip-batch8-20261010/5ef3b0e55b3b478f4d85.svg",
+      "sha256": "5ef3b0e55b3b478f4d85c4e163735184f20b88b8976dc88db3dbdf9ecb93b8f8"
+    },
+    {
+      "id": "gongu-ci-1605",
+      "file": "marketing/assets/png-recollection-zip-batch8-20261010/gongu-ci-1605/candidate-0-9f17d9bf-page-0-horizontal-en-extracted.png",
+      "key": "_clients/gongu-ci-1605/sources/official-zip-batch8-20261010/2dd95b5dbef30a5dc248.png",
+      "sha256": "2dd95b5dbef30a5dc248722c06b89a1c652a92926ac0c1f1c566f94392895427"
+    },
+    {
+      "id": "gongu-ci-1605",
+      "file": "marketing/assets/png-recollection-zip-batch6-20261010/gongu-ci-1605/candidate-0-6d33dde5.ai",
+      "key": "_clients/gongu-ci-1605/sources/official-zip-batch8-20261010/6d33dde5e8ba9ff9934f.ai",
+      "sha256": "6d33dde5e8ba9ff9934fa9fdc034582b768cb256dc800129fdecfda3c0bac230"
+    },
+    {
+      "id": "gongu-ci-1605",
+      "file": "marketing/assets/png-recollection-zip-batch8-20261010/gongu-ci-1605/candidate-0-6d33dde5-page-0-horizontal-ko-extracted.svg",
+      "key": "_clients/gongu-ci-1605/sources/official-zip-batch8-20261010/9983bb62316994f98b82.svg",
+      "sha256": "9983bb62316994f98b823cabd7ca4ed3285a8234ad204bc71743358fb83aa518"
+    },
+    {
+      "id": "gongu-ci-1605",
+      "file": "marketing/assets/png-recollection-zip-batch8-20261010/gongu-ci-1605/candidate-0-6d33dde5-page-0-horizontal-ko-extracted.png",
+      "key": "_clients/gongu-ci-1605/sources/official-zip-batch8-20261010/7df073fe80107c8cedcd.png",
+      "sha256": "7df073fe80107c8cedcd1d20a1108f1ebc9f5e8971c1f37a9a107d5fe12814cb"
+    },
+    {
+      "id": "gongu-ci-1605",
+      "file": "marketing/assets/png-recollection-zip-batch8-20261010/gongu-ci-1605/candidate-0-6d33dde5-page-0-wordmark-extracted.svg",
+      "key": "_clients/gongu-ci-1605/sources/official-zip-batch8-20261010/15439df71237087918f3.svg",
+      "sha256": "15439df71237087918f3848d2b8c7667c5e54e42c405efe4641b6134f55cc467"
+    },
+    {
+      "id": "gongu-ci-1605",
+      "file": "marketing/assets/png-recollection-zip-batch8-20261010/gongu-ci-1605/candidate-0-6d33dde5-page-0-wordmark-extracted.png",
+      "key": "_clients/gongu-ci-1605/sources/official-zip-batch8-20261010/ed443966f70d5c957ce0.png",
+      "sha256": "ed443966f70d5c957ce0a941aaa071cc27ab9a488c642f5fd9467446ee679aea"
+    },
+    {
+      "id": "gongu-ci-1605",
+      "file": "marketing/assets/png-recollection-zip-batch6-20261010/gongu-ci-1605/candidate-0-1bb38fc0.ai",
+      "key": "_clients/gongu-ci-1605/sources/official-zip-batch8-20261010/1bb38fc078e065231245.ai",
+      "sha256": "1bb38fc078e065231245effe03365db069ebc797b54eaafc8af423c3eceef204"
+    },
+    {
+      "id": "gongu-ci-1605",
+      "file": "marketing/assets/png-recollection-zip-batch8-20261010/gongu-ci-1605/candidate-0-1bb38fc0-page-0-vertical-en-extracted.svg",
+      "key": "_clients/gongu-ci-1605/sources/official-zip-batch8-20261010/a1b65265fbd8fe58a0d8.svg",
+      "sha256": "a1b65265fbd8fe58a0d80df01d211632c5d9737674fcedd0df4ad69f701f085c"
+    },
+    {
+      "id": "gongu-ci-1605",
+      "file": "marketing/assets/png-recollection-zip-batch8-20261010/gongu-ci-1605/candidate-0-1bb38fc0-page-0-vertical-en-extracted.png",
+      "key": "_clients/gongu-ci-1605/sources/official-zip-batch8-20261010/8ead41ef6221423f5b2c.png",
+      "sha256": "8ead41ef6221423f5b2cb7793c2ee7e0a4f48a275a26e413b81524f2f40853b9"
+    },
+    {
+      "id": "gongu-ci-1585",
+      "file": "marketing/assets/png-recollection-zip-batch6-20261010/gongu-ci-1585/candidate-0-63b2c890.ai",
+      "key": "_clients/gongu-ci-1585/sources/official-zip-batch8-20261010/63b2c8908a64e291b655.ai",
+      "sha256": "63b2c8908a64e291b6552d3bb48b6672558e6427f0f5969681fc158f778e4a62"
+    },
+    {
+      "id": "gongu-ci-1585",
+      "file": "marketing/assets/png-recollection-20261010/gongu-ci-1585/candidate-0.zip",
+      "key": "_clients/gongu-ci-1585/sources/official-zip-batch8-20261010/83bb28e356f475beac74.zip",
+      "sha256": "83bb28e356f475beac7426ddb8d24254434e8e8fae0c1b39e0e97987711c7655"
+    },
+    {
+      "id": "gongu-ci-1585",
+      "file": "marketing/assets/png-recollection-zip-batch8-20261010/gongu-ci-1585/candidate-0-63b2c890-page-0-horizontal-ko-extracted.svg",
+      "key": "_clients/gongu-ci-1585/sources/official-zip-batch8-20261010/65122c5ee8a9e1c50be2.svg",
+      "sha256": "65122c5ee8a9e1c50be236bdadc9d997becb2aa8e7e2ad1c24af5fff45ea3aca"
+    },
+    {
+      "id": "gongu-ci-1585",
+      "file": "marketing/assets/png-recollection-zip-batch8-20261010/gongu-ci-1585/candidate-0-63b2c890-page-0-horizontal-ko-extracted.png",
+      "key": "_clients/gongu-ci-1585/sources/official-zip-batch8-20261010/31d659251b29f78e0a3c.png",
+      "sha256": "31d659251b29f78e0a3c86108196f0fa759bd70472339795b1f25bbc3258bfed"
+    },
+    {
+      "id": "gongu-ci-1585",
+      "file": "marketing/assets/png-recollection-zip-batch8-20261010/gongu-ci-1585/candidate-0-63b2c890-page-0-horizontal-ko-short-extracted.svg",
+      "key": "_clients/gongu-ci-1585/sources/official-zip-batch8-20261010/acc4cac2468a4f95b5b1.svg",
+      "sha256": "acc4cac2468a4f95b5b1df9d260da50178161e2fa2b0b97a3e66d6924096d66e"
+    },
+    {
+      "id": "gongu-ci-1585",
+      "file": "marketing/assets/png-recollection-zip-batch8-20261010/gongu-ci-1585/candidate-0-63b2c890-page-0-horizontal-ko-short-extracted.png",
+      "key": "_clients/gongu-ci-1585/sources/official-zip-batch8-20261010/471c5381996162c6ab9d.png",
+      "sha256": "471c5381996162c6ab9d31c92041443eafb7526c44fcda2cd6428af490dfe209"
+    },
+    {
+      "id": "gongu-ci-1585",
+      "file": "marketing/assets/png-recollection-zip-batch8-20261010/gongu-ci-1585/candidate-0-63b2c890-page-0-vertical-ko-extracted.svg",
+      "key": "_clients/gongu-ci-1585/sources/official-zip-batch8-20261010/8ba85a6c89d0951f35c7.svg",
+      "sha256": "8ba85a6c89d0951f35c7548a7a59bb6066354ce423a92721d3db67f06221715c"
+    },
+    {
+      "id": "gongu-ci-1585",
+      "file": "marketing/assets/png-recollection-zip-batch8-20261010/gongu-ci-1585/candidate-0-63b2c890-page-0-vertical-ko-extracted.png",
+      "key": "_clients/gongu-ci-1585/sources/official-zip-batch8-20261010/43c7cc3a97770c547488.png",
+      "sha256": "43c7cc3a97770c54748864cf18a46ff4556352f8fa8de8952c2298aa507545d5"
+    },
+    {
+      "id": "gongu-ci-1585",
+      "file": "marketing/assets/png-recollection-zip-batch8-20261010/gongu-ci-1585/candidate-0-63b2c890-page-0-vertical-kospo-extracted.svg",
+      "key": "_clients/gongu-ci-1585/sources/official-zip-batch8-20261010/0a53c846c6f3ae522f01.svg",
+      "sha256": "0a53c846c6f3ae522f01f52056960cf89eb35f260a42a0951e174fe36e962f61"
+    },
+    {
+      "id": "gongu-ci-1585",
+      "file": "marketing/assets/png-recollection-zip-batch8-20261010/gongu-ci-1585/candidate-0-63b2c890-page-0-vertical-kospo-extracted.png",
+      "key": "_clients/gongu-ci-1585/sources/official-zip-batch8-20261010/9084cbf7f0bf78952383.png",
+      "sha256": "9084cbf7f0bf7895238322dbf32cbb9d081a95b4c55160a53ae04528d2f9f84c"
+    },
+    {
+      "id": "gongu-ci-1585",
+      "file": "marketing/assets/png-recollection-zip-batch8-20261010/gongu-ci-1585/candidate-0-63b2c890-page-0-symbol-extracted.svg",
+      "key": "_clients/gongu-ci-1585/sources/official-zip-batch8-20261010/a0c8bed52ccc2e3a47de.svg",
+      "sha256": "a0c8bed52ccc2e3a47de2033106d5f7022c60bfc23eac118ede61e7e1833763f"
+    },
+    {
+      "id": "gongu-ci-1585",
+      "file": "marketing/assets/png-recollection-zip-batch8-20261010/gongu-ci-1585/candidate-0-63b2c890-page-0-symbol-extracted.png",
+      "key": "_clients/gongu-ci-1585/sources/official-zip-batch8-20261010/a3aeaa8800936567e145.png",
+      "sha256": "a3aeaa8800936567e14508a06dd52567e2d0444db5893bf91590ffd3d390fdc1"
+    }
+  ],
+  "patches": {
+    "gongu-ci-1692": {
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": "sources/official-zip-batch8-20261010/46e1660ba1e4d42a1b4e.svg",
+      "svg_transparent": "sources/official-zip-batch8-20261010/46e1660ba1e4d42a1b4e.svg",
+      "logo_png": "sources/official-zip-batch8-20261010/f292aa6c733d9cd5afcc.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/gongu-ci-1692/sources/official-zip-batch8-20261010/f292aa6c733d9cd5afcc.png",
+      "original_ai_url": "https://logo.vibers.co.kr/_clients/gongu-ci-1692/sources/official-zip-batch8-20261010/151f69f19744776c6249.ai",
+      "original_zip_url": "https://logo.vibers.co.kr/_clients/gongu-ci-1692/sources/official-zip-batch8-20261010/5fbedb21d5a4b728b9b2.zip",
+      "source_zip": "sources/official-zip-batch8-20261010/5fbedb21d5a4b728b9b2.zip",
+      "official_source_page": "https://www.kasi.re.kr/kor/introduce/pageView/32",
+      "variants_n": 5,
+      "asset_review_status": "verified",
+      "asset_origin": "공식 AI 원본 재수집 · 가이드 및 레이아웃 제거",
+      "asset_checked_at": "2026-10-10",
+      "logo_published_at": "2026-10-10T11:40:36.323850+00:00",
+      "light": false,
+      "light_logo": false,
+      "presentation": {
+        "file": "sources/official-zip-batch8-20261010/f292aa6c733d9cd5afcc.png",
+        "bg": "light"
+      }
+    },
+    "gongu-ci-1605": {
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": "sources/official-zip-batch8-20261010/9983bb62316994f98b82.svg",
+      "svg_transparent": "sources/official-zip-batch8-20261010/9983bb62316994f98b82.svg",
+      "logo_png": "sources/official-zip-batch8-20261010/7df073fe80107c8cedcd.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/gongu-ci-1605/sources/official-zip-batch8-20261010/7df073fe80107c8cedcd.png",
+      "original_ai_url": "https://logo.vibers.co.kr/_clients/gongu-ci-1605/sources/official-zip-batch8-20261010/6d33dde5e8ba9ff9934f.ai",
+      "original_zip_url": "https://logo.vibers.co.kr/_clients/gongu-ci-1605/sources/official-zip-batch8-20261010/734c256da8c08aaa8b0a.zip",
+      "source_zip": "sources/official-zip-batch8-20261010/734c256da8c08aaa8b0a.zip",
+      "official_source_page": "https://www.kcisa.kr/kr/contents/center_cIinfo/view.do",
+      "variants_n": 4,
+      "asset_review_status": "verified",
+      "asset_origin": "공식 AI 원본 재수집 · 가이드 및 레이아웃 제거",
+      "asset_checked_at": "2026-10-10",
+      "logo_published_at": "2026-10-10T11:40:36.324007+00:00",
+      "light": false,
+      "light_logo": false,
+      "presentation": {
+        "file": "sources/official-zip-batch8-20261010/7df073fe80107c8cedcd.png",
+        "bg": "light"
+      }
+    },
+    "gongu-ci-1585": {
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": "sources/official-zip-batch8-20261010/65122c5ee8a9e1c50be2.svg",
+      "svg_transparent": "sources/official-zip-batch8-20261010/65122c5ee8a9e1c50be2.svg",
+      "logo_png": "sources/official-zip-batch8-20261010/31d659251b29f78e0a3c.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/gongu-ci-1585/sources/official-zip-batch8-20261010/31d659251b29f78e0a3c.png",
+      "original_ai_url": "https://logo.vibers.co.kr/_clients/gongu-ci-1585/sources/official-zip-batch8-20261010/63b2c8908a64e291b655.ai",
+      "original_zip_url": "https://logo.vibers.co.kr/_clients/gongu-ci-1585/sources/official-zip-batch8-20261010/83bb28e356f475beac74.zip",
+      "source_zip": "sources/official-zip-batch8-20261010/83bb28e356f475beac74.zip",
+      "official_source_page": "https://www.kospo.co.kr/kospo/192/subview.do",
+      "variants_n": 5,
+      "asset_review_status": "verified",
+      "asset_origin": "공식 AI 원본 재수집 · 가이드 및 레이아웃 제거",
+      "asset_checked_at": "2026-10-10",
+      "logo_published_at": "2026-10-10T11:40:36.324012+00:00",
+      "light": false,
+      "light_logo": false,
+      "presentation": {
+        "file": "sources/official-zip-batch8-20261010/31d659251b29f78e0a3c.png",
+        "bg": "light"
+      }
+    }
+  },
+  "manifests": {
+    "gongu-ci-1692": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "gongu-ci-1692",
+      "primary": "candidate-0-151f69f1-page-0-horizontal-koen",
+      "variants": [
+        {
+          "key": "candidate-0-9d61d49d-page-0-wordmark",
+          "label": "KASI 워드마크",
+          "form": "wordmark",
+          "lockup": "wordmark",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-zip-batch8-20261010/058a6425d93fb55f489f.svg",
+            "png": "sources/official-zip-batch8-20261010/ecac540264c5560c236e.png"
+          },
+          "aspect": 0.9455,
+          "origin": "official",
+          "provider": "공식 AI · 레이아웃 제거 검수",
+          "derived_from": "https://www.kasi.re.kr/resources/file/CI_Kasi.zip",
+          "original_ai": "sources/official-zip-batch8-20261010/9d61d49d0c3a14971ed2.ai",
+          "original_zip": "sources/official-zip-batch8-20261010/5fbedb21d5a4b728b9b2.zip",
+          "order": 0,
+          "asset_group": "logotype"
+        },
+        {
+          "key": "candidate-0-151f69f1-page-0-horizontal-ko",
+          "label": "국문 좌우조합",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-zip-batch8-20261010/46d2f68362abaa89b4b3.svg",
+            "png": "sources/official-zip-batch8-20261010/3779c66b5a03ee8738b5.png"
+          },
+          "aspect": 4.385964912280702,
+          "origin": "official",
+          "provider": "공식 AI · 레이아웃 제거 검수",
+          "derived_from": "https://www.kasi.re.kr/resources/file/CI_Kasi.zip",
+          "original_ai": "sources/official-zip-batch8-20261010/151f69f19744776c6249.ai",
+          "original_zip": "sources/official-zip-batch8-20261010/5fbedb21d5a4b728b9b2.zip",
+          "order": 1,
+          "asset_group": "logotype"
+        },
+        {
+          "key": "candidate-0-151f69f1-page-0-horizontal-koen",
+          "label": "국영문 좌우조합",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-zip-batch8-20261010/46e1660ba1e4d42a1b4e.svg",
+            "png": "sources/official-zip-batch8-20261010/f292aa6c733d9cd5afcc.png"
+          },
+          "aspect": 3.7313432835820897,
+          "origin": "official",
+          "provider": "공식 AI · 레이아웃 제거 검수",
+          "derived_from": "https://www.kasi.re.kr/resources/file/CI_Kasi.zip",
+          "original_ai": "sources/official-zip-batch8-20261010/151f69f19744776c6249.ai",
+          "original_zip": "sources/official-zip-batch8-20261010/5fbedb21d5a4b728b9b2.zip",
+          "order": 2,
+          "asset_group": "logotype"
+        },
+        {
+          "key": "candidate-0-151f69f1-page-0-horizontal-en-stacked",
+          "label": "영문 2단 좌우조합",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-zip-batch8-20261010/86389c189af3af56e33e.svg",
+            "png": "sources/official-zip-batch8-20261010/7f1d168484d6342332e5.png"
+          },
+          "aspect": 3.7243947858473,
+          "origin": "official",
+          "provider": "공식 AI · 레이아웃 제거 검수",
+          "derived_from": "https://www.kasi.re.kr/resources/file/CI_Kasi.zip",
+          "original_ai": "sources/official-zip-batch8-20261010/151f69f19744776c6249.ai",
+          "original_zip": "sources/official-zip-batch8-20261010/5fbedb21d5a4b728b9b2.zip",
+          "order": 3,
+          "asset_group": "logotype"
+        },
+        {
+          "key": "candidate-0-151f69f1-page-0-horizontal-en",
+          "label": "영문 좌우조합",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-zip-batch8-20261010/e5b1b004fc4784ebb8ab.svg",
+            "png": "sources/official-zip-batch8-20261010/b663096109d3d6e4ce34.png"
+          },
+          "aspect": 7.326007326007326,
+          "origin": "official",
+          "provider": "공식 AI · 레이아웃 제거 검수",
+          "derived_from": "https://www.kasi.re.kr/resources/file/CI_Kasi.zip",
+          "original_ai": "sources/official-zip-batch8-20261010/151f69f19744776c6249.ai",
+          "original_zip": "sources/official-zip-batch8-20261010/5fbedb21d5a4b728b9b2.zip",
+          "order": 4,
+          "asset_group": "logotype"
+        }
+      ]
+    },
+    "gongu-ci-1605": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "gongu-ci-1605",
+      "primary": "candidate-0-6d33dde5-page-0-horizontal-ko",
+      "variants": [
+        {
+          "key": "candidate-0-9f17d9bf-page-0-horizontal-en",
+          "label": "영문 좌우조합",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-zip-batch8-20261010/5ef3b0e55b3b478f4d85.svg",
+            "png": "sources/official-zip-batch8-20261010/2dd95b5dbef30a5dc248.png"
+          },
+          "aspect": 6.557377049180328,
+          "origin": "official",
+          "provider": "공식 AI · 레이아웃 제거 검수",
+          "derived_from": "https://www.kcisa.kr/_img/web/pc/KCISA_CI.zip",
+          "original_ai": "sources/official-zip-batch8-20261010/9f17d9bf21796f743b1d.ai",
+          "original_zip": "sources/official-zip-batch8-20261010/734c256da8c08aaa8b0a.zip",
+          "order": 0,
+          "asset_group": "logotype"
+        },
+        {
+          "key": "candidate-0-6d33dde5-page-0-horizontal-ko",
+          "label": "국문 좌우조합",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-zip-batch8-20261010/9983bb62316994f98b82.svg",
+            "png": "sources/official-zip-batch8-20261010/7df073fe80107c8cedcd.png"
+          },
+          "aspect": 7.017543859649122,
+          "origin": "official",
+          "provider": "공식 AI · 레이아웃 제거 검수",
+          "derived_from": "https://www.kcisa.kr/_img/web/pc/KCISA_CI.zip",
+          "original_ai": "sources/official-zip-batch8-20261010/6d33dde5e8ba9ff9934f.ai",
+          "original_zip": "sources/official-zip-batch8-20261010/734c256da8c08aaa8b0a.zip",
+          "order": 1,
+          "asset_group": "logotype"
+        },
+        {
+          "key": "candidate-0-6d33dde5-page-0-wordmark",
+          "label": "KCISA 워드마크",
+          "form": "wordmark",
+          "lockup": "wordmark",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-zip-batch8-20261010/15439df71237087918f3.svg",
+            "png": "sources/official-zip-batch8-20261010/ed443966f70d5c957ce0.png"
+          },
+          "aspect": 2.178649237472767,
+          "origin": "official",
+          "provider": "공식 AI · 레이아웃 제거 검수",
+          "derived_from": "https://www.kcisa.kr/_img/web/pc/KCISA_CI.zip",
+          "original_ai": "sources/official-zip-batch8-20261010/6d33dde5e8ba9ff9934f.ai",
+          "original_zip": "sources/official-zip-batch8-20261010/734c256da8c08aaa8b0a.zip",
+          "order": 2,
+          "asset_group": "logotype"
+        },
+        {
+          "key": "candidate-0-1bb38fc0-page-0-vertical-en",
+          "label": "영문 상하조합",
+          "form": "vertical",
+          "lockup": "vertical",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-zip-batch8-20261010/a1b65265fbd8fe58a0d8.svg",
+            "png": "sources/official-zip-batch8-20261010/8ead41ef6221423f5b2c.png"
+          },
+          "aspect": 1.1976047904191616,
+          "origin": "official",
+          "provider": "공식 AI · 레이아웃 제거 검수",
+          "derived_from": "https://www.kcisa.kr/_img/web/pc/KCISA_CI.zip",
+          "original_ai": "sources/official-zip-batch8-20261010/1bb38fc078e065231245.ai",
+          "original_zip": "sources/official-zip-batch8-20261010/734c256da8c08aaa8b0a.zip",
+          "order": 3,
+          "asset_group": "logotype"
+        }
+      ]
+    },
+    "gongu-ci-1585": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "gongu-ci-1585",
+      "primary": "candidate-0-63b2c890-page-0-horizontal-ko",
+      "variants": [
+        {
+          "key": "candidate-0-63b2c890-page-0-horizontal-ko",
+          "label": "국문 정식명칭 좌우조합",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-zip-batch8-20261010/65122c5ee8a9e1c50be2.svg",
+            "png": "sources/official-zip-batch8-20261010/31d659251b29f78e0a3c.png"
+          },
+          "aspect": 11.299435028248588,
+          "origin": "official",
+          "provider": "공식 AI · 레이아웃 제거 검수",
+          "derived_from": "https://www.kospo.co.kr/sites/kospo/download/KOSPO_CI.zip",
+          "original_ai": "sources/official-zip-batch8-20261010/63b2c8908a64e291b655.ai",
+          "original_zip": "sources/official-zip-batch8-20261010/83bb28e356f475beac74.zip",
+          "order": 0,
+          "asset_group": "logotype"
+        },
+        {
+          "key": "candidate-0-63b2c890-page-0-horizontal-ko-short",
+          "label": "국문 약식명칭 좌우조합",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-zip-batch8-20261010/acc4cac2468a4f95b5b1.svg",
+            "png": "sources/official-zip-batch8-20261010/471c5381996162c6ab9d.png"
+          },
+          "aspect": 9.132420091324201,
+          "origin": "official",
+          "provider": "공식 AI · 레이아웃 제거 검수",
+          "derived_from": "https://www.kospo.co.kr/sites/kospo/download/KOSPO_CI.zip",
+          "original_ai": "sources/official-zip-batch8-20261010/63b2c8908a64e291b655.ai",
+          "original_zip": "sources/official-zip-batch8-20261010/83bb28e356f475beac74.zip",
+          "order": 1,
+          "asset_group": "logotype"
+        },
+        {
+          "key": "candidate-0-63b2c890-page-0-vertical-ko",
+          "label": "국문 상하조합",
+          "form": "vertical",
+          "lockup": "vertical",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-zip-batch8-20261010/8ba85a6c89d0951f35c7.svg",
+            "png": "sources/official-zip-batch8-20261010/43c7cc3a97770c547488.png"
+          },
+          "aspect": 1.9920318725099602,
+          "origin": "official",
+          "provider": "공식 AI · 레이아웃 제거 검수",
+          "derived_from": "https://www.kospo.co.kr/sites/kospo/download/KOSPO_CI.zip",
+          "original_ai": "sources/official-zip-batch8-20261010/63b2c8908a64e291b655.ai",
+          "original_zip": "sources/official-zip-batch8-20261010/83bb28e356f475beac74.zip",
+          "order": 2,
+          "asset_group": "logotype"
+        },
+        {
+          "key": "candidate-0-63b2c890-page-0-vertical-kospo",
+          "label": "KOSPO 상하조합",
+          "form": "vertical",
+          "lockup": "vertical",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-zip-batch8-20261010/0a53c846c6f3ae522f01.svg",
+            "png": "sources/official-zip-batch8-20261010/9084cbf7f0bf78952383.png"
+          },
+          "aspect": 1.1554015020219526,
+          "origin": "official",
+          "provider": "공식 AI · 레이아웃 제거 검수",
+          "derived_from": "https://www.kospo.co.kr/sites/kospo/download/KOSPO_CI.zip",
+          "original_ai": "sources/official-zip-batch8-20261010/63b2c8908a64e291b655.ai",
+          "original_zip": "sources/official-zip-batch8-20261010/83bb28e356f475beac74.zip",
+          "order": 3,
+          "asset_group": "logotype"
+        },
+        {
+          "key": "candidate-0-63b2c890-page-0-symbol",
+          "label": "심볼마크",
+          "form": "symbol",
+          "lockup": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-zip-batch8-20261010/a0c8bed52ccc2e3a47de.svg",
+            "png": "sources/official-zip-batch8-20261010/a3aeaa8800936567e145.png"
+          },
+          "aspect": 1.5710919088766693,
+          "origin": "official",
+          "provider": "공식 AI · 레이아웃 제거 검수",
+          "derived_from": "https://www.kospo.co.kr/sites/kospo/download/KOSPO_CI.zip",
+          "original_ai": "sources/official-zip-batch8-20261010/63b2c8908a64e291b655.ai",
+          "original_zip": "sources/official-zip-batch8-20261010/83bb28e356f475beac74.zip",
+          "order": 4,
+          "asset_group": "symbol"
+        }
+      ]
+    }
+  },
+  "variants": {
+    "gongu-ci-1692": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "gongu-ci-1692",
+      "primary": "candidate-0-151f69f1-page-0-horizontal-koen",
+      "variants": [
+        {
+          "key": "candidate-0-9d61d49d-page-0-wordmark",
+          "label": "KASI 워드마크",
+          "form": "wordmark",
+          "lockup": "wordmark",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-zip-batch8-20261010/058a6425d93fb55f489f.svg",
+            "png": "sources/official-zip-batch8-20261010/ecac540264c5560c236e.png"
+          },
+          "aspect": 0.9455,
+          "origin": "official",
+          "provider": "공식 AI · 레이아웃 제거 검수",
+          "derived_from": "https://www.kasi.re.kr/resources/file/CI_Kasi.zip",
+          "original_ai": "sources/official-zip-batch8-20261010/9d61d49d0c3a14971ed2.ai",
+          "original_zip": "sources/official-zip-batch8-20261010/5fbedb21d5a4b728b9b2.zip",
+          "order": 0,
+          "asset_group": "logotype"
+        },
+        {
+          "key": "candidate-0-151f69f1-page-0-horizontal-ko",
+          "label": "국문 좌우조합",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-zip-batch8-20261010/46d2f68362abaa89b4b3.svg",
+            "png": "sources/official-zip-batch8-20261010/3779c66b5a03ee8738b5.png"
+          },
+          "aspect": 4.385964912280702,
+          "origin": "official",
+          "provider": "공식 AI · 레이아웃 제거 검수",
+          "derived_from": "https://www.kasi.re.kr/resources/file/CI_Kasi.zip",
+          "original_ai": "sources/official-zip-batch8-20261010/151f69f19744776c6249.ai",
+          "original_zip": "sources/official-zip-batch8-20261010/5fbedb21d5a4b728b9b2.zip",
+          "order": 1,
+          "asset_group": "logotype"
+        },
+        {
+          "key": "candidate-0-151f69f1-page-0-horizontal-koen",
+          "label": "국영문 좌우조합",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-zip-batch8-20261010/46e1660ba1e4d42a1b4e.svg",
+            "png": "sources/official-zip-batch8-20261010/f292aa6c733d9cd5afcc.png"
+          },
+          "aspect": 3.7313432835820897,
+          "origin": "official",
+          "provider": "공식 AI · 레이아웃 제거 검수",
+          "derived_from": "https://www.kasi.re.kr/resources/file/CI_Kasi.zip",
+          "original_ai": "sources/official-zip-batch8-20261010/151f69f19744776c6249.ai",
+          "original_zip": "sources/official-zip-batch8-20261010/5fbedb21d5a4b728b9b2.zip",
+          "order": 2,
+          "asset_group": "logotype"
+        },
+        {
+          "key": "candidate-0-151f69f1-page-0-horizontal-en-stacked",
+          "label": "영문 2단 좌우조합",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-zip-batch8-20261010/86389c189af3af56e33e.svg",
+            "png": "sources/official-zip-batch8-20261010/7f1d168484d6342332e5.png"
+          },
+          "aspect": 3.7243947858473,
+          "origin": "official",
+          "provider": "공식 AI · 레이아웃 제거 검수",
+          "derived_from": "https://www.kasi.re.kr/resources/file/CI_Kasi.zip",
+          "original_ai": "sources/official-zip-batch8-20261010/151f69f19744776c6249.ai",
+          "original_zip": "sources/official-zip-batch8-20261010/5fbedb21d5a4b728b9b2.zip",
+          "order": 3,
+          "asset_group": "logotype"
+        },
+        {
+          "key": "candidate-0-151f69f1-page-0-horizontal-en",
+          "label": "영문 좌우조합",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-zip-batch8-20261010/e5b1b004fc4784ebb8ab.svg",
+            "png": "sources/official-zip-batch8-20261010/b663096109d3d6e4ce34.png"
+          },
+          "aspect": 7.326007326007326,
+          "origin": "official",
+          "provider": "공식 AI · 레이아웃 제거 검수",
+          "derived_from": "https://www.kasi.re.kr/resources/file/CI_Kasi.zip",
+          "original_ai": "sources/official-zip-batch8-20261010/151f69f19744776c6249.ai",
+          "original_zip": "sources/official-zip-batch8-20261010/5fbedb21d5a4b728b9b2.zip",
+          "order": 4,
+          "asset_group": "logotype"
+        }
+      ]
+    },
+    "gongu-ci-1605": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "gongu-ci-1605",
+      "primary": "candidate-0-6d33dde5-page-0-horizontal-ko",
+      "variants": [
+        {
+          "key": "candidate-0-9f17d9bf-page-0-horizontal-en",
+          "label": "영문 좌우조합",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-zip-batch8-20261010/5ef3b0e55b3b478f4d85.svg",
+            "png": "sources/official-zip-batch8-20261010/2dd95b5dbef30a5dc248.png"
+          },
+          "aspect": 6.557377049180328,
+          "origin": "official",
+          "provider": "공식 AI · 레이아웃 제거 검수",
+          "derived_from": "https://www.kcisa.kr/_img/web/pc/KCISA_CI.zip",
+          "original_ai": "sources/official-zip-batch8-20261010/9f17d9bf21796f743b1d.ai",
+          "original_zip": "sources/official-zip-batch8-20261010/734c256da8c08aaa8b0a.zip",
+          "order": 0,
+          "asset_group": "logotype"
+        },
+        {
+          "key": "candidate-0-6d33dde5-page-0-horizontal-ko",
+          "label": "국문 좌우조합",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-zip-batch8-20261010/9983bb62316994f98b82.svg",
+            "png": "sources/official-zip-batch8-20261010/7df073fe80107c8cedcd.png"
+          },
+          "aspect": 7.017543859649122,
+          "origin": "official",
+          "provider": "공식 AI · 레이아웃 제거 검수",
+          "derived_from": "https://www.kcisa.kr/_img/web/pc/KCISA_CI.zip",
+          "original_ai": "sources/official-zip-batch8-20261010/6d33dde5e8ba9ff9934f.ai",
+          "original_zip": "sources/official-zip-batch8-20261010/734c256da8c08aaa8b0a.zip",
+          "order": 1,
+          "asset_group": "logotype"
+        },
+        {
+          "key": "candidate-0-6d33dde5-page-0-wordmark",
+          "label": "KCISA 워드마크",
+          "form": "wordmark",
+          "lockup": "wordmark",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-zip-batch8-20261010/15439df71237087918f3.svg",
+            "png": "sources/official-zip-batch8-20261010/ed443966f70d5c957ce0.png"
+          },
+          "aspect": 2.178649237472767,
+          "origin": "official",
+          "provider": "공식 AI · 레이아웃 제거 검수",
+          "derived_from": "https://www.kcisa.kr/_img/web/pc/KCISA_CI.zip",
+          "original_ai": "sources/official-zip-batch8-20261010/6d33dde5e8ba9ff9934f.ai",
+          "original_zip": "sources/official-zip-batch8-20261010/734c256da8c08aaa8b0a.zip",
+          "order": 2,
+          "asset_group": "logotype"
+        },
+        {
+          "key": "candidate-0-1bb38fc0-page-0-vertical-en",
+          "label": "영문 상하조합",
+          "form": "vertical",
+          "lockup": "vertical",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-zip-batch8-20261010/a1b65265fbd8fe58a0d8.svg",
+            "png": "sources/official-zip-batch8-20261010/8ead41ef6221423f5b2c.png"
+          },
+          "aspect": 1.1976047904191616,
+          "origin": "official",
+          "provider": "공식 AI · 레이아웃 제거 검수",
+          "derived_from": "https://www.kcisa.kr/_img/web/pc/KCISA_CI.zip",
+          "original_ai": "sources/official-zip-batch8-20261010/1bb38fc078e065231245.ai",
+          "original_zip": "sources/official-zip-batch8-20261010/734c256da8c08aaa8b0a.zip",
+          "order": 3,
+          "asset_group": "logotype"
+        }
+      ]
+    },
+    "gongu-ci-1585": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "gongu-ci-1585",
+      "primary": "candidate-0-63b2c890-page-0-horizontal-ko",
+      "variants": [
+        {
+          "key": "candidate-0-63b2c890-page-0-horizontal-ko",
+          "label": "국문 정식명칭 좌우조합",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-zip-batch8-20261010/65122c5ee8a9e1c50be2.svg",
+            "png": "sources/official-zip-batch8-20261010/31d659251b29f78e0a3c.png"
+          },
+          "aspect": 11.299435028248588,
+          "origin": "official",
+          "provider": "공식 AI · 레이아웃 제거 검수",
+          "derived_from": "https://www.kospo.co.kr/sites/kospo/download/KOSPO_CI.zip",
+          "original_ai": "sources/official-zip-batch8-20261010/63b2c8908a64e291b655.ai",
+          "original_zip": "sources/official-zip-batch8-20261010/83bb28e356f475beac74.zip",
+          "order": 0,
+          "asset_group": "logotype"
+        },
+        {
+          "key": "candidate-0-63b2c890-page-0-horizontal-ko-short",
+          "label": "국문 약식명칭 좌우조합",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-zip-batch8-20261010/acc4cac2468a4f95b5b1.svg",
+            "png": "sources/official-zip-batch8-20261010/471c5381996162c6ab9d.png"
+          },
+          "aspect": 9.132420091324201,
+          "origin": "official",
+          "provider": "공식 AI · 레이아웃 제거 검수",
+          "derived_from": "https://www.kospo.co.kr/sites/kospo/download/KOSPO_CI.zip",
+          "original_ai": "sources/official-zip-batch8-20261010/63b2c8908a64e291b655.ai",
+          "original_zip": "sources/official-zip-batch8-20261010/83bb28e356f475beac74.zip",
+          "order": 1,
+          "asset_group": "logotype"
+        },
+        {
+          "key": "candidate-0-63b2c890-page-0-vertical-ko",
+          "label": "국문 상하조합",
+          "form": "vertical",
+          "lockup": "vertical",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-zip-batch8-20261010/8ba85a6c89d0951f35c7.svg",
+            "png": "sources/official-zip-batch8-20261010/43c7cc3a97770c547488.png"
+          },
+          "aspect": 1.9920318725099602,
+          "origin": "official",
+          "provider": "공식 AI · 레이아웃 제거 검수",
+          "derived_from": "https://www.kospo.co.kr/sites/kospo/download/KOSPO_CI.zip",
+          "original_ai": "sources/official-zip-batch8-20261010/63b2c8908a64e291b655.ai",
+          "original_zip": "sources/official-zip-batch8-20261010/83bb28e356f475beac74.zip",
+          "order": 2,
+          "asset_group": "logotype"
+        },
+        {
+          "key": "candidate-0-63b2c890-page-0-vertical-kospo",
+          "label": "KOSPO 상하조합",
+          "form": "vertical",
+          "lockup": "vertical",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-zip-batch8-20261010/0a53c846c6f3ae522f01.svg",
+            "png": "sources/official-zip-batch8-20261010/9084cbf7f0bf78952383.png"
+          },
+          "aspect": 1.1554015020219526,
+          "origin": "official",
+          "provider": "공식 AI · 레이아웃 제거 검수",
+          "derived_from": "https://www.kospo.co.kr/sites/kospo/download/KOSPO_CI.zip",
+          "original_ai": "sources/official-zip-batch8-20261010/63b2c8908a64e291b655.ai",
+          "original_zip": "sources/official-zip-batch8-20261010/83bb28e356f475beac74.zip",
+          "order": 3,
+          "asset_group": "logotype"
+        },
+        {
+          "key": "candidate-0-63b2c890-page-0-symbol",
+          "label": "심볼마크",
+          "form": "symbol",
+          "lockup": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-zip-batch8-20261010/a0c8bed52ccc2e3a47de.svg",
+            "png": "sources/official-zip-batch8-20261010/a3aeaa8800936567e145.png"
+          },
+          "aspect": 1.5710919088766693,
+          "origin": "official",
+          "provider": "공식 AI · 레이아웃 제거 검수",
+          "derived_from": "https://www.kospo.co.kr/sites/kospo/download/KOSPO_CI.zip",
+          "original_ai": "sources/official-zip-batch8-20261010/63b2c8908a64e291b655.ai",
+          "original_zip": "sources/official-zip-batch8-20261010/83bb28e356f475beac74.zip",
+          "order": 4,
+          "asset_group": "symbol"
+        }
+      ]
+    }
+  },
+  "original_files": {
+    "gongu-ci-1692": [
+      "sources/official-zip-batch8-20261010/9d61d49d0c3a14971ed2.ai",
+      "sources/official-zip-batch8-20261010/151f69f19744776c6249.ai"
+    ],
+    "gongu-ci-1605": [
+      "sources/official-zip-batch8-20261010/9f17d9bf21796f743b1d.ai",
+      "sources/official-zip-batch8-20261010/6d33dde5e8ba9ff9934f.ai",
+      "sources/official-zip-batch8-20261010/1bb38fc078e065231245.ai"
+    ],
+    "gongu-ci-1585": [
+      "sources/official-zip-batch8-20261010/63b2c8908a64e291b655.ai"
+    ]
+  }
+}

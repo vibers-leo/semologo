@@ -236,7 +236,7 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
   const [candidateBgs,setCandidateBgs]=useState<Record<string,"light"|"dark">>({});
 
   const [savingPresentation,setSavingPresentation]=useState(false);
-  useEffect(()=>{let alive=true;setPresentation(brand.presentation || null);fetch(`/api/logo-presentation/?id=${encodeURIComponent(brand.id)}`,{cache:"no-store"}).then(r=>r.ok?r.json():null).then(data=>{const p=data?.presentations?.[brand.id];if(alive&&validPresentation(p)){setPresentation(p);setCandidateBgs(old=>({...old,[p.file]:p.bg}));}}).catch(()=>{});return()=>{alive=false;};},[brand.id]);
+  useEffect(()=>{let alive=true;setPresentation(brand.presentation || null);fetch(`/api/logo-presentation/?id=${encodeURIComponent(brand.id)}`,{cache:"no-store"}).then(r=>r.ok?r.json():null).then(data=>{const p=data?.presentations?.[brand.id];if(alive&&validPresentation(p)&&!brand.rejected_asset_files?.includes(p.file)){setPresentation(p);setCandidateBgs(old=>({...old,[p.file]:p.bg}));}}).catch(()=>{});return()=>{alive=false;};},[brand.id]);
   const [bgOverride, setBgOverride] = useState<"dark" | "light" | null>(null);
   const ADMIN_EMAIL = "juuuno1116@gmail.com";
   // 렌더 중에 getClientAuth() 를 부르면 SSR 에서 깨진다 — 효과 안에서만 읽는다.

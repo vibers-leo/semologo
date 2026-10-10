@@ -27,10 +27,11 @@ import officialAi from './reviewed-official-ai-20261010.json';
 import nextAssets from './reviewed-assets-next-20261010.json';
 import sourceReflection from './reviewed-source-reflection-20261010.json';
 import naverRelease from './reviewed-naver-20261010.json';
+import bankCorrections from './reviewed-bank-corrections-20261010.json';
 // Later releases often add only counts or icons. Preserve previously reviewed
 // representative paths unless the later patch explicitly replaces that field.
 const releasePatches = mergeBrandPatches([
-  release.patches, backgroundMerge.patches, googleTransparent.patches, institutions.patches, institutionsNext.patches, rainbow.patches, requestedBackground.patches, netflix.patches, userSvg.patches, claudeMerge.patches, lockups.patches, yeonsu.patches, kepco.patches, chungbuk.patches, ftc.patches, cjwf.patches, seongju.patches, iconHd.patches, userIdentities.patches, cityMerges.patches, officialRecollection.patches, svgPreviews.patches, baeminGuide.patches, officialAi.patches, nextAssets.patches, sourceReflection.patches, naverRelease.patches
+  release.patches, backgroundMerge.patches, googleTransparent.patches, institutions.patches, institutionsNext.patches, rainbow.patches, requestedBackground.patches, netflix.patches, userSvg.patches, claudeMerge.patches, lockups.patches, yeonsu.patches, kepco.patches, chungbuk.patches, ftc.patches, cjwf.patches, seongju.patches, iconHd.patches, userIdentities.patches, cityMerges.patches, officialRecollection.patches, svgPreviews.patches, baeminGuide.patches, officialAi.patches, nextAssets.patches, sourceReflection.patches, naverRelease.patches, bankCorrections.patches
 ]);
 
 function mergeBrandPatches(releases: unknown[]): Record<string, Partial<Brand>> {
@@ -169,4 +170,5 @@ export const reviewedVariants: Record<string, VariantManifest> = {
   },
   ...nextAssets.variants as unknown as Record<string, VariantManifest>,
   ...naverRelease.variants as unknown as Record<string, VariantManifest>,
+  ...bankCorrections.variants as unknown as Record<string, VariantManifest>,
 };
