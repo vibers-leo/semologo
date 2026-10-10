@@ -119,12 +119,12 @@ body {
 .tag-svg   { background: rgba(99,102,241,.12); color: #6366f1; }
 .tag-png   { background: rgba(34,197,94,.1);   color: #16a34a; }
 
-/* Desktop: 10% rail + 2% gap + 76% content + 2% gap + 10% rail. */
+/* Desktop: 12% rail + 2% gap + 72% content + 2% gap + 12% rail. */
 .catalog-with-ad { display: grid; grid-template-columns: minmax(0, 1fr); }
 .catalog-content { min-width: 0; }
 .catalog-promo-rail, .catalog-ad-rail { display: none; }
 @media (min-width: 1024px) {
-  .catalog-with-ad { grid-template-columns: minmax(0, 10fr) minmax(0, 76fr) minmax(0, 10fr); column-gap: 2%; align-items: start; }
+  .catalog-with-ad { grid-template-columns: minmax(0, 12fr) minmax(0, 72fr) minmax(0, 12fr); column-gap: 2%; align-items: start; }
   .catalog-promo-rail, .catalog-ad-rail { display: block; min-width: 0; position: sticky; top: 112px; }
   .catalog-ad-rail { display: flex; justify-content: flex-end; }
   .catalog-video-slot { width: 100%; aspect-ratio: 16 / 9; }
