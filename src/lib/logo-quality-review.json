@@ -599,9 +599,9 @@
     "down_at_review": 1
   },
   "sonosa": {
-    "reviewed_at": "2026-10-05",
-    "status": "quarantined",
-    "reason": "대표 PNG와 복구 경로 모두 제공 불가. 원본 보존 후 재수집 필요",
+    "reviewed_at": "2026-10-10",
+    "status": "restored",
+    "reason": "공식 CI AI 원본 재수집·기관 식별·벡터 추출·투명 SVG/PNG 육안 검수 후 복구",
     "down_at_review": 1
   },
   "tenasiahankyung": {
