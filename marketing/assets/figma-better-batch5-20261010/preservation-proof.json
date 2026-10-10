@@ -1,0 +1,434 @@
+{
+  "checked_at": "2026-10-10T14:21:30.089513+00:00",
+  "existing_brands": 22,
+  "pass": true,
+  "brands": [
+    {
+      "id": "abstract",
+      "cdn_status": 200,
+      "cdn_sha256": "3f1c5f0c597c30cd2f0501526b28f3374d4e0cc814660899aac1e7c42246532c",
+      "cms_manifest_present": false,
+      "preserved": [
+        {
+          "source": "cdn",
+          "key": "symbol",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          }
+        },
+        {
+          "source": "cdn",
+          "key": "wordmark",
+          "files": {
+            "svg": "sources/commons-wm/wordmark.svg"
+          }
+        }
+      ],
+      "primary": "symbol",
+      "representative_payload_untouched": true,
+      "pass": true
+    },
+    {
+      "id": "alpaca",
+      "cdn_status": 200,
+      "cdn_sha256": "8a600ad44bc78db6672dac04a146c1bb533c7a41069245b4acde02e4de6c8fea",
+      "cms_manifest_present": false,
+      "preserved": [
+        {
+          "source": "cdn",
+          "key": "wordmark",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          }
+        }
+      ],
+      "primary": "wordmark",
+      "representative_payload_untouched": true,
+      "pass": true
+    },
+    {
+      "id": "basecamp",
+      "cdn_status": 200,
+      "cdn_sha256": "69b133741c487cd806eb5df2d33f902b227d845516107f9f6a71baaa3209bdf6",
+      "cms_manifest_present": false,
+      "preserved": [
+        {
+          "source": "cdn",
+          "key": "symbol",
+          "files": {
+            "svg": "sources/iconify/basecamp-icon.svg",
+            "png": "sources/iconify/basecamp-icon.png"
+          }
+        },
+        {
+          "source": "cdn",
+          "key": "wordmark",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          }
+        }
+      ],
+      "primary": "wordmark",
+      "representative_payload_untouched": true,
+      "pass": true
+    },
+    {
+      "id": "capital-one",
+      "cdn_status": 200,
+      "cdn_sha256": "245de2e9e16c82b894a5496f1f520815d155519c2f2118412672a0d329ae6375",
+      "cms_manifest_present": false,
+      "preserved": [
+        {
+          "source": "cdn",
+          "key": "horizontal",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          }
+        }
+      ],
+      "primary": "horizontal",
+      "representative_payload_untouched": true,
+      "pass": true
+    },
+    {
+      "id": "cocacola",
+      "cdn_status": 200,
+      "cdn_sha256": "1c255c7709d37d2e676112507b3b2478071bb09a25adac66b4d48d58f8860634",
+      "cms_manifest_present": false,
+      "preserved": [
+        {
+          "source": "cdn",
+          "key": "wordmark",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          }
+        }
+      ],
+      "primary": "wordmark",
+      "representative_payload_untouched": true,
+      "pass": true
+    },
+    {
+      "id": "codecov",
+      "cdn_status": 200,
+      "cdn_sha256": "3f64cf51ea0b6c72f05d217720392bbe0d9ad6c903f7657694840cc54247f702",
+      "cms_manifest_present": false,
+      "preserved": [
+        {
+          "source": "cdn",
+          "key": "symbol",
+          "files": {
+            "svg": "sources/iconify/codecov-icon.svg",
+            "png": "sources/iconify/codecov-icon.png"
+          }
+        },
+        {
+          "source": "cdn",
+          "key": "wordmark",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          }
+        }
+      ],
+      "primary": "wordmark",
+      "representative_payload_untouched": true,
+      "pass": true
+    },
+    {
+      "id": "copy-ai",
+      "cdn_status": 200,
+      "cdn_sha256": "1948ca084c9106b32a7d4b8cc726a6e65be4cb39da2d412ac9944d6c636f591c",
+      "cms_manifest_present": false,
+      "preserved": [
+        {
+          "source": "cdn",
+          "key": "wordmark",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          }
+        }
+      ],
+      "primary": "wordmark",
+      "representative_payload_untouched": true,
+      "pass": true
+    },
+    {
+      "id": "corning-inc",
+      "cdn_status": 200,
+      "cdn_sha256": "0418ad8d480fec04fff806d3b3eb4d226c5c11e42bd9f2c6036b37aad50a6d17",
+      "cms_manifest_present": false,
+      "preserved": [
+        {
+          "source": "cdn",
+          "key": "wordmark",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          }
+        }
+      ],
+      "primary": "wordmark",
+      "representative_payload_untouched": true,
+      "pass": true
+    },
+    {
+      "id": "deel-1",
+      "cdn_status": 404,
+      "cdn_sha256": null,
+      "cms_manifest_present": false,
+      "preserved": [],
+      "primary": "existing-original",
+      "representative_payload_untouched": true,
+      "pass": true
+    },
+    {
+      "id": "deepgram",
+      "cdn_status": 200,
+      "cdn_sha256": "0b8825014a42c567193e9ec082f2ba5ef8b4abf272462728dc4f9fc14a6fca22",
+      "cms_manifest_present": false,
+      "preserved": [
+        {
+          "source": "cdn",
+          "key": "symbol",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          }
+        },
+        {
+          "source": "cdn",
+          "key": "wordmark",
+          "files": {
+            "svg": "sources/gilbarbara/full.svg"
+          }
+        }
+      ],
+      "primary": "symbol",
+      "representative_payload_untouched": true,
+      "pass": true
+    },
+    {
+      "id": "descript",
+      "cdn_status": 200,
+      "cdn_sha256": "62dc2c33bd5ab621605378bf4da46c010fbac768b247f132f9ae79087d6132e4",
+      "cms_manifest_present": false,
+      "preserved": [
+        {
+          "source": "cdn",
+          "key": "symbol",
+          "files": {
+            "svg": "sources/iconify/descript-icon.svg",
+            "png": "sources/iconify/descript-icon.png"
+          }
+        },
+        {
+          "source": "cdn",
+          "key": "wordmark",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          }
+        }
+      ],
+      "primary": "wordmark",
+      "representative_payload_untouched": true,
+      "pass": true
+    },
+    {
+      "id": "duolingo",
+      "cdn_status": 200,
+      "cdn_sha256": "f27be74ce33f908ec1077fc2797c5ef44262098894ec9775cfe13d2e26a698af",
+      "cms_manifest_present": true,
+      "preserved": [
+        {
+          "source": "cdn",
+          "key": "figma-better-original",
+          "files": {
+            "svg": "sources/figma-better-community-20261010/ad02d8b0572cc9b678ba.svg",
+            "png": "sources/figma-better-community-20261010/4cf5365eeed0959089e2.png"
+          }
+        },
+        {
+          "source": "cms",
+          "key": "figma-better-original",
+          "files": {
+            "png": "sources/figma-better-community-20261010/4cf5365eeed0959089e2.png",
+            "svg": "sources/figma-better-community-20261010/ad02d8b0572cc9b678ba.svg"
+          }
+        }
+      ],
+      "primary": null,
+      "representative_payload_untouched": true,
+      "pass": true
+    },
+    {
+      "id": "eventbrite",
+      "cdn_status": 200,
+      "cdn_sha256": "56ddc43e51b0e6264f3a5279a629bb3a043e1749d6674ee01113f8fcc03074e3",
+      "cms_manifest_present": false,
+      "preserved": [
+        {
+          "source": "cdn",
+          "key": "symbol",
+          "files": {
+            "svg": "sources/iconify/eventbrite-icon.svg",
+            "png": "sources/iconify/eventbrite-icon.png"
+          }
+        },
+        {
+          "source": "cdn",
+          "key": "wordmark",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          }
+        }
+      ],
+      "primary": "wordmark",
+      "representative_payload_untouched": true,
+      "pass": true
+    },
+    {
+      "id": "fueler",
+      "cdn_status": 200,
+      "cdn_sha256": "a21050839f99caf7cea0f7cfff8fcdf31c0cb6d60abceb00987d664dc6b75148",
+      "cms_manifest_present": false,
+      "preserved": [
+        {
+          "source": "cdn",
+          "key": "symbol",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          }
+        }
+      ],
+      "primary": "symbol",
+      "representative_payload_untouched": true,
+      "pass": true
+    },
+    {
+      "id": "genies",
+      "cdn_status": 200,
+      "cdn_sha256": "c2836625c10675314042cf8b9ad995a23c2c2f88e05ab43c2975f292fd460a8c",
+      "cms_manifest_present": false,
+      "preserved": [
+        {
+          "source": "cdn",
+          "key": "wordmark",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          }
+        }
+      ],
+      "primary": "wordmark",
+      "representative_payload_untouched": true,
+      "pass": true
+    },
+    {
+      "id": "glossier-1",
+      "cdn_status": 404,
+      "cdn_sha256": null,
+      "cms_manifest_present": false,
+      "preserved": [],
+      "primary": "existing-original",
+      "representative_payload_untouched": true,
+      "pass": true
+    },
+    {
+      "id": "goldman-sachs",
+      "cdn_status": 200,
+      "cdn_sha256": "3d0d6e08be08004497994fc829df36bc56c011ffb8e3d527490e059848e779d2",
+      "cms_manifest_present": false,
+      "preserved": [
+        {
+          "source": "cdn",
+          "key": "horizontal",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          }
+        }
+      ],
+      "primary": "horizontal",
+      "representative_payload_untouched": true,
+      "pass": true
+    },
+    {
+      "id": "gremlin",
+      "cdn_status": 404,
+      "cdn_sha256": null,
+      "cms_manifest_present": false,
+      "preserved": [],
+      "primary": "existing-original",
+      "representative_payload_untouched": true,
+      "pass": true
+    },
+    {
+      "id": "harrys",
+      "cdn_status": 404,
+      "cdn_sha256": null,
+      "cms_manifest_present": false,
+      "preserved": [],
+      "primary": "existing-original",
+      "representative_payload_untouched": true,
+      "pass": true
+    },
+    {
+      "id": "hey",
+      "cdn_status": 200,
+      "cdn_sha256": "115b964af9c6fc8503225b833947cac992b8aedc019be95365f0e69cad8db3ea",
+      "cms_manifest_present": false,
+      "preserved": [
+        {
+          "source": "cdn",
+          "key": "symbol",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          }
+        }
+      ],
+      "primary": "symbol",
+      "representative_payload_untouched": true,
+      "pass": true
+    },
+    {
+      "id": "jasper",
+      "cdn_status": 200,
+      "cdn_sha256": "c1098926eeabb1bbf42d1cdf9e5dfab91b3f8f882d852bbc6e82d610f5bdbe5e",
+      "cms_manifest_present": false,
+      "preserved": [
+        {
+          "source": "cdn",
+          "key": "horizontal",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          }
+        }
+      ],
+      "primary": "horizontal",
+      "representative_payload_untouched": true,
+      "pass": true
+    },
+    {
+      "id": "jp-morgan",
+      "cdn_status": 404,
+      "cdn_sha256": null,
+      "cms_manifest_present": false,
+      "preserved": [],
+      "primary": "existing-original",
+      "representative_payload_untouched": true,
+      "pass": true
+    }
+  ]
+}

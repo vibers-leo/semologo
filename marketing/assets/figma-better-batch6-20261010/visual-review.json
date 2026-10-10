@@ -1,0 +1,15 @@
+{
+  "visual_review": "approved",
+  "reviewed_contact_sheets": 8,
+  "reviewed_variants": 228,
+  "new_variants": 228,
+  "pure_vector_variants": 216,
+  "native_png_variants": 12,
+  "objects": 669,
+  "white_variants": 83,
+  "existing_representatives_preserved": 26,
+  "new_identity_ids_absent_in_fresh_cms": 61,
+  "legacy_cdn_brands_preserved": 19,
+  "legacy_variants_preserved": 25,
+  "source_period": "unknown; Figma Community source, not certified latest official CI"
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "id": "harvard",
+    "http_ok": true,
+    "variants_n": 3,
+    "expected_count_in_response": true
+  },
+  {
+    "id": "westerveld",
+    "http_ok": true,
+    "variants_n": 2,
+    "expected_count_in_response": true
+  },
+  {
+    "id": "capture-one",
+    "http_ok": true,
+    "variants_n": 2,
+    "expected_count_in_response": true
+  },
+  {
+    "id": "htv-x",
+    "http_ok": true,
+    "variants_n": 4,
+    "expected_count_in_response": true
+  }
+]

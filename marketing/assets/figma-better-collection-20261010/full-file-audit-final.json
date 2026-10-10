@@ -1,0 +1,5482 @@
+{
+  "checked_at": "2026-10-10T14:28:37.042554+00:00",
+  "source_kind": "Figma Community user-provided export snapshot",
+  "scope": "377개 고유 원본 파일명 그룹 전수 검수. 현재 공식 기업명부 또는 공식 최신 CI를 뜻하지 않음.",
+  "source_roster_preserved": true,
+  "summary": {
+    "total_filename_entities": 377,
+    "approved_filename_entities": 307,
+    "approved_unique_canonical": 306,
+    "held_filename_entities": 70,
+    "new_unique_seeds": 125,
+    "new_variants": 757,
+    "objects": 1867,
+    "published_filename_entities": 307,
+    "pending_publication_filename_entities": 0
+  },
+  "batches": [
+    {
+      "batch": 1,
+      "approved_filename_entities": 28,
+      "new_seeds": 0,
+      "new_variants": 82,
+      "objects": 149,
+      "publication_status": "published_cdn_verified",
+      "published_summary": {
+        "objects": 149,
+        "brands": 28,
+        "status": "cdn-verified-community-variants-appended"
+      },
+      "cdn_hash_verified_objects": 149
+    },
+    {
+      "batch": 2,
+      "approved_filename_entities": 45,
+      "new_seeds": 0,
+      "new_variants": 119,
+      "objects": 234,
+      "publication_status": "published_cdn_verified",
+      "published_summary": {
+        "objects": 234,
+        "brands": 45,
+        "status": "cdn-verified-community-variants-appended"
+      },
+      "cdn_hash_verified_objects": 234
+    },
+    {
+      "batch": 3,
+      "approved_filename_entities": 41,
+      "new_seeds": 0,
+      "new_variants": 108,
+      "objects": 210,
+      "publication_status": "published_cdn_verified",
+      "published_summary": {
+        "objects": 210,
+        "brands": 41,
+        "status": "cdn-verified-community-variants-appended"
+      },
+      "cdn_hash_verified_objects": 210
+    },
+    {
+      "batch": 4,
+      "approved_filename_entities": 20,
+      "new_seeds": 0,
+      "new_variants": 24,
+      "objects": 24,
+      "publication_status": "published_cdn_verified",
+      "published_summary": {
+        "objects": 24,
+        "brands": 20,
+        "status": "cdn-verified-community-variants-appended"
+      },
+      "cdn_hash_verified_objects": 24
+    },
+    {
+      "batch": 5,
+      "approved_filename_entities": 86,
+      "new_seeds": 64,
+      "new_variants": 196,
+      "objects": 581,
+      "publication_status": "published_cdn_verified",
+      "published_summary": {
+        "objects": 581,
+        "brands": 86,
+        "status": "cdn-verified-community-variants-appended"
+      },
+      "cdn_hash_verified_objects": 581
+    },
+    {
+      "batch": 6,
+      "approved_filename_entities": 87,
+      "new_seeds": 61,
+      "new_variants": 228,
+      "objects": 669,
+      "publication_status": "published_cdn_verified",
+      "published_summary": {
+        "objects": 669,
+        "brands": 87,
+        "status": "cdn-verified-community-variants-appended"
+      },
+      "cdn_hash_verified_objects": 669
+    }
+  ],
+  "members": [
+    {
+      "name": "8VC",
+      "source_files": [
+        "8VC.svg",
+        "8VC (white).svg",
+        "8VC (black).svg"
+      ],
+      "canonical_id": "8vc",
+      "batch": 5,
+      "new_seed": true,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch5-20261010"
+    },
+    {
+      "name": "AAC Clyde Space",
+      "source_files": [
+        "AAC Clyde Space (white).svg"
+      ],
+      "canonical_id": "aac-clyde-space",
+      "batch": 5,
+      "new_seed": true,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch5-20261010"
+    },
+    {
+      "name": "ABInbev",
+      "source_files": [
+        "ABInbev (white).png",
+        "ABInbev (black).png"
+      ],
+      "batch": 5,
+      "reason": "PNG/PDF-only 신규: 벡터 확보 전 보류",
+      "canonical_id": null,
+      "review_status": "held",
+      "publication_status": "not_published",
+      "new_seed": false
+    },
+    {
+      "name": "ACLU",
+      "source_files": [
+        "ACLU.svg",
+        "ACLU (white).svg",
+        "ACLU (black).svg"
+      ],
+      "canonical_id": "aclu",
+      "batch": 3,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch3-20261010"
+    },
+    {
+      "name": "Abstract",
+      "source_files": [
+        "Abstract.svg",
+        "Abstract (white).svg",
+        "Abstract (black).svg"
+      ],
+      "canonical_id": "abstract",
+      "batch": 5,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch5-20261010"
+    },
+    {
+      "name": "Accel",
+      "source_files": [
+        "Accel.svg",
+        "Accel (white).svg",
+        "Accel (black).svg"
+      ],
+      "canonical_id": "accel",
+      "batch": 3,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch3-20261010"
+    },
+    {
+      "name": "Accenture",
+      "source_files": [
+        "Accenture.svg"
+      ],
+      "canonical_id": "accenture",
+      "batch": 2,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch2-20261010"
+    },
+    {
+      "name": "Acrew",
+      "source_files": [
+        "Acrew (white).svg"
+      ],
+      "canonical_id": "acrew",
+      "batch": 5,
+      "new_seed": true,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch5-20261010"
+    },
+    {
+      "name": "Adapt",
+      "source_files": [
+        "Adapt (white).svg"
+      ],
+      "batch": 5,
+      "reason": "동일 일반명 다기관 또는 실체·도메인 추가확인 필요. 기존 동명 콘텐츠에 자동 연결하지 않음.",
+      "canonical_id": null,
+      "review_status": "held",
+      "publication_status": "not_published",
+      "new_seed": false
+    },
+    {
+      "name": "Adobe",
+      "source_files": [
+        "Adobe.svg",
+        "Adobe (black).svg",
+        "Adobe (white).png"
+      ],
+      "canonical_id": "adobe",
+      "batch": 1,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-collection-20261010"
+    },
+    {
+      "name": "Airbnb",
+      "source_files": [
+        "Airbnb.svg",
+        "Airbnb (white).png",
+        "Airbnb (black).png"
+      ],
+      "canonical_id": "airbnb",
+      "batch": 1,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-collection-20261010"
+    },
+    {
+      "name": "Airspace Intelligence",
+      "source_files": [
+        "Airspace Intelligence.png"
+      ],
+      "batch": 5,
+      "reason": "PNG/PDF-only 신규: 벡터 확보 전 보류",
+      "canonical_id": null,
+      "review_status": "held",
+      "publication_status": "not_published",
+      "new_seed": false
+    },
+    {
+      "name": "Airtable",
+      "source_files": [
+        "Airtable.svg",
+        "Airtable (white).svg",
+        "Airtable (black).svg"
+      ],
+      "canonical_id": "airtable",
+      "batch": 1,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-collection-20261010"
+    },
+    {
+      "name": "Alfred University",
+      "source_files": [
+        "Alfred University.svg",
+        "Alfred University (white).svg",
+        "Alfred University (black).svg"
+      ],
+      "canonical_id": "alfred-university",
+      "batch": 5,
+      "new_seed": true,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch5-20261010"
+    },
+    {
+      "name": "All Raise",
+      "source_files": [
+        "All Raise (black).png"
+      ],
+      "batch": 5,
+      "reason": "PNG/PDF-only 신규: 벡터 확보 전 보류",
+      "canonical_id": null,
+      "review_status": "held",
+      "publication_status": "not_published",
+      "new_seed": false
+    },
+    {
+      "name": "Alleyoop",
+      "source_files": [
+        "Alleyoop (white).svg"
+      ],
+      "canonical_id": "alleyoop-beauty",
+      "batch": 5,
+      "new_seed": true,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch5-20261010"
+    },
+    {
+      "name": "Allscripts",
+      "source_files": [
+        "Allscripts.svg",
+        "Allscripts (white).svg",
+        "Allscripts (black).svg"
+      ],
+      "canonical_id": "allscripts",
+      "batch": 5,
+      "new_seed": true,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch5-20261010"
+    },
+    {
+      "name": "Alpaca",
+      "source_files": [
+        "Alpaca.svg",
+        "Alpaca (black).svg",
+        "Alpaca (white).png"
+      ],
+      "canonical_id": "alpaca",
+      "batch": 5,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch5-20261010"
+    },
+    {
+      "name": "Amazon",
+      "source_files": [
+        "Amazon.svg",
+        "Amazon (black).svg",
+        "Amazon (white).png"
+      ],
+      "canonical_id": "amazon",
+      "batch": 1,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-collection-20261010"
+    },
+    {
+      "name": "Amazon Smile",
+      "source_files": [
+        "Amazon Smile.png"
+      ],
+      "batch": 5,
+      "reason": "PNG/PDF-only 신규: 벡터 확보 전 보류",
+      "canonical_id": null,
+      "review_status": "held",
+      "publication_status": "not_published",
+      "new_seed": false
+    },
+    {
+      "name": "Anchor",
+      "source_files": [
+        "Anchor.svg"
+      ],
+      "batch": 5,
+      "reason": "동일 일반명 다기관 또는 실체·도메인 추가확인 필요. 기존 동명 콘텐츠에 자동 연결하지 않음.",
+      "canonical_id": null,
+      "review_status": "held",
+      "publication_status": "not_published",
+      "new_seed": false
+    },
+    {
+      "name": "Andreessen Horowitz",
+      "source_files": [
+        "Andreessen Horowitz.svg",
+        "Andreessen Horowitz (black).svg",
+        "Andreessen Horowitz (white).png"
+      ],
+      "canonical_id": "andreessen-horowitz",
+      "batch": 3,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch3-20261010"
+    },
+    {
+      "name": "Anthos",
+      "source_files": [
+        "Anthos (black).png"
+      ],
+      "batch": 5,
+      "reason": "PNG/PDF-only 신규: 벡터 확보 전 보류",
+      "canonical_id": null,
+      "review_status": "held",
+      "publication_status": "not_published",
+      "new_seed": false
+    },
+    {
+      "name": "Apartment List",
+      "source_files": [
+        "Apartment List.svg",
+        "Apartment List (white).svg",
+        "Apartment List (black).svg"
+      ],
+      "canonical_id": "apartment-list",
+      "batch": 5,
+      "new_seed": true,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch5-20261010"
+    },
+    {
+      "name": "Aprio",
+      "source_files": [
+        "Aprio.svg",
+        "Aprio (white).svg",
+        "Aprio (black).svg"
+      ],
+      "canonical_id": "aprio",
+      "batch": 5,
+      "new_seed": true,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch5-20261010"
+    },
+    {
+      "name": "Arc Institute",
+      "source_files": [
+        "Arc Institute.png"
+      ],
+      "batch": 5,
+      "reason": "PNG/PDF-only 신규: 벡터 확보 전 보류",
+      "canonical_id": null,
+      "review_status": "held",
+      "publication_status": "not_published",
+      "new_seed": false
+    },
+    {
+      "name": "Asana",
+      "source_files": [
+        "Asana.svg",
+        "Asana (white).svg",
+        "Asana (black).svg"
+      ],
+      "canonical_id": "asana",
+      "batch": 1,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-collection-20261010"
+    },
+    {
+      "name": "AspireIQ",
+      "source_files": [
+        "AspireIQ.svg",
+        "AspireIQ (white).svg",
+        "AspireIQ (black).svg"
+      ],
+      "canonical_id": "aspireiq",
+      "batch": 5,
+      "new_seed": true,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch5-20261010"
+    },
+    {
+      "name": "Atlassian",
+      "source_files": [
+        "Atlassian.svg",
+        "Atlassian (white).svg",
+        "Atlassian (black).svg"
+      ],
+      "canonical_id": "atlassian",
+      "batch": 1,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-collection-20261010"
+    },
+    {
+      "name": "Atomic",
+      "source_files": [
+        "Atomic.svg",
+        "Atomic (white).svg",
+        "Atomic (black).svg"
+      ],
+      "canonical_id": "atomic-venture-studio",
+      "batch": 5,
+      "new_seed": true,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch5-20261010"
+    },
+    {
+      "name": "Autodesk",
+      "source_files": [
+        "Autodesk.svg",
+        "Autodesk (white).svg",
+        "Autodesk (black).svg"
+      ],
+      "canonical_id": "autodesk",
+      "batch": 1,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-collection-20261010"
+    },
+    {
+      "name": "Autopilot",
+      "source_files": [
+        "Autopilot.svg",
+        "Autopilot (white).svg",
+        "Autopilot (black).svg"
+      ],
+      "canonical_id": "autopilot-marketing",
+      "batch": 5,
+      "new_seed": true,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch5-20261010"
+    },
+    {
+      "name": "Aven",
+      "source_files": [
+        "Aven.svg",
+        "Aven (white).png"
+      ],
+      "canonical_id": "aven",
+      "batch": 5,
+      "new_seed": true,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch5-20261010"
+    },
+    {
+      "name": "BAT",
+      "source_files": [
+        "BAT (white).png",
+        "BAT (black).png"
+      ],
+      "batch": 4,
+      "reason": "기존암호화폐canonical과 신원불일치",
+      "canonical_id": null,
+      "review_status": "held",
+      "publication_status": "not_published",
+      "new_seed": false
+    },
+    {
+      "name": "BBC",
+      "source_files": [
+        "BBC.png",
+        "BBC (black).png"
+      ],
+      "canonical_id": "bbc",
+      "batch": 4,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch4-20261010"
+    },
+    {
+      "name": "BBG Ventures",
+      "source_files": [
+        "BBG Ventures (white).svg"
+      ],
+      "canonical_id": "bbg-ventures",
+      "batch": 5,
+      "new_seed": true,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch5-20261010"
+    },
+    {
+      "name": "Bain Capital Ventures",
+      "source_files": [
+        "Bain Capital Ventures.svg"
+      ],
+      "canonical_id": "bain-capital-ventures",
+      "batch": 3,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch3-20261010"
+    },
+    {
+      "name": "Bankrate",
+      "source_files": [
+        "Bankrate.svg",
+        "Bankrate (white).svg",
+        "Bankrate (black).svg"
+      ],
+      "canonical_id": "bankrate",
+      "batch": 3,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch3-20261010"
+    },
+    {
+      "name": "Banza",
+      "source_files": [
+        "Banza (white).svg"
+      ],
+      "canonical_id": "banza",
+      "batch": 5,
+      "new_seed": true,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch5-20261010"
+    },
+    {
+      "name": "Basecamp",
+      "source_files": [
+        "Basecamp.svg",
+        "Basecamp (white).svg",
+        "Basecamp (black).svg"
+      ],
+      "canonical_id": "basecamp",
+      "batch": 5,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch5-20261010"
+    },
+    {
+      "name": "Beazer Homes",
+      "source_files": [
+        "Beazer Homes.svg",
+        "Beazer Homes (white).svg",
+        "Beazer Homes (black).svg"
+      ],
+      "canonical_id": "beazer-homes",
+      "batch": 3,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch3-20261010"
+    },
+    {
+      "name": "Big Fish Games",
+      "source_files": [
+        "Big Fish Games.svg",
+        "Big Fish Games (white).svg",
+        "Big Fish Games (black).svg"
+      ],
+      "canonical_id": "big-fish-games",
+      "batch": 3,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch3-20261010"
+    },
+    {
+      "name": "BitClout",
+      "source_files": [
+        "BitClout.svg",
+        "BitClout (white).svg",
+        "BitClout (black).svg"
+      ],
+      "batch": 5,
+      "reason": "과거 서비스/브랜드의 현재 상태 미확인. 아카이브 시기 검수 후 제공.",
+      "canonical_id": null,
+      "review_status": "held",
+      "publication_status": "not_published",
+      "new_seed": false
+    },
+    {
+      "name": "Bitaccess",
+      "source_files": [
+        "Bitaccess.svg",
+        "Bitaccess (white).svg",
+        "Bitaccess (black).svg"
+      ],
+      "canonical_id": "bitaccess",
+      "batch": 5,
+      "new_seed": true,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch5-20261010"
+    },
+    {
+      "name": "Blue Canyon Technologies",
+      "source_files": [
+        "Blue Canyon Technologies (white).svg"
+      ],
+      "canonical_id": "blue-canyon-technologies",
+      "batch": 5,
+      "new_seed": true,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch5-20261010"
+    },
+    {
+      "name": "Bombora",
+      "source_files": [
+        "Bombora.svg",
+        "Bombora (white).svg",
+        "Bombora (black).svg"
+      ],
+      "canonical_id": "bombora",
+      "batch": 5,
+      "new_seed": true,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch5-20261010"
+    },
+    {
+      "name": "Bonfire",
+      "source_files": [
+        "Bonfire.svg",
+        "Bonfire (white).svg",
+        "Bonfire (black).svg"
+      ],
+      "batch": 5,
+      "reason": "동일 일반명 다기관 또는 실체·도메인 추가확인 필요. 기존 동명 콘텐츠에 자동 연결하지 않음.",
+      "canonical_id": null,
+      "review_status": "held",
+      "publication_status": "not_published",
+      "new_seed": false
+    },
+    {
+      "name": "Boom",
+      "source_files": [
+        "Boom.svg",
+        "Boom (white).svg",
+        "Boom (black).svg"
+      ],
+      "canonical_id": "boom-supersonic",
+      "batch": 5,
+      "new_seed": true,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch5-20261010"
+    },
+    {
+      "name": "Breyer Capital",
+      "source_files": [
+        "Breyer Capital.svg",
+        "Breyer Capital (white).svg",
+        "Breyer Capital (black).svg"
+      ],
+      "canonical_id": "breyer-capital",
+      "batch": 5,
+      "new_seed": true,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch5-20261010"
+    },
+    {
+      "name": "Bridgewater",
+      "source_files": [
+        "Bridgewater.svg",
+        "Bridgewater (white).svg",
+        "Bridgewater (black).svg"
+      ],
+      "canonical_id": "bridgewater",
+      "batch": 3,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch3-20261010"
+    },
+    {
+      "name": "Bubblehouse",
+      "source_files": [
+        "Bubblehouse.svg",
+        "Bubblehouse (white).png"
+      ],
+      "canonical_id": "bubblehouse",
+      "batch": 5,
+      "new_seed": true,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch5-20261010"
+    },
+    {
+      "name": "Bumble",
+      "source_files": [
+        "Bumble.svg",
+        "Bumble (white).svg",
+        "Bumble (black).svg"
+      ],
+      "canonical_id": "bumble",
+      "batch": 2,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch2-20261010"
+    },
+    {
+      "name": "CAA",
+      "source_files": [
+        "CAA (white).svg"
+      ],
+      "canonical_id": "caa-creative-artists-agency",
+      "batch": 5,
+      "new_seed": true,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch5-20261010"
+    },
+    {
+      "name": "CFPB",
+      "source_files": [
+        "CFPB.svg",
+        "CFPB (white).svg",
+        "CFPB (black).svg"
+      ],
+      "canonical_id": "cfpb",
+      "batch": 5,
+      "new_seed": true,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch5-20261010"
+    },
+    {
+      "name": "Cadre",
+      "source_files": [
+        "Cadre.svg",
+        "Cadre (white).svg",
+        "Cadre (black).svg"
+      ],
+      "batch": 5,
+      "reason": "동일 일반명 다기관 또는 실체·도메인 추가확인 필요. 기존 동명 콘텐츠에 자동 연결하지 않음.",
+      "canonical_id": null,
+      "review_status": "held",
+      "publication_status": "not_published",
+      "new_seed": false
+    },
+    {
+      "name": "Canaan",
+      "source_files": [
+        "Canaan (white).svg"
+      ],
+      "canonical_id": "canaan",
+      "batch": 5,
+      "new_seed": true,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch5-20261010"
+    },
+    {
+      "name": "Canopy",
+      "source_files": [
+        "Canopy.svg",
+        "Canopy (black).svg",
+        "Canopy (white).png"
+      ],
+      "canonical_id": "canopy-tax",
+      "batch": 5,
+      "new_seed": true,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch5-20261010"
+    },
+    {
+      "name": "Capital One",
+      "source_files": [
+        "Capital One (black).png"
+      ],
+      "canonical_id": "capital-one",
+      "batch": 5,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch5-20261010"
+    },
+    {
+      "name": "CaptivateIQ",
+      "source_files": [
+        "CaptivateIQ.svg",
+        "CaptivateIQ (white).svg",
+        "CaptivateIQ (black).svg"
+      ],
+      "canonical_id": "captivateiq",
+      "batch": 5,
+      "new_seed": true,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch5-20261010"
+    },
+    {
+      "name": "Carbon Health",
+      "source_files": [
+        "Carbon Health.pdf"
+      ],
+      "batch": 5,
+      "reason": "PNG/PDF-only 신규: 벡터 확보 전 보류",
+      "canonical_id": null,
+      "review_status": "held",
+      "publication_status": "not_published",
+      "new_seed": false
+    },
+    {
+      "name": "Carbon Ventures",
+      "source_files": [
+        "Carbon Ventures.svg",
+        "Carbon Ventures (white).svg",
+        "Carbon Ventures (black).svg"
+      ],
+      "canonical_id": "carbon-ventures",
+      "batch": 5,
+      "new_seed": true,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch5-20261010"
+    },
+    {
+      "name": "CareCentrix",
+      "source_files": [
+        "CareCentrix (black).png"
+      ],
+      "batch": 5,
+      "reason": "PNG/PDF-only 신규: 벡터 확보 전 보류",
+      "canonical_id": null,
+      "review_status": "held",
+      "publication_status": "not_published",
+      "new_seed": false
+    },
+    {
+      "name": "CareRev",
+      "source_files": [
+        "CareRev.svg"
+      ],
+      "canonical_id": "carerev",
+      "batch": 5,
+      "new_seed": true,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch5-20261010"
+    },
+    {
+      "name": "Carrot",
+      "source_files": [
+        "Carrot.svg",
+        "Carrot (white).svg",
+        "Carrot (black).svg"
+      ],
+      "canonical_id": "carrot-fertility",
+      "batch": 5,
+      "new_seed": true,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch5-20261010"
+    },
+    {
+      "name": "Catch",
+      "source_files": [
+        "Catch.svg",
+        "Catch (white).svg",
+        "Catch (black).svg"
+      ],
+      "batch": 5,
+      "reason": "동일 일반명 다기관 또는 실체·도메인 추가확인 필요. 기존 동명 콘텐츠에 자동 연결하지 않음.",
+      "canonical_id": null,
+      "review_status": "held",
+      "publication_status": "not_published",
+      "new_seed": false
+    },
+    {
+      "name": "Centered",
+      "source_files": [
+        "Centered.svg",
+        "Centered (white).svg",
+        "Centered (black).svg"
+      ],
+      "batch": 5,
+      "reason": "동일 일반명 다기관 또는 실체·도메인 추가확인 필요. 기존 동명 콘텐츠에 자동 연결하지 않음.",
+      "canonical_id": null,
+      "review_status": "held",
+      "publication_status": "not_published",
+      "new_seed": false
+    },
+    {
+      "name": "Ceremonia",
+      "source_files": [
+        "Ceremonia (white).svg"
+      ],
+      "canonical_id": "ceremonia",
+      "batch": 5,
+      "new_seed": true,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch5-20261010"
+    },
+    {
+      "name": "Check",
+      "source_files": [
+        "Check.svg",
+        "Check (white).svg",
+        "Check (black).svg"
+      ],
+      "batch": 5,
+      "reason": "동일 일반명 다기관 또는 실체·도메인 추가확인 필요. 기존 동명 콘텐츠에 자동 연결하지 않음.",
+      "canonical_id": null,
+      "review_status": "held",
+      "publication_status": "not_published",
+      "new_seed": false
+    },
+    {
+      "name": "Checkout.com",
+      "source_files": [
+        "Checkout.com (black).png"
+      ],
+      "batch": 5,
+      "reason": "PNG/PDF-only 신규: 벡터 확보 전 보류",
+      "canonical_id": null,
+      "review_status": "held",
+      "publication_status": "not_published",
+      "new_seed": false
+    },
+    {
+      "name": "CircleCI",
+      "source_files": [
+        "CircleCI.svg",
+        "CircleCI (white).svg",
+        "CircleCI (black).svg"
+      ],
+      "canonical_id": "circleci",
+      "batch": 2,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch2-20261010"
+    },
+    {
+      "name": "Citi",
+      "source_files": [
+        "Citi.svg",
+        "Citi (white).svg",
+        "Citi (black).svg"
+      ],
+      "canonical_id": "citi",
+      "batch": 2,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch2-20261010"
+    },
+    {
+      "name": "ClickUp",
+      "source_files": [
+        "ClickUp.svg",
+        "ClickUp (white).svg",
+        "ClickUp (black).svg"
+      ],
+      "canonical_id": "clickup",
+      "batch": 3,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch3-20261010"
+    },
+    {
+      "name": "Cnet",
+      "source_files": [
+        "Cnet.png",
+        "Cnet (black).png"
+      ],
+      "canonical_id": "cnet",
+      "batch": 4,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch4-20261010"
+    },
+    {
+      "name": "Coalfire",
+      "source_files": [
+        "Coalfire.svg",
+        "Coalfire (white).svg",
+        "Coalfire (black).svg"
+      ],
+      "canonical_id": "coalfire",
+      "batch": 5,
+      "new_seed": true,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch5-20261010"
+    },
+    {
+      "name": "Coca-Cola",
+      "source_files": [
+        "Coca-Cola.png",
+        "Coca-Cola (white).png",
+        "Coca-Cola (black).png"
+      ],
+      "canonical_id": "cocacola",
+      "batch": 5,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch5-20261010"
+    },
+    {
+      "name": "Codecov",
+      "source_files": [
+        "Codecov.svg",
+        "Codecov (white).svg",
+        "Codecov (black).svg"
+      ],
+      "canonical_id": "codecov",
+      "batch": 5,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch5-20261010"
+    },
+    {
+      "name": "Color Health",
+      "source_files": [
+        "Color Health.svg",
+        "Color Health (white).svg",
+        "Color Health (black).svg"
+      ],
+      "canonical_id": "color-health",
+      "batch": 5,
+      "new_seed": true,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch5-20261010"
+    },
+    {
+      "name": "Company New Heroes",
+      "source_files": [
+        "Company New Heroes.svg",
+        "Company New Heroes (white).svg",
+        "Company New Heroes (black).svg"
+      ],
+      "canonical_id": "company-new-heroes",
+      "batch": 5,
+      "new_seed": true,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch5-20261010"
+    },
+    {
+      "name": "Concert Finance",
+      "source_files": [
+        "Concert Finance.svg",
+        "Concert Finance (white).svg",
+        "Concert Finance (black).svg"
+      ],
+      "batch": 5,
+      "reason": "동일 일반명 다기관 또는 실체·도메인 추가확인 필요. 기존 동명 콘텐츠에 자동 연결하지 않음.",
+      "canonical_id": null,
+      "review_status": "held",
+      "publication_status": "not_published",
+      "new_seed": false
+    },
+    {
+      "name": "ConvertKit",
+      "source_files": [
+        "ConvertKit.svg",
+        "ConvertKit (white).svg",
+        "ConvertKit (black).svg"
+      ],
+      "canonical_id": "convertkit",
+      "batch": 2,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch2-20261010"
+    },
+    {
+      "name": "CopyAI",
+      "source_files": [
+        "CopyAI.svg",
+        "CopyAI (white).svg",
+        "CopyAI (black).svg"
+      ],
+      "canonical_id": "copy-ai",
+      "batch": 5,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch5-20261010"
+    },
+    {
+      "name": "Corning Incorporated",
+      "source_files": [
+        "Corning Incorporated.svg",
+        "Corning Incorporated (white).svg",
+        "Corning Incorporated (black).svg"
+      ],
+      "canonical_id": "corning-inc",
+      "batch": 5,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch5-20261010"
+    },
+    {
+      "name": "Cresta AI",
+      "source_files": [
+        "Cresta AI.svg",
+        "Cresta AI (white).svg",
+        "Cresta AI (black).svg"
+      ],
+      "canonical_id": "cresta-ai",
+      "batch": 5,
+      "new_seed": true,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch5-20261010"
+    },
+    {
+      "name": "Cryptoys",
+      "source_files": [
+        "Cryptoys (white).svg"
+      ],
+      "canonical_id": "cryptoys",
+      "batch": 5,
+      "new_seed": true,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch5-20261010"
+    },
+    {
+      "name": "CōLab",
+      "source_files": [
+        "CōLab.svg",
+        "CōLab (white).svg",
+        "CōLab (black).svg"
+      ],
+      "batch": 5,
+      "reason": "동일 일반명 다기관 또는 실체·도메인 추가확인 필요. 기존 동명 콘텐츠에 자동 연결하지 않음.",
+      "canonical_id": null,
+      "review_status": "held",
+      "publication_status": "not_published",
+      "new_seed": false
+    },
+    {
+      "name": "Deel",
+      "source_files": [
+        "Deel.svg",
+        "Deel (white).svg",
+        "Deel (black).svg"
+      ],
+      "canonical_id": "deel-1",
+      "batch": 5,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch5-20261010"
+    },
+    {
+      "name": "Deepgram",
+      "source_files": [
+        "Deepgram.svg",
+        "Deepgram (white).svg",
+        "Deepgram (black).svg"
+      ],
+      "canonical_id": "deepgram",
+      "batch": 5,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch5-20261010"
+    },
+    {
+      "name": "Deloitte",
+      "source_files": [
+        "Deloitte.svg",
+        "Deloitte (white).svg",
+        "Deloitte (black).svg"
+      ],
+      "canonical_id": "deloitte",
+      "batch": 2,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch2-20261010"
+    },
+    {
+      "name": "Descript",
+      "source_files": [
+        "Descript.svg",
+        "Descript (white).svg",
+        "Descript (black).svg"
+      ],
+      "canonical_id": "descript",
+      "batch": 5,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch5-20261010"
+    },
+    {
+      "name": "Deserve",
+      "source_files": [
+        "Deserve.svg",
+        "Deserve (white).svg",
+        "Deserve (black).svg"
+      ],
+      "canonical_id": "deserve",
+      "batch": 5,
+      "new_seed": true,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch5-20261010"
+    },
+    {
+      "name": "Discord",
+      "source_files": [
+        "Discord.svg",
+        "Discord (white).svg",
+        "Discord (black).png"
+      ],
+      "canonical_id": "discord",
+      "batch": 3,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch3-20261010"
+    },
+    {
+      "name": "Dollar Tree",
+      "source_files": [
+        "Dollar Tree.svg",
+        "Dollar Tree (white).svg",
+        "Dollar Tree (black).svg"
+      ],
+      "canonical_id": "dollar-tree",
+      "batch": 2,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch2-20261010"
+    },
+    {
+      "name": "Dremio",
+      "source_files": [
+        "Dremio.svg",
+        "Dremio (white).svg",
+        "Dremio (black).svg"
+      ],
+      "canonical_id": "dremio",
+      "batch": 3,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch3-20261010"
+    },
+    {
+      "name": "Dribbble",
+      "source_files": [
+        "Dribbble.svg",
+        "Dribbble (white).svg",
+        "Dribbble (black).svg"
+      ],
+      "canonical_id": "dribbble",
+      "batch": 3,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch3-20261010"
+    },
+    {
+      "name": "Drip Capital",
+      "source_files": [
+        "Drip Capital.svg"
+      ],
+      "canonical_id": "drip-capital",
+      "batch": 5,
+      "new_seed": true,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch5-20261010"
+    },
+    {
+      "name": "Dropbox",
+      "source_files": [
+        "Dropbox.svg",
+        "Dropbox (white).svg",
+        "Dropbox (black).svg"
+      ],
+      "canonical_id": "dropbox",
+      "batch": 1,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-collection-20261010"
+    },
+    {
+      "name": "Duolingo",
+      "source_files": [
+        "Duolingo.svg"
+      ],
+      "canonical_id": "duolingo",
+      "batch": 2,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch2-20261010",
+      "canonical_proof": "동일 Duolingo 기관의 심볼/워드마크 별도 원본 파일명; canonical duolingo 하나로 통합."
+    },
+    {
+      "name": "Duolingo wordmark",
+      "source_files": [
+        "Duolingo wordmark (white).svg",
+        "Duolingo wordmark (black).svg"
+      ],
+      "canonical_id": "duolingo",
+      "batch": 5,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch5-20261010",
+      "canonical_proof": "동일 Duolingo 기관의 심볼/워드마크 별도 원본 파일명; canonical duolingo 하나로 통합."
+    },
+    {
+      "name": "EBay",
+      "source_files": [
+        "EBay (white).png"
+      ],
+      "canonical_id": "ebay",
+      "batch": 4,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch4-20261010"
+    },
+    {
+      "name": "EY",
+      "source_files": [
+        "EY.svg",
+        "EY (white).svg",
+        "EY (black).svg"
+      ],
+      "canonical_id": "ey",
+      "batch": 2,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch2-20261010"
+    },
+    {
+      "name": "Earnest",
+      "source_files": [
+        "Earnest.svg",
+        "Earnest (white).svg",
+        "Earnest (black).png"
+      ],
+      "canonical_id": "earnest",
+      "batch": 5,
+      "new_seed": true,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch5-20261010"
+    },
+    {
+      "name": "EnduroSat",
+      "source_files": [
+        "EnduroSat.svg",
+        "EnduroSat (white).svg",
+        "EnduroSat (black).svg"
+      ],
+      "canonical_id": "endurosat",
+      "batch": 5,
+      "new_seed": true,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch5-20261010"
+    },
+    {
+      "name": "Etsy",
+      "source_files": [
+        "Etsy.svg",
+        "Etsy (white).svg",
+        "Etsy (black).png"
+      ],
+      "canonical_id": "etsy",
+      "batch": 2,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch2-20261010"
+    },
+    {
+      "name": "Eventbrite",
+      "source_files": [
+        "Eventbrite (black).png"
+      ],
+      "canonical_id": "eventbrite",
+      "batch": 5,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch5-20261010"
+    },
+    {
+      "name": "Expa",
+      "source_files": [
+        "Expa (black).png"
+      ],
+      "batch": 5,
+      "reason": "PNG/PDF-only 신규: 벡터 확보 전 보류",
+      "canonical_id": null,
+      "review_status": "held",
+      "publication_status": "not_published",
+      "new_seed": false
+    },
+    {
+      "name": "Expedia",
+      "source_files": [
+        "Expedia (black).png"
+      ],
+      "canonical_id": "expedia",
+      "batch": 4,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch4-20261010"
+    },
+    {
+      "name": "Extra Card",
+      "source_files": [
+        "Extra Card.svg",
+        "Extra Card (white).svg"
+      ],
+      "canonical_id": "extra-card",
+      "batch": 5,
+      "new_seed": true,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch5-20261010"
+    },
+    {
+      "name": "Fabric",
+      "source_files": [
+        "Fabric.svg",
+        "Fabric (white).svg",
+        "Fabric (black).svg"
+      ],
+      "canonical_id": "fabric-commerce",
+      "batch": 5,
+      "new_seed": true,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch5-20261010"
+    },
+    {
+      "name": "Facebook",
+      "source_files": [
+        "Facebook.svg",
+        "Facebook (white).svg",
+        "Facebook (black).svg"
+      ],
+      "batch": 1,
+      "reason": "2019 기업 FACEBOOK/플랫폼 canonical 범위보류",
+      "canonical_id": null,
+      "review_status": "held",
+      "publication_status": "not_published",
+      "new_seed": false
+    },
+    {
+      "name": "Figma",
+      "source_files": [
+        "Figma.svg",
+        "Figma (white).svg",
+        "Figma (black).svg"
+      ],
+      "canonical_id": "figma",
+      "batch": 1,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-collection-20261010"
+    },
+    {
+      "name": "Flexport",
+      "source_files": [
+        "Flexport.svg",
+        "Flexport (white).svg",
+        "Flexport (black).svg"
+      ],
+      "canonical_id": "flexport",
+      "batch": 2,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch2-20261010"
+    },
+    {
+      "name": "Forbes",
+      "source_files": [
+        "Forbes.svg",
+        "Forbes (white).svg",
+        "Forbes (black).svg"
+      ],
+      "canonical_id": "forbes",
+      "batch": 2,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch2-20261010"
+    },
+    {
+      "name": "Fortune",
+      "source_files": [
+        "Fortune.svg",
+        "Fortune (white).svg",
+        "Fortune (black).svg"
+      ],
+      "canonical_id": "fortune",
+      "batch": 2,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch2-20261010"
+    },
+    {
+      "name": "Founders Fund",
+      "source_files": [
+        "Founders Fund.svg",
+        "Founders Fund (black).svg",
+        "Founders Fund (white).png"
+      ],
+      "canonical_id": "founders-fund",
+      "batch": 3,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch3-20261010"
+    },
+    {
+      "name": "Foxtrot",
+      "source_files": [
+        "Foxtrot (white).svg"
+      ],
+      "canonical_id": "foxtrot-market",
+      "batch": 5,
+      "new_seed": true,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch5-20261010"
+    },
+    {
+      "name": "Freeman Group",
+      "source_files": [
+        "Freeman Group (white).svg"
+      ],
+      "batch": 5,
+      "reason": "동일 일반명 다기관 또는 실체·도메인 추가확인 필요. 기존 동명 콘텐츠에 자동 연결하지 않음.",
+      "canonical_id": null,
+      "review_status": "held",
+      "publication_status": "not_published",
+      "new_seed": false
+    },
+    {
+      "name": "Frontify",
+      "source_files": [
+        "Frontify (black).png"
+      ],
+      "canonical_id": "frontify",
+      "batch": 4,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch4-20261010"
+    },
+    {
+      "name": "Fueler",
+      "source_files": [
+        "Fueler (white).png",
+        "Fueler (black).png"
+      ],
+      "canonical_id": "fueler",
+      "batch": 5,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch5-20261010"
+    },
+    {
+      "name": "Funding Circle",
+      "source_files": [
+        "Funding Circle.svg",
+        "Funding Circle (white).svg",
+        "Funding Circle (black).svg"
+      ],
+      "canonical_id": "funding-circle",
+      "batch": 3,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch3-20261010"
+    },
+    {
+      "name": "Galileo",
+      "source_files": [
+        "Galileo.svg",
+        "Galileo (white).svg",
+        "Galileo (black).svg"
+      ],
+      "batch": 5,
+      "reason": "동일 일반명 다기관 또는 실체·도메인 추가확인 필요. 기존 동명 콘텐츠에 자동 연결하지 않음.",
+      "canonical_id": null,
+      "review_status": "held",
+      "publication_status": "not_published",
+      "new_seed": false
+    },
+    {
+      "name": "Gecko Robotics",
+      "source_files": [
+        "Gecko Robotics (black).svg"
+      ],
+      "canonical_id": "gecko-robotics",
+      "batch": 5,
+      "new_seed": true,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch5-20261010"
+    },
+    {
+      "name": "Genentech",
+      "source_files": [
+        "Genentech.svg",
+        "Genentech (white).svg",
+        "Genentech (black).svg"
+      ],
+      "canonical_id": "genentech",
+      "batch": 2,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch2-20261010"
+    },
+    {
+      "name": "General Catalyst",
+      "source_files": [
+        "General Catalyst.svg",
+        "General Catalyst (black).svg",
+        "General Catalyst (white).png"
+      ],
+      "canonical_id": "general-catalyst",
+      "batch": 3,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch3-20261010"
+    },
+    {
+      "name": "Genies",
+      "source_files": [
+        "Genies (white).svg"
+      ],
+      "canonical_id": "genies",
+      "batch": 5,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch5-20261010"
+    },
+    {
+      "name": "Ginkgo Bioworks",
+      "source_files": [
+        "Ginkgo Bioworks.svg",
+        "Ginkgo Bioworks (white).svg",
+        "Ginkgo Bioworks (black).svg"
+      ],
+      "canonical_id": "ginkgo-bioworks",
+      "batch": 5,
+      "new_seed": true,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch5-20261010"
+    },
+    {
+      "name": "GitHub",
+      "source_files": [
+        "GitHub.svg",
+        "GitHub (white).svg",
+        "GitHub (black).svg"
+      ],
+      "canonical_id": "github",
+      "batch": 1,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-collection-20261010"
+    },
+    {
+      "name": "Glossier",
+      "source_files": [
+        "Glossier.svg",
+        "Glossier (white).svg",
+        "Glossier (black).svg"
+      ],
+      "canonical_id": "glossier-1",
+      "batch": 5,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch5-20261010"
+    },
+    {
+      "name": "GoStudent",
+      "source_files": [
+        "GoStudent (black).png"
+      ],
+      "batch": 5,
+      "reason": "PNG/PDF-only 신규: 벡터 확보 전 보류",
+      "canonical_id": null,
+      "review_status": "held",
+      "publication_status": "not_published",
+      "new_seed": false
+    },
+    {
+      "name": "Goldman Sachs",
+      "source_files": [
+        "Goldman Sachs.svg",
+        "Goldman Sachs (white).svg",
+        "Goldman Sachs (black).svg"
+      ],
+      "canonical_id": "goldman-sachs",
+      "batch": 5,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch5-20261010"
+    },
+    {
+      "name": "Google",
+      "source_files": [
+        "Google (white).svg",
+        "Google (black).svg",
+        "Google.png"
+      ],
+      "canonical_id": "google",
+      "batch": 1,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-collection-20261010"
+    },
+    {
+      "name": "GreenPoint Partners",
+      "source_files": [
+        "GreenPoint Partners.svg",
+        "GreenPoint Partners (white).svg",
+        "GreenPoint Partners (black).svg"
+      ],
+      "canonical_id": "greenpoint-partners",
+      "batch": 5,
+      "new_seed": true,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch5-20261010"
+    },
+    {
+      "name": "Gremlin",
+      "source_files": [
+        "Gremlin (white).svg"
+      ],
+      "canonical_id": "gremlin",
+      "batch": 5,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch5-20261010"
+    },
+    {
+      "name": "Greylock Partners",
+      "source_files": [
+        "Greylock Partners.svg",
+        "Greylock Partners (white).svg",
+        "Greylock Partners (black).svg"
+      ],
+      "canonical_id": "greylock-partners",
+      "batch": 3,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch3-20261010"
+    },
+    {
+      "name": "Gusto",
+      "source_files": [
+        "Gusto.svg",
+        "Gusto (white).svg",
+        "Gusto (black).svg"
+      ],
+      "canonical_id": "gusto",
+      "batch": 2,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch2-20261010"
+    },
+    {
+      "name": "Haekka",
+      "source_files": [
+        "Haekka.svg",
+        "Haekka (white).svg",
+        "Haekka (black).svg"
+      ],
+      "canonical_id": "haekka",
+      "batch": 5,
+      "new_seed": true,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch5-20261010"
+    },
+    {
+      "name": "Halfday",
+      "source_files": [
+        "Halfday (white).svg"
+      ],
+      "batch": 5,
+      "reason": "동일 일반명 다기관 또는 실체·도메인 추가확인 필요. 기존 동명 콘텐츠에 자동 연결하지 않음.",
+      "canonical_id": null,
+      "review_status": "held",
+      "publication_status": "not_published",
+      "new_seed": false
+    },
+    {
+      "name": "Harry's",
+      "source_files": [
+        "Harry's.svg",
+        "Harry's (white).svg",
+        "Harry's (black).svg"
+      ],
+      "canonical_id": "harrys",
+      "batch": 5,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch5-20261010",
+      "canonical_proof": "harrys 기존 청록 HARRY’S 면도회사 워드마크를 source Harry’s와 시각 대조(existing-all.jpg). harry-s는 스낵 브랜드여서 제외."
+    },
+    {
+      "name": "Harvard Business School",
+      "source_files": [
+        "Harvard Business School.svg",
+        "Harvard Business School (white).png",
+        "Harvard Business School (black).png"
+      ],
+      "canonical_id": "harvard-business-school",
+      "batch": 5,
+      "new_seed": true,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch5-20261010"
+    },
+    {
+      "name": "Harvard University",
+      "source_files": [
+        "Harvard University.svg",
+        "Harvard University (white).svg",
+        "Harvard University (black).png"
+      ],
+      "canonical_id": "harvard",
+      "batch": 3,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch3-20261010"
+    },
+    {
+      "name": "Health Catalyst",
+      "source_files": [
+        "Health Catalyst.svg",
+        "Health Catalyst (white).svg",
+        "Health Catalyst (black).svg"
+      ],
+      "canonical_id": "health-catalyst",
+      "batch": 5,
+      "new_seed": true,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch5-20261010"
+    },
+    {
+      "name": "Hers",
+      "source_files": [
+        "Hers.svg",
+        "Hers (white).svg",
+        "Hers (black).svg"
+      ],
+      "canonical_id": "hers",
+      "batch": 5,
+      "new_seed": true,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch5-20261010"
+    },
+    {
+      "name": "Hey",
+      "source_files": [
+        "Hey.svg",
+        "Hey (white).svg",
+        "Hey (black).svg"
+      ],
+      "canonical_id": "hey",
+      "batch": 5,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch5-20261010"
+    },
+    {
+      "name": "Higharc",
+      "source_files": [
+        "Higharc.svg",
+        "Higharc (white).svg",
+        "Higharc (black).svg"
+      ],
+      "canonical_id": "higharc",
+      "batch": 5,
+      "new_seed": true,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch5-20261010"
+    },
+    {
+      "name": "Hims",
+      "source_files": [
+        "Hims.svg",
+        "Hims (white).svg",
+        "Hims (black).svg"
+      ],
+      "canonical_id": "hims",
+      "batch": 3,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch3-20261010"
+    },
+    {
+      "name": "Hipcamp",
+      "source_files": [
+        "Hipcamp (black).png"
+      ],
+      "batch": 5,
+      "reason": "PNG/PDF-only 신규: 벡터 확보 전 보류",
+      "canonical_id": null,
+      "review_status": "held",
+      "publication_status": "not_published",
+      "new_seed": false
+    },
+    {
+      "name": "Hippo",
+      "source_files": [
+        "Hippo.svg",
+        "Hippo (white).svg",
+        "Hippo (black).svg"
+      ],
+      "canonical_id": "hippo-insurance",
+      "batch": 5,
+      "new_seed": true,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch5-20261010"
+    },
+    {
+      "name": "Holtzman Partners",
+      "source_files": [
+        "Holtzman Partners.svg",
+        "Holtzman Partners (white).svg",
+        "Holtzman Partners (black).svg"
+      ],
+      "canonical_id": "holtzman-partners",
+      "batch": 5,
+      "new_seed": true,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch5-20261010"
+    },
+    {
+      "name": "Homebrew",
+      "source_files": [
+        "Homebrew.svg",
+        "Homebrew (white).svg",
+        "Homebrew (black).svg"
+      ],
+      "canonical_id": "homebrew-ventures",
+      "batch": 5,
+      "new_seed": true,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch5-20261010"
+    },
+    {
+      "name": "Honey Homes",
+      "source_files": [
+        "Honey Homes (white).png"
+      ],
+      "batch": 5,
+      "reason": "PNG/PDF-only 신규: 벡터 확보 전 보류",
+      "canonical_id": null,
+      "review_status": "held",
+      "publication_status": "not_published",
+      "new_seed": false
+    },
+    {
+      "name": "Honeywell",
+      "source_files": [
+        "Honeywell.svg",
+        "Honeywell (white).svg",
+        "Honeywell (black).svg"
+      ],
+      "canonical_id": "honeywell",
+      "batch": 2,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch2-20261010"
+    },
+    {
+      "name": "Human Interest",
+      "source_files": [
+        "Human Interest.svg",
+        "Human Interest (white).svg",
+        "Human Interest (black).svg"
+      ],
+      "canonical_id": "human-interest",
+      "batch": 5,
+      "new_seed": true,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch5-20261010"
+    },
+    {
+      "name": "IBM",
+      "source_files": [
+        "IBM.svg",
+        "IBM (white).svg",
+        "IBM (black).svg"
+      ],
+      "canonical_id": "ibm",
+      "batch": 1,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-collection-20261010"
+    },
+    {
+      "name": "Icon",
+      "source_files": [
+        "Icon.svg",
+        "Icon (white).svg",
+        "Icon (black).svg"
+      ],
+      "batch": 5,
+      "reason": "동일 일반명 다기관 또는 실체·도메인 추가확인 필요. 기존 동명 콘텐츠에 자동 연결하지 않음.",
+      "canonical_id": null,
+      "review_status": "held",
+      "publication_status": "not_published",
+      "new_seed": false
+    },
+    {
+      "name": "Indie Hackers",
+      "source_files": [
+        "Indie Hackers.svg",
+        "Indie Hackers (white).svg",
+        "Indie Hackers (black).svg"
+      ],
+      "canonical_id": "indiehackers",
+      "batch": 3,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch3-20261010"
+    },
+    {
+      "name": "Industrious",
+      "source_files": [
+        "Industrious.svg",
+        "Industrious (white).svg",
+        "Industrious (black).svg"
+      ],
+      "canonical_id": "industrious",
+      "batch": 5,
+      "new_seed": true,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch5-20261010"
+    },
+    {
+      "name": "Influential Network",
+      "source_files": [
+        "Influential Network (white).svg"
+      ],
+      "canonical_id": "influential-network",
+      "batch": 5,
+      "new_seed": true,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch5-20261010"
+    },
+    {
+      "name": "Innbeauty Project",
+      "source_files": [
+        "Innbeauty Project (white).svg"
+      ],
+      "canonical_id": "innbeauty-project",
+      "batch": 5,
+      "new_seed": true,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch5-20261010"
+    },
+    {
+      "name": "Innovation Endeavors",
+      "source_files": [
+        "Innovation Endeavors.svg",
+        "Innovation Endeavors (white).svg",
+        "Innovation Endeavors (black).svg"
+      ],
+      "canonical_id": "innovation-endeavors",
+      "batch": 5,
+      "new_seed": true,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch5-20261010"
+    },
+    {
+      "name": "Instacart",
+      "source_files": [
+        "Instacart (black).png"
+      ],
+      "canonical_id": "instacart",
+      "batch": 4,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch4-20261010"
+    },
+    {
+      "name": "Instagram",
+      "source_files": [
+        "Instagram.svg",
+        "Instagram (white).svg",
+        "Instagram (black).svg"
+      ],
+      "canonical_id": "instagram",
+      "batch": 3,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch3-20261010"
+    },
+    {
+      "name": "Intercom",
+      "source_files": [
+        "Intercom.svg",
+        "Intercom (white).svg",
+        "Intercom (black).svg"
+      ],
+      "canonical_id": "intercom",
+      "batch": 3,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch3-20261010"
+    },
+    {
+      "name": "Invest Detroit",
+      "source_files": [
+        "Invest Detroit.svg",
+        "Invest Detroit (white).svg",
+        "Invest Detroit (black).svg"
+      ],
+      "canonical_id": "invest-detroit",
+      "batch": 5,
+      "new_seed": true,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch5-20261010"
+    },
+    {
+      "name": "Ipsos",
+      "source_files": [
+        "Ipsos (white).png",
+        "Ipsos (black).png"
+      ],
+      "batch": 5,
+      "reason": "PNG/PDF-only 신규: 벡터 확보 전 보류",
+      "canonical_id": null,
+      "review_status": "held",
+      "publication_status": "not_published",
+      "new_seed": false
+    },
+    {
+      "name": "J.P. Morgan",
+      "source_files": [
+        "J.P. Morgan.svg",
+        "J.P. Morgan (white).svg",
+        "J.P. Morgan (black).svg"
+      ],
+      "canonical_id": "jp-morgan",
+      "batch": 5,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch5-20261010"
+    },
+    {
+      "name": "Jasper",
+      "source_files": [
+        "Jasper.svg"
+      ],
+      "canonical_id": "jasper",
+      "batch": 5,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch5-20261010"
+    },
+    {
+      "name": "Jopwell",
+      "source_files": [
+        "Jopwell.svg",
+        "Jopwell (white).svg",
+        "Jopwell (black).svg"
+      ],
+      "canonical_id": "jopwell",
+      "batch": 5,
+      "new_seed": true,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch5-20261010"
+    },
+    {
+      "name": "Judy",
+      "source_files": [
+        "Judy (white).svg"
+      ],
+      "batch": 5,
+      "reason": "judy.co 공식 후보 도메인이 매물 상태. 과거 비상용품 브랜드 신원·시기 추가 확인 전 신규 등록 보류.",
+      "canonical_id": null,
+      "review_status": "held",
+      "publication_status": "not_published",
+      "new_seed": false
+    },
+    {
+      "name": "K50",
+      "source_files": [
+        "K50 (white).svg"
+      ],
+      "batch": 5,
+      "reason": "동일 일반명 다기관 또는 실체·도메인 추가확인 필요. 기존 동명 콘텐츠에 자동 연결하지 않음.",
+      "canonical_id": null,
+      "review_status": "held",
+      "publication_status": "not_published",
+      "new_seed": false
+    },
+    {
+      "name": "KPMG",
+      "source_files": [
+        "KPMG.svg",
+        "KPMG (white).svg",
+        "KPMG (black).svg"
+      ],
+      "canonical_id": "kpmg",
+      "batch": 2,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch2-20261010"
+    },
+    {
+      "name": "Kadence",
+      "source_files": [
+        "Kadence (white).png"
+      ],
+      "batch": 5,
+      "reason": "PNG/PDF-only 신규: 벡터 확보 전 보류",
+      "canonical_id": null,
+      "review_status": "held",
+      "publication_status": "not_published",
+      "new_seed": false
+    },
+    {
+      "name": "Kairos",
+      "source_files": [
+        "Kairos (white).svg"
+      ],
+      "batch": 5,
+      "reason": "동일 일반명 다기관 또는 실체·도메인 추가확인 필요. 기존 동명 콘텐츠에 자동 연결하지 않음.",
+      "canonical_id": null,
+      "review_status": "held",
+      "publication_status": "not_published",
+      "new_seed": false
+    },
+    {
+      "name": "Keeps",
+      "source_files": [
+        "Keeps.svg",
+        "Keeps (white).svg",
+        "Keeps (black).svg"
+      ],
+      "canonical_id": "keeps",
+      "batch": 5,
+      "new_seed": true,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch5-20261010"
+    },
+    {
+      "name": "Klarna",
+      "source_files": [
+        "Klarna.svg",
+        "Klarna (white).svg",
+        "Klarna (black).svg"
+      ],
+      "canonical_id": "klarna",
+      "batch": 2,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch2-20261010"
+    },
+    {
+      "name": "Klaus",
+      "source_files": [
+        "Klaus.svg",
+        "Klaus (white).svg",
+        "Klaus (black).svg"
+      ],
+      "canonical_id": "klaus-customer-support",
+      "batch": 5,
+      "new_seed": true,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch5-20261010"
+    },
+    {
+      "name": "Kleiner Perkins",
+      "source_files": [
+        "Kleiner Perkins.svg",
+        "Kleiner Perkins (white).svg",
+        "Kleiner Perkins (black).svg"
+      ],
+      "canonical_id": "kleiner-perkins",
+      "batch": 5,
+      "new_seed": true,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch5-20261010"
+    },
+    {
+      "name": "Klue",
+      "source_files": [
+        "Klue.svg",
+        "Klue (white).svg",
+        "Klue (black).svg"
+      ],
+      "canonical_id": "klue",
+      "batch": 5,
+      "new_seed": true,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch5-20261010"
+    },
+    {
+      "name": "Kosas",
+      "source_files": [
+        "Kosas (white).svg"
+      ],
+      "canonical_id": "kosas",
+      "batch": 5,
+      "new_seed": true,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch5-20261010"
+    },
+    {
+      "name": "Kroma",
+      "source_files": [
+        "Kroma (white).svg"
+      ],
+      "batch": 5,
+      "reason": "동일 일반명 다기관 또는 실체·도메인 추가확인 필요. 기존 동명 콘텐츠에 자동 연결하지 않음.",
+      "canonical_id": null,
+      "review_status": "held",
+      "publication_status": "not_published",
+      "new_seed": false
+    },
+    {
+      "name": "Kudos",
+      "source_files": [
+        "Kudos (white).png"
+      ],
+      "batch": 5,
+      "reason": "PNG/PDF-only 신규: 벡터 확보 전 보류",
+      "canonical_id": null,
+      "review_status": "held",
+      "publication_status": "not_published",
+      "new_seed": false
+    },
+    {
+      "name": "Lakestar Advisors",
+      "source_files": [
+        "Lakestar Advisors.svg",
+        "Lakestar Advisors (white).svg",
+        "Lakestar Advisors (black).svg"
+      ],
+      "canonical_id": "lakestar",
+      "batch": 6,
+      "new_seed": true,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch6-20261010"
+    },
+    {
+      "name": "LegalZoom",
+      "source_files": [
+        "LegalZoom.svg",
+        "LegalZoom (white).svg",
+        "LegalZoom (black).svg"
+      ],
+      "canonical_id": "legalzoom",
+      "batch": 6,
+      "new_seed": true,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch6-20261010"
+    },
+    {
+      "name": "LendUp",
+      "source_files": [
+        "LendUp.svg",
+        "LendUp (white).svg",
+        "LendUp (black).svg"
+      ],
+      "canonical_id": "lendup",
+      "batch": 6,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch6-20261010"
+    },
+    {
+      "name": "Lightyear",
+      "source_files": [
+        "Lightyear (white).svg"
+      ],
+      "batch": 6,
+      "reason": "기관 신원·동명이인 및 실제 브랜드 조합 추가 검증 필요",
+      "canonical_id": null,
+      "review_status": "held",
+      "publication_status": "not_published",
+      "new_seed": false
+    },
+    {
+      "name": "LinkedIn",
+      "source_files": [
+        "LinkedIn.svg",
+        "LinkedIn (white).svg",
+        "LinkedIn (black).svg"
+      ],
+      "canonical_id": "linkedin",
+      "batch": 1,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-collection-20261010"
+    },
+    {
+      "name": "Little Spoon",
+      "source_files": [
+        "Little Spoon (white).svg"
+      ],
+      "canonical_id": "little-spoon",
+      "batch": 6,
+      "new_seed": true,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch6-20261010"
+    },
+    {
+      "name": "Llamasoft",
+      "source_files": [
+        "Llamasoft.svg",
+        "Llamasoft (white).svg",
+        "Llamasoft (black).svg"
+      ],
+      "batch": 6,
+      "reason": "기관 신원·동명이인 및 실제 브랜드 조합 추가 검증 필요",
+      "canonical_id": null,
+      "review_status": "held",
+      "publication_status": "not_published",
+      "new_seed": false
+    },
+    {
+      "name": "Logitech",
+      "source_files": [
+        "Logitech.svg",
+        "Logitech (white).svg",
+        "Logitech (black).svg"
+      ],
+      "canonical_id": "logitech",
+      "batch": 2,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch2-20261010"
+    },
+    {
+      "name": "Loom",
+      "source_files": [
+        "Loom.svg",
+        "Loom (white).svg",
+        "Loom (black).svg"
+      ],
+      "canonical_id": "loom",
+      "batch": 3,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch3-20261010"
+    },
+    {
+      "name": "Lose It!",
+      "source_files": [
+        "Lose It! (black).svg"
+      ],
+      "canonical_id": "lose-it",
+      "batch": 6,
+      "new_seed": true,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch6-20261010"
+    },
+    {
+      "name": "Lyft",
+      "source_files": [
+        "Lyft.svg",
+        "Lyft (white).svg",
+        "Lyft (black).png"
+      ],
+      "canonical_id": "lyft",
+      "batch": 2,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch2-20261010"
+    },
+    {
+      "name": "Lygos",
+      "source_files": [
+        "Lygos (white).png"
+      ],
+      "batch": 6,
+      "reason": "기관 신원·동명이인 및 실제 브랜드 조합 추가 검증 필요",
+      "canonical_id": null,
+      "review_status": "held",
+      "publication_status": "not_published",
+      "new_seed": false
+    },
+    {
+      "name": "MIT",
+      "source_files": [
+        "MIT.svg",
+        "MIT (white).svg",
+        "MIT (black).svg"
+      ],
+      "canonical_id": "massachusetts-institute-of-technology",
+      "batch": 6,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch6-20261010"
+    },
+    {
+      "name": "Magic Leap",
+      "source_files": [
+        "Magic Leap.svg",
+        "Magic Leap (white).svg",
+        "Magic Leap (black).svg"
+      ],
+      "canonical_id": "magic-leap",
+      "batch": 2,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch2-20261010"
+    },
+    {
+      "name": "Magneto",
+      "source_files": [
+        "Magneto.svg",
+        "Magneto (white).svg",
+        "Magneto (black).svg"
+      ],
+      "batch": 6,
+      "reason": "기관 신원·동명이인 및 실제 브랜드 조합 추가 검증 필요",
+      "canonical_id": null,
+      "review_status": "held",
+      "publication_status": "not_published",
+      "new_seed": false
+    },
+    {
+      "name": "MailerLite",
+      "source_files": [
+        "MailerLite.svg",
+        "MailerLite (white).svg",
+        "MailerLite (black).svg"
+      ],
+      "canonical_id": "mailerlite",
+      "batch": 3,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch3-20261010"
+    },
+    {
+      "name": "Maqeta",
+      "source_files": [
+        "Maqeta.svg",
+        "Maqeta (white).svg",
+        "Maqeta (black).svg"
+      ],
+      "canonical_id": "marqeta",
+      "batch": 6,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch6-20261010"
+    },
+    {
+      "name": "Mason",
+      "source_files": [
+        "Mason.svg",
+        "Mason (white).svg",
+        "Mason (black).svg"
+      ],
+      "batch": 6,
+      "reason": "기관 신원·동명이인 및 실제 브랜드 조합 추가 검증 필요",
+      "canonical_id": null,
+      "review_status": "held",
+      "publication_status": "not_published",
+      "new_seed": false
+    },
+    {
+      "name": "McKinsey & Company",
+      "source_files": [
+        "McKinsey & Company (black).png"
+      ],
+      "canonical_id": "mckinsey-company",
+      "batch": 4,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch4-20261010"
+    },
+    {
+      "name": "Medium",
+      "source_files": [
+        "Medium.svg",
+        "Medium (white).svg",
+        "Medium (black).svg"
+      ],
+      "canonical_id": "medium",
+      "batch": 6,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch6-20261010"
+    },
+    {
+      "name": "Mendix",
+      "source_files": [
+        "Mendix (white).svg"
+      ],
+      "canonical_id": "mendix",
+      "batch": 3,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch3-20261010"
+    },
+    {
+      "name": "MetLife",
+      "source_files": [
+        "MetLife.svg",
+        "MetLife (white).svg",
+        "MetLife (black).svg"
+      ],
+      "canonical_id": "metlife",
+      "batch": 2,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch2-20261010"
+    },
+    {
+      "name": "Meter",
+      "source_files": [
+        "Meter.svg"
+      ],
+      "canonical_id": "meter-networking",
+      "batch": 6,
+      "new_seed": true,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch6-20261010"
+    },
+    {
+      "name": "Michigan State University",
+      "source_files": [
+        "Michigan State University.svg",
+        "Michigan State University (white).svg",
+        "Michigan State University (black).svg"
+      ],
+      "canonical_id": "michigan-state-university",
+      "batch": 3,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch3-20261010"
+    },
+    {
+      "name": "Microsoft",
+      "source_files": [
+        "Microsoft.svg",
+        "Microsoft (white).png",
+        "Microsoft (black).png"
+      ],
+      "canonical_id": "microsoft",
+      "batch": 1,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-collection-20261010"
+    },
+    {
+      "name": "Miro",
+      "source_files": [
+        "Miro.svg",
+        "Miro (white).svg",
+        "Miro (black).svg"
+      ],
+      "canonical_id": "miro",
+      "batch": 3,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch3-20261010"
+    },
+    {
+      "name": "Mode",
+      "source_files": [
+        "Mode.svg",
+        "Mode (white).svg",
+        "Mode (black).svg"
+      ],
+      "batch": 6,
+      "reason": "기관 신원·동명이인 및 실제 브랜드 조합 추가 검증 필요",
+      "canonical_id": null,
+      "review_status": "held",
+      "publication_status": "not_published",
+      "new_seed": false
+    },
+    {
+      "name": "Modern Treasury",
+      "source_files": [
+        "Modern Treasury.svg",
+        "Modern Treasury (white).svg",
+        "Modern Treasury (black).svg"
+      ],
+      "canonical_id": "modern-treasury",
+      "batch": 6,
+      "new_seed": true,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch6-20261010"
+    },
+    {
+      "name": "MoonPay",
+      "source_files": [
+        "MoonPay.svg",
+        "MoonPay (white).svg",
+        "MoonPay (black).svg"
+      ],
+      "canonical_id": "moonpay",
+      "batch": 6,
+      "new_seed": true,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch6-20261010"
+    },
+    {
+      "name": "Morgan Stanley",
+      "source_files": [
+        "Morgan Stanley.svg",
+        "Morgan Stanley (white).svg",
+        "Morgan Stanley (black).svg"
+      ],
+      "canonical_id": "morganstanley",
+      "batch": 2,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch2-20261010"
+    },
+    {
+      "name": "Mosaic",
+      "source_files": [
+        "Mosaic.svg",
+        "Mosaic (white).svg",
+        "Mosaic (black).svg"
+      ],
+      "batch": 6,
+      "reason": "기관 신원·동명이인 및 실제 브랜드 조합 추가 검증 필요",
+      "canonical_id": null,
+      "review_status": "held",
+      "publication_status": "not_published",
+      "new_seed": false
+    },
+    {
+      "name": "Mosaic Building Group",
+      "source_files": [
+        "Mosaic Building Group.svg",
+        "Mosaic Building Group (white).svg",
+        "Mosaic Building Group (black).svg"
+      ],
+      "canonical_id": "mosaic-building-group",
+      "batch": 6,
+      "new_seed": true,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch6-20261010"
+    },
+    {
+      "name": "MoveSpring",
+      "source_files": [
+        "MoveSpring.svg",
+        "MoveSpring (white).svg",
+        "MoveSpring (black).svg"
+      ],
+      "canonical_id": "movespring",
+      "batch": 6,
+      "new_seed": true,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch6-20261010"
+    },
+    {
+      "name": "Mozilla",
+      "source_files": [
+        "Mozilla.svg",
+        "Mozilla (white).svg",
+        "Mozilla (black).svg"
+      ],
+      "canonical_id": "mozilla",
+      "batch": 2,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch2-20261010"
+    },
+    {
+      "name": "Mural",
+      "source_files": [
+        "Mural.svg",
+        "Mural (white).svg",
+        "Mural (black).svg"
+      ],
+      "canonical_id": "mural",
+      "batch": 6,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch6-20261010"
+    },
+    {
+      "name": "N49P",
+      "source_files": [
+        "N49P.svg",
+        "N49P (white).svg",
+        "N49P (black).svg"
+      ],
+      "canonical_id": "n49p",
+      "batch": 6,
+      "new_seed": true,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch6-20261010"
+    },
+    {
+      "name": "NASA",
+      "source_files": [
+        "NASA.svg",
+        "NASA (white).svg",
+        "NASA (black).svg"
+      ],
+      "canonical_id": "nasa",
+      "batch": 6,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch6-20261010"
+    },
+    {
+      "name": "NUGGS",
+      "source_files": [
+        "NUGGS.svg",
+        "NUGGS (white).svg",
+        "NUGGS (black).svg"
+      ],
+      "batch": 6,
+      "reason": "공식 사이트 신원 조회 실패 또는 PNG-only 신규: 추가 검증 보류",
+      "canonical_id": null,
+      "review_status": "held",
+      "publication_status": "not_published",
+      "new_seed": false
+    },
+    {
+      "name": "Nationwide",
+      "source_files": [
+        "Nationwide.png"
+      ],
+      "batch": 4,
+      "reason": "미국보험/영국금융 동명canonical검증전보류",
+      "canonical_id": null,
+      "review_status": "held",
+      "publication_status": "not_published",
+      "new_seed": false
+    },
+    {
+      "name": "Nearpod",
+      "source_files": [
+        "Nearpod.svg",
+        "Nearpod (white).svg",
+        "Nearpod (black).svg"
+      ],
+      "canonical_id": "nearpod",
+      "batch": 6,
+      "new_seed": true,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch6-20261010"
+    },
+    {
+      "name": "Nearside",
+      "source_files": [
+        "Nearside.svg",
+        "Nearside (white).svg",
+        "Nearside (black).svg"
+      ],
+      "batch": 6,
+      "reason": "기관 신원·동명이인 및 실제 브랜드 조합 추가 검증 필요",
+      "canonical_id": null,
+      "review_status": "held",
+      "publication_status": "not_published",
+      "new_seed": false
+    },
+    {
+      "name": "Nerdwallet",
+      "source_files": [
+        "Nerdwallet (white).png"
+      ],
+      "canonical_id": "nerdwallet-com",
+      "batch": 6,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch6-20261010"
+    },
+    {
+      "name": "Netflix",
+      "source_files": [
+        "Netflix.svg",
+        "Netflix (white).svg",
+        "Netflix (black).svg"
+      ],
+      "canonical_id": "netflix",
+      "batch": 1,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-collection-20261010"
+    },
+    {
+      "name": "NewView Capital",
+      "source_files": [
+        "NewView Capital (white).png"
+      ],
+      "batch": 6,
+      "reason": "공식 사이트 신원 조회 실패 또는 PNG-only 신규: 추가 검증 보류",
+      "canonical_id": null,
+      "review_status": "held",
+      "publication_status": "not_published",
+      "new_seed": false
+    },
+    {
+      "name": "Nextdoor",
+      "source_files": [
+        "Nextdoor.svg",
+        "Nextdoor (black).svg",
+        "Nextdoor (white).png"
+      ],
+      "canonical_id": "nextdoor",
+      "batch": 6,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch6-20261010"
+    },
+    {
+      "name": "Night Ventures",
+      "source_files": [
+        "Night Ventures (white).svg"
+      ],
+      "canonical_id": "night-ventures",
+      "batch": 6,
+      "new_seed": true,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch6-20261010"
+    },
+    {
+      "name": "Nira",
+      "source_files": [
+        "Nira.svg",
+        "Nira (white).svg",
+        "Nira (black).svg"
+      ],
+      "batch": 6,
+      "reason": "기관 신원·동명이인 및 실제 브랜드 조합 추가 검증 필요",
+      "canonical_id": null,
+      "review_status": "held",
+      "publication_status": "not_published",
+      "new_seed": false
+    },
+    {
+      "name": "Nokia",
+      "source_files": [
+        "Nokia.png"
+      ],
+      "canonical_id": "nokia",
+      "batch": 4,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch4-20261010"
+    },
+    {
+      "name": "Northeastern University",
+      "source_files": [
+        "Northeastern University (black).png"
+      ],
+      "batch": 6,
+      "reason": "공식 사이트 신원 조회 실패 또는 PNG-only 신규: 추가 검증 보류",
+      "canonical_id": null,
+      "review_status": "held",
+      "publication_status": "not_published",
+      "new_seed": false
+    },
+    {
+      "name": "Northflank",
+      "source_files": [
+        "Northflank.svg",
+        "Northflank (white).svg",
+        "Northflank (black).svg"
+      ],
+      "canonical_id": "northflank",
+      "batch": 6,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch6-20261010"
+    },
+    {
+      "name": "Nova Credit",
+      "source_files": [
+        "Nova Credit.svg",
+        "Nova Credit (black).svg",
+        "Nova Credit (white).png"
+      ],
+      "canonical_id": "nova-credit",
+      "batch": 6,
+      "new_seed": true,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch6-20261010"
+    },
+    {
+      "name": "ODEKO",
+      "source_files": [
+        "ODEKO.svg"
+      ],
+      "canonical_id": "odeko",
+      "batch": 6,
+      "new_seed": true,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch6-20261010"
+    },
+    {
+      "name": "Octant Bio",
+      "source_files": [
+        "Octant Bio.png",
+        "Octant Bio (white).png"
+      ],
+      "batch": 6,
+      "reason": "공식 사이트 신원 조회 실패 또는 PNG-only 신규: 추가 검증 보류",
+      "canonical_id": null,
+      "review_status": "held",
+      "publication_status": "not_published",
+      "new_seed": false
+    },
+    {
+      "name": "One Medical",
+      "source_files": [
+        "One Medical (black).svg",
+        "One Medical.pdf"
+      ],
+      "canonical_id": "one-medical",
+      "batch": 3,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch3-20261010"
+    },
+    {
+      "name": "OpenSpace",
+      "source_files": [
+        "OpenSpace.svg",
+        "OpenSpace (black).svg",
+        "OpenSpace (white).svg"
+      ],
+      "canonical_id": "openspace-ai",
+      "batch": 6,
+      "new_seed": true,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch6-20261010"
+    },
+    {
+      "name": "Opendoor",
+      "source_files": [
+        "Opendoor.svg",
+        "Opendoor (white).svg",
+        "Opendoor (black).svg"
+      ],
+      "canonical_id": "opendoor",
+      "batch": 6,
+      "new_seed": true,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch6-20261010"
+    },
+    {
+      "name": "Oracle",
+      "source_files": [
+        "Oracle.svg",
+        "Oracle (black).svg",
+        "Oracle (white).png"
+      ],
+      "canonical_id": "oracle",
+      "batch": 1,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-collection-20261010"
+    },
+    {
+      "name": "Oscar Insurance",
+      "source_files": [
+        "Oscar Insurance.svg",
+        "Oscar Insurance (white).svg",
+        "Oscar Insurance (black).svg"
+      ],
+      "canonical_id": "oscar-health-1",
+      "batch": 6,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch6-20261010"
+    },
+    {
+      "name": "Osedea",
+      "source_files": [
+        "Osedea.svg",
+        "Osedea (white).svg",
+        "Osedea (black).svg"
+      ],
+      "canonical_id": "osedea",
+      "batch": 6,
+      "new_seed": true,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch6-20261010"
+    },
+    {
+      "name": "Outdoor Voices",
+      "source_files": [
+        "Outdoor Voices.svg",
+        "Outdoor Voices (white).svg",
+        "Outdoor Voices (black).svg"
+      ],
+      "canonical_id": "outdoor-voices",
+      "batch": 6,
+      "new_seed": true,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch6-20261010"
+    },
+    {
+      "name": "Outsystems",
+      "source_files": [
+        "Outsystems (white).svg"
+      ],
+      "canonical_id": "outsystems",
+      "batch": 6,
+      "new_seed": true,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch6-20261010"
+    },
+    {
+      "name": "Owner",
+      "source_files": [
+        "Owner (white).svg"
+      ],
+      "canonical_id": "owner-com",
+      "batch": 6,
+      "new_seed": true,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch6-20261010"
+    },
+    {
+      "name": "Palantir",
+      "source_files": [
+        "Palantir.svg",
+        "Palantir (white).svg",
+        "Palantir (black).svg"
+      ],
+      "canonical_id": "palantir",
+      "batch": 2,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch2-20261010"
+    },
+    {
+      "name": "Patreon",
+      "source_files": [
+        "Patreon.svg",
+        "Patreon (white).svg",
+        "Patreon (black).svg"
+      ],
+      "canonical_id": "patreon",
+      "batch": 2,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch2-20261010"
+    },
+    {
+      "name": "PayPal",
+      "source_files": [
+        "PayPal (black).svg",
+        "PayPal.png",
+        "PayPal (white).png"
+      ],
+      "canonical_id": "paypal",
+      "batch": 1,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-collection-20261010"
+    },
+    {
+      "name": "PepsiCo",
+      "source_files": [
+        "PepsiCo (white).png",
+        "PepsiCo (black).png"
+      ],
+      "canonical_id": "pepsico",
+      "batch": 4,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch4-20261010"
+    },
+    {
+      "name": "PicsArt",
+      "source_files": [
+        "PicsArt.svg",
+        "PicsArt (white).svg",
+        "PicsArt (black).svg"
+      ],
+      "canonical_id": "picsart",
+      "batch": 2,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch2-20261010"
+    },
+    {
+      "name": "Pie Insurance",
+      "source_files": [
+        "Pie Insurance.svg",
+        "Pie Insurance (white).svg",
+        "Pie Insurance (black).svg"
+      ],
+      "canonical_id": "pie-insurance",
+      "batch": 6,
+      "new_seed": true,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch6-20261010"
+    },
+    {
+      "name": "Pinterest",
+      "source_files": [
+        "Pinterest.svg",
+        "Pinterest (white).svg",
+        "Pinterest (black).svg"
+      ],
+      "canonical_id": "pinterest",
+      "batch": 1,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-collection-20261010"
+    },
+    {
+      "name": "Pipe",
+      "source_files": [
+        "Pipe.svg",
+        "Pipe (white).svg",
+        "Pipe (black).svg"
+      ],
+      "canonical_id": "pipe-fintech",
+      "batch": 6,
+      "new_seed": true,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch6-20261010"
+    },
+    {
+      "name": "Pitch",
+      "source_files": [
+        "Pitch.svg",
+        "Pitch (white).svg",
+        "Pitch (black).svg"
+      ],
+      "batch": 6,
+      "reason": "기관 신원·동명이인 및 실제 브랜드 조합 추가 검증 필요",
+      "canonical_id": null,
+      "review_status": "held",
+      "publication_status": "not_published",
+      "new_seed": false
+    },
+    {
+      "name": "Planned Parenthood",
+      "source_files": [
+        "Planned Parenthood.svg",
+        "Planned Parenthood (white).svg",
+        "Planned Parenthood (black).svg"
+      ],
+      "canonical_id": "planned-parenthood",
+      "batch": 3,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch3-20261010"
+    },
+    {
+      "name": "Pogo",
+      "source_files": [
+        "Pogo (white).png"
+      ],
+      "batch": 6,
+      "reason": "기관 신원·동명이인 및 실제 브랜드 조합 추가 검증 필요",
+      "canonical_id": null,
+      "review_status": "held",
+      "publication_status": "not_published",
+      "new_seed": false
+    },
+    {
+      "name": "Polaroid",
+      "source_files": [
+        "Polaroid.svg",
+        "Polaroid (white).svg",
+        "Polaroid (black).svg"
+      ],
+      "canonical_id": "polaroid",
+      "batch": 2,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch2-20261010"
+    },
+    {
+      "name": "Polywork",
+      "source_files": [
+        "Polywork.svg",
+        "Polywork (white).svg",
+        "Polywork (black).svg"
+      ],
+      "canonical_id": "polywork",
+      "batch": 6,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch6-20261010"
+    },
+    {
+      "name": "Product Hunt",
+      "source_files": [
+        "Product Hunt.svg",
+        "Product Hunt (white).svg",
+        "Product Hunt (black).svg"
+      ],
+      "canonical_id": "producthunt",
+      "batch": 3,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch3-20261010"
+    },
+    {
+      "name": "Profitboss",
+      "source_files": [
+        "Profitboss.svg",
+        "Profitboss (white).svg",
+        "Profitboss (black).svg"
+      ],
+      "batch": 6,
+      "reason": "기관 신원·동명이인 및 실제 브랜드 조합 추가 검증 필요",
+      "canonical_id": null,
+      "review_status": "held",
+      "publication_status": "not_published",
+      "new_seed": false
+    },
+    {
+      "name": "Proof",
+      "source_files": [
+        "Proof.svg",
+        "Proof (white).svg",
+        "Proof (black).svg"
+      ],
+      "batch": 6,
+      "reason": "기관 신원·동명이인 및 실제 브랜드 조합 추가 검증 필요",
+      "canonical_id": null,
+      "review_status": "held",
+      "publication_status": "not_published",
+      "new_seed": false
+    },
+    {
+      "name": "Prosus",
+      "source_files": [
+        "Prosus (black).png"
+      ],
+      "canonical_id": "prosus",
+      "batch": 4,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch4-20261010"
+    },
+    {
+      "name": "Public.com",
+      "source_files": [
+        "Public.com.svg",
+        "Public.com (white).svg",
+        "Public.com (black).svg"
+      ],
+      "canonical_id": "public-com",
+      "batch": 6,
+      "new_seed": true,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch6-20261010"
+    },
+    {
+      "name": "PulteGroup",
+      "source_files": [
+        "PulteGroup.svg",
+        "PulteGroup (white).svg",
+        "PulteGroup (black).svg"
+      ],
+      "canonical_id": "pulte-homes",
+      "batch": 6,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch6-20261010"
+    },
+    {
+      "name": "PwC",
+      "source_files": [
+        "PwC.svg",
+        "PwC (white).svg",
+        "PwC (black).svg"
+      ],
+      "canonical_id": "pwc",
+      "batch": 2,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch2-20261010"
+    },
+    {
+      "name": "QED Investors",
+      "source_files": [
+        "QED Investors.svg",
+        "QED Investors (white).svg",
+        "QED Investors (black).svg"
+      ],
+      "canonical_id": "qed-investors",
+      "batch": 6,
+      "new_seed": true,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch6-20261010"
+    },
+    {
+      "name": "Qapital",
+      "source_files": [
+        "Qapital.svg",
+        "Qapital (white).svg",
+        "Qapital (black).svg"
+      ],
+      "canonical_id": "qapital",
+      "batch": 6,
+      "new_seed": true,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch6-20261010"
+    },
+    {
+      "name": "Qatalog",
+      "source_files": [
+        "Qatalog.svg",
+        "Qatalog (white).svg",
+        "Qatalog (black).svg"
+      ],
+      "canonical_id": "qatalog",
+      "batch": 6,
+      "new_seed": true,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch6-20261010"
+    },
+    {
+      "name": "Quaestor",
+      "source_files": [
+        "Quaestor.svg",
+        "Quaestor (white).svg",
+        "Quaestor (black).svg"
+      ],
+      "batch": 6,
+      "reason": "기관 신원·동명이인 및 실제 브랜드 조합 추가 검증 필요",
+      "canonical_id": null,
+      "review_status": "held",
+      "publication_status": "not_published",
+      "new_seed": false
+    },
+    {
+      "name": "Qualcomm",
+      "source_files": [
+        "Qualcomm.svg"
+      ],
+      "canonical_id": "qualcomm",
+      "batch": 2,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch2-20261010"
+    },
+    {
+      "name": "Quid",
+      "source_files": [
+        "Quid.svg",
+        "Quid (white).svg",
+        "Quid (black).svg"
+      ],
+      "batch": 6,
+      "reason": "기관 신원·동명이인 및 실제 브랜드 조합 추가 검증 필요",
+      "canonical_id": null,
+      "review_status": "held",
+      "publication_status": "not_published",
+      "new_seed": false
+    },
+    {
+      "name": "Quiet Capital",
+      "source_files": [
+        "Quiet Capital (white).png"
+      ],
+      "batch": 6,
+      "reason": "공식 사이트 신원 조회 실패 또는 PNG-only 신규: 추가 검증 보류",
+      "canonical_id": null,
+      "review_status": "held",
+      "publication_status": "not_published",
+      "new_seed": false
+    },
+    {
+      "name": "Quip",
+      "source_files": [
+        "Quip (white).svg"
+      ],
+      "canonical_id": "quip",
+      "batch": 6,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch6-20261010"
+    },
+    {
+      "name": "Reddit",
+      "source_files": [
+        "Reddit.svg",
+        "Reddit (white).svg",
+        "Reddit (black).svg"
+      ],
+      "canonical_id": "reddit",
+      "batch": 1,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-collection-20261010"
+    },
+    {
+      "name": "Remix",
+      "source_files": [
+        "Remix (white).svg",
+        "Remix (black).svg",
+        "Remix.png"
+      ],
+      "canonical_id": "remix-by-via",
+      "batch": 6,
+      "new_seed": true,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch6-20261010"
+    },
+    {
+      "name": "Replicant",
+      "source_files": [
+        "Replicant.svg",
+        "Replicant (white).svg",
+        "Replicant (black).svg"
+      ],
+      "canonical_id": "replicant-ai",
+      "batch": 6,
+      "new_seed": true,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch6-20261010"
+    },
+    {
+      "name": "Reuters",
+      "source_files": [
+        "Reuters.png",
+        "Reuters (black).png"
+      ],
+      "canonical_id": "reuters",
+      "batch": 4,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch4-20261010"
+    },
+    {
+      "name": "Revue",
+      "source_files": [
+        "Revue.svg",
+        "Revue (white).svg",
+        "Revue (black).svg"
+      ],
+      "canonical_id": "revue",
+      "batch": 6,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch6-20261010"
+    },
+    {
+      "name": "Rijksmuseum",
+      "source_files": [
+        "Rijksmuseum.svg",
+        "Rijksmuseum (white).svg",
+        "Rijksmuseum (black).svg"
+      ],
+      "canonical_id": "rijksmuseum",
+      "batch": 3,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch3-20261010"
+    },
+    {
+      "name": "Robinhood",
+      "source_files": [
+        "Robinhood.svg",
+        "Robinhood (white).svg",
+        "Robinhood (black).svg"
+      ],
+      "canonical_id": "robinhood",
+      "batch": 3,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch3-20261010"
+    },
+    {
+      "name": "Rocketplace",
+      "source_files": [
+        "Rocketplace.svg",
+        "Rocketplace (white).svg",
+        "Rocketplace (black).png"
+      ],
+      "batch": 6,
+      "reason": "공식 사이트 신원 조회 실패 또는 PNG-only 신규: 추가 검증 보류",
+      "canonical_id": null,
+      "review_status": "held",
+      "publication_status": "not_published",
+      "new_seed": false
+    },
+    {
+      "name": "Roofr",
+      "source_files": [
+        "Roofr (white).svg",
+        "Roofr (black).svg",
+        "Roofr.png"
+      ],
+      "canonical_id": "roofr",
+      "batch": 6,
+      "new_seed": true,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch6-20261010"
+    },
+    {
+      "name": "Routable",
+      "source_files": [
+        "Routable.svg",
+        "Routable (white).svg",
+        "Routable (black).svg"
+      ],
+      "canonical_id": "routable",
+      "batch": 6,
+      "new_seed": true,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch6-20261010"
+    },
+    {
+      "name": "Routific",
+      "source_files": [
+        "Routific.svg",
+        "Routific (white).svg",
+        "Routific (black).svg"
+      ],
+      "canonical_id": "routific",
+      "batch": 6,
+      "new_seed": true,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch6-20261010"
+    },
+    {
+      "name": "SAP",
+      "source_files": [
+        "SAP.svg",
+        "SAP (white).svg",
+        "SAP (black).svg"
+      ],
+      "canonical_id": "sap",
+      "batch": 2,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch2-20261010"
+    },
+    {
+      "name": "Safebase",
+      "source_files": [
+        "Safebase (white).png"
+      ],
+      "batch": 6,
+      "reason": "Drata 공식문서에 SafeBase 인수 및2026브랜드통합 확인. 독립 신규기관보다 기존Drata 아카이브/제품관계 검토를 위해 보류",
+      "canonical_id": null,
+      "review_status": "held",
+      "publication_status": "not_published",
+      "new_seed": false
+    },
+    {
+      "name": "Safely",
+      "source_files": [
+        "Safely.svg",
+        "Safely (white).svg",
+        "Safely (black).svg"
+      ],
+      "canonical_id": "safely-insurance",
+      "batch": 6,
+      "new_seed": true,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch6-20261010"
+    },
+    {
+      "name": "Salesforce",
+      "source_files": [
+        "Salesforce.svg",
+        "Salesforce (black).svg",
+        "Salesforce (white).png"
+      ],
+      "canonical_id": "salesforce",
+      "batch": 1,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-collection-20261010"
+    },
+    {
+      "name": "Scratch",
+      "source_files": [
+        "Scratch.svg",
+        "Scratch (white).svg",
+        "Scratch (black).svg"
+      ],
+      "canonical_id": "scratchpay",
+      "batch": 6,
+      "new_seed": true,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch6-20261010"
+    },
+    {
+      "name": "Search Engine Land",
+      "source_files": [
+        "Search Engine Land.png",
+        "Search Engine Land (black).png"
+      ],
+      "canonical_id": "search-engine-land",
+      "batch": 4,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch4-20261010"
+    },
+    {
+      "name": "Sequoia Capital",
+      "source_files": [
+        "Sequoia Capital.svg",
+        "Sequoia Capital (white).svg",
+        "Sequoia Capital (black).svg"
+      ],
+      "canonical_id": "sequoia-capital",
+      "batch": 3,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch3-20261010"
+    },
+    {
+      "name": "Serena",
+      "source_files": [
+        "Serena (white).svg"
+      ],
+      "batch": 6,
+      "reason": "기관 신원·동명이인 및 실제 브랜드 조합 추가 검증 필요",
+      "canonical_id": null,
+      "review_status": "held",
+      "publication_status": "not_published",
+      "new_seed": false
+    },
+    {
+      "name": "Shopify",
+      "source_files": [
+        "Shopify.png",
+        "Shopify (white).png",
+        "Shopify (black).png"
+      ],
+      "canonical_id": "shopify",
+      "batch": 6,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch6-20261010"
+    },
+    {
+      "name": "Shuttlerock",
+      "source_files": [
+        "Shuttlerock.svg",
+        "Shuttlerock (white).svg",
+        "Shuttlerock (black).svg"
+      ],
+      "canonical_id": "shuttlerock",
+      "batch": 6,
+      "new_seed": true,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch6-20261010"
+    },
+    {
+      "name": "SignalFire",
+      "source_files": [
+        "SignalFire.svg",
+        "SignalFire (white).svg",
+        "SignalFire (black).svg"
+      ],
+      "canonical_id": "signalfire",
+      "batch": 6,
+      "new_seed": true,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch6-20261010"
+    },
+    {
+      "name": "Silver Lake",
+      "source_files": [
+        "Silver Lake (white).svg"
+      ],
+      "canonical_id": "silver-lake",
+      "batch": 3,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch3-20261010"
+    },
+    {
+      "name": "Simulate",
+      "source_files": [
+        "Simulate.svg",
+        "Simulate (white).svg",
+        "Simulate (black).svg"
+      ],
+      "canonical_id": "simulate-foods",
+      "batch": 6,
+      "new_seed": true,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch6-20261010"
+    },
+    {
+      "name": "Sketch",
+      "source_files": [
+        "Sketch.svg",
+        "Sketch (white).svg",
+        "Sketch (black).svg"
+      ],
+      "canonical_id": "sketch",
+      "batch": 2,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch2-20261010"
+    },
+    {
+      "name": "Slack",
+      "source_files": [
+        "Slack (white).svg",
+        "Slack (black).svg",
+        "Slack.png"
+      ],
+      "canonical_id": "slack",
+      "batch": 3,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch3-20261010"
+    },
+    {
+      "name": "Snap",
+      "source_files": [
+        "Snap.svg",
+        "Snap (white).svg",
+        "Snap (black).svg"
+      ],
+      "canonical_id": "snap",
+      "batch": 3,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch3-20261010"
+    },
+    {
+      "name": "SoftBank",
+      "source_files": [
+        "SoftBank.svg",
+        "SoftBank (white).svg",
+        "SoftBank (black).svg"
+      ],
+      "canonical_id": "softbank",
+      "batch": 2,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch2-20261010"
+    },
+    {
+      "name": "SpaceX",
+      "source_files": [
+        "SpaceX.svg",
+        "SpaceX (white).svg",
+        "SpaceX (black).svg"
+      ],
+      "canonical_id": "spacex",
+      "batch": 2,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch2-20261010"
+    },
+    {
+      "name": "Spotify",
+      "source_files": [
+        "Spotify.svg",
+        "Spotify (white).svg",
+        "Spotify (black).png"
+      ],
+      "canonical_id": "spotify",
+      "batch": 1,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-collection-20261010"
+    },
+    {
+      "name": "Square",
+      "source_files": [
+        "Square.svg",
+        "Square (white).png",
+        "Square (black).png"
+      ],
+      "canonical_id": "square",
+      "batch": 2,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch2-20261010"
+    },
+    {
+      "name": "Stack Overflow",
+      "source_files": [
+        "Stack Overflow (black).png"
+      ],
+      "canonical_id": "stack-overflow",
+      "batch": 6,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch6-20261010"
+    },
+    {
+      "name": "Stanford",
+      "source_files": [
+        "Stanford.svg",
+        "Stanford (white).svg",
+        "Stanford (black).svg"
+      ],
+      "canonical_id": "stanford-university",
+      "batch": 6,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch6-20261010"
+    },
+    {
+      "name": "Stanford Graduate School of Business",
+      "source_files": [
+        "Stanford Graduate School of Business.svg",
+        "Stanford Graduate School of Business (white).svg",
+        "Stanford Graduate School of Business (black).svg"
+      ],
+      "canonical_id": "stanford-graduate-school-of-business",
+      "batch": 6,
+      "new_seed": true,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch6-20261010"
+    },
+    {
+      "name": "Starface",
+      "source_files": [
+        "Starface.svg",
+        "Starface (white).svg",
+        "Starface (black).svg"
+      ],
+      "canonical_id": "starface",
+      "batch": 6,
+      "new_seed": true,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch6-20261010"
+    },
+    {
+      "name": "Step",
+      "source_files": [
+        "Step.svg",
+        "Step (white).svg",
+        "Step (black).svg"
+      ],
+      "canonical_id": "step-fintech",
+      "batch": 6,
+      "new_seed": true,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch6-20261010"
+    },
+    {
+      "name": "Stoke Space",
+      "source_files": [
+        "Stoke Space (white).png"
+      ],
+      "canonical_id": "stoke-space",
+      "batch": 6,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch6-20261010"
+    },
+    {
+      "name": "Stripe",
+      "source_files": [
+        "Stripe.svg",
+        "Stripe (white).svg",
+        "Stripe (black).svg"
+      ],
+      "canonical_id": "stripe",
+      "batch": 1,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-collection-20261010"
+    },
+    {
+      "name": "SuperHi",
+      "source_files": [
+        "SuperHi.svg",
+        "SuperHi (white).svg",
+        "SuperHi (black).svg"
+      ],
+      "canonical_id": "superhi",
+      "batch": 6,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch6-20261010"
+    },
+    {
+      "name": "Superhuman",
+      "source_files": [
+        "Superhuman.svg",
+        "Superhuman (white).svg",
+        "Superhuman (black).svg"
+      ],
+      "canonical_id": "superhuman-email",
+      "batch": 6,
+      "new_seed": true,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch6-20261010"
+    },
+    {
+      "name": "TakeShape",
+      "source_files": [
+        "TakeShape.svg",
+        "TakeShape (white).svg",
+        "TakeShape (black).svg"
+      ],
+      "canonical_id": "takeshape",
+      "batch": 6,
+      "new_seed": true,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch6-20261010"
+    },
+    {
+      "name": "Tamarisc",
+      "source_files": [
+        "Tamarisc.svg",
+        "Tamarisc (white).svg",
+        "Tamarisc (black).svg"
+      ],
+      "batch": 6,
+      "reason": "기관 신원·동명이인 및 실제 브랜드 조합 추가 검증 필요",
+      "canonical_id": null,
+      "review_status": "held",
+      "publication_status": "not_published",
+      "new_seed": false
+    },
+    {
+      "name": "Target",
+      "source_files": [
+        "Target.svg",
+        "Target (white).svg",
+        "Target (black).svg"
+      ],
+      "canonical_id": "target",
+      "batch": 2,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch2-20261010"
+    },
+    {
+      "name": "Taskrabbit",
+      "source_files": [
+        "Taskrabbit (black).png"
+      ],
+      "canonical_id": "taskrabbit",
+      "batch": 4,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch4-20261010"
+    },
+    {
+      "name": "TechCrunch",
+      "source_files": [
+        "TechCrunch.png"
+      ],
+      "canonical_id": "techcrunch",
+      "batch": 4,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch4-20261010"
+    },
+    {
+      "name": "Teleport",
+      "source_files": [
+        "Teleport.svg",
+        "Teleport (white).svg",
+        "Teleport (black).svg"
+      ],
+      "canonical_id": "teleport",
+      "batch": 6,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch6-20261010"
+    },
+    {
+      "name": "Tella",
+      "source_files": [
+        "Tella.svg",
+        "Tella (white).svg",
+        "Tella (black).svg"
+      ],
+      "canonical_id": "tella",
+      "batch": 6,
+      "new_seed": true,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch6-20261010"
+    },
+    {
+      "name": "Tencent",
+      "source_files": [
+        "Tencent (white).png"
+      ],
+      "canonical_id": "tencent",
+      "batch": 4,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch4-20261010"
+    },
+    {
+      "name": "Tenovos",
+      "source_files": [
+        "Tenovos.svg",
+        "Tenovos (white).svg",
+        "Tenovos (black).svg"
+      ],
+      "canonical_id": "tenovos",
+      "batch": 6,
+      "new_seed": true,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch6-20261010"
+    },
+    {
+      "name": "Terminal",
+      "source_files": [
+        "Terminal.svg",
+        "Terminal (white).svg",
+        "Terminal (black).svg"
+      ],
+      "canonical_id": "terminal-io",
+      "batch": 6,
+      "new_seed": true,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch6-20261010"
+    },
+    {
+      "name": "Tesla",
+      "source_files": [
+        "Tesla.svg",
+        "Tesla (white).svg",
+        "Tesla (black).svg"
+      ],
+      "canonical_id": "tesla",
+      "batch": 1,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-collection-20261010"
+    },
+    {
+      "name": "The New York Times",
+      "source_files": [
+        "The New York Times (black).svg",
+        "The New York Times.png"
+      ],
+      "canonical_id": "the-new-york-times",
+      "batch": 2,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch2-20261010"
+    },
+    {
+      "name": "The Verge",
+      "source_files": [
+        "The Verge.svg",
+        "The Verge (white).svg",
+        "The Verge (black).svg"
+      ],
+      "canonical_id": "the-verge",
+      "batch": 2,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch2-20261010"
+    },
+    {
+      "name": "The Weather Channel",
+      "source_files": [
+        "The Weather Channel (white).png",
+        "The Weather Channel (black).png"
+      ],
+      "canonical_id": "theweatherchannel",
+      "batch": 6,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch6-20261010"
+    },
+    {
+      "name": "Thrive Capital",
+      "source_files": [
+        "Thrive Capital.svg",
+        "Thrive Capital (white).svg",
+        "Thrive Capital (black).svg"
+      ],
+      "canonical_id": "thrive-capital",
+      "batch": 6,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch6-20261010"
+    },
+    {
+      "name": "Tiger Global",
+      "source_files": [
+        "Tiger Global.svg",
+        "Tiger Global (white).svg",
+        "Tiger Global (black).svg"
+      ],
+      "canonical_id": "tigerglobal",
+      "batch": 6,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch6-20261010"
+    },
+    {
+      "name": "TikTok",
+      "source_files": [
+        "TikTok.svg",
+        "TikTok (white).svg",
+        "TikTok (black).svg"
+      ],
+      "canonical_id": "tiktok",
+      "batch": 3,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch3-20261010"
+    },
+    {
+      "name": "Toll",
+      "source_files": [
+        "Toll.svg",
+        "Toll (white).svg",
+        "Toll (black).svg"
+      ],
+      "canonical_id": "toll-brothers",
+      "batch": 6,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch6-20261010"
+    },
+    {
+      "name": "Tractor Supply Company",
+      "source_files": [
+        "Tractor Supply Company.svg",
+        "Tractor Supply Company (white).svg",
+        "Tractor Supply Company (black).svg"
+      ],
+      "canonical_id": "tractor-supply-company",
+      "batch": 6,
+      "new_seed": true,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch6-20261010"
+    },
+    {
+      "name": "Trade Republic",
+      "source_files": [
+        "Trade Republic (white).svg"
+      ],
+      "canonical_id": "trade-republic",
+      "batch": 3,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch3-20261010"
+    },
+    {
+      "name": "Travelers",
+      "source_files": [
+        "Travelers.svg",
+        "Travelers (white).svg",
+        "Travelers (black).svg"
+      ],
+      "canonical_id": "the-travelers-companies",
+      "batch": 6,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch6-20261010"
+    },
+    {
+      "name": "Treasury Prime",
+      "source_files": [
+        "Treasury Prime.svg",
+        "Treasury Prime (white).svg",
+        "Treasury Prime (black).svg"
+      ],
+      "canonical_id": "treasury-prime",
+      "batch": 6,
+      "new_seed": true,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch6-20261010"
+    },
+    {
+      "name": "Trellis",
+      "source_files": [
+        "Trellis.svg",
+        "Trellis (white).svg",
+        "Trellis (black).svg"
+      ],
+      "batch": 6,
+      "reason": "기관 신원·동명이인 및 실제 브랜드 조합 추가 검증 필요",
+      "canonical_id": null,
+      "review_status": "held",
+      "publication_status": "not_published",
+      "new_seed": false
+    },
+    {
+      "name": "Trellis Connect",
+      "source_files": [
+        "Trellis Connect (black).png"
+      ],
+      "batch": 6,
+      "reason": "기관 신원·동명이인 및 실제 브랜드 조합 추가 검증 필요",
+      "canonical_id": null,
+      "review_status": "held",
+      "publication_status": "not_published",
+      "new_seed": false
+    },
+    {
+      "name": "Trinity Ventures",
+      "source_files": [
+        "Trinity Ventures (white).svg"
+      ],
+      "canonical_id": "trinity-ventures",
+      "batch": 6,
+      "new_seed": true,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch6-20261010"
+    },
+    {
+      "name": "True Link",
+      "source_files": [
+        "True Link.svg",
+        "True Link (white).svg",
+        "True Link (black).svg"
+      ],
+      "canonical_id": "true-link-financial",
+      "batch": 6,
+      "new_seed": true,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch6-20261010"
+    },
+    {
+      "name": "Twitch",
+      "source_files": [
+        "Twitch.svg",
+        "Twitch (white).svg",
+        "Twitch (black).svg"
+      ],
+      "canonical_id": "twitch",
+      "batch": 1,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-collection-20261010"
+    },
+    {
+      "name": "Uber",
+      "source_files": [
+        "Uber.svg",
+        "Uber (black).svg",
+        "Uber (white).png"
+      ],
+      "canonical_id": "uber",
+      "batch": 1,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-collection-20261010"
+    },
+    {
+      "name": "UiPath",
+      "source_files": [
+        "UiPath (white).svg"
+      ],
+      "canonical_id": "uipath",
+      "batch": 3,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch3-20261010"
+    },
+    {
+      "name": "Underscore VC",
+      "source_files": [
+        "Underscore VC (black).png"
+      ],
+      "batch": 6,
+      "reason": "공식 사이트 신원 조회 실패 또는 PNG-only 신규: 추가 검증 보류",
+      "canonical_id": null,
+      "review_status": "held",
+      "publication_status": "not_published",
+      "new_seed": false
+    },
+    {
+      "name": "University of Maryland",
+      "source_files": [
+        "University of Maryland.svg",
+        "University of Maryland (white).svg",
+        "University of Maryland (black).svg"
+      ],
+      "canonical_id": "university-of-maryland",
+      "batch": 3,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch3-20261010"
+    },
+    {
+      "name": "University of Michigan",
+      "source_files": [
+        "University of Michigan.svg",
+        "University of Michigan (white).svg",
+        "University of Michigan (black).svg"
+      ],
+      "canonical_id": "university-of-michigan",
+      "batch": 3,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch3-20261010"
+    },
+    {
+      "name": "University of Oxford",
+      "source_files": [
+        "University of Oxford.png"
+      ],
+      "canonical_id": "oxford",
+      "batch": 4,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch4-20261010"
+    },
+    {
+      "name": "University of Winchester",
+      "source_files": [
+        "University of Winchester (black).png"
+      ],
+      "batch": 6,
+      "reason": "공식 사이트 신원 조회 실패 또는 PNG-only 신규: 추가 검증 보류",
+      "canonical_id": null,
+      "review_status": "held",
+      "publication_status": "not_published",
+      "new_seed": false
+    },
+    {
+      "name": "Uploadcare",
+      "source_files": [
+        "Uploadcare.svg",
+        "Uploadcare (white).svg",
+        "Uploadcare (black).svg"
+      ],
+      "canonical_id": "uploadcare",
+      "batch": 6,
+      "new_seed": true,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch6-20261010"
+    },
+    {
+      "name": "Upwork",
+      "source_files": [
+        "Upwork (black).png"
+      ],
+      "canonical_id": "upwork",
+      "batch": 4,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch4-20261010"
+    },
+    {
+      "name": "UserTesting",
+      "source_files": [
+        "UserTesting.svg",
+        "UserTesting (white).svg",
+        "UserTesting (black).svg"
+      ],
+      "canonical_id": "user-testing",
+      "batch": 6,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch6-20261010"
+    },
+    {
+      "name": "VMG",
+      "source_files": [
+        "VMG (white).svg"
+      ],
+      "canonical_id": "vmg-partners",
+      "batch": 6,
+      "new_seed": true,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch6-20261010"
+    },
+    {
+      "name": "VSP",
+      "source_files": [
+        "VSP.svg",
+        "VSP (white).svg",
+        "VSP (black).svg"
+      ],
+      "canonical_id": "vsp",
+      "batch": 3,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch3-20261010"
+    },
+    {
+      "name": "Vanta",
+      "source_files": [
+        "Vanta.svg",
+        "Vanta (white).svg",
+        "Vanta (black).svg"
+      ],
+      "canonical_id": "vanta",
+      "batch": 6,
+      "new_seed": true,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch6-20261010"
+    },
+    {
+      "name": "Vector",
+      "source_files": [
+        "Vector.png"
+      ],
+      "batch": 6,
+      "reason": "파일명 오표기: 실제 Square 로고. Vector에 연결 금지; 전반 Square 담당과 중복 조정",
+      "canonical_id": null,
+      "review_status": "held",
+      "publication_status": "not_published",
+      "new_seed": false
+    },
+    {
+      "name": "Venmo",
+      "source_files": [
+        "Venmo (white).png"
+      ],
+      "canonical_id": "venmo",
+      "batch": 4,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch4-20261010"
+    },
+    {
+      "name": "Venrock",
+      "source_files": [
+        "Venrock.png"
+      ],
+      "canonical_id": "venrock",
+      "batch": 4,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch4-20261010"
+    },
+    {
+      "name": "Vergesense",
+      "source_files": [
+        "Vergesense.svg",
+        "Vergesense (white).svg",
+        "Vergesense (black).svg"
+      ],
+      "canonical_id": "vergesense",
+      "batch": 6,
+      "new_seed": true,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch6-20261010"
+    },
+    {
+      "name": "Verizon",
+      "source_files": [
+        "Verizon.svg"
+      ],
+      "canonical_id": "verizon",
+      "batch": 2,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch2-20261010"
+    },
+    {
+      "name": "Versus",
+      "source_files": [
+        "Versus (white).svg"
+      ],
+      "batch": 6,
+      "reason": "기관 신원·동명이인 및 실제 브랜드 조합 추가 검증 필요",
+      "canonical_id": null,
+      "review_status": "held",
+      "publication_status": "not_published",
+      "new_seed": false
+    },
+    {
+      "name": "Vestwell",
+      "source_files": [
+        "Vestwell.svg",
+        "Vestwell (white).svg",
+        "Vestwell (black).svg"
+      ],
+      "canonical_id": "vestwell",
+      "batch": 6,
+      "new_seed": true,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch6-20261010"
+    },
+    {
+      "name": "Vintage Partners",
+      "source_files": [
+        "Vintage Partners.svg",
+        "Vintage Partners (white).svg",
+        "Vintage Partners (black).svg"
+      ],
+      "batch": 6,
+      "reason": "기관 신원·동명이인 및 실제 브랜드 조합 추가 검증 필요",
+      "canonical_id": null,
+      "review_status": "held",
+      "publication_status": "not_published",
+      "new_seed": false
+    },
+    {
+      "name": "Vise",
+      "source_files": [
+        "Vise.svg",
+        "Vise (white).svg",
+        "Vise (black).svg"
+      ],
+      "canonical_id": "vise",
+      "batch": 6,
+      "new_seed": true,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch6-20261010"
+    },
+    {
+      "name": "Walgreens",
+      "source_files": [
+        "Walgreens.svg",
+        "Walgreens (white).svg",
+        "Walgreens (black).svg"
+      ],
+      "canonical_id": "walgreens",
+      "batch": 2,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch2-20261010"
+    },
+    {
+      "name": "WeTransfer",
+      "source_files": [
+        "WeTransfer.svg",
+        "WeTransfer (white).svg",
+        "WeTransfer (black).svg"
+      ],
+      "canonical_id": "wetransfer",
+      "batch": 2,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch2-20261010"
+    },
+    {
+      "name": "WeWork",
+      "source_files": [
+        "WeWork.svg",
+        "WeWork (white).svg",
+        "WeWork (black).svg"
+      ],
+      "canonical_id": "wework",
+      "batch": 2,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch2-20261010"
+    },
+    {
+      "name": "Webflow",
+      "source_files": [
+        "Webflow.svg",
+        "Webflow (white).svg",
+        "Webflow (black).svg"
+      ],
+      "canonical_id": "webflow",
+      "batch": 2,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch2-20261010"
+    },
+    {
+      "name": "WestCap",
+      "source_files": [
+        "WestCap.svg",
+        "WestCap (white).svg",
+        "WestCap (black).svg"
+      ],
+      "canonical_id": "westcap",
+      "batch": 6,
+      "new_seed": true,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch6-20261010"
+    },
+    {
+      "name": "Wethos",
+      "source_files": [
+        "Wethos.svg",
+        "Wethos (white).svg",
+        "Wethos (black).svg"
+      ],
+      "canonical_id": "wethos",
+      "batch": 6,
+      "new_seed": true,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch6-20261010"
+    },
+    {
+      "name": "Wheel",
+      "source_files": [
+        "Wheel.svg",
+        "Wheel (white).svg",
+        "Wheel (black).svg"
+      ],
+      "canonical_id": "wheel-health",
+      "batch": 6,
+      "new_seed": true,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch6-20261010"
+    },
+    {
+      "name": "Workpath",
+      "source_files": [
+        "Workpath.svg",
+        "Workpath (white).svg",
+        "Workpath (black).svg"
+      ],
+      "canonical_id": "workpath",
+      "batch": 6,
+      "new_seed": true,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch6-20261010"
+    },
+    {
+      "name": "Y Combinator",
+      "source_files": [
+        "Y Combinator.svg",
+        "Y Combinator (white).png",
+        "Y Combinator (black).png"
+      ],
+      "canonical_id": "ycombinator",
+      "batch": 1,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-collection-20261010"
+    },
+    {
+      "name": "YouTube",
+      "source_files": [
+        "YouTube.svg",
+        "YouTube (white).svg",
+        "YouTube (black).svg"
+      ],
+      "canonical_id": "youtube",
+      "batch": 1,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-collection-20261010"
+    },
+    {
+      "name": "Young Alfred",
+      "source_files": [
+        "Young Alfred (white).svg",
+        "Young Alfred (black).svg",
+        "Young Alfred.png"
+      ],
+      "batch": 6,
+      "reason": "기관 신원·동명이인 및 실제 브랜드 조합 추가 검증 필요",
+      "canonical_id": null,
+      "review_status": "held",
+      "publication_status": "not_published",
+      "new_seed": false
+    },
+    {
+      "name": "Zacht Studios",
+      "source_files": [
+        "Zacht Studios.svg"
+      ],
+      "batch": 6,
+      "reason": "기관 신원·동명이인 및 실제 브랜드 조합 추가 검증 필요",
+      "canonical_id": null,
+      "review_status": "held",
+      "publication_status": "not_published",
+      "new_seed": false
+    },
+    {
+      "name": "Zapier",
+      "source_files": [
+        "Zapier.svg",
+        "Zapier (white).svg",
+        "Zapier (black).svg"
+      ],
+      "canonical_id": "zapier",
+      "batch": 2,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch2-20261010"
+    },
+    {
+      "name": "Zillow",
+      "source_files": [
+        "Zillow.png"
+      ],
+      "canonical_id": "zillow",
+      "batch": 4,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch4-20261010"
+    },
+    {
+      "name": "Zoom",
+      "source_files": [
+        "Zoom.svg",
+        "Zoom (white).svg",
+        "Zoom (black).svg"
+      ],
+      "canonical_id": "zoom",
+      "batch": 1,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-collection-20261010"
+    },
+    {
+      "name": "Zoopla",
+      "source_files": [
+        "Zoopla.svg",
+        "Zoopla (white).svg",
+        "Zoopla (black).svg"
+      ],
+      "canonical_id": "zoopla",
+      "batch": 6,
+      "new_seed": true,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch6-20261010"
+    },
+    {
+      "name": "nvidia",
+      "source_files": [
+        "nvidia.svg"
+      ],
+      "canonical_id": "nvidia",
+      "batch": 2,
+      "new_seed": false,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch2-20261010"
+    },
+    {
+      "name": "ustwo",
+      "source_files": [
+        "ustwo.svg",
+        "ustwo (white).svg",
+        "ustwo (black).svg"
+      ],
+      "canonical_id": "ustwo",
+      "batch": 6,
+      "new_seed": true,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch6-20261010"
+    },
+    {
+      "name": "xentral",
+      "source_files": [
+        "xentral.svg",
+        "xentral (white).svg",
+        "xentral (black).svg"
+      ],
+      "canonical_id": "xentral",
+      "batch": 6,
+      "new_seed": true,
+      "review_status": "approved",
+      "reason": "원본 파일명·워드마크 신원 시각검수 및 기존 canonical 대조 완료. 커뮤니티 수록 시기 미확인; 공식 최신 CI 주장 없음.",
+      "publication_status": "published_cdn_verified",
+      "evidence_dir": "marketing/assets/figma-better-batch6-20261010"
+    }
+  ]
+}
