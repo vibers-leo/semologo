@@ -2447,23 +2447,6 @@
       "primary": "vertical-B-ko-en-vertical",
       "variants": [
         {
-          "key": "vertical",
-          "form": "symbol",
-          "asset_group": "symbol",
-          "lang": "none",
-          "color": "original",
-          "label": "심볼마크",
-          "files": {
-            "svg": "sources/official-institution-20261010-b2/dd811dd20bbb60ce.svg",
-            "png": "sources/official-institution-20261010-b2/dd811dd20bbb60ce.png"
-          },
-          "provider": "기관 공식 CI 원본에서 추출",
-          "origin": "derived",
-          "order": 0,
-          "lockup": "symbol",
-          "text_layout": "none"
-        },
-        {
           "key": "symbol",
           "form": "symbol",
           "lockup": "symbol",
@@ -3597,6 +3580,25 @@
       "id": "kdi",
       "primary": "horizontal-ko-en-vertical",
       "variants": [
+        {
+          "key": "official",
+          "form": "symbol",
+          "asset_group": "symbol",
+          "lang": "none",
+          "color": "original",
+          "label": "심볼마크",
+          "files": {
+            "svg": "sources/official-institution-20261009/43192c5e4db98584.svg",
+            "png": "sources/official-institution-20261009/43192c5e4db98584.png"
+          },
+          "provider": "공식 기관 홈페이지",
+          "source_url": "https://www.kdi.re.kr/res/ci/logo_CI_ai.zip",
+          "origin": "collected",
+          "order": 0,
+          "light": false,
+          "lockup": "symbol",
+          "text_layout": "none"
+        },
         {
           "key": "horizontal-ko",
           "form": "horizontal",
