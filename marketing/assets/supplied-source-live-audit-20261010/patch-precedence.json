@@ -1,0 +1,992 @@
+{
+  "pyeongtaek": {
+    "chain": [
+      {
+        "file": "reviewed-lockups-20261010.json",
+        "keys": [
+          "has_png",
+          "logo_png",
+          "preview_png",
+          "presentation",
+          "light",
+          "light_logo",
+          "dark_variant",
+          "variants_n",
+          "rejected_asset_files",
+          "has_svg",
+          "logo_svg",
+          "svg_transparent",
+          "asset_origin",
+          "official_source_page",
+          "name_en"
+        ],
+        "patch": {
+          "has_png": true,
+          "logo_png": "sources/reviewed-lockups-20261010/5beb72bebe7fb4df.png",
+          "preview_png": "https://logo.vibers.co.kr/_clients/pyeongtaek/sources/reviewed-lockups-20261010/5beb72bebe7fb4df.png",
+          "presentation": {
+            "file": "sources/reviewed-lockups-20261010/5beb72bebe7fb4df.png",
+            "bg": "light"
+          },
+          "light": false,
+          "light_logo": false,
+          "dark_variant": false,
+          "variants_n": 8,
+          "rejected_asset_files": [
+            "logo.png",
+            "logo-800.png",
+            "logo-transparent.png",
+            "logo-white.png",
+            "logo-icon.png"
+          ],
+          "has_svg": true,
+          "logo_svg": "sources/reviewed-lockups-20261010/ea63f4ad1a4d6e11.svg",
+          "svg_transparent": "sources/reviewed-lockups-20261010/ea63f4ad1a4d6e11.svg",
+          "asset_origin": "평택시 CI 기본편 AI · 가이드선과 안내 레이아웃 분리",
+          "official_source_page": "https://www.pyeongtaek.go.kr/pyeongtaek/contents.do?mid=0502030000",
+          "name_en": "Pyeongtaek City"
+        }
+      }
+    ],
+    "lost_by_shallow": []
+  },
+  "yeonsu": {
+    "chain": [
+      {
+        "file": "reviewed-yeonsu-20261010.json",
+        "keys": [
+          "name_ko",
+          "name_en",
+          "has_svg",
+          "has_png",
+          "logo_svg",
+          "svg_transparent",
+          "logo_png",
+          "preview_png",
+          "presentation",
+          "light",
+          "light_logo",
+          "dark_variant",
+          "variants_n",
+          "asset_origin",
+          "rejected_asset_files",
+          "logo_published_at"
+        ],
+        "patch": {
+          "name_ko": "인천광역시 연수구",
+          "name_en": "Yeonsu-gu",
+          "has_svg": true,
+          "has_png": true,
+          "logo_svg": "sources/reviewed-yeonsu-20261010/088336988f8e2e74.svg",
+          "svg_transparent": "sources/reviewed-yeonsu-20261010/088336988f8e2e74.svg",
+          "logo_png": "sources/reviewed-yeonsu-20261010/e9a91da13021075c.png",
+          "preview_png": "https://logo.vibers.co.kr/_clients/yeonsu/sources/reviewed-yeonsu-20261010/e9a91da13021075c.png",
+          "presentation": {
+            "file": "sources/reviewed-yeonsu-20261010/e9a91da13021075c.png",
+            "bg": "light"
+          },
+          "light": false,
+          "light_logo": false,
+          "dark_variant": false,
+          "variants_n": 15,
+          "asset_origin": "사용자 제공 연수구 AI 원본 · 로고·시그니처·마스코트 개별 객체 추출",
+          "rejected_asset_files": [
+            "logo.png",
+            "logo.svg",
+            "logo-800.png",
+            "logo-transparent.png",
+            "logo-white.png",
+            "logo-icon.png"
+          ],
+          "logo_published_at": "2026-10-10T06:10:35Z"
+        }
+      }
+    ],
+    "lost_by_shallow": []
+  },
+  "kr-kepco": {
+    "chain": [
+      {
+        "file": "reviewed-asset-release-20261008.json",
+        "keys": [
+          "logo_svg",
+          "has_svg",
+          "has_png",
+          "logo_png",
+          "preview_png",
+          "svg_transparent",
+          "light",
+          "light_logo",
+          "dark_variant",
+          "official_source_page",
+          "asset_origin",
+          "rejected_asset_files"
+        ],
+        "patch": {
+          "logo_svg": true,
+          "has_svg": true,
+          "has_png": true,
+          "logo_png": "sources/official-reviewed-20261008/3b5b25c8a292f3dd.png",
+          "preview_png": "https://logo.vibers.co.kr/_clients/kr-kepco/sources/official-reviewed-20261008/3b5b25c8a292f3dd.png",
+          "svg_transparent": "sources/official-reviewed-20261008/3b5b25c8a292f3dd.svg",
+          "light": false,
+          "light_logo": false,
+          "dark_variant": false,
+          "official_source_page": "https://www.kepco.co.kr/home/about/introduce/ci/conts.do",
+          "asset_origin": "공식 기관 홈페이지 · 원본 벡터 검수",
+          "rejected_asset_files": [
+            "logo-800.png",
+            "logo-transparent.png",
+            "logo-white.png",
+            "logo-icon.png"
+          ]
+        }
+      },
+      {
+        "file": "reviewed-kepco-20261010.json",
+        "keys": [
+          "has_svg",
+          "has_png",
+          "logo_svg",
+          "svg_transparent",
+          "logo_png",
+          "preview_png",
+          "presentation",
+          "light",
+          "light_logo",
+          "dark_variant",
+          "variants_n",
+          "asset_origin",
+          "logo_published_at",
+          "rejected_asset_files"
+        ],
+        "patch": {
+          "has_svg": true,
+          "has_png": true,
+          "logo_svg": "sources/reviewed-kepco-20261010/1f0e470e3cca1ffd.svg",
+          "svg_transparent": "sources/reviewed-kepco-20261010/1f0e470e3cca1ffd.svg",
+          "logo_png": "sources/reviewed-kepco-20261010/7339a45f2618aa04.png",
+          "preview_png": "https://logo.vibers.co.kr/_clients/kr-kepco/sources/reviewed-kepco-20261010/7339a45f2618aa04.png",
+          "presentation": {
+            "file": "sources/reviewed-kepco-20261010/7339a45f2618aa04.png",
+            "bg": "light"
+          },
+          "light": false,
+          "light_logo": false,
+          "dark_variant": false,
+          "variants_n": 6,
+          "asset_origin": "한국전력공사 CI 사용자 제공 AI · 시그니처·심볼·레터마크 분리",
+          "logo_published_at": "2026-10-10T06:11:15.252931+00:00",
+          "rejected_asset_files": [
+            "logo.png",
+            "logo.svg",
+            "logo-800.png",
+            "logo-transparent.png",
+            "logo-white.png",
+            "logo-icon.png"
+          ]
+        }
+      }
+    ],
+    "lost_by_shallow": [
+      "official_source_page"
+    ]
+  },
+  "north-chungcheong": {
+    "chain": [
+      {
+        "file": "reviewed-chungbuk-20261010.json",
+        "keys": [
+          "has_svg",
+          "has_png",
+          "logo_svg",
+          "svg_transparent",
+          "logo_png",
+          "preview_png",
+          "presentation",
+          "light",
+          "light_logo",
+          "dark_variant",
+          "variants_n",
+          "asset_origin",
+          "official_source_page",
+          "logo_published_at",
+          "name_en",
+          "rejected_asset_files",
+          "license",
+          "license_note"
+        ],
+        "patch": {
+          "has_svg": true,
+          "has_png": true,
+          "logo_svg": "sources/reviewed-chungbuk-20261010/cf03bde6120b534a.svg",
+          "svg_transparent": "sources/reviewed-chungbuk-20261010/cf03bde6120b534a.svg",
+          "logo_png": "sources/reviewed-chungbuk-20261010/96c7caf088f932ae.png",
+          "preview_png": "https://logo.vibers.co.kr/_clients/north-chungcheong/sources/reviewed-chungbuk-20261010/96c7caf088f932ae.png",
+          "presentation": {
+            "file": "sources/reviewed-chungbuk-20261010/96c7caf088f932ae.png",
+            "bg": "light"
+          },
+          "light": false,
+          "light_logo": false,
+          "dark_variant": false,
+          "variants_n": 37,
+          "asset_origin": "충청북도 공식 CI·BI · 공공누리 제4유형(출처표시·비상업·변경금지)",
+          "official_source_page": "https://www.chungbuk.go.kr/brand/contents.do?key=4714",
+          "logo_published_at": "2026-10-10T06:13:25.433119+00:00",
+          "name_en": "Chungcheongbuk-do",
+          "rejected_asset_files": [
+            "logo.png",
+            "logo-800.png",
+            "logo-transparent.png",
+            "logo-white.png",
+            "logo-icon.png"
+          ],
+          "license": "공공누리 제4유형",
+          "license_note": "출처표시 / 비상업적 이용만 가능 / 변경금지. 충청북도의 공식 후원·협찬·인증으로 오인되는 표현 금지."
+        }
+      }
+    ],
+    "lost_by_shallow": []
+  },
+  "gongu-ci-1495": {
+    "chain": [
+      {
+        "file": "reviewed-institutions-20261010.json",
+        "keys": [
+          "id",
+          "name_ko",
+          "name_en",
+          "origin",
+          "category",
+          "website",
+          "logo_svg",
+          "svg_transparent",
+          "logo_png",
+          "preview_png",
+          "has_svg",
+          "has_png",
+          "asset_review_status",
+          "asset_origin",
+          "official_source_page",
+          "official_zip_url",
+          "hidden"
+        ],
+        "patch": {
+          "id": "gongu-ci-1495",
+          "name_ko": "청주복지재단",
+          "name_en": "Cheongju Welfare Foundation",
+          "origin": "KR",
+          "category": "공공·기관",
+          "website": "https://www.cjwf.or.kr/",
+          "logo_svg": "sources/lockup-reviewed-20261010/696131becdce4029.svg",
+          "svg_transparent": "sources/lockup-reviewed-20261010/696131becdce4029.svg",
+          "logo_png": "sources/lockup-reviewed-20261010/696131becdce4029.png",
+          "preview_png": "https://logo.vibers.co.kr/_clients/gongu-ci-1495/sources/lockup-reviewed-20261010/696131becdce4029.png",
+          "has_svg": true,
+          "has_png": true,
+          "asset_review_status": "verified",
+          "asset_origin": "official",
+          "official_source_page": "https://www.cjwf.or.kr/home/sub.php?menukey=235",
+          "official_zip_url": "https://www.cjwf.or.kr/home/download/signature.zip",
+          "hidden": false
+        }
+      },
+      {
+        "file": "reviewed-cjwf-20261010.json",
+        "keys": [
+          "variants_n"
+        ],
+        "patch": {
+          "variants_n": 10
+        }
+      }
+    ],
+    "lost_by_shallow": [
+      "asset_origin",
+      "asset_review_status",
+      "category",
+      "has_png",
+      "has_svg",
+      "hidden",
+      "id",
+      "logo_png",
+      "logo_svg",
+      "name_en",
+      "name_ko",
+      "official_source_page",
+      "official_zip_url",
+      "origin",
+      "preview_png",
+      "svg_transparent",
+      "website"
+    ]
+  },
+  "sj-2": {
+    "chain": [
+      {
+        "file": "reviewed-seongju-20261010.json",
+        "keys": [
+          "name_ko",
+          "name_en",
+          "origin",
+          "category",
+          "website",
+          "has_png",
+          "has_svg",
+          "logo_png",
+          "logo_svg",
+          "svg_transparent",
+          "preview_png",
+          "variants_n",
+          "official_source_page",
+          "asset_origin",
+          "asset_review_status",
+          "light",
+          "light_logo",
+          "dark_variant",
+          "rejected_asset_files",
+          "logo_published_at"
+        ],
+        "patch": {
+          "name_ko": "성주군",
+          "name_en": "Seongju County",
+          "origin": "KR",
+          "category": "공공·기관",
+          "website": "https://www.sj.go.kr/",
+          "has_png": true,
+          "has_svg": true,
+          "logo_png": "sources/seongju-20261010/3277d2675b848b6d.png",
+          "logo_svg": "sources/seongju-20261010/32f11c9fdedbadfc.svg",
+          "svg_transparent": "sources/seongju-20261010/32f11c9fdedbadfc.svg",
+          "preview_png": "https://logo.vibers.co.kr/_clients/sj-2/sources/seongju-20261010/3277d2675b848b6d.png",
+          "variants_n": 34,
+          "official_source_page": "https://www.sj.go.kr/page.do?mnu_uid=1014",
+          "asset_origin": "성주군 공식 상징물 · 물품 제작 및 행사 활용 시 군수 승인 필요",
+          "asset_review_status": "verified",
+          "light": false,
+          "light_logo": false,
+          "dark_variant": false,
+          "rejected_asset_files": [
+            "logo.png",
+            "logo-800.png",
+            "logo-transparent.png",
+            "logo-white.png",
+            "logo-icon.png"
+          ],
+          "logo_published_at": "2026-10-10T07:17:51.818053+00:00"
+        }
+      }
+    ],
+    "lost_by_shallow": []
+  },
+  "south-chungcheong": {
+    "chain": [
+      {
+        "file": "reviewed-user-identities-20261010.json",
+        "keys": [
+          "name_ko",
+          "name_en",
+          "origin",
+          "category",
+          "has_svg",
+          "has_png",
+          "logo_svg",
+          "svg_transparent",
+          "logo_png",
+          "preview_png",
+          "light",
+          "light_logo",
+          "dark_variant",
+          "asset_review_status",
+          "variants_n",
+          "rejected_asset_files",
+          "icon_png",
+          "source_zip"
+        ],
+        "patch": {
+          "name_ko": "충청남도",
+          "name_en": "Chungcheongnam-do",
+          "origin": "KR",
+          "category": "공공·기관",
+          "has_svg": true,
+          "has_png": true,
+          "logo_svg": "sources/user-identities-20261010/2f0286bd133606f0.svg",
+          "svg_transparent": "sources/user-identities-20261010/2f0286bd133606f0.svg",
+          "logo_png": "sources/user-identities-20261010/8a7d574ff216e129.png",
+          "preview_png": "https://logo.vibers.co.kr/_clients/south-chungcheong/sources/user-identities-20261010/8a7d574ff216e129.png",
+          "light": false,
+          "light_logo": false,
+          "dark_variant": false,
+          "asset_review_status": "verified",
+          "variants_n": 27,
+          "rejected_asset_files": [
+            "logo-icon.png",
+            "logo-800.png",
+            "logo-transparent.png",
+            "logo-white.png"
+          ],
+          "icon_png": "sources/user-identities-20261010/b5def74541772be7.png",
+          "source_zip": "sources/user-identities-20261010/da28a6855d128b19.zip"
+        }
+      },
+      {
+        "file": "reviewed-city-merges-20261010.json",
+        "keys": [
+          "name_ko",
+          "name_en",
+          "origin",
+          "category",
+          "has_svg",
+          "has_png",
+          "logo_svg",
+          "svg_transparent",
+          "logo_png",
+          "preview_png",
+          "light",
+          "light_logo",
+          "dark_variant",
+          "asset_review_status",
+          "variants_n",
+          "rejected_asset_files",
+          "icon_png",
+          "source_zip",
+          "presentation",
+          "aliases"
+        ],
+        "patch": {
+          "name_ko": "충청남도",
+          "name_en": "Chungcheongnam-do",
+          "origin": "KR",
+          "category": "공공·기관",
+          "has_svg": true,
+          "has_png": true,
+          "logo_svg": "sources/user-identities-20261010/2f0286bd133606f0.svg",
+          "svg_transparent": "sources/user-identities-20261010/2f0286bd133606f0.svg",
+          "logo_png": "sources/user-identities-20261010/8a7d574ff216e129.png",
+          "preview_png": "https://logo.vibers.co.kr/_clients/south-chungcheong/sources/user-identities-20261010/8a7d574ff216e129.png",
+          "light": false,
+          "light_logo": false,
+          "dark_variant": false,
+          "asset_review_status": "verified",
+          "variants_n": 27,
+          "rejected_asset_files": [
+            "logo-icon.png",
+            "logo-800.png",
+            "logo-transparent.png",
+            "logo-white.png"
+          ],
+          "icon_png": "sources/user-identities-20261010/b5def74541772be7.png",
+          "source_zip": "sources/user-identities-20261010/da28a6855d128b19.zip",
+          "presentation": {
+            "file": "sources/user-identities-20261010/8a7d574ff216e129.png",
+            "bg": "light"
+          },
+          "aliases": [
+            "충청남도",
+            "충남",
+            "Chungnam",
+            "Chungcheongnam-do",
+            "South Chungcheong Province",
+            "gongu-ci-1514"
+          ]
+        }
+      }
+    ],
+    "lost_by_shallow": []
+  },
+  "nonsan-strawberry-expo-2027": {
+    "chain": [
+      {
+        "file": "reviewed-user-identities-20261010.json",
+        "keys": [
+          "id",
+          "name_ko",
+          "name_en",
+          "category",
+          "origin",
+          "aliases",
+          "has_svg",
+          "has_png",
+          "logo_svg",
+          "svg_transparent",
+          "logo_png",
+          "preview_png",
+          "asset_origin",
+          "asset_review_status",
+          "variants_n",
+          "added_at",
+          "logo_published_at",
+          "rejected_asset_files",
+          "brand_manual",
+          "icon_png",
+          "source_zip"
+        ],
+        "patch": {
+          "id": "nonsan-strawberry-expo-2027",
+          "name_ko": "2027 논산세계딸기산업엑스포",
+          "name_en": "2027 Nonsan World Strawberry Industry Expo",
+          "category": "문화·행사",
+          "origin": "KR",
+          "aliases": [
+            "논산딸기엑스포",
+            "논산세계딸기산업엑스포",
+            "2027 논산 엑스포"
+          ],
+          "has_svg": true,
+          "has_png": true,
+          "logo_svg": "sources/user-identities-20261010/4e399867af23cd12.svg",
+          "svg_transparent": "sources/user-identities-20261010/4e399867af23cd12.svg",
+          "logo_png": "sources/user-identities-20261010/33823826b9e1789a.png",
+          "preview_png": "https://logo.vibers.co.kr/_clients/nonsan-strawberry-expo-2027/sources/user-identities-20261010/33823826b9e1789a.png",
+          "asset_origin": "사용자 제공 행사 EI 공식 배포 ZIP",
+          "asset_review_status": "verified",
+          "variants_n": 13,
+          "added_at": "2026-10-10",
+          "logo_published_at": "2026-10-10T08:00:00Z",
+          "rejected_asset_files": [
+            "logo.svg",
+            "logo.png",
+            "logo-icon.png",
+            "logo-800.png",
+            "logo-transparent.png",
+            "logo-white.png"
+          ],
+          "brand_manual": "sources/user-identities-20261010/f68770b353e57240.pdf",
+          "icon_png": "sources/user-identities-20261010/6f44fb6c2fd78ac2.png",
+          "source_zip": "sources/user-identities-20261010/a45545ee9da6d056.zip"
+        }
+      }
+    ],
+    "lost_by_shallow": []
+  },
+  "dangjin": {
+    "chain": [
+      {
+        "file": "reviewed-user-identities-20261010.json",
+        "keys": [
+          "has_svg",
+          "has_png",
+          "logo_svg",
+          "svg_transparent",
+          "logo_png",
+          "preview_png",
+          "light",
+          "light_logo",
+          "dark_variant",
+          "variants_n",
+          "asset_review_status",
+          "rejected_asset_files",
+          "icon_png",
+          "source_zip"
+        ],
+        "patch": {
+          "has_svg": true,
+          "has_png": true,
+          "logo_svg": "sources/user-identities-20261010/f9cd35abfdd4bfc5.svg",
+          "svg_transparent": "sources/user-identities-20261010/f9cd35abfdd4bfc5.svg",
+          "logo_png": "sources/user-identities-20261010/3ec954a7f27e4d3f.png",
+          "preview_png": "https://logo.vibers.co.kr/_clients/dangjin/sources/user-identities-20261010/3ec954a7f27e4d3f.png",
+          "light": false,
+          "light_logo": false,
+          "dark_variant": false,
+          "variants_n": 4,
+          "asset_review_status": "verified",
+          "rejected_asset_files": [
+            "logo-icon.png",
+            "logo-800.png",
+            "logo-transparent.png",
+            "logo-white.png"
+          ],
+          "icon_png": "sources/user-identities-20261010/8e4e929724c7996e.png",
+          "source_zip": "sources/user-identities-20261010/3344adde2a3812d1.zip"
+        }
+      },
+      {
+        "file": "reviewed-city-merges-20261010.json",
+        "keys": [
+          "has_svg",
+          "has_png",
+          "logo_svg",
+          "svg_transparent",
+          "logo_png",
+          "preview_png",
+          "light",
+          "light_logo",
+          "dark_variant",
+          "variants_n",
+          "asset_review_status",
+          "rejected_asset_files",
+          "icon_png",
+          "source_zip",
+          "presentation",
+          "aliases"
+        ],
+        "patch": {
+          "has_svg": true,
+          "has_png": true,
+          "logo_svg": "sources/user-identities-20261010/f9cd35abfdd4bfc5.svg",
+          "svg_transparent": "sources/user-identities-20261010/f9cd35abfdd4bfc5.svg",
+          "logo_png": "sources/user-identities-20261010/3ec954a7f27e4d3f.png",
+          "preview_png": "https://logo.vibers.co.kr/_clients/dangjin/sources/user-identities-20261010/3ec954a7f27e4d3f.png",
+          "light": false,
+          "light_logo": false,
+          "dark_variant": false,
+          "variants_n": 4,
+          "asset_review_status": "verified",
+          "rejected_asset_files": [
+            "logo-icon.png",
+            "logo-800.png",
+            "logo-transparent.png",
+            "logo-white.png"
+          ],
+          "icon_png": "sources/user-identities-20261010/8e4e929724c7996e.png",
+          "source_zip": "sources/user-identities-20261010/3344adde2a3812d1.zip",
+          "presentation": {
+            "file": "sources/user-identities-20261010/3ec954a7f27e4d3f.png",
+            "bg": "light"
+          },
+          "aliases": [
+            "당진시",
+            "당진",
+            "Dangjin",
+            "당찬 당진",
+            "당진시 마스코트",
+            "gongu-ci-1057",
+            "dangjin-mascot"
+          ]
+        }
+      }
+    ],
+    "lost_by_shallow": []
+  },
+  "dangjin-port": {
+    "chain": [
+      {
+        "file": "reviewed-user-identities-20261010.json",
+        "keys": [
+          "id",
+          "name_ko",
+          "name_en",
+          "category",
+          "origin",
+          "has_svg",
+          "has_png",
+          "logo_svg",
+          "svg_transparent",
+          "logo_png",
+          "preview_png",
+          "asset_origin",
+          "asset_review_status",
+          "variants_n",
+          "added_at",
+          "logo_published_at",
+          "rejected_asset_files",
+          "icon_png",
+          "source_zip"
+        ],
+        "patch": {
+          "id": "dangjin-port",
+          "name_ko": "당진항",
+          "name_en": "Port of Dangjin",
+          "category": "공공·기관",
+          "origin": "KR",
+          "has_svg": true,
+          "has_png": true,
+          "logo_svg": "sources/user-identities-20261010/a14dc2c2a771ebe8.svg",
+          "svg_transparent": "sources/user-identities-20261010/a14dc2c2a771ebe8.svg",
+          "logo_png": "sources/user-identities-20261010/c4ae535fe9897130.png",
+          "preview_png": "https://logo.vibers.co.kr/_clients/dangjin-port/sources/user-identities-20261010/c4ae535fe9897130.png",
+          "asset_origin": "사용자 제공 당진시 공식 AI",
+          "asset_review_status": "verified",
+          "variants_n": 2,
+          "added_at": "2026-10-10",
+          "logo_published_at": "2026-10-10T08:00:00Z",
+          "rejected_asset_files": [
+            "logo.svg",
+            "logo.png",
+            "logo-icon.png",
+            "logo-800.png",
+            "logo-transparent.png",
+            "logo-white.png"
+          ],
+          "icon_png": "sources/user-identities-20261010/fad37155cf04d4fd.png",
+          "source_zip": "sources/user-identities-20261010/3344adde2a3812d1.zip"
+        }
+      }
+    ],
+    "lost_by_shallow": []
+  },
+  "baemin": {
+    "chain": [
+      {
+        "file": "reviewed-baemin-guide-20261010.json",
+        "keys": [
+          "id",
+          "has_svg",
+          "has_png",
+          "logo_svg",
+          "svg_transparent",
+          "logo_png",
+          "preview_png",
+          "brand_manual",
+          "asset_review_status",
+          "variants_n",
+          "asset_origin",
+          "light",
+          "light_logo",
+          "dark_variant",
+          "logo_published_at",
+          "rejected_asset_files",
+          "icon_png",
+          "name_ko",
+          "name_en",
+          "origin",
+          "category",
+          "related_ids",
+          "presentation"
+        ],
+        "patch": {
+          "id": "baemin",
+          "has_svg": true,
+          "has_png": true,
+          "logo_svg": "sources/baemin-guide-20261010/2faa9af764604698.svg",
+          "svg_transparent": "sources/baemin-guide-20261010/2faa9af764604698.svg",
+          "logo_png": "sources/baemin-guide-20261010/e9d94d05f7358041.png",
+          "preview_png": "https://logo.vibers.co.kr/_clients/baemin/sources/baemin-guide-20261010/e9d94d05f7358041.png",
+          "brand_manual": "sources/baemin-guide-20261010/c6ef4d28f44ffa5a.pdf",
+          "asset_review_status": "verified",
+          "variants_n": 5,
+          "asset_origin": "사용자 제공 배달의민족 공식 로고 사용가이드 (2019.01.04)",
+          "light": false,
+          "light_logo": false,
+          "dark_variant": false,
+          "logo_published_at": "2026-10-10T08:00:00Z",
+          "rejected_asset_files": [
+            "logo-icon.png",
+            "logo-800.png",
+            "logo-transparent.png",
+            "logo-white.png"
+          ],
+          "icon_png": "sources/baemin-guide-20261010/37d6d0ad6603fb2f.png",
+          "name_ko": "배달의민족",
+          "name_en": "Baemin",
+          "origin": "KR",
+          "category": "IT·테크",
+          "related_ids": [
+            "baemin-riders"
+          ],
+          "presentation": {
+            "file": "sources/baemin-guide-20261010/e9d94d05f7358041.png",
+            "bg": "light"
+          }
+        }
+      },
+      {
+        "file": "reviewed-assets-next-20261010.json",
+        "keys": [
+          "id",
+          "has_svg",
+          "has_png",
+          "logo_svg",
+          "svg_transparent",
+          "logo_png",
+          "preview_png",
+          "brand_manual",
+          "asset_review_status",
+          "variants_n",
+          "asset_origin",
+          "light",
+          "light_logo",
+          "dark_variant",
+          "logo_published_at",
+          "rejected_asset_files",
+          "icon_png",
+          "name_ko",
+          "name_en",
+          "origin",
+          "category",
+          "related_ids",
+          "presentation"
+        ],
+        "patch": {
+          "id": "baemin",
+          "has_svg": true,
+          "has_png": true,
+          "logo_svg": "sources/baemin-guide-fix-20261010/0a15e46fd676e635.svg",
+          "svg_transparent": "sources/baemin-guide-fix-20261010/0a15e46fd676e635.svg",
+          "logo_png": "sources/baemin-guide-fix-20261010/d4c5ccbdcad27a3a.png",
+          "preview_png": "https://logo.vibers.co.kr/_clients/baemin/sources/baemin-guide-fix-20261010/d4c5ccbdcad27a3a.png",
+          "brand_manual": "sources/baemin-guide-20261010/c6ef4d28f44ffa5a.pdf",
+          "asset_review_status": "verified",
+          "variants_n": 5,
+          "asset_origin": "사용자 제공 배달의민족 공식 로고 사용가이드 (2019.01.04)",
+          "light": false,
+          "light_logo": false,
+          "dark_variant": false,
+          "logo_published_at": "2026-10-10T08:00:00Z",
+          "rejected_asset_files": [
+            "logo-icon.png",
+            "logo-800.png",
+            "logo-transparent.png",
+            "logo-white.png"
+          ],
+          "icon_png": "sources/baemin-guide-20261010/37d6d0ad6603fb2f.png",
+          "name_ko": "배달의민족",
+          "name_en": "Baemin",
+          "origin": "KR",
+          "category": "IT·테크",
+          "related_ids": [
+            "baemin-riders"
+          ],
+          "presentation": {
+            "file": "sources/baemin-guide-fix-20261010/d4c5ccbdcad27a3a.png",
+            "bg": "light"
+          }
+        }
+      }
+    ],
+    "lost_by_shallow": []
+  },
+  "baemin-riders": {
+    "chain": [
+      {
+        "file": "reviewed-baemin-guide-20261010.json",
+        "keys": [
+          "id",
+          "has_svg",
+          "has_png",
+          "logo_svg",
+          "svg_transparent",
+          "logo_png",
+          "preview_png",
+          "brand_manual",
+          "asset_review_status",
+          "variants_n",
+          "asset_origin",
+          "light",
+          "light_logo",
+          "dark_variant",
+          "logo_published_at",
+          "rejected_asset_files",
+          "name_ko",
+          "name_en",
+          "origin",
+          "category",
+          "aliases",
+          "added_at",
+          "related_ids",
+          "presentation"
+        ],
+        "patch": {
+          "id": "baemin-riders",
+          "has_svg": true,
+          "has_png": true,
+          "logo_svg": "sources/baemin-guide-20261010/c0e96fdc84a19682.svg",
+          "svg_transparent": "sources/baemin-guide-20261010/c0e96fdc84a19682.svg",
+          "logo_png": "sources/baemin-guide-20261010/9c541cddf278b3e8.png",
+          "preview_png": "https://logo.vibers.co.kr/_clients/baemin-riders/sources/baemin-guide-20261010/9c541cddf278b3e8.png",
+          "brand_manual": "sources/baemin-guide-20261010/c6ef4d28f44ffa5a.pdf",
+          "asset_review_status": "verified",
+          "variants_n": 2,
+          "asset_origin": "사용자 제공 배달의민족 공식 로고 사용가이드 (2019.01.04)",
+          "light": false,
+          "light_logo": false,
+          "dark_variant": false,
+          "logo_published_at": "2026-10-10T08:00:00Z",
+          "rejected_asset_files": [
+            "logo-icon.png",
+            "logo-800.png",
+            "logo-transparent.png",
+            "logo-white.png"
+          ],
+          "name_ko": "배민라이더스",
+          "name_en": "Baemin Riders",
+          "origin": "KR",
+          "category": "물류·교통",
+          "aliases": [
+            "배달의민족 라이더스",
+            "Baemin Riders"
+          ],
+          "added_at": "2026-10-10",
+          "related_ids": [
+            "baemin"
+          ],
+          "presentation": {
+            "file": "sources/baemin-guide-20261010/9c541cddf278b3e8.png",
+            "bg": "light"
+          }
+        }
+      },
+      {
+        "file": "reviewed-assets-next-20261010.json",
+        "keys": [
+          "id",
+          "has_svg",
+          "has_png",
+          "logo_svg",
+          "svg_transparent",
+          "logo_png",
+          "preview_png",
+          "brand_manual",
+          "asset_review_status",
+          "variants_n",
+          "asset_origin",
+          "light",
+          "light_logo",
+          "dark_variant",
+          "logo_published_at",
+          "rejected_asset_files",
+          "name_ko",
+          "name_en",
+          "origin",
+          "category",
+          "aliases",
+          "added_at",
+          "related_ids",
+          "presentation"
+        ],
+        "patch": {
+          "id": "baemin-riders",
+          "has_svg": true,
+          "has_png": true,
+          "logo_svg": "sources/baemin-guide-fix-20261010/3678ea37804db8f9.svg",
+          "svg_transparent": "sources/baemin-guide-fix-20261010/3678ea37804db8f9.svg",
+          "logo_png": "sources/baemin-guide-fix-20261010/b18747fe7ad721ff.png",
+          "preview_png": "https://logo.vibers.co.kr/_clients/baemin-riders/sources/baemin-guide-fix-20261010/b18747fe7ad721ff.png",
+          "brand_manual": "sources/baemin-guide-20261010/c6ef4d28f44ffa5a.pdf",
+          "asset_review_status": "verified",
+          "variants_n": 2,
+          "asset_origin": "사용자 제공 배달의민족 공식 로고 사용가이드 (2019.01.04)",
+          "light": false,
+          "light_logo": false,
+          "dark_variant": false,
+          "logo_published_at": "2026-10-10T08:00:00Z",
+          "rejected_asset_files": [
+            "logo-icon.png",
+            "logo-800.png",
+            "logo-transparent.png",
+            "logo-white.png"
+          ],
+          "name_ko": "배민라이더스",
+          "name_en": "Baemin Riders",
+          "origin": "KR",
+          "category": "물류·교통",
+          "aliases": [
+            "배달의민족 라이더스",
+            "Baemin Riders"
+          ],
+          "added_at": "2026-10-10",
+          "related_ids": [
+            "baemin"
+          ],
+          "presentation": {
+            "file": "sources/baemin-guide-fix-20261010/b18747fe7ad721ff.png",
+            "bg": "light"
+          }
+        }
+      }
+    ],
+    "lost_by_shallow": []
+  }
+}
