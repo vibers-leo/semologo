@@ -1,0 +1,89 @@
+{
+  "patches": {
+    "kr-kftc": {
+      "has_png": true,
+      "variants_n": 4
+    }
+  },
+  "variants": {
+    "kr-kftc": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "kr-kftc",
+      "primary": "wordmark",
+      "fingerprint": {
+        "logo.svg": "486ffb6bf3627cac",
+        "sources/wikimedia/logo.svg": "ba39cd396b318848"
+      },
+      "variants": [
+        {
+          "key": "horizontal",
+          "form": "vertical",
+          "lang": "ko",
+          "color": "color",
+          "label": "국문 상하조합",
+          "files": {
+            "svg": "sources/wikimedia/logo.svg",
+            "png": "sources/ftc-png-20261010/9147775c697df3fe.png"
+          },
+          "aspect": 1.324,
+          "provider": "wikimedia",
+          "origin": "collected",
+          "order": 10,
+          "lockup": "vertical",
+          "text_layout": "ko"
+        },
+        {
+          "key": "wordmark",
+          "form": "horizontal",
+          "lang": "en",
+          "color": "color",
+          "label": "영문 좌우조합 · 투명",
+          "files": {
+            "svg": "logo.svg",
+            "png": "sources/ftc-png-20261010/15f3d83ec12931a0.png"
+          },
+          "aspect": 5.143,
+          "provider": "wikimedia-commons",
+          "origin": "collected",
+          "order": 10,
+          "lockup": "horizontal",
+          "text_layout": "en"
+        },
+        {
+          "key": "symbol",
+          "form": "symbol",
+          "lang": "none",
+          "color": "color",
+          "label": "심볼만",
+          "files": {
+            "svg": "variants/symbol.svg",
+            "png": "sources/ftc-png-20261010/8af430c237781fa1.png"
+          },
+          "aspect": null,
+          "provider": "derived:autocrop",
+          "origin": "derived",
+          "order": 30,
+          "derived_from": "logo.svg",
+          "confidence": 1.0
+        },
+        {
+          "key": "english-white-background",
+          "form": "horizontal",
+          "lang": "en",
+          "color": "color",
+          "label": "영문 좌우조합 · 흰 배경 원본",
+          "files": {
+            "png": "logo-800.png"
+          },
+          "aspect": 5.143,
+          "provider": "wikimedia-commons",
+          "origin": "collected",
+          "order": 40,
+          "lockup": "horizontal",
+          "text_layout": "en"
+        }
+      ]
+    }
+  }
+}
