@@ -102,3 +102,5 @@
 - 2026-10-10: Better Logos community color variants reviewed; user-original AI/ZIP downloads and variation counts exposed, eight visually reviewed representative recommendations applied. Evidence: assets/figma-better-collection-20261010/, assets/representative-votes-20261010/.
 
 - 2026-10-11: 공식 8기관 34변형·SVG PNG 미리보기 118브랜드·Better 보류해소 10그룹 게시 근거 보존. 네이티브 검색·기기 즐겨찾기·OS 공유 구현 및 스토어 문안 갱신; 실제 빌드·스토어 등록은 검증 대기.
+
+- 2026-10-11: 스토어 사전 제출 자료 작성. marketing/listings/SUBMISSION_KIT_20261011.md에 심사 메모·개인정보/등급 근거·촬영/검수 계획 정리. Play 1024×500 피처 그래픽 및512px 아이콘 생성, 실제 캡처 입력용 제작 도구 추가. 실제 앱 스크린샷·서명 빌드·제출은 미완료.
