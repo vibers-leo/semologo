@@ -347,8 +347,9 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
     if (isPage) return;
     const onKey = (e: KeyboardEvent) => e.key === "Escape" && onClose?.();
     document.addEventListener("keydown", onKey);
+    const previousOverflow = document.body.style.overflow;
     document.body.style.overflow = "hidden";
-    return () => { document.removeEventListener("keydown", onKey); document.body.style.overflow = ""; };
+    return () => { document.removeEventListener("keydown", onKey); document.body.style.overflow = previousOverflow; };
   }, [isPage, onClose]);
 
   useEffect(() => {
@@ -576,7 +577,8 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
     : getDarkPreviewUrl(visibility, darkUrl, previewUrl);
 
   return (
-    <div style={containerStyle} onClick={e => e.stopPropagation()}>
+    <div className={isPage ? "brand-inner-panel brand-inner-page" : "brand-inner-panel brand-inner-dialog"} style={containerStyle} onClick={e => e.stopPropagation()}>
+      {!isPage && <div className="brand-sheet-handle" aria-hidden="true"><span /></div>}
       <style>{`
         @keyframes modalIn { from { opacity:0; transform:scale(.97) translateY(6px); } to { opacity:1; transform:none; } }
         @keyframes toastIn { from { opacity:0; transform:translateX(-50%) translateY(8px); } to { opacity:1; transform:translateX(-50%); } }
@@ -713,7 +715,7 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
           <Link href={path("/")} style={{ display:"flex", alignItems:"center", gap:5, padding:"5px 12px", background:"#f4f4f5", border:"1px solid #e4e4e7", color:"#52525b", borderRadius:8, fontSize:12, fontWeight:500, textDecoration:"none", flexShrink:0 }}>
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"><path d="m15 18-6-6 6-6"/></svg><T>{"홈으로"}</T></Link>
         ) : (
-          <button onClick={onClose} style={{ background:"#f4f4f5", border:"1px solid #e4e4e7", color:"#52525b", width:32, height:32, borderRadius:8, cursor:"pointer", display:"flex", alignItems:"center", justifyContent:"center", flexShrink:0 }}>
+          <button type="button" data-brand-close className="brand-sheet-close" aria-label={t("닫기")} onClick={onClose} style={{ background:"#f4f4f5", border:"1px solid #e4e4e7", color:"#52525b", width:32, height:32, borderRadius:8, cursor:"pointer", display:"flex", alignItems:"center", justifyContent:"center", flexShrink:0 }}>
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"><path d="M18 6 6 18M6 6l12 12"/></svg>
           </button>
         )}
@@ -851,7 +853,7 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
         </div>
 
         {/* ── MID: 인트로 + 변형 그리드 ── */}
-        <div className="mscroll" style={{ overflowY: isPage ? undefined : "auto", padding:"22px 24px", scrollbarWidth:"thin" }}>
+        <div className="mscroll brand-inner-main" style={{ overflowY: isPage ? undefined : "auto", padding:"22px 24px", scrollbarWidth:"thin" }}>
           <section aria-label="대표 이미지 배경" style={{marginBottom:24}}>
             <div style={{fontSize:13,fontWeight:700,marginBottom:8}}>대표 이미지</div>
             <p style={{fontSize:12,color:"#71717a",margin:"0 0 12px"}}>파일과 배경을 함께 추천해 주세요. 대표 이미지는 관리자가 최종 지정해요.</p>

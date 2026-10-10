@@ -1,6 +1,8 @@
 "use client";
 
 import Image from "next/image";
+import InAppLoginNotice from "@/components/InAppLoginNotice";
+import { loginBrowser, externalLoginUrl, safeLoginNext } from "@/lib/login-browser";
 import { signInWithPopup, signInWithRedirect, getRedirectResult } from "firebase/auth";
 import { getClientAuth, googleProvider } from "@/lib/firebase";
 import { useRouter } from "next/navigation";
@@ -11,18 +13,30 @@ export const dynamic = "force-dynamic";
 export default function LoginPage() {
   const router = useRouter();
   const [error, setError] = useState("");
-  useEffect(() => { getRedirectResult(getClientAuth()).then(result => { if (result) router.replace("/"); }).catch(() => setError("로그인을 완료하지 못했어요. 다시 시도해 주세요.")); }, [router]);
+  const [browser, setBrowser] = useState<ReturnType<typeof loginBrowser> | null>(null);
+  const [externalUrl, setExternalUrl] = useState('');
+  useEffect(() => {
+    const current = loginBrowser(navigator.userAgent);
+    setBrowser(current);
+    setExternalUrl(externalLoginUrl(window.location.href));
+    if (current.embedded) return;
+    getRedirectResult(getClientAuth()).then(result => { if (result) router.replace(safeLoginNext(new URLSearchParams(window.location.search).get("next"), "/")); }).catch(() => setError("로그인을 완료하지 못했어요. 다시 시도해 주세요.")); }, [router]);
 
   const handleGoogle = async () => {
+    if (loginBrowser(navigator.userAgent).embedded) {
+      setBrowser(loginBrowser(navigator.userAgent));
+      setExternalUrl(externalLoginUrl(window.location.href));
+      return;
+    }
     try {
       const auth = getClientAuth();
       await signInWithPopup(auth, googleProvider);
       // ?next= 가 있으면 거기로 돌아간다 (/admin 등) — 외부 값은 받지 않는다
       const next = new URLSearchParams(window.location.search).get("next");
-      router.push(next && next.startsWith("/") && !next.startsWith("//") ? next : "/");
+      router.push(safeLoginNext(next, "/"));
     } catch (e) {
       const code = e && typeof e === "object" && "code" in e ? String((e as {code?: string}).code) : "";
-      if (code === "auth/popup-blocked" || code === "auth/popup-not-supported") { await signInWithRedirect(getClientAuth(), googleProvider); return; }
+      if (code === "auth/popup-blocked" || code === "auth/popup-not-supported") { try { await signInWithRedirect(getClientAuth(), googleProvider); return; } catch { /* Show the recoverable error below. */ } }
       setError("로그인을 완료하지 못했어요. 브라우저의 팝업을 허용한 뒤 다시 시도해 주세요.");
     }
   };
@@ -37,9 +51,11 @@ export default function LoginPage() {
           </p>
         </div>
 
+        {browser && <InAppLoginNotice browser={browser} url={externalUrl} />}
         <button
+          disabled={browser?.embedded}
           onClick={handleGoogle}
-          className="w-full flex items-center justify-center gap-3 py-3 px-4 rounded-full border font-medium text-sm transition-colors hover:bg-gray-50"
+          className="w-full flex items-center justify-center gap-3 py-3 px-4 rounded-full border font-medium text-sm transition-colors hover:bg-gray-50 disabled:opacity-50 disabled:cursor-not-allowed"
           style={{ border: "1px solid var(--border)" }}
         >
           <svg width="18" height="18" viewBox="0 0 24 24">

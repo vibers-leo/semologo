@@ -142,3 +142,44 @@ body {
   }
   .catalog-logo-grid .card-preview { height: auto; min-height: 0; }
 }
+
+.brand-sheet-handle { display: none; }
+.brand-inner-dialog { min-height: 0; overflow: hidden; }
+@keyframes brandSheetIn {
+  from { transform: translateY(100%); }
+  to { transform: translateY(0); }
+}
+@media (max-width: 768px) {
+  .brand-modal-overlay { padding: 0; align-items: flex-end; }
+  .brand-modal-overlay .brand-inner-dialog {
+    width: 100%; max-width: none;
+    height: 94vh !important; height: 94dvh !important;
+    max-height: calc(100dvh - max(16px, env(safe-area-inset-top)));
+    border-radius: 20px 20px 0 0 !important;
+    border-bottom: 0 !important;
+    animation: brandSheetIn .22s ease-out !important;
+  }
+  .brand-sheet-handle { display: flex; justify-content: center; padding: 9px 0 5px; flex-shrink: 0; }
+  .brand-sheet-handle span { width: 36px; height: 4px; border-radius: 999px; background: #d4d4d8; }
+  .brand-inner-dialog .brand-inner-header { position: relative; padding: 8px 16px 12px !important; gap: 8px !important; }
+  .brand-inner-dialog .brand-inner-header > :first-child { padding-right: 44px; }
+  .brand-inner-dialog .brand-inner-header h1 { font-size: 15px !important; white-space: normal !important; overflow-wrap: anywhere; line-height: 1.35; }
+  .brand-inner-dialog .brand-sheet-close { position: absolute; top: 0; right: 10px; width: 44px !important; height: 44px !important; border-radius: 50% !important; }
+  .brand-inner-dialog .brand-inner-body {
+    display: flex !important; flex-direction: column;
+    min-height: 0; overflow-x: hidden; overscroll-behavior: contain;
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+    -webkit-overflow-scrolling: touch;
+  }
+  .brand-inner-dialog .brand-inner-body > .mscroll { flex-shrink: 0; min-width: 0; }
+  .brand-inner-dialog .brand-inner-main { order: 0; padding: 16px !important; }
+  .brand-inner-dialog .brand-inner-left { order: 1; }
+  .brand-inner-dialog .brand-inner-right { order: 2; }
+  .brand-inner-dialog .logo-composition-card { grid-template-columns: minmax(88px, 32%) minmax(0, 1fr); }
+  .brand-inner-dialog .logo-background-options button,
+  .brand-inner-dialog .logo-candidate-vote,
+  .brand-inner-dialog .logo-candidate-apply { min-height: 36px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .brand-modal-overlay .brand-inner-dialog { animation: none !important; }
+}
