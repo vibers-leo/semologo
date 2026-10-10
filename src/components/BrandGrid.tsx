@@ -330,6 +330,9 @@ export default function BrandGrid({
   return (
     <>
       <div className="catalog-with-ad">
+      <aside className="catalog-promo-rail" aria-hidden="true">
+        <div className="catalog-video-slot" data-promo-slot="youtube" />
+      </aside>
       <div className="catalog-content">
 
       {/* ── 국내/해외 필터 ── */}
