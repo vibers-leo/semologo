@@ -4,6 +4,8 @@ import { applyQualityReview } from "./logo-quality-review";
 export interface Brand {
   presentation?: { file: string; bg: "light" | "dark" };
   preview_png?: string;
+  /** Verified high-resolution symbol PNG for favicon/app previews. */
+  icon_png?: string;
   rejected_asset_files?: string[];
   /** brands-slim.json 이 싣는 추가 순서. 같은 날 추가분의 정렬 기준. */
   seq?: number;

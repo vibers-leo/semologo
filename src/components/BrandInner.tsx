@@ -304,8 +304,8 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
    * 매니페스트가 없는 브랜드만 기존 프로브 방식으로 동작한다.
    */
   const fallbackVariants = VARIANTS.map(v => {
-    const file = v.file === "logo.png" ? brand.logo_png : v.file === "logo.svg" ? brand.svg_transparent : undefined;
-    return typeof file === "string" && !file.startsWith("/") && !file.startsWith("http") ? {...v,file} : v;
+    const file = v.file === "logo.png" ? brand.logo_png : v.file === "logo.svg" ? brand.svg_transparent : v.file === "logo-icon.png" ? brand.icon_png : undefined;
+    return typeof file === "string" && !file.startsWith("/") && !file.startsWith("http") ? {...v,file, ...(v.file === "logo-icon.png" && brand.icon_png ? {desc:"1024×1024 · 파비콘·앱 아이콘용"} : {})} : v;
   }).filter(v => {
     if (brand.rejected_asset_files?.includes(v.file)) return false;
     if (v.svgOnly && !hasSvg) return false;
@@ -324,6 +324,12 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
   const isReady = (url: string) => avail[url] !== false;   // 확인 중이면 일단 보여줌
   const compositionFiles = new Set(manifest?.variants.flatMap(v => Object.values(v.files)) || []);
   const variants = gridCandidates.filter(v => isReady(cdnUrl(v.file)) && !compositionFiles.has(v.file));
+
+  const iconFile = brand.icon_png || "logo-icon.png";
+  const iconUrl = cdnUrl(iconFile);
+  const symbolVariant = manifest?.variants.find(v => (v.form === "symbol" || v.lockup === "symbol") && v.color !== "white" && v.color !== "mono-light" && (v.files.svg || v.files.png));
+  // Use only confirmed files; a failed icon probe keeps the working logo preview.
+  const usageIconUrl = brand.icon_png ? iconUrl : symbolVariant ? cdnUrl(symbolVariant.files.svg || symbolVariant.files.png!) : !brand.rejected_asset_files?.includes(iconFile) && avail[iconUrl] === true ? iconUrl : null;
 
   // 언어 탭은 unknown 이 아닌 언어가 2개 이상일 때만 의미가 있다
   const langs = manifest
@@ -812,7 +818,7 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
                 <div key={t(m.label)} style={{ display:"flex", flexDirection:"column", alignItems:"center", gap:5 }}>
                   <div style={m.style}>
                     {/* eslint-disable-next-line @next/next/no-img-element */}
-                    <img src={!presentation && bgOverride === "dark" ? (invertedUrl || darkPreviewSrc) : previewUrl} alt="" style={{ position:"absolute", inset:"10%", width:"80%", height:"80%", objectFit:"contain", objectPosition:"center" }} onError={e => { e.currentTarget.src = pngUrl; }} />
+                    <img src={m.label !== "OG 16:9" && usageIconUrl ? usageIconUrl : !presentation && bgOverride === "dark" ? (invertedUrl || darkPreviewSrc) : previewUrl} alt="" style={{ position:"absolute", inset:"10%", width:"80%", height:"80%", objectFit:"contain", objectPosition:"center" }} onError={e => { e.currentTarget.src = pngUrl; }} />
                   </div>
                   <span style={{ fontSize: 11, color:"#71717a", textAlign:"center" }}>{t(m.label)}</span>
                 </div>
