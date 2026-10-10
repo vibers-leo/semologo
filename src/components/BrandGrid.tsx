@@ -1,4 +1,5 @@
 "use client";
+import CatalogIntro from "./CatalogIntro";
 import { applyPresentation, type LogoPresentation } from "@/lib/logo-presentation";
 import CardLogo from "./CardLogo";
 import { logoPngCandidates, logoImageCandidates } from "@/lib/logo-png-source";
@@ -334,6 +335,7 @@ export default function BrandGrid({
         <div className="catalog-video-slot" data-promo-slot="youtube" />
       </aside>
       <div className="catalog-content">
+      <CatalogIntro />
 
       {/* ── 국내/해외 필터 ── */}
       {(originCounts.kr > 0 || originCounts.gl > 0) && (

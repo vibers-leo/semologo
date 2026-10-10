@@ -119,12 +119,12 @@ body {
 .tag-svg   { background: rgba(99,102,241,.12); color: #6366f1; }
 .tag-png   { background: rgba(34,197,94,.1);   color: #16a34a; }
 
-/* Equal desktop rails leave 60% of the catalog for logo cards. */
+/* Desktop: 10% rail + 2% gap + 76% content + 2% gap + 10% rail. */
 .catalog-with-ad { display: grid; grid-template-columns: minmax(0, 1fr); }
 .catalog-content { min-width: 0; }
 .catalog-promo-rail, .catalog-ad-rail { display: none; }
 @media (min-width: 1024px) {
-  .catalog-with-ad { grid-template-columns: minmax(0, 2fr) minmax(0, 6fr) minmax(0, 2fr); gap: clamp(12px, 1.25vw, 24px); align-items: start; }
+  .catalog-with-ad { grid-template-columns: minmax(0, 10fr) minmax(0, 76fr) minmax(0, 10fr); column-gap: 2%; align-items: start; }
   .catalog-promo-rail, .catalog-ad-rail { display: block; min-width: 0; position: sticky; top: 112px; }
   .catalog-ad-rail { display: flex; justify-content: flex-end; }
   .catalog-video-slot { width: 100%; aspect-ratio: 16 / 9; }
@@ -185,4 +185,11 @@ body {
 }
 @media (prefers-reduced-motion: reduce) {
   .brand-modal-overlay .brand-inner-dialog { animation: none !important; }
+}
+
+@media (min-width: 1024px) {
+  .catalog-logo-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+}
+@media (min-width: 1280px) {
+  .catalog-logo-grid { grid-template-columns: repeat(6, minmax(0, 1fr)); }
 }

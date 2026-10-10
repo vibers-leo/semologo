@@ -1,4 +1,3 @@
-import CatalogIntro from "@/components/CatalogIntro";
 import Header from "@/components/Header";
 import { fetchBrandsSlim, fetchCatalogStats, sortForGrid, type Brand } from "@/lib/brands";
 import BrandGrid from "@/components/BrandGrid";
@@ -30,11 +29,10 @@ export default async function Home() {
     <div className="min-h-screen" style={{ background: "var(--bg)" }}>
       <Header />
       {/* 헤더 하단·본문 상단 — Vibers 광고 서버(디어스 캠페인) */}
-      <div className="mx-auto w-[90%] pt-3">
+      <div className="mx-auto w-[80%] pt-3">
         <VibersAdSlot slot="home_top" />
       </div>
       <main className="w-full px-4 pb-20">
-        <CatalogIntro />
         <BrandGrid initialBrands={initialBrands} initialCatalogStats={initialCatalogStats} />
       </main>
     </div>
