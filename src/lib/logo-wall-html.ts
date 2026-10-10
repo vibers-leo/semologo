@@ -18,7 +18,7 @@ export function logoWallHtml(title: string, settings: Settings, logos: Logo[]): 
     if (!/^logos\/[\w가-힣-]+\.png$/.test(logo.file)) throw new Error('unsafe logo file');
     const name = escape(String(logo.name || logo.id));
     const background = wallCardBackground(layout, logo.light, logo.cardBackground);
-    return `<div class="tile" style="background:${background}"><img style="max-width:${100/(Math.max(50,Math.min(150,logo.scale || 100))/100)}%;max-height:${(height+48)/(Math.max(50,Math.min(150,logo.scale || 100))/100)}px;transform:scale(${Math.max(50,Math.min(150,logo.scale || 100))/100})" src="${escape(logo.file)}" alt="${decorative ? '' : name}" draggable="false">${!layout.showNames ? '' : `<span style="color:${background === '#18181b' ? '#a1a1aa' : '#71717a'}">${name}</span>`}</div>`;
+    return `<div class="tile" style="background:${background}"><img style="max-width:${100/(Math.max(50,Math.min(200,logo.scale || 100))/100)}%;max-height:${(height+48)/(Math.max(50,Math.min(200,logo.scale || 100))/100)}px;transform:scale(${Math.max(50,Math.min(200,logo.scale || 100))/100})" src="${escape(logo.file)}" alt="${decorative ? '' : name}" draggable="false">${!layout.showNames ? '' : `<span style="color:${background === '#18181b' ? '#a1a1aa' : '#71717a'}">${name}</span>`}</div>`;
   };
   let content: string;
   if (motion === 'static') content = `<div class="grid">${logos.map(l => tile(l)).join('')}</div>`;

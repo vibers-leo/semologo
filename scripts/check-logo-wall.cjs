@@ -85,8 +85,11 @@ async function main(){
  assert.equal((await handler.POST(req({...variantsBody,items:[variantsBody.items[0],variantsBody.items[0]]}))).status,400);
  assert.equal((await handler.POST(req({...variantsBody,items:[{brandId:'rainbowrobotics',variantKey:'missing'}]}))).status,400);
  assert.equal((await handler.POST(req({...variantsBody,items:[{brandId:'rainbowrobotics',scale:999}]}))).status,400);
+ assert.equal((await handler.POST(req({...variantsBody,items:[{brandId:'rainbowrobotics',variantKey:white.variantKey,scale:200}]}))).status,201);assert.equal(storedSnapshot.scale,200);
+ assert.equal((await handler.POST(req({...variantsBody,items:[{brandId:'rainbowrobotics',scale:201}]}))).status,400);
  const pinned=logoWallAsset('rainbowrobotics',{},storedSnapshot);assert.equal(pinned.preview_png,storedSnapshot.preview_png);assert.equal(pinned.light,true);
  const scaled=logoWallHtml('scale',{cardBackground:'white'},[{id:'test',file:'logos/001-test.png',scale:125,cardBackground:'dark'}]);assert(scaled.includes('transform:scale(1.25)'));assert(scaled.includes('background:#18181b'));
+ assert(logoWallHtml('scale 200',{},[{id:'test',file:'logos/001-test.png',scale:200}]).includes('transform:scale(2)'));
  const exporter=load('src/app/api/logo-walls/export/route.ts');
  exportWall={id:'test-wall',title:'export',version:1,settings:layout,items:[{brand_id:'test-brand',snapshot:{name:'test',logo_png:'https://cdn.example/_clients/test-brand/logo.png',light:false}}]};
  assert.equal((await exporter.GET(new Request('https://example.test/?id=test-wall'))).status,200);assert(fetched[0].includes('/logo.png'));

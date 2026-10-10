@@ -95,7 +95,7 @@ export default function LogoWallEditor() {
   const dirty = fingerprint !== (saved || JSON.stringify({ title: '새 로고월', ids: [], layout: defaultLayout }));
   const canSwitch = () => !dirty || window.confirm('저장하지 않은 변경사항이 있어요. 다른 로고월로 이동할까요?');
   const reset = () => { setPresentation(false); setPaused(false); setFocused(null); setCurrent(null); setTitle('새 로고월'); setSelected([]); setLayout(defaultLayout); setSaved(''); setMessage(''); };
-  function setLogoScale(key: string, scale: number) { setSelected(s => s.map(b => wallLogoKey(b) === key ? { ...b, scale: Math.max(50, Math.min(150, Math.round(scale))) } : b)); }
+  function setLogoScale(key: string, scale: number) { setSelected(s => s.map(b => wallLogoKey(b) === key ? { ...b, scale: Math.max(50, Math.min(200, Math.round(scale))) } : b)); }
   function startResize(e: PointerEvent<HTMLElement>, b: WallLogo) {
     e.stopPropagation(); if (busy || !e.isPrimary || e.button !== 0) return;
     const key = wallLogoKey(b); setFocused(key); setDragging(key);
@@ -130,7 +130,7 @@ export default function LogoWallEditor() {
         const availableH = logoWallMetrics.logoSize[layout.logoSize];
         const fit = Math.min(availableW/img.naturalWidth, availableH/img.naturalHeight);
         const visibleW = (right-left)/w * img.naturalWidth * fit, visibleH = (bottom-top)/h * img.naturalHeight * fit;
-        return { b, area: visibleW*visibleH, maxScale: Math.min(150, availableW/visibleW*100, (availableH+24)/visibleH*100) };
+        return { b, area: visibleW*visibleH, maxScale: Math.min(200, availableW/visibleW*100, (availableH+24)/visibleH*100) };
       }));
       const areas = measured.filter(m => m.area > 0).map(m => m.area).sort((a,b)=>a-b);
       const target = areas[Math.floor(areas.length/2)] || 0;
@@ -315,7 +315,7 @@ export default function LogoWallEditor() {
             <button disabled={busy || !selected.length} onClick={() => void autoFit()}>✦ 크기 자동 맞춤</button>
             <span>카드를 끌어 배치하고, 선택한 로고의 모서리를 끌어 크기를 조절해요.</span>
           </div>
-          {!presentation && focused && selected.some(b => wallLogoKey(b) === focused) && (() => { const b = selected.find(b => wallLogoKey(b) === focused)!; return <div className={styles.inspector} aria-label="선택한 로고 설정"><strong>{b.name_ko}{b.variantLabel ? ` · ${b.variantLabel}` : ''}</strong><label>로고 크기 <input aria-label="선택한 로고 크기" disabled={busy} type="range" min="50" max="150" value={b.scale || 100} onChange={e => setLogoScale(focused, Number(e.target.value))} /><output>{b.scale || 100}%</output></label><label>카드 배경 <select aria-label="선택한 카드 배경" disabled={busy} value={b.cardBackground || 'inherit'} onChange={e => setCardBackground(focused,e.target.value as CardBackground)}><option value="inherit">전체 설정</option><option value="white">흰색</option><option value="light">연회색</option><option value="dark">검정</option></select></label><button disabled={busy} onClick={() => setLogoScale(focused,100)}>크기 초기화</button><button disabled={busy} onClick={() => { setSelected(s=>s.filter(v=>wallLogoKey(v)!==focused));setFocused(null); }}>제거</button></div>; })()}
+          {!presentation && focused && selected.some(b => wallLogoKey(b) === focused) && (() => { const b = selected.find(b => wallLogoKey(b) === focused)!; return <div className={styles.inspector} aria-label="선택한 로고 설정"><strong>{b.name_ko}{b.variantLabel ? ` · ${b.variantLabel}` : ''}</strong><label>로고 크기 <input aria-label="선택한 로고 크기" disabled={busy} type="range" min="50" max="200" value={b.scale || 100} onChange={e => setLogoScale(focused, Number(e.target.value))} /><output>{b.scale || 100}%</output></label><label>카드 배경 <select aria-label="선택한 카드 배경" disabled={busy} value={b.cardBackground || 'inherit'} onChange={e => setCardBackground(focused,e.target.value as CardBackground)}><option value="inherit">전체 설정</option><option value="white">흰색</option><option value="light">연회색</option><option value="dark">검정</option></select></label><button disabled={busy} onClick={() => setLogoScale(focused,100)}>크기 초기화</button><button disabled={busy} onClick={() => { setSelected(s=>s.filter(v=>wallLogoKey(v)!==focused));setFocused(null); }}>제거</button></div>; })()}
           {selected.length > 0 && layout.motion !== 'static' && <section aria-label="움직임 미리보기">
             <div className={styles.sectionTitle}><h2>움직임 미리보기</h2><button onClick={() => setPaused(p => !p)} aria-pressed={paused}>{paused ? '재생하기' : '일시정지'}</button></div>
             <div className={styles.motionStage} data-logo-wall data-appearance={layout.appearance} style={{ background: wallStageBackground(layout) }}>
