@@ -17,7 +17,7 @@ def page(source,n,name):
  r=E.parse(str(f)).getroot()
  for i,e in enumerate(r):
   if E.QName(e).localname!='defs':e.set('id','top'+str(i))
- 
+
  for i,e in enumerate(r.iter()):
   if not e.get('id'):e.set('id','node'+str(i))
  E.ElementTree(r).write(str(f));q=subprocess.check_output(['inkscape','--query-all',str(f)],text=True);(OUT/(name+'-bounds.csv')).write_text(q)
