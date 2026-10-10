@@ -13,6 +13,25 @@
       "hidden_reason": "사용자 제공 공식 AI에서 추출한 고해상도 자산을 대표 콘텐츠로 통합"
     },
     "dangjin": {
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": "sources/user-identities-20261010/f9cd35abfdd4bfc5.svg",
+      "svg_transparent": "sources/user-identities-20261010/f9cd35abfdd4bfc5.svg",
+      "logo_png": "sources/user-identities-20261010/3ec954a7f27e4d3f.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/dangjin/sources/user-identities-20261010/3ec954a7f27e4d3f.png",
+      "light": false,
+      "light_logo": false,
+      "dark_variant": false,
+      "variants_n": 4,
+      "asset_review_status": "verified",
+      "rejected_asset_files": [
+        "logo-icon.png",
+        "logo-800.png",
+        "logo-transparent.png",
+        "logo-white.png"
+      ],
+      "icon_png": "sources/user-identities-20261010/8e4e929724c7996e.png",
+      "source_zip": "sources/user-identities-20261010/3344adde2a3812d1.zip",
       "presentation": {
         "file": "sources/user-identities-20261010/3ec954a7f27e4d3f.png",
         "bg": "light"
@@ -34,6 +53,29 @@
       "hidden_reason": "사용자 제공 공식 AI에서 추출한 고해상도 자산을 대표 콘텐츠로 통합"
     },
     "south-chungcheong": {
+      "name_ko": "충청남도",
+      "name_en": "Chungcheongnam-do",
+      "origin": "KR",
+      "category": "공공·기관",
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": "sources/user-identities-20261010/2f0286bd133606f0.svg",
+      "svg_transparent": "sources/user-identities-20261010/2f0286bd133606f0.svg",
+      "logo_png": "sources/user-identities-20261010/8a7d574ff216e129.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/south-chungcheong/sources/user-identities-20261010/8a7d574ff216e129.png",
+      "light": false,
+      "light_logo": false,
+      "dark_variant": false,
+      "asset_review_status": "verified",
+      "variants_n": 27,
+      "rejected_asset_files": [
+        "logo-icon.png",
+        "logo-800.png",
+        "logo-transparent.png",
+        "logo-white.png"
+      ],
+      "icon_png": "sources/user-identities-20261010/b5def74541772be7.png",
+      "source_zip": "sources/user-identities-20261010/da28a6855d128b19.zip",
       "presentation": {
         "file": "sources/user-identities-20261010/8a7d574ff216e129.png",
         "bg": "light"
