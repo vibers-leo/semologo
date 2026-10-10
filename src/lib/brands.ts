@@ -245,7 +245,7 @@ export async function getBrandMap(): Promise<Map<string, Brand>> {
 
 // ── 로고 변형 매니페스트 ─────────────────────────────────────────────────────
 
-export type VariantForm = "symbol" | "horizontal" | "vertical" | "wordmark" | "emblem" | "typography" | "mascot" | "unknown";
+export type VariantForm = "lettermark" | "symbol" | "horizontal" | "vertical" | "wordmark" | "emblem" | "typography" | "mascot" | "unknown";
 
 export interface VariantRecord {
   key: string;
@@ -260,7 +260,9 @@ export interface VariantRecord {
   order: number;
   asset_group?: "emblem" | "logotype" | "symbol" | "typography" | "mascot";
   /** Verified symbol/text arrangement; independent of canvas aspect ratio. */
-  lockup?: "horizontal" | "vertical" | "symbol" | "wordmark" | "unknown";
+  lockup?: "lettermark" | "horizontal" | "vertical" | "symbol" | "wordmark" | "unknown";
+  /** Mark used independently or inside a composition. */
+  mark_type?: "symbol" | "lettermark" | "wordmark";
   /** Language arrangement inside the text portion of the logo. */
   text_layout?: "ko" | "en" | "ko-en-horizontal" | "ko-en-vertical" | "none" | "unknown";
   source_url?: string;

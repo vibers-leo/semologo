@@ -12,3 +12,6 @@ assert.equal(logoVariantForm({ form: 'vertical' }), 'vertical');
 assert.equal(logoVariantLabel({ form: 'horizontal', label: '가로조합형', text_layout: 'ko-en-horizontal' }), '국영문 좌우조합 · 가로조합형');
 assert.equal(logoVariantLabel({ form: 'symbol', label: '심볼마크', text_layout: 'none' }), '심볼마크');
 console.log('PASS: reviewed lockup overrides legacy form; text arrangement and official labels survive.');
+
+assert.equal(logoVariantLabel({form:'horizontal',lockup:'horizontal',text_layout:'ko-en-vertical',mark_type:'symbol',label:'국영문 좌우조합 · 심볼마크'}),'국영문 좌우조합 · 심볼마크');
+assert.equal(logoVariantLabel({form:'lettermark',label:'레터마크',text_layout:'en'}),'레터마크');

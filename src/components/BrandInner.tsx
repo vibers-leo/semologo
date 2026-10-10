@@ -9,7 +9,7 @@ import { Brand, fetchVariants, type VariantManifest, type VariantRecord } from "
 import { BRAND_RELATIONS, RELATION_LABEL, RELATION_COLOR } from "@/lib/brand-relations";
 import { getClientAuth, getClientDb } from "@/lib/firebase";
 import LogoVersionHistory from "./LogoVersionHistory";
-import { logoVariantForm, logoVariantLabel, logoFormLabels } from "@/lib/logo-variant-label";
+import { logoVariantLabel } from "@/lib/logo-variant-label";
 import CoupangSlot from "./CoupangSlot";
 
 const SITE_URL = "https://semologo.com";
@@ -323,15 +323,9 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
   const isReady = (url: string) => avail[url] !== false;   // 확인 중이면 일단 보여줌
   const variants = gridCandidates.filter(v => isReady(cdnUrl(v.file)));
 
-  /** 매니페스트 변형을 형태별 섹션으로 묶는다 (대표 → 가로 → 세로 → 심볼 → 워드마크) */
-  const sections = manifest
-    ? Object.entries(
-        manifest.variants.reduce<Record<string, VariantRecord[]>>((acc, v) => {
-          const group = v.lockup && v.lockup !== "unknown" ? logoFormLabels[logoVariantForm(v)] : v.asset_group ? ({ emblem: "엠블럼", logotype: "로고타입", symbol: "심볼마크", typography: "타이포그래피 안내", mascot: "마스코트" }[v.asset_group]) : v.label;
-          (acc[group] ||= []).push(v);
-          return acc;
-        }, {})
-      ).sort((a, b) => (a[1][0].order ?? 99) - (b[1][0].order ?? 99))
+  // One continuous gallery lets users compare compositions side by side.
+  const sections: [string, VariantRecord[]][] = manifest
+    ? [["전체 구성", manifest.variants]]
     : [];
 
   const mainCandidates = Array.from(new Map([
@@ -564,7 +558,7 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
   /* ─────────── 레이아웃 스타일 ─────────── */
   const containerStyle: React.CSSProperties = isPage
     ? { width: "100%", maxWidth: 1400, margin: "0 auto", display: "flex", flexDirection: "column", background: "#ffffff" }
-    : { position: "relative", display: "flex", flexDirection: "column", width: "90vw", maxWidth: 1400, height: "90vh", background: "#ffffff", border: "1px solid #e4e4e7", borderRadius: 20, boxShadow: "0 24px 80px rgba(0,0,0,.15)", animation: "modalIn .18s ease" };
+    : { position: "relative", display: "flex", flexDirection: "column", width: "96vw", maxWidth: 1600, height: "90vh", background: "#ffffff", border: "1px solid #e4e4e7", borderRadius: 20, boxShadow: "0 24px 80px rgba(0,0,0,.15)", animation: "modalIn .18s ease" };
 
   const darkPreviewSrc = presentation ? previewUrl : brand.dark_png ? whiteUrl : hasWhiteLogo && visibility?.darkMode !== "white-only"
     ? whiteUrl
@@ -581,6 +575,8 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
         .mscroll::-webkit-scrollbar-thumb:hover { background:#a1a1aa; }
         .vbtn:hover { border-color:#6366f1 !important; color:#6366f1 !important; }
         .dlrow:hover { border-color:#6366f1 !important; }
+        .logo-composition-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:12px; }
+        @media (max-width: 1000px) { .logo-composition-grid { grid-template-columns:1fr; } }
         .sharebtn:hover { border-color:#6366f1 !important; color:#6366f1 !important; }
         @media (max-width: 768px) {
           .brand-inner-body { grid-template-columns: 1fr !important; }
@@ -745,7 +741,7 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
           flex: isPage ? undefined : 1,
           overflow: isPage ? undefined : "hidden",
           display: "grid",
-          gridTemplateColumns: "220px 1fr 300px",
+          gridTemplateColumns: "200px minmax(0,1fr) 270px",
         }}
       >
         {/* ── LEFT: 미리보기 + 형식 + 빠른다운 ── */}
@@ -874,9 +870,9 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
           {sections.length > 0 && (
             <div style={{ marginBottom: 28 }}>
               <div style={{ display:"flex", alignItems:"center", justifyContent:"space-between", marginBottom:12 }}>
-                <div style={{ fontSize:13, fontWeight:700, color:"#3f3f46" }}><T>{"로고 변형"}</T>{" "}
+                <div style={{ fontSize:13, fontWeight:700, color:"#3f3f46" }}><T>{"로고 구성"}</T>{" "}
                   <span style={{ fontSize:11, fontWeight:400, color:"#71717a" }}>
-                    {manifest!.variants.length}<T>{"종 · SVG·PNG 각각 받기"}</T></span>
+                    {manifest!.variants.length}<T>{"종 · 원하는 구성을 골라 받으세요"}</T></span>
                 </div>
                 {langs.length >= 2 && (
                   <div style={{ display:"flex", gap:4 }}>
@@ -893,6 +889,7 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
                 )}
               </div>
 
+              <p style={{fontSize:12,color:"#71717a",margin:"0 0 16px"}}>심볼·레터마크·언어별 조합을 비교하고, 필요한 파일을 받아보세요.</p>
               {sections.map(([label, items]) => {
                 const shown = langFilter
                   ? items.filter(v => v.lang === langFilter || v.lang === "none")
@@ -906,26 +903,20 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
                       <span style={{ marginLeft:6, fontWeight:400, color:"#a1a1aa" }}>{shown.length}<T>{"종"}</T></span>
                     </div>
                     {items[0].asset_group === "typography" && <p style={{fontSize:11,color:"#71717a",marginBottom:6}}>공식 서체 안내 이미지예요. 설치용 폰트 파일은 포함하지 않아요.</p>}
-                    {/* 가로 행 리스트.
-                        예전엔 minmax(170px,1fr) 카드 그리드였는데, 모달 가운데 폭이
-                        좁아서 한 줄에 한 장씩만 들어가 세로로 길어졌고, 그 아래
-                        '가공 파일' 이 화면 밖으로 밀려났다. 행으로 바꾸면 줄바꿈이
-                        없어 항목 수와 무관하게 목록 전체가 보인다. 모바일도 같다. */}
-                    <div style={{ display:"flex", flexDirection:"column", gap:6 }}>
+                    <div className="logo-composition-grid">
                       {shown.map(v => {
                         const svgFile = v.files.svg;
                         const pngFile = v.files.png;
-                        const previewUrl = cdnUrl(pngFile || "logo.png");
+                        const previewUrl = cdnUrl(pngFile || svgFile || "logo.png");
                         return (
-                          <div key={v.key} style={{ display:"flex", alignItems:"center", gap:10,
-                            background:"#fafafa", border:"1px solid #e4e4e7", borderRadius:8,
-                            padding:"7px 9px" }}>
-                            <div style={{ position:"relative", width:56, height:38, flexShrink:0,
-                              borderRadius:5, overflow:"hidden", ...variantTile(v) }}>
+                          <div key={v.key} style={{ display:"flex", flexDirection:"column", minWidth:0,
+                            background:"#fff", border:"1px solid #e4e4e7", borderRadius:12, overflow:"hidden" }}>
+                            <div style={{ position:"relative", width:"100%", height:160, flexShrink:0,
+                              borderBottom:"1px solid #eee", overflow:"hidden", ...variantTile(v) }}>
                               {/* eslint-disable-next-line @next/next/no-img-element */}
                               <img src={previewUrl} alt={t(logoVariantLabel(v))}
-                                style={{ position:"absolute", inset:4, width:"calc(100% - 8px)",
-                                  height:"calc(100% - 8px)", objectFit:"contain" }}
+                                style={{ position:"absolute", inset:20, width:"calc(100% - 40px)",
+                                  height:"calc(100% - 40px)", objectFit:"contain" }}
                                 onError={e => {
                                   // 일부 대량 수집분은 SVG가 Pages에는 있지만 CDN 업로드가 늦을 수 있다.
                                   // 같은 변형의 PNG가 있으면 숨기지 말고 즉시 폴백한다.
@@ -933,10 +924,10 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
                                   else e.currentTarget.style.display = "none";
                                 }} />
                             </div>
-                            <div style={{ flex:1, minWidth:0 }}>
-                              <div style={{ fontSize:11.5, fontWeight:600, color:"#3f3f46",
-                                display:"flex", alignItems:"center", gap:5 }}>
-                                <span style={{ overflow:"hidden", textOverflow:"ellipsis", whiteSpace:"nowrap" }}>
+                            <div style={{ flex:1, minWidth:0, padding:"12px 14px 8px" }}>
+                              <div style={{ fontSize:12, fontWeight:600, color:"#3f3f46",
+                                display:"flex", alignItems:"center", flexWrap:"wrap", gap:5 }}>
+                                <span>
                                   {t(logoVariantLabel(v))}
                                 </span>
                                 {v.origin === "derived" && (
@@ -951,17 +942,17 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
                                 {v.alts?.length ? ` · 소스 ${v.alts.length + 1}종` : ""}
                               </div>
                             </div>
-                            <div style={{ display:"flex", gap:5, flexShrink:0 }}>
+                            <div style={{ display:"flex", gap:8, padding:"4px 14px 14px", flexShrink:0 }}>
                               {svgFile && (
                                 <button onClick={() => grab(cdnUrl(svgFile), `${brand.id}-${v.key}.svg`)}
-                                  style={{ fontSize:11, padding:"5px 11px", borderRadius:6, border:"none",
+                                  style={{ fontSize:12, padding:"8px 16px", borderRadius:7, border:"none",
                                     background:"#6366f1", color:"#fff", cursor:"pointer", fontWeight:500 }}>
                                   SVG
                                 </button>
                               )}
                               {pngFile && (
                                 <button onClick={() => grab(cdnUrl(pngFile), `${brand.id}-${v.key}.png`)}
-                                  style={{ fontSize:11, padding:"5px 11px", borderRadius:6,
+                                  style={{ fontSize:12, padding:"8px 16px", borderRadius:7,
                                     border:"1px solid #e4e4e7", background:"#fff", color:"#52525b",
                                     cursor:"pointer", fontWeight:500 }}>
                                   PNG
@@ -981,9 +972,9 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
           {/* 변형 그리드 */}
           <div style={{ display:"flex", alignItems:"center", justifyContent:"space-between", marginBottom:14 }}>
             <div style={{ fontSize:13, fontWeight:700, color:"#3f3f46" }}>
-              {manifest ? t("가공 파일") : t("파일 다운로드")}{" "}
+              {manifest ? t("다운로드 파일") : t("파일 다운로드")}{" "}
               <span style={{ fontSize:11, fontWeight:400, color:"#71717a" }}>
-                {manifest ? t("파비콘 · 투명 배경 · 고해상도") : t("메인 로고 기준")}
+                {manifest ? t("대표 로고의 용도별 파일") : t("메인 로고 기준")}
               </span>
             </div>
             <span style={{ fontSize: 11, color:"#a1a1aa" }}><T>{"👍 추천 · 🔄 교체 요청"}</T></span>

@@ -1024,10 +1024,10 @@
       "name_ko": "고래문화재단",
       "has_svg": true,
       "has_png": true,
-      "logo_svg": "sources/lockup-reviewed-20261010/32dc9a6198b3d17b.svg",
-      "svg_transparent": "sources/lockup-reviewed-20261010/32dc9a6198b3d17b.svg",
-      "logo_png": "sources/lockup-reviewed-20261010/32dc9a6198b3d17b.png",
-      "preview_png": "https://logo.vibers.co.kr/_clients/gongu-ci-0895/sources/lockup-reviewed-20261010/32dc9a6198b3d17b.png",
+      "logo_svg": "sources/lockup-reviewed-20261010/ae69be0de27f018b.svg",
+      "svg_transparent": "sources/lockup-reviewed-20261010/ae69be0de27f018b.svg",
+      "logo_png": "sources/lockup-reviewed-20261010/ae69be0de27f018b.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/gongu-ci-0895/sources/lockup-reviewed-20261010/ae69be0de27f018b.png",
       "light": false,
       "light_logo": false,
       "dark_variant": false,
@@ -1046,7 +1046,7 @@
       ],
       "brand_manual": "sources/lockup-reviewed-20261010/d7c3c47818a22f82.ai",
       "presentation": {
-        "file": "sources/lockup-reviewed-20261010/32dc9a6198b3d17b.png",
+        "file": "sources/lockup-reviewed-20261010/ae69be0de27f018b.png",
         "bg": "light"
       }
     },
@@ -2669,77 +2669,225 @@
     },
     "gongu-ci-0895": {
       "schema": 1,
-      "algo_v": 2,
+      "algo_v": 3,
       "id": "gongu-ci-0895",
-      "primary": "symbol-color",
+      "primary": "symbol-bilingual-vertical",
       "variants": [
         {
-          "key": "symbol-color",
+          "key": "symbol",
           "form": "symbol",
           "lockup": "symbol",
           "text_layout": "none",
           "asset_group": "symbol",
           "lang": "none",
           "color": "original",
-          "label": "심볼마크 · 컬러",
+          "label": "심볼마크",
           "files": {
-            "svg": "sources/lockup-reviewed-20261010/32dc9a6198b3d17b.svg",
-            "png": "sources/lockup-reviewed-20261010/32dc9a6198b3d17b.png"
+            "svg": "sources/lockup-reviewed-20261010/247f75c25fdeb6b6.svg",
+            "png": "sources/lockup-reviewed-20261010/247f75c25fdeb6b6.png"
           },
-          "provider": "기관 공식 CI 원본 · 개별 도형 범위 검수",
+          "provider": "고래문화재단 공식 CI 매뉴얼 · 개별 조합 검수",
           "origin": "derived",
-          "order": 0
+          "order": 0,
+          "mark_type": "symbol"
         },
         {
-          "key": "symbol-outline",
-          "form": "symbol",
-          "lockup": "symbol",
-          "text_layout": "none",
-          "asset_group": "symbol",
-          "lang": "none",
-          "color": "outline",
-          "label": "심볼마크 · 윤곽형",
+          "key": "lettermark",
+          "form": "lettermark",
+          "lockup": "lettermark",
+          "text_layout": "en",
+          "asset_group": "logotype",
+          "lang": "en",
+          "color": "original",
+          "label": "레터마크",
           "files": {
-            "svg": "sources/lockup-reviewed-20261010/905309a7c7220fdc.svg",
-            "png": "sources/lockup-reviewed-20261010/905309a7c7220fdc.png"
+            "svg": "sources/lockup-reviewed-20261010/a64118bd894b3c8b.svg",
+            "png": "sources/lockup-reviewed-20261010/a64118bd894b3c8b.png"
           },
-          "provider": "기관 공식 CI 원본 · 개별 도형 범위 검수",
+          "provider": "고래문화재단 공식 CI 매뉴얼 · 개별 조합 검수",
           "origin": "derived",
-          "order": 1
+          "order": 1,
+          "mark_type": "lettermark"
         },
         {
-          "key": "wordmark-color",
+          "key": "wordmark-ko",
+          "form": "wordmark",
+          "lockup": "wordmark",
+          "text_layout": "ko",
+          "asset_group": "logotype",
+          "lang": "ko",
+          "color": "original",
+          "label": "국문 로고타입",
+          "files": {
+            "svg": "sources/lockup-reviewed-20261010/2a4dd686d7d16f8d.svg",
+            "png": "sources/lockup-reviewed-20261010/2a4dd686d7d16f8d.png"
+          },
+          "provider": "고래문화재단 공식 CI 매뉴얼 · 개별 조합 검수",
+          "origin": "derived",
+          "order": 2,
+          "mark_type": "wordmark"
+        },
+        {
+          "key": "wordmark-en",
           "form": "wordmark",
           "lockup": "wordmark",
           "text_layout": "en",
           "asset_group": "logotype",
           "lang": "en",
           "color": "original",
-          "label": "레터마크 · 컬러",
+          "label": "영문 로고타입",
           "files": {
-            "svg": "sources/lockup-reviewed-20261010/44e605c749c44330.svg",
-            "png": "sources/lockup-reviewed-20261010/44e605c749c44330.png"
+            "svg": "sources/lockup-reviewed-20261010/c838426f78665f1d.svg",
+            "png": "sources/lockup-reviewed-20261010/c838426f78665f1d.png"
           },
-          "provider": "기관 공식 CI 원본 · 개별 도형 범위 검수",
+          "provider": "고래문화재단 공식 CI 매뉴얼 · 개별 조합 검수",
           "origin": "derived",
-          "order": 2
+          "order": 3,
+          "mark_type": "wordmark"
         },
         {
-          "key": "wordmark-outline",
-          "form": "wordmark",
-          "lockup": "wordmark",
+          "key": "symbol-ko-horizontal",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "text_layout": "ko",
+          "asset_group": "logotype",
+          "lang": "ko",
+          "color": "original",
+          "label": "국문 좌우조합 · 심볼마크",
+          "files": {
+            "svg": "sources/lockup-reviewed-20261010/8ffab5f67e70a5f6.svg",
+            "png": "sources/lockup-reviewed-20261010/8ffab5f67e70a5f6.png"
+          },
+          "provider": "고래문화재단 공식 CI 매뉴얼 · 개별 조합 검수",
+          "origin": "derived",
+          "order": 4,
+          "mark_type": "symbol"
+        },
+        {
+          "key": "letter-ko-horizontal",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "text_layout": "ko",
+          "asset_group": "logotype",
+          "lang": "ko",
+          "color": "original",
+          "label": "국문 좌우조합 · 레터마크",
+          "files": {
+            "svg": "sources/lockup-reviewed-20261010/241288dc56812577.svg",
+            "png": "sources/lockup-reviewed-20261010/241288dc56812577.png"
+          },
+          "provider": "고래문화재단 공식 CI 매뉴얼 · 개별 조합 검수",
+          "origin": "derived",
+          "order": 5,
+          "mark_type": "lettermark"
+        },
+        {
+          "key": "symbol-en-horizontal",
+          "form": "horizontal",
+          "lockup": "horizontal",
           "text_layout": "en",
           "asset_group": "logotype",
           "lang": "en",
-          "color": "outline",
-          "label": "레터마크 · 윤곽형",
+          "color": "original",
+          "label": "영문 좌우조합 · 심볼마크",
           "files": {
-            "svg": "sources/lockup-reviewed-20261010/9157efc6775d9fa8.svg",
-            "png": "sources/lockup-reviewed-20261010/9157efc6775d9fa8.png"
+            "svg": "sources/lockup-reviewed-20261010/fb74aef57c047bbc.svg",
+            "png": "sources/lockup-reviewed-20261010/fb74aef57c047bbc.png"
           },
-          "provider": "기관 공식 CI 원본 · 개별 도형 범위 검수",
+          "provider": "고래문화재단 공식 CI 매뉴얼 · 개별 조합 검수",
           "origin": "derived",
-          "order": 3
+          "order": 6,
+          "mark_type": "symbol"
+        },
+        {
+          "key": "letter-en-horizontal",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "text_layout": "en",
+          "asset_group": "logotype",
+          "lang": "en",
+          "color": "original",
+          "label": "영문 좌우조합 · 레터마크",
+          "files": {
+            "svg": "sources/lockup-reviewed-20261010/f45f7c53244b48f5.svg",
+            "png": "sources/lockup-reviewed-20261010/f45f7c53244b48f5.png"
+          },
+          "provider": "고래문화재단 공식 CI 매뉴얼 · 개별 조합 검수",
+          "origin": "derived",
+          "order": 7,
+          "mark_type": "lettermark"
+        },
+        {
+          "key": "symbol-bilingual-horizontal",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "text_layout": "ko-en-vertical",
+          "asset_group": "logotype",
+          "lang": "ko",
+          "color": "original",
+          "label": "국영문 좌우조합 · 심볼마크",
+          "files": {
+            "svg": "sources/lockup-reviewed-20261010/69ca3bec6fd1306a.svg",
+            "png": "sources/lockup-reviewed-20261010/69ca3bec6fd1306a.png"
+          },
+          "provider": "고래문화재단 공식 CI 매뉴얼 · 개별 조합 검수",
+          "origin": "derived",
+          "order": 8,
+          "mark_type": "symbol"
+        },
+        {
+          "key": "letter-bilingual-horizontal",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "text_layout": "ko-en-vertical",
+          "asset_group": "logotype",
+          "lang": "ko",
+          "color": "original",
+          "label": "국영문 좌우조합 · 레터마크",
+          "files": {
+            "svg": "sources/lockup-reviewed-20261010/6ebed7a301340b95.svg",
+            "png": "sources/lockup-reviewed-20261010/6ebed7a301340b95.png"
+          },
+          "provider": "고래문화재단 공식 CI 매뉴얼 · 개별 조합 검수",
+          "origin": "derived",
+          "order": 9,
+          "mark_type": "lettermark"
+        },
+        {
+          "key": "symbol-bilingual-vertical",
+          "form": "vertical",
+          "lockup": "vertical",
+          "text_layout": "ko-en-vertical",
+          "asset_group": "logotype",
+          "lang": "ko",
+          "color": "original",
+          "label": "국영문 상하조합 · 심볼마크",
+          "files": {
+            "svg": "sources/lockup-reviewed-20261010/ae69be0de27f018b.svg",
+            "png": "sources/lockup-reviewed-20261010/ae69be0de27f018b.png"
+          },
+          "provider": "고래문화재단 공식 CI 매뉴얼 · 개별 조합 검수",
+          "origin": "derived",
+          "order": 10,
+          "mark_type": "symbol"
+        },
+        {
+          "key": "letter-bilingual-vertical",
+          "form": "vertical",
+          "lockup": "vertical",
+          "text_layout": "ko-en-vertical",
+          "asset_group": "logotype",
+          "lang": "ko",
+          "color": "original",
+          "label": "국영문 상하조합 · 레터마크",
+          "files": {
+            "svg": "sources/lockup-reviewed-20261010/64aa03d914227411.svg",
+            "png": "sources/lockup-reviewed-20261010/64aa03d914227411.png"
+          },
+          "provider": "고래문화재단 공식 CI 매뉴얼 · 개별 조합 검수",
+          "origin": "derived",
+          "order": 11,
+          "mark_type": "lettermark"
         }
       ]
     },
