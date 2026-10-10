@@ -141,9 +141,9 @@
         {
           "key": "lettermark",
           "label": "레터마크 · KEPCO",
-          "form": "wordmark",
+          "form": "lettermark",
           "lang": "en",
-          "lockup": "wordmark",
+          "lockup": "lettermark",
           "text_layout": "en",
           "color": "original",
           "files": {
