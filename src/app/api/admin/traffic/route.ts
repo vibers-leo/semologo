@@ -12,6 +12,12 @@ export async function GET(request: Request) {
     const searches = await db.query(`SELECT params->>'search_term' term,count(*)::int count FROM semologo.traffic_events WHERE event='search_submitted' AND created_at>now()-$1::int*interval '1 day' GROUP BY term ORDER BY count DESC LIMIT 20`, [days]);
     const downloads = await db.query(`SELECT params->>'brand_id' brand,count(*)::int count FROM semologo.traffic_events WHERE event='logo_downloaded' AND created_at>now()-$1::int*interval '1 day' GROUP BY brand ORDER BY count DESC LIMIT 20`, [days]);
     const count = await db.query(`SELECT count(*)::int count FROM semologo.traffic_sessions WHERE last_seen>now()-$1::int*interval '1 day'`, [days]);
-    return reply({ sessions: sessions.rows, summary: summary.rows, searches: searches.rows, downloads: downloads.rows, visitors: count.rows[0].count, days });
+    const bookmarks = await db.query(`SELECT
+      count(*) FILTER (WHERE event='bookmark_help_opened')::int help_opens,
+      count(DISTINCT session_id) FILTER (WHERE event='bookmark_help_opened')::int interested_sessions,
+      count(*) FILTER (WHERE event='bookmark_link_copied')::int link_copies,
+      count(DISTINCT session_id) FILTER (WHERE event='page_view' AND params->>'entry_source'='bookmark')::int link_visit_sessions
+      FROM semologo.traffic_events WHERE created_at>now()-$1::int*interval '1 day'`, [days]);
+    return reply({ bookmarks: bookmarks.rows[0], sessions: sessions.rows, summary: summary.rows, searches: searches.rows, downloads: downloads.rows, visitors: count.rows[0].count, days });
   } catch { return reply({ error: '접속 기록을 불러오지 못했어요. 잠시 후 다시 시도해 주세요.' }, 503); }
 }

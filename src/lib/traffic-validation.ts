@@ -1,4 +1,4 @@
-export const TRAFFIC_EVENTS = ['page_view', 'search_submitted', 'search_no_result', 'brand_opened', 'logo_downloaded'] as const;
+export const TRAFFIC_EVENTS = ['page_view', 'search_submitted', 'search_no_result', 'brand_opened', 'logo_downloaded', 'bookmark_help_opened', 'bookmark_link_copied'] as const;
 const clean = (value: unknown, max = 160) => typeof value === 'string' ? value.replace(/[\u0000-\u001f]/g, '').slice(0, max) : '';
 export function normalizeTraffic(value: unknown) {
   if (!value || typeof value !== 'object') return null;
@@ -13,5 +13,5 @@ export function normalizeTraffic(value: unknown) {
   }
   const path = clean(b.path, 250).split(/[?#]/)[0];
   return { session: b.session_id as string, event: b.event as string, path: path.startsWith('/') ? path : '/', attribution,
-    params: { search_term: clean(p.search_term, 120), brand_id: clean(p.brand_id, 120), file_name: clean(p.file_name, 160), download_method: clean(p.download_method, 30), result_count: typeof p.result_count === 'number' && Number.isFinite(p.result_count) ? Math.max(0, Math.min(1_000_000, Math.floor(p.result_count))) : null } };
+    params: { entry_source: p.entry_source === 'bookmark' ? 'bookmark' : '', search_term: clean(p.search_term, 120), brand_id: clean(p.brand_id, 120), file_name: clean(p.file_name, 160), download_method: clean(p.download_method, 30), result_count: typeof p.result_count === 'number' && Number.isFinite(p.result_count) ? Math.max(0, Math.min(1_000_000, Math.floor(p.result_count))) : null } };
 }

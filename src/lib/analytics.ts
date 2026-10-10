@@ -11,8 +11,12 @@ declare global {
 /** GA가 차단됐거나 아직 로드되지 않은 환경에서도 사용자 흐름을 멈추지 않는다. */
 export function trackEvent(eventName: string, params: EventParams = {}) {
   try { window.gtag?.("event", eventName, params); } catch { /* Optional GA must not block first-party tracking. */ }
-  if (!['page_view', 'search_submitted', 'search_no_result', 'brand_opened', 'logo_downloaded'].includes(eventName) || location.pathname.startsWith('/admin')) return;
+  if (!['page_view', 'search_submitted', 'search_no_result', 'brand_opened', 'logo_downloaded', 'bookmark_help_opened', 'bookmark_link_copied'].includes(eventName) || location.pathname.startsWith('/admin')) return;
   try {
+    if (eventName === 'page_view') {
+      const query = new URLSearchParams(location.search);
+      params = { ...params, entry_source: query.get('utm_source') === 'bookmark' && query.get('utm_medium') === 'saved_link' ? 'bookmark' : '' };
+    }
     const key = `semologo.visit.${new Date().toISOString().slice(0, 10)}`;
     let sessionId = sessionStorage.getItem(key);
     if (!sessionId) { sessionId = crypto.randomUUID(); sessionStorage.setItem(key, sessionId); }

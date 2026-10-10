@@ -5,8 +5,8 @@ import { onAuthStateChanged } from 'firebase/auth';
 import { getClientAuth } from '@/lib/firebase';
 import Header from '@/components/Header';
 type Visit = { session_id: string; first_seen: string; last_seen: string; attribution: Record<string,string>; device: string; browser: string; events: { event: string; path: string; params: Record<string,string|number|null>; created_at: string }[] | null };
-type Stats = { sessions: Visit[]; visitors: number; summary: {event:string;count:number}[]; searches: {term:string;count:number}[]; downloads: {brand:string;count:number}[] };
-const labels: Record<string,string> = { page_view:'페이지 방문', search_submitted:'검색', search_no_result:'검색 결과 없음', brand_opened:'로고 열람', logo_downloaded:'다운로드 선택' };
+type Stats = { bookmarks: {help_opens:number;interested_sessions:number;link_copies:number;link_visit_sessions:number}; sessions: Visit[]; visitors: number; summary: {event:string;count:number}[]; searches: {term:string;count:number}[]; downloads: {brand:string;count:number}[] };
+const labels: Record<string,string> = { page_view:'페이지 방문', search_submitted:'검색', search_no_result:'검색 결과 없음', brand_opened:'로고 열람', logo_downloaded:'다운로드 선택', bookmark_help_opened:'즐겨찾기 안내 열기', bookmark_link_copied:'즐겨찾기 주소 복사' };
 export default function TrafficAdmin() {
   const [days,setDays]=useState(7); const [q,setQ]=useState(''); const [filter,setFilter]=useState(''); const [tick,setTick]=useState(0);
   const [data,setData]=useState<Stats|null>(null); const [error,setError]=useState(''); const [loading,setLoading]=useState(true);
@@ -26,6 +26,11 @@ export default function TrafficAdmin() {
     </form>
     {loading&&<p role="status">접속 기록을 불러오는 중이에요.</p>}{error&&<p role="alert">{error} <Link href="/login?next=/admin/traffic" className="underline">로그인</Link></p>}
     {data&&<><div className="grid grid-cols-2 gap-3 md:grid-cols-4">{[['방문 세션',data.visitors],['검색',n('search_submitted')],['결과 없는 검색',n('search_no_result')],['다운로드 선택',n('logo_downloaded')]].map(([label,count])=><div key={label} className="rounded-xl border p-4"><p className="text-sm text-gray-500">{label}</p><strong className="text-2xl">{Number(count).toLocaleString()}</strong></div>)}</div>
+    <section className="mt-6 rounded-xl border p-4" aria-label="즐겨찾기 통계">
+      <h2 className="font-bold">즐겨찾기 관심·유입</h2>
+      <p className="mt-2 text-xs leading-5 text-gray-500">실제 브라우저 저장 여부와 총 저장 인원은 확인할 수 없어요. 안내 클릭과 UTM 주소 방문을 별도로 측정하며, 고유 인원이 아닌 익명 세션 기준이에요. 기존 즐겨찾기는 소급 집계되지 않고, 주소 공유나 새로고침도 링크 방문으로 잡힐 수 있어요.</p>
+      <div className="mt-3 grid grid-cols-2 gap-3 md:grid-cols-4">{[['안내 클릭',data.bookmarks?.help_opens||0,'회'],['안내를 연 세션',data.bookmarks?.interested_sessions||0,'세션'],['주소 복사',data.bookmarks?.link_copies||0,'회'],['즐겨찾기 링크 방문',data.bookmarks?.link_visit_sessions||0,'세션']].map(([label,count,unit])=><div key={label} className="rounded-lg bg-gray-50 p-3"><p className="text-xs text-gray-500">{label}</p><strong className="text-xl">{Number(count).toLocaleString()}</strong> <span className="text-xs">{unit}</span></div>)}</div>
+    </section>
     <div className="my-6 grid gap-4 md:grid-cols-2">{[['많이 검색한 로고',data.searches.map(x=>[x.term,x.count])],['많이 내려받은 로고',data.downloads.map(x=>[x.brand,x.count])]].map(([title,rows])=><section key={String(title)} className="rounded-xl border p-4"><h2 className="font-bold">{String(title)}</h2>{(rows as (string|number)[][]).length?(rows as (string|number)[][]).map(([name,count])=><div key={name} className="flex justify-between py-1 text-sm"><span>{name}</span><span>{count}회</span></div>):<p className="py-3 text-gray-500">아직 기록이 없어요.</p>}</section>)}</div>
     <h2 className="mb-3 font-bold">최근 방문 기록 · 최대 100개</h2><p className="mb-3 text-xs text-gray-500">상단 집계와 인기 항목은 선택 기간 전체, 아래 목록은 검색 조건에 맞는 최근 세션이에요. 세션마다 최근 100개 행동을 표시해요.</p>
     {!data.sessions.length&&<p className="rounded border p-6">조건에 맞는 방문 기록이 없어요.</p>}

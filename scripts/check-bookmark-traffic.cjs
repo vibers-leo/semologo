@@ -1,0 +1,30 @@
+const fs=require('fs'),ts=require('typescript'),vm=require('vm'),assert=require('assert');
+const storage=new Map(),sent=[];
+const context={exports:{},window:{},location:{pathname:'/',search:'?utm_source=google&utm_medium=cpc'},document:{referrer:'https://google.com/'},sessionStorage:{getItem:k=>storage.get(k)||null,setItem:(k,v)=>storage.set(k,v)},crypto:{randomUUID:()=> '12345678-1234-1234-1234-123456789abc'},URLSearchParams,Date,fetch:(url,options)=>{sent.push(JSON.parse(options.body));return Promise.resolve();}};
+vm.runInNewContext(ts.transpileModule(fs.readFileSync('src/lib/analytics.ts','utf8'),{compilerOptions:{module:ts.ModuleKind.CommonJS}}).outputText,context);
+context.exports.trackEvent('page_view');
+context.exports.trackEvent('bookmark_help_opened');
+assert.equal(sent[1].event,'bookmark_help_opened');
+context.location.search='?utm_source=bookmark&utm_medium=saved_link&utm_campaign=header_bookmark';
+context.exports.trackEvent('page_view');
+assert.equal(sent[2].params.entry_source,'bookmark');
+assert.equal(sent[2].attribution.utm_source,'google','Saved-link entry is separate from original campaign attribution');
+context.exports.trackEvent('bookmark_link_copied');assert.equal(sent[3].event,'bookmark_link_copied');
+context.location.pathname='/admin/traffic';context.exports.trackEvent('bookmark_help_opened');assert.equal(sent.length,4);
+context.location.pathname='/';context.location.search='?utm_source=bookmark&utm_medium=cpc';context.exports.trackEvent('page_view');assert.equal(sent[4].params.entry_source,'');
+const validation={exports:{},URL};vm.runInNewContext(ts.transpileModule(fs.readFileSync('src/lib/traffic-validation.ts','utf8'),{compilerOptions:{module:ts.ModuleKind.CommonJS}}).outputText,validation);
+for(const body of sent)assert(validation.exports.normalizeTraffic(body));
+assert.equal(validation.exports.normalizeTraffic({...sent[0],event:'bookmark_saved'}),null,'Never accept a claimed browser save');
+assert.equal(validation.exports.normalizeTraffic({...sent[0],params:{entry_source:'forged'}}).params.entry_source,'');
+console.log('PASS bookmark events, entry UTM, existing attribution, admin exclusion, validation and unsupported save claims');
+
+(async()=>{
+ let admin=false,queries=0;
+ const api={exports:{},URL,Response,require:()=>({trafficAdmin:async()=>admin,trafficDb:()=>({query:async(sql,args)=>{queries++;assert.equal(args[0],90);if(sql.includes('help_opens'))return {rows:[{help_opens:5,interested_sessions:3,link_copies:2,link_visit_sessions:1}]};if(sql.includes('SELECT count(*)::int count FROM semologo.traffic_sessions'))return {rows:[{count:0}]};return {rows:[]};}})})};
+ vm.runInNewContext(ts.transpileModule(fs.readFileSync('src/app/api/admin/traffic/route.ts','utf8'),{compilerOptions:{module:ts.ModuleKind.CommonJS}}).outputText,api);
+ const request=new Request('https://semologo.com/api/admin/traffic/?days=999');
+ assert.equal((await api.exports.GET(request)).status,403);assert.equal(queries,0);
+ admin=true;const response=await api.exports.GET(request);assert.equal(response.status,200);assert.equal(response.headers.get('cache-control'),'private, no-store');
+ const body=await response.json();assert.deepEqual(body.bookmarks,{help_opens:5,interested_sessions:3,link_copies:2,link_visit_sessions:1});
+ console.log('PASS bookmark admin authorization, bounded period, private caching and independent metrics');
+})().catch(e=>{console.error(e);process.exitCode=1;});
