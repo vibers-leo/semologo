@@ -6,7 +6,7 @@ import { generateInverted } from "@/lib/logo-dark-png";
 import { useLocale, T } from "@/lib/locale-context";
 import { useEffect, useState, useCallback, useRef } from "react";
 import Link from "next/link";
-import { Brand, fetchVariants, type VariantManifest, type VariantRecord } from "@/lib/brands";
+import { Brand, fetchVariants, type VariantManifest } from "@/lib/brands";
 import { BRAND_RELATIONS, RELATION_LABEL, RELATION_COLOR } from "@/lib/brand-relations";
 import { getClientAuth, getClientDb } from "@/lib/firebase";
 import LogoVersionHistory from "./LogoVersionHistory";
@@ -322,12 +322,8 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
   const probeUrls = [...gridCandidates.map(v => cdnUrl(v.file)), pngUrl, mainUrl];
   const avail = useAvailability(probeUrls);
   const isReady = (url: string) => avail[url] !== false;   // 확인 중이면 일단 보여줌
-  const variants = gridCandidates.filter(v => isReady(cdnUrl(v.file)));
-
-  // One continuous gallery lets users compare compositions side by side.
-  const sections: [string, VariantRecord[]][] = manifest
-    ? [["전체 구성", manifest.variants]]
-    : [];
+  const compositionFiles = new Set(manifest?.variants.flatMap(v => Object.values(v.files)) || []);
+  const variants = gridCandidates.filter(v => isReady(cdnUrl(v.file)) && !compositionFiles.has(v.file));
 
   // 언어 탭은 unknown 이 아닌 언어가 2개 이상일 때만 의미가 있다
   const langs = manifest
@@ -591,8 +587,9 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
         .vbtn:hover { border-color:#6366f1 !important; color:#6366f1 !important; }
         .dlrow:hover { border-color:#6366f1 !important; }
         .logo-composition-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:12px; }
-        .logo-composition-card { display:grid; grid-template-columns:clamp(90px,32%,125px) minmax(0,1fr); grid-template-rows:1fr auto; }
+        .logo-composition-card { display:grid; grid-template-columns:clamp(112px,32%,140px) minmax(0,1fr); grid-template-rows:auto auto; align-content:center; padding:8px; }
         @media (max-width: 1000px) { .logo-composition-grid { grid-template-columns:1fr; } }
+        .logo-composition-preview { aspect-ratio:1; align-self:center; width:100%; grid-row:1 / span 2; position:relative; overflow:hidden; border-radius:8px; }
         .logo-candidate-actions { margin-top:8px; }
         .logo-background-options { display:flex; gap:4px; margin-bottom:6px; }
         .logo-background-options button,.logo-candidate-vote,.logo-candidate-apply { border:1px solid #e4e4e7; border-radius:6px; background:#fff; color:#52525b; padding:5px 7px; font-size:11px; cursor:pointer; }
@@ -871,53 +868,22 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
           </section>
           <LogoVersionHistory brandId={brand.id} isAdmin={isAdmin}/>
 
-          {/* ── 로고 변형 갤러리 (매니페스트 기반) ── */}
-          {sections.length > 0 && (
-            <div style={{ marginBottom: 28 }}>
-              <div style={{ display:"flex", alignItems:"center", justifyContent:"space-between", marginBottom:12 }}>
-                <div style={{ fontSize:13, fontWeight:700, color:"#3f3f46" }}><T>{"로고 구성"}</T>{" "}
-                  <span style={{ fontSize:11, fontWeight:400, color:"#71717a" }}>
-                    {manifest!.variants.length}<T>{"종 · 원하는 구성을 골라 받으세요"}</T></span>
-                </div>
-                {langs.length >= 2 && (
-                  <div style={{ display:"flex", gap:4 }}>
-                    {[null, ...langs].map(l => (
-                      <button key={l ?? "all"} onClick={() => setLangFilter(l)}
-                        style={{ fontSize:11, padding:"3px 9px", borderRadius:12, cursor:"pointer",
-                          border:`1px solid ${langFilter === l ? "#6366f1" : "#e4e4e7"}`,
-                          background: langFilter === l ? "rgba(99,102,241,.08)" : "transparent",
-                          color: langFilter === l ? "#6366f1" : "#71717a" }}>
-                        {t(l === null ? "전체" : l === "ko" ? "한글" : "영문")}
-                      </button>
-                    ))}
-                  </div>
-                )}
-              </div>
-
-              <p style={{fontSize:12,color:"#71717a",margin:"0 0 16px"}}>심볼·레터마크·언어별 조합을 비교하고, 필요한 파일을 받아보세요.</p>
-              {sections.map(([label, items]) => {
-                const shown = langFilter
-                  ? items.filter(v => v.lang === langFilter || v.lang === "none" || v.text_layout?.startsWith("ko-en"))
-                  : items;
-                if (shown.length === 0) return null;
-                return (
-                  <div key={t(label)} style={{ marginBottom: 10 }}>
-                    <div style={{ fontSize:11, fontWeight:700, color:"#71717a", marginBottom:6,
-                      letterSpacing:".04em" }}>
-                      {t(label)}
-                      <span style={{ marginLeft:6, fontWeight:400, color:"#a1a1aa" }}>{shown.length}<T>{"종"}</T></span>
-                    </div>
-                    {items[0].asset_group === "typography" && <p style={{fontSize:11,color:"#71717a",marginBottom:6}}>공식 서체 안내 이미지예요. 설치용 폰트 파일은 포함하지 않아요.</p>}
-                    <div className="logo-composition-grid">
-                      {shown.map(v => {
+          <section aria-label="로고 구성">
+            <div style={{display:"flex",alignItems:"center",justifyContent:"space-between",gap:10,marginBottom:10}}>
+              <div style={{fontSize:13,fontWeight:700}}>로고 구성</div>
+              {langs.length >= 2 && <div style={{display:"flex",gap:4}}>{[null,...langs].map(l=><button key={l||"all"} onClick={()=>setLangFilter(l)} aria-pressed={langFilter===l} className="logo-candidate-vote">{l===null?"전체":l==="ko"?"국문":"영문"}</button>)}</div>}
+            </div>
+            <p style={{fontSize:12,color:"#71717a",margin:"0 0 14px"}}>원하는 로고와 파일 형식을 골라 받으세요. 파일과 배경별로 대표 이미지를 추천할 수 있어요.</p>
+            <div className="logo-composition-grid">
+                      {(manifest?.variants || []).filter(v => !langFilter || v.lang === langFilter || v.lang === "none" || v.text_layout?.startsWith("ko-en")).map(v => {
                         const svgFile = v.files.svg;
                         const pngFile = v.files.png;
                         const previewUrl = cdnUrl(pngFile || svgFile || "logo.png");
                         return (
                           <div key={v.key} className="logo-composition-card" style={{ minWidth:0,
                             background:"#fff", border:"1px solid #e4e4e7", borderRadius:12, overflow:"hidden" }}>
-                            <div style={{ position:"relative", width:"100%", minHeight:150, gridRow:"1 / span 2",
-                              borderRight:"1px solid #eee", overflow:"hidden", background:candidateBg(pngFile||svgFile||"",v.color==="white"?"dark":"light")==="dark"?"#18181b":"#f8f8fa" }}>
+                            <div className="logo-composition-preview" style={{
+                              background:candidateBg(pngFile||svgFile||"",v.color==="white"?"dark":"light")==="dark"?"#18181b":"#f8f8fa" }}>
                               {/* eslint-disable-next-line @next/next/no-img-element */}
                               <img src={previewUrl} alt={t(logoVariantLabel(v))}
                                 style={{ position:"absolute", inset:12, width:"calc(100% - 24px)",
@@ -943,7 +909,7 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
                               </div>
                               <div style={{ fontSize: 11, color:"#a1a1aa", marginTop:1,
                                 overflow:"hidden", textOverflow:"ellipsis", whiteSpace:"nowrap" }}>
-                                {t(providerLabel(v.provider))}
+                                {v.asset_group === "typography" ? "공식 서체 안내 · 설치용 폰트 제외" : t(providerLabel(v.provider))}
                                 {v.alts?.length ? ` · 소스 ${v.alts.length + 1}종` : ""}
                               </div>
                             </div>
@@ -967,38 +933,21 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
                           </div>
                         );
                       })}
-                    </div>
-                  </div>
-                );
-              })}
-            </div>
-          )}
-
-          {/* 변형 그리드 */}
-          <div style={{ display:"flex", alignItems:"center", justifyContent:"space-between", marginBottom:14 }}>
-            <div style={{ fontSize:13, fontWeight:700, color:"#3f3f46" }}>
-              {manifest ? t("다운로드 파일") : t("파일 다운로드")}{" "}
-              <span style={{ fontSize:11, fontWeight:400, color:"#71717a" }}>
-                {manifest ? t("대표 로고의 용도별 파일") : t("메인 로고 기준")}
-              </span>
-            </div>
-            <span style={{ fontSize: 11, color:"#a1a1aa" }}>파일과 배경별로 대표 추천</span>
-          </div>
-          <div className="logo-composition-grid">
             {invertedUrl && <div className="logo-composition-card" style={{border:"1px solid #e4e4e7",borderRadius:12,overflow:"hidden"}}>
-              <div style={{gridRow:"1 / span 2",background:"#111114",minHeight:150,display:"flex",alignItems:"center",padding:12}}><img src={invertedUrl} alt="다크 배경용 PNG" style={{width:"100%",maxHeight:110,objectFit:"contain"}}/></div>
+              <div className="logo-composition-preview" style={{background:"#111114",display:"flex",alignItems:"center",padding:12}}><img src={invertedUrl} alt="다크 배경용 PNG" style={{width:"100%",maxHeight:116,objectFit:"contain"}}/></div>
               <div style={{padding:"12px 12px 6px"}}><b style={{fontSize:12}}>다크 배경용 PNG</b><p style={{fontSize:11,color:"#71717a"}}>자동 생성한 다운로드 파일이에요.</p></div>
               <div style={{gridColumn:2,padding:"4px 12px 12px"}}><button className="logo-candidate-apply" onClick={()=>void grab(invertedUrl,`${brand.id}-dark.png`)}>PNG 다운로드</button>{candidateActions(`generated-dark:${presentationAssetFile(brand,brand.logo_png)||"logo.png"}`,"다크 배경용 PNG","dark",true)}</div>
             </div>}
             {variants.map(v=>{
               const bg=candidateBg(v.file,v.bg==="dark"?"dark":"light");
               return <div key={v.file} className="logo-composition-card" style={{border:"1px solid #e4e4e7",borderRadius:12,overflow:"hidden"}}>
-                <div style={{gridRow:"1 / span 2",background:bg==="dark"?"#18181b":"#f8f8fa",minHeight:150,display:"flex",alignItems:"center",padding:12}}><img src={cdnUrl(v.file)} alt={t(v.name)} style={{width:"100%",maxHeight:110,objectFit:"contain"}}/></div>
+                <div className="logo-composition-preview" style={{background:bg==="dark"?"#18181b":"#f8f8fa",display:"flex",alignItems:"center",padding:12}}><img src={cdnUrl(v.file)} alt={t(v.name)} style={{width:"100%",maxHeight:116,objectFit:"contain"}}/></div>
                 <div style={{padding:"12px 12px 6px"}}><b style={{fontSize:12}}>{t(v.name)}</b><p style={{fontSize:11,color:"#71717a",marginTop:4}}>{t(v.desc)}</p></div>
                 <div style={{gridColumn:2,padding:"4px 12px 12px"}}><button className="logo-candidate-apply" onClick={()=>void grab(cdnUrl(v.file),`${brand.id}-${v.file}`)}>{v.file.endsWith(".svg")?"SVG":"PNG"} 다운로드</button>{candidateActions(v.file,v.name,bg)}</div>
               </div>;
             })}
-          </div>
+            </div>
+          </section>
         </div>
 
         {/* ── RIGHT: 퍼가요 + 임베드 + 제보 + 광고 ── */}

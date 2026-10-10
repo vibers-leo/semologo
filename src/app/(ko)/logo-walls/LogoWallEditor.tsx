@@ -4,6 +4,7 @@ import { onAuthStateChanged, type User } from 'firebase/auth';
 import { getClientAuth } from '@/lib/firebase';
 import { CATALOG_VERSION } from '@/lib/cdn';
 import { logoPngCandidates } from '@/lib/logo-png-source';
+import { initialWallScale } from '@/lib/logo-optical-size';
 import { applyQualityReview } from '@/lib/logo-quality-review';
 import { fetchVariants, type Brand } from '@/lib/brands';
 import { wallVariant, wallLogoKey, wallFormLabels, type WallLogo } from '@/lib/logo-wall-variant';
@@ -129,7 +130,7 @@ export default function LogoWallEditor() {
         const availableH = logoWallMetrics.logoSize[layout.logoSize];
         const fit = Math.min(availableW/img.naturalWidth, availableH/img.naturalHeight);
         const visibleW = (right-left)/w * img.naturalWidth * fit, visibleH = (bottom-top)/h * img.naturalHeight * fit;
-        return { b, area: visibleW*visibleH, maxScale: Math.min(150, availableW/visibleW*110, (availableH+24)/visibleH*100) };
+        return { b, area: visibleW*visibleH, maxScale: Math.min(150, availableW/visibleW*100, (availableH+24)/visibleH*100) };
       }));
       const areas = measured.filter(m => m.area > 0).map(m => m.area).sort((a,b)=>a-b);
       const target = areas[Math.floor(areas.length/2)] || 0;
@@ -260,7 +261,10 @@ export default function LogoWallEditor() {
       if (!variants.length) setMessage('이 브랜드는 기본 로고만 준비돼 있어요.');
     } finally { setExpanding(null); }
   }
-  function addLogo(b: WallLogo) { setSelected(s => s.length >= 100 || s.some(v => wallLogoKey(v) === wallLogoKey(b)) ? s : [...s, b]); }
+  function addLogo(b: WallLogo) {
+    setSelected(s => s.length >= 100 || s.some(v => wallLogoKey(v) === wallLogoKey(b)) ? s : [...s, b]);
+    if(b.scale===undefined)void initialWallScale(preview(b)).then(scale=>setSelected(s=>s.map(v=>wallLogoKey(v)===wallLogoKey(b)&&v.scale===undefined?{...v,scale}:v)));
+  }
   function setCardBackground(key: string, background: CardBackground) { setSelected(s => s.map(b => wallLogoKey(b) === key ? { ...b, cardBackground: background } : b)); }
   const cardBackground = (b: WallLogo) => wallCardBackground(layout, Boolean(b.light || b.light_logo || b.dark_variant === 'white'), b.cardBackground);
   return <><Header /><main className={styles.page} style={{ '--wall-columns': layout.columns, '--logo-height': `${logoWallMetrics.logoSize[layout.logoSize]}px`, '--wall-gap': `${logoWallMetrics.spacing[layout.spacing]}px` } as CSSProperties}>
@@ -289,7 +293,7 @@ export default function LogoWallEditor() {
           <label className={styles.field}>PNG 파일 (최대 2MB)<input ref={uploadInput} type="file" accept="image/png" disabled={busy} onChange={e => setUploadFile(e.target.files?.[0] ?? null)} /></label>
           <button disabled={busy || !uploadFile || !uploadName.trim()} onClick={upload}>내 로고에 보관하고 추가</button>
           <p className={styles.hint}>계정당 최대 20개 · <a href="/submit/">공개 등록은 별도로 제보하기 →</a></p>
-          <div className={styles.results}>{myLogos.map(b => <button key={b.id} className={styles.result} disabled={busy || selected.length >= 100 || selected.some(s => s.id === b.id)} onClick={() => setSelected(s => [...s, b])}><SearchLogo brand={b} src={preview(b)} /><span>{b.name_ko}</span></button>)}</div>
+          <div className={styles.results}>{myLogos.map(b => <button key={b.id} className={styles.result} disabled={busy || selected.length >= 100 || selected.some(s => s.id === b.id)} onClick={() => addLogo(b)}><SearchLogo brand={b} src={preview(b)} /><span>{b.name_ko}</span></button>)}</div>
         </section>
         <section className={styles.editor} aria-label="로고월 편집">
           <div className={styles.sectionTitle}><h2>{presentation ? title : '2. 배치와 미리보기'}</h2><button disabled={!selected.length && !presentation} aria-pressed={presentation} onClick={() => setPresentation(p => !p)}>{presentation ? '편집으로 돌아가기' : '로고월만 보기'}</button><span className={styles.saveState}>{dirty ? '저장하지 않은 변경사항' : current ? '저장됨 · 비공개' : '새 로고월 · 비공개'}</span></div>
