@@ -1201,6 +1201,25 @@
         "logo-transparent.png",
         "logo-icon.png"
       ]
+    },
+    "gongu-ci-1495": {
+      "id": "gongu-ci-1495",
+      "name_ko": "청주복지재단",
+      "name_en": "Cheongju Welfare Foundation",
+      "origin": "KR",
+      "category": "공공·기관",
+      "website": "https://www.cjwf.or.kr/",
+      "logo_svg": "sources/lockup-reviewed-20261010/696131becdce4029.svg",
+      "svg_transparent": "sources/lockup-reviewed-20261010/696131becdce4029.svg",
+      "logo_png": "sources/lockup-reviewed-20261010/696131becdce4029.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/gongu-ci-1495/sources/lockup-reviewed-20261010/696131becdce4029.png",
+      "has_svg": true,
+      "has_png": true,
+      "asset_review_status": "verified",
+      "asset_origin": "official",
+      "official_source_page": "https://www.cjwf.or.kr/home/sub.php?menukey=235",
+      "official_zip_url": "https://www.cjwf.or.kr/home/download/signature.zip",
+      "hidden": false
     }
   },
   "variants": {
@@ -3233,6 +3252,166 @@
           "order": 1,
           "lockup": "symbol",
           "text_layout": "none"
+        }
+      ]
+    },
+    "gongu-ci-1495": {
+      "schema": 1,
+      "algo_v": 3,
+      "id": "gongu-ci-1495",
+      "primary": "ko-en-vertical",
+      "variants": [
+        {
+          "key": "symbol",
+          "form": "symbol",
+          "lockup": "symbol",
+          "text_layout": "none",
+          "asset_group": "symbol",
+          "lang": "none",
+          "color": "original",
+          "label": "심볼마크",
+          "files": {
+            "svg": "sources/lockup-reviewed-20261010/b7fbb8b2a4e5e83a.svg",
+            "png": "sources/lockup-reviewed-20261010/b7fbb8b2a4e5e83a.png"
+          },
+          "provider": "청주복지재단 공식 CI 매뉴얼",
+          "origin": "derived",
+          "order": 0,
+          "mark_type": "symbol",
+          "source_url": "https://www.cjwf.or.kr/home/download/symbol.zip"
+        },
+        {
+          "key": "wordmark-ko",
+          "form": "wordmark",
+          "lockup": "wordmark",
+          "text_layout": "ko",
+          "asset_group": "logotype",
+          "lang": "ko",
+          "color": "original",
+          "label": "국문 로고타입",
+          "files": {
+            "svg": "sources/lockup-reviewed-20261010/b6a5224df2c150b8.svg",
+            "png": "sources/lockup-reviewed-20261010/b6a5224df2c150b8.png"
+          },
+          "provider": "청주복지재단 공식 CI 매뉴얼",
+          "origin": "derived",
+          "order": 1,
+          "mark_type": "wordmark",
+          "source_url": "https://www.cjwf.or.kr/home/download/signature.zip"
+        },
+        {
+          "key": "wordmark-en",
+          "form": "wordmark",
+          "lockup": "wordmark",
+          "text_layout": "en",
+          "asset_group": "logotype",
+          "lang": "en",
+          "color": "original",
+          "label": "영문 로고타입",
+          "files": {
+            "svg": "sources/lockup-reviewed-20261010/27c2f8204c271fd7.svg",
+            "png": "sources/lockup-reviewed-20261010/27c2f8204c271fd7.png"
+          },
+          "provider": "청주복지재단 공식 CI 매뉴얼",
+          "origin": "derived",
+          "order": 2,
+          "mark_type": "wordmark",
+          "source_url": "https://www.cjwf.or.kr/home/download/signature.zip"
+        },
+        {
+          "key": "wordmark-hanja",
+          "form": "wordmark",
+          "lockup": "wordmark",
+          "text_layout": "unknown",
+          "asset_group": "logotype",
+          "lang": "ko",
+          "color": "original",
+          "label": "한문 로고타입",
+          "files": {
+            "svg": "sources/lockup-reviewed-20261010/0e8569d87db460a6.svg",
+            "png": "sources/lockup-reviewed-20261010/0e8569d87db460a6.png"
+          },
+          "provider": "청주복지재단 공식 CI 매뉴얼",
+          "origin": "derived",
+          "order": 3,
+          "mark_type": "wordmark",
+          "source_url": "https://www.cjwf.or.kr/home/download/signature.zip"
+        },
+        {
+          "key": "ko-en-horizontal",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "text_layout": "ko-en-vertical",
+          "asset_group": "logotype",
+          "lang": "ko",
+          "color": "original",
+          "label": "국영문 좌우조합",
+          "files": {
+            "svg": "sources/lockup-reviewed-20261010/ac425c1ce9ca5f14.svg",
+            "png": "sources/lockup-reviewed-20261010/ac425c1ce9ca5f14.png"
+          },
+          "provider": "청주복지재단 공식 CI 매뉴얼",
+          "origin": "derived",
+          "order": 4,
+          "mark_type": "symbol",
+          "source_url": "https://www.cjwf.or.kr/home/download/signature.zip"
+        },
+        {
+          "key": "ko-en-vertical",
+          "form": "vertical",
+          "lockup": "vertical",
+          "text_layout": "ko-en-vertical",
+          "asset_group": "logotype",
+          "lang": "ko",
+          "color": "original",
+          "label": "국영문 상하조합",
+          "files": {
+            "svg": "sources/lockup-reviewed-20261010/696131becdce4029.svg",
+            "png": "sources/lockup-reviewed-20261010/696131becdce4029.png"
+          },
+          "provider": "청주복지재단 공식 CI 매뉴얼",
+          "origin": "derived",
+          "order": 5,
+          "mark_type": "symbol",
+          "source_url": "https://www.cjwf.or.kr/home/download/signature.zip"
+        },
+        {
+          "key": "hanja-en-horizontal",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "text_layout": "unknown",
+          "asset_group": "logotype",
+          "lang": "ko",
+          "color": "original",
+          "label": "한문·영문 좌우조합",
+          "files": {
+            "svg": "sources/lockup-reviewed-20261010/d8b0ee914a5027fa.svg",
+            "png": "sources/lockup-reviewed-20261010/d8b0ee914a5027fa.png"
+          },
+          "provider": "청주복지재단 공식 CI 매뉴얼",
+          "origin": "derived",
+          "order": 6,
+          "mark_type": "symbol",
+          "source_url": "https://www.cjwf.or.kr/home/download/signature.zip"
+        },
+        {
+          "key": "hanja-en-vertical",
+          "form": "vertical",
+          "lockup": "vertical",
+          "text_layout": "unknown",
+          "asset_group": "logotype",
+          "lang": "ko",
+          "color": "original",
+          "label": "한문·영문 상하조합",
+          "files": {
+            "svg": "sources/lockup-reviewed-20261010/7e940d28b9b7f56e.svg",
+            "png": "sources/lockup-reviewed-20261010/7e940d28b9b7f56e.png"
+          },
+          "provider": "청주복지재단 공식 CI 매뉴얼",
+          "origin": "derived",
+          "order": 7,
+          "mark_type": "symbol",
+          "source_url": "https://www.cjwf.or.kr/home/download/signature.zip"
         }
       ]
     }

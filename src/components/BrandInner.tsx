@@ -576,6 +576,7 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
         .vbtn:hover { border-color:#6366f1 !important; color:#6366f1 !important; }
         .dlrow:hover { border-color:#6366f1 !important; }
         .logo-composition-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:12px; }
+        .logo-composition-card { display:grid; grid-template-columns:56% minmax(0,1fr); grid-template-rows:1fr auto; }
         @media (max-width: 1000px) { .logo-composition-grid { grid-template-columns:1fr; } }
         .sharebtn:hover { border-color:#6366f1 !important; color:#6366f1 !important; }
         @media (max-width: 768px) {
@@ -910,10 +911,10 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
                         const pngFile = v.files.png;
                         const previewUrl = cdnUrl(pngFile || svgFile || "logo.png");
                         return (
-                          <div key={v.key} style={{ display:"flex", flexDirection:"column", minWidth:0,
+                          <div key={v.key} className="logo-composition-card" style={{ minWidth:0,
                             background:"#fff", border:"1px solid #e4e4e7", borderRadius:12, overflow:"hidden" }}>
-                            <div style={{ position:"relative", width:"100%", height:160, flexShrink:0,
-                              borderBottom:"1px solid #eee", overflow:"hidden", ...variantTile(v) }}>
+                            <div style={{ position:"relative", width:"100%", height:150, gridRow:"1 / span 2",
+                              borderRight:"1px solid #eee", overflow:"hidden", ...variantTile(v) }}>
                               {/* eslint-disable-next-line @next/next/no-img-element */}
                               <img src={previewUrl} alt={t(logoVariantLabel(v))}
                                 style={{ position:"absolute", inset:20, width:"calc(100% - 40px)",
@@ -925,7 +926,7 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
                                   else e.currentTarget.style.display = "none";
                                 }} />
                             </div>
-                            <div style={{ flex:1, minWidth:0, padding:"12px 14px 8px" }}>
+                            <div style={{ flex:1, minWidth:0, padding:"12px 12px 6px" }}>
                               <div style={{ fontSize:12, fontWeight:600, color:"#3f3f46",
                                 display:"flex", alignItems:"center", flexWrap:"wrap", gap:5 }}>
                                 <span>
@@ -943,17 +944,17 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
                                 {v.alts?.length ? ` · 소스 ${v.alts.length + 1}종` : ""}
                               </div>
                             </div>
-                            <div style={{ display:"flex", gap:8, padding:"4px 14px 14px", flexShrink:0 }}>
+                            <div style={{ display:"flex", gap:6, gridColumn:2, padding:"4px 12px 12px", flexShrink:0 }}>
                               {svgFile && (
                                 <button onClick={() => grab(cdnUrl(svgFile), `${brand.id}-${v.key}.svg`)}
-                                  style={{ fontSize:12, padding:"8px 16px", borderRadius:7, border:"none",
+                                  style={{ fontSize:11, padding:"7px 11px", borderRadius:7, border:"none",
                                     background:"#6366f1", color:"#fff", cursor:"pointer", fontWeight:500 }}>
                                   SVG
                                 </button>
                               )}
                               {pngFile && (
                                 <button onClick={() => grab(cdnUrl(pngFile), `${brand.id}-${v.key}.png`)}
-                                  style={{ fontSize:12, padding:"8px 16px", borderRadius:7,
+                                  style={{ fontSize:11, padding:"7px 11px", borderRadius:7,
                                     border:"1px solid #e4e4e7", background:"#fff", color:"#52525b",
                                     cursor:"pointer", fontWeight:500 }}>
                                   PNG
