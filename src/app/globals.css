@@ -137,13 +137,9 @@ body {
   .catalog-logo-grid { grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); }
 }
 @media (min-width: 1024px) {
-  .catalog-logo-grid .logo-card {
-    aspect-ratio: 5 / 4;
-    display: grid;
-    grid-template-rows: minmax(0, 1fr) auto;
-    min-width: 0;
-  }
-  .catalog-logo-grid .card-preview { height: auto; min-height: 0; }
+  .catalog-logo-grid .logo-card { min-width: 0; }
+  /* The artwork canvas is 5:4; title and badges sit below that canvas. */
+  .catalog-logo-grid .card-preview { width: 100%; height: auto; min-height: 0; aspect-ratio: 5 / 4; }
 }
 
 .brand-sheet-handle { display: none; }
