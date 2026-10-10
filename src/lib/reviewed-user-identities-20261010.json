@@ -1,0 +1,974 @@
+{
+  "patches": {
+    "south-chungcheong": {
+      "name_ko": "충청남도",
+      "name_en": "Chungcheongnam-do",
+      "origin": "KR",
+      "category": "공공·기관",
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": "sources/user-identities-20261010/2f0286bd133606f0.svg",
+      "svg_transparent": "sources/user-identities-20261010/2f0286bd133606f0.svg",
+      "logo_png": "sources/user-identities-20261010/8a7d574ff216e129.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/south-chungcheong/sources/user-identities-20261010/8a7d574ff216e129.png",
+      "light": false,
+      "light_logo": false,
+      "dark_variant": false,
+      "asset_review_status": "verified",
+      "variants_n": 27,
+      "rejected_asset_files": [
+        "logo-icon.png",
+        "logo-800.png",
+        "logo-transparent.png",
+        "logo-white.png"
+      ],
+      "icon_png": "sources/user-identities-20261010/b5def74541772be7.png",
+      "source_zip": "sources/user-identities-20261010/da28a6855d128b19.zip"
+    },
+    "nonsan-strawberry-expo-2027": {
+      "id": "nonsan-strawberry-expo-2027",
+      "name_ko": "2027 논산세계딸기산업엑스포",
+      "name_en": "2027 Nonsan World Strawberry Industry Expo",
+      "category": "문화·행사",
+      "origin": "KR",
+      "aliases": [
+        "논산딸기엑스포",
+        "논산세계딸기산업엑스포",
+        "2027 논산 엑스포"
+      ],
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": "sources/user-identities-20261010/4e399867af23cd12.svg",
+      "svg_transparent": "sources/user-identities-20261010/4e399867af23cd12.svg",
+      "logo_png": "sources/user-identities-20261010/33823826b9e1789a.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/nonsan-strawberry-expo-2027/sources/user-identities-20261010/33823826b9e1789a.png",
+      "asset_origin": "사용자 제공 행사 EI 공식 배포 ZIP",
+      "asset_review_status": "verified",
+      "variants_n": 13,
+      "added_at": "2026-10-10",
+      "logo_published_at": "2026-10-10T08:00:00Z",
+      "rejected_asset_files": [
+        "logo.svg",
+        "logo.png",
+        "logo-icon.png",
+        "logo-800.png",
+        "logo-transparent.png",
+        "logo-white.png"
+      ],
+      "brand_manual": "sources/user-identities-20261010/f68770b353e57240.pdf",
+      "icon_png": "sources/user-identities-20261010/6f44fb6c2fd78ac2.png",
+      "source_zip": "sources/user-identities-20261010/a45545ee9da6d056.zip"
+    },
+    "dangjin": {
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": "sources/user-identities-20261010/f9cd35abfdd4bfc5.svg",
+      "svg_transparent": "sources/user-identities-20261010/f9cd35abfdd4bfc5.svg",
+      "logo_png": "sources/user-identities-20261010/3ec954a7f27e4d3f.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/dangjin/sources/user-identities-20261010/3ec954a7f27e4d3f.png",
+      "light": false,
+      "light_logo": false,
+      "dark_variant": false,
+      "variants_n": 4,
+      "asset_review_status": "verified",
+      "rejected_asset_files": [
+        "logo-icon.png",
+        "logo-800.png",
+        "logo-transparent.png",
+        "logo-white.png"
+      ],
+      "icon_png": "sources/user-identities-20261010/8e4e929724c7996e.png",
+      "source_zip": "sources/user-identities-20261010/3344adde2a3812d1.zip"
+    },
+    "dangjin-port": {
+      "id": "dangjin-port",
+      "name_ko": "당진항",
+      "name_en": "Port of Dangjin",
+      "category": "공공·기관",
+      "origin": "KR",
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": "sources/user-identities-20261010/a14dc2c2a771ebe8.svg",
+      "svg_transparent": "sources/user-identities-20261010/a14dc2c2a771ebe8.svg",
+      "logo_png": "sources/user-identities-20261010/c4ae535fe9897130.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/dangjin-port/sources/user-identities-20261010/c4ae535fe9897130.png",
+      "asset_origin": "사용자 제공 당진시 공식 AI",
+      "asset_review_status": "verified",
+      "variants_n": 2,
+      "added_at": "2026-10-10",
+      "logo_published_at": "2026-10-10T08:00:00Z",
+      "rejected_asset_files": [
+        "logo.svg",
+        "logo.png",
+        "logo-icon.png",
+        "logo-800.png",
+        "logo-transparent.png",
+        "logo-white.png"
+      ],
+      "icon_png": "sources/user-identities-20261010/fad37155cf04d4fd.png",
+      "source_zip": "sources/user-identities-20261010/3344adde2a3812d1.zip"
+    }
+  },
+  "variants": {
+    "south-chungcheong": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "south-chungcheong",
+      "primary": "ko-horizontal",
+      "variants": [
+        {
+          "key": "ko-mark",
+          "label": "국문 상하조합 · 심볼 강조",
+          "form": "vertical",
+          "lockup": "vertical",
+          "lang": "ko",
+          "color": "original",
+          "files": {
+            "svg": "sources/user-identities-20261010/3bf253a4433059b1.svg",
+            "png": "sources/user-identities-20261010/21f55a76fcbf8079.png"
+          },
+          "aspect": 0.9883375145884447,
+          "origin": "manual",
+          "provider": "사용자 제공 공식 AI · 가이드 제거 검수",
+          "derived_from": "BS2-01.ai",
+          "order": 0,
+          "asset_group": "logotype"
+        },
+        {
+          "key": "ko-en-mark",
+          "label": "국영문 상하조합 · 심볼 강조",
+          "form": "vertical",
+          "lockup": "vertical",
+          "lang": "ko",
+          "color": "original",
+          "files": {
+            "svg": "sources/user-identities-20261010/26e4357e819a7c7b.svg",
+            "png": "sources/user-identities-20261010/f23f3dfa2a3f81c2.png"
+          },
+          "aspect": 0.8891271816325342,
+          "origin": "manual",
+          "provider": "사용자 제공 공식 AI · 가이드 제거 검수",
+          "derived_from": "BS2-01.ai",
+          "order": 1,
+          "asset_group": "logotype"
+        },
+        {
+          "key": "ko-text",
+          "label": "국문 상하조합 · 글자 강조",
+          "form": "vertical",
+          "lockup": "vertical",
+          "lang": "ko",
+          "color": "original",
+          "files": {
+            "svg": "sources/user-identities-20261010/319cf1167986b11c.svg",
+            "png": "sources/user-identities-20261010/704236664d6416dd.png"
+          },
+          "aspect": 1.019790585186437,
+          "origin": "manual",
+          "provider": "사용자 제공 공식 AI · 가이드 제거 검수",
+          "derived_from": "BS2-01.ai",
+          "order": 2,
+          "asset_group": "logotype"
+        },
+        {
+          "key": "ko-en-text",
+          "label": "국영문 상하조합 · 글자 강조",
+          "form": "vertical",
+          "lockup": "vertical",
+          "lang": "ko",
+          "color": "original",
+          "files": {
+            "svg": "sources/user-identities-20261010/92960c65994ab768.svg",
+            "png": "sources/user-identities-20261010/8f9e9a2735a60663.png"
+          },
+          "aspect": 0.8905233122021836,
+          "origin": "manual",
+          "provider": "사용자 제공 공식 AI · 가이드 제거 검수",
+          "derived_from": "BS2-01.ai",
+          "order": 3,
+          "asset_group": "logotype"
+        },
+        {
+          "key": "en-short",
+          "label": "영문 상하조합 · Chungnam",
+          "form": "vertical",
+          "lockup": "vertical",
+          "lang": "en",
+          "color": "original",
+          "files": {
+            "svg": "sources/user-identities-20261010/9bc54847842ed224.svg",
+            "png": "sources/user-identities-20261010/65f675382cd39817.png"
+          },
+          "aspect": 1.0568165915862793,
+          "origin": "manual",
+          "provider": "사용자 제공 공식 AI · 가이드 제거 검수",
+          "derived_from": "BS2-02.ai",
+          "order": 4,
+          "asset_group": "logotype"
+        },
+        {
+          "key": "en-full",
+          "label": "영문 상하조합 · Chungcheongnam-do",
+          "form": "vertical",
+          "lockup": "vertical",
+          "lang": "en",
+          "color": "original",
+          "files": {
+            "svg": "sources/user-identities-20261010/c65f2ca0cf6f41b1.svg",
+            "png": "sources/user-identities-20261010/abf2eadc74257d40.png"
+          },
+          "aspect": 1.676058901258892,
+          "origin": "manual",
+          "provider": "사용자 제공 공식 AI · 가이드 제거 검수",
+          "derived_from": "BS2-02.ai",
+          "order": 5,
+          "asset_group": "logotype"
+        },
+        {
+          "key": "han-mark",
+          "label": "한문 상하조합 · 심볼 강조",
+          "form": "vertical",
+          "lockup": "vertical",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/user-identities-20261010/559b98afe51dd7e1.svg",
+            "png": "sources/user-identities-20261010/a0cba2b80cfb85c1.png"
+          },
+          "aspect": 0.9982994049773969,
+          "origin": "manual",
+          "provider": "사용자 제공 공식 AI · 가이드 제거 검수",
+          "derived_from": "BS2-03.ai",
+          "order": 6,
+          "asset_group": "logotype"
+        },
+        {
+          "key": "han-en-mark",
+          "label": "한영문 상하조합 · 심볼 강조",
+          "form": "vertical",
+          "lockup": "vertical",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/user-identities-20261010/d76e615fda01c6a9.svg",
+            "png": "sources/user-identities-20261010/f4388bd0e0f478e3.png"
+          },
+          "aspect": 0.8889402292959935,
+          "origin": "manual",
+          "provider": "사용자 제공 공식 AI · 가이드 제거 검수",
+          "derived_from": "BS2-03.ai",
+          "order": 7,
+          "asset_group": "logotype"
+        },
+        {
+          "key": "han-text",
+          "label": "한문 상하조합 · 글자 강조",
+          "form": "vertical",
+          "lockup": "vertical",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/user-identities-20261010/6897d0b0565dbd14.svg",
+            "png": "sources/user-identities-20261010/f68b57bf595d7d03.png"
+          },
+          "aspect": 1.0616606280698524,
+          "origin": "manual",
+          "provider": "사용자 제공 공식 AI · 가이드 제거 검수",
+          "derived_from": "BS2-03.ai",
+          "order": 8,
+          "asset_group": "logotype"
+        },
+        {
+          "key": "han-en-text",
+          "label": "한영문 상하조합 · 글자 강조",
+          "form": "vertical",
+          "lockup": "vertical",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/user-identities-20261010/d783695e79899326.svg",
+            "png": "sources/user-identities-20261010/0fb6faa54fe8f5d5.png"
+          },
+          "aspect": 0.9244832083706754,
+          "origin": "manual",
+          "provider": "사용자 제공 공식 AI · 가이드 제거 검수",
+          "derived_from": "BS2-03.ai",
+          "order": 9,
+          "asset_group": "logotype"
+        },
+        {
+          "key": "ko-horizontal",
+          "label": "국문 좌우조합",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "ko",
+          "color": "original",
+          "files": {
+            "svg": "sources/user-identities-20261010/2f0286bd133606f0.svg",
+            "png": "sources/user-identities-20261010/8a7d574ff216e129.png"
+          },
+          "aspect": 3.851033963793177,
+          "origin": "manual",
+          "provider": "사용자 제공 공식 AI · 가이드 제거 검수",
+          "derived_from": "BS2-04.ai",
+          "order": 10,
+          "asset_group": "logotype"
+        },
+        {
+          "key": "ko-en-horizontal",
+          "label": "국영문 좌우조합",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "ko",
+          "color": "original",
+          "files": {
+            "svg": "sources/user-identities-20261010/12c0724dc99dda2b.svg",
+            "png": "sources/user-identities-20261010/aa3ef98c17f07f9c.png"
+          },
+          "aspect": 3.469712317666124,
+          "origin": "manual",
+          "provider": "사용자 제공 공식 AI · 가이드 제거 검수",
+          "derived_from": "BS2-04.ai",
+          "order": 11,
+          "asset_group": "logotype"
+        },
+        {
+          "key": "en-short-horizontal",
+          "label": "영문 좌우조합 · Chungnam",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "en",
+          "color": "original",
+          "files": {
+            "svg": "sources/user-identities-20261010/c2347380cbb43612.svg",
+            "png": "sources/user-identities-20261010/08b675b912297010.png"
+          },
+          "aspect": 4.546708501065595,
+          "origin": "manual",
+          "provider": "사용자 제공 공식 AI · 가이드 제거 검수",
+          "derived_from": "BS2-05.ai",
+          "order": 12,
+          "asset_group": "logotype"
+        },
+        {
+          "key": "en-full-horizontal",
+          "label": "영문 좌우조합 · Chungcheongnam-do",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "en",
+          "color": "original",
+          "files": {
+            "svg": "sources/user-identities-20261010/5cdc92c89a212502.svg",
+            "png": "sources/user-identities-20261010/fe57a9b371ad6ae2.png"
+          },
+          "aspect": 7.118263443512579,
+          "origin": "manual",
+          "provider": "사용자 제공 공식 AI · 가이드 제거 검수",
+          "derived_from": "BS2-05.ai",
+          "order": 13,
+          "asset_group": "logotype"
+        },
+        {
+          "key": "han-horizontal",
+          "label": "한문 좌우조합",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/user-identities-20261010/fdcbe15aa94e7101.svg",
+            "png": "sources/user-identities-20261010/04286e3a5c607cd6.png"
+          },
+          "aspect": 4.109546618815391,
+          "origin": "manual",
+          "provider": "사용자 제공 공식 AI · 가이드 제거 검수",
+          "derived_from": "BS2-06.ai",
+          "order": 14,
+          "asset_group": "logotype"
+        },
+        {
+          "key": "han-en-horizontal",
+          "label": "한영문 좌우조합",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/user-identities-20261010/e546a7ad69573fe4.svg",
+            "png": "sources/user-identities-20261010/8cfd0ee7033bf6f0.png"
+          },
+          "aspect": 3.655574139223716,
+          "origin": "manual",
+          "provider": "사용자 제공 공식 AI · 가이드 제거 검수",
+          "derived_from": "BS2-06.ai",
+          "order": 15,
+          "asset_group": "logotype"
+        },
+        {
+          "key": "symbol",
+          "label": "심볼마크",
+          "form": "symbol",
+          "lockup": "symbol",
+          "lang": "none",
+          "color": "original",
+          "files": {
+            "svg": "sources/user-identities-20261010/c55ebae0147d45fc.svg",
+            "png": "sources/user-identities-20261010/19ef5fc1a278c546.png"
+          },
+          "aspect": 1.4044123792112824,
+          "origin": "manual",
+          "provider": "사용자 제공 공식 AI · 가이드 제거 검수",
+          "derived_from": "BS2-01.ai",
+          "order": 16,
+          "asset_group": "symbol"
+        },
+        {
+          "key": "emblem-1-1",
+          "label": "엠블럼 A-1",
+          "form": "emblem",
+          "lockup": "unknown",
+          "lang": "ko",
+          "color": "original",
+          "files": {
+            "svg": "sources/user-identities-20261010/b9b1df6f6d4a8a33.svg",
+            "png": "sources/user-identities-20261010/2a940ebe28e65640.png"
+          },
+          "aspect": 0.9999893847395017,
+          "origin": "manual",
+          "provider": "사용자 제공 공식 AI · 가이드 제거 검수",
+          "derived_from": "BS3-08.ai",
+          "order": 17,
+          "asset_group": "emblem"
+        },
+        {
+          "key": "emblem-1-2",
+          "label": "엠블럼 A-2",
+          "form": "emblem",
+          "lockup": "unknown",
+          "lang": "ko",
+          "color": "original",
+          "files": {
+            "svg": "sources/user-identities-20261010/88da37f145fc26b5.svg",
+            "png": "sources/user-identities-20261010/445a7bd0635668b6.png"
+          },
+          "aspect": 0.9999469236975079,
+          "origin": "manual",
+          "provider": "사용자 제공 공식 AI · 가이드 제거 검수",
+          "derived_from": "BS3-08.ai",
+          "order": 18,
+          "asset_group": "emblem"
+        },
+        {
+          "key": "emblem-1-3",
+          "label": "엠블럼 A-3",
+          "form": "emblem",
+          "lockup": "unknown",
+          "lang": "ko",
+          "color": "original",
+          "files": {
+            "svg": "sources/user-identities-20261010/4fc1da19fd8805c2.svg",
+            "png": "sources/user-identities-20261010/9edc02bdf2bd4f5f.png"
+          },
+          "aspect": 0.9999893847395015,
+          "origin": "manual",
+          "provider": "사용자 제공 공식 AI · 가이드 제거 검수",
+          "derived_from": "BS3-08.ai",
+          "order": 19,
+          "asset_group": "emblem"
+        },
+        {
+          "key": "emblem-2-1",
+          "label": "엠블럼 A-4",
+          "form": "emblem",
+          "lockup": "unknown",
+          "lang": "ko",
+          "color": "original",
+          "files": {
+            "svg": "sources/user-identities-20261010/8590accf8e453394.svg",
+            "png": "sources/user-identities-20261010/523db2cb50e4c559.png"
+          },
+          "aspect": 1.0000106154858708,
+          "origin": "manual",
+          "provider": "사용자 제공 공식 AI · 가이드 제거 검수",
+          "derived_from": "BS3-08.ai",
+          "order": 20,
+          "asset_group": "emblem"
+        },
+        {
+          "key": "emblem-2-2",
+          "label": "엠블럼 A-5",
+          "form": "emblem",
+          "lockup": "unknown",
+          "lang": "ko",
+          "color": "original",
+          "files": {
+            "svg": "sources/user-identities-20261010/70ac65ae264ce298.svg",
+            "png": "sources/user-identities-20261010/16068951115d4c61.png"
+          },
+          "aspect": 0.9999893845141289,
+          "origin": "manual",
+          "provider": "사용자 제공 공식 AI · 가이드 제거 검수",
+          "derived_from": "BS3-08.ai",
+          "order": 21,
+          "asset_group": "emblem"
+        },
+        {
+          "key": "emblem-2-3",
+          "label": "엠블럼 A-6",
+          "form": "emblem",
+          "lockup": "unknown",
+          "lang": "ko",
+          "color": "original",
+          "files": {
+            "svg": "sources/user-identities-20261010/42ecefce4dcfe823.svg",
+            "png": "sources/user-identities-20261010/9c779bbfd8655d6e.png"
+          },
+          "aspect": 1.0000106154858706,
+          "origin": "manual",
+          "provider": "사용자 제공 공식 AI · 가이드 제거 검수",
+          "derived_from": "BS3-08.ai",
+          "order": 22,
+          "asset_group": "emblem"
+        },
+        {
+          "key": "emblem-3-1",
+          "label": "엠블럼 B-1",
+          "form": "emblem",
+          "lockup": "unknown",
+          "lang": "ko",
+          "color": "original",
+          "files": {
+            "svg": "sources/user-identities-20261010/1ea9aec88c625837.svg",
+            "png": "sources/user-identities-20261010/df696109b83cf43d.png"
+          },
+          "aspect": 0.8337108176211628,
+          "origin": "manual",
+          "provider": "사용자 제공 공식 AI · 가이드 제거 검수",
+          "derived_from": "BS3-08.ai",
+          "order": 23,
+          "asset_group": "emblem"
+        },
+        {
+          "key": "emblem-3-2",
+          "label": "엠블럼 B-2",
+          "form": "emblem",
+          "lockup": "unknown",
+          "lang": "ko",
+          "color": "original",
+          "files": {
+            "svg": "sources/user-identities-20261010/1da2235441fa9bf4.svg",
+            "png": "sources/user-identities-20261010/429773565b803cd9.png"
+          },
+          "aspect": 0.833312037428372,
+          "origin": "manual",
+          "provider": "사용자 제공 공식 AI · 가이드 제거 검수",
+          "derived_from": "BS3-08.ai",
+          "order": 24,
+          "asset_group": "emblem"
+        },
+        {
+          "key": "emblem-3-3",
+          "label": "엠블럼 B-3",
+          "form": "emblem",
+          "lockup": "unknown",
+          "lang": "ko",
+          "color": "original",
+          "files": {
+            "svg": "sources/user-identities-20261010/24d66ac40e9efca4.svg",
+            "png": "sources/user-identities-20261010/f21ad8f83ca1248c.png"
+          },
+          "aspect": 1.2000188719303622,
+          "origin": "manual",
+          "provider": "사용자 제공 공식 AI · 가이드 제거 검수",
+          "derived_from": "BS3-08.ai",
+          "order": 25,
+          "asset_group": "emblem"
+        },
+        {
+          "key": "characters",
+          "label": "캐릭터 · 기본형 2종",
+          "form": "mascot",
+          "lockup": "unknown",
+          "lang": "none",
+          "color": "original",
+          "files": {
+            "svg": "sources/user-identities-20261010/5893a5ad537f2e5c.svg",
+            "png": "sources/user-identities-20261010/ad6cd25023c8b603.png"
+          },
+          "aspect": 1.3066127199488036,
+          "origin": "manual",
+          "provider": "사용자 제공 공식 AI · 가이드 제거 검수",
+          "derived_from": "BS4-01.ai",
+          "order": 26,
+          "asset_group": "mascot"
+        }
+      ]
+    },
+    "nonsan-strawberry-expo-2027": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "nonsan-strawberry-expo-2027",
+      "primary": "identity-06",
+      "variants": [
+        {
+          "key": "identity-01",
+          "label": "로고타입 조직위원회 - 가로형",
+          "form": "wordmark",
+          "lockup": "wordmark",
+          "lang": "ko",
+          "color": "original",
+          "files": {
+            "svg": "sources/user-identities-20261010/8205c4ae37df4524.svg",
+            "png": "sources/user-identities-20261010/5997ea3ad7f7fb3e.png"
+          },
+          "aspect": 16.162229461224907,
+          "origin": "manual",
+          "provider": "사용자 제공 공식 AI · 가이드 제거 검수",
+          "derived_from": "로고타입 조직위원회 - 가로형.ai",
+          "order": 0,
+          "asset_group": "logotype"
+        },
+        {
+          "key": "identity-02",
+          "label": "로고타입 조직위원회 - 응용형",
+          "form": "wordmark",
+          "lockup": "wordmark",
+          "lang": "ko",
+          "color": "original",
+          "files": {
+            "svg": "sources/user-identities-20261010/6c5951451b18845c.svg",
+            "png": "sources/user-identities-20261010/3196e7d6c627dcb8.png"
+          },
+          "aspect": 4.027247559376366,
+          "origin": "manual",
+          "provider": "사용자 제공 공식 AI · 가이드 제거 검수",
+          "derived_from": "로고타입 조직위원회 - 응용형.ai",
+          "order": 1,
+          "asset_group": "logotype"
+        },
+        {
+          "key": "identity-03",
+          "label": "로고타입",
+          "form": "wordmark",
+          "lockup": "wordmark",
+          "lang": "ko",
+          "color": "original",
+          "files": {
+            "svg": "sources/user-identities-20261010/ed5776dabb20061d.svg",
+            "png": "sources/user-identities-20261010/e4c3eed3c729000d.png"
+          },
+          "aspect": 7.484497295189824,
+          "origin": "manual",
+          "provider": "사용자 제공 공식 AI · 가이드 제거 검수",
+          "derived_from": "로고타입.ai",
+          "order": 2,
+          "asset_group": "logotype"
+        },
+        {
+          "key": "identity-04",
+          "label": "슬로건",
+          "form": "wordmark",
+          "lockup": "wordmark",
+          "lang": "ko",
+          "color": "original",
+          "files": {
+            "svg": "sources/user-identities-20261010/f537d86ffaf3c2e8.svg",
+            "png": "sources/user-identities-20261010/9deed795dc373116.png"
+          },
+          "aspect": 13.835953779124836,
+          "origin": "manual",
+          "provider": "사용자 제공 공식 AI · 가이드 제거 검수",
+          "derived_from": "슬로건.ai",
+          "order": 3,
+          "asset_group": "logotype"
+        },
+        {
+          "key": "identity-05",
+          "label": "시그니처 - 국문",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "ko",
+          "color": "original",
+          "files": {
+            "svg": "sources/user-identities-20261010/50ab58985b34692d.svg",
+            "png": "sources/user-identities-20261010/4b5a213516f8bb5c.png"
+          },
+          "aspect": 3.345942317011902,
+          "origin": "manual",
+          "provider": "사용자 제공 공식 AI · 가이드 제거 검수",
+          "derived_from": "시그니처 - 국문.ai",
+          "order": 4,
+          "asset_group": "logotype"
+        },
+        {
+          "key": "identity-06",
+          "label": "시그니처 - 국영문",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "ko",
+          "color": "original",
+          "files": {
+            "svg": "sources/user-identities-20261010/4e399867af23cd12.svg",
+            "png": "sources/user-identities-20261010/33823826b9e1789a.png"
+          },
+          "aspect": 3.345942317011902,
+          "origin": "manual",
+          "provider": "사용자 제공 공식 AI · 가이드 제거 검수",
+          "derived_from": "시그니처 - 국영문.ai",
+          "order": 5,
+          "asset_group": "logotype"
+        },
+        {
+          "key": "identity-07",
+          "label": "시그니처 - 국일문",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/user-identities-20261010/4aece770a62c4c6b.svg",
+            "png": "sources/user-identities-20261010/521a5cb648571c7b.png"
+          },
+          "aspect": 3.3459480019689445,
+          "origin": "manual",
+          "provider": "사용자 제공 공식 AI · 가이드 제거 검수",
+          "derived_from": "시그니처 - 국일문.ai",
+          "order": 6,
+          "asset_group": "logotype"
+        },
+        {
+          "key": "identity-08",
+          "label": "시그니처 - 국중문",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/user-identities-20261010/bf3c738f3b958b11.svg",
+            "png": "sources/user-identities-20261010/e4a70a905a360c48.png"
+          },
+          "aspect": 3.3459480019689445,
+          "origin": "manual",
+          "provider": "사용자 제공 공식 AI · 가이드 제거 검수",
+          "derived_from": "시그니처 - 국중문.ai",
+          "order": 7,
+          "asset_group": "logotype"
+        },
+        {
+          "key": "identity-09",
+          "label": "시그니처 - 영문",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "en",
+          "color": "original",
+          "files": {
+            "svg": "sources/user-identities-20261010/318389bb15dd93e3.svg",
+            "png": "sources/user-identities-20261010/66a62c92a5074f13.png"
+          },
+          "aspect": 3.153326308582201,
+          "origin": "manual",
+          "provider": "사용자 제공 공식 AI · 가이드 제거 검수",
+          "derived_from": "시그니처 - 영문.ai",
+          "order": 8,
+          "asset_group": "logotype"
+        },
+        {
+          "key": "identity-10",
+          "label": "시그니처 응용형 - 국영문",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "ko",
+          "color": "original",
+          "files": {
+            "svg": "sources/user-identities-20261010/b8d2e3fa2eb7c483.svg",
+            "png": "sources/user-identities-20261010/525e0f799e01cb5c.png"
+          },
+          "aspect": 2.7050845703853987,
+          "origin": "manual",
+          "provider": "사용자 제공 공식 AI · 가이드 제거 검수",
+          "derived_from": "시그니처 응용형 - 국영문.ai",
+          "order": 9,
+          "asset_group": "logotype"
+        },
+        {
+          "key": "identity-11",
+          "label": "시그니처 응용형 - 국일문",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/user-identities-20261010/2075d7cbc1543468.svg",
+            "png": "sources/user-identities-20261010/421018947de1238e.png"
+          },
+          "aspect": 2.7050845703853987,
+          "origin": "manual",
+          "provider": "사용자 제공 공식 AI · 가이드 제거 검수",
+          "derived_from": "시그니처 응용형 - 국일문.ai",
+          "order": 10,
+          "asset_group": "logotype"
+        },
+        {
+          "key": "identity-12",
+          "label": "시그니처 응용형 - 국중문",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/user-identities-20261010/c30244d8e97b6054.svg",
+            "png": "sources/user-identities-20261010/f7a74edab42a0221.png"
+          },
+          "aspect": 2.7050845703853987,
+          "origin": "manual",
+          "provider": "사용자 제공 공식 AI · 가이드 제거 검수",
+          "derived_from": "시그니처 응용형 - 국중문.ai",
+          "order": 11,
+          "asset_group": "logotype"
+        },
+        {
+          "key": "symbol",
+          "label": "심벌마크",
+          "form": "symbol",
+          "lockup": "symbol",
+          "lang": "none",
+          "color": "original",
+          "files": {
+            "svg": "sources/user-identities-20261010/4c95058723e1cad0.svg",
+            "png": "sources/user-identities-20261010/ffc311917ddf245a.png"
+          },
+          "aspect": 0.6667775338183578,
+          "origin": "manual",
+          "provider": "사용자 제공 공식 AI · 가이드 제거 검수",
+          "derived_from": "심벌마크.ai",
+          "order": 12,
+          "asset_group": "symbol"
+        }
+      ]
+    },
+    "dangjin": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "dangjin",
+      "primary": "signature",
+      "variants": [
+        {
+          "key": "symbol",
+          "label": "심볼마크",
+          "form": "symbol",
+          "lockup": "symbol",
+          "lang": "none",
+          "color": "original",
+          "files": {
+            "svg": "sources/user-identities-20261010/6ad279765efd1f70.svg",
+            "png": "sources/user-identities-20261010/b4d66959654ac49b.png"
+          },
+          "aspect": 1.0133047516618632,
+          "origin": "manual",
+          "provider": "사용자 제공 공식 AI · 가이드 제거 검수",
+          "derived_from": "DangjnCity_SymbolMark.ai",
+          "order": 0,
+          "asset_group": "symbol"
+        },
+        {
+          "key": "wordmark",
+          "label": "로고타입 · 당찬 당진",
+          "form": "wordmark",
+          "lockup": "wordmark",
+          "lang": "ko",
+          "color": "original",
+          "files": {
+            "svg": "sources/user-identities-20261010/f6a7874fae8712e3.svg",
+            "png": "sources/user-identities-20261010/3d1b863d648e8f1c.png"
+          },
+          "aspect": 4.2722605936158295,
+          "origin": "manual",
+          "provider": "사용자 제공 공식 AI · 가이드 제거 검수",
+          "derived_from": "DangjnCity_LogoType.ai",
+          "order": 1,
+          "asset_group": "logotype"
+        },
+        {
+          "key": "signature",
+          "label": "시그니처 · Energetic Dangjin",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "ko",
+          "color": "original",
+          "files": {
+            "svg": "sources/user-identities-20261010/f9cd35abfdd4bfc5.svg",
+            "png": "sources/user-identities-20261010/3ec954a7f27e4d3f.png"
+          },
+          "aspect": 2.008509640612265,
+          "origin": "manual",
+          "provider": "사용자 제공 공식 AI · 가이드 제거 검수",
+          "derived_from": "DangjnCity_Signature.ai",
+          "order": 2,
+          "asset_group": "logotype"
+        },
+        {
+          "key": "character",
+          "label": "캐릭터 · 기본형",
+          "form": "mascot",
+          "lockup": "unknown",
+          "lang": "none",
+          "color": "original",
+          "files": {
+            "svg": "sources/user-identities-20261010/05b703166629c67c.svg",
+            "png": "sources/user-identities-20261010/0b2d43e7e5857441.png"
+          },
+          "aspect": 0.42313007507560146,
+          "origin": "manual",
+          "provider": "사용자 제공 공식 AI · 가이드 제거 검수",
+          "derived_from": "DangjnCity_Character.ai",
+          "order": 3,
+          "asset_group": "mascot"
+        }
+      ]
+    },
+    "dangjin-port": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "dangjin-port",
+      "primary": "signature",
+      "variants": [
+        {
+          "key": "signature",
+          "label": "당진항 · 국영문 좌우조합",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "ko",
+          "color": "original",
+          "files": {
+            "svg": "sources/user-identities-20261010/a14dc2c2a771ebe8.svg",
+            "png": "sources/user-identities-20261010/c4ae535fe9897130.png"
+          },
+          "aspect": 3.044561790897337,
+          "origin": "manual",
+          "provider": "사용자 제공 공식 AI · 가이드 제거 검수",
+          "derived_from": "DangjnCity_Port.ai",
+          "order": 0,
+          "asset_group": "logotype"
+        },
+        {
+          "key": "symbol",
+          "label": "당진항 · 심볼마크",
+          "form": "symbol",
+          "lockup": "symbol",
+          "lang": "none",
+          "color": "original",
+          "files": {
+            "svg": "sources/user-identities-20261010/1a24bea460523323.svg",
+            "png": "sources/user-identities-20261010/e1ea57ae8a72d6c0.png"
+          },
+          "aspect": 1.0316181704606533,
+          "origin": "manual",
+          "provider": "사용자 제공 공식 AI · 가이드 제거 검수",
+          "derived_from": "DangjnCity_Port.ai",
+          "order": 1,
+          "asset_group": "symbol"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,608 @@
+[
+  {
+    "id": "south-chungcheong",
+    "file": "marketing/assets/user-identities-20261010/south-chungcheong/ko-mark.svg",
+    "key": "_clients/south-chungcheong/sources/user-identities-20261010/3bf253a4433059b1.svg",
+    "sha256": "3bf253a4433059b1265abf5276bf6ff47a89cd2cf989eda5bf0a53a6e3a35120"
+  },
+  {
+    "id": "south-chungcheong",
+    "file": "marketing/assets/user-identities-20261010/south-chungcheong/ko-mark.png",
+    "key": "_clients/south-chungcheong/sources/user-identities-20261010/21f55a76fcbf8079.png",
+    "sha256": "21f55a76fcbf807923f46680f21bd7355396cb0b2c285a66061d451087014ea7"
+  },
+  {
+    "id": "south-chungcheong",
+    "file": "marketing/assets/user-identities-20261010/south-chungcheong/ko-en-mark.svg",
+    "key": "_clients/south-chungcheong/sources/user-identities-20261010/26e4357e819a7c7b.svg",
+    "sha256": "26e4357e819a7c7be3879e89d2c8a84454d3994c36f92c19a008f8c9c41f2b55"
+  },
+  {
+    "id": "south-chungcheong",
+    "file": "marketing/assets/user-identities-20261010/south-chungcheong/ko-en-mark.png",
+    "key": "_clients/south-chungcheong/sources/user-identities-20261010/f23f3dfa2a3f81c2.png",
+    "sha256": "f23f3dfa2a3f81c2bb9ad1cb379fcc3ccc68895d825aea3d386379a4da8d91d0"
+  },
+  {
+    "id": "south-chungcheong",
+    "file": "marketing/assets/user-identities-20261010/south-chungcheong/ko-text.svg",
+    "key": "_clients/south-chungcheong/sources/user-identities-20261010/319cf1167986b11c.svg",
+    "sha256": "319cf1167986b11c16779080ce3f183af688c82597b963b0c68f47248e40b918"
+  },
+  {
+    "id": "south-chungcheong",
+    "file": "marketing/assets/user-identities-20261010/south-chungcheong/ko-text.png",
+    "key": "_clients/south-chungcheong/sources/user-identities-20261010/704236664d6416dd.png",
+    "sha256": "704236664d6416dd0c6d4ef29c42a9621f6476aad4feecc3c27fa43100b7ee5e"
+  },
+  {
+    "id": "south-chungcheong",
+    "file": "marketing/assets/user-identities-20261010/south-chungcheong/ko-en-text.svg",
+    "key": "_clients/south-chungcheong/sources/user-identities-20261010/92960c65994ab768.svg",
+    "sha256": "92960c65994ab7686f8b1b2a10f18528614440aee971460212113a1b73656218"
+  },
+  {
+    "id": "south-chungcheong",
+    "file": "marketing/assets/user-identities-20261010/south-chungcheong/ko-en-text.png",
+    "key": "_clients/south-chungcheong/sources/user-identities-20261010/8f9e9a2735a60663.png",
+    "sha256": "8f9e9a2735a606631cfa528f5f4d9f1a90424034fba7d267a7643707141f2269"
+  },
+  {
+    "id": "south-chungcheong",
+    "file": "marketing/assets/user-identities-20261010/south-chungcheong/en-short.svg",
+    "key": "_clients/south-chungcheong/sources/user-identities-20261010/9bc54847842ed224.svg",
+    "sha256": "9bc54847842ed2240971439356fe4f4ae4487debe8476fcc33927c36c83a93f2"
+  },
+  {
+    "id": "south-chungcheong",
+    "file": "marketing/assets/user-identities-20261010/south-chungcheong/en-short.png",
+    "key": "_clients/south-chungcheong/sources/user-identities-20261010/65f675382cd39817.png",
+    "sha256": "65f675382cd39817b884cdeedc41a5a5714da5253cccdbf07a783842eb734fb8"
+  },
+  {
+    "id": "south-chungcheong",
+    "file": "marketing/assets/user-identities-20261010/south-chungcheong/en-full.svg",
+    "key": "_clients/south-chungcheong/sources/user-identities-20261010/c65f2ca0cf6f41b1.svg",
+    "sha256": "c65f2ca0cf6f41b1f0406ba34f242d3bfd818d2b654369b2063fea357c306cef"
+  },
+  {
+    "id": "south-chungcheong",
+    "file": "marketing/assets/user-identities-20261010/south-chungcheong/en-full.png",
+    "key": "_clients/south-chungcheong/sources/user-identities-20261010/abf2eadc74257d40.png",
+    "sha256": "abf2eadc74257d406d7298abbd8e3496ff58065a222095bbaeb49d37184114f6"
+  },
+  {
+    "id": "south-chungcheong",
+    "file": "marketing/assets/user-identities-20261010/south-chungcheong/han-mark.svg",
+    "key": "_clients/south-chungcheong/sources/user-identities-20261010/559b98afe51dd7e1.svg",
+    "sha256": "559b98afe51dd7e1e905a5e241b0fc918584fea3fe1bd03758fc52075b8364bf"
+  },
+  {
+    "id": "south-chungcheong",
+    "file": "marketing/assets/user-identities-20261010/south-chungcheong/han-mark.png",
+    "key": "_clients/south-chungcheong/sources/user-identities-20261010/a0cba2b80cfb85c1.png",
+    "sha256": "a0cba2b80cfb85c15a41440501b643960a2ed98c96151b01128e9c8c203c9c7e"
+  },
+  {
+    "id": "south-chungcheong",
+    "file": "marketing/assets/user-identities-20261010/south-chungcheong/han-en-mark.svg",
+    "key": "_clients/south-chungcheong/sources/user-identities-20261010/d76e615fda01c6a9.svg",
+    "sha256": "d76e615fda01c6a9d114048930af184530cc356a122ecc4bd481e27a0267fe1c"
+  },
+  {
+    "id": "south-chungcheong",
+    "file": "marketing/assets/user-identities-20261010/south-chungcheong/han-en-mark.png",
+    "key": "_clients/south-chungcheong/sources/user-identities-20261010/f4388bd0e0f478e3.png",
+    "sha256": "f4388bd0e0f478e33003d71ad79fcd2e86c62ef549edc8b92322532355b68b4d"
+  },
+  {
+    "id": "south-chungcheong",
+    "file": "marketing/assets/user-identities-20261010/south-chungcheong/han-text.svg",
+    "key": "_clients/south-chungcheong/sources/user-identities-20261010/6897d0b0565dbd14.svg",
+    "sha256": "6897d0b0565dbd1405adea30e05f13dd6ee681a85618232089db32a8e173d748"
+  },
+  {
+    "id": "south-chungcheong",
+    "file": "marketing/assets/user-identities-20261010/south-chungcheong/han-text.png",
+    "key": "_clients/south-chungcheong/sources/user-identities-20261010/f68b57bf595d7d03.png",
+    "sha256": "f68b57bf595d7d033b43fc6988e8286a260b0b1136362de43da82131b8e81982"
+  },
+  {
+    "id": "south-chungcheong",
+    "file": "marketing/assets/user-identities-20261010/south-chungcheong/han-en-text.svg",
+    "key": "_clients/south-chungcheong/sources/user-identities-20261010/d783695e79899326.svg",
+    "sha256": "d783695e7989932618e39f0f0a833a0106dd647bfad4332bac8c252cef4c7c66"
+  },
+  {
+    "id": "south-chungcheong",
+    "file": "marketing/assets/user-identities-20261010/south-chungcheong/han-en-text.png",
+    "key": "_clients/south-chungcheong/sources/user-identities-20261010/0fb6faa54fe8f5d5.png",
+    "sha256": "0fb6faa54fe8f5d59327be0ad9f08d983edf6bc4acdc7ac77c0be39629753fc7"
+  },
+  {
+    "id": "south-chungcheong",
+    "file": "marketing/assets/user-identities-20261010/south-chungcheong/ko-horizontal.svg",
+    "key": "_clients/south-chungcheong/sources/user-identities-20261010/2f0286bd133606f0.svg",
+    "sha256": "2f0286bd133606f01670bb65c40a67b5700414721494073b1359b897b9619d69"
+  },
+  {
+    "id": "south-chungcheong",
+    "file": "marketing/assets/user-identities-20261010/south-chungcheong/ko-horizontal.png",
+    "key": "_clients/south-chungcheong/sources/user-identities-20261010/8a7d574ff216e129.png",
+    "sha256": "8a7d574ff216e12969051bd067dce60793d208801ed9a3d74d888ddf94b0a276"
+  },
+  {
+    "id": "south-chungcheong",
+    "file": "marketing/assets/user-identities-20261010/south-chungcheong/ko-en-horizontal.svg",
+    "key": "_clients/south-chungcheong/sources/user-identities-20261010/12c0724dc99dda2b.svg",
+    "sha256": "12c0724dc99dda2be73c3ea423b22eb4414534a32a102872f3ab5194a759fd04"
+  },
+  {
+    "id": "south-chungcheong",
+    "file": "marketing/assets/user-identities-20261010/south-chungcheong/ko-en-horizontal.png",
+    "key": "_clients/south-chungcheong/sources/user-identities-20261010/aa3ef98c17f07f9c.png",
+    "sha256": "aa3ef98c17f07f9c9c85771da92994f049146ee3b5466c6bd1022f2df5e227b0"
+  },
+  {
+    "id": "south-chungcheong",
+    "file": "marketing/assets/user-identities-20261010/south-chungcheong/en-short-horizontal.svg",
+    "key": "_clients/south-chungcheong/sources/user-identities-20261010/c2347380cbb43612.svg",
+    "sha256": "c2347380cbb43612aa9a912794f39d88ddd4b0cddb6ea5dcb569bf2ebe3a8a10"
+  },
+  {
+    "id": "south-chungcheong",
+    "file": "marketing/assets/user-identities-20261010/south-chungcheong/en-short-horizontal.png",
+    "key": "_clients/south-chungcheong/sources/user-identities-20261010/08b675b912297010.png",
+    "sha256": "08b675b912297010d3cce2ef6006e9256b28e69f6e2c6f9cbb8aff9687423cf8"
+  },
+  {
+    "id": "south-chungcheong",
+    "file": "marketing/assets/user-identities-20261010/south-chungcheong/en-full-horizontal.svg",
+    "key": "_clients/south-chungcheong/sources/user-identities-20261010/5cdc92c89a212502.svg",
+    "sha256": "5cdc92c89a212502ed5888973829b3bb5eba16914bfaa8945c921c8efe006ccb"
+  },
+  {
+    "id": "south-chungcheong",
+    "file": "marketing/assets/user-identities-20261010/south-chungcheong/en-full-horizontal.png",
+    "key": "_clients/south-chungcheong/sources/user-identities-20261010/fe57a9b371ad6ae2.png",
+    "sha256": "fe57a9b371ad6ae201c037ec9fb8a4f97a2b4e615fc1294797819905ad7f59c8"
+  },
+  {
+    "id": "south-chungcheong",
+    "file": "marketing/assets/user-identities-20261010/south-chungcheong/han-horizontal.svg",
+    "key": "_clients/south-chungcheong/sources/user-identities-20261010/fdcbe15aa94e7101.svg",
+    "sha256": "fdcbe15aa94e71017d6ff4808e6f670dfa17827d70df56b2c389f1c735ebda7d"
+  },
+  {
+    "id": "south-chungcheong",
+    "file": "marketing/assets/user-identities-20261010/south-chungcheong/han-horizontal.png",
+    "key": "_clients/south-chungcheong/sources/user-identities-20261010/04286e3a5c607cd6.png",
+    "sha256": "04286e3a5c607cd66d44d954691b6d7b19df52005e2a494bd1031e753c17373e"
+  },
+  {
+    "id": "south-chungcheong",
+    "file": "marketing/assets/user-identities-20261010/south-chungcheong/han-en-horizontal.svg",
+    "key": "_clients/south-chungcheong/sources/user-identities-20261010/e546a7ad69573fe4.svg",
+    "sha256": "e546a7ad69573fe4382771709706f03397de18314d38960356528880e12ff92e"
+  },
+  {
+    "id": "south-chungcheong",
+    "file": "marketing/assets/user-identities-20261010/south-chungcheong/han-en-horizontal.png",
+    "key": "_clients/south-chungcheong/sources/user-identities-20261010/8cfd0ee7033bf6f0.png",
+    "sha256": "8cfd0ee7033bf6f0f7061240657286c6167a51d30aa47232483d65a037519778"
+  },
+  {
+    "id": "south-chungcheong",
+    "file": "marketing/assets/user-identities-20261010/south-chungcheong/symbol.svg",
+    "key": "_clients/south-chungcheong/sources/user-identities-20261010/c55ebae0147d45fc.svg",
+    "sha256": "c55ebae0147d45fc8880a9cfd18d049c1d42393964481fdc678c1a1bfabf286c"
+  },
+  {
+    "id": "south-chungcheong",
+    "file": "marketing/assets/user-identities-20261010/south-chungcheong/symbol.png",
+    "key": "_clients/south-chungcheong/sources/user-identities-20261010/19ef5fc1a278c546.png",
+    "sha256": "19ef5fc1a278c54697cb4c8dc855aa5e7da4beeb4a65c5a7498d24b6b0286a57"
+  },
+  {
+    "id": "south-chungcheong",
+    "file": "marketing/assets/user-identities-20261010/south-chungcheong/emblem-1-1.svg",
+    "key": "_clients/south-chungcheong/sources/user-identities-20261010/b9b1df6f6d4a8a33.svg",
+    "sha256": "b9b1df6f6d4a8a336ffe6f73e33c4feeae4b61f17ec5de91660fb4832a37c107"
+  },
+  {
+    "id": "south-chungcheong",
+    "file": "marketing/assets/user-identities-20261010/south-chungcheong/emblem-1-1.png",
+    "key": "_clients/south-chungcheong/sources/user-identities-20261010/2a940ebe28e65640.png",
+    "sha256": "2a940ebe28e65640065ad4a77c1664010415f36b73cd0a7cf3727ab4501788fa"
+  },
+  {
+    "id": "south-chungcheong",
+    "file": "marketing/assets/user-identities-20261010/south-chungcheong/emblem-1-2.svg",
+    "key": "_clients/south-chungcheong/sources/user-identities-20261010/88da37f145fc26b5.svg",
+    "sha256": "88da37f145fc26b5b21535636d9389bb2865563487396cc8b8b5c8bbfc8988d0"
+  },
+  {
+    "id": "south-chungcheong",
+    "file": "marketing/assets/user-identities-20261010/south-chungcheong/emblem-1-2.png",
+    "key": "_clients/south-chungcheong/sources/user-identities-20261010/445a7bd0635668b6.png",
+    "sha256": "445a7bd0635668b689803fd4bdbdccf689dc30361760c8414f33494999b083c4"
+  },
+  {
+    "id": "south-chungcheong",
+    "file": "marketing/assets/user-identities-20261010/south-chungcheong/emblem-1-3.svg",
+    "key": "_clients/south-chungcheong/sources/user-identities-20261010/4fc1da19fd8805c2.svg",
+    "sha256": "4fc1da19fd8805c2aec6ae370b5717b0573a866731371f4964f0389ae22d3eca"
+  },
+  {
+    "id": "south-chungcheong",
+    "file": "marketing/assets/user-identities-20261010/south-chungcheong/emblem-1-3.png",
+    "key": "_clients/south-chungcheong/sources/user-identities-20261010/9edc02bdf2bd4f5f.png",
+    "sha256": "9edc02bdf2bd4f5ffabf4276846604e414b5f276a14bed2fa0ec402e359745ce"
+  },
+  {
+    "id": "south-chungcheong",
+    "file": "marketing/assets/user-identities-20261010/south-chungcheong/emblem-2-1.svg",
+    "key": "_clients/south-chungcheong/sources/user-identities-20261010/8590accf8e453394.svg",
+    "sha256": "8590accf8e45339452292a03de771e23da13d97ebc7e16448a1f1cc2caac8565"
+  },
+  {
+    "id": "south-chungcheong",
+    "file": "marketing/assets/user-identities-20261010/south-chungcheong/emblem-2-1.png",
+    "key": "_clients/south-chungcheong/sources/user-identities-20261010/523db2cb50e4c559.png",
+    "sha256": "523db2cb50e4c5595ff7bc27ab780be2e640e7403048af622e078541c19db874"
+  },
+  {
+    "id": "south-chungcheong",
+    "file": "marketing/assets/user-identities-20261010/south-chungcheong/emblem-2-2.svg",
+    "key": "_clients/south-chungcheong/sources/user-identities-20261010/70ac65ae264ce298.svg",
+    "sha256": "70ac65ae264ce2985f2756efef97cb4f178536c8994333681fc1bfe5b4a84b08"
+  },
+  {
+    "id": "south-chungcheong",
+    "file": "marketing/assets/user-identities-20261010/south-chungcheong/emblem-2-2.png",
+    "key": "_clients/south-chungcheong/sources/user-identities-20261010/16068951115d4c61.png",
+    "sha256": "16068951115d4c612c9abbeeb29a79a01759aabbb92f0a51eba85e357d4e741c"
+  },
+  {
+    "id": "south-chungcheong",
+    "file": "marketing/assets/user-identities-20261010/south-chungcheong/emblem-2-3.svg",
+    "key": "_clients/south-chungcheong/sources/user-identities-20261010/42ecefce4dcfe823.svg",
+    "sha256": "42ecefce4dcfe823a9b98af252a00efac52d9804ec89f40e7ac9ee904e1a32db"
+  },
+  {
+    "id": "south-chungcheong",
+    "file": "marketing/assets/user-identities-20261010/south-chungcheong/emblem-2-3.png",
+    "key": "_clients/south-chungcheong/sources/user-identities-20261010/9c779bbfd8655d6e.png",
+    "sha256": "9c779bbfd8655d6e980af8a10bd2a55bf5d2fc2ef95be748c6e2bc8f565d92e1"
+  },
+  {
+    "id": "south-chungcheong",
+    "file": "marketing/assets/user-identities-20261010/south-chungcheong/emblem-3-1.svg",
+    "key": "_clients/south-chungcheong/sources/user-identities-20261010/1ea9aec88c625837.svg",
+    "sha256": "1ea9aec88c625837b1ffda1498ab0e0ce8a959fbe40a66797584652cba8b6c15"
+  },
+  {
+    "id": "south-chungcheong",
+    "file": "marketing/assets/user-identities-20261010/south-chungcheong/emblem-3-1.png",
+    "key": "_clients/south-chungcheong/sources/user-identities-20261010/df696109b83cf43d.png",
+    "sha256": "df696109b83cf43d93f68226cba8db6cab70217292c7b62875c0516c1a91f722"
+  },
+  {
+    "id": "south-chungcheong",
+    "file": "marketing/assets/user-identities-20261010/south-chungcheong/emblem-3-2.svg",
+    "key": "_clients/south-chungcheong/sources/user-identities-20261010/1da2235441fa9bf4.svg",
+    "sha256": "1da2235441fa9bf4f5acaa1b8a67c43327cc8c42789a09710f155ff1d78d2654"
+  },
+  {
+    "id": "south-chungcheong",
+    "file": "marketing/assets/user-identities-20261010/south-chungcheong/emblem-3-2.png",
+    "key": "_clients/south-chungcheong/sources/user-identities-20261010/429773565b803cd9.png",
+    "sha256": "429773565b803cd9abf5e53bacf08bb383c6f207338797a5c9f2cb1acee006f2"
+  },
+  {
+    "id": "south-chungcheong",
+    "file": "marketing/assets/user-identities-20261010/south-chungcheong/emblem-3-3.svg",
+    "key": "_clients/south-chungcheong/sources/user-identities-20261010/24d66ac40e9efca4.svg",
+    "sha256": "24d66ac40e9efca4349967290ac02e29e174a363bdc3feede74d71118a41c4c9"
+  },
+  {
+    "id": "south-chungcheong",
+    "file": "marketing/assets/user-identities-20261010/south-chungcheong/emblem-3-3.png",
+    "key": "_clients/south-chungcheong/sources/user-identities-20261010/f21ad8f83ca1248c.png",
+    "sha256": "f21ad8f83ca1248c070d5fd7a6853f604a141e2c4ac3a05ee688399bb5792375"
+  },
+  {
+    "id": "south-chungcheong",
+    "file": "marketing/assets/user-identities-20261010/south-chungcheong/characters.svg",
+    "key": "_clients/south-chungcheong/sources/user-identities-20261010/5893a5ad537f2e5c.svg",
+    "sha256": "5893a5ad537f2e5c893287724fb866f256ac954749f9b182e82e4a58b0cac58e"
+  },
+  {
+    "id": "south-chungcheong",
+    "file": "marketing/assets/user-identities-20261010/south-chungcheong/characters.png",
+    "key": "_clients/south-chungcheong/sources/user-identities-20261010/ad6cd25023c8b603.png",
+    "sha256": "ad6cd25023c8b6038583cee8e7c90c77b9a6c88f1f6ddc143baa8a83010c341c"
+  },
+  {
+    "id": "nonsan-strawberry-expo-2027",
+    "file": "marketing/assets/user-identities-20261010/nonsan-strawberry-expo-2027/identity-01.svg",
+    "key": "_clients/nonsan-strawberry-expo-2027/sources/user-identities-20261010/8205c4ae37df4524.svg",
+    "sha256": "8205c4ae37df452449943fd634d4943c5c815b9dace8ecf6756fd4742dcdf535"
+  },
+  {
+    "id": "nonsan-strawberry-expo-2027",
+    "file": "marketing/assets/user-identities-20261010/nonsan-strawberry-expo-2027/identity-01.png",
+    "key": "_clients/nonsan-strawberry-expo-2027/sources/user-identities-20261010/5997ea3ad7f7fb3e.png",
+    "sha256": "5997ea3ad7f7fb3e418bc017993fa9efcf80c12bcdf39fb0fd375524ce733fde"
+  },
+  {
+    "id": "nonsan-strawberry-expo-2027",
+    "file": "marketing/assets/user-identities-20261010/nonsan-strawberry-expo-2027/identity-02.svg",
+    "key": "_clients/nonsan-strawberry-expo-2027/sources/user-identities-20261010/6c5951451b18845c.svg",
+    "sha256": "6c5951451b18845ce58a68a745ef560f4a8435cc908c0aa9cac22913d26c3c9c"
+  },
+  {
+    "id": "nonsan-strawberry-expo-2027",
+    "file": "marketing/assets/user-identities-20261010/nonsan-strawberry-expo-2027/identity-02.png",
+    "key": "_clients/nonsan-strawberry-expo-2027/sources/user-identities-20261010/3196e7d6c627dcb8.png",
+    "sha256": "3196e7d6c627dcb867c259e7372c3935668c030ba56e4723f5d2c80ce1281dac"
+  },
+  {
+    "id": "nonsan-strawberry-expo-2027",
+    "file": "marketing/assets/user-identities-20261010/nonsan-strawberry-expo-2027/identity-03.svg",
+    "key": "_clients/nonsan-strawberry-expo-2027/sources/user-identities-20261010/ed5776dabb20061d.svg",
+    "sha256": "ed5776dabb20061d0e2b2230ba6044ef45b2eaad7b0273305d26f7c86a11389e"
+  },
+  {
+    "id": "nonsan-strawberry-expo-2027",
+    "file": "marketing/assets/user-identities-20261010/nonsan-strawberry-expo-2027/identity-03.png",
+    "key": "_clients/nonsan-strawberry-expo-2027/sources/user-identities-20261010/e4c3eed3c729000d.png",
+    "sha256": "e4c3eed3c729000d26976a7ac7ae9741ed24827c6ebe889fc27ef0f9a6342573"
+  },
+  {
+    "id": "nonsan-strawberry-expo-2027",
+    "file": "marketing/assets/user-identities-20261010/nonsan-strawberry-expo-2027/identity-04.svg",
+    "key": "_clients/nonsan-strawberry-expo-2027/sources/user-identities-20261010/f537d86ffaf3c2e8.svg",
+    "sha256": "f537d86ffaf3c2e87f922c7da6343dc088d15ae6df16e0a89fddb11c40800052"
+  },
+  {
+    "id": "nonsan-strawberry-expo-2027",
+    "file": "marketing/assets/user-identities-20261010/nonsan-strawberry-expo-2027/identity-04.png",
+    "key": "_clients/nonsan-strawberry-expo-2027/sources/user-identities-20261010/9deed795dc373116.png",
+    "sha256": "9deed795dc373116661147292ef82938aed3a4c6627b3449388a4b7a9caae871"
+  },
+  {
+    "id": "nonsan-strawberry-expo-2027",
+    "file": "marketing/assets/user-identities-20261010/nonsan-strawberry-expo-2027/identity-05.svg",
+    "key": "_clients/nonsan-strawberry-expo-2027/sources/user-identities-20261010/50ab58985b34692d.svg",
+    "sha256": "50ab58985b34692d623ee9b663986fe01c94050d577f368ebc34b0e08ff95d2d"
+  },
+  {
+    "id": "nonsan-strawberry-expo-2027",
+    "file": "marketing/assets/user-identities-20261010/nonsan-strawberry-expo-2027/identity-05.png",
+    "key": "_clients/nonsan-strawberry-expo-2027/sources/user-identities-20261010/4b5a213516f8bb5c.png",
+    "sha256": "4b5a213516f8bb5c429face01c9fa0f813007ddcc4c45b964e1a35c97e1fd5c3"
+  },
+  {
+    "id": "nonsan-strawberry-expo-2027",
+    "file": "marketing/assets/user-identities-20261010/nonsan-strawberry-expo-2027/identity-06.svg",
+    "key": "_clients/nonsan-strawberry-expo-2027/sources/user-identities-20261010/4e399867af23cd12.svg",
+    "sha256": "4e399867af23cd1205f6b356ec9bd4a308819b329984c2e1711cbea3b4eb9890"
+  },
+  {
+    "id": "nonsan-strawberry-expo-2027",
+    "file": "marketing/assets/user-identities-20261010/nonsan-strawberry-expo-2027/identity-06.png",
+    "key": "_clients/nonsan-strawberry-expo-2027/sources/user-identities-20261010/33823826b9e1789a.png",
+    "sha256": "33823826b9e1789a328ac17e5a3413b6862d25490496cc726b12c52393c5c546"
+  },
+  {
+    "id": "nonsan-strawberry-expo-2027",
+    "file": "marketing/assets/user-identities-20261010/nonsan-strawberry-expo-2027/identity-07.svg",
+    "key": "_clients/nonsan-strawberry-expo-2027/sources/user-identities-20261010/4aece770a62c4c6b.svg",
+    "sha256": "4aece770a62c4c6b2c8b448d72bdd923b4a97e9192df1f9c5a6f07c9c1ba8eea"
+  },
+  {
+    "id": "nonsan-strawberry-expo-2027",
+    "file": "marketing/assets/user-identities-20261010/nonsan-strawberry-expo-2027/identity-07.png",
+    "key": "_clients/nonsan-strawberry-expo-2027/sources/user-identities-20261010/521a5cb648571c7b.png",
+    "sha256": "521a5cb648571c7b3f5e17f956af0a28763c718134cbe1cc5438671656238cae"
+  },
+  {
+    "id": "nonsan-strawberry-expo-2027",
+    "file": "marketing/assets/user-identities-20261010/nonsan-strawberry-expo-2027/identity-08.svg",
+    "key": "_clients/nonsan-strawberry-expo-2027/sources/user-identities-20261010/bf3c738f3b958b11.svg",
+    "sha256": "bf3c738f3b958b11823f0eeef7b003e221a591e9bab22658e8123d0ca976f49b"
+  },
+  {
+    "id": "nonsan-strawberry-expo-2027",
+    "file": "marketing/assets/user-identities-20261010/nonsan-strawberry-expo-2027/identity-08.png",
+    "key": "_clients/nonsan-strawberry-expo-2027/sources/user-identities-20261010/e4a70a905a360c48.png",
+    "sha256": "e4a70a905a360c480686f95c446e8e429152649a5d0df43374bb8f7e915f65ec"
+  },
+  {
+    "id": "nonsan-strawberry-expo-2027",
+    "file": "marketing/assets/user-identities-20261010/nonsan-strawberry-expo-2027/identity-09.svg",
+    "key": "_clients/nonsan-strawberry-expo-2027/sources/user-identities-20261010/318389bb15dd93e3.svg",
+    "sha256": "318389bb15dd93e37a84c61a552595af2f106303aae23d5ed183798ec04f6359"
+  },
+  {
+    "id": "nonsan-strawberry-expo-2027",
+    "file": "marketing/assets/user-identities-20261010/nonsan-strawberry-expo-2027/identity-09.png",
+    "key": "_clients/nonsan-strawberry-expo-2027/sources/user-identities-20261010/66a62c92a5074f13.png",
+    "sha256": "66a62c92a5074f1348175efa28d473c8fdc10938e9054703c696d908a2e84a8d"
+  },
+  {
+    "id": "nonsan-strawberry-expo-2027",
+    "file": "marketing/assets/user-identities-20261010/nonsan-strawberry-expo-2027/identity-10.svg",
+    "key": "_clients/nonsan-strawberry-expo-2027/sources/user-identities-20261010/b8d2e3fa2eb7c483.svg",
+    "sha256": "b8d2e3fa2eb7c4830e39a0f92fede2706050b098dc661041336c42f4ae937a79"
+  },
+  {
+    "id": "nonsan-strawberry-expo-2027",
+    "file": "marketing/assets/user-identities-20261010/nonsan-strawberry-expo-2027/identity-10.png",
+    "key": "_clients/nonsan-strawberry-expo-2027/sources/user-identities-20261010/525e0f799e01cb5c.png",
+    "sha256": "525e0f799e01cb5ca2e6ce1b4b1952c56a75c49f33d727dd1d77daba2d85c4ac"
+  },
+  {
+    "id": "nonsan-strawberry-expo-2027",
+    "file": "marketing/assets/user-identities-20261010/nonsan-strawberry-expo-2027/identity-11.svg",
+    "key": "_clients/nonsan-strawberry-expo-2027/sources/user-identities-20261010/2075d7cbc1543468.svg",
+    "sha256": "2075d7cbc15434685ab94dcaec1de7de93f26cc8b355337b35a93efd857c1e90"
+  },
+  {
+    "id": "nonsan-strawberry-expo-2027",
+    "file": "marketing/assets/user-identities-20261010/nonsan-strawberry-expo-2027/identity-11.png",
+    "key": "_clients/nonsan-strawberry-expo-2027/sources/user-identities-20261010/421018947de1238e.png",
+    "sha256": "421018947de1238e0370804ce6ffaca741f5dcda357095aa3cac4497f06ee770"
+  },
+  {
+    "id": "nonsan-strawberry-expo-2027",
+    "file": "marketing/assets/user-identities-20261010/nonsan-strawberry-expo-2027/identity-12.svg",
+    "key": "_clients/nonsan-strawberry-expo-2027/sources/user-identities-20261010/c30244d8e97b6054.svg",
+    "sha256": "c30244d8e97b6054fa928f566f1feaa7d92f0bdb927328b2d6ffbd9e7815bb80"
+  },
+  {
+    "id": "nonsan-strawberry-expo-2027",
+    "file": "marketing/assets/user-identities-20261010/nonsan-strawberry-expo-2027/identity-12.png",
+    "key": "_clients/nonsan-strawberry-expo-2027/sources/user-identities-20261010/f7a74edab42a0221.png",
+    "sha256": "f7a74edab42a0221659d3152fbd6f37b067ce0d1f8f61c79bf757ba76b1eb4b0"
+  },
+  {
+    "id": "nonsan-strawberry-expo-2027",
+    "file": "marketing/assets/user-identities-20261010/nonsan-strawberry-expo-2027/symbol.svg",
+    "key": "_clients/nonsan-strawberry-expo-2027/sources/user-identities-20261010/4c95058723e1cad0.svg",
+    "sha256": "4c95058723e1cad0024fb8c134eae3192a7b039d7d7d9a84733cdd9aa3704880"
+  },
+  {
+    "id": "nonsan-strawberry-expo-2027",
+    "file": "marketing/assets/user-identities-20261010/nonsan-strawberry-expo-2027/symbol.png",
+    "key": "_clients/nonsan-strawberry-expo-2027/sources/user-identities-20261010/ffc311917ddf245a.png",
+    "sha256": "ffc311917ddf245ae48955353296e5ef5817b606a5628bf50fb5eff80e3aeb00"
+  },
+  {
+    "id": "nonsan-strawberry-expo-2027",
+    "file": "marketing/assets/nonsan-expo-20261010/brand-manual.pdf",
+    "key": "_clients/nonsan-strawberry-expo-2027/sources/user-identities-20261010/f68770b353e57240.pdf",
+    "sha256": "f68770b353e57240c2ecf66f666277e10b45ad3b8a7521b4129d61bbf3a79f3a"
+  },
+  {
+    "id": "dangjin",
+    "file": "marketing/assets/user-identities-20261010/dangjin/symbol.svg",
+    "key": "_clients/dangjin/sources/user-identities-20261010/6ad279765efd1f70.svg",
+    "sha256": "6ad279765efd1f707719e9fb5449ddf0cf105ddea8a120f5d311e4e50c6a0535"
+  },
+  {
+    "id": "dangjin",
+    "file": "marketing/assets/user-identities-20261010/dangjin/symbol.png",
+    "key": "_clients/dangjin/sources/user-identities-20261010/b4d66959654ac49b.png",
+    "sha256": "b4d66959654ac49b43efb30eae1924801a8417d550f1d3e82a73f1419d026c27"
+  },
+  {
+    "id": "dangjin",
+    "file": "marketing/assets/user-identities-20261010/dangjin/wordmark.svg",
+    "key": "_clients/dangjin/sources/user-identities-20261010/f6a7874fae8712e3.svg",
+    "sha256": "f6a7874fae8712e38525e33e6aa8a0c4b9e9c579df360d90496145fe572e15c7"
+  },
+  {
+    "id": "dangjin",
+    "file": "marketing/assets/user-identities-20261010/dangjin/wordmark.png",
+    "key": "_clients/dangjin/sources/user-identities-20261010/3d1b863d648e8f1c.png",
+    "sha256": "3d1b863d648e8f1c7942ce147f09e0e7cc1bdf77020bde57410eb17d3b55bb52"
+  },
+  {
+    "id": "dangjin",
+    "file": "marketing/assets/user-identities-20261010/dangjin/signature.svg",
+    "key": "_clients/dangjin/sources/user-identities-20261010/f9cd35abfdd4bfc5.svg",
+    "sha256": "f9cd35abfdd4bfc58efbfb732b296f743b0b13136a84c7e89447f449f9c2a5bc"
+  },
+  {
+    "id": "dangjin",
+    "file": "marketing/assets/user-identities-20261010/dangjin/signature.png",
+    "key": "_clients/dangjin/sources/user-identities-20261010/3ec954a7f27e4d3f.png",
+    "sha256": "3ec954a7f27e4d3f2c843597e47e2d451e5acb2e3db396e3e7eae518fccb5f7a"
+  },
+  {
+    "id": "dangjin",
+    "file": "marketing/assets/user-identities-20261010/dangjin/character.svg",
+    "key": "_clients/dangjin/sources/user-identities-20261010/05b703166629c67c.svg",
+    "sha256": "05b703166629c67c88a4c9fc7a09b005638a8bcc7f77d674bea393ca8e67fa19"
+  },
+  {
+    "id": "dangjin",
+    "file": "marketing/assets/user-identities-20261010/dangjin/character.png",
+    "key": "_clients/dangjin/sources/user-identities-20261010/0b2d43e7e5857441.png",
+    "sha256": "0b2d43e7e58574410e492cd4bd5abff772a6fdd6eb40ffbcebeb94c85e2d9a02"
+  },
+  {
+    "id": "dangjin-port",
+    "file": "marketing/assets/user-identities-20261010/dangjin-port/signature.svg",
+    "key": "_clients/dangjin-port/sources/user-identities-20261010/a14dc2c2a771ebe8.svg",
+    "sha256": "a14dc2c2a771ebe8ec0a7aeb87f509fda4e18e85ffcc179038894ba81f99234a"
+  },
+  {
+    "id": "dangjin-port",
+    "file": "marketing/assets/user-identities-20261010/dangjin-port/signature.png",
+    "key": "_clients/dangjin-port/sources/user-identities-20261010/c4ae535fe9897130.png",
+    "sha256": "c4ae535fe9897130b54a009dd45f61cef5beca52463fc5b3ffdedf0a19270b71"
+  },
+  {
+    "id": "dangjin-port",
+    "file": "marketing/assets/user-identities-20261010/dangjin-port/symbol.svg",
+    "key": "_clients/dangjin-port/sources/user-identities-20261010/1a24bea460523323.svg",
+    "sha256": "1a24bea460523323a1e2896a5a000a3b728b740fd0548f3e0b2f925d83af820b"
+  },
+  {
+    "id": "dangjin-port",
+    "file": "marketing/assets/user-identities-20261010/dangjin-port/symbol.png",
+    "key": "_clients/dangjin-port/sources/user-identities-20261010/e1ea57ae8a72d6c0.png",
+    "sha256": "e1ea57ae8a72d6c0927770acdf410e89a08719cd40323347e9bfed0f54f3fe61"
+  },
+  {
+    "id": "south-chungcheong",
+    "file": "marketing/assets/user-identities-20261010/south-chungcheong/icon-1024.png",
+    "key": "_clients/south-chungcheong/sources/user-identities-20261010/b5def74541772be7.png",
+    "sha256": "b5def74541772be7f1445fbd14003fdc0f71248fcf216b3d5d6c3f8eb6df589b"
+  },
+  {
+    "id": "nonsan-strawberry-expo-2027",
+    "file": "marketing/assets/user-identities-20261010/nonsan-strawberry-expo-2027/icon-1024.png",
+    "key": "_clients/nonsan-strawberry-expo-2027/sources/user-identities-20261010/6f44fb6c2fd78ac2.png",
+    "sha256": "6f44fb6c2fd78ac2de83c56ee505ea4cebec2d2342eb9e8308c7e9ad7a13531d"
+  },
+  {
+    "id": "dangjin",
+    "file": "marketing/assets/user-identities-20261010/dangjin/icon-1024.png",
+    "key": "_clients/dangjin/sources/user-identities-20261010/8e4e929724c7996e.png",
+    "sha256": "8e4e929724c7996e378ee69364be0be6a72592d03394a88140505a68119251bd"
+  },
+  {
+    "id": "dangjin-port",
+    "file": "marketing/assets/user-identities-20261010/dangjin-port/icon-1024.png",
+    "key": "_clients/dangjin-port/sources/user-identities-20261010/fad37155cf04d4fd.png",
+    "sha256": "fad37155cf04d4fdfc966b4243d14e1310a366a694cb6221cbc9d4db918f1abf"
+  },
+  {
+    "id": "south-chungcheong",
+    "file": "marketing/assets/chungnam-20261010/original-ai.zip",
+    "key": "_clients/south-chungcheong/sources/user-identities-20261010/da28a6855d128b19.zip",
+    "sha256": "da28a6855d128b19a0daef57c47a3cd180d952d26697982af15f7c6748d974cb"
+  },
+  {
+    "id": "nonsan-strawberry-expo-2027",
+    "file": "marketing/assets/nonsan-expo-20261010/original-ai.zip",
+    "key": "_clients/nonsan-strawberry-expo-2027/sources/user-identities-20261010/a45545ee9da6d056.zip",
+    "sha256": "a45545ee9da6d0561091b47dbcecae983539e58b2a4df9723524de2af6d3181a"
+  },
+  {
+    "id": "dangjin",
+    "file": "marketing/assets/dangjin-20261010/original-ai.zip",
+    "key": "_clients/dangjin/sources/user-identities-20261010/3344adde2a3812d1.zip",
+    "sha256": "3344adde2a3812d197166514c6b9877d3f4395858a16659ed273fcec8d7b6e3e"
+  },
+  {
+    "id": "dangjin-port",
+    "file": "marketing/assets/dangjin-20261010/original-ai.zip",
+    "key": "_clients/dangjin-port/sources/user-identities-20261010/3344adde2a3812d1.zip",
+    "sha256": "3344adde2a3812d197166514c6b9877d3f4395858a16659ed273fcec8d7b6e3e"
+  }
+]
