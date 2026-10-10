@@ -30,7 +30,7 @@
         "logo.svg"
       ],
       "variants_n": 3,
-      "asset_origin": "기존 벡터 원본 검수 · 투명 PNG 재생성"
+      "asset_origin": ""
     },
     "claude-code": {
       "name_ko": "Claude Code",
@@ -61,7 +61,7 @@
         "logo.svg"
       ],
       "variants_n": 3,
-      "asset_origin": "기존 벡터 원본 검수 · 투명 PNG 재생성"
+      "asset_origin": ""
     },
     "claude-ai": {
       "variant_of": "claude",
