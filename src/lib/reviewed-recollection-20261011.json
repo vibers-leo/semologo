@@ -212,9 +212,9 @@
       ]
     },
     "koreha": {
-      "variants_n": 8,
+      "variants_n": 11,
       "source_zip": "sources/official-recollection-20261011/0395c391f7dc82a3bda4.zip",
-      "logo_published_at": "2026-10-10T16:33:07.097439+00:00",
+      "logo_published_at": "2026-10-10T17:33:13.669828+00:00",
       "logo_png": "sources/official-recollection-20261011/88be327be0d73a3ce957.png",
       "preview_png": "sources/official-recollection-20261011/59e293d2e851063a5c00.png",
       "logo_svg": "sources/official-recollection-20261011/fb32081cf59d83dac989.svg",
@@ -269,6 +269,45 @@
         "sources/official-recollection-20261011/96be74a8a1fecb709665.zip",
         "sources/official-recollection-20261011/09dbfd530293f8fed9a6.zip"
       ]
+    },
+    "kt-wiz": {
+      "variants_n": 4,
+      "source_zip": "sources/official-sports-20261011/befda7443ce89638911a.zip"
+    },
+    "fcseoul": {
+      "variants_n": 5,
+      "source_zip": "sources/official-kleague-20261011/5d6e404435dde32e2e5c.zip",
+      "source_ai": "sources/official-kleague-20261011/dd57a4c4e5e8a2398889.ai",
+      "svg_transparent": "sources/official-kleague-20261011/339f98ea1acb41b53534.svg",
+      "logo_png": "sources/official-kleague-20261011/96ba62528582c3793951.png",
+      "preview_png": "sources/official-kleague-20261011/14898c2683804fd0c957.png",
+      "logo_svg": "sources/official-kleague-20261011/339f98ea1acb41b53534.svg",
+      "has_png": true,
+      "has_svg": true,
+      "metadata": {
+        "seq": 43110,
+        "has_png": true,
+        "has_svg": true,
+        "added_at": "2026-08-29"
+      },
+      "presentation": {
+        "file": "sources/official-kleague-20261011/96ba62528582c3793951.png",
+        "background": "white",
+        "bg": "white"
+      },
+      "asset_origin": "official-original",
+      "asset_review_status": "verified",
+      "official_source_page": "https://www.fcseoul.com/club/clubFcEmblemView",
+      "source_original_label": "FC서울 공식 제공 엠블럼·시그니처 ZIP 및 씨드 AI",
+      "rejected_asset_files": [
+        "logo.png",
+        "logo-800.png",
+        "logo-icon.png",
+        "logo-transparent.png",
+        "logo-white.png"
+      ],
+      "light": false,
+      "light_logo": false
     }
   },
   "variants": {
@@ -980,115 +1019,163 @@
         },
         {
           "key": "official-recollect-horizontal-ko",
-          "label": "공식 국문 좌우 조합",
-          "files": {
-            "svg": "sources/official-recollection-20261011/fb32081cf59d83dac989.svg",
-            "png": "sources/official-recollection-20261011/88be327be0d73a3ce957.png"
-          },
-          "preview_png": "sources/official-recollection-20261011/59e293d2e851063a5c00.png",
-          "provider": "official-original",
-          "official_distribution": true,
-          "order": 101,
-          "source_note": "공식 AI 원본의 아웃라인·벡터 그라디언트 유지 · 글꼴 의존성 없음 · 2026-10-11 검수",
           "form": "signature",
           "lang": "ko",
-          "color": "color"
+          "color": "color",
+          "files": {
+            "png": "sources/official-recollection-20261011/88be327be0d73a3ce957.png",
+            "svg": "sources/official-recollection-20261011/fb32081cf59d83dac989.svg"
+          },
+          "label": "공식 국문 좌우 조합",
+          "order": 101,
+          "provider": "official-original",
+          "preview_png": "sources/official-recollection-20261011/59e293d2e851063a5c00.png",
+          "source_note": "공식 AI 원본의 아웃라인·벡터 그라디언트 유지 · 글꼴 의존성 없음 · 2026-10-11 검수",
+          "official_distribution": true
         },
         {
           "key": "official-recollect-horizontal-en",
-          "label": "공식 영문 좌우 조합",
-          "files": {
-            "svg": "sources/official-recollection-20261011/40ca5f1118dd94f2c812.svg",
-            "png": "sources/official-recollection-20261011/454bf0b3fe6ba08c54ac.png"
-          },
-          "preview_png": "sources/official-recollection-20261011/e3f4c5820b04848d6521.png",
-          "provider": "official-original",
-          "official_distribution": true,
-          "order": 102,
-          "source_note": "공식 AI 원본의 아웃라인·벡터 그라디언트 유지 · 글꼴 의존성 없음 · 2026-10-11 검수",
           "form": "signature",
           "lang": "en",
-          "color": "color"
+          "color": "color",
+          "files": {
+            "png": "sources/official-recollection-20261011/454bf0b3fe6ba08c54ac.png",
+            "svg": "sources/official-recollection-20261011/40ca5f1118dd94f2c812.svg"
+          },
+          "label": "공식 영문 좌우 조합",
+          "order": 102,
+          "provider": "official-original",
+          "preview_png": "sources/official-recollection-20261011/e3f4c5820b04848d6521.png",
+          "source_note": "공식 AI 원본의 아웃라인·벡터 그라디언트 유지 · 글꼴 의존성 없음 · 2026-10-11 검수",
+          "official_distribution": true
         },
         {
           "key": "official-recollect-horizontal-mixed",
-          "label": "공식 국영문 좌우 조합",
-          "files": {
-            "svg": "sources/official-recollection-20261011/c10728f52045809b377e.svg",
-            "png": "sources/official-recollection-20261011/7e422539b36a980967d7.png"
-          },
-          "preview_png": "sources/official-recollection-20261011/3af3aab520166aeacecc.png",
-          "provider": "official-original",
-          "official_distribution": true,
-          "order": 103,
-          "source_note": "공식 AI 원본의 아웃라인·벡터 그라디언트 유지 · 글꼴 의존성 없음 · 2026-10-11 검수",
           "form": "signature",
           "lang": "unknown",
-          "color": "color"
+          "color": "color",
+          "files": {
+            "png": "sources/official-recollection-20261011/7e422539b36a980967d7.png",
+            "svg": "sources/official-recollection-20261011/c10728f52045809b377e.svg"
+          },
+          "label": "공식 국영문 좌우 조합",
+          "order": 103,
+          "provider": "official-original",
+          "preview_png": "sources/official-recollection-20261011/3af3aab520166aeacecc.png",
+          "source_note": "공식 AI 원본의 아웃라인·벡터 그라디언트 유지 · 글꼴 의존성 없음 · 2026-10-11 검수",
+          "official_distribution": true
         },
         {
           "key": "official-recollect-vertical-ko",
-          "label": "공식 국문 상하 조합",
-          "files": {
-            "svg": "sources/official-recollection-20261011/e07ed8ce0efd106d52e5.svg",
-            "png": "sources/official-recollection-20261011/5b30fe053f1655ba3530.png"
-          },
-          "preview_png": "sources/official-recollection-20261011/3528dd2836389605149c.png",
-          "provider": "official-original",
-          "official_distribution": true,
-          "order": 104,
-          "source_note": "공식 AI 원본의 아웃라인·벡터 그라디언트 유지 · 글꼴 의존성 없음 · 2026-10-11 검수",
           "form": "signature",
           "lang": "ko",
-          "color": "color"
+          "color": "color",
+          "files": {
+            "png": "sources/official-recollection-20261011/5b30fe053f1655ba3530.png",
+            "svg": "sources/official-recollection-20261011/e07ed8ce0efd106d52e5.svg"
+          },
+          "label": "공식 국문 상하 조합",
+          "order": 104,
+          "provider": "official-original",
+          "preview_png": "sources/official-recollection-20261011/3528dd2836389605149c.png",
+          "source_note": "공식 AI 원본의 아웃라인·벡터 그라디언트 유지 · 글꼴 의존성 없음 · 2026-10-11 검수",
+          "official_distribution": true
         },
         {
           "key": "official-recollect-vertical-en",
-          "label": "공식 영문 상하 조합",
-          "files": {
-            "svg": "sources/official-recollection-20261011/3da36102735a5d9fe789.svg",
-            "png": "sources/official-recollection-20261011/94ddd5ecf323ca4236d7.png"
-          },
-          "preview_png": "sources/official-recollection-20261011/7d0126922d6e30c4161e.png",
-          "provider": "official-original",
-          "official_distribution": true,
-          "order": 105,
-          "source_note": "공식 AI 원본의 아웃라인·벡터 그라디언트 유지 · 글꼴 의존성 없음 · 2026-10-11 검수",
           "form": "signature",
           "lang": "en",
-          "color": "color"
+          "color": "color",
+          "files": {
+            "png": "sources/official-recollection-20261011/94ddd5ecf323ca4236d7.png",
+            "svg": "sources/official-recollection-20261011/3da36102735a5d9fe789.svg"
+          },
+          "label": "공식 영문 상하 조합",
+          "order": 105,
+          "provider": "official-original",
+          "preview_png": "sources/official-recollection-20261011/7d0126922d6e30c4161e.png",
+          "source_note": "공식 AI 원본의 아웃라인·벡터 그라디언트 유지 · 글꼴 의존성 없음 · 2026-10-11 검수",
+          "official_distribution": true
         },
         {
           "key": "official-recollect-vertical-mixed",
-          "label": "공식 국영문 상하 조합",
-          "files": {
-            "svg": "sources/official-recollection-20261011/749fd3fca6c51499f355.svg",
-            "png": "sources/official-recollection-20261011/ef1117ed88e0d70cf327.png"
-          },
-          "preview_png": "sources/official-recollection-20261011/7ba3cfb9bed8b8577286.png",
-          "provider": "official-original",
-          "official_distribution": true,
-          "order": 106,
-          "source_note": "공식 AI 원본의 아웃라인·벡터 그라디언트 유지 · 글꼴 의존성 없음 · 2026-10-11 검수",
           "form": "signature",
           "lang": "unknown",
-          "color": "color"
+          "color": "color",
+          "files": {
+            "png": "sources/official-recollection-20261011/ef1117ed88e0d70cf327.png",
+            "svg": "sources/official-recollection-20261011/749fd3fca6c51499f355.svg"
+          },
+          "label": "공식 국영문 상하 조합",
+          "order": 106,
+          "provider": "official-original",
+          "preview_png": "sources/official-recollection-20261011/7ba3cfb9bed8b8577286.png",
+          "source_note": "공식 AI 원본의 아웃라인·벡터 그라디언트 유지 · 글꼴 의존성 없음 · 2026-10-11 검수",
+          "official_distribution": true
         },
         {
           "key": "official-recollect-symbol",
-          "label": "공식 시그니처에서 분리한 심볼",
-          "files": {
-            "svg": "sources/official-recollection-20261011/2fd234023e5d727740c3.svg",
-            "png": "sources/official-recollection-20261011/314dd5ff3ad8d6bbf5e6.png"
-          },
-          "preview_png": "sources/official-recollection-20261011/90c4706909835b6e2a5c.png",
-          "provider": "official-original",
-          "official_distribution": true,
-          "order": 107,
-          "source_note": "공식 AI 원본의 아웃라인·벡터 그라디언트 유지 · 글꼴 의존성 없음 · 2026-10-11 검수",
           "form": "symbol",
           "lang": "unknown",
-          "color": "color"
+          "color": "color",
+          "files": {
+            "png": "sources/official-recollection-20261011/314dd5ff3ad8d6bbf5e6.png",
+            "svg": "sources/official-recollection-20261011/2fd234023e5d727740c3.svg"
+          },
+          "label": "공식 시그니처에서 분리한 심볼",
+          "order": 107,
+          "provider": "official-original",
+          "preview_png": "sources/official-recollection-20261011/90c4706909835b6e2a5c.png",
+          "source_note": "공식 AI 원본의 아웃라인·벡터 그라디언트 유지 · 글꼴 의존성 없음 · 2026-10-11 검수",
+          "official_distribution": true
+        },
+        {
+          "key": "official-recollect-emblem-a",
+          "label": "공식 엠블럼 A형",
+          "files": {
+            "svg": "sources/official-recollection-20261011/c95aa986a5ff75e4683c.svg",
+            "png": "sources/official-recollection-20261011/907ec7b139627a82294c.png"
+          },
+          "preview_png": "sources/official-recollection-20261011/753b37d30efd76e7c579.png",
+          "provider": "official-original",
+          "official_distribution": true,
+          "order": 108,
+          "form": "emblem",
+          "lang": "mixed",
+          "color": "color",
+          "source_note": "공식 AI 엠블럼 A/B/C · 아웃라인과 그라디언트 유지 · 2026-10-11 검수"
+        },
+        {
+          "key": "official-recollect-emblem-b",
+          "label": "공식 엠블럼 B형",
+          "files": {
+            "svg": "sources/official-recollection-20261011/c4afef0f2f4ce7ef9f27.svg",
+            "png": "sources/official-recollection-20261011/a13d1042b58a177a88fc.png"
+          },
+          "preview_png": "sources/official-recollection-20261011/3e18897baf23e2ab6ef9.png",
+          "provider": "official-original",
+          "official_distribution": true,
+          "order": 109,
+          "form": "emblem",
+          "lang": "en",
+          "color": "color",
+          "source_note": "공식 AI 엠블럼 A/B/C · 아웃라인과 그라디언트 유지 · 2026-10-11 검수"
+        },
+        {
+          "key": "official-recollect-emblem-c",
+          "label": "공식 엠블럼 C형",
+          "files": {
+            "svg": "sources/official-recollection-20261011/0b19b0e764bc309605bc.svg",
+            "png": "sources/official-recollection-20261011/0406a01b8447d030844a.png"
+          },
+          "preview_png": "sources/official-recollection-20261011/96e2af91d92114fb7e68.png",
+          "provider": "official-original",
+          "official_distribution": true,
+          "order": 110,
+          "form": "emblem",
+          "lang": "mixed",
+          "color": "color",
+          "source_note": "공식 AI 엠블럼 A/B/C · 아웃라인과 그라디언트 유지 · 2026-10-11 검수"
         }
       ]
     },
@@ -1206,6 +1293,177 @@
           "form": "signature",
           "lang": "en",
           "color": "color"
+        }
+      ]
+    },
+    "kt-wiz": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "kt-wiz",
+      "primary": "symbol",
+      "fingerprint": {
+        "logo.svg": "0693958c72b424c1"
+      },
+      "variants": [
+        {
+          "key": "symbol",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "mono-dark",
+          "label": "심볼형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 1.0,
+          "provider": "wikimedia",
+          "origin": "collected",
+          "order": 30
+        },
+        {
+          "key": "official-mascot-vic",
+          "form": "mascot",
+          "lang": "unknown",
+          "color": "color",
+          "label": "빅 · 공식 6가지 포즈",
+          "files": {
+            "png": "sources/official-sports-20261011/13f343750ff9ff4751db.png",
+            "zip": "sources/official-sports-20261011/053007d8c5011afa7618.zip"
+          },
+          "preview_png": "sources/official-sports-20261011/01009fc96e9a9549ee55.png",
+          "provider": "official-original",
+          "official_distribution": true,
+          "order": 101,
+          "source_note": "KT 위즈 공식 마스코트 AI · 2026 시즌 기준, 2026-10-11 확인 · 배경 안내 면과 상단 이름만 제외 · 흰색 캐릭터 부분 보존"
+        },
+        {
+          "key": "official-mascot-ddory",
+          "form": "mascot",
+          "lang": "unknown",
+          "color": "color",
+          "label": "또리 · 공식 6가지 포즈",
+          "files": {
+            "png": "sources/official-sports-20261011/19b520f848334e16fb92.png",
+            "zip": "sources/official-sports-20261011/dd574f4ddec675f390f1.zip"
+          },
+          "preview_png": "sources/official-sports-20261011/724386ba9814d78ef5b7.png",
+          "provider": "official-original",
+          "official_distribution": true,
+          "order": 102,
+          "source_note": "KT 위즈 공식 마스코트 AI · 2026 시즌 기준, 2026-10-11 확인 · 배경 안내 면과 상단 이름만 제외 · 흰색 캐릭터 부분 보존"
+        },
+        {
+          "key": "official-mascot-vic-ddory",
+          "form": "mascot",
+          "lang": "unknown",
+          "color": "color",
+          "label": "빅과 또리 · 축하 조합",
+          "files": {
+            "png": "sources/official-sports-20261011/66628fac9ba94f4dc62f.png",
+            "zip": "sources/official-sports-20261011/befda7443ce89638911a.zip",
+            "svg": "sources/official-sports-20261011/478a87a62a5a1ae8f9f7.svg"
+          },
+          "preview_png": "sources/official-sports-20261011/6abece8e0866e73dacfa.png",
+          "provider": "official-original",
+          "official_distribution": true,
+          "order": 103,
+          "source_note": "KT 위즈 공식 마스코트 AI · 2026 시즌 기준, 2026-10-11 확인 · 배경 안내 면과 상단 이름만 제외 · 흰색 캐릭터 부분 보존"
+        }
+      ]
+    },
+    "fcseoul": {
+      "id": "fcseoul",
+      "schema": 1,
+      "algo_v": 1,
+      "primary": {
+        "key": "official-korean-horizontal",
+        "background": "white"
+      },
+      "variants": [
+        {
+          "key": "official-english-horizontal",
+          "label": "영문 가로 시그니처",
+          "files": {
+            "svg": "sources/official-kleague-20261011/3437f344e6e81e97105c.svg",
+            "png": "sources/official-kleague-20261011/0d43ae2b830ff7755d80.png"
+          },
+          "preview_png": "sources/official-kleague-20261011/072292513e688cd34b94.png",
+          "original_file": "sources/official-kleague-20261011/5d6e404435dde32e2e5c.zip",
+          "original_download_url": "https://logo.vibers.co.kr/_clients/fcseoul/sources/official-kleague-20261011/5d6e404435dde32e2e5c.zip",
+          "origin": "official-original",
+          "official": true,
+          "source_page": "https://www.fcseoul.com/club/clubFcEmblemView",
+          "source_note": "공식 AI 원본 네이티브 벡터에서 추출. 도입연도 미확인. 색상 가이드·배경·텍스트 주석 없음.",
+          "order": 1,
+          "form": "horizontal"
+        },
+        {
+          "key": "official-english-vertical",
+          "label": "영문 세로 시그니처",
+          "files": {
+            "svg": "sources/official-kleague-20261011/681152e2a51a1945c12a.svg",
+            "png": "sources/official-kleague-20261011/a6553ecae1b8f3a973d1.png"
+          },
+          "preview_png": "sources/official-kleague-20261011/cdb60afa36c6f8941bca.png",
+          "original_file": "sources/official-kleague-20261011/5d6e404435dde32e2e5c.zip",
+          "original_download_url": "https://logo.vibers.co.kr/_clients/fcseoul/sources/official-kleague-20261011/5d6e404435dde32e2e5c.zip",
+          "origin": "official-original",
+          "official": true,
+          "source_page": "https://www.fcseoul.com/club/clubFcEmblemView",
+          "source_note": "공식 AI 원본 네이티브 벡터에서 추출. 도입연도 미확인. 색상 가이드·배경·텍스트 주석 없음.",
+          "order": 2,
+          "form": "vertical"
+        },
+        {
+          "key": "official-korean-horizontal",
+          "label": "국문 가로 시그니처",
+          "files": {
+            "svg": "sources/official-kleague-20261011/339f98ea1acb41b53534.svg",
+            "png": "sources/official-kleague-20261011/96ba62528582c3793951.png"
+          },
+          "preview_png": "sources/official-kleague-20261011/14898c2683804fd0c957.png",
+          "original_file": "sources/official-kleague-20261011/5d6e404435dde32e2e5c.zip",
+          "original_download_url": "https://logo.vibers.co.kr/_clients/fcseoul/sources/official-kleague-20261011/5d6e404435dde32e2e5c.zip",
+          "origin": "official-original",
+          "official": true,
+          "source_page": "https://www.fcseoul.com/club/clubFcEmblemView",
+          "source_note": "공식 AI 원본 네이티브 벡터에서 추출. 도입연도 미확인. 색상 가이드·배경·텍스트 주석 없음.",
+          "order": 3,
+          "form": "horizontal"
+        },
+        {
+          "key": "official-korean-vertical",
+          "label": "국문 세로 시그니처",
+          "files": {
+            "svg": "sources/official-kleague-20261011/dd3b7febc5fdfef5472f.svg",
+            "png": "sources/official-kleague-20261011/9479dfc6516b04953217.png"
+          },
+          "preview_png": "sources/official-kleague-20261011/a2dc37873df8213163be.png",
+          "original_file": "sources/official-kleague-20261011/5d6e404435dde32e2e5c.zip",
+          "original_download_url": "https://logo.vibers.co.kr/_clients/fcseoul/sources/official-kleague-20261011/5d6e404435dde32e2e5c.zip",
+          "origin": "official-original",
+          "official": true,
+          "source_page": "https://www.fcseoul.com/club/clubFcEmblemView",
+          "source_note": "공식 AI 원본 네이티브 벡터에서 추출. 도입연도 미확인. 색상 가이드·배경·텍스트 주석 없음.",
+          "order": 4,
+          "form": "vertical"
+        },
+        {
+          "key": "official-ssid-left",
+          "label": "공식 마스코트 씨드(SSID) · 기본 자세 · 시기 미확인",
+          "files": {
+            "svg": "sources/official-kleague-20261011/13e3bffca9432a45f72f.svg",
+            "png": "sources/official-kleague-20261011/a9b9307d79f6c9509189.png"
+          },
+          "preview_png": "sources/official-kleague-20261011/80aaecf759fe4c1fceb3.png",
+          "original_file": "sources/official-kleague-20261011/dd57a4c4e5e8a2398889.ai",
+          "original_download_url": "https://logo.vibers.co.kr/_clients/fcseoul/sources/official-kleague-20261011/dd57a4c4e5e8a2398889.ai",
+          "origin": "official-original",
+          "official": true,
+          "source_page": "https://www.fcseoul.com/club/clubFcMascotView",
+          "source_note": "공식 AI 원본 네이티브 벡터에서 추출. 도입연도 미확인. 원본 오른쪽 자세는 하단이 잘려 제외. 의상은 2026 시즌 유니폼이라고 단정하지 않음.",
+          "order": 5,
+          "form": "mascot"
         }
       ]
     }

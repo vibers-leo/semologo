@@ -6186,6 +6186,10 @@
     "take-two": {
       "variants_n": 2,
       "logo_published_at": "2026-10-10T16:21:19.428288+00:00"
+    },
+    "9ff": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-10T17:33:11.326705+00:00"
     }
   },
   "variants": {
@@ -38733,6 +38737,54 @@
           "review_status": "verified",
           "png_width": 2000,
           "png_height": 1680,
+          "order": 100
+        }
+      ]
+    },
+    "9ff": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "9ff",
+      "primary": "horizontal",
+      "fingerprint": {
+        "logo.svg": "64570ce864a140d5"
+      },
+      "variants": [
+        {
+          "key": "horizontal",
+          "form": "horizontal",
+          "lang": "unknown",
+          "color": "color",
+          "label": "가로조합형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 1.787,
+          "provider": "wikimedia",
+          "origin": "collected",
+          "order": 10
+        },
+        {
+          "key": "community-car-original-image0",
+          "label": "배지·워드마크 조합 PNG · 커뮤니티 수록본 · 시기 미확인",
+          "form": "vertical",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "png": "sources/community-car-remainder-20261011/5f9fa47d33208f986d4d.png"
+          },
+          "preview_png": "sources/community-car-remainder-20261011/636977a325356b71a1ce.png",
+          "original_png": "sources/community-car-remainder-20261011/d114d26734631bf747b8.png",
+          "original_download_url": "https://logo.vibers.co.kr/_clients/9ff/sources/community-car-remainder-20261011/d114d26734631bf747b8.png",
+          "provider": "사용자 제공 Car Brands Logos Figma Community",
+          "origin": "community",
+          "official": false,
+          "source_kind": "original embedded PNG; not a vector",
+          "source_note": "기존 파란 워드마크와 구별되는 배지·워드마크·GERMAN ENGINEERING 조합. 원본 PNG와 투명 여백만 자른 PNG를 제공하며 흰색 픽셀 제거·재드로잉·확대 없음. 사용 시기 미확인.",
+          "source_sha256": "d114d26734631bf747b8bc97cdda31422b96cc65db2e46d2ede1fa553e8e9775",
+          "png_width": 1059,
+          "png_height": 1001,
           "order": 100
         }
       ]

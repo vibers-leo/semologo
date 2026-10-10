@@ -1,0 +1,170 @@
+{
+  "patches": {
+    "boston-celtics": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-10T21:55:11.968693+00:00"
+    },
+    "la-clippers": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-10T21:55:11.968693+00:00"
+    },
+    "hillstatehdec": {
+      "variants_n": 2,
+      "has_svg": true,
+      "has_png": true,
+      "logo_published_at": "2026-10-10T21:57:56.197068+00:00"
+    },
+    "pinkspiders": {
+      "variants_n": 2,
+      "has_svg": true,
+      "has_png": true,
+      "logo_published_at": "2026-10-10T21:57:56.197068+00:00"
+    }
+  },
+  "variants": {
+    "boston-celtics": {
+      "id": "boston-celtics",
+      "schema": 1,
+      "algo_v": 1,
+      "primary": "horizontal",
+      "variants": [
+        {
+          "key": "horizontal",
+          "form": "horizontal",
+          "lang": "en",
+          "color": "original",
+          "files": {
+            "svg": "logo.svg"
+          },
+          "label": "기존 수집 로고",
+          "order": 0
+        },
+        {
+          "key": "official-nba-primary-20261011",
+          "form": "emblem",
+          "lang": "en",
+          "color": "color",
+          "files": {
+            "svg": "sources/official-nba-20261011/531038092e848f7319e0.svg",
+            "png": "sources/official-nba-20261011/eaf564fd8a1f07506efd.png"
+          },
+          "preview_png": "sources/official-nba-20261011/b32d533de1d6a7e82276.png",
+          "label": "NBA 공식 구단 디렉터리 · 기본 로고",
+          "provider": "official-original",
+          "official_distribution": true,
+          "order": 200,
+          "source_url": "https://cdn.nba.com/logos/nba/1610612738/primary/L/logo.svg",
+          "source_note": "2026-10-11 NBA 공식 디렉터리에서 확인. 기존 버전과 대표 선택 유지."
+        }
+      ]
+    },
+    "la-clippers": {
+      "id": "la-clippers",
+      "schema": 1,
+      "algo_v": 1,
+      "primary": "horizontal",
+      "variants": [
+        {
+          "key": "horizontal",
+          "form": "horizontal",
+          "lang": "en",
+          "color": "original",
+          "files": {
+            "svg": "logo.svg"
+          },
+          "label": "기존 수집 로고",
+          "order": 0
+        },
+        {
+          "key": "official-nba-primary-20261011",
+          "form": "emblem",
+          "lang": "en",
+          "color": "color",
+          "files": {
+            "svg": "sources/official-nba-20261011/6fe94cd7b648afe8a700.svg",
+            "png": "sources/official-nba-20261011/fac8c02bd0c8fa3ab372.png"
+          },
+          "preview_png": "sources/official-nba-20261011/5e5e871c48c582caa284.png",
+          "label": "NBA 공식 구단 디렉터리 · 기본 로고",
+          "provider": "official-original",
+          "official_distribution": true,
+          "order": 200,
+          "source_url": "https://cdn.nba.com/logos/nba/1610612746/primary/L/logo.svg",
+          "source_note": "2026-10-11 NBA 공식 디렉터리에서 확인. 기존 버전과 대표 선택 유지."
+        }
+      ]
+    },
+    "hillstatehdec": {
+      "id": "hillstatehdec",
+      "schema": 1,
+      "algo_v": 1,
+      "primary": "legacy-original",
+      "variants": [
+        {
+          "key": "legacy-original",
+          "form": "emblem",
+          "lang": "en",
+          "color": "original",
+          "files": {
+            "png": "logo.png"
+          },
+          "label": "기존 수집 로고",
+          "order": 0
+        },
+        {
+          "key": "official-kovo-emblem-20261011",
+          "form": "emblem",
+          "lang": "en",
+          "color": "color",
+          "files": {
+            "svg": "sources/official-kovo-20261011/36fe497bc8eeaaa054c4.svg",
+            "png": "sources/official-kovo-20261011/d8febbde474345b9ee89.png"
+          },
+          "preview_png": "sources/official-kovo-20261011/bea697d5ca5ee0f892b4.png",
+          "label": "KOVO 공식 구단 엠블럼 · 벡터 원본",
+          "provider": "official-site",
+          "official_distribution": false,
+          "order": 200,
+          "source_url": "https://cdn.kovo.co.kr/emblems/hillstate.svg",
+          "source_note": "KOVO 공식 사이트 구단 API와 CDN에서 확인. 공식 다운로드 패키지로 표기하지 않음. 기존 원본 및 대표 선택 유지."
+        }
+      ]
+    },
+    "pinkspiders": {
+      "id": "pinkspiders",
+      "schema": 1,
+      "algo_v": 1,
+      "primary": "legacy-original",
+      "variants": [
+        {
+          "key": "legacy-original",
+          "form": "emblem",
+          "lang": "en",
+          "color": "original",
+          "files": {
+            "png": "logo.png"
+          },
+          "label": "기존 수집 로고",
+          "order": 0
+        },
+        {
+          "key": "official-kovo-emblem-20261011",
+          "form": "emblem",
+          "lang": "en",
+          "color": "color",
+          "files": {
+            "svg": "sources/official-kovo-20261011/0c8b7c69af3bc02d8626.svg",
+            "png": "sources/official-kovo-20261011/fb05a8721d1e377cc4a5.png"
+          },
+          "preview_png": "sources/official-kovo-20261011/e8626230a718447aebf2.png",
+          "label": "KOVO 공식 구단 엠블럼 · 벡터 원본",
+          "provider": "official-site",
+          "official_distribution": false,
+          "order": 200,
+          "source_url": "https://cdn.kovo.co.kr/emblems/pinkspiders.svg",
+          "source_note": "KOVO 공식 사이트 구단 API와 CDN에서 확인. 공식 다운로드 패키지로 표기하지 않음. 기존 원본 및 대표 선택 유지."
+        }
+      ]
+    }
+  }
+}

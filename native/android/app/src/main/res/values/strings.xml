@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <resources>
-    <string name="app_name">세모로고 개발</string>
-    <string name="title_activity_main">세모로고 개발</string>
-    <string name="package_name">com.example.semologo.dev</string>
-    <string name="custom_url_scheme">com.example.semologo.dev</string>
+    <string name="app_name">세모로고</string>
+    <string name="title_activity_main">세모로고</string>
+    <string name="package_name">com.vibers.semologo</string>
+    <string name="custom_url_scheme">com.vibers.semologo</string>
 </resources>

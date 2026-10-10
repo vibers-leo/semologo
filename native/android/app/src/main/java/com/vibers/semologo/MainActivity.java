@@ -1,4 +1,4 @@
-package com.example.semologo.dev;
+package com.vibers.semologo;
 
 import com.getcapacitor.BridgeActivity;
 

@@ -1,6 +1,6 @@
 # 세모로고 네이티브 개발 프로젝트
 
-독립 Capacitor 8 workspace. 루트 Next.js 의존성·빌드를 변경하지 않습니다. **개발용 ID `com.example.semologo.dev`는 스토어 소유권 확인 전 임시값이며 출시 ID가 아닙니다.** 서명 팀·업로드 키·서비스 설정을 추정하지 않았습니다.
+독립 Capacitor 8 workspace. 루트 Next.js 의존성·빌드를 변경하지 않습니다. 출시 ID `com.vibers.semologo`, 앱 이름 `세모로고`, Apple Team `84SS43LYKR`는 실제 개발자 계정 확인 후 적용했습니다. 서명 빌드·업로드·심사 제출은 아직 완료하지 않았습니다.
 
 ## 구현 범위
 
@@ -41,11 +41,18 @@
 
 ## 2026-10-11 실행 기록
 
-- iOS·Android 플랫폼 생성 완료. 개발용 ID 유지, 출시 소유권 미확정.
+- iOS·Android 플랫폼 생성 완료. 실제 계정 확인 후 양 플랫폼 출시 ID·이름 및 iOS Team 적용.
 - Node 22.23.1, Xcode 26.6, Android Studio 내장 JDK 확인.
 - 안전성 테스트 2개 및 JS 문법 검사 통과.
 - HDD에서 Vite 의존성 로딩이 지연되어 Bun으로 22모듈을 번들. JS 34.22KB, CSS 2.90KB 생성. 재현 명령: `node scripts/build-bun.mjs` (Bun 설치 필요).
 - 1024px 기존 브랜드 원본으로 iOS·Android 아이콘 리소스 교체.
 - iOS privacy manifest 앱 Resources 포함 및 plist 검사 통과.
-- 플랫폼 동기화·서명 없는 iOS simulator debug·Android debug 빌드 진행 중. 성공 및 기기 실행은 아직 검증하지 않음.
-- 스토어 콘솔은 브라우저 보안 정책 검증 실패로 접근 거절. 등록·업로드·심사 제출 미완료.
+- 플랫폼 동기화 완료. iOS 에셋 서비스와 Android AAPT2 실패로 양쪽 debug 빌드가 중단됐으며, 실행 가능한 IPA/APK와 실기기 동작은 아직 검증하지 않았습니다.
+- App Store Connect 앱 레코드와 1.0 메타데이터 저장 완료. Play Console은 개발자 본인·기기·전화 확인이 필요합니다. 빌드 업로드와 심사 제출은 미완료입니다.
+
+### 빌드 후속 진단
+
+- Android: Gradle 8.14.3은 Java 25 실행을 지원하지 않아 설치된 JDK 21로 변경. Build-Tools 35와 SDK Platform 36 HDD 설치 완료. 97개 작업 실행 후 AAPT2 daemon startup 실패로 전체 빌드는 실패했습니다. AAPT2 직접 version 실행도 macOS dyld 시작에서 응답이 없어 별도 진단을 남겼습니다. APK는 생성되지 않았습니다.
+- iOS: unsigned ARM64 컴파일·링크 실행 파일은 생성됐으나 actool/ibtool이 root 소유 SimDiskImageManager XPC 응답 대기로 전체 번들을 완성하지 못했습니다. 공유 시스템 서비스를 종료하지 않았습니다.
+- 주간 청소의 오래된 simctl만 정상 종료했으며, 후속 삭제 재개 방지를 위해 해당 청소 부모 프로세스를 일시 정지했습니다. 시스템 서비스 복구는 소유자 확인이 필요합니다.
+- 진단 원본은 `/Volumes/HDD-1TB/semologo-migration/task-tmp/native-build-resume-status-20261011.json`에 기록했습니다.

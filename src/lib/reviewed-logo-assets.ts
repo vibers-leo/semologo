@@ -30,10 +30,11 @@ import naverRelease from './reviewed-naver-20261010.json';
 import bankCorrections from './reviewed-bank-corrections-20261010.json';
 import communityRelease from './reviewed-community-20261010.json';
 import recollectionResume from './reviewed-recollection-20261011.json';
+import sportsRelease from './reviewed-sports-20261011.json';
 // Later releases often add only counts or icons. Preserve previously reviewed
 // representative paths unless the later patch explicitly replaces that field.
 const releasePatches = mergeBrandPatches([
-  release.patches, backgroundMerge.patches, googleTransparent.patches, institutions.patches, institutionsNext.patches, rainbow.patches, requestedBackground.patches, netflix.patches, userSvg.patches, claudeMerge.patches, lockups.patches, yeonsu.patches, kepco.patches, chungbuk.patches, ftc.patches, cjwf.patches, seongju.patches, iconHd.patches, userIdentities.patches, cityMerges.patches, officialRecollection.patches, svgPreviews.patches, baeminGuide.patches, officialAi.patches, nextAssets.patches, sourceReflection.patches, naverRelease.patches, bankCorrections.patches, communityRelease.patches, recollectionResume.patches
+  release.patches, backgroundMerge.patches, googleTransparent.patches, institutions.patches, institutionsNext.patches, rainbow.patches, requestedBackground.patches, netflix.patches, userSvg.patches, claudeMerge.patches, lockups.patches, yeonsu.patches, kepco.patches, chungbuk.patches, ftc.patches, cjwf.patches, seongju.patches, iconHd.patches, userIdentities.patches, cityMerges.patches, officialRecollection.patches, svgPreviews.patches, baeminGuide.patches, officialAi.patches, nextAssets.patches, sourceReflection.patches, naverRelease.patches, bankCorrections.patches, communityRelease.patches, recollectionResume.patches, sportsRelease.patches
 ]);
 
 function mergeBrandPatches(releases: unknown[]): Record<string, Partial<Brand>> {
@@ -175,4 +176,5 @@ export const reviewedVariants: Record<string, VariantManifest> = {
   ...bankCorrections.variants as unknown as Record<string, VariantManifest>,
   ...communityRelease.variants as unknown as Record<string, VariantManifest>,
   ...recollectionResume.variants as unknown as Record<string, VariantManifest>,
+  ...sportsRelease.variants as unknown as Record<string, VariantManifest>,
 };
