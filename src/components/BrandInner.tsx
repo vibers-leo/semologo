@@ -9,6 +9,7 @@ import { Brand, fetchVariants, type VariantManifest, type VariantRecord } from "
 import { BRAND_RELATIONS, RELATION_LABEL, RELATION_COLOR } from "@/lib/brand-relations";
 import { getClientAuth, getClientDb } from "@/lib/firebase";
 import LogoVersionHistory from "./LogoVersionHistory";
+import { logoVariantForm, logoVariantLabel, logoFormLabels } from "@/lib/logo-variant-label";
 import CoupangSlot from "./CoupangSlot";
 
 const SITE_URL = "https://semologo.com";
@@ -117,7 +118,7 @@ const PROVIDER_LABEL: Record<string, string> = {
   devicons: "Devicons",
   "font-awesome": "Font Awesome",
   "logo.dev": "logo.dev",
-  derived: "원본에서 자동 추출",
+  derived: "원본에서 추출",
   "project-scan": "프로젝트 에셋",
 };
 function providerLabel(p?: string): string {
@@ -326,7 +327,7 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
   const sections = manifest
     ? Object.entries(
         manifest.variants.reduce<Record<string, VariantRecord[]>>((acc, v) => {
-          const group = v.asset_group ? ({ emblem: "엠블럼", logotype: "로고타입", symbol: "심볼마크", typography: "타이포그래피 안내", mascot: "마스코트" }[v.asset_group]) : v.label;
+          const group = v.lockup && v.lockup !== "unknown" ? logoFormLabels[logoVariantForm(v)] : v.asset_group ? ({ emblem: "엠블럼", logotype: "로고타입", symbol: "심볼마크", typography: "타이포그래피 안내", mascot: "마스코트" }[v.asset_group]) : v.label;
           (acc[group] ||= []).push(v);
           return acc;
         }, {})
@@ -335,7 +336,7 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
 
   const mainCandidates = Array.from(new Map([
     ...variants.map(v=>({file:v.file,label:v.name})),
-    ...(manifest?.variants || []).map(v=>({file:v.files.png || v.files.svg || '',label:v.label})),
+    ...(manifest?.variants || []).map(v=>({file:v.files.png || v.files.svg || '',label:logoVariantLabel(v)})),
     ...(brand.dark_png ? [{file:brand.dark_png,label:'다크 배경용 PNG'}] : []),
     ...(hasWhiteLogo && !brand.dark_png ? [{file:'logo-white.png',label:'화이트 로고 PNG'}] : []),
     ...([brand.logo_png,brand.preview_png].flatMap(asset=>{const file=presentationAssetFile(brand,asset);return file?[{file,label:'현재 대표 PNG'}]:[];})),
@@ -922,7 +923,7 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
                             <div style={{ position:"relative", width:56, height:38, flexShrink:0,
                               borderRadius:5, overflow:"hidden", ...variantTile(v) }}>
                               {/* eslint-disable-next-line @next/next/no-img-element */}
-                              <img src={previewUrl} alt={t(v.label)}
+                              <img src={previewUrl} alt={t(logoVariantLabel(v))}
                                 style={{ position:"absolute", inset:4, width:"calc(100% - 8px)",
                                   height:"calc(100% - 8px)", objectFit:"contain" }}
                                 onError={e => {
@@ -936,12 +937,12 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
                               <div style={{ fontSize:11.5, fontWeight:600, color:"#3f3f46",
                                 display:"flex", alignItems:"center", gap:5 }}>
                                 <span style={{ overflow:"hidden", textOverflow:"ellipsis", whiteSpace:"nowrap" }}>
-                                  {t(v.label)}
+                                  {t(logoVariantLabel(v))}
                                 </span>
                                 {v.origin === "derived" && (
                                   <span style={{ flexShrink:0, fontSize: 11, fontWeight:700, color:"#6366f1",
                                     background:"#eef2ff", border:"1px solid #c7d2fe", borderRadius:9,
-                                    padding:"0 5px" }}><T>{"자동 추출"}</T></span>
+                                    padding:"0 5px" }}><T>{"원본 추출"}</T></span>
                                 )}
                               </div>
                               <div style={{ fontSize: 11, color:"#a1a1aa", marginTop:1,

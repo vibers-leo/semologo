@@ -114,11 +114,11 @@
       "variants": [
         {
           "key": "official",
-          "form": "horizontal",
+          "form": "vertical",
           "asset_group": "logotype",
           "lang": "ko",
           "color": "original",
-          "label": "공식 로고 · 그레이",
+          "label": "세로조합형 · 국문",
           "files": {
             "svg": "sources/official-institution-20261009/9e90f24f3f027386.svg",
             "png": "sources/official-institution-20261009/9e90f24f3f027386.png"
@@ -127,7 +127,9 @@
           "source_url": "https://www.kra.co.kr/common/images/common/logo_gray.svg",
           "origin": "collected",
           "order": 0,
-          "light": false
+          "light": false,
+          "lockup": "vertical",
+          "text_layout": "ko"
         }
       ]
     },
@@ -143,7 +145,7 @@
           "asset_group": "symbol",
           "lang": "none",
           "color": "original",
-          "label": "공식 심볼마크",
+          "label": "심볼마크",
           "files": {
             "svg": "sources/official-institution-20261009/43192c5e4db98584.svg",
             "png": "sources/official-institution-20261009/43192c5e4db98584.png"
@@ -152,7 +154,9 @@
           "source_url": "https://www.kdi.re.kr/res/ci/logo_CI_ai.zip",
           "origin": "collected",
           "order": 0,
-          "light": false
+          "light": false,
+          "lockup": "symbol",
+          "text_layout": "none"
         }
       ]
     },
@@ -168,7 +172,7 @@
           "asset_group": "logotype",
           "lang": "ko",
           "color": "original",
-          "label": "공식 국문 시그니처",
+          "label": "가로조합형 · 국문",
           "files": {
             "svg": "sources/official-institution-20261009/1c9ecf4dd1719b8c.svg",
             "png": "sources/official-institution-20261009/1c9ecf4dd1719b8c.png"
@@ -177,7 +181,9 @@
           "source_url": "https://www.bokji.net/images/down/SSN_CI.zip",
           "origin": "collected",
           "order": 0,
-          "light": false
+          "light": false,
+          "lockup": "horizontal",
+          "text_layout": "ko"
         }
       ]
     },
@@ -193,14 +199,16 @@
           "asset_group": "logotype",
           "lang": "ko",
           "color": "original",
-          "label": "공식 국문·영문 시그니처",
+          "label": "가로조합형 · 국영문 상하조합",
           "files": {
             "png": "sources/official-institution-20261009/794f021e6606daa7.png"
           },
           "provider": "연천군시설관리공단 공식 홈페이지",
           "origin": "collected",
           "order": 0,
-          "light": false
+          "light": false,
+          "lockup": "horizontal",
+          "text_layout": "ko-en-vertical"
         },
         {
           "key": "official-header",
@@ -208,14 +216,16 @@
           "asset_group": "logotype",
           "lang": "ko",
           "color": "white",
-          "label": "공식 국문·영문 시그니처 · 어두운 배경용",
+          "label": "가로조합형 · 국영문 상하조합 · 어두운 배경용",
           "files": {
             "png": "sources/official-institution-20261009/7f80d8922c43e352.png"
           },
           "provider": "연천군시설관리공단 공식 홈페이지",
           "origin": "collected",
           "order": 1,
-          "light": true
+          "light": true,
+          "lockup": "horizontal",
+          "text_layout": "ko-en-vertical"
         }
       ]
     }

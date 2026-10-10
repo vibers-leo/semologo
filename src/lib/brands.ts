@@ -259,6 +259,10 @@ export interface VariantRecord {
   origin: "collected" | "derived" | "manual";
   order: number;
   asset_group?: "emblem" | "logotype" | "symbol" | "typography" | "mascot";
+  /** Verified symbol/text arrangement; independent of canvas aspect ratio. */
+  lockup?: "horizontal" | "vertical" | "symbol" | "wordmark" | "unknown";
+  /** Language arrangement inside the text portion of the logo. */
+  text_layout?: "ko" | "en" | "ko-en-horizontal" | "ko-en-vertical" | "none" | "unknown";
   source_url?: string;
   derived_from?: string;
   confidence?: number;

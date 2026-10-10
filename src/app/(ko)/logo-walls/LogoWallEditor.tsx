@@ -6,7 +6,7 @@ import { CATALOG_VERSION } from '@/lib/cdn';
 import { logoPngCandidates } from '@/lib/logo-png-source';
 import { applyQualityReview } from '@/lib/logo-quality-review';
 import { fetchVariants, type Brand } from '@/lib/brands';
-import { wallVariant, wallLogoKey, type WallLogo } from '@/lib/logo-wall-variant';
+import { wallVariant, wallLogoKey, wallFormLabels, type WallLogo } from '@/lib/logo-wall-variant';
 import Header from '@/components/Header';
 import { logoWallLayout, defaultLogoWallLayout, logoWallMetrics, wallCardBackground, wallStageBackground, type CardBackground, type LogoWallLayout } from '@/lib/logo-wall-layout';
 import styles from './LogoWallEditor.module.css';
@@ -206,14 +206,14 @@ export default function LogoWallEditor() {
     return () => { clearTimeout(timer); abort.abort(); };
   }, [query]);
   useEffect(() => {
-    if (formFilter === 'all' || !results.length) return;
+    if (!results.length) return;
     let active = true;
     void Promise.all(results.map(async b => {
       const manifest = await fetchVariants(b.id);
-      return [b.id, (manifest?.variants || []).map(v => { const logo = wallVariant(b,v); return logo ? { ...logo, category: v.form } as WallLogo : null; }).filter((v): v is WallLogo => Boolean(v))] as const;
+      return [b.id, (manifest?.variants || []).map(v => { const logo = wallVariant(b,v); return logo; }).filter((v): v is WallLogo => Boolean(v))] as const;
     })).then(rows => { if (active) setExpanded(v => ({ ...v, ...Object.fromEntries(rows) })); });
     return () => { active = false; };
-  }, [results, formFilter]);
+  }, [results]);
   const preview = (b: WallLogo) => logoPngCandidates(b)[0];
   async function open(w: Wall) {
     if (!canSwitch()) return;
@@ -255,8 +255,7 @@ export default function LogoWallEditor() {
     setExpanding(b.id);
     try {
       const manifest = await fetchVariants(b.id);
-      const choices = (manifest?.variants || []).map(v => ({ ...v, label: `${v.label} · ${{ symbol: '심볼마크', horizontal: '가로 조합형', vertical: '세로 조합형', wordmark: '로고타입', emblem: '엠블럼', typography: '타이포그래피', mascot: '마스코트', unknown: '기타' }[v.form]}` }));
-      const variants = choices.map((v): WallLogo | null => { const logo = wallVariant(b, v); return logo ? { ...logo, category: v.form } : null; }).filter((v): v is WallLogo => Boolean(v));
+      const variants = (manifest?.variants || []).map(v => wallVariant(b, v)).filter((v): v is WallLogo => Boolean(v));
       setExpanded(v => ({ ...v, [b.id]: variants }));
       if (!variants.length) setMessage('이 브랜드는 기본 로고만 준비돼 있어요.');
     } finally { setExpanding(null); }
@@ -274,14 +273,14 @@ export default function LogoWallEditor() {
         <section hidden={presentation} className={styles.library} aria-label="로고 선택">
           <div className={styles.sectionTitle}><h2>1. 로고 선택</h2><span>{selected.length}/100</span></div>
           <label className={styles.field}>브랜드 검색<input placeholder="삼성, 네이버, Nike…" value={query} onChange={e => setQuery(e.target.value)} /></label>
-          <p className={styles.hint}>기본 로고나 심볼·로고타입을 골라 추가해 보세요. 같은 브랜드의 다른 변형도 함께 넣을 수 있어요.</p>
+          <p className={styles.hint}>가로·세로조합형, 심볼마크, 로고타입을 골라보세요. 같은 브랜드의 여러 형태를 함께 넣을 수 있어요.</p>
           {searching ? <p role="status">로고를 찾고 있어요…</p> : query.trim() && !results.length ? <div className={styles.empty}>검색 결과가 없어요.<br /><a href="/submit/">없는 로고 제보하기 →</a></div> : !query.trim() ? <div className={styles.empty}>함께 보여주고 싶은<br />브랜드 이름을 검색해 보세요.</div> : null}
-          <label className={styles.field}>로고 형태<select aria-label="검색 로고 형태" value={formFilter} onChange={e => setFormFilter(e.target.value)}><option value="all">모든 형태</option><option value="symbol">심볼마크</option><option value="wordmark">로고타입</option><option value="horizontal">가로 조합형</option><option value="emblem">엠블럼</option></select></label>
+          <label className={styles.field}>로고 형태<select aria-label="검색 로고 형태" value={formFilter} onChange={e => setFormFilter(e.target.value)}><option value="all">모든 형태</option>{Object.entries(wallFormLabels).map(([form, label]) => <option key={form} value={form}>{label}</option>)}</select></label>
           <div className={styles.results} aria-label="브랜드 검색 결과">{results.map(b => <div key={b.id}>
-            <button className={styles.result} disabled={busy || selected.length >= 100 || selected.some(s => wallLogoKey(s) === wallLogoKey(b))} onClick={() => addLogo(b)}><SearchLogo brand={b} src={preview(b)} /><span>{b.name_ko}<small>{selected.some(s => wallLogoKey(s) === wallLogoKey(b)) ? '✓ 기본 로고 추가됨' : '＋ 기본 로고 추가'}</small></span></button>
-            <button className={styles.variantToggle} disabled={expanding === b.id} aria-expanded={Boolean(expanded[b.id])} onClick={() => void expandBrand(b)}>{expanding === b.id ? '변형을 찾고 있어요…' : expanded[b.id] ? '로고 변형 접기' : '심볼·로고타입 선택하기'}</button>
-            {expanded[b.id]?.filter(v => formFilter === 'all' || v.category === formFilter).map(v => <button key={wallLogoKey(v)} className={styles.result} disabled={busy || selected.length >= 100 || selected.some(s => wallLogoKey(s) === wallLogoKey(v))} onClick={() => addLogo(v)}><SearchLogo brand={v} src={preview(v)} /><span>{v.variantLabel}<small>{selected.some(s => wallLogoKey(s) === wallLogoKey(v)) ? '✓ 추가됨' : '＋ 이 로고 추가'}</small></span></button>)}
-            {expanded[b.id] && !expanded[b.id].some(v => formFilter === 'all' || v.category === formFilter) && <p className={styles.hint}>선택한 형태의 변형이 없어요.</p>}
+            {formFilter === 'all' && <button className={styles.result} disabled={busy || selected.length >= 100 || selected.some(s => wallLogoKey(s) === wallLogoKey(b))} onClick={() => addLogo(b)}><SearchLogo brand={b} src={preview(b)} /><span>{b.name_ko}<small>{selected.some(s => wallLogoKey(s) === wallLogoKey(b)) ? '✓ 기본 로고 추가됨' : '＋ 기본 로고 추가'}</small></span></button>}
+            <button className={styles.variantToggle} disabled={expanding === b.id} aria-expanded={Boolean(expanded[b.id])} onClick={() => void expandBrand(b)}>{formFilter !== 'all' ? `${b.name_ko} · ` : ''}{expanding === b.id ? '변형을 찾고 있어요…' : expanded[b.id] ? '로고 변형 접기' : '가로·세로·심볼·로고타입 보기'}</button>
+            {expanded[b.id]?.filter(v => formFilter === 'all' || v.variantForm === formFilter).map(v => <button key={wallLogoKey(v)} className={styles.result} disabled={busy || selected.length >= 100 || selected.some(s => wallLogoKey(s) === wallLogoKey(v))} onClick={() => addLogo(v)}><SearchLogo brand={v} src={preview(v)} /><span>{v.variantLabel}<small>{selected.some(s => wallLogoKey(s) === wallLogoKey(v)) ? '✓ 추가됨' : '＋ 이 로고 추가'}</small></span></button>)}
+            {expanded[b.id] && !expanded[b.id].some(v => formFilter === 'all' || v.variantForm === formFilter) && <p className={styles.hint}>선택한 형태의 변형이 없어요.</p>}
           </div>)}</div>
           <hr style={{ margin: '24px 0', borderColor: '#e4e4e7' }} />
           <h2 style={{ fontSize: 16 }}>내 로고·다른 로고 등록</h2>
