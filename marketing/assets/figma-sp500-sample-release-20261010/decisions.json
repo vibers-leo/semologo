@@ -1,0 +1,316 @@
+[
+  {
+    "id": "allegion",
+    "source_item": "item-0001",
+    "decision": "not-selected",
+    "reason": "Duplicate artwork, semantic-white uncertainty, or raster source excluded"
+  },
+  {
+    "id": "automatic-data-processing",
+    "source_item": "item-0003",
+    "decision": "not-selected",
+    "reason": "Duplicate artwork, semantic-white uncertainty, or raster source excluded"
+  },
+  {
+    "id": "axon-enterprise",
+    "source_item": "item-0004",
+    "member_key": "0001069183",
+    "tickers": [
+      "AXON"
+    ],
+    "decision": "reviewed-community-variant",
+    "reason": "Yellow existing wordmark versus black source lockup",
+    "verified_membership_update": false
+  },
+  {
+    "id": "costar-group",
+    "source_item": "item-0008",
+    "decision": "not-selected",
+    "reason": "Duplicate artwork, semantic-white uncertainty, or raster source excluded"
+  },
+  {
+    "id": "csx",
+    "source_item": "item-0009",
+    "decision": "not-selected",
+    "reason": "S&P candidate points to different identity; existing content preserved"
+  },
+  {
+    "id": "delta-air-lines",
+    "source_item": "item-0012",
+    "member_key": "0000027904",
+    "tickers": [
+      "DAL"
+    ],
+    "decision": "reviewed-community-variant",
+    "reason": "Existing symbol versus complete source horizontal lockup",
+    "verified_membership_update": false
+  },
+  {
+    "id": "equifax",
+    "source_item": "item-0013",
+    "decision": "not-selected",
+    "reason": "Duplicate artwork, semantic-white uncertainty, or raster source excluded"
+  },
+  {
+    "id": "expeditors-international",
+    "source_item": "item-0014",
+    "decision": "not-selected",
+    "reason": "Duplicate artwork, semantic-white uncertainty, or raster source excluded"
+  },
+  {
+    "id": "fedex-corporation",
+    "source_item": "item-0015",
+    "member_key": "0001048911",
+    "tickers": [
+      "FDX"
+    ],
+    "decision": "reviewed-community-variant",
+    "reason": "Existing monochrome corporate lockup versus purple/orange source",
+    "verified_membership_update": false
+  },
+  {
+    "id": "general-dynamics",
+    "source_item": "item-0017",
+    "member_key": "0000040533",
+    "tickers": [
+      "GD"
+    ],
+    "decision": "reviewed-community-variant",
+    "reason": "Existing black wordmark versus blue source",
+    "verified_membership_update": false
+  },
+  {
+    "id": "huntington-ingalls-industries",
+    "source_item": "item-0020",
+    "decision": "not-selected",
+    "reason": "Duplicate artwork, semantic-white uncertainty, or raster source excluded"
+  },
+  {
+    "id": "idex",
+    "source_item": "item-0021",
+    "decision": "not-selected",
+    "reason": "S&P candidate points to different identity; existing content preserved"
+  },
+  {
+    "id": "illinois-tool-works",
+    "source_item": "item-0022",
+    "member_key": "0000049826",
+    "tickers": [
+      "ITW"
+    ],
+    "decision": "reviewed-community-variant",
+    "reason": "Existing red ITW versus charcoal source",
+    "verified_membership_update": false
+  },
+  {
+    "id": "ingersoll-rand",
+    "source_item": "item-0023",
+    "decision": "not-selected",
+    "reason": "Duplicate artwork, semantic-white uncertainty, or raster source excluded"
+  },
+  {
+    "id": "johnson-controls",
+    "source_item": "item-0025",
+    "member_key": "0000833444",
+    "tickers": [
+      "JCI"
+    ],
+    "decision": "reviewed-community-variant",
+    "reason": "Different identity artwork than existing legacy typographic lockup; source date unknown",
+    "verified_membership_update": false
+  },
+  {
+    "id": "lam-research",
+    "source_item": "item-0026",
+    "decision": "not-selected",
+    "reason": "Duplicate artwork, semantic-white uncertainty, or raster source excluded"
+  },
+  {
+    "id": "lockheed-martin",
+    "source_item": "item-0027",
+    "member_key": "0000936468",
+    "tickers": [
+      "LMT"
+    ],
+    "decision": "reviewed-community-variant",
+    "reason": "Existing mono wordmark versus blue source lockup",
+    "verified_membership_update": false
+  },
+  {
+    "id": "leidos",
+    "source_item": "item-0028",
+    "member_key": "0001336920",
+    "tickers": [
+      "LDOS"
+    ],
+    "decision": "reviewed-community-variant",
+    "reason": "Different purple color treatment and layered symbol; source date unknown",
+    "verified_membership_update": false
+  },
+  {
+    "id": "masco",
+    "source_item": "item-0029",
+    "decision": "not-selected",
+    "reason": "Duplicate artwork, semantic-white uncertainty, or raster source excluded"
+  },
+  {
+    "id": "nordson-corporation",
+    "source_item": "item-0030",
+    "decision": "not-selected",
+    "reason": "Duplicate artwork, semantic-white uncertainty, or raster source excluded"
+  },
+  {
+    "id": "norfolk-southern",
+    "source_item": "item-0031",
+    "decision": "not-selected",
+    "reason": "Duplicate artwork, semantic-white uncertainty, or raster source excluded"
+  },
+  {
+    "id": "paccar",
+    "source_item": "item-0033",
+    "member_key": "0000075362",
+    "tickers": [
+      "PCAR"
+    ],
+    "decision": "reviewed-community-variant",
+    "reason": "Adds Inc corporate suffix to existing wordmark",
+    "verified_membership_update": false
+  },
+  {
+    "id": "pentair",
+    "source_item": "item-0036",
+    "decision": "not-selected",
+    "reason": "Duplicate artwork, semantic-white uncertainty, or raster source excluded"
+  },
+  {
+    "id": "rockwell-automation",
+    "source_item": "item-0038",
+    "member_key": "0001024478",
+    "tickers": [
+      "ROK"
+    ],
+    "decision": "reviewed-community-variant",
+    "reason": "Adds RA badge and horizontal color lockup to existing typographic identity",
+    "verified_membership_update": false
+  },
+  {
+    "id": "snap-on",
+    "source_item": "item-0040",
+    "decision": "not-selected",
+    "reason": "Duplicate artwork, semantic-white uncertainty, or raster source excluded"
+  },
+  {
+    "id": "stanley-black-decker",
+    "source_item": "item-0041",
+    "decision": "not-selected",
+    "reason": "Duplicate artwork, semantic-white uncertainty, or raster source excluded"
+  },
+  {
+    "id": "textron",
+    "source_item": "item-0042",
+    "member_key": "0000217346",
+    "tickers": [
+      "TXT"
+    ],
+    "decision": "reviewed-community-variant",
+    "reason": "Standalone corporate wordmark versus existing subsidiary/turf lockup",
+    "verified_membership_update": false
+  },
+  {
+    "id": "waste-management",
+    "source_item": "item-0047",
+    "member_key": "0000823768",
+    "tickers": [
+      "WM"
+    ],
+    "decision": "reviewed-community-variant",
+    "reason": "Existing green mono lockup versus green/yellow source",
+    "verified_membership_update": false
+  },
+  {
+    "id": "western-digital",
+    "source_item": "item-0048",
+    "member_key": "0000106040",
+    "tickers": [
+      "WDC"
+    ],
+    "decision": "reviewed-community-variant",
+    "reason": "Existing symbol versus full color horizontal lockup",
+    "verified_membership_update": false
+  },
+  {
+    "id": "xylem-inc",
+    "source_item": "item-0049",
+    "member_key": "0001524472",
+    "tickers": [
+      "XYL"
+    ],
+    "decision": "reviewed-community-variant",
+    "reason": "Adds Lets Solve Water tagline and vector format to existing PNG wordmark",
+    "verified_membership_update": false
+  },
+  {
+    "id": "zebratechnologies",
+    "source_item": "item-0050",
+    "decision": "not-selected",
+    "reason": "Duplicate artwork, semantic-white uncertainty, or raster source excluded"
+  },
+  {
+    "id": "emerson-electric",
+    "source_item": "item-0051",
+    "decision": "not-selected",
+    "reason": "Duplicate artwork, semantic-white uncertainty, or raster source excluded"
+  },
+  {
+    "id": "rtx",
+    "source_item": "item-0052",
+    "decision": "not-selected",
+    "reason": "Duplicate artwork, semantic-white uncertainty, or raster source excluded"
+  },
+  {
+    "id": "republic-services",
+    "source_item": "item-0053",
+    "decision": "not-selected",
+    "reason": "Duplicate artwork, semantic-white uncertainty, or raster source excluded"
+  },
+  {
+    "id": "aon",
+    "source_item": "item-0055",
+    "decision": "not-selected",
+    "reason": "S&P candidate points to different identity; existing content preserved"
+  },
+  {
+    "id": "bank-of-america",
+    "source_item": "item-0059",
+    "member_key": "0000070858",
+    "tickers": [
+      "BAC"
+    ],
+    "decision": "reviewed-community-variant",
+    "reason": "Uppercase horizontal wordmark differs from existing titlecase lockup",
+    "verified_membership_update": false
+  },
+  {
+    "id": "berkshire-hathaway",
+    "source_item": "item-0060",
+    "decision": "not-selected",
+    "reason": "Duplicate artwork, semantic-white uncertainty, or raster source excluded"
+  },
+  {
+    "id": "brown-brown",
+    "source_item": "item-0061",
+    "member_key": "0000079282",
+    "tickers": [
+      "BRO"
+    ],
+    "decision": "reviewed-community-variant",
+    "reason": "Horizontal badge plus insurance wordmark differs from existing stacked lockup",
+    "verified_membership_update": false
+  },
+  {
+    "id": "capital-one",
+    "source_item": "item-0062",
+    "decision": "not-selected",
+    "reason": "Duplicate artwork, semantic-white uncertainty, or raster source excluded"
+  }
+]

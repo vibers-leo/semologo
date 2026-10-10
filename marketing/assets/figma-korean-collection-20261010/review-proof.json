@@ -1,0 +1,212 @@
+[
+  {
+    "id": "coupang",
+    "name": "쿠팡",
+    "existing_variants_preserved": 0,
+    "primary_preserved": null,
+    "png_dimensions": [
+      2000,
+      452
+    ],
+    "transparent": true,
+    "vector_only": true,
+    "visual_review": "approved",
+    "official": false
+  },
+  {
+    "id": "coupang-eats",
+    "name": "쿠팡이츠",
+    "existing_variants_preserved": 0,
+    "primary_preserved": null,
+    "png_dimensions": [
+      2000,
+      1333
+    ],
+    "transparent": true,
+    "vector_only": true,
+    "visual_review": "approved",
+    "official": false
+  },
+  {
+    "id": "lotte",
+    "name": "롯데",
+    "existing_variants_preserved": 0,
+    "primary_preserved": null,
+    "png_dimensions": [
+      2000,
+      387
+    ],
+    "transparent": true,
+    "vector_only": true,
+    "visual_review": "approved",
+    "official": false
+  },
+  {
+    "id": "saramin-co",
+    "name": "사람인",
+    "existing_variants_preserved": 0,
+    "primary_preserved": null,
+    "png_dimensions": [
+      2000,
+      408
+    ],
+    "transparent": true,
+    "vector_only": true,
+    "visual_review": "approved",
+    "official": false
+  },
+  {
+    "id": "kbs-co",
+    "name": "KBS",
+    "existing_variants_preserved": 0,
+    "primary_preserved": null,
+    "png_dimensions": [
+      2000,
+      698
+    ],
+    "transparent": true,
+    "vector_only": true,
+    "visual_review": "approved",
+    "official": false
+  },
+  {
+    "id": "sbs-co",
+    "name": "SBS",
+    "existing_variants_preserved": 0,
+    "primary_preserved": null,
+    "png_dimensions": [
+      2000,
+      894
+    ],
+    "transparent": true,
+    "vector_only": true,
+    "visual_review": "approved",
+    "official": false
+  },
+  {
+    "id": "mbc-co",
+    "name": "MBC",
+    "existing_variants_preserved": 1,
+    "primary_preserved": "reviewed",
+    "png_dimensions": [
+      2000,
+      575
+    ],
+    "transparent": true,
+    "vector_only": true,
+    "visual_review": "approved",
+    "official": false
+  },
+  {
+    "id": "tvn",
+    "name": "TvN",
+    "existing_variants_preserved": 0,
+    "primary_preserved": null,
+    "png_dimensions": [
+      2000,
+      796
+    ],
+    "transparent": true,
+    "vector_only": true,
+    "visual_review": "approved",
+    "official": false
+  },
+  {
+    "id": "jtbc-co",
+    "name": "JTBC",
+    "existing_variants_preserved": 0,
+    "primary_preserved": null,
+    "png_dimensions": [
+      2000,
+      1023
+    ],
+    "transparent": true,
+    "vector_only": true,
+    "visual_review": "approved",
+    "official": false
+  },
+  {
+    "id": "kia",
+    "name": "기아",
+    "existing_variants_preserved": 0,
+    "primary_preserved": null,
+    "png_dimensions": [
+      2000,
+      467
+    ],
+    "transparent": true,
+    "vector_only": true,
+    "visual_review": "approved",
+    "official": false
+  },
+  {
+    "id": "hyundai",
+    "name": "현대자동차",
+    "existing_variants_preserved": 0,
+    "primary_preserved": null,
+    "png_dimensions": [
+      2000,
+      275
+    ],
+    "transparent": true,
+    "vector_only": true,
+    "visual_review": "approved",
+    "official": false
+  },
+  {
+    "id": "genesis",
+    "name": "제네시스",
+    "existing_variants_preserved": 1,
+    "primary_preserved": "reviewed",
+    "png_dimensions": [
+      2000,
+      665
+    ],
+    "transparent": true,
+    "vector_only": true,
+    "visual_review": "approved",
+    "official": false
+  },
+  {
+    "id": "baskinrobbins",
+    "name": "배스킨라빈스",
+    "existing_variants_preserved": 0,
+    "primary_preserved": null,
+    "png_dimensions": [
+      2000,
+      308
+    ],
+    "transparent": true,
+    "vector_only": true,
+    "visual_review": "approved",
+    "official": false
+  },
+  {
+    "id": "hyundaicard",
+    "name": "현대카드",
+    "existing_variants_preserved": 0,
+    "primary_preserved": null,
+    "png_dimensions": [
+      2000,
+      338
+    ],
+    "transparent": true,
+    "vector_only": true,
+    "visual_review": "approved",
+    "official": false
+  },
+  {
+    "id": "ibk",
+    "name": "IBK기업은행",
+    "existing_variants_preserved": 3,
+    "primary_preserved": "ko-current",
+    "png_dimensions": [
+      2000,
+      645
+    ],
+    "transparent": true,
+    "vector_only": true,
+    "visual_review": "approved",
+    "official": false
+  }
+]

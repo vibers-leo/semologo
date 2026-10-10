@@ -1,0 +1,502 @@
+{
+  "patches": {
+    "coupang": {
+      "variants_n": 1
+    },
+    "coupang-eats": {
+      "variants_n": 1
+    },
+    "lotte": {
+      "variants_n": 1
+    },
+    "saramin-co": {
+      "variants_n": 1
+    },
+    "kbs-co": {
+      "variants_n": 1
+    },
+    "sbs-co": {
+      "variants_n": 1
+    },
+    "mbc-co": {
+      "variants_n": 2
+    },
+    "tvn": {
+      "variants_n": 1
+    },
+    "jtbc-co": {
+      "variants_n": 1
+    },
+    "kia": {
+      "variants_n": 1
+    },
+    "hyundai": {
+      "variants_n": 1
+    },
+    "genesis": {
+      "variants_n": 2
+    },
+    "baskinrobbins": {
+      "variants_n": 1
+    },
+    "hyundaicard": {
+      "variants_n": 1
+    },
+    "ibk": {
+      "variants_n": 4
+    }
+  },
+  "variants": {
+    "coupang": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "coupang",
+      "primary": null,
+      "variants": [
+        {
+          "key": "figma-20261010-community-color",
+          "label": "커뮤니티 수록 로고 · 시기 미확인",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "mixed",
+          "color": "original",
+          "files": {
+            "svg": "sources/figma-community-20261010/4024406f3851b48016e8.svg",
+            "png": "sources/figma-community-20261010/be9052843ef0c674bb0b.png"
+          },
+          "provider": "사용자 제공 Figma Community 수집본",
+          "origin": "community",
+          "official": false,
+          "order": 0,
+          "source_note": "커뮤니티 내보내기에서 벡터 추출·시각 검수. 공식 배포 및 최신 CI 여부는 확인되지 않았습니다."
+        }
+      ]
+    },
+    "coupang-eats": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "coupang-eats",
+      "primary": null,
+      "variants": [
+        {
+          "key": "figma-20261010-community-color",
+          "label": "커뮤니티 수록 로고 · 시기 미확인",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "mixed",
+          "color": "original",
+          "files": {
+            "svg": "sources/figma-community-20261010/a4a757f8c931ac645490.svg",
+            "png": "sources/figma-community-20261010/d4827665c59639119683.png"
+          },
+          "provider": "사용자 제공 Figma Community 수집본",
+          "origin": "community",
+          "official": false,
+          "order": 0,
+          "source_note": "커뮤니티 내보내기에서 벡터 추출·시각 검수. 공식 배포 및 최신 CI 여부는 확인되지 않았습니다."
+        }
+      ]
+    },
+    "lotte": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "lotte",
+      "primary": null,
+      "variants": [
+        {
+          "key": "figma-20261010-community-color",
+          "label": "커뮤니티 수록 로고 · 시기 미확인",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "mixed",
+          "color": "original",
+          "files": {
+            "svg": "sources/figma-community-20261010/b8c06d76a930dbc8325a.svg",
+            "png": "sources/figma-community-20261010/67aa55c05aa2b897f512.png"
+          },
+          "provider": "사용자 제공 Figma Community 수집본",
+          "origin": "community",
+          "official": false,
+          "order": 0,
+          "source_note": "커뮤니티 내보내기에서 벡터 추출·시각 검수. 공식 배포 및 최신 CI 여부는 확인되지 않았습니다."
+        }
+      ]
+    },
+    "saramin-co": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "saramin-co",
+      "primary": null,
+      "variants": [
+        {
+          "key": "figma-20261010-community-color",
+          "label": "커뮤니티 수록 로고 · 시기 미확인",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "mixed",
+          "color": "original",
+          "files": {
+            "svg": "sources/figma-community-20261010/5d2b5c5e89dbcbe3584e.svg",
+            "png": "sources/figma-community-20261010/4e55a068786541ac97bc.png"
+          },
+          "provider": "사용자 제공 Figma Community 수집본",
+          "origin": "community",
+          "official": false,
+          "order": 0,
+          "source_note": "커뮤니티 내보내기에서 벡터 추출·시각 검수. 공식 배포 및 최신 CI 여부는 확인되지 않았습니다."
+        }
+      ]
+    },
+    "kbs-co": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "kbs-co",
+      "primary": null,
+      "variants": [
+        {
+          "key": "figma-20261010-community-color",
+          "label": "커뮤니티 수록 로고 · 시기 미확인",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "mixed",
+          "color": "original",
+          "files": {
+            "svg": "sources/figma-community-20261010/bbfbcf080aa0839d2eaa.svg",
+            "png": "sources/figma-community-20261010/6123df8ae1194704a1f7.png"
+          },
+          "provider": "사용자 제공 Figma Community 수집본",
+          "origin": "community",
+          "official": false,
+          "order": 0,
+          "source_note": "커뮤니티 내보내기에서 벡터 추출·시각 검수. 공식 배포 및 최신 CI 여부는 확인되지 않았습니다."
+        }
+      ]
+    },
+    "sbs-co": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "sbs-co",
+      "primary": null,
+      "variants": [
+        {
+          "key": "figma-20261010-community-color",
+          "label": "커뮤니티 수록 로고 · 시기 미확인",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "mixed",
+          "color": "original",
+          "files": {
+            "svg": "sources/figma-community-20261010/3336659363e82e941c79.svg",
+            "png": "sources/figma-community-20261010/6d9b7a8c2a6bee818aea.png"
+          },
+          "provider": "사용자 제공 Figma Community 수집본",
+          "origin": "community",
+          "official": false,
+          "order": 0,
+          "source_note": "커뮤니티 내보내기에서 벡터 추출·시각 검수. 공식 배포 및 최신 CI 여부는 확인되지 않았습니다."
+        }
+      ]
+    },
+    "mbc-co": {
+      "id": "mbc-co",
+      "algo_v": 1,
+      "schema": 1,
+      "primary": "reviewed",
+      "variants": [
+        {
+          "key": "reviewed",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "png": "sources/reviewed-background-merge-20261008/5ca2d3ad3837785f.png",
+            "svg": "sources/reviewed-background-merge-20261008/5ca2d3ad3837785f.svg"
+          },
+          "label": "투명 배경 로고",
+          "light": false,
+          "order": 0,
+          "origin": "derived",
+          "provider": "보유 원본 · 배경과 흰색 도형 검수"
+        },
+        {
+          "key": "figma-20261010-community-color",
+          "label": "커뮤니티 수록 로고 · 시기 미확인",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "mixed",
+          "color": "original",
+          "files": {
+            "svg": "sources/figma-community-20261010/8aba15d16b736bb69760.svg",
+            "png": "sources/figma-community-20261010/5229dceb5b7a827e13fb.png"
+          },
+          "provider": "사용자 제공 Figma Community 수집본",
+          "origin": "community",
+          "official": false,
+          "order": 1,
+          "source_note": "커뮤니티 내보내기에서 벡터 추출·시각 검수. 공식 배포 및 최신 CI 여부는 확인되지 않았습니다."
+        }
+      ]
+    },
+    "tvn": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "tvn",
+      "primary": null,
+      "variants": [
+        {
+          "key": "figma-20261010-community-color",
+          "label": "커뮤니티 수록 로고 · 시기 미확인",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "mixed",
+          "color": "original",
+          "files": {
+            "svg": "sources/figma-community-20261010/3c9d1f5ba8e094e84a3f.svg",
+            "png": "sources/figma-community-20261010/028c95bcac64a15288cc.png"
+          },
+          "provider": "사용자 제공 Figma Community 수집본",
+          "origin": "community",
+          "official": false,
+          "order": 0,
+          "source_note": "커뮤니티 내보내기에서 벡터 추출·시각 검수. 공식 배포 및 최신 CI 여부는 확인되지 않았습니다."
+        }
+      ]
+    },
+    "jtbc-co": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "jtbc-co",
+      "primary": null,
+      "variants": [
+        {
+          "key": "figma-20261010-community-color",
+          "label": "커뮤니티 수록 로고 · 시기 미확인",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "mixed",
+          "color": "original",
+          "files": {
+            "svg": "sources/figma-community-20261010/d96818c1c88949c5f2eb.svg",
+            "png": "sources/figma-community-20261010/b68406b2b94cd7a07666.png"
+          },
+          "provider": "사용자 제공 Figma Community 수집본",
+          "origin": "community",
+          "official": false,
+          "order": 0,
+          "source_note": "커뮤니티 내보내기에서 벡터 추출·시각 검수. 공식 배포 및 최신 CI 여부는 확인되지 않았습니다."
+        }
+      ]
+    },
+    "kia": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "kia",
+      "primary": null,
+      "variants": [
+        {
+          "key": "figma-20261010-community-color",
+          "label": "커뮤니티 수록 로고 · 시기 미확인",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "mixed",
+          "color": "original",
+          "files": {
+            "svg": "sources/figma-community-20261010/21066900968794c0ce4a.svg",
+            "png": "sources/figma-community-20261010/a872e217c4a367781ef8.png"
+          },
+          "provider": "사용자 제공 Figma Community 수집본",
+          "origin": "community",
+          "official": false,
+          "order": 0,
+          "source_note": "커뮤니티 내보내기에서 벡터 추출·시각 검수. 공식 배포 및 최신 CI 여부는 확인되지 않았습니다."
+        }
+      ]
+    },
+    "hyundai": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "hyundai",
+      "primary": null,
+      "variants": [
+        {
+          "key": "figma-20261010-community-color",
+          "label": "커뮤니티 수록 로고 · 시기 미확인",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "mixed",
+          "color": "original",
+          "files": {
+            "svg": "sources/figma-community-20261010/1d6392af60028ad31e2c.svg",
+            "png": "sources/figma-community-20261010/1bfcef13564f234bdf82.png"
+          },
+          "provider": "사용자 제공 Figma Community 수집본",
+          "origin": "community",
+          "official": false,
+          "order": 0,
+          "source_note": "커뮤니티 내보내기에서 벡터 추출·시각 검수. 공식 배포 및 최신 CI 여부는 확인되지 않았습니다."
+        }
+      ]
+    },
+    "genesis": {
+      "id": "genesis",
+      "algo_v": 1,
+      "schema": 1,
+      "primary": "reviewed",
+      "variants": [
+        {
+          "key": "reviewed",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "png": "sources/reviewed-background-merge-20261008/59caead8b4300849.png",
+            "svg": "sources/reviewed-background-merge-20261008/59caead8b4300849.svg"
+          },
+          "label": "투명 배경 로고",
+          "light": false,
+          "order": 0,
+          "origin": "derived",
+          "provider": "보유 원본 · 배경과 흰색 도형 검수"
+        },
+        {
+          "key": "figma-20261010-community-color",
+          "label": "커뮤니티 수록 로고 · 시기 미확인",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "mixed",
+          "color": "original",
+          "files": {
+            "svg": "sources/figma-community-20261010/a6ce157aa2fd330e20e8.svg",
+            "png": "sources/figma-community-20261010/de628d7c724e7c4bffae.png"
+          },
+          "provider": "사용자 제공 Figma Community 수집본",
+          "origin": "community",
+          "official": false,
+          "order": 1,
+          "source_note": "커뮤니티 내보내기에서 벡터 추출·시각 검수. 공식 배포 및 최신 CI 여부는 확인되지 않았습니다."
+        }
+      ]
+    },
+    "baskinrobbins": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "baskinrobbins",
+      "primary": null,
+      "variants": [
+        {
+          "key": "figma-20261010-community-color",
+          "label": "커뮤니티 수록 구형 로고 · 시기 미확인",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "mixed",
+          "color": "original",
+          "files": {
+            "svg": "sources/figma-community-20261010/c9b53214b46f3104825e.svg",
+            "png": "sources/figma-community-20261010/ca4263217ea64528e2a9.png"
+          },
+          "provider": "사용자 제공 Figma Community 수집본",
+          "origin": "community",
+          "official": false,
+          "order": 0,
+          "source_note": "커뮤니티 내보내기에서 벡터 추출·시각 검수. 공식 배포 및 최신 CI 여부는 확인되지 않았습니다."
+        }
+      ]
+    },
+    "hyundaicard": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "hyundaicard",
+      "primary": null,
+      "variants": [
+        {
+          "key": "figma-20261010-community-wordmark",
+          "label": "커뮤니티 수록 로고 · 시기 미확인",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "mixed",
+          "color": "original",
+          "files": {
+            "svg": "sources/figma-community-20261010/07bbd04225f5357e7a7a.svg",
+            "png": "sources/figma-community-20261010/02867669522065bb4d2a.png"
+          },
+          "provider": "사용자 제공 Figma Community 수집본",
+          "origin": "community",
+          "official": false,
+          "order": 0,
+          "source_note": "커뮤니티 내보내기에서 벡터 추출·시각 검수. 공식 배포 및 최신 CI 여부는 확인되지 않았습니다."
+        }
+      ]
+    },
+    "ibk": {
+      "id": "ibk",
+      "algo_v": 1,
+      "schema": 1,
+      "primary": "ko-current",
+      "variants": [
+        {
+          "key": "ko-current",
+          "form": "horizontal",
+          "lang": "ko",
+          "files": {
+            "png": "sources/bank-corrections-20261010/cc51458b272cc0fe.png",
+            "svg": "sources/bank-corrections-20261010/34e127e48b7c0398.svg"
+          },
+          "label": "국문 가로조합 · 슬로건 포함",
+          "order": 0,
+          "origin": "collected",
+          "provider": "legacy-reviewed",
+          "source_url": "https://global.ibk.co.kr/en/company/CI"
+        },
+        {
+          "key": "en-current",
+          "form": "horizontal",
+          "lang": "en",
+          "files": {
+            "png": "sources/bank-corrections-20261010/12ad51c22a37a6e3.png",
+            "svg": "sources/bank-corrections-20261010/113a82018aaba458.svg"
+          },
+          "label": "영문 가로조합",
+          "order": 1,
+          "origin": "collected",
+          "provider": "legacy-reviewed",
+          "source_url": "https://global.ibk.co.kr/en/company/CI"
+        },
+        {
+          "key": "symbol-current",
+          "form": "symbol",
+          "lang": "none",
+          "files": {
+            "png": "sources/bank-corrections-20261010/9dc9ffe32fcd49e0.png",
+            "svg": "sources/bank-corrections-20261010/3cb7b7b3e6aebd98.svg"
+          },
+          "label": "심볼",
+          "order": 2,
+          "origin": "collected",
+          "provider": "legacy-reviewed",
+          "source_url": "https://global.ibk.co.kr/en/company/CI"
+        },
+        {
+          "key": "figma-20261010-community-horizontal",
+          "label": "커뮤니티 수록 로고 · 시기 미확인",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "mixed",
+          "color": "original",
+          "files": {
+            "svg": "sources/figma-community-20261010/bb2fb950173d2b013459.svg",
+            "png": "sources/figma-community-20261010/bca1e1ebb6c2647f4180.png"
+          },
+          "provider": "사용자 제공 Figma Community 수집본",
+          "origin": "community",
+          "official": false,
+          "order": 3,
+          "source_note": "커뮤니티 내보내기에서 벡터 추출·시각 검수. 공식 배포 및 최신 CI 여부는 확인되지 않았습니다."
+        }
+      ]
+    }
+  },
+  "source_kind": "user-provided-figma-community",
+  "official": false,
+  "checked_at": "2026-10-10",
+  "representatives_preserved": true
+}

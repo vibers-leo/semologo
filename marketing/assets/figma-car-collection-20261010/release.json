@@ -1,0 +1,709 @@
+{
+  "patches": {
+    "abarth": {
+      "variants_n": 2
+    },
+    "acura": {
+      "variants_n": 2
+    },
+    "alfa-romeo": {
+      "variants_n": 1
+    },
+    "aston-martin": {
+      "variants_n": 1
+    },
+    "audi": {
+      "variants_n": 2
+    },
+    "bentley": {
+      "variants_n": 2
+    },
+    "bmw": {
+      "variants_n": 2
+    },
+    "brabus": {
+      "variants_n": 2
+    },
+    "bugatti": {
+      "variants_n": 2
+    },
+    "buick": {
+      "variants_n": 1
+    },
+    "byd": {
+      "variants_n": 1
+    },
+    "cadillac": {
+      "variants_n": 2
+    },
+    "chevrolet": {
+      "variants_n": 2
+    },
+    "citroen": {
+      "variants_n": 2
+    },
+    "dacia": {
+      "variants_n": 2
+    },
+    "daihatsu": {
+      "variants_n": 2
+    }
+  },
+  "variants": {
+    "abarth": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "abarth",
+      "primary": "symbol",
+      "fingerprint": {
+        "logo.svg": "190dbd5da944dbbb"
+      },
+      "variants": [
+        {
+          "key": "symbol",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "color",
+          "label": "심볼형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 0.916,
+          "provider": "thesvg",
+          "origin": "collected",
+          "order": 30
+        },
+        {
+          "key": "figma-car-community-raster",
+          "label": "PNG · 커뮤니티 수록본 · 사용 시기 미확인",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "color",
+          "files": {
+            "png": "sources/figma-car-community-20261010/4ca56d15a982a742.png"
+          },
+          "preview_png": "sources/figma-car-community-20261010/9ef86fd50b467388.png",
+          "original_png": "sources/figma-car-community-20261010/daaa35f4251361bd.png",
+          "original_download_url": "https://logo.vibers.co.kr/_clients/abarth/sources/figma-car-community-20261010/daaa35f4251361bd.png",
+          "aspect": 0.9186,
+          "provider": "figma-community",
+          "origin": "collected",
+          "order": 95,
+          "official_distribution": false,
+          "source_note": "사용자 제공 Car Logo Figma Community 내보내기의 내장 PNG 원본. 실제 벡터가 아닌 래스터 이미지이며 투명 여백만 자름. 원래 해상도를 보존하고 확대하지 않음. 사용 시기는 확인되지 않음."
+        }
+      ]
+    },
+    "acura": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "acura",
+      "primary": "symbol",
+      "fingerprint": {
+        "logo.svg": "24dfb8a206341eb2"
+      },
+      "variants": [
+        {
+          "key": "symbol",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "mono-dark",
+          "label": "심볼형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 0.984,
+          "provider": "unknown",
+          "origin": "collected",
+          "order": 30
+        },
+        {
+          "key": "figma-car-community-raster",
+          "label": "PNG · 커뮤니티 수록본 · 사용 시기 미확인",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "color",
+          "files": {
+            "png": "sources/figma-car-community-20261010/0a75352eb54966e2.png"
+          },
+          "preview_png": "sources/figma-car-community-20261010/95c4188cd1a95ba7.png",
+          "original_png": "sources/figma-car-community-20261010/cd216f8332ded1b3.png",
+          "original_download_url": "https://logo.vibers.co.kr/_clients/acura/sources/figma-car-community-20261010/cd216f8332ded1b3.png",
+          "aspect": 1.5778,
+          "provider": "figma-community",
+          "origin": "collected",
+          "order": 95,
+          "official_distribution": false,
+          "source_note": "사용자 제공 Car Logo Figma Community 내보내기의 내장 PNG 원본. 실제 벡터가 아닌 래스터 이미지이며 투명 여백만 자름. 원래 해상도를 보존하고 확대하지 않음. 사용 시기는 확인되지 않음."
+        }
+      ]
+    },
+    "alfa-romeo": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "alfa-romeo",
+      "primary": "figma-car-community-raster",
+      "variants": [
+        {
+          "key": "figma-car-community-raster",
+          "label": "PNG · 커뮤니티 수록본 · 사용 시기 미확인",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "color",
+          "files": {
+            "png": "sources/figma-car-community-20261010/112627cea14be6e9.png"
+          },
+          "preview_png": "sources/figma-car-community-20261010/e1301a191f5108a6.png",
+          "original_png": "sources/figma-car-community-20261010/eb6f16cb313ae454.png",
+          "original_download_url": "https://logo.vibers.co.kr/_clients/alfa-romeo/sources/figma-car-community-20261010/eb6f16cb313ae454.png",
+          "aspect": 0.9967,
+          "provider": "figma-community",
+          "origin": "collected",
+          "order": 95,
+          "official_distribution": false,
+          "source_note": "사용자 제공 Car Logo Figma Community 내보내기의 내장 PNG 원본. 실제 벡터가 아닌 래스터 이미지이며 투명 여백만 자름. 원래 해상도를 보존하고 확대하지 않음. 사용 시기는 확인되지 않음."
+        }
+      ]
+    },
+    "aston-martin": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "aston-martin",
+      "primary": "figma-car-community-raster",
+      "variants": [
+        {
+          "key": "figma-car-community-raster",
+          "label": "PNG · 커뮤니티 수록본 · 사용 시기 미확인",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "color",
+          "files": {
+            "png": "sources/figma-car-community-20261010/8c4343428c0bbe9f.png"
+          },
+          "preview_png": "sources/figma-car-community-20261010/7ccd67660e9dd0bb.png",
+          "original_png": "sources/figma-car-community-20261010/65476346e84a5aa3.png",
+          "original_download_url": "https://logo.vibers.co.kr/_clients/aston-martin/sources/figma-car-community-20261010/65476346e84a5aa3.png",
+          "aspect": 2.2358,
+          "provider": "figma-community",
+          "origin": "collected",
+          "order": 95,
+          "official_distribution": false,
+          "source_note": "사용자 제공 Car Logo Figma Community 내보내기의 내장 PNG 원본. 실제 벡터가 아닌 래스터 이미지이며 투명 여백만 자름. 원래 해상도를 보존하고 확대하지 않음. 사용 시기는 확인되지 않음."
+        }
+      ]
+    },
+    "audi": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "audi",
+      "primary": "horizontal",
+      "fingerprint": {
+        "logo.svg": "3b2c7dd659648df8"
+      },
+      "variants": [
+        {
+          "key": "horizontal",
+          "form": "horizontal",
+          "lang": "en",
+          "color": "color",
+          "label": "가로조합형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 2.885,
+          "provider": "simple-icons",
+          "origin": "collected",
+          "order": 10
+        },
+        {
+          "key": "figma-car-community-raster",
+          "label": "PNG · 커뮤니티 수록본 · 사용 시기 미확인",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "color",
+          "files": {
+            "png": "sources/figma-car-community-20261010/b05b68f7297c18be.png"
+          },
+          "preview_png": "sources/figma-car-community-20261010/3f7c5270b72b0177.png",
+          "original_png": "sources/figma-car-community-20261010/a70a2f1e50d9b351.png",
+          "original_download_url": "https://logo.vibers.co.kr/_clients/audi/sources/figma-car-community-20261010/a70a2f1e50d9b351.png",
+          "aspect": 1.9163,
+          "provider": "figma-community",
+          "origin": "collected",
+          "order": 95,
+          "official_distribution": false,
+          "source_note": "사용자 제공 Car Logo Figma Community 내보내기의 내장 PNG 원본. 실제 벡터가 아닌 래스터 이미지이며 투명 여백만 자름. 원래 해상도를 보존하고 확대하지 않음. 사용 시기는 확인되지 않음."
+        }
+      ]
+    },
+    "bentley": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "bentley",
+      "primary": "wordmark",
+      "fingerprint": {
+        "logo.svg": "e7cadc765e2d44f1"
+      },
+      "variants": [
+        {
+          "key": "wordmark",
+          "form": "wordmark",
+          "lang": "unknown",
+          "color": "mono-dark",
+          "label": "워드마크형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 3.082,
+          "provider": "unknown",
+          "origin": "collected",
+          "order": 40
+        },
+        {
+          "key": "figma-car-community-raster",
+          "label": "PNG · 커뮤니티 수록본 · 사용 시기 미확인",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "color",
+          "files": {
+            "png": "sources/figma-car-community-20261010/5a0e17042a79bc27.png"
+          },
+          "preview_png": "sources/figma-car-community-20261010/852d607c7f8f52d9.png",
+          "original_png": "sources/figma-car-community-20261010/55ffd511baf33c09.png",
+          "original_download_url": "https://logo.vibers.co.kr/_clients/bentley/sources/figma-car-community-20261010/55ffd511baf33c09.png",
+          "aspect": 1.9735,
+          "provider": "figma-community",
+          "origin": "collected",
+          "order": 95,
+          "official_distribution": false,
+          "source_note": "사용자 제공 Car Logo Figma Community 내보내기의 내장 PNG 원본. 실제 벡터가 아닌 래스터 이미지이며 투명 여백만 자름. 원래 해상도를 보존하고 확대하지 않음. 사용 시기는 확인되지 않음."
+        }
+      ]
+    },
+    "bmw": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "bmw",
+      "primary": "symbol",
+      "fingerprint": {
+        "logo.svg": "7e64a4ac01d727f5"
+      },
+      "variants": [
+        {
+          "key": "symbol",
+          "form": "symbol",
+          "lang": "en",
+          "color": "color",
+          "label": "심볼형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 1.0,
+          "provider": "simple-icons",
+          "origin": "collected",
+          "order": 30
+        },
+        {
+          "key": "figma-car-community-raster",
+          "label": "PNG · 커뮤니티 수록본 · 사용 시기 미확인",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "color",
+          "files": {
+            "png": "sources/figma-car-community-20261010/05ad6182796dc59a.png"
+          },
+          "preview_png": "sources/figma-car-community-20261010/116a870711ed631d.png",
+          "original_png": "sources/figma-car-community-20261010/627c022847d4c5dd.png",
+          "original_download_url": "https://logo.vibers.co.kr/_clients/bmw/sources/figma-car-community-20261010/627c022847d4c5dd.png",
+          "aspect": 1.0,
+          "provider": "figma-community",
+          "origin": "collected",
+          "order": 95,
+          "official_distribution": false,
+          "source_note": "사용자 제공 Car Logo Figma Community 내보내기의 내장 PNG 원본. 실제 벡터가 아닌 래스터 이미지이며 투명 여백만 자름. 원래 해상도를 보존하고 확대하지 않음. 사용 시기는 확인되지 않음."
+        }
+      ]
+    },
+    "brabus": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "brabus",
+      "primary": "horizontal",
+      "fingerprint": {
+        "logo.svg": "5e4cb9402818f2a1"
+      },
+      "variants": [
+        {
+          "key": "horizontal",
+          "form": "horizontal",
+          "lang": "unknown",
+          "color": "mono-dark",
+          "label": "가로조합형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 2.278,
+          "provider": "wikimedia",
+          "origin": "collected",
+          "order": 10
+        },
+        {
+          "key": "figma-car-community-raster",
+          "label": "PNG · 커뮤니티 수록본 · 사용 시기 미확인",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "color",
+          "files": {
+            "png": "sources/figma-car-community-20261010/e726d8dd2b937f74.png"
+          },
+          "preview_png": "sources/figma-car-community-20261010/ac21c628d0c234d4.png",
+          "original_png": "sources/figma-car-community-20261010/290ff11e73bf8d9e.png",
+          "original_download_url": "https://logo.vibers.co.kr/_clients/brabus/sources/figma-car-community-20261010/290ff11e73bf8d9e.png",
+          "aspect": 2.2805,
+          "provider": "figma-community",
+          "origin": "collected",
+          "order": 95,
+          "official_distribution": false,
+          "source_note": "사용자 제공 Car Logo Figma Community 내보내기의 내장 PNG 원본. 실제 벡터가 아닌 래스터 이미지이며 투명 여백만 자름. 원래 해상도를 보존하고 확대하지 않음. 사용 시기는 확인되지 않음."
+        }
+      ]
+    },
+    "bugatti": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "bugatti",
+      "primary": "horizontal",
+      "fingerprint": {
+        "logo.svg": "5322124488fedcc7"
+      },
+      "variants": [
+        {
+          "key": "horizontal",
+          "form": "horizontal",
+          "lang": "unknown",
+          "color": "mono-dark",
+          "label": "가로조합형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 1.327,
+          "provider": "unknown",
+          "origin": "collected",
+          "order": 10
+        },
+        {
+          "key": "figma-car-community-raster",
+          "label": "PNG · 커뮤니티 수록본 · 사용 시기 미확인",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "color",
+          "files": {
+            "png": "sources/figma-car-community-20261010/8c0831dea5dc412b.png"
+          },
+          "preview_png": "sources/figma-car-community-20261010/ee979906514cbc18.png",
+          "original_png": "sources/figma-car-community-20261010/a63403d02bfc13fb.png",
+          "original_download_url": "https://logo.vibers.co.kr/_clients/bugatti/sources/figma-car-community-20261010/a63403d02bfc13fb.png",
+          "aspect": 1.9597,
+          "provider": "figma-community",
+          "origin": "collected",
+          "order": 95,
+          "official_distribution": false,
+          "source_note": "사용자 제공 Car Logo Figma Community 내보내기의 내장 PNG 원본. 실제 벡터가 아닌 래스터 이미지이며 투명 여백만 자름. 원래 해상도를 보존하고 확대하지 않음. 사용 시기는 확인되지 않음."
+        }
+      ]
+    },
+    "buick": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "buick",
+      "primary": "figma-car-community-raster",
+      "variants": [
+        {
+          "key": "figma-car-community-raster",
+          "label": "PNG · 커뮤니티 수록본 · 사용 시기 미확인",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "color",
+          "files": {
+            "png": "sources/figma-car-community-20261010/12d82499d67f54f7.png"
+          },
+          "preview_png": "sources/figma-car-community-20261010/bb71633df5aa170e.png",
+          "original_png": "sources/figma-car-community-20261010/7c51bcc0be2883ba.png",
+          "original_download_url": "https://logo.vibers.co.kr/_clients/buick/sources/figma-car-community-20261010/7c51bcc0be2883ba.png",
+          "aspect": 3.194,
+          "provider": "figma-community",
+          "origin": "collected",
+          "order": 95,
+          "official_distribution": false,
+          "source_note": "사용자 제공 Car Logo Figma Community 내보내기의 내장 PNG 원본. 실제 벡터가 아닌 래스터 이미지이며 투명 여백만 자름. 원래 해상도를 보존하고 확대하지 않음. 사용 시기는 확인되지 않음."
+        }
+      ]
+    },
+    "byd": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "byd",
+      "primary": "figma-car-community-raster",
+      "variants": [
+        {
+          "key": "figma-car-community-raster",
+          "label": "PNG · 커뮤니티 수록본 · 사용 시기 미확인",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "color",
+          "files": {
+            "png": "sources/figma-car-community-20261010/95f69bb7c8bce28c.png"
+          },
+          "preview_png": "sources/figma-car-community-20261010/b26722a55b289587.png",
+          "original_png": "sources/figma-car-community-20261010/884011b6850c3543.png",
+          "original_download_url": "https://logo.vibers.co.kr/_clients/byd/sources/figma-car-community-20261010/884011b6850c3543.png",
+          "aspect": 1.6198,
+          "provider": "figma-community",
+          "origin": "collected",
+          "order": 95,
+          "official_distribution": false,
+          "source_note": "사용자 제공 Car Logo Figma Community 내보내기의 내장 PNG 원본. 실제 벡터가 아닌 래스터 이미지이며 투명 여백만 자름. 원래 해상도를 보존하고 확대하지 않음. 사용 시기는 확인되지 않음."
+        }
+      ]
+    },
+    "cadillac": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "cadillac",
+      "primary": "horizontal",
+      "fingerprint": {
+        "logo.svg": "c37737010603ac34"
+      },
+      "variants": [
+        {
+          "key": "horizontal",
+          "form": "horizontal",
+          "lang": "unknown",
+          "color": "mono-dark",
+          "label": "가로조합형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 2.557,
+          "provider": "unknown",
+          "origin": "collected",
+          "order": 10
+        },
+        {
+          "key": "figma-car-community-raster",
+          "label": "PNG · 커뮤니티 수록본 · 사용 시기 미확인",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "color",
+          "files": {
+            "png": "sources/figma-car-community-20261010/abefc65ebf40da11.png"
+          },
+          "preview_png": "sources/figma-car-community-20261010/1b39a23db1fd22f2.png",
+          "original_png": "sources/figma-car-community-20261010/88c6706cdf09d00a.png",
+          "original_download_url": "https://logo.vibers.co.kr/_clients/cadillac/sources/figma-car-community-20261010/88c6706cdf09d00a.png",
+          "aspect": 2.5583,
+          "provider": "figma-community",
+          "origin": "collected",
+          "order": 95,
+          "official_distribution": false,
+          "source_note": "사용자 제공 Car Logo Figma Community 내보내기의 내장 PNG 원본. 실제 벡터가 아닌 래스터 이미지이며 투명 여백만 자름. 원래 해상도를 보존하고 확대하지 않음. 사용 시기는 확인되지 않음."
+        }
+      ]
+    },
+    "chevrolet": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "chevrolet",
+      "primary": "wordmark",
+      "fingerprint": {
+        "logo.svg": "162fba236ab1e5a3"
+      },
+      "variants": [
+        {
+          "key": "wordmark",
+          "form": "wordmark",
+          "lang": "unknown",
+          "color": "mono-dark",
+          "label": "워드마크형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 3.061,
+          "provider": "unknown",
+          "origin": "collected",
+          "order": 40
+        },
+        {
+          "key": "figma-car-community-raster",
+          "label": "PNG · 커뮤니티 수록본 · 사용 시기 미확인",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "color",
+          "files": {
+            "png": "sources/figma-car-community-20261010/26a8d95edd199b4a.png"
+          },
+          "preview_png": "sources/figma-car-community-20261010/ea0a4dc4519a255d.png",
+          "original_png": "sources/figma-car-community-20261010/4392834f7df4f270.png",
+          "original_download_url": "https://logo.vibers.co.kr/_clients/chevrolet/sources/figma-car-community-20261010/4392834f7df4f270.png",
+          "aspect": 2.2742,
+          "provider": "figma-community",
+          "origin": "collected",
+          "order": 95,
+          "official_distribution": false,
+          "source_note": "사용자 제공 Car Logo Figma Community 내보내기의 내장 PNG 원본. 실제 벡터가 아닌 래스터 이미지이며 투명 여백만 자름. 원래 해상도를 보존하고 확대하지 않음. 사용 시기는 확인되지 않음."
+        }
+      ]
+    },
+    "citroen": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "citroen",
+      "primary": "symbol",
+      "fingerprint": {
+        "logo.svg": "c85fc447b4853317"
+      },
+      "variants": [
+        {
+          "key": "symbol",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "mono-dark",
+          "label": "심볼형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 0.809,
+          "provider": "unknown",
+          "origin": "collected",
+          "order": 30
+        },
+        {
+          "key": "figma-car-community-raster",
+          "label": "PNG · 커뮤니티 수록본 · 사용 시기 미확인",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "color",
+          "files": {
+            "png": "sources/figma-car-community-20261010/64dd920bb7f38541.png"
+          },
+          "preview_png": "sources/figma-car-community-20261010/032f31d146fcd30e.png",
+          "original_png": "sources/figma-car-community-20261010/57be27211791def8.png",
+          "original_download_url": "https://logo.vibers.co.kr/_clients/citroen/sources/figma-car-community-20261010/57be27211791def8.png",
+          "aspect": 1.4142,
+          "provider": "figma-community",
+          "origin": "collected",
+          "order": 95,
+          "official_distribution": false,
+          "source_note": "사용자 제공 Car Logo Figma Community 내보내기의 내장 PNG 원본. 실제 벡터가 아닌 래스터 이미지이며 투명 여백만 자름. 원래 해상도를 보존하고 확대하지 않음. 사용 시기는 확인되지 않음."
+        }
+      ]
+    },
+    "dacia": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "dacia",
+      "primary": "wordmark",
+      "fingerprint": {
+        "logo.svg": "9c878bd618e0caba"
+      },
+      "variants": [
+        {
+          "key": "wordmark",
+          "form": "wordmark",
+          "lang": "unknown",
+          "color": "mono-dark",
+          "label": "워드마크형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 3.571,
+          "provider": "unknown",
+          "origin": "collected",
+          "order": 40
+        },
+        {
+          "key": "figma-car-community-raster",
+          "label": "PNG · 커뮤니티 수록본 · 사용 시기 미확인",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "color",
+          "files": {
+            "png": "sources/figma-car-community-20261010/c8230a73ce047833.png"
+          },
+          "preview_png": "sources/figma-car-community-20261010/30087b3d250fce2e.png",
+          "original_png": "sources/figma-car-community-20261010/4c5da3e5d421bf05.png",
+          "original_download_url": "https://logo.vibers.co.kr/_clients/dacia/sources/figma-car-community-20261010/4c5da3e5d421bf05.png",
+          "aspect": 1.1362,
+          "provider": "figma-community",
+          "origin": "collected",
+          "order": 95,
+          "official_distribution": false,
+          "source_note": "사용자 제공 Car Logo Figma Community 내보내기의 내장 PNG 원본. 실제 벡터가 아닌 래스터 이미지이며 투명 여백만 자름. 원래 해상도를 보존하고 확대하지 않음. 사용 시기는 확인되지 않음."
+        }
+      ]
+    },
+    "daihatsu": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "daihatsu",
+      "primary": "wordmark",
+      "fingerprint": {
+        "logo.svg": "73306da90c4b7d55"
+      },
+      "variants": [
+        {
+          "key": "wordmark",
+          "form": "wordmark",
+          "lang": "unknown",
+          "color": "color",
+          "label": "워드마크형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 5.488,
+          "provider": "wikimedia",
+          "origin": "collected",
+          "order": 40
+        },
+        {
+          "key": "figma-car-community-raster",
+          "label": "PNG · 커뮤니티 수록본 · 사용 시기 미확인",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "color",
+          "files": {
+            "png": "sources/figma-car-community-20261010/c06ee8376119fb40.png"
+          },
+          "preview_png": "sources/figma-car-community-20261010/08447ce97a0047b4.png",
+          "original_png": "sources/figma-car-community-20261010/b9b5d5eea7f10c16.png",
+          "original_download_url": "https://logo.vibers.co.kr/_clients/daihatsu/sources/figma-car-community-20261010/b9b5d5eea7f10c16.png",
+          "aspect": 5.4936,
+          "provider": "figma-community",
+          "origin": "collected",
+          "order": 95,
+          "official_distribution": false,
+          "source_note": "사용자 제공 Car Logo Figma Community 내보내기의 내장 PNG 원본. 실제 벡터가 아닌 래스터 이미지이며 투명 여백만 자름. 원래 해상도를 보존하고 확대하지 않음. 사용 시기는 확인되지 않음."
+        }
+      ]
+    }
+  },
+  "review": {
+    "source_kind": "Figma Community embedded raster",
+    "vector_assets": 0,
+    "upscaling": false,
+    "existing_representatives_preserved": true,
+    "dates_unknown": true
+  }
+}

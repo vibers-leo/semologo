@@ -1,0 +1,531 @@
+{
+  "collection_id": "us-sp500",
+  "snapshot_id": "us-sp500-2026-09-27",
+  "as_of": "2026-09-27",
+  "expected_count": 500,
+  "securities": 503,
+  "members": [
+    {
+      "snapshot_id": "us-sp500-2026-09-27",
+      "member_key": "0000001800",
+      "name": "Abbott Laboratories",
+      "tickers": [
+        "ABT"
+      ],
+      "brand_id": "abbott-laboratories",
+      "previous_status": "pending",
+      "candidate_company_name": "Abbott Laboratories",
+      "identity_reviewed": true,
+      "png_verified": true,
+      "png_url": "https://logo.vibers.co.kr/_clients/abbott-laboratories/logo.png",
+      "asset_sha256": "65eeaf3358ff385e90bf1c31269a0c69e8c060bc2538b93bd0d62600bdfbb90a",
+      "dimensions": [
+        400,
+        61
+      ],
+      "file": "marketing/assets/sp500-membership-review-20261010/abbott-laboratories.png",
+      "public_catalog_verified": true,
+      "review_status": "verified",
+      "reviewed_at": "2026-10-10T12:50:27.444130+00:00",
+      "identity_evidence": "Saved S&P constituent legal name/ticker matched to canonical institution; existing representative PNG decoded and visually inspected on contact.jpg. No company identity inferred from name-only match."
+    },
+    {
+      "snapshot_id": "us-sp500-2026-09-27",
+      "member_key": "0001467373",
+      "name": "Accenture",
+      "tickers": [
+        "ACN"
+      ],
+      "brand_id": "accenture",
+      "previous_status": "pending",
+      "candidate_company_name": "Accenture",
+      "identity_reviewed": true,
+      "png_verified": true,
+      "png_url": "https://logo.vibers.co.kr/_clients/accenture/logo.png",
+      "asset_sha256": "361387fb0e0c7398c534e45c8658928de8113efb3b2a67a5d57329cd5f256a91",
+      "dimensions": [
+        512,
+        512
+      ],
+      "file": "marketing/assets/sp500-membership-review-20261010/accenture.png",
+      "public_catalog_verified": true,
+      "review_status": "verified",
+      "reviewed_at": "2026-10-10T12:50:27.063917+00:00",
+      "identity_evidence": "Saved S&P constituent legal name/ticker matched to canonical institution; existing representative PNG decoded and visually inspected on contact.jpg. No company identity inferred from name-only match."
+    },
+    {
+      "snapshot_id": "us-sp500-2026-09-27",
+      "member_key": "0001559720",
+      "name": "Airbnb",
+      "tickers": [
+        "ABNB"
+      ],
+      "brand_id": "airbnb",
+      "previous_status": "pending",
+      "candidate_company_name": "Airbnb",
+      "identity_reviewed": true,
+      "png_verified": true,
+      "png_url": "https://logo.vibers.co.kr/_clients/airbnb/logo.png",
+      "asset_sha256": "7ea7d8ab1a90fb57a3d40130ec8e08a36bb0f7a8f322ec2697d4552412c663a1",
+      "dimensions": [
+        400,
+        400
+      ],
+      "file": "marketing/assets/sp500-membership-review-20261010/airbnb.png",
+      "public_catalog_verified": true,
+      "review_status": "verified",
+      "reviewed_at": "2026-10-10T12:50:26.713959+00:00",
+      "identity_evidence": "Saved S&P constituent legal name/ticker matched to canonical institution; existing representative PNG decoded and visually inspected on contact.jpg. No company identity inferred from name-only match."
+    },
+    {
+      "snapshot_id": "us-sp500-2026-09-27",
+      "member_key": "0000899051",
+      "name": "Allstate",
+      "tickers": [
+        "ALL"
+      ],
+      "brand_id": "allstate",
+      "previous_status": "pending",
+      "candidate_company_name": "Allstate",
+      "identity_reviewed": true,
+      "png_verified": true,
+      "png_url": "https://logo.vibers.co.kr/_clients/allstate/logo.png",
+      "asset_sha256": "24077e768270c9d833a7cdd2093a33fa5d88a838d14c1a159642e90ac31105e4",
+      "dimensions": [
+        400,
+        85
+      ],
+      "file": "marketing/assets/sp500-membership-review-20261010/allstate.png",
+      "public_catalog_verified": true,
+      "review_status": "verified",
+      "reviewed_at": "2026-10-10T12:50:27.806800+00:00",
+      "identity_evidence": "Saved S&P constituent legal name/ticker matched to canonical institution; existing representative PNG decoded and visually inspected on contact.jpg. No company identity inferred from name-only match."
+    },
+    {
+      "snapshot_id": "us-sp500-2026-09-27",
+      "member_key": "0000732717",
+      "name": "AT&T",
+      "tickers": [
+        "T"
+      ],
+      "brand_id": "atandt",
+      "previous_status": "pending",
+      "candidate_company_name": "AT&T",
+      "identity_reviewed": true,
+      "png_verified": true,
+      "png_url": "https://logo.vibers.co.kr/_clients/atandt/logo.png",
+      "asset_sha256": "6274df36949e61a617490a83ff6fba2c51adfb184af082170b542a2848b11b2e",
+      "dimensions": [
+        512,
+        512
+      ],
+      "file": "marketing/assets/sp500-membership-review-20261010/atandt.png",
+      "public_catalog_verified": true,
+      "review_status": "verified",
+      "reviewed_at": "2026-10-10T12:50:27.864110+00:00",
+      "identity_evidence": "Saved S&P constituent legal name/ticker matched to canonical institution; existing representative PNG decoded and visually inspected on contact.jpg. No company identity inferred from name-only match."
+    },
+    {
+      "snapshot_id": "us-sp500-2026-09-27",
+      "member_key": "0000769397",
+      "name": "Autodesk",
+      "tickers": [
+        "ADSK"
+      ],
+      "brand_id": "autodesk",
+      "previous_status": "pending",
+      "candidate_company_name": "Autodesk",
+      "identity_reviewed": true,
+      "png_verified": true,
+      "png_url": "https://logo.vibers.co.kr/_clients/autodesk/logo.png",
+      "asset_sha256": "7a51cb92ebee60c9e45aad376bf535412630e1298ba17360ab1c1f7dd98ee9da",
+      "dimensions": [
+        512,
+        512
+      ],
+      "file": "marketing/assets/sp500-membership-review-20261010/autodesk.png",
+      "public_catalog_verified": true,
+      "review_status": "verified",
+      "reviewed_at": "2026-10-10T12:50:27.923597+00:00",
+      "identity_evidence": "Saved S&P constituent legal name/ticker matched to canonical institution; existing representative PNG decoded and visually inspected on contact.jpg. No company identity inferred from name-only match."
+    },
+    {
+      "snapshot_id": "us-sp500-2026-09-27",
+      "member_key": "0000012927",
+      "name": "Boeing",
+      "tickers": [
+        "BA"
+      ],
+      "brand_id": "boeing",
+      "previous_status": "pending",
+      "candidate_company_name": "Boeing",
+      "identity_reviewed": true,
+      "png_verified": true,
+      "png_url": "https://logo.vibers.co.kr/_clients/boeing/logo.png",
+      "asset_sha256": "6490ea1ae34011dc8a66adef8922281e0f3ec102b49135461a9c6327f19ff6cb",
+      "dimensions": [
+        512,
+        512
+      ],
+      "file": "marketing/assets/sp500-membership-review-20261010/boeing.png",
+      "public_catalog_verified": true,
+      "review_status": "verified",
+      "reviewed_at": "2026-10-10T12:50:28.095351+00:00",
+      "identity_evidence": "Saved S&P constituent legal name/ticker matched to canonical institution; existing representative PNG decoded and visually inspected on contact.jpg. No company identity inferred from name-only match."
+    },
+    {
+      "snapshot_id": "us-sp500-2026-09-27",
+      "member_key": "0000018230",
+      "name": "Caterpillar Inc.",
+      "tickers": [
+        "CAT"
+      ],
+      "brand_id": "caterpillar",
+      "previous_status": "pending",
+      "candidate_company_name": "Caterpillar",
+      "identity_reviewed": true,
+      "png_verified": true,
+      "png_url": "https://logo.vibers.co.kr/_clients/caterpillar/logo.png",
+      "asset_sha256": "78769cf314c15ee8450357468044cb2575b6bce867e5a725e83f77a8c71e08e6",
+      "dimensions": [
+        512,
+        512
+      ],
+      "file": "marketing/assets/sp500-membership-review-20261010/caterpillar.png",
+      "public_catalog_verified": true,
+      "review_status": "verified",
+      "reviewed_at": "2026-10-10T12:50:28.418364+00:00",
+      "identity_evidence": "Saved S&P constituent legal name/ticker matched to canonical institution; existing representative PNG decoded and visually inspected on contact.jpg. No company identity inferred from name-only match."
+    },
+    {
+      "snapshot_id": "us-sp500-2026-09-27",
+      "member_key": "0000858877",
+      "name": "Cisco",
+      "tickers": [
+        "CSCO"
+      ],
+      "brand_id": "cisco",
+      "previous_status": "pending",
+      "candidate_company_name": "Cisco",
+      "identity_reviewed": true,
+      "png_verified": true,
+      "png_url": "https://logo.vibers.co.kr/_clients/cisco/logo.png",
+      "asset_sha256": "7eef24016619dfd19fc055db17a180ebd85c341079d05e4effaf7604b363cfc8",
+      "dimensions": [
+        512,
+        512
+      ],
+      "file": "marketing/assets/sp500-membership-review-20261010/cisco.png",
+      "public_catalog_verified": true,
+      "review_status": "verified",
+      "reviewed_at": "2026-10-10T12:50:28.305995+00:00",
+      "identity_evidence": "Saved S&P constituent legal name/ticker matched to canonical institution; existing representative PNG decoded and visually inspected on contact.jpg. No company identity inferred from name-only match."
+    },
+    {
+      "snapshot_id": "us-sp500-2026-09-27",
+      "member_key": "0000021344",
+      "name": "Coca-Cola Company (The)",
+      "tickers": [
+        "KO"
+      ],
+      "brand_id": "the-coca-cola-company",
+      "previous_status": "pending",
+      "candidate_company_name": "The Coca-Cola Company",
+      "identity_reviewed": true,
+      "png_verified": true,
+      "png_url": "https://logo.vibers.co.kr/_clients/the-coca-cola-company/logo.png",
+      "asset_sha256": "cc2cba7782e8dcaf13b901d4b2b22d146499251ef119c0361f80421d8c4ba09a",
+      "dimensions": [
+        400,
+        64
+      ],
+      "file": "marketing/assets/sp500-membership-review-20261010/the-coca-cola-company.png",
+      "public_catalog_verified": true,
+      "review_status": "verified",
+      "reviewed_at": "2026-10-10T12:50:28.365676+00:00",
+      "identity_evidence": "Saved S&P constituent legal name/ticker matched to canonical institution; existing representative PNG decoded and visually inspected on contact.jpg. No company identity inferred from name-only match."
+    },
+    {
+      "snapshot_id": "us-sp500-2026-09-27",
+      "member_key": "0000909832",
+      "name": "Costco",
+      "tickers": [
+        "COST"
+      ],
+      "brand_id": "costco",
+      "previous_status": "pending",
+      "candidate_company_name": "Costco",
+      "identity_reviewed": true,
+      "png_verified": true,
+      "png_url": "https://logo.vibers.co.kr/_clients/costco/logo.png",
+      "asset_sha256": "1e7fa4360cc8d400cf3294b67a7a7ac7fa2bd5c3bc2315da8b0ee292db6a7446",
+      "dimensions": [
+        400,
+        143
+      ],
+      "file": "marketing/assets/sp500-membership-review-20261010/costco.png",
+      "public_catalog_verified": true,
+      "review_status": "verified",
+      "reviewed_at": "2026-10-10T12:50:28.499625+00:00",
+      "identity_evidence": "Saved S&P constituent legal name/ticker matched to canonical institution; existing representative PNG decoded and visually inspected on contact.jpg. No company identity inferred from name-only match."
+    },
+    {
+      "snapshot_id": "us-sp500-2026-09-27",
+      "member_key": "0000064803",
+      "name": "CVS Health",
+      "tickers": [
+        "CVS"
+      ],
+      "brand_id": "cvs-health",
+      "previous_status": "pending",
+      "candidate_company_name": "CVS Health",
+      "identity_reviewed": true,
+      "png_verified": true,
+      "png_url": "https://logo.vibers.co.kr/_clients/cvs-health/logo.png",
+      "asset_sha256": "e889562b83c84cc9bc6d822d52a37f45d5db06e741baebe39aac0a2a1b1842de",
+      "dimensions": [
+        400,
+        49
+      ],
+      "file": "marketing/assets/sp500-membership-review-20261010/cvs-health.png",
+      "public_catalog_verified": true,
+      "review_status": "verified",
+      "reviewed_at": "2026-10-10T12:50:28.757068+00:00",
+      "identity_evidence": "Saved S&P constituent legal name/ticker matched to canonical institution; existing representative PNG decoded and visually inspected on contact.jpg. No company identity inferred from name-only match."
+    },
+    {
+      "snapshot_id": "us-sp500-2026-09-27",
+      "member_key": "0000313616",
+      "name": "Danaher Corporation",
+      "tickers": [
+        "DHR"
+      ],
+      "brand_id": "danaher-corporation",
+      "previous_status": "pending",
+      "candidate_company_name": "Danaher Corporation",
+      "identity_reviewed": true,
+      "png_verified": true,
+      "png_url": "https://logo.vibers.co.kr/_clients/danaher-corporation/logo.png",
+      "asset_sha256": "62d495ce837be0ce86a73e7d2a49483e55aede8d858239d11304d1127fee764a",
+      "dimensions": [
+        400,
+        61
+      ],
+      "file": "marketing/assets/sp500-membership-review-20261010/danaher-corporation.png",
+      "public_catalog_verified": true,
+      "review_status": "verified",
+      "reviewed_at": "2026-10-10T12:50:28.973709+00:00",
+      "identity_evidence": "Saved S&P constituent legal name/ticker matched to canonical institution; existing representative PNG decoded and visually inspected on contact.jpg. No company identity inferred from name-only match."
+    },
+    {
+      "snapshot_id": "us-sp500-2026-09-27",
+      "member_key": "0001571996",
+      "name": "Dell Technologies",
+      "tickers": [
+        "DELL"
+      ],
+      "brand_id": "dell-technologies",
+      "previous_status": "pending",
+      "candidate_company_name": "Dell Technologies",
+      "identity_reviewed": true,
+      "png_verified": true,
+      "png_url": "https://logo.vibers.co.kr/_clients/dell-technologies/logo.png",
+      "asset_sha256": "89e8b48ce2755191f73db65b4e57d596b5f5f5c3b4ba3116f5907de16b3c5687",
+      "dimensions": [
+        400,
+        51
+      ],
+      "file": "marketing/assets/sp500-membership-review-20261010/dell-technologies.png",
+      "public_catalog_verified": true,
+      "review_status": "verified",
+      "reviewed_at": "2026-10-10T12:50:29.063575+00:00",
+      "identity_evidence": "Saved S&P constituent legal name/ticker matched to canonical institution; existing representative PNG decoded and visually inspected on contact.jpg. No company identity inferred from name-only match."
+    },
+    {
+      "snapshot_id": "us-sp500-2026-09-27",
+      "member_key": "0000886982",
+      "name": "Goldman Sachs",
+      "tickers": [
+        "GS"
+      ],
+      "brand_id": "goldmansachs",
+      "previous_status": "pending",
+      "candidate_company_name": "goldmansachs",
+      "identity_reviewed": true,
+      "png_verified": true,
+      "png_url": "https://logo.vibers.co.kr/_clients/goldmansachs/logo.png",
+      "asset_sha256": "3d0ee137a6bac03cbd950a32563b5d7d22de2f2ced7c903802f718f4234b5bcd",
+      "dimensions": [
+        512,
+        512
+      ],
+      "file": "marketing/assets/sp500-membership-review-20261010/goldmansachs.png",
+      "public_catalog_verified": true,
+      "review_status": "verified",
+      "reviewed_at": "2026-10-10T12:50:29.103189+00:00",
+      "identity_evidence": "Saved S&P constituent legal name/ticker matched to canonical institution; existing representative PNG decoded and visually inspected on contact.jpg. No company identity inferred from name-only match."
+    },
+    {
+      "snapshot_id": "us-sp500-2026-09-27",
+      "member_key": "0000354950",
+      "name": "Home Depot (The)",
+      "tickers": [
+        "HD"
+      ],
+      "brand_id": "homedepo",
+      "previous_status": "pending",
+      "candidate_company_name": "Home Depot",
+      "identity_reviewed": true,
+      "png_verified": true,
+      "png_url": "https://logo.vibers.co.kr/_clients/homedepo/logo.png",
+      "asset_sha256": "9d6c6588e4f74eec9206ab632ce161f54d4e2d3594d8ea7982b1ca49b65f17ea",
+      "dimensions": [
+        512,
+        512
+      ],
+      "file": "marketing/assets/sp500-membership-review-20261010/homedepo.png",
+      "public_catalog_verified": true,
+      "review_status": "verified",
+      "reviewed_at": "2026-10-10T12:50:29.203733+00:00",
+      "identity_evidence": "Saved S&P constituent legal name/ticker matched to canonical institution; existing representative PNG decoded and visually inspected on contact.jpg. No company identity inferred from name-only match."
+    },
+    {
+      "snapshot_id": "us-sp500-2026-09-27",
+      "member_key": "0000004904",
+      "name": "American Electric Power",
+      "tickers": [
+        "AEP"
+      ],
+      "brand_id": "american-electric-power",
+      "previous_status": "pending",
+      "candidate_company_name": "American Electric Power",
+      "identity_reviewed": true,
+      "png_verified": true,
+      "png_url": "https://logo.vibers.co.kr/_clients/american-electric-power/logo.png",
+      "asset_sha256": "664548948b406d287ddba309dc4f5da827e17af05767ed242e0d23615d9e899b",
+      "dimensions": [
+        400,
+        206
+      ],
+      "file": "marketing/assets/sp500-membership-review-20261010/american-electric-power.png",
+      "public_catalog_verified": true,
+      "review_status": "verified",
+      "reviewed_at": "2026-10-10T12:50:29.515885+00:00",
+      "identity_evidence": "Saved S&P constituent legal name/ticker matched to canonical institution; existing representative PNG decoded and visually inspected on contact.jpg. No company identity inferred from name-only match."
+    },
+    {
+      "snapshot_id": "us-sp500-2026-09-27",
+      "member_key": "0000005272",
+      "name": "American International Group",
+      "tickers": [
+        "AIG"
+      ],
+      "brand_id": "american-international-group",
+      "previous_status": "pending",
+      "candidate_company_name": "American International Group",
+      "identity_reviewed": true,
+      "png_verified": true,
+      "png_url": "https://logo.vibers.co.kr/_clients/american-international-group/logo.png",
+      "asset_sha256": "0d46fa8da7ed780f0f5320c963cc8404f53c08efba02ba94e9eb8c185d40c46f",
+      "dimensions": [
+        400,
+        216
+      ],
+      "file": "marketing/assets/sp500-membership-review-20261010/american-international-group.png",
+      "public_catalog_verified": true,
+      "review_status": "verified",
+      "reviewed_at": "2026-10-10T12:50:29.561800+00:00",
+      "identity_evidence": "Saved S&P constituent legal name/ticker matched to canonical institution; existing representative PNG decoded and visually inspected on contact.jpg. No company identity inferred from name-only match."
+    },
+    {
+      "snapshot_id": "us-sp500-2026-09-27",
+      "member_key": "0000764478",
+      "name": "Best Buy",
+      "tickers": [
+        "BBY"
+      ],
+      "brand_id": "best-buy",
+      "previous_status": "pending",
+      "candidate_company_name": "Best Buy",
+      "identity_reviewed": true,
+      "png_verified": true,
+      "png_url": "https://logo.vibers.co.kr/_clients/best-buy/logo.png",
+      "asset_sha256": "c8bba4b7bb40636f35cf3b385ae24a5efbcb53a97a9649e2ddbe5ec36198b6bf",
+      "dimensions": [
+        400,
+        234
+      ],
+      "file": "marketing/assets/sp500-membership-review-20261010/best-buy.png",
+      "public_catalog_verified": true,
+      "review_status": "verified",
+      "reviewed_at": "2026-10-10T12:50:29.657547+00:00",
+      "identity_evidence": "Saved S&P constituent legal name/ticker matched to canonical institution; existing representative PNG decoded and visually inspected on contact.jpg. No company identity inferred from name-only match."
+    },
+    {
+      "snapshot_id": "us-sp500-2026-09-27",
+      "member_key": "0002012383",
+      "name": "BlackRock",
+      "tickers": [
+        "BLK"
+      ],
+      "brand_id": "blackrock",
+      "previous_status": "pending",
+      "candidate_company_name": "BlackRock",
+      "identity_reviewed": true,
+      "png_verified": true,
+      "png_url": "https://logo.vibers.co.kr/_clients/blackrock/logo.png",
+      "asset_sha256": "98342441022d447ad20e168c39bb54ecabf52649ff73713f3c074c85e6681e86",
+      "dimensions": [
+        400,
+        58
+      ],
+      "file": "marketing/assets/sp500-membership-review-20261010/blackrock.png",
+      "public_catalog_verified": true,
+      "review_status": "verified",
+      "reviewed_at": "2026-10-10T12:50:29.756486+00:00",
+      "identity_evidence": "Saved S&P constituent legal name/ticker matched to canonical institution; existing representative PNG decoded and visually inspected on contact.jpg. No company identity inferred from name-only match."
+    }
+  ],
+  "preserve_existing_verified": true,
+  "policy": "Additive membership updates only; no official roster, snapshot source, existing verified memberships, or logo assets may be overwritten.",
+  "prior_verified_count": 17,
+  "new_verified_count": 20,
+  "held": [
+    {
+      "brand_id": "abbvie",
+      "reason": "PNG unavailable or identity not visually established"
+    },
+    {
+      "brand_id": "american-express",
+      "reason": "PNG unavailable or identity not visually established"
+    },
+    {
+      "brand_id": "bank-of-america",
+      "reason": "PNG unavailable or identity not visually established"
+    },
+    {
+      "brand_id": "chevron",
+      "reason": "PNG unavailable or identity not visually established"
+    },
+    {
+      "brand_id": "exxon-mobil",
+      "reason": "PNG unavailable or identity not visually established"
+    },
+    {
+      "brand_id": "fedex-corporation",
+      "reason": "PNG unavailable or identity not visually established"
+    },
+    {
+      "brand_id": "ford-motor-company",
+      "reason": "PNG unavailable or identity not visually established"
+    },
+    {
+      "brand_id": "aflac",
+      "reason": "PNG unavailable or identity not visually established"
+    },
+    {
+      "brand_id": "citigroup",
+      "reason": "PNG unavailable or identity not visually established"
+    }
+  ]
+}

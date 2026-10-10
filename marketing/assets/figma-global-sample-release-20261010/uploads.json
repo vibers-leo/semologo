@@ -1,0 +1,146 @@
+[
+  {
+    "id": "docker",
+    "file": "marketing/assets/figma-global-sample-release-20261010/docker/sources/community-global-20261010/90e1152919f3b13b/logo.svg",
+    "key": "_clients/docker/sources/community-global-20261010/90e1152919f3b13b/logo.svg",
+    "sha256": "90e1152919f3b13bd3ce77edff02b8322c088b8980733c7a77c3ffcb61f7001c"
+  },
+  {
+    "id": "docker",
+    "file": "marketing/assets/figma-global-sample-release-20261010/docker/sources/community-global-20261010/05843af0df501293/logo.png",
+    "key": "_clients/docker/sources/community-global-20261010/05843af0df501293/logo.png",
+    "sha256": "05843af0df501293084775d14fd01c7ec9585433409fb6870ee1dbb1f4cfd5dc"
+  },
+  {
+    "id": "docker",
+    "file": "marketing/assets/figma-global-sample-release-20261010/docker/sources/community-global-20261010/6d3f36322f2fd48e/preview.png",
+    "key": "_clients/docker/sources/community-global-20261010/6d3f36322f2fd48e/preview.png",
+    "sha256": "6d3f36322f2fd48ee4a2ed631de356d4ba68a0edb51740f53b5faebffcf3a24b"
+  },
+  {
+    "id": "dropbox",
+    "file": "marketing/assets/figma-global-sample-release-20261010/dropbox/sources/community-global-20261010/05a7bd6d31dcc15e/logo.svg",
+    "key": "_clients/dropbox/sources/community-global-20261010/05a7bd6d31dcc15e/logo.svg",
+    "sha256": "05a7bd6d31dcc15eeccc1d3d8cd49cf4619ce46ba682a4b029abc48ddeb58826"
+  },
+  {
+    "id": "dropbox",
+    "file": "marketing/assets/figma-global-sample-release-20261010/dropbox/sources/community-global-20261010/f411853ff5345289/logo.png",
+    "key": "_clients/dropbox/sources/community-global-20261010/f411853ff5345289/logo.png",
+    "sha256": "f411853ff534528916edd6dbebf03476a4f6286771b42518a0fd98562ae308e4"
+  },
+  {
+    "id": "dropbox",
+    "file": "marketing/assets/figma-global-sample-release-20261010/dropbox/sources/community-global-20261010/693c94ae78a2b475/preview.png",
+    "key": "_clients/dropbox/sources/community-global-20261010/693c94ae78a2b475/preview.png",
+    "sha256": "693c94ae78a2b475ca4ca0bd00ef36f780ff9ef47ca50504dcd048488ebce80f"
+  },
+  {
+    "id": "fastify",
+    "file": "marketing/assets/figma-global-sample-release-20261010/fastify/sources/community-global-20261010/baa936f300e8895b/logo.svg",
+    "key": "_clients/fastify/sources/community-global-20261010/baa936f300e8895b/logo.svg",
+    "sha256": "baa936f300e8895bd9938ce2f8ba9695480e05686e0bd332fc58bad77b101809"
+  },
+  {
+    "id": "fastify",
+    "file": "marketing/assets/figma-global-sample-release-20261010/fastify/sources/community-global-20261010/d5b206deee5d5004/logo.png",
+    "key": "_clients/fastify/sources/community-global-20261010/d5b206deee5d5004/logo.png",
+    "sha256": "d5b206deee5d5004de378ffd5e864dfb74ff3f88c80cf08cf0354ab32a80a039"
+  },
+  {
+    "id": "fastify",
+    "file": "marketing/assets/figma-global-sample-release-20261010/fastify/sources/community-global-20261010/32e61821f1789a85/preview.png",
+    "key": "_clients/fastify/sources/community-global-20261010/32e61821f1789a85/preview.png",
+    "sha256": "32e61821f1789a85047507057e2ca04cd907878d4ad04152b8e918d09e71a7ff"
+  },
+  {
+    "id": "firefox",
+    "file": "marketing/assets/figma-global-sample-release-20261010/firefox/sources/community-global-20261010/b9892f0009fbe5e3/logo.svg",
+    "key": "_clients/firefox/sources/community-global-20261010/b9892f0009fbe5e3/logo.svg",
+    "sha256": "b9892f0009fbe5e39356bbc621bc196a0eca9ee50d501d51010664bcd660828a"
+  },
+  {
+    "id": "firefox",
+    "file": "marketing/assets/figma-global-sample-release-20261010/firefox/sources/community-global-20261010/c243ba691f870597/logo.png",
+    "key": "_clients/firefox/sources/community-global-20261010/c243ba691f870597/logo.png",
+    "sha256": "c243ba691f870597e08dcbb621f4dc395e9a56a1d6eaafc6268f9bf4f4d983ce"
+  },
+  {
+    "id": "firefox",
+    "file": "marketing/assets/figma-global-sample-release-20261010/firefox/sources/community-global-20261010/9c549b937a3ae772/preview.png",
+    "key": "_clients/firefox/sources/community-global-20261010/9c549b937a3ae772/preview.png",
+    "sha256": "9c549b937a3ae77216c26589f819f5764afcb9bde047382379a1ecead337b922"
+  },
+  {
+    "id": "figma",
+    "file": "marketing/assets/figma-global-sample-release-20261010/figma/sources/community-global-20261010/8fb9dbd753a29915/logo.svg",
+    "key": "_clients/figma/sources/community-global-20261010/8fb9dbd753a29915/logo.svg",
+    "sha256": "8fb9dbd753a2991525ea68edcb90f9e8490ecd3bfa23471843c71d820f984207"
+  },
+  {
+    "id": "figma",
+    "file": "marketing/assets/figma-global-sample-release-20261010/figma/sources/community-global-20261010/af67f7a23780a1c5/logo.png",
+    "key": "_clients/figma/sources/community-global-20261010/af67f7a23780a1c5/logo.png",
+    "sha256": "af67f7a23780a1c523383fbd58937eafcbb2d5018aa02a55e354ebf48a869fa7"
+  },
+  {
+    "id": "figma",
+    "file": "marketing/assets/figma-global-sample-release-20261010/figma/sources/community-global-20261010/620e488c5dac8def/preview.png",
+    "key": "_clients/figma/sources/community-global-20261010/620e488c5dac8def/preview.png",
+    "sha256": "620e488c5dac8def31e669317ff4fde2ebb258f40da347f1ff84c7af46d02d7b"
+  },
+  {
+    "id": "envoy",
+    "file": "marketing/assets/figma-global-sample-release-20261010/envoy/sources/community-global-20261010/0bfe4dd90368fe05/logo.svg",
+    "key": "_clients/envoy/sources/community-global-20261010/0bfe4dd90368fe05/logo.svg",
+    "sha256": "0bfe4dd90368fe053de758d4298f8fc18eec13acad09349e31603fcaa11150a5"
+  },
+  {
+    "id": "envoy",
+    "file": "marketing/assets/figma-global-sample-release-20261010/envoy/sources/community-global-20261010/8f3b0e1df8404623/logo.png",
+    "key": "_clients/envoy/sources/community-global-20261010/8f3b0e1df8404623/logo.png",
+    "sha256": "8f3b0e1df8404623012051f60adc7f339700a9c6af661062b60e54f76881b520"
+  },
+  {
+    "id": "envoy",
+    "file": "marketing/assets/figma-global-sample-release-20261010/envoy/sources/community-global-20261010/d76ce45cdc3f8ca3/preview.png",
+    "key": "_clients/envoy/sources/community-global-20261010/d76ce45cdc3f8ca3/preview.png",
+    "sha256": "d76ce45cdc3f8ca3bf040903aef078ada2564e75c790c139f81ac83da9edae2b"
+  },
+  {
+    "id": "gitlab",
+    "file": "marketing/assets/figma-global-sample-release-20261010/gitlab/sources/community-global-20261010/4316c724951722f4/logo.svg",
+    "key": "_clients/gitlab/sources/community-global-20261010/4316c724951722f4/logo.svg",
+    "sha256": "4316c724951722f4cefa065f666d739c5f820945a79d8268e2ca8e8dc4da6cbb"
+  },
+  {
+    "id": "gitlab",
+    "file": "marketing/assets/figma-global-sample-release-20261010/gitlab/sources/community-global-20261010/150a5e4066923e08/logo.png",
+    "key": "_clients/gitlab/sources/community-global-20261010/150a5e4066923e08/logo.png",
+    "sha256": "150a5e4066923e08ace42e525e9d5a810c8d46873d6733ad30ac23fd1b6d8a5c"
+  },
+  {
+    "id": "gitlab",
+    "file": "marketing/assets/figma-global-sample-release-20261010/gitlab/sources/community-global-20261010/a234da1b910142b7/preview.png",
+    "key": "_clients/gitlab/sources/community-global-20261010/a234da1b910142b7/preview.png",
+    "sha256": "a234da1b910142b72eb4450a001901ca907c9745e1decc8fa817202b0067c994"
+  },
+  {
+    "id": "gmail",
+    "file": "marketing/assets/figma-global-sample-release-20261010/gmail/sources/community-global-20261010/52aa7573342c92fa/logo.svg",
+    "key": "_clients/gmail/sources/community-global-20261010/52aa7573342c92fa/logo.svg",
+    "sha256": "52aa7573342c92fab39f71a252ce3c46ee875f814a26c68975c6a77799b2cd42"
+  },
+  {
+    "id": "gmail",
+    "file": "marketing/assets/figma-global-sample-release-20261010/gmail/sources/community-global-20261010/b5614d2573717f61/logo.png",
+    "key": "_clients/gmail/sources/community-global-20261010/b5614d2573717f61/logo.png",
+    "sha256": "b5614d2573717f6177747d6748a8721a9b12659817c5515584b950245a6e8cff"
+  },
+  {
+    "id": "gmail",
+    "file": "marketing/assets/figma-global-sample-release-20261010/gmail/sources/community-global-20261010/630e769cbe1c492f/preview.png",
+    "key": "_clients/gmail/sources/community-global-20261010/630e769cbe1c492f/preview.png",
+    "sha256": "630e769cbe1c492f839bd3085ce95f52b91d67538f48c8875658df60ac5fb6ac"
+  }
+]

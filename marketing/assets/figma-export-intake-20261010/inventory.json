@@ -1,0 +1,468 @@
+[
+  {
+    "name": "1,400 SVG Logos Collection (1,439 components) (Community).svg",
+    "bytes": 8553456,
+    "sha256": "ab9166537a2f085477c1c83c03cc05d00ef5811161483ec7b36e7abf084c84b1",
+    "svg_tags": {
+      "svg": 1,
+      "rect": 1409,
+      "g": 1544,
+      "path": 8087,
+      "mask": 49,
+      "defs": 1,
+      "filter": 21,
+      "feFlood": 21,
+      "feBlend": 41,
+      "feColorMatrix": 40,
+      "feOffset": 20,
+      "feGaussianBlur": 22,
+      "feComposite": 3,
+      "pattern": 17,
+      "use": 17,
+      "linearGradient": 782,
+      "stop": 2629,
+      "radialGradient": 123,
+      "clipPath": 1408,
+      "image": 1
+    }
+  },
+  {
+    "name": "시중 은행 (1).svg",
+    "bytes": 203310,
+    "sha256": "6074b5965c985af6200a9101a20bb3af22da3de8340f939f6171c6af5e325b21",
+    "svg_tags": {
+      "svg": 1,
+      "rect": 59,
+      "path": 329,
+      "a": 6,
+      "mask": 11,
+      "g": 17,
+      "defs": 1,
+      "linearGradient": 2,
+      "stop": 12,
+      "clipPath": 6
+    }
+  },
+  {
+    "name": "❖ Premium company logos UI kit – Untitled UI (Community).zip",
+    "bytes": 2082789,
+    "sha256": "c3a00071febe9f83da4f4bd03035ba0115b1322853854fd171517e648430c74b",
+    "members": [
+      {
+        "name": "❖ Premium company logos UI kit – Untitled UI (Community).svg",
+        "bytes": 4740018
+      },
+      {
+        "name": "Company=ActiveCampaign.png",
+        "bytes": 4199
+      },
+      {
+        "name": "Company=Airtable.png",
+        "bytes": 2649
+      },
+      {
+        "name": "Company=Airwallex.png",
+        "bytes": 2628
+      },
+      {
+        "name": "Company=Amplitude.png",
+        "bytes": 3041
+      },
+      {
+        "name": "Company=Automattic.png",
+        "bytes": 2207
+      },
+      {
+        "name": "Company=Attentive.png",
+        "bytes": 2289
+      },
+      {
+        "name": "Company=Braze.png",
+        "bytes": 2308
+      },
+      {
+        "name": "Company=BrowserStack.png",
+        "bytes": 4283
+      },
+      {
+        "name": "Company=Calendly.png",
+        "bytes": 3160
+      },
+      {
+        "name": "Company=Carta.png",
+        "bytes": 2425
+      },
+      {
+        "name": "Company=Contentful.png",
+        "bytes": 3096
+      },
+      {
+        "name": "Company=Culture Amp.png",
+        "bytes": 1841
+      },
+      {
+        "name": "Company=Databricks.png",
+        "bytes": 2502
+      },
+      {
+        "name": "Company=Fivetran.png",
+        "bytes": 2252
+      },
+      {
+        "name": "Company=Freshworks.png",
+        "bytes": 3462
+      },
+      {
+        "name": "Company=GitHub.png",
+        "bytes": 2351
+      },
+      {
+        "name": "Company=Gitlab.png",
+        "bytes": 2793
+      },
+      {
+        "name": "Company=Gong.png",
+        "bytes": 2855
+      },
+      {
+        "name": "Company=Gusto.png",
+        "bytes": 2003
+      },
+      {
+        "name": "Company=Grammarly.png",
+        "bytes": 3360
+      },
+      {
+        "name": "Company=HashiCorp.png",
+        "bytes": 1625
+      },
+      {
+        "name": "Company=Hopin.png",
+        "bytes": 2411
+      },
+      {
+        "name": "Company=InVision.png",
+        "bytes": 2121
+      },
+      {
+        "name": "Company=LaunchDarkly.png",
+        "bytes": 1722
+      },
+      {
+        "name": "Company=Loom.png",
+        "bytes": 2488
+      },
+      {
+        "name": "Company=Mailchimp.png",
+        "bytes": 3402
+      },
+      {
+        "name": "Company=Miro.png",
+        "bytes": 1359
+      },
+      {
+        "name": "Company=Notion.png",
+        "bytes": 1602
+      },
+      {
+        "name": "Company=Outreach.png",
+        "bytes": 2646
+      },
+      {
+        "name": "Company=Pendo.png",
+        "bytes": 2040
+      },
+      {
+        "name": "Company=Pipedrive.png",
+        "bytes": 2752
+      },
+      {
+        "name": "Company=Plaid.png",
+        "bytes": 2431
+      },
+      {
+        "name": "Company=Postman.png",
+        "bytes": 2524
+      },
+      {
+        "name": "Company=Razorpay.png",
+        "bytes": 2176
+      },
+      {
+        "name": "Company=Slack.png",
+        "bytes": 1743
+      },
+      {
+        "name": "Company=Webflow.png",
+        "bytes": 2533
+      },
+      {
+        "name": "Company=Zapier.png",
+        "bytes": 1723
+      }
+    ]
+  },
+  {
+    "name": "Korean Brands Logos (국내 로고 모음집) (Community).zip",
+    "bytes": 4105167,
+    "sha256": "06c8b8054fd8285228d03ae3a51bad62bff34837de265d75095d794d4844042f",
+    "members": [
+      {
+        "name": "Korean Brands Logos (국내 로고 모음집) (Community).svg",
+        "bytes": 7832130
+      },
+      {
+        "name": "type=blender.png",
+        "bytes": 3112
+      },
+      {
+        "name": "모드=정상.png",
+        "bytes": 1554
+      },
+      {
+        "name": "모드=primary.png",
+        "bytes": 3238
+      },
+      {
+        "name": "Property 1=Variant5.png",
+        "bytes": 9030
+      },
+      {
+        "name": "Property 1=Variant6.png",
+        "bytes": 1000
+      },
+      {
+        "name": "Property 1=Variant6@2x.png",
+        "bytes": 1796
+      },
+      {
+        "name": "Property 1=Variant6@3x.png",
+        "bytes": 2573
+      },
+      {
+        "name": "Property 1=Variant6@512px.png",
+        "bytes": 12690
+      },
+      {
+        "name": "Property 1=Variant6@256px.png",
+        "bytes": 6286
+      },
+      {
+        "name": "Property 1=Variant6.svg",
+        "bytes": 509
+      },
+      {
+        "name": "Property 1=Variant7.png",
+        "bytes": 706
+      },
+      {
+        "name": "Property 1=Variant7@2x.png",
+        "bytes": 1210
+      },
+      {
+        "name": "Property 1=Variant7@3x.png",
+        "bytes": 1769
+      },
+      {
+        "name": "Property 1=Variant7@512px.png",
+        "bytes": 8832
+      },
+      {
+        "name": "Property 1=Variant7@256px.png",
+        "bytes": 4299
+      },
+      {
+        "name": "Property 1=Variant7.svg",
+        "bytes": 517
+      },
+      {
+        "name": "Property 1=Variant8.png",
+        "bytes": 567
+      },
+      {
+        "name": "Property 1=Variant8@2x.png",
+        "bytes": 928
+      },
+      {
+        "name": "Property 1=Variant8@3x.png",
+        "bytes": 1303
+      },
+      {
+        "name": "Property 1=Variant8@512px.png",
+        "bytes": 6449
+      },
+      {
+        "name": "Property 1=Variant8@256px.png",
+        "bytes": 3143
+      },
+      {
+        "name": "Property 1=Variant8.svg",
+        "bytes": 413
+      },
+      {
+        "name": "모드=정상-1.png",
+        "bytes": 4042
+      },
+      {
+        "name": "모드=정상-2.png",
+        "bytes": 1387
+      },
+      {
+        "name": "모드=정상-3.png",
+        "bytes": 2031
+      },
+      {
+        "name": "모드=정상-4.png",
+        "bytes": 2238
+      },
+      {
+        "name": "모드=정상-5.png",
+        "bytes": 1967
+      },
+      {
+        "name": "모드=정상-6.png",
+        "bytes": 3147
+      },
+      {
+        "name": "모드=정상-7.png",
+        "bytes": 5497
+      },
+      {
+        "name": "모드=정상-8.png",
+        "bytes": 3883
+      },
+      {
+        "name": "모드=정상-9.png",
+        "bytes": 1327
+      },
+      {
+        "name": "모드=정상-10.png",
+        "bytes": 2923
+      },
+      {
+        "name": "모드=정상-11.png",
+        "bytes": 849
+      },
+      {
+        "name": "모드=정상-12.png",
+        "bytes": 2964
+      },
+      {
+        "name": "모드=정상-13.png",
+        "bytes": 2288
+      },
+      {
+        "name": "모드=정상-14.png",
+        "bytes": 1462
+      },
+      {
+        "name": "모드=정상-15.png",
+        "bytes": 2105
+      },
+      {
+        "name": "모드=흑백.png",
+        "bytes": 1935
+      },
+      {
+        "name": "모드=정상-16.png",
+        "bytes": 6585
+      },
+      {
+        "name": "모드=정상-17.png",
+        "bytes": 1289
+      },
+      {
+        "name": "모드=정상-18.png",
+        "bytes": 2418
+      },
+      {
+        "name": "모드=정상-19.png",
+        "bytes": 2989
+      },
+      {
+        "name": "모드=정상-20.png",
+        "bytes": 3206
+      },
+      {
+        "name": "모드=정상-21.png",
+        "bytes": 1929
+      },
+      {
+        "name": "Property 1=토스, Property 2=Property 28.png",
+        "bytes": 1034
+      },
+      {
+        "name": "Property 1=img_logo.png",
+        "bytes": 7566
+      },
+      {
+        "name": "[here]-Soomgo-Home@4x.png",
+        "bytes": 7572
+      },
+      {
+        "name": "Property 1=img_logo_dark.png",
+        "bytes": 6071
+      },
+      {
+        "name": "Property 1=img_logo_dark-1.png",
+        "bytes": 1235
+      },
+      {
+        "name": "모드=정상-22.png",
+        "bytes": 2911
+      }
+    ]
+  },
+  {
+    "name": "Vietnam Bank & Mobile Wallet Logos (Community).svg",
+    "bytes": 3609243,
+    "sha256": "e5aefb81082afb5e1d6cfc03658687a47f2bd1ebfd92e5871c880696599ef5dc",
+    "size": {
+      "width": "2629",
+      "height": "5840",
+      "viewBox": "0 0 2629 5840",
+      "fill": "none"
+    },
+    "svg_tags": {
+      "svg": 1,
+      "rect": 176,
+      "g": 357,
+      "path": 5798,
+      "mask": 235,
+      "defs": 1,
+      "pattern": 55,
+      "use": 55,
+      "linearGradient": 271,
+      "stop": 1039,
+      "radialGradient": 42,
+      "clipPath": 116,
+      "image": 19
+    }
+  },
+  {
+    "name": "S&P 500 Companies Logos (Community).svg",
+    "bytes": 6803773,
+    "sha256": "77d3b7b186650aa5bc2cf0563050f37d50e96709b06cf9b962b5f9d591286358",
+    "size": {
+      "width": "21164",
+      "height": "17156",
+      "viewBox": "0 0 21164 17156",
+      "fill": "none"
+    },
+    "svg_tags": {
+      "svg": 1,
+      "rect": 543,
+      "path": 7573,
+      "g": 791,
+      "mask": 371,
+      "defs": 1,
+      "pattern": 157,
+      "use": 157,
+      "linearGradient": 121,
+      "stop": 837,
+      "radialGradient": 19,
+      "clipPath": 364,
+      "image": 151
+    }
+  }
+]

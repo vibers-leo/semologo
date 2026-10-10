@@ -1,0 +1,686 @@
+{
+  "schema": 1,
+  "source_kind": "user-provided-figma-community",
+  "snapshot_date": "2026-10-10",
+  "scope": "사용자 제공 Vietnam Bank & Mobile Wallet Logos 커뮤니티 SVG 수록 행. 공식 현재 영업기관 명부가 아니며 해외 본점 은행·결제망을 포함합니다.",
+  "source_url": null,
+  "source_svg_sha256": "e5aefb81082afb5e1d6cfc03658687a47f2bd1ebfd92e5871c880696599ef5dc",
+  "row_count": 84,
+  "identified_row_count": 82,
+  "unidentified_row_count": 2,
+  "country_assignment": "명부 전체 VN origin 지정 금지. 개별 기관 본점 국가 별도 검증 필요.",
+  "members": [
+    {
+      "row": 1,
+      "section": "bank-and-payment-network",
+      "name": "ABBANK",
+      "identity_status": "visual-label-read",
+      "current_operating_status_verified": false,
+      "official": false
+    },
+    {
+      "row": 2,
+      "section": "bank-and-payment-network",
+      "name": "ACB",
+      "identity_status": "visual-label-read",
+      "current_operating_status_verified": false,
+      "official": false
+    },
+    {
+      "row": 3,
+      "section": "bank-and-payment-network",
+      "name": "ANZ",
+      "identity_status": "visual-label-read",
+      "current_operating_status_verified": false,
+      "official": false
+    },
+    {
+      "row": 4,
+      "section": "bank-and-payment-network",
+      "name": "Agribank",
+      "identity_status": "visual-label-read",
+      "current_operating_status_verified": false,
+      "official": false
+    },
+    {
+      "row": 5,
+      "section": "bank-and-payment-network",
+      "name": "Bac A Bank",
+      "identity_status": "visual-label-read",
+      "current_operating_status_verified": false,
+      "official": false
+    },
+    {
+      "row": 6,
+      "section": "bank-and-payment-network",
+      "name": "Bangkok Bank",
+      "identity_status": "visual-label-read",
+      "current_operating_status_verified": false,
+      "official": false
+    },
+    {
+      "row": 7,
+      "section": "bank-and-payment-network",
+      "name": "Bank of China",
+      "identity_status": "visual-label-read",
+      "current_operating_status_verified": false,
+      "official": false
+    },
+    {
+      "row": 8,
+      "section": "bank-and-payment-network",
+      "name": "BAOVIET Bank",
+      "identity_status": "visual-label-read",
+      "current_operating_status_verified": false,
+      "official": false
+    },
+    {
+      "row": 9,
+      "section": "bank-and-payment-network",
+      "name": "BIDC",
+      "identity_status": "visual-label-read",
+      "current_operating_status_verified": false,
+      "official": false
+    },
+    {
+      "row": 10,
+      "section": "bank-and-payment-network",
+      "name": "BIDV",
+      "identity_status": "visual-label-read",
+      "current_operating_status_verified": false,
+      "official": false
+    },
+    {
+      "row": 11,
+      "section": "bank-and-payment-network",
+      "name": "CAKE",
+      "identity_status": "visual-label-read",
+      "current_operating_status_verified": false,
+      "official": false
+    },
+    {
+      "row": 12,
+      "section": "bank-and-payment-network",
+      "name": "Cathay United Bank",
+      "identity_status": "visual-label-read",
+      "current_operating_status_verified": false,
+      "official": false
+    },
+    {
+      "row": 13,
+      "section": "bank-and-payment-network",
+      "name": "CB",
+      "identity_status": "visual-label-read",
+      "current_operating_status_verified": false,
+      "official": false
+    },
+    {
+      "row": 14,
+      "section": "bank-and-payment-network",
+      "name": "Chase",
+      "identity_status": "visual-label-read",
+      "current_operating_status_verified": false,
+      "official": false
+    },
+    {
+      "row": 15,
+      "section": "bank-and-payment-network",
+      "name": "CIMB Group",
+      "identity_status": "visual-label-read",
+      "current_operating_status_verified": false,
+      "official": false
+    },
+    {
+      "row": 16,
+      "section": "bank-and-payment-network",
+      "name": "Citibank",
+      "identity_status": "visual-label-read",
+      "current_operating_status_verified": false,
+      "official": false
+    },
+    {
+      "row": 17,
+      "section": "bank-and-payment-network",
+      "name": "Commonwealth Bank",
+      "identity_status": "visual-label-read",
+      "current_operating_status_verified": false,
+      "official": false
+    },
+    {
+      "row": 18,
+      "section": "bank-and-payment-network",
+      "name": "Deutsche Bank",
+      "identity_status": "visual-label-read",
+      "current_operating_status_verified": false,
+      "official": false
+    },
+    {
+      "row": 19,
+      "section": "bank-and-payment-network",
+      "name": "DongA Bank",
+      "identity_status": "visual-label-read",
+      "current_operating_status_verified": false,
+      "official": false
+    },
+    {
+      "row": 20,
+      "section": "bank-and-payment-network",
+      "name": "DBS",
+      "identity_status": "visual-label-read",
+      "current_operating_status_verified": false,
+      "official": false
+    },
+    {
+      "row": 21,
+      "section": "bank-and-payment-network",
+      "name": "Eximbank",
+      "identity_status": "visual-label-read",
+      "current_operating_status_verified": false,
+      "official": false
+    },
+    {
+      "row": 22,
+      "section": "bank-and-payment-network",
+      "name": "GPBank",
+      "identity_status": "visual-label-read",
+      "current_operating_status_verified": false,
+      "official": false
+    },
+    {
+      "row": 23,
+      "section": "bank-and-payment-network",
+      "name": "HDBank",
+      "identity_status": "visual-label-read",
+      "current_operating_status_verified": false,
+      "official": false
+    },
+    {
+      "row": 24,
+      "section": "bank-and-payment-network",
+      "name": "Hong Leong Bank",
+      "identity_status": "visual-label-read",
+      "current_operating_status_verified": false,
+      "official": false
+    },
+    {
+      "row": 25,
+      "section": "bank-and-payment-network",
+      "name": "HSBC",
+      "identity_status": "visual-label-read",
+      "current_operating_status_verified": false,
+      "official": false
+    },
+    {
+      "row": 26,
+      "section": "bank-and-payment-network",
+      "name": "Industrial Bank of Korea",
+      "identity_status": "visual-label-read",
+      "current_operating_status_verified": false,
+      "official": false
+    },
+    {
+      "row": 27,
+      "section": "bank-and-payment-network",
+      "name": "IVB",
+      "identity_status": "visual-label-read",
+      "current_operating_status_verified": false,
+      "official": false
+    },
+    {
+      "row": 28,
+      "section": "bank-and-payment-network",
+      "name": "KB",
+      "identity_status": "visual-label-read",
+      "current_operating_status_verified": false,
+      "official": false
+    },
+    {
+      "row": 29,
+      "section": "bank-and-payment-network",
+      "name": "Hana Bank",
+      "identity_status": "visual-label-read",
+      "current_operating_status_verified": false,
+      "official": false
+    },
+    {
+      "row": 30,
+      "section": "bank-and-payment-network",
+      "name": "KienlongBank",
+      "identity_status": "visual-label-read",
+      "current_operating_status_verified": false,
+      "official": false
+    },
+    {
+      "row": 31,
+      "section": "bank-and-payment-network",
+      "name": "LPBank",
+      "identity_status": "visual-label-read",
+      "current_operating_status_verified": false,
+      "official": false
+    },
+    {
+      "row": 32,
+      "section": "bank-and-payment-network",
+      "name": "Maybank",
+      "identity_status": "visual-label-read",
+      "current_operating_status_verified": false,
+      "official": false
+    },
+    {
+      "row": 33,
+      "section": "bank-and-payment-network",
+      "name": "MB",
+      "identity_status": "visual-label-read",
+      "current_operating_status_verified": false,
+      "official": false
+    },
+    {
+      "row": 34,
+      "section": "bank-and-payment-network",
+      "name": "Mega International Commercial Bank",
+      "identity_status": "visual-label-read",
+      "current_operating_status_verified": false,
+      "official": false
+    },
+    {
+      "row": 35,
+      "section": "bank-and-payment-network",
+      "name": "Mizuho",
+      "identity_status": "visual-label-read",
+      "current_operating_status_verified": false,
+      "official": false
+    },
+    {
+      "row": 36,
+      "section": "bank-and-payment-network",
+      "name": "MSB",
+      "identity_status": "visual-label-read",
+      "current_operating_status_verified": false,
+      "official": false
+    },
+    {
+      "row": 37,
+      "section": "bank-and-payment-network",
+      "name": "Nam A Bank",
+      "identity_status": "visual-label-read",
+      "current_operating_status_verified": false,
+      "official": false
+    },
+    {
+      "row": 38,
+      "section": "bank-and-payment-network",
+      "name": "NAPAS",
+      "identity_status": "visual-label-read",
+      "current_operating_status_verified": false,
+      "official": false
+    },
+    {
+      "row": 39,
+      "section": "bank-and-payment-network",
+      "name": "NCB",
+      "identity_status": "visual-label-read",
+      "current_operating_status_verified": false,
+      "official": false
+    },
+    {
+      "row": 40,
+      "section": "bank-and-payment-network",
+      "name": "OCB",
+      "identity_status": "visual-label-read",
+      "current_operating_status_verified": false,
+      "official": false
+    },
+    {
+      "row": 41,
+      "section": "bank-and-payment-network",
+      "name": "OceanBank",
+      "identity_status": "visual-label-read",
+      "current_operating_status_verified": false,
+      "official": false
+    },
+    {
+      "row": 42,
+      "section": "bank-and-payment-network",
+      "name": "PG Bank",
+      "identity_status": "visual-label-read",
+      "current_operating_status_verified": false,
+      "official": false
+    },
+    {
+      "row": 43,
+      "section": "bank-and-payment-network",
+      "name": "Public Bank",
+      "identity_status": "visual-label-read",
+      "current_operating_status_verified": false,
+      "official": false
+    },
+    {
+      "row": 44,
+      "section": "bank-and-payment-network",
+      "name": "PVcomBank",
+      "identity_status": "visual-label-read",
+      "current_operating_status_verified": false,
+      "official": false
+    },
+    {
+      "row": 45,
+      "section": "bank-and-payment-network",
+      "name": "SCB",
+      "identity_status": "visual-label-read",
+      "current_operating_status_verified": false,
+      "official": false
+    },
+    {
+      "row": 46,
+      "section": "bank-and-payment-network",
+      "name": "Scotiabank",
+      "identity_status": "visual-label-read",
+      "current_operating_status_verified": false,
+      "official": false
+    },
+    {
+      "row": 47,
+      "section": "bank-and-payment-network",
+      "name": "SeABank",
+      "identity_status": "visual-label-read",
+      "current_operating_status_verified": false,
+      "official": false
+    },
+    {
+      "row": 48,
+      "section": "bank-and-payment-network",
+      "name": "SHB",
+      "identity_status": "visual-label-read",
+      "current_operating_status_verified": false,
+      "official": false
+    },
+    {
+      "row": 49,
+      "section": "bank-and-payment-network",
+      "name": "Shinhan Bank",
+      "identity_status": "visual-label-read",
+      "current_operating_status_verified": false,
+      "official": false
+    },
+    {
+      "row": 50,
+      "section": "bank-and-payment-network",
+      "name": "SMFG",
+      "identity_status": "visual-label-read",
+      "current_operating_status_verified": false,
+      "official": false
+    },
+    {
+      "row": 51,
+      "section": "bank-and-payment-network",
+      "name": "Standard Chartered",
+      "identity_status": "visual-label-read",
+      "current_operating_status_verified": false,
+      "official": false
+    },
+    {
+      "row": 52,
+      "section": "bank-and-payment-network",
+      "name": "Techcombank",
+      "identity_status": "visual-label-read",
+      "current_operating_status_verified": false,
+      "official": false
+    },
+    {
+      "row": 53,
+      "section": "bank-and-payment-network",
+      "name": "Timo",
+      "identity_status": "visual-label-read",
+      "current_operating_status_verified": false,
+      "official": false
+    },
+    {
+      "row": 54,
+      "section": "bank-and-payment-network",
+      "name": "TPBank",
+      "identity_status": "visual-label-read",
+      "current_operating_status_verified": false,
+      "official": false
+    },
+    {
+      "row": 55,
+      "section": "bank-and-payment-network",
+      "name": "TymeX",
+      "identity_status": "visual-label-read",
+      "current_operating_status_verified": false,
+      "official": false
+    },
+    {
+      "row": 56,
+      "section": "bank-and-payment-network",
+      "name": "TymeBank",
+      "identity_status": "visual-label-read",
+      "current_operating_status_verified": false,
+      "official": false
+    },
+    {
+      "row": 57,
+      "section": "bank-and-payment-network",
+      "name": null,
+      "identity_status": "hold-unidentified",
+      "current_operating_status_verified": false,
+      "official": false
+    },
+    {
+      "row": 58,
+      "section": "bank-and-payment-network",
+      "name": "VIB",
+      "identity_status": "visual-label-read",
+      "current_operating_status_verified": false,
+      "official": false
+    },
+    {
+      "row": 59,
+      "section": "bank-and-payment-network",
+      "name": "VietABank",
+      "identity_status": "visual-label-read",
+      "current_operating_status_verified": false,
+      "official": false
+    },
+    {
+      "row": 60,
+      "section": "bank-and-payment-network",
+      "name": "Viet Capital Bank",
+      "identity_status": "visual-label-read",
+      "current_operating_status_verified": false,
+      "official": false
+    },
+    {
+      "row": 61,
+      "section": "bank-and-payment-network",
+      "name": "Vietcombank",
+      "identity_status": "visual-label-read",
+      "current_operating_status_verified": false,
+      "official": false
+    },
+    {
+      "row": 62,
+      "section": "bank-and-payment-network",
+      "name": "VietinBank",
+      "identity_status": "visual-label-read",
+      "current_operating_status_verified": false,
+      "official": false
+    },
+    {
+      "row": 63,
+      "section": "bank-and-payment-network",
+      "name": "VPBank",
+      "identity_status": "visual-label-read",
+      "current_operating_status_verified": false,
+      "official": false
+    },
+    {
+      "row": 64,
+      "section": "bank-and-payment-network",
+      "name": "Woori Bank",
+      "identity_status": "visual-label-read",
+      "current_operating_status_verified": false,
+      "official": false
+    },
+    {
+      "row": 1,
+      "section": "wallet-and-payment-service",
+      "name": "Appota",
+      "identity_status": "visual-label-read",
+      "current_operating_status_verified": false,
+      "official": false
+    },
+    {
+      "row": 2,
+      "section": "wallet-and-payment-service",
+      "name": "BaoKim",
+      "identity_status": "visual-label-read",
+      "current_operating_status_verified": false,
+      "official": false
+    },
+    {
+      "row": 3,
+      "section": "wallet-and-payment-service",
+      "name": "ECPay",
+      "identity_status": "visual-label-read",
+      "current_operating_status_verified": false,
+      "official": false
+    },
+    {
+      "row": 4,
+      "section": "wallet-and-payment-service",
+      "name": "GrabPay by Moca",
+      "identity_status": "visual-label-read",
+      "current_operating_status_verified": false,
+      "official": false
+    },
+    {
+      "row": 5,
+      "section": "wallet-and-payment-service",
+      "name": "Moca",
+      "identity_status": "visual-label-read",
+      "current_operating_status_verified": false,
+      "official": false
+    },
+    {
+      "row": 6,
+      "section": "wallet-and-payment-service",
+      "name": "MoMo",
+      "identity_status": "visual-label-read",
+      "current_operating_status_verified": false,
+      "official": false
+    },
+    {
+      "row": 7,
+      "section": "wallet-and-payment-service",
+      "name": "NextPay",
+      "identity_status": "visual-label-read",
+      "current_operating_status_verified": false,
+      "official": false
+    },
+    {
+      "row": 8,
+      "section": "wallet-and-payment-service",
+      "name": "NganLuong.vn",
+      "identity_status": "visual-label-read",
+      "current_operating_status_verified": false,
+      "official": false
+    },
+    {
+      "row": 9,
+      "section": "wallet-and-payment-service",
+      "name": "PayME",
+      "identity_status": "visual-label-read",
+      "current_operating_status_verified": false,
+      "official": false
+    },
+    {
+      "row": 10,
+      "section": "wallet-and-payment-service",
+      "name": "Payoo",
+      "identity_status": "visual-label-read",
+      "current_operating_status_verified": false,
+      "official": false
+    },
+    {
+      "row": 11,
+      "section": "wallet-and-payment-service",
+      "name": "ShopeePay",
+      "identity_status": "visual-label-read",
+      "current_operating_status_verified": false,
+      "official": false
+    },
+    {
+      "row": 12,
+      "section": "wallet-and-payment-service",
+      "name": "TrueMoney",
+      "identity_status": "visual-label-read",
+      "current_operating_status_verified": false,
+      "official": false
+    },
+    {
+      "row": 13,
+      "section": "wallet-and-payment-service",
+      "name": "Viettel Money",
+      "identity_status": "visual-label-read",
+      "current_operating_status_verified": false,
+      "official": false
+    },
+    {
+      "row": 14,
+      "section": "wallet-and-payment-service",
+      "name": null,
+      "identity_status": "hold-unidentified",
+      "current_operating_status_verified": false,
+      "official": false
+    },
+    {
+      "row": 15,
+      "section": "wallet-and-payment-service",
+      "name": "VIMO",
+      "identity_status": "visual-label-read",
+      "current_operating_status_verified": false,
+      "official": false
+    },
+    {
+      "row": 16,
+      "section": "wallet-and-payment-service",
+      "name": "VinID",
+      "identity_status": "visual-label-read",
+      "current_operating_status_verified": false,
+      "official": false
+    },
+    {
+      "row": 17,
+      "section": "wallet-and-payment-service",
+      "name": "VNPT Money",
+      "identity_status": "visual-label-read",
+      "current_operating_status_verified": false,
+      "official": false
+    },
+    {
+      "row": 18,
+      "section": "wallet-and-payment-service",
+      "name": "VNPAY",
+      "identity_status": "visual-label-read",
+      "current_operating_status_verified": false,
+      "official": false
+    },
+    {
+      "row": 19,
+      "section": "wallet-and-payment-service",
+      "name": "VTC Pay",
+      "identity_status": "visual-label-read",
+      "current_operating_status_verified": false,
+      "official": false
+    },
+    {
+      "row": 20,
+      "section": "wallet-and-payment-service",
+      "name": "ZaloPay",
+      "identity_status": "visual-label-read",
+      "current_operating_status_verified": false,
+      "official": false
+    }
+  ]
+}

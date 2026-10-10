@@ -261,6 +261,9 @@ export interface VariantRecord {
   color: string;
   label: string;
   files: { svg?: string; png?: string };
+  /** Optional lightweight preview and untouched PNG, owned by this brand. */
+  preview_png?: string;
+  original_png?: string;
   aspect?: number | null;
   provider?: string;
   origin: "collected" | "derived" | "manual";

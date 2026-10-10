@@ -1,0 +1,2508 @@
+{
+  "patches": {
+    "postman": {
+      "variants_n": 3
+    },
+    "slack": {
+      "variants_n": 3
+    },
+    "hashicorp": {
+      "variants_n": 3
+    },
+    "fivetran": {
+      "variants_n": 1
+    },
+    "freshworks": {
+      "variants_n": 2
+    },
+    "braze": {
+      "variants_n": 3
+    },
+    "outreach-io": {
+      "variants_n": 1,
+      "id": "outreach-io",
+      "name_en": "Outreach",
+      "name_ko": "Outreach",
+      "category": "IT·테크",
+      "origin": "GLOBAL",
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": "sources/untitled-ui-community-20261010/9339d64f06497a10.svg",
+      "svg_transparent": "sources/untitled-ui-community-20261010/9339d64f06497a10.svg",
+      "logo_png": "sources/untitled-ui-community-20261010/7e3dd1afbfa733eb.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/outreach-io/sources/untitled-ui-community-20261010/3c08c42972307882.png",
+      "asset_origin": null,
+      "asset_review_status": "verified",
+      "sources": [
+        "figma-community"
+      ],
+      "collected_originals_url": "https://logo.vibers.co.kr/_clients/active-campaign/sources/untitled-ui-community-20261010/c3a00071febe9f83.zip",
+      "presentation": {
+        "file": "sources/untitled-ui-community-20261010/7e3dd1afbfa733eb.png",
+        "bg": "light"
+      },
+      "metadata": {
+        "has_svg": true,
+        "has_png": true,
+        "added_at": "2026-10-10"
+      },
+      "aliases": [
+        "Outreach"
+      ]
+    },
+    "browserstack": {
+      "variants_n": 3
+    },
+    "webflow": {
+      "variants_n": 4
+    },
+    "active-campaign": {
+      "variants_n": 3
+    },
+    "invision": {
+      "variants_n": 3
+    },
+    "launchdarkly": {
+      "variants_n": 3
+    },
+    "pipedrive": {
+      "variants_n": 2
+    },
+    "automattic": {
+      "variants_n": 3
+    },
+    "razorpay": {
+      "variants_n": 2
+    },
+    "cultureamp": {
+      "variants_n": 1
+    },
+    "notion": {
+      "variants_n": 3
+    },
+    "airtable": {
+      "variants_n": 3
+    },
+    "gusto": {
+      "variants_n": 2
+    },
+    "databricks": {
+      "variants_n": 3
+    },
+    "loom": {
+      "variants_n": 3
+    },
+    "grammarly": {
+      "variants_n": 3
+    },
+    "calendly": {
+      "variants_n": 2
+    },
+    "mailchimp": {
+      "variants_n": 3
+    },
+    "zapier": {
+      "variants_n": 3
+    },
+    "contentful": {
+      "variants_n": 2
+    },
+    "amplitude": {
+      "variants_n": 3
+    },
+    "miro": {
+      "variants_n": 3
+    },
+    "gitlab": {
+      "variants_n": 3
+    },
+    "plaid": {
+      "variants_n": 2
+    },
+    "gong": {
+      "variants_n": 1
+    },
+    "github": {
+      "variants_n": 3
+    },
+    "airwallex": {
+      "variants_n": 1,
+      "id": "airwallex",
+      "name_en": "Airwallex",
+      "name_ko": "Airwallex",
+      "category": "금융·결제",
+      "origin": "GLOBAL",
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": "sources/untitled-ui-community-20261010/c5f5a047b936c251.svg",
+      "svg_transparent": "sources/untitled-ui-community-20261010/c5f5a047b936c251.svg",
+      "logo_png": "sources/untitled-ui-community-20261010/a022bf0b8ef8ba07.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/airwallex/sources/untitled-ui-community-20261010/908a926e211ffe54.png",
+      "asset_origin": null,
+      "asset_review_status": "verified",
+      "sources": [
+        "figma-community"
+      ],
+      "collected_originals_url": "https://logo.vibers.co.kr/_clients/active-campaign/sources/untitled-ui-community-20261010/c3a00071febe9f83.zip",
+      "presentation": {
+        "file": "sources/untitled-ui-community-20261010/a022bf0b8ef8ba07.png",
+        "bg": "light"
+      },
+      "metadata": {
+        "has_svg": true,
+        "has_png": true,
+        "added_at": "2026-10-10"
+      },
+      "aliases": [
+        "Airwallex"
+      ]
+    },
+    "attentive": {
+      "variants_n": 1,
+      "id": "attentive",
+      "name_en": "Attentive",
+      "name_ko": "Attentive",
+      "category": "IT·테크",
+      "origin": "GLOBAL",
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": "sources/untitled-ui-community-20261010/4e910272d4f38512.svg",
+      "svg_transparent": "sources/untitled-ui-community-20261010/4e910272d4f38512.svg",
+      "logo_png": "sources/untitled-ui-community-20261010/9ee44282246e0551.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/attentive/sources/untitled-ui-community-20261010/2e06ac9dc3af9155.png",
+      "asset_origin": null,
+      "asset_review_status": "verified",
+      "sources": [
+        "figma-community"
+      ],
+      "collected_originals_url": "https://logo.vibers.co.kr/_clients/active-campaign/sources/untitled-ui-community-20261010/c3a00071febe9f83.zip",
+      "presentation": {
+        "file": "sources/untitled-ui-community-20261010/9ee44282246e0551.png",
+        "bg": "light"
+      },
+      "metadata": {
+        "has_svg": true,
+        "has_png": true,
+        "added_at": "2026-10-10"
+      },
+      "aliases": [
+        "Attentive"
+      ]
+    },
+    "hopin": {
+      "variants_n": 1,
+      "id": "hopin",
+      "name_en": "Hopin",
+      "name_ko": "Hopin",
+      "category": "IT·테크",
+      "origin": "GLOBAL",
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": "sources/untitled-ui-community-20261010/fa2bbd9d9c4f6fad.svg",
+      "svg_transparent": "sources/untitled-ui-community-20261010/fa2bbd9d9c4f6fad.svg",
+      "logo_png": "sources/untitled-ui-community-20261010/bfc7ded28116b578.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/hopin/sources/untitled-ui-community-20261010/3ee5c10016170291.png",
+      "asset_origin": null,
+      "asset_review_status": "verified",
+      "sources": [
+        "figma-community"
+      ],
+      "collected_originals_url": "https://logo.vibers.co.kr/_clients/active-campaign/sources/untitled-ui-community-20261010/c3a00071febe9f83.zip",
+      "presentation": {
+        "file": "sources/untitled-ui-community-20261010/bfc7ded28116b578.png",
+        "bg": "light"
+      },
+      "metadata": {
+        "has_svg": true,
+        "has_png": true,
+        "added_at": "2026-10-10"
+      },
+      "aliases": [
+        "Hopin"
+      ]
+    },
+    "pendo": {
+      "variants_n": 1,
+      "id": "pendo",
+      "name_en": "Pendo",
+      "name_ko": "Pendo",
+      "category": "IT·테크",
+      "origin": "GLOBAL",
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": "sources/untitled-ui-community-20261010/745bed7a7d05f4ad.svg",
+      "svg_transparent": "sources/untitled-ui-community-20261010/745bed7a7d05f4ad.svg",
+      "logo_png": "sources/untitled-ui-community-20261010/95ad017e1665a22f.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/pendo/sources/untitled-ui-community-20261010/3b854cb3aa97283f.png",
+      "asset_origin": null,
+      "asset_review_status": "verified",
+      "sources": [
+        "figma-community"
+      ],
+      "collected_originals_url": "https://logo.vibers.co.kr/_clients/active-campaign/sources/untitled-ui-community-20261010/c3a00071febe9f83.zip",
+      "presentation": {
+        "file": "sources/untitled-ui-community-20261010/95ad017e1665a22f.png",
+        "bg": "light"
+      },
+      "metadata": {
+        "has_svg": true,
+        "has_png": true,
+        "added_at": "2026-10-10"
+      },
+      "aliases": [
+        "Pendo"
+      ]
+    }
+  },
+  "variants": {
+    "postman": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "postman",
+      "primary": "symbol",
+      "fingerprint": {
+        "logo.svg": "bac18b92584a0a77",
+        "sources/postman-icon.svg": "a2451f46db4a9bd5",
+        "sources/thesvg/wordmark.svg": "f59b9a222bc6bd1d",
+        "sources/supertiny/postman.svg": "03c3cad9a1894444"
+      },
+      "variants": [
+        {
+          "key": "symbol",
+          "form": "symbol",
+          "lang": "en",
+          "color": "color",
+          "label": "심볼형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 1.0,
+          "provider": "simple-icons",
+          "origin": "collected",
+          "order": 30,
+          "alts": [
+            {
+              "provider": "merged",
+              "file": "sources/postman-icon.svg"
+            },
+            {
+              "provider": "supertiny",
+              "file": "sources/supertiny/postman.svg"
+            }
+          ]
+        },
+        {
+          "key": "wordmark",
+          "form": "wordmark",
+          "lang": "unknown",
+          "color": "color",
+          "label": "워드마크형",
+          "files": {
+            "svg": "sources/thesvg/wordmark.svg"
+          },
+          "aspect": 3.297,
+          "provider": "thesvg",
+          "origin": "collected",
+          "order": 40
+        },
+        {
+          "key": "untitled-ui-community-lockup",
+          "label": "가로조합 · Untitled UI 커뮤니티 수록본",
+          "form": "horizontal",
+          "lang": "en",
+          "color": "color",
+          "files": {
+            "svg": "sources/untitled-ui-community-20261010/99bee44f8c00c40f.svg",
+            "png": "sources/untitled-ui-community-20261010/a42ea933aceb5a6a.png"
+          },
+          "preview_png": "sources/untitled-ui-community-20261010/42f745da09f0c0d5.png",
+          "aspect": 3.295,
+          "provider": "figma-community",
+          "origin": "collected",
+          "order": 90,
+          "official_distribution": false,
+          "source_archive_url": "https://logo.vibers.co.kr/_clients/active-campaign/sources/untitled-ui-community-20261010/c3a00071febe9f83.zip",
+          "source_note": "사용자 제공 Untitled UI (Community) 내보내기. 공식 브랜드 배포 파일이 아닌 커뮤니티 수록본. 원본 벡터 경로를 보존하여 추출."
+        }
+      ]
+    },
+    "slack": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "slack",
+      "primary": "wordmark",
+      "fingerprint": {
+        "logo.svg": "3d209774d5335d2e",
+        "sources/fa.svg": "89f9bbc458b11911",
+        "sources/iconify/slack.svg": "6812845f7d427bb8",
+        "sources/iconify/slack-icon.svg": "158b716f049121ee",
+        "sources/devicons/slack-original.svg": "aa64827a5a4ae81f",
+        "sources/wvl/slack-icon.svg": "9d28ec39296339aa",
+        "sources/wvl/slack.svg": "c7033d231e4a1b86",
+        "sources/supertiny/slack.svg": "7c15aaccd8dd4f83"
+      },
+      "variants": [
+        {
+          "key": "symbol",
+          "form": "symbol",
+          "lang": "en",
+          "color": "color",
+          "label": "심볼형",
+          "files": {
+            "svg": "sources/iconify/slack-icon.svg",
+            "png": "sources/iconify/slack-icon.png"
+          },
+          "aspect": 1.0,
+          "provider": "iconify",
+          "origin": "collected",
+          "order": 30,
+          "alts": [
+            {
+              "provider": "wvl",
+              "file": "sources/wvl/slack-icon.svg"
+            },
+            {
+              "provider": "devicons",
+              "file": "sources/devicons/slack-original.svg"
+            },
+            {
+              "provider": "supertiny",
+              "file": "sources/supertiny/slack.svg"
+            },
+            {
+              "provider": "font-awesome",
+              "file": "sources/fa.svg"
+            }
+          ]
+        },
+        {
+          "key": "wordmark",
+          "form": "wordmark",
+          "lang": "unknown",
+          "color": "color",
+          "label": "워드마크형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 3.333,
+          "provider": "worldvectorlogo/slack",
+          "origin": "collected",
+          "order": 40,
+          "alts": [
+            {
+              "provider": "iconify",
+              "file": "sources/iconify/slack.svg"
+            },
+            {
+              "provider": "wvl",
+              "file": "sources/wvl/slack.svg"
+            }
+          ]
+        },
+        {
+          "key": "untitled-ui-community-lockup",
+          "label": "가로조합 · Untitled UI 커뮤니티 수록본",
+          "form": "horizontal",
+          "lang": "en",
+          "color": "color",
+          "files": {
+            "svg": "sources/untitled-ui-community-20261010/924015b04cc3b8f5.svg",
+            "png": "sources/untitled-ui-community-20261010/4c18b3630e5b2482.png"
+          },
+          "preview_png": "sources/untitled-ui-community-20261010/34a45cc554b3db60.png",
+          "aspect": 4.0238,
+          "provider": "figma-community",
+          "origin": "collected",
+          "order": 90,
+          "official_distribution": false,
+          "source_archive_url": "https://logo.vibers.co.kr/_clients/active-campaign/sources/untitled-ui-community-20261010/c3a00071febe9f83.zip",
+          "source_note": "사용자 제공 Untitled UI (Community) 내보내기. 공식 브랜드 배포 파일이 아닌 커뮤니티 수록본. 원본 벡터 경로를 보존하여 추출."
+        }
+      ]
+    },
+    "hashicorp": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "hashicorp",
+      "primary": "wordmark",
+      "fingerprint": {
+        "logo.svg": "4e22cddfd557a810",
+        "sources/iconify/hashicorp.svg": "4e22cddfd557a810",
+        "sources/iconify/hashicorp-icon.svg": "6574ad21ee82c14c",
+        "sources/wvl/hashicorp-icon.svg": "a91898056ce6794b",
+        "sources/wvl/hashicorp.svg": "0aed5006c8af3602",
+        "sources/hashicorp-icon.svg": "a91898056ce6794b"
+      },
+      "variants": [
+        {
+          "key": "symbol",
+          "form": "symbol",
+          "lang": "en",
+          "color": "mono-dark",
+          "label": "심볼형",
+          "files": {
+            "svg": "sources/iconify/hashicorp-icon.svg",
+            "png": "sources/iconify/hashicorp-icon.png"
+          },
+          "aspect": 0.946,
+          "provider": "iconify",
+          "origin": "collected",
+          "order": 30,
+          "alts": [
+            {
+              "provider": "wvl",
+              "file": "sources/wvl/hashicorp-icon.svg"
+            },
+            {
+              "provider": "merged",
+              "file": "sources/hashicorp-icon.svg"
+            }
+          ]
+        },
+        {
+          "key": "wordmark",
+          "form": "wordmark",
+          "lang": "en",
+          "color": "mono-dark",
+          "label": "워드마크형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 4.286,
+          "provider": "iconify",
+          "origin": "collected",
+          "order": 40,
+          "alts": [
+            {
+              "provider": "iconify",
+              "file": "sources/iconify/hashicorp.svg"
+            },
+            {
+              "provider": "wvl",
+              "file": "sources/wvl/hashicorp.svg"
+            }
+          ]
+        },
+        {
+          "key": "untitled-ui-community-lockup",
+          "label": "가로조합 · Untitled UI 커뮤니티 수록본",
+          "form": "horizontal",
+          "lang": "en",
+          "color": "color",
+          "files": {
+            "svg": "sources/untitled-ui-community-20261010/a3f366acf815577a.svg",
+            "png": "sources/untitled-ui-community-20261010/c247ea25936978e5.png"
+          },
+          "preview_png": "sources/untitled-ui-community-20261010/49f005e3fce20854.png",
+          "aspect": 3.6642,
+          "provider": "figma-community",
+          "origin": "collected",
+          "order": 90,
+          "official_distribution": false,
+          "source_archive_url": "https://logo.vibers.co.kr/_clients/active-campaign/sources/untitled-ui-community-20261010/c3a00071febe9f83.zip",
+          "source_note": "사용자 제공 Untitled UI (Community) 내보내기. 공식 브랜드 배포 파일이 아닌 커뮤니티 수록본. 원본 벡터 경로를 보존하여 추출."
+        }
+      ]
+    },
+    "fivetran": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "fivetran",
+      "primary": "untitled-ui-community-lockup",
+      "variants": [
+        {
+          "key": "untitled-ui-community-lockup",
+          "label": "가로조합 · Untitled UI 커뮤니티 수록본",
+          "form": "horizontal",
+          "lang": "en",
+          "color": "color",
+          "files": {
+            "svg": "sources/untitled-ui-community-20261010/16a93d04a44c8f9e.svg",
+            "png": "sources/untitled-ui-community-20261010/c1ece1fd2b6e3041.png"
+          },
+          "preview_png": "sources/untitled-ui-community-20261010/52d941904d02fa43.png",
+          "aspect": 3.5763,
+          "provider": "figma-community",
+          "origin": "collected",
+          "order": 90,
+          "official_distribution": false,
+          "source_archive_url": "https://logo.vibers.co.kr/_clients/active-campaign/sources/untitled-ui-community-20261010/c3a00071febe9f83.zip",
+          "source_note": "사용자 제공 Untitled UI (Community) 내보내기. 공식 브랜드 배포 파일이 아닌 커뮤니티 수록본. 원본 벡터 경로를 보존하여 추출."
+        }
+      ]
+    },
+    "freshworks": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "freshworks",
+      "primary": "wordmark",
+      "fingerprint": {
+        "logo.svg": "7250d9e9d2708905"
+      },
+      "variants": [
+        {
+          "key": "wordmark",
+          "form": "wordmark",
+          "lang": "unknown",
+          "color": "color",
+          "label": "워드마크형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 4.964,
+          "provider": "wikimedia",
+          "origin": "collected",
+          "order": 40
+        },
+        {
+          "key": "untitled-ui-community-lockup",
+          "label": "가로조합 · Untitled UI 커뮤니티 수록본",
+          "form": "horizontal",
+          "lang": "en",
+          "color": "color",
+          "files": {
+            "svg": "sources/untitled-ui-community-20261010/702c3cb7261745cf.svg",
+            "png": "sources/untitled-ui-community-20261010/d077ba151663b96a.png"
+          },
+          "preview_png": "sources/untitled-ui-community-20261010/b6954abfc7b89ee6.png",
+          "aspect": 4.9875,
+          "provider": "figma-community",
+          "origin": "collected",
+          "order": 90,
+          "official_distribution": false,
+          "source_archive_url": "https://logo.vibers.co.kr/_clients/active-campaign/sources/untitled-ui-community-20261010/c3a00071febe9f83.zip",
+          "source_note": "사용자 제공 Untitled UI (Community) 내보내기. 공식 브랜드 배포 파일이 아닌 커뮤니티 수록본. 원본 벡터 경로를 보존하여 추출."
+        }
+      ]
+    },
+    "braze": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "braze",
+      "primary": "horizontal",
+      "fingerprint": {
+        "logo.svg": "87bca3a69aedf838",
+        "sources/iconify/braze.svg": "87bca3a69aedf838",
+        "sources/iconify/braze-icon.svg": "30b6c762bafcdd10",
+        "sources/wvl/braze-icon.svg": "d8f418eacf10898d",
+        "sources/wvl/braze.svg": "718d2e0d97982702",
+        "sources/braze-icon.svg": "d8f418eacf10898d"
+      },
+      "variants": [
+        {
+          "key": "horizontal",
+          "form": "horizontal",
+          "lang": "en",
+          "color": "mono-dark",
+          "label": "가로조합형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 2.164,
+          "provider": "iconify",
+          "origin": "collected",
+          "order": 10,
+          "alts": [
+            {
+              "provider": "iconify",
+              "file": "sources/iconify/braze.svg"
+            },
+            {
+              "provider": "wvl",
+              "file": "sources/wvl/braze.svg"
+            }
+          ]
+        },
+        {
+          "key": "symbol",
+          "form": "symbol",
+          "lang": "en",
+          "color": "mono-dark",
+          "label": "심볼형",
+          "files": {
+            "svg": "sources/iconify/braze-icon.svg",
+            "png": "sources/iconify/braze-icon.png"
+          },
+          "aspect": 1.0,
+          "provider": "iconify",
+          "origin": "collected",
+          "order": 30,
+          "alts": [
+            {
+              "provider": "wvl",
+              "file": "sources/wvl/braze-icon.svg"
+            },
+            {
+              "provider": "merged",
+              "file": "sources/braze-icon.svg"
+            }
+          ]
+        },
+        {
+          "key": "untitled-ui-community-lockup",
+          "label": "가로조합 · Untitled UI 커뮤니티 수록본",
+          "form": "horizontal",
+          "lang": "en",
+          "color": "color",
+          "files": {
+            "svg": "sources/untitled-ui-community-20261010/36adecd17c2be5fd.svg",
+            "png": "sources/untitled-ui-community-20261010/4e22dfae7e816d89.png"
+          },
+          "preview_png": "sources/untitled-ui-community-20261010/43fe6f87eb627a74.png",
+          "aspect": 2.1395,
+          "provider": "figma-community",
+          "origin": "collected",
+          "order": 90,
+          "official_distribution": false,
+          "source_archive_url": "https://logo.vibers.co.kr/_clients/active-campaign/sources/untitled-ui-community-20261010/c3a00071febe9f83.zip",
+          "source_note": "사용자 제공 Untitled UI (Community) 내보내기. 공식 브랜드 배포 파일이 아닌 커뮤니티 수록본. 원본 벡터 경로를 보존하여 추출."
+        }
+      ]
+    },
+    "outreach-io": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "outreach-io",
+      "primary": "untitled-ui-community-lockup",
+      "variants": [
+        {
+          "key": "untitled-ui-community-lockup",
+          "label": "가로조합 · Untitled UI 커뮤니티 수록본",
+          "form": "horizontal",
+          "lang": "en",
+          "color": "color",
+          "files": {
+            "svg": "sources/untitled-ui-community-20261010/9339d64f06497a10.svg",
+            "png": "sources/untitled-ui-community-20261010/7e3dd1afbfa733eb.png"
+          },
+          "preview_png": "sources/untitled-ui-community-20261010/3c08c42972307882.png",
+          "aspect": 5.2589,
+          "provider": "figma-community",
+          "origin": "collected",
+          "order": 90,
+          "official_distribution": false,
+          "source_archive_url": "https://logo.vibers.co.kr/_clients/active-campaign/sources/untitled-ui-community-20261010/c3a00071febe9f83.zip",
+          "source_note": "사용자 제공 Untitled UI (Community) 내보내기. 공식 브랜드 배포 파일이 아닌 커뮤니티 수록본. 원본 벡터 경로를 보존하여 추출."
+        }
+      ]
+    },
+    "browserstack": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "browserstack",
+      "primary": "symbol",
+      "fingerprint": {
+        "logo.svg": "66e033b148e1f8e7",
+        "sources/iconify/browserstack.svg": "66e033b148e1f8e7",
+        "sources/devicons/browserstack-original.svg": "46a62e48e35b7585",
+        "sources/wvl/browserstack.svg": "5e7a24a6e7cd6b94",
+        "sources/thesvg/wordmark.svg": "e25ace4ca35a8bf7",
+        "sources/vlz/wide.svg": "91cd91bfdc027120"
+      },
+      "variants": [
+        {
+          "key": "symbol",
+          "form": "symbol",
+          "lang": "en",
+          "color": "color",
+          "label": "심볼형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 1.0,
+          "provider": "iconify",
+          "origin": "collected",
+          "order": 30,
+          "alts": [
+            {
+              "provider": "iconify",
+              "file": "sources/iconify/browserstack.svg"
+            },
+            {
+              "provider": "wvl",
+              "file": "sources/wvl/browserstack.svg"
+            },
+            {
+              "provider": "devicons",
+              "file": "sources/devicons/browserstack-original.svg"
+            },
+            {
+              "provider": "thesvg",
+              "file": "sources/thesvg/wordmark.svg"
+            }
+          ]
+        },
+        {
+          "key": "wordmark",
+          "form": "wordmark",
+          "lang": "unknown",
+          "color": "color",
+          "label": "워드마크형",
+          "files": {
+            "svg": "sources/vlz/wide.svg"
+          },
+          "aspect": 3.596,
+          "provider": "vectorlogozone",
+          "origin": "collected",
+          "order": 40
+        },
+        {
+          "key": "untitled-ui-community-lockup",
+          "label": "가로조합 · Untitled UI 커뮤니티 수록본",
+          "form": "horizontal",
+          "lang": "en",
+          "color": "color",
+          "files": {
+            "svg": "sources/untitled-ui-community-20261010/266e5c5626d80aa1.svg",
+            "png": "sources/untitled-ui-community-20261010/b03bd6f8eb6f8272.png"
+          },
+          "preview_png": "sources/untitled-ui-community-20261010/09cef362107c3021.png",
+          "aspect": 5.772,
+          "provider": "figma-community",
+          "origin": "collected",
+          "order": 90,
+          "official_distribution": false,
+          "source_archive_url": "https://logo.vibers.co.kr/_clients/active-campaign/sources/untitled-ui-community-20261010/c3a00071febe9f83.zip",
+          "source_note": "사용자 제공 Untitled UI (Community) 내보내기. 공식 브랜드 배포 파일이 아닌 커뮤니티 수록본. 원본 벡터 경로를 보존하여 추출."
+        }
+      ]
+    },
+    "webflow": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "webflow",
+      "primary": "wordmark",
+      "fingerprint": {
+        "logo.svg": "74c13bf1cd27d884",
+        "sources/iconify/webflow.svg": "74c13bf1cd27d884",
+        "sources/devicons/webflow-original.svg": "382cffee9a38bade",
+        "sources/wvl/webflow.svg": "3a568204631106c0",
+        "sources/svgl/webflow.svg": "53248fb4b45eb1da"
+      },
+      "variants": [
+        {
+          "key": "horizontal",
+          "form": "horizontal",
+          "lang": "unknown",
+          "color": "color",
+          "label": "가로조합형",
+          "files": {
+            "svg": "sources/svgl/webflow.svg",
+            "png": "sources/svgl/webflow.png"
+          },
+          "aspect": 1.601,
+          "provider": "svgl",
+          "origin": "collected",
+          "order": 10
+        },
+        {
+          "key": "symbol",
+          "form": "symbol",
+          "lang": "en",
+          "color": "color",
+          "label": "심볼형",
+          "files": {
+            "svg": "sources/devicons/webflow-original.svg",
+            "png": "sources/devicons/webflow-original.png"
+          },
+          "aspect": 1.0,
+          "provider": "devicons",
+          "origin": "collected",
+          "order": 30
+        },
+        {
+          "key": "wordmark",
+          "form": "wordmark",
+          "lang": "en",
+          "color": "color",
+          "label": "워드마크형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 3.965,
+          "provider": "iconify",
+          "origin": "collected",
+          "order": 40,
+          "alts": [
+            {
+              "provider": "iconify",
+              "file": "sources/iconify/webflow.svg"
+            },
+            {
+              "provider": "wvl",
+              "file": "sources/wvl/webflow.svg"
+            }
+          ]
+        },
+        {
+          "key": "untitled-ui-community-lockup",
+          "label": "가로조합 · Untitled UI 커뮤니티 수록본",
+          "form": "horizontal",
+          "lang": "en",
+          "color": "color",
+          "files": {
+            "svg": "sources/untitled-ui-community-20261010/d7bd05063405d2ad.svg",
+            "png": "sources/untitled-ui-community-20261010/7672f9d838dfb339.png"
+          },
+          "preview_png": "sources/untitled-ui-community-20261010/221148db9e8dedb8.png",
+          "aspect": 5.999,
+          "provider": "figma-community",
+          "origin": "collected",
+          "order": 90,
+          "official_distribution": false,
+          "source_archive_url": "https://logo.vibers.co.kr/_clients/active-campaign/sources/untitled-ui-community-20261010/c3a00071febe9f83.zip",
+          "source_note": "사용자 제공 Untitled UI (Community) 내보내기. 공식 브랜드 배포 파일이 아닌 커뮤니티 수록본. 원본 벡터 경로를 보존하여 추출."
+        }
+      ]
+    },
+    "active-campaign": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "active-campaign",
+      "primary": "wordmark",
+      "fingerprint": {
+        "logo.svg": "8773ab7c0b6b26b9",
+        "sources/iconify/active-campaign.svg": "8773ab7c0b6b26b9",
+        "sources/iconify/active-campaign-icon.svg": "075450c7f55528fe",
+        "sources/wvl/active-campaign-icon.svg": "8093db96c673aa3d",
+        "sources/wvl/active-campaign.svg": "a9edd153e69f225e",
+        "sources/active-campaign-icon.svg": "8093db96c673aa3d"
+      },
+      "variants": [
+        {
+          "key": "symbol",
+          "form": "symbol",
+          "lang": "en",
+          "color": "color",
+          "label": "심볼형",
+          "files": {
+            "svg": "sources/iconify/active-campaign-icon.svg",
+            "png": "sources/iconify/active-campaign-icon.png"
+          },
+          "aspect": 0.656,
+          "provider": "iconify",
+          "origin": "collected",
+          "order": 30,
+          "alts": [
+            {
+              "provider": "wvl",
+              "file": "sources/wvl/active-campaign-icon.svg"
+            },
+            {
+              "provider": "merged",
+              "file": "sources/active-campaign-icon.svg"
+            }
+          ]
+        },
+        {
+          "key": "wordmark",
+          "form": "wordmark",
+          "lang": "en",
+          "color": "color",
+          "label": "워드마크형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 9.89,
+          "provider": "iconify",
+          "origin": "collected",
+          "order": 40,
+          "alts": [
+            {
+              "provider": "iconify",
+              "file": "sources/iconify/active-campaign.svg"
+            },
+            {
+              "provider": "wvl",
+              "file": "sources/wvl/active-campaign.svg"
+            }
+          ]
+        },
+        {
+          "key": "untitled-ui-community-lockup",
+          "label": "가로조합 · Untitled UI 커뮤니티 수록본",
+          "form": "horizontal",
+          "lang": "en",
+          "color": "color",
+          "files": {
+            "svg": "sources/untitled-ui-community-20261010/8b36ec9715c7a33a.svg",
+            "png": "sources/untitled-ui-community-20261010/d5bc4f51801d1a50.png"
+          },
+          "preview_png": "sources/untitled-ui-community-20261010/b6a30f42455d550e.png",
+          "aspect": 9.849,
+          "provider": "figma-community",
+          "origin": "collected",
+          "order": 90,
+          "official_distribution": false,
+          "source_archive_url": "https://logo.vibers.co.kr/_clients/active-campaign/sources/untitled-ui-community-20261010/c3a00071febe9f83.zip",
+          "source_note": "사용자 제공 Untitled UI (Community) 내보내기. 공식 브랜드 배포 파일이 아닌 커뮤니티 수록본. 원본 벡터 경로를 보존하여 추출."
+        }
+      ]
+    },
+    "invision": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "invision",
+      "primary": "horizontal",
+      "fingerprint": {
+        "logo.svg": "99a0cb6fbec1535b",
+        "sources/iconify/invision.svg": "99a0cb6fbec1535b",
+        "sources/iconify/invision-icon.svg": "bf3a93beeace464c",
+        "sources/wvl/invision-icon.svg": "af8159ee65b7f64d",
+        "sources/wvl/invision.svg": "143b5f7a50e09ace",
+        "sources/invision-icon.svg": "af8159ee65b7f64d"
+      },
+      "variants": [
+        {
+          "key": "horizontal",
+          "form": "horizontal",
+          "lang": "en",
+          "color": "color",
+          "label": "가로조합형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 2.932,
+          "provider": "iconify",
+          "origin": "collected",
+          "order": 10,
+          "alts": [
+            {
+              "provider": "iconify",
+              "file": "sources/iconify/invision.svg"
+            },
+            {
+              "provider": "wvl",
+              "file": "sources/wvl/invision.svg"
+            }
+          ]
+        },
+        {
+          "key": "symbol",
+          "form": "symbol",
+          "lang": "en",
+          "color": "color",
+          "label": "심볼형",
+          "files": {
+            "svg": "sources/iconify/invision-icon.svg",
+            "png": "sources/iconify/invision-icon.png"
+          },
+          "aspect": 1.0,
+          "provider": "iconify",
+          "origin": "collected",
+          "order": 30,
+          "alts": [
+            {
+              "provider": "wvl",
+              "file": "sources/wvl/invision-icon.svg"
+            },
+            {
+              "provider": "merged",
+              "file": "sources/invision-icon.svg"
+            }
+          ]
+        },
+        {
+          "key": "untitled-ui-community-lockup",
+          "label": "가로조합 · Untitled UI 커뮤니티 수록본",
+          "form": "horizontal",
+          "lang": "en",
+          "color": "color",
+          "files": {
+            "svg": "sources/untitled-ui-community-20261010/0cc646c9d29801bb.svg",
+            "png": "sources/untitled-ui-community-20261010/d8a9446ed2ecbdd1.png"
+          },
+          "preview_png": "sources/untitled-ui-community-20261010/33afa267e41eceb8.png",
+          "aspect": 2.9326,
+          "provider": "figma-community",
+          "origin": "collected",
+          "order": 90,
+          "official_distribution": false,
+          "source_archive_url": "https://logo.vibers.co.kr/_clients/active-campaign/sources/untitled-ui-community-20261010/c3a00071febe9f83.zip",
+          "source_note": "사용자 제공 Untitled UI (Community) 내보내기. 공식 브랜드 배포 파일이 아닌 커뮤니티 수록본. 원본 벡터 경로를 보존하여 추출."
+        }
+      ]
+    },
+    "launchdarkly": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "launchdarkly",
+      "primary": "wordmark",
+      "fingerprint": {
+        "logo.svg": "2fa2175c533c8d38",
+        "sources/iconify/launchdarkly.svg": "2fa2175c533c8d38",
+        "sources/iconify/launchdarkly-icon.svg": "b364e46ce5897d73",
+        "sources/wvl/launchdarkly-icon.svg": "8e9f240324a6382d",
+        "sources/wvl/launchdarkly.svg": "5fe45dc44c818a44",
+        "sources/launchdarkly-icon.svg": "8e9f240324a6382d"
+      },
+      "variants": [
+        {
+          "key": "symbol",
+          "form": "symbol",
+          "lang": "en",
+          "color": "mono-dark",
+          "label": "심볼형",
+          "files": {
+            "svg": "sources/iconify/launchdarkly-icon.svg",
+            "png": "sources/iconify/launchdarkly-icon.png"
+          },
+          "aspect": 1.002,
+          "provider": "iconify",
+          "origin": "collected",
+          "order": 30,
+          "alts": [
+            {
+              "provider": "wvl",
+              "file": "sources/wvl/launchdarkly-icon.svg"
+            },
+            {
+              "provider": "merged",
+              "file": "sources/launchdarkly-icon.svg"
+            }
+          ]
+        },
+        {
+          "key": "wordmark",
+          "form": "wordmark",
+          "lang": "en",
+          "color": "mono-dark",
+          "label": "워드마크형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 6.475,
+          "provider": "iconify",
+          "origin": "collected",
+          "order": 40,
+          "alts": [
+            {
+              "provider": "iconify",
+              "file": "sources/iconify/launchdarkly.svg"
+            },
+            {
+              "provider": "wvl",
+              "file": "sources/wvl/launchdarkly.svg"
+            }
+          ]
+        },
+        {
+          "key": "untitled-ui-community-lockup",
+          "label": "가로조합 · Untitled UI 커뮤니티 수록본",
+          "form": "horizontal",
+          "lang": "en",
+          "color": "color",
+          "files": {
+            "svg": "sources/untitled-ui-community-20261010/902cf544da2d32f8.svg",
+            "png": "sources/untitled-ui-community-20261010/95362dba6fff3876.png"
+          },
+          "preview_png": "sources/untitled-ui-community-20261010/ee5717a6bf6bebcb.png",
+          "aspect": 6.5061,
+          "provider": "figma-community",
+          "origin": "collected",
+          "order": 90,
+          "official_distribution": false,
+          "source_archive_url": "https://logo.vibers.co.kr/_clients/active-campaign/sources/untitled-ui-community-20261010/c3a00071febe9f83.zip",
+          "source_note": "사용자 제공 Untitled UI (Community) 내보내기. 공식 브랜드 배포 파일이 아닌 커뮤니티 수록본. 원본 벡터 경로를 보존하여 추출."
+        }
+      ]
+    },
+    "pipedrive": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "pipedrive",
+      "primary": "wordmark",
+      "fingerprint": {
+        "logo.svg": "5650a8383b7b4810",
+        "sources/iconify/pipedrive.svg": "5650a8383b7b4810",
+        "sources/wvl/pipedrive.svg": "525d68330001f351"
+      },
+      "variants": [
+        {
+          "key": "wordmark",
+          "form": "wordmark",
+          "lang": "en",
+          "color": "mono-dark",
+          "label": "워드마크형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 4.402,
+          "provider": "iconify",
+          "origin": "collected",
+          "order": 40,
+          "alts": [
+            {
+              "provider": "iconify",
+              "file": "sources/iconify/pipedrive.svg"
+            },
+            {
+              "provider": "wvl",
+              "file": "sources/wvl/pipedrive.svg"
+            }
+          ]
+        },
+        {
+          "key": "untitled-ui-community-lockup",
+          "label": "가로조합 · Untitled UI 커뮤니티 수록본",
+          "form": "horizontal",
+          "lang": "en",
+          "color": "color",
+          "files": {
+            "svg": "sources/untitled-ui-community-20261010/9812987353fd3419.svg",
+            "png": "sources/untitled-ui-community-20261010/5444ab0f0e9d89c4.png"
+          },
+          "preview_png": "sources/untitled-ui-community-20261010/5bcb6d6c0ff937bf.png",
+          "aspect": 5.5624,
+          "provider": "figma-community",
+          "origin": "collected",
+          "order": 90,
+          "official_distribution": false,
+          "source_archive_url": "https://logo.vibers.co.kr/_clients/active-campaign/sources/untitled-ui-community-20261010/c3a00071febe9f83.zip",
+          "source_note": "사용자 제공 Untitled UI (Community) 내보내기. 공식 브랜드 배포 파일이 아닌 커뮤니티 수록본. 원본 벡터 경로를 보존하여 추출."
+        }
+      ]
+    },
+    "automattic": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "automattic",
+      "primary": "symbol",
+      "fingerprint": {
+        "logo.svg": "64a34c811b78f052",
+        "sources/vlz/wide.svg": "2ac155ce6a054a39"
+      },
+      "variants": [
+        {
+          "key": "symbol",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "mono-dark",
+          "label": "심볼형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 1.087,
+          "provider": "unknown",
+          "origin": "collected",
+          "order": 30
+        },
+        {
+          "key": "wordmark",
+          "form": "wordmark",
+          "lang": "unknown",
+          "color": "color",
+          "label": "워드마크형",
+          "files": {
+            "svg": "sources/vlz/wide.svg"
+          },
+          "aspect": 12.71,
+          "provider": "vectorlogozone",
+          "origin": "collected",
+          "order": 40
+        },
+        {
+          "key": "untitled-ui-community-lockup",
+          "label": "가로조합 · Untitled UI 커뮤니티 수록본",
+          "form": "horizontal",
+          "lang": "en",
+          "color": "color",
+          "files": {
+            "svg": "sources/untitled-ui-community-20261010/354e4dda8195a7b6.svg",
+            "png": "sources/untitled-ui-community-20261010/d327eec3af738e21.png"
+          },
+          "preview_png": "sources/untitled-ui-community-20261010/584fef51c91e3c4b.png",
+          "aspect": 12.9441,
+          "provider": "figma-community",
+          "origin": "collected",
+          "order": 90,
+          "official_distribution": false,
+          "source_archive_url": "https://logo.vibers.co.kr/_clients/active-campaign/sources/untitled-ui-community-20261010/c3a00071febe9f83.zip",
+          "source_note": "사용자 제공 Untitled UI (Community) 내보내기. 공식 브랜드 배포 파일이 아닌 커뮤니티 수록본. 원본 벡터 경로를 보존하여 추출."
+        }
+      ]
+    },
+    "razorpay": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "razorpay",
+      "primary": "symbol",
+      "fingerprint": {
+        "logo.svg": "a3bba9a32445322f"
+      },
+      "variants": [
+        {
+          "key": "symbol",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "mono-dark",
+          "label": "심볼형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 0.871,
+          "provider": "unknown",
+          "origin": "collected",
+          "order": 30
+        },
+        {
+          "key": "untitled-ui-community-lockup",
+          "label": "가로조합 · Untitled UI 커뮤니티 수록본",
+          "form": "horizontal",
+          "lang": "en",
+          "color": "color",
+          "files": {
+            "svg": "sources/untitled-ui-community-20261010/171a51ea3d42fb46.svg",
+            "png": "sources/untitled-ui-community-20261010/49d729c6cac26363.png"
+          },
+          "preview_png": "sources/untitled-ui-community-20261010/2103ffd8b1cba91c.png",
+          "aspect": 4.7336,
+          "provider": "figma-community",
+          "origin": "collected",
+          "order": 90,
+          "official_distribution": false,
+          "source_archive_url": "https://logo.vibers.co.kr/_clients/active-campaign/sources/untitled-ui-community-20261010/c3a00071febe9f83.zip",
+          "source_note": "사용자 제공 Untitled UI (Community) 내보내기. 공식 브랜드 배포 파일이 아닌 커뮤니티 수록본. 원본 벡터 경로를 보존하여 추출."
+        }
+      ]
+    },
+    "cultureamp": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "cultureamp",
+      "primary": "untitled-ui-community-lockup",
+      "variants": [
+        {
+          "key": "untitled-ui-community-lockup",
+          "label": "가로조합 · Untitled UI 커뮤니티 수록본",
+          "form": "horizontal",
+          "lang": "en",
+          "color": "color",
+          "files": {
+            "svg": "sources/untitled-ui-community-20261010/08d7eca2c598e155.svg",
+            "png": "sources/untitled-ui-community-20261010/bdfe82456b683a58.png"
+          },
+          "preview_png": "sources/untitled-ui-community-20261010/45fe86bbda27226d.png",
+          "aspect": 6.9064,
+          "provider": "figma-community",
+          "origin": "collected",
+          "order": 90,
+          "official_distribution": false,
+          "source_archive_url": "https://logo.vibers.co.kr/_clients/active-campaign/sources/untitled-ui-community-20261010/c3a00071febe9f83.zip",
+          "source_note": "사용자 제공 Untitled UI (Community) 내보내기. 공식 브랜드 배포 파일이 아닌 커뮤니티 수록본. 원본 벡터 경로를 보존하여 추출."
+        }
+      ]
+    },
+    "notion": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "notion",
+      "primary": "symbol",
+      "fingerprint": {
+        "logo.svg": "c6627b78969bde10",
+        "sources/notion-icon.svg": "1cae7bbe4b1a56c7",
+        "sources/thesvg/wordmark.svg": "177d231b2397bdb2",
+        "sources/supertiny/notion.svg": "98dfe876bf94a674"
+      },
+      "variants": [
+        {
+          "key": "horizontal",
+          "form": "horizontal",
+          "lang": "unknown",
+          "color": "mono-dark",
+          "label": "가로조합형",
+          "files": {
+            "svg": "sources/thesvg/wordmark.svg"
+          },
+          "aspect": 2.875,
+          "provider": "thesvg",
+          "origin": "collected",
+          "order": 10
+        },
+        {
+          "key": "symbol",
+          "form": "symbol",
+          "lang": "en",
+          "color": "mono-dark",
+          "label": "심볼형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 0.96,
+          "provider": "simple-icons",
+          "origin": "collected",
+          "order": 30,
+          "alts": [
+            {
+              "provider": "merged",
+              "file": "sources/notion-icon.svg"
+            },
+            {
+              "provider": "supertiny",
+              "file": "sources/supertiny/notion.svg"
+            }
+          ]
+        },
+        {
+          "key": "untitled-ui-community-lockup",
+          "label": "가로조합 · Untitled UI 커뮤니티 수록본",
+          "form": "horizontal",
+          "lang": "en",
+          "color": "color",
+          "files": {
+            "svg": "sources/untitled-ui-community-20261010/a4563099a5a1512e.svg",
+            "png": "sources/untitled-ui-community-20261010/00a755bca566e808.png"
+          },
+          "preview_png": "sources/untitled-ui-community-20261010/3bf3eb4efe052ed5.png",
+          "aspect": 3.7313,
+          "provider": "figma-community",
+          "origin": "collected",
+          "order": 90,
+          "official_distribution": false,
+          "source_archive_url": "https://logo.vibers.co.kr/_clients/active-campaign/sources/untitled-ui-community-20261010/c3a00071febe9f83.zip",
+          "source_note": "사용자 제공 Untitled UI (Community) 내보내기. 공식 브랜드 배포 파일이 아닌 커뮤니티 수록본. 원본 벡터 경로를 보존하여 추출."
+        }
+      ]
+    },
+    "airtable": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "airtable",
+      "primary": "symbol",
+      "fingerprint": {
+        "logo.svg": "f0520b1ab0a6e778",
+        "sources/iconify/airtable.svg": "f0520b1ab0a6e778",
+        "sources/wvl/airtable.svg": "9a299b54118aeb62",
+        "sources/vlz/wide.svg": "38080918e9afbebb"
+      },
+      "variants": [
+        {
+          "key": "symbol",
+          "form": "symbol",
+          "lang": "en",
+          "color": "color",
+          "label": "심볼형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 1.195,
+          "provider": "iconify",
+          "origin": "collected",
+          "order": 30,
+          "alts": [
+            {
+              "provider": "iconify",
+              "file": "sources/iconify/airtable.svg"
+            },
+            {
+              "provider": "wvl",
+              "file": "sources/wvl/airtable.svg"
+            }
+          ]
+        },
+        {
+          "key": "wordmark",
+          "form": "wordmark",
+          "lang": "unknown",
+          "color": "color",
+          "label": "워드마크형",
+          "files": {
+            "svg": "sources/vlz/wide.svg"
+          },
+          "aspect": 3.739,
+          "provider": "vectorlogozone",
+          "origin": "collected",
+          "order": 40
+        },
+        {
+          "key": "untitled-ui-community-lockup",
+          "label": "가로조합 · Untitled UI 커뮤니티 수록본",
+          "form": "horizontal",
+          "lang": "en",
+          "color": "color",
+          "files": {
+            "svg": "sources/untitled-ui-community-20261010/871a7b89fc0d0c0c.svg",
+            "png": "sources/untitled-ui-community-20261010/6845827d4e725527.png"
+          },
+          "preview_png": "sources/untitled-ui-community-20261010/62aceb76f8a2fd74.png",
+          "aspect": 4.7325,
+          "provider": "figma-community",
+          "origin": "collected",
+          "order": 90,
+          "official_distribution": false,
+          "source_archive_url": "https://logo.vibers.co.kr/_clients/active-campaign/sources/untitled-ui-community-20261010/c3a00071febe9f83.zip",
+          "source_note": "사용자 제공 Untitled UI (Community) 내보내기. 공식 브랜드 배포 파일이 아닌 커뮤니티 수록본. 원본 벡터 경로를 보존하여 추출."
+        }
+      ]
+    },
+    "gusto": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "gusto",
+      "primary": "horizontal",
+      "fingerprint": {
+        "logo.svg": "b1577813105fabfb",
+        "sources/iconify/gusto.svg": "b1577813105fabfb",
+        "sources/wvl/gusto.svg": "d063f01a96265ca7"
+      },
+      "variants": [
+        {
+          "key": "horizontal",
+          "form": "horizontal",
+          "lang": "en",
+          "color": "color",
+          "label": "가로조합형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 2.632,
+          "provider": "iconify",
+          "origin": "collected",
+          "order": 10,
+          "alts": [
+            {
+              "provider": "iconify",
+              "file": "sources/iconify/gusto.svg"
+            },
+            {
+              "provider": "wvl",
+              "file": "sources/wvl/gusto.svg"
+            }
+          ]
+        },
+        {
+          "key": "untitled-ui-community-lockup",
+          "label": "가로조합 · Untitled UI 커뮤니티 수록본",
+          "form": "horizontal",
+          "lang": "en",
+          "color": "color",
+          "files": {
+            "svg": "sources/untitled-ui-community-20261010/6abb4c55604633a3.svg",
+            "png": "sources/untitled-ui-community-20261010/601c0dc10c45cbbc.png"
+          },
+          "preview_png": "sources/untitled-ui-community-20261010/93d905d393cb3875.png",
+          "aspect": 2.625,
+          "provider": "figma-community",
+          "origin": "collected",
+          "order": 90,
+          "official_distribution": false,
+          "source_archive_url": "https://logo.vibers.co.kr/_clients/active-campaign/sources/untitled-ui-community-20261010/c3a00071febe9f83.zip",
+          "source_note": "사용자 제공 Untitled UI (Community) 내보내기. 공식 브랜드 배포 파일이 아닌 커뮤니티 수록본. 원본 벡터 경로를 보존하여 추출."
+        }
+      ]
+    },
+    "databricks": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "databricks",
+      "primary": "symbol",
+      "fingerprint": {
+        "logo.svg": "c94ef6a5d053af43",
+        "sources/vlz/wide.svg": "9fa25555e86810f4"
+      },
+      "variants": [
+        {
+          "key": "symbol",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "mono-dark",
+          "label": "심볼형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 0.922,
+          "provider": "unknown",
+          "origin": "collected",
+          "order": 30
+        },
+        {
+          "key": "wordmark",
+          "form": "wordmark",
+          "lang": "unknown",
+          "color": "color",
+          "label": "워드마크형",
+          "files": {
+            "svg": "sources/vlz/wide.svg"
+          },
+          "aspect": 3.612,
+          "provider": "vectorlogozone",
+          "origin": "collected",
+          "order": 40
+        },
+        {
+          "key": "untitled-ui-community-lockup",
+          "label": "가로조합 · Untitled UI 커뮤니티 수록본",
+          "form": "horizontal",
+          "lang": "en",
+          "color": "color",
+          "files": {
+            "svg": "sources/untitled-ui-community-20261010/dd5f81d17ab409e5.svg",
+            "png": "sources/untitled-ui-community-20261010/80dc479a71a65541.png"
+          },
+          "preview_png": "sources/untitled-ui-community-20261010/23c25ea5b483b5f2.png",
+          "aspect": 5.7226,
+          "provider": "figma-community",
+          "origin": "collected",
+          "order": 90,
+          "official_distribution": false,
+          "source_archive_url": "https://logo.vibers.co.kr/_clients/active-campaign/sources/untitled-ui-community-20261010/c3a00071febe9f83.zip",
+          "source_note": "사용자 제공 Untitled UI (Community) 내보내기. 공식 브랜드 배포 파일이 아닌 커뮤니티 수록본. 원본 벡터 경로를 보존하여 추출."
+        }
+      ]
+    },
+    "loom": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "loom",
+      "primary": "wordmark",
+      "fingerprint": {
+        "logo.svg": "647b254dc54eaae6",
+        "sources/iconify/loom.svg": "647b254dc54eaae6",
+        "sources/iconify/loom-icon.svg": "efc6280f9156fd39",
+        "sources/wvl/loom-icon.svg": "b1c884a3be8e9cf5",
+        "sources/wvl/loom.svg": "8788990f0c8586d6",
+        "sources/loom-icon.svg": "b1c884a3be8e9cf5"
+      },
+      "variants": [
+        {
+          "key": "symbol",
+          "form": "symbol",
+          "lang": "en",
+          "color": "color",
+          "label": "심볼형",
+          "files": {
+            "svg": "sources/iconify/loom-icon.svg",
+            "png": "sources/iconify/loom-icon.png"
+          },
+          "aspect": 1.0,
+          "provider": "iconify",
+          "origin": "collected",
+          "order": 30,
+          "alts": [
+            {
+              "provider": "wvl",
+              "file": "sources/wvl/loom-icon.svg"
+            },
+            {
+              "provider": "merged",
+              "file": "sources/loom-icon.svg"
+            }
+          ]
+        },
+        {
+          "key": "wordmark",
+          "form": "wordmark",
+          "lang": "en",
+          "color": "color",
+          "label": "워드마크형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 3.314,
+          "provider": "iconify",
+          "origin": "collected",
+          "order": 40,
+          "alts": [
+            {
+              "provider": "iconify",
+              "file": "sources/iconify/loom.svg"
+            },
+            {
+              "provider": "wvl",
+              "file": "sources/wvl/loom.svg"
+            }
+          ]
+        },
+        {
+          "key": "untitled-ui-community-lockup",
+          "label": "가로조합 · Untitled UI 커뮤니티 수록본",
+          "form": "horizontal",
+          "lang": "en",
+          "color": "color",
+          "files": {
+            "svg": "sources/untitled-ui-community-20261010/983d5460a0e8129d.svg",
+            "png": "sources/untitled-ui-community-20261010/bfc95c8b6d1afebb.png"
+          },
+          "preview_png": "sources/untitled-ui-community-20261010/7beb869455d17107.png",
+          "aspect": 3.3328,
+          "provider": "figma-community",
+          "origin": "collected",
+          "order": 90,
+          "official_distribution": false,
+          "source_archive_url": "https://logo.vibers.co.kr/_clients/active-campaign/sources/untitled-ui-community-20261010/c3a00071febe9f83.zip",
+          "source_note": "사용자 제공 Untitled UI (Community) 내보내기. 공식 브랜드 배포 파일이 아닌 커뮤니티 수록본. 원본 벡터 경로를 보존하여 추출."
+        }
+      ]
+    },
+    "grammarly": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "grammarly",
+      "primary": "wordmark",
+      "fingerprint": {
+        "logo.svg": "d3bbd8b5b3ed8029",
+        "sources/iconify/grammarly.svg": "d3bbd8b5b3ed8029",
+        "sources/iconify/grammarly-icon.svg": "869bd0dfad4ee7ba",
+        "sources/wvl/grammarly-icon.svg": "2580260b925224e3",
+        "sources/wvl/grammarly.svg": "2996728cc41214b6",
+        "sources/grammarly-icon.svg": "2580260b925224e3"
+      },
+      "variants": [
+        {
+          "key": "symbol",
+          "form": "symbol",
+          "lang": "en",
+          "color": "color",
+          "label": "심볼형",
+          "files": {
+            "svg": "sources/iconify/grammarly-icon.svg",
+            "png": "sources/iconify/grammarly-icon.png"
+          },
+          "aspect": 1.001,
+          "provider": "iconify",
+          "origin": "collected",
+          "order": 30,
+          "alts": [
+            {
+              "provider": "wvl",
+              "file": "sources/wvl/grammarly-icon.svg"
+            },
+            {
+              "provider": "merged",
+              "file": "sources/grammarly-icon.svg"
+            }
+          ]
+        },
+        {
+          "key": "wordmark",
+          "form": "wordmark",
+          "lang": "en",
+          "color": "color",
+          "label": "워드마크형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 4.236,
+          "provider": "iconify",
+          "origin": "collected",
+          "order": 40,
+          "alts": [
+            {
+              "provider": "iconify",
+              "file": "sources/iconify/grammarly.svg"
+            },
+            {
+              "provider": "wvl",
+              "file": "sources/wvl/grammarly.svg"
+            }
+          ]
+        },
+        {
+          "key": "untitled-ui-community-lockup",
+          "label": "가로조합 · Untitled UI 커뮤니티 수록본",
+          "form": "horizontal",
+          "lang": "en",
+          "color": "color",
+          "files": {
+            "svg": "sources/untitled-ui-community-20261010/63a245fcdabac478.svg",
+            "png": "sources/untitled-ui-community-20261010/90d0d41294c92e8e.png"
+          },
+          "preview_png": "sources/untitled-ui-community-20261010/c65cde6248bf8d56.png",
+          "aspect": 4.2672,
+          "provider": "figma-community",
+          "origin": "collected",
+          "order": 90,
+          "official_distribution": false,
+          "source_archive_url": "https://logo.vibers.co.kr/_clients/active-campaign/sources/untitled-ui-community-20261010/c3a00071febe9f83.zip",
+          "source_note": "사용자 제공 Untitled UI (Community) 내보내기. 공식 브랜드 배포 파일이 아닌 커뮤니티 수록본. 원본 벡터 경로를 보존하여 추출."
+        }
+      ]
+    },
+    "calendly": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "calendly",
+      "primary": "symbol",
+      "fingerprint": {
+        "logo.svg": "5e1971b986a63dec",
+        "sources/svgl/calendly.svg": "d717500b4bf4867b"
+      },
+      "variants": [
+        {
+          "key": "symbol",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "mono-dark",
+          "label": "심볼형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 0.982,
+          "provider": "unknown",
+          "origin": "collected",
+          "order": 30,
+          "alts": [
+            {
+              "provider": "svgl",
+              "file": "sources/svgl/calendly.svg"
+            }
+          ]
+        },
+        {
+          "key": "untitled-ui-community-lockup",
+          "label": "가로조합 · Untitled UI 커뮤니티 수록본",
+          "form": "horizontal",
+          "lang": "en",
+          "color": "color",
+          "files": {
+            "svg": "sources/untitled-ui-community-20261010/6295043740edceeb.svg",
+            "png": "sources/untitled-ui-community-20261010/9546d2d82a9cad34.png"
+          },
+          "preview_png": "sources/untitled-ui-community-20261010/b05a9975ad66df77.png",
+          "aspect": 4.1438,
+          "provider": "figma-community",
+          "origin": "collected",
+          "order": 90,
+          "official_distribution": false,
+          "source_archive_url": "https://logo.vibers.co.kr/_clients/active-campaign/sources/untitled-ui-community-20261010/c3a00071febe9f83.zip",
+          "source_note": "사용자 제공 Untitled UI (Community) 내보내기. 공식 브랜드 배포 파일이 아닌 커뮤니티 수록본. 원본 벡터 경로를 보존하여 추출."
+        }
+      ]
+    },
+    "mailchimp": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "mailchimp",
+      "primary": "wordmark",
+      "fingerprint": {
+        "logo.svg": "b8bb7de6631316a5",
+        "sources/iconify/mailchimp.svg": "b8bb7de6631316a5",
+        "sources/wvl/mailchimp-freddie.svg": "f1f88a547fce8183",
+        "sources/wvl/mailchimp.svg": "8dd41da217790abd",
+        "sources/supertiny/mailchimp.svg": "5afd1f7395da6a21"
+      },
+      "variants": [
+        {
+          "key": "symbol",
+          "form": "symbol",
+          "lang": "en",
+          "color": "color",
+          "label": "심볼형",
+          "files": {
+            "svg": "sources/wvl/mailchimp-freddie.svg",
+            "png": "sources/wvl/mailchimp-freddie.png"
+          },
+          "aspect": 0.885,
+          "provider": "wvl",
+          "origin": "collected",
+          "order": 30
+        },
+        {
+          "key": "wordmark",
+          "form": "wordmark",
+          "lang": "en",
+          "color": "mono-dark",
+          "label": "워드마크형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 4.091,
+          "provider": "iconify",
+          "origin": "collected",
+          "order": 40,
+          "alts": [
+            {
+              "provider": "iconify",
+              "file": "sources/iconify/mailchimp.svg"
+            },
+            {
+              "provider": "wvl",
+              "file": "sources/wvl/mailchimp.svg"
+            }
+          ]
+        },
+        {
+          "key": "untitled-ui-community-lockup",
+          "label": "가로조합 · Untitled UI 커뮤니티 수록본",
+          "form": "horizontal",
+          "lang": "en",
+          "color": "color",
+          "files": {
+            "svg": "sources/untitled-ui-community-20261010/8403e6e08345f4bf.svg",
+            "png": "sources/untitled-ui-community-20261010/6e4a0131f49c209a.png"
+          },
+          "preview_png": "sources/untitled-ui-community-20261010/1c3795074dae1e6d.png",
+          "aspect": 3.7187,
+          "provider": "figma-community",
+          "origin": "collected",
+          "order": 90,
+          "official_distribution": false,
+          "source_archive_url": "https://logo.vibers.co.kr/_clients/active-campaign/sources/untitled-ui-community-20261010/c3a00071febe9f83.zip",
+          "source_note": "사용자 제공 Untitled UI (Community) 내보내기. 공식 브랜드 배포 파일이 아닌 커뮤니티 수록본. 원본 벡터 경로를 보존하여 추출."
+        }
+      ]
+    },
+    "zapier": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "zapier",
+      "primary": "wordmark",
+      "fingerprint": {
+        "logo.svg": "ba037538ab444aa9",
+        "sources/iconify/zapier.svg": "ba037538ab444aa9",
+        "sources/wvl/zapier.svg": "675135ab0b0b84a9",
+        "sources/iconify/zapier-icon.svg": "6c30d7a206948c67"
+      },
+      "variants": [
+        {
+          "key": "symbol",
+          "form": "symbol",
+          "lang": "en",
+          "color": "color",
+          "label": "심볼형",
+          "files": {
+            "svg": "sources/iconify/zapier-icon.svg"
+          },
+          "aspect": 1.002,
+          "provider": "iconify",
+          "origin": "collected",
+          "order": 30
+        },
+        {
+          "key": "wordmark",
+          "form": "wordmark",
+          "lang": "en",
+          "color": "color",
+          "label": "워드마크형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 3.689,
+          "provider": "iconify",
+          "origin": "collected",
+          "order": 40,
+          "alts": [
+            {
+              "provider": "iconify",
+              "file": "sources/iconify/zapier.svg"
+            },
+            {
+              "provider": "wvl",
+              "file": "sources/wvl/zapier.svg"
+            }
+          ]
+        },
+        {
+          "key": "untitled-ui-community-lockup",
+          "label": "가로조합 · Untitled UI 커뮤니티 수록본",
+          "form": "horizontal",
+          "lang": "en",
+          "color": "color",
+          "files": {
+            "svg": "sources/untitled-ui-community-20261010/63e1cc46fa3d61a0.svg",
+            "png": "sources/untitled-ui-community-20261010/fd3d7ff282b19719.png"
+          },
+          "preview_png": "sources/untitled-ui-community-20261010/832e1cd0e3a7d6ae.png",
+          "aspect": 2.1855,
+          "provider": "figma-community",
+          "origin": "collected",
+          "order": 90,
+          "official_distribution": false,
+          "source_archive_url": "https://logo.vibers.co.kr/_clients/active-campaign/sources/untitled-ui-community-20261010/c3a00071febe9f83.zip",
+          "source_note": "사용자 제공 Untitled UI (Community) 내보내기. 공식 브랜드 배포 파일이 아닌 커뮤니티 수록본. 원본 벡터 경로를 보존하여 추출."
+        }
+      ]
+    },
+    "contentful": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "contentful",
+      "primary": "symbol",
+      "fingerprint": {
+        "logo.svg": "9afb8e6ce543de18",
+        "sources/iconify/contentful.svg": "9afb8e6ce543de18",
+        "sources/wvl/contentful.svg": "cd5f29827bcee2e1"
+      },
+      "variants": [
+        {
+          "key": "symbol",
+          "form": "symbol",
+          "lang": "en",
+          "color": "color",
+          "label": "심볼형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 0.886,
+          "provider": "iconify",
+          "origin": "collected",
+          "order": 30,
+          "alts": [
+            {
+              "provider": "iconify",
+              "file": "sources/iconify/contentful.svg"
+            },
+            {
+              "provider": "wvl",
+              "file": "sources/wvl/contentful.svg"
+            }
+          ]
+        },
+        {
+          "key": "untitled-ui-community-lockup",
+          "label": "가로조합 · Untitled UI 커뮤니티 수록본",
+          "form": "horizontal",
+          "lang": "en",
+          "color": "color",
+          "files": {
+            "svg": "sources/untitled-ui-community-20261010/a132d5d2c8e7171c.svg",
+            "png": "sources/untitled-ui-community-20261010/588d17a68588d637.png"
+          },
+          "preview_png": "sources/untitled-ui-community-20261010/c80cc7202d7ecb84.png",
+          "aspect": 4.9144,
+          "provider": "figma-community",
+          "origin": "collected",
+          "order": 90,
+          "official_distribution": false,
+          "source_archive_url": "https://logo.vibers.co.kr/_clients/active-campaign/sources/untitled-ui-community-20261010/c3a00071febe9f83.zip",
+          "source_note": "사용자 제공 Untitled UI (Community) 내보내기. 공식 브랜드 배포 파일이 아닌 커뮤니티 수록본. 원본 벡터 경로를 보존하여 추출."
+        }
+      ]
+    },
+    "amplitude": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "amplitude",
+      "primary": "wordmark",
+      "fingerprint": {
+        "logo.svg": "d034c5f638343b32",
+        "sources/iconify/amplitude.svg": "d034c5f638343b32",
+        "sources/iconify/amplitude-icon.svg": "0b71c9b036c897d7",
+        "sources/wvl/amplitude-icon.svg": "d6f67b555ddee2f7",
+        "sources/wvl/amplitude.svg": "21d06a2de6e24279",
+        "sources/amplitude-icon.svg": "d6f67b555ddee2f7"
+      },
+      "variants": [
+        {
+          "key": "symbol",
+          "form": "symbol",
+          "lang": "en",
+          "color": "color",
+          "label": "심볼형",
+          "files": {
+            "svg": "sources/iconify/amplitude-icon.svg",
+            "png": "sources/iconify/amplitude-icon.png"
+          },
+          "aspect": 1.0,
+          "provider": "iconify",
+          "origin": "collected",
+          "order": 30,
+          "alts": [
+            {
+              "provider": "wvl",
+              "file": "sources/wvl/amplitude-icon.svg"
+            },
+            {
+              "provider": "merged",
+              "file": "sources/amplitude-icon.svg"
+            }
+          ]
+        },
+        {
+          "key": "wordmark",
+          "form": "wordmark",
+          "lang": "en",
+          "color": "color",
+          "label": "워드마크형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 4.787,
+          "provider": "iconify",
+          "origin": "collected",
+          "order": 40,
+          "alts": [
+            {
+              "provider": "iconify",
+              "file": "sources/iconify/amplitude.svg"
+            },
+            {
+              "provider": "wvl",
+              "file": "sources/wvl/amplitude.svg"
+            }
+          ]
+        },
+        {
+          "key": "untitled-ui-community-lockup",
+          "label": "가로조합 · Untitled UI 커뮤니티 수록본",
+          "form": "horizontal",
+          "lang": "en",
+          "color": "color",
+          "files": {
+            "svg": "sources/untitled-ui-community-20261010/3aa9945734740e73.svg",
+            "png": "sources/untitled-ui-community-20261010/5070dec22428e587.png"
+          },
+          "preview_png": "sources/untitled-ui-community-20261010/9e0b0605f49f9a8d.png",
+          "aspect": 4.5767,
+          "provider": "figma-community",
+          "origin": "collected",
+          "order": 90,
+          "official_distribution": false,
+          "source_archive_url": "https://logo.vibers.co.kr/_clients/active-campaign/sources/untitled-ui-community-20261010/c3a00071febe9f83.zip",
+          "source_note": "사용자 제공 Untitled UI (Community) 내보내기. 공식 브랜드 배포 파일이 아닌 커뮤니티 수록본. 원본 벡터 경로를 보존하여 추출."
+        }
+      ]
+    },
+    "miro": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "miro",
+      "primary": "horizontal",
+      "fingerprint": {
+        "logo.svg": "ed7987127a4002ae",
+        "sources/iconify/miro.svg": "ed7987127a4002ae",
+        "sources/iconify/miro-icon.svg": "04651f822779cfda",
+        "sources/wvl/miro-icon.svg": "ca1dde42ffb6eefa",
+        "sources/wvl/miro.svg": "81dda5c2eed08a62",
+        "sources/miro-icon.svg": "ca1dde42ffb6eefa"
+      },
+      "variants": [
+        {
+          "key": "horizontal",
+          "form": "horizontal",
+          "lang": "en",
+          "color": "color",
+          "label": "가로조합형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 2.738,
+          "provider": "iconify",
+          "origin": "collected",
+          "order": 10,
+          "alts": [
+            {
+              "provider": "iconify",
+              "file": "sources/iconify/miro.svg"
+            },
+            {
+              "provider": "wvl",
+              "file": "sources/wvl/miro.svg"
+            }
+          ]
+        },
+        {
+          "key": "symbol",
+          "form": "symbol",
+          "lang": "en",
+          "color": "color",
+          "label": "심볼형",
+          "files": {
+            "svg": "sources/iconify/miro-icon.svg",
+            "png": "sources/iconify/miro-icon.png"
+          },
+          "aspect": 1.0,
+          "provider": "iconify",
+          "origin": "collected",
+          "order": 30,
+          "alts": [
+            {
+              "provider": "wvl",
+              "file": "sources/wvl/miro-icon.svg"
+            },
+            {
+              "provider": "merged",
+              "file": "sources/miro-icon.svg"
+            }
+          ]
+        },
+        {
+          "key": "untitled-ui-community-lockup",
+          "label": "가로조합 · Untitled UI 커뮤니티 수록본",
+          "form": "horizontal",
+          "lang": "en",
+          "color": "color",
+          "files": {
+            "svg": "sources/untitled-ui-community-20261010/6507d4621646caa5.svg",
+            "png": "sources/untitled-ui-community-20261010/15a1d7bed1871d88.png"
+          },
+          "preview_png": "sources/untitled-ui-community-20261010/50d2b5d80221c98c.png",
+          "aspect": 2.8021,
+          "provider": "figma-community",
+          "origin": "collected",
+          "order": 90,
+          "official_distribution": false,
+          "source_archive_url": "https://logo.vibers.co.kr/_clients/active-campaign/sources/untitled-ui-community-20261010/c3a00071febe9f83.zip",
+          "source_note": "사용자 제공 Untitled UI (Community) 내보내기. 공식 브랜드 배포 파일이 아닌 커뮤니티 수록본. 원본 벡터 경로를 보존하여 추출."
+        }
+      ]
+    },
+    "gitlab": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "gitlab",
+      "primary": "symbol",
+      "fingerprint": {
+        "logo.svg": "d361595bc4f8cbb6",
+        "sources/gitlab-icon.svg": "94d7d516f3db448e",
+        "sources/thesvg/wordmark.svg": "01474f71d1a205de",
+        "sources/supertiny/gitlab.svg": "f42db1b9b7602b96"
+      },
+      "variants": [
+        {
+          "key": "symbol",
+          "form": "symbol",
+          "lang": "en",
+          "color": "color",
+          "label": "심볼형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 1.037,
+          "provider": "simple-icons",
+          "origin": "collected",
+          "order": 30,
+          "alts": [
+            {
+              "provider": "merged",
+              "file": "sources/gitlab-icon.svg"
+            },
+            {
+              "provider": "supertiny",
+              "file": "sources/supertiny/gitlab.svg"
+            }
+          ]
+        },
+        {
+          "key": "wordmark",
+          "form": "wordmark",
+          "lang": "unknown",
+          "color": "color",
+          "label": "워드마크형",
+          "files": {
+            "svg": "sources/thesvg/wordmark.svg"
+          },
+          "aspect": 4.615,
+          "provider": "thesvg",
+          "origin": "collected",
+          "order": 40
+        },
+        {
+          "key": "untitled-ui-community-lockup",
+          "label": "가로조합 · Untitled UI 커뮤니티 수록본",
+          "form": "horizontal",
+          "lang": "en",
+          "color": "color",
+          "files": {
+            "svg": "sources/untitled-ui-community-20261010/2520f5d79aa6f0ca.svg",
+            "png": "sources/untitled-ui-community-20261010/3e5ebf7bf4dfa8a1.png"
+          },
+          "preview_png": "sources/untitled-ui-community-20261010/3ec08c7b51fb61ba.png",
+          "aspect": 3.0784,
+          "provider": "figma-community",
+          "origin": "collected",
+          "order": 90,
+          "official_distribution": false,
+          "source_archive_url": "https://logo.vibers.co.kr/_clients/active-campaign/sources/untitled-ui-community-20261010/c3a00071febe9f83.zip",
+          "source_note": "사용자 제공 Untitled UI (Community) 내보내기. 공식 브랜드 배포 파일이 아닌 커뮤니티 수록본. 원본 벡터 경로를 보존하여 추출."
+        }
+      ]
+    },
+    "plaid": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "plaid",
+      "primary": "horizontal",
+      "fingerprint": {
+        "logo.svg": "e2f83660b1c9d3c8"
+      },
+      "variants": [
+        {
+          "key": "horizontal",
+          "form": "horizontal",
+          "lang": "unknown",
+          "color": "mono-dark",
+          "label": "가로조합형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 2.655,
+          "provider": "wikimedia",
+          "origin": "collected",
+          "order": 10
+        },
+        {
+          "key": "untitled-ui-community-lockup",
+          "label": "가로조합 · Untitled UI 커뮤니티 수록본",
+          "form": "horizontal",
+          "lang": "en",
+          "color": "color",
+          "files": {
+            "svg": "sources/untitled-ui-community-20261010/35115d387a1a41eb.svg",
+            "png": "sources/untitled-ui-community-20261010/6dd6b9b13bb824b0.png"
+          },
+          "preview_png": "sources/untitled-ui-community-20261010/80b5311d76ddfa65.png",
+          "aspect": 2.6533,
+          "provider": "figma-community",
+          "origin": "collected",
+          "order": 90,
+          "official_distribution": false,
+          "source_archive_url": "https://logo.vibers.co.kr/_clients/active-campaign/sources/untitled-ui-community-20261010/c3a00071febe9f83.zip",
+          "source_note": "사용자 제공 Untitled UI (Community) 내보내기. 공식 브랜드 배포 파일이 아닌 커뮤니티 수록본. 원본 벡터 경로를 보존하여 추출."
+        }
+      ]
+    },
+    "gong": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "gong",
+      "primary": "untitled-ui-community-lockup",
+      "variants": [
+        {
+          "key": "untitled-ui-community-lockup",
+          "label": "가로조합 · Untitled UI 커뮤니티 수록본",
+          "form": "horizontal",
+          "lang": "en",
+          "color": "color",
+          "files": {
+            "svg": "sources/untitled-ui-community-20261010/050cd0e61f5be65a.svg",
+            "png": "sources/untitled-ui-community-20261010/8dbdc3d5ee5b3098.png"
+          },
+          "preview_png": "sources/untitled-ui-community-20261010/ffe9dffc015d4b36.png",
+          "aspect": 2.856,
+          "provider": "figma-community",
+          "origin": "collected",
+          "order": 90,
+          "official_distribution": false,
+          "source_archive_url": "https://logo.vibers.co.kr/_clients/active-campaign/sources/untitled-ui-community-20261010/c3a00071febe9f83.zip",
+          "source_note": "사용자 제공 Untitled UI (Community) 내보내기. 공식 브랜드 배포 파일이 아닌 커뮤니티 수록본. 원본 벡터 경로를 보존하여 추출."
+        }
+      ]
+    },
+    "github": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "github",
+      "primary": "symbol",
+      "fingerprint": {
+        "logo.svg": "b257b864fe9534f2",
+        "sources/github-icon.svg": "5cc94dbf35503674",
+        "sources/thesvg/wordmark.svg": "376fcf10fdcdc08f",
+        "sources/supertiny/github.svg": "8c247575ee7a338c"
+      },
+      "variants": [
+        {
+          "key": "symbol",
+          "form": "symbol",
+          "lang": "en",
+          "color": "mono-dark",
+          "label": "심볼형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 1.025,
+          "provider": "simple-icons",
+          "origin": "collected",
+          "order": 30,
+          "alts": [
+            {
+              "provider": "merged",
+              "file": "sources/github-icon.svg"
+            },
+            {
+              "provider": "supertiny",
+              "file": "sources/supertiny/github.svg"
+            }
+          ]
+        },
+        {
+          "key": "wordmark",
+          "form": "wordmark",
+          "lang": "unknown",
+          "color": "mono-dark",
+          "label": "워드마크형",
+          "files": {
+            "svg": "sources/thesvg/wordmark.svg"
+          },
+          "aspect": 3.689,
+          "provider": "thesvg",
+          "origin": "collected",
+          "order": 40
+        },
+        {
+          "key": "untitled-ui-community-lockup",
+          "label": "가로조합 · Untitled UI 커뮤니티 수록본",
+          "form": "horizontal",
+          "lang": "en",
+          "color": "color",
+          "files": {
+            "svg": "sources/untitled-ui-community-20261010/396d40a402815cdf.svg",
+            "png": "sources/untitled-ui-community-20261010/8950f0c38be8e884.png"
+          },
+          "preview_png": "sources/untitled-ui-community-20261010/a968adc37776a8a1.png",
+          "aspect": 3.9524,
+          "provider": "figma-community",
+          "origin": "collected",
+          "order": 90,
+          "official_distribution": false,
+          "source_archive_url": "https://logo.vibers.co.kr/_clients/active-campaign/sources/untitled-ui-community-20261010/c3a00071febe9f83.zip",
+          "source_note": "사용자 제공 Untitled UI (Community) 내보내기. 공식 브랜드 배포 파일이 아닌 커뮤니티 수록본. 원본 벡터 경로를 보존하여 추출."
+        }
+      ]
+    },
+    "airwallex": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "airwallex",
+      "primary": "untitled-ui-community-lockup",
+      "variants": [
+        {
+          "key": "untitled-ui-community-lockup",
+          "label": "가로조합 · Untitled UI 커뮤니티 수록본",
+          "form": "horizontal",
+          "lang": "en",
+          "color": "color",
+          "files": {
+            "svg": "sources/untitled-ui-community-20261010/c5f5a047b936c251.svg",
+            "png": "sources/untitled-ui-community-20261010/a022bf0b8ef8ba07.png"
+          },
+          "preview_png": "sources/untitled-ui-community-20261010/908a926e211ffe54.png",
+          "aspect": 7.2914,
+          "provider": "figma-community",
+          "origin": "collected",
+          "order": 90,
+          "official_distribution": false,
+          "source_archive_url": "https://logo.vibers.co.kr/_clients/active-campaign/sources/untitled-ui-community-20261010/c3a00071febe9f83.zip",
+          "source_note": "사용자 제공 Untitled UI (Community) 내보내기. 공식 브랜드 배포 파일이 아닌 커뮤니티 수록본. 원본 벡터 경로를 보존하여 추출."
+        }
+      ]
+    },
+    "attentive": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "attentive",
+      "primary": "untitled-ui-community-lockup",
+      "variants": [
+        {
+          "key": "untitled-ui-community-lockup",
+          "label": "가로조합 · Untitled UI 커뮤니티 수록본",
+          "form": "horizontal",
+          "lang": "en",
+          "color": "color",
+          "files": {
+            "svg": "sources/untitled-ui-community-20261010/4e910272d4f38512.svg",
+            "png": "sources/untitled-ui-community-20261010/9ee44282246e0551.png"
+          },
+          "preview_png": "sources/untitled-ui-community-20261010/2e06ac9dc3af9155.png",
+          "aspect": 5.7858,
+          "provider": "figma-community",
+          "origin": "collected",
+          "order": 90,
+          "official_distribution": false,
+          "source_archive_url": "https://logo.vibers.co.kr/_clients/active-campaign/sources/untitled-ui-community-20261010/c3a00071febe9f83.zip",
+          "source_note": "사용자 제공 Untitled UI (Community) 내보내기. 공식 브랜드 배포 파일이 아닌 커뮤니티 수록본. 원본 벡터 경로를 보존하여 추출."
+        }
+      ]
+    },
+    "hopin": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "hopin",
+      "primary": "untitled-ui-community-lockup",
+      "variants": [
+        {
+          "key": "untitled-ui-community-lockup",
+          "label": "가로조합 · Untitled UI 커뮤니티 수록본",
+          "form": "horizontal",
+          "lang": "en",
+          "color": "color",
+          "files": {
+            "svg": "sources/untitled-ui-community-20261010/fa2bbd9d9c4f6fad.svg",
+            "png": "sources/untitled-ui-community-20261010/bfc7ded28116b578.png"
+          },
+          "preview_png": "sources/untitled-ui-community-20261010/3ee5c10016170291.png",
+          "aspect": 3.4853,
+          "provider": "figma-community",
+          "origin": "collected",
+          "order": 90,
+          "official_distribution": false,
+          "source_archive_url": "https://logo.vibers.co.kr/_clients/active-campaign/sources/untitled-ui-community-20261010/c3a00071febe9f83.zip",
+          "source_note": "사용자 제공 Untitled UI (Community) 내보내기. 공식 브랜드 배포 파일이 아닌 커뮤니티 수록본. 원본 벡터 경로를 보존하여 추출."
+        }
+      ]
+    },
+    "pendo": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "pendo",
+      "primary": "untitled-ui-community-lockup",
+      "variants": [
+        {
+          "key": "untitled-ui-community-lockup",
+          "label": "가로조합 · Untitled UI 커뮤니티 수록본",
+          "form": "horizontal",
+          "lang": "en",
+          "color": "color",
+          "files": {
+            "svg": "sources/untitled-ui-community-20261010/745bed7a7d05f4ad.svg",
+            "png": "sources/untitled-ui-community-20261010/95ad017e1665a22f.png"
+          },
+          "preview_png": "sources/untitled-ui-community-20261010/3b854cb3aa97283f.png",
+          "aspect": 4.3199,
+          "provider": "figma-community",
+          "origin": "collected",
+          "order": 90,
+          "official_distribution": false,
+          "source_archive_url": "https://logo.vibers.co.kr/_clients/active-campaign/sources/untitled-ui-community-20261010/c3a00071febe9f83.zip",
+          "source_note": "사용자 제공 Untitled UI (Community) 내보내기. 공식 브랜드 배포 파일이 아닌 커뮤니티 수록본. 원본 벡터 경로를 보존하여 추출."
+        }
+      ]
+    }
+  },
+  "review": {
+    "existing": 31,
+    "new": [
+      "airwallex",
+      "attentive",
+      "hopin",
+      "outreach-io",
+      "pendo"
+    ],
+    "held": [
+      "Carta: existing carta-badge identity not established"
+    ],
+    "identity_collisions": [
+      "outreach is unrelated red human-shaped logo; new SaaS content uses outreach-io"
+    ],
+    "source_kind": "Figma Community user-provided export",
+    "official_representatives_preserved": true
+  }
+}

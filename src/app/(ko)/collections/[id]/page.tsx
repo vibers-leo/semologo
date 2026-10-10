@@ -17,7 +17,7 @@ export default async function Page({ params, searchParams }: { params: Promise<{
     <p className="rounded-2xl bg-gray-50 p-5 text-gray-600">PNG 검수 완료 <strong className="text-gray-900">{collection.verified.toLocaleString()} / {collection.total.toLocaleString()}</strong> · 명부 기준 {collection.as_of}</p>
     <p className="mt-3 text-sm text-gray-500">{[collection.country, collection.sport, collection.league, collection.season].filter(Boolean).join(' · ')} · 출처 확인 {collection.checked_at?.slice(0,10) ?? collection.as_of}</p>
     {collection.scope_note && <p className="mt-2 text-sm text-gray-500">{collection.scope_note}</p>}
-    <a className="mt-3 inline-block text-sm underline" href={collection.source_url} target="_blank" rel="noopener noreferrer">명부 출처 확인</a>
+    {collection.source_url && <a className="mt-3 inline-block text-sm underline" href={collection.source_url} target="_blank" rel="noopener noreferrer">명부 출처 확인</a>}
     <nav style={{display:'flex',flexWrap:'wrap',gap:20,margin:'20px 0'}}>
       <Link href={`/collections/${id}`}>전체 {members.length}</Link>
       <Link href={`/collections/${id}?status=missing`}>추가 탐색 {members.filter(m=>!m.candidates.length&&!m.png_verified).length}</Link>

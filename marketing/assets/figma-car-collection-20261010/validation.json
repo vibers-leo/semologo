@@ -1,0 +1,370 @@
+[
+  {
+    "id": "abarth",
+    "source": "marketing/assets/figma-car-collection-20261010/embedded/image2_2_3.png",
+    "original_size": [
+      1920,
+      1080
+    ],
+    "alpha_bbox": [
+      593,
+      140,
+      1327,
+      939
+    ],
+    "crop_size": [
+      734,
+      799
+    ],
+    "preview_size": [
+      588,
+      640
+    ],
+    "pixels_preserved": true
+  },
+  {
+    "id": "acura",
+    "source": "marketing/assets/figma-car-collection-20261010/embedded/image5_2_3.png",
+    "original_size": [
+      1024,
+      768
+    ],
+    "alpha_bbox": [
+      142,
+      150,
+      882,
+      619
+    ],
+    "crop_size": [
+      740,
+      469
+    ],
+    "preview_size": [
+      640,
+      406
+    ],
+    "pixels_preserved": true
+  },
+  {
+    "id": "alfa-romeo",
+    "source": "marketing/assets/figma-car-collection-20261010/embedded/image7_2_3.png",
+    "original_size": [
+      1920,
+      1080
+    ],
+    "alpha_bbox": [
+      501,
+      83,
+      1413,
+      998
+    ],
+    "crop_size": [
+      912,
+      915
+    ],
+    "preview_size": [
+      638,
+      640
+    ],
+    "pixels_preserved": true
+  },
+  {
+    "id": "aston-martin",
+    "source": "marketing/assets/figma-car-collection-20261010/embedded/image19_2_3.png",
+    "original_size": [
+      4096,
+      2048
+    ],
+    "alpha_bbox": [
+      341,
+      260,
+      3755,
+      1787
+    ],
+    "crop_size": [
+      3414,
+      1527
+    ],
+    "preview_size": [
+      640,
+      286
+    ],
+    "pixels_preserved": true
+  },
+  {
+    "id": "audi",
+    "source": "marketing/assets/figma-car-collection-20261010/embedded/image25_2_3.png",
+    "original_size": [
+      1920,
+      1080
+    ],
+    "alpha_bbox": [
+      136,
+      110,
+      1784,
+      970
+    ],
+    "crop_size": [
+      1648,
+      860
+    ],
+    "preview_size": [
+      640,
+      334
+    ],
+    "pixels_preserved": true
+  },
+  {
+    "id": "bentley",
+    "source": "marketing/assets/figma-car-collection-20261010/embedded/image35_2_3.png",
+    "original_size": [
+      1920,
+      1080
+    ],
+    "alpha_bbox": [
+      318,
+      235,
+      1585,
+      877
+    ],
+    "crop_size": [
+      1267,
+      642
+    ],
+    "preview_size": [
+      640,
+      324
+    ],
+    "pixels_preserved": true
+  },
+  {
+    "id": "bmw",
+    "source": "marketing/assets/figma-car-collection-20261010/embedded/image44_2_3.png",
+    "original_size": [
+      800,
+      800
+    ],
+    "alpha_bbox": [
+      0,
+      0,
+      800,
+      800
+    ],
+    "crop_size": [
+      800,
+      800
+    ],
+    "preview_size": [
+      640,
+      640
+    ],
+    "pixels_preserved": true
+  },
+  {
+    "id": "brabus",
+    "source": "marketing/assets/figma-car-collection-20261010/embedded/image42_2_3.png",
+    "original_size": [
+      2560,
+      1440
+    ],
+    "alpha_bbox": [
+      280,
+      281,
+      2280,
+      1158
+    ],
+    "crop_size": [
+      2000,
+      877
+    ],
+    "preview_size": [
+      640,
+      281
+    ],
+    "pixels_preserved": true
+  },
+  {
+    "id": "bugatti",
+    "source": "marketing/assets/figma-car-collection-20261010/embedded/image54_2_3.png",
+    "original_size": [
+      1024,
+      768
+    ],
+    "alpha_bbox": [
+      172,
+      201,
+      852,
+      548
+    ],
+    "crop_size": [
+      680,
+      347
+    ],
+    "preview_size": [
+      640,
+      327
+    ],
+    "pixels_preserved": true
+  },
+  {
+    "id": "buick",
+    "source": "marketing/assets/figma-car-collection-20261010/embedded/image50_2_3.png",
+    "original_size": [
+      2560,
+      1440
+    ],
+    "alpha_bbox": [
+      118,
+      356,
+      2456,
+      1088
+    ],
+    "crop_size": [
+      2338,
+      732
+    ],
+    "preview_size": [
+      640,
+      200
+    ],
+    "pixels_preserved": true
+  },
+  {
+    "id": "byd",
+    "source": "marketing/assets/figma-car-collection-20261010/embedded/image51_2_3.png",
+    "original_size": [
+      2560,
+      1440
+    ],
+    "alpha_bbox": [
+      283,
+      103,
+      2277,
+      1334
+    ],
+    "crop_size": [
+      1994,
+      1231
+    ],
+    "preview_size": [
+      640,
+      395
+    ],
+    "pixels_preserved": true
+  },
+  {
+    "id": "cadillac",
+    "source": "marketing/assets/figma-car-collection-20261010/embedded/image52_2_3.png",
+    "original_size": [
+      1920,
+      1080
+    ],
+    "alpha_bbox": [
+      347,
+      331,
+      1575,
+      811
+    ],
+    "crop_size": [
+      1228,
+      480
+    ],
+    "preview_size": [
+      640,
+      250
+    ],
+    "pixels_preserved": true
+  },
+  {
+    "id": "chevrolet",
+    "source": "marketing/assets/figma-car-collection-20261010/embedded/image63_2_3.png",
+    "original_size": [
+      2560,
+      1440
+    ],
+    "alpha_bbox": [
+      125,
+      208,
+      2472,
+      1240
+    ],
+    "crop_size": [
+      2347,
+      1032
+    ],
+    "preview_size": [
+      640,
+      281
+    ],
+    "pixels_preserved": true
+  },
+  {
+    "id": "citroen",
+    "source": "marketing/assets/figma-car-collection-20261010/embedded/image61_2_3.png",
+    "original_size": [
+      2048,
+      2048
+    ],
+    "alpha_bbox": [
+      90,
+      361,
+      1944,
+      1672
+    ],
+    "crop_size": [
+      1854,
+      1311
+    ],
+    "preview_size": [
+      640,
+      453
+    ],
+    "pixels_preserved": true
+  },
+  {
+    "id": "dacia",
+    "source": "marketing/assets/figma-car-collection-20261010/embedded/image65_2_3.png",
+    "original_size": [
+      1920,
+      1080
+    ],
+    "alpha_bbox": [
+      388,
+      37,
+      1531,
+      1043
+    ],
+    "crop_size": [
+      1143,
+      1006
+    ],
+    "preview_size": [
+      640,
+      563
+    ],
+    "pixels_preserved": true
+  },
+  {
+    "id": "daihatsu",
+    "source": "marketing/assets/figma-car-collection-20261010/embedded/image79_2_3.png",
+    "original_size": [
+      1280,
+      233
+    ],
+    "alpha_bbox": [
+      0,
+      0,
+      1280,
+      233
+    ],
+    "crop_size": [
+      1280,
+      233
+    ],
+    "preview_size": [
+      640,
+      117
+    ],
+    "pixels_preserved": true
+  }
+]

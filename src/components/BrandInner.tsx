@@ -892,7 +892,9 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
                       {(manifest?.variants || []).filter(v => !langFilter || v.lang === langFilter || v.lang === "none" || v.text_layout?.startsWith("ko-en")).map(v => {
                         const svgFile = v.files.svg;
                         const pngFile = v.files.png;
-                        const previewUrl = cdnUrl(pngFile || svgFile || "logo.png");
+                        const thumbnailFile = presentationAssetFile(brand, v.preview_png);
+                        const originalFile = presentationAssetFile(brand, v.original_png);
+                        const previewUrl = cdnUrl(thumbnailFile || pngFile || svgFile || "logo.png");
                         return (
                           <div key={v.key} className="logo-composition-card" style={{ minWidth:0,
                             background:"#fff", border:"1px solid #e4e4e7", borderRadius:12, overflow:"hidden" }}>
@@ -927,7 +929,8 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
                                 {v.alts?.length ? ` · 소스 ${v.alts.length + 1}종` : ""}
                               </div>
                             </div>
-                            <div style={{ gridColumn:2, padding:"4px 12px 12px" }}><div style={{display:"flex",gap:6}}>
+                            <div style={{ gridColumn:2, padding:"4px 12px 12px" }}><div style={{display:"flex",flexWrap:"wrap",gap:6}}>
+                              {originalFile && originalFile !== pngFile && <button onClick={() => grab(cdnUrl(originalFile), `${brand.id}-${v.key}-original.png`)} style={{fontSize:11,padding:"7px 11px",borderRadius:7,border:"1px solid #e4e4e7",background:"#fff",cursor:"pointer"}}>원본 PNG</button>}
                               {svgFile && (
                                 <button onClick={() => grab(cdnUrl(svgFile), `${brand.id}-${v.key}.svg`)}
                                   style={{ fontSize:11, padding:"7px 11px", borderRadius:7, border:"none",

@@ -1,0 +1,194 @@
+[
+  {
+    "id": "abbank",
+    "name": "ABBANK",
+    "existing": false,
+    "official_identity_reference": "https://www.abbank.vn/en",
+    "asset_source_kind": "community",
+    "official_asset": false,
+    "visual_review": "approved",
+    "transparent_png": true,
+    "png_dimensions": [
+      2000,
+      225
+    ],
+    "vector_only": true,
+    "existing_variants_preserved": 0
+  },
+  {
+    "id": "agribank-vietnam",
+    "name": "Agribank",
+    "existing": false,
+    "official_identity_reference": "https://www.agribank.com.vn/vn/ca-nhan",
+    "asset_source_kind": "community",
+    "official_asset": false,
+    "visual_review": "approved",
+    "transparent_png": true,
+    "png_dimensions": [
+      2000,
+      267
+    ],
+    "vector_only": true,
+    "existing_variants_preserved": 0
+  },
+  {
+    "id": "baoviet-bank",
+    "name": "BAOVIET Bank",
+    "existing": false,
+    "official_identity_reference": "https://www.baovietbank.vn/Home/",
+    "asset_source_kind": "community",
+    "official_asset": false,
+    "visual_review": "approved",
+    "transparent_png": true,
+    "png_dimensions": [
+      2000,
+      479
+    ],
+    "vector_only": true,
+    "existing_variants_preserved": 0
+  },
+  {
+    "id": "bank-for-investment-and-development-of-vietnam",
+    "name": "BIDV",
+    "existing": true,
+    "official_identity_reference": "https://bidv.com.vn/vn/trang-chu",
+    "asset_source_kind": "community",
+    "official_asset": false,
+    "visual_review": "approved",
+    "transparent_png": true,
+    "png_dimensions": [
+      2000,
+      640
+    ],
+    "vector_only": true,
+    "existing_variants_preserved": 0
+  },
+  {
+    "id": "cake-bank",
+    "name": "CAKE",
+    "existing": false,
+    "official_identity_reference": "https://cake.vn/",
+    "asset_source_kind": "community",
+    "official_asset": false,
+    "visual_review": "approved",
+    "transparent_png": true,
+    "png_dimensions": [
+      2000,
+      762
+    ],
+    "vector_only": true,
+    "existing_variants_preserved": 0
+  },
+  {
+    "id": "eximbank-vietnam",
+    "name": "Eximbank",
+    "existing": false,
+    "official_identity_reference": "https://eximbank.com.vn/vi/ho-tro",
+    "asset_source_kind": "community",
+    "official_asset": false,
+    "visual_review": "approved",
+    "transparent_png": true,
+    "png_dimensions": [
+      2000,
+      469
+    ],
+    "vector_only": true,
+    "existing_variants_preserved": 0
+  },
+  {
+    "id": "hdbank",
+    "name": "HDBank",
+    "existing": false,
+    "official_identity_reference": "https://hdbank.com.vn/",
+    "asset_source_kind": "community",
+    "official_asset": false,
+    "visual_review": "approved",
+    "transparent_png": true,
+    "png_dimensions": [
+      2000,
+      721
+    ],
+    "vector_only": true,
+    "existing_variants_preserved": 0
+  },
+  {
+    "id": "lpbank",
+    "name": "LPBank",
+    "existing": false,
+    "official_identity_reference": "https://lpbank.com.vn/",
+    "asset_source_kind": "community",
+    "official_asset": false,
+    "visual_review": "approved",
+    "transparent_png": true,
+    "png_dimensions": [
+      2000,
+      513
+    ],
+    "vector_only": true,
+    "existing_variants_preserved": 0
+  },
+  {
+    "id": "msb",
+    "name": "MSB",
+    "existing": true,
+    "official_identity_reference": "https://www.msb.com.vn/en/",
+    "asset_source_kind": "community",
+    "official_asset": false,
+    "visual_review": "approved",
+    "transparent_png": true,
+    "png_dimensions": [
+      2000,
+      482
+    ],
+    "vector_only": true,
+    "existing_variants_preserved": 0
+  },
+  {
+    "id": "tpbank",
+    "name": "TPBank",
+    "existing": true,
+    "official_identity_reference": "https://tpb.vn/",
+    "asset_source_kind": "community",
+    "official_asset": false,
+    "visual_review": "approved",
+    "transparent_png": true,
+    "png_dimensions": [
+      2000,
+      615
+    ],
+    "vector_only": true,
+    "existing_variants_preserved": 0
+  },
+  {
+    "id": "vib",
+    "name": "VIB",
+    "existing": true,
+    "official_identity_reference": "https://www.vib.com.vn/",
+    "asset_source_kind": "community",
+    "official_asset": false,
+    "visual_review": "approved",
+    "transparent_png": true,
+    "png_dimensions": [
+      2000,
+      1212
+    ],
+    "vector_only": true,
+    "existing_variants_preserved": 0
+  },
+  {
+    "id": "vietcombank",
+    "name": "Vietcombank",
+    "existing": true,
+    "official_identity_reference": "https://www.vietcombank.com.vn/",
+    "asset_source_kind": "community",
+    "official_asset": false,
+    "visual_review": "approved",
+    "transparent_png": true,
+    "png_dimensions": [
+      2000,
+      690
+    ],
+    "vector_only": true,
+    "existing_variants_preserved": 0
+  }
+]

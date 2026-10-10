@@ -1,0 +1,656 @@
+[
+  {
+    "id": "active-campaign",
+    "file": "marketing/assets/figma-premium-collection-20261010/source-collection.zip",
+    "key": "_clients/active-campaign/sources/untitled-ui-community-20261010/c3a00071febe9f83.zip",
+    "sha256": "c3a00071febe9f83da4f4bd03035ba0115b1322853854fd171517e648430c74b"
+  },
+  {
+    "id": "postman",
+    "file": "marketing/assets/figma-premium-collection-20261010/release/postman/lockup.svg",
+    "key": "_clients/postman/sources/untitled-ui-community-20261010/99bee44f8c00c40f.svg",
+    "sha256": "99bee44f8c00c40f2b6caf3e88f46757801f4aa6d3f294f095aa7585566c8649"
+  },
+  {
+    "id": "postman",
+    "file": "marketing/assets/figma-premium-collection-20261010/release/postman/lockup-2000.png",
+    "key": "_clients/postman/sources/untitled-ui-community-20261010/a42ea933aceb5a6a.png",
+    "sha256": "a42ea933aceb5a6aaeab99873a15df97b99c5fcc63cdb219631ea12475efdd4f"
+  },
+  {
+    "id": "postman",
+    "file": "marketing/assets/figma-premium-collection-20261010/release/postman/preview-640.png",
+    "key": "_clients/postman/sources/untitled-ui-community-20261010/42f745da09f0c0d5.png",
+    "sha256": "42f745da09f0c0d533dd1cede7cce713de04e9bab22c741ea05030e774416206"
+  },
+  {
+    "id": "slack",
+    "file": "marketing/assets/figma-premium-collection-20261010/release/slack/lockup.svg",
+    "key": "_clients/slack/sources/untitled-ui-community-20261010/924015b04cc3b8f5.svg",
+    "sha256": "924015b04cc3b8f55295274d4b1d572904f2282483eb95ffc37cfa637d61bece"
+  },
+  {
+    "id": "slack",
+    "file": "marketing/assets/figma-premium-collection-20261010/release/slack/lockup-2000.png",
+    "key": "_clients/slack/sources/untitled-ui-community-20261010/4c18b3630e5b2482.png",
+    "sha256": "4c18b3630e5b24829a766b22ce0ac9e4f3131497feb7c3b3421aa5542c190349"
+  },
+  {
+    "id": "slack",
+    "file": "marketing/assets/figma-premium-collection-20261010/release/slack/preview-640.png",
+    "key": "_clients/slack/sources/untitled-ui-community-20261010/34a45cc554b3db60.png",
+    "sha256": "34a45cc554b3db6095dc3484e3e95b0b03fd7161c19815b87e59b85404e2b676"
+  },
+  {
+    "id": "hashicorp",
+    "file": "marketing/assets/figma-premium-collection-20261010/release/hashicorp/lockup.svg",
+    "key": "_clients/hashicorp/sources/untitled-ui-community-20261010/a3f366acf815577a.svg",
+    "sha256": "a3f366acf815577a98b84bdf42aab587ffa8c81f0f44ef19f66cc860264a45d8"
+  },
+  {
+    "id": "hashicorp",
+    "file": "marketing/assets/figma-premium-collection-20261010/release/hashicorp/lockup-2000.png",
+    "key": "_clients/hashicorp/sources/untitled-ui-community-20261010/c247ea25936978e5.png",
+    "sha256": "c247ea25936978e51f5aefec63ad1c5a65539b94b37b0f410ab4018d64d44dab"
+  },
+  {
+    "id": "hashicorp",
+    "file": "marketing/assets/figma-premium-collection-20261010/release/hashicorp/preview-640.png",
+    "key": "_clients/hashicorp/sources/untitled-ui-community-20261010/49f005e3fce20854.png",
+    "sha256": "49f005e3fce20854d808204295428b4b8503660eedc9e1130ae57e5f19e8e2ea"
+  },
+  {
+    "id": "fivetran",
+    "file": "marketing/assets/figma-premium-collection-20261010/release/fivetran/lockup.svg",
+    "key": "_clients/fivetran/sources/untitled-ui-community-20261010/16a93d04a44c8f9e.svg",
+    "sha256": "16a93d04a44c8f9e952901dad7b9e1ce9e08e5b3a57ad0d1893c820f8564aa62"
+  },
+  {
+    "id": "fivetran",
+    "file": "marketing/assets/figma-premium-collection-20261010/release/fivetran/lockup-2000.png",
+    "key": "_clients/fivetran/sources/untitled-ui-community-20261010/c1ece1fd2b6e3041.png",
+    "sha256": "c1ece1fd2b6e30419c125992f181822a7c786558984483f9f10fabbecf86cfc9"
+  },
+  {
+    "id": "fivetran",
+    "file": "marketing/assets/figma-premium-collection-20261010/release/fivetran/preview-640.png",
+    "key": "_clients/fivetran/sources/untitled-ui-community-20261010/52d941904d02fa43.png",
+    "sha256": "52d941904d02fa4313acc5c2f7577ef2a4ae4d4151cbb592165cb0de8e314da3"
+  },
+  {
+    "id": "freshworks",
+    "file": "marketing/assets/figma-premium-collection-20261010/release/freshworks/lockup.svg",
+    "key": "_clients/freshworks/sources/untitled-ui-community-20261010/702c3cb7261745cf.svg",
+    "sha256": "702c3cb7261745cf8999888a28ed408131d1fa06c51492d2a0d6c1a2452aec48"
+  },
+  {
+    "id": "freshworks",
+    "file": "marketing/assets/figma-premium-collection-20261010/release/freshworks/lockup-2000.png",
+    "key": "_clients/freshworks/sources/untitled-ui-community-20261010/d077ba151663b96a.png",
+    "sha256": "d077ba151663b96a65201a54a2447d5865354ed3d0a715df9892f7718abb7c25"
+  },
+  {
+    "id": "freshworks",
+    "file": "marketing/assets/figma-premium-collection-20261010/release/freshworks/preview-640.png",
+    "key": "_clients/freshworks/sources/untitled-ui-community-20261010/b6954abfc7b89ee6.png",
+    "sha256": "b6954abfc7b89ee66522eb2f870909bb41fc9d8b3d1106035be306d08c368d36"
+  },
+  {
+    "id": "braze",
+    "file": "marketing/assets/figma-premium-collection-20261010/release/braze/lockup.svg",
+    "key": "_clients/braze/sources/untitled-ui-community-20261010/36adecd17c2be5fd.svg",
+    "sha256": "36adecd17c2be5fd202c33e4628bf91eda99dc2ad4e3de69878676aff3e7d10f"
+  },
+  {
+    "id": "braze",
+    "file": "marketing/assets/figma-premium-collection-20261010/release/braze/lockup-2000.png",
+    "key": "_clients/braze/sources/untitled-ui-community-20261010/4e22dfae7e816d89.png",
+    "sha256": "4e22dfae7e816d896c75262ce504f32ceb231468a7aa3b1e93176084fa79b43a"
+  },
+  {
+    "id": "braze",
+    "file": "marketing/assets/figma-premium-collection-20261010/release/braze/preview-640.png",
+    "key": "_clients/braze/sources/untitled-ui-community-20261010/43fe6f87eb627a74.png",
+    "sha256": "43fe6f87eb627a741abf6b23e3dd3c23135f8b1910b1f10db176bd4a0ec5b507"
+  },
+  {
+    "id": "outreach-io",
+    "file": "marketing/assets/figma-premium-collection-20261010/release/outreach-io/lockup.svg",
+    "key": "_clients/outreach-io/sources/untitled-ui-community-20261010/9339d64f06497a10.svg",
+    "sha256": "9339d64f06497a10d797a4a054cacd8b9b718527245aabf7ec5255263e0ecd4d"
+  },
+  {
+    "id": "outreach-io",
+    "file": "marketing/assets/figma-premium-collection-20261010/release/outreach-io/lockup-2000.png",
+    "key": "_clients/outreach-io/sources/untitled-ui-community-20261010/7e3dd1afbfa733eb.png",
+    "sha256": "7e3dd1afbfa733eb2d84822b44fae94990e7e0376955e37275525892c62841c0"
+  },
+  {
+    "id": "outreach-io",
+    "file": "marketing/assets/figma-premium-collection-20261010/release/outreach-io/preview-640.png",
+    "key": "_clients/outreach-io/sources/untitled-ui-community-20261010/3c08c42972307882.png",
+    "sha256": "3c08c42972307882fe0fcec23f456626feba736808fdf3274585263d4884a33c"
+  },
+  {
+    "id": "browserstack",
+    "file": "marketing/assets/figma-premium-collection-20261010/release/browserstack/lockup.svg",
+    "key": "_clients/browserstack/sources/untitled-ui-community-20261010/266e5c5626d80aa1.svg",
+    "sha256": "266e5c5626d80aa128455e7ee338ec0c433dcab96b38287e856ca293cc1885a5"
+  },
+  {
+    "id": "browserstack",
+    "file": "marketing/assets/figma-premium-collection-20261010/release/browserstack/lockup-2000.png",
+    "key": "_clients/browserstack/sources/untitled-ui-community-20261010/b03bd6f8eb6f8272.png",
+    "sha256": "b03bd6f8eb6f82725640ad287f0b6d273d94eb2f827218f9025352277c561984"
+  },
+  {
+    "id": "browserstack",
+    "file": "marketing/assets/figma-premium-collection-20261010/release/browserstack/preview-640.png",
+    "key": "_clients/browserstack/sources/untitled-ui-community-20261010/09cef362107c3021.png",
+    "sha256": "09cef362107c3021b00e511184395b8c86ef5e924a118e99281663c9a715744d"
+  },
+  {
+    "id": "webflow",
+    "file": "marketing/assets/figma-premium-collection-20261010/release/webflow/lockup.svg",
+    "key": "_clients/webflow/sources/untitled-ui-community-20261010/d7bd05063405d2ad.svg",
+    "sha256": "d7bd05063405d2ad2c17453efbf4048609a4b5a6022eabc03f6e7ef8f76092be"
+  },
+  {
+    "id": "webflow",
+    "file": "marketing/assets/figma-premium-collection-20261010/release/webflow/lockup-2000.png",
+    "key": "_clients/webflow/sources/untitled-ui-community-20261010/7672f9d838dfb339.png",
+    "sha256": "7672f9d838dfb339a00eb51c1a4db4aead07379c27740df33bdbf52680df6fe6"
+  },
+  {
+    "id": "webflow",
+    "file": "marketing/assets/figma-premium-collection-20261010/release/webflow/preview-640.png",
+    "key": "_clients/webflow/sources/untitled-ui-community-20261010/221148db9e8dedb8.png",
+    "sha256": "221148db9e8dedb82306e57d2955d8136a2334c49341f0e4bce31344496ad252"
+  },
+  {
+    "id": "active-campaign",
+    "file": "marketing/assets/figma-premium-collection-20261010/release/active-campaign/lockup.svg",
+    "key": "_clients/active-campaign/sources/untitled-ui-community-20261010/8b36ec9715c7a33a.svg",
+    "sha256": "8b36ec9715c7a33a70f013114679453974b85992d86aaa480a14c1522d5dc95f"
+  },
+  {
+    "id": "active-campaign",
+    "file": "marketing/assets/figma-premium-collection-20261010/release/active-campaign/lockup-2000.png",
+    "key": "_clients/active-campaign/sources/untitled-ui-community-20261010/d5bc4f51801d1a50.png",
+    "sha256": "d5bc4f51801d1a506878a18677ea31b99a307f383c487aec4aa16a41755ecbab"
+  },
+  {
+    "id": "active-campaign",
+    "file": "marketing/assets/figma-premium-collection-20261010/release/active-campaign/preview-640.png",
+    "key": "_clients/active-campaign/sources/untitled-ui-community-20261010/b6a30f42455d550e.png",
+    "sha256": "b6a30f42455d550e7156dec9983da02fafa082df7d290df2bd38ae03ec53c9fd"
+  },
+  {
+    "id": "invision",
+    "file": "marketing/assets/figma-premium-collection-20261010/release/invision/lockup.svg",
+    "key": "_clients/invision/sources/untitled-ui-community-20261010/0cc646c9d29801bb.svg",
+    "sha256": "0cc646c9d29801bb5fe1649de9288919397a2d53d5af21a547cd70f1d0d2eeeb"
+  },
+  {
+    "id": "invision",
+    "file": "marketing/assets/figma-premium-collection-20261010/release/invision/lockup-2000.png",
+    "key": "_clients/invision/sources/untitled-ui-community-20261010/d8a9446ed2ecbdd1.png",
+    "sha256": "d8a9446ed2ecbdd11004e48e5314d88f4f4c7c0be7374ba3f1fb364298a91792"
+  },
+  {
+    "id": "invision",
+    "file": "marketing/assets/figma-premium-collection-20261010/release/invision/preview-640.png",
+    "key": "_clients/invision/sources/untitled-ui-community-20261010/33afa267e41eceb8.png",
+    "sha256": "33afa267e41eceb881caec7d4a1699c28c75ac3663e6deb72102580c7a8f9a23"
+  },
+  {
+    "id": "launchdarkly",
+    "file": "marketing/assets/figma-premium-collection-20261010/release/launchdarkly/lockup.svg",
+    "key": "_clients/launchdarkly/sources/untitled-ui-community-20261010/902cf544da2d32f8.svg",
+    "sha256": "902cf544da2d32f84f27cbab8eed9cb899b1966a16b284fddb0782e5b6364ea6"
+  },
+  {
+    "id": "launchdarkly",
+    "file": "marketing/assets/figma-premium-collection-20261010/release/launchdarkly/lockup-2000.png",
+    "key": "_clients/launchdarkly/sources/untitled-ui-community-20261010/95362dba6fff3876.png",
+    "sha256": "95362dba6fff38763e20fafa1d81685c42cccb8693990b3d9aa65275528a13a9"
+  },
+  {
+    "id": "launchdarkly",
+    "file": "marketing/assets/figma-premium-collection-20261010/release/launchdarkly/preview-640.png",
+    "key": "_clients/launchdarkly/sources/untitled-ui-community-20261010/ee5717a6bf6bebcb.png",
+    "sha256": "ee5717a6bf6bebcb1047f473d9bf1dc9e7f58512e160d9e4f68ee25504ab372e"
+  },
+  {
+    "id": "pipedrive",
+    "file": "marketing/assets/figma-premium-collection-20261010/release/pipedrive/lockup.svg",
+    "key": "_clients/pipedrive/sources/untitled-ui-community-20261010/9812987353fd3419.svg",
+    "sha256": "9812987353fd34192941d05c70bfd4c164e9a22261995af940b490ca30030de6"
+  },
+  {
+    "id": "pipedrive",
+    "file": "marketing/assets/figma-premium-collection-20261010/release/pipedrive/lockup-2000.png",
+    "key": "_clients/pipedrive/sources/untitled-ui-community-20261010/5444ab0f0e9d89c4.png",
+    "sha256": "5444ab0f0e9d89c48b8684330be79933828691d2746cc796db5948a3d2dfa190"
+  },
+  {
+    "id": "pipedrive",
+    "file": "marketing/assets/figma-premium-collection-20261010/release/pipedrive/preview-640.png",
+    "key": "_clients/pipedrive/sources/untitled-ui-community-20261010/5bcb6d6c0ff937bf.png",
+    "sha256": "5bcb6d6c0ff937bffb61a2215cffe5e4caac0d9bbf1fe4fe379e459bac5579bc"
+  },
+  {
+    "id": "automattic",
+    "file": "marketing/assets/figma-premium-collection-20261010/release/automattic/lockup.svg",
+    "key": "_clients/automattic/sources/untitled-ui-community-20261010/354e4dda8195a7b6.svg",
+    "sha256": "354e4dda8195a7b6ce02097998f192fe007b3516483a00ea5c8ff7564bc11453"
+  },
+  {
+    "id": "automattic",
+    "file": "marketing/assets/figma-premium-collection-20261010/release/automattic/lockup-2000.png",
+    "key": "_clients/automattic/sources/untitled-ui-community-20261010/d327eec3af738e21.png",
+    "sha256": "d327eec3af738e21e785bb1a7dea5937f0863b846affe46e150d82badbf886df"
+  },
+  {
+    "id": "automattic",
+    "file": "marketing/assets/figma-premium-collection-20261010/release/automattic/preview-640.png",
+    "key": "_clients/automattic/sources/untitled-ui-community-20261010/584fef51c91e3c4b.png",
+    "sha256": "584fef51c91e3c4b6027ee5cda6f621cacb2026a3568085816a6dd36bab8c32b"
+  },
+  {
+    "id": "razorpay",
+    "file": "marketing/assets/figma-premium-collection-20261010/release/razorpay/lockup.svg",
+    "key": "_clients/razorpay/sources/untitled-ui-community-20261010/171a51ea3d42fb46.svg",
+    "sha256": "171a51ea3d42fb46200360fcb1269f198e86f4ffbc25463e028d6dd640133ab5"
+  },
+  {
+    "id": "razorpay",
+    "file": "marketing/assets/figma-premium-collection-20261010/release/razorpay/lockup-2000.png",
+    "key": "_clients/razorpay/sources/untitled-ui-community-20261010/49d729c6cac26363.png",
+    "sha256": "49d729c6cac263636b209c4d760dac0ecc7a0a296176209a83f2d88c9cf1a681"
+  },
+  {
+    "id": "razorpay",
+    "file": "marketing/assets/figma-premium-collection-20261010/release/razorpay/preview-640.png",
+    "key": "_clients/razorpay/sources/untitled-ui-community-20261010/2103ffd8b1cba91c.png",
+    "sha256": "2103ffd8b1cba91ca484df01c7dd8609b5db1b339ca73c59b49e9473c2af7d1b"
+  },
+  {
+    "id": "cultureamp",
+    "file": "marketing/assets/figma-premium-collection-20261010/release/cultureamp/lockup.svg",
+    "key": "_clients/cultureamp/sources/untitled-ui-community-20261010/08d7eca2c598e155.svg",
+    "sha256": "08d7eca2c598e155030b561245fa21d3f18dab86c309562a150c2ecd459c353b"
+  },
+  {
+    "id": "cultureamp",
+    "file": "marketing/assets/figma-premium-collection-20261010/release/cultureamp/lockup-2000.png",
+    "key": "_clients/cultureamp/sources/untitled-ui-community-20261010/bdfe82456b683a58.png",
+    "sha256": "bdfe82456b683a588c89d27056a3e9e7b28cf9d0cf817e809091735f06f436f7"
+  },
+  {
+    "id": "cultureamp",
+    "file": "marketing/assets/figma-premium-collection-20261010/release/cultureamp/preview-640.png",
+    "key": "_clients/cultureamp/sources/untitled-ui-community-20261010/45fe86bbda27226d.png",
+    "sha256": "45fe86bbda27226df4f5ca398f5bc56be27455be96c656c44d3b76786dc83a24"
+  },
+  {
+    "id": "notion",
+    "file": "marketing/assets/figma-premium-collection-20261010/release/notion/lockup.svg",
+    "key": "_clients/notion/sources/untitled-ui-community-20261010/a4563099a5a1512e.svg",
+    "sha256": "a4563099a5a1512e2e2ae6bd3f1ce9824143aa4d124e13c65e57103448aa9f22"
+  },
+  {
+    "id": "notion",
+    "file": "marketing/assets/figma-premium-collection-20261010/release/notion/lockup-2000.png",
+    "key": "_clients/notion/sources/untitled-ui-community-20261010/00a755bca566e808.png",
+    "sha256": "00a755bca566e808a5fa551af4e2f9af3352082c57b60b8f403d7968cef2ce3b"
+  },
+  {
+    "id": "notion",
+    "file": "marketing/assets/figma-premium-collection-20261010/release/notion/preview-640.png",
+    "key": "_clients/notion/sources/untitled-ui-community-20261010/3bf3eb4efe052ed5.png",
+    "sha256": "3bf3eb4efe052ed5a381419f6812929d72f8f3dd2e490a63a2e5722a5f0cce2f"
+  },
+  {
+    "id": "airtable",
+    "file": "marketing/assets/figma-premium-collection-20261010/release/airtable/lockup.svg",
+    "key": "_clients/airtable/sources/untitled-ui-community-20261010/871a7b89fc0d0c0c.svg",
+    "sha256": "871a7b89fc0d0c0c9bbd9e0c392d36442e0ceef8d4985a166d99b242c262179e"
+  },
+  {
+    "id": "airtable",
+    "file": "marketing/assets/figma-premium-collection-20261010/release/airtable/lockup-2000.png",
+    "key": "_clients/airtable/sources/untitled-ui-community-20261010/6845827d4e725527.png",
+    "sha256": "6845827d4e7255272f8a412d831c84dadc20ee830fda90df9740dafab292d180"
+  },
+  {
+    "id": "airtable",
+    "file": "marketing/assets/figma-premium-collection-20261010/release/airtable/preview-640.png",
+    "key": "_clients/airtable/sources/untitled-ui-community-20261010/62aceb76f8a2fd74.png",
+    "sha256": "62aceb76f8a2fd74b2495e5e8a592e259422cfc6115982d1ded38525f2b1a518"
+  },
+  {
+    "id": "gusto",
+    "file": "marketing/assets/figma-premium-collection-20261010/release/gusto/lockup.svg",
+    "key": "_clients/gusto/sources/untitled-ui-community-20261010/6abb4c55604633a3.svg",
+    "sha256": "6abb4c55604633a3d77052d07e51050b66d030d3115862aedc3847ea45a38a3f"
+  },
+  {
+    "id": "gusto",
+    "file": "marketing/assets/figma-premium-collection-20261010/release/gusto/lockup-2000.png",
+    "key": "_clients/gusto/sources/untitled-ui-community-20261010/601c0dc10c45cbbc.png",
+    "sha256": "601c0dc10c45cbbc29ed580d822a74bf3fe51a99ff5f2cc6556c9130e27ae05a"
+  },
+  {
+    "id": "gusto",
+    "file": "marketing/assets/figma-premium-collection-20261010/release/gusto/preview-640.png",
+    "key": "_clients/gusto/sources/untitled-ui-community-20261010/93d905d393cb3875.png",
+    "sha256": "93d905d393cb3875608aebff9d3c9d95bacd015a1ee2ab3cf329a666ed9e2ebc"
+  },
+  {
+    "id": "databricks",
+    "file": "marketing/assets/figma-premium-collection-20261010/release/databricks/lockup.svg",
+    "key": "_clients/databricks/sources/untitled-ui-community-20261010/dd5f81d17ab409e5.svg",
+    "sha256": "dd5f81d17ab409e540ebee6f58b82b636fa83e2d5233b0a23c03010e7b179959"
+  },
+  {
+    "id": "databricks",
+    "file": "marketing/assets/figma-premium-collection-20261010/release/databricks/lockup-2000.png",
+    "key": "_clients/databricks/sources/untitled-ui-community-20261010/80dc479a71a65541.png",
+    "sha256": "80dc479a71a65541b08f994b8ac1f1a64eabfafad69d35c04f157afe39ebaea9"
+  },
+  {
+    "id": "databricks",
+    "file": "marketing/assets/figma-premium-collection-20261010/release/databricks/preview-640.png",
+    "key": "_clients/databricks/sources/untitled-ui-community-20261010/23c25ea5b483b5f2.png",
+    "sha256": "23c25ea5b483b5f2b061e3fbc1919d11380f1e907ce5238a7e81885f4996b272"
+  },
+  {
+    "id": "loom",
+    "file": "marketing/assets/figma-premium-collection-20261010/release/loom/lockup.svg",
+    "key": "_clients/loom/sources/untitled-ui-community-20261010/983d5460a0e8129d.svg",
+    "sha256": "983d5460a0e8129d1503e6f1faadbb1604d3906fa83eebf67f60918351204988"
+  },
+  {
+    "id": "loom",
+    "file": "marketing/assets/figma-premium-collection-20261010/release/loom/lockup-2000.png",
+    "key": "_clients/loom/sources/untitled-ui-community-20261010/bfc95c8b6d1afebb.png",
+    "sha256": "bfc95c8b6d1afebb0015f1f94def4158efe9757d6e0469933cfc4b3e4fe5a3d2"
+  },
+  {
+    "id": "loom",
+    "file": "marketing/assets/figma-premium-collection-20261010/release/loom/preview-640.png",
+    "key": "_clients/loom/sources/untitled-ui-community-20261010/7beb869455d17107.png",
+    "sha256": "7beb869455d17107c229c3083f6f5c01820be000e695196e1f2bbe26596c15f0"
+  },
+  {
+    "id": "grammarly",
+    "file": "marketing/assets/figma-premium-collection-20261010/release/grammarly/lockup.svg",
+    "key": "_clients/grammarly/sources/untitled-ui-community-20261010/63a245fcdabac478.svg",
+    "sha256": "63a245fcdabac478a77cc00188affd32f7b297dfdbacbc217dbd9b9f5c80ce75"
+  },
+  {
+    "id": "grammarly",
+    "file": "marketing/assets/figma-premium-collection-20261010/release/grammarly/lockup-2000.png",
+    "key": "_clients/grammarly/sources/untitled-ui-community-20261010/90d0d41294c92e8e.png",
+    "sha256": "90d0d41294c92e8e92d17d5715673776da998cea338e01fd720b435c4884227a"
+  },
+  {
+    "id": "grammarly",
+    "file": "marketing/assets/figma-premium-collection-20261010/release/grammarly/preview-640.png",
+    "key": "_clients/grammarly/sources/untitled-ui-community-20261010/c65cde6248bf8d56.png",
+    "sha256": "c65cde6248bf8d563d77a76e7065f9c390c596d8688345547dbbe5d9a6372ca4"
+  },
+  {
+    "id": "calendly",
+    "file": "marketing/assets/figma-premium-collection-20261010/release/calendly/lockup.svg",
+    "key": "_clients/calendly/sources/untitled-ui-community-20261010/6295043740edceeb.svg",
+    "sha256": "6295043740edceeb485b0b5afac6ec14e7e62317e9afeaeea25e71b9dce5054c"
+  },
+  {
+    "id": "calendly",
+    "file": "marketing/assets/figma-premium-collection-20261010/release/calendly/lockup-2000.png",
+    "key": "_clients/calendly/sources/untitled-ui-community-20261010/9546d2d82a9cad34.png",
+    "sha256": "9546d2d82a9cad348f128ebb061d1d6098dfb910358978d4a18e4d9268e4697f"
+  },
+  {
+    "id": "calendly",
+    "file": "marketing/assets/figma-premium-collection-20261010/release/calendly/preview-640.png",
+    "key": "_clients/calendly/sources/untitled-ui-community-20261010/b05a9975ad66df77.png",
+    "sha256": "b05a9975ad66df7721e940f5575eda5ae7de57ddd54713e1bbe72898a0a77c58"
+  },
+  {
+    "id": "mailchimp",
+    "file": "marketing/assets/figma-premium-collection-20261010/release/mailchimp/lockup.svg",
+    "key": "_clients/mailchimp/sources/untitled-ui-community-20261010/8403e6e08345f4bf.svg",
+    "sha256": "8403e6e08345f4bf67d7b03e61c1350eeaada2e6d2eb2607ea3d458b3d85c5c4"
+  },
+  {
+    "id": "mailchimp",
+    "file": "marketing/assets/figma-premium-collection-20261010/release/mailchimp/lockup-2000.png",
+    "key": "_clients/mailchimp/sources/untitled-ui-community-20261010/6e4a0131f49c209a.png",
+    "sha256": "6e4a0131f49c209a77cb17a0097a2e5d8a0726ad74e5baab17529f8d6677d572"
+  },
+  {
+    "id": "mailchimp",
+    "file": "marketing/assets/figma-premium-collection-20261010/release/mailchimp/preview-640.png",
+    "key": "_clients/mailchimp/sources/untitled-ui-community-20261010/1c3795074dae1e6d.png",
+    "sha256": "1c3795074dae1e6d2e4d7bffe428fbd667838b0151789421c255abfc5286a0cf"
+  },
+  {
+    "id": "zapier",
+    "file": "marketing/assets/figma-premium-collection-20261010/release/zapier/lockup.svg",
+    "key": "_clients/zapier/sources/untitled-ui-community-20261010/63e1cc46fa3d61a0.svg",
+    "sha256": "63e1cc46fa3d61a01a46352abcb74ae8762f9badd5691ff5fb2d498808a9638b"
+  },
+  {
+    "id": "zapier",
+    "file": "marketing/assets/figma-premium-collection-20261010/release/zapier/lockup-2000.png",
+    "key": "_clients/zapier/sources/untitled-ui-community-20261010/fd3d7ff282b19719.png",
+    "sha256": "fd3d7ff282b19719eb365369e4dc0b5a4d64abd5987b5f86c417166c1ac4ba62"
+  },
+  {
+    "id": "zapier",
+    "file": "marketing/assets/figma-premium-collection-20261010/release/zapier/preview-640.png",
+    "key": "_clients/zapier/sources/untitled-ui-community-20261010/832e1cd0e3a7d6ae.png",
+    "sha256": "832e1cd0e3a7d6aec5f0b93838c1367dcfbc7fe476d51e43c36972f0dad76084"
+  },
+  {
+    "id": "contentful",
+    "file": "marketing/assets/figma-premium-collection-20261010/release/contentful/lockup.svg",
+    "key": "_clients/contentful/sources/untitled-ui-community-20261010/a132d5d2c8e7171c.svg",
+    "sha256": "a132d5d2c8e7171cd0c570683390b2a28ef6a88651becfcb19ac461b071cf5b8"
+  },
+  {
+    "id": "contentful",
+    "file": "marketing/assets/figma-premium-collection-20261010/release/contentful/lockup-2000.png",
+    "key": "_clients/contentful/sources/untitled-ui-community-20261010/588d17a68588d637.png",
+    "sha256": "588d17a68588d637b4d3177e30a738e88b83864eec73336fef6e439de2da73cf"
+  },
+  {
+    "id": "contentful",
+    "file": "marketing/assets/figma-premium-collection-20261010/release/contentful/preview-640.png",
+    "key": "_clients/contentful/sources/untitled-ui-community-20261010/c80cc7202d7ecb84.png",
+    "sha256": "c80cc7202d7ecb843e81c4d30611c36ca2d93077af0a3862c9096e3a17d8749c"
+  },
+  {
+    "id": "amplitude",
+    "file": "marketing/assets/figma-premium-collection-20261010/release/amplitude/lockup.svg",
+    "key": "_clients/amplitude/sources/untitled-ui-community-20261010/3aa9945734740e73.svg",
+    "sha256": "3aa9945734740e73c210b602519c4e96b7085e5b282ca3a5eba05dd44f47e2a8"
+  },
+  {
+    "id": "amplitude",
+    "file": "marketing/assets/figma-premium-collection-20261010/release/amplitude/lockup-2000.png",
+    "key": "_clients/amplitude/sources/untitled-ui-community-20261010/5070dec22428e587.png",
+    "sha256": "5070dec22428e58795b0b03a22d80ba55f1ff1255464f94dd2cb9bb61262729b"
+  },
+  {
+    "id": "amplitude",
+    "file": "marketing/assets/figma-premium-collection-20261010/release/amplitude/preview-640.png",
+    "key": "_clients/amplitude/sources/untitled-ui-community-20261010/9e0b0605f49f9a8d.png",
+    "sha256": "9e0b0605f49f9a8d9b8f31886694a7086d1365b4ad955858f607ca79906a2bdb"
+  },
+  {
+    "id": "miro",
+    "file": "marketing/assets/figma-premium-collection-20261010/release/miro/lockup.svg",
+    "key": "_clients/miro/sources/untitled-ui-community-20261010/6507d4621646caa5.svg",
+    "sha256": "6507d4621646caa5b456d5a2649004445560a950a76b62fd77eb6cac8ada35ff"
+  },
+  {
+    "id": "miro",
+    "file": "marketing/assets/figma-premium-collection-20261010/release/miro/lockup-2000.png",
+    "key": "_clients/miro/sources/untitled-ui-community-20261010/15a1d7bed1871d88.png",
+    "sha256": "15a1d7bed1871d88a2de94c2d0f3f89b0516db65d8c7b456d024a585439d9676"
+  },
+  {
+    "id": "miro",
+    "file": "marketing/assets/figma-premium-collection-20261010/release/miro/preview-640.png",
+    "key": "_clients/miro/sources/untitled-ui-community-20261010/50d2b5d80221c98c.png",
+    "sha256": "50d2b5d80221c98c2e70c02799b3797ac40a6ffceb13e434d68c6169077e6e37"
+  },
+  {
+    "id": "gitlab",
+    "file": "marketing/assets/figma-premium-collection-20261010/release/gitlab/lockup.svg",
+    "key": "_clients/gitlab/sources/untitled-ui-community-20261010/2520f5d79aa6f0ca.svg",
+    "sha256": "2520f5d79aa6f0ca6f905a2bb98a5b460748203e82b14f799c3364c428844be5"
+  },
+  {
+    "id": "gitlab",
+    "file": "marketing/assets/figma-premium-collection-20261010/release/gitlab/lockup-2000.png",
+    "key": "_clients/gitlab/sources/untitled-ui-community-20261010/3e5ebf7bf4dfa8a1.png",
+    "sha256": "3e5ebf7bf4dfa8a19d3f3ff1230a55366d73bfa6ebdffa423b17e88bc3ebf50e"
+  },
+  {
+    "id": "gitlab",
+    "file": "marketing/assets/figma-premium-collection-20261010/release/gitlab/preview-640.png",
+    "key": "_clients/gitlab/sources/untitled-ui-community-20261010/3ec08c7b51fb61ba.png",
+    "sha256": "3ec08c7b51fb61ba02fa9cc01553faf1c12baed58dcdbe4e1663ed5a11830da6"
+  },
+  {
+    "id": "plaid",
+    "file": "marketing/assets/figma-premium-collection-20261010/release/plaid/lockup.svg",
+    "key": "_clients/plaid/sources/untitled-ui-community-20261010/35115d387a1a41eb.svg",
+    "sha256": "35115d387a1a41eb9dd75aaf5b8ca48a77823d887bcc039dee4fbab76ada4193"
+  },
+  {
+    "id": "plaid",
+    "file": "marketing/assets/figma-premium-collection-20261010/release/plaid/lockup-2000.png",
+    "key": "_clients/plaid/sources/untitled-ui-community-20261010/6dd6b9b13bb824b0.png",
+    "sha256": "6dd6b9b13bb824b0d31928523594aa2c2b826a7882ebf99fe2d48bc2b2bb3cbf"
+  },
+  {
+    "id": "plaid",
+    "file": "marketing/assets/figma-premium-collection-20261010/release/plaid/preview-640.png",
+    "key": "_clients/plaid/sources/untitled-ui-community-20261010/80b5311d76ddfa65.png",
+    "sha256": "80b5311d76ddfa6577ec1e0c06c2a377e986ceab9898bc5fe8d0833e6c75d4bb"
+  },
+  {
+    "id": "gong",
+    "file": "marketing/assets/figma-premium-collection-20261010/release/gong/lockup.svg",
+    "key": "_clients/gong/sources/untitled-ui-community-20261010/050cd0e61f5be65a.svg",
+    "sha256": "050cd0e61f5be65ae7bca87c8bf1510ad3c8018a109936b9136e2b966db8a525"
+  },
+  {
+    "id": "gong",
+    "file": "marketing/assets/figma-premium-collection-20261010/release/gong/lockup-2000.png",
+    "key": "_clients/gong/sources/untitled-ui-community-20261010/8dbdc3d5ee5b3098.png",
+    "sha256": "8dbdc3d5ee5b309810dc17a1a59c2b9e51576a191e8c6e5d5bb4e7f5bdd9da8d"
+  },
+  {
+    "id": "gong",
+    "file": "marketing/assets/figma-premium-collection-20261010/release/gong/preview-640.png",
+    "key": "_clients/gong/sources/untitled-ui-community-20261010/ffe9dffc015d4b36.png",
+    "sha256": "ffe9dffc015d4b361a0269acdff3e451a43f4c2de70a32ca0edfa0a3c066308c"
+  },
+  {
+    "id": "github",
+    "file": "marketing/assets/figma-premium-collection-20261010/release/github/lockup.svg",
+    "key": "_clients/github/sources/untitled-ui-community-20261010/396d40a402815cdf.svg",
+    "sha256": "396d40a402815cdf7aa52fe199bd7b2d0844da503e8c509112836b4b496bf466"
+  },
+  {
+    "id": "github",
+    "file": "marketing/assets/figma-premium-collection-20261010/release/github/lockup-2000.png",
+    "key": "_clients/github/sources/untitled-ui-community-20261010/8950f0c38be8e884.png",
+    "sha256": "8950f0c38be8e884fcfac7a96a2394e7f1ac2bdb94728a2647b9222753335ebd"
+  },
+  {
+    "id": "github",
+    "file": "marketing/assets/figma-premium-collection-20261010/release/github/preview-640.png",
+    "key": "_clients/github/sources/untitled-ui-community-20261010/a968adc37776a8a1.png",
+    "sha256": "a968adc37776a8a17d4c974cf7af910a9c03eda1fb49eaf489a2d7ee23199981"
+  },
+  {
+    "id": "airwallex",
+    "file": "marketing/assets/figma-premium-collection-20261010/release/airwallex/lockup.svg",
+    "key": "_clients/airwallex/sources/untitled-ui-community-20261010/c5f5a047b936c251.svg",
+    "sha256": "c5f5a047b936c251965281972c878e205f287746b40e793b923180ed4966499a"
+  },
+  {
+    "id": "airwallex",
+    "file": "marketing/assets/figma-premium-collection-20261010/release/airwallex/lockup-2000.png",
+    "key": "_clients/airwallex/sources/untitled-ui-community-20261010/a022bf0b8ef8ba07.png",
+    "sha256": "a022bf0b8ef8ba07c1a8d1b12f98fda480629422dcdc7f6b1ace3b8f41243200"
+  },
+  {
+    "id": "airwallex",
+    "file": "marketing/assets/figma-premium-collection-20261010/release/airwallex/preview-640.png",
+    "key": "_clients/airwallex/sources/untitled-ui-community-20261010/908a926e211ffe54.png",
+    "sha256": "908a926e211ffe54c667a2de7bc1e13d36bf691437bf2fc63cdb5f56fdc64f0b"
+  },
+  {
+    "id": "attentive",
+    "file": "marketing/assets/figma-premium-collection-20261010/release/attentive/lockup.svg",
+    "key": "_clients/attentive/sources/untitled-ui-community-20261010/4e910272d4f38512.svg",
+    "sha256": "4e910272d4f38512fc9698e8300581e071bfe441a243c5161ea2cd90e4eb8940"
+  },
+  {
+    "id": "attentive",
+    "file": "marketing/assets/figma-premium-collection-20261010/release/attentive/lockup-2000.png",
+    "key": "_clients/attentive/sources/untitled-ui-community-20261010/9ee44282246e0551.png",
+    "sha256": "9ee44282246e0551579d26404c7f19f3726ab1b9192975f00af24e753b66977a"
+  },
+  {
+    "id": "attentive",
+    "file": "marketing/assets/figma-premium-collection-20261010/release/attentive/preview-640.png",
+    "key": "_clients/attentive/sources/untitled-ui-community-20261010/2e06ac9dc3af9155.png",
+    "sha256": "2e06ac9dc3af91551e7b2e5099b8596e177f254571fb0e5ab7769d524331d7d3"
+  },
+  {
+    "id": "hopin",
+    "file": "marketing/assets/figma-premium-collection-20261010/release/hopin/lockup.svg",
+    "key": "_clients/hopin/sources/untitled-ui-community-20261010/fa2bbd9d9c4f6fad.svg",
+    "sha256": "fa2bbd9d9c4f6fadee10969a6de00bfb57a72f724ec0f8186ffaf1d55cf87dda"
+  },
+  {
+    "id": "hopin",
+    "file": "marketing/assets/figma-premium-collection-20261010/release/hopin/lockup-2000.png",
+    "key": "_clients/hopin/sources/untitled-ui-community-20261010/bfc7ded28116b578.png",
+    "sha256": "bfc7ded28116b578005c995ce51d027b8743672ff5ec8c644a04720883a597ca"
+  },
+  {
+    "id": "hopin",
+    "file": "marketing/assets/figma-premium-collection-20261010/release/hopin/preview-640.png",
+    "key": "_clients/hopin/sources/untitled-ui-community-20261010/3ee5c10016170291.png",
+    "sha256": "3ee5c10016170291ea50b682b6e561d96e8d82cde21fbb2f56c2c42ec5b8d8fb"
+  },
+  {
+    "id": "pendo",
+    "file": "marketing/assets/figma-premium-collection-20261010/release/pendo/lockup.svg",
+    "key": "_clients/pendo/sources/untitled-ui-community-20261010/745bed7a7d05f4ad.svg",
+    "sha256": "745bed7a7d05f4ad72f81aeacde64682d45745407d3a80c6fc8073e57b48445d"
+  },
+  {
+    "id": "pendo",
+    "file": "marketing/assets/figma-premium-collection-20261010/release/pendo/lockup-2000.png",
+    "key": "_clients/pendo/sources/untitled-ui-community-20261010/95ad017e1665a22f.png",
+    "sha256": "95ad017e1665a22f8fcfa593c2acfdfe4e52307ec8f8f0b0fb2bc97cebf435b7"
+  },
+  {
+    "id": "pendo",
+    "file": "marketing/assets/figma-premium-collection-20261010/release/pendo/preview-640.png",
+    "key": "_clients/pendo/sources/untitled-ui-community-20261010/3b854cb3aa97283f.png",
+    "sha256": "3b854cb3aa97283ffb0e88a7661f90faef4fa02d236f6178513dd6d63ff566b5"
+  }
+]

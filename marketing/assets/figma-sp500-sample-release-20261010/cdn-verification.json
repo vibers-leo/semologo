@@ -1,0 +1,242 @@
+[
+  {
+    "key": "_clients/axon-enterprise/sources/community-sp500-20261010/190fd3d78a8dfb06/logo.svg",
+    "sha256": "190fd3d78a8dfb06033899b8edc5012157b6fe45e35b0b95be870234a5bcbae8",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/axon-enterprise/sources/community-sp500-20261010/57b1505194a3663f/logo.png",
+    "sha256": "57b1505194a3663fba651a602247ffaaa1e6588ee59dd5e4e86e3f21a7394201",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/axon-enterprise/sources/community-sp500-20261010/bd563e1e5461e36c/preview.png",
+    "sha256": "bd563e1e5461e36c51568754802bfe994b3028f3dbe673ae1b7e4dc423bbb53d",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/delta-air-lines/sources/community-sp500-20261010/6402139663c1f58c/logo.svg",
+    "sha256": "6402139663c1f58c4891bbd22a5a356ac42e784a94f598192371cef868f185f4",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/delta-air-lines/sources/community-sp500-20261010/e58d640b53d40429/logo.png",
+    "sha256": "e58d640b53d4042965765a61779a4d155c2cded83b65f8cfcb5a7b0fa7bf414c",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/delta-air-lines/sources/community-sp500-20261010/8fdad762abf31af7/preview.png",
+    "sha256": "8fdad762abf31af714775e1e29b4d18bfab35fa67e2e7a5b73d50670b650d187",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/fedex-corporation/sources/community-sp500-20261010/06a4ad58bcd83155/logo.svg",
+    "sha256": "06a4ad58bcd8315541408f6026b933f6c4d4e288c67de8903258c1c7d9390fa8",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/fedex-corporation/sources/community-sp500-20261010/2912af596313bee0/logo.png",
+    "sha256": "2912af596313bee06881bfa4eb27e2133acb6531f42e2f11def083a69548fce1",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/fedex-corporation/sources/community-sp500-20261010/300884ec76227426/preview.png",
+    "sha256": "300884ec76227426f76d7a65510b22e2b9d24a0b9385533c809613508af379d7",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/general-dynamics/sources/community-sp500-20261010/e5d96750587aac06/logo.svg",
+    "sha256": "e5d96750587aac064ec384a2af990ced69b627d0f5ccd8417aa4b71dac0d27cb",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/general-dynamics/sources/community-sp500-20261010/96a44fa999bfd185/logo.png",
+    "sha256": "96a44fa999bfd185b502832a3c7544599da8fbc2c9ea60bedcfdb5b46627962b",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/general-dynamics/sources/community-sp500-20261010/76c9dc6b87e6b225/preview.png",
+    "sha256": "76c9dc6b87e6b2254fbdf64db861810a2086b82538c9f9c0037d0df17a149fd3",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/illinois-tool-works/sources/community-sp500-20261010/239d69bf273166e9/logo.svg",
+    "sha256": "239d69bf273166e91b94c7928267bf6edf23cf6a457fbadfba592734208d5928",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/illinois-tool-works/sources/community-sp500-20261010/3bcca440ce76e3ef/logo.png",
+    "sha256": "3bcca440ce76e3ef7366584f8fb4a321ef92eb3b97da8e26eac925dc3b41ba6a",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/illinois-tool-works/sources/community-sp500-20261010/22f02c547658a321/preview.png",
+    "sha256": "22f02c547658a321372a48ca075f964962eb2f341ced958cafc691ba64860f6f",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/johnson-controls/sources/community-sp500-20261010/8ca2ae4522f2cae7/logo.svg",
+    "sha256": "8ca2ae4522f2cae78ccd727aba5d56d04ab69c0c4d7812a0f5acbbabdcb45229",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/johnson-controls/sources/community-sp500-20261010/68c022528576b473/logo.png",
+    "sha256": "68c022528576b473ecb0cce03a3a4dd19ca99aa6b0167b036789a190e2cb5a69",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/johnson-controls/sources/community-sp500-20261010/e008ede1fc8baea2/preview.png",
+    "sha256": "e008ede1fc8baea2fe60f03e784d1ca0c57b5b0c612a30980453ca1b37a95421",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/lockheed-martin/sources/community-sp500-20261010/d33a03d3899c5f8b/logo.svg",
+    "sha256": "d33a03d3899c5f8b9c4e32cf7ca8e9b8a5635ad0492c05fa18252ad7f38535cc",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/lockheed-martin/sources/community-sp500-20261010/8cbfdd53f7cfdca9/logo.png",
+    "sha256": "8cbfdd53f7cfdca90c8f85e340e83a6c1a543d49db30077af2fa5911d8a92df9",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/lockheed-martin/sources/community-sp500-20261010/e96d3e3b8aeb5a96/preview.png",
+    "sha256": "e96d3e3b8aeb5a964805dec04264df96a8aee6947e66fc83d99b350b61357d30",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/leidos/sources/community-sp500-20261010/eb12d0198448051d/logo.svg",
+    "sha256": "eb12d0198448051dd0f876cc29e87c6f714b2d795d261ac4fe6e578573a0f611",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/leidos/sources/community-sp500-20261010/7d1d78f07bbfa045/logo.png",
+    "sha256": "7d1d78f07bbfa045620d6dd576ea6f56cd7fd4a288c5430ee341ace2f5193488",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/leidos/sources/community-sp500-20261010/3b4dc8b717d3d42a/preview.png",
+    "sha256": "3b4dc8b717d3d42ae65bd8994e89c0af5981252d5e391cf5f1806ad94a189b89",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/paccar/sources/community-sp500-20261010/7d951223564ee3f7/logo.svg",
+    "sha256": "7d951223564ee3f78eda3b2b7695121612fb5e9b3cdd31047e7b26b94a97fb3e",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/paccar/sources/community-sp500-20261010/2d6e85f4b32e2acc/logo.png",
+    "sha256": "2d6e85f4b32e2acc4db4b881a86ddc3284cab94569b1bcfbf5cb639a7e94423d",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/paccar/sources/community-sp500-20261010/859f8e8c97298ea4/preview.png",
+    "sha256": "859f8e8c97298ea4c5dba9a2d339f7bcaf85cd51a1e176afb157a94021c3176e",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/rockwell-automation/sources/community-sp500-20261010/ac6c2425365ee4d2/logo.svg",
+    "sha256": "ac6c2425365ee4d2c7d1ec7db654e88ad42fe15a431b2a51843da21ac6e93325",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/rockwell-automation/sources/community-sp500-20261010/90133cdefae707a5/logo.png",
+    "sha256": "90133cdefae707a5eded2e35187727d1ad22326e77db5503565ec460d3b99b11",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/rockwell-automation/sources/community-sp500-20261010/3ec5ce07fafc5c64/preview.png",
+    "sha256": "3ec5ce07fafc5c642048c1093c5de973d38439c854300b788697cc981ac0fcfa",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/textron/sources/community-sp500-20261010/3103b06172b0e1c2/logo.svg",
+    "sha256": "3103b06172b0e1c2985274c90c82807b53b901f39cc1dd21b6a370968a98f337",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/textron/sources/community-sp500-20261010/b7802661e3b43098/logo.png",
+    "sha256": "b7802661e3b4309863eb6b4a9b7ca8e871d45982032e690042541814edf6a88c",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/textron/sources/community-sp500-20261010/dd6d07b99555f09a/preview.png",
+    "sha256": "dd6d07b99555f09a419295ee35668bc1019645933e568a89ff1fd89dd8c2906c",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/waste-management/sources/community-sp500-20261010/f0e55e9271ae92db/logo.svg",
+    "sha256": "f0e55e9271ae92db1ce652a008d0e7d66d45b8df9d0fb12bbd66a2e171f3d564",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/waste-management/sources/community-sp500-20261010/ce81817721047931/logo.png",
+    "sha256": "ce818177210479314e1e217f19678c2a2427eff3db2a88de80392d3a4d3703e9",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/waste-management/sources/community-sp500-20261010/aab7bbc06446f1e1/preview.png",
+    "sha256": "aab7bbc06446f1e198e015b217d45edef37694b44511798c7d9929a02ae528b3",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/western-digital/sources/community-sp500-20261010/a4108bb5e1bc693a/logo.svg",
+    "sha256": "a4108bb5e1bc693a3d845f637f8594c0ebc42ef983074806b600f0891f45d900",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/western-digital/sources/community-sp500-20261010/72592c03d669d210/logo.png",
+    "sha256": "72592c03d669d21096c6445129128459815266e70ebcd9590392e15c0e236fee",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/western-digital/sources/community-sp500-20261010/7bca9090ce676dcd/preview.png",
+    "sha256": "7bca9090ce676dcd20e720f32d895e3a39d1326a6aa23c178b5c412e63c77f0a",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/xylem-inc/sources/community-sp500-20261010/9445f01396607709/logo.svg",
+    "sha256": "9445f013966077097934503133fccf464b537a0afa16efc205d8f45243aa0ee0",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/xylem-inc/sources/community-sp500-20261010/4bcae3556ec84715/logo.png",
+    "sha256": "4bcae3556ec84715b997ec0df28fc86cf78908d08a1ef92a09f57471c0c821ea",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/xylem-inc/sources/community-sp500-20261010/3dd4df20397bfbb7/preview.png",
+    "sha256": "3dd4df20397bfbb7d31a043339647564341b313acd3e79c6d7f223026bd66c04",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/bank-of-america/sources/community-sp500-20261010/bb09780a2878b01e/logo.svg",
+    "sha256": "bb09780a2878b01ef09690766f5ccbeeb4a190704000ef0d40127b3c3de1128c",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/bank-of-america/sources/community-sp500-20261010/ff6daa58fc96e474/logo.png",
+    "sha256": "ff6daa58fc96e47432c1af358db0010eaf47dba75ac4c91eba873f83177c91bf",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/bank-of-america/sources/community-sp500-20261010/6f8a1604a70943e3/preview.png",
+    "sha256": "6f8a1604a70943e3f4b3981f99d888bae2117f25927daaeaa6305ad6af0ea0ea",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/brown-brown/sources/community-sp500-20261010/04cdfb4f4fd077ba/logo.svg",
+    "sha256": "04cdfb4f4fd077ba531a0caec9611f47fb049e7f5dde793af99670e4052a0e15",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/brown-brown/sources/community-sp500-20261010/7c84b82762ef5ba5/logo.png",
+    "sha256": "7c84b82762ef5ba57efcbb27f878b7b730f741e0de878383d340439009fa9ecc",
+    "cdn_verified": true
+  },
+  {
+    "key": "_clients/brown-brown/sources/community-sp500-20261010/76d3933fa7478606/preview.png",
+    "sha256": "76d3933fa7478606ff35dfcaa1cd9953ed9317b391ef12c0589d60c55f3a62ba",
+    "cdn_verified": true
+  }
+]

@@ -1,0 +1,690 @@
+{
+  "patches": {
+    "axon-enterprise": {
+      "variants_n": 2
+    },
+    "delta-air-lines": {
+      "variants_n": 2
+    },
+    "fedex-corporation": {
+      "variants_n": 2
+    },
+    "general-dynamics": {
+      "variants_n": 2
+    },
+    "illinois-tool-works": {
+      "variants_n": 2
+    },
+    "johnson-controls": {
+      "variants_n": 2
+    },
+    "lockheed-martin": {
+      "variants_n": 2
+    },
+    "leidos": {
+      "variants_n": 2
+    },
+    "paccar": {
+      "variants_n": 2
+    },
+    "rockwell-automation": {
+      "variants_n": 2
+    },
+    "textron": {
+      "variants_n": 2
+    },
+    "waste-management": {
+      "variants_n": 2
+    },
+    "western-digital": {
+      "variants_n": 2
+    },
+    "xylem-inc": {
+      "variants_n": 2
+    },
+    "bank-of-america": {
+      "variants_n": 2
+    },
+    "brown-brown": {
+      "variants_n": 2
+    }
+  },
+  "variants": {
+    "axon-enterprise": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "axon-enterprise",
+      "primary": "wordmark",
+      "fingerprint": {
+        "logo.svg": "6193a403c948f752"
+      },
+      "variants": [
+        {
+          "key": "wordmark",
+          "form": "wordmark",
+          "lang": "unknown",
+          "color": "color",
+          "label": "워드마크형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 4.34,
+          "provider": "wikimedia",
+          "origin": "collected",
+          "order": 40
+        },
+        {
+          "key": "community-sp500-item-0004",
+          "form": "horizontal",
+          "color": "mono-dark",
+          "label": "모노 가로조합형 · 커뮤니티 수록",
+          "files": {
+            "svg": "sources/community-sp500-20261010/190fd3d78a8dfb06/logo.svg",
+            "png": "sources/community-sp500-20261010/57b1505194a3663f/logo.png"
+          },
+          "preview_png": "sources/community-sp500-20261010/bd563e1e5461e36c/preview.png",
+          "provider": "사용자 제공 Figma Community SVG",
+          "origin": "collected",
+          "source_note": "S&P 500 Companies Logos (Community) 내보내기에서 추출. 제작 시기 불명, 공식 배포 원본/현행 CI로 표시하지 않음.",
+          "source_sha256": "77d3b7b186650aa5bc2cf0563050f37d50e96709b06cf9b962b5f9d591286358",
+          "source_item": "item-0004",
+          "review_status": "verified",
+          "order": 100
+        }
+      ]
+    },
+    "delta-air-lines": {
+      "schema": 1,
+      "id": "delta-air-lines",
+      "variants": [
+        {
+          "key": "existing-original",
+          "form": "unknown",
+          "color": "original",
+          "label": "기존 수집 로고",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo.png"
+          },
+          "provider": "기존 수집 자산",
+          "origin": "collected",
+          "order": 0
+        },
+        {
+          "key": "community-sp500-item-0012",
+          "form": "horizontal",
+          "color": "color",
+          "label": "심볼+워드마크 가로형 · 커뮤니티 수록",
+          "files": {
+            "svg": "sources/community-sp500-20261010/6402139663c1f58c/logo.svg",
+            "png": "sources/community-sp500-20261010/e58d640b53d40429/logo.png"
+          },
+          "preview_png": "sources/community-sp500-20261010/8fdad762abf31af7/preview.png",
+          "provider": "사용자 제공 Figma Community SVG",
+          "origin": "collected",
+          "source_note": "S&P 500 Companies Logos (Community) 내보내기에서 추출. 제작 시기 불명, 공식 배포 원본/현행 CI로 표시하지 않음.",
+          "source_sha256": "77d3b7b186650aa5bc2cf0563050f37d50e96709b06cf9b962b5f9d591286358",
+          "source_item": "item-0012",
+          "review_status": "verified",
+          "order": 100
+        }
+      ],
+      "primary": "existing-original"
+    },
+    "fedex-corporation": {
+      "schema": 1,
+      "id": "fedex-corporation",
+      "variants": [
+        {
+          "key": "existing-original",
+          "form": "unknown",
+          "color": "original",
+          "label": "기존 수집 로고",
+          "files": {
+            "svg": "logo.svg"
+          },
+          "provider": "기존 수집 자산",
+          "origin": "collected",
+          "order": 0
+        },
+        {
+          "key": "community-sp500-item-0015",
+          "form": "horizontal",
+          "color": "color",
+          "label": "컬러 기업 조합형 · 커뮤니티 수록",
+          "files": {
+            "svg": "sources/community-sp500-20261010/06a4ad58bcd83155/logo.svg",
+            "png": "sources/community-sp500-20261010/2912af596313bee0/logo.png"
+          },
+          "preview_png": "sources/community-sp500-20261010/300884ec76227426/preview.png",
+          "provider": "사용자 제공 Figma Community SVG",
+          "origin": "collected",
+          "source_note": "S&P 500 Companies Logos (Community) 내보내기에서 추출. 제작 시기 불명, 공식 배포 원본/현행 CI로 표시하지 않음.",
+          "source_sha256": "77d3b7b186650aa5bc2cf0563050f37d50e96709b06cf9b962b5f9d591286358",
+          "source_item": "item-0015",
+          "review_status": "verified",
+          "order": 100
+        }
+      ],
+      "primary": "existing-original"
+    },
+    "general-dynamics": {
+      "schema": 1,
+      "id": "general-dynamics",
+      "variants": [
+        {
+          "key": "existing-original",
+          "form": "unknown",
+          "color": "original",
+          "label": "기존 수집 로고",
+          "files": {
+            "svg": "logo.svg"
+          },
+          "provider": "기존 수집 자산",
+          "origin": "collected",
+          "order": 0
+        },
+        {
+          "key": "community-sp500-item-0017",
+          "form": "horizontal",
+          "color": "color",
+          "label": "블루 워드마크 · 커뮤니티 수록",
+          "files": {
+            "svg": "sources/community-sp500-20261010/e5d96750587aac06/logo.svg",
+            "png": "sources/community-sp500-20261010/96a44fa999bfd185/logo.png"
+          },
+          "preview_png": "sources/community-sp500-20261010/76c9dc6b87e6b225/preview.png",
+          "provider": "사용자 제공 Figma Community SVG",
+          "origin": "collected",
+          "source_note": "S&P 500 Companies Logos (Community) 내보내기에서 추출. 제작 시기 불명, 공식 배포 원본/현행 CI로 표시하지 않음.",
+          "source_sha256": "77d3b7b186650aa5bc2cf0563050f37d50e96709b06cf9b962b5f9d591286358",
+          "source_item": "item-0017",
+          "review_status": "verified",
+          "order": 100
+        }
+      ],
+      "primary": "existing-original"
+    },
+    "illinois-tool-works": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "illinois-tool-works",
+      "primary": "horizontal",
+      "fingerprint": {
+        "logo.svg": "91082b5c3b9b4fd3"
+      },
+      "variants": [
+        {
+          "key": "horizontal",
+          "form": "horizontal",
+          "lang": "unknown",
+          "color": "color",
+          "label": "가로조합형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 2.941,
+          "provider": "wikimedia",
+          "origin": "collected",
+          "order": 10
+        },
+        {
+          "key": "community-sp500-item-0022",
+          "form": "symbol",
+          "color": "mono-dark",
+          "label": "모노 심볼형 · 커뮤니티 수록",
+          "files": {
+            "svg": "sources/community-sp500-20261010/239d69bf273166e9/logo.svg",
+            "png": "sources/community-sp500-20261010/3bcca440ce76e3ef/logo.png"
+          },
+          "preview_png": "sources/community-sp500-20261010/22f02c547658a321/preview.png",
+          "provider": "사용자 제공 Figma Community SVG",
+          "origin": "collected",
+          "source_note": "S&P 500 Companies Logos (Community) 내보내기에서 추출. 제작 시기 불명, 공식 배포 원본/현행 CI로 표시하지 않음.",
+          "source_sha256": "77d3b7b186650aa5bc2cf0563050f37d50e96709b06cf9b962b5f9d591286358",
+          "source_item": "item-0022",
+          "review_status": "verified",
+          "order": 100
+        }
+      ]
+    },
+    "johnson-controls": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "johnson-controls",
+      "primary": "wordmark",
+      "fingerprint": {
+        "logo.svg": "f0841efb9622095d"
+      },
+      "variants": [
+        {
+          "key": "wordmark",
+          "form": "wordmark",
+          "lang": "unknown",
+          "color": "color",
+          "label": "워드마크형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 4.431,
+          "provider": "wikimedia",
+          "origin": "collected",
+          "order": 40
+        },
+        {
+          "key": "community-sp500-item-0025",
+          "form": "horizontal",
+          "color": "color",
+          "label": "컬러 가로조합형 · 커뮤니티 수록",
+          "files": {
+            "svg": "sources/community-sp500-20261010/8ca2ae4522f2cae7/logo.svg",
+            "png": "sources/community-sp500-20261010/68c022528576b473/logo.png"
+          },
+          "preview_png": "sources/community-sp500-20261010/e008ede1fc8baea2/preview.png",
+          "provider": "사용자 제공 Figma Community SVG",
+          "origin": "collected",
+          "source_note": "S&P 500 Companies Logos (Community) 내보내기에서 추출. 제작 시기 불명, 공식 배포 원본/현행 CI로 표시하지 않음.",
+          "source_sha256": "77d3b7b186650aa5bc2cf0563050f37d50e96709b06cf9b962b5f9d591286358",
+          "source_item": "item-0025",
+          "review_status": "verified",
+          "order": 100
+        }
+      ]
+    },
+    "lockheed-martin": {
+      "schema": 1,
+      "id": "lockheed-martin",
+      "variants": [
+        {
+          "key": "existing-original",
+          "form": "unknown",
+          "color": "original",
+          "label": "기존 수집 로고",
+          "files": {
+            "svg": "logo.svg"
+          },
+          "provider": "기존 수집 자산",
+          "origin": "collected",
+          "order": 0
+        },
+        {
+          "key": "community-sp500-item-0027",
+          "form": "horizontal",
+          "color": "color",
+          "label": "블루 가로조합형 · 커뮤니티 수록",
+          "files": {
+            "svg": "sources/community-sp500-20261010/d33a03d3899c5f8b/logo.svg",
+            "png": "sources/community-sp500-20261010/8cbfdd53f7cfdca9/logo.png"
+          },
+          "preview_png": "sources/community-sp500-20261010/e96d3e3b8aeb5a96/preview.png",
+          "provider": "사용자 제공 Figma Community SVG",
+          "origin": "collected",
+          "source_note": "S&P 500 Companies Logos (Community) 내보내기에서 추출. 제작 시기 불명, 공식 배포 원본/현행 CI로 표시하지 않음.",
+          "source_sha256": "77d3b7b186650aa5bc2cf0563050f37d50e96709b06cf9b962b5f9d591286358",
+          "source_item": "item-0027",
+          "review_status": "verified",
+          "order": 100
+        }
+      ],
+      "primary": "existing-original"
+    },
+    "leidos": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "leidos",
+      "primary": "wordmark",
+      "fingerprint": {
+        "logo.svg": "013c423b8c9980c2"
+      },
+      "variants": [
+        {
+          "key": "wordmark",
+          "form": "wordmark",
+          "lang": "unknown",
+          "color": "color",
+          "label": "워드마크형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 4.225,
+          "provider": "wikimedia",
+          "origin": "collected",
+          "order": 40
+        },
+        {
+          "key": "community-sp500-item-0028",
+          "form": "horizontal",
+          "color": "color",
+          "label": "컬러 가로조합형 · 커뮤니티 수록",
+          "files": {
+            "svg": "sources/community-sp500-20261010/eb12d0198448051d/logo.svg",
+            "png": "sources/community-sp500-20261010/7d1d78f07bbfa045/logo.png"
+          },
+          "preview_png": "sources/community-sp500-20261010/3b4dc8b717d3d42a/preview.png",
+          "provider": "사용자 제공 Figma Community SVG",
+          "origin": "collected",
+          "source_note": "S&P 500 Companies Logos (Community) 내보내기에서 추출. 제작 시기 불명, 공식 배포 원본/현행 CI로 표시하지 않음.",
+          "source_sha256": "77d3b7b186650aa5bc2cf0563050f37d50e96709b06cf9b962b5f9d591286358",
+          "source_item": "item-0028",
+          "review_status": "verified",
+          "order": 100
+        }
+      ]
+    },
+    "paccar": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "paccar",
+      "primary": "wordmark",
+      "fingerprint": {
+        "logo.svg": "abed305371aa1acc"
+      },
+      "variants": [
+        {
+          "key": "wordmark",
+          "form": "wordmark",
+          "lang": "unknown",
+          "color": "mono-dark",
+          "label": "워드마크형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 4.822,
+          "provider": "wikimedia",
+          "origin": "collected",
+          "order": 40
+        },
+        {
+          "key": "community-sp500-item-0033",
+          "form": "horizontal",
+          "color": "mono-dark",
+          "label": "기업 워드마크 · 커뮤니티 수록",
+          "files": {
+            "svg": "sources/community-sp500-20261010/7d951223564ee3f7/logo.svg",
+            "png": "sources/community-sp500-20261010/2d6e85f4b32e2acc/logo.png"
+          },
+          "preview_png": "sources/community-sp500-20261010/859f8e8c97298ea4/preview.png",
+          "provider": "사용자 제공 Figma Community SVG",
+          "origin": "collected",
+          "source_note": "S&P 500 Companies Logos (Community) 내보내기에서 추출. 제작 시기 불명, 공식 배포 원본/현행 CI로 표시하지 않음.",
+          "source_sha256": "77d3b7b186650aa5bc2cf0563050f37d50e96709b06cf9b962b5f9d591286358",
+          "source_item": "item-0033",
+          "review_status": "verified",
+          "order": 100
+        }
+      ]
+    },
+    "rockwell-automation": {
+      "schema": 1,
+      "id": "rockwell-automation",
+      "variants": [
+        {
+          "key": "existing-original",
+          "form": "unknown",
+          "color": "original",
+          "label": "기존 수집 로고",
+          "files": {
+            "svg": "logo.svg"
+          },
+          "provider": "기존 수집 자산",
+          "origin": "collected",
+          "order": 0
+        },
+        {
+          "key": "community-sp500-item-0038",
+          "form": "horizontal",
+          "color": "color",
+          "label": "심볼+워드마크 가로형 · 커뮤니티 수록",
+          "files": {
+            "svg": "sources/community-sp500-20261010/ac6c2425365ee4d2/logo.svg",
+            "png": "sources/community-sp500-20261010/90133cdefae707a5/logo.png"
+          },
+          "preview_png": "sources/community-sp500-20261010/3ec5ce07fafc5c64/preview.png",
+          "provider": "사용자 제공 Figma Community SVG",
+          "origin": "collected",
+          "source_note": "S&P 500 Companies Logos (Community) 내보내기에서 추출. 제작 시기 불명, 공식 배포 원본/현행 CI로 표시하지 않음.",
+          "source_sha256": "77d3b7b186650aa5bc2cf0563050f37d50e96709b06cf9b962b5f9d591286358",
+          "source_item": "item-0038",
+          "review_status": "verified",
+          "order": 100
+        }
+      ],
+      "primary": "existing-original"
+    },
+    "textron": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "textron",
+      "primary": "wordmark",
+      "fingerprint": {
+        "logo.svg": "ea5f25d3d430aaef"
+      },
+      "variants": [
+        {
+          "key": "wordmark",
+          "form": "wordmark",
+          "lang": "unknown",
+          "color": "color",
+          "label": "워드마크형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 3.584,
+          "provider": "space-defense-curated",
+          "origin": "collected",
+          "order": 40
+        },
+        {
+          "key": "community-sp500-item-0042",
+          "form": "horizontal",
+          "color": "color",
+          "label": "블루 워드마크 · 커뮤니티 수록",
+          "files": {
+            "svg": "sources/community-sp500-20261010/3103b06172b0e1c2/logo.svg",
+            "png": "sources/community-sp500-20261010/b7802661e3b43098/logo.png"
+          },
+          "preview_png": "sources/community-sp500-20261010/dd6d07b99555f09a/preview.png",
+          "provider": "사용자 제공 Figma Community SVG",
+          "origin": "collected",
+          "source_note": "S&P 500 Companies Logos (Community) 내보내기에서 추출. 제작 시기 불명, 공식 배포 원본/현행 CI로 표시하지 않음.",
+          "source_sha256": "77d3b7b186650aa5bc2cf0563050f37d50e96709b06cf9b962b5f9d591286358",
+          "source_item": "item-0042",
+          "review_status": "verified",
+          "order": 100
+        }
+      ]
+    },
+    "waste-management": {
+      "schema": 1,
+      "id": "waste-management",
+      "variants": [
+        {
+          "key": "existing-original",
+          "form": "unknown",
+          "color": "original",
+          "label": "기존 수집 로고",
+          "files": {
+            "svg": "logo.svg"
+          },
+          "provider": "기존 수집 자산",
+          "origin": "collected",
+          "order": 0
+        },
+        {
+          "key": "community-sp500-item-0047",
+          "form": "horizontal",
+          "color": "color",
+          "label": "컬러 기업 조합형 · 커뮤니티 수록",
+          "files": {
+            "svg": "sources/community-sp500-20261010/f0e55e9271ae92db/logo.svg",
+            "png": "sources/community-sp500-20261010/ce81817721047931/logo.png"
+          },
+          "preview_png": "sources/community-sp500-20261010/aab7bbc06446f1e1/preview.png",
+          "provider": "사용자 제공 Figma Community SVG",
+          "origin": "collected",
+          "source_note": "S&P 500 Companies Logos (Community) 내보내기에서 추출. 제작 시기 불명, 공식 배포 원본/현행 CI로 표시하지 않음.",
+          "source_sha256": "77d3b7b186650aa5bc2cf0563050f37d50e96709b06cf9b962b5f9d591286358",
+          "source_item": "item-0047",
+          "review_status": "verified",
+          "order": 100
+        }
+      ],
+      "primary": "existing-original"
+    },
+    "western-digital": {
+      "schema": 1,
+      "id": "western-digital",
+      "variants": [
+        {
+          "key": "existing-original",
+          "form": "unknown",
+          "color": "original",
+          "label": "기존 수집 로고",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo.png"
+          },
+          "provider": "기존 수집 자산",
+          "origin": "collected",
+          "order": 0
+        },
+        {
+          "key": "community-sp500-item-0048",
+          "form": "horizontal",
+          "color": "color",
+          "label": "컬러 가로조합형 · 커뮤니티 수록",
+          "files": {
+            "svg": "sources/community-sp500-20261010/a4108bb5e1bc693a/logo.svg",
+            "png": "sources/community-sp500-20261010/72592c03d669d210/logo.png"
+          },
+          "preview_png": "sources/community-sp500-20261010/7bca9090ce676dcd/preview.png",
+          "provider": "사용자 제공 Figma Community SVG",
+          "origin": "collected",
+          "source_note": "S&P 500 Companies Logos (Community) 내보내기에서 추출. 제작 시기 불명, 공식 배포 원본/현행 CI로 표시하지 않음.",
+          "source_sha256": "77d3b7b186650aa5bc2cf0563050f37d50e96709b06cf9b962b5f9d591286358",
+          "source_item": "item-0048",
+          "review_status": "verified",
+          "order": 100
+        }
+      ],
+      "primary": "existing-original"
+    },
+    "xylem-inc": {
+      "schema": 1,
+      "id": "xylem-inc",
+      "variants": [
+        {
+          "key": "existing-original",
+          "form": "unknown",
+          "color": "original",
+          "label": "기존 수집 로고",
+          "files": {
+            "png": "logo.png"
+          },
+          "provider": "기존 수집 자산",
+          "origin": "collected",
+          "order": 0
+        },
+        {
+          "key": "community-sp500-item-0049",
+          "form": "horizontal",
+          "color": "color",
+          "label": "태그라인 조합형 · 커뮤니티 수록",
+          "files": {
+            "svg": "sources/community-sp500-20261010/9445f01396607709/logo.svg",
+            "png": "sources/community-sp500-20261010/4bcae3556ec84715/logo.png"
+          },
+          "preview_png": "sources/community-sp500-20261010/3dd4df20397bfbb7/preview.png",
+          "provider": "사용자 제공 Figma Community SVG",
+          "origin": "collected",
+          "source_note": "S&P 500 Companies Logos (Community) 내보내기에서 추출. 제작 시기 불명, 공식 배포 원본/현행 CI로 표시하지 않음.",
+          "source_sha256": "77d3b7b186650aa5bc2cf0563050f37d50e96709b06cf9b962b5f9d591286358",
+          "source_item": "item-0049",
+          "review_status": "verified",
+          "order": 100
+        }
+      ],
+      "primary": "existing-original"
+    },
+    "bank-of-america": {
+      "schema": 1,
+      "id": "bank-of-america",
+      "variants": [
+        {
+          "key": "existing-original",
+          "form": "unknown",
+          "color": "original",
+          "label": "기존 수집 로고",
+          "files": {
+            "svg": "logo.svg"
+          },
+          "provider": "기존 수집 자산",
+          "origin": "collected",
+          "order": 0
+        },
+        {
+          "key": "community-sp500-item-0059",
+          "form": "horizontal",
+          "color": "color",
+          "label": "대문자 가로조합형 · 커뮤니티 수록",
+          "files": {
+            "svg": "sources/community-sp500-20261010/bb09780a2878b01e/logo.svg",
+            "png": "sources/community-sp500-20261010/ff6daa58fc96e474/logo.png"
+          },
+          "preview_png": "sources/community-sp500-20261010/6f8a1604a70943e3/preview.png",
+          "provider": "사용자 제공 Figma Community SVG",
+          "origin": "collected",
+          "source_note": "S&P 500 Companies Logos (Community) 내보내기에서 추출. 제작 시기 불명, 공식 배포 원본/현행 CI로 표시하지 않음.",
+          "source_sha256": "77d3b7b186650aa5bc2cf0563050f37d50e96709b06cf9b962b5f9d591286358",
+          "source_item": "item-0059",
+          "review_status": "verified",
+          "order": 100
+        }
+      ],
+      "primary": "existing-original"
+    },
+    "brown-brown": {
+      "schema": 1,
+      "id": "brown-brown",
+      "variants": [
+        {
+          "key": "existing-original",
+          "form": "unknown",
+          "color": "original",
+          "label": "기존 수집 로고",
+          "files": {
+            "svg": "logo.svg"
+          },
+          "provider": "기존 수집 자산",
+          "origin": "collected",
+          "order": 0
+        },
+        {
+          "key": "community-sp500-item-0061",
+          "form": "horizontal",
+          "color": "color",
+          "label": "심볼+워드마크 가로형 · 커뮤니티 수록",
+          "files": {
+            "svg": "sources/community-sp500-20261010/04cdfb4f4fd077ba/logo.svg",
+            "png": "sources/community-sp500-20261010/7c84b82762ef5ba5/logo.png"
+          },
+          "preview_png": "sources/community-sp500-20261010/76d3933fa7478606/preview.png",
+          "provider": "사용자 제공 Figma Community SVG",
+          "origin": "collected",
+          "source_note": "S&P 500 Companies Logos (Community) 내보내기에서 추출. 제작 시기 불명, 공식 배포 원본/현행 CI로 표시하지 않음.",
+          "source_sha256": "77d3b7b186650aa5bc2cf0563050f37d50e96709b06cf9b962b5f9d591286358",
+          "source_item": "item-0061",
+          "review_status": "verified",
+          "order": 100
+        }
+      ],
+      "primary": "existing-original"
+    }
+  }
+}

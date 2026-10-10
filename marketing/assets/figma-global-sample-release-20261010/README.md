@@ -1,0 +1,1 @@
+8 visually reviewed additional variants. Existing CDN and current CMS variants merged; representatives/primary preserved. User-provided community collection, not official source. 640px preview + 2000px PNG + extracted SVG; 24 immutable objects. Duplicate artwork excluded. Root owns publication.

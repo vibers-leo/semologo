@@ -1,0 +1,290 @@
+[
+  {
+    "id": "abarth",
+    "file": "marketing/assets/figma-car-collection-20261010/release/abarth/alpha-crop.png",
+    "key": "_clients/abarth/sources/figma-car-community-20261010/4ca56d15a982a742.png",
+    "sha256": "4ca56d15a982a742006713c8c0f5a6d406085a6b3eac2cc37595de5fa1fe2097"
+  },
+  {
+    "id": "abarth",
+    "file": "marketing/assets/figma-car-collection-20261010/embedded/image2_2_3.png",
+    "key": "_clients/abarth/sources/figma-car-community-20261010/daaa35f4251361bd.png",
+    "sha256": "daaa35f4251361bdf4df494d0ed67532e4d97cd866e56f55cb3d3ad93c21a6b9"
+  },
+  {
+    "id": "abarth",
+    "file": "marketing/assets/figma-car-collection-20261010/release/abarth/preview-640.png",
+    "key": "_clients/abarth/sources/figma-car-community-20261010/9ef86fd50b467388.png",
+    "sha256": "9ef86fd50b467388d67a0d68d72911a62804c809a8615f4a21985a512bb559ea"
+  },
+  {
+    "id": "acura",
+    "file": "marketing/assets/figma-car-collection-20261010/release/acura/alpha-crop.png",
+    "key": "_clients/acura/sources/figma-car-community-20261010/0a75352eb54966e2.png",
+    "sha256": "0a75352eb54966e23e4385c0c4cbed89fae5e9b7497e3b6cc69c4b825402a6f8"
+  },
+  {
+    "id": "acura",
+    "file": "marketing/assets/figma-car-collection-20261010/embedded/image5_2_3.png",
+    "key": "_clients/acura/sources/figma-car-community-20261010/cd216f8332ded1b3.png",
+    "sha256": "cd216f8332ded1b3443f6ae05744c1e5189d45db530d619aff03630f60e5c8b8"
+  },
+  {
+    "id": "acura",
+    "file": "marketing/assets/figma-car-collection-20261010/release/acura/preview-640.png",
+    "key": "_clients/acura/sources/figma-car-community-20261010/95c4188cd1a95ba7.png",
+    "sha256": "95c4188cd1a95ba7f02a6183a8f73058e3d610ed307824f1aa89c93c4ca835a4"
+  },
+  {
+    "id": "alfa-romeo",
+    "file": "marketing/assets/figma-car-collection-20261010/release/alfa-romeo/alpha-crop.png",
+    "key": "_clients/alfa-romeo/sources/figma-car-community-20261010/112627cea14be6e9.png",
+    "sha256": "112627cea14be6e9382987da81f2250411113c729111b5fd856a23faaa8b5857"
+  },
+  {
+    "id": "alfa-romeo",
+    "file": "marketing/assets/figma-car-collection-20261010/embedded/image7_2_3.png",
+    "key": "_clients/alfa-romeo/sources/figma-car-community-20261010/eb6f16cb313ae454.png",
+    "sha256": "eb6f16cb313ae45420e3139867300cc766000385e1e17f33699b9a7819f5aeb7"
+  },
+  {
+    "id": "alfa-romeo",
+    "file": "marketing/assets/figma-car-collection-20261010/release/alfa-romeo/preview-640.png",
+    "key": "_clients/alfa-romeo/sources/figma-car-community-20261010/e1301a191f5108a6.png",
+    "sha256": "e1301a191f5108a60a24c8807930711e276e6e168d8de4aab575eb7544f7ada4"
+  },
+  {
+    "id": "aston-martin",
+    "file": "marketing/assets/figma-car-collection-20261010/release/aston-martin/alpha-crop.png",
+    "key": "_clients/aston-martin/sources/figma-car-community-20261010/8c4343428c0bbe9f.png",
+    "sha256": "8c4343428c0bbe9f94100c5efaaae30c73e8dc3adf2dc58f3ad55c61dbc7f8ff"
+  },
+  {
+    "id": "aston-martin",
+    "file": "marketing/assets/figma-car-collection-20261010/embedded/image19_2_3.png",
+    "key": "_clients/aston-martin/sources/figma-car-community-20261010/65476346e84a5aa3.png",
+    "sha256": "65476346e84a5aa3cbeac80e4090db206919a7723b25db9c5a89ffb5147846ab"
+  },
+  {
+    "id": "aston-martin",
+    "file": "marketing/assets/figma-car-collection-20261010/release/aston-martin/preview-640.png",
+    "key": "_clients/aston-martin/sources/figma-car-community-20261010/7ccd67660e9dd0bb.png",
+    "sha256": "7ccd67660e9dd0bb8c020cd307ed007e57f7c12220b02f8695c669d37df80e3b"
+  },
+  {
+    "id": "audi",
+    "file": "marketing/assets/figma-car-collection-20261010/release/audi/alpha-crop.png",
+    "key": "_clients/audi/sources/figma-car-community-20261010/b05b68f7297c18be.png",
+    "sha256": "b05b68f7297c18be7dcf897842b907b71f570646a27f823d8897747ba9ea057e"
+  },
+  {
+    "id": "audi",
+    "file": "marketing/assets/figma-car-collection-20261010/embedded/image25_2_3.png",
+    "key": "_clients/audi/sources/figma-car-community-20261010/a70a2f1e50d9b351.png",
+    "sha256": "a70a2f1e50d9b3511d262609a103118d5b37a4f6f7c796706a2cb3ce6c1f59f2"
+  },
+  {
+    "id": "audi",
+    "file": "marketing/assets/figma-car-collection-20261010/release/audi/preview-640.png",
+    "key": "_clients/audi/sources/figma-car-community-20261010/3f7c5270b72b0177.png",
+    "sha256": "3f7c5270b72b017725226e816af50c2e7871287ba2bd18ebd259a2b69ca157f1"
+  },
+  {
+    "id": "bentley",
+    "file": "marketing/assets/figma-car-collection-20261010/release/bentley/alpha-crop.png",
+    "key": "_clients/bentley/sources/figma-car-community-20261010/5a0e17042a79bc27.png",
+    "sha256": "5a0e17042a79bc279e2383de59cacd744f263615ba422c0069d62ab63922604f"
+  },
+  {
+    "id": "bentley",
+    "file": "marketing/assets/figma-car-collection-20261010/embedded/image35_2_3.png",
+    "key": "_clients/bentley/sources/figma-car-community-20261010/55ffd511baf33c09.png",
+    "sha256": "55ffd511baf33c094aadfa6a46edb8091575785cb6b453b7c9de97ffb1aca7d1"
+  },
+  {
+    "id": "bentley",
+    "file": "marketing/assets/figma-car-collection-20261010/release/bentley/preview-640.png",
+    "key": "_clients/bentley/sources/figma-car-community-20261010/852d607c7f8f52d9.png",
+    "sha256": "852d607c7f8f52d939c26ffd3e4f409e510afc535786242a1993a435fdf93cc0"
+  },
+  {
+    "id": "bmw",
+    "file": "marketing/assets/figma-car-collection-20261010/release/bmw/alpha-crop.png",
+    "key": "_clients/bmw/sources/figma-car-community-20261010/05ad6182796dc59a.png",
+    "sha256": "05ad6182796dc59ac86be4b105b5eabfd8aaf86fc8275220c220648c42eab77f"
+  },
+  {
+    "id": "bmw",
+    "file": "marketing/assets/figma-car-collection-20261010/embedded/image44_2_3.png",
+    "key": "_clients/bmw/sources/figma-car-community-20261010/627c022847d4c5dd.png",
+    "sha256": "627c022847d4c5dddc41cf12dcc93524bedac90b2fb098e40b89c75a6bcdb849"
+  },
+  {
+    "id": "bmw",
+    "file": "marketing/assets/figma-car-collection-20261010/release/bmw/preview-640.png",
+    "key": "_clients/bmw/sources/figma-car-community-20261010/116a870711ed631d.png",
+    "sha256": "116a870711ed631d733600fa120d4ef6d09c9c3ecd532257e91a9067c601066d"
+  },
+  {
+    "id": "brabus",
+    "file": "marketing/assets/figma-car-collection-20261010/release/brabus/alpha-crop.png",
+    "key": "_clients/brabus/sources/figma-car-community-20261010/e726d8dd2b937f74.png",
+    "sha256": "e726d8dd2b937f746360ac6000a6ee7c61e491df5d8b8478545a450d9f800a4d"
+  },
+  {
+    "id": "brabus",
+    "file": "marketing/assets/figma-car-collection-20261010/embedded/image42_2_3.png",
+    "key": "_clients/brabus/sources/figma-car-community-20261010/290ff11e73bf8d9e.png",
+    "sha256": "290ff11e73bf8d9e42a128c025fb3423aecf63cef527710ea58a77a1e2c82865"
+  },
+  {
+    "id": "brabus",
+    "file": "marketing/assets/figma-car-collection-20261010/release/brabus/preview-640.png",
+    "key": "_clients/brabus/sources/figma-car-community-20261010/ac21c628d0c234d4.png",
+    "sha256": "ac21c628d0c234d4031ba88df058cd123cc4da99ebe82a45664571618da696e7"
+  },
+  {
+    "id": "bugatti",
+    "file": "marketing/assets/figma-car-collection-20261010/release/bugatti/alpha-crop.png",
+    "key": "_clients/bugatti/sources/figma-car-community-20261010/8c0831dea5dc412b.png",
+    "sha256": "8c0831dea5dc412b385b4d75527ebe8fd290ab08979acb51f0f584d8588954ce"
+  },
+  {
+    "id": "bugatti",
+    "file": "marketing/assets/figma-car-collection-20261010/embedded/image54_2_3.png",
+    "key": "_clients/bugatti/sources/figma-car-community-20261010/a63403d02bfc13fb.png",
+    "sha256": "a63403d02bfc13fbff53d2a4e21a80c1a0e8fce3b5c8b13fc2fef4b80fc4ac31"
+  },
+  {
+    "id": "bugatti",
+    "file": "marketing/assets/figma-car-collection-20261010/release/bugatti/preview-640.png",
+    "key": "_clients/bugatti/sources/figma-car-community-20261010/ee979906514cbc18.png",
+    "sha256": "ee979906514cbc18dc31d6ce91bb3814e4e7bf8e8ac483dbb7a0e39ed6cc6e8a"
+  },
+  {
+    "id": "buick",
+    "file": "marketing/assets/figma-car-collection-20261010/release/buick/alpha-crop.png",
+    "key": "_clients/buick/sources/figma-car-community-20261010/12d82499d67f54f7.png",
+    "sha256": "12d82499d67f54f7190a18cfcae00d124656c54fe585fbc9b197531b6689562c"
+  },
+  {
+    "id": "buick",
+    "file": "marketing/assets/figma-car-collection-20261010/embedded/image50_2_3.png",
+    "key": "_clients/buick/sources/figma-car-community-20261010/7c51bcc0be2883ba.png",
+    "sha256": "7c51bcc0be2883ba0cbc6e22122deea4a5693828212b4688f8048e4d10c50ca3"
+  },
+  {
+    "id": "buick",
+    "file": "marketing/assets/figma-car-collection-20261010/release/buick/preview-640.png",
+    "key": "_clients/buick/sources/figma-car-community-20261010/bb71633df5aa170e.png",
+    "sha256": "bb71633df5aa170eb41cca6d13d83c4a3e18ddb3571ce3be2dac59707f85c0d3"
+  },
+  {
+    "id": "byd",
+    "file": "marketing/assets/figma-car-collection-20261010/release/byd/alpha-crop.png",
+    "key": "_clients/byd/sources/figma-car-community-20261010/95f69bb7c8bce28c.png",
+    "sha256": "95f69bb7c8bce28c69b2e9cbc680f7a330663de1bfddbf34b0aaced96b62f76a"
+  },
+  {
+    "id": "byd",
+    "file": "marketing/assets/figma-car-collection-20261010/embedded/image51_2_3.png",
+    "key": "_clients/byd/sources/figma-car-community-20261010/884011b6850c3543.png",
+    "sha256": "884011b6850c3543873b561f0c535c4b28bd5bda8801352ac0ebc1808422180d"
+  },
+  {
+    "id": "byd",
+    "file": "marketing/assets/figma-car-collection-20261010/release/byd/preview-640.png",
+    "key": "_clients/byd/sources/figma-car-community-20261010/b26722a55b289587.png",
+    "sha256": "b26722a55b289587553c838ecc22e39b32414bdd498bf6b55f2896924d36d802"
+  },
+  {
+    "id": "cadillac",
+    "file": "marketing/assets/figma-car-collection-20261010/release/cadillac/alpha-crop.png",
+    "key": "_clients/cadillac/sources/figma-car-community-20261010/abefc65ebf40da11.png",
+    "sha256": "abefc65ebf40da11bfee6578fa1bc2296ac23425e6c102b0033126337cb50dcf"
+  },
+  {
+    "id": "cadillac",
+    "file": "marketing/assets/figma-car-collection-20261010/embedded/image52_2_3.png",
+    "key": "_clients/cadillac/sources/figma-car-community-20261010/88c6706cdf09d00a.png",
+    "sha256": "88c6706cdf09d00ad95ebd87e4cfefc385a77b08ff167edd00cfb1dff99cfac2"
+  },
+  {
+    "id": "cadillac",
+    "file": "marketing/assets/figma-car-collection-20261010/release/cadillac/preview-640.png",
+    "key": "_clients/cadillac/sources/figma-car-community-20261010/1b39a23db1fd22f2.png",
+    "sha256": "1b39a23db1fd22f2f39ccfd3091c22cb49a4fd43ee020ea690493c7b3e5cb655"
+  },
+  {
+    "id": "chevrolet",
+    "file": "marketing/assets/figma-car-collection-20261010/release/chevrolet/alpha-crop.png",
+    "key": "_clients/chevrolet/sources/figma-car-community-20261010/26a8d95edd199b4a.png",
+    "sha256": "26a8d95edd199b4a4ae50f75f21cd071873791f0648664874bc0487d14388ed2"
+  },
+  {
+    "id": "chevrolet",
+    "file": "marketing/assets/figma-car-collection-20261010/embedded/image63_2_3.png",
+    "key": "_clients/chevrolet/sources/figma-car-community-20261010/4392834f7df4f270.png",
+    "sha256": "4392834f7df4f270b073158eb328ff3fe117d2da3e317604f7555d18348fee45"
+  },
+  {
+    "id": "chevrolet",
+    "file": "marketing/assets/figma-car-collection-20261010/release/chevrolet/preview-640.png",
+    "key": "_clients/chevrolet/sources/figma-car-community-20261010/ea0a4dc4519a255d.png",
+    "sha256": "ea0a4dc4519a255d775b85c5a6a2e2c66e2303242c186023a9bbb95270c03e39"
+  },
+  {
+    "id": "citroen",
+    "file": "marketing/assets/figma-car-collection-20261010/release/citroen/alpha-crop.png",
+    "key": "_clients/citroen/sources/figma-car-community-20261010/64dd920bb7f38541.png",
+    "sha256": "64dd920bb7f385418f7d6e6b5a4c06ac41f5ef0f575e55674767a7ba1ade0f8c"
+  },
+  {
+    "id": "citroen",
+    "file": "marketing/assets/figma-car-collection-20261010/embedded/image61_2_3.png",
+    "key": "_clients/citroen/sources/figma-car-community-20261010/57be27211791def8.png",
+    "sha256": "57be27211791def8b0e798e8447304904bdfe598bb3caddbe1d4f8bcfa14c308"
+  },
+  {
+    "id": "citroen",
+    "file": "marketing/assets/figma-car-collection-20261010/release/citroen/preview-640.png",
+    "key": "_clients/citroen/sources/figma-car-community-20261010/032f31d146fcd30e.png",
+    "sha256": "032f31d146fcd30e91bec73153ce4b868b17add78bc2cd69351a12560d084b52"
+  },
+  {
+    "id": "dacia",
+    "file": "marketing/assets/figma-car-collection-20261010/release/dacia/alpha-crop.png",
+    "key": "_clients/dacia/sources/figma-car-community-20261010/c8230a73ce047833.png",
+    "sha256": "c8230a73ce047833b9106c410e153ccb756ab2929df8aead705dfc05dca789a8"
+  },
+  {
+    "id": "dacia",
+    "file": "marketing/assets/figma-car-collection-20261010/embedded/image65_2_3.png",
+    "key": "_clients/dacia/sources/figma-car-community-20261010/4c5da3e5d421bf05.png",
+    "sha256": "4c5da3e5d421bf05052ecb3807aec74fecfe9b12fc6b72383c2913beaa3708d7"
+  },
+  {
+    "id": "dacia",
+    "file": "marketing/assets/figma-car-collection-20261010/release/dacia/preview-640.png",
+    "key": "_clients/dacia/sources/figma-car-community-20261010/30087b3d250fce2e.png",
+    "sha256": "30087b3d250fce2eed48f4369b8cc6fdd968500f722f121f1852532151a32f5d"
+  },
+  {
+    "id": "daihatsu",
+    "file": "marketing/assets/figma-car-collection-20261010/release/daihatsu/alpha-crop.png",
+    "key": "_clients/daihatsu/sources/figma-car-community-20261010/c06ee8376119fb40.png",
+    "sha256": "c06ee8376119fb406bb0bfdf39ddaa4dfdf63a0871316adfd606d279d509570e"
+  },
+  {
+    "id": "daihatsu",
+    "file": "marketing/assets/figma-car-collection-20261010/embedded/image79_2_3.png",
+    "key": "_clients/daihatsu/sources/figma-car-community-20261010/b9b5d5eea7f10c16.png",
+    "sha256": "b9b5d5eea7f10c16a8ddea6a09be0218a1bdc1f5f3ba2f2deb109af7de725325"
+  },
+  {
+    "id": "daihatsu",
+    "file": "marketing/assets/figma-car-collection-20261010/release/daihatsu/preview-640.png",
+    "key": "_clients/daihatsu/sources/figma-car-community-20261010/08447ce97a0047b4.png",
+    "sha256": "08447ce97a0047b4e55879abc3c30b1072a73b759b18a1939689c91144a26dc0"
+  }
+]

@@ -1,0 +1,501 @@
+{
+  "patches": {
+    "abbank": {
+      "id": "abbank",
+      "name_ko": "ABBANK",
+      "name_en": "ABBANK",
+      "aliases": [
+        "ABBANK"
+      ],
+      "category": "금융·결제",
+      "origin": "VN",
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": "sources/figma-vietnam-community-20261010/9eaee84b24fd2ce2d765.svg",
+      "svg_transparent": "sources/figma-vietnam-community-20261010/9eaee84b24fd2ce2d765.svg",
+      "logo_png": "sources/figma-vietnam-community-20261010/ed94396d30332f60af6e.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/abbank/sources/figma-vietnam-community-20261010/ed94396d30332f60af6e.png",
+      "presentation": {
+        "file": "sources/figma-vietnam-community-20261010/ed94396d30332f60af6e.png",
+        "bg": "light"
+      },
+      "variants_n": 1,
+      "asset_origin": "사용자 제공 Figma Community 수집본",
+      "asset_review_status": "verified",
+      "added_at": "2026-10-10",
+      "logo_published_at": "2026-10-10T13:00:00Z",
+      "homepage": "https://www.abbank.vn/en",
+      "official_asset_reviewed": false
+    },
+    "agribank-vietnam": {
+      "id": "agribank-vietnam",
+      "name_ko": "Agribank",
+      "name_en": "Agribank",
+      "aliases": [
+        "Agribank"
+      ],
+      "category": "금융·결제",
+      "origin": "VN",
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": "sources/figma-vietnam-community-20261010/7630b3df095fd243bb4b.svg",
+      "svg_transparent": "sources/figma-vietnam-community-20261010/7630b3df095fd243bb4b.svg",
+      "logo_png": "sources/figma-vietnam-community-20261010/99b460bcd5006412c2fe.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/agribank-vietnam/sources/figma-vietnam-community-20261010/99b460bcd5006412c2fe.png",
+      "presentation": {
+        "file": "sources/figma-vietnam-community-20261010/99b460bcd5006412c2fe.png",
+        "bg": "light"
+      },
+      "variants_n": 1,
+      "asset_origin": "사용자 제공 Figma Community 수집본",
+      "asset_review_status": "verified",
+      "added_at": "2026-10-10",
+      "logo_published_at": "2026-10-10T13:00:00Z",
+      "homepage": "https://www.agribank.com.vn/vn/ca-nhan",
+      "official_asset_reviewed": false
+    },
+    "baoviet-bank": {
+      "id": "baoviet-bank",
+      "name_ko": "BAOVIET Bank",
+      "name_en": "BAOVIET Bank",
+      "aliases": [
+        "BAOVIET Bank"
+      ],
+      "category": "금융·결제",
+      "origin": "VN",
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": "sources/figma-vietnam-community-20261010/6fda7a605ed4aa646680.svg",
+      "svg_transparent": "sources/figma-vietnam-community-20261010/6fda7a605ed4aa646680.svg",
+      "logo_png": "sources/figma-vietnam-community-20261010/b6c753b0d319867e0ec7.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/baoviet-bank/sources/figma-vietnam-community-20261010/b6c753b0d319867e0ec7.png",
+      "presentation": {
+        "file": "sources/figma-vietnam-community-20261010/b6c753b0d319867e0ec7.png",
+        "bg": "light"
+      },
+      "variants_n": 1,
+      "asset_origin": "사용자 제공 Figma Community 수집본",
+      "asset_review_status": "verified",
+      "added_at": "2026-10-10",
+      "logo_published_at": "2026-10-10T13:00:00Z",
+      "homepage": "https://www.baovietbank.vn/Home/",
+      "official_asset_reviewed": false
+    },
+    "bank-for-investment-and-development-of-vietnam": {
+      "variants_n": 1
+    },
+    "cake-bank": {
+      "id": "cake-bank",
+      "name_ko": "CAKE",
+      "name_en": "CAKE",
+      "aliases": [
+        "CAKE"
+      ],
+      "category": "금융·결제",
+      "origin": "VN",
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": "sources/figma-vietnam-community-20261010/fdcb8b09ba8f59c3320f.svg",
+      "svg_transparent": "sources/figma-vietnam-community-20261010/fdcb8b09ba8f59c3320f.svg",
+      "logo_png": "sources/figma-vietnam-community-20261010/93f1c6269101a351fee7.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/cake-bank/sources/figma-vietnam-community-20261010/93f1c6269101a351fee7.png",
+      "presentation": {
+        "file": "sources/figma-vietnam-community-20261010/93f1c6269101a351fee7.png",
+        "bg": "light"
+      },
+      "variants_n": 1,
+      "asset_origin": "사용자 제공 Figma Community 수집본",
+      "asset_review_status": "verified",
+      "added_at": "2026-10-10",
+      "logo_published_at": "2026-10-10T13:00:00Z",
+      "homepage": "https://cake.vn/",
+      "official_asset_reviewed": false
+    },
+    "eximbank-vietnam": {
+      "id": "eximbank-vietnam",
+      "name_ko": "Eximbank",
+      "name_en": "Eximbank",
+      "aliases": [
+        "Eximbank"
+      ],
+      "category": "금융·결제",
+      "origin": "VN",
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": "sources/figma-vietnam-community-20261010/f5c7307a429b05aa1453.svg",
+      "svg_transparent": "sources/figma-vietnam-community-20261010/f5c7307a429b05aa1453.svg",
+      "logo_png": "sources/figma-vietnam-community-20261010/fffa6645e428d7ce7333.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/eximbank-vietnam/sources/figma-vietnam-community-20261010/fffa6645e428d7ce7333.png",
+      "presentation": {
+        "file": "sources/figma-vietnam-community-20261010/fffa6645e428d7ce7333.png",
+        "bg": "light"
+      },
+      "variants_n": 1,
+      "asset_origin": "사용자 제공 Figma Community 수집본",
+      "asset_review_status": "verified",
+      "added_at": "2026-10-10",
+      "logo_published_at": "2026-10-10T13:00:00Z",
+      "homepage": "https://eximbank.com.vn/vi/ho-tro",
+      "official_asset_reviewed": false
+    },
+    "hdbank": {
+      "id": "hdbank",
+      "name_ko": "HDBank",
+      "name_en": "HDBank",
+      "aliases": [
+        "HDBank"
+      ],
+      "category": "금융·결제",
+      "origin": "VN",
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": "sources/figma-vietnam-community-20261010/3089303cd79f182917c7.svg",
+      "svg_transparent": "sources/figma-vietnam-community-20261010/3089303cd79f182917c7.svg",
+      "logo_png": "sources/figma-vietnam-community-20261010/6cbb5ead8aae7e3f272c.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/hdbank/sources/figma-vietnam-community-20261010/6cbb5ead8aae7e3f272c.png",
+      "presentation": {
+        "file": "sources/figma-vietnam-community-20261010/6cbb5ead8aae7e3f272c.png",
+        "bg": "light"
+      },
+      "variants_n": 1,
+      "asset_origin": "사용자 제공 Figma Community 수집본",
+      "asset_review_status": "verified",
+      "added_at": "2026-10-10",
+      "logo_published_at": "2026-10-10T13:00:00Z",
+      "homepage": "https://hdbank.com.vn/",
+      "official_asset_reviewed": false
+    },
+    "lpbank": {
+      "id": "lpbank",
+      "name_ko": "LPBank",
+      "name_en": "LPBank",
+      "aliases": [
+        "LPBank"
+      ],
+      "category": "금융·결제",
+      "origin": "VN",
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": "sources/figma-vietnam-community-20261010/4789d893cc62fd8de111.svg",
+      "svg_transparent": "sources/figma-vietnam-community-20261010/4789d893cc62fd8de111.svg",
+      "logo_png": "sources/figma-vietnam-community-20261010/1430fb7c12c8a2836928.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/lpbank/sources/figma-vietnam-community-20261010/1430fb7c12c8a2836928.png",
+      "presentation": {
+        "file": "sources/figma-vietnam-community-20261010/1430fb7c12c8a2836928.png",
+        "bg": "light"
+      },
+      "variants_n": 1,
+      "asset_origin": "사용자 제공 Figma Community 수집본",
+      "asset_review_status": "verified",
+      "added_at": "2026-10-10",
+      "logo_published_at": "2026-10-10T13:00:00Z",
+      "homepage": "https://lpbank.com.vn/",
+      "official_asset_reviewed": false
+    },
+    "msb": {
+      "variants_n": 1
+    },
+    "tpbank": {
+      "variants_n": 1
+    },
+    "vib": {
+      "variants_n": 1
+    },
+    "vietcombank": {
+      "variants_n": 1
+    }
+  },
+  "variants": {
+    "abbank": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "abbank",
+      "primary": "figma-vn-community-horizontal",
+      "variants": [
+        {
+          "key": "figma-vn-community-horizontal",
+          "label": "커뮤니티 수록 가로형 · 시기 미확인",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "mixed",
+          "color": "original",
+          "files": {
+            "svg": "sources/figma-vietnam-community-20261010/9eaee84b24fd2ce2d765.svg",
+            "png": "sources/figma-vietnam-community-20261010/ed94396d30332f60af6e.png"
+          },
+          "provider": "사용자 제공 Figma Community 수집본",
+          "origin": "community",
+          "official": false,
+          "order": 0
+        }
+      ]
+    },
+    "agribank-vietnam": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "agribank-vietnam",
+      "primary": "figma-vn-community-horizontal",
+      "variants": [
+        {
+          "key": "figma-vn-community-horizontal",
+          "label": "커뮤니티 수록 가로형 · 시기 미확인",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "mixed",
+          "color": "original",
+          "files": {
+            "svg": "sources/figma-vietnam-community-20261010/7630b3df095fd243bb4b.svg",
+            "png": "sources/figma-vietnam-community-20261010/99b460bcd5006412c2fe.png"
+          },
+          "provider": "사용자 제공 Figma Community 수집본",
+          "origin": "community",
+          "official": false,
+          "order": 0
+        }
+      ]
+    },
+    "baoviet-bank": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "baoviet-bank",
+      "primary": "figma-vn-community-horizontal",
+      "variants": [
+        {
+          "key": "figma-vn-community-horizontal",
+          "label": "커뮤니티 수록 가로형 · 시기 미확인",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "mixed",
+          "color": "original",
+          "files": {
+            "svg": "sources/figma-vietnam-community-20261010/6fda7a605ed4aa646680.svg",
+            "png": "sources/figma-vietnam-community-20261010/b6c753b0d319867e0ec7.png"
+          },
+          "provider": "사용자 제공 Figma Community 수집본",
+          "origin": "community",
+          "official": false,
+          "order": 0
+        }
+      ]
+    },
+    "bank-for-investment-and-development-of-vietnam": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "bank-for-investment-and-development-of-vietnam",
+      "primary": "figma-vn-community-horizontal",
+      "variants": [
+        {
+          "key": "figma-vn-community-horizontal",
+          "label": "커뮤니티 수록 가로형 · 시기 미확인",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "mixed",
+          "color": "original",
+          "files": {
+            "svg": "sources/figma-vietnam-community-20261010/111cf5a9391040358a40.svg",
+            "png": "sources/figma-vietnam-community-20261010/9bd40112c9200696ce71.png"
+          },
+          "provider": "사용자 제공 Figma Community 수집본",
+          "origin": "community",
+          "official": false,
+          "order": 0
+        }
+      ]
+    },
+    "cake-bank": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "cake-bank",
+      "primary": "figma-vn-community-horizontal",
+      "variants": [
+        {
+          "key": "figma-vn-community-horizontal",
+          "label": "커뮤니티 수록 가로형 · 시기 미확인",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "mixed",
+          "color": "original",
+          "files": {
+            "svg": "sources/figma-vietnam-community-20261010/fdcb8b09ba8f59c3320f.svg",
+            "png": "sources/figma-vietnam-community-20261010/93f1c6269101a351fee7.png"
+          },
+          "provider": "사용자 제공 Figma Community 수집본",
+          "origin": "community",
+          "official": false,
+          "order": 0
+        }
+      ]
+    },
+    "eximbank-vietnam": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "eximbank-vietnam",
+      "primary": "figma-vn-community-horizontal",
+      "variants": [
+        {
+          "key": "figma-vn-community-horizontal",
+          "label": "커뮤니티 수록 가로형 · 시기 미확인",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "mixed",
+          "color": "original",
+          "files": {
+            "svg": "sources/figma-vietnam-community-20261010/f5c7307a429b05aa1453.svg",
+            "png": "sources/figma-vietnam-community-20261010/fffa6645e428d7ce7333.png"
+          },
+          "provider": "사용자 제공 Figma Community 수집본",
+          "origin": "community",
+          "official": false,
+          "order": 0
+        }
+      ]
+    },
+    "hdbank": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "hdbank",
+      "primary": "figma-vn-community-horizontal",
+      "variants": [
+        {
+          "key": "figma-vn-community-horizontal",
+          "label": "커뮤니티 수록 가로형 · 시기 미확인",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "mixed",
+          "color": "original",
+          "files": {
+            "svg": "sources/figma-vietnam-community-20261010/3089303cd79f182917c7.svg",
+            "png": "sources/figma-vietnam-community-20261010/6cbb5ead8aae7e3f272c.png"
+          },
+          "provider": "사용자 제공 Figma Community 수집본",
+          "origin": "community",
+          "official": false,
+          "order": 0
+        }
+      ]
+    },
+    "lpbank": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "lpbank",
+      "primary": "figma-vn-community-horizontal",
+      "variants": [
+        {
+          "key": "figma-vn-community-horizontal",
+          "label": "커뮤니티 수록 가로형 · 시기 미확인",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "mixed",
+          "color": "original",
+          "files": {
+            "svg": "sources/figma-vietnam-community-20261010/4789d893cc62fd8de111.svg",
+            "png": "sources/figma-vietnam-community-20261010/1430fb7c12c8a2836928.png"
+          },
+          "provider": "사용자 제공 Figma Community 수집본",
+          "origin": "community",
+          "official": false,
+          "order": 0
+        }
+      ]
+    },
+    "msb": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "msb",
+      "primary": "figma-vn-community-horizontal",
+      "variants": [
+        {
+          "key": "figma-vn-community-horizontal",
+          "label": "커뮤니티 수록 가로형 · 시기 미확인",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "mixed",
+          "color": "original",
+          "files": {
+            "svg": "sources/figma-vietnam-community-20261010/2c75c439d3964a161fe5.svg",
+            "png": "sources/figma-vietnam-community-20261010/031a7fabb3f97f1007db.png"
+          },
+          "provider": "사용자 제공 Figma Community 수집본",
+          "origin": "community",
+          "official": false,
+          "order": 0
+        }
+      ]
+    },
+    "tpbank": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "tpbank",
+      "primary": "figma-vn-community-horizontal",
+      "variants": [
+        {
+          "key": "figma-vn-community-horizontal",
+          "label": "커뮤니티 수록 가로형 · 시기 미확인",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "mixed",
+          "color": "original",
+          "files": {
+            "svg": "sources/figma-vietnam-community-20261010/3146016821417f8dc110.svg",
+            "png": "sources/figma-vietnam-community-20261010/5eabe4e5ca7843a9566e.png"
+          },
+          "provider": "사용자 제공 Figma Community 수집본",
+          "origin": "community",
+          "official": false,
+          "order": 0
+        }
+      ]
+    },
+    "vib": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "vib",
+      "primary": "figma-vn-community-horizontal",
+      "variants": [
+        {
+          "key": "figma-vn-community-horizontal",
+          "label": "커뮤니티 수록 가로형 · 시기 미확인",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "mixed",
+          "color": "original",
+          "files": {
+            "svg": "sources/figma-vietnam-community-20261010/4feb95434c3e09ccb22c.svg",
+            "png": "sources/figma-vietnam-community-20261010/1b4bc2742c2b94d6863a.png"
+          },
+          "provider": "사용자 제공 Figma Community 수집본",
+          "origin": "community",
+          "official": false,
+          "order": 0
+        }
+      ]
+    },
+    "vietcombank": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "vietcombank",
+      "primary": "figma-vn-community-horizontal",
+      "variants": [
+        {
+          "key": "figma-vn-community-horizontal",
+          "label": "커뮤니티 수록 가로형 · 시기 미확인",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "mixed",
+          "color": "original",
+          "files": {
+            "svg": "sources/figma-vietnam-community-20261010/b96d5140353922153168.svg",
+            "png": "sources/figma-vietnam-community-20261010/dbacf5cd596eda581d67.png"
+          },
+          "provider": "사용자 제공 Figma Community 수집본",
+          "origin": "community",
+          "official": false,
+          "order": 0
+        }
+      ]
+    }
+  },
+  "source_kind": "user-provided-figma-community",
+  "official": false,
+  "snapshot_date": "2026-10-10"
+}

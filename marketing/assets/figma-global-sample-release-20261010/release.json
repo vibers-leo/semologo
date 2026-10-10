@@ -1,0 +1,668 @@
+{
+  "patches": {
+    "docker": {
+      "variants_n": 3
+    },
+    "dropbox": {
+      "variants_n": 3
+    },
+    "fastify": {
+      "variants_n": 4
+    },
+    "firefox": {
+      "variants_n": 3
+    },
+    "figma": {
+      "variants_n": 2
+    },
+    "envoy": {
+      "variants_n": 4
+    },
+    "gitlab": {
+      "variants_n": 4
+    },
+    "gmail": {
+      "variants_n": 2
+    }
+  },
+  "variants": {
+    "docker": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "docker",
+      "primary": "horizontal",
+      "fingerprint": {
+        "logo.svg": "58d937d6f9fee982",
+        "sources/iconify/docker-icon.svg": "41616c20cb0b6da2",
+        "sources/docker-icon.svg": "2c671a280b3f5856",
+        "sources/supertiny/docker.svg": "fb8c1aeedc799d0e"
+      },
+      "variants": [
+        {
+          "key": "horizontal",
+          "form": "horizontal",
+          "lang": "en",
+          "color": "color",
+          "label": "가로조합형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 1.393,
+          "provider": "simple-icons",
+          "origin": "collected",
+          "order": 10,
+          "alts": [
+            {
+              "provider": "supertiny",
+              "file": "sources/supertiny/docker.svg"
+            }
+          ]
+        },
+        {
+          "key": "symbol",
+          "form": "symbol",
+          "lang": "en",
+          "color": "color",
+          "label": "심볼형",
+          "files": {
+            "svg": "sources/iconify/docker-icon.svg",
+            "png": "sources/iconify/docker-icon.png"
+          },
+          "aspect": 1.385,
+          "provider": "iconify",
+          "origin": "collected",
+          "order": 30,
+          "alts": [
+            {
+              "provider": "merged",
+              "file": "sources/docker-icon.svg"
+            }
+          ]
+        },
+        {
+          "key": "community-global-item-0007",
+          "form": "horizontal",
+          "color": "original",
+          "label": "컬러 가로조합형 · 커뮤니티 수록",
+          "files": {
+            "svg": "sources/community-global-20261010/90e1152919f3b13b/logo.svg",
+            "png": "sources/community-global-20261010/05843af0df501293/logo.png"
+          },
+          "preview_png": "sources/community-global-20261010/6d3f36322f2fd48e/preview.png",
+          "provider": "사용자 제공 Figma Community SVG",
+          "origin": "collected",
+          "source_note": "1,400 SVG Logos Collection (Community) 내보내기에서 추출; 공식 원본 아님",
+          "source_sha256": "ab9166537a2f085477c1c83c03cc05d00ef5811161483ec7b36e7abf084c84b1",
+          "source_item": "item-0007",
+          "review_status": "verified",
+          "order": 100
+        }
+      ]
+    },
+    "dropbox": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "dropbox",
+      "primary": "symbol",
+      "fingerprint": {
+        "logo.svg": "96b9c31676ef4b88",
+        "sources/fa.svg": "96b9c31676ef4b88",
+        "sources/iconify/dropbox.svg": "b156135a2d4bf071",
+        "sources/wvl/dropbox.svg": "df22010f5934d87f",
+        "sources/thesvg/wordmark.svg": "6b0504fc3a804edc",
+        "sources/supertiny/dropbox.svg": "fa415e5793764978"
+      },
+      "variants": [
+        {
+          "key": "symbol",
+          "form": "symbol",
+          "lang": "en",
+          "color": "mono-dark",
+          "label": "심볼형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 1.178,
+          "provider": "font-awesome",
+          "origin": "collected",
+          "order": 30,
+          "alts": [
+            {
+              "provider": "iconify",
+              "file": "sources/iconify/dropbox.svg"
+            },
+            {
+              "provider": "wvl",
+              "file": "sources/wvl/dropbox.svg"
+            },
+            {
+              "provider": "supertiny",
+              "file": "sources/supertiny/dropbox.svg"
+            },
+            {
+              "provider": "font-awesome",
+              "file": "sources/fa.svg"
+            }
+          ]
+        },
+        {
+          "key": "wordmark",
+          "form": "wordmark",
+          "lang": "unknown",
+          "color": "mono-light",
+          "label": "워드마크형",
+          "files": {
+            "svg": "sources/thesvg/wordmark.svg"
+          },
+          "aspect": 5.069,
+          "provider": "thesvg",
+          "origin": "collected",
+          "order": 40
+        },
+        {
+          "key": "community-global-item-0024",
+          "form": "symbol",
+          "color": "original",
+          "label": "블루 심볼 · 커뮤니티 수록",
+          "files": {
+            "svg": "sources/community-global-20261010/05a7bd6d31dcc15e/logo.svg",
+            "png": "sources/community-global-20261010/f411853ff5345289/logo.png"
+          },
+          "preview_png": "sources/community-global-20261010/693c94ae78a2b475/preview.png",
+          "provider": "사용자 제공 Figma Community SVG",
+          "origin": "collected",
+          "source_note": "1,400 SVG Logos Collection (Community) 내보내기에서 추출; 공식 원본 아님",
+          "source_sha256": "ab9166537a2f085477c1c83c03cc05d00ef5811161483ec7b36e7abf084c84b1",
+          "source_item": "item-0024",
+          "review_status": "verified",
+          "order": 100
+        }
+      ]
+    },
+    "fastify": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "fastify",
+      "primary": "wordmark",
+      "fingerprint": {
+        "logo.svg": "c55a2e19645628ca",
+        "sources/iconify/fastify.svg": "c55a2e19645628ca",
+        "sources/iconify/fastify-icon.svg": "b3cd1a113ec6a857",
+        "sources/devicons/fastify-original.svg": "3fefd8ada89c5566",
+        "sources/wvl/fastify-icon.svg": "35be1bc5ca55d93f",
+        "sources/wvl/fastify.svg": "3166dc1ddc19b9dc",
+        "sources/fastify-icon.svg": "35be1bc5ca55d93f"
+      },
+      "variants": [
+        {
+          "key": "horizontal",
+          "form": "horizontal",
+          "lang": "en",
+          "color": "mono-dark",
+          "label": "가로조합형",
+          "files": {
+            "svg": "sources/devicons/fastify-original.svg",
+            "png": "sources/devicons/fastify-original.png"
+          },
+          "aspect": 1.546,
+          "provider": "devicons",
+          "origin": "collected",
+          "order": 10
+        },
+        {
+          "key": "symbol",
+          "form": "symbol",
+          "lang": "en",
+          "color": "mono-dark",
+          "label": "심볼형",
+          "files": {
+            "svg": "sources/iconify/fastify-icon.svg",
+            "png": "sources/iconify/fastify-icon.png"
+          },
+          "aspect": 1.561,
+          "provider": "iconify",
+          "origin": "collected",
+          "order": 30,
+          "alts": [
+            {
+              "provider": "wvl",
+              "file": "sources/wvl/fastify-icon.svg"
+            },
+            {
+              "provider": "merged",
+              "file": "sources/fastify-icon.svg"
+            }
+          ]
+        },
+        {
+          "key": "wordmark",
+          "form": "wordmark",
+          "lang": "en",
+          "color": "mono-dark",
+          "label": "워드마크형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 3.383,
+          "provider": "iconify",
+          "origin": "collected",
+          "order": 40,
+          "alts": [
+            {
+              "provider": "iconify",
+              "file": "sources/iconify/fastify.svg"
+            },
+            {
+              "provider": "wvl",
+              "file": "sources/wvl/fastify.svg"
+            }
+          ]
+        },
+        {
+          "key": "community-global-item-0080",
+          "form": "horizontal",
+          "color": "original",
+          "label": "워드마크+심볼 가로형 · 커뮤니티 수록",
+          "files": {
+            "svg": "sources/community-global-20261010/baa936f300e8895b/logo.svg",
+            "png": "sources/community-global-20261010/d5b206deee5d5004/logo.png"
+          },
+          "preview_png": "sources/community-global-20261010/32e61821f1789a85/preview.png",
+          "provider": "사용자 제공 Figma Community SVG",
+          "origin": "collected",
+          "source_note": "1,400 SVG Logos Collection (Community) 내보내기에서 추출; 공식 원본 아님",
+          "source_sha256": "ab9166537a2f085477c1c83c03cc05d00ef5811161483ec7b36e7abf084c84b1",
+          "source_item": "item-0080",
+          "review_status": "verified",
+          "order": 100
+        }
+      ]
+    },
+    "firefox": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "firefox",
+      "primary": "symbol",
+      "fingerprint": {
+        "logo.svg": "d3c6cf4811a3a125",
+        "sources/fa.svg": "d3c6cf4811a3a125",
+        "sources/iconify/firefox.svg": "32aad3a2b25eb5f9",
+        "sources/devicons/firefox-original.svg": "accc85dd88e9e36b",
+        "sources/wvl/firefox.svg": "8714c1440bc93b8a",
+        "sources/vlz/wide.svg": "5a53059b305c13c8",
+        "sources/supertiny/firefox.svg": "d18e205c26c1482d"
+      },
+      "variants": [
+        {
+          "key": "horizontal",
+          "form": "horizontal",
+          "lang": "unknown",
+          "color": "color",
+          "label": "가로조합형",
+          "files": {
+            "svg": "sources/vlz/wide.svg"
+          },
+          "aspect": 2.972,
+          "provider": "vectorlogozone",
+          "origin": "collected",
+          "order": 10
+        },
+        {
+          "key": "symbol",
+          "form": "symbol",
+          "lang": "en",
+          "color": "mono-dark",
+          "label": "심볼형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 1.002,
+          "provider": "font-awesome",
+          "origin": "collected",
+          "order": 30,
+          "alts": [
+            {
+              "provider": "iconify",
+              "file": "sources/iconify/firefox.svg"
+            },
+            {
+              "provider": "wvl",
+              "file": "sources/wvl/firefox.svg"
+            },
+            {
+              "provider": "devicons",
+              "file": "sources/devicons/firefox-original.svg"
+            },
+            {
+              "provider": "supertiny",
+              "file": "sources/supertiny/firefox.svg"
+            },
+            {
+              "provider": "font-awesome",
+              "file": "sources/fa.svg"
+            }
+          ]
+        },
+        {
+          "key": "community-global-item-0089",
+          "form": "symbol",
+          "color": "original",
+          "label": "컬러 심볼 · 커뮤니티 수록",
+          "files": {
+            "svg": "sources/community-global-20261010/b9892f0009fbe5e3/logo.svg",
+            "png": "sources/community-global-20261010/c243ba691f870597/logo.png"
+          },
+          "preview_png": "sources/community-global-20261010/9c549b937a3ae772/preview.png",
+          "provider": "사용자 제공 Figma Community SVG",
+          "origin": "collected",
+          "source_note": "1,400 SVG Logos Collection (Community) 내보내기에서 추출; 공식 원본 아님",
+          "source_sha256": "ab9166537a2f085477c1c83c03cc05d00ef5811161483ec7b36e7abf084c84b1",
+          "source_item": "item-0089",
+          "review_status": "verified",
+          "order": 100
+        }
+      ]
+    },
+    "figma": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "figma",
+      "primary": "vertical",
+      "fingerprint": {
+        "logo.svg": "c53788cdc889ba1e",
+        "sources/supertiny/figma.svg": "7a64cddb027bad0e"
+      },
+      "variants": [
+        {
+          "key": "vertical",
+          "form": "vertical",
+          "lang": "en",
+          "color": "color",
+          "label": "세로조합형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 0.696,
+          "provider": "simple-icons",
+          "origin": "collected",
+          "order": 20,
+          "alts": [
+            {
+              "provider": "supertiny",
+              "file": "sources/supertiny/figma.svg"
+            }
+          ]
+        },
+        {
+          "key": "community-global-item-0087",
+          "form": "symbol",
+          "color": "original",
+          "label": "컬러 심볼 · 커뮤니티 수록",
+          "files": {
+            "svg": "sources/community-global-20261010/8fb9dbd753a29915/logo.svg",
+            "png": "sources/community-global-20261010/af67f7a23780a1c5/logo.png"
+          },
+          "preview_png": "sources/community-global-20261010/620e488c5dac8def/preview.png",
+          "provider": "사용자 제공 Figma Community SVG",
+          "origin": "collected",
+          "source_note": "1,400 SVG Logos Collection (Community) 내보내기에서 추출; 공식 원본 아님",
+          "source_sha256": "ab9166537a2f085477c1c83c03cc05d00ef5811161483ec7b36e7abf084c84b1",
+          "source_item": "item-0087",
+          "review_status": "verified",
+          "order": 100
+        }
+      ]
+    },
+    "envoy": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "envoy",
+      "primary": "wordmark",
+      "fingerprint": {
+        "logo.svg": "55adfcf19c3f9ca8",
+        "sources/iconify/envoy.svg": "55adfcf19c3f9ca8",
+        "sources/iconify/envoy-icon.svg": "c4e63727cdd3a816",
+        "sources/devicons/envoy-original.svg": "8a67bc3f888a1780",
+        "sources/wvl/envoy-icon.svg": "234c61447a770c10",
+        "sources/wvl/envoy.svg": "92f07725e6f9078a",
+        "sources/envoy-icon.svg": "234c61447a770c10"
+      },
+      "variants": [
+        {
+          "key": "horizontal",
+          "form": "horizontal",
+          "lang": "en",
+          "color": "color",
+          "label": "가로조합형",
+          "files": {
+            "svg": "sources/devicons/envoy-original.svg",
+            "png": "sources/devicons/envoy-original.png"
+          },
+          "aspect": 1.351,
+          "provider": "devicons",
+          "origin": "collected",
+          "order": 10
+        },
+        {
+          "key": "symbol",
+          "form": "symbol",
+          "lang": "en",
+          "color": "color",
+          "label": "심볼형",
+          "files": {
+            "svg": "sources/iconify/envoy-icon.svg",
+            "png": "sources/iconify/envoy-icon.png"
+          },
+          "aspect": 1.34,
+          "provider": "iconify",
+          "origin": "collected",
+          "order": 30,
+          "alts": [
+            {
+              "provider": "wvl",
+              "file": "sources/wvl/envoy-icon.svg"
+            },
+            {
+              "provider": "merged",
+              "file": "sources/envoy-icon.svg"
+            }
+          ]
+        },
+        {
+          "key": "wordmark",
+          "form": "wordmark",
+          "lang": "en",
+          "color": "color",
+          "label": "워드마크형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 3.089,
+          "provider": "iconify",
+          "origin": "collected",
+          "order": 40,
+          "alts": [
+            {
+              "provider": "iconify",
+              "file": "sources/iconify/envoy.svg"
+            },
+            {
+              "provider": "wvl",
+              "file": "sources/wvl/envoy.svg"
+            }
+          ]
+        },
+        {
+          "key": "community-global-item-0053",
+          "form": "horizontal",
+          "color": "original",
+          "label": "컬러 가로조합형 · 커뮤니티 수록",
+          "files": {
+            "svg": "sources/community-global-20261010/0bfe4dd90368fe05/logo.svg",
+            "png": "sources/community-global-20261010/8f3b0e1df8404623/logo.png"
+          },
+          "preview_png": "sources/community-global-20261010/d76ce45cdc3f8ca3/preview.png",
+          "provider": "사용자 제공 Figma Community SVG",
+          "origin": "collected",
+          "source_note": "1,400 SVG Logos Collection (Community) 내보내기에서 추출; 공식 원본 아님",
+          "source_sha256": "ab9166537a2f085477c1c83c03cc05d00ef5811161483ec7b36e7abf084c84b1",
+          "source_item": "item-0053",
+          "review_status": "verified",
+          "order": 100
+        }
+      ]
+    },
+    "gitlab": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "gitlab",
+      "primary": "symbol",
+      "fingerprint": {
+        "logo.svg": "d361595bc4f8cbb6",
+        "sources/gitlab-icon.svg": "94d7d516f3db448e",
+        "sources/thesvg/wordmark.svg": "01474f71d1a205de",
+        "sources/supertiny/gitlab.svg": "f42db1b9b7602b96"
+      },
+      "variants": [
+        {
+          "key": "symbol",
+          "alts": [
+            {
+              "file": "sources/gitlab-icon.svg",
+              "provider": "merged"
+            },
+            {
+              "file": "sources/supertiny/gitlab.svg",
+              "provider": "supertiny"
+            }
+          ],
+          "form": "symbol",
+          "lang": "en",
+          "color": "color",
+          "files": {
+            "png": "logo-800.png",
+            "svg": "logo.svg"
+          },
+          "label": "심볼형",
+          "order": 30,
+          "aspect": 1.037,
+          "origin": "collected",
+          "provider": "simple-icons"
+        },
+        {
+          "key": "wordmark",
+          "form": "wordmark",
+          "lang": "unknown",
+          "color": "color",
+          "files": {
+            "svg": "sources/thesvg/wordmark.svg"
+          },
+          "label": "워드마크형",
+          "order": 40,
+          "aspect": 4.615,
+          "origin": "collected",
+          "provider": "thesvg"
+        },
+        {
+          "key": "untitled-ui-community-lockup",
+          "form": "horizontal",
+          "lang": "en",
+          "color": "color",
+          "files": {
+            "png": "sources/untitled-ui-community-20261010/3e5ebf7bf4dfa8a1.png",
+            "svg": "sources/untitled-ui-community-20261010/2520f5d79aa6f0ca.svg"
+          },
+          "label": "가로조합 · Untitled UI 커뮤니티 수록본",
+          "order": 90,
+          "aspect": 3.0784,
+          "origin": "collected",
+          "provider": "figma-community",
+          "preview_png": "sources/untitled-ui-community-20261010/3ec08c7b51fb61ba.png",
+          "source_note": "사용자 제공 Untitled UI (Community) 내보내기. 공식 브랜드 배포 파일이 아닌 커뮤니티 수록본. 원본 벡터 경로를 보존하여 추출.",
+          "source_archive_url": "https://logo.vibers.co.kr/_clients/active-campaign/sources/untitled-ui-community-20261010/c3a00071febe9f83.zip",
+          "official_distribution": false
+        },
+        {
+          "key": "community-global-item-0142",
+          "form": "symbol",
+          "color": "original",
+          "label": "다색 심볼 · 커뮤니티 수록",
+          "files": {
+            "svg": "sources/community-global-20261010/4316c724951722f4/logo.svg",
+            "png": "sources/community-global-20261010/150a5e4066923e08/logo.png"
+          },
+          "preview_png": "sources/community-global-20261010/a234da1b910142b7/preview.png",
+          "provider": "사용자 제공 Figma Community SVG",
+          "origin": "collected",
+          "source_note": "1,400 SVG Logos Collection (Community) 내보내기에서 추출; 공식 원본 아님",
+          "source_sha256": "ab9166537a2f085477c1c83c03cc05d00ef5811161483ec7b36e7abf084c84b1",
+          "source_item": "item-0142",
+          "review_status": "verified",
+          "order": 100
+        }
+      ]
+    },
+    "gmail": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "gmail",
+      "primary": "horizontal",
+      "fingerprint": {
+        "logo.svg": "80b4eaa818a8ba55",
+        "sources/supertiny/gmail.svg": "16f1acfe5e6f70ba",
+        "sources/supertiny/gmail_old.svg": "1226a7df4a8ece98"
+      },
+      "variants": [
+        {
+          "key": "horizontal",
+          "form": "horizontal",
+          "lang": "unknown",
+          "color": "mono-dark",
+          "label": "가로조합형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 1.331,
+          "provider": "unknown",
+          "origin": "collected",
+          "order": 10,
+          "alts": [
+            {
+              "provider": "supertiny",
+              "file": "sources/supertiny/gmail.svg"
+            },
+            {
+              "provider": "supertiny",
+              "file": "sources/supertiny/gmail_old.svg"
+            }
+          ]
+        },
+        {
+          "key": "community-global-item-0171",
+          "form": "symbol",
+          "color": "original",
+          "label": "다색 심볼 · 커뮤니티 수록",
+          "files": {
+            "svg": "sources/community-global-20261010/52aa7573342c92fa/logo.svg",
+            "png": "sources/community-global-20261010/b5614d2573717f61/logo.png"
+          },
+          "preview_png": "sources/community-global-20261010/630e769cbe1c492f/preview.png",
+          "provider": "사용자 제공 Figma Community SVG",
+          "origin": "collected",
+          "source_note": "1,400 SVG Logos Collection (Community) 내보내기에서 추출; 공식 원본 아님",
+          "source_sha256": "ab9166537a2f085477c1c83c03cc05d00ef5811161483ec7b36e7abf084c84b1",
+          "source_item": "item-0171",
+          "review_status": "verified",
+          "order": 100
+        }
+      ]
+    }
+  }
+}
