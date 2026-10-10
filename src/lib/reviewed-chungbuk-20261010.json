@@ -1,0 +1,668 @@
+{
+  "patches": {
+    "north-chungcheong": {
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": "sources/reviewed-chungbuk-20261010/cf03bde6120b534a.svg",
+      "svg_transparent": "sources/reviewed-chungbuk-20261010/cf03bde6120b534a.svg",
+      "logo_png": "sources/reviewed-chungbuk-20261010/96c7caf088f932ae.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/north-chungcheong/sources/reviewed-chungbuk-20261010/96c7caf088f932ae.png",
+      "presentation": {
+        "file": "sources/reviewed-chungbuk-20261010/96c7caf088f932ae.png",
+        "bg": "light"
+      },
+      "light": false,
+      "light_logo": false,
+      "dark_variant": false,
+      "variants_n": 37,
+      "asset_origin": "충청북도 공식 CI·BI · 공공누리 제4유형(출처표시·비상업·변경금지)",
+      "official_source_page": "https://www.chungbuk.go.kr/brand/contents.do?key=4714",
+      "logo_published_at": "2026-10-10T06:13:25.433119+00:00",
+      "name_en": "Chungcheongbuk-do",
+      "rejected_asset_files": [
+        "logo.png",
+        "logo-800.png",
+        "logo-transparent.png",
+        "logo-white.png",
+        "logo-icon.png"
+      ],
+      "license": "공공누리 제4유형",
+      "license_note": "출처표시 / 비상업적 이용만 가능 / 변경금지. 충청북도의 공식 후원·협찬·인증으로 오인되는 표현 금지."
+    },
+    "gongu-ci-1518": {
+      "variant_of": "north-chungcheong",
+      "merged_into": "north-chungcheong",
+      "hidden": false,
+      "hidden_reason": "충청북도 공식 CI·BI 콘텐츠로 통합"
+    }
+  },
+  "variants": {
+    "north-chungcheong": {
+      "schema": 1,
+      "algo_v": 2,
+      "id": "north-chungcheong",
+      "primary": "ci-horizontal-ko",
+      "variants": [
+        {
+          "key": "ci-horizontal-ko",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "ko",
+          "text_layout": "ko",
+          "color": "original",
+          "label": "CI · 국문 좌우조합",
+          "files": {
+            "svg": "sources/reviewed-chungbuk-20261010/cf03bde6120b534a.svg",
+            "png": "sources/reviewed-chungbuk-20261010/96c7caf088f932ae.png"
+          },
+          "provider": "충청북도 · 공공누리 제4유형 · 출처표시·비상업·변경금지",
+          "origin": "official",
+          "order": 0,
+          "source_url": "https://www.chungbuk.go.kr/brand/contents.do?key=4714"
+        },
+        {
+          "key": "ci-symbol",
+          "form": "symbol",
+          "lockup": "symbol",
+          "lang": "none",
+          "text_layout": "none",
+          "color": "original",
+          "label": "CI · 심볼마크",
+          "files": {
+            "svg": "sources/reviewed-chungbuk-20261010/c6334ad457fa8d8f.svg",
+            "png": "sources/reviewed-chungbuk-20261010/d7015ee22a69ae40.png"
+          },
+          "provider": "충청북도 · 공공누리 제4유형 · 출처표시·비상업·변경금지",
+          "origin": "official",
+          "order": 1,
+          "source_url": "https://www.chungbuk.go.kr/brand/contents.do?key=4714"
+        },
+        {
+          "key": "ci-vertical-ko",
+          "form": "vertical",
+          "lockup": "vertical",
+          "lang": "ko",
+          "text_layout": "ko",
+          "color": "original",
+          "label": "CI · 국문 상하조합",
+          "files": {
+            "svg": "sources/reviewed-chungbuk-20261010/8d76d880deab12d5.svg",
+            "png": "sources/reviewed-chungbuk-20261010/07e94bcd167ed93c.png"
+          },
+          "provider": "충청북도 · 공공누리 제4유형 · 출처표시·비상업·변경금지",
+          "origin": "official",
+          "order": 2,
+          "source_url": "https://www.chungbuk.go.kr/brand/contents.do?key=4714"
+        },
+        {
+          "key": "ci-vertical-ko-en",
+          "form": "vertical",
+          "lockup": "vertical",
+          "lang": "ko-en",
+          "text_layout": "ko-en",
+          "color": "original",
+          "label": "CI · 국영문 상하조합",
+          "files": {
+            "svg": "sources/reviewed-chungbuk-20261010/bab36be159a8d162.svg",
+            "png": "sources/reviewed-chungbuk-20261010/3d67afeada5a5684.png"
+          },
+          "provider": "충청북도 · 공공누리 제4유형 · 출처표시·비상업·변경금지",
+          "origin": "official",
+          "order": 3,
+          "source_url": "https://www.chungbuk.go.kr/brand/contents.do?key=4714"
+        },
+        {
+          "key": "ci-vertical-en",
+          "form": "vertical",
+          "lockup": "vertical",
+          "lang": "en",
+          "text_layout": "en",
+          "color": "original",
+          "label": "CI · 영문 CHUNGBUK 상하조합",
+          "files": {
+            "svg": "sources/reviewed-chungbuk-20261010/f3e8317afe686e78.svg",
+            "png": "sources/reviewed-chungbuk-20261010/a3c4fbab84507930.png"
+          },
+          "provider": "충청북도 · 공공누리 제4유형 · 출처표시·비상업·변경금지",
+          "origin": "official",
+          "order": 4,
+          "source_url": "https://www.chungbuk.go.kr/brand/contents.do?key=4714"
+        },
+        {
+          "key": "ci-vertical-full-en",
+          "form": "vertical",
+          "lockup": "vertical",
+          "lang": "en",
+          "text_layout": "en",
+          "color": "original",
+          "label": "CI · 영문 전체명 상하조합",
+          "files": {
+            "svg": "sources/reviewed-chungbuk-20261010/54a2ebf019fd217b.svg",
+            "png": "sources/reviewed-chungbuk-20261010/3102d2f6ed4ad248.png"
+          },
+          "provider": "충청북도 · 공공누리 제4유형 · 출처표시·비상업·변경금지",
+          "origin": "official",
+          "order": 5,
+          "source_url": "https://www.chungbuk.go.kr/brand/contents.do?key=4714"
+        },
+        {
+          "key": "ci-vertical-han",
+          "form": "vertical",
+          "lockup": "vertical",
+          "lang": "other",
+          "text_layout": "other",
+          "color": "original",
+          "label": "CI · 한자 상하조합",
+          "files": {
+            "svg": "sources/reviewed-chungbuk-20261010/92c0d31b82e45303.svg",
+            "png": "sources/reviewed-chungbuk-20261010/06156f7ebbfef072.png"
+          },
+          "provider": "충청북도 · 공공누리 제4유형 · 출처표시·비상업·변경금지",
+          "origin": "official",
+          "order": 6,
+          "source_url": "https://www.chungbuk.go.kr/brand/contents.do?key=4714"
+        },
+        {
+          "key": "ci-horizontal-ko-en",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "ko-en",
+          "text_layout": "ko-en",
+          "color": "original",
+          "label": "CI · 국영문 좌우조합",
+          "files": {
+            "svg": "sources/reviewed-chungbuk-20261010/0e0c8bae1881bee5.svg",
+            "png": "sources/reviewed-chungbuk-20261010/7efbfbe1bd2ab6c4.png"
+          },
+          "provider": "충청북도 · 공공누리 제4유형 · 출처표시·비상업·변경금지",
+          "origin": "official",
+          "order": 7,
+          "source_url": "https://www.chungbuk.go.kr/brand/contents.do?key=4714"
+        },
+        {
+          "key": "ci-horizontal-en",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "en",
+          "text_layout": "en",
+          "color": "original",
+          "label": "CI · 영문 CHUNGBUK 좌우조합",
+          "files": {
+            "svg": "sources/reviewed-chungbuk-20261010/b16f38b032e11ce5.svg",
+            "png": "sources/reviewed-chungbuk-20261010/75842ca6a85aae22.png"
+          },
+          "provider": "충청북도 · 공공누리 제4유형 · 출처표시·비상업·변경금지",
+          "origin": "official",
+          "order": 8,
+          "source_url": "https://www.chungbuk.go.kr/brand/contents.do?key=4714"
+        },
+        {
+          "key": "ci-horizontal-full-en",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "en",
+          "text_layout": "en",
+          "color": "original",
+          "label": "CI · 영문 전체명 좌우조합",
+          "files": {
+            "svg": "sources/reviewed-chungbuk-20261010/65069efb2350fb77.svg",
+            "png": "sources/reviewed-chungbuk-20261010/98b7eb6f15a0be96.png"
+          },
+          "provider": "충청북도 · 공공누리 제4유형 · 출처표시·비상업·변경금지",
+          "origin": "official",
+          "order": 9,
+          "source_url": "https://www.chungbuk.go.kr/brand/contents.do?key=4714"
+        },
+        {
+          "key": "ci-horizontal-han",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "other",
+          "text_layout": "other",
+          "color": "original",
+          "label": "CI · 한자 좌우조합",
+          "files": {
+            "svg": "sources/reviewed-chungbuk-20261010/186f3facfed58b65.svg",
+            "png": "sources/reviewed-chungbuk-20261010/115a78a2c48a32b4.png"
+          },
+          "provider": "충청북도 · 공공누리 제4유형 · 출처표시·비상업·변경금지",
+          "origin": "official",
+          "order": 10,
+          "source_url": "https://www.chungbuk.go.kr/brand/contents.do?key=4714"
+        },
+        {
+          "key": "ci-seal",
+          "form": "symbol",
+          "lockup": "symbol",
+          "lang": "ko-en",
+          "text_layout": "ko-en",
+          "color": "original",
+          "label": "CI · 엠블럼",
+          "files": {
+            "svg": "sources/reviewed-chungbuk-20261010/25c72d1505f127a6.svg",
+            "png": "sources/reviewed-chungbuk-20261010/869b82c75ca8c7a5.png"
+          },
+          "provider": "충청북도 · 공공누리 제4유형 · 출처표시·비상업·변경금지",
+          "origin": "official",
+          "order": 11,
+          "source_url": "https://www.chungbuk.go.kr/brand/contents.do?key=4714"
+        },
+        {
+          "key": "ci-stacked-ko",
+          "form": "vertical",
+          "lockup": "vertical",
+          "lang": "ko",
+          "text_layout": "ko",
+          "color": "original",
+          "label": "CI · 국문 세로쓰기",
+          "files": {
+            "svg": "sources/reviewed-chungbuk-20261010/9a7e496154a40ae5.svg",
+            "png": "sources/reviewed-chungbuk-20261010/14455a422ec3402a.png"
+          },
+          "provider": "충청북도 · 공공누리 제4유형 · 출처표시·비상업·변경금지",
+          "origin": "official",
+          "order": 12,
+          "source_url": "https://www.chungbuk.go.kr/brand/contents.do?key=4714"
+        },
+        {
+          "key": "bi-basic",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "ko",
+          "text_layout": "ko",
+          "color": "original",
+          "label": "BI · 중심에 서다 기본형",
+          "files": {
+            "svg": "sources/reviewed-chungbuk-20261010/84d8d0bfd286725d.svg",
+            "png": "sources/reviewed-chungbuk-20261010/428c70fd83e17bc5.png"
+          },
+          "provider": "충청북도 · 공공누리 제4유형 · 출처표시·비상업·변경금지",
+          "origin": "official",
+          "order": 13,
+          "source_url": "https://www.chungbuk.go.kr/brand/contents.do?key=4715"
+        },
+        {
+          "key": "bi-ko",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "ko",
+          "text_layout": "ko",
+          "color": "original",
+          "label": "BI · 충북 대한민국 좌우조합",
+          "files": {
+            "svg": "sources/reviewed-chungbuk-20261010/3bdf524c4e1e1b54.svg",
+            "png": "sources/reviewed-chungbuk-20261010/82aa3ac6e1fbc67c.png"
+          },
+          "provider": "충청북도 · 공공누리 제4유형 · 출처표시·비상업·변경금지",
+          "origin": "official",
+          "order": 14,
+          "source_url": "https://www.chungbuk.go.kr/brand/contents.do?key=4715"
+        },
+        {
+          "key": "bi-horizontal-ko-en",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "ko-en",
+          "text_layout": "ko-en",
+          "color": "original",
+          "label": "BI · 국영문 좌우조합",
+          "files": {
+            "svg": "sources/reviewed-chungbuk-20261010/7fdfa240064a2226.svg",
+            "png": "sources/reviewed-chungbuk-20261010/e2f9d424b19a0932.png"
+          },
+          "provider": "충청북도 · 공공누리 제4유형 · 출처표시·비상업·변경금지",
+          "origin": "official",
+          "order": 15,
+          "source_url": "https://www.chungbuk.go.kr/brand/contents.do?key=4715"
+        },
+        {
+          "key": "bi-horizontal-left",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "ko-en",
+          "text_layout": "ko-en",
+          "color": "original",
+          "label": "BI · 심볼 왼쪽 국영문",
+          "files": {
+            "svg": "sources/reviewed-chungbuk-20261010/87c0c7db33f34b2d.svg",
+            "png": "sources/reviewed-chungbuk-20261010/2cac80be9cd4ea37.png"
+          },
+          "provider": "충청북도 · 공공누리 제4유형 · 출처표시·비상업·변경금지",
+          "origin": "official",
+          "order": 16,
+          "source_url": "https://www.chungbuk.go.kr/brand/contents.do?key=4715"
+        },
+        {
+          "key": "bi-vertical-ko",
+          "form": "vertical",
+          "lockup": "vertical",
+          "lang": "ko",
+          "text_layout": "ko",
+          "color": "original",
+          "label": "BI · 국문 상하조합",
+          "files": {
+            "svg": "sources/reviewed-chungbuk-20261010/c148d9ff2b43a37c.svg",
+            "png": "sources/reviewed-chungbuk-20261010/af1f2d26c443b5ad.png"
+          },
+          "provider": "충청북도 · 공공누리 제4유형 · 출처표시·비상업·변경금지",
+          "origin": "official",
+          "order": 17,
+          "source_url": "https://www.chungbuk.go.kr/brand/contents.do?key=4715"
+        },
+        {
+          "key": "bi-vertical-ko-slogan",
+          "form": "vertical",
+          "lockup": "vertical",
+          "lang": "ko",
+          "text_layout": "ko",
+          "color": "original",
+          "label": "BI · 국문 슬로건 상하조합",
+          "files": {
+            "svg": "sources/reviewed-chungbuk-20261010/5abb8b539acc5a80.svg",
+            "png": "sources/reviewed-chungbuk-20261010/49e1ed6df2c5e253.png"
+          },
+          "provider": "충청북도 · 공공누리 제4유형 · 출처표시·비상업·변경금지",
+          "origin": "official",
+          "order": 18,
+          "source_url": "https://www.chungbuk.go.kr/brand/contents.do?key=4715"
+        },
+        {
+          "key": "bi-vertical-ko-en",
+          "form": "vertical",
+          "lockup": "vertical",
+          "lang": "ko-en",
+          "text_layout": "ko-en",
+          "color": "original",
+          "label": "BI · 국영문 상하조합",
+          "files": {
+            "svg": "sources/reviewed-chungbuk-20261010/936186f16e41aff5.svg",
+            "png": "sources/reviewed-chungbuk-20261010/6136ad52ebc3a1c8.png"
+          },
+          "provider": "충청북도 · 공공누리 제4유형 · 출처표시·비상업·변경금지",
+          "origin": "official",
+          "order": 19,
+          "source_url": "https://www.chungbuk.go.kr/brand/contents.do?key=4715"
+        },
+        {
+          "key": "bi-map",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "ko",
+          "text_layout": "ko",
+          "color": "original",
+          "label": "BI · 충북 지도 응용형",
+          "files": {
+            "svg": "sources/reviewed-chungbuk-20261010/3d1b9eb18975946b.svg",
+            "png": "sources/reviewed-chungbuk-20261010/909572392b5357b8.png"
+          },
+          "provider": "충청북도 · 공공누리 제4유형 · 출처표시·비상업·변경금지",
+          "origin": "official",
+          "order": 20,
+          "source_url": "https://www.chungbuk.go.kr/brand/contents.do?key=4715"
+        },
+        {
+          "key": "bi-global",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "ko",
+          "text_layout": "ko",
+          "color": "original",
+          "label": "BI · 글로벌 응용형",
+          "files": {
+            "svg": "sources/reviewed-chungbuk-20261010/1ff504aed9a0d014.svg",
+            "png": "sources/reviewed-chungbuk-20261010/a188a12761660dfc.png"
+          },
+          "provider": "충청북도 · 공공누리 제4유형 · 출처표시·비상업·변경금지",
+          "origin": "official",
+          "order": 21,
+          "source_url": "https://www.chungbuk.go.kr/brand/contents.do?key=4715"
+        },
+        {
+          "key": "bi-environment",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "ko",
+          "text_layout": "ko",
+          "color": "original",
+          "label": "BI · 청정환경 응용형",
+          "files": {
+            "svg": "sources/reviewed-chungbuk-20261010/f2082963bd55203a.svg",
+            "png": "sources/reviewed-chungbuk-20261010/9e843274251361c6.png"
+          },
+          "provider": "충청북도 · 공공누리 제4유형 · 출처표시·비상업·변경금지",
+          "origin": "official",
+          "order": 22,
+          "source_url": "https://www.chungbuk.go.kr/brand/contents.do?key=4715"
+        },
+        {
+          "key": "bi-bio",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "ko",
+          "text_layout": "ko",
+          "color": "original",
+          "label": "BI · 바이오 응용형",
+          "files": {
+            "svg": "sources/reviewed-chungbuk-20261010/660e848896ad1703.svg",
+            "png": "sources/reviewed-chungbuk-20261010/5fee46bad7f58fc1.png"
+          },
+          "provider": "충청북도 · 공공누리 제4유형 · 출처표시·비상업·변경금지",
+          "origin": "official",
+          "order": 23,
+          "source_url": "https://www.chungbuk.go.kr/brand/contents.do?key=4715"
+        },
+        {
+          "key": "bi-welfare",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "ko",
+          "text_layout": "ko",
+          "color": "original",
+          "label": "BI · 복지 응용형",
+          "files": {
+            "svg": "sources/reviewed-chungbuk-20261010/3333f9424ce51cd8.svg",
+            "png": "sources/reviewed-chungbuk-20261010/a284c7f91baae418.png"
+          },
+          "provider": "충청북도 · 공공누리 제4유형 · 출처표시·비상업·변경금지",
+          "origin": "official",
+          "order": 24,
+          "source_url": "https://www.chungbuk.go.kr/brand/contents.do?key=4715"
+        },
+        {
+          "key": "bi-culture",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "ko",
+          "text_layout": "ko",
+          "color": "original",
+          "label": "BI · 문화 응용형",
+          "files": {
+            "svg": "sources/reviewed-chungbuk-20261010/7e98e2f0952bae04.svg",
+            "png": "sources/reviewed-chungbuk-20261010/33581dcedf35cf9f.png"
+          },
+          "provider": "충청북도 · 공공누리 제4유형 · 출처표시·비상업·변경금지",
+          "origin": "official",
+          "order": 25,
+          "source_url": "https://www.chungbuk.go.kr/brand/contents.do?key=4715"
+        },
+        {
+          "key": "bi-transport",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "ko",
+          "text_layout": "ko",
+          "color": "original",
+          "label": "BI · 교통 응용형",
+          "files": {
+            "svg": "sources/reviewed-chungbuk-20261010/3b1dbfbc7e038baa.svg",
+            "png": "sources/reviewed-chungbuk-20261010/f01bfe58aaf88691.png"
+          },
+          "provider": "충청북도 · 공공누리 제4유형 · 출처표시·비상업·변경금지",
+          "origin": "official",
+          "order": 26,
+          "source_url": "https://www.chungbuk.go.kr/brand/contents.do?key=4715"
+        },
+        {
+          "key": "bi-en-center",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "en",
+          "text_layout": "en",
+          "color": "original",
+          "label": "BI · 영문 중앙 심볼",
+          "files": {
+            "png": "sources/reviewed-chungbuk-20261010/cd0662bc286a249b.png"
+          },
+          "provider": "충청북도 · 공공누리 제4유형 · 출처표시·비상업·변경금지",
+          "origin": "official",
+          "order": 27,
+          "source_url": "https://www.chungbuk.go.kr/site/brand/images/contents/new/bi_img04.png"
+        },
+        {
+          "key": "bi-en-vertical",
+          "form": "vertical",
+          "lockup": "vertical",
+          "lang": "en",
+          "text_layout": "en",
+          "color": "original",
+          "label": "BI · 영문 상하조합",
+          "files": {
+            "png": "sources/reviewed-chungbuk-20261010/0b0abdb946ac5e46.png"
+          },
+          "provider": "충청북도 · 공공누리 제4유형 · 출처표시·비상업·변경금지",
+          "origin": "official",
+          "order": 28,
+          "source_url": "https://www.chungbuk.go.kr/site/brand/images/contents/new/bi_img04.png"
+        },
+        {
+          "key": "bi-en-left",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "en",
+          "text_layout": "en",
+          "color": "original",
+          "label": "BI · 영문 좌우조합",
+          "files": {
+            "png": "sources/reviewed-chungbuk-20261010/c40b3ec0e555ded1.png"
+          },
+          "provider": "충청북도 · 공공누리 제4유형 · 출처표시·비상업·변경금지",
+          "origin": "official",
+          "order": 29,
+          "source_url": "https://www.chungbuk.go.kr/site/brand/images/contents/new/bi_img04.png"
+        },
+        {
+          "key": "bi-en-left-stacked",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "en",
+          "text_layout": "en",
+          "color": "original",
+          "label": "BI · 영문 줄바꿈 좌우조합",
+          "files": {
+            "png": "sources/reviewed-chungbuk-20261010/34384c7b86db8e97.png"
+          },
+          "provider": "충청북도 · 공공누리 제4유형 · 출처표시·비상업·변경금지",
+          "origin": "official",
+          "order": 30,
+          "source_url": "https://www.chungbuk.go.kr/site/brand/images/contents/new/bi_img04.png"
+        },
+        {
+          "key": "bi-wordmark",
+          "form": "wordmark",
+          "lockup": "wordmark",
+          "lang": "ko-en",
+          "text_layout": "ko-en",
+          "color": "original",
+          "label": "BI · 그라디언트 워드마크",
+          "files": {
+            "png": "sources/reviewed-chungbuk-20261010/17b9dd94fcff3b21.png"
+          },
+          "provider": "충청북도 · 공공누리 제4유형 · 출처표시·비상업·변경금지",
+          "origin": "official",
+          "order": 31,
+          "source_url": "https://www.chungbuk.go.kr/site/brand/images/contents/new/bi_img05.png"
+        },
+        {
+          "key": "bi-wordmark-lockup-1",
+          "form": "wordmark",
+          "lockup": "wordmark",
+          "lang": "ko-en",
+          "text_layout": "ko-en",
+          "color": "original",
+          "label": "BI · 워드마크 조합 1",
+          "files": {
+            "png": "sources/reviewed-chungbuk-20261010/ed6e9f9df91cfa30.png"
+          },
+          "provider": "충청북도 · 공공누리 제4유형 · 출처표시·비상업·변경금지",
+          "origin": "official",
+          "order": 32,
+          "source_url": "https://www.chungbuk.go.kr/site/brand/images/contents/new/bi_img06.png"
+        },
+        {
+          "key": "bi-wordmark-lockup-2",
+          "form": "wordmark",
+          "lockup": "wordmark",
+          "lang": "ko-en",
+          "text_layout": "ko-en",
+          "color": "original",
+          "label": "BI · 워드마크 조합 2",
+          "files": {
+            "png": "sources/reviewed-chungbuk-20261010/72e6ba58bf8a30be.png"
+          },
+          "provider": "충청북도 · 공공누리 제4유형 · 출처표시·비상업·변경금지",
+          "origin": "official",
+          "order": 33,
+          "source_url": "https://www.chungbuk.go.kr/site/brand/images/contents/new/bi_img06.png"
+        },
+        {
+          "key": "bi-wordmark-lockup-3",
+          "form": "wordmark",
+          "lockup": "wordmark",
+          "lang": "ko-en",
+          "text_layout": "ko-en",
+          "color": "original",
+          "label": "BI · 워드마크 조합 3",
+          "files": {
+            "png": "sources/reviewed-chungbuk-20261010/3d9d1939beab3cd2.png"
+          },
+          "provider": "충청북도 · 공공누리 제4유형 · 출처표시·비상업·변경금지",
+          "origin": "official",
+          "order": 34,
+          "source_url": "https://www.chungbuk.go.kr/site/brand/images/contents/new/bi_img06.png"
+        },
+        {
+          "key": "bi-wordmark-lockup-4",
+          "form": "wordmark",
+          "lockup": "wordmark",
+          "lang": "ko-en",
+          "text_layout": "ko-en",
+          "color": "original",
+          "label": "BI · 워드마크 조합 4",
+          "files": {
+            "png": "sources/reviewed-chungbuk-20261010/877790c3ecb9c271.png"
+          },
+          "provider": "충청북도 · 공공누리 제4유형 · 출처표시·비상업·변경금지",
+          "origin": "official",
+          "order": 35,
+          "source_url": "https://www.chungbuk.go.kr/site/brand/images/contents/new/bi_img06.png"
+        },
+        {
+          "key": "bi-ko-left",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "ko",
+          "text_layout": "ko",
+          "color": "original",
+          "label": "BI · 국문 슬로건 좌우조합",
+          "files": {
+            "png": "sources/reviewed-chungbuk-20261010/0a7f8d59e549a68a.png"
+          },
+          "provider": "충청북도 · 공공누리 제4유형 · 출처표시·비상업·변경금지",
+          "origin": "official",
+          "order": 36,
+          "source_url": "https://www.chungbuk.go.kr/site/brand/images/contents/new/bi_img03.png"
+        }
+      ]
+    }
+  }
+}

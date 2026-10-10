@@ -1,0 +1,160 @@
+{
+  "patches": {
+    "kr-kepco": {
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": "sources/reviewed-kepco-20261010/1f0e470e3cca1ffd.svg",
+      "svg_transparent": "sources/reviewed-kepco-20261010/1f0e470e3cca1ffd.svg",
+      "logo_png": "sources/reviewed-kepco-20261010/7339a45f2618aa04.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/kr-kepco/sources/reviewed-kepco-20261010/7339a45f2618aa04.png",
+      "presentation": {
+        "file": "sources/reviewed-kepco-20261010/7339a45f2618aa04.png",
+        "bg": "light"
+      },
+      "light": false,
+      "light_logo": false,
+      "dark_variant": false,
+      "variants_n": 6,
+      "asset_origin": "한국전력공사 CI 사용자 제공 AI · 시그니처·심볼·레터마크 분리",
+      "logo_published_at": "2026-10-10T06:11:15.252931+00:00",
+      "rejected_asset_files": [
+        "logo.png",
+        "logo.svg",
+        "logo-800.png",
+        "logo-transparent.png",
+        "logo-white.png",
+        "logo-icon.png"
+      ]
+    },
+    "kepco-co": {
+      "variant_of": "kr-kepco",
+      "merged_into": "kr-kepco",
+      "hidden": false,
+      "hidden_reason": "한국전력공사 공식 CI 조합형 콘텐츠로 통합"
+    },
+    "kepco-logo-ko-en": {
+      "variant_of": "kr-kepco",
+      "merged_into": "kr-kepco",
+      "hidden": false,
+      "hidden_reason": "한국전력공사 공식 CI 조합형 콘텐츠로 통합"
+    },
+    "kepco--src-ee4d647": {
+      "variant_of": "kr-kepco",
+      "merged_into": "kr-kepco",
+      "hidden": false,
+      "hidden_reason": "한국전력공사 공식 CI 조합형 콘텐츠로 통합"
+    },
+    "gongu-ci-1675": {
+      "variant_of": "kr-kepco",
+      "merged_into": "kr-kepco",
+      "hidden": false,
+      "hidden_reason": "한국전력공사 공식 CI 조합형 콘텐츠로 통합"
+    }
+  },
+  "variants": {
+    "kr-kepco": {
+      "schema": 1,
+      "algo_v": 2,
+      "id": "kr-kepco",
+      "primary": "horizontal-ko",
+      "variants": [
+        {
+          "key": "horizontal-ko",
+          "label": "가로조합형 · 한국전력공사",
+          "form": "horizontal",
+          "lang": "ko",
+          "lockup": "horizontal",
+          "text_layout": "ko",
+          "color": "original",
+          "files": {
+            "svg": "sources/reviewed-kepco-20261010/1f0e470e3cca1ffd.svg",
+            "png": "sources/reviewed-kepco-20261010/7339a45f2618aa04.png"
+          },
+          "provider": "한국전력공사 CI · 사용자 제공 AI",
+          "origin": "official",
+          "order": 0
+        },
+        {
+          "key": "horizontal-ko-short",
+          "label": "가로조합형 · 한국전력",
+          "form": "horizontal",
+          "lang": "ko",
+          "lockup": "horizontal",
+          "text_layout": "ko",
+          "color": "original",
+          "files": {
+            "svg": "sources/reviewed-kepco-20261010/3539b7b7c4c56e63.svg",
+            "png": "sources/reviewed-kepco-20261010/9dca8d35f7c6e519.png"
+          },
+          "provider": "한국전력공사 CI · 사용자 제공 AI",
+          "origin": "official",
+          "order": 1
+        },
+        {
+          "key": "horizontal-ko-en",
+          "label": "가로조합형 · 국영문",
+          "form": "horizontal",
+          "lang": "ko-en",
+          "lockup": "horizontal",
+          "text_layout": "ko-en",
+          "color": "original",
+          "files": {
+            "svg": "sources/reviewed-kepco-20261010/1ea525b6cf35dbcc.svg",
+            "png": "sources/reviewed-kepco-20261010/89e2c1e25248bac1.png"
+          },
+          "provider": "한국전력공사 CI · 사용자 제공 AI",
+          "origin": "official",
+          "order": 2
+        },
+        {
+          "key": "horizontal-en",
+          "label": "가로조합형 · KEPCO",
+          "form": "horizontal",
+          "lang": "en",
+          "lockup": "horizontal",
+          "text_layout": "en",
+          "color": "original",
+          "files": {
+            "svg": "sources/reviewed-kepco-20261010/521eae594a1258b0.svg",
+            "png": "sources/reviewed-kepco-20261010/305fbb65f26e5bed.png"
+          },
+          "provider": "한국전력공사 CI · 사용자 제공 AI",
+          "origin": "official",
+          "order": 3
+        },
+        {
+          "key": "symbol",
+          "label": "심볼마크",
+          "form": "symbol",
+          "lang": "none",
+          "lockup": "symbol",
+          "text_layout": "none",
+          "color": "original",
+          "files": {
+            "svg": "sources/reviewed-kepco-20261010/773c20a08cc797bd.svg",
+            "png": "sources/reviewed-kepco-20261010/95c3a902926c9662.png"
+          },
+          "provider": "한국전력공사 CI · 사용자 제공 AI",
+          "origin": "official",
+          "order": 4
+        },
+        {
+          "key": "lettermark",
+          "label": "레터마크 · KEPCO",
+          "form": "wordmark",
+          "lang": "en",
+          "lockup": "wordmark",
+          "text_layout": "en",
+          "color": "original",
+          "files": {
+            "svg": "sources/reviewed-kepco-20261010/f2ca5dd19fa3a21f.svg",
+            "png": "sources/reviewed-kepco-20261010/758266b448b72aee.png"
+          },
+          "provider": "한국전력공사 CI · 사용자 제공 AI",
+          "origin": "official",
+          "order": 5
+        }
+      ]
+    }
+  }
+}

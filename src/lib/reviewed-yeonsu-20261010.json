@@ -1,0 +1,288 @@
+{
+  "patches": {
+    "yeonsu": {
+      "name_ko": "인천광역시 연수구",
+      "name_en": "Yeonsu-gu",
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": "sources/reviewed-yeonsu-20261010/088336988f8e2e74.svg",
+      "svg_transparent": "sources/reviewed-yeonsu-20261010/088336988f8e2e74.svg",
+      "logo_png": "sources/reviewed-yeonsu-20261010/e9a91da13021075c.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/yeonsu/sources/reviewed-yeonsu-20261010/e9a91da13021075c.png",
+      "presentation": {
+        "file": "sources/reviewed-yeonsu-20261010/e9a91da13021075c.png",
+        "bg": "light"
+      },
+      "light": false,
+      "light_logo": false,
+      "dark_variant": false,
+      "variants_n": 15,
+      "asset_origin": "사용자 제공 연수구 AI 원본 · 로고·시그니처·마스코트 개별 객체 추출",
+      "rejected_asset_files": [
+        "logo.png",
+        "logo.svg",
+        "logo-800.png",
+        "logo-transparent.png",
+        "logo-white.png",
+        "logo-icon.png"
+      ],
+      "logo_published_at": "2026-10-10T06:10:35Z"
+    },
+    "gongu-ci-1371": {
+      "variant_of": "yeonsu",
+      "merged_into": "yeonsu",
+      "hidden": false,
+      "hidden_reason": "연수구 로고·시그니처·마스코트 콘텐츠로 통합"
+    }
+  },
+  "variants": {
+    "yeonsu": {
+      "schema": 1,
+      "algo_v": 2,
+      "id": "yeonsu",
+      "primary": "logo",
+      "variants": [
+        {
+          "key": "logo",
+          "form": "wordmark",
+          "lockup": "wordmark",
+          "lang": "en",
+          "text_layout": "en",
+          "color": "original",
+          "label": "로고타입 · 영문",
+          "files": {
+            "svg": "sources/reviewed-yeonsu-20261010/088336988f8e2e74.svg",
+            "png": "sources/reviewed-yeonsu-20261010/e9a91da13021075c.png"
+          },
+          "provider": "연수구 BI·캐릭터 가이드 · 사용자 제공 AI",
+          "origin": "official",
+          "order": 0
+        },
+        {
+          "key": "signature-ko-a",
+          "form": "vertical",
+          "lockup": "vertical",
+          "lang": "ko-en",
+          "text_layout": "ko-en",
+          "color": "original",
+          "label": "시그니처 · 국문 A",
+          "files": {
+            "svg": "sources/reviewed-yeonsu-20261010/7adc2528a23845b8.svg",
+            "png": "sources/reviewed-yeonsu-20261010/ded73444cf716a58.png"
+          },
+          "provider": "연수구 BI·캐릭터 가이드 · 사용자 제공 AI",
+          "origin": "official",
+          "order": 1
+        },
+        {
+          "key": "signature-ko-b",
+          "form": "vertical",
+          "lockup": "vertical",
+          "lang": "ko-en",
+          "text_layout": "ko-en",
+          "color": "original",
+          "label": "시그니처 · 국문 B",
+          "files": {
+            "svg": "sources/reviewed-yeonsu-20261010/b5bd60a4757c1a69.svg",
+            "png": "sources/reviewed-yeonsu-20261010/4f5e1c4bf431017c.png"
+          },
+          "provider": "연수구 BI·캐릭터 가이드 · 사용자 제공 AI",
+          "origin": "official",
+          "order": 2
+        },
+        {
+          "key": "signature-hanja-a",
+          "form": "vertical",
+          "lockup": "vertical",
+          "lang": "other",
+          "text_layout": "other",
+          "color": "original",
+          "label": "시그니처 · 한자 A",
+          "files": {
+            "svg": "sources/reviewed-yeonsu-20261010/d6026a5df4da8da8.svg",
+            "png": "sources/reviewed-yeonsu-20261010/6713372c401b9a81.png"
+          },
+          "provider": "연수구 BI·캐릭터 가이드 · 사용자 제공 AI",
+          "origin": "official",
+          "order": 3
+        },
+        {
+          "key": "signature-hanja-b",
+          "form": "vertical",
+          "lockup": "vertical",
+          "lang": "other",
+          "text_layout": "other",
+          "color": "original",
+          "label": "시그니처 · 한자 B",
+          "files": {
+            "svg": "sources/reviewed-yeonsu-20261010/97c04f45aa843517.svg",
+            "png": "sources/reviewed-yeonsu-20261010/0255aec9921b948a.png"
+          },
+          "provider": "연수구 BI·캐릭터 가이드 · 사용자 제공 AI",
+          "origin": "official",
+          "order": 4
+        },
+        {
+          "key": "mascot-basic",
+          "form": "mascot",
+          "lockup": "unknown",
+          "lang": "none",
+          "text_layout": "none",
+          "color": "original",
+          "label": "마스코트 · 기본형",
+          "files": {
+            "svg": "sources/reviewed-yeonsu-20261010/fc3ecd66f1f24ec4.svg",
+            "png": "sources/reviewed-yeonsu-20261010/e8102ac6bec64322.png"
+          },
+          "provider": "연수구 BI·캐릭터 가이드 · 사용자 제공 AI",
+          "origin": "official",
+          "order": 5
+        },
+        {
+          "key": "mascot-application-1",
+          "form": "mascot",
+          "lockup": "unknown",
+          "lang": "none",
+          "text_layout": "none",
+          "color": "original",
+          "label": "마스코트 · 응용형 1",
+          "files": {
+            "svg": "sources/reviewed-yeonsu-20261010/eb65b239bd3d5f58.svg",
+            "png": "sources/reviewed-yeonsu-20261010/4e642eff88d34464.png"
+          },
+          "provider": "연수구 BI·캐릭터 가이드 · 사용자 제공 AI",
+          "origin": "official",
+          "order": 6
+        },
+        {
+          "key": "mascot-application-2",
+          "form": "mascot",
+          "lockup": "unknown",
+          "lang": "none",
+          "text_layout": "none",
+          "color": "original",
+          "label": "마스코트 · 응용형 2",
+          "files": {
+            "svg": "sources/reviewed-yeonsu-20261010/415f8940039245aa.svg",
+            "png": "sources/reviewed-yeonsu-20261010/9d0eb2de3ab0f937.png"
+          },
+          "provider": "연수구 BI·캐릭터 가이드 · 사용자 제공 AI",
+          "origin": "official",
+          "order": 7
+        },
+        {
+          "key": "mascot-application-3",
+          "form": "mascot",
+          "lockup": "unknown",
+          "lang": "none",
+          "text_layout": "none",
+          "color": "original",
+          "label": "마스코트 · 응용형 3",
+          "files": {
+            "svg": "sources/reviewed-yeonsu-20261010/bdd390cf3357a784.svg",
+            "png": "sources/reviewed-yeonsu-20261010/9c90cb2e5853c426.png"
+          },
+          "provider": "연수구 BI·캐릭터 가이드 · 사용자 제공 AI",
+          "origin": "official",
+          "order": 8
+        },
+        {
+          "key": "mascot-application-4",
+          "form": "mascot",
+          "lockup": "unknown",
+          "lang": "none",
+          "text_layout": "none",
+          "color": "original",
+          "label": "마스코트 · 응용형 4",
+          "files": {
+            "svg": "sources/reviewed-yeonsu-20261010/96cc5d7a74fb9620.svg",
+            "png": "sources/reviewed-yeonsu-20261010/969343fa461bdfd4.png"
+          },
+          "provider": "연수구 BI·캐릭터 가이드 · 사용자 제공 AI",
+          "origin": "official",
+          "order": 9
+        },
+        {
+          "key": "mascot-application-5",
+          "form": "mascot",
+          "lockup": "unknown",
+          "lang": "none",
+          "text_layout": "none",
+          "color": "original",
+          "label": "마스코트 · 응용형 5",
+          "files": {
+            "svg": "sources/reviewed-yeonsu-20261010/b1a72990a70d98ee.svg",
+            "png": "sources/reviewed-yeonsu-20261010/1346d76690032aaa.png"
+          },
+          "provider": "연수구 BI·캐릭터 가이드 · 사용자 제공 AI",
+          "origin": "official",
+          "order": 10
+        },
+        {
+          "key": "mascot-application-6",
+          "form": "mascot",
+          "lockup": "unknown",
+          "lang": "none",
+          "text_layout": "none",
+          "color": "original",
+          "label": "마스코트 · 응용형 6",
+          "files": {
+            "svg": "sources/reviewed-yeonsu-20261010/c2a303e5319c9492.svg",
+            "png": "sources/reviewed-yeonsu-20261010/ef15b22e3fff6808.png"
+          },
+          "provider": "연수구 BI·캐릭터 가이드 · 사용자 제공 AI",
+          "origin": "official",
+          "order": 11
+        },
+        {
+          "key": "mascot-application-7",
+          "form": "mascot",
+          "lockup": "unknown",
+          "lang": "none",
+          "text_layout": "none",
+          "color": "original",
+          "label": "마스코트 · 응용형 7",
+          "files": {
+            "svg": "sources/reviewed-yeonsu-20261010/f8ef283fbc26d019.svg",
+            "png": "sources/reviewed-yeonsu-20261010/1dd44d11adc8f10e.png"
+          },
+          "provider": "연수구 BI·캐릭터 가이드 · 사용자 제공 AI",
+          "origin": "official",
+          "order": 12
+        },
+        {
+          "key": "mascot-application-8",
+          "form": "mascot",
+          "lockup": "unknown",
+          "lang": "none",
+          "text_layout": "none",
+          "color": "original",
+          "label": "마스코트 · 응용형 8",
+          "files": {
+            "svg": "sources/reviewed-yeonsu-20261010/f97ec5b56596fdaa.svg",
+            "png": "sources/reviewed-yeonsu-20261010/d40e4c35a92a168c.png"
+          },
+          "provider": "연수구 BI·캐릭터 가이드 · 사용자 제공 AI",
+          "origin": "official",
+          "order": 13
+        },
+        {
+          "key": "mascot-application-9",
+          "form": "mascot",
+          "lockup": "unknown",
+          "lang": "none",
+          "text_layout": "none",
+          "color": "original",
+          "label": "마스코트 · 응용형 9",
+          "files": {
+            "svg": "sources/reviewed-yeonsu-20261010/1f8f7aa192c687f0.svg",
+            "png": "sources/reviewed-yeonsu-20261010/5714279b64a7c103.png"
+          },
+          "provider": "연수구 BI·캐릭터 가이드 · 사용자 제공 AI",
+          "origin": "official",
+          "order": 14
+        }
+      ]
+    }
+  }
+}

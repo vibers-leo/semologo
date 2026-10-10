@@ -262,7 +262,7 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
    *  흰 로고를 밝은 체커보드에 얹으면 빈 칸으로 보인다 — 팬이지에서 '화이트'
    *  4종이 전부 안 보여 파일이 깨진 것처럼 읽혔다 (2026-08-26). */
   const variantTile = (v: { key: string; color?: string }): React.CSSProperties =>
-    (v.color === "white" || /(^|[-_])white$/.test(v.key)) ? DARK_TILE : tile(CHECKER);
+    (v.color === "white" || v.color === "mono-light" || /(^|[-_])white$/.test(v.key)) ? DARK_TILE : tile(CHECKER);
   // 기관 원본 PNG에는 흰 캔버스가 포함된 경우가 많다. 대표 미리보기는
   // 배경 제거 파생물을 먼저 사용하고, 파생물이 없을 때만 원본으로 폴백한다.
   const mainUrl = hasSvg ? svgUrl : (directPng || darkUrl);
@@ -883,7 +883,7 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
                           <div key={v.key} className="logo-composition-card" style={{ minWidth:0,
                             background:"#fff", border:"1px solid #e4e4e7", borderRadius:12, overflow:"hidden" }}>
                             <div className="logo-composition-preview" style={{
-                              background:candidateBg(pngFile||svgFile||"",v.color==="white"?"dark":"light")==="dark"?"#18181b":"#f8f8fa" }}>
+                              background:candidateBg(pngFile||svgFile||"",v.color==="white"||v.color==="mono-light"?"dark":"light")==="dark"?"#18181b":"#f8f8fa" }}>
                               {/* eslint-disable-next-line @next/next/no-img-element */}
                               <img src={previewUrl} alt={t(logoVariantLabel(v))}
                                 style={{ position:"absolute", inset:12, width:"calc(100% - 24px)",
@@ -929,7 +929,7 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
                                   PNG
                                 </button>
                               )}
-                            </div>{(pngFile || svgFile) && candidateActions(pngFile||svgFile!,logoVariantLabel(v),candidateBg(pngFile||svgFile!,v.color==="white"?"dark":"light"))}</div>
+                            </div>{(pngFile || svgFile) && candidateActions(pngFile||svgFile!,logoVariantLabel(v),candidateBg(pngFile||svgFile!,v.color==="white"||v.color==="mono-light"?"dark":"light"))}</div>
                           </div>
                         );
                       })}
