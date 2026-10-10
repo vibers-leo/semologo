@@ -1,0 +1,10 @@
+{
+  "patches": {
+    "official-ci-next-02": {
+      "variant_of": "gongu-ci-1495",
+      "merged_into": "gongu-ci-1495",
+      "hidden": true,
+      "hidden_reason": "사용자 제공 공식 AI 추출 로고 10종을 청주복지재단 대표 콘텐츠로 통합"
+    }
+  }
+}

@@ -76,7 +76,7 @@ export default function TermsPage() {
             <h2 className="font-bold text-base mb-3">제7조 (문의)</h2>
             <p>이용약관에 관한 문의는 아래로 연락주세요.</p>
             <p className="mt-2">이메일:{" "}
-              <a href="mailto:contact@vibers.co.kr" style={{ color: "#6366f1" }}>contact@vibers.co.kr</a>
+              <a href="mailto:vibers@vibers.co.kr" style={{ color: "#6366f1" }}>vibers@vibers.co.kr</a>
             </p>
           </section>
         </div>

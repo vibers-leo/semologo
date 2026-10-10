@@ -84,7 +84,7 @@ export default function PrivacyPage() {
             <ul className="flex flex-col gap-1 mt-2 pl-4" style={{ listStyleType: "none" }}>
               <li>책임자: 권기원</li>
               <li>이메일:{" "}
-                <a href="mailto:contact@vibers.co.kr" style={{ color: "#6366f1" }}>contact@vibers.co.kr</a>
+                <a href="mailto:vibers@vibers.co.kr" style={{ color: "#6366f1" }}>vibers@vibers.co.kr</a>
               </li>
             </ul>
           </section>

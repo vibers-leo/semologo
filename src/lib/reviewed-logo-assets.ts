@@ -25,7 +25,22 @@ import svgPreviews from './reviewed-svg-previews-20261010.json';
 import baeminGuide from './reviewed-baemin-guide-20261010.json';
 import officialAi from './reviewed-official-ai-20261010.json';
 import nextAssets from './reviewed-assets-next-20261010.json';
-const releasePatches = { ...release.patches, ...backgroundMerge.patches, ...googleTransparent.patches, ...institutions.patches, ...institutionsNext.patches, ...rainbow.patches, ...requestedBackground.patches, ...netflix.patches, ...userSvg.patches, ...claudeMerge.patches, ...lockups.patches, ...yeonsu.patches, ...kepco.patches, ...chungbuk.patches, ...ftc.patches, ...cjwf.patches, ...seongju.patches, ...iconHd.patches, ...userIdentities.patches, ...cityMerges.patches, ...officialRecollection.patches, ...svgPreviews.patches, ...baeminGuide.patches, ...officialAi.patches, ...nextAssets.patches } as unknown as Record<string, Partial<Brand>>;
+import sourceReflection from './reviewed-source-reflection-20261010.json';
+// Later releases often add only counts or icons. Preserve previously reviewed
+// representative paths unless the later patch explicitly replaces that field.
+const releasePatches = mergeBrandPatches([
+  release.patches, backgroundMerge.patches, googleTransparent.patches, institutions.patches, institutionsNext.patches, rainbow.patches, requestedBackground.patches, netflix.patches, userSvg.patches, claudeMerge.patches, lockups.patches, yeonsu.patches, kepco.patches, chungbuk.patches, ftc.patches, cjwf.patches, seongju.patches, iconHd.patches, userIdentities.patches, cityMerges.patches, officialRecollection.patches, svgPreviews.patches, baeminGuide.patches, officialAi.patches, nextAssets.patches, sourceReflection.patches
+]);
+
+function mergeBrandPatches(releases: unknown[]): Record<string, Partial<Brand>> {
+  const merged: Record<string, Partial<Brand>> = {};
+  for (const release of releases) {
+    for (const [id, patch] of Object.entries(release as Record<string, Partial<Brand>>)) {
+      merged[id] = { ...merged[id], ...patch };
+    }
+  }
+  return merged;
+}
 
 // Only visually reviewed transparent assets belong here. Never remove white
 // indiscriminately: the Seongnam symbol contains intentional white artwork.
