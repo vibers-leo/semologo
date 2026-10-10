@@ -809,11 +809,10 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
           {/* 사용 미리보기 */}
           <div>
             <div style={{ fontSize: 11, fontWeight:700, color:"#71717a", letterSpacing:".08em", textTransform:"uppercase", marginBottom:10 }}><T>{"사용 미리보기"}</T></div>
-            <div style={{ display:"grid", gridTemplateColumns:"1fr 1fr 1fr", gap:8 }}>
+            <div style={{ display:"grid", gridTemplateColumns:"1fr 1fr", gap:8 }}>
               {[
                 { label:"OG 16:9", style:{ width:"100%", aspectRatio:"16/9", background: isLightLogo ? "#18181b" : "#f0f0f0", borderRadius:4, overflow:"hidden", position:"relative" } as React.CSSProperties },
-                { label:"파비콘",  style:{ width:28, height:28, background: isLightLogo ? "#18181b" : "#e4e4e7", borderRadius:4, overflow:"hidden", position:"relative" } as React.CSSProperties },
-                { label:"앱 아이콘", style:{ width:46, height:46, background: isLightLogo ? "#18181b" : "#e4e4e7", borderRadius:10, overflow:"hidden", position:"relative" } as React.CSSProperties },
+                { label:"파비콘·앱 아이콘", style:{ width:46, height:46, background: isLightLogo ? "#18181b" : "#e4e4e7", borderRadius:10, overflow:"hidden", position:"relative" } as React.CSSProperties },
               ].map(m => (
                 <div key={t(m.label)} style={{ display:"flex", flexDirection:"column", alignItems:"center", gap:5 }}>
                   <div style={m.style}>

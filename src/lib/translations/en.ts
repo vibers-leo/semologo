@@ -15,7 +15,7 @@ export const english: Record<string, string> = {
   "전체 로고 목록을 준비하고 있어요.":"Loading the full catalog…", "전체 목록 다시 불러오기":"Retry catalog", "지금 불러오기":"Load now",
   "✓ 공식 배포 원본":"✓ Official source", "📘 브랜드 매뉴얼":"📘 Brand guidelines", "🔗 홈페이지":"🔗 Website",
   "🚩 교체 필요":"🚩 Update requested", "검토 필요":"Needs review", "홈으로":"Home", "연관기업":"Related brands", "공식":"Official",
-  "사용 미리보기":"Preview", "보유 형식":"Available formats", "다운로드":"Download", "↓ PNG 다운로드":"↓ Download PNG",
+  "사용 미리보기":"Preview", "파비콘·앱 아이콘":"Favicon & app icon", "보유 형식":"Available formats", "다운로드":"Download", "↓ PNG 다운로드":"↓ Download PNG",
   "🌙 반전 PNG (다크용)":"🌙 Inverted PNG (dark backgrounds)", "로고 변형":"Logo variants", "종 · SVG·PNG 각각 받기":" variants · SVG & PNG downloads",
   "종":" variants", "자동 추출":"Auto-extracted", "👍 추천 · 🔄 교체 요청":"👍 Recommend · 🔄 Request update",
   "다크용":"For dark backgrounds", "반전 PNG":"Inverted PNG", "다크 배경용 흰색 반전":"White inversion for dark backgrounds",
