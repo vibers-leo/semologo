@@ -1084,7 +1084,8 @@
       "variants_n": 5
     },
     "mastercard": {
-      "variants_n": 4
+      "variants_n": 5,
+      "logo_published_at": "2026-10-10T16:21:19.428288+00:00"
     },
     "maestro": {
       "variants_n": 4
@@ -1318,8 +1319,8 @@
       "logo_published_at": "2026-10-10T14:02:46.929739+00:00"
     },
     "tesla": {
-      "variants_n": 3,
-      "logo_published_at": "2026-10-10T14:02:46.929741+00:00"
+      "variants_n": 4,
+      "logo_published_at": "2026-10-10T16:21:19.428288+00:00"
     },
     "twitch": {
       "variants_n": 3,
@@ -1440,8 +1441,8 @@
       "logo_published_at": "2026-10-10T14:02:51.296883+00:00"
     },
     "nvidia": {
-      "variants_n": 1,
-      "logo_published_at": "2026-10-10T14:02:51.296885+00:00"
+      "variants_n": 2,
+      "logo_published_at": "2026-10-10T16:21:19.428288+00:00"
     },
     "mozilla": {
       "variants_n": 2,
@@ -1880,16 +1881,16 @@
       "logo_published_at": "2026-10-10T14:02:54.321826+00:00"
     },
     "ebay": {
-      "variants_n": 1,
-      "logo_published_at": "2026-10-10T14:02:54.321827+00:00"
+      "variants_n": 2,
+      "logo_published_at": "2026-10-10T16:21:19.428288+00:00"
     },
     "prosus": {
       "variants_n": 1,
       "logo_published_at": "2026-10-10T14:02:54.321827+00:00"
     },
     "pepsico": {
-      "variants_n": 2,
-      "logo_published_at": "2026-10-10T14:02:54.321828+00:00"
+      "variants_n": 3,
+      "logo_published_at": "2026-10-10T16:21:19.428288+00:00"
     },
     "tencent": {
       "variants_n": 1,
@@ -2524,8 +2525,8 @@
       "logo_published_at": "2026-10-10T14:25:01.975181+00:00"
     },
     "goldman-sachs": {
-      "variants_n": 3,
-      "logo_published_at": "2026-10-10T14:25:01.975181+00:00"
+      "variants_n": 4,
+      "logo_published_at": "2026-10-10T16:21:19.428288+00:00"
     },
     "glossier-1": {
       "variants_n": 3,
@@ -5977,6 +5978,214 @@
       "official_asset_reviewed": false,
       "added_at": "2026-10-11",
       "logo_published_at": "2026-10-10T15:37:55.146420+00:00"
+    },
+    "americanairlines": {
+      "variants_n": 3,
+      "logo_published_at": "2026-10-10T16:21:19.428288+00:00"
+    },
+    "adp": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-10T16:21:19.428288+00:00"
+    },
+    "csx-corporation": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-10T16:21:19.428288+00:00"
+    },
+    "johndeere": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-10T16:21:19.428288+00:00"
+    },
+    "huntington-ingalls-industries": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-10T16:21:19.428288+00:00"
+    },
+    "unitedairlines": {
+      "variants_n": 3,
+      "logo_published_at": "2026-10-10T16:21:19.428288+00:00"
+    },
+    "citizens-financial-group": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-10T16:21:19.428288+00:00"
+    },
+    "cme-group": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-10T16:21:19.428288+00:00"
+    },
+    "factset": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-10T16:21:19.428288+00:00"
+    },
+    "fifth-third-bank": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-10T16:21:19.428288+00:00"
+    },
+    "wellsfargo": {
+      "variants_n": 3,
+      "logo_published_at": "2026-10-10T16:21:19.428288+00:00"
+    },
+    "trimble": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-10T16:21:19.428288+00:00"
+    },
+    "ansys": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-10T16:21:19.428288+00:00"
+    },
+    "cisco": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-10T16:21:19.428288+00:00"
+    },
+    "fortinet": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-10T16:21:19.428288+00:00"
+    },
+    "cdw": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-10T16:21:19.428288+00:00"
+    },
+    "f5": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-10T16:21:19.428288+00:00"
+    },
+    "msci": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-10T16:21:19.428288+00:00"
+    },
+    "seagate": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-10T16:21:19.428288+00:00"
+    },
+    "analog-devices": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-10T16:21:19.428288+00:00"
+    },
+    "dxc-technology": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-10T16:21:19.428288+00:00"
+    },
+    "hewlett-packard-enterprise": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-10T16:21:19.428288+00:00"
+    },
+    "micron": {
+      "variants_n": 3,
+      "logo_published_at": "2026-10-10T16:21:19.428288+00:00"
+    },
+    "nxp": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-10T16:21:19.428288+00:00"
+    },
+    "dominos": {
+      "variants_n": 3,
+      "logo_published_at": "2026-10-10T16:21:19.428288+00:00"
+    },
+    "expedia-group": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-10T16:21:19.428288+00:00"
+    },
+    "garmin": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-10T16:21:19.428288+00:00"
+    },
+    "generalmotors": {
+      "variants_n": 3,
+      "logo_published_at": "2026-10-10T16:21:19.428288+00:00"
+    },
+    "genuine-parts-company": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-10T16:21:19.428288+00:00"
+    },
+    "hilton": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-10T16:21:19.428288+00:00"
+    },
+    "mcdonalds": {
+      "variants_n": 3,
+      "logo_published_at": "2026-10-10T16:21:19.428288+00:00"
+    },
+    "norwegian-cruise-line": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-10T16:21:19.428288+00:00"
+    },
+    "ralphlauren": {
+      "variants_n": 3,
+      "logo_published_at": "2026-10-10T16:21:19.428288+00:00"
+    },
+    "hershey": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-10T16:21:19.428288+00:00"
+    },
+    "tyson-foods": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-10T16:21:19.428288+00:00"
+    },
+    "campbells": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-10T16:21:19.428288+00:00"
+    },
+    "alliant-energy": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-10T16:21:19.428288+00:00"
+    },
+    "sempra": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-10T16:21:19.428288+00:00"
+    },
+    "exelon": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-10T16:21:19.428288+00:00"
+    },
+    "prologis": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-10T16:21:19.428288+00:00"
+    },
+    "welltower": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-10T16:21:19.428288+00:00"
+    },
+    "host-hotels-resorts": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-10T16:21:19.428288+00:00"
+    },
+    "ball-corporation": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-10T16:21:19.428288+00:00"
+    },
+    "eastman-chemical-company": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-10T16:21:19.428288+00:00"
+    },
+    "ecolab": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-10T16:21:19.428288+00:00"
+    },
+    "vulcan-materials-company": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-10T16:21:19.428288+00:00"
+    },
+    "sherwin-williams": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-10T16:21:19.428288+00:00"
+    },
+    "electronic-arts": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-10T16:21:19.428288+00:00"
+    },
+    "meta": {
+      "variants_n": 3,
+      "logo_published_at": "2026-10-10T16:21:19.428288+00:00"
+    },
+    "omnicom-group": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-10T16:21:19.428288+00:00"
+    },
+    "paloaltonetworks": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-10T16:21:19.428288+00:00"
+    },
+    "take-two": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-10T16:21:19.428288+00:00"
     }
   },
   "variants": {
@@ -13307,6 +13516,27 @@
           "official_distribution": false,
           "order": 92,
           "source_note": "사용자 제공 Logos - Payment (Community).svg에서 원본 벡터 경로/색상을 보존해 카드틀 없이 추출한 커뮤니티 변형. 공식 화이트/흑백 배포본으로 인증된 자료가 아니며 기존 공식 원본과 대표 이미지는 유지."
+        },
+        {
+          "key": "community-sp500-item-0086",
+          "form": "horizontal",
+          "color": "original",
+          "label": "커뮤니티 수록 원형 · 시기 미확인",
+          "files": {
+            "svg": "sources/community-sp500-remainder-20261011/5e48d9608df7a4fc69f6/logo.svg",
+            "png": "sources/community-sp500-remainder-20261011/e1678803282e381b82eb/logo.png"
+          },
+          "preview_png": "sources/community-sp500-remainder-20261011/5fe4f58d86aa13940722/preview.png",
+          "provider": "사용자 제공 S&P 500 Companies Logos Figma Community 수록본",
+          "origin": "community",
+          "official": false,
+          "source_note": "사용자 제공 벡터 원형을 보존하여 추출. 제작 시기 및 최신 CI 여부 미확인. 이 자료의 수록 사실만으로 현재 S&P 500 구성 기업으로 표시하지 않음.",
+          "source_item": "item-0086",
+          "source_sha256": "5e48d9608df7a4fc69f65d70d937f9dc4d9bd8d585e1c75d48cab570241b11a5",
+          "review_status": "verified",
+          "png_width": 2000,
+          "png_height": 1553,
+          "order": 100
         }
       ]
     },
@@ -17376,6 +17606,27 @@
           "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
           "png_width": 2000,
           "png_height": 204
+        },
+        {
+          "key": "community-sp500-item-0189",
+          "form": "horizontal",
+          "color": "original",
+          "label": "커뮤니티 수록 원형 · 시기 미확인",
+          "files": {
+            "svg": "sources/community-sp500-remainder-20261011/0c272e8dd03b7bd40e26/logo.svg",
+            "png": "sources/community-sp500-remainder-20261011/5a30b12057e0e2a27453/logo.png"
+          },
+          "preview_png": "sources/community-sp500-remainder-20261011/8e13f4b71265c2768185/preview.png",
+          "provider": "사용자 제공 S&P 500 Companies Logos Figma Community 수록본",
+          "origin": "community",
+          "official": false,
+          "source_note": "사용자 제공 벡터 원형을 보존하여 추출. 제작 시기 및 최신 CI 여부 미확인. 이 자료의 수록 사실만으로 현재 S&P 500 구성 기업으로 표시하지 않음.",
+          "source_item": "item-0189",
+          "source_sha256": "0c272e8dd03b7bd40e26328852c52f8f69e94c6c5925efca4cea6e39bd49740d",
+          "review_status": "verified",
+          "png_width": 1546,
+          "png_height": 2000,
+          "order": 100
         }
       ]
     },
@@ -19364,6 +19615,27 @@
           "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
           "png_width": 2000,
           "png_height": 380
+        },
+        {
+          "key": "community-sp500-item-0146",
+          "form": "vertical",
+          "color": "original",
+          "label": "커뮤니티 수록 원형 · 시기 미확인",
+          "files": {
+            "svg": "sources/community-sp500-remainder-20261011/e5efba309479927425b6/logo.svg",
+            "png": "sources/community-sp500-remainder-20261011/493ed77ea7d66009ab10/logo.png"
+          },
+          "preview_png": "sources/community-sp500-remainder-20261011/63cd200b18a8303a46f0/preview.png",
+          "provider": "사용자 제공 S&P 500 Companies Logos Figma Community 수록본",
+          "origin": "community",
+          "official": false,
+          "source_note": "사용자 제공 벡터 원형을 보존하여 추출. 제작 시기 및 최신 CI 여부 미확인. 이 자료의 수록 사실만으로 현재 S&P 500 구성 기업으로 표시하지 않음.",
+          "source_item": "item-0146",
+          "source_sha256": "e5efba309479927425b67c286bcb6d6a6fbd92d57ad9e0f541053e8b716f7716",
+          "review_status": "verified",
+          "png_width": 2000,
+          "png_height": 1473,
+          "order": 100
         }
       ]
     },
@@ -23895,6 +24167,27 @@
           "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
           "png_width": 360,
           "png_height": 144
+        },
+        {
+          "key": "community-sp500-item-0154",
+          "form": "horizontal",
+          "color": "original",
+          "label": "커뮤니티 수록 원형 · 시기 미확인",
+          "files": {
+            "svg": "sources/community-sp500-remainder-20261011/894db98d59b78e4270d8/logo.svg",
+            "png": "sources/community-sp500-remainder-20261011/34d10bafa25b1db1eb8e/logo.png"
+          },
+          "preview_png": "sources/community-sp500-remainder-20261011/3740b22b4aec87d65dc2/preview.png",
+          "provider": "사용자 제공 S&P 500 Companies Logos Figma Community 수록본",
+          "origin": "community",
+          "official": false,
+          "source_note": "사용자 제공 벡터 원형을 보존하여 추출. 제작 시기 및 최신 CI 여부 미확인. 이 자료의 수록 사실만으로 현재 S&P 500 구성 기업으로 표시하지 않음.",
+          "source_item": "item-0154",
+          "source_sha256": "894db98d59b78e4270d8e2a25ece859a582b2bae0aec4b2218cc717a7e74189f",
+          "review_status": "verified",
+          "png_width": 2000,
+          "png_height": 802,
+          "order": 100
         }
       ]
     },
@@ -23968,6 +24261,27 @@
           "source_note": "제공 원본에서 추출. 공식 배포 및 최신 CI 시기 미확인. PNG-only는 원본 해상도 그대로 제공.",
           "png_width": 1871,
           "png_height": 432
+        },
+        {
+          "key": "community-sp500-item-0200",
+          "form": "horizontal",
+          "color": "original",
+          "label": "커뮤니티 수록 원형 · 시기 미확인",
+          "files": {
+            "svg": "sources/community-sp500-remainder-20261011/fef6bd382bfeac8dca01/logo.svg",
+            "png": "sources/community-sp500-remainder-20261011/f3dc9aba6346b1bd03b9/logo.png"
+          },
+          "preview_png": "sources/community-sp500-remainder-20261011/c191f46afcc368c40fa6/preview.png",
+          "provider": "사용자 제공 S&P 500 Companies Logos Figma Community 수록본",
+          "origin": "community",
+          "official": false,
+          "source_note": "사용자 제공 벡터 원형을 보존하여 추출. 제작 시기 및 최신 CI 여부 미확인. 이 자료의 수록 사실만으로 현재 S&P 500 구성 기업으로 표시하지 않음.",
+          "source_item": "item-0200",
+          "source_sha256": "fef6bd382bfeac8dca01705cebb5850f6b40af127e1044987da157442b5832ca",
+          "review_status": "verified",
+          "png_width": 2000,
+          "png_height": 462,
+          "order": 100
         }
       ]
     },
@@ -25798,6 +26112,27 @@
           "source_note": "원본 색·흰색 글자·내부 구멍·배경 도형을 그대로 보존. 공식 최신 CI로 표시하지 않습니다. PNG-only는 원본 해상도 그대로 제공합니다.",
           "png_width": 2000,
           "png_height": 765
+        },
+        {
+          "key": "community-sp500-item-0076",
+          "form": "symbol",
+          "color": "original",
+          "label": "커뮤니티 수록 원형 · 시기 미확인",
+          "files": {
+            "svg": "sources/community-sp500-remainder-20261011/3788708678fa69bf696b/logo.svg",
+            "png": "sources/community-sp500-remainder-20261011/18c21d2b1a94b5567a39/logo.png"
+          },
+          "preview_png": "sources/community-sp500-remainder-20261011/9e4d64bc2448d79620c7/preview.png",
+          "provider": "사용자 제공 S&P 500 Companies Logos Figma Community 수록본",
+          "origin": "community",
+          "official": false,
+          "source_note": "사용자 제공 벡터 원형을 보존하여 추출. 제작 시기 및 최신 CI 여부 미확인. 이 자료의 수록 사실만으로 현재 S&P 500 구성 기업으로 표시하지 않음.",
+          "source_item": "item-0076",
+          "source_sha256": "3788708678fa69bf696b645741f89958613b653126f156e0f279102ea8604b4a",
+          "review_status": "verified",
+          "png_width": 2000,
+          "png_height": 2000,
+          "order": 100
         }
       ]
     },
@@ -35760,6 +36095,2645 @@
           "png_height": 144,
           "order": 0,
           "source_note": "PNG 원본 바이트·해상도 보존. SVG 미보유. 미리보기만 축소, 업스케일·벡터 포장 없음. 공식 최신 CI로 주장하지 않음."
+        }
+      ]
+    },
+    "americanairlines": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "americanairlines",
+      "primary": "symbol",
+      "fingerprint": {
+        "logo.svg": "e4c431332eb80c63",
+        "sources/commons-wm/wordmark.svg": "65205d6d5d03549a"
+      },
+      "variants": [
+        {
+          "key": "symbol",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "mono-dark",
+          "label": "심볼형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 1.02,
+          "provider": "unknown",
+          "origin": "collected",
+          "order": 30
+        },
+        {
+          "key": "wordmark",
+          "form": "wordmark",
+          "lang": "unknown",
+          "color": "color",
+          "label": "워드마크형",
+          "files": {
+            "svg": "sources/commons-wm/wordmark.svg"
+          },
+          "aspect": 10.43,
+          "provider": "wikimedia",
+          "origin": "collected",
+          "order": 40
+        },
+        {
+          "key": "community-sp500-item-0002",
+          "form": "horizontal",
+          "color": "original",
+          "label": "커뮤니티 수록 원형 · 시기 미확인",
+          "files": {
+            "svg": "sources/community-sp500-remainder-20261011/01afe49c4ac7a1d72913/logo.svg",
+            "png": "sources/community-sp500-remainder-20261011/9c5746e6006ad731128c/logo.png"
+          },
+          "preview_png": "sources/community-sp500-remainder-20261011/4959ce906532cca437a9/preview.png",
+          "provider": "사용자 제공 S&P 500 Companies Logos Figma Community 수록본",
+          "origin": "community",
+          "official": false,
+          "source_note": "사용자 제공 벡터 원형을 보존하여 추출. 제작 시기 및 최신 CI 여부 미확인. 이 자료의 수록 사실만으로 현재 S&P 500 구성 기업으로 표시하지 않음.",
+          "source_item": "item-0002",
+          "source_sha256": "01afe49c4ac7a1d72913931cd1f3be6cd0ddf5ad0c9b583a2033488f69697719",
+          "review_status": "verified",
+          "png_width": 2000,
+          "png_height": 307,
+          "order": 100
+        }
+      ]
+    },
+    "adp": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "adp",
+      "primary": "horizontal",
+      "fingerprint": {
+        "logo.svg": "d4c78dd8949ad14f"
+      },
+      "variants": [
+        {
+          "key": "horizontal",
+          "form": "horizontal",
+          "lang": "unknown",
+          "color": "mono-dark",
+          "label": "가로조합형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 2.195,
+          "provider": "unknown",
+          "origin": "collected",
+          "order": 10
+        },
+        {
+          "key": "community-sp500-item-0003",
+          "form": "wordmark",
+          "color": "original",
+          "label": "커뮤니티 수록 원형 · 시기 미확인",
+          "files": {
+            "svg": "sources/community-sp500-remainder-20261011/0ac592dc353f729538fc/logo.svg",
+            "png": "sources/community-sp500-remainder-20261011/691e77919930f32f2561/logo.png"
+          },
+          "preview_png": "sources/community-sp500-remainder-20261011/eacbf417d0f8a273f2c1/preview.png",
+          "provider": "사용자 제공 S&P 500 Companies Logos Figma Community 수록본",
+          "origin": "community",
+          "official": false,
+          "source_note": "사용자 제공 벡터 원형을 보존하여 추출. 제작 시기 및 최신 CI 여부 미확인. 이 자료의 수록 사실만으로 현재 S&P 500 구성 기업으로 표시하지 않음.",
+          "source_item": "item-0003",
+          "source_sha256": "0ac592dc353f729538fc9acfe09edd4b72d79febfdd7afb29352edbe42dffdcc",
+          "review_status": "verified",
+          "png_width": 2000,
+          "png_height": 908,
+          "order": 100
+        }
+      ]
+    },
+    "csx-corporation": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "csx-corporation",
+      "primary": "horizontal",
+      "fingerprint": {
+        "logo.svg": "3c051c8e82287c0a"
+      },
+      "variants": [
+        {
+          "key": "horizontal",
+          "form": "horizontal",
+          "lang": "unknown",
+          "color": "color",
+          "label": "가로조합형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 2.55,
+          "provider": "wikimedia",
+          "origin": "collected",
+          "order": 10
+        },
+        {
+          "key": "community-sp500-item-0009",
+          "form": "horizontal",
+          "color": "original",
+          "label": "커뮤니티 수록 원형 · 시기 미확인",
+          "files": {
+            "svg": "sources/community-sp500-remainder-20261011/600264c4c076c0d17fa3/logo.svg",
+            "png": "sources/community-sp500-remainder-20261011/f513b98310d495983f82/logo.png"
+          },
+          "preview_png": "sources/community-sp500-remainder-20261011/2a91bb29d8a30349ca6b/preview.png",
+          "provider": "사용자 제공 S&P 500 Companies Logos Figma Community 수록본",
+          "origin": "community",
+          "official": false,
+          "source_note": "사용자 제공 벡터 원형을 보존하여 추출. 제작 시기 및 최신 CI 여부 미확인. 이 자료의 수록 사실만으로 현재 S&P 500 구성 기업으로 표시하지 않음.",
+          "source_item": "item-0009",
+          "source_sha256": "600264c4c076c0d17fa39366584881673d7ccb5137391362247f6b1f97c02ba4",
+          "review_status": "verified",
+          "png_width": 2000,
+          "png_height": 913,
+          "order": 100
+        }
+      ]
+    },
+    "johndeere": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "johndeere",
+      "primary": "symbol",
+      "fingerprint": {
+        "logo.svg": "fc96c60717a1b536"
+      },
+      "variants": [
+        {
+          "key": "symbol",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "mono-dark",
+          "label": "심볼형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 1.106,
+          "provider": "unknown",
+          "origin": "collected",
+          "order": 30
+        },
+        {
+          "key": "community-sp500-item-0011",
+          "form": "horizontal",
+          "color": "original",
+          "label": "커뮤니티 수록 원형 · 시기 미확인",
+          "files": {
+            "svg": "sources/community-sp500-remainder-20261011/aa9b48e1695687e1db18/logo.svg",
+            "png": "sources/community-sp500-remainder-20261011/abf117e5c13f3535ff81/logo.png"
+          },
+          "preview_png": "sources/community-sp500-remainder-20261011/9312d6533a30a6e06fa5/preview.png",
+          "provider": "사용자 제공 S&P 500 Companies Logos Figma Community 수록본",
+          "origin": "community",
+          "official": false,
+          "source_note": "사용자 제공 벡터 원형을 보존하여 추출. 제작 시기 및 최신 CI 여부 미확인. 이 자료의 수록 사실만으로 현재 S&P 500 구성 기업으로 표시하지 않음.",
+          "source_item": "item-0011",
+          "source_sha256": "aa9b48e1695687e1db18d7474c0027f5fb3197a7e43c722844fd09ec51f90b46",
+          "review_status": "verified",
+          "png_width": 2000,
+          "png_height": 374,
+          "order": 100
+        }
+      ]
+    },
+    "huntington-ingalls-industries": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "huntington-ingalls-industries",
+      "primary": "horizontal",
+      "fingerprint": {
+        "logo.svg": "37553bf18589d989"
+      },
+      "variants": [
+        {
+          "key": "horizontal",
+          "form": "horizontal",
+          "lang": "unknown",
+          "color": "color",
+          "label": "가로조합형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 2.235,
+          "provider": "wikimedia",
+          "origin": "collected",
+          "order": 10
+        },
+        {
+          "key": "community-sp500-item-0020",
+          "form": "horizontal",
+          "color": "original",
+          "label": "커뮤니티 수록 원형 · 시기 미확인",
+          "files": {
+            "svg": "sources/community-sp500-remainder-20261011/b59f3976b9706f3b8399/logo.svg",
+            "png": "sources/community-sp500-remainder-20261011/dd9f027c19a798d2e5c8/logo.png"
+          },
+          "preview_png": "sources/community-sp500-remainder-20261011/6f0e14d89ec3d15e80a7/preview.png",
+          "provider": "사용자 제공 S&P 500 Companies Logos Figma Community 수록본",
+          "origin": "community",
+          "official": false,
+          "source_note": "사용자 제공 벡터 원형을 보존하여 추출. 제작 시기 및 최신 CI 여부 미확인. 이 자료의 수록 사실만으로 현재 S&P 500 구성 기업으로 표시하지 않음.",
+          "source_item": "item-0020",
+          "source_sha256": "b59f3976b9706f3b839906e9d4282c19a38240bd07709d5f01aa26a52db8c1ab",
+          "review_status": "verified",
+          "png_width": 2000,
+          "png_height": 805,
+          "order": 100
+        }
+      ]
+    },
+    "unitedairlines": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "unitedairlines",
+      "primary": "symbol",
+      "fingerprint": {
+        "logo.svg": "09a3c1521e9f4e63",
+        "sources/commons-wm/wordmark.svg": "6a4cff6a7492fa30"
+      },
+      "variants": [
+        {
+          "key": "symbol",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "mono-dark",
+          "label": "심볼형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 1.0,
+          "provider": "unknown",
+          "origin": "collected",
+          "order": 30
+        },
+        {
+          "key": "wordmark",
+          "form": "wordmark",
+          "lang": "unknown",
+          "color": "color",
+          "label": "워드마크형",
+          "files": {
+            "svg": "sources/commons-wm/wordmark.svg"
+          },
+          "aspect": 3.628,
+          "provider": "wikimedia",
+          "origin": "collected",
+          "order": 40
+        },
+        {
+          "key": "community-sp500-item-0045",
+          "form": "horizontal",
+          "color": "original",
+          "label": "커뮤니티 수록 원형 · 시기 미확인",
+          "files": {
+            "svg": "sources/community-sp500-remainder-20261011/a987880545e46b8849a0/logo.svg",
+            "png": "sources/community-sp500-remainder-20261011/129f71993d92f95c65c2/logo.png"
+          },
+          "preview_png": "sources/community-sp500-remainder-20261011/ce052e64f9a8a17d2148/preview.png",
+          "provider": "사용자 제공 S&P 500 Companies Logos Figma Community 수록본",
+          "origin": "community",
+          "official": false,
+          "source_note": "사용자 제공 벡터 원형을 보존하여 추출. 제작 시기 및 최신 CI 여부 미확인. 이 자료의 수록 사실만으로 현재 S&P 500 구성 기업으로 표시하지 않음.",
+          "source_item": "item-0045",
+          "source_sha256": "a987880545e46b8849a07afdb93eda691f63669b9b18f735e9c11fd38a3ecb25",
+          "review_status": "verified",
+          "png_width": 2000,
+          "png_height": 363,
+          "order": 100
+        }
+      ]
+    },
+    "citizens-financial-group": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "citizens-financial-group",
+      "primary": "wordmark",
+      "fingerprint": {
+        "logo.svg": "e8110860b926809b"
+      },
+      "variants": [
+        {
+          "key": "wordmark",
+          "form": "wordmark",
+          "lang": "unknown",
+          "color": "color",
+          "label": "워드마크형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 4.569,
+          "provider": "wikimedia",
+          "origin": "collected",
+          "order": 40
+        },
+        {
+          "key": "community-sp500-item-0066",
+          "form": "horizontal",
+          "color": "original",
+          "label": "커뮤니티 수록 원형 · 시기 미확인",
+          "files": {
+            "svg": "sources/community-sp500-remainder-20261011/112ac01f2da49c68fcc5/logo.svg",
+            "png": "sources/community-sp500-remainder-20261011/4321c36535fad33ad55f/logo.png"
+          },
+          "preview_png": "sources/community-sp500-remainder-20261011/ea19625babd2c92a6bd3/preview.png",
+          "provider": "사용자 제공 S&P 500 Companies Logos Figma Community 수록본",
+          "origin": "community",
+          "official": false,
+          "source_note": "사용자 제공 벡터 원형을 보존하여 추출. 제작 시기 및 최신 CI 여부 미확인. 이 자료의 수록 사실만으로 현재 S&P 500 구성 기업으로 표시하지 않음.",
+          "source_item": "item-0066",
+          "source_sha256": "112ac01f2da49c68fcc5e1120ef9bfbbdd5353564ab94750de3bf5d92cc461c4",
+          "review_status": "verified",
+          "png_width": 2000,
+          "png_height": 322,
+          "order": 100
+        }
+      ]
+    },
+    "cme-group": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "cme-group",
+      "primary": "wordmark",
+      "fingerprint": {
+        "logo.svg": "ac4e37fcb86d040a"
+      },
+      "variants": [
+        {
+          "key": "wordmark",
+          "form": "wordmark",
+          "lang": "unknown",
+          "color": "color",
+          "label": "워드마크형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 6.694,
+          "provider": "wikimedia",
+          "origin": "collected",
+          "order": 40
+        },
+        {
+          "key": "community-sp500-item-0067",
+          "form": "horizontal",
+          "color": "original",
+          "label": "커뮤니티 수록 원형 · 시기 미확인",
+          "files": {
+            "svg": "sources/community-sp500-remainder-20261011/15df91dadb0d04a558ee/logo.svg",
+            "png": "sources/community-sp500-remainder-20261011/83ad15f14953afcad799/logo.png"
+          },
+          "preview_png": "sources/community-sp500-remainder-20261011/6463cd658df4765eea20/preview.png",
+          "provider": "사용자 제공 S&P 500 Companies Logos Figma Community 수록본",
+          "origin": "community",
+          "official": false,
+          "source_note": "사용자 제공 벡터 원형을 보존하여 추출. 제작 시기 및 최신 CI 여부 미확인. 이 자료의 수록 사실만으로 현재 S&P 500 구성 기업으로 표시하지 않음.",
+          "source_item": "item-0067",
+          "source_sha256": "15df91dadb0d04a558eef92c310f23701c6eb73b1a324386cbd6914188b2388e",
+          "review_status": "verified",
+          "png_width": 2000,
+          "png_height": 299,
+          "order": 100
+        }
+      ]
+    },
+    "factset": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "factset",
+      "primary": "wordmark",
+      "fingerprint": {
+        "logo.svg": "ea62ed50bb24dd74"
+      },
+      "variants": [
+        {
+          "key": "wordmark",
+          "form": "wordmark",
+          "lang": "unknown",
+          "color": "color",
+          "label": "워드마크형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 5.172,
+          "provider": "wikimedia",
+          "origin": "collected",
+          "order": 40
+        },
+        {
+          "key": "community-sp500-item-0070",
+          "form": "wordmark",
+          "color": "original",
+          "label": "커뮤니티 수록 원형 · 시기 미확인",
+          "files": {
+            "svg": "sources/community-sp500-remainder-20261011/73888f7473576a065a29/logo.svg",
+            "png": "sources/community-sp500-remainder-20261011/b36c60fe14943d3d5e8c/logo.png"
+          },
+          "preview_png": "sources/community-sp500-remainder-20261011/96c8925e1b0fa1da9def/preview.png",
+          "provider": "사용자 제공 S&P 500 Companies Logos Figma Community 수록본",
+          "origin": "community",
+          "official": false,
+          "source_note": "사용자 제공 벡터 원형을 보존하여 추출. 제작 시기 및 최신 CI 여부 미확인. 이 자료의 수록 사실만으로 현재 S&P 500 구성 기업으로 표시하지 않음.",
+          "source_item": "item-0070",
+          "source_sha256": "73888f7473576a065a29229822c4c7b1b38419db02683d7a02f977136369296b",
+          "review_status": "verified",
+          "png_width": 2000,
+          "png_height": 388,
+          "order": 100
+        }
+      ]
+    },
+    "fifth-third-bank": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "fifth-third-bank",
+      "primary": "wordmark",
+      "fingerprint": {
+        "logo.svg": "262978118d925857"
+      },
+      "variants": [
+        {
+          "key": "wordmark",
+          "form": "wordmark",
+          "lang": "unknown",
+          "color": "color",
+          "label": "워드마크형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 5.488,
+          "provider": "wikimedia",
+          "origin": "collected",
+          "order": 40
+        },
+        {
+          "key": "community-sp500-item-0071",
+          "form": "horizontal",
+          "color": "original",
+          "label": "커뮤니티 수록 원형 · 시기 미확인",
+          "files": {
+            "svg": "sources/community-sp500-remainder-20261011/850da5d0af6d9788a1e9/logo.svg",
+            "png": "sources/community-sp500-remainder-20261011/84646b1a18732b57a9a6/logo.png"
+          },
+          "preview_png": "sources/community-sp500-remainder-20261011/7fa3b5d4f7aba329997b/preview.png",
+          "provider": "사용자 제공 S&P 500 Companies Logos Figma Community 수록본",
+          "origin": "community",
+          "official": false,
+          "source_note": "사용자 제공 벡터 원형을 보존하여 추출. 제작 시기 및 최신 CI 여부 미확인. 이 자료의 수록 사실만으로 현재 S&P 500 구성 기업으로 표시하지 않음.",
+          "source_item": "item-0071",
+          "source_sha256": "850da5d0af6d9788a1e95c82e6378c2ba3a8d78396aff0d835d3e6d58a8256c3",
+          "review_status": "verified",
+          "png_width": 2000,
+          "png_height": 268,
+          "order": 100
+        }
+      ]
+    },
+    "wellsfargo": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "wellsfargo",
+      "primary": "symbol",
+      "fingerprint": {
+        "logo.svg": "31f18da1a8e7ea10",
+        "sources/vlz/wide.svg": "2a5b495cb5a9f668"
+      },
+      "variants": [
+        {
+          "key": "symbol",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "mono-dark",
+          "label": "심볼형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 0.978,
+          "provider": "unknown",
+          "origin": "collected",
+          "order": 30
+        },
+        {
+          "key": "wordmark",
+          "form": "wordmark",
+          "lang": "unknown",
+          "color": "color",
+          "label": "워드마크형",
+          "files": {
+            "svg": "sources/vlz/wide.svg"
+          },
+          "aspect": 11.472,
+          "provider": "vectorlogozone",
+          "origin": "collected",
+          "order": 40
+        },
+        {
+          "key": "community-sp500-item-0101",
+          "form": "symbol",
+          "color": "original",
+          "label": "커뮤니티 수록 원형 · 시기 미확인",
+          "files": {
+            "svg": "sources/community-sp500-remainder-20261011/518750ecfa02a8fc8348/logo.svg",
+            "png": "sources/community-sp500-remainder-20261011/8b177aff77b7d2e845c8/logo.png"
+          },
+          "preview_png": "sources/community-sp500-remainder-20261011/517dbbec484c1f51094a/preview.png",
+          "provider": "사용자 제공 S&P 500 Companies Logos Figma Community 수록본",
+          "origin": "community",
+          "official": false,
+          "source_note": "사용자 제공 벡터 원형을 보존하여 추출. 제작 시기 및 최신 CI 여부 미확인. 이 자료의 수록 사실만으로 현재 S&P 500 구성 기업으로 표시하지 않음.",
+          "source_item": "item-0101",
+          "source_sha256": "518750ecfa02a8fc83486f9ec5b47ff9d91464a3b28a14ab4b6bbe704264cb64",
+          "review_status": "verified",
+          "png_width": 2000,
+          "png_height": 2000,
+          "order": 100
+        }
+      ]
+    },
+    "trimble": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "trimble",
+      "primary": "symbol",
+      "fingerprint": {
+        "logo.svg": "13eb6d559aab4a25"
+      },
+      "variants": [
+        {
+          "key": "symbol",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "mono-dark",
+          "label": "심볼형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 0.904,
+          "provider": "unknown",
+          "origin": "collected",
+          "order": 30
+        },
+        {
+          "key": "community-sp500-item-0109",
+          "form": "horizontal",
+          "color": "original",
+          "label": "커뮤니티 수록 원형 · 시기 미확인",
+          "files": {
+            "svg": "sources/community-sp500-remainder-20261011/8e8205aaa2c6b212b799/logo.svg",
+            "png": "sources/community-sp500-remainder-20261011/9821302f9f1dab20400e/logo.png"
+          },
+          "preview_png": "sources/community-sp500-remainder-20261011/b32c0a010548364bc64c/preview.png",
+          "provider": "사용자 제공 S&P 500 Companies Logos Figma Community 수록본",
+          "origin": "community",
+          "official": false,
+          "source_note": "사용자 제공 벡터 원형을 보존하여 추출. 제작 시기 및 최신 CI 여부 미확인. 이 자료의 수록 사실만으로 현재 S&P 500 구성 기업으로 표시하지 않음.",
+          "source_item": "item-0109",
+          "source_sha256": "8e8205aaa2c6b212b799dfb81b4428be6811c1fcd2fe22bcf680b7eb9d207258",
+          "review_status": "verified",
+          "png_width": 2000,
+          "png_height": 400,
+          "order": 100
+        }
+      ]
+    },
+    "ansys": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "ansys",
+      "primary": "symbol",
+      "fingerprint": {
+        "logo.svg": "5a9b117a3a00e116",
+        "sources/devicons/ansys-original.svg": "5a9b117a3a00e116"
+      },
+      "variants": [
+        {
+          "key": "symbol",
+          "form": "symbol",
+          "lang": "en",
+          "color": "color",
+          "label": "심볼형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 1.148,
+          "provider": "devicons",
+          "origin": "collected",
+          "order": 30,
+          "alts": [
+            {
+              "provider": "devicons",
+              "file": "sources/devicons/ansys-original.svg"
+            }
+          ]
+        },
+        {
+          "key": "community-sp500-item-0113",
+          "form": "horizontal",
+          "color": "original",
+          "label": "커뮤니티 수록 원형 · 시기 미확인",
+          "files": {
+            "svg": "sources/community-sp500-remainder-20261011/7e4d5669c0e5f393525c/logo.svg",
+            "png": "sources/community-sp500-remainder-20261011/fccd541b8fc5532c2b70/logo.png"
+          },
+          "preview_png": "sources/community-sp500-remainder-20261011/2cdb32c320e84feaca31/preview.png",
+          "provider": "사용자 제공 S&P 500 Companies Logos Figma Community 수록본",
+          "origin": "community",
+          "official": false,
+          "source_note": "사용자 제공 벡터 원형을 보존하여 추출. 제작 시기 및 최신 CI 여부 미확인. 이 자료의 수록 사실만으로 현재 S&P 500 구성 기업으로 표시하지 않음.",
+          "source_item": "item-0113",
+          "source_sha256": "7e4d5669c0e5f393525c5af1be0fed82e2e2f5353ec05def93596bec3f624878",
+          "review_status": "verified",
+          "png_width": 2000,
+          "png_height": 620,
+          "order": 100
+        }
+      ]
+    },
+    "cisco": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "cisco",
+      "primary": "horizontal",
+      "fingerprint": {
+        "logo.svg": "adddfe0945fd7ef8"
+      },
+      "variants": [
+        {
+          "key": "horizontal",
+          "form": "horizontal",
+          "lang": "unknown",
+          "color": "mono-dark",
+          "label": "가로조합형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 1.891,
+          "provider": "unknown",
+          "origin": "collected",
+          "order": 10
+        },
+        {
+          "key": "community-sp500-item-0115",
+          "form": "vertical",
+          "color": "original",
+          "label": "커뮤니티 수록 원형 · 시기 미확인",
+          "files": {
+            "svg": "sources/community-sp500-remainder-20261011/917121107856f5fe4760/logo.svg",
+            "png": "sources/community-sp500-remainder-20261011/d729523cf0bb8ca2773a/logo.png"
+          },
+          "preview_png": "sources/community-sp500-remainder-20261011/c502fdf327b8e6eabbd2/preview.png",
+          "provider": "사용자 제공 S&P 500 Companies Logos Figma Community 수록본",
+          "origin": "community",
+          "official": false,
+          "source_note": "사용자 제공 벡터 원형을 보존하여 추출. 제작 시기 및 최신 CI 여부 미확인. 이 자료의 수록 사실만으로 현재 S&P 500 구성 기업으로 표시하지 않음.",
+          "source_item": "item-0115",
+          "source_sha256": "917121107856f5fe4760f5bbc3d68724a65ecac469ed396447852c49fc7024b6",
+          "review_status": "verified",
+          "png_width": 2000,
+          "png_height": 1055,
+          "order": 100
+        }
+      ]
+    },
+    "fortinet": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "fortinet",
+      "primary": "horizontal",
+      "fingerprint": {
+        "logo.svg": "363611351ad3081f"
+      },
+      "variants": [
+        {
+          "key": "horizontal",
+          "form": "horizontal",
+          "lang": "unknown",
+          "color": "mono-dark",
+          "label": "가로조합형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 1.398,
+          "provider": "unknown",
+          "origin": "collected",
+          "order": 10
+        },
+        {
+          "key": "community-sp500-item-0118",
+          "form": "horizontal",
+          "color": "original",
+          "label": "커뮤니티 수록 원형 · 시기 미확인",
+          "files": {
+            "svg": "sources/community-sp500-remainder-20261011/c45499deadee4ea3bd0c/logo.svg",
+            "png": "sources/community-sp500-remainder-20261011/4a99f6560aa4fe3d1c33/logo.png"
+          },
+          "preview_png": "sources/community-sp500-remainder-20261011/0cf0d8dbf951b8c86411/preview.png",
+          "provider": "사용자 제공 S&P 500 Companies Logos Figma Community 수록본",
+          "origin": "community",
+          "official": false,
+          "source_note": "사용자 제공 벡터 원형을 보존하여 추출. 제작 시기 및 최신 CI 여부 미확인. 이 자료의 수록 사실만으로 현재 S&P 500 구성 기업으로 표시하지 않음.",
+          "source_item": "item-0118",
+          "source_sha256": "c45499deadee4ea3bd0c63cafc63f53aafce2852e0c396d483de9806fc60acbd",
+          "review_status": "verified",
+          "png_width": 2000,
+          "png_height": 226,
+          "order": 100
+        }
+      ]
+    },
+    "cdw": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "cdw",
+      "primary": "horizontal",
+      "fingerprint": {
+        "logo.svg": "4b6ddae9da158935"
+      },
+      "variants": [
+        {
+          "key": "horizontal",
+          "form": "horizontal",
+          "lang": "unknown",
+          "color": "color",
+          "label": "가로조합형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 2.009,
+          "provider": "wikimedia",
+          "origin": "collected",
+          "order": 10
+        },
+        {
+          "key": "community-sp500-item-0128",
+          "form": "symbol",
+          "color": "original",
+          "label": "커뮤니티 수록 원형 · 시기 미확인",
+          "files": {
+            "svg": "sources/community-sp500-remainder-20261011/c438bfca074e03a57582/logo.svg",
+            "png": "sources/community-sp500-remainder-20261011/35bc078577eb7d84e38e/logo.png"
+          },
+          "preview_png": "sources/community-sp500-remainder-20261011/c2846a9042f005ecdcd2/preview.png",
+          "provider": "사용자 제공 S&P 500 Companies Logos Figma Community 수록본",
+          "origin": "community",
+          "official": false,
+          "source_note": "사용자 제공 벡터 원형을 보존하여 추출. 제작 시기 및 최신 CI 여부 미확인. 이 자료의 수록 사실만으로 현재 S&P 500 구성 기업으로 표시하지 않음.",
+          "source_item": "item-0128",
+          "source_sha256": "c438bfca074e03a575828da6fc84e7e20ac36e17abc6be65d5e852cb770f792e",
+          "review_status": "verified",
+          "png_width": 2000,
+          "png_height": 1847,
+          "order": 100
+        }
+      ]
+    },
+    "f5": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "f5",
+      "primary": "symbol",
+      "fingerprint": {
+        "logo.svg": "9f38c397fffec26b"
+      },
+      "variants": [
+        {
+          "key": "symbol",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "mono-dark",
+          "label": "심볼형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 1.0,
+          "provider": "unknown",
+          "origin": "collected",
+          "order": 30
+        },
+        {
+          "key": "community-sp500-item-0130",
+          "form": "symbol",
+          "color": "original",
+          "label": "커뮤니티 수록 원형 · 시기 미확인",
+          "files": {
+            "svg": "sources/community-sp500-remainder-20261011/4786cf5305297901ad37/logo.svg",
+            "png": "sources/community-sp500-remainder-20261011/e3c338905ddf2e094c13/logo.png"
+          },
+          "preview_png": "sources/community-sp500-remainder-20261011/4f76ecb4f873ac4bdedd/preview.png",
+          "provider": "사용자 제공 S&P 500 Companies Logos Figma Community 수록본",
+          "origin": "community",
+          "official": false,
+          "source_note": "사용자 제공 벡터 원형을 보존하여 추출. 제작 시기 및 최신 CI 여부 미확인. 이 자료의 수록 사실만으로 현재 S&P 500 구성 기업으로 표시하지 않음.",
+          "source_item": "item-0130",
+          "source_sha256": "4786cf5305297901ad37e942405fb4ada62360caffb47792447e592c37acfb3c",
+          "review_status": "verified",
+          "png_width": 2000,
+          "png_height": 2000,
+          "order": 100
+        }
+      ]
+    },
+    "msci": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "msci",
+      "primary": "horizontal",
+      "fingerprint": {
+        "logo.svg": "622cc77979b28878"
+      },
+      "variants": [
+        {
+          "key": "horizontal",
+          "form": "horizontal",
+          "lang": "unknown",
+          "color": "color",
+          "label": "가로조합형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 1.96,
+          "provider": "wikimedia",
+          "origin": "collected",
+          "order": 10
+        },
+        {
+          "key": "community-sp500-item-0135",
+          "form": "horizontal",
+          "color": "original",
+          "label": "커뮤니티 수록 원형 · 시기 미확인",
+          "files": {
+            "svg": "sources/community-sp500-remainder-20261011/d390eb51d476894f8ee4/logo.svg",
+            "png": "sources/community-sp500-remainder-20261011/25ea0b243d822f605190/logo.png"
+          },
+          "preview_png": "sources/community-sp500-remainder-20261011/acca6fb8e5c5cec8767d/preview.png",
+          "provider": "사용자 제공 S&P 500 Companies Logos Figma Community 수록본",
+          "origin": "community",
+          "official": false,
+          "source_note": "사용자 제공 벡터 원형을 보존하여 추출. 제작 시기 및 최신 CI 여부 미확인. 이 자료의 수록 사실만으로 현재 S&P 500 구성 기업으로 표시하지 않음.",
+          "source_item": "item-0135",
+          "source_sha256": "d390eb51d476894f8ee407199b2f0415955408753ead79b2e5ad675690c3b389",
+          "review_status": "verified",
+          "png_width": 2000,
+          "png_height": 534,
+          "order": 100
+        }
+      ]
+    },
+    "seagate": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "seagate",
+      "primary": "symbol",
+      "fingerprint": {
+        "logo.svg": "60dfb4287714b559"
+      },
+      "variants": [
+        {
+          "key": "symbol",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "mono-dark",
+          "label": "심볼형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 1.122,
+          "provider": "unknown",
+          "origin": "collected",
+          "order": 30
+        },
+        {
+          "key": "community-sp500-item-0136",
+          "form": "horizontal",
+          "color": "original",
+          "label": "커뮤니티 수록 원형 · 시기 미확인",
+          "files": {
+            "svg": "sources/community-sp500-remainder-20261011/023ce8c801f78d055f6c/logo.svg",
+            "png": "sources/community-sp500-remainder-20261011/1a0e78d6e02fe7c2efd9/logo.png"
+          },
+          "preview_png": "sources/community-sp500-remainder-20261011/4e5553e1fa6052e37cae/preview.png",
+          "provider": "사용자 제공 S&P 500 Companies Logos Figma Community 수록본",
+          "origin": "community",
+          "official": false,
+          "source_note": "사용자 제공 벡터 원형을 보존하여 추출. 제작 시기 및 최신 CI 여부 미확인. 이 자료의 수록 사실만으로 현재 S&P 500 구성 기업으로 표시하지 않음.",
+          "source_item": "item-0136",
+          "source_sha256": "023ce8c801f78d055f6cb37d568fa11d30b1aee9e6137ff0d9d1922cf21c8ea1",
+          "review_status": "verified",
+          "png_width": 2000,
+          "png_height": 506,
+          "order": 100
+        }
+      ]
+    },
+    "analog-devices": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "analog-devices",
+      "primary": "horizontal",
+      "fingerprint": {
+        "logo.svg": "0b382a29d84a0ab3"
+      },
+      "variants": [
+        {
+          "key": "horizontal",
+          "form": "horizontal",
+          "lang": "unknown",
+          "color": "mono-dark",
+          "label": "가로조합형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 2.486,
+          "provider": "wikimedia",
+          "origin": "collected",
+          "order": 10
+        },
+        {
+          "key": "community-sp500-item-0138",
+          "form": "horizontal",
+          "color": "original",
+          "label": "커뮤니티 수록 원형 · 시기 미확인",
+          "files": {
+            "svg": "sources/community-sp500-remainder-20261011/8b326a7603cc3489a97a/logo.svg",
+            "png": "sources/community-sp500-remainder-20261011/34fb7d1d8a0250b00b0e/logo.png"
+          },
+          "preview_png": "sources/community-sp500-remainder-20261011/620bf6e512bbd2daebf7/preview.png",
+          "provider": "사용자 제공 S&P 500 Companies Logos Figma Community 수록본",
+          "origin": "community",
+          "official": false,
+          "source_note": "사용자 제공 벡터 원형을 보존하여 추출. 제작 시기 및 최신 CI 여부 미확인. 이 자료의 수록 사실만으로 현재 S&P 500 구성 기업으로 표시하지 않음.",
+          "source_item": "item-0138",
+          "source_sha256": "8b326a7603cc3489a97a9527e1604673b11633d08d9c8ccc73204f48c5a62a5a",
+          "review_status": "verified",
+          "png_width": 2000,
+          "png_height": 565,
+          "order": 100
+        }
+      ]
+    },
+    "dxc-technology": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "dxc-technology",
+      "primary": "wordmark",
+      "fingerprint": {
+        "logo.svg": "fe28ce7f746a8e6c"
+      },
+      "variants": [
+        {
+          "key": "wordmark",
+          "form": "wordmark",
+          "lang": "unknown",
+          "color": "color",
+          "label": "워드마크형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 6.184,
+          "provider": "wikimedia",
+          "origin": "collected",
+          "order": 40
+        },
+        {
+          "key": "community-sp500-item-0140",
+          "form": "horizontal",
+          "color": "original",
+          "label": "커뮤니티 수록 원형 · 시기 미확인",
+          "files": {
+            "svg": "sources/community-sp500-remainder-20261011/cd0f9f2449b6a658aed9/logo.svg",
+            "png": "sources/community-sp500-remainder-20261011/689c57b7edce6105b965/logo.png"
+          },
+          "preview_png": "sources/community-sp500-remainder-20261011/8f8a72a60746083e742c/preview.png",
+          "provider": "사용자 제공 S&P 500 Companies Logos Figma Community 수록본",
+          "origin": "community",
+          "official": false,
+          "source_note": "사용자 제공 벡터 원형을 보존하여 추출. 제작 시기 및 최신 CI 여부 미확인. 이 자료의 수록 사실만으로 현재 S&P 500 구성 기업으로 표시하지 않음.",
+          "source_item": "item-0140",
+          "source_sha256": "cd0f9f2449b6a658aed98dea2dbb2479da9891295e25754a2e6da62abac2befa",
+          "review_status": "verified",
+          "png_width": 2000,
+          "png_height": 1093,
+          "order": 100
+        }
+      ]
+    },
+    "hewlett-packard-enterprise": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "hewlett-packard-enterprise",
+      "primary": "wordmark",
+      "fingerprint": {
+        "logo.svg": "5671cec3c732ab7c"
+      },
+      "variants": [
+        {
+          "key": "wordmark",
+          "form": "wordmark",
+          "lang": "unknown",
+          "color": "color",
+          "label": "워드마크형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 5.769,
+          "provider": "wikimedia",
+          "origin": "collected",
+          "order": 40
+        },
+        {
+          "key": "community-sp500-item-0143",
+          "form": "horizontal",
+          "color": "original",
+          "label": "커뮤니티 수록 원형 · 시기 미확인",
+          "files": {
+            "svg": "sources/community-sp500-remainder-20261011/5300d374b539b14c152e/logo.svg",
+            "png": "sources/community-sp500-remainder-20261011/38d7c86c911c49ef91d6/logo.png"
+          },
+          "preview_png": "sources/community-sp500-remainder-20261011/00384f2a8976cdc2bb41/preview.png",
+          "provider": "사용자 제공 S&P 500 Companies Logos Figma Community 수록본",
+          "origin": "community",
+          "official": false,
+          "source_note": "사용자 제공 벡터 원형을 보존하여 추출. 제작 시기 및 최신 CI 여부 미확인. 이 자료의 수록 사실만으로 현재 S&P 500 구성 기업으로 표시하지 않음.",
+          "source_item": "item-0143",
+          "source_sha256": "5300d374b539b14c152e3386b1e24a6a25f670b84860b1d5bdec1615478c4e61",
+          "review_status": "verified",
+          "png_width": 2000,
+          "png_height": 835,
+          "order": 100
+        }
+      ]
+    },
+    "micron": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "micron",
+      "primary": "wordmark",
+      "fingerprint": {
+        "logo.svg": "c8445aa100429865",
+        "sources/iconify/micron.svg": "c8445aa100429865",
+        "sources/iconify/micron-icon.svg": "6320cc87bd5cee9b",
+        "sources/wvl/micron-icon.svg": "fa209cab033965ea",
+        "sources/wvl/micron.svg": "5d886c56b96cbd7f",
+        "sources/micron-icon.svg": "fa209cab033965ea"
+      },
+      "variants": [
+        {
+          "key": "symbol",
+          "form": "symbol",
+          "lang": "en",
+          "color": "color",
+          "label": "심볼형",
+          "files": {
+            "svg": "sources/iconify/micron-icon.svg",
+            "png": "sources/iconify/micron-icon.png"
+          },
+          "aspect": 1.261,
+          "provider": "iconify",
+          "origin": "collected",
+          "order": 30,
+          "alts": [
+            {
+              "provider": "wvl",
+              "file": "sources/wvl/micron-icon.svg"
+            },
+            {
+              "provider": "merged",
+              "file": "sources/micron-icon.svg"
+            }
+          ]
+        },
+        {
+          "key": "wordmark",
+          "form": "wordmark",
+          "lang": "en",
+          "color": "color",
+          "label": "워드마크형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 3.516,
+          "provider": "iconify",
+          "origin": "collected",
+          "order": 40,
+          "alts": [
+            {
+              "provider": "iconify",
+              "file": "sources/iconify/micron.svg"
+            },
+            {
+              "provider": "wvl",
+              "file": "sources/wvl/micron.svg"
+            }
+          ]
+        },
+        {
+          "key": "community-sp500-item-0145",
+          "form": "horizontal",
+          "color": "original",
+          "label": "커뮤니티 수록 원형 · 시기 미확인",
+          "files": {
+            "svg": "sources/community-sp500-remainder-20261011/03e4ffff611a30daba73/logo.svg",
+            "png": "sources/community-sp500-remainder-20261011/114d544d51fe35e86c59/logo.png"
+          },
+          "preview_png": "sources/community-sp500-remainder-20261011/45119dc2976494da75f9/preview.png",
+          "provider": "사용자 제공 S&P 500 Companies Logos Figma Community 수록본",
+          "origin": "community",
+          "official": false,
+          "source_note": "사용자 제공 벡터 원형을 보존하여 추출. 제작 시기 및 최신 CI 여부 미확인. 이 자료의 수록 사실만으로 현재 S&P 500 구성 기업으로 표시하지 않음.",
+          "source_item": "item-0145",
+          "source_sha256": "03e4ffff611a30daba73be13d72d55abf0f543204b769faac90294a09acfe4b2",
+          "review_status": "verified",
+          "png_width": 2000,
+          "png_height": 551,
+          "order": 100
+        }
+      ]
+    },
+    "nxp": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "nxp",
+      "primary": "horizontal",
+      "fingerprint": {
+        "logo.svg": "ab938d56cb60b434"
+      },
+      "variants": [
+        {
+          "key": "horizontal",
+          "form": "horizontal",
+          "lang": "unknown",
+          "color": "mono-dark",
+          "label": "가로조합형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 2.922,
+          "provider": "unknown",
+          "origin": "collected",
+          "order": 10
+        },
+        {
+          "key": "community-sp500-item-0147",
+          "form": "wordmark",
+          "color": "original",
+          "label": "커뮤니티 수록 원형 · 시기 미확인",
+          "files": {
+            "svg": "sources/community-sp500-remainder-20261011/a25e30f612f2239d5a7b/logo.svg",
+            "png": "sources/community-sp500-remainder-20261011/e106212ec3abbb179304/logo.png"
+          },
+          "preview_png": "sources/community-sp500-remainder-20261011/a3714213590b7fe8dac1/preview.png",
+          "provider": "사용자 제공 S&P 500 Companies Logos Figma Community 수록본",
+          "origin": "community",
+          "official": false,
+          "source_note": "사용자 제공 벡터 원형을 보존하여 추출. 제작 시기 및 최신 CI 여부 미확인. 이 자료의 수록 사실만으로 현재 S&P 500 구성 기업으로 표시하지 않음.",
+          "source_item": "item-0147",
+          "source_sha256": "a25e30f612f2239d5a7b14bc6db1b0307e434a2f5ee0ae3f62522d4f6276b214",
+          "review_status": "verified",
+          "png_width": 2000,
+          "png_height": 688,
+          "order": 100
+        }
+      ]
+    },
+    "dominos": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "dominos",
+      "primary": "symbol",
+      "fingerprint": {
+        "logo.svg": "1089ecbf6baa7c7b",
+        "sources/thesvg/wordmark.svg": "7d7e190f95c8fa1e"
+      },
+      "variants": [
+        {
+          "key": "symbol",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "color",
+          "label": "심볼형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 1.0,
+          "provider": "curated",
+          "origin": "collected",
+          "order": 30
+        },
+        {
+          "key": "wordmark",
+          "form": "wordmark",
+          "lang": "unknown",
+          "color": "color",
+          "label": "워드마크형",
+          "files": {
+            "svg": "sources/thesvg/wordmark.svg"
+          },
+          "aspect": 5.389,
+          "provider": "thesvg",
+          "origin": "collected",
+          "order": 40
+        },
+        {
+          "key": "community-sp500-item-0157",
+          "form": "horizontal",
+          "color": "original",
+          "label": "커뮤니티 수록 원형 · 시기 미확인",
+          "files": {
+            "svg": "sources/community-sp500-remainder-20261011/09d826e6591f6311806b/logo.svg",
+            "png": "sources/community-sp500-remainder-20261011/806b3f88fa020f558e0c/logo.png"
+          },
+          "preview_png": "sources/community-sp500-remainder-20261011/73d3ef99d11d47ee36ea/preview.png",
+          "provider": "사용자 제공 S&P 500 Companies Logos Figma Community 수록본",
+          "origin": "community",
+          "official": false,
+          "source_note": "사용자 제공 벡터 원형을 보존하여 추출. 제작 시기 및 최신 CI 여부 미확인. 이 자료의 수록 사실만으로 현재 S&P 500 구성 기업으로 표시하지 않음.",
+          "source_item": "item-0157",
+          "source_sha256": "09d826e6591f6311806b3442e88fa717cc6a7213862cfff9e74fe34e98d06c4c",
+          "review_status": "verified",
+          "png_width": 2000,
+          "png_height": 435,
+          "order": 100
+        }
+      ]
+    },
+    "expedia-group": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "expedia-group",
+      "primary": "horizontal",
+      "fingerprint": {
+        "logo.svg": "3269ed6a674af106"
+      },
+      "variants": [
+        {
+          "key": "horizontal",
+          "form": "horizontal",
+          "lang": "unknown",
+          "color": "color",
+          "label": "가로조합형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 1.259,
+          "provider": "wikimedia",
+          "origin": "collected",
+          "order": 10
+        },
+        {
+          "key": "community-sp500-item-0166",
+          "form": "horizontal",
+          "color": "original",
+          "label": "커뮤니티 수록 원형 · 시기 미확인",
+          "files": {
+            "svg": "sources/community-sp500-remainder-20261011/01938afdd86abc89d95e/logo.svg",
+            "png": "sources/community-sp500-remainder-20261011/15ce612bb6c419a58763/logo.png"
+          },
+          "preview_png": "sources/community-sp500-remainder-20261011/a76cf371216717fe94fb/preview.png",
+          "provider": "사용자 제공 S&P 500 Companies Logos Figma Community 수록본",
+          "origin": "community",
+          "official": false,
+          "source_note": "사용자 제공 벡터 원형을 보존하여 추출. 제작 시기 및 최신 CI 여부 미확인. 이 자료의 수록 사실만으로 현재 S&P 500 구성 기업으로 표시하지 않음.",
+          "source_item": "item-0166",
+          "source_sha256": "01938afdd86abc89d95e5995c7f4d620a1734704b42838d87d9a77f64ceb6509",
+          "review_status": "verified",
+          "png_width": 2000,
+          "png_height": 290,
+          "order": 100
+        }
+      ]
+    },
+    "garmin": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "garmin",
+      "primary": "wordmark",
+      "fingerprint": {
+        "logo.svg": "44d3d0b4ef017cd1"
+      },
+      "variants": [
+        {
+          "key": "wordmark",
+          "form": "wordmark",
+          "lang": "unknown",
+          "color": "mono-dark",
+          "label": "워드마크형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 3.689,
+          "provider": "unknown",
+          "origin": "collected",
+          "order": 40
+        },
+        {
+          "key": "community-sp500-item-0167",
+          "form": "horizontal",
+          "color": "original",
+          "label": "커뮤니티 수록 원형 · 시기 미확인",
+          "files": {
+            "svg": "sources/community-sp500-remainder-20261011/93183dd213e145e3142f/logo.svg",
+            "png": "sources/community-sp500-remainder-20261011/d9bb71efcb7a7fa2cc5c/logo.png"
+          },
+          "preview_png": "sources/community-sp500-remainder-20261011/273858a4e646f076c6b1/preview.png",
+          "provider": "사용자 제공 S&P 500 Companies Logos Figma Community 수록본",
+          "origin": "community",
+          "official": false,
+          "source_note": "사용자 제공 벡터 원형을 보존하여 추출. 제작 시기 및 최신 CI 여부 미확인. 이 자료의 수록 사실만으로 현재 S&P 500 구성 기업으로 표시하지 않음.",
+          "source_item": "item-0167",
+          "source_sha256": "93183dd213e145e3142fd8ed2f3d7629de5a1f5094e7c4b5b911cf656ba70edd",
+          "review_status": "verified",
+          "png_width": 2000,
+          "png_height": 539,
+          "order": 100
+        }
+      ]
+    },
+    "generalmotors": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "generalmotors",
+      "primary": "symbol",
+      "fingerprint": {
+        "logo.svg": "2c8c335d5aecddf9",
+        "sources/commons-wm/wordmark.svg": "0985c6612fc46bcb"
+      },
+      "variants": [
+        {
+          "key": "symbol",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "mono-dark",
+          "label": "심볼형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 1.0,
+          "provider": "unknown",
+          "origin": "collected",
+          "order": 30
+        },
+        {
+          "key": "wordmark",
+          "form": "wordmark",
+          "lang": "unknown",
+          "color": "color",
+          "label": "워드마크형",
+          "files": {
+            "svg": "sources/commons-wm/wordmark.svg"
+          },
+          "aspect": 3.75,
+          "provider": "wikimedia",
+          "origin": "collected",
+          "order": 40
+        },
+        {
+          "key": "community-sp500-item-0168",
+          "form": "symbol",
+          "color": "original",
+          "label": "커뮤니티 수록 원형 · 시기 미확인",
+          "files": {
+            "svg": "sources/community-sp500-remainder-20261011/515b207eb20a54322898/logo.svg",
+            "png": "sources/community-sp500-remainder-20261011/26d38c8c473dd2524d9d/logo.png"
+          },
+          "preview_png": "sources/community-sp500-remainder-20261011/5556ce17888b0df89333/preview.png",
+          "provider": "사용자 제공 S&P 500 Companies Logos Figma Community 수록본",
+          "origin": "community",
+          "official": false,
+          "source_note": "사용자 제공 벡터 원형을 보존하여 추출. 제작 시기 및 최신 CI 여부 미확인. 이 자료의 수록 사실만으로 현재 S&P 500 구성 기업으로 표시하지 않음.",
+          "source_item": "item-0168",
+          "source_sha256": "515b207eb20a54322898b631483a254b47def0242b7a7f8035f020ee154181bd",
+          "review_status": "verified",
+          "png_width": 2000,
+          "png_height": 2000,
+          "order": 100
+        }
+      ]
+    },
+    "genuine-parts-company": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "genuine-parts-company",
+      "primary": "symbol",
+      "fingerprint": {
+        "logo.svg": "c27f9448e58faa4e"
+      },
+      "variants": [
+        {
+          "key": "symbol",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "color",
+          "label": "심볼형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 1.228,
+          "provider": "wikimedia",
+          "origin": "collected",
+          "order": 30
+        },
+        {
+          "key": "community-sp500-item-0169",
+          "form": "symbol",
+          "color": "original",
+          "label": "커뮤니티 수록 원형 · 시기 미확인",
+          "files": {
+            "svg": "sources/community-sp500-remainder-20261011/4cbd2ae86b03b89df29c/logo.svg",
+            "png": "sources/community-sp500-remainder-20261011/7ad5e50b89a2b9afe6c4/logo.png"
+          },
+          "preview_png": "sources/community-sp500-remainder-20261011/bd77bfa4cbdee71dd00d/preview.png",
+          "provider": "사용자 제공 S&P 500 Companies Logos Figma Community 수록본",
+          "origin": "community",
+          "official": false,
+          "source_note": "사용자 제공 벡터 원형을 보존하여 추출. 제작 시기 및 최신 CI 여부 미확인. 이 자료의 수록 사실만으로 현재 S&P 500 구성 기업으로 표시하지 않음.",
+          "source_item": "item-0169",
+          "source_sha256": "4cbd2ae86b03b89df29c86762eeeba3fb37dc4ab2006cf92317759040d9f1fea",
+          "review_status": "verified",
+          "png_width": 2000,
+          "png_height": 1629,
+          "order": 100
+        }
+      ]
+    },
+    "hilton": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "hilton",
+      "primary": "horizontal",
+      "fingerprint": {
+        "logo.svg": "2f43380169c8101e"
+      },
+      "variants": [
+        {
+          "key": "horizontal",
+          "form": "horizontal",
+          "lang": "unknown",
+          "color": "mono-dark",
+          "label": "가로조합형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 2.687,
+          "provider": "simple-icons/hilton",
+          "origin": "collected",
+          "order": 10
+        },
+        {
+          "key": "community-sp500-item-0171",
+          "form": "horizontal",
+          "color": "original",
+          "label": "커뮤니티 수록 원형 · 시기 미확인",
+          "files": {
+            "svg": "sources/community-sp500-remainder-20261011/c5054c39674c4a4f6259/logo.svg",
+            "png": "sources/community-sp500-remainder-20261011/4c07770fbfae89ebd1b0/logo.png"
+          },
+          "preview_png": "sources/community-sp500-remainder-20261011/dd0fc8abd8f2e4ca5633/preview.png",
+          "provider": "사용자 제공 S&P 500 Companies Logos Figma Community 수록본",
+          "origin": "community",
+          "official": false,
+          "source_note": "사용자 제공 벡터 원형을 보존하여 추출. 제작 시기 및 최신 CI 여부 미확인. 이 자료의 수록 사실만으로 현재 S&P 500 구성 기업으로 표시하지 않음.",
+          "source_item": "item-0171",
+          "source_sha256": "c5054c39674c4a4f6259704e3f15be2155fd9cdd878962df71c30390abea9095",
+          "review_status": "verified",
+          "png_width": 2000,
+          "png_height": 1023,
+          "order": 100
+        }
+      ]
+    },
+    "mcdonalds": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "mcdonalds",
+      "primary": "symbol",
+      "fingerprint": {
+        "logo.svg": "5b0641d3c559ec73",
+        "sources/si.svg": "5b0641d3c559ec73",
+        "sources/commons-rev/wordmark.svg": "fceaec63df6a2ca7",
+        "sources/supertiny/mcdonald_s.svg": "24cab63e8ed5cce3"
+      },
+      "variants": [
+        {
+          "key": "symbol",
+          "form": "symbol",
+          "lang": "en",
+          "color": "color",
+          "label": "심볼형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 1.142,
+          "provider": "simple-icons",
+          "origin": "collected",
+          "order": 30,
+          "alts": [
+            {
+              "provider": "simple-icons",
+              "file": "sources/si.svg"
+            },
+            {
+              "provider": "supertiny",
+              "file": "sources/supertiny/mcdonald_s.svg"
+            }
+          ]
+        },
+        {
+          "key": "wordmark",
+          "form": "wordmark",
+          "lang": "unknown",
+          "color": "mono-dark",
+          "label": "워드마크형",
+          "files": {
+            "svg": "sources/commons-rev/wordmark.svg"
+          },
+          "aspect": 8.654,
+          "provider": "wikimedia",
+          "origin": "collected",
+          "order": 40
+        },
+        {
+          "key": "community-sp500-item-0176",
+          "form": "symbol",
+          "color": "original",
+          "label": "커뮤니티 수록 원형 · 시기 미확인",
+          "files": {
+            "svg": "sources/community-sp500-remainder-20261011/0088d10e5fe442876ade/logo.svg",
+            "png": "sources/community-sp500-remainder-20261011/799c5c7d79aedc06f1a3/logo.png"
+          },
+          "preview_png": "sources/community-sp500-remainder-20261011/b87eee6e9d211c4dc709/preview.png",
+          "provider": "사용자 제공 S&P 500 Companies Logos Figma Community 수록본",
+          "origin": "community",
+          "official": false,
+          "source_note": "사용자 제공 벡터 원형을 보존하여 추출. 제작 시기 및 최신 CI 여부 미확인. 이 자료의 수록 사실만으로 현재 S&P 500 구성 기업으로 표시하지 않음.",
+          "source_item": "item-0176",
+          "source_sha256": "0088d10e5fe442876ade189faba943794d0773dc721f618f50380a855cdec9d4",
+          "review_status": "verified",
+          "png_width": 2000,
+          "png_height": 1516,
+          "order": 100
+        }
+      ]
+    },
+    "norwegian-cruise-line": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "norwegian-cruise-line",
+      "primary": "horizontal",
+      "fingerprint": {
+        "logo.svg": "3a9acce65a8f35d8"
+      },
+      "variants": [
+        {
+          "key": "horizontal",
+          "form": "horizontal",
+          "lang": "unknown",
+          "color": "color",
+          "label": "가로조합형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 2.5,
+          "provider": "wikimedia",
+          "origin": "collected",
+          "order": 10
+        },
+        {
+          "key": "community-sp500-item-0181",
+          "form": "horizontal",
+          "color": "original",
+          "label": "커뮤니티 수록 원형 · 시기 미확인",
+          "files": {
+            "svg": "sources/community-sp500-remainder-20261011/fd4e145c224a743893f1/logo.svg",
+            "png": "sources/community-sp500-remainder-20261011/acfb6d6d3046c6ba6356/logo.png"
+          },
+          "preview_png": "sources/community-sp500-remainder-20261011/13b224e649d832168a8a/preview.png",
+          "provider": "사용자 제공 S&P 500 Companies Logos Figma Community 수록본",
+          "origin": "community",
+          "official": false,
+          "source_note": "사용자 제공 벡터 원형을 보존하여 추출. 제작 시기 및 최신 CI 여부 미확인. 이 자료의 수록 사실만으로 현재 S&P 500 구성 기업으로 표시하지 않음.",
+          "source_item": "item-0181",
+          "source_sha256": "fd4e145c224a743893f1cdcf71ec435da8fbd309bee4b1807f408d2934a68bd8",
+          "review_status": "verified",
+          "png_width": 2000,
+          "png_height": 297,
+          "order": 100
+        }
+      ]
+    },
+    "ralphlauren": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "ralphlauren",
+      "primary": "horizontal",
+      "fingerprint": {
+        "logo.svg": "5ea7d785a98b2c62",
+        "sources/apparel-collection/polo-ralph-lauren.svg": "05d2a9a648d1ecd0",
+        "sources/apparel-collection/ralph-lauren.svg": "1b6e71130cbd8190"
+      },
+      "variants": [
+        {
+          "key": "horizontal",
+          "form": "horizontal",
+          "lang": "unknown",
+          "color": "color",
+          "label": "가로조합형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 1.351,
+          "provider": "fashion-curated",
+          "origin": "collected",
+          "order": 10
+        },
+        {
+          "key": "wordmark",
+          "form": "wordmark",
+          "lang": "unknown",
+          "color": "color",
+          "label": "워드마크형",
+          "files": {
+            "svg": "sources/apparel-collection/polo-ralph-lauren.svg",
+            "png": "sources/apparel-collection/polo-ralph-lauren.png"
+          },
+          "aspect": 5.281,
+          "provider": "apparel",
+          "origin": "collected",
+          "order": 40,
+          "alts": [
+            {
+              "provider": "apparel",
+              "file": "sources/apparel-collection/ralph-lauren.svg"
+            }
+          ]
+        },
+        {
+          "key": "community-sp500-item-0185",
+          "form": "wordmark",
+          "color": "original",
+          "label": "커뮤니티 수록 원형 · 시기 미확인",
+          "files": {
+            "svg": "sources/community-sp500-remainder-20261011/6b1da175f76170b3a799/logo.svg",
+            "png": "sources/community-sp500-remainder-20261011/e91e3ed267ed908da992/logo.png"
+          },
+          "preview_png": "sources/community-sp500-remainder-20261011/60d86e3cf1b651f07fe5/preview.png",
+          "provider": "사용자 제공 S&P 500 Companies Logos Figma Community 수록본",
+          "origin": "community",
+          "official": false,
+          "source_note": "사용자 제공 벡터 원형을 보존하여 추출. 제작 시기 및 최신 CI 여부 미확인. 이 자료의 수록 사실만으로 현재 S&P 500 구성 기업으로 표시하지 않음.",
+          "source_item": "item-0185",
+          "source_sha256": "6b1da175f76170b3a79967afc972a05b3fb94f219c0e02201fb29320adb89252",
+          "review_status": "verified",
+          "png_width": 2000,
+          "png_height": 143,
+          "order": 100
+        }
+      ]
+    },
+    "hershey": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "hershey",
+      "primary": "wordmark",
+      "fingerprint": {
+        "logo.svg": "f1cc94711278fab0"
+      },
+      "variants": [
+        {
+          "key": "wordmark",
+          "form": "wordmark",
+          "lang": "unknown",
+          "color": "color",
+          "label": "워드마크형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 3.775,
+          "provider": "thesvg",
+          "origin": "collected",
+          "order": 40
+        },
+        {
+          "key": "community-sp500-item-0197",
+          "form": "horizontal",
+          "color": "original",
+          "label": "커뮤니티 수록 원형 · 시기 미확인",
+          "files": {
+            "svg": "sources/community-sp500-remainder-20261011/8bd4e1fa56bd9387cbd8/logo.svg",
+            "png": "sources/community-sp500-remainder-20261011/0b5adef3b2b7b97ef732/logo.png"
+          },
+          "preview_png": "sources/community-sp500-remainder-20261011/7dc14cecf797386aae05/preview.png",
+          "provider": "사용자 제공 S&P 500 Companies Logos Figma Community 수록본",
+          "origin": "community",
+          "official": false,
+          "source_note": "사용자 제공 벡터 원형을 보존하여 추출. 제작 시기 및 최신 CI 여부 미확인. 이 자료의 수록 사실만으로 현재 S&P 500 구성 기업으로 표시하지 않음.",
+          "source_item": "item-0197",
+          "source_sha256": "8bd4e1fa56bd9387cbd8bd703e9f52045f609414aecea6c5258b17a030a9b221",
+          "review_status": "verified",
+          "png_width": 2000,
+          "png_height": 723,
+          "order": 100
+        }
+      ]
+    },
+    "tyson-foods": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "tyson-foods",
+      "primary": "horizontal",
+      "fingerprint": {
+        "logo.svg": "8df36e4e90ca1814"
+      },
+      "variants": [
+        {
+          "key": "horizontal",
+          "form": "horizontal",
+          "lang": "unknown",
+          "color": "color",
+          "label": "가로조합형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 2.118,
+          "provider": "wikimedia",
+          "origin": "collected",
+          "order": 10
+        },
+        {
+          "key": "community-sp500-item-0211",
+          "form": "horizontal",
+          "color": "original",
+          "label": "커뮤니티 수록 원형 · 시기 미확인",
+          "files": {
+            "svg": "sources/community-sp500-remainder-20261011/2a41ce5ab7c94176e81e/logo.svg",
+            "png": "sources/community-sp500-remainder-20261011/ce059ed9048808734f54/logo.png"
+          },
+          "preview_png": "sources/community-sp500-remainder-20261011/4823bd30a311ec78596e/preview.png",
+          "provider": "사용자 제공 S&P 500 Companies Logos Figma Community 수록본",
+          "origin": "community",
+          "official": false,
+          "source_note": "사용자 제공 벡터 원형을 보존하여 추출. 제작 시기 및 최신 CI 여부 미확인. 이 자료의 수록 사실만으로 현재 S&P 500 구성 기업으로 표시하지 않음.",
+          "source_item": "item-0211",
+          "source_sha256": "2a41ce5ab7c94176e81eff716203d86e2907d6865b7d8d8407aec4bf8c217ac6",
+          "review_status": "verified",
+          "png_width": 2000,
+          "png_height": 704,
+          "order": 100
+        }
+      ]
+    },
+    "campbells": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "campbells",
+      "primary": "wordmark",
+      "fingerprint": {
+        "logo.svg": "22b23d9ffa9c8d64"
+      },
+      "variants": [
+        {
+          "key": "wordmark",
+          "form": "wordmark",
+          "lang": "unknown",
+          "color": "mono-dark",
+          "label": "워드마크형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 3.237,
+          "provider": "curated",
+          "origin": "collected",
+          "order": 40
+        },
+        {
+          "key": "community-sp500-item-0217",
+          "form": "wordmark",
+          "color": "original",
+          "label": "커뮤니티 수록 원형 · 시기 미확인",
+          "files": {
+            "svg": "sources/community-sp500-remainder-20261011/cf0b294d46aa4d3ec7f8/logo.svg",
+            "png": "sources/community-sp500-remainder-20261011/9e88261ee21b22fd78d8/logo.png"
+          },
+          "preview_png": "sources/community-sp500-remainder-20261011/86c69064d1841f3610ba/preview.png",
+          "provider": "사용자 제공 S&P 500 Companies Logos Figma Community 수록본",
+          "origin": "community",
+          "official": false,
+          "source_note": "사용자 제공 벡터 원형을 보존하여 추출. 제작 시기 및 최신 CI 여부 미확인. 이 자료의 수록 사실만으로 현재 S&P 500 구성 기업으로 표시하지 않음.",
+          "source_item": "item-0217",
+          "source_sha256": "cf0b294d46aa4d3ec7f866dcdd0a2fcf531e23eb9654597c092902cd96bb187f",
+          "review_status": "verified",
+          "png_width": 2000,
+          "png_height": 542,
+          "order": 100
+        }
+      ]
+    },
+    "alliant-energy": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "alliant-energy",
+      "primary": "horizontal",
+      "fingerprint": {
+        "logo.svg": "a26e74ce6ae4e003"
+      },
+      "variants": [
+        {
+          "key": "horizontal",
+          "form": "horizontal",
+          "lang": "unknown",
+          "color": "color",
+          "label": "가로조합형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 2.734,
+          "provider": "wikimedia",
+          "origin": "collected",
+          "order": 10
+        },
+        {
+          "key": "community-sp500-item-0219",
+          "form": "horizontal",
+          "color": "original",
+          "label": "커뮤니티 수록 원형 · 시기 미확인",
+          "files": {
+            "svg": "sources/community-sp500-remainder-20261011/924379edc0ade95e0b83/logo.svg",
+            "png": "sources/community-sp500-remainder-20261011/0d769725165f2ab4cbf8/logo.png"
+          },
+          "preview_png": "sources/community-sp500-remainder-20261011/02f2de7b99a6425d981d/preview.png",
+          "provider": "사용자 제공 S&P 500 Companies Logos Figma Community 수록본",
+          "origin": "community",
+          "official": false,
+          "source_note": "사용자 제공 벡터 원형을 보존하여 추출. 제작 시기 및 최신 CI 여부 미확인. 이 자료의 수록 사실만으로 현재 S&P 500 구성 기업으로 표시하지 않음.",
+          "source_item": "item-0219",
+          "source_sha256": "924379edc0ade95e0b83cd04305e00441d7b36114b55e4a1628aa881414530f6",
+          "review_status": "verified",
+          "png_width": 2000,
+          "png_height": 913,
+          "order": 100
+        }
+      ]
+    },
+    "sempra": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "sempra",
+      "primary": "wordmark",
+      "fingerprint": {
+        "logo.svg": "495660ffc8a0e056"
+      },
+      "variants": [
+        {
+          "key": "wordmark",
+          "form": "wordmark",
+          "lang": "unknown",
+          "color": "color",
+          "label": "워드마크형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 4.036,
+          "provider": "wikimedia",
+          "origin": "collected",
+          "order": 40
+        },
+        {
+          "key": "community-sp500-item-0227",
+          "form": "horizontal",
+          "color": "original",
+          "label": "커뮤니티 수록 원형 · 시기 미확인",
+          "files": {
+            "svg": "sources/community-sp500-remainder-20261011/fa6632d7e3e020ea4a6f/logo.svg",
+            "png": "sources/community-sp500-remainder-20261011/546127add7d8ba3698b2/logo.png"
+          },
+          "preview_png": "sources/community-sp500-remainder-20261011/8973ea9da384192c5fb2/preview.png",
+          "provider": "사용자 제공 S&P 500 Companies Logos Figma Community 수록본",
+          "origin": "community",
+          "official": false,
+          "source_note": "사용자 제공 벡터 원형을 보존하여 추출. 제작 시기 및 최신 CI 여부 미확인. 이 자료의 수록 사실만으로 현재 S&P 500 구성 기업으로 표시하지 않음.",
+          "source_item": "item-0227",
+          "source_sha256": "fa6632d7e3e020ea4a6f053475280403fb0ee812c4045b62e4306a691e43643f",
+          "review_status": "verified",
+          "png_width": 2000,
+          "png_height": 408,
+          "order": 100
+        }
+      ]
+    },
+    "exelon": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "exelon",
+      "primary": "wordmark",
+      "fingerprint": {
+        "logo.svg": "00973be3140237b8"
+      },
+      "variants": [
+        {
+          "key": "wordmark",
+          "form": "wordmark",
+          "lang": "unknown",
+          "color": "color",
+          "label": "워드마크형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 4.622,
+          "provider": "wikimedia",
+          "origin": "collected",
+          "order": 40
+        },
+        {
+          "key": "community-sp500-item-0241",
+          "form": "horizontal",
+          "color": "original",
+          "label": "커뮤니티 수록 원형 · 시기 미확인",
+          "files": {
+            "svg": "sources/community-sp500-remainder-20261011/1669bc1e4b73f622fb32/logo.svg",
+            "png": "sources/community-sp500-remainder-20261011/d54e95509b327024ffec/logo.png"
+          },
+          "preview_png": "sources/community-sp500-remainder-20261011/28a9c06b687d2b083d27/preview.png",
+          "provider": "사용자 제공 S&P 500 Companies Logos Figma Community 수록본",
+          "origin": "community",
+          "official": false,
+          "source_note": "사용자 제공 벡터 원형을 보존하여 추출. 제작 시기 및 최신 CI 여부 미확인. 이 자료의 수록 사실만으로 현재 S&P 500 구성 기업으로 표시하지 않음.",
+          "source_item": "item-0241",
+          "source_sha256": "1669bc1e4b73f622fb324039391a44c5e9535f9dd976efb401f6ad11964b465c",
+          "review_status": "verified",
+          "png_width": 2000,
+          "png_height": 497,
+          "order": 100
+        }
+      ]
+    },
+    "prologis": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "prologis",
+      "primary": "wordmark",
+      "fingerprint": {
+        "logo.svg": "6b48b88ebb676a6b"
+      },
+      "variants": [
+        {
+          "key": "wordmark",
+          "form": "wordmark",
+          "lang": "unknown",
+          "color": "color",
+          "label": "워드마크형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 5.114,
+          "provider": "wikimedia",
+          "origin": "collected",
+          "order": 40
+        },
+        {
+          "key": "community-sp500-item-0246",
+          "form": "horizontal",
+          "color": "original",
+          "label": "커뮤니티 수록 원형 · 시기 미확인",
+          "files": {
+            "svg": "sources/community-sp500-remainder-20261011/41509b4714eee38f4570/logo.svg",
+            "png": "sources/community-sp500-remainder-20261011/52421337c581e7c605b6/logo.png"
+          },
+          "preview_png": "sources/community-sp500-remainder-20261011/b2c715100ebc6c6201c3/preview.png",
+          "provider": "사용자 제공 S&P 500 Companies Logos Figma Community 수록본",
+          "origin": "community",
+          "official": false,
+          "source_note": "사용자 제공 벡터 원형을 보존하여 추출. 제작 시기 및 최신 CI 여부 미확인. 이 자료의 수록 사실만으로 현재 S&P 500 구성 기업으로 표시하지 않음.",
+          "source_item": "item-0246",
+          "source_sha256": "41509b4714eee38f4570690f0d28d6c868cc2a916f22f9b66fcd6588c01e53ab",
+          "review_status": "verified",
+          "png_width": 2000,
+          "png_height": 520,
+          "order": 100
+        }
+      ]
+    },
+    "welltower": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "welltower",
+      "primary": "horizontal",
+      "fingerprint": {
+        "logo.svg": "583bfe0f7799f373"
+      },
+      "variants": [
+        {
+          "key": "horizontal",
+          "form": "horizontal",
+          "lang": "unknown",
+          "color": "mono-dark",
+          "label": "가로조합형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 1.426,
+          "provider": "wikimedia",
+          "origin": "collected",
+          "order": 10
+        },
+        {
+          "key": "community-sp500-item-0253",
+          "form": "wordmark",
+          "color": "original",
+          "label": "커뮤니티 수록 원형 · 시기 미확인",
+          "files": {
+            "svg": "sources/community-sp500-remainder-20261011/150d0490e1de46b87feb/logo.svg",
+            "png": "sources/community-sp500-remainder-20261011/4a799b60890092cce7fa/logo.png"
+          },
+          "preview_png": "sources/community-sp500-remainder-20261011/360220d31b9690e2b3d7/preview.png",
+          "provider": "사용자 제공 S&P 500 Companies Logos Figma Community 수록본",
+          "origin": "community",
+          "official": false,
+          "source_note": "사용자 제공 벡터 원형을 보존하여 추출. 제작 시기 및 최신 CI 여부 미확인. 이 자료의 수록 사실만으로 현재 S&P 500 구성 기업으로 표시하지 않음.",
+          "source_item": "item-0253",
+          "source_sha256": "150d0490e1de46b87febb0a4205843abef70d43775141f2980c99111a8e45c05",
+          "review_status": "verified",
+          "png_width": 2000,
+          "png_height": 500,
+          "order": 100
+        }
+      ]
+    },
+    "host-hotels-resorts": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "host-hotels-resorts",
+      "primary": "horizontal",
+      "fingerprint": {
+        "logo.svg": "375449441099f987"
+      },
+      "variants": [
+        {
+          "key": "horizontal",
+          "form": "horizontal",
+          "lang": "unknown",
+          "color": "color",
+          "label": "가로조합형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 1.392,
+          "provider": "wikimedia",
+          "origin": "collected",
+          "order": 10
+        },
+        {
+          "key": "community-sp500-item-0261",
+          "form": "horizontal",
+          "color": "original",
+          "label": "커뮤니티 수록 원형 · 시기 미확인",
+          "files": {
+            "svg": "sources/community-sp500-remainder-20261011/669c524d1fdb1c5736b5/logo.svg",
+            "png": "sources/community-sp500-remainder-20261011/6deb9564cc45bc2122d9/logo.png"
+          },
+          "preview_png": "sources/community-sp500-remainder-20261011/dda8e8500df94c9d38d7/preview.png",
+          "provider": "사용자 제공 S&P 500 Companies Logos Figma Community 수록본",
+          "origin": "community",
+          "official": false,
+          "source_note": "사용자 제공 벡터 원형을 보존하여 추출. 제작 시기 및 최신 CI 여부 미확인. 이 자료의 수록 사실만으로 현재 S&P 500 구성 기업으로 표시하지 않음.",
+          "source_item": "item-0261",
+          "source_sha256": "669c524d1fdb1c5736b59638cd9ab0f899adaeb23c5ce56cf6804f943529bbe4",
+          "review_status": "verified",
+          "png_width": 2000,
+          "png_height": 1433,
+          "order": 100
+        }
+      ]
+    },
+    "ball-corporation": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "ball-corporation",
+      "primary": "horizontal",
+      "fingerprint": {
+        "logo.svg": "07dfe3244967b782"
+      },
+      "variants": [
+        {
+          "key": "horizontal",
+          "form": "horizontal",
+          "lang": "unknown",
+          "color": "color",
+          "label": "가로조합형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 1.544,
+          "provider": "wikimedia",
+          "origin": "collected",
+          "order": 10
+        },
+        {
+          "key": "community-sp500-item-0268",
+          "form": "symbol",
+          "color": "original",
+          "label": "커뮤니티 수록 원형 · 시기 미확인",
+          "files": {
+            "svg": "sources/community-sp500-remainder-20261011/4a1e60b6ebc7fa6c896d/logo.svg",
+            "png": "sources/community-sp500-remainder-20261011/4e2779870344f945b781/logo.png"
+          },
+          "preview_png": "sources/community-sp500-remainder-20261011/5f3bb46a6f35d3b89071/preview.png",
+          "provider": "사용자 제공 S&P 500 Companies Logos Figma Community 수록본",
+          "origin": "community",
+          "official": false,
+          "source_note": "사용자 제공 벡터 원형을 보존하여 추출. 제작 시기 및 최신 CI 여부 미확인. 이 자료의 수록 사실만으로 현재 S&P 500 구성 기업으로 표시하지 않음.",
+          "source_item": "item-0268",
+          "source_sha256": "4a1e60b6ebc7fa6c896d57d0f57ac600f5a2ada350bb81e7c2d1814f80038ffd",
+          "review_status": "verified",
+          "png_width": 2000,
+          "png_height": 1998,
+          "order": 100
+        }
+      ]
+    },
+    "eastman-chemical-company": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "eastman-chemical-company",
+      "primary": "wordmark",
+      "fingerprint": {
+        "logo.svg": "d472e02de44505f0"
+      },
+      "variants": [
+        {
+          "key": "wordmark",
+          "form": "wordmark",
+          "lang": "unknown",
+          "color": "color",
+          "label": "워드마크형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 8.98,
+          "provider": "wikimedia",
+          "origin": "collected",
+          "order": 40
+        },
+        {
+          "key": "community-sp500-item-0272",
+          "form": "wordmark",
+          "color": "original",
+          "label": "커뮤니티 수록 원형 · 시기 미확인",
+          "files": {
+            "svg": "sources/community-sp500-remainder-20261011/b6e7d63d2840e90390c3/logo.svg",
+            "png": "sources/community-sp500-remainder-20261011/6e64102dbee6a6e7dd92/logo.png"
+          },
+          "preview_png": "sources/community-sp500-remainder-20261011/675002b21f450ae620d4/preview.png",
+          "provider": "사용자 제공 S&P 500 Companies Logos Figma Community 수록본",
+          "origin": "community",
+          "official": false,
+          "source_note": "사용자 제공 벡터 원형을 보존하여 추출. 제작 시기 및 최신 CI 여부 미확인. 이 자료의 수록 사실만으로 현재 S&P 500 구성 기업으로 표시하지 않음.",
+          "source_item": "item-0272",
+          "source_sha256": "b6e7d63d2840e90390c3ccc67457ba836e5f3fd0865691a7b49ff165c65c52ec",
+          "review_status": "verified",
+          "png_width": 2000,
+          "png_height": 221,
+          "order": 100
+        }
+      ]
+    },
+    "ecolab": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "ecolab",
+      "primary": "wordmark",
+      "fingerprint": {
+        "logo.svg": "76112515492a3240"
+      },
+      "variants": [
+        {
+          "key": "wordmark",
+          "form": "wordmark",
+          "lang": "unknown",
+          "color": "color",
+          "label": "워드마크형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 5.233,
+          "provider": "wikimedia",
+          "origin": "collected",
+          "order": 40
+        },
+        {
+          "key": "community-sp500-item-0273",
+          "form": "horizontal",
+          "color": "original",
+          "label": "커뮤니티 수록 원형 · 시기 미확인",
+          "files": {
+            "svg": "sources/community-sp500-remainder-20261011/81b4d3ae5663adc6bc35/logo.svg",
+            "png": "sources/community-sp500-remainder-20261011/2d360bc9b2271557175e/logo.png"
+          },
+          "preview_png": "sources/community-sp500-remainder-20261011/e9383542619b9b668ae6/preview.png",
+          "provider": "사용자 제공 S&P 500 Companies Logos Figma Community 수록본",
+          "origin": "community",
+          "official": false,
+          "source_note": "사용자 제공 벡터 원형을 보존하여 추출. 제작 시기 및 최신 CI 여부 미확인. 이 자료의 수록 사실만으로 현재 S&P 500 구성 기업으로 표시하지 않음.",
+          "source_item": "item-0273",
+          "source_sha256": "81b4d3ae5663adc6bc357a797ec2eb47412741c03bf7cdf31b2e66ea7997d6fa",
+          "review_status": "verified",
+          "png_width": 2000,
+          "png_height": 579,
+          "order": 100
+        }
+      ]
+    },
+    "vulcan-materials-company": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "vulcan-materials-company",
+      "primary": "horizontal",
+      "fingerprint": {
+        "logo.svg": "2eaff2837d201109"
+      },
+      "variants": [
+        {
+          "key": "horizontal",
+          "form": "horizontal",
+          "lang": "unknown",
+          "color": "mono-dark",
+          "label": "가로조합형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 2.292,
+          "provider": "wikimedia",
+          "origin": "collected",
+          "order": 10
+        },
+        {
+          "key": "community-sp500-item-0284",
+          "form": "wordmark",
+          "color": "original",
+          "label": "커뮤니티 수록 원형 · 시기 미확인",
+          "files": {
+            "svg": "sources/community-sp500-remainder-20261011/4d4e052dc0986100d99d/logo.svg",
+            "png": "sources/community-sp500-remainder-20261011/73cdcc4911fbffa9bc16/logo.png"
+          },
+          "preview_png": "sources/community-sp500-remainder-20261011/eab41fd6282a32171b77/preview.png",
+          "provider": "사용자 제공 S&P 500 Companies Logos Figma Community 수록본",
+          "origin": "community",
+          "official": false,
+          "source_note": "사용자 제공 벡터 원형을 보존하여 추출. 제작 시기 및 최신 CI 여부 미확인. 이 자료의 수록 사실만으로 현재 S&P 500 구성 기업으로 표시하지 않음.",
+          "source_item": "item-0284",
+          "source_sha256": "4d4e052dc0986100d99df2a9d740c8ab98e002bfe2b99328f8df5d133336d945",
+          "review_status": "verified",
+          "png_width": 2000,
+          "png_height": 852,
+          "order": 100
+        }
+      ]
+    },
+    "sherwin-williams": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "sherwin-williams",
+      "primary": "horizontal",
+      "fingerprint": {
+        "logo.svg": "4e0add955e1fba58"
+      },
+      "variants": [
+        {
+          "key": "horizontal",
+          "form": "horizontal",
+          "lang": "unknown",
+          "color": "color",
+          "label": "가로조합형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 2.387,
+          "provider": "wikimedia",
+          "origin": "collected",
+          "order": 10
+        },
+        {
+          "key": "community-sp500-item-0286",
+          "form": "horizontal",
+          "color": "original",
+          "label": "커뮤니티 수록 원형 · 시기 미확인",
+          "files": {
+            "svg": "sources/community-sp500-remainder-20261011/210210b561bda4350ee3/logo.svg",
+            "png": "sources/community-sp500-remainder-20261011/5453b942b6dc8cf12d60/logo.png"
+          },
+          "preview_png": "sources/community-sp500-remainder-20261011/0dd781077df4ad9fa2e3/preview.png",
+          "provider": "사용자 제공 S&P 500 Companies Logos Figma Community 수록본",
+          "origin": "community",
+          "official": false,
+          "source_note": "사용자 제공 벡터 원형을 보존하여 추출. 제작 시기 및 최신 CI 여부 미확인. 이 자료의 수록 사실만으로 현재 S&P 500 구성 기업으로 표시하지 않음.",
+          "source_item": "item-0286",
+          "source_sha256": "210210b561bda4350ee3ef7f016bdf5bd54883f7ff8653ae624699332acb5bf2",
+          "review_status": "verified",
+          "png_width": 2000,
+          "png_height": 985,
+          "order": 100
+        }
+      ]
+    },
+    "electronic-arts": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "electronic-arts",
+      "primary": "wordmark",
+      "fingerprint": {
+        "logo.svg": "df30f30460b9f9ac"
+      },
+      "variants": [
+        {
+          "key": "wordmark",
+          "form": "wordmark",
+          "lang": "unknown",
+          "color": "color",
+          "label": "워드마크형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 5.59,
+          "provider": "thesvg",
+          "origin": "collected",
+          "order": 40
+        },
+        {
+          "key": "community-sp500-item-0310",
+          "form": "horizontal",
+          "color": "original",
+          "label": "커뮤니티 수록 원형 · 시기 미확인",
+          "files": {
+            "svg": "sources/community-sp500-remainder-20261011/822950865ef041ea1c41/logo.svg",
+            "png": "sources/community-sp500-remainder-20261011/cb6569dc806a2d1fdf27/logo.png"
+          },
+          "preview_png": "sources/community-sp500-remainder-20261011/6c673d1afa0bfd6197dd/preview.png",
+          "provider": "사용자 제공 S&P 500 Companies Logos Figma Community 수록본",
+          "origin": "community",
+          "official": false,
+          "source_note": "사용자 제공 벡터 원형을 보존하여 추출. 제작 시기 및 최신 CI 여부 미확인. 이 자료의 수록 사실만으로 현재 S&P 500 구성 기업으로 표시하지 않음.",
+          "source_item": "item-0310",
+          "source_sha256": "822950865ef041ea1c41f36b82b5c392c0c1e82535c95b1c54f2b6583413b5fe",
+          "review_status": "verified",
+          "png_width": 2000,
+          "png_height": 294,
+          "order": 100
+        }
+      ]
+    },
+    "meta": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "meta",
+      "primary": "horizontal",
+      "fingerprint": {
+        "logo.svg": "7e0b272081611005",
+        "sources/iconify/meta-icon.svg": "f316f2d4f283068e",
+        "sources/meta-icon.svg": "edf0e460f32f04a3"
+      },
+      "variants": [
+        {
+          "key": "horizontal",
+          "form": "horizontal",
+          "lang": "en",
+          "color": "color",
+          "label": "가로조합형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 1.505,
+          "provider": "simple-icons",
+          "origin": "collected",
+          "order": 10
+        },
+        {
+          "key": "symbol",
+          "form": "symbol",
+          "lang": "en",
+          "color": "color",
+          "label": "심볼형",
+          "files": {
+            "svg": "sources/iconify/meta-icon.svg",
+            "png": "sources/iconify/meta-icon.png"
+          },
+          "aspect": 1.508,
+          "provider": "iconify",
+          "origin": "collected",
+          "order": 30,
+          "alts": [
+            {
+              "provider": "merged",
+              "file": "sources/meta-icon.svg"
+            }
+          ]
+        },
+        {
+          "key": "community-sp500-item-0313",
+          "form": "horizontal",
+          "color": "original",
+          "label": "커뮤니티 수록 원형 · 시기 미확인",
+          "files": {
+            "svg": "sources/community-sp500-remainder-20261011/6a9178b0453bf8a5f5a5/logo.svg",
+            "png": "sources/community-sp500-remainder-20261011/6fbae2646ad1185133f1/logo.png"
+          },
+          "preview_png": "sources/community-sp500-remainder-20261011/ab492d408b680b6e202c/preview.png",
+          "provider": "사용자 제공 S&P 500 Companies Logos Figma Community 수록본",
+          "origin": "community",
+          "official": false,
+          "source_note": "사용자 제공 벡터 원형을 보존하여 추출. 제작 시기 및 최신 CI 여부 미확인. 이 자료의 수록 사실만으로 현재 S&P 500 구성 기업으로 표시하지 않음.",
+          "source_item": "item-0313",
+          "source_sha256": "6a9178b0453bf8a5f5a5cd3a1e3039587e4010bb8bc93e937035110ed32bae55",
+          "review_status": "verified",
+          "png_width": 2000,
+          "png_height": 403,
+          "order": 100
+        }
+      ]
+    },
+    "omnicom-group": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "omnicom-group",
+      "primary": "wordmark",
+      "fingerprint": {
+        "logo.svg": "63efeef157ba76d3"
+      },
+      "variants": [
+        {
+          "key": "wordmark",
+          "form": "wordmark",
+          "lang": "unknown",
+          "color": "mono-dark",
+          "label": "워드마크형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 5.763,
+          "provider": "wikimedia",
+          "origin": "collected",
+          "order": 40
+        },
+        {
+          "key": "community-sp500-item-0316",
+          "form": "horizontal",
+          "color": "original",
+          "label": "커뮤니티 수록 원형 · 시기 미확인",
+          "files": {
+            "svg": "sources/community-sp500-remainder-20261011/bf2a7ae405adf6e74bdf/logo.svg",
+            "png": "sources/community-sp500-remainder-20261011/c7e21d0514ce882d9d77/logo.png"
+          },
+          "preview_png": "sources/community-sp500-remainder-20261011/38828fc78dd749a75b48/preview.png",
+          "provider": "사용자 제공 S&P 500 Companies Logos Figma Community 수록본",
+          "origin": "community",
+          "official": false,
+          "source_note": "사용자 제공 벡터 원형을 보존하여 추출. 제작 시기 및 최신 CI 여부 미확인. 이 자료의 수록 사실만으로 현재 S&P 500 구성 기업으로 표시하지 않음.",
+          "source_item": "item-0316",
+          "source_sha256": "bf2a7ae405adf6e74bdfe8edd4e3e5ee2f535a393af6f8eb32648d628d7a54dd",
+          "review_status": "verified",
+          "png_width": 2000,
+          "png_height": 238,
+          "order": 100
+        }
+      ]
+    },
+    "paloaltonetworks": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "paloaltonetworks",
+      "primary": "horizontal",
+      "fingerprint": {
+        "logo.svg": "186c091d81957762"
+      },
+      "variants": [
+        {
+          "key": "horizontal",
+          "form": "horizontal",
+          "lang": "unknown",
+          "color": "mono-dark",
+          "label": "가로조합형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 1.398,
+          "provider": "unknown",
+          "origin": "collected",
+          "order": 10
+        },
+        {
+          "key": "community-sp500-item-0317",
+          "form": "horizontal",
+          "color": "original",
+          "label": "커뮤니티 수록 원형 · 시기 미확인",
+          "files": {
+            "svg": "sources/community-sp500-remainder-20261011/03b95758502f88ba5660/logo.svg",
+            "png": "sources/community-sp500-remainder-20261011/dd9940dc36988750c383/logo.png"
+          },
+          "preview_png": "sources/community-sp500-remainder-20261011/4f8038cf6c74bfc75fba/preview.png",
+          "provider": "사용자 제공 S&P 500 Companies Logos Figma Community 수록본",
+          "origin": "community",
+          "official": false,
+          "source_note": "사용자 제공 벡터 원형을 보존하여 추출. 제작 시기 및 최신 CI 여부 미확인. 이 자료의 수록 사실만으로 현재 S&P 500 구성 기업으로 표시하지 않음.",
+          "source_item": "item-0317",
+          "source_sha256": "03b95758502f88ba5660aebce978f71d13581d5b0f670d401f8416c4f32b4936",
+          "review_status": "verified",
+          "png_width": 2000,
+          "png_height": 367,
+          "order": 100
+        }
+      ]
+    },
+    "take-two": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "take-two",
+      "primary": "symbol",
+      "fingerprint": {
+        "logo.svg": "20cce695e33f06a9"
+      },
+      "variants": [
+        {
+          "key": "symbol",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "color",
+          "label": "심볼형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 0.992,
+          "provider": "thesvg",
+          "origin": "collected",
+          "order": 30
+        },
+        {
+          "key": "community-sp500-item-0319",
+          "form": "symbol",
+          "color": "original",
+          "label": "커뮤니티 수록 원형 · 시기 미확인",
+          "files": {
+            "svg": "sources/community-sp500-remainder-20261011/d72a6960e997a61f64b9/logo.svg",
+            "png": "sources/community-sp500-remainder-20261011/c661f806a00808dbb131/logo.png"
+          },
+          "preview_png": "sources/community-sp500-remainder-20261011/15d1ee25dae39b2b60bc/preview.png",
+          "provider": "사용자 제공 S&P 500 Companies Logos Figma Community 수록본",
+          "origin": "community",
+          "official": false,
+          "source_note": "사용자 제공 벡터 원형을 보존하여 추출. 제작 시기 및 최신 CI 여부 미확인. 이 자료의 수록 사실만으로 현재 S&P 500 구성 기업으로 표시하지 않음.",
+          "source_item": "item-0319",
+          "source_sha256": "d72a6960e997a61f64b99dee1b687419614e876632031b697a9b814069bdf550",
+          "review_status": "verified",
+          "png_width": 2000,
+          "png_height": 1680,
+          "order": 100
         }
       ]
     }

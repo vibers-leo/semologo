@@ -1,0 +1,31 @@
+{
+  "app_id": "6821392032",
+  "bundle_id": "com.vibers.semologo",
+  "team_id": "84SS43LYKR",
+  "app_name": "세모로고",
+  "version": "1.0",
+  "state": "PREPARE_FOR_SUBMISSION",
+  "metadata_save_clicked": true,
+  "metadata_reload_verification_pending": false,
+  "build_uploaded": false,
+  "review_submitted": false,
+  "play_account": "vibers",
+  "play_account_type": "personal",
+  "play_blockers": [
+    "identity verification",
+    "physical Android device verification",
+    "contact phone verification"
+  ],
+  "metadata_verified": [
+    "description",
+    "keywords",
+    "support_url",
+    "marketing_url",
+    "copyright",
+    "review_notes",
+    "no_login_required",
+    "manual_release"
+  ],
+  "subtitle": "세상 모든 로고를 한곳에",
+  "category": "그래픽 및 디자인"
+}

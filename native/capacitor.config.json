@@ -1,6 +1,6 @@
 {
-  "appId":"com.example.semologo.dev",
-  "appName":"세모로고 개발",
+  "appId":"com.vibers.semologo",
+  "appName":"세모로고",
   "webDir":"dist",
   "appendUserAgent":" SemologoApp/0.1",
   "loggingBehavior":"debug",

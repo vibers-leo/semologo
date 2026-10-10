@@ -21,7 +21,7 @@ export default function PrivacyPage() {
         </Link>
 
         <h1 className="text-2xl font-black mb-2">개인정보처리방침</h1>
-        <p className="text-sm mb-10" style={{ color: "var(--text-secondary)" }}>시행일: 2026년 8월 1일</p>
+        <p className="text-sm mb-10" style={{ color: "var(--text-secondary)" }}>최종 갱신: 2026년 10월 11일</p>
 
         <div className="flex flex-col gap-8 text-sm" style={{ lineHeight: 1.9, color: "var(--text)" }}>
 
@@ -34,6 +34,13 @@ export default function PrivacyPage() {
               <li><strong>서비스 이용 분석:</strong> 익명 방문 세션, UTM 유입 경로, 페이지 방문, 검색어, 로고 열람 및 다운로드 선택, 기기·브라우저 종류를 기록합니다. 이메일·이름과 연결하지 않으며 원본 IP를 저장하지 않습니다. 이 기록은 90일 후 삭제합니다.</li>
               <li><strong>자동 수집:</strong> 서비스 이용 기록, 접속 IP, 브라우저 정보 (Google Analytics)</li>
             </ul>
+          </section>
+
+          <section>
+            <h2 className="font-bold text-base mb-3">모바일 앱과 서버 접속 기록</h2>
+            <p>모바일 앱의 저장 목록은 기기에 보관되며 웹 회원 계정과 동기화되지 않습니다. PNG 공유에 쓰는 임시 파일은 공유 처리가 끝나면 삭제합니다. 앱에는 로그인·광고·방문 분석 SDK가 포함되어 있지 않습니다.</p>
+            <p className="mt-2">로고 검색과 이미지 전송 과정에서 서버에는 검색어가 포함된 요청 경로, 접속 IP, 브라우저·기기 정보, 참조 페이지가 접속 로그로 남습니다. 이는 로고 제공, 장애 확인 및 서비스 운영에 사용합니다. 웹 서버 접속 로그는 주 단위로 순환하고 이전 로그 4개를 보관합니다. 앞서 안내한 90일 이용 분석 기록과는 별도입니다.</p>
+            <p className="mt-2">전체 로고 구성을 브라우저에서 열면 웹사이트의 로그인·분석·광고 정책이 적용됩니다.</p>
           </section>
 
           <section>
