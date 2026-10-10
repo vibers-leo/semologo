@@ -3259,6 +3259,75 @@
         "iM Bank",
         "대구은행"
       ]
+    },
+    "gongu-ci-1637": {
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": "sources/official-zip-batch7-20261010/6a3deeadf2b870411bd8.svg",
+      "svg_transparent": "sources/official-zip-batch7-20261010/6a3deeadf2b870411bd8.svg",
+      "logo_png": "sources/official-zip-batch7-20261010/83b732e2c98d3c108b5c.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/gongu-ci-1637/sources/official-zip-batch7-20261010/83b732e2c98d3c108b5c.png",
+      "original_ai_url": "https://logo.vibers.co.kr/_clients/gongu-ci-1637/sources/official-zip-batch7-20261010/d28e761cc0a800f065a0.ai",
+      "original_zip_url": "https://logo.vibers.co.kr/_clients/gongu-ci-1637/sources/official-zip-batch7-20261010/4d00fda851b352722a1c.zip",
+      "source_zip": "sources/official-zip-batch7-20261010/4d00fda851b352722a1c.zip",
+      "official_source_page": "https://www.kca.go.kr/kca/sub.do?menukey=5038",
+      "variants_n": 5,
+      "asset_review_status": "verified",
+      "asset_origin": "공식 AI 원본 재수집 · 가이드 및 레이아웃 제거",
+      "asset_checked_at": "2026-10-10",
+      "logo_published_at": "2026-10-10T11:32:30.020583+00:00",
+      "light": false,
+      "light_logo": false,
+      "presentation": {
+        "file": "sources/official-zip-batch7-20261010/83b732e2c98d3c108b5c.png",
+        "bg": "light"
+      }
+    },
+    "gongu-ci-1619": {
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": "sources/official-zip-batch7-20261010/f0ae5cc82b0d0dbfd192.svg",
+      "svg_transparent": "sources/official-zip-batch7-20261010/f0ae5cc82b0d0dbfd192.svg",
+      "logo_png": "sources/official-zip-batch7-20261010/5309de9268ac462886a6.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/gongu-ci-1619/sources/official-zip-batch7-20261010/5309de9268ac462886a6.png",
+      "original_ai_url": "https://logo.vibers.co.kr/_clients/gongu-ci-1619/sources/official-zip-batch7-20261010/382e2e155d8662ae3eb0.ai",
+      "original_zip_url": "https://logo.vibers.co.kr/_clients/gongu-ci-1619/sources/official-zip-batch7-20261010/21a2356a42f6eb1c5503.zip",
+      "source_zip": "sources/official-zip-batch7-20261010/21a2356a42f6eb1c5503.zip",
+      "official_source_page": "https://www.kasfo.or.kr/kasfo/1053/subview.do",
+      "variants_n": 9,
+      "asset_review_status": "verified",
+      "asset_origin": "공식 AI 원본 재수집 · 가이드 및 레이아웃 제거",
+      "asset_checked_at": "2026-10-10",
+      "logo_published_at": "2026-10-10T11:32:30.020782+00:00",
+      "light": false,
+      "light_logo": false,
+      "presentation": {
+        "file": "sources/official-zip-batch7-20261010/5309de9268ac462886a6.png",
+        "bg": "light"
+      }
+    },
+    "gongu-ci-1603": {
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": "sources/official-zip-batch7-20261010/ff3255a0119471727da9.svg",
+      "svg_transparent": "sources/official-zip-batch7-20261010/ff3255a0119471727da9.svg",
+      "logo_png": "sources/official-zip-batch7-20261010/120304d853ae5caaf8d8.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/gongu-ci-1603/sources/official-zip-batch7-20261010/120304d853ae5caaf8d8.png",
+      "original_ai_url": "https://logo.vibers.co.kr/_clients/gongu-ci-1603/sources/official-zip-batch7-20261010/ceb48aff2b4f0ab1f442.ai",
+      "original_zip_url": "https://logo.vibers.co.kr/_clients/gongu-ci-1603/sources/official-zip-batch7-20261010/12fb4e4f5b4fb6245261.zip",
+      "source_zip": "sources/official-zip-batch7-20261010/12fb4e4f5b4fb6245261.zip",
+      "official_source_page": "https://www.arte.or.kr/introduction/cinbi/ci/index.do",
+      "variants_n": 4,
+      "asset_review_status": "verified",
+      "asset_origin": "공식 AI 원본 재수집 · 가이드 및 레이아웃 제거",
+      "asset_checked_at": "2026-10-10",
+      "logo_published_at": "2026-10-10T11:32:30.020787+00:00",
+      "light": false,
+      "light_logo": false,
+      "presentation": {
+        "file": "sources/official-zip-batch7-20261010/120304d853ae5caaf8d8.png",
+        "bg": "light"
+      }
     }
   },
   "variants": {
@@ -10552,6 +10621,390 @@
           "derived_from": "시중 은행 (1).svg",
           "order": 2,
           "official_distribution": false
+        }
+      ]
+    },
+    "gongu-ci-1637": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "gongu-ci-1637",
+      "primary": "candidate-0-d28e761c-page-0-horizontal-koen",
+      "variants": [
+        {
+          "key": "candidate-0-d28e761c-page-0-horizontal-koen",
+          "label": "국영문 좌우조합",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-zip-batch7-20261010/6a3deeadf2b870411bd8.svg",
+            "png": "sources/official-zip-batch7-20261010/83b732e2c98d3c108b5c.png"
+          },
+          "aspect": 3.2051282051282053,
+          "origin": "official",
+          "provider": "공식 AI · 레이아웃 제거 검수",
+          "derived_from": "https://www.kca.go.kr/down//KCA_CI_ai.zip",
+          "original_ai": "sources/official-zip-batch7-20261010/d28e761cc0a800f065a0.ai",
+          "original_zip": "sources/official-zip-batch7-20261010/4d00fda851b352722a1c.zip",
+          "order": 0,
+          "asset_group": "logotype"
+        },
+        {
+          "key": "candidate-0-d28e761c-page-0-horizontal-ko",
+          "label": "국문 좌우조합",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-zip-batch7-20261010/9a65b25b57cc7f41e95d.svg",
+            "png": "sources/official-zip-batch7-20261010/db1da924c04c6c65c498.png"
+          },
+          "aspect": 4.555808656036446,
+          "origin": "official",
+          "provider": "공식 AI · 레이아웃 제거 검수",
+          "derived_from": "https://www.kca.go.kr/down//KCA_CI_ai.zip",
+          "original_ai": "sources/official-zip-batch7-20261010/d28e761cc0a800f065a0.ai",
+          "original_zip": "sources/official-zip-batch7-20261010/4d00fda851b352722a1c.zip",
+          "order": 1,
+          "asset_group": "logotype"
+        },
+        {
+          "key": "candidate-0-d28e761c-page-0-horizontal-en",
+          "label": "영문 좌우조합",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-zip-batch7-20261010/3cc359640baf4ef94403.svg",
+            "png": "sources/official-zip-batch7-20261010/7b4b647d4ce72299a6b4.png"
+          },
+          "aspect": 6.8728522336769755,
+          "origin": "official",
+          "provider": "공식 AI · 레이아웃 제거 검수",
+          "derived_from": "https://www.kca.go.kr/down//KCA_CI_ai.zip",
+          "original_ai": "sources/official-zip-batch7-20261010/d28e761cc0a800f065a0.ai",
+          "original_zip": "sources/official-zip-batch7-20261010/4d00fda851b352722a1c.zip",
+          "order": 2,
+          "asset_group": "logotype"
+        },
+        {
+          "key": "candidate-0-d28e761c-page-0-horizontal-kca",
+          "label": "KCA 좌우조합",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-zip-batch7-20261010/f03a4d55510841f08aa8.svg",
+            "png": "sources/official-zip-batch7-20261010/914cff1fd1adaef5c8b3.png"
+          },
+          "aspect": 2.100840336134454,
+          "origin": "official",
+          "provider": "공식 AI · 레이아웃 제거 검수",
+          "derived_from": "https://www.kca.go.kr/down//KCA_CI_ai.zip",
+          "original_ai": "sources/official-zip-batch7-20261010/d28e761cc0a800f065a0.ai",
+          "original_zip": "sources/official-zip-batch7-20261010/4d00fda851b352722a1c.zip",
+          "order": 3,
+          "asset_group": "logotype"
+        },
+        {
+          "key": "candidate-0-d28e761c-page-0-symbol",
+          "label": "심볼마크",
+          "form": "symbol",
+          "lockup": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-zip-batch7-20261010/178aee608851fcde5789.svg",
+            "png": "sources/official-zip-batch7-20261010/0851c4886f770d9616c8.png"
+          },
+          "aspect": 1.0,
+          "origin": "official",
+          "provider": "공식 AI · 레이아웃 제거 검수",
+          "derived_from": "https://www.kca.go.kr/down//KCA_CI_ai.zip",
+          "original_ai": "sources/official-zip-batch7-20261010/d28e761cc0a800f065a0.ai",
+          "original_zip": "sources/official-zip-batch7-20261010/4d00fda851b352722a1c.zip",
+          "order": 4,
+          "asset_group": "symbol"
+        }
+      ]
+    },
+    "gongu-ci-1619": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "gongu-ci-1619",
+      "primary": "candidate-0-382e2e15-page-0-horizontal-koen",
+      "variants": [
+        {
+          "key": "candidate-0-a5302760-page-0-vertical-ko",
+          "label": "국문 상하조합",
+          "form": "vertical",
+          "lockup": "vertical",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-zip-batch7-20261010/de773883eb912ea5e3aa.svg",
+            "png": "sources/official-zip-batch7-20261010/ebee015a8911dce66242.png"
+          },
+          "aspect": 1.027221366204417,
+          "origin": "official",
+          "provider": "공식 AI · 레이아웃 제거 검수",
+          "derived_from": "https://www.kasfo.or.kr/sites/kasfo/download/ciai_2018.zip",
+          "original_ai": "sources/official-zip-batch7-20261010/a53027601a5414504908.ai",
+          "original_zip": "sources/official-zip-batch7-20261010/21a2356a42f6eb1c5503.zip",
+          "order": 0,
+          "asset_group": "logotype"
+        },
+        {
+          "key": "candidate-0-a5302760-page-0-vertical-en",
+          "label": "영문 상하조합",
+          "form": "vertical",
+          "lockup": "vertical",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-zip-batch7-20261010/8ddadf44f0c8e013ef56.svg",
+            "png": "sources/official-zip-batch7-20261010/621f5b3aa5b3b2f4da6e.png"
+          },
+          "aspect": 1.7761989342806395,
+          "origin": "official",
+          "provider": "공식 AI · 레이아웃 제거 검수",
+          "derived_from": "https://www.kasfo.or.kr/sites/kasfo/download/ciai_2018.zip",
+          "original_ai": "sources/official-zip-batch7-20261010/a53027601a5414504908.ai",
+          "original_zip": "sources/official-zip-batch7-20261010/21a2356a42f6eb1c5503.zip",
+          "order": 1,
+          "asset_group": "logotype"
+        },
+        {
+          "key": "candidate-0-a5302760-page-0-vertical-kasfo",
+          "label": "KASFO 상하조합",
+          "form": "vertical",
+          "lockup": "vertical",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-zip-batch7-20261010/e8c0f261e84b5e0352b8.svg",
+            "png": "sources/official-zip-batch7-20261010/459182c3871fc8aef62d.png"
+          },
+          "aspect": 0.68,
+          "origin": "official",
+          "provider": "공식 AI · 레이아웃 제거 검수",
+          "derived_from": "https://www.kasfo.or.kr/sites/kasfo/download/ciai_2018.zip",
+          "original_ai": "sources/official-zip-batch7-20261010/a53027601a5414504908.ai",
+          "original_zip": "sources/official-zip-batch7-20261010/21a2356a42f6eb1c5503.zip",
+          "order": 2,
+          "asset_group": "logotype"
+        },
+        {
+          "key": "candidate-0-a5302760-page-0-vertical-koen",
+          "label": "국영문 상하조합",
+          "form": "vertical",
+          "lockup": "vertical",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-zip-batch7-20261010/8ddc7548c5b9d46559f4.svg",
+            "png": "sources/official-zip-batch7-20261010/319878a3c2d41d1c240c.png"
+          },
+          "aspect": 0.9395,
+          "origin": "official",
+          "provider": "공식 AI · 레이아웃 제거 검수",
+          "derived_from": "https://www.kasfo.or.kr/sites/kasfo/download/ciai_2018.zip",
+          "original_ai": "sources/official-zip-batch7-20261010/a53027601a5414504908.ai",
+          "original_zip": "sources/official-zip-batch7-20261010/21a2356a42f6eb1c5503.zip",
+          "order": 3,
+          "asset_group": "logotype"
+        },
+        {
+          "key": "candidate-0-a5302760-page-0-symbol",
+          "label": "심볼마크",
+          "form": "symbol",
+          "lockup": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-zip-batch7-20261010/14365507c0a08e96f488.svg",
+            "png": "sources/official-zip-batch7-20261010/ce6a07d40c2d14cf5314.png"
+          },
+          "aspect": 0.88,
+          "origin": "official",
+          "provider": "공식 AI · 레이아웃 제거 검수",
+          "derived_from": "https://www.kasfo.or.kr/sites/kasfo/download/ciai_2018.zip",
+          "original_ai": "sources/official-zip-batch7-20261010/a53027601a5414504908.ai",
+          "original_zip": "sources/official-zip-batch7-20261010/21a2356a42f6eb1c5503.zip",
+          "order": 4,
+          "asset_group": "symbol"
+        },
+        {
+          "key": "candidate-0-382e2e15-page-0-horizontal-ko",
+          "label": "국문 좌우조합",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-zip-batch7-20261010/13814b76b56ea3ca4d54.svg",
+            "png": "sources/official-zip-batch7-20261010/685073528cfd3d4eb690.png"
+          },
+          "aspect": 2.684563758389262,
+          "origin": "official",
+          "provider": "공식 AI · 레이아웃 제거 검수",
+          "derived_from": "https://www.kasfo.or.kr/sites/kasfo/download/ciai_2018.zip",
+          "original_ai": "sources/official-zip-batch7-20261010/382e2e155d8662ae3eb0.ai",
+          "original_zip": "sources/official-zip-batch7-20261010/21a2356a42f6eb1c5503.zip",
+          "order": 5,
+          "asset_group": "logotype"
+        },
+        {
+          "key": "candidate-0-382e2e15-page-0-horizontal-en",
+          "label": "영문 좌우조합",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-zip-batch7-20261010/71cc9db15384302972b7.svg",
+            "png": "sources/official-zip-batch7-20261010/ef7cd8ada0b188c90546.png"
+          },
+          "aspect": 4.705882352941177,
+          "origin": "official",
+          "provider": "공식 AI · 레이아웃 제거 검수",
+          "derived_from": "https://www.kasfo.or.kr/sites/kasfo/download/ciai_2018.zip",
+          "original_ai": "sources/official-zip-batch7-20261010/382e2e155d8662ae3eb0.ai",
+          "original_zip": "sources/official-zip-batch7-20261010/21a2356a42f6eb1c5503.zip",
+          "order": 6,
+          "asset_group": "logotype"
+        },
+        {
+          "key": "candidate-0-382e2e15-page-0-horizontal-kasfo",
+          "label": "KASFO 좌우조합",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-zip-batch7-20261010/340b7128e55fc6c0197e.svg",
+            "png": "sources/official-zip-batch7-20261010/9faac0c2330b18339a53.png"
+          },
+          "aspect": 2.5094102885821834,
+          "origin": "official",
+          "provider": "공식 AI · 레이아웃 제거 검수",
+          "derived_from": "https://www.kasfo.or.kr/sites/kasfo/download/ciai_2018.zip",
+          "original_ai": "sources/official-zip-batch7-20261010/382e2e155d8662ae3eb0.ai",
+          "original_zip": "sources/official-zip-batch7-20261010/21a2356a42f6eb1c5503.zip",
+          "order": 7,
+          "asset_group": "logotype"
+        },
+        {
+          "key": "candidate-0-382e2e15-page-0-horizontal-koen",
+          "label": "국영문 좌우조합",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-zip-batch7-20261010/f0ae5cc82b0d0dbfd192.svg",
+            "png": "sources/official-zip-batch7-20261010/5309de9268ac462886a6.png"
+          },
+          "aspect": 3.4782608695652173,
+          "origin": "official",
+          "provider": "공식 AI · 레이아웃 제거 검수",
+          "derived_from": "https://www.kasfo.or.kr/sites/kasfo/download/ciai_2018.zip",
+          "original_ai": "sources/official-zip-batch7-20261010/382e2e155d8662ae3eb0.ai",
+          "original_zip": "sources/official-zip-batch7-20261010/21a2356a42f6eb1c5503.zip",
+          "order": 8,
+          "asset_group": "logotype"
+        }
+      ]
+    },
+    "gongu-ci-1603": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "gongu-ci-1603",
+      "primary": "candidate-0-ceb48aff-page-0-horizontal-koen",
+      "variants": [
+        {
+          "key": "candidate-0-ceb48aff-page-0-horizontal-koen",
+          "label": "국영문 좌우조합",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-zip-batch7-20261010/ff3255a0119471727da9.svg",
+            "png": "sources/official-zip-batch7-20261010/120304d853ae5caaf8d8.png"
+          },
+          "aspect": 7.326007326007326,
+          "origin": "official",
+          "provider": "공식 AI · 레이아웃 제거 검수",
+          "derived_from": "https://www.arte.or.kr/2024_new/images/download/ci.zip",
+          "original_ai": "sources/official-zip-batch7-20261010/ceb48aff2b4f0ab1f442.ai",
+          "original_zip": "sources/official-zip-batch7-20261010/12fb4e4f5b4fb6245261.zip",
+          "order": 0,
+          "asset_group": "logotype"
+        },
+        {
+          "key": "candidate-0-ceb48aff-page-0-horizontal-ko",
+          "label": "국문 좌우조합",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-zip-batch7-20261010/785f1336ff0482b39c44.svg",
+            "png": "sources/official-zip-batch7-20261010/2aecab6963ab4e6a946b.png"
+          },
+          "aspect": 7.299270072992701,
+          "origin": "official",
+          "provider": "공식 AI · 레이아웃 제거 검수",
+          "derived_from": "https://www.arte.or.kr/2024_new/images/download/ci.zip",
+          "original_ai": "sources/official-zip-batch7-20261010/ceb48aff2b4f0ab1f442.ai",
+          "original_zip": "sources/official-zip-batch7-20261010/12fb4e4f5b4fb6245261.zip",
+          "order": 1,
+          "asset_group": "logotype"
+        },
+        {
+          "key": "candidate-0-ceb48aff-page-0-horizontal-en",
+          "label": "영문 좌우조합",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-zip-batch7-20261010/4f138fd9a4becd9a3f30.svg",
+            "png": "sources/official-zip-batch7-20261010/cddd217b87c00b403ab5.png"
+          },
+          "aspect": 6.172839506172839,
+          "origin": "official",
+          "provider": "공식 AI · 레이아웃 제거 검수",
+          "derived_from": "https://www.arte.or.kr/2024_new/images/download/ci.zip",
+          "original_ai": "sources/official-zip-batch7-20261010/ceb48aff2b4f0ab1f442.ai",
+          "original_zip": "sources/official-zip-batch7-20261010/12fb4e4f5b4fb6245261.zip",
+          "order": 2,
+          "asset_group": "logotype"
+        },
+        {
+          "key": "candidate-0-ceb48aff-page-0-horizontal-en-stacked",
+          "label": "영문 3단 좌우조합",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-zip-batch7-20261010/138e9184899586c2f882.svg",
+            "png": "sources/official-zip-batch7-20261010/a334ef0189b7b7243bfb.png"
+          },
+          "aspect": 4.739336492890995,
+          "origin": "official",
+          "provider": "공식 AI · 레이아웃 제거 검수",
+          "derived_from": "https://www.arte.or.kr/2024_new/images/download/ci.zip",
+          "original_ai": "sources/official-zip-batch7-20261010/ceb48aff2b4f0ab1f442.ai",
+          "original_zip": "sources/official-zip-batch7-20261010/12fb4e4f5b4fb6245261.zip",
+          "order": 3,
+          "asset_group": "logotype"
         }
       ]
     }
