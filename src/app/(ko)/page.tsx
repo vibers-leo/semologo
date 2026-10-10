@@ -30,7 +30,7 @@ export default async function Home() {
     <div className="min-h-screen" style={{ background: "var(--bg)" }}>
       <Header />
       {/* 헤더 하단·본문 상단 — Vibers 광고 서버(디어스 캠페인) */}
-      <div className="w-full px-4 pt-3">
+      <div className="mx-auto w-[90%] pt-3">
         <VibersAdSlot slot="home_top" />
       </div>
       <main className="w-full px-4 pb-20">
