@@ -1,0 +1,60 @@
+{
+  "patches": {
+    "gongu-ci-1057": {
+      "variant_of": "dangjin",
+      "merged_into": "dangjin",
+      "hidden": true,
+      "hidden_reason": "사용자 제공 공식 AI에서 추출한 고해상도 자산을 대표 콘텐츠로 통합"
+    },
+    "dangjin-mascot": {
+      "variant_of": "dangjin",
+      "merged_into": "dangjin",
+      "hidden": true,
+      "hidden_reason": "사용자 제공 공식 AI에서 추출한 고해상도 자산을 대표 콘텐츠로 통합"
+    },
+    "dangjin": {
+      "presentation": {
+        "file": "sources/user-identities-20261010/3ec954a7f27e4d3f.png",
+        "bg": "light"
+      },
+      "aliases": [
+        "당진시",
+        "당진",
+        "Dangjin",
+        "당찬 당진",
+        "당진시 마스코트",
+        "gongu-ci-1057",
+        "dangjin-mascot"
+      ]
+    },
+    "gongu-ci-1514": {
+      "variant_of": "south-chungcheong",
+      "merged_into": "south-chungcheong",
+      "hidden": true,
+      "hidden_reason": "사용자 제공 공식 AI에서 추출한 고해상도 자산을 대표 콘텐츠로 통합"
+    },
+    "south-chungcheong": {
+      "presentation": {
+        "file": "sources/user-identities-20261010/8a7d574ff216e129.png",
+        "bg": "light"
+      },
+      "aliases": [
+        "충청남도",
+        "충남",
+        "Chungnam",
+        "Chungcheongnam-do",
+        "South Chungcheong Province",
+        "gongu-ci-1514"
+      ]
+    }
+  },
+  "decisions": {
+    "dangjin": [
+      "gongu-ci-1057",
+      "dangjin-mascot"
+    ],
+    "south-chungcheong": [
+      "gongu-ci-1514"
+    ]
+  }
+}

@@ -19,7 +19,8 @@ import cjwf from './reviewed-cjwf-20261010.json';
 import seongju from './reviewed-seongju-20261010.json';
 import iconHd from './reviewed-icon-hd-20261010.json';
 import userIdentities from './reviewed-user-identities-20261010.json';
-const releasePatches = { ...release.patches, ...backgroundMerge.patches, ...googleTransparent.patches, ...institutions.patches, ...institutionsNext.patches, ...rainbow.patches, ...requestedBackground.patches, ...netflix.patches, ...userSvg.patches, ...claudeMerge.patches, ...lockups.patches, ...yeonsu.patches, ...kepco.patches, ...chungbuk.patches, ...ftc.patches, ...cjwf.patches, ...seongju.patches, ...iconHd.patches, ...userIdentities.patches } as unknown as Record<string, Partial<Brand>>;
+import cityMerges from './reviewed-city-merges-20261010.json';
+const releasePatches = { ...release.patches, ...backgroundMerge.patches, ...googleTransparent.patches, ...institutions.patches, ...institutionsNext.patches, ...rainbow.patches, ...requestedBackground.patches, ...netflix.patches, ...userSvg.patches, ...claudeMerge.patches, ...lockups.patches, ...yeonsu.patches, ...kepco.patches, ...chungbuk.patches, ...ftc.patches, ...cjwf.patches, ...seongju.patches, ...iconHd.patches, ...userIdentities.patches, ...cityMerges.patches } as unknown as Record<string, Partial<Brand>>;
 
 // Only visually reviewed transparent assets belong here. Never remove white
 // indiscriminately: the Seongnam symbol contains intentional white artwork.
