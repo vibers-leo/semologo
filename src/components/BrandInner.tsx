@@ -87,10 +87,10 @@ interface Props {
 // 2026-08-18 에 그리드 격자만 진하게 고쳤더니 상세 페이지는 옛 색으로
 // 남아 흰 로고가 여기서만 배경에 묻혔다. 한쪽만 고치면 반드시 어긋난다.
 const CHECKER: React.CSSProperties = {
-  backgroundColor: "#e4e4e7",
+  backgroundColor: "var(--logo-preview-bg)",
   backgroundImage: `
-    linear-gradient(rgba(0,0,0,0.10) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(0,0,0,0.10) 1px, transparent 1px)
+    linear-gradient(rgba(0,0,0,0.11) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0,0,0,0.11) 1px, transparent 1px)
   `,
   backgroundSize: "12px 12px",
 };
@@ -598,6 +598,7 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
         .logo-candidate-apply:disabled { opacity:.6; cursor:default; }
         .sharebtn:hover { border-color:#6366f1 !important; color:#6366f1 !important; }
         @media (max-width: 768px) {
+          .brand-inner-header > :first-child { flex-basis:100% !important; }
           .brand-inner-body { display:block !important; overflow-y:auto !important; }
           .brand-inner-body > .mscroll { overflow-y:visible !important; }
           .brand-inner-left { border-right: none !important; border-bottom: 1px solid #e4e4e7; }
@@ -606,7 +607,7 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
       `}</style>
 
       {/* ── Header ── */}
-      <div style={{ display:"flex", alignItems:"center", gap:10, padding:"10px 20px", borderBottom:"1px solid #e4e4e7", flexShrink:0, flexWrap:"wrap" }}>
+      <div className="brand-inner-header" style={{ display:"flex", alignItems:"center", gap:10, padding:"10px 20px", borderBottom:"1px solid #e4e4e7", flexShrink:0, flexWrap:"wrap" }}>
         <div style={{ flex:1, minWidth:0 }}>
           {/* 검색엔진이 페이지 주제를 잡는 가장 강한 신호다. 예전엔 h2 뿐이라
               h1 이 아예 없었다 — '삼성화재 로고'로 검색했을 때 잡힐 근거가
@@ -883,7 +884,7 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
                           <div key={v.key} className="logo-composition-card" style={{ minWidth:0,
                             background:"#fff", border:"1px solid #e4e4e7", borderRadius:12, overflow:"hidden" }}>
                             <div className="logo-composition-preview" style={{
-                              background:candidateBg(pngFile||svgFile||"",v.color==="white"||v.color==="mono-light"?"dark":"light")==="dark"?"#18181b":"#f8f8fa" }}>
+                              ...(candidateBg(pngFile||svgFile||"",v.color==="white"||v.color==="mono-light"?"dark":"light")==="dark"?DARK_TILE:CHECKER) }}>
                               {/* eslint-disable-next-line @next/next/no-img-element */}
                               <img src={previewUrl} alt={t(logoVariantLabel(v))}
                                 style={{ position:"absolute", inset:12, width:"calc(100% - 24px)",
@@ -941,7 +942,7 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
             {variants.map(v=>{
               const bg=candidateBg(v.file,v.bg==="dark"?"dark":"light");
               return <div key={v.file} className="logo-composition-card" style={{border:"1px solid #e4e4e7",borderRadius:12,overflow:"hidden"}}>
-                <div className="logo-composition-preview" style={{background:bg==="dark"?"#18181b":"#f8f8fa",display:"flex",alignItems:"center",padding:12}}><img src={cdnUrl(v.file)} alt={t(v.name)} style={{width:"100%",maxHeight:116,objectFit:"contain"}}/></div>
+                <div className="logo-composition-preview" style={{...(bg==="dark"?DARK_TILE:CHECKER),display:"flex",alignItems:"center",padding:12}}><img src={cdnUrl(v.file)} alt={t(v.name)} style={{width:"100%",maxHeight:116,objectFit:"contain"}}/></div>
                 <div style={{padding:"12px 12px 6px"}}><b style={{fontSize:12}}>{t(v.name)}</b><p style={{fontSize:11,color:"#71717a",marginTop:4}}>{t(v.desc)}</p></div>
                 <div style={{gridColumn:2,padding:"4px 12px 12px"}}><button className="logo-candidate-apply" onClick={()=>void grab(cdnUrl(v.file),`${brand.id}-${v.file}`)}>{v.file.endsWith(".svg")?"SVG":"PNG"} 다운로드</button>{candidateActions(v.file,v.name,bg)}</div>
               </div>;

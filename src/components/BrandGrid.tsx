@@ -329,10 +329,8 @@ export default function BrandGrid({
 
   return (
     <>
-      {/* 넓은 화면에서만 콘텐츠를 가리지 않는 우측 고정 세로 광고 */}
-      <aside className="hidden 2xl:block fixed right-6 top-28 z-30" aria-label="광고">
-        <AdSlot />
-      </aside>
+      <div className="catalog-with-ad">
+      <div className="catalog-content">
 
       {/* ── 국내/해외 필터 ── */}
       {(originCounts.kr > 0 || originCounts.gl > 0) && (
@@ -552,6 +550,10 @@ export default function BrandGrid({
           )}
         </div>
       )}
+
+      </div>
+      <aside className="catalog-ad-rail" aria-label="광고"><AdSlot /></aside>
+      </div>
 
       {selected && (
         <BrandModal

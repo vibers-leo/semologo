@@ -53,3 +53,5 @@
 - 2026-10-08: 흰 배경 전후 검수 226개, 바깥 배경 제거 222개, 혼합 SVG 4개 PNG 전환, 중복 7쌍 통합(기존 주소·버전 보존). 근거: `data/collection/background-merge-release-20261008.json`, 원본·전후 이미지: `marketing/assets/background-merge-review-20261008/`.
 
 - 2026-10-09: 구글 계열 13개에서 투명 SVG 대신 불투명 PNG를 우선 노출하던 문제 수정. 벡터 기반 고해상도 투명 PNG·그라데이션·내부 흰색 보존 검수; `data/collection/google-transparent-release-20261009.json`, 전후 검수 시트 `marketing/assets/google-background-review-20261009/comparison-sharp.jpg`.
+
+- 2026-10-10: 로고 구성 카드에 공통 연회색 그리드 적용, 배경 약5% 진하게 조정. 노트북 광고 전용 열 및 모바일 상세 제목 줄바꿈 수정. TypeScript/로컬 화면1366·1440·390px 확인, 운영 미배포. 캡처: screenshots/20261010_layout/.
