@@ -27,7 +27,7 @@ export default function CardLogo({ candidates, priority, alt, failureLabel, retr
   useEffect(() => { setIndex(0); setAttempt(0); setFailed(false); setLoaded(false); }, [candidateKey]);
   useEffect(() => {
     if (!failed || attempt >= 2) return;
-    const timer = window.setTimeout(() => { setIndex(0); setAttempt(a => a + 1); setFailed(false); }, 15_000);
+    const timer = window.setTimeout(() => { setIndex(0); setAttempt(a => a + 1); setFailed(false); }, attempt === 0 ? 1500 : 5000);
     return () => window.clearTimeout(timer);
   }, [failed, attempt]);
   const url = candidates[index] || candidates[0];
@@ -48,7 +48,7 @@ export default function CardLogo({ candidates, priority, alt, failureLabel, retr
         if (index + 1 < candidates.length) setIndex(index + 1);
         else setFailed(true);
       }} />
-    {failed && <div className="card-fallback" style={{ position: 'absolute', inset: 0,
+    {failed && attempt >= 2 && <div className="card-fallback" style={{ position: 'absolute', inset: 0,
       display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: 8,
       fontSize: 12, color: '#71717a' }}>
       <span>{failureLabel}</span>

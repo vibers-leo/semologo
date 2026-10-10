@@ -24,8 +24,11 @@ export function logoPngCandidates(brand: Brand): string[] {
 /** Browser cards can display real SVG directly; keep PNG-only exports separate. */
 export function logoImageCandidates(brand: Brand): string[] {
   const png=logoPngCandidates(brand);
-  if (!(brand.has_svg || brand.logo_svg) || (typeof brand.logo_png==='string' && brand.logo_png.startsWith('blob:')) || (typeof brand.logo_svg==='string' && brand.logo_svg.startsWith('/submissions/'))) return png;
-  const file=brand.svg_transparent || 'logo.svg';
+  if (!(brand.has_svg || brand.logo_svg) || (typeof brand.logo_png==='string' && brand.logo_png.startsWith('blob:'))) return png;
+  const file=brand.svg_transparent || (typeof brand.logo_svg === 'string' ? brand.logo_svg : 'logo.svg');
+  if (file.startsWith('/submissions/') && !file.includes('..') && /\.svg$/.test(file)) {
+    return [...new Set([...(brand.preview_png ? [brand.preview_png] : []), file, ...png])];
+  }
   if (brand.rejected_asset_files?.includes(file) || file.includes('..') || !/^(?:[\w-]+\/)*[\w.-]+\.svg$/.test(file)) return png;
   const svg=`${CDN}/${brand.id}/${file}?v=${VERSION}`;
   // SVG-only brands must not queue behind two missing PNG probes and server rendering.

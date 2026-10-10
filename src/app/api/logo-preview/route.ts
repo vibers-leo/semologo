@@ -8,6 +8,7 @@ import { STREAMING_SUBMISSIONS } from '@/lib/streaming-submissions';
 import { INDEX_REVIEW_BRANDS } from '@/lib/index-candidate-review-submissions';
 import sharp from 'sharp';
 import { CDN, VERSION } from '@/lib/cdn';
+import { logoImageCandidates } from '@/lib/logo-png-source';
 
 export const runtime = 'nodejs';
 export const dynamic = 'force-dynamic';
@@ -40,9 +41,21 @@ async function render(id: string) {
       input = await readFile(join(process.cwd(), 'public', local));
       if (input.length > 12_000_000) throw new Error('large');
     } else {
-    const remoteFile = typeof brand.logo_png === "string" && /^(?:[\w-]+\/)*[\w.-]+\.png$/.test(brand.logo_png) && !brand.logo_png.includes("..") ? brand.logo_png : brand.svg_transparent || (id === "nhqv" ? "logo.png" : "logo.svg");
-    const response = await fetch(`${CDN}/${encodeURIComponent(id)}/${remoteFile}?v=${VERSION}`, { cache: 'no-store', redirect: 'error', signal: AbortSignal.timeout(6000) });
-    if (!response.ok || !response.body) throw new Error(response.status === 404 ? 'missing' : 'upstream');
+    // Catalog-only brands are absent from the local registry. Their existing PNG
+    // must still be tried before assuming the default SVG exists.
+    const prefix = `${CDN}/${encodeURIComponent(id)}/`;
+    const urls = [...new Set([...logoImageCandidates(brand), `${prefix}logo.svg?v=${VERSION}`])]
+      .filter(url => url.startsWith(prefix) && !url.slice(prefix.length).includes('..')
+        && !brand.rejected_asset_files?.includes(url.slice(prefix.length).split('?')[0]));
+    let response: Response | undefined;
+    for (const url of urls) {
+      try {
+        const candidate = await fetch(url, { cache: 'no-store', redirect: 'error', signal: AbortSignal.timeout(6000) });
+        if (candidate.ok && candidate.body) { response = candidate; break; }
+        await candidate.body?.cancel();
+      } catch { /* Try the next stored format when one CDN request fails. */ }
+    }
+    if (!response?.body) throw new Error('upstream');
     const reader = response.body.getReader();
     const chunks: Uint8Array[] = [];
     let bytes = 0;

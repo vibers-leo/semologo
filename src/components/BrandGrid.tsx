@@ -173,8 +173,9 @@ export default function BrandGrid({
       // 전체 60장을 한꺼번에 요청하지 않고 18장만 선예약해 네트워크 폭주를 막는다.
       if (typeof window !== "undefined") {
         for (const brand of data.brands.slice(0, 18)) {
-          const src = logoPngCandidates(brand)[0];
+          const src = logoImageCandidates(brand)[0];
           const warm = new window.Image();
+          warm.crossOrigin = "anonymous";
           warm.decoding = "async";
           warm.src = src;
         }

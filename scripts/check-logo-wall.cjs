@@ -48,6 +48,11 @@ async function main(){
 
  assert(logoImageCandidates({id:'svg-only',has_svg:true,has_png:false})[0].includes('/svg-only/logo.svg'));
  assert(logoImageCandidates({id:'png-first',has_svg:true,has_png:true})[0].includes('/png-first/logo.png'));
+ assert(logoImageCandidates({id:'named-svg',logo_svg:'sources/official/signature.svg',has_svg:true,has_png:false})[0].includes('/named-svg/sources/official/signature.svg'));
+ assert.equal(logoImageCandidates({id:'local-svg',logo_svg:'/submissions/local.svg',has_svg:true,has_png:false})[0],'/submissions/local.svg');
+ const preview=load('src/app/api/logo-preview/route.ts');fetched.length=0;
+ assert.equal((await preview.GET(new Request('https://example.test/api/logo-preview/?id=png-only-recovery'))).status,200);
+ assert(fetched[0].includes('/png-only-recovery/logo.png'),'PNG-only recovery must try existing PNG before missing SVG');fetched.length=0;
  assert(!logoImageCandidates({id:'raster',has_svg:false,has_png:true}).some(u=>u.endsWith('.svg')));
  const {logoWallLayout}=load('src/lib/logo-wall-layout.ts');
  const old=logoWallLayout({background:'auto',columns:4});assert.equal(old.appearance,'cards');assert.equal(old.showNames,true);
