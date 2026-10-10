@@ -1,0 +1,232 @@
+{
+  "patches": {
+    "pyeongtaek": {
+      "has_png": true,
+      "logo_png": "sources/reviewed-lockups-20261010/5beb72bebe7fb4df.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/pyeongtaek/sources/reviewed-lockups-20261010/5beb72bebe7fb4df.png",
+      "presentation": {
+        "file": "sources/reviewed-lockups-20261010/5beb72bebe7fb4df.png",
+        "bg": "light"
+      },
+      "light": false,
+      "light_logo": false,
+      "dark_variant": false,
+      "variants_n": 8,
+      "rejected_asset_files": [
+        "logo.png",
+        "logo-800.png",
+        "logo-transparent.png",
+        "logo-white.png",
+        "logo-icon.png"
+      ],
+      "has_svg": true,
+      "logo_svg": "sources/reviewed-lockups-20261010/ea63f4ad1a4d6e11.svg",
+      "svg_transparent": "sources/reviewed-lockups-20261010/ea63f4ad1a4d6e11.svg",
+      "asset_origin": "평택시 CI 기본편 AI · 가이드선과 안내 레이아웃 분리",
+      "official_source_page": "https://www.pyeongtaek.go.kr/pyeongtaek/contents.do?mid=0502030000",
+      "name_en": "Pyeongtaek City"
+    },
+    "isdongseo": {
+      "has_png": true,
+      "logo_png": "sources/reviewed-lockups-20261010/1357f3a77d7666de.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/isdongseo/sources/reviewed-lockups-20261010/1357f3a77d7666de.png",
+      "presentation": {
+        "file": "sources/reviewed-lockups-20261010/1357f3a77d7666de.png",
+        "bg": "light"
+      },
+      "light": false,
+      "light_logo": false,
+      "dark_variant": false,
+      "variants_n": 2,
+      "rejected_asset_files": [
+        "logo.png",
+        "logo-800.png",
+        "logo-transparent.png",
+        "logo-white.png",
+        "logo-icon.png"
+      ]
+    },
+    "gongu-ci-1539": {
+      "variant_of": "pyeongtaek",
+      "merged_into": "pyeongtaek",
+      "hidden": false,
+      "hidden_reason": "평택시 공식 CI 조합형 콘텐츠로 통합"
+    }
+  },
+  "variants": {
+    "pyeongtaek": {
+      "schema": 1,
+      "algo_v": 2,
+      "id": "pyeongtaek",
+      "primary": "vertical-ko",
+      "variants": [
+        {
+          "key": "vertical-ko",
+          "form": "vertical",
+          "lockup": "vertical",
+          "lang": "ko",
+          "text_layout": "ko",
+          "color": "original",
+          "label": "세로조합형 · 국문",
+          "files": {
+            "svg": "sources/reviewed-lockups-20261010/ea63f4ad1a4d6e11.svg",
+            "png": "sources/reviewed-lockups-20261010/5beb72bebe7fb4df.png"
+          },
+          "provider": "평택시 CI 기본편 · 사용자 제공 AI",
+          "origin": "official",
+          "order": 0
+        },
+        {
+          "key": "symbol",
+          "form": "symbol",
+          "lockup": "symbol",
+          "lang": "none",
+          "text_layout": "none",
+          "color": "original",
+          "label": "심볼마크",
+          "files": {
+            "svg": "sources/reviewed-lockups-20261010/67fe219fc88888ae.svg",
+            "png": "sources/reviewed-lockups-20261010/71018f0d42a3ee40.png"
+          },
+          "provider": "평택시 CI 기본편 · 사용자 제공 AI",
+          "origin": "official",
+          "order": 1
+        },
+        {
+          "key": "logotype-ko",
+          "form": "wordmark",
+          "lockup": "wordmark",
+          "lang": "ko",
+          "text_layout": "ko",
+          "color": "original",
+          "label": "로고타입 · 국문",
+          "files": {
+            "svg": "sources/reviewed-lockups-20261010/e2ddc27da1d89ec6.svg",
+            "png": "sources/reviewed-lockups-20261010/c93b44ac57162453.png"
+          },
+          "provider": "평택시 CI 기본편 · 사용자 제공 AI",
+          "origin": "official",
+          "order": 2
+        },
+        {
+          "key": "logotype-en",
+          "form": "wordmark",
+          "lockup": "wordmark",
+          "lang": "en",
+          "text_layout": "en",
+          "color": "original",
+          "label": "로고타입 · 영문",
+          "files": {
+            "svg": "sources/reviewed-lockups-20261010/b4b2148a9d71717c.svg",
+            "png": "sources/reviewed-lockups-20261010/b71522b59dc85196.png"
+          },
+          "provider": "평택시 CI 기본편 · 사용자 제공 AI",
+          "origin": "official",
+          "order": 3
+        },
+        {
+          "key": "horizontal-ko",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "ko",
+          "text_layout": "ko",
+          "color": "original",
+          "label": "가로조합형 · 국문",
+          "files": {
+            "svg": "sources/reviewed-lockups-20261010/26097a1607a43450.svg",
+            "png": "sources/reviewed-lockups-20261010/ca2ce571bec088b1.png"
+          },
+          "provider": "평택시 CI 기본편 · 사용자 제공 AI",
+          "origin": "official",
+          "order": 4
+        },
+        {
+          "key": "vertical-en",
+          "form": "vertical",
+          "lockup": "vertical",
+          "lang": "en",
+          "text_layout": "en",
+          "color": "original",
+          "label": "세로조합형 · 영문",
+          "files": {
+            "svg": "sources/reviewed-lockups-20261010/cd5469b068673f17.svg",
+            "png": "sources/reviewed-lockups-20261010/8d0d3ecbe14de761.png"
+          },
+          "provider": "평택시 CI 기본편 · 사용자 제공 AI",
+          "origin": "official",
+          "order": 5
+        },
+        {
+          "key": "horizontal-en",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "en",
+          "text_layout": "en",
+          "color": "original",
+          "label": "가로조합형 · 영문",
+          "files": {
+            "svg": "sources/reviewed-lockups-20261010/62abe244567f151b.svg",
+            "png": "sources/reviewed-lockups-20261010/69c2c2a9dd057028.png"
+          },
+          "provider": "평택시 CI 기본편 · 사용자 제공 AI",
+          "origin": "official",
+          "order": 6
+        },
+        {
+          "key": "horizontal-ko-en",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "ko-en",
+          "text_layout": "ko-en",
+          "color": "original",
+          "label": "가로조합형 · 국영문",
+          "files": {
+            "svg": "sources/reviewed-lockups-20261010/80fa3bc6109fe928.svg",
+            "png": "sources/reviewed-lockups-20261010/5d37ab11eba83ec3.png"
+          },
+          "provider": "평택시 CI 기본편 · 사용자 제공 AI",
+          "origin": "official",
+          "order": 7
+        }
+      ]
+    },
+    "isdongseo": {
+      "schema": 1,
+      "algo_v": 2,
+      "id": "isdongseo",
+      "primary": "horizontal-color",
+      "variants": [
+        {
+          "key": "horizontal-color",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "ko",
+          "text_layout": "ko",
+          "color": "original",
+          "label": "가로조합형 · 컬러",
+          "files": {
+            "png": "sources/reviewed-lockups-20261010/1357f3a77d7666de.png"
+          },
+          "provider": "기존 PNG 원본 · 컬러/화이트 분리",
+          "origin": "collected",
+          "order": 0
+        },
+        {
+          "key": "horizontal-white",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "ko",
+          "text_layout": "ko",
+          "color": "mono-light",
+          "label": "가로조합형 · 화이트",
+          "files": {
+            "png": "sources/reviewed-lockups-20261010/58ed43c22e4afa88.png"
+          },
+          "provider": "기존 PNG 원본 · 컬러/화이트 분리",
+          "origin": "collected",
+          "order": 1
+        }
+      ]
+    }
+  }
+}

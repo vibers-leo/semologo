@@ -15,7 +15,7 @@ export const CDN =
 
 export const VERSION = "1790381000";
 // Metadata revisions invalidate cached catalog responses without reloading logo bytes.
-export const CATALOG_VERSION = "20261010-claude-merge";
+export const CATALOG_VERSION = "20261010-pyeongtaek-is";
 
 /** 캐시 버스터가 붙은 브랜드 자산 URL */
 export function assetUrl(brandId: string, file: string): string {
