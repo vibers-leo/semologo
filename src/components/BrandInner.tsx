@@ -579,7 +579,8 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
         @media (max-width: 1000px) { .logo-composition-grid { grid-template-columns:1fr; } }
         .sharebtn:hover { border-color:#6366f1 !important; color:#6366f1 !important; }
         @media (max-width: 768px) {
-          .brand-inner-body { grid-template-columns: 1fr !important; }
+          .brand-inner-body { display:block !important; overflow-y:auto !important; }
+          .brand-inner-body > .mscroll { overflow-y:visible !important; }
           .brand-inner-left { border-right: none !important; border-bottom: 1px solid #e4e4e7; }
           .brand-inner-right { border-left: none !important; border-top: 1px solid #e4e4e7; }
         }
