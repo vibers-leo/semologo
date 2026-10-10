@@ -1,0 +1,578 @@
+[
+  {
+    "id": "zyrtec",
+    "file": "marketing/assets/svg-transparent-batch-20261010/zyrtec/sources/reviewed-alpha-20261010/cd7680296dfaea4d/original.svg",
+    "key": "_clients/zyrtec/sources/reviewed-alpha-20261010/cd7680296dfaea4d/original.svg",
+    "sha256": "cd7680296dfaea4d7454dbecb4b9de561d5fa23f169deea5f5dff0bb4c229197"
+  },
+  {
+    "id": "zyrtec",
+    "file": "marketing/assets/svg-transparent-batch-20261010/zyrtec/sources/reviewed-alpha-20261010/66df525ebeea380b/logo.svg",
+    "key": "_clients/zyrtec/sources/reviewed-alpha-20261010/66df525ebeea380b/logo.svg",
+    "sha256": "66df525ebeea380b95702c11ac855249eb2ddf5396605b946791ab3d160ad8bf"
+  },
+  {
+    "id": "zyrtec",
+    "file": "marketing/assets/svg-transparent-batch-20261010/zyrtec/sources/reviewed-alpha-20261010/f6b1f419a0027e19/preview.png",
+    "key": "_clients/zyrtec/sources/reviewed-alpha-20261010/f6b1f419a0027e19/preview.png",
+    "sha256": "f6b1f419a0027e1961cd89b1e33ba815a9d5c3c21ce65f53310f36b9453c7075"
+  },
+  {
+    "id": "zyrtec",
+    "file": "marketing/assets/svg-transparent-batch-20261010/zyrtec/sources/reviewed-alpha-20261010/6dd3d078845e95dc/logo.png",
+    "key": "_clients/zyrtec/sources/reviewed-alpha-20261010/6dd3d078845e95dc/logo.png",
+    "sha256": "6dd3d078845e95dc862b9e2c9e06edcd4114e28f88de1467f28ef3b485c6b787"
+  },
+  {
+    "id": "zzgt",
+    "file": "marketing/assets/svg-transparent-batch-20261010/zzgt/sources/reviewed-alpha-20261010/23d8521f8f8fe132/original.svg",
+    "key": "_clients/zzgt/sources/reviewed-alpha-20261010/23d8521f8f8fe132/original.svg",
+    "sha256": "23d8521f8f8fe132d4673f82d1fdcc7aa39f448d97b66c87f3f92bddf54cab44"
+  },
+  {
+    "id": "zzgt",
+    "file": "marketing/assets/svg-transparent-batch-20261010/zzgt/sources/reviewed-alpha-20261010/8a4a92fddd1602a4/logo.svg",
+    "key": "_clients/zzgt/sources/reviewed-alpha-20261010/8a4a92fddd1602a4/logo.svg",
+    "sha256": "8a4a92fddd1602a45c9418725027cc5024170f520e61f2b44f7c44b570c8a98b"
+  },
+  {
+    "id": "zzgt",
+    "file": "marketing/assets/svg-transparent-batch-20261010/zzgt/sources/reviewed-alpha-20261010/49b32225b3aadf9c/preview.png",
+    "key": "_clients/zzgt/sources/reviewed-alpha-20261010/49b32225b3aadf9c/preview.png",
+    "sha256": "49b32225b3aadf9c08090b99055d158eb360a63b3ea36d19ac964069be012174"
+  },
+  {
+    "id": "zzgt",
+    "file": "marketing/assets/svg-transparent-batch-20261010/zzgt/sources/reviewed-alpha-20261010/8fc539ccb75100d1/logo.png",
+    "key": "_clients/zzgt/sources/reviewed-alpha-20261010/8fc539ccb75100d1/logo.png",
+    "sha256": "8fc539ccb75100d1a16a0c73d5fbd39b6bf3b59666fd7509a44a6ae71e1d49e3"
+  },
+  {
+    "id": "zzsd",
+    "file": "marketing/assets/svg-transparent-batch-20261010/zzsd/sources/reviewed-alpha-20261010/5d47e62985a26650/original.svg",
+    "key": "_clients/zzsd/sources/reviewed-alpha-20261010/5d47e62985a26650/original.svg",
+    "sha256": "5d47e62985a2665000b3a29d7dc549a2ee47903971b32e7ae3e8728fbb9b1b6b"
+  },
+  {
+    "id": "zzsd",
+    "file": "marketing/assets/svg-transparent-batch-20261010/zzsd/sources/reviewed-alpha-20261010/bd949d2429af18d7/logo.svg",
+    "key": "_clients/zzsd/sources/reviewed-alpha-20261010/bd949d2429af18d7/logo.svg",
+    "sha256": "bd949d2429af18d782c6d42103c6384917fc0558b2b88ab04ea5e1886d870101"
+  },
+  {
+    "id": "zzsd",
+    "file": "marketing/assets/svg-transparent-batch-20261010/zzsd/sources/reviewed-alpha-20261010/c345000e4b919d6f/preview.png",
+    "key": "_clients/zzsd/sources/reviewed-alpha-20261010/c345000e4b919d6f/preview.png",
+    "sha256": "c345000e4b919d6f7de44a496fe151ce821477c03789645db199d1248a02fee3"
+  },
+  {
+    "id": "zzsd",
+    "file": "marketing/assets/svg-transparent-batch-20261010/zzsd/sources/reviewed-alpha-20261010/27135959bd41dda8/logo.png",
+    "key": "_clients/zzsd/sources/reviewed-alpha-20261010/27135959bd41dda8/logo.png",
+    "sha256": "27135959bd41dda82b005ddf97cb648d8e538f9f8ead1704e33e72e7c30a15c5"
+  },
+  {
+    "id": "zzn-1",
+    "file": "marketing/assets/svg-transparent-batch-20261010/zzn-1/sources/reviewed-alpha-20261010/aee251bd699f1de9/original.svg",
+    "key": "_clients/zzn-1/sources/reviewed-alpha-20261010/aee251bd699f1de9/original.svg",
+    "sha256": "aee251bd699f1de93feab50f01beb0c7bf19fcf4715e9851553da9354e1ec366"
+  },
+  {
+    "id": "zzn-1",
+    "file": "marketing/assets/svg-transparent-batch-20261010/zzn-1/sources/reviewed-alpha-20261010/4210439296596beb/logo.svg",
+    "key": "_clients/zzn-1/sources/reviewed-alpha-20261010/4210439296596beb/logo.svg",
+    "sha256": "4210439296596bebc9ca9c8ad75c92623c8ae45fd19ef338a7fe20eb3f13fa2f"
+  },
+  {
+    "id": "zzn-1",
+    "file": "marketing/assets/svg-transparent-batch-20261010/zzn-1/sources/reviewed-alpha-20261010/a7d0bf2089d58cbf/preview.png",
+    "key": "_clients/zzn-1/sources/reviewed-alpha-20261010/a7d0bf2089d58cbf/preview.png",
+    "sha256": "a7d0bf2089d58cbf700430018822169efbb866dd94f7ff7bfd6d0cb1aa83e8db"
+  },
+  {
+    "id": "zzn-1",
+    "file": "marketing/assets/svg-transparent-batch-20261010/zzn-1/sources/reviewed-alpha-20261010/2d76ad886f605e62/logo.png",
+    "key": "_clients/zzn-1/sources/reviewed-alpha-20261010/2d76ad886f605e62/logo.png",
+    "sha256": "2d76ad886f605e6273e67ba7c653e2c006383d03f99998b05b65a9c2f092475c"
+  },
+  {
+    "id": "zyxel-logo",
+    "file": "marketing/assets/svg-transparent-batch-20261010/zyxel-logo/sources/reviewed-alpha-20261010/b5fbdf9b1a2b15cc/original.svg",
+    "key": "_clients/zyxel-logo/sources/reviewed-alpha-20261010/b5fbdf9b1a2b15cc/original.svg",
+    "sha256": "b5fbdf9b1a2b15ccaa6529d69f2a008321b130f903036b3f9031fbee534ce485"
+  },
+  {
+    "id": "zyxel-logo",
+    "file": "marketing/assets/svg-transparent-batch-20261010/zyxel-logo/sources/reviewed-alpha-20261010/b5fbdf9b1a2b15cc/logo.svg",
+    "key": "_clients/zyxel-logo/sources/reviewed-alpha-20261010/b5fbdf9b1a2b15cc/logo.svg",
+    "sha256": "b5fbdf9b1a2b15ccaa6529d69f2a008321b130f903036b3f9031fbee534ce485"
+  },
+  {
+    "id": "zyxel-logo",
+    "file": "marketing/assets/svg-transparent-batch-20261010/zyxel-logo/sources/reviewed-alpha-20261010/4b2e046afdfa25d5/preview.png",
+    "key": "_clients/zyxel-logo/sources/reviewed-alpha-20261010/4b2e046afdfa25d5/preview.png",
+    "sha256": "4b2e046afdfa25d5cce17462aa7954a8dfc1925a873d071316cefe5a1b9ddf43"
+  },
+  {
+    "id": "zyxel-logo",
+    "file": "marketing/assets/svg-transparent-batch-20261010/zyxel-logo/sources/reviewed-alpha-20261010/01c19c82ebdf6cf1/logo.png",
+    "key": "_clients/zyxel-logo/sources/reviewed-alpha-20261010/01c19c82ebdf6cf1/logo.png",
+    "sha256": "01c19c82ebdf6cf1f1d62addac11b97903e8fbe097fff0cdf879a6270a0aa6c9"
+  },
+  {
+    "id": "zygo",
+    "file": "marketing/assets/svg-transparent-batch-20261010/zygo/sources/reviewed-alpha-20261010/d233cca5ccff8253/original.svg",
+    "key": "_clients/zygo/sources/reviewed-alpha-20261010/d233cca5ccff8253/original.svg",
+    "sha256": "d233cca5ccff8253f7b62e2bc3a737c2557698be8758f6ebbf8381b8151da23e"
+  },
+  {
+    "id": "zygo",
+    "file": "marketing/assets/svg-transparent-batch-20261010/zygo/sources/reviewed-alpha-20261010/58d5bbb79dd80703/logo.svg",
+    "key": "_clients/zygo/sources/reviewed-alpha-20261010/58d5bbb79dd80703/logo.svg",
+    "sha256": "58d5bbb79dd807032beb4c49b424c3e9fa9faf4c70ad3a5f7c9dfbc97166915f"
+  },
+  {
+    "id": "zygo",
+    "file": "marketing/assets/svg-transparent-batch-20261010/zygo/sources/reviewed-alpha-20261010/fe84a82d5d9cfe87/preview.png",
+    "key": "_clients/zygo/sources/reviewed-alpha-20261010/fe84a82d5d9cfe87/preview.png",
+    "sha256": "fe84a82d5d9cfe87f7b15aaae7808fa9e3eb8a565cefc4e3de22a12864352cb3"
+  },
+  {
+    "id": "zygo",
+    "file": "marketing/assets/svg-transparent-batch-20261010/zygo/sources/reviewed-alpha-20261010/9f7c9664ad0ab282/logo.png",
+    "key": "_clients/zygo/sources/reviewed-alpha-20261010/9f7c9664ad0ab282/logo.png",
+    "sha256": "9f7c9664ad0ab282e8328b98033b1a375ee2e8c7f80dcbc01844cab64d333fd8"
+  },
+  {
+    "id": "zyxel-communications--src-7511808",
+    "file": "marketing/assets/svg-transparent-batch-20261010/zyxel-communications--src-7511808/sources/reviewed-alpha-20261010/457cdb0767e0f005/original.svg",
+    "key": "_clients/zyxel-communications--src-7511808/sources/reviewed-alpha-20261010/457cdb0767e0f005/original.svg",
+    "sha256": "457cdb0767e0f005d62e4178fb92f64c415e7bf9b334e2607de03f7141f38ddb"
+  },
+  {
+    "id": "zyxel-communications--src-7511808",
+    "file": "marketing/assets/svg-transparent-batch-20261010/zyxel-communications--src-7511808/sources/reviewed-alpha-20261010/457cdb0767e0f005/logo.svg",
+    "key": "_clients/zyxel-communications--src-7511808/sources/reviewed-alpha-20261010/457cdb0767e0f005/logo.svg",
+    "sha256": "457cdb0767e0f005d62e4178fb92f64c415e7bf9b334e2607de03f7141f38ddb"
+  },
+  {
+    "id": "zyxel-communications--src-7511808",
+    "file": "marketing/assets/svg-transparent-batch-20261010/zyxel-communications--src-7511808/sources/reviewed-alpha-20261010/3e5c2f4c3a5adab8/preview.png",
+    "key": "_clients/zyxel-communications--src-7511808/sources/reviewed-alpha-20261010/3e5c2f4c3a5adab8/preview.png",
+    "sha256": "3e5c2f4c3a5adab8a1a2b3492c26e2539fc79deb755cc096b8dc5ac84a311ed1"
+  },
+  {
+    "id": "zyxel-communications--src-7511808",
+    "file": "marketing/assets/svg-transparent-batch-20261010/zyxel-communications--src-7511808/sources/reviewed-alpha-20261010/ae954e6de59f5ca3/logo.png",
+    "key": "_clients/zyxel-communications--src-7511808/sources/reviewed-alpha-20261010/ae954e6de59f5ca3/logo.png",
+    "sha256": "ae954e6de59f5ca375b2a4849cce9c924c39f62050156fb299a7c6448383c7b6"
+  },
+  {
+    "id": "zymetx",
+    "file": "marketing/assets/svg-transparent-batch-20261010/zymetx/sources/reviewed-alpha-20261010/1355b9757a674585/original.svg",
+    "key": "_clients/zymetx/sources/reviewed-alpha-20261010/1355b9757a674585/original.svg",
+    "sha256": "1355b9757a67458597de8e0ac5b66d3a064e800713fc43e2496a02921d2dbabb"
+  },
+  {
+    "id": "zymetx",
+    "file": "marketing/assets/svg-transparent-batch-20261010/zymetx/sources/reviewed-alpha-20261010/f74995e00c71af1e/logo.svg",
+    "key": "_clients/zymetx/sources/reviewed-alpha-20261010/f74995e00c71af1e/logo.svg",
+    "sha256": "f74995e00c71af1e7abec34620b692438fd171335afb2cf72ea366181441e453"
+  },
+  {
+    "id": "zymetx",
+    "file": "marketing/assets/svg-transparent-batch-20261010/zymetx/sources/reviewed-alpha-20261010/b67520bb1d2018d1/preview.png",
+    "key": "_clients/zymetx/sources/reviewed-alpha-20261010/b67520bb1d2018d1/preview.png",
+    "sha256": "b67520bb1d2018d1114758fcefcd7cdaa26083eb031de7d3fb3521b60ad75ba7"
+  },
+  {
+    "id": "zymetx",
+    "file": "marketing/assets/svg-transparent-batch-20261010/zymetx/sources/reviewed-alpha-20261010/4a472a91ae593cfa/logo.png",
+    "key": "_clients/zymetx/sources/reviewed-alpha-20261010/4a472a91ae593cfa/logo.png",
+    "sha256": "4a472a91ae593cfa116e884382d7cc68cb7fa437177f64e01dbe42f239407267"
+  },
+  {
+    "id": "zyma",
+    "file": "marketing/assets/svg-transparent-batch-20261010/zyma/sources/reviewed-alpha-20261010/8b50fa43e43d41a8/original.svg",
+    "key": "_clients/zyma/sources/reviewed-alpha-20261010/8b50fa43e43d41a8/original.svg",
+    "sha256": "8b50fa43e43d41a874da1ccd919f0f3893e6a109c228f8ef20b9ee0e042a1314"
+  },
+  {
+    "id": "zyma",
+    "file": "marketing/assets/svg-transparent-batch-20261010/zyma/sources/reviewed-alpha-20261010/8b50fa43e43d41a8/logo.svg",
+    "key": "_clients/zyma/sources/reviewed-alpha-20261010/8b50fa43e43d41a8/logo.svg",
+    "sha256": "8b50fa43e43d41a874da1ccd919f0f3893e6a109c228f8ef20b9ee0e042a1314"
+  },
+  {
+    "id": "zyma",
+    "file": "marketing/assets/svg-transparent-batch-20261010/zyma/sources/reviewed-alpha-20261010/c9e7fd86bca8f240/preview.png",
+    "key": "_clients/zyma/sources/reviewed-alpha-20261010/c9e7fd86bca8f240/preview.png",
+    "sha256": "c9e7fd86bca8f240766efa0da437d952bdd0cffb0313989ee8f38ba7393f5d6e"
+  },
+  {
+    "id": "zyma",
+    "file": "marketing/assets/svg-transparent-batch-20261010/zyma/sources/reviewed-alpha-20261010/8d2ca72957faf1a3/logo.png",
+    "key": "_clients/zyma/sources/reviewed-alpha-20261010/8d2ca72957faf1a3/logo.png",
+    "sha256": "8d2ca72957faf1a3be007272be0e9c27bdba9a936c2253014dde3655265bf44b"
+  },
+  {
+    "id": "zyxel--src-c595cd4",
+    "file": "marketing/assets/svg-transparent-batch-20261010/zyxel--src-c595cd4/sources/reviewed-alpha-20261010/2694a4a7d4a5aff2/original.svg",
+    "key": "_clients/zyxel--src-c595cd4/sources/reviewed-alpha-20261010/2694a4a7d4a5aff2/original.svg",
+    "sha256": "2694a4a7d4a5aff29c39443ff4a86ff85be7130d2686515e32f4b8fffa0623b8"
+  },
+  {
+    "id": "zyxel--src-c595cd4",
+    "file": "marketing/assets/svg-transparent-batch-20261010/zyxel--src-c595cd4/sources/reviewed-alpha-20261010/e38b5c27bcfb65ac/logo.svg",
+    "key": "_clients/zyxel--src-c595cd4/sources/reviewed-alpha-20261010/e38b5c27bcfb65ac/logo.svg",
+    "sha256": "e38b5c27bcfb65ac9b693518811e5d3668a1eec70697f7ae5c1bf43a5247e033"
+  },
+  {
+    "id": "zyxel--src-c595cd4",
+    "file": "marketing/assets/svg-transparent-batch-20261010/zyxel--src-c595cd4/sources/reviewed-alpha-20261010/ca216a65692e0f5b/preview.png",
+    "key": "_clients/zyxel--src-c595cd4/sources/reviewed-alpha-20261010/ca216a65692e0f5b/preview.png",
+    "sha256": "ca216a65692e0f5bbbc810962a1a153683619764cc851c60e89d50d5cba592d7"
+  },
+  {
+    "id": "zyxel--src-c595cd4",
+    "file": "marketing/assets/svg-transparent-batch-20261010/zyxel--src-c595cd4/sources/reviewed-alpha-20261010/237b362fa299bd70/logo.png",
+    "key": "_clients/zyxel--src-c595cd4/sources/reviewed-alpha-20261010/237b362fa299bd70/logo.png",
+    "sha256": "237b362fa299bd70ac747d65e303b08f5f4bc5d031ddaa97b108ecb8fcf0b5d0"
+  },
+  {
+    "id": "zydacron",
+    "file": "marketing/assets/svg-transparent-batch-20261010/zydacron/sources/reviewed-alpha-20261010/24972b44a3e8ebdd/original.svg",
+    "key": "_clients/zydacron/sources/reviewed-alpha-20261010/24972b44a3e8ebdd/original.svg",
+    "sha256": "24972b44a3e8ebdd0c4d983042b28be8a6d34b3ac41f6d5aa4b7d43b4824273e"
+  },
+  {
+    "id": "zydacron",
+    "file": "marketing/assets/svg-transparent-batch-20261010/zydacron/sources/reviewed-alpha-20261010/d14cf91f3d2145bf/logo.svg",
+    "key": "_clients/zydacron/sources/reviewed-alpha-20261010/d14cf91f3d2145bf/logo.svg",
+    "sha256": "d14cf91f3d2145bf0fd370bf695a45ee0d247f383244da1bf7bf1c79e52e3c4e"
+  },
+  {
+    "id": "zydacron",
+    "file": "marketing/assets/svg-transparent-batch-20261010/zydacron/sources/reviewed-alpha-20261010/24968c9fd7aec68f/preview.png",
+    "key": "_clients/zydacron/sources/reviewed-alpha-20261010/24968c9fd7aec68f/preview.png",
+    "sha256": "24968c9fd7aec68ff9948d4fc0b840a2a261b6afb61b30637392c299d5f13f34"
+  },
+  {
+    "id": "zydacron",
+    "file": "marketing/assets/svg-transparent-batch-20261010/zydacron/sources/reviewed-alpha-20261010/0c616819ec2b35d7/logo.png",
+    "key": "_clients/zydacron/sources/reviewed-alpha-20261010/0c616819ec2b35d7/logo.png",
+    "sha256": "0c616819ec2b35d76c73354a6c57122d3a117f02e5c377a9059b3db519372828"
+  },
+  {
+    "id": "zynga",
+    "file": "marketing/assets/svg-transparent-batch-20261010/zynga/sources/reviewed-alpha-20261010/f3d5af8967b6bbea/original.svg",
+    "key": "_clients/zynga/sources/reviewed-alpha-20261010/f3d5af8967b6bbea/original.svg",
+    "sha256": "f3d5af8967b6bbea0a0346359b71ee89db17a2b40c36a6a607096f8052b74eb9"
+  },
+  {
+    "id": "zynga",
+    "file": "marketing/assets/svg-transparent-batch-20261010/zynga/sources/reviewed-alpha-20261010/f3d5af8967b6bbea/logo.svg",
+    "key": "_clients/zynga/sources/reviewed-alpha-20261010/f3d5af8967b6bbea/logo.svg",
+    "sha256": "f3d5af8967b6bbea0a0346359b71ee89db17a2b40c36a6a607096f8052b74eb9"
+  },
+  {
+    "id": "zynga",
+    "file": "marketing/assets/svg-transparent-batch-20261010/zynga/sources/reviewed-alpha-20261010/041a7638a63db7a8/preview.png",
+    "key": "_clients/zynga/sources/reviewed-alpha-20261010/041a7638a63db7a8/preview.png",
+    "sha256": "041a7638a63db7a803569d3188f4a0b6b29edb3b5677a6ac094524f5b0ed4463"
+  },
+  {
+    "id": "zynga",
+    "file": "marketing/assets/svg-transparent-batch-20261010/zynga/sources/reviewed-alpha-20261010/bb4143d0318c2d77/logo.png",
+    "key": "_clients/zynga/sources/reviewed-alpha-20261010/bb4143d0318c2d77/logo.png",
+    "sha256": "bb4143d0318c2d772151dd7c55aaf99f566e81a277f1899626e5fd2bdaae0bd1"
+  },
+  {
+    "id": "zykon",
+    "file": "marketing/assets/svg-transparent-batch-20261010/zykon/sources/reviewed-alpha-20261010/a29897d6eb35b45b/original.svg",
+    "key": "_clients/zykon/sources/reviewed-alpha-20261010/a29897d6eb35b45b/original.svg",
+    "sha256": "a29897d6eb35b45bef27d9b4acbc7c249824ace3514e90c7d993dcabade6ca3b"
+  },
+  {
+    "id": "zykon",
+    "file": "marketing/assets/svg-transparent-batch-20261010/zykon/sources/reviewed-alpha-20261010/82f606e7cde4abd6/logo.svg",
+    "key": "_clients/zykon/sources/reviewed-alpha-20261010/82f606e7cde4abd6/logo.svg",
+    "sha256": "82f606e7cde4abd6a77a9e8ff2f1247f2f318ea0234e8337cf85ab67076c7067"
+  },
+  {
+    "id": "zykon",
+    "file": "marketing/assets/svg-transparent-batch-20261010/zykon/sources/reviewed-alpha-20261010/e5c7687bf019f725/preview.png",
+    "key": "_clients/zykon/sources/reviewed-alpha-20261010/e5c7687bf019f725/preview.png",
+    "sha256": "e5c7687bf019f72500d562235fc52f6e7cbee18d524926cbb8ab004658e2a764"
+  },
+  {
+    "id": "zykon",
+    "file": "marketing/assets/svg-transparent-batch-20261010/zykon/sources/reviewed-alpha-20261010/2489da6f4cdf4ab1/logo.png",
+    "key": "_clients/zykon/sources/reviewed-alpha-20261010/2489da6f4cdf4ab1/logo.png",
+    "sha256": "2489da6f4cdf4ab1b02c36540a2ba6d18f92f58ae96acbdd754325645b4c2d74"
+  },
+  {
+    "id": "zylab",
+    "file": "marketing/assets/svg-transparent-batch-20261010/zylab/sources/reviewed-alpha-20261010/e7e6e3b76a956694/original.svg",
+    "key": "_clients/zylab/sources/reviewed-alpha-20261010/e7e6e3b76a956694/original.svg",
+    "sha256": "e7e6e3b76a95669409918d3e521f827565a42644940b5c607bf863cc7a535f3f"
+  },
+  {
+    "id": "zylab",
+    "file": "marketing/assets/svg-transparent-batch-20261010/zylab/sources/reviewed-alpha-20261010/87e2ac4503998a50/logo.svg",
+    "key": "_clients/zylab/sources/reviewed-alpha-20261010/87e2ac4503998a50/logo.svg",
+    "sha256": "87e2ac4503998a50e2b0ad0870eb69094291ebc3dc41745455fc5c237a233279"
+  },
+  {
+    "id": "zylab",
+    "file": "marketing/assets/svg-transparent-batch-20261010/zylab/sources/reviewed-alpha-20261010/07891ed3c48da4df/preview.png",
+    "key": "_clients/zylab/sources/reviewed-alpha-20261010/07891ed3c48da4df/preview.png",
+    "sha256": "07891ed3c48da4dfed550e814489e1b7e65adf7e0e05169a5a92567da87bafdb"
+  },
+  {
+    "id": "zylab",
+    "file": "marketing/assets/svg-transparent-batch-20261010/zylab/sources/reviewed-alpha-20261010/0cb938c40af18388/logo.png",
+    "key": "_clients/zylab/sources/reviewed-alpha-20261010/0cb938c40af18388/logo.png",
+    "sha256": "0cb938c40af18388edb08a7578eca45484477cd980b0450bc0f9005bdd84de34"
+  },
+  {
+    "id": "zwilling-logo-1",
+    "file": "marketing/assets/svg-transparent-batch-20261010/zwilling-logo-1/sources/reviewed-alpha-20261010/7a5c476ab22aa625/original.svg",
+    "key": "_clients/zwilling-logo-1/sources/reviewed-alpha-20261010/7a5c476ab22aa625/original.svg",
+    "sha256": "7a5c476ab22aa6259d1b034d851391a3ce95329fffac3fc35aed3a85f0da0691"
+  },
+  {
+    "id": "zwilling-logo-1",
+    "file": "marketing/assets/svg-transparent-batch-20261010/zwilling-logo-1/sources/reviewed-alpha-20261010/7a5c476ab22aa625/logo.svg",
+    "key": "_clients/zwilling-logo-1/sources/reviewed-alpha-20261010/7a5c476ab22aa625/logo.svg",
+    "sha256": "7a5c476ab22aa6259d1b034d851391a3ce95329fffac3fc35aed3a85f0da0691"
+  },
+  {
+    "id": "zwilling-logo-1",
+    "file": "marketing/assets/svg-transparent-batch-20261010/zwilling-logo-1/sources/reviewed-alpha-20261010/377c5351714723c5/preview.png",
+    "key": "_clients/zwilling-logo-1/sources/reviewed-alpha-20261010/377c5351714723c5/preview.png",
+    "sha256": "377c5351714723c5cc672c15e4c0893871d3a46f7a32593ecfc1a31db5148a1c"
+  },
+  {
+    "id": "zwilling-logo-1",
+    "file": "marketing/assets/svg-transparent-batch-20261010/zwilling-logo-1/sources/reviewed-alpha-20261010/010e9dd4c18a171b/logo.png",
+    "key": "_clients/zwilling-logo-1/sources/reviewed-alpha-20261010/010e9dd4c18a171b/logo.png",
+    "sha256": "010e9dd4c18a171b3490c7422e857528402d5e6f553a1099383e9759e3f07acd"
+  },
+  {
+    "id": "zwilling-logo",
+    "file": "marketing/assets/svg-transparent-batch-20261010/zwilling-logo/sources/reviewed-alpha-20261010/8494e6b1be3bf64c/original.svg",
+    "key": "_clients/zwilling-logo/sources/reviewed-alpha-20261010/8494e6b1be3bf64c/original.svg",
+    "sha256": "8494e6b1be3bf64cb7b02337c59aa21d915cdfd2b264ed4206f749eee8161e70"
+  },
+  {
+    "id": "zwilling-logo",
+    "file": "marketing/assets/svg-transparent-batch-20261010/zwilling-logo/sources/reviewed-alpha-20261010/8494e6b1be3bf64c/logo.svg",
+    "key": "_clients/zwilling-logo/sources/reviewed-alpha-20261010/8494e6b1be3bf64c/logo.svg",
+    "sha256": "8494e6b1be3bf64cb7b02337c59aa21d915cdfd2b264ed4206f749eee8161e70"
+  },
+  {
+    "id": "zwilling-logo",
+    "file": "marketing/assets/svg-transparent-batch-20261010/zwilling-logo/sources/reviewed-alpha-20261010/14c6ef611df944e3/preview.png",
+    "key": "_clients/zwilling-logo/sources/reviewed-alpha-20261010/14c6ef611df944e3/preview.png",
+    "sha256": "14c6ef611df944e37d2ddcb7f8260e974a1200b0388ef28f1e1e10dd6060ec51"
+  },
+  {
+    "id": "zwilling-logo",
+    "file": "marketing/assets/svg-transparent-batch-20261010/zwilling-logo/sources/reviewed-alpha-20261010/b1aa431bf047079c/logo.png",
+    "key": "_clients/zwilling-logo/sources/reviewed-alpha-20261010/b1aa431bf047079c/logo.png",
+    "sha256": "b1aa431bf047079c48139225001b91bae443bb748e2b2a9978a605d6d20c0fb6"
+  },
+  {
+    "id": "zwilling-j-a-henckels",
+    "file": "marketing/assets/svg-transparent-batch-20261010/zwilling-j-a-henckels/sources/reviewed-alpha-20261010/cef7b559ecabf25f/original.svg",
+    "key": "_clients/zwilling-j-a-henckels/sources/reviewed-alpha-20261010/cef7b559ecabf25f/original.svg",
+    "sha256": "cef7b559ecabf25f0cfc6f9624d2c97d9416a35977e2245a522b83709d47da86"
+  },
+  {
+    "id": "zwilling-j-a-henckels",
+    "file": "marketing/assets/svg-transparent-batch-20261010/zwilling-j-a-henckels/sources/reviewed-alpha-20261010/a80249c09d905c86/logo.svg",
+    "key": "_clients/zwilling-j-a-henckels/sources/reviewed-alpha-20261010/a80249c09d905c86/logo.svg",
+    "sha256": "a80249c09d905c86d05d016bc93fd13088ec575d142d981af605beaeb9620e76"
+  },
+  {
+    "id": "zwilling-j-a-henckels",
+    "file": "marketing/assets/svg-transparent-batch-20261010/zwilling-j-a-henckels/sources/reviewed-alpha-20261010/e12675370cd59f8c/preview.png",
+    "key": "_clients/zwilling-j-a-henckels/sources/reviewed-alpha-20261010/e12675370cd59f8c/preview.png",
+    "sha256": "e12675370cd59f8cd7e3e22a7bc253370624cc320845124b60cd2563feb80319"
+  },
+  {
+    "id": "zwilling-j-a-henckels",
+    "file": "marketing/assets/svg-transparent-batch-20261010/zwilling-j-a-henckels/sources/reviewed-alpha-20261010/ae055dfdb8cca07d/logo.png",
+    "key": "_clients/zwilling-j-a-henckels/sources/reviewed-alpha-20261010/ae055dfdb8cca07d/logo.png",
+    "sha256": "ae055dfdb8cca07db991b012db6a0ce06390f490705540f69ac4f5fcf6aa447f"
+  },
+  {
+    "id": "zx-6r",
+    "file": "marketing/assets/svg-transparent-batch-20261010/zx-6r/sources/reviewed-alpha-20261010/cac6173923ddde1d/original.svg",
+    "key": "_clients/zx-6r/sources/reviewed-alpha-20261010/cac6173923ddde1d/original.svg",
+    "sha256": "cac6173923ddde1d303bf6febaa68c97ebb2de3eebc2052a683bd0f154b1920d"
+  },
+  {
+    "id": "zx-6r",
+    "file": "marketing/assets/svg-transparent-batch-20261010/zx-6r/sources/reviewed-alpha-20261010/5196d2719fd202af/logo.svg",
+    "key": "_clients/zx-6r/sources/reviewed-alpha-20261010/5196d2719fd202af/logo.svg",
+    "sha256": "5196d2719fd202afdcac3b536eebf990e6d25a1bf20ad81c6d50cf02cb064375"
+  },
+  {
+    "id": "zx-6r",
+    "file": "marketing/assets/svg-transparent-batch-20261010/zx-6r/sources/reviewed-alpha-20261010/d4bad685c0df8164/preview.png",
+    "key": "_clients/zx-6r/sources/reviewed-alpha-20261010/d4bad685c0df8164/preview.png",
+    "sha256": "d4bad685c0df8164efb656070e9992de3830d32a102841602bf9c1442646ccc0"
+  },
+  {
+    "id": "zx-6r",
+    "file": "marketing/assets/svg-transparent-batch-20261010/zx-6r/sources/reviewed-alpha-20261010/6dbcb2db17d0e305/logo.png",
+    "key": "_clients/zx-6r/sources/reviewed-alpha-20261010/6dbcb2db17d0e305/logo.png",
+    "sha256": "6dbcb2db17d0e305773d185b81c844e92b7062d2c0949dae5bbc2205ae193b8d"
+  },
+  {
+    "id": "zwan",
+    "file": "marketing/assets/svg-transparent-batch-20261010/zwan/sources/reviewed-alpha-20261010/4826ed6a4296835e/original.svg",
+    "key": "_clients/zwan/sources/reviewed-alpha-20261010/4826ed6a4296835e/original.svg",
+    "sha256": "4826ed6a4296835ecde1ec1a61ba522aac6e57881bb44674f4ed4963272000c4"
+  },
+  {
+    "id": "zwan",
+    "file": "marketing/assets/svg-transparent-batch-20261010/zwan/sources/reviewed-alpha-20261010/b76d1609759626fa/logo.svg",
+    "key": "_clients/zwan/sources/reviewed-alpha-20261010/b76d1609759626fa/logo.svg",
+    "sha256": "b76d1609759626fa39dba52209d6f9d1003c9d1c061bb3f19f5384cfa9f47161"
+  },
+  {
+    "id": "zwan",
+    "file": "marketing/assets/svg-transparent-batch-20261010/zwan/sources/reviewed-alpha-20261010/859d4f50b6e0f04d/preview.png",
+    "key": "_clients/zwan/sources/reviewed-alpha-20261010/859d4f50b6e0f04d/preview.png",
+    "sha256": "859d4f50b6e0f04d072628eb70ed1b893679991fb2ea40178b01ccbfa69f0fe2"
+  },
+  {
+    "id": "zwan",
+    "file": "marketing/assets/svg-transparent-batch-20261010/zwan/sources/reviewed-alpha-20261010/2a393ed2ac90fb52/logo.png",
+    "key": "_clients/zwan/sources/reviewed-alpha-20261010/2a393ed2ac90fb52/logo.png",
+    "sha256": "2a393ed2ac90fb525c1bb731991e4c55669640f418ce8b36be3032264d6ef46a"
+  },
+  {
+    "id": "zvu",
+    "file": "marketing/assets/svg-transparent-batch-20261010/zvu/sources/reviewed-alpha-20261010/489748085e063561/original.svg",
+    "key": "_clients/zvu/sources/reviewed-alpha-20261010/489748085e063561/original.svg",
+    "sha256": "489748085e063561699d50e9d9018ec3db1e1e9193e9e10ccd7c281f35e44200"
+  },
+  {
+    "id": "zvu",
+    "file": "marketing/assets/svg-transparent-batch-20261010/zvu/sources/reviewed-alpha-20261010/3d8058d387c99a3d/logo.svg",
+    "key": "_clients/zvu/sources/reviewed-alpha-20261010/3d8058d387c99a3d/logo.svg",
+    "sha256": "3d8058d387c99a3ddf6c1d184423e7659cf4e6a2dda4285267207903f55b0709"
+  },
+  {
+    "id": "zvu",
+    "file": "marketing/assets/svg-transparent-batch-20261010/zvu/sources/reviewed-alpha-20261010/e5480766a251982d/preview.png",
+    "key": "_clients/zvu/sources/reviewed-alpha-20261010/e5480766a251982d/preview.png",
+    "sha256": "e5480766a251982dd856fea5e36bbaf4c8093d7d5883d7d5bb8e193c5451c47c"
+  },
+  {
+    "id": "zvu",
+    "file": "marketing/assets/svg-transparent-batch-20261010/zvu/sources/reviewed-alpha-20261010/a7ef3d0d7f310a1f/logo.png",
+    "key": "_clients/zvu/sources/reviewed-alpha-20261010/a7ef3d0d7f310a1f/logo.png",
+    "sha256": "a7ef3d0d7f310a1fe7ef646764d2e8d4ce10169a646b377a4fd472667bf5ac83"
+  },
+  {
+    "id": "zwick",
+    "file": "marketing/assets/svg-transparent-batch-20261010/zwick/sources/reviewed-alpha-20261010/9d1046b36d417b63/original.svg",
+    "key": "_clients/zwick/sources/reviewed-alpha-20261010/9d1046b36d417b63/original.svg",
+    "sha256": "9d1046b36d417b6398c5a4b3f4f71479ef834cd0bb60b686f9af9df3aa7de072"
+  },
+  {
+    "id": "zwick",
+    "file": "marketing/assets/svg-transparent-batch-20261010/zwick/sources/reviewed-alpha-20261010/65c13343b6e3ae75/logo.svg",
+    "key": "_clients/zwick/sources/reviewed-alpha-20261010/65c13343b6e3ae75/logo.svg",
+    "sha256": "65c13343b6e3ae7587bf5052116b2945b0a2ed595cb8b6e501a691dd117b63e2"
+  },
+  {
+    "id": "zwick",
+    "file": "marketing/assets/svg-transparent-batch-20261010/zwick/sources/reviewed-alpha-20261010/0814ba29048a2a3e/preview.png",
+    "key": "_clients/zwick/sources/reviewed-alpha-20261010/0814ba29048a2a3e/preview.png",
+    "sha256": "0814ba29048a2a3e59ea511961a2e4f373ee8a81b99cd073854ac753231155a0"
+  },
+  {
+    "id": "zwick",
+    "file": "marketing/assets/svg-transparent-batch-20261010/zwick/sources/reviewed-alpha-20261010/944c765c9ce4a3a2/logo.png",
+    "key": "_clients/zwick/sources/reviewed-alpha-20261010/944c765c9ce4a3a2/logo.png",
+    "sha256": "944c765c9ce4a3a252dac8d7eacf5286b0fa69209cd9063f3476d2fd26ed7a28"
+  },
+  {
+    "id": "zvk",
+    "file": "marketing/assets/svg-transparent-batch-20261010/zvk/sources/reviewed-alpha-20261010/8af1fb4fca348817/original.svg",
+    "key": "_clients/zvk/sources/reviewed-alpha-20261010/8af1fb4fca348817/original.svg",
+    "sha256": "8af1fb4fca34881725540b7fc585d6398fa8afb80d8c62c7312b4428eb7da7de"
+  },
+  {
+    "id": "zvk",
+    "file": "marketing/assets/svg-transparent-batch-20261010/zvk/sources/reviewed-alpha-20261010/b8c62ad8bd460dbd/logo.svg",
+    "key": "_clients/zvk/sources/reviewed-alpha-20261010/b8c62ad8bd460dbd/logo.svg",
+    "sha256": "b8c62ad8bd460dbd216a279fda30c8b8e850566625300686520dbb290b528da4"
+  },
+  {
+    "id": "zvk",
+    "file": "marketing/assets/svg-transparent-batch-20261010/zvk/sources/reviewed-alpha-20261010/dfb11d980edd7be2/preview.png",
+    "key": "_clients/zvk/sources/reviewed-alpha-20261010/dfb11d980edd7be2/preview.png",
+    "sha256": "dfb11d980edd7be226e6fd846d8187357dda9ff0c5e058ee99a4cca9ae9e2555"
+  },
+  {
+    "id": "zvk",
+    "file": "marketing/assets/svg-transparent-batch-20261010/zvk/sources/reviewed-alpha-20261010/072fdef10c713161/logo.png",
+    "key": "_clients/zvk/sources/reviewed-alpha-20261010/072fdef10c713161/logo.png",
+    "sha256": "072fdef10c713161260a1205008553efa8cb04e16dbe2582d87d07b3851c8fe0"
+  },
+  {
+    "id": "zweigwhite",
+    "file": "marketing/assets/svg-transparent-batch-20261010/zweigwhite/sources/reviewed-alpha-20261010/e8ce72a7e192a95f/original.svg",
+    "key": "_clients/zweigwhite/sources/reviewed-alpha-20261010/e8ce72a7e192a95f/original.svg",
+    "sha256": "e8ce72a7e192a95fc168100557324e199cab8edf32a9b74dd916f2d94559d761"
+  },
+  {
+    "id": "zweigwhite",
+    "file": "marketing/assets/svg-transparent-batch-20261010/zweigwhite/sources/reviewed-alpha-20261010/70ca8b1741e06a64/logo.svg",
+    "key": "_clients/zweigwhite/sources/reviewed-alpha-20261010/70ca8b1741e06a64/logo.svg",
+    "sha256": "70ca8b1741e06a64ca17d5b9224caf051b2896575bd70f368efb7490cb497f02"
+  },
+  {
+    "id": "zweigwhite",
+    "file": "marketing/assets/svg-transparent-batch-20261010/zweigwhite/sources/reviewed-alpha-20261010/a4329cd2715965a1/preview.png",
+    "key": "_clients/zweigwhite/sources/reviewed-alpha-20261010/a4329cd2715965a1/preview.png",
+    "sha256": "a4329cd2715965a16d3f4649b5cd21fbdf1f91165be20d972584fc4a192631f1"
+  },
+  {
+    "id": "zweigwhite",
+    "file": "marketing/assets/svg-transparent-batch-20261010/zweigwhite/sources/reviewed-alpha-20261010/dc04c97eb86028ec/logo.png",
+    "key": "_clients/zweigwhite/sources/reviewed-alpha-20261010/dc04c97eb86028ec/logo.png",
+    "sha256": "dc04c97eb86028ec0c9e26bd81c76bf87c2d068244e84ec3b2b4b36e3d6d2a7f"
+  },
+  {
+    "id": "zweiweg",
+    "file": "marketing/assets/svg-transparent-batch-20261010/zweiweg/sources/reviewed-alpha-20261010/4a1caca1e8a9abd5/original.svg",
+    "key": "_clients/zweiweg/sources/reviewed-alpha-20261010/4a1caca1e8a9abd5/original.svg",
+    "sha256": "4a1caca1e8a9abd500992b33e09b395bc29679330b6de72bb07f177ea06287db"
+  },
+  {
+    "id": "zweiweg",
+    "file": "marketing/assets/svg-transparent-batch-20261010/zweiweg/sources/reviewed-alpha-20261010/626fee68a10e8ca9/logo.svg",
+    "key": "_clients/zweiweg/sources/reviewed-alpha-20261010/626fee68a10e8ca9/logo.svg",
+    "sha256": "626fee68a10e8ca94019c06c2ab03a3979b6a0ad4ffc73eacf6f2562de93257b"
+  },
+  {
+    "id": "zweiweg",
+    "file": "marketing/assets/svg-transparent-batch-20261010/zweiweg/sources/reviewed-alpha-20261010/8711fb94bcc2db4f/preview.png",
+    "key": "_clients/zweiweg/sources/reviewed-alpha-20261010/8711fb94bcc2db4f/preview.png",
+    "sha256": "8711fb94bcc2db4fe30fc7d6e22ce4f34576dbc4275fd3d485c42f2df42880f5"
+  },
+  {
+    "id": "zweiweg",
+    "file": "marketing/assets/svg-transparent-batch-20261010/zweiweg/sources/reviewed-alpha-20261010/439fec68b256318c/logo.png",
+    "key": "_clients/zweiweg/sources/reviewed-alpha-20261010/439fec68b256318c/logo.png",
+    "sha256": "439fec68b256318cefb1708eab6fdefa73832746d8795e98481e762e48a93e5b"
+  }
+]

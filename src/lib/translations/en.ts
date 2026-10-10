@@ -1,5 +1,6 @@
 /** Korean source strings are stable keys. Add a catalog and locale route when another language is ready. */
 export const english: Record<string, string> = {
+  "📦 수집 원본 묶음":"📦 Collected source files",
   "마이페이지":"My account", "로그아웃":"Sign out", "관리":"Admin", "로그인":"Sign in",
   "로고 제보":"Submit a logo", "로고 요청":"Request a logo", "자주 묻는 질문":"FAQ",
   "로고 데이터 로딩 중...":"Loading logos…", "로고 목록을 불러오지 못했어요":"Could not load logos",

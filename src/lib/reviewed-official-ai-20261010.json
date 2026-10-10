@@ -1,0 +1,533 @@
+{
+  "patches": {
+    "gongu-ci-1759": {
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": "sources/official-ai-20261010/575edd2d58702b5c7ed7.svg",
+      "svg_transparent": "sources/official-ai-20261010/575edd2d58702b5c7ed7.svg",
+      "logo_png": "sources/official-ai-20261010/828bd352554a497c50f4.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/gongu-ci-1759/sources/official-ai-20261010/828bd352554a497c50f4.png",
+      "original_ai_url": "https://logo.vibers.co.kr/_clients/gongu-ci-1759/sources/official-ai-20261010/451bd568207517553a67.ai",
+      "variants_n": 4,
+      "asset_review_status": "verified",
+      "asset_origin": "공식 AI 원본 재수집 · 가이드 및 레이아웃 제거",
+      "asset_checked_at": "2026-10-10",
+      "logo_published_at": "2026-10-10T08:45:55.414816+00:00",
+      "light": false,
+      "light_logo": false,
+      "presentation": {
+        "file": "sources/official-ai-20261010/828bd352554a497c50f4.png",
+        "bg": "light"
+      },
+      "rejected_asset_files": [
+        "logo-icon.png",
+        "logo-800.png",
+        "logo-transparent.png",
+        "logo-white.png"
+      ]
+    },
+    "gongu-ci-1604": {
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": "sources/official-ai-20261010/e1e19a9736d37b568422.svg",
+      "svg_transparent": "sources/official-ai-20261010/e1e19a9736d37b568422.svg",
+      "logo_png": "sources/official-ai-20261010/3f0b828908f5bb299610.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/gongu-ci-1604/sources/official-ai-20261010/3f0b828908f5bb299610.png",
+      "original_ai_url": "https://logo.vibers.co.kr/_clients/gongu-ci-1604/sources/official-ai-20261010/9c2adee76be384d35f1b.ai",
+      "variants_n": 5,
+      "asset_review_status": "verified",
+      "asset_origin": "공식 AI 원본 재수집 · 가이드 및 레이아웃 제거",
+      "asset_checked_at": "2026-10-10",
+      "logo_published_at": "2026-10-10T08:45:55.415158+00:00",
+      "light": false,
+      "light_logo": false,
+      "presentation": {
+        "file": "sources/official-ai-20261010/3f0b828908f5bb299610.png",
+        "bg": "light"
+      },
+      "rejected_asset_files": [
+        "logo-icon.png",
+        "logo-800.png",
+        "logo-transparent.png",
+        "logo-white.png"
+      ]
+    },
+    "gongu-ci-1591": {
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": "sources/official-ai-20261010/9e797eb93588acf41591.svg",
+      "svg_transparent": "sources/official-ai-20261010/9e797eb93588acf41591.svg",
+      "logo_png": "sources/official-ai-20261010/793e615193b7164a1365.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/gongu-ci-1591/sources/official-ai-20261010/793e615193b7164a1365.png",
+      "original_ai_url": "https://logo.vibers.co.kr/_clients/gongu-ci-1591/sources/official-ai-20261010/5210ae1d1aa02fb189b4.ai",
+      "variants_n": 2,
+      "asset_review_status": "verified",
+      "asset_origin": "공식 AI 원본 재수집 · 가이드 및 레이아웃 제거",
+      "asset_checked_at": "2026-10-10",
+      "logo_published_at": "2026-10-10T08:45:55.415160+00:00",
+      "light": false,
+      "light_logo": false,
+      "presentation": {
+        "file": "sources/official-ai-20261010/793e615193b7164a1365.png",
+        "bg": "light"
+      },
+      "rejected_asset_files": [
+        "logo-icon.png",
+        "logo-800.png",
+        "logo-transparent.png",
+        "logo-white.png"
+      ]
+    },
+    "gongu-ci-1420": {
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": "sources/official-ai-20261010/6bea108d81d545956c60.svg",
+      "svg_transparent": "sources/official-ai-20261010/6bea108d81d545956c60.svg",
+      "logo_png": "sources/official-ai-20261010/3f7a328c92d291873f06.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/gongu-ci-1420/sources/official-ai-20261010/3f7a328c92d291873f06.png",
+      "original_ai_url": "https://logo.vibers.co.kr/_clients/gongu-ci-1420/sources/official-ai-20261010/d54425ffbe1d4a9c856d.ai",
+      "variants_n": 1,
+      "asset_review_status": "verified",
+      "asset_origin": "공식 AI 원본 재수집 · 가이드 및 레이아웃 제거",
+      "asset_checked_at": "2026-10-10",
+      "logo_published_at": "2026-10-10T08:45:55.415162+00:00",
+      "light": false,
+      "light_logo": false,
+      "presentation": {
+        "file": "sources/official-ai-20261010/3f7a328c92d291873f06.png",
+        "bg": "light"
+      },
+      "rejected_asset_files": [
+        "logo-icon.png",
+        "logo-800.png",
+        "logo-transparent.png",
+        "logo-white.png"
+      ]
+    },
+    "gongu-ci-1373": {
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": "sources/official-ai-20261010/76d75227b222add3cf8a.svg",
+      "svg_transparent": "sources/official-ai-20261010/76d75227b222add3cf8a.svg",
+      "logo_png": "sources/official-ai-20261010/a1ee9c6f33556728354b.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/gongu-ci-1373/sources/official-ai-20261010/a1ee9c6f33556728354b.png",
+      "original_ai_url": "https://logo.vibers.co.kr/_clients/gongu-ci-1373/sources/official-ai-20261010/785cbb46f3ee910085d2.ai",
+      "variants_n": 4,
+      "asset_review_status": "verified",
+      "asset_origin": "공식 AI 원본 재수집 · 가이드 및 레이아웃 제거",
+      "asset_checked_at": "2026-10-10",
+      "logo_published_at": "2026-10-10T08:45:55.415163+00:00",
+      "light": false,
+      "light_logo": false,
+      "presentation": {
+        "file": "sources/official-ai-20261010/a1ee9c6f33556728354b.png",
+        "bg": "light"
+      },
+      "rejected_asset_files": [
+        "logo-icon.png",
+        "logo-800.png",
+        "logo-transparent.png",
+        "logo-white.png"
+      ]
+    },
+    "gongu-ci-1296": {
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": "sources/official-ai-20261010/3cec04f2ec87591ca3ee.svg",
+      "svg_transparent": "sources/official-ai-20261010/3cec04f2ec87591ca3ee.svg",
+      "logo_png": "sources/official-ai-20261010/24d10ca64f7acf70c7cc.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/gongu-ci-1296/sources/official-ai-20261010/24d10ca64f7acf70c7cc.png",
+      "original_ai_url": "https://logo.vibers.co.kr/_clients/gongu-ci-1296/sources/official-ai-20261010/01aee4aca6edc500028e.ai",
+      "variants_n": 1,
+      "asset_review_status": "verified",
+      "asset_origin": "공식 AI 원본 재수집 · 가이드 및 레이아웃 제거",
+      "asset_checked_at": "2026-10-10",
+      "logo_published_at": "2026-10-10T08:45:55.415165+00:00",
+      "light": false,
+      "light_logo": false,
+      "presentation": {
+        "file": "sources/official-ai-20261010/24d10ca64f7acf70c7cc.png",
+        "bg": "light"
+      },
+      "rejected_asset_files": [
+        "logo-icon.png",
+        "logo-800.png",
+        "logo-transparent.png",
+        "logo-white.png"
+      ]
+    }
+  },
+  "variants": {
+    "gongu-ci-1759": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "gongu-ci-1759",
+      "primary": "candidate-0-page-0-horizontal",
+      "variants": [
+        {
+          "key": "candidate-0-page-0-emblem",
+          "label": "엠블럼",
+          "form": "emblem",
+          "lockup": "emblem",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-ai-20261010/f560618e75aee3b48a17.svg",
+            "png": "sources/official-ai-20261010/130cac8e43ec0042ea56.png"
+          },
+          "aspect": 0.97,
+          "origin": "official",
+          "provider": "공식 AI · 레이아웃 제거 검수",
+          "derived_from": "https://sonosa.or.kr/usr/file/logo.ai",
+          "original_ai": "sources/official-ai-20261010/451bd568207517553a67.ai",
+          "order": 0,
+          "asset_group": "logotype"
+        },
+        {
+          "key": "candidate-0-page-0-vertical",
+          "label": "상하조합",
+          "form": "vertical",
+          "lockup": "vertical",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-ai-20261010/aeb84a8e736d32c5405f.svg",
+            "png": "sources/official-ai-20261010/1024730a27e8f5c9ae61.png"
+          },
+          "aspect": 0.9735,
+          "origin": "official",
+          "provider": "공식 AI · 레이아웃 제거 검수",
+          "derived_from": "https://sonosa.or.kr/usr/file/logo.ai",
+          "original_ai": "sources/official-ai-20261010/451bd568207517553a67.ai",
+          "order": 1,
+          "asset_group": "logotype"
+        },
+        {
+          "key": "candidate-0-page-0-horizontal",
+          "label": "좌우조합",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-ai-20261010/575edd2d58702b5c7ed7.svg",
+            "png": "sources/official-ai-20261010/828bd352554a497c50f4.png"
+          },
+          "aspect": 2.73972602739726,
+          "origin": "official",
+          "provider": "공식 AI · 레이아웃 제거 검수",
+          "derived_from": "https://sonosa.or.kr/usr/file/logo.ai",
+          "original_ai": "sources/official-ai-20261010/451bd568207517553a67.ai",
+          "order": 2,
+          "asset_group": "logotype"
+        },
+        {
+          "key": "candidate-0-page-0-symbol",
+          "label": "심볼",
+          "form": "symbol",
+          "lockup": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-ai-20261010/d87e5953a59df3d56ced.svg",
+            "png": "sources/official-ai-20261010/35b1585bed1e1e186096.png"
+          },
+          "aspect": 0.5575,
+          "origin": "official",
+          "provider": "공식 AI · 레이아웃 제거 검수",
+          "derived_from": "https://sonosa.or.kr/usr/file/logo.ai",
+          "original_ai": "sources/official-ai-20261010/451bd568207517553a67.ai",
+          "order": 3,
+          "asset_group": "symbol"
+        }
+      ]
+    },
+    "gongu-ci-1604": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "gongu-ci-1604",
+      "primary": "candidate-0-page-0-color",
+      "variants": [
+        {
+          "key": "candidate-0-page-0-color",
+          "label": "국문",
+          "form": "vertical",
+          "lockup": "vertical",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-ai-20261010/e1e19a9736d37b568422.svg",
+            "png": "sources/official-ai-20261010/3f0b828908f5bb299610.png"
+          },
+          "aspect": 1.8832391713747645,
+          "origin": "official",
+          "provider": "공식 AI · 레이아웃 제거 검수",
+          "derived_from": "https://www.arko.or.kr/cwsattach/image/asis/91/1600291_201803141417414841.ai",
+          "original_ai": "sources/official-ai-20261010/9c2adee76be384d35f1b.ai",
+          "order": 0,
+          "asset_group": "logotype"
+        },
+        {
+          "key": "candidate-0-page-0-blue",
+          "label": "국문 단색",
+          "form": "vertical",
+          "lockup": "vertical",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-ai-20261010/53044f39b4788ec8468d.svg",
+            "png": "sources/official-ai-20261010/f07ce0d8d7483bbc10c2.png"
+          },
+          "aspect": 1.8832391713747645,
+          "origin": "official",
+          "provider": "공식 AI · 레이아웃 제거 검수",
+          "derived_from": "https://www.arko.or.kr/cwsattach/image/asis/91/1600291_201803141417414841.ai",
+          "original_ai": "sources/official-ai-20261010/9c2adee76be384d35f1b.ai",
+          "order": 1,
+          "asset_group": "logotype"
+        },
+        {
+          "key": "candidate-1-page-0-color",
+          "label": "영문",
+          "form": "vertical",
+          "lockup": "vertical",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-ai-20261010/45ed9ccfa10a577cddb8.svg",
+            "png": "sources/official-ai-20261010/0332bc12161a26de8ed6.png"
+          },
+          "aspect": 2.159827213822894,
+          "origin": "official",
+          "provider": "공식 AI · 레이아웃 제거 검수",
+          "derived_from": "https://www.arko.or.kr/cwsattach/image/asis/97/1600297_201803141418502451.ai",
+          "original_ai": "sources/official-ai-20261010/b01e427deac2d1133d78.ai",
+          "order": 2,
+          "asset_group": "logotype"
+        },
+        {
+          "key": "candidate-2-page-0-color",
+          "label": "중문 번체",
+          "form": "vertical",
+          "lockup": "vertical",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-ai-20261010/e09f508fd3453032cb38.svg",
+            "png": "sources/official-ai-20261010/9ba6754ded929706b83d.png"
+          },
+          "aspect": 2.0,
+          "origin": "official",
+          "provider": "공식 AI · 레이아웃 제거 검수",
+          "derived_from": "https://www.arko.or.kr/cwsattach/image/asis/95/1600295_202005151507343803.ai",
+          "original_ai": "sources/official-ai-20261010/b9e80fb2e79644621c58.ai",
+          "order": 3,
+          "asset_group": "logotype"
+        },
+        {
+          "key": "candidate-3-page-0-color",
+          "label": "중문 간체",
+          "form": "vertical",
+          "lockup": "vertical",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-ai-20261010/ed47617ae86a5d2c0fff.svg",
+            "png": "sources/official-ai-20261010/70d62055440b73d865e5.png"
+          },
+          "aspect": 2.0,
+          "origin": "official",
+          "provider": "공식 AI · 레이아웃 제거 검수",
+          "derived_from": "https://www.arko.or.kr/cwsattach/image/asis/95/1600295_201803141418269991.ai",
+          "original_ai": "sources/official-ai-20261010/23b5f02f6839313a561b.ai",
+          "order": 4,
+          "asset_group": "logotype"
+        }
+      ]
+    },
+    "gongu-ci-1591": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "gongu-ci-1591",
+      "primary": "candidate-0-page-0-main",
+      "variants": [
+        {
+          "key": "candidate-0-page-0-main",
+          "label": "공식 조합형",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-ai-20261010/9e797eb93588acf41591.svg",
+            "png": "sources/official-ai-20261010/793e615193b7164a1365.png"
+          },
+          "aspect": 4.8076923076923075,
+          "origin": "official",
+          "provider": "공식 AI · 레이아웃 제거 검수",
+          "derived_from": "https://www.kbri.re.kr/new/pages/sub/file/logo.ai",
+          "original_ai": "sources/official-ai-20261010/5210ae1d1aa02fb189b4.ai",
+          "order": 0,
+          "asset_group": "logotype"
+        },
+        {
+          "key": "candidate-1-page-0-main",
+          "label": "공식 조합형",
+          "form": "vertical",
+          "lockup": "vertical",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-ai-20261010/c9309076681597e96127.svg",
+            "png": "sources/official-ai-20261010/ac748291a4c653150fd6.png"
+          },
+          "aspect": 0.755,
+          "origin": "official",
+          "provider": "공식 AI · 레이아웃 제거 검수",
+          "derived_from": "https://www.kbri.re.kr/new/pages/sub/file/cip3.ai",
+          "original_ai": "sources/official-ai-20261010/53de2a96462bc85e3071.ai",
+          "order": 1,
+          "asset_group": "logotype"
+        }
+      ]
+    },
+    "gongu-ci-1420": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "gongu-ci-1420",
+      "primary": "candidate-0-page-0-main",
+      "variants": [
+        {
+          "key": "candidate-0-page-0-main",
+          "label": "공식 조합형",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-ai-20261010/6bea108d81d545956c60.svg",
+            "png": "sources/official-ai-20261010/3f7a328c92d291873f06.png"
+          },
+          "aspect": 4.750593824228028,
+          "origin": "official",
+          "provider": "공식 AI · 레이아웃 제거 검수",
+          "derived_from": "https://jjcf.or.kr/main/img/jjcf.ai",
+          "original_ai": "sources/official-ai-20261010/d54425ffbe1d4a9c856d.ai",
+          "order": 0,
+          "asset_group": "logotype"
+        }
+      ]
+    },
+    "gongu-ci-1373": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "gongu-ci-1373",
+      "primary": "candidate-2-page-0-main",
+      "variants": [
+        {
+          "key": "candidate-0-page-0-main",
+          "label": "심볼",
+          "form": "symbol",
+          "lockup": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-ai-20261010/b14e2a5013d65f6ba969.svg",
+            "png": "sources/official-ai-20261010/e99160f3f2a73385e33b.png"
+          },
+          "aspect": 0.75,
+          "origin": "official",
+          "provider": "공식 AI · 레이아웃 제거 검수",
+          "derived_from": "https://www.bpcf.or.kr/resources/bpcf/files/B01_BPCF_SymbolMark.ai",
+          "original_ai": "sources/official-ai-20261010/a1dd88896bb1e65a8fa7.ai",
+          "order": 0,
+          "asset_group": "symbol"
+        },
+        {
+          "key": "candidate-1-page-0-main",
+          "label": "워드마크",
+          "form": "wordmark",
+          "lockup": "wordmark",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-ai-20261010/1ebe52289c9f3595a1c2.svg",
+            "png": "sources/official-ai-20261010/9062453a969456d94069.png"
+          },
+          "aspect": 3.9138943248532287,
+          "origin": "official",
+          "provider": "공식 AI · 레이아웃 제거 검수",
+          "derived_from": "https://www.bpcf.or.kr/resources/bpcf/files/B03_BPCF_Logotype.ai",
+          "original_ai": "sources/official-ai-20261010/73c3bcd9bcc3d2f59fd4.ai",
+          "order": 1,
+          "asset_group": "logotype"
+        },
+        {
+          "key": "candidate-2-page-0-main",
+          "label": "좌우조합",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-ai-20261010/76d75227b222add3cf8a.svg",
+            "png": "sources/official-ai-20261010/a1ee9c6f33556728354b.png"
+          },
+          "aspect": 4.123711340206185,
+          "origin": "official",
+          "provider": "공식 AI · 레이아웃 제거 검수",
+          "derived_from": "https://www.bpcf.or.kr/resources/bpcf/files/B04_BPCF_Signature.ai",
+          "original_ai": "sources/official-ai-20261010/785cbb46f3ee910085d2.ai",
+          "order": 2,
+          "asset_group": "logotype"
+        },
+        {
+          "key": "candidate-3-page-0-main",
+          "label": "상하조합",
+          "form": "vertical",
+          "lockup": "vertical",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-ai-20261010/2ca43cc71f5d5e3916c5.svg",
+            "png": "sources/official-ai-20261010/8c4f75c91ecad4d94e88.png"
+          },
+          "aspect": 1.6299918500407498,
+          "origin": "official",
+          "provider": "공식 AI · 레이아웃 제거 검수",
+          "derived_from": "https://www.bpcf.or.kr/resources/bpcf/files/B04_BPCF_Signature_2.ai",
+          "original_ai": "sources/official-ai-20261010/647a10aa1d7404d64db6.ai",
+          "order": 3,
+          "asset_group": "logotype"
+        }
+      ]
+    },
+    "gongu-ci-1296": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "gongu-ci-1296",
+      "primary": "candidate-0-page-0-main",
+      "variants": [
+        {
+          "key": "candidate-0-page-0-main",
+          "label": "공식 조합형",
+          "form": "vertical",
+          "lockup": "vertical",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-ai-20261010/3cec04f2ec87591ca3ee.svg",
+            "png": "sources/official-ai-20261010/24d10ca64f7acf70c7cc.png"
+          },
+          "aspect": 0.9745,
+          "origin": "official",
+          "provider": "공식 AI · 레이아웃 제거 검수",
+          "derived_from": "https://www.ycyc.or.kr/download/청소년육성재단_로고.ai",
+          "original_ai": "sources/official-ai-20261010/01aee4aca6edc500028e.ai",
+          "order": 0,
+          "asset_group": "logotype"
+        }
+      ]
+    }
+  }
+}

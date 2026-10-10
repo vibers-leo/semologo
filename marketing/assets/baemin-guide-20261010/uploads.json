@@ -1,0 +1,86 @@
+[
+  {
+    "id": "baemin",
+    "file": "marketing/assets/baemin-guide-20261010/baemin/wordmark-black.svg",
+    "key": "_clients/baemin/sources/baemin-guide-20261010/2faa9af764604698.svg",
+    "sha256": "2faa9af764604698162f9c205ad7ceaf1a1f7e00375bd1d5c98569427e74fa90"
+  },
+  {
+    "id": "baemin",
+    "file": "marketing/assets/baemin-guide-20261010/baemin/wordmark-black.png",
+    "key": "_clients/baemin/sources/baemin-guide-20261010/e9d94d05f7358041.png",
+    "sha256": "e9d94d05f7358041017ca3fad123d38d3aeaafa766ed58795b4b7ffe3de8f669"
+  },
+  {
+    "id": "baemin",
+    "file": "marketing/assets/baemin-guide-20261010/baemin/wordmark-white.svg",
+    "key": "_clients/baemin/sources/baemin-guide-20261010/7974a00605c36d17.svg",
+    "sha256": "7974a00605c36d17601fdd613c591e3b735d631c2f2075d10105f4c49eed9616"
+  },
+  {
+    "id": "baemin",
+    "file": "marketing/assets/baemin-guide-20261010/baemin/wordmark-white.png",
+    "key": "_clients/baemin/sources/baemin-guide-20261010/2aea5e90acd5e802.png",
+    "sha256": "2aea5e90acd5e802b40cd61df2c411042ab148d6319fe4a9dfa974cbf54614b5"
+  },
+  {
+    "id": "baemin",
+    "file": "marketing/assets/baemin-guide-20261010/baemin/wordmark-mint.svg",
+    "key": "_clients/baemin/sources/baemin-guide-20261010/58d2cac2134fc711.svg",
+    "sha256": "58d2cac2134fc71129b01a5b887df6254d5866783c53cc2c342b75885a0c48a1"
+  },
+  {
+    "id": "baemin",
+    "file": "marketing/assets/baemin-guide-20261010/baemin/wordmark-mint.png",
+    "key": "_clients/baemin/sources/baemin-guide-20261010/7005c315abbc6de5.png",
+    "sha256": "7005c315abbc6de5d00eeb23158ffd341ad19d3f3294ee44621b9dde29f50d1e"
+  },
+  {
+    "id": "baemin",
+    "file": "marketing/assets/baemin-guide-20261010/baemin/app-icon-2019.png",
+    "key": "_clients/baemin/sources/baemin-guide-20261010/37d6d0ad6603fb2f.png",
+    "sha256": "37d6d0ad6603fb2f33c9d69c8dfb22c5860fd9f35f2f61c95178b24a199f9517"
+  },
+  {
+    "id": "baemin",
+    "file": "marketing/assets/baemin-guide-20261010/baemin/character-2019.png",
+    "key": "_clients/baemin/sources/baemin-guide-20261010/6dfb77861f601934.png",
+    "sha256": "6dfb77861f601934f540740328783ae459757f114200fb8c8064d3dec3e196df"
+  },
+  {
+    "id": "baemin-riders",
+    "file": "marketing/assets/baemin-guide-20261010/baemin-riders/horizontal.svg",
+    "key": "_clients/baemin-riders/sources/baemin-guide-20261010/c0e96fdc84a19682.svg",
+    "sha256": "c0e96fdc84a196824377eefb4a7017e03dea2999b4ffe2f31dd02cd548b278ce"
+  },
+  {
+    "id": "baemin-riders",
+    "file": "marketing/assets/baemin-guide-20261010/baemin-riders/horizontal.png",
+    "key": "_clients/baemin-riders/sources/baemin-guide-20261010/9c541cddf278b3e8.png",
+    "sha256": "9c541cddf278b3e878a9bc170e7eedc91d8225ef5a02c0530895c1fe0b889b9f"
+  },
+  {
+    "id": "baemin-riders",
+    "file": "marketing/assets/baemin-guide-20261010/baemin-riders/vertical.svg",
+    "key": "_clients/baemin-riders/sources/baemin-guide-20261010/0e2a9d5a10a9c0b2.svg",
+    "sha256": "0e2a9d5a10a9c0b2e80d02f5d96130228a0b2ad423c59956523a7c90450727aa"
+  },
+  {
+    "id": "baemin-riders",
+    "file": "marketing/assets/baemin-guide-20261010/baemin-riders/vertical.png",
+    "key": "_clients/baemin-riders/sources/baemin-guide-20261010/769152d1a30ab123.png",
+    "sha256": "769152d1a30ab123e42b9cf72c085a07849c7e110ec6cf85ef8434f66501dcd0"
+  },
+  {
+    "id": "baemin",
+    "file": "marketing/assets/baemin-guide-20261010/brand-manual-2019.pdf",
+    "key": "_clients/baemin/sources/baemin-guide-20261010/c6ef4d28f44ffa5a.pdf",
+    "sha256": "c6ef4d28f44ffa5a790026ba22ec78ef7c37ccfacdecacbedbb102fa2dc53e5c"
+  },
+  {
+    "id": "baemin-riders",
+    "file": "marketing/assets/baemin-guide-20261010/brand-manual-2019.pdf",
+    "key": "_clients/baemin-riders/sources/baemin-guide-20261010/c6ef4d28f44ffa5a.pdf",
+    "sha256": "c6ef4d28f44ffa5a790026ba22ec78ef7c37ccfacdecacbedbb102fa2dc53e5c"
+  }
+]

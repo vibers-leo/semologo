@@ -1,0 +1,2738 @@
+{
+  "patches": {
+    "zwei": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch2-20261010/d7b82f419c766018/logo.svg",
+      "logo_png": "sources/reviewed-alpha-batch2-20261010/52bf71e9038dc873/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/zwei/sources/reviewed-alpha-batch2-20261010/87cf55892383d013/preview.png",
+      "asset_review_status": "verified"
+    },
+    "zwilling": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch2-20261010/6630c77cb4234154/logo.svg",
+      "logo_png": "sources/reviewed-alpha-batch2-20261010/4de7dde5d39341ef/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/zwilling/sources/reviewed-alpha-batch2-20261010/0b51f2059f5cb286/preview.png",
+      "asset_review_status": "verified"
+    },
+    "zwolle": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch2-20261010/178cd881d5bf4a51/logo.svg",
+      "logo_png": "sources/reviewed-alpha-batch2-20261010/4bf2b461c6fcb708/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/zwolle/sources/reviewed-alpha-batch2-20261010/3bc555154536c974/preview.png",
+      "asset_review_status": "verified"
+    },
+    "zwarte-duivels": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch2-20261010/ae6cd2c72379dcfe/logo.svg",
+      "logo_png": "sources/reviewed-alpha-batch2-20261010/b0209b168f027436/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/zwarte-duivels/sources/reviewed-alpha-batch2-20261010/4ee51efe181924cc/preview.png",
+      "asset_review_status": "verified"
+    },
+    "zwave--src-ff4ffd9": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch2-20261010/1897f1aa42e1fa79/logo.svg",
+      "logo_png": "sources/reviewed-alpha-batch2-20261010/e8f06ae08318bdb3/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/zwave--src-ff4ffd9/sources/reviewed-alpha-batch2-20261010/cc4c4e77bd46802e/preview.png",
+      "asset_review_status": "verified"
+    },
+    "zwilling-1": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch2-20261010/90545e4ba3b15374/logo.svg",
+      "logo_png": "sources/reviewed-alpha-batch2-20261010/e6a1ff0715d75315/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/zwilling-1/sources/reviewed-alpha-batch2-20261010/271141abddb4d056/preview.png",
+      "asset_review_status": "verified"
+    },
+    "zwan-1": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch2-20261010/24829af7d0259077/logo.svg",
+      "logo_png": "sources/reviewed-alpha-batch2-20261010/be9533e2fc4a08ec/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/zwan-1/sources/reviewed-alpha-batch2-20261010/910749af3695ebaa/preview.png",
+      "asset_review_status": "verified"
+    },
+    "zware-jongens": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch2-20261010/81e25112fb0c688f/logo.svg",
+      "logo_png": "sources/reviewed-alpha-batch2-20261010/45fb3987819c1058/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/zware-jongens/sources/reviewed-alpha-batch2-20261010/68ccfc56cfb84eb6/preview.png",
+      "asset_review_status": "verified"
+    },
+    "zurmarke-1": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch2-20261010/278ae63c962eca98/logo.svg",
+      "logo_png": "sources/reviewed-alpha-batch2-20261010/203aabecc9661aba/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/zurmarke-1/sources/reviewed-alpha-batch2-20261010/09a7ac03f1db0bb9/preview.png",
+      "asset_review_status": "verified"
+    },
+    "zurich-logo": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch2-20261010/e3d08624067ab10f/logo.svg",
+      "logo_png": "sources/reviewed-alpha-batch2-20261010/6a660f77799747ae/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/zurich-logo/sources/reviewed-alpha-batch2-20261010/26a6f7f6a6f2b6ee/preview.png",
+      "asset_review_status": "verified"
+    },
+    "zuzo-lido": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch2-20261010/61b7fd110ac325dc/logo.svg",
+      "logo_png": "sources/reviewed-alpha-batch2-20261010/4e6353716ac1d3de/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/zuzo-lido/sources/reviewed-alpha-batch2-20261010/33dad5a08b7bb28b/preview.png",
+      "asset_review_status": "verified"
+    },
+    "zurich-insurance": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch2-20261010/6a0bbe8f517ae542/logo.svg",
+      "logo_png": "sources/reviewed-alpha-batch2-20261010/b7252c5aa75c4116/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/zurich-insurance/sources/reviewed-alpha-batch2-20261010/8b401eeb2c58002b/preview.png",
+      "asset_review_status": "verified"
+    },
+    "zvezda-club": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch2-20261010/3c29f293e2ecd795/logo.svg",
+      "logo_png": "sources/reviewed-alpha-batch2-20261010/22fad1c38762213f/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/zvezda-club/sources/reviewed-alpha-batch2-20261010/d2d0d5badc40d4c9/preview.png",
+      "asset_review_status": "verified"
+    },
+    "zvezda-1": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch2-20261010/555294118bc9c9ef/logo.svg",
+      "logo_png": "sources/reviewed-alpha-batch2-20261010/01338fc987e69462/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/zvezda-1/sources/reviewed-alpha-batch2-20261010/2eebb7758bade44e/preview.png",
+      "asset_review_status": "verified"
+    },
+    "zvci-2": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch2-20261010/34ebbfaed616bbff/logo.svg",
+      "logo_png": "sources/reviewed-alpha-batch2-20261010/3bd2d89245cf8770/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/zvci-2/sources/reviewed-alpha-batch2-20261010/fb79456ba2be8459/preview.png",
+      "asset_review_status": "verified"
+    },
+    "zus": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch2-20261010/8a5d4aaca2d4d1a4/logo.svg",
+      "logo_png": "sources/reviewed-alpha-batch2-20261010/f4402b729cbc890b/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/zus/sources/reviewed-alpha-batch2-20261010/a70137b53fa99715/preview.png",
+      "asset_review_status": "verified"
+    },
+    "zuken": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch2-20261010/6416ff7985bb9d6d/logo.svg",
+      "logo_png": "sources/reviewed-alpha-batch2-20261010/071580679ddc1b70/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/zuken/sources/reviewed-alpha-batch2-20261010/d362c67c027ef2ca/preview.png",
+      "asset_review_status": "verified"
+    },
+    "zurich-2": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch2-20261010/79ce06f7b0894131/logo.svg",
+      "logo_png": "sources/reviewed-alpha-batch2-20261010/a2c198d8335ee472/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/zurich-2/sources/reviewed-alpha-batch2-20261010/8a0ef5a876303f84/preview.png",
+      "asset_review_status": "verified"
+    },
+    "zurich-3": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch2-20261010/cfb00f8c5c460bd2/logo.svg",
+      "logo_png": "sources/reviewed-alpha-batch2-20261010/0aa60637ec7ec5f1/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/zurich-3/sources/reviewed-alpha-batch2-20261010/0d76f4bcdb4ed9d3/preview.png",
+      "asset_review_status": "verified"
+    },
+    "zurich-4": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch2-20261010/f647875103090972/logo.svg",
+      "logo_png": "sources/reviewed-alpha-batch2-20261010/a910700aa84de38c/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/zurich-4/sources/reviewed-alpha-batch2-20261010/96fe759cc5368f93/preview.png",
+      "asset_review_status": "verified"
+    },
+    "zuma-networks": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch2-20261010/fd34676397875d42/logo.svg",
+      "logo_png": "sources/reviewed-alpha-batch2-20261010/0d7f23918345c891/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/zuma-networks/sources/reviewed-alpha-batch2-20261010/e516af7ee47250cf/preview.png",
+      "asset_review_status": "verified"
+    },
+    "zummer": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch2-20261010/8df55d137e69ea26/logo.svg",
+      "logo_png": "sources/reviewed-alpha-batch2-20261010/0bcaa33ac568ada6/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/zummer/sources/reviewed-alpha-batch2-20261010/a3bfbcb7e1e1caa9/preview.png",
+      "asset_review_status": "verified"
+    },
+    "zurcher-kantonalbank": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch2-20261010/2f9bd95ccacde1e2/logo.svg",
+      "logo_png": "sources/reviewed-alpha-batch2-20261010/4b75ffd83b7a3f7c/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/zurcher-kantonalbank/sources/reviewed-alpha-batch2-20261010/3af763e561339e8e/preview.png",
+      "asset_review_status": "verified"
+    },
+    "zune--src-8a1cec0": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch2-20261010/3de9bc7ecb4cddda/logo.svg",
+      "logo_png": "sources/reviewed-alpha-batch2-20261010/ba91fbab8e3df220/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/zune--src-8a1cec0/sources/reviewed-alpha-batch2-20261010/b452f0e2be5767d6/preview.png",
+      "asset_review_status": "verified"
+    },
+    "zumiez-1": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch2-20261010/890320e741a09d90/logo.svg",
+      "logo_png": "sources/reviewed-alpha-batch2-20261010/c94698b3d7bb1647/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/zumiez-1/sources/reviewed-alpha-batch2-20261010/e42082ae8908a53f/preview.png",
+      "asset_review_status": "verified"
+    },
+    "zuidplas-wordmark-1": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch2-20261010/8551d2a3a540ff85/logo.svg",
+      "logo_png": "sources/reviewed-alpha-batch2-20261010/8159b899a6e33e89/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/zuidplas-wordmark-1/sources/reviewed-alpha-batch2-20261010/1b9d77197138f0e2/preview.png",
+      "asset_review_status": "verified"
+    },
+    "zurich-5": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch2-20261010/e3d08624067ab10f/logo.svg",
+      "logo_png": "sources/reviewed-alpha-batch2-20261010/6a660f77799747ae/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/zurich-5/sources/reviewed-alpha-batch2-20261010/26a6f7f6a6f2b6ee/preview.png",
+      "asset_review_status": "verified"
+    },
+    "zurrieq": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch2-20261010/166a60453d6cdf92/logo.svg",
+      "logo_png": "sources/reviewed-alpha-batch2-20261010/1288934e51ebabd9/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/zurrieq/sources/reviewed-alpha-batch2-20261010/8817689d8ac25ce9/preview.png",
+      "asset_review_status": "verified"
+    },
+    "zunda": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch2-20261010/37594d6b6302e835/logo.svg",
+      "logo_png": "sources/reviewed-alpha-batch2-20261010/60f4044bf2f933b8/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/zunda/sources/reviewed-alpha-batch2-20261010/392fc39b2fa73253/preview.png",
+      "asset_review_status": "verified"
+    },
+    "zuger-kantonalbank--src-4854de9": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch2-20261010/a5ac1edefbf1ab84/logo.svg",
+      "logo_png": "sources/reviewed-alpha-batch2-20261010/ec05e7fc8e96b2ed/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/zuger-kantonalbank--src-4854de9/sources/reviewed-alpha-batch2-20261010/f7a80a5c5c1250fa/preview.png",
+      "asset_review_status": "verified"
+    },
+    "zurich-express": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch2-20261010/badf99524ca298e7/logo.svg",
+      "logo_png": "sources/reviewed-alpha-batch2-20261010/eb83c0ce30ccb6ce/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/zurich-express/sources/reviewed-alpha-batch2-20261010/c0a1ab7d9484939d/preview.png",
+      "asset_review_status": "verified"
+    },
+    "zuritel": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch2-20261010/8d24612a23dcbe34/logo.svg",
+      "logo_png": "sources/reviewed-alpha-batch2-20261010/421cd82824c77e0e/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/zuritel/sources/reviewed-alpha-batch2-20261010/10fa57eb66858047/preview.png",
+      "asset_review_status": "verified"
+    },
+    "zurich-1": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch2-20261010/1f393af4fce8fe17/logo.svg",
+      "logo_png": "sources/reviewed-alpha-batch2-20261010/ee9e6f53a9af0950/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/zurich-1/sources/reviewed-alpha-batch2-20261010/367ffef7961f77d7/preview.png",
+      "asset_review_status": "verified"
+    },
+    "zumtobel-group--src-a7b0e05": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch2-20261010/bd0cda0e329d9185/logo.svg",
+      "logo_png": "sources/reviewed-alpha-batch2-20261010/6c1dbe5f52f232ea/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/zumtobel-group--src-a7b0e05/sources/reviewed-alpha-batch2-20261010/6280b174767791ab/preview.png",
+      "asset_review_status": "verified"
+    },
+    "zurdok": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch2-20261010/1472bac0d6d93169/logo.svg",
+      "logo_png": "sources/reviewed-alpha-batch2-20261010/90c2973fdf9a3e45/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/zurdok/sources/reviewed-alpha-batch2-20261010/cce81a05e2af2abe/preview.png",
+      "asset_review_status": "verified"
+    },
+    "zurich-american-insurance-group": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch2-20261010/e421ccf95f65e989/logo.svg",
+      "logo_png": "sources/reviewed-alpha-batch2-20261010/2482d9f977b58b3f/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/zurich-american-insurance-group/sources/reviewed-alpha-batch2-20261010/d8fe5fc99753b9dc/preview.png",
+      "asset_review_status": "verified"
+    },
+    "zuglo": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch2-20261010/dbc67b87ccf68f33/logo.svg",
+      "logo_png": "sources/reviewed-alpha-batch2-20261010/5c511228b9186de4/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/zuglo/sources/reviewed-alpha-batch2-20261010/a1deae88f5ad3487/preview.png",
+      "asset_review_status": "verified"
+    },
+    "zulip--src-81bbb64": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch2-20261010/651069bfbb51b455/logo.svg",
+      "logo_png": "sources/reviewed-alpha-batch2-20261010/cf17f69c17190752/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/zulip--src-81bbb64/sources/reviewed-alpha-batch2-20261010/bd6a3703da9ca450/preview.png",
+      "asset_review_status": "verified"
+    },
+    "zuken-1": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch2-20261010/4f82eca91522d965/logo.svg",
+      "logo_png": "sources/reviewed-alpha-batch2-20261010/f202f62090bd9c26/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/zuken-1/sources/reviewed-alpha-batch2-20261010/abed4cce149120dc/preview.png",
+      "asset_review_status": "verified"
+    },
+    "zugil": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch2-20261010/f9c87666a301cd35/logo.svg",
+      "logo_png": "sources/reviewed-alpha-batch2-20261010/d585e4a8b56e541c/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/zugil/sources/reviewed-alpha-batch2-20261010/6897f00bf434f8a9/preview.png",
+      "asset_review_status": "verified"
+    },
+    "ztl": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch2-20261010/f523ae2e2350c2aa/logo.svg",
+      "logo_png": "sources/reviewed-alpha-batch2-20261010/a1ed668d858727d2/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/ztl/sources/reviewed-alpha-batch2-20261010/3cd59438439382a0/preview.png",
+      "asset_review_status": "verified"
+    },
+    "zti": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch2-20261010/63ead97770b02522/logo.svg",
+      "logo_png": "sources/reviewed-alpha-batch2-20261010/42e62f65f44847cd/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/zti/sources/reviewed-alpha-batch2-20261010/24b17723d418c455/preview.png",
+      "asset_review_status": "verified"
+    },
+    "zube--src-95bc8c0": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch2-20261010/8fdf02b45658a915/logo.svg",
+      "logo_png": "sources/reviewed-alpha-batch2-20261010/148f9bfa8b5d7579/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/zube--src-95bc8c0/sources/reviewed-alpha-batch2-20261010/7195aeb313fd9ddb/preview.png",
+      "asset_review_status": "verified"
+    },
+    "zuiko": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch2-20261010/c33ea80306be1a5b/logo.svg",
+      "logo_png": "sources/reviewed-alpha-batch2-20261010/5591b94f4b92ab51/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/zuiko/sources/reviewed-alpha-batch2-20261010/4a2fdb661c214dff/preview.png",
+      "asset_review_status": "verified"
+    },
+    "zum-zum": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch2-20261010/91aa1a584f3ea89f/logo.svg",
+      "logo_png": "sources/reviewed-alpha-batch2-20261010/4bf5a3d6df5a5098/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/zum-zum/sources/reviewed-alpha-batch2-20261010/906f7e78b4badc42/preview.png",
+      "asset_review_status": "verified"
+    },
+    "zosp": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch2-20261010/1804476046136e21/logo.svg",
+      "logo_png": "sources/reviewed-alpha-batch2-20261010/29a55536e9175838/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/zosp/sources/reviewed-alpha-batch2-20261010/a0522980110dbef1/preview.png",
+      "asset_review_status": "verified"
+    },
+    "zta-1": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch2-20261010/f349787836359c04/logo.svg",
+      "logo_png": "sources/reviewed-alpha-batch2-20261010/0f909bd031539ea5/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/zta-1/sources/reviewed-alpha-batch2-20261010/5aa2f1f51a7c3a3d/preview.png",
+      "asset_review_status": "verified"
+    },
+    "zszhd": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch2-20261010/459465ed89b91e5f/logo.svg",
+      "logo_png": "sources/reviewed-alpha-batch2-20261010/4ce9cf3d6285278a/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/zszhd/sources/reviewed-alpha-batch2-20261010/1e82a513083aa1f7/preview.png",
+      "asset_review_status": "verified"
+    },
+    "zte-logo": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch2-20261010/2eac703a1350f1ea/logo.svg",
+      "logo_png": "sources/reviewed-alpha-batch2-20261010/47babeb9fab8fed5/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/zte-logo/sources/reviewed-alpha-batch2-20261010/88aa1d6d30e87f59/preview.png",
+      "asset_review_status": "verified"
+    },
+    "zso-boezberg-geissberg": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch2-20261010/2439e94fb9610bdb/logo.svg",
+      "logo_png": "sources/reviewed-alpha-batch2-20261010/ac8829c36fb2992a/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/zso-boezberg-geissberg/sources/reviewed-alpha-batch2-20261010/eebeda32a865d780/preview.png",
+      "asset_review_status": "verified"
+    },
+    "zti-itc": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch2-20261010/39f252b927860b31/logo.svg",
+      "logo_png": "sources/reviewed-alpha-batch2-20261010/dfa7a8fe4761b176/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/zti-itc/sources/reviewed-alpha-batch2-20261010/129d92a1779d36cf/preview.png",
+      "asset_review_status": "verified"
+    },
+    "zss-gdansk": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch2-20261010/120177982847457b/logo.svg",
+      "logo_png": "sources/reviewed-alpha-batch2-20261010/afb31c4f001b5832/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/zss-gdansk/sources/reviewed-alpha-batch2-20261010/a79bcf0fc7a83ec1/preview.png",
+      "asset_review_status": "verified"
+    },
+    "zsmp": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch2-20261010/980b22aaabdcb64d/logo.svg",
+      "logo_png": "sources/reviewed-alpha-batch2-20261010/b37fbbbbbe882af4/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/zsmp/sources/reviewed-alpha-batch2-20261010/4ecaa3df62e4ae8d/preview.png",
+      "asset_review_status": "verified"
+    },
+    "zublin-immobilien": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch2-20261010/c4a6f97ae1a02a44/logo.svg",
+      "logo_png": "sources/reviewed-alpha-batch2-20261010/a9aafbc02b707c15/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/zublin-immobilien/sources/reviewed-alpha-batch2-20261010/4ef155b367e8abd1/preview.png",
+      "asset_review_status": "verified"
+    },
+    "zscaler-logo": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch2-20261010/ce8675f713b69ab1/logo.svg",
+      "logo_png": "sources/reviewed-alpha-batch2-20261010/44eb33d186f69dde/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/zscaler-logo/sources/reviewed-alpha-batch2-20261010/d321a195dc2dd07f/preview.png",
+      "asset_review_status": "verified"
+    },
+    "zte-logo-1": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch2-20261010/2eac703a1350f1ea/logo.svg",
+      "logo_png": "sources/reviewed-alpha-batch2-20261010/47babeb9fab8fed5/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/zte-logo-1/sources/reviewed-alpha-batch2-20261010/88aa1d6d30e87f59/preview.png",
+      "asset_review_status": "verified"
+    },
+    "zs": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch2-20261010/23d0ff4834fed15a/logo.svg",
+      "logo_png": "sources/reviewed-alpha-batch2-20261010/020e2a3872b0864e/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/zs/sources/reviewed-alpha-batch2-20261010/94b28520089e157c/preview.png",
+      "asset_review_status": "verified"
+    },
+    "zovirax": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch2-20261010/47cec1aa4756febf/logo.svg",
+      "logo_png": "sources/reviewed-alpha-batch2-20261010/84a443ce22208733/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/zovirax/sources/reviewed-alpha-batch2-20261010/0c44253bf5cfea81/preview.png",
+      "asset_review_status": "verified"
+    },
+    "zotefoams": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch2-20261010/416ee8d24073fc86/logo.svg",
+      "logo_png": "sources/reviewed-alpha-batch2-20261010/7ce5a99cb3aae46d/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/zotefoams/sources/reviewed-alpha-batch2-20261010/b8c21aeb7a31020b/preview.png",
+      "asset_review_status": "verified"
+    },
+    "zpk": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch2-20261010/b79593ebd588bd4f/logo.svg",
+      "logo_png": "sources/reviewed-alpha-batch2-20261010/403ceba6ac8256ab/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/zpk/sources/reviewed-alpha-batch2-20261010/1f1e8ad5bd74a718/preview.png",
+      "asset_review_status": "verified"
+    },
+    "zsa": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch2-20261010/00b85052405514d0/logo.svg",
+      "logo_png": "sources/reviewed-alpha-batch2-20261010/5cb388adc088e872/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/zsa/sources/reviewed-alpha-batch2-20261010/d07312f09e39322f/preview.png",
+      "asset_review_status": "verified"
+    },
+    "zs-associates--src-f8cf08f": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch2-20261010/77228a02a39e29e2/logo.svg",
+      "logo_png": "sources/reviewed-alpha-batch2-20261010/27a54225e3e0df2b/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/zs-associates--src-f8cf08f/sources/reviewed-alpha-batch2-20261010/399276a3bdf73007/preview.png",
+      "asset_review_status": "verified"
+    },
+    "zreguelli": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch2-20261010/2c913923c924e827/logo.svg",
+      "logo_png": "sources/reviewed-alpha-batch2-20261010/87d41f1389d877d8/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/zreguelli/sources/reviewed-alpha-batch2-20261010/42ca9ff050503023/preview.png",
+      "asset_review_status": "verified"
+    },
+    "zsc-1": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch2-20261010/ffdf4c0b905dc0a0/logo.svg",
+      "logo_png": "sources/reviewed-alpha-batch2-20261010/e17cd1f2a452eaf2/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/zsc-1/sources/reviewed-alpha-batch2-20261010/876d2294b967b01f/preview.png",
+      "asset_review_status": "verified"
+    },
+    "zorkapharma": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch2-20261010/472591a2e348508c/logo.svg",
+      "logo_png": "sources/reviewed-alpha-batch2-20261010/571d8d4ef01a1944/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/zorkapharma/sources/reviewed-alpha-batch2-20261010/b2c0667a88ae5d3a/preview.png",
+      "asset_review_status": "verified"
+    },
+    "zooth": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch2-20261010/efca12282786eabf/logo.svg",
+      "logo_png": "sources/reviewed-alpha-batch2-20261010/76544476a1821bad/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/zooth/sources/reviewed-alpha-batch2-20261010/e088a8c4f6292ab3/preview.png",
+      "asset_review_status": "verified"
+    },
+    "zorin-logomark": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch2-20261010/d1243edd4889042a/logo.svg",
+      "logo_png": "sources/reviewed-alpha-batch2-20261010/eb25ccb01c645dac/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/zorin-logomark/sources/reviewed-alpha-batch2-20261010/2fed3fdc775f57a8/preview.png",
+      "asset_review_status": "verified"
+    },
+    "zorlu-holding-logo": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch2-20261010/9645710b0d0403d2/logo.svg",
+      "logo_png": "sources/reviewed-alpha-batch2-20261010/3ec6411898abff0d/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/zorlu-holding-logo/sources/reviewed-alpha-batch2-20261010/c53bf3689da8bc15/preview.png",
+      "asset_review_status": "verified"
+    },
+    "zortrax--src-efe4a99": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch2-20261010/30a6b9a1a54330c0/logo.svg",
+      "logo_png": "sources/reviewed-alpha-batch2-20261010/32bafee8abfc3c87/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/zortrax--src-efe4a99/sources/reviewed-alpha-batch2-20261010/9c50426b409bbf65/preview.png",
+      "asset_review_status": "verified"
+    },
+    "zorg-onderzoek-nederland": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch2-20261010/a8cafbb30acd7af7/logo.svg",
+      "logo_png": "sources/reviewed-alpha-batch2-20261010/b42d03f68c509822/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/zorg-onderzoek-nederland/sources/reviewed-alpha-batch2-20261010/79d20eb1f1e68064/preview.png",
+      "asset_review_status": "verified"
+    },
+    "zoom--src-ad6d657": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch2-20261010/24f41db99b3c8b68/logo.svg",
+      "logo_png": "sources/reviewed-alpha-batch2-20261010/63dcc80530794171/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/zoom--src-ad6d657/sources/reviewed-alpha-batch2-20261010/67df62bcaf3340ae/preview.png",
+      "asset_review_status": "verified"
+    },
+    "zorlu-1": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch2-20261010/c91cdd662410773c/logo.svg",
+      "logo_png": "sources/reviewed-alpha-batch2-20261010/e382496409d603e6/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/zorlu-1/sources/reviewed-alpha-batch2-20261010/289b14c46fdb77d5/preview.png",
+      "asset_review_status": "verified"
+    },
+    "zoover": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch2-20261010/ec433d07cdf74a63/logo.svg",
+      "logo_png": "sources/reviewed-alpha-batch2-20261010/b7565ca2b5000a94/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/zoover/sources/reviewed-alpha-batch2-20261010/01ab4cf10edc849a/preview.png",
+      "asset_review_status": "verified"
+    },
+    "zott--src-2ee0601": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch2-20261010/508535268e7400d7/logo.svg",
+      "logo_png": "sources/reviewed-alpha-batch2-20261010/98c5fe028668e9d1/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/zott--src-2ee0601/sources/reviewed-alpha-batch2-20261010/e266dd455c7bd38d/preview.png",
+      "asset_review_status": "verified"
+    },
+    "zorgdomein-wordmark-1": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch2-20261010/a49d5b4e6247e9d4/logo.svg",
+      "logo_png": "sources/reviewed-alpha-batch2-20261010/e592fcec211d9541/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/zorgdomein-wordmark-1/sources/reviewed-alpha-batch2-20261010/94d143d61765fca7/preview.png",
+      "asset_review_status": "verified"
+    },
+    "zorgdomein-1": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch2-20261010/9500238e2d3d7a2f/logo.svg",
+      "logo_png": "sources/reviewed-alpha-batch2-20261010/84b3b5ebf418b40f/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/zorgdomein-1/sources/reviewed-alpha-batch2-20261010/905fce6622360e12/preview.png",
+      "asset_review_status": "verified"
+    }
+  },
+  "variants": {
+    "zwei": {
+      "schema": 1,
+      "id": "zwei",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "logo",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch2-20261010/d7b82f419c766018/logo.svg",
+            "png": "sources/reviewed-alpha-batch2-20261010/52bf71e9038dc873/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0
+        },
+        {
+          "key": "original-source",
+          "label": "수집 원본 · 배경 포함",
+          "form": "logo",
+          "color": "original",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch2-20261010/a05d37e09cee5275/original.svg"
+          },
+          "origin": "source",
+          "order": 90
+        }
+      ]
+    },
+    "zwilling": {
+      "schema": 1,
+      "id": "zwilling",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "logo",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch2-20261010/6630c77cb4234154/logo.svg",
+            "png": "sources/reviewed-alpha-batch2-20261010/4de7dde5d39341ef/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0
+        },
+        {
+          "key": "original-source",
+          "label": "수집 원본 · 배경 포함",
+          "form": "logo",
+          "color": "original",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch2-20261010/8fae3a829df38d4b/original.svg"
+          },
+          "origin": "source",
+          "order": 90
+        }
+      ]
+    },
+    "zwolle": {
+      "schema": 1,
+      "id": "zwolle",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "logo",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch2-20261010/178cd881d5bf4a51/logo.svg",
+            "png": "sources/reviewed-alpha-batch2-20261010/4bf2b461c6fcb708/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0
+        }
+      ]
+    },
+    "zwarte-duivels": {
+      "schema": 1,
+      "id": "zwarte-duivels",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "logo",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch2-20261010/ae6cd2c72379dcfe/logo.svg",
+            "png": "sources/reviewed-alpha-batch2-20261010/b0209b168f027436/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0
+        },
+        {
+          "key": "original-source",
+          "label": "수집 원본 · 배경 포함",
+          "form": "logo",
+          "color": "original",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch2-20261010/5823bc5eaf57155b/original.svg"
+          },
+          "origin": "source",
+          "order": 90
+        }
+      ]
+    },
+    "zwave--src-ff4ffd9": {
+      "schema": 1,
+      "id": "zwave--src-ff4ffd9",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "logo",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch2-20261010/1897f1aa42e1fa79/logo.svg",
+            "png": "sources/reviewed-alpha-batch2-20261010/e8f06ae08318bdb3/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0
+        }
+      ]
+    },
+    "zwilling-1": {
+      "schema": 1,
+      "id": "zwilling-1",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "logo",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch2-20261010/90545e4ba3b15374/logo.svg",
+            "png": "sources/reviewed-alpha-batch2-20261010/e6a1ff0715d75315/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0
+        },
+        {
+          "key": "original-source",
+          "label": "수집 원본 · 배경 포함",
+          "form": "logo",
+          "color": "original",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch2-20261010/b2fb6a3ba5cce2fb/original.svg"
+          },
+          "origin": "source",
+          "order": 90
+        }
+      ]
+    },
+    "zwan-1": {
+      "schema": 1,
+      "id": "zwan-1",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "logo",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch2-20261010/24829af7d0259077/logo.svg",
+            "png": "sources/reviewed-alpha-batch2-20261010/be9533e2fc4a08ec/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0
+        },
+        {
+          "key": "original-source",
+          "label": "수집 원본 · 배경 포함",
+          "form": "logo",
+          "color": "original",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch2-20261010/8815123b9a759630/original.svg"
+          },
+          "origin": "source",
+          "order": 90
+        }
+      ]
+    },
+    "zware-jongens": {
+      "schema": 1,
+      "id": "zware-jongens",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "logo",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch2-20261010/81e25112fb0c688f/logo.svg",
+            "png": "sources/reviewed-alpha-batch2-20261010/45fb3987819c1058/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0
+        },
+        {
+          "key": "original-source",
+          "label": "수집 원본 · 배경 포함",
+          "form": "logo",
+          "color": "original",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch2-20261010/e72ac77b10964517/original.svg"
+          },
+          "origin": "source",
+          "order": 90
+        }
+      ]
+    },
+    "zurmarke-1": {
+      "schema": 1,
+      "id": "zurmarke-1",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "logo",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch2-20261010/278ae63c962eca98/logo.svg",
+            "png": "sources/reviewed-alpha-batch2-20261010/203aabecc9661aba/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0
+        }
+      ]
+    },
+    "zurich-logo": {
+      "schema": 1,
+      "id": "zurich-logo",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "logo",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch2-20261010/e3d08624067ab10f/logo.svg",
+            "png": "sources/reviewed-alpha-batch2-20261010/6a660f77799747ae/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0
+        }
+      ]
+    },
+    "zuzo-lido": {
+      "schema": 1,
+      "id": "zuzo-lido",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "logo",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch2-20261010/61b7fd110ac325dc/logo.svg",
+            "png": "sources/reviewed-alpha-batch2-20261010/4e6353716ac1d3de/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0
+        },
+        {
+          "key": "original-source",
+          "label": "수집 원본 · 배경 포함",
+          "form": "logo",
+          "color": "original",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch2-20261010/88ff21032701e01a/original.svg"
+          },
+          "origin": "source",
+          "order": 90
+        }
+      ]
+    },
+    "zurich-insurance": {
+      "schema": 1,
+      "id": "zurich-insurance",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "logo",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch2-20261010/6a0bbe8f517ae542/logo.svg",
+            "png": "sources/reviewed-alpha-batch2-20261010/b7252c5aa75c4116/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0
+        },
+        {
+          "key": "original-source",
+          "label": "수집 원본 · 배경 포함",
+          "form": "logo",
+          "color": "original",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch2-20261010/102a9fbf4796bef8/original.svg"
+          },
+          "origin": "source",
+          "order": 90
+        }
+      ]
+    },
+    "zvezda-club": {
+      "schema": 1,
+      "id": "zvezda-club",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "logo",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch2-20261010/3c29f293e2ecd795/logo.svg",
+            "png": "sources/reviewed-alpha-batch2-20261010/22fad1c38762213f/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0
+        },
+        {
+          "key": "original-source",
+          "label": "수집 원본 · 배경 포함",
+          "form": "logo",
+          "color": "original",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch2-20261010/6309f999fef24303/original.svg"
+          },
+          "origin": "source",
+          "order": 90
+        }
+      ]
+    },
+    "zvezda-1": {
+      "schema": 1,
+      "id": "zvezda-1",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "logo",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch2-20261010/555294118bc9c9ef/logo.svg",
+            "png": "sources/reviewed-alpha-batch2-20261010/01338fc987e69462/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0
+        }
+      ]
+    },
+    "zvci-2": {
+      "schema": 1,
+      "id": "zvci-2",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "logo",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch2-20261010/34ebbfaed616bbff/logo.svg",
+            "png": "sources/reviewed-alpha-batch2-20261010/3bd2d89245cf8770/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0
+        }
+      ]
+    },
+    "zus": {
+      "schema": 1,
+      "id": "zus",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "logo",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch2-20261010/8a5d4aaca2d4d1a4/logo.svg",
+            "png": "sources/reviewed-alpha-batch2-20261010/f4402b729cbc890b/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0
+        },
+        {
+          "key": "original-source",
+          "label": "수집 원본 · 배경 포함",
+          "form": "logo",
+          "color": "original",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch2-20261010/f09037d13b82fa3d/original.svg"
+          },
+          "origin": "source",
+          "order": 90
+        }
+      ]
+    },
+    "zuken": {
+      "schema": 1,
+      "id": "zuken",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "logo",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch2-20261010/6416ff7985bb9d6d/logo.svg",
+            "png": "sources/reviewed-alpha-batch2-20261010/071580679ddc1b70/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0
+        },
+        {
+          "key": "original-source",
+          "label": "수집 원본 · 배경 포함",
+          "form": "logo",
+          "color": "original",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch2-20261010/7c95ea19078e92c6/original.svg"
+          },
+          "origin": "source",
+          "order": 90
+        }
+      ]
+    },
+    "zurich-2": {
+      "schema": 1,
+      "id": "zurich-2",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "logo",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch2-20261010/79ce06f7b0894131/logo.svg",
+            "png": "sources/reviewed-alpha-batch2-20261010/a2c198d8335ee472/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0
+        },
+        {
+          "key": "original-source",
+          "label": "수집 원본 · 배경 포함",
+          "form": "logo",
+          "color": "original",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch2-20261010/1f31a6b6de317b2c/original.svg"
+          },
+          "origin": "source",
+          "order": 90
+        }
+      ]
+    },
+    "zurich-3": {
+      "schema": 1,
+      "id": "zurich-3",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "logo",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch2-20261010/cfb00f8c5c460bd2/logo.svg",
+            "png": "sources/reviewed-alpha-batch2-20261010/0aa60637ec7ec5f1/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0
+        },
+        {
+          "key": "original-source",
+          "label": "수집 원본 · 배경 포함",
+          "form": "logo",
+          "color": "original",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch2-20261010/47a40a775778484c/original.svg"
+          },
+          "origin": "source",
+          "order": 90
+        }
+      ]
+    },
+    "zurich-4": {
+      "schema": 1,
+      "id": "zurich-4",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "logo",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch2-20261010/f647875103090972/logo.svg",
+            "png": "sources/reviewed-alpha-batch2-20261010/a910700aa84de38c/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0
+        },
+        {
+          "key": "original-source",
+          "label": "수집 원본 · 배경 포함",
+          "form": "logo",
+          "color": "original",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch2-20261010/074b16350f9d926b/original.svg"
+          },
+          "origin": "source",
+          "order": 90
+        }
+      ]
+    },
+    "zuma-networks": {
+      "schema": 1,
+      "id": "zuma-networks",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "logo",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch2-20261010/fd34676397875d42/logo.svg",
+            "png": "sources/reviewed-alpha-batch2-20261010/0d7f23918345c891/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0
+        },
+        {
+          "key": "original-source",
+          "label": "수집 원본 · 배경 포함",
+          "form": "logo",
+          "color": "original",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch2-20261010/5ca3b352656f1d69/original.svg"
+          },
+          "origin": "source",
+          "order": 90
+        }
+      ]
+    },
+    "zummer": {
+      "schema": 1,
+      "id": "zummer",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "logo",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch2-20261010/8df55d137e69ea26/logo.svg",
+            "png": "sources/reviewed-alpha-batch2-20261010/0bcaa33ac568ada6/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0
+        },
+        {
+          "key": "original-source",
+          "label": "수집 원본 · 배경 포함",
+          "form": "logo",
+          "color": "original",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch2-20261010/bec2f19368728c69/original.svg"
+          },
+          "origin": "source",
+          "order": 90
+        }
+      ]
+    },
+    "zurcher-kantonalbank": {
+      "schema": 1,
+      "id": "zurcher-kantonalbank",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "logo",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch2-20261010/2f9bd95ccacde1e2/logo.svg",
+            "png": "sources/reviewed-alpha-batch2-20261010/4b75ffd83b7a3f7c/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0
+        },
+        {
+          "key": "original-source",
+          "label": "수집 원본 · 배경 포함",
+          "form": "logo",
+          "color": "original",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch2-20261010/2c0525be5c6f1cb9/original.svg"
+          },
+          "origin": "source",
+          "order": 90
+        }
+      ]
+    },
+    "zune--src-8a1cec0": {
+      "schema": 1,
+      "id": "zune--src-8a1cec0",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "logo",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch2-20261010/3de9bc7ecb4cddda/logo.svg",
+            "png": "sources/reviewed-alpha-batch2-20261010/ba91fbab8e3df220/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0
+        }
+      ]
+    },
+    "zumiez-1": {
+      "schema": 1,
+      "id": "zumiez-1",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "logo",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch2-20261010/890320e741a09d90/logo.svg",
+            "png": "sources/reviewed-alpha-batch2-20261010/c94698b3d7bb1647/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0
+        }
+      ]
+    },
+    "zuidplas-wordmark-1": {
+      "schema": 1,
+      "id": "zuidplas-wordmark-1",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "logo",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch2-20261010/8551d2a3a540ff85/logo.svg",
+            "png": "sources/reviewed-alpha-batch2-20261010/8159b899a6e33e89/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0
+        }
+      ]
+    },
+    "zurich-5": {
+      "schema": 1,
+      "id": "zurich-5",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "logo",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch2-20261010/e3d08624067ab10f/logo.svg",
+            "png": "sources/reviewed-alpha-batch2-20261010/6a660f77799747ae/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0
+        }
+      ]
+    },
+    "zurrieq": {
+      "schema": 1,
+      "id": "zurrieq",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "logo",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch2-20261010/166a60453d6cdf92/logo.svg",
+            "png": "sources/reviewed-alpha-batch2-20261010/1288934e51ebabd9/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0
+        },
+        {
+          "key": "original-source",
+          "label": "수집 원본 · 배경 포함",
+          "form": "logo",
+          "color": "original",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch2-20261010/478322b52977cf98/original.svg"
+          },
+          "origin": "source",
+          "order": 90
+        }
+      ]
+    },
+    "zunda": {
+      "schema": 1,
+      "id": "zunda",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "logo",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch2-20261010/37594d6b6302e835/logo.svg",
+            "png": "sources/reviewed-alpha-batch2-20261010/60f4044bf2f933b8/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0
+        },
+        {
+          "key": "original-source",
+          "label": "수집 원본 · 배경 포함",
+          "form": "logo",
+          "color": "original",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch2-20261010/72f946652fd2bda6/original.svg"
+          },
+          "origin": "source",
+          "order": 90
+        }
+      ]
+    },
+    "zuger-kantonalbank--src-4854de9": {
+      "schema": 1,
+      "id": "zuger-kantonalbank--src-4854de9",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "logo",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch2-20261010/a5ac1edefbf1ab84/logo.svg",
+            "png": "sources/reviewed-alpha-batch2-20261010/ec05e7fc8e96b2ed/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0
+        },
+        {
+          "key": "original-source",
+          "label": "수집 원본 · 배경 포함",
+          "form": "logo",
+          "color": "original",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch2-20261010/16cb4f9ff2eb29c0/original.svg"
+          },
+          "origin": "source",
+          "order": 90
+        }
+      ]
+    },
+    "zurich-express": {
+      "schema": 1,
+      "id": "zurich-express",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "logo",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch2-20261010/badf99524ca298e7/logo.svg",
+            "png": "sources/reviewed-alpha-batch2-20261010/eb83c0ce30ccb6ce/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0
+        },
+        {
+          "key": "original-source",
+          "label": "수집 원본 · 배경 포함",
+          "form": "logo",
+          "color": "original",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch2-20261010/96cdba1ace2c6f14/original.svg"
+          },
+          "origin": "source",
+          "order": 90
+        }
+      ]
+    },
+    "zuritel": {
+      "schema": 1,
+      "id": "zuritel",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "logo",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch2-20261010/8d24612a23dcbe34/logo.svg",
+            "png": "sources/reviewed-alpha-batch2-20261010/421cd82824c77e0e/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0
+        },
+        {
+          "key": "original-source",
+          "label": "수집 원본 · 배경 포함",
+          "form": "logo",
+          "color": "original",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch2-20261010/edd304c63325024f/original.svg"
+          },
+          "origin": "source",
+          "order": 90
+        }
+      ]
+    },
+    "zurich-1": {
+      "schema": 1,
+      "id": "zurich-1",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "logo",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch2-20261010/1f393af4fce8fe17/logo.svg",
+            "png": "sources/reviewed-alpha-batch2-20261010/ee9e6f53a9af0950/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0
+        },
+        {
+          "key": "original-source",
+          "label": "수집 원본 · 배경 포함",
+          "form": "logo",
+          "color": "original",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch2-20261010/96f10355a2cc500a/original.svg"
+          },
+          "origin": "source",
+          "order": 90
+        }
+      ]
+    },
+    "zumtobel-group--src-a7b0e05": {
+      "schema": 1,
+      "id": "zumtobel-group--src-a7b0e05",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "logo",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch2-20261010/bd0cda0e329d9185/logo.svg",
+            "png": "sources/reviewed-alpha-batch2-20261010/6c1dbe5f52f232ea/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0
+        }
+      ]
+    },
+    "zurdok": {
+      "schema": 1,
+      "id": "zurdok",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "logo",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch2-20261010/1472bac0d6d93169/logo.svg",
+            "png": "sources/reviewed-alpha-batch2-20261010/90c2973fdf9a3e45/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0
+        },
+        {
+          "key": "original-source",
+          "label": "수집 원본 · 배경 포함",
+          "form": "logo",
+          "color": "original",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch2-20261010/4cd8d172e5311839/original.svg"
+          },
+          "origin": "source",
+          "order": 90
+        }
+      ]
+    },
+    "zurich-american-insurance-group": {
+      "schema": 1,
+      "id": "zurich-american-insurance-group",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "logo",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch2-20261010/e421ccf95f65e989/logo.svg",
+            "png": "sources/reviewed-alpha-batch2-20261010/2482d9f977b58b3f/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0
+        },
+        {
+          "key": "original-source",
+          "label": "수집 원본 · 배경 포함",
+          "form": "logo",
+          "color": "original",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch2-20261010/87331b26b7bc0b21/original.svg"
+          },
+          "origin": "source",
+          "order": 90
+        }
+      ]
+    },
+    "zuglo": {
+      "schema": 1,
+      "id": "zuglo",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "logo",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch2-20261010/dbc67b87ccf68f33/logo.svg",
+            "png": "sources/reviewed-alpha-batch2-20261010/5c511228b9186de4/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0
+        }
+      ]
+    },
+    "zulip--src-81bbb64": {
+      "schema": 1,
+      "id": "zulip--src-81bbb64",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "logo",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch2-20261010/651069bfbb51b455/logo.svg",
+            "png": "sources/reviewed-alpha-batch2-20261010/cf17f69c17190752/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0
+        }
+      ]
+    },
+    "zuken-1": {
+      "schema": 1,
+      "id": "zuken-1",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "logo",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch2-20261010/4f82eca91522d965/logo.svg",
+            "png": "sources/reviewed-alpha-batch2-20261010/f202f62090bd9c26/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0
+        },
+        {
+          "key": "original-source",
+          "label": "수집 원본 · 배경 포함",
+          "form": "logo",
+          "color": "original",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch2-20261010/b5648744d0b45a86/original.svg"
+          },
+          "origin": "source",
+          "order": 90
+        }
+      ]
+    },
+    "zugil": {
+      "schema": 1,
+      "id": "zugil",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "logo",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch2-20261010/f9c87666a301cd35/logo.svg",
+            "png": "sources/reviewed-alpha-batch2-20261010/d585e4a8b56e541c/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0
+        },
+        {
+          "key": "original-source",
+          "label": "수집 원본 · 배경 포함",
+          "form": "logo",
+          "color": "original",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch2-20261010/0e71bfdc0ee97589/original.svg"
+          },
+          "origin": "source",
+          "order": 90
+        }
+      ]
+    },
+    "ztl": {
+      "schema": 1,
+      "id": "ztl",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "logo",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch2-20261010/f523ae2e2350c2aa/logo.svg",
+            "png": "sources/reviewed-alpha-batch2-20261010/a1ed668d858727d2/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0
+        },
+        {
+          "key": "original-source",
+          "label": "수집 원본 · 배경 포함",
+          "form": "logo",
+          "color": "original",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch2-20261010/67c92c7817908e94/original.svg"
+          },
+          "origin": "source",
+          "order": 90
+        }
+      ]
+    },
+    "zti": {
+      "schema": 1,
+      "id": "zti",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "logo",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch2-20261010/63ead97770b02522/logo.svg",
+            "png": "sources/reviewed-alpha-batch2-20261010/42e62f65f44847cd/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0
+        },
+        {
+          "key": "original-source",
+          "label": "수집 원본 · 배경 포함",
+          "form": "logo",
+          "color": "original",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch2-20261010/ba13fc47e842cadb/original.svg"
+          },
+          "origin": "source",
+          "order": 90
+        }
+      ]
+    },
+    "zube--src-95bc8c0": {
+      "schema": 1,
+      "id": "zube--src-95bc8c0",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "logo",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch2-20261010/8fdf02b45658a915/logo.svg",
+            "png": "sources/reviewed-alpha-batch2-20261010/148f9bfa8b5d7579/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0
+        }
+      ]
+    },
+    "zuiko": {
+      "schema": 1,
+      "id": "zuiko",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "logo",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch2-20261010/c33ea80306be1a5b/logo.svg",
+            "png": "sources/reviewed-alpha-batch2-20261010/5591b94f4b92ab51/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0
+        }
+      ]
+    },
+    "zum-zum": {
+      "schema": 1,
+      "id": "zum-zum",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "logo",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch2-20261010/91aa1a584f3ea89f/logo.svg",
+            "png": "sources/reviewed-alpha-batch2-20261010/4bf5a3d6df5a5098/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0
+        },
+        {
+          "key": "original-source",
+          "label": "수집 원본 · 배경 포함",
+          "form": "logo",
+          "color": "original",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch2-20261010/fd7d059c774e10fb/original.svg"
+          },
+          "origin": "source",
+          "order": 90
+        }
+      ]
+    },
+    "zosp": {
+      "schema": 1,
+      "id": "zosp",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "logo",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch2-20261010/1804476046136e21/logo.svg",
+            "png": "sources/reviewed-alpha-batch2-20261010/29a55536e9175838/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0
+        },
+        {
+          "key": "original-source",
+          "label": "수집 원본 · 배경 포함",
+          "form": "logo",
+          "color": "original",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch2-20261010/7c6354b8ada63ddc/original.svg"
+          },
+          "origin": "source",
+          "order": 90
+        }
+      ]
+    },
+    "zta-1": {
+      "schema": 1,
+      "id": "zta-1",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "logo",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch2-20261010/f349787836359c04/logo.svg",
+            "png": "sources/reviewed-alpha-batch2-20261010/0f909bd031539ea5/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0
+        }
+      ]
+    },
+    "zszhd": {
+      "schema": 1,
+      "id": "zszhd",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "logo",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch2-20261010/459465ed89b91e5f/logo.svg",
+            "png": "sources/reviewed-alpha-batch2-20261010/4ce9cf3d6285278a/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0
+        },
+        {
+          "key": "original-source",
+          "label": "수집 원본 · 배경 포함",
+          "form": "logo",
+          "color": "original",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch2-20261010/b10def89ff225a24/original.svg"
+          },
+          "origin": "source",
+          "order": 90
+        }
+      ]
+    },
+    "zte-logo": {
+      "schema": 1,
+      "id": "zte-logo",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "logo",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch2-20261010/2eac703a1350f1ea/logo.svg",
+            "png": "sources/reviewed-alpha-batch2-20261010/47babeb9fab8fed5/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0
+        }
+      ]
+    },
+    "zso-boezberg-geissberg": {
+      "schema": 1,
+      "id": "zso-boezberg-geissberg",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "logo",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch2-20261010/2439e94fb9610bdb/logo.svg",
+            "png": "sources/reviewed-alpha-batch2-20261010/ac8829c36fb2992a/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0
+        },
+        {
+          "key": "original-source",
+          "label": "수집 원본 · 배경 포함",
+          "form": "logo",
+          "color": "original",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch2-20261010/b3a5a9b897c0668b/original.svg"
+          },
+          "origin": "source",
+          "order": 90
+        }
+      ]
+    },
+    "zti-itc": {
+      "schema": 1,
+      "id": "zti-itc",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "logo",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch2-20261010/39f252b927860b31/logo.svg",
+            "png": "sources/reviewed-alpha-batch2-20261010/dfa7a8fe4761b176/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0
+        },
+        {
+          "key": "original-source",
+          "label": "수집 원본 · 배경 포함",
+          "form": "logo",
+          "color": "original",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch2-20261010/69d60a972d35ef45/original.svg"
+          },
+          "origin": "source",
+          "order": 90
+        }
+      ]
+    },
+    "zss-gdansk": {
+      "schema": 1,
+      "id": "zss-gdansk",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "logo",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch2-20261010/120177982847457b/logo.svg",
+            "png": "sources/reviewed-alpha-batch2-20261010/afb31c4f001b5832/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0
+        },
+        {
+          "key": "original-source",
+          "label": "수집 원본 · 배경 포함",
+          "form": "logo",
+          "color": "original",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch2-20261010/dbc8d9fcc0369ec3/original.svg"
+          },
+          "origin": "source",
+          "order": 90
+        }
+      ]
+    },
+    "zsmp": {
+      "schema": 1,
+      "id": "zsmp",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "logo",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch2-20261010/980b22aaabdcb64d/logo.svg",
+            "png": "sources/reviewed-alpha-batch2-20261010/b37fbbbbbe882af4/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0
+        },
+        {
+          "key": "original-source",
+          "label": "수집 원본 · 배경 포함",
+          "form": "logo",
+          "color": "original",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch2-20261010/472ecff85a50ac50/original.svg"
+          },
+          "origin": "source",
+          "order": 90
+        }
+      ]
+    },
+    "zublin-immobilien": {
+      "schema": 1,
+      "id": "zublin-immobilien",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "logo",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch2-20261010/c4a6f97ae1a02a44/logo.svg",
+            "png": "sources/reviewed-alpha-batch2-20261010/a9aafbc02b707c15/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0
+        },
+        {
+          "key": "original-source",
+          "label": "수집 원본 · 배경 포함",
+          "form": "logo",
+          "color": "original",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch2-20261010/f8d3e92f43495563/original.svg"
+          },
+          "origin": "source",
+          "order": 90
+        }
+      ]
+    },
+    "zscaler-logo": {
+      "schema": 1,
+      "id": "zscaler-logo",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "logo",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch2-20261010/ce8675f713b69ab1/logo.svg",
+            "png": "sources/reviewed-alpha-batch2-20261010/44eb33d186f69dde/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0
+        }
+      ]
+    },
+    "zte-logo-1": {
+      "schema": 1,
+      "id": "zte-logo-1",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "logo",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch2-20261010/2eac703a1350f1ea/logo.svg",
+            "png": "sources/reviewed-alpha-batch2-20261010/47babeb9fab8fed5/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0
+        }
+      ]
+    },
+    "zs": {
+      "schema": 1,
+      "id": "zs",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "logo",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch2-20261010/23d0ff4834fed15a/logo.svg",
+            "png": "sources/reviewed-alpha-batch2-20261010/020e2a3872b0864e/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0
+        },
+        {
+          "key": "original-source",
+          "label": "수집 원본 · 배경 포함",
+          "form": "logo",
+          "color": "original",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch2-20261010/792b4396ed010272/original.svg"
+          },
+          "origin": "source",
+          "order": 90
+        }
+      ]
+    },
+    "zovirax": {
+      "schema": 1,
+      "id": "zovirax",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "logo",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch2-20261010/47cec1aa4756febf/logo.svg",
+            "png": "sources/reviewed-alpha-batch2-20261010/84a443ce22208733/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0
+        },
+        {
+          "key": "original-source",
+          "label": "수집 원본 · 배경 포함",
+          "form": "logo",
+          "color": "original",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch2-20261010/edcabf4b7ca11e1b/original.svg"
+          },
+          "origin": "source",
+          "order": 90
+        }
+      ]
+    },
+    "zotefoams": {
+      "schema": 1,
+      "id": "zotefoams",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "logo",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch2-20261010/416ee8d24073fc86/logo.svg",
+            "png": "sources/reviewed-alpha-batch2-20261010/7ce5a99cb3aae46d/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0
+        },
+        {
+          "key": "original-source",
+          "label": "수집 원본 · 배경 포함",
+          "form": "logo",
+          "color": "original",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch2-20261010/1d3c7c29f8178dd3/original.svg"
+          },
+          "origin": "source",
+          "order": 90
+        }
+      ]
+    },
+    "zpk": {
+      "schema": 1,
+      "id": "zpk",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "logo",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch2-20261010/b79593ebd588bd4f/logo.svg",
+            "png": "sources/reviewed-alpha-batch2-20261010/403ceba6ac8256ab/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0
+        },
+        {
+          "key": "original-source",
+          "label": "수집 원본 · 배경 포함",
+          "form": "logo",
+          "color": "original",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch2-20261010/8527ea5981f65b75/original.svg"
+          },
+          "origin": "source",
+          "order": 90
+        }
+      ]
+    },
+    "zsa": {
+      "schema": 1,
+      "id": "zsa",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "logo",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch2-20261010/00b85052405514d0/logo.svg",
+            "png": "sources/reviewed-alpha-batch2-20261010/5cb388adc088e872/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0
+        },
+        {
+          "key": "original-source",
+          "label": "수집 원본 · 배경 포함",
+          "form": "logo",
+          "color": "original",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch2-20261010/f7da6585328a479d/original.svg"
+          },
+          "origin": "source",
+          "order": 90
+        }
+      ]
+    },
+    "zs-associates--src-f8cf08f": {
+      "schema": 1,
+      "id": "zs-associates--src-f8cf08f",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "logo",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch2-20261010/77228a02a39e29e2/logo.svg",
+            "png": "sources/reviewed-alpha-batch2-20261010/27a54225e3e0df2b/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0
+        },
+        {
+          "key": "original-source",
+          "label": "수집 원본 · 배경 포함",
+          "form": "logo",
+          "color": "original",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch2-20261010/55b29dd1804cf29e/original.svg"
+          },
+          "origin": "source",
+          "order": 90
+        }
+      ]
+    },
+    "zreguelli": {
+      "schema": 1,
+      "id": "zreguelli",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "logo",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch2-20261010/2c913923c924e827/logo.svg",
+            "png": "sources/reviewed-alpha-batch2-20261010/87d41f1389d877d8/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0
+        }
+      ]
+    },
+    "zsc-1": {
+      "schema": 1,
+      "id": "zsc-1",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "logo",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch2-20261010/ffdf4c0b905dc0a0/logo.svg",
+            "png": "sources/reviewed-alpha-batch2-20261010/e17cd1f2a452eaf2/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0
+        }
+      ]
+    },
+    "zorkapharma": {
+      "schema": 1,
+      "id": "zorkapharma",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "logo",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch2-20261010/472591a2e348508c/logo.svg",
+            "png": "sources/reviewed-alpha-batch2-20261010/571d8d4ef01a1944/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0
+        },
+        {
+          "key": "original-source",
+          "label": "수집 원본 · 배경 포함",
+          "form": "logo",
+          "color": "original",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch2-20261010/6580126c3008b765/original.svg"
+          },
+          "origin": "source",
+          "order": 90
+        }
+      ]
+    },
+    "zooth": {
+      "schema": 1,
+      "id": "zooth",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "logo",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch2-20261010/efca12282786eabf/logo.svg",
+            "png": "sources/reviewed-alpha-batch2-20261010/76544476a1821bad/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0
+        },
+        {
+          "key": "original-source",
+          "label": "수집 원본 · 배경 포함",
+          "form": "logo",
+          "color": "original",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch2-20261010/799a1c7dca385cd7/original.svg"
+          },
+          "origin": "source",
+          "order": 90
+        }
+      ]
+    },
+    "zorin-logomark": {
+      "schema": 1,
+      "id": "zorin-logomark",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "logo",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch2-20261010/d1243edd4889042a/logo.svg",
+            "png": "sources/reviewed-alpha-batch2-20261010/eb25ccb01c645dac/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0
+        }
+      ]
+    },
+    "zorlu-holding-logo": {
+      "schema": 1,
+      "id": "zorlu-holding-logo",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "logo",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch2-20261010/9645710b0d0403d2/logo.svg",
+            "png": "sources/reviewed-alpha-batch2-20261010/3ec6411898abff0d/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0
+        }
+      ]
+    },
+    "zortrax--src-efe4a99": {
+      "schema": 1,
+      "id": "zortrax--src-efe4a99",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "logo",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch2-20261010/30a6b9a1a54330c0/logo.svg",
+            "png": "sources/reviewed-alpha-batch2-20261010/32bafee8abfc3c87/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0
+        }
+      ]
+    },
+    "zorg-onderzoek-nederland": {
+      "schema": 1,
+      "id": "zorg-onderzoek-nederland",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "logo",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch2-20261010/a8cafbb30acd7af7/logo.svg",
+            "png": "sources/reviewed-alpha-batch2-20261010/b42d03f68c509822/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0
+        },
+        {
+          "key": "original-source",
+          "label": "수집 원본 · 배경 포함",
+          "form": "logo",
+          "color": "original",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch2-20261010/6c21dc267b796f8b/original.svg"
+          },
+          "origin": "source",
+          "order": 90
+        }
+      ]
+    },
+    "zoom--src-ad6d657": {
+      "schema": 1,
+      "id": "zoom--src-ad6d657",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "logo",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch2-20261010/24f41db99b3c8b68/logo.svg",
+            "png": "sources/reviewed-alpha-batch2-20261010/63dcc80530794171/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0
+        },
+        {
+          "key": "original-source",
+          "label": "수집 원본 · 배경 포함",
+          "form": "logo",
+          "color": "original",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch2-20261010/f31835e25b56bc68/original.svg"
+          },
+          "origin": "source",
+          "order": 90
+        }
+      ]
+    },
+    "zorlu-1": {
+      "schema": 1,
+      "id": "zorlu-1",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "logo",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch2-20261010/c91cdd662410773c/logo.svg",
+            "png": "sources/reviewed-alpha-batch2-20261010/e382496409d603e6/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0
+        }
+      ]
+    },
+    "zoover": {
+      "schema": 1,
+      "id": "zoover",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "logo",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch2-20261010/ec433d07cdf74a63/logo.svg",
+            "png": "sources/reviewed-alpha-batch2-20261010/b7565ca2b5000a94/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0
+        }
+      ]
+    },
+    "zott--src-2ee0601": {
+      "schema": 1,
+      "id": "zott--src-2ee0601",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "logo",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch2-20261010/508535268e7400d7/logo.svg",
+            "png": "sources/reviewed-alpha-batch2-20261010/98c5fe028668e9d1/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0
+        },
+        {
+          "key": "original-source",
+          "label": "수집 원본 · 배경 포함",
+          "form": "logo",
+          "color": "original",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch2-20261010/7cf789fb6a716e16/original.svg"
+          },
+          "origin": "source",
+          "order": 90
+        }
+      ]
+    },
+    "zorgdomein-wordmark-1": {
+      "schema": 1,
+      "id": "zorgdomein-wordmark-1",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "logo",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch2-20261010/a49d5b4e6247e9d4/logo.svg",
+            "png": "sources/reviewed-alpha-batch2-20261010/e592fcec211d9541/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0
+        }
+      ]
+    },
+    "zorgdomein-1": {
+      "schema": 1,
+      "id": "zorgdomein-1",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "logo",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch2-20261010/9500238e2d3d7a2f/logo.svg",
+            "png": "sources/reviewed-alpha-batch2-20261010/84b3b5ebf418b40f/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0
+        }
+      ]
+    }
+  }
+}

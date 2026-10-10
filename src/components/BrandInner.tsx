@@ -641,6 +641,10 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
               <a href={brand.official_zip_url || `${CDN}/${brand.id}/${brand.source_zip}?v=${VERSION}`} target={brand.official_zip_url ? "_blank" : undefined} rel={brand.official_zip_url ? "noopener noreferrer" : undefined} download={!brand.official_zip_url} title="공식 제공 원본 ZIP 내려받기"
                  style={{ display:"inline-flex", alignItems:"center", gap:3, padding:"1px 7px", borderRadius:999, fontSize:11, fontWeight:600, color:"#166534", background:"rgba(34,197,94,.1)", border:"1px solid rgba(34,197,94,.25)", textDecoration:"none" }}><T>{"📦 공식 제공 원본 ZIP"}</T></a>
             )}
+            {brand.collected_originals_url?.startsWith(`${CDN}/${brand.id}/`) && (
+              <a href={brand.collected_originals_url} download
+                 style={{ display:"inline-flex", alignItems:"center", gap:3, padding:"1px 7px", borderRadius:999, fontSize:11, fontWeight:600, color:"#4338ca", background:"rgba(99,102,241,.1)", border:"1px solid rgba(99,102,241,.25)", textDecoration:"none" }}><T>{"📦 수집 원본 묶음"}</T></a>
+            )}
             {brand.brand_manual && (
               <a href={`${CDN}/${brand.id}/${brand.brand_manual}?v=${VERSION}`}
                  download

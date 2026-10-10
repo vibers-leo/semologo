@@ -55,6 +55,8 @@ export interface Brand {
   /** 공식 배포처가 제공한 원본 ZIP 자산 */
   source_zip?: string;
   official_zip_url?: string;
+  /** Official files collected into our own archive; distinct from an official distribution ZIP. */
+  collected_originals_url?: string;
   dark_png?: string;
   original_ai_url?: string;
   domain?: string;

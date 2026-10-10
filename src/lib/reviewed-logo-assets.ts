@@ -20,7 +20,11 @@ import seongju from './reviewed-seongju-20261010.json';
 import iconHd from './reviewed-icon-hd-20261010.json';
 import userIdentities from './reviewed-user-identities-20261010.json';
 import cityMerges from './reviewed-city-merges-20261010.json';
-const releasePatches = { ...release.patches, ...backgroundMerge.patches, ...googleTransparent.patches, ...institutions.patches, ...institutionsNext.patches, ...rainbow.patches, ...requestedBackground.patches, ...netflix.patches, ...userSvg.patches, ...claudeMerge.patches, ...lockups.patches, ...yeonsu.patches, ...kepco.patches, ...chungbuk.patches, ...ftc.patches, ...cjwf.patches, ...seongju.patches, ...iconHd.patches, ...userIdentities.patches, ...cityMerges.patches } as unknown as Record<string, Partial<Brand>>;
+import officialRecollection from './reviewed-official-recollection-20261010.json';
+import svgPreviews from './reviewed-svg-previews-20261010.json';
+import baeminGuide from './reviewed-baemin-guide-20261010.json';
+import officialAi from './reviewed-official-ai-20261010.json';
+const releasePatches = { ...release.patches, ...backgroundMerge.patches, ...googleTransparent.patches, ...institutions.patches, ...institutionsNext.patches, ...rainbow.patches, ...requestedBackground.patches, ...netflix.patches, ...userSvg.patches, ...claudeMerge.patches, ...lockups.patches, ...yeonsu.patches, ...kepco.patches, ...chungbuk.patches, ...ftc.patches, ...cjwf.patches, ...seongju.patches, ...iconHd.patches, ...userIdentities.patches, ...cityMerges.patches, ...officialRecollection.patches, ...svgPreviews.patches, ...baeminGuide.patches, ...officialAi.patches } as unknown as Record<string, Partial<Brand>>;
 
 // Only visually reviewed transparent assets belong here. Never remove white
 // indiscriminately: the Seongnam symbol contains intentional white artwork.
@@ -98,6 +102,10 @@ export function applyReviewedAssets(brand: Brand): Brand {
 
 export const reviewedVariants: Record<string, VariantManifest> = {
   ...userIdentities.variants as unknown as Record<string, VariantManifest>,
+  ...officialRecollection.variants as unknown as Record<string, VariantManifest>,
+  ...svgPreviews.variants as unknown as Record<string, VariantManifest>,
+  ...baeminGuide.variants as unknown as Record<string, VariantManifest>,
+  ...officialAi.variants as unknown as Record<string, VariantManifest>,
   ...(lockups.variants as unknown as Record<string, VariantManifest>),
   ...(claudeMerge.variants as unknown as Record<string, VariantManifest>),
   ...institutionsNext.variants as unknown as Record<string, VariantManifest>,
