@@ -9,7 +9,8 @@ import netflix from './reviewed-netflix-20261009.json';
 import rainbow from './reviewed-rainbow-20261009.json';
 import institutions from './reviewed-institutions-20261009.json';
 import institutionsNext from './reviewed-institutions-20261010.json';
-const releasePatches = { ...release.patches, ...backgroundMerge.patches, ...googleTransparent.patches, ...institutions.patches, ...institutionsNext.patches, ...rainbow.patches, ...requestedBackground.patches, ...netflix.patches, ...userSvg.patches } as unknown as Record<string, Partial<Brand>>;
+import claudeMerge from './reviewed-claude-merge-20261010.json';
+const releasePatches = { ...release.patches, ...backgroundMerge.patches, ...googleTransparent.patches, ...institutions.patches, ...institutionsNext.patches, ...rainbow.patches, ...requestedBackground.patches, ...netflix.patches, ...userSvg.patches, ...claudeMerge.patches } as unknown as Record<string, Partial<Brand>>;
 
 // Only visually reviewed transparent assets belong here. Never remove white
 // indiscriminately: the Seongnam symbol contains intentional white artwork.
@@ -86,6 +87,7 @@ export function applyReviewedAssets(brand: Brand): Brand {
 }
 
 export const reviewedVariants: Record<string, VariantManifest> = {
+  ...(claudeMerge.variants as unknown as Record<string, VariantManifest>),
   ...institutionsNext.variants as unknown as Record<string, VariantManifest>,
   ...(release.variants as unknown as Record<string, VariantManifest>),
   ...(backgroundMerge.variants as unknown as Record<string, VariantManifest>),

@@ -54,6 +54,11 @@ async function main(){
  const layout=logoWallLayout({appearance:'clean',spacing:'airy',logoSize:'large',showNames:false,motion:'alternating'});
  assert.throws(()=>logoWallLayout({columns:999}));assert.throws(()=>logoWallLayout({showNames:'false'}));assert.throws(()=>logoWallLayout({appearance:'url(evil)'}));
  const {cmsBrand,logoWallAsset}=load('src/lib/cms-brand.ts');
+ for(const [old,parent] of [['claude-ai','claude'],['claude-wordmark','claude'],['claudecode','claude-code']]){
+  const merged=cmsBrand(old,{name_ko:old,has_png:true});assert.equal(merged.variant_of,parent);assert.equal(merged.merged_into,parent);
+  assert.equal(logoWallAsset(old,{name_ko:old,has_png:true},{name:'Saved logo',variant_key:'symbol',logo_png:'logo.png',has_png:true}).hidden,false,'Merged identities must stay exportable in saved walls');
+ }
+ for(const id of ['claude','claude-code']){const manifest=load('src/lib/reviewed-logo-assets.ts').reviewedVariants[id];assert.equal(manifest.variants.length,3);assert(manifest.variants.every(v=>v.files.svg&&v.files.png));}
  const b=cmsBrand('test-brand',{name_ko:'테스트',logo_png:null,metadata:{has_png:true,has_svg:true,light:true}});
  assert.equal(logoWallAsset('test-brand',{metadata:{light:true,has_png:true}},{name:'old name',light:false}).light,true);
  assert.equal(logoWallAsset('test-brand',{name_ko:'new name'},{name:'old name'}).name_ko,'old name');

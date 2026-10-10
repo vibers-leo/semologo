@@ -1,0 +1,199 @@
+{
+  "patches": {
+    "claude": {
+      "name_ko": "Claude",
+      "name_en": "Claude",
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": "sources/reviewed-claude-20261010/c241b03cc6be870f.svg",
+      "svg_transparent": "sources/reviewed-claude-20261010/c241b03cc6be870f.svg",
+      "logo_png": "sources/reviewed-claude-20261010/c241b03cc6be870f.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/claude/sources/reviewed-claude-20261010/c241b03cc6be870f.png",
+      "presentation": {
+        "file": "sources/reviewed-claude-20261010/c241b03cc6be870f.png",
+        "bg": "light"
+      },
+      "light": false,
+      "light_logo": false,
+      "dark_variant": false,
+      "aliases": [
+        "클로드",
+        "Claude AI",
+        "Claude Wordmark"
+      ],
+      "rejected_asset_files": [
+        "logo-800.png",
+        "logo-transparent.png",
+        "logo-white.png",
+        "logo-icon.png",
+        "logo.png",
+        "logo.svg"
+      ],
+      "variants_n": 3,
+      "asset_origin": "기존 벡터 원본 검수 · 투명 PNG 재생성"
+    },
+    "claude-code": {
+      "name_ko": "Claude Code",
+      "name_en": "Claude Code",
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": "sources/reviewed-claude-20261010/8ba41f9354233eb0.svg",
+      "svg_transparent": "sources/reviewed-claude-20261010/8ba41f9354233eb0.svg",
+      "logo_png": "sources/reviewed-claude-20261010/8ba41f9354233eb0.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/claude-code/sources/reviewed-claude-20261010/8ba41f9354233eb0.png",
+      "presentation": {
+        "file": "sources/reviewed-claude-20261010/8ba41f9354233eb0.png",
+        "bg": "light"
+      },
+      "light": false,
+      "light_logo": false,
+      "dark_variant": false,
+      "aliases": [
+        "클로드 코드",
+        "ClaudeCode"
+      ],
+      "rejected_asset_files": [
+        "logo-800.png",
+        "logo-transparent.png",
+        "logo-white.png",
+        "logo-icon.png",
+        "logo.png",
+        "logo.svg"
+      ],
+      "variants_n": 3,
+      "asset_origin": "기존 벡터 원본 검수 · 투명 PNG 재생성"
+    },
+    "claude-ai": {
+      "variant_of": "claude",
+      "merged_into": "claude",
+      "hidden": false,
+      "hidden_reason": "검수한 대표 콘텐츠의 로고 구성으로 통합"
+    },
+    "claude-wordmark": {
+      "variant_of": "claude",
+      "merged_into": "claude",
+      "hidden": false,
+      "hidden_reason": "검수한 대표 콘텐츠의 로고 구성으로 통합"
+    },
+    "claudecode": {
+      "variant_of": "claude-code",
+      "merged_into": "claude-code",
+      "hidden": false,
+      "hidden_reason": "검수한 대표 콘텐츠의 로고 구성으로 통합"
+    }
+  },
+  "variants": {
+    "claude": {
+      "schema": 1,
+      "algo_v": 2,
+      "id": "claude",
+      "primary": "wordmark",
+      "variants": [
+        {
+          "key": "wordmark",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "en",
+          "text_layout": "en",
+          "color": "original",
+          "label": "가로조합형",
+          "files": {
+            "svg": "sources/reviewed-claude-20261010/c241b03cc6be870f.svg",
+            "png": "sources/reviewed-claude-20261010/c241b03cc6be870f.png"
+          },
+          "provider": "iconify",
+          "origin": "collected",
+          "order": 0
+        },
+        {
+          "key": "symbol",
+          "form": "symbol",
+          "lockup": "symbol",
+          "lang": "none",
+          "text_layout": "none",
+          "color": "original",
+          "label": "심볼마크",
+          "files": {
+            "svg": "sources/reviewed-claude-20261010/c7059834552513a4.svg",
+            "png": "sources/reviewed-claude-20261010/c7059834552513a4.png"
+          },
+          "provider": "thesvg",
+          "origin": "collected",
+          "order": 1
+        },
+        {
+          "key": "logotype",
+          "form": "wordmark",
+          "lockup": "wordmark",
+          "lang": "en",
+          "text_layout": "en",
+          "color": "mono-dark",
+          "label": "로고타입",
+          "files": {
+            "svg": "sources/reviewed-claude-20261010/b8a8c8d37cce2536.svg",
+            "png": "sources/reviewed-claude-20261010/b8a8c8d37cce2536.png"
+          },
+          "provider": "lobe",
+          "origin": "collected",
+          "order": 2
+        }
+      ]
+    },
+    "claude-code": {
+      "schema": 1,
+      "algo_v": 2,
+      "id": "claude-code",
+      "primary": "horizontal",
+      "variants": [
+        {
+          "key": "horizontal",
+          "form": "symbol",
+          "lockup": "symbol",
+          "lang": "none",
+          "text_layout": "none",
+          "color": "original",
+          "label": "심볼마크 · 컬러",
+          "files": {
+            "svg": "sources/reviewed-claude-20261010/8ba41f9354233eb0.svg",
+            "png": "sources/reviewed-claude-20261010/8ba41f9354233eb0.png"
+          },
+          "provider": "gilbarbara-logos",
+          "origin": "collected",
+          "order": 0
+        },
+        {
+          "key": "symbol-black",
+          "form": "symbol",
+          "lockup": "symbol",
+          "lang": "none",
+          "text_layout": "none",
+          "color": "mono-dark",
+          "label": "심볼마크 · 블랙",
+          "files": {
+            "svg": "sources/reviewed-claude-20261010/121bb2da36128e5c.svg",
+            "png": "sources/reviewed-claude-20261010/121bb2da36128e5c.png"
+          },
+          "provider": "기존 수집 원본",
+          "origin": "collected",
+          "order": 1
+        },
+        {
+          "key": "wordmark",
+          "form": "wordmark",
+          "lockup": "wordmark",
+          "lang": "en",
+          "text_layout": "en",
+          "color": "mono-dark",
+          "label": "로고타입",
+          "files": {
+            "svg": "sources/reviewed-claude-20261010/87c3c54954ecfda0.svg",
+            "png": "sources/reviewed-claude-20261010/87c3c54954ecfda0.png"
+          },
+          "provider": "lobe",
+          "origin": "collected",
+          "order": 2
+        }
+      ]
+    }
+  }
+}
