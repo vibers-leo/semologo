@@ -1,0 +1,36 @@
+{
+  "patches": {
+    "gongu-ci-1732": {
+      "variants_n": 1,
+      "source_zip": "sources/official-recollection-20261011/3f2a3196958683c72635.zip"
+    }
+  },
+  "variants": {
+    "gongu-ci-1732": {
+      "id": "gongu-ci-1732",
+      "variants": [
+        {
+          "key": "official-recollect-symbol",
+          "label": "공식 컬러 심볼 · PNG",
+          "files": {
+            "png": "sources/official-recollection-20261011/74260ca541f0705c4a38.png"
+          },
+          "preview_png": "sources/official-recollection-20261011/da212e431fd61644329d.png",
+          "provider": "official-original",
+          "official_distribution": true,
+          "order": 100,
+          "source_note": "공식 AI의 PDF 데이터를 직접 렌더한 투명 PNG · SVG 변환 시 색상왜곡으로 SVG 미제공 · 2026-10-11 검수",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "color"
+        }
+      ]
+    }
+  },
+  "review": {
+    "source_kind": "official_distribution",
+    "brands": 1,
+    "new_variants": 1,
+    "visual_contact": "marketing/assets/png-recollection-resume-20261011/contact-haenam-png.jpg"
+  }
+}

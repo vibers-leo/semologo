@@ -1,0 +1,25 @@
+{
+  "gongu-ci-1702": {
+    "variants_n": 10,
+    "source_zip": "sources/official-recollection-20261011/ff2afdc9de7a5a8810dd.zip",
+    "logo_png": "sources/official-recollection-20261011/008901fc7e50c5be49a8.png",
+    "preview_png": "sources/official-recollection-20261011/87e9b35be7f01f01e771.png",
+    "logo_svg": "sources/official-recollection-20261011/6916527d4033d0066860.svg",
+    "svg_transparent": "sources/official-recollection-20261011/6916527d4033d0066860.svg",
+    "has_png": true,
+    "has_svg": true,
+    "metadata": {
+      "has_png": true,
+      "has_svg": true
+    },
+    "presentation": {
+      "file": "sources/official-recollection-20261011/008901fc7e50c5be49a8.png",
+      "background": "white",
+      "bg": "white"
+    },
+    "asset_origin": "official-original",
+    "asset_review_status": "verified",
+    "official_source_page": "https://www.kcarbon.or.kr/web/page.php?pcode=ED06",
+    "source_original_label": "공식 제공 원본 ZIP"
+  }
+}

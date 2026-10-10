@@ -1,0 +1,62 @@
+{
+  "patches": {
+    "gongu-ci-1665": {
+      "variants_n": 1,
+      "source_zip": "sources/official-recollection-20261011/c3a016a2a85c7622a7fb.zip"
+    },
+    "gongu-ci-1715": {
+      "variants_n": 1,
+      "source_zip": "sources/official-recollection-20261011/8b64058a1cbc6e047d8c.zip"
+    }
+  },
+  "variants": {
+    "gongu-ci-1665": {
+      "id": "gongu-ci-1665",
+      "variants": [
+        {
+          "key": "official-recollect-signature-ko",
+          "label": "공식 국문 조합",
+          "files": {
+            "svg": "sources/official-recollection-20261011/1c15d4126043f55db342.svg",
+            "png": "sources/official-recollection-20261011/8c031909595f5e42be05.png"
+          },
+          "preview_png": "sources/official-recollection-20261011/12e3a1f4348f9466cde0.png",
+          "provider": "official-original",
+          "official_distribution": true,
+          "order": 100,
+          "source_note": "공식 제공 AI 원본에서 가이드 없이 벡터 경로 추출 · 2026-10-11 검수",
+          "form": "signature",
+          "lang": "ko",
+          "color": "color"
+        }
+      ]
+    },
+    "gongu-ci-1715": {
+      "id": "gongu-ci-1715",
+      "variants": [
+        {
+          "key": "official-recollect-signature-ko",
+          "label": "공식 국문 조합",
+          "files": {
+            "svg": "sources/official-recollection-20261011/aca60c466e8659b7bc5f.svg",
+            "png": "sources/official-recollection-20261011/efad08bb4016017e9c41.png"
+          },
+          "preview_png": "sources/official-recollection-20261011/59644d744b1b11adfec3.png",
+          "provider": "official-original",
+          "official_distribution": true,
+          "order": 100,
+          "source_note": "공식 제공 AI 원본에서 가이드 없이 벡터 경로 추출 · 2026-10-11 검수",
+          "form": "signature",
+          "lang": "ko",
+          "color": "color"
+        }
+      ]
+    }
+  },
+  "review": {
+    "source_kind": "official_distribution",
+    "brands": 2,
+    "new_variants": 2,
+    "visual_contact": "marketing/assets/png-recollection-resume-20261011/contact-gradients.jpg"
+  }
+}

@@ -1,0 +1,587 @@
+{
+  "checked_at": "2026-10-10T15:37:06.474212+00:00",
+  "original_audit_path": "marketing/assets/figma-better-collection-20261010/full-file-audit-final.json",
+  "original_audit_sha256": "4707e9103d23cf32a08b591ee9f560f9ef419183ece8d11ee003cace19030490",
+  "original_audit_preserved": true,
+  "original_held": 70,
+  "review_resolved": 10,
+  "review_still_held": 60,
+  "published_resolutions": 10,
+  "publication_status": "cdn-verified-community-variants-appended",
+  "resolved": [
+    {
+      "name": "Airspace Intelligence",
+      "canonical_id": "airspace-intelligence",
+      "batch": "better-held-png-batch7-20261011",
+      "decision": "approved-native-png",
+      "new_seed": true,
+      "reason": "공식 사이트 회사 신원과 원본 워드마크 시각 대조 완료. 고해상도 원본 PNG 바이트/해상도 보존; SVG 없음 명시. PNG 확대·SVG 포장 없음.",
+      "publication_status": "published_cdn_verified"
+    },
+    {
+      "name": "Arc Institute",
+      "canonical_id": "arc-institute",
+      "batch": "better-held-png-batch7-20261011",
+      "decision": "approved-native-png",
+      "new_seed": true,
+      "reason": "공식 사이트 회사 신원과 원본 워드마크 시각 대조 완료. 고해상도 원본 PNG 바이트/해상도 보존; SVG 없음 명시. PNG 확대·SVG 포장 없음.",
+      "publication_status": "published_cdn_verified"
+    },
+    {
+      "name": "BAT",
+      "canonical_id": "british-american-tobacco",
+      "batch": "better-held-png-batch7-20261011",
+      "decision": "approved-native-png",
+      "new_seed": false,
+      "reason": "공식 사이트 회사 신원과 원본 워드마크 시각 대조 완료. 고해상도 원본 PNG 바이트/해상도 보존; SVG 없음 명시. PNG 확대·SVG 포장 없음.",
+      "publication_status": "published_cdn_verified"
+    },
+    {
+      "name": "Checkout.com",
+      "canonical_id": "checkout-com",
+      "batch": "better-held-png-batch7-20261011",
+      "decision": "approved-native-png",
+      "new_seed": true,
+      "reason": "공식 사이트 회사 신원과 원본 워드마크 시각 대조 완료. 고해상도 원본 PNG 바이트/해상도 보존; SVG 없음 명시. PNG 확대·SVG 포장 없음.",
+      "publication_status": "published_cdn_verified"
+    },
+    {
+      "name": "Expa",
+      "canonical_id": "expa",
+      "batch": "better-held-png-batch7-20261011",
+      "decision": "approved-native-png",
+      "new_seed": true,
+      "reason": "공식 사이트 회사 신원과 원본 워드마크 시각 대조 완료. 고해상도 원본 PNG 바이트/해상도 보존; SVG 없음 명시. PNG 확대·SVG 포장 없음.",
+      "publication_status": "published_cdn_verified"
+    },
+    {
+      "name": "Hipcamp",
+      "canonical_id": "hipcamp",
+      "batch": "better-held-png-batch7-20261011",
+      "decision": "approved-native-png",
+      "new_seed": true,
+      "reason": "공식 사이트 회사 신원과 원본 워드마크 시각 대조 완료. 고해상도 원본 PNG 바이트/해상도 보존; SVG 없음 명시. PNG 확대·SVG 포장 없음.",
+      "publication_status": "published_cdn_verified"
+    },
+    {
+      "name": "Honey Homes",
+      "canonical_id": "honey-homes",
+      "batch": "better-held-png-batch7-20261011",
+      "decision": "approved-native-png",
+      "new_seed": true,
+      "reason": "공식 사이트 회사 신원과 원본 워드마크 시각 대조 완료. 고해상도 원본 PNG 바이트/해상도 보존; SVG 없음 명시. PNG 확대·SVG 포장 없음.",
+      "publication_status": "published_cdn_verified"
+    },
+    {
+      "name": "Lygos",
+      "canonical_id": "lygos",
+      "batch": "better-held-png-batch7-20261011",
+      "decision": "approved-native-png",
+      "new_seed": true,
+      "reason": "공식 사이트 회사 신원과 원본 워드마크 시각 대조 완료. 고해상도 원본 PNG 바이트/해상도 보존; SVG 없음 명시. PNG 확대·SVG 포장 없음.",
+      "publication_status": "published_cdn_verified"
+    },
+    {
+      "name": "Safebase",
+      "canonical_id": "safebase",
+      "batch": "better-held-png-batch7-20261011",
+      "decision": "approved-native-png",
+      "new_seed": true,
+      "reason": "공식 사이트 회사 신원과 원본 워드마크 시각 대조 완료. 고해상도 원본 PNG 바이트/해상도 보존; SVG 없음 명시. PNG 확대·SVG 포장 없음.",
+      "publication_status": "published_cdn_verified"
+    },
+    {
+      "name": "Underscore VC",
+      "canonical_id": "underscore-vc",
+      "batch": "better-held-png-batch7-20261011",
+      "decision": "approved-native-png",
+      "new_seed": true,
+      "reason": "공식 사이트 회사 신원과 원본 워드마크 시각 대조 완료. 고해상도 원본 PNG 바이트/해상도 보존; SVG 없음 명시. PNG 확대·SVG 포장 없음.",
+      "publication_status": "published_cdn_verified"
+    }
+  ],
+  "still_held": [
+    {
+      "name": "ABInbev",
+      "reason": "PNG/PDF-only 신규: 벡터 확보 전 보류",
+      "source_files": [
+        "ABInbev (white).png",
+        "ABInbev (black).png"
+      ]
+    },
+    {
+      "name": "Adapt",
+      "reason": "동일 일반명 다기관 또는 실체·도메인 추가확인 필요. 기존 동명 콘텐츠에 자동 연결하지 않음.",
+      "source_files": [
+        "Adapt (white).svg"
+      ]
+    },
+    {
+      "name": "All Raise",
+      "reason": "PNG/PDF-only 신규: 벡터 확보 전 보류",
+      "source_files": [
+        "All Raise (black).png"
+      ]
+    },
+    {
+      "name": "Amazon Smile",
+      "reason": "PNG/PDF-only 신규: 벡터 확보 전 보류",
+      "source_files": [
+        "Amazon Smile.png"
+      ]
+    },
+    {
+      "name": "Anchor",
+      "reason": "동일 일반명 다기관 또는 실체·도메인 추가확인 필요. 기존 동명 콘텐츠에 자동 연결하지 않음.",
+      "source_files": [
+        "Anchor.svg"
+      ]
+    },
+    {
+      "name": "Anthos",
+      "reason": "PNG/PDF-only 신규: 벡터 확보 전 보류",
+      "source_files": [
+        "Anthos (black).png"
+      ]
+    },
+    {
+      "name": "BitClout",
+      "reason": "과거 서비스/브랜드의 현재 상태 미확인. 아카이브 시기 검수 후 제공.",
+      "source_files": [
+        "BitClout.svg",
+        "BitClout (white).svg",
+        "BitClout (black).svg"
+      ]
+    },
+    {
+      "name": "Bonfire",
+      "reason": "동일 일반명 다기관 또는 실체·도메인 추가확인 필요. 기존 동명 콘텐츠에 자동 연결하지 않음.",
+      "source_files": [
+        "Bonfire.svg",
+        "Bonfire (white).svg",
+        "Bonfire (black).svg"
+      ]
+    },
+    {
+      "name": "Cadre",
+      "reason": "동일 일반명 다기관 또는 실체·도메인 추가확인 필요. 기존 동명 콘텐츠에 자동 연결하지 않음.",
+      "source_files": [
+        "Cadre.svg",
+        "Cadre (white).svg",
+        "Cadre (black).svg"
+      ]
+    },
+    {
+      "name": "Carbon Health",
+      "reason": "PNG/PDF-only 신규: 벡터 확보 전 보류",
+      "source_files": [
+        "Carbon Health.pdf"
+      ]
+    },
+    {
+      "name": "CareCentrix",
+      "reason": "PNG/PDF-only 신규: 벡터 확보 전 보류",
+      "source_files": [
+        "CareCentrix (black).png"
+      ]
+    },
+    {
+      "name": "Catch",
+      "reason": "동일 일반명 다기관 또는 실체·도메인 추가확인 필요. 기존 동명 콘텐츠에 자동 연결하지 않음.",
+      "source_files": [
+        "Catch.svg",
+        "Catch (white).svg",
+        "Catch (black).svg"
+      ]
+    },
+    {
+      "name": "Centered",
+      "reason": "동일 일반명 다기관 또는 실체·도메인 추가확인 필요. 기존 동명 콘텐츠에 자동 연결하지 않음.",
+      "source_files": [
+        "Centered.svg",
+        "Centered (white).svg",
+        "Centered (black).svg"
+      ]
+    },
+    {
+      "name": "Check",
+      "reason": "동일 일반명 다기관 또는 실체·도메인 추가확인 필요. 기존 동명 콘텐츠에 자동 연결하지 않음.",
+      "source_files": [
+        "Check.svg",
+        "Check (white).svg",
+        "Check (black).svg"
+      ]
+    },
+    {
+      "name": "Concert Finance",
+      "reason": "동일 일반명 다기관 또는 실체·도메인 추가확인 필요. 기존 동명 콘텐츠에 자동 연결하지 않음.",
+      "source_files": [
+        "Concert Finance.svg",
+        "Concert Finance (white).svg",
+        "Concert Finance (black).svg"
+      ]
+    },
+    {
+      "name": "CōLab",
+      "reason": "동일 일반명 다기관 또는 실체·도메인 추가확인 필요. 기존 동명 콘텐츠에 자동 연결하지 않음.",
+      "source_files": [
+        "CōLab.svg",
+        "CōLab (white).svg",
+        "CōLab (black).svg"
+      ]
+    },
+    {
+      "name": "Facebook",
+      "reason": "2019 기업 FACEBOOK/플랫폼 canonical 범위보류",
+      "source_files": [
+        "Facebook.svg",
+        "Facebook (white).svg",
+        "Facebook (black).svg"
+      ]
+    },
+    {
+      "name": "Freeman Group",
+      "reason": "동일 일반명 다기관 또는 실체·도메인 추가확인 필요. 기존 동명 콘텐츠에 자동 연결하지 않음.",
+      "source_files": [
+        "Freeman Group (white).svg"
+      ]
+    },
+    {
+      "name": "Galileo",
+      "reason": "동일 일반명 다기관 또는 실체·도메인 추가확인 필요. 기존 동명 콘텐츠에 자동 연결하지 않음.",
+      "source_files": [
+        "Galileo.svg",
+        "Galileo (white).svg",
+        "Galileo (black).svg"
+      ]
+    },
+    {
+      "name": "GoStudent",
+      "reason": "PNG/PDF-only 신규: 벡터 확보 전 보류",
+      "source_files": [
+        "GoStudent (black).png"
+      ]
+    },
+    {
+      "name": "Halfday",
+      "reason": "동일 일반명 다기관 또는 실체·도메인 추가확인 필요. 기존 동명 콘텐츠에 자동 연결하지 않음.",
+      "source_files": [
+        "Halfday (white).svg"
+      ]
+    },
+    {
+      "name": "Icon",
+      "reason": "동일 일반명 다기관 또는 실체·도메인 추가확인 필요. 기존 동명 콘텐츠에 자동 연결하지 않음.",
+      "source_files": [
+        "Icon.svg",
+        "Icon (white).svg",
+        "Icon (black).svg"
+      ]
+    },
+    {
+      "name": "Ipsos",
+      "reason": "PNG/PDF-only 신규: 벡터 확보 전 보류",
+      "source_files": [
+        "Ipsos (white).png",
+        "Ipsos (black).png"
+      ]
+    },
+    {
+      "name": "Judy",
+      "reason": "judy.co 공식 후보 도메인이 매물 상태. 과거 비상용품 브랜드 신원·시기 추가 확인 전 신규 등록 보류.",
+      "source_files": [
+        "Judy (white).svg"
+      ]
+    },
+    {
+      "name": "K50",
+      "reason": "동일 일반명 다기관 또는 실체·도메인 추가확인 필요. 기존 동명 콘텐츠에 자동 연결하지 않음.",
+      "source_files": [
+        "K50 (white).svg"
+      ]
+    },
+    {
+      "name": "Kadence",
+      "reason": "PNG/PDF-only 신규: 벡터 확보 전 보류",
+      "source_files": [
+        "Kadence (white).png"
+      ]
+    },
+    {
+      "name": "Kairos",
+      "reason": "동일 일반명 다기관 또는 실체·도메인 추가확인 필요. 기존 동명 콘텐츠에 자동 연결하지 않음.",
+      "source_files": [
+        "Kairos (white).svg"
+      ]
+    },
+    {
+      "name": "Kroma",
+      "reason": "동일 일반명 다기관 또는 실체·도메인 추가확인 필요. 기존 동명 콘텐츠에 자동 연결하지 않음.",
+      "source_files": [
+        "Kroma (white).svg"
+      ]
+    },
+    {
+      "name": "Kudos",
+      "reason": "PNG/PDF-only 신규: 벡터 확보 전 보류",
+      "source_files": [
+        "Kudos (white).png"
+      ]
+    },
+    {
+      "name": "Lightyear",
+      "reason": "기관 신원·동명이인 및 실제 브랜드 조합 추가 검증 필요",
+      "source_files": [
+        "Lightyear (white).svg"
+      ]
+    },
+    {
+      "name": "Llamasoft",
+      "reason": "기관 신원·동명이인 및 실제 브랜드 조합 추가 검증 필요",
+      "source_files": [
+        "Llamasoft.svg",
+        "Llamasoft (white).svg",
+        "Llamasoft (black).svg"
+      ]
+    },
+    {
+      "name": "Magneto",
+      "reason": "기관 신원·동명이인 및 실제 브랜드 조합 추가 검증 필요",
+      "source_files": [
+        "Magneto.svg",
+        "Magneto (white).svg",
+        "Magneto (black).svg"
+      ]
+    },
+    {
+      "name": "Mason",
+      "reason": "기관 신원·동명이인 및 실제 브랜드 조합 추가 검증 필요",
+      "source_files": [
+        "Mason.svg",
+        "Mason (white).svg",
+        "Mason (black).svg"
+      ]
+    },
+    {
+      "name": "Mode",
+      "reason": "기관 신원·동명이인 및 실제 브랜드 조합 추가 검증 필요",
+      "source_files": [
+        "Mode.svg",
+        "Mode (white).svg",
+        "Mode (black).svg"
+      ]
+    },
+    {
+      "name": "Mosaic",
+      "reason": "기관 신원·동명이인 및 실제 브랜드 조합 추가 검증 필요",
+      "source_files": [
+        "Mosaic.svg",
+        "Mosaic (white).svg",
+        "Mosaic (black).svg"
+      ]
+    },
+    {
+      "name": "NUGGS",
+      "reason": "공식 사이트 신원 조회 실패 또는 PNG-only 신규: 추가 검증 보류",
+      "source_files": [
+        "NUGGS.svg",
+        "NUGGS (white).svg",
+        "NUGGS (black).svg"
+      ]
+    },
+    {
+      "name": "Nationwide",
+      "reason": "미국보험/영국금융 동명canonical검증전보류",
+      "source_files": [
+        "Nationwide.png"
+      ]
+    },
+    {
+      "name": "Nearside",
+      "reason": "기관 신원·동명이인 및 실제 브랜드 조합 추가 검증 필요",
+      "source_files": [
+        "Nearside.svg",
+        "Nearside (white).svg",
+        "Nearside (black).svg"
+      ]
+    },
+    {
+      "name": "NewView Capital",
+      "reason": "공식 사이트 신원 조회 실패 또는 PNG-only 신규: 추가 검증 보류",
+      "source_files": [
+        "NewView Capital (white).png"
+      ]
+    },
+    {
+      "name": "Nira",
+      "reason": "기관 신원·동명이인 및 실제 브랜드 조합 추가 검증 필요",
+      "source_files": [
+        "Nira.svg",
+        "Nira (white).svg",
+        "Nira (black).svg"
+      ]
+    },
+    {
+      "name": "Northeastern University",
+      "reason": "공식 사이트 신원 조회 실패 또는 PNG-only 신규: 추가 검증 보류",
+      "source_files": [
+        "Northeastern University (black).png"
+      ]
+    },
+    {
+      "name": "Octant Bio",
+      "reason": "공식 사이트 신원 조회 실패 또는 PNG-only 신규: 추가 검증 보류",
+      "source_files": [
+        "Octant Bio.png",
+        "Octant Bio (white).png"
+      ]
+    },
+    {
+      "name": "Pitch",
+      "reason": "기관 신원·동명이인 및 실제 브랜드 조합 추가 검증 필요",
+      "source_files": [
+        "Pitch.svg",
+        "Pitch (white).svg",
+        "Pitch (black).svg"
+      ]
+    },
+    {
+      "name": "Pogo",
+      "reason": "기관 신원·동명이인 및 실제 브랜드 조합 추가 검증 필요",
+      "source_files": [
+        "Pogo (white).png"
+      ]
+    },
+    {
+      "name": "Profitboss",
+      "reason": "기관 신원·동명이인 및 실제 브랜드 조합 추가 검증 필요",
+      "source_files": [
+        "Profitboss.svg",
+        "Profitboss (white).svg",
+        "Profitboss (black).svg"
+      ]
+    },
+    {
+      "name": "Proof",
+      "reason": "기관 신원·동명이인 및 실제 브랜드 조합 추가 검증 필요",
+      "source_files": [
+        "Proof.svg",
+        "Proof (white).svg",
+        "Proof (black).svg"
+      ]
+    },
+    {
+      "name": "Quaestor",
+      "reason": "기관 신원·동명이인 및 실제 브랜드 조합 추가 검증 필요",
+      "source_files": [
+        "Quaestor.svg",
+        "Quaestor (white).svg",
+        "Quaestor (black).svg"
+      ]
+    },
+    {
+      "name": "Quid",
+      "reason": "기관 신원·동명이인 및 실제 브랜드 조합 추가 검증 필요",
+      "source_files": [
+        "Quid.svg",
+        "Quid (white).svg",
+        "Quid (black).svg"
+      ]
+    },
+    {
+      "name": "Quiet Capital",
+      "reason": "공식 사이트 신원 조회 실패 또는 PNG-only 신규: 추가 검증 보류",
+      "source_files": [
+        "Quiet Capital (white).png"
+      ]
+    },
+    {
+      "name": "Rocketplace",
+      "reason": "공식 사이트 신원 조회 실패 또는 PNG-only 신규: 추가 검증 보류",
+      "source_files": [
+        "Rocketplace.svg",
+        "Rocketplace (white).svg",
+        "Rocketplace (black).png"
+      ]
+    },
+    {
+      "name": "Serena",
+      "reason": "기관 신원·동명이인 및 실제 브랜드 조합 추가 검증 필요",
+      "source_files": [
+        "Serena (white).svg"
+      ]
+    },
+    {
+      "name": "Tamarisc",
+      "reason": "기관 신원·동명이인 및 실제 브랜드 조합 추가 검증 필요",
+      "source_files": [
+        "Tamarisc.svg",
+        "Tamarisc (white).svg",
+        "Tamarisc (black).svg"
+      ]
+    },
+    {
+      "name": "Trellis",
+      "reason": "기관 신원·동명이인 및 실제 브랜드 조합 추가 검증 필요",
+      "source_files": [
+        "Trellis.svg",
+        "Trellis (white).svg",
+        "Trellis (black).svg"
+      ]
+    },
+    {
+      "name": "Trellis Connect",
+      "reason": "기관 신원·동명이인 및 실제 브랜드 조합 추가 검증 필요",
+      "source_files": [
+        "Trellis Connect (black).png"
+      ]
+    },
+    {
+      "name": "University of Winchester",
+      "reason": "공식 사이트 신원 조회 실패 또는 PNG-only 신규: 추가 검증 보류",
+      "source_files": [
+        "University of Winchester (black).png"
+      ]
+    },
+    {
+      "name": "Vector",
+      "reason": "파일명 오표기: 실제 Square 로고. Vector에 연결 금지; 전반 Square 담당과 중복 조정",
+      "source_files": [
+        "Vector.png"
+      ]
+    },
+    {
+      "name": "Versus",
+      "reason": "기관 신원·동명이인 및 실제 브랜드 조합 추가 검증 필요",
+      "source_files": [
+        "Versus (white).svg"
+      ]
+    },
+    {
+      "name": "Vintage Partners",
+      "reason": "기관 신원·동명이인 및 실제 브랜드 조합 추가 검증 필요",
+      "source_files": [
+        "Vintage Partners.svg",
+        "Vintage Partners (white).svg",
+        "Vintage Partners (black).svg"
+      ]
+    },
+    {
+      "name": "Young Alfred",
+      "reason": "기관 신원·동명이인 및 실제 브랜드 조합 추가 검증 필요",
+      "source_files": [
+        "Young Alfred (white).svg",
+        "Young Alfred (black).svg",
+        "Young Alfred.png"
+      ]
+    },
+    {
+      "name": "Zacht Studios",
+      "reason": "기관 신원·동명이인 및 실제 브랜드 조합 추가 검증 필요",
+      "source_files": [
+        "Zacht Studios.svg"
+      ]
+    }
+  ],
+  "publication_proof": "published.json"
+}

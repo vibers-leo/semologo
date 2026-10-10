@@ -1,0 +1,240 @@
+[
+  {
+    "q": "airspace",
+    "total": 0,
+    "matches": []
+  },
+  {
+    "q": "arc-institute",
+    "total": 0,
+    "matches": []
+  },
+  {
+    "q": "arcinstitute",
+    "total": 0,
+    "matches": []
+  },
+  {
+    "q": "checkout",
+    "total": 1,
+    "matches": [
+      {
+        "id": "visa-checkout-1",
+        "name_ko": "visa-checkout-1",
+        "name_en": "visa-checkout-1"
+      }
+    ]
+  },
+  {
+    "q": "hip-camp",
+    "total": 0,
+    "matches": []
+  },
+  {
+    "q": "honey",
+    "total": 38,
+    "matches": [
+      {
+        "id": "honey",
+        "name_ko": "Honey",
+        "name_en": "Honey"
+      },
+      {
+        "id": "honeywell",
+        "name_ko": "허니웰",
+        "name_en": "Honeywell"
+      },
+      {
+        "id": "honey-i-shrunk-the-kids",
+        "name_ko": "애들이 줄었어요",
+        "name_en": "Honey, I Shrunk the Kids"
+      },
+      {
+        "id": "honey-lemon-soda",
+        "name_ko": "허니 레몬 소다",
+        "name_en": "Honey Lemon Soda"
+      },
+      {
+        "id": "honeywell-uop",
+        "name_ko": "Honeywell UOP",
+        "name_en": "Honeywell UOP"
+      },
+      {
+        "id": "honey-dew-donuts",
+        "name_ko": "Honey Dew Donuts",
+        "name_en": "Honey Dew Donuts"
+      },
+      {
+        "id": "the-honey-baked-ham-company",
+        "name_ko": "The Honey Baked Ham Company",
+        "name_en": "The Honey Baked Ham Company"
+      },
+      {
+        "id": "honeybadger--src-2c67df4",
+        "name_ko": "honeybadger",
+        "name_en": "honeybadger"
+      },
+      {
+        "id": "honeywell--src-2f755d3",
+        "name_ko": "honeywell",
+        "name_en": "honeywell"
+      },
+      {
+        "id": "honeywell-security",
+        "name_ko": "honeywell-security",
+        "name_en": "honeywell-security"
+      },
+      {
+        "id": "honey-suckle-white",
+        "name_ko": "honey-suckle-white",
+        "name_en": "honey-suckle-white"
+      },
+      {
+        "id": "honeybadger-wordmark-1",
+        "name_ko": "honeybadger-wordmark-1",
+        "name_en": "honeybadger-wordmark-1"
+      },
+      {
+        "id": "honeysuckle-white",
+        "name_ko": "honeysuckle-white",
+        "name_en": "honeysuckle-white"
+      },
+      {
+        "id": "honeybaked-ham",
+        "name_ko": "honeybaked-ham",
+        "name_en": "honeybaked-ham"
+      },
+      {
+        "id": "honeybook-1",
+        "name_ko": "honeybook-1",
+        "name_en": "honeybook-1"
+      },
+      {
+        "id": "honeybaked-ham-logo",
+        "name_ko": "honeybaked-ham-logo",
+        "name_en": "honeybaked-ham-logo"
+      },
+      {
+        "id": "honeywell-logo",
+        "name_ko": "honeywell-logo",
+        "name_en": "honeywell-logo"
+      },
+      {
+        "id": "honeywell-security-1",
+        "name_ko": "honeywell-security-1",
+        "name_en": "honeywell-security-1"
+      },
+      {
+        "id": "honeywell-1",
+        "name_ko": "honeywell-1",
+        "name_en": "honeywell-1"
+      },
+      {
+        "id": "honeywell-logo-1",
+        "name_ko": "honeywell-logo-1",
+        "name_en": "honeywell-logo-1"
+      },
+      {
+        "id": "honeygrow",
+        "name_ko": "honeygrow",
+        "name_en": "honeygrow"
+      },
+      {
+        "id": "honey-wordmark-1",
+        "name_ko": "honey-wordmark-1",
+        "name_en": "honey-wordmark-1"
+      },
+      {
+        "id": "honeywell-pai",
+        "name_ko": "honeywell-pai",
+        "name_en": "honeywell-pai"
+      },
+      {
+        "id": "honeybaked-ham-2",
+        "name_ko": "honeybaked-ham-2",
+        "name_en": "honeybaked-ham-2"
+      },
+      {
+        "id": "honey-1",
+        "name_ko": "honey-1",
+        "name_en": "honey-1"
+      },
+      {
+        "id": "honey-background",
+        "name_ko": "Honey Background",
+        "name_en": "Honey Background"
+      },
+      {
+        "id": "honeycombio-wordmark",
+        "name_ko": "Honeycombio Wordmark",
+        "name_en": "Honeycombio Wordmark"
+      },
+      {
+        "id": "honeybadgerio-wordmark",
+        "name_ko": "Honeybadgerio Wordmark",
+        "name_en": "Honeybadgerio Wordmark"
+      },
+      {
+        "id": "honeycombio",
+        "name_ko": "honeycombio",
+        "name_en": "honeycombio"
+      },
+      {
+        "id": "honeycomb",
+        "name_ko": "honeycomb",
+        "name_en": "honeycomb"
+      },
+      {
+        "id": "honeybadgerio",
+        "name_ko": "honeybadgerio",
+        "name_en": "honeybadgerio"
+      },
+      {
+        "id": "honeygain",
+        "name_ko": "Honeygain",
+        "name_en": "Honeygain"
+      },
+      {
+        "id": "honeybadger",
+        "name_ko": "Honeybadger",
+        "name_en": "Honeybadger"
+      },
+      {
+        "id": "disney-s-fairy-tale-weddings-honeymoons",
+        "name_ko": "Disney's Fairy Tale Weddings & Honeymoons",
+        "name_en": "Disney's Fairy Tale Weddings & Honeymoons"
+      },
+      {
+        "id": "shoney-s",
+        "name_ko": "Shoney's",
+        "name_en": "Shoney's"
+      },
+      {
+        "id": "shoney-s-1",
+        "name_ko": "shoney-s-1",
+        "name_en": "shoney-s-1"
+      },
+      {
+        "id": "shoney-s--src-b1d424e",
+        "name_ko": "shoney-s",
+        "name_en": "shoney-s"
+      },
+      {
+        "id": "shoney-s-inn",
+        "name_ko": "shoney-s-inn",
+        "name_en": "shoney-s-inn"
+      }
+    ]
+  },
+  {
+    "q": "underscore",
+    "total": 1,
+    "matches": [
+      {
+        "id": "underscoredotjs",
+        "name_ko": "Underscore.js",
+        "name_en": "Underscore.js"
+      }
+    ]
+  }
+]

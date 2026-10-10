@@ -1,0 +1,10 @@
+{
+  "appId":"com.example.semologo.dev",
+  "appName":"세모로고 개발",
+  "webDir":"dist",
+  "appendUserAgent":" SemologoApp/0.1",
+  "loggingBehavior":"debug",
+  "android":{"allowMixedContent":false},
+  "ios":{"scrollEnabled":true},
+  "plugins":{"CapacitorHttp":{"enabled":true}}
+}

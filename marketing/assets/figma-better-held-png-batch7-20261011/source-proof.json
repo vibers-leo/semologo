@@ -1,0 +1,233 @@
+[
+  {
+    "name": "Airspace Intelligence",
+    "id": "airspace-intelligence",
+    "archive_entry": "Airspace Intelligence.png",
+    "archive_entry_sha256": "d3ff402bd7125b5cf9c7316a74bf52448e9ea9123b0a07fda38b7ca5c7c467ee",
+    "native_dimensions": [
+      4181,
+      576
+    ],
+    "alpha": [
+      0,
+      255
+    ],
+    "has_svg": false,
+    "upscaled": false,
+    "original_bytes_preserved": true,
+    "official_identity_url": "https://www.airspace-intelligence.com/company",
+    "identity_basis": "항공·국방 AI 소프트웨어 회사. 현재 ASI 표기와 연결되는 회사 신원 확인.",
+    "existing": false,
+    "source_period": "unknown"
+  },
+  {
+    "name": "Arc Institute",
+    "id": "arc-institute",
+    "archive_entry": "Arc Institute.png",
+    "archive_entry_sha256": "5bebb7fcdb7686d20ea8563a2a4ec80072307d52f3444825af8b3f0c563693f7",
+    "native_dimensions": [
+      5273,
+      720
+    ],
+    "alpha": [
+      0,
+      255
+    ],
+    "has_svg": false,
+    "upscaled": false,
+    "original_bytes_preserved": true,
+    "official_identity_url": "https://arcinstitute.org/about",
+    "identity_basis": "생명과학 비영리 연구기관. 공식 소개에서 기관명·연구 분야 확인.",
+    "existing": false,
+    "source_period": "unknown"
+  },
+  {
+    "name": "BAT",
+    "id": "british-american-tobacco",
+    "archive_entry": "BAT (white).png",
+    "archive_entry_sha256": "e9657cc23c63258b2bdd6244cd044b7ea4b3cd8847c2e5d5ae009b3d3f3c2e4d",
+    "native_dimensions": [
+      1267,
+      432
+    ],
+    "alpha": [
+      0,
+      255
+    ],
+    "has_svg": false,
+    "upscaled": false,
+    "original_bytes_preserved": true,
+    "official_identity_url": "https://www.bat.com/",
+    "identity_basis": "British American Tobacco 담배회사. 기존 bat 암호화폐 canonical과 구별.",
+    "existing": true,
+    "source_period": "unknown"
+  },
+  {
+    "name": "BAT",
+    "id": "british-american-tobacco",
+    "archive_entry": "BAT (black).png",
+    "archive_entry_sha256": "3df9e6e616eb4d747a971d5869719ca020483caf66972a9a55e06888df55cedc",
+    "native_dimensions": [
+      1267,
+      432
+    ],
+    "alpha": [
+      0,
+      255
+    ],
+    "has_svg": false,
+    "upscaled": false,
+    "original_bytes_preserved": true,
+    "official_identity_url": "https://www.bat.com/",
+    "identity_basis": "British American Tobacco 담배회사. 기존 bat 암호화폐 canonical과 구별.",
+    "existing": true,
+    "source_period": "unknown"
+  },
+  {
+    "name": "Checkout.com",
+    "id": "checkout-com",
+    "archive_entry": "Checkout.com (black).png",
+    "archive_entry_sha256": "94cf98215e5509f3cd04b9adeefff18ad2d55a2027db33d96a86690a9eed2ed2",
+    "native_dimensions": [
+      1116,
+      144
+    ],
+    "alpha": [
+      0,
+      255
+    ],
+    "has_svg": false,
+    "upscaled": false,
+    "original_bytes_preserved": true,
+    "official_identity_url": "https://www.checkout.com/",
+    "identity_basis": "글로벌 결제 서비스 회사. 공식 홈페이지의 회사명·사업 확인.",
+    "existing": false,
+    "source_period": "unknown"
+  },
+  {
+    "name": "Expa",
+    "id": "expa",
+    "archive_entry": "Expa (black).png",
+    "archive_entry_sha256": "3d28734354e51060b00b6641e01deb2aff64969f610ede8ad2067636c704ed01",
+    "native_dimensions": [
+      1358,
+      288
+    ],
+    "alpha": [
+      0,
+      255
+    ],
+    "has_svg": false,
+    "upscaled": false,
+    "original_bytes_preserved": true,
+    "official_identity_url": "https://www.expa.com/studio/",
+    "identity_basis": "스타트업 설립·투자 스튜디오. 공식 Expa Studio 소개 확인.",
+    "existing": false,
+    "source_period": "unknown"
+  },
+  {
+    "name": "Hipcamp",
+    "id": "hipcamp",
+    "archive_entry": "Hipcamp (black).png",
+    "archive_entry_sha256": "42ac43c8f4693cccf90ce15706402da50d418f92b3c1637defcd542fcec2cc33",
+    "native_dimensions": [
+      1025,
+      144
+    ],
+    "alpha": [
+      0,
+      255
+    ],
+    "has_svg": false,
+    "upscaled": false,
+    "original_bytes_preserved": true,
+    "official_identity_url": "https://www.hipcamp.com/",
+    "identity_basis": "캠핑·숙박 예약 플랫폼. 공식 사이트의 Hipcamp 서비스 확인.",
+    "existing": false,
+    "source_period": "unknown"
+  },
+  {
+    "name": "Honey Homes",
+    "id": "honey-homes",
+    "archive_entry": "Honey Homes (white).png",
+    "archive_entry_sha256": "88ceeeecd39f765ba4785e6ca6ed1d15e79546ce30d7814313c03f747be0deea",
+    "native_dimensions": [
+      2738,
+      432
+    ],
+    "alpha": [
+      0,
+      255
+    ],
+    "has_svg": false,
+    "upscaled": false,
+    "original_bytes_preserved": true,
+    "official_identity_url": "https://www.honeyhomes.com/",
+    "identity_basis": "주택 유지보수·핸디맨 서비스. 공식 회사명·서비스·법인 표기 확인.",
+    "existing": false,
+    "source_period": "unknown"
+  },
+  {
+    "name": "Lygos",
+    "id": "lygos",
+    "archive_entry": "Lygos (white).png",
+    "archive_entry_sha256": "78235efb2a55774c313177755707d65e675d78d9d0bb6e486a52f71efc2b72f9",
+    "native_dimensions": [
+      1793,
+      576
+    ],
+    "alpha": [
+      0,
+      255
+    ],
+    "has_svg": false,
+    "upscaled": false,
+    "original_bytes_preserved": true,
+    "official_identity_url": "https://www.lygos.com/company",
+    "identity_basis": "지속가능 특수화학 회사. 공식 회사 소개와 연구개발 사업 확인.",
+    "existing": false,
+    "source_period": "unknown"
+  },
+  {
+    "name": "Safebase",
+    "id": "safebase",
+    "archive_entry": "Safebase (white).png",
+    "archive_entry_sha256": "687eafa28673d79f764192a61d26b1ec99f01d62f39de3b597afea8bebe85e47",
+    "native_dimensions": [
+      1682,
+      288
+    ],
+    "alpha": [
+      0,
+      255
+    ],
+    "has_svg": false,
+    "upscaled": false,
+    "original_bytes_preserved": true,
+    "official_identity_url": "https://drata.com/safebase",
+    "identity_basis": "보안 Trust Center 서비스 SafeBase. Drata 공식 자료에서 인수 및 서비스 신원 확인.",
+    "existing": false,
+    "source_period": "unknown"
+  },
+  {
+    "name": "Underscore VC",
+    "id": "underscore-vc",
+    "archive_entry": "Underscore VC (black).png",
+    "archive_entry_sha256": "76c8405cdd6e775446935b778f9c89115d4fade113d5e0770c899d14a0fa6059",
+    "native_dimensions": [
+      1249,
+      144
+    ],
+    "alpha": [
+      0,
+      255
+    ],
+    "has_svg": false,
+    "upscaled": false,
+    "original_bytes_preserved": true,
+    "official_identity_url": "https://underscore.vc/press-kit/",
+    "identity_basis": "보스턴 벤처캐피털. 공식 presskit의 회사 신원 확인.",
+    "existing": false,
+    "source_period": "unknown"
+  }
+]

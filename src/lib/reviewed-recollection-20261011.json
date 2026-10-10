@@ -1,0 +1,773 @@
+{
+  "patches": {
+    "gongu-ci-1728": {
+      "variants_n": 1,
+      "source_zip": "sources/official-recollection-20261011/3000ba706fccfe35b523.zip",
+      "logo_png": "sources/official-recollection-20261011/5f67650e52f55c5a926c.png",
+      "preview_png": "sources/official-recollection-20261011/8c2e4d70102de9acb3b8.png",
+      "logo_svg": "sources/official-recollection-20261011/a64db283dbe0ee8c0943.svg",
+      "svg_transparent": "sources/official-recollection-20261011/a64db283dbe0ee8c0943.svg",
+      "has_png": true,
+      "has_svg": true,
+      "metadata": {
+        "has_png": true,
+        "has_svg": true
+      },
+      "presentation": {
+        "file": "sources/official-recollection-20261011/5f67650e52f55c5a926c.png",
+        "background": "white",
+        "bg": "white"
+      },
+      "asset_origin": "official-original",
+      "asset_review_status": "verified",
+      "official_source_page": "https://www.hygn.go.kr/00432/00844/00852.web",
+      "source_original_label": "공식 제공 원본 ZIP"
+    },
+    "gongu-ci-1752": {
+      "variants_n": 8,
+      "source_zip": "sources/official-recollection-20261011/e8690e002a28bd3febc7.zip",
+      "logo_png": "sources/official-recollection-20261011/eb125edb726eedc39fc3.png",
+      "preview_png": "sources/official-recollection-20261011/7f4e027a383ef4494658.png",
+      "logo_svg": "sources/official-recollection-20261011/87e3b9ea01ba190be595.svg",
+      "svg_transparent": "sources/official-recollection-20261011/87e3b9ea01ba190be595.svg",
+      "has_png": true,
+      "has_svg": true,
+      "metadata": {
+        "has_png": true,
+        "has_svg": true
+      },
+      "presentation": {
+        "file": "sources/official-recollection-20261011/eb125edb726eedc39fc3.png",
+        "background": "white",
+        "bg": "white"
+      },
+      "asset_origin": "official-original",
+      "asset_review_status": "verified",
+      "official_source_page": "https://www.kintex.com/web/ko/html/company/overview_ci.do",
+      "source_original_label": "공식 제공 원본 ZIP"
+    },
+    "gongu-ci-1665": {
+      "variants_n": 1,
+      "source_zip": "sources/official-recollection-20261011/c3a016a2a85c7622a7fb.zip",
+      "logo_png": "sources/official-recollection-20261011/8c031909595f5e42be05.png",
+      "preview_png": "sources/official-recollection-20261011/12e3a1f4348f9466cde0.png",
+      "logo_svg": "sources/official-recollection-20261011/1c15d4126043f55db342.svg",
+      "svg_transparent": "sources/official-recollection-20261011/1c15d4126043f55db342.svg",
+      "has_png": true,
+      "has_svg": true,
+      "metadata": {
+        "has_png": true,
+        "has_svg": true
+      },
+      "presentation": {
+        "file": "sources/official-recollection-20261011/8c031909595f5e42be05.png",
+        "background": "white",
+        "bg": "white"
+      },
+      "asset_origin": "official-original",
+      "asset_review_status": "verified",
+      "official_source_page": "https://www.kamco.or.kr/portal/contents.do?mId=0103010000",
+      "source_original_label": "공식 제공 원본 ZIP"
+    },
+    "gongu-ci-1715": {
+      "variants_n": 1,
+      "source_zip": "sources/official-recollection-20261011/8b64058a1cbc6e047d8c.zip",
+      "logo_png": "sources/official-recollection-20261011/efad08bb4016017e9c41.png",
+      "preview_png": "sources/official-recollection-20261011/59644d744b1b11adfec3.png",
+      "logo_svg": "sources/official-recollection-20261011/aca60c466e8659b7bc5f.svg",
+      "svg_transparent": "sources/official-recollection-20261011/aca60c466e8659b7bc5f.svg",
+      "has_png": true,
+      "has_svg": true,
+      "metadata": {
+        "has_png": true,
+        "has_svg": true
+      },
+      "presentation": {
+        "file": "sources/official-recollection-20261011/efad08bb4016017e9c41.png",
+        "background": "white",
+        "bg": "white"
+      },
+      "asset_origin": "official-original",
+      "asset_review_status": "verified",
+      "official_source_page": "https://www.kindkorea.or.kr/introduce/ci",
+      "source_original_label": "공식 제공 원본 ZIP"
+    },
+    "gongu-ci-1669": {
+      "variants_n": 9,
+      "source_zip": "sources/official-recollection-20261011/a4e2d0196ef748849ffa.zip",
+      "logo_png": "sources/official-recollection-20261011/4f8c98c265b54425d417.png",
+      "preview_png": "sources/official-recollection-20261011/554b7cf8b7b633485b7b.png",
+      "logo_svg": "sources/official-recollection-20261011/7da12ffb67c31af5a4a4.svg",
+      "svg_transparent": "sources/official-recollection-20261011/7da12ffb67c31af5a4a4.svg",
+      "has_png": true,
+      "has_svg": true,
+      "metadata": {
+        "has_png": true,
+        "has_svg": true
+      },
+      "presentation": {
+        "file": "sources/official-recollection-20261011/4f8c98c265b54425d417.png",
+        "background": "white",
+        "bg": "white"
+      },
+      "asset_origin": "official-original",
+      "asset_review_status": "verified",
+      "official_source_page": "https://www.fis.kr/ko/intro/ci",
+      "source_original_label": "공식 제공 원본 ZIP"
+    },
+    "gongu-ci-1732": {
+      "variants_n": 1,
+      "source_zip": "sources/official-recollection-20261011/3f2a3196958683c72635.zip",
+      "logo_png": "sources/official-recollection-20261011/74260ca541f0705c4a38.png",
+      "preview_png": "sources/official-recollection-20261011/da212e431fd61644329d.png",
+      "logo_svg": null,
+      "svg_transparent": null,
+      "has_png": true,
+      "has_svg": false,
+      "metadata": {
+        "has_png": true,
+        "has_svg": false
+      },
+      "presentation": {
+        "file": "sources/official-recollection-20261011/74260ca541f0705c4a38.png",
+        "background": "white",
+        "bg": "white"
+      },
+      "asset_origin": "official-original",
+      "asset_review_status": "verified",
+      "official_source_page": "http://www.haenam.go.kr/index.9is?contentUid=18e3368f5d745106015e55823637348f",
+      "source_original_label": "공식 제공 원본 ZIP"
+    },
+    "gongu-ci-1702": {
+      "variants_n": 10,
+      "source_zip": "sources/official-recollection-20261011/ff2afdc9de7a5a8810dd.zip",
+      "logo_png": "sources/official-recollection-20261011/008901fc7e50c5be49a8.png",
+      "preview_png": "sources/official-recollection-20261011/87e9b35be7f01f01e771.png",
+      "logo_svg": "sources/official-recollection-20261011/6916527d4033d0066860.svg",
+      "svg_transparent": "sources/official-recollection-20261011/6916527d4033d0066860.svg",
+      "has_png": true,
+      "has_svg": true,
+      "metadata": {
+        "has_png": true,
+        "has_svg": true
+      },
+      "presentation": {
+        "file": "sources/official-recollection-20261011/008901fc7e50c5be49a8.png",
+        "background": "white",
+        "bg": "white"
+      },
+      "asset_origin": "official-original",
+      "asset_review_status": "verified",
+      "official_source_page": "https://www.kcarbon.or.kr/web/page.php?pcode=ED06",
+      "source_original_label": "공식 제공 원본 ZIP"
+    },
+    "gongu-ci-1706": {
+      "variants_n": 3,
+      "source_zip": "sources/official-recollection-20261011/ec844cb1c8e8b52f31df.zip",
+      "logo_png": "sources/official-recollection-20261011/fc50f2b3af8388b77f8f.png",
+      "preview_png": "sources/official-recollection-20261011/1e014d6e6886c3acc65f.png",
+      "logo_svg": "sources/official-recollection-20261011/016899ca7f7fb76a4ded.svg",
+      "svg_transparent": "sources/official-recollection-20261011/016899ca7f7fb76a4ded.svg",
+      "has_png": true,
+      "has_svg": true,
+      "metadata": {
+        "has_png": true,
+        "has_svg": true
+      },
+      "presentation": {
+        "file": "sources/official-recollection-20261011/fc50f2b3af8388b77f8f.png",
+        "background": "white",
+        "bg": "white"
+      },
+      "asset_origin": "official-original",
+      "asset_review_status": "verified",
+      "official_source_page": "http://www.kipi.or.kr/EgovPageLink.do?link=/main/sub01/sub0104",
+      "source_original_label": "공식 제공 원본 ZIP"
+    }
+  },
+  "variants": {
+    "gongu-ci-1728": {
+      "id": "gongu-ci-1728",
+      "variants": [
+        {
+          "key": "official-recollect-symbol",
+          "label": "컬러 심볼",
+          "files": {
+            "svg": "sources/official-recollection-20261011/a64db283dbe0ee8c0943.svg",
+            "png": "sources/official-recollection-20261011/5f67650e52f55c5a926c.png"
+          },
+          "preview_png": "sources/official-recollection-20261011/8c2e4d70102de9acb3b8.png",
+          "provider": "official-original",
+          "official_distribution": true,
+          "order": 100,
+          "source_note": "공식 제공 AI 원본에서 가이드 없이 벡터 경로 추출 · 2026-10-11 검수",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "color"
+        }
+      ]
+    },
+    "gongu-ci-1752": {
+      "id": "gongu-ci-1752",
+      "variants": [
+        {
+          "key": "official-recollect-wordmark-en",
+          "label": "영문 워드마크",
+          "files": {
+            "svg": "sources/official-recollection-20261011/f47c248f3c4cb793ce32.svg",
+            "png": "sources/official-recollection-20261011/e9a386e9577ac9a20fd6.png"
+          },
+          "preview_png": "sources/official-recollection-20261011/ed7b1af36aa11169fa7d.png",
+          "provider": "official-original",
+          "official_distribution": true,
+          "order": 100,
+          "source_note": "공식 제공 AI 원본에서 가이드 없이 벡터 경로 추출 · 2026-10-11 검수",
+          "form": "wordmark",
+          "lang": "en",
+          "color": "color"
+        },
+        {
+          "key": "official-recollect-wordmark-en-brush",
+          "label": "영문 캘리그래피 워드마크",
+          "files": {
+            "svg": "sources/official-recollection-20261011/cfbe7a69d847f88d8d82.svg",
+            "png": "sources/official-recollection-20261011/c7dbc2b2cceffcef6bd6.png"
+          },
+          "preview_png": "sources/official-recollection-20261011/c05fb1ac9f353253e1cd.png",
+          "provider": "official-original",
+          "official_distribution": true,
+          "order": 101,
+          "source_note": "공식 제공 AI 원본에서 가이드 없이 벡터 경로 추출 · 2026-10-11 검수",
+          "form": "wordmark",
+          "lang": "en",
+          "color": "color"
+        },
+        {
+          "key": "official-recollect-wordmark-ko",
+          "label": "국문 워드마크",
+          "files": {
+            "svg": "sources/official-recollection-20261011/243267a8c85a808d5c4c.svg",
+            "png": "sources/official-recollection-20261011/8d23f662ee38224e96d8.png"
+          },
+          "preview_png": "sources/official-recollection-20261011/0aad4cf13886e02cc0a3.png",
+          "provider": "official-original",
+          "official_distribution": true,
+          "order": 102,
+          "source_note": "공식 제공 AI 원본에서 가이드 없이 벡터 경로 추출 · 2026-10-11 검수",
+          "form": "wordmark",
+          "lang": "ko",
+          "color": "color"
+        },
+        {
+          "key": "official-recollect-wordmark-ko-brush",
+          "label": "국문 캘리그래피 워드마크",
+          "files": {
+            "svg": "sources/official-recollection-20261011/35b50e54061a04a3f31f.svg",
+            "png": "sources/official-recollection-20261011/d6bd651b245ed4a8252e.png"
+          },
+          "preview_png": "sources/official-recollection-20261011/3973b7c4a6d302145b03.png",
+          "provider": "official-original",
+          "official_distribution": true,
+          "order": 103,
+          "source_note": "공식 제공 AI 원본에서 가이드 없이 벡터 경로 추출 · 2026-10-11 검수",
+          "form": "wordmark",
+          "lang": "ko",
+          "color": "color"
+        },
+        {
+          "key": "official-recollect-signature-ko",
+          "label": "국영문 조합",
+          "files": {
+            "svg": "sources/official-recollection-20261011/87e3b9ea01ba190be595.svg",
+            "png": "sources/official-recollection-20261011/eb125edb726eedc39fc3.png"
+          },
+          "preview_png": "sources/official-recollection-20261011/7f4e027a383ef4494658.png",
+          "provider": "official-original",
+          "official_distribution": true,
+          "order": 104,
+          "source_note": "공식 제공 AI 원본에서 가이드 없이 벡터 경로 추출 · 2026-10-11 검수",
+          "form": "signature",
+          "lang": "ko",
+          "color": "color"
+        },
+        {
+          "key": "official-recollect-signature-slogan",
+          "label": "영문 슬로건 조합",
+          "files": {
+            "svg": "sources/official-recollection-20261011/dff259b79775244954cd.svg",
+            "png": "sources/official-recollection-20261011/b030d3d02fa72a595023.png"
+          },
+          "preview_png": "sources/official-recollection-20261011/4ff6c6a9ad6d9ec237dd.png",
+          "provider": "official-original",
+          "official_distribution": true,
+          "order": 105,
+          "source_note": "공식 제공 AI 원본에서 가이드 없이 벡터 경로 추출 · 2026-10-11 검수",
+          "form": "signature",
+          "lang": "en",
+          "color": "color"
+        },
+        {
+          "key": "official-recollect-signature-ko-brush",
+          "label": "캘리그래피 국영문 조합",
+          "files": {
+            "svg": "sources/official-recollection-20261011/9ef58a9457faab8195d7.svg",
+            "png": "sources/official-recollection-20261011/0ef0efa31bcfec406d95.png"
+          },
+          "preview_png": "sources/official-recollection-20261011/0a08cdbd165f7f8fcc7a.png",
+          "provider": "official-original",
+          "official_distribution": true,
+          "order": 106,
+          "source_note": "공식 제공 AI 원본에서 가이드 없이 벡터 경로 추출 · 2026-10-11 검수",
+          "form": "signature",
+          "lang": "ko",
+          "color": "color"
+        },
+        {
+          "key": "official-recollect-signature-slogan-stack",
+          "label": "영문 슬로건 상하 조합",
+          "files": {
+            "svg": "sources/official-recollection-20261011/c998483008d9cd346a8a.svg",
+            "png": "sources/official-recollection-20261011/dd868a4cbae9078bfc88.png"
+          },
+          "preview_png": "sources/official-recollection-20261011/7666f7f6610090a5abb7.png",
+          "provider": "official-original",
+          "official_distribution": true,
+          "order": 107,
+          "source_note": "공식 제공 AI 원본에서 가이드 없이 벡터 경로 추출 · 2026-10-11 검수",
+          "form": "signature",
+          "lang": "en",
+          "color": "color"
+        }
+      ]
+    },
+    "gongu-ci-1665": {
+      "id": "gongu-ci-1665",
+      "variants": [
+        {
+          "key": "official-recollect-signature-ko",
+          "label": "공식 국문 조합",
+          "files": {
+            "svg": "sources/official-recollection-20261011/1c15d4126043f55db342.svg",
+            "png": "sources/official-recollection-20261011/8c031909595f5e42be05.png"
+          },
+          "preview_png": "sources/official-recollection-20261011/12e3a1f4348f9466cde0.png",
+          "provider": "official-original",
+          "official_distribution": true,
+          "order": 100,
+          "source_note": "공식 제공 AI 원본에서 가이드 없이 벡터 경로 추출 · 2026-10-11 검수",
+          "form": "signature",
+          "lang": "ko",
+          "color": "color"
+        }
+      ]
+    },
+    "gongu-ci-1715": {
+      "id": "gongu-ci-1715",
+      "variants": [
+        {
+          "key": "official-recollect-signature-ko",
+          "label": "공식 국문 조합",
+          "files": {
+            "svg": "sources/official-recollection-20261011/aca60c466e8659b7bc5f.svg",
+            "png": "sources/official-recollection-20261011/efad08bb4016017e9c41.png"
+          },
+          "preview_png": "sources/official-recollection-20261011/59644d744b1b11adfec3.png",
+          "provider": "official-original",
+          "official_distribution": true,
+          "order": 100,
+          "source_note": "공식 제공 AI 원본에서 가이드 없이 벡터 경로 추출 · 2026-10-11 검수",
+          "form": "signature",
+          "lang": "ko",
+          "color": "color"
+        }
+      ]
+    },
+    "gongu-ci-1669": {
+      "id": "gongu-ci-1669",
+      "variants": [
+        {
+          "key": "official-recollect-symbol",
+          "label": "컬러 워드마크",
+          "files": {
+            "svg": "sources/official-recollection-20261011/d059c6a82549dc234021.svg",
+            "png": "sources/official-recollection-20261011/4c46906c07107fbe13a1.png"
+          },
+          "preview_png": "sources/official-recollection-20261011/6a7ee473f21dd564dde2.png",
+          "provider": "official-original",
+          "official_distribution": true,
+          "order": 100,
+          "source_note": "공식 제공 AI 원본에서 가이드 없이 벡터 경로 추출 · 2026-10-11 검수",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "color"
+        },
+        {
+          "key": "official-recollect-vertical-ko",
+          "label": "국문 상하 조합",
+          "files": {
+            "svg": "sources/official-recollection-20261011/ec42ee4630eff97ac60b.svg",
+            "png": "sources/official-recollection-20261011/aa2ff3b9f9241ae6f7c3.png"
+          },
+          "preview_png": "sources/official-recollection-20261011/98545413c3ba3235d7b6.png",
+          "provider": "official-original",
+          "official_distribution": true,
+          "order": 101,
+          "source_note": "공식 제공 AI 원본에서 가이드 없이 벡터 경로 추출 · 2026-10-11 검수",
+          "form": "signature",
+          "lang": "ko",
+          "color": "color"
+        },
+        {
+          "key": "official-recollect-horizontal-ko",
+          "label": "국문 좌우 조합",
+          "files": {
+            "svg": "sources/official-recollection-20261011/7da12ffb67c31af5a4a4.svg",
+            "png": "sources/official-recollection-20261011/4f8c98c265b54425d417.png"
+          },
+          "preview_png": "sources/official-recollection-20261011/554b7cf8b7b633485b7b.png",
+          "provider": "official-original",
+          "official_distribution": true,
+          "order": 102,
+          "source_note": "공식 제공 AI 원본에서 가이드 없이 벡터 경로 추출 · 2026-10-11 검수",
+          "form": "signature",
+          "lang": "ko",
+          "color": "color"
+        },
+        {
+          "key": "official-recollect-vertical-en",
+          "label": "영문 상하 조합",
+          "files": {
+            "svg": "sources/official-recollection-20261011/674304453ae978517ca2.svg",
+            "png": "sources/official-recollection-20261011/eeada939090a6c715b2d.png"
+          },
+          "preview_png": "sources/official-recollection-20261011/2f3a2c94c78d5ce72aa3.png",
+          "provider": "official-original",
+          "official_distribution": true,
+          "order": 103,
+          "source_note": "공식 제공 AI 원본에서 가이드 없이 벡터 경로 추출 · 2026-10-11 검수",
+          "form": "signature",
+          "lang": "en",
+          "color": "color"
+        },
+        {
+          "key": "official-recollect-horizontal-en",
+          "label": "영문 좌우 조합",
+          "files": {
+            "svg": "sources/official-recollection-20261011/81cb175bcc911674cf90.svg",
+            "png": "sources/official-recollection-20261011/5beb2ca8a86fcc38e2f0.png"
+          },
+          "preview_png": "sources/official-recollection-20261011/b71ba01d2130efabd93d.png",
+          "provider": "official-original",
+          "official_distribution": true,
+          "order": 104,
+          "source_note": "공식 제공 AI 원본에서 가이드 없이 벡터 경로 추출 · 2026-10-11 검수",
+          "form": "signature",
+          "lang": "en",
+          "color": "color"
+        },
+        {
+          "key": "official-recollect-vertical-mixed",
+          "label": "국영문 상하 조합",
+          "files": {
+            "svg": "sources/official-recollection-20261011/7e2d5974a039e735c5f5.svg",
+            "png": "sources/official-recollection-20261011/dac0a0a9dcb733b73cca.png"
+          },
+          "preview_png": "sources/official-recollection-20261011/475f7e307b0f250369e6.png",
+          "provider": "official-original",
+          "official_distribution": true,
+          "order": 105,
+          "source_note": "공식 제공 AI 원본에서 가이드 없이 벡터 경로 추출 · 2026-10-11 검수",
+          "form": "signature",
+          "lang": "unknown",
+          "color": "color"
+        },
+        {
+          "key": "official-recollect-horizontal-mixed",
+          "label": "국영문 좌우 조합",
+          "files": {
+            "svg": "sources/official-recollection-20261011/50f2af3da63d9f26537b.svg",
+            "png": "sources/official-recollection-20261011/9da082e3321f23a0c1bc.png"
+          },
+          "preview_png": "sources/official-recollection-20261011/e33d1d9aec98397f1a14.png",
+          "provider": "official-original",
+          "official_distribution": true,
+          "order": 106,
+          "source_note": "공식 제공 AI 원본에서 가이드 없이 벡터 경로 추출 · 2026-10-11 검수",
+          "form": "signature",
+          "lang": "unknown",
+          "color": "color"
+        },
+        {
+          "key": "official-recollect-wordmark-black",
+          "label": "검정 워드마크",
+          "files": {
+            "svg": "sources/official-recollection-20261011/fd6c3f40ea2830fb72a0.svg",
+            "png": "sources/official-recollection-20261011/496185988beda24771d3.png"
+          },
+          "preview_png": "sources/official-recollection-20261011/02dc80ad1db89cf2b975.png",
+          "provider": "official-original",
+          "official_distribution": true,
+          "order": 107,
+          "source_note": "공식 제공 AI 원본에서 가이드 없이 벡터 경로 추출 · 2026-10-11 검수",
+          "form": "wordmark",
+          "lang": "unknown",
+          "color": "black"
+        },
+        {
+          "key": "official-recollect-wordmark-white",
+          "label": "흰색 워드마크",
+          "files": {
+            "svg": "sources/official-recollection-20261011/ddbe0ccd708f88c1b238.svg",
+            "png": "sources/official-recollection-20261011/4b02b7a1965518c1f88d.png"
+          },
+          "preview_png": "sources/official-recollection-20261011/95c84895c7bf5e1a6535.png",
+          "provider": "official-original",
+          "official_distribution": true,
+          "order": 108,
+          "source_note": "공식 제공 AI 원본에서 가이드 없이 벡터 경로 추출 · 2026-10-11 검수",
+          "form": "wordmark",
+          "lang": "unknown",
+          "color": "white"
+        }
+      ]
+    },
+    "gongu-ci-1732": {
+      "id": "gongu-ci-1732",
+      "variants": [
+        {
+          "key": "official-recollect-symbol",
+          "label": "공식 컬러 심볼 · PNG",
+          "files": {
+            "png": "sources/official-recollection-20261011/74260ca541f0705c4a38.png"
+          },
+          "preview_png": "sources/official-recollection-20261011/da212e431fd61644329d.png",
+          "provider": "official-original",
+          "official_distribution": true,
+          "order": 100,
+          "source_note": "공식 AI의 PDF 데이터를 직접 렌더한 투명 PNG · SVG 변환 시 색상왜곡으로 SVG 미제공 · 2026-10-11 검수",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "color"
+        }
+      ]
+    },
+    "gongu-ci-1702": {
+      "id": "gongu-ci-1702",
+      "variants": [
+        {
+          "key": "official-recollect-horizontal-ko",
+          "label": "국문 좌우 조합",
+          "files": {
+            "svg": "sources/official-recollection-20261011/6916527d4033d0066860.svg",
+            "png": "sources/official-recollection-20261011/008901fc7e50c5be49a8.png"
+          },
+          "preview_png": "sources/official-recollection-20261011/87e9b35be7f01f01e771.png",
+          "provider": "official-original",
+          "official_distribution": true,
+          "order": 100,
+          "source_note": "공식 제공 EPS 원본에서 가이드 없이 벡터 경로 추출 · 2026-10-11 검수",
+          "form": "signature",
+          "lang": "ko",
+          "color": "color"
+        },
+        {
+          "key": "official-recollect-vertical-ko",
+          "label": "국문 상하 조합",
+          "files": {
+            "svg": "sources/official-recollection-20261011/b271dad81f146283f197.svg",
+            "png": "sources/official-recollection-20261011/e13b2e84c67e53e3cc5d.png"
+          },
+          "preview_png": "sources/official-recollection-20261011/335d274440942ec8beb5.png",
+          "provider": "official-original",
+          "official_distribution": true,
+          "order": 101,
+          "source_note": "공식 제공 EPS 원본에서 가이드 없이 벡터 경로 추출 · 2026-10-11 검수",
+          "form": "signature",
+          "lang": "ko",
+          "color": "color"
+        },
+        {
+          "key": "official-recollect-horizontal-mixed",
+          "label": "국영문 좌우 조합",
+          "files": {
+            "svg": "sources/official-recollection-20261011/d7bdaa6aeeb87a35228f.svg",
+            "png": "sources/official-recollection-20261011/54809d81639b18e69186.png"
+          },
+          "preview_png": "sources/official-recollection-20261011/46d965fcfe11f74b27e8.png",
+          "provider": "official-original",
+          "official_distribution": true,
+          "order": 102,
+          "source_note": "공식 제공 EPS 원본에서 가이드 없이 벡터 경로 추출 · 2026-10-11 검수",
+          "form": "signature",
+          "lang": "unknown",
+          "color": "color"
+        },
+        {
+          "key": "official-recollect-vertical-mixed",
+          "label": "국영문 상하 조합",
+          "files": {
+            "svg": "sources/official-recollection-20261011/8bf259ae344d83e97be4.svg",
+            "png": "sources/official-recollection-20261011/aeafc640a4c842b17b6e.png"
+          },
+          "preview_png": "sources/official-recollection-20261011/99ab3c13e711f2310cdb.png",
+          "provider": "official-original",
+          "official_distribution": true,
+          "order": 103,
+          "source_note": "공식 제공 EPS 원본에서 가이드 없이 벡터 경로 추출 · 2026-10-11 검수",
+          "form": "signature",
+          "lang": "unknown",
+          "color": "color"
+        },
+        {
+          "key": "official-recollect-horizontal-en",
+          "label": "영문 좌우 조합",
+          "files": {
+            "svg": "sources/official-recollection-20261011/63ac9c6fc2aee78cd3e0.svg",
+            "png": "sources/official-recollection-20261011/b7e6d35e5bea842801cc.png"
+          },
+          "preview_png": "sources/official-recollection-20261011/927dedee8bfc51c50914.png",
+          "provider": "official-original",
+          "official_distribution": true,
+          "order": 104,
+          "source_note": "공식 제공 EPS 원본에서 가이드 없이 벡터 경로 추출 · 2026-10-11 검수",
+          "form": "signature",
+          "lang": "en",
+          "color": "color"
+        },
+        {
+          "key": "official-recollect-vertical-en",
+          "label": "영문 상하 조합",
+          "files": {
+            "svg": "sources/official-recollection-20261011/5d65ae3d2bd03c148347.svg",
+            "png": "sources/official-recollection-20261011/13e13a7b71d878f47637.png"
+          },
+          "preview_png": "sources/official-recollection-20261011/1a3bd72bef1bc95fa735.png",
+          "provider": "official-original",
+          "official_distribution": true,
+          "order": 105,
+          "source_note": "공식 제공 EPS 원본에서 가이드 없이 벡터 경로 추출 · 2026-10-11 검수",
+          "form": "signature",
+          "lang": "en",
+          "color": "color"
+        },
+        {
+          "key": "official-recollect-horizontal-cn-simplified",
+          "label": "중문 간체 좌우 조합",
+          "files": {
+            "svg": "sources/official-recollection-20261011/a8f6a5b98ba933044a37.svg",
+            "png": "sources/official-recollection-20261011/4d1aedacaf4adcc792cd.png"
+          },
+          "preview_png": "sources/official-recollection-20261011/e7387a645e81167083bb.png",
+          "provider": "official-original",
+          "official_distribution": true,
+          "order": 106,
+          "source_note": "공식 제공 EPS 원본에서 가이드 없이 벡터 경로 추출 · 2026-10-11 검수",
+          "form": "signature",
+          "lang": "unknown",
+          "color": "color"
+        },
+        {
+          "key": "official-recollect-vertical-cn-simplified",
+          "label": "중문 간체 상하 조합",
+          "files": {
+            "svg": "sources/official-recollection-20261011/b4d1609b900fe8344ed3.svg",
+            "png": "sources/official-recollection-20261011/ada17c3bb627245a019d.png"
+          },
+          "preview_png": "sources/official-recollection-20261011/086dae0757ca131fea81.png",
+          "provider": "official-original",
+          "official_distribution": true,
+          "order": 107,
+          "source_note": "공식 제공 EPS 원본에서 가이드 없이 벡터 경로 추출 · 2026-10-11 검수",
+          "form": "signature",
+          "lang": "unknown",
+          "color": "color"
+        },
+        {
+          "key": "official-recollect-horizontal-cn-traditional",
+          "label": "중문 번체 좌우 조합",
+          "files": {
+            "svg": "sources/official-recollection-20261011/c54d4a13775bffe1f1a3.svg",
+            "png": "sources/official-recollection-20261011/e74e3e4ba229101d73b1.png"
+          },
+          "preview_png": "sources/official-recollection-20261011/636927db6679fb8fc479.png",
+          "provider": "official-original",
+          "official_distribution": true,
+          "order": 108,
+          "source_note": "공식 제공 EPS 원본에서 가이드 없이 벡터 경로 추출 · 2026-10-11 검수",
+          "form": "signature",
+          "lang": "unknown",
+          "color": "color"
+        },
+        {
+          "key": "official-recollect-vertical-cn-traditional",
+          "label": "중문 번체 상하 조합",
+          "files": {
+            "svg": "sources/official-recollection-20261011/27b3c99fb52393742e90.svg",
+            "png": "sources/official-recollection-20261011/35ecc4a2abde5683807d.png"
+          },
+          "preview_png": "sources/official-recollection-20261011/5a674aec114e8d35d59e.png",
+          "provider": "official-original",
+          "official_distribution": true,
+          "order": 109,
+          "source_note": "공식 제공 EPS 원본에서 가이드 없이 벡터 경로 추출 · 2026-10-11 검수",
+          "form": "signature",
+          "lang": "unknown",
+          "color": "color"
+        }
+      ]
+    },
+    "gongu-ci-1706": {
+      "id": "gongu-ci-1706",
+      "variants": [
+        {
+          "key": "official-recollect-horizontal-ko",
+          "label": "공식 국문 좌우 조합",
+          "files": {
+            "svg": "sources/official-recollection-20261011/016899ca7f7fb76a4ded.svg",
+            "png": "sources/official-recollection-20261011/fc50f2b3af8388b77f8f.png"
+          },
+          "preview_png": "sources/official-recollection-20261011/1e014d6e6886c3acc65f.png",
+          "provider": "official-original",
+          "official_distribution": true,
+          "order": 100,
+          "source_note": "공식 AI 국문 시그니처의 아웃라인 경로에서 분리 · 글꼴 의존성 없음 · 2026-10-11 검수",
+          "form": "signature",
+          "lang": "ko",
+          "color": "color"
+        },
+        {
+          "key": "official-recollect-symbol",
+          "label": "국문 조합에서 분리한 심볼",
+          "files": {
+            "svg": "sources/official-recollection-20261011/02095b0799f3dc4a5707.svg",
+            "png": "sources/official-recollection-20261011/97a68b26bd010140b5b1.png"
+          },
+          "preview_png": "sources/official-recollection-20261011/c725ea93e1e5c049e6ab.png",
+          "provider": "official-original",
+          "official_distribution": true,
+          "order": 101,
+          "source_note": "공식 AI 국문 시그니처의 아웃라인 경로에서 분리 · 글꼴 의존성 없음 · 2026-10-11 검수",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "color"
+        },
+        {
+          "key": "official-recollect-wordmark-ko",
+          "label": "국문 조합에서 분리한 워드마크",
+          "files": {
+            "svg": "sources/official-recollection-20261011/d5210b66be42777df938.svg",
+            "png": "sources/official-recollection-20261011/cbf59c06153f432fb1af.png"
+          },
+          "preview_png": "sources/official-recollection-20261011/9ef2c1500279f5da99eb.png",
+          "provider": "official-original",
+          "official_distribution": true,
+          "order": 102,
+          "source_note": "공식 AI 국문 시그니처의 아웃라인 경로에서 분리 · 글꼴 의존성 없음 · 2026-10-11 검수",
+          "form": "wordmark",
+          "lang": "ko",
+          "color": "color"
+        }
+      ]
+    }
+  }
+}

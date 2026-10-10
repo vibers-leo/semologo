@@ -1,0 +1,174 @@
+{
+  "patches": {
+    "gongu-ci-1728": {
+      "variants_n": 1,
+      "source_zip": "sources/official-recollection-20261011/3000ba706fccfe35b523.zip"
+    },
+    "gongu-ci-1752": {
+      "variants_n": 8,
+      "source_zip": "sources/official-recollection-20261011/e8690e002a28bd3febc7.zip"
+    }
+  },
+  "variants": {
+    "gongu-ci-1728": {
+      "id": "gongu-ci-1728",
+      "variants": [
+        {
+          "key": "official-recollect-symbol",
+          "label": "컬러 심볼",
+          "files": {
+            "svg": "sources/official-recollection-20261011/a64db283dbe0ee8c0943.svg",
+            "png": "sources/official-recollection-20261011/5f67650e52f55c5a926c.png"
+          },
+          "preview_png": "sources/official-recollection-20261011/8c2e4d70102de9acb3b8.png",
+          "provider": "official-original",
+          "official_distribution": true,
+          "order": 100,
+          "source_note": "공식 제공 AI 원본에서 가이드 없이 벡터 경로 추출 · 2026-10-11 검수",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "color"
+        }
+      ]
+    },
+    "gongu-ci-1752": {
+      "id": "gongu-ci-1752",
+      "variants": [
+        {
+          "key": "official-recollect-wordmark-en",
+          "label": "영문 워드마크",
+          "files": {
+            "svg": "sources/official-recollection-20261011/f47c248f3c4cb793ce32.svg",
+            "png": "sources/official-recollection-20261011/e9a386e9577ac9a20fd6.png"
+          },
+          "preview_png": "sources/official-recollection-20261011/ed7b1af36aa11169fa7d.png",
+          "provider": "official-original",
+          "official_distribution": true,
+          "order": 100,
+          "source_note": "공식 제공 AI 원본에서 가이드 없이 벡터 경로 추출 · 2026-10-11 검수",
+          "form": "wordmark",
+          "lang": "en",
+          "color": "color"
+        },
+        {
+          "key": "official-recollect-wordmark-en-brush",
+          "label": "영문 캘리그래피 워드마크",
+          "files": {
+            "svg": "sources/official-recollection-20261011/cfbe7a69d847f88d8d82.svg",
+            "png": "sources/official-recollection-20261011/c7dbc2b2cceffcef6bd6.png"
+          },
+          "preview_png": "sources/official-recollection-20261011/c05fb1ac9f353253e1cd.png",
+          "provider": "official-original",
+          "official_distribution": true,
+          "order": 101,
+          "source_note": "공식 제공 AI 원본에서 가이드 없이 벡터 경로 추출 · 2026-10-11 검수",
+          "form": "wordmark",
+          "lang": "en",
+          "color": "color"
+        },
+        {
+          "key": "official-recollect-wordmark-ko",
+          "label": "국문 워드마크",
+          "files": {
+            "svg": "sources/official-recollection-20261011/243267a8c85a808d5c4c.svg",
+            "png": "sources/official-recollection-20261011/8d23f662ee38224e96d8.png"
+          },
+          "preview_png": "sources/official-recollection-20261011/0aad4cf13886e02cc0a3.png",
+          "provider": "official-original",
+          "official_distribution": true,
+          "order": 102,
+          "source_note": "공식 제공 AI 원본에서 가이드 없이 벡터 경로 추출 · 2026-10-11 검수",
+          "form": "wordmark",
+          "lang": "ko",
+          "color": "color"
+        },
+        {
+          "key": "official-recollect-wordmark-ko-brush",
+          "label": "국문 캘리그래피 워드마크",
+          "files": {
+            "svg": "sources/official-recollection-20261011/35b50e54061a04a3f31f.svg",
+            "png": "sources/official-recollection-20261011/d6bd651b245ed4a8252e.png"
+          },
+          "preview_png": "sources/official-recollection-20261011/3973b7c4a6d302145b03.png",
+          "provider": "official-original",
+          "official_distribution": true,
+          "order": 103,
+          "source_note": "공식 제공 AI 원본에서 가이드 없이 벡터 경로 추출 · 2026-10-11 검수",
+          "form": "wordmark",
+          "lang": "ko",
+          "color": "color"
+        },
+        {
+          "key": "official-recollect-signature-ko",
+          "label": "국영문 조합",
+          "files": {
+            "svg": "sources/official-recollection-20261011/87e3b9ea01ba190be595.svg",
+            "png": "sources/official-recollection-20261011/eb125edb726eedc39fc3.png"
+          },
+          "preview_png": "sources/official-recollection-20261011/7f4e027a383ef4494658.png",
+          "provider": "official-original",
+          "official_distribution": true,
+          "order": 104,
+          "source_note": "공식 제공 AI 원본에서 가이드 없이 벡터 경로 추출 · 2026-10-11 검수",
+          "form": "signature",
+          "lang": "ko",
+          "color": "color"
+        },
+        {
+          "key": "official-recollect-signature-slogan",
+          "label": "영문 슬로건 조합",
+          "files": {
+            "svg": "sources/official-recollection-20261011/dff259b79775244954cd.svg",
+            "png": "sources/official-recollection-20261011/b030d3d02fa72a595023.png"
+          },
+          "preview_png": "sources/official-recollection-20261011/4ff6c6a9ad6d9ec237dd.png",
+          "provider": "official-original",
+          "official_distribution": true,
+          "order": 105,
+          "source_note": "공식 제공 AI 원본에서 가이드 없이 벡터 경로 추출 · 2026-10-11 검수",
+          "form": "signature",
+          "lang": "en",
+          "color": "color"
+        },
+        {
+          "key": "official-recollect-signature-ko-brush",
+          "label": "캘리그래피 국영문 조합",
+          "files": {
+            "svg": "sources/official-recollection-20261011/9ef58a9457faab8195d7.svg",
+            "png": "sources/official-recollection-20261011/0ef0efa31bcfec406d95.png"
+          },
+          "preview_png": "sources/official-recollection-20261011/0a08cdbd165f7f8fcc7a.png",
+          "provider": "official-original",
+          "official_distribution": true,
+          "order": 106,
+          "source_note": "공식 제공 AI 원본에서 가이드 없이 벡터 경로 추출 · 2026-10-11 검수",
+          "form": "signature",
+          "lang": "ko",
+          "color": "color"
+        },
+        {
+          "key": "official-recollect-signature-slogan-stack",
+          "label": "영문 슬로건 상하 조합",
+          "files": {
+            "svg": "sources/official-recollection-20261011/c998483008d9cd346a8a.svg",
+            "png": "sources/official-recollection-20261011/dd868a4cbae9078bfc88.png"
+          },
+          "preview_png": "sources/official-recollection-20261011/7666f7f6610090a5abb7.png",
+          "provider": "official-original",
+          "official_distribution": true,
+          "order": 107,
+          "source_note": "공식 제공 AI 원본에서 가이드 없이 벡터 경로 추출 · 2026-10-11 검수",
+          "form": "signature",
+          "lang": "en",
+          "color": "color"
+        }
+      ]
+    }
+  },
+  "review": {
+    "source_kind": "official_distribution",
+    "brands": 2,
+    "new_variants": 9,
+    "visual_contact": "marketing/assets/png-recollection-resume-20261011/contact-initial.jpg"
+  }
+}

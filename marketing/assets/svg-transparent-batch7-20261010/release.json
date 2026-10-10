@@ -1,0 +1,254 @@
+{
+  "patches": {
+    "wish-1": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch7-20261010/0b9aa4c0e5d77e78/logo.svg",
+      "logo_png": "https://logo.vibers.co.kr/_clients/wish-1/sources/reviewed-alpha-batch7-20261010/14d199f26b6a9b1a/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/wish-1/sources/reviewed-alpha-batch7-20261010/7202e281b42deedf/preview.png",
+      "asset_review_status": "verified",
+      "variants_n": 1
+    },
+    "wiseco-1": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch7-20261010/b08e6e5cf1df4834/logo.svg",
+      "logo_png": "https://logo.vibers.co.kr/_clients/wiseco-1/sources/reviewed-alpha-batch7-20261010/1d99544258835714/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/wiseco-1/sources/reviewed-alpha-batch7-20261010/25f3835e7ca261fb/preview.png",
+      "asset_review_status": "verified",
+      "variants_n": 1
+    },
+    "wish-2": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch7-20261010/5e3e4131643a7d38/logo.svg",
+      "logo_png": "https://logo.vibers.co.kr/_clients/wish-2/sources/reviewed-alpha-batch7-20261010/77a83659f37d0fce/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/wish-2/sources/reviewed-alpha-batch7-20261010/0bb69aefebaa2885/preview.png",
+      "asset_review_status": "verified",
+      "variants_n": 1
+    },
+    "wirex": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch7-20261010/bf55e6c32756b25e/logo.svg",
+      "logo_png": "https://logo.vibers.co.kr/_clients/wirex/sources/reviewed-alpha-batch7-20261010/82822f6548e11a50/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/wirex/sources/reviewed-alpha-batch7-20261010/e8d11d72addb4a47/preview.png",
+      "asset_review_status": "verified",
+      "variants_n": 1
+    },
+    "wiretap-1": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch7-20261010/93bd0db326d72d78/logo.svg",
+      "logo_png": "https://logo.vibers.co.kr/_clients/wiretap-1/sources/reviewed-alpha-batch7-20261010/3231f4858dc48bd2/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/wiretap-1/sources/reviewed-alpha-batch7-20261010/b21e43cd3df14a46/preview.png",
+      "asset_review_status": "verified",
+      "variants_n": 1
+    },
+    "wireshark--src-b448d4a": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch7-20261010/c136ce9355ccdd02/logo.svg",
+      "logo_png": "https://logo.vibers.co.kr/_clients/wireshark--src-b448d4a/sources/reviewed-alpha-batch7-20261010/1eb5427807a12912/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/wireshark--src-b448d4a/sources/reviewed-alpha-batch7-20261010/6a72a309ca6e43d4/preview.png",
+      "asset_review_status": "verified",
+      "variants_n": 1
+    },
+    "wiretap-3": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch7-20261010/ff4a3eccaee21ecc/logo.svg",
+      "logo_png": "https://logo.vibers.co.kr/_clients/wiretap-3/sources/reviewed-alpha-batch7-20261010/aa27b9f963a2faac/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/wiretap-3/sources/reviewed-alpha-batch7-20261010/ab40e07a77051d7a/preview.png",
+      "asset_review_status": "verified",
+      "variants_n": 1
+    },
+    "wiredtree--src-1e22cdc": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch7-20261010/aa075924f6936f59/logo.svg",
+      "logo_png": "https://logo.vibers.co.kr/_clients/wiredtree--src-1e22cdc/sources/reviewed-alpha-batch7-20261010/18a7ff057e8aa7b3/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/wiredtree--src-1e22cdc/sources/reviewed-alpha-batch7-20261010/c058f4d80cd61d2b/preview.png",
+      "asset_review_status": "verified",
+      "variants_n": 1
+    }
+  },
+  "variants": {
+    "wish-1": {
+      "schema": 1,
+      "id": "wish-1",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "unknown",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch7-20261010/0b9aa4c0e5d77e78/logo.svg",
+            "png": "sources/reviewed-alpha-batch7-20261010/14d199f26b6a9b1a/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0,
+          "preview_png": "sources/reviewed-alpha-batch7-20261010/7202e281b42deedf/preview.png"
+        }
+      ]
+    },
+    "wiseco-1": {
+      "schema": 1,
+      "id": "wiseco-1",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "unknown",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch7-20261010/b08e6e5cf1df4834/logo.svg",
+            "png": "sources/reviewed-alpha-batch7-20261010/1d99544258835714/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0,
+          "preview_png": "sources/reviewed-alpha-batch7-20261010/25f3835e7ca261fb/preview.png"
+        }
+      ]
+    },
+    "wish-2": {
+      "schema": 1,
+      "id": "wish-2",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "unknown",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch7-20261010/5e3e4131643a7d38/logo.svg",
+            "png": "sources/reviewed-alpha-batch7-20261010/77a83659f37d0fce/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0,
+          "preview_png": "sources/reviewed-alpha-batch7-20261010/0bb69aefebaa2885/preview.png"
+        }
+      ]
+    },
+    "wirex": {
+      "schema": 1,
+      "id": "wirex",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "unknown",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch7-20261010/bf55e6c32756b25e/logo.svg",
+            "png": "sources/reviewed-alpha-batch7-20261010/82822f6548e11a50/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0,
+          "preview_png": "sources/reviewed-alpha-batch7-20261010/e8d11d72addb4a47/preview.png"
+        }
+      ]
+    },
+    "wiretap-1": {
+      "schema": 1,
+      "id": "wiretap-1",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "unknown",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch7-20261010/93bd0db326d72d78/logo.svg",
+            "png": "sources/reviewed-alpha-batch7-20261010/3231f4858dc48bd2/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0,
+          "preview_png": "sources/reviewed-alpha-batch7-20261010/b21e43cd3df14a46/preview.png"
+        }
+      ]
+    },
+    "wireshark--src-b448d4a": {
+      "schema": 1,
+      "id": "wireshark--src-b448d4a",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "unknown",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch7-20261010/c136ce9355ccdd02/logo.svg",
+            "png": "sources/reviewed-alpha-batch7-20261010/1eb5427807a12912/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0,
+          "preview_png": "sources/reviewed-alpha-batch7-20261010/6a72a309ca6e43d4/preview.png"
+        }
+      ]
+    },
+    "wiretap-3": {
+      "schema": 1,
+      "id": "wiretap-3",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "unknown",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch7-20261010/ff4a3eccaee21ecc/logo.svg",
+            "png": "sources/reviewed-alpha-batch7-20261010/aa27b9f963a2faac/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0,
+          "preview_png": "sources/reviewed-alpha-batch7-20261010/ab40e07a77051d7a/preview.png"
+        }
+      ]
+    },
+    "wiredtree--src-1e22cdc": {
+      "schema": 1,
+      "id": "wiredtree--src-1e22cdc",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "unknown",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch7-20261010/aa075924f6936f59/logo.svg",
+            "png": "sources/reviewed-alpha-batch7-20261010/18a7ff057e8aa7b3/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0,
+          "preview_png": "sources/reviewed-alpha-batch7-20261010/c058f4d80cd61d2b/preview.png"
+        }
+      ]
+    }
+  }
+}

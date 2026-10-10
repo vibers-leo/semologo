@@ -1,0 +1,25 @@
+{
+  "gongu-ci-1732": {
+    "variants_n": 1,
+    "source_zip": "sources/official-recollection-20261011/3f2a3196958683c72635.zip",
+    "logo_png": "sources/official-recollection-20261011/74260ca541f0705c4a38.png",
+    "preview_png": "sources/official-recollection-20261011/da212e431fd61644329d.png",
+    "logo_svg": null,
+    "svg_transparent": null,
+    "has_png": true,
+    "has_svg": false,
+    "metadata": {
+      "has_png": true,
+      "has_svg": false
+    },
+    "presentation": {
+      "file": "sources/official-recollection-20261011/74260ca541f0705c4a38.png",
+      "background": "white",
+      "bg": "white"
+    },
+    "asset_origin": "official-original",
+    "asset_review_status": "verified",
+    "official_source_page": "http://www.haenam.go.kr/index.9is?contentUid=18e3368f5d745106015e55823637348f",
+    "source_original_label": "공식 제공 원본 ZIP"
+  }
+}

@@ -1,0 +1,1109 @@
+{
+  "checked_at": "2026-10-10T15:00:25.160096+00:00",
+  "approved": 110,
+  "objects": 440,
+  "brands": [
+    {
+      "id": "wisewizards-1",
+      "canonical_status": "published",
+      "prior_primary": null,
+      "after_primary": "reviewed-transparent",
+      "prior_variants_preserved": 0,
+      "cdn_status": 404,
+      "source_svg_unmodified": true,
+      "pass": true
+    },
+    {
+      "id": "wish-wordmark-1",
+      "canonical_status": "published",
+      "prior_primary": null,
+      "after_primary": "reviewed-transparent",
+      "prior_variants_preserved": 0,
+      "cdn_status": 404,
+      "source_svg_unmodified": true,
+      "pass": true
+    },
+    {
+      "id": "wisk",
+      "canonical_status": "published",
+      "prior_primary": null,
+      "after_primary": "reviewed-transparent",
+      "prior_variants_preserved": 0,
+      "cdn_status": 404,
+      "source_svg_unmodified": true,
+      "pass": true
+    },
+    {
+      "id": "wistia-new-logo",
+      "canonical_status": "published",
+      "prior_primary": null,
+      "after_primary": "reviewed-transparent",
+      "prior_variants_preserved": 0,
+      "cdn_status": 404,
+      "source_svg_unmodified": true,
+      "pass": true
+    },
+    {
+      "id": "wistron-logo",
+      "canonical_status": "published",
+      "prior_primary": null,
+      "after_primary": "reviewed-transparent",
+      "prior_variants_preserved": 0,
+      "cdn_status": 404,
+      "source_svg_unmodified": true,
+      "pass": true
+    },
+    {
+      "id": "wit",
+      "canonical_status": "published",
+      "prior_primary": null,
+      "after_primary": "reviewed-transparent",
+      "prior_variants_preserved": 0,
+      "cdn_status": 404,
+      "source_svg_unmodified": true,
+      "pass": true
+    },
+    {
+      "id": "wit-studio--src-cd3d621",
+      "canonical_status": "published",
+      "prior_primary": null,
+      "after_primary": "reviewed-transparent",
+      "prior_variants_preserved": 0,
+      "cdn_status": 404,
+      "source_svg_unmodified": true,
+      "pass": true
+    },
+    {
+      "id": "witness",
+      "canonical_status": "published",
+      "prior_primary": null,
+      "after_primary": "reviewed-transparent",
+      "prior_variants_preserved": 0,
+      "cdn_status": 404,
+      "source_svg_unmodified": true,
+      "pass": true
+    },
+    {
+      "id": "wix--src-01aaeb7",
+      "canonical_status": "published",
+      "prior_primary": null,
+      "after_primary": "reviewed-transparent",
+      "prior_variants_preserved": 0,
+      "cdn_status": 404,
+      "source_svg_unmodified": true,
+      "pass": true
+    },
+    {
+      "id": "wix-com-website-logo",
+      "canonical_status": "published",
+      "prior_primary": null,
+      "after_primary": "reviewed-transparent",
+      "prior_variants_preserved": 0,
+      "cdn_status": 404,
+      "source_svg_unmodified": true,
+      "pass": true
+    },
+    {
+      "id": "wix-com-website-logo-1",
+      "canonical_status": "published",
+      "prior_primary": null,
+      "after_primary": "reviewed-transparent",
+      "prior_variants_preserved": 0,
+      "cdn_status": 404,
+      "source_svg_unmodified": true,
+      "pass": true
+    },
+    {
+      "id": "wix-logo-1",
+      "canonical_status": "published",
+      "prior_primary": null,
+      "after_primary": "reviewed-transparent",
+      "prior_variants_preserved": 0,
+      "cdn_status": 404,
+      "source_svg_unmodified": true,
+      "pass": true
+    },
+    {
+      "id": "wizards",
+      "canonical_status": "published",
+      "prior_primary": null,
+      "after_primary": "reviewed-transparent",
+      "prior_variants_preserved": 0,
+      "cdn_status": 404,
+      "source_svg_unmodified": true,
+      "pass": true
+    },
+    {
+      "id": "wizards-of-the-coast-logo",
+      "canonical_status": "published",
+      "prior_primary": null,
+      "after_primary": "reviewed-transparent",
+      "prior_variants_preserved": 0,
+      "cdn_status": 404,
+      "source_svg_unmodified": true,
+      "pass": true
+    },
+    {
+      "id": "wizz-air",
+      "canonical_status": "published",
+      "prior_primary": null,
+      "after_primary": "reviewed-transparent",
+      "prior_variants_preserved": 0,
+      "cdn_status": 404,
+      "source_svg_unmodified": true,
+      "pass": true
+    },
+    {
+      "id": "wm-morrison-supermarkets-logo",
+      "canonical_status": "published",
+      "prior_primary": null,
+      "after_primary": "reviewed-transparent",
+      "prior_variants_preserved": 0,
+      "cdn_status": 404,
+      "source_svg_unmodified": true,
+      "pass": true
+    },
+    {
+      "id": "wmd-world-map",
+      "canonical_status": "published",
+      "prior_primary": null,
+      "after_primary": "reviewed-transparent",
+      "prior_variants_preserved": 0,
+      "cdn_status": 404,
+      "source_svg_unmodified": true,
+      "pass": true
+    },
+    {
+      "id": "wnl-2",
+      "canonical_status": "published",
+      "prior_primary": null,
+      "after_primary": "reviewed-transparent",
+      "prior_variants_preserved": 0,
+      "cdn_status": 404,
+      "source_svg_unmodified": true,
+      "pass": true
+    },
+    {
+      "id": "wodify-logo-2",
+      "canonical_status": "published",
+      "prior_primary": null,
+      "after_primary": "reviewed-transparent",
+      "prior_variants_preserved": 0,
+      "cdn_status": 404,
+      "source_svg_unmodified": true,
+      "pass": true
+    },
+    {
+      "id": "wolf-logo",
+      "canonical_status": "published",
+      "prior_primary": null,
+      "after_primary": "reviewed-transparent",
+      "prior_variants_preserved": 0,
+      "cdn_status": 404,
+      "source_svg_unmodified": true,
+      "pass": true
+    },
+    {
+      "id": "wolf-logo-1",
+      "canonical_status": "published",
+      "prior_primary": null,
+      "after_primary": "reviewed-transparent",
+      "prior_variants_preserved": 0,
+      "cdn_status": 404,
+      "source_svg_unmodified": true,
+      "pass": true
+    },
+    {
+      "id": "wolf-river-community-bank",
+      "canonical_status": "published",
+      "prior_primary": null,
+      "after_primary": "reviewed-transparent",
+      "prior_variants_preserved": 0,
+      "cdn_status": 404,
+      "source_svg_unmodified": true,
+      "pass": true
+    },
+    {
+      "id": "wolford-logo-2005",
+      "canonical_status": "published",
+      "prior_primary": null,
+      "after_primary": "reviewed-transparent",
+      "prior_variants_preserved": 0,
+      "cdn_status": 404,
+      "source_svg_unmodified": true,
+      "pass": true
+    },
+    {
+      "id": "wolfram-alpha-december-2016",
+      "canonical_status": "published",
+      "prior_primary": null,
+      "after_primary": "reviewed-transparent",
+      "prior_variants_preserved": 0,
+      "cdn_status": 404,
+      "source_svg_unmodified": true,
+      "pass": true
+    },
+    {
+      "id": "wolfsb-1",
+      "canonical_status": "published",
+      "prior_primary": null,
+      "after_primary": "reviewed-transparent",
+      "prior_variants_preserved": 0,
+      "cdn_status": 404,
+      "source_svg_unmodified": true,
+      "pass": true
+    },
+    {
+      "id": "wolfsb-2",
+      "canonical_status": "published",
+      "prior_primary": null,
+      "after_primary": "reviewed-transparent",
+      "prior_variants_preserved": 0,
+      "cdn_status": 404,
+      "source_svg_unmodified": true,
+      "pass": true
+    },
+    {
+      "id": "wolters-kluwer-2",
+      "canonical_status": "published",
+      "prior_primary": null,
+      "after_primary": "reviewed-transparent",
+      "prior_variants_preserved": 0,
+      "cdn_status": 404,
+      "source_svg_unmodified": true,
+      "pass": true
+    },
+    {
+      "id": "wolves",
+      "canonical_status": "published",
+      "prior_primary": null,
+      "after_primary": "reviewed-transparent",
+      "prior_variants_preserved": 0,
+      "cdn_status": 404,
+      "source_svg_unmodified": true,
+      "pass": true
+    },
+    {
+      "id": "wolves-1",
+      "canonical_status": "published",
+      "prior_primary": null,
+      "after_primary": "reviewed-transparent",
+      "prior_variants_preserved": 0,
+      "cdn_status": 404,
+      "source_svg_unmodified": true,
+      "pass": true
+    },
+    {
+      "id": "woman-s-weekly",
+      "canonical_status": "published",
+      "prior_primary": null,
+      "after_primary": "reviewed-transparent",
+      "prior_variants_preserved": 0,
+      "cdn_status": 404,
+      "source_svg_unmodified": true,
+      "pass": true
+    },
+    {
+      "id": "won-door-1",
+      "canonical_status": "published",
+      "prior_primary": null,
+      "after_primary": "reviewed-transparent",
+      "prior_variants_preserved": 0,
+      "cdn_status": 404,
+      "source_svg_unmodified": true,
+      "pass": true
+    },
+    {
+      "id": "wonder-woman--src-5c32336",
+      "canonical_status": "published",
+      "prior_primary": null,
+      "after_primary": "reviewed-transparent",
+      "prior_variants_preserved": 0,
+      "cdn_status": 404,
+      "source_svg_unmodified": true,
+      "pass": true
+    },
+    {
+      "id": "wonder-woman-3",
+      "canonical_status": "published",
+      "prior_primary": null,
+      "after_primary": "reviewed-transparent",
+      "prior_variants_preserved": 0,
+      "cdn_status": 404,
+      "source_svg_unmodified": true,
+      "pass": true
+    },
+    {
+      "id": "woocommerce--src-2829b97",
+      "canonical_status": "published",
+      "prior_primary": null,
+      "after_primary": "reviewed-transparent",
+      "prior_variants_preserved": 0,
+      "cdn_status": 404,
+      "source_svg_unmodified": true,
+      "pass": true
+    },
+    {
+      "id": "woocommerce-1",
+      "canonical_status": "published",
+      "prior_primary": null,
+      "after_primary": "reviewed-transparent",
+      "prior_variants_preserved": 0,
+      "cdn_status": 404,
+      "source_svg_unmodified": true,
+      "pass": true
+    },
+    {
+      "id": "woods-cross-high-school",
+      "canonical_status": "published",
+      "prior_primary": null,
+      "after_primary": "reviewed-transparent",
+      "prior_variants_preserved": 0,
+      "cdn_status": 404,
+      "source_svg_unmodified": true,
+      "pass": true
+    },
+    {
+      "id": "woolrich-2",
+      "canonical_status": "published",
+      "prior_primary": null,
+      "after_primary": "reviewed-transparent",
+      "prior_variants_preserved": 0,
+      "cdn_status": 404,
+      "source_svg_unmodified": true,
+      "pass": true
+    },
+    {
+      "id": "woolworths-4",
+      "canonical_status": "published",
+      "prior_primary": null,
+      "after_primary": "reviewed-transparent",
+      "prior_variants_preserved": 0,
+      "cdn_status": 404,
+      "source_svg_unmodified": true,
+      "pass": true
+    },
+    {
+      "id": "woolworths-5",
+      "canonical_status": "published",
+      "prior_primary": null,
+      "after_primary": "reviewed-transparent",
+      "prior_variants_preserved": 0,
+      "cdn_status": 404,
+      "source_svg_unmodified": true,
+      "pass": true
+    },
+    {
+      "id": "woopra--src-5dd64c0",
+      "canonical_status": "published",
+      "prior_primary": null,
+      "after_primary": "reviewed-transparent",
+      "prior_variants_preserved": 0,
+      "cdn_status": 404,
+      "source_svg_unmodified": true,
+      "pass": true
+    },
+    {
+      "id": "word-1",
+      "canonical_status": "published",
+      "prior_primary": null,
+      "after_primary": "reviewed-transparent",
+      "prior_variants_preserved": 0,
+      "cdn_status": 404,
+      "source_svg_unmodified": true,
+      "pass": true
+    },
+    {
+      "id": "wordmark-black-medium",
+      "canonical_status": "published",
+      "prior_primary": null,
+      "after_primary": "reviewed-transparent",
+      "prior_variants_preserved": 0,
+      "cdn_status": 404,
+      "source_svg_unmodified": true,
+      "pass": true
+    },
+    {
+      "id": "wordpress-blue-1",
+      "canonical_status": "published",
+      "prior_primary": null,
+      "after_primary": "reviewed-transparent",
+      "prior_variants_preserved": 0,
+      "cdn_status": 404,
+      "source_svg_unmodified": true,
+      "pass": true
+    },
+    {
+      "id": "work-1",
+      "canonical_status": "published",
+      "prior_primary": null,
+      "after_primary": "reviewed-transparent",
+      "prior_variants_preserved": 0,
+      "cdn_status": 404,
+      "source_svg_unmodified": true,
+      "pass": true
+    },
+    {
+      "id": "work-2",
+      "canonical_status": "published",
+      "prior_primary": null,
+      "after_primary": "reviewed-transparent",
+      "prior_variants_preserved": 0,
+      "cdn_status": 404,
+      "source_svg_unmodified": true,
+      "pass": true
+    },
+    {
+      "id": "workboard--src-4eaaf3b",
+      "canonical_status": "published",
+      "prior_primary": null,
+      "after_primary": "reviewed-transparent",
+      "prior_variants_preserved": 0,
+      "cdn_status": 404,
+      "source_svg_unmodified": true,
+      "pass": true
+    },
+    {
+      "id": "workday-logo",
+      "canonical_status": "published",
+      "prior_primary": null,
+      "after_primary": "reviewed-transparent",
+      "prior_variants_preserved": 0,
+      "cdn_status": 404,
+      "source_svg_unmodified": true,
+      "pass": true
+    },
+    {
+      "id": "workerman",
+      "canonical_status": "published",
+      "prior_primary": null,
+      "after_primary": "reviewed-transparent",
+      "prior_variants_preserved": 0,
+      "cdn_status": 404,
+      "source_svg_unmodified": true,
+      "pass": true
+    },
+    {
+      "id": "workhorse-group-logo-full",
+      "canonical_status": "published",
+      "prior_primary": null,
+      "after_primary": "reviewed-transparent",
+      "prior_variants_preserved": 0,
+      "cdn_status": 404,
+      "source_svg_unmodified": true,
+      "pass": true
+    },
+    {
+      "id": "workingtitle",
+      "canonical_status": "published",
+      "prior_primary": null,
+      "after_primary": "reviewed-transparent",
+      "prior_variants_preserved": 0,
+      "cdn_status": 404,
+      "source_svg_unmodified": true,
+      "pass": true
+    },
+    {
+      "id": "worklio",
+      "canonical_status": "published",
+      "prior_primary": null,
+      "after_primary": "reviewed-transparent",
+      "prior_variants_preserved": 0,
+      "cdn_status": 404,
+      "source_svg_unmodified": true,
+      "pass": true
+    },
+    {
+      "id": "workmarket-1",
+      "canonical_status": "published",
+      "prior_primary": null,
+      "after_primary": "reviewed-transparent",
+      "prior_variants_preserved": 0,
+      "cdn_status": 404,
+      "source_svg_unmodified": true,
+      "pass": true
+    },
+    {
+      "id": "workship",
+      "canonical_status": "published",
+      "prior_primary": null,
+      "after_primary": "reviewed-transparent",
+      "prior_variants_preserved": 0,
+      "cdn_status": 404,
+      "source_svg_unmodified": true,
+      "pass": true
+    },
+    {
+      "id": "workship-1",
+      "canonical_status": "published",
+      "prior_primary": null,
+      "after_primary": "reviewed-transparent",
+      "prior_variants_preserved": 0,
+      "cdn_status": 404,
+      "source_svg_unmodified": true,
+      "pass": true
+    },
+    {
+      "id": "workwear-group-1",
+      "canonical_status": "published",
+      "prior_primary": null,
+      "after_primary": "reviewed-transparent",
+      "prior_variants_preserved": 0,
+      "cdn_status": 404,
+      "source_svg_unmodified": true,
+      "pass": true
+    },
+    {
+      "id": "world-anti-doping-agency-logo",
+      "canonical_status": "published",
+      "prior_primary": null,
+      "after_primary": "reviewed-transparent",
+      "prior_variants_preserved": 0,
+      "cdn_status": 404,
+      "source_svg_unmodified": true,
+      "pass": true
+    },
+    {
+      "id": "world-food-programme-logo-simple",
+      "canonical_status": "published",
+      "prior_primary": null,
+      "after_primary": "reviewed-transparent",
+      "prior_variants_preserved": 0,
+      "cdn_status": 404,
+      "source_svg_unmodified": true,
+      "pass": true
+    },
+    {
+      "id": "world-health-organization-logo-1",
+      "canonical_status": "published",
+      "prior_primary": null,
+      "after_primary": "reviewed-transparent",
+      "prior_variants_preserved": 0,
+      "cdn_status": 404,
+      "source_svg_unmodified": true,
+      "pass": true
+    },
+    {
+      "id": "world-of-content-1",
+      "canonical_status": "published",
+      "prior_primary": null,
+      "after_primary": "reviewed-transparent",
+      "prior_variants_preserved": 0,
+      "cdn_status": 404,
+      "source_svg_unmodified": true,
+      "pass": true
+    },
+    {
+      "id": "world-online",
+      "canonical_status": "published",
+      "prior_primary": null,
+      "after_primary": "reviewed-transparent",
+      "prior_variants_preserved": 0,
+      "cdn_status": 404,
+      "source_svg_unmodified": true,
+      "pass": true
+    },
+    {
+      "id": "world-online-2",
+      "canonical_status": "published",
+      "prior_primary": null,
+      "after_primary": "reviewed-transparent",
+      "prior_variants_preserved": 0,
+      "cdn_status": 404,
+      "source_svg_unmodified": true,
+      "pass": true
+    },
+    {
+      "id": "world-vector-logo",
+      "canonical_status": "published",
+      "prior_primary": null,
+      "after_primary": "reviewed-transparent",
+      "prior_variants_preserved": 0,
+      "cdn_status": 404,
+      "source_svg_unmodified": true,
+      "pass": true
+    },
+    {
+      "id": "world-vector-logo-1",
+      "canonical_status": "published",
+      "prior_primary": null,
+      "after_primary": "reviewed-transparent",
+      "prior_variants_preserved": 0,
+      "cdn_status": 404,
+      "source_svg_unmodified": true,
+      "pass": true
+    },
+    {
+      "id": "world-vector-logo-2",
+      "canonical_status": "published",
+      "prior_primary": null,
+      "after_primary": "reviewed-transparent",
+      "prior_variants_preserved": 0,
+      "cdn_status": 404,
+      "source_svg_unmodified": true,
+      "pass": true
+    },
+    {
+      "id": "world-web-technology",
+      "canonical_status": "published",
+      "prior_primary": null,
+      "after_primary": "reviewed-transparent",
+      "prior_variants_preserved": 0,
+      "cdn_status": 404,
+      "source_svg_unmodified": true,
+      "pass": true
+    },
+    {
+      "id": "world-wide-stereo",
+      "canonical_status": "published",
+      "prior_primary": null,
+      "after_primary": "reviewed-transparent",
+      "prior_variants_preserved": 0,
+      "cdn_status": 404,
+      "source_svg_unmodified": true,
+      "pass": true
+    },
+    {
+      "id": "worldcryptocap",
+      "canonical_status": "published",
+      "prior_primary": null,
+      "after_primary": "reviewed-transparent",
+      "prior_variants_preserved": 0,
+      "cdn_status": 404,
+      "source_svg_unmodified": true,
+      "pass": true
+    },
+    {
+      "id": "worldvectorlcom",
+      "canonical_status": "published",
+      "prior_primary": null,
+      "after_primary": "reviewed-transparent",
+      "prior_variants_preserved": 0,
+      "cdn_status": 404,
+      "source_svg_unmodified": true,
+      "pass": true
+    },
+    {
+      "id": "worldvectorlogo",
+      "canonical_status": "published",
+      "prior_primary": null,
+      "after_primary": "reviewed-transparent",
+      "prior_variants_preserved": 0,
+      "cdn_status": 404,
+      "source_svg_unmodified": true,
+      "pass": true
+    },
+    {
+      "id": "worldvectorlogo-black",
+      "canonical_status": "published",
+      "prior_primary": null,
+      "after_primary": "reviewed-transparent",
+      "prior_variants_preserved": 0,
+      "cdn_status": 404,
+      "source_svg_unmodified": true,
+      "pass": true
+    },
+    {
+      "id": "wow-deck-ltd",
+      "canonical_status": "published",
+      "prior_primary": null,
+      "after_primary": "reviewed-transparent",
+      "prior_variants_preserved": 0,
+      "cdn_status": 404,
+      "source_svg_unmodified": true,
+      "pass": true
+    },
+    {
+      "id": "wpgraphql-logo-1",
+      "canonical_status": "published",
+      "prior_primary": null,
+      "after_primary": "reviewed-transparent",
+      "prior_variants_preserved": 0,
+      "cdn_status": 404,
+      "source_svg_unmodified": true,
+      "pass": true
+    },
+    {
+      "id": "wpp-1",
+      "canonical_status": "published",
+      "prior_primary": null,
+      "after_primary": "reviewed-transparent",
+      "prior_variants_preserved": 0,
+      "cdn_status": 404,
+      "source_svg_unmodified": true,
+      "pass": true
+    },
+    {
+      "id": "wpx-hosting-2",
+      "canonical_status": "published",
+      "prior_primary": null,
+      "after_primary": "reviewed-transparent",
+      "prior_variants_preserved": 0,
+      "cdn_status": 404,
+      "source_svg_unmodified": true,
+      "pass": true
+    },
+    {
+      "id": "wpx-hosting-3",
+      "canonical_status": "published",
+      "prior_primary": null,
+      "after_primary": "reviewed-transparent",
+      "prior_variants_preserved": 0,
+      "cdn_status": 404,
+      "source_svg_unmodified": true,
+      "pass": true
+    },
+    {
+      "id": "wpx-hosting-4",
+      "canonical_status": "published",
+      "prior_primary": null,
+      "after_primary": "reviewed-transparent",
+      "prior_variants_preserved": 0,
+      "cdn_status": 404,
+      "source_svg_unmodified": true,
+      "pass": true
+    },
+    {
+      "id": "wrangler-jeans-logo",
+      "canonical_status": "published",
+      "prior_primary": null,
+      "after_primary": "reviewed-transparent",
+      "prior_variants_preserved": 0,
+      "cdn_status": 404,
+      "source_svg_unmodified": true,
+      "pass": true
+    },
+    {
+      "id": "wrangler-logo",
+      "canonical_status": "published",
+      "prior_primary": null,
+      "after_primary": "reviewed-transparent",
+      "prior_variants_preserved": 0,
+      "cdn_status": 404,
+      "source_svg_unmodified": true,
+      "pass": true
+    },
+    {
+      "id": "wriggle",
+      "canonical_status": "published",
+      "prior_primary": null,
+      "after_primary": "reviewed-transparent",
+      "prior_variants_preserved": 0,
+      "cdn_status": 404,
+      "source_svg_unmodified": true,
+      "pass": true
+    },
+    {
+      "id": "wrike",
+      "canonical_status": "published",
+      "prior_primary": null,
+      "after_primary": "reviewed-transparent",
+      "prior_variants_preserved": 0,
+      "cdn_status": 404,
+      "source_svg_unmodified": true,
+      "pass": true
+    },
+    {
+      "id": "wrike-wordmark-1",
+      "canonical_status": "published",
+      "prior_primary": null,
+      "after_primary": "reviewed-transparent",
+      "prior_variants_preserved": 0,
+      "cdn_status": 404,
+      "source_svg_unmodified": true,
+      "pass": true
+    },
+    {
+      "id": "wtcc-logo",
+      "canonical_status": "published",
+      "prior_primary": null,
+      "after_primary": "reviewed-transparent",
+      "prior_variants_preserved": 0,
+      "cdn_status": 404,
+      "source_svg_unmodified": true,
+      "pass": true
+    },
+    {
+      "id": "wtf-nl",
+      "canonical_status": "published",
+      "prior_primary": null,
+      "after_primary": "reviewed-transparent",
+      "prior_variants_preserved": 0,
+      "cdn_status": 404,
+      "source_svg_unmodified": true,
+      "pass": true
+    },
+    {
+      "id": "wtk-elektronik-1",
+      "canonical_status": "published",
+      "prior_primary": null,
+      "after_primary": "reviewed-transparent",
+      "prior_variants_preserved": 0,
+      "cdn_status": 404,
+      "source_svg_unmodified": true,
+      "pass": true
+    },
+    {
+      "id": "wtv-logo-ja",
+      "canonical_status": "published",
+      "prior_primary": null,
+      "after_primary": "reviewed-transparent",
+      "prior_variants_preserved": 0,
+      "cdn_status": 404,
+      "source_svg_unmodified": true,
+      "pass": true
+    },
+    {
+      "id": "wud-1",
+      "canonical_status": "published",
+      "prior_primary": null,
+      "after_primary": "reviewed-transparent",
+      "prior_variants_preserved": 0,
+      "cdn_status": 404,
+      "source_svg_unmodified": true,
+      "pass": true
+    },
+    {
+      "id": "wuerth-group-logo-1",
+      "canonical_status": "published",
+      "prior_primary": null,
+      "after_primary": "reviewed-transparent",
+      "prior_variants_preserved": 0,
+      "cdn_status": 404,
+      "source_svg_unmodified": true,
+      "pass": true
+    },
+    {
+      "id": "wuerth-logo-1",
+      "canonical_status": "published",
+      "prior_primary": null,
+      "after_primary": "reviewed-transparent",
+      "prior_variants_preserved": 0,
+      "cdn_status": 404,
+      "source_svg_unmodified": true,
+      "pass": true
+    },
+    {
+      "id": "wufoo--src-5f8cbaa",
+      "canonical_status": "published",
+      "prior_primary": null,
+      "after_primary": "reviewed-transparent",
+      "prior_variants_preserved": 0,
+      "cdn_status": 404,
+      "source_svg_unmodified": true,
+      "pass": true
+    },
+    {
+      "id": "wuhan-iron-and-steel-logo",
+      "canonical_status": "published",
+      "prior_primary": null,
+      "after_primary": "reviewed-transparent",
+      "prior_variants_preserved": 0,
+      "cdn_status": 404,
+      "source_svg_unmodified": true,
+      "pass": true
+    },
+    {
+      "id": "wunderlist",
+      "canonical_status": "published",
+      "prior_primary": null,
+      "after_primary": "reviewed-transparent",
+      "prior_variants_preserved": 0,
+      "cdn_status": 404,
+      "source_svg_unmodified": true,
+      "pass": true
+    },
+    {
+      "id": "wunjo-2",
+      "canonical_status": "published",
+      "prior_primary": null,
+      "after_primary": "reviewed-transparent",
+      "prior_variants_preserved": 0,
+      "cdn_status": 404,
+      "source_svg_unmodified": true,
+      "pass": true
+    },
+    {
+      "id": "wupper-1",
+      "canonical_status": "published",
+      "prior_primary": null,
+      "after_primary": "reviewed-transparent",
+      "prior_variants_preserved": 0,
+      "cdn_status": 404,
+      "source_svg_unmodified": true,
+      "pass": true
+    },
+    {
+      "id": "wwe-raw-logo-2018",
+      "canonical_status": "published",
+      "prior_primary": null,
+      "after_primary": "reviewed-transparent",
+      "prior_variants_preserved": 0,
+      "cdn_status": 404,
+      "source_svg_unmodified": true,
+      "pass": true
+    },
+    {
+      "id": "wwf-logo",
+      "canonical_status": "published",
+      "prior_primary": null,
+      "after_primary": "reviewed-transparent",
+      "prior_variants_preserved": 0,
+      "cdn_status": 404,
+      "source_svg_unmodified": true,
+      "pass": true
+    },
+    {
+      "id": "wwf-no-way-out",
+      "canonical_status": "published",
+      "prior_primary": null,
+      "after_primary": "reviewed-transparent",
+      "prior_variants_preserved": 0,
+      "cdn_status": 404,
+      "source_svg_unmodified": true,
+      "pass": true
+    },
+    {
+      "id": "wwf-unforgiven",
+      "canonical_status": "published",
+      "prior_primary": null,
+      "after_primary": "reviewed-transparent",
+      "prior_variants_preserved": 0,
+      "cdn_status": 404,
+      "source_svg_unmodified": true,
+      "pass": true
+    },
+    {
+      "id": "wyeco-logo-4",
+      "canonical_status": "published",
+      "prior_primary": null,
+      "after_primary": "reviewed-transparent",
+      "prior_variants_preserved": 0,
+      "cdn_status": 404,
+      "source_svg_unmodified": true,
+      "pass": true
+    },
+    {
+      "id": "wyre-1",
+      "canonical_status": "published",
+      "prior_primary": null,
+      "after_primary": "reviewed-transparent",
+      "prior_variants_preserved": 0,
+      "cdn_status": 404,
+      "source_svg_unmodified": true,
+      "pass": true
+    },
+    {
+      "id": "x-2",
+      "canonical_status": "published",
+      "prior_primary": null,
+      "after_primary": "reviewed-transparent",
+      "prior_variants_preserved": 0,
+      "cdn_status": 404,
+      "source_svg_unmodified": true,
+      "pass": true
+    },
+    {
+      "id": "x-archery",
+      "canonical_status": "published",
+      "prior_primary": null,
+      "after_primary": "reviewed-transparent",
+      "prior_variants_preserved": 0,
+      "cdn_status": 404,
+      "source_svg_unmodified": true,
+      "pass": true
+    },
+    {
+      "id": "x-byte-lab-1",
+      "canonical_status": "published",
+      "prior_primary": null,
+      "after_primary": "reviewed-transparent",
+      "prior_variants_preserved": 0,
+      "cdn_status": 404,
+      "source_svg_unmodified": true,
+      "pass": true
+    },
+    {
+      "id": "x-games-2",
+      "canonical_status": "published",
+      "prior_primary": null,
+      "after_primary": "reviewed-transparent",
+      "prior_variants_preserved": 0,
+      "cdn_status": 404,
+      "source_svg_unmodified": true,
+      "pass": true
+    },
+    {
+      "id": "x-ray-goggles--src-c380805",
+      "canonical_status": "published",
+      "prior_primary": null,
+      "after_primary": "reviewed-transparent",
+      "prior_variants_preserved": 0,
+      "cdn_status": 404,
+      "source_svg_unmodified": true,
+      "pass": true
+    },
+    {
+      "id": "xacar",
+      "canonical_status": "published",
+      "prior_primary": null,
+      "after_primary": "reviewed-transparent",
+      "prior_variants_preserved": 0,
+      "cdn_status": 404,
+      "source_svg_unmodified": true,
+      "pass": true
+    },
+    {
+      "id": "xactimate-1",
+      "canonical_status": "published",
+      "prior_primary": null,
+      "after_primary": "reviewed-transparent",
+      "prior_variants_preserved": 0,
+      "cdn_status": 404,
+      "source_svg_unmodified": true,
+      "pass": true
+    },
+    {
+      "id": "xamax",
+      "canonical_status": "published",
+      "prior_primary": null,
+      "after_primary": "reviewed-transparent",
+      "prior_variants_preserved": 0,
+      "cdn_status": 404,
+      "source_svg_unmodified": true,
+      "pass": true
+    },
+    {
+      "id": "xanavi-nissan",
+      "canonical_status": "published",
+      "prior_primary": null,
+      "after_primary": "reviewed-transparent",
+      "prior_variants_preserved": 0,
+      "cdn_status": 404,
+      "source_svg_unmodified": true,
+      "pass": true
+    },
+    {
+      "id": "xanga--src-e99c26e",
+      "canonical_status": "published",
+      "prior_primary": null,
+      "after_primary": "reviewed-transparent",
+      "prior_variants_preserved": 0,
+      "cdn_status": 404,
+      "source_svg_unmodified": true,
+      "pass": true
+    },
+    {
+      "id": "xango",
+      "canonical_status": "published",
+      "prior_primary": null,
+      "after_primary": "reviewed-transparent",
+      "prior_variants_preserved": 0,
+      "cdn_status": 404,
+      "source_svg_unmodified": true,
+      "pass": true
+    }
+  ],
+  "holds": [],
+  "all_local_sha_pass": true
+}

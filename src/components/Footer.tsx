@@ -29,8 +29,8 @@ export default function Footer() {
                 <p style={{ fontSize: 11, color: "#52525b", margin: 0 }}>© {YEAR} Vibers. All rights reserved.</p>
                 <p style={{ fontSize: 11, lineHeight: 1.8, color: "#71717a", margin: 0 }}><T>{"모든 로고의 저작권은 각 브랜드에게 있습니다."}</T><br /><T>{"로고 사용 시 해당 브랜드의 브랜드 가이드라인을 따라주세요."}</T></p>
                 <p style={{ fontSize: 11, color: "#71717a", margin: 0 }}><T>{"제휴 및 광고 문의"}</T>{" "}
-                  <a href="mailto:contact@semologo.com" style={{ color: "#a1a1aa", textDecoration: "underline", textUnderlineOffset: 3 }}>
-                    contact@semologo.com
+                  <a href="mailto:vibers@vibers.co.kr" style={{ color: "#a1a1aa", textDecoration: "underline", textUnderlineOffset: 3 }}>
+                    vibers@vibers.co.kr
                   </a>
                 </p>
                 <div style={{ display: "flex", gap: 12, fontSize: 11 }}>
@@ -47,7 +47,7 @@ export default function Footer() {
                     </svg>
                   </button>
                   {bizOpen && (
-                    <div style={{ marginTop: 6, fontSize: 13, color: "#52525b", lineHeight: 1.9 }}><T>{"상호: 주식회사 계발자들 | 대표: 김정원 | 개인정보관리책임자: 이준호"}</T><br /><T>{"문의:"}</T><a href="mailto:contact@semologo.com" style={{ color: "#71717a", textDecoration: "underline" }}>contact@semologo.com</a>
+                    <div style={{ marginTop: 6, fontSize: 13, color: "#52525b", lineHeight: 1.9 }}><T>{"상호: 주식회사 계발자들 | 대표: 김정원 | 개인정보관리책임자: 이준호"}</T><br /><T>{"문의:"}</T><a href="mailto:vibers@vibers.co.kr" style={{ color: "#71717a", textDecoration: "underline" }}>vibers@vibers.co.kr</a>
                     </div>
                   )}
                 </div>
@@ -60,7 +60,7 @@ export default function Footer() {
                   { label: "로고 제보", href: "/submit" },
                   { label: "로고 요청", href: "/request" },
                   { label: "자주 묻는 질문", href: "/faq" },
-                  { label: "광고 문의", href: "mailto:contact@semologo.com" },
+                  { label: "광고 문의", href: "mailto:vibers@vibers.co.kr" },
                 ].map(({ label, href }) =>
                   href.startsWith("mailto") ? (
                     <a key={t(label)} href={href} style={{ fontSize: 11, color: "#71717a", textDecoration: "none", whiteSpace: "nowrap" }}>{t(label)}</a>

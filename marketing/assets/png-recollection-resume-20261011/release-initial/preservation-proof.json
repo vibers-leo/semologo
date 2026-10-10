@@ -1,0 +1,20 @@
+[
+  {
+    "id": "gongu-ci-1728",
+    "category_preserved": true,
+    "unpatched_payload_preserved": true,
+    "metadata_unpatched_preserved": true,
+    "variants_preserved": true,
+    "manifest_files_complete": true,
+    "new_variants": 1
+  },
+  {
+    "id": "gongu-ci-1752",
+    "category_preserved": true,
+    "unpatched_payload_preserved": true,
+    "metadata_unpatched_preserved": true,
+    "variants_preserved": true,
+    "manifest_files_complete": true,
+    "new_variants": 8
+  }
+]

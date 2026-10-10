@@ -1,0 +1,2 @@
+# Native app workspace is built and signed separately from the web container.
+native/

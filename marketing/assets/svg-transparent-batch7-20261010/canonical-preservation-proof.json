@@ -1,0 +1,243 @@
+{
+  "checked_at": "2026-10-10T15:13:58.764597+00:00",
+  "approved": 8,
+  "objects": 32,
+  "brands": [
+    {
+      "id": "wiredtree--src-1e22cdc",
+      "canonical_status": "published",
+      "prior_primary": null,
+      "after_primary": "reviewed-transparent",
+      "prior_variants_preserved": 0,
+      "cdn_status": 404,
+      "source_svg_unmodified": true,
+      "pass": true
+    },
+    {
+      "id": "wireshark--src-b448d4a",
+      "canonical_status": "published",
+      "prior_primary": null,
+      "after_primary": "reviewed-transparent",
+      "prior_variants_preserved": 0,
+      "cdn_status": 404,
+      "source_svg_unmodified": true,
+      "pass": true
+    },
+    {
+      "id": "wiretap-1",
+      "canonical_status": "published",
+      "prior_primary": null,
+      "after_primary": "reviewed-transparent",
+      "prior_variants_preserved": 0,
+      "cdn_status": 404,
+      "source_svg_unmodified": true,
+      "pass": true
+    },
+    {
+      "id": "wiretap-3",
+      "canonical_status": "published",
+      "prior_primary": null,
+      "after_primary": "reviewed-transparent",
+      "prior_variants_preserved": 0,
+      "cdn_status": 404,
+      "source_svg_unmodified": true,
+      "pass": true
+    },
+    {
+      "id": "wirex",
+      "canonical_status": "published",
+      "prior_primary": null,
+      "after_primary": "reviewed-transparent",
+      "prior_variants_preserved": 0,
+      "cdn_status": 404,
+      "source_svg_unmodified": true,
+      "pass": true
+    },
+    {
+      "id": "wiseco-1",
+      "canonical_status": "published",
+      "prior_primary": null,
+      "after_primary": "reviewed-transparent",
+      "prior_variants_preserved": 0,
+      "cdn_status": 404,
+      "source_svg_unmodified": true,
+      "pass": true
+    },
+    {
+      "id": "wish-1",
+      "canonical_status": "published",
+      "prior_primary": null,
+      "after_primary": "reviewed-transparent",
+      "prior_variants_preserved": 0,
+      "cdn_status": 404,
+      "source_svg_unmodified": true,
+      "pass": true
+    },
+    {
+      "id": "wish-2",
+      "canonical_status": "published",
+      "prior_primary": null,
+      "after_primary": "reviewed-transparent",
+      "prior_variants_preserved": 0,
+      "cdn_status": 404,
+      "source_svg_unmodified": true,
+      "pass": true
+    }
+  ],
+  "holds": [
+    {
+      "id": "wydad-casablanca--src-9c4bc08",
+      "reason": "Community batch owns canonical; avoid overlap"
+    },
+    {
+      "id": "wordpress-icon-1",
+      "reason": "Community batch owns canonical; avoid overlap"
+    },
+    {
+      "id": "workbox-1",
+      "reason": "Community batch owns canonical; avoid overlap"
+    },
+    {
+      "id": "wwf-king-of-the-ring",
+      "reason": "Community batch owns canonical; avoid overlap"
+    },
+    {
+      "id": "xamarin--src-cdb45f5",
+      "reason": "Community batch owns canonical; avoid overlap"
+    },
+    {
+      "id": "worldc-1",
+      "reason": "Community batch owns canonical; avoid overlap"
+    },
+    {
+      "id": "wp-engine-1",
+      "reason": "Community batch owns canonical; avoid overlap"
+    },
+    {
+      "id": "world-of-tanks-2",
+      "reason": "Community batch owns canonical; avoid overlap"
+    },
+    {
+      "id": "wp-suspension-logo-2",
+      "reason": "Community batch owns canonical; avoid overlap"
+    },
+    {
+      "id": "wse-logo",
+      "reason": "Community batch owns canonical; avoid overlap"
+    },
+    {
+      "id": "wolfram-language-1",
+      "reason": "Community batch owns canonical; avoid overlap"
+    },
+    {
+      "id": "wobi",
+      "reason": "Community batch owns canonical; avoid overlap"
+    },
+    {
+      "id": "witte-achtergrond-los-scherp-nieuw-logo-rem-zonwering-origineel-1",
+      "reason": "Community batch owns canonical; avoid overlap"
+    },
+    {
+      "id": "wwwfaceboocomdaovii99",
+      "reason": "Community batch owns canonical; avoid overlap"
+    },
+    {
+      "id": "wtc-3",
+      "reason": "Community batch owns canonical; avoid overlap"
+    },
+    {
+      "id": "wwf-vengeance",
+      "reason": "Community batch owns canonical; avoid overlap"
+    },
+    {
+      "id": "world-cooling-towers",
+      "reason": "Community batch owns canonical; avoid overlap"
+    },
+    {
+      "id": "world-trade-center-s-o-paulo",
+      "reason": "Community batch owns canonical; avoid overlap"
+    },
+    {
+      "id": "wolfram-language",
+      "reason": "Community batch owns canonical; avoid overlap"
+    },
+    {
+      "id": "woody-woodpecker-1",
+      "reason": "Community batch owns canonical; avoid overlap"
+    },
+    {
+      "id": "workplace-from-meta--src-61fdc65",
+      "reason": "Community batch owns canonical; avoid overlap"
+    },
+    {
+      "id": "world-of-warcraft",
+      "reason": "Community batch owns canonical; avoid overlap"
+    },
+    {
+      "id": "wordpress-icon--src-b8ac05c",
+      "reason": "Community batch owns canonical; avoid overlap"
+    },
+    {
+      "id": "world-of-tanks-3",
+      "reason": "Community batch owns canonical; avoid overlap"
+    },
+    {
+      "id": "wom-wang",
+      "reason": "Community batch owns canonical; avoid overlap"
+    },
+    {
+      "id": "wisdom-security-training-logo",
+      "reason": "Community batch owns canonical; avoid overlap"
+    },
+    {
+      "id": "wwf--src-428f46c",
+      "reason": "Community batch owns canonical; avoid overlap"
+    },
+    {
+      "id": "worldcore",
+      "reason": "Community batch owns canonical; avoid overlap"
+    },
+    {
+      "id": "wwf-6",
+      "reason": "Community batch owns canonical; avoid overlap"
+    },
+    {
+      "id": "world-bouquet",
+      "reason": "Community batch owns canonical; avoid overlap"
+    },
+    {
+      "id": "worklio-icon",
+      "reason": "Community batch owns canonical; avoid overlap"
+    },
+    {
+      "id": "wordpress-2",
+      "reason": "Community batch owns canonical; avoid overlap"
+    },
+    {
+      "id": "wybe-logo",
+      "reason": "Community batch owns canonical; avoid overlap"
+    },
+    {
+      "id": "wp-suspension-logo-1",
+      "reason": "Community batch owns canonical; avoid overlap"
+    },
+    {
+      "id": "wpengine--src-b78662e",
+      "reason": "Community batch owns canonical; avoid overlap"
+    },
+    {
+      "id": "world-of-motion-1",
+      "reason": "Community batch owns canonical; avoid overlap"
+    },
+    {
+      "id": "wisco-burgree-1",
+      "reason": "빨간 배지 내부 글자 영역이 투명 구멍으로 표시됨. 공식 원본 흰색 글자 보존 여부 확인 전 보류."
+    },
+    {
+      "id": "wisdom-security-training-1",
+      "reason": "검정 원형 배지 내부 흰색 독수리·글자가 투명 구멍으로 표시됨. 원본 흰색 영역 확인 전 보류."
+    }
+  ],
+  "all_local_sha_pass": true,
+  "visual_review": "new-only-contact.jpg inspected on light and dark, 8 approved; 2 white-art-hole badges held"
+}

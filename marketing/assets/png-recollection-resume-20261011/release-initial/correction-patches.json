@@ -1,0 +1,48 @@
+{
+  "gongu-ci-1728": {
+    "variants_n": 1,
+    "source_zip": "sources/official-recollection-20261011/3000ba706fccfe35b523.zip",
+    "logo_png": "sources/official-recollection-20261011/5f67650e52f55c5a926c.png",
+    "preview_png": "sources/official-recollection-20261011/8c2e4d70102de9acb3b8.png",
+    "logo_svg": "sources/official-recollection-20261011/a64db283dbe0ee8c0943.svg",
+    "svg_transparent": "sources/official-recollection-20261011/a64db283dbe0ee8c0943.svg",
+    "has_png": true,
+    "has_svg": true,
+    "metadata": {
+      "has_png": true,
+      "has_svg": true
+    },
+    "presentation": {
+      "file": "sources/official-recollection-20261011/5f67650e52f55c5a926c.png",
+      "background": "white",
+      "bg": "white"
+    },
+    "asset_origin": "official-original",
+    "asset_review_status": "verified",
+    "official_source_page": "https://www.hygn.go.kr/00432/00844/00852.web",
+    "source_original_label": "공식 제공 원본 ZIP"
+  },
+  "gongu-ci-1752": {
+    "variants_n": 8,
+    "source_zip": "sources/official-recollection-20261011/e8690e002a28bd3febc7.zip",
+    "logo_png": "sources/official-recollection-20261011/eb125edb726eedc39fc3.png",
+    "preview_png": "sources/official-recollection-20261011/7f4e027a383ef4494658.png",
+    "logo_svg": "sources/official-recollection-20261011/87e3b9ea01ba190be595.svg",
+    "svg_transparent": "sources/official-recollection-20261011/87e3b9ea01ba190be595.svg",
+    "has_png": true,
+    "has_svg": true,
+    "metadata": {
+      "has_png": true,
+      "has_svg": true
+    },
+    "presentation": {
+      "file": "sources/official-recollection-20261011/eb125edb726eedc39fc3.png",
+      "background": "white",
+      "bg": "white"
+    },
+    "asset_origin": "official-original",
+    "asset_review_status": "verified",
+    "official_source_page": "https://www.kintex.com/web/ko/html/company/overview_ci.do",
+    "source_original_label": "공식 제공 원본 ZIP"
+  }
+}

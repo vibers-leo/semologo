@@ -1,0 +1,28 @@
+{
+  "checked_at": "2026-10-10T15:36:47.220998+00:00",
+  "brands": 10,
+  "new_seeds": 9,
+  "existing": 1,
+  "new_variants": 11,
+  "objects": 22,
+  "native_png_only": true,
+  "min_original_width": 1025,
+  "max_original_width": 5273,
+  "no_enlargement": true,
+  "no_svg_wrappers": true,
+  "light_dark_contact_review": "PASS contact-1.jpg",
+  "local_all_sha_pass": true,
+  "existing_bat": {
+    "canonical_id": "british-american-tobacco",
+    "excluded_wrong_id": "bat (cryptocurrency)",
+    "source_identity": "British American Tobacco BAT ribbon/wordmark matches existing navy PNG",
+    "existing_primary_preserved": "existing-original",
+    "existing_png_sha256": "7d829c2d11de802b8f5dc3c1d1914495408e0176abd14da1a5fba423003db49a",
+    "existing_png_dimensions": [
+      400,
+      137
+    ],
+    "existing_variants": "none in current CMS/CDN snapshot; legacy navy original retained as selectable variant"
+  },
+  "source_archive_sha256": "aa2a8193696fe436e57853786f2c8f954854b6686c828f4aed9d6430786648f8"
+}

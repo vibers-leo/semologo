@@ -1,0 +1,25 @@
+{
+  "gongu-ci-1669": {
+    "variants_n": 9,
+    "source_zip": "sources/official-recollection-20261011/a4e2d0196ef748849ffa.zip",
+    "logo_png": "sources/official-recollection-20261011/4f8c98c265b54425d417.png",
+    "preview_png": "sources/official-recollection-20261011/554b7cf8b7b633485b7b.png",
+    "logo_svg": "sources/official-recollection-20261011/7da12ffb67c31af5a4a4.svg",
+    "svg_transparent": "sources/official-recollection-20261011/7da12ffb67c31af5a4a4.svg",
+    "has_png": true,
+    "has_svg": true,
+    "metadata": {
+      "has_png": true,
+      "has_svg": true
+    },
+    "presentation": {
+      "file": "sources/official-recollection-20261011/4f8c98c265b54425d417.png",
+      "background": "white",
+      "bg": "white"
+    },
+    "asset_origin": "official-original",
+    "asset_review_status": "verified",
+    "official_source_page": "https://www.fis.kr/ko/intro/ci",
+    "source_original_label": "공식 제공 원본 ZIP"
+  }
+}

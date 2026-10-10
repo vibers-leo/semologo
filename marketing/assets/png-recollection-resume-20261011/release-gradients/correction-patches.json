@@ -1,0 +1,48 @@
+{
+  "gongu-ci-1665": {
+    "variants_n": 1,
+    "source_zip": "sources/official-recollection-20261011/c3a016a2a85c7622a7fb.zip",
+    "logo_png": "sources/official-recollection-20261011/8c031909595f5e42be05.png",
+    "preview_png": "sources/official-recollection-20261011/12e3a1f4348f9466cde0.png",
+    "logo_svg": "sources/official-recollection-20261011/1c15d4126043f55db342.svg",
+    "svg_transparent": "sources/official-recollection-20261011/1c15d4126043f55db342.svg",
+    "has_png": true,
+    "has_svg": true,
+    "metadata": {
+      "has_png": true,
+      "has_svg": true
+    },
+    "presentation": {
+      "file": "sources/official-recollection-20261011/8c031909595f5e42be05.png",
+      "background": "white",
+      "bg": "white"
+    },
+    "asset_origin": "official-original",
+    "asset_review_status": "verified",
+    "official_source_page": "https://www.kamco.or.kr/portal/contents.do?mId=0103010000",
+    "source_original_label": "공식 제공 원본 ZIP"
+  },
+  "gongu-ci-1715": {
+    "variants_n": 1,
+    "source_zip": "sources/official-recollection-20261011/8b64058a1cbc6e047d8c.zip",
+    "logo_png": "sources/official-recollection-20261011/efad08bb4016017e9c41.png",
+    "preview_png": "sources/official-recollection-20261011/59644d744b1b11adfec3.png",
+    "logo_svg": "sources/official-recollection-20261011/aca60c466e8659b7bc5f.svg",
+    "svg_transparent": "sources/official-recollection-20261011/aca60c466e8659b7bc5f.svg",
+    "has_png": true,
+    "has_svg": true,
+    "metadata": {
+      "has_png": true,
+      "has_svg": true
+    },
+    "presentation": {
+      "file": "sources/official-recollection-20261011/efad08bb4016017e9c41.png",
+      "background": "white",
+      "bg": "white"
+    },
+    "asset_origin": "official-original",
+    "asset_review_status": "verified",
+    "official_source_page": "https://www.kindkorea.or.kr/introduce/ci",
+    "source_original_label": "공식 제공 원본 ZIP"
+  }
+}

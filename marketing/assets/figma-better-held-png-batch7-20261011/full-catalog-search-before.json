@@ -1,0 +1,147 @@
+[
+  {
+    "proposed_id": "airspace-intelligence",
+    "query": "Airspace Intelligence",
+    "total": 0,
+    "matches": []
+  },
+  {
+    "proposed_id": "arc-institute",
+    "query": "Arc Institute",
+    "total": 0,
+    "matches": []
+  },
+  {
+    "proposed_id": "checkout-com",
+    "query": "Checkout.com",
+    "total": 0,
+    "matches": []
+  },
+  {
+    "proposed_id": "expa",
+    "query": "Expa",
+    "total": 15,
+    "matches": [
+      {
+        "id": "expansive-worlds",
+        "name_ko": "Expansive Worlds",
+        "name_en": "Expansive Worlds",
+        "website": null
+      },
+      {
+        "id": "expatica-com",
+        "name_ko": "expatica-com",
+        "name_en": "expatica-com",
+        "website": null
+      },
+      {
+        "id": "expand-beyond",
+        "name_ko": "expand-beyond",
+        "name_en": "expand-beyond",
+        "website": null
+      },
+      {
+        "id": "expace",
+        "name_ko": "expace",
+        "name_en": "expace",
+        "website": null
+      },
+      {
+        "id": "expand-international",
+        "name_ko": "expand-international",
+        "name_en": "expand-international",
+        "website": null
+      },
+      {
+        "id": "expansol",
+        "name_ko": "expansol",
+        "name_en": "expansol",
+        "website": null
+      },
+      {
+        "id": "expand-beyond-1",
+        "name_ko": "expand-beyond-1",
+        "name_en": "expand-beyond-1",
+        "website": null
+      },
+      {
+        "id": "expanda-design-group",
+        "name_ko": "expanda-design-group",
+        "name_en": "expanda-design-group",
+        "website": null
+      },
+      {
+        "id": "expand-networks",
+        "name_ko": "expand-networks",
+        "name_en": "expand-networks",
+        "website": null
+      },
+      {
+        "id": "expatica-housing",
+        "name_ko": "expatica-housing",
+        "name_en": "expatica-housing",
+        "website": null
+      },
+      {
+        "id": "expanse",
+        "name_ko": "Expanse",
+        "name_en": "Expanse",
+        "website": null
+      },
+      {
+        "id": "07th-expansion",
+        "name_ko": "07th Expansion",
+        "name_en": "07th Expansion",
+        "website": null
+      },
+      {
+        "id": "53w53",
+        "name_ko": "53W53",
+        "name_en": "53W53",
+        "website": null
+      },
+      {
+        "id": "nutrexpa",
+        "name_ko": "Nutrexpa",
+        "name_en": "Nutrexpa",
+        "website": null
+      },
+      {
+        "id": "aluflexpack",
+        "name_ko": "Aluflexpack",
+        "name_en": "Aluflexpack",
+        "website": null
+      }
+    ]
+  },
+  {
+    "proposed_id": "hipcamp",
+    "query": "Hipcamp",
+    "total": 0,
+    "matches": []
+  },
+  {
+    "proposed_id": "honey-homes",
+    "query": "Honey Homes",
+    "total": 0,
+    "matches": []
+  },
+  {
+    "proposed_id": "lygos",
+    "query": "Lygos",
+    "total": 0,
+    "matches": []
+  },
+  {
+    "proposed_id": "safebase",
+    "query": "SafeBase",
+    "total": 0,
+    "matches": []
+  },
+  {
+    "proposed_id": "underscore-vc",
+    "query": "Underscore VC",
+    "total": 0,
+    "matches": []
+  }
+]

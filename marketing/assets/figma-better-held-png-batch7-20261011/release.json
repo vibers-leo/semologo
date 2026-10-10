@@ -1,0 +1,546 @@
+{
+  "patches": {
+    "airspace-intelligence": {
+      "id": "airspace-intelligence",
+      "name_ko": "Airspace Intelligence",
+      "name_en": "Airspace Intelligence",
+      "aliases": [
+        "Airspace Intelligence"
+      ],
+      "category": "항공·우주·방산",
+      "origin": "GLOBAL",
+      "has_png": true,
+      "has_svg": false,
+      "logo_png": "https://logo.vibers.co.kr/_clients/airspace-intelligence/sources/better-held-png7-20261011/d3ff402bd7125b5cf9c7/Airspace Intelligence.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/airspace-intelligence/sources/better-held-png7-20261011/0324c0454a7f135452a9/preview-original.png",
+      "presentation": {
+        "file": "sources/better-held-png7-20261011/0324c0454a7f135452a9/preview-original.png",
+        "bg": "white"
+      },
+      "variants_n": 1,
+      "website": "https://www.airspace-intelligence.com/company",
+      "asset_origin": "사용자 제공 Better Logos Figma Community 원본 PNG",
+      "asset_review_status": "verified",
+      "official_asset_reviewed": false,
+      "added_at": "2026-10-11",
+      "logo_published_at": "2026-10-10T15:37:55.146420+00:00"
+    },
+    "arc-institute": {
+      "id": "arc-institute",
+      "name_ko": "Arc Institute",
+      "name_en": "Arc Institute",
+      "aliases": [
+        "Arc Institute"
+      ],
+      "category": "의료·바이오",
+      "origin": "GLOBAL",
+      "has_png": true,
+      "has_svg": false,
+      "logo_png": "https://logo.vibers.co.kr/_clients/arc-institute/sources/better-held-png7-20261011/5bebb7fcdb7686d20ea8/Arc Institute.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/arc-institute/sources/better-held-png7-20261011/d277b40a9baff5df07b4/preview-original.png",
+      "presentation": {
+        "file": "sources/better-held-png7-20261011/d277b40a9baff5df07b4/preview-original.png",
+        "bg": "white"
+      },
+      "variants_n": 1,
+      "website": "https://arcinstitute.org/about",
+      "asset_origin": "사용자 제공 Better Logos Figma Community 원본 PNG",
+      "asset_review_status": "verified",
+      "official_asset_reviewed": false,
+      "added_at": "2026-10-11",
+      "logo_published_at": "2026-10-10T15:37:55.146420+00:00"
+    },
+    "british-american-tobacco": {
+      "variants_n": 4
+    },
+    "checkout-com": {
+      "id": "checkout-com",
+      "name_ko": "Checkout.com",
+      "name_en": "Checkout.com",
+      "aliases": [
+        "Checkout.com"
+      ],
+      "category": "금융·결제",
+      "origin": "GLOBAL",
+      "has_png": true,
+      "has_svg": false,
+      "logo_png": "https://logo.vibers.co.kr/_clients/checkout-com/sources/better-held-png7-20261011/94cf98215e5509f3cd04/Checkout.com (black).png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/checkout-com/sources/better-held-png7-20261011/acf9cfc2db4210a14f76/preview-black.png",
+      "presentation": {
+        "file": "sources/better-held-png7-20261011/acf9cfc2db4210a14f76/preview-black.png",
+        "bg": "white"
+      },
+      "variants_n": 1,
+      "website": "https://www.checkout.com/",
+      "asset_origin": "사용자 제공 Better Logos Figma Community 원본 PNG",
+      "asset_review_status": "verified",
+      "official_asset_reviewed": false,
+      "added_at": "2026-10-11",
+      "logo_published_at": "2026-10-10T15:37:55.146420+00:00"
+    },
+    "expa": {
+      "id": "expa",
+      "name_ko": "Expa",
+      "name_en": "Expa",
+      "aliases": [
+        "Expa"
+      ],
+      "category": "금융·결제",
+      "origin": "GLOBAL",
+      "has_png": true,
+      "has_svg": false,
+      "logo_png": "https://logo.vibers.co.kr/_clients/expa/sources/better-held-png7-20261011/3d28734354e51060b00b/Expa (black).png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/expa/sources/better-held-png7-20261011/cb59414e91b7774db70a/preview-black.png",
+      "presentation": {
+        "file": "sources/better-held-png7-20261011/cb59414e91b7774db70a/preview-black.png",
+        "bg": "white"
+      },
+      "variants_n": 1,
+      "website": "https://www.expa.com/studio/",
+      "asset_origin": "사용자 제공 Better Logos Figma Community 원본 PNG",
+      "asset_review_status": "verified",
+      "official_asset_reviewed": false,
+      "added_at": "2026-10-11",
+      "logo_published_at": "2026-10-10T15:37:55.146420+00:00"
+    },
+    "hipcamp": {
+      "id": "hipcamp",
+      "name_ko": "Hipcamp",
+      "name_en": "Hipcamp",
+      "aliases": [
+        "Hipcamp"
+      ],
+      "category": "여행·숙박",
+      "origin": "GLOBAL",
+      "has_png": true,
+      "has_svg": false,
+      "logo_png": "https://logo.vibers.co.kr/_clients/hipcamp/sources/better-held-png7-20261011/42ac43c8f4693cccf90c/Hipcamp (black).png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/hipcamp/sources/better-held-png7-20261011/22fb95e86af561cbda02/preview-black.png",
+      "presentation": {
+        "file": "sources/better-held-png7-20261011/22fb95e86af561cbda02/preview-black.png",
+        "bg": "white"
+      },
+      "variants_n": 1,
+      "website": "https://www.hipcamp.com/",
+      "asset_origin": "사용자 제공 Better Logos Figma Community 원본 PNG",
+      "asset_review_status": "verified",
+      "official_asset_reviewed": false,
+      "added_at": "2026-10-11",
+      "logo_published_at": "2026-10-10T15:37:55.146420+00:00"
+    },
+    "honey-homes": {
+      "id": "honey-homes",
+      "name_ko": "Honey Homes",
+      "name_en": "Honey Homes",
+      "aliases": [
+        "Honey Homes"
+      ],
+      "category": "서비스·기업",
+      "origin": "GLOBAL",
+      "has_png": true,
+      "has_svg": false,
+      "logo_png": "https://logo.vibers.co.kr/_clients/honey-homes/sources/better-held-png7-20261011/88ceeeecd39f765ba478/Honey Homes (white).png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/honey-homes/sources/better-held-png7-20261011/20f90c3ab6fd0a780ee4/preview-white.png",
+      "presentation": {
+        "file": "sources/better-held-png7-20261011/20f90c3ab6fd0a780ee4/preview-white.png",
+        "bg": "dark"
+      },
+      "variants_n": 1,
+      "website": "https://www.honeyhomes.com/",
+      "asset_origin": "사용자 제공 Better Logos Figma Community 원본 PNG",
+      "asset_review_status": "verified",
+      "official_asset_reviewed": false,
+      "added_at": "2026-10-11",
+      "logo_published_at": "2026-10-10T15:37:55.146420+00:00"
+    },
+    "lygos": {
+      "id": "lygos",
+      "name_ko": "Lygos",
+      "name_en": "Lygos",
+      "aliases": [
+        "Lygos"
+      ],
+      "category": "에너지·화학",
+      "origin": "GLOBAL",
+      "has_png": true,
+      "has_svg": false,
+      "logo_png": "https://logo.vibers.co.kr/_clients/lygos/sources/better-held-png7-20261011/78235efb2a55774c3131/Lygos (white).png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/lygos/sources/better-held-png7-20261011/7c1920d30048e9c8fc16/preview-white.png",
+      "presentation": {
+        "file": "sources/better-held-png7-20261011/7c1920d30048e9c8fc16/preview-white.png",
+        "bg": "dark"
+      },
+      "variants_n": 1,
+      "website": "https://www.lygos.com/company",
+      "asset_origin": "사용자 제공 Better Logos Figma Community 원본 PNG",
+      "asset_review_status": "verified",
+      "official_asset_reviewed": false,
+      "added_at": "2026-10-11",
+      "logo_published_at": "2026-10-10T15:37:55.146420+00:00"
+    },
+    "safebase": {
+      "id": "safebase",
+      "name_ko": "SafeBase",
+      "name_en": "SafeBase",
+      "aliases": [
+        "Safebase"
+      ],
+      "category": "IT·테크",
+      "origin": "GLOBAL",
+      "has_png": true,
+      "has_svg": false,
+      "logo_png": "https://logo.vibers.co.kr/_clients/safebase/sources/better-held-png7-20261011/687eafa28673d79f7641/Safebase (white).png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/safebase/sources/better-held-png7-20261011/3da23f866fa2c31a61d8/preview-white.png",
+      "presentation": {
+        "file": "sources/better-held-png7-20261011/3da23f866fa2c31a61d8/preview-white.png",
+        "bg": "dark"
+      },
+      "variants_n": 1,
+      "website": "https://drata.com/safebase",
+      "asset_origin": "사용자 제공 Better Logos Figma Community 원본 PNG",
+      "asset_review_status": "verified",
+      "official_asset_reviewed": false,
+      "added_at": "2026-10-11",
+      "logo_published_at": "2026-10-10T15:37:55.146420+00:00"
+    },
+    "underscore-vc": {
+      "id": "underscore-vc",
+      "name_ko": "Underscore VC",
+      "name_en": "Underscore VC",
+      "aliases": [
+        "Underscore VC"
+      ],
+      "category": "금융·결제",
+      "origin": "GLOBAL",
+      "has_png": true,
+      "has_svg": false,
+      "logo_png": "https://logo.vibers.co.kr/_clients/underscore-vc/sources/better-held-png7-20261011/76c8405cdd6e77544693/Underscore VC (black).png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/underscore-vc/sources/better-held-png7-20261011/98296c2fc9c2948739c0/preview-black.png",
+      "presentation": {
+        "file": "sources/better-held-png7-20261011/98296c2fc9c2948739c0/preview-black.png",
+        "bg": "white"
+      },
+      "variants_n": 1,
+      "website": "https://underscore.vc/press-kit/",
+      "asset_origin": "사용자 제공 Better Logos Figma Community 원본 PNG",
+      "asset_review_status": "verified",
+      "official_asset_reviewed": false,
+      "added_at": "2026-10-11",
+      "logo_published_at": "2026-10-10T15:37:55.146420+00:00"
+    }
+  },
+  "variants": {
+    "airspace-intelligence": {
+      "schema": 1,
+      "id": "airspace-intelligence",
+      "primary": "better-native-png7-original",
+      "variants": [
+        {
+          "key": "better-native-png7-original",
+          "label": "원색 · 원본 PNG · SVG 없음 · 커뮤니티 시기 미확인",
+          "form": "horizontal",
+          "lang": "en",
+          "color": "original",
+          "light": false,
+          "files": {
+            "png": "sources/better-held-png7-20261011/d3ff402bd7125b5cf9c7/Airspace Intelligence.png"
+          },
+          "preview_png": "sources/better-held-png7-20261011/0324c0454a7f135452a9/preview-original.png",
+          "provider": "사용자 제공 Better Logos Figma Community 원본 PNG",
+          "origin": "community",
+          "official": false,
+          "png_width": 4181,
+          "png_height": 576,
+          "order": 0,
+          "source_note": "PNG 원본 바이트·해상도 보존. SVG 미보유. 미리보기만 축소, 업스케일·벡터 포장 없음. 공식 최신 CI로 주장하지 않음."
+        }
+      ]
+    },
+    "arc-institute": {
+      "schema": 1,
+      "id": "arc-institute",
+      "primary": "better-native-png7-original",
+      "variants": [
+        {
+          "key": "better-native-png7-original",
+          "label": "원색 · 원본 PNG · SVG 없음 · 커뮤니티 시기 미확인",
+          "form": "horizontal",
+          "lang": "en",
+          "color": "original",
+          "light": false,
+          "files": {
+            "png": "sources/better-held-png7-20261011/5bebb7fcdb7686d20ea8/Arc Institute.png"
+          },
+          "preview_png": "sources/better-held-png7-20261011/d277b40a9baff5df07b4/preview-original.png",
+          "provider": "사용자 제공 Better Logos Figma Community 원본 PNG",
+          "origin": "community",
+          "official": false,
+          "png_width": 5273,
+          "png_height": 720,
+          "order": 0,
+          "source_note": "PNG 원본 바이트·해상도 보존. SVG 미보유. 미리보기만 축소, 업스케일·벡터 포장 없음. 공식 최신 CI로 주장하지 않음."
+        }
+      ]
+    },
+    "british-american-tobacco": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "british-american-tobacco",
+      "primary": "existing-original",
+      "fingerprint": {
+        "logo.svg": "31e82dfe6ca5e6a3"
+      },
+      "variants": [
+        {
+          "key": "existing-original",
+          "label": "기존 수집 원본 · 남색",
+          "form": "horizontal",
+          "color": "original",
+          "files": {
+            "png": "logo.png"
+          },
+          "provider": "기존 수집 원본 보존",
+          "origin": "collected",
+          "order": 0
+        },
+        {
+          "key": "horizontal",
+          "form": "horizontal",
+          "lang": "unknown",
+          "color": "color",
+          "label": "가로조합형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 2.922,
+          "provider": "wikimedia",
+          "origin": "collected",
+          "order": 1
+        },
+        {
+          "key": "better-native-png7-white",
+          "label": "흰색 · 원본 PNG · SVG 없음 · 커뮤니티 시기 미확인",
+          "form": "horizontal",
+          "lang": "en",
+          "color": "white",
+          "light": true,
+          "files": {
+            "png": "sources/better-held-png7-20261011/e9657cc23c63258b2bdd/BAT (white).png"
+          },
+          "preview_png": "sources/better-held-png7-20261011/f00f83471ee37fba6a6a/preview-white.png",
+          "provider": "사용자 제공 Better Logos Figma Community 원본 PNG",
+          "origin": "community",
+          "official": false,
+          "png_width": 1267,
+          "png_height": 432,
+          "order": 2,
+          "source_note": "PNG 원본 바이트·해상도 보존. SVG 미보유. 미리보기만 축소, 업스케일·벡터 포장 없음. 공식 최신 CI로 주장하지 않음."
+        },
+        {
+          "key": "better-native-png7-black",
+          "label": "검정 · 원본 PNG · SVG 없음 · 커뮤니티 시기 미확인",
+          "form": "horizontal",
+          "lang": "en",
+          "color": "black",
+          "light": false,
+          "files": {
+            "png": "sources/better-held-png7-20261011/3df9e6e616eb4d747a97/BAT (black).png"
+          },
+          "preview_png": "sources/better-held-png7-20261011/4bb6e5b9766a2e1d7144/preview-black.png",
+          "provider": "사용자 제공 Better Logos Figma Community 원본 PNG",
+          "origin": "community",
+          "official": false,
+          "png_width": 1267,
+          "png_height": 432,
+          "order": 3,
+          "source_note": "PNG 원본 바이트·해상도 보존. SVG 미보유. 미리보기만 축소, 업스케일·벡터 포장 없음. 공식 최신 CI로 주장하지 않음."
+        }
+      ]
+    },
+    "checkout-com": {
+      "schema": 1,
+      "id": "checkout-com",
+      "primary": "better-native-png7-black",
+      "variants": [
+        {
+          "key": "better-native-png7-black",
+          "label": "검정 · 원본 PNG · SVG 없음 · 커뮤니티 시기 미확인",
+          "form": "horizontal",
+          "lang": "en",
+          "color": "black",
+          "light": false,
+          "files": {
+            "png": "sources/better-held-png7-20261011/94cf98215e5509f3cd04/Checkout.com (black).png"
+          },
+          "preview_png": "sources/better-held-png7-20261011/acf9cfc2db4210a14f76/preview-black.png",
+          "provider": "사용자 제공 Better Logos Figma Community 원본 PNG",
+          "origin": "community",
+          "official": false,
+          "png_width": 1116,
+          "png_height": 144,
+          "order": 0,
+          "source_note": "PNG 원본 바이트·해상도 보존. SVG 미보유. 미리보기만 축소, 업스케일·벡터 포장 없음. 공식 최신 CI로 주장하지 않음."
+        }
+      ]
+    },
+    "expa": {
+      "schema": 1,
+      "id": "expa",
+      "primary": "better-native-png7-black",
+      "variants": [
+        {
+          "key": "better-native-png7-black",
+          "label": "검정 · 원본 PNG · SVG 없음 · 커뮤니티 시기 미확인",
+          "form": "horizontal",
+          "lang": "en",
+          "color": "black",
+          "light": false,
+          "files": {
+            "png": "sources/better-held-png7-20261011/3d28734354e51060b00b/Expa (black).png"
+          },
+          "preview_png": "sources/better-held-png7-20261011/cb59414e91b7774db70a/preview-black.png",
+          "provider": "사용자 제공 Better Logos Figma Community 원본 PNG",
+          "origin": "community",
+          "official": false,
+          "png_width": 1358,
+          "png_height": 288,
+          "order": 0,
+          "source_note": "PNG 원본 바이트·해상도 보존. SVG 미보유. 미리보기만 축소, 업스케일·벡터 포장 없음. 공식 최신 CI로 주장하지 않음."
+        }
+      ]
+    },
+    "hipcamp": {
+      "schema": 1,
+      "id": "hipcamp",
+      "primary": "better-native-png7-black",
+      "variants": [
+        {
+          "key": "better-native-png7-black",
+          "label": "검정 · 원본 PNG · SVG 없음 · 커뮤니티 시기 미확인",
+          "form": "horizontal",
+          "lang": "en",
+          "color": "black",
+          "light": false,
+          "files": {
+            "png": "sources/better-held-png7-20261011/42ac43c8f4693cccf90c/Hipcamp (black).png"
+          },
+          "preview_png": "sources/better-held-png7-20261011/22fb95e86af561cbda02/preview-black.png",
+          "provider": "사용자 제공 Better Logos Figma Community 원본 PNG",
+          "origin": "community",
+          "official": false,
+          "png_width": 1025,
+          "png_height": 144,
+          "order": 0,
+          "source_note": "PNG 원본 바이트·해상도 보존. SVG 미보유. 미리보기만 축소, 업스케일·벡터 포장 없음. 공식 최신 CI로 주장하지 않음."
+        }
+      ]
+    },
+    "honey-homes": {
+      "schema": 1,
+      "id": "honey-homes",
+      "primary": "better-native-png7-white",
+      "variants": [
+        {
+          "key": "better-native-png7-white",
+          "label": "흰색 · 원본 PNG · SVG 없음 · 커뮤니티 시기 미확인",
+          "form": "horizontal",
+          "lang": "en",
+          "color": "white",
+          "light": true,
+          "files": {
+            "png": "sources/better-held-png7-20261011/88ceeeecd39f765ba478/Honey Homes (white).png"
+          },
+          "preview_png": "sources/better-held-png7-20261011/20f90c3ab6fd0a780ee4/preview-white.png",
+          "provider": "사용자 제공 Better Logos Figma Community 원본 PNG",
+          "origin": "community",
+          "official": false,
+          "png_width": 2738,
+          "png_height": 432,
+          "order": 0,
+          "source_note": "PNG 원본 바이트·해상도 보존. SVG 미보유. 미리보기만 축소, 업스케일·벡터 포장 없음. 공식 최신 CI로 주장하지 않음."
+        }
+      ]
+    },
+    "lygos": {
+      "schema": 1,
+      "id": "lygos",
+      "primary": "better-native-png7-white",
+      "variants": [
+        {
+          "key": "better-native-png7-white",
+          "label": "흰색 · 원본 PNG · SVG 없음 · 커뮤니티 시기 미확인",
+          "form": "horizontal",
+          "lang": "en",
+          "color": "white",
+          "light": true,
+          "files": {
+            "png": "sources/better-held-png7-20261011/78235efb2a55774c3131/Lygos (white).png"
+          },
+          "preview_png": "sources/better-held-png7-20261011/7c1920d30048e9c8fc16/preview-white.png",
+          "provider": "사용자 제공 Better Logos Figma Community 원본 PNG",
+          "origin": "community",
+          "official": false,
+          "png_width": 1793,
+          "png_height": 576,
+          "order": 0,
+          "source_note": "PNG 원본 바이트·해상도 보존. SVG 미보유. 미리보기만 축소, 업스케일·벡터 포장 없음. 공식 최신 CI로 주장하지 않음."
+        }
+      ]
+    },
+    "safebase": {
+      "schema": 1,
+      "id": "safebase",
+      "primary": "better-native-png7-white",
+      "variants": [
+        {
+          "key": "better-native-png7-white",
+          "label": "흰색 · 원본 PNG · SVG 없음 · 커뮤니티 시기 미확인",
+          "form": "horizontal",
+          "lang": "en",
+          "color": "white",
+          "light": true,
+          "files": {
+            "png": "sources/better-held-png7-20261011/687eafa28673d79f7641/Safebase (white).png"
+          },
+          "preview_png": "sources/better-held-png7-20261011/3da23f866fa2c31a61d8/preview-white.png",
+          "provider": "사용자 제공 Better Logos Figma Community 원본 PNG",
+          "origin": "community",
+          "official": false,
+          "png_width": 1682,
+          "png_height": 288,
+          "order": 0,
+          "source_note": "PNG 원본 바이트·해상도 보존. SVG 미보유. 미리보기만 축소, 업스케일·벡터 포장 없음. 공식 최신 CI로 주장하지 않음."
+        }
+      ]
+    },
+    "underscore-vc": {
+      "schema": 1,
+      "id": "underscore-vc",
+      "primary": "better-native-png7-black",
+      "variants": [
+        {
+          "key": "better-native-png7-black",
+          "label": "검정 · 원본 PNG · SVG 없음 · 커뮤니티 시기 미확인",
+          "form": "horizontal",
+          "lang": "en",
+          "color": "black",
+          "light": false,
+          "files": {
+            "png": "sources/better-held-png7-20261011/76c8405cdd6e77544693/Underscore VC (black).png"
+          },
+          "preview_png": "sources/better-held-png7-20261011/98296c2fc9c2948739c0/preview-black.png",
+          "provider": "사용자 제공 Better Logos Figma Community 원본 PNG",
+          "origin": "community",
+          "official": false,
+          "png_width": 1249,
+          "png_height": 144,
+          "order": 0,
+          "source_note": "PNG 원본 바이트·해상도 보존. SVG 미보유. 미리보기만 축소, 업스케일·벡터 포장 없음. 공식 최신 CI로 주장하지 않음."
+        }
+      ]
+    }
+  },
+  "source_kind": "user_supplied_community_native_png",
+  "official": false
+}

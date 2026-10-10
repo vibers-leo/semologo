@@ -1,0 +1,18 @@
+{
+  "status": "verified-fullpatch-applied",
+  "rows": [
+    {
+      "id": "gongu-ci-1702",
+      "has_svg": true,
+      "logo_png": "sources/official-recollection-20261011/008901fc7e50c5be49a8.png",
+      "presentation": {
+        "bg": "white",
+        "file": "sources/official-recollection-20261011/008901fc7e50c5be49a8.png",
+        "background": "white"
+      },
+      "quality_status": null,
+      "down_at_review": null
+    }
+  ],
+  "reviews": {}
+}

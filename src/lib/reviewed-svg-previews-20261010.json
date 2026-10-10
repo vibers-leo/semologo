@@ -899,6 +899,1189 @@
       "logo_png": "sources/reviewed-alpha-batch2-20261010/84b3b5ebf418b40f/logo.png",
       "preview_png": "https://logo.vibers.co.kr/_clients/zorgdomein-1/sources/reviewed-alpha-batch2-20261010/905fce6622360e12/preview.png",
       "asset_review_status": "verified"
+    },
+    "xacar": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch6-20261010/2eeacc213b99d1ae/logo.svg",
+      "logo_png": "https://logo.vibers.co.kr/_clients/xacar/sources/reviewed-alpha-batch6-20261010/a323dc024acf35c3/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/xacar/sources/reviewed-alpha-batch6-20261010/3856bf032a304e6b/preview.png",
+      "asset_review_status": "verified",
+      "variants_n": 1
+    },
+    "xactimate-1": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch6-20261010/5a456bb1284a57ee/logo.svg",
+      "logo_png": "https://logo.vibers.co.kr/_clients/xactimate-1/sources/reviewed-alpha-batch6-20261010/3ddf7833cc50909c/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/xactimate-1/sources/reviewed-alpha-batch6-20261010/b8a224cbe49d00a1/preview.png",
+      "asset_review_status": "verified",
+      "variants_n": 1
+    },
+    "xanavi-nissan": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch6-20261010/3f7a251a039ec744/logo.svg",
+      "logo_png": "https://logo.vibers.co.kr/_clients/xanavi-nissan/sources/reviewed-alpha-batch6-20261010/e0392705c0a39a3b/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/xanavi-nissan/sources/reviewed-alpha-batch6-20261010/5a13eea30f867591/preview.png",
+      "asset_review_status": "verified",
+      "variants_n": 1
+    },
+    "xamax": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch6-20261010/901c6f8f1ff30e91/logo.svg",
+      "logo_png": "https://logo.vibers.co.kr/_clients/xamax/sources/reviewed-alpha-batch6-20261010/14e521cf09e1f2ae/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/xamax/sources/reviewed-alpha-batch6-20261010/dde373d4c9ee2eee/preview.png",
+      "asset_review_status": "verified",
+      "variants_n": 1
+    },
+    "xango": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch6-20261010/e0dd3b8834b95ddf/logo.svg",
+      "logo_png": "https://logo.vibers.co.kr/_clients/xango/sources/reviewed-alpha-batch6-20261010/c1eac6591960b5b8/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/xango/sources/reviewed-alpha-batch6-20261010/7909c9e7d0a799fc/preview.png",
+      "asset_review_status": "verified",
+      "variants_n": 1
+    },
+    "xanga--src-e99c26e": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch6-20261010/2862ceb35afa632f/logo.svg",
+      "logo_png": "https://logo.vibers.co.kr/_clients/xanga--src-e99c26e/sources/reviewed-alpha-batch6-20261010/7f4359ff5652d3f6/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/xanga--src-e99c26e/sources/reviewed-alpha-batch6-20261010/0ad20c49dd47c92a/preview.png",
+      "asset_review_status": "verified",
+      "variants_n": 1
+    },
+    "x-ray-goggles--src-c380805": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch6-20261010/9e3c71f594821c64/logo.svg",
+      "logo_png": "https://logo.vibers.co.kr/_clients/x-ray-goggles--src-c380805/sources/reviewed-alpha-batch6-20261010/2ff1b872e53e1662/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/x-ray-goggles--src-c380805/sources/reviewed-alpha-batch6-20261010/3fe2fc6f0f70cfda/preview.png",
+      "asset_review_status": "verified",
+      "variants_n": 1
+    },
+    "x-games-2": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch6-20261010/6f5363f0c809bde4/logo.svg",
+      "logo_png": "https://logo.vibers.co.kr/_clients/x-games-2/sources/reviewed-alpha-batch6-20261010/b587170b90372323/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/x-games-2/sources/reviewed-alpha-batch6-20261010/ff01fba94296f263/preview.png",
+      "asset_review_status": "verified",
+      "variants_n": 1
+    },
+    "x-2": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch6-20261010/51a1eff509f4e1a2/logo.svg",
+      "logo_png": "https://logo.vibers.co.kr/_clients/x-2/sources/reviewed-alpha-batch6-20261010/e90e3871fc598153/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/x-2/sources/reviewed-alpha-batch6-20261010/c09ac85812264d9f/preview.png",
+      "asset_review_status": "verified",
+      "variants_n": 1
+    },
+    "wyre-1": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch6-20261010/188053d65150ebe3/logo.svg",
+      "logo_png": "https://logo.vibers.co.kr/_clients/wyre-1/sources/reviewed-alpha-batch6-20261010/77a59a05a172184a/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/wyre-1/sources/reviewed-alpha-batch6-20261010/81e8331011c02106/preview.png",
+      "asset_review_status": "verified",
+      "variants_n": 1
+    },
+    "x-byte-lab-1": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch6-20261010/6440081f9a83643b/logo.svg",
+      "logo_png": "https://logo.vibers.co.kr/_clients/x-byte-lab-1/sources/reviewed-alpha-batch6-20261010/eb10f2a515420326/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/x-byte-lab-1/sources/reviewed-alpha-batch6-20261010/95a9740f316307a1/preview.png",
+      "asset_review_status": "verified",
+      "variants_n": 1
+    },
+    "x-archery": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch6-20261010/f920572677180715/logo.svg",
+      "logo_png": "https://logo.vibers.co.kr/_clients/x-archery/sources/reviewed-alpha-batch6-20261010/ba27321ea7373832/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/x-archery/sources/reviewed-alpha-batch6-20261010/919e0b62f70a0f68/preview.png",
+      "asset_review_status": "verified",
+      "variants_n": 1
+    },
+    "wyeco-logo-4": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch6-20261010/c07c1143b85d8cb6/logo.svg",
+      "logo_png": "https://logo.vibers.co.kr/_clients/wyeco-logo-4/sources/reviewed-alpha-batch6-20261010/3dd96cb845fb085d/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/wyeco-logo-4/sources/reviewed-alpha-batch6-20261010/acec37d1ba1bdddd/preview.png",
+      "asset_review_status": "verified",
+      "variants_n": 1
+    },
+    "wwf-unforgiven": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch6-20261010/aaf635f34e329ada/logo.svg",
+      "logo_png": "https://logo.vibers.co.kr/_clients/wwf-unforgiven/sources/reviewed-alpha-batch6-20261010/621e7678289a2de4/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/wwf-unforgiven/sources/reviewed-alpha-batch6-20261010/bab5cc4b221f5d04/preview.png",
+      "asset_review_status": "verified",
+      "light": true,
+      "light_logo": true,
+      "dark_variant": "white",
+      "variants_n": 1
+    },
+    "wwe-raw-logo-2018": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch6-20261010/3f5b0c3046c31b1e/logo.svg",
+      "logo_png": "https://logo.vibers.co.kr/_clients/wwe-raw-logo-2018/sources/reviewed-alpha-batch6-20261010/980462570e501d54/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/wwe-raw-logo-2018/sources/reviewed-alpha-batch6-20261010/d68bed9d4cbbd84f/preview.png",
+      "asset_review_status": "verified",
+      "variants_n": 1
+    },
+    "wwf-logo": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch6-20261010/5b3a7ba1431dca05/logo.svg",
+      "logo_png": "https://logo.vibers.co.kr/_clients/wwf-logo/sources/reviewed-alpha-batch6-20261010/2961171cb45ab2bd/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/wwf-logo/sources/reviewed-alpha-batch6-20261010/60991b0e5a0e5032/preview.png",
+      "asset_review_status": "verified",
+      "variants_n": 1
+    },
+    "wwf-no-way-out": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch6-20261010/f87720b8fcafc3b2/logo.svg",
+      "logo_png": "https://logo.vibers.co.kr/_clients/wwf-no-way-out/sources/reviewed-alpha-batch6-20261010/59d3d69a6ca94674/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/wwf-no-way-out/sources/reviewed-alpha-batch6-20261010/676bd3c8fa025323/preview.png",
+      "asset_review_status": "verified",
+      "variants_n": 1
+    },
+    "wupper-1": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch6-20261010/4362a19c2a4731a5/logo.svg",
+      "logo_png": "https://logo.vibers.co.kr/_clients/wupper-1/sources/reviewed-alpha-batch6-20261010/beb82465ac2eda0c/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/wupper-1/sources/reviewed-alpha-batch6-20261010/626c6bce7dc5384d/preview.png",
+      "asset_review_status": "verified",
+      "variants_n": 1
+    },
+    "wunjo-2": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch6-20261010/2ec04e24451191ad/logo.svg",
+      "logo_png": "https://logo.vibers.co.kr/_clients/wunjo-2/sources/reviewed-alpha-batch6-20261010/9d54ba80e942ed93/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/wunjo-2/sources/reviewed-alpha-batch6-20261010/8aacaa2c35ef7166/preview.png",
+      "asset_review_status": "verified",
+      "variants_n": 1
+    },
+    "wuhan-iron-and-steel-logo": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch6-20261010/825779f64f4587c8/logo.svg",
+      "logo_png": "https://logo.vibers.co.kr/_clients/wuhan-iron-and-steel-logo/sources/reviewed-alpha-batch6-20261010/0ab142145e79c10f/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/wuhan-iron-and-steel-logo/sources/reviewed-alpha-batch6-20261010/1e0d025af498ea29/preview.png",
+      "asset_review_status": "verified",
+      "variants_n": 1
+    },
+    "wunderlist": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch6-20261010/779be68aa38543dc/logo.svg",
+      "logo_png": "https://logo.vibers.co.kr/_clients/wunderlist/sources/reviewed-alpha-batch6-20261010/8e12d0e59cfdeb23/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/wunderlist/sources/reviewed-alpha-batch6-20261010/c72318b2d65e340f/preview.png",
+      "asset_review_status": "verified",
+      "variants_n": 1
+    },
+    "wud-1": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch6-20261010/dd28a6f6a7bbc721/logo.svg",
+      "logo_png": "https://logo.vibers.co.kr/_clients/wud-1/sources/reviewed-alpha-batch6-20261010/4ffbeb58be200676/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/wud-1/sources/reviewed-alpha-batch6-20261010/ff0d40196dc52bf7/preview.png",
+      "asset_review_status": "verified",
+      "variants_n": 1
+    },
+    "wufoo--src-5f8cbaa": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch6-20261010/e362e4cf09d4dd2c/logo.svg",
+      "logo_png": "https://logo.vibers.co.kr/_clients/wufoo--src-5f8cbaa/sources/reviewed-alpha-batch6-20261010/70b76e62f37734d9/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/wufoo--src-5f8cbaa/sources/reviewed-alpha-batch6-20261010/24982090500e2c19/preview.png",
+      "asset_review_status": "verified",
+      "variants_n": 1
+    },
+    "wuerth-logo-1": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch6-20261010/55d6aa601280320c/logo.svg",
+      "logo_png": "https://logo.vibers.co.kr/_clients/wuerth-logo-1/sources/reviewed-alpha-batch6-20261010/9450ca3ac572a3d1/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/wuerth-logo-1/sources/reviewed-alpha-batch6-20261010/2c0ccff4163047f1/preview.png",
+      "asset_review_status": "verified",
+      "variants_n": 1
+    },
+    "wtv-logo-ja": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch6-20261010/f47f6b1d24ed3cb8/logo.svg",
+      "logo_png": "https://logo.vibers.co.kr/_clients/wtv-logo-ja/sources/reviewed-alpha-batch6-20261010/75f5b7bf49e8e534/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/wtv-logo-ja/sources/reviewed-alpha-batch6-20261010/07287e0a12070b65/preview.png",
+      "asset_review_status": "verified",
+      "variants_n": 1
+    },
+    "wtk-elektronik-1": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch6-20261010/4d9e0a9be70b1740/logo.svg",
+      "logo_png": "https://logo.vibers.co.kr/_clients/wtk-elektronik-1/sources/reviewed-alpha-batch6-20261010/2e4a1d6a47148fdf/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/wtk-elektronik-1/sources/reviewed-alpha-batch6-20261010/0e03046d88b7bead/preview.png",
+      "asset_review_status": "verified",
+      "variants_n": 1
+    },
+    "wuerth-group-logo-1": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch6-20261010/e3ed966eb4b3d759/logo.svg",
+      "logo_png": "https://logo.vibers.co.kr/_clients/wuerth-group-logo-1/sources/reviewed-alpha-batch6-20261010/9fdbccec7694fe6e/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/wuerth-group-logo-1/sources/reviewed-alpha-batch6-20261010/13a9ee52d9a19e21/preview.png",
+      "asset_review_status": "verified",
+      "variants_n": 1
+    },
+    "wtf-nl": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch6-20261010/363c0bb4b396e9ca/logo.svg",
+      "logo_png": "https://logo.vibers.co.kr/_clients/wtf-nl/sources/reviewed-alpha-batch6-20261010/e3f6727f9daa3ca5/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/wtf-nl/sources/reviewed-alpha-batch6-20261010/cf9821c5fbd6e2e5/preview.png",
+      "asset_review_status": "verified",
+      "variants_n": 1
+    },
+    "wtcc-logo": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch6-20261010/0584c8f0a12fed67/logo.svg",
+      "logo_png": "https://logo.vibers.co.kr/_clients/wtcc-logo/sources/reviewed-alpha-batch6-20261010/8684851415f43578/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/wtcc-logo/sources/reviewed-alpha-batch6-20261010/2b15c72a3deec9c0/preview.png",
+      "asset_review_status": "verified",
+      "variants_n": 1
+    },
+    "wrike-wordmark-1": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch6-20261010/7a0b2da72ba905c7/logo.svg",
+      "logo_png": "https://logo.vibers.co.kr/_clients/wrike-wordmark-1/sources/reviewed-alpha-batch6-20261010/82259271bb8da6c5/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/wrike-wordmark-1/sources/reviewed-alpha-batch6-20261010/02f79f3a2eda02d1/preview.png",
+      "asset_review_status": "verified",
+      "variants_n": 1
+    },
+    "wriggle": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch6-20261010/e02d39eb6bfe4401/logo.svg",
+      "logo_png": "https://logo.vibers.co.kr/_clients/wriggle/sources/reviewed-alpha-batch6-20261010/39ac21800fbf3e9c/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/wriggle/sources/reviewed-alpha-batch6-20261010/1aac43616195381e/preview.png",
+      "asset_review_status": "verified",
+      "variants_n": 1
+    },
+    "wrike": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch6-20261010/6b59b5c074371288/logo.svg",
+      "logo_png": "https://logo.vibers.co.kr/_clients/wrike/sources/reviewed-alpha-batch6-20261010/6276dafeca8406d5/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/wrike/sources/reviewed-alpha-batch6-20261010/07c31ab184fd9646/preview.png",
+      "asset_review_status": "verified",
+      "variants_n": 1
+    },
+    "wrangler-logo": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch6-20261010/9b21d383dde9e65a/logo.svg",
+      "logo_png": "https://logo.vibers.co.kr/_clients/wrangler-logo/sources/reviewed-alpha-batch6-20261010/1eb27e9a8ecfb3b7/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/wrangler-logo/sources/reviewed-alpha-batch6-20261010/0cfd77a61b5db87d/preview.png",
+      "asset_review_status": "verified",
+      "variants_n": 1
+    },
+    "wrangler-jeans-logo": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch6-20261010/35a3088db1d62b4f/logo.svg",
+      "logo_png": "https://logo.vibers.co.kr/_clients/wrangler-jeans-logo/sources/reviewed-alpha-batch6-20261010/c211149ec4620a1a/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/wrangler-jeans-logo/sources/reviewed-alpha-batch6-20261010/2fc483fa06879c5b/preview.png",
+      "asset_review_status": "verified",
+      "variants_n": 1
+    },
+    "wpp-1": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch6-20261010/e41f968470457b4d/logo.svg",
+      "logo_png": "https://logo.vibers.co.kr/_clients/wpp-1/sources/reviewed-alpha-batch6-20261010/7751f9e6541f8b3d/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/wpp-1/sources/reviewed-alpha-batch6-20261010/8bec529322d042e1/preview.png",
+      "asset_review_status": "verified",
+      "variants_n": 1
+    },
+    "wpx-hosting-3": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch6-20261010/1fd6a8b6382dd49b/logo.svg",
+      "logo_png": "https://logo.vibers.co.kr/_clients/wpx-hosting-3/sources/reviewed-alpha-batch6-20261010/259bf059b2362e39/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/wpx-hosting-3/sources/reviewed-alpha-batch6-20261010/e36e7dc3df2524a3/preview.png",
+      "asset_review_status": "verified",
+      "variants_n": 1
+    },
+    "wpx-hosting-2": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch6-20261010/3c91989873df1003/logo.svg",
+      "logo_png": "https://logo.vibers.co.kr/_clients/wpx-hosting-2/sources/reviewed-alpha-batch6-20261010/0cc2763e1e5c796d/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/wpx-hosting-2/sources/reviewed-alpha-batch6-20261010/c504104f9257c89c/preview.png",
+      "asset_review_status": "verified",
+      "variants_n": 1
+    },
+    "wpx-hosting-4": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch6-20261010/9f854d590a0c05d5/logo.svg",
+      "logo_png": "https://logo.vibers.co.kr/_clients/wpx-hosting-4/sources/reviewed-alpha-batch6-20261010/b1539639e39dc4ed/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/wpx-hosting-4/sources/reviewed-alpha-batch6-20261010/dbde5423524b07a0/preview.png",
+      "asset_review_status": "verified",
+      "variants_n": 1
+    },
+    "wpgraphql-logo-1": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch6-20261010/443904515f8a0d02/logo.svg",
+      "logo_png": "https://logo.vibers.co.kr/_clients/wpgraphql-logo-1/sources/reviewed-alpha-batch6-20261010/dc4eec712cb68789/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/wpgraphql-logo-1/sources/reviewed-alpha-batch6-20261010/7e513218fc88e784/preview.png",
+      "asset_review_status": "verified",
+      "variants_n": 1
+    },
+    "wow-deck-ltd": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch6-20261010/9c3cc13f28e09ace/logo.svg",
+      "logo_png": "https://logo.vibers.co.kr/_clients/wow-deck-ltd/sources/reviewed-alpha-batch6-20261010/6e22a359471e4c6b/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/wow-deck-ltd/sources/reviewed-alpha-batch6-20261010/c7e07dd26ed5f44c/preview.png",
+      "asset_review_status": "verified",
+      "variants_n": 1
+    },
+    "worldvectorlogo-black": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch6-20261010/8e9a6d0ee2c5c492/logo.svg",
+      "logo_png": "https://logo.vibers.co.kr/_clients/worldvectorlogo-black/sources/reviewed-alpha-batch6-20261010/242ae61f302788d1/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/worldvectorlogo-black/sources/reviewed-alpha-batch6-20261010/c61156c3f19bc075/preview.png",
+      "asset_review_status": "verified",
+      "variants_n": 1
+    },
+    "worldvectorlogo": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch6-20261010/9529a2d777ffe6e3/logo.svg",
+      "logo_png": "https://logo.vibers.co.kr/_clients/worldvectorlogo/sources/reviewed-alpha-batch6-20261010/165716ac4f66cc70/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/worldvectorlogo/sources/reviewed-alpha-batch6-20261010/fe97f290b5627b6a/preview.png",
+      "asset_review_status": "verified",
+      "variants_n": 1
+    },
+    "worldvectorlcom": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch6-20261010/9c011074d97dd3c2/logo.svg",
+      "logo_png": "https://logo.vibers.co.kr/_clients/worldvectorlcom/sources/reviewed-alpha-batch6-20261010/e686c2af998a59b0/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/worldvectorlcom/sources/reviewed-alpha-batch6-20261010/8e96fa4bf7f04281/preview.png",
+      "asset_review_status": "verified",
+      "variants_n": 1
+    },
+    "worldcryptocap": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch6-20261010/bb3242d7e2ea05ef/logo.svg",
+      "logo_png": "https://logo.vibers.co.kr/_clients/worldcryptocap/sources/reviewed-alpha-batch6-20261010/c35141983177f268/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/worldcryptocap/sources/reviewed-alpha-batch6-20261010/276a1f8c84797240/preview.png",
+      "asset_review_status": "verified",
+      "variants_n": 1
+    },
+    "world-web-technology": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch6-20261010/ad1a324c461ffce1/logo.svg",
+      "logo_png": "https://logo.vibers.co.kr/_clients/world-web-technology/sources/reviewed-alpha-batch6-20261010/bab91a55dac0fbd4/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/world-web-technology/sources/reviewed-alpha-batch6-20261010/34cf455c714b7421/preview.png",
+      "asset_review_status": "verified",
+      "variants_n": 1
+    },
+    "world-wide-stereo": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch6-20261010/391f98bf2dc8aead/logo.svg",
+      "logo_png": "https://logo.vibers.co.kr/_clients/world-wide-stereo/sources/reviewed-alpha-batch6-20261010/388c608a92a2fae4/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/world-wide-stereo/sources/reviewed-alpha-batch6-20261010/9716343838266ab0/preview.png",
+      "asset_review_status": "verified",
+      "variants_n": 1
+    },
+    "world-vector-logo": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch6-20261010/4d50f9db07197e66/logo.svg",
+      "logo_png": "https://logo.vibers.co.kr/_clients/world-vector-logo/sources/reviewed-alpha-batch6-20261010/c385ab1bee1fab5c/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/world-vector-logo/sources/reviewed-alpha-batch6-20261010/44847dcf59e32cc0/preview.png",
+      "asset_review_status": "verified",
+      "variants_n": 1
+    },
+    "world-vector-logo-2": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch6-20261010/21b906225e20d8df/logo.svg",
+      "logo_png": "https://logo.vibers.co.kr/_clients/world-vector-logo-2/sources/reviewed-alpha-batch6-20261010/1e06e4038926a2ab/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/world-vector-logo-2/sources/reviewed-alpha-batch6-20261010/7fc3cc2bc929b77a/preview.png",
+      "asset_review_status": "verified",
+      "variants_n": 1
+    },
+    "world-vector-logo-1": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch6-20261010/3861d6abfffb0c6a/logo.svg",
+      "logo_png": "https://logo.vibers.co.kr/_clients/world-vector-logo-1/sources/reviewed-alpha-batch6-20261010/f0517ac9213a230c/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/world-vector-logo-1/sources/reviewed-alpha-batch6-20261010/d86a879e1431a2ad/preview.png",
+      "asset_review_status": "verified",
+      "variants_n": 1
+    },
+    "world-online-2": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch6-20261010/f8660ea7eb83b09a/logo.svg",
+      "logo_png": "https://logo.vibers.co.kr/_clients/world-online-2/sources/reviewed-alpha-batch6-20261010/7390f637f9ea36cc/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/world-online-2/sources/reviewed-alpha-batch6-20261010/f16b7130066b0d3c/preview.png",
+      "asset_review_status": "verified",
+      "variants_n": 1
+    },
+    "world-online": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch6-20261010/fb020142a54a23a4/logo.svg",
+      "logo_png": "https://logo.vibers.co.kr/_clients/world-online/sources/reviewed-alpha-batch6-20261010/db6921319e7b266b/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/world-online/sources/reviewed-alpha-batch6-20261010/6e05b48e2227382f/preview.png",
+      "asset_review_status": "verified",
+      "variants_n": 1
+    },
+    "world-of-content-1": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch6-20261010/63ff566d85355fce/logo.svg",
+      "logo_png": "https://logo.vibers.co.kr/_clients/world-of-content-1/sources/reviewed-alpha-batch6-20261010/76ecf3cd3c2eae5c/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/world-of-content-1/sources/reviewed-alpha-batch6-20261010/2458f9b70342e0ac/preview.png",
+      "asset_review_status": "verified",
+      "variants_n": 1
+    },
+    "world-health-organization-logo-1": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch6-20261010/0925334a069fe946/logo.svg",
+      "logo_png": "https://logo.vibers.co.kr/_clients/world-health-organization-logo-1/sources/reviewed-alpha-batch6-20261010/cd83a0606408b57a/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/world-health-organization-logo-1/sources/reviewed-alpha-batch6-20261010/cd46b40e6175bca3/preview.png",
+      "asset_review_status": "verified",
+      "variants_n": 1
+    },
+    "world-anti-doping-agency-logo": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch6-20261010/ff11aeeee1b6f616/logo.svg",
+      "logo_png": "https://logo.vibers.co.kr/_clients/world-anti-doping-agency-logo/sources/reviewed-alpha-batch6-20261010/83b3e8c15aaba428/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/world-anti-doping-agency-logo/sources/reviewed-alpha-batch6-20261010/eebb54612ad4239d/preview.png",
+      "asset_review_status": "verified",
+      "variants_n": 1
+    },
+    "world-food-programme-logo-simple": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch6-20261010/10d731cddc4b377b/logo.svg",
+      "logo_png": "https://logo.vibers.co.kr/_clients/world-food-programme-logo-simple/sources/reviewed-alpha-batch6-20261010/2665969fa1316df7/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/world-food-programme-logo-simple/sources/reviewed-alpha-batch6-20261010/84c34abd9b310c22/preview.png",
+      "asset_review_status": "verified",
+      "variants_n": 1
+    },
+    "workwear-group-1": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch6-20261010/07e5bb5596bad406/logo.svg",
+      "logo_png": "https://logo.vibers.co.kr/_clients/workwear-group-1/sources/reviewed-alpha-batch6-20261010/bbc84283cf218437/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/workwear-group-1/sources/reviewed-alpha-batch6-20261010/eed330ebafc17f2a/preview.png",
+      "asset_review_status": "verified",
+      "variants_n": 1
+    },
+    "workship": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch6-20261010/87d6c28fa7b9de9d/logo.svg",
+      "logo_png": "https://logo.vibers.co.kr/_clients/workship/sources/reviewed-alpha-batch6-20261010/d2ad274da7109509/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/workship/sources/reviewed-alpha-batch6-20261010/53d5a3e42b21a83c/preview.png",
+      "asset_review_status": "verified",
+      "variants_n": 1
+    },
+    "workship-1": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch6-20261010/87d6c28fa7b9de9d/logo.svg",
+      "logo_png": "https://logo.vibers.co.kr/_clients/workship-1/sources/reviewed-alpha-batch6-20261010/d2ad274da7109509/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/workship-1/sources/reviewed-alpha-batch6-20261010/53d5a3e42b21a83c/preview.png",
+      "asset_review_status": "verified",
+      "variants_n": 1
+    },
+    "worklio": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch6-20261010/1975ea47489026d5/logo.svg",
+      "logo_png": "https://logo.vibers.co.kr/_clients/worklio/sources/reviewed-alpha-batch6-20261010/a346b5c2b03a32d4/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/worklio/sources/reviewed-alpha-batch6-20261010/28f2ef40e7ecc205/preview.png",
+      "asset_review_status": "verified",
+      "variants_n": 1
+    },
+    "workmarket-1": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch6-20261010/a6c80dc1136fddd2/logo.svg",
+      "logo_png": "https://logo.vibers.co.kr/_clients/workmarket-1/sources/reviewed-alpha-batch6-20261010/514a80424c0e6053/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/workmarket-1/sources/reviewed-alpha-batch6-20261010/df08dab1d9f71765/preview.png",
+      "asset_review_status": "verified",
+      "variants_n": 1
+    },
+    "workhorse-group-logo-full": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch6-20261010/abf3cddbf5b1b9dc/logo.svg",
+      "logo_png": "https://logo.vibers.co.kr/_clients/workhorse-group-logo-full/sources/reviewed-alpha-batch6-20261010/27e3ec84e18d1100/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/workhorse-group-logo-full/sources/reviewed-alpha-batch6-20261010/b8827551aeb9dff5/preview.png",
+      "asset_review_status": "verified",
+      "variants_n": 1
+    },
+    "workingtitle": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch6-20261010/4ddffe22efc5870c/logo.svg",
+      "logo_png": "https://logo.vibers.co.kr/_clients/workingtitle/sources/reviewed-alpha-batch6-20261010/41c003358470b444/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/workingtitle/sources/reviewed-alpha-batch6-20261010/769f72b8ad2c2344/preview.png",
+      "asset_review_status": "verified",
+      "variants_n": 1
+    },
+    "workerman": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch6-20261010/496898c01f423096/logo.svg",
+      "logo_png": "https://logo.vibers.co.kr/_clients/workerman/sources/reviewed-alpha-batch6-20261010/1623b6eb6ba4ae07/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/workerman/sources/reviewed-alpha-batch6-20261010/047e2d8e0a03aef9/preview.png",
+      "asset_review_status": "verified",
+      "variants_n": 1
+    },
+    "workday-logo": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch6-20261010/82952cd11a9bd0b3/logo.svg",
+      "logo_png": "https://logo.vibers.co.kr/_clients/workday-logo/sources/reviewed-alpha-batch6-20261010/eefd9309a5ce99a5/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/workday-logo/sources/reviewed-alpha-batch6-20261010/f9729bf4b34fe387/preview.png",
+      "asset_review_status": "verified",
+      "variants_n": 1
+    },
+    "work-1": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch6-20261010/826857dd5ffbaebd/logo.svg",
+      "logo_png": "https://logo.vibers.co.kr/_clients/work-1/sources/reviewed-alpha-batch6-20261010/a94e4108a896b808/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/work-1/sources/reviewed-alpha-batch6-20261010/886f0a3410e4589f/preview.png",
+      "asset_review_status": "verified",
+      "variants_n": 1
+    },
+    "work-2": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch6-20261010/a330c4c656d39cdf/logo.svg",
+      "logo_png": "https://logo.vibers.co.kr/_clients/work-2/sources/reviewed-alpha-batch6-20261010/b190308857943280/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/work-2/sources/reviewed-alpha-batch6-20261010/b984c40b4388a27f/preview.png",
+      "asset_review_status": "verified",
+      "variants_n": 1
+    },
+    "workboard--src-4eaaf3b": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch6-20261010/7b7a13abcbe92419/logo.svg",
+      "logo_png": "https://logo.vibers.co.kr/_clients/workboard--src-4eaaf3b/sources/reviewed-alpha-batch6-20261010/c0f92b8e12b2562c/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/workboard--src-4eaaf3b/sources/reviewed-alpha-batch6-20261010/1932f48443816dca/preview.png",
+      "asset_review_status": "verified",
+      "variants_n": 1
+    },
+    "wordpress-blue-1": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch6-20261010/62cf9e3751282c76/logo.svg",
+      "logo_png": "https://logo.vibers.co.kr/_clients/wordpress-blue-1/sources/reviewed-alpha-batch6-20261010/2cf3a2ed5cf07a7e/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/wordpress-blue-1/sources/reviewed-alpha-batch6-20261010/dfd8233e8356b0bd/preview.png",
+      "asset_review_status": "verified",
+      "variants_n": 1
+    },
+    "wordmark-black-medium": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch6-20261010/8e8fc9035f7dc347/logo.svg",
+      "logo_png": "https://logo.vibers.co.kr/_clients/wordmark-black-medium/sources/reviewed-alpha-batch6-20261010/dcd9b5215ff23508/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/wordmark-black-medium/sources/reviewed-alpha-batch6-20261010/1213e0048c74857f/preview.png",
+      "asset_review_status": "verified",
+      "variants_n": 1
+    },
+    "word-1": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch6-20261010/c456b7ff8cfd3be2/logo.svg",
+      "logo_png": "https://logo.vibers.co.kr/_clients/word-1/sources/reviewed-alpha-batch6-20261010/9be232555e317365/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/word-1/sources/reviewed-alpha-batch6-20261010/33818090ef031ae4/preview.png",
+      "asset_review_status": "verified",
+      "variants_n": 1
+    },
+    "woopra--src-5dd64c0": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch6-20261010/6fc17a1a6f4999e0/logo.svg",
+      "logo_png": "https://logo.vibers.co.kr/_clients/woopra--src-5dd64c0/sources/reviewed-alpha-batch6-20261010/7110c7ada4763472/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/woopra--src-5dd64c0/sources/reviewed-alpha-batch6-20261010/0579e809afa6e4e8/preview.png",
+      "asset_review_status": "verified",
+      "variants_n": 1
+    },
+    "woolworths-4": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch6-20261010/c79c96a507f278e9/logo.svg",
+      "logo_png": "https://logo.vibers.co.kr/_clients/woolworths-4/sources/reviewed-alpha-batch6-20261010/795cdcc2efa8cbcf/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/woolworths-4/sources/reviewed-alpha-batch6-20261010/bff60c1373477297/preview.png",
+      "asset_review_status": "verified",
+      "variants_n": 1
+    },
+    "woolworths-5": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch6-20261010/f8070129771b1fea/logo.svg",
+      "logo_png": "https://logo.vibers.co.kr/_clients/woolworths-5/sources/reviewed-alpha-batch6-20261010/c91b673d42723be9/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/woolworths-5/sources/reviewed-alpha-batch6-20261010/fccad56c9d087eb0/preview.png",
+      "asset_review_status": "verified",
+      "variants_n": 1
+    },
+    "woolrich-2": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch6-20261010/0127de46c4624c3c/logo.svg",
+      "logo_png": "https://logo.vibers.co.kr/_clients/woolrich-2/sources/reviewed-alpha-batch6-20261010/fd61c9f40c426b46/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/woolrich-2/sources/reviewed-alpha-batch6-20261010/6ddde727dff125dd/preview.png",
+      "asset_review_status": "verified",
+      "variants_n": 1
+    },
+    "woods-cross-high-school": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch6-20261010/c6da690723f9f812/logo.svg",
+      "logo_png": "https://logo.vibers.co.kr/_clients/woods-cross-high-school/sources/reviewed-alpha-batch6-20261010/8804fb0787e63725/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/woods-cross-high-school/sources/reviewed-alpha-batch6-20261010/5a97205050cc107f/preview.png",
+      "asset_review_status": "verified",
+      "variants_n": 1
+    },
+    "woocommerce--src-2829b97": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch6-20261010/cc2132b2c259c817/logo.svg",
+      "logo_png": "https://logo.vibers.co.kr/_clients/woocommerce--src-2829b97/sources/reviewed-alpha-batch6-20261010/03595fcdac54e22b/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/woocommerce--src-2829b97/sources/reviewed-alpha-batch6-20261010/a442715f69c73419/preview.png",
+      "asset_review_status": "verified",
+      "variants_n": 1
+    },
+    "woocommerce-1": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch6-20261010/168fa40f8408ac86/logo.svg",
+      "logo_png": "https://logo.vibers.co.kr/_clients/woocommerce-1/sources/reviewed-alpha-batch6-20261010/75df8424499beed5/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/woocommerce-1/sources/reviewed-alpha-batch6-20261010/2771637c71bf5007/preview.png",
+      "asset_review_status": "verified",
+      "variants_n": 1
+    },
+    "wonder-woman-3": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch6-20261010/199b12683a1d4c8d/logo.svg",
+      "logo_png": "https://logo.vibers.co.kr/_clients/wonder-woman-3/sources/reviewed-alpha-batch6-20261010/cd77db9f0edc368d/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/wonder-woman-3/sources/reviewed-alpha-batch6-20261010/cfd2b8aec6b640e0/preview.png",
+      "asset_review_status": "verified",
+      "variants_n": 1
+    },
+    "won-door-1": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch6-20261010/d166d583b9a42262/logo.svg",
+      "logo_png": "https://logo.vibers.co.kr/_clients/won-door-1/sources/reviewed-alpha-batch6-20261010/23dfe358ab851431/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/won-door-1/sources/reviewed-alpha-batch6-20261010/60aad002a85857a0/preview.png",
+      "asset_review_status": "verified",
+      "variants_n": 1
+    },
+    "wonder-woman--src-5c32336": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch6-20261010/76ebe814fb26e929/logo.svg",
+      "logo_png": "https://logo.vibers.co.kr/_clients/wonder-woman--src-5c32336/sources/reviewed-alpha-batch6-20261010/fe0062004e1076b5/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/wonder-woman--src-5c32336/sources/reviewed-alpha-batch6-20261010/0611f56ad7ffe761/preview.png",
+      "asset_review_status": "verified",
+      "variants_n": 1
+    },
+    "woman-s-weekly": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch6-20261010/23991c19617ec3f5/logo.svg",
+      "logo_png": "https://logo.vibers.co.kr/_clients/woman-s-weekly/sources/reviewed-alpha-batch6-20261010/42ce002a721810a1/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/woman-s-weekly/sources/reviewed-alpha-batch6-20261010/3a66c048ba78f387/preview.png",
+      "asset_review_status": "verified",
+      "variants_n": 1
+    },
+    "wolves": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch6-20261010/ee67f3035fcf68fa/logo.svg",
+      "logo_png": "https://logo.vibers.co.kr/_clients/wolves/sources/reviewed-alpha-batch6-20261010/1c65213a82ba8ea5/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/wolves/sources/reviewed-alpha-batch6-20261010/7aa96085da2fe7a1/preview.png",
+      "asset_review_status": "verified",
+      "variants_n": 1
+    },
+    "wolves-1": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch6-20261010/ca585d79c47dd636/logo.svg",
+      "logo_png": "https://logo.vibers.co.kr/_clients/wolves-1/sources/reviewed-alpha-batch6-20261010/699e294eb18dd210/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/wolves-1/sources/reviewed-alpha-batch6-20261010/76242efbd0332841/preview.png",
+      "asset_review_status": "verified",
+      "variants_n": 1
+    },
+    "wolters-kluwer-2": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch6-20261010/c37ae00a5456aa10/logo.svg",
+      "logo_png": "https://logo.vibers.co.kr/_clients/wolters-kluwer-2/sources/reviewed-alpha-batch6-20261010/d9c0d7e3157738aa/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/wolters-kluwer-2/sources/reviewed-alpha-batch6-20261010/8dfc857fdbeac4ef/preview.png",
+      "asset_review_status": "verified",
+      "variants_n": 1
+    },
+    "wolfsb-2": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch6-20261010/3913bfc402a2054d/logo.svg",
+      "logo_png": "https://logo.vibers.co.kr/_clients/wolfsb-2/sources/reviewed-alpha-batch6-20261010/7787442200d4a7f2/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/wolfsb-2/sources/reviewed-alpha-batch6-20261010/5dfbd4800b08784d/preview.png",
+      "asset_review_status": "verified",
+      "variants_n": 1
+    },
+    "wolfsb-1": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch6-20261010/30556559afd2cc23/logo.svg",
+      "logo_png": "https://logo.vibers.co.kr/_clients/wolfsb-1/sources/reviewed-alpha-batch6-20261010/d8494dbd478d9e26/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/wolfsb-1/sources/reviewed-alpha-batch6-20261010/a45ef364476a4535/preview.png",
+      "asset_review_status": "verified",
+      "variants_n": 1
+    },
+    "wolford-logo-2005": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch6-20261010/8a32f6fc84decdda/logo.svg",
+      "logo_png": "https://logo.vibers.co.kr/_clients/wolford-logo-2005/sources/reviewed-alpha-batch6-20261010/4c655a05c0f3421b/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/wolford-logo-2005/sources/reviewed-alpha-batch6-20261010/d3ad81ec40b17954/preview.png",
+      "asset_review_status": "verified",
+      "variants_n": 1
+    },
+    "wolfram-alpha-december-2016": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch6-20261010/d13b58023a7a3970/logo.svg",
+      "logo_png": "https://logo.vibers.co.kr/_clients/wolfram-alpha-december-2016/sources/reviewed-alpha-batch6-20261010/5fb568905132845d/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/wolfram-alpha-december-2016/sources/reviewed-alpha-batch6-20261010/3dae179f6e85c17e/preview.png",
+      "asset_review_status": "verified",
+      "variants_n": 1
+    },
+    "wolf-river-community-bank": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch6-20261010/1493e5f4aa7c064a/logo.svg",
+      "logo_png": "https://logo.vibers.co.kr/_clients/wolf-river-community-bank/sources/reviewed-alpha-batch6-20261010/77ef7b7fcaf3d085/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/wolf-river-community-bank/sources/reviewed-alpha-batch6-20261010/fdfd85c41c71639e/preview.png",
+      "asset_review_status": "verified",
+      "variants_n": 1
+    },
+    "wolf-logo": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch6-20261010/f7a9e87997e3b29b/logo.svg",
+      "logo_png": "https://logo.vibers.co.kr/_clients/wolf-logo/sources/reviewed-alpha-batch6-20261010/20c578cd29060f41/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/wolf-logo/sources/reviewed-alpha-batch6-20261010/c5a94eca0bf3aebe/preview.png",
+      "asset_review_status": "verified",
+      "variants_n": 1
+    },
+    "wolf-logo-1": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch6-20261010/f7a9e87997e3b29b/logo.svg",
+      "logo_png": "https://logo.vibers.co.kr/_clients/wolf-logo-1/sources/reviewed-alpha-batch6-20261010/20c578cd29060f41/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/wolf-logo-1/sources/reviewed-alpha-batch6-20261010/c5a94eca0bf3aebe/preview.png",
+      "asset_review_status": "verified",
+      "variants_n": 1
+    },
+    "wodify-logo-2": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch6-20261010/9d57762af16ae18f/logo.svg",
+      "logo_png": "https://logo.vibers.co.kr/_clients/wodify-logo-2/sources/reviewed-alpha-batch6-20261010/63194094b85a71a9/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/wodify-logo-2/sources/reviewed-alpha-batch6-20261010/65b7097bb4112ae6/preview.png",
+      "asset_review_status": "verified",
+      "variants_n": 1
+    },
+    "wnl-2": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch6-20261010/831550501650e826/logo.svg",
+      "logo_png": "https://logo.vibers.co.kr/_clients/wnl-2/sources/reviewed-alpha-batch6-20261010/555d298f0dbd661a/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/wnl-2/sources/reviewed-alpha-batch6-20261010/206fa80114a8b2c2/preview.png",
+      "asset_review_status": "verified",
+      "variants_n": 1
+    },
+    "wmd-world-map": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch6-20261010/865ee02fca4b7592/logo.svg",
+      "logo_png": "https://logo.vibers.co.kr/_clients/wmd-world-map/sources/reviewed-alpha-batch6-20261010/6706a5eee2915ac1/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/wmd-world-map/sources/reviewed-alpha-batch6-20261010/87281dd2c07443cc/preview.png",
+      "asset_review_status": "verified",
+      "variants_n": 1
+    },
+    "wm-morrison-supermarkets-logo": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch6-20261010/a8471b780ebdf1bc/logo.svg",
+      "logo_png": "https://logo.vibers.co.kr/_clients/wm-morrison-supermarkets-logo/sources/reviewed-alpha-batch6-20261010/10f6bef29b878cba/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/wm-morrison-supermarkets-logo/sources/reviewed-alpha-batch6-20261010/ea700767b112a5c8/preview.png",
+      "asset_review_status": "verified",
+      "variants_n": 1
+    },
+    "wizards": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch6-20261010/e7160f587ecf6aef/logo.svg",
+      "logo_png": "https://logo.vibers.co.kr/_clients/wizards/sources/reviewed-alpha-batch6-20261010/afe4890affb6918e/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/wizards/sources/reviewed-alpha-batch6-20261010/425868aac783c985/preview.png",
+      "asset_review_status": "verified",
+      "variants_n": 1
+    },
+    "wizz-air": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch6-20261010/d3ccb081290c8a10/logo.svg",
+      "logo_png": "https://logo.vibers.co.kr/_clients/wizz-air/sources/reviewed-alpha-batch6-20261010/043db01af4f31730/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/wizz-air/sources/reviewed-alpha-batch6-20261010/f1f5fa1a62c142da/preview.png",
+      "asset_review_status": "verified",
+      "variants_n": 1
+    },
+    "wizards-of-the-coast-logo": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch6-20261010/fbd72f3e505cf4f0/logo.svg",
+      "logo_png": "https://logo.vibers.co.kr/_clients/wizards-of-the-coast-logo/sources/reviewed-alpha-batch6-20261010/bf04e05dd053f80e/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/wizards-of-the-coast-logo/sources/reviewed-alpha-batch6-20261010/d3b05b1c2abdad05/preview.png",
+      "asset_review_status": "verified",
+      "variants_n": 1
+    },
+    "wix--src-01aaeb7": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch6-20261010/7adba58e6004df4e/logo.svg",
+      "logo_png": "https://logo.vibers.co.kr/_clients/wix--src-01aaeb7/sources/reviewed-alpha-batch6-20261010/c4ed04ce4dc38590/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/wix--src-01aaeb7/sources/reviewed-alpha-batch6-20261010/0715bb0957f8523a/preview.png",
+      "asset_review_status": "verified",
+      "variants_n": 1
+    },
+    "wix-com-website-logo": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch6-20261010/a93515a590990789/logo.svg",
+      "logo_png": "https://logo.vibers.co.kr/_clients/wix-com-website-logo/sources/reviewed-alpha-batch6-20261010/c5c5b0a4922c2874/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/wix-com-website-logo/sources/reviewed-alpha-batch6-20261010/613c959f58c09566/preview.png",
+      "asset_review_status": "verified",
+      "variants_n": 1
+    },
+    "wix-com-website-logo-1": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch6-20261010/9e4cdec4b6d42cea/logo.svg",
+      "logo_png": "https://logo.vibers.co.kr/_clients/wix-com-website-logo-1/sources/reviewed-alpha-batch6-20261010/141f6bd878e15a91/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/wix-com-website-logo-1/sources/reviewed-alpha-batch6-20261010/9a3c7c9a565cba61/preview.png",
+      "asset_review_status": "verified",
+      "variants_n": 1
+    },
+    "wix-logo-1": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch6-20261010/616e0212fd3dbefa/logo.svg",
+      "logo_png": "https://logo.vibers.co.kr/_clients/wix-logo-1/sources/reviewed-alpha-batch6-20261010/bb9cf217406eb3dd/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/wix-logo-1/sources/reviewed-alpha-batch6-20261010/1f4ef68ab662d146/preview.png",
+      "asset_review_status": "verified",
+      "variants_n": 1
+    },
+    "wit": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch6-20261010/24f1706926409ff9/logo.svg",
+      "logo_png": "https://logo.vibers.co.kr/_clients/wit/sources/reviewed-alpha-batch6-20261010/a196c7554fdb1604/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/wit/sources/reviewed-alpha-batch6-20261010/f553998551252a15/preview.png",
+      "asset_review_status": "verified",
+      "variants_n": 1
+    },
+    "wistia-new-logo": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch6-20261010/1cbc23a0d0916490/logo.svg",
+      "logo_png": "https://logo.vibers.co.kr/_clients/wistia-new-logo/sources/reviewed-alpha-batch6-20261010/66de349d360152c3/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/wistia-new-logo/sources/reviewed-alpha-batch6-20261010/e93aae1b7a9b3120/preview.png",
+      "asset_review_status": "verified",
+      "variants_n": 1
+    },
+    "wistron-logo": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch6-20261010/1a9dcc651c9ef676/logo.svg",
+      "logo_png": "https://logo.vibers.co.kr/_clients/wistron-logo/sources/reviewed-alpha-batch6-20261010/469926336f493ec1/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/wistron-logo/sources/reviewed-alpha-batch6-20261010/5c1c063c49ea40c1/preview.png",
+      "asset_review_status": "verified",
+      "variants_n": 1
+    },
+    "witness": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch6-20261010/31001b98b21ff4a5/logo.svg",
+      "logo_png": "https://logo.vibers.co.kr/_clients/witness/sources/reviewed-alpha-batch6-20261010/51ba6d712640f645/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/witness/sources/reviewed-alpha-batch6-20261010/4cb71a95d923fd10/preview.png",
+      "asset_review_status": "verified",
+      "variants_n": 1
+    },
+    "wit-studio--src-cd3d621": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch6-20261010/0bceaa42b5924d47/logo.svg",
+      "logo_png": "https://logo.vibers.co.kr/_clients/wit-studio--src-cd3d621/sources/reviewed-alpha-batch6-20261010/2704c16868cc3f9b/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/wit-studio--src-cd3d621/sources/reviewed-alpha-batch6-20261010/aae3f724d7be3af2/preview.png",
+      "asset_review_status": "verified",
+      "variants_n": 1
+    },
+    "wisk": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch6-20261010/d47038f3a342d9d5/logo.svg",
+      "logo_png": "https://logo.vibers.co.kr/_clients/wisk/sources/reviewed-alpha-batch6-20261010/ac86415e7f1beb30/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/wisk/sources/reviewed-alpha-batch6-20261010/61a7c719c3ac6c42/preview.png",
+      "asset_review_status": "verified",
+      "variants_n": 1
+    },
+    "wish-wordmark-1": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch6-20261010/1cb91da38920cfa3/logo.svg",
+      "logo_png": "https://logo.vibers.co.kr/_clients/wish-wordmark-1/sources/reviewed-alpha-batch6-20261010/71450a5ceefe67b8/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/wish-wordmark-1/sources/reviewed-alpha-batch6-20261010/d96536084122a015/preview.png",
+      "asset_review_status": "verified",
+      "variants_n": 1
+    },
+    "wisewizards-1": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch6-20261010/fbaaaf1af85da1a8/logo.svg",
+      "logo_png": "https://logo.vibers.co.kr/_clients/wisewizards-1/sources/reviewed-alpha-batch6-20261010/b7d473397865aaa2/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/wisewizards-1/sources/reviewed-alpha-batch6-20261010/644fdb3bb216c8d0/preview.png",
+      "asset_review_status": "verified",
+      "variants_n": 1
+    },
+    "wish-1": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch7-20261010/0b9aa4c0e5d77e78/logo.svg",
+      "logo_png": "https://logo.vibers.co.kr/_clients/wish-1/sources/reviewed-alpha-batch7-20261010/14d199f26b6a9b1a/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/wish-1/sources/reviewed-alpha-batch7-20261010/7202e281b42deedf/preview.png",
+      "asset_review_status": "verified",
+      "variants_n": 1
+    },
+    "wiseco-1": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch7-20261010/b08e6e5cf1df4834/logo.svg",
+      "logo_png": "https://logo.vibers.co.kr/_clients/wiseco-1/sources/reviewed-alpha-batch7-20261010/1d99544258835714/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/wiseco-1/sources/reviewed-alpha-batch7-20261010/25f3835e7ca261fb/preview.png",
+      "asset_review_status": "verified",
+      "variants_n": 1
+    },
+    "wish-2": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch7-20261010/5e3e4131643a7d38/logo.svg",
+      "logo_png": "https://logo.vibers.co.kr/_clients/wish-2/sources/reviewed-alpha-batch7-20261010/77a83659f37d0fce/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/wish-2/sources/reviewed-alpha-batch7-20261010/0bb69aefebaa2885/preview.png",
+      "asset_review_status": "verified",
+      "variants_n": 1
+    },
+    "wirex": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch7-20261010/bf55e6c32756b25e/logo.svg",
+      "logo_png": "https://logo.vibers.co.kr/_clients/wirex/sources/reviewed-alpha-batch7-20261010/82822f6548e11a50/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/wirex/sources/reviewed-alpha-batch7-20261010/e8d11d72addb4a47/preview.png",
+      "asset_review_status": "verified",
+      "variants_n": 1
+    },
+    "wiretap-1": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch7-20261010/93bd0db326d72d78/logo.svg",
+      "logo_png": "https://logo.vibers.co.kr/_clients/wiretap-1/sources/reviewed-alpha-batch7-20261010/3231f4858dc48bd2/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/wiretap-1/sources/reviewed-alpha-batch7-20261010/b21e43cd3df14a46/preview.png",
+      "asset_review_status": "verified",
+      "variants_n": 1
+    },
+    "wireshark--src-b448d4a": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch7-20261010/c136ce9355ccdd02/logo.svg",
+      "logo_png": "https://logo.vibers.co.kr/_clients/wireshark--src-b448d4a/sources/reviewed-alpha-batch7-20261010/1eb5427807a12912/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/wireshark--src-b448d4a/sources/reviewed-alpha-batch7-20261010/6a72a309ca6e43d4/preview.png",
+      "asset_review_status": "verified",
+      "variants_n": 1
+    },
+    "wiretap-3": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch7-20261010/ff4a3eccaee21ecc/logo.svg",
+      "logo_png": "https://logo.vibers.co.kr/_clients/wiretap-3/sources/reviewed-alpha-batch7-20261010/aa27b9f963a2faac/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/wiretap-3/sources/reviewed-alpha-batch7-20261010/ab40e07a77051d7a/preview.png",
+      "asset_review_status": "verified",
+      "variants_n": 1
+    },
+    "wiredtree--src-1e22cdc": {
+      "has_svg": true,
+      "logo_svg": true,
+      "has_png": true,
+      "svg_transparent": "sources/reviewed-alpha-batch7-20261010/aa075924f6936f59/logo.svg",
+      "logo_png": "https://logo.vibers.co.kr/_clients/wiredtree--src-1e22cdc/sources/reviewed-alpha-batch7-20261010/18a7ff057e8aa7b3/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/wiredtree--src-1e22cdc/sources/reviewed-alpha-batch7-20261010/c058f4d80cd61d2b/preview.png",
+      "asset_review_status": "verified",
+      "variants_n": 1
     }
   },
   "variants": {
@@ -3625,6 +4808,2484 @@
           "provider": "보유 벡터 원본 · 투명 PNG 재생성",
           "origin": "derived",
           "order": 0
+        }
+      ]
+    },
+    "xacar": {
+      "schema": 1,
+      "id": "xacar",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "unknown",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch6-20261010/2eeacc213b99d1ae/logo.svg",
+            "png": "sources/reviewed-alpha-batch6-20261010/a323dc024acf35c3/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0,
+          "preview_png": "sources/reviewed-alpha-batch6-20261010/3856bf032a304e6b/preview.png"
+        }
+      ]
+    },
+    "xactimate-1": {
+      "schema": 1,
+      "id": "xactimate-1",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "unknown",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch6-20261010/5a456bb1284a57ee/logo.svg",
+            "png": "sources/reviewed-alpha-batch6-20261010/3ddf7833cc50909c/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0,
+          "preview_png": "sources/reviewed-alpha-batch6-20261010/b8a224cbe49d00a1/preview.png"
+        }
+      ]
+    },
+    "xanavi-nissan": {
+      "schema": 1,
+      "id": "xanavi-nissan",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "unknown",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch6-20261010/3f7a251a039ec744/logo.svg",
+            "png": "sources/reviewed-alpha-batch6-20261010/e0392705c0a39a3b/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0,
+          "preview_png": "sources/reviewed-alpha-batch6-20261010/5a13eea30f867591/preview.png"
+        }
+      ]
+    },
+    "xamax": {
+      "schema": 1,
+      "id": "xamax",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "unknown",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch6-20261010/901c6f8f1ff30e91/logo.svg",
+            "png": "sources/reviewed-alpha-batch6-20261010/14e521cf09e1f2ae/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0,
+          "preview_png": "sources/reviewed-alpha-batch6-20261010/dde373d4c9ee2eee/preview.png"
+        }
+      ]
+    },
+    "xango": {
+      "schema": 1,
+      "id": "xango",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "unknown",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch6-20261010/e0dd3b8834b95ddf/logo.svg",
+            "png": "sources/reviewed-alpha-batch6-20261010/c1eac6591960b5b8/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0,
+          "preview_png": "sources/reviewed-alpha-batch6-20261010/7909c9e7d0a799fc/preview.png"
+        }
+      ]
+    },
+    "xanga--src-e99c26e": {
+      "schema": 1,
+      "id": "xanga--src-e99c26e",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "unknown",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch6-20261010/2862ceb35afa632f/logo.svg",
+            "png": "sources/reviewed-alpha-batch6-20261010/7f4359ff5652d3f6/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0,
+          "preview_png": "sources/reviewed-alpha-batch6-20261010/0ad20c49dd47c92a/preview.png"
+        }
+      ]
+    },
+    "x-ray-goggles--src-c380805": {
+      "schema": 1,
+      "id": "x-ray-goggles--src-c380805",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "unknown",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch6-20261010/9e3c71f594821c64/logo.svg",
+            "png": "sources/reviewed-alpha-batch6-20261010/2ff1b872e53e1662/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0,
+          "preview_png": "sources/reviewed-alpha-batch6-20261010/3fe2fc6f0f70cfda/preview.png"
+        }
+      ]
+    },
+    "x-games-2": {
+      "schema": 1,
+      "id": "x-games-2",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "unknown",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch6-20261010/6f5363f0c809bde4/logo.svg",
+            "png": "sources/reviewed-alpha-batch6-20261010/b587170b90372323/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0,
+          "preview_png": "sources/reviewed-alpha-batch6-20261010/ff01fba94296f263/preview.png"
+        }
+      ]
+    },
+    "x-2": {
+      "schema": 1,
+      "id": "x-2",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "unknown",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch6-20261010/51a1eff509f4e1a2/logo.svg",
+            "png": "sources/reviewed-alpha-batch6-20261010/e90e3871fc598153/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0,
+          "preview_png": "sources/reviewed-alpha-batch6-20261010/c09ac85812264d9f/preview.png"
+        }
+      ]
+    },
+    "wyre-1": {
+      "schema": 1,
+      "id": "wyre-1",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "unknown",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch6-20261010/188053d65150ebe3/logo.svg",
+            "png": "sources/reviewed-alpha-batch6-20261010/77a59a05a172184a/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0,
+          "preview_png": "sources/reviewed-alpha-batch6-20261010/81e8331011c02106/preview.png"
+        }
+      ]
+    },
+    "x-byte-lab-1": {
+      "schema": 1,
+      "id": "x-byte-lab-1",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "unknown",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch6-20261010/6440081f9a83643b/logo.svg",
+            "png": "sources/reviewed-alpha-batch6-20261010/eb10f2a515420326/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0,
+          "preview_png": "sources/reviewed-alpha-batch6-20261010/95a9740f316307a1/preview.png"
+        }
+      ]
+    },
+    "x-archery": {
+      "schema": 1,
+      "id": "x-archery",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "unknown",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch6-20261010/f920572677180715/logo.svg",
+            "png": "sources/reviewed-alpha-batch6-20261010/ba27321ea7373832/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0,
+          "preview_png": "sources/reviewed-alpha-batch6-20261010/919e0b62f70a0f68/preview.png"
+        }
+      ]
+    },
+    "wyeco-logo-4": {
+      "schema": 1,
+      "id": "wyeco-logo-4",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "unknown",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch6-20261010/c07c1143b85d8cb6/logo.svg",
+            "png": "sources/reviewed-alpha-batch6-20261010/3dd96cb845fb085d/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0,
+          "preview_png": "sources/reviewed-alpha-batch6-20261010/acec37d1ba1bdddd/preview.png"
+        }
+      ]
+    },
+    "wwf-unforgiven": {
+      "schema": 1,
+      "id": "wwf-unforgiven",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "unknown",
+          "color": "white",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch6-20261010/aaf635f34e329ada/logo.svg",
+            "png": "sources/reviewed-alpha-batch6-20261010/621e7678289a2de4/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0,
+          "preview_png": "sources/reviewed-alpha-batch6-20261010/bab5cc4b221f5d04/preview.png"
+        }
+      ]
+    },
+    "wwe-raw-logo-2018": {
+      "schema": 1,
+      "id": "wwe-raw-logo-2018",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "unknown",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch6-20261010/3f5b0c3046c31b1e/logo.svg",
+            "png": "sources/reviewed-alpha-batch6-20261010/980462570e501d54/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0,
+          "preview_png": "sources/reviewed-alpha-batch6-20261010/d68bed9d4cbbd84f/preview.png"
+        }
+      ]
+    },
+    "wwf-logo": {
+      "schema": 1,
+      "id": "wwf-logo",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "unknown",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch6-20261010/5b3a7ba1431dca05/logo.svg",
+            "png": "sources/reviewed-alpha-batch6-20261010/2961171cb45ab2bd/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0,
+          "preview_png": "sources/reviewed-alpha-batch6-20261010/60991b0e5a0e5032/preview.png"
+        }
+      ]
+    },
+    "wwf-no-way-out": {
+      "schema": 1,
+      "id": "wwf-no-way-out",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "unknown",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch6-20261010/f87720b8fcafc3b2/logo.svg",
+            "png": "sources/reviewed-alpha-batch6-20261010/59d3d69a6ca94674/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0,
+          "preview_png": "sources/reviewed-alpha-batch6-20261010/676bd3c8fa025323/preview.png"
+        }
+      ]
+    },
+    "wupper-1": {
+      "schema": 1,
+      "id": "wupper-1",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "unknown",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch6-20261010/4362a19c2a4731a5/logo.svg",
+            "png": "sources/reviewed-alpha-batch6-20261010/beb82465ac2eda0c/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0,
+          "preview_png": "sources/reviewed-alpha-batch6-20261010/626c6bce7dc5384d/preview.png"
+        }
+      ]
+    },
+    "wunjo-2": {
+      "schema": 1,
+      "id": "wunjo-2",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "unknown",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch6-20261010/2ec04e24451191ad/logo.svg",
+            "png": "sources/reviewed-alpha-batch6-20261010/9d54ba80e942ed93/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0,
+          "preview_png": "sources/reviewed-alpha-batch6-20261010/8aacaa2c35ef7166/preview.png"
+        }
+      ]
+    },
+    "wuhan-iron-and-steel-logo": {
+      "schema": 1,
+      "id": "wuhan-iron-and-steel-logo",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "unknown",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch6-20261010/825779f64f4587c8/logo.svg",
+            "png": "sources/reviewed-alpha-batch6-20261010/0ab142145e79c10f/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0,
+          "preview_png": "sources/reviewed-alpha-batch6-20261010/1e0d025af498ea29/preview.png"
+        }
+      ]
+    },
+    "wunderlist": {
+      "schema": 1,
+      "id": "wunderlist",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "unknown",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch6-20261010/779be68aa38543dc/logo.svg",
+            "png": "sources/reviewed-alpha-batch6-20261010/8e12d0e59cfdeb23/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0,
+          "preview_png": "sources/reviewed-alpha-batch6-20261010/c72318b2d65e340f/preview.png"
+        }
+      ]
+    },
+    "wud-1": {
+      "schema": 1,
+      "id": "wud-1",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "unknown",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch6-20261010/dd28a6f6a7bbc721/logo.svg",
+            "png": "sources/reviewed-alpha-batch6-20261010/4ffbeb58be200676/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0,
+          "preview_png": "sources/reviewed-alpha-batch6-20261010/ff0d40196dc52bf7/preview.png"
+        }
+      ]
+    },
+    "wufoo--src-5f8cbaa": {
+      "schema": 1,
+      "id": "wufoo--src-5f8cbaa",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "unknown",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch6-20261010/e362e4cf09d4dd2c/logo.svg",
+            "png": "sources/reviewed-alpha-batch6-20261010/70b76e62f37734d9/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0,
+          "preview_png": "sources/reviewed-alpha-batch6-20261010/24982090500e2c19/preview.png"
+        }
+      ]
+    },
+    "wuerth-logo-1": {
+      "schema": 1,
+      "id": "wuerth-logo-1",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "unknown",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch6-20261010/55d6aa601280320c/logo.svg",
+            "png": "sources/reviewed-alpha-batch6-20261010/9450ca3ac572a3d1/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0,
+          "preview_png": "sources/reviewed-alpha-batch6-20261010/2c0ccff4163047f1/preview.png"
+        }
+      ]
+    },
+    "wtv-logo-ja": {
+      "schema": 1,
+      "id": "wtv-logo-ja",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "unknown",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch6-20261010/f47f6b1d24ed3cb8/logo.svg",
+            "png": "sources/reviewed-alpha-batch6-20261010/75f5b7bf49e8e534/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0,
+          "preview_png": "sources/reviewed-alpha-batch6-20261010/07287e0a12070b65/preview.png"
+        }
+      ]
+    },
+    "wtk-elektronik-1": {
+      "schema": 1,
+      "id": "wtk-elektronik-1",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "unknown",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch6-20261010/4d9e0a9be70b1740/logo.svg",
+            "png": "sources/reviewed-alpha-batch6-20261010/2e4a1d6a47148fdf/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0,
+          "preview_png": "sources/reviewed-alpha-batch6-20261010/0e03046d88b7bead/preview.png"
+        }
+      ]
+    },
+    "wuerth-group-logo-1": {
+      "schema": 1,
+      "id": "wuerth-group-logo-1",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "unknown",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch6-20261010/e3ed966eb4b3d759/logo.svg",
+            "png": "sources/reviewed-alpha-batch6-20261010/9fdbccec7694fe6e/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0,
+          "preview_png": "sources/reviewed-alpha-batch6-20261010/13a9ee52d9a19e21/preview.png"
+        }
+      ]
+    },
+    "wtf-nl": {
+      "schema": 1,
+      "id": "wtf-nl",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "unknown",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch6-20261010/363c0bb4b396e9ca/logo.svg",
+            "png": "sources/reviewed-alpha-batch6-20261010/e3f6727f9daa3ca5/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0,
+          "preview_png": "sources/reviewed-alpha-batch6-20261010/cf9821c5fbd6e2e5/preview.png"
+        }
+      ]
+    },
+    "wtcc-logo": {
+      "schema": 1,
+      "id": "wtcc-logo",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "unknown",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch6-20261010/0584c8f0a12fed67/logo.svg",
+            "png": "sources/reviewed-alpha-batch6-20261010/8684851415f43578/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0,
+          "preview_png": "sources/reviewed-alpha-batch6-20261010/2b15c72a3deec9c0/preview.png"
+        }
+      ]
+    },
+    "wrike-wordmark-1": {
+      "schema": 1,
+      "id": "wrike-wordmark-1",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "unknown",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch6-20261010/7a0b2da72ba905c7/logo.svg",
+            "png": "sources/reviewed-alpha-batch6-20261010/82259271bb8da6c5/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0,
+          "preview_png": "sources/reviewed-alpha-batch6-20261010/02f79f3a2eda02d1/preview.png"
+        }
+      ]
+    },
+    "wriggle": {
+      "schema": 1,
+      "id": "wriggle",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "unknown",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch6-20261010/e02d39eb6bfe4401/logo.svg",
+            "png": "sources/reviewed-alpha-batch6-20261010/39ac21800fbf3e9c/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0,
+          "preview_png": "sources/reviewed-alpha-batch6-20261010/1aac43616195381e/preview.png"
+        }
+      ]
+    },
+    "wrike": {
+      "schema": 1,
+      "id": "wrike",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "unknown",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch6-20261010/6b59b5c074371288/logo.svg",
+            "png": "sources/reviewed-alpha-batch6-20261010/6276dafeca8406d5/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0,
+          "preview_png": "sources/reviewed-alpha-batch6-20261010/07c31ab184fd9646/preview.png"
+        }
+      ]
+    },
+    "wrangler-logo": {
+      "schema": 1,
+      "id": "wrangler-logo",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "unknown",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch6-20261010/9b21d383dde9e65a/logo.svg",
+            "png": "sources/reviewed-alpha-batch6-20261010/1eb27e9a8ecfb3b7/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0,
+          "preview_png": "sources/reviewed-alpha-batch6-20261010/0cfd77a61b5db87d/preview.png"
+        }
+      ]
+    },
+    "wrangler-jeans-logo": {
+      "schema": 1,
+      "id": "wrangler-jeans-logo",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "unknown",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch6-20261010/35a3088db1d62b4f/logo.svg",
+            "png": "sources/reviewed-alpha-batch6-20261010/c211149ec4620a1a/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0,
+          "preview_png": "sources/reviewed-alpha-batch6-20261010/2fc483fa06879c5b/preview.png"
+        }
+      ]
+    },
+    "wpp-1": {
+      "schema": 1,
+      "id": "wpp-1",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "unknown",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch6-20261010/e41f968470457b4d/logo.svg",
+            "png": "sources/reviewed-alpha-batch6-20261010/7751f9e6541f8b3d/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0,
+          "preview_png": "sources/reviewed-alpha-batch6-20261010/8bec529322d042e1/preview.png"
+        }
+      ]
+    },
+    "wpx-hosting-3": {
+      "schema": 1,
+      "id": "wpx-hosting-3",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "unknown",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch6-20261010/1fd6a8b6382dd49b/logo.svg",
+            "png": "sources/reviewed-alpha-batch6-20261010/259bf059b2362e39/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0,
+          "preview_png": "sources/reviewed-alpha-batch6-20261010/e36e7dc3df2524a3/preview.png"
+        }
+      ]
+    },
+    "wpx-hosting-2": {
+      "schema": 1,
+      "id": "wpx-hosting-2",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "unknown",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch6-20261010/3c91989873df1003/logo.svg",
+            "png": "sources/reviewed-alpha-batch6-20261010/0cc2763e1e5c796d/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0,
+          "preview_png": "sources/reviewed-alpha-batch6-20261010/c504104f9257c89c/preview.png"
+        }
+      ]
+    },
+    "wpx-hosting-4": {
+      "schema": 1,
+      "id": "wpx-hosting-4",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "unknown",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch6-20261010/9f854d590a0c05d5/logo.svg",
+            "png": "sources/reviewed-alpha-batch6-20261010/b1539639e39dc4ed/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0,
+          "preview_png": "sources/reviewed-alpha-batch6-20261010/dbde5423524b07a0/preview.png"
+        }
+      ]
+    },
+    "wpgraphql-logo-1": {
+      "schema": 1,
+      "id": "wpgraphql-logo-1",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "unknown",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch6-20261010/443904515f8a0d02/logo.svg",
+            "png": "sources/reviewed-alpha-batch6-20261010/dc4eec712cb68789/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0,
+          "preview_png": "sources/reviewed-alpha-batch6-20261010/7e513218fc88e784/preview.png"
+        }
+      ]
+    },
+    "wow-deck-ltd": {
+      "schema": 1,
+      "id": "wow-deck-ltd",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "unknown",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch6-20261010/9c3cc13f28e09ace/logo.svg",
+            "png": "sources/reviewed-alpha-batch6-20261010/6e22a359471e4c6b/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0,
+          "preview_png": "sources/reviewed-alpha-batch6-20261010/c7e07dd26ed5f44c/preview.png"
+        }
+      ]
+    },
+    "worldvectorlogo-black": {
+      "schema": 1,
+      "id": "worldvectorlogo-black",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "unknown",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch6-20261010/8e9a6d0ee2c5c492/logo.svg",
+            "png": "sources/reviewed-alpha-batch6-20261010/242ae61f302788d1/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0,
+          "preview_png": "sources/reviewed-alpha-batch6-20261010/c61156c3f19bc075/preview.png"
+        }
+      ]
+    },
+    "worldvectorlogo": {
+      "schema": 1,
+      "id": "worldvectorlogo",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "unknown",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch6-20261010/9529a2d777ffe6e3/logo.svg",
+            "png": "sources/reviewed-alpha-batch6-20261010/165716ac4f66cc70/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0,
+          "preview_png": "sources/reviewed-alpha-batch6-20261010/fe97f290b5627b6a/preview.png"
+        }
+      ]
+    },
+    "worldvectorlcom": {
+      "schema": 1,
+      "id": "worldvectorlcom",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "unknown",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch6-20261010/9c011074d97dd3c2/logo.svg",
+            "png": "sources/reviewed-alpha-batch6-20261010/e686c2af998a59b0/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0,
+          "preview_png": "sources/reviewed-alpha-batch6-20261010/8e96fa4bf7f04281/preview.png"
+        }
+      ]
+    },
+    "worldcryptocap": {
+      "schema": 1,
+      "id": "worldcryptocap",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "unknown",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch6-20261010/bb3242d7e2ea05ef/logo.svg",
+            "png": "sources/reviewed-alpha-batch6-20261010/c35141983177f268/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0,
+          "preview_png": "sources/reviewed-alpha-batch6-20261010/276a1f8c84797240/preview.png"
+        }
+      ]
+    },
+    "world-web-technology": {
+      "schema": 1,
+      "id": "world-web-technology",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "unknown",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch6-20261010/ad1a324c461ffce1/logo.svg",
+            "png": "sources/reviewed-alpha-batch6-20261010/bab91a55dac0fbd4/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0,
+          "preview_png": "sources/reviewed-alpha-batch6-20261010/34cf455c714b7421/preview.png"
+        }
+      ]
+    },
+    "world-wide-stereo": {
+      "schema": 1,
+      "id": "world-wide-stereo",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "unknown",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch6-20261010/391f98bf2dc8aead/logo.svg",
+            "png": "sources/reviewed-alpha-batch6-20261010/388c608a92a2fae4/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0,
+          "preview_png": "sources/reviewed-alpha-batch6-20261010/9716343838266ab0/preview.png"
+        }
+      ]
+    },
+    "world-vector-logo": {
+      "schema": 1,
+      "id": "world-vector-logo",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "unknown",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch6-20261010/4d50f9db07197e66/logo.svg",
+            "png": "sources/reviewed-alpha-batch6-20261010/c385ab1bee1fab5c/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0,
+          "preview_png": "sources/reviewed-alpha-batch6-20261010/44847dcf59e32cc0/preview.png"
+        }
+      ]
+    },
+    "world-vector-logo-2": {
+      "schema": 1,
+      "id": "world-vector-logo-2",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "unknown",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch6-20261010/21b906225e20d8df/logo.svg",
+            "png": "sources/reviewed-alpha-batch6-20261010/1e06e4038926a2ab/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0,
+          "preview_png": "sources/reviewed-alpha-batch6-20261010/7fc3cc2bc929b77a/preview.png"
+        }
+      ]
+    },
+    "world-vector-logo-1": {
+      "schema": 1,
+      "id": "world-vector-logo-1",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "unknown",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch6-20261010/3861d6abfffb0c6a/logo.svg",
+            "png": "sources/reviewed-alpha-batch6-20261010/f0517ac9213a230c/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0,
+          "preview_png": "sources/reviewed-alpha-batch6-20261010/d86a879e1431a2ad/preview.png"
+        }
+      ]
+    },
+    "world-online-2": {
+      "schema": 1,
+      "id": "world-online-2",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "unknown",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch6-20261010/f8660ea7eb83b09a/logo.svg",
+            "png": "sources/reviewed-alpha-batch6-20261010/7390f637f9ea36cc/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0,
+          "preview_png": "sources/reviewed-alpha-batch6-20261010/f16b7130066b0d3c/preview.png"
+        }
+      ]
+    },
+    "world-online": {
+      "schema": 1,
+      "id": "world-online",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "unknown",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch6-20261010/fb020142a54a23a4/logo.svg",
+            "png": "sources/reviewed-alpha-batch6-20261010/db6921319e7b266b/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0,
+          "preview_png": "sources/reviewed-alpha-batch6-20261010/6e05b48e2227382f/preview.png"
+        }
+      ]
+    },
+    "world-of-content-1": {
+      "schema": 1,
+      "id": "world-of-content-1",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "unknown",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch6-20261010/63ff566d85355fce/logo.svg",
+            "png": "sources/reviewed-alpha-batch6-20261010/76ecf3cd3c2eae5c/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0,
+          "preview_png": "sources/reviewed-alpha-batch6-20261010/2458f9b70342e0ac/preview.png"
+        }
+      ]
+    },
+    "world-health-organization-logo-1": {
+      "schema": 1,
+      "id": "world-health-organization-logo-1",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "unknown",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch6-20261010/0925334a069fe946/logo.svg",
+            "png": "sources/reviewed-alpha-batch6-20261010/cd83a0606408b57a/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0,
+          "preview_png": "sources/reviewed-alpha-batch6-20261010/cd46b40e6175bca3/preview.png"
+        }
+      ]
+    },
+    "world-anti-doping-agency-logo": {
+      "schema": 1,
+      "id": "world-anti-doping-agency-logo",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "unknown",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch6-20261010/ff11aeeee1b6f616/logo.svg",
+            "png": "sources/reviewed-alpha-batch6-20261010/83b3e8c15aaba428/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0,
+          "preview_png": "sources/reviewed-alpha-batch6-20261010/eebb54612ad4239d/preview.png"
+        }
+      ]
+    },
+    "world-food-programme-logo-simple": {
+      "schema": 1,
+      "id": "world-food-programme-logo-simple",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "unknown",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch6-20261010/10d731cddc4b377b/logo.svg",
+            "png": "sources/reviewed-alpha-batch6-20261010/2665969fa1316df7/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0,
+          "preview_png": "sources/reviewed-alpha-batch6-20261010/84c34abd9b310c22/preview.png"
+        }
+      ]
+    },
+    "workwear-group-1": {
+      "schema": 1,
+      "id": "workwear-group-1",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "unknown",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch6-20261010/07e5bb5596bad406/logo.svg",
+            "png": "sources/reviewed-alpha-batch6-20261010/bbc84283cf218437/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0,
+          "preview_png": "sources/reviewed-alpha-batch6-20261010/eed330ebafc17f2a/preview.png"
+        }
+      ]
+    },
+    "workship": {
+      "schema": 1,
+      "id": "workship",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "unknown",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch6-20261010/87d6c28fa7b9de9d/logo.svg",
+            "png": "sources/reviewed-alpha-batch6-20261010/d2ad274da7109509/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0,
+          "preview_png": "sources/reviewed-alpha-batch6-20261010/53d5a3e42b21a83c/preview.png"
+        }
+      ]
+    },
+    "workship-1": {
+      "schema": 1,
+      "id": "workship-1",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "unknown",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch6-20261010/87d6c28fa7b9de9d/logo.svg",
+            "png": "sources/reviewed-alpha-batch6-20261010/d2ad274da7109509/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0,
+          "preview_png": "sources/reviewed-alpha-batch6-20261010/53d5a3e42b21a83c/preview.png"
+        }
+      ]
+    },
+    "worklio": {
+      "schema": 1,
+      "id": "worklio",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "unknown",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch6-20261010/1975ea47489026d5/logo.svg",
+            "png": "sources/reviewed-alpha-batch6-20261010/a346b5c2b03a32d4/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0,
+          "preview_png": "sources/reviewed-alpha-batch6-20261010/28f2ef40e7ecc205/preview.png"
+        }
+      ]
+    },
+    "workmarket-1": {
+      "schema": 1,
+      "id": "workmarket-1",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "unknown",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch6-20261010/a6c80dc1136fddd2/logo.svg",
+            "png": "sources/reviewed-alpha-batch6-20261010/514a80424c0e6053/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0,
+          "preview_png": "sources/reviewed-alpha-batch6-20261010/df08dab1d9f71765/preview.png"
+        }
+      ]
+    },
+    "workhorse-group-logo-full": {
+      "schema": 1,
+      "id": "workhorse-group-logo-full",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "unknown",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch6-20261010/abf3cddbf5b1b9dc/logo.svg",
+            "png": "sources/reviewed-alpha-batch6-20261010/27e3ec84e18d1100/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0,
+          "preview_png": "sources/reviewed-alpha-batch6-20261010/b8827551aeb9dff5/preview.png"
+        }
+      ]
+    },
+    "workingtitle": {
+      "schema": 1,
+      "id": "workingtitle",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "unknown",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch6-20261010/4ddffe22efc5870c/logo.svg",
+            "png": "sources/reviewed-alpha-batch6-20261010/41c003358470b444/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0,
+          "preview_png": "sources/reviewed-alpha-batch6-20261010/769f72b8ad2c2344/preview.png"
+        }
+      ]
+    },
+    "workerman": {
+      "schema": 1,
+      "id": "workerman",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "unknown",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch6-20261010/496898c01f423096/logo.svg",
+            "png": "sources/reviewed-alpha-batch6-20261010/1623b6eb6ba4ae07/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0,
+          "preview_png": "sources/reviewed-alpha-batch6-20261010/047e2d8e0a03aef9/preview.png"
+        }
+      ]
+    },
+    "workday-logo": {
+      "schema": 1,
+      "id": "workday-logo",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "unknown",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch6-20261010/82952cd11a9bd0b3/logo.svg",
+            "png": "sources/reviewed-alpha-batch6-20261010/eefd9309a5ce99a5/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0,
+          "preview_png": "sources/reviewed-alpha-batch6-20261010/f9729bf4b34fe387/preview.png"
+        }
+      ]
+    },
+    "work-1": {
+      "schema": 1,
+      "id": "work-1",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "unknown",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch6-20261010/826857dd5ffbaebd/logo.svg",
+            "png": "sources/reviewed-alpha-batch6-20261010/a94e4108a896b808/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0,
+          "preview_png": "sources/reviewed-alpha-batch6-20261010/886f0a3410e4589f/preview.png"
+        }
+      ]
+    },
+    "work-2": {
+      "schema": 1,
+      "id": "work-2",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "unknown",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch6-20261010/a330c4c656d39cdf/logo.svg",
+            "png": "sources/reviewed-alpha-batch6-20261010/b190308857943280/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0,
+          "preview_png": "sources/reviewed-alpha-batch6-20261010/b984c40b4388a27f/preview.png"
+        }
+      ]
+    },
+    "workboard--src-4eaaf3b": {
+      "schema": 1,
+      "id": "workboard--src-4eaaf3b",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "unknown",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch6-20261010/7b7a13abcbe92419/logo.svg",
+            "png": "sources/reviewed-alpha-batch6-20261010/c0f92b8e12b2562c/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0,
+          "preview_png": "sources/reviewed-alpha-batch6-20261010/1932f48443816dca/preview.png"
+        }
+      ]
+    },
+    "wordpress-blue-1": {
+      "schema": 1,
+      "id": "wordpress-blue-1",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "unknown",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch6-20261010/62cf9e3751282c76/logo.svg",
+            "png": "sources/reviewed-alpha-batch6-20261010/2cf3a2ed5cf07a7e/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0,
+          "preview_png": "sources/reviewed-alpha-batch6-20261010/dfd8233e8356b0bd/preview.png"
+        }
+      ]
+    },
+    "wordmark-black-medium": {
+      "schema": 1,
+      "id": "wordmark-black-medium",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "unknown",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch6-20261010/8e8fc9035f7dc347/logo.svg",
+            "png": "sources/reviewed-alpha-batch6-20261010/dcd9b5215ff23508/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0,
+          "preview_png": "sources/reviewed-alpha-batch6-20261010/1213e0048c74857f/preview.png"
+        }
+      ]
+    },
+    "word-1": {
+      "schema": 1,
+      "id": "word-1",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "unknown",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch6-20261010/c456b7ff8cfd3be2/logo.svg",
+            "png": "sources/reviewed-alpha-batch6-20261010/9be232555e317365/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0,
+          "preview_png": "sources/reviewed-alpha-batch6-20261010/33818090ef031ae4/preview.png"
+        }
+      ]
+    },
+    "woopra--src-5dd64c0": {
+      "schema": 1,
+      "id": "woopra--src-5dd64c0",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "unknown",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch6-20261010/6fc17a1a6f4999e0/logo.svg",
+            "png": "sources/reviewed-alpha-batch6-20261010/7110c7ada4763472/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0,
+          "preview_png": "sources/reviewed-alpha-batch6-20261010/0579e809afa6e4e8/preview.png"
+        }
+      ]
+    },
+    "woolworths-4": {
+      "schema": 1,
+      "id": "woolworths-4",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "unknown",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch6-20261010/c79c96a507f278e9/logo.svg",
+            "png": "sources/reviewed-alpha-batch6-20261010/795cdcc2efa8cbcf/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0,
+          "preview_png": "sources/reviewed-alpha-batch6-20261010/bff60c1373477297/preview.png"
+        }
+      ]
+    },
+    "woolworths-5": {
+      "schema": 1,
+      "id": "woolworths-5",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "unknown",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch6-20261010/f8070129771b1fea/logo.svg",
+            "png": "sources/reviewed-alpha-batch6-20261010/c91b673d42723be9/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0,
+          "preview_png": "sources/reviewed-alpha-batch6-20261010/fccad56c9d087eb0/preview.png"
+        }
+      ]
+    },
+    "woolrich-2": {
+      "schema": 1,
+      "id": "woolrich-2",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "unknown",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch6-20261010/0127de46c4624c3c/logo.svg",
+            "png": "sources/reviewed-alpha-batch6-20261010/fd61c9f40c426b46/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0,
+          "preview_png": "sources/reviewed-alpha-batch6-20261010/6ddde727dff125dd/preview.png"
+        }
+      ]
+    },
+    "woods-cross-high-school": {
+      "schema": 1,
+      "id": "woods-cross-high-school",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "unknown",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch6-20261010/c6da690723f9f812/logo.svg",
+            "png": "sources/reviewed-alpha-batch6-20261010/8804fb0787e63725/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0,
+          "preview_png": "sources/reviewed-alpha-batch6-20261010/5a97205050cc107f/preview.png"
+        }
+      ]
+    },
+    "woocommerce--src-2829b97": {
+      "schema": 1,
+      "id": "woocommerce--src-2829b97",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "unknown",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch6-20261010/cc2132b2c259c817/logo.svg",
+            "png": "sources/reviewed-alpha-batch6-20261010/03595fcdac54e22b/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0,
+          "preview_png": "sources/reviewed-alpha-batch6-20261010/a442715f69c73419/preview.png"
+        }
+      ]
+    },
+    "woocommerce-1": {
+      "schema": 1,
+      "id": "woocommerce-1",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "unknown",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch6-20261010/168fa40f8408ac86/logo.svg",
+            "png": "sources/reviewed-alpha-batch6-20261010/75df8424499beed5/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0,
+          "preview_png": "sources/reviewed-alpha-batch6-20261010/2771637c71bf5007/preview.png"
+        }
+      ]
+    },
+    "wonder-woman-3": {
+      "schema": 1,
+      "id": "wonder-woman-3",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "unknown",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch6-20261010/199b12683a1d4c8d/logo.svg",
+            "png": "sources/reviewed-alpha-batch6-20261010/cd77db9f0edc368d/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0,
+          "preview_png": "sources/reviewed-alpha-batch6-20261010/cfd2b8aec6b640e0/preview.png"
+        }
+      ]
+    },
+    "won-door-1": {
+      "schema": 1,
+      "id": "won-door-1",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "unknown",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch6-20261010/d166d583b9a42262/logo.svg",
+            "png": "sources/reviewed-alpha-batch6-20261010/23dfe358ab851431/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0,
+          "preview_png": "sources/reviewed-alpha-batch6-20261010/60aad002a85857a0/preview.png"
+        }
+      ]
+    },
+    "wonder-woman--src-5c32336": {
+      "schema": 1,
+      "id": "wonder-woman--src-5c32336",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "unknown",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch6-20261010/76ebe814fb26e929/logo.svg",
+            "png": "sources/reviewed-alpha-batch6-20261010/fe0062004e1076b5/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0,
+          "preview_png": "sources/reviewed-alpha-batch6-20261010/0611f56ad7ffe761/preview.png"
+        }
+      ]
+    },
+    "woman-s-weekly": {
+      "schema": 1,
+      "id": "woman-s-weekly",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "unknown",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch6-20261010/23991c19617ec3f5/logo.svg",
+            "png": "sources/reviewed-alpha-batch6-20261010/42ce002a721810a1/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0,
+          "preview_png": "sources/reviewed-alpha-batch6-20261010/3a66c048ba78f387/preview.png"
+        }
+      ]
+    },
+    "wolves": {
+      "schema": 1,
+      "id": "wolves",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "unknown",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch6-20261010/ee67f3035fcf68fa/logo.svg",
+            "png": "sources/reviewed-alpha-batch6-20261010/1c65213a82ba8ea5/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0,
+          "preview_png": "sources/reviewed-alpha-batch6-20261010/7aa96085da2fe7a1/preview.png"
+        }
+      ]
+    },
+    "wolves-1": {
+      "schema": 1,
+      "id": "wolves-1",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "unknown",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch6-20261010/ca585d79c47dd636/logo.svg",
+            "png": "sources/reviewed-alpha-batch6-20261010/699e294eb18dd210/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0,
+          "preview_png": "sources/reviewed-alpha-batch6-20261010/76242efbd0332841/preview.png"
+        }
+      ]
+    },
+    "wolters-kluwer-2": {
+      "schema": 1,
+      "id": "wolters-kluwer-2",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "unknown",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch6-20261010/c37ae00a5456aa10/logo.svg",
+            "png": "sources/reviewed-alpha-batch6-20261010/d9c0d7e3157738aa/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0,
+          "preview_png": "sources/reviewed-alpha-batch6-20261010/8dfc857fdbeac4ef/preview.png"
+        }
+      ]
+    },
+    "wolfsb-2": {
+      "schema": 1,
+      "id": "wolfsb-2",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "unknown",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch6-20261010/3913bfc402a2054d/logo.svg",
+            "png": "sources/reviewed-alpha-batch6-20261010/7787442200d4a7f2/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0,
+          "preview_png": "sources/reviewed-alpha-batch6-20261010/5dfbd4800b08784d/preview.png"
+        }
+      ]
+    },
+    "wolfsb-1": {
+      "schema": 1,
+      "id": "wolfsb-1",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "unknown",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch6-20261010/30556559afd2cc23/logo.svg",
+            "png": "sources/reviewed-alpha-batch6-20261010/d8494dbd478d9e26/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0,
+          "preview_png": "sources/reviewed-alpha-batch6-20261010/a45ef364476a4535/preview.png"
+        }
+      ]
+    },
+    "wolford-logo-2005": {
+      "schema": 1,
+      "id": "wolford-logo-2005",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "unknown",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch6-20261010/8a32f6fc84decdda/logo.svg",
+            "png": "sources/reviewed-alpha-batch6-20261010/4c655a05c0f3421b/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0,
+          "preview_png": "sources/reviewed-alpha-batch6-20261010/d3ad81ec40b17954/preview.png"
+        }
+      ]
+    },
+    "wolfram-alpha-december-2016": {
+      "schema": 1,
+      "id": "wolfram-alpha-december-2016",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "unknown",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch6-20261010/d13b58023a7a3970/logo.svg",
+            "png": "sources/reviewed-alpha-batch6-20261010/5fb568905132845d/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0,
+          "preview_png": "sources/reviewed-alpha-batch6-20261010/3dae179f6e85c17e/preview.png"
+        }
+      ]
+    },
+    "wolf-river-community-bank": {
+      "schema": 1,
+      "id": "wolf-river-community-bank",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "unknown",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch6-20261010/1493e5f4aa7c064a/logo.svg",
+            "png": "sources/reviewed-alpha-batch6-20261010/77ef7b7fcaf3d085/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0,
+          "preview_png": "sources/reviewed-alpha-batch6-20261010/fdfd85c41c71639e/preview.png"
+        }
+      ]
+    },
+    "wolf-logo": {
+      "schema": 1,
+      "id": "wolf-logo",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "unknown",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch6-20261010/f7a9e87997e3b29b/logo.svg",
+            "png": "sources/reviewed-alpha-batch6-20261010/20c578cd29060f41/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0,
+          "preview_png": "sources/reviewed-alpha-batch6-20261010/c5a94eca0bf3aebe/preview.png"
+        }
+      ]
+    },
+    "wolf-logo-1": {
+      "schema": 1,
+      "id": "wolf-logo-1",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "unknown",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch6-20261010/f7a9e87997e3b29b/logo.svg",
+            "png": "sources/reviewed-alpha-batch6-20261010/20c578cd29060f41/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0,
+          "preview_png": "sources/reviewed-alpha-batch6-20261010/c5a94eca0bf3aebe/preview.png"
+        }
+      ]
+    },
+    "wodify-logo-2": {
+      "schema": 1,
+      "id": "wodify-logo-2",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "unknown",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch6-20261010/9d57762af16ae18f/logo.svg",
+            "png": "sources/reviewed-alpha-batch6-20261010/63194094b85a71a9/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0,
+          "preview_png": "sources/reviewed-alpha-batch6-20261010/65b7097bb4112ae6/preview.png"
+        }
+      ]
+    },
+    "wnl-2": {
+      "schema": 1,
+      "id": "wnl-2",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "unknown",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch6-20261010/831550501650e826/logo.svg",
+            "png": "sources/reviewed-alpha-batch6-20261010/555d298f0dbd661a/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0,
+          "preview_png": "sources/reviewed-alpha-batch6-20261010/206fa80114a8b2c2/preview.png"
+        }
+      ]
+    },
+    "wmd-world-map": {
+      "schema": 1,
+      "id": "wmd-world-map",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "unknown",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch6-20261010/865ee02fca4b7592/logo.svg",
+            "png": "sources/reviewed-alpha-batch6-20261010/6706a5eee2915ac1/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0,
+          "preview_png": "sources/reviewed-alpha-batch6-20261010/87281dd2c07443cc/preview.png"
+        }
+      ]
+    },
+    "wm-morrison-supermarkets-logo": {
+      "schema": 1,
+      "id": "wm-morrison-supermarkets-logo",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "unknown",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch6-20261010/a8471b780ebdf1bc/logo.svg",
+            "png": "sources/reviewed-alpha-batch6-20261010/10f6bef29b878cba/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0,
+          "preview_png": "sources/reviewed-alpha-batch6-20261010/ea700767b112a5c8/preview.png"
+        }
+      ]
+    },
+    "wizards": {
+      "schema": 1,
+      "id": "wizards",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "unknown",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch6-20261010/e7160f587ecf6aef/logo.svg",
+            "png": "sources/reviewed-alpha-batch6-20261010/afe4890affb6918e/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0,
+          "preview_png": "sources/reviewed-alpha-batch6-20261010/425868aac783c985/preview.png"
+        }
+      ]
+    },
+    "wizz-air": {
+      "schema": 1,
+      "id": "wizz-air",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "unknown",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch6-20261010/d3ccb081290c8a10/logo.svg",
+            "png": "sources/reviewed-alpha-batch6-20261010/043db01af4f31730/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0,
+          "preview_png": "sources/reviewed-alpha-batch6-20261010/f1f5fa1a62c142da/preview.png"
+        }
+      ]
+    },
+    "wizards-of-the-coast-logo": {
+      "schema": 1,
+      "id": "wizards-of-the-coast-logo",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "unknown",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch6-20261010/fbd72f3e505cf4f0/logo.svg",
+            "png": "sources/reviewed-alpha-batch6-20261010/bf04e05dd053f80e/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0,
+          "preview_png": "sources/reviewed-alpha-batch6-20261010/d3b05b1c2abdad05/preview.png"
+        }
+      ]
+    },
+    "wix--src-01aaeb7": {
+      "schema": 1,
+      "id": "wix--src-01aaeb7",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "unknown",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch6-20261010/7adba58e6004df4e/logo.svg",
+            "png": "sources/reviewed-alpha-batch6-20261010/c4ed04ce4dc38590/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0,
+          "preview_png": "sources/reviewed-alpha-batch6-20261010/0715bb0957f8523a/preview.png"
+        }
+      ]
+    },
+    "wix-com-website-logo": {
+      "schema": 1,
+      "id": "wix-com-website-logo",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "unknown",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch6-20261010/a93515a590990789/logo.svg",
+            "png": "sources/reviewed-alpha-batch6-20261010/c5c5b0a4922c2874/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0,
+          "preview_png": "sources/reviewed-alpha-batch6-20261010/613c959f58c09566/preview.png"
+        }
+      ]
+    },
+    "wix-com-website-logo-1": {
+      "schema": 1,
+      "id": "wix-com-website-logo-1",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "unknown",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch6-20261010/9e4cdec4b6d42cea/logo.svg",
+            "png": "sources/reviewed-alpha-batch6-20261010/141f6bd878e15a91/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0,
+          "preview_png": "sources/reviewed-alpha-batch6-20261010/9a3c7c9a565cba61/preview.png"
+        }
+      ]
+    },
+    "wix-logo-1": {
+      "schema": 1,
+      "id": "wix-logo-1",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "unknown",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch6-20261010/616e0212fd3dbefa/logo.svg",
+            "png": "sources/reviewed-alpha-batch6-20261010/bb9cf217406eb3dd/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0,
+          "preview_png": "sources/reviewed-alpha-batch6-20261010/1f4ef68ab662d146/preview.png"
+        }
+      ]
+    },
+    "wit": {
+      "schema": 1,
+      "id": "wit",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "unknown",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch6-20261010/24f1706926409ff9/logo.svg",
+            "png": "sources/reviewed-alpha-batch6-20261010/a196c7554fdb1604/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0,
+          "preview_png": "sources/reviewed-alpha-batch6-20261010/f553998551252a15/preview.png"
+        }
+      ]
+    },
+    "wistia-new-logo": {
+      "schema": 1,
+      "id": "wistia-new-logo",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "unknown",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch6-20261010/1cbc23a0d0916490/logo.svg",
+            "png": "sources/reviewed-alpha-batch6-20261010/66de349d360152c3/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0,
+          "preview_png": "sources/reviewed-alpha-batch6-20261010/e93aae1b7a9b3120/preview.png"
+        }
+      ]
+    },
+    "wistron-logo": {
+      "schema": 1,
+      "id": "wistron-logo",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "unknown",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch6-20261010/1a9dcc651c9ef676/logo.svg",
+            "png": "sources/reviewed-alpha-batch6-20261010/469926336f493ec1/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0,
+          "preview_png": "sources/reviewed-alpha-batch6-20261010/5c1c063c49ea40c1/preview.png"
+        }
+      ]
+    },
+    "witness": {
+      "schema": 1,
+      "id": "witness",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "unknown",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch6-20261010/31001b98b21ff4a5/logo.svg",
+            "png": "sources/reviewed-alpha-batch6-20261010/51ba6d712640f645/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0,
+          "preview_png": "sources/reviewed-alpha-batch6-20261010/4cb71a95d923fd10/preview.png"
+        }
+      ]
+    },
+    "wit-studio--src-cd3d621": {
+      "schema": 1,
+      "id": "wit-studio--src-cd3d621",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "unknown",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch6-20261010/0bceaa42b5924d47/logo.svg",
+            "png": "sources/reviewed-alpha-batch6-20261010/2704c16868cc3f9b/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0,
+          "preview_png": "sources/reviewed-alpha-batch6-20261010/aae3f724d7be3af2/preview.png"
+        }
+      ]
+    },
+    "wisk": {
+      "schema": 1,
+      "id": "wisk",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "unknown",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch6-20261010/d47038f3a342d9d5/logo.svg",
+            "png": "sources/reviewed-alpha-batch6-20261010/ac86415e7f1beb30/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0,
+          "preview_png": "sources/reviewed-alpha-batch6-20261010/61a7c719c3ac6c42/preview.png"
+        }
+      ]
+    },
+    "wish-wordmark-1": {
+      "schema": 1,
+      "id": "wish-wordmark-1",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "unknown",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch6-20261010/1cb91da38920cfa3/logo.svg",
+            "png": "sources/reviewed-alpha-batch6-20261010/71450a5ceefe67b8/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0,
+          "preview_png": "sources/reviewed-alpha-batch6-20261010/d96536084122a015/preview.png"
+        }
+      ]
+    },
+    "wisewizards-1": {
+      "schema": 1,
+      "id": "wisewizards-1",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "unknown",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch6-20261010/fbaaaf1af85da1a8/logo.svg",
+            "png": "sources/reviewed-alpha-batch6-20261010/b7d473397865aaa2/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0,
+          "preview_png": "sources/reviewed-alpha-batch6-20261010/644fdb3bb216c8d0/preview.png"
+        }
+      ]
+    },
+    "wish-1": {
+      "schema": 1,
+      "id": "wish-1",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "unknown",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch7-20261010/0b9aa4c0e5d77e78/logo.svg",
+            "png": "sources/reviewed-alpha-batch7-20261010/14d199f26b6a9b1a/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0,
+          "preview_png": "sources/reviewed-alpha-batch7-20261010/7202e281b42deedf/preview.png"
+        }
+      ]
+    },
+    "wiseco-1": {
+      "schema": 1,
+      "id": "wiseco-1",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "unknown",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch7-20261010/b08e6e5cf1df4834/logo.svg",
+            "png": "sources/reviewed-alpha-batch7-20261010/1d99544258835714/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0,
+          "preview_png": "sources/reviewed-alpha-batch7-20261010/25f3835e7ca261fb/preview.png"
+        }
+      ]
+    },
+    "wish-2": {
+      "schema": 1,
+      "id": "wish-2",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "unknown",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch7-20261010/5e3e4131643a7d38/logo.svg",
+            "png": "sources/reviewed-alpha-batch7-20261010/77a83659f37d0fce/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0,
+          "preview_png": "sources/reviewed-alpha-batch7-20261010/0bb69aefebaa2885/preview.png"
+        }
+      ]
+    },
+    "wirex": {
+      "schema": 1,
+      "id": "wirex",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "unknown",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch7-20261010/bf55e6c32756b25e/logo.svg",
+            "png": "sources/reviewed-alpha-batch7-20261010/82822f6548e11a50/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0,
+          "preview_png": "sources/reviewed-alpha-batch7-20261010/e8d11d72addb4a47/preview.png"
+        }
+      ]
+    },
+    "wiretap-1": {
+      "schema": 1,
+      "id": "wiretap-1",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "unknown",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch7-20261010/93bd0db326d72d78/logo.svg",
+            "png": "sources/reviewed-alpha-batch7-20261010/3231f4858dc48bd2/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0,
+          "preview_png": "sources/reviewed-alpha-batch7-20261010/b21e43cd3df14a46/preview.png"
+        }
+      ]
+    },
+    "wireshark--src-b448d4a": {
+      "schema": 1,
+      "id": "wireshark--src-b448d4a",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "unknown",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch7-20261010/c136ce9355ccdd02/logo.svg",
+            "png": "sources/reviewed-alpha-batch7-20261010/1eb5427807a12912/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0,
+          "preview_png": "sources/reviewed-alpha-batch7-20261010/6a72a309ca6e43d4/preview.png"
+        }
+      ]
+    },
+    "wiretap-3": {
+      "schema": 1,
+      "id": "wiretap-3",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "unknown",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch7-20261010/ff4a3eccaee21ecc/logo.svg",
+            "png": "sources/reviewed-alpha-batch7-20261010/aa27b9f963a2faac/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0,
+          "preview_png": "sources/reviewed-alpha-batch7-20261010/ab40e07a77051d7a/preview.png"
+        }
+      ]
+    },
+    "wiredtree--src-1e22cdc": {
+      "schema": 1,
+      "id": "wiredtree--src-1e22cdc",
+      "primary": "reviewed-transparent",
+      "variants": [
+        {
+          "key": "reviewed-transparent",
+          "form": "unknown",
+          "color": "original",
+          "label": "투명 배경 로고",
+          "files": {
+            "svg": "sources/reviewed-alpha-batch7-20261010/aa075924f6936f59/logo.svg",
+            "png": "sources/reviewed-alpha-batch7-20261010/18a7ff057e8aa7b3/logo.png"
+          },
+          "provider": "보유 벡터 원본 · 투명 PNG 재생성",
+          "origin": "derived",
+          "order": 0,
+          "preview_png": "sources/reviewed-alpha-batch7-20261010/c058f4d80cd61d2b/preview.png"
         }
       ]
     }

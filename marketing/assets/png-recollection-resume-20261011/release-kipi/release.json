@@ -1,0 +1,69 @@
+{
+  "patches": {
+    "gongu-ci-1706": {
+      "variants_n": 3,
+      "source_zip": "sources/official-recollection-20261011/ec844cb1c8e8b52f31df.zip"
+    }
+  },
+  "variants": {
+    "gongu-ci-1706": {
+      "id": "gongu-ci-1706",
+      "variants": [
+        {
+          "key": "official-recollect-horizontal-ko",
+          "label": "공식 국문 좌우 조합",
+          "files": {
+            "svg": "sources/official-recollection-20261011/016899ca7f7fb76a4ded.svg",
+            "png": "sources/official-recollection-20261011/fc50f2b3af8388b77f8f.png"
+          },
+          "preview_png": "sources/official-recollection-20261011/1e014d6e6886c3acc65f.png",
+          "provider": "official-original",
+          "official_distribution": true,
+          "order": 100,
+          "source_note": "공식 AI 국문 시그니처의 아웃라인 경로에서 분리 · 글꼴 의존성 없음 · 2026-10-11 검수",
+          "form": "signature",
+          "lang": "ko",
+          "color": "color"
+        },
+        {
+          "key": "official-recollect-symbol",
+          "label": "국문 조합에서 분리한 심볼",
+          "files": {
+            "svg": "sources/official-recollection-20261011/02095b0799f3dc4a5707.svg",
+            "png": "sources/official-recollection-20261011/97a68b26bd010140b5b1.png"
+          },
+          "preview_png": "sources/official-recollection-20261011/c725ea93e1e5c049e6ab.png",
+          "provider": "official-original",
+          "official_distribution": true,
+          "order": 101,
+          "source_note": "공식 AI 국문 시그니처의 아웃라인 경로에서 분리 · 글꼴 의존성 없음 · 2026-10-11 검수",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "color"
+        },
+        {
+          "key": "official-recollect-wordmark-ko",
+          "label": "국문 조합에서 분리한 워드마크",
+          "files": {
+            "svg": "sources/official-recollection-20261011/d5210b66be42777df938.svg",
+            "png": "sources/official-recollection-20261011/cbf59c06153f432fb1af.png"
+          },
+          "preview_png": "sources/official-recollection-20261011/9ef2c1500279f5da99eb.png",
+          "provider": "official-original",
+          "official_distribution": true,
+          "order": 102,
+          "source_note": "공식 AI 국문 시그니처의 아웃라인 경로에서 분리 · 글꼴 의존성 없음 · 2026-10-11 검수",
+          "form": "wordmark",
+          "lang": "ko",
+          "color": "color"
+        }
+      ]
+    }
+  },
+  "review": {
+    "source_kind": "official_distribution",
+    "brands": 1,
+    "new_variants": 3,
+    "visual_contact": "marketing/assets/png-recollection-resume-20261011/contact-kipi.jpg"
+  }
+}
