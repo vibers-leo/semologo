@@ -462,7 +462,7 @@ export default function BrandGrid({
               <T>{"최신순으로 모두 보기"}</T>
             </button>
           </div>
-          <div className="grid grid-cols-2 sm:grid-cols-4 xl:grid-cols-6 gap-3">
+          <div className="catalog-logo-grid">
             {recentPosts.map(brand => <BrandCard key={brand.id} brand={presented(brand)} priority bgVote={presentations[brand.id] || brand.presentation ? undefined : bgVotes[brand.id]}
               onClick={() => { setSelected(brand); history.replaceState(null, '', path(`/brand/${brand.id}`)); }} />)}
           </div>
@@ -498,7 +498,7 @@ export default function BrandGrid({
       </div>
 
       {/* ── 카드 그리드 ── */}
-      <div className="grid grid-cols-2 sm:grid-cols-4 xl:grid-cols-6 gap-3">
+      <div className="catalog-logo-grid">
         {visible.map((brand, i) => (
             <BrandCard
               key={brand.id}

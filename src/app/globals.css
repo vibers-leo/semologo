@@ -127,3 +127,18 @@ body {
   .catalog-with-ad { grid-template-columns: minmax(0, 1fr) 160px; gap: clamp(16px, 2vw, 32px); align-items: start; }
   .catalog-ad-rail { display: block; position: sticky; top: 112px; }
 }
+
+/* Full-width catalog: reserve the right rail, then size cards to available space. */
+.catalog-logo-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+@media (min-width: 640px) {
+  .catalog-logo-grid { grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); }
+}
+@media (min-width: 1024px) {
+  .catalog-logo-grid .logo-card {
+    aspect-ratio: 5 / 4;
+    display: grid;
+    grid-template-rows: minmax(0, 1fr) auto;
+    min-width: 0;
+  }
+  .catalog-logo-grid .card-preview { height: auto; min-height: 0; }
+}
