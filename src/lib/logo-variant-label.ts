@@ -7,7 +7,7 @@ export const logoFormLabels: Record<VariantForm, string> = {
 
 // Explicitly reviewed lockups take precedence over legacy aspect-based classification.
 export function logoVariantForm(variant: VariantRecord): VariantForm {
-  return variant.lockup || variant.form || 'unknown';
+  return (variant.lockup && variant.lockup !== 'unknown' ? variant.lockup : variant.form) || 'unknown';
 }
 
 const textLabels = {
