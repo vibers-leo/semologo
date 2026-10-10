@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { notFound, permanentRedirect } from "next/navigation";
 import { fetchBrandsSlim, fetchCategoryPeers, isIndexableBrand } from "@/lib/brands";
 import { fetchBrand } from "@/lib/brand-detail";
+import { reviewedMergeTarget } from "@/lib/reviewed-logo-assets";
 import { logoPngCandidates } from "@/lib/logo-png-source";
 import Header from "@/components/Header";
 import BrandDetailClient from "./BrandDetailClient";
@@ -85,6 +86,8 @@ export async function renderBrandPage(
   { params }: { params: Promise<{ id: string }> }, locale: Locale = "ko"
 ) {
   const { id } = await params;
+  const mergedTarget = reviewedMergeTarget(id);
+  if (mergedTarget) permanentRedirect(localePath(`/brand/${mergedTarget}`, locale));
   const brand = await fetchBrand(id);
   if (!brand) notFound();
   if (brand.merged_into && brand.merged_into !== id && /^[\p{L}\p{N}._-]{1,200}$/u.test(brand.merged_into)) {

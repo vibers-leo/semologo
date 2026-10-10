@@ -42,6 +42,11 @@ function mergeBrandPatches(releases: unknown[]): Record<string, Partial<Brand>> 
   return merged;
 }
 
+export function reviewedMergeTarget(id: string): string | null {
+  const target = releasePatches[id]?.merged_into;
+  return typeof target === 'string' && target !== id && /^[\p{L}\p{N}._-]{1,200}$/u.test(target) ? target : null;
+}
+
 // Only visually reviewed transparent assets belong here. Never remove white
 // indiscriminately: the Seongnam symbol contains intentional white artwork.
 const official = 'sources/official-ci-20261007';
