@@ -1,0 +1,594 @@
+{
+  "patches": {
+    "zigzag": {
+      "id": "zigzag",
+      "name_ko": "지그재그",
+      "category": "유통·쇼핑",
+      "logo_svg": "sources/supplied-identities-20261012/0397686a8406c08dfa68.svg",
+      "svg_transparent": "sources/supplied-identities-20261012/0397686a8406c08dfa68.svg",
+      "logo_png": "sources/supplied-identities-20261012/7a536c68db18a4509f4a.png",
+      "has_svg": true,
+      "has_png": true,
+      "preview_png": "https://logo.vibers.co.kr/_clients/zigzag/sources/supplied-identities-20261012/7a536c68db18a4509f4a.png",
+      "presentation": {
+        "file": "sources/supplied-identities-20261012/7a536c68db18a4509f4a.png",
+        "bg": "light"
+      },
+      "variants_n": 5,
+      "light": false,
+      "light_logo": false,
+      "dark_variant": false,
+      "asset_origin": "사용자 제공 AI 원본",
+      "asset_review_status": "verified",
+      "logo_published_at": "2026-10-11T23:00:00Z",
+      "source_ai": "sources/supplied-identities-20261012/19bbb8223e3bf742c5af.ai",
+      "source_zip": "sources/supplied-identities-20261012/7b45172e9382fc626887.zip",
+      "name_en": "ZIGZAG",
+      "aliases": [
+        "지그재그",
+        "ZIGZAG",
+        "zigzag",
+        "카카오스타일 지그재그"
+      ]
+    },
+    "gongu-ci-1368": {
+      "id": "gongu-ci-1368",
+      "name_ko": "인천광역시 미추홀구",
+      "category": "공공·기관",
+      "logo_svg": "sources/supplied-identities-20261012/015f3a234411d81d0304.svg",
+      "svg_transparent": "sources/supplied-identities-20261012/015f3a234411d81d0304.svg",
+      "logo_png": "sources/supplied-identities-20261012/053f5e405b331cbbb2d8.png",
+      "has_svg": true,
+      "has_png": true,
+      "preview_png": "https://logo.vibers.co.kr/_clients/gongu-ci-1368/sources/supplied-identities-20261012/053f5e405b331cbbb2d8.png",
+      "presentation": {
+        "file": "sources/supplied-identities-20261012/053f5e405b331cbbb2d8.png",
+        "bg": "light"
+      },
+      "variants_n": 6,
+      "light": false,
+      "light_logo": false,
+      "dark_variant": false,
+      "asset_origin": "사용자 제공 AI 원본",
+      "asset_review_status": "verified",
+      "logo_published_at": "2026-10-11T23:00:00Z",
+      "source_ai": "sources/supplied-identities-20261012/582d518d4a1f8b7cd18c.ai",
+      "source_zip": "sources/supplied-identities-20261012/bad76c3ff4036ef86147.zip",
+      "icon_png": "sources/supplied-identities-20261012/c64da55bbd8ec9577e0f.png"
+    },
+    "snuh": {
+      "id": "snuh",
+      "name_ko": "서울대학교병원",
+      "category": "의료·바이오",
+      "logo_svg": false,
+      "svg_transparent": "",
+      "logo_png": "sources/supplied-identities-20261012/fb59df8cfe475d775b17.png",
+      "has_svg": true,
+      "has_png": true,
+      "preview_png": "https://logo.vibers.co.kr/_clients/snuh/sources/supplied-identities-20261012/fb59df8cfe475d775b17.png",
+      "presentation": {
+        "file": "sources/supplied-identities-20261012/fb59df8cfe475d775b17.png",
+        "bg": "light"
+      },
+      "variants_n": 19,
+      "light": false,
+      "light_logo": false,
+      "dark_variant": false,
+      "asset_origin": "사용자 제공 AI 원본",
+      "asset_review_status": "verified",
+      "logo_published_at": "2026-10-11T23:00:00Z",
+      "source_ai": "sources/supplied-identities-20261012/6b66f1f7c5317fb0fba1.ai"
+    }
+  },
+  "variants": {
+    "zigzag": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "zigzag",
+      "primary": "supplied-20261012-supplied-color-1",
+      "variants": [
+        {
+          "key": "supplied-20261012-supplied-color-1",
+          "label": "블랙 워드마크",
+          "form": "wordmark",
+          "lang": "en",
+          "color": "black",
+          "files": {
+            "svg": "sources/supplied-identities-20261012/0397686a8406c08dfa68.svg",
+            "png": "sources/supplied-identities-20261012/7a536c68db18a4509f4a.png",
+            "zip": "sources/supplied-identities-20261012/7b45172e9382fc626887.zip",
+            "ai": "sources/supplied-identities-20261012/19bbb8223e3bf742c5af.ai"
+          },
+          "preview_png": "sources/supplied-identities-20261012/7a536c68db18a4509f4a.png",
+          "provider": "사용자 제공 AI 원본",
+          "origin": "manual",
+          "source_note": "제공 AI의 벡터 패스 추출 · PNG 긴 변 2400px · 규격 표기 제외",
+          "order": 10,
+          "original_png": "sources/supplied-identities-20261012/742131a422eb889ea616.png"
+        },
+        {
+          "key": "supplied-20261012-supplied-color-2",
+          "label": "화이트 워드마크",
+          "form": "wordmark",
+          "lang": "en",
+          "color": "white",
+          "files": {
+            "svg": "sources/supplied-identities-20261012/805c5f686ee8065017c4.svg",
+            "png": "sources/supplied-identities-20261012/28752dfd8efc934d4785.png"
+          },
+          "preview_png": "sources/supplied-identities-20261012/28752dfd8efc934d4785.png",
+          "provider": "사용자 제공 AI 원본",
+          "origin": "manual",
+          "source_note": "제공 AI의 벡터 패스 추출 · PNG 긴 변 2400px · 규격 표기 제외",
+          "order": 11,
+          "original_png": "sources/supplied-identities-20261012/a6a8ce3e9537eb18d452.png"
+        },
+        {
+          "key": "supplied-20261012-supplied-color-3",
+          "label": "핑크 배경 · 블랙 워드마크",
+          "form": "wordmark",
+          "lang": "en",
+          "color": "pink-background",
+          "files": {
+            "svg": "sources/supplied-identities-20261012/bf2287e3c146c6ec2824.svg",
+            "png": "sources/supplied-identities-20261012/c1b5b85d41ea2c267e10.png"
+          },
+          "preview_png": "sources/supplied-identities-20261012/c1b5b85d41ea2c267e10.png",
+          "provider": "사용자 제공 AI 원본",
+          "origin": "manual",
+          "source_note": "제공 AI의 벡터 패스 추출 · PNG 긴 변 2400px · 규격 표기 제외",
+          "order": 12,
+          "original_png": "sources/supplied-identities-20261012/415e444fb4efeb0c817f.png"
+        },
+        {
+          "key": "supplied-20261012-supplied-color-4",
+          "label": "블랙 배경 · 핑크 워드마크",
+          "form": "wordmark",
+          "lang": "en",
+          "color": "black-background",
+          "files": {
+            "svg": "sources/supplied-identities-20261012/114c858a93af49ad57a7.svg",
+            "png": "sources/supplied-identities-20261012/78fedc0a1d037bb7eab5.png"
+          },
+          "preview_png": "sources/supplied-identities-20261012/78fedc0a1d037bb7eab5.png",
+          "provider": "사용자 제공 AI 원본",
+          "origin": "manual",
+          "source_note": "제공 AI의 벡터 패스 추출 · PNG 긴 변 2400px · 규격 표기 제외",
+          "order": 13,
+          "original_png": "sources/supplied-identities-20261012/01b3e304f5c7b95746b5.png"
+        },
+        {
+          "key": "supplied-20261012-supplied-color-5",
+          "label": "크림 배경 · 핑크 워드마크",
+          "form": "wordmark",
+          "lang": "en",
+          "color": "cream-background",
+          "files": {
+            "svg": "sources/supplied-identities-20261012/a44737de28858d36697d.svg",
+            "png": "sources/supplied-identities-20261012/998e024e95118eaf95aa.png"
+          },
+          "preview_png": "sources/supplied-identities-20261012/998e024e95118eaf95aa.png",
+          "provider": "사용자 제공 AI 원본",
+          "origin": "manual",
+          "source_note": "제공 AI의 벡터 패스 추출 · PNG 긴 변 2400px · 규격 표기 제외",
+          "order": 14,
+          "original_png": "sources/supplied-identities-20261012/cfe50b6c45cd945d085b.png"
+        }
+      ]
+    },
+    "gongu-ci-1368": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "gongu-ci-1368",
+      "primary": "supplied-20261012-signature-short",
+      "variants": [
+        {
+          "key": "supplied-20261012-signature-short",
+          "label": "국문 가로조합 · 미추홀구",
+          "form": "horizontal",
+          "lang": "ko",
+          "color": "color",
+          "files": {
+            "svg": "sources/supplied-identities-20261012/015f3a234411d81d0304.svg",
+            "png": "sources/supplied-identities-20261012/053f5e405b331cbbb2d8.png",
+            "zip": "sources/supplied-identities-20261012/bad76c3ff4036ef86147.zip",
+            "ai": "sources/supplied-identities-20261012/582d518d4a1f8b7cd18c.ai"
+          },
+          "preview_png": "sources/supplied-identities-20261012/053f5e405b331cbbb2d8.png",
+          "provider": "사용자 제공 AI 원본",
+          "origin": "manual",
+          "source_note": "제공 AI의 벡터 패스 추출 · PNG 긴 변 2400px · 규격 표기 제외",
+          "order": 10
+        },
+        {
+          "key": "supplied-20261012-signature-full",
+          "label": "국문 가로조합 · 인천광역시 미추홀구",
+          "form": "horizontal",
+          "lang": "ko",
+          "color": "color",
+          "files": {
+            "svg": "sources/supplied-identities-20261012/f9e5e94ae92700cbbfb9.svg",
+            "png": "sources/supplied-identities-20261012/3c8c4d60829bf19b3763.png"
+          },
+          "preview_png": "sources/supplied-identities-20261012/3c8c4d60829bf19b3763.png",
+          "provider": "사용자 제공 AI 원본",
+          "origin": "manual",
+          "source_note": "제공 AI의 벡터 패스 추출 · PNG 긴 변 2400px · 규격 표기 제외",
+          "order": 11
+        },
+        {
+          "key": "supplied-20261012-signature-vertical",
+          "label": "국문 세로조합",
+          "form": "vertical",
+          "lang": "ko",
+          "color": "color",
+          "files": {
+            "svg": "sources/supplied-identities-20261012/ccd08b4c635f30f59736.svg",
+            "png": "sources/supplied-identities-20261012/a9237476a99a6229b4b8.png"
+          },
+          "preview_png": "sources/supplied-identities-20261012/a9237476a99a6229b4b8.png",
+          "provider": "사용자 제공 AI 원본",
+          "origin": "manual",
+          "source_note": "제공 AI의 벡터 패스 추출 · PNG 긴 변 2400px · 규격 표기 제외",
+          "order": 12
+        },
+        {
+          "key": "supplied-20261012-signature-tall",
+          "label": "국문 세로쓰기 조합",
+          "form": "vertical",
+          "lang": "ko",
+          "color": "color",
+          "files": {
+            "svg": "sources/supplied-identities-20261012/bab29f03339e96319c52.svg",
+            "png": "sources/supplied-identities-20261012/0e450a9c6cd2b8ceddeb.png"
+          },
+          "preview_png": "sources/supplied-identities-20261012/0e450a9c6cd2b8ceddeb.png",
+          "provider": "사용자 제공 AI 원본",
+          "origin": "manual",
+          "source_note": "제공 AI의 벡터 패스 추출 · PNG 긴 변 2400px · 규격 표기 제외",
+          "order": 13
+        },
+        {
+          "key": "supplied-20261012-symbol",
+          "label": "심볼",
+          "form": "symbol",
+          "lang": "ko",
+          "color": "color",
+          "files": {
+            "svg": "sources/supplied-identities-20261012/391ec00b447d6ea328b0.svg",
+            "png": "sources/supplied-identities-20261012/c64da55bbd8ec9577e0f.png"
+          },
+          "preview_png": "sources/supplied-identities-20261012/c64da55bbd8ec9577e0f.png",
+          "provider": "사용자 제공 AI 원본",
+          "origin": "manual",
+          "source_note": "제공 AI의 벡터 패스 추출 · PNG 긴 변 2400px · 규격 표기 제외",
+          "order": 14
+        },
+        {
+          "key": "supplied-20261012-mascot",
+          "label": "미추 · 마스코트",
+          "form": "mascot",
+          "lang": "ko",
+          "color": "color",
+          "files": {
+            "svg": "sources/supplied-identities-20261012/2a308dbbf8bd840481f1.svg",
+            "png": "sources/supplied-identities-20261012/33334d4ce4fa19253608.png"
+          },
+          "preview_png": "sources/supplied-identities-20261012/33334d4ce4fa19253608.png",
+          "provider": "사용자 제공 AI 원본",
+          "origin": "manual",
+          "source_note": "제공 AI의 벡터 패스 추출 · PNG 긴 변 2400px · 규격 표기 제외",
+          "order": 15
+        }
+      ]
+    },
+    "snuh": {
+      "id": "snuh",
+      "primary": "supplied-20261012-signature-main",
+      "variants": [
+        {
+          "key": "public-hi-1",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "color",
+          "files": {
+            "png": "sources/official-identities-20261010/55bc8c81ff4c2da6.png",
+            "original": "sources/official-identities-20261010/287e2fc10d8a887e.png"
+          },
+          "label": "시그니춰 국문상하조합 · 공식 사이트 미리보기",
+          "order": 80,
+          "provider": "official-public-preview",
+          "preview_png": "sources/official-identities-20261010/55bc8c81ff4c2da6.png",
+          "source_note": "공식 공개 HI 이미지 · 원본 해상도",
+          "official_distribution": false
+        },
+        {
+          "key": "public-hi-2",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "color",
+          "files": {
+            "png": "sources/official-identities-20261010/258dc481a2009701.png",
+            "original": "sources/official-identities-20261010/b0fc0d3e913a4817.png"
+          },
+          "label": "엠블렘 · 공식 사이트 미리보기",
+          "order": 81,
+          "provider": "official-public-preview",
+          "preview_png": "sources/official-identities-20261010/258dc481a2009701.png",
+          "source_note": "공식 공개 HI 이미지 · 원본 해상도",
+          "official_distribution": false
+        },
+        {
+          "key": "public-hi-3",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "color",
+          "files": {
+            "png": "sources/official-identities-20261010/47476f916ddc70ff.png",
+            "original": "sources/official-identities-20261010/ff57b3108e36cabb.jpg"
+          },
+          "label": "서울대학교병원 그룹 슬로건 · 공식 사이트 미리보기",
+          "order": 82,
+          "provider": "official-public-preview",
+          "preview_png": "sources/official-identities-20261010/47476f916ddc70ff.png",
+          "source_note": "공식 공개 HI 이미지 · 원본 해상도",
+          "official_distribution": false
+        },
+        {
+          "key": "public-hi-4",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "color",
+          "files": {
+            "png": "sources/official-identities-20261010/bfd2989c5258dd8e.png",
+            "original": "sources/official-identities-20261010/88b12f396448a6cc.jpg"
+          },
+          "label": "서울대학교병원 그룹 슬로건 국문조합 · 공식 사이트 미리보기",
+          "order": 83,
+          "provider": "official-public-preview",
+          "preview_png": "sources/official-identities-20261010/bfd2989c5258dd8e.png",
+          "source_note": "공식 공개 HI 이미지 · 원본 해상도",
+          "official_distribution": false
+        },
+        {
+          "key": "public-hi-5",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "color",
+          "files": {
+            "png": "sources/official-identities-20261010/e318675c63ce5750.png",
+            "original": "sources/official-identities-20261010/7e0de5345211053c.png"
+          },
+          "label": "시그니춰 영문상하조합 로고타입강조형 · 공식 사이트 미리보기",
+          "order": 84,
+          "provider": "official-public-preview",
+          "preview_png": "sources/official-identities-20261010/e318675c63ce5750.png",
+          "source_note": "공식 공개 HI 이미지 · 원본 해상도",
+          "official_distribution": false
+        },
+        {
+          "key": "public-hi-6",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "color",
+          "files": {
+            "png": "sources/official-identities-20261010/b856e654eabad537.png",
+            "original": "sources/official-identities-20261010/86c4ac283b30ac62.png"
+          },
+          "label": "시그니춰 영문상하조합 · 공식 사이트 미리보기",
+          "order": 85,
+          "provider": "official-public-preview",
+          "preview_png": "sources/official-identities-20261010/b856e654eabad537.png",
+          "source_note": "공식 공개 HI 이미지 · 원본 해상도",
+          "official_distribution": false
+        },
+        {
+          "key": "public-hi-7",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "color",
+          "files": {
+            "png": "sources/official-identities-20261010/1c2a6cd31f7f3732.png",
+            "original": "sources/official-identities-20261010/266a00cd69520d18.png"
+          },
+          "label": "시그니춰 국영문혼용좌우조합 · 공식 사이트 미리보기",
+          "order": 86,
+          "provider": "official-public-preview",
+          "preview_png": "sources/official-identities-20261010/1c2a6cd31f7f3732.png",
+          "source_note": "공식 공개 HI 이미지 · 원본 해상도",
+          "official_distribution": false
+        },
+        {
+          "key": "public-hi-8",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "color",
+          "files": {
+            "png": "sources/official-identities-20261010/208630ada8f82493.png",
+            "original": "sources/official-identities-20261010/9191543b4d354141.png"
+          },
+          "label": "시그니춰 영문좌우조합 · 공식 사이트 미리보기",
+          "order": 87,
+          "provider": "official-public-preview",
+          "preview_png": "sources/official-identities-20261010/208630ada8f82493.png",
+          "source_note": "공식 공개 HI 이미지 · 원본 해상도",
+          "official_distribution": false
+        },
+        {
+          "key": "public-hi-9",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "color",
+          "files": {
+            "png": "sources/official-identities-20261010/f26cfdf5deb79b4f.png",
+            "original": "sources/official-identities-20261010/b467cf5748d534d5.png"
+          },
+          "label": "시그니춰 국문좌우조합 로고타입강조형 · 공식 사이트 미리보기",
+          "order": 88,
+          "provider": "official-public-preview",
+          "preview_png": "sources/official-identities-20261010/f26cfdf5deb79b4f.png",
+          "source_note": "공식 공개 HI 이미지 · 원본 해상도",
+          "official_distribution": false
+        },
+        {
+          "key": "public-hi-10",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "color",
+          "files": {
+            "png": "sources/official-identities-20261010/a452584aa60949cb.png",
+            "original": "sources/official-identities-20261010/b49272c3998c5f52.png"
+          },
+          "label": "시그니춰 국문좌우조합 · 공식 사이트 미리보기",
+          "order": 89,
+          "provider": "official-public-preview",
+          "preview_png": "sources/official-identities-20261010/a452584aa60949cb.png",
+          "source_note": "공식 공개 HI 이미지 · 원본 해상도",
+          "official_distribution": false
+        },
+        {
+          "key": "public-brochure-2020-horizontal",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "color",
+          "files": {
+            "png": "sources/official-identities-20261010/2136a9ab51d73de8.png",
+            "svg": "sources/official-identities-20261010/e9c09b913ebe2ee2.svg"
+          },
+          "label": "국문 가로조합 · 공개 2020 브로슈어 수록 벡터",
+          "order": 90,
+          "provider": "official-document",
+          "preview_png": "sources/official-identities-20261010/438bf2aff05e495b.png",
+          "source_note": "공개 2020 브로슈어에서 추출",
+          "source_year": 2020,
+          "official_distribution": false
+        },
+        {
+          "key": "public-brochure-2020-shield",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "color",
+          "files": {
+            "png": "sources/official-identities-20261010/2c9181478436b9c6.png",
+            "svg": "sources/official-identities-20261010/7262c3fffa8bba4f.svg"
+          },
+          "label": "아이콘용 방패 부분 추출 · 공개 2020 브로슈어",
+          "order": 91,
+          "provider": "official-document",
+          "preview_png": "sources/official-identities-20261010/4f17bd54f05ab11e.png",
+          "source_note": "공개 2020 브로슈어에서 추출",
+          "source_year": 2020,
+          "official_distribution": false
+        },
+        {
+          "key": "supplied-20261012-signature-main",
+          "label": "SNUH · 국문 가로조합",
+          "form": "horizontal",
+          "lang": "ko",
+          "color": "color",
+          "files": {
+            "png": "sources/supplied-identities-20261012/fb59df8cfe475d775b17.png",
+            "ai": "sources/supplied-identities-20261012/6b66f1f7c5317fb0fba1.ai"
+          },
+          "preview_png": "sources/supplied-identities-20261012/fb59df8cfe475d775b17.png",
+          "provider": "사용자 제공 AI 원본",
+          "origin": "manual",
+          "source_note": "제공 AI에 방패 비트맵 포함 · SVG로 분류하지 않음 · AI 원본과 PNG 제공",
+          "order": 22
+        },
+        {
+          "key": "supplied-20261012-signature-ko",
+          "label": "SNUH · 국문 가로조합 소형",
+          "form": "horizontal",
+          "lang": "ko",
+          "color": "color",
+          "files": {
+            "png": "sources/supplied-identities-20261012/f8a12aa3a91ceb81e836.png"
+          },
+          "preview_png": "sources/supplied-identities-20261012/f8a12aa3a91ceb81e836.png",
+          "provider": "사용자 제공 AI 원본",
+          "origin": "manual",
+          "source_note": "제공 AI에 방패 비트맵 포함 · SVG로 분류하지 않음 · AI 원본과 PNG 제공",
+          "order": 23
+        },
+        {
+          "key": "supplied-20261012-signature-en",
+          "label": "SNUH · 영문 가로조합",
+          "form": "horizontal",
+          "lang": "ko",
+          "color": "color",
+          "files": {
+            "png": "sources/supplied-identities-20261012/7d05227cf361900f863a.png"
+          },
+          "preview_png": "sources/supplied-identities-20261012/7d05227cf361900f863a.png",
+          "provider": "사용자 제공 AI 원본",
+          "origin": "manual",
+          "source_note": "제공 AI에 방패 비트맵 포함 · SVG로 분류하지 않음 · AI 원본과 PNG 제공",
+          "order": 24
+        },
+        {
+          "key": "supplied-20261012-signature-mixed",
+          "label": "SNUH · 국영문 가로조합",
+          "form": "horizontal",
+          "lang": "ko",
+          "color": "color",
+          "files": {
+            "png": "sources/supplied-identities-20261012/30a0ea5a442369ac6662.png"
+          },
+          "preview_png": "sources/supplied-identities-20261012/30a0ea5a442369ac6662.png",
+          "provider": "사용자 제공 AI 원본",
+          "origin": "manual",
+          "source_note": "제공 AI에 방패 비트맵 포함 · SVG로 분류하지 않음 · AI 원본과 PNG 제공",
+          "order": 25
+        },
+        {
+          "key": "supplied-20261012-signature-ko-stacked",
+          "label": "SNUH · 국문 상하조합",
+          "form": "vertical",
+          "lang": "ko",
+          "color": "color",
+          "files": {
+            "png": "sources/supplied-identities-20261012/5fa72dece1b0c3ec676d.png"
+          },
+          "preview_png": "sources/supplied-identities-20261012/5fa72dece1b0c3ec676d.png",
+          "provider": "사용자 제공 AI 원본",
+          "origin": "manual",
+          "source_note": "제공 AI에 방패 비트맵 포함 · SVG로 분류하지 않음 · AI 원본과 PNG 제공",
+          "order": 26
+        },
+        {
+          "key": "supplied-20261012-signature-en-stacked",
+          "label": "SNUH · 영문 상하조합",
+          "form": "vertical",
+          "lang": "ko",
+          "color": "color",
+          "files": {
+            "png": "sources/supplied-identities-20261012/864da282c26ac4f8d696.png"
+          },
+          "preview_png": "sources/supplied-identities-20261012/864da282c26ac4f8d696.png",
+          "provider": "사용자 제공 AI 원본",
+          "origin": "manual",
+          "source_note": "제공 AI에 방패 비트맵 포함 · SVG로 분류하지 않음 · AI 원본과 PNG 제공",
+          "order": 27
+        },
+        {
+          "key": "supplied-20261012-signature-mixed-stacked",
+          "label": "SNUH · 영문 상하조합 강조형",
+          "form": "vertical",
+          "lang": "ko",
+          "color": "color",
+          "files": {
+            "png": "sources/supplied-identities-20261012/b41dd72828191a3d1849.png"
+          },
+          "preview_png": "sources/supplied-identities-20261012/b41dd72828191a3d1849.png",
+          "provider": "사용자 제공 AI 원본",
+          "origin": "manual",
+          "source_note": "제공 AI에 방패 비트맵 포함 · SVG로 분류하지 않음 · AI 원본과 PNG 제공",
+          "order": 28
+        }
+      ]
+    }
+  },
+  "visual_review": "pass",
+  "reviewed_at": "2026-10-12"
+}

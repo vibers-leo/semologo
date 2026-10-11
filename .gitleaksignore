@@ -147,3 +147,14 @@ src/lib/reviewed-community-20261010.json:generic-api-key:15760
 src/lib/reviewed-community-20261010.json:generic-api-key:15786
 src/lib/reviewed-community-20261010.json:generic-api-key:15876
 src/lib/reviewed-community-20261010.json:generic-api-key:15902
+
+# Reviewed public artwork variant identifiers, not credentials.
+src/lib/reviewed-supplied-identities-20261012.json:generic-api-key:186
+src/lib/reviewed-supplied-identities-20261012.json:generic-api-key:220
+src/lib/reviewed-supplied-identities-20261012.json:generic-api-key:236
+src/lib/reviewed-supplied-identities-20261012.json:generic-api-key:252
+src/lib/reviewed-supplied-identities-20261012.json:generic-api-key:268
+src/lib/reviewed-supplied-identities-20261012.json:generic-api-key:484
+src/lib/reviewed-supplied-identities-20261012.json:generic-api-key:500
+src/lib/reviewed-supplied-identities-20261012.json:generic-api-key:515
+src/lib/reviewed-supplied-identities-20261012.json:generic-api-key:530
