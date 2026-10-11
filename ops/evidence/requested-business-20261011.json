@@ -1,0 +1,370 @@
+{
+  "extracted": {
+    "meta": {
+      "jbbank": [
+        "전북은행",
+        "Jeonbuk Bank",
+        "금융·결제",
+        "https://www.jbbank.co.kr/bank_info_coid_intr.act?_MENU_PRJ_TYPE_=INTRODUCE"
+      ],
+      "unipost": [
+        "유니포스트",
+        "UNIPOST",
+        "IT·테크",
+        "https://unipost.co.kr/"
+      ],
+      "roumit": [
+        "로움아이티",
+        "roumiT",
+        "IT·테크",
+        "https://www.roumit.com/"
+      ],
+      "firfin": [
+        "퍼핀",
+        "firfin",
+        "금융·결제",
+        "https://www.firfin.family/"
+      ],
+      "nicednr": [
+        "NICE디앤알",
+        "NICE D&R",
+        "IT·테크",
+        "https://www.nicednr.co.kr/ko/index.do"
+      ],
+      "shinhan-securities": [
+        "신한투자증권",
+        "Shinhan Securities",
+        "금융·결제",
+        "https://open.shinhansec.com/new_ir/data/data_05.jsp"
+      ],
+      "sk-securities": [
+        "SK증권",
+        "SK Securities",
+        "금융·결제",
+        "https://www.sks.co.kr/main/index.cmd"
+      ]
+    },
+    "rows": [
+      {
+        "id": "unipost",
+        "key": "official-ko",
+        "label": "공식 로고",
+        "svg": "marketing/assets/requested-finance-business-20261011/unipost/reviewed/official-ko/logo.svg",
+        "png": "marketing/assets/requested-finance-business-20261011/unipost/reviewed/official-ko/logo.png",
+        "source_url": "https://unipost.co.kr/portal/resources/design/v1/images/logo-unipost.svg",
+        "sha256": "3a11c76bf5c29e7e8c7c829974ca285360db52fe95985a1ac886e4ed67e9075d",
+        "visual_review": "pass"
+      },
+      {
+        "id": "roumit",
+        "key": "official-ko",
+        "label": "공식 로고",
+        "svg": "marketing/assets/requested-finance-business-20261011/roumit/reviewed/official-ko/logo.svg",
+        "png": "marketing/assets/requested-finance-business-20261011/roumit/reviewed/official-ko/logo.png",
+        "source_url": "https://www.roumit.com/img/logo_roumit.svg",
+        "sha256": "014f21bb047dd6c68a22928bfc325c740f095c6656443f737dc9b5549c35e5cb",
+        "visual_review": "pass"
+      },
+      {
+        "id": "nicednr",
+        "key": "official-ko",
+        "label": "공식 로고",
+        "svg": "marketing/assets/requested-finance-business-20261011/nicednr/reviewed/official-ko/logo.svg",
+        "png": "marketing/assets/requested-finance-business-20261011/nicednr/reviewed/official-ko/logo.png",
+        "source_url": "https://www.nicednr.co.kr/images/common/logo_kr_bl.svg",
+        "sha256": "7d48772c38b1f3227202e6b929c65295c1e4625b25d60feaae7f84a56e1acf67",
+        "visual_review": "pass"
+      },
+      {
+        "id": "firfin",
+        "key": "official-ko-character",
+        "label": "국문 로고 · 캐릭터 조합",
+        "svg": "marketing/assets/requested-finance-business-20261011/firfin/reviewed/official-ko-character/logo.svg",
+        "png": "marketing/assets/requested-finance-business-20261011/firfin/reviewed/official-ko-character/logo.png",
+        "source_url": "https://www.firfin.family/",
+        "sha256": "0a48dbeae30fbfda5fdffc9c28a081dc3b3beb73d07eb03629783d4f6359977b",
+        "visual_review": "pass"
+      },
+      {
+        "id": "jbbank",
+        "key": "signature-ko-horizontal",
+        "label": "국문 가로 조합",
+        "svg": "marketing/assets/requested-finance-business-20261011/jbbank/reviewed/signature-ko-horizontal/logo.svg",
+        "png": "marketing/assets/requested-finance-business-20261011/jbbank/reviewed/signature-ko-horizontal/logo.png",
+        "source_url": "https://www.jbbank.co.kr/bank_info_coid_intr.act?_MENU_PRJ_TYPE_=INTRODUCE",
+        "sha256": "a9b087c1b5d29c7b96196f765a96e5a953f0035fd82f15a5996dd5422a458f93",
+        "visual_review": "pass"
+      },
+      {
+        "id": "jbbank",
+        "key": "signature-ko-vertical",
+        "label": "국문 세로 조합",
+        "svg": "marketing/assets/requested-finance-business-20261011/jbbank/reviewed/signature-ko-vertical/logo.svg",
+        "png": "marketing/assets/requested-finance-business-20261011/jbbank/reviewed/signature-ko-vertical/logo.png",
+        "source_url": "https://www.jbbank.co.kr/bank_info_coid_intr.act?_MENU_PRJ_TYPE_=INTRODUCE",
+        "sha256": "57b755ab405bc81e6ffc3d3a0c494de54e9c6d8fc3a8063053002a59c4c3d4a1",
+        "visual_review": "pass"
+      },
+      {
+        "id": "jbbank",
+        "key": "symbol",
+        "label": "심볼",
+        "svg": "marketing/assets/requested-finance-business-20261011/jbbank/reviewed/symbol/logo.svg",
+        "png": "marketing/assets/requested-finance-business-20261011/jbbank/reviewed/symbol/logo.png",
+        "source_url": "https://www.jbbank.co.kr/bank_info_coid_intr.act?_MENU_PRJ_TYPE_=INTRODUCE",
+        "sha256": "28c4a4cae98477bcf6239bdb1e1dc820b5ed864931179f73a1d43584576a7e11",
+        "visual_review": "pass"
+      },
+      {
+        "id": "shinhan-securities",
+        "key": "official-ko",
+        "label": "공식 국문 조합",
+        "svg": "marketing/assets/requested-finance-business-20261011/shinhan-securities/logo.svg",
+        "png": "marketing/assets/requested-finance-business-20261011/shinhan-securities/logo.png",
+        "source_url": "https://file.shinhansec.com/filedoc/mtscon/fy2024esg.pdf",
+        "sha256": "68c2541c9d362d32a1078254f8bc8a416a22e20f669481995aacf8f343f5a384",
+        "visual_review": "pass"
+      },
+      {
+        "id": "sk-securities",
+        "key": "secondary-ko",
+        "label": "국문 조합 · 출처 표기 수집본",
+        "svg": "marketing/assets/requested-finance-business-20261011/sk-securities/reviewed/ko/logo.svg",
+        "png": "marketing/assets/requested-finance-business-20261011/sk-securities/reviewed/ko/logo.png",
+        "source_url": "https://muesign.tistory.com/152",
+        "sha256": "9fec4f30711f76645c98b33b30aa690f18fbad8fb547dedeab1b3b73e18f4d84",
+        "visual_review": "pass",
+        "provider": "attributed-secondary-source",
+        "source_note": "ILUO 공개 EPS 수집본 · 공식 SK증권 홈페이지 로고와 형태 대조 · 공식 배포 파일로 단정하지 않음"
+      },
+      {
+        "id": "sk-securities",
+        "key": "secondary-en",
+        "label": "영문 조합 · 출처 표기 수집본",
+        "svg": "marketing/assets/requested-finance-business-20261011/sk-securities/reviewed/en/logo.svg",
+        "png": "marketing/assets/requested-finance-business-20261011/sk-securities/reviewed/en/logo.png",
+        "source_url": "https://muesign.tistory.com/152",
+        "sha256": "ce519f0f1633a3c6c896f68b5018ac323622c70ec3d1a6846a2d2efe97007697",
+        "visual_review": "pass",
+        "provider": "attributed-secondary-source",
+        "source_note": "ILUO 공개 EPS 수집본 · 공식 SK증권 홈페이지 로고와 형태 대조 · 공식 배포 파일로 단정하지 않음"
+      }
+    ]
+  },
+  "uploads": [
+    {
+      "id": "jbbank",
+      "key": "_clients/jbbank/sources/requested-business-20261011/a9b087c1b5d29c7b9619.svg",
+      "file": "marketing/assets/requested-finance-business-20261011/jbbank/reviewed/signature-ko-horizontal/logo.svg",
+      "sha256": "a9b087c1b5d29c7b96196f765a96e5a953f0035fd82f15a5996dd5422a458f93"
+    },
+    {
+      "id": "jbbank",
+      "key": "_clients/jbbank/sources/requested-business-20261011/53889fe84d6e2d3fc773.png",
+      "file": "marketing/assets/requested-finance-business-20261011/jbbank/reviewed/signature-ko-horizontal/logo.png",
+      "sha256": "53889fe84d6e2d3fc7735a3c029ff0aa4a95faece950fc64368870b386869280"
+    },
+    {
+      "id": "jbbank",
+      "key": "_clients/jbbank/sources/requested-business-20261011/0c17864a2ed61645e7cc.zip",
+      "file": "marketing/assets/requested-finance-business-20261011/jbbank/original.zip",
+      "sha256": "0c17864a2ed61645e7cc2980a02381cdb665e588910ce20731f08b105f0b1426"
+    },
+    {
+      "id": "jbbank",
+      "key": "_clients/jbbank/sources/requested-business-20261011/7cb35b3a0f344eb5b339.ai",
+      "file": "marketing/assets/requested-finance-business-20261011/jbbank/original-0.ai",
+      "sha256": "7cb35b3a0f344eb5b339998507e91d7590c0800ac3ab6f143ddba44e1a47c2e0"
+    },
+    {
+      "id": "jbbank",
+      "key": "_clients/jbbank/sources/requested-business-20261011/57b755ab405bc81e6ffc.svg",
+      "file": "marketing/assets/requested-finance-business-20261011/jbbank/reviewed/signature-ko-vertical/logo.svg",
+      "sha256": "57b755ab405bc81e6ffc3d3a0c494de54e9c6d8fc3a8063053002a59c4c3d4a1"
+    },
+    {
+      "id": "jbbank",
+      "key": "_clients/jbbank/sources/requested-business-20261011/46611c45c59f7427114b.png",
+      "file": "marketing/assets/requested-finance-business-20261011/jbbank/reviewed/signature-ko-vertical/logo.png",
+      "sha256": "46611c45c59f7427114bac3037b2e9d6893928f42ec69612a475386b81363979"
+    },
+    {
+      "id": "jbbank",
+      "key": "_clients/jbbank/sources/requested-business-20261011/28c4a4cae98477bcf623.svg",
+      "file": "marketing/assets/requested-finance-business-20261011/jbbank/reviewed/symbol/logo.svg",
+      "sha256": "28c4a4cae98477bcf6239bdb1e1dc820b5ed864931179f73a1d43584576a7e11"
+    },
+    {
+      "id": "jbbank",
+      "key": "_clients/jbbank/sources/requested-business-20261011/0d9cd98f7e31da8e9c2a.png",
+      "file": "marketing/assets/requested-finance-business-20261011/jbbank/reviewed/symbol/logo.png",
+      "sha256": "0d9cd98f7e31da8e9c2a0995fac42636f51d610aa56d7b1b2a9eb72b107ea942"
+    },
+    {
+      "id": "unipost",
+      "key": "_clients/unipost/sources/requested-business-20261011/3a11c76bf5c29e7e8c7c.svg",
+      "file": "marketing/assets/requested-finance-business-20261011/unipost/reviewed/official-ko/logo.svg",
+      "sha256": "3a11c76bf5c29e7e8c7c829974ca285360db52fe95985a1ac886e4ed67e9075d"
+    },
+    {
+      "id": "unipost",
+      "key": "_clients/unipost/sources/requested-business-20261011/db66f2e02da8f0e0d761.png",
+      "file": "marketing/assets/requested-finance-business-20261011/unipost/reviewed/official-ko/logo.png",
+      "sha256": "db66f2e02da8f0e0d761e6d524af6c7e0a20c0d1b86f85f78c493cbe463bbf51"
+    },
+    {
+      "id": "roumit",
+      "key": "_clients/roumit/sources/requested-business-20261011/014f21bb047dd6c68a22.svg",
+      "file": "marketing/assets/requested-finance-business-20261011/roumit/reviewed/official-ko/logo.svg",
+      "sha256": "014f21bb047dd6c68a22928bfc325c740f095c6656443f737dc9b5549c35e5cb"
+    },
+    {
+      "id": "roumit",
+      "key": "_clients/roumit/sources/requested-business-20261011/d82454fa29dcf2398c9d.png",
+      "file": "marketing/assets/requested-finance-business-20261011/roumit/reviewed/official-ko/logo.png",
+      "sha256": "d82454fa29dcf2398c9dd538a347ab8d60706be01f4d9f0546b514aa800b4090"
+    },
+    {
+      "id": "firfin",
+      "key": "_clients/firfin/sources/requested-business-20261011/0a48dbeae30fbfda5fdf.svg",
+      "file": "marketing/assets/requested-finance-business-20261011/firfin/reviewed/official-ko-character/logo.svg",
+      "sha256": "0a48dbeae30fbfda5fdffc9c28a081dc3b3beb73d07eb03629783d4f6359977b"
+    },
+    {
+      "id": "firfin",
+      "key": "_clients/firfin/sources/requested-business-20261011/7901348ab6d2de03e66d.png",
+      "file": "marketing/assets/requested-finance-business-20261011/firfin/reviewed/official-ko-character/logo.png",
+      "sha256": "7901348ab6d2de03e66dfa82bea148c0d36f6901ef5106320f049483a42a4772"
+    },
+    {
+      "id": "nicednr",
+      "key": "_clients/nicednr/sources/requested-business-20261011/7d48772c38b1f3227202.svg",
+      "file": "marketing/assets/requested-finance-business-20261011/nicednr/reviewed/official-ko/logo.svg",
+      "sha256": "7d48772c38b1f3227202e6b929c65295c1e4625b25d60feaae7f84a56e1acf67"
+    },
+    {
+      "id": "nicednr",
+      "key": "_clients/nicednr/sources/requested-business-20261011/9946133c67e2af72239a.png",
+      "file": "marketing/assets/requested-finance-business-20261011/nicednr/reviewed/official-ko/logo.png",
+      "sha256": "9946133c67e2af72239a67c1970d114b012401aaef6cddebb72896c5542110bb"
+    },
+    {
+      "id": "shinhan-securities",
+      "key": "_clients/shinhan-securities/sources/requested-business-20261011/68c2541c9d362d32a107.svg",
+      "file": "marketing/assets/requested-finance-business-20261011/shinhan-securities/logo.svg",
+      "sha256": "68c2541c9d362d32a1078254f8bc8a416a22e20f669481995aacf8f343f5a384"
+    },
+    {
+      "id": "shinhan-securities",
+      "key": "_clients/shinhan-securities/sources/requested-business-20261011/9533aacd0f7accb40675.png",
+      "file": "marketing/assets/requested-finance-business-20261011/shinhan-securities/logo.png",
+      "sha256": "9533aacd0f7accb40675f51db445ba649fa64de650043dca471193df9415e4e9"
+    },
+    {
+      "id": "sk-securities",
+      "key": "_clients/sk-securities/sources/requested-business-20261011/9fec4f30711f76645c98.svg",
+      "file": "marketing/assets/requested-finance-business-20261011/sk-securities/reviewed/ko/logo.svg",
+      "sha256": "9fec4f30711f76645c98b33b30aa690f18fbad8fb547dedeab1b3b73e18f4d84"
+    },
+    {
+      "id": "sk-securities",
+      "key": "_clients/sk-securities/sources/requested-business-20261011/8b34efe17bbbc740c8d8.png",
+      "file": "marketing/assets/requested-finance-business-20261011/sk-securities/reviewed/ko/logo.png",
+      "sha256": "8b34efe17bbbc740c8d893449135280d177bf44e83df88118c531813871afc18"
+    },
+    {
+      "id": "sk-securities",
+      "key": "_clients/sk-securities/sources/requested-business-20261011/1923c50dabe6d977d285.zip",
+      "file": "marketing/assets/requested-finance-business-20261011/sk-securities/secondary-original.zip",
+      "sha256": "1923c50dabe6d977d285e3a6d178b2b5ebc196c24930ec1d78093204f05b0e2a"
+    },
+    {
+      "id": "sk-securities",
+      "key": "_clients/sk-securities/sources/requested-business-20261011/ce519f0f1633a3c6c896.svg",
+      "file": "marketing/assets/requested-finance-business-20261011/sk-securities/reviewed/en/logo.svg",
+      "sha256": "ce519f0f1633a3c6c896f68b5018ac323622c70ec3d1a6846a2d2efe97007697"
+    },
+    {
+      "id": "sk-securities",
+      "key": "_clients/sk-securities/sources/requested-business-20261011/a68f8aadfcf5d9385662.png",
+      "file": "marketing/assets/requested-finance-business-20261011/sk-securities/reviewed/en/logo.png",
+      "sha256": "a68f8aadfcf5d9385662f73cbc4ed023484b89ac20960c38c43f079cd9ea1a55"
+    }
+  ],
+  "published": {
+    "status": "cms-published-cdn-bytes-verified",
+    "identities": [
+      "jbbank",
+      "unipost",
+      "roumit",
+      "firfin",
+      "nicednr",
+      "shinhan-securities",
+      "sk-securities"
+    ],
+    "objects": 23,
+    "variants": 10
+  },
+  "remaining": [
+    {
+      "id": "woowa",
+      "name_ko": "우아한형제들",
+      "status": "existing-published-identity",
+      "note": "Public search omitted existing woowa; do not duplicate."
+    },
+    {
+      "id": "daangnpay",
+      "name_ko": "당근페이",
+      "status": "vector-wanted",
+      "source": "https://www.daangnpay.com/",
+      "note": "Official logo PNGs downloaded; Wix inline SVG is an unrelated UI icon."
+    },
+    {
+      "id": "coupangpay",
+      "name_ko": "쿠팡페이",
+      "status": "vector-wanted",
+      "source": "https://www.coupangpay.com/",
+      "note": "Official CSS contains original 260x40 PNG; decoded without alteration."
+    },
+    {
+      "id": "gsretail",
+      "name_ko": "GS리테일",
+      "status": "vector-wanted",
+      "source": "https://hpsimg.gsretail.com/gsretail/en/intro/ci-bi",
+      "note": "Official ZIP and AI downloaded. PDF-compatible AI contains raster/inline image strips in symbol; do not publish as pure SVG."
+    },
+    {
+      "id": "bizentro",
+      "name_ko": "비젠트로",
+      "aliases": [
+        "비즈엔트로"
+      ],
+      "status": "vector-wanted",
+      "source": "https://cdn.ems.coex.co.kr/event/1009/%4020261009/board/2025%20BIZENTRO_%ED%9A%8C%EC%82%AC%20%EC%86%8C%EA%B0%9C%EC%84%9C_%20%281%29.pdf",
+      "note": "Company-authored 2025 brochure downloaded from exhibition host. Logo is embedded raster (210x57); main company site timed out/403."
+    },
+    {
+      "id": "gmoneytrans",
+      "name_ko": "지머니트랜스",
+      "status": "source-access-and-vector-wanted",
+      "source": "https://gmoneytrans.com/",
+      "note": "Official company identity and logo PNG URL confirmed via web source; local HTML/image download blocked by WAF 403. Do not treat firewall PNG as logo."
+    }
+  ],
+  "identity-preflight": [
+    {
+      "id": "gs25-gsretail",
+      "status": "published",
+      "name_ko": "GS25",
+      "name_en": "GS25",
+      "merged_into": null
+    },
+    {
+      "id": "woowa",
+      "status": "published",
+      "name_ko": "우아한형제들",
+      "name_en": "우아한형제들",
+      "merged_into": null
+    }
+  ]
+}

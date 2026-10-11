@@ -1,0 +1,481 @@
+{
+  "patches": {
+    "jbbank": {
+      "id": "jbbank",
+      "name_ko": "전북은행",
+      "name_en": "Jeonbuk Bank",
+      "category": "금융·결제",
+      "origin": "KR",
+      "website": "https://www.jbbank.co.kr/bank_info_coid_intr.act?_MENU_PRJ_TYPE_=INTRODUCE",
+      "official_source_page": "https://www.jbbank.co.kr/bank_info_coid_intr.act?_MENU_PRJ_TYPE_=INTRODUCE",
+      "logo_svg": "sources/requested-business-20261011/a9b087c1b5d29c7b9619.svg",
+      "svg_transparent": "sources/requested-business-20261011/a9b087c1b5d29c7b9619.svg",
+      "logo_png": "sources/requested-business-20261011/53889fe84d6e2d3fc773.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/jbbank/sources/requested-business-20261011/53889fe84d6e2d3fc773.png",
+      "has_svg": true,
+      "has_png": true,
+      "light": false,
+      "light_logo": false,
+      "dark_variant": false,
+      "added_at": "2026-10-11",
+      "logo_published_at": "2026-10-11T07:00:00Z",
+      "variants_n": 3,
+      "aliases": [
+        "전북은행",
+        "JB전북은행",
+        "JB Bank",
+        "Jeonbuk Bank"
+      ],
+      "asset_origin": "공식 홈페이지 원본 벡터",
+      "asset_review_status": "verified",
+      "rejected_asset_files": [
+        "logo.svg",
+        "logo.png",
+        "logo-800.png",
+        "logo-icon.png",
+        "logo-transparent.png",
+        "logo-white.png"
+      ],
+      "source_zip": "sources/requested-business-20261011/0c17864a2ed61645e7cc.zip",
+      "source_ai": "sources/requested-business-20261011/7cb35b3a0f344eb5b339.ai",
+      "icon_png": "sources/requested-business-20261011/0d9cd98f7e31da8e9c2a.png"
+    },
+    "unipost": {
+      "id": "unipost",
+      "name_ko": "유니포스트",
+      "name_en": "UNIPOST",
+      "category": "IT·테크",
+      "origin": "KR",
+      "website": "https://unipost.co.kr/",
+      "official_source_page": "https://unipost.co.kr/",
+      "logo_svg": "sources/requested-business-20261011/3a11c76bf5c29e7e8c7c.svg",
+      "svg_transparent": "sources/requested-business-20261011/3a11c76bf5c29e7e8c7c.svg",
+      "logo_png": "sources/requested-business-20261011/db66f2e02da8f0e0d761.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/unipost/sources/requested-business-20261011/db66f2e02da8f0e0d761.png",
+      "has_svg": true,
+      "has_png": true,
+      "light": false,
+      "light_logo": false,
+      "dark_variant": false,
+      "added_at": "2026-10-11",
+      "logo_published_at": "2026-10-11T07:00:00Z",
+      "variants_n": 1,
+      "aliases": [
+        "유니포스트",
+        "UNIPOST"
+      ],
+      "asset_origin": "공식 홈페이지 원본 벡터",
+      "asset_review_status": "verified",
+      "rejected_asset_files": [
+        "logo.svg",
+        "logo.png",
+        "logo-800.png",
+        "logo-icon.png",
+        "logo-transparent.png",
+        "logo-white.png"
+      ]
+    },
+    "roumit": {
+      "id": "roumit",
+      "name_ko": "로움아이티",
+      "name_en": "roumiT",
+      "category": "IT·테크",
+      "origin": "KR",
+      "website": "https://www.roumit.com/",
+      "official_source_page": "https://www.roumit.com/",
+      "logo_svg": "sources/requested-business-20261011/014f21bb047dd6c68a22.svg",
+      "svg_transparent": "sources/requested-business-20261011/014f21bb047dd6c68a22.svg",
+      "logo_png": "sources/requested-business-20261011/d82454fa29dcf2398c9d.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/roumit/sources/requested-business-20261011/d82454fa29dcf2398c9d.png",
+      "has_svg": true,
+      "has_png": true,
+      "light": true,
+      "light_logo": true,
+      "dark_variant": false,
+      "added_at": "2026-10-11",
+      "logo_published_at": "2026-10-11T07:00:00Z",
+      "variants_n": 1,
+      "aliases": [
+        "로움아이티",
+        "roumiT"
+      ],
+      "asset_origin": "공식 홈페이지 원본 벡터",
+      "asset_review_status": "verified",
+      "rejected_asset_files": [
+        "logo.svg",
+        "logo.png",
+        "logo-800.png",
+        "logo-icon.png",
+        "logo-transparent.png",
+        "logo-white.png"
+      ]
+    },
+    "firfin": {
+      "id": "firfin",
+      "name_ko": "퍼핀",
+      "name_en": "firfin",
+      "category": "금융·결제",
+      "origin": "KR",
+      "website": "https://www.firfin.family/",
+      "official_source_page": "https://www.firfin.family/",
+      "logo_svg": "sources/requested-business-20261011/0a48dbeae30fbfda5fdf.svg",
+      "svg_transparent": "sources/requested-business-20261011/0a48dbeae30fbfda5fdf.svg",
+      "logo_png": "sources/requested-business-20261011/7901348ab6d2de03e66d.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/firfin/sources/requested-business-20261011/7901348ab6d2de03e66d.png",
+      "has_svg": true,
+      "has_png": true,
+      "light": false,
+      "light_logo": false,
+      "dark_variant": false,
+      "added_at": "2026-10-11",
+      "logo_published_at": "2026-10-11T07:00:00Z",
+      "variants_n": 1,
+      "aliases": [
+        "퍼핀",
+        "firfin"
+      ],
+      "asset_origin": "공식 홈페이지 원본 벡터",
+      "asset_review_status": "verified",
+      "rejected_asset_files": [
+        "logo.svg",
+        "logo.png",
+        "logo-800.png",
+        "logo-icon.png",
+        "logo-transparent.png",
+        "logo-white.png"
+      ]
+    },
+    "nicednr": {
+      "id": "nicednr",
+      "name_ko": "NICE디앤알",
+      "name_en": "NICE D&R",
+      "category": "IT·테크",
+      "origin": "KR",
+      "website": "https://www.nicednr.co.kr/ko/index.do",
+      "official_source_page": "https://www.nicednr.co.kr/ko/index.do",
+      "logo_svg": "sources/requested-business-20261011/7d48772c38b1f3227202.svg",
+      "svg_transparent": "sources/requested-business-20261011/7d48772c38b1f3227202.svg",
+      "logo_png": "sources/requested-business-20261011/9946133c67e2af72239a.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/nicednr/sources/requested-business-20261011/9946133c67e2af72239a.png",
+      "has_svg": true,
+      "has_png": true,
+      "light": false,
+      "light_logo": false,
+      "dark_variant": false,
+      "added_at": "2026-10-11",
+      "logo_published_at": "2026-10-11T07:00:00Z",
+      "variants_n": 1,
+      "aliases": [
+        "NICE디앤알",
+        "NICE D&R"
+      ],
+      "asset_origin": "공식 홈페이지 원본 벡터",
+      "asset_review_status": "verified",
+      "rejected_asset_files": [
+        "logo.svg",
+        "logo.png",
+        "logo-800.png",
+        "logo-icon.png",
+        "logo-transparent.png",
+        "logo-white.png"
+      ]
+    },
+    "shinhan-securities": {
+      "id": "shinhan-securities",
+      "name_ko": "신한투자증권",
+      "name_en": "Shinhan Securities",
+      "category": "금융·결제",
+      "origin": "KR",
+      "website": "https://open.shinhansec.com/new_ir/data/data_05.jsp",
+      "official_source_page": "https://open.shinhansec.com/new_ir/data/data_05.jsp",
+      "logo_svg": "sources/requested-business-20261011/68c2541c9d362d32a107.svg",
+      "svg_transparent": "sources/requested-business-20261011/68c2541c9d362d32a107.svg",
+      "logo_png": "sources/requested-business-20261011/9533aacd0f7accb40675.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/shinhan-securities/sources/requested-business-20261011/9533aacd0f7accb40675.png",
+      "has_svg": true,
+      "has_png": true,
+      "light": false,
+      "light_logo": false,
+      "dark_variant": false,
+      "added_at": "2026-10-11",
+      "logo_published_at": "2026-10-11T07:00:00Z",
+      "variants_n": 1,
+      "aliases": [
+        "신한투자증권",
+        "Shinhan Securities"
+      ],
+      "asset_origin": "공식 홈페이지 원본 벡터",
+      "asset_review_status": "verified",
+      "rejected_asset_files": [
+        "logo.svg",
+        "logo.png",
+        "logo-800.png",
+        "logo-icon.png",
+        "logo-transparent.png",
+        "logo-white.png"
+      ]
+    },
+    "sk-securities": {
+      "id": "sk-securities",
+      "name_ko": "SK증권",
+      "name_en": "SK Securities",
+      "category": "금융·결제",
+      "origin": "KR",
+      "website": "https://www.sks.co.kr/main/index.cmd",
+      "official_source_page": "https://www.sks.co.kr/main/index.cmd",
+      "logo_svg": "sources/requested-business-20261011/9fec4f30711f76645c98.svg",
+      "svg_transparent": "sources/requested-business-20261011/9fec4f30711f76645c98.svg",
+      "logo_png": "sources/requested-business-20261011/8b34efe17bbbc740c8d8.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/sk-securities/sources/requested-business-20261011/8b34efe17bbbc740c8d8.png",
+      "has_svg": true,
+      "has_png": true,
+      "light": false,
+      "light_logo": false,
+      "dark_variant": false,
+      "added_at": "2026-10-11",
+      "logo_published_at": "2026-10-11T07:00:00Z",
+      "variants_n": 2,
+      "aliases": [
+        "SK증권",
+        "SK Securities"
+      ],
+      "asset_origin": "출처 표기 공개 EPS · 공식 홈페이지 형태 대조",
+      "asset_review_status": "verified",
+      "rejected_asset_files": [
+        "logo.svg",
+        "logo.png",
+        "logo-800.png",
+        "logo-icon.png",
+        "logo-transparent.png",
+        "logo-white.png"
+      ],
+      "source_zip": "sources/requested-business-20261011/1923c50dabe6d977d285.zip"
+    }
+  },
+  "variants": {
+    "jbbank": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "jbbank",
+      "primary": "signature-ko-horizontal",
+      "variants": [
+        {
+          "key": "signature-ko-horizontal",
+          "label": "국문 가로 조합",
+          "form": "horizontal",
+          "lang": "ko",
+          "color": "color",
+          "files": {
+            "svg": "sources/requested-business-20261011/a9b087c1b5d29c7b9619.svg",
+            "png": "sources/requested-business-20261011/53889fe84d6e2d3fc773.png",
+            "zip": "sources/requested-business-20261011/0c17864a2ed61645e7cc.zip",
+            "ai": "sources/requested-business-20261011/7cb35b3a0f344eb5b339.ai"
+          },
+          "preview_png": "sources/requested-business-20261011/53889fe84d6e2d3fc773.png",
+          "provider": "official-site",
+          "source_url": "https://www.jbbank.co.kr/bank_info_coid_intr.act?_MENU_PRJ_TYPE_=INTRODUCE",
+          "source_note": "공식 원본 벡터 추출 · 투명 PNG 1600px · 육안 검수",
+          "order": 10
+        },
+        {
+          "key": "signature-ko-vertical",
+          "label": "국문 세로 조합",
+          "form": "vertical",
+          "lang": "ko",
+          "color": "color",
+          "files": {
+            "svg": "sources/requested-business-20261011/57b755ab405bc81e6ffc.svg",
+            "png": "sources/requested-business-20261011/46611c45c59f7427114b.png",
+            "zip": "sources/requested-business-20261011/0c17864a2ed61645e7cc.zip",
+            "ai": "sources/requested-business-20261011/7cb35b3a0f344eb5b339.ai"
+          },
+          "preview_png": "sources/requested-business-20261011/46611c45c59f7427114b.png",
+          "provider": "official-site",
+          "source_url": "https://www.jbbank.co.kr/bank_info_coid_intr.act?_MENU_PRJ_TYPE_=INTRODUCE",
+          "source_note": "공식 원본 벡터 추출 · 투명 PNG 1600px · 육안 검수",
+          "order": 11
+        },
+        {
+          "key": "symbol",
+          "label": "심볼",
+          "form": "symbol",
+          "lang": "ko",
+          "color": "color",
+          "files": {
+            "svg": "sources/requested-business-20261011/28c4a4cae98477bcf623.svg",
+            "png": "sources/requested-business-20261011/0d9cd98f7e31da8e9c2a.png",
+            "zip": "sources/requested-business-20261011/0c17864a2ed61645e7cc.zip",
+            "ai": "sources/requested-business-20261011/7cb35b3a0f344eb5b339.ai"
+          },
+          "preview_png": "sources/requested-business-20261011/0d9cd98f7e31da8e9c2a.png",
+          "provider": "official-site",
+          "source_url": "https://www.jbbank.co.kr/bank_info_coid_intr.act?_MENU_PRJ_TYPE_=INTRODUCE",
+          "source_note": "공식 원본 벡터 추출 · 투명 PNG 1600px · 육안 검수",
+          "order": 12
+        }
+      ]
+    },
+    "unipost": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "unipost",
+      "primary": "official-ko",
+      "variants": [
+        {
+          "key": "official-ko",
+          "label": "공식 로고",
+          "form": "horizontal",
+          "lang": "ko",
+          "color": "color",
+          "files": {
+            "svg": "sources/requested-business-20261011/3a11c76bf5c29e7e8c7c.svg",
+            "png": "sources/requested-business-20261011/db66f2e02da8f0e0d761.png"
+          },
+          "preview_png": "sources/requested-business-20261011/db66f2e02da8f0e0d761.png",
+          "provider": "official-site",
+          "source_url": "https://unipost.co.kr/portal/resources/design/v1/images/logo-unipost.svg",
+          "source_note": "공식 원본 벡터 추출 · 투명 PNG 1600px · 육안 검수",
+          "order": 10
+        }
+      ]
+    },
+    "roumit": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "roumit",
+      "primary": "official-ko",
+      "variants": [
+        {
+          "key": "official-ko",
+          "label": "공식 로고",
+          "form": "horizontal",
+          "lang": "ko",
+          "color": "white",
+          "files": {
+            "svg": "sources/requested-business-20261011/014f21bb047dd6c68a22.svg",
+            "png": "sources/requested-business-20261011/d82454fa29dcf2398c9d.png"
+          },
+          "preview_png": "sources/requested-business-20261011/d82454fa29dcf2398c9d.png",
+          "provider": "official-site",
+          "source_url": "https://www.roumit.com/img/logo_roumit.svg",
+          "source_note": "공식 원본 벡터 추출 · 투명 PNG 1600px · 육안 검수",
+          "order": 10
+        }
+      ]
+    },
+    "firfin": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "firfin",
+      "primary": "official-ko-character",
+      "variants": [
+        {
+          "key": "official-ko-character",
+          "label": "국문 로고 · 캐릭터 조합",
+          "form": "horizontal",
+          "lang": "ko",
+          "color": "color",
+          "files": {
+            "svg": "sources/requested-business-20261011/0a48dbeae30fbfda5fdf.svg",
+            "png": "sources/requested-business-20261011/7901348ab6d2de03e66d.png"
+          },
+          "preview_png": "sources/requested-business-20261011/7901348ab6d2de03e66d.png",
+          "provider": "official-site",
+          "source_url": "https://www.firfin.family/",
+          "source_note": "공식 원본 벡터 추출 · 투명 PNG 1600px · 육안 검수",
+          "order": 10
+        }
+      ]
+    },
+    "nicednr": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "nicednr",
+      "primary": "official-ko",
+      "variants": [
+        {
+          "key": "official-ko",
+          "label": "공식 로고",
+          "form": "horizontal",
+          "lang": "ko",
+          "color": "color",
+          "files": {
+            "svg": "sources/requested-business-20261011/7d48772c38b1f3227202.svg",
+            "png": "sources/requested-business-20261011/9946133c67e2af72239a.png"
+          },
+          "preview_png": "sources/requested-business-20261011/9946133c67e2af72239a.png",
+          "provider": "official-site",
+          "source_url": "https://www.nicednr.co.kr/images/common/logo_kr_bl.svg",
+          "source_note": "공식 원본 벡터 추출 · 투명 PNG 1600px · 육안 검수",
+          "order": 10
+        }
+      ]
+    },
+    "shinhan-securities": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "shinhan-securities",
+      "primary": "official-ko",
+      "variants": [
+        {
+          "key": "official-ko",
+          "label": "공식 국문 조합",
+          "form": "horizontal",
+          "lang": "ko",
+          "color": "color",
+          "files": {
+            "svg": "sources/requested-business-20261011/68c2541c9d362d32a107.svg",
+            "png": "sources/requested-business-20261011/9533aacd0f7accb40675.png"
+          },
+          "preview_png": "sources/requested-business-20261011/9533aacd0f7accb40675.png",
+          "provider": "official-site",
+          "source_url": "https://file.shinhansec.com/filedoc/mtscon/fy2024esg.pdf",
+          "source_note": "공식 원본 벡터 추출 · 투명 PNG 1600px · 육안 검수",
+          "order": 10
+        }
+      ]
+    },
+    "sk-securities": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "sk-securities",
+      "primary": "secondary-ko",
+      "variants": [
+        {
+          "key": "secondary-ko",
+          "label": "국문 조합 · 출처 표기 수집본",
+          "form": "horizontal",
+          "lang": "ko",
+          "color": "color",
+          "files": {
+            "svg": "sources/requested-business-20261011/9fec4f30711f76645c98.svg",
+            "png": "sources/requested-business-20261011/8b34efe17bbbc740c8d8.png",
+            "zip": "sources/requested-business-20261011/1923c50dabe6d977d285.zip"
+          },
+          "preview_png": "sources/requested-business-20261011/8b34efe17bbbc740c8d8.png",
+          "provider": "attributed-secondary-source",
+          "source_url": "https://muesign.tistory.com/152",
+          "source_note": "ILUO 공개 EPS 수집본 · 공식 SK증권 홈페이지 로고와 형태 대조 · 공식 배포 파일로 단정하지 않음",
+          "order": 10
+        },
+        {
+          "key": "secondary-en",
+          "label": "영문 조합 · 출처 표기 수집본",
+          "form": "horizontal",
+          "lang": "ko",
+          "color": "color",
+          "files": {
+            "svg": "sources/requested-business-20261011/ce519f0f1633a3c6c896.svg",
+            "png": "sources/requested-business-20261011/a68f8aadfcf5d9385662.png",
+            "zip": "sources/requested-business-20261011/1923c50dabe6d977d285.zip"
+          },
+          "preview_png": "sources/requested-business-20261011/a68f8aadfcf5d9385662.png",
+          "provider": "attributed-secondary-source",
+          "source_url": "https://muesign.tistory.com/152",
+          "source_note": "ILUO 공개 EPS 수집본 · 공식 SK증권 홈페이지 로고와 형태 대조 · 공식 배포 파일로 단정하지 않음",
+          "order": 11
+        }
+      ]
+    }
+  }
+}
