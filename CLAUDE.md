@@ -182,6 +182,8 @@ brand-logos 배포보다 **52초 먼저** 시작해서 났다. 증상이 같으�
 | SVG 있음 | 그대로 서비스. `logo.png`는 SVG에서 생성 |
 | PNG만 있는 **보유 브랜드** | 서비스는 하되 `svg-wanted.json`에 올린다 |
 | PNG만 있는 **미보유 후보** | **서비스에 넣지 않는다.** `collect-wanted.json`에만 둔다 |
+
+2026-10-11 사용자 명시 예외: 당근페이(`daangnpay`), 쿠팡페이(`coupangpay`), 지머니트랜스(`gmoneytrans`)는 확보한 공식 PNG만으로 우선 공개한다. `has_svg=false`, SVG 필드 비움, 원본 해상도·출처 보존, SVG 수집 대기는 `ops/evidence/requested-business-svg-wanted-20261011.json`으로 관리한다. 다른 신규 후보에 일반화하지 않는다.
 | 비트맵이 박힌 SVG (`<image`·`data:image/`) | **SVG로 치지 않는다.** `has_svg` 내리고 `sources/raster-wrapped/`로 옮긴 뒤 대기 목록에 올린다 |
 
 진짜 벡터가 나중에 수집되면 — **약간 다른 버전이라도** — 그때 함께 서비스한다.

@@ -54,6 +54,24 @@
         "BIZENTRO",
         "IT·테크",
         "http://www.bizentro.com/s5/s5_5.do?lang="
+      ],
+      "daangnpay": [
+        "당근페이",
+        "Daangn Pay",
+        "금융·결제",
+        "https://www.daangnpay.com/"
+      ],
+      "coupangpay": [
+        "쿠팡페이",
+        "Coupang Pay",
+        "금융·결제",
+        "https://www.coupangpay.com/"
+      ],
+      "gmoneytrans": [
+        "지머니트랜스",
+        "Gmoneytrans",
+        "금융·결제",
+        "https://gmoneytrans.com/"
       ]
     },
     "rows": [
@@ -201,6 +219,66 @@
         "source_url": "http://www.bizentro.com/theme/bize/images/pdf/Bizentro_ci.ai",
         "source_note": "공식 AI 원본 벡터 · Poppler 색상 변환 · 투명 PNG 1600px · 가이드 제외 육안 검수",
         "sha256": "75f032f645c866eda35f21bc1d1f1524e9b1c79841b1db55201ce1e063c1cf11",
+        "visual_review": "pass"
+      },
+      {
+        "id": "daangnpay",
+        "key": "official-color",
+        "label": "공식 컬러 PNG",
+        "png": "marketing/assets/requested-finance-business-20261011/daangnpay/official-logo.png",
+        "source_url": "https://static.wixstatic.com/media/c8e413_28d08f55a9ef4084b0184801e5a4d759~mv2.png",
+        "provider": "official-site",
+        "color": "color",
+        "source_note": "공식 홈페이지 PNG 원본 642×300px · 원본 색상·투명도 보존 · SVG 미제공 · 사용자 요청 우선 공개",
+        "sha256": "475e6fce1d4ebc64c19ae7ec9a43e6ff2d6e957402c402e5cb64c70c0982902d",
+        "visual_review": "pass"
+      },
+      {
+        "id": "daangnpay",
+        "key": "official-white",
+        "label": "공식 화이트 PNG",
+        "png": "marketing/assets/requested-finance-business-20261011/daangnpay/official-logo-white.png",
+        "source_url": "https://static.wixstatic.com/media/c8e413_d8de019bed84447d90b5aa9d3ddb6353~mv2.png",
+        "provider": "official-site",
+        "color": "white",
+        "source_note": "공식 홈페이지 PNG 원본 642×300px · 원본 색상·투명도 보존 · SVG 미제공 · 사용자 요청 우선 공개",
+        "sha256": "4b358a0b2db98189484a6830e2adc4f6a250eee9e4372dfe6527df69c8c7b7f2",
+        "visual_review": "pass"
+      },
+      {
+        "id": "coupangpay",
+        "key": "official-color",
+        "label": "공식 PNG",
+        "png": "marketing/assets/requested-finance-business-20261011/coupangpay/official-logo.png",
+        "source_url": "https://www.coupangpay.com/resources/20261008095704/dist/coupangpay/pc/controller/index.css",
+        "provider": "official-site",
+        "color": "color",
+        "source_note": "공식 홈페이지 PNG 원본 260×40px · 원본 색상·투명도 보존 · SVG 미제공 · 사용자 요청 우선 공개",
+        "sha256": "f8a74a27383ebc8268dd5aa717e703dcfef10895d91a8ba9bfa0b65ea450d2d2",
+        "visual_review": "pass"
+      },
+      {
+        "id": "gmoneytrans",
+        "key": "official-header",
+        "label": "공식 가로 PNG",
+        "png": "marketing/assets/requested-finance-business-20261011/gmoneytrans/official-logo.png",
+        "source_url": "https://gmoneytrans.com/wp-content/uploads/2023/08/cropped-logo_mb.png",
+        "provider": "official-site",
+        "color": "color",
+        "source_note": "공식 홈페이지 PNG 원본 120×40px · 원본 색상·투명도 보존 · SVG 미제공 · 사용자 요청 우선 공개",
+        "sha256": "a4457887257eedbc5a0637db63036cfebf273fe0f82f31cad968e3ff33b5dfa9",
+        "visual_review": "pass"
+      },
+      {
+        "id": "gmoneytrans",
+        "key": "official-footer",
+        "label": "공식 보조 PNG",
+        "png": "marketing/assets/requested-finance-business-20261011/gmoneytrans/official-logo-bg.png",
+        "source_url": "https://gmoneytrans.com/wp-content/uploads/2024/04/logo_bg.png",
+        "provider": "official-site",
+        "color": "color",
+        "source_note": "공식 홈페이지 PNG 원본 160×116px · 원본 색상·투명도 보존 · SVG 미제공 · 사용자 요청 우선 공개",
+        "sha256": "f0002b1cd83cecfdc92d3efe707013a8240e4d626738e567d912eb07354f5907",
         "visual_review": "pass"
       }
     ]
@@ -439,6 +517,36 @@
       "key": "_clients/bizentro/sources/requested-business-20261011/8cf3c9e1208a45a38082.png",
       "file": "marketing/assets/requested-finance-business-20261011/bizentro/official-ko.png",
       "sha256": "8cf3c9e1208a45a38082f35b3e34dbaf99f513561c26db57917ff755aed5966f"
+    },
+    {
+      "id": "daangnpay",
+      "key": "_clients/daangnpay/sources/requested-business-20261011/475e6fce1d4ebc64c19a.png",
+      "file": "marketing/assets/requested-finance-business-20261011/daangnpay/official-logo.png",
+      "sha256": "475e6fce1d4ebc64c19ae7ec9a43e6ff2d6e957402c402e5cb64c70c0982902d"
+    },
+    {
+      "id": "daangnpay",
+      "key": "_clients/daangnpay/sources/requested-business-20261011/4b358a0b2db98189484a.png",
+      "file": "marketing/assets/requested-finance-business-20261011/daangnpay/official-logo-white.png",
+      "sha256": "4b358a0b2db98189484a6830e2adc4f6a250eee9e4372dfe6527df69c8c7b7f2"
+    },
+    {
+      "id": "coupangpay",
+      "key": "_clients/coupangpay/sources/requested-business-20261011/f8a74a27383ebc8268dd.png",
+      "file": "marketing/assets/requested-finance-business-20261011/coupangpay/official-logo.png",
+      "sha256": "f8a74a27383ebc8268dd5aa717e703dcfef10895d91a8ba9bfa0b65ea450d2d2"
+    },
+    {
+      "id": "gmoneytrans",
+      "key": "_clients/gmoneytrans/sources/requested-business-20261011/a4457887257eedbc5a06.png",
+      "file": "marketing/assets/requested-finance-business-20261011/gmoneytrans/official-logo.png",
+      "sha256": "a4457887257eedbc5a0637db63036cfebf273fe0f82f31cad968e3ff33b5dfa9"
+    },
+    {
+      "id": "gmoneytrans",
+      "key": "_clients/gmoneytrans/sources/requested-business-20261011/f0002b1cd83cecfdc92d.png",
+      "file": "marketing/assets/requested-finance-business-20261011/gmoneytrans/official-logo-bg.png",
+      "sha256": "f0002b1cd83cecfdc92d3efe707013a8240e4d626738e567d912eb07354f5907"
     }
   ],
   "published": {
@@ -453,32 +561,35 @@
       "sk-securities",
       "gsretail",
       "woowa",
-      "bizentro"
+      "bizentro",
+      "daangnpay",
+      "coupangpay",
+      "gmoneytrans"
     ],
-    "objects": 39,
-    "variants": 16
+    "objects": 44,
+    "variants": 21
   },
   "remaining": [
     {
       "id": "daangnpay",
       "name_ko": "당근페이",
-      "status": "vector-wanted",
+      "status": "published-png-svg-wanted",
       "source": "https://www.daangnpay.com/",
-      "note": "Official logo PNGs downloaded; Wix inline SVG is an unrelated UI icon."
+      "note": "2026-10-11 사용자 요청으로 공식 PNG 우선 서비스 등록 완료; 공식 SVG 원본 추가 수집 대상"
     },
     {
       "id": "coupangpay",
       "name_ko": "쿠팡페이",
-      "status": "vector-wanted",
+      "status": "published-png-svg-wanted",
       "source": "https://www.coupangpay.com/",
-      "note": "Official CSS contains original 260x40 PNG; decoded without alteration."
+      "note": "2026-10-11 사용자 요청으로 공식 PNG 우선 서비스 등록 완료; 공식 SVG 원본 추가 수집 대상"
     },
     {
       "id": "gmoneytrans",
       "name_ko": "지머니트랜스",
-      "status": "vector-wanted",
+      "status": "published-png-svg-wanted",
       "source": "https://gmoneytrans.com/",
-      "note": "Official header/footer PNGs downloaded through official browser page; no company SVG in observed assets."
+      "note": "2026-10-11 사용자 요청으로 공식 PNG 우선 서비스 등록 완료; 공식 SVG 원본 추가 수집 대상"
     }
   ],
   "identity-preflight": [

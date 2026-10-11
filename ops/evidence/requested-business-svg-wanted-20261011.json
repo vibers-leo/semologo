@@ -1,0 +1,23 @@
+[
+  {
+    "id": "daangnpay",
+    "name_ko": "당근페이",
+    "status": "published-png-svg-wanted",
+    "source": "https://www.daangnpay.com/",
+    "note": "2026-10-11 사용자 요청으로 공식 PNG 우선 서비스 등록 완료; 공식 SVG 원본 추가 수집 대상"
+  },
+  {
+    "id": "coupangpay",
+    "name_ko": "쿠팡페이",
+    "status": "published-png-svg-wanted",
+    "source": "https://www.coupangpay.com/",
+    "note": "2026-10-11 사용자 요청으로 공식 PNG 우선 서비스 등록 완료; 공식 SVG 원본 추가 수집 대상"
+  },
+  {
+    "id": "gmoneytrans",
+    "name_ko": "지머니트랜스",
+    "status": "published-png-svg-wanted",
+    "source": "https://gmoneytrans.com/",
+    "note": "2026-10-11 사용자 요청으로 공식 PNG 우선 서비스 등록 완료; 공식 SVG 원본 추가 수집 대상"
+  }
+]
