@@ -19,10 +19,12 @@ for bid,meta in data['meta'].items():
  for row in [r for r in data['rows'] if r['id']==bid]:
   files={ext:obj(bid,R/row[ext]) for ext in ['svg','png']}
   if bid=='jbbank':files['zip']=obj(bid,D/bid/'original.zip');files['ai']=obj(bid,D/bid/'original-0.ai')
+  if bid=='gsretail':files['zip']=obj(bid,D/bid/'original.zip');files['ai']=obj(bid,D/bid/'original.ai')
   if bid=='sk-securities':files['zip']=obj(bid,D/bid/'secondary-original.zip')
-  variants.append({'key':row['key'],'label':row['label'],'form':'symbol' if row['key']=='symbol' else 'vertical' if 'vertical' in row['key'] else 'horizontal','lang':'ko','color':'white' if bid=='roumit' else 'color','files':files,'preview_png':files['png'],'provider':row.get('provider','official-site'),'source_url':row['source_url'],'source_note':row.get('source_note','공식 원본 벡터 추출 · 투명 PNG 1600px · 육안 검수'),'order':10+len(variants)})
+  variants.append({'key':row['key'],'label':row['label'],'form':'symbol' if row['key']=='symbol' else 'vertical' if 'vertical' in row['key'] else 'horizontal','lang':'en' if row['key'].endswith('-en') else 'ko','color':'white' if bid=='roumit' else 'color','files':files,'preview_png':files['png'],'provider':row.get('provider','official-site'),'source_url':row['source_url'],'source_note':row.get('source_note','공식 원본 벡터 추출 · 투명 PNG 1600px · 육안 검수'),'order':10+len(variants)})
  v=variants[0];patch={'id':bid,'name_ko':meta[0],'name_en':meta[1],'category':meta[2],'origin':'KR','website':meta[3],'official_source_page':meta[3],'logo_svg':v['files']['svg'],'svg_transparent':v['files']['svg'],'logo_png':v['files']['png'],'preview_png':CDN+'/'+bid+'/'+v['files']['png'],'has_svg':True,'has_png':True,'light':bid=='roumit','light_logo':bid=='roumit','dark_variant':False,'added_at':'2026-10-11','logo_published_at':'2026-10-11T07:00:00Z','variants_n':len(variants),'aliases':[meta[0],meta[1]],'asset_origin':'공식 홈페이지 원본 벡터','asset_review_status':'verified','rejected_asset_files':['logo.svg','logo.png','logo-800.png','logo-icon.png','logo-transparent.png','logo-white.png']}
  if bid=='jbbank':patch.update(source_zip=v['files']['zip'],source_ai=v['files']['ai'],icon_png=variants[-1]['files']['png'],aliases=['전북은행','JB전북은행','JB Bank','Jeonbuk Bank'])
+ if bid=='gsretail':patch.update(source_zip=v['files']['zip'],source_ai=v['files']['ai'])
  if bid=='sk-securities':patch.update(asset_origin='출처 표기 공개 EPS · 공식 홈페이지 형태 대조',source_zip=v['files']['zip'])
  release['patches'][bid]=patch;release['variants'][bid]={'schema':1,'algo_v':1,'id':bid,'primary':v['key'],'variants':variants}
 # Refuse all pre-existing IDs, including hidden or merged records, before uploading.

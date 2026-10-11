@@ -250,6 +250,43 @@
         "logo-white.png"
       ],
       "source_zip": "sources/requested-business-20261011/1923c50dabe6d977d285.zip"
+    },
+    "gsretail": {
+      "id": "gsretail",
+      "name_ko": "GS리테일",
+      "name_en": "GS Retail",
+      "category": "유통·쇼핑",
+      "origin": "KR",
+      "website": "https://hpsimg.gsretail.com/gsretail/en/intro/ci-bi",
+      "official_source_page": "https://hpsimg.gsretail.com/gsretail/en/intro/ci-bi",
+      "logo_svg": "sources/requested-business-20261011/892b3ae7bb059474fd20.svg",
+      "svg_transparent": "sources/requested-business-20261011/892b3ae7bb059474fd20.svg",
+      "logo_png": "sources/requested-business-20261011/f33bbe4fd4c974484705.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/gsretail/sources/requested-business-20261011/f33bbe4fd4c974484705.png",
+      "has_svg": true,
+      "has_png": true,
+      "light": false,
+      "light_logo": false,
+      "dark_variant": false,
+      "added_at": "2026-10-11",
+      "logo_published_at": "2026-10-11T07:00:00Z",
+      "variants_n": 2,
+      "aliases": [
+        "GS리테일",
+        "GS Retail"
+      ],
+      "asset_origin": "공식 홈페이지 원본 벡터",
+      "asset_review_status": "verified",
+      "rejected_asset_files": [
+        "logo.svg",
+        "logo.png",
+        "logo-800.png",
+        "logo-icon.png",
+        "logo-transparent.png",
+        "logo-white.png"
+      ],
+      "source_zip": "sources/requested-business-20261011/eeb3e3c821c979863f41.zip",
+      "source_ai": "sources/requested-business-20261011/9a3924f1f2576eed3b44.ai"
     }
   },
   "variants": {
@@ -462,7 +499,7 @@
           "key": "secondary-en",
           "label": "영문 조합 · 출처 표기 수집본",
           "form": "horizontal",
-          "lang": "ko",
+          "lang": "en",
           "color": "color",
           "files": {
             "svg": "sources/requested-business-20261011/ce519f0f1633a3c6c896.svg",
@@ -473,6 +510,50 @@
           "provider": "attributed-secondary-source",
           "source_url": "https://muesign.tistory.com/152",
           "source_note": "ILUO 공개 EPS 수집본 · 공식 SK증권 홈페이지 로고와 형태 대조 · 공식 배포 파일로 단정하지 않음",
+          "order": 11
+        }
+      ]
+    },
+    "gsretail": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "gsretail",
+      "primary": "official-ko",
+      "variants": [
+        {
+          "key": "official-ko",
+          "label": "국문 가로 조합",
+          "form": "horizontal",
+          "lang": "ko",
+          "color": "color",
+          "files": {
+            "svg": "sources/requested-business-20261011/892b3ae7bb059474fd20.svg",
+            "png": "sources/requested-business-20261011/f33bbe4fd4c974484705.png",
+            "zip": "sources/requested-business-20261011/eeb3e3c821c979863f41.zip",
+            "ai": "sources/requested-business-20261011/9a3924f1f2576eed3b44.ai"
+          },
+          "preview_png": "sources/requested-business-20261011/f33bbe4fd4c974484705.png",
+          "provider": "official-site",
+          "source_url": "https://hpimg.gsretail.com/_ui/desktop/common/docs/GS+CIBI.zip",
+          "source_note": "공식 원본 벡터 추출 · 투명 PNG 1600px · 육안 검수",
+          "order": 10
+        },
+        {
+          "key": "official-en",
+          "label": "영문 가로 조합",
+          "form": "horizontal",
+          "lang": "en",
+          "color": "color",
+          "files": {
+            "svg": "sources/requested-business-20261011/94d5e2f347d9e8f06526.svg",
+            "png": "sources/requested-business-20261011/3427f129e89fb398cfad.png",
+            "zip": "sources/requested-business-20261011/eeb3e3c821c979863f41.zip",
+            "ai": "sources/requested-business-20261011/9a3924f1f2576eed3b44.ai"
+          },
+          "preview_png": "sources/requested-business-20261011/3427f129e89fb398cfad.png",
+          "provider": "official-site",
+          "source_url": "https://hpimg.gsretail.com/_ui/desktop/common/docs/GS+CIBI.zip",
+          "source_note": "공식 원본 벡터 추출 · 투명 PNG 1600px · 육안 검수",
           "order": 11
         }
       ]

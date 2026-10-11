@@ -42,6 +42,12 @@
         "SK Securities",
         "금융·결제",
         "https://www.sks.co.kr/main/index.cmd"
+      ],
+      "gsretail": [
+        "GS리테일",
+        "GS Retail",
+        "유통·쇼핑",
+        "https://hpsimg.gsretail.com/gsretail/en/intro/ci-bi"
       ]
     },
     "rows": [
@@ -148,6 +154,26 @@
         "visual_review": "pass",
         "provider": "attributed-secondary-source",
         "source_note": "ILUO 공개 EPS 수집본 · 공식 SK증권 홈페이지 로고와 형태 대조 · 공식 배포 파일로 단정하지 않음"
+      },
+      {
+        "id": "gsretail",
+        "key": "official-ko",
+        "label": "국문 가로 조합",
+        "svg": "marketing/assets/requested-finance-business-20261011/gsretail/reviewed/ko/logo.svg",
+        "png": "marketing/assets/requested-finance-business-20261011/gsretail/reviewed/ko/logo.png",
+        "source_url": "https://hpimg.gsretail.com/_ui/desktop/common/docs/GS+CIBI.zip",
+        "sha256": "892b3ae7bb059474fd208d4586a02b426e2e70a85fa2c8e6ecda810e4acdd77e",
+        "visual_review": "pass"
+      },
+      {
+        "id": "gsretail",
+        "key": "official-en",
+        "label": "영문 가로 조합",
+        "svg": "marketing/assets/requested-finance-business-20261011/gsretail/reviewed/en/logo.svg",
+        "png": "marketing/assets/requested-finance-business-20261011/gsretail/reviewed/en/logo.png",
+        "source_url": "https://hpimg.gsretail.com/_ui/desktop/common/docs/GS+CIBI.zip",
+        "sha256": "94d5e2f347d9e8f0652618f1db941a5ba1e0420126ca4c145993c3e9e9bdcc07",
+        "visual_review": "pass"
       }
     ]
   },
@@ -289,6 +315,42 @@
       "key": "_clients/sk-securities/sources/requested-business-20261011/a68f8aadfcf5d9385662.png",
       "file": "marketing/assets/requested-finance-business-20261011/sk-securities/reviewed/en/logo.png",
       "sha256": "a68f8aadfcf5d9385662f73cbc4ed023484b89ac20960c38c43f079cd9ea1a55"
+    },
+    {
+      "id": "gsretail",
+      "key": "_clients/gsretail/sources/requested-business-20261011/892b3ae7bb059474fd20.svg",
+      "file": "marketing/assets/requested-finance-business-20261011/gsretail/reviewed/ko/logo.svg",
+      "sha256": "892b3ae7bb059474fd208d4586a02b426e2e70a85fa2c8e6ecda810e4acdd77e"
+    },
+    {
+      "id": "gsretail",
+      "key": "_clients/gsretail/sources/requested-business-20261011/f33bbe4fd4c974484705.png",
+      "file": "marketing/assets/requested-finance-business-20261011/gsretail/reviewed/ko/logo.png",
+      "sha256": "f33bbe4fd4c9744847055e5144eea1cc667e5e5c17a8c334941c639a7ae74a56"
+    },
+    {
+      "id": "gsretail",
+      "key": "_clients/gsretail/sources/requested-business-20261011/eeb3e3c821c979863f41.zip",
+      "file": "marketing/assets/requested-finance-business-20261011/gsretail/original.zip",
+      "sha256": "eeb3e3c821c979863f41f0cfc7dffbee0aa9156881d84d66ffcb667913c6d5b5"
+    },
+    {
+      "id": "gsretail",
+      "key": "_clients/gsretail/sources/requested-business-20261011/9a3924f1f2576eed3b44.ai",
+      "file": "marketing/assets/requested-finance-business-20261011/gsretail/original.ai",
+      "sha256": "9a3924f1f2576eed3b4405efd7c75ad32de61af128b6868bb238cbc875a7eb7d"
+    },
+    {
+      "id": "gsretail",
+      "key": "_clients/gsretail/sources/requested-business-20261011/94d5e2f347d9e8f06526.svg",
+      "file": "marketing/assets/requested-finance-business-20261011/gsretail/reviewed/en/logo.svg",
+      "sha256": "94d5e2f347d9e8f0652618f1db941a5ba1e0420126ca4c145993c3e9e9bdcc07"
+    },
+    {
+      "id": "gsretail",
+      "key": "_clients/gsretail/sources/requested-business-20261011/3427f129e89fb398cfad.png",
+      "file": "marketing/assets/requested-finance-business-20261011/gsretail/reviewed/en/logo.png",
+      "sha256": "3427f129e89fb398cfad6e2e6ee536f42578785f3d1d20bd264287aba0c16d60"
     }
   ],
   "published": {
@@ -300,17 +362,18 @@
       "firfin",
       "nicednr",
       "shinhan-securities",
-      "sk-securities"
+      "sk-securities",
+      "gsretail"
     ],
-    "objects": 23,
-    "variants": 10
+    "objects": 29,
+    "variants": 12
   },
   "remaining": [
     {
       "id": "woowa",
       "name_ko": "우아한형제들",
-      "status": "existing-published-identity",
-      "note": "Public search omitted existing woowa; do not duplicate."
+      "status": "legacy-hidden-vector-wanted",
+      "note": "Existing woowa record is legacy, metadata.hidden=true and has_svg=false. Preserve canonical identity; it is not currently a public completed logo."
     },
     {
       "id": "daangnpay",
@@ -325,13 +388,6 @@
       "status": "vector-wanted",
       "source": "https://www.coupangpay.com/",
       "note": "Official CSS contains original 260x40 PNG; decoded without alteration."
-    },
-    {
-      "id": "gsretail",
-      "name_ko": "GS리테일",
-      "status": "vector-wanted",
-      "source": "https://hpsimg.gsretail.com/gsretail/en/intro/ci-bi",
-      "note": "Official ZIP and AI downloaded. PDF-compatible AI contains raster/inline image strips in symbol; do not publish as pure SVG."
     },
     {
       "id": "bizentro",
