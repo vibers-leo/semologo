@@ -15,3 +15,5 @@ Evidence: `extracted.json`, `uploads.json`, `published.json`, `identity-prefligh
 Operational value: ten usable search results now; original archives and the three precise source/quality blockers remain the supporting 10% for future collection follow-up.
 
 GS Retail extraction correction: PyMuPDF renders PDF shading as image strips during SVG export; raw PDF inspection found 21 `sh` operations, seven shading resources and zero inline BI images. Poppler import preserved 21 vector gradients; only two actual raster grid images were removed. Both signatures passed visual review with zero image elements.
+
+Production validation: commit f470d18 deployed; all 10 Korean-name catalog queries include the canonical ID, all 10 detail pages return HTTP 200 with the expected immutable representative PNG path. Evidence: ops/evidence/requested-business-front-20261011.json (all_pass=true).
