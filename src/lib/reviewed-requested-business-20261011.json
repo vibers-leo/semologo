@@ -287,6 +287,78 @@
       ],
       "source_zip": "sources/requested-business-20261011/eeb3e3c821c979863f41.zip",
       "source_ai": "sources/requested-business-20261011/9a3924f1f2576eed3b44.ai"
+    },
+    "woowa": {
+      "id": "woowa",
+      "name_ko": "우아한형제들",
+      "name_en": "Woowa Brothers",
+      "origin": "KR",
+      "category": "IT·테크",
+      "website": "https://www.woowahan.com/",
+      "official_source_page": "https://www.woowahan.com/",
+      "logo_svg": "sources/requested-business-20261011/11bec18009fe5d024423.svg",
+      "svg_transparent": "sources/requested-business-20261011/11bec18009fe5d024423.svg",
+      "logo_png": "sources/requested-business-20261011/e4056bc0ddea12118db1.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/woowa/sources/requested-business-20261011/e4056bc0ddea12118db1.png",
+      "has_svg": true,
+      "has_png": true,
+      "hidden": false,
+      "light": false,
+      "light_logo": false,
+      "aliases": [
+        "우아한형제들",
+        "Woowa Brothers",
+        "WOOWA BROS",
+        "우아한 형제들"
+      ],
+      "asset_review_status": "verified",
+      "asset_origin": "공식 홈페이지 원본 벡터",
+      "variants_n": 2,
+      "rejected_asset_files": [
+        "logo.svg",
+        "logo.png",
+        "logo-800.png",
+        "logo-icon.png",
+        "logo-transparent.png",
+        "logo-white.png"
+      ]
+    },
+    "bizentro": {
+      "id": "bizentro",
+      "name_ko": "비젠트로",
+      "name_en": "BIZENTRO",
+      "category": "IT·테크",
+      "origin": "KR",
+      "website": "http://www.bizentro.com/s5/s5_5.do?lang=",
+      "official_source_page": "http://www.bizentro.com/s5/s5_5.do?lang=",
+      "logo_svg": "sources/requested-business-20261011/72e5f5b5e0151fb7c2e1.svg",
+      "svg_transparent": "sources/requested-business-20261011/72e5f5b5e0151fb7c2e1.svg",
+      "logo_png": "sources/requested-business-20261011/83415c8b710f9e12524f.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/bizentro/sources/requested-business-20261011/83415c8b710f9e12524f.png",
+      "has_svg": true,
+      "has_png": true,
+      "light": false,
+      "light_logo": false,
+      "dark_variant": false,
+      "added_at": "2026-10-11",
+      "logo_published_at": "2026-10-11T07:00:00Z",
+      "variants_n": 2,
+      "aliases": [
+        "비젠트로",
+        "BIZENTRO"
+      ],
+      "asset_origin": "공식 홈페이지 원본 벡터",
+      "asset_review_status": "verified",
+      "rejected_asset_files": [
+        "logo.svg",
+        "logo.png",
+        "logo-800.png",
+        "logo-icon.png",
+        "logo-transparent.png",
+        "logo-white.png"
+      ],
+      "source_zip": "sources/requested-business-20261011/cc502202e05fbb50048b.zip",
+      "source_ai": "sources/requested-business-20261011/d13a6cf042957ecf3ebf.ai"
     }
   },
   "variants": {
@@ -554,6 +626,90 @@
           "provider": "official-site",
           "source_url": "https://hpimg.gsretail.com/_ui/desktop/common/docs/GS+CIBI.zip",
           "source_note": "공식 원본 벡터 추출 · 투명 PNG 1600px · 육안 검수",
+          "order": 11
+        }
+      ]
+    },
+    "woowa": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "woowa",
+      "primary": "official-ko",
+      "variants": [
+        {
+          "key": "official-ko",
+          "label": "공식 한글 로고",
+          "form": "horizontal",
+          "lang": "ko",
+          "color": "color",
+          "files": {
+            "svg": "sources/requested-business-20261011/11bec18009fe5d024423.svg",
+            "png": "sources/requested-business-20261011/e4056bc0ddea12118db1.png"
+          },
+          "preview_png": "sources/requested-business-20261011/e4056bc0ddea12118db1.png",
+          "provider": "official-site",
+          "source_url": "https://www.woowahan.com/",
+          "source_note": "공식 홈페이지 SVG 원본 경로 추출 · 흰 글자와 검정 그림자 보존 · 투명 PNG 1600px 육안 검수",
+          "order": 10
+        },
+        {
+          "key": "official-en",
+          "label": "공식 영문 로고",
+          "form": "horizontal",
+          "lang": "en",
+          "color": "color",
+          "files": {
+            "svg": "sources/requested-business-20261011/c629a984c9abb77ae29a.svg",
+            "png": "sources/requested-business-20261011/f43eb07a75b3228e0ecb.png"
+          },
+          "preview_png": "sources/requested-business-20261011/f43eb07a75b3228e0ecb.png",
+          "provider": "official-site",
+          "source_url": "https://www.woowahan.com/",
+          "source_note": "공식 홈페이지 SVG 원본 경로 추출 · 흰 글자와 검정 그림자 보존 · 투명 PNG 1600px 육안 검수",
+          "order": 11
+        }
+      ]
+    },
+    "bizentro": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "bizentro",
+      "primary": "official-en",
+      "variants": [
+        {
+          "key": "official-en",
+          "label": "영문 공식 시그니처",
+          "form": "horizontal",
+          "lang": "en",
+          "color": "color",
+          "files": {
+            "svg": "sources/requested-business-20261011/72e5f5b5e0151fb7c2e1.svg",
+            "png": "sources/requested-business-20261011/83415c8b710f9e12524f.png",
+            "zip": "sources/requested-business-20261011/cc502202e05fbb50048b.zip",
+            "ai": "sources/requested-business-20261011/d13a6cf042957ecf3ebf.ai"
+          },
+          "preview_png": "sources/requested-business-20261011/83415c8b710f9e12524f.png",
+          "provider": "official-site",
+          "source_url": "http://www.bizentro.com/theme/bize/images/pdf/Bizentro_ci.ai",
+          "source_note": "공식 AI 원본 벡터 · Poppler 색상 변환 · 투명 PNG 1600px · 가이드 제외 육안 검수",
+          "order": 10
+        },
+        {
+          "key": "official-ko",
+          "label": "국문 공식 시그니처",
+          "form": "horizontal",
+          "lang": "ko",
+          "color": "color",
+          "files": {
+            "svg": "sources/requested-business-20261011/75f032f645c866eda35f.svg",
+            "png": "sources/requested-business-20261011/8cf3c9e1208a45a38082.png",
+            "zip": "sources/requested-business-20261011/cc502202e05fbb50048b.zip",
+            "ai": "sources/requested-business-20261011/d13a6cf042957ecf3ebf.ai"
+          },
+          "preview_png": "sources/requested-business-20261011/8cf3c9e1208a45a38082.png",
+          "provider": "official-site",
+          "source_url": "http://www.bizentro.com/theme/bize/images/pdf/Bizentro_ci.ai",
+          "source_note": "공식 AI 원본 벡터 · Poppler 색상 변환 · 투명 PNG 1600px · 가이드 제외 육안 검수",
           "order": 11
         }
       ]

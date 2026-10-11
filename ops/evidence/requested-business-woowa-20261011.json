@@ -1,0 +1,51 @@
+{
+  "provenance": {
+    "page": "https://www.woowahan.com/",
+    "observed": "2026-10-11",
+    "method": "Exact path/fill attributes extracted from official Vue SVG module; browser DOM checked; no tracing or embedded bitmap",
+    "sources": [
+      "https://woowahan-cdn.woowahan.com/static/js/chunk-98f3ab06.0cfce595.js",
+      "https://woowahan-cdn.woowahan.com/static/js/chunk-2f732b6b.0f8f24c4.js"
+    ]
+  },
+  "before": [
+    {
+      "payload": {
+        "id": "woowa",
+        "tags": null,
+        "origin": null,
+        "status": "published",
+        "name_en": "우아한형제들",
+        "name_ko": "우아한형제들",
+        "sources": null,
+        "website": null,
+        "category": "IT·테크",
+        "logo_png": null,
+        "logo_svg": null,
+        "metadata": {
+          "seq": 848,
+          "hidden": true,
+          "has_png": true,
+          "has_svg": false,
+          "added_at": "2026-07-27"
+        },
+        "created_at": "2026-07-27",
+        "updated_at": "2026-07-27",
+        "related_ids": null,
+        "asset_origin": null,
+        "legacy_source": "/Volumes/Untitled/brand-logos/_clients/brands-slim.json",
+        "asset_review_status": "legacy-unreviewed",
+        "official_source_page": null
+      },
+      "status": "published",
+      "version_id": "woowa-242f4aa809c1efa8801b0df22daa50df",
+      "asset_manifest": null
+    }
+  ],
+  "published": {
+    "id": "woowa",
+    "objects": 4,
+    "variants": 2,
+    "status": "legacy-record-preserved-official-vector-reviewed-cdn-verified"
+  }
+}

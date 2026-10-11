@@ -48,6 +48,12 @@
         "GS Retail",
         "유통·쇼핑",
         "https://hpsimg.gsretail.com/gsretail/en/intro/ci-bi"
+      ],
+      "bizentro": [
+        "비젠트로",
+        "BIZENTRO",
+        "IT·테크",
+        "http://www.bizentro.com/s5/s5_5.do?lang="
       ]
     },
     "rows": [
@@ -173,6 +179,28 @@
         "png": "marketing/assets/requested-finance-business-20261011/gsretail/reviewed/en/logo.png",
         "source_url": "https://hpimg.gsretail.com/_ui/desktop/common/docs/GS+CIBI.zip",
         "sha256": "94d5e2f347d9e8f0652618f1db941a5ba1e0420126ca4c145993c3e9e9bdcc07",
+        "visual_review": "pass"
+      },
+      {
+        "id": "bizentro",
+        "key": "official-en",
+        "label": "영문 공식 시그니처",
+        "svg": "marketing/assets/requested-finance-business-20261011/bizentro/official-en.svg",
+        "png": "marketing/assets/requested-finance-business-20261011/bizentro/official-en.png",
+        "source_url": "http://www.bizentro.com/theme/bize/images/pdf/Bizentro_ci.ai",
+        "source_note": "공식 AI 원본 벡터 · Poppler 색상 변환 · 투명 PNG 1600px · 가이드 제외 육안 검수",
+        "sha256": "72e5f5b5e0151fb7c2e16e8c6552d44d5e76c2ec647e71fce54e174d16299846",
+        "visual_review": "pass"
+      },
+      {
+        "id": "bizentro",
+        "key": "official-ko",
+        "label": "국문 공식 시그니처",
+        "svg": "marketing/assets/requested-finance-business-20261011/bizentro/official-ko.svg",
+        "png": "marketing/assets/requested-finance-business-20261011/bizentro/official-ko.png",
+        "source_url": "http://www.bizentro.com/theme/bize/images/pdf/Bizentro_ci.ai",
+        "source_note": "공식 AI 원본 벡터 · Poppler 색상 변환 · 투명 PNG 1600px · 가이드 제외 육안 검수",
+        "sha256": "75f032f645c866eda35f21bc1d1f1524e9b1c79841b1db55201ce1e063c1cf11",
         "visual_review": "pass"
       }
     ]
@@ -351,6 +379,66 @@
       "key": "_clients/gsretail/sources/requested-business-20261011/3427f129e89fb398cfad.png",
       "file": "marketing/assets/requested-finance-business-20261011/gsretail/reviewed/en/logo.png",
       "sha256": "3427f129e89fb398cfad6e2e6ee536f42578785f3d1d20bd264287aba0c16d60"
+    },
+    {
+      "id": "woowa",
+      "key": "_clients/woowa/sources/requested-business-20261011/11bec18009fe5d024423.svg",
+      "file": "marketing/assets/requested-finance-business-20261011/woowa/official-ko.svg",
+      "sha256": "11bec18009fe5d024423f368e4f84984a50c2ce8943c47c123b3ca1adbe2f7d4"
+    },
+    {
+      "id": "woowa",
+      "key": "_clients/woowa/sources/requested-business-20261011/e4056bc0ddea12118db1.png",
+      "file": "marketing/assets/requested-finance-business-20261011/woowa/official-ko.png",
+      "sha256": "e4056bc0ddea12118db1f1ae5e3ea7703229ab340a84909c3a86d5497cc18029"
+    },
+    {
+      "id": "woowa",
+      "key": "_clients/woowa/sources/requested-business-20261011/c629a984c9abb77ae29a.svg",
+      "file": "marketing/assets/requested-finance-business-20261011/woowa/official-en.svg",
+      "sha256": "c629a984c9abb77ae29a0518877339bad7aeb7f6cb133c027564dbe4c207eb18"
+    },
+    {
+      "id": "woowa",
+      "key": "_clients/woowa/sources/requested-business-20261011/f43eb07a75b3228e0ecb.png",
+      "file": "marketing/assets/requested-finance-business-20261011/woowa/official-en.png",
+      "sha256": "f43eb07a75b3228e0ecb1836bf93ca5adcf00f38f8464b30a91faeddd43cf17c"
+    },
+    {
+      "id": "bizentro",
+      "key": "_clients/bizentro/sources/requested-business-20261011/72e5f5b5e0151fb7c2e1.svg",
+      "file": "marketing/assets/requested-finance-business-20261011/bizentro/official-en.svg",
+      "sha256": "72e5f5b5e0151fb7c2e16e8c6552d44d5e76c2ec647e71fce54e174d16299846"
+    },
+    {
+      "id": "bizentro",
+      "key": "_clients/bizentro/sources/requested-business-20261011/83415c8b710f9e12524f.png",
+      "file": "marketing/assets/requested-finance-business-20261011/bizentro/official-en.png",
+      "sha256": "83415c8b710f9e12524ffb4ba6aeb8146b230a9e247917c6b2e1c2dfb890bab0"
+    },
+    {
+      "id": "bizentro",
+      "key": "_clients/bizentro/sources/requested-business-20261011/cc502202e05fbb50048b.zip",
+      "file": "marketing/assets/requested-finance-business-20261011/bizentro/original.zip",
+      "sha256": "cc502202e05fbb50048bdb27334579cae3ed65c8eb3e2268af68194d3422c900"
+    },
+    {
+      "id": "bizentro",
+      "key": "_clients/bizentro/sources/requested-business-20261011/d13a6cf042957ecf3ebf.ai",
+      "file": "marketing/assets/requested-finance-business-20261011/bizentro/original.ai",
+      "sha256": "d13a6cf042957ecf3ebf6e351b51be1c851a0de147488b6fb8700409f12484e9"
+    },
+    {
+      "id": "bizentro",
+      "key": "_clients/bizentro/sources/requested-business-20261011/75f032f645c866eda35f.svg",
+      "file": "marketing/assets/requested-finance-business-20261011/bizentro/official-ko.svg",
+      "sha256": "75f032f645c866eda35f21bc1d1f1524e9b1c79841b1db55201ce1e063c1cf11"
+    },
+    {
+      "id": "bizentro",
+      "key": "_clients/bizentro/sources/requested-business-20261011/8cf3c9e1208a45a38082.png",
+      "file": "marketing/assets/requested-finance-business-20261011/bizentro/official-ko.png",
+      "sha256": "8cf3c9e1208a45a38082f35b3e34dbaf99f513561c26db57917ff755aed5966f"
     }
   ],
   "published": {
@@ -363,18 +451,14 @@
       "nicednr",
       "shinhan-securities",
       "sk-securities",
-      "gsretail"
+      "gsretail",
+      "woowa",
+      "bizentro"
     ],
-    "objects": 29,
-    "variants": 12
+    "objects": 39,
+    "variants": 16
   },
   "remaining": [
-    {
-      "id": "woowa",
-      "name_ko": "우아한형제들",
-      "status": "legacy-hidden-vector-wanted",
-      "note": "Existing woowa record is legacy, metadata.hidden=true and has_svg=false. Preserve canonical identity; it is not currently a public completed logo."
-    },
     {
       "id": "daangnpay",
       "name_ko": "당근페이",
@@ -390,21 +474,11 @@
       "note": "Official CSS contains original 260x40 PNG; decoded without alteration."
     },
     {
-      "id": "bizentro",
-      "name_ko": "비젠트로",
-      "aliases": [
-        "비즈엔트로"
-      ],
-      "status": "vector-wanted",
-      "source": "https://cdn.ems.coex.co.kr/event/1009/%4020261009/board/2025%20BIZENTRO_%ED%9A%8C%EC%82%AC%20%EC%86%8C%EA%B0%9C%EC%84%9C_%20%281%29.pdf",
-      "note": "Company-authored 2025 brochure downloaded from exhibition host. Logo is embedded raster (210x57); main company site timed out/403."
-    },
-    {
       "id": "gmoneytrans",
       "name_ko": "지머니트랜스",
-      "status": "source-access-and-vector-wanted",
+      "status": "vector-wanted",
       "source": "https://gmoneytrans.com/",
-      "note": "Official company identity and logo PNG URL confirmed via web source; local HTML/image download blocked by WAF 403. Do not treat firewall PNG as logo."
+      "note": "Official header/footer PNGs downloaded through official browser page; no company SVG in observed assets."
     }
   ],
   "identity-preflight": [

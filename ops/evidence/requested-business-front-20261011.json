@@ -1,0 +1,86 @@
+{
+  "checked_at": "2026-10-11T07:30:45.007811+00:00",
+  "rows": [
+    {
+      "id": "jbbank",
+      "search_http": 200,
+      "search_contains_id": true,
+      "detail_http": 200,
+      "representative_path_present": true,
+      "expected_variants": 3
+    },
+    {
+      "id": "unipost",
+      "search_http": 200,
+      "search_contains_id": true,
+      "detail_http": 200,
+      "representative_path_present": true,
+      "expected_variants": 1
+    },
+    {
+      "id": "roumit",
+      "search_http": 200,
+      "search_contains_id": true,
+      "detail_http": 200,
+      "representative_path_present": true,
+      "expected_variants": 1
+    },
+    {
+      "id": "firfin",
+      "search_http": 200,
+      "search_contains_id": true,
+      "detail_http": 200,
+      "representative_path_present": true,
+      "expected_variants": 1
+    },
+    {
+      "id": "nicednr",
+      "search_http": 200,
+      "search_contains_id": true,
+      "detail_http": 200,
+      "representative_path_present": true,
+      "expected_variants": 1
+    },
+    {
+      "id": "shinhan-securities",
+      "search_http": 200,
+      "search_contains_id": true,
+      "detail_http": 200,
+      "representative_path_present": true,
+      "expected_variants": 1
+    },
+    {
+      "id": "sk-securities",
+      "search_http": 200,
+      "search_contains_id": true,
+      "detail_http": 200,
+      "representative_path_present": true,
+      "expected_variants": 2
+    },
+    {
+      "id": "gsretail",
+      "search_http": 200,
+      "search_contains_id": true,
+      "detail_http": 200,
+      "representative_path_present": true,
+      "expected_variants": 2
+    },
+    {
+      "id": "woowa",
+      "search_http": 200,
+      "search_contains_id": false,
+      "detail_http": 200,
+      "representative_path_present": true,
+      "expected_variants": 2
+    },
+    {
+      "id": "bizentro",
+      "search_http": 200,
+      "search_contains_id": true,
+      "detail_http": 200,
+      "representative_path_present": true,
+      "expected_variants": 2
+    }
+  ],
+  "all_pass": false
+}

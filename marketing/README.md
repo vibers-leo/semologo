@@ -110,3 +110,5 @@
 - 2026-10-11 스포츠 첫 배포 묶음: KT·FC서울·NBA2·KOVO2 기존6팀/12변형/39객체 CDN·CMS 검증, FC서울 대표 정정. 원본과 QA는 marketing/assets 스포츠 배치, 범위·후속은 ops/sports-collection-20261011.md.
 
 - 2026-10-11 사용자 10/18 글로벌 선두권 목표 접수. ops/global-leadership-sprint-20261011.md에 품질·완결세트·로고월·해외유입·광고5서비스 공식근거·세모위키7주제/첫편 구조 기록, 기존 추적표 G01~G08 연결. 광고가입/영상발행/세계순위달성은 미실행.
+
+- 2026-10-11: 요청 금융·기업 13곳 중 10곳/16개 SVG·투명 PNG 반영. 우아한형제들 기존 ID 복구, 비젠트로 공식 AI/ZIP 보존. 근거: ops/requested-business-collection-20261011.md.
