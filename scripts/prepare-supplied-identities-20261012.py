@@ -105,6 +105,8 @@ for bid,rows in groups.items():
             logo_published_at='2026-10-11T23:00:00Z',source_ai=orig['ai'])
  if 'zip' in orig:patch['source_zip']=orig['zip']
  if bid=='gongu-ci-1368':patch['icon_png']=next(v['files']['png'] for v in rows if v['form']=='symbol')
+ if bid=='snuh' and 'svg' not in main['files']:
+  patch.update(logo_svg=old[bid]['payload']['svg_transparent'],svg_transparent=old[bid]['payload']['svg_transparent'])
  if bid=='zigzag':patch.update(name_en='ZIGZAG',aliases=['지그재그','ZIGZAG','zigzag','카카오스타일 지그재그'])
  release['patches'][bid]=patch;release['variants'][bid]=m
 for name,value in [('release',release),('uploads',uploads)]:
