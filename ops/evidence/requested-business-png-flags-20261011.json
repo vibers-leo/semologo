@@ -1,0 +1,23 @@
+[
+  {
+    "id": "daangnpay",
+    "png_available": true,
+    "svg_available": false,
+    "preview_png": "https://logo.vibers.co.kr/_clients/daangnpay/sources/requested-business-20261011/475e6fce1d4ebc64c19a.png",
+    "pass": true
+  },
+  {
+    "id": "coupangpay",
+    "png_available": true,
+    "svg_available": false,
+    "preview_png": "https://logo.vibers.co.kr/_clients/coupangpay/sources/requested-business-20261011/f8a74a27383ebc8268dd.png",
+    "pass": true
+  },
+  {
+    "id": "gmoneytrans",
+    "png_available": true,
+    "svg_available": false,
+    "preview_png": "https://logo.vibers.co.kr/_clients/gmoneytrans/sources/requested-business-20261011/a4457887257eedbc5a06.png",
+    "pass": true
+  }
+]
