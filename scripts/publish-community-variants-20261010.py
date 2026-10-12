@@ -21,7 +21,7 @@ def publish(row):
   s3.put_object(Bucket='vibers-bucket',Key=row['key'],Body=raw,ACL='public-read',ContentType=mimetypes.guess_type(row['file'])[0] or 'application/octet-stream',CacheControl='public,max-age=31536000,immutable')
  assert s3.get_object(Bucket='vibers-bucket',Key=row['key'])['Body'].read()==raw
  url='https://logo.vibers.co.kr/'+urllib.parse.quote(row['key'],safe='/')
- assert subprocess.run(['curl','--fail','--silent','--show-error','--max-time','40',url],capture_output=True,check=True).stdout==raw
+ assert subprocess.run(['curl','--http1.1','--retry','2','--retry-delay','1','--fail','--silent','--show-error','--max-time','40',url],capture_output=True,check=True).stdout==raw
  return {'key':row['key'],'sha256':row['sha256'],'cdn_verified':True}
 with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool:results=list(pool.map(publish,json.loads((folder/'uploads.json').read_text())))
 (folder/'cdn-verification.json').write_text(json.dumps(results,indent=2)+'\n');print('CDN verified',len(results),'objects',flush=True)
@@ -47,6 +47,8 @@ const {Pool}=require('pg');(async()=>{const p=new Pool({connectionString:process
     attachments[field]=file;
    }
    if(attachments.svg_transparent){attachments.has_svg=true;attachments.logo_svg=true;}
+   if(patch.logo_published_at){if(!Number.isFinite(Date.parse(patch.logo_published_at)))throw Error('Invalid publication date '+id);attachments.logo_published_at=patch.logo_published_at;}
+   if(Array.isArray(patch.aliases))attachments.aliases=[...new Set([...(old.rows[0].payload.aliases||[]),...patch.aliases])];
    await d.query("UPDATE semologo.logo_posts SET payload=payload||jsonb_build_object('variants_n',$2::int)||$3::jsonb,updated_at=now() WHERE id=$1",[id,manifest.variants.length,JSON.stringify(attachments)]);
   }else{
    const patch=release.patches[id];if(!patch||patch.id!==id||!patch.name_ko||!patch.category||!patch.has_png)throw Error('Complete new identity required '+id);

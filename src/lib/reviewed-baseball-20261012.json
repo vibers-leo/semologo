@@ -1,0 +1,2458 @@
+{
+  "patches": {
+    "oakland-athletics": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-12T09:42:52.184429+00:00",
+      "aliases": [
+        "Athletics",
+        "애슬레틱스",
+        "MLB",
+        "메이저리그"
+      ]
+    },
+    "pittsburgh-pirates": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-12T09:42:50.985937+00:00",
+      "aliases": [
+        "Bucs",
+        "Buccos",
+        "Pirates",
+        "피츠버그 파이러츠",
+        "Alleghenys",
+        "피츠버그 파이어리츠",
+        "Pittsburg Pirates",
+        "Pittsburgh Alleghenys",
+        "Pittsburgh Pirates",
+        "피츠버그 파이리츠",
+        "MLB",
+        "메이저리그"
+      ]
+    },
+    "san-diego-padres": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-12T09:42:51.796321+00:00",
+      "aliases": [
+        "San Diego Padres",
+        "샌디에이고 파드리스",
+        "MLB",
+        "메이저리그"
+      ]
+    },
+    "seattle-mariners": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-12T09:42:52.182755+00:00",
+      "aliases": [
+        "Seattle Mariners",
+        "시애틀 매리너스",
+        "MLB",
+        "메이저리그"
+      ]
+    },
+    "san-francisco-giants": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-12T09:42:52.324186+00:00",
+      "aliases": [
+        "SFG",
+        "Giants",
+        "뉴욕 자이언츠",
+        "Gothams",
+        "SF Giants",
+        "New York Giants",
+        "New York Gothams",
+        "San Francisco Giants",
+        "샌프란시스코 자이언츠",
+        "MLB",
+        "메이저리그"
+      ]
+    },
+    "st-louis-cardinals": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-12T09:42:53.701315+00:00",
+      "aliases": [
+        "St. Louis Cardinals",
+        "세인트루이스 카디널스",
+        "MLB",
+        "메이저리그"
+      ]
+    },
+    "tampa-bay-rays": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-12T09:42:53.108547+00:00",
+      "aliases": [
+        "TBR",
+        "Rays",
+        "탬파 베이 레이스",
+        "Devil Rays",
+        "탬파베이 데빌레이스",
+        "Tampa Rays",
+        "탬파베이 데블레이스",
+        "탬파베이 데블 레이스",
+        "탬파베이 데빌 레이스",
+        "Tampa Bay Devil Rays",
+        "Tampa Bay Rays",
+        "탬파베이 레이스",
+        "MLB",
+        "메이저리그"
+      ]
+    },
+    "texas-rangers": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-12T09:42:53.167056+00:00",
+      "aliases": [
+        "Rangers",
+        "Senators",
+        "Washington Senators",
+        "Texas Rangers",
+        "텍사스 레인저스",
+        "MLB",
+        "메이저리그"
+      ]
+    },
+    "toronto-blue-jays": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-12T09:42:53.267882+00:00",
+      "aliases": [
+        "TBJ",
+        "Jays",
+        "Bluejays",
+        "Blue Jays",
+        "토론토 블루 제이스",
+        "Toronto Jays",
+        "Toronto Bluejays",
+        "Toronto Blue Jays",
+        "토론토 블루제이스",
+        "MLB",
+        "메이저리그"
+      ]
+    },
+    "minnesota-twins": {
+      "variants_n": 3,
+      "logo_published_at": "2026-10-12T09:42:59.543148+00:00",
+      "aliases": [
+        "Twins",
+        "Senators",
+        "Twinkies",
+        "Washington Senators",
+        "Minnesota Twins",
+        "미네소타 트윈스",
+        "MLB",
+        "메이저리그"
+      ]
+    },
+    "philadelphia-phillies": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-12T09:42:54.379446+00:00",
+      "aliases": [
+        "필리스",
+        "Phils",
+        "Quakers",
+        "Phillies",
+        "Philadelphia Quakers",
+        "Philadelphia Phillies",
+        "필라델피아 필리스",
+        "MLB",
+        "메이저리그"
+      ]
+    },
+    "atlanta-braves": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-12T09:42:55.522214+00:00",
+      "aliases": [
+        "Bees",
+        "Doves",
+        "보스턴 비스",
+        "Braves",
+        "Rustlers",
+        "밀워키 브레이브스",
+        "보스턴 브레이브스",
+        "애틀란타 브레이브스",
+        "Beaneaters",
+        "아틀란타 브레이브스",
+        "Boston Bees",
+        "Boston Doves",
+        "Boston Braves",
+        "Boston Rustlers",
+        "Milwaukee Braves",
+        "Boston Beaneaters",
+        "Boston Red Stockings",
+        "Atlanta Braves",
+        "애틀랜타 브레이브스",
+        "MLB",
+        "메이저리그"
+      ]
+    },
+    "chicago-white-sox": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-12T09:42:54.686644+00:00",
+      "aliases": [
+        "CHW",
+        "ChiSox",
+        "White Sox",
+        "시카고 화이트 삭스",
+        "South Siders",
+        "Chicago White Sox",
+        "시카고 화이트삭스",
+        "MLB",
+        "메이저리그"
+      ]
+    },
+    "miami-marlins-primary-logo-on-light": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-12T09:42:59.898080+00:00",
+      "aliases": [
+        "Miami Marlins",
+        "마이애미 말린스",
+        "MLB",
+        "메이저리그"
+      ]
+    },
+    "new-york-yankees": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-12T09:42:56.310236+00:00",
+      "aliases": [
+        "양키스",
+        "NNY",
+        "양키즈",
+        "NYY",
+        "하이랜더스",
+        "뉴욕 양키",
+        "뉴욕양키스",
+        "뉴욕 양키즈",
+        "NY 양키스",
+        "NY 양키즈",
+        "Yankees",
+        "Bombers",
+        "뉴욕 하이랜더스",
+        "NY Yankees",
+        "Highlanders",
+        "Bronx Bombers",
+        "New York Highlanders",
+        "New York Yankees",
+        "뉴욕 양키스",
+        "MLB",
+        "메이저리그"
+      ]
+    },
+    "milwaukee-brewers": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-12T09:43:01.419391+00:00",
+      "aliases": [
+        "Milwaukee Brewers",
+        "밀워키 브루어스",
+        "MLB",
+        "메이저리그"
+      ]
+    },
+    "los-angeles-angels": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-12T09:42:57.374730+00:00",
+      "aliases": [
+        "LAA",
+        "Angels",
+        "LA 엔젤스",
+        "LA 에인절스",
+        "LA Angels",
+        "애너하임 에인절스",
+        "캘리포니아 에인절스",
+        "LA 애너하임 에인절스",
+        "Anaheim Angels",
+        "LA 에인절스 오브 애너하임",
+        "로스앤젤레스 애너하임 에인절스",
+        "California Angels",
+        "로스앤젤레스 엔젤스 오브 애너하임",
+        "로스엔젤레스 에인절스 오브 애너하임",
+        "Los Angeles Angels of Anaheim",
+        "Los Angeles Angels",
+        "로스앤젤레스 에인절스",
+        "MLB",
+        "메이저리그"
+      ]
+    },
+    "arizona-diamondbacks": {
+      "variants_n": 3,
+      "logo_published_at": "2026-10-12T09:42:59.621913+00:00",
+      "aliases": [
+        "D-Backs",
+        "다이아몬드백스",
+        "아리조나 다이아몬드백스",
+        "Diamondbacks",
+        "Diamond Backs",
+        "애리조나 다이아몬드 백스",
+        "Arizona D-Backs",
+        "Arizona Diamondbacks",
+        "애리조나 다이아몬드백스",
+        "MLB",
+        "메이저리그"
+      ]
+    },
+    "baltimore-orioles": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-12T09:43:01.824205+00:00",
+      "aliases": [
+        "O's",
+        "Birds",
+        "The O's",
+        "Orioles",
+        "세인트루이스 브라운스",
+        "세인트 루이스 브라운스",
+        "Baltimore Orioles",
+        "볼티모어 오리올스",
+        "MLB",
+        "메이저리그"
+      ]
+    },
+    "boston-red-sox": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-12T09:43:05.041491+00:00",
+      "aliases": [
+        "Boston Red Sox",
+        "보스턴 레드삭스",
+        "MLB",
+        "메이저리그"
+      ]
+    },
+    "chicago-cubs": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-12T09:43:03.199408+00:00",
+      "aliases": [
+        "Cubs",
+        "Colts",
+        "Orphans",
+        "Cubbies",
+        "Remnants",
+        "North Siders",
+        "Chicago Colts",
+        "Chicago Whites",
+        "Chicago Orphans",
+        "Chicago White Stockings",
+        "Chicago Cubs",
+        "시카고 컵스",
+        "MLB",
+        "메이저리그"
+      ]
+    },
+    "cincinnati-reds": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-12T09:43:05.449202+00:00",
+      "aliases": [
+        "Reds",
+        "Redlegs",
+        "신시네티 레즈",
+        "Red Stockings",
+        "Cincinnati Redlegs",
+        "Cincinnati Red Stockings",
+        "Cincinnati Reds",
+        "신시내티 레즈",
+        "MLB",
+        "메이저리그"
+      ]
+    },
+    "cleveland-guardians": {
+      "variants_n": 1,
+      "logo_published_at": "2026-10-12T09:43:02.753179+00:00",
+      "aliases": [
+        "Cleveland Guardians",
+        "클리블랜드 가디언스",
+        "MLB",
+        "메이저리그"
+      ],
+      "id": "cleveland-guardians",
+      "name_ko": "클리블랜드 가디언스",
+      "name_en": "Cleveland Guardians",
+      "category": "스포츠",
+      "origin": "GLOBAL",
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": "sources/official-mlb-20261012/5fada1700c1622777d64.svg",
+      "svg_transparent": "sources/official-mlb-20261012/5fada1700c1622777d64.svg",
+      "logo_png": "sources/official-mlb-20261012/b1475f3cc86fa7281ba5.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/cleveland-guardians/sources/official-mlb-20261012/5ab11aa49ec3a4160319.png",
+      "light": false,
+      "light_logo": false,
+      "dark_variant": false,
+      "added_at": "2026-10-12",
+      "asset_review_status": "verified",
+      "asset_origin": "MLB 공식 CDN",
+      "official_source_page": "https://www.mlb.com/team",
+      "presentation": {
+        "file": "sources/official-mlb-20261012/b1475f3cc86fa7281ba5.png",
+        "bg": "light"
+      }
+    },
+    "colorado-rockies": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-12T09:43:08.040969+00:00",
+      "aliases": [
+        "Rox",
+        "Rockies",
+        "Colorado Rockies",
+        "콜로라도 로키스",
+        "MLB",
+        "메이저리그"
+      ]
+    },
+    "detroit-tigers": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-12T09:43:04.304761+00:00",
+      "aliases": [
+        "Tigers",
+        "디트로이트 타이거즈",
+        "Detroit Tigers",
+        "디트로이트 타이거스",
+        "MLB",
+        "메이저리그"
+      ]
+    },
+    "houston-astros": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-12T09:43:05.279508+00:00",
+      "aliases": [
+        "Astros",
+        "'Stros",
+        "Colt .45's",
+        "Houston Colt .45's",
+        "Houston Astros",
+        "휴스턴 애스트로스",
+        "MLB",
+        "메이저리그"
+      ]
+    },
+    "kansas-city-royals": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-12T09:43:06.968360+00:00",
+      "aliases": [
+        "Kansas City Royals",
+        "캔자스시티 로열스",
+        "MLB",
+        "메이저리그"
+      ]
+    },
+    "los-angeles-dodgers": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-12T09:43:06.203149+00:00",
+      "aliases": [
+        "다저스",
+        "LAD",
+        "Bums",
+        "Grays",
+        "La다저스",
+        "LA 다저스",
+        "Robins",
+        "Grooms",
+        "Dodgers",
+        "Superbas",
+        "브룩클린 다저스",
+        "브루클린 다저스",
+        "부르클린 다저스",
+        "Atlantics",
+        "LA Dodgers",
+        "로스엔젤레스 다저스",
+        "Bridegrooms",
+        "Brooklyn Grays",
+        "Brooklyn Robins",
+        "Trolley Dodgers",
+        "Brooklyn Grooms",
+        "Brooklyn Dodgers",
+        "Brooklyn Superbas",
+        "Brooklyn Atlantics",
+        "Brooklyn Bridegrooms",
+        "Los Angeles Dodgers",
+        "로스앤젤레스 다저스",
+        "MLB",
+        "메이저리그"
+      ]
+    },
+    "washington-nationals": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-12T09:43:07.623708+00:00",
+      "aliases": [
+        "Nats",
+        "Nationals",
+        "Nasty Nats",
+        "Washington Nationals",
+        "워싱턴 내셔널스",
+        "MLB",
+        "메이저리그"
+      ]
+    },
+    "new-york-mets": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-12T09:43:15.831961+00:00",
+      "aliases": [
+        "NYM",
+        "Mets",
+        "Metropolitans",
+        "New York Mets",
+        "뉴욕 메츠",
+        "MLB",
+        "메이저리그"
+      ]
+    },
+    "hanshin-tigers": {
+      "variants_n": 1,
+      "aliases": [
+        "한신 타이거스",
+        "Hanshin Tigers",
+        "NPB",
+        "일본 프로야구"
+      ],
+      "id": "hanshin-tigers",
+      "name_ko": "한신 타이거스",
+      "name_en": "Hanshin Tigers",
+      "category": "스포츠",
+      "origin": "GLOBAL",
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": "sources/official-baseball-20261012/5b33e5c170f8b7ac5304.svg",
+      "logo_png": "sources/official-baseball-20261012/b03ecef24fc65196795c.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/hanshin-tigers/sources/official-baseball-20261012/11ad3b562ef05b9eb5bc.png",
+      "light": false,
+      "light_logo": false,
+      "dark_variant": false,
+      "added_at": "2026-10-12",
+      "asset_origin": "구단 공식 사이트",
+      "official_source_page": "https://npb.jp/teams/",
+      "presentation": {
+        "file": "sources/official-baseball-20261012/b03ecef24fc65196795c.png",
+        "bg": "light"
+      },
+      "logo_published_at": "2026-10-12T09:51:32.422509+00:00"
+    },
+    "yomiuri-giants": {
+      "variants_n": 1,
+      "aliases": [
+        "요미우리 자이언츠",
+        "Yomiuri Giants",
+        "NPB",
+        "일본 프로야구"
+      ],
+      "logo_published_at": "2026-10-12T09:51:32.422618+00:00"
+    },
+    "chunichi-dragons": {
+      "variants_n": 2,
+      "aliases": [
+        "주니치 드래곤즈",
+        "Chunichi Dragons",
+        "NPB",
+        "일본 프로야구"
+      ],
+      "logo_published_at": "2026-10-12T09:51:32.422620+00:00"
+    },
+    "hiroshima-toyo-carp": {
+      "variants_n": 2,
+      "aliases": [
+        "히로시마 도요 카프",
+        "Hiroshima Toyo Carp",
+        "NPB",
+        "일본 프로야구"
+      ],
+      "logo_published_at": "2026-10-12T09:51:32.422621+00:00"
+    },
+    "tokyo-yakult-swallows": {
+      "variants_n": 2,
+      "aliases": [
+        "도쿄 야쿠르트 스왈로즈",
+        "Tokyo Yakult Swallows",
+        "NPB",
+        "일본 프로야구"
+      ],
+      "logo_published_at": "2026-10-12T09:51:32.422622+00:00"
+    },
+    "fukuoka-softbank-hawks": {
+      "variants_n": 1,
+      "aliases": [
+        "후쿠오카 소프트뱅크 호크스",
+        "Fukuoka SoftBank Hawks",
+        "NPB",
+        "일본 프로야구"
+      ],
+      "logo_published_at": "2026-10-12T09:51:32.422623+00:00"
+    },
+    "orix-buffaloes": {
+      "variants_n": 1,
+      "aliases": [
+        "오릭스 버팔로스",
+        "Orix Buffaloes",
+        "NPB",
+        "일본 프로야구"
+      ],
+      "logo_published_at": "2026-10-12T09:51:32.422624+00:00"
+    },
+    "tohoku-rakuten-golden-eagles": {
+      "variants_n": 1,
+      "aliases": [
+        "도호쿠 라쿠텐 골든이글스",
+        "Tohoku Rakuten Golden Eagles",
+        "NPB",
+        "일본 프로야구"
+      ],
+      "id": "tohoku-rakuten-golden-eagles",
+      "name_ko": "도호쿠 라쿠텐 골든이글스",
+      "name_en": "Tohoku Rakuten Golden Eagles",
+      "category": "스포츠",
+      "origin": "GLOBAL",
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": "sources/official-baseball-20261012/553ad8e5772b5a1a91e4.svg",
+      "logo_png": "sources/official-baseball-20261012/268431d3e052d959f820.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/tohoku-rakuten-golden-eagles/sources/official-baseball-20261012/a34c3f3eea95c7e70b0e.png",
+      "light": false,
+      "light_logo": false,
+      "dark_variant": false,
+      "added_at": "2026-10-12",
+      "asset_origin": "구단 공식 사이트",
+      "official_source_page": "https://npb.jp/teams/",
+      "presentation": {
+        "file": "sources/official-baseball-20261012/268431d3e052d959f820.png",
+        "bg": "light"
+      },
+      "logo_published_at": "2026-10-12T09:51:32.422625+00:00"
+    },
+    "saitama-seibu-lions": {
+      "variants_n": 1,
+      "aliases": [
+        "사이타마 세이부 라이온스",
+        "Saitama Seibu Lions",
+        "NPB",
+        "일본 프로야구"
+      ],
+      "id": "saitama-seibu-lions",
+      "name_ko": "사이타마 세이부 라이온스",
+      "name_en": "Saitama Seibu Lions",
+      "category": "스포츠",
+      "origin": "GLOBAL",
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": "sources/official-baseball-20261012/f6d9c88f1155d4be9c17.svg",
+      "logo_png": "sources/official-baseball-20261012/173661a9b10d95f3fb63.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/saitama-seibu-lions/sources/official-baseball-20261012/92ca7bc61a5854d6c8e3.png",
+      "light": false,
+      "light_logo": false,
+      "dark_variant": false,
+      "added_at": "2026-10-12",
+      "asset_origin": "구단 공식 사이트",
+      "official_source_page": "https://npb.jp/teams/",
+      "presentation": {
+        "file": "sources/official-baseball-20261012/173661a9b10d95f3fb63.png",
+        "bg": "light"
+      },
+      "logo_published_at": "2026-10-12T09:51:32.422625+00:00"
+    },
+    "chiba-lotte-marines": {
+      "variants_n": 2,
+      "aliases": [
+        "지바 롯데 마린스",
+        "Chiba Lotte Marines",
+        "NPB",
+        "일본 프로야구"
+      ],
+      "logo_published_at": "2026-10-12T09:51:32.422626+00:00"
+    },
+    "hokkaido-nippon-ham-fighters": {
+      "variants_n": 2,
+      "aliases": [
+        "홋카이도 닛폰햄 파이터스",
+        "Hokkaido Nippon-Ham Fighters",
+        "NPB",
+        "일본 프로야구"
+      ],
+      "logo_published_at": "2026-10-12T09:51:32.422627+00:00"
+    },
+    "ssglanders": {
+      "variants_n": 10,
+      "source_zip": "sources/official-baseball-20261012/1277f249f19366dfbd97.zip",
+      "source_ai": "sources/official-baseball-20261012/8db69745208a0ece4a81.ai",
+      "logo_published_at": "2026-10-12T09:51:32.422628+00:00"
+    },
+    "yokohama-dena-baystars": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-12T09:53:23.958918+00:00",
+      "aliases": [
+        "요코하마 DeNA 베이스타스",
+        "Yokohama DeNA BayStars",
+        "NPB",
+        "일본 프로야구"
+      ]
+    }
+  },
+  "variants": {
+    "oakland-athletics": {
+      "schema": 1,
+      "id": "oakland-athletics",
+      "primary": "legacy-original",
+      "variants": [
+        {
+          "key": "legacy-original",
+          "label": "기존 수집 로고 · 시기 미확인",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "logo.svg"
+          },
+          "origin": "collected",
+          "order": 0
+        },
+        {
+          "key": "official-mlb-cap-20261012",
+          "label": "MLB 공식 구단 심볼 · 2026-10-12 확인",
+          "form": "symbol",
+          "lang": "en",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-mlb-20261012/598538b486eef1fc4834.svg",
+            "png": "sources/official-mlb-20261012/146119a5a023d566d8cb.png"
+          },
+          "preview_png": "sources/official-mlb-20261012/7531c13313bc899c2915.png",
+          "source_url": "https://www.mlbstatic.com/team-logos/133.svg",
+          "provider": "MLB 공식 CDN",
+          "official_distribution": true,
+          "origin": "official",
+          "order": 1
+        }
+      ]
+    },
+    "pittsburgh-pirates": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "pittsburgh-pirates",
+      "primary": "vertical",
+      "fingerprint": {
+        "logo.svg": "11e5aee706308931"
+      },
+      "variants": [
+        {
+          "key": "vertical",
+          "form": "vertical",
+          "lang": "unknown",
+          "color": "color",
+          "label": "세로조합형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 0.711,
+          "provider": "wikimedia",
+          "origin": "collected",
+          "order": 20
+        },
+        {
+          "key": "official-mlb-cap-20261012",
+          "label": "MLB 공식 구단 심볼 · 2026-10-12 확인",
+          "form": "symbol",
+          "lang": "en",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-mlb-20261012/a88e4a6bd86217dd2e1c.svg",
+            "png": "sources/official-mlb-20261012/e458a51b5fe5eb5df512.png"
+          },
+          "preview_png": "sources/official-mlb-20261012/8d395388e04ad567e024.png",
+          "source_url": "https://www.mlbstatic.com/team-logos/134.svg",
+          "provider": "MLB 공식 CDN",
+          "official_distribution": true,
+          "origin": "official",
+          "order": 1
+        }
+      ]
+    },
+    "san-diego-padres": {
+      "schema": 1,
+      "id": "san-diego-padres",
+      "primary": "legacy-original",
+      "variants": [
+        {
+          "key": "legacy-original",
+          "label": "기존 수집 로고 · 시기 미확인",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "logo.svg"
+          },
+          "origin": "collected",
+          "order": 0
+        },
+        {
+          "key": "official-mlb-cap-20261012",
+          "label": "MLB 공식 구단 심볼 · 2026-10-12 확인",
+          "form": "symbol",
+          "lang": "en",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-mlb-20261012/c0d5f92ef4a58f097c74.svg",
+            "png": "sources/official-mlb-20261012/f8b0a0c654b58f7cc5c3.png"
+          },
+          "preview_png": "sources/official-mlb-20261012/3269284707cfd42e7c38.png",
+          "source_url": "https://www.mlbstatic.com/team-logos/135.svg",
+          "provider": "MLB 공식 CDN",
+          "official_distribution": true,
+          "origin": "official",
+          "order": 1
+        }
+      ]
+    },
+    "seattle-mariners": {
+      "schema": 1,
+      "id": "seattle-mariners",
+      "primary": "legacy-original",
+      "variants": [
+        {
+          "key": "legacy-original",
+          "label": "기존 수집 로고 · 시기 미확인",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "logo.svg"
+          },
+          "origin": "collected",
+          "order": 0
+        },
+        {
+          "key": "official-mlb-cap-20261012",
+          "label": "MLB 공식 구단 심볼 · 2026-10-12 확인",
+          "form": "symbol",
+          "lang": "en",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-mlb-20261012/c9508331d23c9a204932.svg",
+            "png": "sources/official-mlb-20261012/23537f9591bd53548ac2.png"
+          },
+          "preview_png": "sources/official-mlb-20261012/462e6dffe4a9fd625373.png",
+          "source_url": "https://www.mlbstatic.com/team-logos/136.svg",
+          "provider": "MLB 공식 CDN",
+          "official_distribution": true,
+          "origin": "official",
+          "order": 1
+        }
+      ]
+    },
+    "san-francisco-giants": {
+      "schema": 1,
+      "id": "san-francisco-giants",
+      "primary": "legacy-original",
+      "variants": [
+        {
+          "key": "legacy-original",
+          "label": "기존 수집 로고 · 시기 미확인",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "logo.svg"
+          },
+          "origin": "collected",
+          "order": 0
+        },
+        {
+          "key": "official-mlb-cap-20261012",
+          "label": "MLB 공식 구단 심볼 · 2026-10-12 확인",
+          "form": "symbol",
+          "lang": "en",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-mlb-20261012/04d8deeb9e7dd172edae.svg",
+            "png": "sources/official-mlb-20261012/6bd4e3802bcd224680fc.png"
+          },
+          "preview_png": "sources/official-mlb-20261012/056de17ada44fe6206c4.png",
+          "source_url": "https://www.mlbstatic.com/team-logos/137.svg",
+          "provider": "MLB 공식 CDN",
+          "official_distribution": true,
+          "origin": "official",
+          "order": 1
+        }
+      ]
+    },
+    "st-louis-cardinals": {
+      "schema": 1,
+      "id": "st-louis-cardinals",
+      "primary": "legacy-original",
+      "variants": [
+        {
+          "key": "legacy-original",
+          "label": "기존 수집 로고 · 시기 미확인",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "logo.svg"
+          },
+          "origin": "collected",
+          "order": 0
+        },
+        {
+          "key": "official-mlb-cap-20261012",
+          "label": "MLB 공식 구단 심볼 · 2026-10-12 확인",
+          "form": "symbol",
+          "lang": "en",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-mlb-20261012/c1f1aa692b825d69521a.svg",
+            "png": "sources/official-mlb-20261012/197958dbd2514345aea0.png"
+          },
+          "preview_png": "sources/official-mlb-20261012/b0584d0edc0c896277f0.png",
+          "source_url": "https://www.mlbstatic.com/team-logos/138.svg",
+          "provider": "MLB 공식 CDN",
+          "official_distribution": true,
+          "origin": "official",
+          "order": 1
+        }
+      ]
+    },
+    "tampa-bay-rays": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "tampa-bay-rays",
+      "primary": "symbol",
+      "fingerprint": {
+        "logo.svg": "00e40a92efb14491"
+      },
+      "variants": [
+        {
+          "key": "symbol",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "color",
+          "label": "심볼형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 1.0,
+          "provider": "wikimedia",
+          "origin": "collected",
+          "order": 30
+        },
+        {
+          "key": "official-mlb-cap-20261012",
+          "label": "MLB 공식 구단 심볼 · 2026-10-12 확인",
+          "form": "symbol",
+          "lang": "en",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-mlb-20261012/b50fd02140a8fe66e57e.svg",
+            "png": "sources/official-mlb-20261012/1cec81a360b5aa797062.png"
+          },
+          "preview_png": "sources/official-mlb-20261012/bbc4506efcf65af6d1a1.png",
+          "source_url": "https://www.mlbstatic.com/team-logos/139.svg",
+          "provider": "MLB 공식 CDN",
+          "official_distribution": true,
+          "origin": "official",
+          "order": 1
+        }
+      ]
+    },
+    "texas-rangers": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "texas-rangers",
+      "primary": "symbol",
+      "fingerprint": {
+        "logo.svg": "30c773aa7b85b4af"
+      },
+      "variants": [
+        {
+          "key": "symbol",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "color",
+          "label": "심볼형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 1.0,
+          "provider": "wikimedia",
+          "origin": "collected",
+          "order": 30
+        },
+        {
+          "key": "official-mlb-cap-20261012",
+          "label": "MLB 공식 구단 심볼 · 2026-10-12 확인",
+          "form": "symbol",
+          "lang": "en",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-mlb-20261012/775ec1e70b6655e08724.svg",
+            "png": "sources/official-mlb-20261012/7e1370b625ea9da6d4d8.png"
+          },
+          "preview_png": "sources/official-mlb-20261012/11feccff84a3a8e5f2cf.png",
+          "source_url": "https://www.mlbstatic.com/team-logos/140.svg",
+          "provider": "MLB 공식 CDN",
+          "official_distribution": true,
+          "origin": "official",
+          "order": 1
+        }
+      ]
+    },
+    "toronto-blue-jays": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "toronto-blue-jays",
+      "primary": "wordmark",
+      "fingerprint": {
+        "logo.svg": "5da616182215bb4f"
+      },
+      "variants": [
+        {
+          "key": "wordmark",
+          "form": "wordmark",
+          "lang": "unknown",
+          "color": "color",
+          "label": "워드마크형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 11.784,
+          "provider": "wikimedia",
+          "origin": "collected",
+          "order": 40
+        },
+        {
+          "key": "official-mlb-cap-20261012",
+          "label": "MLB 공식 구단 심볼 · 2026-10-12 확인",
+          "form": "symbol",
+          "lang": "en",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-mlb-20261012/1920a269c4dce0f8f38d.svg",
+            "png": "sources/official-mlb-20261012/0e040820b4d047a53947.png"
+          },
+          "preview_png": "sources/official-mlb-20261012/d4d262e800b17ef3b3ca.png",
+          "source_url": "https://www.mlbstatic.com/team-logos/141.svg",
+          "provider": "MLB 공식 CDN",
+          "official_distribution": true,
+          "origin": "official",
+          "order": 1
+        }
+      ]
+    },
+    "minnesota-twins": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "minnesota-twins",
+      "primary": "symbol",
+      "fingerprint": {
+        "logo.svg": "ca1fa148545252c6",
+        "sources/commons-wm/wordmark.svg": "321d8c90be1609ea"
+      },
+      "variants": [
+        {
+          "key": "horizontal",
+          "form": "horizontal",
+          "lang": "unknown",
+          "color": "color",
+          "label": "가로조합형",
+          "files": {
+            "svg": "sources/commons-wm/wordmark.svg"
+          },
+          "aspect": 1.758,
+          "provider": "wikimedia",
+          "origin": "collected",
+          "order": 10
+        },
+        {
+          "key": "symbol",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "color",
+          "label": "심볼형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 1.0,
+          "provider": "wikimedia",
+          "origin": "collected",
+          "order": 30
+        },
+        {
+          "key": "official-mlb-cap-20261012",
+          "label": "MLB 공식 구단 심볼 · 2026-10-12 확인",
+          "form": "symbol",
+          "lang": "en",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-mlb-20261012/9f062b8e0a2626babce4.svg",
+            "png": "sources/official-mlb-20261012/d9d297efe9f3e43bc273.png"
+          },
+          "preview_png": "sources/official-mlb-20261012/40d95bf9c87c87fb5b61.png",
+          "source_url": "https://www.mlbstatic.com/team-logos/142.svg",
+          "provider": "MLB 공식 CDN",
+          "official_distribution": true,
+          "origin": "official",
+          "order": 2
+        }
+      ]
+    },
+    "philadelphia-phillies": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "philadelphia-phillies",
+      "primary": "symbol",
+      "fingerprint": {
+        "logo.svg": "68006d568899b944"
+      },
+      "variants": [
+        {
+          "key": "symbol",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "color",
+          "label": "심볼형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 1.0,
+          "provider": "wikimedia",
+          "origin": "collected",
+          "order": 30
+        },
+        {
+          "key": "official-mlb-cap-20261012",
+          "label": "MLB 공식 구단 심볼 · 2026-10-12 확인",
+          "form": "symbol",
+          "lang": "en",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-mlb-20261012/465da43739de56c09d5f.svg",
+            "png": "sources/official-mlb-20261012/0dba40a68219404e917e.png"
+          },
+          "preview_png": "sources/official-mlb-20261012/60d39c85838f7af1c44f.png",
+          "source_url": "https://www.mlbstatic.com/team-logos/143.svg",
+          "provider": "MLB 공식 CDN",
+          "official_distribution": true,
+          "origin": "official",
+          "order": 1
+        }
+      ]
+    },
+    "atlanta-braves": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "atlanta-braves",
+      "primary": "symbol",
+      "fingerprint": {
+        "logo.svg": "97ef05e62c9df616"
+      },
+      "variants": [
+        {
+          "key": "symbol",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "color",
+          "label": "심볼형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 1.0,
+          "provider": "wikimedia",
+          "origin": "collected",
+          "order": 30
+        },
+        {
+          "key": "official-mlb-cap-20261012",
+          "label": "MLB 공식 구단 심볼 · 2026-10-12 확인",
+          "form": "symbol",
+          "lang": "en",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-mlb-20261012/11162237c379e6e6e549.svg",
+            "png": "sources/official-mlb-20261012/2ad354bcf4f23d601a32.png"
+          },
+          "preview_png": "sources/official-mlb-20261012/ec6fe08541b9b9bc0e4d.png",
+          "source_url": "https://www.mlbstatic.com/team-logos/144.svg",
+          "provider": "MLB 공식 CDN",
+          "official_distribution": true,
+          "origin": "official",
+          "order": 1
+        }
+      ]
+    },
+    "chicago-white-sox": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "chicago-white-sox",
+      "primary": "vertical",
+      "fingerprint": {
+        "logo.svg": "ce0a887947fdb708"
+      },
+      "variants": [
+        {
+          "key": "vertical",
+          "form": "vertical",
+          "lang": "unknown",
+          "color": "mono-dark",
+          "label": "세로조합형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 0.713,
+          "provider": "wikimedia",
+          "origin": "collected",
+          "order": 20
+        },
+        {
+          "key": "official-mlb-cap-20261012",
+          "label": "MLB 공식 구단 심볼 · 2026-10-12 확인",
+          "form": "symbol",
+          "lang": "en",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-mlb-20261012/ca1ee0dc0e5a0f848703.svg",
+            "png": "sources/official-mlb-20261012/da17441c55986203bdc8.png"
+          },
+          "preview_png": "sources/official-mlb-20261012/4ee40ecefcb42c140ad8.png",
+          "source_url": "https://www.mlbstatic.com/team-logos/145.svg",
+          "provider": "MLB 공식 CDN",
+          "official_distribution": true,
+          "origin": "official",
+          "order": 1
+        }
+      ]
+    },
+    "miami-marlins-primary-logo-on-light": {
+      "schema": 1,
+      "id": "miami-marlins-primary-logo-on-light",
+      "primary": "legacy-original",
+      "variants": [
+        {
+          "key": "legacy-original",
+          "label": "기존 수집 로고 · 시기 미확인",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "logo.svg"
+          },
+          "origin": "collected",
+          "order": 0
+        },
+        {
+          "key": "official-mlb-cap-20261012",
+          "label": "MLB 공식 구단 심볼 · 2026-10-12 확인",
+          "form": "symbol",
+          "lang": "en",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-mlb-20261012/6a6e50ca9bad01e65aae.svg",
+            "png": "sources/official-mlb-20261012/005cf5017bf3ee43925e.png"
+          },
+          "preview_png": "sources/official-mlb-20261012/6fbd5572d349160b88a2.png",
+          "source_url": "https://www.mlbstatic.com/team-logos/146.svg",
+          "provider": "MLB 공식 CDN",
+          "official_distribution": true,
+          "origin": "official",
+          "order": 1
+        }
+      ]
+    },
+    "new-york-yankees": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "new-york-yankees",
+      "primary": "symbol",
+      "fingerprint": {
+        "logo.svg": "6c4932e8bdefc6b9"
+      },
+      "variants": [
+        {
+          "key": "symbol",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "color",
+          "label": "심볼형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 0.903,
+          "provider": "wikimedia",
+          "origin": "collected",
+          "order": 30
+        },
+        {
+          "key": "official-mlb-cap-20261012",
+          "label": "MLB 공식 구단 심볼 · 2026-10-12 확인",
+          "form": "symbol",
+          "lang": "en",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-mlb-20261012/a9041069f46b033c0eca.svg",
+            "png": "sources/official-mlb-20261012/0890cfddd3be40a179f7.png"
+          },
+          "preview_png": "sources/official-mlb-20261012/ce10af7318b0b81c7e58.png",
+          "source_url": "https://www.mlbstatic.com/team-logos/147.svg",
+          "provider": "MLB 공식 CDN",
+          "official_distribution": true,
+          "origin": "official",
+          "order": 1
+        }
+      ]
+    },
+    "milwaukee-brewers": {
+      "schema": 1,
+      "id": "milwaukee-brewers",
+      "primary": "legacy-original",
+      "variants": [
+        {
+          "key": "legacy-original",
+          "label": "기존 수집 로고 · 시기 미확인",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "logo.svg"
+          },
+          "origin": "collected",
+          "order": 0
+        },
+        {
+          "key": "official-mlb-cap-20261012",
+          "label": "MLB 공식 구단 심볼 · 2026-10-12 확인",
+          "form": "symbol",
+          "lang": "en",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-mlb-20261012/9271da480f41d07eaa12.svg",
+            "png": "sources/official-mlb-20261012/3f38e078fc811f588f1f.png"
+          },
+          "preview_png": "sources/official-mlb-20261012/531490b36e36c7a511be.png",
+          "source_url": "https://www.mlbstatic.com/team-logos/158.svg",
+          "provider": "MLB 공식 CDN",
+          "official_distribution": true,
+          "origin": "official",
+          "order": 1
+        }
+      ]
+    },
+    "los-angeles-angels": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "los-angeles-angels",
+      "primary": "vertical",
+      "fingerprint": {
+        "logo.svg": "187411415bf7bef3"
+      },
+      "variants": [
+        {
+          "key": "vertical",
+          "form": "vertical",
+          "lang": "unknown",
+          "color": "color",
+          "label": "세로조합형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 0.74,
+          "provider": "wikimedia",
+          "origin": "collected",
+          "order": 20
+        },
+        {
+          "key": "official-mlb-cap-20261012",
+          "label": "MLB 공식 구단 심볼 · 2026-10-12 확인",
+          "form": "symbol",
+          "lang": "en",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-mlb-20261012/0b73a6c9523ac0a35a81.svg",
+            "png": "sources/official-mlb-20261012/b7655a7bedd55b60d6d1.png"
+          },
+          "preview_png": "sources/official-mlb-20261012/6e833b358a5af9f0ec82.png",
+          "source_url": "https://www.mlbstatic.com/team-logos/108.svg",
+          "provider": "MLB 공식 CDN",
+          "official_distribution": true,
+          "origin": "official",
+          "order": 1
+        }
+      ]
+    },
+    "arizona-diamondbacks": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "arizona-diamondbacks",
+      "primary": "symbol",
+      "fingerprint": {
+        "logo.svg": "b7adf93b3f0ab7a8",
+        "sources/commons-wm/wordmark.svg": "cfb9b721bb6813fe"
+      },
+      "variants": [
+        {
+          "key": "horizontal",
+          "form": "horizontal",
+          "lang": "unknown",
+          "color": "color",
+          "label": "가로조합형",
+          "files": {
+            "svg": "sources/commons-wm/wordmark.svg"
+          },
+          "aspect": 2.778,
+          "provider": "wikimedia",
+          "origin": "collected",
+          "order": 10
+        },
+        {
+          "key": "symbol",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "color",
+          "label": "심볼형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 1.183,
+          "provider": "wikimedia",
+          "origin": "collected",
+          "order": 30
+        },
+        {
+          "key": "official-mlb-cap-20261012",
+          "label": "MLB 공식 구단 심볼 · 2026-10-12 확인",
+          "form": "symbol",
+          "lang": "en",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-mlb-20261012/b63b3aaf303ff3bd856c.svg",
+            "png": "sources/official-mlb-20261012/3d3ac31f8911bc047595.png"
+          },
+          "preview_png": "sources/official-mlb-20261012/7ad5ef59baa8818baa58.png",
+          "source_url": "https://www.mlbstatic.com/team-logos/109.svg",
+          "provider": "MLB 공식 CDN",
+          "official_distribution": true,
+          "origin": "official",
+          "order": 2
+        }
+      ]
+    },
+    "baltimore-orioles": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "baltimore-orioles",
+      "primary": "horizontal",
+      "fingerprint": {
+        "logo.svg": "7e05c4bb80ad77a1"
+      },
+      "variants": [
+        {
+          "key": "horizontal",
+          "form": "horizontal",
+          "lang": "unknown",
+          "color": "color",
+          "label": "가로조합형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 1.748,
+          "provider": "wikimedia",
+          "origin": "collected",
+          "order": 10
+        },
+        {
+          "key": "official-mlb-cap-20261012",
+          "label": "MLB 공식 구단 심볼 · 2026-10-12 확인",
+          "form": "symbol",
+          "lang": "en",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-mlb-20261012/9e6476d34cd2e98e792c.svg",
+            "png": "sources/official-mlb-20261012/a3c9e6fa991f5d3a9904.png"
+          },
+          "preview_png": "sources/official-mlb-20261012/487fde81dd4e38ffa3a7.png",
+          "source_url": "https://www.mlbstatic.com/team-logos/110.svg",
+          "provider": "MLB 공식 CDN",
+          "official_distribution": true,
+          "origin": "official",
+          "order": 1
+        }
+      ]
+    },
+    "boston-red-sox": {
+      "schema": 1,
+      "id": "boston-red-sox",
+      "primary": "legacy-original",
+      "variants": [
+        {
+          "key": "legacy-original",
+          "label": "기존 수집 로고 · 시기 미확인",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "logo.svg"
+          },
+          "origin": "collected",
+          "order": 0
+        },
+        {
+          "key": "official-mlb-cap-20261012",
+          "label": "MLB 공식 구단 심볼 · 2026-10-12 확인",
+          "form": "symbol",
+          "lang": "en",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-mlb-20261012/53eb07384a14fcc54efb.svg",
+            "png": "sources/official-mlb-20261012/95107f6afd778cbab9d9.png"
+          },
+          "preview_png": "sources/official-mlb-20261012/b4e4e779678eef5bf891.png",
+          "source_url": "https://www.mlbstatic.com/team-logos/111.svg",
+          "provider": "MLB 공식 CDN",
+          "official_distribution": true,
+          "origin": "official",
+          "order": 1
+        }
+      ]
+    },
+    "chicago-cubs": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "chicago-cubs",
+      "primary": "symbol",
+      "fingerprint": {
+        "logo.svg": "ee9c559753a8bb0b"
+      },
+      "variants": [
+        {
+          "key": "symbol",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "color",
+          "label": "심볼형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 1.0,
+          "provider": "wikimedia",
+          "origin": "collected",
+          "order": 30
+        },
+        {
+          "key": "official-mlb-cap-20261012",
+          "label": "MLB 공식 구단 심볼 · 2026-10-12 확인",
+          "form": "symbol",
+          "lang": "en",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-mlb-20261012/8fe99678c053859b50ad.svg",
+            "png": "sources/official-mlb-20261012/afbcd3f320bf5b5d89c9.png"
+          },
+          "preview_png": "sources/official-mlb-20261012/eda7f648d84924eccc6c.png",
+          "source_url": "https://www.mlbstatic.com/team-logos/112.svg",
+          "provider": "MLB 공식 CDN",
+          "official_distribution": true,
+          "origin": "official",
+          "order": 1
+        }
+      ]
+    },
+    "cincinnati-reds": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "cincinnati-reds",
+      "primary": "symbol",
+      "fingerprint": {
+        "logo.svg": "5743066d9be4a0ac"
+      },
+      "variants": [
+        {
+          "key": "symbol",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "color",
+          "label": "심볼형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 1.0,
+          "provider": "wikimedia",
+          "origin": "collected",
+          "order": 30
+        },
+        {
+          "key": "official-mlb-cap-20261012",
+          "label": "MLB 공식 구단 심볼 · 2026-10-12 확인",
+          "form": "symbol",
+          "lang": "en",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-mlb-20261012/112b22efe0bb3f7352a0.svg",
+            "png": "sources/official-mlb-20261012/d1b8325db4068e90df81.png"
+          },
+          "preview_png": "sources/official-mlb-20261012/4095c19822d5929ee0f5.png",
+          "source_url": "https://www.mlbstatic.com/team-logos/113.svg",
+          "provider": "MLB 공식 CDN",
+          "official_distribution": true,
+          "origin": "official",
+          "order": 1
+        }
+      ]
+    },
+    "cleveland-guardians": {
+      "schema": 1,
+      "id": "cleveland-guardians",
+      "primary": "official-mlb-cap-20261012",
+      "variants": [
+        {
+          "key": "official-mlb-cap-20261012",
+          "label": "MLB 공식 구단 심볼 · 2026-10-12 확인",
+          "form": "symbol",
+          "lang": "en",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-mlb-20261012/5fada1700c1622777d64.svg",
+            "png": "sources/official-mlb-20261012/b1475f3cc86fa7281ba5.png"
+          },
+          "preview_png": "sources/official-mlb-20261012/5ab11aa49ec3a4160319.png",
+          "source_url": "https://www.mlbstatic.com/team-logos/114.svg",
+          "provider": "MLB 공식 CDN",
+          "official_distribution": true,
+          "origin": "official",
+          "order": 0
+        }
+      ]
+    },
+    "colorado-rockies": {
+      "schema": 1,
+      "id": "colorado-rockies",
+      "primary": "legacy-original",
+      "variants": [
+        {
+          "key": "legacy-original",
+          "label": "기존 수집 로고 · 시기 미확인",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "logo.svg"
+          },
+          "origin": "collected",
+          "order": 0
+        },
+        {
+          "key": "official-mlb-cap-20261012",
+          "label": "MLB 공식 구단 심볼 · 2026-10-12 확인",
+          "form": "symbol",
+          "lang": "en",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-mlb-20261012/f4ac929c740e482a4c62.svg",
+            "png": "sources/official-mlb-20261012/f95e783a4fecf9f6d666.png"
+          },
+          "preview_png": "sources/official-mlb-20261012/d8ae2d0da96d9c487453.png",
+          "source_url": "https://www.mlbstatic.com/team-logos/115.svg",
+          "provider": "MLB 공식 CDN",
+          "official_distribution": true,
+          "origin": "official",
+          "order": 1
+        }
+      ]
+    },
+    "detroit-tigers": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "detroit-tigers",
+      "primary": "vertical",
+      "fingerprint": {
+        "logo.svg": "52c34bac7e031f20"
+      },
+      "variants": [
+        {
+          "key": "vertical",
+          "form": "vertical",
+          "lang": "unknown",
+          "color": "color",
+          "label": "세로조합형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 0.687,
+          "provider": "wikimedia",
+          "origin": "collected",
+          "order": 20
+        },
+        {
+          "key": "official-mlb-cap-20261012",
+          "label": "MLB 공식 구단 심볼 · 2026-10-12 확인",
+          "form": "symbol",
+          "lang": "en",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-mlb-20261012/90602ddfa5130edf4724.svg",
+            "png": "sources/official-mlb-20261012/15b027687196356cda5b.png"
+          },
+          "preview_png": "sources/official-mlb-20261012/8543fcfa40e9fd40aeb6.png",
+          "source_url": "https://www.mlbstatic.com/team-logos/116.svg",
+          "provider": "MLB 공식 CDN",
+          "official_distribution": true,
+          "origin": "official",
+          "order": 1
+        }
+      ]
+    },
+    "houston-astros": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "houston-astros",
+      "primary": "symbol",
+      "fingerprint": {
+        "logo.svg": "2fb58565c309a527"
+      },
+      "variants": [
+        {
+          "key": "symbol",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "color",
+          "label": "심볼형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 1.0,
+          "provider": "wikimedia",
+          "origin": "collected",
+          "order": 30
+        },
+        {
+          "key": "official-mlb-cap-20261012",
+          "label": "MLB 공식 구단 심볼 · 2026-10-12 확인",
+          "form": "symbol",
+          "lang": "en",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-mlb-20261012/fd2e9fa1d895e8cb88fb.svg",
+            "png": "sources/official-mlb-20261012/a5994127a5f5f1cd4e42.png"
+          },
+          "preview_png": "sources/official-mlb-20261012/c3adaf9d979af05fc28f.png",
+          "source_url": "https://www.mlbstatic.com/team-logos/117.svg",
+          "provider": "MLB 공식 CDN",
+          "official_distribution": true,
+          "origin": "official",
+          "order": 1
+        }
+      ]
+    },
+    "kansas-city-royals": {
+      "schema": 1,
+      "id": "kansas-city-royals",
+      "primary": "legacy-original",
+      "variants": [
+        {
+          "key": "legacy-original",
+          "label": "기존 수집 로고 · 시기 미확인",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "logo.svg"
+          },
+          "origin": "collected",
+          "order": 0
+        },
+        {
+          "key": "official-mlb-cap-20261012",
+          "label": "MLB 공식 구단 심볼 · 2026-10-12 확인",
+          "form": "symbol",
+          "lang": "en",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-mlb-20261012/55678f28a752ec5ac86e.svg",
+            "png": "sources/official-mlb-20261012/f434b99d1637eed31b0e.png"
+          },
+          "preview_png": "sources/official-mlb-20261012/00ad8b8715ee39348fe0.png",
+          "source_url": "https://www.mlbstatic.com/team-logos/118.svg",
+          "provider": "MLB 공식 CDN",
+          "official_distribution": true,
+          "origin": "official",
+          "order": 1
+        }
+      ]
+    },
+    "los-angeles-dodgers": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "los-angeles-dodgers",
+      "primary": "symbol",
+      "fingerprint": {
+        "logo.svg": "805f901c074b436d"
+      },
+      "variants": [
+        {
+          "key": "symbol",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "color",
+          "label": "심볼형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 1.0,
+          "provider": "wikimedia",
+          "origin": "collected",
+          "order": 30
+        },
+        {
+          "key": "official-mlb-cap-20261012",
+          "label": "MLB 공식 구단 심볼 · 2026-10-12 확인",
+          "form": "symbol",
+          "lang": "en",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-mlb-20261012/9840fd7c20fb4614a179.svg",
+            "png": "sources/official-mlb-20261012/92c0cd3d1696c4a16af1.png"
+          },
+          "preview_png": "sources/official-mlb-20261012/481a022cd4342ecf75eb.png",
+          "source_url": "https://www.mlbstatic.com/team-logos/119.svg",
+          "provider": "MLB 공식 CDN",
+          "official_distribution": true,
+          "origin": "official",
+          "order": 1
+        }
+      ]
+    },
+    "washington-nationals": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "washington-nationals",
+      "primary": "symbol",
+      "fingerprint": {
+        "logo.svg": "ef4765f196a247a4"
+      },
+      "variants": [
+        {
+          "key": "symbol",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "color",
+          "label": "심볼형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 1.0,
+          "provider": "wikimedia",
+          "origin": "collected",
+          "order": 30
+        },
+        {
+          "key": "official-mlb-cap-20261012",
+          "label": "MLB 공식 구단 심볼 · 2026-10-12 확인",
+          "form": "symbol",
+          "lang": "en",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-mlb-20261012/69e019986481b7844b54.svg",
+            "png": "sources/official-mlb-20261012/6a26cf37588eafb60e17.png"
+          },
+          "preview_png": "sources/official-mlb-20261012/f68917b4ad2bd068bd16.png",
+          "source_url": "https://www.mlbstatic.com/team-logos/120.svg",
+          "provider": "MLB 공식 CDN",
+          "official_distribution": true,
+          "origin": "official",
+          "order": 1
+        }
+      ]
+    },
+    "new-york-mets": {
+      "schema": 1,
+      "id": "new-york-mets",
+      "primary": "legacy-original",
+      "variants": [
+        {
+          "key": "legacy-original",
+          "label": "기존 수집 로고 · 시기 미확인",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "logo.svg"
+          },
+          "origin": "collected",
+          "order": 0
+        },
+        {
+          "key": "official-mlb-cap-20261012",
+          "label": "MLB 공식 구단 심볼 · 2026-10-12 확인",
+          "form": "symbol",
+          "lang": "en",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-mlb-20261012/b8214420e8588f91928f.svg",
+            "png": "sources/official-mlb-20261012/49919ee49c82338e1cc1.png"
+          },
+          "preview_png": "sources/official-mlb-20261012/485cf2c569b05c9bd844.png",
+          "source_url": "https://www.mlbstatic.com/team-logos/121.svg",
+          "provider": "MLB 공식 CDN",
+          "official_distribution": true,
+          "origin": "official",
+          "order": 1
+        }
+      ]
+    },
+    "hanshin-tigers": {
+      "schema": 1,
+      "id": "hanshin-tigers",
+      "primary": "official-npb-20261012",
+      "variants": [
+        {
+          "key": "official-npb-20261012",
+          "label": "구단 공식 사이트 수록 로고 · 제작 시기 미확인",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-baseball-20261012/5b33e5c170f8b7ac5304.svg",
+            "png": "sources/official-baseball-20261012/b03ecef24fc65196795c.png"
+          },
+          "preview_png": "sources/official-baseball-20261012/11ad3b562ef05b9eb5bc.png",
+          "source_url": "https://www.fighters.co.jp/media/sites/2/top/team_logo-t.svg",
+          "origin": "official",
+          "official_distribution": true,
+          "order": 0
+        }
+      ]
+    },
+    "yomiuri-giants": {
+      "schema": 1,
+      "id": "yomiuri-giants",
+      "primary": null,
+      "variants": [
+        {
+          "key": "official-npb-20261012",
+          "label": "구단 공식 사이트 수록 로고 · 제작 시기 미확인",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-baseball-20261012/3c116d50c194d787bcdd.svg",
+            "png": "sources/official-baseball-20261012/e64218c43cee3b90a5e2.png"
+          },
+          "preview_png": "sources/official-baseball-20261012/5ab00fede6fa36085bc9.png",
+          "source_url": "https://www.fighters.co.jp/media/sites/2/top/team_logo-g.svg",
+          "origin": "official",
+          "official_distribution": true,
+          "order": 0
+        }
+      ]
+    },
+    "chunichi-dragons": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "chunichi-dragons",
+      "primary": "symbol",
+      "fingerprint": {
+        "logo.svg": "0fb85530dec76da7"
+      },
+      "variants": [
+        {
+          "key": "symbol",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "color",
+          "label": "심볼형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 1.0,
+          "provider": "wikimedia",
+          "origin": "collected",
+          "order": 30
+        },
+        {
+          "key": "official-npb-20261012",
+          "label": "구단 공식 사이트 수록 로고 · 제작 시기 미확인",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-baseball-20261012/7bc789199d0b6b9e8dc3.svg",
+            "png": "sources/official-baseball-20261012/ce94abc6e58c6d5519da.png"
+          },
+          "preview_png": "sources/official-baseball-20261012/5a421b111e964054885d.png",
+          "source_url": "https://www.fighters.co.jp/media/sites/2/top/team_logo-d.svg",
+          "origin": "official",
+          "official_distribution": true,
+          "order": 1
+        }
+      ]
+    },
+    "hiroshima-toyo-carp": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "hiroshima-toyo-carp",
+      "primary": "symbol",
+      "fingerprint": {
+        "logo.svg": "4e101fb8c6951fed"
+      },
+      "variants": [
+        {
+          "key": "symbol",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "color",
+          "label": "심볼형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 1.0,
+          "provider": "wikimedia",
+          "origin": "collected",
+          "order": 30
+        },
+        {
+          "key": "official-npb-20261012",
+          "label": "구단 공식 사이트 수록 로고 · 제작 시기 미확인",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-baseball-20261012/1995ab6e57b452d8759c.svg",
+            "png": "sources/official-baseball-20261012/f11fe7c589b7a6c0ef44.png"
+          },
+          "preview_png": "sources/official-baseball-20261012/b75918a5b8507eb06f05.png",
+          "source_url": "https://www.fighters.co.jp/media/sites/2/top/team_logo-c.svg",
+          "origin": "official",
+          "official_distribution": true,
+          "order": 1
+        }
+      ]
+    },
+    "tokyo-yakult-swallows": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "tokyo-yakult-swallows",
+      "primary": "symbol",
+      "fingerprint": {
+        "logo.svg": "a0699243e713bb28"
+      },
+      "variants": [
+        {
+          "key": "symbol",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "color",
+          "label": "심볼형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 1.0,
+          "provider": "wikimedia",
+          "origin": "collected",
+          "order": 30
+        },
+        {
+          "key": "official-npb-20261012",
+          "label": "구단 공식 사이트 수록 로고 · 제작 시기 미확인",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-baseball-20261012/0221f34e3aa18bc6a9a4.svg",
+            "png": "sources/official-baseball-20261012/cc30e39ab7328d01fc67.png"
+          },
+          "preview_png": "sources/official-baseball-20261012/b19824a3b23f9c422449.png",
+          "source_url": "https://www.fighters.co.jp/media/sites/2/top/team_logo-s.svg",
+          "origin": "official",
+          "official_distribution": true,
+          "order": 1
+        }
+      ]
+    },
+    "fukuoka-softbank-hawks": {
+      "schema": 1,
+      "id": "fukuoka-softbank-hawks",
+      "primary": null,
+      "variants": [
+        {
+          "key": "official-npb-20261012",
+          "label": "구단 공식 사이트 수록 로고 · 제작 시기 미확인",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-baseball-20261012/b1f43324e72720d77fc4.svg",
+            "png": "sources/official-baseball-20261012/cd1b88e227c3d3cfd08e.png"
+          },
+          "preview_png": "sources/official-baseball-20261012/3b7b3421bd04a60f25bc.png",
+          "source_url": "https://www.fighters.co.jp/media/sites/2/top/team_logo-h.svg",
+          "origin": "official",
+          "official_distribution": true,
+          "order": 0
+        }
+      ]
+    },
+    "orix-buffaloes": {
+      "schema": 1,
+      "id": "orix-buffaloes",
+      "primary": null,
+      "variants": [
+        {
+          "key": "official-npb-20261012",
+          "label": "구단 공식 사이트 수록 로고 · 제작 시기 미확인",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-baseball-20261012/185ec40b1d590e98ccf5.svg",
+            "png": "sources/official-baseball-20261012/31e5fd3e8637662ade12.png"
+          },
+          "preview_png": "sources/official-baseball-20261012/362af0f0b16338661769.png",
+          "source_url": "https://www.fighters.co.jp/media/sites/2/top/team_logo-b.svg",
+          "origin": "official",
+          "official_distribution": true,
+          "order": 0
+        }
+      ]
+    },
+    "tohoku-rakuten-golden-eagles": {
+      "schema": 1,
+      "id": "tohoku-rakuten-golden-eagles",
+      "primary": "official-npb-20261012",
+      "variants": [
+        {
+          "key": "official-npb-20261012",
+          "label": "구단 공식 사이트 수록 로고 · 제작 시기 미확인",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-baseball-20261012/553ad8e5772b5a1a91e4.svg",
+            "png": "sources/official-baseball-20261012/268431d3e052d959f820.png"
+          },
+          "preview_png": "sources/official-baseball-20261012/a34c3f3eea95c7e70b0e.png",
+          "source_url": "https://www.fighters.co.jp/media/sites/2/top/team_logo-e.svg",
+          "origin": "official",
+          "official_distribution": true,
+          "order": 0
+        }
+      ]
+    },
+    "saitama-seibu-lions": {
+      "schema": 1,
+      "id": "saitama-seibu-lions",
+      "primary": "official-npb-20261012",
+      "variants": [
+        {
+          "key": "official-npb-20261012",
+          "label": "구단 공식 사이트 수록 로고 · 제작 시기 미확인",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-baseball-20261012/f6d9c88f1155d4be9c17.svg",
+            "png": "sources/official-baseball-20261012/173661a9b10d95f3fb63.png"
+          },
+          "preview_png": "sources/official-baseball-20261012/92ca7bc61a5854d6c8e3.png",
+          "source_url": "https://www.fighters.co.jp/media/sites/2/top/team_logo-l.svg",
+          "origin": "official",
+          "official_distribution": true,
+          "order": 0
+        }
+      ]
+    },
+    "chiba-lotte-marines": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "chiba-lotte-marines",
+      "primary": "symbol",
+      "fingerprint": {
+        "logo.svg": "e808c5d8b5161cf0"
+      },
+      "variants": [
+        {
+          "key": "symbol",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "mono-dark",
+          "label": "심볼형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 1.0,
+          "provider": "wikimedia",
+          "origin": "collected",
+          "order": 30
+        },
+        {
+          "key": "official-npb-20261012",
+          "label": "구단 공식 사이트 수록 로고 · 제작 시기 미확인",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-baseball-20261012/27049b8d8b5342225efb.svg",
+            "png": "sources/official-baseball-20261012/1bb2b33b9b0812134025.png"
+          },
+          "preview_png": "sources/official-baseball-20261012/cdc4aea425510615b71d.png",
+          "source_url": "https://www.fighters.co.jp/media/sites/2/top/team_logo-m.svg",
+          "origin": "official",
+          "official_distribution": true,
+          "order": 1
+        }
+      ]
+    },
+    "hokkaido-nippon-ham-fighters": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "hokkaido-nippon-ham-fighters",
+      "primary": "symbol",
+      "fingerprint": {
+        "logo.svg": "c38dc60594f1d742"
+      },
+      "variants": [
+        {
+          "key": "symbol",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "color",
+          "label": "심볼형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 1.0,
+          "provider": "wikimedia",
+          "origin": "collected",
+          "order": 30
+        },
+        {
+          "key": "official-npb-20261012",
+          "label": "구단 공식 사이트 수록 로고 · 제작 시기 미확인",
+          "form": "wordmark",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-baseball-20261012/4aae1b88ec97d980aefc.svg",
+            "png": "sources/official-baseball-20261012/2f58306c068ec227411d.png"
+          },
+          "preview_png": "sources/official-baseball-20261012/74ac3342793774d8b5a5.png",
+          "source_url": "https://www.fighters.co.jp/media/sites/2/common/logo_fighters.svg",
+          "origin": "official",
+          "official_distribution": true,
+          "order": 1
+        }
+      ]
+    },
+    "ssglanders": {
+      "schema": 1,
+      "id": "ssglanders",
+      "primary": null,
+      "variants": [
+        {
+          "key": "official-ssg-01mainlogoemblem-20261012",
+          "label": "메인 엠블럼 · 공식 AI 추출",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-baseball-20261012/3e7b546808733bee37a8.svg",
+            "png": "sources/official-baseball-20261012/810c78499ab6fa4139d6.png"
+          },
+          "preview_png": "sources/official-baseball-20261012/184e34b5caec9ee40e70.png",
+          "source_url": "https://www.ssglanders.com/landers/emblem",
+          "origin": "official",
+          "official_distribution": true,
+          "order": 0
+        },
+        {
+          "key": "official-ssg-02mainlogowordmark-20261012",
+          "label": "워드마크 · 공식 AI 추출",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-baseball-20261012/cd49d0713518addbe5d8.svg",
+            "png": "sources/official-baseball-20261012/98ba6c77fee3b4d9d98e.png"
+          },
+          "preview_png": "sources/official-baseball-20261012/3a2900707516158d8676.png",
+          "source_url": "https://www.ssglanders.com/landers/emblem",
+          "origin": "official",
+          "official_distribution": true,
+          "order": 1
+        },
+        {
+          "key": "official-ssg-02mainlogowordmark-reverse-20261012",
+          "label": "워드마크 · 적색 배경 공식 응용형",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-baseball-20261012/da7689cdaf9e4f5d1862.svg",
+            "png": "sources/official-baseball-20261012/62f6500e0bfa61454915.png"
+          },
+          "preview_png": "sources/official-baseball-20261012/7325a7f70e4c3896dbc8.png",
+          "source_url": "https://www.ssglanders.com/landers/emblem",
+          "origin": "official",
+          "official_distribution": true,
+          "order": 2
+        },
+        {
+          "key": "official-ssg-03symbolmark-20261012",
+          "label": "심볼마크 · 공식 AI 추출",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-baseball-20261012/31395d623305b2baa300.svg",
+            "png": "sources/official-baseball-20261012/d1eb4d2933dcb8677568.png"
+          },
+          "preview_png": "sources/official-baseball-20261012/529c8c8f16e4f9465cc1.png",
+          "source_url": "https://www.ssglanders.com/landers/emblem",
+          "origin": "official",
+          "official_distribution": true,
+          "order": 3
+        },
+        {
+          "key": "official-ssg-03symbolmark-reverse-20261012",
+          "label": "심볼마크 · 적색 배경 공식 응용형",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-baseball-20261012/00c5f15edfabdc2b9b18.svg",
+            "png": "sources/official-baseball-20261012/6a9477bb526f23e33085.png"
+          },
+          "preview_png": "sources/official-baseball-20261012/a245b35eb55d7f8a437a.png",
+          "source_url": "https://www.ssglanders.com/landers/emblem",
+          "origin": "official",
+          "official_distribution": true,
+          "order": 4
+        },
+        {
+          "key": "official-ssg-04subemblem-20261012",
+          "label": "보조 엠블럼 · 공식 AI 추출",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-baseball-20261012/9bd8047c2ff9d7a854e6.svg",
+            "png": "sources/official-baseball-20261012/f3109a17fa079736eced.png"
+          },
+          "preview_png": "sources/official-baseball-20261012/562b3460b6ea0f320094.png",
+          "source_url": "https://www.ssglanders.com/landers/emblem",
+          "origin": "official",
+          "official_distribution": true,
+          "order": 5
+        },
+        {
+          "key": "official-ssg-04subemblem-reverse-20261012",
+          "label": "보조 엠블럼 · 적색 배경 공식 응용형",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-baseball-20261012/da17948c65c34df0bd20.svg",
+            "png": "sources/official-baseball-20261012/85efeda3cf6e707b2564.png"
+          },
+          "preview_png": "sources/official-baseball-20261012/972b6da07e27f7cdee21.png",
+          "source_url": "https://www.ssglanders.com/landers/emblem",
+          "origin": "official",
+          "official_distribution": true,
+          "order": 6
+        },
+        {
+          "key": "official-ssg-mascotlandy-20261012",
+          "label": "랜디 마스코트 기본형 · 공식 AI 추출",
+          "form": "mascot",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-baseball-20261012/8702556e6212b5b7500f.svg",
+            "png": "sources/official-baseball-20261012/42093199554ad5218ff2.png"
+          },
+          "preview_png": "sources/official-baseball-20261012/85ba0075d692c8dc5b89.png",
+          "source_url": "https://www.ssglanders.com/landers/emblem",
+          "origin": "official",
+          "official_distribution": true,
+          "order": 7
+        },
+        {
+          "key": "official-ssg-mascotpoorie-20261012",
+          "label": "푸리 마스코트 기본형 · 공식 AI 추출",
+          "form": "mascot",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-baseball-20261012/7ac201d3fd8e17beea5f.svg",
+            "png": "sources/official-baseball-20261012/c5d384e2ca6c67d57491.png"
+          },
+          "preview_png": "sources/official-baseball-20261012/94c8515e3453fed0a702.png",
+          "source_url": "https://www.ssglanders.com/landers/emblem",
+          "origin": "official",
+          "official_distribution": true,
+          "order": 8
+        },
+        {
+          "key": "official-ssg-mascotbatty-20261012",
+          "label": "배티 마스코트 기본형 · 공식 AI 추출",
+          "form": "mascot",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-baseball-20261012/d38fc1fa7380fe4567d6.svg",
+            "png": "sources/official-baseball-20261012/f437575b01023837121e.png"
+          },
+          "preview_png": "sources/official-baseball-20261012/5700f8f47448a681edfd.png",
+          "source_url": "https://www.ssglanders.com/landers/emblem",
+          "origin": "official",
+          "official_distribution": true,
+          "order": 9
+        }
+      ]
+    },
+    "yokohama-dena-baystars": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "yokohama-dena-baystars",
+      "primary": "symbol",
+      "fingerprint": {
+        "logo.svg": "665b28878e0e5923"
+      },
+      "variants": [
+        {
+          "key": "symbol",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "color",
+          "label": "심볼형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 1.0,
+          "provider": "wikimedia",
+          "origin": "collected",
+          "order": 30
+        },
+        {
+          "key": "official-baystars-20261012",
+          "label": "구단 공식 엠블럼 PNG · 원본 290×274",
+          "form": "symbol",
+          "lang": "en",
+          "color": "original",
+          "files": {
+            "png": "sources/official-baseball-20261012/67ad4002887964d75c32.png"
+          },
+          "origin": "official",
+          "source_url": "https://asset.baystars.co.jp/images/common/logo.png",
+          "order": 1
+        }
+      ]
+    }
+  }
+}
