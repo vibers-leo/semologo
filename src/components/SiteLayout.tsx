@@ -4,6 +4,7 @@ import { SearchProvider } from "@/lib/search-context";
 import { fetchCatalogStats } from "@/lib/brands";
 import { CATALOG_SNAPSHOT, siteCopy } from "@/lib/site-copy";
 import Footer from "@/components/Footer";
+import { CDN } from "@/lib/cdn";
 import "@/app/globals.css";
 import { LocaleProvider } from "@/lib/locale-context";
 import type { Locale } from "@/lib/locales";
@@ -127,6 +128,7 @@ export default async function RootLayout({
         />
         {/* 광고 서버 선연결 — 슬롯 iframe 첫 요청의 TLS 핸드셰이크 선처리 */}
         <link rel="preconnect" href="https://ai.vibers.co.kr" />
+        <link rel="preconnect" href={new URL(CDN).origin} crossOrigin="anonymous" />
         <Script
           src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`}
           strategy="afterInteractive"
