@@ -1,5 +1,5 @@
 # Node 22 필수 — pnpm 11 은 Node 20 에서 ERR_UNKNOWN_BUILTIN_MODULE 로 죽는다
-FROM node:22-alpine AS base
+FROM node:22-bookworm-slim AS base
 RUN corepack enable
 WORKDIR /app
 
@@ -38,7 +38,7 @@ RUN pnpm run build
 
 FROM base AS runner
 ENV NODE_ENV=production NEXT_TELEMETRY_DISABLED=1 PORT=3000 HOSTNAME=0.0.0.0
-RUN addgroup -g 1001 -S nodejs && adduser -S nextjs -u 1001
+RUN groupadd --gid 1001 nodejs && useradd --uid 1001 --gid nodejs --no-create-home nextjs
 COPY --from=builder /app/public ./public
 # standalone 은 server.js 와 최소 node_modules 만 담는다
 COPY --from=builder --chown=nextjs:nodejs /app/.next/standalone ./
