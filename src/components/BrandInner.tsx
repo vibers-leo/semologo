@@ -7,7 +7,7 @@ import { useLocale, T } from "@/lib/locale-context";
 import { useEffect, useState, useCallback, useRef } from "react";
 import Link from "next/link";
 import type { Brand, VariantManifest } from "@/lib/brands";
-import { fetchVariants } from "@/lib/client-variants";
+import { fetchVariants, cachedVariants } from "@/lib/client-variants";
 import { BRAND_RELATIONS, RELATION_LABEL, RELATION_COLOR } from "@/lib/brand-relations";
 import { getClientAuth, getClientDb } from "@/lib/firebase";
 import LogoVersionHistory from "./LogoVersionHistory";
@@ -293,9 +293,10 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
   ).slice(0, 8);
 
   // 변형 매니페스트 — 없으면 null 이고, 아래에서 기존 고정 목록으로 폴백한다
-  const [manifest, setManifest] = useState<VariantManifest | null>(null);
+  const [manifest, setManifest] = useState<VariantManifest | null>(() => cachedVariants(brand.id));
   useEffect(() => {
     let alive = true;
+    setManifest(cachedVariants(brand.id));
     fetchVariants(brand.id).then(m => { if (alive) setManifest(m); });
     return () => { alive = false; };
   }, [brand.id]);

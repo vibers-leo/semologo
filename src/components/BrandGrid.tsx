@@ -17,7 +17,26 @@ import { CDN, VERSION, CATALOG_VERSION } from "@/lib/cdn";
 import { sendHit } from "@/lib/hit";
 import { loadFlaggedIds } from "@/lib/logo-quality";
 import { trackEvent } from "@/lib/analytics";
+const loadBrandModal = () => import("./BrandModal");
 const BrandModal = dynamic(() => import("./BrandModal"));
+import { fetchVariants } from "@/lib/client-variants";
+function prepareBrand(brand: Brand) {
+  void loadBrandModal();
+  void fetchVariants(brand.id);
+}
+async function warmCardImages(brands: Brand[]) {
+  // Start before committing the next page; a bounded wait keeps failed assets from blocking browsing.
+  await Promise.race([
+    Promise.allSettled(brands.slice(0, 18).map(brand => {
+      const image = new window.Image();
+      image.crossOrigin = "anonymous";
+      image.decoding = "async";
+      image.src = logoImageCandidates(brand)[0];
+      return image.decode();
+    })),
+    new Promise(resolve => window.setTimeout(resolve, 300)),
+  ]);
+}
 import { useSearch } from "@/lib/search-context";
 import { listPublishedLogoPosts, type LogoPost } from "@/lib/logo-posts";
 
@@ -55,6 +74,11 @@ export default function BrandGrid({
   initialCatalogStats?: CatalogStats | null;
 }) {
   const {en, t, path} = useLocale();
+  useEffect(() => {
+    // Warm code after the initial paint, so the first click does not wait for a JS chunk.
+    const timer = window.setTimeout(() => { void loadBrandModal(); }, 1500);
+    return () => window.clearTimeout(timer);
+  }, []);
   const { query, selectedCats, toggleCat, clearCats } = useSearch();
   const [brands, setBrands] = useState<Brand[]>(initialBrands);
   const [recentPosts, setRecentPosts] = useState<Brand[]>([]);
@@ -164,24 +188,14 @@ export default function BrandGrid({
       if (!response.ok) throw new Error(`HTTP ${response.status}`);
       const data = await response.json() as { brands: Brand[]; total: number };
       if (requestId !== requestIdRef.current) return;
+      if (typeof window !== "undefined") await warmCardImages(data.brands);
+      if (requestId !== requestIdRef.current) return;
       setBrands(current => replace ? data.brands : [
         ...current,
         ...data.brands.filter(brand => !current.some(existing => existing.id === brand.id)),
       ]);
       setApiOrdered(true);
       setResultTotal(data.total);
-      // 다음 스크롤에서 보일 첫 카드들을 브라우저 캐시에 미리 넣어
-      // 카드가 화면에 들어오는 순간 빈 체커가 보이지 않게 한다.
-      // 전체 60장을 한꺼번에 요청하지 않고 18장만 선예약해 네트워크 폭주를 막는다.
-      if (typeof window !== "undefined") {
-        for (const brand of data.brands.slice(0, 18)) {
-          const src = logoImageCandidates(brand)[0];
-          const warm = new window.Image();
-          warm.crossOrigin = "anonymous";
-          warm.decoding = "async";
-          warm.src = src;
-        }
-      }
     } catch {
       if (requestId === requestIdRef.current) setLoadError(true);
     } finally {
@@ -607,7 +621,7 @@ function BrandCard({ brand, onClick, priority, bgVote }: { brand: Brand; onClick
   const initSrc = votedSrc || candidates[0];
 
   return (
-    <div className="logo-card" onClick={() => { trackEvent("brand_opened", { brand_id: brand.id, category: brand.category || "기타" }); sendHit(brand.id, "view"); onClick(); }}>
+    <div className="logo-card" onMouseEnter={() => prepareBrand(brand)} onTouchStart={() => prepareBrand(brand)} onFocus={() => prepareBrand(brand)} onClick={() => { trackEvent("brand_opened", { brand_id: brand.id, category: brand.category || "기타" }); sendHit(brand.id, "view"); onClick(); }}>
       {/* 흰색 로고는 밝은 체커 배경에서 안 보여 '빈 카드'처럼 된다 → 어두운 배경 */}
               <div className="card-preview" style={(bgVote === "dark" || (!bgVote && (brand.light || brand.light_logo || brand.dark_variant === "white"))) ? { background: "#18181b", backgroundImage: "none" } : undefined}>
         {/* eslint-disable-next-line @next/next/no-img-element */}

@@ -3,7 +3,7 @@ set -euo pipefail
 volume=/Volumes/HDD-1TB
 root="$volume/semologo-migration"
 # Fail before creating any path when the external disk is disconnected.
-/sbin/mount | /usr/bin/grep -Fq " on $volume (" || { echo '세모로고 1F 디스크를 연결해 주세요.' >&2; exit 1; }
+/sbin/mount | /usr/bin/grep -F " on $volume (" >/dev/null || { echo '세모로고 1F 디스크를 연결해 주세요.' >&2; exit 1; }
 project="$root/20261005/project"
 [ -d "$project/.git" ] || { echo '세모로고 작업 폴더를 확인해 주세요.' >&2; exit 1; }
 export TMPDIR="$root/task-tmp/runtime/"

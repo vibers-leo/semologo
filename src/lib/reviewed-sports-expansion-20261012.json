@@ -338,7 +338,21 @@
         "Buffalo Sabres",
         "NHL",
         "아이스하키"
-      ]
+      ],
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": "sources/official-sports-20261012/a18563d8be078c5d353f.svg",
+      "svg_transparent": "sources/official-sports-20261012/a18563d8be078c5d353f.svg",
+      "logo_png": "sources/official-sports-20261012/d1feafa865d438f1cc55.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/buffalo-sabres/sources/official-sports-20261012/3d1967005d8218d8ec2f.png",
+      "presentation": {
+        "file": "sources/official-sports-20261012/3d1967005d8218d8ec2f.png",
+        "bg": "light"
+      },
+      "light": false,
+      "light_logo": false,
+      "dark_variant": false,
+      "asset_review_status": "verified"
     },
     "vancouver-canucks": {
       "variants_n": 2,
@@ -358,7 +372,21 @@
         "Detroit Red Wings",
         "NHL",
         "아이스하키"
-      ]
+      ],
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": "sources/official-sports-20261012/df86a9617b9d0ee31e59.svg",
+      "svg_transparent": "sources/official-sports-20261012/df86a9617b9d0ee31e59.svg",
+      "logo_png": "sources/official-sports-20261012/9ae290cd0005e5eac7bb.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/detroit-red-wings/sources/official-sports-20261012/97d1197caf33dc028035.png",
+      "presentation": {
+        "file": "sources/official-sports-20261012/97d1197caf33dc028035.png",
+        "bg": "light"
+      },
+      "light": false,
+      "light_logo": false,
+      "dark_variant": false,
+      "asset_review_status": "verified"
     },
     "los-angeles-kings": {
       "variants_n": 2,
@@ -368,7 +396,21 @@
         "Los Angeles Kings",
         "NHL",
         "아이스하키"
-      ]
+      ],
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": "sources/official-sports-20261012/8516b2daf79eba139ff0.svg",
+      "svg_transparent": "sources/official-sports-20261012/8516b2daf79eba139ff0.svg",
+      "logo_png": "sources/official-sports-20261012/c0e77df1b040fe92f319.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/los-angeles-kings/sources/official-sports-20261012/e04cd277ffd432791032.png",
+      "presentation": {
+        "file": "sources/official-sports-20261012/e04cd277ffd432791032.png",
+        "bg": "light"
+      },
+      "light": false,
+      "light_logo": false,
+      "dark_variant": false,
+      "asset_review_status": "verified"
     },
     "chicago-blackhawks": {
       "variants_n": 2,
@@ -378,7 +420,21 @@
         "Chicago Blackhawks",
         "NHL",
         "아이스하키"
-      ]
+      ],
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": "sources/official-sports-20261012/004c62e1715baa972087.svg",
+      "svg_transparent": "sources/official-sports-20261012/004c62e1715baa972087.svg",
+      "logo_png": "sources/official-sports-20261012/c6a0db9d47a7e909510b.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/chicago-blackhawks/sources/official-sports-20261012/6b0871856dff9aac9c30.png",
+      "presentation": {
+        "file": "sources/official-sports-20261012/6b0871856dff9aac9c30.png",
+        "bg": "light"
+      },
+      "light": false,
+      "light_logo": false,
+      "dark_variant": false,
+      "asset_review_status": "verified"
     },
     "philadelphia-flyers": {
       "variants_n": 2,
@@ -398,7 +454,21 @@
         "Calgary Flames",
         "NHL",
         "아이스하키"
-      ]
+      ],
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": "sources/official-sports-20261012/6c7d437480888d242fff.svg",
+      "svg_transparent": "sources/official-sports-20261012/6c7d437480888d242fff.svg",
+      "logo_png": "sources/official-sports-20261012/c54bc0d0b53e7e120f41.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/calgary-flames/sources/official-sports-20261012/3a34cfc2fca88fe103e7.png",
+      "presentation": {
+        "file": "sources/official-sports-20261012/3a34cfc2fca88fe103e7.png",
+        "bg": "light"
+      },
+      "light": false,
+      "light_logo": false,
+      "dark_variant": false,
+      "asset_review_status": "verified"
     },
     "atlanta-hawks": {
       "variants_n": 2,
@@ -408,7 +478,21 @@
         "Atlanta Hawks",
         "NBA",
         "농구"
-      ]
+      ],
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": "sources/official-sports-20261012/efe7639e6daac1a103c1.svg",
+      "svg_transparent": "sources/official-sports-20261012/efe7639e6daac1a103c1.svg",
+      "logo_png": "sources/official-sports-20261012/c7c23bb2f6d07e07e838.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/atlanta-hawks/sources/official-sports-20261012/37a601ef4a313598e627.png",
+      "presentation": {
+        "file": "sources/official-sports-20261012/37a601ef4a313598e627.png",
+        "bg": "light"
+      },
+      "light": false,
+      "light_logo": false,
+      "dark_variant": false,
+      "asset_review_status": "verified"
     },
     "boston-celtics": {
       "variants_n": 3,
@@ -448,7 +532,21 @@
         "Chicago Bulls",
         "NBA",
         "농구"
-      ]
+      ],
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": "sources/official-sports-20261012/a11d0d6480b75e4eebca.svg",
+      "svg_transparent": "sources/official-sports-20261012/a11d0d6480b75e4eebca.svg",
+      "logo_png": "sources/official-sports-20261012/91fd0ad9d3a2983f64c8.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/chicago-bulls/sources/official-sports-20261012/11645143e996a9a96260.png",
+      "presentation": {
+        "file": "sources/official-sports-20261012/11645143e996a9a96260.png",
+        "bg": "light"
+      },
+      "light": false,
+      "light_logo": false,
+      "dark_variant": false,
+      "asset_review_status": "verified"
     },
     "dallas-mavericks": {
       "variants_n": 2,
@@ -2165,7 +2263,7 @@
     "buffalo-sabres": {
       "schema": 1,
       "id": "buffalo-sabres",
-      "primary": "legacy-original",
+      "primary": "official-nhl-20261012",
       "variants": [
         {
           "key": "legacy-original",
@@ -2235,7 +2333,7 @@
     "detroit-red-wings": {
       "schema": 1,
       "id": "detroit-red-wings",
-      "primary": "legacy-original",
+      "primary": "official-nhl-20261012",
       "variants": [
         {
           "key": "legacy-original",
@@ -2270,7 +2368,7 @@
     "los-angeles-kings": {
       "schema": 1,
       "id": "los-angeles-kings",
-      "primary": "legacy-original",
+      "primary": "official-nhl-20261012",
       "variants": [
         {
           "key": "legacy-original",
@@ -2305,7 +2403,7 @@
     "chicago-blackhawks": {
       "schema": 1,
       "id": "chicago-blackhawks",
-      "primary": "legacy-original",
+      "primary": "official-nhl-20261012",
       "variants": [
         {
           "key": "legacy-original",
@@ -2382,7 +2480,7 @@
     "calgary-flames": {
       "schema": 1,
       "id": "calgary-flames",
-      "primary": "legacy-original",
+      "primary": "official-nhl-20261012",
       "variants": [
         {
           "key": "legacy-original",
@@ -2417,7 +2515,7 @@
     "atlanta-hawks": {
       "schema": 1,
       "id": "atlanta-hawks",
-      "primary": "legacy-original",
+      "primary": "official-nba-20261012",
       "variants": [
         {
           "key": "legacy-original",
@@ -2596,7 +2694,7 @@
     "chicago-bulls": {
       "schema": 1,
       "id": "chicago-bulls",
-      "primary": "legacy-original",
+      "primary": "official-nba-20261012",
       "variants": [
         {
           "key": "legacy-original",
