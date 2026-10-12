@@ -1,5 +1,5 @@
 """Publish reviewed community objects without changing existing official representatives."""
-import json,hashlib,shlex,mimetypes,subprocess,concurrent.futures,argparse,urllib.parse
+import json,hashlib,shlex,mimetypes,subprocess,concurrent.futures,argparse,urllib.parse,threading,datetime
 from pathlib import Path
 import boto3
 from botocore.config import Config
@@ -13,8 +13,14 @@ for line in Path('/Users/juuuno/Desktop/macminim4/.secrets/보안.env').read_tex
  k,v=line.split('=',1)
  if k in ['NCP_ACCESS_KEY','NCP_SECRET_KEY']:env[k]=shlex.split(v,comments=True)[0]
 s3=boto3.client('s3',endpoint_url='https://kr.object.ncloudstorage.com',region_name='kr-standard',aws_access_key_id=env['NCP_ACCESS_KEY'],aws_secret_access_key=env['NCP_SECRET_KEY'],config=Config(signature_version='s3v4',request_checksum_calculation='when_required',response_checksum_validation='when_required',max_pool_connections=4))
+checkpoint=folder/'cdn-verified-checkpoint.jsonl';checkpoint_lock=threading.Lock();verified={}
+if checkpoint.exists():
+ for line in checkpoint.read_text().splitlines():
+  item=json.loads(line)
+  if item.get('cdn_verified') and (datetime.datetime.now(datetime.timezone.utc)-datetime.datetime.fromisoformat(item['checked_at'])).total_seconds()<86400:verified[(item['key'],item['sha256'])]=item
 def publish(row):
  raw=(root/row['file']).read_bytes();assert hashlib.sha256(raw).hexdigest()==row['sha256']
+ if (row['key'],row['sha256']) in verified:return verified[(row['key'],row['sha256'])]
  try:assert s3.get_object(Bucket='vibers-bucket',Key=row['key'])['Body'].read()==raw
  except ClientError as e:
   if e.response['Error']['Code'] not in ['NoSuchKey','404']:raise
@@ -22,7 +28,10 @@ def publish(row):
  assert s3.get_object(Bucket='vibers-bucket',Key=row['key'])['Body'].read()==raw
  url='https://logo.vibers.co.kr/'+urllib.parse.quote(row['key'],safe='/')
  assert subprocess.run(['curl','--http1.1','--retry','2','--retry-delay','1','--fail','--silent','--show-error','--max-time','40',url],capture_output=True,check=True).stdout==raw
- return {'key':row['key'],'sha256':row['sha256'],'cdn_verified':True}
+ result={'key':row['key'],'sha256':row['sha256'],'cdn_verified':True,'checked_at':datetime.datetime.now(datetime.timezone.utc).isoformat()}
+ with checkpoint_lock:
+  with checkpoint.open('a') as f:f.write(json.dumps(result)+'\n')
+ return result
 with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool:results=list(pool.map(publish,json.loads((folder/'uploads.json').read_text())))
 (folder/'cdn-verification.json').write_text(json.dumps(results,indent=2)+'\n');print('CDN verified',len(results),'objects',flush=True)
 release=json.loads((folder/'release.json').read_text());uploads=json.loads((folder/'uploads.json').read_text())

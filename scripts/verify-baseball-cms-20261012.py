@@ -1,7 +1,7 @@
 """Correct source attribution and verify all released official baseball variants in CMS."""
 from pathlib import Path
-import json,subprocess
-R=Path(__file__).resolve().parents[1];release=json.loads((R/'src/lib/reviewed-baseball-20261012.json').read_text())
+import json,subprocess,sys
+R=Path(__file__).resolve().parents[1];release=json.loads((Path(sys.argv[1]) if len(sys.argv)>1 else R/'src/lib/reviewed-baseball-20261012.json').read_text())
 script='const release='+json.dumps(release,ensure_ascii=False)+';'+r'''
 const {Pool}=require('pg');(async()=>{const p=new Pool({connectionString:process.env.DB_VIBERS_MAIN_URL,max:1});const d=await p.connect();try{await d.query('BEGIN');let n=0;
 for(const [id,m] of Object.entries(release.variants)){

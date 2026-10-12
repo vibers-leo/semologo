@@ -35,10 +35,11 @@ import requestedBusiness from './reviewed-requested-business-20261011.json';
 import suppliedIdentities from './reviewed-supplied-identities-20261012.json';
 import identityMerges from './reviewed-identity-merges-20261012.json';
 import baseballRelease from './reviewed-baseball-20261012.json';
+import sportsExpansion from './reviewed-sports-expansion-20261012.json';
 // Later releases often add only counts or icons. Preserve previously reviewed
 // representative paths unless the later patch explicitly replaces that field.
 const releasePatches = mergeBrandPatches([
-  release.patches, backgroundMerge.patches, googleTransparent.patches, institutions.patches, institutionsNext.patches, rainbow.patches, requestedBackground.patches, netflix.patches, userSvg.patches, claudeMerge.patches, lockups.patches, yeonsu.patches, kepco.patches, chungbuk.patches, ftc.patches, cjwf.patches, seongju.patches, iconHd.patches, userIdentities.patches, cityMerges.patches, officialRecollection.patches, svgPreviews.patches, baeminGuide.patches, officialAi.patches, nextAssets.patches, sourceReflection.patches, naverRelease.patches, bankCorrections.patches, communityRelease.patches, recollectionResume.patches, sportsRelease.patches, requestedBusiness.patches, suppliedIdentities.patches, identityMerges.patches, baseballRelease.patches
+  release.patches, backgroundMerge.patches, googleTransparent.patches, institutions.patches, institutionsNext.patches, rainbow.patches, requestedBackground.patches, netflix.patches, userSvg.patches, claudeMerge.patches, lockups.patches, yeonsu.patches, kepco.patches, chungbuk.patches, ftc.patches, cjwf.patches, seongju.patches, iconHd.patches, userIdentities.patches, cityMerges.patches, officialRecollection.patches, svgPreviews.patches, baeminGuide.patches, officialAi.patches, nextAssets.patches, sourceReflection.patches, naverRelease.patches, bankCorrections.patches, communityRelease.patches, recollectionResume.patches, sportsRelease.patches, requestedBusiness.patches, suppliedIdentities.patches, identityMerges.patches, baseballRelease.patches, sportsExpansion.patches
 ]);
 
 function mergeBrandPatches(releases: unknown[]): Record<string, Partial<Brand>> {
@@ -185,4 +186,5 @@ export const reviewedVariants: Record<string, VariantManifest> = {
   ...suppliedIdentities.variants as unknown as Record<string, VariantManifest>,
   ...identityMerges.variants as unknown as Record<string, VariantManifest>,
   ...baseballRelease.variants as unknown as Record<string, VariantManifest>,
+  ...sportsExpansion.variants as unknown as Record<string, VariantManifest>,
 };

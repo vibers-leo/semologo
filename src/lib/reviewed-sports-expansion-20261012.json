@@ -1,0 +1,3816 @@
+{
+  "patches": {
+    "carolina-hurricanes": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-12T09:59:20.540954+00:00",
+      "aliases": [
+        "캐롤라이나 허리케인스",
+        "Carolina Hurricanes",
+        "NHL",
+        "아이스하키"
+      ]
+    },
+    "vegas-golden-knights": {
+      "variants_n": 1,
+      "logo_published_at": "2026-10-12T09:59:19.956218+00:00",
+      "aliases": [
+        "베이거스 골든나이츠",
+        "Vegas Golden Knights",
+        "NHL",
+        "아이스하키"
+      ],
+      "id": "vegas-golden-knights",
+      "name_ko": "베이거스 골든나이츠",
+      "name_en": "Vegas Golden Knights",
+      "category": "스포츠",
+      "origin": "GLOBAL",
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": "sources/official-sports-20261012/b02d15ccfa2510e7696a.svg",
+      "logo_png": "sources/official-sports-20261012/ed42f5f50c57f5733c69.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/vegas-golden-knights/sources/official-sports-20261012/20279496e5fc44bdc96e.png",
+      "light": false,
+      "light_logo": false,
+      "dark_variant": false,
+      "added_at": "2026-10-12",
+      "asset_origin": "NHL 공식 CDN",
+      "official_source_page": "https://www.nhl.com/info/teams/",
+      "presentation": {
+        "file": "sources/official-sports-20261012/ed42f5f50c57f5733c69.png",
+        "bg": "light"
+      }
+    },
+    "new-york-rangers": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-12T09:59:21.737613+00:00",
+      "aliases": [
+        "뉴욕 레인저스",
+        "New York Rangers",
+        "NHL",
+        "아이스하키"
+      ]
+    },
+    "edmonton-oilers": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-12T09:59:23.400795+00:00",
+      "aliases": [
+        "에드먼턴 오일러스",
+        "Edmonton Oilers",
+        "NHL",
+        "아이스하키"
+      ]
+    },
+    "tampa-bay-lightning": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-12T09:59:20.533352+00:00",
+      "aliases": [
+        "탬파베이 라이트닝",
+        "Tampa Bay Lightning",
+        "NHL",
+        "아이스하키"
+      ]
+    },
+    "anaheim-ducks": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-12T09:59:21.720239+00:00",
+      "aliases": [
+        "애너하임 덕스",
+        "Anaheim Ducks",
+        "NHL",
+        "아이스하키"
+      ]
+    },
+    "ottawa-senators": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-12T09:59:21.951833+00:00",
+      "aliases": [
+        "오타와 세너터스",
+        "Ottawa Senators",
+        "NHL",
+        "아이스하키"
+      ]
+    },
+    "seattle-kraken": {
+      "variants_n": 1,
+      "logo_published_at": "2026-10-12T09:59:22.537226+00:00",
+      "aliases": [
+        "시애틀 크라켄",
+        "Seattle Kraken",
+        "NHL",
+        "아이스하키"
+      ],
+      "id": "seattle-kraken",
+      "name_ko": "시애틀 크라켄",
+      "name_en": "Seattle Kraken",
+      "category": "스포츠",
+      "origin": "GLOBAL",
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": "sources/official-sports-20261012/941ee0182c890a3bc0b8.svg",
+      "logo_png": "sources/official-sports-20261012/a5d18d1457e9867a21a0.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/seattle-kraken/sources/official-sports-20261012/eb840bba0b27ea3f2c12.png",
+      "light": false,
+      "light_logo": false,
+      "dark_variant": false,
+      "added_at": "2026-10-12",
+      "asset_origin": "NHL 공식 CDN",
+      "official_source_page": "https://www.nhl.com/info/teams/",
+      "presentation": {
+        "file": "sources/official-sports-20261012/a5d18d1457e9867a21a0.png",
+        "bg": "light"
+      }
+    },
+    "utah-mammoth": {
+      "variants_n": 1,
+      "logo_published_at": "2026-10-12T09:59:23.595051+00:00",
+      "aliases": [
+        "유타 매머드",
+        "Utah Mammoth",
+        "NHL",
+        "아이스하키"
+      ],
+      "id": "utah-mammoth",
+      "name_ko": "유타 매머드",
+      "name_en": "Utah Mammoth",
+      "category": "스포츠",
+      "origin": "GLOBAL",
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": "sources/official-sports-20261012/c3435090b06ed74d93c7.svg",
+      "logo_png": "sources/official-sports-20261012/07fc421459232000b605.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/utah-mammoth/sources/official-sports-20261012/b2e744f2365b623fb88f.png",
+      "light": false,
+      "light_logo": false,
+      "dark_variant": false,
+      "added_at": "2026-10-12",
+      "asset_origin": "NHL 공식 CDN",
+      "official_source_page": "https://www.nhl.com/info/teams/",
+      "presentation": {
+        "file": "sources/official-sports-20261012/07fc421459232000b605.png",
+        "bg": "light"
+      }
+    },
+    "boston-bruins": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-12T09:59:23.660415+00:00",
+      "aliases": [
+        "보스턴 브루인스",
+        "Boston Bruins",
+        "NHL",
+        "아이스하키"
+      ]
+    },
+    "minnesota-wild": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-12T09:59:24.301991+00:00",
+      "aliases": [
+        "미네소타 와일드",
+        "Minnesota Wild",
+        "NHL",
+        "아이스하키"
+      ]
+    },
+    "winnipeg-jets": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-12T09:59:25.101513+00:00",
+      "aliases": [
+        "위니펙 제츠",
+        "Winnipeg Jets",
+        "NHL",
+        "아이스하키"
+      ]
+    },
+    "toronto-maple-leafs": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-12T09:59:27.441597+00:00",
+      "aliases": [
+        "토론토 메이플리프스",
+        "Toronto Maple Leafs",
+        "NHL",
+        "아이스하키"
+      ]
+    },
+    "pittsburgh-penguins": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-12T09:59:27.797050+00:00",
+      "aliases": [
+        "피츠버그 펭귄스",
+        "Pittsburgh Penguins",
+        "NHL",
+        "아이스하키"
+      ]
+    },
+    "colorado-avalanche": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-12T09:59:27.314083+00:00",
+      "aliases": [
+        "콜로라도 애벌랜치",
+        "Colorado Avalanche",
+        "NHL",
+        "아이스하키"
+      ]
+    },
+    "washington-capitals": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-12T09:59:26.113747+00:00",
+      "aliases": [
+        "워싱턴 캐피털스",
+        "Washington Capitals",
+        "NHL",
+        "아이스하키"
+      ]
+    },
+    "nashville-predators": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-12T09:59:27.890751+00:00",
+      "aliases": [
+        "내슈빌 프레더터스",
+        "Nashville Predators",
+        "NHL",
+        "아이스하키"
+      ]
+    },
+    "florida-panthers": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-12T09:59:30.307519+00:00",
+      "aliases": [
+        "플로리다 팬서스",
+        "Florida Panthers",
+        "NHL",
+        "아이스하키"
+      ]
+    },
+    "san-jose-sharks": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-12T09:59:32.636448+00:00",
+      "aliases": [
+        "산호세 샤크스",
+        "San Jose Sharks",
+        "NHL",
+        "아이스하키"
+      ]
+    },
+    "dallas-stars": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-12T09:59:30.857634+00:00",
+      "aliases": [
+        "댈러스 스타스",
+        "Dallas Stars",
+        "NHL",
+        "아이스하키"
+      ]
+    },
+    "st-louis-blues": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-12T09:59:30.969955+00:00",
+      "aliases": [
+        "세인트루이스 블루스",
+        "St. Louis Blues",
+        "NHL",
+        "아이스하키"
+      ]
+    },
+    "montreal-canadiens": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-12T09:59:31.178938+00:00",
+      "aliases": [
+        "몬트리올 캐네이디언스",
+        "Montréal Canadiens",
+        "NHL",
+        "아이스하키"
+      ]
+    },
+    "new-jersey-devils": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-12T09:59:35.695824+00:00",
+      "aliases": [
+        "뉴저지 데블스",
+        "New Jersey Devils",
+        "NHL",
+        "아이스하키"
+      ]
+    },
+    "columbus-blue-jackets": {
+      "variants_n": 1,
+      "logo_published_at": "2026-10-12T09:59:31.841011+00:00",
+      "aliases": [
+        "콜럼버스 블루재키츠",
+        "Columbus Blue Jackets",
+        "NHL",
+        "아이스하키"
+      ],
+      "id": "columbus-blue-jackets",
+      "name_ko": "콜럼버스 블루재키츠",
+      "name_en": "Columbus Blue Jackets",
+      "category": "스포츠",
+      "origin": "GLOBAL",
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": "sources/official-sports-20261012/3e9328f0bc9ff2e0a40a.svg",
+      "logo_png": "sources/official-sports-20261012/0d0cd5d6d3c81c19ad96.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/columbus-blue-jackets/sources/official-sports-20261012/c3a742efb6bd7aebc6b1.png",
+      "light": false,
+      "light_logo": false,
+      "dark_variant": false,
+      "added_at": "2026-10-12",
+      "asset_origin": "NHL 공식 CDN",
+      "official_source_page": "https://www.nhl.com/info/teams/",
+      "presentation": {
+        "file": "sources/official-sports-20261012/0d0cd5d6d3c81c19ad96.png",
+        "bg": "light"
+      }
+    },
+    "new-york-islanders": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-12T09:59:34.437929+00:00",
+      "aliases": [
+        "뉴욕 아일런더스",
+        "New York Islanders",
+        "NHL",
+        "아이스하키"
+      ]
+    },
+    "buffalo-sabres": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-12T09:59:39.021089+00:00",
+      "aliases": [
+        "버펄로 세이버스",
+        "Buffalo Sabres",
+        "NHL",
+        "아이스하키"
+      ]
+    },
+    "vancouver-canucks": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-12T09:59:34.335074+00:00",
+      "aliases": [
+        "밴쿠버 커넉스",
+        "Vancouver Canucks",
+        "NHL",
+        "아이스하키"
+      ]
+    },
+    "detroit-red-wings": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-12T09:59:39.313033+00:00",
+      "aliases": [
+        "디트로이트 레드윙스",
+        "Detroit Red Wings",
+        "NHL",
+        "아이스하키"
+      ]
+    },
+    "los-angeles-kings": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-12T09:59:43.269067+00:00",
+      "aliases": [
+        "로스앤젤레스 킹스",
+        "Los Angeles Kings",
+        "NHL",
+        "아이스하키"
+      ]
+    },
+    "chicago-blackhawks": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-12T09:59:37.473420+00:00",
+      "aliases": [
+        "시카고 블랙호크스",
+        "Chicago Blackhawks",
+        "NHL",
+        "아이스하키"
+      ]
+    },
+    "philadelphia-flyers": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-12T09:59:38.349770+00:00",
+      "aliases": [
+        "필라델피아 플라이어스",
+        "Philadelphia Flyers",
+        "NHL",
+        "아이스하키"
+      ]
+    },
+    "calgary-flames": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-12T09:59:40.212129+00:00",
+      "aliases": [
+        "캘거리 플레임스",
+        "Calgary Flames",
+        "NHL",
+        "아이스하키"
+      ]
+    },
+    "atlanta-hawks": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-12T09:59:44.989825+00:00",
+      "aliases": [
+        "애틀랜타 호크스",
+        "Atlanta Hawks",
+        "NBA",
+        "농구"
+      ]
+    },
+    "boston-celtics": {
+      "variants_n": 3,
+      "logo_published_at": "2026-10-12T09:59:41.579427+00:00",
+      "aliases": [
+        "보스턴 셀틱스",
+        "Boston Celtics",
+        "NBA",
+        "농구"
+      ]
+    },
+    "cleveland-cavaliers": {
+      "variants_n": 3,
+      "logo_published_at": "2026-10-12T09:59:41.097628+00:00",
+      "aliases": [
+        "클리블랜드 캐벌리어스",
+        "Cleveland Cavaliers",
+        "NBA",
+        "농구"
+      ]
+    },
+    "new-orleans-pelicans": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-12T09:59:45.891966+00:00",
+      "aliases": [
+        "뉴올리언스 펠리컨스",
+        "New Orleans Pelicans",
+        "NBA",
+        "농구"
+      ]
+    },
+    "chicago-bulls": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-12T09:59:43.641115+00:00",
+      "aliases": [
+        "시카고 불스",
+        "Chicago Bulls",
+        "NBA",
+        "농구"
+      ]
+    },
+    "dallas-mavericks": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-12T09:59:45.093897+00:00",
+      "aliases": [
+        "댈러스 매버릭스",
+        "Dallas Mavericks",
+        "NBA",
+        "농구"
+      ]
+    },
+    "denver-nuggets": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-12T09:59:47.007016+00:00",
+      "aliases": [
+        "덴버 너기츠",
+        "Denver Nuggets",
+        "NBA",
+        "농구"
+      ]
+    },
+    "golden-state-warriors": {
+      "variants_n": 1,
+      "logo_published_at": "2026-10-12T09:59:47.595645+00:00",
+      "aliases": [
+        "골든스테이트 워리어스",
+        "Golden State Warriors",
+        "NBA",
+        "농구"
+      ]
+    },
+    "houston-rockets": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-12T09:59:47.009073+00:00",
+      "aliases": [
+        "휴스턴 로키츠",
+        "Houston Rockets",
+        "NBA",
+        "농구"
+      ]
+    },
+    "la-clippers": {
+      "variants_n": 3,
+      "logo_published_at": "2026-10-12T09:59:46.839704+00:00",
+      "aliases": [
+        "LA 클리퍼스",
+        "LA Clippers",
+        "NBA",
+        "농구"
+      ]
+    },
+    "los-angeles-lakers": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-12T09:59:49.512418+00:00",
+      "aliases": [
+        "로스앤젤레스 레이커스",
+        "Los Angeles Lakers",
+        "NBA",
+        "농구"
+      ]
+    },
+    "miami-heat": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-12T09:59:49.496593+00:00",
+      "aliases": [
+        "마이애미 히트",
+        "Miami Heat",
+        "NBA",
+        "농구"
+      ]
+    },
+    "milwaukee-bucks": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-12T09:59:50.692744+00:00",
+      "aliases": [
+        "밀워키 벅스",
+        "Milwaukee Bucks",
+        "NBA",
+        "농구"
+      ]
+    },
+    "minnesota-timberwolves": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-12T09:59:53.962836+00:00",
+      "aliases": [
+        "미네소타 팀버울브스",
+        "Minnesota Timberwolves",
+        "NBA",
+        "농구"
+      ]
+    },
+    "brooklyn-nets": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-12T09:59:53.840546+00:00",
+      "aliases": [
+        "브루클린 네츠",
+        "Brooklyn Nets",
+        "NBA",
+        "농구"
+      ]
+    },
+    "new-york-knicks": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-12T09:59:56.973235+00:00",
+      "aliases": [
+        "뉴욕 닉스",
+        "New York Knicks",
+        "NBA",
+        "농구"
+      ]
+    },
+    "orlando-magic": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-12T09:59:54.699917+00:00",
+      "aliases": [
+        "올랜도 매직",
+        "Orlando Magic",
+        "NBA",
+        "농구"
+      ]
+    },
+    "indiana-pacers": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-12T09:59:55.650957+00:00",
+      "aliases": [
+        "인디애나 페이서스",
+        "Indiana Pacers",
+        "NBA",
+        "농구"
+      ]
+    },
+    "philadelphia-76ers": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-12T09:59:58.335242+00:00",
+      "aliases": [
+        "필라델피아 세븐티식서스",
+        "Philadelphia 76ers",
+        "NBA",
+        "농구"
+      ]
+    },
+    "phoenix-suns": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-12T09:59:56.621949+00:00",
+      "aliases": [
+        "피닉스 선스",
+        "Phoenix Suns",
+        "NBA",
+        "농구"
+      ]
+    },
+    "portland-trail-blazers": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-12T09:59:57.916029+00:00",
+      "aliases": [
+        "포틀랜드 트레일블레이저스",
+        "Portland Trail Blazers",
+        "NBA",
+        "농구"
+      ]
+    },
+    "sacramento-kings": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-12T09:59:58.561423+00:00",
+      "aliases": [
+        "새크라멘토 킹스",
+        "Sacramento Kings",
+        "NBA",
+        "농구"
+      ]
+    },
+    "san-antonio-spurs": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-12T10:00:00.435638+00:00",
+      "aliases": [
+        "샌안토니오 스퍼스",
+        "San Antonio Spurs",
+        "NBA",
+        "농구"
+      ]
+    },
+    "oklahoma-city-thunder": {
+      "variants_n": 1,
+      "logo_published_at": "2026-10-12T09:59:58.874710+00:00",
+      "aliases": [
+        "오클라호마시티 선더",
+        "Oklahoma City Thunder",
+        "NBA",
+        "농구"
+      ],
+      "id": "oklahoma-city-thunder",
+      "name_ko": "오클라호마시티 선더",
+      "name_en": "Oklahoma City Thunder",
+      "category": "스포츠",
+      "origin": "GLOBAL",
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": "sources/official-sports-20261012/fb684464e11e07989b31.svg",
+      "logo_png": "sources/official-sports-20261012/9d74c28a37d0eb262993.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/oklahoma-city-thunder/sources/official-sports-20261012/29884f5b8444c1701235.png",
+      "light": false,
+      "light_logo": false,
+      "dark_variant": false,
+      "added_at": "2026-10-12",
+      "asset_origin": "NBA 공식 CDN",
+      "official_source_page": "https://www.nba.com/teams",
+      "presentation": {
+        "file": "sources/official-sports-20261012/9d74c28a37d0eb262993.png",
+        "bg": "light"
+      }
+    },
+    "toronto-raptors": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-12T10:00:00.308057+00:00",
+      "aliases": [
+        "토론토 랩터스",
+        "Toronto Raptors",
+        "NBA",
+        "농구"
+      ]
+    },
+    "utah-jazz": {
+      "variants_n": 1,
+      "logo_published_at": "2026-10-12T10:00:00.538994+00:00",
+      "aliases": [
+        "유타 재즈",
+        "Utah Jazz",
+        "NBA",
+        "농구"
+      ]
+    },
+    "memphis-grizzlies": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-12T10:00:14.233811+00:00",
+      "aliases": [
+        "멤피스 그리즐리스",
+        "Memphis Grizzlies",
+        "NBA",
+        "농구"
+      ]
+    },
+    "washington-wizards": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-12T10:00:02.323645+00:00",
+      "aliases": [
+        "워싱턴 위저즈",
+        "Washington Wizards",
+        "NBA",
+        "농구"
+      ]
+    },
+    "detroit-pistons": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-12T10:00:03.429503+00:00",
+      "aliases": [
+        "디트로이트 피스턴스",
+        "Detroit Pistons",
+        "NBA",
+        "농구"
+      ]
+    },
+    "charlotte-hornets": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-12T10:00:03.967237+00:00",
+      "aliases": [
+        "샬럿 호네츠",
+        "Charlotte Hornets",
+        "NBA",
+        "농구"
+      ]
+    },
+    "kgckbl": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-12T10:01:59.833027+00:00",
+      "svg_transparent": "sources/official-sports-20261012/ee03b2687bc5a0379bb5.svg",
+      "has_svg": true,
+      "logo_svg": true,
+      "aliases": [
+        "안양 정관장 레드부스터스",
+        "KBL",
+        "농구"
+      ]
+    },
+    "sakerskbl": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-12T10:02:01.462237+00:00",
+      "svg_transparent": "sources/official-sports-20261012/49f6207892a332e3ff11.svg",
+      "has_svg": true,
+      "logo_svg": true,
+      "aliases": [
+        "창원 LG 세이커스",
+        "KBL",
+        "농구"
+      ]
+    },
+    "sksports": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-12T10:02:02.827182+00:00",
+      "svg_transparent": "sources/official-sports-20261012/943b7ba8804b210c8a9c.svg",
+      "has_svg": true,
+      "logo_svg": true,
+      "aliases": [
+        "서울 SK 나이츠 BC",
+        "KBL",
+        "농구"
+      ]
+    },
+    "phoebuskbl": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-12T10:02:05.282811+00:00",
+      "svg_transparent": "sources/official-sports-20261012/edb6fdd580488d90cfbb.svg",
+      "has_svg": true,
+      "logo_svg": true,
+      "aliases": [
+        "울산 현대모비스 피버스",
+        "KBL",
+        "농구"
+      ]
+    },
+    "skygunnerskbl": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-12T10:02:09.920809+00:00",
+      "svg_transparent": "sources/official-sports-20261012/ea3f0b7f65fdecb4baa5.svg",
+      "has_svg": true,
+      "logo_svg": true,
+      "aliases": [
+        "고양 소노 스카이거너스 BC",
+        "KBL",
+        "농구"
+      ]
+    },
+    "kccegis": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-12T10:02:11.578798+00:00",
+      "svg_transparent": "sources/official-sports-20261012/96feb76543d7756616db.svg",
+      "has_svg": true,
+      "logo_svg": true,
+      "aliases": [
+        "부산 KCC 이지스 BC",
+        "KBL",
+        "농구"
+      ]
+    },
+    "promykbl": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-12T10:02:12.797677+00:00",
+      "svg_transparent": "sources/official-sports-20261012/1b2388d35b4a4f7ba686.svg",
+      "has_svg": true,
+      "logo_svg": true,
+      "aliases": [
+        "원주 DB 프로미",
+        "KBL",
+        "농구"
+      ]
+    },
+    "sonicboomkbl": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-12T10:02:14.359081+00:00",
+      "svg_transparent": "sources/official-sports-20261012/6bf26b2abb8b96cf2579.svg",
+      "has_svg": true,
+      "logo_svg": true,
+      "aliases": [
+        "수원 KT 소닉붐",
+        "KBL",
+        "농구"
+      ]
+    },
+    "pegasuskbl": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-12T10:02:16.113788+00:00",
+      "svg_transparent": "sources/official-sports-20261012/12ab9f95be615a74bbe7.svg",
+      "has_svg": true,
+      "logo_svg": true,
+      "aliases": [
+        "대구 한국가스공사 페가수스 BC",
+        "KBL",
+        "농구"
+      ]
+    },
+    "thunderskbl": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-12T10:02:17.569422+00:00",
+      "svg_transparent": "sources/official-sports-20261012/dae2c4492e78bf960722.svg",
+      "has_svg": true,
+      "logo_svg": true,
+      "aliases": [
+        "서울 삼성 썬더스 BC",
+        "KBL",
+        "농구"
+      ]
+    },
+    "kaljumbos": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-12T10:02:25.601522+00:00",
+      "svg_transparent": "sources/official-sports-20261012/3591b03e8ccf989f59c9.svg",
+      "has_svg": true,
+      "logo_svg": true,
+      "aliases": [
+        "인천 대한항공 점보스",
+        "KOVO",
+        "배구"
+      ]
+    },
+    "kovo": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-12T10:02:27.051639+00:00",
+      "svg_transparent": "sources/official-sports-20261012/18462ac07dc14b762027.svg",
+      "has_svg": true,
+      "logo_svg": true,
+      "aliases": [
+        "서울 우리카드 우리WON",
+        "KOVO",
+        "배구"
+      ]
+    },
+    "kbstarsvc": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-12T10:02:28.537015+00:00",
+      "svg_transparent": "sources/official-sports-20261012/db9439f634cb97880ca9.svg",
+      "has_svg": true,
+      "logo_svg": true,
+      "aliases": [
+        "의정부 KB손해보험 스타즈",
+        "KOVO",
+        "배구"
+      ]
+    },
+    "okfinancialsports": {
+      "variants_n": 1,
+      "logo_published_at": "2026-10-12T10:02:30.209014+00:00",
+      "svg_transparent": "sources/official-sports-20261012/d4addf34c4fcb28d5a96.svg",
+      "has_svg": true,
+      "logo_svg": true,
+      "aliases": [
+        "부산 OK금융그룹 읏맨",
+        "KOVO",
+        "배구"
+      ]
+    },
+    "gsvolleyball": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-12T10:02:31.688677+00:00",
+      "svg_transparent": "sources/official-sports-20261012/68f436e8bda0d79f92f5.svg",
+      "has_svg": true,
+      "logo_svg": true,
+      "aliases": [
+        "GS칼텍스 서울 KIXX",
+        "KOVO",
+        "배구"
+      ]
+    },
+    "sportsibk": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-12T10:03:00.150614+00:00",
+      "svg_transparent": "sources/official-sports-20261012/6cb1bf04227cd2b2c608.svg",
+      "has_svg": true,
+      "logo_svg": true,
+      "aliases": [
+        "화성 IBK기업은행 알토스",
+        "KOVO",
+        "배구"
+      ]
+    },
+    "kgc": {
+      "variants_n": 2,
+      "logo_published_at": "2026-10-12T10:03:03.411527+00:00",
+      "svg_transparent": "sources/official-sports-20261012/bcb06ba64580366ad799.svg",
+      "has_svg": true,
+      "logo_svg": true,
+      "aliases": [
+        "대전 정관장 레드스파크스 WVC",
+        "KOVO",
+        "배구"
+      ]
+    }
+  },
+  "variants": {
+    "carolina-hurricanes": {
+      "schema": 1,
+      "id": "carolina-hurricanes",
+      "primary": "legacy-original",
+      "variants": [
+        {
+          "key": "legacy-original",
+          "label": "기존 수집 로고 · 제작 시기 미확인",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "logo.svg"
+          },
+          "origin": "collected",
+          "order": 0
+        },
+        {
+          "key": "official-nhl-20261012",
+          "label": "NHL 공식 구단 마크 · 제작 시기 미확인",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-sports-20261012/4d1d152f939d73b9d3c7.svg",
+            "png": "sources/official-sports-20261012/8add574725564c1c99ba.png"
+          },
+          "preview_png": "sources/official-sports-20261012/98c62351d5e27d97fe9a.png",
+          "source_url": "https://assets.nhle.com/logos/nhl/svg/CAR_light.svg",
+          "origin": "official",
+          "official_distribution": true,
+          "order": 1
+        }
+      ]
+    },
+    "vegas-golden-knights": {
+      "schema": 1,
+      "id": "vegas-golden-knights",
+      "primary": "official-nhl-20261012",
+      "variants": [
+        {
+          "key": "official-nhl-20261012",
+          "label": "NHL 공식 구단 마크 · 제작 시기 미확인",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-sports-20261012/b02d15ccfa2510e7696a.svg",
+            "png": "sources/official-sports-20261012/ed42f5f50c57f5733c69.png"
+          },
+          "preview_png": "sources/official-sports-20261012/20279496e5fc44bdc96e.png",
+          "source_url": "https://assets.nhle.com/logos/nhl/svg/VGK_light.svg",
+          "origin": "official",
+          "official_distribution": true,
+          "order": 0
+        }
+      ]
+    },
+    "new-york-rangers": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "new-york-rangers",
+      "primary": "symbol",
+      "fingerprint": {
+        "logo.svg": "bc8e9be0f491413b"
+      },
+      "variants": [
+        {
+          "key": "symbol",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "color",
+          "label": "심볼형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 1.037,
+          "provider": "wikimedia",
+          "origin": "collected",
+          "order": 30
+        },
+        {
+          "key": "official-nhl-20261012",
+          "label": "NHL 공식 구단 마크 · 제작 시기 미확인",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-sports-20261012/365fc8449f0fe659eeb3.svg",
+            "png": "sources/official-sports-20261012/1ed27f9c703494dd96fc.png"
+          },
+          "preview_png": "sources/official-sports-20261012/7ba1702854b52e1907c9.png",
+          "source_url": "https://assets.nhle.com/logos/nhl/svg/NYR_light.svg",
+          "origin": "official",
+          "official_distribution": true,
+          "order": 1
+        }
+      ]
+    },
+    "edmonton-oilers": {
+      "schema": 1,
+      "id": "edmonton-oilers",
+      "primary": "legacy-original",
+      "variants": [
+        {
+          "key": "legacy-original",
+          "label": "기존 수집 로고 · 제작 시기 미확인",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "logo.svg"
+          },
+          "origin": "collected",
+          "order": 0
+        },
+        {
+          "key": "official-nhl-20261012",
+          "label": "NHL 공식 구단 마크 · 제작 시기 미확인",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-sports-20261012/655f783dbbda6588dc56.svg",
+            "png": "sources/official-sports-20261012/7a12828874b49b915197.png"
+          },
+          "preview_png": "sources/official-sports-20261012/f2f019eb1bb775bc1f3f.png",
+          "source_url": "https://assets.nhle.com/logos/nhl/svg/EDM_light.svg",
+          "origin": "official",
+          "official_distribution": true,
+          "order": 1
+        }
+      ]
+    },
+    "tampa-bay-lightning": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "tampa-bay-lightning",
+      "primary": "symbol",
+      "fingerprint": {
+        "logo.svg": "0de41b5c0461cb75"
+      },
+      "variants": [
+        {
+          "key": "symbol",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "color",
+          "label": "심볼형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 1.071,
+          "provider": "wikimedia",
+          "origin": "collected",
+          "order": 30
+        },
+        {
+          "key": "official-nhl-20261012",
+          "label": "NHL 공식 구단 마크 · 제작 시기 미확인",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-sports-20261012/53a7a4b173cadfb1eb0d.svg",
+            "png": "sources/official-sports-20261012/46bf562a49490faa9bf3.png"
+          },
+          "preview_png": "sources/official-sports-20261012/ffd13aa7a87114669a00.png",
+          "source_url": "https://assets.nhle.com/logos/nhl/svg/TBL_light.svg",
+          "origin": "official",
+          "official_distribution": true,
+          "order": 1
+        }
+      ]
+    },
+    "anaheim-ducks": {
+      "schema": 1,
+      "id": "anaheim-ducks",
+      "primary": "legacy-original",
+      "variants": [
+        {
+          "key": "legacy-original",
+          "label": "기존 수집 로고 · 제작 시기 미확인",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "logo.svg"
+          },
+          "origin": "collected",
+          "order": 0
+        },
+        {
+          "key": "official-nhl-20261012",
+          "label": "NHL 공식 구단 마크 · 제작 시기 미확인",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-sports-20261012/a21be1c53858393a8b8b.svg",
+            "png": "sources/official-sports-20261012/1d35c2a7b8ddf6724c92.png"
+          },
+          "preview_png": "sources/official-sports-20261012/5b335d623e354276007d.png",
+          "source_url": "https://assets.nhle.com/logos/nhl/svg/ANA_light.svg",
+          "origin": "official",
+          "official_distribution": true,
+          "order": 1
+        }
+      ]
+    },
+    "ottawa-senators": {
+      "schema": 1,
+      "id": "ottawa-senators",
+      "primary": "legacy-original",
+      "variants": [
+        {
+          "key": "legacy-original",
+          "label": "기존 수집 로고 · 제작 시기 미확인",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "logo.svg"
+          },
+          "origin": "collected",
+          "order": 0
+        },
+        {
+          "key": "official-nhl-20261012",
+          "label": "NHL 공식 구단 마크 · 제작 시기 미확인",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-sports-20261012/5ecf44459f3ac9da1532.svg",
+            "png": "sources/official-sports-20261012/e87c41bc271a0753f7ba.png"
+          },
+          "preview_png": "sources/official-sports-20261012/20d2fb786e435ab45218.png",
+          "source_url": "https://assets.nhle.com/logos/nhl/svg/OTT_light.svg",
+          "origin": "official",
+          "official_distribution": true,
+          "order": 1
+        }
+      ]
+    },
+    "seattle-kraken": {
+      "schema": 1,
+      "id": "seattle-kraken",
+      "primary": "official-nhl-20261012",
+      "variants": [
+        {
+          "key": "official-nhl-20261012",
+          "label": "NHL 공식 구단 마크 · 제작 시기 미확인",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-sports-20261012/941ee0182c890a3bc0b8.svg",
+            "png": "sources/official-sports-20261012/a5d18d1457e9867a21a0.png"
+          },
+          "preview_png": "sources/official-sports-20261012/eb840bba0b27ea3f2c12.png",
+          "source_url": "https://assets.nhle.com/logos/nhl/svg/SEA_light.svg",
+          "origin": "official",
+          "official_distribution": true,
+          "order": 0
+        }
+      ]
+    },
+    "utah-mammoth": {
+      "schema": 1,
+      "id": "utah-mammoth",
+      "primary": "official-nhl-20261012",
+      "variants": [
+        {
+          "key": "official-nhl-20261012",
+          "label": "NHL 공식 구단 마크 · 제작 시기 미확인",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-sports-20261012/c3435090b06ed74d93c7.svg",
+            "png": "sources/official-sports-20261012/07fc421459232000b605.png"
+          },
+          "preview_png": "sources/official-sports-20261012/b2e744f2365b623fb88f.png",
+          "source_url": "https://assets.nhle.com/logos/nhl/svg/UTA_light.svg",
+          "origin": "official",
+          "official_distribution": true,
+          "order": 0
+        }
+      ]
+    },
+    "boston-bruins": {
+      "schema": 1,
+      "id": "boston-bruins",
+      "primary": "legacy-original",
+      "variants": [
+        {
+          "key": "legacy-original",
+          "label": "기존 수집 로고 · 제작 시기 미확인",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "logo.svg"
+          },
+          "origin": "collected",
+          "order": 0
+        },
+        {
+          "key": "official-nhl-20261012",
+          "label": "NHL 공식 구단 마크 · 제작 시기 미확인",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-sports-20261012/80c05e3678d3a8d2b56d.svg",
+            "png": "sources/official-sports-20261012/89bcfffc2f2828150c73.png"
+          },
+          "preview_png": "sources/official-sports-20261012/7e598364172ef7900576.png",
+          "source_url": "https://assets.nhle.com/logos/nhl/svg/BOS_light.svg",
+          "origin": "official",
+          "official_distribution": true,
+          "order": 1
+        }
+      ]
+    },
+    "minnesota-wild": {
+      "schema": 1,
+      "id": "minnesota-wild",
+      "primary": "legacy-original",
+      "variants": [
+        {
+          "key": "legacy-original",
+          "label": "기존 수집 로고 · 제작 시기 미확인",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "logo.svg"
+          },
+          "origin": "collected",
+          "order": 0
+        },
+        {
+          "key": "official-nhl-20261012",
+          "label": "NHL 공식 구단 마크 · 제작 시기 미확인",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-sports-20261012/8dbf8805f61f5e204a81.svg",
+            "png": "sources/official-sports-20261012/86c524fa32075478515e.png"
+          },
+          "preview_png": "sources/official-sports-20261012/23d85e0312f0aa02ae29.png",
+          "source_url": "https://assets.nhle.com/logos/nhl/svg/MIN_light.svg",
+          "origin": "official",
+          "official_distribution": true,
+          "order": 1
+        }
+      ]
+    },
+    "winnipeg-jets": {
+      "schema": 1,
+      "id": "winnipeg-jets",
+      "primary": "legacy-original",
+      "variants": [
+        {
+          "key": "legacy-original",
+          "label": "기존 수집 로고 · 제작 시기 미확인",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "logo.svg"
+          },
+          "origin": "collected",
+          "order": 0
+        },
+        {
+          "key": "official-nhl-20261012",
+          "label": "NHL 공식 구단 마크 · 제작 시기 미확인",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-sports-20261012/07f44caeba5bffba89c9.svg",
+            "png": "sources/official-sports-20261012/63159f273272222c7556.png"
+          },
+          "preview_png": "sources/official-sports-20261012/96a2c3982a0ecd10c41f.png",
+          "source_url": "https://assets.nhle.com/logos/nhl/svg/WPG_light.svg",
+          "origin": "official",
+          "official_distribution": true,
+          "order": 1
+        }
+      ]
+    },
+    "toronto-maple-leafs": {
+      "schema": 1,
+      "id": "toronto-maple-leafs",
+      "primary": "legacy-original",
+      "variants": [
+        {
+          "key": "legacy-original",
+          "label": "기존 수집 로고 · 제작 시기 미확인",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "logo.svg"
+          },
+          "origin": "collected",
+          "order": 0
+        },
+        {
+          "key": "official-nhl-20261012",
+          "label": "NHL 공식 구단 마크 · 제작 시기 미확인",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-sports-20261012/e8b95e832feac68796de.svg",
+            "png": "sources/official-sports-20261012/b8ed43efbeaa813e359f.png"
+          },
+          "preview_png": "sources/official-sports-20261012/f48a57b50081546227cd.png",
+          "source_url": "https://assets.nhle.com/logos/nhl/svg/TOR_light.svg",
+          "origin": "official",
+          "official_distribution": true,
+          "order": 1
+        }
+      ]
+    },
+    "pittsburgh-penguins": {
+      "schema": 1,
+      "id": "pittsburgh-penguins",
+      "primary": "legacy-original",
+      "variants": [
+        {
+          "key": "legacy-original",
+          "label": "기존 수집 로고 · 제작 시기 미확인",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "logo.svg"
+          },
+          "origin": "collected",
+          "order": 0
+        },
+        {
+          "key": "official-nhl-20261012",
+          "label": "NHL 공식 구단 마크 · 제작 시기 미확인",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-sports-20261012/37364eb8353ece2739fa.svg",
+            "png": "sources/official-sports-20261012/61a759d484085c55d721.png"
+          },
+          "preview_png": "sources/official-sports-20261012/f9924d288207980087d7.png",
+          "source_url": "https://assets.nhle.com/logos/nhl/svg/PIT_light.svg",
+          "origin": "official",
+          "official_distribution": true,
+          "order": 1
+        }
+      ]
+    },
+    "colorado-avalanche": {
+      "schema": 1,
+      "id": "colorado-avalanche",
+      "primary": "legacy-original",
+      "variants": [
+        {
+          "key": "legacy-original",
+          "label": "기존 수집 로고 · 제작 시기 미확인",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "logo.svg"
+          },
+          "origin": "collected",
+          "order": 0
+        },
+        {
+          "key": "official-nhl-20261012",
+          "label": "NHL 공식 구단 마크 · 제작 시기 미확인",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-sports-20261012/cabc6c42f3f33a7810c0.svg",
+            "png": "sources/official-sports-20261012/9aebfd6611fda9cab46d.png"
+          },
+          "preview_png": "sources/official-sports-20261012/5c82c8981daa41c39105.png",
+          "source_url": "https://assets.nhle.com/logos/nhl/svg/COL_light.svg",
+          "origin": "official",
+          "official_distribution": true,
+          "order": 1
+        }
+      ]
+    },
+    "washington-capitals": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "washington-capitals",
+      "primary": "horizontal",
+      "fingerprint": {
+        "logo.svg": "20a3aab6fc1a8b87"
+      },
+      "variants": [
+        {
+          "key": "horizontal",
+          "form": "horizontal",
+          "lang": "unknown",
+          "color": "color",
+          "label": "가로조합형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 1.554,
+          "provider": "wikimedia",
+          "origin": "collected",
+          "order": 10
+        },
+        {
+          "key": "official-nhl-20261012",
+          "label": "NHL 공식 구단 마크 · 제작 시기 미확인",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-sports-20261012/babf398d7b07362f3557.svg",
+            "png": "sources/official-sports-20261012/96bb98299cc0cf41cf08.png"
+          },
+          "preview_png": "sources/official-sports-20261012/a3aedd80a4de1cd69d30.png",
+          "source_url": "https://assets.nhle.com/logos/nhl/svg/WSH_secondary_light.svg",
+          "origin": "official",
+          "official_distribution": true,
+          "order": 1
+        }
+      ]
+    },
+    "nashville-predators": {
+      "schema": 1,
+      "id": "nashville-predators",
+      "primary": "legacy-original",
+      "variants": [
+        {
+          "key": "legacy-original",
+          "label": "기존 수집 로고 · 제작 시기 미확인",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "logo.svg"
+          },
+          "origin": "collected",
+          "order": 0
+        },
+        {
+          "key": "official-nhl-20261012",
+          "label": "NHL 공식 구단 마크 · 제작 시기 미확인",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-sports-20261012/658322599492f3c86421.svg",
+            "png": "sources/official-sports-20261012/6ded6ba3406d22984575.png"
+          },
+          "preview_png": "sources/official-sports-20261012/b69c9009a7f0e4298bae.png",
+          "source_url": "https://assets.nhle.com/logos/nhl/svg/NSH_light.svg",
+          "origin": "official",
+          "official_distribution": true,
+          "order": 1
+        }
+      ]
+    },
+    "florida-panthers": {
+      "schema": 1,
+      "id": "florida-panthers",
+      "primary": "legacy-original",
+      "variants": [
+        {
+          "key": "legacy-original",
+          "label": "기존 수집 로고 · 제작 시기 미확인",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "logo.svg"
+          },
+          "origin": "collected",
+          "order": 0
+        },
+        {
+          "key": "official-nhl-20261012",
+          "label": "NHL 공식 구단 마크 · 제작 시기 미확인",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-sports-20261012/39714a28508546a725f5.svg",
+            "png": "sources/official-sports-20261012/3be1cc7865648f8ba7a8.png"
+          },
+          "preview_png": "sources/official-sports-20261012/dd4947967f61d427757a.png",
+          "source_url": "https://assets.nhle.com/logos/nhl/svg/FLA_light.svg",
+          "origin": "official",
+          "official_distribution": true,
+          "order": 1
+        }
+      ]
+    },
+    "san-jose-sharks": {
+      "schema": 1,
+      "id": "san-jose-sharks",
+      "primary": "legacy-original",
+      "variants": [
+        {
+          "key": "legacy-original",
+          "label": "기존 수집 로고 · 제작 시기 미확인",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "logo.svg"
+          },
+          "origin": "collected",
+          "order": 0
+        },
+        {
+          "key": "official-nhl-20261012",
+          "label": "NHL 공식 구단 마크 · 제작 시기 미확인",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-sports-20261012/f4c34d5b4a461391a8d9.svg",
+            "png": "sources/official-sports-20261012/e70a8661bb88b778cb0c.png"
+          },
+          "preview_png": "sources/official-sports-20261012/e3114e6ea577b190b790.png",
+          "source_url": "https://assets.nhle.com/logos/nhl/svg/SJS_light.svg",
+          "origin": "official",
+          "official_distribution": true,
+          "order": 1
+        }
+      ]
+    },
+    "dallas-stars": {
+      "schema": 1,
+      "id": "dallas-stars",
+      "primary": "legacy-original",
+      "variants": [
+        {
+          "key": "legacy-original",
+          "label": "기존 수집 로고 · 제작 시기 미확인",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "logo.svg"
+          },
+          "origin": "collected",
+          "order": 0
+        },
+        {
+          "key": "official-nhl-20261012",
+          "label": "NHL 공식 구단 마크 · 제작 시기 미확인",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-sports-20261012/bc35eb8219eed641b3ad.svg",
+            "png": "sources/official-sports-20261012/fdc70206c8f272819293.png"
+          },
+          "preview_png": "sources/official-sports-20261012/6efc21773b01aa86b63a.png",
+          "source_url": "https://assets.nhle.com/logos/nhl/svg/DAL_light.svg",
+          "origin": "official",
+          "official_distribution": true,
+          "order": 1
+        }
+      ]
+    },
+    "st-louis-blues": {
+      "schema": 1,
+      "id": "st-louis-blues",
+      "primary": "legacy-original",
+      "variants": [
+        {
+          "key": "legacy-original",
+          "label": "기존 수집 로고 · 제작 시기 미확인",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "logo.svg"
+          },
+          "origin": "collected",
+          "order": 0
+        },
+        {
+          "key": "official-nhl-20261012",
+          "label": "NHL 공식 구단 마크 · 제작 시기 미확인",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-sports-20261012/3a61c2a870cedab47508.svg",
+            "png": "sources/official-sports-20261012/8e1b963858d9550efc08.png"
+          },
+          "preview_png": "sources/official-sports-20261012/6497aab765aa9a6406ce.png",
+          "source_url": "https://assets.nhle.com/logos/nhl/svg/STL_light.svg",
+          "origin": "official",
+          "official_distribution": true,
+          "order": 1
+        }
+      ]
+    },
+    "montreal-canadiens": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "montreal-canadiens",
+      "primary": "horizontal",
+      "fingerprint": {
+        "logo.svg": "e45a648020f18f70"
+      },
+      "variants": [
+        {
+          "key": "horizontal",
+          "form": "horizontal",
+          "lang": "unknown",
+          "color": "color",
+          "label": "가로조합형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 1.46,
+          "provider": "wikimedia",
+          "origin": "collected",
+          "order": 10
+        },
+        {
+          "key": "official-nhl-20261012",
+          "label": "NHL 공식 구단 마크 · 제작 시기 미확인",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-sports-20261012/c2b4b2f292330455e72a.svg",
+            "png": "sources/official-sports-20261012/9e5447000e670862053f.png"
+          },
+          "preview_png": "sources/official-sports-20261012/94f5ca86a52d38924237.png",
+          "source_url": "https://assets.nhle.com/logos/nhl/svg/MTL_light.svg",
+          "origin": "official",
+          "official_distribution": true,
+          "order": 1
+        }
+      ]
+    },
+    "new-jersey-devils": {
+      "schema": 1,
+      "id": "new-jersey-devils",
+      "primary": "legacy-original",
+      "variants": [
+        {
+          "key": "legacy-original",
+          "label": "기존 수집 로고 · 제작 시기 미확인",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "logo.svg"
+          },
+          "origin": "collected",
+          "order": 0
+        },
+        {
+          "key": "official-nhl-20261012",
+          "label": "NHL 공식 구단 마크 · 제작 시기 미확인",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-sports-20261012/1c92a9d394394eea75f1.svg",
+            "png": "sources/official-sports-20261012/53d7e5fa1903ef1e0037.png"
+          },
+          "preview_png": "sources/official-sports-20261012/26ac404fb90157fe906f.png",
+          "source_url": "https://assets.nhle.com/logos/nhl/svg/NJD_light.svg",
+          "origin": "official",
+          "official_distribution": true,
+          "order": 1
+        }
+      ]
+    },
+    "columbus-blue-jackets": {
+      "schema": 1,
+      "id": "columbus-blue-jackets",
+      "primary": "official-nhl-20261012",
+      "variants": [
+        {
+          "key": "official-nhl-20261012",
+          "label": "NHL 공식 구단 마크 · 제작 시기 미확인",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-sports-20261012/3e9328f0bc9ff2e0a40a.svg",
+            "png": "sources/official-sports-20261012/0d0cd5d6d3c81c19ad96.png"
+          },
+          "preview_png": "sources/official-sports-20261012/c3a742efb6bd7aebc6b1.png",
+          "source_url": "https://assets.nhle.com/logos/nhl/svg/CBJ_light.svg",
+          "origin": "official",
+          "official_distribution": true,
+          "order": 0
+        }
+      ]
+    },
+    "new-york-islanders": {
+      "schema": 1,
+      "id": "new-york-islanders",
+      "primary": "legacy-original",
+      "variants": [
+        {
+          "key": "legacy-original",
+          "label": "기존 수집 로고 · 제작 시기 미확인",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "logo.svg"
+          },
+          "origin": "collected",
+          "order": 0
+        },
+        {
+          "key": "official-nhl-20261012",
+          "label": "NHL 공식 구단 마크 · 제작 시기 미확인",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-sports-20261012/567fa7ec2c4764d07a98.svg",
+            "png": "sources/official-sports-20261012/1d5dd121710b44daa65d.png"
+          },
+          "preview_png": "sources/official-sports-20261012/3bf0e4c062aa8fba94b4.png",
+          "source_url": "https://assets.nhle.com/logos/nhl/svg/NYI_light.svg",
+          "origin": "official",
+          "official_distribution": true,
+          "order": 1
+        }
+      ]
+    },
+    "buffalo-sabres": {
+      "schema": 1,
+      "id": "buffalo-sabres",
+      "primary": "legacy-original",
+      "variants": [
+        {
+          "key": "legacy-original",
+          "label": "기존 수집 로고 · 제작 시기 미확인",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "logo.svg"
+          },
+          "origin": "collected",
+          "order": 0
+        },
+        {
+          "key": "official-nhl-20261012",
+          "label": "NHL 공식 구단 마크 · 제작 시기 미확인",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-sports-20261012/a18563d8be078c5d353f.svg",
+            "png": "sources/official-sports-20261012/d1feafa865d438f1cc55.png"
+          },
+          "preview_png": "sources/official-sports-20261012/3d1967005d8218d8ec2f.png",
+          "source_url": "https://assets.nhle.com/logos/nhl/svg/BUF_light.svg",
+          "origin": "official",
+          "official_distribution": true,
+          "order": 1
+        }
+      ]
+    },
+    "vancouver-canucks": {
+      "schema": 1,
+      "id": "vancouver-canucks",
+      "primary": "legacy-original",
+      "variants": [
+        {
+          "key": "legacy-original",
+          "label": "기존 수집 로고 · 제작 시기 미확인",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "logo.svg"
+          },
+          "origin": "collected",
+          "order": 0
+        },
+        {
+          "key": "official-nhl-20261012",
+          "label": "NHL 공식 구단 마크 · 제작 시기 미확인",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-sports-20261012/457ecbe473be717dfea1.svg",
+            "png": "sources/official-sports-20261012/7371e13e4a7fced3c84d.png"
+          },
+          "preview_png": "sources/official-sports-20261012/df4491dec372b05ef685.png",
+          "source_url": "https://assets.nhle.com/logos/nhl/svg/VAN_light.svg",
+          "origin": "official",
+          "official_distribution": true,
+          "order": 1
+        }
+      ]
+    },
+    "detroit-red-wings": {
+      "schema": 1,
+      "id": "detroit-red-wings",
+      "primary": "legacy-original",
+      "variants": [
+        {
+          "key": "legacy-original",
+          "label": "기존 수집 로고 · 제작 시기 미확인",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "logo.svg"
+          },
+          "origin": "collected",
+          "order": 0
+        },
+        {
+          "key": "official-nhl-20261012",
+          "label": "NHL 공식 구단 마크 · 제작 시기 미확인",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-sports-20261012/df86a9617b9d0ee31e59.svg",
+            "png": "sources/official-sports-20261012/9ae290cd0005e5eac7bb.png"
+          },
+          "preview_png": "sources/official-sports-20261012/97d1197caf33dc028035.png",
+          "source_url": "https://assets.nhle.com/logos/nhl/svg/DET_light.svg",
+          "origin": "official",
+          "official_distribution": true,
+          "order": 1
+        }
+      ]
+    },
+    "los-angeles-kings": {
+      "schema": 1,
+      "id": "los-angeles-kings",
+      "primary": "legacy-original",
+      "variants": [
+        {
+          "key": "legacy-original",
+          "label": "기존 수집 로고 · 제작 시기 미확인",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "logo.svg"
+          },
+          "origin": "collected",
+          "order": 0
+        },
+        {
+          "key": "official-nhl-20261012",
+          "label": "NHL 공식 구단 마크 · 제작 시기 미확인",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-sports-20261012/8516b2daf79eba139ff0.svg",
+            "png": "sources/official-sports-20261012/c0e77df1b040fe92f319.png"
+          },
+          "preview_png": "sources/official-sports-20261012/e04cd277ffd432791032.png",
+          "source_url": "https://assets.nhle.com/logos/nhl/svg/LAK_light.svg",
+          "origin": "official",
+          "official_distribution": true,
+          "order": 1
+        }
+      ]
+    },
+    "chicago-blackhawks": {
+      "schema": 1,
+      "id": "chicago-blackhawks",
+      "primary": "legacy-original",
+      "variants": [
+        {
+          "key": "legacy-original",
+          "label": "기존 수집 로고 · 제작 시기 미확인",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "logo.svg"
+          },
+          "origin": "collected",
+          "order": 0
+        },
+        {
+          "key": "official-nhl-20261012",
+          "label": "NHL 공식 구단 마크 · 제작 시기 미확인",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-sports-20261012/004c62e1715baa972087.svg",
+            "png": "sources/official-sports-20261012/c6a0db9d47a7e909510b.png"
+          },
+          "preview_png": "sources/official-sports-20261012/6b0871856dff9aac9c30.png",
+          "source_url": "https://assets.nhle.com/logos/nhl/svg/CHI_light.svg",
+          "origin": "official",
+          "official_distribution": true,
+          "order": 1
+        }
+      ]
+    },
+    "philadelphia-flyers": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "philadelphia-flyers",
+      "primary": "horizontal",
+      "fingerprint": {
+        "logo.svg": "ea6fa39e8c32b94e"
+      },
+      "variants": [
+        {
+          "key": "horizontal",
+          "form": "horizontal",
+          "lang": "unknown",
+          "color": "mono-dark",
+          "label": "가로조합형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 1.419,
+          "provider": "wikimedia",
+          "origin": "collected",
+          "order": 10
+        },
+        {
+          "key": "official-nhl-20261012",
+          "label": "NHL 공식 구단 마크 · 제작 시기 미확인",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-sports-20261012/d7b20decbf0abd1bd5c8.svg",
+            "png": "sources/official-sports-20261012/84ef11ae39c26db1e7af.png"
+          },
+          "preview_png": "sources/official-sports-20261012/6af3cc83e28f30ca7c3b.png",
+          "source_url": "https://assets.nhle.com/logos/nhl/svg/PHI_light.svg",
+          "origin": "official",
+          "official_distribution": true,
+          "order": 1
+        }
+      ]
+    },
+    "calgary-flames": {
+      "schema": 1,
+      "id": "calgary-flames",
+      "primary": "legacy-original",
+      "variants": [
+        {
+          "key": "legacy-original",
+          "label": "기존 수집 로고 · 제작 시기 미확인",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "logo.svg"
+          },
+          "origin": "collected",
+          "order": 0
+        },
+        {
+          "key": "official-nhl-20261012",
+          "label": "NHL 공식 구단 마크 · 제작 시기 미확인",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-sports-20261012/6c7d437480888d242fff.svg",
+            "png": "sources/official-sports-20261012/c54bc0d0b53e7e120f41.png"
+          },
+          "preview_png": "sources/official-sports-20261012/3a34cfc2fca88fe103e7.png",
+          "source_url": "https://assets.nhle.com/logos/nhl/svg/CGY_light.svg",
+          "origin": "official",
+          "official_distribution": true,
+          "order": 1
+        }
+      ]
+    },
+    "atlanta-hawks": {
+      "schema": 1,
+      "id": "atlanta-hawks",
+      "primary": "legacy-original",
+      "variants": [
+        {
+          "key": "legacy-original",
+          "label": "기존 수집 로고 · 제작 시기 미확인",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "logo.svg"
+          },
+          "origin": "collected",
+          "order": 0
+        },
+        {
+          "key": "official-nba-20261012",
+          "label": "NBA 공식 구단 마크 · 제작 시기 미확인",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-sports-20261012/efe7639e6daac1a103c1.svg",
+            "png": "sources/official-sports-20261012/c7c23bb2f6d07e07e838.png"
+          },
+          "preview_png": "sources/official-sports-20261012/37a601ef4a313598e627.png",
+          "source_url": "https://cdn.nba.com/logos/nba/1610612737/primary/L/logo.svg",
+          "origin": "official",
+          "official_distribution": true,
+          "order": 1
+        }
+      ]
+    },
+    "boston-celtics": {
+      "id": "boston-celtics",
+      "schema": 1,
+      "algo_v": 1,
+      "primary": "horizontal",
+      "variants": [
+        {
+          "key": "horizontal",
+          "form": "horizontal",
+          "lang": "en",
+          "color": "original",
+          "files": {
+            "svg": "logo.svg"
+          },
+          "label": "기존 수집 로고",
+          "order": 0
+        },
+        {
+          "key": "official-nba-primary-20261011",
+          "form": "emblem",
+          "lang": "en",
+          "color": "color",
+          "files": {
+            "png": "sources/official-nba-20261011/eaf564fd8a1f07506efd.png",
+            "svg": "sources/official-nba-20261011/531038092e848f7319e0.svg"
+          },
+          "label": "NBA 공식 구단 디렉터리 · 기본 로고",
+          "order": 200,
+          "provider": "official-original",
+          "source_url": "https://cdn.nba.com/logos/nba/1610612738/primary/L/logo.svg",
+          "preview_png": "sources/official-nba-20261011/b32d533de1d6a7e82276.png",
+          "source_note": "2026-10-11 NBA 공식 디렉터리에서 확인. 기존 버전과 대표 선택 유지.",
+          "official_distribution": true
+        },
+        {
+          "key": "official-nba-20261012",
+          "label": "NBA 공식 구단 마크 · 제작 시기 미확인",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-sports-20261012/531038092e848f7319e0.svg",
+            "png": "sources/official-sports-20261012/055025615414bf012efe.png"
+          },
+          "preview_png": "sources/official-sports-20261012/aa5f602c0ebf8a12664d.png",
+          "source_url": "https://cdn.nba.com/logos/nba/1610612738/primary/L/logo.svg",
+          "origin": "official",
+          "official_distribution": true,
+          "order": 2
+        }
+      ]
+    },
+    "cleveland-cavaliers": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "cleveland-cavaliers",
+      "primary": "symbol",
+      "fingerprint": {
+        "logo.svg": "c34c694d41e0ac89",
+        "sources/commons-wm/wordmark.svg": "f19d69724f837efd"
+      },
+      "variants": [
+        {
+          "key": "horizontal",
+          "form": "horizontal",
+          "lang": "unknown",
+          "color": "color",
+          "label": "가로조합형",
+          "files": {
+            "svg": "sources/commons-wm/wordmark.svg"
+          },
+          "aspect": 2.362,
+          "provider": "wikimedia",
+          "origin": "collected",
+          "order": 10
+        },
+        {
+          "key": "symbol",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "color",
+          "label": "심볼형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 1.163,
+          "provider": "wikimedia",
+          "origin": "collected",
+          "order": 30
+        },
+        {
+          "key": "official-nba-20261012",
+          "label": "NBA 공식 구단 마크 · 제작 시기 미확인",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-sports-20261012/ef345729b4d9f69863d2.svg",
+            "png": "sources/official-sports-20261012/067f2501f758f0b71d84.png"
+          },
+          "preview_png": "sources/official-sports-20261012/d4d98268a703c5db5c61.png",
+          "source_url": "https://cdn.nba.com/logos/nba/1610612739/primary/L/logo.svg",
+          "origin": "official",
+          "official_distribution": true,
+          "order": 2
+        }
+      ]
+    },
+    "new-orleans-pelicans": {
+      "schema": 1,
+      "id": "new-orleans-pelicans",
+      "primary": "legacy-original",
+      "variants": [
+        {
+          "key": "legacy-original",
+          "label": "기존 수집 로고 · 제작 시기 미확인",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "logo.svg"
+          },
+          "origin": "collected",
+          "order": 0
+        },
+        {
+          "key": "official-nba-20261012",
+          "label": "NBA 공식 구단 마크 · 제작 시기 미확인",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-sports-20261012/3d74bfcf573428a09814.svg",
+            "png": "sources/official-sports-20261012/cccc4b580f2532d55b73.png"
+          },
+          "preview_png": "sources/official-sports-20261012/9647da6a2e8388cc0a27.png",
+          "source_url": "https://cdn.nba.com/logos/nba/1610612740/primary/L/logo.svg",
+          "origin": "official",
+          "official_distribution": true,
+          "order": 1
+        }
+      ]
+    },
+    "chicago-bulls": {
+      "schema": 1,
+      "id": "chicago-bulls",
+      "primary": "legacy-original",
+      "variants": [
+        {
+          "key": "legacy-original",
+          "label": "기존 수집 로고 · 제작 시기 미확인",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "logo.svg"
+          },
+          "origin": "collected",
+          "order": 0
+        },
+        {
+          "key": "official-nba-20261012",
+          "label": "NBA 공식 구단 마크 · 제작 시기 미확인",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-sports-20261012/a11d0d6480b75e4eebca.svg",
+            "png": "sources/official-sports-20261012/91fd0ad9d3a2983f64c8.png"
+          },
+          "preview_png": "sources/official-sports-20261012/11645143e996a9a96260.png",
+          "source_url": "https://cdn.nba.com/logos/nba/1610612741/primary/L/logo.svg",
+          "origin": "official",
+          "official_distribution": true,
+          "order": 1
+        }
+      ]
+    },
+    "dallas-mavericks": {
+      "schema": 1,
+      "id": "dallas-mavericks",
+      "primary": "legacy-original",
+      "variants": [
+        {
+          "key": "legacy-original",
+          "label": "기존 수집 로고 · 제작 시기 미확인",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "logo.svg"
+          },
+          "origin": "collected",
+          "order": 0
+        },
+        {
+          "key": "official-nba-20261012",
+          "label": "NBA 공식 구단 마크 · 제작 시기 미확인",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-sports-20261012/1547494512746c182780.svg",
+            "png": "sources/official-sports-20261012/56ea5902b5fe44eec2a5.png"
+          },
+          "preview_png": "sources/official-sports-20261012/445df2620a5c5436e5db.png",
+          "source_url": "https://cdn.nba.com/logos/nba/1610612742/primary/L/logo.svg",
+          "origin": "official",
+          "official_distribution": true,
+          "order": 1
+        }
+      ]
+    },
+    "denver-nuggets": {
+      "schema": 1,
+      "id": "denver-nuggets",
+      "primary": "legacy-original",
+      "variants": [
+        {
+          "key": "legacy-original",
+          "label": "기존 수집 로고 · 제작 시기 미확인",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "logo.svg"
+          },
+          "origin": "collected",
+          "order": 0
+        },
+        {
+          "key": "official-nba-20261012",
+          "label": "NBA 공식 구단 마크 · 제작 시기 미확인",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-sports-20261012/4e180a9d1906a726d1eb.svg",
+            "png": "sources/official-sports-20261012/24d434f8e364abbe5147.png"
+          },
+          "preview_png": "sources/official-sports-20261012/84b0775dd34b8c526cd8.png",
+          "source_url": "https://cdn.nba.com/logos/nba/1610612743/primary/L/logo.svg",
+          "origin": "official",
+          "official_distribution": true,
+          "order": 1
+        }
+      ]
+    },
+    "golden-state-warriors": {
+      "schema": 1,
+      "id": "golden-state-warriors",
+      "primary": null,
+      "variants": [
+        {
+          "key": "official-nba-20261012",
+          "label": "NBA 공식 구단 마크 · 제작 시기 미확인",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-sports-20261012/99af50c32a1b1c19ede6.svg",
+            "png": "sources/official-sports-20261012/7b29d1ba6845c6ae356a.png"
+          },
+          "preview_png": "sources/official-sports-20261012/0b14875e436223c0f4bc.png",
+          "source_url": "https://cdn.nba.com/logos/nba/1610612744/primary/L/logo.svg",
+          "origin": "official",
+          "official_distribution": true,
+          "order": 0
+        }
+      ]
+    },
+    "houston-rockets": {
+      "schema": 1,
+      "id": "houston-rockets",
+      "primary": "legacy-original",
+      "variants": [
+        {
+          "key": "legacy-original",
+          "label": "기존 수집 로고 · 제작 시기 미확인",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "logo.svg"
+          },
+          "origin": "collected",
+          "order": 0
+        },
+        {
+          "key": "official-nba-20261012",
+          "label": "NBA 공식 구단 마크 · 제작 시기 미확인",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-sports-20261012/9a0fd3d351f0726db427.svg",
+            "png": "sources/official-sports-20261012/3c6d37597f6a6d92c247.png"
+          },
+          "preview_png": "sources/official-sports-20261012/7d2ecd567b0893116e99.png",
+          "source_url": "https://cdn.nba.com/logos/nba/1610612745/primary/L/logo.svg",
+          "origin": "official",
+          "official_distribution": true,
+          "order": 1
+        }
+      ]
+    },
+    "la-clippers": {
+      "id": "la-clippers",
+      "schema": 1,
+      "algo_v": 1,
+      "primary": "horizontal",
+      "variants": [
+        {
+          "key": "horizontal",
+          "form": "horizontal",
+          "lang": "en",
+          "color": "original",
+          "files": {
+            "svg": "logo.svg"
+          },
+          "label": "기존 수집 로고",
+          "order": 0
+        },
+        {
+          "key": "official-nba-primary-20261011",
+          "form": "emblem",
+          "lang": "en",
+          "color": "color",
+          "files": {
+            "png": "sources/official-nba-20261011/fac8c02bd0c8fa3ab372.png",
+            "svg": "sources/official-nba-20261011/6fe94cd7b648afe8a700.svg"
+          },
+          "label": "NBA 공식 구단 디렉터리 · 기본 로고",
+          "order": 200,
+          "provider": "official-original",
+          "source_url": "https://cdn.nba.com/logos/nba/1610612746/primary/L/logo.svg",
+          "preview_png": "sources/official-nba-20261011/5e5e871c48c582caa284.png",
+          "source_note": "2026-10-11 NBA 공식 디렉터리에서 확인. 기존 버전과 대표 선택 유지.",
+          "official_distribution": true
+        },
+        {
+          "key": "official-nba-20261012",
+          "label": "NBA 공식 구단 마크 · 제작 시기 미확인",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-sports-20261012/6fe94cd7b648afe8a700.svg",
+            "png": "sources/official-sports-20261012/77c0c07cf8698517b6c2.png"
+          },
+          "preview_png": "sources/official-sports-20261012/a70a66d07f15df9d7527.png",
+          "source_url": "https://cdn.nba.com/logos/nba/1610612746/primary/L/logo.svg",
+          "origin": "official",
+          "official_distribution": true,
+          "order": 2
+        }
+      ]
+    },
+    "los-angeles-lakers": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "los-angeles-lakers",
+      "primary": "horizontal",
+      "fingerprint": {
+        "logo.svg": "ebb3842af70fbbb6"
+      },
+      "variants": [
+        {
+          "key": "horizontal",
+          "form": "horizontal",
+          "lang": "unknown",
+          "color": "color",
+          "label": "가로조합형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 1.616,
+          "provider": "wikimedia",
+          "origin": "collected",
+          "order": 10
+        },
+        {
+          "key": "official-nba-20261012",
+          "label": "NBA 공식 구단 마크 · 제작 시기 미확인",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-sports-20261012/5b68f7b92ba7d05878ef.svg",
+            "png": "sources/official-sports-20261012/9b9181552826c548db3e.png"
+          },
+          "preview_png": "sources/official-sports-20261012/2ec214fefab42c6279df.png",
+          "source_url": "https://cdn.nba.com/logos/nba/1610612747/primary/L/logo.svg",
+          "origin": "official",
+          "official_distribution": true,
+          "order": 1
+        }
+      ]
+    },
+    "miami-heat": {
+      "schema": 1,
+      "id": "miami-heat",
+      "primary": "legacy-original",
+      "variants": [
+        {
+          "key": "legacy-original",
+          "label": "기존 수집 로고 · 제작 시기 미확인",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "logo.svg"
+          },
+          "origin": "collected",
+          "order": 0
+        },
+        {
+          "key": "official-nba-20261012",
+          "label": "NBA 공식 구단 마크 · 제작 시기 미확인",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-sports-20261012/bb56d6319628bed94e51.svg",
+            "png": "sources/official-sports-20261012/bc3a782354d641a42572.png"
+          },
+          "preview_png": "sources/official-sports-20261012/8d3bc546ebeab06c807b.png",
+          "source_url": "https://cdn.nba.com/logos/nba/1610612748/primary/L/logo.svg",
+          "origin": "official",
+          "official_distribution": true,
+          "order": 1
+        }
+      ]
+    },
+    "milwaukee-bucks": {
+      "schema": 1,
+      "id": "milwaukee-bucks",
+      "primary": "legacy-original",
+      "variants": [
+        {
+          "key": "legacy-original",
+          "label": "기존 수집 로고 · 제작 시기 미확인",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "logo.svg"
+          },
+          "origin": "collected",
+          "order": 0
+        },
+        {
+          "key": "official-nba-20261012",
+          "label": "NBA 공식 구단 마크 · 제작 시기 미확인",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-sports-20261012/1a315b6ea7d465c48fc5.svg",
+            "png": "sources/official-sports-20261012/51af405fd1841851bb2c.png"
+          },
+          "preview_png": "sources/official-sports-20261012/d0c814283d7f00275a3b.png",
+          "source_url": "https://cdn.nba.com/logos/nba/1610612749/primary/L/logo.svg",
+          "origin": "official",
+          "official_distribution": true,
+          "order": 1
+        }
+      ]
+    },
+    "minnesota-timberwolves": {
+      "schema": 1,
+      "id": "minnesota-timberwolves",
+      "primary": "legacy-original",
+      "variants": [
+        {
+          "key": "legacy-original",
+          "label": "기존 수집 로고 · 제작 시기 미확인",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "logo.svg"
+          },
+          "origin": "collected",
+          "order": 0
+        },
+        {
+          "key": "official-nba-20261012",
+          "label": "NBA 공식 구단 마크 · 제작 시기 미확인",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-sports-20261012/e23cca4da95fe6a0629c.svg",
+            "png": "sources/official-sports-20261012/7f926bbac1f8595bb86d.png"
+          },
+          "preview_png": "sources/official-sports-20261012/0000eae77bd4caa42f13.png",
+          "source_url": "https://cdn.nba.com/logos/nba/1610612750/primary/L/logo.svg",
+          "origin": "official",
+          "official_distribution": true,
+          "order": 1
+        }
+      ]
+    },
+    "brooklyn-nets": {
+      "schema": 1,
+      "id": "brooklyn-nets",
+      "primary": "legacy-original",
+      "variants": [
+        {
+          "key": "legacy-original",
+          "label": "기존 수집 로고 · 제작 시기 미확인",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "logo.svg"
+          },
+          "origin": "collected",
+          "order": 0
+        },
+        {
+          "key": "official-nba-20261012",
+          "label": "NBA 공식 구단 마크 · 제작 시기 미확인",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-sports-20261012/6a3b134fbf97503b1968.svg",
+            "png": "sources/official-sports-20261012/541507d881e56eac6f5f.png"
+          },
+          "preview_png": "sources/official-sports-20261012/c8337d001746ed47f758.png",
+          "source_url": "https://cdn.nba.com/logos/nba/1610612751/primary/L/logo.svg",
+          "origin": "official",
+          "official_distribution": true,
+          "order": 1
+        }
+      ]
+    },
+    "new-york-knicks": {
+      "schema": 1,
+      "id": "new-york-knicks",
+      "primary": "legacy-original",
+      "variants": [
+        {
+          "key": "legacy-original",
+          "label": "기존 수집 로고 · 제작 시기 미확인",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "logo.svg"
+          },
+          "origin": "collected",
+          "order": 0
+        },
+        {
+          "key": "official-nba-20261012",
+          "label": "NBA 공식 구단 마크 · 제작 시기 미확인",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-sports-20261012/42e914c5226c3ff71fa0.svg",
+            "png": "sources/official-sports-20261012/ef9f79199538c97443ce.png"
+          },
+          "preview_png": "sources/official-sports-20261012/5307f80f7ee9a90c52ee.png",
+          "source_url": "https://cdn.nba.com/logos/nba/1610612752/primary/L/logo.svg",
+          "origin": "official",
+          "official_distribution": true,
+          "order": 1
+        }
+      ]
+    },
+    "orlando-magic": {
+      "schema": 1,
+      "id": "orlando-magic",
+      "primary": "legacy-original",
+      "variants": [
+        {
+          "key": "legacy-original",
+          "label": "기존 수집 로고 · 제작 시기 미확인",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "logo.svg"
+          },
+          "origin": "collected",
+          "order": 0
+        },
+        {
+          "key": "official-nba-20261012",
+          "label": "NBA 공식 구단 마크 · 제작 시기 미확인",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-sports-20261012/aa38562ae665b4266e21.svg",
+            "png": "sources/official-sports-20261012/41db83676d835e2cc205.png"
+          },
+          "preview_png": "sources/official-sports-20261012/d1ea95645a58812fd506.png",
+          "source_url": "https://cdn.nba.com/logos/nba/1610612753/primary/L/logo.svg",
+          "origin": "official",
+          "official_distribution": true,
+          "order": 1
+        }
+      ]
+    },
+    "indiana-pacers": {
+      "schema": 1,
+      "id": "indiana-pacers",
+      "primary": "legacy-original",
+      "variants": [
+        {
+          "key": "legacy-original",
+          "label": "기존 수집 로고 · 제작 시기 미확인",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "logo.svg"
+          },
+          "origin": "collected",
+          "order": 0
+        },
+        {
+          "key": "official-nba-20261012",
+          "label": "NBA 공식 구단 마크 · 제작 시기 미확인",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-sports-20261012/07b320f178a5bf9a800e.svg",
+            "png": "sources/official-sports-20261012/6d3f847abe107d01652b.png"
+          },
+          "preview_png": "sources/official-sports-20261012/35b362f3374cee7e3b06.png",
+          "source_url": "https://cdn.nba.com/logos/nba/1610612754/primary/L/logo.svg",
+          "origin": "official",
+          "official_distribution": true,
+          "order": 1
+        }
+      ]
+    },
+    "philadelphia-76ers": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "philadelphia-76ers",
+      "primary": "symbol",
+      "fingerprint": {
+        "logo.svg": "7bdfe1746077c64e"
+      },
+      "variants": [
+        {
+          "key": "symbol",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "color",
+          "label": "심볼형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 0.822,
+          "provider": "wikimedia",
+          "origin": "collected",
+          "order": 30
+        },
+        {
+          "key": "official-nba-20261012",
+          "label": "NBA 공식 구단 마크 · 제작 시기 미확인",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-sports-20261012/1e3fbaf4f2d48a4e8e3c.svg",
+            "png": "sources/official-sports-20261012/64b4a79946dc32073cdf.png"
+          },
+          "preview_png": "sources/official-sports-20261012/d66174988189bd32f692.png",
+          "source_url": "https://cdn.nba.com/logos/nba/1610612755/primary/L/logo.svg",
+          "origin": "official",
+          "official_distribution": true,
+          "order": 1
+        }
+      ]
+    },
+    "phoenix-suns": {
+      "schema": 1,
+      "id": "phoenix-suns",
+      "primary": "legacy-original",
+      "variants": [
+        {
+          "key": "legacy-original",
+          "label": "기존 수집 로고 · 제작 시기 미확인",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "logo.svg"
+          },
+          "origin": "collected",
+          "order": 0
+        },
+        {
+          "key": "official-nba-20261012",
+          "label": "NBA 공식 구단 마크 · 제작 시기 미확인",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-sports-20261012/b4ec319fc4551e87c13b.svg",
+            "png": "sources/official-sports-20261012/719cd33dfc9a4d757b55.png"
+          },
+          "preview_png": "sources/official-sports-20261012/c8feb6ddbfdf4c94b24c.png",
+          "source_url": "https://cdn.nba.com/logos/nba/1610612756/primary/L/logo.svg",
+          "origin": "official",
+          "official_distribution": true,
+          "order": 1
+        }
+      ]
+    },
+    "portland-trail-blazers": {
+      "schema": 1,
+      "id": "portland-trail-blazers",
+      "primary": "legacy-original",
+      "variants": [
+        {
+          "key": "legacy-original",
+          "label": "기존 수집 로고 · 제작 시기 미확인",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "logo.svg"
+          },
+          "origin": "collected",
+          "order": 0
+        },
+        {
+          "key": "official-nba-20261012",
+          "label": "NBA 공식 구단 마크 · 제작 시기 미확인",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-sports-20261012/65fbdafe950a7064f530.svg",
+            "png": "sources/official-sports-20261012/9bc75da9391f4825da6e.png"
+          },
+          "preview_png": "sources/official-sports-20261012/e32e3f62a67ffacc08da.png",
+          "source_url": "https://cdn.nba.com/logos/nba/1610612757/primary/L/logo.svg",
+          "origin": "official",
+          "official_distribution": true,
+          "order": 1
+        }
+      ]
+    },
+    "sacramento-kings": {
+      "schema": 1,
+      "id": "sacramento-kings",
+      "primary": "legacy-original",
+      "variants": [
+        {
+          "key": "legacy-original",
+          "label": "기존 수집 로고 · 제작 시기 미확인",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "logo.svg"
+          },
+          "origin": "collected",
+          "order": 0
+        },
+        {
+          "key": "official-nba-20261012",
+          "label": "NBA 공식 구단 마크 · 제작 시기 미확인",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-sports-20261012/36bcebbe9c06361db157.svg",
+            "png": "sources/official-sports-20261012/00c0d2a957f69f1d42f4.png"
+          },
+          "preview_png": "sources/official-sports-20261012/96ddda427d3dfdcf2962.png",
+          "source_url": "https://cdn.nba.com/logos/nba/1610612758/primary/L/logo.svg",
+          "origin": "official",
+          "official_distribution": true,
+          "order": 1
+        }
+      ]
+    },
+    "san-antonio-spurs": {
+      "schema": 1,
+      "id": "san-antonio-spurs",
+      "primary": "legacy-original",
+      "variants": [
+        {
+          "key": "legacy-original",
+          "label": "기존 수집 로고 · 제작 시기 미확인",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "logo.svg"
+          },
+          "origin": "collected",
+          "order": 0
+        },
+        {
+          "key": "official-nba-20261012",
+          "label": "NBA 공식 구단 마크 · 제작 시기 미확인",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-sports-20261012/c4df842e0d660dbc6dd1.svg",
+            "png": "sources/official-sports-20261012/1526a12b3f60207a9243.png"
+          },
+          "preview_png": "sources/official-sports-20261012/5bdab62077dd7e2ba831.png",
+          "source_url": "https://cdn.nba.com/logos/nba/1610612759/primary/L/logo.svg",
+          "origin": "official",
+          "official_distribution": true,
+          "order": 1
+        }
+      ]
+    },
+    "oklahoma-city-thunder": {
+      "schema": 1,
+      "id": "oklahoma-city-thunder",
+      "primary": "official-nba-20261012",
+      "variants": [
+        {
+          "key": "official-nba-20261012",
+          "label": "NBA 공식 구단 마크 · 제작 시기 미확인",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-sports-20261012/fb684464e11e07989b31.svg",
+            "png": "sources/official-sports-20261012/9d74c28a37d0eb262993.png"
+          },
+          "preview_png": "sources/official-sports-20261012/29884f5b8444c1701235.png",
+          "source_url": "https://cdn.nba.com/logos/nba/1610612760/primary/L/logo.svg",
+          "origin": "official",
+          "official_distribution": true,
+          "order": 0
+        }
+      ]
+    },
+    "toronto-raptors": {
+      "schema": 1,
+      "id": "toronto-raptors",
+      "primary": "legacy-original",
+      "variants": [
+        {
+          "key": "legacy-original",
+          "label": "기존 수집 로고 · 제작 시기 미확인",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "logo.svg"
+          },
+          "origin": "collected",
+          "order": 0
+        },
+        {
+          "key": "official-nba-20261012",
+          "label": "NBA 공식 구단 마크 · 제작 시기 미확인",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-sports-20261012/cb754caf37f8132f366e.svg",
+            "png": "sources/official-sports-20261012/afc2af2292973d2e0c0c.png"
+          },
+          "preview_png": "sources/official-sports-20261012/01e451507021a0807eae.png",
+          "source_url": "https://cdn.nba.com/logos/nba/1610612761/primary/L/logo.svg",
+          "origin": "official",
+          "official_distribution": true,
+          "order": 1
+        }
+      ]
+    },
+    "utah-jazz": {
+      "schema": 1,
+      "id": "utah-jazz",
+      "primary": null,
+      "variants": [
+        {
+          "key": "official-nba-20261012",
+          "label": "NBA 공식 구단 마크 · 제작 시기 미확인",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-sports-20261012/f1df72b502f198c45208.svg",
+            "png": "sources/official-sports-20261012/794eb7f326a6ccee123e.png"
+          },
+          "preview_png": "sources/official-sports-20261012/9789323da4923bfc6f95.png",
+          "source_url": "https://cdn.nba.com/logos/nba/1610612762/primary/L/logo.svg",
+          "origin": "official",
+          "official_distribution": true,
+          "order": 0
+        }
+      ]
+    },
+    "memphis-grizzlies": {
+      "schema": 1,
+      "id": "memphis-grizzlies",
+      "primary": "legacy-original",
+      "variants": [
+        {
+          "key": "legacy-original",
+          "label": "기존 수집 로고 · 제작 시기 미확인",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "logo.svg"
+          },
+          "origin": "collected",
+          "order": 0
+        },
+        {
+          "key": "official-nba-20261012",
+          "label": "NBA 공식 구단 마크 · 제작 시기 미확인",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-sports-20261012/677c8053201e90471f0e.svg",
+            "png": "sources/official-sports-20261012/2a0f0aa978339bceffb7.png"
+          },
+          "preview_png": "sources/official-sports-20261012/02b2aef007e20c60aee4.png",
+          "source_url": "https://cdn.nba.com/logos/nba/1610612763/primary/L/logo.svg",
+          "origin": "official",
+          "official_distribution": true,
+          "order": 1
+        }
+      ]
+    },
+    "washington-wizards": {
+      "schema": 1,
+      "id": "washington-wizards",
+      "primary": "legacy-original",
+      "variants": [
+        {
+          "key": "legacy-original",
+          "label": "기존 수집 로고 · 제작 시기 미확인",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "logo.svg"
+          },
+          "origin": "collected",
+          "order": 0
+        },
+        {
+          "key": "official-nba-20261012",
+          "label": "NBA 공식 구단 마크 · 제작 시기 미확인",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-sports-20261012/4e99c8f715c1af7e5cce.svg",
+            "png": "sources/official-sports-20261012/f634ade28eb6c08b27b4.png"
+          },
+          "preview_png": "sources/official-sports-20261012/005830f5a94cf54399c6.png",
+          "source_url": "https://cdn.nba.com/logos/nba/1610612764/primary/L/logo.svg",
+          "origin": "official",
+          "official_distribution": true,
+          "order": 1
+        }
+      ]
+    },
+    "detroit-pistons": {
+      "schema": 1,
+      "id": "detroit-pistons",
+      "primary": "legacy-original",
+      "variants": [
+        {
+          "key": "legacy-original",
+          "label": "기존 수집 로고 · 제작 시기 미확인",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "logo.svg"
+          },
+          "origin": "collected",
+          "order": 0
+        },
+        {
+          "key": "official-nba-20261012",
+          "label": "NBA 공식 구단 마크 · 제작 시기 미확인",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-sports-20261012/efc20345b37e52206e02.svg",
+            "png": "sources/official-sports-20261012/446a75736c6f4a880369.png"
+          },
+          "preview_png": "sources/official-sports-20261012/46d0f61444cbfa1ecd7a.png",
+          "source_url": "https://cdn.nba.com/logos/nba/1610612765/primary/L/logo.svg",
+          "origin": "official",
+          "official_distribution": true,
+          "order": 1
+        }
+      ]
+    },
+    "charlotte-hornets": {
+      "schema": 1,
+      "id": "charlotte-hornets",
+      "primary": "legacy-original",
+      "variants": [
+        {
+          "key": "legacy-original",
+          "label": "기존 수집 로고 · 제작 시기 미확인",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "logo.svg"
+          },
+          "origin": "collected",
+          "order": 0
+        },
+        {
+          "key": "official-nba-20261012",
+          "label": "NBA 공식 구단 마크 · 제작 시기 미확인",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-sports-20261012/cf2c99a2d619f635920a.svg",
+            "png": "sources/official-sports-20261012/bdae558e8795538dd33c.png"
+          },
+          "preview_png": "sources/official-sports-20261012/665a76f737c9fa15e3fe.png",
+          "source_url": "https://cdn.nba.com/logos/nba/1610612766/primary/L/logo.svg",
+          "origin": "official",
+          "official_distribution": true,
+          "order": 1
+        }
+      ]
+    },
+    "kgckbl": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "kgckbl",
+      "primary": "vertical",
+      "fingerprint": {
+        "logo.svg": "42df997df5a3b06d"
+      },
+      "variants": [
+        {
+          "key": "vertical",
+          "form": "vertical",
+          "lang": "unknown",
+          "color": "color",
+          "label": "세로조합형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 0.667,
+          "provider": "sports-rendered",
+          "origin": "collected",
+          "order": 20
+        },
+        {
+          "key": "official-kbl-20261012",
+          "label": "KBL 공식 구단 마크 · 제작 시기 미확인",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-sports-20261012/ee03b2687bc5a0379bb5.svg",
+            "png": "sources/official-sports-20261012/38e144c0a9a87555cef3.png"
+          },
+          "preview_png": "sources/official-sports-20261012/8ffe4234d4b7f7b8721f.png",
+          "origin": "official",
+          "source_url": "https://kbl.or.kr/assets/img/logo/logo-kgc.svg",
+          "official_distribution": true,
+          "order": 1
+        }
+      ]
+    },
+    "sakerskbl": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "sakerskbl",
+      "primary": "horizontal",
+      "fingerprint": {
+        "logo.svg": "5dcc80c3a9fb99e7"
+      },
+      "variants": [
+        {
+          "key": "horizontal",
+          "form": "horizontal",
+          "lang": "unknown",
+          "color": "color",
+          "label": "가로조합형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 1.651,
+          "provider": "sports-rendered",
+          "origin": "collected",
+          "order": 10
+        },
+        {
+          "key": "official-kbl-20261012",
+          "label": "KBL 공식 구단 마크 · 제작 시기 미확인",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-sports-20261012/49f6207892a332e3ff11.svg",
+            "png": "sources/official-sports-20261012/60537e6529a70e80ebc7.png"
+          },
+          "preview_png": "sources/official-sports-20261012/605f83f897926844c196.png",
+          "origin": "official",
+          "source_url": "https://kbl.or.kr/assets/img/logo/logo-lg.svg",
+          "official_distribution": true,
+          "order": 1
+        }
+      ]
+    },
+    "sksports": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "sksports",
+      "primary": "horizontal",
+      "fingerprint": {
+        "logo.svg": "f249d60ac07a0dbe"
+      },
+      "variants": [
+        {
+          "key": "horizontal",
+          "form": "horizontal",
+          "lang": "unknown",
+          "color": "mono-dark",
+          "label": "가로조합형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 1.485,
+          "provider": "kr-club-site",
+          "origin": "collected",
+          "order": 10
+        },
+        {
+          "key": "official-kbl-20261012",
+          "label": "KBL 공식 구단 마크 · 제작 시기 미확인",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-sports-20261012/943b7ba8804b210c8a9c.svg",
+            "png": "sources/official-sports-20261012/7f1abc2a1604a4ccee68.png"
+          },
+          "preview_png": "sources/official-sports-20261012/e81db3e245b4324f7b9b.png",
+          "origin": "official",
+          "source_url": "https://kbl.or.kr/assets/img/logo/logo-sk.svg",
+          "official_distribution": true,
+          "order": 1
+        }
+      ]
+    },
+    "phoebuskbl": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "phoebuskbl",
+      "primary": "symbol",
+      "fingerprint": {
+        "logo.svg": "916ba5c47d031733"
+      },
+      "variants": [
+        {
+          "key": "symbol",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "color",
+          "label": "심볼형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 1.229,
+          "provider": "sports-rendered",
+          "origin": "collected",
+          "order": 30
+        },
+        {
+          "key": "official-kbl-20261012",
+          "label": "KBL 공식 구단 마크 · 제작 시기 미확인",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-sports-20261012/edb6fdd580488d90cfbb.svg",
+            "png": "sources/official-sports-20261012/123971139ecd0e1e2a99.png"
+          },
+          "preview_png": "sources/official-sports-20261012/f87f447162526cc36095.png",
+          "origin": "official",
+          "source_url": "https://kbl.or.kr/assets/img/logo/logo-hd.svg",
+          "official_distribution": true,
+          "order": 1
+        }
+      ]
+    },
+    "skygunnerskbl": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "skygunnerskbl",
+      "primary": "vertical",
+      "fingerprint": {
+        "logo.svg": "e2aa47c3173325c5"
+      },
+      "variants": [
+        {
+          "key": "vertical",
+          "form": "vertical",
+          "lang": "unknown",
+          "color": "color",
+          "label": "세로조합형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 0.763,
+          "provider": "sports-rendered",
+          "origin": "collected",
+          "order": 20
+        },
+        {
+          "key": "official-kbl-20261012",
+          "label": "KBL 공식 구단 마크 · 제작 시기 미확인",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-sports-20261012/ea3f0b7f65fdecb4baa5.svg",
+            "png": "sources/official-sports-20261012/fd974b637b0652237d05.png"
+          },
+          "preview_png": "sources/official-sports-20261012/d8b916db4dd33d16ca5c.png",
+          "origin": "official",
+          "source_url": "https://kbl.or.kr/assets/img/logo/logo-sono.svg",
+          "official_distribution": true,
+          "order": 1
+        }
+      ]
+    },
+    "kccegis": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "kccegis",
+      "primary": "horizontal",
+      "fingerprint": {
+        "logo.svg": "6f375f115a278ee6"
+      },
+      "variants": [
+        {
+          "key": "horizontal",
+          "form": "horizontal",
+          "lang": "unknown",
+          "color": "color",
+          "label": "가로조합형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 1.552,
+          "provider": "sports-rendered",
+          "origin": "collected",
+          "order": 10
+        },
+        {
+          "key": "official-kbl-20261012",
+          "label": "KBL 공식 구단 마크 · 제작 시기 미확인",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-sports-20261012/96feb76543d7756616db.svg",
+            "png": "sources/official-sports-20261012/7ef8c15d8a3283cf4663.png"
+          },
+          "preview_png": "sources/official-sports-20261012/703cdbb7476dc5c64fbb.png",
+          "origin": "official",
+          "source_url": "https://kbl.or.kr/assets/img/logo/logo-kcc.svg",
+          "official_distribution": true,
+          "order": 1
+        }
+      ]
+    },
+    "promykbl": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "promykbl",
+      "primary": "symbol",
+      "fingerprint": {
+        "logo.svg": "882ae5e19f0c306c"
+      },
+      "variants": [
+        {
+          "key": "symbol",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "color",
+          "label": "심볼형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 1.002,
+          "provider": "sports-rendered",
+          "origin": "collected",
+          "order": 30
+        },
+        {
+          "key": "official-kbl-20261012",
+          "label": "KBL 공식 구단 마크 · 제작 시기 미확인",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-sports-20261012/1b2388d35b4a4f7ba686.svg",
+            "png": "sources/official-sports-20261012/43292ea55ab3995a1279.png"
+          },
+          "preview_png": "sources/official-sports-20261012/0e6aed70ff78877c7168.png",
+          "origin": "official",
+          "source_url": "https://kbl.or.kr/assets/img/logo/logo-db.svg",
+          "official_distribution": true,
+          "order": 1
+        }
+      ]
+    },
+    "sonicboomkbl": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "sonicboomkbl",
+      "primary": "horizontal",
+      "fingerprint": {
+        "logo.svg": "5c16a6a8a0a42c68"
+      },
+      "variants": [
+        {
+          "key": "horizontal",
+          "form": "horizontal",
+          "lang": "unknown",
+          "color": "color",
+          "label": "가로조합형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 1.448,
+          "provider": "sports-rendered",
+          "origin": "collected",
+          "order": 10
+        },
+        {
+          "key": "official-kbl-20261012",
+          "label": "KBL 공식 구단 마크 · 제작 시기 미확인",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-sports-20261012/6bf26b2abb8b96cf2579.svg",
+            "png": "sources/official-sports-20261012/6b6f255fe69b553aa0b8.png"
+          },
+          "preview_png": "sources/official-sports-20261012/40a0762b972737ac1cac.png",
+          "origin": "official",
+          "source_url": "https://kbl.or.kr/assets/img/logo/logo-kt.svg",
+          "official_distribution": true,
+          "order": 1
+        }
+      ]
+    },
+    "pegasuskbl": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "pegasuskbl",
+      "primary": "horizontal",
+      "fingerprint": {
+        "logo.svg": "c926c282d3516e59"
+      },
+      "variants": [
+        {
+          "key": "horizontal",
+          "form": "horizontal",
+          "lang": "unknown",
+          "color": "color",
+          "label": "가로조합형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 1.796,
+          "provider": "sports-rendered",
+          "origin": "collected",
+          "order": 10
+        },
+        {
+          "key": "official-kbl-20261012",
+          "label": "KBL 공식 구단 마크 · 제작 시기 미확인",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-sports-20261012/12ab9f95be615a74bbe7.svg",
+            "png": "sources/official-sports-20261012/061c9b2ed9bc823a37c3.png"
+          },
+          "preview_png": "sources/official-sports-20261012/8e0e577f240e4d2e3e46.png",
+          "origin": "official",
+          "source_url": "https://kbl.or.kr/assets/img/logo/logo-pega.svg",
+          "official_distribution": true,
+          "order": 1
+        }
+      ]
+    },
+    "thunderskbl": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "thunderskbl",
+      "primary": "wordmark",
+      "fingerprint": {
+        "logo.svg": "785e41c481a01044"
+      },
+      "variants": [
+        {
+          "key": "wordmark",
+          "form": "wordmark",
+          "lang": "unknown",
+          "color": "color",
+          "label": "워드마크형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 3.158,
+          "provider": "sports-rendered",
+          "origin": "collected",
+          "order": 40
+        },
+        {
+          "key": "official-kbl-20261012",
+          "label": "KBL 공식 구단 마크 · 제작 시기 미확인",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-sports-20261012/dae2c4492e78bf960722.svg",
+            "png": "sources/official-sports-20261012/e13222240eafc980978d.png"
+          },
+          "preview_png": "sources/official-sports-20261012/f65f4c5fbbee8ef3453b.png",
+          "origin": "official",
+          "source_url": "https://kbl.or.kr/assets/img/logo/logo-ss.svg",
+          "official_distribution": true,
+          "order": 1
+        }
+      ]
+    },
+    "kaljumbos": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "kaljumbos",
+      "primary": "wordmark",
+      "fingerprint": {
+        "logo.svg": "37224aba3ce23537"
+      },
+      "variants": [
+        {
+          "key": "wordmark",
+          "form": "wordmark",
+          "lang": "unknown",
+          "color": "color",
+          "label": "워드마크형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 3.704,
+          "provider": "sports-rendered",
+          "origin": "collected",
+          "order": 40
+        },
+        {
+          "key": "official-kovo-20261012",
+          "label": "KOVO 공식 구단 마크 · 제작 시기 미확인",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-sports-20261012/3591b03e8ccf989f59c9.svg",
+            "png": "sources/official-sports-20261012/957b4e323c525e0da492.png"
+          },
+          "preview_png": "sources/official-sports-20261012/21a8cfa861ac8704f793.png",
+          "origin": "official",
+          "source_url": "https://cdn.kovo.co.kr/emblems/jumbos.svg",
+          "official_distribution": true,
+          "order": 1
+        }
+      ]
+    },
+    "kovo": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "kovo",
+      "primary": "wordmark",
+      "fingerprint": {
+        "logo.svg": "37224aba3ce23537"
+      },
+      "variants": [
+        {
+          "key": "wordmark",
+          "form": "wordmark",
+          "lang": "unknown",
+          "color": "color",
+          "label": "워드마크형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 3.704,
+          "provider": "sports-rendered",
+          "origin": "collected",
+          "order": 40
+        },
+        {
+          "key": "official-kovo-20261012",
+          "label": "KOVO 공식 구단 마크 · 제작 시기 미확인",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-sports-20261012/18462ac07dc14b762027.svg",
+            "png": "sources/official-sports-20261012/493b5eb096e4cda14e52.png"
+          },
+          "preview_png": "sources/official-sports-20261012/0a62ff2d5142ab251cb1.png",
+          "origin": "official",
+          "source_url": "https://cdn.kovo.co.kr/emblems/wooriwon.svg",
+          "official_distribution": true,
+          "order": 1
+        }
+      ]
+    },
+    "kbstarsvc": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "kbstarsvc",
+      "primary": "horizontal",
+      "fingerprint": {
+        "logo.svg": "38ebf9e7ba76b874"
+      },
+      "variants": [
+        {
+          "key": "horizontal",
+          "form": "horizontal",
+          "lang": "unknown",
+          "color": "color",
+          "label": "가로조합형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 1.252,
+          "provider": "kr-club-site",
+          "origin": "collected",
+          "order": 10
+        },
+        {
+          "key": "official-kovo-20261012",
+          "label": "KOVO 공식 구단 마크 · 제작 시기 미확인",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-sports-20261012/db9439f634cb97880ca9.svg",
+            "png": "sources/official-sports-20261012/5d6a0c9fb8a6519c2015.png"
+          },
+          "preview_png": "sources/official-sports-20261012/7ece1010ca5bee52c43b.png",
+          "origin": "official",
+          "source_url": "https://cdn.kovo.co.kr/emblems/stars.svg",
+          "official_distribution": true,
+          "order": 1
+        }
+      ]
+    },
+    "okfinancialsports": {
+      "schema": 1,
+      "id": "okfinancialsports",
+      "primary": "official-kovo-20261012",
+      "variants": [
+        {
+          "key": "official-kovo-20261012",
+          "label": "KOVO 공식 구단 마크 · 제작 시기 미확인",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-sports-20261012/d4addf34c4fcb28d5a96.svg",
+            "png": "sources/official-sports-20261012/b19b7c650b168666631c.png"
+          },
+          "preview_png": "sources/official-sports-20261012/356a220aaa32776da57f.png",
+          "origin": "official",
+          "source_url": "https://cdn.kovo.co.kr/emblems/okman.svg",
+          "official_distribution": true,
+          "order": 0
+        }
+      ]
+    },
+    "gsvolleyball": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "gsvolleyball",
+      "primary": "wordmark",
+      "fingerprint": {
+        "logo.svg": "37224aba3ce23537"
+      },
+      "variants": [
+        {
+          "key": "wordmark",
+          "form": "wordmark",
+          "lang": "unknown",
+          "color": "color",
+          "label": "워드마크형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 3.704,
+          "provider": "sports-rendered",
+          "origin": "collected",
+          "order": 40
+        },
+        {
+          "key": "official-kovo-20261012",
+          "label": "KOVO 공식 구단 마크 · 제작 시기 미확인",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-sports-20261012/68f436e8bda0d79f92f5.svg",
+            "png": "sources/official-sports-20261012/19cbd83f3aedee2c2783.png"
+          },
+          "preview_png": "sources/official-sports-20261012/3ea209189a76cdcff439.png",
+          "origin": "official",
+          "source_url": "https://cdn.kovo.co.kr/emblems/kixx.svg",
+          "official_distribution": true,
+          "order": 1
+        }
+      ]
+    },
+    "sportsibk": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "sportsibk",
+      "primary": "wordmark",
+      "fingerprint": {
+        "logo.svg": "4f89af643da21a99"
+      },
+      "variants": [
+        {
+          "key": "wordmark",
+          "form": "wordmark",
+          "lang": "unknown",
+          "color": "color",
+          "label": "워드마크형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 3.801,
+          "provider": "kr-club-site",
+          "origin": "collected",
+          "order": 40
+        },
+        {
+          "key": "official-kovo-20261012",
+          "label": "KOVO 공식 구단 마크 · 제작 시기 미확인",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-sports-20261012/6cb1bf04227cd2b2c608.svg",
+            "png": "sources/official-sports-20261012/26ab52cba824043907d3.png"
+          },
+          "preview_png": "sources/official-sports-20261012/8a782f5e63abc76d0225.png",
+          "origin": "official",
+          "source_url": "https://cdn.kovo.co.kr/emblems/altos.svg",
+          "official_distribution": true,
+          "order": 1
+        }
+      ]
+    },
+    "kgc": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "kgc",
+      "primary": "horizontal",
+      "fingerprint": {
+        "logo.svg": "caac381858953165"
+      },
+      "variants": [
+        {
+          "key": "horizontal",
+          "form": "horizontal",
+          "lang": "unknown",
+          "color": "color",
+          "label": "가로조합형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 1.804,
+          "provider": "kr-club-pass2",
+          "origin": "collected",
+          "order": 10
+        },
+        {
+          "key": "official-kovo-20261012",
+          "label": "KOVO 공식 구단 마크 · 제작 시기 미확인",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-sports-20261012/bcb06ba64580366ad799.svg",
+            "png": "sources/official-sports-20261012/d41d4807a14bb2bcfca9.png"
+          },
+          "preview_png": "sources/official-sports-20261012/ab50de72ca9d238d344c.png",
+          "origin": "official",
+          "source_url": "https://cdn.kovo.co.kr/emblems/redsparks.svg",
+          "official_distribution": true,
+          "order": 1
+        }
+      ]
+    }
+  }
+}
