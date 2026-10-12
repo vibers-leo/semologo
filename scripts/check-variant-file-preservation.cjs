@@ -1,0 +1,10 @@
+const fs=require('node:fs'),assert=require('node:assert/strict'),vm=require('node:vm');
+const source=fs.readFileSync('scripts/publish-community-variants-20261010.py','utf8');
+const declaration=source.match(/const sameFiles=.*?;/)[0];
+const equal=vm.runInNewContext(declaration+'sameFiles');
+assert(equal({svg:'a.svg',png:'a.png'},{png:'a.png',svg:'a.svg'}));
+assert(!equal({svg:'a.svg',png:'a.png'},{svg:'b.svg',png:'a.png'}));
+assert(!equal({svg:'a.svg',png:'a.png'},{png:'a.png'}));
+assert(!equal({png:'a.png'},{svg:'a.svg',png:'a.png'}));
+assert(!equal(null,{png:'a.png'}));
+console.log('PASS variant preservation ignores JSONB key order and rejects changed or missing files');

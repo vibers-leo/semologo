@@ -1151,6 +1151,159 @@
         "PL",
         "축구"
       ]
+    },
+    "hyundai-capital-skywalkers": {
+      "variants_n": 1,
+      "logo_published_at": "2026-10-12T10:17:33.160207+00:00",
+      "aliases": [
+        "천안 현대캐피탈 스카이워커스",
+        "Hyundai Capital Skywalkers",
+        "KOVO",
+        "배구"
+      ],
+      "name_ko": "천안 현대캐피탈 스카이워커스",
+      "name_en": "Hyundai Capital Skywalkers",
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": "sources/official-sports-20261012/2be71da69ad5ecf8815d.svg",
+      "svg_transparent": "sources/official-sports-20261012/2be71da69ad5ecf8815d.svg",
+      "logo_png": "sources/official-sports-20261012/2b84f012c21e2c4338c2.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/hyundai-capital-skywalkers/sources/official-sports-20261012/967e17465d6933abaa57.png",
+      "asset_origin": "KOVO 공식 CDN",
+      "official_source_page": "https://skywalkers.kovo.co.kr",
+      "id": "hyundai-capital-skywalkers",
+      "category": "스포츠",
+      "origin": "KR",
+      "added_at": "2026-10-12",
+      "light": false,
+      "light_logo": false,
+      "dark_variant": false,
+      "presentation": {
+        "file": "sources/official-sports-20261012/2b84f012c21e2c4338c2.png",
+        "bg": "light"
+      }
+    },
+    "kepco-vixtorm": {
+      "variants_n": 1,
+      "logo_published_at": "2026-10-12T10:17:34.173467+00:00",
+      "aliases": [
+        "수원 한국전력 VIXTORM",
+        "KEPCO Vixtorm",
+        "KOVO",
+        "배구"
+      ],
+      "name_ko": "수원 한국전력 VIXTORM",
+      "name_en": "KEPCO Vixtorm",
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": "sources/official-sports-20261012/02bb8c92a593a6450b82.svg",
+      "svg_transparent": "sources/official-sports-20261012/02bb8c92a593a6450b82.svg",
+      "logo_png": "sources/official-sports-20261012/fd227562074fd458fac9.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/kepco-vixtorm/sources/official-sports-20261012/c6efde86aa4cbede41fa.png",
+      "asset_origin": "KOVO 공식 CDN",
+      "official_source_page": "https://vixtorm.kovo.co.kr",
+      "id": "kepco-vixtorm",
+      "category": "스포츠",
+      "origin": "KR",
+      "added_at": "2026-10-12",
+      "light": false,
+      "light_logo": false,
+      "dark_variant": false,
+      "presentation": {
+        "file": "sources/official-sports-20261012/fd227562074fd458fac9.png",
+        "bg": "light"
+      }
+    },
+    "samsung-fire-bluefangs": {
+      "variants_n": 1,
+      "logo_published_at": "2026-10-12T10:17:34.798741+00:00",
+      "aliases": [
+        "대전 삼성화재 블루팡스",
+        "Samsung Fire Bluefangs",
+        "KOVO",
+        "배구"
+      ],
+      "name_ko": "대전 삼성화재 블루팡스",
+      "name_en": "Samsung Fire Bluefangs",
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": "sources/official-sports-20261012/56fe467bacd7dad646c7.svg",
+      "svg_transparent": "sources/official-sports-20261012/56fe467bacd7dad646c7.svg",
+      "logo_png": "sources/official-sports-20261012/7e56c57bd283684e293b.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/samsung-fire-bluefangs/sources/official-sports-20261012/a5436983bb038bd5a3f4.png",
+      "asset_origin": "KOVO 공식 CDN",
+      "official_source_page": "https://bluefangs.kovo.co.kr",
+      "id": "samsung-fire-bluefangs",
+      "category": "스포츠",
+      "origin": "KR",
+      "added_at": "2026-10-12",
+      "light": false,
+      "light_logo": false,
+      "dark_variant": false,
+      "presentation": {
+        "file": "sources/official-sports-20261012/7e56c57bd283684e293b.png",
+        "bg": "light"
+      }
+    },
+    "korea-expressway-hi-pass": {
+      "variants_n": 1,
+      "logo_published_at": "2026-10-12T10:17:35.356864+00:00",
+      "aliases": [
+        "김천 한국도로공사 하이패스",
+        "Korea Expressway Hi-Pass",
+        "KOVO",
+        "배구"
+      ],
+      "name_ko": "김천 한국도로공사 하이패스",
+      "name_en": "Korea Expressway Hi-Pass",
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": "sources/official-sports-20261012/cefb5c98a311ad5c268c.svg",
+      "svg_transparent": "sources/official-sports-20261012/cefb5c98a311ad5c268c.svg",
+      "logo_png": "sources/official-sports-20261012/8bb4feceb2561f547f1e.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/korea-expressway-hi-pass/sources/official-sports-20261012/f150279f0efdc81a6a37.png",
+      "asset_origin": "KOVO 공식 CDN",
+      "official_source_page": "https://hipass.kovo.co.kr",
+      "id": "korea-expressway-hi-pass",
+      "category": "스포츠",
+      "origin": "KR",
+      "added_at": "2026-10-12",
+      "light": false,
+      "light_logo": false,
+      "dark_variant": false,
+      "presentation": {
+        "file": "sources/official-sports-20261012/8bb4feceb2561f547f1e.png",
+        "bg": "light"
+      }
+    },
+    "aipeppers": {
+      "variants_n": 3,
+      "logo_published_at": "2026-10-12T10:17:38.073899+00:00",
+      "aliases": [
+        "전남광주 SOOP SOOPers",
+        "SOOP SOOPers",
+        "KOVO",
+        "배구",
+        "AI 페퍼스",
+        "페퍼저축은행 배구단",
+        "광주 AI 페퍼스",
+        "SOOPers",
+        "숲 수퍼스"
+      ],
+      "name_ko": "전남광주 SOOP SOOPers",
+      "name_en": "SOOP SOOPers",
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": "sources/official-sports-20261012/b33bac6b744f443ef8ce.svg",
+      "svg_transparent": "sources/official-sports-20261012/b33bac6b744f443ef8ce.svg",
+      "logo_png": "sources/official-sports-20261012/291241cf53126ebd45d1.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/aipeppers/sources/official-sports-20261012/0306ecb37f25207d4156.png",
+      "asset_origin": "KOVO 공식 CDN",
+      "official_source_page": "https://soopers.kovo.co.kr",
+      "history_note": "AI 페퍼스 인수 후 SOOP SOOPers로 운영. 이전 구단명 로고를 같은 콘텐츠에 보존.",
+      "rejected_asset_files": [
+        "logo.png"
+      ]
     }
   },
   "variants": {
@@ -4717,6 +4870,149 @@
           "origin": "official",
           "official_distribution": true,
           "order": 1
+        }
+      ]
+    },
+    "hyundai-capital-skywalkers": {
+      "schema": 1,
+      "id": "hyundai-capital-skywalkers",
+      "primary": "official-kovo-20261012",
+      "variants": [
+        {
+          "key": "official-kovo-20261012",
+          "label": "천안 현대캐피탈 스카이워커스 · KOVO 공식 팀마크",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-sports-20261012/2be71da69ad5ecf8815d.svg",
+            "png": "sources/official-sports-20261012/2b84f012c21e2c4338c2.png"
+          },
+          "preview_png": "sources/official-sports-20261012/967e17465d6933abaa57.png",
+          "origin": "official",
+          "official_distribution": true,
+          "source_url": "https://cdn.kovo.co.kr/emblems/skywalkers.svg",
+          "order": 0
+        }
+      ]
+    },
+    "kepco-vixtorm": {
+      "schema": 1,
+      "id": "kepco-vixtorm",
+      "primary": "official-kovo-20261012",
+      "variants": [
+        {
+          "key": "official-kovo-20261012",
+          "label": "수원 한국전력 VIXTORM · KOVO 공식 팀마크",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-sports-20261012/02bb8c92a593a6450b82.svg",
+            "png": "sources/official-sports-20261012/fd227562074fd458fac9.png"
+          },
+          "preview_png": "sources/official-sports-20261012/c6efde86aa4cbede41fa.png",
+          "origin": "official",
+          "official_distribution": true,
+          "source_url": "https://cdn.kovo.co.kr/emblems/vixtorm.svg",
+          "order": 0
+        }
+      ]
+    },
+    "samsung-fire-bluefangs": {
+      "schema": 1,
+      "id": "samsung-fire-bluefangs",
+      "primary": "official-kovo-20261012",
+      "variants": [
+        {
+          "key": "official-kovo-20261012",
+          "label": "대전 삼성화재 블루팡스 · KOVO 공식 팀마크",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-sports-20261012/56fe467bacd7dad646c7.svg",
+            "png": "sources/official-sports-20261012/7e56c57bd283684e293b.png"
+          },
+          "preview_png": "sources/official-sports-20261012/a5436983bb038bd5a3f4.png",
+          "origin": "official",
+          "official_distribution": true,
+          "source_url": "https://cdn.kovo.co.kr/emblems/bluefangs.svg",
+          "order": 0
+        }
+      ]
+    },
+    "korea-expressway-hi-pass": {
+      "schema": 1,
+      "id": "korea-expressway-hi-pass",
+      "primary": "official-kovo-20261012",
+      "variants": [
+        {
+          "key": "official-kovo-20261012",
+          "label": "김천 한국도로공사 하이패스 · KOVO 공식 팀마크",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-sports-20261012/cefb5c98a311ad5c268c.svg",
+            "png": "sources/official-sports-20261012/8bb4feceb2561f547f1e.png"
+          },
+          "preview_png": "sources/official-sports-20261012/f150279f0efdc81a6a37.png",
+          "origin": "official",
+          "official_distribution": true,
+          "source_url": "https://cdn.kovo.co.kr/emblems/hipass.svg",
+          "order": 0
+        }
+      ]
+    },
+    "aipeppers": {
+      "schema": 1,
+      "id": "aipeppers",
+      "primary": "official-kovo-20261012",
+      "variants": [
+        {
+          "key": "former-ai-peppers",
+          "label": "AI 페퍼스 · 이전 구단명 로고",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "png": "logo.png"
+          },
+          "origin": "collected",
+          "order": 0
+        },
+        {
+          "key": "official-kovo-20261012",
+          "label": "전남광주 SOOP SOOPers · KOVO 공식 팀마크",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-sports-20261012/b33bac6b744f443ef8ce.svg",
+            "png": "sources/official-sports-20261012/291241cf53126ebd45d1.png"
+          },
+          "preview_png": "sources/official-sports-20261012/0306ecb37f25207d4156.png",
+          "origin": "official",
+          "official_distribution": true,
+          "source_url": "https://cdn.kovo.co.kr/emblems/soopers.svg",
+          "order": 1
+        },
+        {
+          "key": "official-former-ai-peppers-20261012",
+          "label": "AI 페퍼스 · 이전 구단명 공식 엠블럼",
+          "form": "symbol",
+          "lang": "en",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-sports-20261012/48ed9f6f366d6b377680.svg",
+            "png": "sources/official-sports-20261012/307c2dfcc91e17c05079.png"
+          },
+          "preview_png": "sources/official-sports-20261012/11a59a833c17654b5031.png",
+          "source_url": "https://cdn.kovo.co.kr/emblems/aipeppers.svg",
+          "official_distribution": true,
+          "origin": "official",
+          "order": 2
         }
       ]
     }

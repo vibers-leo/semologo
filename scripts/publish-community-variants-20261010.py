@@ -36,6 +36,7 @@ with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool:results=list(p
 (folder/'cdn-verification.json').write_text(json.dumps(results,indent=2)+'\n');print('CDN verified',len(results),'objects',flush=True)
 release=json.loads((folder/'release.json').read_text());uploads=json.loads((folder/'uploads.json').read_text())
 script='const release='+json.dumps(release,ensure_ascii=False)+';const uploads='+json.dumps(uploads,ensure_ascii=False)+';'+r'''
+const sameFiles=(a,b)=>!!a&&!!b&&Object.keys(a).length===Object.keys(b).length&&Object.keys(a).every(k=>Object.prototype.hasOwnProperty.call(b,k)&&JSON.stringify(a[k])===JSON.stringify(b[k]));
 const {Pool}=require('pg');(async()=>{const p=new Pool({connectionString:process.env.DB_VIBERS_MAIN_URL,max:1});const d=await p.connect();try{
  await d.query('BEGIN');
  for(const [id,manifest] of Object.entries(release.variants)){
@@ -45,7 +46,7 @@ const {Pool}=require('pg');(async()=>{const p=new Pool({connectionString:process
   const previousManifest=previousVersions.rows[0]?.asset_manifest||{};
   for(const version of previousVersions.rows){
    const prior=version.asset_manifest?.variants?.variants||[];
-   if(prior.some(v=>!manifest.variants.some(n=>n.key===v.key&&JSON.stringify(n.files)===JSON.stringify(v.files))))throw Error('Existing variant would be lost '+id);
+   if(prior.some(v=>!manifest.variants.some(n=>n.key===v.key&&sameFiles(n.files,v.files))))throw Error('Existing variant would be lost '+id);
   }
   if(old.rowCount){
    if(old.rows[0].status!=='published'||old.rows[0].payload.hidden||old.rows[0].payload.merged_into)throw Error('Canonical identity required '+id);
@@ -58,6 +59,7 @@ const {Pool}=require('pg');(async()=>{const p=new Pool({connectionString:process
    if(attachments.svg_transparent){attachments.has_svg=true;attachments.logo_svg=true;}
    if(patch.logo_published_at){if(!Number.isFinite(Date.parse(patch.logo_published_at)))throw Error('Invalid publication date '+id);attachments.logo_published_at=patch.logo_published_at;}
    if(Array.isArray(patch.aliases))attachments.aliases=[...new Set([...(old.rows[0].payload.aliases||[]),...patch.aliases])];
+   for(const field of ['name_ko','name_en','history_note'])if(patch[field]!==undefined){if(typeof patch[field]!=='string'||patch[field].length>1000)throw Error('Invalid identity text '+id);attachments[field]=patch[field];}
    await d.query("UPDATE semologo.logo_posts SET payload=payload||jsonb_build_object('variants_n',$2::int)||$3::jsonb,updated_at=now() WHERE id=$1",[id,manifest.variants.length,JSON.stringify(attachments)]);
   }else{
    const patch=release.patches[id];if(!patch||patch.id!==id||!patch.name_ko||!patch.category||!patch.has_png)throw Error('Complete new identity required '+id);
@@ -66,7 +68,7 @@ const {Pool}=require('pg');(async()=>{const p=new Pool({connectionString:process
   const versions=await d.query('SELECT id,asset_manifest FROM semologo.logo_versions WHERE brand_id=$1 AND is_current FOR UPDATE',[id]);
   for(const version of versions.rows){
    const before={...previousManifest,...(version.asset_manifest||{})}, prior=before.variants?.variants||[];
-   if(prior.some(v=>!manifest.variants.some(n=>n.key===v.key&&JSON.stringify(n.files)===JSON.stringify(v.files))))throw Error('Existing variant would be lost '+id);
+   if(prior.some(v=>!manifest.variants.some(n=>n.key===v.key&&sameFiles(n.files,v.files))))throw Error('Existing variant would be lost '+id);
    const files=[...(previousManifest.files||[])];for(const f of [...(before.files||[]),...uploads.filter(x=>x.id===id)])if(!files.some(x=>x.key===f.key))files.push(f);
    const after={...before,variants:manifest,files};
    await d.query('UPDATE semologo.logo_versions SET asset_manifest=$2::jsonb WHERE id=$1',[version.id,JSON.stringify(after)]);
