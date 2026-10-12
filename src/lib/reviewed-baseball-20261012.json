@@ -659,7 +659,7 @@
       "logo_published_at": "2026-10-12T09:51:32.422627+00:00"
     },
     "ssglanders": {
-      "variants_n": 10,
+      "variants_n": 13,
       "source_zip": "sources/official-baseball-20261012/1277f249f19366dfbd97.zip",
       "source_ai": "sources/official-baseball-20261012/8db69745208a0ece4a81.ai",
       "logo_published_at": "2026-10-12T09:51:32.422628+00:00"
@@ -2255,163 +2255,211 @@
       "variants": [
         {
           "key": "official-ssg-01mainlogoemblem-20261012",
-          "label": "메인 엠블럼 · 공식 AI 추출",
           "form": "symbol",
           "lang": "unknown",
           "color": "original",
           "files": {
-            "svg": "sources/official-baseball-20261012/3e7b546808733bee37a8.svg",
-            "png": "sources/official-baseball-20261012/810c78499ab6fa4139d6.png"
+            "png": "sources/official-baseball-20261012/810c78499ab6fa4139d6.png",
+            "svg": "sources/official-baseball-20261012/3e7b546808733bee37a8.svg"
           },
-          "preview_png": "sources/official-baseball-20261012/184e34b5caec9ee40e70.png",
-          "source_url": "https://www.ssglanders.com/landers/emblem",
+          "label": "메인 엠블럼 · 공식 AI 추출",
+          "order": 0,
           "origin": "official",
-          "official_distribution": true,
-          "order": 0
+          "source_url": "https://www.ssglanders.com/landers/emblem",
+          "preview_png": "sources/official-baseball-20261012/184e34b5caec9ee40e70.png",
+          "official_distribution": true
         },
         {
           "key": "official-ssg-02mainlogowordmark-20261012",
-          "label": "워드마크 · 공식 AI 추출",
           "form": "symbol",
           "lang": "unknown",
           "color": "original",
           "files": {
-            "svg": "sources/official-baseball-20261012/cd49d0713518addbe5d8.svg",
-            "png": "sources/official-baseball-20261012/98ba6c77fee3b4d9d98e.png"
+            "png": "sources/official-baseball-20261012/98ba6c77fee3b4d9d98e.png",
+            "svg": "sources/official-baseball-20261012/cd49d0713518addbe5d8.svg"
           },
-          "preview_png": "sources/official-baseball-20261012/3a2900707516158d8676.png",
-          "source_url": "https://www.ssglanders.com/landers/emblem",
+          "label": "워드마크 · 공식 AI 추출",
+          "order": 1,
           "origin": "official",
-          "official_distribution": true,
-          "order": 1
+          "source_url": "https://www.ssglanders.com/landers/emblem",
+          "preview_png": "sources/official-baseball-20261012/3a2900707516158d8676.png",
+          "official_distribution": true
         },
         {
           "key": "official-ssg-02mainlogowordmark-reverse-20261012",
-          "label": "워드마크 · 적색 배경 공식 응용형",
           "form": "symbol",
           "lang": "unknown",
           "color": "original",
           "files": {
-            "svg": "sources/official-baseball-20261012/da7689cdaf9e4f5d1862.svg",
-            "png": "sources/official-baseball-20261012/62f6500e0bfa61454915.png"
+            "png": "sources/official-baseball-20261012/62f6500e0bfa61454915.png",
+            "svg": "sources/official-baseball-20261012/da7689cdaf9e4f5d1862.svg"
           },
-          "preview_png": "sources/official-baseball-20261012/7325a7f70e4c3896dbc8.png",
-          "source_url": "https://www.ssglanders.com/landers/emblem",
+          "label": "워드마크 · 적색 배경 공식 응용형",
+          "order": 2,
           "origin": "official",
-          "official_distribution": true,
-          "order": 2
+          "source_url": "https://www.ssglanders.com/landers/emblem",
+          "preview_png": "sources/official-baseball-20261012/7325a7f70e4c3896dbc8.png",
+          "official_distribution": true
         },
         {
           "key": "official-ssg-03symbolmark-20261012",
-          "label": "심볼마크 · 공식 AI 추출",
           "form": "symbol",
           "lang": "unknown",
           "color": "original",
           "files": {
-            "svg": "sources/official-baseball-20261012/31395d623305b2baa300.svg",
-            "png": "sources/official-baseball-20261012/d1eb4d2933dcb8677568.png"
+            "png": "sources/official-baseball-20261012/d1eb4d2933dcb8677568.png",
+            "svg": "sources/official-baseball-20261012/31395d623305b2baa300.svg"
           },
-          "preview_png": "sources/official-baseball-20261012/529c8c8f16e4f9465cc1.png",
-          "source_url": "https://www.ssglanders.com/landers/emblem",
+          "label": "심볼마크 · 공식 AI 추출",
+          "order": 3,
           "origin": "official",
-          "official_distribution": true,
-          "order": 3
+          "source_url": "https://www.ssglanders.com/landers/emblem",
+          "preview_png": "sources/official-baseball-20261012/529c8c8f16e4f9465cc1.png",
+          "official_distribution": true
         },
         {
           "key": "official-ssg-03symbolmark-reverse-20261012",
-          "label": "심볼마크 · 적색 배경 공식 응용형",
           "form": "symbol",
           "lang": "unknown",
           "color": "original",
           "files": {
-            "svg": "sources/official-baseball-20261012/00c5f15edfabdc2b9b18.svg",
-            "png": "sources/official-baseball-20261012/6a9477bb526f23e33085.png"
+            "png": "sources/official-baseball-20261012/6a9477bb526f23e33085.png",
+            "svg": "sources/official-baseball-20261012/00c5f15edfabdc2b9b18.svg"
           },
-          "preview_png": "sources/official-baseball-20261012/a245b35eb55d7f8a437a.png",
-          "source_url": "https://www.ssglanders.com/landers/emblem",
+          "label": "심볼마크 · 적색 배경 공식 응용형",
+          "order": 4,
           "origin": "official",
-          "official_distribution": true,
-          "order": 4
+          "source_url": "https://www.ssglanders.com/landers/emblem",
+          "preview_png": "sources/official-baseball-20261012/a245b35eb55d7f8a437a.png",
+          "official_distribution": true
         },
         {
           "key": "official-ssg-04subemblem-20261012",
-          "label": "보조 엠블럼 · 공식 AI 추출",
           "form": "symbol",
           "lang": "unknown",
           "color": "original",
           "files": {
-            "svg": "sources/official-baseball-20261012/9bd8047c2ff9d7a854e6.svg",
-            "png": "sources/official-baseball-20261012/f3109a17fa079736eced.png"
+            "png": "sources/official-baseball-20261012/f3109a17fa079736eced.png",
+            "svg": "sources/official-baseball-20261012/9bd8047c2ff9d7a854e6.svg"
           },
-          "preview_png": "sources/official-baseball-20261012/562b3460b6ea0f320094.png",
-          "source_url": "https://www.ssglanders.com/landers/emblem",
+          "label": "보조 엠블럼 · 공식 AI 추출",
+          "order": 5,
           "origin": "official",
-          "official_distribution": true,
-          "order": 5
+          "source_url": "https://www.ssglanders.com/landers/emblem",
+          "preview_png": "sources/official-baseball-20261012/562b3460b6ea0f320094.png",
+          "official_distribution": true
         },
         {
           "key": "official-ssg-04subemblem-reverse-20261012",
-          "label": "보조 엠블럼 · 적색 배경 공식 응용형",
           "form": "symbol",
           "lang": "unknown",
           "color": "original",
           "files": {
-            "svg": "sources/official-baseball-20261012/da17948c65c34df0bd20.svg",
-            "png": "sources/official-baseball-20261012/85efeda3cf6e707b2564.png"
+            "png": "sources/official-baseball-20261012/85efeda3cf6e707b2564.png",
+            "svg": "sources/official-baseball-20261012/da17948c65c34df0bd20.svg"
           },
-          "preview_png": "sources/official-baseball-20261012/972b6da07e27f7cdee21.png",
-          "source_url": "https://www.ssglanders.com/landers/emblem",
+          "label": "보조 엠블럼 · 적색 배경 공식 응용형",
+          "order": 6,
           "origin": "official",
-          "official_distribution": true,
-          "order": 6
+          "source_url": "https://www.ssglanders.com/landers/emblem",
+          "preview_png": "sources/official-baseball-20261012/972b6da07e27f7cdee21.png",
+          "official_distribution": true
         },
         {
           "key": "official-ssg-mascotlandy-20261012",
-          "label": "랜디 마스코트 기본형 · 공식 AI 추출",
           "form": "mascot",
           "lang": "unknown",
           "color": "original",
           "files": {
-            "svg": "sources/official-baseball-20261012/8702556e6212b5b7500f.svg",
-            "png": "sources/official-baseball-20261012/42093199554ad5218ff2.png"
+            "png": "sources/official-baseball-20261012/42093199554ad5218ff2.png",
+            "svg": "sources/official-baseball-20261012/8702556e6212b5b7500f.svg"
           },
-          "preview_png": "sources/official-baseball-20261012/85ba0075d692c8dc5b89.png",
-          "source_url": "https://www.ssglanders.com/landers/emblem",
+          "label": "랜디 마스코트 기본형 · 공식 AI 추출",
+          "order": 7,
           "origin": "official",
-          "official_distribution": true,
-          "order": 7
+          "source_url": "https://www.ssglanders.com/landers/emblem",
+          "preview_png": "sources/official-baseball-20261012/85ba0075d692c8dc5b89.png",
+          "official_distribution": true
         },
         {
           "key": "official-ssg-mascotpoorie-20261012",
-          "label": "푸리 마스코트 기본형 · 공식 AI 추출",
           "form": "mascot",
           "lang": "unknown",
           "color": "original",
           "files": {
-            "svg": "sources/official-baseball-20261012/7ac201d3fd8e17beea5f.svg",
-            "png": "sources/official-baseball-20261012/c5d384e2ca6c67d57491.png"
+            "png": "sources/official-baseball-20261012/c5d384e2ca6c67d57491.png",
+            "svg": "sources/official-baseball-20261012/7ac201d3fd8e17beea5f.svg"
           },
-          "preview_png": "sources/official-baseball-20261012/94c8515e3453fed0a702.png",
-          "source_url": "https://www.ssglanders.com/landers/emblem",
+          "label": "푸리 마스코트 기본형 · 공식 AI 추출",
+          "order": 8,
           "origin": "official",
-          "official_distribution": true,
-          "order": 8
+          "source_url": "https://www.ssglanders.com/landers/emblem",
+          "preview_png": "sources/official-baseball-20261012/94c8515e3453fed0a702.png",
+          "official_distribution": true
         },
         {
           "key": "official-ssg-mascotbatty-20261012",
-          "label": "배티 마스코트 기본형 · 공식 AI 추출",
           "form": "mascot",
           "lang": "unknown",
           "color": "original",
           "files": {
-            "svg": "sources/official-baseball-20261012/d38fc1fa7380fe4567d6.svg",
-            "png": "sources/official-baseball-20261012/f437575b01023837121e.png"
+            "png": "sources/official-baseball-20261012/f437575b01023837121e.png",
+            "svg": "sources/official-baseball-20261012/d38fc1fa7380fe4567d6.svg"
           },
-          "preview_png": "sources/official-baseball-20261012/5700f8f47448a681edfd.png",
+          "label": "배티 마스코트 기본형 · 공식 AI 추출",
+          "order": 9,
+          "origin": "official",
           "source_url": "https://www.ssglanders.com/landers/emblem",
+          "preview_png": "sources/official-baseball-20261012/5700f8f47448a681edfd.png",
+          "official_distribution": true
+        },
+        {
+          "key": "official-ssg-landy-front-20261012",
+          "label": "랜디 마스코트 · 정면",
+          "form": "mascot",
+          "lang": "none",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-baseball-20261012/64ba5db0b3c2205430e3.svg",
+            "png": "sources/official-baseball-20261012/137063815d368891f160.png"
+          },
+          "preview_png": "sources/official-baseball-20261012/fd56fc3a2c7c4e9a209c.png",
           "origin": "official",
           "official_distribution": true,
-          "order": 9
+          "source_url": "https://www.ssglanders.com/landers/emblem",
+          "order": 10
+        },
+        {
+          "key": "official-ssg-poorie-front-20261012",
+          "label": "푸리 마스코트 · 정면",
+          "form": "mascot",
+          "lang": "none",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-baseball-20261012/254a2070ab2093d6139a.svg",
+            "png": "sources/official-baseball-20261012/d25f7c16ab550ed34714.png"
+          },
+          "preview_png": "sources/official-baseball-20261012/7eb9122e5b287c4a2065.png",
+          "origin": "official",
+          "official_distribution": true,
+          "source_url": "https://www.ssglanders.com/landers/emblem",
+          "order": 11
+        },
+        {
+          "key": "official-ssg-batty-front-20261012",
+          "label": "배티 마스코트 · 정면",
+          "form": "mascot",
+          "lang": "none",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-baseball-20261012/dc06f470937325b003fe.svg",
+            "png": "sources/official-baseball-20261012/c6101f3a06774fa72814.png"
+          },
+          "preview_png": "sources/official-baseball-20261012/c563992889526f94c43d.png",
+          "origin": "official",
+          "official_distribution": true,
+          "source_url": "https://www.ssglanders.com/landers/emblem",
+          "order": 12
         }
       ]
     },
