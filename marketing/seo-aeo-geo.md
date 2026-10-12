@@ -33,3 +33,5 @@ robots.txt·sitemap-index.xml·favicon·검색엔진 인증 태그는 기존 설
 ## 제출 운영
 
 Google Search Console과 Naver Search Advisor에 `https://semologo.com/sitemap-index.xml`을 제출한다. 신규 대량 수집 뒤에는 사이트맵 HTTP 200, 분할 파일 20,000개 이하, 대표 신규 URL의 200 응답을 확인한다.
+
+2026-10-12 OG 디자인 조정: 기존 로고 콜라주 스타일 복원, 한국어·영문 OG revision 20261012b. 메타 설명과 181,228개 스냅샷 유지.

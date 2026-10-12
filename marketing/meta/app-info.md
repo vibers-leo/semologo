@@ -9,3 +9,7 @@
 - SEO 안내: /logo-collection/ · /ai-logo-download/ (영문 경로 /en/ 지원)
 - 아이콘/OG: public/og-cover.jpg · public/icon-192.png · public/icon-512.png
 - 소개 스크린샷: marketing/screenshots/20260909_growth/
+
+## 2026-10-12 업데이트
+- 18만+ 브랜드 로고 · SVG·PNG 다운로드 · 로고월 제작 소개 반영.
+- OG: public/og/semologo-20261012b-{ko,en}.png (1200×630). 기존 따뜻한 로고 콜라주 구성 유지, 수치 최신화.

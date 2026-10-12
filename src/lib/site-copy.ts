@@ -1,6 +1,6 @@
 /** Public catalog milestone verified against stats.json on 2026-10-12. */
 export const CATALOG_SNAPSHOT = { visible: 181_228, checkedAt: '2026-10-12' };
-export const SITE_OG_REVISION = '20261012';
+export const SITE_OG_REVISION = '20261012b';
 
 export function siteCopy(locale: 'ko' | 'en', count = CATALOG_SNAPSHOT.visible) {
   const en = locale === 'en';
