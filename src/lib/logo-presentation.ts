@@ -8,7 +8,7 @@ export function validPresentation(value: unknown): value is LogoPresentation {
 }
 export function applyPresentation(brand: Brand, value: unknown = brand.presentation): Brand {
   if (!validPresentation(value) || brand.rejected_asset_files?.includes(value.file)) return brand;
-  return {...brand,presentation:value,preview_png:`${CDN}/${brand.id}/${value.file}?v=${VERSION}`,light:value.bg==='dark',light_logo:value.bg==='dark',dark_variant:false};
+  return {...brand,presentation:value,logo_png:value.file,has_png:true,preview_png:`${CDN}/${brand.id}/${value.file}?v=${VERSION}`,light:value.bg==='dark',light_logo:value.bg==='dark',dark_variant:false};
 }
 
 /** Accept only PNG files owned by this brand on the configured CDN. */

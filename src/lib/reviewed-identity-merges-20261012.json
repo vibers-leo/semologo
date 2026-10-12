@@ -1,0 +1,179 @@
+{
+  "patches": {
+    "hyundai": {
+      "variants_n": 5,
+      "aliases": [
+        "Hyundai",
+        "Hyundai Motor",
+        "Hyundai Motor Company",
+        "현대자동차",
+        "현대차",
+        "hyundai-motor-company",
+        "hyundai-motor-company-2",
+        "hyundai-automobiles-1"
+      ],
+      "presentation": {
+        "file": "sources/figma-community-20261010/1bfcef13564f234bdf82.png",
+        "bg": "light"
+      },
+      "preview_png": "https://logo.vibers.co.kr/_clients/hyundai/sources/figma-community-20261010/1bfcef13564f234bdf82.png",
+      "logo_png": "sources/figma-community-20261010/1bfcef13564f234bdf82.png",
+      "has_png": true
+    },
+    "hyundai-motor-company": {
+      "hidden": true,
+      "merged_into": "hyundai",
+      "variant_of": "hyundai",
+      "hidden_reason": "동일 현대자동차 로고를 가로·세로·심볼 베리에이션으로 통합"
+    },
+    "hyundai-motor-company-2": {
+      "hidden": true,
+      "merged_into": "hyundai",
+      "variant_of": "hyundai",
+      "hidden_reason": "동일 현대자동차 로고를 가로·세로·심볼 베리에이션으로 통합"
+    },
+    "hyundai-automobiles-1": {
+      "hidden": true,
+      "merged_into": "hyundai",
+      "variant_of": "hyundai",
+      "hidden_reason": "동일 현대자동차 로고를 가로·세로·심볼 베리에이션으로 통합"
+    },
+    "cyberpixie": {
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": "sources/transparent-20261012/a5ed83bac2981f2b.svg",
+      "svg_transparent": "sources/transparent-20261012/a5ed83bac2981f2b.svg",
+      "logo_png": "sources/transparent-20261012/5316ce8094767187.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/cyberpixie/sources/transparent-20261012/5316ce8094767187.png",
+      "presentation": {
+        "file": "sources/transparent-20261012/5316ce8094767187.png",
+        "bg": "light"
+      },
+      "light": false,
+      "light_logo": false,
+      "dark_variant": false,
+      "asset_review_status": "verified",
+      "variants_n": 2
+    }
+  },
+  "variants": {
+    "hyundai": {
+      "id": "hyundai",
+      "algo_v": 1,
+      "schema": 1,
+      "primary": "figma-20261010-community-color",
+      "variants": [
+        {
+          "key": "figma-20261010-community-color",
+          "form": "horizontal",
+          "lang": "mixed",
+          "color": "original",
+          "files": {
+            "png": "sources/figma-community-20261010/1bfcef13564f234bdf82.png",
+            "svg": "sources/figma-community-20261010/1d6392af60028ad31e2c.svg"
+          },
+          "label": "커뮤니티 수록 로고 · 시기 미확인",
+          "order": 0,
+          "lockup": "horizontal",
+          "origin": "community",
+          "official": false,
+          "provider": "사용자 제공 Figma Community 수집본",
+          "source_note": "커뮤니티 내보내기에서 벡터 추출·시각 검수. 공식 배포 및 최신 CI 여부는 확인되지 않았습니다."
+        },
+        {
+          "key": "merged-hyundai",
+          "label": "심볼 · 기존 수집본",
+          "form": "symbol",
+          "lang": "none",
+          "color": "original",
+          "files": {
+            "svg": "sources/identity-merge-20261012/372e6b2e2f1ac0a89152.svg",
+            "png": "sources/identity-merge-20261012/09b9ee71cd6135235fdb.png"
+          },
+          "original_svg": "sources/identity-merge-20261012/d0b04cc3325ddcff9bd6.original.svg",
+          "origin": "collected",
+          "provider": "기존 보유 SVG · 동일 브랜드 시각 검수",
+          "source_brand_id": "hyundai",
+          "order": 1
+        },
+        {
+          "key": "merged-hyundai-motor-company",
+          "label": "가로 조합 · 기존 수집본",
+          "form": "horizontal",
+          "lang": "en",
+          "color": "original",
+          "files": {
+            "svg": "sources/identity-merge-20261012/27046f44ee0966c126c7.svg",
+            "png": "sources/identity-merge-20261012/cf97afb3c6efdbe02a7a.png"
+          },
+          "original_svg": "sources/identity-merge-20261012/03cda6235efc7bdac40c.original.svg",
+          "origin": "collected",
+          "provider": "기존 보유 SVG · 동일 브랜드 시각 검수",
+          "source_brand_id": "hyundai-motor-company",
+          "order": 2
+        },
+        {
+          "key": "merged-hyundai-motor-company-2",
+          "label": "세로 조합 · 기존 수집본",
+          "form": "vertical",
+          "lang": "en",
+          "color": "original",
+          "files": {
+            "svg": "sources/identity-merge-20261012/582c41e1042cdebbad7f.svg",
+            "png": "sources/identity-merge-20261012/5b5bfb65f6bd4ee12dfe.png"
+          },
+          "original_svg": "sources/identity-merge-20261012/657426411cf488213572.original.svg",
+          "origin": "collected",
+          "provider": "기존 보유 SVG · 동일 브랜드 시각 검수",
+          "source_brand_id": "hyundai-motor-company-2",
+          "order": 3
+        },
+        {
+          "key": "merged-hyundai-automobiles-1",
+          "label": "세로 조합 · 색상 변형 수집본",
+          "form": "vertical",
+          "lang": "en",
+          "color": "original",
+          "files": {
+            "svg": "sources/identity-merge-20261012/12a361849dd5d1f7c2d2.svg",
+            "png": "sources/identity-merge-20261012/74297267e458a52803e8.png"
+          },
+          "original_svg": "sources/identity-merge-20261012/4123fc021dd96463bf16.original.svg",
+          "origin": "collected",
+          "provider": "기존 보유 SVG · 동일 브랜드 시각 검수",
+          "source_brand_id": "hyundai-automobiles-1",
+          "order": 4
+        }
+      ]
+    },
+    "cyberpixie": {
+      "id": "cyberpixie",
+      "primary": "transparent-reviewed",
+      "variants": [
+        {
+          "key": "transparent-reviewed",
+          "label": "투명 배경 로고",
+          "form": "logo",
+          "color": "original",
+          "files": {
+            "svg": "sources/transparent-20261012/a5ed83bac2981f2b.svg",
+            "png": "sources/transparent-20261012/5316ce8094767187.png"
+          },
+          "origin": "derived",
+          "provider": "보유 SVG · 전체 흰 배경 도형만 제거",
+          "order": 0
+        },
+        {
+          "key": "original",
+          "label": "원본 SVG · 흰 배경",
+          "form": "logo",
+          "files": {
+            "svg": "logo.svg"
+          },
+          "origin": "collected",
+          "order": 1
+        }
+      ]
+    }
+  }
+}
