@@ -38,7 +38,9 @@ ENV NEXT_PUBLIC_CDN_URL=$NEXT_PUBLIC_CDN_URL \
     NEXT_PUBLIC_FIREBASE_APP_ID=$NEXT_PUBLIC_FIREBASE_APP_ID \
     NEXT_PUBLIC_COUPANG_WIDGET_ID=$NEXT_PUBLIC_COUPANG_WIDGET_ID \
     NEXT_PUBLIC_COUPANG_TRACKING_CODE=$NEXT_PUBLIC_COUPANG_TRACKING_CODE
-RUN pnpm run build
+# Execute the package build steps without pnpm's runtime dependency auto-install.
+# deps already installs and verifies the frozen lockfile for both architectures.
+RUN node scripts/check-local-logo-sources.cjs && node node_modules/next/dist/bin/next build
 
 FROM base AS runner
 ENV NODE_ENV=production NEXT_TELEMETRY_DISABLED=1 PORT=3000 HOSTNAME=0.0.0.0
