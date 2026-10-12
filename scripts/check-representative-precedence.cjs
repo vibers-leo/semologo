@@ -6,7 +6,7 @@ const saved={file:'sources/admin/horizontal.png',bg:'light'};
 const brand={id:'hyundai',has_svg:true,has_png:false,logo_png:'old-vertical.png',presentation:saved};
 const shown=presentation.applyPresentation(brand);
 assert.equal(shown.logo_png,saved.file);assert.equal(shown.has_png,true);assert.ok(shown.preview_png.includes(saved.file));assert.equal(brand.logo_png,'old-vertical.png');
-const quality=load('src/lib/logo-quality-review.ts',{'./logo-presentation':presentation,'./reviewed-logo-assets':{applyReviewedAssets:b=>({...b,presentation:{file:'old-default.png',bg:'dark'}})},'./logo-quality-review.json':{},'./reviewed-country-categories-20261010.json':{},'./cdn':cdn});
+const quality=load('src/lib/logo-quality-review.ts',{'./logo-presentation':presentation,'./reviewed-logo-assets':{applyReviewedAssets:b=>({...b,presentation:{file:'old-default.png',bg:'dark'}})},'./logo-quality-review.json':{default:{}},'./reviewed-country-categories-20261010.json':{default:{}},'./cdn':cdn});
 assert.equal(quality.applyQualityReview(brand).presentation.file,saved.file);
 assert.equal(quality.applyQualityReview({...brand,presentation:undefined}).presentation.file,'old-default.png');
 assert.equal(presentation.applyPresentation({...brand,rejected_asset_files:[saved.file]}).logo_png,'old-vertical.png');
