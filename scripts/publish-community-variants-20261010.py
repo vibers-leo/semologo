@@ -70,7 +70,7 @@ const {Pool}=require('pg');(async()=>{const p=new Pool({connectionString:process
    const files=[...(previousManifest.files||[])];for(const f of [...(before.files||[]),...uploads.filter(x=>x.id===id)])if(!files.some(x=>x.key===f.key))files.push(f);
    const after={...before,variants:manifest,files};
    await d.query('UPDATE semologo.logo_versions SET asset_manifest=$2::jsonb WHERE id=$1',[version.id,JSON.stringify(after)]);
-   if(!old.rowCount)await d.query("UPDATE semologo.logo_versions SET review_status='verified',verified_at=now(),label='커뮤니티 수록 로고 · 벡터 검수',source_note='사용자 제공 Figma Community 내보내기에서 추출. 공식 배포 원본으로 표시하지 않음.' WHERE id=$1",[version.id]);
+   if(!old.rowCount){const official=manifest.variants.some(v=>v.official_distribution===true);await d.query("UPDATE semologo.logo_versions SET review_status='verified',verified_at=now(),label=$2,source_note=$3,source_url=coalesce($4,source_url) WHERE id=$1",[version.id,official?'공식 사이트 수록 로고 · 벡터 검수':'커뮤니티 수록 로고 · 벡터 검수',official?'공식 공개 자산을 수집하고 SVG 및 PNG를 검수함. 로고 도입 연도는 미확인.':'사용자 제공 Figma Community 내보내기에서 추출. 공식 배포 원본으로 표시하지 않음.',release.patches[id]?.official_source_page||null]);}
   }
  }
  await d.query('COMMIT');console.log('PASS community variants appended; existing representatives and version metadata preserved');

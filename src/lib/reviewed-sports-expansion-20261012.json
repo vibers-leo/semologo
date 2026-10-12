@@ -923,6 +923,234 @@
         "KOVO",
         "배구"
       ]
+    },
+    "arsenal": {
+      "name_ko": "아스널",
+      "name_en": "Arsenal",
+      "variants_n": 2,
+      "logo_published_at": "2026-10-12T10:09:47.428301+00:00",
+      "aliases": [
+        "아스널",
+        "Arsenal",
+        "PL",
+        "축구"
+      ]
+    },
+    "aston-villa": {
+      "name_ko": "애스턴 빌라",
+      "name_en": "Aston Villa",
+      "variants_n": 2,
+      "logo_published_at": "2026-10-12T10:09:47.768346+00:00",
+      "aliases": [
+        "애스턴 빌라",
+        "Aston Villa",
+        "PL",
+        "축구"
+      ]
+    },
+    "bournemouth-afc": {
+      "name_ko": "본머스",
+      "name_en": "Bournemouth",
+      "variants_n": 2,
+      "logo_published_at": "2026-10-12T10:09:51.995908+00:00",
+      "aliases": [
+        "본머스",
+        "Bournemouth",
+        "PL",
+        "축구"
+      ]
+    },
+    "brentford-fc": {
+      "name_ko": "브렌트퍼드",
+      "name_en": "Brentford",
+      "variants_n": 2,
+      "logo_published_at": "2026-10-12T10:09:48.669516+00:00",
+      "aliases": [
+        "브렌트퍼드",
+        "Brentford",
+        "PL",
+        "축구"
+      ]
+    },
+    "brighton-hove-afc": {
+      "name_ko": "브라이턴 앤 호브 앨비언",
+      "name_en": "Brighton and Hove Albion",
+      "variants_n": 2,
+      "logo_published_at": "2026-10-12T10:09:48.924956+00:00",
+      "aliases": [
+        "브라이턴 앤 호브 앨비언",
+        "Brighton and Hove Albion",
+        "PL",
+        "축구"
+      ]
+    },
+    "chelsea": {
+      "name_ko": "첼시",
+      "name_en": "Chelsea",
+      "variants_n": 2,
+      "logo_published_at": "2026-10-12T10:09:48.794866+00:00",
+      "aliases": [
+        "첼시",
+        "Chelsea",
+        "PL",
+        "축구"
+      ]
+    },
+    "crystal-palace-fc": {
+      "name_ko": "크리스털 팰리스",
+      "name_en": "Crystal Palace",
+      "variants_n": 2,
+      "logo_published_at": "2026-10-12T10:09:50.866925+00:00",
+      "aliases": [
+        "크리스털 팰리스",
+        "Crystal Palace",
+        "PL",
+        "축구"
+      ]
+    },
+    "everton": {
+      "name_ko": "에버턴",
+      "name_en": "Everton",
+      "variants_n": 2,
+      "logo_published_at": "2026-10-12T10:09:49.719352+00:00",
+      "aliases": [
+        "에버턴",
+        "Everton",
+        "PL",
+        "축구"
+      ]
+    },
+    "fulham": {
+      "name_ko": "풀럼",
+      "name_en": "Fulham",
+      "variants_n": 2,
+      "logo_published_at": "2026-10-12T10:09:50.011281+00:00",
+      "aliases": [
+        "풀럼",
+        "Fulham",
+        "PL",
+        "축구"
+      ]
+    },
+    "hull-city-fc": {
+      "name_ko": "헐 시티",
+      "name_en": "Hull City",
+      "variants_n": 2,
+      "logo_published_at": "2026-10-12T10:09:51.469902+00:00",
+      "aliases": [
+        "헐 시티",
+        "Hull City",
+        "PL",
+        "축구"
+      ]
+    },
+    "ipswich-town-fc": {
+      "name_ko": "입스위치 타운",
+      "name_en": "Ipswich Town",
+      "variants_n": 2,
+      "logo_published_at": "2026-10-12T10:09:53.220204+00:00",
+      "aliases": [
+        "입스위치 타운",
+        "Ipswich Town",
+        "PL",
+        "축구"
+      ]
+    },
+    "leeds-united-afc": {
+      "name_ko": "리즈 유나이티드",
+      "name_en": "Leeds United",
+      "variants_n": 1,
+      "logo_published_at": "2026-10-12T10:09:58.777930+00:00",
+      "aliases": [
+        "리즈 유나이티드",
+        "Leeds United",
+        "PL",
+        "축구"
+      ]
+    },
+    "liverpool": {
+      "name_ko": "리버풀",
+      "name_en": "Liverpool",
+      "variants_n": 2,
+      "logo_published_at": "2026-10-12T10:09:52.137186+00:00",
+      "aliases": [
+        "리버풀",
+        "Liverpool",
+        "PL",
+        "축구"
+      ]
+    },
+    "manchester-city": {
+      "name_ko": "맨체스터 시티",
+      "name_en": "Manchester City",
+      "variants_n": 2,
+      "logo_published_at": "2026-10-12T10:09:52.982906+00:00",
+      "aliases": [
+        "맨체스터 시티",
+        "Manchester City",
+        "PL",
+        "축구"
+      ]
+    },
+    "manchester-united": {
+      "name_ko": "맨체스터 유나이티드",
+      "name_en": "Manchester United",
+      "variants_n": 2,
+      "logo_published_at": "2026-10-12T10:09:53.131461+00:00",
+      "aliases": [
+        "맨체스터 유나이티드",
+        "Manchester United",
+        "PL",
+        "축구"
+      ]
+    },
+    "newcastle-united": {
+      "name_ko": "뉴캐슬 유나이티드",
+      "name_en": "Newcastle United",
+      "variants_n": 2,
+      "logo_published_at": "2026-10-12T10:09:53.512250+00:00",
+      "aliases": [
+        "뉴캐슬 유나이티드",
+        "Newcastle United",
+        "PL",
+        "축구"
+      ]
+    },
+    "nottingham-forest-fc": {
+      "name_ko": "노팅엄 포리스트",
+      "name_en": "Nottingham Forest",
+      "variants_n": 2,
+      "logo_published_at": "2026-10-12T10:09:54.974877+00:00",
+      "aliases": [
+        "노팅엄 포리스트",
+        "Nottingham Forest",
+        "PL",
+        "축구"
+      ]
+    },
+    "sunderland-afc": {
+      "name_ko": "선덜랜드",
+      "name_en": "Sunderland",
+      "variants_n": 2,
+      "logo_published_at": "2026-10-12T10:09:55.355255+00:00",
+      "aliases": [
+        "선덜랜드",
+        "Sunderland",
+        "PL",
+        "축구"
+      ]
+    },
+    "tottenham-hotspur": {
+      "name_ko": "토트넘 홋스퍼",
+      "name_en": "Tottenham Hotspur",
+      "variants_n": 2,
+      "logo_published_at": "2026-10-12T10:09:54.487286+00:00",
+      "aliases": [
+        "토트넘 홋스퍼",
+        "Tottenham Hotspur",
+        "PL",
+        "축구"
+      ]
     }
   },
   "variants": {
@@ -3807,6 +4035,686 @@
           "preview_png": "sources/official-sports-20261012/ab50de72ca9d238d344c.png",
           "origin": "official",
           "source_url": "https://cdn.kovo.co.kr/emblems/redsparks.svg",
+          "official_distribution": true,
+          "order": 1
+        }
+      ]
+    },
+    "arsenal": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "arsenal",
+      "primary": "horizontal",
+      "fingerprint": {
+        "logo.svg": "cf533a43057d09d7"
+      },
+      "variants": [
+        {
+          "key": "horizontal",
+          "form": "horizontal",
+          "lang": "unknown",
+          "color": "mono-light",
+          "label": "가로조합형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 2.621,
+          "provider": "sports-curated",
+          "origin": "collected",
+          "order": 10
+        },
+        {
+          "key": "official-pl-20261012",
+          "label": "PL 공식 구단 마크 · 제작 시기 미확인",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-sports-20261012/34846859662c2f27d51e.svg",
+            "png": "sources/official-sports-20261012/a9255541c10bba5d9c5a.png"
+          },
+          "preview_png": "sources/official-sports-20261012/bee5740a4b45ebcb5c0f.png",
+          "source_url": "https://resources.premierleague.com/premierleague/badges/t3.svg",
+          "origin": "official",
+          "official_distribution": true,
+          "order": 1
+        }
+      ]
+    },
+    "aston-villa": {
+      "schema": 1,
+      "id": "aston-villa",
+      "primary": "legacy-original",
+      "variants": [
+        {
+          "key": "legacy-original",
+          "label": "기존 수집 로고 · 제작 시기 미확인",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "logo.svg"
+          },
+          "origin": "collected",
+          "order": 0
+        },
+        {
+          "key": "official-pl-20261012",
+          "label": "PL 공식 구단 마크 · 제작 시기 미확인",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-sports-20261012/7f3c149342283f285bce.svg",
+            "png": "sources/official-sports-20261012/2c8c7cb3bd2d49a664d9.png"
+          },
+          "preview_png": "sources/official-sports-20261012/646e7ddd660ca737887e.png",
+          "source_url": "https://resources.premierleague.com/premierleague/badges/t7.svg",
+          "origin": "official",
+          "official_distribution": true,
+          "order": 1
+        }
+      ]
+    },
+    "bournemouth-afc": {
+      "schema": 1,
+      "id": "bournemouth-afc",
+      "primary": "legacy-original",
+      "variants": [
+        {
+          "key": "legacy-original",
+          "label": "기존 수집 로고 · 제작 시기 미확인",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "logo.svg"
+          },
+          "origin": "collected",
+          "order": 0
+        },
+        {
+          "key": "official-pl-20261012",
+          "label": "PL 공식 구단 마크 · 제작 시기 미확인",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-sports-20261012/3815981d1993309836ba.svg",
+            "png": "sources/official-sports-20261012/fcc0b46d06317c3d2444.png"
+          },
+          "preview_png": "sources/official-sports-20261012/4f7d6b055ab7d81ea948.png",
+          "source_url": "https://resources.premierleague.com/premierleague/badges/t91.svg",
+          "origin": "official",
+          "official_distribution": true,
+          "order": 1
+        }
+      ]
+    },
+    "brentford-fc": {
+      "schema": 1,
+      "id": "brentford-fc",
+      "primary": "legacy-original",
+      "variants": [
+        {
+          "key": "legacy-original",
+          "label": "기존 수집 로고 · 제작 시기 미확인",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "logo.svg"
+          },
+          "origin": "collected",
+          "order": 0
+        },
+        {
+          "key": "official-pl-20261012",
+          "label": "PL 공식 구단 마크 · 제작 시기 미확인",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-sports-20261012/f785147e395b80f9f63f.svg",
+            "png": "sources/official-sports-20261012/7a828a197bd818ae0cdd.png"
+          },
+          "preview_png": "sources/official-sports-20261012/6f6cbd30c86d7e47b6b5.png",
+          "source_url": "https://resources.premierleague.com/premierleague/badges/t94.svg",
+          "origin": "official",
+          "official_distribution": true,
+          "order": 1
+        }
+      ]
+    },
+    "brighton-hove-afc": {
+      "schema": 1,
+      "id": "brighton-hove-afc",
+      "primary": "legacy-original",
+      "variants": [
+        {
+          "key": "legacy-original",
+          "label": "기존 수집 로고 · 제작 시기 미확인",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "logo.svg"
+          },
+          "origin": "collected",
+          "order": 0
+        },
+        {
+          "key": "official-pl-20261012",
+          "label": "PL 공식 구단 마크 · 제작 시기 미확인",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-sports-20261012/7c4d315ac7138ad75561.svg",
+            "png": "sources/official-sports-20261012/65a2532dafaff9f71dcb.png"
+          },
+          "preview_png": "sources/official-sports-20261012/129ad07bbf965eeb4020.png",
+          "source_url": "https://resources.premierleague.com/premierleague/badges/t36.svg",
+          "origin": "official",
+          "official_distribution": true,
+          "order": 1
+        }
+      ]
+    },
+    "chelsea": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "chelsea",
+      "primary": "horizontal",
+      "fingerprint": {
+        "logo.svg": "16015579e4deb788"
+      },
+      "variants": [
+        {
+          "key": "horizontal",
+          "form": "horizontal",
+          "lang": "unknown",
+          "color": "mono-dark",
+          "label": "가로조합형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 2.439,
+          "provider": "sports-curated",
+          "origin": "collected",
+          "order": 10
+        },
+        {
+          "key": "official-pl-20261012",
+          "label": "PL 공식 구단 마크 · 제작 시기 미확인",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-sports-20261012/29fa524f7a230182d3b1.svg",
+            "png": "sources/official-sports-20261012/0f1e5be77c2fc849c7ec.png"
+          },
+          "preview_png": "sources/official-sports-20261012/0d0331c7aa82e626d84b.png",
+          "source_url": "https://resources.premierleague.com/premierleague/badges/t8.svg",
+          "origin": "official",
+          "official_distribution": true,
+          "order": 1
+        }
+      ]
+    },
+    "crystal-palace-fc": {
+      "schema": 1,
+      "id": "crystal-palace-fc",
+      "primary": "legacy-original",
+      "variants": [
+        {
+          "key": "legacy-original",
+          "label": "기존 수집 로고 · 제작 시기 미확인",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "logo.svg"
+          },
+          "origin": "collected",
+          "order": 0
+        },
+        {
+          "key": "official-pl-20261012",
+          "label": "PL 공식 구단 마크 · 제작 시기 미확인",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-sports-20261012/e40fc09ca61fa76545c4.svg",
+            "png": "sources/official-sports-20261012/c08e4f1373ab368af55b.png"
+          },
+          "preview_png": "sources/official-sports-20261012/ab64cfccd079e8572218.png",
+          "source_url": "https://resources.premierleague.com/premierleague/badges/t31.svg",
+          "origin": "official",
+          "official_distribution": true,
+          "order": 1
+        }
+      ]
+    },
+    "everton": {
+      "schema": 1,
+      "id": "everton",
+      "primary": null,
+      "variants": [
+        {
+          "key": "reviewed",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "png": "sources/reviewed-background-merge-20261008/d1b800856f50f138.png",
+            "svg": "sources/reviewed-background-merge-20261008/d1b800856f50f138.svg"
+          },
+          "label": "투명 배경 로고",
+          "light": false,
+          "order": 0,
+          "origin": "derived",
+          "provider": "보유 원본 · 배경과 흰색 도형 검수"
+        },
+        {
+          "key": "official-pl-20261012",
+          "label": "PL 공식 구단 마크 · 제작 시기 미확인",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-sports-20261012/93563ca0c3aca4d4472c.svg",
+            "png": "sources/official-sports-20261012/2672103edc00b3f45cf4.png"
+          },
+          "preview_png": "sources/official-sports-20261012/4bfc1c4e6859ecf525f7.png",
+          "source_url": "https://resources.premierleague.com/premierleague/badges/t11.svg",
+          "origin": "official",
+          "official_distribution": true,
+          "order": 1
+        }
+      ]
+    },
+    "fulham": {
+      "schema": 1,
+      "id": "fulham",
+      "primary": "legacy-original",
+      "variants": [
+        {
+          "key": "legacy-original",
+          "label": "기존 수집 로고 · 제작 시기 미확인",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "logo.svg"
+          },
+          "origin": "collected",
+          "order": 0
+        },
+        {
+          "key": "official-pl-20261012",
+          "label": "PL 공식 구단 마크 · 제작 시기 미확인",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-sports-20261012/8686cfca58f1bd2243bc.svg",
+            "png": "sources/official-sports-20261012/d176b400216e03345d50.png"
+          },
+          "preview_png": "sources/official-sports-20261012/b3bdda6e31a862bda343.png",
+          "source_url": "https://resources.premierleague.com/premierleague/badges/t54.svg",
+          "origin": "official",
+          "official_distribution": true,
+          "order": 1
+        }
+      ]
+    },
+    "hull-city-fc": {
+      "schema": 1,
+      "id": "hull-city-fc",
+      "primary": "legacy-original",
+      "variants": [
+        {
+          "key": "legacy-original",
+          "label": "기존 수집 로고 · 제작 시기 미확인",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "logo.svg"
+          },
+          "origin": "collected",
+          "order": 0
+        },
+        {
+          "key": "official-pl-20261012",
+          "label": "PL 공식 구단 마크 · 제작 시기 미확인",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-sports-20261012/e42894ddfcfd8ab544c2.svg",
+            "png": "sources/official-sports-20261012/f029029d57ba87011cbd.png"
+          },
+          "preview_png": "sources/official-sports-20261012/de54bac8e36f2deb8696.png",
+          "source_url": "https://resources.premierleague.com/premierleague/badges/t88.svg",
+          "origin": "official",
+          "official_distribution": true,
+          "order": 1
+        }
+      ]
+    },
+    "ipswich-town-fc": {
+      "schema": 1,
+      "id": "ipswich-town-fc",
+      "primary": "legacy-original",
+      "variants": [
+        {
+          "key": "legacy-original",
+          "label": "기존 수집 로고 · 제작 시기 미확인",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "logo.svg"
+          },
+          "origin": "collected",
+          "order": 0
+        },
+        {
+          "key": "official-pl-20261012",
+          "label": "PL 공식 구단 마크 · 제작 시기 미확인",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-sports-20261012/fa7f776e2eab4d2583f2.svg",
+            "png": "sources/official-sports-20261012/7965bd310b70e6e7752c.png"
+          },
+          "preview_png": "sources/official-sports-20261012/248ee3f24a5a25ca13b5.png",
+          "source_url": "https://resources.premierleague.com/premierleague/badges/t40.svg",
+          "origin": "official",
+          "official_distribution": true,
+          "order": 1
+        }
+      ]
+    },
+    "leeds-united-afc": {
+      "schema": 1,
+      "id": "leeds-united-afc",
+      "primary": null,
+      "variants": [
+        {
+          "key": "official-pl-20261012",
+          "label": "PL 공식 구단 마크 · 제작 시기 미확인",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-sports-20261012/9301963653bed9711490.svg",
+            "png": "sources/official-sports-20261012/a070a24631d654e9931e.png"
+          },
+          "preview_png": "sources/official-sports-20261012/de1cbe9875ee73063276.png",
+          "source_url": "https://resources.premierleague.com/premierleague/badges/t2.svg",
+          "origin": "official",
+          "official_distribution": true,
+          "order": 0
+        }
+      ]
+    },
+    "liverpool": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "liverpool",
+      "primary": "vertical",
+      "fingerprint": {
+        "logo.svg": "6150c8fd4722718d"
+      },
+      "variants": [
+        {
+          "key": "vertical",
+          "form": "vertical",
+          "lang": "unknown",
+          "color": "color",
+          "label": "세로조합형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 0.738,
+          "provider": "sports-curated",
+          "origin": "collected",
+          "order": 20
+        },
+        {
+          "key": "official-pl-20261012",
+          "label": "PL 공식 구단 마크 · 제작 시기 미확인",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-sports-20261012/d7ede6abfcfbb9d8bf34.svg",
+            "png": "sources/official-sports-20261012/3a0eeb0933da8a9e4f99.png"
+          },
+          "preview_png": "sources/official-sports-20261012/35cdb7b9a43694b2e2b9.png",
+          "source_url": "https://resources.premierleague.com/premierleague/badges/t14.svg",
+          "origin": "official",
+          "official_distribution": true,
+          "order": 1
+        }
+      ]
+    },
+    "manchester-city": {
+      "schema": 1,
+      "id": "manchester-city",
+      "primary": "legacy-original",
+      "variants": [
+        {
+          "key": "legacy-original",
+          "label": "기존 수집 로고 · 제작 시기 미확인",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "logo.svg"
+          },
+          "origin": "collected",
+          "order": 0
+        },
+        {
+          "key": "official-pl-20261012",
+          "label": "PL 공식 구단 마크 · 제작 시기 미확인",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-sports-20261012/5992dc73d3a29ef6d1e0.svg",
+            "png": "sources/official-sports-20261012/f4dd89dc2d8376ca9491.png"
+          },
+          "preview_png": "sources/official-sports-20261012/558dd2cf03cd88764bcd.png",
+          "source_url": "https://resources.premierleague.com/premierleague/badges/t43.svg",
+          "origin": "official",
+          "official_distribution": true,
+          "order": 1
+        }
+      ]
+    },
+    "manchester-united": {
+      "schema": 1,
+      "id": "manchester-united",
+      "primary": "legacy-original",
+      "variants": [
+        {
+          "key": "legacy-original",
+          "label": "기존 수집 로고 · 제작 시기 미확인",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "logo.svg"
+          },
+          "origin": "collected",
+          "order": 0
+        },
+        {
+          "key": "official-pl-20261012",
+          "label": "PL 공식 구단 마크 · 제작 시기 미확인",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-sports-20261012/26a24cef1e79effd71f2.svg",
+            "png": "sources/official-sports-20261012/f017e85cbe98a16bffe8.png"
+          },
+          "preview_png": "sources/official-sports-20261012/22767ed6d4c2a89f2dda.png",
+          "source_url": "https://resources.premierleague.com/premierleague/badges/t1.svg",
+          "origin": "official",
+          "official_distribution": true,
+          "order": 1
+        }
+      ]
+    },
+    "newcastle-united": {
+      "schema": 1,
+      "id": "newcastle-united",
+      "primary": null,
+      "variants": [
+        {
+          "key": "reviewed",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "png": "sources/reviewed-background-merge-20261008/9c7c7dd9c281d668.png",
+            "svg": "sources/reviewed-background-merge-20261008/9c7c7dd9c281d668.svg"
+          },
+          "label": "투명 배경 로고",
+          "light": false,
+          "order": 0,
+          "origin": "derived",
+          "provider": "보유 원본 · 배경과 흰색 도형 검수"
+        },
+        {
+          "key": "official-pl-20261012",
+          "label": "PL 공식 구단 마크 · 제작 시기 미확인",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-sports-20261012/c22245c6265c78035859.svg",
+            "png": "sources/official-sports-20261012/459e07eccd16e231fd75.png"
+          },
+          "preview_png": "sources/official-sports-20261012/2d22461ae5c5cfbd6301.png",
+          "source_url": "https://resources.premierleague.com/premierleague/badges/t4.svg",
+          "origin": "official",
+          "official_distribution": true,
+          "order": 1
+        }
+      ]
+    },
+    "nottingham-forest-fc": {
+      "schema": 1,
+      "id": "nottingham-forest-fc",
+      "primary": "legacy-original",
+      "variants": [
+        {
+          "key": "legacy-original",
+          "label": "기존 수집 로고 · 제작 시기 미확인",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "logo.svg"
+          },
+          "origin": "collected",
+          "order": 0
+        },
+        {
+          "key": "official-pl-20261012",
+          "label": "PL 공식 구단 마크 · 제작 시기 미확인",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-sports-20261012/e41816f33ffd022687ce.svg",
+            "png": "sources/official-sports-20261012/5bebb5622a611ad1f89e.png"
+          },
+          "preview_png": "sources/official-sports-20261012/7b80fcd2a148550a447a.png",
+          "source_url": "https://resources.premierleague.com/premierleague/badges/t17.svg",
+          "origin": "official",
+          "official_distribution": true,
+          "order": 1
+        }
+      ]
+    },
+    "sunderland-afc": {
+      "schema": 1,
+      "id": "sunderland-afc",
+      "primary": "legacy-original",
+      "variants": [
+        {
+          "key": "legacy-original",
+          "label": "기존 수집 로고 · 제작 시기 미확인",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "logo.svg"
+          },
+          "origin": "collected",
+          "order": 0
+        },
+        {
+          "key": "official-pl-20261012",
+          "label": "PL 공식 구단 마크 · 제작 시기 미확인",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-sports-20261012/2f11acfe7db58e2673a3.svg",
+            "png": "sources/official-sports-20261012/1bbbc5fdce02d48896fa.png"
+          },
+          "preview_png": "sources/official-sports-20261012/4dfdca70437d1559cba1.png",
+          "source_url": "https://resources.premierleague.com/premierleague/badges/t56.svg",
+          "origin": "official",
+          "official_distribution": true,
+          "order": 1
+        }
+      ]
+    },
+    "tottenham-hotspur": {
+      "schema": 1,
+      "id": "tottenham-hotspur",
+      "primary": "legacy-original",
+      "variants": [
+        {
+          "key": "legacy-original",
+          "label": "기존 수집 로고 · 제작 시기 미확인",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "logo.svg"
+          },
+          "origin": "collected",
+          "order": 0
+        },
+        {
+          "key": "official-pl-20261012",
+          "label": "PL 공식 구단 마크 · 제작 시기 미확인",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "svg": "sources/official-sports-20261012/e605b07641897f38922b.svg",
+            "png": "sources/official-sports-20261012/24119dd71a5187c20a9a.png"
+          },
+          "preview_png": "sources/official-sports-20261012/8d633988d6f0310c4314.png",
+          "source_url": "https://resources.premierleague.com/premierleague/badges/t6.svg",
+          "origin": "official",
           "official_distribution": true,
           "order": 1
         }
