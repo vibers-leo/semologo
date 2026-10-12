@@ -126,3 +126,5 @@
 - 2026-10-12: 현대자동차 hyundai로 중복 3개 콘텐츠 통합(가로/세로/심볼 등 5종). 원본 SVG·기존 버전·주소 이력 보존, Motorsport와 출처 불명 워드마크 제외. 대표 PNG를 카드·다운로드 공통 경로에 적용하고 관리자가 저장한 대표 선택이 번들 기본값보다 우선하도록 수정. cyberpixie 투명 자산도 검수 오버레이에 추가.
 
 - 2026-10-13: 로컬 Linux 이미지 배포 및 초기 JS 68.5% 감소 검증. intro 캡처: `screenshots/20261013_intro/desktop.png`, `mobile.png`.
+
+- 2026-10-13: 카드 이미지 선로딩·모달 코드/구성 미리 준비 배포(d1f4caa). NBA/NHL 7개 구단 공식 투명본 대표 연결, 기존 구성 보존. intro 캡처: `screenshots/20261013_loading/{desktop,mobile}.png`.
