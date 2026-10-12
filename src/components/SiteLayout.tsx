@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import Script from "next/script";
 import { SearchProvider } from "@/lib/search-context";
-import { CDN, VERSION } from "@/lib/cdn";
+import { fetchCatalogStats } from "@/lib/brands";
+import { CATALOG_SNAPSHOT, siteCopy } from "@/lib/site-copy";
 import Footer from "@/components/Footer";
 import "@/app/globals.css";
 import { LocaleProvider } from "@/lib/locale-context";
@@ -12,33 +13,18 @@ import ChunkRecovery from "@/components/ChunkRecovery";
 const GA_ID = "G-NWML2V1S7V";
 const SITE = "https://semologo.com";
 
-/**
- * 브랜드 수를 빌드 시점에 실제 데이터에서 읽는다.
- * 예전엔 "6,061개"로 하드코딩돼 있었는데 수집할 때마다 어긋났다
- * (실제 6,824개). 설명·OG·트위터 3곳에 같은 숫자가 박혀 있었다.
- */
-async function brandCount(): Promise<string> {
-  try {
-    // ⚠️ 예전엔 brands-slim.json(12.9MB)을 받아 **개수만 세고 버렸다.**
-    //    레이아웃은 모든 페이지를 감싸므로 빌드 때 718번 받아 파싱했고,
-    //    페이지당 60초를 넘겨 **배포가 실패했다.**
-    //    거르는 조건은 CDN 쪽 build-category-peers.py 가 목록과 똑같이 맞춘다.
-    const res = await fetch(`${CDN}/stats.json?v=${VERSION}`, { next: { revalidate: 3600 } });
-    if (!res.ok) return "44,000여";
-    const s = await res.json();
-    const n = Number(s?.visible);
-    return Number.isFinite(n) && n > 0 ? n.toLocaleString("ko-KR") : "44,000여";
-  } catch {
-    return "44,000여";
-  }
+async function brandCount(): Promise<number> {
+  const stats = await fetchCatalogStats();
+  return stats?.visible && stats.visible > 0 ? stats.visible : CATALOG_SNAPSHOT.visible;
 }
 
 export async function siteMetadata(locale: Locale = "ko"): Promise<Metadata> {
   const n = await brandCount();
+  const copy = siteCopy(locale, n);
   return {
     metadataBase: new URL(SITE),
-    title: locale === "en" ? "SemoLogo — Brand logos in SVG & PNG" : "세모로고 — 브랜드 로고 모음 · SVG·PNG 다운로드",
-    description: locale === "en" ? `Explore ${n} brand logos. Download SVG vectors and PNG images, and open SVG files in Adobe Illustrator.` : `브랜드 로고 모음 ${n}개. SVG 벡터·PNG 무료 다운로드와 Illustrator에서 여는 방법을 확인해 보세요.`,
+    title: copy.title,
+    description: copy.description,
     keywords: ["로고", "브랜드로고", "SVG 로고", "PNG 로고", "로고 다운로드", "기업 로고", "무료 로고", "세모로고", "semologo", "로고창고", "로고모음", "AI 로고 다운로드", "일러스트 로고"],
     alternates: { canonical: locale === "en" ? "/en" : "/", languages: { ko: "/", en: "/en", "x-default": "/" } },
     other: {
@@ -50,20 +36,20 @@ export async function siteMetadata(locale: Locale = "ko"): Promise<Metadata> {
     },
     manifest: "/manifest.webmanifest",
     openGraph: {
-      title: locale === "en" ? "SemoLogo — Brand logos in SVG & PNG" : "세모로고 — 브랜드 로고 모음 · SVG·PNG 다운로드",
-      description: locale === "en" ? `Explore ${n} brand logos in SVG and PNG.` : `현대·삼성·LG·SK 등 ${n}개 브랜드 로고를 SVG·PNG로 무료 다운로드`,
+      title: copy.title,
+      description: copy.description,
       siteName: "세모로고",
       url: locale === "en" ? `${SITE}/en` : SITE,
       type: "website",
       // 한국어 사이트임을 명시한다. 없으면 SNS·검색엔진이 언어를 추정해야 한다.
       locale: locale === "en" ? "en_US" : "ko_KR",
-      images: [{ url: `${SITE}/og-cover.jpg`, width: 1200, height: 630, alt: `세모로고 — ${n}개 브랜드 로고 무료 다운로드` }],
+      images: [{ url: copy.ogImage, width: 1200, height: 630, alt: copy.ogAlt }],
     },
     twitter: {
       card: "summary_large_image",
-      title: locale === "en" ? "SemoLogo — Brand logos in SVG & PNG" : "세모로고 — 브랜드 로고 모음 · SVG·PNG 다운로드",
-      description: locale === "en" ? `Explore ${n} brand logos in SVG and PNG.` : `${n}개 브랜드 로고 SVG·PNG 무료 다운로드`,
-      images: [`${SITE}/og-cover.jpg`],
+      title: copy.title,
+      description: copy.description,
+      images: [copy.ogImage],
     },
   };
 }
@@ -77,7 +63,7 @@ export async function siteMetadata(locale: Locale = "ko"): Promise<Metadata> {
  * 무엇인가"를 판단할 근거가 사이트 루트에 없다는 뜻이다.
  * WebSite(검색 동작 포함) + Organization + CollectionPage 를 넣는다.
  */
-function siteJsonLd(count: string) {
+function siteJsonLd(count: number) {
   return {
     "@context": "https://schema.org",
     "@graph": [
@@ -87,7 +73,7 @@ function siteJsonLd(count: string) {
         url: SITE,
         name: "세모로고",
         alternateName: ["SemoLogo", "세상 모든 로고"],
-        description: `브랜드 로고 ${count}개를 SVG·PNG 로 무료 다운로드하는 서비스.`,
+        description: siteCopy("ko", count).description,
         inLanguage: "ko",
         publisher: { "@id": `${SITE}/#org` },
         potentialAction: {
@@ -107,7 +93,7 @@ function siteJsonLd(count: string) {
         url: SITE,
         logo: `${SITE}/icon-512.png`,
         description:
-          "세상 모든 로고. 국내외 브랜드의 공식 로고를 벡터(SVG)와 래스터(PNG)로 제공한다.",
+          siteCopy("ko", count).description,
       },
       {
         // 이 사이트의 본체가 '브랜드 로고 모음'임을 명시한다.
@@ -137,7 +123,7 @@ export default async function RootLayout({
       <head>
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(locale === "en" ? {"@context": "https://schema.org", "@type": "WebSite", name: "SemoLogo", url: `${SITE}/en`, inLanguage: "en", description: "Brand logo collection with SVG and PNG downloads", potentialAction: {"@type": "SearchAction", target: `${SITE}/en?q={search_term_string}`, "query-input": "required name=search_term_string"}} : siteJsonLd(count)) }}
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(locale === "en" ? {"@context": "https://schema.org", "@type": "WebSite", name: "SemoLogo", url: `${SITE}/en`, inLanguage: "en", description: siteCopy("en", count).description, potentialAction: {"@type": "SearchAction", target: `${SITE}/en?q={search_term_string}`, "query-input": "required name=search_term_string"}} : siteJsonLd(count)) }}
         />
         {/* 광고 서버 선연결 — 슬롯 iframe 첫 요청의 TLS 핸드셰이크 선처리 */}
         <link rel="preconnect" href="https://ai.vibers.co.kr" />

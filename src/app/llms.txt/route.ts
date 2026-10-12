@@ -5,39 +5,32 @@
  */
 // ⚠️ 예전엔 여기 URL 이 하드코딩돼 있었다. cdn.ts 가 단일 소스인데
 //    이 파일만 따로 들고 있으면 CDN 주소를 옮길 때 조용히 어긋난다.
-import { CDN, VERSION } from "@/lib/cdn";
+import { CDN } from "@/lib/cdn";
 
 export const dynamic = "force-static";
 
 
-/**
- * 브랜드 수를 빌드 시점에 실제 데이터에서 읽는다.
- * 예전엔 "6,800여"로 하드코딩돼 있었는데, 브랜드가 7,343 → 40,274개로
- * 늘었는데도 6,800 그대로였다(6배 차이). layout.tsx 와 같은 방식으로 맞춘다.
- */
-async function brandCount(): Promise<string> {
-  try {
-    // ?v= 없으면 CF 엣지 캐시(1시간) 때문에 묵은 수가 나온다 — layout.tsx 와 같은 이유.
-    // 실제로 llms.txt 가 41,176 개로 굳어 있었다(당시 실제 42,993).
-    // ⚠️ 예전엔 여기서도 brands-slim.json(12.9MB)을 받아 세었고, 게다가
-    //    `hidden` 을 안 걸러 **layout 과 다른 숫자**를 말하고 있었다.
-    //    거르는 조건은 CDN 쪽 한 곳(build-category-peers.py)에서 정한다.
-    const res = await fetch(`${CDN}/stats.json?v=${VERSION}`, { next: { revalidate: 3600 } });
-    if (!res.ok) return "4만여";
-    const s = await res.json();
-    const n = Number(s?.visible);
-    return Number.isFinite(n) && n > 0 ? `${n.toLocaleString("ko-KR")}개` : "4만여";
-  } catch {
-    return "4만여";
-  }
-}
+import { fetchCatalogStats } from "@/lib/brands";
+import { CATALOG_SNAPSHOT, siteCopy } from "@/lib/site-copy";
 
 export async function GET() {
-  const count = await brandCount();
+  const stats = await fetchCatalogStats();
+  const total = stats?.visible || CATALOG_SNAPSHOT.visible;
+  const count = total.toLocaleString("ko-KR") + "개";
   const body = `# 세모로고 (SemoLogo)
 
-> 세상 모든 로고. 브랜드 로고를 SVG·PNG로 무료 다운로드하는 서비스.
-> ${count} 브랜드의 벡터·래스터 로고를 형태별(심볼형·가로조합형·세로조합형·워드마크형)로 제공한다.
+> ${siteCopy("ko", total).description}
+
+공개 카탈로그: ${count} 콘텐츠. 파일 형식과 베리에이션은 콘텐츠별로 다르며, 모든 콘텐츠가 SVG·PNG·AI·캐릭터를 함께 제공하는 것은 아니다.
+
+## 주요 기능
+
+- 국내외 기업·기관·대학·스포츠·미디어 등 브랜드 로고 검색
+- 확보된 SVG·PNG 다운로드와 심볼·워드마크·시그니처·캐릭터 베리에이션
+- 로고월 제작·미리보기·ZIP 내보내기: PNG, HTML·CSS·JavaScript, JSON 설정과 미리보기 이미지
+- 카테고리별 수집현황과 아카이브
+- 로고 요청 및 제보
+- AI·ZIP 등 배포 원본은 확보된 콘텐츠에서만 제공
 
 ## 에이전트가 바로 쓸 수 있는 데이터
 
@@ -45,16 +38,17 @@ export async function GET() {
   필드: id, name_ko, name_en, category, has_svg, has_png, variants_n, variant_of, light, origin, fame
 - 브랜드 전체 메타: ${CDN}/brands.json
 - 브랜드별 로고 변형: ${CDN}/{id}/variants.json
-- 로고 파일: ${CDN}/{id}/logo.svg · logo.png · logo-800.png · logo-icon.png · logo-transparent.png · logo-white.png
+- 실제 파일 경로: 브랜드 메타데이터와 variants.json의 files, preview_png 필드 참조. sources/ 아래의 검수 파일도 사용한다.
+- 예전 고정 파일명 logo.svg·logo.png가 항상 존재하거나 최신 대표 파일이라고 가정하지 말 것.
 
 ## 사용 규칙
 
 - \`variant_of\` 가 있는 항목은 부모 브랜드로 흡수된 중복이다. 목록에는 쓰지 말 것.
-- \`origin\` 은 "KR"(국내) 또는 "GLOBAL"(해외). 값이 없으면 국적 미확인이다 — 어느 쪽으로도 단정하지 말 것.
+- \`origin\`의 KR은 국내, GLOBAL 또는 다른 국가 코드는 해외다. 값이 없으면 국적 미확인이다.
 - \`fame\` 은 인지도 지표(해당 브랜드의 위키백과 언어판 수). 클수록 널리 알려진 브랜드다.
 - \`light: true\` 는 흰색 계열 로고 — 밝은 배경에서 보이지 않으므로 어두운 배경에 배치할 것.
 - 파일이 없을 수 있다. 응답이 \`text/html\` 이면 404 폴백이므로 이미지로 쓰지 말 것.
-- CORS 는 \`*\` 로 열려 있어 브라우저에서 직접 fetch 가능하다.
+- CDN에는 접근 보호 정책이 있다. 이미지 응답의 HTTP 상태와 Content-Type을 확인할 것.
 
 ## 언어와 파일 형식
 
@@ -70,6 +64,8 @@ export async function GET() {
 - 로고 제보: https://semologo.com/submit
 - 로고 요청: https://semologo.com/request
 - 자주 묻는 질문: https://semologo.com/faq
+- 로고월 제작: https://semologo.com/logo-walls/
+- 수집현황: https://semologo.com/blog/collection-status/
 
 ## 저작권
 

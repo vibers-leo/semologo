@@ -1,8 +1,16 @@
-# 세모로고 검색·AI 노출 자산
+# 세모로고 검색·공유 자산
 
-- 갱신일: 2026-09-20
-- 도메인: https://semologo.com
-- 대상: 국내외 브랜드 로고 상세 페이지와 SVG·PNG 다운로드
+갱신: 2026-10-12
+
+공개 카탈로그 stats.json visible=181228, total=182313 확인. 소개에서는 공개 수치를 기준으로 18만+를 사용한다. 메타 설명과 JSON-LD 및 llms.txt는 fetchCatalogStats를 공유하며, 통계 장애 시 마지막 검증 스냅샷으로 대체한다. 원본과 베리에이션은 콘텐츠별 보유 형식만 제공하며 전체가 공식 배포물 또는 AI 원본이라는 주장을 하지 않는다.
+
+한국어·영문 OG 이미지: public/og/semologo-20261012-ko.png, public/og/semologo-20261012-en.png (1200×630). 날짜가 포함된 새 파일 경로로 공유 이미지 캐시를 분리한다.
+
+갱신 범위: 사이트 제목/설명, Open Graph, Twitter, 홈 소개, PWA description, WebSite/Organization 구조화 데이터, llms.txt. 로고월 ZIP 구성은 기존 내보내기 구현과 일치한다. 브랜드별 OG는 유지한다.
+
+robots.txt·sitemap-index.xml·favicon·검색엔진 인증 태그는 기존 설정을 유지한다. Search Console/서치어드바이저 재등록은 수행하지 않았다. 검색 결과와 기존 SNS 공유물의 갱신 시점은 각 플랫폼 재수집에 따른다.
+
+## 기존 색인·제출 운영 참고 (2026-09-20)
 
 ## 색인 구조
 

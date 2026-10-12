@@ -1,4 +1,5 @@
 import type { MetadataRoute } from "next";
+import { siteCopy } from "@/lib/site-copy";
 
 /**
  * PWA 매니페스트. 앱 아이콘·홈화면 추가·테마색을 담는다.
@@ -10,7 +11,7 @@ export default function manifest(): MetadataRoute.Manifest {
   return {
     name: "세모로고 — 세상 모든 로고",
     short_name: "세모로고",
-    description: "브랜드 로고를 SVG·PNG로 무료 다운로드",
+    description: siteCopy("ko").description,
     start_url: "/",
     display: "standalone",
     background_color: "#ffffff",
