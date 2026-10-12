@@ -8,6 +8,12 @@ log=/tmp/${app}-deploy.log
 status=/tmp/${app}-deploy.status
 exec 9>"/var/lock/${app}-deploy.lock"
 flock -w 3600 9 || exit 75
+# Projects switched to image delivery must never compile on the production host.
+if [[ -f "/root/projects/${app}/.prebuilt-only" ]]; then
+ printf 'QUEUED\n' >"$status"
+ printf 'Waiting for a verified prebuilt image; production-host compilation disabled.\n' >"$log"
+ exit 0
+fi
 printf 'QUEUED\n' >"$status"
 exec 8>/var/lock/vibers-deploy-global.lock
 if ! flock -w 3600 8; then printf 'FAILED: global deployment queue timeout\n' >"$status"; exit 75; fi

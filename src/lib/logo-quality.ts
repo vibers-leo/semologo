@@ -1,4 +1,5 @@
-import { QUALITY_REVIEWS } from "./logo-quality-review";
+import qualityReviews from "./logo-quality-review.json";
+const QUALITY_REVIEWS: Record<string, {status: string; down_at_review: number}> = qualityReviews;
 /**
  * 로고 품질 투표 — Firestore `logo_quality/{brandId}`
  *

@@ -1,5 +1,6 @@
 "use client";
 import CatalogIntro from "./CatalogIntro";
+import { sortPreparedBrands } from "@/lib/brand-grid-sort";
 import { applyPresentation, type LogoPresentation } from "@/lib/logo-presentation";
 import CardLogo from "./CardLogo";
 import { logoPngCandidates, logoImageCandidates } from "@/lib/logo-png-source";
@@ -11,12 +12,12 @@ import { generateInverted } from "@/lib/logo-dark-png";
 import { useLocale, T } from "@/lib/locale-context";
 import { useMemo, useState, useEffect, useRef, useDeferredValue } from "react";
 import dynamic from "next/dynamic";
-import { Brand, sortForGrid, type CatalogStats, type SortMode } from "@/lib/brands";
+import type { Brand, CatalogStats, SortMode } from "@/lib/brands";
 import { CDN, VERSION, CATALOG_VERSION } from "@/lib/cdn";
 import { sendHit } from "@/lib/hit";
 import { loadFlaggedIds } from "@/lib/logo-quality";
 import { trackEvent } from "@/lib/analytics";
-import BrandModal from "./BrandModal";
+const BrandModal = dynamic(() => import("./BrandModal"));
 import { useSearch } from "@/lib/search-context";
 import { listPublishedLogoPosts, type LogoPost } from "@/lib/logo-posts";
 
@@ -246,7 +247,7 @@ export default function BrandGrid({
   const sorted = useMemo(
     () => apiOrdered
       ? (sortMode === 'fame' ? [...brands].sort((a,b) => Number(flagged.has(a.id))-Number(flagged.has(b.id))) : brands)
-      : sortForGrid(brands, sortMode, hits, flagged),
+      : sortPreparedBrands(brands, sortMode, hits, flagged),
     [brands, sortMode, hits, flagged, apiOrdered],
   );
 
