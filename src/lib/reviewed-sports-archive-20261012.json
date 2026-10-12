@@ -1,0 +1,530 @@
+{
+  "patches": {
+    "heroes": {
+      "variants_n": 2
+    },
+    "lotte-giants": {
+      "variants_n": 2
+    },
+    "sk-wyverns": {
+      "variants_n": 2
+    },
+    "ssglanders": {
+      "variants_n": 22
+    },
+    "hyundai-motor-company-2--src-d2d9d76": {
+      "hidden": true,
+      "merged_into": "hyundai",
+      "variant_of": "hyundai",
+      "hidden_reason": "기존 현대자동차 세로 조합 원본과 SHA-256 동일 · 통합 세트에 원본 보존"
+    }
+  },
+  "variants": {
+    "heroes": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "heroes",
+      "primary": "wordmark",
+      "fingerprint": {
+        "logo.svg": "1cfbcbf76d2c758c"
+      },
+      "variants": [
+        {
+          "key": "wordmark",
+          "form": "wordmark",
+          "lang": "unknown",
+          "color": "mono-dark",
+          "label": "워드마크형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 4.455,
+          "provider": "wikimedia",
+          "origin": "collected",
+          "order": 40
+        },
+        {
+          "key": "commons-nexen-heroes-insignia-20261012",
+          "label": "넥센 히어로즈 · 모자 심볼 · 위키미디어 2014판",
+          "form": "symbol",
+          "lang": "none",
+          "color": "original",
+          "files": {
+            "svg": "sources/sports-archive-20261012/445f676c409a3d717161.svg",
+            "png": "sources/sports-archive-20261012/4391944308918e03e709.png"
+          },
+          "preview_png": "sources/sports-archive-20261012/2ab3c0e00231e97be91f.png",
+          "order": 1,
+          "origin": "wikimedia",
+          "official_distribution": false,
+          "provider": "Wikimedia Commons · 구단 원출처 표기",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Nexen_Heroes_insignia.svg",
+          "license": "Public domain",
+          "source_note": "Commons 파일 페이지의 제작자·출처·라이선스 보존. 구단의 현 공식 배포본으로 표시하지 않음. 로고 도입 연도는 미확인.",
+          "historical": true
+        }
+      ]
+    },
+    "lotte-giants": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "lotte-giants",
+      "primary": "symbol",
+      "fingerprint": {
+        "logo.svg": "6b3b6f9b20d640a1"
+      },
+      "variants": [
+        {
+          "key": "symbol",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "color",
+          "label": "심볼형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 1.0,
+          "provider": "wikimedia",
+          "origin": "collected",
+          "order": 30
+        },
+        {
+          "key": "commons-busan-giants-cap-insignia-20261012",
+          "label": "롯데 자이언츠 · 부산 모자 심볼 · 위키미디어 수록본",
+          "form": "symbol",
+          "lang": "none",
+          "color": "original",
+          "files": {
+            "svg": "sources/sports-archive-20261012/ee2ee7805589d914111f.svg",
+            "png": "sources/sports-archive-20261012/da6d87b3aab7e70df3b0.png"
+          },
+          "preview_png": "sources/sports-archive-20261012/38469f4942a5b22bdb46.png",
+          "order": 1,
+          "origin": "wikimedia",
+          "official_distribution": false,
+          "provider": "Wikimedia Commons · 구단 원출처 표기",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Busan_Giants_cap_insignia.svg",
+          "license": "Public domain",
+          "source_note": "Commons 파일 페이지의 제작자·출처·라이선스 보존. 구단의 현 공식 배포본으로 표시하지 않음. 로고 도입 연도는 미확인.",
+          "historical": false
+        }
+      ]
+    },
+    "sk-wyverns": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "sk-wyverns",
+      "primary": "symbol",
+      "fingerprint": {
+        "logo.svg": "0cb60609839f33c6"
+      },
+      "variants": [
+        {
+          "key": "symbol",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "color",
+          "label": "심볼형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 1.0,
+          "provider": "wikimedia",
+          "origin": "collected",
+          "order": 30
+        },
+        {
+          "key": "commons-sk-wyverns-insignia-20261012",
+          "label": "SK 와이번스 · 모자 심볼 · 위키미디어 2015판",
+          "form": "symbol",
+          "lang": "none",
+          "color": "original",
+          "files": {
+            "svg": "sources/sports-archive-20261012/b5d7989597fc170dc2ba.svg",
+            "png": "sources/sports-archive-20261012/2c2ab58cab551ec0367e.png"
+          },
+          "preview_png": "sources/sports-archive-20261012/12535ce2f3e2a1e18b2a.png",
+          "order": 1,
+          "origin": "wikimedia",
+          "official_distribution": false,
+          "provider": "Wikimedia Commons · 구단 원출처 표기",
+          "source_url": "https://commons.wikimedia.org/wiki/File:SK_Wyverns_insignia.svg",
+          "license": "Public domain",
+          "source_note": "Commons 파일 페이지의 제작자·출처·라이선스 보존. 구단의 현 공식 배포본으로 표시하지 않음. 로고 도입 연도는 미확인.",
+          "historical": true
+        }
+      ]
+    },
+    "ssglanders": {
+      "schema": 1,
+      "id": "ssglanders",
+      "primary": null,
+      "variants": [
+        {
+          "key": "official-ssg-01mainlogoemblem-20261012",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "png": "sources/official-baseball-20261012/810c78499ab6fa4139d6.png",
+            "svg": "sources/official-baseball-20261012/3e7b546808733bee37a8.svg"
+          },
+          "label": "메인 엠블럼 · 공식 AI 추출",
+          "order": 0,
+          "origin": "official",
+          "source_url": "https://www.ssglanders.com/landers/emblem",
+          "preview_png": "sources/official-baseball-20261012/184e34b5caec9ee40e70.png",
+          "official_distribution": true
+        },
+        {
+          "key": "official-ssg-02mainlogowordmark-20261012",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "png": "sources/official-baseball-20261012/98ba6c77fee3b4d9d98e.png",
+            "svg": "sources/official-baseball-20261012/cd49d0713518addbe5d8.svg"
+          },
+          "label": "워드마크 · 공식 AI 추출",
+          "order": 1,
+          "origin": "official",
+          "source_url": "https://www.ssglanders.com/landers/emblem",
+          "preview_png": "sources/official-baseball-20261012/3a2900707516158d8676.png",
+          "official_distribution": true
+        },
+        {
+          "key": "official-ssg-02mainlogowordmark-reverse-20261012",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "png": "sources/official-baseball-20261012/62f6500e0bfa61454915.png",
+            "svg": "sources/official-baseball-20261012/da7689cdaf9e4f5d1862.svg"
+          },
+          "label": "워드마크 · 적색 배경 공식 응용형",
+          "order": 2,
+          "origin": "official",
+          "source_url": "https://www.ssglanders.com/landers/emblem",
+          "preview_png": "sources/official-baseball-20261012/7325a7f70e4c3896dbc8.png",
+          "official_distribution": true
+        },
+        {
+          "key": "official-ssg-03symbolmark-20261012",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "png": "sources/official-baseball-20261012/d1eb4d2933dcb8677568.png",
+            "svg": "sources/official-baseball-20261012/31395d623305b2baa300.svg"
+          },
+          "label": "심볼마크 · 공식 AI 추출",
+          "order": 3,
+          "origin": "official",
+          "source_url": "https://www.ssglanders.com/landers/emblem",
+          "preview_png": "sources/official-baseball-20261012/529c8c8f16e4f9465cc1.png",
+          "official_distribution": true
+        },
+        {
+          "key": "official-ssg-03symbolmark-reverse-20261012",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "png": "sources/official-baseball-20261012/6a9477bb526f23e33085.png",
+            "svg": "sources/official-baseball-20261012/00c5f15edfabdc2b9b18.svg"
+          },
+          "label": "심볼마크 · 적색 배경 공식 응용형",
+          "order": 4,
+          "origin": "official",
+          "source_url": "https://www.ssglanders.com/landers/emblem",
+          "preview_png": "sources/official-baseball-20261012/a245b35eb55d7f8a437a.png",
+          "official_distribution": true
+        },
+        {
+          "key": "official-ssg-04subemblem-20261012",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "png": "sources/official-baseball-20261012/f3109a17fa079736eced.png",
+            "svg": "sources/official-baseball-20261012/9bd8047c2ff9d7a854e6.svg"
+          },
+          "label": "보조 엠블럼 · 공식 AI 추출",
+          "order": 5,
+          "origin": "official",
+          "source_url": "https://www.ssglanders.com/landers/emblem",
+          "preview_png": "sources/official-baseball-20261012/562b3460b6ea0f320094.png",
+          "official_distribution": true
+        },
+        {
+          "key": "official-ssg-04subemblem-reverse-20261012",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "png": "sources/official-baseball-20261012/85efeda3cf6e707b2564.png",
+            "svg": "sources/official-baseball-20261012/da17948c65c34df0bd20.svg"
+          },
+          "label": "보조 엠블럼 · 적색 배경 공식 응용형",
+          "order": 6,
+          "origin": "official",
+          "source_url": "https://www.ssglanders.com/landers/emblem",
+          "preview_png": "sources/official-baseball-20261012/972b6da07e27f7cdee21.png",
+          "official_distribution": true
+        },
+        {
+          "key": "official-ssg-mascotlandy-20261012",
+          "form": "mascot",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "png": "sources/official-baseball-20261012/42093199554ad5218ff2.png",
+            "svg": "sources/official-baseball-20261012/8702556e6212b5b7500f.svg"
+          },
+          "label": "랜디 마스코트 기본형 · 공식 AI 추출",
+          "order": 7,
+          "origin": "official",
+          "source_url": "https://www.ssglanders.com/landers/emblem",
+          "preview_png": "sources/official-baseball-20261012/85ba0075d692c8dc5b89.png",
+          "official_distribution": true
+        },
+        {
+          "key": "official-ssg-mascotpoorie-20261012",
+          "form": "mascot",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "png": "sources/official-baseball-20261012/c5d384e2ca6c67d57491.png",
+            "svg": "sources/official-baseball-20261012/7ac201d3fd8e17beea5f.svg"
+          },
+          "label": "푸리 마스코트 기본형 · 공식 AI 추출",
+          "order": 8,
+          "origin": "official",
+          "source_url": "https://www.ssglanders.com/landers/emblem",
+          "preview_png": "sources/official-baseball-20261012/94c8515e3453fed0a702.png",
+          "official_distribution": true
+        },
+        {
+          "key": "official-ssg-mascotbatty-20261012",
+          "form": "mascot",
+          "lang": "unknown",
+          "color": "original",
+          "files": {
+            "png": "sources/official-baseball-20261012/f437575b01023837121e.png",
+            "svg": "sources/official-baseball-20261012/d38fc1fa7380fe4567d6.svg"
+          },
+          "label": "배티 마스코트 기본형 · 공식 AI 추출",
+          "order": 9,
+          "origin": "official",
+          "source_url": "https://www.ssglanders.com/landers/emblem",
+          "preview_png": "sources/official-baseball-20261012/5700f8f47448a681edfd.png",
+          "official_distribution": true
+        },
+        {
+          "key": "official-ssg-landy-front-20261012",
+          "form": "mascot",
+          "lang": "none",
+          "color": "original",
+          "files": {
+            "png": "sources/official-baseball-20261012/137063815d368891f160.png",
+            "svg": "sources/official-baseball-20261012/64ba5db0b3c2205430e3.svg"
+          },
+          "label": "랜디 마스코트 · 정면",
+          "order": 10,
+          "origin": "official",
+          "source_url": "https://www.ssglanders.com/landers/emblem",
+          "preview_png": "sources/official-baseball-20261012/fd56fc3a2c7c4e9a209c.png",
+          "official_distribution": true
+        },
+        {
+          "key": "official-ssg-poorie-front-20261012",
+          "form": "mascot",
+          "lang": "none",
+          "color": "original",
+          "files": {
+            "png": "sources/official-baseball-20261012/d25f7c16ab550ed34714.png",
+            "svg": "sources/official-baseball-20261012/254a2070ab2093d6139a.svg"
+          },
+          "label": "푸리 마스코트 · 정면",
+          "order": 11,
+          "origin": "official",
+          "source_url": "https://www.ssglanders.com/landers/emblem",
+          "preview_png": "sources/official-baseball-20261012/7eb9122e5b287c4a2065.png",
+          "official_distribution": true
+        },
+        {
+          "key": "official-ssg-batty-front-20261012",
+          "form": "mascot",
+          "lang": "none",
+          "color": "original",
+          "files": {
+            "png": "sources/official-baseball-20261012/c6101f3a06774fa72814.png",
+            "svg": "sources/official-baseball-20261012/dc06f470937325b003fe.svg"
+          },
+          "label": "배티 마스코트 · 정면",
+          "order": 12,
+          "origin": "official",
+          "source_url": "https://www.ssglanders.com/landers/emblem",
+          "preview_png": "sources/official-baseball-20261012/c563992889526f94c43d.png",
+          "official_distribution": true
+        },
+        {
+          "key": "official-ssg-landy-view-2-20261012",
+          "label": "랜디 마스코트 · 사선",
+          "form": "mascot",
+          "lang": "none",
+          "color": "original",
+          "files": {
+            "svg": "sources/sports-archive-20261012/ba606259a778226627d1.svg",
+            "png": "sources/sports-archive-20261012/54065ff8c6fcfb22cda8.png"
+          },
+          "preview_png": "sources/sports-archive-20261012/b45a69e561e9147b9281.png",
+          "order": 13,
+          "origin": "official",
+          "official_distribution": true,
+          "source_url": "https://www.ssglanders.com/landers/emblem",
+          "source_note": "공식 AI 원본에서 SVG 뷰포트만 분리. 캐릭터 재작성 없음."
+        },
+        {
+          "key": "official-ssg-landy-view-3-20261012",
+          "label": "랜디 마스코트 · 측면",
+          "form": "mascot",
+          "lang": "none",
+          "color": "original",
+          "files": {
+            "svg": "sources/sports-archive-20261012/18219e64d67c3317a7ac.svg",
+            "png": "sources/sports-archive-20261012/e8ce0f708ad7074692ee.png"
+          },
+          "preview_png": "sources/sports-archive-20261012/c118501de203392db0a0.png",
+          "order": 14,
+          "origin": "official",
+          "official_distribution": true,
+          "source_url": "https://www.ssglanders.com/landers/emblem",
+          "source_note": "공식 AI 원본에서 SVG 뷰포트만 분리. 캐릭터 재작성 없음."
+        },
+        {
+          "key": "official-ssg-landy-view-4-20261012",
+          "label": "랜디 마스코트 · 후면",
+          "form": "mascot",
+          "lang": "none",
+          "color": "original",
+          "files": {
+            "svg": "sources/sports-archive-20261012/198b80f0278b6309152b.svg",
+            "png": "sources/sports-archive-20261012/d9b21cc13cf4d08a86b8.png"
+          },
+          "preview_png": "sources/sports-archive-20261012/ffb6b05047eae9129129.png",
+          "order": 15,
+          "origin": "official",
+          "official_distribution": true,
+          "source_url": "https://www.ssglanders.com/landers/emblem",
+          "source_note": "공식 AI 원본에서 SVG 뷰포트만 분리. 캐릭터 재작성 없음."
+        },
+        {
+          "key": "official-ssg-poorie-view-2-20261012",
+          "label": "푸리 마스코트 · 사선",
+          "form": "mascot",
+          "lang": "none",
+          "color": "original",
+          "files": {
+            "svg": "sources/sports-archive-20261012/6087272941ae516c4922.svg",
+            "png": "sources/sports-archive-20261012/3f3351baa1f3e07c864a.png"
+          },
+          "preview_png": "sources/sports-archive-20261012/03ad7bfd185394e3f5d4.png",
+          "order": 16,
+          "origin": "official",
+          "official_distribution": true,
+          "source_url": "https://www.ssglanders.com/landers/emblem",
+          "source_note": "공식 AI 원본에서 SVG 뷰포트만 분리. 캐릭터 재작성 없음."
+        },
+        {
+          "key": "official-ssg-poorie-view-3-20261012",
+          "label": "푸리 마스코트 · 측면",
+          "form": "mascot",
+          "lang": "none",
+          "color": "original",
+          "files": {
+            "svg": "sources/sports-archive-20261012/b1861b5ba090beac3908.svg",
+            "png": "sources/sports-archive-20261012/702d9b113d3a45d69062.png"
+          },
+          "preview_png": "sources/sports-archive-20261012/79a59635ae4ce5bf944b.png",
+          "order": 17,
+          "origin": "official",
+          "official_distribution": true,
+          "source_url": "https://www.ssglanders.com/landers/emblem",
+          "source_note": "공식 AI 원본에서 SVG 뷰포트만 분리. 캐릭터 재작성 없음."
+        },
+        {
+          "key": "official-ssg-poorie-view-4-20261012",
+          "label": "푸리 마스코트 · 후면",
+          "form": "mascot",
+          "lang": "none",
+          "color": "original",
+          "files": {
+            "svg": "sources/sports-archive-20261012/ea3c4e0a124c40025c46.svg",
+            "png": "sources/sports-archive-20261012/92a8cfbeb7b11bf103c2.png"
+          },
+          "preview_png": "sources/sports-archive-20261012/5fef988635831bbbb0fa.png",
+          "order": 18,
+          "origin": "official",
+          "official_distribution": true,
+          "source_url": "https://www.ssglanders.com/landers/emblem",
+          "source_note": "공식 AI 원본에서 SVG 뷰포트만 분리. 캐릭터 재작성 없음."
+        },
+        {
+          "key": "official-ssg-batty-view-2-20261012",
+          "label": "배티 마스코트 · 사선",
+          "form": "mascot",
+          "lang": "none",
+          "color": "original",
+          "files": {
+            "svg": "sources/sports-archive-20261012/a35509056f8ab9232bd1.svg",
+            "png": "sources/sports-archive-20261012/b90f918b760a485629ed.png"
+          },
+          "preview_png": "sources/sports-archive-20261012/8c66a3d422686d6dd821.png",
+          "order": 19,
+          "origin": "official",
+          "official_distribution": true,
+          "source_url": "https://www.ssglanders.com/landers/emblem",
+          "source_note": "공식 AI 원본에서 SVG 뷰포트만 분리. 캐릭터 재작성 없음."
+        },
+        {
+          "key": "official-ssg-batty-view-3-20261012",
+          "label": "배티 마스코트 · 측면",
+          "form": "mascot",
+          "lang": "none",
+          "color": "original",
+          "files": {
+            "svg": "sources/sports-archive-20261012/e758347d1386964d88ee.svg",
+            "png": "sources/sports-archive-20261012/fe192411bcc9ad2b5688.png"
+          },
+          "preview_png": "sources/sports-archive-20261012/d9ffa8104ec96b4e03fa.png",
+          "order": 20,
+          "origin": "official",
+          "official_distribution": true,
+          "source_url": "https://www.ssglanders.com/landers/emblem",
+          "source_note": "공식 AI 원본에서 SVG 뷰포트만 분리. 캐릭터 재작성 없음."
+        },
+        {
+          "key": "official-ssg-batty-view-4-20261012",
+          "label": "배티 마스코트 · 후면",
+          "form": "mascot",
+          "lang": "none",
+          "color": "original",
+          "files": {
+            "svg": "sources/sports-archive-20261012/218cd482b0b0bf2d9313.svg",
+            "png": "sources/sports-archive-20261012/d281f7edcb6c1e50f05f.png"
+          },
+          "preview_png": "sources/sports-archive-20261012/9b08bac912273b122d10.png",
+          "order": 21,
+          "origin": "official",
+          "official_distribution": true,
+          "source_url": "https://www.ssglanders.com/landers/emblem",
+          "source_note": "공식 AI 원본에서 SVG 뷰포트만 분리. 캐릭터 재작성 없음."
+        }
+      ]
+    }
+  }
+}
