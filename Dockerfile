@@ -13,6 +13,8 @@ RUN printf '\nsupportedArchitectures:\n  os: [linux]\n  cpu: [current, x64]\n  l
 FROM base AS builder
 COPY --from=deps /app/node_modules ./node_modules
 COPY . .
+# Keep the install configuration consistent so pnpm does not reinstall under emulation.
+COPY --from=deps /app/pnpm-workspace.yaml ./pnpm-workspace.yaml
 # Next.js 빌드 메모리 (조직 표준)
 ENV NODE_OPTIONS="--max-old-space-size=3072"
 ENV NEXT_TELEMETRY_DISABLED=1
