@@ -121,7 +121,8 @@ export default function BrandGrid({
   const [flagged, setFlagged] = useState<Set<string>>(new Set());
   // 모달에서 저장한 공개 배경 투표를 같은 화면의 카드에도 즉시 반영한다.
   const [presentations,setPresentations]=useState<Record<string,LogoPresentation>>({});
-  useEffect(()=>{let alive=true;fetch('/api/logo-presentation/',{cache:'no-store'}).then(r=>r.ok?r.json():null).then(d=>{if(alive&&d?.presentations)setPresentations(p=>({...d.presentations,...p}));}).catch(()=>{});const changed=(e:Event)=>{const d=(e as CustomEvent).detail;if(d?.brandId&&d.presentation)setPresentations(p=>({...p,[d.brandId]:d.presentation}));};window.addEventListener('semologo:presentation',changed);return()=>{alive=false;window.removeEventListener('semologo:presentation',changed);};},[]);
+  const presentationFetched=useRef(new Set<string>());
+  useEffect(()=>{const changed=(e:Event)=>{const d=(e as CustomEvent).detail;if(d?.brandId&&d.presentation)setPresentations(p=>({...p,[d.brandId]:d.presentation}));};window.addEventListener('semologo:presentation',changed);return()=>window.removeEventListener('semologo:presentation',changed);},[]);
   const presented=(brand:Brand)=>applyPresentation(brand,presentations[brand.id] || brand.presentation);
   const [bgVotes, setBgVotes] = useState<Record<string, "dark" | "light">>({});
   useEffect(() => {
@@ -301,6 +302,20 @@ export default function BrandGrid({
   }, [deferredQuery, resultTotal, catalogLoading, loadError]);
 
   const visible = filtered.slice(0, page * PAGE_SIZE);
+  const visiblePresentationIds=[...new Set([...visible,...recentPosts].map(brand=>brand.id))].join(',');
+  useEffect(()=>{
+    const ids=visiblePresentationIds.split(',').filter(id=>id&&!presentationFetched.current.has(id));
+    if(!ids.length)return;
+    ids.forEach(id=>presentationFetched.current.add(id));
+    let active=true;
+    Promise.all(Array.from({length:Math.ceil(ids.length/80)},(_,index)=>ids.slice(index*80,(index+1)*80)).map(async chunk=>{
+      const response=await fetch(`/api/logo-presentation/?ids=${encodeURIComponent(chunk.join(','))}`,{cache:'no-store'});
+      if(!response.ok)throw Error('presentation');
+      return response.json();
+    })).then(results=>{if(active)setPresentations(previous=>({...Object.assign({},...results.map(result=>result.presentations||{})),...previous}));})
+      .catch(()=>{ids.forEach(id=>presentationFetched.current.delete(id));});
+    return()=>{active=false;};
+  },[visiblePresentationIds]);
   const hasMore = visible.length < resultTotal;
 
   useEffect(() => {

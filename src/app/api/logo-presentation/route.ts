@@ -11,9 +11,15 @@ import { revalidatePath } from 'next/cache';
 export const dynamic='force-dynamic';
 const reply=(body:unknown,status=200)=>Response.json(body,{status,headers:{'Cache-Control':'no-store'}});
 export async function GET(request:Request){
- try{const id=new URL(request.url).searchParams.get('id');if(id&&!/^[\p{L}\p{N}._-]{1,200}$/u.test(id))return reply({error:'로고를 확인해 주세요.'},400);
- const rows=await trafficDb().query("SELECT id,payload,payload->'presentation' presentation FROM semologo.logo_posts WHERE status='published' AND payload ? 'presentation' AND ($1::text IS NULL OR id=$1)",[id]);
- return reply({presentations:Object.fromEntries(rows.rows.filter(r=>validPresentation(r.presentation)&&!cmsBrand(r.id,r.payload).rejected_asset_files?.includes(r.presentation.file)).map(r=>[r.id,r.presentation]))});
+ try{const params=new URL(request.url).searchParams;const id=params.get('id');const list=params.get('ids');
+ const ids=id?[id]:list?list.split(',').filter(Boolean):null;
+ if(ids&&(ids.length>120||ids.some(value=>!/^[\p{L}\p{N}._-]{1,200}$/u.test(value))))return reply({error:'로고를 확인해 주세요.'},400);
+ const db=trafficDb();
+ const rows=await db.query("SELECT id,payload,payload->'presentation' presentation FROM semologo.logo_posts WHERE status='published' AND payload ? 'presentation' AND ($1::text[] IS NULL OR id=ANY($1::text[]))",[ids]);
+ const automatic=ids?.length ? await db.query('SELECT id,png_file,svg_file FROM semologo.logo_background_previews WHERE id=ANY($1::text[])',[ids]) : {rows:[]};
+ const presentations=Object.fromEntries(automatic.rows.map(row=>[row.id,{file:row.png_file,bg:'light',svgFile:row.svg_file}]));
+ for(const row of rows.rows)if(validPresentation(row.presentation)&&!cmsBrand(row.id,row.payload).rejected_asset_files?.includes(row.presentation.file))presentations[row.id]=row.presentation;
+ return reply({presentations});
  }catch{return reply({error:'대표 이미지를 불러오지 못했어요.'},503);}
 }
 export async function PATCH(request:Request){

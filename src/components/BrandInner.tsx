@@ -242,6 +242,8 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
   const ADMIN_EMAIL = "juuuno1116@gmail.com";
   // 렌더 중에 getClientAuth() 를 부르면 SSR 에서 깨진다 — 효과 안에서만 읽는다.
   const [isAdmin, setIsAdmin] = useState(false);
+  const [variantReviews, setVariantReviews] = useState<Record<string, string>>({});
+  const [savingVariantReview, setSavingVariantReview] = useState<string | null>(null);
   useEffect(() => {
     try {
       const auth = getClientAuth();
@@ -249,6 +251,23 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
       return onAuthStateChanged(auth, u => setIsAdmin(u?.email === ADMIN_EMAIL));
     } catch { /* 서버 렌더·비로그인 */ }
   }, []);
+  useEffect(() => {
+    if (!isAdmin) return;
+    let active = true;
+    void (async () => {
+      try {
+        const token = await getClientAuth().currentUser?.getIdToken();
+        if (!token) return;
+        const response = await fetch(`/api/admin/svg-audit/?kind=variants&id=${encodeURIComponent(brand.id)}`, {
+          headers: { Authorization: `Bearer ${token}` }, cache: 'no-store',
+        });
+        if (!response.ok) return;
+        const data = await response.json();
+        if (active && data?.variants) setVariantReviews(Object.fromEntries(data.variants.map((item: { file: string; decision: string }) => [item.file, item.decision])));
+      } catch { /* 검토 기록은 관리자 편의 기능입니다. */ }
+    })();
+    return () => { active = false; };
+  }, [isAdmin, brand.id]);
   const isLightLogo = presentation ? presentation.bg === "dark" : bgOverride ? bgOverride === "dark" : !!(brand.light || brand.light_logo || brand.dark_variant === "white");
   const savePresentation = async (file:string,bg:"light"|"dark") => {
     if(!isAdmin||!file)return;
@@ -267,7 +286,7 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
     (v.color === "white" || v.color === "mono-light" || /(^|[-_])white$/.test(v.key)) ? DARK_TILE : tile(CHECKER);
   // 기관 원본 PNG에는 흰 캔버스가 포함된 경우가 많다. 대표 미리보기는
   // 배경 제거 파생물을 먼저 사용하고, 파생물이 없을 때만 원본으로 폴백한다.
-  const mainUrl = hasSvg ? svgUrl : (directPng || darkUrl);
+  const mainUrl = hasSvg ? (presentation?.svgFile ? cdnUrl(presentation.svgFile) : svgUrl) : (directPng || darkUrl);
   // 일부 기관 수집본의 원본 SVG에는 로고 주변의 안내 문서/캔버스가
   // 함께 들어온다. 다운로드 원본은 보존하되, 대표 화면은 검수된 가공본을
   // 우선 사용한다. KCA는 logo-800.png가 실제 로고만 담은 가공본이다.
@@ -481,6 +500,24 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
     } catch { toast("요청 실패. 다시 시도해주세요"); }
   }, [brand.id, appendFeed]);
 
+  const flagVariant = async (file: string) => {
+    if (!isAdmin || savingVariantReview) return;
+    setSavingVariantReview(file);
+    try {
+      const token = await getClientAuth().currentUser?.getIdToken();
+      const decision = variantReviews[file] === 'replace' ? null : 'replace';
+      const response = await fetch('/api/admin/svg-audit/', {
+        method: 'PATCH', headers: { Authorization: `Bearer ${token}`, 'Content-Type': 'application/json' },
+        body: JSON.stringify({ id: brand.id, file, decision }),
+      });
+      const data = await response.json();
+      if (!response.ok) throw Error(data.error || '저장 실패');
+      setVariantReviews(previous => ({ ...previous, [file]: decision || '' }));
+      toast(decision ? '이 구성의 교체 검토 요청을 저장했어요.' : '교체 검토 요청을 취소했어요.');
+    } catch { toast('교체 검토를 저장하지 못했어요.'); }
+    finally { setSavingVariantReview(null); }
+  };
+
   const candidateBg = (file:string, fallback:"light"|"dark"="light") => candidateBgs[file] || fallback;
   const candidateActions = (file:string,label:string,bg:"light"|"dark",fixed=false) => {
     const voted=votedFiles.includes(presentationVoteId(file,bg)) || (bg==="light" && votedFiles.includes(file));
@@ -493,6 +530,7 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
       <div style={{display:"flex",gap:6,flexWrap:"wrap"}}>
         <button className="logo-candidate-vote" type="button" aria-pressed={voted} onClick={()=>void castVote(file,label,bg)} title="이 파일과 배경을 대표 이미지로 추천">{voted?"✓ 추천함":"👍 대표 추천"} {presentationVoteCount(votes,file,bg)||""}</button>
         {isAdmin && applicable && <button className="logo-candidate-apply" type="button" disabled={savingPresentation||selected} onClick={()=>void savePresentation(file,bg)}>{selected?"✓ 현재 대표":"대표로 지정"}</button>}
+        {isAdmin && !fixed && !file.startsWith('generated-dark:') && <button className="logo-candidate-apply" type="button" aria-pressed={variantReviews[file] === 'replace'} disabled={savingVariantReview === file} onClick={()=>void flagVariant(file)}>{variantReviews[file] === 'replace' ? '✓ 교체 검토 중' : '🚩 교체 필요'}</button>}
       </div>
     </div>;
   };

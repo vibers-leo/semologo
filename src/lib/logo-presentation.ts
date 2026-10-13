@@ -1,14 +1,16 @@
 import type { Brand } from './brands';
 import { CDN, VERSION } from './cdn';
-export type LogoPresentation = { file: string; bg: 'light' | 'dark' };
+export type LogoPresentation = { file: string; bg: 'light' | 'dark'; svgFile?: string };
 export function validPresentation(value: unknown): value is LogoPresentation {
   if (!value || typeof value !== 'object') return false;
   const p=value as LogoPresentation;
-  return typeof p.file==='string' && p.file.length<=240 && !p.file.split('/').includes('..') && /^(?:[A-Za-z0-9_-]+\/)*[A-Za-z0-9_.-]+\.png$/.test(p.file) && (p.bg==='light'||p.bg==='dark');
+  return typeof p.file==='string' && p.file.length<=240 && !p.file.split('/').includes('..') && /^(?:[A-Za-z0-9_-]+\/)*[A-Za-z0-9_.-]+\.png$/.test(p.file) && (p.bg==='light'||p.bg==='dark')
+    && (p.svgFile == null || (typeof p.svgFile === 'string' && p.svgFile.length <= 240 && !p.svgFile.split('/').includes('..') && /^(?:[A-Za-z0-9_-]+\/)*[A-Za-z0-9_.-]+\.svg$/.test(p.svgFile)));
 }
 export function applyPresentation(brand: Brand, value: unknown = brand.presentation): Brand {
   if (!validPresentation(value) || brand.rejected_asset_files?.includes(value.file)) return brand;
-  return {...brand,presentation:value,logo_png:value.file,has_png:true,preview_png:`${CDN}/${brand.id}/${value.file}?v=${VERSION}`,light:value.bg==='dark',light_logo:value.bg==='dark',dark_variant:false};
+  return {...brand,presentation:value,logo_png:value.file,has_png:true,preview_png:`${CDN}/${brand.id}/${value.file}?v=${VERSION}`,
+    ...(value.svgFile ? { svg_transparent: value.svgFile } : {}), light:value.bg==='dark',light_logo:value.bg==='dark',dark_variant:false};
 }
 
 /** Accept only PNG files owned by this brand on the configured CDN. */
