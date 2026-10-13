@@ -4,7 +4,7 @@ Usage: python3 scripts/build-semologo-linux-image.py --context CONTEXT
 Does not start a VM, change Docker's default context, or deploy to production.
 """
 from pathlib import Path
-import argparse, subprocess, tempfile, json, os, hashlib, tarfile
+import argparse, subprocess, tempfile, json, os, hashlib
 
 R=Path(__file__).resolve().parents[1]
 H=Path('/Volumes/HDD-1TB/semologo-migration')
@@ -40,12 +40,14 @@ artifacts=H/'task-tmp/prebuilt-images';artifacts.mkdir(parents=True,exist_ok=Tru
 with tempfile.TemporaryDirectory(prefix='semologo-context-',dir=H/'task-tmp') as temp:
     context=Path(temp);archive=context/'source.tar'
     subprocess.run(['git','archive','--format=tar','--output='+str(archive),sha],cwd=R,check=True)
-    with tarfile.open(archive) as tar:tar.extractall(context,filter='data')
-    archive.unlink()
+    # Docker accepts a tar build context on stdin. Avoid extracting thousands of
+    # tiny files onto the HDD, which can take much longer than the image build.
     # Pass public build settings through the client environment, never a secret file.
     command=docker+['buildx','build','--platform','linux/amd64','--load','--tag',tag,'--label','org.opencontainers.image.revision='+sha]
     for k in settings:command+=['--build-arg',k]
-    subprocess.run(command+[str(context)],env={**os.environ,**settings},check=True)
+    with archive.open('rb') as source:
+        subprocess.run(command+['-'],stdin=source,env={**os.environ,**settings},check=True)
+    archive.unlink()
     assert output(docker+['image','inspect',tag,'--format','{{.Os}}/{{.Architecture}}'])=='linux/amd64'
     target=artifacts/('semologo-'+sha[:12]+'.tar')
     subprocess.run(docker+['image','save','--output',str(target),tag],check=True)
