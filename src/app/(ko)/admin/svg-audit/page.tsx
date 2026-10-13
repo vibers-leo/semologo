@@ -15,6 +15,16 @@ const FILTERS = [
   ['existing-png-review', '기존 PNG 확인'], ['all', '전체'],
 ] as const;
 const LABELS: Record<Decision, string> = { replace: '교체 검토', recollect: '재수집 요청', keep: '문제 없음' };
+function reviewReason(item: Item) {
+  if (item.status === 'failed') return item.reason.includes('Empty rendering') ? '원본을 그릴 수 없어요. 재수집이 필요할 수 있어요.' : `처리 실패 · ${item.reason || '원본 확인 필요'}`;
+  if (item.status === 'existing-png-review') return '기존 PNG가 있어 자동 교체하지 않았어요.';
+  if (item.status === 'candidate-needs-review') return '배경 제거 결과를 안전하게 확인할 수 없어요.';
+  if (item.status === 'opaque-awaiting-review') return '불투명한 SVG예요. 배경 확인이 필요해요.';
+  if (item.reason.includes('Compound white canvas')) return '흰 배경과 로고가 한 경로에 섞여 있어요.';
+  if (item.reason.includes('External resource')) return '외부 파일을 참조하는 SVG예요.';
+  if (item.reason.includes('Raster wrapper')) return '삽입 이미지나 SVG 효과가 있어 수동 확인이 필요해요.';
+  return item.reason || '원본 확인이 필요해요.';
+}
 
 export default function SvgAuditAdminPage() {
   const [ready, setReady] = useState(false);
@@ -121,7 +131,7 @@ export default function SvgAuditAdminPage() {
                 onError={event => { if (!event.currentTarget.src.includes('/logo.png')) event.currentTarget.src = `${CDN}/${item.id}/logo.png`; }}/>
               <div style={{ minWidth: 0, flex: 1 }}><b style={{ fontSize: 13 }}>{item.name_ko || item.name_en || item.id}</b>
                 <div style={{ fontSize: 11, color: '#71717a', overflowWrap: 'anywhere' }}>{item.id}{file ? ` · ${file}` : ''}</div>
-                <div style={{ fontSize: 11, color: '#a1a1aa', margin: '3px 0 8px' }}>{item.reason || item.status}</div>
+                <div style={{ fontSize: 12, color: '#71717a', margin: '4px 0 9px' }}>{status === 'variants' ? '구성 이미지 교체 검토' : reviewReason(item)}</div>
                 {choices(item.id, item.review?.decision || null, file)}
                 <a href={`/brand/${encodeURIComponent(item.id)}/`} target="_blank" rel="noopener noreferrer" style={{ fontSize: 11, display: 'inline-block', marginTop: 8 }}>콘텐츠 보기 ↗</a>
               </div>
