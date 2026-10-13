@@ -128,3 +128,7 @@
 - 2026-10-13: 로컬 Linux 이미지 배포 및 초기 JS 68.5% 감소 검증. intro 캡처: `screenshots/20261013_intro/desktop.png`, `mobile.png`.
 
 - 2026-10-13: 카드 이미지 선로딩·모달 코드/구성 미리 준비 배포(d1f4caa). NBA/NHL 7개 구단 공식 투명본 대표 연결, 기존 구성 보존. intro 캡처: `screenshots/20261013_loading/{desktop,mobile}.png`.
+
+- 2026-10-13: 사이트맵·canonical·주요 내부 링크 최종 주소 통일 배포(0f3528f). 경량 자산 플래그 판정 수정. 실제 분할 XML 20개/362,776 URL 검증 PASS. Search Console sitemap-index.xml 제출 접수, 최초 처리 상태 확인 중. 근거: task-tmp/seo-verification-20261013.json.
+
+- 2026-10-13: Search Console sitemap-index.xml 제출·재제출 접수 및 Google 실제 가져오기 성공 확인. 보고서 상태는 가져올 수 없음/발견 0으로 남아 처리 결과 미확정. 배포 화면 캡처: `screenshots/20261013_seo/{desktop,mobile}.png`.

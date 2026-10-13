@@ -43,3 +43,7 @@ Google Search Console과 Naver Search Advisor에 `https://semologo.com/sitemap-i
 - Search Console 확인: 2026-10-09 보고서 기준 redirect 15,417, 전체 색인 37,215. 표시된 redirect 예시들은 끝 슬래시 없음. 정상 이전 URL 리디렉션은 유지.
 - 제출 대상: 기존 robots에 선언된 /sitemap-index.xml. 배포 후 XML·canonical·HTTP 200 확인 후 제출 예정.
 - 검증: scripts/check-sitemap-canonical.cjs (locale/query/hash/file exceptions, index children, slim fields, hidden/merged exclusion). 색인 결과는 Google 재크롤링 이후 확인 필요.
+
+배포 검증: DEPLOY OK, restarts=0. 분할 XML 20개와 전체 362,776 URL 형식/중복 검사 PASS. 대표 한·영 6페이지 HTTP 200 및 self canonical 확인. 현대자동차 최종 URL은 Search Console에서 색인됨 확인. sitemap-index.xml 제출 접수 후 최초 가져오기 상태는 추가 확인 중.
+
+Search Console 최종: 제출 접수됨. 14:39:39 실제 URL 테스트에서 크롤링 허용 및 가져오기 성공. 사이트맵 보고서는 아직 가져올 수 없음/발견 0으로 표시되어 Google 처리 결과는 미확정. 한 차례 재제출 접수. 자동 감시 예약 없음.
