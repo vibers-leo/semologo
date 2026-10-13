@@ -160,6 +160,11 @@ def main():
             time.sleep(0.05)
     db.close()
     print(json.dumps({'complete': True, 'published': done, 'failed': failed}), flush=True)
+    if failed or conflicts:
+        raise SystemExit(1)
+    (OUT / 'complete.json').write_text(json.dumps({'eligible': len(items),
+        'already_published': len(prior), 'published_this_run': done,
+        'protected': len(protected), 'completed_at': time.time()}) + '\n')
 
 def safe_publish(item, client):
     try: return publish(item, client)
