@@ -126,6 +126,7 @@ def main():
                     summary={'total_scope':len(rows),'recorded':len(done),'counts':counts}
                     temp=args.out/'summary.tmp';temp.write_text(json.dumps(summary,indent=2)+'\n');temp.replace(args.out/'summary.json')
                     print('Processed',index,'/',len(todo),flush=True)
+    counts={}
     for r in done.values(): counts[r['status']]=counts.get(r['status'],0)+1
     (args.out/'summary.json').write_text(json.dumps({'total_scope':len(rows),'recorded':len(done),'counts':counts},indent=2)+'\n');print(counts,flush=True)
 if __name__=='__main__':
