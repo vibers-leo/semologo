@@ -17,6 +17,17 @@ export interface BrandRelation {
  * - 연관: 동일 브랜드 다른 로고 또는 계열 관계
  */
 export const BRAND_RELATIONS: Record<string, BrandRelation[]> = {
+  // Nike family: service groups; collected logo dates remain unconfirmed.
+  "nike": [
+    {relatedId:"nike-golf",type:"연관",note:"Nike Golf 로고 모음"},
+    {relatedId:"nike-com",type:"연관",note:"Nike.com 로고 모음"},
+    {relatedId:"nike-ipod",type:"연관",note:"Nike+iPod 로고 모음"},
+    {relatedId:"nike-football",type:"연관",note:"Nike Football 로고 모음"},
+  ],
+  "nike-golf": [{relatedId:"nike",type:"연관",note:"나이키 기본 로고"}],
+  "nike-com": [{relatedId:"nike",type:"연관",note:"나이키 기본 로고"}],
+  "nike-ipod": [{relatedId:"nike",type:"연관",note:"나이키 기본 로고"}],
+  "nike-football": [{relatedId:"nike",type:"연관",note:"나이키 기본 로고"}],
 
   // 부산상수도사업본부가 공개한 CI·캐릭터·제품 브랜드를 한 묶음으로 탐색
   "busan-water-authority": [

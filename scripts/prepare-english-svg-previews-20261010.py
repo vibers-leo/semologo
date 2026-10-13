@@ -6,6 +6,17 @@ ROOT = Path(__file__).resolve().parents[1]
 spec = importlib.util.spec_from_file_location('background_audit', ROOT/'scripts/audit-svg-backgrounds.py')
 audit = importlib.util.module_from_spec(spec); spec.loader.exec_module(audit)
 
+def bounded_render(src,dst,size):
+    # prepare runs in an isolated process, never a shared MuPDF thread. Reusing
+    # that process avoids reimporting the renderer for every small SVG on HDD.
+    import signal
+    def timeout(signum,frame): raise TimeoutError('SVG rendering exceeded 120 seconds')
+    previous=signal.signal(signal.SIGALRM,timeout)
+    signal.alarm(120)
+    try: render(src,dst,size)
+    finally:
+        signal.alarm(0);signal.signal(signal.SIGALRM,previous)
+
 def prepare(job):
     row, source, dest, size, fetch = job
     ident = row['id']; folder = dest/'items'/ident
@@ -36,38 +47,61 @@ def prepare(job):
             try: os.link(path,original)
             except OSError: original.write_bytes(raw)
         # MuPDF preserves aspect ratio; a child process bounds pathological rendering time.
-        subprocess.run([os.sys.executable,__file__,'--render',str(folder/'original.svg'),str(folder/'preview.png'),str(size)],check=True,timeout=30,capture_output=True)
+        bounded_render(str(folder/'original.svg'),str(folder/'preview.png'),size)
         from PIL import Image
         im=Image.open(folder/'preview.png').convert('RGBA')
         if not im.getbbox(): raise ValueError('Empty rendering')
         result={'id':ident,'status':'native-alpha-rendered','source_sha256':hashlib.sha256(raw).hexdigest(),'preview_sha256':hashlib.sha256((folder/'preview.png').read_bytes()).hexdigest(),'width':im.width,'height':im.height,'has_transparency':im.getextrema()[3][0]<255,'background_elements':len(backgrounds),'file':str((folder/'preview.png').relative_to(ROOT))}
         if backgrounds:
+            # The shared rectangle scanner stops at the first close command.
+            # A later subpath may contain white letters/holes merged by SVGO;
+            # removing that whole element would erase part of the actual logo.
+            if any(audit.E.QName(el).localname=='path' and
+                   (len(re.findall(r'[Mm]',el.get('d','')))!=1 or
+                    re.search(r'[Zz].*[^\s,]',el.get('d','').strip()))
+                   for el in backgrounds):
+                result.update(status='manual-review',reason='Compound white canvas also contains artwork; original white glyphs preserved, no background removal')
+                return result
             # Full-canvas white may be an intentional flag/badge; never auto approve.
             for el in backgrounds: el.getparent().remove(el)
             cleaned=audit.E.tostring(tree)
             (folder/'candidate-transparent.svg').write_bytes(cleaned)
-            subprocess.run([os.sys.executable,__file__,'--render',str(folder/'candidate-transparent.svg'),str(folder/'candidate-transparent.png'),str(size)],check=True,timeout=30,capture_output=True)
+            bounded_render(str(folder/'candidate-transparent.svg'),str(folder/'candidate-transparent.png'),size)
             candidate=Image.open(folder/'candidate-transparent.png').convert('RGBA')
             if not candidate.getbbox(): raise ValueError('Background removal erased artwork')
             result.update(status='background-removal-awaiting-review', candidate_file=str((folder/'candidate-transparent.png').relative_to(ROOT)), candidate_sha256=hashlib.sha256((folder/'candidate-transparent.png').read_bytes()).hexdigest(), candidate_width=candidate.width, candidate_height=candidate.height, candidate_has_transparency=candidate.getextrema()[3][0]<255)
         elif not result['has_transparency']: result['status']='opaque-awaiting-review'
         return result
     except Exception as e:
-        return {'id':ident,'status':'failed','error':str(e)[:180]}
+        detail=getattr(e,'stderr',b'')
+        if isinstance(detail,bytes): detail=detail.decode('utf-8','replace')
+        return {'id':ident,'status':'failed','error':str(e)[:500],'stderr':detail[-1200:],'error_type':type(e).__name__}
 
 def render(src,dst,size):
-    im=audit.render(Path(src).read_bytes(),int(size))
+    raw=Path(src).read_bytes()
+    im=audit.render(raw,int(size))
+    if not im.getbbox():
+        # MuPDF does not paint some valid SVG switch groups. Keep source untouched
+        # and use a second SVG renderer; every result still awaits visual review.
+        import cairosvg,io
+        from PIL import Image
+        png=cairosvg.svg2png(bytestring=raw,output_width=im.width,output_height=im.height)
+        im=Image.open(io.BytesIO(png)).convert('RGBA')
     # Keep tightly fitted artwork dimensions; never stretch to square.
     box=im.getbbox()
     if box: im=im.crop(box)
     im.save(dst,optimize=True)
 
 def main():
-    ap=argparse.ArgumentParser();ap.add_argument('--catalog',default=str(ROOT/'marketing/assets/collection-coverage/catalog.json'));ap.add_argument('--source',required=True,type=Path);ap.add_argument('--out',type=Path,default=ROOT/'marketing/assets/english-svg-preview-20261010');ap.add_argument('--limit',type=int,default=0);ap.add_argument('--workers',type=int,default=4);ap.add_argument('--size',type=int,default=640);ap.add_argument('--manifest-only',action='store_true');ap.add_argument('--retry',action='store_true');ap.add_argument('--fetch',action='store_true',help='Fetch missing originals to explicit HDD source cache');args=ap.parse_args()
+    ap=argparse.ArgumentParser();ap.add_argument('--catalog',default=str(ROOT/'marketing/assets/collection-coverage/catalog.json'));ap.add_argument('--source',required=True,type=Path);ap.add_argument('--out',type=Path,default=ROOT/'marketing/assets/english-svg-preview-20261010');ap.add_argument('--limit',type=int,default=0);ap.add_argument('--workers',type=int,default=4);ap.add_argument('--size',type=int,default=640);ap.add_argument('--manifest-only',action='store_true');ap.add_argument('--retry',action='store_true');ap.add_argument('--all-svg',action='store_true',help='Audit every visible SVG catalog entry, not only the original English import');ap.add_argument('--fetch',action='store_true',help='Fetch missing originals to explicit HDD source cache');args=ap.parse_args()
+    args.out=args.out.resolve();args.source=args.source.resolve()
     args.out.mkdir(parents=True,exist_ok=True)
-    rows=[r for r in json.loads(Path(args.catalog).read_text()) if r.get('origin')=='GLOBAL' and r.get('has_svg') and r.get('added_at')=='2026-09-18']
+    import fcntl
+    lock=(args.out/'.prepare.lock').open('w')
+    fcntl.flock(lock,fcntl.LOCK_EX|fcntl.LOCK_NB)
+    rows=[r for r in json.loads(Path(args.catalog).read_text()) if r.get('has_svg') and (not r.get('hidden') and not r.get('variant_of') and not r.get('merged_into')) and (args.all_svg or (r.get('origin')=='GLOBAL' and r.get('added_at')=='2026-09-18'))]
     rows.sort(key=lambda r:r.get('seq',0),reverse=True)
-    manifest={'scope':'Entire 2026-09-18 GLOBAL SVG import, reverse original sequence from ZZN through A; includes digit and non-Latin names.','total':len(rows),'missing_png_flags':sum(not r.get('has_png') for r in rows),'items':rows}
+    manifest={'scope':'All visible SVG catalog identities; existing import results reused' if args.all_svg else 'Entire 2026-09-18 GLOBAL SVG import, reverse original sequence from ZZN through A; includes digit and non-Latin names.','total':len(rows),'missing_png_flags':sum(not r.get('has_png') for r in rows),'items':rows}
     (args.out/'scope.json').write_text(json.dumps(manifest,ensure_ascii=False)+'\n')
     if args.manifest_only: print(json.dumps({k:v for k,v in manifest.items() if k!='items'}));return
     progress=args.out/'progress.jsonl';done={}
@@ -78,7 +112,7 @@ def main():
     todo=[r for r in rows if r['id'] not in done or (args.retry and done[r['id']]['status'] in ('failed','source-missing'))]
     if args.limit: todo=todo[:args.limit]
     counts={}; print('Queued',len(todo),'previously recorded',len(done),flush=True)
-    with progress.open('a') as log,concurrent.futures.ThreadPoolExecutor(max_workers=args.workers) as pool:
+    with progress.open('a') as log,concurrent.futures.ProcessPoolExecutor(max_workers=args.workers,max_tasks_per_child=256) as pool:
         index=0
         # Bound queued futures so the full 129k scope does not consume a second large heap.
         for start in range(0,len(todo),256):

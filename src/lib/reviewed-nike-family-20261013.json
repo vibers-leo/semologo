@@ -1,0 +1,885 @@
+{
+  "patches": {
+    "nike--src-a11f159": {
+      "hidden": true,
+      "variant_of": "nike",
+      "merged_into": "nike",
+      "hidden_reason": "동일 브랜드의 수집 버전을 대표 콘텐츠 구성으로 통합"
+    },
+    "nike-8": {
+      "hidden": true,
+      "variant_of": "nike",
+      "merged_into": "nike",
+      "hidden_reason": "동일 브랜드의 수집 버전을 대표 콘텐츠 구성으로 통합"
+    },
+    "nike-5": {
+      "hidden": true,
+      "variant_of": "nike",
+      "merged_into": "nike",
+      "hidden_reason": "동일 브랜드의 수집 버전을 대표 콘텐츠 구성으로 통합"
+    },
+    "nike-4-2": {
+      "hidden": true,
+      "variant_of": "nike",
+      "merged_into": "nike",
+      "hidden_reason": "동일 브랜드의 수집 버전을 대표 콘텐츠 구성으로 통합"
+    },
+    "nike-9": {
+      "hidden": true,
+      "variant_of": "nike",
+      "merged_into": "nike",
+      "hidden_reason": "동일 브랜드의 수집 버전을 대표 콘텐츠 구성으로 통합"
+    },
+    "nike-3-1": {
+      "hidden": true,
+      "variant_of": "nike",
+      "merged_into": "nike",
+      "hidden_reason": "동일 브랜드의 수집 버전을 대표 콘텐츠 구성으로 통합"
+    },
+    "nike-2": {
+      "hidden": true,
+      "variant_of": "nike",
+      "merged_into": "nike",
+      "hidden_reason": "동일 브랜드의 수집 버전을 대표 콘텐츠 구성으로 통합"
+    },
+    "nike-9-1": {
+      "hidden": true,
+      "variant_of": "nike",
+      "merged_into": "nike",
+      "hidden_reason": "동일 브랜드의 수집 버전을 대표 콘텐츠 구성으로 통합"
+    },
+    "nike-8--src-7f74d2f": {
+      "hidden": true,
+      "variant_of": "nike",
+      "merged_into": "nike",
+      "hidden_reason": "동일 브랜드의 수집 버전을 대표 콘텐츠 구성으로 통합"
+    },
+    "nike-8-1": {
+      "hidden": true,
+      "variant_of": "nike",
+      "merged_into": "nike",
+      "hidden_reason": "동일 브랜드의 수집 버전을 대표 콘텐츠 구성으로 통합"
+    },
+    "nike-6": {
+      "hidden": true,
+      "variant_of": "nike",
+      "merged_into": "nike",
+      "hidden_reason": "동일 브랜드의 수집 버전을 대표 콘텐츠 구성으로 통합"
+    },
+    "nike": {
+      "name_ko": "나이키",
+      "name_en": "Nike",
+      "category": "스포츠",
+      "aliases": [
+        "nike",
+        "nike--src-a11f159",
+        "nike-8",
+        "nike-5",
+        "nike-4-2",
+        "nike-9",
+        "nike-3-1",
+        "nike-2",
+        "nike-9-1",
+        "nike-8--src-7f74d2f",
+        "nike-8-1",
+        "nike-6",
+        "나이키",
+        "Nike",
+        "NIKE",
+        "Swoosh",
+        "스우시",
+        "JUST",
+        "DO",
+        "IT"
+      ],
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": "sources/family-review-20261013/bafb08923ddd2d4ca56d/transparent.svg",
+      "svg_transparent": "sources/family-review-20261013/bafb08923ddd2d4ca56d/transparent.svg",
+      "logo_png": "sources/family-review-20261013/14d97a37dd86f44c28b8/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/nike/sources/family-review-20261013/24628d3009e2bf016168/preview.png",
+      "presentation": {
+        "file": "sources/family-review-20261013/24628d3009e2bf016168/preview.png",
+        "bg": "light"
+      },
+      "light": false,
+      "light_logo": false,
+      "dark_variant": false,
+      "variants_n": 10,
+      "asset_review_status": "verified",
+      "icon_png": "sources/family-review-20261013/1e24c81dc7d6c4194307/icon.png"
+    },
+    "nike-golf-1": {
+      "hidden": true,
+      "variant_of": "nike-golf",
+      "merged_into": "nike-golf",
+      "hidden_reason": "동일 브랜드의 수집 버전을 대표 콘텐츠 구성으로 통합"
+    },
+    "nike-golf-2": {
+      "hidden": true,
+      "variant_of": "nike-golf",
+      "merged_into": "nike-golf",
+      "hidden_reason": "동일 브랜드의 수집 버전을 대표 콘텐츠 구성으로 통합"
+    },
+    "nike-golf-3": {
+      "hidden": true,
+      "variant_of": "nike-golf",
+      "merged_into": "nike-golf",
+      "hidden_reason": "동일 브랜드의 수집 버전을 대표 콘텐츠 구성으로 통합"
+    },
+    "nike-golf": {
+      "name_ko": "나이키 골프",
+      "name_en": "Nike Golf",
+      "category": "스포츠",
+      "aliases": [
+        "nike-golf",
+        "nike-golf-1",
+        "nike-golf-2",
+        "nike-golf-3",
+        "나이키 골프",
+        "Nike Golf"
+      ],
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": "sources/family-review-20261013/3ab9ce147ba519f7efa4/transparent.svg",
+      "svg_transparent": "sources/family-review-20261013/3ab9ce147ba519f7efa4/transparent.svg",
+      "logo_png": "sources/family-review-20261013/e4c028c0c03e3b1eb5d4/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/nike-golf/sources/family-review-20261013/7f3a0ae6c968a4783f73/preview.png",
+      "presentation": {
+        "file": "sources/family-review-20261013/7f3a0ae6c968a4783f73/preview.png",
+        "bg": "light"
+      },
+      "light": false,
+      "light_logo": false,
+      "dark_variant": false,
+      "variants_n": 5,
+      "asset_review_status": "verified"
+    },
+    "nike-com": {
+      "name_ko": "나이키 닷컴",
+      "name_en": "Nike.com",
+      "category": "스포츠",
+      "aliases": [
+        "nike-com",
+        "나이키 닷컴",
+        "Nike.com"
+      ],
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": "sources/family-review-20261013/2cde8926f13ec3a6e739/transparent.svg",
+      "svg_transparent": "sources/family-review-20261013/2cde8926f13ec3a6e739/transparent.svg",
+      "logo_png": "sources/family-review-20261013/b531a505dc2819c182d4/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/nike-com/sources/family-review-20261013/d5910944896e2a5c4f79/preview.png",
+      "presentation": {
+        "file": "sources/family-review-20261013/d5910944896e2a5c4f79/preview.png",
+        "bg": "light"
+      },
+      "light": false,
+      "light_logo": false,
+      "dark_variant": false,
+      "variants_n": 2,
+      "asset_review_status": "verified"
+    },
+    "logo-of-nike-ipod": {
+      "hidden": true,
+      "variant_of": "nike-ipod",
+      "merged_into": "nike-ipod",
+      "hidden_reason": "동일 브랜드의 수집 버전을 대표 콘텐츠 구성으로 통합"
+    },
+    "nike-ipod": {
+      "name_ko": "나이키+iPod",
+      "name_en": "Nike+iPod",
+      "category": "스포츠",
+      "aliases": [
+        "logo-of-nike-ipod",
+        "나이키+iPod",
+        "Nike+iPod"
+      ],
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": "sources/family-review-20261013/0853167768874f3ba125/transparent.svg",
+      "svg_transparent": "sources/family-review-20261013/0853167768874f3ba125/transparent.svg",
+      "logo_png": "sources/family-review-20261013/7f6a85319292ea3eca27/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/nike-ipod/sources/family-review-20261013/6ff3a38425adf8ea5d84/preview.png",
+      "presentation": {
+        "file": "sources/family-review-20261013/6ff3a38425adf8ea5d84/preview.png",
+        "bg": "light"
+      },
+      "light": false,
+      "light_logo": false,
+      "dark_variant": false,
+      "variants_n": 2,
+      "asset_review_status": "verified"
+    },
+    "nike-football-1": {
+      "hidden": true,
+      "variant_of": "nike-football",
+      "merged_into": "nike-football",
+      "hidden_reason": "동일 브랜드의 수집 버전을 대표 콘텐츠 구성으로 통합"
+    },
+    "nikefootball-com": {
+      "hidden": true,
+      "variant_of": "nike-football",
+      "merged_into": "nike-football",
+      "hidden_reason": "동일 브랜드의 수집 버전을 대표 콘텐츠 구성으로 통합"
+    },
+    "nike-football": {
+      "name_ko": "나이키 풋볼",
+      "name_en": "Nike Football",
+      "category": "스포츠",
+      "aliases": [
+        "nike-football",
+        "nike-football-1",
+        "nikefootball-com",
+        "나이키 풋볼",
+        "Nike Football"
+      ],
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": "sources/family-review-20261013/b2303e636b5031699728/transparent.svg",
+      "svg_transparent": "sources/family-review-20261013/b2303e636b5031699728/transparent.svg",
+      "logo_png": "sources/family-review-20261013/85c9897430aa36b8e075/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/nike-football/sources/family-review-20261013/019778aa03206b1f2a3d/preview.png",
+      "presentation": {
+        "file": "sources/family-review-20261013/019778aa03206b1f2a3d/preview.png",
+        "bg": "light"
+      },
+      "light": false,
+      "light_logo": false,
+      "dark_variant": false,
+      "variants_n": 3,
+      "asset_review_status": "verified"
+    },
+    "techniker-krankenkasse-1": {
+      "hidden": true,
+      "variant_of": "techniker-krankenkasse",
+      "merged_into": "techniker-krankenkasse",
+      "hidden_reason": "동일 브랜드의 수집 버전을 대표 콘텐츠 구성으로 통합"
+    },
+    "techniker-krankenkasse": {
+      "name_ko": "테크니커 크랑켄카세",
+      "name_en": "Techniker Krankenkasse",
+      "category": "금융·결제",
+      "aliases": [
+        "techniker-krankenkasse-1",
+        "테크니커 크랑켄카세",
+        "Techniker Krankenkasse"
+      ],
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": "sources/family-review-20261013/6909a3ebffc3fca66542/transparent.svg",
+      "svg_transparent": "sources/family-review-20261013/6909a3ebffc3fca66542/transparent.svg",
+      "logo_png": "sources/family-review-20261013/af7afd499d2ad8049c51/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/techniker-krankenkasse/sources/family-review-20261013/e8f711c8baba9298c0cc/preview.png",
+      "presentation": {
+        "file": "sources/family-review-20261013/e8f711c8baba9298c0cc/preview.png",
+        "bg": "light"
+      },
+      "light": false,
+      "light_logo": false,
+      "dark_variant": false,
+      "variants_n": 2,
+      "asset_review_status": "verified"
+    },
+    "omnikey": {
+      "name_ko": "옴니키",
+      "name_en": "OMNIKEY",
+      "category": "브랜드",
+      "aliases": [
+        "omnikey",
+        "옴니키",
+        "OMNIKEY"
+      ],
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": "sources/family-review-20261013/72b185fd08ead4da4e37/transparent.svg",
+      "svg_transparent": "sources/family-review-20261013/72b185fd08ead4da4e37/transparent.svg",
+      "logo_png": "sources/family-review-20261013/e2274b2667c36bee280c/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/omnikey/sources/family-review-20261013/42052cccfe87d932ab14/preview.png",
+      "presentation": {
+        "file": "sources/family-review-20261013/42052cccfe87d932ab14/preview.png",
+        "bg": "light"
+      },
+      "light": false,
+      "light_logo": false,
+      "dark_variant": false,
+      "variants_n": 1,
+      "asset_review_status": "verified"
+    },
+    "chernikeeff-6157": {
+      "hidden": true,
+      "variant_of": "chernikeeff",
+      "merged_into": "chernikeeff",
+      "hidden_reason": "동일 브랜드의 수집 버전을 대표 콘텐츠 구성으로 통합"
+    },
+    "chernikeeff": {
+      "name_ko": "체르니키프",
+      "name_en": "Chernikeeff",
+      "category": "브랜드",
+      "aliases": [
+        "chernikeeff",
+        "chernikeeff-6157",
+        "체르니키프",
+        "Chernikeeff"
+      ],
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": "sources/family-review-20261013/07b6db191622a26c0405/transparent.svg",
+      "svg_transparent": "sources/family-review-20261013/07b6db191622a26c0405/transparent.svg",
+      "logo_png": "sources/family-review-20261013/52a6bd5823f52f44d0a0/logo.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/chernikeeff/sources/family-review-20261013/478b59088d4b4013dbe2/preview.png",
+      "presentation": {
+        "file": "sources/family-review-20261013/478b59088d4b4013dbe2/preview.png",
+        "bg": "light"
+      },
+      "light": false,
+      "light_logo": false,
+      "dark_variant": false,
+      "variants_n": 1,
+      "asset_review_status": "verified"
+    },
+    "nike-7": {
+      "hidden": true,
+      "hidden_reason": "U.S. Air Force 표장으로 보이며 나이키 소속 근거 미확인"
+    },
+    "nike-11": {
+      "hidden": true,
+      "hidden_reason": "Swoosh 일부처럼 보이는 도형 · 완전한 로고 원본 검수 대기"
+    },
+    "nike-react-2": {
+      "hidden": true,
+      "hidden_reason": "원본 뷰박스에서 글자가 잘린 상태 · 별도 검수 대기"
+    },
+    "nike-acg": {
+      "name_ko": "나이키 ACG",
+      "category": "스포츠"
+    },
+    "nike-shox": {
+      "name_ko": "나이키 Shox",
+      "category": "스포츠"
+    },
+    "nike-town": {
+      "name_ko": "나이키타운",
+      "category": "스포츠"
+    },
+    "nike-factory-store": {
+      "name_ko": "나이키 팩토리 스토어",
+      "category": "스포츠"
+    },
+    "nike-tennis": {
+      "name_ko": "나이키 테니스",
+      "category": "스포츠"
+    },
+    "nike-1": {
+      "name_ko": "나이키 농구",
+      "category": "스포츠"
+    },
+    "nike-720": {
+      "name_ko": "나이키 Air 720",
+      "category": "스포츠"
+    },
+    "nike-270": {
+      "name_ko": "나이키 Air 270",
+      "category": "스포츠"
+    },
+    "nike-200": {
+      "name_ko": "나이키 Air 200",
+      "category": "스포츠"
+    }
+  },
+  "variants": {
+    "nike": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "nike",
+      "primary": "reviewed-7334c32bcd52",
+      "fingerprint": {
+        "logo.svg": "e95b810a5fde269c",
+        "sources/si.svg": "e95b810a5fde269c",
+        "sources/apparel-collection/nike.svg": "96b8554611275469",
+        "sources/apparel-collection/nike-golf.svg": "93bb13694559b4a1",
+        "sources/apparel-collection/nike-com.svg": "dee340f33533946f"
+      },
+      "variants": [
+        {
+          "key": "reviewed-7334c32bcd52",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "original",
+          "label": "Swoosh · 기본 심볼",
+          "files": {
+            "svg": "sources/family-review-20261013/bafb08923ddd2d4ca56d/transparent.svg",
+            "png": "sources/family-review-20261013/14d97a37dd86f44c28b8/logo.png"
+          },
+          "preview_png": "sources/family-review-20261013/24628d3009e2bf016168/preview.png",
+          "original_svg": "sources/family-review-20261013/bafb08923ddd2d4ca56d/original.svg",
+          "provider": "보유 SVG · 배경 검수 · 제작 시기 미확인",
+          "origin": "collected",
+          "order": 0
+        },
+        {
+          "key": "reviewed-469fe6589cd8",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "original",
+          "label": "NIKE 글자 + Swoosh · 오렌지",
+          "files": {
+            "svg": "sources/family-review-20261013/bff0072f501b70a9389d/transparent.svg",
+            "png": "sources/family-review-20261013/c707050fc6f18cbd6b51/logo.png"
+          },
+          "preview_png": "sources/family-review-20261013/b2ba8e0017ad1c4c074b/preview.png",
+          "original_svg": "sources/family-review-20261013/bff0072f501b70a9389d/original.svg",
+          "provider": "보유 SVG · 배경 검수 · 제작 시기 미확인",
+          "origin": "collected",
+          "order": 1
+        },
+        {
+          "key": "reviewed-3329f907962c",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "original",
+          "label": "NIKE + Swoosh + JUST DO IT. · 조합형",
+          "files": {
+            "svg": "sources/family-review-20261013/7dc7f69b8cb51d5ed000/transparent.svg",
+            "png": "sources/family-review-20261013/5c1ca6ae7c52d68e8267/logo.png"
+          },
+          "preview_png": "sources/family-review-20261013/bd44e9a8329be53254b6/preview.png",
+          "original_svg": "sources/family-review-20261013/7dc7f69b8cb51d5ed000/original.svg",
+          "provider": "보유 SVG · 배경 검수 · 제작 시기 미확인",
+          "origin": "collected",
+          "order": 2,
+          "also_collected_from": [
+            "nike-8--src-7f74d2f",
+            "nike-8-1"
+          ]
+        },
+        {
+          "key": "reviewed-ec85e605cfcd",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "original",
+          "label": "타원형 Swoosh · 흰 심볼 보존",
+          "files": {
+            "svg": "sources/family-review-20261013/fcac625828a48d85db5c/transparent.svg",
+            "png": "sources/family-review-20261013/7d546173f01a37a866ab/logo.png"
+          },
+          "preview_png": "sources/family-review-20261013/a743bd9fe8bd34fbbe84/preview.png",
+          "original_svg": "sources/family-review-20261013/c7aca36f9d81e32852e9/original.svg",
+          "provider": "보유 SVG · 배경 검수 · 제작 시기 미확인",
+          "origin": "derived",
+          "order": 3
+        },
+        {
+          "key": "reviewed-e931b066a516",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "original",
+          "label": "Swoosh · 수집 심볼 버전",
+          "files": {
+            "svg": "sources/family-review-20261013/deba669dae0fb4491380/transparent.svg",
+            "png": "sources/family-review-20261013/6940d4e6d73cc4141965/logo.png"
+          },
+          "preview_png": "sources/family-review-20261013/e8264e0470a734be2cfa/preview.png",
+          "original_svg": "sources/family-review-20261013/4b36e897243add5ddc5c/original.svg",
+          "provider": "보유 SVG · 배경 검수 · 제작 시기 미확인",
+          "origin": "derived",
+          "order": 4
+        },
+        {
+          "key": "reviewed-32e662a34c90",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "original",
+          "label": "NIKE + Swoosh · 레트로 컬러",
+          "files": {
+            "svg": "sources/family-review-20261013/15a6726db3cba9cc8e81/transparent.svg",
+            "png": "sources/family-review-20261013/95eb319556452a49e880/logo.png"
+          },
+          "preview_png": "sources/family-review-20261013/0a30b2df8a10cfead4f6/preview.png",
+          "original_svg": "sources/family-review-20261013/15a6726db3cba9cc8e81/original.svg",
+          "provider": "보유 SVG · 배경 검수 · 제작 시기 미확인",
+          "origin": "collected",
+          "order": 5
+        },
+        {
+          "key": "reviewed-a666384f3484",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "original",
+          "label": "NIKE 글자 + Swoosh · 검정",
+          "files": {
+            "svg": "sources/family-review-20261013/803c65ec2284f262e555/transparent.svg",
+            "png": "sources/family-review-20261013/ebd0baad80af92430d65/logo.png"
+          },
+          "preview_png": "sources/family-review-20261013/4493ff99c88faca5d1c8/preview.png",
+          "original_svg": "sources/family-review-20261013/78747057fe53892a39f0/original.svg",
+          "provider": "보유 SVG · 배경 검수 · 제작 시기 미확인",
+          "origin": "derived",
+          "order": 6
+        },
+        {
+          "key": "reviewed-5d73d935d226",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "original",
+          "label": "JUST DO IT. · 슬로건",
+          "files": {
+            "svg": "sources/family-review-20261013/a6d312c260c2c47ec8c0/transparent.svg",
+            "png": "sources/family-review-20261013/dfdcc652474d2bf16708/logo.png"
+          },
+          "preview_png": "sources/family-review-20261013/99932974924dea70cf0b/preview.png",
+          "original_svg": "sources/family-review-20261013/ca071aa7e894adb1beba/original.svg",
+          "provider": "보유 SVG · 배경 검수 · 제작 시기 미확인",
+          "origin": "derived",
+          "order": 7
+        },
+        {
+          "key": "reviewed-5ea40f8f4b4c",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "original",
+          "label": "nike 9 1 · 수집 버전",
+          "files": {
+            "svg": "sources/family-review-20261013/a986d0206467187befaf/transparent.svg",
+            "png": "sources/family-review-20261013/95eb319556452a49e880/logo.png"
+          },
+          "preview_png": "sources/family-review-20261013/0a30b2df8a10cfead4f6/preview.png",
+          "original_svg": "sources/family-review-20261013/a986d0206467187befaf/original.svg",
+          "provider": "보유 SVG · 배경 검수 · 제작 시기 미확인",
+          "origin": "collected",
+          "order": 8
+        },
+        {
+          "key": "reviewed-7dda19d5b1d4",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "original",
+          "label": "Swoosh · 골드",
+          "files": {
+            "svg": "sources/family-review-20261013/26c5c7a24e696ee7d0c2/transparent.svg",
+            "png": "sources/family-review-20261013/873602203684384a12a7/logo.png"
+          },
+          "preview_png": "sources/family-review-20261013/51fe71e9298b05ba7aec/preview.png",
+          "original_svg": "sources/family-review-20261013/26c5c7a24e696ee7d0c2/original.svg",
+          "provider": "보유 SVG · 배경 검수 · 제작 시기 미확인",
+          "origin": "collected",
+          "order": 9
+        }
+      ]
+    },
+    "nike-golf": {
+      "schema": 1,
+      "id": "nike-golf",
+      "variants": [
+        {
+          "key": "reviewed-352163183a1d",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "original",
+          "label": "Nike Golf · NIKE 글자 + Swoosh",
+          "files": {
+            "svg": "sources/family-review-20261013/3ab9ce147ba519f7efa4/transparent.svg",
+            "png": "sources/family-review-20261013/e4c028c0c03e3b1eb5d4/logo.png"
+          },
+          "preview_png": "sources/family-review-20261013/7f3a0ae6c968a4783f73/preview.png",
+          "original_svg": "sources/family-review-20261013/12b07908d6b8d519e408/original.svg",
+          "provider": "보유 SVG · 배경 검수 · 제작 시기 미확인",
+          "origin": "derived",
+          "order": 0
+        },
+        {
+          "key": "reviewed-704aa049c00c",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "original",
+          "label": "Nike Golf · 가로 워드마크",
+          "files": {
+            "svg": "sources/family-review-20261013/df7af88cf3ad2c6fa9d9/transparent.svg",
+            "png": "sources/family-review-20261013/2078ecc8c02cf2ec4388/logo.png"
+          },
+          "preview_png": "sources/family-review-20261013/7d5b0faf7a8659e4e6b9/preview.png",
+          "original_svg": "sources/family-review-20261013/0fecb91e7d1d5ce2b7c8/original.svg",
+          "provider": "보유 SVG · 배경 검수 · 제작 시기 미확인",
+          "origin": "derived",
+          "order": 1
+        },
+        {
+          "key": "reviewed-6b232e91d469",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "original",
+          "label": "Nike Golf · 회색 배경 버전",
+          "files": {
+            "svg": "sources/family-review-20261013/9c69946cd8a312104d96/transparent.svg",
+            "png": "sources/family-review-20261013/e909f042f1b892bda441/logo.png"
+          },
+          "preview_png": "sources/family-review-20261013/1b194026cc6d6a79c404/preview.png",
+          "original_svg": "sources/family-review-20261013/9c69946cd8a312104d96/original.svg",
+          "provider": "보유 SVG · 배경 검수 · 제작 시기 미확인",
+          "origin": "collected",
+          "order": 2
+        },
+        {
+          "key": "reviewed-f3e3f9a6c9c8",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "original",
+          "label": "Nike Golf · 클럽 방패 심볼",
+          "files": {
+            "svg": "sources/family-review-20261013/824ad7008d292c412a37/transparent.svg",
+            "png": "sources/family-review-20261013/85c39797a681fb7c2009/logo.png"
+          },
+          "preview_png": "sources/family-review-20261013/a0440e3ad4c5a4d57140/preview.png",
+          "original_svg": "sources/family-review-20261013/f2c7f292705358ce59cf/original.svg",
+          "provider": "보유 SVG · 배경 검수 · 제작 시기 미확인",
+          "origin": "derived",
+          "order": 3
+        },
+        {
+          "key": "reviewed-2d48361a9b60",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "original",
+          "label": "기존 나이키 콘텐츠에서 이동 · Nike Golf",
+          "files": {
+            "svg": "sources/family-review-20261013/67f767b15683e4a225ab/transparent.svg",
+            "png": "sources/family-review-20261013/6c02778aaadde651c695/logo.png"
+          },
+          "preview_png": "sources/family-review-20261013/3ecd7087cc5e144211f3/preview.png",
+          "original_svg": "sources/family-review-20261013/67f767b15683e4a225ab/original.svg",
+          "provider": "보유 SVG · 배경 검수 · 제작 시기 미확인",
+          "origin": "collected",
+          "order": 4
+        }
+      ],
+      "primary": "reviewed-352163183a1d"
+    },
+    "nike-com": {
+      "schema": 1,
+      "id": "nike-com",
+      "variants": [
+        {
+          "key": "reviewed-2d1826b767e4",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "original",
+          "label": "Nike.com · 보라색 바탕 워드마크",
+          "files": {
+            "svg": "sources/family-review-20261013/2cde8926f13ec3a6e739/transparent.svg",
+            "png": "sources/family-review-20261013/b531a505dc2819c182d4/logo.png"
+          },
+          "preview_png": "sources/family-review-20261013/d5910944896e2a5c4f79/preview.png",
+          "original_svg": "sources/family-review-20261013/2cde8926f13ec3a6e739/original.svg",
+          "provider": "보유 SVG · 배경 검수 · 제작 시기 미확인",
+          "origin": "collected",
+          "order": 0
+        },
+        {
+          "key": "reviewed-8de626eff057",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "original",
+          "label": "기존 나이키 콘텐츠에서 이동 · Nike.com",
+          "files": {
+            "svg": "sources/family-review-20261013/7e81d0368c62ed3ed95f/transparent.svg",
+            "png": "sources/family-review-20261013/8213096ef55b26582738/logo.png"
+          },
+          "preview_png": "sources/family-review-20261013/1dfdc63fdf56c8d6adf0/preview.png",
+          "original_svg": "sources/family-review-20261013/7e81d0368c62ed3ed95f/original.svg",
+          "provider": "보유 SVG · 배경 검수 · 제작 시기 미확인",
+          "origin": "collected",
+          "order": 1
+        }
+      ],
+      "primary": "reviewed-2d1826b767e4"
+    },
+    "nike-ipod": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "nike-ipod",
+      "primary": "reviewed-1c9f5461e926",
+      "fingerprint": {
+        "logo.svg": "2486cb5041e22c7f"
+      },
+      "variants": [
+        {
+          "key": "horizontal",
+          "form": "horizontal",
+          "lang": "unknown",
+          "color": "mono-dark",
+          "label": "가로조합형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 2.854,
+          "provider": "wikimedia",
+          "origin": "collected",
+          "order": 0
+        },
+        {
+          "key": "reviewed-1c9f5461e926",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "original",
+          "label": "Nike+iPod · Swoosh + 플러스",
+          "files": {
+            "svg": "sources/family-review-20261013/0853167768874f3ba125/transparent.svg",
+            "png": "sources/family-review-20261013/7f6a85319292ea3eca27/logo.png"
+          },
+          "preview_png": "sources/family-review-20261013/6ff3a38425adf8ea5d84/preview.png",
+          "original_svg": "sources/family-review-20261013/0853167768874f3ba125/original.svg",
+          "provider": "보유 SVG · 배경 검수 · 제작 시기 미확인",
+          "origin": "collected",
+          "order": 1
+        }
+      ]
+    },
+    "nike-football": {
+      "schema": 1,
+      "id": "nike-football",
+      "variants": [
+        {
+          "key": "reviewed-adced80789cb",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "original",
+          "label": "Nike Football · 스콜피온 · 검정 배경",
+          "files": {
+            "svg": "sources/family-review-20261013/b2303e636b5031699728/transparent.svg",
+            "png": "sources/family-review-20261013/85c9897430aa36b8e075/logo.png"
+          },
+          "preview_png": "sources/family-review-20261013/019778aa03206b1f2a3d/preview.png",
+          "original_svg": "sources/family-review-20261013/b2303e636b5031699728/original.svg",
+          "provider": "보유 SVG · 배경 검수 · 제작 시기 미확인",
+          "origin": "collected",
+          "order": 0
+        },
+        {
+          "key": "reviewed-f7e7f1687b9b",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "original",
+          "label": "Nike Football · 스콜피온 · 검정",
+          "files": {
+            "svg": "sources/family-review-20261013/b031c5dc937715b60ec8/transparent.svg",
+            "png": "sources/family-review-20261013/66e81e11b9df4888c777/logo.png"
+          },
+          "preview_png": "sources/family-review-20261013/341205d8a50908bad679/preview.png",
+          "original_svg": "sources/family-review-20261013/14cca031eb922bf19150/original.svg",
+          "provider": "보유 SVG · 배경 검수 · 제작 시기 미확인",
+          "origin": "derived",
+          "order": 1
+        },
+        {
+          "key": "reviewed-666ae694a8df",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "original",
+          "label": "NikeFootball.com · 조합형",
+          "files": {
+            "svg": "sources/family-review-20261013/e9e12689c6633f67fe24/transparent.svg",
+            "png": "sources/family-review-20261013/cdbaa1e0ed3875778448/logo.png"
+          },
+          "preview_png": "sources/family-review-20261013/9ec80508a23ff9bfc92a/preview.png",
+          "original_svg": "sources/family-review-20261013/fa3fb5bb985084a52ad0/original.svg",
+          "provider": "보유 SVG · 배경 검수 · 제작 시기 미확인",
+          "origin": "derived",
+          "order": 2
+        }
+      ],
+      "primary": "reviewed-adced80789cb"
+    },
+    "techniker-krankenkasse": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "techniker-krankenkasse",
+      "primary": "reviewed-89ace40574b6",
+      "fingerprint": {
+        "logo.svg": "13c7579eafa82d1f"
+      },
+      "variants": [
+        {
+          "key": "symbol",
+          "form": "symbol",
+          "lang": "unknown",
+          "color": "color",
+          "label": "심볼형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 1.0,
+          "provider": "wikimedia",
+          "origin": "collected",
+          "order": 0
+        },
+        {
+          "key": "reviewed-89ace40574b6",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "original",
+          "label": "TK · 심볼 + 영문 조합형",
+          "files": {
+            "svg": "sources/family-review-20261013/6909a3ebffc3fca66542/transparent.svg",
+            "png": "sources/family-review-20261013/af7afd499d2ad8049c51/logo.png"
+          },
+          "preview_png": "sources/family-review-20261013/e8f711c8baba9298c0cc/preview.png",
+          "original_svg": "sources/family-review-20261013/c1d6eb5d2f64fce6b486/original.svg",
+          "provider": "보유 SVG · 배경 검수 · 제작 시기 미확인",
+          "origin": "derived",
+          "order": 1
+        }
+      ]
+    },
+    "omnikey": {
+      "schema": 1,
+      "id": "omnikey",
+      "variants": [
+        {
+          "key": "reviewed-0e4df36a7282",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "original",
+          "label": "OMNIKEY · 심볼 + 워드마크",
+          "files": {
+            "svg": "sources/family-review-20261013/72b185fd08ead4da4e37/transparent.svg",
+            "png": "sources/family-review-20261013/e2274b2667c36bee280c/logo.png"
+          },
+          "preview_png": "sources/family-review-20261013/42052cccfe87d932ab14/preview.png",
+          "original_svg": "sources/family-review-20261013/b656ff969bd0bb80f42a/original.svg",
+          "provider": "보유 SVG · 배경 검수 · 제작 시기 미확인",
+          "origin": "derived",
+          "order": 0
+        }
+      ],
+      "primary": "reviewed-0e4df36a7282"
+    },
+    "chernikeeff": {
+      "schema": 1,
+      "id": "chernikeeff",
+      "variants": [
+        {
+          "key": "reviewed-80d041eee76e",
+          "form": "unknown",
+          "lang": "unknown",
+          "color": "original",
+          "label": "Chernikeeff · 로고 조합형",
+          "files": {
+            "svg": "sources/family-review-20261013/07b6db191622a26c0405/transparent.svg",
+            "png": "sources/family-review-20261013/52a6bd5823f52f44d0a0/logo.png"
+          },
+          "preview_png": "sources/family-review-20261013/478b59088d4b4013dbe2/preview.png",
+          "original_svg": "sources/family-review-20261013/ade4b4bf1ef8b0756761/original.svg",
+          "provider": "보유 SVG · 배경 검수 · 제작 시기 미확인",
+          "origin": "derived",
+          "order": 0,
+          "also_collected_from": [
+            "chernikeeff-6157"
+          ]
+        }
+      ],
+      "primary": "reviewed-80d041eee76e"
+    }
+  }
+}

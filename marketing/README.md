@@ -132,3 +132,5 @@
 - 2026-10-13: 사이트맵·canonical·주요 내부 링크 최종 주소 통일 배포(0f3528f). 경량 자산 플래그 판정 수정. 실제 분할 XML 20개/362,776 URL 검증 PASS. Search Console sitemap-index.xml 제출 접수, 최초 처리 상태 확인 중. 근거: task-tmp/seo-verification-20261013.json.
 
 - 2026-10-13: Search Console sitemap-index.xml 제출·재제출 접수 및 Google 실제 가져오기 성공 확인. 보고서 상태는 가져올 수 없음/발견 0으로 남아 처리 결과 미확정. 배포 화면 캡처: `screenshots/20261013_seo/{desktop,mobile}.png`.
+
+- 2026-10-13: 나이키 기본 로고 10개 구성, Nike Golf/Nike.com/Nike+iPod/Nike Football 분리 및 중복 통합 준비. 화면의 TK·OMNIKEY·Chernikeeff 흰 배경 검수. 공개 전 SVG 원본·고해상도 PNG·CDN 해시 확인. 전체 SVG 174,619개 진단을 재개하고 기존 95,793개 기록 재사용, 자동 공개 없음.
