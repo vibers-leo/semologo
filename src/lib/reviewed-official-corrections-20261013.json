@@ -1,0 +1,211 @@
+{
+  "patches": {
+    "cj-onstyle": {
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": "sources/official-correction-20261013/d5cb3fa160d3d17949e0.svg",
+      "svg_transparent": "sources/official-correction-20261013/d5cb3fa160d3d17949e0.svg",
+      "logo_png": "sources/official-correction-20261013/cf1a32b0688f8fa155d2.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/cj-onstyle/sources/official-correction-20261013/cf1a32b0688f8fa155d2.png",
+      "presentation": {
+        "file": "sources/official-correction-20261013/cf1a32b0688f8fa155d2.png",
+        "bg": "light"
+      },
+      "light": false,
+      "light_logo": false,
+      "variants_n": 1,
+      "rejected_asset_files": [
+        "logo.svg",
+        "logo-icon.png",
+        "logo-transparent.png",
+        "logo-white.png",
+        "logo-800.png",
+        "logo.png"
+      ],
+      "asset_checked_at": "2026-10-13"
+    },
+    "samsungena": {
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": "sources/official-correction-20261013/182b7c71c6ea99c4e634.svg",
+      "svg_transparent": "sources/official-correction-20261013/182b7c71c6ea99c4e634.svg",
+      "logo_png": "sources/official-correction-20261013/a0a38c433114be6ac14f.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/samsungena/sources/official-correction-20261013/a0a38c433114be6ac14f.png",
+      "presentation": {
+        "file": "sources/official-correction-20261013/a0a38c433114be6ac14f.png",
+        "bg": "light"
+      },
+      "light": false,
+      "light_logo": false,
+      "variants_n": 1,
+      "rejected_asset_files": [
+        "logo.svg",
+        "logo-icon.png",
+        "logo-transparent.png",
+        "logo-white.png",
+        "logo-800.png",
+        "logo.png"
+      ],
+      "asset_checked_at": "2026-10-13"
+    },
+    "lg-chem": {
+      "name_ko": "LG화학",
+      "name_en": "LG Chem",
+      "category": "에너지·화학",
+      "aliases": [
+        "LG Chem",
+        "LG화학",
+        "엘지화학",
+        "LG化学"
+      ],
+      "logo_svg": "sources/official-lgchem-20261013/23573baeef24f897cbee.svg",
+      "svg_transparent": "sources/official-lgchem-20261013/23573baeef24f897cbee.svg",
+      "logo_png": "sources/official-lgchem-20261013/e9d8d123501c4eb240cb.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/lg-chem/sources/official-lgchem-20261013/e9d8d123501c4eb240cb.png",
+      "presentation": {
+        "file": "sources/official-lgchem-20261013/e9d8d123501c4eb240cb.png",
+        "bg": "light"
+      },
+      "has_svg": true,
+      "has_png": true,
+      "light": false,
+      "light_logo": false,
+      "variants_n": 5,
+      "asset_checked_at": "2026-10-13",
+      "logo_published_at": "2026-10-13T14:10:00Z"
+    },
+    "lgchem": {
+      "hidden": true,
+      "variant_of": "lg-chem",
+      "merged_into": "lg-chem"
+    }
+  },
+  "variants": {
+    "cj-onstyle": {
+      "schema": 1,
+      "id": "cj-onstyle",
+      "primary": "official-wordmark",
+      "variants": [
+        {
+          "key": "official-wordmark",
+          "label": "공식 로고타입",
+          "form": "wordmark",
+          "provider": "사용자 제공 공식 원본",
+          "files": {
+            "svg": "sources/official-correction-20261013/d5cb3fa160d3d17949e0.svg",
+            "png": "sources/official-correction-20261013/cf1a32b0688f8fa155d2.png"
+          },
+          "original_ai": "sources/official-correction-20261013/08dcb332610b74ae6847.ai",
+          "order": 0
+        }
+      ]
+    },
+    "samsungena": {
+      "schema": 1,
+      "id": "samsungena",
+      "primary": "official-wordmark",
+      "variants": [
+        {
+          "key": "official-wordmark",
+          "label": "공식 로고타입",
+          "form": "wordmark",
+          "provider": "사용자 제공 공식 원본",
+          "files": {
+            "svg": "sources/official-correction-20261013/182b7c71c6ea99c4e634.svg",
+            "png": "sources/official-correction-20261013/a0a38c433114be6ac14f.png"
+          },
+          "original_ai": null,
+          "order": 0
+        }
+      ]
+    },
+    "lg-chem": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "lg-chem",
+      "primary": "official-ko",
+      "fingerprint": {
+        "logo.svg": "66c68a31e059813c"
+      },
+      "variants": [
+        {
+          "key": "wordmark",
+          "form": "wordmark",
+          "lang": "unknown",
+          "color": "color",
+          "label": "심볼+워드마크 (가로형)",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 4.663,
+          "provider": "wikimedia",
+          "origin": "collected",
+          "order": 10
+        },
+        {
+          "key": "symbol",
+          "form": "symbol",
+          "lang": "none",
+          "color": "color",
+          "label": "심볼만",
+          "files": {
+            "svg": "variants/symbol.svg",
+            "png": "variants/symbol-512.png"
+          },
+          "aspect": null,
+          "provider": "derived:autocrop",
+          "origin": "derived",
+          "order": 30,
+          "derived_from": "logo.svg",
+          "confidence": 1
+        },
+        {
+          "key": "official-zh",
+          "label": "중문 공식 가로조합형",
+          "form": "horizontal",
+          "lang": "zh",
+          "files": {
+            "svg": "sources/official-lgchem-20261013/6cfb0176fd65bd0301f4.svg",
+            "png": "sources/official-lgchem-20261013/ee8c15c503d21901a807.png"
+          },
+          "original_ai": "sources/official-lgchem-20261013/bc125c1699b7ed9b6bf3.ai",
+          "origin": "official",
+          "provider": "사용자 제공 LG화학 공식 AI 원본",
+          "aspect": 3.6968576709796674,
+          "order": -3
+        },
+        {
+          "key": "official-ko",
+          "label": "국문 공식 가로조합형",
+          "form": "horizontal",
+          "lang": "ko",
+          "files": {
+            "svg": "sources/official-lgchem-20261013/23573baeef24f897cbee.svg",
+            "png": "sources/official-lgchem-20261013/e9d8d123501c4eb240cb.png"
+          },
+          "original_ai": "sources/official-lgchem-20261013/5127339e7acdb43efa5d.ai",
+          "origin": "official",
+          "provider": "사용자 제공 LG화학 공식 AI 원본",
+          "aspect": 3.6832412523020257,
+          "order": -2
+        },
+        {
+          "key": "official-en",
+          "label": "영문 공식 가로조합형",
+          "form": "horizontal",
+          "lang": "en",
+          "files": {
+            "svg": "sources/official-lgchem-20261013/82f820336d3f0f2b6873.svg",
+            "png": "sources/official-lgchem-20261013/4badfb69a055c5a406a7.png"
+          },
+          "original_ai": "sources/official-lgchem-20261013/021246b2fb018612702c.ai",
+          "origin": "official",
+          "provider": "사용자 제공 LG화학 공식 AI 원본",
+          "aspect": 4.566210045662101,
+          "order": -1
+        }
+      ]
+    }
+  }
+}
