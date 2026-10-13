@@ -1,6 +1,6 @@
 import Header from "@/components/Header";
 import { languageAlternates } from "@/lib/locales";
-export const metadata = {title: "Frequently asked questions | SemoLogo", description: "Learn about logo formats, Illustrator compatibility and saved logos on SemoLogo.", alternates: {canonical: "/en/faq", languages: languageAlternates("/faq")}};
+export const metadata = {title: "Frequently asked questions | SemoLogo", description: "Learn about logo formats, Illustrator compatibility and saved logos on SemoLogo.", alternates: {canonical: "/en/faq/", languages: languageAlternates("/faq")}};
 const questions = [
   ["What is SemoLogo?", "SemoLogo is a searchable collection of brand logos. Available downloads vary by brand and include SVG vectors and PNG images."],
   ["Can I use the logos commercially?", "The logos belong to their respective brands. Check the brand’s usage guidelines and obtain any required permission for your intended use."],

@@ -34,9 +34,9 @@ export default function Footer() {
                   </a>
                 </p>
                 <div style={{ display: "flex", gap: 12, fontSize: 11 }}>
-                  <Link href="/terms" style={{ color: "#71717a", textDecoration: "none" }}><T>{"이용약관"}</T></Link>
+                  <Link href="/terms/" style={{ color: "#71717a", textDecoration: "none" }}><T>{"이용약관"}</T></Link>
                   <span style={{ color: "#3f3f46" }}>|</span>
-                  <Link href="/privacy" style={{ color: "#71717a", textDecoration: "none" }}><T>{"개인정보처리방침"}</T></Link>
+                  <Link href="/privacy/" style={{ color: "#71717a", textDecoration: "none" }}><T>{"개인정보처리방침"}</T></Link>
                 </div>
                 <div>
                   <button
@@ -81,8 +81,8 @@ export default function Footer() {
           <span style={{ fontSize: 12, color: "#52525b", whiteSpace: "nowrap" }}>
             © {YEAR}{" "}<T>{"주식회사 계발자들 · 세모로고"}</T></span>
           <div style={{ display: "flex", alignItems: "center", gap: 16, flexWrap: "wrap", rowGap: 6 }}>
-            <Link href="/submit" style={{ fontSize: 12, color: "#71717a", textDecoration: "none", whiteSpace: "nowrap" }}><T>{"로고 제보"}</T></Link>
-            <Link href="/request" style={{ fontSize: 12, color: "#71717a", textDecoration: "none", whiteSpace: "nowrap" }}><T>{"로고 요청"}</T></Link>
+            <Link href="/submit/" style={{ fontSize: 12, color: "#71717a", textDecoration: "none", whiteSpace: "nowrap" }}><T>{"로고 제보"}</T></Link>
+            <Link href="/request/" style={{ fontSize: 12, color: "#71717a", textDecoration: "none", whiteSpace: "nowrap" }}><T>{"로고 요청"}</T></Link>
             <button
               onClick={() => setOpen(o => !o)}
               style={{ display: "flex", alignItems: "center", gap: 4, fontSize: 12, color: "#a1a1aa", background: "none", border: "none", cursor: "pointer", padding: 0, whiteSpace: "nowrap" }}>

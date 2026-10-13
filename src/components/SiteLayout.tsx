@@ -27,7 +27,7 @@ export async function siteMetadata(locale: Locale = "ko"): Promise<Metadata> {
     title: copy.title,
     description: copy.description,
     keywords: ["로고", "브랜드로고", "SVG 로고", "PNG 로고", "로고 다운로드", "기업 로고", "무료 로고", "세모로고", "semologo", "로고창고", "로고모음", "AI 로고 다운로드", "일러스트 로고"],
-    alternates: { canonical: locale === "en" ? "/en" : "/", languages: { ko: "/", en: "/en", "x-default": "/" } },
+    alternates: { canonical: locale === "en" ? "/en/" : "/", languages: { ko: "/", en: "/en/", "x-default": "/" } },
     other: {
       "naver-site-verification": "f8377ea94a22905671d864f6c08c3e9ea3a1d368",
     },

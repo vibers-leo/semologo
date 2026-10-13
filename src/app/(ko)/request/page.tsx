@@ -324,7 +324,7 @@ export default function RequestPage() {
 
         <div className="mt-10 pt-6 border-t text-center text-xs" style={{ borderColor: "var(--border)", color: "var(--text-secondary)" }}>
           로고를 이미 갖고 계신가요?{" "}
-          <Link href="/submit" style={{ color: "#6366f1", textDecoration: "none" }}>로고 제보하기 →</Link>
+          <Link href="/submit/" style={{ color: "#6366f1", textDecoration: "none" }}>로고 제보하기 →</Link>
         </div>
       </main>
     </div>

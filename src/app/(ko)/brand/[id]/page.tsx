@@ -115,7 +115,7 @@ export async function renderBrandPage(
       itemListElement: [
         { "@type": "ListItem", position: 1, name: "세모로고", item: BASE },
         { "@type": "ListItem", position: 2, name: "브랜드 로고", item: `${BASE}/logo-collection` },
-        { "@type": "ListItem", position: 3, name: brand.name_ko, item: `${BASE}/brand/${brand.id}` },
+        { "@type": "ListItem", position: 3, name: brand.name_ko, item: BASE + localePath(`/brand/${encodeURIComponent(brand.id)}`, locale) },
       ],
     },
     {

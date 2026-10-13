@@ -35,3 +35,11 @@ robots.txt·sitemap-index.xml·favicon·검색엔진 인증 태그는 기존 설
 Google Search Console과 Naver Search Advisor에 `https://semologo.com/sitemap-index.xml`을 제출한다. 신규 대량 수집 뒤에는 사이트맵 HTTP 200, 분할 파일 20,000개 이하, 대표 신규 URL의 200 응답을 확인한다.
 
 2026-10-12 OG 디자인 조정: 기존 로고 콜라주 스타일 복원, 한국어·영문 OG revision 20261012b. 메타 설명과 181,228개 스냅샷 유지.
+
+## 2026-10-13 canonical 및 사이트맵 정비
+
+- Next trailingSlash:true에 맞춰 localePath·언어 대체 주소·주요 내부 링크·사이트맵 loc을 최종 경로로 통일. 파일 확장자와 .well-known 예외 유지.
+- 분할 사이트맵이 has_svg/has_png 경량 필드를 인식하도록 수정. hidden/variant_of/merged_into는 제외.
+- Search Console 확인: 2026-10-09 보고서 기준 redirect 15,417, 전체 색인 37,215. 표시된 redirect 예시들은 끝 슬래시 없음. 정상 이전 URL 리디렉션은 유지.
+- 제출 대상: 기존 robots에 선언된 /sitemap-index.xml. 배포 후 XML·canonical·HTTP 200 확인 후 제출 예정.
+- 검증: scripts/check-sitemap-canonical.cjs (locale/query/hash/file exceptions, index children, slim fields, hidden/merged exclusion). 색인 결과는 Google 재크롤링 이후 확인 필요.

@@ -1063,7 +1063,7 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
               </form>
             )}
             {/* 새 로고 제보 링크 */}
-            <Link href="/submit" style={{ display:"flex", alignItems:"center", justifyContent:"center", gap:5, marginTop:8, padding:"8px 0", borderRadius:8, fontSize:11, fontWeight:500, color:"#6366f1", border:"1px solid rgba(99,102,241,.25)", background:"rgba(99,102,241,.05)", textDecoration:"none" }}><T>{"➕ 새 브랜드 로고 제보하기"}</T></Link>
+            <Link href="/submit/" style={{ display:"flex", alignItems:"center", justifyContent:"center", gap:5, marginTop:8, padding:"8px 0", borderRadius:8, fontSize:11, fontWeight:500, color:"#6366f1", border:"1px solid rgba(99,102,241,.25)", background:"rgba(99,102,241,.05)", textDecoration:"none" }}><T>{"➕ 새 브랜드 로고 제보하기"}</T></Link>
           </div>
 
           {/* 광고 슬롯 — 환경변수가 없으면 통째로 렌더되지 않는다.

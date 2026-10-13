@@ -161,7 +161,7 @@ export default function Header() {
               </Link>
             ))}
             {user?.email === ADMIN_EMAIL && (
-              <Link href="/admin"
+              <Link href="/admin/"
                 className="text-sm px-2 py-1.5 rounded-lg transition-colors hover:bg-gray-100"
                 style={{ color: "#a1a1aa", fontSize: 11 }}><T>{"관리"}</T></Link>
             )}
@@ -212,7 +212,7 @@ export default function Header() {
                     </Link>
                   ))}
                   {user?.email === ADMIN_EMAIL && (
-                    <Link href="/admin" onClick={() => setMenuOpen(false)}
+                    <Link href="/admin/" onClick={() => setMenuOpen(false)}
                       className="block px-4 py-3 text-xs hover:bg-gray-50 transition-colors"
                       style={{ color: "#a1a1aa" }}><T>{"관리"}</T></Link>
                   )}
