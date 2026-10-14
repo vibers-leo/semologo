@@ -5,7 +5,9 @@ import { notFound } from 'next/navigation';
 import { collectionMembers, collectionProgress } from '@/lib/collection-progress';
 export const dynamic = 'force-dynamic';
 export default async function Page({ params, searchParams }: { params: Promise<{id: string}>; searchParams: Promise<{status?: string}> }) {
-  const {id} = await params;
+  const {id: routeId} = await params;
+  let id: string;
+  try { id = decodeURIComponent(routeId); } catch { notFound(); }
   const collection = (await collectionProgress()).find(c => c.id === id);
   if (!collection) notFound();
   const filter=(await searchParams).status;
