@@ -1,0 +1,140 @@
+{
+  "patches": {
+    "dribbble": {
+      "name_ko": "Dribbble",
+      "name_en": "Dribbble",
+      "logo_svg": "sources/official-refresh-20261014/728a3c412c39160f6987.svg",
+      "svg_transparent": "sources/official-refresh-20261014/728a3c412c39160f6987.svg",
+      "logo_png": "sources/official-refresh-20261014/fd2fb1e6d8ed1b2b9e06.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/dribbble/sources/official-refresh-20261014/fd2fb1e6d8ed1b2b9e06.png",
+      "has_svg": true,
+      "has_png": true,
+      "light": false,
+      "light_logo": false,
+      "dark_variant": false,
+      "presentation": {
+        "file": "sources/official-refresh-20261014/fd2fb1e6d8ed1b2b9e06.png",
+        "bg": "light",
+        "svgFile": "sources/official-refresh-20261014/728a3c412c39160f6987.svg"
+      },
+      "variants_n": 2,
+      "logo_published_at": "2026-10-14T10:15:00Z",
+      "official_source_page": "https://dribbble.com/media-kit",
+      "asset_origin": "Dribbble 공식 미디어 키트",
+      "asset_review_status": "verified"
+    },
+    "wikileaks": {
+      "name_ko": "위키리크스",
+      "name_en": "WikiLeaks",
+      "category": "미디어·엔터",
+      "logo_svg": "",
+      "svg_transparent": "",
+      "logo_png": "sources/official-refresh-20261014/022d00ea109f315bc2a4.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/wikileaks/sources/official-refresh-20261014/022d00ea109f315bc2a4.png",
+      "has_svg": false,
+      "has_png": true,
+      "light": false,
+      "light_logo": false,
+      "dark_variant": false,
+      "presentation": {
+        "file": "sources/official-refresh-20261014/022d00ea109f315bc2a4.png",
+        "bg": "light"
+      },
+      "variants_n": 2,
+      "logo_published_at": "2026-10-14T10:14:00Z",
+      "homepage": "https://wikileaks.org/",
+      "official_source_page": "https://wikileaks.org/",
+      "asset_origin": "WikiLeaks 공식 사이트 현재 헤더 이미지",
+      "asset_review_status": "verified"
+    }
+  },
+  "variants": {
+    "dribbble": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "dribbble",
+      "primary": "official-wordmark",
+      "variants": [
+        {
+          "key": "official-wordmark",
+          "form": "wordmark",
+          "lockup": "wordmark",
+          "lang": "en",
+          "color": "original",
+          "label": "Dribbble 공식 글자형 · 투명 배경",
+          "files": {
+            "svg": "sources/official-refresh-20261014/728a3c412c39160f6987.svg",
+            "png": "sources/official-refresh-20261014/fd2fb1e6d8ed1b2b9e06.png"
+          },
+          "provider": "Dribbble",
+          "origin": "collected",
+          "official": true,
+          "order": 0,
+          "source_url": "https://cdn.dribbble.com/uploads/48952/original/636122d76554288248eec64ad170fd2a.zip?1693371020="
+        },
+        {
+          "key": "official-symbol",
+          "form": "symbol",
+          "lockup": "symbol",
+          "lang": "none",
+          "color": "original",
+          "label": "Dribbble 공식 공 심볼 · 투명 배경",
+          "files": {
+            "svg": "sources/official-refresh-20261014/c64f0efd2d9ddd118a0b.svg",
+            "png": "sources/official-refresh-20261014/b882b6ff5e876fe31f2d.png"
+          },
+          "provider": "Dribbble",
+          "origin": "collected",
+          "official": true,
+          "order": 1,
+          "source_url": "https://cdn.dribbble.com/uploads/48952/original/636122d76554288248eec64ad170fd2a.zip?1693371020="
+        }
+      ]
+    },
+    "wikileaks": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "wikileaks",
+      "primary": "official-site-vertical",
+      "variants": [
+        {
+          "key": "official-site-vertical",
+          "form": "vertical",
+          "lockup": "vertical",
+          "lang": "en",
+          "color": "original",
+          "label": "현재 공식 사이트 로고 · PNG 원본",
+          "files": {
+            "png": "sources/official-refresh-20261014/022d00ea109f315bc2a4.png"
+          },
+          "provider": "WikiLeaks",
+          "origin": "collected",
+          "official": true,
+          "order": 0,
+          "source_url": "https://wikileaks.org/static/img/wl-logo.png",
+          "png_width": 213,
+          "png_height": 500
+        },
+        {
+          "key": "archive-2008-vector",
+          "form": "vertical",
+          "lockup": "vertical",
+          "lang": "en",
+          "color": "original",
+          "label": "2008년 로고 벡터 · 아카이브",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "provider": "Wikimedia Commons",
+          "origin": "archive",
+          "order": 1,
+          "source_url": "https://commons.wikimedia.org/wiki/File:Wikileaks_logo.svg",
+          "source_note": "CC BY-SA 3.0 · 기존 로고는 현재 공식 사이트 대표 이미지와 다름"
+        }
+      ]
+    }
+  },
+  "source_kind": "official-brand-pages",
+  "snapshot_date": "2026-10-14"
+}
