@@ -9,7 +9,7 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
-SOURCE = Path("/tmp/chungnam-horizontal.svg")
+SOURCE = ROOT / "marketing/assets/user-identities-20261010/south-chungcheong/ko-horizontal.svg"
 OUT = ROOT / "marketing/assets/south-chungcheong-wordmark-20261014"
 INKSCAPE = "/Applications/Inkscape.app/Contents/MacOS/inkscape"
 EXPECTED_SOURCE = "2f0286bd133606f0"
