@@ -3,6 +3,7 @@ Run only after visual review and recording excluded candidates in publish-review
 """
 import json,shutil,datetime,importlib.util
 from pathlib import Path
+from logo_variant_enrichment import merge_variant, coverage
 ROOT=Path(__file__).resolve().parents[1];W=ROOT/'artifacts/ai-svg-collection';C=Path('/Volumes/Untitled/brand-logos/_clients')
 def main():
  report=json.loads((W/'publish-review.json').read_text());rows=report['approved'];date=datetime.date.today().isoformat()
@@ -28,8 +29,8 @@ def main():
    for p in [src,src.with_suffix('.png')]:
     target=d/p.relative_to(W/'stage'/bid);backup(target);target.parent.mkdir(parents=True,exist_ok=True);shutil.copy2(p,target);files.add(str(target.relative_to(C)))
    key=r['provider']+'-'+Path(rel).stem;label=('Lobe Icons' if r['provider']=='lobe' else 'SVGL')+' · '+('워드마크' if r['form']=='wordmark' else '심볼' if r['form']=='symbol' else '가로형')
-   item=dict(key=key,form=r['form'],lang='unknown',color='color',label=label,files=dict(svg=rel,png=str(Path(rel).with_suffix('.png'))),aspect=r['aspect'],provider=r['provider'],origin='collected',order=100+len(v['variants']))
-   v['variants']=[x for x in v['variants'] if x['key']!=key]+[item]
+   item=dict(key=key,form=r['form'],lang='unknown',color='color',label=label,files=dict(svg=rel,png=str(Path(rel).with_suffix('.png'))),aspect=r['aspect'],provider=r['provider'],origin='collected',order=100+len(v['variants']),source_sha256=r['sha256'],visual_sha256=r['visual_sha256'])
+   merge_variant(v,item)
    if not v['primary']:v['primary']=key
    source=dict(provider=r['provider'],file=rel,label=label,source_url=r['website'],collected_at=date,upstream_commit=report['upstreams']['lobe-icons' if r['provider']=='lobe' else 'svgl'],current_status='upstream-current; brand redesign date not asserted')
    b['sources']=[x for x in b.get('sources',[]) if x.get('file')!=rel]+[source]
@@ -39,10 +40,13 @@ def main():
     shutil.copy2(src.with_suffix(suffix),d/name);files.add(str((d/name).relative_to(C)))
    v['primary']=primary['provider']+'-'+Path(primary['rel']).stem
   save(d/'brand.json',b,True);save(vp,v,True)
+  grouped[bid] = coverage(v)
   idx['brands'][bid]={'n':len(v['variants']),'forms':sorted({x['form'] for x in v['variants']})}
  idx['count']=len(idx['brands']);save(C/'variants-index.json',idx);save(C/'brands.json',catalog)
  spec=importlib.util.spec_from_file_location('slim',C.parent/'scripts/build-slim.py');mod=importlib.util.module_from_spec(spec);spec.loader.exec_module(mod);save(C/'brands-slim.json',mod.build())
  visible=[b for b in catalog['brands'] if not b.get('hidden') and not b.get('variant_of')]
  save(C/'stats.json',dict(total=len(catalog['brands']),visible=len(visible),svg=sum(bool(b.get('logo_svg') or b.get('has_svg')) for b in visible),kr=sum(b.get('origin')=='KR' for b in visible)))
- (W/'upload-files.json').write_text(json.dumps(sorted(files),indent=2));print('prepared',len(rows),'variants',len(grouped),'brands',len(files),'files')
+ (W/'upload-files.json').write_text(json.dumps(sorted(files),indent=2))
+ (W/'composition-coverage.json').write_text(json.dumps(list(grouped.values()),ensure_ascii=False,indent=2)+'\n')
+ print('prepared',len(rows),'variants',len(grouped),'brands',len(files),'files')
 if __name__=='__main__':main()

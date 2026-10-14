@@ -1,6 +1,7 @@
 """Prepare one manifest per club from reviewed NBA/NHL official assets."""
 from pathlib import Path
 import json,subprocess,hashlib,datetime,unicodedata,re,concurrent.futures
+from logo_variant_enrichment import merge_variant, coverage
 R=Path(__file__).resolve().parents[1];D=R/'marketing/assets/sports-expansion-20261012';O=D/'release';O.mkdir(exist_ok=True)
 rows={r['id']:r for f in ['sports-cms-20261012.json','sports-expanded-cms-20261012.json']for r in json.loads((Path('/Volumes/HDD-1TB/semologo-migration/task-tmp')/f).read_text())}
 ko_nhl=['캐롤라이나 허리케인스','베이거스 골든나이츠','뉴욕 레인저스','에드먼턴 오일러스','탬파베이 라이트닝','애너하임 덕스','오타와 세너터스','시애틀 크라켄','유타 매머드','보스턴 브루인스','미네소타 와일드','위니펙 제츠','토론토 메이플리프스','피츠버그 펭귄스','콜로라도 애벌랜치','워싱턴 캐피털스','내슈빌 프레더터스','플로리다 팬서스','산호세 샤크스','댈러스 스타스','세인트루이스 블루스','몬트리올 캐네이디언스','뉴저지 데블스','콜럼버스 블루재키츠','뉴욕 아일런더스','버펄로 세이버스','밴쿠버 커넉스','디트로이트 레드윙스','로스앤젤레스 킹스','시카고 블랙호크스','필라델피아 플라이어스','캘거리 플레임스']
@@ -29,7 +30,7 @@ def prepare(t):
  files={};uploads=[]
  for ext,fn in [('svg','original.svg'),('png','logo.png'),('preview','preview.png')]:
   p=D/t['league']/t['code']/fn;sha=hashlib.sha256(p.read_bytes()).hexdigest();file='sources/official-sports-20261012/'+sha[:20]+p.suffix;files[ext]=file;uploads.append({'id':id,'file':str(p.relative_to(R)),'key':'_clients/'+id+'/'+file,'sha256':sha})
- key='official-'+t['league']+'-20261012';m['variants'].append({'key':key,'label':t['league'].upper()+' 공식 구단 마크 · 제작 시기 미확인','form':'symbol','lang':'unknown','color':'original','files':{k:files[k]for k in ['svg','png']},'preview_png':files['preview'],'source_url':t['source_url'],'origin':'official','official_distribution':True,'order':len(m['variants'])})
+ key='official-'+t['league']+'-20261012';merge_variant(m,{'key':key,'label':t['league'].upper()+' 공식 구단 마크 · 제작 시기 미확인','form':'symbol','lang':'unknown','color':'original','files':{k:files[k]for k in ['svg','png']},'preview_png':files['preview'],'source_url':t['source_url'],'origin':'official','official_distribution':True,'order':len(m['variants']),'source_sha256':hashlib.sha256((D/t['league']/t['code']/'original.svg').read_bytes()).hexdigest()})
  patch={'variants_n':len(m['variants']),'logo_published_at':datetime.datetime.now(datetime.timezone.utc).isoformat(),'aliases':[t['ko'],t['name'],t['league'].upper(),'아이스하키'if t['league']=='nhl'else'농구']}
  if not old:
   m['primary']=key;patch.update(id=id,name_ko=t['ko'],name_en=t['name'],category='스포츠',origin='GLOBAL',has_svg=True,has_png=True,logo_svg=files['svg'],logo_png=files['png'],preview_png='https://logo.vibers.co.kr/_clients/'+id+'/'+files['preview'],light=False,light_logo=False,dark_variant=False,added_at='2026-10-12',asset_origin=t['league'].upper()+' 공식 CDN',official_source_page='https://www.nhl.com/info/teams/'if t['league']=='nhl'else'https://www.nba.com/teams',presentation={'file':files['png'],'bg':'light'})
@@ -38,4 +39,5 @@ release={'patches':{},'variants':{}};uploads=[];proof=[]
 with concurrent.futures.ThreadPoolExecutor(max_workers=4)as pool:
  for id,m,p,u,e in pool.map(prepare,tasks):release['patches'][id]=p;release['variants'][id]=m;uploads+=u;proof.append(e);print('prepared',id,flush=True)
 for name,d in [('release',release),('uploads',uploads),('identity-proof',proof)]: (O/(name+'.json')).write_text(json.dumps(d,ensure_ascii=False,indent=2)+'\n')
+(O/'composition-coverage.json').write_text(json.dumps([coverage(m) for m in release['variants'].values()],ensure_ascii=False,indent=2)+'\n')
 print('READY',len(proof),'clubs',sum(x['new_content']for x in proof),'new',len(uploads),'objects')

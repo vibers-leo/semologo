@@ -1,12 +1,23 @@
 import { fetchVariants } from '@/lib/brands';
+import { trafficDb } from '@/lib/traffic-db';
 
 export async function GET(request: Request) {
   const id = new URL(request.url).searchParams.get('id') ?? '';
   if (!id || id.length > 200 || !/^[\p{L}\p{N}._-]+$/u.test(id)) {
     return Response.json({ error: 'invalid_brand' }, { status: 400 });
   }
-  const manifest = await fetchVariants(id);
+  // Published CMS versions are authoritative when a duplicate collection adds
+  // files or compositions after the build's reviewed snapshot was generated.
+  // The bundled/CDN manifest remains the fallback for brands outside the CMS.
+  let manifest = null;
+  try {
+    const rows = await trafficDb().query(`SELECT asset_manifest->'variants' manifest
+      FROM semologo.logo_versions WHERE brand_id=$1 AND is_current LIMIT 1`, [id]);
+    const current = rows.rows[0]?.manifest;
+    if (current && Array.isArray(current.variants) && current.variants.length) manifest = current;
+  } catch { /* Keep the archive available during a database interruption. */ }
+  if (!manifest) manifest = await fetchVariants(id);
   return Response.json(manifest, { headers: {
-    'Cache-Control': 'public, max-age=60, s-maxage=300, stale-while-revalidate=300',
+    'Cache-Control': 'public, max-age=60, s-maxage=60, stale-while-revalidate=60',
   } });
 }

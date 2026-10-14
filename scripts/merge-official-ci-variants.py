@@ -5,8 +5,9 @@ The script deliberately never replaces logo.png/logo.svg.  A downloaded official
 CI is added as a labelled variant so the detail page can expose symbol, lockup,
 and source ZIP files side by side.
 """
-import json, re, shutil, sys
+import hashlib, json, re, shutil, sys
 from pathlib import Path
+from logo_variant_enrichment import merge_variant, coverage
 
 ROOT = Path(__file__).resolve().parents[1]
 CLIENTS = Path('/Volumes/Untitled/brand-logos/_clients')
@@ -20,6 +21,7 @@ def main() -> None:
     rows = json.loads(MANIFEST.read_text()).get('candidates', [])
     merged = 0
     held = 0
+    coverage_report = []
     for row in rows:
         brand_id = slug(row['id'])
         target = CLIENTS / brand_id
@@ -34,13 +36,15 @@ def main() -> None:
             if not src.exists() or src.suffix.lower() not in {'.png', '.svg'}:
                 continue
             key = 'official-ci-' + src.stem.lower()
-            if any(v.get('key') == key for v in variants):
-                continue
-            rel = Path('sources') / 'official-ci' / src.name
+            digest = hashlib.sha256(src.read_bytes()).hexdigest()
+            rel = Path('sources') / 'official-ci' / (digest[:16] + src.suffix.lower())
             dest = target / rel
             dest.parent.mkdir(parents=True, exist_ok=True)
-            shutil.copy2(src, dest)
-            variants.append({
+            if not dest.exists():
+                shutil.copy2(src, dest)
+            elif hashlib.sha256(dest.read_bytes()).hexdigest() != digest:
+                raise RuntimeError(f'immutable asset conflict: {dest}')
+            result = merge_variant(data, {
                 'key': key,
                 'form': 'unknown',
                 'lang': 'unknown',
@@ -50,10 +54,14 @@ def main() -> None:
                 'provider': 'official-ci-page',
                 'origin': 'collected',
                 'order': 100 + len(variants),
+                'source_sha256': digest,
             })
-            merged += 1
+            merged += result != 'unchanged'
         manifest_path.write_text(json.dumps(data, ensure_ascii=False, indent=1) + '\n')
-    print(json.dumps({'merged_variants': merged, 'held_missing_brand': held}, ensure_ascii=False))
+        coverage_report.append(coverage(data))
+    (ASSETS / 'composition-coverage.json').parent.mkdir(parents=True, exist_ok=True)
+    (ASSETS / 'composition-coverage.json').write_text(json.dumps(coverage_report, ensure_ascii=False, indent=2) + '\n')
+    print(json.dumps({'merged_or_enriched_variants': merged, 'held_missing_brand': held}, ensure_ascii=False))
 
 if __name__ == '__main__':
     main()
