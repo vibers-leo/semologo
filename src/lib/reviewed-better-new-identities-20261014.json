@@ -1,0 +1,163 @@
+{
+  "patches": {
+    "zacht-studios": {
+      "id": "zacht-studios",
+      "name_ko": "자흐트 스튜디오",
+      "name_en": "Zacht Studios",
+      "aliases": [
+        "Zacht Studios",
+        "자흐트 스튜디오"
+      ],
+      "category": "서비스·기업",
+      "origin": "GLOBAL",
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": "sources/figma-better-new-20261014/b5a50445ae797da9c064.svg",
+      "svg_transparent": "sources/figma-better-new-20261014/b5a50445ae797da9c064.svg",
+      "logo_png": "sources/figma-better-new-20261014/beb210faeab73ac67f68.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/zacht-studios/sources/figma-better-new-20261014/beb210faeab73ac67f68.png",
+      "presentation": {
+        "file": "sources/figma-better-new-20261014/beb210faeab73ac67f68.png",
+        "bg": "light"
+      },
+      "variants_n": 1,
+      "asset_origin": "사용자 제공 Better Logos Figma Community 수집본",
+      "asset_review_status": "verified",
+      "added_at": "2026-10-14",
+      "logo_published_at": "2026-10-14T12:00:00Z",
+      "homepage": "https://www.zacht.studio/",
+      "official_source_page": "https://www.zacht.studio/",
+      "official_asset_reviewed": false
+    },
+    "tamarisc": {
+      "id": "tamarisc",
+      "name_ko": "타마리스크",
+      "name_en": "Tamarisc",
+      "aliases": [
+        "Tamarisc",
+        "타마리스크"
+      ],
+      "category": "금융·결제",
+      "origin": "GLOBAL",
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": "sources/figma-better-new-20261014/2d8963c50fca0ef1fe57.svg",
+      "svg_transparent": "sources/figma-better-new-20261014/2d8963c50fca0ef1fe57.svg",
+      "logo_png": "sources/figma-better-new-20261014/842f954157005fc6ad9a.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/tamarisc/sources/figma-better-new-20261014/842f954157005fc6ad9a.png",
+      "presentation": {
+        "file": "sources/figma-better-new-20261014/842f954157005fc6ad9a.png",
+        "bg": "light"
+      },
+      "variants_n": 3,
+      "asset_origin": "사용자 제공 Better Logos Figma Community 수집본",
+      "asset_review_status": "verified",
+      "added_at": "2026-10-14",
+      "logo_published_at": "2026-10-14T12:00:00Z",
+      "homepage": "https://www.tamarisc.com/",
+      "official_source_page": "https://www.tamarisc.com/",
+      "official_asset_reviewed": false
+    }
+  },
+  "variants": {
+    "zacht-studios": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "zacht-studios",
+      "primary": "community-original",
+      "variants": [
+        {
+          "key": "community-original",
+          "label": "커뮤니티 수록 원색 · 시기 미확인",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "en",
+          "color": "original",
+          "files": {
+            "svg": "sources/figma-better-new-20261014/b5a50445ae797da9c064.svg",
+            "png": "sources/figma-better-new-20261014/beb210faeab73ac67f68.png"
+          },
+          "provider": "사용자 제공 Better Logos Figma Community 수집본",
+          "origin": "community",
+          "official": false,
+          "order": 0,
+          "source_sha256": "b5a50445ae797da9c06439c753284564606e2e94ee5dd7cc73d30cbff947e2a9",
+          "source_note": "공식 사이트에서 브랜드 및 원색 로고의 형태를 대조함. 제공 파일 자체는 공식 배포 원본이 아님.",
+          "png_width": 2000,
+          "png_height": 1125
+        }
+      ]
+    },
+    "tamarisc": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "tamarisc",
+      "primary": "community-original",
+      "variants": [
+        {
+          "key": "community-original",
+          "label": "커뮤니티 수록 원색 · 시기 미확인",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "en",
+          "color": "original",
+          "files": {
+            "svg": "sources/figma-better-new-20261014/2d8963c50fca0ef1fe57.svg",
+            "png": "sources/figma-better-new-20261014/842f954157005fc6ad9a.png"
+          },
+          "provider": "사용자 제공 Better Logos Figma Community 수집본",
+          "origin": "community",
+          "official": false,
+          "order": 0,
+          "source_sha256": "2d8963c50fca0ef1fe57e44791b93de18f1f735c8a6865616044cd458264da0e",
+          "source_note": "공식 사이트에서 브랜드 및 원색 로고의 형태를 대조함. 제공 파일 자체는 공식 배포 원본이 아님.",
+          "png_width": 2000,
+          "png_height": 605
+        },
+        {
+          "key": "community-white",
+          "label": "커뮤니티 수록 흰색 · 시기 미확인",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "en",
+          "color": "white",
+          "files": {
+            "svg": "sources/figma-better-new-20261014/f7bfd737ad62fb89058e.svg",
+            "png": "sources/figma-better-new-20261014/e8a6893fb44fcf86a62a.png"
+          },
+          "provider": "사용자 제공 Better Logos Figma Community 수집본",
+          "origin": "community",
+          "official": false,
+          "order": 1,
+          "source_sha256": "f7bfd737ad62fb89058ebb7f74effc76fa008fcb7065da06c7c856afee600480",
+          "source_note": "공식 사이트에서 브랜드 및 원색 로고의 형태를 대조함. 제공 파일 자체는 공식 배포 원본이 아님.",
+          "png_width": 2000,
+          "png_height": 605
+        },
+        {
+          "key": "community-black",
+          "label": "커뮤니티 수록 검정 · 시기 미확인",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "en",
+          "color": "black",
+          "files": {
+            "svg": "sources/figma-better-new-20261014/a53a35feacd6a7cdda8e.svg",
+            "png": "sources/figma-better-new-20261014/deb9572e4e94aa941078.png"
+          },
+          "provider": "사용자 제공 Better Logos Figma Community 수집본",
+          "origin": "community",
+          "official": false,
+          "order": 2,
+          "source_sha256": "a53a35feacd6a7cdda8e001ba39dc3f69d067ee5923c0fbb4492c85f25e435dd",
+          "source_note": "공식 사이트에서 브랜드 및 원색 로고의 형태를 대조함. 제공 파일 자체는 공식 배포 원본이 아님.",
+          "png_width": 2000,
+          "png_height": 605
+        }
+      ]
+    }
+  },
+  "source_kind": "user-provided-figma-community",
+  "official": false,
+  "snapshot_date": "2026-10-14"
+}
