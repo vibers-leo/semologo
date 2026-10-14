@@ -15,19 +15,26 @@ SLOTS = ('symbol', 'horizontal', 'vertical', 'wordmark')
 
 
 def form_of(variant):
-    form = variant.get('lockup') or variant.get('form') or 'unknown'
+    lockup = variant.get('lockup')
+    form = lockup if lockup and lockup != 'unknown' else variant.get('form')
     return form if form in SLOTS else None
 
 
 def coverage(manifest):
     found = {slot: [] for slot in SLOTS}
+    artwork = {slot: set() for slot in SLOTS}
     for variant in manifest.get('variants') or []:
         slot = form_of(variant)
-        if slot and any((variant.get('files') or {}).get(ext) for ext in ('svg', 'png')):
-            found[slot].append(variant['key'])
+        files = variant.get('files') or {}
+        path = files.get('svg') or files.get('png')
+        if slot and path:
+            found[slot].append(variant.get('key') or path)
+            artwork[slot].add(variant.get('visual_sha256') or path)
+    unique_artwork = len(set().union(*artwork.values()))
     return {'id': manifest.get('id'), 'present': found,
             'missing': [slot for slot in SLOTS if not found[slot]],
-            'complete': all(found.values())}
+            'distinct_artwork': unique_artwork,
+            'complete': all(found.values()) and unique_artwork >= 4}
 
 
 def merge_variant(manifest, incoming):
