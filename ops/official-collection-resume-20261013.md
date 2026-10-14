@@ -7,5 +7,6 @@
 - 두 은행 검색 카드 반영: NCP Object Storage의 `_clients/brands.json`·`brands-slim.json`을 사전 해시·ETag 검증 후 두 객체만 수정해 게시. 변경 전 원본과 게시 후 해시는 `marketing/assets/catalog-bank-patch-20261014/`에 보관. `scripts/patch-bank-catalog-20261014.py`·`scripts/publish-bank-catalog-20261014.py`로 재현 가능. 세모로고 컨테이너 재시작 뒤 `check-deploy.sh`의 `DEPLOY OK`·HTTP 200 확인, 실제 `/api/catalog/` 검색에서 두 브랜드 모두 `has_svg: true`, `has_png: true` 검증. 두 브랜드 CDN 캐시만 퍼지하고 대표 PNG HTTP 200 확인.
 - 쿠팡플레이·한국수출입은행: 공식 벡터 보완 수집 미완료. 수출입은행 두 콘텐츠의 동일성 대조 필요.
 - SVG 전수 진단: 빌드 중 자체 작업만 정지 후 재개, 120056/174619 최근 확인. 진단은 자동 게시하지 않음.
+- SVG 투명 파생본 게시: 2026-10-14 대량 게시 작업 진행 중. 초반 실패로 기록된 `zzgt`·`zzsd`·`zzn-1`·`zygo`·`zymetx`는 원본 SHA와 PNG 투명도를 재검증한 뒤 별도 재시도하여 DB 게시 상태 5/5 확인(`marketing/assets/svg-background-publish-20261014/retry-five.json`). 과거 진행 파일의 실패 기록은 이력으로 유지하며 대량 작업 종료 후 최종 성공/누락을 다시 집계해야 함.
 
 공개된 정상 로고는 이용자 자료로, 내부 누락·보류 목록은 품질 보완 근거로 유지한다.
