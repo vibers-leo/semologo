@@ -142,3 +142,4 @@
 - 2026-10-14: 한국산업은행 2025 공식 CI ZIP 4개에서 국·영문 7종 SVG/PNG를 추출·검수해 기존 콘텐츠에 통합. 원본 AI 묶음과 이전 PNG를 보존하고 CDN·CMS·상세 페이지 응답을 확인함(`assets/official-next-20261013/kdb-extracted/published.json`).
 - 2026-10-14: 한국산업은행·한국공공조직은행의 경량/전체 카탈로그 두 항목을 공식 SVG·PNG와 일치하도록 갱신. 사전 백업·해시/ETag 대조·게시 후 바이트 검증은 `assets/catalog-bank-patch-20261014/`, 재현 코드는 `scripts/patch-bank-catalog-20261014.py`와 `scripts/publish-bank-catalog-20261014.py`. 세모로고 재시작 후 배포 검증과 실제 검색 API 확인 완료.
 - 2026-10-14: SVG 배경 제거 대량 게시의 초기 실패 5건을 원본 해시·투명도 재검증 후 별도 게시하고 DB 5/5 확인(`assets/svg-background-publish-20261014/retry-five.json`, `scripts/retry-svg-background-five-20261014.py`). 전체 대량 게시 작업은 계속 진행 중.
+- 2026-10-14: 충청남도 공식 AI 기반 국문 가로형에서 글자형을 분리해 투명 SVG·2400px PNG로 기존 27종 콘텐츠에 합침(`assets/south-chungcheong-wordmark-20261014/`). CDN 28종 공개 확인, 4형태 완성 집계 7/720으로 갱신.
