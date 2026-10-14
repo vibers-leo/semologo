@@ -1,0 +1,114 @@
+{
+  "patches": {
+    "blackyak": {
+      "logo_svg": "sources/official-blackyak-20261014/a02f5b8b1aaab4492f5a.svg",
+      "svg_transparent": "sources/official-blackyak-20261014/a02f5b8b1aaab4492f5a.svg",
+      "logo_png": "sources/official-blackyak-20261014/61bf9128589c7d49fdc0.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/blackyak/sources/official-blackyak-20261014/61bf9128589c7d49fdc0.png",
+      "has_svg": true,
+      "has_png": true,
+      "light": false,
+      "light_logo": false,
+      "dark_variant": false,
+      "presentation": {
+        "file": "sources/official-blackyak-20261014/61bf9128589c7d49fdc0.png",
+        "bg": "light",
+        "svgFile": "sources/official-blackyak-20261014/a02f5b8b1aaab4492f5a.svg"
+      },
+      "variants_n": 5,
+      "logo_published_at": "2026-10-14T08:46:00Z",
+      "official_source_page": "https://corp.byn.kr/ui/page/B_Brand_GroupCom",
+      "asset_origin": "BYN블랙야크그룹 공식 SVG 및 BLACKYAK 글로벌몰 PNG",
+      "asset_review_status": "verified"
+    }
+  },
+  "variants": {
+    "blackyak": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "blackyak",
+      "primary": "official-horizontal-black",
+      "variants": [
+        {
+          "key": "official-horizontal-black",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "en",
+          "color": "black",
+          "label": "심볼+글자 가로형 · 검정 · 투명 배경",
+          "files": {
+            "svg": "sources/official-blackyak-20261014/a02f5b8b1aaab4492f5a.svg",
+            "png": "sources/official-blackyak-20261014/61bf9128589c7d49fdc0.png"
+          },
+          "provider": "BYN블랙야크그룹 공식 SVG에서 검정색 파생",
+          "origin": "derived",
+          "order": 0,
+          "source_url": "https://cdn.byn.kr/corp/img/common/brand_logo_BY.svg",
+          "derived_from": "sources/official-blackyak-20261014/e07b0a13733ddd351640.svg",
+          "source_note": "공식 그룹의 흰색 벡터를 검정으로 재색상. 공식 글로벌몰의 검정 로고와 형태 대조."
+        },
+        {
+          "key": "official-horizontal-white",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "en",
+          "color": "white",
+          "label": "심볼+글자 가로형 · 흰색 · 공식 벡터",
+          "files": {
+            "svg": "sources/official-blackyak-20261014/e07b0a13733ddd351640.svg",
+            "png": "sources/official-blackyak-20261014/f55aecb952d3801df23c.png"
+          },
+          "provider": "BYN블랙야크그룹",
+          "origin": "collected",
+          "order": 1,
+          "source_url": "https://cdn.byn.kr/corp/img/common/brand_logo_BY.svg"
+        },
+        {
+          "key": "official-global-black-png",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "en",
+          "color": "black",
+          "label": "심볼+글자 가로형 · 글로벌몰 PNG 원본",
+          "files": {
+            "png": "sources/official-blackyak-20261014/d4ab53d2d7980ff1873f.png"
+          },
+          "provider": "BLACKYAK 글로벌몰",
+          "origin": "collected",
+          "order": 2,
+          "source_url": "https://global.blackyak.com/cdn/shop/files/blackyak-logo_4x_231d717c-5f7e-4d34-a998-e7f50216747b.png?v=1654593748"
+        },
+        {
+          "key": "symbol-transparent",
+          "form": "symbol",
+          "lockup": "symbol",
+          "lang": "none",
+          "color": "black",
+          "label": "야크 심볼 · 투명 PNG",
+          "files": {
+            "png": "logo-transparent.png"
+          },
+          "provider": "기존 수집본",
+          "origin": "collected",
+          "order": 3
+        },
+        {
+          "key": "legacy-wordmark-white",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "en",
+          "color": "white",
+          "label": "기존 흰색 벡터 · 시기 미확인",
+          "files": {
+            "svg": "logo.svg"
+          },
+          "provider": "logo.dev 기존 수집본",
+          "origin": "collected",
+          "order": 4
+        }
+      ]
+    }
+  },
+  "source_kind": "official-blackyak-sites",
+  "snapshot_date": "2026-10-14"
+}

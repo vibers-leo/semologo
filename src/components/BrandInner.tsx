@@ -286,11 +286,16 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
     (v.color === "white" || v.color === "mono-light" || /(^|[-_])white$/.test(v.key)) ? DARK_TILE : tile(CHECKER);
   // 기관 원본 PNG에는 흰 캔버스가 포함된 경우가 많다. 대표 미리보기는
   // 배경 제거 파생물을 먼저 사용하고, 파생물이 없을 때만 원본으로 폴백한다.
-  const mainUrl = hasSvg ? (presentation?.svgFile ? cdnUrl(presentation.svgFile) : svgUrl) : (directPng || darkUrl);
+  const selectedSvgUrl = presentation?.svgFile ? cdnUrl(presentation.svgFile) : svgUrl;
   // 일부 기관 수집본의 원본 SVG에는 로고 주변의 안내 문서/캔버스가
   // 함께 들어온다. 다운로드 원본은 보존하되, 대표 화면은 검수된 가공본을
   // 우선 사용한다. KCA는 logo-800.png가 실제 로고만 담은 가공본이다.
   const previewUrl = presentation ? cdnUrl(presentation.file) : brand.preview_png || (brand.id === "kca" ? cdnUrl("logo-800.png") : hasPng ? pngUrl : `/api/logo-preview/?id=${encodeURIComponent(brand.id)}`);
+  // An explicit representative selection governs on-screen and shared images.
+  // The SVG download still points to the vector source below.
+  const mainUrl = presentation ? previewUrl : hasSvg ? svgUrl : (directPng || darkUrl);
+  const quickDownloadUrl = hasSvg ? selectedSvgUrl : mainUrl;
+  const pngDownloadUrl = presentation ? previewUrl : pngUrl;
   // 정본 브랜드 페이지 주소. 예전엔 `${origin}/#${brand.id}` 라 홈으로 보내놓고
   // 해시로 모달을 여는 링크였다 — 사이트맵·canonical 과 다른 주소를 공유하던 셈이다.
   //
@@ -892,14 +897,14 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
 
           {/* 빠른 다운로드 */}
           <div style={{ display:"flex", flexDirection:"column", gap:7, marginTop:"auto" }}>
-            <a href={mainUrl} download={`${brand.id}-logo.${hasSvg ? "svg" : "png"}`}
-              onClick={e => { e.preventDefault(); grab(mainUrl, `${brand.id}-logo.${hasSvg ? "svg" : "png"}`); }}
+            <a href={quickDownloadUrl} download={`${brand.id}-logo.${hasSvg ? "svg" : "png"}`}
+              onClick={e => { e.preventDefault(); grab(quickDownloadUrl, `${brand.id}-logo.${hasSvg ? "svg" : "png"}`); }}
               style={{ display:"flex", alignItems:"center", justifyContent:"center", gap:6, padding:"9px 0", borderRadius:8, fontSize:12, fontWeight:600, background:"#6366f1", color:"#fff", textDecoration:"none", cursor:"pointer" }}>
               <svg width="13" height="13" fill="none" stroke="currentColor" strokeWidth="2.5" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3"/></svg>
               {hasSvg ? "SVG" : "PNG"}{" "}<T>{"다운로드"}</T></a>
-            {hasSvg && isReady(pngUrl) && (
-              <a href={pngUrl} download={`${brand.id}-logo.png`}
-                onClick={e => { e.preventDefault(); grab(pngUrl, `${brand.id}-logo.png`); }}
+            {hasSvg && isReady(pngDownloadUrl) && (
+              <a href={pngDownloadUrl} download={`${brand.id}-logo.png`}
+                onClick={e => { e.preventDefault(); grab(pngDownloadUrl, `${brand.id}-logo.png`); }}
                 style={{ display:"flex", alignItems:"center", justifyContent:"center", padding:"9px 0", borderRadius:8, fontSize:12, fontWeight:600, background:"#f4f4f5", color:"#52525b", textDecoration:"none", border:"1px solid #e4e4e7", cursor:"pointer" }}><T>{"↓ PNG 다운로드"}</T></a>
             )}
             {invertedUrl && (

@@ -2,7 +2,7 @@ import { reviewedVariants, reviewedCatalogSeeds } from "./reviewed-logo-assets";
 import { applyQualityReview } from "./logo-quality-review";
 
 export interface Brand {
-  presentation?: { file: string; bg: "light" | "dark" };
+  presentation?: { file: string; bg: "light" | "dark"; svgFile?: string };
   preview_png?: string;
   /** Verified high-resolution symbol PNG for favicon/app previews. */
   icon_png?: string;

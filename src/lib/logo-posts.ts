@@ -39,7 +39,7 @@ export async function listPublishedLogoPosts(): Promise<LogoPost[]> {
   // PostgreSQL CMS is the read path for migrated posts. A Firestore fallback keeps
   // draft/admin workflows available while NCP connectivity is being rolled out.
   try {
-    const response = await fetch("/api/logo-posts?limit=1000", { cache: "no-store" });
+    const response = await fetch("/api/logo-posts?limit=24&view=recent-v2", { cache: "no-store" });
     if (response.ok) {
       const data = await response.json() as { posts?: LogoPost[] };
       if (Array.isArray(data.posts) && data.posts.length) return data.posts.filter(post => post.status === "published");
