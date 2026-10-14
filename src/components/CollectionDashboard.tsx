@@ -1,7 +1,11 @@
 'use client';
 import { useEffect, useState } from 'react';
 import type { CollectionProgress } from '@/lib/collection-progress';
-const percent = (n: number, total: number) => total ? Math.min(100, n / total * 100).toFixed(1) : '0.0';
+const percent = (n: number, total: number) => {
+  if (!total || !n) return '0.0';
+  const value = Math.min(100, n / total * 100);
+  return value < 0.1 ? '<0.1' : value.toFixed(1);
+};
 export default function CollectionDashboard({ initial }: { initial: CollectionProgress[] | null }) {
   const [rows, setRows] = useState(initial);
   const [error, setError] = useState('');
@@ -31,7 +35,7 @@ export default function CollectionDashboard({ initial }: { initial: CollectionPr
   }, []);
   return <>
     <div className="my-6 flex flex-wrap items-center justify-between gap-3 text-sm text-gray-500"><span>{checked ? `최근 확인 ${checked} · ` : ''}1분마다 자동 갱신</span><button disabled={busy} onClick={() => window.dispatchEvent(new Event('collection-refresh'))} className="rounded-lg border px-4 py-2 text-gray-900 disabled:opacity-50">{busy ? '확인 중…' : '지금 갱신'}</button></div>
-    <p className="mb-6 text-sm leading-6 text-gray-500">완성은 대상 일치·PNG 검수를 마치고 심볼, 글자형, 가로 조합, 세로 조합 네 가지를 모두 제공하는 경우만 세어요. 공개·PNG 검수 수치는 별도로 표시해요.</p>
+    <p className="mb-6 text-sm leading-6 text-gray-500">큰 숫자는 명부 대상 중 로고를 공개한 비율이에요. 4종 완성은 대상 일치·PNG 검수를 마치고 심볼, 글자형, 가로 조합, 세로 조합을 모두 제공한 경우만 별도로 세어요.</p>
     {error && <p role="status" className="mb-4 text-sm text-amber-700">{error}</p>}
     {!rows ? <p role="status">현황을 불러오지 못했어요. 지금 갱신을 눌러 다시 확인해 주세요.</p> : !rows.length ? <p>등록된 명부가 아직 없어요.</p> : <div className="space-y-8">
       {rows.find(c => c.id === 'kr-local-basic') && <GroupCard title="전국 지자체" description="시·군·자치구의 로고를 한눈에 확인해요." main={rows.find(c => c.id === 'kr-local-basic')!} childrenRows={['kr-local-kind-시', 'kr-local-kind-군', 'kr-local-kind-구'].flatMap(id => rows.filter(c => c.id === id))} />}
@@ -40,7 +44,7 @@ export default function CollectionDashboard({ initial }: { initial: CollectionPr
       <section><h2 className="mb-4 text-xl font-bold">기업과 시장</h2><div className="grid gap-4 md:grid-cols-2">{rows.filter(c => !c.sector && !c.id.startsWith('kr-local-') && !c.id.startsWith('kr-public-') && !['kr-quasi-government', 'kr-other-public-institutions', 'kr-jeju-administrative-cities', 'kr-local-invested-institutions'].includes(c.id)).map(c => <SummaryCard key={c.id} row={c}/>)}</div></section>
       {(['sports','media','education'] as const).map(sector => sector === 'media' ? <MediaOverview key={sector} rows={rows.filter(c => c.sector === sector)}/> : <SectorGroup key={sector} sector={sector} rows={rows.filter(c => c.sector === sector)}/>)}
       {rows.some(c=>c.sector==='community') && <section><h2 className="mb-3 text-xl font-bold">커뮤니티 자료 모음</h2><p className="mb-4 text-sm leading-6 text-gray-500">제공된 파일에 수록된 브랜드 목록이에요. 공식 전체 명부와 구분하며 네 가지 구성이 확인된 항목만 완성으로 세어요.</p><div className="grid gap-4 md:grid-cols-2">{rows.filter(c=>c.sector==='community').map(c=><SummaryCard key={c.id} row={c}/>)}</div></section>}
-      <aside className="rounded-2xl bg-amber-50 p-5 text-sm leading-6 text-amber-900">완성률은 보유 로고 수와 달라요. 이름이 일치하는 공개 콘텐츠라도 구성 네 가지가 확인되지 않으면 재수집 대상으로 남아요. 서로 겹치는 명부와 집계 단위가 다른 수치는 합산하지 않아요.</aside>
+      <aside className="rounded-2xl bg-amber-50 p-5 text-sm leading-6 text-amber-900">공개 수집률과 4종 완성률은 달라요. 이름이 일치하는 공개 콘텐츠라도 구성 네 가지가 확인되지 않으면 보완 대상으로 남아요. 서로 겹치는 명부와 집계 단위가 다른 수치는 합산하지 않아요.</aside>
             <details className="rounded-2xl border p-5"><summary className="cursor-pointer font-semibold">집계 기준과 별도 명부</summary><p className="mt-3 text-sm leading-6 text-gray-500">완성은 확인된 심볼·글자형·가로·세로 조합을 각각 실제 SVG 또는 PNG 파일로 제공하고, 대상 일치와 PNG 검수를 마친 경우예요. 캔버스 비율로 형태를 추정하거나 같은 파일을 네 번 세지 않아요. 검토 대기는 기존 자산의 연결 후보이며 완료로 세지 않아요. 서로 겹치는 명부는 합산하지 않아요. 지자체 227곳에는 제주 행정시가 포함되지 않아요.</p><div className="mt-4 grid gap-4 md:grid-cols-2">{rows.filter(c => ['kr-local-wide','kr-jeju-administrative-cities','kr-local-invested-institutions'].includes(c.id)).map(c => <SummaryCard key={c.id} row={c}/>)}</div></details>
     </div>}
   </>;
@@ -48,10 +52,11 @@ export default function CollectionDashboard({ initial }: { initial: CollectionPr
 
 function SummaryCard({ row: c }: { row: CollectionProgress }) {
   return <section className="rounded-2xl border p-5">
-    <div className="flex items-start justify-between gap-3"><h3 className="font-bold">{c.name}</h3><span className={`rounded-full px-2 py-1 text-xs ${c.complete === c.total ? 'bg-emerald-50 text-emerald-700' : 'bg-gray-100 text-gray-600'}`}>{c.complete === c.total ? '구성 완성' : '보완 중'}</span></div>
-    <p className="mt-4 text-3xl font-bold">{percent(c.complete,c.total)}% <span className="text-sm font-normal text-gray-500">4종 완성 {c.complete.toLocaleString()} / {c.total.toLocaleString()}</span></p>
-    <progress aria-label={`${c.name} 4종 구성 완성률`} className="mt-3 w-full accent-emerald-600" value={c.complete} max={c.total || 1}/>
-    <p className="mt-2 text-xs text-gray-500">공개 {c.collected.toLocaleString()} · PNG 검수 {c.verified.toLocaleString()} · 명부 {c.as_of}</p>
+    <div className="flex items-start justify-between gap-3"><h3 className="font-bold">{c.name}</h3><span className={`rounded-full px-2 py-1 text-xs ${c.total > 0 && c.complete === c.total ? 'bg-emerald-50 text-emerald-700' : 'bg-gray-100 text-gray-600'}`}>{c.total > 0 && c.complete === c.total ? '4종 완성' : c.total > 0 && c.collected === c.total ? '구성 보완 중' : '수집 중'}</span></div>
+    <p className="mt-4 text-3xl font-bold">{percent(c.collected,c.total)}% <span className="text-sm font-normal text-gray-500">공개 수집 {c.collected.toLocaleString()} / {c.total.toLocaleString()}</span></p>
+    <progress aria-label={`${c.name} 공개 수집률`} className="mt-3 w-full accent-emerald-600" value={c.collected} max={c.total || 1}/>
+    <p className="mt-2 text-xs text-gray-500">PNG 검수 {c.verified.toLocaleString()} · 명부 {c.as_of}</p>
+    <p className="mt-3 text-sm font-medium text-violet-700">4종 완성 {c.complete.toLocaleString()} / {c.total.toLocaleString()} <span className="text-xs font-normal">({percent(c.complete,c.total)}%)</span></p>
     {c.roster_status === 'official_roster_checked' && <p className="mt-2 text-xs text-emerald-700">공식 명부 확인 · 로고 구성 완성과 별도</p>}
     {c.sector && <p className="mt-2 text-xs text-gray-500">{[c.country,c.sport,c.league,c.season].filter(Boolean).join(' · ')} · 출처 확인 {c.checked_at?.slice(0,10) ?? c.as_of}</p>}
     {c.scope_note && <p className="mt-2 text-xs leading-5 text-gray-500">{c.scope_note}</p>}
@@ -60,7 +65,7 @@ function SummaryCard({ row: c }: { row: CollectionProgress }) {
   </section>;
 }
 function GroupCard({ title,description,main,childrenRows }: { title:string;description:string;main:CollectionProgress;childrenRows:CollectionProgress[] }) {
- return <section className="rounded-3xl border bg-gray-50/50 p-5 sm:p-7"><div className="flex flex-wrap items-end justify-between gap-4"><div><h2 className="text-2xl font-bold">{title}</h2><p className="mt-2 text-sm text-gray-500">{description}</p></div><div className="text-right"><p className="text-4xl font-black">{percent(main.complete,main.total)}<span className="text-xl">%</span></p><p className="mt-1 text-sm text-gray-500">4종 완성 {main.complete.toLocaleString()} / {main.total.toLocaleString()}</p></div></div><progress aria-label={`${title} 4종 구성 완성률`} className="my-5 w-full accent-emerald-600" value={main.complete} max={main.total || 1}/><div className="grid gap-3 md:grid-cols-3">{childrenRows.map(c=><SummaryCard key={c.id} row={c}/>)}</div><div className="mt-5 flex flex-wrap items-center gap-4 text-sm"><span className="text-xs text-gray-500">명부 기준 {main.as_of} · 확인 {main.checked_at?.slice(0,10) ?? main.as_of} · PNG 검수 {main.verified.toLocaleString()}</span></div></section>;
+ return <section className="rounded-3xl border bg-gray-50/50 p-5 sm:p-7"><div className="flex flex-wrap items-end justify-between gap-4"><div><h2 className="text-2xl font-bold">{title}</h2><p className="mt-2 text-sm text-gray-500">{description}</p></div><div className="text-right"><p className="text-4xl font-black">{percent(main.collected,main.total)}<span className="text-xl">%</span></p><p className="mt-1 text-sm text-gray-500">공개 수집 {main.collected.toLocaleString()} / {main.total.toLocaleString()}</p></div></div><progress aria-label={`${title} 공개 수집률`} className="mt-5 w-full accent-emerald-600" value={main.collected} max={main.total || 1}/><p className="mb-5 text-sm font-medium text-violet-700">4종 완성 {main.complete.toLocaleString()} / {main.total.toLocaleString()} ({percent(main.complete,main.total)}%)</p><div className="grid gap-3 md:grid-cols-3">{childrenRows.map(c=><SummaryCard key={c.id} row={c}/>)}</div><div className="mt-5 flex flex-wrap items-center gap-4 text-sm"><span className="text-xs text-gray-500">명부 기준 {main.as_of} · 확인 {main.checked_at?.slice(0,10) ?? main.as_of} · PNG 검수 {main.verified.toLocaleString()}</span></div></section>;
 }
 
 function SectorGroup({sector,rows}:{sector:'sports'|'media'|'education';rows:CollectionProgress[]}) {
@@ -81,6 +86,6 @@ function MediaOverview({rows}:{rows:CollectionProgress[]}) {
  const sum=(key:'total'|'verified'|'complete'|'collected'|'candidates')=>group.reduce((n,r)=>n+r[key],0);
  const total=sum('total'),complete=sum('complete');
  const checked=group.map(r=>r.checked_at?.slice(0,10) ?? r.as_of).sort().slice(-1)[0];
- return <section key={label} className="rounded-2xl border p-5"><h3 className="font-bold">{label}</h3><p className="mt-4 text-3xl font-bold">{percent(complete,total)}% <span className="text-sm font-normal text-gray-500">4종 완성 {complete.toLocaleString()} / {total.toLocaleString()}</span></p><progress aria-label={`${label} 4종 구성 완성률`} className="mt-3 w-full accent-emerald-600" value={complete} max={total || 1}/><p className="mt-2 text-xs text-gray-500">공개 {sum('collected').toLocaleString()} · PNG 검수 {sum('verified').toLocaleString()}</p><p className="mt-3 text-xs leading-5 text-gray-500">{kind.source}에 등재된 대상 기준 · 확인 {checked}{kind.prefix==='news-eana-'?' · 정지 회원 제외':''}</p><a className="mt-3 inline-block text-sm underline" href={group[0].source_url} target="_blank" rel="noopener noreferrer">공식 명부 확인</a></section>;
+ return <section key={label} className="rounded-2xl border p-5"><h3 className="font-bold">{label}</h3><p className="mt-4 text-3xl font-bold">{percent(sum('collected'),total)}% <span className="text-sm font-normal text-gray-500">공개 수집 {sum('collected').toLocaleString()} / {total.toLocaleString()}</span></p><progress aria-label={`${label} 공개 수집률`} className="mt-3 w-full accent-emerald-600" value={sum('collected')} max={total || 1}/><p className="mt-2 text-xs text-gray-500">PNG 검수 {sum('verified').toLocaleString()}</p><p className="mt-3 text-sm font-medium text-violet-700">4종 완성 {complete.toLocaleString()} / {total.toLocaleString()} ({percent(complete,total)}%)</p><p className="mt-3 text-xs leading-5 text-gray-500">{kind.source}에 등재된 대상 기준 · 확인 {checked}{kind.prefix==='news-eana-'?' · 정지 회원 제외':''}</p><a className="mt-3 inline-block text-sm underline" href={group[0].source_url} target="_blank" rel="noopener noreferrer">공식 명부 확인</a></section>;
  }))}</div></section>;
 }
