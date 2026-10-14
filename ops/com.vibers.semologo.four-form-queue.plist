@@ -3,8 +3,8 @@
 <plist version="1.0"><dict>
   <key>Label</key><string>com.vibers.semologo.four-form-queue</string>
   <key>ProgramArguments</key><array>
-    <string>/opt/homebrew/bin/python3</string>
-    <string>/Volumes/HDD-1TB/semologo-migration/20261005/project/scripts/build-four-form-recollection-queue.py</string>
+    <string>/bin/bash</string>
+    <string>/Volumes/HDD-1TB/semologo-migration/20261005/project/scripts/run-four-form-queue.sh</string>
   </array>
   <key>WorkingDirectory</key><string>/Volumes/HDD-1TB/semologo-migration/20261005/project</string>
   <key>RunAtLoad</key><true/>
