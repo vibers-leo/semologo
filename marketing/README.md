@@ -140,3 +140,4 @@
 - 2026-10-14: 수집현황의 완성 기준을 대상·PNG 검수와 서로 다른 심볼·글자형·가로·세로 조합 4종으로 강화. 공개/PNG 검수는 별도 수치로 유지하고 명부별 부족한 구성을 표시. 현행 명부에 연결된 고유 콘텐츠 720건 중 6건이 4종 완성, 부족한 항목은 `assets/four-form-recollection-20261014/queue.json`에 공식 출처와 함께 우선순위화. 매일 03시 재집계 LaunchAgent 설치·첫 실행 정상 종료. 자동차손해배상진흥원 공식 CI AI에서 누락된 글자형을 추출해 투명 SVG·2200px PNG로 추가함.
 - 2026-10-14: 한국공공조직은행 공식 CI AI에서 잘림 없는 세로형·심볼·글자형을 재추출하고 기존 콘텐츠에 가로·세로·영문·반전 8종 SVG/PNG와 원본 AI를 통합. 기존 PNG는 보존하고 CDN·CMS·상세 페이지 응답을 검증함(`assets/official-next-20261013/kptb-published.json`).
 - 2026-10-14: 한국산업은행 2025 공식 CI ZIP 4개에서 국·영문 7종 SVG/PNG를 추출·검수해 기존 콘텐츠에 통합. 원본 AI 묶음과 이전 PNG를 보존하고 CDN·CMS·상세 페이지 응답을 확인함(`assets/official-next-20261013/kdb-extracted/published.json`).
+- 2026-10-14: 한국산업은행·한국공공조직은행의 경량/전체 카탈로그 두 항목을 공식 SVG·PNG와 일치하도록 갱신. 사전 백업·해시/ETag 대조·게시 후 바이트 검증은 `assets/catalog-bank-patch-20261014/`, 재현 코드는 `scripts/patch-bank-catalog-20261014.py`와 `scripts/publish-bank-catalog-20261014.py`. 세모로고 재시작 후 배포 검증과 실제 검색 API 확인 완료.
