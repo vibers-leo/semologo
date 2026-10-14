@@ -1,7 +1,7 @@
 """Publish reviewed staged assets locally, producing an exact bucket upload manifest.
 Run only after visual review and recording excluded candidates in publish-review.json.
 """
-import json,shutil,datetime,importlib.util
+import json,shutil,datetime,importlib.util,hashlib
 from pathlib import Path
 from logo_variant_enrichment import merge_variant, coverage
 ROOT=Path(__file__).resolve().parents[1];W=ROOT/'artifacts/ai-svg-collection';C=Path('/Volumes/Untitled/brand-logos/_clients')
@@ -25,15 +25,20 @@ def main():
   v=json.loads(vp.read_text()) if vp.exists() else dict(schema=1,algo_v=1,id=bid,primary='original' if not new else '',variants=[])
   if not v['variants'] and not new:v['variants']=[dict(key='original',form='unknown',lang='unknown',color='color',label='기존 로고',files={**({'svg':'logo.svg'} if b.get('logo_svg') or b.get('has_svg') else {}),**({'png':'logo.png'} if b.get('logo_png') or b.get('has_png') else {})},origin='collected',order=0)]
   for r in assets:
-   rel=r['rel'];src=W/'stage'/bid/rel
+   rel=r['rel'];src=W/'stage'/bid/rel;published={}
    for p in [src,src.with_suffix('.png')]:
-    target=d/p.relative_to(W/'stage'/bid);backup(target);target.parent.mkdir(parents=True,exist_ok=True);shutil.copy2(p,target);files.add(str(target.relative_to(C)))
+    digest=hashlib.sha256(p.read_bytes()).hexdigest()
+    immutable=Path(rel).with_name(digest[:20]+p.suffix)
+    target=d/immutable;target.parent.mkdir(parents=True,exist_ok=True)
+    if target.exists():assert hashlib.sha256(target.read_bytes()).hexdigest()==digest,('immutable asset conflict',target)
+    else:shutil.copy2(p,target)
+    files.add(str(target.relative_to(C)));published[p.suffix.lstrip('.')]=str(immutable)
    key=r['provider']+'-'+Path(rel).stem;label=('Lobe Icons' if r['provider']=='lobe' else 'SVGL')+' · '+('워드마크' if r['form']=='wordmark' else '심볼' if r['form']=='symbol' else '가로형')
-   item=dict(key=key,form=r['form'],lang='unknown',color='color',label=label,files=dict(svg=rel,png=str(Path(rel).with_suffix('.png'))),aspect=r['aspect'],provider=r['provider'],origin='collected',order=100+len(v['variants']),source_sha256=r['sha256'],visual_sha256=r['visual_sha256'])
+   item=dict(key=key,form=r['form'],lang='unknown',color='color',label=label,files=published,aspect=r['aspect'],provider=r['provider'],origin='collected',order=100+len(v['variants']),source_sha256=r['sha256'],visual_sha256=r['visual_sha256'])
    merge_variant(v,item)
    if not v['primary']:v['primary']=key
-   source=dict(provider=r['provider'],file=rel,label=label,source_url=r['website'],collected_at=date,upstream_commit=report['upstreams']['lobe-icons' if r['provider']=='lobe' else 'svgl'],current_status='upstream-current; brand redesign date not asserted')
-   b['sources']=[x for x in b.get('sources',[]) if x.get('file')!=rel]+[source]
+   source=dict(provider=r['provider'],file=published['svg'],label=label,source_url=r['website'],collected_at=date,upstream_commit=report['upstreams']['lobe-icons' if r['provider']=='lobe' else 'svgl'],current_status='upstream-current; brand redesign date not asserted')
+   b['sources']=[x for x in b.get('sources',[]) if x.get('file')!=published['svg']]+[source]
   if new:
    primary=next((r for r in assets if r['form'] in ['wordmark','horizontal']),assets[0]);src=W/'stage'/bid/primary['rel']
    for suffix,name in [('.svg','logo.svg'),('.png','logo.png'),('.png','logo-800.png')]:
