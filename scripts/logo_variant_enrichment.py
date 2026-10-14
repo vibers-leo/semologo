@@ -51,16 +51,20 @@ def merge_variant(manifest, incoming):
         matching = None if conflict else same_key
     if matching is not None:
         oldfiles = matching.setdefault('files', {})
+        changed = False
         for ext, path in files.items():
             if path and not oldfiles.get(ext):
                 oldfiles[ext] = path
+                changed = True
         if form_of(matching) is None and form_of(incoming):
             matching['form'] = form_of(incoming)
             matching['lockup'] = form_of(incoming)
+            changed = True
         for field in ('source_url', 'source_sha256', 'visual_sha256', 'preview_png'):
             if incoming.get(field) and not matching.get(field):
                 matching[field] = incoming[field]
-        return 'enriched'
+                changed = True
+        return 'enriched' if changed else 'unchanged'
     if same_key is not None:
         suffix = (fingerprint or hashlib.sha256(json.dumps(files, sort_keys=True).encode()).hexdigest())[:10]
         incoming['key'] += '-' + suffix

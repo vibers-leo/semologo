@@ -17,6 +17,8 @@ class EnrichmentTests(unittest.TestCase):
         self.assertEqual(len(manifest['variants']), 1)
         self.assertEqual(manifest['variants'][0]['files'], {'svg': 'old.svg', 'png': 'transparent.png'})
         self.assertEqual(module.coverage(manifest)['missing'], ['symbol', 'vertical', 'wordmark'])
+        self.assertEqual(module.merge_variant(manifest, {'key': 'new-png', 'form': 'horizontal',
+            'files': {'png': 'transparent.png'}, 'source_sha256': 'a' * 64}), 'unchanged')
 
     def test_same_key_changed_artwork_is_retained_as_new_variant(self):
         manifest = {'id': 'x', 'primary': 'official', 'variants': [
