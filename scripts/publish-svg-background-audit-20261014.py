@@ -167,8 +167,15 @@ def main():
         'protected': len(protected), 'completed_at': time.time()}) + '\n')
 
 def safe_publish(item, client):
-    try: return publish(item, client)
-    except Exception as error: return error
+    for attempt in range(6):
+        try:
+            return publish(item, client)
+        except ClientError as error:
+            if error.response.get('Error', {}).get('Code') != 'SlowDown' or attempt == 5:
+                return error
+            time.sleep(min(2 ** (attempt + 1), 30))
+        except Exception as error:
+            return error
 
 if __name__ == '__main__':
     main()
