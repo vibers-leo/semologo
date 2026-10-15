@@ -1,0 +1,557 @@
+{
+  "patches": {
+    "gongu-ci-0094": {
+      "name_ko": "충남경제진흥원",
+      "aliases": [
+        "(재)충남경제진흥원",
+        "충남경제진흥원"
+      ],
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": "sources/official-economic-20261015/82f649dfc0feea820293/cepa-horizontal-ko.svg",
+      "svg_transparent": "sources/official-economic-20261015/82f649dfc0feea820293/cepa-horizontal-ko.svg",
+      "logo_png": "sources/official-economic-20261015/49eaab4a4610a7844383/cepa-horizontal-ko.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/gongu-ci-0094/sources/official-economic-20261015/49eaab4a4610a7844383/cepa-horizontal-ko.png",
+      "presentation": {
+        "file": "sources/official-economic-20261015/49eaab4a4610a7844383/cepa-horizontal-ko.png",
+        "bg": "light"
+      },
+      "light": false,
+      "light_logo": false,
+      "dark_variant": false,
+      "source_zip": "sources/official-economic-20261015/1510a792f41b8e729f49/CI_AI.zip",
+      "official_source_page": "https://www.cepa.or.kr/introduce/introduce.do?ms=157&pm=3",
+      "asset_origin": "기관 공식 CI AI/PNG 원본 · 개별 시그니처 검수",
+      "asset_review_status": "verified",
+      "variants_n": 8,
+      "rejected_asset_files": [
+        "logo-800.png",
+        "logo-transparent.png",
+        "logo-white.png",
+        "logo-icon.png"
+      ]
+    },
+    "gongu-ci-0571": {
+      "name_ko": "강원특별자치도경제진흥원",
+      "aliases": [
+        "재단법인강원특별자치도경제진흥원",
+        "강원특별자치도경제진흥원"
+      ],
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": "sources/official-economic-20261015/1df7f1e1d64f30035eea/gwep-horizontal.svg",
+      "svg_transparent": "sources/official-economic-20261015/1df7f1e1d64f30035eea/gwep-horizontal.svg",
+      "logo_png": "sources/official-economic-20261015/49d6ec88b82bf8c84e51/gwep-horizontal.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/gongu-ci-0571/sources/official-economic-20261015/49d6ec88b82bf8c84e51/gwep-horizontal.png",
+      "presentation": {
+        "file": "sources/official-economic-20261015/49d6ec88b82bf8c84e51/gwep-horizontal.png",
+        "bg": "light"
+      },
+      "light": false,
+      "light_logo": false,
+      "dark_variant": false,
+      "source_zip": "sources/official-economic-20261015/16c342f40590de5df0c0/GWEP-official.zip",
+      "official_source_page": "https://gwep.or.kr/theme/page/html/company/023.php",
+      "asset_origin": "기관 공식 CI AI/PNG 원본 · 개별 시그니처 검수",
+      "asset_review_status": "verified",
+      "variants_n": 3,
+      "rejected_asset_files": [
+        "logo-800.png",
+        "logo-transparent.png",
+        "logo-white.png",
+        "logo-icon.png"
+      ]
+    },
+    "gongu-ci-0418": {
+      "name_ko": "경남투자경제진흥원",
+      "aliases": [
+        "경남투자경제진흥원",
+        "경남투자경제진흥원"
+      ],
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": "sources/official-economic-20261015/807f28acf835dea1f8eb/giba-horizontal-bilingual.svg",
+      "svg_transparent": "sources/official-economic-20261015/807f28acf835dea1f8eb/giba-horizontal-bilingual.svg",
+      "logo_png": "sources/official-economic-20261015/7e71b67e5ccad3d66e1d/giba-horizontal-bilingual.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/gongu-ci-0418/sources/official-economic-20261015/7e71b67e5ccad3d66e1d/giba-horizontal-bilingual.png",
+      "presentation": {
+        "file": "sources/official-economic-20261015/7e71b67e5ccad3d66e1d/giba-horizontal-bilingual.png",
+        "bg": "light"
+      },
+      "light": false,
+      "light_logo": false,
+      "dark_variant": false,
+      "source_zip": "sources/official-economic-20261015/36a5f0b8b84ad3adf195/giba-CI.zip",
+      "official_source_page": "https://giba.or.kr/fe/inform/ci/NR_index.do",
+      "asset_origin": "기관 공식 CI AI/PNG 원본 · 개별 시그니처 검수",
+      "asset_review_status": "verified",
+      "variants_n": 5,
+      "rejected_asset_files": [
+        "logo-800.png",
+        "logo-transparent.png",
+        "logo-white.png",
+        "logo-icon.png"
+      ]
+    }
+  },
+  "variants": {
+    "gongu-ci-0094": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "gongu-ci-0094",
+      "primary": "official-horizontal-ko-20261015",
+      "variants": [
+        {
+          "key": "official-vertical-ko-20261015",
+          "form": "vertical",
+          "lockup": "vertical",
+          "lang": "ko",
+          "color": "original",
+          "label": "국문 세로형",
+          "files": {
+            "svg": "sources/official-economic-20261015/28e56c2dd215565bf4e1/cepa-vertical-ko.svg",
+            "png": "sources/official-economic-20261015/74dc84352c8ef7532d2a/cepa-vertical-ko.png",
+            "ai": "sources/official-economic-20261015/f4194af73b87dbe77997/cepa-ai-1.ai",
+            "original_png": "sources/official-economic-20261015/4ab5a9fda15cad95ee5a/cepa-png-1.png"
+          },
+          "preview_png": "sources/official-economic-20261015/74dc84352c8ef7532d2a/cepa-vertical-ko.png",
+          "origin": "official",
+          "official": true,
+          "provider": "충남경제진흥원",
+          "source_url": "https://www.cepa.or.kr/css/egovframework/assets/img/new/CI_AI.zip",
+          "derived_from": "https://www.cepa.or.kr/introduce/introduce.do?ms=157&pm=3",
+          "source_sha256": "f4194af73b87dbe77997b5ca5412a4b9df5fe86367dd7df8f51e9710bfd54415",
+          "visual_sha256": "28e56c2dd215565bf4e1e1be964ce7ec052a0cacc0e67fd79cbd10d2ace09fdc",
+          "source_note": "공식 AI의 벡터 경로를 보존해 개별 시그니처로 분리",
+          "review_status": "verified",
+          "order": 0
+        },
+        {
+          "key": "official-horizontal-ko-20261015",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "ko",
+          "color": "original",
+          "label": "국문 가로형",
+          "files": {
+            "svg": "sources/official-economic-20261015/82f649dfc0feea820293/cepa-horizontal-ko.svg",
+            "png": "sources/official-economic-20261015/49eaab4a4610a7844383/cepa-horizontal-ko.png",
+            "ai": "sources/official-economic-20261015/c94e206cd674d5c91300/cepa-ai-2.ai",
+            "original_png": "sources/official-economic-20261015/8f8c6714707c733afc04/cepa-png-2.png"
+          },
+          "preview_png": "sources/official-economic-20261015/49eaab4a4610a7844383/cepa-horizontal-ko.png",
+          "origin": "official",
+          "official": true,
+          "provider": "충남경제진흥원",
+          "source_url": "https://www.cepa.or.kr/css/egovframework/assets/img/new/CI_AI.zip",
+          "derived_from": "https://www.cepa.or.kr/introduce/introduce.do?ms=157&pm=3",
+          "source_sha256": "c94e206cd674d5c913001ba76ac41e373ffc8134aeee89be3e3a789733899945",
+          "visual_sha256": "82f649dfc0feea8202939c4335628a03012bed2e04dd906a8423cd0451f7b71d",
+          "source_note": "공식 AI의 벡터 경로를 보존해 개별 시그니처로 분리",
+          "review_status": "verified",
+          "order": 1
+        },
+        {
+          "key": "official-vertical-bilingual-20261015",
+          "form": "vertical",
+          "lockup": "vertical",
+          "lang": "mixed",
+          "color": "original",
+          "label": "국영문 세로형",
+          "files": {
+            "svg": "sources/official-economic-20261015/64610620b669db00930d/cepa-vertical-bilingual.svg",
+            "png": "sources/official-economic-20261015/862dfc0a967faa2883d9/cepa-vertical-bilingual.png",
+            "ai": "sources/official-economic-20261015/94b7f6fdea168535640f/cepa-ai-3.ai",
+            "original_png": "sources/official-economic-20261015/80747949a2813e0f11f2/cepa-png-3.png"
+          },
+          "preview_png": "sources/official-economic-20261015/862dfc0a967faa2883d9/cepa-vertical-bilingual.png",
+          "origin": "official",
+          "official": true,
+          "provider": "충남경제진흥원",
+          "source_url": "https://www.cepa.or.kr/css/egovframework/assets/img/new/CI_AI.zip",
+          "derived_from": "https://www.cepa.or.kr/introduce/introduce.do?ms=157&pm=3",
+          "source_sha256": "94b7f6fdea168535640f207250d12d158fc005a7a345bbe3c2baf43d332f9a2d",
+          "visual_sha256": "64610620b669db00930d3103a603d0b40f081f615a1e05b4841f6b72aeeef40b",
+          "source_note": "공식 AI의 벡터 경로를 보존해 개별 시그니처로 분리",
+          "review_status": "verified",
+          "order": 2
+        },
+        {
+          "key": "official-horizontal-bilingual-20261015",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "mixed",
+          "color": "original",
+          "label": "국영문 가로형",
+          "files": {
+            "svg": "sources/official-economic-20261015/4cb22cb24d57ddac67d3/cepa-horizontal-bilingual.svg",
+            "png": "sources/official-economic-20261015/d54206d612252b4a1e2f/cepa-horizontal-bilingual.png",
+            "ai": "sources/official-economic-20261015/1763274ba19487f3d035/cepa-ai-4.ai",
+            "original_png": "sources/official-economic-20261015/04ab5ce75bdb6119e543/cepa-png-4.png"
+          },
+          "preview_png": "sources/official-economic-20261015/d54206d612252b4a1e2f/cepa-horizontal-bilingual.png",
+          "origin": "official",
+          "official": true,
+          "provider": "충남경제진흥원",
+          "source_url": "https://www.cepa.or.kr/css/egovframework/assets/img/new/CI_AI.zip",
+          "derived_from": "https://www.cepa.or.kr/introduce/introduce.do?ms=157&pm=3",
+          "source_sha256": "1763274ba19487f3d035fb570edac3ad4df27e8da312738de1fe4778e075e806",
+          "visual_sha256": "4cb22cb24d57ddac67d3ad66bd924c679eb90e11b2dda9183b5992bdf3277b48",
+          "source_note": "공식 AI의 벡터 경로를 보존해 개별 시그니처로 분리",
+          "review_status": "verified",
+          "order": 3
+        },
+        {
+          "key": "official-vertical-en-20261015",
+          "form": "vertical",
+          "lockup": "vertical",
+          "lang": "en",
+          "color": "original",
+          "label": "영문 세로형",
+          "files": {
+            "svg": "sources/official-economic-20261015/c6dfd4c5effdb8e96933/cepa-vertical-en.svg",
+            "png": "sources/official-economic-20261015/41551cc990b61a1c3d44/cepa-vertical-en.png",
+            "ai": "sources/official-economic-20261015/651396a996cccfc7b8bc/cepa-ai-5.ai",
+            "original_png": "sources/official-economic-20261015/67783e7341da336a61e6/cepa-png-5.png"
+          },
+          "preview_png": "sources/official-economic-20261015/41551cc990b61a1c3d44/cepa-vertical-en.png",
+          "origin": "official",
+          "official": true,
+          "provider": "충남경제진흥원",
+          "source_url": "https://www.cepa.or.kr/css/egovframework/assets/img/new/CI_AI.zip",
+          "derived_from": "https://www.cepa.or.kr/introduce/introduce.do?ms=157&pm=3",
+          "source_sha256": "651396a996cccfc7b8bcdf43cafbf5f054aca7b0478b0c567241b93178010ffd",
+          "visual_sha256": "c6dfd4c5effdb8e96933f3ef138e3eb06fa0b779634d42ccf90e7266639f28d7",
+          "source_note": "공식 AI의 벡터 경로를 보존해 개별 시그니처로 분리",
+          "review_status": "verified",
+          "order": 4
+        },
+        {
+          "key": "official-horizontal-en-20261015",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "en",
+          "color": "original",
+          "label": "영문 가로형",
+          "files": {
+            "svg": "sources/official-economic-20261015/8a9769bec45f210bd6fd/cepa-horizontal-en.svg",
+            "png": "sources/official-economic-20261015/42927ac131431b6de845/cepa-horizontal-en.png",
+            "ai": "sources/official-economic-20261015/2423afd54a6e8efcf3ca/cepa-ai-6.ai",
+            "original_png": "sources/official-economic-20261015/55851a4891f2586a143c/cepa-png-6.png"
+          },
+          "preview_png": "sources/official-economic-20261015/42927ac131431b6de845/cepa-horizontal-en.png",
+          "origin": "official",
+          "official": true,
+          "provider": "충남경제진흥원",
+          "source_url": "https://www.cepa.or.kr/css/egovframework/assets/img/new/CI_AI.zip",
+          "derived_from": "https://www.cepa.or.kr/introduce/introduce.do?ms=157&pm=3",
+          "source_sha256": "2423afd54a6e8efcf3ca4afc20bbb1cb119206b19804f31388f451de7b8717ac",
+          "visual_sha256": "8a9769bec45f210bd6fd0005e37260c7150ff567da7428e552402a3104da814c",
+          "source_note": "공식 AI의 벡터 경로를 보존해 개별 시그니처로 분리",
+          "review_status": "verified",
+          "order": 5
+        },
+        {
+          "key": "official-symbol-20261015",
+          "form": "symbol",
+          "lockup": "symbol",
+          "lang": "none",
+          "color": "original",
+          "label": "CEPA 심볼마크",
+          "files": {
+            "svg": "sources/official-economic-20261015/92d89534fce00a8b3536/cepa-symbol.svg",
+            "png": "sources/official-economic-20261015/793790c198f6c84d5293/cepa-symbol.png",
+            "ai": "sources/official-economic-20261015/c94e206cd674d5c91300/cepa-ai-2.ai"
+          },
+          "preview_png": "sources/official-economic-20261015/793790c198f6c84d5293/cepa-symbol.png",
+          "origin": "official",
+          "official": true,
+          "provider": "충남경제진흥원",
+          "source_url": "https://www.cepa.or.kr/css/egovframework/assets/img/new/CI_AI.zip",
+          "derived_from": "https://www.cepa.or.kr/introduce/introduce.do?ms=157&pm=3",
+          "source_sha256": "c94e206cd674d5c913001ba76ac41e373ffc8134aeee89be3e3a789733899945",
+          "visual_sha256": "92d89534fce00a8b3536cce772a328eebc10a572f00617c0a31b10b0905fd545",
+          "source_note": "공식 AI의 벡터 경로를 보존해 개별 시그니처로 분리",
+          "review_status": "verified",
+          "order": 6
+        },
+        {
+          "key": "official-wordmark-ko-20261015",
+          "form": "wordmark",
+          "lockup": "wordmark",
+          "lang": "ko",
+          "color": "original",
+          "label": "충남경제진흥원 글자형",
+          "files": {
+            "svg": "sources/official-economic-20261015/dad6fab545c23aa95aa3/cepa-wordmark-ko.svg",
+            "png": "sources/official-economic-20261015/773ca2f438b3486b3601/cepa-wordmark-ko.png",
+            "ai": "sources/official-economic-20261015/c94e206cd674d5c91300/cepa-ai-2.ai"
+          },
+          "preview_png": "sources/official-economic-20261015/773ca2f438b3486b3601/cepa-wordmark-ko.png",
+          "origin": "official",
+          "official": true,
+          "provider": "충남경제진흥원",
+          "source_url": "https://www.cepa.or.kr/css/egovframework/assets/img/new/CI_AI.zip",
+          "derived_from": "https://www.cepa.or.kr/introduce/introduce.do?ms=157&pm=3",
+          "source_sha256": "c94e206cd674d5c913001ba76ac41e373ffc8134aeee89be3e3a789733899945",
+          "visual_sha256": "dad6fab545c23aa95aa3cab1d3e4657c339b9986da2f681feee5a664dc2accdf",
+          "source_note": "공식 AI의 벡터 경로를 보존해 개별 시그니처로 분리",
+          "review_status": "verified",
+          "order": 7
+        }
+      ]
+    },
+    "gongu-ci-0571": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "gongu-ci-0571",
+      "primary": "official-horizontal-20261015",
+      "variants": [
+        {
+          "key": "official-horizontal-20261015",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "mixed",
+          "color": "original",
+          "label": "국영문 가로형 · 컬러",
+          "files": {
+            "svg": "sources/official-economic-20261015/1df7f1e1d64f30035eea/gwep-horizontal.svg",
+            "png": "sources/official-economic-20261015/49d6ec88b82bf8c84e51/gwep-horizontal.png",
+            "ai": "sources/official-economic-20261015/ebb54cfc57d6bc8c6871/gwep-official.ai"
+          },
+          "preview_png": "sources/official-economic-20261015/49d6ec88b82bf8c84e51/gwep-horizontal.png",
+          "origin": "official",
+          "official": true,
+          "provider": "강원특별자치도경제진흥원",
+          "source_url": "https://gwep.or.kr/theme/page/html/company/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%EA%B2%BD%EC%A0%9C%EC%A7%84%ED%9D%A5%EC%9B%90%EB%A1%9C%EA%B3%A0.zip",
+          "derived_from": "https://gwep.or.kr/theme/page/html/company/023.php",
+          "source_sha256": "ebb54cfc57d6bc8c68711e8436c40990ccfb1a92dbc0aa0ac95a1bc4b1aa9139",
+          "visual_sha256": "1df7f1e1d64f30035eead0cffc3c9cacb85556ba1293612ef4cfbfa892829f57",
+          "source_note": "공식 AI의 벡터 경로를 보존해 개별 시그니처로 분리",
+          "review_status": "verified",
+          "order": 0
+        },
+        {
+          "key": "official-symbol-20261015",
+          "form": "symbol",
+          "lockup": "symbol",
+          "lang": "none",
+          "color": "original",
+          "label": "강원경제진흥원 심볼",
+          "files": {
+            "svg": "sources/official-economic-20261015/26693bfcbdbf45a5def6/gwep-symbol.svg",
+            "png": "sources/official-economic-20261015/dcdff7aeb00eb1e5bd72/gwep-symbol.png",
+            "ai": "sources/official-economic-20261015/ebb54cfc57d6bc8c6871/gwep-official.ai"
+          },
+          "preview_png": "sources/official-economic-20261015/dcdff7aeb00eb1e5bd72/gwep-symbol.png",
+          "origin": "official",
+          "official": true,
+          "provider": "강원특별자치도경제진흥원",
+          "source_url": "https://gwep.or.kr/theme/page/html/company/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%EA%B2%BD%EC%A0%9C%EC%A7%84%ED%9D%A5%EC%9B%90%EB%A1%9C%EA%B3%A0.zip",
+          "derived_from": "https://gwep.or.kr/theme/page/html/company/023.php",
+          "source_sha256": "ebb54cfc57d6bc8c68711e8436c40990ccfb1a92dbc0aa0ac95a1bc4b1aa9139",
+          "visual_sha256": "26693bfcbdbf45a5def6aff9f83283abd4290fcaea3c7646391616e9d443ba74",
+          "source_note": "공식 AI의 벡터 경로를 보존해 개별 시그니처로 분리",
+          "review_status": "verified",
+          "order": 1
+        },
+        {
+          "key": "official-wordmark-20261015",
+          "form": "wordmark",
+          "lockup": "wordmark",
+          "lang": "mixed",
+          "color": "original",
+          "label": "국영문 글자형",
+          "files": {
+            "svg": "sources/official-economic-20261015/ad6bd760ddf9635313e8/gwep-wordmark.svg",
+            "png": "sources/official-economic-20261015/e30c06da625951d26b81/gwep-wordmark.png",
+            "ai": "sources/official-economic-20261015/ebb54cfc57d6bc8c6871/gwep-official.ai"
+          },
+          "preview_png": "sources/official-economic-20261015/e30c06da625951d26b81/gwep-wordmark.png",
+          "origin": "official",
+          "official": true,
+          "provider": "강원특별자치도경제진흥원",
+          "source_url": "https://gwep.or.kr/theme/page/html/company/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%EA%B2%BD%EC%A0%9C%EC%A7%84%ED%9D%A5%EC%9B%90%EB%A1%9C%EA%B3%A0.zip",
+          "derived_from": "https://gwep.or.kr/theme/page/html/company/023.php",
+          "source_sha256": "ebb54cfc57d6bc8c68711e8436c40990ccfb1a92dbc0aa0ac95a1bc4b1aa9139",
+          "visual_sha256": "ad6bd760ddf9635313e8cdfe17a15bdcd00c78f2790ca233ec6d6909f190fe8b",
+          "source_note": "공식 AI의 벡터 경로를 보존해 개별 시그니처로 분리",
+          "review_status": "verified",
+          "order": 2
+        }
+      ],
+      "archived_variants": [
+        {
+          "key": "official-fb7321b2c1b6",
+          "form": "horizontal",
+          "lang": "ko",
+          "color": "original",
+          "files": {
+            "png": "sources/official-reviewed-20261008/fb7321b2c1b67987.png",
+            "svg": "sources/official-reviewed-20261008/fb7321b2c1b67987.svg"
+          },
+          "label": "공식 로고타입",
+          "light": false,
+          "order": -1,
+          "origin": "collected",
+          "provider": "공식 기관 홈페이지",
+          "asset_group": "logotype",
+          "archive_reason": "공식 CI 판에 두 배경용 로고가 함께 있어 개별 로고에서 제외"
+        }
+      ]
+    },
+    "gongu-ci-0418": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "gongu-ci-0418",
+      "primary": "official-horizontal-bilingual-20261015",
+      "variants": [
+        {
+          "key": "official-horizontal-bilingual-20261015",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "mixed",
+          "color": "original",
+          "label": "국영문 가로형",
+          "files": {
+            "svg": "sources/official-economic-20261015/807f28acf835dea1f8eb/giba-horizontal-bilingual.svg",
+            "png": "sources/official-economic-20261015/7e71b67e5ccad3d66e1d/giba-horizontal-bilingual.png",
+            "ai": "sources/official-economic-20261015/65d6d98835ea29ef2135/giba-4.ai"
+          },
+          "preview_png": "sources/official-economic-20261015/7e71b67e5ccad3d66e1d/giba-horizontal-bilingual.png",
+          "origin": "official",
+          "official": true,
+          "provider": "경남투자경제진흥원",
+          "source_url": "https://giba.or.kr/resources/front/images/GIBA_CI.Zip",
+          "derived_from": "https://giba.or.kr/fe/inform/ci/NR_index.do",
+          "source_sha256": "65d6d98835ea29ef21354177db7a99f07c5299d388420f73e6781a83e52beb52",
+          "visual_sha256": "807f28acf835dea1f8eb2981962e6f591058f12289058f7f334d338c953e3dab",
+          "source_note": "공식 AI의 벡터 경로를 보존해 개별 시그니처로 분리",
+          "review_status": "verified",
+          "order": 0
+        },
+        {
+          "key": "official-vertical-bilingual-20261015",
+          "form": "vertical",
+          "lockup": "vertical",
+          "lang": "mixed",
+          "color": "original",
+          "label": "국영문 세로형",
+          "files": {
+            "svg": "sources/official-economic-20261015/6ad54c06550a800e9f90/giba-vertical-bilingual.svg",
+            "png": "sources/official-economic-20261015/f7dc254d5b99eaf21e38/giba-vertical-bilingual.png",
+            "ai": "sources/official-economic-20261015/3f1ecc2265b2081b03b1/giba-6.ai"
+          },
+          "preview_png": "sources/official-economic-20261015/f7dc254d5b99eaf21e38/giba-vertical-bilingual.png",
+          "origin": "official",
+          "official": true,
+          "provider": "경남투자경제진흥원",
+          "source_url": "https://giba.or.kr/resources/front/images/GIBA_CI.Zip",
+          "derived_from": "https://giba.or.kr/fe/inform/ci/NR_index.do",
+          "source_sha256": "3f1ecc2265b2081b03b154a366f1b9febe3d07ea49e7ba584011a9f8cd701df3",
+          "visual_sha256": "6ad54c06550a800e9f90c1c88c3a6c2ce385c2adbef9a90028e619070f5abd78",
+          "source_note": "공식 AI의 벡터 경로를 보존해 개별 시그니처로 분리",
+          "review_status": "verified",
+          "order": 1
+        },
+        {
+          "key": "official-horizontal-en-20261015",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "en",
+          "color": "original",
+          "label": "영문 가로형",
+          "files": {
+            "svg": "sources/official-economic-20261015/15c5cbb6390f3b6840e7/giba-horizontal-en.svg",
+            "png": "sources/official-economic-20261015/471cd91ca59dc7bc31aa/giba-horizontal-en.png",
+            "ai": "sources/official-economic-20261015/3619a0346dfdeb2b5131/giba-8.ai"
+          },
+          "preview_png": "sources/official-economic-20261015/471cd91ca59dc7bc31aa/giba-horizontal-en.png",
+          "origin": "official",
+          "official": true,
+          "provider": "경남투자경제진흥원",
+          "source_url": "https://giba.or.kr/resources/front/images/GIBA_CI.Zip",
+          "derived_from": "https://giba.or.kr/fe/inform/ci/NR_index.do",
+          "source_sha256": "3619a0346dfdeb2b5131a29cc645762f26260d3a427b97e50788f7109c977983",
+          "visual_sha256": "15c5cbb6390f3b6840e7d5fa8a54f18a62ac15ed0250a2c7dcd64b5a96d824db",
+          "source_note": "공식 AI의 벡터 경로를 보존해 개별 시그니처로 분리",
+          "review_status": "verified",
+          "order": 2
+        },
+        {
+          "key": "official-symbol-20261015",
+          "form": "symbol",
+          "lockup": "symbol",
+          "lang": "none",
+          "color": "original",
+          "label": "경남투자경제진흥원 심볼",
+          "files": {
+            "svg": "sources/official-economic-20261015/506703524cef19290160/giba-symbol.svg",
+            "png": "sources/official-economic-20261015/b16b1672f5371d0066e9/giba-symbol.png",
+            "ai": "sources/official-economic-20261015/3f1ecc2265b2081b03b1/giba-6.ai"
+          },
+          "preview_png": "sources/official-economic-20261015/b16b1672f5371d0066e9/giba-symbol.png",
+          "origin": "official",
+          "official": true,
+          "provider": "경남투자경제진흥원",
+          "source_url": "https://giba.or.kr/resources/front/images/GIBA_CI.Zip",
+          "derived_from": "https://giba.or.kr/fe/inform/ci/NR_index.do",
+          "source_sha256": "3f1ecc2265b2081b03b154a366f1b9febe3d07ea49e7ba584011a9f8cd701df3",
+          "visual_sha256": "506703524cef19290160b0797a5480ee2fde5c35fa1b36328a4340133018794d",
+          "source_note": "공식 AI의 벡터 경로를 보존해 개별 시그니처로 분리",
+          "review_status": "verified",
+          "order": 3
+        },
+        {
+          "key": "official-wordmark-ko-20261015",
+          "form": "wordmark",
+          "lockup": "wordmark",
+          "lang": "ko",
+          "color": "original",
+          "label": "국영문 글자형",
+          "files": {
+            "svg": "sources/official-economic-20261015/9ee21f0e59b8087cc19b/giba-wordmark-ko.svg",
+            "png": "sources/official-economic-20261015/c4b96e59e0c7c75e4c31/giba-wordmark-ko.png",
+            "ai": "sources/official-economic-20261015/65d6d98835ea29ef2135/giba-4.ai"
+          },
+          "preview_png": "sources/official-economic-20261015/c4b96e59e0c7c75e4c31/giba-wordmark-ko.png",
+          "origin": "official",
+          "official": true,
+          "provider": "경남투자경제진흥원",
+          "source_url": "https://giba.or.kr/resources/front/images/GIBA_CI.Zip",
+          "derived_from": "https://giba.or.kr/fe/inform/ci/NR_index.do",
+          "source_sha256": "65d6d98835ea29ef21354177db7a99f07c5299d388420f73e6781a83e52beb52",
+          "visual_sha256": "9ee21f0e59b8087cc19b2b5e614ad4501145fb66734b586e11c21c7a52bdc5b7",
+          "source_note": "공식 AI의 벡터 경로를 보존해 개별 시그니처로 분리",
+          "review_status": "verified",
+          "order": 4
+        }
+      ]
+    }
+  },
+  "sources": {
+    "gongu-ci-0094": {
+      "page": "https://www.cepa.or.kr/introduce/introduce.do?ms=157&pm=3",
+      "ai_zip": "https://www.cepa.or.kr/css/egovframework/assets/img/new/CI_AI.zip",
+      "png_zip": "https://www.cepa.or.kr/css/egovframework/assets/img/new/CI_PNG.zip",
+      "files": [
+        "CI_AI.zip",
+        "CI_PNG.zip"
+      ]
+    },
+    "gongu-ci-0571": {
+      "page": "https://gwep.or.kr/theme/page/html/company/023.php",
+      "ai_zip": "https://gwep.or.kr/theme/page/html/company/%EA%B0%95%EC%9B%90%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%EA%B2%BD%EC%A0%9C%EC%A7%84%ED%9D%A5%EC%9B%90%EB%A1%9C%EA%B3%A0.zip",
+      "files": [
+        "GWEP-official.zip"
+      ]
+    },
+    "gongu-ci-0418": {
+      "page": "https://giba.or.kr/fe/inform/ci/NR_index.do",
+      "ai_zip": "https://giba.or.kr/resources/front/images/GIBA_CI.Zip",
+      "files": [
+        "giba-CI.zip"
+      ]
+    }
+  }
+}
