@@ -31,6 +31,8 @@ def one(job):
 
 d=json.loads(MAN.read_text()); items=d['items']; jobs=[]
 for item in items:
+    if item.get('status') == 'domain-identity-mismatch':
+        continue
     links=[u for u in item.get('asset_links',[]) if GOOD.search(Path(urlparse(u).path).name)][:2]
     if links: jobs.append((item,links[0]))
 with concurrent.futures.ThreadPoolExecutor(max_workers=32) as ex:

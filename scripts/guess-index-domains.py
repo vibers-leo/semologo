@@ -17,7 +17,8 @@ def slug(s):
     return s
 def candidates(x):
     t=x['ticker'].replace(' ','').lower(); s=slug(x['company_name'])
-    return list(dict.fromkeys([f'{s}.com',f'{t}.com',f'{s}inc.com']))
+    return [domain for domain in dict.fromkeys([f'{s}.com',f'{t}.com',f'{s}inc.com'])
+            if domain != x.get('rejected_domain')]
 def check(dom):
     try:
         r=urlopen(Request('https://'+dom+'/',headers={'User-Agent':'SemoLogo-domain-discovery/1.0'}),timeout=5)

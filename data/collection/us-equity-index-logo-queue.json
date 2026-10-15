@@ -23649,8 +23649,8 @@
           "index_memberships": [
             "Russell 2000"
           ],
-          "status": "domain-candidate",
-          "domain_candidate": "cps.com"
+          "status": "domain-identity-mismatch",
+          "rejected_domain": "cps.com"
         },
         {
           "ticker": "CBNK",
@@ -27894,8 +27894,8 @@
           "index_memberships": [
             "Russell 2000"
           ],
-          "status": "domain-candidate",
-          "domain_candidate": "inbk.com"
+          "status": "domain-identity-mismatch",
+          "rejected_domain": "inbk.com"
         },
         {
           "ticker": "PPHC",
@@ -28285,8 +28285,8 @@
           "index_memberships": [
             "Russell 2000"
           ],
-          "status": "domain-candidate",
-          "domain_candidate": "kingsway.com"
+          "status": "domain-identity-mismatch",
+          "rejected_domain": "kingsway.com"
         },
         {
           "ticker": "TG",

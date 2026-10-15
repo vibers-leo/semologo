@@ -27695,7 +27695,7 @@
       "index_memberships": [
         "Russell 2000"
       ],
-      "status": "candidate-asset-staged-external",
+      "status": "domain-identity-mismatch",
       "domain_candidate": "cps.com",
       "asset_links": [
         "https://cps.com/hubfs/CPS-Logo-Digital-Nav%20Bar-v4.svg",
@@ -34175,7 +34175,7 @@
       "index_memberships": [
         "Russell 2000"
       ],
-      "status": "candidate-asset-staged-external",
+      "status": "domain-identity-mismatch",
       "domain_candidate": "inbk.com",
       "asset_links": [
         "https://inbk.com/assets/img/inbk-footer-logo.svg",
@@ -34691,7 +34691,7 @@
       "index_memberships": [
         "Russell 2000"
       ],
-      "status": "candidate-asset-staged-external",
+      "status": "domain-identity-mismatch",
       "domain_candidate": "kingsway.com",
       "asset_links": [
         "https://kingsway.com/wp-content/uploads/2019/12/marble-floor-slide.jpg",
