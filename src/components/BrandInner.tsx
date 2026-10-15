@@ -524,7 +524,7 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
   };
 
   const candidateBg = (file:string, fallback:"light"|"dark"="light") => candidateBgs[file] || fallback;
-  const candidateActions = (file:string,label:string,bg:"light"|"dark",fixed=false) => {
+  const candidateActions = (file:string,label:string,bg:"light"|"dark",fixed=false,reviewable=!fixed) => {
     const voted=votedFiles.includes(presentationVoteId(file,bg)) || (bg==="light" && votedFiles.includes(file));
     const selected=presentation?.file===file && presentation.bg===bg;
     const applicable=validPresentation({file,bg}) && !brand.rejected_asset_files?.includes(file);
@@ -535,7 +535,7 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
       <div style={{display:"flex",gap:6,flexWrap:"wrap"}}>
         <button className="logo-candidate-vote" type="button" aria-pressed={voted} onClick={()=>void castVote(file,label,bg)} title="이 파일과 배경을 대표 이미지로 추천">{voted?"✓ 추천함":"👍 대표 추천"} {presentationVoteCount(votes,file,bg)||""}</button>
         {isAdmin && applicable && <button className="logo-candidate-apply" type="button" disabled={savingPresentation||selected} onClick={()=>void savePresentation(file,bg)}>{selected?"✓ 현재 대표":"대표로 지정"}</button>}
-        {isAdmin && !fixed && !file.startsWith('generated-dark:') && <button className="logo-candidate-apply" type="button" aria-pressed={variantReviews[file] === 'replace'} disabled={savingVariantReview === file} onClick={()=>void flagVariant(file)}>{variantReviews[file] === 'replace' ? '✓ 교체 검토 중' : '🚩 교체 필요'}</button>}
+        {isAdmin && reviewable && <button className="logo-candidate-apply" type="button" aria-pressed={variantReviews[file] === 'replace'} disabled={savingVariantReview === file} onClick={()=>void flagVariant(file)}>{variantReviews[file] === 'replace' ? '✓ 교체 검토 중' : '🚩 교체 필요'}</button>}
       </div>
     </div>;
   };
@@ -1011,7 +1011,7 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
             {invertedUrl && <div className="logo-composition-card" style={{border:"1px solid #e4e4e7",borderRadius:12,overflow:"hidden"}}>
               <div className="logo-composition-preview" style={{background:"#111114",display:"flex",alignItems:"center",padding:12}}><img src={invertedUrl} alt="다크 배경용 PNG" style={{width:"100%",maxHeight:116,objectFit:"contain"}}/></div>
               <div style={{padding:"12px 12px 6px"}}><b style={{fontSize:12}}>다크 배경용 PNG</b><p style={{fontSize:11,color:"#71717a"}}>자동 생성한 다운로드 파일이에요.</p></div>
-              <div style={{gridColumn:2,padding:"4px 12px 12px"}}><button className="logo-candidate-apply" onClick={()=>void grab(invertedUrl,`${brand.id}-dark.png`)}>PNG 다운로드</button>{candidateActions(`generated-dark:${presentationAssetFile(brand,brand.logo_png)||"logo.png"}`,"다크 배경용 PNG","dark",true)}</div>
+              <div style={{gridColumn:2,padding:"4px 12px 12px"}}><button className="logo-candidate-apply" onClick={()=>void grab(invertedUrl,`${brand.id}-dark.png`)}>PNG 다운로드</button>{candidateActions(`generated-dark:${presentationAssetFile(brand,brand.logo_png)||"logo.png"}`,"다크 배경용 PNG","dark",true,true)}</div>
             </div>}
             {variants.map(v=>{
               const bg=candidateBg(v.file,v.bg==="dark"?"dark":"light");

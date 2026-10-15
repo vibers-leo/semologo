@@ -11,7 +11,7 @@ declare global {
 /** GA가 차단됐거나 아직 로드되지 않은 환경에서도 사용자 흐름을 멈추지 않는다. */
 export function trackEvent(eventName: string, params: EventParams = {}) {
   try { window.gtag?.("event", eventName, params); } catch { /* Optional GA must not block first-party tracking. */ }
-  if (!['page_view', 'search_submitted', 'search_no_result', 'brand_opened', 'logo_downloaded', 'bookmark_help_opened', 'bookmark_link_copied'].includes(eventName) || location.pathname.startsWith('/admin')) return;
+  if (!['page_view', 'search_submitted', 'search_no_result', 'brand_opened', 'logo_downloaded', 'bookmark_help_opened', 'bookmark_link_copied', 'affiliate_impression', 'affiliate_click'].includes(eventName) || location.pathname.startsWith('/admin')) return;
   try {
     if (eventName === 'page_view') {
       const query = new URLSearchParams(location.search);

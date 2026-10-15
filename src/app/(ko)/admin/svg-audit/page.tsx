@@ -124,14 +124,16 @@ export default function SvgAuditAdminPage() {
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit,minmax(min(100%,450px),1fr))', gap: 10 }}>
           {(status === 'variants' ? variants.map(item => ({ ...item, name_ko: item.id, name_en: item.file, status: 'variant', reason: '', review: { decision: item.decision, at: item.at } })) : items).map(item => {
             const file = status === 'variants' ? item.name_en : '';
+            const generatedDark = file.startsWith('generated-dark:');
+            const previewFile = generatedDark ? file.slice('generated-dark:'.length) : file;
             return <article key={`${item.id}:${file}`} style={{ display: 'flex', gap: 12, padding: 12, border: '1px solid #e4e4e7', borderRadius: 12, background: '#fff' }}>
               {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src={status === 'variants' ? `${CDN}/${item.id}/${file}` : `${CDN}/${item.id}/logo.svg`} alt="" loading="lazy"
-                style={{ width: 105, height: 96, objectFit: 'contain', flexShrink: 0, background: '#e4e4e7', borderRadius: 8 }}
+              <img src={status === 'variants' ? `${CDN}/${item.id}/${previewFile}` : `${CDN}/${item.id}/logo.svg`} alt="" loading="lazy"
+                style={{ width: 105, height: 96, objectFit: 'contain', flexShrink: 0, background: generatedDark ? '#18181b' : '#e4e4e7', borderRadius: 8 }}
                 onError={event => { if (!event.currentTarget.src.includes('/logo.png')) event.currentTarget.src = `${CDN}/${item.id}/logo.png`; }}/>
               <div style={{ minWidth: 0, flex: 1 }}><b style={{ fontSize: 13 }}>{item.name_ko || item.name_en || item.id}</b>
-                <div style={{ fontSize: 11, color: '#71717a', overflowWrap: 'anywhere' }}>{item.id}{file ? ` · ${file}` : ''}</div>
-                <div style={{ fontSize: 12, color: '#71717a', margin: '4px 0 9px' }}>{status === 'variants' ? '구성 이미지 교체 검토' : reviewReason(item)}</div>
+                <div style={{ fontSize: 11, color: '#71717a', overflowWrap: 'anywhere' }}>{item.id}{file ? ` · ${generatedDark ? `자동 생성 다크 PNG (원본: ${previewFile})` : file}` : ''}</div>
+                <div style={{ fontSize: 12, color: '#71717a', margin: '4px 0 9px' }}>{generatedDark ? '왼쪽은 원본 미리보기예요. 다크용 결과는 콘텐츠에서 확인해 주세요.' : status === 'variants' ? '구성 이미지 교체 검토' : reviewReason(item)}</div>
                 {choices(item.id, item.review?.decision || null, file)}
                 <a href={`/brand/${encodeURIComponent(item.id)}/`} target="_blank" rel="noopener noreferrer" style={{ fontSize: 11, display: 'inline-block', marginTop: 8 }}>콘텐츠 보기 ↗</a>
               </div>

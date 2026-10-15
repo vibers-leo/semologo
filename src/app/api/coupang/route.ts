@@ -96,15 +96,15 @@ export async function GET(request: Request) {
           const json = await response.json();
           const candidates = Array.isArray(json?.data?.productData) ? json.data.productData : [];
           const compactName = name.replace(/\s/g, "").toLowerCase();
-          const match = candidates.find((p: Record<string, unknown>) => {
+          const matches = candidates.filter((p: Record<string, unknown>) => {
             if (!p.productId || !p.productUrl || !p.productImage) return false;
             return isTodayHouse || String(p.productName || "").replace(/\s/g, "").toLowerCase().includes(compactName);
-          });
-          if (match) {
-            return NextResponse.json({ mode: "related", label: isTodayHouse ? "집 꾸미기 상품" : `${name} 관련 상품`, products: [{
-              id: match.productId, name: match.productName, price: match.productPrice,
-              image: match.productImage, url: match.productUrl, rocket: match.isRocket,
-            }] });
+          }).slice(0, 5);
+          if (matches.length) {
+            return NextResponse.json({ mode: "related", label: isTodayHouse ? "집 꾸미기 상품" : `${name} 관련 상품`, products: matches.map((product: Record<string, unknown>) => ({
+              id: product.productId, name: product.productName, price: product.productPrice,
+              image: product.productImage, url: product.productUrl, rocket: product.isRocket,
+            })) });
           }
         }
         } catch (error) {
