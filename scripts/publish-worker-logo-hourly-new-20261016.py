@@ -41,6 +41,15 @@ BATCHES = {
             'us-hourly-lnth': ('lantheus', 'Lantheus', '의료·바이오', 'light'),
             'us-hourly-novt': ('novanta', 'Novanta', '제조·그룹', 'light'),
         }),
+    'r28-next': (
+        ROOT / 'marketing/assets/worker-logo-hourly-20261016-0832',
+        ROOT / 'marketing/assets/worker-logo-hourly-new-20261016/semologo-sources.json',
+        {
+            'us-hourly-gva': ('granite-construction', 'Granite Construction', '건설·부동산', 'light'),
+            'us-hourly-hcc': ('warrior-met-coal', 'Warrior Met Coal', '에너지·화학', 'light'),
+            'us-hourly-opln': ('openlane', 'OPENLANE', '유통·쇼핑', 'light'),
+            'us-hourly-tpc': ('tutor-perini', 'Tutor Perini', '건설·부동산', 'light'),
+        }),
 }
 
 

@@ -3,7 +3,7 @@ import CatalogIntro from "./CatalogIntro";
 import { sortPreparedBrands } from "@/lib/brand-grid-sort";
 import { applyPresentation, type LogoPresentation } from "@/lib/logo-presentation";
 import CardLogo from "./CardLogo";
-import { logoPngCandidates, logoImageCandidates } from "@/lib/logo-png-source";
+import { logoAssetUrl, logoPngCandidates, logoImageCandidates } from "@/lib/logo-png-source";
 import { collection, getDocs, query as firestoreQuery, where } from "firebase/firestore";
 import { getClientDb } from "@/lib/firebase";
 import { analyzeLogoVisibility } from "@/lib/logo-visibility";
@@ -611,7 +611,7 @@ export default function BrandGrid({
 function BrandCard({ brand, onClick, priority, bgVote }: { brand: Brand; onClick: () => void; priority: boolean; bgVote?: "dark" | "light" }) {
   const {en, t} = useLocale();
   const pngUrl = logoPngCandidates(brand)[0];
-  const transparentUrl = brand.preview_png || (brand.rejected_asset_files?.includes("logo-transparent.png") ? pngUrl : `${CDN}/${brand.id}/logo-transparent.png?v=${VERSION}`);
+  const transparentUrl = (brand.preview_png && logoAssetUrl(brand, brand.preview_png)) || (brand.rejected_asset_files?.includes("logo-transparent.png") ? pngUrl : `${CDN}/${brand.id}/logo-transparent.png?v=${VERSION}`);
   const hasSvg = !!(brand.logo_svg || brand.has_svg);
   const hasPng = !!(brand.logo_png || brand.has_png);
   const directPng = typeof brand.logo_png === "string" && /\.png(?:\?|$)/i.test(brand.logo_png)

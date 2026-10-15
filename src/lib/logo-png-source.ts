@@ -1,5 +1,11 @@
 import type { Brand } from './brands';
 import { CDN, VERSION } from './cdn';
+/** CMS preview filenames are sometimes relative to the brand CDN folder. */
+export function logoAssetUrl(brand: Brand, file: string): string {
+  if (/^(?:https?:\/\/|\/|blob:)/.test(file)) return file;
+  if (file.includes('..') || !/^[\w./-]+$/.test(file)) return '';
+  return `${CDN}/${brand.id}/${file}?v=${VERSION}`;
+}
 /** One serving order for cards and prefetch. Flags alone never prove file existence. */
 export function logoPngCandidates(brand: Brand): string[] {
   // Personal uploads stay in their authenticated blob URL; never probe public CDN paths.
@@ -14,7 +20,7 @@ export function logoPngCandidates(brand: Brand): string[] {
     && !brand.rejected_asset_files?.includes('logo-transparent.png');
   return [...new Set([
     ...(transparentReviewed ? [transparent] : []),
-    ...(brand.preview_png ? [brand.preview_png] : []),
+    ...(brand.preview_png ? [logoAssetUrl(brand, brand.preview_png)].filter(Boolean) : []),
     png,
     ...(!transparentReviewed && !brand.rejected_asset_files?.includes('logo-transparent.png') ? [transparent] : []),
     recovery,
@@ -27,7 +33,7 @@ export function logoImageCandidates(brand: Brand): string[] {
   if (!(brand.has_svg || brand.logo_svg) || (typeof brand.logo_png==='string' && brand.logo_png.startsWith('blob:'))) return png;
   const file=brand.svg_transparent || (typeof brand.logo_svg === 'string' ? brand.logo_svg : 'logo.svg');
   if (file.startsWith('/submissions/') && !file.includes('..') && /\.svg$/.test(file)) {
-    return [...new Set([...(brand.preview_png ? [brand.preview_png] : []), file, ...png])];
+    return [...new Set([...(brand.preview_png ? [logoAssetUrl(brand, brand.preview_png)].filter(Boolean) : []), file, ...png])];
   }
   if (brand.rejected_asset_files?.includes(file) || file.includes('..') || !/^(?:[\w-]+\/)*[\w.-]+\.svg$/.test(file)) return png;
   const svg=`${CDN}/${brand.id}/${file}?v=${VERSION}`;

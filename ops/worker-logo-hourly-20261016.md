@@ -27,3 +27,9 @@
 win-01·win-02 진단에서 모두 runtime `20261016-semologo-hourly-r28`을 확인했고, 각 PC의 새 출처 Vaxcyte와 Federal Signal 수집이 성공해 비공개 manifest가 생성됐다. Windows 수집기가 검증된 뒤 Lantheus·JBT Marel(01), Core Scientific·Novanta(02) 네 건을 시간별 runner로 직접 제출했고 4/4 성공했다. 이때 기존 국내 CI 변형 후보가 신규 기업보다 먼저 큐에 들어가던 점을 고쳤다. `us-hourly-*` 신규 기업을 우선하고 국내 CI 보완 후보를 뒤로 둔 runner의 dry-run은 양쪽에 신규 기업 2건씩 배정했다. 작업당 최대 2건·중복 차단·실패 1회 재시도는 그대로다.
 
 Vaxcyte, Lantheus, JBT Marel, Novanta 네 곳은 공식 사이트 명칭·벡터 안전성·원본 해시·밝은/어두운 미리보기·CMS/정적 목록 중복을 확인해 게시했다. 이 네 곳도 각 1종이므로 4종 완성으로 계산하지 않는다. Core Scientific은 이미 같은 이름의 콘텐츠가 있어서 신규 건수에서 제외했다. Federal Signal은 공식 심볼 원본을 확보했지만 글자 조합형을 확인한 후 공개할 검수 대기 건으로 남겼다. 08:15 KST 기준 이 작업에서 신규 공개 8건, 전체 공개 181,823건이고 새 게시 8곳의 검색·SVG·PNG·brand.json·variants.json 응답을 검증했다.
+
+## 08:32 KST 추가 수집과 이미지 경로 보완
+
+예약 수집기와 같은 서비스 명령으로 새 출처 네 건을 양쪽 PC에 2건씩 제출했고, Granite Construction, Warrior Met Coal, OPENLANE, Tutor Perini의 비공개 manifest와 SVG 원본 해시를 4/4 검증했다. 공식 출처 URL의 현재 바이트, 안전한 SVG 구조, 눈으로 본 로고 도안, CMS·정적 목록의 중복을 확인한 뒤 4건을 게시했다. `brand.json`·`logo.svg`·`logo.png`·`variants.json`과 상세 페이지는 각 4/4 HTTP 200이었다. 공개 합계는 181,827건이며 새 네 건은 가로 조합형 1종씩이다. 시간별 목록의 신규 미시도 출처는 제출 직후 34개였다.
+
+카드 이미지의 실제 후보 순서로 최근·인기 로고 1,131건을 검사하는 `audit-card-image-fallbacks-20261016.py`를 추가했다. 첫 검사에서 5건이 두 번째 후보로 넘어갔다. 2건은 CMS `preview_png`의 브랜드 폴더 상대경로를 브라우저 절대경로로 해석하지 않은 문제라 카드·상세의 URL 생성 방식을 수정했다. 다른 3건의 `logo.png`에는 PNG 대신 WebP/GIF/JPEG 바이트가 들어 있었다. 원본 해시를 고정해 비공개 backup 키에 보존하고 기존에 서비스하던 정상 투명 PNG를 같은 `logo.png` 경로에 복사한 뒤 CDN URL을 퍼지했다. 재검사에서는 바로 표시 1,129건, 동적 PNG 경로만 있는 2건, 깨진 카드와 불필요한 fallback 모두 0건이다. 18만 건 전체 전수 검사로 해석하지 않는다.
