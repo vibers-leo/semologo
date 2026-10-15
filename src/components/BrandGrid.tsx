@@ -309,14 +309,12 @@ export default function BrandGrid({
     const ids=visiblePresentationIds.split(',').filter(id=>id&&!presentationFetched.current.has(id));
     if(!ids.length)return;
     ids.forEach(id=>presentationFetched.current.add(id));
-    let active=true;
     Promise.all(Array.from({length:Math.ceil(ids.length/80)},(_,index)=>ids.slice(index*80,(index+1)*80)).map(async chunk=>{
       const response=await fetch(`/api/logo-presentation/?ids=${encodeURIComponent(chunk.join(','))}`,{cache:'no-store'});
       if(!response.ok)throw Error('presentation');
       return response.json();
-    })).then(results=>{if(active)setPresentations(previous=>({...Object.assign({},...results.map(result=>result.presentations||{})),...previous}));})
+    })).then(results=>{setPresentations(previous=>({...Object.assign({},...results.map(result=>result.presentations||{})),...previous}));})
       .catch(()=>{ids.forEach(id=>presentationFetched.current.delete(id));});
-    return()=>{active=false;};
   },[visiblePresentationIds]);
   const hasMore = visible.length < resultTotal;
 

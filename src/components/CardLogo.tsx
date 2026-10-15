@@ -29,7 +29,7 @@ export default function CardLogo({ candidates, priority, alt, failureLabel, retr
       image.current = node;
       if (node?.complete && node.naturalWidth > 0) node.dataset.loaded = '1';
     }} src={src} alt={alt} width={320} height={180} crossOrigin="anonymous"
-      style={fit?{width:fit.width,height:fit.height,left:`calc(50% + ${fit.offsetX}px)`,top:`calc(50% + ${fit.offsetY}px)`,right:'auto',bottom:'auto',translate:'-50% -50%'}:undefined}
+      style={{...(fit?{width:fit.width,height:fit.height,left:`calc(50% + ${fit.offsetX}px)`,top:`calc(50% + ${fit.offsetY}px)`,right:'auto',bottom:'auto',translate:'-50% -50%'}:{}), visibility: failed && attempt >= 2 ? 'hidden' : undefined}}
       decoding="async" loading={priority ? "eager" : "lazy"} fetchPriority={priority ? 'high' : 'auto'}
       data-loaded={loaded ? '1' : undefined}
       onLoad={() => { updateFit(); setLoaded(true); setFailed(false); }}

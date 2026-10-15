@@ -198,7 +198,7 @@ function LogoBox({
           objectFit: "contain",
           objectPosition: "center",
         }}
-        onError={fallback ? (e) => { e.currentTarget.src = fallback; } : undefined}
+        onError={fallback ? (e) => { if (e.currentTarget.src !== new URL(fallback, window.location.href).href) e.currentTarget.src = fallback; } : undefined}
       />
       {children}
     </div>
@@ -246,7 +246,8 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
     return () => controller.abort();
   }, [brand.id, brand.website, brand.domain]);
 
-  const cdnUrl = (file: string) => `${CDN}/${brand.id}/${file}?v=${VERSION}`;
+  const cdnUrl = (file: string) => file.startsWith("/submissions/") || /^https?:\/\//.test(file)
+    ? file : `${CDN}/${brand.id}/${file}?v=${VERSION}`;
   const svgUrl  = typeof brand.logo_svg === "string" && brand.logo_svg.startsWith("/")
     ? `${brand.logo_svg}?v=${VERSION}`
     : cdnUrl(brand.svg_transparent || "logo.svg");
@@ -369,8 +370,8 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
    * 매니페스트가 없는 브랜드만 기존 프로브 방식으로 동작한다.
    */
   const fallbackVariants = VARIANTS.map(v => {
-    const file = v.file === "logo.png" ? brand.logo_png : v.file === "logo.svg" ? brand.svg_transparent : v.file === "logo-icon.png" ? brand.icon_png : undefined;
-    return typeof file === "string" && !file.startsWith("/") && !file.startsWith("http") ? {...v,file, ...(v.file === "logo-icon.png" && brand.icon_png ? {desc:"1024×1024 · 파비콘·앱 아이콘용"} : {})} : v;
+    const file = v.file === "logo.png" ? presentationAssetFile(brand, brand.preview_png) || brand.logo_png : v.file === "logo.svg" ? brand.svg_transparent || brand.logo_svg : v.file === "logo-icon.png" ? brand.icon_png : undefined;
+    return typeof file === "string" && (!file.startsWith("/") || file.startsWith("/submissions/")) && !file.startsWith("http") ? {...v,file, ...(v.file === "logo-icon.png" && brand.icon_png ? {desc:"1024×1024 · 파비콘·앱 아이콘용"} : {})} : v;
   }).filter(v => {
     if (brand.rejected_asset_files?.includes(v.file)) return false;
     if (v.svgOnly && !hasSvg) return false;
@@ -388,7 +389,7 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
   const avail = useAvailability(probeUrls);
   const isReady = (url: string) => avail[url] !== false;   // 확인 중이면 일단 보여줌
   const compositionFiles = new Set(manifest?.variants.flatMap(v => Object.values(v.files)) || []);
-  const variants = gridCandidates.filter(v => isReady(cdnUrl(v.file)) && !compositionFiles.has(v.file));
+  const variants = gridCandidates.filter(v => avail[cdnUrl(v.file)] === true && !compositionFiles.has(v.file));
 
   const iconFile = brand.icon_png || "logo-icon.png";
   const iconUrl = cdnUrl(iconFile);
