@@ -25,7 +25,7 @@ export async function GET(request:Request){
 export async function PATCH(request:Request){
  try{if(!await trafficAdmin(request))return reply({error:'관리자 로그인이 필요해요.'},403);
  let input;try{input=await request.json();}catch{return reply({error:'선택한 이미지를 확인해 주세요.'},400);}
- if(typeof input.id!=='string'||!/^[\p{L}\p{N}._-]{1,200}$/u.test(input.id)||!validPresentation({file:input.file,bg:input.bg}))return reply({error:'이미지와 배경을 확인해 주세요.'},400);
+ if(typeof input.id!=='string'||!/^[\p{L}\p{N}._-]{1,200}$/u.test(input.id)||!validPresentation({file:input.file,bg:input.bg,svgFile:input.svgFile}))return reply({error:'이미지와 배경을 확인해 주세요.'},400);
  const db=trafficDb();let old=await db.query('SELECT payload FROM semologo.logo_posts WHERE id=$1',[input.id]);
  // Some index catalogs are served before they are imported into the CMS.
  // Only server-resolved catalog records may initialize a missing CMS identity.
@@ -41,7 +41,8 @@ export async function PATCH(request:Request){
  const r=await fetch(`${CDN}/${encodeURIComponent(input.id)}/${input.file}`,{cache:'no-store',redirect:'error',signal:AbortSignal.timeout(8000)});
  if(!r.ok||!/^image\/png(?:;|$)/i.test(r.headers.get('content-type')||''))return reply({error:'사용할 수 있는 이미지 파일인지 확인해 주세요.'},400);
  const raw=await r.arrayBuffer();if(raw.byteLength===0||raw.byteLength>8_000_000)return reply({error:'이미지 파일을 확인해 주세요.'},400);
- const value={file:input.file,bg:input.bg};await db.query("UPDATE semologo.logo_posts SET payload=jsonb_set(payload,'{presentation}',$2::jsonb),updated_at=now() WHERE id=$1",[input.id,JSON.stringify(value)]);
+ if(input.svgFile){const svg=await fetch(`${CDN}/${encodeURIComponent(input.id)}/${input.svgFile}`,{cache:'no-store',redirect:'error',signal:AbortSignal.timeout(8000)});if(!svg.ok||!/(?:image\/svg\+xml|text\/xml|application\/xml)(?:;|$)/i.test(svg.headers.get('content-type')||''))return reply({error:'선택한 SVG 원본을 확인해 주세요.'},400);}
+ const value={file:input.file,bg:input.bg,...(input.svgFile?{svgFile:input.svgFile}:{})};await db.query("UPDATE semologo.logo_posts SET payload=jsonb_set(payload,'{presentation}',$2::jsonb),updated_at=now() WHERE id=$1",[input.id,JSON.stringify(value)]);
  revalidatePath('/','page');revalidatePath(`/brand/${input.id}/`,'page');return reply({ok:true,presentation:value});
  }catch{return reply({error:'대표 이미지를 저장하지 못했어요. 다시 시도해 주세요.'},503);}
 }

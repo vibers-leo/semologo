@@ -11,8 +11,7 @@ import { fetchVariants, cachedVariants } from "@/lib/client-variants";
 import { BRAND_RELATIONS, RELATION_LABEL, RELATION_COLOR } from "@/lib/brand-relations";
 import { getClientAuth, getClientDb } from "@/lib/firebase";
 import LogoVersionHistory from "./LogoVersionHistory";
-import ProcessedLogoIcons from "./ProcessedLogoIcons";
-import { logoVariantLabel } from "@/lib/logo-variant-label";
+import { logoVariantForm, logoVariantLabel } from "@/lib/logo-variant-label";
 import CoupangSlot from "./CoupangSlot";
 
 const SITE_URL = "https://semologo.com";
@@ -83,6 +82,29 @@ interface Props {
   allBrands?: Brand[];
   onSelectBrand?: (brand: Brand) => void;
   isPage?: boolean;
+}
+
+function safeWebsiteUrl(value: unknown): string | null {
+  if (typeof value !== "string" || !value.trim()) return null;
+  try {
+    const url = new URL(/^https?:\/\//i.test(value) ? value : `https://${value}`);
+    return (url.protocol === "https:" || url.protocol === "http:") && url.hostname.includes(".") && !url.username && !url.password ? url.href : null;
+  } catch { return null; }
+}
+
+const CORE_FORMS = [
+  { key: "horizontal", label: "가로조합형" },
+  { key: "vertical", label: "세로조합형" },
+  { key: "symbol", label: "심볼·아이콘" },
+  { key: "wordmark", label: "텍스트" },
+] as const;
+
+function coreForm(variant: VariantManifest["variants"][number]): typeof CORE_FORMS[number]["key"] | null {
+  const form = logoVariantForm(variant);
+  if (form === "horizontal" || form === "vertical" || form === "symbol" || form === "wordmark") return form;
+  if (form === "lettermark" || form === "emblem") return "symbol";
+  if (form === "typography") return "wordmark";
+  return null;
 }
 
 // ⚠️ globals.css 의 .card-preview 와 **같은 값을 유지**한다.
@@ -207,6 +229,22 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
   const [reportStatus, setReportStatus] = useState<"idle"|"sending"|"done">("idle");
   const [copyDone, setCopyDone] = useState(false);
   const [invertedUrl, setInvertedUrl] = useState<string | null>(null);
+  const [websiteUrl, setWebsiteUrl] = useState<string | null>(() => safeWebsiteUrl(brand.website || brand.domain));
+  const officialUrl = websiteUrl || safeWebsiteUrl(brand.official_source_page) || safeWebsiteUrl(brand.ci_page_url);
+
+  useEffect(() => {
+    const direct = safeWebsiteUrl(brand.website || brand.domain);
+    setWebsiteUrl(direct);
+    if (direct) return;
+    const controller = new AbortController();
+    fetch(`${CDN}/${encodeURIComponent(brand.id)}/brand.json?v=${VERSION}`, { signal: controller.signal })
+      .then(response => response.ok ? response.json() : null)
+      .then(data => {
+        if (!controller.signal.aborted) setWebsiteUrl(safeWebsiteUrl(data?.website || data?.domain));
+      })
+      .catch(() => {});
+    return () => controller.abort();
+  }, [brand.id, brand.website, brand.domain]);
 
   const cdnUrl = (file: string) => `${CDN}/${brand.id}/${file}?v=${VERSION}`;
   const svgUrl  = typeof brand.logo_svg === "string" && brand.logo_svg.startsWith("/")
@@ -269,10 +307,10 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
     return () => { active = false; };
   }, [isAdmin, brand.id]);
   const isLightLogo = presentation ? presentation.bg === "dark" : bgOverride ? bgOverride === "dark" : !!(brand.light || brand.light_logo || brand.dark_variant === "white");
-  const savePresentation = async (file:string,bg:"light"|"dark") => {
+  const savePresentation = async (file:string,bg:"light"|"dark",svgFile?:string) => {
     if(!isAdmin||!file)return;
     setSavingPresentation(true);
-    try{const token=await getClientAuth().currentUser?.getIdToken();const r=await fetch('/api/logo-presentation/',{method:'PATCH',headers:{Authorization:`Bearer ${token}`,'Content-Type':'application/json'},body:JSON.stringify({id:brand.id,file,bg})});const data=await r.json();if(!r.ok)throw Error(data.error);setPresentation(data.presentation);setBgOverride(null);window.dispatchEvent(new CustomEvent('semologo:presentation',{detail:{brandId:brand.id,presentation:data.presentation}}));toast('대표 이미지와 배경을 저장했어요.');}catch(e){toast(e instanceof Error?e.message:'저장하지 못했어요.');}finally{setSavingPresentation(false);}
+    try{const token=await getClientAuth().currentUser?.getIdToken();const r=await fetch('/api/logo-presentation/',{method:'PATCH',headers:{Authorization:`Bearer ${token}`,'Content-Type':'application/json'},body:JSON.stringify({id:brand.id,file,bg,svgFile})});const data=await r.json();if(!r.ok)throw Error(data.error);setPresentation(data.presentation);setBgOverride(null);window.dispatchEvent(new CustomEvent('semologo:presentation',{detail:{brandId:brand.id,presentation:data.presentation}}));toast('대표 이미지와 배경을 저장했어요.');}catch(e){toast(e instanceof Error?e.message:'저장하지 못했어요.');}finally{setSavingPresentation(false);}
   };
   const DARK_TILE: React.CSSProperties = { background: "#18181b", backgroundImage: "none" };
   /** 밝은 로고면 어두운 타일, 아니면 원래 배경 */
@@ -323,6 +361,7 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
     fetchVariants(brand.id).then(m => { if (alive) setManifest(m); });
     return () => { alive = false; };
   }, [brand.id]);
+  const availableCoreForms = new Set((manifest?.variants || []).map(coreForm).filter(Boolean));
 
   /**
    * 매니페스트가 있으면 그것이 곧 '존재 증명'이다 — 디스크에서 생성했으므로
@@ -523,17 +562,17 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
   };
 
   const candidateBg = (file:string, fallback:"light"|"dark"="light") => candidateBgs[file] || fallback;
-  const candidateActions = (file:string,label:string,bg:"light"|"dark",fixed=false,reviewable=!fixed) => {
+  const candidateActions = (file:string,label:string,bg:"light"|"dark",fixed=false,reviewable=!fixed,svgFile?:string,allowApply=true) => {
     const voted=votedFiles.includes(presentationVoteId(file,bg)) || (bg==="light" && votedFiles.includes(file));
     const selected=presentation?.file===file && presentation.bg===bg;
     const applicable=validPresentation({file,bg}) && !brand.rejected_asset_files?.includes(file);
     return <div className="logo-candidate-actions">
-      {!fixed && <div className="logo-background-options" aria-label={`${label} 배경`}>
+      {isAdmin && !fixed && <div className="logo-background-options" aria-label={`${label} 배경`}>
         {(["light","dark"] as const).map(value=><button key={value} type="button" aria-pressed={bg===value} onClick={()=>setCandidateBgs(old=>({...old,[file]:value}))}>{value==="light"?"흰 배경":"검정 배경"}</button>)}
       </div>}
       <div style={{display:"flex",gap:6,flexWrap:"wrap"}}>
         <button className="logo-candidate-vote" type="button" aria-pressed={voted} onClick={()=>void castVote(file,label,bg)} title="이 파일과 배경을 대표 이미지로 추천">{voted?"✓ 추천함":"👍 대표 추천"} {presentationVoteCount(votes,file,bg)||""}</button>
-        {isAdmin && applicable && <button className="logo-candidate-apply" type="button" disabled={savingPresentation||selected} onClick={()=>void savePresentation(file,bg)}>{selected?"✓ 현재 대표":"대표로 지정"}</button>}
+        {isAdmin && allowApply && applicable && <button className="logo-candidate-apply" type="button" disabled={savingPresentation||selected} onClick={()=>void savePresentation(file,bg,svgFile)}>{selected?"✓ 현재 대표":"대표로 지정"}</button>}
         {isAdmin && reviewable && <button className="logo-candidate-apply" type="button" aria-pressed={variantReviews[file] === 'replace'} disabled={savingVariantReview === file} onClick={()=>void flagVariant(file)}>{variantReviews[file] === 'replace' ? '✓ 교체 검토 중' : '🚩 교체 필요'}</button>}
       </div>
     </div>;
@@ -740,18 +779,19 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
               ⚠️ website 가 있으면 그대로 쓴다 — 야화처럼 특정 경로를
                  가리키는 경우가 있어(yahwabar.com/r/d) 도메인으로 다시
                  만들면 안 된다. */}
-          {(brand.website || brand.domain) && (
+          {officialUrl ? (
             <a
-              href={brand.website && /^https?:\/\//.test(brand.website)
-                ? brand.website
-                : `https://${String(brand.website || brand.domain).replace(/^https?:\/\//, "")}`}
+              href={officialUrl}
               target="_blank" rel="noopener noreferrer nofollow"
-              title={`${en ? brand.name_en || brand.name_ko : brand.name_ko} 공식 홈페이지로 이동`}
+              title={`${en ? brand.name_en || brand.name_ko : brand.name_ko} 공식 사이트 바로가기`}
               style={{ display:"inline-flex", alignItems:"center", gap:5, padding:"5px 12px",
                        background:"#f4f4f5", border:"1px solid #e4e4e7", color:"#52525b",
                        borderRadius:8, fontSize:12, fontWeight:500, textDecoration:"none",
                        flexShrink:0 }}
-            ><T>{"🔗 홈페이지"}</T></a>
+            ><T>{"↗ 공식 사이트"}</T></a>
+          ) : (
+            <button type="button" onClick={() => setReportOpen(true)} title="확인된 공식 사이트 주소를 제보해 주세요"
+              style={{ display:"inline-flex", alignItems:"center", gap:5, padding:"5px 12px", background:"#f4f4f5", border:"1px solid #e4e4e7", color:"#71717a", borderRadius:8, fontSize:12, cursor:"pointer", flexShrink:0 }}><T>{"↗ 공식 사이트 제보"}</T></button>
           )}
           {/* 품질 투표 — 헤더 오른쪽으로. 왼쪽에 두면 브랜드명 아래 줄이
               하나 더 생겨 헤더가 4줄이 된다. */}
@@ -832,6 +872,9 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
       >
         {/* ── LEFT: 다운로드와 공유 ── */}
         <div className={`mscroll brand-inner-left`} style={{ overflowY: isPage ? undefined : "auto", padding:"20px 16px", borderRight:"1px solid #e4e4e7", display:"flex", flexDirection:"column", gap:16, scrollbarWidth:"thin" }}>
+          <div style={{ border:"1px solid #f0f0f2", borderRadius:8, overflow:"hidden" }}>
+            <LogoBox src={previewUrl} alt={en ? brand.name_en || brand.name_ko : brand.name_ko} height={96} padding={12} bg={isLightLogo ? "dark" : "white"} fallback={pngUrl} />
+          </div>
           <div>
             <div style={{ fontSize:12, fontWeight:700, color:"#18181b", marginBottom:4 }}><T>{"로고 다운로드"}</T></div>
             <div style={{ fontSize:11, color:"#71717a" }}>
@@ -859,9 +902,8 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
             )}
           </div>
 
-          {/* 활용 예시는 필요할 때만 펼친다. 대표 이미지는 가운데에서 확인한다. */}
-          <details style={{borderTop:"1px solid #e4e4e7",paddingTop:12}}>
-            <summary style={{fontSize:11,fontWeight:700,color:"#52525b",cursor:"pointer"}}><T>{"사용 미리보기"}</T></summary>
+          <section style={{borderTop:"1px solid #e4e4e7",paddingTop:12}}>
+            <div style={{fontSize:11,fontWeight:700,color:"#52525b",marginBottom:10}}><T>{"사용 미리보기"}</T></div>
             <div style={{ display:"grid", gridTemplateColumns:"1fr 1fr", gap:8 }}>
               {[
                 { label:"OG 16:9", style:{ width:"100%", aspectRatio:"16/9", background: isLightLogo ? "#18181b" : "#f0f0f0", borderRadius:4, overflow:"hidden", position:"relative" } as React.CSSProperties },
@@ -876,10 +918,9 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
                 </div>
               ))}
             </div>
-          </details>
-          {/* 헤더에도 페이지 공유가 있으므로 상세 복사 옵션은 접어 둔다. */}
-          <details style={{ padding:"12px 0 0", borderTop:"1px solid #e4e4e7" }}>
-            <summary style={{fontSize:11,fontWeight:700,color:"#52525b",cursor:"pointer",marginBottom:8}}><T>{"공유하기 · 링크와 코드 복사"}</T></summary>
+          </section>
+          <section style={{ padding:"12px 0 0", borderTop:"1px solid #e4e4e7" }}>
+            <div style={{fontSize:11,fontWeight:700,color:"#52525b",marginBottom:10}}><T>{"공유하기"}</T></div>
 
             {/* 무엇을 복사할지 */}
             <div style={{ display:"flex", gap:4, marginBottom:8 }}>
@@ -900,7 +941,7 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
             <div style={{ background:"#f9f9f9", border:"1px solid #e4e4e7", borderRadius:8, padding:"8px 10px",
                           fontFamily:"monospace", fontSize:11, color:"#71717a", lineHeight:1.6,
                           marginBottom:8, wordBreak:"break-all",
-                          maxHeight:56, overflow:"hidden" }}>
+                          height:64, overflowY:"auto" }}>
               {shareValue}
             </div>
 
@@ -927,7 +968,7 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
                 ))}
               </div>
             )}
-          </details>
+          </section>
 
         </div>
 
@@ -935,15 +976,17 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
         <div className="mscroll brand-inner-main" style={{ overflowY: isPage ? undefined : "auto", padding:"22px 24px", scrollbarWidth:"thin" }}>
           <section aria-label="대표 이미지 배경" style={{marginBottom:24}}>
             <div style={{fontSize:13,fontWeight:700,marginBottom:8}}>대표 이미지</div>
-            <p style={{fontSize:12,color:"#71717a",margin:"0 0 12px"}}>파일과 배경을 함께 추천해 주세요. 대표 이미지는 관리자가 최종 지정해요.</p>
+            <p style={{fontSize:12,color:"#71717a",margin:"0 0 12px"}}>{isAdmin ? "아래 로고 구성에서 대표를 고른 뒤 이곳에서 배경을 선택하세요." : "마음에 드는 대표 배경을 추천해 주세요."}</p>
             <div style={{display:"grid",gridTemplateColumns:"repeat(2,minmax(0,1fr))",gap:12}}>
               {(["light","dark"] as const).map(bg=>{
                 const base=presentation?.file||presentationAssetFile(brand,brand.logo_png)||presentationAssetFile(brand,brand.preview_png)||"logo.png";
                 const file=bg==="dark"&&!presentation?(brand.dark_png || (hasWhiteLogo?"logo-white.png":invertedUrl?`generated-dark:${base}`:base)):base;
                 const src=presentation?previewUrl:bg==="dark"?(brand.dark_png||hasWhiteLogo?whiteUrl:invertedUrl||pngUrl):pngUrl;
                 return <div key={bg} style={{border:"1px solid #e4e4e7",borderRadius:12,overflow:"hidden"}}>
-                  <LogoBox src={src} alt={bg==="light"?"흰 배경 미리보기":"검정 배경 미리보기"} height={132} padding={18} bg={bg==="dark"?"dark":"white"} fallback={pngUrl}/>
-                  <div style={{padding:"10px 12px"}}><b style={{fontSize:12}}>{bg==="light"?"흰 배경":"검정 배경"}</b>{file.startsWith("generated-dark:")&&<span style={{fontSize:10,color:"#71717a",marginLeft:6}}>자동 생성 미리보기</span>}{candidateActions(file,"대표 이미지",bg,true)}</div>
+                  <LogoBox src={src} alt={bg==="light"?"투명도 확인 미리보기":"검정 배경 미리보기"} height={132} padding={18} bg={bg==="dark"?"dark":"checker"} fallback={pngUrl}/>
+                  <div style={{padding:"10px 12px"}}><b style={{fontSize:12}}>{bg==="light"?"투명·밝은 배경":"검정 배경"}</b>{file.startsWith("generated-dark:")&&<span style={{fontSize:10,color:"#71717a",marginLeft:6}}>자동 생성 미리보기</span>}{candidateActions(file,"대표 이미지",bg,true,false,undefined,false)}
+                    {isAdmin && presentation && validPresentation({file:base,bg}) && <button className="logo-candidate-apply" type="button" disabled={savingPresentation||presentation.file===base&&presentation.bg===bg} onClick={()=>void savePresentation(base,bg,presentation.svgFile||manifest?.variants.find(v=>v.files.png===base)?.files.svg)} style={{marginTop:7}}>{presentation.file===base&&presentation.bg===bg?"✓ 현재 대표 배경":"이 배경 적용"}</button>}
+                  </div>
                 </div>;
               })}
             </div>
@@ -953,7 +996,10 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
               <div style={{fontSize:13,fontWeight:700}}>로고 구성</div>
               {langs.length >= 2 && <div style={{display:"flex",gap:4}}>{[null,...langs].map(l=><button key={l||"all"} onClick={()=>setLangFilter(l)} aria-pressed={langFilter===l} className="logo-candidate-vote">{l===null?"전체":l==="ko"?"국문":"영문"}</button>)}</div>}
             </div>
-            <p style={{fontSize:12,color:"#71717a",margin:"0 0 14px"}}>원하는 로고와 파일 형식을 골라 받으세요. 파일과 배경별로 대표 이미지를 추천할 수 있어요.</p>
+            <p style={{fontSize:12,color:"#71717a",margin:"0 0 12px"}}>형태별 로고를 비교하고 필요한 파일을 받으세요. 마음에 드는 구성은 대표로 추천할 수 있어요.</p>
+            {manifest && <div aria-label="기본 로고 구성 현황" style={{display:"flex",flexWrap:"wrap",gap:5,marginBottom:14}}>
+              {CORE_FORMS.map(form=><span key={form.key} style={{fontSize:11,padding:"4px 8px",borderRadius:999,background:availableCoreForms.has(form.key)?"#ecfdf3":"#f4f4f5",color:availableCoreForms.has(form.key)?"#15803d":"#71717a"}}>{availableCoreForms.has(form.key)?"✓":"＋"} {form.label}</span>)}
+            </div>}
             <div className="logo-composition-grid">
                       {(manifest?.variants || []).filter(v => !langFilter || v.lang === langFilter || v.lang === "none" || v.text_layout?.startsWith("ko-en")).map(v => {
                         const svgFile = v.files.svg;
@@ -1017,7 +1063,7 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
                                   PNG
                                 </button>
                               )}
-                            </div>{(pngFile || svgFile) && candidateActions(pngFile||svgFile!,logoVariantLabel(v),candidateBg(pngFile||svgFile!,v.color==="white"||v.color==="mono-light"?"dark":"light"))}</div>
+                            </div>{(pngFile || svgFile) && candidateActions(pngFile||svgFile!,logoVariantLabel(v),candidateBg(pngFile||svgFile!,v.color==="white"||v.color==="mono-light"?"dark":"light"),false,true,svgFile)}</div>
                           </div>
                         );
                       })}
@@ -1036,11 +1082,7 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
             })}
             </div>
           </section>
-          <section aria-label="추가 도구와 이력" style={{display:"grid",gap:10,marginTop:24}}>
-            <div style={{fontSize:12,fontWeight:700,color:"#71717a"}}>추가 도구와 이력</div>
-            <ProcessedLogoIcons key={brand.id} brandId={brand.id} onDownload={grab}/>
-            <LogoVersionHistory key={brand.id} brandId={brand.id} isAdmin={isAdmin}/>
-          </section>
+          <LogoVersionHistory key={brand.id} brandId={brand.id} isAdmin={isAdmin}/>
         </div>
 
         {/* ── RIGHT: 퍼가요 + 임베드 + 제보 + 광고 ── */}
