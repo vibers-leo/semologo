@@ -3,6 +3,7 @@
 import hashlib
 import io
 import json
+import argparse
 from pathlib import Path
 
 import cairosvg
@@ -45,13 +46,21 @@ def safe_svg(raw):
 
 
 def main():
-    manifest = json.loads((OUT / 'manifest.json').read_text())
-    plan = {x['id']: x for x in json.loads((ROOT / 'data/collection/semologo-worker-sources-next-20261015.json').read_text())['sources']}
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--output', type=Path, default=OUT)
+    parser.add_argument('--plan', type=Path, default=ROOT / 'data/collection/semologo-worker-sources-next-20261015.json')
+    args = parser.parse_args()
+    output = args.output.resolve()
+    plan_path = args.plan.resolve()
+    assert output.is_relative_to(ROOT / 'marketing/assets')
+    assert plan_path.is_relative_to(ROOT / 'data/collection')
+    manifest = json.loads((output / 'manifest.json').read_text())
+    plan = {x['id']: x for x in json.loads(plan_path.read_text())['sources']}
     rows = []
     for item in manifest['results']:
         if not item.get('file'):
             continue
-        raw = (OUT / item['file']).read_bytes()
+        raw = (output / item['file']).read_bytes()
         assert hashlib.sha256(raw).hexdigest() == item['sha256']
         source = plan[item['sourceId']]
         okay, reason = safe_svg(raw)
@@ -77,14 +86,14 @@ def main():
         rows.append(row)
     report = {'schemaVersion': 1, 'verifiedOriginals': len(rows), 'safeRendered': sum(x['rendered'] for x in rows),
               'rows': rows, 'reviewStatus': 'visual-and-identity-review-required'}
-    (OUT / 'audit.json').write_text(json.dumps(report, ensure_ascii=False, indent=2) + '\n')
+    (output / 'audit.json').write_text(json.dumps(report, ensure_ascii=False, indent=2) + '\n')
     previews = [row for row in rows if row['rendered']]
     width, tile_w, tile_h, cols = 1200, 240, 180, 5
     sheet = Image.new('RGB', (width, ((len(previews) + cols - 1) // cols) * tile_h), 'white')
     draw = ImageDraw.Draw(sheet)
     font = ImageFont.truetype('/System/Library/Fonts/AppleGothic.ttf', 12)
     for index, row in enumerate(previews):
-        raw = (OUT / row['file']).read_bytes()
+        raw = (output / row['file']).read_bytes()
         png = cairosvg.svg2png(bytestring=raw, output_width=210)
         with Image.open(io.BytesIO(png)) as pic:
             image = pic.convert('RGBA')
@@ -93,7 +102,20 @@ def main():
             sheet.paste(image, (x + (tile_w - image.width) // 2, y + (130 - image.height) // 2), image)
             draw.text((x + 7, y + 135), row['sourceId'][:30], font=font, fill='black')
             draw.text((x + 7, y + 153), row['collectionPurpose'], font=font, fill='#666666')
-    sheet.save(OUT / 'contact-sheet.jpg', quality=88)
+    sheet.save(output / 'contact-sheet.jpg', quality=88)
+    dark_sheet = Image.new('RGB', sheet.size, '#15171c')
+    dark_draw = ImageDraw.Draw(dark_sheet)
+    for index, row in enumerate(previews):
+        raw = (output / row['file']).read_bytes()
+        png = cairosvg.svg2png(bytestring=raw, output_width=210)
+        with Image.open(io.BytesIO(png)) as pic:
+            asset = pic.convert('RGBA')
+            asset.thumbnail((210, 130))
+            x, y = (index % cols) * tile_w, (index // cols) * tile_h
+            dark_sheet.paste(asset, (x + (tile_w - asset.width) // 2, y + (130 - asset.height) // 2), asset)
+            dark_draw.text((x + 7, y + 135), row['sourceId'][:30], font=font, fill='white')
+            dark_draw.text((x + 7, y + 153), row['collectionPurpose'], font=font, fill='#aaaaaa')
+    dark_sheet.save(output / 'contact-sheet-dark.jpg', quality=88)
     print(json.dumps({'verified': len(rows), 'safeRendered': report['safeRendered'],
                       'reviewRequired': len(rows)}, ensure_ascii=False))
 

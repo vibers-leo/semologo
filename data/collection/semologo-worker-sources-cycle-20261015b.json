@@ -1,0 +1,458 @@
+{
+  "schemaVersion": 1,
+  "batch": "semologo-cycle-20261015b",
+  "policy": "collection-only; human visual and identity review before publication",
+  "maxBytes": 20000,
+  "sources": [
+    {
+      "id": "ko-official-강화군시설관리공단-gh_logo",
+      "nameKo": "강화군시설관리공단",
+      "lane": "win-01",
+      "sourcePage": "https://www.ghss.or.kr/user/corpInfo/corpInfo/ciInfo.do",
+      "assetUrl": "https://www.ghss.or.kr/_resource/images/common/gh_logo.svg",
+      "origin": "official-institution-candidate",
+      "publicationStatus": "PENDING",
+      "expectedSha256": "fa912e1c853fd77d645eeff7f38cabab34d5251b927369bcc60af2bd48f26b85",
+      "bytes": 7657,
+      "preflight": "ok",
+      "catalogExactNameMatches": [
+        "gongu-ci-0720"
+      ],
+      "collectionPurpose": "existing-content-enhancement"
+    },
+    {
+      "id": "ko-official-공무원연금공단-symbol",
+      "nameKo": "공무원연금공단",
+      "lane": "win-01",
+      "sourcePage": "https://www.geps.or.kr/gepsIntro_gepsIs_brandIntro_ciInfo",
+      "assetUrl": "https://www.geps.or.kr/humanframe/theme/geps2022/assets/images/gepsIntro/brand/symbol.svg",
+      "origin": "official-institution-candidate",
+      "publicationStatus": "PENDING",
+      "expectedSha256": "a06fc9c2233fe3a4d6d7d94e2513664a4dcd14f672d75af92169cfad1c5f16ef",
+      "bytes": 8529,
+      "preflight": "ok",
+      "catalogExactNameMatches": [
+        "geps",
+        "gongu-ci-0746"
+      ],
+      "collectionPurpose": "existing-content-enhancement"
+    },
+    {
+      "id": "ko-official-공정거래위원회-cts407_logo01",
+      "nameKo": "공정거래위원회",
+      "lane": "win-01",
+      "sourcePage": "https://www.ftc.go.kr/www/contents.do?key=407",
+      "assetUrl": "https://www.ftc.go.kr/site/www/img/contents/cts407_logo01.svg",
+      "origin": "official-institution-candidate",
+      "publicationStatus": "PENDING",
+      "expectedSha256": "354ae88dd6e86cfed05e526972f2a0cb61d4c8b667b5c7dab6bc11846605006c",
+      "bytes": 7818,
+      "preflight": "ok",
+      "catalogExactNameMatches": [
+        "gongu-ci-0906",
+        "kr-kftc"
+      ],
+      "collectionPurpose": "existing-content-enhancement"
+    },
+    {
+      "id": "ko-official-공정거래위원회-cts407_logo02",
+      "nameKo": "공정거래위원회",
+      "lane": "win-01",
+      "sourcePage": "https://www.ftc.go.kr/www/contents.do?key=407",
+      "assetUrl": "https://www.ftc.go.kr/site/www/img/contents/cts407_logo02.svg",
+      "origin": "official-institution-candidate",
+      "publicationStatus": "PENDING",
+      "expectedSha256": "ffd91fb032d1d095374561ed456674a6ce7d426f422b6def15bcc370e797c32d",
+      "bytes": 12729,
+      "preflight": "ok",
+      "catalogExactNameMatches": [
+        "gongu-ci-0906",
+        "kr-kftc"
+      ],
+      "collectionPurpose": "existing-content-enhancement"
+    },
+    {
+      "id": "ko-official-서울디자인재단-logo_black",
+      "nameKo": "서울디자인재단",
+      "lane": "win-01",
+      "sourcePage": "https://seouldesign.or.kr/?menuno=40",
+      "assetUrl": "https://seouldesign.or.kr/resources/assets/images/svg/logo_black.svg",
+      "origin": "official-institution-candidate",
+      "publicationStatus": "PENDING",
+      "expectedSha256": "c815ea744d76c79660548ad9701409e983b648b88e0a44b9c277096fb8e7756f",
+      "bytes": 12485,
+      "preflight": "ok",
+      "catalogExactNameMatches": [
+        "gongu-ci-1202"
+      ],
+      "collectionPurpose": "existing-content-enhancement"
+    },
+    {
+      "id": "us-index-bbnx",
+      "nameKo": "Beta Bionics",
+      "lane": "win-02",
+      "sourcePage": "https://betabionics.com/",
+      "assetUrl": "https://www.betabionics.com/wp-content/uploads/logo-white.svg",
+      "origin": "company-site-candidate",
+      "identityReviewRequired": true,
+      "publicationStatus": "PENDING",
+      "expectedSha256": "813d7e1513bfc69518588f527aa37404d6c01041bf9a2f03acfb6239a2515cde",
+      "bytes": 19627,
+      "preflight": "ok",
+      "catalogExactNameMatches": [],
+      "collectionPurpose": "new-content-candidate"
+    },
+    {
+      "id": "us-index-alec",
+      "nameKo": "Alector",
+      "lane": "win-02",
+      "sourcePage": "https://alector.com/",
+      "assetUrl": "https://alector.com/wp-content/uploads/2021/11/alector-white-text-logo.svg",
+      "origin": "company-site-candidate",
+      "identityReviewRequired": true,
+      "publicationStatus": "PENDING",
+      "expectedSha256": "d610b7f74c61c0668c71ba517c0cd9e53b8658ffbc0daaf600a642690802b87c",
+      "bytes": 3231,
+      "preflight": "ok",
+      "catalogExactNameMatches": [],
+      "collectionPurpose": "new-content-candidate"
+    },
+    {
+      "id": "us-index-clne",
+      "nameKo": "Clean Energy Fuels",
+      "lane": "win-02",
+      "sourcePage": "https://cleanenergyfuels.com/",
+      "assetUrl": "https://cleanenergyfuels.com/wp-content/themes/ce_2024/images/ce-sm-logo.svg",
+      "origin": "company-site-candidate",
+      "identityReviewRequired": true,
+      "publicationStatus": "PENDING",
+      "expectedSha256": "0ce6a5a1195f30993961e10c98c606dd5c1f06c13bc8cd2553c8f53eca65d437",
+      "bytes": 1778,
+      "preflight": "ok",
+      "catalogExactNameMatches": [],
+      "collectionPurpose": "new-content-candidate"
+    },
+    {
+      "id": "us-index-dsgr",
+      "nameKo": "Distribution Solutions Group",
+      "lane": "win-02",
+      "sourcePage": "https://distributionsolutionsgroup.com/",
+      "assetUrl": "https://distributionsolutionsgroup.com/wp-content/uploads/2022/05/logo-graphic.svg",
+      "origin": "company-site-candidate",
+      "identityReviewRequired": true,
+      "publicationStatus": "PENDING",
+      "expectedSha256": "319ff511270a48dcca34de23e58d88d96b330e02491b7b706b8474f451f6d8a2",
+      "bytes": 3145,
+      "preflight": "ok",
+      "catalogExactNameMatches": [],
+      "collectionPurpose": "new-content-candidate"
+    },
+    {
+      "id": "us-index-whd",
+      "nameKo": "Cactus Class A",
+      "lane": "win-02",
+      "sourcePage": "https://cactusinc.com/",
+      "assetUrl": "https://cactusinc.com/images/cactus-logo.svg",
+      "origin": "company-site-candidate",
+      "identityReviewRequired": true,
+      "publicationStatus": "PENDING",
+      "expectedSha256": "34321b1d9fa99c93f3055f766c0cdef3240b77b2e3bb10d74674847cbb5376e4",
+      "bytes": 2187,
+      "preflight": "ok",
+      "catalogExactNameMatches": [],
+      "collectionPurpose": "new-content-candidate"
+    },
+    {
+      "id": "us-index-bzai",
+      "nameKo": "Blaize Holdings Inc",
+      "lane": "win-02",
+      "sourcePage": "https://blaize.com/",
+      "assetUrl": "https://www.blaize.com/wp-content/uploads/2020/08/BLZ-Logo-RGB-White.svg",
+      "origin": "company-site-candidate",
+      "identityReviewRequired": true,
+      "publicationStatus": "PENDING",
+      "expectedSha256": "532f7612e656f3057b14bc770946cac374e93509ca44b363c2835280b67ddf81",
+      "bytes": 8895,
+      "preflight": "ok",
+      "catalogExactNameMatches": [],
+      "collectionPurpose": "new-content-candidate"
+    },
+    {
+      "id": "us-index-lcut",
+      "nameKo": "Lifetime Brands Inc",
+      "lane": "win-02",
+      "sourcePage": "https://lifetimebrands.com/",
+      "assetUrl": "https://lifetimebrands.com/cdn/shop/files/Logo-LTB2.svg?v=1714609789&amp;width=740",
+      "origin": "company-site-candidate",
+      "identityReviewRequired": true,
+      "publicationStatus": "PENDING",
+      "expectedSha256": "367c2395274f842ac14a38c962d45dfa159ab222a773b1aad4e01c18c4c5c1e9",
+      "bytes": 13212,
+      "preflight": "ok",
+      "catalogExactNameMatches": [],
+      "collectionPurpose": "new-content-candidate"
+    },
+    {
+      "id": "us-index-evcm",
+      "nameKo": "Evercommerce Inc",
+      "lane": "win-02",
+      "sourcePage": "https://evercommerce.com/",
+      "assetUrl": "https://www.evercommerce.com/wp-content/uploads/2021/05/Mark-FullColorCircle-2021.svg",
+      "origin": "company-site-candidate",
+      "identityReviewRequired": true,
+      "publicationStatus": "PENDING",
+      "expectedSha256": "9e3120fe87caf923c42a3a671490365e8a8f8f5dcea4493596b02878a94de5d2",
+      "bytes": 1454,
+      "preflight": "ok",
+      "catalogExactNameMatches": [],
+      "collectionPurpose": "new-content-candidate"
+    },
+    {
+      "id": "us-index-lif",
+      "nameKo": "Life360",
+      "lane": "win-02",
+      "sourcePage": "https://life360.com/",
+      "assetUrl": "https://life360.com/svgs/life360-logo-dark.svg",
+      "origin": "company-site-candidate",
+      "identityReviewRequired": true,
+      "publicationStatus": "PENDING",
+      "expectedSha256": "c46d5477bd945af7de47c24d0f540e116d780695d40a650fcc930fd5ec878205",
+      "bytes": 6076,
+      "preflight": "ok",
+      "catalogExactNameMatches": [],
+      "collectionPurpose": "new-content-candidate"
+    },
+    {
+      "id": "us-index-nabl",
+      "nameKo": "N Able Inc",
+      "lane": "win-02",
+      "sourcePage": "https://nable.com/",
+      "assetUrl": "https://nable.com/wp-content/uploads/2025/12/logo-n-able-symbol-only-light.svg",
+      "origin": "company-site-candidate",
+      "identityReviewRequired": true,
+      "publicationStatus": "PENDING",
+      "expectedSha256": "5dc0b96dc59f1ece92f0d8ed1dc4203b353d8a251e5b3b32781b92768dfb3e94",
+      "bytes": 328,
+      "preflight": "ok",
+      "catalogExactNameMatches": [],
+      "collectionPurpose": "new-content-candidate"
+    },
+    {
+      "id": "us-index-alms",
+      "nameKo": "Alumis",
+      "lane": "win-02",
+      "sourcePage": "https://alumis.com/",
+      "assetUrl": "https://alumis.com/themes/default/images/logo.svg",
+      "origin": "company-site-candidate",
+      "identityReviewRequired": true,
+      "publicationStatus": "PENDING",
+      "expectedSha256": "de939c1c838e6c85e206da719d4b4321a9ae290adab14e135e5386604d73cd31",
+      "bytes": 2327,
+      "preflight": "ok",
+      "catalogExactNameMatches": [],
+      "collectionPurpose": "new-content-candidate"
+    },
+    {
+      "id": "us-index-sght",
+      "nameKo": "Sight Sciences",
+      "lane": "win-02",
+      "sourcePage": "https://sightsciences.com/",
+      "assetUrl": "https://www.sightsciences.com/wp-content/uploads/2024/03/logo_light.svg",
+      "origin": "company-site-candidate",
+      "identityReviewRequired": true,
+      "publicationStatus": "PENDING",
+      "expectedSha256": "60591ca421a0aed3fc0312e09a44de76bc9f090cd2af631fe4ea3c768fd5082e",
+      "bytes": 18514,
+      "preflight": "ok",
+      "catalogExactNameMatches": [],
+      "collectionPurpose": "new-content-candidate"
+    },
+    {
+      "id": "us-index-qcrh",
+      "nameKo": "Qcr Holdings Inc",
+      "lane": "win-02",
+      "sourcePage": "https://qcrh.com/",
+      "assetUrl": "https://qcrh.com/files/design/site_logo/qcr-logo-white.svg",
+      "origin": "company-site-candidate",
+      "identityReviewRequired": true,
+      "publicationStatus": "PENDING",
+      "expectedSha256": "25dec77b8a24f8a7965e08cc9ee33a0dd24565c9779b67d4962d5230a981995c",
+      "bytes": 8933,
+      "preflight": "ok",
+      "catalogExactNameMatches": [],
+      "collectionPurpose": "new-content-candidate"
+    },
+    {
+      "id": "us-index-trak",
+      "nameKo": "Repositrak Inc",
+      "lane": "win-02",
+      "sourcePage": "https://repositrak.com/",
+      "assetUrl": "https://repositrak.com/wp-content/uploads/rt_logo.svg",
+      "origin": "company-site-candidate",
+      "identityReviewRequired": true,
+      "publicationStatus": "PENDING",
+      "expectedSha256": "ff15bf38abdaa58bcc776270bb6377bb6d2d021bba576ee16b7934f8216f0d06",
+      "bytes": 8507,
+      "preflight": "ok",
+      "catalogExactNameMatches": [],
+      "collectionPurpose": "new-content-candidate"
+    }
+  ],
+  "preflightFailures": [
+    {
+      "id": "ko-official-재우체국금융개발원-logo_b",
+      "nameKo": "(재)우체국금융개발원",
+      "lane": "win-01",
+      "sourcePage": "https://www.posid.or.kr/introduction/ci.do",
+      "assetUrl": "https://www.posid.or.kr/images/logo_b.svg",
+      "origin": "official-institution-candidate",
+      "publicationStatus": "PENDING",
+      "preflight": "AssertionError: exceeds 20000 bytes or empty",
+      "catalogExactNameMatches": [
+        "gongu-ci-1763"
+      ],
+      "collectionPurpose": "existing-content-enhancement"
+    },
+    {
+      "id": "ko-official-재우체국물류지원단-img-ci-logo02",
+      "nameKo": "(재)우체국물류지원단",
+      "lane": "win-01",
+      "sourcePage": "https://www.pola.or.kr/web/content.do?proFn=ci",
+      "assetUrl": "https://www.pola.or.kr/images_new/common/img-ci-logo02.svg",
+      "origin": "official-institution-candidate",
+      "publicationStatus": "PENDING",
+      "preflight": "AssertionError: exceeds 20000 bytes or empty",
+      "catalogExactNameMatches": [
+        "gongu-ci-1764"
+      ],
+      "collectionPurpose": "existing-content-enhancement"
+    },
+    {
+      "id": "ko-official-재우체국물류지원단-img-ci-logo03",
+      "nameKo": "(재)우체국물류지원단",
+      "lane": "win-01",
+      "sourcePage": "https://www.pola.or.kr/web/content.do?proFn=ci",
+      "assetUrl": "https://www.pola.or.kr/images_new/common/img-ci-logo03.svg",
+      "origin": "official-institution-candidate",
+      "publicationStatus": "PENDING",
+      "preflight": "AssertionError: exceeds 20000 bytes or empty",
+      "catalogExactNameMatches": [
+        "gongu-ci-1764"
+      ],
+      "collectionPurpose": "existing-content-enhancement"
+    },
+    {
+      "id": "ko-official-eco융합섬유연구원-logo",
+      "nameKo": "ECO융합섬유연구원",
+      "lane": "win-01",
+      "sourcePage": "https://www.kictex.re.kr/",
+      "assetUrl": "https://www.kictex.re.kr/img/logo.svg",
+      "origin": "official-institution-candidate",
+      "publicationStatus": "PENDING",
+      "preflight": "AssertionError: exceeds 20000 bytes or empty",
+      "catalogExactNameMatches": [
+        "gongu-ci-0137"
+      ],
+      "collectionPurpose": "existing-content-enhancement"
+    },
+    {
+      "id": "ko-official-kdi국제정책대학원-logo",
+      "nameKo": "KDI국제정책대학원",
+      "lane": "win-01",
+      "sourcePage": "https://www.kdischool.ac.kr/#/www/cp/about_kdis/symbol/university_identity",
+      "assetUrl": "https://www.kdischool.ac.kr/www/img/new/layout/logo.svg",
+      "origin": "official-institution-candidate",
+      "publicationStatus": "PENDING",
+      "preflight": "AssertionError: exceeds 20000 bytes or empty",
+      "catalogExactNameMatches": [
+        "gongu-ci-1758"
+      ],
+      "collectionPurpose": "existing-content-enhancement"
+    },
+    {
+      "id": "ko-official-kias고등과학원-logo",
+      "nameKo": "KIAS고등과학원",
+      "lane": "win-01",
+      "sourcePage": "https://www.kias.re.kr/kias/main/contents.do?menuNo=400003",
+      "assetUrl": "https://www.kias.re.kr/static/kias/img/common/logo.svg",
+      "origin": "official-institution-candidate",
+      "publicationStatus": "PENDING",
+      "preflight": "AssertionError: exceeds 20000 bytes or empty",
+      "catalogExactNameMatches": [
+        "gongu-ci-0894"
+      ],
+      "collectionPurpose": "existing-content-enhancement"
+    },
+    {
+      "id": "ko-official-경기평택항만공사-logo",
+      "nameKo": "경기평택항만공사",
+      "lane": "win-01",
+      "sourcePage": "https://www.gppc.or.kr/cms/archive.do?pageId=K001002003",
+      "assetUrl": "https://www.gppc.or.kr/img/common/logo.svg",
+      "origin": "official-institution-candidate",
+      "publicationStatus": "PENDING",
+      "preflight": "AssertionError: exceeds 20000 bytes or empty",
+      "catalogExactNameMatches": [
+        "gongu-ci-0655"
+      ],
+      "collectionPurpose": "existing-content-enhancement"
+    },
+    {
+      "id": "ko-official-경남투자경제진흥원-ko_type_ci",
+      "nameKo": "경남투자경제진흥원",
+      "lane": "win-01",
+      "sourcePage": "https://giba.or.kr/fe/inform/ci/NR_index.do",
+      "assetUrl": "https://giba.or.kr/resources/front/images/ko_type_ci.svg",
+      "origin": "official-institution-candidate",
+      "publicationStatus": "PENDING",
+      "preflight": "AssertionError: exceeds 20000 bytes or empty",
+      "catalogExactNameMatches": [
+        "gongu-ci-0418"
+      ],
+      "collectionPurpose": "existing-content-enhancement"
+    },
+    {
+      "id": "ko-official-경남투자경제진흥원-main_ci",
+      "nameKo": "경남투자경제진흥원",
+      "lane": "win-01",
+      "sourcePage": "https://giba.or.kr/fe/inform/ci/NR_index.do",
+      "assetUrl": "https://giba.or.kr/resources/front/images/main_ci.svg",
+      "origin": "official-institution-candidate",
+      "publicationStatus": "PENDING",
+      "preflight": "AssertionError: exceeds 20000 bytes or empty",
+      "catalogExactNameMatches": [
+        "gongu-ci-0418"
+      ],
+      "collectionPurpose": "existing-content-enhancement"
+    },
+    {
+      "id": "ko-official-국립중앙의료원-logo",
+      "nameKo": "국립중앙의료원",
+      "lane": "win-01",
+      "sourcePage": "https://www.nmc.or.kr/nmc/contents/symbol",
+      "assetUrl": "https://www.nmc.or.kr/styles/assets/logo.svg",
+      "origin": "official-institution-candidate",
+      "publicationStatus": "PENDING",
+      "preflight": "AssertionError: exceeds 20000 bytes or empty",
+      "catalogExactNameMatches": [
+        "gongu-ci-0980",
+        "nmc-2"
+      ],
+      "collectionPurpose": "existing-content-enhancement"
+    },
+    {
+      "id": "ko-official-국민권익위원회-main-logo",
+      "nameKo": "국민권익위원회",
+      "lane": "win-01",
+      "sourcePage": "https://www.acrc.go.kr/menu.es?mid=a10606010000",
+      "assetUrl": "https://www.acrc.go.kr/main/img/layout/main-logo.svg",
+      "origin": "official-institution-candidate",
+      "publicationStatus": "PENDING",
+      "preflight": "AssertionError: exceeds 20000 bytes or empty",
+      "catalogExactNameMatches": [
+        "gongu-ci-0987"
+      ],
+      "collectionPurpose": "existing-content-enhancement"
+    }
+  ]
+}
