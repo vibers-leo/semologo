@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Verify private fleet manifests and recover reviewed SVG originals locally."""
 import base64
+import argparse
 import hashlib
 import json
 import re
@@ -22,18 +23,24 @@ def sha(raw):
 
 
 def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--request-prefix', default='semologo-svg-20261015-')
+    parser.add_argument('--output', type=Path, default=OUT)
+    args = parser.parse_args()
+    output = args.output.resolve()
+    assert output.is_relative_to(ROOT / 'marketing/assets')
     status = subprocess.run(['python3', '/Users/juuuno/Desktop/macminim4/ops/worker-fleet/deployment/status-via-ssh.py', 'all'],
                             check=True, capture_output=True, text=True)
     jobs = [j for j in json.loads(status.stdout) if j['project'] == 'semologo'
-            and j['kind'] == 'semologo-logo-collect' and j['request_key'].startswith('semologo-svg-20261015-')]
+            and j['kind'] == 'semologo-logo-collect' and j['request_key'].startswith(args.request_prefix)]
     jobs.sort(key=lambda j: j['request_key'])
     secrets = runpy.run_path(str(ROOT / 'scripts/publish-svg-background-audit-20261014.py'))['secrets']()
     s3 = boto3.client('s3', endpoint_url='https://kr.object.ncloudstorage.com', region_name='kr-standard',
         aws_access_key_id=secrets['NCP_ACCESS_KEY'], aws_secret_access_key=secrets['NCP_SECRET_KEY'],
         config=Config(signature_version='s3v4', request_checksum_calculation='when_required',
                       response_checksum_validation='when_required'))
-    OUT.mkdir(parents=True, exist_ok=True)
-    report = {'schemaVersion': 1, 'batch': 'semologo-svg-20261015', 'total': len(jobs), 'results': []}
+    output.mkdir(parents=True, exist_ok=True)
+    report = {'schemaVersion': 1, 'batch': args.request_prefix.rstrip('-'), 'total': len(jobs), 'results': []}
     for job in jobs:
         row = {'jobId': job['id'], 'requestKey': job['request_key'], 'workerId': job['owner'],
                'status': job['status'], 'attempt': job['attempt'], 'sourceId': job['input']['sourceId']}
@@ -56,7 +63,7 @@ def main():
         assert result['jobId'] == job['id'] and result['sourceId'] == job['input']['sourceId']
         original = base64.b64decode(result['originalBase64'], validate=True)
         assert sha(original) == result['sha256'] and b'<svg' in original[:1000].lower()
-        target = OUT / (job['request_key'] + '.svg')
+        target = output / (job['request_key'] + '.svg')
         if target.exists():
             assert target.read_bytes() == original
         else:
@@ -66,7 +73,7 @@ def main():
                     'sourceChanged': result['sourceChanged'], 'reviewStatus': result['reviewStatus'],
                     'manifestKey': key, 'manifestHash': digest})
         report['results'].append(row)
-    (OUT / 'manifest.json').write_text(json.dumps(report, ensure_ascii=False, indent=2) + '\n')
+    (output / 'manifest.json').write_text(json.dumps(report, ensure_ascii=False, indent=2) + '\n')
     print(json.dumps({'total': report['total'], 'verified': sum('file' in r for r in report['results']),
                       'pending': sum(r['status'] != 'succeeded' for r in report['results'])}, ensure_ascii=False))
 

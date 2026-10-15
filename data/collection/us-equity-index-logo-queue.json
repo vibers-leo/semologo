@@ -8307,8 +8307,8 @@
           "index_memberships": [
             "Russell 2000"
           ],
-          "status": "domain-candidate",
-          "domain_candidate": "val.com"
+          "status": "domain-identity-mismatch",
+          "rejected_domain": "val.com"
         },
         {
           "ticker": "HASI",
@@ -8500,8 +8500,8 @@
           "index_memberships": [
             "Russell 2000"
           ],
-          "status": "domain-candidate",
-          "domain_candidate": "spire.com"
+          "status": "domain-identity-mismatch",
+          "rejected_domain": "spire.com"
         },
         {
           "ticker": "MRX",
@@ -9362,8 +9362,8 @@
           "index_memberships": [
             "Russell 2000"
           ],
-          "status": "domain-candidate",
-          "domain_candidate": "ucb.com"
+          "status": "domain-identity-mismatch",
+          "rejected_domain": "ucb.com"
         },
         {
           "ticker": "SPHR",
@@ -15760,8 +15760,8 @@
           "index_memberships": [
             "Russell 2000"
           ],
-          "status": "domain-candidate",
-          "domain_candidate": "geni.com"
+          "status": "domain-identity-mismatch",
+          "rejected_domain": "geni.com"
         },
         {
           "ticker": "WABC",

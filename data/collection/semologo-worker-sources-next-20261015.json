@@ -1,0 +1,439 @@
+{
+  "schemaVersion": 1,
+  "batch": "semologo-expansion-20261015",
+  "policy": "collection-only; no automatic public CMS write",
+  "maxBytes": 20000,
+  "sources": [
+    {
+      "id": "ko-official-강원특별자치도 교육청",
+      "nameKo": "강원특별자치도 교육청",
+      "lane": "win-01",
+      "sourcePage": "https://gwe.go.kr/main/content.do?key=bTIzMDcyMTEyMDcyNTI=",
+      "assetUrl": "https://gwe.go.kr/resource/www/main/redesign/assets/images/common/logo-mark.svg?v=2",
+      "origin": "official-institution-candidate",
+      "publicationStatus": "PENDING",
+      "expectedSha256": "9365db585c79efb75478972be5eb5c6ed1786ebb0bfff25e8f9c1e177631c660",
+      "bytes": 2788,
+      "preflight": "ok",
+      "catalogExactNameMatches": [
+        "gangwon-office-of-education",
+        "gongu-ci-0837"
+      ],
+      "collectionPurpose": "existing-content-enhancement"
+    },
+    {
+      "id": "ko-official-게임물관리위원회",
+      "nameKo": "게임물관리위원회",
+      "lane": "win-01",
+      "sourcePage": "https://www.grac.or.kr/Committee/SecretariatLogo01.aspx",
+      "assetUrl": "https://www.grac.or.kr/resource/images/main/renew/common/img_logo.svg",
+      "origin": "official-institution-candidate",
+      "publicationStatus": "PENDING",
+      "expectedSha256": "071c2dfbb5d6ec241219ef902176ad3ea5c1c9ea4643d287ed81993a530e275e",
+      "bytes": 2532,
+      "preflight": "ok",
+      "catalogExactNameMatches": [
+        "game-rating-and-administration-committee",
+        "gongu-ci-0851"
+      ],
+      "collectionPurpose": "existing-content-enhancement"
+    },
+    {
+      "id": "ko-official-경상북도개발공사",
+      "nameKo": "경상북도개발공사",
+      "lane": "win-01",
+      "sourcePage": "https://www.gbdc.co.kr/page.do?seqId=0000003765",
+      "assetUrl": "https://www.gbdc.co.kr/templates/cms/common/img/national_symbol.svg",
+      "origin": "official-institution-candidate",
+      "publicationStatus": "PENDING",
+      "expectedSha256": "bc3c926f5df02049261bc5d3f8f9bd36413241e8080b13d2ceef3683e17cb5e3",
+      "bytes": 2760,
+      "preflight": "ok",
+      "catalogExactNameMatches": [
+        "gongu-ci-0883"
+      ],
+      "collectionPurpose": "existing-content-enhancement"
+    },
+    {
+      "id": "ko-official-국립현대미술관",
+      "nameKo": "국립현대미술관",
+      "lane": "win-01",
+      "sourcePage": "https://www.mmca.go.kr/about/miGrid.do",
+      "assetUrl": "https://www.mmca.go.kr/asset/images/common/bg_logo_full.svg",
+      "origin": "official-institution-candidate",
+      "publicationStatus": "PENDING",
+      "expectedSha256": "4324b51efdcfc5874940a0a986a0d0554fe6d4481f62d6935d412f96baeeaa0b",
+      "bytes": 19793,
+      "preflight": "ok",
+      "catalogExactNameMatches": [
+        "gongu-ci-0984",
+        "mmcago"
+      ],
+      "collectionPurpose": "existing-content-enhancement"
+    },
+    {
+      "id": "ko-official-기장군도시관리공단",
+      "nameKo": "기장군도시관리공단",
+      "lane": "win-01",
+      "sourcePage": "https://www.gijangcmc.or.kr/cmc/08_intro/02_intro_05.asp",
+      "assetUrl": "https://www.gijangcmc.or.kr/cmc/share/img/sub/intro/ci_color.svg",
+      "origin": "official-institution-candidate",
+      "publicationStatus": "PENDING",
+      "expectedSha256": "357ffddb58c91f35c7ef2ea679868945b945637dd08e7608f2f414d30cada795",
+      "bytes": 6934,
+      "preflight": "ok",
+      "catalogExactNameMatches": [
+        "gongu-ci-0624"
+      ],
+      "collectionPurpose": "existing-content-enhancement"
+    },
+    {
+      "id": "ko-official-기후에너지환경부",
+      "nameKo": "기후에너지환경부",
+      "lane": "win-01",
+      "sourcePage": "https://mcee.go.kr/home/web/index.do?menuId=10211",
+      "assetUrl": "https://mcee.go.kr/images/main_202509/logo.svg",
+      "origin": "official-institution-candidate",
+      "publicationStatus": "PENDING",
+      "expectedSha256": "2c203cb74e99ba15c336ce1ee45da2b112f3cdf97af25ae21255467198505a5e",
+      "bytes": 7143,
+      "preflight": "ok",
+      "catalogExactNameMatches": [
+        "gongu-ci-1748"
+      ],
+      "collectionPurpose": "existing-content-enhancement"
+    },
+    {
+      "id": "ko-official-사천시복지청소년재단",
+      "nameKo": "사천시복지청소년재단",
+      "lane": "win-01",
+      "sourcePage": "https://youthsacheon.com/intro_01_3.html",
+      "assetUrl": "https://youthsacheon.com/images/common/sc_logo.svg",
+      "origin": "official-institution-candidate",
+      "publicationStatus": "PENDING",
+      "expectedSha256": "62cde2ce3ded70aa08ea083463a50becaa7f78bde52ffbe30c7e4c695e10f5a4",
+      "bytes": 11481,
+      "preflight": "ok",
+      "catalogExactNameMatches": [
+        "gongu-ci-1182"
+      ],
+      "collectionPurpose": "existing-content-enhancement"
+    },
+    {
+      "id": "us-index-sd",
+      "nameKo": "Sandridge Energy Inc",
+      "lane": "win-02",
+      "sourcePage": "https://sandridgeenergy.com/",
+      "assetUrl": "https://sandridgeenergy.com/wp-content/themes/energy/library/images/sandridge-logo.svg",
+      "origin": "company-site-candidate",
+      "publicationStatus": "PENDING",
+      "identityReviewRequired": true,
+      "expectedSha256": "990c8aff92454e7b55b0fe4b1aed105d546c5334c7d29801ef7e43ae00fadb67",
+      "bytes": 5029,
+      "preflight": "ok",
+      "catalogExactNameMatches": [],
+      "collectionPurpose": "new-content-candidate"
+    },
+    {
+      "id": "us-index-twst",
+      "nameKo": "Twist Bioscience",
+      "lane": "win-01",
+      "sourcePage": "https://www.twistbioscience.com/",
+      "assetUrl": "https://twistbioscience.com/content/dam/twist-aem-migration/logos/logo-dark-mode.svg",
+      "origin": "company-site-candidate",
+      "publicationStatus": "PENDING",
+      "identityReviewRequired": true,
+      "expectedSha256": "f0e84a94e220cf12dc885c6a74a8a8e181599836ee5c68119a26b009b3ceaeb3",
+      "bytes": 15018,
+      "preflight": "ok",
+      "catalogExactNameMatches": [],
+      "collectionPurpose": "new-content-candidate"
+    },
+    {
+      "id": "us-index-oscr",
+      "nameKo": "Oscar Health Class A",
+      "lane": "win-01",
+      "sourcePage": "https://oscarhealth.com/",
+      "assetUrl": "https://oscarhealth.com/logos/logo_black_header.svg",
+      "origin": "company-site-candidate",
+      "publicationStatus": "PENDING",
+      "identityReviewRequired": true,
+      "expectedSha256": "167dac77b2b8f3c7e4ff7b78410d2a31319e199a8842f110192819a491aba26c",
+      "bytes": 8820,
+      "preflight": "ok",
+      "catalogExactNameMatches": [],
+      "collectionPurpose": "new-content-candidate"
+    },
+    {
+      "id": "us-index-ntgr",
+      "nameKo": "Netgear",
+      "lane": "win-02",
+      "sourcePage": "https://netgear.com/",
+      "assetUrl": "https://netgear.com/mobify/bundle/4874/static/img/brand-logo.svg",
+      "origin": "company-site-candidate",
+      "publicationStatus": "PENDING",
+      "identityReviewRequired": true,
+      "expectedSha256": "262c9872d59598638d43cb3a4bab9562a54935795d138f373dc7d0f48494a69e",
+      "bytes": 1790,
+      "preflight": "ok",
+      "catalogExactNameMatches": [
+        "netgear"
+      ],
+      "collectionPurpose": "existing-content-enhancement"
+    },
+    {
+      "id": "us-index-fc",
+      "nameKo": "Franklin Covey",
+      "lane": "win-02",
+      "sourcePage": "https://www.franklincovey.com/",
+      "assetUrl": "https://www.franklincovey.com/wp-content/uploads/2022/02/FC_logo.svg",
+      "origin": "company-site-candidate",
+      "publicationStatus": "PENDING",
+      "identityReviewRequired": true,
+      "expectedSha256": "5a9342b16f6e10db7272b399f1d07a962db8a0ebe6d8d9c2748f1a5850da1b41",
+      "bytes": 4094,
+      "preflight": "ok",
+      "catalogExactNameMatches": [
+        "franklin-covey"
+      ],
+      "collectionPurpose": "existing-content-enhancement"
+    },
+    {
+      "id": "us-index-stra",
+      "nameKo": "Strategic Education",
+      "lane": "win-02",
+      "sourcePage": "https://strategiceducation.com/",
+      "assetUrl": "https://strategiceducation.com/content/dam/strategiceducation/logo/Header_Logo_SEI.svg",
+      "origin": "company-site-candidate",
+      "publicationStatus": "PENDING",
+      "identityReviewRequired": true,
+      "expectedSha256": "3f64c98ff6a302bb55e8e5bc791b3b132cb099b1bfc6f91ab129f3196d69fb48",
+      "bytes": 10138,
+      "preflight": "ok",
+      "catalogExactNameMatches": [
+        "strategic-education"
+      ],
+      "collectionPurpose": "existing-content-enhancement"
+    },
+    {
+      "id": "us-index-mac",
+      "nameKo": "Macerich Reit",
+      "lane": "win-02",
+      "sourcePage": "https://macerich.com/",
+      "assetUrl": "https://macerich.com/Images/logo-macerich.svg",
+      "origin": "company-site-candidate",
+      "publicationStatus": "PENDING",
+      "identityReviewRequired": true,
+      "expectedSha256": "f99e13f59001af6d615f23d3ba30160f0a76b0a47a15387dde8931fa21b5cd59",
+      "bytes": 2827,
+      "preflight": "ok",
+      "catalogExactNameMatches": [],
+      "collectionPurpose": "new-content-candidate"
+    },
+    {
+      "id": "us-index-swim",
+      "nameKo": "Latham Group Inc",
+      "lane": "win-02",
+      "sourcePage": "https://swim.com/",
+      "assetUrl": "https://swim.com/resources/images/landing_page/swim_logo.svg",
+      "origin": "company-site-candidate",
+      "publicationStatus": "PENDING",
+      "identityReviewRequired": true,
+      "expectedSha256": "252e084b287e9c39ea4d50ad93ffeb4c66c003037a34fba37aa46a08a35bb148",
+      "bytes": 8411,
+      "preflight": "ok",
+      "catalogExactNameMatches": [],
+      "collectionPurpose": "new-content-candidate"
+    },
+    {
+      "id": "us-index-dave",
+      "nameKo": "Dave Class A",
+      "lane": "win-02",
+      "sourcePage": "https://dave.com/",
+      "assetUrl": "https://dave.com/images/common/dave-logo.svg",
+      "origin": "company-site-candidate",
+      "publicationStatus": "PENDING",
+      "identityReviewRequired": true,
+      "expectedSha256": "5ca9820ba214f988e6baa8f9270d5756f34a071e2beea943321b24b925356d65",
+      "bytes": 5777,
+      "preflight": "ok",
+      "catalogExactNameMatches": [],
+      "collectionPurpose": "new-content-candidate"
+    },
+    {
+      "id": "us-index-dxpe",
+      "nameKo": "Dxp Enterprises",
+      "lane": "win-02",
+      "sourcePage": "https://www.dxpe.com/",
+      "assetUrl": "https://www.dxpe.com/wp-content/themes/ism/img/DXP_Logo.svg",
+      "origin": "company-site-candidate",
+      "publicationStatus": "PENDING",
+      "identityReviewRequired": true,
+      "expectedSha256": "6c3a676c6028cb378c04bc980ff9456af339448c024e1a3f9a5e0ce0bff7cb04",
+      "bytes": 13113,
+      "preflight": "ok",
+      "catalogExactNameMatches": [],
+      "collectionPurpose": "new-content-candidate"
+    },
+    {
+      "id": "us-index-mtw",
+      "nameKo": "Manitowoc Inc",
+      "lane": "win-02",
+      "sourcePage": "https://manitowoc.com/",
+      "assetUrl": "https://manitowoc.com/sites/default/files/media/menu/icons/2020-07/logo-manitowoc-c.svg",
+      "origin": "company-site-candidate",
+      "publicationStatus": "PENDING",
+      "identityReviewRequired": true,
+      "expectedSha256": "7aeb9c9132d6637abddffd71b837d596e6fc3c8bca2df24653d3036cdb99a77f",
+      "bytes": 5112,
+      "preflight": "ok",
+      "catalogExactNameMatches": [],
+      "collectionPurpose": "new-content-candidate"
+    },
+    {
+      "id": "us-index-gdot",
+      "nameKo": "Green Dot Class A",
+      "lane": "win-02",
+      "sourcePage": "https://greendot.com/",
+      "assetUrl": "https://greendot.com/content/dam/greendot-web/home/Logo.svg",
+      "origin": "company-site-candidate",
+      "publicationStatus": "PENDING",
+      "identityReviewRequired": true,
+      "expectedSha256": "6cb9356fc2e977571ac8dc213b0674f7a93cf6e34cccebcd53f74a388f7bc376",
+      "bytes": 9237,
+      "preflight": "ok",
+      "catalogExactNameMatches": [],
+      "collectionPurpose": "new-content-candidate"
+    },
+    {
+      "id": "us-index-rpd",
+      "nameKo": "Rapid7",
+      "lane": "win-02",
+      "sourcePage": "https://rapid7.com/",
+      "assetUrl": "https://rapid7.com/_next/static/media/rapid7-logo.2ueoguhn_hq76.svg",
+      "origin": "company-site-candidate",
+      "publicationStatus": "PENDING",
+      "identityReviewRequired": true,
+      "expectedSha256": "b4ce9dd76cbf08c60661d88b6c8c904a26301dbd19bfc218f8891ec6803c0070",
+      "bytes": 1585,
+      "preflight": "ok",
+      "catalogExactNameMatches": [
+        "rapid7"
+      ],
+      "collectionPurpose": "existing-content-enhancement"
+    },
+    {
+      "id": "us-index-cvrx",
+      "nameKo": "Cvrx Inc",
+      "lane": "win-01",
+      "sourcePage": "https://cvrx.com/",
+      "assetUrl": "https://cvrx.com/wp-content/themes/cvrx/assets/images/barostim-logo-new.svg",
+      "origin": "company-site-candidate",
+      "publicationStatus": "PENDING",
+      "identityReviewRequired": true,
+      "expectedSha256": "9cba9e31d7724ad26e6d6967292aa0495e5d7687345cae4dedddb9bfc558ca5d",
+      "bytes": 8089,
+      "preflight": "ok",
+      "catalogExactNameMatches": [],
+      "collectionPurpose": "new-content-candidate"
+    },
+    {
+      "id": "us-index-plug",
+      "nameKo": "Plug Power",
+      "lane": "win-02",
+      "sourcePage": "https://www.plugpower.com/",
+      "assetUrl": "https://www.plugpower.com/wp-content/themes/PlugPower2020/public/img/plug-logo.svg",
+      "origin": "company-site-candidate",
+      "publicationStatus": "PENDING",
+      "identityReviewRequired": true,
+      "expectedSha256": "f5e489573e99d282cddb7a6fbb31da3ad3e6fa37f150f9ec2b7381a0fd242903",
+      "bytes": 1437,
+      "preflight": "ok",
+      "catalogExactNameMatches": [
+        "plug-power"
+      ],
+      "collectionPurpose": "existing-content-enhancement"
+    },
+    {
+      "id": "us-index-schl",
+      "nameKo": "Scholastic",
+      "lane": "win-02",
+      "sourcePage": "https://scholastic.com/",
+      "assetUrl": "https://scholastic.com/content/dam/enterprise/asset.jpg/scholastic-logo-red-bar-white-outline.svg",
+      "origin": "company-site-candidate",
+      "publicationStatus": "PENDING",
+      "identityReviewRequired": true,
+      "expectedSha256": "dd6f65a776b2edc92c68f0fa8bab4117a3a53e00223a896078d96e05277606c6",
+      "bytes": 4222,
+      "preflight": "ok",
+      "catalogExactNameMatches": [
+        "scholastic"
+      ],
+      "collectionPurpose": "existing-content-enhancement"
+    },
+    {
+      "id": "us-index-val",
+      "nameKo": "Valaris Ltd",
+      "lane": "win-02",
+      "sourcePage": "https://val.com/",
+      "assetUrl": "https://val.com/images/Logo.svg",
+      "origin": "company-site-candidate",
+      "publicationStatus": "PENDING",
+      "identityReviewRequired": true,
+      "expectedSha256": "11a3ab5f037b2af757467e0015d546fe8317989503ef986f68e06d27ab3febca",
+      "bytes": 8044,
+      "preflight": "ok",
+      "catalogExactNameMatches": [],
+      "collectionPurpose": "new-content-candidate",
+      "reviewDecision": "reject-ticker-domain-identity",
+      "reviewReason": "VAL is Valaris Limited (valaris.com), but collected val.com/Logo.svg belongs to a different site."
+    },
+    {
+      "id": "us-index-neo",
+      "nameKo": "Neogenomics",
+      "lane": "win-01",
+      "sourcePage": "https://www.neogenomics.com/",
+      "assetUrl": "https://www.neogenomics.com//sites/default/files/neo-logo.svg",
+      "origin": "company-site-candidate",
+      "publicationStatus": "PENDING",
+      "identityReviewRequired": true,
+      "expectedSha256": "b4c1d099a5c081f4a0de6ce527b45117c8ef3362db20949fbd8d3cba602261ea",
+      "bytes": 7518,
+      "preflight": "ok",
+      "catalogExactNameMatches": [
+        "neogenomics"
+      ],
+      "collectionPurpose": "existing-content-enhancement"
+    },
+    {
+      "id": "us-index-rgnx",
+      "nameKo": "Regenxbio",
+      "lane": "win-01",
+      "sourcePage": "https://regenxbio.com/",
+      "assetUrl": "https://regenxbio.com/getmedia/323ac4a3-f086-43d0-9338-7e56f7b9648f/regenx-logo.svg?ext=.svg",
+      "origin": "company-site-candidate",
+      "publicationStatus": "PENDING",
+      "identityReviewRequired": true,
+      "expectedSha256": "d0962ce7b5bfa6faf02863b3540cc6fc8bcadfb43f919a328e8e28898158f678",
+      "bytes": 12397,
+      "preflight": "ok",
+      "catalogExactNameMatches": [],
+      "collectionPurpose": "new-content-candidate"
+    },
+    {
+      "id": "us-index-kltr",
+      "nameKo": "Kaltura Inc",
+      "lane": "win-02",
+      "sourcePage": "https://corp.kaltura.com/",
+      "assetUrl": "https://corp.kaltura.com/wp-content/uploads/2024/01/Kaltura_logo-bb-static-1.svg",
+      "origin": "company-site-candidate",
+      "publicationStatus": "PENDING",
+      "identityReviewRequired": true,
+      "expectedSha256": "7ca93352a66c150579366db42220f2a8daedcd2427430eb29642b36798d0aedd",
+      "bytes": 12378,
+      "preflight": "ok",
+      "catalogExactNameMatches": [],
+      "collectionPurpose": "new-content-candidate"
+    }
+  ]
+}

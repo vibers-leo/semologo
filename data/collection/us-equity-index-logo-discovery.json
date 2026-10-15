@@ -2972,7 +2972,7 @@
       "index_memberships": [
         "Russell 2000"
       ],
-      "status": "candidate-asset-staged-external",
+      "status": "domain-identity-mismatch",
       "domain_candidate": "val.com",
       "asset_links": [
         "https://val.com/images/Logo.svg",
@@ -3295,7 +3295,7 @@
       "index_memberships": [
         "Russell 2000"
       ],
-      "status": "candidate-asset-staged-external",
+      "status": "domain-identity-mismatch",
       "domain_candidate": "spire.com",
       "asset_links": [
         "https://spire.com/wp-content/uploads/2026/02/laptop-mock-up-home.png",
@@ -4721,7 +4721,7 @@
       "index_memberships": [
         "Russell 2000"
       ],
-      "status": "candidate-asset-staged-external",
+      "status": "domain-identity-mismatch",
       "domain_candidate": "ucb.com",
       "asset_links": [
         "https://ucb.com/sites/default/files/2025-03/banner-1_2.webp",
@@ -15594,7 +15594,7 @@
       "index_memberships": [
         "Russell 2000"
       ],
-      "status": "candidate-asset-staged-external",
+      "status": "domain-identity-mismatch",
       "domain_candidate": "geni.com",
       "asset_links": [
         "https://geni.com/touch-icon-iphone.png",
