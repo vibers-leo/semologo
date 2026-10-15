@@ -158,14 +158,6 @@ function myEmoji() {
   if (!e) { e = EMOJIS[Math.floor(Math.random() * EMOJIS.length)]; localStorage.setItem("_logo_emoji", e); }
   return e;
 }
-function relTime(ts: number) {
-  const s = Math.floor((Date.now() - ts) / 1000);
-  if (s < 60) return "방금";
-  if (s < 3600) return `${Math.floor(s/60)}분 전`;
-  if (s < 86400) return `${Math.floor(s/3600)}시간 전`;
-  return `${Math.floor(s/86400)}일 전`;
-}
-
 type ShareEntry = { emoji: string; ts: number; type?: string; label?: string; file?: string };
 
 
@@ -218,7 +210,6 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
   const [votes, setVotes] = useState<Record<string, number>>({});
   const [swapTarget, setSwapTarget] = useState<string | null>(null);
   const [votedFiles, setVotedFiles] = useState<string[]>([]);
-  const [shareFeed, setShareFeed] = useState<ShareEntry[]>([]);
   const [visibility, setVisibility] = useState<VisibilityResult | null>(null);
   const [hasWhiteLogo, setHasWhiteLogo] = useState(false);
   const [quality, setQuality] = useState<QualityData>({ up: 0, down: 0, flagged: false });
@@ -436,10 +427,7 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
     (async () => {
       try {
         const db = getClientDb();
-        const [vSnap, sSnap] = await Promise.all([
-          getDoc(doc(db, "logo_votes", brand.id)),
-          getDoc(doc(db, "logo_shares", brand.id)),
-        ]);
+        const vSnap = await getDoc(doc(db, "logo_votes", brand.id));
         if (vSnap.exists()) {
           const data = vSnap.data();
           const rawVotes = (data.votes && typeof data.votes === "object") ? data.votes : data;
@@ -453,7 +441,6 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
           // 공개 배경 투표 결과를 사용한다. 대표 배경은 관리자 선택 API에서 불러온다.
           // Legacy public background votes never override the administrator's selected file.
         }
-        if (sSnap.exists()) setShareFeed(sSnap.data().recent || []);
       } catch {}
     })();
     const voted = JSON.parse(typeof window !== "undefined" ? localStorage.getItem(`voted_${brand.id}`) || "[]" : "[]");
@@ -499,7 +486,6 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
       const recent = [...prev, entry].slice(-20);
       if (snap.exists()) await updateDoc(ref, { recent });
       else await setDoc(ref, { count: 0, recent });
-      setShareFeed(recent);
     } catch {}
   }, [brand.id]);
 
@@ -915,22 +901,6 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
               {copyDone ? t("✅ 복사됐어요") : t("📋 복사하기")}
             </button>
 
-            {shareFeed.length > 0 && (
-              <div style={{ marginTop:12 }}>
-                <div style={{ fontSize: 11, fontWeight:700, color:"#71717a", letterSpacing:".06em", textTransform:"uppercase", marginBottom:5 }}><T>{"최근 활동"}</T></div>
-                {shareFeed.slice(-6).map((s, i) => (
-                  <div key={i} style={{ display:"flex", alignItems:"center", gap:4, padding:"3px 0", borderBottom:"1px solid #f0f0f2" }}>
-                    <span>{s.emoji}</span>
-                    <span style={{ fontSize: 12, color:"#3f3f46", flex:1 }}>
-                      {s.type === "vote" ? <><span style={{ color:"#6366f1" }}>"{s.label}"</span><T>{"추천 👍"}</T></>
-                       : s.type === "swap" ? <><span style={{ color:"#f59e0b" }}>"{s.label}"</span><T>{"교체 요청 🔄"}</T></>
-                       : t("퍼가기 🎉")}
-                    </span>
-                    <span style={{ fontSize: 11, color:"#71717a" }}>{relTime(s.ts)}</span>
-                  </div>
-                ))}
-              </div>
-            )}
           </section>
 
           <section style={{ marginTop:"auto", paddingTop:14, borderTop:"1px solid #e4e4e7" }}>
