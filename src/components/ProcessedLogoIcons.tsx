@@ -23,8 +23,8 @@ export default function ProcessedLogoIcons({brandId,onDownload}:Props){
     }catch{setError('아이콘을 내려받지 못했어요. 잠시 후 다시 시도해 주세요.');}
     finally{setDownloading(false);}
   }
-  return <section aria-label="가공 아이콘" style={{margin:'24px 0',border:'1px solid #e4e4e7',borderRadius:12,padding:14}}>
-    <button type="button" onClick={()=>{if(open&&state==='loading')setState('idle');setOpen(v=>!v);}} aria-expanded={open} style={{display:'flex',alignItems:'center',gap:8,width:'100%',background:'none',border:0,padding:0,fontWeight:700,fontSize:13,textAlign:'left',cursor:'pointer'}}><span aria-hidden>{open?'▾':'▸'}</span>가공 아이콘 <span style={{fontSize:10,fontWeight:500,color:'#6366f1',background:'#eef2ff',borderRadius:6,padding:'2px 6px'}}>편집본</span></button>
+  return <section aria-label="아이콘 만들기" style={{border:'1px solid #e4e4e7',borderRadius:10,padding:14}}>
+    <button type="button" onClick={()=>{if(open&&state==='loading')setState('idle');setOpen(v=>!v);}} aria-expanded={open} style={{display:'flex',alignItems:'center',gap:8,width:'100%',background:'none',border:0,padding:0,fontWeight:700,fontSize:13,textAlign:'left',cursor:'pointer'}}><span aria-hidden>{open?'▾':'▸'}</span>아이콘 만들기 <span style={{fontSize:10,fontWeight:500,color:'#6366f1',background:'#eef2ff',borderRadius:6,padding:'2px 6px'}}>편집본</span></button>
     {open&&<div style={{marginTop:12}}>
       <p style={{fontSize:12,color:'#71717a',lineHeight:1.6,margin:'0 0 12px'}}>원본 벡터를 흰색으로 편집하고 배경을 더한 아이콘이에요. 공식 제공 파일과 구분해 사용해 주세요.</p>
       {state==='loading'&&<p role="status" style={{fontSize:12}}>원본 벡터를 확인하고 있어요.</p>}
