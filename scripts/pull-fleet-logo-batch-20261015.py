@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Verify private fleet manifests and recover reviewed SVG originals locally."""
 import base64
+import zlib
 import argparse
 import hashlib
 import json
@@ -61,7 +62,15 @@ def main():
         assert len(raw) == manifest['size'] and sha(raw) == manifest['sha256']
         result = json.loads(raw)
         assert result['jobId'] == job['id'] and result['sourceId'] == job['input']['sourceId']
-        original = base64.b64decode(result['originalBase64'], validate=True)
+        if 'originalGzipBase64' in result:
+            compressed = base64.b64decode(result['originalGzipBase64'], validate=True)
+            assert len(compressed) <= 45_000 and 20_000 < result['originalBytes'] <= 150_000
+            decoder = zlib.decompressobj(16 + zlib.MAX_WBITS)
+            original = decoder.decompress(compressed, 150_001)
+            assert decoder.eof and not decoder.unconsumed_tail and len(original) == result['originalBytes']
+        else:
+            original = base64.b64decode(result['originalBase64'], validate=True)
+            assert len(original) <= 20_000
         assert sha(original) == result['sha256'] and b'<svg' in original[:1000].lower()
         target = output / (job['request_key'] + '.svg')
         if target.exists():

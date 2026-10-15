@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 1,
+  "batch": "semologo-cycle-20261015c",
+  "policy": "collection-only; visual, identity and SVG safety review before publication",
+  "maxBytes": 150000,
+  "maxGzipBytes": 45000,
+  "sources": [
+    {
+      "id": "ko-official-재우체국금융개발원-logo_b",
+      "nameKo": "(재)우체국금융개발원",
+      "lane": "win-01",
+      "sourcePage": "https://www.posid.or.kr/introduction/ci.do",
+      "assetUrl": "https://www.posid.or.kr/images/logo_b.svg",
+      "origin": "official-institution-candidate",
+      "catalogExactNameMatches": [
+        "gongu-ci-1763"
+      ],
+      "collectionPurpose": "existing-content-enhancement",
+      "expectedSha256": "cd220585378a2d61874230988669e8545528b5e8b283934f5a3df671ca399ac2",
+      "bytes": 111041,
+      "gzipBytes": 26712,
+      "preflight": "ok",
+      "publicationStatus": "PENDING"
+    },
+    {
+      "id": "ko-official-재우체국물류지원단-img-ci-logo02",
+      "nameKo": "(재)우체국물류지원단",
+      "lane": "win-01",
+      "sourcePage": "https://www.pola.or.kr/web/content.do?proFn=ci",
+      "assetUrl": "https://www.pola.or.kr/images_new/common/img-ci-logo02.svg",
+      "origin": "official-institution-candidate",
+      "catalogExactNameMatches": [
+        "gongu-ci-1764"
+      ],
+      "collectionPurpose": "existing-content-enhancement",
+      "expectedSha256": "377b0d2645d3fabf0820e04991ea7d23336643babc4dee2d1b20cc0604e6d8d0",
+      "bytes": 52971,
+      "gzipBytes": 21085,
+      "preflight": "ok",
+      "publicationStatus": "PENDING"
+    },
+    {
+      "id": "ko-official-재우체국물류지원단-img-ci-logo03",
+      "nameKo": "(재)우체국물류지원단",
+      "lane": "win-01",
+      "sourcePage": "https://www.pola.or.kr/web/content.do?proFn=ci",
+      "assetUrl": "https://www.pola.or.kr/images_new/common/img-ci-logo03.svg",
+      "origin": "official-institution-candidate",
+      "catalogExactNameMatches": [
+        "gongu-ci-1764"
+      ],
+      "collectionPurpose": "existing-content-enhancement",
+      "expectedSha256": "ac4bc8b76282f3c1521f4cb8c2c478cb89dc48a94ee5e1eaaff765e24a0e4f1d",
+      "bytes": 35518,
+      "gzipBytes": 13071,
+      "preflight": "ok",
+      "publicationStatus": "PENDING"
+    },
+    {
+      "id": "ko-official-eco융합섬유연구원-logo",
+      "nameKo": "ECO융합섬유연구원",
+      "lane": "win-01",
+      "sourcePage": "https://www.kictex.re.kr/",
+      "assetUrl": "https://www.kictex.re.kr/img/logo.svg",
+      "origin": "official-institution-candidate",
+      "catalogExactNameMatches": [
+        "gongu-ci-0137"
+      ],
+      "collectionPurpose": "existing-content-enhancement",
+      "expectedSha256": "ebf33acffab9cdebe200cc29386686f4283ac862545aa706929ff77558dc54fb",
+      "bytes": 31259,
+      "gzipBytes": 7528,
+      "preflight": "ok",
+      "publicationStatus": "PENDING"
+    },
+    {
+      "id": "ko-official-kdi국제정책대학원-logo",
+      "nameKo": "KDI국제정책대학원",
+      "lane": "win-01",
+      "sourcePage": "https://www.kdischool.ac.kr/#/www/cp/about_kdis/symbol/university_identity",
+      "assetUrl": "https://www.kdischool.ac.kr/www/img/new/layout/logo.svg",
+      "origin": "official-institution-candidate",
+      "catalogExactNameMatches": [
+        "gongu-ci-1758"
+      ],
+      "collectionPurpose": "existing-content-enhancement",
+      "expectedSha256": "1c7a70dc8a7a426bf6380d48e932d42fa1a907670d2ebb6164d57d12c45d92d7",
+      "bytes": 55721,
+      "gzipBytes": 21670,
+      "preflight": "ok",
+      "publicationStatus": "PENDING"
+    },
+    {
+      "id": "ko-official-kias고등과학원-logo",
+      "nameKo": "KIAS고등과학원",
+      "lane": "win-01",
+      "sourcePage": "https://www.kias.re.kr/kias/main/contents.do?menuNo=400003",
+      "assetUrl": "https://www.kias.re.kr/static/kias/img/common/logo.svg",
+      "origin": "official-institution-candidate",
+      "catalogExactNameMatches": [
+        "gongu-ci-0894"
+      ],
+      "collectionPurpose": "existing-content-enhancement",
+      "expectedSha256": "2ba97aca6a7a05d85abbfd3802647aa4811c9fdc13460ac5e8dee812f70336c0",
+      "bytes": 31987,
+      "gzipBytes": 19679,
+      "preflight": "ok",
+      "publicationStatus": "PENDING"
+    },
+    {
+      "id": "ko-official-경기평택항만공사-logo",
+      "nameKo": "경기평택항만공사",
+      "lane": "win-01",
+      "sourcePage": "https://www.gppc.or.kr/cms/archive.do?pageId=K001002003",
+      "assetUrl": "https://www.gppc.or.kr/img/common/logo.svg",
+      "origin": "official-institution-candidate",
+      "catalogExactNameMatches": [
+        "gongu-ci-0655"
+      ],
+      "collectionPurpose": "existing-content-enhancement",
+      "expectedSha256": "d9290e5309b7f6d2f03b84489cd5a44741b1822e2c53e972c96a6e422f63fdcf",
+      "bytes": 39261,
+      "gzipBytes": 16810,
+      "preflight": "ok",
+      "publicationStatus": "PENDING"
+    },
+    {
+      "id": "ko-official-경남투자경제진흥원-ko_type_ci",
+      "nameKo": "경남투자경제진흥원",
+      "lane": "win-01",
+      "sourcePage": "https://giba.or.kr/fe/inform/ci/NR_index.do",
+      "assetUrl": "https://giba.or.kr/resources/front/images/ko_type_ci.svg",
+      "origin": "official-institution-candidate",
+      "catalogExactNameMatches": [
+        "gongu-ci-0418"
+      ],
+      "collectionPurpose": "existing-content-enhancement",
+      "expectedSha256": "3b65f258cd76223ad532b51b462c5fdce20c02f29655d81bb55f238062329cca",
+      "bytes": 64871,
+      "gzipBytes": 25023,
+      "preflight": "ok",
+      "publicationStatus": "PENDING"
+    },
+    {
+      "id": "ko-official-경남투자경제진흥원-main_ci",
+      "nameKo": "경남투자경제진흥원",
+      "lane": "win-01",
+      "sourcePage": "https://giba.or.kr/fe/inform/ci/NR_index.do",
+      "assetUrl": "https://giba.or.kr/resources/front/images/main_ci.svg",
+      "origin": "official-institution-candidate",
+      "catalogExactNameMatches": [
+        "gongu-ci-0418"
+      ],
+      "collectionPurpose": "existing-content-enhancement",
+      "expectedSha256": "9214032b95258c1f68e6c4687a41606bbf2559673262b1344c699972ecbe37a9",
+      "bytes": 79237,
+      "gzipBytes": 28938,
+      "preflight": "ok",
+      "publicationStatus": "PENDING"
+    },
+    {
+      "id": "ko-official-국립중앙의료원-logo",
+      "nameKo": "국립중앙의료원",
+      "lane": "win-01",
+      "sourcePage": "https://www.nmc.or.kr/nmc/contents/symbol",
+      "assetUrl": "https://www.nmc.or.kr/styles/assets/logo.svg",
+      "origin": "official-institution-candidate",
+      "catalogExactNameMatches": [
+        "gongu-ci-0980",
+        "nmc-2"
+      ],
+      "collectionPurpose": "existing-content-enhancement",
+      "expectedSha256": "3704b4de807a75ed41eacb32897a1cb86641651da05dd1a9472a320f4f8af549",
+      "bytes": 30656,
+      "gzipBytes": 9392,
+      "preflight": "ok",
+      "publicationStatus": "PENDING"
+    },
+    {
+      "id": "ko-official-국민권익위원회-main-logo",
+      "nameKo": "국민권익위원회",
+      "lane": "win-01",
+      "sourcePage": "https://www.acrc.go.kr/menu.es?mid=a10606010000",
+      "assetUrl": "https://www.acrc.go.kr/main/img/layout/main-logo.svg",
+      "origin": "official-institution-candidate",
+      "catalogExactNameMatches": [
+        "gongu-ci-0987"
+      ],
+      "collectionPurpose": "existing-content-enhancement",
+      "expectedSha256": "deb2a71921062d69b9bdf5676aef0f7eac13190e724be6ec179192fca5026dc0",
+      "bytes": 25207,
+      "gzipBytes": 8607,
+      "preflight": "ok",
+      "publicationStatus": "PENDING"
+    }
+  ],
+  "preflightFailures": []
+}

@@ -65,8 +65,10 @@ def main():
         source = plan[item['sourceId']]
         okay, reason = safe_svg(raw)
         row = {'sourceId': item['sourceId'], 'lane': source['lane'], 'file': item['file'],
-               'sha256': item['sha256'], 'bytes': len(raw), 'collectionPurpose': source['collectionPurpose'],
-               'catalogExactNameMatches': source['catalogExactNameMatches'],
+               'sha256': item['sha256'], 'bytes': len(raw),
+               'collectionPurpose': source.get('collectionPurpose',
+                    'new-content-candidate' if source.get('lane') == 'win-02' else 'existing-content-enhancement'),
+               'catalogExactNameMatches': source.get('catalogExactNameMatches', []),
                'safety': reason, 'rendered': False, 'publicationStatus': 'PENDING',
                'reviewDecision': source.get('reviewDecision', 'hold-visual-review'),
                'reviewReason': source.get('reviewReason') or VISUAL_HOLDS.get(item['sourceId'])}
