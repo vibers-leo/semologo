@@ -21,7 +21,7 @@ import {
 } from "firebase/firestore";
 import { onAuthStateChanged } from "firebase/auth";
 import {
-  analyzeLogoVisibility, getDarkPreviewStyle, getDarkPreviewUrl, getDarkPreviewLabel,
+  analyzeLogoVisibility, getDarkPreviewUrl,
   type VisibilityResult,
 } from "@/lib/logo-visibility";
 import {
@@ -274,7 +274,6 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
     setSavingPresentation(true);
     try{const token=await getClientAuth().currentUser?.getIdToken();const r=await fetch('/api/logo-presentation/',{method:'PATCH',headers:{Authorization:`Bearer ${token}`,'Content-Type':'application/json'},body:JSON.stringify({id:brand.id,file,bg})});const data=await r.json();if(!r.ok)throw Error(data.error);setPresentation(data.presentation);setBgOverride(null);window.dispatchEvent(new CustomEvent('semologo:presentation',{detail:{brandId:brand.id,presentation:data.presentation}}));toast('대표 이미지와 배경을 저장했어요.');}catch(e){toast(e instanceof Error?e.message:'저장하지 못했어요.');}finally{setSavingPresentation(false);}
   };
-  const toggleBg = (e:React.MouseEvent) => {e.stopPropagation();if(!isAdmin)return;const fallback=presentationAssetFile(brand,brand.logo_png)||presentationAssetFile(brand,brand.preview_png)||"logo.png";const file=presentation?.file || (!isLightLogo ? brand.dark_png || (hasWhiteLogo ? "logo-white.png" : fallback) : fallback);void savePresentation(file,isLightLogo?"light":"dark");};
   const DARK_TILE: React.CSSProperties = { background: "#18181b", backgroundImage: "none" };
   /** 밝은 로고면 어두운 타일, 아니면 원래 배경 */
   const tile = (base?: React.CSSProperties): React.CSSProperties =>
@@ -828,7 +827,7 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
           flex: isPage ? undefined : 1,
           overflow: isPage ? undefined : "hidden",
           display: "grid",
-          gridTemplateColumns: "200px minmax(0,1fr) 270px",
+          gridTemplateColumns: "240px minmax(0,1fr) 240px",
         }}
       >
         {/* ── LEFT: 미리보기 + 형식 + 빠른다운 ── */}
@@ -844,26 +843,6 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
             )}
           </div>
 
-          {/* 다크 프리뷰 — 관리자는 클릭해서 "검정 배경으로 메인 노출"을 지정한다 */}
-          <div style={{ borderRadius:8, overflow:"hidden", cursor: "pointer", outline: bgOverride ? "2px solid #22c55e" : undefined }}
-               onClick={toggleBg}
-               title={isLightLogo ? "클릭: 흰 배경으로 되돌리기" : "클릭: 검정 배경으로 메인 노출"}>
-            <div style={{ ...(invertedUrl || brand.dark_png ? { background:"#111114" } : getDarkPreviewStyle(visibility)), position:"relative", height:72 }}>
-              {bgOverride && (
-                <span style={{ position:"absolute", top:4, right:6, fontSize:10, fontWeight:700, padding:"1px 6px", borderRadius:8, background: bgOverride === "dark" ? "#22c55e" : "#e4e4e7", color: bgOverride === "dark" ? "#fff" : "#52525b" }}>
-                  {bgOverride === "dark" ? "📌 검정 메인" : "📌 흰 배경"}
-                </span>
-              )}
-              {/* 라벨은 가운데 큰 다크 패널에만 둔다 — 여기 72px 타일에선 핀과 겹쳐 지저분했다 */}
-              <LogoBox src={invertedUrl || darkPreviewSrc} alt={en ? brand.name_en || brand.name_ko : brand.name_ko} height={72} padding={12} bg="transparent" fallback={previewUrl} />
-              {visibility && (
-                <span style={{ position:"absolute", bottom:4, left:0, right:0, textAlign:"center", fontSize: 11, color:"#71717a", letterSpacing:".06em", textTransform:"uppercase", opacity:.8 }}>
-                  {invertedUrl ? t("흑백 반전 (다크용)") : t(getDarkPreviewLabel(visibility)) + (hasWhiteLogo && visibility.darkMode !== "white-only" ? " · 화이트" : "")}
-                </span>
-              )}
-            </div>
-          </div>
-
           {/* 사용 미리보기 */}
           <div>
             <div style={{ fontSize: 11, fontWeight:700, color:"#71717a", letterSpacing:".08em", textTransform:"uppercase", marginBottom:10 }}><T>{"사용 미리보기"}</T></div>
@@ -875,7 +854,7 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
                 <div key={t(m.label)} style={{ display:"flex", flexDirection:"column", alignItems:"center", gap:5 }}>
                   <div style={m.style}>
                     {/* eslint-disable-next-line @next/next/no-img-element */}
-                    <img src={m.label !== "OG 16:9" && usageIconUrl ? usageIconUrl : !presentation && bgOverride === "dark" ? (invertedUrl || darkPreviewSrc) : previewUrl} alt="" style={{ position:"absolute", inset:"10%", width:"80%", height:"80%", objectFit:"contain", objectPosition:"center" }} onError={e => { e.currentTarget.src = pngUrl; }} />
+                    <img src={m.label !== "OG 16:9" && usageIconUrl ? usageIconUrl : !presentation && bgOverride === "dark" ? (invertedUrl || darkPreviewSrc) : previewUrl} alt="" style={{ position:"absolute", inset: m.label === "OG 16:9" ? "10%" : 0, width: m.label === "OG 16:9" ? "80%" : "100%", height: m.label === "OG 16:9" ? "80%" : "100%", objectFit:"contain", objectPosition:"center" }} onError={e => { e.currentTarget.src = pngUrl; }} />
                   </div>
                   <span style={{ fontSize: 11, color:"#71717a", textAlign:"center" }}>{t(m.label)}</span>
                 </div>
@@ -913,6 +892,58 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
                 style={{ display:"flex", alignItems:"center", justifyContent:"center", gap:5, padding:"9px 0", borderRadius:8, fontSize:12, fontWeight:600, background:"#111114", color:"#a78bfa", textDecoration:"none", border:"1px solid #3f3f46" }}><T>{"🌙 반전 PNG (다크용)"}</T></a>
             )}
           </div>
+          {/* 공유 — 무엇을 복사할지 고르고 버튼 하나로 실행한다 */}
+          <div style={{ padding:"12px 0 0", borderTop:"1px solid #e4e4e7" }}>
+            <div style={{ fontSize: 11, fontWeight:700, color:"#71717a", letterSpacing:".08em", textTransform:"uppercase", marginBottom:10 }}><T>{"공유하기 🎉"}</T></div>
+
+            {/* 무엇을 복사할지 */}
+            <div style={{ display:"flex", gap:4, marginBottom:8 }}>
+              {SHARE_TABS.map(t => {
+                const on = shareTab === t.key;
+                return (
+                  <button key={t.key} onClick={() => setShareTab(t.key)}
+                    style={{ flex:1, padding:"6px 0", borderRadius:7, fontSize:11, fontWeight:600, cursor:"pointer",
+                             background: on ? "#111" : "#f4f4f5", color: on ? "#fff" : "#71717a",
+                             border: `1px solid ${on ? "#111" : "#e4e4e7"}`, transition:"all .12s" }}>
+                    <T>{t.label}</T>
+                  </button>
+                );
+              })}
+            </div>
+
+            {/* 복사될 내용 — 실제로 뭐가 담기는지 보여준다 */}
+            <div style={{ background:"#f9f9f9", border:"1px solid #e4e4e7", borderRadius:8, padding:"8px 10px",
+                          fontFamily:"monospace", fontSize:11, color:"#71717a", lineHeight:1.6,
+                          marginBottom:8, wordBreak:"break-all",
+                          maxHeight:56, overflow:"hidden" }}>
+              {shareValue}
+            </div>
+
+            <button onClick={doShare}
+              style={{ width:"100%", display:"flex", alignItems:"center", justifyContent:"center", gap:6,
+                       padding:"9px 0", borderRadius:8, fontSize:12, fontWeight:600, cursor:"pointer",
+                       background: copyDone ? "#16a34a" : "#6366f1", color:"#fff", border:"none", transition:"background .15s" }}>
+              {copyDone ? t("✅ 복사됐어요") : t("📋 복사하기")}
+            </button>
+
+            {shareFeed.length > 0 && (
+              <div style={{ marginTop:12 }}>
+                <div style={{ fontSize: 11, fontWeight:700, color:"#71717a", letterSpacing:".06em", textTransform:"uppercase", marginBottom:5 }}><T>{"최근 활동"}</T></div>
+                {shareFeed.slice(-6).map((s, i) => (
+                  <div key={i} style={{ display:"flex", alignItems:"center", gap:4, padding:"3px 0", borderBottom:"1px solid #f0f0f2" }}>
+                    <span>{s.emoji}</span>
+                    <span style={{ fontSize: 12, color:"#3f3f46", flex:1 }}>
+                      {s.type === "vote" ? <><span style={{ color:"#6366f1" }}>"{s.label}"</span><T>{"추천 👍"}</T></>
+                       : s.type === "swap" ? <><span style={{ color:"#f59e0b" }}>"{s.label}"</span><T>{"교체 요청 🔄"}</T></>
+                       : t("퍼가기 🎉")}
+                    </span>
+                    <span style={{ fontSize: 11, color:"#71717a" }}>{relTime(s.ts)}</span>
+                  </div>
+                ))}
+              </div>
+            )}
+          </div>
+
         </div>
 
         {/* ── MID: 인트로 + 변형 그리드 ── */}
@@ -1027,58 +1058,6 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
 
         {/* ── RIGHT: 퍼가요 + 임베드 + 제보 + 광고 ── */}
         <div className={`mscroll brand-inner-right`} style={{ overflowY: isPage ? undefined : "auto", borderLeft:"1px solid #e4e4e7", display:"flex", flexDirection:"column", scrollbarWidth:"thin" }}>
-
-          {/* 공유 — 무엇을 복사할지 고르고 버튼 하나로 실행한다 */}
-          <div style={{ padding:"14px 16px", borderBottom:"1px solid #e4e4e7" }}>
-            <div style={{ fontSize: 11, fontWeight:700, color:"#71717a", letterSpacing:".08em", textTransform:"uppercase", marginBottom:10 }}><T>{"공유하기 🎉"}</T></div>
-
-            {/* 무엇을 복사할지 */}
-            <div style={{ display:"flex", gap:4, marginBottom:8 }}>
-              {SHARE_TABS.map(t => {
-                const on = shareTab === t.key;
-                return (
-                  <button key={t.key} onClick={() => setShareTab(t.key)}
-                    style={{ flex:1, padding:"6px 0", borderRadius:7, fontSize:11, fontWeight:600, cursor:"pointer",
-                             background: on ? "#111" : "#f4f4f5", color: on ? "#fff" : "#71717a",
-                             border: `1px solid ${on ? "#111" : "#e4e4e7"}`, transition:"all .12s" }}>
-                    <T>{t.label}</T>
-                  </button>
-                );
-              })}
-            </div>
-
-            {/* 복사될 내용 — 실제로 뭐가 담기는지 보여준다 */}
-            <div style={{ background:"#f9f9f9", border:"1px solid #e4e4e7", borderRadius:8, padding:"8px 10px",
-                          fontFamily:"monospace", fontSize:11, color:"#71717a", lineHeight:1.6,
-                          marginBottom:8, wordBreak:"break-all",
-                          maxHeight:56, overflow:"hidden" }}>
-              {shareValue}
-            </div>
-
-            <button onClick={doShare}
-              style={{ width:"100%", display:"flex", alignItems:"center", justifyContent:"center", gap:6,
-                       padding:"9px 0", borderRadius:8, fontSize:12, fontWeight:600, cursor:"pointer",
-                       background: copyDone ? "#16a34a" : "#6366f1", color:"#fff", border:"none", transition:"background .15s" }}>
-              {copyDone ? t("✅ 복사됐어요") : t("📋 복사하기")}
-            </button>
-
-            {shareFeed.length > 0 && (
-              <div style={{ marginTop:12 }}>
-                <div style={{ fontSize: 11, fontWeight:700, color:"#71717a", letterSpacing:".06em", textTransform:"uppercase", marginBottom:5 }}><T>{"최근 활동"}</T></div>
-                {shareFeed.slice(-6).map((s, i) => (
-                  <div key={i} style={{ display:"flex", alignItems:"center", gap:4, padding:"3px 0", borderBottom:"1px solid #f0f0f2" }}>
-                    <span>{s.emoji}</span>
-                    <span style={{ fontSize: 12, color:"#3f3f46", flex:1 }}>
-                      {s.type === "vote" ? <><span style={{ color:"#6366f1" }}>"{s.label}"</span><T>{"추천 👍"}</T></>
-                       : s.type === "swap" ? <><span style={{ color:"#f59e0b" }}>"{s.label}"</span><T>{"교체 요청 🔄"}</T></>
-                       : t("퍼가기 🎉")}
-                    </span>
-                    <span style={{ fontSize: 11, color:"#71717a" }}>{relTime(s.ts)}</span>
-                  </div>
-                ))}
-              </div>
-            )}
-          </div>
 
           {/* 제보 & 개선 */}
           <div style={{ padding:"14px 16px", borderBottom:"1px solid #e4e4e7" }}>

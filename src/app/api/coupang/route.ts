@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
 import crypto from "crypto";
+import { redis } from "@/lib/redis";
 
 /**
  * 쿠팡 파트너스 골드박스 상품을 받아 온다.
@@ -19,32 +20,34 @@ const PATH = "/v2/providers/affiliate_open_api/apis/openapi/v1/products/goldbox"
 const SEARCH_PATH = "/v2/providers/affiliate_open_api/apis/openapi/products/search";
 const BRAND_ORIGIN = "https://kr.object.ncloudstorage.com/vibers-bucket/_clients";
 
-// A small shared budget prevents crawlers from turning 180K logo pages into
-// 180K distinct affiliate API calls. Goldbox remains the bounded fallback.
-let searchWindowStart = 0;
-let searchCount = 0;
+// The current Partners Search API docs cap this endpoint at 50 calls/minute.
+// Keep a shared rolling budget below that limit, including across deploys.
 let lookupWindowStart = 0;
 let lookupCount = 0;
-const recentlyChecked = new Map<string, number>();
-const SEARCHES_PER_MINUTE = 8;
+const SEARCHES_PER_MINUTE = 40;
 
 function lookupBudgetAvailable() {
   const now = Date.now();
   if (now - lookupWindowStart >= 60_000) { lookupWindowStart = now; lookupCount = 0; }
-  if (lookupCount >= 30) return false;
+  if (lookupCount >= 60) return false;
   lookupCount += 1;
   return true;
 }
 
-function searchBudgetAvailable(id: string) {
-  const now = Date.now();
-  if ((recentlyChecked.get(id) || 0) > now) return true;
-  if (now - searchWindowStart >= 60_000) { searchWindowStart = now; searchCount = 0; }
-  if (searchCount >= SEARCHES_PER_MINUTE) return false;
-  searchCount += 1;
-  if (recentlyChecked.size >= 2000) recentlyChecked.delete(recentlyChecked.keys().next().value!);
-  recentlyChecked.set(id, now + 43_200_000);
-  return true;
+async function searchBudgetAvailable() {
+  const client = redis();
+  if (!client) return false;
+  try {
+    const now = Date.now();
+    const allowed = await client.eval(
+      "redis.call('ZREMRANGEBYSCORE',KEYS[1],'-inf',ARGV[1]-60000); if redis.call('ZCARD',KEYS[1])>=tonumber(ARGV[2]) then return 0 end; redis.call('ZADD',KEYS[1],ARGV[1],ARGV[3]); redis.call('PEXPIRE',KEYS[1],60000); return 1",
+      1, "coupang:search:rolling-minute", now, SEARCHES_PER_MINUTE, `${now}:${crypto.randomUUID()}`,
+    );
+    return allowed === 1;
+  } catch (error) {
+    console.error("[coupang-budget]", (error as Error).name);
+    return false;
+  }
 }
 
 async function brandForAd(id: string): Promise<{ name_ko: string; category: string } | null> {
@@ -79,38 +82,53 @@ export async function GET(request: Request) {
   }
   try {
     const id = new URL(request.url).searchParams.get("brand") || "";
-    if (/^[a-z0-9][a-z0-9-]{1,90}$/.test(id) && lookupBudgetAvailable()) {
+    const validBrandId = /^[a-z0-9][a-z0-9-]{1,90}$/.test(id);
+    const cacheKey = `coupang:related:v2:${id}`;
+    const client = validBrandId ? redis() : null;
+    let cached: string | null = null;
+    if (client) try { cached = await client.get(cacheKey); } catch { /* Goldbox remains available. */ }
+    if (cached && cached !== "none") {
+      try { return NextResponse.json(JSON.parse(cached)); } catch { /* Refresh below. */ }
+    }
+    if (validBrandId && lookupBudgetAvailable()) {
       const brand = await brandForAd(id);
       const name = brand?.name_ko?.split("/")[0]?.trim() || "";
       const publicCategory = /공공|기관|교육|의료|도시|국가|국기/.test(brand?.category || "");
       const isTodayHouse = id === "ohou-se" || id === "ohouse" || name.replace(/\s/g, "") === "오늘의집";
-      const keyword = isTodayHouse ? "인테리어 소품" : name;
-      if (brand && !publicCategory && keyword.length >= 2 && keyword.length <= 30 && searchBudgetAvailable(id)) {
+      const keyword = isTodayHouse ? "인테리어 소품" : id === "puma" ? "푸마" : name;
+      if (brand && !publicCategory && !cached && keyword.length >= 2 && keyword.length <= 30 && await searchBudgetAvailable()) {
         try {
         const query = new URLSearchParams({ keyword, limit: "10" }).toString();
         const response = await fetch(`${HOST}${SEARCH_PATH}?${query}`, {
           headers: { Authorization: authHeader(ak, sk, SEARCH_PATH, query), "Content-Type": "application/json" },
-          next: { revalidate: 43_200 },
+          next: { revalidate: 1_800 },
         });
         if (response.ok) {
           const json = await response.json();
           const candidates = Array.isArray(json?.data?.productData) ? json.data.productData : [];
-          const compactName = name.replace(/\s/g, "").toLowerCase();
+          const compactName = keyword.replace(/\s/g, "").toLowerCase();
           const seenProducts = new Set<string>();
           const matches = candidates.filter((p: Record<string, unknown>) => {
             if (!p.productId || !p.productUrl || !p.productImage) return false;
-            if (!isTodayHouse && !String(p.productName || "").replace(/\s/g, "").toLowerCase().includes(compactName)) return false;
             const productId = String(p.productId);
             if (seenProducts.has(productId)) return false;
             seenProducts.add(productId);
             return true;
+          }).sort((a: Record<string, unknown>, b: Record<string, unknown>) => {
+            const aExact = String(a.productName || "").replace(/\s/g, "").toLowerCase().includes(compactName) ? 1 : 0;
+            const bExact = String(b.productName || "").replace(/\s/g, "").toLowerCase().includes(compactName) ? 1 : 0;
+            return bExact - aExact;
           }).slice(0, 5);
           if (matches.length) {
-            return NextResponse.json({ mode: "related", label: isTodayHouse ? "집 꾸미기 상품" : `${name} 관련 상품`, products: matches.map((product: Record<string, unknown>) => ({
+            const hasExact = matches.some((product: Record<string, unknown>) => String(product.productName || "").replace(/\s/g, "").toLowerCase().includes(compactName));
+            const result = { mode: "related", label: isTodayHouse ? "집 꾸미기 상품" : hasExact ? `${name} 관련 상품` : `${name}에서 떠오르는 상품`, products: matches.map((product: Record<string, unknown>) => ({
               id: product.productId, name: product.productName, price: product.productPrice,
               image: product.productImage, url: product.productUrl, rocket: product.isRocket,
-            })) });
+            })) };
+            if (client) try { await client.set(cacheKey, JSON.stringify(result), "EX", 1_800); } catch { /* Optional cache. */ }
+            return NextResponse.json(result);
           }
+          if (client) try { await client.set(cacheKey, "none", "EX", 300); } catch { /* Optional cache. */ }
         }
         } catch (error) {
           console.error("[coupang-search]", (error as Error).name);
