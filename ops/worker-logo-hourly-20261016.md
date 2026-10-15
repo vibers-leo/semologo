@@ -33,3 +33,7 @@ Vaxcyte, Lantheus, JBT Marel, Novanta 네 곳은 공식 사이트 명칭·벡터
 예약 수집기와 같은 서비스 명령으로 새 출처 네 건을 양쪽 PC에 2건씩 제출했고, Granite Construction, Warrior Met Coal, OPENLANE, Tutor Perini의 비공개 manifest와 SVG 원본 해시를 4/4 검증했다. 공식 출처 URL의 현재 바이트, 안전한 SVG 구조, 눈으로 본 로고 도안, CMS·정적 목록의 중복을 확인한 뒤 4건을 게시했다. `brand.json`·`logo.svg`·`logo.png`·`variants.json`과 상세 페이지는 각 4/4 HTTP 200이었다. 공개 합계는 181,827건이며 새 네 건은 가로 조합형 1종씩이다. 시간별 목록의 신규 미시도 출처는 제출 직후 34개였다.
 
 카드 이미지의 실제 후보 순서로 최근·인기 로고 1,131건을 검사하는 `audit-card-image-fallbacks-20261016.py`를 추가했다. 첫 검사에서 5건이 두 번째 후보로 넘어갔다. 2건은 CMS `preview_png`의 브랜드 폴더 상대경로를 브라우저 절대경로로 해석하지 않은 문제라 카드·상세의 URL 생성 방식을 수정했다. 다른 3건의 `logo.png`에는 PNG 대신 WebP/GIF/JPEG 바이트가 들어 있었다. 원본 해시를 고정해 비공개 backup 키에 보존하고 기존에 서비스하던 정상 투명 PNG를 같은 `logo.png` 경로에 복사한 뒤 CDN URL을 퍼지했다. 재검사에서는 바로 표시 1,129건, 동적 PNG 경로만 있는 2건, 깨진 카드와 불필요한 fallback 모두 0건이다. 18만 건 전체 전수 검사로 해석하지 않는다.
+
+## 08:42 KST 예약 회차
+
+정기 timer가 별도 수동 개입 없이 Kontoor Brands·RXO(win-01), Denali Therapeutics·Kinetik(win-02)을 제출했고 4/4 완료했다. 비공개 manifest와 원본 해시, 공식 원본의 현재 바이트, SVG 안전성·시각 상태, 기존 게시물 중복을 검증한 뒤 4개 신규 로고 콘텐츠를 게시했다. 각 기업의 SVG·PNG·brand.json·variants.json과 상세 페이지가 모두 HTTP 200이며 공개 합계는 181,831건이다. 새 네 곳도 확인된 가로 조합형 1종이므로 4종 완성으로 집계하지 않는다. 출처 목록 159개 중 미시도는 해당 제출 직후 30개였다.

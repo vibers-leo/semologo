@@ -50,6 +50,15 @@ BATCHES = {
             'us-hourly-opln': ('openlane', 'OPENLANE', '유통·쇼핑', 'light'),
             'us-hourly-tpc': ('tutor-perini', 'Tutor Perini', '건설·부동산', 'light'),
         }),
+    'r28-hourly': (
+        ROOT / 'marketing/assets/worker-logo-hourly-20261016-0832',
+        ROOT / 'marketing/assets/worker-logo-hourly-new-20261016/semologo-sources.json',
+        {
+            'us-hourly-ktb': ('kontoor-brands', 'Kontoor Brands', '뷰티·패션', 'light'),
+            'us-hourly-rxo': ('rxo', 'RXO', '물류·교통', 'light'),
+            'us-hourly-dnli': ('denali-therapeutics', 'Denali Therapeutics', '의료·바이오', 'light'),
+            'us-hourly-kntk': ('kinetik', 'Kinetik', '에너지·화학', 'light'),
+        }),
 }
 
 
