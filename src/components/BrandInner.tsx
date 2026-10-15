@@ -903,7 +903,7 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
 
           </section>
 
-          <section style={{ marginTop:"auto", paddingTop:14, borderTop:"1px solid #e4e4e7" }}>
+          <section style={{ marginTop:isPage?0:"auto", paddingTop:14, borderTop:"1px solid #e4e4e7" }}>
             <div style={{ fontSize:12, fontWeight:700, color:"#18181b", marginBottom:4 }}><T>{"로고 다운로드"}</T></div>
             <div style={{ fontSize:11, color:"#71717a", marginBottom:9 }}>
               {[hasSvg || !!manifest?.variants.some(v=>v.files.svg) ? "SVG" : null, hasPng ? "PNG" : null, hasEn ? t("영문 버전") : null].filter(Boolean).join(" · ")}
