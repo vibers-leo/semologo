@@ -96,9 +96,14 @@ export async function GET(request: Request) {
           const json = await response.json();
           const candidates = Array.isArray(json?.data?.productData) ? json.data.productData : [];
           const compactName = name.replace(/\s/g, "").toLowerCase();
+          const seenProducts = new Set<string>();
           const matches = candidates.filter((p: Record<string, unknown>) => {
             if (!p.productId || !p.productUrl || !p.productImage) return false;
-            return isTodayHouse || String(p.productName || "").replace(/\s/g, "").toLowerCase().includes(compactName);
+            if (!isTodayHouse && !String(p.productName || "").replace(/\s/g, "").toLowerCase().includes(compactName)) return false;
+            const productId = String(p.productId);
+            if (seenProducts.has(productId)) return false;
+            seenProducts.add(productId);
+            return true;
           }).slice(0, 5);
           if (matches.length) {
             return NextResponse.json({ mode: "related", label: isTodayHouse ? "집 꾸미기 상품" : `${name} 관련 상품`, products: matches.map((product: Record<string, unknown>) => ({
