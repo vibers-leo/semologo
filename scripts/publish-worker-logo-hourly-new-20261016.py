@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Publish four reviewed official SVGs collected by the hourly worker fleet."""
+"""Publish reviewed official SVGs collected by the hourly worker fleet."""
 import argparse
 import hashlib
 import io
@@ -17,15 +17,30 @@ from botocore.exceptions import ClientError
 from PIL import Image
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / 'marketing/assets/worker-logo-hourly-reviewed-20261016'
-PLAN = ROOT / 'marketing/assets/worker-logo-hourly-backlog-20261016/semologo-sources.json'
 CDN = 'https://logo.vibers.co.kr/_clients'
 BUCKET = 'vibers-bucket'
-REVIEWED = {
-    'us-index-btsg': ('brightspring-health-services', 'BrightSpring Health Services', '의료·바이오', 'light'),
-    'us-index-gkos': ('glaukos', 'Glaukos', '의료·바이오', 'light'),
-    'us-index-krys': ('krystal-biotech', 'Krystal Biotech', '의료·바이오', 'light'),
-    'us-index-umbf': ('umb-financial', 'UMB Financial', '금융·결제', 'light'),
+BATCHES = {
+    'r27': (
+        ROOT / 'marketing/assets/worker-logo-hourly-reviewed-20261016',
+        ROOT / 'marketing/assets/worker-logo-hourly-backlog-20261016/semologo-sources.json',
+        {
+            'us-index-btsg': ('brightspring-health-services', 'BrightSpring Health Services', '의료·바이오', 'light'),
+            'us-index-gkos': ('glaukos', 'Glaukos', '의료·바이오', 'light'),
+            'us-index-krys': ('krystal-biotech', 'Krystal Biotech', '의료·바이오', 'light'),
+            'us-index-umbf': ('umb-financial', 'UMB Financial', '금융·결제', 'light'),
+        }),
+    'r28-vaxcyte': (
+        ROOT / 'marketing/assets/worker-logo-hourly-new-20261016',
+        ROOT / 'marketing/assets/worker-logo-hourly-new-20261016/semologo-sources.json',
+        {'us-hourly-pcvx': ('vaxcyte', 'Vaxcyte', '의료·바이오', 'light')}),
+    'r28-cycle': (
+        ROOT / 'marketing/assets/worker-logo-hourly-r28-cycle-20261016',
+        ROOT / 'marketing/assets/worker-logo-hourly-new-20261016/semologo-sources.json',
+        {
+            'us-hourly-jbtm': ('jbt-marel', 'JBT Marel', '제조·그룹', 'light'),
+            'us-hourly-lnth': ('lantheus', 'Lantheus', '의료·바이오', 'light'),
+            'us-hourly-novt': ('novanta', 'Novanta', '제조·그룹', 'light'),
+        }),
 }
 
 
@@ -33,10 +48,11 @@ def sha(raw):
     return hashlib.sha256(raw).hexdigest()
 
 
-def main(publish):
-    results = {row['sourceId']: row for row in json.loads((OUT / 'manifest.json').read_text())['results']}
-    sources = {row['id']: row for row in json.loads(PLAN.read_text())['sources']}
-    audits = {row['sourceId']: row for row in json.loads((OUT / 'audit.json').read_text())}
+def main(publish, batch):
+    output, plan, reviewed = BATCHES[batch]
+    results = {row['sourceId']: row for row in json.loads((output / 'manifest.json').read_text())['results']}
+    sources = {row['id']: row for row in json.loads(plan.read_text())['sources']}
+    audits = {row['sourceId']: row for row in json.loads((output / 'audit.json').read_text())}
     helper = runpy.run_path(str(ROOT / 'scripts/publish-svg-background-audit-20261014.py'))
     secret = helper['secrets']()
     db = helper['database'](secret['DB_VIBERS_MAIN_URL'])
@@ -47,11 +63,11 @@ def main(publish):
     uploaded = {}
     prepared = []
     timestamp = datetime.now(timezone.utc).isoformat()
-    for source_id, (ident, name, category, background) in REVIEWED.items():
+    for source_id, (ident, name, category, background) in reviewed.items():
         source, result, audit = sources[source_id], results[source_id], audits[source_id]
         assert result['status'] == 'succeeded' and result['sourceChanged'] is False
         assert audit['safe'] and audit['safety'] == 'safe-vector' and audit['bbox']
-        raw = (OUT / result['file']).read_bytes()
+        raw = (output / result['file']).read_bytes()
         assert sha(raw) == source['expectedSha256'] == result['sha256']
         assert b'<image' not in raw.lower() and b'<script' not in raw.lower()
         with urlopen(Request(source['assetUrl'], headers={'User-Agent': 'Mozilla/5.0 SemoLogo-source-preflight'}), timeout=20) as response:
@@ -100,7 +116,7 @@ def main(publish):
             cursor.execute("SELECT id FROM semologo.logo_posts WHERE status='published' AND (lower(payload->>'name_ko')=lower(%s) OR lower(payload->>'name_en')=lower(%s)) LIMIT 5", (row['name'], row['name']))
             assert not cursor.fetchall(), row['name'] + ': duplicate company name'
     # The static catalog and the live CMS are separate identity checks.
-    snapshot = OUT / 'catalog-baseline-slim.json'
+    snapshot = output / 'catalog-baseline-slim.json'
     if not snapshot.exists():
         with urlopen('https://kr.object.ncloudstorage.com/vibers-bucket/_clients/brands-slim.json', timeout=120) as response:
             snapshot.write_bytes(response.read())
@@ -108,7 +124,7 @@ def main(publish):
     slim = slim.get('brands', slim) if isinstance(slim, dict) else slim
     ids = {row['id'] for row in slim}
     assert not ids.intersection(row['id'] for row in prepared)
-    (OUT / 'new-publication-plan.json').write_text(json.dumps({'schema': 1,
+    (output / 'new-publication-plan.json').write_text(json.dumps({'schema': 1,
         'items': [{k: v for k, v in row.items() if k not in ('brand', 'variants')} for row in prepared],
         'uploads': [{'key': key, 'sha256': sha(raw), 'bytes': len(raw)} for key, (raw, _) in uploaded.items()]},
         ensure_ascii=False, indent=2) + '\n')
@@ -143,7 +159,7 @@ def main(publish):
         cursor.execute("SELECT count(*) FROM semologo.logo_posts WHERE id=ANY(%s) AND status='published'", ([row['id'] for row in prepared],))
         assert cursor.fetchone()[0] == len(prepared)
     db.close()
-    (OUT / 'new-published.json').write_text(json.dumps({'status': 'published',
+    (output / 'new-published.json').write_text(json.dumps({'status': 'published',
         'brands': [row['id'] for row in prepared], 'verifiedObjects': len(uploaded),
         'publishedAt': timestamp}, ensure_ascii=False, indent=2) + '\n')
     print(json.dumps({'status': 'published', 'newBrands': len(prepared), 'verifiedObjects': len(uploaded)}))
@@ -152,4 +168,6 @@ def main(publish):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--publish', action='store_true')
-    main(parser.parse_args().publish)
+    parser.add_argument('--batch', choices=sorted(BATCHES), default='r27')
+    args = parser.parse_args()
+    main(args.publish, args.batch)
