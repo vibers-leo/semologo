@@ -21,23 +21,25 @@ interface Product {
 }
 
 interface Props {
-  /** 유입 지면 구분용 — 지금은 로깅에만 쓴다 */
-  subId?: string;
+  brandId?: string;
   /** 보여줄 상품 수 */
   count?: number;
 }
 
-export default function CoupangSlot({ count = 3 }: Props) {
+export default function CoupangSlot({ brandId, count = 3 }: Props) {
   const [items, setItems] = useState<Product[] | null>(null);
+  const [label, setLabel] = useState("오늘의 특가");
 
   useEffect(() => {
     let alive = true;
-    fetch("/api/coupang/")
+    setItems(null);
+    setLabel("오늘의 특가");
+    fetch(`/api/coupang/${brandId ? `?brand=${encodeURIComponent(brandId)}` : ""}`)
       .then(r => r.json())
-      .then(d => { if (alive) setItems((d.products ?? []).slice(0, count)); })
+      .then(d => { if (alive) { setLabel(d.label || "오늘의 특가"); setItems((d.products ?? []).slice(0, count)); } })
       .catch(() => { if (alive) setItems([]); });   // 실패해도 화면은 안 깨진다
     return () => { alive = false; };
-  }, [count]);
+  }, [brandId, count]);
 
   // 로딩 중이거나 받아온 게 없으면 아무것도 그리지 않는다 —
   // 빈 상자나 자리표시자가 실제 사용자에게 보이면 안 된다.
@@ -46,7 +48,7 @@ export default function CoupangSlot({ count = 3 }: Props) {
   return (
     <div style={{ display: "flex", flexDirection: "column", gap: 8 }}>
       <div style={{ fontSize: 11, fontWeight: 600, color: "var(--text-secondary)", letterSpacing: ".04em" }}>
-        오늘의 특가
+        {label}
       </div>
       {items.map(p => (
         <a

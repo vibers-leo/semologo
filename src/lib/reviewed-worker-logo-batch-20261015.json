@@ -1,0 +1,720 @@
+{
+  "patches": {
+    "gongu-ci-0720": {
+      "has_png": true,
+      "variants_n": 2,
+      "official_source_page": "https://www.ghss.or.kr/user/corpInfo/corpInfo/ciInfo.do",
+      "asset_origin": "기관 공식 사이트 표시 로고 · 원본 SVG 보존 · 공식 CI 패키지 여부 미확인",
+      "asset_review_status": "verified",
+      "logo_published_at": "2026-10-15T03:32:16.322860+00:00",
+      "presentation": {
+        "file": "logo.png",
+        "bg": "light"
+      }
+    },
+    "gongu-ci-0906": {
+      "has_png": true,
+      "variants_n": 2,
+      "official_source_page": "https://www.ftc.go.kr/www/contents.do?key=407",
+      "asset_origin": "기관 공식 사이트 표시 로고 · 원본 SVG 보존 · 공식 CI 패키지 여부 미확인",
+      "asset_review_status": "verified",
+      "logo_published_at": "2026-10-15T03:32:16.322860+00:00",
+      "has_svg": true,
+      "logo_svg": "sources/worker-reviewed-20261015/4869b11d6afb6854c0be.svg",
+      "svg_transparent": "sources/worker-reviewed-20261015/4869b11d6afb6854c0be.svg",
+      "logo_png": "sources/worker-reviewed-20261015/c393e08727fbdb6c07af.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/gongu-ci-0906/sources/worker-reviewed-20261015/c393e08727fbdb6c07af.png",
+      "presentation": {
+        "file": "sources/worker-reviewed-20261015/c393e08727fbdb6c07af.png",
+        "bg": "light"
+      },
+      "rejected_asset_files": [
+        "logo-800.png",
+        "logo-transparent.png",
+        "logo-white.png",
+        "logo-icon.png"
+      ]
+    },
+    "gongu-ci-0700": {
+      "has_png": true,
+      "variants_n": 2,
+      "official_source_page": "https://www.kird.re.kr/introduce/ci",
+      "asset_origin": "기관 공식 사이트 표시 로고 · 원본 SVG 보존 · 공식 CI 패키지 여부 미확인",
+      "asset_review_status": "verified",
+      "logo_published_at": "2026-10-15T03:32:16.322860+00:00",
+      "has_svg": true,
+      "logo_svg": "sources/worker-reviewed-20261015/8029688749c4178e0b8b.svg",
+      "svg_transparent": "sources/worker-reviewed-20261015/8029688749c4178e0b8b.svg",
+      "logo_png": "sources/worker-reviewed-20261015/b791036b0f961635d24e.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/gongu-ci-0700/sources/worker-reviewed-20261015/b791036b0f961635d24e.png",
+      "presentation": {
+        "file": "sources/worker-reviewed-20261015/b791036b0f961635d24e.png",
+        "bg": "light"
+      },
+      "rejected_asset_files": [
+        "logo-800.png",
+        "logo-transparent.png",
+        "logo-white.png",
+        "logo-icon.png"
+      ]
+    },
+    "gongu-ci-0779": {
+      "has_png": true,
+      "variants_n": 2,
+      "official_source_page": "https://www.kh.or.kr/cms/content/view/409",
+      "asset_origin": "기관 공식 사이트 표시 로고 · 원본 SVG 보존 · 공식 CI 패키지 여부 미확인",
+      "asset_review_status": "verified",
+      "logo_published_at": "2026-10-15T03:32:16.322860+00:00",
+      "presentation": {
+        "file": "logo.png",
+        "bg": "light"
+      }
+    },
+    "gongu-ci-0985": {
+      "has_png": true,
+      "variants_n": 2,
+      "official_source_page": "https://www.nier.go.kr/common/kor/content/comContsDetail.do?menuNo=15005&contsNo=85",
+      "asset_origin": "기관 공식 사이트 표시 로고 · 원본 SVG 보존 · 공식 CI 패키지 여부 미확인",
+      "asset_review_status": "verified",
+      "logo_published_at": "2026-10-15T03:32:16.322860+00:00",
+      "has_svg": true,
+      "logo_svg": "sources/worker-reviewed-20261015/5be91998923ce102e6a0.svg",
+      "svg_transparent": "sources/worker-reviewed-20261015/5be91998923ce102e6a0.svg",
+      "presentation": {
+        "file": "logo.png",
+        "bg": "light"
+      }
+    },
+    "gongu-ci-0598": {
+      "has_png": true,
+      "variants_n": 2,
+      "official_source_page": "https://www.djuc.or.kr/sub_about/intro_03.php",
+      "asset_origin": "기관 공식 사이트 표시 로고 · 원본 SVG 보존 · 공식 CI 패키지 여부 미확인",
+      "asset_review_status": "verified",
+      "logo_published_at": "2026-10-15T03:32:16.322860+00:00",
+      "has_svg": true,
+      "logo_svg": "sources/worker-reviewed-20261015/326fe376c00b8f063fbc.svg",
+      "svg_transparent": "sources/worker-reviewed-20261015/326fe376c00b8f063fbc.svg",
+      "presentation": {
+        "file": "logo.png",
+        "bg": "light"
+      }
+    },
+    "gongu-ci-1059": {
+      "has_png": true,
+      "variants_n": 2,
+      "official_source_page": "https://www.dgdp.or.kr/",
+      "asset_origin": "기관 공식 사이트 표시 로고 · 원본 SVG 보존 · 공식 CI 패키지 여부 미확인",
+      "asset_review_status": "verified",
+      "logo_published_at": "2026-10-15T03:32:16.322860+00:00",
+      "has_svg": true,
+      "logo_svg": "sources/worker-reviewed-20261015/d09f6b2ca7302d199b44.svg",
+      "svg_transparent": "sources/worker-reviewed-20261015/d09f6b2ca7302d199b44.svg",
+      "presentation": {
+        "file": "logo.png",
+        "bg": "light"
+      }
+    },
+    "gongu-ci-0319": {
+      "has_png": true,
+      "variants_n": 2,
+      "official_source_page": "https://www.dgdgcf.or.kr/front/about/ci.php",
+      "asset_origin": "기관 공식 사이트 표시 로고 · 원본 SVG 보존 · 공식 CI 패키지 여부 미확인",
+      "asset_review_status": "verified",
+      "logo_published_at": "2026-10-15T03:32:16.322860+00:00",
+      "has_svg": true,
+      "logo_svg": "sources/worker-reviewed-20261015/3def42e037cae368075e.svg",
+      "svg_transparent": "sources/worker-reviewed-20261015/3def42e037cae368075e.svg",
+      "logo_png": "sources/worker-reviewed-20261015/5ff750991e2f8e49a226.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/gongu-ci-0319/sources/worker-reviewed-20261015/5ff750991e2f8e49a226.png",
+      "presentation": {
+        "file": "sources/worker-reviewed-20261015/5ff750991e2f8e49a226.png",
+        "bg": "light"
+      },
+      "rejected_asset_files": [
+        "logo-800.png",
+        "logo-transparent.png",
+        "logo-white.png",
+        "logo-icon.png"
+      ]
+    },
+    "gongu-ci-0305": {
+      "has_png": true,
+      "variants_n": 2,
+      "official_source_page": "https://www.dji.re.kr/menu.es?mid=a10519000000",
+      "asset_origin": "기관 공식 사이트 표시 로고 · 원본 SVG 보존 · 공식 CI 패키지 여부 미확인",
+      "asset_review_status": "verified",
+      "logo_published_at": "2026-10-15T03:32:16.322860+00:00",
+      "has_svg": true,
+      "logo_svg": "sources/worker-reviewed-20261015/3d825c162e29c9405c8c.svg",
+      "svg_transparent": "sources/worker-reviewed-20261015/3d825c162e29c9405c8c.svg",
+      "presentation": {
+        "file": "logo.png",
+        "bg": "light"
+      }
+    },
+    "gongu-ci-1200": {
+      "has_png": true,
+      "variants_n": 2,
+      "official_source_page": "https://www.garak.co.kr/homepage/landing.do?cntnts_id=DC000000",
+      "asset_origin": "기관 공식 사이트 표시 로고 · 원본 SVG 보존 · 공식 CI 패키지 여부 미확인",
+      "asset_review_status": "verified",
+      "logo_published_at": "2026-10-15T03:32:16.322860+00:00",
+      "has_svg": true,
+      "logo_svg": "sources/worker-reviewed-20261015/ab560a6b16712c725660.svg",
+      "svg_transparent": "sources/worker-reviewed-20261015/ab560a6b16712c725660.svg",
+      "logo_png": "sources/worker-reviewed-20261015/80942775162b81ff8f41.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/gongu-ci-1200/sources/worker-reviewed-20261015/80942775162b81ff8f41.png",
+      "presentation": {
+        "file": "sources/worker-reviewed-20261015/80942775162b81ff8f41.png",
+        "bg": "light"
+      },
+      "rejected_asset_files": [
+        "logo-800.png",
+        "logo-transparent.png",
+        "logo-white.png",
+        "logo-icon.png"
+      ]
+    }
+  },
+  "variants": {
+    "gongu-ci-0720": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "gongu-ci-0720",
+      "primary": "existing-png",
+      "variants": [
+        {
+          "key": "existing-png",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "ko",
+          "color": "original",
+          "label": "기존 제공 PNG",
+          "files": {
+            "png": "logo.png"
+          },
+          "preview_png": "logo.png",
+          "origin": "collected",
+          "order": 0
+        },
+        {
+          "key": "official-site-20261015",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "mixed",
+          "color": "original",
+          "label": "공식 사이트 가로조합 · 내부 래스터 포함",
+          "files": {
+            "svg": "sources/worker-reviewed-20261015/01aff49d9919376e9f1f.svg",
+            "png": "sources/worker-reviewed-20261015/2833943411f358de4fb5.png"
+          },
+          "preview_png": "sources/worker-reviewed-20261015/2833943411f358de4fb5.png",
+          "origin": "official-site",
+          "official": false,
+          "provider": "강화군시설관리공단",
+          "source_url": "https://www.ghss.or.kr/_resource/images/common/gh_mlogo.svg",
+          "derived_from": "https://www.ghss.or.kr/user/corpInfo/corpInfo/ciInfo.do",
+          "source_sha256": "01aff49d9919376e9f1f87239689cce52311ff53d82212c5d9a9606846ac5290",
+          "visual_sha256": "01aff49d9919376e9f1f87239689cce52311ff53d82212c5d9a9606846ac5290",
+          "source_note": "기관 공식 사이트 표시 원본. 공식 배포 CI 패키지 여부는 미확인.",
+          "review_status": "verified",
+          "order": 1
+        }
+      ]
+    },
+    "gongu-ci-0906": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "gongu-ci-0906",
+      "primary": "official-site-20261015",
+      "variants": [
+        {
+          "key": "existing-png",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "ko",
+          "color": "original",
+          "label": "기존 제공 PNG",
+          "files": {
+            "png": "logo.png"
+          },
+          "preview_png": "logo.png",
+          "origin": "collected",
+          "order": 0
+        },
+        {
+          "key": "official-site-20261015",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "mixed",
+          "color": "original",
+          "label": "공식 사이트 가로조합",
+          "files": {
+            "svg": "sources/worker-reviewed-20261015/4869b11d6afb6854c0be.svg",
+            "png": "sources/worker-reviewed-20261015/c393e08727fbdb6c07af.png"
+          },
+          "preview_png": "sources/worker-reviewed-20261015/c393e08727fbdb6c07af.png",
+          "origin": "official-site",
+          "official": false,
+          "provider": "공정거래위원회",
+          "source_url": "https://www.ftc.go.kr/site/www/img/layout/logo.svg",
+          "derived_from": "https://www.ftc.go.kr/www/contents.do?key=407",
+          "source_sha256": "4869b11d6afb6854c0be867aae781682c24c8b18bc89e3f41b6e26827a805108",
+          "visual_sha256": "4869b11d6afb6854c0be867aae781682c24c8b18bc89e3f41b6e26827a805108",
+          "source_note": "기관 공식 사이트 표시 원본. 공식 배포 CI 패키지 여부는 미확인.",
+          "review_status": "verified",
+          "order": 1
+        }
+      ]
+    },
+    "gongu-ci-0700": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "gongu-ci-0700",
+      "primary": "official-site-20261015",
+      "variants": [
+        {
+          "key": "existing-png",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "ko",
+          "color": "original",
+          "label": "기존 제공 PNG",
+          "files": {
+            "png": "logo.png"
+          },
+          "preview_png": "logo.png",
+          "origin": "collected",
+          "order": 0
+        },
+        {
+          "key": "official-site-20261015",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "mixed",
+          "color": "original",
+          "label": "공식 사이트 가로조합",
+          "files": {
+            "svg": "sources/worker-reviewed-20261015/8029688749c4178e0b8b.svg",
+            "png": "sources/worker-reviewed-20261015/b791036b0f961635d24e.png"
+          },
+          "preview_png": "sources/worker-reviewed-20261015/b791036b0f961635d24e.png",
+          "origin": "official-site",
+          "official": false,
+          "provider": "국가과학기술인력개발원",
+          "source_url": "https://www.kird.re.kr/images/common/logo_kird.svg",
+          "derived_from": "https://www.kird.re.kr/introduce/ci",
+          "source_sha256": "8029688749c4178e0b8b356e33b0070bda5df783b00f35fd275061e839e38e0f",
+          "visual_sha256": "8029688749c4178e0b8b356e33b0070bda5df783b00f35fd275061e839e38e0f",
+          "source_note": "기관 공식 사이트 표시 원본. 공식 배포 CI 패키지 여부는 미확인.",
+          "review_status": "verified",
+          "order": 1
+        }
+      ]
+    },
+    "gongu-ci-0779": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "gongu-ci-0779",
+      "primary": "existing-png",
+      "variants": [
+        {
+          "key": "existing-png",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "ko",
+          "color": "original",
+          "label": "기존 제공 PNG",
+          "files": {
+            "png": "logo.png"
+          },
+          "preview_png": "logo.png",
+          "origin": "collected",
+          "order": 0
+        },
+        {
+          "key": "official-site-20261015",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "mixed",
+          "color": "original",
+          "label": "국가유산청 병기 가로조합 · 내부 래스터 포함",
+          "files": {
+            "svg": "sources/worker-reviewed-20261015/8f4f9a11a21a9dbb2c6b.svg",
+            "png": "sources/worker-reviewed-20261015/a4cac956495b979e45a8.png"
+          },
+          "preview_png": "sources/worker-reviewed-20261015/a4cac956495b979e45a8.png",
+          "origin": "official-site",
+          "official": false,
+          "provider": "국가유산진흥원",
+          "source_url": "https://www.kh.or.kr/_static/chf1/img/common/logo.svg",
+          "derived_from": "https://www.kh.or.kr/cms/content/view/409",
+          "source_sha256": "8f4f9a11a21a9dbb2c6b29800b9ab5c9eaa64af964a7d2f826d0568f0ab85129",
+          "visual_sha256": "8f4f9a11a21a9dbb2c6b29800b9ab5c9eaa64af964a7d2f826d0568f0ab85129",
+          "source_note": "기관 공식 사이트 표시 원본. 공식 배포 CI 패키지 여부는 미확인.",
+          "review_status": "verified",
+          "order": 1
+        }
+      ]
+    },
+    "gongu-ci-0985": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "gongu-ci-0985",
+      "primary": "existing-png",
+      "variants": [
+        {
+          "key": "existing-png",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "ko",
+          "color": "original",
+          "label": "기존 제공 PNG",
+          "files": {
+            "png": "logo.png"
+          },
+          "preview_png": "logo.png",
+          "origin": "collected",
+          "order": 0
+        },
+        {
+          "key": "official-site-20261015",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "mixed",
+          "color": "original",
+          "label": "기후에너지환경부 병기 가로조합",
+          "files": {
+            "svg": "sources/worker-reviewed-20261015/5be91998923ce102e6a0.svg",
+            "png": "sources/worker-reviewed-20261015/bc9f3913dc1eab8fc2ad.png"
+          },
+          "preview_png": "sources/worker-reviewed-20261015/bc9f3913dc1eab8fc2ad.png",
+          "origin": "official-site",
+          "official": false,
+          "provider": "국립환경과학원",
+          "source_url": "https://www.nier.go.kr/template/template1/assets/img/common/logo.svg",
+          "derived_from": "https://www.nier.go.kr/common/kor/content/comContsDetail.do?menuNo=15005&contsNo=85",
+          "source_sha256": "5be91998923ce102e6a05166d99a7533f7efed035765cbe612f745b35e6ebcce",
+          "visual_sha256": "5be91998923ce102e6a05166d99a7533f7efed035765cbe612f745b35e6ebcce",
+          "source_note": "기관 공식 사이트 표시 원본. 공식 배포 CI 패키지 여부는 미확인.",
+          "review_status": "verified",
+          "order": 1
+        }
+      ]
+    },
+    "gongu-ci-0598": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "gongu-ci-0598",
+      "primary": "existing-png",
+      "variants": [
+        {
+          "key": "existing-png",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "ko",
+          "color": "original",
+          "label": "기존 제공 PNG",
+          "files": {
+            "png": "logo.png"
+          },
+          "preview_png": "logo.png",
+          "origin": "collected",
+          "order": 0
+        },
+        {
+          "key": "official-site-20261015",
+          "form": "symbol",
+          "lockup": "symbol",
+          "lang": "none",
+          "color": "original",
+          "label": "공식 사이트 심볼",
+          "files": {
+            "svg": "sources/worker-reviewed-20261015/326fe376c00b8f063fbc.svg",
+            "png": "sources/worker-reviewed-20261015/f6d68d3e7dc6188d7b3b.png"
+          },
+          "preview_png": "sources/worker-reviewed-20261015/f6d68d3e7dc6188d7b3b.png",
+          "origin": "official-site",
+          "official": false,
+          "provider": "당진도시공사",
+          "source_url": "https://www.djuc.or.kr/images/inc/logoS.svg?v=9.14",
+          "derived_from": "https://www.djuc.or.kr/sub_about/intro_03.php",
+          "source_sha256": "326fe376c00b8f063fbc02d8b0056d760c8aee031f765c3841df24691d463da2",
+          "visual_sha256": "326fe376c00b8f063fbc02d8b0056d760c8aee031f765c3841df24691d463da2",
+          "source_note": "기관 공식 사이트 표시 원본. 공식 배포 CI 패키지 여부는 미확인.",
+          "review_status": "verified",
+          "order": 1
+        }
+      ]
+    },
+    "gongu-ci-1059": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "gongu-ci-1059",
+      "primary": "existing-png",
+      "variants": [
+        {
+          "key": "existing-png",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "ko",
+          "color": "original",
+          "label": "기존 제공 PNG",
+          "files": {
+            "png": "logo.png"
+          },
+          "preview_png": "logo.png",
+          "origin": "collected",
+          "order": 0
+        },
+        {
+          "key": "official-site-20261015",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "mixed",
+          "color": "reverse",
+          "label": "공식 사이트 다크 배경용 가로조합",
+          "files": {
+            "svg": "sources/worker-reviewed-20261015/d09f6b2ca7302d199b44.svg",
+            "png": "sources/worker-reviewed-20261015/f756f0ab097f1c04f4fa.png"
+          },
+          "preview_png": "sources/worker-reviewed-20261015/f756f0ab097f1c04f4fa.png",
+          "origin": "official-site",
+          "official": false,
+          "provider": "대구경북디자인진흥원",
+          "source_url": "https://www.dgdp.or.kr/assets/logo.svg",
+          "derived_from": "https://www.dgdp.or.kr/",
+          "source_sha256": "d09f6b2ca7302d199b447832a379d57fb6ec560a9d7e0f49287aca537108611f",
+          "visual_sha256": "d09f6b2ca7302d199b447832a379d57fb6ec560a9d7e0f49287aca537108611f",
+          "source_note": "기관 공식 사이트 표시 원본. 공식 배포 CI 패키지 여부는 미확인.",
+          "review_status": "verified",
+          "order": 1
+        }
+      ]
+    },
+    "gongu-ci-0319": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "gongu-ci-0319",
+      "primary": "official-site-20261015",
+      "variants": [
+        {
+          "key": "existing-png",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "ko",
+          "color": "original",
+          "label": "기존 제공 PNG",
+          "files": {
+            "png": "logo.png"
+          },
+          "preview_png": "logo.png",
+          "origin": "collected",
+          "order": 0
+        },
+        {
+          "key": "official-site-20261015",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "mixed",
+          "color": "original",
+          "label": "공식 사이트 가로조합",
+          "files": {
+            "svg": "sources/worker-reviewed-20261015/3def42e037cae368075e.svg",
+            "png": "sources/worker-reviewed-20261015/5ff750991e2f8e49a226.png"
+          },
+          "preview_png": "sources/worker-reviewed-20261015/5ff750991e2f8e49a226.png",
+          "origin": "official-site",
+          "official": false,
+          "provider": "대구동구문화재단",
+          "source_url": "https://www.dgdgcf.or.kr/images/common/logo_dgcf.svg",
+          "derived_from": "https://www.dgdgcf.or.kr/front/about/ci.php",
+          "source_sha256": "3def42e037cae368075e8e6a7b1b8dffb43778740ad5cb25a4c13882b2811837",
+          "visual_sha256": "3def42e037cae368075e8e6a7b1b8dffb43778740ad5cb25a4c13882b2811837",
+          "source_note": "기관 공식 사이트 표시 원본. 공식 배포 CI 패키지 여부는 미확인.",
+          "review_status": "verified",
+          "order": 1
+        }
+      ]
+    },
+    "gongu-ci-0305": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "gongu-ci-0305",
+      "primary": "existing-png",
+      "variants": [
+        {
+          "key": "existing-png",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "ko",
+          "color": "original",
+          "label": "기존 제공 PNG",
+          "files": {
+            "png": "logo.png"
+          },
+          "preview_png": "logo.png",
+          "origin": "collected",
+          "order": 0
+        },
+        {
+          "key": "official-site-20261015",
+          "form": "symbol",
+          "lockup": "symbol",
+          "lang": "none",
+          "color": "original",
+          "label": "공식 사이트 심볼",
+          "files": {
+            "svg": "sources/worker-reviewed-20261015/3d825c162e29c9405c8c.svg",
+            "png": "sources/worker-reviewed-20261015/b6bec63e0ddce71687c5.png"
+          },
+          "preview_png": "sources/worker-reviewed-20261015/b6bec63e0ddce71687c5.png",
+          "origin": "official-site",
+          "official": false,
+          "provider": "대전연구원",
+          "source_url": "https://www.dji.re.kr/dji/images/korean/sub/ci_logo01.svg",
+          "derived_from": "https://www.dji.re.kr/menu.es?mid=a10519000000",
+          "source_sha256": "3d825c162e29c9405c8c869c1fa0f61d56f476bafa9ba47cd2e71e1514f675bb",
+          "visual_sha256": "3d825c162e29c9405c8c869c1fa0f61d56f476bafa9ba47cd2e71e1514f675bb",
+          "source_note": "기관 공식 사이트 표시 원본. 공식 배포 CI 패키지 여부는 미확인.",
+          "review_status": "verified",
+          "order": 1
+        }
+      ]
+    },
+    "gongu-ci-1200": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "gongu-ci-1200",
+      "primary": "official-site-20261015",
+      "variants": [
+        {
+          "key": "existing-png",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "ko",
+          "color": "original",
+          "label": "기존 제공 PNG",
+          "files": {
+            "png": "logo.png"
+          },
+          "preview_png": "logo.png",
+          "origin": "collected",
+          "order": 0
+        },
+        {
+          "key": "official-site-20261015",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "mixed",
+          "color": "original",
+          "label": "공식 사이트 가로조합",
+          "files": {
+            "svg": "sources/worker-reviewed-20261015/ab560a6b16712c725660.svg",
+            "png": "sources/worker-reviewed-20261015/80942775162b81ff8f41.png"
+          },
+          "preview_png": "sources/worker-reviewed-20261015/80942775162b81ff8f41.png",
+          "origin": "official-site",
+          "official": false,
+          "provider": "서울시농수산식품공사",
+          "source_url": "https://www.garak.co.kr/homepage/resource/publish/images/logo_top.svg",
+          "derived_from": "https://www.garak.co.kr/homepage/landing.do?cntnts_id=DC000000",
+          "source_sha256": "ab560a6b16712c725660e68819980fd40b4f3ff38e3f5c30739aa5a021abfbf9",
+          "visual_sha256": "ab560a6b16712c725660e68819980fd40b4f3ff38e3f5c30739aa5a021abfbf9",
+          "source_note": "기관 공식 사이트 표시 원본. 공식 배포 CI 패키지 여부는 미확인.",
+          "review_status": "verified",
+          "order": 1
+        }
+      ]
+    }
+  },
+  "reviewed": [
+    {
+      "brand": "gongu-ci-0720",
+      "name": "강화군시설관리공단",
+      "source_sha256": "01aff49d9919376e9f1f87239689cce52311ff53d82212c5d9a9606846ac5290",
+      "png_sha256": "2833943411f358de4fb5311827df0efcd1a6735f4b4ddb72ab6b8a8ac2dd5580",
+      "pure_vector": false,
+      "primary_changed": false
+    },
+    {
+      "brand": "gongu-ci-0906",
+      "name": "공정거래위원회",
+      "source_sha256": "4869b11d6afb6854c0be867aae781682c24c8b18bc89e3f41b6e26827a805108",
+      "png_sha256": "c393e08727fbdb6c07afaf136893872b604d33d8890563c7b2fcdc7edf578e4c",
+      "pure_vector": true,
+      "primary_changed": true
+    },
+    {
+      "brand": "gongu-ci-0700",
+      "name": "국가과학기술인력개발원",
+      "source_sha256": "8029688749c4178e0b8b356e33b0070bda5df783b00f35fd275061e839e38e0f",
+      "png_sha256": "b791036b0f961635d24e36b0cd93ac62fc73560a87540ea2d56f5f74d1869a2b",
+      "pure_vector": true,
+      "primary_changed": true
+    },
+    {
+      "brand": "gongu-ci-0779",
+      "name": "국가유산진흥원",
+      "source_sha256": "8f4f9a11a21a9dbb2c6b29800b9ab5c9eaa64af964a7d2f826d0568f0ab85129",
+      "png_sha256": "a4cac956495b979e45a8d6a1cc4bf3a43ed409d4924acc00c6a9f6547d9dc789",
+      "pure_vector": false,
+      "primary_changed": false
+    },
+    {
+      "brand": "gongu-ci-0985",
+      "name": "국립환경과학원",
+      "source_sha256": "5be91998923ce102e6a05166d99a7533f7efed035765cbe612f745b35e6ebcce",
+      "png_sha256": "bc9f3913dc1eab8fc2ad52547b35daffbfbe866e5189c016cfed0ff7fb3e6bd0",
+      "pure_vector": true,
+      "primary_changed": false
+    },
+    {
+      "brand": "gongu-ci-0598",
+      "name": "당진도시공사",
+      "source_sha256": "326fe376c00b8f063fbc02d8b0056d760c8aee031f765c3841df24691d463da2",
+      "png_sha256": "f6d68d3e7dc6188d7b3be73d78cff44bcc1224243101992419356143c138bdd2",
+      "pure_vector": true,
+      "primary_changed": false
+    },
+    {
+      "brand": "gongu-ci-1059",
+      "name": "대구경북디자인진흥원",
+      "source_sha256": "d09f6b2ca7302d199b447832a379d57fb6ec560a9d7e0f49287aca537108611f",
+      "png_sha256": "f756f0ab097f1c04f4fab1c61923eef97401a86d53cc244b95ad23b396fd9daf",
+      "pure_vector": true,
+      "primary_changed": false
+    },
+    {
+      "brand": "gongu-ci-0319",
+      "name": "대구동구문화재단",
+      "source_sha256": "3def42e037cae368075e8e6a7b1b8dffb43778740ad5cb25a4c13882b2811837",
+      "png_sha256": "5ff750991e2f8e49a22659ee955e5d483441c35b3f3c847fe3f466df4e62e750",
+      "pure_vector": true,
+      "primary_changed": true
+    },
+    {
+      "brand": "gongu-ci-0305",
+      "name": "대전연구원",
+      "source_sha256": "3d825c162e29c9405c8c869c1fa0f61d56f476bafa9ba47cd2e71e1514f675bb",
+      "png_sha256": "b6bec63e0ddce71687c565cbe0ee50f30b5cd5f77c9b69291a4e9b346cdee976",
+      "pure_vector": true,
+      "primary_changed": false
+    },
+    {
+      "brand": "gongu-ci-1200",
+      "name": "서울시농수산식품공사",
+      "source_sha256": "ab560a6b16712c725660e68819980fd40b4f3ff38e3f5c30739aa5a021abfbf9",
+      "png_sha256": "80942775162b81ff8f4147d1243aa888989350009f39b89b87971f9457991da8",
+      "pure_vector": true,
+      "primary_changed": true
+    }
+  ],
+  "excluded": [
+    {
+      "sourceId": "김해문화관광재단",
+      "reason": "공식 사이트 파일의 표기는 문화도시김해이며 재단 대표 로고가 아님"
+    }
+  ]
+}

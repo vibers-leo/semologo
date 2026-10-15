@@ -1113,7 +1113,7 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
               예전엔 여기 "광고 / Ad slot" 점선 상자가 있었는데, 개발용
               자리표시자가 프로덕션에서 실제 사용자에게 그대로 보이고 있었다. */}
           <div style={{ flex:1, padding:"14px 16px", display:"flex", flexDirection:"column", justifyContent:"flex-end" }}>
-            <CoupangSlot subId="brand" />
+            <CoupangSlot brandId={brand.id} />
           </div>
         </div>
       </div>

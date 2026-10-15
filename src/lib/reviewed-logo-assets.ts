@@ -45,10 +45,11 @@ import newBetterIdentities from './reviewed-better-new-identities-20261014.json'
 import blackyakWordmark from './reviewed-blackyak-wordmark-20261014.json';
 import dribbbleWikileaks from './reviewed-dribbble-wikileaks-20261014.json';
 import economicPromotion from './reviewed-economic-promotion-20261015.json';
+import workerLogoBatch from './reviewed-worker-logo-batch-20261015.json';
 // Later releases often add only counts or icons. Preserve previously reviewed
 // representative paths unless the later patch explicitly replaces that field.
 const releasePatches = mergeBrandPatches([
-  release.patches, backgroundMerge.patches, googleTransparent.patches, institutions.patches, institutionsNext.patches, rainbow.patches, requestedBackground.patches, netflix.patches, userSvg.patches, claudeMerge.patches, lockups.patches, yeonsu.patches, kepco.patches, chungbuk.patches, ftc.patches, cjwf.patches, seongju.patches, iconHd.patches, userIdentities.patches, cityMerges.patches, officialRecollection.patches, svgPreviews.patches, baeminGuide.patches, officialAi.patches, nextAssets.patches, sourceReflection.patches, naverRelease.patches, bankCorrections.patches, communityRelease.patches, recollectionResume.patches, sportsRelease.patches, requestedBusiness.patches, suppliedIdentities.patches, identityMerges.patches, baseballRelease.patches, sportsExpansion.patches, sportsArchive.patches, nikeFamily.patches, officialCorrections.patches, cardCorrections.patches, globalNext.patches, newBetterIdentities.patches, blackyakWordmark.patches, dribbbleWikileaks.patches, economicPromotion.patches
+  release.patches, backgroundMerge.patches, googleTransparent.patches, institutions.patches, institutionsNext.patches, rainbow.patches, requestedBackground.patches, netflix.patches, userSvg.patches, claudeMerge.patches, lockups.patches, yeonsu.patches, kepco.patches, chungbuk.patches, ftc.patches, cjwf.patches, seongju.patches, iconHd.patches, userIdentities.patches, cityMerges.patches, officialRecollection.patches, svgPreviews.patches, baeminGuide.patches, officialAi.patches, nextAssets.patches, sourceReflection.patches, naverRelease.patches, bankCorrections.patches, communityRelease.patches, recollectionResume.patches, sportsRelease.patches, requestedBusiness.patches, suppliedIdentities.patches, identityMerges.patches, baseballRelease.patches, sportsExpansion.patches, sportsArchive.patches, nikeFamily.patches, officialCorrections.patches, cardCorrections.patches, globalNext.patches, newBetterIdentities.patches, blackyakWordmark.patches, dribbbleWikileaks.patches, economicPromotion.patches, workerLogoBatch.patches
 ]);
 
 function mergeBrandPatches(releases: unknown[]): Record<string, Partial<Brand>> {
@@ -204,4 +205,5 @@ export const reviewedVariants: Record<string, VariantManifest> = {
   ...globalNext.variants as unknown as Record<string, VariantManifest>,
   ...dribbbleWikileaks.variants as unknown as Record<string, VariantManifest>,
   ...economicPromotion.variants as unknown as Record<string, VariantManifest>,
+  ...workerLogoBatch.variants as unknown as Record<string, VariantManifest>,
 };

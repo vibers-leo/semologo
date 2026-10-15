@@ -16,11 +16,48 @@ import crypto from "crypto";
 
 const HOST = "https://api-gateway.coupang.com";
 const PATH = "/v2/providers/affiliate_open_api/apis/openapi/v1/products/goldbox";
+const SEARCH_PATH = "/v2/providers/affiliate_open_api/apis/openapi/products/search";
+const BRAND_ORIGIN = "https://kr.object.ncloudstorage.com/vibers-bucket/_clients";
+
+// A small shared budget prevents crawlers from turning 180K logo pages into
+// 180K distinct affiliate API calls. Goldbox remains the bounded fallback.
+let searchWindowStart = 0;
+let searchCount = 0;
+let lookupWindowStart = 0;
+let lookupCount = 0;
+const recentlyChecked = new Map<string, number>();
+const SEARCHES_PER_MINUTE = 8;
+
+function lookupBudgetAvailable() {
+  const now = Date.now();
+  if (now - lookupWindowStart >= 60_000) { lookupWindowStart = now; lookupCount = 0; }
+  if (lookupCount >= 30) return false;
+  lookupCount += 1;
+  return true;
+}
+
+function searchBudgetAvailable(id: string) {
+  const now = Date.now();
+  if ((recentlyChecked.get(id) || 0) > now) return true;
+  if (now - searchWindowStart >= 60_000) { searchWindowStart = now; searchCount = 0; }
+  if (searchCount >= SEARCHES_PER_MINUTE) return false;
+  searchCount += 1;
+  if (recentlyChecked.size >= 2000) recentlyChecked.delete(recentlyChecked.keys().next().value!);
+  recentlyChecked.set(id, now + 43_200_000);
+  return true;
+}
+
+async function brandForAd(id: string): Promise<{ name_ko: string; category: string } | null> {
+  const response = await fetch(`${BRAND_ORIGIN}/${id}/brand.json`, { next: { revalidate: 43_200 } });
+  if (!response.ok) return null;
+  const brand = await response.json();
+  return brand?.id === id && typeof brand.name_ko === "string" ? brand : null;
+}
 
 // 쿠팡이 정한 CEA 서명 규격. signed-date 는 UTC yyMMddTHHmmssZ 형식이어야 한다.
-function authHeader(accessKey: string, secretKey: string): string {
+function authHeader(accessKey: string, secretKey: string, path = PATH, query = ""): string {
   const dt = new Date().toISOString().replace(/[-:]/g, "").replace(/\..*/, "Z").slice(2);
-  const signature = crypto.createHmac("sha256", secretKey).update(dt + "GET" + PATH).digest("hex");
+  const signature = crypto.createHmac("sha256", secretKey).update(dt + "GET" + path + query).digest("hex");
   return `CEA algorithm=HmacSHA256, access-key=${accessKey}, signed-date=${dt}, signature=${signature}`;
 }
 
@@ -32,7 +69,7 @@ function authHeader(accessKey: string, secretKey: string): string {
 export const dynamic = "force-dynamic";
 const UPSTREAM_TTL = 1800;
 
-export async function GET() {
+export async function GET(request: Request) {
   const ak = process.env.COUPANG_ACCESS_KEY;
   const sk = process.env.COUPANG_SECRET_KEY;
   // 키가 없으면 빈 목록을 준다 — 화면에 깨진 상자를 남기지 않는다.
@@ -41,6 +78,40 @@ export async function GET() {
     return NextResponse.json({ products: [], reason: "no_credentials" });
   }
   try {
+    const id = new URL(request.url).searchParams.get("brand") || "";
+    if (/^[a-z0-9][a-z0-9-]{1,90}$/.test(id) && lookupBudgetAvailable()) {
+      const brand = await brandForAd(id);
+      const name = brand?.name_ko?.split("/")[0]?.trim() || "";
+      const publicCategory = /공공|기관|교육|의료|도시|국가|국기/.test(brand?.category || "");
+      const isTodayHouse = id === "ohou-se" || id === "ohouse" || name.replace(/\s/g, "") === "오늘의집";
+      const keyword = isTodayHouse ? "인테리어 소품" : name;
+      if (brand && !publicCategory && keyword.length >= 2 && keyword.length <= 30 && searchBudgetAvailable(id)) {
+        try {
+        const query = new URLSearchParams({ keyword, limit: "10" }).toString();
+        const response = await fetch(`${HOST}${SEARCH_PATH}?${query}`, {
+          headers: { Authorization: authHeader(ak, sk, SEARCH_PATH, query), "Content-Type": "application/json" },
+          next: { revalidate: 43_200 },
+        });
+        if (response.ok) {
+          const json = await response.json();
+          const candidates = Array.isArray(json?.data?.productData) ? json.data.productData : [];
+          const compactName = name.replace(/\s/g, "").toLowerCase();
+          const match = candidates.find((p: Record<string, unknown>) => {
+            if (!p.productId || !p.productUrl || !p.productImage) return false;
+            return isTodayHouse || String(p.productName || "").replace(/\s/g, "").toLowerCase().includes(compactName);
+          });
+          if (match) {
+            return NextResponse.json({ mode: "related", label: isTodayHouse ? "집 꾸미기 상품" : `${name} 관련 상품`, products: [{
+              id: match.productId, name: match.productName, price: match.productPrice,
+              image: match.productImage, url: match.productUrl, rocket: match.isRocket,
+            }] });
+          }
+        }
+        } catch (error) {
+          console.error("[coupang-search]", (error as Error).name);
+        }
+      }
+    }
     const res = await fetch(HOST + PATH, {
       headers: { Authorization: authHeader(ak, sk), "Content-Type": "application/json" },
       next: { revalidate: UPSTREAM_TTL },
