@@ -1,0 +1,16 @@
+{
+  "batch": "index-new-batch2-20261015",
+  "reviewed": {
+    "LCUT": ["lifetime-brands", "Lifetime Brands", "유통·쇼핑"],
+    "EVCM": ["evercommerce", "EverCommerce", "IT·테크", "symbol"],
+    "ALMS": ["alumis", "Alumis", "의료·바이오"],
+    "SGHT": ["sight-sciences", "Sight Sciences", "의료·바이오", "horizontal", true],
+    "VITL": ["vital-farms", "Vital Farms", "식품·음료"],
+    "IRON": ["disc-medicine", "Disc Medicine", "의료·바이오"],
+    "SCSC": ["scansource", "ScanSource", "IT·테크"],
+    "URBN": ["urbn", "URBN", "유통·쇼핑", "symbol"],
+    "JCAP": ["jefferson-capital", "Jefferson Capital", "금융·결제"],
+    "BZAI": ["blaize", "Blaize", "IT·테크", "horizontal", true],
+    "ALEC": ["alector", "Alector", "의료·바이오", "horizontal", true]
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "batch": "index-new-batch3-20261015",
+  "reviewed": {
+    "CPS": ["cps-solutions", "CPS Solutions", "의료·바이오", "horizontal", false, "none"],
+    "INBK": ["international-bank-of-chicago", "International Bank of Chicago", "금융·결제", "horizontal", true, "none"],
+    "KWY": ["kingsway-surface-care", "Kingsway Surface Care", "생활·서비스", "vertical", false, "none"]
+  }
+}

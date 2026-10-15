@@ -7,8 +7,10 @@ Run without --publish to validate and write a reviewable plan.
 """
 import argparse
 import hashlib
+import html
 import io
 import json
+import re
 import runpy
 from datetime import datetime, timezone
 from pathlib import Path
@@ -37,7 +39,6 @@ REVIEWED = {
     'ASUR': ('asure-software', 'Asure Software', 'IT·테크'),
     'TGTX': ('tg-therapeutics', 'TG Therapeutics', '의료·바이오'),
     'NUVB': ('nuvation-bio', 'Nuvation Bio', '의료·바이오'),
-    'KWY': ('kingsway-corporation', 'Kingsway Corporation', '금융·결제'),
     'CTRE': ('caretrust-reit', 'CareTrust REIT', '건설·부동산'),
     'ELVN': ('enliven-therapeutics', 'Enliven Therapeutics', '의료·바이오'),
     'NAVI': ('navient', 'Navient', '금융·결제'),
@@ -60,6 +61,11 @@ REVIEWED = {
     'DGII': ('digi-international', 'Digi International', 'IT·테크'),
     'SABS': ('sab-biotherapeutics', 'SAB Biotherapeutics', '의료·바이오'),
     'NKSH': ('national-bankshares', 'National Bankshares', '금융·결제'),
+}
+PROHIBITED_TICKER_IDENTITIES = {
+    'CPS': 'cooper-standard',
+    'INBK': 'first-internet-bank',
+    'KWY': 'kingsway-corporation',
 }
 
 
@@ -84,13 +90,24 @@ def canonical(raw):
     return raw
 
 
-def main(publish):
+def main(publish, selection_path=None):
+    selection = json.loads(selection_path.read_text()) if selection_path else None
+    reviewed = {ticker: tuple(values) for ticker, values in selection['reviewed'].items()} if selection else REVIEWED
+    out = (ROOT / 'marketing/assets' / selection['batch']).resolve() if selection else OUT
+    assert out.is_relative_to(ROOT / 'marketing/assets') and out.name.startswith('index-new-batch')
     discovery = {row['ticker']: row for row in json.loads((ROOT / 'data/collection/us-equity-index-logo-discovery.json').read_text())['items']}
     candidates = {row['ticker']: row for row in json.loads((ROOT / 'data/collection/us-equity-index-logo-review-queue.json').read_text())['items']}
     published_at = datetime.now(timezone.utc).isoformat()
     prepared = []
     uploads = {}
-    for ticker, (ident, name, category) in REVIEWED.items():
+    for ticker, values in reviewed.items():
+        ident, name, category = values[:3]
+        assert ident != PROHIBITED_TICKER_IDENTITIES.get(ticker), 'Index/domain identity mismatch: ' + ticker
+        form = values[3] if len(values) > 3 else ('symbol' if ticker == 'CTRE' else 'horizontal')
+        dark = values[4] if len(values) > 4 else False
+        alias_mode = values[5] if len(values) > 5 else 'source'
+        assert form in {'symbol', 'horizontal', 'vertical', 'wordmark'} and isinstance(dark, bool)
+        assert alias_mode in {'source', 'none'}
         source = discovery[ticker]
         candidate = candidates[ticker]
         assert candidate['format'] == 'svg'
@@ -99,7 +116,8 @@ def main(publish):
         raw = canonical(path.read_bytes())
         domain = source.get('official_domain') or source.get('domain_candidate')
         assert domain and source['company_name']
-        asset_url = next((u for u in source['asset_links'] if Path(urlparse(u).path).name == path.name), None)
+        asset_url = next((html.unescape(u) for u in source['asset_links']
+                          if re.sub(r'[^0-9A-Za-z._-]', '_', Path(urlparse(u).path).name) == path.name), None)
         assert asset_url and urlparse(asset_url).hostname.endswith(domain), ticker
         png = cairosvg.svg2png(bytestring=raw, output_width=1200)
         with Image.open(io.BytesIO(png)) as image:
@@ -117,11 +135,13 @@ def main(publish):
                  'asset_origin': '기업 사이트에서 수집한 SVG · 공식 CI 배포 패키지 여부 미확인',
                  'asset_review_status': 'verified', 'added_at': published_at[:10],
                  'logo_published_at': published_at,
-                 'aliases': [source['company_name'], ticker]}
+                 'aliases': [source['company_name'], ticker] if alias_mode == 'source' else []}
+        if dark:
+            brand.update({'light': True, 'presentation': {'file': 'logo.png', 'bg': 'dark'}})
         manifest = {'schema': 1, 'algo_v': 1, 'id': ident, 'primary': 'site-logo',
-                    'variants': [{'key': 'site-logo', 'form': 'symbol' if ticker == 'CTRE' else 'horizontal',
-                                  'lockup': 'symbol' if ticker == 'CTRE' else 'horizontal',
-                                  'lang': 'none' if ticker == 'CTRE' else 'en', 'color': 'original',
+                    'variants': [{'key': 'site-logo', 'form': form,
+                                  'lockup': form, 'lang': 'none' if form == 'symbol' else 'en',
+                                  'color': 'reverse' if dark else 'original',
                                   'label': '기업 사이트 SVG', 'files': {'svg': 'logo.svg', 'png': 'logo.png'},
                                   'preview_png': 'logo.png', 'origin': 'collected', 'provider': domain,
                                   'source_url': asset_url, 'source_sha256': digest(raw),
@@ -140,7 +160,8 @@ def main(publish):
         cursor.execute('SELECT id FROM semologo.logo_posts WHERE id=ANY(%s)', ([r['id'] for r in prepared],))
         assert not cursor.fetchall(), 'Some selected CMS IDs already exist'
     # The fixed catalog and CMS overlay are both checked before any write.
-    catalog_snapshot = OUT / 'catalog-baseline-slim.json'
+    out.mkdir(parents=True, exist_ok=True)
+    catalog_snapshot = out / 'catalog-baseline-slim.json'
     if not catalog_snapshot.exists():
         with urlopen('https://kr.object.ncloudstorage.com/vibers-bucket/_clients/brands-slim.json', timeout=120) as response:
             catalog_snapshot.write_bytes(response.read())
@@ -148,8 +169,7 @@ def main(publish):
     slim = slim.get('brands', slim) if isinstance(slim, dict) else slim
     ids = {row['id'] for row in slim}
     assert not ids.intersection(r['id'] for r in prepared), 'Some selected catalog IDs already exist'
-    OUT.mkdir(parents=True, exist_ok=True)
-    (OUT / 'publication-plan.json').write_text(json.dumps({
+    (out / 'publication-plan.json').write_text(json.dumps({
         'schema': 1, 'count': len(prepared), 'items': [{k: v for k, v in row.items() if k not in ('brand', 'manifest')} for row in prepared],
         'uploads': [{'key': key, 'sha256': digest(raw), 'bytes': len(raw)} for key, (raw, _) in uploads.items()]
     }, ensure_ascii=False, indent=2) + '\n')
@@ -168,7 +188,7 @@ def main(publish):
             assert response.status == 200 and 'svg' in response.headers.get('content-type', '').lower(), row['ticker']
         assert digest(current) == row['source_sha256'], row['ticker'] + ': site asset changed'
         provenance.append({'ticker': row['ticker'], 'source_url': row['source_url'], 'sha256': row['source_sha256']})
-    (OUT / 'source-verification.json').write_text(json.dumps(provenance, ensure_ascii=False, indent=2) + '\n')
+    (out / 'source-verification.json').write_text(json.dumps(provenance, ensure_ascii=False, indent=2) + '\n')
 
     s3 = boto3.client('s3', endpoint_url='https://kr.object.ncloudstorage.com', region_name='kr-standard',
         aws_access_key_id=secrets['NCP_ACCESS_KEY'], aws_secret_access_key=secrets['NCP_SECRET_KEY'],
@@ -194,7 +214,7 @@ def main(publish):
         cursor.execute("SELECT count(*) FROM semologo.logo_posts WHERE id=ANY(%s) AND status='published'", ([r['id'] for r in prepared],))
         assert cursor.fetchone()[0] == len(prepared)
     db.close()
-    (OUT / 'published.json').write_text(json.dumps({'count': len(prepared), 'ids': [r['id'] for r in prepared],
+    (out / 'published.json').write_text(json.dumps({'count': len(prepared), 'ids': [r['id'] for r in prepared],
         'verified_objects': len(uploads), 'published_at': published_at}, ensure_ascii=False, indent=2) + '\n')
     print(json.dumps({'status': 'published', 'new_brands': len(prepared), 'verified_objects': len(uploads)}, ensure_ascii=False))
 
@@ -202,5 +222,6 @@ def main(publish):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--publish', action='store_true')
+    parser.add_argument('--selection', type=Path, help='JSON with batch name and visually reviewed ticker identities')
     args = parser.parse_args()
-    main(args.publish)
+    main(args.publish, args.selection)
