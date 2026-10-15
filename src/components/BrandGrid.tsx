@@ -100,7 +100,8 @@ export default function BrandGrid({
   }, []);
   const [apiOrdered, setApiOrdered] = useState(false);
   const [resultTotal, setResultTotal] = useState(initialCatalogStats?.visible ?? initialBrands.length);
-  const allCatalogCount = catalogStats?.visible ?? resultTotal;
+  const [globalTotal, setGlobalTotal] = useState<number | null>(null);
+  const allCatalogCount = globalTotal ?? catalogStats?.visible ?? resultTotal;
   const [selected, setSelected] = useState<Brand | null>(null);
   const [page, setPage] = useState(1);
   const [showAllCats, setShowAllCats] = useState(false);
@@ -197,6 +198,7 @@ export default function BrandGrid({
       ]);
       setApiOrdered(true);
       setResultTotal(data.total);
+      if (!deferredQuery.trim() && selectedCats.size === 0 && !origin && !fmt) setGlobalTotal(data.total);
     } catch {
       if (requestId === requestIdRef.current) setLoadError(true);
     } finally {
