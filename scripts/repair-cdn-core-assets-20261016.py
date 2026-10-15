@@ -5,6 +5,7 @@ Never replace differing bucket bytes: a mismatch requires human source review.
 """
 import shlex
 import subprocess
+import json
 from pathlib import Path
 from urllib.request import Request, urlopen
 
@@ -27,7 +28,8 @@ def credentials():
         if '=' not in line:
             continue
         key, value = line.split('=', 1)
-        if key in ('NCP_ACCESS_KEY', 'NCP_SECRET_KEY'):
+        if key in ('NCP_ACCESS_KEY', 'NCP_SECRET_KEY', 'CLOUDFLARE_VIBERS_TOKEN',
+                   'CLOUDFLARE_GLOBAL_API_KEY', 'CLOUDFLARE_ACCOUNT_EMAIL'):
             values[key] = shlex.split(value, comments=True)[0]
     return values
 
@@ -74,6 +76,21 @@ def main():
                 raise RuntimeError(f'Bucket readback mismatch: {key}')
             repaired.append(key)
             print('REPAIRED', key)
+    if repaired:
+        zone_request = Request('https://api.cloudflare.com/client/v4/zones?name=vibers.co.kr',
+                               headers={'Authorization': 'Bearer ' + secret['CLOUDFLARE_VIBERS_TOKEN']})
+        with urlopen(zone_request, timeout=10) as response:
+            zone = json.load(response)['result'][0]['id']
+        body = json.dumps({'files': ['https://logo.vibers.co.kr/' + key for key in repaired]}).encode()
+        purge_request = Request(f'https://api.cloudflare.com/client/v4/zones/{zone}/purge_cache',
+                                data=body, method='POST', headers={
+                                    'X-Auth-Key': secret['CLOUDFLARE_GLOBAL_API_KEY'],
+                                    'X-Auth-Email': secret['CLOUDFLARE_ACCOUNT_EMAIL'],
+                                    'Content-Type': 'application/json'})
+        with urlopen(purge_request, timeout=10) as response:
+            if not json.load(response).get('success'):
+                raise RuntimeError('Cloudflare purge failed')
+        print('PURGED', len(repaired))
     print('checked', len(BRANDS) * 2, 'repaired', len(repaired))
 
 
