@@ -15,3 +15,11 @@
 첫 실제 예약은 07:42 KST에 성공했다(`semologo-hourly.service` Result=success, 다음 실행 08:42). win-01과 win-02가 국내 공식 SVG 각 2건을 수집했고 네 작업 모두 `succeeded`였다. NCP 비공개 버킷의 manifest와 원본 result를 `verifyStoredResult`로 다시 읽어 SHA-256·출처 ID·원본 일치 4/4를 확인했다. 최초 4건은 사천시미생물발효재단, 우체국물류지원단, 우체국시설관리단, 경주문화재단이며 모두 `reviewStatus=PENDING`이다. 이 결과는 서비스 게시 수 증가로 계산하지 않는다.
 
 공유 fleet 배포는 `check-deploy.sh vibers-fleet http://127.0.0.1:4781/fleet/healthz`에서 running, restarts=0, HTTP 200, `DEPLOY OK`로 확인했다. `/health`는 인증이 필요한 경로여서 HTTP 401이 정상이며 배포 검사 주소로 사용하지 않는다.
+
+## 원본 검수·공개와 다음 출처 — 08:09 KST
+
+비공개 버킷에서 첫 예약 4건과 미국 기업 4건, Navient 재시도 1건의 manifest·result·SVG를 다시 가져와 SHA-256을 검증했다. 아홉 SVG 모두 안전한 벡터로 렌더됐지만 국내 4건과 Navient는 이미 카탈로그에 있었다. 우체국물류지원단·우체국시설관리단·경주문화재단은 기존 제공 SVG의 해시가 새 수집분과 같았다. 사천시미생물발효재단 파일은 기관 기본 로고가 아닌 설립 30주년 기념 이미지여서 공개하지 않았다.
+
+미국 기업 네 곳(BrightSpring Health Services, Glaukos, Krystal Biotech, UMB Financial)은 공식 사이트 원본과 기업 명칭, 밝은/어두운 미리보기, CMS·정적 목록 중복을 확인했다. `publish-worker-logo-hourly-new-20261016.py`로 16개 CDN 객체와 CMS 4건을 게시했으며, 원본 재조회 해시·버킷 GET·검색 API·각 SVG/PNG/brand.json/variants.json HTTP 200을 확인했다. 공개 목록은 181,815개에서 181,819개로 증가했다. 각 기업은 현재 검증된 가로 조합형 1종이므로 4종 완성으로 계산하지 않는다.
+
+다음 고정 출처를 위해 상장 기업 공식 사이트 후보 25건을 사전 검사했고 3건은 가져오기/렌더 실패, 1건은 원본이 `Infrastructure NSW` 로고로 드러나 수집 목록에서 제외했다. 남은 21건을 r28 Windows handoff에 추가해 고정 출처를 138개에서 159개로 늘렸다. r27와 게시된 이전 ZIP의 다른 파일은 동일함을 확인한 뒤 roster와 runtimeVersion만 바꿨다. 새 handoff SHA-256은 `530ebe4529efec7f94f0baecb8148f2e0bd2f3855b258514bf9fd1fb722e7fe9`이다. 공유 서버 이미지는 roster만 덧씌운 `vibers-fleet:20261016-semologo-hourly-r28`로 갱신했고 `check-deploy.sh` running/restarts=0/HTTP 200/DEPLOY OK를 확인했다. 새 21건도 **수집 후보**다. 실제 로고 콘텐츠 공개는 Windows 원본 해시·기업 동일성·시각 검토 후 별도 처리한다.
