@@ -92,6 +92,37 @@
         "logo-white.png",
         "logo-icon.png"
       ]
+    },
+    "gongu-ci-1205": {
+      "name_ko": "서울경제진흥원",
+      "aliases": [
+        "재단법인서울경제진흥원",
+        "서울경제진흥원"
+      ],
+      "has_svg": true,
+      "has_png": true,
+      "logo_svg": "sources/official-economic-20261015/dbb69dfbd5a39261ca23/sba-horizontal-ko.svg",
+      "svg_transparent": "sources/official-economic-20261015/dbb69dfbd5a39261ca23/sba-horizontal-ko.svg",
+      "logo_png": "sources/official-economic-20261015/17b7d749d6add415fc39/sba-horizontal-ko-vector.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/gongu-ci-1205/sources/official-economic-20261015/17b7d749d6add415fc39/sba-horizontal-ko-vector.png",
+      "presentation": {
+        "file": "sources/official-economic-20261015/17b7d749d6add415fc39/sba-horizontal-ko-vector.png",
+        "bg": "light"
+      },
+      "light": false,
+      "light_logo": false,
+      "dark_variant": false,
+      "source_zip": "sources/official-economic-20261015/299f28c6038a06ba22ca/sba-logo.zip",
+      "official_source_page": "https://www.sba.seoul.kr/Pages/CorporateIdentity/IntroductionCI.aspx",
+      "asset_origin": "기관 공식 CI AI/PNG 원본 · 개별 시그니처 검수",
+      "asset_review_status": "verified",
+      "variants_n": 4,
+      "rejected_asset_files": [
+        "logo-800.png",
+        "logo-transparent.png",
+        "logo-white.png",
+        "logo-icon.png"
+      ]
     }
   },
   "variants": {
@@ -527,6 +558,112 @@
           "order": 4
         }
       ]
+    },
+    "gongu-ci-1205": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "gongu-ci-1205",
+      "primary": "official-horizontal-ko-20261015",
+      "variants": [
+        {
+          "key": "official-symbol-20261015",
+          "form": "symbol",
+          "lockup": "symbol",
+          "lang": "none",
+          "color": "original",
+          "label": "SBA CI",
+          "files": {
+            "svg": "sources/official-economic-20261015/7d2fb8968676fc528f3f/sba-symbol.svg",
+            "png": "sources/official-economic-20261015/bfaf79f65fb8d34a1a14/sba-symbol-vector.png",
+            "ai": "sources/official-economic-20261015/cd744477ed61332908bf/sba-logo.ai"
+          },
+          "preview_png": "sources/official-economic-20261015/bfaf79f65fb8d34a1a14/sba-symbol-vector.png",
+          "origin": "official",
+          "official": true,
+          "provider": "서울경제진흥원",
+          "source_url": "https://www.sba.seoul.kr/kr/down/logo_ai.ai",
+          "derived_from": "https://www.sba.seoul.kr/Pages/CorporateIdentity/IntroductionCI.aspx",
+          "source_sha256": "cd744477ed61332908bfb6bd2aeea6d5714e3b00d6430be0077a8952a97b5d99",
+          "visual_sha256": "7d2fb8968676fc528f3fabf248742ffa5ef8014e8707416bd05da89834749e81",
+          "source_note": "공식 AI의 벡터 경로를 보존해 개별 시그니처로 분리",
+          "review_status": "verified",
+          "order": 0
+        },
+        {
+          "key": "official-wordmark-ko-20261015",
+          "form": "wordmark",
+          "lockup": "wordmark",
+          "lang": "ko",
+          "color": "original",
+          "label": "서울경제진흥원 글자형",
+          "files": {
+            "svg": "sources/official-economic-20261015/88ef13ae987ba58b4546/sba-wordmark-ko.svg",
+            "png": "sources/official-economic-20261015/c68118849b1092c83179/sba-wordmark-ko-vector.png",
+            "ai": "sources/official-economic-20261015/cd744477ed61332908bf/sba-logo.ai"
+          },
+          "preview_png": "sources/official-economic-20261015/c68118849b1092c83179/sba-wordmark-ko-vector.png",
+          "origin": "official",
+          "official": true,
+          "provider": "서울경제진흥원",
+          "source_url": "https://www.sba.seoul.kr/kr/down/logo_ai.ai",
+          "derived_from": "https://www.sba.seoul.kr/Pages/CorporateIdentity/IntroductionCI.aspx",
+          "source_sha256": "cd744477ed61332908bfb6bd2aeea6d5714e3b00d6430be0077a8952a97b5d99",
+          "visual_sha256": "88ef13ae987ba58b4546289048062fce3739cb619551cc67d95feeacd386cb61",
+          "source_note": "공식 AI의 벡터 경로를 보존해 개별 시그니처로 분리",
+          "review_status": "verified",
+          "order": 1
+        },
+        {
+          "key": "official-horizontal-ko-20261015",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "ko",
+          "color": "original",
+          "label": "국문 가로형",
+          "files": {
+            "svg": "sources/official-economic-20261015/dbb69dfbd5a39261ca23/sba-horizontal-ko.svg",
+            "png": "sources/official-economic-20261015/17b7d749d6add415fc39/sba-horizontal-ko-vector.png",
+            "ai": "sources/official-economic-20261015/cd744477ed61332908bf/sba-logo.ai",
+            "original_png": "sources/official-economic-20261015/ec4b79b3c482c21cde1c/sba-3.png"
+          },
+          "preview_png": "sources/official-economic-20261015/17b7d749d6add415fc39/sba-horizontal-ko-vector.png",
+          "origin": "official",
+          "official": true,
+          "provider": "서울경제진흥원",
+          "source_url": "https://www.sba.seoul.kr/kr/down/logo_ai.ai",
+          "derived_from": "https://www.sba.seoul.kr/Pages/CorporateIdentity/IntroductionCI.aspx",
+          "source_sha256": "cd744477ed61332908bfb6bd2aeea6d5714e3b00d6430be0077a8952a97b5d99",
+          "visual_sha256": "dbb69dfbd5a39261ca234713171bd923aba78282fe67dbdd5f9d6fce094a73bc",
+          "source_note": "공식 AI의 벡터 경로를 보존해 개별 시그니처로 분리",
+          "review_status": "verified",
+          "order": 2
+        },
+        {
+          "key": "official-vertical-ko-20261015",
+          "form": "vertical",
+          "lockup": "vertical",
+          "lang": "ko",
+          "color": "original",
+          "label": "국문 세로형",
+          "files": {
+            "svg": "sources/official-economic-20261015/c5739cc65f69158a41a3/sba-vertical-ko.svg",
+            "png": "sources/official-economic-20261015/ee31df235dc634a83fb6/sba-vertical-ko-vector.png",
+            "ai": "sources/official-economic-20261015/cd744477ed61332908bf/sba-logo.ai",
+            "original_png": "sources/official-economic-20261015/ad78e5347908db7a1ec4/sba-2.png"
+          },
+          "preview_png": "sources/official-economic-20261015/ee31df235dc634a83fb6/sba-vertical-ko-vector.png",
+          "origin": "official",
+          "official": true,
+          "provider": "서울경제진흥원",
+          "source_url": "https://www.sba.seoul.kr/kr/down/logo_ai.ai",
+          "derived_from": "https://www.sba.seoul.kr/Pages/CorporateIdentity/IntroductionCI.aspx",
+          "source_sha256": "cd744477ed61332908bfb6bd2aeea6d5714e3b00d6430be0077a8952a97b5d99",
+          "visual_sha256": "c5739cc65f69158a41a3505940c5560d02df4344c7f69f256de418fca8e81558",
+          "source_note": "공식 AI의 벡터 경로를 보존해 개별 시그니처로 분리",
+          "review_status": "verified",
+          "order": 3
+        }
+      ]
     }
   },
   "sources": {
@@ -551,6 +688,15 @@
       "ai_zip": "https://giba.or.kr/resources/front/images/GIBA_CI.Zip",
       "files": [
         "giba-CI.zip"
+      ]
+    },
+    "gongu-ci-1205": {
+      "page": "https://www.sba.seoul.kr/Pages/CorporateIdentity/IntroductionCI.aspx",
+      "ai_zip": "https://www.sba.seoul.kr/kr/down/logo_ai.ai",
+      "png_zip": "https://www.sba.seoul.kr/kr/down/logo.zip",
+      "files": [
+        "sba-logo.zip",
+        "sba-logo.ai"
       ]
     }
   }

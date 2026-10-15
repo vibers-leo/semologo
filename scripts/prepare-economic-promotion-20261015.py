@@ -34,7 +34,8 @@ def png(svg, output):
 
 
 def main():
-    variants = {'gongu-ci-0094': [], 'gongu-ci-0418': [], 'gongu-ci-0571': []}
+    variants = {'gongu-ci-0094': [], 'gongu-ci-0418': [], 'gongu-ci-0571': [],
+                'gongu-ci-1205': []}
     cepa_names = {
         1: ('vertical-ko', 'vertical', '국문 세로형'),
         2: ('horizontal-ko', 'horizontal', '국문 가로형'),
@@ -112,6 +113,26 @@ def main():
             'svg': svg.name, 'png': output.name,
             'ai': 'giba-6.ai' if key == 'symbol' else 'giba-4.ai'})
 
+    sba_source = OUT / 'sba-logo.ai'
+    sba_sheet = OUT / 'sba-official-sheet.svg'
+    run('inkscape', str(sba_source), '--pdf-poppler', '--export-area-drawing',
+        '--export-plain-svg', f'--export-filename={sba_sheet}')
+    for key, form, label, box, official_png in (
+        ('symbol', 'symbol', 'SBA CI', (70, 85, 116, 65), None),
+        ('wordmark-ko', 'wordmark', '서울경제진흥원 글자형', (158, 262, 200, 44), None),
+        ('horizontal-ko', 'horizontal', '국문 가로형', (115, 415, 285, 50), 'sba-3.png'),
+        ('vertical-ko', 'vertical', '국문 세로형', (143, 558, 230, 85), 'sba-2.png'),
+    ):
+        svg = OUT / f'sba-{key}.svg'
+        output = OUT / f'sba-{key}-vector.png'
+        crop(sba_sheet, svg, box)
+        png(svg, output)
+        row = {'key': key, 'form': form, 'label': label,
+            'svg': svg.name, 'png': output.name, 'ai': sba_source.name}
+        if official_png:
+            row['official_png'] = official_png
+        variants['gongu-ci-1205'].append(row)
+
     proof = {'sources': {
         'gongu-ci-0094': {'page': 'https://www.cepa.or.kr/introduce/introduce.do?ms=157&pm=3',
             'ai_zip': 'https://www.cepa.or.kr/css/egovframework/assets/img/new/CI_AI.zip',
@@ -122,7 +143,11 @@ def main():
             'files': ['GWEP-official.zip']},
         'gongu-ci-0418': {'page': 'https://giba.or.kr/fe/inform/ci/NR_index.do',
             'ai_zip': 'https://giba.or.kr/resources/front/images/GIBA_CI.Zip',
-            'files': ['giba-CI.zip']}}}
+            'files': ['giba-CI.zip']},
+        'gongu-ci-1205': {'page': 'https://www.sba.seoul.kr/Pages/CorporateIdentity/IntroductionCI.aspx',
+            'ai_zip': 'https://www.sba.seoul.kr/kr/down/logo_ai.ai',
+            'png_zip': 'https://www.sba.seoul.kr/kr/down/logo.zip',
+            'files': ['sba-logo.zip', 'sba-logo.ai']}}}
     proof['variants'] = variants
     proof['sha256'] = {p.name: sha(p) for p in sorted(OUT.iterdir())
         if p.name in {f for x in proof['sources'].values() for f in x['files']}

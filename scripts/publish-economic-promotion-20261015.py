@@ -19,7 +19,8 @@ BUCKET = 'vibers-bucket'
 CDN = 'https://logo.vibers.co.kr/_clients'
 NAMES = {'gongu-ci-0094': '충남경제진흥원',
          'gongu-ci-0418': '경남투자경제진흥원',
-         'gongu-ci-0571': '강원특별자치도경제진흥원'}
+         'gongu-ci-0571': '강원특별자치도경제진흥원',
+         'gongu-ci-1205': '서울경제진흥원'}
 
 
 def digest(raw):
@@ -74,7 +75,8 @@ def main(publish, only):
         assert brand != 'gongu-ci-0571' or len(old_manifest.get('variants', [])) == 1
         primary = {'gongu-ci-0094': 'official-horizontal-ko-20261015',
             'gongu-ci-0418': 'official-horizontal-bilingual-20261015',
-            'gongu-ci-0571': 'official-horizontal-20261015'}[brand]
+            'gongu-ci-0571': 'official-horizontal-20261015',
+            'gongu-ci-1205': 'official-horizontal-ko-20261015'}[brand]
         manifest = {'schema': 1, 'algo_v': 1, 'id': brand,
             'primary': primary,
             'variants': []}
