@@ -231,6 +231,15 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
   const [invertedUrl, setInvertedUrl] = useState<string | null>(null);
   const [websiteUrl, setWebsiteUrl] = useState<string | null>(() => safeWebsiteUrl(brand.website || brand.domain));
   const officialUrl = websiteUrl || safeWebsiteUrl(brand.official_source_page) || safeWebsiteUrl(brand.ci_page_url);
+  const sourceLinks = [
+    ...(brand.sources ?? []).map(source => ({ label: source.label, url: source.origin || source.source_url })),
+    { label: en ? "Original source" : "공식 원문", url: brand.official_source_page },
+    { label: en ? "CI guide" : "CI 안내", url: brand.ci_page_url },
+    { label: en ? "GetLogo record" : "겟로고 기록", url: brand.getlogo_url },
+  ].map(source => ({ label: source.label, url: safeWebsiteUrl(source.url) }))
+    .filter((source): source is { label: string; url: string } => Boolean(source.url) && source.url !== officialUrl)
+    .filter((source, index, all) => all.findIndex(other => other.url === source.url) === index)
+    .slice(0, 3);
 
   useEffect(() => {
     const direct = safeWebsiteUrl(brand.website || brand.domain);
@@ -683,6 +692,7 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
         @media (max-width: 1000px) { .logo-composition-grid { grid-template-columns:1fr; } }
         .logo-composition-preview { aspect-ratio:1; align-self:center; width:100%; grid-row:1 / span 2; position:relative; overflow:hidden; border-radius:8px; }
         .logo-candidate-actions { margin-top:8px; }
+        .logo-preview-actions .logo-candidate-actions { margin-top:0; }
         .logo-background-options { display:flex; gap:4px; margin-bottom:6px; }
         .logo-background-options button,.logo-candidate-vote,.logo-candidate-apply { border:1px solid #e4e4e7; border-radius:6px; background:#fff; color:#52525b; padding:5px 7px; font-size:11px; cursor:pointer; }
         .logo-background-options button[aria-pressed=true],.logo-candidate-vote[aria-pressed=true] { border-color:#6366f1; color:#6366f1; background:#eef2ff; }
@@ -747,33 +757,8 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
                           border:"1px solid rgba(99,102,241,.25)", textDecoration:"none" }}><T>{"📘 브랜드 매뉴얼"}</T></a>
             )}
           </p>
-          {/* 검색용 요약. 4만 페이지가 전부 같은 틀이면 '얇은 콘텐츠'로 분류돼
-              색인에서 빠진다. 이 브랜드만 아는 사실(시장·업종·종목코드·형태·
-              보유 형식)로 페이지마다 다른 문장을 만든다. */}
-          {/* 검색엔진용. 화면에는 안 보이지만 HTML 에는 남는다 —
-              헤더가 4줄이 되면 정작 로고가 밀린다. 크롤러는 읽는다. */}
-          {(() => {
-            const sources = [
-              ...(brand.sources ?? []),
-              ...(brand.official_source_page ? [{ label: en ? "Official source page" : "공식 원문 페이지", origin: brand.official_source_page, source_url: undefined }] : []),
-              ...(brand.ci_page_url ? [{ label: en ? "CI page" : "CI 안내 페이지", origin: brand.ci_page_url, source_url: undefined }] : []),
-              ...(brand.getlogo_url ? [{ label: en ? "GetLogo record" : "겟로고 기록", origin: brand.getlogo_url, source_url: undefined }] : []),
-            ]
-              .map(item => ({ ...item, url: item.origin || item.source_url }))
-              .filter((item): item is typeof item & { url: string } => Boolean(item.url))
-              .filter((item, index, all) => all.findIndex(other => other.url === item.url) === index)
-              .slice(0, 3);
-            if (!sources.length) return null;
-            return <div className="mt-3 flex flex-wrap items-center gap-2" aria-label={en ? "Logo sources" : "로고 출처"}>
-              <span className="text-sm text-gray-500">🔗 {en ? "Sources" : "출처"}</span>
-              {sources.map((source, index) => <a key={source.url} href={source.url} target="_blank" rel="noopener noreferrer nofollow" className="inline-flex items-center gap-1 text-sm text-gray-500 underline" title={source.label || (en ? "Open original source" : "원본 출처 열기")}>
-                {source.label || (index === 0 ? (en ? "Official source" : "공식 출처") : (en ? `Source ${index + 1}` : `출처 ${index + 1}`))}
-              </a>)}
-            </div>;
-          })()}
-
         </div>
-
+        <div className="brand-header-actions" style={{ display:"flex", alignItems:"center", justifyContent:"flex-end", gap:6, flexWrap:"wrap" }}>
           {/* 홈페이지 → 투표 → 퍼가기 → 닫기 순. 도메인을 글자로만 두면
               사용자가 주소를 눈으로 옮겨 적어야 한다.
               ⚠️ website 가 있으면 그대로 쓴다 — 야화처럼 특정 경로를
@@ -793,9 +778,14 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
             <button type="button" onClick={() => setReportOpen(true)} title="확인된 공식 사이트 주소를 제보해 주세요"
               style={{ display:"inline-flex", alignItems:"center", gap:5, padding:"5px 12px", background:"#f4f4f5", border:"1px solid #e4e4e7", color:"#71717a", borderRadius:8, fontSize:12, cursor:"pointer", flexShrink:0 }}><T>{"↗ 공식 사이트 제보"}</T></button>
           )}
+          {sourceLinks.map((source, index) => <a key={source.url} href={source.url} target="_blank" rel="noopener noreferrer nofollow"
+            title={source.label || (en ? "Open source" : "로고 출처 열기")}
+            style={{ display:"inline-flex", alignItems:"center", padding:"5px 10px", background:"#fff", border:"1px solid #e4e4e7", color:"#52525b", borderRadius:8, fontSize:12, textDecoration:"none", flexShrink:0 }}>
+            ↗ {index === 0 ? (en ? "Original source" : "원문 보기") : (en ? `Source ${index + 1}` : `출처 ${index + 1}`)}
+          </a>)}
           {/* 품질 투표 — 헤더 오른쪽으로. 왼쪽에 두면 브랜드명 아래 줄이
               하나 더 생겨 헤더가 4줄이 된다. */}
-        <div style={{ display:"flex", alignItems:"center", gap:6, marginTop:7 }}>
+        <div style={{ display:"flex", alignItems:"center", gap:6 }}>
         <button onClick={() => castQualityVote("up")} title={myQualityVote === "up" ? "다시 누르면 취소" : "좋은 로고예요"}
         style={{ display:"inline-flex", alignItems:"center", gap:3, padding:"3px 9px", borderRadius:20, fontSize:11, fontWeight:600, cursor: (myQualityVote && myQualityVote !== "up") ? "default" : "pointer", transition:"all .15s", background: myQualityVote === "up" ? "rgba(34,197,94,.12)" : "#f4f4f5", border:`1px solid ${myQualityVote === "up" ? "rgba(34,197,94,.4)" : "#e4e4e7"}`, color: myQualityVote === "up" ? "#16a34a" : "#71717a", opacity: myQualityVote && myQualityVote !== "up" ? .45 : 1 }}>
         👍 {quality.up > 0 ? quality.up : ""}
@@ -822,6 +812,7 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"><path d="M18 6 6 18M6 6l12 12"/></svg>
           </button>
         )}
+        </div>
       </div>
 
       {/* ── 연관기업 바 ── */}
@@ -875,33 +866,6 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
           <div style={{ border:"1px solid #f0f0f2", borderRadius:8, overflow:"hidden" }}>
             <LogoBox src={previewUrl} alt={en ? brand.name_en || brand.name_ko : brand.name_ko} height={96} padding={12} bg={isLightLogo ? "dark" : "white"} fallback={pngUrl} />
           </div>
-          <div>
-            <div style={{ fontSize:12, fontWeight:700, color:"#18181b", marginBottom:4 }}><T>{"로고 다운로드"}</T></div>
-            <div style={{ fontSize:11, color:"#71717a" }}>
-              {[hasSvg || !!manifest?.variants.some(v=>v.files.svg) ? "SVG" : null, hasPng ? "PNG" : null, hasEn ? t("영문 버전") : null].filter(Boolean).join(" · ")}
-            </div>
-            {brand.original_ai_url && <a href={brand.original_ai_url} target="_blank" rel="noopener noreferrer" style={{display:"inline-block",marginTop:5,fontSize:11,color:"#2563eb"}}><T>{"공식 원본 보기 ↗"}</T></a>}
-          </div>
-
-          {/* 빠른 다운로드 */}
-          <div style={{ display:"flex", flexDirection:"column", gap:7 }}>
-            <a href={quickDownloadUrl} download={`${brand.id}-logo.${hasSvg ? "svg" : "png"}`}
-              onClick={e => { e.preventDefault(); grab(quickDownloadUrl, `${brand.id}-logo.${hasSvg ? "svg" : "png"}`); }}
-              style={{ display:"flex", alignItems:"center", justifyContent:"center", gap:6, padding:"9px 0", borderRadius:8, fontSize:12, fontWeight:600, background:"#6366f1", color:"#fff", textDecoration:"none", cursor:"pointer" }}>
-              <svg width="13" height="13" fill="none" stroke="currentColor" strokeWidth="2.5" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3"/></svg>
-              {hasSvg ? "SVG" : "PNG"}{" "}<T>{"다운로드"}</T></a>
-            {hasSvg && isReady(pngDownloadUrl) && (
-              <a href={pngDownloadUrl} download={`${brand.id}-logo.png`}
-                onClick={e => { e.preventDefault(); grab(pngDownloadUrl, `${brand.id}-logo.png`); }}
-                style={{ display:"flex", alignItems:"center", justifyContent:"center", padding:"9px 0", borderRadius:8, fontSize:12, fontWeight:600, background:"#f4f4f5", color:"#52525b", textDecoration:"none", border:"1px solid #e4e4e7", cursor:"pointer" }}><T>{"↓ PNG 다운로드"}</T></a>
-            )}
-            {invertedUrl && (
-              <a href={invertedUrl} download={`${brand.id}-logo-dark.png`}
-                onClick={e => { e.preventDefault(); grab(invertedUrl, `${brand.id}-logo-dark.png`); }}
-                style={{ display:"flex", alignItems:"center", justifyContent:"center", gap:5, padding:"9px 0", borderRadius:8, fontSize:12, fontWeight:600, background:"#111114", color:"#a78bfa", textDecoration:"none", border:"1px solid #3f3f46" }}><T>{"🌙 반전 PNG (다크용)"}</T></a>
-            )}
-          </div>
-
           <section style={{borderTop:"1px solid #e4e4e7",paddingTop:12}}>
             <div style={{fontSize:11,fontWeight:700,color:"#52525b",marginBottom:10}}><T>{"사용 미리보기"}</T></div>
             <div style={{ display:"grid", gridTemplateColumns:"1fr 1fr", gap:8 }}>
@@ -940,8 +904,7 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
             {/* 복사될 내용 — 실제로 뭐가 담기는지 보여준다 */}
             <div style={{ background:"#f9f9f9", border:"1px solid #e4e4e7", borderRadius:8, padding:"8px 10px",
                           fontFamily:"monospace", fontSize:11, color:"#71717a", lineHeight:1.6,
-                          marginBottom:8, wordBreak:"break-all",
-                          height:64, overflowY:"auto" }}>
+                          marginBottom:8, overflowWrap:"anywhere", whiteSpace:"pre-wrap", minHeight:64 }}>
               {shareValue}
             </div>
 
@@ -970,34 +933,60 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
             )}
           </section>
 
+          <section style={{ marginTop:"auto", paddingTop:14, borderTop:"1px solid #e4e4e7" }}>
+            <div style={{ fontSize:12, fontWeight:700, color:"#18181b", marginBottom:4 }}><T>{"로고 다운로드"}</T></div>
+            <div style={{ fontSize:11, color:"#71717a", marginBottom:9 }}>
+              {[hasSvg || !!manifest?.variants.some(v=>v.files.svg) ? "SVG" : null, hasPng ? "PNG" : null, hasEn ? t("영문 버전") : null].filter(Boolean).join(" · ")}
+            </div>
+            <div style={{ display:"flex", flexDirection:"column", gap:7 }}>
+              <a href={quickDownloadUrl} download={`${brand.id}-logo.${hasSvg ? "svg" : "png"}`}
+                onClick={e => { e.preventDefault(); grab(quickDownloadUrl, `${brand.id}-logo.${hasSvg ? "svg" : "png"}`); }}
+                style={{ display:"flex", alignItems:"center", justifyContent:"center", gap:6, padding:"9px 0", borderRadius:8, fontSize:12, fontWeight:600, background:"#6366f1", color:"#fff", textDecoration:"none", cursor:"pointer" }}>
+                <svg width="13" height="13" fill="none" stroke="currentColor" strokeWidth="2.5" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3"/></svg>
+                {hasSvg ? "SVG" : "PNG"}{" "}<T>{"다운로드"}</T></a>
+              {hasSvg && isReady(pngDownloadUrl) && <a href={pngDownloadUrl} download={`${brand.id}-logo.png`}
+                onClick={e => { e.preventDefault(); grab(pngDownloadUrl, `${brand.id}-logo.png`); }}
+                style={{ display:"flex", alignItems:"center", justifyContent:"center", padding:"9px 0", borderRadius:8, fontSize:12, fontWeight:600, background:"#f4f4f5", color:"#52525b", textDecoration:"none", border:"1px solid #e4e4e7", cursor:"pointer" }}><T>{"↓ PNG 다운로드"}</T></a>}
+              {invertedUrl && <a href={invertedUrl} download={`${brand.id}-logo-dark.png`}
+                onClick={e => { e.preventDefault(); grab(invertedUrl, `${brand.id}-logo-dark.png`); }}
+                style={{ display:"flex", alignItems:"center", justifyContent:"center", gap:5, padding:"9px 0", borderRadius:8, fontSize:12, fontWeight:600, background:"#111114", color:"#a78bfa", textDecoration:"none", border:"1px solid #3f3f46" }}><T>{"🌙 반전 PNG (다크용)"}</T></a>}
+            </div>
+            {brand.original_ai_url && <a href={brand.original_ai_url} target="_blank" rel="noopener noreferrer" style={{display:"inline-block",marginTop:9,fontSize:11,color:"#2563eb"}}><T>{"공식 원본 보기 ↗"}</T></a>}
+          </section>
+
         </div>
 
         {/* ── MID: 인트로 + 변형 그리드 ── */}
-        <div className="mscroll brand-inner-main" style={{ overflowY: isPage ? undefined : "auto", padding:"22px 24px", scrollbarWidth:"thin" }}>
-          <section aria-label="대표 이미지 배경" style={{marginBottom:24}}>
-            <div style={{fontSize:13,fontWeight:700,marginBottom:8}}>대표 이미지</div>
-            <p style={{fontSize:12,color:"#71717a",margin:"0 0 12px"}}>{isAdmin ? "아래 로고 구성에서 대표를 고른 뒤 이곳에서 배경을 선택하세요." : "마음에 드는 대표 배경을 추천해 주세요."}</p>
+        <div className="mscroll brand-inner-main" style={{ overflowY: isPage ? undefined : "auto", padding:"18px 24px", scrollbarWidth:"thin" }}>
+          <section aria-label="대표 이미지 배경" style={{marginBottom:16}}>
+            <div style={{fontSize:13,fontWeight:700,marginBottom:5}}>대표 이미지</div>
+            <p style={{fontSize:12,color:"#71717a",margin:"0 0 8px"}}>{isAdmin ? "아래 로고 구성에서 대표를 고른 뒤 이곳에서 배경을 선택하세요." : "마음에 드는 대표 배경을 추천해 주세요."}</p>
             <div style={{display:"grid",gridTemplateColumns:"repeat(2,minmax(0,1fr))",gap:12}}>
               {(["light","dark"] as const).map(bg=>{
                 const base=presentation?.file||presentationAssetFile(brand,brand.logo_png)||presentationAssetFile(brand,brand.preview_png)||"logo.png";
                 const file=bg==="dark"&&!presentation?(brand.dark_png || (hasWhiteLogo?"logo-white.png":invertedUrl?`generated-dark:${base}`:base)):base;
                 const src=presentation?previewUrl:bg==="dark"?(brand.dark_png||hasWhiteLogo?whiteUrl:invertedUrl||pngUrl):pngUrl;
                 return <div key={bg} style={{border:"1px solid #e4e4e7",borderRadius:12,overflow:"hidden"}}>
-                  <LogoBox src={src} alt={bg==="light"?"투명도 확인 미리보기":"검정 배경 미리보기"} height={132} padding={18} bg={bg==="dark"?"dark":"checker"} fallback={pngUrl}/>
-                  <div style={{padding:"10px 12px"}}><b style={{fontSize:12}}>{bg==="light"?"투명·밝은 배경":"검정 배경"}</b>{file.startsWith("generated-dark:")&&<span style={{fontSize:10,color:"#71717a",marginLeft:6}}>자동 생성 미리보기</span>}{candidateActions(file,"대표 이미지",bg,true,false,undefined,false)}
-                    {isAdmin && presentation && validPresentation({file:base,bg}) && <button className="logo-candidate-apply" type="button" disabled={savingPresentation||presentation.file===base&&presentation.bg===bg} onClick={()=>void savePresentation(base,bg,presentation.svgFile||manifest?.variants.find(v=>v.files.png===base)?.files.svg)} style={{marginTop:7}}>{presentation.file===base&&presentation.bg===bg?"✓ 현재 대표 배경":"이 배경 적용"}</button>}
+                  <LogoBox src={src} alt={bg==="light"?"투명도 확인 미리보기":"검정 배경 미리보기"} height={100} padding={14} bg={bg==="dark"?"dark":"checker"} fallback={pngUrl}/>
+                  <div className="logo-preview-actions" style={{padding:"7px 10px",display:"flex",alignItems:"center",justifyContent:"space-between",gap:6,flexWrap:"wrap"}}>
+                    <b style={{fontSize:12,whiteSpace:"nowrap"}}>{bg==="light"?"투명·밝은 배경":"검정 배경"}</b>
+                    <div style={{display:"flex",alignItems:"center",gap:5,flexWrap:"wrap"}}>
+                      {file.startsWith("generated-dark:")&&<span style={{fontSize:10,color:"#71717a"}}>자동 생성</span>}
+                      {candidateActions(file,"대표 이미지",bg,true,false,undefined,false)}
+                      {isAdmin && presentation && validPresentation({file:base,bg}) && <button className="logo-candidate-apply" type="button" disabled={savingPresentation||presentation.file===base&&presentation.bg===bg} onClick={()=>void savePresentation(base,bg,presentation.svgFile||manifest?.variants.find(v=>v.files.png===base)?.files.svg)}>{presentation.file===base&&presentation.bg===bg?"✓ 현재 대표 배경":"이 배경 적용"}</button>}
+                    </div>
                   </div>
                 </div>;
               })}
             </div>
           </section>
           <section aria-label="로고 구성">
-            <div style={{display:"flex",alignItems:"center",justifyContent:"space-between",gap:10,marginBottom:10}}>
+            <div style={{display:"flex",alignItems:"center",justifyContent:"space-between",gap:10,marginBottom:6}}>
               <div style={{fontSize:13,fontWeight:700}}>로고 구성</div>
               {langs.length >= 2 && <div style={{display:"flex",gap:4}}>{[null,...langs].map(l=><button key={l||"all"} onClick={()=>setLangFilter(l)} aria-pressed={langFilter===l} className="logo-candidate-vote">{l===null?"전체":l==="ko"?"국문":"영문"}</button>)}</div>}
             </div>
-            <p style={{fontSize:12,color:"#71717a",margin:"0 0 12px"}}>형태별 로고를 비교하고 필요한 파일을 받으세요. 마음에 드는 구성은 대표로 추천할 수 있어요.</p>
-            {manifest && <div aria-label="기본 로고 구성 현황" style={{display:"flex",flexWrap:"wrap",gap:5,marginBottom:14}}>
+            <p style={{fontSize:12,color:"#71717a",margin:"0 0 8px"}}>형태별 로고를 비교하고 필요한 파일을 받으세요. 마음에 드는 구성은 대표로 추천할 수 있어요.</p>
+            {manifest && <div aria-label="기본 로고 구성 현황" style={{display:"flex",flexWrap:"wrap",gap:5,marginBottom:10}}>
               {CORE_FORMS.map(form=><span key={form.key} style={{fontSize:11,padding:"4px 8px",borderRadius:999,background:availableCoreForms.has(form.key)?"#ecfdf3":"#f4f4f5",color:availableCoreForms.has(form.key)?"#15803d":"#71717a"}}>{availableCoreForms.has(form.key)?"✓":"＋"} {form.label}</span>)}
             </div>}
             <div className="logo-composition-grid">
