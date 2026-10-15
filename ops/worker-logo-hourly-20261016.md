@@ -13,3 +13,5 @@
 추가로 `prepare-worker-logo-hourly-backlog-20261016.py`가 기존 국내 공식 CI 탐색 원장에서 28개 후보를 재검증해 27개 유효 SVG를 확보했다. r26 ZIP의 manifest를 확인하고 roster 138개짜리 r27 ZIP을 만들었다. 공유 서버에는 당시 r26 이미지 위에 roster만 덧입혀 반영했고, Windows handoff 해시는 `4c54c5eb26e9963b6b560c8ed20820e64bb9476f3ae9c292a4508752d7304bef`다. 기존 r26와 다른 ZIP 파일은 roster·version·manifest 세 개뿐이다. 국내 후보 한 건은 preflight 실패로 제외했다.
 
 첫 실제 예약은 07:42 KST에 성공했다(`semologo-hourly.service` Result=success, 다음 실행 08:42). win-01과 win-02가 국내 공식 SVG 각 2건을 수집했고 네 작업 모두 `succeeded`였다. NCP 비공개 버킷의 manifest와 원본 result를 `verifyStoredResult`로 다시 읽어 SHA-256·출처 ID·원본 일치 4/4를 확인했다. 최초 4건은 사천시미생물발효재단, 우체국물류지원단, 우체국시설관리단, 경주문화재단이며 모두 `reviewStatus=PENDING`이다. 이 결과는 서비스 게시 수 증가로 계산하지 않는다.
+
+공유 fleet 배포는 `check-deploy.sh vibers-fleet http://127.0.0.1:4781/fleet/healthz`에서 running, restarts=0, HTTP 200, `DEPLOY OK`로 확인했다. `/health`는 인증이 필요한 경로여서 HTTP 401이 정상이며 배포 검사 주소로 사용하지 않는다.
