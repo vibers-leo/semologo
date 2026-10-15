@@ -29,7 +29,7 @@ export default function CardLogo({ candidates, priority, alt, failureLabel, retr
       image.current = node;
       if (node?.complete && node.naturalWidth > 0) node.dataset.loaded = '1';
     }} src={src} alt={alt} width={320} height={180} crossOrigin="anonymous"
-      style={{...(fit?{width:fit.width,height:fit.height,left:`calc(50% + ${fit.offsetX}px)`,top:`calc(50% + ${fit.offsetY}px)`,right:'auto',bottom:'auto',translate:'-50% -50%'}:{}), visibility: failed && attempt >= 2 ? 'hidden' : undefined}}
+      style={{...(fit?{width:fit.width,height:fit.height,left:`calc(50% + ${fit.offsetX}px)`,top:`calc(50% + ${fit.offsetY}px)`,right:'auto',bottom:'auto',translate:'-50% -50%'}:{}), visibility: failed ? 'hidden' : undefined}}
       decoding="async" loading={priority ? "eager" : "lazy"} fetchPriority={priority ? 'high' : 'auto'}
       data-loaded={loaded ? '1' : undefined}
       onLoad={() => { updateFit(); setLoaded(true); setFailed(false); }}
@@ -38,7 +38,7 @@ export default function CardLogo({ candidates, priority, alt, failureLabel, retr
         if (index + 1 < candidates.length) setIndex(index + 1);
         else setFailed(true);
       }} />
-    {failed && attempt >= 2 && <div className="card-fallback" style={{ position: 'absolute', inset: 0,
+    {failed && <div className="card-fallback" style={{ position: 'absolute', inset: 0,
       display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: 8,
       fontSize: 12, color: '#71717a' }}>
       <span>{failureLabel}</span>
