@@ -787,5 +787,37 @@
     "down_at_review": 1,
     "preview_file": "sources/westerveld-official-recovery-20261010/a2b5da0653402644b7b4.png",
     "light": false
+  },
+  "warmemo": {
+    "status": "repaired",
+    "reason": "공공누리 표기를 전쟁기념사업회 공식 사이트 로고로 교체",
+    "reviewed_at": "2026-10-16",
+    "down_at_review": 1,
+    "preview_file": "sources/official-correction-20261016/53b6374d3a5f57f6b261-transparent.png",
+    "light": false
+  },
+  "newko215": {
+    "status": "repaired",
+    "reason": "국가 선택용 태극기 아이콘을 공식 NEWCO 로고로 교체",
+    "reviewed_at": "2026-10-16",
+    "down_at_review": 2,
+    "preview_file": "sources/official-correction-20261016/c189ef859c392fbfa879-transparent.png",
+    "light": false
+  },
+  "eggbreadclub": {
+    "status": "repaired",
+    "reason": "국가 선택용 태극기 아이콘을 계란빵클럽 공식 로고로 교체",
+    "reviewed_at": "2026-10-16",
+    "down_at_review": 1,
+    "preview_file": "sources/official-correction-20261016/de9289b385c4eaef79a4-transparent.png",
+    "light": false
+  },
+  "sisaem": {
+    "status": "repaired",
+    "reason": "운영사 시샘 로고를 고기듬뿍국물두루치기 공식 브랜드 로고로 교체",
+    "reviewed_at": "2026-10-16",
+    "down_at_review": 1,
+    "preview_file": "sources/official-correction-20261016/2897d8346ea01bc6f5b6-transparent.png",
+    "light": true
   }
 }
