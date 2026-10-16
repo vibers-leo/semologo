@@ -1,0 +1,5 @@
+{
+  "schemaVersion": 1,
+  "policy": "Only an official-site SVG, manually matched to the news entity and visually reviewed, may be released to the Windows source roster. News links and generated logos are not sources.",
+  "sources": []
+}
