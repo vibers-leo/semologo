@@ -15,6 +15,10 @@ import styles from './LogoWallEditor.module.css';
 
 type Layout = LogoWallLayout;
 const defaultLayout = defaultLogoWallLayout;
+const quickForms = [
+  ['all', '전체'], ['symbol', '심볼만'], ['wordmark', '텍스트만'],
+  ['horizontal', '가로조합'], ['vertical', '세로조합'],
+] as const;
 type Wall = { id: string; title: string; version: number; settings?: Layout };
 type Item = { brand_id: string; asset_snapshot: { scale?: number; variant_key?: string; variant_label?: string; card_background?: CardBackground; name?: string; logo_png?: string | boolean; preview_png?: string; logo_svg?: string; has_png?: boolean; light?: boolean; user_logo_id?: string } };
 type SearchLogoProps = { brand: WallLogo; src: string; large?: boolean; background?: string };
@@ -278,9 +282,10 @@ export default function LogoWallEditor() {
         <section hidden={presentation} className={styles.library} aria-label="로고 선택">
           <div className={styles.sectionTitle}><h2>1. 로고 선택</h2><span>{selected.length}/100</span></div>
           <label className={styles.field}>브랜드 검색<input placeholder="삼성, 네이버, Nike…" value={query} onChange={e => setQuery(e.target.value)} /></label>
-          <p className={styles.hint}>가로·세로조합형, 심볼마크, 로고타입을 골라보세요. 같은 브랜드의 여러 형태를 함께 넣을 수 있어요.</p>
+          <p className={styles.hint}>수집된 원본 형태를 골라 로고월을 만들어요. 심볼과 텍스트가 각각 있으면 카드별 크기를 따로 조절할 수 있어요.</p>
           {searching ? <p role="status">로고를 찾고 있어요…</p> : query.trim() && !results.length ? <div className={styles.empty}>검색 결과가 없어요.<br /><a href="/submit/">없는 로고 제보하기 →</a></div> : !query.trim() ? <div className={styles.empty}>함께 보여주고 싶은<br />브랜드 이름을 검색해 보세요.</div> : null}
-          <label className={styles.field}>로고 형태<select aria-label="검색 로고 형태" value={formFilter} onChange={e => setFormFilter(e.target.value)}><option value="all">모든 형태</option>{Object.entries(wallFormLabels).map(([form, label]) => <option key={form} value={form}>{label}</option>)}</select></label>
+          <div className={styles.formFilters} role="group" aria-label="로고 형태 빠른 선택">{quickForms.map(([form, label]) => <button key={form} type="button" aria-pressed={formFilter === form} onClick={() => setFormFilter(form)}>{label}</button>)}</div>
+          <label className={styles.field}>세부 형태<select aria-label="검색 로고 형태" value={formFilter} onChange={e => setFormFilter(e.target.value)}><option value="all">모든 형태</option>{Object.entries(wallFormLabels).map(([form, label]) => <option key={form} value={form}>{label}</option>)}</select></label>
           <div className={styles.results} aria-label="브랜드 검색 결과">{results.map(b => <div key={b.id}>
             {formFilter === 'all' && <button className={styles.result} disabled={busy || selected.length >= 100 || selected.some(s => wallLogoKey(s) === wallLogoKey(b))} onClick={() => addLogo(b)}><SearchLogo brand={b} src={preview(b)} /><span>{b.name_ko}<small>{selected.some(s => wallLogoKey(s) === wallLogoKey(b)) ? '✓ 기본 로고 추가됨' : '＋ 기본 로고 추가'}</small></span></button>}
             <button className={styles.variantToggle} disabled={expanding === b.id} aria-expanded={Boolean(expanded[b.id])} onClick={() => void expandBrand(b)}>{formFilter !== 'all' ? `${b.name_ko} · ` : ''}{expanding === b.id ? '변형을 찾고 있어요…' : expanded[b.id] ? '로고 변형 접기' : '가로·세로·심볼·로고타입 보기'}</button>
