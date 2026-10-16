@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "queries": [
+    "브랜드 새 로고 공개 when:7d",
+    "기업 CI BI 리뉴얼 공개 when:7d",
+    "축제 영화제 공식 로고 공개 when:14d",
+    "마스코트 캐릭터 공개 공모 when:7d"
+  ],
+  "topics": [
+    {
+      "id": "biff-2026",
+      "name": "제31회 부산국제영화제",
+      "aliases": ["부산국제영화제", "BIFF"],
+      "query": "부산국제영화제 2026 공식 로고 when:14d",
+      "kind": "seasonal_official",
+      "catalog_id": "biff",
+      "review_note": "상시 BIFF 브랜드와 2026 날짜형 행사 로고를 분리해 보관한다. 공식 배포 파일과 행사 연도를 확인한다."
+    },
+    {
+      "id": "bukangi",
+      "name": "부캉이",
+      "aliases": ["부캉이", "북항 상어"],
+      "query": "부산 북항 부캉이 상어 마스코트 when:14d",
+      "kind": "editorial_concept",
+      "catalog_id": null,
+      "review_note": "공식 로고·캐릭터 존재 여부를 확인한다. 독립 제작물이라면 공식 로고로 표시하지 않고 창작자·제작일·출처를 명시한다."
+    }
+  ]
+}

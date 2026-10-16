@@ -1,0 +1,15 @@
+[Unit]
+Description=SemoLogo daily news-to-logo review queue
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=oneshot
+User=root
+WorkingDirectory=/root/projects/semologo/trend-watch
+Environment=PYTHONDONTWRITEBYTECODE=1
+ExecStart=/usr/bin/python3 /root/projects/semologo/trend-watch/collect-trending-logo-leads.py --config /root/projects/semologo/trend-watch/trend-watch-topics.json --output-dir /root/projects/semologo/trend-watch/data
+TimeoutStartSec=180
+NoNewPrivileges=true
+MemoryMax=128M
+
