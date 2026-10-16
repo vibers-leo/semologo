@@ -5,7 +5,7 @@ import { logoOwner } from '@/lib/logo-owner';
 import { logoWallZip } from '@/lib/logo-wall-zip';
 import { logoWallBundle, logoWallInlineHtml } from '@/lib/logo-wall-html';
 import { logoWallPreview } from '@/lib/logo-wall-preview';
-import { logoPngCandidates } from '@/lib/logo-png-source';
+import { logoWallPngCandidates } from '@/lib/logo-png-source';
 import { logoWallAsset } from '@/lib/cms-brand';
 import type { Brand } from '@/lib/brands';
 import { CDN, VERSION } from '@/lib/cdn';
@@ -22,7 +22,7 @@ const reply = (error: string, status: number, details?: unknown) => Response.jso
 async function cdnPng(brand: Brand, explicitVariant = false): Promise<Buffer> {
   const id = brand.id;
   const root = new URL(CDN);
-  for (const candidate of explicitVariant ? [String(brand.preview_png)] : logoPngCandidates(brand)) {
+  for (const candidate of explicitVariant ? [String(brand.preview_png)] : logoWallPngCandidates(brand)) {
     // Only fetch this brand's known CDN directory; never arbitrary snapshot URLs.
     let url: URL;
     try { url = new URL(candidate); } catch { continue; }

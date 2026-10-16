@@ -2,7 +2,7 @@ import sharp, { type OverlayOptions } from 'sharp';
 import { logoWallLayout, wallCardBackground, wallStageBackground } from './logo-wall-layout';
 
 /** Static 1200×630 overview. Only decoded PNG buffers from the authorized export enter the compositor. */
-export async function logoWallPreview(settings: unknown, logos: { data: Buffer; light?: boolean; scale?: number; cardBackground?: 'inherit' | 'white' | 'light' | 'dark' }[]) {
+export async function logoWallPreview(settings: unknown, logos: { data: Buffer; light?: boolean; scale?: number; cardBackground?: 'inherit' | 'white' | 'transparent' | 'light' | 'dark' }[]) {
   const layout = logoWallLayout(settings);
   const columns = Math.max(layout.columns, Math.ceil(Math.sqrt(logos.length * 2)));
   const rows = Math.max(1, Math.ceil(logos.length / columns));

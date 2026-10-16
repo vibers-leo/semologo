@@ -27,6 +27,18 @@ export function logoPngCandidates(brand: Brand): string[] {
   ])];
 }
 
+/** The wall needs an alpha-ready asset when the catalog's default PNG has a baked white canvas. */
+export function logoWallPngCandidates(brand: Brand): string[] {
+  const catalog = logoPngCandidates(brand);
+  const file = typeof brand.logo_png === 'string' ? brand.logo_png.split('?')[0] : '';
+  const defaultFile = !file || file === 'logo.png' || file === `${CDN}/${brand.id}/logo.png`;
+  // Keep curated picks and white-on-dark artwork intact; only legacy defaults
+  // are candidates for the already-generated transparent PNG.
+  if (!defaultFile || (!(brand.has_png || brand.logo_png) && brand.has_svg) || brand.presentation || brand.light || brand.light_logo || brand.dark_variant === 'white' || brand.rejected_asset_files?.includes('logo-transparent.png')) return catalog;
+  const transparent = `${CDN}/${brand.id}/logo-transparent.png?v=${VERSION}`;
+  return [...new Set([transparent, ...catalog])];
+}
+
 /** Browser cards can display real SVG directly; keep PNG-only exports separate. */
 export function logoImageCandidates(brand: Brand): string[] {
   const png=logoPngCandidates(brand);

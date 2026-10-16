@@ -1,5 +1,5 @@
 export type LogoWallLayout = {
-  background: 'auto' | 'light' | 'dark'; cardBackground: 'auto' | 'white' | 'light' | 'dark'; columns: number;
+  background: 'auto' | 'light' | 'dark'; cardBackground: 'auto' | 'white' | 'transparent' | 'light' | 'dark'; columns: number;
   motion: 'static' | 'marquee' | 'alternating'; speed: 'slow' | 'normal' | 'fast';
   spacing: 'compact' | 'balanced' | 'airy'; logoSize: 'small' | 'medium' | 'large';
   appearance: 'cards' | 'clean'; showNames: boolean;
@@ -11,7 +11,7 @@ export function logoWallLayout(value: unknown): LogoWallLayout {
   const s = value && typeof value === 'object' ? value as Record<string, unknown> : {};
   const out = { ...defaultLogoWallLayout };
   for (const key of ['background', 'cardBackground', 'motion', 'speed', 'spacing', 'logoSize', 'appearance'] as const) {
-    const choices: Record<typeof key, readonly string[]> = { background: ['auto','light','dark'], cardBackground: ['auto','white','light','dark'], motion: ['static','marquee','alternating'], speed: ['slow','normal','fast'], spacing: ['compact','balanced','airy'], logoSize: ['small','medium','large'], appearance: ['cards','clean'] };
+    const choices: Record<typeof key, readonly string[]> = { background: ['auto','light','dark'], cardBackground: ['auto','white','transparent','light','dark'], motion: ['static','marquee','alternating'], speed: ['slow','normal','fast'], spacing: ['compact','balanced','airy'], logoSize: ['small','medium','large'], appearance: ['cards','clean'] };
     if (s[key] !== undefined) {
       if (typeof s[key] !== 'string' || !choices[key].includes(s[key] as string)) throw new Error('invalid layout');
       Object.assign(out, { [key]: s[key] });
@@ -22,10 +22,11 @@ export function logoWallLayout(value: unknown): LogoWallLayout {
   return out;
 }
 
-export type CardBackground = 'inherit' | 'white' | 'light' | 'dark';
+export type CardBackground = 'inherit' | 'white' | 'transparent' | 'light' | 'dark';
 export const wallStageBackground = (layout: LogoWallLayout) => layout.background === 'dark' ? '#18181b' : layout.background === 'light' ? '#fff' : '#f4f4f5';
 export function wallCardBackground(layout: LogoWallLayout, light = false, override: CardBackground = 'inherit') {
   const choice = override === 'inherit' ? layout.cardBackground : override;
+  if (choice === 'transparent') return '#00000000';
   if (choice === 'dark' || (choice === 'auto' && light)) return '#18181b';
   if (choice === 'light') return '#f4f4f5';
   if (choice === 'white' || layout.appearance === 'cards') return '#fff';

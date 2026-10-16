@@ -149,3 +149,13 @@
 .inspector { position: static; transform: none; width: 100%; margin-block: 16px; box-shadow: none; }
 @media (max-width: 900px) { .workspace { grid-template-columns: 240px minmax(0, 1fr); } }
 @media (max-width: 700px) { .page { width: 100%; padding-inline: 12px; } .workspace { grid-template-columns: 1fr; } }
+
+/* Reveal transparency and give each selected card a compact, consistent editor. */
+.searchPreview { background-color: #fff; background-image: linear-gradient(45deg, #e9e9ee 25%, transparent 25%), linear-gradient(-45deg, #e9e9ee 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #e9e9ee 75%), linear-gradient(-45deg, transparent 75%, #e9e9ee 75%); background-size: 12px 12px; background-position: 0 0, 0 6px, 6px -6px, -6px 0; }
+.backgroundChoices { display: inline-flex; flex-wrap: wrap; gap: 3px; padding: 3px; border-radius: 9px; background: #e9e9f5; }
+.page .backgroundChoices button { min-height: 32px; padding: 5px 11px; border: 0; border-radius: 7px; background: transparent; color: #52525b; font-size: 12px; }
+.page .backgroundChoices button[aria-pressed=true] { background: #fff; color: #18181b; box-shadow: 0 1px 4px #18181b22; font-weight: 700; }
+.page .removeLogo { top: 8px; right: 8px; display: grid; place-items: center; width: 32px; height: 32px; border: 1px solid #d4d4d8; border-radius: 9px; background: #fff; color: #52525b; box-shadow: 0 1px 5px #18181b20; font-size: 0; }
+.page .removeLogo:hover, .page .removeLogo:focus-visible { background: #fff1f2; color: #be123c; border-color: #fda4af; }
+.page .removeLogo:focus-visible { opacity: 1; outline: 2px solid #6366f1; outline-offset: 2px; }
+@media (max-width: 700px) { .inspector { align-items: stretch; } .inspector strong, .inspector label { flex-basis: 100%; } .backgroundChoices { width: 100%; } .page .backgroundChoices button { flex: 1 1 auto; } }

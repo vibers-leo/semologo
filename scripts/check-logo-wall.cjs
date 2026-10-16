@@ -28,7 +28,7 @@ function load(file){
  vm.runInNewContext(code,{exports,require:localRequire,process:{env:{DB_VIBERS_MAIN_URL:'test-only',NEXT_PUBLIC_CDN_URL:'https://cdn.example/_clients'}},console,Buffer,Response,Request,URL,AbortSignal,setTimeout,fetch:async url=>{fetched.push(String(url));return new Response(png);}},{filename:file});return exports;
 }
 async function main(){
- const {logoPngCandidates,logoImageCandidates}=load('src/lib/logo-png-source.ts');
+ const {logoPngCandidates,logoWallPngCandidates,logoImageCandidates}=load('src/lib/logo-png-source.ts');
  const {applyReviewedAssets,reviewedVariants}=load('src/lib/reviewed-logo-assets.ts');
  const duplicate=applyReviewedAssets({id:'cj-hole-6464'});assert.equal(duplicate.hidden,true);assert.equal(duplicate.merged_into,'cj-hole');
  const raster=applyReviewedAssets({id:'policja',has_svg:true});assert.equal(raster.has_svg,false);assert.equal(raster.logo_svg,false);assert(!reviewedVariants.policja.variants[0].files.svg);
@@ -43,6 +43,8 @@ async function main(){
  assert(seongnam.preview_png.includes('official-ci-20261007'));
  const relative=logoPngCandidates({id:'relative',logo_png:'logo.png'});
  assert.equal(relative[0],'https://cdn.example/_clients/relative/logo.png?v=1790381000');
+ assert(logoWallPngCandidates({id:'relative',logo_png:'logo.png'})[0].includes('/relative/logo-transparent.png'));
+ assert(logoWallPngCandidates({id:'reviewed',logo_png:'sources/official.png',presentation:{file:'sources/official.png',bg:'light'}})[0].includes('/sources/official.png'));
  assert.equal(logoPngCandidates({id:'nested',logo_png:'sources/reviewed/logo.png'})[0],'https://cdn.example/_clients/nested/sources/reviewed/logo.png?v=1790381000');
  assert.equal(logoPngCandidates({id:'upload',logo_png:'/submissions/test.png'})[0],'/submissions/test.png');
  assert.equal(logoPngCandidates({id:'cdn',logo_png:'https://assets.example/logo.png'})[0],'https://assets.example/logo.png');
@@ -55,9 +57,11 @@ async function main(){
  assert.equal((await preview.GET(new Request('https://example.test/api/logo-preview/?id=png-only-recovery'))).status,200);
  assert(fetched[0].includes('/png-only-recovery/logo.png'),'PNG-only recovery must try existing PNG before missing SVG');fetched.length=0;
  assert(!logoImageCandidates({id:'raster',has_svg:false,has_png:true}).some(u=>u.endsWith('.svg')));
- const {logoWallLayout}=load('src/lib/logo-wall-layout.ts');
+ const {logoWallLayout,wallCardBackground}=load('src/lib/logo-wall-layout.ts');
  const old=logoWallLayout({background:'auto',columns:4});assert.equal(old.appearance,'cards');assert.equal(old.showNames,false);assert.equal(logoWallLayout({showNames:true}).showNames,false);
  const layout=logoWallLayout({appearance:'clean',spacing:'airy',logoSize:'large',showNames:false,motion:'alternating'});
+ assert.equal(wallCardBackground(logoWallLayout({cardBackground:'transparent'})), '#00000000');
+ assert.equal(wallCardBackground(logoWallLayout({cardBackground:'dark'}),false,'transparent'), '#00000000');
  assert.throws(()=>logoWallLayout({columns:999}));assert.throws(()=>logoWallLayout({showNames:'false'}));assert.throws(()=>logoWallLayout({appearance:'url(evil)'}));
  const {cmsBrand,logoWallAsset}=load('src/lib/cms-brand.ts');
  for(const [old,parent] of [['claude-ai','claude'],['claude-wordmark','claude'],['claudecode','claude-code']]){
@@ -93,6 +97,7 @@ async function main(){
  rows=[{id:'rainbowrobotics',payload:{name_ko:'레인보우',has_png:true}}];
  const variantsBody={title:'variants',items:[{brandId:'rainbowrobotics',variantKey:black.variantKey,scale:75,cardBackground:'white'},{brandId:'rainbowrobotics',variantKey:white.variantKey,scale:125,cardBackground:'dark'}],settings:{cardBackground:'white'}};
  assert.equal((await handler.POST(req(variantsBody))).status,201);assert.equal(storedSnapshot.scale,125);assert.equal(storedSnapshot.variant_key,white.variantKey);assert.equal(storedSnapshot.light,true);assert.equal(storedSnapshot.card_background,'dark');
+ assert.equal((await handler.POST(req({...variantsBody,items:[{brandId:'rainbowrobotics',cardBackground:'transparent'}],settings:{cardBackground:'transparent'}}))).status,201);assert.equal(storedSnapshot.card_background,'transparent');
  assert.equal((await handler.POST(req({...variantsBody,items:[variantsBody.items[0],variantsBody.items[0]]}))).status,400);
  assert.equal((await handler.POST(req({...variantsBody,items:[{brandId:'rainbowrobotics',variantKey:'missing'}]}))).status,400);
  assert.equal((await handler.POST(req({...variantsBody,items:[{brandId:'rainbowrobotics',scale:999}]}))).status,400);
@@ -103,7 +108,7 @@ async function main(){
  assert(logoWallHtml('scale 200',{},[{id:'test',file:'logos/001-test.png',scale:200}]).includes('transform:scale(2)'));
  const exporter=load('src/app/api/logo-walls/export/route.ts');
  exportWall={id:'test-wall',title:'export',version:1,settings:layout,items:[{brand_id:'test-brand',snapshot:{name:'test',logo_png:'https://cdn.example/_clients/test-brand/logo.png',light:false}}]};
- const zipResponse=await exporter.GET(new Request('https://example.test/?id=test-wall'));assert.equal(zipResponse.status,200);assert(fetched[0].includes('/logo.png'));const zipBody=Buffer.from(await zipResponse.arrayBuffer());for(const filename of ['index.html','styles.css','script.js','manifest.json','og-preview.png','README.txt','logos/001-test-brand.png'])assert(zipBody.includes(Buffer.from(filename)),filename+' missing from ZIP');
+ const zipResponse=await exporter.GET(new Request('https://example.test/?id=test-wall'));assert.equal(zipResponse.status,200);assert(fetched[0].includes('/logo-transparent.png'));const zipBody=Buffer.from(await zipResponse.arrayBuffer());for(const filename of ['index.html','styles.css','script.js','manifest.json','og-preview.png','README.txt','logos/001-test-brand.png'])assert(zipBody.includes(Buffer.from(filename)),filename+' missing from ZIP');
  const inline=await exporter.GET(new Request('https://example.test/?id=test-wall&format=preview'));assert.equal(inline.status,200);const inlineBody=await inline.json();assert(inlineBody.html.includes('src="data:image/png;base64,'));assert(!inlineBody.html.includes('src="logos/'));assert(inlineBody.image.startsWith('data:image/png;base64,'));
  owner=null;assert.equal((await exporter.GET(new Request('https://example.test/?id=test-wall&format=preview'))).status,401);owner='test-owner';
  fetched.length=0;exportWall.items=[{brand_id:id,snapshot:{name:'bad'}}];assert.equal((await exporter.GET(new Request('https://example.test/?id=test-wall'))).status,422);assert.equal(fetched.length,0);
