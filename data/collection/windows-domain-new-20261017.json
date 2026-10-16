@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "status": "published-and-live-verified",
+  "source": "Windows fleet domain discovery; first-party asset independently downloaded and visually reviewed on Mac",
+  "items": [
+    {
+      "id": "gemeinde-dornstadt",
+      "name": "Gemeinde Dornstadt",
+      "domain": "dornstadt.de",
+      "website": "https://dornstadt.de/",
+      "category": "공공기관",
+      "form": "wordmark",
+      "sourceFile": "gemeinde-dornstadt.svg",
+      "sourcePage": "https://dornstadt.de/",
+      "assetUrl": "https://www.dornstadt.de/fileadmin/templates/img/logo_text.svg",
+      "sha256": "40c618019eca182c41aa90aad485ef23dc29399bdef84712a696a6f8ce20b97f",
+      "fleetJobId": "d3e5e2d3-f54e-4c80-90e6-fe5c35486dde",
+      "fleetManifestKey": "automation/v1/tenants/internal/projects/semologo/runs/d3e5e2d3-f54e-4c80-90e6-fe5c35486dde/1/9f617b633f52cd242b151dab843b9e9a0aff5f933750022aa2253b6cb31d1fa9.manifest.json",
+      "worker": "win-01"
+    },
+    {
+      "id": "huxam",
+      "name": "huXam",
+      "domain": "huxam.nl",
+      "website": "https://huxam.nl/",
+      "category": "IT·테크",
+      "form": "wordmark",
+      "sourceFile": "huxam.svg",
+      "sourcePage": "https://huxam.nl/",
+      "assetUrl": "https://www.huxam.nl/wp-content/uploads/2022/03/logo.svg",
+      "sha256": "22c138eefc8f949d16368e08c2cbc105b7b268b146d5f4a5cbb22850bb3254e7",
+      "fleetJobId": "b93ae19f-922b-4669-bacc-e766d844395d",
+      "fleetManifestKey": "automation/v1/tenants/internal/projects/semologo/runs/b93ae19f-922b-4669-bacc-e766d844395d/1/26d4a860cf6adf4eda74e95efaa25a23f23c832e917dfc4dce08b7033a296ee2.manifest.json",
+      "worker": "win-01"
+    },
+    {
+      "id": "soldiers-mothers-st-petersburg",
+      "name": "Солдатские матери",
+      "domain": "soldiersmothers.ru",
+      "website": "https://soldiersmothers.ru/",
+      "category": "비영리",
+      "form": "symbol",
+      "sourceFile": "soldiers-mothers-st-petersburg.svg",
+      "sourcePage": "https://soldiersmothers.ru/",
+      "assetUrl": "https://soldiersmothers.ru/wp-content/themes/smothers/images/logo.svg",
+      "sha256": "0995fd780b9bfe584ee591a1beb0b55a39b08b1462d67f5410b4e581b4d05251",
+      "fleetJobId": "e1996c09-8742-4e77-9680-7cebfb05c49d",
+      "fleetManifestKey": "automation/v1/tenants/internal/projects/semologo/runs/e1996c09-8742-4e77-9680-7cebfb05c49d/1/61c3c08e7c8e49a65b6b603e3c42fdd994ab0bd53b971ec2356493e25dedc129.manifest.json",
+      "worker": "win-02"
+    }
+  ]
+}

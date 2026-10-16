@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "status": "published-and-live-verified",
+  "source": "Wikimedia Commons SVG logos of companies of Taiwan, checked against official entity sites and production names",
+  "items": [
+    {
+      "id": "arcadyan",
+      "name": "Arcadyan",
+      "category": "IT·테크",
+      "domain": "arcadyan.com",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Logo_of_Arcadyan.svg",
+      "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Logo_of_Arcadyan.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "sha256": "282932f56504ea22e95f940ac9d9c97095b08f5850ef4f7d5d5321fcb7781693",
+      "licenseNote": "Public domain",
+      "sourceFile": "arcadyan.svg"
+    },
+    {
+      "id": "macronix",
+      "name": "Macronix",
+      "category": "IT·테크",
+      "domain": "macronix.com",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Macronix_logo.svg",
+      "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Macronix_logo.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "sha256": "c3e98d513a97bf405ea915d7af2d5cbdaabe7249a2e142d73e81c5849f17201c",
+      "licenseNote": "Public domain",
+      "sourceFile": "macronix.svg"
+    },
+    {
+      "id": "in-win-development",
+      "name": "InWin",
+      "category": "제조·그룹",
+      "domain": "in-win.com",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:In_Win_Development_logo.svg",
+      "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/3/35/In_Win_Development_logo.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "sha256": "0e1510477170470311e77a8a94fff5856e3dbe0c3ed61fb2eff8f1a977c3b79f",
+      "licenseNote": "Public domain",
+      "sourceFile": "in-win-development.svg"
+    },
+    {
+      "id": "formosa-sumco-technology",
+      "name": "Formosa Sumco Technology",
+      "category": "제조·그룹",
+      "domain": "fstech.com.tw",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Formosa_Sumco_Technology_logo.svg",
+      "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/3/36/Formosa_Sumco_Technology_logo.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "sha256": "87c90c7b7d05d699a1add440e36b38d61e5e8ddfd392ef4a9eed9ec67e458a27",
+      "licenseNote": "Public domain",
+      "sourceFile": "formosa-sumco-technology.svg"
+    },
+    {
+      "id": "qisda",
+      "name": "Qisda",
+      "category": "IT·테크",
+      "domain": "qisda.com",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Qisda_logo.svg",
+      "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Qisda_logo.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "sha256": "0ed7e63d7fa9d40412442fd2e019cd0c751afd3c3b84a00bc5e8d4cfe6e529f8",
+      "licenseNote": "Public domain",
+      "sourceFile": "qisda.svg"
+    },
+    {
+      "id": "vanguard-international-semiconductor",
+      "name": "Vanguard International Semiconductor",
+      "category": "IT·테크",
+      "domain": "vis.com.tw",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Vanguard_International_Semiconductor_logo.svg",
+      "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Vanguard_International_Semiconductor_logo.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "sha256": "7a3f5f9da1b04a2a41b2aa4e83c0f369bc9fff10da4ce98930229308e593054b",
+      "licenseNote": "Public domain",
+      "sourceFile": "vanguard-international-semiconductor.svg"
+    }
+  ]
+}

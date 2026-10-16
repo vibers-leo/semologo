@@ -1,0 +1,10 @@
+[Unit]
+Description=SemoLogo bounded domain discovery shard feeder
+After=docker.service
+Requires=docker.service
+ConditionPathExists=/root/projects/vibers-fleet/releases/20261017-semologo-domain-r45/queue-worker-domain-shards.cjs
+
+[Service]
+Type=oneshot
+TimeoutStartSec=90
+ExecStart=/bin/bash -c '/usr/local/bin/docker exec -i vibers-fleet node - --apply < /root/projects/vibers-fleet/releases/20261017-semologo-domain-r45/queue-worker-domain-shards.cjs'

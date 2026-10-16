@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "baseServerImage": "vibers-fleet:20261017-subscription-scale-r44a",
+  "baseServerImageSha256": "0de97a9097acd76561196fc0f8faef72a6e8a48a6fb14d36abe9417d6a4ebd46",
+  "deployedServerImage": "vibers-fleet:20261017-semologo-domain-r45",
+  "deployedServerImageSha256": "5c3d30f446e95db95e21bbe6692dfcfc8cda2d316e9ba0bd420671c243042da0",
+  "windowsHandoffBaseSha256": "f965b4d773aa1153a30caebcc78752ada569011c7162a92040b4d3d1059ec234",
+  "windowsHandoffSha256": "2b84679c4afcfc5b1b5eaa4fc7683a4ffe9f46ade73b7fa3b3527a01ebf951b6",
+  "files": {
+    "artifacts.mjs": "b9b50e54da14f8093e6c309da4629c41d05646affff846e1a40b10efaa3e8237",
+    "core.mjs": "c047de4f3b53abb9f7bcfc40a7796a266be7df3c7a16af9cdd43ff6684fb6912",
+    "semologo-domain-discover.mjs": "4fb6b72f93558639fa3fd717ad30e6fa7e2f4b15a212937677bb41c10c0c8edc",
+    "semologo-domain-discover.test.mjs": "690270bb2ee4e0aabd4a4f9a1bad9f16bb221168ca37a316bd270f1a885f9fbb",
+    "server.mjs": "35cfe41f490722a6f914dddb05daa2d37863f5a06101e650b99c49324dac9f01",
+    "version.mjs": "062e9ab5f9939003cc47333f30d7740c90c25d08c3717e6aab6381ce9bfeab6b",
+    "worker.mjs": "948606c4eec1f236eec76636e9d67b0b4299859701a5793a8f70f37fc0039b21"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "status": "private-bucket-uploaded-and-hash-verified",
+  "files": [
+    {
+      "batch": 1,
+      "worker": "win-01",
+      "domains": 500000,
+      "key": "automation/v1/tenants/internal/projects/semologo/seeds/cc-20261016/batch1/win-01-b3036c600da67d3f.csv.gz",
+      "sha256": "b3036c600da67d3ff2677bc1865e9ad5468b9f47e66d79229eb8a5bd8a37c21f",
+      "bytes": 5242227
+    },
+    {
+      "batch": 1,
+      "worker": "win-02",
+      "domains": 500000,
+      "key": "automation/v1/tenants/internal/projects/semologo/seeds/cc-20261016/batch1/win-02-b247404415aac83a.csv.gz",
+      "sha256": "b247404415aac83a1fb9c0fbeeef50a1aba13491b4f6191f705276b243efed19",
+      "bytes": 5239986
+    },
+    {
+      "batch": 2,
+      "worker": "win-01",
+      "domains": 500000,
+      "key": "automation/v1/tenants/internal/projects/semologo/seeds/cc-20261016/batch2/win-01-814cba28d8b640e3.csv.gz",
+      "sha256": "814cba28d8b640e32879ead50aeda8b3d94b239dc5fb259eda5400f4fed164cf",
+      "bytes": 5123596
+    },
+    {
+      "batch": 2,
+      "worker": "win-02",
+      "domains": 500000,
+      "key": "automation/v1/tenants/internal/projects/semologo/seeds/cc-20261016/batch2/win-02-cd5e2e3168b29e66.csv.gz",
+      "sha256": "cd5e2e3168b29e6627d1dfd79d575a1415c315fd61988131ff8fb878be56d551",
+      "bytes": 5122041
+    },
+    {
+      "batch": 3,
+      "worker": "win-01",
+      "domains": 3000000,
+      "key": "automation/v1/tenants/internal/projects/semologo/seeds/cc-20261016/batch3/win-01-2922187f208bd641.csv.gz",
+      "sha256": "2922187f208bd641d89120b6786be0ffbca7ba71dc4907e2eceb22b05caa1953",
+      "bytes": 30597465
+    },
+    {
+      "batch": 3,
+      "worker": "win-02",
+      "domains": 3000000,
+      "key": "automation/v1/tenants/internal/projects/semologo/seeds/cc-20261016/batch3/win-02-697bbf2c60cfb77e.csv.gz",
+      "sha256": "697bbf2c60cfb77e43ec439b4e12d4d4dbc98ba6645d15df66dc488b3189c023",
+      "bytes": 30582544
+    }
+  ]
+}

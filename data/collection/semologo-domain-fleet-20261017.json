@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "status": "two-worker-roundtrip-verified-and-timer-active",
+  "bucketReceipt": "data/collection/mass-domain-shards-bucket-20261017.json",
+  "candidateDomainsInBucket": 8000000,
+  "jobKind": "semologo-domain-discover",
+  "jobInputLimit": 12,
+  "resultPolicy": "review-required; no automatic CMS publication",
+  "serverImage": "vibers-fleet:20261017-semologo-domain-r45",
+  "serverImageSha256": "5c3d30f446e95db95e21bbe6692dfcfc8cda2d316e9ba0bd420671c243042da0",
+  "workerHandoffSha256": "2b84679c4afcfc5b1b5eaa4fc7683a4ffe9f46ade73b7fa3b3527a01ebf951b6",
+  "workerVersion": "20261017-semologo-domain-r45",
+  "workerVersionVerified": ["win-01", "win-02"],
+  "pilotJobs": [
+    {"worker": "win-01", "jobId": "96861c68-76b0-48c4-8a35-4ed21f5b0e7a", "status": "succeeded", "domains": 12, "candidateDomains": 2, "manifestKey": "automation/v1/tenants/internal/projects/semologo/runs/96861c68-76b0-48c4-8a35-4ed21f5b0e7a/1/fc4e93e5bd75705f8fea7c9c71194d519d0403a68bf0ec55732aeb0891f153ce.manifest.json"},
+    {"worker": "win-02", "jobId": "00111da4-5469-4c79-a642-bff3063a56b5", "status": "succeeded", "domains": 12, "candidateDomains": 3, "manifestKey": "automation/v1/tenants/internal/projects/semologo/runs/00111da4-5469-4c79-a642-bff3063a56b5/1/3e7e5d6d1795346dbdcdccf6d158826464a6887bf4689cb649dd5b121639caa4.manifest.json"}
+  ],
+  "timer": {"name": "semologo-domain-discover.timer", "intervalMinutes": 1, "maxQueuedJobsPerWorker": 2, "enabled": true},
+  "cmsNewBrandsThisRun": 34,
+  "cmsTotalAfterPublication": 181888,
+  "cmsLatestApiVerified": true,
+  "cmsDetailPagesVerified": 34,
+  "windowsCandidatesPublished": ["gemeinde-dornstadt", "huxam", "soldiers-mothers-st-petersburg"]
+}

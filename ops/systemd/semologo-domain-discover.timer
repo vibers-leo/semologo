@@ -1,0 +1,11 @@
+[Unit]
+Description=Check SemoLogo domain discovery work every minute
+
+[Timer]
+OnCalendar=*-*-* *:*:00
+Persistent=true
+RandomizedDelaySec=10
+Unit=semologo-domain-discover.service
+
+[Install]
+WantedBy=timers.target

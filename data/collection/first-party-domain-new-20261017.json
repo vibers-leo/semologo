@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "status": "published-and-live-verified",
+  "source": "Common Crawl domain candidates, direct first-party homepage logo discovery; original SVG visually inspected",
+  "items": [
+    {
+      "id": "webyes",
+      "name": "WebYes",
+      "category": "서비스·기업",
+      "form": "wordmark",
+      "domain": "webyes.com",
+      "website": "https://www.webyes.com/",
+      "sourcePage": "https://www.webyes.com/",
+      "assetUrl": "https://www.webyes.com/wp-content/themes/webyes/assets/images/logo.svg",
+      "sha256": "f038b9313cae4feaf06a62bd8b6b402b3b17b5387e142ebcb4dd5fcca1cf61b0",
+      "sourceFile": "webyes.svg",
+      "robotsGateApplied": true
+    },
+    {
+      "id": "lykdat",
+      "name": "LykDat",
+      "category": "IT·테크",
+      "form": "horizontal",
+      "domain": "lykdat.com",
+      "website": "https://lykdat.com/",
+      "sourcePage": "https://lykdat.com/",
+      "assetUrl": "https://lykdat.com/static/media/logo.3e2866a6.svg",
+      "sha256": "f1432cc48e4d3c192788ac3b3b283c079637335a526967e76e1db38b5cb72f15",
+      "sourceFile": "lykdat.svg",
+      "robotsGateApplied": true
+    },
+    {
+      "id": "qualityhive",
+      "name": "QualityHive",
+      "category": "IT·테크",
+      "form": "wordmark",
+      "domain": "qualityhive.com",
+      "website": "https://qualityhive.com/",
+      "sourcePage": "https://qualityhive.com/",
+      "assetUrl": "https://qualityhive.com/images/logo-1.svg",
+      "sha256": "e99980efa93f739d33a0a938facf2ef80b472e28d6dba05e1f0b35f09d1a6c30",
+      "sourceFile": "qualityhive.svg",
+      "robotsGateApplied": true
+    },
+    {
+      "id": "booklive-japan",
+      "name": "BookLive",
+      "category": "미디어·엔터",
+      "form": "horizontal",
+      "domain": "booklive.co.jp",
+      "website": "https://www.booklive.co.jp:443/",
+      "sourcePage": "https://www.booklive.co.jp:443/",
+      "assetUrl": "https://www.booklive.co.jp:443/assets/booklive/img/common/logo.svg",
+      "sha256": "2650006486ac2ce8936fd561aa1b4168f2b05934cb8fc276c4be41d060cb9eb1",
+      "sourceFile": "booklive-japan.svg",
+      "robotsGateApplied": true
+    },
+    {
+      "id": "xgenious",
+      "name": "Xgenious",
+      "category": "IT·테크",
+      "form": "horizontal",
+      "domain": "xgenious.com",
+      "website": "https://xgenious.com/",
+      "sourcePage": "https://xgenious.com/",
+      "assetUrl": "https://xgenious.com/xgenious-logo.svg",
+      "sha256": "a6d5b23dcec8312058ce4146a1c26f4778f522a39d2d85e74080cf96439273e4",
+      "sourceFile": "xgenious.svg",
+      "robotsGateApplied": true
+    },
+    {
+      "id": "probayes",
+      "name": "Probayes",
+      "category": "IT·테크",
+      "form": "horizontal",
+      "domain": "probayes.com",
+      "website": "https://www.probayes.com/",
+      "sourcePage": "https://www.probayes.com/",
+      "assetUrl": "https://www.probayes.com/uploads/6799f4a711e49/logo.svg",
+      "sha256": "0601f3d0e9e240f25e11e83b22a63d9b6b2cc9f5c8deeeb10b4a8a2d3bc172da",
+      "sourceFile": "probayes.svg",
+      "robotsGateApplied": true
+    },
+    {
+      "id": "namitech",
+      "name": "NamiTech",
+      "category": "IT·테크",
+      "form": "horizontal",
+      "domain": "namitech.io",
+      "website": "https://namitech.io/",
+      "sourcePage": "https://namitech.io/",
+      "assetUrl": "https://namitech.io/logo-namitech.svg",
+      "sha256": "aa96450a2ac856279cfb8e697918903f605a0ce2e29986a8a99418d408555d51",
+      "sourceFile": "namitech.svg",
+      "robotsGateApplied": true
+    },
+    {
+      "id": "contactzilla",
+      "name": "Contactzilla",
+      "category": "IT·테크",
+      "form": "horizontal",
+      "domain": "contactzilla.com",
+      "website": "https://contactzilla.com/",
+      "sourcePage": "https://contactzilla.com/",
+      "assetUrl": "https://contactzilla.com/logo.svg",
+      "sha256": "87d22953b235674bdda30d0d707f8559d29595c0bd9101a792aea17f8c1d0a39",
+      "sourceFile": "contactzilla.svg",
+      "robotsGateApplied": true
+    }
+  ]
+}
