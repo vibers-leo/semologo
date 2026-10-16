@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "review_status": "candidate_only",
+  "items": [
+    {"gdweb_id": "27942", "asset_url": "https://www.dtribe.co.kr/images/logo.svg"},
+    {"gdweb_id": "27799", "asset_url": "https://www.makervil.com/assets/images/logo-svg1.svg"},
+    {"gdweb_id": "27794", "asset_url": "https://www.seojinsystem.net/theme/basic/images/logo-white.svg"},
+    {"gdweb_id": "27742", "asset_url": "https://www.biff.kr/kor/img/cmm/top_logo.svg?ver=260120"},
+    {"gdweb_id": "27604", "asset_url": "https://instantfunk.kr/ifw/layout/logo.svg"},
+    {"gdweb_id": "27578", "asset_url": "https://www.gigavis.com/common_kr/images/logo.svg"},
+    {"gdweb_id": "27560", "asset_url": "https://www.saltlux.com/assets/images/logo.svg"},
+    {"gdweb_id": "27544", "asset_url": "https://www.worxphere.ai/home/assets/icons/logo.svg"}
+  ]
+}

@@ -1,0 +1,1851 @@
+{
+  "schema_version": 1,
+  "discovered_at": "2026-10-16T06:52:54.217373+00:00",
+  "source": "https://www.gdweb.co.kr/sub/list.asp",
+  "pages_checked": 3,
+  "policy": "Discovery only. GDWEB screenshots are excluded. Brand identity, catalog deduplication, official logo asset, and four-form review are pending.",
+  "items": [
+    {
+      "gdweb_id": "27945",
+      "listing_title": "핸섬피쉬",
+      "listed_date": "26.10.16",
+      "listing_page": 1,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27945",
+      "official_site_candidate": "https://www.handsomefish.co.kr/",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27942",
+      "listing_title": "디트라이브",
+      "listed_date": "26.10.16",
+      "listing_page": 1,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27942",
+      "official_site_candidate": "https://www.dtribe.co.kr/",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27799",
+      "listing_title": "메이커빌",
+      "listed_date": "26.10.15",
+      "listing_page": 1,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27799",
+      "official_site_candidate": "https://www.makervil.com/en",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27872",
+      "listing_title": "이스틸포유",
+      "listed_date": "26.10.15",
+      "listing_page": 1,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27872",
+      "official_site_candidate": "https://home.esteel4u.com/",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27779",
+      "listing_title": "자연안에한의원",
+      "listed_date": "26.10.15",
+      "listing_page": 1,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27779",
+      "official_site_candidate": "https://www.ithn.co.kr/",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27831",
+      "listing_title": "SOOFONTS",
+      "listed_date": "26.10.14",
+      "listing_page": 1,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27831",
+      "official_site_candidate": "https://soofonts.com/",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27800",
+      "listing_title": "콕뭉치",
+      "listed_date": "26.10.14",
+      "listing_page": 1,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27800",
+      "official_site_candidate": "https://kokmoongchi.com",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27778",
+      "listing_title": "클로재의원",
+      "listed_date": "26.10.14",
+      "listing_page": 1,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27778",
+      "official_site_candidate": "https://www.clojaeclinic.com/",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27874",
+      "listing_title": "Two More Steps",
+      "listed_date": "26.10.13",
+      "listing_page": 1,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27874",
+      "official_site_candidate": "https://twomos.com/",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27828",
+      "listing_title": "새마을금고보험 홈페이지",
+      "listed_date": "26.10.13",
+      "listing_page": 1,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27828",
+      "official_site_candidate": "https://insure.kfcc.co.kr",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27809",
+      "listing_title": "옥정중앙역 디에트르 Ⅱ",
+      "listed_date": "26.10.13",
+      "listing_page": 1,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27809",
+      "official_site_candidate": "https://detre-ojop.co.kr/",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27794",
+      "listing_title": "서진시스템",
+      "listed_date": "26.10.13",
+      "listing_page": 1,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27794",
+      "official_site_candidate": "https://www.seojinsystem.net/",
+      "status": "official_site_found",
+      "catalog_exact_ids": [
+        "seojinsystem"
+      ]
+    },
+    {
+      "gdweb_id": "27795",
+      "listing_title": "무신사 기업웹사이트",
+      "listed_date": "26.10.12",
+      "listing_page": 1,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27795",
+      "official_site_candidate": "https://corp.musinsa.com/",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27796",
+      "listing_title": "카누 바리스타 챔피언십 한정판 신제품 마이크로사이트",
+      "listed_date": "26.10.12",
+      "listing_page": 1,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27796",
+      "official_site_candidate": "https://www.kanu.co.kr/limited-edition-2026kanubc",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27792",
+      "listing_title": "DR.A 하이엔드 오디오",
+      "listed_date": "26.10.12",
+      "listing_page": 1,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27792",
+      "official_site_candidate": "https://dr-a.co.kr/",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27746",
+      "listing_title": "Andre Font",
+      "listed_date": "26.10.08",
+      "listing_page": 1,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27746",
+      "official_site_candidate": "https://andrefont.com/",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27798",
+      "listing_title": "삼성전자 사회공헌 글로벌",
+      "listed_date": "26.10.08",
+      "listing_page": 1,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27798",
+      "official_site_candidate": "https://csr.samsung.com/en/",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27742",
+      "listing_title": "부산국제영화제",
+      "listed_date": "26.10.08",
+      "listing_page": 1,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27742",
+      "official_site_candidate": "https://www.biff.kr",
+      "status": "official_site_found",
+      "catalog_exact_ids": [
+        "biff"
+      ]
+    },
+    {
+      "gdweb_id": "27785",
+      "listing_title": "씨마크 호텔",
+      "listed_date": "26.10.07",
+      "listing_page": 1,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27785",
+      "official_site_candidate": "https://www.seamarqhotel.com/",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27784",
+      "listing_title": "더 플라자 다이닝",
+      "listed_date": "26.10.07",
+      "listing_page": 1,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27784",
+      "official_site_candidate": "https://www.theplazadining.com/",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27716",
+      "listing_title": "루아소프트",
+      "listed_date": "26.10.06",
+      "listing_page": 1,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27716",
+      "official_site_candidate": "https://luasoft.kr/",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27678",
+      "listing_title": "이퓨전아이",
+      "listed_date": "26.10.01",
+      "listing_page": 1,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27678",
+      "official_site_candidate": "https://www.efusioni.com/",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27676",
+      "listing_title": "KINORIA",
+      "listed_date": "26.10.01",
+      "listing_page": 1,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27676",
+      "official_site_candidate": "https://kinoria.studio/",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27673",
+      "listing_title": "로보트리에듀",
+      "listed_date": "26.09.30",
+      "listing_page": 1,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27673",
+      "official_site_candidate": "https://robotoriedu.com/",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27672",
+      "listing_title": "로보트리",
+      "listed_date": "26.09.30",
+      "listing_page": 1,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27672",
+      "official_site_candidate": "https://robotori.co.kr/",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27671",
+      "listing_title": "코오롱 워크웨어",
+      "listed_date": "26.09.30",
+      "listing_page": 1,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27671",
+      "official_site_candidate": "https://www.kolonworkwear.com/",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27669",
+      "listing_title": "RISE ETF",
+      "listed_date": "26.09.29",
+      "listing_page": 1,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27669",
+      "official_site_candidate": "https://kbam.co.kr/",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27666",
+      "listing_title": "한미그룹 채용 2026년",
+      "listed_date": "26.09.29",
+      "listing_page": 1,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27666",
+      "official_site_candidate": "https://2026recruitment.hanmi.co.kr/",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27665",
+      "listing_title": "웰크론",
+      "listed_date": "26.09.28",
+      "listing_page": 1,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27665",
+      "official_site_candidate": "https://welcrondefense.com/",
+      "status": "official_site_found",
+      "catalog_exact_ids": [
+        "welcron"
+      ]
+    },
+    {
+      "gdweb_id": "27664",
+      "listing_title": "카카오뱅크 인재영입",
+      "listed_date": "26.09.28",
+      "listing_page": 1,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27664",
+      "official_site_candidate": "https://recruit.kakaobank.com/",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27648",
+      "listing_title": "천만문화재단",
+      "listed_date": "26.09.28",
+      "listing_page": 1,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27648",
+      "official_site_candidate": "https://chunman.or.kr/",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27643",
+      "listing_title": "삼성드림이비인후과",
+      "listed_date": "26.09.23",
+      "listing_page": 1,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27643",
+      "official_site_candidate": "https://www.ssdream.co.kr/",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27593",
+      "listing_title": "코어플랫폼",
+      "listed_date": "26.09.23",
+      "listing_page": 1,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27593",
+      "official_site_candidate": "https://www.coreplatform.co.kr/",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27659",
+      "listing_title": "더현대서울",
+      "listed_date": "26.09.23",
+      "listing_page": 1,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27659",
+      "official_site_candidate": "https://thehyundaiseoul.ehyundai.com/",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27642",
+      "listing_title": "서울아트굿즈페스티벌",
+      "listed_date": "26.09.22",
+      "listing_page": 1,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27642",
+      "official_site_candidate": "https://www.sejongpac.or.kr/goods/goods2026/goodsMain.jsp",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27644",
+      "listing_title": "인스플래닛",
+      "listed_date": "26.09.22",
+      "listing_page": 1,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27644",
+      "official_site_candidate": "https://www.insplanet.co.kr/",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27600",
+      "listing_title": "에브리봇",
+      "listed_date": "26.09.22",
+      "listing_page": 1,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27600",
+      "official_site_candidate": "https://everybot.co.kr/",
+      "status": "official_site_found",
+      "catalog_exact_ids": [
+        "everybot"
+      ]
+    },
+    {
+      "gdweb_id": "27597",
+      "listing_title": "신유외과",
+      "listed_date": "26.09.21",
+      "listing_page": 1,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27597",
+      "official_site_candidate": "https://shinyuclinic.com/index.html",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27638",
+      "listing_title": "동남기업",
+      "listed_date": "26.09.21",
+      "listing_page": 1,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27638",
+      "official_site_candidate": "http://www.dongnamad.co.kr/DONGNAM/",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27636",
+      "listing_title": "LG CNS PhysicalWorks",
+      "listed_date": "26.09.21",
+      "listing_page": 1,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27636",
+      "official_site_candidate": "https://physicalworks.ai/",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27634",
+      "listing_title": "트리니티항공",
+      "listed_date": "26.09.18",
+      "listing_page": 1,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27634",
+      "official_site_candidate": "https://brand.trinityairways.com/kr/",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27590",
+      "listing_title": "아트파이",
+      "listed_date": "26.09.17",
+      "listing_page": 1,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27590",
+      "official_site_candidate": "https://artpieent.com/",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27591",
+      "listing_title": "봄결성형외과",
+      "listed_date": "26.09.17",
+      "listing_page": 1,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27591",
+      "official_site_candidate": "https://www.bomgyeol.co.kr/",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27589",
+      "listing_title": "힐로웨이브",
+      "listed_date": "26.09.16",
+      "listing_page": 1,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27589",
+      "official_site_candidate": "https://www.hilowave.co.kr/",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27604",
+      "listing_title": "인스턴트펑크",
+      "listed_date": "26.09.16",
+      "listing_page": 1,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27604",
+      "official_site_candidate": "https://instantfunk.kr/",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27594",
+      "listing_title": "매쓰플랫",
+      "listed_date": "26.09.16",
+      "listing_page": 1,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27594",
+      "official_site_candidate": "https://www.mathflat.com/",
+      "status": "official_site_found",
+      "catalog_exact_ids": [
+        "mathflat"
+      ]
+    },
+    {
+      "gdweb_id": "27570",
+      "listing_title": "리커너스",
+      "listed_date": "26.09.15",
+      "listing_page": 1,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27570",
+      "official_site_candidate": "https://www.reconers.com",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27582",
+      "listing_title": "소이정 메디랩",
+      "listed_date": "26.09.14",
+      "listing_page": 1,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27582",
+      "official_site_candidate": "https://medi.soijeong.com/",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27578",
+      "listing_title": "기가비스 주식회사",
+      "listed_date": "26.09.14",
+      "listing_page": 1,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27578",
+      "official_site_candidate": "https://www.gigavis.com/kr/main",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27571",
+      "listing_title": "디앤아이 한라 에피",
+      "listed_date": "26.09.11",
+      "listing_page": 1,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27571",
+      "official_site_candidate": "https://brand.hldni.com",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27569",
+      "listing_title": "장애예술창작공간 온마루",
+      "listed_date": "26.09.11",
+      "listing_page": 1,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27569",
+      "official_site_candidate": "https://asanonmaru.com",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27560",
+      "listing_title": "솔트룩스",
+      "listed_date": "26.09.10",
+      "listing_page": 1,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27560",
+      "official_site_candidate": "https://www.saltlux.com/",
+      "status": "official_site_found",
+      "catalog_exact_ids": [
+        "saltlux"
+      ]
+    },
+    {
+      "gdweb_id": "27554",
+      "listing_title": "리엣의원",
+      "listed_date": "26.09.10",
+      "listing_page": 1,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27554",
+      "official_site_candidate": "https://www.liet.co.kr/",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27559",
+      "listing_title": "현대산업개발",
+      "listed_date": "26.09.09",
+      "listing_page": 1,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27559",
+      "official_site_candidate": "https://ipark-dvp.com/",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27540",
+      "listing_title": "검단 센트레빌 그랑포레 티저",
+      "listed_date": "26.09.09",
+      "listing_page": 1,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27540",
+      "official_site_candidate": "https://www.centreville-grandforet.com",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27536",
+      "listing_title": "소이정",
+      "listed_date": "26.09.08",
+      "listing_page": 1,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27536",
+      "official_site_candidate": "https://soijeong.com/",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27526",
+      "listing_title": "지학사 2022개정 교과서 홍보",
+      "listed_date": "26.09.08",
+      "listing_page": 1,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27526",
+      "official_site_candidate": "https://textbook.jihak.co.kr/main_ele2025.php",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27544",
+      "listing_title": "웍스피어",
+      "listed_date": "26.09.07",
+      "listing_page": 1,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27544",
+      "official_site_candidate": "https://www.worxphere.ai/",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27535",
+      "listing_title": "롯데렌터카 G car",
+      "listed_date": "26.09.07",
+      "listing_page": 1,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27535",
+      "official_site_candidate": "https://www.greencar-gcar.co.kr/",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27527",
+      "listing_title": "풍산자 브랜드사이트",
+      "listed_date": "26.09.07",
+      "listing_page": 1,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27527",
+      "official_site_candidate": "https://pungsanja.com/",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27516",
+      "listing_title": "나인트리 바이 파르나스",
+      "listed_date": "26.09.04",
+      "listing_page": 2,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27516",
+      "official_site_candidate": "https://www.ninetreehotels.com/ko/hub",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27515",
+      "listing_title": "나인원랩스",
+      "listed_date": "26.09.03",
+      "listing_page": 2,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27515",
+      "official_site_candidate": "https://www.nineonelabs.co.kr/",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27483",
+      "listing_title": "셀파크피부과의",
+      "listed_date": "26.09.03",
+      "listing_page": 2,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27483",
+      "official_site_candidate": "https://www.cellparkclinic.com/",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27510",
+      "listing_title": "비에이티",
+      "listed_date": "26.09.01",
+      "listing_page": 2,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27510",
+      "official_site_candidate": "https://batcrew.co.kr/",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27508",
+      "listing_title": "think thing thank",
+      "listed_date": "26.09.01",
+      "listing_page": 2,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27508",
+      "official_site_candidate": "https://thinkthingthank.com/",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27475",
+      "listing_title": "움버거앤윙스",
+      "listed_date": "26.08.31",
+      "listing_page": 2,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27475",
+      "official_site_candidate": "https://umburger.co.kr",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27478",
+      "listing_title": "한진칼",
+      "listed_date": "26.08.31",
+      "listing_page": 2,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27478",
+      "official_site_candidate": "https://www.hanjinkal.com/",
+      "status": "official_site_found",
+      "catalog_exact_ids": [
+        "hanjinkal"
+      ]
+    },
+    {
+      "gdweb_id": "27489",
+      "listing_title": "신세계V",
+      "listed_date": "26.08.28",
+      "listing_page": 2,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27489",
+      "official_site_candidate": "https://www.shinsegaev.com/",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27467",
+      "listing_title": "medium.hot",
+      "listed_date": "26.08.28",
+      "listing_page": 2,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27467",
+      "official_site_candidate": "https://mediumhot.work",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27462",
+      "listing_title": "여우비인터랙션",
+      "listed_date": "26.08.28",
+      "listing_page": 2,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27462",
+      "official_site_candidate": "https://www.yeowubie.com",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27477",
+      "listing_title": "삼성생명 다이렉트",
+      "listed_date": "26.08.27",
+      "listing_page": 2,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27477",
+      "official_site_candidate": "https://direct.samsunglife.com/",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27476",
+      "listing_title": "파르나스호텔",
+      "listed_date": "26.08.27",
+      "listing_page": 2,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27476",
+      "official_site_candidate": "https://www.parnashotel.com/",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27463",
+      "listing_title": "화천",
+      "listed_date": "26.08.26",
+      "listing_page": 2,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27463",
+      "official_site_candidate": "https://www.hwacheon.com/",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27470",
+      "listing_title": "토스임팩트",
+      "listed_date": "26.08.26",
+      "listing_page": 2,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27470",
+      "official_site_candidate": "https://toss.im/impact",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27458",
+      "listing_title": "토스",
+      "listed_date": "26.08.24",
+      "listing_page": 2,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27458",
+      "official_site_candidate": "https://toss.im/",
+      "status": "official_site_found",
+      "catalog_exact_ids": [
+        "toss",
+        "toss-logo"
+      ]
+    },
+    {
+      "gdweb_id": "27460",
+      "listing_title": "토스플레이스",
+      "listed_date": "26.08.24",
+      "listing_page": 2,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27460",
+      "official_site_candidate": "https://tossplace.com/",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27459",
+      "listing_title": "토스증권",
+      "listed_date": "26.08.24",
+      "listing_page": 2,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27459",
+      "official_site_candidate": "https://corp.tossinvest.com/ko",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27457",
+      "listing_title": "구다이글로벌",
+      "listed_date": "26.08.24",
+      "listing_page": 2,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27457",
+      "official_site_candidate": "https://www.goodai-global.com/",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27346",
+      "listing_title": "케이웨딩",
+      "listed_date": "26.08.21",
+      "listing_page": 2,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27346",
+      "official_site_candidate": "https://k-wedding.co.kr/",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27387",
+      "listing_title": "국립한국교통대학교 K-철도 교육",
+      "listed_date": "26.08.20",
+      "listing_page": 2,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27387",
+      "official_site_candidate": "https://ktiec.ut.ac.kr/",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27337",
+      "listing_title": "CUCKOO",
+      "listed_date": "26.08.20",
+      "listing_page": 2,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27337",
+      "official_site_candidate": "https://www.cuckoo.co.kr/",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27358",
+      "listing_title": "정원e샵",
+      "listed_date": "26.08.18",
+      "listing_page": 2,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27358",
+      "official_site_candidate": "https://www.jungoneshop.com/",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27392",
+      "listing_title": "AI최적화랩",
+      "listed_date": "26.08.18",
+      "listing_page": 2,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27392",
+      "official_site_candidate": "https://masstige.io/index.html",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27349",
+      "listing_title": "교보 라이프를래닛생명",
+      "listed_date": "26.08.14",
+      "listing_page": 2,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27349",
+      "official_site_candidate": "https://www.lifeplanet.co.kr/",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27413",
+      "listing_title": "뷰전",
+      "listed_date": "26.08.13",
+      "listing_page": 2,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27413",
+      "official_site_candidate": "https://vsion.global/",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27404",
+      "listing_title": "포스코플로우",
+      "listed_date": "26.08.12",
+      "listing_page": 2,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27404",
+      "official_site_candidate": "https://www.poscoflow.com/",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27391",
+      "listing_title": "스튜디오 엑스랩",
+      "listed_date": "26.08.12",
+      "listing_page": 2,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27391",
+      "official_site_candidate": "https://www.studioxlab.co.kr/",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27394",
+      "listing_title": "사담재",
+      "listed_date": "26.08.11",
+      "listing_page": 2,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27394",
+      "official_site_candidate": "https://sadamjae.com/",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27380",
+      "listing_title": "써밋 클라비온",
+      "listed_date": "26.08.11",
+      "listing_page": 2,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27380",
+      "official_site_candidate": "https://summitclavion.com/",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27386",
+      "listing_title": "도아 DOA",
+      "listed_date": "26.08.10",
+      "listing_page": 2,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27386",
+      "official_site_candidate": "https://e-doa.co.kr/",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27368",
+      "listing_title": "NHN클라우드",
+      "listed_date": "26.08.10",
+      "listing_page": 2,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27368",
+      "official_site_candidate": "https://www.nhncloud.com/kr",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27348",
+      "listing_title": "빨간펜",
+      "listed_date": "26.08.10",
+      "listing_page": 2,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27348",
+      "official_site_candidate": "https://www.kyowonedu.com/",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27336",
+      "listing_title": "one grove",
+      "listed_date": "26.08.07",
+      "listing_page": 2,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27336",
+      "official_site_candidate": "https://www.onegrove.kr/",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27352",
+      "listing_title": "언플러",
+      "listed_date": "26.08.06",
+      "listing_page": 2,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27352",
+      "official_site_candidate": "https://www.onflou.com/",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27355",
+      "listing_title": "코오롱몰",
+      "listed_date": "26.08.05",
+      "listing_page": 2,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27355",
+      "official_site_candidate": "https://www.kolonmall.com/",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27359",
+      "listing_title": "이화여자대학교",
+      "listed_date": "26.08.05",
+      "listing_page": 2,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27359",
+      "official_site_candidate": "https://www.ewha.ac.kr/",
+      "status": "official_site_found",
+      "catalog_exact_ids": [
+        "ewha-ac"
+      ]
+    },
+    {
+      "gdweb_id": "27344",
+      "listing_title": "제니하우스",
+      "listed_date": "26.08.05",
+      "listing_page": 2,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27344",
+      "official_site_candidate": "https://www.jennyhouse.co.kr/index.php",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27370",
+      "listing_title": "엔코스",
+      "listed_date": "26.08.04",
+      "listing_page": 2,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27370",
+      "official_site_candidate": "https://www.ancors.co.kr/",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27367",
+      "listing_title": "삼성서울병원 영문",
+      "listed_date": "26.08.03",
+      "listing_page": 2,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27367",
+      "official_site_candidate": "https://www.samsunghospital.com/en/",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27351",
+      "listing_title": "K뉴딜아카데미",
+      "listed_date": "26.07.31",
+      "listing_page": 2,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27351",
+      "official_site_candidate": "https://knda.korchamhrd.net/",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27341",
+      "listing_title": "불닭닷컴",
+      "listed_date": "26.07.31",
+      "listing_page": 2,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27341",
+      "official_site_candidate": "https://buldak.com/kr/",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27342",
+      "listing_title": "크림",
+      "listed_date": "26.07.30",
+      "listing_page": 2,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27342",
+      "official_site_candidate": "https://www.crea-m.com/",
+      "status": "official_site_found",
+      "catalog_exact_ids": [
+        "kream-co"
+      ]
+    },
+    {
+      "gdweb_id": "27313",
+      "listing_title": "영림프라임창호",
+      "listed_date": "26.07.30",
+      "listing_page": 2,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27313",
+      "official_site_candidate": "http://ylchem.co.kr",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27325",
+      "listing_title": "센트레빌 아스테이룸 거제",
+      "listed_date": "26.07.29",
+      "listing_page": 2,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27325",
+      "official_site_candidate": "https://xn--v69aw3t99ak5in9d1rcn6g6ods3d556ajsd.com/",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27320",
+      "listing_title": "모리스",
+      "listed_date": "26.07.29",
+      "listing_page": 2,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27320",
+      "official_site_candidate": "https://morris.co.kr/",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27338",
+      "listing_title": "이스트소프트",
+      "listed_date": "26.07.29",
+      "listing_page": 2,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27338",
+      "official_site_candidate": "https://estsoft.ai/",
+      "status": "official_site_found",
+      "catalog_exact_ids": [
+        "estsoftai"
+      ]
+    },
+    {
+      "gdweb_id": "27332",
+      "listing_title": "밀크T초등 바로체험",
+      "listed_date": "26.07.28",
+      "listing_page": 2,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27332",
+      "official_site_candidate": "https://web.milkt.co.kr/",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27312",
+      "listing_title": "퓨어글로벌",
+      "listed_date": "26.07.28",
+      "listing_page": 2,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27312",
+      "official_site_candidate": "https://thepureglobal.com/",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27322",
+      "listing_title": "크리에이츠",
+      "listed_date": "26.07.28",
+      "listing_page": 2,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27322",
+      "official_site_candidate": "https://mycreatz.com/",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27311",
+      "listing_title": "브리비",
+      "listed_date": "26.07.23",
+      "listing_page": 2,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27311",
+      "official_site_candidate": "https://brivyy.co.kr/",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27306",
+      "listing_title": "모두의매트",
+      "listed_date": "26.07.23",
+      "listing_page": 2,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27306",
+      "official_site_candidate": "https://modoomat.com",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27314",
+      "listing_title": "더 신라",
+      "listed_date": "26.07.22",
+      "listing_page": 2,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27314",
+      "official_site_candidate": "https://www.shillahotels.com/",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27309",
+      "listing_title": "KIM SEUNGHYUK PORTFOLIO",
+      "listed_date": "26.07.21",
+      "listing_page": 2,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27309",
+      "official_site_candidate": "https://seunghyuk.com",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27304",
+      "listing_title": "한국전광",
+      "listed_date": "26.07.21",
+      "listing_page": 2,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27304",
+      "official_site_candidate": "https://keoc.kr/",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27290",
+      "listing_title": "윌비랩",
+      "listed_date": "26.07.16",
+      "listing_page": 2,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27290",
+      "official_site_candidate": "https://willbe-lab.co.kr/",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27269",
+      "listing_title": "더샵천안라크원",
+      "listed_date": "26.07.16",
+      "listing_page": 2,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27269",
+      "official_site_candidate": "https://더샵천안라크원.kr",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27289",
+      "listing_title": "한빛산업",
+      "listed_date": "26.07.16",
+      "listing_page": 2,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27289",
+      "official_site_candidate": "https://hanvit-ind.com/",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27294",
+      "listing_title": "대한항공",
+      "listed_date": "26.07.15",
+      "listing_page": 2,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27294",
+      "official_site_candidate": "https://www.koreanair.com/",
+      "status": "official_site_found",
+      "catalog_exact_ids": [
+        "koreanair"
+      ]
+    },
+    {
+      "gdweb_id": "27293",
+      "listing_title": "케이뱅크",
+      "listed_date": "26.07.15",
+      "listing_page": 2,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27293",
+      "official_site_candidate": "https://www.kbanknow.com/",
+      "status": "official_site_found",
+      "catalog_exact_ids": [
+        "kbank",
+        "kbank-co"
+      ]
+    },
+    {
+      "gdweb_id": "27282",
+      "listing_title": "유니클로",
+      "listed_date": "26.07.15",
+      "listing_page": 2,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27282",
+      "official_site_candidate": "https://www.uniqlo.com/kr/ko/",
+      "status": "official_site_found",
+      "catalog_exact_ids": [
+        "uniqlo"
+      ]
+    },
+    {
+      "gdweb_id": "27281",
+      "listing_title": "SM 오디션",
+      "listed_date": "26.07.15",
+      "listing_page": 3,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27281",
+      "official_site_candidate": "https://audition.smtown.com/",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27283",
+      "listing_title": "케빈스룸",
+      "listed_date": "26.07.14",
+      "listing_page": 3,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27283",
+      "official_site_candidate": "https://www.kevinsroom.co.kr/",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27284",
+      "listing_title": "카랩",
+      "listed_date": "26.07.13",
+      "listing_page": 3,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27284",
+      "official_site_candidate": "https://carlab.kr/",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27262",
+      "listing_title": "밝은성모안과",
+      "listed_date": "26.07.13",
+      "listing_page": 3,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27262",
+      "official_site_candidate": "https://oklasik.com/",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27276",
+      "listing_title": "신한퓨처스랩",
+      "listed_date": "26.07.13",
+      "listing_page": 3,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27276",
+      "official_site_candidate": "https://futureslab.kr/",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27273",
+      "listing_title": "스튜디오카일",
+      "listed_date": "26.07.13",
+      "listing_page": 3,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27273",
+      "official_site_candidate": "https://www.studiokyle.kr/",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27267",
+      "listing_title": "NYPC",
+      "listed_date": "26.07.10",
+      "listing_page": 3,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27267",
+      "official_site_candidate": "https://new.nypc.co.kr/",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27252",
+      "listing_title": "NanoH2O",
+      "listed_date": "26.07.09",
+      "listing_page": 3,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27252",
+      "official_site_candidate": "https://www.nanoh2owater.com/",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27268",
+      "listing_title": "제네시스",
+      "listed_date": "26.07.09",
+      "listing_page": 3,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27268",
+      "official_site_candidate": "https://www.genesis.com/kr/ko",
+      "status": "official_site_found",
+      "catalog_exact_ids": [
+        "genesis"
+      ]
+    },
+    {
+      "gdweb_id": "27244",
+      "listing_title": "바이럼세럼",
+      "listed_date": "26.07.08",
+      "listing_page": 3,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27244",
+      "official_site_candidate": "https://www.project-pef.com/",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27207",
+      "listing_title": "킹콩애드",
+      "listed_date": "26.07.08",
+      "listing_page": 3,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27207",
+      "official_site_candidate": "https://www.kingkong-ad.com/",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27226",
+      "listing_title": "청주 푸르지오 씨엘리",
+      "listed_date": "26.07.08",
+      "listing_page": 3,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27226",
+      "official_site_candidate": "https://www.prugio.com/hb/2026/cieliche/",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27229",
+      "listing_title": "금요미식회",
+      "listed_date": "26.07.07",
+      "listing_page": 3,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27229",
+      "official_site_candidate": "https://vendredigourmand.com/",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27223",
+      "listing_title": "원강금속",
+      "listed_date": "26.07.07",
+      "listing_page": 3,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27223",
+      "official_site_candidate": "http://www.wonkangmetal.co.kr/",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27227",
+      "listing_title": "펜타힐즈 더블유",
+      "listed_date": "26.07.07",
+      "listing_page": 3,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27227",
+      "official_site_candidate": "https://pentahillsw.co.kr/",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27225",
+      "listing_title": "theclav60",
+      "listed_date": "26.07.07",
+      "listing_page": 3,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27225",
+      "official_site_candidate": "https://theclav60.com/",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27178",
+      "listing_title": "티케이 병원 홈페이지",
+      "listed_date": "26.07.07",
+      "listing_page": 3,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27178",
+      "official_site_candidate": "https://www.toptk.co.kr/",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27233",
+      "listing_title": "바임",
+      "listed_date": "26.07.06",
+      "listing_page": 3,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27233",
+      "official_site_candidate": "https://juvelook.com ",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27212",
+      "listing_title": "애드웰",
+      "listed_date": "26.07.02",
+      "listing_page": 3,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27212",
+      "official_site_candidate": "https://www.addwel.co.kr/",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27206",
+      "listing_title": "드파인 아르티아",
+      "listed_date": "26.07.01",
+      "listing_page": 3,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27206",
+      "official_site_candidate": "https://altia.skdefine.com/",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27208",
+      "listing_title": "더 리치먼드 리버센트 소양",
+      "listed_date": "26.07.01",
+      "listing_page": 3,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27208",
+      "official_site_candidate": "https://더리치먼드리버센트소양.com",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27209",
+      "listing_title": "드파인 연희",
+      "listed_date": "26.07.01",
+      "listing_page": 3,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27209",
+      "official_site_candidate": "https://yh.skdefine.com/",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27210",
+      "listing_title": "챔피언스시티(티저)",
+      "listed_date": "26.07.01",
+      "listing_page": 3,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27210",
+      "official_site_candidate": "https://championscity.co.kr/",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27185",
+      "listing_title": "피치월드",
+      "listed_date": "26.06.26",
+      "listing_page": 3,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27185",
+      "official_site_candidate": "https://pichiworld.co.kr/",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27171",
+      "listing_title": "towards",
+      "listed_date": "26.06.25",
+      "listing_page": 3,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27171",
+      "official_site_candidate": "https://towards.co.kr",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27183",
+      "listing_title": "카카오 지속가능성",
+      "listed_date": "26.06.24",
+      "listing_page": 3,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27183",
+      "official_site_candidate": "https://sustainability.kakao.com/",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27179",
+      "listing_title": "KT폰교체센터 웹사이",
+      "listed_date": "26.06.24",
+      "listing_page": 3,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27179",
+      "official_site_candidate": "https://www.ktphonechange.com/",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27160",
+      "listing_title": "더씨앤엠",
+      "listed_date": "26.06.24",
+      "listing_page": 3,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27160",
+      "official_site_candidate": "https://www.creativemore.co.kr/",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27170",
+      "listing_title": "Susie & Jay",
+      "listed_date": "26.06.24",
+      "listing_page": 3,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27170",
+      "official_site_candidate": "https://wedding.jongjeonglee.com/",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27163",
+      "listing_title": "현대트랜시스",
+      "listed_date": "26.06.23",
+      "listing_page": 3,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27163",
+      "official_site_candidate": "https://www.hyundai-transys.com/",
+      "status": "official_site_found",
+      "catalog_exact_ids": [
+        "hyundai-transys"
+      ]
+    },
+    {
+      "gdweb_id": "27158",
+      "listing_title": "나니아랩스",
+      "listed_date": "26.06.23",
+      "listing_page": 3,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27158",
+      "official_site_candidate": "https://narnia.ai/",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27149",
+      "listing_title": "도루코",
+      "listed_date": "26.06.22",
+      "listing_page": 3,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27149",
+      "official_site_candidate": "https://www.dorco.co.kr",
+      "status": "official_site_found",
+      "catalog_exact_ids": [
+        "dorcoglobal"
+      ]
+    },
+    {
+      "gdweb_id": "27156",
+      "listing_title": "서오릉피자",
+      "listed_date": "26.06.22",
+      "listing_page": 3,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27156",
+      "official_site_candidate": "https://seooreungpizza.com/",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27126",
+      "listing_title": "르엘 어퍼하우스",
+      "listed_date": "26.06.22",
+      "listing_page": 3,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27126",
+      "official_site_candidate": "https://le-el-upperhouse.co.kr/",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27150",
+      "listing_title": "아이파킹",
+      "listed_date": "26.06.19",
+      "listing_page": 3,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27150",
+      "official_site_candidate": "https://www.iparking.co.kr/",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27134",
+      "listing_title": "원안과",
+      "listed_date": "26.06.18",
+      "listing_page": 3,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27134",
+      "official_site_candidate": "https://www.oneretinaclinic.com/",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27129",
+      "listing_title": "크라운파크호텔",
+      "listed_date": "26.06.18",
+      "listing_page": 3,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27129",
+      "official_site_candidate": "https://www.crownparkhotel.co.kr",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27128",
+      "listing_title": "대웅바이오",
+      "listed_date": "26.06.18",
+      "listing_page": 3,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27128",
+      "official_site_candidate": "https://daewoongbio.co.kr",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27125",
+      "listing_title": "어반블루 피트니스",
+      "listed_date": "26.06.18",
+      "listing_page": 3,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27125",
+      "official_site_candidate": "https://www.urbanblue-fitness.com/",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27122",
+      "listing_title": "마이즈 스튜디오",
+      "listed_date": "26.06.18",
+      "listing_page": 3,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27122",
+      "official_site_candidate": "https://myz-studio.com/",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27121",
+      "listing_title": "스타트레일",
+      "listed_date": "26.06.17",
+      "listing_page": 3,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27121",
+      "official_site_candidate": "https://startrail.stellive.me/",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27120",
+      "listing_title": "코들",
+      "listed_date": "26.06.17",
+      "listing_page": 3,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27120",
+      "official_site_candidate": "https://ai.codle.io/kr",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27148",
+      "listing_title": "리틀리",
+      "listed_date": "26.06.17",
+      "listing_page": 3,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27148",
+      "official_site_candidate": "https://start.litt.ly/",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27147",
+      "listing_title": "넥슨 NDC",
+      "listed_date": "26.06.17",
+      "listing_page": 3,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27147",
+      "official_site_candidate": "https://ndc.nexon.com/",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27146",
+      "listing_title": "전주국제영화제",
+      "listed_date": "26.06.17",
+      "listing_page": 3,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27146",
+      "official_site_candidate": "https://www.jeonjufest.kr/",
+      "status": "official_site_found",
+      "catalog_exact_ids": [
+        "jiff"
+      ]
+    },
+    {
+      "gdweb_id": "27119",
+      "listing_title": "우리은행 소개",
+      "listed_date": "26.06.11",
+      "listing_page": 3,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27119",
+      "official_site_candidate": "https://spot.wooribank.com/pot/Dream?withyou=bp",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27111",
+      "listing_title": "윌비플레이",
+      "listed_date": "26.06.10",
+      "listing_page": 3,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27111",
+      "official_site_candidate": "https://www.wb-play.co.kr/",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "26998",
+      "listing_title": "아이브릭스",
+      "listed_date": "26.06.10",
+      "listing_page": 3,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=26998",
+      "official_site_candidate": "https://www.i-bricks.co.kr/",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27108",
+      "listing_title": "잇다소프트",
+      "listed_date": "26.06.09",
+      "listing_page": 3,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27108",
+      "official_site_candidate": "https://itddaa.com/",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27105",
+      "listing_title": "코나비즈",
+      "listed_date": "26.06.09",
+      "listing_page": 3,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27105",
+      "official_site_candidate": "https://konabizcard.com/",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27101",
+      "listing_title": "서울사이버대학교 입학지원센터",
+      "listed_date": "26.06.08",
+      "listing_page": 3,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27101",
+      "official_site_candidate": "https://apply.iscu.ac.kr/",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27104",
+      "listing_title": "비상교재 & 비상서점",
+      "listed_date": "26.06.08",
+      "listing_page": 3,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27104",
+      "official_site_candidate": "https://book.visang.com/",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27103",
+      "listing_title": "현대얼터너티브",
+      "listed_date": "26.06.08",
+      "listing_page": 3,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27103",
+      "official_site_candidate": "https://www.hyundaialternative.com/",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27099",
+      "listing_title": "시몬스",
+      "listed_date": "26.06.05",
+      "listing_page": 3,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27099",
+      "official_site_candidate": "https://www.simmons.co.kr/",
+      "status": "official_site_found",
+      "catalog_exact_ids": [
+        "simmons-bedding-company"
+      ]
+    },
+    {
+      "gdweb_id": "27082",
+      "listing_title": "이노컴즈",
+      "listed_date": "26.06.04",
+      "listing_page": 3,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27082",
+      "official_site_candidate": "https://www.inocoms.net/",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27077",
+      "listing_title": "말본골프",
+      "listed_date": "26.06.04",
+      "listing_page": 3,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27077",
+      "official_site_candidate": "https://malbongolfkorea.com/",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27073",
+      "listing_title": "젠스타메이트",
+      "listed_date": "26.06.04",
+      "listing_page": 3,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27073",
+      "official_site_candidate": "https://www.genstarmate.com/",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27076",
+      "listing_title": "고도몰",
+      "listed_date": "26.06.02",
+      "listing_page": 3,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27076",
+      "official_site_candidate": "https://www.godo.co.kr/",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27074",
+      "listing_title": "푸마",
+      "listed_date": "26.06.02",
+      "listing_page": 3,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27074",
+      "official_site_candidate": "https://kr.puma.com/",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    },
+    {
+      "gdweb_id": "27053",
+      "listing_title": "힌스",
+      "listed_date": "26.06.01",
+      "listing_page": 3,
+      "discovery_url": "https://www.gdweb.co.kr/sub/view.asp?str_no=27053",
+      "official_site_candidate": "https://hince.co.kr/",
+      "status": "official_site_found",
+      "catalog_exact_ids": []
+    }
+  ],
+  "catalog_snapshot_sha256": "6f65b648182eb5e6828dbfa09a45b390d38a8a9f4fcd5430dee0a7c87fd9bcac",
+  "dedup_scope": "Exact normalized name/alias in brands-slim snapshot only; CMS additions and project-to-brand identity still require review."
+}
