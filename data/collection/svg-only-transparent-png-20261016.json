@@ -1,0 +1,24 @@
+{
+  "status": "published_and_verified_2026-10-17",
+  "assetDirectory": "data/collection/svg-only-transparent-png-20261016-assets",
+  "verification": "Eight CMS rows updated; immutable source and both PNG aliases read back with exact SHA-256 from bucket/CDN. Six JPEG-backed SVGs remain held for replacement review.",
+  "selection": "Existing SVG-only logos in the supplied screenshot. Exact full-canvas white SVG shapes may be removed; all other artwork is retained. JPEG-backed SVGs are held for replacement review.",
+  "ready": [
+    {"id": "search-engine-land", "mode": "preserve-brand-blue-add-alpha-margin", "sourceSha256": "d8a8c585c3095531c06d9194386b9f42faf215b300dcc7cf97b8d19ff2c80c58", "pngSha256": "78318ee599c9b69a1649a33a2ed267b1e4c235137a6b0e05cd3828923f0b0397"},
+    {"id": "seattle-supersonics", "mode": "remove-exact-full-canvas-white", "sourceSha256": "b5dc3be0b8d50079bb53737f8d7af07946682164132095c785b0cf33f9a96f71", "pngSha256": "53fcdda545b6d4f586f0e73e8067f97ad946c398d411e887d9e80196e060f184"},
+    {"id": "seattle-storm", "mode": "remove-exact-full-canvas-white", "sourceSha256": "12e32b37cb2eda5de6fb678fb29e7785e1d0377fffb67686e87be3a22503adfc", "pngSha256": "3afaf24856740e49cca66a6bb9a0d64d4df49f12ec34f58a766e51f8526b3749"},
+    {"id": "seattle-thunderbirds", "mode": "remove-exact-full-canvas-white", "sourceSha256": "a4bba08ff1067c159b6d7a8aea957027d345b06556844dd3e62f49d00f7d22fa", "pngSha256": "836b0bbb83de8141c8d9bea50315005ca0984d5466adfe458f2610fa7a80d715"},
+    {"id": "seaworld", "mode": "remove-exact-full-canvas-white", "sourceSha256": "4f672240ada2da414373d954a2753f4086f28fab5bf7aa23c12d95257a969165", "pngSha256": "1a6a08a62d0ab5702c94a749b74a61cc0697f3249837db5cd19ed90b65f6a7b0"},
+    {"id": "seattleinsider", "mode": "remove-exact-full-canvas-white", "sourceSha256": "4e0f64f82b16b976f7cd6b0c9df65da14186f0a0ca67d7c0a902f9ee08a7ba83", "pngSha256": "45ddcf9c53c5e919802f0358127e1dd01073ef704c4e77d44212033ab9ba807d"},
+    {"id": "seato", "mode": "preserve-existing-alpha", "sourceSha256": "cd8e48ee2b5fafa1cc67d992140898272a4d82e3ac2db8c0fd43e510a0485990", "pngSha256": "ac28c32fdacf598ae0f930827190f0c0763caea9e2de756e0e0907edd789f263"},
+    {"id": "seattle-seahawks-2", "mode": "preserve-existing-alpha", "sourceSha256": "f83a4e1610eae364ec09eedc30bb208fd0b61deb39a67c10f0636302883d46b2", "pngSha256": "4eaf16c8f70f668c768b4f49e33a2edd322e6f50d69bd915209e439f15e8a478"}
+  ],
+  "reviewHold": [
+    {"id": "seattle-supersonics-1", "sourceSha256": "8dfe006bc86900e0f3f239a25776637074c20196451381d343e910e5ec568ba6", "reason": "SVG wraps a low-resolution JPEG"},
+    {"id": "seattle-supersonics-2", "sourceSha256": "aca18d60a1b4f0f656a5733914d969c42194b8a301aa3cc9893eb50c2bd89627", "reason": "SVG wraps a low-resolution JPEG"},
+    {"id": "seattle-supersonics-3", "sourceSha256": "88e6ac006d6fc40ee813290ae842e6afd519b1a4455c30ae6770270109bfaf25", "reason": "SVG wraps a low-resolution JPEG"},
+    {"id": "seat-4", "sourceSha256": "c77111e4857cf3b4fa37bad7564e5a4bd6ac2ea757c1a382018635bedd18b0cb", "reason": "SVG wraps a low-resolution JPEG"},
+    {"id": "seattle-metropolitans-1", "sourceSha256": "e48e542f964f0c8d147287312a8f3fef92bd299767f431c9fba0686c03315114", "reason": "SVG wraps a low-resolution JPEG; white artwork and background overlap"},
+    {"id": "seattle-metropolitans", "sourceSha256": "fbab70ab32af54f0f80938bb7aff5116164b1257b1c11a82a7b1b313ae9ca95e", "reason": "SVG wraps a low-resolution JPEG; white artwork and background overlap"}
+  ]
+}
