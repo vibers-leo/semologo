@@ -5,6 +5,7 @@ import hashlib
 import io
 import json
 import re
+import gzip
 from collections import defaultdict
 from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
@@ -64,11 +65,16 @@ def fetch(row):
     try:
         request = Request(url, headers={'User-Agent': 'Mozilla/5.0 SemoLogo-official-CI-review'})
         with urlopen(request, timeout=15) as response:
-            body = response.read(2_000_001)
-        if len(body) > 2_000_000 or b'<svg' not in body[:2048].lower():
+            body = response.read(150_001)
+        if len(body) > 150_000 or b'<svg' not in body[:2048].lower():
             raise ValueError('not a bounded SVG')
+        compressed_size = len(gzip.compress(body, compresslevel=9)) if len(body) > 20_000 else 0
+        if compressed_size > 45_000:
+            raise ValueError('SVG exceeds bounded worker result')
         png = cairosvg.svg2png(bytestring=body, output_width=500, output_height=300)
         result['expectedSha256'] = hashlib.sha256(body).hexdigest()
+        result['originalBytes'] = len(body)
+        result['compressedBytes'] = compressed_size
         result['preview'] = Image.open(io.BytesIO(png)).convert('RGBA')
         return result
     except Exception as exc:
