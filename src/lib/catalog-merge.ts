@@ -11,10 +11,18 @@ export function createCatalogMerger(submissions: Brand[], supplements: Brand[]) 
     const merged = new Map([...catalog, ...submitted,
       ...supplements.filter(brand => !submittedIds.has(brand.id)),
     ].map(brand => [brand.id, brand]));
-    // Reviewed catalog data stays authoritative; newly published CMS records remain searchable.
+    // Reviewed catalog data stays authoritative unless a CMS correction explicitly
+    // replaces a proven-wrong legacy asset. Keep the catalog's ranking/history fields.
     for (const brand of cms) {
       const reviewed = merged.get(brand.id);
       if (!reviewed) merged.set(brand.id, brand);
+      else if (brand.catalog_override === true && typeof brand.logo_png === 'string') {
+        merged.set(brand.id, {
+          ...reviewed, ...brand,
+          seq: reviewed.seq, fame: reviewed.fame, added_at: reviewed.added_at,
+          origin: brand.origin ?? reviewed.origin,
+        });
+      }
       else if (brand.logo_published_at && Number.isFinite(Date.parse(brand.logo_published_at))) {
         merged.set(brand.id, { ...reviewed, logo_published_at: brand.logo_published_at });
       }
