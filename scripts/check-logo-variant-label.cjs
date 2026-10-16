@@ -9,6 +9,8 @@ const reviewed = { form: 'horizontal', lockup: 'wordmark', text_layout: 'ko-en-v
 assert.equal(logoVariantForm(reviewed), 'wordmark');
 assert.equal(logoVariantLabel(reviewed), '로고타입 · 국영문 상하조합 · 공식 국영문');
 assert.equal(logoVariantForm({ form: 'vertical' }), 'vertical');
+assert.equal(logoVariantForm({ form: 'wordmark', label: '심볼+워드마크 (가로형)' }), 'horizontal');
+assert.equal(logoVariantForm({ form: 'wordmark', label: '심볼+워드마크 (세로형)' }), 'vertical');
 assert.equal(logoVariantLabel({ form: 'horizontal', label: '가로조합형', text_layout: 'ko-en-horizontal' }), '국영문 좌우조합 · 가로조합형');
 assert.equal(logoVariantLabel({ form: 'symbol', label: '심볼마크', text_layout: 'none' }), '심볼마크');
 console.log('PASS: reviewed lockup overrides legacy form; text arrangement and official labels survive.');

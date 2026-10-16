@@ -7,7 +7,14 @@ export const logoFormLabels: Record<VariantForm, string> = {
 
 // Explicitly reviewed lockups take precedence over legacy aspect-based classification.
 export function logoVariantForm(variant: VariantRecord): VariantForm {
-  return (variant.lockup && variant.lockup !== 'unknown' ? variant.lockup : variant.form) || 'unknown';
+  if (variant.lockup && variant.lockup !== 'unknown') return variant.lockup;
+  // Legacy imports sometimes call a complete symbol + wordmark signature a
+  // "wordmark". Its own explicit label is safer than that coarse form tag.
+  if (/심볼\s*[+＋]\s*(?:워드마크|로고타입|텍스트)/.test(variant.label || '')) {
+    if (/가로|좌우/.test(variant.label)) return 'horizontal';
+    if (/세로|상하/.test(variant.label)) return 'vertical';
+  }
+  return variant.form || 'unknown';
 }
 
 const textLabels = {
