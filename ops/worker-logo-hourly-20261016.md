@@ -37,3 +37,9 @@ Vaxcyte, Lantheus, JBT Marel, Novanta 네 곳은 공식 사이트 명칭·벡터
 ## 08:42 KST 예약 회차
 
 정기 timer가 별도 수동 개입 없이 Kontoor Brands·RXO(win-01), Denali Therapeutics·Kinetik(win-02)을 제출했고 4/4 완료했다. 비공개 manifest와 원본 해시, 공식 원본의 현재 바이트, SVG 안전성·시각 상태, 기존 게시물 중복을 검증한 뒤 4개 신규 로고 콘텐츠를 게시했다. 각 기업의 SVG·PNG·brand.json·variants.json과 상세 페이지가 모두 HTTP 200이며 공개 합계는 181,831건이다. 새 네 곳도 확인된 가로 조합형 1종이므로 4종 완성으로 집계하지 않는다. 출처 목록 159개 중 미시도는 해당 제출 직후 30개였다.
+
+## 21:50–22:10 KST 공식 CI 출처 확대와 5분 주기
+
+기존 국내 공식 CI 페이지 목록에서 미점검 968곳을 추가 스캔해 1,626곳의 직접 파일 링크 상태를 보관했다. SVG 검토 시트에서 31개(r38), 81개(r39), 69개(r40)를 승인했으나 HTTP 전용/인증서 불일치 8개를 최종 목록에서 보류했다. 최종 r41 허용 목록은 기존 320개를 포함한 493개이며 `data/collection/semologo-official-worker-roster-r41.json`에 저장했다. Windows 배포 파일의 출처 목록 SHA-256은 이 파일과 일치한다. 다른 자동 업데이트가 배포한 r42 런타임에서도 동일한 493개 목록 해시를 확인했다.
+
+`ops/fleet-collection/`에 실제 서버에 적용한 runner·service·timer·shell 원본을 보관했다. timer는 매 5분, runner는 PC당 최대 16개, 실패는 출처당 한 번만 재시도한다. 배포 직후 win-01·win-02에서 목록 버전을 진단한 뒤 주기를 재개했다. `check-deploy.sh`는 `vibers-fleet` running, restarts=0, HTTP 200, `DEPLOY OK`였다. 이 회차의 성공 manifest도 전부 비공개 원본 수집이며 공개 브랜드 수에 합산하지 않는다. 최초 수집 중 HTTP 출처가 실패한 기록은 남아 있고 HTTPS 검증 뒤 재시도 대기 중이다.

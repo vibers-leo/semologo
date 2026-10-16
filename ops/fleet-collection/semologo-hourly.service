@@ -1,0 +1,9 @@
+[Unit]
+Description=SemoLogo hourly official-source collection and status report
+After=docker.service
+Requires=docker.service
+
+[Service]
+Type=oneshot
+ExecStart=/bin/bash /root/projects/vibers-fleet/semologo-hourly.sh
+TimeoutStartSec=90
