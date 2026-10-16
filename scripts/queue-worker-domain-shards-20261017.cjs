@@ -53,14 +53,25 @@ async function rows(shard,offset,count){
 }
 
 async function main(){
- const client=await pool.connect(),queued=[];
+ const client=await pool.connect(),queued=[],recovered=[];
  try{
   await client.query('BEGIN');await client.query("SELECT pg_advisory_xact_lock(hashtextextended('semologo-domain-r45-schedule',0))");
+  // A lost lease is moved to review_required by the fleet reaper. With no
+  // result or active lease it can be retried once; further timeouts remain for
+  // human review, avoiding an infinite claim/reaper loop.
+  const stalled=await client.query(`UPDATE fleet.job SET status='queued'
+    WHERE tenant='internal' AND project='semologo' AND kind='semologo-domain-discover'
+      AND status='review_required' AND result IS NULL AND lease_token IS NULL
+      AND lease_until IS NULL AND attempt=1 AND created_at<now()-interval '5 minutes'
+    RETURNING id,owner,request_key`);
+  recovered.push(...stalled.rows);
   for(const owner of ['win-01','win-02']){
    const prefix=`semologo-bulk-r45-${owner.replace('-','')}-`;
    const current=await client.query("SELECT count(*)::int AS n FROM fleet.job WHERE tenant='internal' AND project='semologo' AND kind='semologo-domain-discover' AND owner=$1 AND request_key LIKE $2",[owner,prefix+'%']);
    const active=await client.query("SELECT project,kind,status FROM fleet.job WHERE tenant='internal' AND owner=$1 AND status IN ('queued','running','review_required')",[owner]);
-   const other=active.rows.filter(x=>x.kind!=='semologo-domain-discover');
+   // Queued work in another project should not stop this bounded feeder for
+   // hours; the worker cycles projects and the fleet claim stays serialized.
+   const other=active.rows.filter(x=>x.kind!=='semologo-domain-discover'&&x.status!=='queued');
    const pending=active.rows.filter(x=>x.kind==='semologo-domain-discover'&&x.status==='queued').length;
    if(other.length||pending>=MAX_QUEUED){queued.push({owner,skipped:other.length?'other-work-active':'queue-full',pending});continue;}
    for(let slot=pending;slot<MAX_QUEUED;slot++){
@@ -85,7 +96,7 @@ async function main(){
    }
   }
   await client.query(apply?'COMMIT':'ROLLBACK');
-  console.log(JSON.stringify({at:new Date().toISOString(),apply,queued}));
+  console.log(JSON.stringify({at:new Date().toISOString(),apply,recovered,queued}));
  }catch(error){await client.query('ROLLBACK');throw error;}finally{client.release();}
 }
 main().finally(async()=>{store.destroy();await pool.end()}).catch(error=>{console.error(error.message);process.exitCode=1});
