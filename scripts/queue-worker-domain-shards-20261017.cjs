@@ -20,7 +20,7 @@ const SHARDS={
  ],
 };
 const startOffset={'win-01':3012,'win-02':12}; // Earlier Mac and Windows pilot ranges.
-const BATCH=12,MAX_QUEUED=2,COMMIT='94e005686f358cae36b7fd7d6197cf89b501c0ec';
+const BATCH=12,MAX_QUEUED=2,COMMIT='c3373ce494a68dfa96974e91411d93ac00ebd634';
 const digest=b=>createHash('sha256').update(b).digest('hex');
 const canonical=x=>Array.isArray(x)?`[${x.map(canonical).join(',')}]`:x&&typeof x==='object'?`{${Object.keys(x).sort().map(k=>JSON.stringify(k)+':'+canonical(x[k])).join(',')}}`:JSON.stringify(x);
 const apply=process.argv.includes('--apply');
@@ -41,10 +41,13 @@ async function rows(shard,offset,count){
  const result=[];
  for(let i=0;i<count;i++){
   const end=raw.indexOf('\n',from);if(end<0)throw Error('Seed batch truncated');
-  const line=raw.slice(from,end).replace(/\r$/,'');const domain=line.slice(line.lastIndexOf(',')+1).toLowerCase();
-  if(!/^(?=.{4,253}$)(?:[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?\.)+[a-z]{2,24}$/.test(domain))throw Error('Invalid seed domain');
-  result.push(domain);from=end+1;
+  const line=raw.slice(from,end).replace(/\r$/,'');const domain=line.slice(line.lastIndexOf(',')+1).toLowerCase();from=end+1;
+  // The deployed worker accepts ASCII-letter TLDs only.  Skip unsupported
+  // IDNA and malformed rows so a single corpus entry cannot stall the feed.
+  if(!/^(?=.{4,253}$)(?:[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?\.)+[a-z]{2,24}$/.test(domain))continue;
+  result.push(domain);
  }
+ if(!result.length)throw Error('Seed batch contains no valid domains');
  if(new Set(result).size!==result.length)throw Error('Duplicate seed domain');
  return result;
 }

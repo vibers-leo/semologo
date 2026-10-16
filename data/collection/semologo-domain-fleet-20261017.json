@@ -10,15 +10,70 @@
   "serverImageSha256": "5c3d30f446e95db95e21bbe6692dfcfc8cda2d316e9ba0bd420671c243042da0",
   "workerHandoffSha256": "2b84679c4afcfc5b1b5eaa4fc7683a4ffe9f46ade73b7fa3b3527a01ebf951b6",
   "workerVersion": "20261017-semologo-domain-r45",
-  "workerVersionVerified": ["win-01", "win-02"],
-  "pilotJobs": [
-    {"worker": "win-01", "jobId": "96861c68-76b0-48c4-8a35-4ed21f5b0e7a", "status": "succeeded", "domains": 12, "candidateDomains": 2, "manifestKey": "automation/v1/tenants/internal/projects/semologo/runs/96861c68-76b0-48c4-8a35-4ed21f5b0e7a/1/fc4e93e5bd75705f8fea7c9c71194d519d0403a68bf0ec55732aeb0891f153ce.manifest.json"},
-    {"worker": "win-02", "jobId": "00111da4-5469-4c79-a642-bff3063a56b5", "status": "succeeded", "domains": 12, "candidateDomains": 3, "manifestKey": "automation/v1/tenants/internal/projects/semologo/runs/00111da4-5469-4c79-a642-bff3063a56b5/1/3e7e5d6d1795346dbdcdccf6d158826464a6887bf4689cb649dd5b121639caa4.manifest.json"}
+  "workerVersionVerified": [
+    "win-01",
+    "win-02"
   ],
-  "timer": {"name": "semologo-domain-discover.timer", "intervalMinutes": 1, "maxQueuedJobsPerWorker": 2, "enabled": true},
-  "cmsNewBrandsThisRun": 34,
-  "cmsTotalAfterPublication": 181888,
+  "pilotJobs": [
+    {
+      "worker": "win-01",
+      "jobId": "96861c68-76b0-48c4-8a35-4ed21f5b0e7a",
+      "status": "succeeded",
+      "domains": 12,
+      "candidateDomains": 2,
+      "manifestKey": "automation/v1/tenants/internal/projects/semologo/runs/96861c68-76b0-48c4-8a35-4ed21f5b0e7a/1/fc4e93e5bd75705f8fea7c9c71194d519d0403a68bf0ec55732aeb0891f153ce.manifest.json"
+    },
+    {
+      "worker": "win-02",
+      "jobId": "00111da4-5469-4c79-a642-bff3063a56b5",
+      "status": "succeeded",
+      "domains": 12,
+      "candidateDomains": 3,
+      "manifestKey": "automation/v1/tenants/internal/projects/semologo/runs/00111da4-5469-4c79-a642-bff3063a56b5/1/3e7e5d6d1795346dbdcdccf6d158826464a6887bf4689cb649dd5b121639caa4.manifest.json"
+    }
+  ],
+  "timer": {
+    "name": "semologo-domain-discover.timer",
+    "intervalMinutes": 1,
+    "maxQueuedJobsPerWorker": 2,
+    "enabled": true
+  },
+  "cmsNewBrandsThisRun": 64,
+  "cmsTotalAfterPublication": 181918,
   "cmsLatestApiVerified": true,
-  "cmsDetailPagesVerified": 34,
-  "windowsCandidatesPublished": ["gemeinde-dornstadt", "huxam", "soldiers-mothers-st-petersburg"]
+  "cmsDetailPagesVerified": 64,
+  "windowsCandidatesPublished": [
+    "gemeinde-dornstadt",
+    "huxam",
+    "soldiers-mothers-st-petersburg",
+    "delpha",
+    "greenlight-locker",
+    "axissoft",
+    "vody",
+    "global-mobility-services",
+    "dataorigin",
+    "european-association-of-social-psychology",
+    "parknyc",
+    "offener-haushalt",
+    "praha-kunratice",
+    "collectivites-locales",
+    "domjudge",
+    "ringq"
+  ],
+  "macTrancoFollowup": {
+    "scannedDomains": 1000,
+    "assetFoundReviewRequired": 214,
+    "reviewedAndPublished": 17,
+    "manifest": "data/collection/mac-tranco-followup-20261017.json"
+  },
+  "windowsFollowup": {
+    "reviewedAndPublished": 13,
+    "manifest": "data/collection/windows-domain-followup-20261017.json"
+  },
+  "schedulerRecovery": {
+    "problem": "Internationalized-domain TLD unsupported by deployed worker; one immutable job failed",
+    "action": "skip unsupported seed rows, queue 11 supported domains under separate retry key",
+    "failedRequestKey": "semologo-bulk-r45-win02-00000022",
+    "retryRequestKey": "semologo-retry-r45-win02-00000022"
+  }
 }
