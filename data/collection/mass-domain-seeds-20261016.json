@@ -1,0 +1,36 @@
+{
+  "checkedAt": "2026-10-16T14:04:34.763076+00:00",
+  "status": "discovery_candidates_only",
+  "targetCandidates": 3000000,
+  "uniqueCandidateDomains": 3050920,
+  "trancoRows": 999994,
+  "majesticRows": 1000000,
+  "commonCrawlRowsScanned": 1900000,
+  "commonCrawlAcceptedRows": 1899888,
+  "sourceMaskCounts": {
+    "7": 233177,
+    "1": 553332,
+    "5": 41965,
+    "3": 171520,
+    "2": 426180,
+    "6": 169123,
+    "4": 1455623
+  },
+  "sources": {
+    "tranco": {
+      "url": "https://tranco-list.eu/top-1m.csv.zip",
+      "sha256": "fc7cb8b8be7347cdebbb50e5351d11e85df1fab2a2e9e28cb68dc323ffe5d4de"
+    },
+    "majestic": {
+      "url": "https://downloads.majestic.com/majestic_million.csv",
+      "sha256": "9b854ea144ec9d7fc7c18f0d0600792f4ab9fe6cdf7cf8b3d0bf6f6dcc1bd42b"
+    },
+    "commonCrawl": {
+      "url": "https://ds5q9oxwqwsfj.cloudfront.net/projects/hyperlinkgraph/cc-main-2026-jul-aug-sep/domain/cc-main-2026-jul-aug-sep-domain-ranks.txt.gz",
+      "release": "cc-main-2026-jul-aug-sep",
+      "partialStream": true,
+      "localPrefixSha256": "11bca4bada785e7e39b376523d7eb8df3eaa656db443e3148cdd0e999ec37d62"
+    }
+  },
+  "publication": "No domain is a logo. Website identity, logo asset, quality, rights, duplicate and serving checks remain required."
+}

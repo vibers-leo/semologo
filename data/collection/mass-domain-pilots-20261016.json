@@ -1,0 +1,48 @@
+{
+  "checkedAt": "2026-10-16T14:05:17.573349+00:00",
+  "status": "raw_discovery_not_published",
+  "initialSamplesRobotsGateApplied": false,
+  "note": "These exploratory samples preceded the robots.txt gate added for subsequent runs.",
+  "samples": [
+    {
+      "source": "tranco",
+      "domains": 100,
+      "statuses": {
+        "failed": 42,
+        "asset_found_review_required": 24,
+        "no_first_party_logo_signal": 12,
+        "page_read": 20,
+        "asset_invalid": 2
+      },
+      "originalAssetHashesVerified": 24,
+      "rawManifestSha256": "24986689bdd9fe5253d44a1b6ad47c59df5405f1979861a1d1ea7336780bac38"
+    },
+    {
+      "source": "commoncrawl",
+      "domains": 100,
+      "statuses": {
+        "failed": 37,
+        "page_read": 14,
+        "asset_found_review_required": 28,
+        "no_first_party_logo_signal": 16,
+        "asset_invalid": 5
+      },
+      "originalAssetHashesVerified": 28,
+      "rawManifestSha256": "a16e1279bc7c4f55c74aab6c639ad229512a420e52a211e44b1909b0bf95dc8c"
+    },
+    {
+      "source": "commoncrawl_robots_gate",
+      "domains": 20,
+      "statuses": {
+        "page_read": 4,
+        "failed": 9,
+        "asset_invalid": 2,
+        "asset_found_review_required": 4,
+        "no_first_party_logo_signal": 1
+      },
+      "originalAssetHashesVerified": 4,
+      "rawManifestSha256": "adce78cf5c58573178221cf94d2e37c3a0837b786861946a6fa5ca5f1f30e8b4",
+      "robotsGateApplied": true
+    }
+  ]
+}
