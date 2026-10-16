@@ -176,7 +176,7 @@ def main(publish):
                 version = cursor.fetchone()
                 assert version, row['id'] + ': version trigger missing'
                 cursor.execute('UPDATE semologo.logo_versions SET asset_manifest=%s::jsonb,review_status=%s,verified_at=now() WHERE id=%s',
-                               (json.dumps(row['manifest'], ensure_ascii=False), 'verified', version[0]))
+                               (json.dumps({'variants': row['manifest']}, ensure_ascii=False), 'verified', version[0]))
     db.close()
     (OUT / 'new-published.json').write_text(json.dumps({'status': 'published', 'ids': ids,
         'objects': len(uploads), 'published_at': datetime.now(timezone.utc).isoformat()}, ensure_ascii=False, indent=2) + '\n')

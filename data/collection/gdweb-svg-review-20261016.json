@@ -1,16 +1,80 @@
 {
   "schema_version": 1,
   "source": "marketing/assets/gdweb-official-review-20261016/manifest.json",
-  "publication_status": "NOT_PUBLISHED",
-  "review_scope": "Official-site file origin, vector preflight and white/dark visual sheet; catalog identity and duplicate review remain pending.",
+  "publication_status": "PUBLISHED_7_HELD_1",
+  "review_scope": "Official-site file origin, vector preflight, white/dark visual sheet, catalog identity and live frontend verification.",
   "items": [
-    {"gdweb_id": "27942", "name": "디트라이브", "catalog_match": null, "observed_form": "wordmark", "visual_review": "match_candidate", "note": "검정 글자 기반. 밝은 배경용 후보."},
-    {"gdweb_id": "27799", "name": "메이커빌", "catalog_match": null, "observed_form": "wordmark", "visual_review": "match_candidate", "note": "사이트 헤더의 MAKERVIL 전체 워드마크. 흰색 글자라 어두운 배경용으로 게시하고, 분리된 m 글자 조각은 대표에서 제외."},
-    {"gdweb_id": "27794", "name": "서진시스템", "catalog_match": "seojinsystem", "observed_form": "wordmark", "visual_review": "match_candidate", "note": "흰색 워드마크로 검정 배경에서만 선명함. 밝은 배경용 별도 원본 탐색 필요."},
-    {"gdweb_id": "27742", "name": "부산국제영화제", "catalog_match": "biff", "observed_form": "event_lockup", "visual_review": "archive_only", "note": "31st 부산국제영화제 날짜가 포함된 2026 행사형. 상시 대표 로고로 교체하지 않음."},
-    {"gdweb_id": "27604", "name": "인스턴트펑크", "catalog_match": null, "observed_form": "wordmark", "visual_review": "match_candidate", "note": "검정 워드마크. 다른 조합형은 별도 확인 필요."},
-    {"gdweb_id": "27578", "name": "기가비스", "catalog_match": "gigavis", "observed_form": "wordmark", "visual_review": "match_candidate", "note": "GigaVis 워드마크와 영문 설명이 함께 있음. 기존 브랜드의 버전 비교 필요."},
-    {"gdweb_id": "27560", "name": "솔트룩스", "catalog_match": "saltlux", "observed_form": "wordmark", "visual_review": "match_candidate", "note": "컬러 워드마크. 기존 보유 원본과 버전 비교 필요."},
-    {"gdweb_id": "27544", "name": "웍스피어", "catalog_match": null, "observed_form": "wordmark", "visual_review": "match_candidate", "note": "흰색 워드마크. 밝은 배경용 별도 원본 탐색 필요."}
+    {
+      "gdweb_id": "27942",
+      "name": "디트라이브",
+      "catalog_match": null,
+      "observed_form": "wordmark",
+      "visual_review": "match_candidate",
+      "note": "검정 글자 기반. 밝은 배경용 후보.",
+      "publication_status": "published"
+    },
+    {
+      "gdweb_id": "27799",
+      "name": "메이커빌",
+      "catalog_match": null,
+      "observed_form": "wordmark",
+      "visual_review": "match_candidate",
+      "note": "사이트 헤더의 MAKERVIL 전체 워드마크. 흰색 글자라 어두운 배경용으로 게시하고, 분리된 m 글자 조각은 대표에서 제외.",
+      "publication_status": "published"
+    },
+    {
+      "gdweb_id": "27794",
+      "name": "서진시스템",
+      "catalog_match": "seojinsystem",
+      "observed_form": "wordmark",
+      "visual_review": "match_candidate",
+      "note": "흰색 워드마크로 검정 배경에서만 선명함. 밝은 배경용 별도 원본 탐색 필요.",
+      "publication_status": "published"
+    },
+    {
+      "gdweb_id": "27742",
+      "name": "부산국제영화제",
+      "catalog_match": "biff",
+      "observed_form": "event_lockup",
+      "visual_review": "archive_only",
+      "note": "31st 부산국제영화제 날짜가 포함된 2026 행사형. 상시 대표 로고로 교체하지 않음.",
+      "publication_status": "held_event_lockup"
+    },
+    {
+      "gdweb_id": "27604",
+      "name": "인스턴트펑크",
+      "catalog_match": null,
+      "observed_form": "wordmark",
+      "visual_review": "match_candidate",
+      "note": "검정 워드마크. 다른 조합형은 별도 확인 필요.",
+      "publication_status": "published"
+    },
+    {
+      "gdweb_id": "27578",
+      "name": "기가비스",
+      "catalog_match": "gigavis",
+      "observed_form": "wordmark",
+      "visual_review": "match_candidate",
+      "note": "GigaVis 워드마크와 영문 설명이 함께 있음. 기존 브랜드의 버전 비교 필요.",
+      "publication_status": "published"
+    },
+    {
+      "gdweb_id": "27560",
+      "name": "솔트룩스",
+      "catalog_match": "saltlux",
+      "observed_form": "wordmark",
+      "visual_review": "match_candidate",
+      "note": "공식 사이트 컬러 워드마크. 기존 PLOONET 오표시 파일은 공개 변형 목록에서 제외했고 기존 바이트는 보존.",
+      "publication_status": "published"
+    },
+    {
+      "gdweb_id": "27544",
+      "name": "웍스피어",
+      "catalog_match": null,
+      "observed_form": "wordmark",
+      "visual_review": "match_candidate",
+      "note": "흰색 워드마크. 밝은 배경용 별도 원본 탐색 필요.",
+      "publication_status": "published"
+    }
   ]
 }

@@ -177,7 +177,7 @@ def main(publish):
                 version = cursor.fetchone()
                 assert version, row['id'] + ': version missing'
                 cursor.execute('UPDATE semologo.logo_versions SET assets=assets||%s::jsonb,asset_manifest=%s::jsonb,label=%s,source_url=%s,source_note=%s,review_status=%s,verified_at=now() WHERE id=%s',
-                               (json.dumps(row['patch'], ensure_ascii=False), json.dumps(row['variants'], ensure_ascii=False),
+                               (json.dumps(row['patch'], ensure_ascii=False), json.dumps({'variants': row['variants']}, ensure_ascii=False),
                                 '공식 사이트 워드마크 · 벡터', row['source_url'], 'GDWEB에서 사이트 발견. 기업 사이트 SVG와 흰색·검정 배경 렌더 검수. 기존 파일 보존.',
                                 'verified', version[0]))
     db.close()
