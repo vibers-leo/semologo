@@ -5,7 +5,7 @@
   "review_scope": "Official-site file origin, vector preflight and white/dark visual sheet; catalog identity and duplicate review remain pending.",
   "items": [
     {"gdweb_id": "27942", "name": "디트라이브", "catalog_match": null, "observed_form": "wordmark", "visual_review": "match_candidate", "note": "검정 글자 기반. 밝은 배경용 후보."},
-    {"gdweb_id": "27799", "name": "메이커빌", "catalog_match": null, "observed_form": "symbol", "visual_review": "partial_only", "note": "m 심볼 단독. 가로·세로조합이나 텍스트 형태로 간주하지 않음."},
+    {"gdweb_id": "27799", "name": "메이커빌", "catalog_match": null, "observed_form": "wordmark", "visual_review": "match_candidate", "note": "사이트 헤더의 MAKERVIL 전체 워드마크. 흰색 글자라 어두운 배경용으로 게시하고, 분리된 m 글자 조각은 대표에서 제외."},
     {"gdweb_id": "27794", "name": "서진시스템", "catalog_match": "seojinsystem", "observed_form": "wordmark", "visual_review": "match_candidate", "note": "흰색 워드마크로 검정 배경에서만 선명함. 밝은 배경용 별도 원본 탐색 필요."},
     {"gdweb_id": "27742", "name": "부산국제영화제", "catalog_match": "biff", "observed_form": "event_lockup", "visual_review": "archive_only", "note": "31st 부산국제영화제 날짜가 포함된 2026 행사형. 상시 대표 로고로 교체하지 않음."},
     {"gdweb_id": "27604", "name": "인스턴트펑크", "catalog_match": null, "observed_form": "wordmark", "visual_review": "match_candidate", "note": "검정 워드마크. 다른 조합형은 별도 확인 필요."},
