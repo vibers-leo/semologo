@@ -4,6 +4,8 @@
 
 2026-10-16 첫 실행: 기사 98개, 검토 후보 6개. 부산국제영화제 2026, 부캉이, 시큐아이 새 CI, 호반건설 BI, CJ더마켓 마스코트, 애드페스트 로고. RSS 헤드라인은 발견 단서다. 실제 공식 발표·원본 파일·연도·브랜드 동일성·기존 카탈로그 중복을 다시 확인해야 한다.
 
+첫 후보의 원본 확인: [BIFF 공식 프레스 자료실](https://press.biff.kr/kor/addon/10000001/page.asp?page_num=5739)은 스탠다드 로고와 날짜형 로고를 각각 ZIP으로 제공한다. 2026-10-16에 두 ZIP을 내려받아 원본 해시와 목록을 기록했다. 스탠다드에는 PNG 2개, 날짜형에는 PNG 3개가 있으며 **SVG는 없다**. 원본은 Git 제외 경로 `marketing/assets/trend-watch-local/biff-2026/`에 보관했다. 따라서 상시 BIFF 대표를 바꾸거나 SVG 확보로 집계하지 않는다. 날짜형 PNG는 연도별 아카이브 후보로 검수할 수 있다.
+
 운영 예약은 NCP `vibers`의 `semologo-trend-watch.timer`이며 **매일 09:15 KST** 실행한다. 코드와 관심 주제 원본은 이 저장소에 있고 서버 `/root/projects/semologo/trend-watch/`에 배포한다. 다음 명령으로 결과의 신선도를 확인한다.
 
 ```sh
