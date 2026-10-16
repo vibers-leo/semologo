@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "source": "Windows fleet domain-discovery immutable result manifests; Mac first-party asset download",
+  "fleetJobsRead": 412,
+  "candidateUrls": 2758,
+  "downloadedUniqueFiles": 2303,
+  "downloadedDomains": 1282,
+  "downloadedByFormat": {
+    "png": 1387,
+    "svg": 608,
+    "webp": 308
+  },
+  "newSafeSvgDomainsAfterExistingAndStaticChecks": 357,
+  "publishedNewBrands": 26,
+  "cmsTotalAfterPublication": 181944,
+  "privateStagingPath": "/Volumes/HDD-1TB/semologo-migration/bulk-staging/windows-domain-20261017",
+  "publicationManifest": "data/collection/windows-domain-bulk-20261017.json",
+  "qualityNote": "Cross-site badges, blank marks, embedded images and opaque backdrops remain in private review; not counted as published."
+}

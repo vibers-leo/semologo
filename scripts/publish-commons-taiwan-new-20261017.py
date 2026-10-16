@@ -7,6 +7,7 @@ import argparse
 import hashlib
 import io
 import json
+import os
 import re
 import shlex
 import subprocess
@@ -32,6 +33,8 @@ def sha(raw):
 
 
 def credentials():
+    if os.environ.get('NCP_ACCESS_KEY') and os.environ.get('NCP_SECRET_KEY'):
+        return {key: os.environ[key] for key in ('NCP_ACCESS_KEY', 'NCP_SECRET_KEY')}
     found = {}
     for line in SECRET.read_text().splitlines():
         key, sep, value = line.removeprefix('export ').partition('=')
