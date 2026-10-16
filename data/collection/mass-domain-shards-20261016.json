@@ -1,0 +1,41 @@
+{
+  "checkedAt": "2026-10-16T14:22:43.253832+00:00",
+  "status": "candidate_shards_not_queued",
+  "commonCrawlRelease": "cc-main-2026-jul-aug-sep",
+  "commonCrawlRankPrefixSha256": {
+    "first128MiB": "11bca4bada785e7e39b376523d7eb8df3eaa656db443e3148cdd0e999ec37d62",
+    "first512MiB": "b5ceecb5c79274453856ed91cb72d54c26cca30ad8108c2cbd5b9ea5d5a3c851"
+  },
+  "rankedListUniqueDomains": 1595297,
+  "commonCrawlOnlyDomainsInShards": 8000000,
+  "identifiedUniqueDomains": 9595297,
+  "publishedLogoCountFromThisWork": 0,
+  "batches": [
+    {
+      "batch": 1,
+      "skippedPriorCandidates": 0,
+      "files": [
+        {"worker": "win-01", "count": 500000, "sha256": "b3036c600da67d3ff2677bc1865e9ad5468b9f47e66d79229eb8a5bd8a37c21f"},
+        {"worker": "win-02", "count": 500000, "sha256": "b247404415aac83a1fb9c0fbeeef50a1aba13491b4f6191f705276b243efed19"}
+      ]
+    },
+    {
+      "batch": 2,
+      "skippedPriorCandidates": 1000000,
+      "files": [
+        {"worker": "win-01", "count": 500000, "sha256": "814cba28d8b640e32879ead50aeda8b3d94b239dc5fb259eda5400f4fed164cf"},
+        {"worker": "win-02", "count": 500000, "sha256": "cd5e2e3168b29e6627d1dfd79d575a1415c315fd61988131ff8fb878be56d551"}
+      ]
+    },
+    {
+      "batch": 3,
+      "skippedPriorCandidates": 2000000,
+      "files": [
+        {"worker": "win-01", "count": 3000000, "sha256": "2922187f208bd641d89120b6786be0ffbca7ba71dc4907e2eceb22b05caa1953"},
+        {"worker": "win-02", "count": 3000000, "sha256": "697bbf2c60cfb77e43ec439b4e12d4d4dbc98ba6645d15df66dc488b3189c023"}
+      ]
+    }
+  ],
+  "storage": "External HDD only; bucket upload AccessDenied and no Windows job queued.",
+  "publication": "Domain candidates are not logo assets or published brands."
+}

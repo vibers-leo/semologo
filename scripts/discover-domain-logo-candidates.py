@@ -8,6 +8,7 @@ import argparse
 import concurrent.futures
 import csv
 import gzip
+import http.client
 import itertools
 import functools
 import hashlib
@@ -95,6 +96,8 @@ def jsonld_logos(value):
 
 def safe_url(base, raw, domain):
     url = urllib.parse.urljoin(base, raw.strip())
+    if any(ord(char) < 0x21 or ord(char) == 0x7f for char in url):
+        return None
     parts = urllib.parse.urlsplit(url)
     host = (parts.hostname or "").lower()
     if parts.scheme != "https" or parts.username or parts.password or not host:
@@ -195,7 +198,7 @@ def inspect(domain, asset_dir):
                     row["status"] = "asset_found_review_required"
                 else:
                     row["status"] = "asset_invalid"
-    except (urllib.error.URLError, TimeoutError, ValueError, OSError) as error:
+    except (urllib.error.URLError, http.client.HTTPException, TimeoutError, ValueError, OSError) as error:
         row["error"] = str(error)[:180]
     return row
 

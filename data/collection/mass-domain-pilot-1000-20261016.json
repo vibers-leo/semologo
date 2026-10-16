@@ -1,0 +1,23 @@
+{
+  "checkedAt": "2026-10-16T14:23:48.281753+00:00",
+  "status": "raw_discovery_not_published",
+  "source": "commoncrawl_only",
+  "sourceShard": "win-01 batch 1, candidate offsets 1000–1999",
+  "candidateDomainsInspected": 1000,
+  "robotsGateApplied": true,
+  "statuses": {
+    "asset_found_review_required": 369,
+    "failed": 324,
+    "no_first_party_logo_signal": 146,
+    "page_read": 132,
+    "asset_invalid": 20,
+    "robots_disallowed": 9
+  },
+  "originalAssetHashesVerified": 369,
+  "distinctOriginalAssetHashes": 369,
+  "assetFormats": {"image/png": 200, "image/svg+xml": 111, "image/webp": 58},
+  "logoSignals": {"image-logo": 343, "organization-jsonld": 26},
+  "rawManifestSha256": "6c3fe9d080c0579affce1dedd0f9f7748a0adf91828cdbdd4675dce69441c2d4",
+  "publishedLogoCount": 0,
+  "note": "One site had a logo URL with an unescaped space; the run resumed after URL validation and HTTP exception handling. Raw assets require brand, quality, rights and duplicate review before publishing."
+}

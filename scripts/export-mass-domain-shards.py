@@ -8,10 +8,11 @@ must enter a separate bounded discovery contract before worker scheduling.
 import argparse
 import csv
 import gzip
-import hashlib
 import importlib.util
+import io
 import json
 import zipfile
+from contextlib import ExitStack
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -41,40 +42,67 @@ def main():
     parser.add_argument("--cc-gzip", type=Path, required=True)
     parser.add_argument("--out", type=Path, required=True)
     parser.add_argument("--limit", type=int, default=1_000_000)
+    parser.add_argument("--skip", type=int, default=0, help="Skip this many new Common Crawl-only domains")
     args = parser.parse_args()
-    if args.limit <= 0:
-        parser.error("limit must be positive")
+    if args.limit <= 0 or args.skip < 0:
+        parser.error("limit must be positive and skip non-negative")
     args.out.mkdir(parents=True, exist_ok=True)
     known = known_domains(args.tranco, args.majestic)
-    rows = [[], []]
-    with args.cc_gzip.open("rb") as source:
-        for rank, raw in seeds.commoncrawl_rows(source):
-            domain = seeds.domain_name(raw)
-            if domain is None or domain in known:
-                continue
-            known.add(domain)
-            worker = len(rows[0]) + len(rows[1])
-            rows[worker % 2].append((rank, domain))
-            if worker + 1 >= args.limit:
-                break
+    counts = [0, 0]
+    first_ranks = [None, None]
+    last_ranks = [None, None]
+    unseen = 0
+    paths = [args.out / f"win-0{index}-cc-only-candidates.csv.gz" for index in (1, 2)]
+    partial_paths = [path.with_name(path.name + ".part") for path in paths]
+    try:
+        with ExitStack() as stack:
+            writers = []
+            for path in partial_paths:
+                raw = stack.enter_context(path.open("wb"))
+                compressed = stack.enter_context(gzip.GzipFile(fileobj=raw, mode="wb", filename="", mtime=0))
+                output = stack.enter_context(io.TextIOWrapper(compressed, encoding="utf-8", newline=""))
+                writer = csv.writer(output)
+                writer.writerow(("common_crawl_rank", "domain"))
+                writers.append(writer)
+            source = stack.enter_context(args.cc_gzip.open("rb"))
+            for rank, raw in seeds.commoncrawl_rows(source):
+                domain = seeds.domain_name(raw)
+                if domain is None or domain in known:
+                    continue
+                known.add(domain)
+                unseen += 1
+                if unseen <= args.skip:
+                    continue
+                worker = sum(counts) % 2
+                writers[worker].writerow((rank, domain))
+                counts[worker] += 1
+                if first_ranks[worker] is None:
+                    first_ranks[worker] = rank
+                last_ranks[worker] = rank
+                if sum(counts) >= args.limit:
+                    break
+        if sum(counts) != args.limit:
+            raise ValueError(f"Only {sum(counts)} candidate domains available; requested {args.limit}")
+        for partial, final in zip(partial_paths, paths):
+            partial.replace(final)
+    except Exception:
+        for partial in partial_paths:
+            partial.unlink(missing_ok=True)
+        raise
     files = []
-    for index, values in enumerate(rows, 1):
+    for index, path in enumerate(paths, 1):
         worker = f"win-0{index}"
-        path = args.out / f"{worker}-cc-only-candidates.csv.gz"
-        with gzip.open(path, "wt", encoding="utf-8", newline="") as output:
-            writer = csv.writer(output)
-            writer.writerow(("common_crawl_rank", "domain"))
-            writer.writerows(values)
-        files.append({"worker": worker, "count": len(values), "path": str(path),
-                      "sha256": seeds.file_hash(path), "firstRank": values[0][0] if values else None,
-                      "lastRank": values[-1][0] if values else None})
+        files.append({"worker": worker, "count": counts[index - 1], "path": str(path),
+                      "sha256": seeds.file_hash(path), "firstRank": first_ranks[index - 1],
+                      "lastRank": last_ranks[index - 1]})
     manifest = {"createdAt": datetime.now(timezone.utc).isoformat(),
                 "status": "candidate_shards_not_queued", "commonCrawlRelease": seeds.CC_RELEASE,
-                "excludedRankedDomains": len(known) - sum(map(len, rows)),
-                "totalCandidates": sum(map(len, rows)), "files": files,
+                "excludedRankedDomains": len(known) - unseen,
+                "skippedPriorCandidates": args.skip,
+                "totalCandidates": sum(counts), "files": files,
                 "note": "Requires a separate bounded Windows discovery job; no logos collected or published by this export."}
     (args.out / "manifest.json").write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\n")
-    print(json.dumps({"totalCandidates": manifest["totalCandidates"], "perWorker": [len(v) for v in rows],
+    print(json.dumps({"totalCandidates": manifest["totalCandidates"], "perWorker": counts,
                       "manifest": str(args.out / 'manifest.json')}))
 
 
