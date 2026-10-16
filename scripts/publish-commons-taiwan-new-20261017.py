@@ -111,7 +111,21 @@ def main():
         png = cairosvg.svg2png(bytestring=svg, output_width=1200)
         with Image.open(io.BytesIO(png)) as image:
             assert image.width == 1200 and image.height >= 100
-            assert image.convert('RGBA').getchannel('A').getextrema() == (0, 255)
+            rgba = image.convert('RGBA')
+            assert rgba.getchannel('A').getextrema() == (0, 255)
+            # A one-pixel transparent rim made Delpha's full white backdrop
+            # pass the old extrema check. Hold near-opaque white canvases for
+            # manual background removal before publishing.
+            pixels = rgba.getdata()
+            total = rgba.width * rgba.height
+            opaque = white = 0
+            for red, green, blue, alpha in pixels:
+                if alpha >= 250:
+                    opaque += 1
+                    if min(red, green, blue) >= 245:
+                        white += 1
+            if opaque / total > 0.80 and white / total > 0.50:
+                raise ValueError(f'Likely embedded white backdrop: {ident}')
         brand = {'id': ident, 'name_ko': row['name'], 'name_en': row['name'],
             'category': row['category'], 'origin': 'GLOBAL', 'has_svg': True,
             'has_png': True, 'logo_svg': 'logo.svg', 'logo_png': 'logo.png',

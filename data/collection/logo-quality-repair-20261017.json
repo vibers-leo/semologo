@@ -1,0 +1,128 @@
+{
+  "status": "published-and-cdn-verified",
+  "updated": [
+    "delpha",
+    "packet-clearing-house"
+  ],
+  "audit": [
+    {
+      "id": "delpha",
+      "source_sha256": "c66c1b2381eceaa64a475c01016458e7ec4052e6c1f1aab1394ae8e2c4710e3b",
+      "clean_svg_sha256": "68a736ac97004cf9976dc9afa5610c98bc3c1c442074158426cb34ae9303d8e4",
+      "clean_png_sha256": "982563ae25651feaf5464dabdee0c3fb51487b5b47360ab0a86bb0cef726427d",
+      "dark_svg_sha256": "1a536fa8e867352617321c6486d5c4fcd9be0108002f66f55871a40886c4c6e7",
+      "dark_png_sha256": "9e41955c084fcf02a4b3c4cdc6e1c49919d7e89201af089293f68fbbf9f0725f",
+      "old_brand": {
+        "id": "delpha",
+        "domain": "delpha.io",
+        "origin": "GLOBAL",
+        "has_png": true,
+        "has_svg": true,
+        "name_en": "Delpha",
+        "name_ko": "Delpha",
+        "website": "https://delpha.io/",
+        "added_at": "2026-10-16",
+        "category": "IT·테크",
+        "logo_png": "logo.png",
+        "logo_svg": "logo.svg",
+        "source_url": "https://delpha.io/",
+        "preview_png": "https://logo.vibers.co.kr/_clients/delpha/logo.png",
+        "asset_origin": "Official first-party website SVG; Windows fleet discovery, Mac visual review",
+        "logo_published_at": "2026-10-16T15:50:24.066755+00:00",
+        "asset_review_status": "reviewed-third-party-vector"
+      },
+      "old_manifest": {
+        "id": "delpha",
+        "algo_v": 1,
+        "schema": 1,
+        "primary": "source-reviewed",
+        "variants": [
+          {
+            "key": "source-reviewed",
+            "form": "horizontal",
+            "lang": "mixed",
+            "color": "original",
+            "files": {
+              "png": "logo.png",
+              "svg": "logo.svg"
+            },
+            "label": "원본 벡터",
+            "order": 0,
+            "lockup": "horizontal",
+            "origin": "fleet-domain-discovery",
+            "provider": "fleet-domain-discovery",
+            "source_url": "https://delpha.io/",
+            "preview_png": "logo.png",
+            "review_status": "verified",
+            "source_sha256": "c66c1b2381eceaa64a475c01016458e7ec4052e6c1f1aab1394ae8e2c4710e3b",
+            "visual_sha256": "8938ed42004a371d23a7832d484bcbc8a58d31ad275f197d1fcf6647353b3afa"
+          }
+        ]
+      }
+    },
+    {
+      "id": "packet-clearing-house",
+      "source_sha256": "6cbdaead31c8c348454d4f41ea953fe52017efb5f50b7f5e551eedbcbc13fc77",
+      "clean_svg_sha256": "34774e3299ddfccc0fddf3dbf2e26a08a41b9ed468b996a5a65080def031a9f6",
+      "clean_png_sha256": "4a1b4c05b2d713d8ce0b2e68bd725c41d27e0a7ac00a5e7c34f43bd4489f22ec",
+      "dark_svg_sha256": "43140d4148359e76f928944602d0a475461adddf91279f7c76001271249a7bec",
+      "dark_png_sha256": "7d2ec50ddef8c29b519ae144ec4db6613ae495835633ad2b49e4b457a7ed979b",
+      "old_brand": {
+        "id": "packet-clearing-house",
+        "domain": "pch.net",
+        "origin": "GLOBAL",
+        "has_png": true,
+        "has_svg": true,
+        "name_en": "Packet Clearing House",
+        "name_ko": "Packet Clearing House",
+        "website": "https://www.pch.net/",
+        "added_at": "2026-10-16",
+        "category": "IT·테크",
+        "logo_png": "logo.png",
+        "logo_svg": "logo.svg",
+        "source_url": "https://www.pch.net/",
+        "preview_png": "https://logo.vibers.co.kr/_clients/packet-clearing-house/logo.png",
+        "asset_origin": "Official first-party website SVG; Mac domain discovery and visual review",
+        "logo_published_at": "2026-10-16T15:53:13.034143+00:00",
+        "asset_review_status": "reviewed-third-party-vector"
+      },
+      "old_manifest": {
+        "id": "packet-clearing-house",
+        "algo_v": 1,
+        "schema": 1,
+        "primary": "source-reviewed",
+        "variants": [
+          {
+            "key": "source-reviewed",
+            "form": "horizontal",
+            "lang": "mixed",
+            "color": "original",
+            "files": {
+              "png": "logo.png",
+              "svg": "logo.svg"
+            },
+            "label": "원본 벡터",
+            "order": 0,
+            "lockup": "horizontal",
+            "origin": "mac-domain-discovery",
+            "provider": "mac-domain-discovery",
+            "source_url": "https://www.pch.net/",
+            "preview_png": "logo.png",
+            "review_status": "verified",
+            "source_sha256": "6cbdaead31c8c348454d4f41ea953fe52017efb5f50b7f5e551eedbcbc13fc77",
+            "visual_sha256": "624a6e0b1b7df313e89210530e4cea928e88b6989cf823451f5ab02fb73e0ff3"
+          }
+        ]
+      }
+    }
+  ],
+  "legacyAliasesHiddenFromDetail": [
+    "logo.png",
+    "logo-transparent.png"
+  ],
+  "publicDetailPagesVerified": [
+    "https://semologo.com/brand/delpha/",
+    "https://semologo.com/brand/packet-clearing-house/"
+  ],
+  "cdnVersionedAssetsVerified": true
+}
