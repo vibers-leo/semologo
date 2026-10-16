@@ -42,4 +42,6 @@ Vaxcyte, Lantheus, JBT Marel, Novanta 네 곳은 공식 사이트 명칭·벡터
 
 기존 국내 공식 CI 페이지 목록에서 미점검 968곳을 추가 스캔해 1,626곳의 직접 파일 링크 상태를 보관했다. SVG 검토 시트에서 31개(r38), 81개(r39), 69개(r40)를 승인했으나 HTTP 전용/인증서 불일치 8개를 최종 목록에서 보류했다. 최종 r41 허용 목록은 기존 320개를 포함한 493개이며 `data/collection/semologo-official-worker-roster-r41.json`에 저장했다. Windows 배포 파일의 출처 목록 SHA-256은 이 파일과 일치한다. 다른 자동 업데이트가 배포한 r42 런타임에서도 동일한 493개 목록 해시를 확인했다.
 
-`ops/fleet-collection/`에 실제 서버에 적용한 runner·service·timer·shell 원본을 보관했다. timer는 매 5분, runner는 PC당 최대 16개, 실패는 출처당 한 번만 재시도한다. 배포 직후 win-01·win-02에서 목록 버전을 진단한 뒤 주기를 재개했다. `check-deploy.sh`는 `vibers-fleet` running, restarts=0, HTTP 200, `DEPLOY OK`였다. 이 회차의 성공 manifest도 전부 비공개 원본 수집이며 공개 브랜드 수에 합산하지 않는다. 최초 수집 중 HTTP 출처가 실패한 기록은 남아 있고 HTTPS 검증 뒤 재시도 대기 중이다.
+`ops/fleet-collection/`에 실제 서버에 적용한 runner·service·timer·shell 원본을 보관했다. timer는 매 5분, runner는 PC당 최대 16개, 실패는 출처당 한 번만 재시도한다. 배포 직후 win-01·win-02에서 목록 버전을 진단한 뒤 주기를 재개했다. `check-deploy.sh`는 `vibers-fleet` running, restarts=0, HTTP 200, `DEPLOY OK`였다. 이 회차의 성공 manifest도 전부 비공개 원본 수집이며 공개 브랜드 수에 합산하지 않는다. 최초 수집 중 HTTP 출처가 실패한 기록은 남아 있으며, HTTPS에서 동일 해시를 확인한 주소는 교정해 재시도했다.
+
+22:19 KST 결과: 최종 허용 목록의 신규 173개 출처를 모두 두 윈 PC에서 시도했다. 최근 상태는 버킷 검증 성공 164개, 두 차례 시도 후 실패 9개다. 세부 실패 원인과 대상은 `data/collection/official-svg-r41-result-audit.json`에 남겼다. 실패 9개를 성공으로 집계하지 않고, 성공 164개도 CMS 공개 전 검토 상태로 둔다.

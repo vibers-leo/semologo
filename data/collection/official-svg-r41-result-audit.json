@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-10-16T13:19:00Z",
+  "collectionOnly": true,
+  "rosterSources": 493,
+  "newlyApprovedSources": 173,
+  "latestStatus": {
+    "succeeded": 164,
+    "failed": 9
+  },
+  "failedAfterTwoAttempts": [
+    {"id": "ko-extra-25add5f8215a", "nameKo": "재단법인대구디지털혁신진흥원", "reason": "artifact_failed"},
+    {"id": "ko-extra-2713bbcc2e07", "nameKo": "재단법인남원시바이오산업연구원", "reason": "logo_fetch_failed"},
+    {"id": "ko-extra-3ec3f83f460e", "nameKo": "세종신용보증재단", "reason": "artifact_failed"},
+    {"id": "ko-extra-4fc1d983c2de", "nameKo": "재단법인대구디지털혁신진흥원", "reason": "artifact_failed"},
+    {"id": "ko-extra-5d65a259550a", "nameKo": "(재)구미먹거리통합지원센터", "reason": "artifact_failed"},
+    {"id": "ko-extra-7e0c98598956", "nameKo": "인천문화재단", "reason": "logo_fetch_failed"},
+    {"id": "ko-extra-b101c70dcac0", "nameKo": "한국전자통신연구원", "reason": "logo_fetch_failed"},
+    {"id": "ko-extra-cb5455190519", "nameKo": "경남투자경제진흥원", "reason": "artifact_failed"},
+    {"id": "ko-extra-f00ef0562257", "nameKo": "재단법인남원시바이오산업연구원", "reason": "logo_result_too_large"}
+  ],
+  "nextAction": "Inspect failed source access and artifact validation individually; review successful originals before CMS publication."
+}
