@@ -167,7 +167,7 @@ def run(config_path, output_dir, fixture=None, now=None):
     result = {'checked_at': now.isoformat(), 'feeds_checked': succeeded,
               'feeds_failed': len(failures), 'articles_checked': len(articles),
               'candidates': len(queue['candidates']),
-              'new_candidates': sum(bool(item['new_article_count']) for item in queue['candidates']),
+              'candidates_with_new_articles': sum(bool(item['new_article_count']) for item in queue['candidates']),
               'top': [{'id': item['id'], 'name': item['name'], 'priority': item['priority']}
                       for item in queue['candidates'][:8]]}
     atomic_json(output_dir / 'status.json', result)
