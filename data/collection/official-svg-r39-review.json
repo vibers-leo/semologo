@@ -1,0 +1,595 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-10-16",
+  "source": "official-ci-assets-staged",
+  "contactSheets": [
+    "data/collection/contact-sheets/official-svg-r39/light.jpg",
+    "data/collection/contact-sheets/official-svg-r39/dark.jpg"
+  ],
+  "selected": 94,
+  "approved": 81,
+  "rejectedIndices": [
+    3,
+    5,
+    7,
+    30,
+    43,
+    57,
+    62,
+    66,
+    68,
+    71,
+    75,
+    85,
+    93
+  ],
+  "approvedSources": [
+    {
+      "id": "ko-extra-291966ece9a3",
+      "nameKo": "게임물관리위원회",
+      "sourcePage": "https://www.grac.or.kr/Committee/SecretariatLogo01.aspx",
+      "assetUrl": "https://www.grac.or.kr/resource/images/main/renew/common/img_footer_logo01.svg",
+      "expectedSha256": "195cbaabdbbef53559e822dd681b64d53acdf9a30dd156702a81d50a902c0303"
+    },
+    {
+      "id": "ko-extra-3223dd7b57ac",
+      "nameKo": "과학기술정책연구원",
+      "sourcePage": "https://www.stepi.re.kr/site/stepiko/06/10605010000002020102915.jsp",
+      "assetUrl": "https://www.stepi.re.kr/images/stepiko/renewal/Logo_STEPI_footer.svg",
+      "expectedSha256": "a067216dcac2e58a85e563b9f739dc1e28ce3556f64bdf4addbe7a24ead0e8f6"
+    },
+    {
+      "id": "ko-extra-e50784107548",
+      "nameKo": "광주관광공사",
+      "sourcePage": "https://www.gjto.or.kr/menu.es?mid=a10105000000",
+      "assetUrl": "https://www.gjto.or.kr/main/img/sub/sub01/010501_ci.svg",
+      "expectedSha256": "b32161951c684d93bd205cfad151f5ff2119405dddf512c5dff927c305505122"
+    },
+    {
+      "id": "ko-extra-e896ff14fa0e",
+      "nameKo": "국가유산청",
+      "sourcePage": "http://www.cha.go.kr/html/HtmlPage.do?pg=/introduce/cha_ci.jsp&amp;mn=NS_05_02",
+      "assetUrl": "http://www.cha.go.kr/images/2025/layout/logo.svg",
+      "expectedSha256": "79a13cd1c9afc1875fc9ed092e03c32f69519634da0b7eedf4ad0fed628a5d80"
+    },
+    {
+      "id": "ko-extra-76702eab1dde",
+      "nameKo": "부산시설공단",
+      "sourcePage": "http://www.bisco.or.kr/about/about03/about03_1/",
+      "assetUrl": "http://www.bisco.or.kr/image/2025/logo.svg",
+      "expectedSha256": "25b2f6c1580eca8e18bdadeafb0c643e94dc0b2939ccfabdfde0bd88b8ec3cd1"
+    },
+    {
+      "id": "ko-extra-6cdf3564254d",
+      "nameKo": "서울과학기술대학교",
+      "sourcePage": "http://www.seoultech.ac.kr/intro/symbol/logo/symbol/",
+      "assetUrl": "http://www.seoultech.ac.kr/site/ko/2021/res/img/logo_on.svg",
+      "expectedSha256": "511d5d9ad9fd060641f8510bd43c18210479e0044c237cb15e0e4c14742c663e"
+    },
+    {
+      "id": "ko-extra-05be19feea73",
+      "nameKo": "서울관광재단",
+      "sourcePage": "http://www.sto.or.kr/ci",
+      "assetUrl": "http://www.sto.or.kr/humanframe/theme/sto/assets/images/main_renewal_2024/ico_header_logo_sto.svg",
+      "expectedSha256": "d0027b97b3c7dccf5d403a8839eb21a06f04a05d45aa29bede656af79332947c"
+    },
+    {
+      "id": "ko-extra-fbbf669003bd",
+      "nameKo": "서울교통공사",
+      "sourcePage": "http://www.seoulmetro.co.kr/kr/page.do?menuIdx=507",
+      "assetUrl": "http://www.seoulmetro.co.kr/images/layout/logo.svg",
+      "expectedSha256": "04d5dbbae0cdfd43adfd3c7c357f15a0f798b15a3af4e4036c1d5ea53a8df825"
+    },
+    {
+      "id": "ko-extra-2cce2dbcfbc7",
+      "nameKo": "서울시농수산식품공사",
+      "sourcePage": "https://www.garak.co.kr/homepage/landing.do?cntnts_id=DC000000",
+      "assetUrl": "https://www.garak.co.kr/homepage/resource/publish/images/logo_footer.svg",
+      "expectedSha256": "648ac14c2ceccebd17fcb392962f6c182e97ad6c8f747810283be2243e749c7a"
+    },
+    {
+      "id": "ko-extra-76b8d0f660aa",
+      "nameKo": "서울의료원 공공보건의료지원단",
+      "sourcePage": "http://seoulphri.seoulhealth.kr/view.do?no=805",
+      "assetUrl": "http://seoulphri.seoulhealth.kr/share/portal/img/Layout/logo.svg",
+      "expectedSha256": "105c70f68c1a095106c90197733696fe11ff693af0d7df40d4630de8bb2996ce"
+    },
+    {
+      "id": "ko-extra-5a2d0cddbf20",
+      "nameKo": "서초다산장학재단",
+      "sourcePage": "https://www.seocho.go.kr/site/seocho/05/10502050000002015070810.jsp",
+      "assetUrl": "https://www.seocho.go.kr/images/seocho_2025/layout/top_logo.svg",
+      "expectedSha256": "1e5b892ab425688f63775b30b612faf6e67578661f1b0898281b2575591b6fc6"
+    },
+    {
+      "id": "ko-extra-3ec3f83f460e",
+      "nameKo": "세종신용보증재단",
+      "sourcePage": "https://www.sjsinbo.or.kr/sub0704",
+      "assetUrl": "https://www.sjsinbo.or.kr/html/images/content/ci_img01.svg",
+      "expectedSha256": "552d96649a0f8fa22ce8aee248895ae7c63dc970a6da6b90448d18395c93529f"
+    },
+    {
+      "id": "ko-extra-69f31a349c92",
+      "nameKo": "세종학당재단",
+      "sourcePage": "https://www.ksif.or.kr/com/cmm/EgovContentView.do?menuNo=10101061",
+      "assetUrl": "https://www.ksif.or.kr/site/ksif/kor/images/common/logo_ksif_ko.svg",
+      "expectedSha256": "8221c0f5364e5db5aeb6d4c368c8df9220326a9d035dd93edef082ee5b3f8a95"
+    },
+    {
+      "id": "ko-extra-b53e45b8ad76",
+      "nameKo": "송파구시설관리공단",
+      "sourcePage": "https://www.songpagongdan.or.kr/intro/intro03.asp",
+      "assetUrl": "https://www.songpagongdan.or.kr/images/2024/common/logo.svg",
+      "expectedSha256": "5e2a33424dc0cc6c84fbd75f994ce6ccdc907f7dc5849e8f0d8f2aeca91946cf"
+    },
+    {
+      "id": "ko-extra-372a89dbac32",
+      "nameKo": "안성시시설관리공단",
+      "sourcePage": "https://www.asimc.or.kr/portal/contents.do?mid=0502020000",
+      "assetUrl": "https://www.asimc.or.kr/portal/img/common/logo_gray.svg",
+      "expectedSha256": "821bc8017e9e088157f2f45f5c0c983229d8c818f00a6f6819dedd16be6e7099"
+    },
+    {
+      "id": "ko-extra-7b2f652dae0c",
+      "nameKo": "안양시청소년재단",
+      "sourcePage": "https://www.ayf.or.kr/ayf/main/contents.do?menuNo=200037",
+      "assetUrl": "https://www.ayf.or.kr/static/prjt/cmmn/img/logo.svg",
+      "expectedSha256": "9f3a6435140de5bdd0621f32ea122ea62ed0d69c78b6d8412179fb0be0c244f3"
+    },
+    {
+      "id": "ko-extra-51ba31a9554e",
+      "nameKo": "양평공사",
+      "sourcePage": "https://yp04.or.kr/?menuno=149",
+      "assetUrl": "https://yp04.or.kr/usr/images/ci_logo.svg",
+      "expectedSha256": "8be8483bbb5684655386f8cb262c430b38ff8777d5ae244057a27f224c688306"
+    },
+    {
+      "id": "ko-extra-03866932ac07",
+      "nameKo": "에너지경제연구원",
+      "sourcePage": "https://www.keei.re.kr/menu.es?mid=a10308030000",
+      "assetUrl": "https://www.keei.re.kr/main/img/layout/logo.svg",
+      "expectedSha256": "e9e5f73f253315ee791aab264ba87561c0ab63f6a3fe35e0c4cb5e4f287c894c"
+    },
+    {
+      "id": "ko-extra-7df977225de1",
+      "nameKo": "여수광양항만공사",
+      "sourcePage": "https://www.ygpa.or.kr/hmpg/ygpa/ygpa/prom/cich/ci01/contPageDetail.do?conts_no=73CF9B8C97DE49EB9BF4BC6CF3BB3BA2",
+      "assetUrl": "https://www.ygpa.or.kr/images/hmpg/ygpa/logo_white.svg",
+      "expectedSha256": "e8ac4523a8b13777fb36af88b329a0e9e282db8ab52f610e0b631462260c7a5a"
+    },
+    {
+      "id": "ko-extra-584a79fdf6f8",
+      "nameKo": "여주시",
+      "sourcePage": "https://www.yeoju.go.kr/www/contents.do?key=393",
+      "assetUrl": "https://www.yeoju.go.kr/site/public/images/common/new_logo.svg",
+      "expectedSha256": "5b2e4487c05109fd6b8463ace0d6b3445771c91bd6eaa384ea43be49c7d41351"
+    },
+    {
+      "id": "ko-extra-4be956be6058",
+      "nameKo": "연구개발특구진흥재단",
+      "sourcePage": "https://www.innopolis.or.kr/board?menuId=MENU00875&amp;siteId=null",
+      "assetUrl": "https://www.innopolis.or.kr/resources/images/mps/2025/layout/header-logo.svg",
+      "expectedSha256": "652f95cdf14f472dce0a0be43f12eab00fb09371b31b03f797b2831569c2fb0c"
+    },
+    {
+      "id": "ko-extra-411d67b0fc6c",
+      "nameKo": "연천군청소년육성재단",
+      "sourcePage": "https://www.ycyc.or.kr/foundation/ci",
+      "assetUrl": "https://www.ycyc.or.kr/images/intro/CI.svg",
+      "expectedSha256": "6ea094a4a9032b72b3c0f24240daf046a215a1bd7f9360388e685e6e2f9a63ad"
+    },
+    {
+      "id": "ko-extra-bde4ced9b729",
+      "nameKo": "영화진흥위원회",
+      "sourcePage": "http://www.kofic.or.kr/kofic/business/intr/introCI.do",
+      "assetUrl": "http://www.kofic.or.kr/kofic/comm/img/common/top_logo.svg",
+      "expectedSha256": "b700aafc05f37680a7202e2d4308fbe6391579eab878b90f4f9703600a7e93a6"
+    },
+    {
+      "id": "ko-extra-1d68dc64dd8d",
+      "nameKo": "오송첨단의료산업진흥재단",
+      "sourcePage": "https://www.kbiohealth.kr/menu.es?mid=a10105000000",
+      "assetUrl": "https://www.kbiohealth.kr/kr/img/sub/ci_03.svg",
+      "expectedSha256": "2787dc2cffd660fa00f376417ba8e069b377a08599d3f163b73fa5dba3025c25"
+    },
+    {
+      "id": "ko-extra-384809fa91ce",
+      "nameKo": "울산광역시북구교육진흥재단",
+      "sourcePage": "https://www.bukgu.ulsan.kr/lay1/S1T37C42/contents.do",
+      "assetUrl": "https://www.bukgu.ulsan.kr/images/header/logo.svg",
+      "expectedSha256": "b300bbb8b97ba9950f0a1828c8cb30b40b0ba86efffef9f813f5e2eeb901fc00"
+    },
+    {
+      "id": "ko-extra-d3ccc2e97267",
+      "nameKo": "유성구행복누리재단",
+      "sourcePage": "http://ys-happy.or.kr/app/page/index?md_id=pageci",
+      "assetUrl": "http://ys-happy.or.kr/assets/common/images/user/welfare_logo.svg",
+      "expectedSha256": "6408b0ad67a6501c855c2fa4c6cf7ae50f219c3eda276de22a3e0e0cb2382762"
+    },
+    {
+      "id": "ko-extra-43b4ce6e8ea0",
+      "nameKo": "이천시",
+      "sourcePage": "https://www.icheon.go.kr/portal/contents.do?mid=0502040200",
+      "assetUrl": "https://www.icheon.go.kr/portal/img/content/05/ci_img1.svg",
+      "expectedSha256": "b2b18d41bf7d60c6df93be468043e2416301085d297c0b7708405da6087a2e07"
+    },
+    {
+      "id": "ko-extra-7aa8ba3ee55d",
+      "nameKo": "인천광역시 강화군",
+      "sourcePage": "http://www.ganghwa.go.kr/open_content/main/ganghwa/info/symbol.jsp",
+      "assetUrl": "http://www.ganghwa.go.kr/open_content/main/images/img2024/logo.svg",
+      "expectedSha256": "5ffaec49c8ee6006363909f075fb75d5be1cc86f993d8f1e5438e0441aa43b2f"
+    },
+    {
+      "id": "ko-extra-578227059146",
+      "nameKo": "인천교통공사",
+      "sourcePage": "https://www.ictr.or.kr/main/introduction/status/ci.jsp",
+      "assetUrl": "https://www.ictr.or.kr/main/img/main2025/logo.svg",
+      "expectedSha256": "0fc490ece787555c075bb81dababc48c41cd4c4d8c0683d747352ebfa6ec6864"
+    },
+    {
+      "id": "ko-extra-7e0c98598956",
+      "nameKo": "인천문화재단",
+      "sourcePage": "https://www.ifac.or.kr/ifacintro/intro/institutionSymbol.do?key=m2501143803899",
+      "assetUrl": "https://www.ifac.or.kr/resource/www/images/layout/logo.svg",
+      "expectedSha256": "c82c82c1adf9c97532100b4379d449683e66eff23d5c2a95de595c24e327c5d4"
+    },
+    {
+      "id": "ko-extra-ed8d49af6341",
+      "nameKo": "(재)우체국물류지원단",
+      "sourcePage": "https://www.pola.or.kr/web/content.do?proFn=ci",
+      "assetUrl": "https://www.pola.or.kr/images_new/common/logo-gray.svg",
+      "expectedSha256": "534b032fe58c3a0bb1076b23ba7a9a8d5f55eeed155e833bc8bb24015fedd6b3"
+    },
+    {
+      "id": "ko-extra-56545f07382c",
+      "nameKo": "재단법인 장애인기업종합지원센터",
+      "sourcePage": "https://www.debc.or.kr/s6/s6_5.php",
+      "assetUrl": "https://www.debc.or.kr/theme/debc/images/new_common/logo.svg",
+      "expectedSha256": "558f218442065298cfb04a5a30a72c37ddc887238da5c6ddba26946285ec6a43"
+    },
+    {
+      "id": "ko-extra-1fcc8c27c175",
+      "nameKo": "재단법인 종로복지재단",
+      "sourcePage": "https://jongnowf.or.kr/web/intro/ci.do",
+      "assetUrl": "https://jongnowf.or.kr/res/img/logo/jongno_logo.svg",
+      "expectedSha256": "fc3dd9955972fa19eaf14d7becec5c71d8efcfea2ac014d4d807ddeb44e560e9"
+    },
+    {
+      "id": "ko-extra-2578db4f53b0",
+      "nameKo": "재단법인강화군복지재단",
+      "sourcePage": "https://www.ghwelf.or.kr/introduce/ci.jsp",
+      "assetUrl": "https://www.ghwelf.or.kr/img/btm-logo.svg",
+      "expectedSha256": "32c16a62a680ec33d5f3350ea0856b17be70909fea8a8b8808b0e16db9afe0b7"
+    },
+    {
+      "id": "ko-extra-ab15c9f69c2f",
+      "nameKo": "재단법인계룡시문화관광재단",
+      "sourcePage": "https://www.gcfct.org/symbolic",
+      "assetUrl": "https://www.gcfct.org/public/images/layout/logo-black2.svg",
+      "expectedSha256": "47c8718fe1ea8b7e2fb087349f1ad281d88295c946be22d42aa16d86164f82aa"
+    },
+    {
+      "id": "ko-extra-19c2ff8c2c26",
+      "nameKo": "재단법인고양시청소년재단",
+      "sourcePage": "https://www.gcyf.or.kr/bbs/content.php?co_id=gcyf_01_9",
+      "assetUrl": "https://www.gcyf.or.kr/img/logo/logo_gcyf.svg",
+      "expectedSha256": "69001b153975ee3756b3c10d0774c5bf33e36adef92dfbe6c4ba9c778e3b0da3"
+    },
+    {
+      "id": "ko-extra-de62cb380c02",
+      "nameKo": "재단법인광주광역시사회서비스원",
+      "sourcePage": "https://gj.pass.or.kr/introduce-CI_introduce",
+      "assetUrl": "https://gj.pass.or.kr/2024/images/layout/header/logo.svg",
+      "expectedSha256": "6d81cd588acc241266438b661b1b482fac6cb5b448279c2aa0148225767c56d6"
+    },
+    {
+      "id": "ko-extra-6a9793880dbc",
+      "nameKo": "재단법인광주디자인진흥원",
+      "sourcePage": "https://www.gdc.or.kr/contents.do?S=S01&amp;M=0608000000",
+      "assetUrl": "https://www.gdc.or.kr/_KOR/img/f_logo.svg",
+      "expectedSha256": "b11aab7398acdd359993aea5538fba371fb49bf626446a02ef778a6fc5c0aa89"
+    },
+    {
+      "id": "ko-extra-5525e7ea7907",
+      "nameKo": "재단법인남동문화재단",
+      "sourcePage": "https://www.namdongcf.or.kr/user/contents.php?sq=109",
+      "assetUrl": "https://www.namdongcf.or.kr/user/images/common/header_logo.svg",
+      "expectedSha256": "285ef71d5e22075420a3d57a64802a556c9b2fb4fb8627b33a42dc10a167b794"
+    },
+    {
+      "id": "ko-extra-25add5f8215a",
+      "nameKo": "재단법인대구디지털혁신진흥원",
+      "sourcePage": "https://www.dip.or.kr/home/intro/ci/pageView.ubs",
+      "assetUrl": "https://www.dip.or.kr/jsp/home/images/logo_sub.svg",
+      "expectedSha256": "aef8c4a53ad2fe3867a0eec53520b86a2e8a116241bd62ddd78e813598ed807e"
+    },
+    {
+      "id": "ko-extra-80d544ac4e1c",
+      "nameKo": "재단법인대구문화예술진흥원",
+      "sourcePage": "https://dgfca.or.kr/page/99",
+      "assetUrl": "https://dgfca.or.kr/images/layout/dgfca_logo.svg",
+      "expectedSha256": "fc11ad0b2d2a63e0aee1bea2bd03bcf308b7e1799f9fa25e48c5d5e472bed5a4"
+    },
+    {
+      "id": "ko-extra-b0b4315519d7",
+      "nameKo": "재단법인대전과학산업진흥원",
+      "sourcePage": "https://www.distep.re.kr/ci",
+      "assetUrl": "https://www.distep.re.kr/_webroot/images/korean/sub/logo-ci.svg",
+      "expectedSha256": "f42e5d03f356f0ae14ea2f04056c7689379c89bcc45465bdbc66bc2b013a708c"
+    },
+    {
+      "id": "ko-extra-81eac2f1a577",
+      "nameKo": "재단법인부산연구원",
+      "sourcePage": "https://www.bdi.re.kr/www/content/15",
+      "assetUrl": "https://www.bdi.re.kr/template/t006001/images/logo-w.svg",
+      "expectedSha256": "d4d002ed063d32dca37ecf822b34eea1a92e4d3a2a70260dfb894726aa820a9d"
+    },
+    {
+      "id": "ko-extra-a59a16a493b0",
+      "nameKo": "재단법인부여군지역공동체활성화재단",
+      "sourcePage": "https://www.blcrf.com/sub.php?menu=5",
+      "assetUrl": "https://www.blcrf.com/html/images/ci_basic.svg",
+      "expectedSha256": "aab6320874385ec6db1c5268d68775c2faaeaf21249a13607da5a8ad2a7dd5e6"
+    },
+    {
+      "id": "ko-extra-17c71d50c469",
+      "nameKo": "재단법인부천아트센터",
+      "sourcePage": "https://www.bac.or.kr/home/display/region/content/JSVFcEJ4SDk2Q1ZvdC93L2NtNXlBWEUzZkI5dXh4bmZJdlVIMURSSWpNV3dJYz0=",
+      "assetUrl": "https://www.bac.or.kr/images/common/f_logo.svg",
+      "expectedSha256": "03b38cf3682d49b029c10cea59f708804121d3770c07ed33f22a7edf5a85015a"
+    },
+    {
+      "id": "ko-extra-03873677b0b4",
+      "nameKo": "재단법인서천문화관광재단",
+      "sourcePage": "https://seocheonctf.or.kr/content/166.do",
+      "assetUrl": "https://seocheonctf.or.kr/images/gj/main/logo.svg",
+      "expectedSha256": "aa19a8bd5b5469df606e00f8a8bea7dba22cda42504b9594fbbbb222313ca4d6"
+    },
+    {
+      "id": "ko-extra-aa4ba16df51f",
+      "nameKo": "재단법인세종테크노파크",
+      "sourcePage": "https://www.sjtp.or.kr/bbs/introduce/introduce05.php?bo_table=introduce05",
+      "assetUrl": "https://www.sjtp.or.kr/theme/basic/img/logo.svg",
+      "expectedSha256": "c72c7a72a219d068787eecf53b3504b24055a4b0fd45b2de8a6046a3595c3c51"
+    },
+    {
+      "id": "ko-extra-40fd1141d44a",
+      "nameKo": "재단법인세종특별자치시사회서비스원",
+      "sourcePage": "https://sj.pass.or.kr/main/",
+      "assetUrl": "https://sj.pass.or.kr/main/images/korean/layout/logo-black.svg",
+      "expectedSha256": "e70993b8e78eeaec56ea78e91881b3e5714c21fde71b6fa7fa38bbcec1c3e485"
+    },
+    {
+      "id": "ko-extra-c53f26d9a080",
+      "nameKo": "재단법인시흥시인재양성재단",
+      "sourcePage": "https://www.shinjae.or.kr/programs/user/intro/logo_ci.asp",
+      "assetUrl": "https://www.shinjae.or.kr/theme/responsive_shinjae/include/img/top_logo.svg",
+      "expectedSha256": "b697a658ab2467ccd2e9a7f15f73849420d292c62e870f2a5a282629b0799c6f"
+    },
+    {
+      "id": "ko-extra-065e846bd281",
+      "nameKo": "재단법인신안신재생에너지재단",
+      "sourcePage": "https://www.snef.or.kr/user/contents.php?sq=17",
+      "assetUrl": "https://www.snef.or.kr/user/images/common/logo.svg",
+      "expectedSha256": "2561c282b6bdab598585840e865d6921a9a93aab0ec00bc236193911788b8fcb"
+    },
+    {
+      "id": "ko-extra-c97ccd862681",
+      "nameKo": "재단법인울산경제일자리진흥원",
+      "sourcePage": "https://www.ubpi.or.kr/sub/?mcode=0405060000",
+      "assetUrl": "https://www.ubpi.or.kr/images/common/ci_foot.svg",
+      "expectedSha256": "982f00097bd2ca845a54da350e2746d64d09c0a394f73aa7cba8670eef936f8a"
+    },
+    {
+      "id": "ko-extra-dff432344689",
+      "nameKo": "재단법인울산문화관광재단",
+      "sourcePage": "https://uctf.or.kr/intro/ci",
+      "assetUrl": "https://uctf.or.kr/img/common/logo.svg",
+      "expectedSha256": "e32342a34367d33d3bbc457656d39be0e35d2b21074e9afe94a8dd77c211b84d"
+    },
+    {
+      "id": "ko-extra-c76d984c9dad",
+      "nameKo": "재단법인제주특별자치도사회서비스원",
+      "sourcePage": "https://jeju.pass.or.kr/introduce-CI_introduce",
+      "assetUrl": "https://jeju.pass.or.kr/html/images/contents/introduce-ci/jeju-pass-logo-eng.svg",
+      "expectedSha256": "aad8220a07c1a21a4c7015912f35d52b8323ac1c9ccf0f34e34c5d03c5fe5d17"
+    },
+    {
+      "id": "ko-extra-1046ccf4f634",
+      "nameKo": "재단법인춘천시민장학재단",
+      "sourcePage": "http://ccbomnae.or.kr/user/indexmain.php",
+      "assetUrl": "http://ccbomnae.or.kr/img/logo.svg",
+      "expectedSha256": "03847592dcba48b4bc9d0bbe3f440e0e0dc2b838700105c24c2d567df23b7e96"
+    },
+    {
+      "id": "ko-extra-8869a06a8c30",
+      "nameKo": "재단법인춘천지역먹거리통합지원센터",
+      "sourcePage": "http://xn--v69a04wbmav5uqjg9mbj7jea696d8tcotprrbe1z.kr/basic/cn.do?n=703",
+      "assetUrl": "http://xn--v69a04wbmav5uqjg9mbj7jea696d8tcotprrbe1z.kr/site/basic/img/b_horizontal_ci.svg",
+      "expectedSha256": "0992711f983289c2ab886a4c827c4a28a0226721a35e56fe1fa27e24a98e25fa"
+    },
+    {
+      "id": "ko-extra-077794daf9a5",
+      "nameKo": "재단법인해남문화관광재단",
+      "sourcePage": "https://www.haenamct.or.kr/menu.es?mid=a10104000000",
+      "assetUrl": "https://www.haenamct.or.kr/main/img/layout/f-logo.svg",
+      "expectedSha256": "a8984a7ab8a46fbbf600bae3e5947051ca74042655c49245198c094f3b6b35ca"
+    },
+    {
+      "id": "ko-extra-8d971add8a23",
+      "nameKo": "전주푸드통합지원센터",
+      "sourcePage": "https://www.jeonjufood.org/site/menu/MENU_000000000000002",
+      "assetUrl": "https://www.jeonjufood.org/assets/site/LET/img/common/img_logo.svg",
+      "expectedSha256": "440d197b6e4a7a72114364fbe9993cbef4b636579dd38343106a9ed1ade4afaf"
+    },
+    {
+      "id": "ko-extra-8c951e5dec91",
+      "nameKo": "정보통신기획평가원",
+      "sourcePage": "https://www.iitp.kr/kr/1/introduce/ci.it",
+      "assetUrl": "https://www.iitp.kr/images/header/logo.svg",
+      "expectedSha256": "f3347d67a87185db0a03e51c3d7da72d9d33950dbb0a116ef020827844f1dcf6"
+    },
+    {
+      "id": "ko-extra-7003f0092a4d",
+      "nameKo": "정보통신정책연구원",
+      "sourcePage": "https://www.kisdi.re.kr/content.do?key=m2101113072266",
+      "assetUrl": "https://www.kisdi.re.kr/resource/www/img/layout/logo-new.svg",
+      "expectedSha256": "655124c56fb873d54030151337e406d1507572171d580fb318b4cd7eedcac087"
+    },
+    {
+      "id": "ko-extra-41d118f32ce7",
+      "nameKo": "제주특별자치도개발공사",
+      "sourcePage": "https://www.jpdc.co.kr/info/design.htm?act=view&amp;seq=17428",
+      "assetUrl": "https://www.jpdc.co.kr/pub/site/jpdc/images2021/main/logo.svg",
+      "expectedSha256": "72f634dd938475d7b87f5cdc892e9731fb10c32329f1936e4b85356a00bf2550"
+    },
+    {
+      "id": "ko-extra-5750079866f0",
+      "nameKo": "중소벤처기업부",
+      "sourcePage": "https://www.mss.go.kr/site/smba/contents/view.do?menuCd=20801030000002024122947&amp;siteCd=smba",
+      "assetUrl": "https://www.mss.go.kr/images/pattern/layout/head_logo.svg",
+      "expectedSha256": "65d94d5d2b80901bef2a4e671df8f5f79199f3ef8c8f6fbbff47e7bcd56e3c0c"
+    },
+    {
+      "id": "ko-extra-d3df9b95f072",
+      "nameKo": "중소벤처기업진흥공단",
+      "sourcePage": "https://www.kosmes.or.kr/nsh/SH/SIT/SHSIT003M0.do",
+      "assetUrl": "https://www.kosmes.or.kr/static/nsh/img/logo.svg",
+      "expectedSha256": "f11e6c9fb8075d72cb581e002440cfe0af4fd273d999e6a5fd75e18be7aaf668"
+    },
+    {
+      "id": "ko-extra-6b7327ec8263",
+      "nameKo": "춘천시",
+      "sourcePage": "https://www.chuncheon.go.kr/cityhall/about-chuncheon/introduction/brand/",
+      "assetUrl": "https://www.chuncheon.go.kr/_user/restructure2022/cityhall/img/sub/img-grid-bilogo.svg",
+      "expectedSha256": "4775b6d963b2cb9232fc080fbb35cbc44aca15f00a4761cf8d325542f80d0609"
+    },
+    {
+      "id": "ko-extra-59829db333ed",
+      "nameKo": "충남역사문화연구원",
+      "sourcePage": "https://www.cihc.or.kr/kor/contents/16",
+      "assetUrl": "https://www.cihc.or.kr/images/site/kor/layout/img_logo_f.svg",
+      "expectedSha256": "31d8987b78595bc97e76a42660e69e93a6cf7939a18c924b93fdf4b4c7b2076b"
+    },
+    {
+      "id": "ko-extra-735d84a628f6",
+      "nameKo": "충청남도",
+      "sourcePage": "https://www.chungnam.go.kr/cnportal/main/contents.do?menuNo=500932",
+      "assetUrl": "https://www.chungnam.go.kr/static/cnportal/img/logo.svg",
+      "expectedSha256": "a76350a403d9fdbbb4b00947b5c4c5fe57ed676f6008659e6442a83fbed0c1b8"
+    },
+    {
+      "id": "ko-extra-76e8f406443e",
+      "nameKo": "한국가스안전공사",
+      "sourcePage": "https://www.kgs.or.kr/kgs/adcc/view.do",
+      "assetUrl": "https://www.kgs.or.kr/asset/img/org/ci_logo01.svg",
+      "expectedSha256": "f40aa0c7d1b16b132a7fd76a7c044babe58cf603c9c91958dac3fff95e6329ce"
+    },
+    {
+      "id": "ko-extra-4b19a0206e41",
+      "nameKo": "한국건강증진개발원",
+      "sourcePage": "https://www.khepi.or.kr/board?menuId=MENU00919",
+      "assetUrl": "https://www.khepi.or.kr/resources/images/kps/content/signature01.svg",
+      "expectedSha256": "e19695d7fb61aefa3a2b47a0ebef11f16ed395d70349ec8a230f352d272302b1"
+    },
+    {
+      "id": "ko-extra-168fd9e0af3b",
+      "nameKo": "한국과학기술기획평가원",
+      "sourcePage": "https://www.kistep.re.kr/menu.es?mid=a10201010000",
+      "assetUrl": "https://www.kistep.re.kr/main/img/sub/ci_logotype01.svg",
+      "expectedSha256": "e21896478db68cca762ffd95c531575321b36b7ac01c98bfdc1536d1452a5bf9"
+    },
+    {
+      "id": "ko-extra-2317e61ba577",
+      "nameKo": "한국관광공사",
+      "sourcePage": "https://knto.or.kr/ktoCI",
+      "assetUrl": "https://knto.or.kr/humanframe/theme/kto/assets/image/_layout/logo_kto.svg",
+      "expectedSha256": "7a485b982348d500dda0e6d761a213aa32e2f8ef766549c607198c37eb66712e"
+    },
+    {
+      "id": "ko-extra-53e90269b300",
+      "nameKo": "한국기술교육대학교",
+      "sourcePage": "https://www.koreatech.ac.kr/menu.es?mid=a10101030100",
+      "assetUrl": "https://www.koreatech.ac.kr/template/common/foot_logo.svg",
+      "expectedSha256": "64f332735bbfd5dcf890d99b4cd0296203f4f57749111e33205340a6acfe029d"
+    },
+    {
+      "id": "ko-extra-ff698e455d08",
+      "nameKo": "한국마사회",
+      "sourcePage": "http://www.kra.co.kr/main.do",
+      "assetUrl": "http://www.kra.co.kr/common/images/common/logo_gray.svg",
+      "expectedSha256": "9e90f24f3f027386e0a036f89494993efbb973027208beb0d830dbf413bfa2e6"
+    },
+    {
+      "id": "ko-extra-7e91430d4fa6",
+      "nameKo": "한국법무보호복지공단",
+      "sourcePage": "https://www.koreha.or.kr/sub/06_02_4.do?MN1=7&amp;MN2=42&amp;MN3=74&amp;MN=74",
+      "assetUrl": "https://www.koreha.or.kr:443/Publishing/home/images/user/logo.svg",
+      "expectedSha256": "946d82f9847164d58f7701b37a379ddb42efb982adc5a9620ea8617b21cad912"
+    },
+    {
+      "id": "ko-extra-9ee07839e8a6",
+      "nameKo": "한국사회보장정보원",
+      "sourcePage": "http://www.ssis.or.kr/lay1/S1T162C326/contents.do",
+      "assetUrl": "http://www.ssis.or.kr/images/renew3/common/logo.svg",
+      "expectedSha256": "38a34133581c100d7801f845a310c87893744e289356aad5731fcc64175f205f"
+    },
+    {
+      "id": "ko-extra-59656a1fb111",
+      "nameKo": "한국사회적기업진흥원",
+      "sourcePage": "https://www.socialenterprise.or.kr/homepage/contents/contents.do?ciIdx=10038&amp;menuId=888",
+      "assetUrl": "https://www.socialenterprise.or.kr/assets/images/common/logo.svg",
+      "expectedSha256": "0149426d7abd7059c9bf99676611953171af282ae4df6bcfddf7e578c70a9448"
+    },
+    {
+      "id": "ko-extra-a249cba146e0",
+      "nameKo": "한국산업기술시험원",
+      "sourcePage": "https://www.ktl.re.kr/promotion_center/promotion_8/promotion_corporate_identity.do?menu_gubun=mid&amp;menu_no=6&amp;menu_no2=4&amp;menu_no3=&amp;params=",
+      "assetUrl": "https://www.ktl.re.kr/images/common/ktl_logo.svg",
+      "expectedSha256": "d4f9c21c15841f9a3557a8d44919d5ec3c3cd05eace08ead4415cb9419c7525d"
+    },
+    {
+      "id": "ko-extra-f7e20811c13b",
+      "nameKo": "한국산업인력공단",
+      "sourcePage": "https://www.hrdkorea.or.kr/3/2/2/1",
+      "assetUrl": "https://www.hrdkorea.or.kr/design5/images/logo.svg",
+      "expectedSha256": "52b469afa2146ec7e5fb2f30642fdd7f19090fd0f5c9487a104bd5262176e713"
+    },
+    {
+      "id": "ko-extra-4de5108d23e0",
+      "nameKo": "한국에너지공단",
+      "sourcePage": "https://www.energy.or.kr/front/conts/102013001000000.do",
+      "assetUrl": "https://www.energy.or.kr/common/front/home/images/common/logo_bott.svg",
+      "expectedSha256": "79c4064e21e79effac31854f6177c2193b04ee36781ed0024e4bab4f024c279e"
+    },
+    {
+      "id": "ko-extra-d06652ab2eef",
+      "nameKo": "한국연구재단",
+      "sourcePage": "https://www.nrf.re.kr/page/83?menuNo=83",
+      "assetUrl": "https://www.nrf.re.kr/resources/img/common/header/logo.svg",
+      "expectedSha256": "89ad15ca561e1635fbdd1704786a1c94935a2f9d315605fbdfedd1079e0c359f"
+    },
+    {
+      "id": "ko-extra-f03ac931040c",
+      "nameKo": "한국재료연구원",
+      "sourcePage": "https://www.kims.re.kr/v17/bbx/content.php?co_id=06_10",
+      "assetUrl": "https://www.kims.re.kr/v17/theme/renewal2025/images/kims_logo_color.svg",
+      "expectedSha256": "11629a318e4425eb6c9f3af212564c415d8ed4ac32aebe184f7867237a814e45"
+    },
+    {
+      "id": "ko-extra-afba264ff8a7",
+      "nameKo": "한국전력공사",
+      "sourcePage": "https://www.kepco.co.kr/home/about/introduce/ci/conts.do",
+      "assetUrl": "https://www.kepco.co.kr/assets/images/pages/about/policy/signature_01.svg",
+      "expectedSha256": "e2dd996377a7a53cba9f77ed890f19f166153582007e1a9c44f8b51aac91b406"
+    },
+    {
+      "id": "ko-extra-e862b9a2ddee",
+      "nameKo": "한국전자통신연구원",
+      "sourcePage": "https://www.etri.re.kr/korcon/sub7/sub7_11.etri",
+      "assetUrl": "https://www.etri.re.kr/images/kor/layout_2019/logo.svg",
+      "expectedSha256": "256f92ae51d3a6a916dbdd2b4adfbc78e3b23accedc672f3bf9978c8733021db"
+    }
+  ]
+}

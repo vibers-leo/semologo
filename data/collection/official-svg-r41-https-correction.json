@@ -1,0 +1,122 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-10-16",
+  "reason": "Windows pinned collector accepts HTTPS only",
+  "upgradedSameSha256": [
+    {
+      "id": "ko-extra-e896ff14fa0e",
+      "oldUrl": "http://www.cha.go.kr/images/2025/layout/logo.svg",
+      "assetUrl": "https://www.cha.go.kr/images/2025/layout/logo.svg",
+      "expectedSha256": "79a13cd1c9afc1875fc9ed092e03c32f69519634da0b7eedf4ad0fed628a5d80"
+    },
+    {
+      "id": "ko-extra-76702eab1dde",
+      "oldUrl": "http://www.bisco.or.kr/image/2025/logo.svg",
+      "assetUrl": "https://www.bisco.or.kr/image/2025/logo.svg",
+      "expectedSha256": "25b2f6c1580eca8e18bdadeafb0c643e94dc0b2939ccfabdfde0bd88b8ec3cd1"
+    },
+    {
+      "id": "ko-extra-6cdf3564254d",
+      "oldUrl": "http://www.seoultech.ac.kr/site/ko/2021/res/img/logo_on.svg",
+      "assetUrl": "https://www.seoultech.ac.kr/site/ko/2021/res/img/logo_on.svg",
+      "expectedSha256": "511d5d9ad9fd060641f8510bd43c18210479e0044c237cb15e0e4c14742c663e"
+    },
+    {
+      "id": "ko-extra-05be19feea73",
+      "oldUrl": "http://www.sto.or.kr/humanframe/theme/sto/assets/images/main_renewal_2024/ico_header_logo_sto.svg",
+      "assetUrl": "https://www.sto.or.kr/humanframe/theme/sto/assets/images/main_renewal_2024/ico_header_logo_sto.svg",
+      "expectedSha256": "d0027b97b3c7dccf5d403a8839eb21a06f04a05d45aa29bede656af79332947c"
+    },
+    {
+      "id": "ko-extra-fbbf669003bd",
+      "oldUrl": "http://www.seoulmetro.co.kr/images/layout/logo.svg",
+      "assetUrl": "https://www.seoulmetro.co.kr/images/layout/logo.svg",
+      "expectedSha256": "04d5dbbae0cdfd43adfd3c7c357f15a0f798b15a3af4e4036c1d5ea53a8df825"
+    },
+    {
+      "id": "ko-extra-bde4ced9b729",
+      "oldUrl": "http://www.kofic.or.kr/kofic/comm/img/common/top_logo.svg",
+      "assetUrl": "https://www.kofic.or.kr/kofic/comm/img/common/top_logo.svg",
+      "expectedSha256": "b700aafc05f37680a7202e2d4308fbe6391579eab878b90f4f9703600a7e93a6"
+    },
+    {
+      "id": "ko-extra-7aa8ba3ee55d",
+      "oldUrl": "http://www.ganghwa.go.kr/open_content/main/images/img2024/logo.svg",
+      "assetUrl": "https://www.ganghwa.go.kr/open_content/main/images/img2024/logo.svg",
+      "expectedSha256": "5ffaec49c8ee6006363909f075fb75d5be1cc86f993d8f1e5438e0441aa43b2f"
+    },
+    {
+      "id": "ko-extra-ff698e455d08",
+      "oldUrl": "http://www.kra.co.kr/common/images/common/logo_gray.svg",
+      "assetUrl": "https://www.kra.co.kr/common/images/common/logo_gray.svg",
+      "expectedSha256": "9e90f24f3f027386e0a036f89494993efbb973027208beb0d830dbf413bfa2e6"
+    },
+    {
+      "id": "ko-extra-9ee07839e8a6",
+      "oldUrl": "http://www.ssis.or.kr/images/renew3/common/logo.svg",
+      "assetUrl": "https://www.ssis.or.kr/images/renew3/common/logo.svg",
+      "expectedSha256": "38a34133581c100d7801f845a310c87893744e289356aad5731fcc64175f205f"
+    },
+    {
+      "id": "ko-extra-462ec6aa2bc4",
+      "oldUrl": "http://www.sto.or.kr/humanframe/theme/sto/assets/images/main_renewal_2024/ico_header_logo_sto_active.svg",
+      "assetUrl": "https://www.sto.or.kr/humanframe/theme/sto/assets/images/main_renewal_2024/ico_header_logo_sto_active.svg",
+      "expectedSha256": "d24dd54f2c7a97c2605f5c0a349eb0ae7fb098df89d8fdad48882253aec523b1"
+    },
+    {
+      "id": "ko-extra-376b0b1d3a6c",
+      "oldUrl": "http://www.ssis.or.kr/images/renew3/common/logo_b.svg",
+      "assetUrl": "https://www.ssis.or.kr/images/renew3/common/logo_b.svg",
+      "expectedSha256": "102d74121887ed2bacfd0725426b21004abb45a735287c7ccecda0b534364980"
+    },
+    {
+      "id": "ko-extra-2405bb3ea38e",
+      "oldUrl": "http://www.ssis.or.kr/images/renew3/common/logo_wh.svg",
+      "assetUrl": "https://www.ssis.or.kr/images/renew3/common/logo_wh.svg",
+      "expectedSha256": "70f701268aaa45ab777a6ecdb181481863b2e205eeb1b2cfaf7e4e6c522331a9"
+    }
+  ],
+  "heldInvalidHttps": [
+    {
+      "id": "ko-extra-76b8d0f660aa",
+      "nameKo": "서울의료원 공공보건의료지원단",
+      "assetUrl": "http://seoulphri.seoulhealth.kr/share/portal/img/Layout/logo.svg"
+    },
+    {
+      "id": "ko-extra-d3ccc2e97267",
+      "nameKo": "유성구행복누리재단",
+      "assetUrl": "http://ys-happy.or.kr/assets/common/images/user/welfare_logo.svg"
+    },
+    {
+      "id": "ko-extra-1046ccf4f634",
+      "nameKo": "재단법인춘천시민장학재단",
+      "assetUrl": "http://ccbomnae.or.kr/img/logo.svg"
+    },
+    {
+      "id": "ko-extra-8869a06a8c30",
+      "nameKo": "재단법인춘천지역먹거리통합지원센터",
+      "assetUrl": "http://xn--v69a04wbmav5uqjg9mbj7jea696d8tcotprrbe1z.kr/site/basic/img/b_horizontal_ci.svg"
+    },
+    {
+      "id": "ko-extra-332be2d6977f",
+      "nameKo": "재단법인춘천시민장학재단",
+      "assetUrl": "http://ccbomnae.or.kr/img/logo_on.svg"
+    },
+    {
+      "id": "ko-extra-45fcb9d7974a",
+      "nameKo": "재단법인춘천지역먹거리통합지원센터",
+      "assetUrl": "http://xn--v69a04wbmav5uqjg9mbj7jea696d8tcotprrbe1z.kr/site/basic/img/s_horizontal_ci.svg"
+    },
+    {
+      "id": "ko-extra-ba8930c8bfca",
+      "nameKo": "재단법인춘천지역먹거리통합지원센터",
+      "assetUrl": "http://xn--v69a04wbmav5uqjg9mbj7jea696d8tcotprrbe1z.kr/site/basic/img/s_vertical_ci.svg"
+    },
+    {
+      "id": "ko-extra-e45c2daa487e",
+      "nameKo": "재단법인춘천지역먹거리통합지원센터",
+      "assetUrl": "http://xn--v69a04wbmav5uqjg9mbj7jea696d8tcotprrbe1z.kr/site/basic/img/header_logo.svg"
+    }
+  ],
+  "sourceCount": 493
+}

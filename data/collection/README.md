@@ -1,5 +1,13 @@
 # 2026-09-08 로고 수집 작업
 
+## 공식 CI 출처 확장 (2026-10-16)
+
+`public-ci-index.json`의 고정된 공식 페이지를 `collect-official-ci-assets.py --missing --workers 8 0 2000`으로 점검했다. `official-ci-assets-staged.json`에는 1,626개 기관 페이지의 직접 파일 링크와 실패 상태를 보관한다. 1,247개 페이지에서 파일 링크가 발견됐고 298개 페이지는 접속에 실패했다. 링크 발견은 로고 수집 성공이나 서비스 공개를 뜻하지 않는다.
+
+`preflight-official-svg.py --roster <현행 로스터> --out <검토 폴더> --limit 100`은 아직 시도하지 않은 SVG 후보를 가져와 밝은/어두운 배경 검토 시트를 만든다. 이 시트를 보고 기관명이 다른 로고, 기관 전체 CI가 아닌 캠페인·배지, 중복 해시는 제외했다. 승인 출처는 `official-svg-r38-review.json`(31개), `official-svg-r39-review.json`(81개), `official-svg-r40-review.json`(69개)에 원문 페이지·파일 URL·SHA-256과 함께 기록했다. 검토 시트는 `contact-sheets/`에 있다.
+
+`semologo-official-worker-roster-r41.json`은 실제 배포한 493개 허용 출처의 재현 가능한 스냅샷이다. HTTPS가 정상인 주소 12개는 같은 SHA-256으로 교체했고, 인증서가 잘못된 8개 출처는 `official-svg-r41-https-correction.json`에 보류했다. Windows 수집기는 승인된 URL과 해시만 받는다. 버킷 원본 수집 뒤에도 정체·품질·권리·기존 콘텐츠와의 관계를 별도로 검토해야 하며, 이 단계에서 공개 브랜드 수는 증가하지 않는다.
+
 - `fashion-reference-wanted.json`: 사용자 참고 이미지 4장에서 중복 제거한 패션 브랜드 50개.
 - 원본 수집 후보 14개는 공유 저장소 `_clients/collect-wanted.json`에 추가했다(837 → 851).
 - 기존 이름 매칭 36개는 동일 브랜드·형태 확인이 필요하다. 이름 매칭만으로 원본 확보 완료로 처리하지 않는다.

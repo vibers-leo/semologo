@@ -1,0 +1,3456 @@
+{
+  "schemaVersion": 1,
+  "sources": [
+    {
+      "id": "강화군시설관리공단",
+      "nameKo": "강화군시설관리공단",
+      "sourcePage": "https://www.ghss.or.kr/user/corpInfo/corpInfo/ciInfo.do",
+      "assetUrl": "https://www.ghss.or.kr/_resource/images/common/gh_mlogo.svg",
+      "expectedSha256": "01aff49d9919376e9f1f87239689cce52311ff53d82212c5d9a9606846ac5290"
+    },
+    {
+      "id": "경상북도안동의료원",
+      "nameKo": "경상북도안동의료원",
+      "sourcePage": "https://amc.or.kr/front/page.do?pageView=/about/symbol",
+      "assetUrl": "https://amc.or.kr/pub/images/logo.svg",
+      "expectedSha256": "6b722cce89986e73e3e3e6245b28dbc5830ec3ce86e76159465aeb5c61685df1"
+    },
+    {
+      "id": "공무원연금공단",
+      "nameKo": "공무원연금공단",
+      "sourcePage": "https://www.geps.or.kr/gepsIntro_gepsIs_brandIntro_ciInfo",
+      "assetUrl": "https://www.geps.or.kr/humanframe/theme/geps2022/assets/images/logo.svg?ver=2011124",
+      "expectedSha256": "d73a09e81f1bdca8ee2102d3303e35f39ec3a5f2c24cce820a7f7965edbea001"
+    },
+    {
+      "id": "공정거래위원회",
+      "nameKo": "공정거래위원회",
+      "sourcePage": "https://www.ftc.go.kr/www/contents.do?key=407",
+      "assetUrl": "https://www.ftc.go.kr/site/www/img/layout/logo.svg",
+      "expectedSha256": "4869b11d6afb6854c0be867aae781682c24c8b18bc89e3f41b6e26827a805108"
+    },
+    {
+      "id": "국가과학기술인력개발원",
+      "nameKo": "국가과학기술인력개발원",
+      "sourcePage": "https://www.kird.re.kr/introduce/ci",
+      "assetUrl": "https://www.kird.re.kr/images/common/logo_kird.svg",
+      "expectedSha256": "8029688749c4178e0b8b356e33b0070bda5df783b00f35fd275061e839e38e0f"
+    },
+    {
+      "id": "국가유산진흥원",
+      "nameKo": "국가유산진흥원",
+      "sourcePage": "https://www.kh.or.kr/cms/content/view/409",
+      "assetUrl": "https://www.kh.or.kr/_static/chf1/img/common/logo.svg",
+      "expectedSha256": "8f4f9a11a21a9dbb2c6b29800b9ab5c9eaa64af964a7d2f826d0568f0ab85129"
+    },
+    {
+      "id": "국립환경과학원",
+      "nameKo": "국립환경과학원",
+      "sourcePage": "https://www.nier.go.kr/common/kor/content/comContsDetail.do?menuNo=15005&contsNo=85",
+      "assetUrl": "https://www.nier.go.kr/template/template1/assets/img/common/logo.svg",
+      "expectedSha256": "5be91998923ce102e6a05166d99a7533f7efed035765cbe612f745b35e6ebcce"
+    },
+    {
+      "id": "국민연금공단",
+      "nameKo": "국민연금공단",
+      "sourcePage": "https://www.nps.or.kr/pbcpgdnc/ci/getOHAG0010M0.do?menuId=MN24001020",
+      "assetUrl": "https://www.nps.or.kr/images/common/top_logo.svg",
+      "expectedSha256": "0094b4f8fda5637a9f354c0ec94d13670e08033826114f2595a9079d7dc014b6"
+    },
+    {
+      "id": "기술보증기금",
+      "nameKo": "기술보증기금",
+      "sourcePage": "https://www.kibo.or.kr/main/about/about0703-01.do",
+      "assetUrl": "https://www.kibo.or.kr/_res/kibo/main/etc/kibo-logo-white.svg",
+      "expectedSha256": "e2b402426e428a3315ed2c27cde8cbbec8f8e768ea8e5905471f8be1ed6b391d"
+    },
+    {
+      "id": "김포문화재단",
+      "nameKo": "김포문화재단",
+      "sourcePage": "https://www.gcf.or.kr/main/content/view.do?sn=60",
+      "assetUrl": "https://www.gcf.or.kr/main/images/common/logo_foot.svg",
+      "expectedSha256": "44370d9112a19a4f1ec1bd1b22eefe542dc268dc5903a06f2fc16f866b25e8ed"
+    },
+    {
+      "id": "김해문화관광재단",
+      "nameKo": "김해문화관광재단",
+      "sourcePage": "https://www.ghct.or.kr/content/intro08_02",
+      "assetUrl": "https://www.ghct.or.kr/resources/custom/images/ghcf/sub/logo_ghculture.svg",
+      "expectedSha256": "e0b0692b9e11b4fb8dd51b2f41cf2d8aa1106a3edd86d148912a62ba6eab9a64"
+    },
+    {
+      "id": "당진도시공사",
+      "nameKo": "당진도시공사",
+      "sourcePage": "https://www.djuc.or.kr/sub_about/intro_03.php",
+      "assetUrl": "https://www.djuc.or.kr/images/inc/logoS.svg?v=9.14",
+      "expectedSha256": "326fe376c00b8f063fbc02d8b0056d760c8aee031f765c3841df24691d463da2"
+    },
+    {
+      "id": "대구경북디자인진흥원",
+      "nameKo": "대구경북디자인진흥원",
+      "sourcePage": "https://www.dgdp.or.kr/",
+      "assetUrl": "https://www.dgdp.or.kr/assets/logo.svg",
+      "expectedSha256": "d09f6b2ca7302d199b447832a379d57fb6ec560a9d7e0f49287aca537108611f"
+    },
+    {
+      "id": "대구농수산물유통관리공사",
+      "nameKo": "대구농수산물유통관리공사",
+      "sourcePage": "https://www.dafco.or.kr/",
+      "assetUrl": "https://www.dafco.or.kr/images/common/logo.svg",
+      "expectedSha256": "15f8165a8169d3cc560f6672849141129c56c5f67a086b4489b5d791e820874b"
+    },
+    {
+      "id": "대구동구문화재단",
+      "nameKo": "대구동구문화재단",
+      "sourcePage": "https://www.dgdgcf.or.kr/front/about/ci.php",
+      "assetUrl": "https://www.dgdgcf.or.kr/images/common/logo_dgcf.svg",
+      "expectedSha256": "3def42e037cae368075e8e6a7b1b8dffb43778740ad5cb25a4c13882b2811837"
+    },
+    {
+      "id": "대전연구원",
+      "nameKo": "대전연구원",
+      "sourcePage": "https://www.dji.re.kr/menu.es?mid=a10519000000",
+      "assetUrl": "https://www.dji.re.kr/dji/images/korean/sub/ci_logo01.svg",
+      "expectedSha256": "3d825c162e29c9405c8c869c1fa0f61d56f476bafa9ba47cd2e71e1514f675bb"
+    },
+    {
+      "id": "대전테크노파크",
+      "nameKo": "대전테크노파크",
+      "sourcePage": "https://www.djtp.or.kr/menu.es?mid=a20502020000",
+      "assetUrl": "https://www.djtp.or.kr/DJTPkorean/images/common/i_logo.svg",
+      "expectedSha256": "47afc662e20ceb2f38e6151052a4c87c7dd401b280394e82c90a46dbc0640a53"
+    },
+    {
+      "id": "대한체육회",
+      "nameKo": "대한체육회",
+      "sourcePage": "https://www.sports.or.kr/sports/main/contents.do?menuNo=200058",
+      "assetUrl": "https://www.sports.or.kr/static/sports/svg/logo_2.svg",
+      "expectedSha256": "85972d8dee05a33c6d386e8f0e5bd930fb8210547c5327f5d0143deafb623e64"
+    },
+    {
+      "id": "부산대학교병원",
+      "nameKo": "부산대학교병원",
+      "sourcePage": "https://www.pnuh.or.kr/pnuh/hospital/information/HI.do",
+      "assetUrl": "https://www.pnuh.or.kr/_res/pnuh/pnuh/img/ren-layout/logo.svg",
+      "expectedSha256": "9de40c8d2e50c752253a2b6ef25a18edcaa58b89eccd82cfff18269fc1e0b4ce"
+    },
+    {
+      "id": "서울디자인재단",
+      "nameKo": "서울디자인재단",
+      "sourcePage": "https://seouldesign.or.kr/?menuno=40",
+      "assetUrl": "https://seouldesign.or.kr/resources/assets/images/svg/logo.svg",
+      "expectedSha256": "f9eb8e7a93608876d7048c9378f50680fae0d830b734d0762049265b6ffbfbf5"
+    },
+    {
+      "id": "서울시농수산식품공사",
+      "nameKo": "서울시농수산식품공사",
+      "sourcePage": "https://www.garak.co.kr/homepage/landing.do?cntnts_id=DC000000",
+      "assetUrl": "https://www.garak.co.kr/homepage/resource/publish/images/logo_top.svg",
+      "expectedSha256": "ab560a6b16712c725660e68819980fd40b4f3ff38e3f5c30739aa5a021abfbf9"
+    },
+    {
+      "id": "서울시립교향악단",
+      "nameKo": "서울시립교향악단",
+      "sourcePage": "https://www.seoulphil.or.kr/introduce/spo/info?langCd=ko&menuFlag=MFLG0002",
+      "assetUrl": "https://www.seoulphil.or.kr/static/webdoc/img/logo_spo.svg",
+      "expectedSha256": "ee6f4c6942d6e3b41d2a53492951191785035e53f242c1c2c535683f73ef486d"
+    },
+    {
+      "id": "ko-official-강원특별자치도 교육청",
+      "nameKo": "강원특별자치도 교육청",
+      "sourcePage": "https://gwe.go.kr/main/content.do?key=bTIzMDcyMTEyMDcyNTI=",
+      "assetUrl": "https://gwe.go.kr/resource/www/main/redesign/assets/images/common/logo-mark.svg?v=2",
+      "expectedSha256": "9365db585c79efb75478972be5eb5c6ed1786ebb0bfff25e8f9c1e177631c660"
+    },
+    {
+      "id": "ko-official-게임물관리위원회",
+      "nameKo": "게임물관리위원회",
+      "sourcePage": "https://www.grac.or.kr/Committee/SecretariatLogo01.aspx",
+      "assetUrl": "https://www.grac.or.kr/resource/images/main/renew/common/img_logo.svg",
+      "expectedSha256": "071c2dfbb5d6ec241219ef902176ad3ea5c1c9ea4643d287ed81993a530e275e"
+    },
+    {
+      "id": "ko-official-경상북도개발공사",
+      "nameKo": "경상북도개발공사",
+      "sourcePage": "https://www.gbdc.co.kr/page.do?seqId=0000003765",
+      "assetUrl": "https://www.gbdc.co.kr/templates/cms/common/img/national_symbol.svg",
+      "expectedSha256": "bc3c926f5df02049261bc5d3f8f9bd36413241e8080b13d2ceef3683e17cb5e3"
+    },
+    {
+      "id": "ko-official-국립현대미술관",
+      "nameKo": "국립현대미술관",
+      "sourcePage": "https://www.mmca.go.kr/about/miGrid.do",
+      "assetUrl": "https://www.mmca.go.kr/asset/images/common/bg_logo_full.svg",
+      "expectedSha256": "4324b51efdcfc5874940a0a986a0d0554fe6d4481f62d6935d412f96baeeaa0b"
+    },
+    {
+      "id": "ko-official-기장군도시관리공단",
+      "nameKo": "기장군도시관리공단",
+      "sourcePage": "https://www.gijangcmc.or.kr/cmc/08_intro/02_intro_05.asp",
+      "assetUrl": "https://www.gijangcmc.or.kr/cmc/share/img/sub/intro/ci_color.svg",
+      "expectedSha256": "357ffddb58c91f35c7ef2ea679868945b945637dd08e7608f2f414d30cada795"
+    },
+    {
+      "id": "ko-official-기후에너지환경부",
+      "nameKo": "기후에너지환경부",
+      "sourcePage": "https://mcee.go.kr/home/web/index.do?menuId=10211",
+      "assetUrl": "https://mcee.go.kr/images/main_202509/logo.svg",
+      "expectedSha256": "2c203cb74e99ba15c336ce1ee45da2b112f3cdf97af25ae21255467198505a5e"
+    },
+    {
+      "id": "ko-official-사천시복지청소년재단",
+      "nameKo": "사천시복지청소년재단",
+      "sourcePage": "https://youthsacheon.com/intro_01_3.html",
+      "assetUrl": "https://youthsacheon.com/images/common/sc_logo.svg",
+      "expectedSha256": "62cde2ce3ded70aa08ea083463a50becaa7f78bde52ffbe30c7e4c695e10f5a4"
+    },
+    {
+      "id": "us-index-sd",
+      "nameKo": "Sandridge Energy Inc",
+      "sourcePage": "https://sandridgeenergy.com/",
+      "assetUrl": "https://sandridgeenergy.com/wp-content/themes/energy/library/images/sandridge-logo.svg",
+      "expectedSha256": "990c8aff92454e7b55b0fe4b1aed105d546c5334c7d29801ef7e43ae00fadb67"
+    },
+    {
+      "id": "us-index-twst",
+      "nameKo": "Twist Bioscience",
+      "sourcePage": "https://www.twistbioscience.com/",
+      "assetUrl": "https://twistbioscience.com/content/dam/twist-aem-migration/logos/logo-dark-mode.svg",
+      "expectedSha256": "f0e84a94e220cf12dc885c6a74a8a8e181599836ee5c68119a26b009b3ceaeb3"
+    },
+    {
+      "id": "us-index-oscr",
+      "nameKo": "Oscar Health Class A",
+      "sourcePage": "https://oscarhealth.com/",
+      "assetUrl": "https://oscarhealth.com/logos/logo_black_header.svg",
+      "expectedSha256": "167dac77b2b8f3c7e4ff7b78410d2a31319e199a8842f110192819a491aba26c"
+    },
+    {
+      "id": "us-index-ntgr",
+      "nameKo": "Netgear",
+      "sourcePage": "https://netgear.com/",
+      "assetUrl": "https://netgear.com/mobify/bundle/4874/static/img/brand-logo.svg",
+      "expectedSha256": "262c9872d59598638d43cb3a4bab9562a54935795d138f373dc7d0f48494a69e"
+    },
+    {
+      "id": "us-index-fc",
+      "nameKo": "Franklin Covey",
+      "sourcePage": "https://www.franklincovey.com/",
+      "assetUrl": "https://www.franklincovey.com/wp-content/uploads/2022/02/FC_logo.svg",
+      "expectedSha256": "5a9342b16f6e10db7272b399f1d07a962db8a0ebe6d8d9c2748f1a5850da1b41"
+    },
+    {
+      "id": "us-index-stra",
+      "nameKo": "Strategic Education",
+      "sourcePage": "https://strategiceducation.com/",
+      "assetUrl": "https://strategiceducation.com/content/dam/strategiceducation/logo/Header_Logo_SEI.svg",
+      "expectedSha256": "3f64c98ff6a302bb55e8e5bc791b3b132cb099b1bfc6f91ab129f3196d69fb48"
+    },
+    {
+      "id": "us-index-mac",
+      "nameKo": "Macerich Reit",
+      "sourcePage": "https://macerich.com/",
+      "assetUrl": "https://macerich.com/Images/logo-macerich.svg",
+      "expectedSha256": "f99e13f59001af6d615f23d3ba30160f0a76b0a47a15387dde8931fa21b5cd59"
+    },
+    {
+      "id": "us-index-swim",
+      "nameKo": "Latham Group Inc",
+      "sourcePage": "https://swim.com/",
+      "assetUrl": "https://swim.com/resources/images/landing_page/swim_logo.svg",
+      "expectedSha256": "252e084b287e9c39ea4d50ad93ffeb4c66c003037a34fba37aa46a08a35bb148"
+    },
+    {
+      "id": "us-index-dave",
+      "nameKo": "Dave Class A",
+      "sourcePage": "https://dave.com/",
+      "assetUrl": "https://dave.com/images/common/dave-logo.svg",
+      "expectedSha256": "5ca9820ba214f988e6baa8f9270d5756f34a071e2beea943321b24b925356d65"
+    },
+    {
+      "id": "us-index-dxpe",
+      "nameKo": "Dxp Enterprises",
+      "sourcePage": "https://www.dxpe.com/",
+      "assetUrl": "https://www.dxpe.com/wp-content/themes/ism/img/DXP_Logo.svg",
+      "expectedSha256": "6c3a676c6028cb378c04bc980ff9456af339448c024e1a3f9a5e0ce0bff7cb04"
+    },
+    {
+      "id": "us-index-mtw",
+      "nameKo": "Manitowoc Inc",
+      "sourcePage": "https://manitowoc.com/",
+      "assetUrl": "https://manitowoc.com/sites/default/files/media/menu/icons/2020-07/logo-manitowoc-c.svg",
+      "expectedSha256": "7aeb9c9132d6637abddffd71b837d596e6fc3c8bca2df24653d3036cdb99a77f"
+    },
+    {
+      "id": "us-index-gdot",
+      "nameKo": "Green Dot Class A",
+      "sourcePage": "https://greendot.com/",
+      "assetUrl": "https://greendot.com/content/dam/greendot-web/home/Logo.svg",
+      "expectedSha256": "6cb9356fc2e977571ac8dc213b0674f7a93cf6e34cccebcd53f74a388f7bc376"
+    },
+    {
+      "id": "us-index-rpd",
+      "nameKo": "Rapid7",
+      "sourcePage": "https://rapid7.com/",
+      "assetUrl": "https://rapid7.com/_next/static/media/rapid7-logo.2ueoguhn_hq76.svg",
+      "expectedSha256": "b4ce9dd76cbf08c60661d88b6c8c904a26301dbd19bfc218f8891ec6803c0070"
+    },
+    {
+      "id": "us-index-cvrx",
+      "nameKo": "Cvrx Inc",
+      "sourcePage": "https://cvrx.com/",
+      "assetUrl": "https://cvrx.com/wp-content/themes/cvrx/assets/images/barostim-logo-new.svg",
+      "expectedSha256": "9cba9e31d7724ad26e6d6967292aa0495e5d7687345cae4dedddb9bfc558ca5d"
+    },
+    {
+      "id": "us-index-plug",
+      "nameKo": "Plug Power",
+      "sourcePage": "https://www.plugpower.com/",
+      "assetUrl": "https://www.plugpower.com/wp-content/themes/PlugPower2020/public/img/plug-logo.svg",
+      "expectedSha256": "f5e489573e99d282cddb7a6fbb31da3ad3e6fa37f150f9ec2b7381a0fd242903"
+    },
+    {
+      "id": "us-index-schl",
+      "nameKo": "Scholastic",
+      "sourcePage": "https://scholastic.com/",
+      "assetUrl": "https://scholastic.com/content/dam/enterprise/asset.jpg/scholastic-logo-red-bar-white-outline.svg",
+      "expectedSha256": "dd6f65a776b2edc92c68f0fa8bab4117a3a53e00223a896078d96e05277606c6"
+    },
+    {
+      "id": "us-index-val",
+      "nameKo": "Valaris Ltd",
+      "sourcePage": "https://val.com/",
+      "assetUrl": "https://val.com/images/Logo.svg",
+      "expectedSha256": "11a3ab5f037b2af757467e0015d546fe8317989503ef986f68e06d27ab3febca"
+    },
+    {
+      "id": "us-index-neo",
+      "nameKo": "Neogenomics",
+      "sourcePage": "https://www.neogenomics.com/",
+      "assetUrl": "https://www.neogenomics.com//sites/default/files/neo-logo.svg",
+      "expectedSha256": "b4c1d099a5c081f4a0de6ce527b45117c8ef3362db20949fbd8d3cba602261ea"
+    },
+    {
+      "id": "us-index-rgnx",
+      "nameKo": "Regenxbio",
+      "sourcePage": "https://regenxbio.com/",
+      "assetUrl": "https://regenxbio.com/getmedia/323ac4a3-f086-43d0-9338-7e56f7b9648f/regenx-logo.svg?ext=.svg",
+      "expectedSha256": "d0962ce7b5bfa6faf02863b3540cc6fc8bcadfb43f919a328e8e28898158f678"
+    },
+    {
+      "id": "us-index-kltr",
+      "nameKo": "Kaltura Inc",
+      "sourcePage": "https://corp.kaltura.com/",
+      "assetUrl": "https://corp.kaltura.com/wp-content/uploads/2024/01/Kaltura_logo-bb-static-1.svg",
+      "expectedSha256": "7ca93352a66c150579366db42220f2a8daedcd2427430eb29642b36798d0aedd"
+    },
+    {
+      "id": "ko-official-강화군시설관리공단-gh_logo",
+      "nameKo": "강화군시설관리공단",
+      "sourcePage": "https://www.ghss.or.kr/user/corpInfo/corpInfo/ciInfo.do",
+      "assetUrl": "https://www.ghss.or.kr/_resource/images/common/gh_logo.svg",
+      "expectedSha256": "fa912e1c853fd77d645eeff7f38cabab34d5251b927369bcc60af2bd48f26b85"
+    },
+    {
+      "id": "ko-official-공무원연금공단-symbol",
+      "nameKo": "공무원연금공단",
+      "sourcePage": "https://www.geps.or.kr/gepsIntro_gepsIs_brandIntro_ciInfo",
+      "assetUrl": "https://www.geps.or.kr/humanframe/theme/geps2022/assets/images/gepsIntro/brand/symbol.svg",
+      "expectedSha256": "a06fc9c2233fe3a4d6d7d94e2513664a4dcd14f672d75af92169cfad1c5f16ef"
+    },
+    {
+      "id": "ko-official-공정거래위원회-cts407_logo01",
+      "nameKo": "공정거래위원회",
+      "sourcePage": "https://www.ftc.go.kr/www/contents.do?key=407",
+      "assetUrl": "https://www.ftc.go.kr/site/www/img/contents/cts407_logo01.svg",
+      "expectedSha256": "354ae88dd6e86cfed05e526972f2a0cb61d4c8b667b5c7dab6bc11846605006c"
+    },
+    {
+      "id": "ko-official-공정거래위원회-cts407_logo02",
+      "nameKo": "공정거래위원회",
+      "sourcePage": "https://www.ftc.go.kr/www/contents.do?key=407",
+      "assetUrl": "https://www.ftc.go.kr/site/www/img/contents/cts407_logo02.svg",
+      "expectedSha256": "ffd91fb032d1d095374561ed456674a6ce7d426f422b6def15bcc370e797c32d"
+    },
+    {
+      "id": "ko-official-서울디자인재단-logo_black",
+      "nameKo": "서울디자인재단",
+      "sourcePage": "https://seouldesign.or.kr/?menuno=40",
+      "assetUrl": "https://seouldesign.or.kr/resources/assets/images/svg/logo_black.svg",
+      "expectedSha256": "c815ea744d76c79660548ad9701409e983b648b88e0a44b9c277096fb8e7756f"
+    },
+    {
+      "id": "us-index-bbnx",
+      "nameKo": "Beta Bionics",
+      "sourcePage": "https://betabionics.com/",
+      "assetUrl": "https://www.betabionics.com/wp-content/uploads/logo-white.svg",
+      "expectedSha256": "813d7e1513bfc69518588f527aa37404d6c01041bf9a2f03acfb6239a2515cde"
+    },
+    {
+      "id": "us-index-alec",
+      "nameKo": "Alector",
+      "sourcePage": "https://alector.com/",
+      "assetUrl": "https://alector.com/wp-content/uploads/2021/11/alector-white-text-logo.svg",
+      "expectedSha256": "d610b7f74c61c0668c71ba517c0cd9e53b8658ffbc0daaf600a642690802b87c"
+    },
+    {
+      "id": "us-index-clne",
+      "nameKo": "Clean Energy Fuels",
+      "sourcePage": "https://cleanenergyfuels.com/",
+      "assetUrl": "https://cleanenergyfuels.com/wp-content/themes/ce_2024/images/ce-sm-logo.svg",
+      "expectedSha256": "0ce6a5a1195f30993961e10c98c606dd5c1f06c13bc8cd2553c8f53eca65d437"
+    },
+    {
+      "id": "us-index-dsgr",
+      "nameKo": "Distribution Solutions Group",
+      "sourcePage": "https://distributionsolutionsgroup.com/",
+      "assetUrl": "https://distributionsolutionsgroup.com/wp-content/uploads/2022/05/logo-graphic.svg",
+      "expectedSha256": "319ff511270a48dcca34de23e58d88d96b330e02491b7b706b8474f451f6d8a2"
+    },
+    {
+      "id": "us-index-whd",
+      "nameKo": "Cactus Class A",
+      "sourcePage": "https://cactusinc.com/",
+      "assetUrl": "https://cactusinc.com/images/cactus-logo.svg",
+      "expectedSha256": "34321b1d9fa99c93f3055f766c0cdef3240b77b2e3bb10d74674847cbb5376e4"
+    },
+    {
+      "id": "us-index-bzai",
+      "nameKo": "Blaize Holdings Inc",
+      "sourcePage": "https://blaize.com/",
+      "assetUrl": "https://www.blaize.com/wp-content/uploads/2020/08/BLZ-Logo-RGB-White.svg",
+      "expectedSha256": "532f7612e656f3057b14bc770946cac374e93509ca44b363c2835280b67ddf81"
+    },
+    {
+      "id": "us-index-lcut",
+      "nameKo": "Lifetime Brands Inc",
+      "sourcePage": "https://lifetimebrands.com/",
+      "assetUrl": "https://lifetimebrands.com/cdn/shop/files/Logo-LTB2.svg?v=1714609789&amp;width=740",
+      "expectedSha256": "367c2395274f842ac14a38c962d45dfa159ab222a773b1aad4e01c18c4c5c1e9"
+    },
+    {
+      "id": "us-index-evcm",
+      "nameKo": "Evercommerce Inc",
+      "sourcePage": "https://evercommerce.com/",
+      "assetUrl": "https://www.evercommerce.com/wp-content/uploads/2021/05/Mark-FullColorCircle-2021.svg",
+      "expectedSha256": "9e3120fe87caf923c42a3a671490365e8a8f8f5dcea4493596b02878a94de5d2"
+    },
+    {
+      "id": "us-index-lif",
+      "nameKo": "Life360",
+      "sourcePage": "https://life360.com/",
+      "assetUrl": "https://life360.com/svgs/life360-logo-dark.svg",
+      "expectedSha256": "c46d5477bd945af7de47c24d0f540e116d780695d40a650fcc930fd5ec878205"
+    },
+    {
+      "id": "us-index-nabl",
+      "nameKo": "N Able Inc",
+      "sourcePage": "https://nable.com/",
+      "assetUrl": "https://nable.com/wp-content/uploads/2025/12/logo-n-able-symbol-only-light.svg",
+      "expectedSha256": "5dc0b96dc59f1ece92f0d8ed1dc4203b353d8a251e5b3b32781b92768dfb3e94"
+    },
+    {
+      "id": "us-index-alms",
+      "nameKo": "Alumis",
+      "sourcePage": "https://alumis.com/",
+      "assetUrl": "https://alumis.com/themes/default/images/logo.svg",
+      "expectedSha256": "de939c1c838e6c85e206da719d4b4321a9ae290adab14e135e5386604d73cd31"
+    },
+    {
+      "id": "us-index-sght",
+      "nameKo": "Sight Sciences",
+      "sourcePage": "https://sightsciences.com/",
+      "assetUrl": "https://www.sightsciences.com/wp-content/uploads/2024/03/logo_light.svg",
+      "expectedSha256": "60591ca421a0aed3fc0312e09a44de76bc9f090cd2af631fe4ea3c768fd5082e"
+    },
+    {
+      "id": "us-index-qcrh",
+      "nameKo": "Qcr Holdings Inc",
+      "sourcePage": "https://qcrh.com/",
+      "assetUrl": "https://qcrh.com/files/design/site_logo/qcr-logo-white.svg",
+      "expectedSha256": "25dec77b8a24f8a7965e08cc9ee33a0dd24565c9779b67d4962d5230a981995c"
+    },
+    {
+      "id": "us-index-trak",
+      "nameKo": "Repositrak Inc",
+      "sourcePage": "https://repositrak.com/",
+      "assetUrl": "https://repositrak.com/wp-content/uploads/rt_logo.svg",
+      "expectedSha256": "ff15bf38abdaa58bcc776270bb6377bb6d2d021bba576ee16b7934f8216f0d06"
+    },
+    {
+      "id": "ko-official-재우체국금융개발원-logo_b",
+      "nameKo": "(재)우체국금융개발원",
+      "sourcePage": "https://www.posid.or.kr/introduction/ci.do",
+      "assetUrl": "https://www.posid.or.kr/images/logo_b.svg",
+      "expectedSha256": "cd220585378a2d61874230988669e8545528b5e8b283934f5a3df671ca399ac2"
+    },
+    {
+      "id": "ko-official-재우체국물류지원단-img-ci-logo02",
+      "nameKo": "(재)우체국물류지원단",
+      "sourcePage": "https://www.pola.or.kr/web/content.do?proFn=ci",
+      "assetUrl": "https://www.pola.or.kr/images_new/common/img-ci-logo02.svg",
+      "expectedSha256": "377b0d2645d3fabf0820e04991ea7d23336643babc4dee2d1b20cc0604e6d8d0"
+    },
+    {
+      "id": "ko-official-재우체국물류지원단-img-ci-logo03",
+      "nameKo": "(재)우체국물류지원단",
+      "sourcePage": "https://www.pola.or.kr/web/content.do?proFn=ci",
+      "assetUrl": "https://www.pola.or.kr/images_new/common/img-ci-logo03.svg",
+      "expectedSha256": "ac4bc8b76282f3c1521f4cb8c2c478cb89dc48a94ee5e1eaaff765e24a0e4f1d"
+    },
+    {
+      "id": "ko-official-eco융합섬유연구원-logo",
+      "nameKo": "ECO융합섬유연구원",
+      "sourcePage": "https://www.kictex.re.kr/",
+      "assetUrl": "https://www.kictex.re.kr/img/logo.svg",
+      "expectedSha256": "ebf33acffab9cdebe200cc29386686f4283ac862545aa706929ff77558dc54fb"
+    },
+    {
+      "id": "ko-official-kdi국제정책대학원-logo",
+      "nameKo": "KDI국제정책대학원",
+      "sourcePage": "https://www.kdischool.ac.kr/#/www/cp/about_kdis/symbol/university_identity",
+      "assetUrl": "https://www.kdischool.ac.kr/www/img/new/layout/logo.svg",
+      "expectedSha256": "1c7a70dc8a7a426bf6380d48e932d42fa1a907670d2ebb6164d57d12c45d92d7"
+    },
+    {
+      "id": "ko-official-kias고등과학원-logo",
+      "nameKo": "KIAS고등과학원",
+      "sourcePage": "https://www.kias.re.kr/kias/main/contents.do?menuNo=400003",
+      "assetUrl": "https://www.kias.re.kr/static/kias/img/common/logo.svg",
+      "expectedSha256": "2ba97aca6a7a05d85abbfd3802647aa4811c9fdc13460ac5e8dee812f70336c0"
+    },
+    {
+      "id": "ko-official-경기평택항만공사-logo",
+      "nameKo": "경기평택항만공사",
+      "sourcePage": "https://www.gppc.or.kr/cms/archive.do?pageId=K001002003",
+      "assetUrl": "https://www.gppc.or.kr/img/common/logo.svg",
+      "expectedSha256": "d9290e5309b7f6d2f03b84489cd5a44741b1822e2c53e972c96a6e422f63fdcf"
+    },
+    {
+      "id": "ko-official-경남투자경제진흥원-ko_type_ci",
+      "nameKo": "경남투자경제진흥원",
+      "sourcePage": "https://giba.or.kr/fe/inform/ci/NR_index.do",
+      "assetUrl": "https://giba.or.kr/resources/front/images/ko_type_ci.svg",
+      "expectedSha256": "3b65f258cd76223ad532b51b462c5fdce20c02f29655d81bb55f238062329cca"
+    },
+    {
+      "id": "ko-official-경남투자경제진흥원-main_ci",
+      "nameKo": "경남투자경제진흥원",
+      "sourcePage": "https://giba.or.kr/fe/inform/ci/NR_index.do",
+      "assetUrl": "https://giba.or.kr/resources/front/images/main_ci.svg",
+      "expectedSha256": "9214032b95258c1f68e6c4687a41606bbf2559673262b1344c699972ecbe37a9"
+    },
+    {
+      "id": "ko-official-국립중앙의료원-logo",
+      "nameKo": "국립중앙의료원",
+      "sourcePage": "https://www.nmc.or.kr/nmc/contents/symbol",
+      "assetUrl": "https://www.nmc.or.kr/styles/assets/logo.svg",
+      "expectedSha256": "3704b4de807a75ed41eacb32897a1cb86641651da05dd1a9472a320f4f8af549"
+    },
+    {
+      "id": "ko-official-국민권익위원회-main-logo",
+      "nameKo": "국민권익위원회",
+      "sourcePage": "https://www.acrc.go.kr/menu.es?mid=a10606010000",
+      "assetUrl": "https://www.acrc.go.kr/main/img/layout/main-logo.svg",
+      "expectedSha256": "deb2a71921062d69b9bdf5676aef0f7eac13190e724be6ec179192fca5026dc0"
+    },
+    {
+      "id": "us-index-nktx",
+      "nameKo": "Nkarta",
+      "sourcePage": "https://nkarta.com/",
+      "assetUrl": "https://nkarta.com/themes/default/images/logo.svg",
+      "expectedSha256": "63c4f9e45bb53c2009e6cc774f986f2c7d3d668afc07c1e3cdc008c174828ab8"
+    },
+    {
+      "id": "us-index-irwd",
+      "nameKo": "Ironwood Pharma Class A",
+      "sourcePage": "https://ironwoodpharma.com/",
+      "assetUrl": "https://ironwoodpharma.com/wp-content/uploads/2022/09/ironwood-logo-main-title.svg",
+      "expectedSha256": "b9380eb7a8b4d30c115482ec32ebff3555ae42009fb947a683a0c4657b352067"
+    },
+    {
+      "id": "us-index-flnc",
+      "nameKo": "Fluence Energy Inc Class A",
+      "sourcePage": "https://fluenceenergy.com/",
+      "assetUrl": "https://fluenceenergy.com/wp-content/themes/fluence/assets/svg/static/branding/site-logo--color.svg",
+      "expectedSha256": "8d6bdc5ebc84bb610fc67e1a7d4d06a27bc4898624783bc1f235453d00a24202"
+    },
+    {
+      "id": "us-index-mgni",
+      "nameKo": "Magnite",
+      "sourcePage": "https://magnite.com/",
+      "assetUrl": "https://www.magnite.com/wp-content/uploads/2023/04/Logo.svg",
+      "expectedSha256": "ed40173c6d31f79a59940c35b5b25f8f5e6270bac6bb835f1971d83582adf7f5"
+    },
+    {
+      "id": "us-index-srzn",
+      "nameKo": "Surrozen",
+      "sourcePage": "https://surrozen.com/",
+      "assetUrl": "https://surrozen.com/wp-content/uploads/2026/01/surrozen-logo-final.svg",
+      "expectedSha256": "b8c66cb7920f27105a0879221a717768bcf95e2d5891aa9dce6ae9fa5edea64e"
+    },
+    {
+      "id": "us-index-sam",
+      "nameKo": "Boston Beer Class A",
+      "sourcePage": "https://bostonbeer.com/",
+      "assetUrl": "https://bostonbeer.com/-/media/images/primary-content/age-wall/boston-beer/boston-beer-company-logo-white.svg?as=0&amp;w=520&amp;hash=E8622DC68D99F20C6E88F35967C41B33",
+      "expectedSha256": "a45c6bba375a96a458a3e3e4ce04a930b63a0e7e1ac25b2af20929bae29ffbf2"
+    },
+    {
+      "id": "us-index-adtn",
+      "nameKo": "Adtran Holdings Inc",
+      "sourcePage": "https://adtran.com/",
+      "assetUrl": "https://www.adtran.com/-/media/adtran/adtran-logo.svg?iar=0&amp;rev=04ff45e6510f4031aecfa423d49b2e75&amp;hash=E9442EA17C3DEA715EDFAF4F48D1C6D6",
+      "expectedSha256": "413973b8f7ca4ff881cd39dfe387596275c0fac51650bd8346030975398e2575"
+    },
+    {
+      "id": "us-index-asur",
+      "nameKo": "Asure Software Inc",
+      "sourcePage": "https://asuresoftware.com/",
+      "assetUrl": "https://www.asuresoftware.com/wp-content/uploads/2026/03/Asure-Software-Logo-SVG-1.svg",
+      "expectedSha256": "414aa01dd63c7dc2c37a057a4ca5811dee36987253b996a2ca0a6ca0848b8382"
+    },
+    {
+      "id": "us-index-tgtx",
+      "nameKo": "Tg Therapeutics",
+      "sourcePage": "https://www.tgtherapeutics.com/",
+      "assetUrl": "https://www.tgtherapeutics.com/wp-content/uploads/2026/02/TGT_Logo_RGB-1.svg-1.svg",
+      "expectedSha256": "8ab1c151069322bd91bdcb04b9d7b0146967dcc40a1345bc8b11048465eee9fd"
+    },
+    {
+      "id": "us-index-ddd",
+      "nameKo": "3D Systems Corp",
+      "sourcePage": "https://3dsystems.com/",
+      "assetUrl": "https://3dsystems.com/themes/custom/ddd/images/logo-3ds-dark.svg",
+      "expectedSha256": "ac5a7cc1662778bee67b47e4bef3d46b8263a3b7199519cc5b8314d549a35734"
+    },
+    {
+      "id": "us-index-nuvb",
+      "nameKo": "Nuvation Bio Class A",
+      "sourcePage": "https://nuvationbio.com/",
+      "assetUrl": "https://nuvationbio.com/wp-content/uploads/2020/11/nuvationbio-logo.svg",
+      "expectedSha256": "bf32959d5ff2c762e099169405d5965662928a3699b921eb916b88f79264fca0"
+    },
+    {
+      "id": "us-index-ctre",
+      "nameKo": "Caretrust Reit",
+      "sourcePage": "https://www.caretrustreit.com/",
+      "assetUrl": "https://caretrustreit.com/assets/logos/caretrust-logo.svg",
+      "expectedSha256": "6f782c6a17937454349c004e6fe18c268385d16588b57ce34bbef9442c8db32f"
+    },
+    {
+      "id": "us-index-elvn",
+      "nameKo": "Enliven Therapeutics",
+      "sourcePage": "https://enliventherapeutics.com/",
+      "assetUrl": "https://enliventherapeutics.com/themes/default/images/logo.svg",
+      "expectedSha256": "64e3e39f968ec733bd4f6e62274a869f8ee813e411b813c16b21f894cfa635a5"
+    },
+    {
+      "id": "us-index-navi",
+      "nameKo": "Navient",
+      "sourcePage": "https://navient.com/",
+      "assetUrl": "https://images.navient.com/Navient/web/navient-rbg-logo.svg",
+      "expectedSha256": "1e7ca271aa4e1ae8cfbb6d76b9d8dcaed37e79c52d91c3f4f968cc6ba109a8d8"
+    },
+    {
+      "id": "us-index-avpt",
+      "nameKo": "Avepoint Class A",
+      "sourcePage": "https://avepoint.com/",
+      "assetUrl": "https://assets.avepoint.com/upload/images/logos/avepoint-logo.svg",
+      "expectedSha256": "7f04f4623e939ef995633e049b7d62141da489d973a51935d3abbc59da1b7f2b"
+    },
+    {
+      "id": "us-index-fivn",
+      "nameKo": "Five9",
+      "sourcePage": "https://five9.com/",
+      "assetUrl": "https://five9.com/sites/default/files/2025-02/five9-logo.svg",
+      "expectedSha256": "32c4af0fb72dd33b374f48038f6309ba9a41203460f061401a96330e42d6c207"
+    },
+    {
+      "id": "us-index-rapp",
+      "nameKo": "Rapport Therapeutics",
+      "sourcePage": "https://rapp.com/",
+      "assetUrl": "https://rapp.com/media/ungnnikl/rapplogo.svg",
+      "expectedSha256": "27c1675fc67c53e88b6498660c5cbfb812bfe98f251d929cb497d4dad7f810f0"
+    },
+    {
+      "id": "us-index-blfs",
+      "nameKo": "Biolife Solutions",
+      "sourcePage": "https://biolifesolutions.com/",
+      "assetUrl": "https://biolifesolutions.com/wp-content/uploads/2022/08/Header-logo.svg",
+      "expectedSha256": "1f407ce8f60ac85d19b580ecf1a1f85114b74199d0f5fec38f9aab71dca24359"
+    },
+    {
+      "id": "us-index-vcyt",
+      "nameKo": "Veracyte",
+      "sourcePage": "https://veracyte.com/",
+      "assetUrl": "https://www.veracyte.com/wp-content/uploads/2026/03/vcyt-multi-color-logo-rgb.svg",
+      "expectedSha256": "36a08975cde5126dc1f548f3dc217519b23b53c3108b9556b406f40597b954f2"
+    },
+    {
+      "id": "us-index-wrby",
+      "nameKo": "Warby Parker Class A",
+      "sourcePage": "https://warbyparker.com/",
+      "assetUrl": "https://img.warbyparker.com/v2/warby-logo-f043b63a4b054f018dbe99454ee56fc9.svg?originWidth=254&amp;originHeight=36",
+      "expectedSha256": "07ec95136bf95d08e5aa815816699a7ad9bfe16d9abf85c9fb3686d12b38b1d3"
+    },
+    {
+      "id": "us-index-atrc",
+      "nameKo": "Atricure",
+      "sourcePage": "https://atricure.com/",
+      "assetUrl": "https://atricure.com/themes/custom/atritheme/logo.svg",
+      "expectedSha256": "e28733e2b1a138494645ea2430ccfec591b589b8c956494d9b4c1d7264d7c724"
+    },
+    {
+      "id": "us-index-anro",
+      "nameKo": "Alto Neuroscience Inc",
+      "sourcePage": "https://altoneuroscience.com/",
+      "assetUrl": "https://altoneuroscience.com/wp-content/uploads/2024/09/Alto_Neuroscience-Logo.svg",
+      "expectedSha256": "fb0686537c01dea2099a60dad51bb7477318d43e314975875228d1ec82bee5a4"
+    },
+    {
+      "id": "us-index-cvsa",
+      "nameKo": "Covista",
+      "sourcePage": "https://covista.com/",
+      "assetUrl": "https://covista.com/themes/custom/cv_base/images/svg/cv_logo.svg",
+      "expectedSha256": "9e38a4948239eaed27c441fdc87122be013d84f7db3cccbe4ff565805a5647ef"
+    },
+    {
+      "id": "us-index-acco",
+      "nameKo": "Acco Brands Corp",
+      "sourcePage": "https://accobrands.com/",
+      "assetUrl": "https://accobrands.com/siteassets/homepage/header/acco_brands_logo_reversed_1784059166.svg",
+      "expectedSha256": "9c9083c315fb4a86c9af7846df52b6dbc2354e17b154e179eb26c99a4f6b4e0d"
+    },
+    {
+      "id": "us-index-evmn",
+      "nameKo": "Evommune",
+      "sourcePage": "https://evommune.com/",
+      "assetUrl": "https://www.evommune.com//wp-content/uploads/2023/12/Evommune-Logo.svg",
+      "expectedSha256": "ee21fc3a81899351777b2a0ce6cf83d6910c4573cbb14b791e0a30fa039933fd"
+    },
+    {
+      "id": "us-index-wor",
+      "nameKo": "Worthington Enterprises",
+      "sourcePage": "https://worthingtonenterprises.com/",
+      "assetUrl": "https://worthingtonenterprises.com/ResourcePackages/Worthington/assets/dist/images/logos/logo-white-tm.svg",
+      "expectedSha256": "b0de90566dd097d463a4df45943fde70f51b0c72ba7c27db834aadc367c9d066"
+    },
+    {
+      "id": "us-index-dbd",
+      "nameKo": "Diebold Nixdorf Inc",
+      "sourcePage": "https://dieboldnixdorf.com/",
+      "assetUrl": "https://dieboldnixdorf.com/-/media/diebold/images/global/logo/dn-white-logo.svg",
+      "expectedSha256": "b774ff767ddbe9db9c42243bc5e082aaf21f2889b1ade7fb47f63729b749e217"
+    },
+    {
+      "id": "us-index-alks",
+      "nameKo": "Alkermes",
+      "sourcePage": "https://alkermes.com/",
+      "assetUrl": "https://alkermes.com/images/logo.svg",
+      "expectedSha256": "2d0381ff904e91e62308aa7a2d36b0038f13647d6db5b50a1652b74c2cf37c35"
+    },
+    {
+      "id": "us-index-umbf",
+      "nameKo": "UMB Financial",
+      "sourcePage": "https://www.umb.com/",
+      "assetUrl": "https://umb.com/sites/default/files/UMB-2x-Logo-Digital-BlueCyan-RGB.svg",
+      "expectedSha256": "f86d2bc7308f9b5f8be7899104fea08644520416a38eaa7be9c8702b9fa46ac8"
+    },
+    {
+      "id": "us-index-btsg",
+      "nameKo": "BrightSpring Health Services",
+      "sourcePage": "https://www.brightspringhealth.com/",
+      "assetUrl": "https://www.brightspringhealth.com/wp-content/uploads/2024/10/logo-brightspring4-h.svg",
+      "expectedSha256": "9c785cf954ce82eb9966cb81c1f18ce68bb37863f964b04c102eee5923db7304"
+    },
+    {
+      "id": "us-index-krys",
+      "nameKo": "Krystal Biotech",
+      "sourcePage": "https://www.krystalbio.com/",
+      "assetUrl": "https://www.krystalbio.com/wp-content/uploads/2023/10/KRYS-logo-black.svg",
+      "expectedSha256": "5453c90c8fd5b30bf630997af04086eb8dc2b564110666c0309c3dde761d53c3"
+    },
+    {
+      "id": "us-index-gkos",
+      "nameKo": "Glaukos",
+      "sourcePage": "https://www.glaukos.com/",
+      "assetUrl": "https://www.glaukos.com/wp-content/themes/pint-glaukos/assets/images/glaukos-logo-green.svg",
+      "expectedSha256": "3165d0b1c65851e2d4599a3ee378d46a2336d295633b6a1fe0b9b55b51067502"
+    },
+    {
+      "id": "ko-hourly-20ba20d7e6ef",
+      "nameKo": "(재)사천시미생물발효재단",
+      "sourcePage": "https://www.scmicro.or.kr/sub/ci.php",
+      "assetUrl": "https://www.scmicro.or.kr/images/common/emblem.svg",
+      "expectedSha256": "94094f162fcdf695cac408bfe9c31aa3a9876150281bd13a76ca9cbdb2f69bc3"
+    },
+    {
+      "id": "ko-hourly-0cdf2db4ebf3",
+      "nameKo": "(재)우체국물류지원단",
+      "sourcePage": "https://www.pola.or.kr/web/content.do?proFn=ci",
+      "assetUrl": "https://www.pola.or.kr/images_new/common/logo-on.svg",
+      "expectedSha256": "67333a20d1001c42d1365adbfccf11f8b00c948e259a89752020742f6c7a1261"
+    },
+    {
+      "id": "ko-hourly-4ba0ae4cd386",
+      "nameKo": "(재)우체국시설관리단",
+      "sourcePage": "https://www.poma.or.kr/poma/ci.do",
+      "assetUrl": "https://www.poma.or.kr/_res/poma_facility/poma/img/layout/logo_footer.svg",
+      "expectedSha256": "1a75327070649238d1c6f0aba2068003bb0960515b2036679e9437a2e732fb78"
+    },
+    {
+      "id": "ko-hourly-6d6de56bdfb4",
+      "nameKo": "(재)경주문화재단",
+      "sourcePage": "https://garts.kr/index.do?menuId=00000390",
+      "assetUrl": "https://garts.kr/images/user/cmn/logo2.svg",
+      "expectedSha256": "764c9e986d20d9185978904692f9bff193a542bc737f15a258666e72319637fd"
+    },
+    {
+      "id": "ko-hourly-31ff99170357",
+      "nameKo": "(재)경주스마트미디어센터",
+      "sourcePage": "https://www.real4dhub.or.kr/about/ci.php",
+      "assetUrl": "https://www.real4dhub.or.kr/images/common/logo.svg",
+      "expectedSha256": "1f979f15694e9848ed309305f668928dc03dca6d729216fce218de8745047929"
+    },
+    {
+      "id": "ko-hourly-ac4a042120cf",
+      "nameKo": "(주)블랙밸리컨트리클럽",
+      "sourcePage": "https://www.blackcc.co.kr/About/logo.aspx",
+      "assetUrl": "https://www.blackcc.co.kr/images/logo.svg",
+      "expectedSha256": "5727f2fb1a8c05f714313290f4f087fae4376f09e676d7f975de8ac91012ec17"
+    },
+    {
+      "id": "ko-hourly-b4bb15bb759c",
+      "nameKo": "KDI국제정책대학원",
+      "sourcePage": "https://www.kdischool.ac.kr/#/www/cp/about_kdis/symbol/university_identity",
+      "assetUrl": "https://www.kdischool.ac.kr/www/img/new/layout/logo-v2.svg",
+      "expectedSha256": "62b50852891b5022ccfd38997ddbd8b3a26467e3c2c6ba04b9f4d446146becc0"
+    },
+    {
+      "id": "ko-hourly-082ac43e4762",
+      "nameKo": "과학기술정책연구원",
+      "sourcePage": "https://www.stepi.re.kr/site/stepiko/06/10605010000002020102915.jsp",
+      "assetUrl": "https://www.stepi.re.kr/images/stepiko/renewal/Logo_STEPI.svg",
+      "expectedSha256": "0906939eb6582d8a0aacb41eeebbccb00dd32e9bdddf73faaece55bba9b3d14b"
+    },
+    {
+      "id": "ko-hourly-fcfd5e79370c",
+      "nameKo": "구리도시공사",
+      "sourcePage": "https://www.guriuc.or.kr/main/main.do",
+      "assetUrl": "https://www.guriuc.or.kr/images/common/logo.svg",
+      "expectedSha256": "6ce1cd48e635bae9a20bc1518854b67b905d9e654b5e7b03f95ac386277c9ed6"
+    },
+    {
+      "id": "ko-hourly-33e813c3d285",
+      "nameKo": "구미문화재단",
+      "sourcePage": "https://gucf.or.kr/Intro-Institution?menuId=MENU_0000000005",
+      "assetUrl": "https://gucf.or.kr/assets/images/user/sub/ci-symbol.svg",
+      "expectedSha256": "950da7696038ac91c33e37fa2d7475472c6397d6f987a7ef5c1f63916f0f4cd7"
+    },
+    {
+      "id": "ko-hourly-4a494d09c75d",
+      "nameKo": "국토연구원",
+      "sourcePage": "https://www.krihs.re.kr/menu.es?mid=a10301040000",
+      "assetUrl": "https://www.krihs.re.kr/main/img/layout/logo.svg",
+      "expectedSha256": "c2caa3f4501238b717bd4a1a02fb21ee35989fc5d9c8463311fd96724989b557"
+    },
+    {
+      "id": "ko-hourly-489f4e0275da",
+      "nameKo": "기술보증기금",
+      "sourcePage": "https://www.kibo.or.kr/main/about/about0703-01.do",
+      "assetUrl": "https://www.kibo.or.kr/_res/kibo/main/etc/kibo-logo.svg",
+      "expectedSha256": "bf8f0be5c69d1196f7174987e436328ef42cc1b6e879787c81655a54083b9b35"
+    },
+    {
+      "id": "ko-hourly-8d91635e6b02",
+      "nameKo": "대구농수산물유통관리공사",
+      "sourcePage": "https://www.dafco.or.kr/",
+      "assetUrl": "https://www.dafco.or.kr/images/common/logo_b.svg",
+      "expectedSha256": "c756694b97bc7ca3d5fd24c9cbc1ae5f55e21595e1f5593577422c7a861b6199"
+    },
+    {
+      "id": "ko-hourly-d647504456d6",
+      "nameKo": "대구동구문화재단",
+      "sourcePage": "https://www.dgdgcf.or.kr/front/about/ci.php",
+      "assetUrl": "https://www.dgdgcf.or.kr/images/common/ft_logo_dgcf.svg",
+      "expectedSha256": "0dde9c235b8cd3f0ffbc1daeecbff2ea80b8ac80c53977881ab5a1ec4152d8bf"
+    },
+    {
+      "id": "ko-hourly-f23fa8d80c74",
+      "nameKo": "대전연구원",
+      "sourcePage": "https://www.dji.re.kr/menu.es?mid=a10519000000",
+      "assetUrl": "https://www.dji.re.kr/dji/images/korean/sub/ci_logo02.svg",
+      "expectedSha256": "b983fb332ae4a7e21acd88f3e3da98af9d72995285929c5dc2a89732c44dcb31"
+    },
+    {
+      "id": "ko-hourly-e537a707e53b",
+      "nameKo": "대전연구원",
+      "sourcePage": "https://www.dji.re.kr/menu.es?mid=a10519000000",
+      "assetUrl": "https://www.dji.re.kr/dji/images/korean/sub/ci_logo03.svg",
+      "expectedSha256": "abc45aaab829b8ee67c05e9dbd95580cc9558af681172f8429447ba350baf8f7"
+    },
+    {
+      "id": "ko-hourly-2c2695955658",
+      "nameKo": "대한체육회",
+      "sourcePage": "https://www.sports.or.kr/sports/main/contents.do?menuNo=200058",
+      "assetUrl": "https://www.sports.or.kr/static/sports/svg/logo.svg",
+      "expectedSha256": "108cc851a1844aef0cacdd4a4d9a5e6666dde080cd7db77958601d5aa71ad253"
+    },
+    {
+      "id": "ko-hourly-c23219fc5191",
+      "nameKo": "방송미디어통신위원회",
+      "sourcePage": "https://kcc.go.kr/user.do?page=A04010200&amp;dc=K04010200",
+      "assetUrl": "https://kcc.go.kr/main2025/images/logo.svg",
+      "expectedSha256": "ab7e51e81704296058eade06fcb9cdd0416fb13573cdb602b5e89ed515984218"
+    },
+    {
+      "id": "ko-hourly-da0d6967db45",
+      "nameKo": "부산여성가족과 평생교육진흥원",
+      "sourcePage": "https://www.bgli.re.kr/kor/CMS/Contents/Contents.do?mCode=MN134",
+      "assetUrl": "https://www.bgli.re.kr/homepage/kor/_Img/Common/logo.svg",
+      "expectedSha256": "d24a24ee1b3850824e466afff93fe32296a0e05578c53fd8c7837bd4ae90be2c"
+    },
+    {
+      "id": "ko-hourly-2ec6fca00728",
+      "nameKo": "서울디자인재단",
+      "sourcePage": "https://seouldesign.or.kr/?menuno=40",
+      "assetUrl": "https://seouldesign.or.kr/resources/assets/images/svg/logo_mo_black.svg",
+      "expectedSha256": "712db6cd29a57c767050e028fba55d662c39c324d73ce8c1d998de1303ae38cb"
+    },
+    {
+      "id": "ko-hourly-04242f1855f1",
+      "nameKo": "(재)우체국금융개발원",
+      "sourcePage": "https://www.posid.or.kr/introduction/ci.do",
+      "assetUrl": "https://www.posid.or.kr/images/logo_w.svg",
+      "expectedSha256": "21a49a21a7a813bdacff596fa8f056cf506a319d11e9b74e961bf08f20d3576b"
+    },
+    {
+      "id": "ko-hourly-339bfa2ade62",
+      "nameKo": "강원특별자치도 교육청",
+      "sourcePage": "https://gwe.go.kr/main/content.do?key=bTIzMDcyMTEyMDcyNTI=",
+      "assetUrl": "https://gwe.go.kr/resource/www/main/redesign/assets/images/common/logo-text.svg?v=2",
+      "expectedSha256": "1d955b652ff7a054e249099570ab285f8f52e0ce20dc0769249ca11db41419da"
+    },
+    {
+      "id": "ko-hourly-c34be7d8d15f",
+      "nameKo": "공정거래위원회",
+      "sourcePage": "https://www.ftc.go.kr/www/contents.do?key=407",
+      "assetUrl": "https://www.ftc.go.kr/site/www/img/contents/cts407_logo03.svg",
+      "expectedSha256": "8c602f66b916a041c795d157f0d0224cc380a3ea8bf8a875d345f8941b028908"
+    },
+    {
+      "id": "ko-hourly-8eb3ffbf5802",
+      "nameKo": "강화군시설관리공단",
+      "sourcePage": "https://www.ghss.or.kr/user/corpInfo/corpInfo/ciInfo.do",
+      "assetUrl": "https://www.ghss.or.kr/_resource/images/common/ico-footer-logo.svg",
+      "expectedSha256": "779f7a583e49128e434a3709622bdd45bda5715113b38ba970db7a2fc7a22ecd"
+    },
+    {
+      "id": "ko-hourly-ebea5bfd0e7f",
+      "nameKo": "경상북도안동의료원",
+      "sourcePage": "https://amc.or.kr/front/page.do?pageView=/about/symbol",
+      "assetUrl": "https://amc.or.kr/pub/images/img_symbol_01.svg",
+      "expectedSha256": "6d8c6c2569e350208c106e48e0a13aca9ab03632aab060257a2804263989781d"
+    },
+    {
+      "id": "ko-hourly-b942f2934bca",
+      "nameKo": "국가과학기술인력개발원",
+      "sourcePage": "https://www.kird.re.kr/introduce/ci",
+      "assetUrl": "https://www.kird.re.kr/images/common/logoWhite.svg",
+      "expectedSha256": "f2c764a70bced6200a5b5df70ac506e9709894696822e9f45024badc93297676"
+    },
+    {
+      "id": "ko-hourly-f46b21da17a3",
+      "nameKo": "경남투자경제진흥원",
+      "sourcePage": "https://giba.or.kr/fe/inform/ci/NR_index.do",
+      "assetUrl": "https://giba.or.kr/resources/front/images/img_ci_logo.svg",
+      "expectedSha256": "551e5d12f38f4bbeb7af5e64842c84344943a3234d37592d2b034faa741100fd"
+    },
+    {
+      "id": "us-hourly-pcvx",
+      "nameKo": "Vaxcyte",
+      "sourcePage": "https://vaxcyte.com/",
+      "assetUrl": "https://vaxcyte.com/wp-content/uploads/2022/03/Vaxcyte-Logo.svg",
+      "expectedSha256": "8a18b5e4e2ffc888cd2abe6f51709167d19982984d2757bea39c27f4f1a51bcd"
+    },
+    {
+      "id": "us-hourly-fss",
+      "nameKo": "Federal Signal Corp",
+      "sourcePage": "https://federalsignal.com/",
+      "assetUrl": "https://www.federalsignal.com/hubfs/logo-Fedsig.svg",
+      "expectedSha256": "4d42cebce98e9204b2e1435ec96083df2ce78f4cd9ac3b7602f3e02a8805b887"
+    },
+    {
+      "id": "us-hourly-lnth",
+      "nameKo": "Lantheus Holdings",
+      "sourcePage": "https://lantheus.com/",
+      "assetUrl": "https://www.lantheus.com/wp-content/themes/lantheus-v3/images/Lantheus_Logo_R_RGB.svg",
+      "expectedSha256": "5a0581bafb0acf0d7833c6780b0b299d41752b8fd8a0875ca337929cd311f486"
+    },
+    {
+      "id": "us-hourly-jbtm",
+      "nameKo": "Jbt Marel",
+      "sourcePage": "https://jbtmarel.com/",
+      "assetUrl": "https://jbtmarel.com/assets/toolkit/images/jbt-marel-logo.svg",
+      "expectedSha256": "bfada76a0a419f694e4863b0dc3fd505582023f57dfcac43d2ca803851318f53"
+    },
+    {
+      "id": "us-hourly-corz",
+      "nameKo": "Core Scientific Inc",
+      "sourcePage": "https://corescientific.com/",
+      "assetUrl": "https://corescientific.com/wp-content/uploads/2025/02/Core-Scientific-Logo.svg",
+      "expectedSha256": "2fa7910b9d42034626ee85ccbb36b5c240ebb31f51a62ffea33e9d2203f18393"
+    },
+    {
+      "id": "us-hourly-novt",
+      "nameKo": "Novanta",
+      "sourcePage": "https://novanta.com/",
+      "assetUrl": "https://novanta.com/wp-content/themes/one-novanta-theme/src/svg/novanta-logo.svg",
+      "expectedSha256": "c6c3ec5915a3a842bdb02804baaff7adcc4d7399519f1c06d86b1e9022b9a71d"
+    },
+    {
+      "id": "us-hourly-gva",
+      "nameKo": "Granite Construction",
+      "sourcePage": "https://graniteconstruction.com/",
+      "assetUrl": "https://graniteconstruction.com/themes/custom/granite2019/public/images/logo.svg",
+      "expectedSha256": "ac107c6f92d45f77627c5d4f89d4187dbd7acfe7befcf6024bf5b7c744489aa3"
+    },
+    {
+      "id": "us-hourly-hcc",
+      "nameKo": "Warrior Met Coal Inc",
+      "sourcePage": "https://warriormetcoal.com/",
+      "assetUrl": "https://warriormetcoal.com/wp-content/uploads/2023/01/wmc-logo.svg",
+      "expectedSha256": "14c54ec9c0afbf50f1b3a37518726739e4a2ca5b6ae41c0e5e8079104078405a"
+    },
+    {
+      "id": "us-hourly-tpc",
+      "nameKo": "Tutor Perini",
+      "sourcePage": "https://tutorperini.com/",
+      "assetUrl": "https://tutorperini.com/Images/TPC/TPC_logo.svg",
+      "expectedSha256": "e9a2a2b5f45c80de431a7abaad3dcc9a2b065fc955871992372ec4f19973519a"
+    },
+    {
+      "id": "us-hourly-opln",
+      "nameKo": "Openlane",
+      "sourcePage": "https://openlane.com/",
+      "assetUrl": "https://www.openlane.com/wp-content/themes/openlane2024/images/logo.svg",
+      "expectedSha256": "d58ef64ff4c12a4aa9b7de90e8df0aa07c9b9cf805c14cd34c89789846e4fd39"
+    },
+    {
+      "id": "us-hourly-ktb",
+      "nameKo": "Kontoor Brands",
+      "sourcePage": "https://kontoorbrands.com/",
+      "assetUrl": "https://www.kontoorbrands.com/_assets/_458271f29076bfd720453b635a0d1848/kontoorbrands/files/theme/images/nav-kontoor-logo-color.svg",
+      "expectedSha256": "827dfce5aa0cf1e2ae036aefd06e4012af36a8ce4b2a92c0ce2352e36675fd17"
+    },
+    {
+      "id": "us-hourly-rxo",
+      "nameKo": "Rxo Inc",
+      "sourcePage": "https://rxo.com/",
+      "assetUrl": "https://rxo.com/wp-content/uploads/2022/07/RXO.svg",
+      "expectedSha256": "ee3723432b567b468e04c74188b062cdd6b14081e98e341c120f6eebc629eea2"
+    },
+    {
+      "id": "us-hourly-dnli",
+      "nameKo": "Denali Therapeutics",
+      "sourcePage": "https://denalitherapeutics.com/",
+      "assetUrl": "https://www.denalitherapeutics.com/wp-content/uploads/2025/06/denali-logo.svg",
+      "expectedSha256": "34b6e84993d2a4db105d3269ceb8e66ea78b8711216527d24d46ff7942e874f0"
+    },
+    {
+      "id": "us-hourly-kntk",
+      "nameKo": "Kinetik Holdings Class A",
+      "sourcePage": "https://kinetik.com/",
+      "assetUrl": "https://www.kinetik.com/wp-content/themes/kinetik/img/kinetik_logo.svg",
+      "expectedSha256": "c4cd34b9886287d607178f70504d5f889fd1d45a0f921d3aa5fedee76ea265a7"
+    },
+    {
+      "id": "us-hourly-cxt",
+      "nameKo": "Crane Nxt",
+      "sourcePage": "https://cranenxt.com/",
+      "assetUrl": "https://www.cranenxt.com/wp-content/themes/cranenxt/includes/images/logo--crane-nxt.svg",
+      "expectedSha256": "ce709d6bbd299e48dc3c3751838a31dc8b1f2e21de651e9544e1feee8d86653d"
+    },
+    {
+      "id": "us-hourly-prlb",
+      "nameKo": "Proto Labs",
+      "sourcePage": "https://protolabs.com/",
+      "assetUrl": "https://protolabs.com/images/Protolabs-logo-tagline.svg",
+      "expectedSha256": "4789dc41915f53e4ea3003274ca1c06e8bc672e5cefca9ed4301e04fbbeb2c15"
+    },
+    {
+      "id": "us-hourly-adma",
+      "nameKo": "Adma Biologics",
+      "sourcePage": "https://admabiologics.com/",
+      "assetUrl": "https://www.admabiologics.com/hubfs/ADMA%20logo.svg",
+      "expectedSha256": "9652213ad28a9427ecbe5ce04cda14741d168837ff7c3331f14c0c6bc7c7e07d"
+    },
+    {
+      "id": "us-hourly-grbk",
+      "nameKo": "Green Brick Partners",
+      "sourcePage": "https://greenbrickpartners.com/",
+      "assetUrl": "https://greenbrickpartners.com/wp-content/uploads/2023/06/greenbrick-partners-logo.svg",
+      "expectedSha256": "75c7563690259f1f3341c6eba78424878513988bce9889a075280725f26ce212"
+    },
+    {
+      "id": "us-hourly-srpt",
+      "nameKo": "Sarepta Therapeutics",
+      "sourcePage": "https://sareptatherapeutics.com/",
+      "assetUrl": "https://sareptatherapeutics.com/themes/sarepta_corporate/logo.svg",
+      "expectedSha256": "2f89fc18cf305964118a63ea4fd04d2ae7ba3f0a20a104a9db0713c6a74034c4"
+    },
+    {
+      "id": "us-hourly-nni",
+      "nameKo": "Nelnet Class A",
+      "sourcePage": "https://nelnet.com/",
+      "assetUrl": "https://nelnet.com/wp-content/themes/nelnetinc-v3/img/logo-nelnet-color.svg",
+      "expectedSha256": "286786da0000228876437c53825b6f00539bc78f196ba486686ca358af0ea985"
+    },
+    {
+      "id": "us-hourly-pay",
+      "nameKo": "Paymentus Holdings Inc Class A",
+      "sourcePage": "https://paymentus.com/",
+      "assetUrl": "https://www.paymentus.com/assets/images/paymentus-logo.svg",
+      "expectedSha256": "a515d934311a312a302b1329767e5bca6d13ebff2a6869a9c5a9694d04c6f882"
+    },
+    {
+      "id": "us-bulk-twst",
+      "nameKo": "Twist Bioscience",
+      "sourcePage": "https://www.twistbioscience.com/",
+      "assetUrl": "https://twistbioscience.com/content/dam/twist-aem-migration/twist-home-logo.svg",
+      "expectedSha256": "660d80431bf297c76c0a7366218768d95d1a3d3b6a3558bc2be22a10af76f859"
+    },
+    {
+      "id": "us-bulk-mxl",
+      "nameKo": "Maxlinear",
+      "sourcePage": "https://maxlinear.com/",
+      "assetUrl": "https://maxlinear.com/Content/Images/maxlinear_logo_r.svg",
+      "expectedSha256": "0d0d05eb9042779fa6f2c9c8a389d1300208f12bb99ab7f1e56d07a0f90366af"
+    },
+    {
+      "id": "us-bulk-plxs",
+      "nameKo": "Plexus Corp",
+      "sourcePage": "https://plexus.com/",
+      "assetUrl": "https://www.plexus.com/wp-content/uploads/2025/06/Plexus-logo.svg",
+      "expectedSha256": "63575f1b210a8249d3034a7aa72d53cf9f386478438101f0e28f8399212d7f8b"
+    },
+    {
+      "id": "us-bulk-gatx",
+      "nameKo": "Gatx",
+      "sourcePage": "https://gatx.com/",
+      "assetUrl": "https://www.gatx.com/wp-content/themes/gatx/assets/images/gatx-logo-blue.svg",
+      "expectedSha256": "847de8a5c0d115fcfee50b9c3f34ba1687e3b2eb3b721a0e5fd2db14b0c01ca8"
+    },
+    {
+      "id": "us-bulk-mgy",
+      "nameKo": "Magnolia Oil Gas Corp Class A",
+      "sourcePage": "https://magnoliaoilgas.com/",
+      "assetUrl": "https://magnoliaoilgas.com/~/media/Images/M/Magnolia-Oil-Gas/logo/logo_footer.svg",
+      "expectedSha256": "1aadb638735ad25b8c1a17ca77d56255b76b1d8c940043b494a1c02a4b12a60b"
+    },
+    {
+      "id": "us-bulk-mrcy",
+      "nameKo": "Mercury Systems Inc",
+      "sourcePage": "https://mrcy.com/",
+      "assetUrl": "https://mrcy.com/packages/mercury/themes/mercury/img/mercury-logo.svg",
+      "expectedSha256": "9ab2bb83b008442e2f24c12eb91aa7ec9c9d28b6ce724d23333865ab177cbad3"
+    },
+    {
+      "id": "us-bulk-rdn",
+      "nameKo": "Radian Group",
+      "sourcePage": "https://radiangroup.com/",
+      "assetUrl": "https://www.radiangroup.com/wp-content/uploads/2022/10/radian-logo.svg",
+      "expectedSha256": "5ef454b4ccc6c7756dd59eaffe635c1ea8db32a985859835629e672a8811b942"
+    },
+    {
+      "id": "us-bulk-cnr",
+      "nameKo": "Core Natural Resources",
+      "sourcePage": "https://corenaturalresources.com/",
+      "assetUrl": "https://corenaturalresources.com/wp-content/uploads/2024/12/logo.svg",
+      "expectedSha256": "cdcfb9286eafb20acdaac3913eb86a4f3ce2d3734551d89d1e5a02c6eebaf976"
+    },
+    {
+      "id": "us-bulk-syna",
+      "nameKo": "Synaptics",
+      "sourcePage": "https://synaptics.com/",
+      "assetUrl": "https://synaptics.com/sites/default/files/synaptics-logo-full-color.svg",
+      "expectedSha256": "a962fccb4ee9b862fa66cf78d624c8c0bd99161a14deee2ccc29e5a39eb13e75"
+    },
+    {
+      "id": "us-bulk-htfl",
+      "nameKo": "Heartflow Inc",
+      "sourcePage": "https://heartflow.com/",
+      "assetUrl": "https://www.heartflow.com/wp-content/uploads/2025/01/heartflow_logo_white.svg",
+      "expectedSha256": "2d72370a7237bd4d0f57303c6fef2de9430fc3c814265eb74c2e69f64900da55"
+    },
+    {
+      "id": "us-bulk-gff",
+      "nameKo": "Griffon",
+      "sourcePage": "https://griffon.com/",
+      "assetUrl": "https://griffon.com/wp-content/themes/griffon/assets/dist/images/logo.svg",
+      "expectedSha256": "62ad9f118c063381d97c7b7f6e6a8571cd6b97dae9ab22dbf61b0f953dc19d4c"
+    },
+    {
+      "id": "us-bulk-dgii",
+      "nameKo": "Digi International",
+      "sourcePage": "https://dgii.com/",
+      "assetUrl": "https://dgii.com/digi/media/navs/logo-digi-svg.svg",
+      "expectedSha256": "0e611da36da0dc60244d7f4c29ef4cf12d056e5800e488f8b54ecf0435c4157c"
+    },
+    {
+      "id": "us-bulk-mgrc",
+      "nameKo": "Mcgrath Rent",
+      "sourcePage": "https://mgrc.com/",
+      "assetUrl": "https://mgrc.com/assets/images/mcgrath-business/mgrc-logo.svg",
+      "expectedSha256": "7bc035950ac21b50241fe875b76dfffaedf852f7fe9659f8ab0a36bbf1566212"
+    },
+    {
+      "id": "us-bulk-ful",
+      "nameKo": "Hb Fuller",
+      "sourcePage": "https://hbfuller.com/",
+      "assetUrl": "https://hbfuller.com/-/media/project/hbfuller/hbfuller/site-assets/homepage/hbfuller-logo.svg?h=92&iar=0&w=430&hash=DD96580310B46AB9251BDE8DED4A98EC",
+      "expectedSha256": "e8d5e75a2c4ba4374eff695e3fbc27c7f53c91d551f1f036c6d321afba52872b"
+    },
+    {
+      "id": "us-bulk-rdw",
+      "nameKo": "Redwire",
+      "sourcePage": "https://rdw.com/",
+      "assetUrl": "https://rdw.com/wp-content/uploads/2021/08/RedWire-Logos_Redwire_Horizontal_Black-Red.svg",
+      "expectedSha256": "caa3ba564c367c54d70ad9760dd5d91a1226c1d53eaf129a7c3f171b77fa3458"
+    },
+    {
+      "id": "us-bulk-man",
+      "nameKo": "Manpower",
+      "sourcePage": "https://manpower.com/",
+      "assetUrl": "https://manpower.com/-/jssmedia/project/manpowergroup/admin/logos/brand/light-bg/manpower-logo-horizontal.svg?iar=0&hash=EAA5CE91606C493F92CDF84C937F71D9",
+      "expectedSha256": "4c0c7c8292478afcfd5ef2a35037f2c2e72c4d62624b671b14390c0d94cc12ac"
+    },
+    {
+      "id": "us-bulk-cenx",
+      "nameKo": "Century Aluminum",
+      "sourcePage": "https://centuryaluminum.com/",
+      "assetUrl": "https://centuryaluminum.com/wp-content/uploads/2025/12/Century-Aluminum-Primary-Landscape-Logo-Color-Cmyk-1.ai-1.svg",
+      "expectedSha256": "e9a1c2f20c9062612b162a954656a37135544a198923cf14756d4fdfe412386f"
+    },
+    {
+      "id": "us-bulk-achc",
+      "nameKo": "Acadia Healthcare Company",
+      "sourcePage": "https://acadiahealthcare.com/",
+      "assetUrl": "https://acadiahealthcare.com/wp-content/uploads/sites/173/AcadiaHealthcare-Logo-Desktop-Color.svg",
+      "expectedSha256": "547dc434bb8f4ece5b6c74346a82da48105a2a5ac1e762893ac03887aab5a6d4"
+    },
+    {
+      "id": "us-bulk-hwkn",
+      "nameKo": "Hawkins Inc",
+      "sourcePage": "https://hawkins.com/",
+      "assetUrl": "https://hawkins.com/images/layout/logo-tm.svg",
+      "expectedSha256": "ac99da552b5fa6dc4283067f64c419ed43b0f87ebddeb25e080dba3fa9682228"
+    },
+    {
+      "id": "us-bulk-nwl",
+      "nameKo": "Newell Brands Inc",
+      "sourcePage": "https://newellbrands.com/",
+      "assetUrl": "https://newellbrands.com/application/themes/newell-brands/img/logo-dark.svg",
+      "expectedSha256": "7ef51047cb51cf37591dcacb202529340d6311f245687be1956c1eabeebfca19"
+    },
+    {
+      "id": "us-bulk-wafd",
+      "nameKo": "Wafd Inc",
+      "sourcePage": "https://wafd.com/",
+      "assetUrl": "https://wafd.com/images/wafd-bank-logo-mobile.svg?dpl=dpl_3fW6Tv3EiPUF8CwbAcSE6THNxi2E",
+      "expectedSha256": "86ed7242101e07ac0e9166532f0005aa4f9e8e499a15edc69fb638f13b8863d7"
+    },
+    {
+      "id": "us-bulk-flyw",
+      "nameKo": "Flywire",
+      "sourcePage": "https://flywire.com/",
+      "assetUrl": "https://flywire.com/media/img/flywire-logo.svg",
+      "expectedSha256": "0703f8bf305543e9e92a6b48d13eddb33ab3263dbe7e762737cd9c8a6f333eb0"
+    },
+    {
+      "id": "us-bulk-ppta",
+      "nameKo": "Perpetua Resources",
+      "sourcePage": "https://perpetuaresources.com/",
+      "assetUrl": "https://perpetuaresources.com/wp-content/uploads/2026/05/Logo.svg",
+      "expectedSha256": "d56a4a6a07d6dd04d0d1e3162ff1dd93fea7546f1edb2f4220fb85ec9e6f143e"
+    },
+    {
+      "id": "us-bulk-inta",
+      "nameKo": "Intapp",
+      "sourcePage": "https://intapp.com/",
+      "assetUrl": "https://www.intapp.com/wp-content/themes/intapp24/dist/images/logos/Intapp_Logo_FullColor_Negative.svg",
+      "expectedSha256": "542c959a1f3b28be5ce6a770c3c20882e75d27a86fd3e0fbb31466920d741281"
+    },
+    {
+      "id": "us-bulk-iron",
+      "nameKo": "Disc Medicine",
+      "sourcePage": "https://discmedicine.com/",
+      "assetUrl": "https://discmedicine.com/images/common/new-logo.svg",
+      "expectedSha256": "be6f12a96bba6ee0813bdda5b1ba3da95e90a22474b77514c1e9d12860a5559a"
+    },
+    {
+      "id": "us-bulk-dv",
+      "nameKo": "Doubleverify Holdings",
+      "sourcePage": "https://doubleverify.com/",
+      "assetUrl": "https://doubleverify.com/hubfs/assets/logos/symbol-full-color.svg",
+      "expectedSha256": "ce8767f9a039beb47520860b1e109601603cacdde907e226ce741f47c1db597b"
+    },
+    {
+      "id": "us-bulk-gnl",
+      "nameKo": "Global Net Lease Inc",
+      "sourcePage": "https://globalnetlease.com/",
+      "assetUrl": "https://globalnetlease.com/wp-content/themes/globalnetlease/images/logo_gnl.svg",
+      "expectedSha256": "a8fb66fbbe60617a77df879b5366fddca2468f11574648e24b94dc3d37dbb40b"
+    },
+    {
+      "id": "us-bulk-plab",
+      "nameKo": "Photronics",
+      "sourcePage": "https://photronics.com/",
+      "assetUrl": "https://www.photronics.com/wp-content/uploads/2018/11/logo.svg",
+      "expectedSha256": "3431d3f260dfa855cfc0d9e07846726668a89046fc441b246e43a38fa2a9c57c"
+    },
+    {
+      "id": "us-bulk-sma",
+      "nameKo": "Smartstop Self Storage Reit Inc",
+      "sourcePage": "https://smartstopselfstorage.com/",
+      "assetUrl": "https://smartstopselfstorage.com/media/24yecvd2/ssss_logo_color_website.svg",
+      "expectedSha256": "fe4723532435fac9219cdbeffaffe9931ca692edc2fa39b300670c21fc7d1d62"
+    },
+    {
+      "id": "us-bulk-asth",
+      "nameKo": "Astrana Health",
+      "sourcePage": "https://astranahealth.com/",
+      "assetUrl": "https://www.astranahealth.com/wp-content/uploads/2024/11/Astrana_LogoLockup_RGB_Default.svg",
+      "expectedSha256": "c41952fdf2707cd433ce3f990acdaa280b2f84008eb7a96b8c8fdc0a86bb575b"
+    },
+    {
+      "id": "us-bulk-ccs",
+      "nameKo": "Century Communities Inc",
+      "sourcePage": "https://centurycommunities.com/",
+      "assetUrl": "https://centurycommunities.com/contentassets/9f79aae3419e4d8b8c624721592ec745/ccs-logo---horizontal.svg",
+      "expectedSha256": "31f4afbbc8fa2fe2cbba21924937fa3ddb30649717b9b92b16e49714bba9804a"
+    },
+    {
+      "id": "us-bulk-pgen",
+      "nameKo": "Precigen",
+      "sourcePage": "https://precigen.com/",
+      "assetUrl": "https://precigen.com/wp-content/uploads/2025/08/precigen-logo-footer.svg",
+      "expectedSha256": "69f67bb951c3d03191dea478d0bdb318d1dc6bb0a72bed82ef493e91fbc0c185"
+    },
+    {
+      "id": "us-bulk-arlo",
+      "nameKo": "Arlo Technologies",
+      "sourcePage": "https://arlo.com/",
+      "assetUrl": "https://asia.arlo.com/cdn/shop/files/Arlo_Wordmark_1c8b51fe-674a-4dac-96e4-044154169d54.svg?v=1749832416&width=600",
+      "expectedSha256": "cb0f3bb7f7c55424cdd6c5d68f83c2e48d3342be81b3e4ae8ebf93b485e33a04"
+    },
+    {
+      "id": "us-bulk-cnmd",
+      "nameKo": "Conmed Corp",
+      "sourcePage": "https://conmed.com/",
+      "assetUrl": "https://conmed.com/-/media/conmed/images/conmed_logo_header_rgb.svg?rev=b2493f9aa12646109d8515570eaada06",
+      "expectedSha256": "fb2263b22246395662d49c78cceb070e08daefc762aaa99c0a930215352b011d"
+    },
+    {
+      "id": "us-bulk-umh",
+      "nameKo": "Umh Properties Inc",
+      "sourcePage": "https://umh.com/",
+      "assetUrl": "https://umh.com/wp-content/uploads/UMH_header_logo.svg",
+      "expectedSha256": "44ce35dd42a4db29b8f721a6cf84fdec614493fd02ab2a0ec7213ef09050a52a"
+    },
+    {
+      "id": "us-bulk-zyme",
+      "nameKo": "Zymeworks",
+      "sourcePage": "https://zymeworks.com/",
+      "assetUrl": "https://www.zymeworks.com/wp-content/uploads/2022/09/zymeworks-logo.svg",
+      "expectedSha256": "37ef80fdf0aa96058e9526bc0afd8c6c9f37933533323a45d7de060e7f49017b"
+    },
+    {
+      "id": "us-bulk-scsc",
+      "nameKo": "Scansource",
+      "sourcePage": "https://scansource.com/",
+      "assetUrl": "https://scansource.com/~/media/Project/scansource/scansourceweb/Header/scansource_logo.svg?la=en&h=77&w=385&hash=81941B3321D5E4C1ADC2AA3EDC38BDF1",
+      "expectedSha256": "c460ce7e8e57b076dab0fb21c0d44be22477d61bf9c094f628dfcc81efe9996c"
+    },
+    {
+      "id": "us-bulk-flo",
+      "nameKo": "Flowers Foods Inc",
+      "sourcePage": "https://flo.com/",
+      "assetUrl": "https://www.flo.com/wp-content/uploads/2022/12/compact-flo-logo.svg",
+      "expectedSha256": "ca2734d3a79f2853810454a28676ef36150192d680893ed4ed5ac3cd0e49a8ee"
+    },
+    {
+      "id": "us-bulk-pd",
+      "nameKo": "Pagerduty",
+      "sourcePage": "https://pagerduty.com/",
+      "assetUrl": "https://pagerduty.com/logos/pagerduty-monochrome.svg",
+      "expectedSha256": "3933e3d47ac956ff57b886f480c6790740825a058a3ccd1b6101b46356759688"
+    },
+    {
+      "id": "us-bulk-thrm",
+      "nameKo": "Gentherm",
+      "sourcePage": "https://gentherm.com/",
+      "assetUrl": "https://gentherm.com/wp-content/themes/bootscore-child-main/img/logo/logo-sm.svg",
+      "expectedSha256": "3dc0dcbaae58bb9306cb962c10a164390dcb5ee990e55ea1c992927c8a3a35f6"
+    },
+    {
+      "id": "us-bulk-mbwm",
+      "nameKo": "Mercantile Bank Corp",
+      "sourcePage": "https://mercantilebank.com/",
+      "assetUrl": "https://mercantilebank.com/assets/img/logo.svg",
+      "expectedSha256": "08c4873bd26d353675bc18ddd33d54e45a1664bca8224e7414a74e76c88665b1"
+    },
+    {
+      "id": "us-bulk-snda",
+      "nameKo": "Sonida Senior Living",
+      "sourcePage": "https://sonidaseniorliving.com/",
+      "assetUrl": "https://www.sonidaseniorliving.com/nitropack_static/dctHfwtfJeNXyZMFGIbiMfxfNUPpwglm/assets/images/source/rev-ce718b7/www.sonidaseniorliving.com/wp-content/uploads/2025/07/logo_sonida-senior-living.svg",
+      "expectedSha256": "80da5da0c23c63626d2ea35346698ee1e5a47cf3c8d9be76318731cb7a429e1a"
+    },
+    {
+      "id": "us-bulk-wen",
+      "nameKo": "Wendys",
+      "sourcePage": "https://wendys.com/",
+      "assetUrl": "https://wendys.com/themes/custom/wendys_main/wendys-logo.svg",
+      "expectedSha256": "f303c87baf607b7ddcda7fe76e819668849955543fd290e1926734ec42616c2a"
+    },
+    {
+      "id": "us-bulk-cert",
+      "nameKo": "Certara",
+      "sourcePage": "https://certara.com/",
+      "assetUrl": "https://www.certara.com/wp-content/uploads/2024/12/Certara_Logo_Header.svg",
+      "expectedSha256": "c13745e0844f2cbe9641589472a8a8b11cfc800b356ce4bc6595096b0f2bcaf0"
+    },
+    {
+      "id": "us-bulk-hzo",
+      "nameKo": "Marinemax Inc",
+      "sourcePage": "https://marinemax.com/",
+      "assetUrl": "https://www.marinemax.com/cdn/shop/files/marinemax-logo_ac51691e-1d13-479f-b078-960321658de2.svg?v=1759239242&width=120",
+      "expectedSha256": "54edc36a5338cc716f9ba30adc075223324ff7aa97d1cb442ee1c5113aefceee"
+    },
+    {
+      "id": "us-bulk-nbn",
+      "nameKo": "Northeast Bank",
+      "sourcePage": "https://northeastbank.com/",
+      "assetUrl": "https://northeastbank.com/themes/custom/neb_site/includes/images/neb-logo.svg",
+      "expectedSha256": "7b9f4e5be55f337e87c9e3f65feb543e07f91bdff0c65bb15468a898a8d1dd7c"
+    },
+    {
+      "id": "us-bulk-nwpx",
+      "nameKo": "Nwpx Infrastructure",
+      "sourcePage": "https://nwpx.com/",
+      "assetUrl": "https://nwpx.com/wp-content/uploads/2025/05/NWPX-logo-1.svg",
+      "expectedSha256": "b3a6fd1776359606cdd046ef14b5bdece921a84d7bc089dc890def31eb95052d"
+    },
+    {
+      "id": "us-bulk-wlth",
+      "nameKo": "Wealthfront",
+      "sourcePage": "https://wealthfront.com/",
+      "assetUrl": "https://wealthfront.com/next/contenthash/next/svg/optimized/wordmark-surface-dark.contenthash.0eff70a79bddf191f2be3b9c62051ae9a9c7619e.svg",
+      "expectedSha256": "2b1bcd93a7cb84aa98f1b0c1213b9b0c2397197b7cfb37cc424d4d0f09a77ab9"
+    },
+    {
+      "id": "us-bulk-trst",
+      "nameKo": "Trustco Bank Corp",
+      "sourcePage": "https://trustcobank.com/",
+      "assetUrl": "https://www.trustcobank.com/wp-content/uploads/2022/08/Logo.svg",
+      "expectedSha256": "39b144ff01168685fa97ec5e978f25cd85d159a61a9a794507fc3c506284d78e"
+    },
+    {
+      "id": "us-bulk-wolf",
+      "nameKo": "Wolfspeed Inc",
+      "sourcePage": "https://wolfspeed.com/",
+      "assetUrl": "https://wolfspeed.com/static/logo-color-2535924b54efb47c5382c92aecc4da3e.svg",
+      "expectedSha256": "5b1ded3953a0ec20ccf38bf83aa373314b1852e761de832d5cfe7cf270e07992"
+    },
+    {
+      "id": "us-bulk-aste",
+      "nameKo": "Astec Industries",
+      "sourcePage": "https://astecindustries.com/",
+      "assetUrl": "https://astecindustries.com/wp-content/uploads/logo-astec.svg",
+      "expectedSha256": "6c0ea0cedd0b833929f832a077e23117ed8bdd6bd7c24b43d8bdc7e3df97d887"
+    },
+    {
+      "id": "us-bulk-cgem",
+      "nameKo": "Cullinan Therapeutics",
+      "sourcePage": "https://cullinantherapeutics.com/",
+      "assetUrl": "https://cullinantherapeutics.com/wp-content/uploads/2025/12/Cullinan_Logo_RGB_CLR.svg",
+      "expectedSha256": "c8288efa7408c16fc5699df21bb1999ab289d9df7a0724f5433d4de10e58f924"
+    },
+    {
+      "id": "us-bulk-rdvt",
+      "nameKo": "Red Violet Inc",
+      "sourcePage": "https://redviolet.com/",
+      "assetUrl": "https://www.redviolet.com/wp-content/uploads/2022/10/redviolet-logo.svg",
+      "expectedSha256": "2fa6654144cedd6a002f3e1b7763a992ee15735cf999bc96ad5eb4ebc4f526ac"
+    },
+    {
+      "id": "us-bulk-fcel",
+      "nameKo": "Fuelcell Energy Inc",
+      "sourcePage": "https://fuelcellenergy.com/",
+      "assetUrl": "https://www.fuelcellenergy.com/hubfs/raw_assets/public/FuelCellEnergy_HS_Theme_2022/images/fuelcellenergy-primary-logo-full-color-rgb.svg",
+      "expectedSha256": "b4f16da3a422bd843466cefecd24b6226711dd6277401406b1d3a8a3fbdf35ea"
+    },
+    {
+      "id": "us-bulk-kopn",
+      "nameKo": "Kopin Corp",
+      "sourcePage": "https://kopin.com/",
+      "assetUrl": "https://www.kopin.com/wp-content/uploads/2023/09/Kopin-Logo-Color.svg",
+      "expectedSha256": "6368e4b8cf54ec4377e6e1d3a7d7b68c78972ab870169425c7cee2b2976bfc1b"
+    },
+    {
+      "id": "us-bulk-sepn",
+      "nameKo": "Septerna",
+      "sourcePage": "https://septerna.com/",
+      "assetUrl": "https://www.septerna.com/wp-content/uploads/septerna-logo-b-white.svg",
+      "expectedSha256": "54d4fad8836a6191dd7c9838b148b91d1630b201eaaf7d1197bf092205d6f93c"
+    },
+    {
+      "id": "us-bulk-ardx",
+      "nameKo": "Ardelyx",
+      "sourcePage": "https://ardelyx.com/",
+      "assetUrl": "https://ardelyx.com/wp-content/themes/ardelyx_custom_theme2024/public/images/logo.svg",
+      "expectedSha256": "ad43cd28c984975c1dc8a4fe88b5f1d608fb3dca6dda35fdecb779fbf3a32bf0"
+    },
+    {
+      "id": "us-bulk-hrtg",
+      "nameKo": "Heritage Insurance Holdings Inc",
+      "sourcePage": "https://hrtg.com/",
+      "assetUrl": "https://hrtg.com/wp-content/uploads/2025/12/HRTG_logo_white.svg",
+      "expectedSha256": "64be230eb0ff5b11e8403a129d874fee254edacbb0c798b074d2ffe3a80ee9f6"
+    },
+    {
+      "id": "us-bulk-gcmg",
+      "nameKo": "Gcm Grosvenor Class A",
+      "sourcePage": "https://gcmgrosvenor.com/",
+      "assetUrl": "https://www.gcmgrosvenor.com/wp-content/uploads/gcm-grosvneor-logo.svg",
+      "expectedSha256": "b8f7edf722260a8dac54bd53ef9fe2759c70cb984f27d371a78e3e0a09625ed9"
+    },
+    {
+      "id": "us-bulk-codi",
+      "nameKo": "Compass Diversified",
+      "sourcePage": "https://compassdiversified.com/",
+      "assetUrl": "https://compassdiversified.com/wp-content/uploads/2024/11/logo.svg",
+      "expectedSha256": "133a623f0f5e2a54432e5099b0f2adf222953966ad84ff42826a2110e67fc22b"
+    },
+    {
+      "id": "us-bulk-qdel",
+      "nameKo": "Quidelortho Corp",
+      "sourcePage": "https://quidelortho.com/",
+      "assetUrl": "https://quidelortho.com/content/dam/quidelortho/global/images-new/qo-logo-indigo.svg",
+      "expectedSha256": "88bb5d8993f11ed1e7706bfd621d4b07c784d8a675d7bd693747520da2cf4a2c"
+    },
+    {
+      "id": "us-bulk-dakt",
+      "nameKo": "Daktronics Inc",
+      "sourcePage": "https://daktronics.com/",
+      "assetUrl": "https://daktronics.com/media/_site/DakLogoWhite.svg",
+      "expectedSha256": "8c26b33a450d2e46c43d263b123733d33670ca17ccedd78fa08eeccc2a148125"
+    },
+    {
+      "id": "us-bulk-gern",
+      "nameKo": "Geron",
+      "sourcePage": "https://geron.com/",
+      "assetUrl": "https://www.geron.com/wp-content/uploads/logo.svg",
+      "expectedSha256": "76c90e1bb0fc25135bd0a1fbde24bccdc2ad7ce5602237b7bfc846f120005f33"
+    },
+    {
+      "id": "us-bulk-bv",
+      "nameKo": "Brightview Holdings",
+      "sourcePage": "https://brightview.com/",
+      "assetUrl": "https://brightview.com/themes/custom/brightview/brightview-logo.svg",
+      "expectedSha256": "83360c4454e29ff22c34b2bd41d3a5ab536ac4ece2358ff5b6587286616a9155"
+    },
+    {
+      "id": "us-bulk-asc",
+      "nameKo": "Ardmore Shipping Corp",
+      "sourcePage": "https://ardmoreshipping.com/",
+      "assetUrl": "https://ardmoreshipping.com/wp-content/themes/ardmore/assets/images/ardmore-logo.svg",
+      "expectedSha256": "c8ddd36b2ca20c355eb48b63985cc607d8303deb0c24b5734c084494c5079d06"
+    },
+    {
+      "id": "us-bulk-bow",
+      "nameKo": "Bowhead Specialty Holdings",
+      "sourcePage": "https://bowheadspecialty.com/",
+      "assetUrl": "https://bowheadspecialty.com/wp-content/uploads/2026/03/bowhead-logo-horizontal.svg",
+      "expectedSha256": "4e5d4ad0c1b89afa9e6b0e0859c4cc082d316d9c6ae1afc60d7f47602db3963d"
+    },
+    {
+      "id": "us-bulk-jbio",
+      "nameKo": "Jade Biosciences",
+      "sourcePage": "https://jadebiosciences.com/",
+      "assetUrl": "https://jadebiosciences.com/wp-content/uploads/2024/10/jb_logo.svg",
+      "expectedSha256": "708c42a4405aac5cc7f1a69bcfa472f1479e01f1bafe7606ad16f5a404066636"
+    },
+    {
+      "id": "us-bulk-lcln",
+      "nameKo": "Lincoln International Inc Class A",
+      "sourcePage": "https://lincolninternational.com/",
+      "assetUrl": "https://www.lincolninternational.com/wp-content/uploads/LincolnInternational-Logo-RGB.svg?x42372",
+      "expectedSha256": "66186c035ed76b7d25e6f9d5c250d31b53a3d39153bf6c4466e602f075efbf33"
+    },
+    {
+      "id": "us-bulk-shaz",
+      "nameKo": "Sharonai Holdings Inc Class A",
+      "sourcePage": "https://sharonai.com/",
+      "assetUrl": "https://sharonai.com/wp-content/uploads/2026/07/Sharon-AI-preffered-logo.svg",
+      "expectedSha256": "4b12a5b78c32c59feda6e914bd802d474951f8b46a1618cdd974a4bc3da83696"
+    },
+    {
+      "id": "us-bulk-hyln",
+      "nameKo": "Hyliion Holdings Corp",
+      "sourcePage": "https://hyliion.com/",
+      "assetUrl": "https://www.hyliion.com/wp-content/uploads/2023/02/main-logo.svg",
+      "expectedSha256": "19027230d7aec5b22ea822e60de642244109fb55a8d1e71b4ff6734c3300d711"
+    },
+    {
+      "id": "us-bulk-cers",
+      "nameKo": "Cerus Corp",
+      "sourcePage": "https://cerus.com/",
+      "assetUrl": "https://www.cerus.com/wp-content/uploads/2020/09/cerus-logo.svg",
+      "expectedSha256": "42bbd9a2790bdb61b11aaada3bb946f2e499ff403f7e458108689e8ed8309a13"
+    },
+    {
+      "id": "us-bulk-gdyn",
+      "nameKo": "Grid Dynamics Holdings Class A",
+      "sourcePage": "https://griddynamics.com/",
+      "assetUrl": "https://cdnwp.griddynamics.com/wp-content/uploads/2023/07/gd-logo.svg",
+      "expectedSha256": "c1c9cc28765c6179de62e84a20382e902ef3086c90bd107605281c5e544e6da3"
+    },
+    {
+      "id": "us-bulk-phr",
+      "nameKo": "Phreesia",
+      "sourcePage": "https://phreesia.com/",
+      "assetUrl": "https://www.phreesia.com/wp-content/themes/studio-simpatico/assets/svgs/logo.svg",
+      "expectedSha256": "a632875c445b80c4a3847b85f57d6f6d2ee2fc91094229c7aa4411ca405fb79b"
+    },
+    {
+      "id": "us-bulk-stln",
+      "nameKo": "Starling Oncology",
+      "sourcePage": "https://starlingoncology.com/",
+      "assetUrl": "https://starlingoncology.com/wp-content/uploads/2026/07/Starling_logo_horizontal_white.svg",
+      "expectedSha256": "edd22263bc2bcd30eecf89ef79b39d8147c6521ed34df25859c945d72f1e5f2e"
+    },
+    {
+      "id": "us-bulk-aloy",
+      "nameKo": "Realloys Inc",
+      "sourcePage": "https://realloys.com/",
+      "assetUrl": "https://realloys.com/wp-content/uploads/2023/10/logo_realloys_reverse.svg",
+      "expectedSha256": "35bed688cc85dc9c826d786bfb8b8c941d37b820f32feaa91b8299dbba2bcc12"
+    },
+    {
+      "id": "us-bulk-krt",
+      "nameKo": "Karat Packaging Inc",
+      "sourcePage": "https://karatpackaging.com/",
+      "assetUrl": "https://karatpackaging.com/images/logo-karat.svg",
+      "expectedSha256": "d18113d9b15842596caf014c7407bb1b88f6effaef9baf774e847e558514bc80"
+    },
+    {
+      "id": "us-bulk-arvn",
+      "nameKo": "Arvinas",
+      "sourcePage": "https://arvinas.com/",
+      "assetUrl": "https://www.arvinas.com/wp-content/uploads/2024/07/arvn-logo-rgb.svg",
+      "expectedSha256": "18b2826c8460664e4ea422a72d97826140080bab9d6b3b6f0c25ecc0a348d2a6"
+    },
+    {
+      "id": "us-bulk-csv",
+      "nameKo": "Carriage Services Inc",
+      "sourcePage": "https://carriageservices.com/",
+      "assetUrl": "https://www.carriageservices.com/wp-content/themes/carriage-services/img/footer-logo.svg",
+      "expectedSha256": "618d4d36bdad18e97cfe09c8b6c221df88c93586630eb11483a31dec8aab6926"
+    },
+    {
+      "id": "us-bulk-pacb",
+      "nameKo": "Pacific Biosciences Of California",
+      "sourcePage": "https://pacb.com/",
+      "assetUrl": "https://www.pacb.com/wp-content/themes/pacbio/images/logo/logo-pacbio.svg",
+      "expectedSha256": "740f08cce2bc15acbc26d0601c64f2e1566d5c8a8cc7830f4617acb210eb4141"
+    },
+    {
+      "id": "us-bulk-clym",
+      "nameKo": "Climb Bio Inc",
+      "sourcePage": "https://climbbio.com/",
+      "assetUrl": "https://climbbio.com/wp-content/themes/climb_custom_theme2024/public/images/logo.svg",
+      "expectedSha256": "6342a00888344c7790b7d6a70f30a1ff4823ff9b6121eba974f5d45751908dcb"
+    },
+    {
+      "id": "us-bulk-asix",
+      "nameKo": "Advansix",
+      "sourcePage": "https://advansix.com/",
+      "assetUrl": "https://advansix.com/wp-content/uploads/2023/01/AdvanSix_GoodChemistry_Logo_REV.svg",
+      "expectedSha256": "b310609e178e0a433bd72338aea18873a524bba3bcf548bcf4213f9999b2e1e2"
+    },
+    {
+      "id": "us-bulk-edit",
+      "nameKo": "Editas Medicine",
+      "sourcePage": "https://editasmedicine.com/",
+      "assetUrl": "https://www.editasmedicine.com/wp-content/themes/sage/dist/images/logo-editas-white_112c6be8.svg",
+      "expectedSha256": "dade9ca8dcb87b3ef8cc5b6d506d3d13ae5c3a86be6d34282f45249c3ebe3e74"
+    },
+    {
+      "id": "us-bulk-jcap",
+      "nameKo": "Jefferson Capital Inc",
+      "sourcePage": "https://jcap.com/",
+      "assetUrl": "https://jcap.com/assets/images/logo.svg?1647868292",
+      "expectedSha256": "7a5e0c96167c633020188183c05bb055b71016cef2342003ef6cd642c7eab7f9"
+    },
+    {
+      "id": "us-bulk-loco",
+      "nameKo": "El Pollo Loco Inc",
+      "sourcePage": "https://elpolloloco.com/",
+      "assetUrl": "https://elpolloloco.com/content/img/svgs/loco-logo.svg",
+      "expectedSha256": "4011c4c5f9852b54d89ffedf5040252bf1a4ad03fedd8d7bf56804b824f9ece3"
+    },
+    {
+      "id": "us-bulk-ibta",
+      "nameKo": "Ibotta Class A",
+      "sourcePage": "https://ibotta.com/",
+      "assetUrl": "https://ibotta.com/corporate-assets/_next/static/media/main-logo-cash-back-black.b05a7123.svg",
+      "expectedSha256": "dbcf4604a746f404521443cebf9309dfd1f5c6fd3e0f82444a904f45f332e097"
+    },
+    {
+      "id": "us-bulk-cbio",
+      "nameKo": "Crescent Biopharma",
+      "sourcePage": "https://crescentbiopharma.com/",
+      "assetUrl": "https://www.crescentbiopharma.com/wp-content/themes/cres-child/img/Crescent-logo.svg",
+      "expectedSha256": "686cebcfcf4a7c7bc32a7e43c70ad66eccf056a436614713513e3f83cc8ec85c"
+    },
+    {
+      "id": "us-bulk-magn",
+      "nameKo": "Magnera",
+      "sourcePage": "https://magnera.com/",
+      "assetUrl": "https://magnera.com/wp-content/themes/magnera-theme/public/images/logo-light.svg?id=7ce0afd1def0f7059cb9e3992d42b2c9",
+      "expectedSha256": "9a33e24195b8d33d67a8045a01182d04842fdbf0894c68f2549955eb959a6bfa"
+    },
+    {
+      "id": "us-bulk-fstr",
+      "nameKo": "Lb Foster",
+      "sourcePage": "https://lbfoster.com/",
+      "assetUrl": "https://lbfoster.com/assets/global/lbfoster-logo-2023-c12832.svg",
+      "expectedSha256": "b35393d8732e5da69d85addaaa05abe0e7618b645702603554264209e38ce68f"
+    },
+    {
+      "id": "us-bulk-prta",
+      "nameKo": "Prothena Plc",
+      "sourcePage": "https://prothena.com/",
+      "assetUrl": "https://prothena.com/wp-content/uploads/2019/12/prothena_logo.svg",
+      "expectedSha256": "42f07ab842d3afc96cce9c560ae33836b97019a7ea42b400c67f439109d6a293"
+    },
+    {
+      "id": "us-bulk-erii",
+      "nameKo": "Energy Recovery",
+      "sourcePage": "https://energyrecovery.com/",
+      "assetUrl": "https://energyrecovery.com/wp-content/themes/epicstrap/assets/logos/energy-recovery-logo-horizontal-rgb-reversed.svg",
+      "expectedSha256": "6f36c8f004351ad00d93a3f6d01993c3d5193e2d021654e62f784c19d68e7b5b"
+    },
+    {
+      "id": "us-bulk-vitl",
+      "nameKo": "Vital Farms Inc",
+      "sourcePage": "https://vitalfarms.com/",
+      "assetUrl": "https://vitalfarms.com/wp-content/uploads/2026/05/vf-logo.svg",
+      "expectedSha256": "906cb32856e738fac3c4d5a106539302f1cf533c10e1e3825b0da8a0b4de74b8"
+    },
+    {
+      "id": "us-bulk-newt",
+      "nameKo": "Newtekone",
+      "sourcePage": "https://newtekone.com/",
+      "assetUrl": "https://www.newtekone.com/wp-content/uploads/2023/01/newtek-one_logo.svg",
+      "expectedSha256": "df4270bd69849940eb8e3fce0b93fce3fb1bda328ce1e65a7b4a88631f1a1316"
+    },
+    {
+      "id": "us-bulk-cccc",
+      "nameKo": "C4 Therapeutics",
+      "sourcePage": "https://c4therapeutics.com/",
+      "assetUrl": "https://c4therapeutics.com/wp-content/themes/c4therapeutics/assets/images/logo_c4therapeutics.svg",
+      "expectedSha256": "1273d3a222395d90968671bcb4373b0a89c9948657adc8e2702fdace9d0b02e4"
+    },
+    {
+      "id": "us-bulk-pesi",
+      "nameKo": "Perma Fix Environmental Services I",
+      "sourcePage": "https://pesi.com/",
+      "assetUrl": "https://pesi.com/media/aiahmibo/pesi-blue-logo-dark.svg?anchor=center&mode=pad&width=178&quality=80",
+      "expectedSha256": "deaffee6b93dd31a7848a18fbe47907d2ae12e269f9a7326f9b44589640c000e"
+    },
+    {
+      "id": "us-bulk-quad",
+      "nameKo": "Quad Graphics Inc Class A",
+      "sourcePage": "https://quad.com/",
+      "assetUrl": "https://www.quad.com/wp-content/uploads/2024/08/Logo-QuadFullLockup-BW.svg",
+      "expectedSha256": "97f00d9c83114953293f6962c58fb08e985f8a7bc45809bac8b68a0fe8364c75"
+    },
+    {
+      "id": "us-bulk-nksh",
+      "nameKo": "National Bankshares Inc",
+      "sourcePage": "https://nationalbankshares.com/",
+      "assetUrl": "https://nationalbankshares.com/files/design/svg/NBI-logo-2024.svg",
+      "expectedSha256": "861f1bbbffaf5fdd7f39208b95761c65e6269324ea4a6d9c9100835ed26937f0"
+    },
+    {
+      "id": "us-bulk-max",
+      "nameKo": "Mediaalpha Class A",
+      "sourcePage": "https://mediaalpha.com/",
+      "assetUrl": "https://mediaalpha.com/wp-content/uploads/2026/07/MA-logo_InlineHorizontal_orange.svg",
+      "expectedSha256": "ff5f761bdaef86fd143734cc01654786c946695ee4990451ade572fa3b00061a"
+    },
+    {
+      "id": "us-bulk-frd",
+      "nameKo": "Friedman Industries Inc",
+      "sourcePage": "https://friedmanindustries.com/",
+      "assetUrl": "https://friedmanindustries.com/wp-content/uploads/2024/02/friedmanlogoAsset-3.svg",
+      "expectedSha256": "5ab773473843b6c1df4b7507651e7ffb7970a0cbcea45a88441b66c2e62edd1b"
+    },
+    {
+      "id": "us-bulk-xper",
+      "nameKo": "Xperi Inc",
+      "sourcePage": "https://xperi.com/",
+      "assetUrl": "https://xperi.com/wp-content/uploads/2022/01/xperi-logo-white.svg",
+      "expectedSha256": "9f7d5615e458acde6dcfd6f18c02cb2524afa7beff49ba8d7e61c73221b1fa4b"
+    },
+    {
+      "id": "us-bulk-apmd",
+      "nameKo": "Apnimed Inc",
+      "sourcePage": "https://apnimed.com/",
+      "assetUrl": "https://apnimed.com/wp-content/uploads/2024/07/apnimed_site-logo.svg",
+      "expectedSha256": "bb101d2820726db932dc9304a273c196d54a7eb41d770c24189aa87e8dc3fec7"
+    },
+    {
+      "id": "us-bulk-isba",
+      "nameKo": "Isabella Bank Corp",
+      "sourcePage": "https://isabellabank.com/",
+      "assetUrl": "https://isabellabank.com/images/default-source/default-album/isabella-bank-logo.svg?sfvrsn=560873ac_1",
+      "expectedSha256": "affcde1891a41f9a55c1a7f25221e8c5ad21b1e88edc19ffd6014f3744cc5693"
+    },
+    {
+      "id": "us-bulk-rmni",
+      "nameKo": "Rimini Street Inc",
+      "sourcePage": "https://riministreet.com/",
+      "assetUrl": "https://www.riministreet.com/wp-content/themes/riministreet/assets/images/web-logo-ai-tagline_regular-white.svg",
+      "expectedSha256": "ebbdf3aa3818c41c6d6f9e141d3b253dd16b99ff930c4e0e44ce37b570fabe4f"
+    },
+    {
+      "id": "us-bulk-fnko",
+      "nameKo": "Funko Class A",
+      "sourcePage": "https://funko.com/",
+      "assetUrl": "https://funko.com/on/demandware.static/Sites-FunkoUS-Site/-/default/dw3b9c85a2/images/funko/svg/site-logo.svg",
+      "expectedSha256": "ffda28a55a0fdda62f64e4c3d70fbee99e97fb1d0ecf837c96f0ae1cc5a3106d"
+    },
+    {
+      "id": "us-bulk-mgnx",
+      "nameKo": "Macrogenics Inc",
+      "sourcePage": "https://macrogenics.com/",
+      "assetUrl": "https://www.macrogenics.com/wp-content/themes/macrogenics2023/images/Macrogenics_logo-color-wht-2026.svg",
+      "expectedSha256": "a910f109d70ca3bc25bac8cb29fcc7420d26f8f0c5472487af4ca99b7c5175c2"
+    },
+    {
+      "id": "us-bulk-opfi",
+      "nameKo": "Oppfi Inc Class A",
+      "sourcePage": "https://oppfi.com/",
+      "assetUrl": "https://www.oppfi.com/wp-content/uploads/logo-color.svg",
+      "expectedSha256": "cbdc42ee9e73f6bbf9454f64ddff5419ee1d26b51a9c4bfa785e05ef880c3a16"
+    },
+    {
+      "id": "us-bulk-quik",
+      "nameKo": "Quicklogic Corp",
+      "sourcePage": "https://quicklogic.com/",
+      "assetUrl": "https://www.quicklogic.com/wp-content/uploads/2024/06/QuickLogic-Logo-w-reg-mark.svg",
+      "expectedSha256": "fcc29e2a7a633bfe975c33e0e625b80e475dd2fc678a94623febae5fcd21f183"
+    },
+    {
+      "id": "us-bulk-rxst",
+      "nameKo": "Rxsight",
+      "sourcePage": "https://rxsight.com/",
+      "assetUrl": "https://rxsight.com/wp-content/uploads/2022/12/RxSIGHT_LOGO_WHT_®2020.svg",
+      "expectedSha256": "569e958a1c16e3ce16a142c9425f86f0d89c2248c7ec6ff9ee307f2ecdd0311b"
+    },
+    {
+      "id": "us-bulk-tara",
+      "nameKo": "Protara Therapeutics Inc",
+      "sourcePage": "https://tara.com/",
+      "assetUrl": "https://tara.com/logo.svg",
+      "expectedSha256": "75ba40012f279d3f17ddff6a18084dbeb28776ddddd43d52271bfed671145881"
+    },
+    {
+      "id": "us-bulk-nage",
+      "nameKo": "Niagen Bioscience Inc",
+      "sourcePage": "https://niagenbioscience.com/",
+      "assetUrl": "https://www.niagenbioscience.com/cdn/shop/files/Niagen_Bioscience_Stacked_logo.svg?v=1755542627&width=320",
+      "expectedSha256": "e907e2d7dc87ec68fcab0f63f105e9589c30e33aa0836f703d5d3745946c9dd0"
+    },
+    {
+      "id": "us-bulk-rbbn",
+      "nameKo": "Ribbon Communications",
+      "sourcePage": "https://ribboncommunications.com/",
+      "assetUrl": "https://ribboncommunications.com/themes/custom/ribbon2020/images/ribbon-logo-color-1.svg",
+      "expectedSha256": "2e17e09674f1d5f516705d3d9fbc14ed557c089df91fe4215e9959c6e81006f0"
+    },
+    {
+      "id": "us-bulk-sabs",
+      "nameKo": "Sab Biotherapeutics",
+      "sourcePage": "https://sabbiotherapeutics.com/",
+      "assetUrl": "https://sabbiotherapeutics.com/wp-content/themes/sabbiotherapeutics/assets/svg/logo-01.svg",
+      "expectedSha256": "7c4012389a523e9773964a5fda6deb06c97b63015f40e54b4c666c332760a527"
+    },
+    {
+      "id": "us-bulk-cmpx",
+      "nameKo": "Compass Therapeutics",
+      "sourcePage": "https://compasstherapeutics.com/",
+      "assetUrl": "https://www.compasstherapeutics.com/wp-content/themes/compasstx2019/assets/images/logo_compass-therapeutics_footer.svg",
+      "expectedSha256": "2c7eeb119058e40671815013d176d941bd49474f7caa434bd71c54a89ba2cee5"
+    },
+    {
+      "id": "us-bulk-sgc",
+      "nameKo": "Superior Group Of Companies Inc",
+      "sourcePage": "https://superiorgroupofcompanies.com/",
+      "assetUrl": "https://superiorgroupofcompanies.com/wp-content/uploads/2024/02/sgc_logo.svg",
+      "expectedSha256": "a084f49b07cde00f22dababc9993c4cf2288b56e0f0b276c5f51b38d11eaf806"
+    },
+    {
+      "id": "us-bulk-antx",
+      "nameKo": "An2 Therapeutics Inc",
+      "sourcePage": "https://an2therapeutics.com/",
+      "assetUrl": "https://an2therapeutics.com/wp-content/themes/an2-2025/images/an2_logo_white.svg",
+      "expectedSha256": "3281e8343c06bcdb760e936908bf9136d6282ceaf4233f21edea93e2e53d89dd"
+    },
+    {
+      "id": "us-bulk-evcm",
+      "nameKo": "Evercommerce Inc",
+      "sourcePage": "https://evercommerce.com/",
+      "assetUrl": "https://www.evercommerce.com/wp-content/uploads/2019/10/Logo-FullColor.svg",
+      "expectedSha256": "1a6505a1027aaa954e0e159f1a5b4ddaaccfc3f873d18984d073ff04f757999a"
+    },
+    {
+      "id": "us-bulk-nerv",
+      "nameKo": "Minerva Neurosciences Inc",
+      "sourcePage": "https://minervaneurosciences.com/",
+      "assetUrl": "https://minervaneurosciences.com/wp-content/uploads/2026/06/Minerva_Logo–white.svg",
+      "expectedSha256": "88e46a3c46d7729a8bc3758a55aafab8857ae5f1127f511e386c8ffc70c3864c"
+    },
+    {
+      "id": "us-bulk-rnac",
+      "nameKo": "Cartesian Therapeutics",
+      "sourcePage": "https://cartesiantherapeutics.com/",
+      "assetUrl": "https://www.cartesiantherapeutics.com/wp-content/uploads/logo_header.svg",
+      "expectedSha256": "c0f9c1aeb5871b2ef6d6dc7935930b4a4f656aad8edbea82fce41e80870063db"
+    },
+    {
+      "id": "us-bulk-orgo",
+      "nameKo": "Organogenesis Holdings Class A",
+      "sourcePage": "https://organogenesis.com/",
+      "assetUrl": "https://organogenesis.com/images/logo-organogenesis.svg",
+      "expectedSha256": "8d06f586e74e42170ff33460463651649606cdd0ee317cb1318e7670cfa79798"
+    },
+    {
+      "id": "us-bulk-watt",
+      "nameKo": "Energous Corp",
+      "sourcePage": "https://energous.com/",
+      "assetUrl": "https://energous.com/wp-content/uploads/2023/06/energous-wpslogo-reverse.svg",
+      "expectedSha256": "18c15cb58569962801b30c65ed778ccabe32e812063f24059b59ff8d24dc985f"
+    },
+    {
+      "id": "us-bulk-smid",
+      "nameKo": "Smith Midland Corp",
+      "sourcePage": "https://smithmidland.com/",
+      "assetUrl": "https://smithmidland.com/wp-content/uploads/2021/01/logo-white.svg",
+      "expectedSha256": "20a195a51b619047fdc593c980bcd334c69a495d650eccba5e12922f14198cc7"
+    },
+    {
+      "id": "us-bulk-fjet",
+      "nameKo": "Starfighters Space Inc",
+      "sourcePage": "https://starfightersspace.com/",
+      "assetUrl": "https://starfightersspace.com/wp-content/uploads/2022/09/starfighters-logo-white-v01.svg",
+      "expectedSha256": "dd5fbe376e7de65207295e0ad23d8eac68e84083f1a0f1383a62ef02336dc73e"
+    },
+    {
+      "id": "us-bulk-insg",
+      "nameKo": "Inseego",
+      "sourcePage": "https://inseego.com/",
+      "assetUrl": "https://inseego.com/_astro/inseego-logo.D66WI1vj.svg",
+      "expectedSha256": "b56ae7e9d466497686f6e57f03e4e3aee1da09c19ed5e1777b197d644336161c"
+    },
+    {
+      "id": "us-bulk-opal",
+      "nameKo": "Opal Fuels Class A",
+      "sourcePage": "https://opalfuels.com/",
+      "assetUrl": "https://opalfuels.com/wp-content/themes/framework-creative/assets/img/opal-fuels-logo.svg",
+      "expectedSha256": "f3e975205e7600c36fbbab60b8fb6061ea1fa8c3a4656d07dcaa297a94599d80"
+    },
+    {
+      "id": "us-bulk-sbmt",
+      "nameKo": "Silver Bow Mining Corp",
+      "sourcePage": "https://silverbowmining.com/",
+      "assetUrl": "https://silverbowmining.com/brand/logos/silver-bow-horizontal-no-tagline-navy.svg",
+      "expectedSha256": "6280f306cbedf98741b8d65e43d785a184a4810f7805793a6c68d194dbc7f321"
+    },
+    {
+      "id": "us-bulk-alec",
+      "nameKo": "Alector",
+      "sourcePage": "https://alector.com/",
+      "assetUrl": "https://alector.com/wp-content/uploads/2021/11/Alector_Primary_Logo_RGB_TM_M02.svg",
+      "expectedSha256": "1187fe245d705aa4ac250b076d23a97fd55a42715e650417716e560bcc0a6dbd"
+    },
+    {
+      "id": "us-bulk-nni",
+      "nameKo": "Nelnet Class A",
+      "sourcePage": "https://nelnet.com/",
+      "assetUrl": "https://nelnet.com/wp-content/themes/nelnetinc-v3/img/logo-nelnet.svg",
+      "expectedSha256": "10c2cdeb531e28376a5644c71e2cce28efdd5f21dcef5bfee95c59525336aabb"
+    },
+    {
+      "id": "us-bulk-srzn",
+      "nameKo": "Surrozen",
+      "sourcePage": "https://surrozen.com/",
+      "assetUrl": "https://surrozen.com/wp-content/uploads/2025/11/surrozen-logo-ko.svg",
+      "expectedSha256": "2d201e0a34d7c8a69e82d636336891a0283731805dd27acda81f053ca60aac18"
+    },
+    {
+      "id": "us-bulk-sbh",
+      "nameKo": "Sally Beauty Holdings",
+      "sourcePage": "https://sallybeauty.com/",
+      "assetUrl": "https://www.sallybeauty.com/on/demandware.static/-/Library-Sites-SallySharedLibrary/default/dw4c5765ff/images/logos/2025/Sally_Logo.svg",
+      "expectedSha256": "d5a5f4dcfb0419120dcdb4eac7b04dae8f926421f8fa5bb3a99189a81e96ac01"
+    },
+    {
+      "id": "us-bulk-irwd",
+      "nameKo": "Ironwood Pharma Class A",
+      "sourcePage": "https://ironwoodpharma.com/",
+      "assetUrl": "https://ironwoodpharma.com/wp-content/uploads/2022/09/ironwood-logo.svg",
+      "expectedSha256": "86b0326ba5a76ae706bfb802949578f0a4e9c7d17275ccaec1f5f56c43db7b29"
+    },
+    {
+      "id": "us-bulk-dnli",
+      "nameKo": "Denali Therapeutics",
+      "sourcePage": "https://denalitherapeutics.com/",
+      "assetUrl": "https://www.denalitherapeutics.com/wp-content/uploads/2025/06/denali_footer_logo.svg",
+      "expectedSha256": "5db9dce1febed49cbab969dc8454db81a4a985247cc9317a9ffba3e87fc4d7d9"
+    },
+    {
+      "id": "us-bulk-dch",
+      "nameKo": "Dauch Corporation",
+      "sourcePage": "https://dauch.com/",
+      "assetUrl": "https://www.dauch.com/images/dauchlibraries/logos/dauch-logo-tm-wht-rev-rgb.svg?sfvrsn=f24bfb32_1",
+      "expectedSha256": "fe8fb549b420fe57072f17efc74a82d6df93b046b3b28217b526ae87239e3d5f"
+    },
+    {
+      "id": "us-bulk-bfc",
+      "nameKo": "Bank First Corp",
+      "sourcePage": "https://bankfirst.com/",
+      "assetUrl": "https://bankfirst.com/hubfs/Bank-First-logo.svg",
+      "expectedSha256": "54852bf43b63204bae8e4c0b155b3199a42ea317453c171988912fa639fcfd48"
+    },
+    {
+      "id": "us-bulk-srce",
+      "nameKo": "1St Source",
+      "sourcePage": "https://1stsource.com/",
+      "assetUrl": "https://www.1stsource.com/app/uploads/2024/02/1stSourceBank-HeaderLogo-White.svg?x26523",
+      "expectedSha256": "4fa57ecbd921f206a6f2941d858127801a0c697eec5050d934e9f44619bb15a7"
+    },
+    {
+      "id": "us-bulk-nuvb",
+      "nameKo": "Nuvation Bio Class A",
+      "sourcePage": "https://nuvationbio.com/",
+      "assetUrl": "https://nuvationbio.com/wp-content/uploads/2020/12/nuvation-logo-white.svg",
+      "expectedSha256": "e18b293f036e49745eb48c3af2a547f4c04d25b99caffc1e75ca323e55202dc5"
+    },
+    {
+      "id": "us-bulk-mms",
+      "nameKo": "Maximus",
+      "sourcePage": "https://maximus.com/",
+      "assetUrl": "https://maximus.com/etc.clientlibs/maximus-com/clientlibs/clientlib-site/resources/visuals/placeholders/logo-maximus-white.svg",
+      "expectedSha256": "65249bf9c94f5e88e90739a105a67af98f555b0d640bf45620b77459c0c56f0e"
+    },
+    {
+      "id": "us-bulk-jbtm",
+      "nameKo": "Jbt Marel",
+      "sourcePage": "https://jbtmarel.com/",
+      "assetUrl": "https://jbtmarel.com/assets/toolkit/images/jbt-marel-logo-white.svg",
+      "expectedSha256": "d41de1b1e5f22a703fbfaa773226242b03ece90ba3b7904b039f5fcba40655f3"
+    },
+    {
+      "id": "us-bulk-bmi",
+      "nameKo": "Badger Meter",
+      "sourcePage": "https://badgermeter.com/",
+      "assetUrl": "https://badgermeter.com/static/images/badger-meter-logo-horizontal-informal-white.svg",
+      "expectedSha256": "461bb4821fced91628a0187f07a9e178eee559f6785bf63c4edbed67e1c5d0bf"
+    },
+    {
+      "id": "us-bulk-pbi",
+      "nameKo": "Pitney Bowes",
+      "sourcePage": "https://pitneybowes.com/",
+      "assetUrl": "https://pitneybowes.com/etc.clientlibs/pitneybowes/clientlibs/clientlib-site/resources/images/SVG/logo-color.svg",
+      "expectedSha256": "ec6c057f08dd5d1eb79ae53edfc81d5805771e656d8cd5f043c71b66de02c3c3"
+    },
+    {
+      "id": "us-bulk-tdup",
+      "nameKo": "Thredup Class A",
+      "sourcePage": "https://thredup.com/",
+      "assetUrl": "https://thredup.com/tup-assets/pwa/production/assets/logo-wordmark-c663c3c8fc26ce6a2a63.svg",
+      "expectedSha256": "e771547385399b71af850ee66cf1d7e7a516d85c3712d48e8165a77ee42e30e7"
+    },
+    {
+      "id": "us-bulk-sghc",
+      "nameKo": "Super Group",
+      "sourcePage": "https://supergroup.com/",
+      "assetUrl": "https://supergroup.com/wp-content/uploads/2024/05/logo.svg",
+      "expectedSha256": "47383bb67e706b8f0eb86e797a57a2e2db08375b657e206c3a683fb5bc2dddb7"
+    },
+    {
+      "id": "us-bulk-ie",
+      "nameKo": "Ivanhoe Electric",
+      "sourcePage": "https://ivanhoeelectric.com/",
+      "assetUrl": "https://ivanhoeelectric.com/site/templates/build/img/logo.svg",
+      "expectedSha256": "736ffeef14b5f367ada92df0753356466adc140e01f67f4487baf35a4781d6ad"
+    },
+    {
+      "id": "us-bulk-ee",
+      "nameKo": "Excelerate Energy Class A",
+      "sourcePage": "https://excelerateenergy.com/",
+      "assetUrl": "https://excelerateenergy.com/wp-content/themes/excelerate-energy/assets/imgs/logo.svg",
+      "expectedSha256": "88cce000a550a0ef55500d3515973da87f09ab337c3194a1d9988303b1c86dda"
+    },
+    {
+      "id": "us-bulk-urbn",
+      "nameKo": "Urban Outfitters",
+      "sourcePage": "https://urbn.com/",
+      "assetUrl": "https://urbn.com/static/images/logo-investor-relations.svg",
+      "expectedSha256": "1e70afcf52564ee9d69ca783d3cfb8e1fe7b0501a2d4440fae145fc649255db6"
+    },
+    {
+      "id": "us-bulk-tpc",
+      "nameKo": "Tutor Perini",
+      "sourcePage": "https://tutorperini.com/",
+      "assetUrl": "https://tutorperini.com/Images/TPC/TPC_logo_footer.svg",
+      "expectedSha256": "a48ed3113c78659e169c3b56c122de10524001af44a14d2e2a820350f31bc472"
+    },
+    {
+      "id": "us-bulk-rgti",
+      "nameKo": "Rigetti Computing",
+      "sourcePage": "https://rgti.com/",
+      "assetUrl": "https://rgti.com/assets/img/logo-mark.svg",
+      "expectedSha256": "683a9184c6138ac041da3fc376dc2ed255cbde2bcd278fa0e832374142d4f282"
+    },
+    {
+      "id": "us-bulk-oscr",
+      "nameKo": "Oscar Health Class A",
+      "sourcePage": "https://oscarhealth.com/",
+      "assetUrl": "https://oscarhealth.com/icons/hioscar-logomark.svg",
+      "expectedSha256": "756644df065c372a5a860b36ccc47c9a0a2709bbc64e03ed6f12c0e0f617d535"
+    },
+    {
+      "id": "us-bulk-opln",
+      "nameKo": "Openlane",
+      "sourcePage": "https://openlane.com/",
+      "assetUrl": "https://www.openlane.com/wp-content/themes/openlane2024/images/logo-light.svg",
+      "expectedSha256": "9893303a2d66da4d9c173612a2fd72a33d202e652c73eb43157809d88c2d5d71"
+    },
+    {
+      "id": "us-bulk-rxo",
+      "nameKo": "Rxo Inc",
+      "sourcePage": "https://rxo.com/",
+      "assetUrl": "https://rxo.com/wp-content/themes/rxo/images/rxo-logo-white.svg",
+      "expectedSha256": "834d7a533b1d7900c185a7fcc97e8554bc62f2b52031ade451b064ba9c02badd"
+    },
+    {
+      "id": "us-bulk-vgnt",
+      "nameKo": "Versigent Plc",
+      "sourcePage": "https://versigent.com/",
+      "assetUrl": "https://versigent.com/img/logo.svg",
+      "expectedSha256": "45bc533e34919f5ba1c8ecd19d4817734df475e45fbc38fec65f004f8ece57b9"
+    },
+    {
+      "id": "us-bulk-elvn",
+      "nameKo": "Enliven Therapeutics",
+      "sourcePage": "https://enliventherapeutics.com/",
+      "assetUrl": "https://enliventherapeutics.com/themes/default/images/logo_footer.svg",
+      "expectedSha256": "042d576d6f7098e76d33c6a15a6b934471165f6211958b3712a0d8d189aace83"
+    },
+    {
+      "id": "us-bulk-blfs",
+      "nameKo": "Biolife Solutions",
+      "sourcePage": "https://biolifesolutions.com/",
+      "assetUrl": "https://biolifesolutions.com/wp-content/uploads/2024/03/Header-Logo-Mobile.svg",
+      "expectedSha256": "2792df5ca274a6eb981c59d7e67457eb7d8dd6462982d5a81aa80bd7cd58f260"
+    },
+    {
+      "id": "us-bulk-alms",
+      "nameKo": "Alumis",
+      "sourcePage": "https://alumis.com/",
+      "assetUrl": "https://alumis.com/themes/default/images/logo_white.svg",
+      "expectedSha256": "4e1fcf8a738f2a5e17c9b260b9aa2ab1725599fc2dd30dc66d345ccd36028be9"
+    },
+    {
+      "id": "us-bulk-sd",
+      "nameKo": "Sandridge Energy Inc",
+      "sourcePage": "https://sandridgeenergy.com/",
+      "assetUrl": "https://sandridgeenergy.com/wp-content/themes/energy/library/images/sandridge-white-logo.svg",
+      "expectedSha256": "7d0ee3613593b5cc400f44adefee18a71a13bab240227ecd77cfd622570f243d"
+    },
+    {
+      "id": "us-bulk-dsgr",
+      "nameKo": "Distribution Solutions Group",
+      "sourcePage": "https://distributionsolutionsgroup.com/",
+      "assetUrl": "https://distributionsolutionsgroup.com/wp-content/uploads/2022/05/DSG_Logo_tag_KO.svg",
+      "expectedSha256": "77b1793af6078a4cac4709533bb0c379ece0261eae94124c431e6604b8c5686a"
+    },
+    {
+      "id": "us-bulk-acre",
+      "nameKo": "Ares Commercial Real Estate Reit C",
+      "sourcePage": "https://acre.com/",
+      "assetUrl": "https://acre.com/assets/logo/logo-2.svg",
+      "expectedSha256": "8702e40ba67c4473421eb1919d5f61b674f118f7aaa9dc47e3e876b9b463226e"
+    },
+    {
+      "id": "us-bulk-evmn",
+      "nameKo": "Evommune",
+      "sourcePage": "https://evommune.com/",
+      "assetUrl": "https://www.evommune.com/wp-content/uploads/2023/12/Logo-Evommune-Symbol.svg",
+      "expectedSha256": "ce0832ed68494d426c211469258c56c8059a8c3459494e36153e8009304fb18a"
+    },
+    {
+      "id": "us-bulk-nktx",
+      "nameKo": "Nkarta",
+      "sourcePage": "https://nkarta.com/",
+      "assetUrl": "https://nkarta.com/themes/default/images/logo_flat.svg",
+      "expectedSha256": "e9635e45fb1d79e7e1fbcd60de41f533db996b80434456f46adfce89e8baede9"
+    },
+    {
+      "id": "us-bulk-lcut",
+      "nameKo": "Lifetime Brands Inc",
+      "sourcePage": "https://lifetimebrands.com/",
+      "assetUrl": "https://lifetimebrands.com/cdn/shop/files/Logo-LTB2-W.svg?v=1714609851&width=740",
+      "expectedSha256": "fa8364245d5082ba5761a5a2ad661e1cbc8938609346ae330877ac88944cca4b"
+    },
+    {
+      "id": "us-bulk-bzai",
+      "nameKo": "Blaize Holdings Inc",
+      "sourcePage": "https://blaize.com/",
+      "assetUrl": "https://www.blaize.com/wp-content/uploads/2020/08/BLZ-Logo-RGB-Black.svg",
+      "expectedSha256": "3c9c020fe2ab052b79f891721029f1da69c9f9be95ace545993421bc435ab256"
+    },
+    {
+      "id": "us-bulk-bku",
+      "nameKo": "Bankunited",
+      "sourcePage": "https://bankunited.com/",
+      "assetUrl": "https://bankunited.com/images/default-source/default-album/bu_slim_logo.svg?sfvrsn=646c2a44_16&MaxWidth=211&MaxHeight=38&ScaleUp=false&Quality=High&Method=ResizeFitToAreaArguments&Signature=EEC5C7CFE900B2C45700084A208DD976BD0292F1",
+      "expectedSha256": "8546cb63a83de0ea91fe65e290d5143e23e88653b651b97d9473f2a90e1119b0"
+    },
+    {
+      "id": "us-bulk-ws",
+      "nameKo": "Worthington Steel Inc",
+      "sourcePage": "https://worthingtonsteel.com/",
+      "assetUrl": "https://worthingtonsteel.com/ResourcePackages/Worthington/assets/dist/images/logos/white.svg",
+      "expectedSha256": "0f8f123a6d20a043dafd59c68a7e4023612df7f5b02822d509a6c879ad77bf40"
+    },
+    {
+      "id": "ko-extra-2031a96df92e",
+      "nameKo": "(주)블랙밸리컨트리클럽",
+      "sourcePage": "https://www.blackcc.co.kr/About/logo.aspx",
+      "assetUrl": "https://www.blackcc.co.kr/images/logo-white.svg",
+      "expectedSha256": "3e392d7d842ddc26601e88103208f65c73714be90548ef9924c590a23fac7c83"
+    },
+    {
+      "id": "ko-extra-6192ceb082a7",
+      "nameKo": "(주)블랙밸리컨트리클럽",
+      "sourcePage": "https://www.blackcc.co.kr/About/logo.aspx",
+      "assetUrl": "https://www.blackcc.co.kr/images/logo-mobile.svg",
+      "expectedSha256": "a2179c991cdd917426f0476abe0eb4473f1084dda8e374c130fd88029141e238"
+    },
+    {
+      "id": "ko-extra-cb5455190519",
+      "nameKo": "경남투자경제진흥원",
+      "sourcePage": "https://giba.or.kr/fe/inform/ci/NR_index.do",
+      "assetUrl": "https://giba.or.kr/resources/front/images/logo_monotone.svg",
+      "expectedSha256": "964543fd5ce312345581e29f56a93dd6ac7909959564e28b57c351a86f185425"
+    },
+    {
+      "id": "ko-extra-715065e1141a",
+      "nameKo": "경남투자경제진흥원",
+      "sourcePage": "https://giba.or.kr/fe/inform/ci/NR_index.do",
+      "assetUrl": "https://giba.or.kr/resources/front/images/img_logo_ex_ko.svg",
+      "expectedSha256": "57bfbfa9c3cdcf241cdcff7b7bfc541afc873129f21508f22f3cb5b3acd1f4f9"
+    },
+    {
+      "id": "ko-extra-d4bd1f35261f",
+      "nameKo": "경남투자경제진흥원",
+      "sourcePage": "https://giba.or.kr/fe/inform/ci/NR_index.do",
+      "assetUrl": "https://giba.or.kr/resources/front/images/en_type_ci.svg",
+      "expectedSha256": "5a505e3ef230917cfe4ba0e88bc435a17bdc873740ee5f223c128c2b048db317"
+    },
+    {
+      "id": "ko-extra-6184682b2e83",
+      "nameKo": "경남투자경제진흥원",
+      "sourcePage": "https://giba.or.kr/fe/inform/ci/NR_index.do",
+      "assetUrl": "https://giba.or.kr/resources/front/images/img_logo_ex_en.svg",
+      "expectedSha256": "ff07aff995522718b12eff2d651516277a6aca99cacbb2260f24d6dafab9f505"
+    },
+    {
+      "id": "ko-extra-4eae99d2e5e6",
+      "nameKo": "경상북도안동의료원",
+      "sourcePage": "https://amc.or.kr/front/page.do?pageView=/about/symbol",
+      "assetUrl": "https://amc.or.kr/pub/images/img_symbol_02.svg",
+      "expectedSha256": "a415a1a6e9dbe970798bb75eeefd3ea2b9fad22908caacf94a06fd138430a47d"
+    },
+    {
+      "id": "ko-extra-99987a0fcca9",
+      "nameKo": "경상북도안동의료원",
+      "sourcePage": "https://amc.or.kr/front/page.do?pageView=/about/symbol",
+      "assetUrl": "https://amc.or.kr/pub/images/img_symbol_03.svg",
+      "expectedSha256": "bb22eda487b19f189d227c5e562743f8748de1cee7498c31bc36a7bb7187f9d2"
+    },
+    {
+      "id": "ko-extra-1e153088327f",
+      "nameKo": "경상북도안동의료원",
+      "sourcePage": "https://amc.or.kr/front/page.do?pageView=/about/symbol",
+      "assetUrl": "https://amc.or.kr/pub/images/img_symbol_04.svg",
+      "expectedSha256": "5ffde7970b2201e854d0588ce754435f5486a31c0a70fd7c9e277ce64cc1139a"
+    },
+    {
+      "id": "ko-extra-cf339e31fc3b",
+      "nameKo": "공무원연금공단",
+      "sourcePage": "https://www.geps.or.kr/gepsIntro_gepsIs_brandIntro_ciInfo",
+      "assetUrl": "https://www.geps.or.kr/humanframe/theme/geps2022/assets/images/gepsIntro/brand/type-kr.svg",
+      "expectedSha256": "c4e27f21991bb7fd4dcd02685e17459ec3194dadee80957607cbd4dfa4a1cb22"
+    },
+    {
+      "id": "ko-extra-933eab549191",
+      "nameKo": "공정거래위원회",
+      "sourcePage": "https://www.ftc.go.kr/www/contents.do?key=407",
+      "assetUrl": "https://www.ftc.go.kr/site/www/img/contents/cts407_logo04.svg",
+      "expectedSha256": "3a94e129586d0f60c1761cbb111074ed83d52e7bb57e93575c1f2fda97a40960"
+    },
+    {
+      "id": "ko-extra-e42ea2d743c3",
+      "nameKo": "기술보증기금",
+      "sourcePage": "https://www.kibo.or.kr/main/about/about0703-01.do",
+      "assetUrl": "https://www.kibo.or.kr/_res/kibo/main/etc/ft-logo.svg",
+      "expectedSha256": "6e6a9e36282f95d8b56caf0671a57f566ec52a7e3d34f2c7ff7fb5ea4a465fbe"
+    },
+    {
+      "id": "ko-extra-60126bbbea7a",
+      "nameKo": "기후에너지환경부",
+      "sourcePage": "https://mcee.go.kr/home/web/index.do?menuId=10211",
+      "assetUrl": "https://mcee.go.kr/images/main_202509/ft_logo.svg",
+      "expectedSha256": "043b6fefdb0efc2cee3cf24c39a12dec8e4db96e4066c0c10a6dd87733bec7bb"
+    },
+    {
+      "id": "ko-extra-45161e321e50",
+      "nameKo": "대구동구문화재단",
+      "sourcePage": "https://www.dgdgcf.or.kr/front/about/ci.php",
+      "assetUrl": "https://www.dgdgcf.or.kr/images/ci_app1.svg",
+      "expectedSha256": "003c1a5948b022d5ed2c064b4aa369a9a4e0079f84880113b95ba517c04fc4a0"
+    },
+    {
+      "id": "ko-extra-e1a0271936e5",
+      "nameKo": "대구동구문화재단",
+      "sourcePage": "https://www.dgdgcf.or.kr/front/about/ci.php",
+      "assetUrl": "https://www.dgdgcf.or.kr/images/ci_app2.svg",
+      "expectedSha256": "ba38836695152f9b623e13553e9cbea823863c4a7ff2041a367a33dbacc015f8"
+    },
+    {
+      "id": "ko-extra-58ddcc92a42c",
+      "nameKo": "대구동구문화재단",
+      "sourcePage": "https://www.dgdgcf.or.kr/front/about/ci.php",
+      "assetUrl": "https://www.dgdgcf.or.kr/images/ci_app3.svg",
+      "expectedSha256": "f3283c03694779f91b0c2931ecdac7a74ccf2446f3213ebedafcc8579e9da79a"
+    },
+    {
+      "id": "ko-extra-9066145165f7",
+      "nameKo": "대전연구원",
+      "sourcePage": "https://www.dji.re.kr/menu.es?mid=a10519000000",
+      "assetUrl": "https://www.dji.re.kr/dji/images/korean/sub/ci_logo04.svg",
+      "expectedSha256": "bd94e26859f871536ea44ed4677c33eca485c610f6a89d988da16a2528c4bcf2"
+    },
+    {
+      "id": "ko-extra-6d917fdf58c0",
+      "nameKo": "대전연구원",
+      "sourcePage": "https://www.dji.re.kr/menu.es?mid=a10519000000",
+      "assetUrl": "https://www.dji.re.kr/dji/images/korean/sub/ci_logo05.svg",
+      "expectedSha256": "71ea9ab513ea0d02600c0447311aa6289d1bd6d07b986ae29293df0c1689e22a"
+    },
+    {
+      "id": "ko-extra-46d81acfffc4",
+      "nameKo": "대전테크노파크",
+      "sourcePage": "https://www.djtp.or.kr/menu.es?mid=a20502020000",
+      "assetUrl": "https://www.djtp.or.kr/DJTPkorean/images/common/i_modal_logo.svg",
+      "expectedSha256": "610596f2175ac95998823bfacfcc41fdda2d3f7d3b6d5a54bc1808e4fc0dd4a8"
+    },
+    {
+      "id": "ko-extra-ff445dee2389",
+      "nameKo": "대전테크노파크",
+      "sourcePage": "https://www.djtp.or.kr/menu.es?mid=a20502020000",
+      "assetUrl": "https://www.djtp.or.kr/DJTPkorean/images/sub/ci-img.svg",
+      "expectedSha256": "a8202dfd02557d4a7b471f7e14b3dfc7b558fd5b72ad674e51cb890bf82f1a82"
+    },
+    {
+      "id": "ko-extra-80a3e8e4fdac",
+      "nameKo": "부산여성가족과 평생교육진흥원",
+      "sourcePage": "https://www.bgli.re.kr/kor/CMS/Contents/Contents.do?mCode=MN134",
+      "assetUrl": "https://www.bgli.re.kr/homepage/kor/_Img/Common/f_logo.svg",
+      "expectedSha256": "1a98af93bcbe7324ebad58cafec48e7955786ffde32469e5eb5b4faaa015a4fb"
+    },
+    {
+      "id": "ko-extra-f16667f23a51",
+      "nameKo": "서울디자인재단",
+      "sourcePage": "https://seouldesign.or.kr/?menuno=40",
+      "assetUrl": "https://seouldesign.or.kr/resources/assets/images/svg/logo_hover.svg",
+      "expectedSha256": "6adca2a8ef0456425d517203e69ffab115711e70395d37ccd8a049d7deed525e"
+    },
+    {
+      "id": "ko-extra-4d85a7ea14de",
+      "nameKo": "서울디자인재단",
+      "sourcePage": "https://seouldesign.or.kr/?menuno=40",
+      "assetUrl": "https://seouldesign.or.kr/resources/assets/images/svg/logo_mo.svg",
+      "expectedSha256": "edd7bf3cf380a3fa1606c85f4c667f2efa0c43520997bac4305ab9558b827f7e"
+    },
+    {
+      "id": "ko-extra-a97925316ea8",
+      "nameKo": "서울디자인재단",
+      "sourcePage": "https://seouldesign.or.kr/?menuno=40",
+      "assetUrl": "https://seouldesign.or.kr/resources/assets/images/svg/logo_mo_hover.svg",
+      "expectedSha256": "107b5a7beea31594fead10ede713da2db282cea9480e0ded74f410c225418ffe"
+    },
+    {
+      "id": "ko-extra-78a4fc9ad799",
+      "nameKo": "(재)구미먹거리통합지원센터",
+      "sourcePage": "https://gmff.or.kr/ci/",
+      "assetUrl": "https://gmff.or.kr/wp-content/uploads/2025/05/Frame-1.svg",
+      "expectedSha256": "18c1d4c9131d7308efb6718dc55800b17cf7927c5ce4afb26a800acdcd46c29d"
+    },
+    {
+      "id": "ko-extra-5d65a259550a",
+      "nameKo": "(재)구미먹거리통합지원센터",
+      "sourcePage": "https://gmff.or.kr/ci/",
+      "assetUrl": "https://gmff.or.kr/wp-content/uploads/2025/05/Frame-2.svg",
+      "expectedSha256": "8f43a0fe46ebb05564221f2c39fdb0b22ae085ac4d0cfd1f3c380c7503d9e921"
+    },
+    {
+      "id": "ko-extra-70d0d718792f",
+      "nameKo": "경상북도",
+      "sourcePage": "https://www.gb.go.kr/Main/page.do?mnu_uid=6808&LARGE_CODE=720&MEDIUM_CODE=60&SMALL_CODE=10&SMALL_CODE2=40&",
+      "assetUrl": "https://www.gb.go.kr/resources/images/favicon/favicon.svg",
+      "expectedSha256": "83bb302dba9dcdc9a99e6b68b4ec46009930df849ada40e278aa5ce03c2c3e98"
+    },
+    {
+      "id": "ko-extra-982cfcfcdfa5",
+      "nameKo": "공무원연금공단",
+      "sourcePage": "https://www.geps.or.kr/gepsIntro_gepsIs_brandIntro_ciInfo",
+      "assetUrl": "https://www.geps.or.kr/humanframe/theme/geps2022/assets/images/favicon.svg",
+      "expectedSha256": "214a5a1fa2ce6a420efe1e19d325aa0df5085aad2119777f65426cb0e7031131"
+    },
+    {
+      "id": "ko-extra-5e8e80427689",
+      "nameKo": "나노종합기술원",
+      "sourcePage": "https://www.nnfc.re.kr/kor/sub03_06_04.do",
+      "assetUrl": "https://www.nnfc.re.kr/pcms/common/images/favicon.svg",
+      "expectedSha256": "c8774544451521e4a6399dcb3176e9a8da2493f99081703eb243098fc618159a"
+    },
+    {
+      "id": "ko-extra-49d2338313af",
+      "nameKo": "나노종합기술원",
+      "sourcePage": "https://www.nnfc.re.kr/kor/sub03_06_04.do",
+      "assetUrl": "https://www.nnfc.re.kr/pcms/common/images/favicon_152.svg",
+      "expectedSha256": "64edacbce66eabdff22606cc420e43c2d3587a17b0c972dd7dabac2761e5538d"
+    },
+    {
+      "id": "ko-extra-8214ce7c2054",
+      "nameKo": "대구경북디자인진흥원",
+      "sourcePage": "https://www.dgdp.or.kr/",
+      "assetUrl": "https://www.dgdp.or.kr/assets/favicon/favicon.svg",
+      "expectedSha256": "98484a1718bc7ea1f500c57c939ebb5401392e6eb437e32fb844c4917d23cd1b"
+    },
+    {
+      "id": "ko-extra-291966ece9a3",
+      "nameKo": "게임물관리위원회",
+      "sourcePage": "https://www.grac.or.kr/Committee/SecretariatLogo01.aspx",
+      "assetUrl": "https://www.grac.or.kr/resource/images/main/renew/common/img_footer_logo01.svg",
+      "expectedSha256": "195cbaabdbbef53559e822dd681b64d53acdf9a30dd156702a81d50a902c0303"
+    },
+    {
+      "id": "ko-extra-3223dd7b57ac",
+      "nameKo": "과학기술정책연구원",
+      "sourcePage": "https://www.stepi.re.kr/site/stepiko/06/10605010000002020102915.jsp",
+      "assetUrl": "https://www.stepi.re.kr/images/stepiko/renewal/Logo_STEPI_footer.svg",
+      "expectedSha256": "a067216dcac2e58a85e563b9f739dc1e28ce3556f64bdf4addbe7a24ead0e8f6"
+    },
+    {
+      "id": "ko-extra-e50784107548",
+      "nameKo": "광주관광공사",
+      "sourcePage": "https://www.gjto.or.kr/menu.es?mid=a10105000000",
+      "assetUrl": "https://www.gjto.or.kr/main/img/sub/sub01/010501_ci.svg",
+      "expectedSha256": "b32161951c684d93bd205cfad151f5ff2119405dddf512c5dff927c305505122"
+    },
+    {
+      "id": "ko-extra-e896ff14fa0e",
+      "nameKo": "국가유산청",
+      "sourcePage": "http://www.cha.go.kr/html/HtmlPage.do?pg=/introduce/cha_ci.jsp&amp;mn=NS_05_02",
+      "assetUrl": "https://www.cha.go.kr/images/2025/layout/logo.svg",
+      "expectedSha256": "79a13cd1c9afc1875fc9ed092e03c32f69519634da0b7eedf4ad0fed628a5d80"
+    },
+    {
+      "id": "ko-extra-76702eab1dde",
+      "nameKo": "부산시설공단",
+      "sourcePage": "http://www.bisco.or.kr/about/about03/about03_1/",
+      "assetUrl": "https://www.bisco.or.kr/image/2025/logo.svg",
+      "expectedSha256": "25b2f6c1580eca8e18bdadeafb0c643e94dc0b2939ccfabdfde0bd88b8ec3cd1"
+    },
+    {
+      "id": "ko-extra-6cdf3564254d",
+      "nameKo": "서울과학기술대학교",
+      "sourcePage": "http://www.seoultech.ac.kr/intro/symbol/logo/symbol/",
+      "assetUrl": "https://www.seoultech.ac.kr/site/ko/2021/res/img/logo_on.svg",
+      "expectedSha256": "511d5d9ad9fd060641f8510bd43c18210479e0044c237cb15e0e4c14742c663e"
+    },
+    {
+      "id": "ko-extra-05be19feea73",
+      "nameKo": "서울관광재단",
+      "sourcePage": "http://www.sto.or.kr/ci",
+      "assetUrl": "https://www.sto.or.kr/humanframe/theme/sto/assets/images/main_renewal_2024/ico_header_logo_sto.svg",
+      "expectedSha256": "d0027b97b3c7dccf5d403a8839eb21a06f04a05d45aa29bede656af79332947c"
+    },
+    {
+      "id": "ko-extra-fbbf669003bd",
+      "nameKo": "서울교통공사",
+      "sourcePage": "http://www.seoulmetro.co.kr/kr/page.do?menuIdx=507",
+      "assetUrl": "https://www.seoulmetro.co.kr/images/layout/logo.svg",
+      "expectedSha256": "04d5dbbae0cdfd43adfd3c7c357f15a0f798b15a3af4e4036c1d5ea53a8df825"
+    },
+    {
+      "id": "ko-extra-2cce2dbcfbc7",
+      "nameKo": "서울시농수산식품공사",
+      "sourcePage": "https://www.garak.co.kr/homepage/landing.do?cntnts_id=DC000000",
+      "assetUrl": "https://www.garak.co.kr/homepage/resource/publish/images/logo_footer.svg",
+      "expectedSha256": "648ac14c2ceccebd17fcb392962f6c182e97ad6c8f747810283be2243e749c7a"
+    },
+    {
+      "id": "ko-extra-5a2d0cddbf20",
+      "nameKo": "서초다산장학재단",
+      "sourcePage": "https://www.seocho.go.kr/site/seocho/05/10502050000002015070810.jsp",
+      "assetUrl": "https://www.seocho.go.kr/images/seocho_2025/layout/top_logo.svg",
+      "expectedSha256": "1e5b892ab425688f63775b30b612faf6e67578661f1b0898281b2575591b6fc6"
+    },
+    {
+      "id": "ko-extra-3ec3f83f460e",
+      "nameKo": "세종신용보증재단",
+      "sourcePage": "https://www.sjsinbo.or.kr/sub0704",
+      "assetUrl": "https://www.sjsinbo.or.kr/html/images/content/ci_img01.svg",
+      "expectedSha256": "552d96649a0f8fa22ce8aee248895ae7c63dc970a6da6b90448d18395c93529f"
+    },
+    {
+      "id": "ko-extra-69f31a349c92",
+      "nameKo": "세종학당재단",
+      "sourcePage": "https://www.ksif.or.kr/com/cmm/EgovContentView.do?menuNo=10101061",
+      "assetUrl": "https://www.ksif.or.kr/site/ksif/kor/images/common/logo_ksif_ko.svg",
+      "expectedSha256": "8221c0f5364e5db5aeb6d4c368c8df9220326a9d035dd93edef082ee5b3f8a95"
+    },
+    {
+      "id": "ko-extra-b53e45b8ad76",
+      "nameKo": "송파구시설관리공단",
+      "sourcePage": "https://www.songpagongdan.or.kr/intro/intro03.asp",
+      "assetUrl": "https://www.songpagongdan.or.kr/images/2024/common/logo.svg",
+      "expectedSha256": "5e2a33424dc0cc6c84fbd75f994ce6ccdc907f7dc5849e8f0d8f2aeca91946cf"
+    },
+    {
+      "id": "ko-extra-372a89dbac32",
+      "nameKo": "안성시시설관리공단",
+      "sourcePage": "https://www.asimc.or.kr/portal/contents.do?mid=0502020000",
+      "assetUrl": "https://www.asimc.or.kr/portal/img/common/logo_gray.svg",
+      "expectedSha256": "821bc8017e9e088157f2f45f5c0c983229d8c818f00a6f6819dedd16be6e7099"
+    },
+    {
+      "id": "ko-extra-7b2f652dae0c",
+      "nameKo": "안양시청소년재단",
+      "sourcePage": "https://www.ayf.or.kr/ayf/main/contents.do?menuNo=200037",
+      "assetUrl": "https://www.ayf.or.kr/static/prjt/cmmn/img/logo.svg",
+      "expectedSha256": "9f3a6435140de5bdd0621f32ea122ea62ed0d69c78b6d8412179fb0be0c244f3"
+    },
+    {
+      "id": "ko-extra-51ba31a9554e",
+      "nameKo": "양평공사",
+      "sourcePage": "https://yp04.or.kr/?menuno=149",
+      "assetUrl": "https://yp04.or.kr/usr/images/ci_logo.svg",
+      "expectedSha256": "8be8483bbb5684655386f8cb262c430b38ff8777d5ae244057a27f224c688306"
+    },
+    {
+      "id": "ko-extra-03866932ac07",
+      "nameKo": "에너지경제연구원",
+      "sourcePage": "https://www.keei.re.kr/menu.es?mid=a10308030000",
+      "assetUrl": "https://www.keei.re.kr/main/img/layout/logo.svg",
+      "expectedSha256": "e9e5f73f253315ee791aab264ba87561c0ab63f6a3fe35e0c4cb5e4f287c894c"
+    },
+    {
+      "id": "ko-extra-7df977225de1",
+      "nameKo": "여수광양항만공사",
+      "sourcePage": "https://www.ygpa.or.kr/hmpg/ygpa/ygpa/prom/cich/ci01/contPageDetail.do?conts_no=73CF9B8C97DE49EB9BF4BC6CF3BB3BA2",
+      "assetUrl": "https://www.ygpa.or.kr/images/hmpg/ygpa/logo_white.svg",
+      "expectedSha256": "e8ac4523a8b13777fb36af88b329a0e9e282db8ab52f610e0b631462260c7a5a"
+    },
+    {
+      "id": "ko-extra-584a79fdf6f8",
+      "nameKo": "여주시",
+      "sourcePage": "https://www.yeoju.go.kr/www/contents.do?key=393",
+      "assetUrl": "https://www.yeoju.go.kr/site/public/images/common/new_logo.svg",
+      "expectedSha256": "5b2e4487c05109fd6b8463ace0d6b3445771c91bd6eaa384ea43be49c7d41351"
+    },
+    {
+      "id": "ko-extra-4be956be6058",
+      "nameKo": "연구개발특구진흥재단",
+      "sourcePage": "https://www.innopolis.or.kr/board?menuId=MENU00875&amp;siteId=null",
+      "assetUrl": "https://www.innopolis.or.kr/resources/images/mps/2025/layout/header-logo.svg",
+      "expectedSha256": "652f95cdf14f472dce0a0be43f12eab00fb09371b31b03f797b2831569c2fb0c"
+    },
+    {
+      "id": "ko-extra-411d67b0fc6c",
+      "nameKo": "연천군청소년육성재단",
+      "sourcePage": "https://www.ycyc.or.kr/foundation/ci",
+      "assetUrl": "https://www.ycyc.or.kr/images/intro/CI.svg",
+      "expectedSha256": "6ea094a4a9032b72b3c0f24240daf046a215a1bd7f9360388e685e6e2f9a63ad"
+    },
+    {
+      "id": "ko-extra-bde4ced9b729",
+      "nameKo": "영화진흥위원회",
+      "sourcePage": "http://www.kofic.or.kr/kofic/business/intr/introCI.do",
+      "assetUrl": "https://www.kofic.or.kr/kofic/comm/img/common/top_logo.svg",
+      "expectedSha256": "b700aafc05f37680a7202e2d4308fbe6391579eab878b90f4f9703600a7e93a6"
+    },
+    {
+      "id": "ko-extra-1d68dc64dd8d",
+      "nameKo": "오송첨단의료산업진흥재단",
+      "sourcePage": "https://www.kbiohealth.kr/menu.es?mid=a10105000000",
+      "assetUrl": "https://www.kbiohealth.kr/kr/img/sub/ci_03.svg",
+      "expectedSha256": "2787dc2cffd660fa00f376417ba8e069b377a08599d3f163b73fa5dba3025c25"
+    },
+    {
+      "id": "ko-extra-384809fa91ce",
+      "nameKo": "울산광역시북구교육진흥재단",
+      "sourcePage": "https://www.bukgu.ulsan.kr/lay1/S1T37C42/contents.do",
+      "assetUrl": "https://www.bukgu.ulsan.kr/images/header/logo.svg",
+      "expectedSha256": "b300bbb8b97ba9950f0a1828c8cb30b40b0ba86efffef9f813f5e2eeb901fc00"
+    },
+    {
+      "id": "ko-extra-43b4ce6e8ea0",
+      "nameKo": "이천시",
+      "sourcePage": "https://www.icheon.go.kr/portal/contents.do?mid=0502040200",
+      "assetUrl": "https://www.icheon.go.kr/portal/img/content/05/ci_img1.svg",
+      "expectedSha256": "b2b18d41bf7d60c6df93be468043e2416301085d297c0b7708405da6087a2e07"
+    },
+    {
+      "id": "ko-extra-7aa8ba3ee55d",
+      "nameKo": "인천광역시 강화군",
+      "sourcePage": "http://www.ganghwa.go.kr/open_content/main/ganghwa/info/symbol.jsp",
+      "assetUrl": "https://www.ganghwa.go.kr/open_content/main/images/img2024/logo.svg",
+      "expectedSha256": "5ffaec49c8ee6006363909f075fb75d5be1cc86f993d8f1e5438e0441aa43b2f"
+    },
+    {
+      "id": "ko-extra-578227059146",
+      "nameKo": "인천교통공사",
+      "sourcePage": "https://www.ictr.or.kr/main/introduction/status/ci.jsp",
+      "assetUrl": "https://www.ictr.or.kr/main/img/main2025/logo.svg",
+      "expectedSha256": "0fc490ece787555c075bb81dababc48c41cd4c4d8c0683d747352ebfa6ec6864"
+    },
+    {
+      "id": "ko-extra-7e0c98598956",
+      "nameKo": "인천문화재단",
+      "sourcePage": "https://www.ifac.or.kr/ifacintro/intro/institutionSymbol.do?key=m2501143803899",
+      "assetUrl": "https://www.ifac.or.kr/resource/www/images/layout/logo.svg",
+      "expectedSha256": "c82c82c1adf9c97532100b4379d449683e66eff23d5c2a95de595c24e327c5d4"
+    },
+    {
+      "id": "ko-extra-ed8d49af6341",
+      "nameKo": "(재)우체국물류지원단",
+      "sourcePage": "https://www.pola.or.kr/web/content.do?proFn=ci",
+      "assetUrl": "https://www.pola.or.kr/images_new/common/logo-gray.svg",
+      "expectedSha256": "534b032fe58c3a0bb1076b23ba7a9a8d5f55eeed155e833bc8bb24015fedd6b3"
+    },
+    {
+      "id": "ko-extra-56545f07382c",
+      "nameKo": "재단법인 장애인기업종합지원센터",
+      "sourcePage": "https://www.debc.or.kr/s6/s6_5.php",
+      "assetUrl": "https://www.debc.or.kr/theme/debc/images/new_common/logo.svg",
+      "expectedSha256": "558f218442065298cfb04a5a30a72c37ddc887238da5c6ddba26946285ec6a43"
+    },
+    {
+      "id": "ko-extra-1fcc8c27c175",
+      "nameKo": "재단법인 종로복지재단",
+      "sourcePage": "https://jongnowf.or.kr/web/intro/ci.do",
+      "assetUrl": "https://jongnowf.or.kr/res/img/logo/jongno_logo.svg",
+      "expectedSha256": "fc3dd9955972fa19eaf14d7becec5c71d8efcfea2ac014d4d807ddeb44e560e9"
+    },
+    {
+      "id": "ko-extra-2578db4f53b0",
+      "nameKo": "재단법인강화군복지재단",
+      "sourcePage": "https://www.ghwelf.or.kr/introduce/ci.jsp",
+      "assetUrl": "https://www.ghwelf.or.kr/img/btm-logo.svg",
+      "expectedSha256": "32c16a62a680ec33d5f3350ea0856b17be70909fea8a8b8808b0e16db9afe0b7"
+    },
+    {
+      "id": "ko-extra-ab15c9f69c2f",
+      "nameKo": "재단법인계룡시문화관광재단",
+      "sourcePage": "https://www.gcfct.org/symbolic",
+      "assetUrl": "https://www.gcfct.org/public/images/layout/logo-black2.svg",
+      "expectedSha256": "47c8718fe1ea8b7e2fb087349f1ad281d88295c946be22d42aa16d86164f82aa"
+    },
+    {
+      "id": "ko-extra-19c2ff8c2c26",
+      "nameKo": "재단법인고양시청소년재단",
+      "sourcePage": "https://www.gcyf.or.kr/bbs/content.php?co_id=gcyf_01_9",
+      "assetUrl": "https://www.gcyf.or.kr/img/logo/logo_gcyf.svg",
+      "expectedSha256": "69001b153975ee3756b3c10d0774c5bf33e36adef92dfbe6c4ba9c778e3b0da3"
+    },
+    {
+      "id": "ko-extra-de62cb380c02",
+      "nameKo": "재단법인광주광역시사회서비스원",
+      "sourcePage": "https://gj.pass.or.kr/introduce-CI_introduce",
+      "assetUrl": "https://gj.pass.or.kr/2024/images/layout/header/logo.svg",
+      "expectedSha256": "6d81cd588acc241266438b661b1b482fac6cb5b448279c2aa0148225767c56d6"
+    },
+    {
+      "id": "ko-extra-6a9793880dbc",
+      "nameKo": "재단법인광주디자인진흥원",
+      "sourcePage": "https://www.gdc.or.kr/contents.do?S=S01&amp;M=0608000000",
+      "assetUrl": "https://www.gdc.or.kr/_KOR/img/f_logo.svg",
+      "expectedSha256": "b11aab7398acdd359993aea5538fba371fb49bf626446a02ef778a6fc5c0aa89"
+    },
+    {
+      "id": "ko-extra-5525e7ea7907",
+      "nameKo": "재단법인남동문화재단",
+      "sourcePage": "https://www.namdongcf.or.kr/user/contents.php?sq=109",
+      "assetUrl": "https://www.namdongcf.or.kr/user/images/common/header_logo.svg",
+      "expectedSha256": "285ef71d5e22075420a3d57a64802a556c9b2fb4fb8627b33a42dc10a167b794"
+    },
+    {
+      "id": "ko-extra-25add5f8215a",
+      "nameKo": "재단법인대구디지털혁신진흥원",
+      "sourcePage": "https://www.dip.or.kr/home/intro/ci/pageView.ubs",
+      "assetUrl": "https://www.dip.or.kr/jsp/home/images/logo_sub.svg",
+      "expectedSha256": "aef8c4a53ad2fe3867a0eec53520b86a2e8a116241bd62ddd78e813598ed807e"
+    },
+    {
+      "id": "ko-extra-80d544ac4e1c",
+      "nameKo": "재단법인대구문화예술진흥원",
+      "sourcePage": "https://dgfca.or.kr/page/99",
+      "assetUrl": "https://dgfca.or.kr/images/layout/dgfca_logo.svg",
+      "expectedSha256": "fc11ad0b2d2a63e0aee1bea2bd03bcf308b7e1799f9fa25e48c5d5e472bed5a4"
+    },
+    {
+      "id": "ko-extra-b0b4315519d7",
+      "nameKo": "재단법인대전과학산업진흥원",
+      "sourcePage": "https://www.distep.re.kr/ci",
+      "assetUrl": "https://www.distep.re.kr/_webroot/images/korean/sub/logo-ci.svg",
+      "expectedSha256": "f42e5d03f356f0ae14ea2f04056c7689379c89bcc45465bdbc66bc2b013a708c"
+    },
+    {
+      "id": "ko-extra-81eac2f1a577",
+      "nameKo": "재단법인부산연구원",
+      "sourcePage": "https://www.bdi.re.kr/www/content/15",
+      "assetUrl": "https://www.bdi.re.kr/template/t006001/images/logo-w.svg",
+      "expectedSha256": "d4d002ed063d32dca37ecf822b34eea1a92e4d3a2a70260dfb894726aa820a9d"
+    },
+    {
+      "id": "ko-extra-a59a16a493b0",
+      "nameKo": "재단법인부여군지역공동체활성화재단",
+      "sourcePage": "https://www.blcrf.com/sub.php?menu=5",
+      "assetUrl": "https://www.blcrf.com/html/images/ci_basic.svg",
+      "expectedSha256": "aab6320874385ec6db1c5268d68775c2faaeaf21249a13607da5a8ad2a7dd5e6"
+    },
+    {
+      "id": "ko-extra-17c71d50c469",
+      "nameKo": "재단법인부천아트센터",
+      "sourcePage": "https://www.bac.or.kr/home/display/region/content/JSVFcEJ4SDk2Q1ZvdC93L2NtNXlBWEUzZkI5dXh4bmZJdlVIMURSSWpNV3dJYz0=",
+      "assetUrl": "https://www.bac.or.kr/images/common/f_logo.svg",
+      "expectedSha256": "03b38cf3682d49b029c10cea59f708804121d3770c07ed33f22a7edf5a85015a"
+    },
+    {
+      "id": "ko-extra-03873677b0b4",
+      "nameKo": "재단법인서천문화관광재단",
+      "sourcePage": "https://seocheonctf.or.kr/content/166.do",
+      "assetUrl": "https://seocheonctf.or.kr/images/gj/main/logo.svg",
+      "expectedSha256": "aa19a8bd5b5469df606e00f8a8bea7dba22cda42504b9594fbbbb222313ca4d6"
+    },
+    {
+      "id": "ko-extra-aa4ba16df51f",
+      "nameKo": "재단법인세종테크노파크",
+      "sourcePage": "https://www.sjtp.or.kr/bbs/introduce/introduce05.php?bo_table=introduce05",
+      "assetUrl": "https://www.sjtp.or.kr/theme/basic/img/logo.svg",
+      "expectedSha256": "c72c7a72a219d068787eecf53b3504b24055a4b0fd45b2de8a6046a3595c3c51"
+    },
+    {
+      "id": "ko-extra-40fd1141d44a",
+      "nameKo": "재단법인세종특별자치시사회서비스원",
+      "sourcePage": "https://sj.pass.or.kr/main/",
+      "assetUrl": "https://sj.pass.or.kr/main/images/korean/layout/logo-black.svg",
+      "expectedSha256": "e70993b8e78eeaec56ea78e91881b3e5714c21fde71b6fa7fa38bbcec1c3e485"
+    },
+    {
+      "id": "ko-extra-c53f26d9a080",
+      "nameKo": "재단법인시흥시인재양성재단",
+      "sourcePage": "https://www.shinjae.or.kr/programs/user/intro/logo_ci.asp",
+      "assetUrl": "https://www.shinjae.or.kr/theme/responsive_shinjae/include/img/top_logo.svg",
+      "expectedSha256": "b697a658ab2467ccd2e9a7f15f73849420d292c62e870f2a5a282629b0799c6f"
+    },
+    {
+      "id": "ko-extra-065e846bd281",
+      "nameKo": "재단법인신안신재생에너지재단",
+      "sourcePage": "https://www.snef.or.kr/user/contents.php?sq=17",
+      "assetUrl": "https://www.snef.or.kr/user/images/common/logo.svg",
+      "expectedSha256": "2561c282b6bdab598585840e865d6921a9a93aab0ec00bc236193911788b8fcb"
+    },
+    {
+      "id": "ko-extra-c97ccd862681",
+      "nameKo": "재단법인울산경제일자리진흥원",
+      "sourcePage": "https://www.ubpi.or.kr/sub/?mcode=0405060000",
+      "assetUrl": "https://www.ubpi.or.kr/images/common/ci_foot.svg",
+      "expectedSha256": "982f00097bd2ca845a54da350e2746d64d09c0a394f73aa7cba8670eef936f8a"
+    },
+    {
+      "id": "ko-extra-dff432344689",
+      "nameKo": "재단법인울산문화관광재단",
+      "sourcePage": "https://uctf.or.kr/intro/ci",
+      "assetUrl": "https://uctf.or.kr/img/common/logo.svg",
+      "expectedSha256": "e32342a34367d33d3bbc457656d39be0e35d2b21074e9afe94a8dd77c211b84d"
+    },
+    {
+      "id": "ko-extra-c76d984c9dad",
+      "nameKo": "재단법인제주특별자치도사회서비스원",
+      "sourcePage": "https://jeju.pass.or.kr/introduce-CI_introduce",
+      "assetUrl": "https://jeju.pass.or.kr/html/images/contents/introduce-ci/jeju-pass-logo-eng.svg",
+      "expectedSha256": "aad8220a07c1a21a4c7015912f35d52b8323ac1c9ccf0f34e34c5d03c5fe5d17"
+    },
+    {
+      "id": "ko-extra-077794daf9a5",
+      "nameKo": "재단법인해남문화관광재단",
+      "sourcePage": "https://www.haenamct.or.kr/menu.es?mid=a10104000000",
+      "assetUrl": "https://www.haenamct.or.kr/main/img/layout/f-logo.svg",
+      "expectedSha256": "a8984a7ab8a46fbbf600bae3e5947051ca74042655c49245198c094f3b6b35ca"
+    },
+    {
+      "id": "ko-extra-8d971add8a23",
+      "nameKo": "전주푸드통합지원센터",
+      "sourcePage": "https://www.jeonjufood.org/site/menu/MENU_000000000000002",
+      "assetUrl": "https://www.jeonjufood.org/assets/site/LET/img/common/img_logo.svg",
+      "expectedSha256": "440d197b6e4a7a72114364fbe9993cbef4b636579dd38343106a9ed1ade4afaf"
+    },
+    {
+      "id": "ko-extra-8c951e5dec91",
+      "nameKo": "정보통신기획평가원",
+      "sourcePage": "https://www.iitp.kr/kr/1/introduce/ci.it",
+      "assetUrl": "https://www.iitp.kr/images/header/logo.svg",
+      "expectedSha256": "f3347d67a87185db0a03e51c3d7da72d9d33950dbb0a116ef020827844f1dcf6"
+    },
+    {
+      "id": "ko-extra-7003f0092a4d",
+      "nameKo": "정보통신정책연구원",
+      "sourcePage": "https://www.kisdi.re.kr/content.do?key=m2101113072266",
+      "assetUrl": "https://www.kisdi.re.kr/resource/www/img/layout/logo-new.svg",
+      "expectedSha256": "655124c56fb873d54030151337e406d1507572171d580fb318b4cd7eedcac087"
+    },
+    {
+      "id": "ko-extra-41d118f32ce7",
+      "nameKo": "제주특별자치도개발공사",
+      "sourcePage": "https://www.jpdc.co.kr/info/design.htm?act=view&amp;seq=17428",
+      "assetUrl": "https://www.jpdc.co.kr/pub/site/jpdc/images2021/main/logo.svg",
+      "expectedSha256": "72f634dd938475d7b87f5cdc892e9731fb10c32329f1936e4b85356a00bf2550"
+    },
+    {
+      "id": "ko-extra-5750079866f0",
+      "nameKo": "중소벤처기업부",
+      "sourcePage": "https://www.mss.go.kr/site/smba/contents/view.do?menuCd=20801030000002024122947&amp;siteCd=smba",
+      "assetUrl": "https://www.mss.go.kr/images/pattern/layout/head_logo.svg",
+      "expectedSha256": "65d94d5d2b80901bef2a4e671df8f5f79199f3ef8c8f6fbbff47e7bcd56e3c0c"
+    },
+    {
+      "id": "ko-extra-d3df9b95f072",
+      "nameKo": "중소벤처기업진흥공단",
+      "sourcePage": "https://www.kosmes.or.kr/nsh/SH/SIT/SHSIT003M0.do",
+      "assetUrl": "https://www.kosmes.or.kr/static/nsh/img/logo.svg",
+      "expectedSha256": "f11e6c9fb8075d72cb581e002440cfe0af4fd273d999e6a5fd75e18be7aaf668"
+    },
+    {
+      "id": "ko-extra-6b7327ec8263",
+      "nameKo": "춘천시",
+      "sourcePage": "https://www.chuncheon.go.kr/cityhall/about-chuncheon/introduction/brand/",
+      "assetUrl": "https://www.chuncheon.go.kr/_user/restructure2022/cityhall/img/sub/img-grid-bilogo.svg",
+      "expectedSha256": "4775b6d963b2cb9232fc080fbb35cbc44aca15f00a4761cf8d325542f80d0609"
+    },
+    {
+      "id": "ko-extra-59829db333ed",
+      "nameKo": "충남역사문화연구원",
+      "sourcePage": "https://www.cihc.or.kr/kor/contents/16",
+      "assetUrl": "https://www.cihc.or.kr/images/site/kor/layout/img_logo_f.svg",
+      "expectedSha256": "31d8987b78595bc97e76a42660e69e93a6cf7939a18c924b93fdf4b4c7b2076b"
+    },
+    {
+      "id": "ko-extra-735d84a628f6",
+      "nameKo": "충청남도",
+      "sourcePage": "https://www.chungnam.go.kr/cnportal/main/contents.do?menuNo=500932",
+      "assetUrl": "https://www.chungnam.go.kr/static/cnportal/img/logo.svg",
+      "expectedSha256": "a76350a403d9fdbbb4b00947b5c4c5fe57ed676f6008659e6442a83fbed0c1b8"
+    },
+    {
+      "id": "ko-extra-76e8f406443e",
+      "nameKo": "한국가스안전공사",
+      "sourcePage": "https://www.kgs.or.kr/kgs/adcc/view.do",
+      "assetUrl": "https://www.kgs.or.kr/asset/img/org/ci_logo01.svg",
+      "expectedSha256": "f40aa0c7d1b16b132a7fd76a7c044babe58cf603c9c91958dac3fff95e6329ce"
+    },
+    {
+      "id": "ko-extra-4b19a0206e41",
+      "nameKo": "한국건강증진개발원",
+      "sourcePage": "https://www.khepi.or.kr/board?menuId=MENU00919",
+      "assetUrl": "https://www.khepi.or.kr/resources/images/kps/content/signature01.svg",
+      "expectedSha256": "e19695d7fb61aefa3a2b47a0ebef11f16ed395d70349ec8a230f352d272302b1"
+    },
+    {
+      "id": "ko-extra-168fd9e0af3b",
+      "nameKo": "한국과학기술기획평가원",
+      "sourcePage": "https://www.kistep.re.kr/menu.es?mid=a10201010000",
+      "assetUrl": "https://www.kistep.re.kr/main/img/sub/ci_logotype01.svg",
+      "expectedSha256": "e21896478db68cca762ffd95c531575321b36b7ac01c98bfdc1536d1452a5bf9"
+    },
+    {
+      "id": "ko-extra-2317e61ba577",
+      "nameKo": "한국관광공사",
+      "sourcePage": "https://knto.or.kr/ktoCI",
+      "assetUrl": "https://knto.or.kr/humanframe/theme/kto/assets/image/_layout/logo_kto.svg",
+      "expectedSha256": "7a485b982348d500dda0e6d761a213aa32e2f8ef766549c607198c37eb66712e"
+    },
+    {
+      "id": "ko-extra-53e90269b300",
+      "nameKo": "한국기술교육대학교",
+      "sourcePage": "https://www.koreatech.ac.kr/menu.es?mid=a10101030100",
+      "assetUrl": "https://www.koreatech.ac.kr/template/common/foot_logo.svg",
+      "expectedSha256": "64f332735bbfd5dcf890d99b4cd0296203f4f57749111e33205340a6acfe029d"
+    },
+    {
+      "id": "ko-extra-ff698e455d08",
+      "nameKo": "한국마사회",
+      "sourcePage": "http://www.kra.co.kr/main.do",
+      "assetUrl": "https://www.kra.co.kr/common/images/common/logo_gray.svg",
+      "expectedSha256": "9e90f24f3f027386e0a036f89494993efbb973027208beb0d830dbf413bfa2e6"
+    },
+    {
+      "id": "ko-extra-7e91430d4fa6",
+      "nameKo": "한국법무보호복지공단",
+      "sourcePage": "https://www.koreha.or.kr/sub/06_02_4.do?MN1=7&amp;MN2=42&amp;MN3=74&amp;MN=74",
+      "assetUrl": "https://www.koreha.or.kr:443/Publishing/home/images/user/logo.svg",
+      "expectedSha256": "946d82f9847164d58f7701b37a379ddb42efb982adc5a9620ea8617b21cad912"
+    },
+    {
+      "id": "ko-extra-9ee07839e8a6",
+      "nameKo": "한국사회보장정보원",
+      "sourcePage": "http://www.ssis.or.kr/lay1/S1T162C326/contents.do",
+      "assetUrl": "https://www.ssis.or.kr/images/renew3/common/logo.svg",
+      "expectedSha256": "38a34133581c100d7801f845a310c87893744e289356aad5731fcc64175f205f"
+    },
+    {
+      "id": "ko-extra-59656a1fb111",
+      "nameKo": "한국사회적기업진흥원",
+      "sourcePage": "https://www.socialenterprise.or.kr/homepage/contents/contents.do?ciIdx=10038&amp;menuId=888",
+      "assetUrl": "https://www.socialenterprise.or.kr/assets/images/common/logo.svg",
+      "expectedSha256": "0149426d7abd7059c9bf99676611953171af282ae4df6bcfddf7e578c70a9448"
+    },
+    {
+      "id": "ko-extra-a249cba146e0",
+      "nameKo": "한국산업기술시험원",
+      "sourcePage": "https://www.ktl.re.kr/promotion_center/promotion_8/promotion_corporate_identity.do?menu_gubun=mid&amp;menu_no=6&amp;menu_no2=4&amp;menu_no3=&amp;params=",
+      "assetUrl": "https://www.ktl.re.kr/images/common/ktl_logo.svg",
+      "expectedSha256": "d4f9c21c15841f9a3557a8d44919d5ec3c3cd05eace08ead4415cb9419c7525d"
+    },
+    {
+      "id": "ko-extra-f7e20811c13b",
+      "nameKo": "한국산업인력공단",
+      "sourcePage": "https://www.hrdkorea.or.kr/3/2/2/1",
+      "assetUrl": "https://www.hrdkorea.or.kr/design5/images/logo.svg",
+      "expectedSha256": "52b469afa2146ec7e5fb2f30642fdd7f19090fd0f5c9487a104bd5262176e713"
+    },
+    {
+      "id": "ko-extra-4de5108d23e0",
+      "nameKo": "한국에너지공단",
+      "sourcePage": "https://www.energy.or.kr/front/conts/102013001000000.do",
+      "assetUrl": "https://www.energy.or.kr/common/front/home/images/common/logo_bott.svg",
+      "expectedSha256": "79c4064e21e79effac31854f6177c2193b04ee36781ed0024e4bab4f024c279e"
+    },
+    {
+      "id": "ko-extra-d06652ab2eef",
+      "nameKo": "한국연구재단",
+      "sourcePage": "https://www.nrf.re.kr/page/83?menuNo=83",
+      "assetUrl": "https://www.nrf.re.kr/resources/img/common/header/logo.svg",
+      "expectedSha256": "89ad15ca561e1635fbdd1704786a1c94935a2f9d315605fbdfedd1079e0c359f"
+    },
+    {
+      "id": "ko-extra-f03ac931040c",
+      "nameKo": "한국재료연구원",
+      "sourcePage": "https://www.kims.re.kr/v17/bbx/content.php?co_id=06_10",
+      "assetUrl": "https://www.kims.re.kr/v17/theme/renewal2025/images/kims_logo_color.svg",
+      "expectedSha256": "11629a318e4425eb6c9f3af212564c415d8ed4ac32aebe184f7867237a814e45"
+    },
+    {
+      "id": "ko-extra-afba264ff8a7",
+      "nameKo": "한국전력공사",
+      "sourcePage": "https://www.kepco.co.kr/home/about/introduce/ci/conts.do",
+      "assetUrl": "https://www.kepco.co.kr/assets/images/pages/about/policy/signature_01.svg",
+      "expectedSha256": "e2dd996377a7a53cba9f77ed890f19f166153582007e1a9c44f8b51aac91b406"
+    },
+    {
+      "id": "ko-extra-e862b9a2ddee",
+      "nameKo": "한국전자통신연구원",
+      "sourcePage": "https://www.etri.re.kr/korcon/sub7/sub7_11.etri",
+      "assetUrl": "https://www.etri.re.kr/images/kor/layout_2019/logo.svg",
+      "expectedSha256": "256f92ae51d3a6a916dbdd2b4adfbc78e3b23accedc672f3bf9978c8733021db"
+    },
+    {
+      "id": "ko-extra-462ec6aa2bc4",
+      "nameKo": "서울관광재단",
+      "sourcePage": "http://www.sto.or.kr/ci",
+      "assetUrl": "https://www.sto.or.kr/humanframe/theme/sto/assets/images/main_renewal_2024/ico_header_logo_sto_active.svg",
+      "expectedSha256": "d24dd54f2c7a97c2605f5c0a349eb0ae7fb098df89d8fdad48882253aec523b1"
+    },
+    {
+      "id": "ko-extra-2f3f4b72085b",
+      "nameKo": "세종신용보증재단",
+      "sourcePage": "https://www.sjsinbo.or.kr/sub0704",
+      "assetUrl": "https://www.sjsinbo.or.kr/html/images/layout/logo.svg",
+      "expectedSha256": "1fb5a52a5f7aa0d0941a89327a42995deb53f2d4c3e01cfcbadd1d201555c463"
+    },
+    {
+      "id": "ko-extra-d78ded8dab58",
+      "nameKo": "송파구시설관리공단",
+      "sourcePage": "https://www.songpagongdan.or.kr/intro/intro03.asp",
+      "assetUrl": "https://www.songpagongdan.or.kr/images/2024/common/footer_logo.svg",
+      "expectedSha256": "dc02fb83c46a12fd51c917640d1e4720e1cf35ca1bd242f59df7e94cbc6c9b7c"
+    },
+    {
+      "id": "ko-extra-33bc8c67578a",
+      "nameKo": "안성시시설관리공단",
+      "sourcePage": "https://www.asimc.or.kr/portal/contents.do?mid=0502020000",
+      "assetUrl": "https://www.asimc.or.kr/portal/img/common/logo_white.svg",
+      "expectedSha256": "178dd4f5934214340d37db41fc4795ed8e78720c1ca5702e884e0be612b77060"
+    },
+    {
+      "id": "ko-extra-da26bf22b0af",
+      "nameKo": "연구개발특구진흥재단",
+      "sourcePage": "https://www.innopolis.or.kr/board?menuId=MENU00875&amp;siteId=null",
+      "assetUrl": "https://www.innopolis.or.kr/resources/images/mps/2025/layout/footer-logo.svg",
+      "expectedSha256": "b90a755a3f5933be7da1f6902866441da293847c6eed501282a233c6fafa5600"
+    },
+    {
+      "id": "ko-extra-b56d14189342",
+      "nameKo": "연천군청소년육성재단",
+      "sourcePage": "https://www.ycyc.or.kr/foundation/ci",
+      "assetUrl": "https://www.ycyc.or.kr/images/intro/ci_01.svg",
+      "expectedSha256": "0bc2cc74d4859ce6f2dc62acc7fad70b89daf670b2c58e842c49a62a87abc587"
+    },
+    {
+      "id": "ko-extra-a7e5c5cbb18b",
+      "nameKo": "오송첨단의료산업진흥재단",
+      "sourcePage": "https://www.kbiohealth.kr/menu.es?mid=a10105000000",
+      "assetUrl": "https://www.kbiohealth.kr/kr/img/sub/ci_04.svg",
+      "expectedSha256": "ee34e46e9cb03ce14e91d228cad87a809438a321fb75b338638d15bb11ff6262"
+    },
+    {
+      "id": "ko-extra-33ef7fcb91d5",
+      "nameKo": "이천시",
+      "sourcePage": "https://www.icheon.go.kr/portal/contents.do?mid=0502040200",
+      "assetUrl": "https://www.icheon.go.kr/portal/img/content/05/ci_img2.svg",
+      "expectedSha256": "306731016460d8cb3c7ddb2bc8a520e4f7ec1a17a9ac8e922d7351e02c3bba35"
+    },
+    {
+      "id": "ko-extra-3221f7726168",
+      "nameKo": "재단법인광주디자인진흥원",
+      "sourcePage": "https://www.gdc.or.kr/contents.do?S=S01&amp;M=0608000000",
+      "assetUrl": "https://www.gdc.or.kr/_KOR/img/logo_bk.svg",
+      "expectedSha256": "6a9bdcb52b0deb6b2dcd1cffb638bcfbc16b813b634c4dd5c360c56126e02cee"
+    },
+    {
+      "id": "ko-extra-48d9ae024c56",
+      "nameKo": "재단법인남원시바이오산업연구원",
+      "sourcePage": "https://nbn.re.kr/pages/company/ci",
+      "assetUrl": "https://nbn.re.kr/theme/daontheme_pages/html/company/image/logo_type01.svg",
+      "expectedSha256": "f3e3c63f0ebd89ae03458608b43d7fcb919c1ed3d6114ea986e422d2c6f97f79"
+    },
+    {
+      "id": "ko-extra-4fc1d983c2de",
+      "nameKo": "재단법인대구디지털혁신진흥원",
+      "sourcePage": "https://www.dip.or.kr/home/intro/ci/pageView.ubs",
+      "assetUrl": "https://www.dip.or.kr/jsp/home/images/logo_grayscale.svg",
+      "expectedSha256": "53bca5e431ffd1995b95f7fd8f8667f0d72b3e01133fe92500d957fd740e2909"
+    },
+    {
+      "id": "ko-extra-797d0a87da23",
+      "nameKo": "재단법인대전과학산업진흥원",
+      "sourcePage": "https://www.distep.re.kr/ci",
+      "assetUrl": "https://www.distep.re.kr/_webroot/images/korean/layout/logo-active.svg",
+      "expectedSha256": "cd8e1c3707b5f96388373aabd6e2dfe3fadeea94ece62820ac4d16a933748afc"
+    },
+    {
+      "id": "ko-extra-152d49d39929",
+      "nameKo": "재단법인부산연구원",
+      "sourcePage": "https://www.bdi.re.kr/www/content/15",
+      "assetUrl": "https://www.bdi.re.kr/template/t006001/images/logo.svg",
+      "expectedSha256": "4cfe88790fe11bcb4ac094fa056c1dd3f5609dc65d03e861a53769e7cf0c0978"
+    },
+    {
+      "id": "ko-extra-c12505a9619e",
+      "nameKo": "재단법인부여군지역공동체활성화재단",
+      "sourcePage": "https://www.blcrf.com/sub.php?menu=5",
+      "assetUrl": "https://www.blcrf.com/html/images/signature_ci_long.svg",
+      "expectedSha256": "54449762ad910561761bf834afc98d67f8e11f98e3070fc3118c9a315cc0aef4"
+    },
+    {
+      "id": "ko-extra-670cd2e5e675",
+      "nameKo": "재단법인부천아트센터",
+      "sourcePage": "https://www.bac.or.kr/home/display/region/content/JSVFcEJ4SDk2Q1ZvdC93L2NtNXlBWEUzZkI5dXh4bmZJdlVIMURSSWpNV3dJYz0=",
+      "assetUrl": "https://www.bac.or.kr/images/sub/logo_symbol.svg",
+      "expectedSha256": "ba0ea21827b9c85ecdb862befefae3826678fc0434c231c904bfab3673925dfd"
+    },
+    {
+      "id": "ko-extra-639b50390d8a",
+      "nameKo": "재단법인세종테크노파크",
+      "sourcePage": "https://www.sjtp.or.kr/bbs/introduce/introduce05.php?bo_table=introduce05",
+      "assetUrl": "https://www.sjtp.or.kr/theme/basic/img/ft_logo_02.svg",
+      "expectedSha256": "685a9e0ab9683b09b14a09f09d2728d53e5cbe2ebb79341d0439066a0f143244"
+    },
+    {
+      "id": "ko-extra-3623bbe7e699",
+      "nameKo": "재단법인세종특별자치시사회서비스원",
+      "sourcePage": "https://sj.pass.or.kr/main/",
+      "assetUrl": "https://sj.pass.or.kr/main/images/korean/layout/logo.svg",
+      "expectedSha256": "446f198bc38dab744692a2192879ba07d25d5a9408d8c4d17f3e7a60587732e9"
+    },
+    {
+      "id": "ko-extra-e7b5a2768745",
+      "nameKo": "재단법인신안신재생에너지재단",
+      "sourcePage": "https://www.snef.or.kr/user/contents.php?sq=17",
+      "assetUrl": "https://www.snef.or.kr/user/images/common/logo2.svg",
+      "expectedSha256": "47cae840406520f0647e547013d4bce25a5a65ce42e5381a6bf60908e6a875e6"
+    },
+    {
+      "id": "ko-extra-6f6172ff7bfb",
+      "nameKo": "재단법인울산경제일자리진흥원",
+      "sourcePage": "https://www.ubpi.or.kr/sub/?mcode=0405060000",
+      "assetUrl": "https://www.ubpi.or.kr/images/common/ci_mark.svg?v=240702_2",
+      "expectedSha256": "9adabdb81f2b5505730ba3edc6f9d40193f5dfea62bfefc31fcf201f830ffb29"
+    },
+    {
+      "id": "ko-extra-92ff3d865d1e",
+      "nameKo": "재단법인제주특별자치도사회서비스원",
+      "sourcePage": "https://jeju.pass.or.kr/introduce-CI_introduce",
+      "assetUrl": "https://jeju.pass.or.kr/html/images/contents/introduce-ci/jeju-pass-logo-kor.svg",
+      "expectedSha256": "a10e05996a47907693e7c9593ca87a206ec887e456925497b4f25c8ddc03ad22"
+    },
+    {
+      "id": "ko-extra-136f1f207654",
+      "nameKo": "정보통신기획평가원",
+      "sourcePage": "https://www.iitp.kr/kr/1/introduce/ci.it",
+      "assetUrl": "https://www.iitp.kr/images/header/logo_dark.svg",
+      "expectedSha256": "2baa37b3a1fb1db9873a2f0d437efe059845a336b02bcb03f2eea8676d463b06"
+    },
+    {
+      "id": "ko-extra-6713960e6202",
+      "nameKo": "한국가스안전공사",
+      "sourcePage": "https://www.kgs.or.kr/kgs/adcc/view.do",
+      "assetUrl": "https://www.kgs.or.kr/asset/img/org/ci_logo02.svg",
+      "expectedSha256": "bcbdc11e997fa90ac4324c34156cf77fc77be0bdd7415ef4490e2df9cc8ba47f"
+    },
+    {
+      "id": "ko-extra-2fbb363ab4b4",
+      "nameKo": "한국건강증진개발원",
+      "sourcePage": "https://www.khepi.or.kr/board?menuId=MENU00919",
+      "assetUrl": "https://www.khepi.or.kr/resources/images/kps/content/signature02.svg",
+      "expectedSha256": "fb8ef2af4dcf888876c0e655ec622dc2d3cb3a9fc04fe88327aa0dd9e1e602de"
+    },
+    {
+      "id": "ko-extra-376b0b1d3a6c",
+      "nameKo": "한국사회보장정보원",
+      "sourcePage": "http://www.ssis.or.kr/lay1/S1T162C326/contents.do",
+      "assetUrl": "https://www.ssis.or.kr/images/renew3/common/logo_b.svg",
+      "expectedSha256": "102d74121887ed2bacfd0725426b21004abb45a735287c7ccecda0b534364980"
+    },
+    {
+      "id": "ko-extra-ce5b9ad358f6",
+      "nameKo": "한국사회적기업진흥원",
+      "sourcePage": "https://www.socialenterprise.or.kr/homepage/contents/contents.do?ciIdx=10038&amp;menuId=888",
+      "assetUrl": "https://www.socialenterprise.or.kr/assets/images/common/logo_wh.svg",
+      "expectedSha256": "0c34f9304cb8ea37de50735abfa585dad251814fdcf6f3ab73d8f4354e817366"
+    },
+    {
+      "id": "ko-extra-1c278f1296fc",
+      "nameKo": "한국에너지공단",
+      "sourcePage": "https://www.energy.or.kr/front/conts/102013001000000.do",
+      "assetUrl": "https://www.energy.or.kr/common/front/home/images/common/logo_top.svg",
+      "expectedSha256": "ee312dc87a0c8f32e70631fa895198db3039c44e87adb17ca00ebd27a92d2ff2"
+    },
+    {
+      "id": "ko-extra-ce9fae91b510",
+      "nameKo": "한국연구재단",
+      "sourcePage": "https://www.nrf.re.kr/page/83?menuNo=83",
+      "assetUrl": "https://www.nrf.re.kr/resources/img/common/header/logo-white.svg",
+      "expectedSha256": "60ae21f2ede5ac2b14b186043a7cbbffa93844191b0cb7d4dd9f92e1560cf641"
+    },
+    {
+      "id": "ko-extra-4de93c3038eb",
+      "nameKo": "한국장애인고용공단",
+      "sourcePage": "https://www.kead.or.kr/symmk/cntntsPage.do?menuId=MENU0902",
+      "assetUrl": "https://www.kead.or.kr/assets/image/logo_kead.svg",
+      "expectedSha256": "226641e06870aa6e9e10240b37e4ed4ce0fa1b2ab98be66eff76dab0fae30d8e"
+    },
+    {
+      "id": "ko-extra-2db9652bd0fb",
+      "nameKo": "한국재료연구원",
+      "sourcePage": "https://www.kims.re.kr/v17/bbx/content.php?co_id=06_10",
+      "assetUrl": "https://www.kims.re.kr/v17/theme/renewal2025/images/kims_logo_white.svg",
+      "expectedSha256": "b05c38166caaf96cd3e215485eafdf6ce638c01043e93daa5160938b740f3b33"
+    },
+    {
+      "id": "ko-extra-8dfbc2bcb5cf",
+      "nameKo": "한국전력공사",
+      "sourcePage": "https://www.kepco.co.kr/home/about/introduce/ci/conts.do",
+      "assetUrl": "https://www.kepco.co.kr/assets/images/pages/about/policy/signature_02.svg",
+      "expectedSha256": "801b21035b4160410fba38e6e295453fed85987c7e9a051e1680e4e69d0f25c8"
+    },
+    {
+      "id": "ko-extra-b101c70dcac0",
+      "nameKo": "한국전자통신연구원",
+      "sourcePage": "https://www.etri.re.kr/korcon/sub7/sub7_11.etri",
+      "assetUrl": "https://www.etri.re.kr/images/kor/layout_2019/logo_02.svg",
+      "expectedSha256": "1c9d78e80bc804e45b416c67314b87f21884fd434a2aecab65b066b528dba64e"
+    },
+    {
+      "id": "ko-extra-174b74899497",
+      "nameKo": "한국지식재산연구원",
+      "sourcePage": "https://www.kiip.re.kr/contents/ci.do",
+      "assetUrl": "https://www.kiip.re.kr/images/2025/common/logo.svg",
+      "expectedSha256": "f0ce51c4ce9de1b4855b8f63675aa1680a2ab575e1c7f55cc6c21db7948b3e3f"
+    },
+    {
+      "id": "ko-extra-922f93d8d907",
+      "nameKo": "한국청소년상담복지개발원",
+      "sourcePage": "https://www.kyci.or.kr/userSite/sub01_7_2.asp",
+      "assetUrl": "https://www.kyci.or.kr/userSite/images/common/kyci_logo.svg",
+      "expectedSha256": "43b07f709575a1b53cd4c938fe79e105baf9b980675dab6117d091206feed90d"
+    },
+    {
+      "id": "ko-extra-a9e63e3aa48b",
+      "nameKo": "한국투자공사",
+      "sourcePage": "https://www.kic.kr/ko/about-kic/overview/kic",
+      "assetUrl": "https://www.kic.kr/assets/images/common/logo.svg",
+      "expectedSha256": "68d8dbe9667fd021c2b2e0f0bee0137a616dd051f0a1b1e58dcab74b551ea49d"
+    },
+    {
+      "id": "ko-extra-423d0b7741e0",
+      "nameKo": "한국항공우주연구원",
+      "sourcePage": "https://www.kari.re.kr/kor/contents/92",
+      "assetUrl": "https://www.kari.re.kr/images/site/kor/common/logo2.svg",
+      "expectedSha256": "5f615828ca4112b43da5f1632a64d038cce94ecd7249528eea90c725a38f2703"
+    },
+    {
+      "id": "ko-extra-6562254ddd01",
+      "nameKo": "한국화학연구원",
+      "sourcePage": "https://www.krict.re.kr/kor/sub01_05_01.do;jsessionid=B18CE1F74AF47F2C749E11AA1916FACE",
+      "assetUrl": "https://www.krict.re.kr/images/kor/common/logo2.svg",
+      "expectedSha256": "63cabf3716bca5e805859dd35802f48001eb1d7babb3a2e4a1059bf33c4242b3"
+    },
+    {
+      "id": "ko-extra-c3b2ca1d2477",
+      "nameKo": "세종신용보증재단",
+      "sourcePage": "https://www.sjsinbo.or.kr/sub0704",
+      "assetUrl": "https://www.sjsinbo.or.kr/html/images/layout/logo_on.svg",
+      "expectedSha256": "d73c5ba570739f93995c8a654aef72ca8d9d495535ee556609d7371d5f8b082d"
+    },
+    {
+      "id": "ko-extra-0a390c7ebe02",
+      "nameKo": "연천군청소년육성재단",
+      "sourcePage": "https://www.ycyc.or.kr/foundation/ci",
+      "assetUrl": "https://www.ycyc.or.kr/images/intro/ci_02.svg",
+      "expectedSha256": "84a6d21dd985030ff7ed6bc0f3d298f4ac18d2bd02dfaa9d96bd6f09c973a7f9"
+    },
+    {
+      "id": "ko-extra-f8c913045a37",
+      "nameKo": "오송첨단의료산업진흥재단",
+      "sourcePage": "https://www.kbiohealth.kr/menu.es?mid=a10105000000",
+      "assetUrl": "https://www.kbiohealth.kr/kr/img/sub/ci_05.svg",
+      "expectedSha256": "9de901dfd653385a3db96ac75fad095cbf56b54a28e741130f6bbf6e038b8b71"
+    },
+    {
+      "id": "ko-extra-43d7a04993ee",
+      "nameKo": "재단법인광주디자인진흥원",
+      "sourcePage": "https://www.gdc.or.kr/contents.do?S=S01&amp;M=0608000000",
+      "assetUrl": "https://www.gdc.or.kr/_KOR/img/logo_w.svg",
+      "expectedSha256": "254fe7d3822355e98e40454e11fc5b1b74eda91e98ae2e26f548c00e29a8c32f"
+    },
+    {
+      "id": "ko-extra-f00ef0562257",
+      "nameKo": "재단법인남원시바이오산업연구원",
+      "sourcePage": "https://nbn.re.kr/pages/company/ci",
+      "assetUrl": "https://nbn.re.kr/theme/daontheme_pages/html/company/image/logo_type02.svg",
+      "expectedSha256": "db843e048da77f700c07b926dc4f6b699cba9ada699267058d88f4c3479318f6"
+    },
+    {
+      "id": "ko-extra-e9dd3ba2e39b",
+      "nameKo": "재단법인대전과학산업진흥원",
+      "sourcePage": "https://www.distep.re.kr/ci",
+      "assetUrl": "https://www.distep.re.kr/_webroot/images/korean/layout/logo.svg",
+      "expectedSha256": "61ce459101f3589ef28155cabdc5699da97c3a11a82df48cfb411ea5cc426596"
+    },
+    {
+      "id": "ko-extra-a37cd384e086",
+      "nameKo": "재단법인부여군지역공동체활성화재단",
+      "sourcePage": "https://www.blcrf.com/sub.php?menu=5",
+      "assetUrl": "https://www.blcrf.com/html/images/signature_ci_short.svg",
+      "expectedSha256": "4dbc111d6dd157eadd604ac60854ea245336fd8cfd51a210e82e2dbf5a156bc0"
+    },
+    {
+      "id": "ko-extra-921af0f7eb17",
+      "nameKo": "재단법인시흥시인재양성재단",
+      "sourcePage": "https://www.shinjae.or.kr/programs/user/intro/logo_ci.asp",
+      "assetUrl": "https://www.shinjae.or.kr/theme/responsive_shinjae/include/img/top_logo_center_2.svg",
+      "expectedSha256": "0f9780f6292e1a75d6472dd205fad9f3752bffb6aad00d573550adadc67fab42"
+    },
+    {
+      "id": "ko-extra-3cab6732dd33",
+      "nameKo": "재단법인제주특별자치도사회서비스원",
+      "sourcePage": "https://jeju.pass.or.kr/introduce-CI_introduce",
+      "assetUrl": "https://jeju.pass.or.kr/html/images/contents/introduce-ci/jeju-pass-logo-mix.svg",
+      "expectedSha256": "c9e2f00115393c34a317f0ba122e0b7f9dff4a17c985f9027f4b09e73f18ae29"
+    },
+    {
+      "id": "ko-extra-a38c4c8e2643",
+      "nameKo": "재단법인해양심층수산업고성진흥원",
+      "sourcePage": "https://gdif.co.kr/theme/gdif_02/html/company/05.php",
+      "assetUrl": "https://gdif.co.kr/theme/gdif_02/html/image/top_logo.svg",
+      "expectedSha256": "db751392cc401e929237de6ebedb7584fa097a8790b229988bcf9d3ecb46c27f"
+    },
+    {
+      "id": "ko-extra-3beba0d8a105",
+      "nameKo": "제주여성가족연구원",
+      "sourcePage": "https://www.jewfri.kr/index.php/contents/intro/about/ci",
+      "assetUrl": "https://www.jewfri.kr/apps/site/default/2021/images/sub/2024/ci_img2_1.svg",
+      "expectedSha256": "e65d76a8f1b6c4e9fe6e8d06b98d2057d9e06ca3ab7b12e3ff3cd088883daceb"
+    },
+    {
+      "id": "ko-extra-f9c0be92680d",
+      "nameKo": "중앙전파관리소",
+      "sourcePage": "https://www.crms.go.kr/lay1/S1T137C138/contents.do",
+      "assetUrl": "https://www.crms.go.kr/resources/img/logo_crms.svg",
+      "expectedSha256": "2452121f5e944b47c305ea48ab9149336579190e1252f7ef28c5a81915a7acd0"
+    },
+    {
+      "id": "ko-extra-403945bec440",
+      "nameKo": "하남문화재단",
+      "sourcePage": "https://www.hnart.or.kr/hnart/contents.do?key=325",
+      "assetUrl": "https://www.hnart.or.kr/site/hnart/images/common/hnart-logo.svg",
+      "expectedSha256": "bb703f3a83462de58b2912ad7335cd1da65580b1739d987dcb9b3d0a4a84a74d"
+    },
+    {
+      "id": "ko-extra-b3d5b495fb27",
+      "nameKo": "한국건강증진개발원",
+      "sourcePage": "https://www.khepi.or.kr/board?menuId=MENU00919",
+      "assetUrl": "https://www.khepi.or.kr/resources/images/kps/content/signature03.svg",
+      "expectedSha256": "cfc9e73ccaabda79be63389fe5d60be6fdb660af52a91f5f54227cc78f68d5ed"
+    },
+    {
+      "id": "ko-extra-44597573835c",
+      "nameKo": "한국과학기술기획평가원",
+      "sourcePage": "https://www.kistep.re.kr/menu.es?mid=a10201010000",
+      "assetUrl": "https://www.kistep.re.kr/main/img/sub/ci_logotype03.svg",
+      "expectedSha256": "e25531bb124291650088756c729064049c22d067bc6966c8bb15f0942f1d80bd"
+    },
+    {
+      "id": "ko-extra-2405bb3ea38e",
+      "nameKo": "한국사회보장정보원",
+      "sourcePage": "http://www.ssis.or.kr/lay1/S1T162C326/contents.do",
+      "assetUrl": "https://www.ssis.or.kr/images/renew3/common/logo_wh.svg",
+      "expectedSha256": "70f701268aaa45ab777a6ecdb181481863b2e205eeb1b2cfaf7e4e6c522331a9"
+    },
+    {
+      "id": "ko-extra-0c19ef55dc0d",
+      "nameKo": "한국사회적기업진흥원",
+      "sourcePage": "https://www.socialenterprise.or.kr/homepage/contents/contents.do?ciIdx=10038&amp;menuId=888",
+      "assetUrl": "https://www.socialenterprise.or.kr/assets/images/common/ft_logo.svg",
+      "expectedSha256": "f2aa9cb8c7007ecdefe94ec98039176de3d4de53e1b06a55e6ddb3b920dcb60e"
+    },
+    {
+      "id": "ko-extra-52f14c49d5a8",
+      "nameKo": "한국전력공사",
+      "sourcePage": "https://www.kepco.co.kr/home/about/introduce/ci/conts.do",
+      "assetUrl": "https://www.kepco.co.kr/assets/images/pages/about/policy/signature_03.svg",
+      "expectedSha256": "930733ac7a2db2ba7b2c831df35cbcb33bfc13d208603f4873a74f62932a87fc"
+    },
+    {
+      "id": "ko-extra-d02418f841d1",
+      "nameKo": "한국지식재산연구원",
+      "sourcePage": "https://www.kiip.re.kr/contents/ci.do",
+      "assetUrl": "https://www.kiip.re.kr/images/2025/common/logo_white.svg",
+      "expectedSha256": "337bc84cf75b02e5bdbe05312a414e45ad09c3c76293562c6a184c0491f14acd"
+    },
+    {
+      "id": "ko-extra-d9325d3f8dba",
+      "nameKo": "세종신용보증재단",
+      "sourcePage": "https://www.sjsinbo.or.kr/sub0704",
+      "assetUrl": "https://www.sjsinbo.or.kr/html/images/layout/footer_logo.svg",
+      "expectedSha256": "4e886a565eac8088cfcc2cb6f021c0c3ba40423c93d3ea350a3221cc2eadbbf1"
+    },
+    {
+      "id": "ko-extra-ce7aaa786f49",
+      "nameKo": "연천군청소년육성재단",
+      "sourcePage": "https://www.ycyc.or.kr/foundation/ci",
+      "assetUrl": "https://www.ycyc.or.kr/images/intro/ci_03.svg",
+      "expectedSha256": "5634e86cb3a7632b981e0fae5a024e32b9edaf0d8a5520d231e4c152efb51aec"
+    },
+    {
+      "id": "ko-extra-bbe7dc49673d",
+      "nameKo": "재단법인광주디자인진흥원",
+      "sourcePage": "https://www.gdc.or.kr/contents.do?S=S01&amp;M=0608000000",
+      "assetUrl": "https://www.gdc.or.kr/_KOR/img/logo_w_nav.svg",
+      "expectedSha256": "3912fa2f84d2e581114174f6c9be5f8ea8fa918eddc58c00611ad48875e25e1b"
+    },
+    {
+      "id": "ko-extra-2713bbcc2e07",
+      "nameKo": "재단법인남원시바이오산업연구원",
+      "sourcePage": "https://nbn.re.kr/pages/company/ci",
+      "assetUrl": "https://nbn.re.kr/theme/daontheme_pages/html/company/image/logo_type03.svg",
+      "expectedSha256": "2117625a71bfd7c9bd41e9c4a23583c2783a8c8c6b56e171490025e232aecc55"
+    },
+    {
+      "id": "ko-extra-00f652f9f266",
+      "nameKo": "재단법인대전과학산업진흥원",
+      "sourcePage": "https://www.distep.re.kr/ci",
+      "assetUrl": "https://www.distep.re.kr/_webroot/images/korean/layout/sitemap-logo.svg",
+      "expectedSha256": "1f61c9b06e6febb1229c43e38dfa44b11c37d514be00a9b5a90decab68e616c8"
+    },
+    {
+      "id": "ko-extra-36480cf808e8",
+      "nameKo": "재단법인부여군지역공동체활성화재단",
+      "sourcePage": "https://www.blcrf.com/sub.php?menu=5",
+      "assetUrl": "https://www.blcrf.com/common/images/logo.svg",
+      "expectedSha256": "1fca3ce86a98c547fcb97e5d03f98c227febfd8d3d544b5650bb031ad4768fe6"
+    },
+    {
+      "id": "ko-extra-4b205ccccc6f",
+      "nameKo": "재단법인제주특별자치도사회서비스원",
+      "sourcePage": "https://jeju.pass.or.kr/introduce-CI_introduce",
+      "assetUrl": "https://jeju.pass.or.kr/html/images/layout/logo.svg",
+      "expectedSha256": "68e92875af564916052132b847ef154c518c9452181d857673c7aec82d8fcb72"
+    },
+    {
+      "id": "ko-extra-704bb2850e9e",
+      "nameKo": "제주여성가족연구원",
+      "sourcePage": "https://www.jewfri.kr/index.php/contents/intro/about/ci",
+      "assetUrl": "https://www.jewfri.kr/apps/site/default/2021/images/sub/2024/ci_img2_2.svg",
+      "expectedSha256": "fd11cf5693f24c6f7df0fa4e1d5a84a2f8ae880fa9333320b53972199145ce33"
+    },
+    {
+      "id": "ko-extra-a837407448f3",
+      "nameKo": "한국건강증진개발원",
+      "sourcePage": "https://www.khepi.or.kr/board?menuId=MENU00919",
+      "assetUrl": "https://www.khepi.or.kr/resources/images/kps/content/signature04.svg",
+      "expectedSha256": "fe3ef7899a8fdf4ece816ec7cd50bffe4f06f13e49c34a443defbf661bb75b23"
+    },
+    {
+      "id": "ko-extra-499f7162e6b0",
+      "nameKo": "한국전력공사",
+      "sourcePage": "https://www.kepco.co.kr/home/about/introduce/ci/conts.do",
+      "assetUrl": "https://www.kepco.co.kr/assets/images/pages/about/policy/signature_04.svg",
+      "expectedSha256": "d16a31b5c90b9b967692683e10921738d73434ca2206808d41e064f56710a880"
+    }
+  ]
+}
