@@ -43,15 +43,22 @@ def fingerprint(image):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--workers', type=int, default=8)
+    parser.add_argument('--mode', choices=('initial', 'legal', 'new-direct'), default='initial')
     args = parser.parse_args()
     if not 1 <= args.workers <= 12:
         parser.error('workers must be 1..12')
-    paired = json.loads((OUT / 'paired-results.json').read_text())
-    selected = {x['member_key'] for x in json.loads((ROOT / 'data/collection/public-ci-roster-reviewed-20261017.json').read_text())['items']}
+    suffix = '' if args.mode == 'initial' else '-' + args.mode
+    paired = json.loads((OUT / f'paired-results{suffix}.json').read_text())
+    selected = {x['member_key'] for filename in (
+        'public-ci-roster-reviewed-20261017.json',
+        'public-ci-roster-alt-reviewed-20261017.json',
+        'public-ci-roster-legal-reviewed-20261017.json',
+        'public-ci-roster-new-direct-reviewed-20261017.json')
+        for x in json.loads((ROOT / 'data/collection' / filename).read_text())['items']}
     queue = [r for r in paired if r.get('pair_index') and r['member_key'] not in selected]
     official = defaultdict(list)
     for r in json.loads((ROOT / 'data/collection/official-ci-assets-staged.json').read_text())['candidates']:
-        official[REVIEW['norm'](r['name_ko'])].append(r)
+        official[(REVIEW['norm'] if args.mode == 'initial' else REVIEW['legal_norm'])(r['name_ko'])].append(r)
     keys = HELP['credentials']()
     s3 = boto3.client('s3', endpoint_url='https://kr.object.ncloudstorage.com',
                       region_name='kr-standard', aws_access_key_id=keys['NCP_ACCESS_KEY'],
@@ -63,7 +70,7 @@ def main():
         left_raw = s3.get_object(Bucket='vibers-bucket', Key=f'_clients/{ident}/logo.png')['Body'].read()
         left = REVIEW['decode'](left_raw, 'logo.png')
         baseline = fingerprint(left)
-        source_rows = official[REVIEW['norm'](row['name'])]
+        source_rows = official[(REVIEW['norm'] if args.mode == 'initial' else REVIEW['legal_norm'])(row['name'])]
         links = sorted({u for src in source_rows for u in src.get('asset_links', [])},
                        key=lambda u: (-REVIEW['rank_link'](u), u))
         options = []
@@ -101,7 +108,7 @@ def main():
                        'name': row['name'], 'brand_id': row['exact_candidates'][0],
                        'initial_pair_index': row['pair_index'],
                        'options': [{k:v for k,v in o.items() if k!='image'} for o in options]})
-    (OUT / 'alternate-results.json').write_text(json.dumps(report, ensure_ascii=False, indent=2) + '\n')
+    (OUT / f'alternate-results{suffix}.json').write_text(json.dumps(report, ensure_ascii=False, indent=2) + '\n')
     for start in range(0, len(results), 30):
         sheet = Image.new('RGB', (1800, 1740), 'white')
         draw = ImageDraw.Draw(sheet)
@@ -113,7 +120,7 @@ def main():
                 sheet.paste(REVIEW['tile'](image, (190, 138)), (x+k*200, y))
             label = f"{start+j+1:03d} {row['exact_candidates'][0]} {row['name']}"
             draw.text((x+3, y+141), label[:44], fill='black', font=font)
-        sheet.save(OUT / f'alternates-{start//30+1}.jpg', quality=88)
+        sheet.save(OUT / f'alternates{suffix}-{start//30+1}.jpg', quality=88)
     print(json.dumps({'scanned': len(results), 'with_alternative': sum(bool(x[2]) for x in results),
                       'distance_le_8': sum(bool(x[2]) and x[2][0]['phash_distance'] <= 8 for x in results),
                       'sheets': (len(results)+29)//30}))

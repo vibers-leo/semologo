@@ -7,8 +7,8 @@
   "status_counts": {
     "official_page_without_direct_file": 116,
     "no_exact_cms_or_official_ci_page": 186,
-    "official_asset_requires_visual_reselection": 202,
-    "verified_in_this_batch": 173,
+    "official_asset_requires_visual_reselection": 193,
+    "verified_in_this_batch": 182,
     "cms_candidate_without_official_ci_page": 24
   },
   "items": [
@@ -496,8 +496,8 @@
       "member_key": "cleaneye-출연-132",
       "name": "인천광역시계양구인재양성장학교육재단",
       "province": "인천광역시",
-      "status": "official_asset_requires_visual_reselection",
-      "next_action": "inspect other files on official CI page; replace wrong CMS asset or verify exact match",
+      "status": "verified_in_this_batch",
+      "next_action": "none",
       "exact_candidate_ids": [
         "gongu-ci-0220"
       ],
@@ -505,7 +505,13 @@
       "official_pages": [
         "https://gyedu.gyeyang.go.kr:1443/information/ci_introduce.asp"
       ],
-      "direct_asset_count": 9
+      "direct_asset_count": 9,
+      "reviewed": {
+        "brand_id": "gongu-ci-0220",
+        "evidence": "public-ci-roster-alt-legal-reviewed-20261017.json",
+        "official_source_page": "https://gyedu.gyeyang.go.kr:1443/information/ci_introduce.asp",
+        "official_asset_url": "https://gyedu.gyeyang.go.kr:1443/images/ci/logoKE.png"
+      }
     },
     {
       "member_key": "cleaneye-출연-133",
@@ -782,8 +788,8 @@
       "member_key": "cleaneye-출연-156",
       "name": "광주남구로컬푸드센터",
       "province": "광주광역시",
-      "status": "official_asset_requires_visual_reselection",
-      "next_action": "inspect other files on official CI page; replace wrong CMS asset or verify exact match",
+      "status": "verified_in_this_batch",
+      "next_action": "none",
       "exact_candidate_ids": [
         "gongu-ci-0328"
       ],
@@ -791,7 +797,13 @@
       "official_pages": [
         "https://namgufood.kr/1020"
       ],
-      "direct_asset_count": 11
+      "direct_asset_count": 11,
+      "reviewed": {
+        "brand_id": "gongu-ci-0328",
+        "evidence": "public-ci-roster-alt-legal-reviewed-20261017.json",
+        "official_source_page": "https://namgufood.kr/1020",
+        "official_asset_url": "https://cdn.imweb.me/thumbnail/20260918/928169726f269.png"
+      }
     },
     {
       "member_key": "cleaneye-출연-157",
@@ -1265,8 +1277,8 @@
       "member_key": "cleaneye-출연-21",
       "name": "재단법인 중구인재육성장학재단",
       "province": "서울특별시",
-      "status": "official_asset_requires_visual_reselection",
-      "next_action": "inspect other files on official CI page; replace wrong CMS asset or verify exact match",
+      "status": "verified_in_this_batch",
+      "next_action": "none",
       "exact_candidate_ids": [
         "gongu-ci-0243"
       ],
@@ -1274,7 +1286,13 @@
       "official_pages": [
         "https://www.junggu.seoul.kr/content.do?cmsid=16048"
       ],
-      "direct_asset_count": 20
+      "direct_asset_count": 20,
+      "reviewed": {
+        "brand_id": "gongu-ci-0243",
+        "evidence": "public-ci-roster-alt-legal-reviewed-20261017.json",
+        "official_source_page": "https://www.junggu.seoul.kr/content.do?cmsid=16048",
+        "official_asset_url": "https://www.junggu.seoul.kr/images/sub/symbol_mark03.png"
+      }
     },
     {
       "member_key": "cleaneye-출연-211",
@@ -1340,8 +1358,8 @@
       "member_key": "cleaneye-출연-217",
       "name": "수원시국제교류센터",
       "province": "경기도",
-      "status": "official_asset_requires_visual_reselection",
-      "next_action": "inspect other files on official CI page; replace wrong CMS asset or verify exact match",
+      "status": "verified_in_this_batch",
+      "next_action": "none",
       "exact_candidate_ids": [
         "gongu-ci-1251"
       ],
@@ -1349,7 +1367,13 @@
       "official_pages": [
         "https://www.swcic.or.kr/abt/ci.asp"
       ],
-      "direct_asset_count": 7
+      "direct_asset_count": 7,
+      "reviewed": {
+        "brand_id": "gongu-ci-1251",
+        "evidence": "public-ci-roster-alt-new-direct-reviewed-20261017.json",
+        "official_source_page": "https://www.swcic.or.kr/abt/ci.asp",
+        "official_asset_url": "https://www.swcic.or.kr/images/common/top/img_logo.png"
+      }
     },
     {
       "member_key": "cleaneye-출연-218",
@@ -2094,8 +2118,8 @@
       "member_key": "cleaneye-출연-269",
       "name": "재단법인 화성시여성가족청소년재단",
       "province": "경기도",
-      "status": "official_asset_requires_visual_reselection",
-      "next_action": "inspect other files on official CI page; replace wrong CMS asset or verify exact match",
+      "status": "verified_in_this_batch",
+      "next_action": "none",
       "exact_candidate_ids": [
         "gongu-ci-1744"
       ],
@@ -2103,7 +2127,13 @@
       "official_pages": [
         "https://www.hswf.or.kr/fmcs/32"
       ],
-      "direct_asset_count": 20
+      "direct_asset_count": 20,
+      "reviewed": {
+        "brand_id": "gongu-ci-1744",
+        "evidence": "public-ci-roster-alt-legal-reviewed-20261017.json",
+        "official_source_page": "https://www.hswf.or.kr/fmcs/32",
+        "official_asset_url": "https://www.hswf.or.kr/design/homepage/hswf/images/sub/img_symbol02.png"
+      }
     },
     {
       "member_key": "cleaneye-출연-270",
@@ -3581,8 +3611,8 @@
       "member_key": "cleaneye-출연-393",
       "name": "재단법인 평창인재육성장학재단",
       "province": "강원특별자치도",
-      "status": "official_asset_requires_visual_reselection",
-      "next_action": "inspect other files on official CI page; replace wrong CMS asset or verify exact match",
+      "status": "verified_in_this_batch",
+      "next_action": "none",
       "exact_candidate_ids": [
         "gongu-ci-0003"
       ],
@@ -3590,7 +3620,13 @@
       "official_pages": [
         "https://www.pc.go.kr/portal/intro/intro-summary/intro-summary-symbol"
       ],
-      "direct_asset_count": 20
+      "direct_asset_count": 20,
+      "reviewed": {
+        "brand_id": "gongu-ci-0003",
+        "evidence": "public-ci-roster-alt-legal-reviewed-20261017.json",
+        "official_source_page": "https://www.pc.go.kr/portal/intro/intro-summary/intro-summary-symbol",
+        "official_asset_url": "https://www.pc.go.kr/page/portal/images/sub/intro/img_symbol_01.jpg"
+      }
     },
     {
       "member_key": "cleaneye-출연-395",
@@ -4034,8 +4070,8 @@
       "member_key": "cleaneye-출연-434",
       "name": "재단법인 청주시활성화재단",
       "province": "충청북도",
-      "status": "official_asset_requires_visual_reselection",
-      "next_action": "inspect other files on official CI page; replace wrong CMS asset or verify exact match",
+      "status": "verified_in_this_batch",
+      "next_action": "none",
       "exact_candidate_ids": [
         "gongu-ci-0022"
       ],
@@ -4043,7 +4079,13 @@
       "official_pages": [
         "https://ccrf.or.kr/sub.php?code=59"
       ],
-      "direct_asset_count": 18
+      "direct_asset_count": 18,
+      "reviewed": {
+        "brand_id": "gongu-ci-0022",
+        "evidence": "public-ci-roster-alt-new-direct-reviewed-20261017.json",
+        "official_source_page": "https://ccrf.or.kr/sub.php?code=59",
+        "official_asset_url": "https://ccrf.or.kr/project/design/com/logo_icon.png"
+      }
     },
     {
       "member_key": "cleaneye-출연-436",
@@ -7748,8 +7790,8 @@
       "member_key": "cleaneye-출연-681",
       "name": "재단법인 구미문화재단",
       "province": "경상북도",
-      "status": "official_asset_requires_visual_reselection",
-      "next_action": "inspect other files on official CI page; replace wrong CMS asset or verify exact match",
+      "status": "verified_in_this_batch",
+      "next_action": "none",
       "exact_candidate_ids": [
         "gongu-ci-0349"
       ],
@@ -7757,7 +7799,13 @@
       "official_pages": [
         "https://gucf.or.kr/Intro-Institution?menuId=MENU_0000000005"
       ],
-      "direct_asset_count": 17
+      "direct_asset_count": 17,
+      "reviewed": {
+        "brand_id": "gongu-ci-0349",
+        "evidence": "public-ci-roster-alt-legal-reviewed-20261017.json",
+        "official_source_page": "https://gucf.or.kr/Intro-Institution?menuId=MENU_0000000005",
+        "official_asset_url": "https://gucf.or.kr/download/ci/구미문화재단 심볼마크.jpg"
+      }
     },
     {
       "member_key": "cleaneye-출연-682",
@@ -7975,8 +8023,8 @@
       "member_key": "cleaneye-출연-694",
       "name": "청송군인재육성장학회",
       "province": "경상북도",
-      "status": "official_asset_requires_visual_reselection",
-      "next_action": "inspect other files on official CI page; replace wrong CMS asset or verify exact match",
+      "status": "verified_in_this_batch",
+      "next_action": "none",
       "exact_candidate_ids": [
         "gongu-ci-0341"
       ],
@@ -7984,7 +8032,13 @@
       "official_pages": [
         "https://www.cs.go.kr/cheongsong/00003084/00003102.web"
       ],
-      "direct_asset_count": 20
+      "direct_asset_count": 20,
+      "reviewed": {
+        "brand_id": "gongu-ci-0341",
+        "evidence": "public-ci-roster-alt-legal-reviewed-20261017.json",
+        "official_source_page": "https://www.cs.go.kr/cheongsong/00003084/00003102.web",
+        "official_asset_url": "https://www.cs.go.kr/img/content/cslogo_000.jpg"
+      }
     },
     {
       "member_key": "cleaneye-출연-696",

@@ -17,6 +17,8 @@ REVIEWS = (
     'public-ci-roster-alt-reviewed-20261017.json',
     'public-ci-roster-legal-reviewed-20261017.json',
     'public-ci-roster-new-direct-reviewed-20261017.json',
+    'public-ci-roster-alt-legal-reviewed-20261017.json',
+    'public-ci-roster-alt-new-direct-reviewed-20261017.json',
 )
 
 

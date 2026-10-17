@@ -1,0 +1,29 @@
+{
+  "method": "legal-prefix-alias",
+  "items": [
+    {
+      "pair_index": "new-direct-1",
+      "member_key": "cleaneye-출연-217",
+      "name": "수원시국제교류센터",
+      "exact_candidates": [
+        "gongu-ci-1251"
+      ],
+      "asset_url": "https://www.swcic.or.kr/images/common/top/img_logo.png",
+      "source_page": "https://www.swcic.or.kr/abt/ci.asp",
+      "source_bytes": 16261,
+      "official_sha256": "0ed12e484b95dedda984a9dc729e00ba94ff1e129d99ad2afecde12bd6e8bbec"
+    },
+    {
+      "pair_index": "new-direct-5",
+      "member_key": "cleaneye-출연-434",
+      "name": "재단법인 청주시활성화재단",
+      "exact_candidates": [
+        "gongu-ci-0022"
+      ],
+      "asset_url": "https://ccrf.or.kr/project/design/com/logo_icon.png",
+      "source_page": "https://ccrf.or.kr/sub.php?code=59",
+      "source_bytes": 13707,
+      "official_sha256": "8f2dd70ded2e1e12bfde77b16383be70c3f4a2539272511edeb3f3e50a0ed02d"
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "method": "legal-prefix-alias",
+  "items": [
+    {
+      "pair_index": "legal-1",
+      "member_key": "cleaneye-출연-132",
+      "name": "인천광역시계양구인재양성장학교육재단",
+      "exact_candidates": [
+        "gongu-ci-0220"
+      ],
+      "asset_url": "https://gyedu.gyeyang.go.kr:1443/images/ci/logoKE.png",
+      "source_page": "https://gyedu.gyeyang.go.kr:1443/information/ci_introduce.asp",
+      "source_bytes": 8319,
+      "official_sha256": "b91d67a3c4c75314005f9dfb8d281377c58e87a642ac8677e37438ba1afb0894"
+    },
+    {
+      "pair_index": "legal-2",
+      "member_key": "cleaneye-출연-156",
+      "name": "광주남구로컬푸드센터",
+      "exact_candidates": [
+        "gongu-ci-0328"
+      ],
+      "asset_url": "https://cdn.imweb.me/thumbnail/20260918/928169726f269.png",
+      "source_page": "https://namgufood.kr/1020",
+      "source_bytes": 43893,
+      "official_sha256": "bf1ab363d557ab7122f722e5cbd5b8063ff352c21ae8f34aef5d10b85fcaecb7"
+    },
+    {
+      "pair_index": "legal-5",
+      "member_key": "cleaneye-출연-21",
+      "name": "재단법인 중구인재육성장학재단",
+      "exact_candidates": [
+        "gongu-ci-0243"
+      ],
+      "asset_url": "https://www.junggu.seoul.kr/images/sub/symbol_mark03.png",
+      "source_page": "https://www.junggu.seoul.kr/content.do?cmsid=16048",
+      "source_bytes": 16538,
+      "official_sha256": "334c3034b279c334aafe7502bf45bae6574f27b6940da62c55b72e7d2accb5ae"
+    },
+    {
+      "pair_index": "legal-7",
+      "member_key": "cleaneye-출연-269",
+      "name": "재단법인 화성시여성가족청소년재단",
+      "exact_candidates": [
+        "gongu-ci-1744"
+      ],
+      "asset_url": "https://www.hswf.or.kr/design/homepage/hswf/images/sub/img_symbol02.png",
+      "source_page": "https://www.hswf.or.kr/fmcs/32",
+      "source_bytes": 11353,
+      "official_sha256": "59edd08eee26f4e473f034c6c6dd341f65d2a5ce0dec838c4c52c70e931e0840"
+    },
+    {
+      "pair_index": "legal-15",
+      "member_key": "cleaneye-출연-393",
+      "name": "재단법인 평창인재육성장학재단",
+      "exact_candidates": [
+        "gongu-ci-0003"
+      ],
+      "asset_url": "https://www.pc.go.kr/page/portal/images/sub/intro/img_symbol_01.jpg",
+      "source_page": "https://www.pc.go.kr/portal/intro/intro-summary/intro-summary-symbol",
+      "source_bytes": 17534,
+      "official_sha256": "981289607e48d1d5de384f5d67cc5eace934c08f5772b9fca2322687ced33fa1"
+    },
+    {
+      "pair_index": "legal-18",
+      "member_key": "cleaneye-출연-681",
+      "name": "재단법인 구미문화재단",
+      "exact_candidates": [
+        "gongu-ci-0349"
+      ],
+      "asset_url": "https://gucf.or.kr/download/ci/구미문화재단 심볼마크.jpg",
+      "source_page": "https://gucf.or.kr/Intro-Institution?menuId=MENU_0000000005",
+      "source_bytes": 679587,
+      "official_sha256": "3adce1c77413013882d77bb14fe6446fde131a65040a7f7f1df9ee6b899a59de"
+    },
+    {
+      "pair_index": "legal-20",
+      "member_key": "cleaneye-출연-694",
+      "name": "청송군인재육성장학회",
+      "exact_candidates": [
+        "gongu-ci-0341"
+      ],
+      "asset_url": "https://www.cs.go.kr/img/content/cslogo_000.jpg",
+      "source_page": "https://www.cs.go.kr/cheongsong/00003084/00003102.web",
+      "source_bytes": 19936,
+      "official_sha256": "ae87bffafd94ee8e84dca2855533b05ecdb1a4440543bdc3bf85e5ea93bd58d8"
+    }
+  ]
+}
