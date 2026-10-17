@@ -28,5 +28,24 @@
   },
   "routingPolicy": "Exact official domain is an existing-brand review lead; exact non-generic name needs identity review; ambiguous matches are held; no collected art is automatically promoted or substituted.",
   "privateAudit": "/Volumes/HDD-1TB/semologo-migration/bulk-staging/enrichment-audit-20261017/report.json",
-  "privateOriginals": "/Volumes/HDD-1TB/semologo-migration/bulk-staging/korea-fleet-followup-20261017/"
+  "privateOriginals": "/Volumes/HDD-1TB/semologo-migration/bulk-staging/korea-fleet-followup-20261017/",
+  "assetPathRepair": {
+    "literalBooleanPathsFound": 1044,
+    "defaultAssetVerifiedAndRepaired": 955,
+    "existingPrimarySvgRelinked": 87,
+    "existingTransparentSvgRelinked": 2,
+    "remainingLiteralBooleanPaths": 0,
+    "verification": "Public CDN returned SVG/PNG bytes before each compare-and-swap CMS update"
+  },
+  "progressiveAssetSweep": {
+    "snapshotRows": 183174,
+    "firstBalancedSampleChecked": 300,
+    "initialFlags": 2,
+    "flagsResolved": [
+      "kocca boolean SVG path repaired",
+      "axogen transient CDN timeout; asset rechecked HTTP 200"
+    ],
+    "resumableScript": "scripts/sweep-logo-asset-paths.py",
+    "note": "The complete public-byte sweep is not finished; no population broken-file rate is inferred from this sample."
+  }
 }
