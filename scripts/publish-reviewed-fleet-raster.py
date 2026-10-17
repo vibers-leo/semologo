@@ -59,6 +59,9 @@ def main():
     parser.add_argument('--manifest', type=Path, required=True)
     parser.add_argument('--assets', type=Path, required=True)
     parser.add_argument('--expected-count', type=int, required=True)
+    parser.add_argument('--origin', choices=('auto', 'KR', 'GLOBAL'), default='auto')
+    parser.add_argument('--provider', default='first-party-web')
+    parser.add_argument('--source-note', default='First-party website raster; Windows fleet discovered, Mac visually reviewed')
     parser.add_argument('--apply', action='store_true')
     args = parser.parse_args()
     rows = json.loads(args.manifest.read_text())['items']
@@ -75,19 +78,22 @@ def main():
             raise ValueError('Source bytes changed: ' + ident)
         png = make_png(source, row)
         brand = {'id': ident, 'name_ko': row['name'], 'name_en': row['name'],
-            'category': row['category'], 'origin': 'KR' if row['domain'].endswith('.kr') else 'GLOBAL',
+            'category': row['category'], 'origin': (
+                args.origin if args.origin != 'auto' else ('KR' if row['domain'].endswith('.kr') else 'GLOBAL')),
             'has_svg': False, 'has_png': True, 'logo_png': 'logo.png',
             'preview_png': f'{CDN}/{ident}/logo.png', 'website': row['website'],
             'domain': row['domain'], 'source_url': row['sourcePage'],
-            'asset_origin': 'First-party website raster; Windows fleet discovered, Mac visually reviewed',
+            'asset_origin': args.source_note,
             'asset_review_status': 'reviewed-first-party-raster',
             'added_at': now[:10], 'logo_published_at': now}
+        if row.get('recommendedBg') in ('light', 'dark'):
+            brand['presentation'] = {'file': 'logo.png', 'bg': row['recommendedBg']}
         variant = {'schema': 1, 'algo_v': 1, 'id': ident, 'primary': 'source-reviewed',
             'variants': [{'key': 'source-reviewed', 'form': row.get('form', 'horizontal'),
                 'lockup': row.get('form', 'horizontal'), 'lang': 'mixed', 'color': 'original',
                 'label': '원본 이미지', 'files': {'png': 'logo.png'},
-                'preview_png': 'logo.png', 'origin': 'first-party-web',
-                'provider': 'first-party-web', 'source_url': row['sourcePage'],
+                'preview_png': 'logo.png', 'origin': args.provider,
+                'provider': args.provider, 'source_url': row['sourcePage'],
                 'source_sha256': sha(source), 'visual_sha256': sha(png),
                 'review_status': 'verified', 'order': 0}]}
         prepared.append({'id': ident, 'name': row['name'], 'brand': brand, 'variants': variant})

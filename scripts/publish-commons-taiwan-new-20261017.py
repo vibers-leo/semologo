@@ -99,6 +99,7 @@ def main():
     parser.add_argument('--expected-count', type=int, default=6)
     parser.add_argument('--provider', default='wikimedia-commons')
     parser.add_argument('--source-note', default='Wikimedia Commons original SVG; company identity independently checked')
+    parser.add_argument('--origin', choices=('GLOBAL', 'KR'), default='GLOBAL')
     args = parser.parse_args()
     rows = json.loads(args.manifest.read_text())['items']
     assert len(rows) == args.expected_count and len({x['id'] for x in rows}) == len(rows)
@@ -130,7 +131,7 @@ def main():
             if opaque / total > 0.80 and white / total > 0.50:
                 raise ValueError(f'Likely embedded white backdrop: {ident}')
         brand = {'id': ident, 'name_ko': row['name'], 'name_en': row['name'],
-            'category': row['category'], 'origin': 'GLOBAL', 'has_svg': True,
+            'category': row['category'], 'origin': args.origin, 'has_svg': True,
             'has_png': True, 'logo_svg': 'logo.svg', 'logo_png': 'logo.png',
             'preview_png': f'{CDN}/{ident}/logo.png',
             'website': row.get('website', f'https://www.{row["domain"]}/'), 'domain': row['domain'],
@@ -138,6 +139,8 @@ def main():
             'asset_review_status': ('reviewed-first-party-vector' if args.provider == 'first-party-web'
                                     else 'reviewed-third-party-vector'),
             'added_at': timestamp[:10], 'logo_published_at': timestamp}
+        if row.get('recommendedBg') in ('light', 'dark'):
+            brand['presentation'] = {'file': 'logo.png', 'bg': row['recommendedBg'], 'svgFile': 'logo.svg'}
         variant = {'schema': 1, 'algo_v': 1, 'id': ident, 'primary': 'source-reviewed',
             'variants': [{'key': 'source-reviewed', 'form': row.get('form', 'horizontal'),
                 'lockup': row.get('form', 'horizontal'), 'lang': 'mixed', 'color': 'original',
