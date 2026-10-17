@@ -1,5 +1,7 @@
 import importlib.util
+import json
 import sys
+import tempfile
 import unittest
 from pathlib import Path
 
@@ -49,6 +51,21 @@ class FleetEnrichmentQueueTest(unittest.TestCase):
         candidate = {'domain': 'example.kr', 'name': 'Home', 'sha256': 'c' * 64}
         self.assertEqual(module.build(catalog, [candidate])['queue'][0]['action'],
                          'review_new_content')
+
+    def test_sweep_failure_is_recheck_lead_and_later_success_clears_it(self):
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / 'sweep.jsonl'
+            checks = [
+                {'id': 'logo', 'svg': {'status': 404, 'valid': False}},
+                {'id': 'logo', 'svg': {'status': 200, 'valid': True}},
+                {'id': 'other', 'png': {'status': 0, 'valid': False}},
+            ]
+            path.write_text(''.join(json.dumps(row) + '\n' for row in checks))
+            failed = module.asset_failures([path])
+            self.assertNotIn('logo', failed)
+            report = module.build([{'id': 'other', 'name_ko': '다른', 'has_png': True}], [], failed)
+            self.assertEqual(report['counts']['brands_requiring_asset_recheck'], 1)
+            self.assertIn('recheck_unreachable_assets', report['catalogAudit'][0]['actions'])
 
 
 if __name__ == '__main__':

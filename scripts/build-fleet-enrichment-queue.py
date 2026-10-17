@@ -74,7 +74,26 @@ def candidate_rows(manifests):
                    'sha256': digest, 'sourceManifest': str(source)}
 
 
-def build(catalog, candidates):
+def asset_failures(paths):
+    """Latest sweep result per brand/format; a failure requests recheck, not replacement."""
+    latest = {}
+    for source in paths:
+        with source.open() as stream:
+            for line in stream:
+                row = json.loads(line)
+                for kind in ('png', 'svg'):
+                    detail = row.get(kind)
+                    if isinstance(detail, dict):
+                        latest[(row['id'], kind)] = detail
+    failed = defaultdict(dict)
+    for (ident, kind), detail in latest.items():
+        if not detail.get('valid'):
+            failed[ident][kind] = detail
+    return dict(failed)
+
+
+def build(catalog, candidates, failed_assets=None):
+    failed_assets = failed_assets or {}
     by_domain, by_name = defaultdict(set), defaultdict(set)
     quality = {}
     catalog_audit = []
@@ -98,7 +117,9 @@ def build(catalog, candidates):
         if form['state'] == 'recorded':
             for slot in form['missing']:
                 counts['recorded_missing_' + slot] += 1
-        quality[ident] = {'png': png, 'svg': svg, 'forms': form}
+        failed = failed_assets.get(ident, {})
+        quality[ident] = {'png': png, 'svg': svg, 'forms': form,
+                          'assetRecheck': sorted(failed)}
         actions = []
         if png is False:
             actions.append('generate_or_collect_png')
@@ -108,8 +129,12 @@ def build(catalog, candidates):
             actions.append('collect_verified_forms')
         if form['state'] == 'unassessed':
             actions.append('assess_composition')
+        if failed:
+            actions.append('recheck_unreachable_assets')
+            counts['brands_requiring_asset_recheck'] += 1
         catalog_audit.append({'id': ident, 'domain': domain_of(row.get('domain') or row.get('website')),
-                              'png': png, 'svg': svg, 'forms': form, 'actions': actions})
+                              'png': png, 'svg': svg, 'forms': form,
+                              'assetRecheck': sorted(failed), 'actions': actions})
 
     queue = []
     for candidate in candidates:
@@ -147,10 +172,12 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--catalog', type=Path, required=True)
     parser.add_argument('--manifest', type=Path, action='append', required=True)
+    parser.add_argument('--asset-sweep', type=Path, action='append', default=[],
+                        help='Optional JSONL public-byte sweep; failures are recheck leads')
     parser.add_argument('--output', type=Path, required=True)
     args = parser.parse_args()
     catalog = json.loads(args.catalog.read_text())
-    report = build(catalog, candidate_rows(args.manifest))
+    report = build(catalog, candidate_rows(args.manifest), asset_failures(args.asset_sweep))
     args.output.parent.mkdir(parents=True, exist_ok=True)
     args.output.write_text(json.dumps(report, ensure_ascii=False, separators=(',', ':')) + '\n')
     print(json.dumps({'queue': len(report['queue']), **report['counts']}, ensure_ascii=False))

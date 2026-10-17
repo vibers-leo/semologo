@@ -47,5 +47,21 @@
     ],
     "resumableScript": "scripts/sweep-logo-asset-paths.py",
     "note": "The complete public-byte sweep is not finished; no population broken-file rate is inferred from this sample."
+  },
+  "ongoingMaintenance": {
+    "macLaunchAgent": "com.vibers.semologo.enrichment-maintenance",
+    "intervalSeconds": 3600,
+    "advertisedAssetsPerRun": 1000,
+    "firstRunChecked": 1000,
+    "firstRunFailures": 7,
+    "firstRunFailuresResolvedOnRecheck": 7,
+    "publicationPolicy": "Read-only audit and candidate queue. Same-identity, visually reviewed originals may be added to the existing CMS version; representative changes remain separate."
+  },
+  "existingBrandEnrichmentProof": {
+    "brandId": "karur-vysya-bank",
+    "newOfficialVariants": 2,
+    "existingPrimaryPreserved": "wordmark",
+    "existingRootAssetsPreserved": true,
+    "apiAndCdnVerified": true
   }
 }

@@ -10,6 +10,7 @@ import concurrent.futures
 import hashlib
 import json
 import os
+import subprocess
 import urllib.error
 import urllib.parse
 import urllib.request
@@ -32,12 +33,15 @@ def asset_url(row, kind):
     if value in {'true', 'false'}:
         raise ValueError('Boolean asset path')
     if value.startswith('/'):
-        return SITE + value
+        return SITE + urllib.parse.quote(value, safe='/%')
     if value.startswith('https://'):
-        host = urllib.parse.urlsplit(value).hostname
+        parsed = urllib.parse.urlsplit(value)
+        host = parsed.hostname
         if host not in {'semologo.com', 'logo.vibers.co.kr'}:
             raise ValueError('Unexpected asset host')
-        return value
+        return urllib.parse.urlunsplit((parsed.scheme, parsed.netloc,
+                                         urllib.parse.quote(parsed.path, safe='/%'),
+                                         parsed.query, parsed.fragment))
     parts = PurePosixPath(value).parts
     if not parts or any(part in ('', '.', '..') for part in parts) or '://' in value or '?' in value or '#' in value:
         raise ValueError('Unexpected relative asset path')
@@ -74,6 +78,19 @@ def check_row(row):
     return result
 
 
+def current_paths(window):
+    """Refresh only the bounded window, so repairs after snapshot are respected."""
+    ids = [row['id'] for row in window]
+    source = 'const ids=' + json.dumps(ids) + ';' + r'''const {Pool}=require('pg');(async()=>{const p=new Pool({connectionString:process.env.DB_VIBERS_MAIN_URL,max:1});try{const q=await p.query("select id,payload->>'logo_png' logo_png,payload->>'logo_svg' logo_svg,coalesce(payload->>'has_png',payload->'metadata'->>'has_png') has_png,coalesce(payload->>'has_svg',payload->'metadata'->>'has_svg') has_svg from semologo.logo_posts where status='published' and id=any($1)",[ids]);console.log(JSON.stringify(q.rows))}finally{await p.end()}})().catch(e=>{console.error(e.message);process.exit(1)})'''
+    result = subprocess.run(['ssh', 'vibers', 'docker exec -i semologo node -'],
+                            input=source, text=True, capture_output=True)
+    if result.returncode:
+        raise RuntimeError('Live CMS paths unavailable: ' + result.stderr.strip()[:300])
+    live = {row['id']: row for row in json.loads(result.stdout)}
+    return [{**old, **live[old['id']]} if old['id'] in live else
+            {**old, 'has_png': False, 'has_svg': False} for old in window]
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--catalog', type=Path, required=True)
@@ -81,6 +98,8 @@ def main():
     parser.add_argument('--cursor', type=Path, required=True)
     parser.add_argument('--limit', type=int, default=300)
     parser.add_argument('--workers', type=int, default=4)
+    parser.add_argument('--live-paths', action='store_true',
+                        help='Recheck current CMS paths for this window before fetching bytes')
     args = parser.parse_args()
     if not 1 <= args.limit <= 1000 or not 1 <= args.workers <= 8:
         parser.error('limit 1–1000 and workers 1–8 are required')
@@ -97,6 +116,8 @@ def main():
     if not window:
         print(json.dumps({'status': 'complete', 'checked': start, 'total': len(catalog)}))
         return
+    if args.live_paths:
+        window = current_paths(window)
     with concurrent.futures.ThreadPoolExecutor(max_workers=args.workers) as pool:
         results = list(pool.map(check_row, window))
     args.output.parent.mkdir(parents=True, exist_ok=True)

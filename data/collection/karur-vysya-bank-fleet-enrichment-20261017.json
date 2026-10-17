@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "identityReview": "Official kvb.bank.in homepage identifies Karur Vysya Bank; the SVG and app icon visibly carry the KVB mark. Co-branded trust-plutus artwork is excluded. Preserve existing representative.",
+  "items": [
+    {
+      "targetBrandId": "karur-vysya-bank",
+      "sourceFile": "1e0951e128a7793f97762fe770834ed8c2df3173bec22930efcee642639d47fa.svg",
+      "sha256": "1e0951e128a7793f97762fe770834ed8c2df3173bec22930efcee642639d47fa",
+      "sourcePage": "https://www.kvb.bank.in/",
+      "sourceAssetUrl": "https://www.kvb.bank.in/img/logo-kvb-white.svg",
+      "visualReview": "White KVB circular symbol on transparent SVG; match to official bank identity; use on dark backgrounds.",
+      "form": "symbol",
+      "label": "심볼 · 공식 흰색 버전",
+      "color": "white"
+    },
+    {
+      "targetBrandId": "karur-vysya-bank",
+      "sourceFile": "31554a8cfa2f5f8ba2e81e9e2d593010d605751c5caa88bfb120403da30a7751.png",
+      "sha256": "31554a8cfa2f5f8ba2e81e9e2d593010d605751c5caa88bfb120403da30a7751",
+      "sourcePage": "https://www.kvb.bank.in/",
+      "sourceAssetUrl": "https://www.kvb.bank.in/img/icon-192x192.png",
+      "visualReview": "Official KVB round app icon with yellow-green background; match to bank identity; retain background as part of source artwork.",
+      "form": "symbol",
+      "label": "심볼 · 공식 앱 아이콘",
+      "color": "color"
+    }
+  ]
+}
