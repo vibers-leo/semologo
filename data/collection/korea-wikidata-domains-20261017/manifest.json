@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "source": "https://query.wikidata.org/sparql",
+  "query": "SELECT ?item ?site WHERE { ?item wdt:P17 wd:Q884; wdt:P856 ?site. MINUS { ?item wdt:P31 wd:Q5 } } LIMIT 60000",
+  "policy": "P856 candidate website only; domain discovery, identity and visual review before publication",
+  "retrievedAt": "2026-10-17",
+  "wdqsRows": 27597,
+  "wdqsSha256": "601b0cc62492e03e279d05d13fb22cabc18724ab9e10b92758e9837544b4c8a0",
+  "previousKrDomains": 13325,
+  "previousFleetDomains": 57569,
+  "candidateDomains": 16116,
+  "files": [
+    {
+      "worker": "win-01",
+      "count": 8058,
+      "file": "data/collection/korea-wikidata-domains-20261017/win-01.csv.gz",
+      "sha256": "117888b5021cab650f1d36562db5a4776dff592f44cc4dd84699195ae0d6fded",
+      "bytes": 68167,
+      "key": "automation/v1/tenants/internal/projects/semologo/seeds/kr-wikidata-20261017/win-01-117888b5021cab65.csv.gz"
+    },
+    {
+      "worker": "win-02",
+      "count": 8058,
+      "file": "data/collection/korea-wikidata-domains-20261017/win-02.csv.gz",
+      "sha256": "c7a13c266dfb887568faf569aefd77878a94a330347ea4fd15e643dd1937c5af",
+      "bytes": 68073,
+      "key": "automation/v1/tenants/internal/projects/semologo/seeds/kr-wikidata-20261017/win-02-c7a13c266dfb8875.csv.gz"
+    }
+  ]
+}
