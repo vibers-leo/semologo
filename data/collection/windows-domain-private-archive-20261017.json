@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "source": "Windows fleet domain harvest 2026-10-17",
+  "jobsRead": 412,
+  "candidateUrls": 2758,
+  "uniqueOriginals": 2303,
+  "stagedDomains": 1282,
+  "archive": {
+    "bucket": "vibers-bucket",
+    "prefix": "automation/v1/tenants/internal/projects/semologo/staging/fleet-domain-20261017",
+    "private": true,
+    "manifestKey": "automation/v1/tenants/internal/projects/semologo/staging/fleet-domain-20261017/manifests/80a2e15d14ad717dad79f76bc0077c4f25684dd53293d8ad80b750b5c4123ee1.json",
+    "manifestSha256": "80a2e15d14ad717dad79f76bc0077c4f25684dd53293d8ad80b750b5c4123ee1",
+    "uploadedAt": "2026-10-17T00:20:06.158663+00:00"
+  },
+  "publicationPolicy": "Private originals are archived irrespective of CMS review; publish only verified brand-matched assets."
+}
