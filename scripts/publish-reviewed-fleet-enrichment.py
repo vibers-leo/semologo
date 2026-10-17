@@ -36,7 +36,7 @@ def render(row, raw):
                 br'<!DOCTYPE|<!ENTITY|<(?:image|script|foreignObject)\b|data:image/|javascript:|'
                 br'\bon[a-z]+\s*=|\b(?:xlink:)?href\s*=|@import|url\s*\(', raw, re.I):
             raise ValueError('Unsafe or oversized SVG: ' + row['targetBrandId'])
-        preview = cairosvg.svg2png(bytestring=raw, output_width=600)
+        preview = cairosvg.svg2png(bytestring=raw, output_width=1200)
         with Image.open(io.BytesIO(preview)) as image:
             if image.width < 128 or image.height < 64:
                 raise ValueError('SVG preview too small')
