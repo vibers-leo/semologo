@@ -41,7 +41,8 @@ def s3_client():
     return boto3.client('s3',endpoint_url='https://kr.object.ncloudstorage.com',
         region_name='kr-standard',aws_access_key_id=credentials['NCP_ACCESS_KEY'],
         aws_secret_access_key=credentials['NCP_SECRET_KEY'],
-        config=Config(signature_version='s3v4',max_pool_connections=24))
+        config=Config(signature_version='s3v4',max_pool_connections=24,
+                      request_checksum_calculation='when_required'))
 
 
 def jobs_after(cursor, limit):
