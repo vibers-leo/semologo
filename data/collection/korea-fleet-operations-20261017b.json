@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-10-17T07:47:04.092003+00:00",
+  "source": "Windows fleet .kr discovery, first-party original files, Mac contact-sheet visual review",
+  "candidatesReviewed": 160,
+  "visuallyMatchedAndDeduplicated": 128,
+  "publicBatch": {
+    "newBrands": 128,
+    "svgBrands": 8,
+    "rasterBrands": 120,
+    "cdnObjectsVerified": 520,
+    "recentCatalogMatched": 128,
+    "catalogTotalAfterBatch": 182377,
+    "manifests": [
+      "data/collection/korea-fleet-reviewed-20261017b-svg.json",
+      "data/collection/korea-fleet-reviewed-20261017b-raster.json"
+    ]
+  },
+  "reviewRule": "Exclude mismatched logos, reused domains, generic icons, existing published names or identities; publish PNG-only when original is raster."
+}

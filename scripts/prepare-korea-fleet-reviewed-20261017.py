@@ -33,7 +33,10 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--stage', type=Path, required=True)
     parser.add_argument('--selection', type=Path, required=True)
+    parser.add_argument('--release-stem', default='korea-fleet-reviewed-20261017')
     args = parser.parse_args()
+    if not re.fullmatch(r'[a-z0-9][a-z0-9-]*', args.release_stem):
+        raise ValueError('Invalid release stem')
     stage = args.stage
     selection = json.loads(args.selection.read_text())
     if not selection.get('visualReview') or not selection['items']:
@@ -70,7 +73,7 @@ def main():
     if len({x[1]['id'] for x in selected}) != len(selected):
         raise ValueError('Duplicate reviewed identity')
     for kind in ('svg', 'raster'):
-        stem = 'korea-fleet-reviewed-20261017-' + kind
+        stem = args.release_stem + '-' + kind
         target = ROOT / 'data/collection' / (stem + '-assets')
         target.mkdir(parents=True, exist_ok=True)
         items = []
