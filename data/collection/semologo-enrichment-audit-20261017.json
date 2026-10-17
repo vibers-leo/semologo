@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-10-17T08:04:02.275884+00:00",
+  "status": "whole-catalog-metadata-audited-and-candidate-routing-ready",
+  "catalogSnapshotSize": 183174,
+  "sourceScope": "Current CMS metadata and reviewed variant manifests; broken file status requires progressive public-byte verification",
+  "metadataCounts": {
+    "declared_png_missing": 124089,
+    "declared_svg_missing": 7284,
+    "forms_unassessed": 182462,
+    "forms_recorded": 712,
+    "recorded_missing_horizontal": 86,
+    "recorded_missing_vertical": 707,
+    "recorded_missing_symbol": 653,
+    "recorded_missing_wordmark": 683
+  },
+  "latestFleetStage": {
+    "jobsRead": 1200,
+    "candidateUrls": 6726,
+    "stagedFiles": 5378,
+    "stagedDomains": 3074
+  },
+  "candidateRouting": {
+    "candidates_review_new_content": 6458,
+    "candidates_review_existing_update": 475,
+    "candidates_review_name_match": 177,
+    "candidates_resolve_name_ambiguity": 37
+  },
+  "routingPolicy": "Exact official domain is an existing-brand review lead; exact non-generic name needs identity review; ambiguous matches are held; no collected art is automatically promoted or substituted.",
+  "privateAudit": "/Volumes/HDD-1TB/semologo-migration/bulk-staging/enrichment-audit-20261017/report.json",
+  "privateOriginals": "/Volumes/HDD-1TB/semologo-migration/bulk-staging/korea-fleet-followup-20261017/"
+}
