@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-10-17T06:29:19.477619+00:00",
+  "domesticDiscovery": {
+    "jobsVerified": 1110,
+    "domainsVisited": 13320,
+    "domainsWithStagedAssets": 2001,
+    "uniqueOriginalFiles": 3438,
+    "status": "completed"
+  },
+  "publicBatch": {
+    "newBrands": 113,
+    "format": "SVG with generated PNG",
+    "cdnObjectsVerified": 565,
+    "catalogTotalAfterBatch": 182249,
+    "manifest": "data/collection/korea-fleet-reviewed-20261017-svg.json"
+  },
+  "ongoingFleet": {
+    "workers": [
+      "win-01",
+      "win-02"
+    ],
+    "source": "previously pinned eight-million-domain Common Crawl candidate shards",
+    "queueLimitPerWorker": 2,
+    "timerIntervalSeconds": 10,
+    "immutableShardCache": "hash checked in fleet container",
+    "status": "running"
+  },
+  "reviewRule": "Only visually matched first-party logos are published; remaining staged files stay private."
+}

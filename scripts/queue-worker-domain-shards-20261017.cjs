@@ -6,6 +6,8 @@ const {S3Client,GetObjectCommand}=requireApp('@aws-sdk/client-s3');
 const {Pool}=requireApp('pg');
 const {createHash}=require('node:crypto');
 const {gunzipSync}=require('node:zlib');
+const fs=require('node:fs');
+const path=require('node:path');
 
 const SHARDS={
  'win-01':[
@@ -31,10 +33,28 @@ const store=new S3Client({endpoint:process.env.FLEET_NCP_ENDPOINT,region:'kr-sta
 const pool=new Pool({connectionString:process.env.FLEET_DATABASE_URL,max:1,connectionTimeoutMillis:5000});
 
 async function rows(shard,offset,count){
- const response=await store.send(new GetObjectCommand({Bucket:'vibers-bucket',Key:shard.key}),{abortSignal:AbortSignal.timeout(30000)});
- if(response.ContentLength!==shard.bytes)throw Error('Seed size changed');
- const compressed=Buffer.from(await response.Body.transformToByteArray());
- if(digest(compressed)!==shard.sha)throw Error('Seed hash mismatch');
+ // The immutable, hash-checked seed is reused by many short feeder runs.
+ // Keep only this private compressed shard inside the fleet container to avoid
+ // downloading several megabytes every few seconds.
+ const cacheDir='/tmp/semologo-domain-shard-cache';
+ const cacheFile=path.join(cacheDir,shard.sha+'.csv.gz');
+ let compressed;
+ if(fs.existsSync(cacheFile)){
+  compressed=fs.readFileSync(cacheFile);
+  if(compressed.length!==shard.bytes||digest(compressed)!==shard.sha){
+   fs.unlinkSync(cacheFile);compressed=undefined;
+  }
+ }
+ if(!compressed){
+  const response=await store.send(new GetObjectCommand({Bucket:'vibers-bucket',Key:shard.key}),{abortSignal:AbortSignal.timeout(30000)});
+  if(response.ContentLength!==shard.bytes)throw Error('Seed size changed');
+  compressed=Buffer.from(await response.Body.transformToByteArray());
+  if(digest(compressed)!==shard.sha)throw Error('Seed hash mismatch');
+  fs.mkdirSync(cacheDir,{recursive:true,mode:0o700});
+  const temporary=cacheFile+'.'+process.pid+'.tmp';
+  fs.writeFileSync(temporary,compressed,{mode:0o600});
+  fs.renameSync(temporary,cacheFile);
+ }
  const raw=gunzipSync(compressed,{maxOutputLength:200000000}).toString('utf8');
  let from=raw.indexOf('\n')+1;if(!from)throw Error('Seed header missing');
  for(let i=0;i<offset;i++){from=raw.indexOf('\n',from)+1;if(!from)throw Error('Seed row missing');}
