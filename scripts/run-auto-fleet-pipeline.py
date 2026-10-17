@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Resumable Windows result -> first-party download -> review -> CMS cycle."""
 import argparse
+import concurrent.futures
 import fcntl
 import json
 import os
@@ -64,9 +65,11 @@ def cycle(limit, apply):
     s3 = CORE['s3_client']()
     signals, staged = CORE['stage_jobs'](s3, jobs, folder)
     retry_batch = pending_retries[:RETRY_PER_CYCLE]
-    retried = [CORE['STAGE']['fetch']((row['domain'], row['pageUrl'], row['name'],
+    def retry_fetch(row):
+        return CORE['STAGE']['fetch']((row['domain'], row['pageUrl'], row['name'],
                                       'download-retry', row['assetUrl']), folder)
-               for row in retry_batch]
+    with concurrent.futures.ThreadPoolExecutor(max_workers=8) as pool:
+        retried = list(pool.map(retry_fetch, retry_batch))
     staged = list({asset_key(row): row for row in staged + retried}.values())
     updated_retries = next_download_retries(pending_retries, staged)
     by_domain, by_name, ids = CORE['cms_catalog']()
