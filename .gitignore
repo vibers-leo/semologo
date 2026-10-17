@@ -56,3 +56,6 @@ __pycache__/
 ops/reviews/*.png
 ops/reviews/quality-votes-*.json
 ops/reviews/quality-assets-*.json
+
+# Resumable fleet intake receipts and downloaded originals stay on the HDD.
+/fleet-auto-state/
