@@ -1,0 +1,305 @@
+{
+  "method": "Visual comparison of current CMS PNG against alternate image from matched official CI page; selected entries are institution-specific exact logo matches.",
+  "items": [
+    {
+      "pair_index": 2,
+      "member_key": "cleaneye-출연-107",
+      "name": "행복북구문화재단",
+      "exact_candidates": [
+        "gongu-ci-1736"
+      ],
+      "asset_url": "http://www.hbcf.or.kr/front/img/logo.png",
+      "source_page": "http://www.hbcf.or.kr/front/index.php?g_page=foundation&amp;m_page=foundation03",
+      "source_bytes": 4823,
+      "official_sha256": "670182670321d0f446607a80f9d38628aa7d736826f4836a07d5e5587c8aa5ea"
+    },
+    {
+      "pair_index": 8,
+      "member_key": "cleaneye-출연-129",
+      "name": "재단법인 연수문화재단",
+      "exact_candidates": [
+        "gongu-ci-0224"
+      ],
+      "asset_url": "https://www.ysfac.or.kr/user/images/common/logo02.jpg",
+      "source_page": "https://www.ysfac.or.kr/user/contents.php?sq=33",
+      "source_bytes": 188453,
+      "official_sha256": "f72ba34186b856d3426a8f9786a745e3b39c153815614dd6fb9cbbb8225cf740"
+    },
+    {
+      "pair_index": 34,
+      "member_key": "cleaneye-출연-349",
+      "name": "강원특별자치도원주의료원",
+      "exact_candidates": [
+        "gongu-ci-0587"
+      ],
+      "asset_url": "https://www.kwmc.or.kr/images/t_logo.png?v=1.03",
+      "source_page": "https://www.kwmc.or.kr/",
+      "source_bytes": 17011,
+      "official_sha256": "af7804602335ff501bdf6d458f9910db5c65f624d117dcbc011c6116d2d6bc1d"
+    },
+    {
+      "pair_index": 40,
+      "member_key": "cleaneye-출연-380",
+      "name": "재단법인 태백시문화재단",
+      "exact_candidates": [
+        "gongu-ci-0553"
+      ],
+      "asset_url": "http://tbcf.or.kr/images/sub/ci3.png",
+      "source_page": "http://tbcf.or.kr/sub/sub01_08.php",
+      "source_bytes": 20066,
+      "official_sha256": "1c956b46b264ddc4d846500ea785b9791ad5ba166df210802a9df33cd9774341"
+    },
+    {
+      "pair_index": 43,
+      "member_key": "cleaneye-출연-398",
+      "name": "재단법인 정선군상권활성화재단",
+      "exact_candidates": [
+        "gongu-ci-0560"
+      ],
+      "asset_url": "http://jmrf.or.kr/theme/basic/img/hd_img2.jpg",
+      "source_page": "http://jmrf.or.kr/sub/ci.php",
+      "source_bytes": 23777,
+      "official_sha256": "3fe58fae4b4fff3422a7b2ac34fcc993d51daf6ed805c1e8ce73c5e1d423c7b1"
+    },
+    {
+      "pair_index": 44,
+      "member_key": "cleaneye-출연-405",
+      "name": "재단법인 화천한옥학교",
+      "exact_candidates": [
+        "gongu-ci-0549"
+      ],
+      "asset_url": "https://cdn.imweb.me/thumbnail/20260116/97a513d83b7c6.png",
+      "source_page": "https://www.hanokschool.co.kr/",
+      "source_bytes": 14188,
+      "official_sha256": "279de2462474dc2da66f07e2f22ca3f3c26b9fac062070e650ab579554b22608"
+    },
+    {
+      "pair_index": 46,
+      "member_key": "cleaneye-출연-421",
+      "name": "재단법인 충북인재평생교육진흥원",
+      "exact_candidates": [
+        "gongu-ci-0021"
+      ],
+      "asset_url": "https://www.cbitle.or.kr/site/www/images/contents/cts144_img01.png",
+      "source_page": "https://www.cbitle.or.kr/www/contents.do?key=144",
+      "source_bytes": 4591,
+      "official_sha256": "25c5952480725d08d2358452695940baa54cbd84d1eca2d38e2c216ed19be0f4"
+    },
+    {
+      "pair_index": 61,
+      "member_key": "cleaneye-출연-50",
+      "name": "금천문화재단",
+      "exact_candidates": [
+        "gongu-ci-0274"
+      ],
+      "asset_url": "https://gcfac.or.kr/resources/cpage/images/contents/watermark.png",
+      "source_page": "https://gcfac.or.kr/content?gcfac_menu_cd=U0122",
+      "source_bytes": 31271,
+      "official_sha256": "364391665c036fa950fc26f6a49a2dfa2dc83f90831715f3a1f1554279962827"
+    },
+    {
+      "pair_index": 62,
+      "member_key": "cleaneye-출연-503",
+      "name": "재단법인 청양군 지역활성화재단",
+      "exact_candidates": [
+        "gongu-ci-0058"
+      ],
+      "asset_url": "http://www.ccf.or.kr/ccf/img/sub01/050501_img04.jpg",
+      "source_page": "http://www.ccf.or.kr/ccf/html/sub01/0102.html",
+      "source_bytes": 24725,
+      "official_sha256": "2deaea73e3299ab8899f20f971bb223acff47680c0394f7d91f71aeab20167af"
+    },
+    {
+      "pair_index": 75,
+      "member_key": "cleaneye-출연-547",
+      "name": "재단법인 완주공공급식지원센터",
+      "exact_candidates": [
+        "gongu-ci-0119"
+      ],
+      "asset_url": "https://cdn.imweb.me/thumbnail/20240620/10e414ee0d5d3.png",
+      "source_page": "https://www.wanjufood.or.kr/",
+      "source_bytes": 8726,
+      "official_sha256": "ec3c25aea2afaec982b998665afb24b12163f12bb693d99b8035f3b8408020d0"
+    },
+    {
+      "pair_index": 81,
+      "member_key": "cleaneye-출연-556",
+      "name": "임실치즈테마파크",
+      "exact_candidates": [
+        "gongu-ci-0129"
+      ],
+      "asset_url": "https://cheesepark.kr/theme/2024/img/common/logo.png",
+      "source_page": "http://cheesepark.kr/page/00026.php",
+      "source_bytes": 17107,
+      "official_sha256": "de46518cff2570a03e8b7a0db2e9906e35e2934e2dddfe99d628c719b2529543"
+    },
+    {
+      "pair_index": 82,
+      "member_key": "cleaneye-출연-559",
+      "name": "재단법인 순창발효관광재단",
+      "exact_candidates": [
+        "gongu-ci-0120"
+      ],
+      "asset_url": "https://sftf.or.kr/theme/2024/img/sub/00005-04.png",
+      "source_page": "https://sftf.or.kr/page/00005.php",
+      "source_bytes": 12820,
+      "official_sha256": "a7b31972ad19f3e6ef0d0ed18f4d7948aa6d838eb08e558d99c659f805f3b461"
+    },
+    {
+      "pair_index": 83,
+      "member_key": "cleaneye-출연-560",
+      "name": "고창군장학재단",
+      "exact_candidates": [
+        "gongu-ci-0146"
+      ],
+      "asset_url": "https://www.gochang.go.kr/images/01_potal/sub05/symbol1_1.png",
+      "source_page": "https://www.gochang.go.kr/index.gochang?menuCd=DOM_000000105003003002",
+      "source_bytes": 6220,
+      "official_sha256": "65aaa9bcd7e71770b2ef17a510009d4b975213ec2e1b9d6b9d7782eaaf240c81"
+    },
+    {
+      "pair_index": 90,
+      "member_key": "cleaneye-출연-595",
+      "name": "목포국제축구센터",
+      "exact_candidates": [
+        "gongu-ci-0198"
+      ],
+      "asset_url": "http://www.mifc.co.kr/page/m_logo.jpg",
+      "source_page": "http://www.mifc.co.kr/page/sub0602.php",
+      "source_bytes": 37001,
+      "official_sha256": "3c277f9836b071facf5cba0e1131130bef8c0d838fad7991bfb98279e0940058"
+    },
+    {
+      "pair_index": 99,
+      "member_key": "cleaneye-출연-62",
+      "name": "강남복지재단",
+      "exact_candidates": [
+        "gongu-ci-0828"
+      ],
+      "asset_url": "https://www.gangnam.go.kr/upload/preview/2020/12/17/346bfc51-9ae0-47f5-a4fb-2ac042ea9a8a.png",
+      "source_page": "https://www.gangnam.go.kr/office/welfare/contents/welfare_ci/1/view.do?mid=welfare_ci",
+      "source_bytes": 11431,
+      "official_sha256": "292762d646ac575adc0c5acc1ded404107b491920c8fb8f13195b5488d9ad304"
+    },
+    {
+      "pair_index": 116,
+      "member_key": "cleaneye-출연-722",
+      "name": "재단법인 경남항노화연구원",
+      "exact_candidates": [
+        "gongu-ci-0423"
+      ],
+      "asset_url": "https://www.gari.or.kr/images/content/s09_c4_3.jpg",
+      "source_page": "https://www.gari.or.kr/contents.do?sub=01_09",
+      "source_bytes": 41928,
+      "official_sha256": "b0a812d4242c3deece91c1f42fd194e6f5d84a167e54dc52fb1c3dc8c0690a4c"
+    },
+    {
+      "pair_index": 117,
+      "member_key": "cleaneye-출연-749",
+      "name": "김해시복지재단",
+      "exact_candidates": [
+        "gongu-ci-1031"
+      ],
+      "asset_url": "http://www.ghwf.or.kr/_res/ghwf/img/inc/logo2@2x_2026.png",
+      "source_page": "http://www.ghwf.or.kr/00000/00013.web",
+      "source_bytes": 8404,
+      "official_sha256": "3894108652ab7cf4082958b8d4ce179f6bb5d6948eb888d34e0017b5fbbe3c57"
+    },
+    {
+      "pair_index": 120,
+      "member_key": "cleaneye-출연-769",
+      "name": "하동군장학재단",
+      "exact_candidates": [
+        "gongu-ci-0399"
+      ],
+      "asset_url": "https://www.hadong.go.kr/_res/portal/img/sub/web00570_img01.jpg",
+      "source_page": "https://www.hadong.go.kr/intro/00567/00571.web",
+      "source_bytes": 24540,
+      "official_sha256": "9c8d64887eac71cca3bdfc5690c07d952e1efb073a83e56e2aa94c4fae88e9e6"
+    },
+    {
+      "pair_index": 127,
+      "member_key": "cleaneye-출연-83",
+      "name": "행복영도장학회",
+      "exact_candidates": [
+        "gongu-ci-0280"
+      ],
+      "asset_url": "https://www.yeongdo.go.kr/_res/portal/img/sub/p00559_img0201.png",
+      "source_page": "https://www.yeongdo.go.kr/00492/00550/00559.web",
+      "source_bytes": 11166,
+      "official_sha256": "9349f5e62bd382f3c57a872bc9b5d1847bfdf9e3140cce8ed7e6d3a78f6ceda3"
+    },
+    {
+      "pair_index": 131,
+      "member_key": "cleaneye-출연-90",
+      "name": "금정문화재단",
+      "exact_candidates": [
+        "gongu-ci-1013"
+      ],
+      "asset_url": "http://www.gjfac.org/files/gjfac_CI.jpg",
+      "source_page": "http://www.gjfac.org/gjfac/template.php?midx=357",
+      "source_bytes": 99649,
+      "official_sha256": "9cf818693d5570d4aeae80b6716f1498917537741590be25654934d2234d4f76"
+    },
+    {
+      "pair_index": 134,
+      "member_key": "cleaneye-출연-94",
+      "name": "부산사상구장학회",
+      "exact_candidates": [
+        "gongu-ci-0291"
+      ],
+      "asset_url": "https://www.sasang.go.kr/img/sasang/sub/s4_1_7_img13.jpg",
+      "source_page": "https://www.sasang.go.kr/index.sasang?menuCd=DOM_000000104001007000",
+      "source_bytes": 21347,
+      "official_sha256": "49ccbb61d72e8955a0f11cca0a248ef1db105b6cba02d1c25c8c58e71722fd0a"
+    },
+    {
+      "pair_index": 135,
+      "member_key": "cleaneye-출자-1",
+      "name": "성동미래일자리(주)",
+      "exact_candidates": [
+        "gongu-ci-0257"
+      ],
+      "asset_url": "http://www.sdjob.co.kr/upload_design/20221207153302-d84176f5ad.jpg",
+      "source_page": "http://www.sdjob.co.kr/main.php?userAgent=PC",
+      "source_bytes": 4710,
+      "official_sha256": "83f02bd6d328beba02dbfbe904903c4265773cccb0d9c29eeb019510ec362b3e"
+    },
+    {
+      "pair_index": 140,
+      "member_key": "cleaneye-출자-4",
+      "name": "대한민국동작주식회사",
+      "exact_candidates": [
+        "gongu-ci-0268"
+      ],
+      "asset_url": "https://kdongjak.co.kr/wp-content/uploads/2023/08/Group-1.png",
+      "source_page": "https://kdongjak.co.kr/%EB%B9%84%EC%A0%84-ci-11/",
+      "source_bytes": 3517,
+      "official_sha256": "1c2441f5c07da98b9a1c4784fe806788855aa53e16fac7a88976b02ffa74b16f"
+    },
+    {
+      "pair_index": 144,
+      "member_key": "cleaneye-출자-52",
+      "name": "음성용산일반산업단지 주식회사",
+      "exact_candidates": [
+        "gongu-ci-0029"
+      ],
+      "asset_url": "http://www.eysandan.co.kr/images/logo.png",
+      "source_page": "http://www.eysandan.co.kr/index.html",
+      "source_bytes": 6245,
+      "official_sha256": "e2c44924320ef6fae6ccd6112dc970339a6e788f395c21d34d24599be6b0df52"
+    },
+    {
+      "pair_index": 145,
+      "member_key": "cleaneye-출자-59",
+      "name": "주식회사 아산하이테크밸리",
+      "exact_candidates": [
+        "gongu-ci-0053"
+      ],
+      "asset_url": "https://isandan.com/files/attach/images/595/b03c8380117794a37b7ab98b9647fd18.png",
+      "source_page": "https://isandan.com/",
+      "source_bytes": 6775,
+      "official_sha256": "6cd83e45bc052a82645b52d5fee01599bfae6cc8935761d40e8146b22f2640a4"
+    }
+  ]
+}

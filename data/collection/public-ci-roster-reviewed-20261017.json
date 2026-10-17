@@ -1,0 +1,1582 @@
+{
+  "schema": 1,
+  "reviewed_at": "2026-10-17",
+  "visual_evidence": "marketing/assets/public-ci-recovery-20261017/compare-1..9.jpg",
+  "items": [
+    {
+      "member_key": "cleaneye-출연-113",
+      "name": "달성복지재단",
+      "exact_candidates": [
+        "gongu-ci-0321"
+      ],
+      "official_pages": [
+        "http://www.dswelfare.kr/dswelfare/bbs/page.php?hid=sub01_03"
+      ],
+      "official_links": 9,
+      "asset_url": "http://www.dswelfare.kr/dswelfare/images/copy_logo.png",
+      "source_page": "http://www.dswelfare.kr/dswelfare/bbs/page.php?hid=sub01_03",
+      "source_bytes": 7344,
+      "pair_index": 5
+    },
+    {
+      "member_key": "cleaneye-출연-114",
+      "name": "달성문화재단",
+      "exact_candidates": [
+        "gongu-ci-1053"
+      ],
+      "official_pages": [
+        "http://www.dsart.or.kr/content/01introduce/02_03.php"
+      ],
+      "official_links": 20,
+      "asset_url": "http://www.dsart.or.kr/img/01introduce/ci_logo.png",
+      "source_page": "http://www.dsart.or.kr/content/01introduce/02_03.php",
+      "source_bytes": 4523,
+      "pair_index": 6
+    },
+    {
+      "member_key": "cleaneye-출연-117",
+      "name": "인천연구원",
+      "exact_candidates": [
+        "gongu-ci-1385"
+      ],
+      "official_pages": [
+        "https://www.ii.re.kr/base/contents/view?contentsNo=27&amp;menuLevel=2&amp;menuNo=120"
+      ],
+      "official_links": 20,
+      "asset_url": "https://www.ii.re.kr/template/resources/images/basic/header-logo.png",
+      "source_page": "https://www.ii.re.kr/base/contents/view?contentsNo=27&amp;menuLevel=2&amp;menuNo=120",
+      "source_bytes": 3931,
+      "pair_index": 7
+    },
+    {
+      "member_key": "cleaneye-출연-119",
+      "name": "재단법인 인천테크노파크",
+      "exact_candidates": [
+        "gongu-ci-1360"
+      ],
+      "official_pages": [
+        "https://www.itp.or.kr/intro.asp?tmid=24"
+      ],
+      "official_links": 1,
+      "asset_url": "https://www.itp.or.kr/error/images/logo.jpg",
+      "source_page": "https://www.itp.or.kr/intro.asp?tmid=24",
+      "source_bytes": 27570,
+      "pair_index": 9
+    },
+    {
+      "member_key": "cleaneye-출연-123",
+      "name": "재단법인 인천인재평생교육진흥원",
+      "exact_candidates": [
+        "gongu-ci-1386"
+      ],
+      "official_pages": [
+        "https://itle.or.kr/user/content.do?sq=14"
+      ],
+      "official_links": 8,
+      "asset_url": "https://itle.or.kr/images/contents/ci_logo_img.png",
+      "source_page": "https://itle.or.kr/user/content.do?sq=14",
+      "source_bytes": 6870,
+      "pair_index": 11
+    },
+    {
+      "member_key": "cleaneye-출연-124",
+      "name": "재단법인 인천광역시 사회서비스원",
+      "exact_candidates": [
+        "gongu-ci-1382"
+      ],
+      "official_pages": [
+        "https://incheon.pass.or.kr/foundation_introduction/ci.php"
+      ],
+      "official_links": 15,
+      "asset_url": "https://incheon.pass.or.kr/img/foundation_introduction/ci_rep_logo_img.png",
+      "source_page": "https://incheon.pass.or.kr/foundation_introduction/ci.php",
+      "source_bytes": 13309,
+      "pair_index": 12
+    },
+    {
+      "member_key": "cleaneye-출연-131",
+      "name": "인천광역시부평구문화재단",
+      "exact_candidates": [
+        "gongu-ci-1373"
+      ],
+      "official_pages": [
+        "https://www.bpcf.or.kr/bpcf/main/contents.do?menuNo=200130"
+      ],
+      "official_links": 20,
+      "asset_url": "https://www.bpcf.or.kr/resources/bpcf/img/sub/ci-logo_01.png",
+      "source_page": "https://www.bpcf.or.kr/bpcf/main/contents.do?menuNo=200130",
+      "source_bytes": 2348,
+      "pair_index": 15
+    },
+    {
+      "member_key": "cleaneye-출연-148",
+      "name": "광주정보문화산업진흥원",
+      "exact_candidates": [
+        "gongu-ci-0934"
+      ],
+      "official_pages": [
+        "https://www.gicon.or.kr/menu.es?mid=a10304000000"
+      ],
+      "official_links": 20,
+      "asset_url": "https://www.gicon.or.kr/main/img/sub/sub03/ci01.png",
+      "source_page": "https://www.gicon.or.kr/menu.es?mid=a10304000000",
+      "source_bytes": 8673,
+      "pair_index": 18
+    },
+    {
+      "member_key": "cleaneye-출연-15",
+      "name": "120다산콜재단",
+      "exact_candidates": [
+        "gongu-ci-1757"
+      ],
+      "official_pages": [
+        "https://www.120dasan.or.kr/dsnc/main/contents.do?menuNo=200009"
+      ],
+      "official_links": 13,
+      "asset_url": "https://www.120dasan.or.kr/static/dsnc/img/main/footer_logo.png",
+      "source_page": "https://www.120dasan.or.kr/dsnc/main/contents.do?menuNo=200009",
+      "source_bytes": 6416,
+      "pair_index": 19
+    },
+    {
+      "member_key": "cleaneye-출연-152",
+      "name": "재단법인 광주연구원",
+      "exact_candidates": [
+        "gongu-ci-0323"
+      ],
+      "official_pages": [
+        "https://gji.re.kr/?contentId=dfc02d191e9bd8083db6604be38c5fee"
+      ],
+      "official_links": 19,
+      "asset_url": "https://gji.re.kr/diam/web/thema/basic/images/pages/symbol1.png",
+      "source_page": "https://gji.re.kr/?contentId=dfc02d191e9bd8083db6604be38c5fee",
+      "source_bytes": 18870,
+      "pair_index": 20
+    },
+    {
+      "member_key": "cleaneye-출연-159",
+      "name": "정보문화산업진흥원",
+      "exact_candidates": [
+        "gongu-ci-1423"
+      ],
+      "official_pages": [
+        "http://www.dicia.or.kr/sub.do;jsessionid=53CD23B7C699F5C47C79C8B32C6D5C5A.tomcat?menuIdx=MENU_000000000000054"
+      ],
+      "official_links": 15,
+      "asset_url": "http://www.dicia.or.kr/template/home/resources/images/main/logo.png",
+      "source_page": "http://www.dicia.or.kr/sub.do;jsessionid=53CD23B7C699F5C47C79C8B32C6D5C5A.tomcat?menuIdx=MENU_000000000000054",
+      "source_bytes": 9972,
+      "pair_index": 24
+    },
+    {
+      "member_key": "cleaneye-출연-168",
+      "name": "재단법인 대전디자인진흥원",
+      "exact_candidates": [
+        "gongu-ci-0299"
+      ],
+      "official_pages": [
+        "https://www.didp.or.kr/introduction_ci"
+      ],
+      "official_links": 20,
+      "asset_url": "https://www.didp.or.kr/images/26_logo1.jpg",
+      "source_page": "https://www.didp.or.kr/introduction_ci",
+      "source_bytes": 55044,
+      "pair_index": 26
+    },
+    {
+      "member_key": "cleaneye-출연-189",
+      "name": "재단법인 세종시문화관광재단",
+      "exact_candidates": [
+        "gongu-ci-1237"
+      ],
+      "official_pages": [
+        "https://www.sjcf.or.kr/content.do?key=2111060084#none"
+      ],
+      "official_links": 20,
+      "asset_url": "https://www.sjcf.or.kr/resource/www/img/layout/logo.png",
+      "source_page": "https://www.sjcf.or.kr/content.do?key=2111060084#none",
+      "source_bytes": 22227,
+      "pair_index": 31
+    },
+    {
+      "member_key": "cleaneye-출연-199",
+      "name": "경기콘텐츠진흥원",
+      "exact_candidates": [
+        "gongu-ci-0867"
+      ],
+      "official_pages": [
+        "https://www.gcon.or.kr/gcon/main/contents.do?menuNo=200081"
+      ],
+      "official_links": 20,
+      "asset_url": "https://www.gcon.or.kr/static/gcon/renewal2026/img/main/ico_logo.png",
+      "source_page": "https://www.gcon.or.kr/gcon/main/contents.do?menuNo=200081",
+      "source_bytes": 5912,
+      "pair_index": 32
+    },
+    {
+      "member_key": "cleaneye-출연-206",
+      "name": "경기연구원",
+      "exact_candidates": [
+        "gongu-ci-0530"
+      ],
+      "official_pages": [
+        "https://www.gri.re.kr/web/contents/identity.do"
+      ],
+      "official_links": 6,
+      "asset_url": "https://www.gri.re.kr/cubersc/templete/gri/img/sub/ci_logo01.png",
+      "source_page": "https://www.gri.re.kr/web/contents/identity.do",
+      "source_bytes": 6759,
+      "pair_index": 35
+    },
+    {
+      "member_key": "cleaneye-출연-238",
+      "name": "재단법인 용인시산업진흥원",
+      "exact_candidates": [
+        "gongu-ci-1322"
+      ],
+      "official_pages": [
+        "http://ypa.or.kr/dipa/ci/"
+      ],
+      "official_links": 11,
+      "asset_url": "http://ypa.or.kr/wp-content/uploads/2017/05/logo1.jpg",
+      "source_page": "http://ypa.or.kr/dipa/ci/",
+      "source_bytes": 211249,
+      "pair_index": 39
+    },
+    {
+      "member_key": "cleaneye-출연-244",
+      "name": "재단법인 부천산업진흥원",
+      "exact_candidates": [
+        "gongu-ci-0803"
+      ],
+      "official_pages": [
+        "https://www.bizbc.or.kr/kor/contents/BC0605000000.do"
+      ],
+      "official_links": 6,
+      "asset_url": "https://www.bizbc.or.kr/cubersc/tmplt/kor/src/img/common/ft_logo.png",
+      "source_page": "https://www.bizbc.or.kr/kor/contents/BC0605000000.do",
+      "source_bytes": 8163,
+      "pair_index": 41
+    },
+    {
+      "member_key": "cleaneye-출연-251",
+      "name": "안산환경재단",
+      "exact_candidates": [
+        "gongu-ci-0509"
+      ],
+      "official_pages": [
+        "https://www.eg21.kr/introduction/ci.php"
+      ],
+      "official_links": 20,
+      "asset_url": "https://www.eg21.kr/images/common/logo.png",
+      "source_page": "https://www.eg21.kr/introduction/ci.php",
+      "source_bytes": 3668,
+      "pair_index": 44
+    },
+    {
+      "member_key": "cleaneye-출연-280",
+      "name": "재단법인 평택시로컬푸드재단",
+      "exact_candidates": [
+        "gongu-ci-0463"
+      ],
+      "official_pages": [
+        "https://ptfood.kr/sub.php?menu_number=572"
+      ],
+      "official_links": 20,
+      "asset_url": "https://ptfood.kr/skin/basic_coordination_a/upload/file_attach/2022/08/18/1660796290_48395.jpg",
+      "source_page": "https://ptfood.kr/sub.php?menu_number=572",
+      "source_bytes": 135211,
+      "pair_index": 47
+    },
+    {
+      "member_key": "cleaneye-출연-302",
+      "name": "광명시청소년재단",
+      "exact_candidates": [
+        "gongu-ci-0524"
+      ],
+      "official_pages": [
+        "https://gmyouth.or.kr/www/contents.do?key=866"
+      ],
+      "official_links": 7,
+      "asset_url": "https://gmyouth.or.kr/site/www/images/contents/cts866_img01.png",
+      "source_page": "https://gmyouth.or.kr/www/contents.do?key=866",
+      "source_bytes": 14359,
+      "pair_index": 52
+    },
+    {
+      "member_key": "cleaneye-출연-311",
+      "name": "재단법인 이천시청소년재단",
+      "exact_candidates": [
+        "gongu-ci-0465"
+      ],
+      "official_pages": [
+        "http://www.icfyouth.or.kr/intro/intro.php?sp=ci"
+      ],
+      "official_links": 20,
+      "asset_url": "http://www.icfyouth.or.kr/images/logo.jpg",
+      "source_page": "http://www.icfyouth.or.kr/intro/intro.php?sp=ci",
+      "source_bytes": 15303,
+      "pair_index": 53
+    },
+    {
+      "member_key": "cleaneye-출연-314",
+      "name": "양주시희망장학재단",
+      "exact_candidates": [
+        "gongu-ci-0506"
+      ],
+      "official_pages": [
+        "http://www.yjdream.kr/main/main.php?categoryid=02&amp;menuid=04&amp;groupid=00"
+      ],
+      "official_links": 2,
+      "asset_url": "http://www.yjdream.kr/images/common/logo.png",
+      "source_page": "http://www.yjdream.kr/main/main.php?categoryid=02&amp;menuid=04&amp;groupid=00",
+      "source_bytes": 18059,
+      "pair_index": 54
+    },
+    {
+      "member_key": "cleaneye-출연-332",
+      "name": "세미원",
+      "exact_candidates": [
+        "gongu-ci-0513"
+      ],
+      "official_pages": [
+        "https://www.semiwon.or.kr/"
+      ],
+      "official_links": 20,
+      "asset_url": "https://www.semiwon.or.kr/images/logo.png",
+      "source_page": "https://www.semiwon.or.kr/",
+      "source_bytes": 9190,
+      "pair_index": 55
+    },
+    {
+      "member_key": "cleaneye-출연-333",
+      "name": "재단법인양평문화재단",
+      "exact_candidates": [
+        "gongu-ci-0473"
+      ],
+      "official_pages": [
+        "https://ypcf.or.kr/brand"
+      ],
+      "official_links": 19,
+      "asset_url": "https://cdn.imweb.me/thumbnail/20211201/5ab20da0ed502.png",
+      "source_page": "https://ypcf.or.kr/brand",
+      "source_bytes": 2305,
+      "pair_index": 56
+    },
+    {
+      "member_key": "cleaneye-출연-344",
+      "name": "한국기후변화연구원",
+      "exact_candidates": [
+        "gongu-ci-1583"
+      ],
+      "official_pages": [
+        "http://www.kric.re.kr/front/researcher/introduce/html.do#contents6"
+      ],
+      "official_links": 20,
+      "asset_url": "http://www.kric.re.kr/assets/comn/img/ci_img1.png",
+      "source_page": "http://www.kric.re.kr/front/researcher/introduce/html.do#contents6",
+      "source_bytes": 14117,
+      "pair_index": 57
+    },
+    {
+      "member_key": "cleaneye-출연-345",
+      "name": "스크립스코리아항체연구원",
+      "exact_candidates": [
+        "gongu-ci-0582"
+      ],
+      "official_pages": [
+        "http://www.skai.or.kr/#mb2"
+      ],
+      "official_links": 20,
+      "asset_url": "http://www.skai.or.kr/theme/skai_ko/images/common/logo.png",
+      "source_page": "http://www.skai.or.kr/#mb2",
+      "source_bytes": 5696,
+      "pair_index": 58
+    },
+    {
+      "member_key": "cleaneye-출연-347",
+      "name": "강원연구원",
+      "exact_candidates": [
+        "gongu-ci-0840"
+      ],
+      "official_pages": [
+        "https://www.gi.re.kr/Home/H40000/H40400/H40401/html"
+      ],
+      "official_links": 14,
+      "asset_url": "https://www.gi.re.kr/assets/front/img/footer_logo.png",
+      "source_page": "https://www.gi.re.kr/Home/H40000/H40400/H40401/html",
+      "source_bytes": 6539,
+      "pair_index": 59
+    },
+    {
+      "member_key": "cleaneye-출연-359",
+      "name": "재단법인 강원관광재단",
+      "exact_candidates": [
+        "gongu-ci-0574"
+      ],
+      "official_pages": [
+        "http://www.gwto.or.kr/www/contents.do?key=11"
+      ],
+      "official_links": 17,
+      "asset_url": "http://www.gwto.or.kr/site/www/images/contents/cts3_img1.png",
+      "source_page": "http://www.gwto.or.kr/www/contents.do?key=11",
+      "source_bytes": 6965,
+      "pair_index": 64
+    },
+    {
+      "member_key": "cleaneye-출연-37",
+      "name": "재단법인 노원문화재단",
+      "exact_candidates": [
+        "gongu-ci-0249"
+      ],
+      "official_pages": [
+        "https://nowonarts.kr/ci"
+      ],
+      "official_links": 6,
+      "asset_url": "https://nowonarts.kr/user/resources/images/sub/nw_ci.png",
+      "source_page": "https://nowonarts.kr/ci",
+      "source_bytes": 9507,
+      "pair_index": 66
+    },
+    {
+      "member_key": "cleaneye-출연-376",
+      "name": "북방물류산업진흥원",
+      "exact_candidates": [
+        "gongu-ci-1175"
+      ],
+      "official_pages": [
+        "http://www.dlif.or.kr/main/page.html?pid=98"
+      ],
+      "official_links": 12,
+      "asset_url": "http://www.dlif.or.kr/RAD/PEG/logo_16472312789479.png",
+      "source_page": "http://www.dlif.or.kr/main/page.html?pid=98",
+      "source_bytes": 9797,
+      "pair_index": 67
+    },
+    {
+      "member_key": "cleaneye-출연-39",
+      "name": "은평문화재단",
+      "exact_candidates": [
+        "gongu-ci-1349"
+      ],
+      "official_pages": [
+        "https://www.efac.or.kr/sub07/sub05.php"
+      ],
+      "official_links": 1,
+      "asset_url": "https://www.efac.or.kr/images/sns.png",
+      "source_page": "https://www.efac.or.kr/sub07/sub05.php",
+      "source_bytes": 7433,
+      "pair_index": 72
+    },
+    {
+      "member_key": "cleaneye-출연-391",
+      "name": "재단법인 영월산업진흥원",
+      "exact_candidates": [
+        "gongu-ci-0561"
+      ],
+      "official_pages": [
+        "https://mybiz.yipa.or.kr/yipa/index.do"
+      ],
+      "official_links": 20,
+      "asset_url": "https://mybiz.yipa.or.kr/data/designImages/BANNER_1675389133logo(254x40).png",
+      "source_page": "https://mybiz.yipa.or.kr/yipa/index.do",
+      "source_bytes": 13672,
+      "pair_index": 73
+    },
+    {
+      "member_key": "cleaneye-출연-400",
+      "name": "철원플라즈마산업기술연구원",
+      "exact_candidates": [
+        "gongu-ci-1487"
+      ],
+      "official_pages": [
+        "https://www.cpri.re.kr/page.php?co_id=sub5_2_3"
+      ],
+      "official_links": 6,
+      "asset_url": "https://www.cpri.re.kr:443/images/logo2021_2.jpg",
+      "source_page": "https://www.cpri.re.kr/page.php?co_id=sub5_2_3",
+      "source_bytes": 7809,
+      "pair_index": 76
+    },
+    {
+      "member_key": "cleaneye-출연-42",
+      "name": "재단법인 마포복지재단",
+      "exact_candidates": [
+        "gongu-ci-0248"
+      ],
+      "official_pages": [
+        "https://www.mapowf.or.kr/main/sub.html?pageCode=15"
+      ],
+      "official_links": 12,
+      "asset_url": "https://www.mapowf.or.kr/user/saveDir/homepage/favicon114.png",
+      "source_page": "https://www.mapowf.or.kr/main/sub.html?pageCode=15",
+      "source_bytes": 15680,
+      "pair_index": 79
+    },
+    {
+      "member_key": "cleaneye-출연-438",
+      "name": "재단법인 제천한방천연물산업진흥재단",
+      "exact_candidates": [
+        "gongu-ci-0027"
+      ],
+      "official_pages": [
+        "http://www.jcbio.or.kr/sub/nsub6_6.php?mNum=6"
+      ],
+      "official_links": 14,
+      "asset_url": "http://www.jcbio.or.kr/download/logo.jpg",
+      "source_page": "http://www.jcbio.or.kr/sub/nsub6_6.php?mNum=6",
+      "source_bytes": 906110,
+      "pair_index": 82
+    },
+    {
+      "member_key": "cleaneye-출연-446",
+      "name": "증평복지재단",
+      "exact_candidates": [
+        "gongu-ci-1465"
+      ],
+      "official_pages": [
+        "http://jpwelfare.or.kr/sub.php?menukey=37"
+      ],
+      "official_links": 3,
+      "asset_url": "http://jpwelfare.or.kr/images/common/jplogo.png",
+      "source_page": "http://jpwelfare.or.kr/sub.php?menukey=37",
+      "source_bytes": 8620,
+      "pair_index": 87
+    },
+    {
+      "member_key": "cleaneye-출연-458",
+      "name": "충남신용보증재단",
+      "exact_candidates": [
+        "gongu-ci-0046"
+      ],
+      "official_pages": [
+        "https://www.cnsinbo.co.kr/sub/info.do?m=050104&amp;s=cnsinbo"
+      ],
+      "official_links": 1,
+      "asset_url": "https://www.cnsinbo.co.kr/images/template/00007/sub/ci01.png",
+      "source_page": "https://www.cnsinbo.co.kr/sub/info.do?m=050104&amp;s=cnsinbo",
+      "source_bytes": 24392,
+      "pair_index": 90
+    },
+    {
+      "member_key": "cleaneye-출연-474",
+      "name": "공주시한마음장학회",
+      "exact_candidates": [
+        "gongu-ci-0092"
+      ],
+      "official_pages": [
+        "http://www.gjjanghak.org/html/kr/sub01/sub01_0102.html"
+      ],
+      "official_links": 1,
+      "asset_url": "http://www.gjjanghak.org/Img/kr/sub1/sub01_0102_img01.png",
+      "source_page": "http://www.gjjanghak.org/html/kr/sub01/sub01_0102.html",
+      "source_bytes": 13687,
+      "pair_index": 92
+    },
+    {
+      "member_key": "cleaneye-출연-479",
+      "name": "아산문화재단",
+      "exact_candidates": [
+        "gongu-ci-0077"
+      ],
+      "official_pages": [
+        "https://culture.asan.go.kr/_culture/new/"
+      ],
+      "official_links": 10,
+      "asset_url": "https://culture.asan.go.kr/_culture/new/asm.png?=20265016215055",
+      "source_page": "https://culture.asan.go.kr/_culture/new/",
+      "source_bytes": 808,
+      "pair_index": 95
+    },
+    {
+      "member_key": "cleaneye-출연-48",
+      "name": "구로구장학회",
+      "exact_candidates": [
+        "gongu-ci-0275"
+      ],
+      "official_pages": [
+        "https://www.guro.go.kr/www/contents.do?key=2092&amp;"
+      ],
+      "official_links": 11,
+      "asset_url": "https://guro.go.kr/common/images/layout/logo.png",
+      "source_page": "https://www.guro.go.kr/www/contents.do?key=2092&amp;",
+      "source_bytes": 5660,
+      "pair_index": 96
+    },
+    {
+      "member_key": "cleaneye-출연-483",
+      "name": "서산시복지재단",
+      "exact_candidates": [
+        "gongu-ci-0081"
+      ],
+      "official_pages": [
+        "http://www.seosanwf.or.kr/index.php?MenuID=12"
+      ],
+      "official_links": 8,
+      "asset_url": "http://www.seosanwf.or.kr/images/logo.jpg",
+      "source_page": "http://www.seosanwf.or.kr/index.php?MenuID=12",
+      "source_bytes": 33499,
+      "pair_index": 97
+    },
+    {
+      "member_key": "cleaneye-출연-485",
+      "name": "재단법인 서산문화재단",
+      "exact_candidates": [
+        "gongu-ci-0066"
+      ],
+      "official_pages": [
+        "http://seosancf.or.kr/index.php?MenuID=9"
+      ],
+      "official_links": 6,
+      "asset_url": "http://seosancf.or.kr/images/b_logo_2023.png",
+      "source_page": "http://seosancf.or.kr/index.php?MenuID=9",
+      "source_bytes": 5800,
+      "pair_index": 99
+    },
+    {
+      "member_key": "cleaneye-출연-490",
+      "name": "당진문화재단",
+      "exact_candidates": [
+        "gongu-ci-1056"
+      ],
+      "official_pages": [
+        "https://www.dangjinart.kr:444/djcf/about/ci.html"
+      ],
+      "official_links": 20,
+      "asset_url": "https://www.dangjinart.kr:444/djcf/setting/image/common/logo.png",
+      "source_page": "https://www.dangjinart.kr:444/djcf/about/ci.html",
+      "source_bytes": 6404,
+      "pair_index": 100
+    },
+    {
+      "member_key": "cleaneye-출연-492",
+      "name": "당진장학회",
+      "exact_candidates": [
+        "gongu-ci-0086"
+      ],
+      "official_pages": [
+        "https://www.dangjin.go.kr/kor/sub04_01_04.do"
+      ],
+      "official_links": 20,
+      "asset_url": "https://www.dangjin.go.kr/images/kor2/sub04/sub04_02_01_img01.png",
+      "source_page": "https://www.dangjin.go.kr/kor/sub04_01_04.do",
+      "source_bytes": 15995,
+      "pair_index": 101
+    },
+    {
+      "member_key": "cleaneye-출연-500",
+      "name": "재단법인 서천군지속가능지역재단",
+      "exact_candidates": [
+        "gongu-ci-0065"
+      ],
+      "official_pages": [
+        "http://ssrf.or.kr/kr/html/sub01/0102.html"
+      ],
+      "official_links": 4,
+      "asset_url": "http://ssrf.or.kr/kr/img/sub01/CI_01.jpg",
+      "source_page": "http://ssrf.or.kr/kr/html/sub01/0102.html",
+      "source_bytes": 39678,
+      "pair_index": 106
+    },
+    {
+      "member_key": "cleaneye-출연-504",
+      "name": "재단법인 청양군청소년재단",
+      "exact_candidates": [
+        "gongu-ci-0057"
+      ],
+      "official_pages": [
+        "https://www.xn--6e0bq6e99akz5a7werrdcqmca.com/"
+      ],
+      "official_links": 12,
+      "asset_url": "https://cdn.imweb.me/thumbnail/20210924/30c9ce302b169.png",
+      "source_page": "https://www.xn--6e0bq6e99akz5a7werrdcqmca.com/",
+      "source_bytes": 6559,
+      "pair_index": 108
+    },
+    {
+      "member_key": "cleaneye-출연-506",
+      "name": "재단법인 홍주문화관광재단",
+      "exact_candidates": [
+        "gongu-ci-0054"
+      ],
+      "official_pages": [
+        "https://hongju.or.kr/home/content.do?menu_cd=000042"
+      ],
+      "official_links": 8,
+      "asset_url": "https://hongju.or.kr/resources/images/sub/sub05_03/sub05_03_img01.png",
+      "source_page": "https://hongju.or.kr/home/content.do?menu_cd=000042",
+      "source_bytes": 10444,
+      "pair_index": 110
+    },
+    {
+      "member_key": "cleaneye-출연-508",
+      "name": "예산군청소년복지재단",
+      "exact_candidates": [
+        "gongu-ci-0075"
+      ],
+      "official_pages": [
+        "http://yesanyouth.or.kr/main_sub/sub.php?folder_idx=1&amp;folder_page_idx=82"
+      ],
+      "official_links": 7,
+      "asset_url": "http://yesanyouth.or.kr/commons/images/site/foot_img.jpg",
+      "source_page": "http://yesanyouth.or.kr/main_sub/sub.php?folder_idx=1&amp;folder_page_idx=82",
+      "source_bytes": 10618,
+      "pair_index": 111
+    },
+    {
+      "member_key": "cleaneye-출연-511",
+      "name": "재단법인 논산문화관광재단",
+      "exact_candidates": [
+        "gongu-ci-0071"
+      ],
+      "official_pages": [
+        "https://www.nonsan.go.kr/cntf/html/sub01/0109.html"
+      ],
+      "official_links": 15,
+      "asset_url": "https://www.nonsan.go.kr/cntf/img/sub01/s0109_img01.png",
+      "source_page": "https://www.nonsan.go.kr/cntf/html/sub01/0109.html",
+      "source_bytes": 7919,
+      "pair_index": 114
+    },
+    {
+      "member_key": "cleaneye-출연-515",
+      "name": "재단법인 전북특별자치도경제통상진흥원",
+      "exact_candidates": [
+        "gongu-ci-0115"
+      ],
+      "official_pages": [
+        "https://www.jbba.kr/bbs/content.php?co_id=sub04_09"
+      ],
+      "official_links": 17,
+      "asset_url": "https://www.jbba.kr:443/Images/bottom_logo.png",
+      "source_page": "https://www.jbba.kr/bbs/content.php?co_id=sub04_09",
+      "source_bytes": 12816,
+      "pair_index": 118
+    },
+    {
+      "member_key": "cleaneye-출연-516",
+      "name": "전북테크노파크",
+      "exact_candidates": [
+        "gongu-ci-1418"
+      ],
+      "official_pages": [
+        "https://www.jbtp.or.kr/index.jbtp?menuCd=DOM_000000106005000000"
+      ],
+      "official_links": 7,
+      "asset_url": "https://www.jbtp.or.kr/images/01_potal/content/sub06/ci.png",
+      "source_page": "https://www.jbtp.or.kr/index.jbtp?menuCd=DOM_000000106005000000",
+      "source_bytes": 3370,
+      "pair_index": 119
+    },
+    {
+      "member_key": "cleaneye-출연-517",
+      "name": "자동차융합기술원",
+      "exact_candidates": [
+        "gongu-ci-0128"
+      ],
+      "official_pages": [
+        "https://www.jiat.re.kr/"
+      ],
+      "official_links": 17,
+      "asset_url": "https://www.jiat.re.kr/asset/images/logo_b.png",
+      "source_page": "https://www.jiat.re.kr/",
+      "source_bytes": 22199,
+      "pair_index": 120
+    },
+    {
+      "member_key": "cleaneye-출연-519",
+      "name": "재단법인 전북여성가족재단",
+      "exact_candidates": [
+        "gongu-ci-0116"
+      ],
+      "official_pages": [
+        "https://www.jbwf.or.kr/"
+      ],
+      "official_links": 20,
+      "asset_url": "https://www.jbwf.or.kr/theme/webpple_cart/images/logo_img_2025_01.png",
+      "source_page": "https://www.jbwf.or.kr/",
+      "source_bytes": 6888,
+      "pair_index": 121
+    },
+    {
+      "member_key": "cleaneye-출연-520",
+      "name": "재단법인 전북바이오융합산업진흥원",
+      "exact_candidates": [
+        "gongu-ci-1413"
+      ],
+      "official_pages": [
+        "https://www.jif.re.kr/index.do?menuUUID=53473d307cb7118c017cb71bec2c003d"
+      ],
+      "official_links": 20,
+      "asset_url": "https://www.jif.re.kr/resources/images/JIF_CI_01.png",
+      "source_page": "https://www.jif.re.kr/index.do?menuUUID=53473d307cb7118c017cb71bec2c003d",
+      "source_bytes": 16512,
+      "pair_index": 123
+    },
+    {
+      "member_key": "cleaneye-출연-525",
+      "name": "재단법인 전북특별자치도콘텐츠융합진흥원",
+      "exact_candidates": [
+        "gongu-ci-1412"
+      ],
+      "official_pages": [
+        "https://www.jcon.or.kr/board/index.php?pageId=C000000030"
+      ],
+      "official_links": 13,
+      "asset_url": "https://www.jcon.or.kr/images/inc/logo_footer.png",
+      "source_page": "https://www.jcon.or.kr/board/index.php?pageId=C000000030",
+      "source_bytes": 7082,
+      "pair_index": 124
+    },
+    {
+      "member_key": "cleaneye-출연-526",
+      "name": "전주인재육성재단",
+      "exact_candidates": [
+        "gongu-ci-0108"
+      ],
+      "official_pages": [
+        "https://www.jeonju.go.kr/index.9is?contentUid=ff8080818990c349018b041a9e5a3a6a"
+      ],
+      "official_links": 18,
+      "asset_url": "https://www.jeonju.go.kr/resource/district/images/content/ci_img01.jpg",
+      "source_page": "https://www.jeonju.go.kr/index.9is?contentUid=ff8080818990c349018b041a9e5a3a6a",
+      "source_bytes": 108520,
+      "pair_index": 125
+    },
+    {
+      "member_key": "cleaneye-출연-530",
+      "name": "전주농생명소재연구원",
+      "exact_candidates": [
+        "gongu-ci-1419"
+      ],
+      "official_pages": [
+        "http://jami.re.kr/html/ci.html"
+      ],
+      "official_links": 20,
+      "asset_url": "http://jami.re.kr/img/content/imgLogo01.jpg",
+      "source_page": "http://jami.re.kr/html/ci.html",
+      "source_bytes": 10824,
+      "pair_index": 126
+    },
+    {
+      "member_key": "cleaneye-출연-533",
+      "name": "재단법인 전주시정연구원",
+      "exact_candidates": [
+        "gongu-ci-0112"
+      ],
+      "official_pages": [
+        "https://jjri.re.kr/info/info05.do"
+      ],
+      "official_links": 7,
+      "asset_url": "https://jjri.re.kr/images/bottom_logo.png",
+      "source_page": "https://jjri.re.kr/info/info05.do",
+      "source_bytes": 12124,
+      "pair_index": 128
+    },
+    {
+      "member_key": "cleaneye-출연-535",
+      "name": "재단법인 군산시상권활성화재단",
+      "exact_candidates": [
+        "gongu-ci-0123"
+      ],
+      "official_pages": [
+        "https://www.gcdrf.or.kr/contents.htm?code=1_4"
+      ],
+      "official_links": 12,
+      "asset_url": "https://www.gcdrf.or.kr/img/comm/headerLogo2.png",
+      "source_page": "https://www.gcdrf.or.kr/contents.htm?code=1_4",
+      "source_bytes": 10737,
+      "pair_index": 130
+    },
+    {
+      "member_key": "cleaneye-출연-536",
+      "name": "재단법인 군산먹거리통합지원센터",
+      "exact_candidates": [
+        "gongu-ci-0125"
+      ],
+      "official_pages": [
+        "https://www.gsff.or.kr/bbs/content.php?co_id=sub01_02"
+      ],
+      "official_links": 12,
+      "asset_url": "https://www.gsff.or.kr/theme/seafood/img/basic_logo1.png",
+      "source_page": "https://www.gsff.or.kr/bbs/content.php?co_id=sub01_02",
+      "source_bytes": 16155,
+      "pair_index": 131
+    },
+    {
+      "member_key": "cleaneye-출연-54",
+      "name": "동작문화재단",
+      "exact_candidates": [
+        "gongu-ci-1111"
+      ],
+      "official_pages": [
+        "http://www.idfac.or.kr/intro/ci.php"
+      ],
+      "official_links": 9,
+      "asset_url": "http://www.idfac.or.kr/resources/user/img/common/logo_header.png",
+      "source_page": "http://www.idfac.or.kr/intro/ci.php",
+      "source_bytes": 12136,
+      "pair_index": 133
+    },
+    {
+      "member_key": "cleaneye-출연-541",
+      "name": "정읍시민장학재단",
+      "exact_candidates": [
+        "gongu-ci-0106"
+      ],
+      "official_pages": [
+        "https://www.jcsf.or.kr/"
+      ],
+      "official_links": 20,
+      "asset_url": "https://www.jcsf.or.kr/theme/jcsf/images/logo.png",
+      "source_page": "https://www.jcsf.or.kr/",
+      "source_bytes": 22654,
+      "pair_index": 134
+    },
+    {
+      "member_key": "cleaneye-출연-549",
+      "name": "진안홍삼연구소",
+      "exact_candidates": [
+        "gongu-ci-0103"
+      ],
+      "official_pages": [
+        "http://www.jinanrg.re.kr/"
+      ],
+      "official_links": 7,
+      "asset_url": "http://www.jinanrg.re.kr/hongsam/image/3jinan_logo.png",
+      "source_page": "http://www.jinanrg.re.kr/",
+      "source_bytes": 7753,
+      "pair_index": 138
+    },
+    {
+      "member_key": "cleaneye-출연-557",
+      "name": "순창군옥천장학회",
+      "exact_candidates": [
+        "gongu-ci-0138"
+      ],
+      "official_pages": [
+        "http://www.ocjh.kr/"
+      ],
+      "official_links": 6,
+      "asset_url": "http://www.ocjh.kr/img_up/shop_pds/tp343/site_content/logo1586402263.png",
+      "source_page": "http://www.ocjh.kr/",
+      "source_bytes": 9228,
+      "pair_index": 145
+    },
+    {
+      "member_key": "cleaneye-출연-568",
+      "name": "재단법인 전남연구원",
+      "exact_candidates": [
+        "gongu-ci-0167"
+      ],
+      "official_pages": [
+        "https://www.jni.re.kr/cms/bbs/dk_content.php?ht_id=rinfo_03_01"
+      ],
+      "official_links": 20,
+      "asset_url": "https://www.jni.re.kr/img/common/t_jni_logo.png",
+      "source_page": "https://www.jni.re.kr/cms/bbs/dk_content.php?ht_id=rinfo_03_01",
+      "source_bytes": 8854,
+      "pair_index": 150
+    },
+    {
+      "member_key": "cleaneye-출연-569",
+      "name": "재단법인 한국학 호남진흥원",
+      "exact_candidates": [
+        "gongu-ci-0161"
+      ],
+      "official_pages": [
+        "https://www.hiks.or.kr/CorporateIdentity"
+      ],
+      "official_links": 20,
+      "asset_url": "https://www.hiks.or.kr/img/common/logo.png",
+      "source_page": "https://www.hiks.or.kr/CorporateIdentity",
+      "source_bytes": 3060,
+      "pair_index": 151
+    },
+    {
+      "member_key": "cleaneye-출연-572",
+      "name": "재단법인 전남바이오진흥원",
+      "exact_candidates": [
+        "gongu-ci-0169"
+      ],
+      "official_pages": [
+        "https://jbf.kr/index.do?contentId=347"
+      ],
+      "official_links": 15,
+      "asset_url": "https://jbf.kr/resources/config/main/20250618131629_logo.png",
+      "source_page": "https://jbf.kr/index.do?contentId=347",
+      "source_bytes": 16913,
+      "pair_index": 153
+    },
+    {
+      "member_key": "cleaneye-출연-575",
+      "name": "전남정보문화산업진흥원",
+      "exact_candidates": [
+        "gongu-ci-1403"
+      ],
+      "official_pages": [
+        "http://www.jcia.or.kr/cf/intro/logo.do"
+      ],
+      "official_links": 20,
+      "asset_url": "http://www.jcia.or.kr/resources/img/main/mainLogo_black.png",
+      "source_page": "http://www.jcia.or.kr/cf/intro/logo.do",
+      "source_bytes": 9565,
+      "pair_index": 154
+    },
+    {
+      "member_key": "cleaneye-출연-578",
+      "name": "재단법인 전남인재평생교육진흥원",
+      "exact_candidates": [
+        "gongu-ci-0166"
+      ],
+      "official_pages": [
+        "https://www.jntle.kr/main"
+      ],
+      "official_links": 20,
+      "asset_url": "https://www.jntle.kr/images/main/common/logo.jpg",
+      "source_page": "https://www.jntle.kr/main",
+      "source_bytes": 8492,
+      "pair_index": 155
+    },
+    {
+      "member_key": "cleaneye-출연-583",
+      "name": "전라남도국제농업박람회",
+      "exact_candidates": [
+        "gongu-ci-1407"
+      ],
+      "official_pages": [
+        "https://www.iae.or.kr/iae/year/ei/simbol.do"
+      ],
+      "official_links": 20,
+      "asset_url": "https://www.iae.or.kr/resources/img/sub/symbol.jpg",
+      "source_page": "https://www.iae.or.kr/iae/year/ei/simbol.do",
+      "source_bytes": 39133,
+      "pair_index": 156
+    },
+    {
+      "member_key": "cleaneye-출연-588",
+      "name": "재단법인 전라남도관광재단",
+      "exact_candidates": [
+        "gongu-ci-0165"
+      ],
+      "official_pages": [
+        "https://ijnto.or.kr/org/ci"
+      ],
+      "official_links": 20,
+      "asset_url": "https://ijnto.or.kr/assets/img/ci/logo_global.jpg",
+      "source_page": "https://ijnto.or.kr/org/ci",
+      "source_bytes": 373932,
+      "pair_index": 159
+    },
+    {
+      "member_key": "cleaneye-출연-591",
+      "name": "목포복지재단",
+      "exact_candidates": [
+        "gongu-ci-0196"
+      ],
+      "official_pages": [
+        "http://www.welfaremokpo.kr/sub.html?dir=01&amp;page=0107"
+      ],
+      "official_links": 6,
+      "asset_url": "http://www.welfaremokpo.kr/images/common/logo.jpg",
+      "source_page": "http://www.welfaremokpo.kr/sub.html?dir=01&amp;page=0107",
+      "source_bytes": 9249,
+      "pair_index": 160
+    },
+    {
+      "member_key": "cleaneye-출연-594",
+      "name": "김대중노벨평화상기념관",
+      "exact_candidates": [
+        "gongu-ci-0207"
+      ],
+      "official_pages": [
+        "http://kdjnpmemorial.or.kr/bbs/content.php?co_id=1_7"
+      ],
+      "official_links": 12,
+      "asset_url": "https://kdjnpmemorial.or.kr/theme/basic/img/ft_logo.png",
+      "source_page": "http://kdjnpmemorial.or.kr/bbs/content.php?co_id=1_7",
+      "source_bytes": 8937,
+      "pair_index": 162
+    },
+    {
+      "member_key": "cleaneye-출연-601",
+      "name": "재단법인 순천문화재단",
+      "exact_candidates": [
+        "gongu-ci-0170"
+      ],
+      "official_pages": [
+        "https://www.cfsc.or.kr/contents/cfsc/cfsc0105.asp"
+      ],
+      "official_links": 13,
+      "asset_url": "https://www.cfsc.or.kr/resource/images/cfsc_logo-1.png",
+      "source_page": "https://www.cfsc.or.kr/contents/cfsc/cfsc0105.asp",
+      "source_bytes": 25935,
+      "pair_index": 165
+    },
+    {
+      "member_key": "cleaneye-출연-603",
+      "name": "나주교육진흥재단",
+      "exact_candidates": [
+        "gongu-ci-0206"
+      ],
+      "official_pages": [
+        "http://najuedfd.co.kr/sub/content0103.php"
+      ],
+      "official_links": 13,
+      "asset_url": "http://najuedfd.co.kr/img/common/ft_logo.png",
+      "source_page": "http://najuedfd.co.kr/sub/content0103.php",
+      "source_bytes": 9978,
+      "pair_index": 167
+    },
+    {
+      "member_key": "cleaneye-출연-61",
+      "name": "강남문화재단",
+      "exact_candidates": [
+        "gongu-ci-0827"
+      ],
+      "official_pages": [
+        "http://www.gangnam.go.kr/office/gfac/contents/gfac_ci/1/view.do?mid=gfac_ci"
+      ],
+      "official_links": 20,
+      "asset_url": "https://www.gangnam.go.kr/assets/images/office_info/img/gfac/ci.jpg",
+      "source_page": "http://www.gangnam.go.kr/office/gfac/contents/gfac_ci/1/view.do?mid=gfac_ci",
+      "source_bytes": 121865,
+      "pair_index": 171
+    },
+    {
+      "member_key": "cleaneye-출연-613",
+      "name": "재단법인 곡성군미래교육재단",
+      "exact_candidates": [
+        "gongu-ci-0174"
+      ],
+      "official_pages": [
+        "https://www.gokmg.or.kr/edu/menu.es?mid=a50104010000"
+      ],
+      "official_links": 20,
+      "asset_url": "https://www.gokmg.or.kr/edu/gokmg/img/layout/logo.png",
+      "source_page": "https://www.gokmg.or.kr/edu/menu.es?mid=a50104010000",
+      "source_bytes": 5035,
+      "pair_index": 173
+    },
+    {
+      "member_key": "cleaneye-출연-616",
+      "name": "재단법인 화순군문화관광재단",
+      "exact_candidates": [
+        "gongu-ci-0156"
+      ],
+      "official_pages": [
+        "https://www.hfct.or.kr//contents.do?S=S01&amp;M=0103000000"
+      ],
+      "official_links": 4,
+      "asset_url": "https://www.hfct.or.kr/_KOR/img/f_logo_reddot 1.png",
+      "source_page": "https://www.hfct.or.kr//contents.do?S=S01&amp;M=0103000000",
+      "source_bytes": 8211,
+      "pair_index": 176
+    },
+    {
+      "member_key": "cleaneye-출연-617",
+      "name": "장흥군버섯산업연구원",
+      "exact_candidates": [
+        "gongu-ci-0178"
+      ],
+      "official_pages": [
+        "https://www.jmi.re.kr/www/intro/corporate_identity"
+      ],
+      "official_links": 11,
+      "asset_url": "https://www.jmi.re.kr/contents/637/ci_img00.png?build_20261010001",
+      "source_page": "https://www.jmi.re.kr/www/intro/corporate_identity",
+      "source_bytes": 17889,
+      "pair_index": 177
+    },
+    {
+      "member_key": "cleaneye-출연-619",
+      "name": "재단법인 장흥군나눔복지재단",
+      "exact_candidates": [
+        "gongu-ci-0175"
+      ],
+      "official_pages": [
+        "http://www.jhnanum.kr/"
+      ],
+      "official_links": 20,
+      "asset_url": "http://www.jhnanum.kr/theme/jh/html/image/top_logo.png",
+      "source_page": "http://www.jhnanum.kr/",
+      "source_bytes": 4103,
+      "pair_index": 178
+    },
+    {
+      "member_key": "cleaneye-출연-626",
+      "name": "무안군승달장학회",
+      "exact_candidates": [
+        "gongu-ci-0192"
+      ],
+      "official_pages": [
+        "https://www.muan.go.kr/www/abountmuan/symbol"
+      ],
+      "official_links": 11,
+      "asset_url": "https://www.muan.go.kr/contents/27244/logo_c_01.jpg",
+      "source_page": "https://www.muan.go.kr/www/abountmuan/symbol",
+      "source_bytes": 32067,
+      "pair_index": 181
+    },
+    {
+      "member_key": "cleaneye-출연-636",
+      "name": "재단법인 진도군상권활성화재단",
+      "exact_candidates": [
+        "gongu-ci-0162"
+      ],
+      "official_pages": [
+        "http://www.jindomr.or.kr/page/page1"
+      ],
+      "official_links": 20,
+      "asset_url": "http://www.jindomr.or.kr/img_up/shop_pds/appkorea246/design/app_img/logo_b.png",
+      "source_page": "http://www.jindomr.or.kr/page/page1",
+      "source_bytes": 3128,
+      "pair_index": 187
+    },
+    {
+      "member_key": "cleaneye-출연-650",
+      "name": "경상북도경제진흥원",
+      "exact_candidates": [
+        "gongu-ci-0884"
+      ],
+      "official_pages": [
+        "https://www.gepa.kr/?page_id=925"
+      ],
+      "official_links": 12,
+      "asset_url": "https://www.gepa.kr/images/logo.png",
+      "source_page": "https://www.gepa.kr/?page_id=925",
+      "source_bytes": 9837,
+      "pair_index": 190
+    },
+    {
+      "member_key": "cleaneye-출연-651",
+      "name": "경북신용보증재단",
+      "exact_candidates": [
+        "gongu-ci-0386"
+      ],
+      "official_pages": [
+        "https://gbsinbo.co.kr/main.tc"
+      ],
+      "official_links": 20,
+      "asset_url": "https://gbsinbo.co.kr/resources/templates/front/assets/images/logo.png",
+      "source_page": "https://gbsinbo.co.kr/main.tc",
+      "source_bytes": 9009,
+      "pair_index": 191
+    },
+    {
+      "member_key": "cleaneye-출연-663",
+      "name": "재단법인 포항소재산업진흥원",
+      "exact_candidates": [
+        "gongu-ci-0340"
+      ],
+      "official_pages": [
+        "https://www.pomia.or.kr/sub/anvil.html"
+      ],
+      "official_links": 5,
+      "asset_url": "https://www.pomia.or.kr/image/footer_logo.png",
+      "source_page": "https://www.pomia.or.kr/sub/anvil.html",
+      "source_bytes": 9624,
+      "pair_index": 192
+    },
+    {
+      "member_key": "cleaneye-출연-667",
+      "name": "포항시청소년재단",
+      "exact_candidates": [
+        "gongu-ci-1544"
+      ],
+      "official_pages": [
+        "https://www.phyf.or.kr/foundation/ci"
+      ],
+      "official_links": 20,
+      "asset_url": "https://www.phyf.or.kr/assets/img/common/header/logo.png",
+      "source_page": "https://www.phyf.or.kr/foundation/ci",
+      "source_bytes": 4208,
+      "pair_index": 194
+    },
+    {
+      "member_key": "cleaneye-출연-675",
+      "name": "김천복지재단",
+      "exact_candidates": [
+        "gongu-ci-0374"
+      ],
+      "official_pages": [
+        "https://www.gc.go.kr/gcwf/contents.do?mId=0404000000"
+      ],
+      "official_links": 18,
+      "asset_url": "https://www.gc.go.kr/design/gcwf/img/common/logo.png",
+      "source_page": "https://www.gc.go.kr/gcwf/contents.do?mId=0404000000",
+      "source_bytes": 5350,
+      "pair_index": 196
+    },
+    {
+      "member_key": "cleaneye-출연-68",
+      "name": "재단법인 부산디자인진흥원",
+      "exact_candidates": [
+        "gongu-ci-1159"
+      ],
+      "official_pages": [
+        "http://www.dcb.or.kr/05_about/?mcode=0405040000"
+      ],
+      "official_links": 18,
+      "asset_url": "http://www.dcb.or.kr/images/common/foot_ci.png?v=220520_2",
+      "source_page": "http://www.dcb.or.kr/05_about/?mcode=0405040000",
+      "source_bytes": 6683,
+      "pair_index": 198
+    },
+    {
+      "member_key": "cleaneye-출연-710",
+      "name": "울진군의료원",
+      "exact_candidates": [
+        "gongu-ci-0356"
+      ],
+      "official_pages": [
+        "https://www.umc.or.kr/main/main.do"
+      ],
+      "official_links": 17,
+      "asset_url": "https://www.umc.or.kr/data/builder/logo_on.png",
+      "source_page": "https://www.umc.or.kr/main/main.do",
+      "source_bytes": 6316,
+      "pair_index": 204
+    },
+    {
+      "member_key": "cleaneye-출연-716",
+      "name": "재단법인 경남연구원",
+      "exact_candidates": [
+        "gongu-ci-0424"
+      ],
+      "official_pages": [
+        "https://www.gndi.re.kr/0000067"
+      ],
+      "official_links": 20,
+      "asset_url": "https://www.gndi.re.kr/images/kr/contents/ci_n_symbolmark.jpg",
+      "source_page": "https://www.gndi.re.kr/0000067",
+      "source_bytes": 241614,
+      "pair_index": 205
+    },
+    {
+      "member_key": "cleaneye-출연-723",
+      "name": "경상남도장학회",
+      "exact_candidates": [
+        "gongu-ci-0431"
+      ],
+      "official_pages": [
+        "https://www.gyeongnam.go.kr/index.gyeong?menuCd=DOM_000000137005001000"
+      ],
+      "official_links": 20,
+      "asset_url": "https://www.gyeongnam.go.kr/01_potal/images/content/0502020101_img01.png",
+      "source_page": "https://www.gyeongnam.go.kr/index.gyeong?menuCd=DOM_000000137005001000",
+      "source_bytes": 5948,
+      "pair_index": 207
+    },
+    {
+      "member_key": "cleaneye-출연-738",
+      "name": "진주문화관광재단",
+      "exact_candidates": [
+        "gongu-ci-0407"
+      ],
+      "official_pages": [
+        "https://jjct.or.kr/sub5_3"
+      ],
+      "official_links": 17,
+      "asset_url": "https://jjct.or.kr/images/common/logo-b.png",
+      "source_page": "https://jjct.or.kr/sub5_3",
+      "source_bytes": 7021,
+      "pair_index": 208
+    },
+    {
+      "member_key": "cleaneye-출연-740",
+      "name": "통영국제음악재단",
+      "exact_candidates": [
+        "gongu-ci-0401"
+      ],
+      "official_pages": [
+        "https://www.timf.org/kr/sub/timf/intro.asp"
+      ],
+      "official_links": 4,
+      "asset_url": "https://www.timf.org/img/sub/intro-logo.png",
+      "source_page": "https://www.timf.org/kr/sub/timf/intro.asp",
+      "source_bytes": 6214,
+      "pair_index": 209
+    },
+    {
+      "member_key": "cleaneye-출연-741",
+      "name": "통영시지속가능발전교육재단",
+      "exact_candidates": [
+        "gongu-ci-0400"
+      ],
+      "official_pages": [
+        "https://www.rce.or.kr/intro/ci.php"
+      ],
+      "official_links": 19,
+      "asset_url": "https://www.rce.or.kr/images/common/logo.png",
+      "source_page": "https://www.rce.or.kr/intro/ci.php",
+      "source_bytes": 8342,
+      "pair_index": 210
+    },
+    {
+      "member_key": "cleaneye-출연-761",
+      "name": "함안군장학재단",
+      "exact_candidates": [
+        "gongu-ci-0398"
+      ],
+      "official_pages": [
+        "https://www.hamansf.or.kr/"
+      ],
+      "official_links": 15,
+      "asset_url": "https://www.hamansf.or.kr/theme/basic/images/f_logo.jpg",
+      "source_page": "https://www.hamansf.or.kr/",
+      "source_bytes": 4476,
+      "pair_index": 213
+    },
+    {
+      "member_key": "cleaneye-출연-766",
+      "name": "재단법인 남해마늘연구소",
+      "exact_candidates": [
+        "gongu-ci-0428"
+      ],
+      "official_pages": [
+        "https://www.namhaegarlic.or.kr/intro/ci.php"
+      ],
+      "official_links": 5,
+      "asset_url": "https://www.namhaegarlic.or.kr/images/common/logo.png",
+      "source_page": "https://www.namhaegarlic.or.kr/intro/ci.php",
+      "source_bytes": 14236,
+      "pair_index": 214
+    },
+    {
+      "member_key": "cleaneye-출연-77",
+      "name": "영화의전당",
+      "exact_candidates": [
+        "gongu-ci-1305"
+      ],
+      "official_pages": [
+        "http://www.dureraum.org/bcc/contents/contentsView.do?rbsIdx=51"
+      ],
+      "official_links": 7,
+      "asset_url": "http://www.dureraum.org/bcc/images/common/logo_footer.png",
+      "source_page": "http://www.dureraum.org/bcc/contents/contentsView.do?rbsIdx=51",
+      "source_bytes": 6781,
+      "pair_index": 217
+    },
+    {
+      "member_key": "cleaneye-출연-779",
+      "name": "제주평생교육장학진흥원",
+      "exact_candidates": [
+        "gongu-ci-1440"
+      ],
+      "official_pages": [
+        "http://jiles.or.kr/intro/history/ci.htm"
+      ],
+      "official_links": 20,
+      "asset_url": "http://jiles.or.kr/site/jile4_new/images/common/logo.png",
+      "source_page": "http://jiles.or.kr/intro/history/ci.htm",
+      "source_bytes": 7068,
+      "pair_index": 221
+    },
+    {
+      "member_key": "cleaneye-출연-786",
+      "name": "제주4․3평화재단",
+      "exact_candidates": [
+        "gongu-ci-1431"
+      ],
+      "official_pages": [
+        "https://jeju43peace.or.kr/kor/sub09_02_06.do"
+      ],
+      "official_links": 10,
+      "asset_url": "https://jeju43peace.or.kr/images/kor/layout/logo.png",
+      "source_page": "https://jeju43peace.or.kr/kor/sub09_02_06.do",
+      "source_bytes": 8520,
+      "pair_index": 222
+    },
+    {
+      "member_key": "cleaneye-출자-100",
+      "name": "농업회사법인의령군토요애유통(주)",
+      "exact_candidates": [
+        "gongu-ci-0394"
+      ],
+      "official_pages": [
+        "http://www.toyoae.kr/coding/sub01/02_01.jsp"
+      ],
+      "official_links": 6,
+      "asset_url": "http://www.toyoae.kr/images/common/logo.png",
+      "source_page": "http://www.toyoae.kr/coding/sub01/02_01.jsp",
+      "source_bytes": 6774,
+      "pair_index": 235
+    },
+    {
+      "member_key": "cleaneye-출자-3",
+      "name": "금천일자리 주식회사",
+      "exact_candidates": [
+        "gongu-ci-0272"
+      ],
+      "official_pages": [
+        "http://www.gcjob.co.kr/main.php?m1=1&amp;m2=28"
+      ],
+      "official_links": 20,
+      "asset_url": "http://www.gcjob.co.kr/upload_design/20201013091959-47abbd32c3.jpg",
+      "source_page": "http://www.gcjob.co.kr/main.php?m1=1&amp;m2=28",
+      "source_bytes": 14629,
+      "pair_index": 238
+    },
+    {
+      "member_key": "cleaneye-출자-36",
+      "name": "주식회사 강원중도개발공사",
+      "exact_candidates": [
+        "gongu-ci-0536"
+      ],
+      "official_pages": [
+        "http://www.lldevelopment.co.kr/"
+      ],
+      "official_links": 20,
+      "asset_url": "http://www.lldevelopment.co.kr/images/logo.png",
+      "source_page": "http://www.lldevelopment.co.kr/",
+      "source_bytes": 29543,
+      "pair_index": 241
+    },
+    {
+      "member_key": "cleaneye-출자-49",
+      "name": "충주비즈코어시티 주식회사",
+      "exact_candidates": [
+        "gongu-ci-0009"
+      ],
+      "official_pages": [
+        "http://bizcorecity.com/"
+      ],
+      "official_links": 2,
+      "asset_url": "http://bizcorecity.com/sh_img/hd/top_menu/logo.png",
+      "source_page": "http://bizcorecity.com/",
+      "source_bytes": 5467,
+      "pair_index": 245
+    },
+    {
+      "member_key": "cleaneye-출자-56",
+      "name": "천안북부일반산업단지 주식회사",
+      "exact_candidates": [
+        "gongu-ci-0051"
+      ],
+      "official_pages": [
+        "http://bitsandan.com/bbs/content.php?co_id=outline"
+      ],
+      "official_links": 11,
+      "asset_url": "http://bitsandan.com/theme/saenal/img/f_logo.png",
+      "source_page": "http://bitsandan.com/bbs/content.php?co_id=outline",
+      "source_bytes": 7308,
+      "pair_index": 248
+    },
+    {
+      "member_key": "cleaneye-출자-72",
+      "name": "농업회사법인한국절임(주)",
+      "exact_candidates": [
+        "gongu-ci-0141"
+      ],
+      "official_pages": [
+        "http://www.kopickle.kr/"
+      ],
+      "official_links": 9,
+      "asset_url": "http://www.kopickle.kr/theme/koreajul/img/main/footer_logo.jpg",
+      "source_page": "http://www.kopickle.kr/",
+      "source_bytes": 11510,
+      "pair_index": 252
+    }
+  ]
+}

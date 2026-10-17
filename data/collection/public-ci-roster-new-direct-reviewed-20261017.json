@@ -1,0 +1,203 @@
+{
+  "method": "legal-prefix-alias",
+  "items": [
+    {
+      "pair_index": 1,
+      "member_key": "cleaneye-출연-180",
+      "name": "울산정보산업진흥원",
+      "exact_candidates": [
+        "gongu-ci-1338"
+      ],
+      "asset_url": "https://uipa.or.kr/webuser/img/f-logo.png",
+      "source_page": "http://uipa.or.kr/webuser/page/ci.html",
+      "source_bytes": 4768
+    },
+    {
+      "pair_index": 3,
+      "member_key": "cleaneye-출연-228",
+      "name": "재단법인 고양연구원",
+      "exact_candidates": [
+        "gongu-ci-0901"
+      ],
+      "asset_url": "https://www.goyang.re.kr/img/common/logo.png",
+      "source_page": "https://www.goyang.re.kr/introduce/01_6.php",
+      "source_bytes": 3435
+    },
+    {
+      "pair_index": 5,
+      "member_key": "cleaneye-출연-248",
+      "name": "부천시여성청소년재단",
+      "exact_candidates": [
+        "gongu-ci-0517"
+      ],
+      "asset_url": "https://www.bwyf.or.kr/DATA/download/bwyf/bwyf_ci_1.png",
+      "source_page": "https://www.bwyf.or.kr/bwyf/contents.do?key=2510",
+      "source_bytes": 13086
+    },
+    {
+      "pair_index": 6,
+      "member_key": "cleaneye-출연-26",
+      "name": "재단법인 광진문화재단",
+      "exact_candidates": [
+        "gongu-ci-0276"
+      ],
+      "asset_url": "https://www.naruart.or.kr/img/android-icon-192x192.png",
+      "source_page": "https://www.naruart.or.kr/foundation/intro_self.php",
+      "source_bytes": 5751
+    },
+    {
+      "pair_index": 7,
+      "member_key": "cleaneye-출연-275",
+      "name": "평택복지재단",
+      "exact_candidates": [
+        "gongu-ci-1538"
+      ],
+      "asset_url": "https://www.pyeongtaek.go.kr/ptwf/images/sub01/page0107_img1.jpg",
+      "source_page": "https://www.pyeongtaek.go.kr/ptwf/page.do?PAGE=sub01_07",
+      "source_bytes": 18312
+    },
+    {
+      "pair_index": 8,
+      "member_key": "cleaneye-출연-334",
+      "name": "과천시애향장학회",
+      "exact_candidates": [
+        "gongu-ci-0528"
+      ],
+      "asset_url": "https://www.gcsf.kr/images/logo.svg",
+      "source_page": "https://www.gcsf.kr/html/sub0102.php",
+      "source_bytes": 79472
+    },
+    {
+      "pair_index": 10,
+      "member_key": "cleaneye-출연-414",
+      "name": "재단법인 양양문화재단",
+      "exact_candidates": [
+        "gongu-ci-0562"
+      ],
+      "asset_url": "https://www.yycf.or.kr/images/logo_g.png",
+      "source_page": "https://www.yycf.or.kr/contents/ci.html?language=",
+      "source_bytes": 6602
+    },
+    {
+      "pair_index": 15,
+      "member_key": "cleaneye-출연-561",
+      "name": "재단법인 고창식품산업연구원",
+      "exact_candidates": [
+        "gongu-ci-1129"
+      ],
+      "asset_url": "https://www.gfi.re.kr/skin/basic/images/f_logo_m.png",
+      "source_page": "https://www.gfi.re.kr/newpage/newpage.php?f_id=bi",
+      "source_bytes": 10682
+    },
+    {
+      "pair_index": 16,
+      "member_key": "cleaneye-출연-589",
+      "name": "재단법인 전라남도사회서비스원",
+      "exact_candidates": [
+        "gongu-ci-0163"
+      ],
+      "asset_url": "https://jn.pass.or.kr/img/logo001.png",
+      "source_page": "https://jn.pass.or.kr/?pg=c&amp;pn=list&amp;mg=1_2_4&amp;tb=a4",
+      "source_bytes": 8202
+    },
+    {
+      "pair_index": 17,
+      "member_key": "cleaneye-출연-612",
+      "name": "담양군복지재단",
+      "exact_candidates": [
+        "gongu-ci-1055"
+      ],
+      "asset_url": "http://dy-welfare.or.kr/images/button/logo.png",
+      "source_page": "http://dy-welfare.or.kr/board_intro/intro_A6.asp",
+      "source_bytes": 9375
+    },
+    {
+      "pair_index": 19,
+      "member_key": "cleaneye-출연-683",
+      "name": "영주문화관광재단",
+      "exact_candidates": [
+        "gongu-ci-0360"
+      ],
+      "asset_url": "https://www.yctf.or.kr/images/common/f_logo.png",
+      "source_page": "https://www.yctf.or.kr/doc/intro5.php",
+      "source_bytes": 6913
+    },
+    {
+      "pair_index": 20,
+      "member_key": "cleaneye-출연-724",
+      "name": "재단법인 경상남도 사회서비스원",
+      "exact_candidates": [
+        "gongu-ci-0421"
+      ],
+      "asset_url": "https://gn.pass.or.kr/img/logo.png",
+      "source_page": "https://gn.pass.or.kr/main/main.php",
+      "source_bytes": 6508
+    },
+    {
+      "pair_index": 21,
+      "member_key": "cleaneye-출연-726",
+      "name": "재단법인 경상남도 여성가족재단",
+      "exact_candidates": [
+        "gongu-ci-0420"
+      ],
+      "asset_url": "https://gnwff.or.kr/img/logo.png",
+      "source_page": "https://gnwff.or.kr/sub01/sub04_01.php",
+      "source_bytes": 12839
+    },
+    {
+      "pair_index": 22,
+      "member_key": "cleaneye-출연-774",
+      "name": "재단법인 산청축제관광재단",
+      "exact_candidates": [
+        "gongu-ci-0413"
+      ],
+      "asset_url": "http://sftf.scherb.or.kr/img/ci_logo01.png",
+      "source_page": "http://sftf.scherb.or.kr/sub01/sub02_01.php",
+      "source_bytes": 12770
+    },
+    {
+      "pair_index": 23,
+      "member_key": "cleaneye-출연-782",
+      "name": "제주신용보증재단",
+      "exact_candidates": [
+        "gongu-ci-0099"
+      ],
+      "asset_url": "https://www.jcgf.or.kr/res/images/sub/1_3/logo1.jpg",
+      "source_page": "https://www.jcgf.or.kr/pages.php?p=1_3_1_1",
+      "source_bytes": 49327
+    },
+    {
+      "pair_index": 24,
+      "member_key": "cleaneye-출연-784",
+      "name": "제주특별자치도경제통상진흥원",
+      "exact_candidates": [
+        "gongu-ci-0095"
+      ],
+      "asset_url": "https://www.jba.or.kr/res/images/top/ci.png",
+      "source_page": "https://www.jba.or.kr/pages.php?p=4_4_1_1",
+      "source_bytes": 11058
+    },
+    {
+      "pair_index": 26,
+      "member_key": "cleaneye-출자-20",
+      "name": "(주)킨텍스",
+      "exact_candidates": [
+        "gongu-ci-1752"
+      ],
+      "asset_url": "https://www.kintex.com/public/common/images/content/company_ci_section01_eng01_img01.jpg",
+      "source_page": "https://www.kintex.com/web/ko/html/company/overview_ci.do",
+      "source_bytes": 12156
+    },
+    {
+      "pair_index": 28,
+      "member_key": "cleaneye-출자-6",
+      "name": "서초여성일자리주식회사",
+      "exact_candidates": [
+        "gongu-ci-0260"
+      ],
+      "asset_url": "https://www.swec.co.kr/images/sc_logo.png",
+      "source_page": "https://www.swec.co.kr/",
+      "source_bytes": 8447
+    }
+  ]
+}

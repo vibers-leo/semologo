@@ -11,7 +11,7 @@
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
       "status": "page-fetch-failed",
       "asset_links": [],
-      "error": "HTTP Error 503: Service Unavailable"
+      "error": "HTTPError"
     },
     {
       "id": "재-목포인재육성재단",
@@ -181,9 +181,24 @@
       "official_source_page": "https://www.yeongam.go.kr/home/www/new_plus/introduce/introduce_11/yeongam.go",
       "website": "https://www.ya-mirae.or.kr/",
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
-      "status": "page-fetch-failed",
-      "asset_links": [],
-      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)>"
+      "status": "asset-links-found",
+      "asset_links": [
+        "https://www.yeongam.go.kr/images/www/main2/logo.png",
+        "https://www.yeongam.go.kr/images/www/main2/sns_icon03.png",
+        "https://www.yeongam.go.kr/images/www/main2/sitemap_ico.png",
+        "https://www.yeongam.go.kr/images/www/main2/sns_icon01.png",
+        "https://www.yeongam.go.kr/images/www/main2/sns_icon04.png",
+        "https://www.yeongam.go.kr/images/www/main2/sns_icon05.png",
+        "https://www.yeongam.go.kr/images/www/main2/sns_icon06.png",
+        "https://www.yeongam.go.kr/images/www/main2/sns_icon07.png",
+        "https://www.yeongam.go.kr/images/www/sub/all_icon.png",
+        "https://www.yeongam.go.kr/images/www/contents/sysb_241007_1.jpg",
+        "https://www.yeongam.go.kr/images/www/contents/sysb_241007_2.jpg",
+        "https://www.yeongam.go.kr/images/www/contents/opencode04.jpg",
+        "https://www.yeongam.go.kr/images/www/copy_logo.png",
+        "https://www.yeongam.go.kr/images/www/main2/tour_qr.png",
+        "https://www.yeongam.go.kr/images/www/main2/mark_wa.png"
+      ]
     },
     {
       "id": "재-영양군인재육성장학회",
@@ -557,7 +572,7 @@
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
       "status": "page-fetch-failed",
       "asset_links": [],
-      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)>"
+      "error": "URLError"
     },
     {
       "id": "재-창원시상권활성화재단",
@@ -601,7 +616,7 @@
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
       "status": "page-fetch-failed",
       "asset_links": [],
-      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)>"
+      "error": "URLError"
     },
     {
       "id": "재-충남경제진흥원",
@@ -758,7 +773,7 @@
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
       "status": "page-fetch-failed",
       "asset_links": [],
-      "error": "HTTP Error 404: Not Found"
+      "error": "HTTPError"
     },
     {
       "id": "재-경상북도농식품유통교육진흥원",
@@ -832,7 +847,7 @@
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
       "status": "page-fetch-failed",
       "asset_links": [],
-      "error": "<urlopen error [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1081)>"
+      "error": "URLError"
     },
     {
       "id": "재-광주미래차모빌리티진흥원",
@@ -908,7 +923,7 @@
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
       "status": "page-fetch-failed",
       "asset_links": [],
-      "error": "<urlopen error timed out>"
+      "error": "URLError"
     },
     {
       "id": "재-금천미래장학회",
@@ -1156,9 +1171,29 @@
       "official_source_page": "https://www.hanamcity1365.or.kr/",
       "website": "https://www.hanamcity1365.or.kr/",
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
-      "status": "page-fetch-failed",
-      "asset_links": [],
-      "error": "HTTP Error 403: Forbidden"
+      "status": "asset-links-found",
+      "asset_links": [
+        "https://www.hanamcity1365.or.kr/favicon/apple-icon-57x57.png",
+        "https://www.hanamcity1365.or.kr/favicon/apple-icon-60x60.png",
+        "https://www.hanamcity1365.or.kr/favicon/apple-icon-72x72.png",
+        "https://www.hanamcity1365.or.kr/favicon/apple-icon-76x76.png",
+        "https://www.hanamcity1365.or.kr/favicon/apple-icon-114x114.png",
+        "https://www.hanamcity1365.or.kr/favicon/apple-icon-120x120.png",
+        "https://www.hanamcity1365.or.kr/favicon/apple-icon-144x144.png",
+        "https://www.hanamcity1365.or.kr/favicon/apple-icon-152x152.png",
+        "https://www.hanamcity1365.or.kr/favicon/apple-icon-180x180.png",
+        "https://www.hanamcity1365.or.kr/favicon/android-icon-192x192.png",
+        "https://www.hanamcity1365.or.kr/favicon/favicon-32x32.png",
+        "https://www.hanamcity1365.or.kr/favicon/favicon-96x96.png",
+        "https://www.hanamcity1365.or.kr/favicon/favicon-16x16.png",
+        "https://www.hanamcity1365.or.kr/mobile/image/main/x_ic.png",
+        "https://www.hanamcity1365.or.kr/image/main/logo.png",
+        "https://www.hanamcity1365.or.kr/image/main/close_ic.png",
+        "https://www.hanamcity1365.or.kr/image/main/right_m.png",
+        "https://www.hanamcity1365.or.kr/image/main/menu_ic.png",
+        "https://www.hanamcity1365.or.kr/image/main/visual_img1.png",
+        "https://www.hanamcity1365.or.kr/image/main/scroll_ic.png"
+      ]
     },
     {
       "id": "재-하동차-amp-바이오진흥원",
@@ -1423,9 +1458,29 @@
       "official_source_page": "https://www.kintex.com/web/ko/html/company/overview_ci.do",
       "website": "http://www.kintex.com/",
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
-      "status": "page-fetch-failed",
-      "asset_links": [],
-      "error": "[Errno 54] Connection reset by peer"
+      "status": "asset-links-found",
+      "asset_links": [
+        "https://www.kintex.com/public/common/images/common/favicon.png",
+        "https://www.kintex.com/download/CI/CI_AI.zip",
+        "https://www.kintex.com/download/CI/CI_JPG.zip",
+        "https://www.kintex.com/public/common/images/content/company_ci_section01_eng01_img01.jpg",
+        "https://www.kintex.com/public/common/images/content/company_ci_section01_eng02_img01.jpg",
+        "https://www.kintex.com/public/common/images/content/company_ci_section01_eng_img02.jpg",
+        "https://www.kintex.com/public/common/images/content/company_ci_section01_ko01_img01.jpg",
+        "https://www.kintex.com/public/common/images/content/company_ci_section01_ko02_img01.jpg",
+        "https://www.kintex.com/public/common/images/content/company_ci_section01_ko_img02.jpg",
+        "https://www.kintex.com/public/common/images/content/company_ci_section02_circle01_img01.jpg",
+        "https://www.kintex.com/public/common/images/content/company_ci_section02_circle01_img02.jpg",
+        "https://www.kintex.com/public/common/images/content/company_ci_section02_circle02_img01.jpg",
+        "https://www.kintex.com/public/common/images/content/company_ci_section02_circle02_img02.jpg",
+        "https://www.kintex.com/public/common/images/content/company_ci_section02_circle03_img01.jpg",
+        "https://www.kintex.com/public/common/images/content/company_ci_section02_circle03_img02.jpg",
+        "https://www.kintex.com/public/common/images/content/company_ci_section03_img01.jpg",
+        "https://www.kintex.com/public/common/images/content/company_ci_section03_img02.jpg",
+        "https://www.kintex.com/public/common/images/icon/icon_main_bottom_nav1.png",
+        "https://www.kintex.com/public/common/images/icon/icon_main_bottom_nav2.png",
+        "https://www.kintex.com/public/common/images/icon/icon_main_bottom_nav3.png"
+      ]
     },
     {
       "id": "주-파주장단콩웰빙마루",
@@ -1618,8 +1673,29 @@
       "official_source_page": "https://gnto.or.kr/sub05/sub05_01.php",
       "website": "https://gnto.or.kr/main/main.php",
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
-      "status": "page-no-direct-asset",
-      "asset_links": []
+      "status": "asset-links-found",
+      "asset_links": [
+        "https://gnto.or.kr/img/favicon.png",
+        "https://gnto.or.kr/img/ic_facebook.png",
+        "https://gnto.or.kr/img/ic_blog.png",
+        "https://gnto.or.kr/img/ic_insta.png",
+        "https://gnto.or.kr/img/ic_home.png",
+        "https://gnto.or.kr/img/ci_logo.png",
+        "https://gnto.or.kr/img/sb_logo.png",
+        "https://gnto.or.kr/img/sb_logo2.png",
+        "https://gnto.or.kr/img/sb_logo3.png",
+        "https://gnto.or.kr/img/ci_sign01_01.png",
+        "https://gnto.or.kr/img/ci_sign01_02.png",
+        "https://gnto.or.kr/img/ci_sign01_03.png",
+        "https://gnto.or.kr/img/ci_sign02_01.png",
+        "https://gnto.or.kr/img/ci_sign02_02.png",
+        "https://gnto.or.kr/img/ci_sign02_03.png",
+        "https://gnto.or.kr/img/side_sns_ic1.png",
+        "https://gnto.or.kr/img/side_sns_ic2.png",
+        "https://gnto.or.kr/img/side_sns_ic3.png",
+        "https://gnto.or.kr/img/side_sns_ic4.png",
+        "https://gnto.or.kr/img/side_sns_ic0.png"
+      ]
     },
     {
       "id": "kdi국제정책대학원",
@@ -1883,7 +1959,7 @@
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
       "status": "page-fetch-failed",
       "asset_links": [],
-      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)>"
+      "error": "URLError"
     },
     {
       "id": "가평군",
@@ -1941,9 +2017,8 @@
       "official_source_page": "https://www.bai.go.kr/bai/intro/instructionSymbol",
       "website": "http://www.bai.go.kr",
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
-      "status": "page-fetch-failed",
-      "asset_links": [],
-      "error": "HTTP Error 404: Not Found"
+      "status": "page-no-direct-asset",
+      "asset_links": []
     },
     {
       "id": "강남구",
@@ -2180,7 +2255,7 @@
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
       "status": "page-fetch-failed",
       "asset_links": [],
-      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)>"
+      "error": "URLError"
     },
     {
       "id": "강북구꿈나무키움장학재단",
@@ -2834,9 +2909,18 @@
       "official_source_page": "https://www.geojeart.or.kr/intro/intro_2.asp",
       "website": "https://www.geojeart.or.kr/",
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
-      "status": "page-fetch-failed",
-      "asset_links": [],
-      "error": "HTTP Error 999: No Hacking"
+      "status": "asset-links-found",
+      "asset_links": [
+        "https://www.geojeart.or.kr/z03_images/ci_logo_1.png",
+        "https://www.geojeart.or.kr/z03_images/ci_logo_2.png",
+        "https://www.geojeart.or.kr/z03_images/ci_logo_3.png",
+        "https://www.geojeart.or.kr/z05_download/symbol_ai.zip",
+        "https://www.geojeart.or.kr/z05_download/symbol_jpg.zip",
+        "https://www.geojeart.or.kr/z03_images/ci_logo_4.png",
+        "https://www.geojeart.or.kr/z05_download/거제시문화예술재단.ai",
+        "https://www.geojeart.or.kr/z05_download/로고_재단가로.zip",
+        "https://www.geojeart.or.kr/z03_images/logo_gray.png"
+      ]
     },
     {
       "id": "거제해양관광개발공사",
@@ -2878,7 +2962,7 @@
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
       "status": "page-fetch-failed",
       "asset_links": [],
-      "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\n302"
+      "error": "HTTPError"
     },
     {
       "id": "거창화강석연구센터",
@@ -3186,7 +3270,7 @@
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
       "status": "page-fetch-failed",
       "asset_links": [],
-      "error": "HTTP Error 404: Not Found"
+      "error": "HTTPError"
     },
     {
       "id": "경기도미래세대재단-청소년수련원",
@@ -3233,7 +3317,7 @@
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
       "status": "page-fetch-failed",
       "asset_links": [],
-      "error": "HTTP Error 404: 404"
+      "error": "HTTPError"
     },
     {
       "id": "경기도평생교육진흥원",
@@ -3488,7 +3572,7 @@
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
       "status": "page-fetch-failed",
       "asset_links": [],
-      "error": "HTTP Error 404: Not Found"
+      "error": "HTTPError"
     },
     {
       "id": "경남로봇랜드재단",
@@ -3499,7 +3583,7 @@
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
       "status": "page-fetch-failed",
       "asset_links": [],
-      "error": "HTTP Error 404: Not Found"
+      "error": "HTTPError"
     },
     {
       "id": "경남문화예술진흥원",
@@ -3882,7 +3966,7 @@
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
       "status": "page-fetch-failed",
       "asset_links": [],
-      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)>"
+      "error": "URLError"
     },
     {
       "id": "경상국립대학교병원운영-경상남도마산의료원",
@@ -3921,7 +4005,7 @@
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
       "status": "page-fetch-failed",
       "asset_links": [],
-      "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
+      "error": "HTTPError"
     },
     {
       "id": "경상남도사회서비스원",
@@ -3930,8 +4014,29 @@
       "official_source_page": "https://gn.pass.or.kr/main/main.php",
       "website": "https://gn.pass.or.kr/main/main.php",
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
-      "status": "page-no-direct-asset",
-      "asset_links": []
+      "status": "asset-links-found",
+      "asset_links": [
+        "https://gn.pass.or.kr/img/favicon.png",
+        "https://gn.pass.or.kr/img/logo.png",
+        "https://gn.pass.or.kr/img/ic_sns1.png",
+        "https://gn.pass.or.kr/img/ic_sns2.png",
+        "https://gn.pass.or.kr/img/ic_sns3.png",
+        "https://gn.pass.or.kr/img/ic_sns4.png",
+        "https://gn.pass.or.kr/bbsDown/popup/2026062956310579236.png",
+        "https://gn.pass.or.kr/bbsDown/editor_up/202610061748401985904527.jpg",
+        "https://gn.pass.or.kr/img/main_logobanner_new2026.jpg",
+        "https://gn.pass.or.kr/bbsDown/main_popup/2026062933334483774_s.png",
+        "https://gn.pass.or.kr/bbsDown/main_popup/2026092355998429075_s.png",
+        "https://gn.pass.or.kr/img/new/map_ico_pu02.png",
+        "https://gn.pass.or.kr/img/new/map_ico_pi02.png",
+        "https://gn.pass.or.kr/img/new/map_ico_pu03.png",
+        "https://gn.pass.or.kr/img/new/map_ico_pu01.png",
+        "https://gn.pass.or.kr/img/new/map_ico_pi01.png",
+        "https://gn.pass.or.kr/img/new/data_img01.jpg",
+        "https://gn.pass.or.kr/img/new/data_img02.jpg",
+        "https://gn.pass.or.kr/img/new/no_img.jpg",
+        "https://gn.pass.or.kr/bbsDown/070304/2026101308437639543_s.jpg"
+      ]
     },
     {
       "id": "경상남도여성가족재단",
@@ -3940,8 +4045,27 @@
       "official_source_page": "https://gnwff.or.kr/sub01/sub04_01.php",
       "website": "https://gnwff.or.kr/main/main.php",
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
-      "status": "page-no-direct-asset",
-      "asset_links": []
+      "status": "asset-links-found",
+      "asset_links": [
+        "https://gnwff.or.kr/img/favicon.png",
+        "https://gnwff.or.kr/img/logo.png",
+        "https://gnwff.or.kr/img/ic_home.png",
+        "https://gnwff.or.kr/img/sub_ci_img01.jpg",
+        "https://gnwff.or.kr/img/sub_ci_img02.jpg",
+        "https://gnwff.or.kr/img/gnwff_ci_jpg.zip",
+        "https://gnwff.or.kr/img/gnwff_ci_ai.zip",
+        "https://gnwff.or.kr/img/sub_ci_img05.jpg",
+        "https://gnwff.or.kr/img/sub_ci_img03.jpg",
+        "https://gnwff.or.kr/img/sub_ci_img04.jpg",
+        "https://gnwff.or.kr/img/sub_ci_img06.jpg",
+        "https://gnwff.or.kr/img/sub_ci_img07.jpg",
+        "https://gnwff.or.kr/img/sub_ci_img08.jpg",
+        "https://gnwff.or.kr/img/sub_ci_img09.jpg",
+        "https://gnwff.or.kr/img/nmain_footer_sns_ic01.png",
+        "https://gnwff.or.kr/img/nmain_footer_sns_ic02.png",
+        "https://gnwff.or.kr/img/nmain_footer_sns_ic03.png",
+        "https://gnwff.or.kr/img/nmain_footer_sns_ic04.png"
+      ]
     },
     {
       "id": "경상남도인재평생교육진흥원",
@@ -4119,9 +4243,29 @@
       "official_source_page": "http://www.gcmc.or.kr/about/about_06.php",
       "website": "http://www.gcmc.or.kr/",
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
-      "status": "page-fetch-failed",
-      "asset_links": [],
-      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+      "status": "asset-links-found",
+      "asset_links": [
+        "http://www.gcmc.or.kr/pub/images/favicon.png",
+        "http://www.gcmc.or.kr/pub/images/sub/ci_down.zip",
+        "http://www.gcmc.or.kr/pub/images/sub/img_ci_type01.png",
+        "http://www.gcmc.or.kr/pub/images/sub/img_ci_type02.png",
+        "http://www.gcmc.or.kr/pub/images/sub/img_symbol.png",
+        "http://www.gcmc.or.kr/pub/images/sub/img_logotype.png",
+        "http://www.gcmc.or.kr/pub/images/sub/img_logotype02.png",
+        "http://www.gcmc.or.kr/pub/images/sub/img_logotype03.png",
+        "http://www.gcmc.or.kr/pub/images/sub/img_4c_printing_type01.jpg",
+        "http://www.gcmc.or.kr/pub/images/sub/img_4c_printing_type02.jpg",
+        "http://www.gcmc.or.kr/pub/images/sub/img_1c_printing_type01.jpg",
+        "http://www.gcmc.or.kr/pub/images/sub/img_1c_printing_type02.jpg",
+        "http://www.gcmc.or.kr/pub/images/sub/img_1c_printing_type03.jpg",
+        "http://www.gcmc.or.kr/pub/images/sub/img_1c_printing_type04.jpg",
+        "http://www.gcmc.or.kr/pub/images/sub/img_foil_printing_type01.jpg",
+        "http://www.gcmc.or.kr/pub/images/sub/img_foil_printing_type02.jpg",
+        "http://www.gcmc.or.kr/pub/images/sub/img_foil_printing_type03.jpg",
+        "http://www.gcmc.or.kr/pub/images/sub/img_foil_printing_type04.jpg",
+        "http://www.gcmc.or.kr/pub/images/sub/img_bgcolor_type01.jpg",
+        "http://www.gcmc.or.kr/pub/images/sub/img_bgcolor_type02.jpg"
+      ]
     },
     {
       "id": "경상북도문화관광공사",
@@ -4220,7 +4364,7 @@
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
       "status": "page-fetch-failed",
       "asset_links": [],
-      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)>"
+      "error": "URLError"
     },
     {
       "id": "경상북도호국보훈재단",
@@ -4231,7 +4375,7 @@
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
       "status": "page-fetch-failed",
       "asset_links": [],
-      "error": "HTTP Error 404: Not Found"
+      "error": "HTTPError"
     },
     {
       "id": "경상북도환경연수원",
@@ -4375,9 +4519,11 @@
       "official_source_page": "https://www.hico.or.kr/hico/ko/about/design_guide.do",
       "website": "https://www.hico.or.kr/hico/ko/main/main.do",
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
-      "status": "page-fetch-failed",
-      "asset_links": [],
-      "error": "HTTP Error 404: Not Found"
+      "status": "asset-links-found",
+      "asset_links": [
+        "https://www.hico.or.kr/common/images/hico/favicon.svg",
+        "https://www.hico.or.kr/common/images/hico/hico.svg"
+      ]
     },
     {
       "id": "경찰대학",
@@ -4518,12 +4664,22 @@
       "id": "고성군",
       "name_ko": "고성군",
       "category": "공공·기관",
-      "official_source_page": "https://www.gwgs.go.kr/kor/sub05_0302.do",
-      "website": "https://www.gwgs.go.kr/",
+      "official_source_page": "https://www.goseong.go.kr/index.goseong?menuCd=DOM_000000106002006000",
+      "website": "https://www.goseong.go.kr/index.goseong",
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
-      "status": "page-fetch-failed",
-      "asset_links": [],
-      "error": "<urlopen error [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1081)>"
+      "status": "asset-links-found",
+      "asset_links": [
+        "https://www.goseong.go.kr/images/Potal/layout/logo.jpg",
+        "https://www.goseong.go.kr/upload_data/board_data/BBS_0000187/171651646715364.png",
+        "https://www.goseong.go.kr/images/Potal/layout/guckgi.jpg",
+        "https://www.goseong.go.kr/upload_data/board_data/BBS_0000187/178572520499255.png",
+        "https://www.goseong.go.kr/images/Potal/content/05/0206Bg1.png",
+        "https://www.goseong.go.kr/images/Potal/content/05/0206Bg2.png",
+        "https://www.goseong.go.kr/images/Potal/content/05/0206Bg3.png",
+        "https://www.goseong.go.kr/images/Potal/content/05/0206Bg4.png",
+        "https://www.goseong.go.kr/document/06/logo_1.zip",
+        "https://www.goseong.go.kr/upload_data/board_data/BBS_0000188/168715784279012.png"
+      ]
     },
     {
       "id": "고양도시관리공사",
@@ -4579,8 +4735,22 @@
       "official_source_page": "https://www.goyang.re.kr/introduce/01_6.php",
       "website": "https://www.goyang.re.kr/main/main.php",
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
-      "status": "page-no-direct-asset",
-      "asset_links": []
+      "status": "asset-links-found",
+      "asset_links": [
+        "https://www.goyang.re.kr/img/common/logo.png",
+        "https://www.goyang.re.kr/img/common/search_b.svg",
+        "https://www.goyang.re.kr/img/common/ico_home.png",
+        "https://www.goyang.re.kr/img/introduce/ci1.png",
+        "https://www.goyang.re.kr/img/introduce/ci.ai",
+        "https://www.goyang.re.kr/img/common/ico_down.png",
+        "https://www.goyang.re.kr/img/introduce/ci.jpg",
+        "https://www.goyang.re.kr/img/introduce/ci_g.png",
+        "https://www.goyang.re.kr/img/introduce/ci_c.png",
+        "https://www.goyang.re.kr/img/introduce/ci_i.png",
+        "https://www.goyang.re.kr/img/introduce/gci.png",
+        "https://www.goyang.re.kr/img/common/sns_facebook.png",
+        "https://www.goyang.re.kr/img/common/sns_youtube.png"
+      ]
     },
     {
       "id": "고용노동부",
@@ -4670,7 +4840,7 @@
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
       "status": "page-fetch-failed",
       "asset_links": [],
-      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)>"
+      "error": "URLError"
     },
     {
       "id": "공간정보품질관리원",
@@ -4740,9 +4910,18 @@
       "official_source_page": "http://www.gongju.go.kr/kr/sub05_02_01.do",
       "website": "https://www.gongju.go.kr/kr/index.do",
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
-      "status": "page-fetch-failed",
-      "asset_links": [],
-      "error": "[Errno 54] Connection reset by peer"
+      "status": "asset-links-found",
+      "asset_links": [
+        "http://www.gongju.go.kr/pcms/common/images/favicon_152.png",
+        "http://www.gongju.go.kr/images/kr/common/flag.jpg",
+        "http://www.gongju.go.kr/images/kr/common/cn_mark.png",
+        "http://www.gongju.go.kr/template/A/images/slogan.png?ver=20240205",
+        "http://www.gongju.go.kr/images/kr/sub05/sub05_02_01_img03.png",
+        "http://www.gongju.go.kr/thumbnail/dwld/kr/ci_bi_down.zip",
+        "http://www.gongju.go.kr/images/kr/sub05/sub05_02_01_img01.jpg",
+        "http://www.gongju.go.kr/images/kr/sub05/sub05_02_01_img02.jpg",
+        "http://www.gongju.go.kr/images/kr/common/mark.png?ver=20250619"
+      ]
     },
     {
       "id": "공주시한마음장학회",
@@ -5052,7 +5231,7 @@
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
       "status": "page-fetch-failed",
       "asset_links": [],
-      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)>"
+      "error": "URLError"
     },
     {
       "id": "광명시",
@@ -5378,7 +5557,7 @@
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
       "status": "page-fetch-failed",
       "asset_links": [],
-      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)>"
+      "error": "URLError"
     },
     {
       "id": "광주광역시교육청",
@@ -5420,7 +5599,7 @@
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
       "status": "page-fetch-failed",
       "asset_links": [],
-      "error": "<urlopen error [Errno 54] Connection reset by peer>"
+      "error": "URLError"
     },
     {
       "id": "광주광역시동구문화관광재단",
@@ -5676,7 +5855,7 @@
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
       "status": "page-fetch-failed",
       "asset_links": [],
-      "error": "HTTP Error 404: "
+      "error": "HTTPError"
     },
     {
       "id": "광주정보문화산업진흥원",
@@ -5820,9 +5999,29 @@
       "official_source_page": "https://www.naruart.or.kr/foundation/intro_self.php",
       "website": "https://www.naruart.or.kr/",
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
-      "status": "page-fetch-failed",
-      "asset_links": [],
-      "error": "HTTP Error 403: Forbidden"
+      "status": "asset-links-found",
+      "asset_links": [
+        "https://www.naruart.or.kr/img/apple-icon-57x57.png",
+        "https://www.naruart.or.kr/img/apple-icon-60x60.png",
+        "https://www.naruart.or.kr/img/apple-icon-72x72.png",
+        "https://www.naruart.or.kr/img/apple-icon-76x76.png",
+        "https://www.naruart.or.kr/img/apple-icon-114x114.png",
+        "https://www.naruart.or.kr/img/apple-icon-120x120.png",
+        "https://www.naruart.or.kr/img/apple-icon-144x144.png",
+        "https://www.naruart.or.kr/img/apple-icon-152x152.png",
+        "https://www.naruart.or.kr/img/apple-icon-180x180.png",
+        "https://www.naruart.or.kr/img/android-icon-192x192.png",
+        "https://www.naruart.or.kr/img/favicon-32x32.png",
+        "https://www.naruart.or.kr/img/favicon-96x96.png",
+        "https://www.naruart.or.kr/img/favicon-16x16.png",
+        "https://www.naruart.or.kr/img/sns-top-instar.png",
+        "https://www.naruart.or.kr/img/sns-top-blog.png",
+        "https://www.naruart.or.kr/img/sns-top-ch-basic.png",
+        "https://www.naruart.or.kr/img/sns-top-youtube.png",
+        "https://www.naruart.or.kr/img/mo_sns_instar.png",
+        "https://www.naruart.or.kr/img/mo_sns_blog.png",
+        "https://www.naruart.or.kr/img/mo-sns-ch.png"
+      ]
     },
     {
       "id": "괴산군",
@@ -5966,9 +6165,15 @@
       "official_source_page": "https://www.gurohope.or.kr/intro/mission-vision/",
       "website": "http://www.gurohope.or.kr/",
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
-      "status": "page-fetch-failed",
-      "asset_links": [],
-      "error": "HTTP Error 403: Forbidden"
+      "status": "asset-links-found",
+      "asset_links": [
+        "https://www.gurohope.or.kr/wp-content/themes/gurohope/favicon-152.png",
+        "https://www.gurohope.or.kr/wp-content/themes/gurohope/assets/images/logo.png",
+        "https://www.gurohope.or.kr/wp-content/uploads/2026/04/구로희망복지재단-정관2026.04.pdf",
+        "https://www.gurohope.or.kr/wp-content/themes/gurohope/assets/images/logo.ai",
+        "https://www.gurohope.or.kr/wp-content/themes/gurohope/assets/images/ci-ai.png",
+        "https://www.gurohope.or.kr/wp-content/themes/gurohope/assets/images/logo-w.png"
+      ]
     },
     {
       "id": "구리농수산물공사",
@@ -6105,9 +6310,24 @@
       "official_source_page": "https://www.nst.re.kr/www/contents.do?key=43",
       "website": "https://www.nst.re.kr",
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
-      "status": "page-fetch-failed",
-      "asset_links": [],
-      "error": "HTTP Error 403: Forbidden"
+      "status": "asset-links-found",
+      "asset_links": [
+        "https://www.nst.re.kr/common/images/layout/logo.png",
+        "https://www.nst.re.kr/site/www/images/common/search_logo.png",
+        "https://www.nst.re.kr/common/images/layout/lnb_logo.png",
+        "https://www.nst.re.kr/site/www/images/contents/cts43_logo01.png",
+        "https://www.nst.re.kr/site/www/images/contents/cts43_logo02.png",
+        "https://www.nst.re.kr/site/www/images/contents/cts43_logo03.png",
+        "https://www.nst.re.kr/site/www/images/contents/cts43_logo04.png",
+        "https://www.nst.re.kr/site/www/images/contents/cts43_logo05.png",
+        "https://www.nst.re.kr/site/www/images/contents/cts43_logo06.png",
+        "https://www.nst.re.kr/site/www/images/contents/cts43_logo07.png",
+        "https://www.nst.re.kr/DATA/banner/20260916091910478_zITWyTTl.png",
+        "https://www.nst.re.kr/DATA/banner/20260323105254017_vnPUwF2g.png",
+        "https://www.nst.re.kr/common/images/layout/footer_logo.svg",
+        "https://www.nst.re.kr/common/images/layout/nuri_mark.png",
+        "https://www.nst.re.kr/common/images/layout/wa_mark2.png"
+      ]
     },
     {
       "id": "국가과학기술인력개발원",
@@ -6270,7 +6490,7 @@
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
       "status": "page-fetch-failed",
       "asset_links": [],
-      "error": "HTTP Error 400: Bad Request"
+      "error": "HTTPError"
     },
     {
       "id": "국가수리과학연구소",
@@ -6279,9 +6499,29 @@
       "official_source_page": "https://www.nims.re.kr/intro/pageView/45",
       "website": "http://www.nims.re.kr",
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
-      "status": "page-fetch-failed",
-      "asset_links": [],
-      "error": "[Errno 54] Connection reset by peer"
+      "status": "asset-links-found",
+      "asset_links": [
+        "https://www.nims.re.kr/resources/images/new_main2/main_logo_w.png",
+        "https://www.nims.re.kr/resources/images/new_main2/main_logo_b.png",
+        "https://www.nims.re.kr/resources/images/new_main2/top_btn_w.png",
+        "https://www.nims.re.kr/resources/images/new_main2/main_btn_close.png",
+        "https://www.nims.re.kr/resources/images/new_main2/top_btn_b.png",
+        "https://www.nims.re.kr/resources/images/new_main2/main_btn_close_b.png",
+        "https://www.nims.re.kr/resources/images/new_main2/top_menu_b.png",
+        "https://www.nims.re.kr/resources/images/new_main2/top_menu_w.png",
+        "https://www.nims.re.kr/resources/images/nav_bg.png",
+        "https://www.nims.re.kr/resources/images/btn_facebook2.png",
+        "https://www.nims.re.kr/resources/images/btn_twitter2.png",
+        "https://www.nims.re.kr/resources/images/btn_print2.png",
+        "https://www.nims.re.kr/resources/images/content/CI_AI.zip",
+        "https://www.nims.re.kr/resources/images/content/CI_JPG.zip",
+        "https://www.nims.re.kr/resources/images/content/CI_PDF.zip",
+        "https://www.nims.re.kr/resources/images/content/Nims_Signature.zip",
+        "https://www.nims.re.kr/resources/images/content/ci_intro_img1.png",
+        "https://www.nims.re.kr/resources/images/safe_copy.png",
+        "https://www.nims.re.kr/resources/images/ethics_btn.png",
+        "https://www.nims.re.kr/resources/images/logo_copy_nims.png"
+      ]
     },
     {
       "id": "국가유산진흥원",
@@ -6432,7 +6672,7 @@
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
       "status": "page-fetch-failed",
       "asset_links": [],
-      "error": "HTTP Error 500: Internal Server Error"
+      "error": "HTTPError"
     },
     {
       "id": "국립공원공단",
@@ -6540,7 +6780,7 @@
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
       "status": "page-fetch-failed",
       "asset_links": [],
-      "error": "HTTP Error 400: Bad Request"
+      "error": "HTTPError"
     },
     {
       "id": "국립낙동강생물자원관",
@@ -6564,9 +6804,13 @@
       "official_source_page": "https://www.dnsm.or.kr/about/symbol.do",
       "website": "http://www.dnsm.or.kr",
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
-      "status": "page-fetch-failed",
-      "asset_links": [],
-      "error": "[Errno 54] Connection reset by peer"
+      "status": "asset-links-found",
+      "asset_links": [
+        "https://www.dnsm.or.kr/images/favicon/favicon_32.png",
+        "https://www.dnsm.or.kr/images/favicon/favicon_180.png",
+        "https://www.dnsm.or.kr/images/favicon/favicon_192.png",
+        "https://www.dnsm.or.kr/images/favicon/favicon_512.png"
+      ]
     },
     {
       "id": "국립무형유산원",
@@ -6663,7 +6907,7 @@
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
       "status": "page-fetch-failed",
       "asset_links": [],
-      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)>"
+      "error": "URLError"
     },
     {
       "id": "국립부산기계공업고등학교",
@@ -6692,7 +6936,7 @@
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
       "status": "page-fetch-failed",
       "asset_links": [],
-      "error": "HTTP Error 404: Not Found"
+      "error": "HTTPError"
     },
     {
       "id": "국립산림품종관리센터",
@@ -6703,7 +6947,7 @@
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
       "status": "page-fetch-failed",
       "asset_links": [],
-      "error": "HTTP Error 404: Not Found"
+      "error": "HTTPError"
     },
     {
       "id": "국립생물자원관",
@@ -6775,7 +7019,7 @@
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
       "status": "page-fetch-failed",
       "asset_links": [],
-      "error": "HTTP Error 404: Not Found"
+      "error": "HTTPError"
     },
     {
       "id": "국립수산과학원",
@@ -6786,7 +7030,7 @@
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
       "status": "page-fetch-failed",
       "asset_links": [],
-      "error": "HTTP Error 404: Not Found"
+      "error": "HTTPError"
     },
     {
       "id": "국립수산물품질관리원",
@@ -6910,7 +7154,7 @@
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
       "status": "page-fetch-failed",
       "asset_links": [],
-      "error": "HTTP Error 404: Not Found"
+      "error": "HTTPError"
     },
     {
       "id": "국립전파연구원",
@@ -6942,7 +7186,7 @@
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
       "status": "page-fetch-failed",
       "asset_links": [],
-      "error": "HTTP Error 404: Not Found"
+      "error": "HTTPError"
     },
     {
       "id": "국립중앙도서관",
@@ -7070,7 +7314,7 @@
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
       "status": "page-fetch-failed",
       "asset_links": [],
-      "error": "HTTP Error 404: "
+      "error": "HTTPError"
     },
     {
       "id": "국립항공박물관",
@@ -7404,7 +7648,7 @@
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
       "status": "page-fetch-failed",
       "asset_links": [],
-      "error": "<urlopen error timed out>"
+      "error": "URLError"
     },
     {
       "id": "국방전직교육원",
@@ -7526,7 +7770,7 @@
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
       "status": "page-fetch-failed",
       "asset_links": [],
-      "error": "HTTP Error 307: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nTemporary Redirect"
+      "error": "HTTPError"
     },
     {
       "id": "국토안전관리원",
@@ -7742,7 +7986,7 @@
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
       "status": "page-fetch-failed",
       "asset_links": [],
-      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)>"
+      "error": "URLError"
     },
     {
       "id": "군포도시공사",
@@ -8080,7 +8324,7 @@
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
       "status": "page-fetch-failed",
       "asset_links": [],
-      "error": "<urlopen error [SSL: DH_KEY_TOO_SMALL] dh key too small (_ssl.c:1081)>"
+      "error": "URLError"
     },
     {
       "id": "금천문화재단",
@@ -8329,7 +8573,7 @@
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
       "status": "page-fetch-failed",
       "asset_links": [],
-      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.kdjcenter.or.kr'. (_ssl.c:1081)>"
+      "error": "URLError"
     },
     {
       "id": "김제사랑장학재단",
@@ -8513,7 +8757,7 @@
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
       "status": "page-fetch-failed",
       "asset_links": [],
-      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+      "error": "URLError"
     },
     {
       "id": "김해문화관광재단",
@@ -8773,9 +9017,21 @@
       "official_source_page": "https://www.bsnamgu.go.kr/index.namgu?menuCd=DOM_000000101004001000",
       "website": "https://www.bsnamgu.go.kr/index.namgu?menuCd=DOM_000000102010002000",
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
-      "status": "page-fetch-failed",
-      "asset_links": [],
-      "error": "[Errno 54] Connection reset by peer"
+      "status": "asset-links-found",
+      "asset_links": [
+        "https://www.bsnamgu.go.kr/images/egovframework/namgu_2023/img_weather_02.svg",
+        "https://www.bsnamgu.go.kr/open/2024/promotion/promotion.pdf",
+        "https://www.bsnamgu.go.kr/images/egovframework/namgu_2023/loca_home.png",
+        "https://www.bsnamgu.go.kr/upload_data/namgu/symbol_01.zip",
+        "https://www.bsnamgu.go.kr/upload_data/namgu/symbol_02.jpg",
+        "https://www.bsnamgu.go.kr/images/egovframework/namgu/sub/sub0301_img02.jpg",
+        "https://www.bsnamgu.go.kr/upload_data/namgu/slogan_01.zip",
+        "https://www.bsnamgu.go.kr/upload_data/namgu/slogan_02.jpg",
+        "https://www.bsnamgu.go.kr/upload_data/namgu/char_01.zip",
+        "https://www.bsnamgu.go.kr/upload_data/namgu/char_02.jpg",
+        "https://www.bsnamgu.go.kr/upload_data/board_data/BBS_0000125/175748350038831.png",
+        "https://www.bsnamgu.go.kr/images/egovframework/namgu_2023/qrcode.png"
+      ]
     },
     {
       "id": "남도장학회",
@@ -8829,7 +9085,7 @@
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
       "status": "page-fetch-failed",
       "asset_links": [],
-      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+      "error": "URLError"
     },
     {
       "id": "남북하나재단",
@@ -8840,7 +9096,7 @@
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
       "status": "page-fetch-failed",
       "asset_links": [],
-      "error": "HTTP Error 404: 404"
+      "error": "URLError"
     },
     {
       "id": "남양주도시공사",
@@ -8957,7 +9213,7 @@
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
       "status": "page-fetch-failed",
       "asset_links": [],
-      "error": "HTTP Error 404: Not Found"
+      "error": "HTTPError"
     },
     {
       "id": "노원구시설관리공단",
@@ -9013,9 +9269,27 @@
       "official_source_page": "http://www.nonsan.go.kr/kor/html/sub04/04020701.html",
       "website": "http://www.nonsan.go.kr",
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
-      "status": "page-fetch-failed",
-      "asset_links": [],
-      "error": "timed out"
+      "status": "asset-links-found",
+      "asset_links": [
+        "http://www.nonsan.go.kr/kor/img/common/flag.jpg",
+        "http://www.nonsan.go.kr/kor/img/sub04/sub_04020701_img01.png",
+        "http://www.nonsan.go.kr/kor/img/sub04/sub_04020701_img02.png",
+        "http://www.nonsan.go.kr/kor/img/sub04/sub_04020701_img03.png",
+        "http://www.nonsan.go.kr/kor/img/sub04/sub_04020701_img04.png",
+        "http://www.nonsan.go.kr/kor/img/sub04/sub_04020701_img08.png",
+        "http://www.nonsan.go.kr/kor/img/sub04/sub_04020701_img05.png",
+        "http://www.nonsan.go.kr/kor/img/sub04/sub_04020701_img06.png",
+        "http://www.nonsan.go.kr/kor/img/sub04/sub_04020701_img07.png",
+        "http://www.nonsan.go.kr/kor/images/common/wa_mark.png?ver=1.2",
+        "http://www.nonsan.go.kr/kor/images/common/flag_mark.png",
+        "http://www.nonsan.go.kr/kor/images/common/lp_minwon_img_01.png",
+        "http://www.nonsan.go.kr/kor/images/common/lp_minwon_img_2.jpg",
+        "http://www.nonsan.go.kr/kor/images/common/lp_minwon_img_3.jpg",
+        "http://www.nonsan.go.kr/kor/images/common/lp_minwon_img_4.jpg",
+        "http://www.nonsan.go.kr/kor/images/common/lp_minwon_img_5.jpg",
+        "http://www.nonsan.go.kr/kor/images/common/lp_minwon_img_6.jpg",
+        "http://www.nonsan.go.kr/kor/images/common/lp_minwon_img_7.jpg"
+      ]
     },
     {
       "id": "논산시장학회",
@@ -9024,9 +9298,27 @@
       "official_source_page": "https://www.nonsan.go.kr/kor/html/sub04/04020701.html",
       "website": "https://www.nonsan.go.kr/kor/html/sub05/05090401.html",
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
-      "status": "page-fetch-failed",
-      "asset_links": [],
-      "error": "The read operation timed out"
+      "status": "asset-links-found",
+      "asset_links": [
+        "https://www.nonsan.go.kr/kor/img/common/flag.jpg",
+        "https://www.nonsan.go.kr/kor/img/sub04/sub_04020701_img01.png",
+        "https://www.nonsan.go.kr/kor/img/sub04/sub_04020701_img02.png",
+        "https://www.nonsan.go.kr/kor/img/sub04/sub_04020701_img03.png",
+        "https://www.nonsan.go.kr/kor/img/sub04/sub_04020701_img04.png",
+        "https://www.nonsan.go.kr/kor/img/sub04/sub_04020701_img08.png",
+        "https://www.nonsan.go.kr/kor/img/sub04/sub_04020701_img05.png",
+        "https://www.nonsan.go.kr/kor/img/sub04/sub_04020701_img06.png",
+        "https://www.nonsan.go.kr/kor/img/sub04/sub_04020701_img07.png",
+        "https://www.nonsan.go.kr/kor/images/common/wa_mark.png?ver=1.2",
+        "https://www.nonsan.go.kr/kor/images/common/flag_mark.png",
+        "https://www.nonsan.go.kr/kor/images/common/lp_minwon_img_01.png",
+        "https://www.nonsan.go.kr/kor/images/common/lp_minwon_img_2.jpg",
+        "https://www.nonsan.go.kr/kor/images/common/lp_minwon_img_3.jpg",
+        "https://www.nonsan.go.kr/kor/images/common/lp_minwon_img_4.jpg",
+        "https://www.nonsan.go.kr/kor/images/common/lp_minwon_img_5.jpg",
+        "https://www.nonsan.go.kr/kor/images/common/lp_minwon_img_6.jpg",
+        "https://www.nonsan.go.kr/kor/images/common/lp_minwon_img_7.jpg"
+      ]
     },
     {
       "id": "농림수산식품교육문화정보원",
@@ -9088,7 +9380,7 @@
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
       "status": "page-fetch-failed",
       "asset_links": [],
-      "error": "HTTP Error 500: Internal Server Error"
+      "error": "HTTPError"
     },
     {
       "id": "농업회사법인-주-동부팜",
@@ -9420,9 +9712,29 @@
       "official_source_page": "http://dy-welfare.or.kr/board_intro/intro_A6.asp",
       "website": "http://dy-welfare.or.kr/",
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
-      "status": "page-fetch-failed",
-      "asset_links": [],
-      "error": "HTTP Error 999: No Hacking"
+      "status": "asset-links-found",
+      "asset_links": [
+        "http://dy-welfare.or.kr/images/icon/arrow.png",
+        "http://dy-welfare.or.kr/images/button/logo.png",
+        "http://dy-welfare.or.kr/images/img/sub_img5.png",
+        "http://dy-welfare.or.kr/images/icon/icon_dot.jpg",
+        "http://dy-welfare.or.kr/file_data/board_news/202610/261013102535.jpg",
+        "http://dy-welfare.or.kr/images/img/left_callcenter_img.jpg",
+        "http://dy-welfare.or.kr/images/img/simbol.zip",
+        "http://dy-welfare.or.kr/images/img/img_ci01.jpg",
+        "http://dy-welfare.or.kr/images/img/img_ci02.jpg",
+        "http://dy-welfare.or.kr/images/img/img_ci03.jpg",
+        "http://dy-welfare.or.kr/images/button/partner01.png",
+        "http://dy-welfare.or.kr/images/button/partner02.png",
+        "http://dy-welfare.or.kr/images/button/partner03.png",
+        "http://dy-welfare.or.kr/images/button/partner04.png",
+        "http://dy-welfare.or.kr/images/button/partner09.png",
+        "http://dy-welfare.or.kr/images/button/partner05.png",
+        "http://dy-welfare.or.kr/images/button/partner06.png",
+        "http://dy-welfare.or.kr/images/button/partner08.png",
+        "http://dy-welfare.or.kr/images/button/partner10.png",
+        "http://dy-welfare.or.kr/images/button/partner11.png"
+      ]
     },
     {
       "id": "담양장학회",
@@ -9501,7 +9813,7 @@
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
       "status": "page-fetch-failed",
       "asset_links": [],
-      "error": "HTTP Error 403: Forbidden"
+      "error": "HTTPError"
     },
     {
       "id": "당진장학회",
@@ -9574,7 +9886,7 @@
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
       "status": "page-fetch-failed",
       "asset_links": [],
-      "error": "<urlopen error [Errno 54] Connection reset by peer>"
+      "error": "URLError"
     },
     {
       "id": "대구경북디자인진흥원",
@@ -9636,9 +9948,14 @@
       "official_source_page": "https://www.dpfc.or.kr/sub.php?Page1=4&amp;Page2=2&amp;Page3=3",
       "website": "https://www.dpfc.or.kr/index.php?type=main",
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
-      "status": "page-fetch-failed",
-      "asset_links": [],
-      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)>"
+      "status": "asset-links-found",
+      "asset_links": [
+        "https://www.dpfc.or.kr/images/common/favicon.png",
+        "https://www.dpfc.or.kr/images2/common/logo_header.png",
+        "https://www.dpfc.or.kr/images/main/img_weather01.png",
+        "https://www.dpfc.or.kr/images_ebi/common/location_arrow.png",
+        "https://www.dpfc.or.kr/images2/common/wa_icon_2026.png"
+      ]
     },
     {
       "id": "대구광역시",
@@ -9845,9 +10162,8 @@
       "official_source_page": "https://www.jung.daegu.kr/new/pages/happiness/page.html?mc=0055",
       "website": "http://www.jung.daegu.kr",
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
-      "status": "page-fetch-failed",
-      "asset_links": [],
-      "error": "Remote end closed connection without response"
+      "status": "page-no-direct-asset",
+      "asset_links": []
     },
     {
       "id": "대구광역시교육청",
@@ -9856,8 +10172,9 @@
       "official_source_page": "https://www.dge.go.kr/main/cm/cntnts/cntntsView.do?mi=6726&amp;cntntsId=3899",
       "website": "http://www.dge.go.kr",
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
-      "status": "page-no-direct-asset",
-      "asset_links": []
+      "status": "page-fetch-failed",
+      "asset_links": [],
+      "error": "HTTPError"
     },
     {
       "id": "대구광역시행복진흥사회서비스원",
@@ -9883,9 +10200,8 @@
       "official_source_page": "https://www.dtro.or.kr/index.do?menu_id=00000439&amp;servletPath=%2Findex.do",
       "website": "https://www.dtro.or.kr/",
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
-      "status": "page-fetch-failed",
-      "asset_links": [],
-      "error": "[Errno 54] Connection reset by peer"
+      "status": "page-no-direct-asset",
+      "asset_links": []
     },
     {
       "id": "대구농수산물유통관리공사",
@@ -9962,7 +10278,7 @@
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
       "status": "page-fetch-failed",
       "asset_links": [],
-      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)>"
+      "error": "URLError"
     },
     {
       "id": "대구염색산업단지관리공단",
@@ -10013,7 +10329,7 @@
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
       "status": "page-fetch-failed",
       "asset_links": [],
-      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)>"
+      "error": "URLError"
     },
     {
       "id": "대산그린컴플렉스주식회사",
@@ -10024,7 +10340,7 @@
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
       "status": "page-fetch-failed",
       "asset_links": [],
-      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+      "error": "URLError"
     },
     {
       "id": "대외경제정책연구원",
@@ -10073,7 +10389,7 @@
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
       "status": "page-fetch-failed",
       "asset_links": [],
-      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)>"
+      "error": "URLError"
     },
     {
       "id": "대전광역시-대덕구",
@@ -10161,7 +10477,7 @@
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
       "status": "page-fetch-failed",
       "asset_links": [],
-      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)>"
+      "error": "URLError"
     },
     {
       "id": "대전교통공사",
@@ -10215,7 +10531,7 @@
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
       "status": "page-fetch-failed",
       "asset_links": [],
-      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)>"
+      "error": "URLError"
     },
     {
       "id": "대전신용보증재단",
@@ -10270,9 +10586,11 @@
       "official_source_page": "https://www.dicia.or.kr/",
       "website": "https://www.dicia.or.kr/",
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
-      "status": "page-fetch-failed",
-      "asset_links": [],
-      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)>"
+      "status": "asset-links-found",
+      "asset_links": [
+        "https://www.dicia.or.kr/template/home/resources/images/main/logo.png",
+        "https://www.dicia.or.kr/template/home/resources/images/main/quick-img.png"
+      ]
     },
     {
       "id": "대전테크노파크",
@@ -10353,7 +10671,7 @@
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
       "status": "page-fetch-failed",
       "asset_links": [],
-      "error": "HTTP Error 404: Not Found"
+      "error": "HTTPError"
     },
     {
       "id": "대한민국동작주식회사",
@@ -10458,7 +10776,7 @@
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
       "status": "page-fetch-failed",
       "asset_links": [],
-      "error": "HTTP Error 404: Not Found"
+      "error": "HTTPError"
     },
     {
       "id": "대한체육회",
@@ -10843,7 +11161,7 @@
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
       "status": "page-fetch-failed",
       "asset_links": [],
-      "error": "HTTP Error 404: Not Found"
+      "error": "HTTPError"
     },
     {
       "id": "동해시",
@@ -10854,7 +11172,7 @@
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
       "status": "page-fetch-failed",
       "asset_links": [],
-      "error": "HTTP Error 404: Not Found"
+      "error": "URLError"
     },
     {
       "id": "동해시시설관리공단",
@@ -10887,7 +11205,7 @@
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
       "status": "page-fetch-failed",
       "asset_links": [],
-      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.msmarinecity.co.kr'. (_ssl.c:1000)>"
+      "error": "URLError"
     },
     {
       "id": "마포구시설관리공단",
@@ -11098,8 +11416,29 @@
       "official_source_page": "http://mokpobadaro.co.kr/shop/content.php?co_id=131_1",
       "website": "http://www.mokpobadaro.co.kr/",
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
-      "status": "page-no-direct-asset",
-      "asset_links": []
+      "status": "asset-links-found",
+      "asset_links": [
+        "http://mokpobadaro.co.kr/images/main/h_logo.png",
+        "http://mokpobadaro.co.kr/images/main/btn_search.png",
+        "http://mokpobadaro.co.kr/images/navigation/n_menu1.png",
+        "http://mokpobadaro.co.kr/images/navigation/n_menu11.png",
+        "http://mokpobadaro.co.kr/images/navigation/r_menu11.png",
+        "http://mokpobadaro.co.kr/images/navigation/n_menu12.png",
+        "http://mokpobadaro.co.kr/images/navigation/r_menu12.png",
+        "http://mokpobadaro.co.kr/images/navigation/n_menu13.png",
+        "http://mokpobadaro.co.kr/images/navigation/r_menu13.png",
+        "http://mokpobadaro.co.kr/images/navigation/n_menu14.png",
+        "http://mokpobadaro.co.kr/images/navigation/r_menu14.png",
+        "http://mokpobadaro.co.kr/images/navigation/n_menu15.png",
+        "http://mokpobadaro.co.kr/images/navigation/r_menu15.png",
+        "http://mokpobadaro.co.kr/images/navigation/n_menu2.png",
+        "http://mokpobadaro.co.kr/images/navigation/n_menu21.png",
+        "http://mokpobadaro.co.kr/images/navigation/r_menu21.png",
+        "http://mokpobadaro.co.kr/images/navigation/n_menu22.png",
+        "http://mokpobadaro.co.kr/images/navigation/r_menu22.png",
+        "http://mokpobadaro.co.kr/images/navigation/n_menu3.png",
+        "http://mokpobadaro.co.kr/images/navigation/n_menu31.png"
+      ]
     },
     {
       "id": "목포시",
@@ -11341,7 +11680,7 @@
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
       "status": "page-fetch-failed",
       "asset_links": [],
-      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)>"
+      "error": "URLError"
     },
     {
       "id": "문화체육관광부",
@@ -11374,7 +11713,7 @@
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
       "status": "page-fetch-failed",
       "asset_links": [],
-      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.nuac.go.kr'. (_ssl.c:1000)>"
+      "error": "URLError"
     },
     {
       "id": "민주화운동기념사업회",
@@ -11416,7 +11755,7 @@
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
       "status": "page-fetch-failed",
       "asset_links": [],
-      "error": "<urlopen error [SSL: DH_KEY_TOO_SMALL] dh key too small (_ssl.c:1000)>"
+      "error": "URLError"
     },
     {
       "id": "밀양물산주식회사",
@@ -11472,7 +11811,7 @@
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
       "status": "page-fetch-failed",
       "asset_links": [],
-      "error": "HTTP Error 500: Internal Server Error"
+      "error": "HTTPError"
     },
     {
       "id": "백운장학회",
@@ -11514,7 +11853,7 @@
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
       "status": "page-fetch-failed",
       "asset_links": [],
-      "error": "HTTP Error 403: Forbidden"
+      "error": "HTTPError"
     },
     {
       "id": "법무부",
@@ -11650,7 +11989,7 @@
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
       "status": "page-fetch-failed",
       "asset_links": [],
-      "error": "IncompleteRead(41165 bytes read)"
+      "error": "IncompleteRead"
     },
     {
       "id": "보성군",
@@ -11719,7 +12058,7 @@
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
       "status": "page-fetch-failed",
       "asset_links": [],
-      "error": "HTTP Error 404: Not Found"
+      "error": "HTTPError"
     },
     {
       "id": "봉화축제관광재단",
@@ -11728,9 +12067,29 @@
       "official_source_page": "https://bhftf.or.kr/bbs/content.php?co_id=ci",
       "website": "https://bhftf.or.kr/?home=1",
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
-      "status": "page-fetch-failed",
-      "asset_links": [],
-      "error": "HTTP Error 403: Forbidden"
+      "status": "asset-links-found",
+      "asset_links": [
+        "https://bhftf.or.kr/favicon/apple-icon-57x57.png",
+        "https://bhftf.or.kr/favicon/apple-icon-60x60.png",
+        "https://bhftf.or.kr/favicon/apple-icon-72x72.png",
+        "https://bhftf.or.kr/favicon/apple-icon-76x76.png",
+        "https://bhftf.or.kr/favicon/apple-icon-114x114.png",
+        "https://bhftf.or.kr/favicon/apple-icon-120x120.png",
+        "https://bhftf.or.kr/favicon/apple-icon-144x144.png",
+        "https://bhftf.or.kr/favicon/apple-icon-152x152.png",
+        "https://bhftf.or.kr/favicon/apple-icon-180x180.png",
+        "https://bhftf.or.kr/favicon/android-icon-192x192.png",
+        "https://bhftf.or.kr/favicon/favicon-32x32.png",
+        "https://bhftf.or.kr/favicon/favicon-96x96.png",
+        "https://bhftf.or.kr/favicon/favicon-16x16.png",
+        "https://bhftf.or.kr/theme/webon01/img/newimg/logo.png",
+        "https://bhftf.or.kr/theme/webon01/img/allmenu_close.png",
+        "https://bhftf.or.kr/theme/webon01/img/newimg/subvisual10.jpg",
+        "https://bhftf.or.kr/theme/webon01/img/newimg/subvisual1.jpg",
+        "https://bhftf.or.kr/theme/webon01/img/newimg/ci1.png",
+        "https://bhftf.or.kr/theme/webon01/img/newimg/ci2.png",
+        "https://bhftf.or.kr/theme/webon01/img/newimg/color_img1.png"
+      ]
     },
     {
       "id": "부산강서구장학회",
@@ -11761,7 +12120,7 @@
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
       "status": "page-fetch-failed",
       "asset_links": [],
-      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)>"
+      "error": "URLError"
     },
     {
       "id": "부산과학기술고등교육진흥원",
@@ -12262,7 +12621,7 @@
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
       "status": "page-fetch-failed",
       "asset_links": [],
-      "error": "HTTP Error 404: 404"
+      "error": "HTTPError"
     },
     {
       "id": "부산문화재단",
@@ -12271,8 +12630,9 @@
       "official_source_page": "http://www.bscf.or.kr/portal/contents.do?mId=0501040000",
       "website": "http://www.bscf.or.kr//main.do",
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
-      "status": "page-no-direct-asset",
-      "asset_links": []
+      "status": "page-fetch-failed",
+      "asset_links": [],
+      "error": "HTTPError"
     },
     {
       "id": "부산문화회관",
@@ -12481,7 +12841,7 @@
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
       "status": "page-fetch-failed",
       "asset_links": [],
-      "error": "HTTP Error 404: "
+      "error": "HTTPError"
     },
     {
       "id": "부산지방공단스포원-경륜",
@@ -12492,7 +12852,7 @@
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
       "status": "page-fetch-failed",
       "asset_links": [],
-      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)>"
+      "error": "URLError"
     },
     {
       "id": "부산진구장학회",
@@ -12548,7 +12908,7 @@
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
       "status": "page-fetch-failed",
       "asset_links": [],
-      "error": "HTTP Error 404: Not Found"
+      "error": "HTTPError"
     },
     {
       "id": "부산환경공단",
@@ -12586,7 +12946,7 @@
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
       "status": "page-fetch-failed",
       "asset_links": [],
-      "error": "<urlopen error [Errno 111] Connection refused>"
+      "error": "URLError"
     },
     {
       "id": "부여군굿뜨래장학회",
@@ -12706,9 +13066,16 @@
       "official_source_page": "https://www.bwyf.or.kr/bwyf/contents.do?key=2510",
       "website": "https://www.bwyf.or.kr/bwyf/index.do",
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
-      "status": "page-fetch-failed",
-      "asset_links": [],
-      "error": "HTTP Error 403: Forbidden"
+      "status": "asset-links-found",
+      "asset_links": [
+        "https://www.bwyf.or.kr/site/bwyf/images/common/weather/weather_icon4.png",
+        "https://www.bwyf.or.kr/site/bwyf/images/contents/bwyf_ci_1.png",
+        "https://www.bwyf.or.kr/DATA/download/bwyf/bwyf_ci_1.png",
+        "https://www.bwyf.or.kr/site/bwyf/images/contents/bwyf_ci_2.png",
+        "https://www.bwyf.or.kr/DATA/download/bwyf/bwyf_ci_2.png",
+        "https://www.bwyf.or.kr/site/bwyf/images/common/mark02.png",
+        "https://www.bwyf.or.kr/site/bwyf/images/common/mark01.png"
+      ]
     },
     {
       "id": "부천장학재단",
@@ -12825,7 +13192,7 @@
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
       "status": "page-fetch-failed",
       "asset_links": [],
-      "error": "HTTP Error 404: Not Found"
+      "error": "HTTPError"
     },
     {
       "id": "사립학교교직원연금공단",
@@ -12892,8 +13259,16 @@
       "official_source_page": "https://www.sccf.or.kr/sub/vision.php",
       "website": "http://www.sccf.or.kr/main/main.php",
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
-      "status": "page-no-direct-asset",
-      "asset_links": []
+      "status": "asset-links-found",
+      "asset_links": [
+        "https://www.sccf.or.kr/images/common/favicon.svg",
+        "https://www.sccf.or.kr/images/common/favicon.png",
+        "https://www.sccf.or.kr/images/common/sacheonsiLogo.png",
+        "https://www.sccf.or.kr/images/common/icon_search.png",
+        "https://www.sccf.or.kr/images/common/logo-origin.svg",
+        "https://www.sccf.or.kr/files/sccfci_png.zip",
+        "https://www.sccf.or.kr/files/sccfci.zip"
+      ]
     },
     {
       "id": "사천시",
@@ -13023,7 +13398,7 @@
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
       "status": "page-fetch-failed",
       "asset_links": [],
-      "error": "HTTP Error 404: Not Found"
+      "error": "HTTPError"
     },
     {
       "id": "산업연구원",
@@ -13102,8 +13477,20 @@
       "official_source_page": "http://sftf.scherb.or.kr/sub01/sub02_01.php",
       "website": "http://sftf.scherb.or.kr/main/main.php",
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
-      "status": "page-no-direct-asset",
-      "asset_links": []
+      "status": "asset-links-found",
+      "asset_links": [
+        "http://sftf.scherb.or.kr/img/favicon.png",
+        "http://sftf.scherb.or.kr/img/ic_home.png",
+        "http://sftf.scherb.or.kr/img/vision_img.png",
+        "http://sftf.scherb.or.kr/img/policy_img01.png",
+        "http://sftf.scherb.or.kr/img/policy_img02.png",
+        "http://sftf.scherb.or.kr/img/policy_img03.png",
+        "http://sftf.scherb.or.kr/img/ci_logo01.png",
+        "http://sftf.scherb.or.kr/img/ci_logo02.png",
+        "http://sftf.scherb.or.kr/img/sns_ic01.png",
+        "http://sftf.scherb.or.kr/img/sns_ic02.png",
+        "http://sftf.scherb.or.kr/img/logo.png"
+      ]
     },
     {
       "id": "상주시",
@@ -13312,7 +13699,7 @@
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
       "status": "page-fetch-failed",
       "asset_links": [],
-      "error": "<urlopen error [SSL: DH_KEY_TOO_SMALL] dh key too small (_ssl.c:1000)>"
+      "error": "URLError"
     },
     {
       "id": "서동이장학회",
@@ -13445,7 +13832,7 @@
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
       "status": "page-fetch-failed",
       "asset_links": [],
-      "error": "HTTP Error 403: Forbidden"
+      "error": "URLError"
     },
     {
       "id": "서산인재육성재단",
@@ -13922,7 +14309,7 @@
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
       "status": "page-fetch-failed",
       "asset_links": [],
-      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)>"
+      "error": "URLError"
     },
     {
       "id": "서울에너지공사",
@@ -14186,9 +14573,10 @@
       "official_source_page": "http://www.seocheon.go.kr/kor/sub06_03_02.do",
       "website": "http://www.seocheon.go.kr",
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
-      "status": "page-fetch-failed",
-      "asset_links": [],
-      "error": "RemoteDisconnected"
+      "status": "asset-links-found",
+      "asset_links": [
+        "http://www.seocheon.go.kr/thumbnail/fileInfo/FI_202608051053569850.PNG"
+      ]
     },
     {
       "id": "서천군-상하수도사업소",
@@ -14197,9 +14585,10 @@
       "official_source_page": "https://www.seocheon.go.kr/kor/sub06_03_02.do",
       "website": "https://www.seocheon.go.kr/water.do",
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
-      "status": "page-fetch-failed",
-      "asset_links": [],
-      "error": "HTTPError"
+      "status": "asset-links-found",
+      "asset_links": [
+        "https://www.seocheon.go.kr/thumbnail/fileInfo/FI_202608051053569850.PNG"
+      ]
     },
     {
       "id": "서초다산장학재단",
@@ -14262,9 +14651,29 @@
       "official_source_page": "https://www.swec.co.kr/",
       "website": "https://www.swec.co.kr/",
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
-      "status": "page-fetch-failed",
-      "asset_links": [],
-      "error": "HTTPError"
+      "status": "asset-links-found",
+      "asset_links": [
+        "https://www.swec.co.kr/images/sc_logo.png",
+        "https://www.swec.co.kr/design/ko/upload_file/visual_rolling/2ccbfb182a6dce1ab8baab334b055836_84396_1.jpg",
+        "https://www.swec.co.kr/design/ko/upload_file/visual_rolling/0e1e588328c302d1668349114c3957b9_57873_1.jpg",
+        "https://www.swec.co.kr/template/DESIGN_hospital07/ko/resource/images/hospital07_main_plus_btn01.png",
+        "https://www.swec.co.kr/thumb/486b583cbd530d706c028f0138265af9/480_360_a74a274721cc0689c6a5dd31ac2f.jpg",
+        "https://www.swec.co.kr/thumb/486b583cbd530d706c028f0138265af9/480_360_7c676de1cd8a87331ae31331e525.png",
+        "https://www.swec.co.kr/thumb/486b583cbd530d706c028f0138265af9/480_360_eae76faaa20448b8c4ec4eefb8f8.png",
+        "https://www.swec.co.kr/thumb/486b583cbd530d706c028f0138265af9/480_360_1414aab60aaa83f5b31ff18794ae.jpg",
+        "https://www.swec.co.kr/thumb/486b583cbd530d706c028f0138265af9/480_360_ab2ab484c288ef5ef8593c25208b.jpg",
+        "https://www.swec.co.kr/thumb/486b583cbd530d706c028f0138265af9/480_360_1b8398fee0aaeeebcf536aa4e672.jpg",
+        "https://www.swec.co.kr/thumb/486b583cbd530d706c028f0138265af9/480_360_30df0f10d8370707b444a4d68982.png",
+        "https://www.swec.co.kr/thumb/486b583cbd530d706c028f0138265af9/480_360_e8a4812d9ea13b5222a4c2c38d8d.png",
+        "https://www.swec.co.kr/thumb/486b583cbd530d706c028f0138265af9/480_360_cd6027480bfda1c6331bf6b1267a.png",
+        "https://www.swec.co.kr/thumb/486b583cbd530d706c028f0138265af9/480_360_669655d982c5db7e61df81113458.jpg",
+        "https://www.swec.co.kr/thumb/486b583cbd530d706c028f0138265af9/480_360_434a8b689defc17b7986265f9e84.png",
+        "https://www.swec.co.kr/thumb/486b583cbd530d706c028f0138265af9/480_360_873083f3c5e5b24a7977a76e413b.png",
+        "https://www.swec.co.kr/thumb/076590cf3a0c1ed47328768f4a890054/480_360_86db2c6c34909345fbf0279a1bc2.jpg",
+        "https://www.swec.co.kr/thumb/076590cf3a0c1ed47328768f4a890054/480_360_144c6106d875e15adceedb2bb5a7.jpg",
+        "https://www.swec.co.kr/thumb/076590cf3a0c1ed47328768f4a890054/480_360_561757c85719138a214fd8a21af5.jpg",
+        "https://www.swec.co.kr/thumb/076590cf3a0c1ed47328768f4a890054/480_360_0c1089e276b2b7da74169ab73a97.jpg"
+      ]
     },
     {
       "id": "선박해양플랜트연구소",
@@ -14757,9 +15166,21 @@
       "official_source_page": "https://www.sje.go.kr/sje/cm/cntnts/cntntsView.do?mi=52223&amp;cntntsId=35383",
       "website": "https://www.sje.go.kr/sje/main.do",
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
-      "status": "page-fetch-failed",
-      "asset_links": [],
-      "error": "URLError"
+      "status": "asset-links-found",
+      "asset_links": [
+        "https://www.sje.go.kr/images/web/sje/layout/logo.png",
+        "https://www.sje.go.kr/images/web/sje/layout/m_logo.png",
+        "https://www.sje.go.kr/images/web/sje/sub/btnPrint.png",
+        "https://www.sje.go.kr/images/web/sje/sub/btnShare.png",
+        "https://www.sje.go.kr/images/T1/con_com/comming_soon.png",
+        "https://www.sje.go.kr/images/web/sje/layout/link01_icon01.png",
+        "https://www.sje.go.kr/images/web/sje/layout/link01_icon02.png",
+        "https://www.sje.go.kr/images/web/sje/layout/link01_icon03.png",
+        "https://www.sje.go.kr/images/web/sje/layout/link01_icon04.png",
+        "https://www.sje.go.kr/images/web/sje/layout/img_lock.png",
+        "https://www.sje.go.kr/images/web/sje/layout/foot_img01.png",
+        "https://www.sje.go.kr/images/web/sje/layout/foot_img02.png"
+      ]
     },
     {
       "id": "세종특별자치시-시설관리공단",
@@ -15102,9 +15523,16 @@
       "official_source_page": "https://www.swcic.or.kr/abt/ci.asp",
       "website": "http://www.swcic.or.kr/",
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
-      "status": "page-fetch-failed",
-      "asset_links": [],
-      "error": "HTTPError"
+      "status": "asset-links-found",
+      "asset_links": [
+        "https://www.swcic.or.kr/images/common/top/img_logo.png",
+        "https://www.swcic.or.kr/images/sub/menu_city.png",
+        "https://www.swcic.or.kr/images/sub/ci.jpg",
+        "https://www.swcic.or.kr/abt/down_ci.zip",
+        "https://www.swcic.or.kr/abt/ci_jpg.zip",
+        "https://www.swcic.or.kr/images/de/btm_banner2023.png",
+        "https://www.swcic.or.kr/images/common/fam_logo.png"
+      ]
     },
     {
       "id": "수원특례시",
@@ -15172,9 +15600,29 @@
       "official_source_page": "https://sclocal.kr/",
       "website": "https://sclocal.kr/",
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
-      "status": "page-fetch-failed",
-      "asset_links": [],
-      "error": "HTTPError"
+      "status": "asset-links-found",
+      "asset_links": [
+        "https://sclocal.kr/upfiles/banner/3557121667.jpg",
+        "https://sclocal.kr/upfiles/banner/988244012.png",
+        "https://sclocal.kr/skin/site/sports/images/sclocal/top_bn_close.png",
+        "https://sclocal.kr/skin/site/sports/images/sclocal/hd_dv_ic.png",
+        "https://sclocal.kr/skin/site/sports/images/sclocal/hd_dv_open.png",
+        "https://sclocal.kr/skin/site/sports/images/sclocal/hd_dv_close.png",
+        "https://sclocal.kr/upfiles/banner/1087766127.png",
+        "https://sclocal.kr/upfiles/banner/4221063960.png",
+        "https://sclocal.kr/skin/site/sports/images/sclocal/search_close.png",
+        "https://sclocal.kr/skin/site/sports/images/sclocal/nav_all.png",
+        "https://sclocal.kr/upfiles/category/430970895.png",
+        "https://sclocal.kr/upfiles/category/1559859363.png",
+        "https://sclocal.kr/upfiles/category/2887911113.png",
+        "https://sclocal.kr/upfiles/category/1157332000.png",
+        "https://sclocal.kr/upfiles/category/2588290852.png",
+        "https://sclocal.kr/skin/site/sports/images/sclocal/nav_user_ic.png",
+        "https://sclocal.kr/skin/site/sports/images/sclocal/nav_wish_ic.png",
+        "https://sclocal.kr/skin/site/sports/images/sclocal/nav_cart_ic.png",
+        "https://sclocal.kr/skin/site/sports/images/sclocal/visual_prev.png",
+        "https://sclocal.kr/skin/site/sports/images/sclocal/visual_next.png"
+      ]
     },
     {
       "id": "순천바이오헬스케어연구센터",
@@ -16026,9 +16474,29 @@
       "official_source_page": "https://www.yangju.go.kr/www/contents.do?key=338",
       "website": "https://www.yangju.go.kr",
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
-      "status": "page-fetch-failed",
-      "asset_links": [],
-      "error": "RemoteDisconnected"
+      "status": "asset-links-found",
+      "asset_links": [
+        "https://www.yangju.go.kr/site/www/images/common/yangju_logo.png",
+        "https://www.yangju.go.kr/site/www/images/common/sub_logo_new20b.png",
+        "https://www.yangju.go.kr/site/www/images/main/taegugki.png",
+        "https://www.yangju.go.kr/www/images/common/menu_title00.png",
+        "https://www.yangju.go.kr/www/images/common/menu_title01.png",
+        "https://www.yangju.go.kr/www/images/common/menu_title02.png",
+        "https://www.yangju.go.kr/www/images/common/menu_title03.png",
+        "https://www.yangju.go.kr/www/images/common/menu_title04.png",
+        "https://www.yangju.go.kr/www/images/common/menu_title05.png",
+        "https://www.yangju.go.kr/site/www/images/common/search_title.png",
+        "https://www.yangju.go.kr/site/www/images/common/sns_icon01.png",
+        "https://www.yangju.go.kr/site/www/images/common/sns_icon02.png",
+        "https://www.yangju.go.kr/site/www/images/common/sns_icon03.png",
+        "https://www.yangju.go.kr/site/www/images/common/sns_icon04.png",
+        "https://www.yangju.go.kr/site/www/images/common/sns_icon05.png",
+        "https://www.yangju.go.kr/site/www/images/common/sns_icon06.png",
+        "https://www.yangju.go.kr/site/www/images/common/sns_icon07.png",
+        "https://www.yangju.go.kr/site/www/images/contents/cts338_img.png",
+        "https://www.yangju.go.kr/common/images/common/footer_logo.png",
+        "https://www.yangju.go.kr/site/www/images/common/image_tel.png"
+      ]
     },
     {
       "id": "양주시희망장학재단",
@@ -16505,9 +16973,29 @@
       "official_source_page": "https://www.ydp.go.kr/www/contents.do?key=2895&amp;",
       "website": "http://www.ydp.go.kr",
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
-      "status": "page-fetch-failed",
-      "asset_links": [],
-      "error": "RemoteDisconnected"
+      "status": "asset-links-found",
+      "asset_links": [
+        "https://www.ydp.go.kr/site/www/images/common/sns_01.png",
+        "https://www.ydp.go.kr/site/www/images/common/sns_02.png",
+        "https://www.ydp.go.kr/site/www/images/common/sns_03.png",
+        "https://www.ydp.go.kr/site/www/images/common/sns_04.png",
+        "https://www.ydp.go.kr/site/www/images/common/sns_05.png",
+        "https://www.ydp.go.kr/site/www/images/common/sns_06.png",
+        "https://www.ydp.go.kr/site/www/images/common/sns_07.png",
+        "https://www.ydp.go.kr/site/www/images/common/h1_2026.png?ver=20260827",
+        "https://www.ydp.go.kr/site/www/images/contents/cts2895_img.png",
+        "https://www.ydp.go.kr/site/www/images/contents/cts2894_icon.png",
+        "https://www.ydp.go.kr/site/www/images/contents/cts2894_icon2.png",
+        "https://www.ydp.go.kr/DATA/download/www/cts2895_file1.zip",
+        "https://www.ydp.go.kr/site/www/images/contents/cts2895_img2.png",
+        "https://www.ydp.go.kr/DATA/download/www/cts2895_file2.zip",
+        "https://www.ydp.go.kr/site/www/images/contents/cts2895_img3.png",
+        "https://www.ydp.go.kr/DATA/download/www/cts2895_file3.zip",
+        "https://www.ydp.go.kr/site/www/images/contents/cts2895_img4.png",
+        "https://www.ydp.go.kr/DATA/download/www/cts2895_file4.zip",
+        "https://www.ydp.go.kr/site/www/images/contents/cts2895_img5.png",
+        "https://www.ydp.go.kr/DATA/download/www/cts2895_file5.pdf"
+      ]
     },
     {
       "id": "영등포구시설관리공단",
@@ -16668,9 +17156,23 @@
       "official_source_page": "https://www.yctf.or.kr/doc/intro5.php",
       "website": "https://www.yctf.or.kr/",
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
-      "status": "page-fetch-failed",
-      "asset_links": [],
-      "error": "HTTPError"
+      "status": "asset-links-found",
+      "asset_links": [
+        "https://www.yctf.or.kr/images/common/login.png",
+        "https://www.yctf.or.kr/images/common/join.png",
+        "https://www.yctf.or.kr/images/sub/intro5-img1.png",
+        "https://www.yctf.or.kr/images/sub/yctf_logo.zip",
+        "https://www.yctf.or.kr/images/sub/intro5-img2.png",
+        "https://www.yctf.or.kr/images/sub/intro5-img3.png",
+        "https://www.yctf.or.kr/images/sub/intro5-img4.png",
+        "https://www.yctf.or.kr/images/sub/intro5-img5.png",
+        "https://www.yctf.or.kr/images/common/f_logo.png",
+        "https://www.yctf.or.kr/images/main/sns1.png",
+        "https://www.yctf.or.kr/images/main/sns2.png",
+        "https://www.yctf.or.kr/images/main/sns3.png",
+        "https://www.yctf.or.kr/images/main/sns4.png",
+        "https://www.yctf.or.kr/images/main/sns5.png"
+      ]
     },
     {
       "id": "영주시",
@@ -17644,9 +18146,29 @@
       "official_source_page": "http://uipa.or.kr/webuser/page/ci.html",
       "website": "http://uipa.or.kr/webuser/page/main.html",
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
-      "status": "page-fetch-failed",
-      "asset_links": [],
-      "error": "HTTPError"
+      "status": "asset-links-found",
+      "asset_links": [
+        "https://uipa.or.kr/webuser/img/top-logo.png",
+        "https://uipa.or.kr/webuser/page/img/tsch-btn-icon.png",
+        "https://uipa.or.kr/webuser/page/img/tmenu-btn-icon.png",
+        "http://uipa.or.kr/webuser/page/img/JPG_ci.zip",
+        "http://uipa.or.kr/webuser/page/img/PNG_ci.zip",
+        "http://uipa.or.kr/webuser/page/img/AI_ci.zip",
+        "http://uipa.or.kr/webuser/page/img/img_ci1.jpg",
+        "http://uipa.or.kr/webuser/page/img/img_ci5.jpg",
+        "http://uipa.or.kr/webuser/page/img/img_ci2.jpg",
+        "http://uipa.or.kr/webuser/page/img/img_ci3.jpg",
+        "http://uipa.or.kr/webuser/page/img/img_ci4.jpg",
+        "https://uipa.or.kr/data/upload/carousel/3/34/794b38e1ff3a8ffff0af01c6f302ace6_thumb_150x43.jpg",
+        "https://uipa.or.kr/data/upload/carousel/3/35/9dd3f124c3cc8deb92b31cb20d419185_thumb_150x43.jpg",
+        "https://uipa.or.kr/data/upload/carousel/3/36/085db15d57eb113cf69594ce45bf9977_thumb_150x43.png",
+        "https://uipa.or.kr/data/upload/carousel/3/37/9395efd6de4bb47ab2fa38ae9bd5a968_thumb_150x43.png",
+        "https://uipa.or.kr/data/upload/carousel/3/38/0cb90cc058391dbdde6dbd9ebdfe4c13_thumb_150x43.png",
+        "https://uipa.or.kr/data/upload/carousel/4/41/bec277d99157a06c7080fcc569e2dee4_thumb_150x43.png",
+        "https://uipa.or.kr/data/upload/carousel/6/61/920ad3b101b193bac806193dda438229_thumb_150x43.png",
+        "https://uipa.or.kr/webuser/img/f-logo.png",
+        "http://uipa.or.kr/webuser/img/btn_close.png"
+      ]
     },
     {
       "id": "울산테크노파크",
@@ -17983,9 +18505,15 @@
       "official_source_page": "https://www.eumseong.go.kr/www/contents.do?key=410",
       "website": "https://scholarship.eumseong.go.kr/www/index.do",
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
-      "status": "page-fetch-failed",
-      "asset_links": [],
-      "error": "HTTPError"
+      "status": "asset-links-found",
+      "asset_links": [
+        "https://www.eumseong.go.kr/site/public/images/common/link_text.png",
+        "https://www.eumseong.go.kr/site/www/images/contents/cts410_img01.jpg",
+        "https://www.eumseong.go.kr/site/www/images/contents/cts410_img02.jpg",
+        "https://www.eumseong.go.kr/common/images/program/img_opentype04.png",
+        "https://www.eumseong.go.kr/site/public/images/common/footer_logo.png",
+        "https://www.eumseong.go.kr/common/images/WA_Mark_260308.png"
+      ]
     },
     {
       "id": "의령군",
@@ -19834,9 +20362,17 @@
       "official_source_page": "https://gwep.or.kr/theme/page/html/company/023.php",
       "website": "https://gwep.or.kr/",
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
-      "status": "page-fetch-failed",
-      "asset_links": [],
-      "error": "HTTPError"
+      "status": "asset-links-found",
+      "asset_links": [
+        "https://gwep.or.kr/theme/page/html/image/top_logo.png",
+        "https://gwep.or.kr/theme/page/html/image/btn_search.png",
+        "https://gwep.or.kr/theme/page/html/image/ci01.jpg",
+        "https://gwep.or.kr/theme/page/html/image/ci02.jpg",
+        "https://gwep.or.kr/theme/page/html/image/ci03.jpg",
+        "https://gwep.or.kr/theme/page/html/image/ci04.jpg",
+        "https://gwep.or.kr/theme/page/html/company/movie.zip",
+        "https://gwep.or.kr/theme/page/html/company/강원특별자치도경제진흥원로고.zip"
+      ]
     },
     {
       "id": "재단법인강원특별자치도사회서비스원",
@@ -19845,9 +20381,29 @@
       "official_source_page": "https://gangwon.pass.or.kr/content.php?page=ci",
       "website": "https://gangwon.pass.or.kr/",
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
-      "status": "page-fetch-failed",
-      "asset_links": [],
-      "error": "HTTPError"
+      "status": "asset-links-found",
+      "asset_links": [
+        "https://gangwon.pass.or.kr/theme/gwpass/images/common/logo_symbol.svg",
+        "https://gangwon.pass.or.kr/theme/gwpass/images/common/logo_text.svg",
+        "https://gangwon.pass.or.kr/plugin/sns/icon/icon_kakao.png",
+        "https://gangwon.pass.or.kr/plugin/sns/icon/icon_band.png",
+        "https://gangwon.pass.or.kr/plugin/sns/icon/icon_naver.png",
+        "https://gangwon.pass.or.kr/plugin/sns/icon/kakaotalk.png",
+        "https://gangwon.pass.or.kr/plugin/sns/icon/facebook.png",
+        "https://gangwon.pass.or.kr/plugin/sns/icon/twitter.png",
+        "https://gangwon.pass.or.kr/plugin/sns/icon/gplus.png",
+        "http://services.meadroid.com/images/sx-header.png",
+        "http://services.meadroid.com/images/sx-footer-final.png",
+        "https://gangwon.pass.or.kr/theme/gwpass/images/common/logo.svg",
+        "https://gangwon.pass.or.kr/theme/gwpass/images/intro/ci_color01.png",
+        "https://gangwon.pass.or.kr/theme/gwpass/images/intro/ci_color02.png",
+        "https://gangwon.pass.or.kr/theme/gwpass/images/intro/ci_color03.png",
+        "https://gangwon.pass.or.kr/theme/gwpass/images/intro/ci_logo01.png",
+        "https://gangwon.pass.or.kr/theme/gwpass/images/intro/ci_logo02.png",
+        "https://gangwon.pass.or.kr/theme/gwpass/images/intro/ci_logo03.png",
+        "https://gangwon.pass.or.kr/theme/gwpass/images/intro/ci_logo04.png",
+        "https://gangwon.pass.or.kr/theme/gwpass/images/intro/ci_logo05.png"
+      ]
     },
     {
       "id": "재단법인강원혁신도시발전지원센터",
@@ -20400,9 +20956,18 @@
       "official_source_page": "https://www.gfi.re.kr/newpage/newpage.php?f_id=bi",
       "website": "https://www.gfi.re.kr/main/index.php",
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
-      "status": "page-fetch-failed",
-      "asset_links": [],
-      "error": "HTTPError"
+      "status": "asset-links-found",
+      "asset_links": [
+        "https://www.gfi.re.kr/skin/basic/images/favicon/favicon32.png",
+        "https://www.gfi.re.kr/skin/basic/images/favicon/favicon192.png",
+        "https://www.gfi.re.kr/skin/basic/images/favicon/favicon180.png",
+        "https://www.gfi.re.kr/skin/basic/images/allcate.png",
+        "https://www.gfi.re.kr/skin/basic/images/x.png",
+        "https://www.gfi.re.kr/skin/basic/images/f_logo_m.png",
+        "https://www.gfi.re.kr/skin/basic/images/home_btn.png",
+        "https://www.gfi.re.kr/skin/basic/images/bi_sym.png",
+        "https://www.gfi.re.kr/skin/basic/images/bi_txt.png"
+      ]
     },
     {
       "id": "재단법인곡성군미래교육재단",
@@ -20488,8 +21053,17 @@
       "official_source_page": "https://www.gcsf.kr/html/sub0102.php",
       "website": "https://www.gcsf.kr/",
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
-      "status": "page-no-direct-asset",
-      "asset_links": []
+      "status": "asset-links-found",
+      "asset_links": [
+        "https://www.gcsf.kr/images/logo.svg",
+        "https://www.gcsf.kr/images/close.png",
+        "https://www.gcsf.kr/images/sub0102_1.jpg",
+        "https://www.gcsf.kr/images/ptn1.jpg",
+        "https://www.gcsf.kr/images/ptn2.jpg",
+        "https://www.gcsf.kr/images/ptn3.jpg",
+        "https://www.gcsf.kr/images/sns_ncafe.png",
+        "https://www.gcsf.kr/images/sns_blog.png"
+      ]
     },
     {
       "id": "재단법인관악문화재단",
@@ -20910,9 +21484,15 @@
       "official_source_page": "https://www.insamfestival.co.kr/html/kr/sub1/sub1_0103.html",
       "website": "https://www.insamfestival.co.kr/html/kr/index.html",
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
-      "status": "page-fetch-failed",
-      "asset_links": [],
-      "error": "RemoteDisconnected"
+      "status": "asset-links-found",
+      "asset_links": [
+        "https://www.insamfestival.co.kr/pcms/common/images/favicon_152.png",
+        "https://www.insamfestival.co.kr/images/kr/sub1/logo_CI.png",
+        "https://www.insamfestival.co.kr/images/kr/sub1/logo_CI_ex.png",
+        "https://www.insamfestival.co.kr/downloads/CI_logo.ai",
+        "https://www.insamfestival.co.kr/downloads/CI_logo.jpg",
+        "https://www.insamfestival.co.kr/downloads/CI_Rule.pdf"
+      ]
     },
     {
       "id": "재단법인김포fc",
@@ -21595,8 +22175,24 @@
       "official_source_page": "https://busan.pass.or.kr/about/sub6.php",
       "website": "https://busan.pass.or.kr/",
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
-      "status": "page-no-direct-asset",
-      "asset_links": []
+      "status": "asset-links-found",
+      "asset_links": [
+        "https://busan.pass.or.kr/img/common/logo.png?1758503032",
+        "https://busan.pass.or.kr/img/common/menu_ov_img.jpg",
+        "https://busan.pass.or.kr/img/common/short_img.png",
+        "https://busan.pass.or.kr/img/common/home.png?=1",
+        "https://busan.pass.or.kr/img/common/q_top.png",
+        "https://busan.pass.or.kr/img/about/logo.png",
+        "https://busan.pass.or.kr/img/about/ci1.png",
+        "https://busan.pass.or.kr/img/about/ci2.png",
+        "https://busan.pass.or.kr/img/about/ci3.png",
+        "https://busan.pass.or.kr/about/CI.jpg",
+        "https://busan.pass.or.kr/about/CI.png",
+        "https://busan.pass.or.kr/about/CI.ai",
+        "https://busan.pass.or.kr/img/common/c_logo.png?1758503031",
+        "https://busan.pass.or.kr/include/2026.pdf",
+        "https://busan.pass.or.kr/img/common/wa2.png?=1"
+      ]
     },
     {
       "id": "재단법인부산디자인진흥원",
@@ -21663,9 +22259,29 @@
       "official_source_page": "https://www.bsjincf.or.kr/04_int/int02.asp",
       "website": "https://www.bsjincf.or.kr/",
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
-      "status": "page-fetch-failed",
-      "asset_links": [],
-      "error": "BadStatusLine"
+      "status": "asset-links-found",
+      "asset_links": [
+        "https://www.bsjincf.or.kr/images/common/logo.png",
+        "https://www.bsjincf.or.kr/images/common/mobile_exit.png",
+        "https://www.bsjincf.or.kr/images/common/sns_ico_y.png",
+        "https://www.bsjincf.or.kr/images/common/sns_ico_m_y.png",
+        "https://www.bsjincf.or.kr/images/common/sns_ico_i_t1.png",
+        "https://www.bsjincf.or.kr/images/common/sns_ico_m_i_t1.png",
+        "https://www.bsjincf.or.kr/images/common/sns_ico_i.png",
+        "https://www.bsjincf.or.kr/images/common/sns_ico_m_i.png",
+        "https://www.bsjincf.or.kr/images/common/sns_ico_f.png",
+        "https://www.bsjincf.or.kr/images/common/sns_ico_m_f.png",
+        "https://www.bsjincf.or.kr/images/common/top_ico_wrt.png",
+        "https://www.bsjincf.or.kr/images/common/top_ico_wrt_m.png",
+        "https://www.bsjincf.or.kr/images/common/topico_search.png",
+        "https://www.bsjincf.or.kr/images/common/topico_search_m.png",
+        "https://www.bsjincf.or.kr/images/common/top_licon.png",
+        "https://www.bsjincf.or.kr/images/common/top_licon_m.png",
+        "https://www.bsjincf.or.kr/images/common/top_searchicon.png",
+        "https://www.bsjincf.or.kr/images/common/ico_search.png",
+        "https://www.bsjincf.or.kr/images/common/ico_search_m.png",
+        "https://www.bsjincf.or.kr/images/common/sch_morearr.png"
+      ]
     },
     {
       "id": "재단법인부안군근농인재육성재단",
@@ -22158,9 +22774,18 @@
       "official_source_page": "https://suwonfc.com/?p=37",
       "website": "http://suwonfc.com/index.php#url",
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
-      "status": "page-fetch-failed",
-      "asset_links": [],
-      "error": "HTTPError"
+      "status": "asset-links-found",
+      "asset_links": [
+        "https://suwonfc.com/inc/img/common/favicon.png",
+        "https://suwonfc.com/inc/images_new/common/logo_top.png",
+        "https://suwonfc.com/inc/img/sub/page37_img01.jpg",
+        "https://suwonfc.com/_File/organ/SuwonFC_New.zip",
+        "https://suwonfc.com/inc/img/sub/page37_img02.jpg",
+        "https://suwonfc.com/inc/img/sub/page37_img011.jpg",
+        "https://suwonfc.com/inc/file/20th_logo.zip",
+        "https://suwonfc.com/inc/images_new/common/logo_bottom.png",
+        "https://suwonfc.com/inc/img/common/logo_nationaltax.png"
+      ]
     },
     {
       "id": "재단법인수원도시재단",
@@ -22406,9 +23031,24 @@
       "official_source_page": "http://www.kjsilla.re.kr/",
       "website": "http://www.kjsilla.re.kr/",
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
-      "status": "page-fetch-failed",
-      "asset_links": [],
-      "error": "HTTPError"
+      "status": "asset-links-found",
+      "asset_links": [
+        "http://www.kjsilla.re.kr/resources/common/images/banner01.jpg",
+        "http://www.kjsilla.re.kr/resources/common/images/banner02.jpg",
+        "http://www.kjsilla.re.kr/resources/common/images/banner03.jpg",
+        "http://www.kjsilla.re.kr/resources/common/images/banner04.jpg",
+        "http://www.kjsilla.re.kr/resources/common/images/banner05.jpg",
+        "http://www.kjsilla.re.kr/resources/common/images/banner06.jpg",
+        "http://www.kjsilla.re.kr/resources/common/images/rel_ban00.png",
+        "http://www.kjsilla.re.kr/resources/common/images/rel_ban01.png",
+        "http://www.kjsilla.re.kr/resources/common/images/rel_ban02.png",
+        "http://www.kjsilla.re.kr/resources/common/images/rel_ban03.png",
+        "http://www.kjsilla.re.kr/resources/common/images/rel_ban04.png",
+        "http://www.kjsilla.re.kr/resources/common/images/rel_ban05.png",
+        "http://www.kjsilla.re.kr/resources/common/images/rel_ban06.png",
+        "http://www.kjsilla.re.kr/resources/common/images/rel_ban07.png",
+        "http://www.kjsilla.re.kr/resources/common/images/rel_ban08.png"
+      ]
     },
     {
       "id": "재단법인신안신재생에너지재단",
@@ -22629,9 +23269,14 @@
       "official_source_page": "https://www.yycf.or.kr/contents/ci.html?language=",
       "website": "https://www.yycf.or.kr/contents/main.html",
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
-      "status": "page-fetch-failed",
-      "asset_links": [],
-      "error": "HTTPError"
+      "status": "asset-links-found",
+      "asset_links": [
+        "https://www.yycf.or.kr/images/logo_sitemap.png",
+        "https://www.yycf.or.kr/images/about/img_06.jpg",
+        "https://www.yycf.or.kr/contents/양양문화재단ci-.ai",
+        "https://www.yycf.or.kr/images/down.png",
+        "https://www.yycf.or.kr/images/logo_g.png"
+      ]
     },
     {
       "id": "재단법인양천문화재단",
@@ -23118,8 +23763,29 @@
       "official_source_page": "https://www.yongin1365.or.kr/www/index.do",
       "website": "https://www.yongin1365.or.kr/www/index.do",
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
-      "status": "page-no-direct-asset",
-      "asset_links": []
+      "status": "asset-links-found",
+      "asset_links": [
+        "https://www.yongin1365.or.kr/site/www/images/common/favicon.png",
+        "https://www.yongin1365.or.kr/DATA/popup/20260409102645297_sin0.png",
+        "https://www.yongin1365.or.kr/DATA/popup/20260813015203736_KEgw.png",
+        "https://www.yongin1365.or.kr/DATA/popup/20260813015203738_IbFW.png",
+        "https://www.yongin1365.or.kr/DATA/popup/20260309051734082_Xnex.jpg",
+        "https://www.yongin1365.or.kr/DATA/popup/20260722022525163_cfIk.jpg",
+        "https://www.yongin1365.or.kr/DATA/popup/20260401091446379_ybGt.jpg",
+        "https://www.yongin1365.or.kr/DATA/popup/20260722022533696_ORJH.jpg",
+        "https://www.yongin1365.or.kr/DATA/popup/20260309053108269_Havk.jpg",
+        "https://www.yongin1365.or.kr/DATA/popup/20260722022541600_iQxK.jpg",
+        "https://www.yongin1365.or.kr/DATA/facebook/5952281f-d409-4417-9fcc-d18666509151.jpg",
+        "https://www.yongin1365.or.kr/DATA/facebook/27159c34-3e31-40ac-90ad-c8392bebc4cf.jpg",
+        "https://www.yongin1365.or.kr/DATA/facebook/1038876d-7f9b-4d10-8dfe-506b115b6094.jpg",
+        "https://www.yongin1365.or.kr/DATA/facebook/649b1e70-d2fd-438d-9af5-1ba1ca7002c7.jpg",
+        "https://www.yongin1365.or.kr/DATA/facebook/24511923-0c3f-4c76-9ec7-d682de819ab4.jpg",
+        "https://www.yongin1365.or.kr/DATA/facebook/24d724ad-5846-4225-9139-cd61797aeda2.jpg",
+        "https://www.yongin1365.or.kr/DATA/facebook/27df5b4f-7a49-4e7b-a4f1-d3fef3626376.jpg",
+        "https://www.yongin1365.or.kr/DATA/facebook/6c840790-1d63-4139-985e-2b8753b25de9.jpg",
+        "https://www.yongin1365.or.kr/DATA/facebook/9c6e6259-3809-41d6-a2b8-300316d834f4.jpg",
+        "https://www.yongin1365.or.kr/DATA/facebook/dba499ec-fefb-4d80-b868-ca6048f720ce.jpg"
+      ]
     },
     {
       "id": "재단법인용인시장학재단",
@@ -23200,9 +23866,27 @@
       "official_source_page": "https://www.uri.re.kr/contPage.do?menuNo=5040100",
       "website": "https://www.uri.re.kr/",
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
-      "status": "page-fetch-failed",
-      "asset_links": [],
-      "error": "HTTPError"
+      "status": "asset-links-found",
+      "asset_links": [
+        "https://www.uri.re.kr/images/common/logo.png",
+        "https://www.uri.re.kr/images/common/new_tab.png",
+        "https://www.uri.re.kr/images/common/logo.svg",
+        "https://www.uri.re.kr/images/common/topmenu_closebtn.png",
+        "https://www.uri.re.kr/images/board/search_icon.png",
+        "https://www.uri.re.kr/images/common/top_search_icon.png",
+        "https://www.uri.re.kr/images/common/menu_icon.png",
+        "https://www.uri.re.kr/images/common/home_icon.png",
+        "https://www.uri.re.kr/images/common/print_icon.png",
+        "https://www.uri.re.kr/down/jpg.zip",
+        "https://www.uri.re.kr/down/png.zip",
+        "https://www.uri.re.kr/down/CI.ai",
+        "https://www.uri.re.kr/images/contents/symbol1.png",
+        "https://www.uri.re.kr/images/contents/symbol2.png",
+        "https://www.uri.re.kr/images/contents/sig1.png",
+        "https://www.uri.re.kr/images/contents/sig1_2.png",
+        "https://www.uri.re.kr/images/common/f_logo.svg",
+        "https://www.uri.re.kr/images/common/ff_logo.svg"
+      ]
     },
     {
       "id": "재단법인울주문화재단",
@@ -23714,9 +24398,25 @@
       "official_source_page": "https://jn.pass.or.kr/?pg=c&amp;pn=list&amp;mg=1_2_4&amp;tb=a4",
       "website": "https://jn.pass.or.kr/",
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
-      "status": "page-fetch-failed",
-      "asset_links": [],
-      "error": "HTTPError"
+      "status": "asset-links-found",
+      "asset_links": [
+        "https://jn.pass.or.kr/img/human.png",
+        "https://jn.pass.or.kr/img/ico_online.png",
+        "https://jn.pass.or.kr/img/logo001.png",
+        "https://jn.pass.or.kr/img/insta0.png",
+        "https://jn.pass.or.kr/img/yutu.png",
+        "https://jn.pass.or.kr/img/facebook.png",
+        "https://jn.pass.or.kr/img/kakao.png",
+        "https://jn.pass.or.kr/cms/data/banner/20260703092035_6a470053b5411.png",
+        "https://jn.pass.or.kr/cms/data/banner/20240331091018_660952aa21cbf.png",
+        "https://jn.pass.or.kr/cms/data/banner/20240403111918_660cbca6c057a.jpg",
+        "https://jn.pass.or.kr/cms/data/banner/20240522100312_664d4450eb778.jpg",
+        "https://jn.pass.or.kr/cms/data/banner/20240522100257_664d4441a287b.jpg",
+        "https://jn.pass.or.kr/cms/data/banner/20240403112106_660cbd1292781.jpg",
+        "https://jn.pass.or.kr/cms/data/banner/20260128050036_6979c224e9dad.png",
+        "https://jn.pass.or.kr/cms/data/banner/20260128044926_6979bf86f1ace.jpg",
+        "https://jn.pass.or.kr/cms/data/banner/20240403112146_660cbd3aecd87.jpg"
+      ]
     },
     {
       "id": "재단법인전북국제협력진흥원",
@@ -24001,9 +24701,8 @@
       "official_source_page": "https://www.jcwf.or.kr/bbs/board.php?bo_table=w7_c&amp;wr_id=3",
       "website": "https://www.jcwf.or.kr/",
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
-      "status": "page-fetch-failed",
-      "asset_links": [],
-      "error": "HTTPError"
+      "status": "page-no-direct-asset",
+      "asset_links": []
     },
     {
       "id": "재단법인제천한방천연물산업진흥재단",
@@ -24356,9 +25055,27 @@
       "official_source_page": "https://ccrf.or.kr/sub.php?code=59",
       "website": "https://ccrf.or.kr/",
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
-      "status": "page-fetch-failed",
-      "asset_links": [],
-      "error": "HTTPError"
+      "status": "asset-links-found",
+      "asset_links": [
+        "https://ccrf.or.kr/project/design/com/logo_icon.png",
+        "https://ccrf.or.kr/project/design/favicon/apple-icon-57x57.png",
+        "https://ccrf.or.kr/project/design/favicon/apple-icon-60x60.png",
+        "https://ccrf.or.kr/project/design/favicon/apple-icon-72x72.png",
+        "https://ccrf.or.kr/project/design/favicon/apple-icon-76x76.png",
+        "https://ccrf.or.kr/project/design/favicon/apple-icon-114x114.png",
+        "https://ccrf.or.kr/project/design/favicon/apple-icon-120x120.png",
+        "https://ccrf.or.kr/project/design/favicon/apple-icon-144x144.png",
+        "https://ccrf.or.kr/project/design/favicon/apple-icon-152x152.png",
+        "https://ccrf.or.kr/project/design/favicon/apple-icon-180x180.png",
+        "https://ccrf.or.kr/project/design/favicon/android-icon-192x192.png",
+        "https://ccrf.or.kr/project/design/favicon/favicon-32x32.png",
+        "https://ccrf.or.kr/project/design/favicon/favicon-96x96.png",
+        "https://ccrf.or.kr/project/design/favicon/favicon-16x16.png",
+        "https://ccrf.or.kr/project/design/common/img_header_btn1.jpg",
+        "https://ccrf.or.kr/project/design/common/img_header_btn2.png",
+        "https://ccrf.or.kr/project/design/common/img_header_btn1.jpg?ver=4",
+        "https://ccrf.or.kr/project/design/common/img_header_btn2.png?ver=4"
+      ]
     },
     {
       "id": "재단법인춘천레저태권도조직위원회",
@@ -24606,9 +25323,15 @@
       "official_source_page": "https://www.clehrd.or.kr/clehrd/sub01_03.do",
       "website": "https://www.clehrd.or.kr/clehrd/index.do",
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
-      "status": "page-fetch-failed",
-      "asset_links": [],
-      "error": "HTTPError"
+      "status": "asset-links-found",
+      "asset_links": [
+        "https://www.clehrd.or.kr/pcms/common/images/favicon.png",
+        "https://www.clehrd.or.kr/pcms/common/images/favicon_152.png",
+        "https://www.clehrd.or.kr/images/clehrd/sub01/sub0103_img02.png?ver=1.1",
+        "https://www.clehrd.or.kr/images/clehrd/sub01/sub0103_img03.png?ver=1.1",
+        "https://www.clehrd.or.kr/images/clehrd/sub01/sub0103_img04.png?ver=1.1",
+        "https://www.clehrd.or.kr/template/assets/images/wa_ico.png"
+      ]
     },
     {
       "id": "재단법인태백시문화재단",
@@ -24916,8 +25639,22 @@
       "official_source_page": "http://www.koref.or.kr/web/intropage/intropageShow.do?page_id=117d278f192046508c95a17a4f487fd8",
       "website": "http://www.koref.or.kr",
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
-      "status": "page-no-direct-asset",
-      "asset_links": []
+      "status": "asset-links-found",
+      "asset_links": [
+        "http://www.koref.or.kr/images/icon/icon_home.png",
+        "http://www.koref.or.kr/images/icon/location_dot.png",
+        "http://www.koref.or.kr/images/sub/int/int-05-01.png",
+        "http://www.koref.or.kr/images/icon/down_bt.png",
+        "http://www.koref.or.kr/images/sub/int/int-05-02.png",
+        "http://www.koref.or.kr/images/sub/int/int-05-03.png",
+        "http://www.koref.or.kr/images/sub/int/int-05-04.png",
+        "http://www.koref.or.kr/images/sub/int/int-05-05.png",
+        "http://www.koref.or.kr/images/sub/int/int-05-06.png",
+        "http://www.koref.or.kr/images/sub/int/int-05-07.png",
+        "http://www.koref.or.kr/images/sub/int/int-05-08.png",
+        "http://www.koref.or.kr/images/sub/int/int-05-09.png",
+        "http://www.koref.or.kr/contents/commoneditor/202603111521138b8c00c0-edf3-44a2-852c-3da9da67a22e.png"
+      ]
     },
     {
       "id": "재단법인한국유교문화진흥원",
@@ -25286,8 +26023,13 @@
       "official_source_page": "https://www.okocc.or.kr/homepage/pr/fund_CI_new.do",
       "website": "https://www.okocc.or.kr/",
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
-      "status": "page-no-direct-asset",
-      "asset_links": []
+      "status": "asset-links-found",
+      "asset_links": [
+        "https://www.okocc.or.kr/static/images/pattern/layout/head_logo.svg",
+        "https://www.okocc.or.kr/static/images/main/outcom20260310.png",
+        "https://www.okocc.or.kr/static/images/main/img_intro_logo.png",
+        "https://www.okocc.or.kr/static/images/OKA_WA_20260225.png"
+      ]
     },
     {
       "id": "전남개발공사",
@@ -25488,9 +26230,8 @@
       "official_source_page": "https://www.jepa.kr/page/?site=new_jepa&amp;mn=406",
       "website": "https://www.jepa.kr/",
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
-      "status": "page-fetch-failed",
-      "asset_links": [],
-      "error": "HTTPError"
+      "status": "page-no-direct-asset",
+      "asset_links": []
     },
     {
       "id": "전라남도환경산업진흥원",
@@ -25670,9 +26411,20 @@
       "official_source_page": "https://www.namwonmed.or.kr:19005/ds1_7_1.html",
       "website": "https://www.namwonmed.or.kr:19005/",
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
-      "status": "page-fetch-failed",
-      "asset_links": [],
-      "error": "HTTPError"
+      "status": "asset-links-found",
+      "asset_links": [
+        "https://www.namwonmed.or.kr:19005/favicon.png",
+        "https://www.namwonmed.or.kr:19005/assets/img/logo.png",
+        "https://www.namwonmed.or.kr:19005/assets/img/logo.svg",
+        "https://www.namwonmed.or.kr:19005/images/default/content/error_bg.png",
+        "https://www.namwonmed.or.kr:19005/assets/img/icon_instagram.png",
+        "https://www.namwonmed.or.kr:19005/assets/img/icon_youtube.png",
+        "https://www.namwonmed.or.kr:19005/assets/img/icon_blog.png",
+        "https://www.namwonmed.or.kr:19005/assets/img/foot_mark_01.png",
+        "https://www.namwonmed.or.kr:19005/assets/img/foot_mark_02.png",
+        "https://www.namwonmed.or.kr:19005/uploads/popup/e42d0f9718a2007eb5bee731f37d509c460283f4fa6681d09d5c65f8c3dd0e55.png",
+        "https://www.namwonmed.or.kr:19005/uploads/popup/060efd3e096db8e68029365af73d17b096878529a0f05e54182f276ffe980dc7.png"
+      ]
     },
     {
       "id": "전쟁기념사업회",
@@ -26235,7 +26987,7 @@
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
       "status": "page-fetch-failed",
       "asset_links": [],
-      "error": "RemoteDisconnected"
+      "error": "HTTPError"
     },
     {
       "id": "제주문화예술재단",
@@ -26257,9 +27009,29 @@
       "official_source_page": "https://www.jcgf.or.kr/pages.php?p=1_3_1_1",
       "website": "https://www.jcgf.or.kr/index.php",
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
-      "status": "page-fetch-failed",
-      "asset_links": [],
-      "error": "HTTPError"
+      "status": "asset-links-found",
+      "asset_links": [
+        "https://www.jcgf.or.kr/res/images/close_postcode.png",
+        "https://www.jcgf.or.kr/res/images/top/AllClose.png",
+        "https://www.jcgf.or.kr/res/images/top/font_plus.png",
+        "https://www.jcgf.or.kr/res/images/top/font_minus.png",
+        "https://www.jcgf.or.kr/res/images/top/link1.jpg",
+        "https://www.jcgf.or.kr/res/images/top/link2.jpg",
+        "https://www.jcgf.or.kr/res/images/top/link3.jpg",
+        "https://www.jcgf.or.kr/res/images/top/ci.png",
+        "https://www.jcgf.or.kr/res/images/top/SearchOpen.png",
+        "https://www.jcgf.or.kr/res/images/top/AllMenu.png",
+        "https://www.jcgf.or.kr/res/images/top/search_clear.png",
+        "https://www.jcgf.or.kr/res/images/top/search_submit.png",
+        "https://www.jcgf.or.kr/res/images/top/search_close.png",
+        "https://www.jcgf.or.kr/res/images/subvisual/point.png",
+        "https://www.jcgf.or.kr/res/images/subvisual/home.png",
+        "https://www.jcgf.or.kr/res/images/subvisual/facebook.png",
+        "https://www.jcgf.or.kr/res/images/subvisual/naver.png",
+        "https://www.jcgf.or.kr/res/images/subvisual/print.png",
+        "https://www.jcgf.or.kr/res/images/sub/1_3/symbol.jpg",
+        "https://www.jcgf.or.kr/res/images/sub/1_3/logo1.jpg"
+      ]
     },
     {
       "id": "제주에너지공사",
@@ -26460,9 +27232,29 @@
       "official_source_page": "https://www.jba.or.kr/pages.php?p=4_4_1_1",
       "website": "https://www.jba.or.kr/index.php",
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
-      "status": "page-fetch-failed",
-      "asset_links": [],
-      "error": "HTTPError"
+      "status": "asset-links-found",
+      "asset_links": [
+        "https://www.jba.or.kr/res/images/top/menu_close.png",
+        "https://www.jba.or.kr/res/images/top/s1.png",
+        "https://www.jba.or.kr/res/images/top/s2.png",
+        "https://www.jba.or.kr/res/images/top/s3.png",
+        "https://www.jba.or.kr/res/images/top/l1.png",
+        "https://www.jba.or.kr/res/images/top/l1a.png",
+        "https://www.jba.or.kr/res/images/top/l2.png",
+        "https://www.jba.or.kr/res/images/top/l2a.png",
+        "https://www.jba.or.kr/res/images/top/l3.png",
+        "https://www.jba.or.kr/res/images/top/l3a.png",
+        "https://www.jba.or.kr/res/images/top/ci.png",
+        "https://www.jba.or.kr/res/images/top/menu.png",
+        "https://www.jba.or.kr/res/images/top/search_open.png",
+        "https://www.jba.or.kr/res/images/top/search_clear.png",
+        "https://www.jba.or.kr/res/images/top/search_submit.png",
+        "https://www.jba.or.kr/res/images/top/search_close.png",
+        "https://www.jba.or.kr/res/images/subvisual/bs/home.png",
+        "https://www.jba.or.kr/res/images/sub/4/4/1.jpg",
+        "https://www.jba.or.kr/res/images/sub/4/4/2_1.jpg",
+        "https://www.jba.or.kr/res/images/sub/4/4/2_2.jpg"
+      ]
     },
     {
       "id": "제주평생교육장학진흥원",
@@ -26831,9 +27623,12 @@
       "official_source_page": "http://www.kohom.or.kr/web/mainComm/HM005005.do",
       "website": "http://www.kohom.or.kr",
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
-      "status": "page-fetch-failed",
-      "asset_links": [],
-      "error": "HTTPError"
+      "status": "asset-links-found",
+      "asset_links": [
+        "http://www.kohom.or.kr/web/mainComm/Kohom_ai.zip",
+        "http://www.kohom.or.kr/web/mainComm/Kohom_jpg.zip",
+        "http://www.kohom.or.kr/common/img/common/btn_mark_2024.12.24.png"
+      ]
     },
     {
       "id": "주택도시보증공사",
@@ -27898,9 +28693,23 @@
       "official_source_page": "https://www.cheonan.go.kr/kor/sub04_01_05.do",
       "website": "https://www.cheonan.go.kr/cssf.do",
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
-      "status": "page-fetch-failed",
-      "asset_links": [],
-      "error": "HTTPError"
+      "status": "asset-links-found",
+      "asset_links": [
+        "https://www.cheonan.go.kr/pcms/common/images/favicon.png",
+        "https://www.cheonan.go.kr/pcms/common/images/favicon.svg",
+        "https://www.cheonan.go.kr/assets/images/content/kor/sub04/sub040105_img01.png",
+        "https://www.cheonan.go.kr/assets/images/content/kor/sub04/sub040105_img02.png",
+        "https://www.cheonan.go.kr/assets/images/content/kor/sub04/sub040105_img03.png",
+        "https://www.cheonan.go.kr/kor/assets/images/content/kor/sub04/sub040105_img03.png",
+        "https://www.cheonan.go.kr/assets/images/content/kor/sub04/sub040105_img04.png",
+        "https://www.cheonan.go.kr/assets/images/content/kor/sub04/sub040105_img05.png",
+        "https://www.cheonan.go.kr/kor/assets/images/content/kor/sub04/sub040105_img05.png",
+        "https://www.cheonan.go.kr/assets/images/content/kor/sub04/sub040105_img06.png",
+        "https://www.cheonan.go.kr/kor/assets/images/content/kor/sub04/sub040105_img06.png",
+        "https://www.cheonan.go.kr/assets/images/content/kor/sub04/sub040105_img07.png",
+        "https://www.cheonan.go.kr/assets/images/content/kor/sub04/sub040105_img08.png",
+        "https://www.cheonan.go.kr/assets/images/common/WA_Mark.png"
+      ]
     },
     {
       "id": "천안시-맑은물사업본부",
@@ -27909,9 +28718,12 @@
       "official_source_page": "https://www.cheonan.go.kr/kor/sub04_01_07.do",
       "website": "https://www.cheonan.go.kr/water.do",
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
-      "status": "page-fetch-failed",
-      "asset_links": [],
-      "error": "HTTPError"
+      "status": "asset-links-found",
+      "asset_links": [
+        "https://www.cheonan.go.kr/pcms/common/images/favicon.png",
+        "https://www.cheonan.go.kr/pcms/common/images/favicon.svg",
+        "https://www.cheonan.go.kr/assets/images/common/WA_Mark.png"
+      ]
     },
     {
       "id": "천안시복지재단",
@@ -27920,9 +28732,21 @@
       "official_source_page": "https://www.cawf.or.kr/about/ci.php",
       "website": "https://www.cawf.or.kr/main/index.php",
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
-      "status": "page-fetch-failed",
-      "asset_links": [],
-      "error": "HTTPError"
+      "status": "asset-links-found",
+      "asset_links": [
+        "https://www.cawf.or.kr/images/ico/favicon.png",
+        "https://www.cawf.or.kr/images/ico/ico_sns_b.png",
+        "https://www.cawf.or.kr/images/ico/ico_sns_c.png",
+        "https://www.cawf.or.kr/images/ico/ico_sns_i.png",
+        "https://www.cawf.or.kr/images/ico/ico_sns_f.png",
+        "https://www.cawf.or.kr/images/ico/ico_logo.png",
+        "https://www.cawf.or.kr/images/pic/ico_map.png",
+        "https://www.cawf.or.kr/images/content/ci_img01.jpg",
+        "https://www.cawf.or.kr/document/ci.zip",
+        "https://www.cawf.or.kr/images/content/ci_img02.jpg",
+        "https://www.cawf.or.kr/images/content/ci_img03.jpg",
+        "https://www.cawf.or.kr/images/pic/love_logo.png"
+      ]
     },
     {
       "id": "천안의료원",
@@ -28193,9 +29017,29 @@
       "official_source_page": "https://cjculture.org/sub.php?code=45",
       "website": "https://cjculture.org/",
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
-      "status": "page-fetch-failed",
-      "asset_links": [],
-      "error": "HTTPError"
+      "status": "asset-links-found",
+      "asset_links": [
+        "https://cjculture.org/project/design/com/logo_icon.png",
+        "https://cjculture.org/project/design/com/25th_logo.png?ver=3 alt=",
+        "https://cjculture.org/project/design/com/logo.png",
+        "https://cjculture.org/project/design/com/spot.jpg",
+        "https://cjculture.org/project/design/com/sp.png",
+        "https://cjculture.org/project/design/contents/img_logo5.png",
+        "https://cjculture.org/project/design/contents/logo_ci.zip",
+        "https://cjculture.org/project/design/contents/img_logo1.png",
+        "https://cjculture.org/project/design/contents/img_logo2.png",
+        "https://cjculture.org/project/design/contents/img_logo3.png",
+        "https://cjculture.org/project/design/contents/img_logo4.png",
+        "https://cjculture.org/project/design/contents/img_logo6.png",
+        "https://cjculture.org/project/design/contents/img_logo7.png",
+        "https://cjculture.org/project/design/contents/img_logo8.png",
+        "https://cjculture.org/project/design/contents/img_logo9.png",
+        "https://cjculture.org/project/design/contents/img_logo10.png",
+        "https://cjculture.org/project/design/contents/img_logo11.png",
+        "https://cjculture.org/project/design/com/foo_ban1.jpg",
+        "https://cjculture.org/project/design/com/foo_ban2.jpg",
+        "https://cjculture.org/project/design/com/foo_ban3.png"
+      ]
     },
     {
       "id": "축산물품질평가원",
@@ -28343,9 +29187,24 @@
       "official_source_page": "http://hakgokspc.com/",
       "website": "http://hakgokspc.com/",
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
-      "status": "page-fetch-failed",
-      "asset_links": [],
-      "error": "HTTPError"
+      "status": "asset-links-found",
+      "asset_links": [
+        "http://festival.aerospace.go.kr/images/main/visual_text.png",
+        "http://festival.aerospace.go.kr/images/main/visual_02.jpg",
+        "http://dev2.shop-websrepublic.co.kr/web3/img/video_play.png",
+        "http://hakgokspc.com/theme/websre03/img/main_bg_txt.png",
+        "http://hakgokspc.com/data/editor/2104/thumb-b2a8d38bb0b7dcb478baf53f775d3e55_1619767550_5237_400x220.jpg",
+        "http://hakgokspc.com/data/editor/2011/thumb-ebf9eff8895c91eef90c1eeb704e44b3_1604881477_6194_400x220.jpg",
+        "http://hakgokspc.com/data/editor/2005/thumb-a619e7b3e5051319cfc46d180b32a70e_1589242797_8691_400x220.jpg",
+        "http://hakgokspc.com/data/editor/2004/thumb-693fcf98d1ba63951ec1a52309d89f8e_1587017507_347_400x220.jpg",
+        "http://hakgokspc.com/data/editor/1912/thumb-a8c7df3007a68e6c4dbb8174c2b6b2f0_1577665610_2084_400x220.jpg",
+        "http://hakgokspc.com/theme/websre03/img/b_banner01.jpg",
+        "http://hakgokspc.com/theme/websre03/img/b_banner06.jpg",
+        "http://hakgokspc.com/theme/websre03/img/b_banner04.jpg",
+        "http://hakgokspc.com/theme/websre03/img/b_banner05.jpg",
+        "http://hakgokspc.com/theme/websre03/img/b_banner03.jpg",
+        "http://hakgokspc.com/theme/websre03/img/b_banner_ad.jpg"
+      ]
     },
     {
       "id": "춘향장학재단",
@@ -28831,9 +29690,22 @@
       "official_source_page": "https://www.chungbuk.re.kr:6038/",
       "website": "https://www.chungbuk.re.kr:6038/",
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
-      "status": "page-fetch-failed",
-      "asset_links": [],
-      "error": "HTTPError"
+      "status": "asset-links-found",
+      "asset_links": [
+        "https://www.chungbuk.re.kr:6038/images/main/blog_banner.jpg",
+        "https://www.chungbuk.re.kr:6038/images/main/blog_banner_1.jpg",
+        "https://www.chungbuk.re.kr:6038/images/main/visual-img1.jpg",
+        "https://www.chungbuk.re.kr:6038/images/main/visual-img2.jpg",
+        "https://www.chungbuk.re.kr:6038/images/main/visual-img3.jpg",
+        "https://www.chungbuk.re.kr:6038/images/main/visual-img4.jpg",
+        "https://www.chungbuk.re.kr:6038/images/main/visual-img5.jpg",
+        "https://www.chungbuk.re.kr:6038/images/main/visual-img6.jpg",
+        "https://www.chungbuk.re.kr:6038/images/main/visual-img7.jpg",
+        "https://www.chungbuk.re.kr:6038/images/main/visual-txt1.png",
+        "https://www.chungbuk.re.kr:6038/images/main/visual-txt2_250711.png",
+        "https://www.chungbuk.re.kr:6038/images/main/banebook.jpg",
+        "https://www.chungbuk.re.kr:6038/images/main/p_arrow.png"
+      ]
     },
     {
       "id": "충청북도청주의료원",
@@ -28873,9 +29745,29 @@
       "official_source_page": "https://cjmct.or.kr/index",
       "website": "https://cjmct.or.kr/index",
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
-      "status": "page-fetch-failed",
-      "asset_links": [],
-      "error": "HTTPError"
+      "status": "asset-links-found",
+      "asset_links": [
+        "https://cjmct.or.kr/assets/img/favicon/apple-icon-57x57.png",
+        "https://cjmct.or.kr/assets/img/favicon/apple-icon-60x60.png",
+        "https://cjmct.or.kr/assets/img/favicon/apple-icon-72x72.png",
+        "https://cjmct.or.kr/assets/img/favicon/apple-icon-76x76.png",
+        "https://cjmct.or.kr/assets/img/favicon/apple-icon-114x114.png",
+        "https://cjmct.or.kr/assets/img/favicon/apple-icon-120x120.png",
+        "https://cjmct.or.kr/assets/img/favicon/apple-icon-144x144.png",
+        "https://cjmct.or.kr/assets/img/favicon/apple-icon-152x152.png",
+        "https://cjmct.or.kr/assets/img/favicon/apple-icon-180x180.png",
+        "https://cjmct.or.kr/assets/img/favicon/android-icon-192x192.png",
+        "https://cjmct.or.kr/assets/img/favicon/favicon-32x32.png",
+        "https://cjmct.or.kr/assets/img/favicon/favicon-96x96.png",
+        "https://cjmct.or.kr/assets/img/favicon/favicon-16x16.png",
+        "https://cjmct.or.kr/assets/img/logo.svg",
+        "https://cjmct.or.kr/assets/img/icon_search.png",
+        "https://cjmct.or.kr/uploads/shortcut/5680cd16279cf6b0b6f888b1ef76bf823d4fa699c6eb71b2f8d73389576cddc7.jpg",
+        "https://cjmct.or.kr/uploads/shortcut/b0fdadc34fda3d34e6355708c3c34edfb48d90813d464edf49c16846f5442622.jpg",
+        "https://cjmct.or.kr/uploads/shortcut/d7738d62750cdb9dca9c6b21dac594a1722e1398ae586128437116675f95824d.jpg",
+        "https://cjmct.or.kr/uploads/shortcut/207bcb10c1c578693cb212377f13951fcddce1a604d64e1500a456663225f7b4.jpg",
+        "https://cjmct.or.kr/uploads/shortcut/5a7454446feb4809edc561cd0c23bbc6dd477a4a859ff93db8422613ad6719e9.png"
+      ]
     },
     {
       "id": "칠곡군호이장학회",
@@ -29473,9 +30365,12 @@
       "official_source_page": "https://www.pyeongtaek.go.kr/ptwf/page.do?PAGE=sub01_07",
       "website": "https://www.pyeongtaek.go.kr/ptwf/main.do;jsessionid=485D913215B3706AE743FD0C83BFDEFD",
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
-      "status": "page-fetch-failed",
-      "asset_links": [],
-      "error": "ConnectionResetError"
+      "status": "asset-links-found",
+      "asset_links": [
+        "https://www.pyeongtaek.go.kr/ptwf/images/sub01/page0107_img1.jpg",
+        "https://www.pyeongtaek.go.kr/ptwf/resource/logo.zip",
+        "https://www.pyeongtaek.go.kr/ptwf/upload/ckupload/2026/02/6bZvJ4fiEPoooZndwZcA.png"
+      ]
     },
     {
       "id": "평택산업진흥원",
@@ -29501,9 +30396,13 @@
       "official_source_page": "https://www.pyeongtaek.go.kr/pyeongtaek/contents.do?mid=0502010000",
       "website": "https://www.pyeongtaek.go.kr",
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
-      "status": "page-fetch-failed",
-      "asset_links": [],
-      "error": "ConnectionResetError"
+      "status": "asset-links-found",
+      "asset_links": [
+        "https://www.pyeongtaek.go.kr/pyeongtaek/img/sub/05/img0201_01.png",
+        "https://www.pyeongtaek.go.kr/pyeongtaek/img/sub/05/img0201_02.png",
+        "https://www.pyeongtaek.go.kr/pyeongtaek/img/sub/05/img0201_03.png",
+        "https://www.pyeongtaek.go.kr/pyeongtaek/img/sub/05/img0201_04.png"
+      ]
     },
     {
       "id": "평택시국제교류재단",
@@ -29573,9 +30472,8 @@
       "official_source_page": "https://www.pocheon.go.kr/www/contents.do?key=5584",
       "website": "https://www.pocheon.go.kr/www/index.do",
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
-      "status": "page-fetch-failed",
-      "asset_links": [],
-      "error": "ConnectionResetError"
+      "status": "page-no-direct-asset",
+      "asset_links": []
     },
     {
       "id": "포항문화재단",
@@ -30085,8 +30983,26 @@
       "official_source_page": "https://www.kofair.or.kr/home/content.do?menu_cd=000010",
       "website": "http://www.kofair.or.kr",
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
-      "status": "page-no-direct-asset",
-      "asset_links": []
+      "status": "asset-links-found",
+      "asset_links": [
+        "https://www.kofair.or.kr/static/imgs/sub/ico_logo_main.png",
+        "https://www.kofair.or.kr/static/file/ci.zip",
+        "https://www.kofair.or.kr/static/imgs/sub/ico_logo_grid.png",
+        "https://www.kofair.or.kr/static/imgs/sub/ico_logo_comb01.png",
+        "https://www.kofair.or.kr/static/imgs/sub/ico_logo_comb02.png",
+        "https://www.kofair.or.kr/static/imgs/sub/ico_logo_comb03.png",
+        "https://www.kofair.or.kr/static/imgs/sub/ico_logo_comb04.png",
+        "https://www.kofair.or.kr/static/imgs/sub/ico_logo_comb05.png",
+        "https://www.kofair.or.kr/static/imgs/sub/ico_logo_comb06.png",
+        "https://www.kofair.or.kr/static/imgs/sub/ico_logo_comb07.png",
+        "https://www.kofair.or.kr/static/imgs/sub/img_logo_emblem01.png",
+        "https://www.kofair.or.kr/static/imgs/sub/img_logo_emblem02.png",
+        "https://www.kofair.or.kr/static/imgs/sub/img_logo_emblem03.png",
+        "https://www.kofair.or.kr/static/imgs/sub/img_logo_emblem04.png",
+        "https://www.kofair.or.kr/static/imgs/sub/img_logo_emblem05.png",
+        "https://www.kofair.or.kr/static/imgs/sub/img_logo_emblem06.png",
+        "https://www.kofair.or.kr/static/imgs/sub/img_logo_emblem07.png"
+      ]
     },
     {
       "id": "한국공항공사",
@@ -30491,9 +31407,29 @@
       "official_source_page": "https://www.koica.go.kr/koica_kr/865/subview.do",
       "website": "http://www.koica.go.kr",
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
-      "status": "page-fetch-failed",
-      "asset_links": [],
-      "error": "URLError"
+      "status": "asset-links-found",
+      "asset_links": [
+        "https://www.koica.go.kr/sites/koica_kr/images/common/logo_n2.png",
+        "https://www.koica.go.kr/sites/koica_kr/images/contents/koica_kr_logoAuthority.png",
+        "https://www.koica.go.kr/sites/koica_kr/down/KOICA_Authority_Mark.zip",
+        "https://www.koica.go.kr/sites/koica_kr/down/KOICA_color.zip",
+        "https://www.koica.go.kr/sites/koica_kr/images/contents/koica_kr_logoCommunication.png",
+        "https://www.koica.go.kr/sites/koica_kr/down/KOICA_Communication_Mark.zip",
+        "https://www.koica.go.kr/sites/koica_kr/down/VISUAL_IDENTITY.zip",
+        "https://www.koica.go.kr/sites/koica_kr/images/contents/img_logo2_sn2.png",
+        "https://www.koica.go.kr/sites/koica_kr/images/contents/img_logo2_20211109.png",
+        "https://www.koica.go.kr/sites/koica_kr/down/핵심가치디자인.zip",
+        "https://www.koica.go.kr/sites/koica_kr/down/KOICA_Slogan.zip",
+        "https://www.koica.go.kr/sites/koica_kr/down/통합로고.zip",
+        "https://www.koica.go.kr/sites/koica_kr/down/Slogan_color.zip",
+        "https://www.koica.go.kr/sites/koica_kr/images/contents/img-logo2.png",
+        "https://www.koica.go.kr/sites/koica_kr/down/WFK_CI.zip",
+        "https://www.koica.go.kr/sites/koica_kr/down/WFK_color.zip",
+        "https://www.koica.go.kr/sites/koica_kr/images/contents/img-logo4.png",
+        "https://www.koica.go.kr/sites/koica_kr/down/지원물자_공여마크.zip",
+        "https://www.koica.go.kr/sites/koica_kr/images/contents/img-logo3.png",
+        "https://www.koica.go.kr/sites/koica_kr/down/청렴_BI.zip"
+      ]
     },
     {
       "id": "한국국토정보공사",
@@ -31612,9 +32548,29 @@
       "official_source_page": "https://www.neca.re.kr/lay1/S1T75C22/contents.do",
       "website": "http://www.neca.re.kr",
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
-      "status": "page-fetch-failed",
-      "asset_links": [],
-      "error": "HTTPError"
+      "status": "asset-links-found",
+      "asset_links": [
+        "https://www.neca.re.kr/images/header/logo.png",
+        "https://www.neca.re.kr/images/header/sch_btn.png",
+        "https://www.neca.re.kr/images/header/grade_logo.png",
+        "https://www.neca.re.kr/images/common/m_sch.png",
+        "https://www.neca.re.kr/images/header/m_sch_btn.png",
+        "https://www.neca.re.kr/images/common/m_menu.png",
+        "https://www.neca.re.kr/images/common/allmenu_btn.png",
+        "https://www.neca.re.kr/images/sub/home.png",
+        "https://www.neca.re.kr/images/sub/sns_facebook.png",
+        "https://www.neca.re.kr/images/sub/sns_twitter.png",
+        "https://www.neca.re.kr/images/sub/sns_kakao.png",
+        "https://www.neca.re.kr/images/sub/sns_naver_blog.png",
+        "https://www.neca.re.kr/images/sub/sns_site_link.png",
+        "https://www.neca.re.kr/images/footer/f_logo.png",
+        "https://www.neca.re.kr/images/footer/f_sns01.png",
+        "https://www.neca.re.kr/images/footer/f_sns02.png",
+        "https://www.neca.re.kr/images/footer/f_sns03.png",
+        "https://www.neca.re.kr/images/footer/f_sns04.png",
+        "https://www.neca.re.kr/images/footer/wa.png",
+        "https://www.neca.re.kr/images/common/m_logo.png"
+      ]
     },
     {
       "id": "한국보건의료인국가시험원",
@@ -32109,9 +33065,25 @@
       "official_source_page": "https://www.kpetro.or.kr/lay1/S1T76C86/contents.do",
       "website": "http://www.kpetro.or.kr",
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
-      "status": "page-fetch-failed",
-      "asset_links": [],
-      "error": "URLError"
+      "status": "asset-links-found",
+      "asset_links": [
+        "https://www.kpetro.or.kr/images/common/favicon_16.png",
+        "https://www.kpetro.or.kr/images/common/favicon_32.png",
+        "https://www.kpetro.or.kr/images/common/favicon_48.png",
+        "https://www.kpetro.or.kr/images/common_new/logo_img.png",
+        "https://www.kpetro.or.kr/images/sub/sv_img1.jpg",
+        "https://www.kpetro.or.kr/images/sub/sub02_06_01_img01.jpg",
+        "https://www.kpetro.or.kr/images/sub/sub02_06_01_img02.jpg",
+        "https://www.kpetro.or.kr/images/sub/sub02_06_01_img03.jpg",
+        "https://www.kpetro.or.kr/images/sub/sub02_06_01_img04.jpg",
+        "https://www.kpetro.or.kr/images/sub/sub02_06_01_img05.jpg",
+        "https://www.kpetro.or.kr/images/sub/sub02_06_01_img06.jpg",
+        "https://www.kpetro.or.kr/images/sub/sub02_06_01_img07.jpg",
+        "https://www.kpetro.or.kr/images/sub/sub02_06_01_img08.jpg",
+        "https://www.kpetro.or.kr/images/sub/sub02_06_01_img09.jpg",
+        "https://www.kpetro.or.kr/images/sub/sub02_06_01_img10.jpg",
+        "https://www.kpetro.or.kr/images/common_new/footer_logo_img.png"
+      ]
     },
     {
       "id": "한국석회석신소재연구재단",
@@ -32601,9 +33573,19 @@
       "official_source_page": "https://www.kier.re.kr/board?menuId=MENU00857&amp;siteId=null",
       "website": "http://www.kier.re.kr",
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
-      "status": "page-fetch-failed",
-      "asset_links": [],
-      "error": "ConnectionResetError"
+      "status": "asset-links-found",
+      "asset_links": [
+        "https://www.kier.re.kr/resources/images/kps/logo_energium.png",
+        "https://www.kier.re.kr/resources/images/mps/layout/gnb_energium.png",
+        "https://www.kier.re.kr/resources/images/mps/main2020/energium.png",
+        "https://www.kier.re.kr/resources/images/mps/content/0202_02_5.png",
+        "https://www.kier.re.kr/resources/images/mps/content/0202_02_4.png",
+        "https://www.kier.re.kr/resources/doc/KIER_CI(ai).zip",
+        "https://www.kier.re.kr/resources/doc/KIER_CI(jpg).zip",
+        "https://www.kier.re.kr/resources/images/mps/main2020/logo_g.png",
+        "https://www.kier.re.kr/resources/images/kps/wa_logo.png",
+        "https://www.eprivacy.or.kr/images/mng/sub/mark1_eprivacy.png"
+      ]
     },
     {
       "id": "한국에너지기술평가원",
@@ -32674,9 +33656,18 @@
       "official_source_page": "https://www.wiset.or.kr/kor/sub01_05_01.do",
       "website": "https://www.wiset.or.kr/main.jsp",
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
-      "status": "page-fetch-failed",
-      "asset_links": [],
-      "error": "RemoteDisconnected"
+      "status": "asset-links-found",
+      "asset_links": [
+        "https://www.wiset.or.kr/pcms/common/images/favicon_152.png",
+        "https://www.wiset.or.kr/images/kor/common/10th_logo.png",
+        "https://www.wiset.or.kr/images/kor/sub01/CI_01.png",
+        "https://www.wiset.or.kr/images/kor/sub01/CI_02.png",
+        "https://www.wiset.or.kr/images/kor/sub01/CI_03.png",
+        "https://www.wiset.or.kr/images/kor/sub01/CI_04.png",
+        "https://www.wiset.or.kr/images/kor/sub01/CI_05.png",
+        "https://www.wiset.or.kr/images/kor/sub01/CI_06.png",
+        "https://www.wiset.or.kr/images/kor/sub01/CI_07.png"
+      ]
     },
     {
       "id": "한국여성수련원",
@@ -34515,9 +35506,15 @@
       "official_source_page": "http://www.kiost.ac.kr/kor/sub04_08_01.do",
       "website": "http://www.kiost.ac.kr",
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
-      "status": "page-fetch-failed",
-      "asset_links": [],
-      "error": "HTTPError"
+      "status": "asset-links-found",
+      "asset_links": [
+        "http://www.kiost.ac.kr/images/common/favicon_152.png",
+        "http://www.kiost.ac.kr/images/kor/sub04/ci_img01.jpg",
+        "http://www.kiost.ac.kr/images/kor/sub04/ci_img02.jpg",
+        "http://www.kiost.ac.kr/images/kor/sub04/ci_img03.jpg",
+        "http://www.kiost.ac.kr/images/common/bg_logo_white.svg",
+        "http://www.kiost.ac.kr/images/common/wa_mark.png"
+      ]
     },
     {
       "id": "한국해양교통안전공단",
@@ -35098,9 +36095,18 @@
       "official_source_page": "https://www.hfmc.or.kr/content/85",
       "website": "https://www.hfmc.or.kr/index",
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
-      "status": "page-fetch-failed",
-      "asset_links": [],
-      "error": "HTTPError"
+      "status": "asset-links-found",
+      "asset_links": [
+        "https://www.hfmc.or.kr/images/logo_ci.png",
+        "https://www.hfmc.or.kr/images/default/main/logo.svg",
+        "https://www.hfmc.or.kr/images/default/content/house.svg",
+        "https://www.hfmc.or.kr/images/default/content/logo.svg",
+        "https://www.hfmc.or.kr/images/default/content/logo_en.svg",
+        "https://www.hfmc.or.kr/images/default/content/ci_icon01.png",
+        "https://www.hfmc.or.kr/images/default/content/ci_icon02.png",
+        "https://www.hfmc.or.kr/images/default/main/f_logo.svg",
+        "https://www.hfmc.or.kr/images/default/main/weather-x.png"
+      ]
     },
     {
       "id": "항공안전기술원",
@@ -35348,9 +36354,16 @@
       "official_source_page": "https://www.hongcheon.go.kr/www/contents.do?key=305",
       "website": "https://www.hongcheon.go.kr/www/index.do",
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
-      "status": "page-fetch-failed",
-      "asset_links": [],
-      "error": "TimeoutError"
+      "status": "asset-links-found",
+      "asset_links": [
+        "https://www.hongcheon.go.kr/site/department/images/common/welfare_title.png",
+        "https://www.hongcheon.go.kr/site/department/images/common/family_title02.png",
+        "https://www.hongcheon.go.kr/site/department/images/common/logo.png",
+        "https://www.hongcheon.go.kr/common/images/sub/path_home.png",
+        "https://www.hongcheon.go.kr/site/www/images/contents/cts305_img.jpg",
+        "https://www.hongcheon.go.kr/site/department/images/common/footer_logo.png",
+        "https://www.hongcheon.go.kr/common/images/layout/web_mark_2025.png"
+      ]
     },
     {
       "id": "홍천메디칼허브연구소",
@@ -35578,9 +36591,17 @@
       "official_source_page": "https://www.ihc.go.kr/www/contents.do?key=123",
       "website": "http://www.hcacademy.kr/xe/",
       "discovery_source": "https://gongu.copyright.or.kr/gongu/bbs/B0000022/list.do?menuNo=200197",
-      "status": "page-fetch-failed",
-      "asset_links": [],
-      "error": "HTTPError"
+      "status": "asset-links-found",
+      "asset_links": [
+        "https://www.ihc.go.kr/www/images/common/menu6_depth2_title.png",
+        "https://www.ihc.go.kr/DATA/download/www/cts123_logo.zip",
+        "https://www.ihc.go.kr/www/images/contents/cts123_img01.png",
+        "https://www.ihc.go.kr/www/images/contents/cts123_img02.png",
+        "https://www.ihc.go.kr/www/images/contents/cts123_character.jpg",
+        "https://www.ihc.go.kr/www/images/contents/cts123_character_each.jpg",
+        "https://www.ihc.go.kr/www/images/common/footer_logo.png",
+        "https://www.ihc.go.kr/site/www/images/common/wa.png"
+      ]
     },
     {
       "id": "환동해산업연구원",
