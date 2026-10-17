@@ -35,6 +35,7 @@ class IntakeTests(unittest.TestCase):
     def test_ocr_requires_new_name_and_domain_agreement(self):
         self.assertEqual(CORE['matched_ocr'](['Codeway'], 'Codeway', 'codeway.co', True), 'Codeway')
         self.assertEqual(CORE['matched_ocr'](['Codeway'], 'Unrelated', 'codeway.co', True), '')
+        self.assertEqual(CORE['title']('Home / Henle Library'), 'Henle Library')
 
     def test_white_transparent_artwork_uses_dark_card(self):
         def encoded(color):

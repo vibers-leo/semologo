@@ -5,6 +5,7 @@ import fcntl
 import json
 import os
 import runpy
+import subprocess
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -109,6 +110,13 @@ def main():
         parser.error('bounded limit required')
     if not os.path.ismount('/Volumes/HDD-1TB'):
         raise SystemExit('HDD-1TB is not mounted; intake state must stay on the external drive')
+    ocr_engine = Path('/opt/homebrew/bin/tesseract')
+    if not ocr_engine.is_file():
+        raise SystemExit('OCR engine missing; cursor must not advance')
+    languages = subprocess.run([str(ocr_engine), '--list-langs'], capture_output=True,
+                               text=True, timeout=10, check=True).stdout.splitlines()
+    if 'eng' not in languages:
+        raise SystemExit('English OCR data missing; cursor must not advance')
     STATE.mkdir(exist_ok=True)
     with (STATE / 'pipeline.lock').open('w') as lock:
         try:

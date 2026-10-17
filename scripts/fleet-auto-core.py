@@ -59,7 +59,9 @@ def fold(value):
 
 
 def title(value):
-    return re.split(r'\s+[|—–:]\s+|\s+-\s+',html.unescape(value or '').strip(),maxsplit=1)[0].strip()
+    text=html.unescape(value or '').strip()
+    text=re.sub(r'(?i)^(?:home|homepage|welcome|startseite)\s*[/›»]\s*','',text)
+    return re.split(r'\s+[|—–:]\s+|\s+-\s+',text,maxsplit=1)[0].strip()
 
 
 def stem(domain):
@@ -131,7 +133,7 @@ def ocr(image):
             canvas=Image.new('RGB',image.size,color);canvas.paste(image,mask=image.getchannel('A'))
             if canvas.width<1000:canvas=canvas.resize((1000,max(80,round(canvas.height*1000/canvas.width))))
             path=Path(directory)/('light.png' if color[0]>100 else 'dark.png');canvas.save(path)
-            result=subprocess.run(['tesseract',str(path),'stdout','-l','eng','--psm','11'],
+            result=subprocess.run(['/opt/homebrew/bin/tesseract',str(path),'stdout','-l','eng','--psm','11'],
                                   capture_output=True,text=True,timeout=15)
             if result.returncode==0:texts.append(result.stdout.strip())
     return texts
