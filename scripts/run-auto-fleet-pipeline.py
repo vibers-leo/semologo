@@ -14,20 +14,61 @@ CORE = runpy.run_path(str(ROOT / 'scripts/fleet-auto-core.py'))
 PUBLISH = runpy.run_path(str(ROOT / 'scripts/fleet-auto-publish.py'))
 STATE = ROOT / 'fleet-auto-state'
 ZERO = {'createdAt': '1970-01-01T00:00:00Z', 'id': '00000000-0000-0000-0000-000000000000'}
+RETRY_LIMIT = 3
+RETRY_PER_CYCLE = 20
+
+
+def retryable_download(row):
+    if row.get('status') != 'failed':
+        return False
+    error = row.get('error', '').lower()
+    return any(token in error for token in (
+        'timed out', 'timeout', 'temporarily', 'connection reset',
+        'network is unreachable', 'http error 429', 'http error 500',
+        'http error 502', 'http error 503', 'http error 504'))
+
+
+def asset_key(row):
+    return (row.get('domain'), row.get('assetUrl'))
+
+
+def next_download_retries(previous, staged):
+    pending = {asset_key(row): row for row in previous}
+    for row in staged:
+        key = asset_key(row)
+        if retryable_download(row):
+            attempt = pending.get(key, {}).get('attempts', 0) + 1
+            if attempt < RETRY_LIMIT:
+                pending[key] = {field: row.get(field) for field in
+                                ('domain', 'pageUrl', 'name', 'assetUrl')}
+                pending[key]['attempts'] = attempt
+            else:
+                pending.pop(key, None)
+        else:
+            pending.pop(key, None)
+    return list(pending.values())
 
 
 def cycle(limit, apply):
     STATE.mkdir(exist_ok=True)
     cursor_file = STATE / 'cursor.json'
+    retry_file = STATE / 'download-retries.json'
     cursor = json.loads(cursor_file.read_text()) if cursor_file.exists() else ZERO
+    pending_retries = json.loads(retry_file.read_text()) if retry_file.exists() else []
     jobs = CORE['jobs_after'](cursor, limit)
-    if not jobs:
+    if not jobs and not pending_retries:
         return {'status': 'caught_up', 'cursor': cursor}
     stamp = datetime.now(timezone.utc).strftime('%Y%m%dT%H%M%SZ')
-    folder = STATE / ('batch-' + stamp + '-' + jobs[0]['id'][:8])
+    folder = STATE / ('batch-' + stamp + '-' + (jobs[0]['id'][:8] if jobs else 'retry-only'))
     folder.mkdir(exist_ok=True)
     s3 = CORE['s3_client']()
     signals, staged = CORE['stage_jobs'](s3, jobs, folder)
+    retry_batch = pending_retries[:RETRY_PER_CYCLE]
+    retried = [CORE['STAGE']['fetch']((row['domain'], row['pageUrl'], row['name'],
+                                      'download-retry', row['assetUrl']), folder)
+               for row in retry_batch]
+    staged = list({asset_key(row): row for row in staged + retried}.values())
+    updated_retries = next_download_retries(pending_retries, staged)
     by_domain, by_name, ids = CORE['cms_catalog']()
     reviewed, published, held, publish_errors = [], [], [], []
     chosen_new = set()
@@ -83,13 +124,20 @@ def cycle(limit, apply):
         if reason:
             held.append({'domain': domain, 'sha256': item.get('sha256'),
                          'sourceUrl': item.get('assetUrl'), 'reason': reason})
-    next_cursor = {'createdAt': jobs[-1]['created_at'], 'id': jobs[-1]['id']}
+    next_cursor = ({'createdAt': jobs[-1]['created_at'], 'id': jobs[-1]['id']}
+                   if jobs else cursor)
     receipt = {'schemaVersion': 1, 'at': datetime.now(timezone.utc).isoformat(),
                'mode': 'apply' if apply else 'dry-run', 'jobs': len(jobs), 'signals': len(signals),
                'staged': staged, 'reviewed': reviewed, 'published': published, 'held': held,
-               'publishErrors': publish_errors, 'nextCursor': next_cursor}
+               'publishErrors': publish_errors, 'nextCursor': next_cursor,
+               'downloadRetriesAttempted': len(retry_batch),
+               'downloadRetriesPending': updated_retries}
     (folder / 'receipt.json').write_text(json.dumps(receipt, ensure_ascii=False, indent=2) + '\n')
-    if apply and not publish_errors:
+    if apply:
+        temporary_retry = retry_file.with_suffix('.tmp')
+        temporary_retry.write_text(json.dumps(updated_retries, ensure_ascii=False) + '\n')
+        temporary_retry.replace(retry_file)
+    if apply and not publish_errors and jobs:
         temporary = cursor_file.with_suffix('.tmp')
         temporary.write_text(json.dumps(next_cursor) + '\n')
         temporary.replace(cursor_file)
@@ -97,6 +145,7 @@ def cycle(limit, apply):
             'mode': receipt['mode'], 'jobs': len(jobs), 'signals': len(signals),
             'reviewed': len(reviewed), 'published': len(published), 'held': len(held),
             'publishErrors': len(publish_errors),
+            'downloadRetriesPending': len(updated_retries),
             'cursor': next_cursor if not publish_errors else cursor,
             'receipt': str(folder / 'receipt.json')}
 

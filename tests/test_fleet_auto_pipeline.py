@@ -51,6 +51,19 @@ class IntakeTests(unittest.TestCase):
 
 
 class CursorTests(unittest.TestCase):
+    def test_transient_downloads_get_bounded_retries(self):
+        failed = {'status': 'failed', 'error': 'The read operation timed out',
+                  'domain': 'example.com', 'pageUrl': 'https://example.com/',
+                  'name': 'Example', 'assetUrl': 'https://example.com/logo.svg'}
+        pending = RUNNER['next_download_retries']([], [failed])
+        self.assertEqual(pending[0]['attempts'], 1)
+        pending = RUNNER['next_download_retries'](pending, [failed])
+        self.assertEqual(pending[0]['attempts'], 2)
+        self.assertEqual(RUNNER['next_download_retries'](pending, [failed]), [])
+        pending = RUNNER['next_download_retries']([], [failed])
+        self.assertEqual(RUNNER['next_download_retries'](
+            pending, [{**failed, 'status': 'staged_review_required', 'error': ''}]), [])
+
     def fake_core(self, raw, fail):
         digest = hashlib.sha256(raw).hexdigest()
         item = {'domain': 'example.com', 'pageUrl': 'https://example.com/',
