@@ -6,7 +6,7 @@
     <string>/opt/homebrew/bin/python3</string>
     <string>/Volumes/HDD-1TB/semologo-migration/task-tmp/logo-wall-ux-worktree/scripts/run-enrichment-maintenance.py</string>
   </array>
-  <key>StartInterval</key><integer>3600</integer>
+  <key>StartInterval</key><integer>900</integer>
   <key>RunAtLoad</key><true/>
   <key>StandardOutPath</key><string>/tmp/semologo-enrichment-maintenance.log</string>
   <key>StandardErrorPath</key><string>/tmp/semologo-enrichment-maintenance.log</string>
