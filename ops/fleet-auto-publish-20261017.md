@@ -1,6 +1,6 @@
 # 윈 수집 결과 자동 검수·게시
 
-운영 위치: 맥 LaunchAgent `com.vibers.semologo.fleet-auto-publish`, 15분 간격. 코드와 다운로드 원본, 커서, 배치 영수증은 1F HDD의 `semologo-migration/task-tmp/logo-wall-ux-worktree`에 있다. HDD가 마운트되지 않았으면 실행하지 않는다. 중복 실행은 파일 잠금으로 막는다.
+운영 위치: 맥 LaunchAgent `com.vibers.semologo.fleet-auto-publish`, 5분 간격. 코드와 다운로드 원본, 커서, 배치 영수증은 1F HDD의 `semologo-migration/task-tmp/logo-wall-ux-worktree`에 있다. HDD가 마운트되지 않았으면 실행하지 않는다. 중복 실행은 파일 잠금으로 막는다.
 
 `scripts/run-auto-fleet-pipeline.py`는 윈 수집기의 성공 작업을 `(created_at,id)` 순서로 읽고, 결과 아티팩트 해시를 확인한 뒤 공식 사이트에서 후보 파일을 다시 다운로드한다. 홈페이지와 같은 도메인의 HTTPS SVG 중 경로·파일명, SVG 안전성, 투명성, 크기, OCR과 도메인·이름 일치를 통과한 것만 자동 게시한다. 그 외 후보와 다운로드 실패는 배치 `receipt.json`의 `held`에 사유를 남긴다. 자동 검수는 로고 4종을 인증하지 않으며 구성은 `unknown`, 검수 상태는 `auto-screened`다.
 
