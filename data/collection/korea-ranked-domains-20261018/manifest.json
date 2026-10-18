@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-10-18T07:41:40.719067+00:00",
+  "source": "verified local Tranco/Majestic rank corpus from mass-domain-seeds-20261016.json",
+  "rankCorpusSha256": "d4657d91abed7112e5b57f39126a5bcbcc4390d2af71867bf4bb7d3cfa3afe6c",
+  "excludedWikidataDomains": 16116,
+  "rankedKrDomains": 5400,
+  "candidateDomains": 4439,
+  "policy": "Candidate websites only; first-party SVG, identity and quality review before CMS publication",
+  "files": [
+    {
+      "worker": "win-01",
+      "count": 2220,
+      "file": "data/collection/korea-ranked-domains-20261018/win-01.csv.gz",
+      "sha256": "9051e88304359459245a5e9618a436b4ee685d18befac311dea71a48f96d6a14",
+      "bytes": 22622,
+      "key": "automation/v1/tenants/internal/projects/semologo/seeds/kr-ranked-20261018/win-01-9051e88304359459.csv.gz"
+    },
+    {
+      "worker": "win-02",
+      "count": 2219,
+      "file": "data/collection/korea-ranked-domains-20261018/win-02.csv.gz",
+      "sha256": "244205d63f8cb4c7f389f98ac88460aef7ec9467a854061f80b76aea278ff37d",
+      "bytes": 22574,
+      "key": "automation/v1/tenants/internal/projects/semologo/seeds/kr-ranked-20261018/win-02-244205d63f8cb4c7.csv.gz"
+    }
+  ]
+}
