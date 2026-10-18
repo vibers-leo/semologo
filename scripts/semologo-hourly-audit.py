@@ -72,10 +72,11 @@ def main():
     sampled = [front_check(ident) for ident in new_ids[-3:]]
     try:
         timers = command(['ssh', 'vibers', 'systemctl is-active semologo-domain-discover.timer semologo-hourly.timer']).splitlines()
+        feeder_result = command(['ssh', 'vibers', 'systemctl show semologo-domain-discover.service -p Result --value'])
         fleet = fleet_status()
         fleet_error = None
     except Exception as error:
-        timers, fleet, fleet_error = [], [], str(error)[:300]
+        timers, feeder_result, fleet, fleet_error = [], None, [], str(error)[:300]
     report = {
         'at': datetime.now(UTC).isoformat(),
         'windowStart': since.isoformat(),
@@ -92,12 +93,13 @@ def main():
         'lastReceiptAt': receipts[-1]['at'] if receipts else None,
         'fleetLastHour': fleet,
         'fleetError': fleet_error,
+        'feederResult': feeder_result,
         'timers': timers,
         'frontSamples': sampled,
     }
     report['healthy'] = bool(
         receipts and publisher.returncode == 0 and fleet_error is None
-        and timers == ['active', 'active']
+        and timers == ['active', 'active'] and feeder_result == 'success'
         and report['latestBatchPublishErrors'] == 0
         and all(sample['visible'] for sample in sampled)
     )
