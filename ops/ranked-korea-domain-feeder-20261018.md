@@ -18,6 +18,12 @@ using the existing two queued jobs per worker limit. It adds no new worker
 handler, container build or publication permission. The five-minute Mac
 publisher continues to accept only verified first-party SVG assets.
 
+The next priority lane, r49, uses the same audited corpus's Tranco ranks
+11,000 onward, excluding `.kr` domains assigned to the Korean lane. It adds
+984,400 unique website candidates (492,200 per worker) ahead of the
+Common Crawl-only fallback. Rank is a discovery order, never identity or logo
+evidence; the publication gate is unchanged.
+
 Verification: both seed objects read back from the private bucket with matching
 hashes; `node --check`, `bash -n` and Python compilation pass; server dry run
 parsed the first shard and proposed a bounded job. After activation, confirm

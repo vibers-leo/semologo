@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-10-18T07:48:56.887726+00:00",
+  "source": "Tranco rank corpus already audited in mass-domain-seeds-20261016.json",
+  "sourceSha256": "fc7cb8b8be7347cdebbb50e5351d11e85df1fab2a2e9e28cb68dc323ffe5d4de",
+  "startRank": 11000,
+  "excludedTld": ".kr",
+  "candidateDomains": 984400,
+  "policy": "Website candidates only; official SVG, identity and quality review before CMS publication",
+  "files": [
+    {
+      "worker": "win-01",
+      "count": 492200,
+      "file": "data/collection/tranco-ranked-domains-20261018/win-01.csv.gz",
+      "sha256": "28199c3fcd614d6341856bca96d75e2ad08ff7484bdbe4c8bb5460cf7e789f1c",
+      "bytes": 4840763,
+      "key": "automation/v1/tenants/internal/projects/semologo/seeds/tranco-ranked-20261018/win-01-28199c3fcd614d63.csv.gz"
+    },
+    {
+      "worker": "win-02",
+      "count": 492200,
+      "file": "data/collection/tranco-ranked-domains-20261018/win-02.csv.gz",
+      "sha256": "1ab2ae0a280aa761c99ed818fbdb4673c5ff8ad6f81489ac7bf06faf70512371",
+      "bytes": 4839653,
+      "key": "automation/v1/tenants/internal/projects/semologo/seeds/tranco-ranked-20261018/win-02-1ab2ae0a280aa761.csv.gz"
+    }
+  ]
+}
