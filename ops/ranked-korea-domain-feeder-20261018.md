@@ -31,6 +31,14 @@ both worker results, a publisher receipt, and any published brand on the live
 site. A zero-publish batch is a discovery yield signal, not grounds to relax
 the review gate.
 
+Operational check at 16:51 KST: r48 completed on both Windows workers and
+continued to receive jobs. Its first reviewed Korean assets were mostly PNG
+or SVGs that failed identity/quality screening, so none were auto-published in
+the sampled batches. Three r49 pilot jobs (two win-01, one win-02) completed;
+the Mac publisher consumed their results and held the sample candidates with
+zero publish errors. The live service remains healthy and the previous
+Common Crawl lane can continue after both ranked cohorts are exhausted.
+
 Rollback: restore the previous `run-korea-first-domain-feeder.sh` from the
 server `.before-ranked-r48` copy. Existing queued r48 jobs can finish; no
 published data is removed. The global feeder remains available.
