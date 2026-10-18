@@ -30,7 +30,7 @@ function SearchLogoImage({ brand, src, large = false, background }: SearchLogoPr
   const [candidate, setCandidate] = useState(0);
   const candidates = brand.variantKey ? [src] : [...new Set([src, ...logoWallPngCandidates(brand)])];
   return <span className={!large && !background && !(brand.light || brand.light_logo || brand.dark_variant === 'white') ? styles.searchPreview : undefined} style={{ width: large ? '100%' : 80, height: large ? 'calc(var(--logo-height, 80px) + 48px)' : 48, flexShrink: 0, display: 'flex', alignItems: 'center', justifyContent: 'center', borderRadius: 6, background: background ?? (brand.light || brand.light_logo || brand.dark_variant === 'white' ? '#18181b' : undefined) }}>
-    {failed ? <span style={{ fontSize: 11, color: '#71717a' }}>미리보기 없음</span> : <img draggable={false} src={candidates[candidate]} alt={large ? brand.name_ko : ''} width={large ? 240 : 80} height={large ? 100 : 48} decoding="async" style={{ width: large ? '85%' : 72, height: large ? 'var(--logo-height, 80px)' : 40, objectFit: 'contain', maxWidth: large ? `${100 / ((brand.scale || 100) / 100)}%` : undefined, maxHeight: large ? `calc((var(--logo-height, 80px) + 48px) / ${(brand.scale || 100) / 100})` : undefined, transform: large ? `scale(${(brand.scale || 100) / 100})` : undefined, transformOrigin: 'center' }} onError={() => candidate + 1 < candidates.length ? setCandidate(candidate + 1) : setFailed(true)} />}
+    {failed ? <span style={{ fontSize: 11, color: '#71717a' }}>미리보기 없음</span> : <img draggable={false} src={candidates[candidate]} alt={large ? brand.name_ko : ''} width={large ? 240 : 80} height={large ? 100 : 48} decoding="async" style={{ width: large ? '85%' : 72, height: large ? 'var(--logo-height, 80px)' : 40, objectFit: 'contain', transform: large ? `scale(${(brand.scale || 100) / 100})` : undefined, transformOrigin: 'center' }} onError={() => candidate + 1 < candidates.length ? setCandidate(candidate + 1) : setFailed(true)} />}
   </span>;
 }
 export default function LogoWallEditor() {
@@ -100,7 +100,7 @@ export default function LogoWallEditor() {
   const dirty = fingerprint !== (saved || JSON.stringify({ title: '새 로고월', ids: [], layout: defaultLayout }));
   const canSwitch = () => !dirty || window.confirm('저장하지 않은 변경사항이 있어요. 다른 로고월로 이동할까요?');
   const reset = () => { setPresentation(false); setPaused(false); setFocused(null); setCurrent(null); setTitle('새 로고월'); setSelected([]); setLayout(defaultLayout); setSaved(''); setMessage(''); };
-  function setLogoScale(key: string, scale: number) { setSelected(s => s.map(b => wallLogoKey(b) === key ? { ...b, scale: Math.max(50, Math.min(200, Math.round(scale))) } : b)); }
+  function setLogoScale(key: string, scale: number) { setSelected(s => s.map(b => wallLogoKey(b) === key ? { ...b, scale: Math.max(50, Math.min(300, Math.round(scale))) } : b)); }
   function startResize(e: PointerEvent<HTMLElement>, b: WallLogo) {
     e.stopPropagation(); if (busy || !e.isPrimary || e.button !== 0) return;
     const key = wallLogoKey(b); setFocused(key); setDragging(key);
@@ -135,7 +135,7 @@ export default function LogoWallEditor() {
         const availableH = logoWallMetrics.logoSize[layout.logoSize];
         const fit = Math.min(availableW/img.naturalWidth, availableH/img.naturalHeight);
         const visibleW = (right-left)/w * img.naturalWidth * fit, visibleH = (bottom-top)/h * img.naturalHeight * fit;
-        return { b, area: visibleW*visibleH, maxScale: Math.min(200, availableW/visibleW*100, (availableH+24)/visibleH*100) };
+        return { b, area: visibleW*visibleH, maxScale: Math.min(300, availableW/visibleW*100, (availableH+24)/visibleH*100) };
       }));
       const areas = measured.filter(m => m.area > 0).map(m => m.area).sort((a,b)=>a-b);
       const target = areas[Math.floor(areas.length/2)] || 0;
@@ -318,7 +318,7 @@ export default function LogoWallEditor() {
 
             </div>)}</div>}
           </div>
-          <p hidden={presentation} className={styles.hint}>카드를 끌어 순서를 바꿔요. 선택한 카드의 크기는 50~200%로 조절할 수 있어요.</p>
+          <p hidden={presentation} className={styles.hint}>카드를 끌어 순서를 바꿔요. 선택한 카드의 크기는 50~300%로 조절할 수 있어요.</p>
           {selected.length > 0 && layout.motion !== 'static' && <section aria-label="움직임 미리보기">
             <div className={styles.sectionTitle}><h2>움직임 미리보기</h2><button onClick={() => setPaused(p => !p)} aria-pressed={paused}>{paused ? '재생하기' : '일시정지'}</button></div>
             <div className={styles.motionStage} data-logo-wall data-appearance={layout.appearance} style={{ background: wallStageBackground(layout) }}>
@@ -332,7 +332,7 @@ export default function LogoWallEditor() {
               })}
             </div><ul className={styles.srOnly}>{selected.map(b => <li key={wallLogoKey(b)}>{b.name_ko}{b.variantLabel ? ` · ${b.variantLabel}` : ''}</li>)}</ul><p hidden={presentation} className={styles.hint}>순서와 크기는 위 카드에서 편집해요. 여기는 완성된 움직임을 확인하는 미리보기예요.</p>
           </section>}
-          <div className={styles.footer}><button disabled={busy || !current || dirty} onClick={download}>로고월 ZIP 다운로드</button><span>PNG·OG 이미지·HTML·CSS·JS·JSON 포함 · 저장 후 다운로드</span>{current && <button className={styles.danger} disabled={busy} onClick={() => { if (window.confirm('이 로고월을 삭제할까요?')) void run(async () => { await api('DELETE', current.id); reset(); setWalls((await api()).walls); setMessage('삭제했어요.'); }); }}>로고월 삭제</button>}</div>
+          <div className={styles.footer}><div className={styles.footerActions}><button className={styles.primary} disabled={busy || !title.trim() || !selected.length || Boolean(current && !dirty)} onClick={save}>{busy ? '처리 중…' : '로고월 저장하기'}</button><button disabled={busy || !current || dirty} onClick={download}>로고월 ZIP 다운로드</button></div><span>저장한 뒤 PNG·OG 이미지·HTML·CSS·JS·JSON을 내려받을 수 있어요.</span>{current && <button className={styles.danger} disabled={busy} onClick={() => { if (window.confirm('이 로고월을 삭제할까요?')) void run(async () => { await api('DELETE', current.id); reset(); setWalls((await api()).walls); setMessage('삭제했어요.'); }); }}>로고월 삭제</button>}</div>
         </section>
         <aside hidden={presentation} className={styles.settingsPanel} aria-label="로고월 설정">
           <section className={styles.settings} aria-label="로고월 전체 설정"><h2>로고월 설정</h2><p className={styles.hint}>배경과 배치를 바꾸면 미리보기에 바로 적용돼요.</p><div className={styles.controls}>
@@ -347,7 +347,7 @@ export default function LogoWallEditor() {
             <button disabled={busy || !current} onClick={() => { setCurrent(null); setSaved(''); setTitle(`${title} 복사`); setMessage('저장하면 별도 로고월이 만들어져요.'); }}>복제하기</button>
           </div></section>
           <section className={styles.selectedSettings} aria-label="선택한 로고 설정"><h2>선택한 로고</h2>
-          {!presentation && focused && selected.some(b => wallLogoKey(b) === focused) && (() => { const b = selected.find(b => wallLogoKey(b) === focused)!; return <div className={styles.inspector} aria-label="선택한 로고 설정"><strong>{b.name_ko}{b.variantLabel ? ` · ${b.variantLabel}` : ''}</strong><div className={styles.backgroundChoices} role="group" aria-label="선택한 카드 배경">{([['inherit','자동'],['white','흰색'],['transparent','투명'],['dark','검정']] as const).map(([value,label]) => <button key={value} type="button" aria-pressed={(b.cardBackground || 'inherit') === value} disabled={busy} onClick={() => setCardBackground(focused,value)}>{label}</button>)}</div><label>크기 <input aria-label="선택한 로고 크기" disabled={busy} type="range" min="50" max="200" value={b.scale || 100} onChange={e => setLogoScale(focused, Number(e.target.value))} /><output>{b.scale || 100}%</output></label><button disabled={busy} onClick={() => setLogoScale(focused,100)}>크기 초기화</button><button className={styles.danger} disabled={busy} onClick={() => { setSelected(s=>s.filter(v=>wallLogoKey(v)!==focused));setFocused(null); }}>제거</button></div>; })()}
+          {!presentation && focused && selected.some(b => wallLogoKey(b) === focused) && (() => { const b = selected.find(b => wallLogoKey(b) === focused)!; return <div className={styles.inspector} aria-label="선택한 로고 설정"><strong>{b.name_ko}{b.variantLabel ? ` · ${b.variantLabel}` : ''}</strong><div className={styles.backgroundChoices} role="group" aria-label="선택한 카드 배경">{([['inherit','자동'],['white','흰색'],['transparent','투명'],['dark','검정']] as const).map(([value,label]) => <button key={value} type="button" aria-pressed={(b.cardBackground || 'inherit') === value} disabled={busy} onClick={() => setCardBackground(focused,value)}>{label}</button>)}</div><label>크기 <input aria-label="선택한 로고 크기" disabled={busy} type="range" min="50" max="300" value={b.scale || 100} onChange={e => setLogoScale(focused, Number(e.target.value))} /><output>{b.scale || 100}%</output></label><button disabled={busy} onClick={() => setLogoScale(focused,100)}>크기 초기화</button><button className={styles.danger} disabled={busy} onClick={() => { setSelected(s=>s.filter(v=>wallLogoKey(v)!==focused));setFocused(null); }}>제거</button></div>; })()}
           {!focused && <p className={styles.hint}>카드를 선택하면 개별 배경과 크기를 조절할 수 있어요.</p>}
           </section>
         </aside>

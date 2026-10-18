@@ -176,6 +176,11 @@
 .settingsPanel .inspector strong { min-width: 0; overflow-wrap: anywhere; }
 .settingsPanel .inspector label { flex-wrap: wrap; }
 .settingsPanel .inspector input { flex: 1; min-width: 100px; }
+.workspace.presentation { grid-template-columns: minmax(0, 1fr); }
+.workspace.presentation .editor { grid-column: 1 / -1; }
+.footerActions { display: flex; flex-wrap: wrap; gap: 8px; }
+.footerActions button { white-space: nowrap; }
+.logo, .motionLogo { overflow: hidden; }
 @media (max-width: 1200px) {
   .workspace:not(.presentation) { grid-template-columns: 240px minmax(0, 1fr); }
   .settingsPanel { grid-column: 2; position: static; max-height: none; }
