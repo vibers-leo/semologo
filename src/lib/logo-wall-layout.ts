@@ -1,17 +1,17 @@
 export type LogoWallLayout = {
   background: 'auto' | 'light' | 'dark'; cardBackground: 'auto' | 'white' | 'transparent' | 'light' | 'dark'; columns: number;
   motion: 'static' | 'marquee' | 'alternating'; speed: 'slow' | 'normal' | 'fast';
-  spacing: 'compact' | 'balanced' | 'airy'; logoSize: 'small' | 'medium' | 'large';
+  spacing: 'compact' | 'balanced' | 'airy'; logoSize: 'tiny' | 'small' | 'medium' | 'large';
   appearance: 'cards' | 'clean'; logoColor: 'original' | 'black' | 'white'; showNames: boolean;
 };
-export const defaultLogoWallLayout: LogoWallLayout = { background: 'auto', cardBackground: 'auto', columns: 4, motion: 'static', speed: 'normal', spacing: 'balanced', logoSize: 'medium', appearance: 'cards', logoColor: 'original', showNames: false };
-export const logoWallMetrics = { spacing: { compact: 12, balanced: 24, airy: 40 }, logoSize: { small: 56, medium: 80, large: 92 } };
+export const defaultLogoWallLayout: LogoWallLayout = { background: 'auto', cardBackground: 'auto', columns: 4, motion: 'static', speed: 'normal', spacing: 'balanced', logoSize: 'small', appearance: 'cards', logoColor: 'original', showNames: false };
+export const logoWallMetrics = { spacing: { compact: 12, balanced: 24, airy: 40 }, logoSize: { tiny: 40, small: 56, medium: 80, large: 92 } };
 /** Normalize saved settings; logo walls display artwork without captions. */
 export function logoWallLayout(value: unknown): LogoWallLayout {
   const s = value && typeof value === 'object' ? value as Record<string, unknown> : {};
   const out = { ...defaultLogoWallLayout };
   for (const key of ['background', 'cardBackground', 'motion', 'speed', 'spacing', 'logoSize', 'appearance', 'logoColor'] as const) {
-    const choices: Record<typeof key, readonly string[]> = { background: ['auto','light','dark'], cardBackground: ['auto','white','transparent','light','dark'], motion: ['static','marquee','alternating'], speed: ['slow','normal','fast'], spacing: ['compact','balanced','airy'], logoSize: ['small','medium','large'], appearance: ['cards','clean'], logoColor: ['original','black','white'] };
+    const choices: Record<typeof key, readonly string[]> = { background: ['auto','light','dark'], cardBackground: ['auto','white','transparent','light','dark'], motion: ['static','marquee','alternating'], speed: ['slow','normal','fast'], spacing: ['compact','balanced','airy'], logoSize: ['tiny','small','medium','large'], appearance: ['cards','clean'], logoColor: ['original','black','white'] };
     if (s[key] !== undefined) {
       if (typeof s[key] !== 'string' || !choices[key].includes(s[key] as string)) throw new Error('invalid layout');
       Object.assign(out, { [key]: s[key] });

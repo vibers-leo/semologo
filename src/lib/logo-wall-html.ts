@@ -1,6 +1,6 @@
 import { logoWallLayout, logoWallMetrics, wallCardBackground, wallStageBackground, type CardBackground } from './logo-wall-layout';
 
-type Logo = { name?: string; id: string; file: string; light?: boolean; scale?: number; cardBackground?: CardBackground };
+type Logo = { name?: string; id: string; file: string; light?: boolean; scale?: number; heightFraction?: number; cardBackground?: CardBackground };
 type Settings = unknown;
 const escape = (value: string) => value.replace(/[&<>"']/g, ch => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[ch]!));
 
@@ -19,7 +19,7 @@ export function logoWallHtml(title: string, settings: Settings, logos: Logo[]): 
     const name = escape(String(logo.name || logo.id));
     const background = wallCardBackground(layout, logo.light, logo.cardBackground);
     const scale = Math.max(50, Math.min(300, logo.scale || 100)) / 100;
-    return `<div class="tile" data-wall-file="${escape(logo.file)}" style="background:${background}"><img style="height:${Math.round(height * scale)}px" src="${escape(logo.file)}" alt="${decorative ? '' : name}" draggable="false">${!layout.showNames ? '' : `<span style="color:${background === '#18181b' ? '#a1a1aa' : '#71717a'}">${name}</span>`}</div>`;
+    return `<div class="tile" data-wall-file="${escape(logo.file)}" data-height-fraction="${Math.max(.05, Math.min(1, logo.heightFraction || 1))}" style="background:${background}"><img style="height:${Math.round(height * scale * Math.max(.05, Math.min(1, logo.heightFraction || 1)))}px" src="${escape(logo.file)}" alt="${decorative ? '' : name}" draggable="false">${!layout.showNames ? '' : `<span style="color:${background === '#18181b' ? '#a1a1aa' : '#71717a'}">${name}</span>`}</div>`;
   };
   let content: string;
   if (motion === 'static') content = `<div class="grid">${Array.from({ length: Math.ceil(logos.length / columns) }, (_, row) => `<div class="grid-row">${logos.slice(row * columns, (row + 1) * columns).map(l => tile(l)).join('')}</div>`).join('')}</div>`;
@@ -57,7 +57,7 @@ export function logoWallInlineHtml(title: string, settings: Settings, logos: Log
 const tiles=[...document.querySelectorAll('[data-wall-file]')];
 function select(file){tiles.forEach(tile=>tile.toggleAttribute('data-selected',tile.dataset.wallFile===file));parent.postMessage({type:'semologo-wall-select',file},'*')}
 tiles.forEach(tile=>{tile.tabIndex=0;tile.setAttribute('role','button');tile.setAttribute('aria-label',tile.querySelector('img').alt||'로고 선택');tile.addEventListener('click',()=>select(tile.dataset.wallFile));tile.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();select(tile.dataset.wallFile)}})});
-window.addEventListener('message',event=>{if(event.source!==parent)return;const data=event.data;if(data?.type==='semologo-wall-focus'){tiles.forEach(tile=>tile.toggleAttribute('data-selected',tile.dataset.wallFile===data.file))}if(data?.type==='semologo-wall-play'){document.body.classList.toggle('paused',!data.playing)}if(data?.type==='semologo-wall-scale'&&Number.isFinite(data.scale)&&data.scale>=50&&data.scale<=300){tiles.filter(tile=>tile.dataset.wallFile===data.file).forEach(tile=>{const img=tile.querySelector('img');img.style.height=Math.round(${height}*data.scale/100)+'px'})}});
+window.addEventListener('message',event=>{if(event.source!==parent)return;const data=event.data;if(data?.type==='semologo-wall-focus'){tiles.forEach(tile=>tile.toggleAttribute('data-selected',tile.dataset.wallFile===data.file))}if(data?.type==='semologo-wall-play'){document.body.classList.toggle('paused',!data.playing)}if(data?.type==='semologo-wall-scale'&&Number.isFinite(data.scale)&&data.scale>=50&&data.scale<=300){tiles.filter(tile=>tile.dataset.wallFile===data.file).forEach(tile=>{const img=tile.querySelector('img');img.style.height=Math.round(${height}*data.scale/100*Number(tile.dataset.heightFraction||1))+'px'})}});
 </script></body>`).replace(/src="(logos\/[\w가-힣-]+\.png)"/g, (_, file: string) => {
     const image = images[file];
     if (!image || !/^data:image\/png;base64,[A-Za-z0-9+/=]+$/.test(image)) throw new Error('invalid preview PNG');

@@ -17,6 +17,7 @@ function load(file){
  const localRequire=(name)=>{
   if(name==='pg')return{Pool};
   if(name==='@/lib/logo-wall-preview')return{logoWallPreview:async()=>png};
+  if(name==='@/lib/logo-wall-crop')return{cropLogoWallPng:async data=>({data,heightFraction:1})};
   if(name==='@/lib/brands')return{fetchVariants:async id=>load('src/lib/reviewed-logo-assets.ts').reviewedVariants[id] || null,fetchBrandsSlim:async()=>[],sortForGrid:load('src/lib/brands.ts').sortForGrid};
   if(name==='sharp')return input=>{const chain={resize:()=>chain,timeout:()=>chain,png:()=>chain,toBuffer:async()=>input};return chain;};
   if(name==='@/app/api/logo-preview/route')return{GET:async()=>new Response(png)};
@@ -62,7 +63,7 @@ async function main(){
  assert.equal(wallScaleForVisibleHeight({width:100,height:100,x:0,y:0,inkWidth:100,inkHeight:100}),80);
  assert.equal(wallScaleForVisibleHeight({width:500,height:100,x:0,y:25,inkWidth:500,inkHeight:50}),160);
  assert.equal(wallScaleForVisibleHeight({width:100,height:100,x:0,y:45,inkWidth:100,inkHeight:10}),300);
- const old=logoWallLayout({background:'auto',columns:4});assert.equal(old.appearance,'cards');assert.equal(old.showNames,false);assert.equal(logoWallLayout({showNames:true}).showNames,false);
+ const old=logoWallLayout({background:'auto',columns:4});assert.equal(old.appearance,'cards');assert.equal(old.showNames,false);assert.equal(old.logoSize,'small');assert.equal(logoWallLayout({logoSize:'tiny'}).logoSize,'tiny');assert.equal(logoWallLayout({showNames:true}).showNames,false);
  const layout=logoWallLayout({appearance:'clean',spacing:'airy',logoSize:'large',showNames:false,motion:'alternating'});
  assert.equal(wallCardBackground(logoWallLayout({cardBackground:'transparent'})), '#00000000');
  assert.equal(wallCardBackground(logoWallLayout({cardBackground:'dark'}),false,'transparent'), '#00000000');
@@ -108,9 +109,18 @@ async function main(){
  assert.equal((await handler.POST(req({...variantsBody,items:[{brandId:'rainbowrobotics',variantKey:white.variantKey,scale:300}]}))).status,201);assert.equal(storedSnapshot.scale,300);
  assert.equal((await handler.POST(req({...variantsBody,items:[{brandId:'rainbowrobotics',scale:301}]}))).status,400);
  const pinned=logoWallAsset('rainbowrobotics',{},storedSnapshot);assert.equal(pinned.preview_png,storedSnapshot.preview_png);assert.equal(pinned.light,true);
- const scaled=logoWallHtml('scale',{cardBackground:'white'},[{id:'test',file:'logos/001-test.png',scale:125,cardBackground:'dark'}]);assert(scaled.includes('height:100px'));assert(scaled.includes('background:#18181b'));assert(scaled.includes('.grid-row{display:flex'));assert(scaled.includes('max-width:none;width:auto'));
- assert(logoWallHtml('scale 200',{},[{id:'test',file:'logos/001-test.png',scale:200}]).includes('height:160px'));
- assert(logoWallHtml('scale 300',{},[{id:'test',file:'logos/001-test.png',scale:300}]).includes('height:240px'));
+ const scaled=logoWallHtml('scale',{cardBackground:'white'},[{id:'test',file:'logos/001-test.png',scale:125,cardBackground:'dark'}]);assert(scaled.includes('height:70px'));assert(scaled.includes('background:#18181b'));assert(scaled.includes('.grid-row{display:flex'));assert(scaled.includes('max-width:none;width:auto'));
+ assert(logoWallHtml('scale 200',{},[{id:'test',file:'logos/001-test.png',scale:200}]).includes('height:112px'));
+ assert(logoWallHtml('scale 300',{},[{id:'test',file:'logos/001-test.png',scale:300}]).includes('height:168px'));
+ assert(logoWallHtml('cropped',{},[{id:'test',file:'logos/001-test.png',scale:200,heightFraction:.5}]).includes('height:56px'));
+ const cropExports={};const cropSource=ts.transpileModule(fs.readFileSync(path.join(root,'src/lib/logo-wall-crop.ts'),'utf8'),{compilerOptions:{module:ts.ModuleKind.CommonJS,esModuleInterop:true}}).outputText;
+ vm.runInNewContext(cropSource,{exports:cropExports,require},{filename:'logo-wall-crop.ts'});
+ const sharp=require('sharp');const mark=await sharp({create:{width:60,height:16,channels:4,background:'#000'}}).png().toBuffer();
+ for(const background of ['#00000000','#ffffff']){
+  const padded=await sharp({create:{width:100,height:40,channels:4,background}}).composite([{input:mark,left:20,top:12}]).png().toBuffer();
+  const cropped=await cropExports.cropLogoWallPng(padded);const size=await sharp(cropped.data).metadata();
+  assert.equal(size.width,60);assert.equal(size.height,16);assert.equal(cropped.heightFraction,.4);
+ }
  assert(logoWallHtml('mono', {logoColor:'black'}, logos).includes('data-logo-color="black"'));
  assert(logoWallHtml('mono', {logoColor:'white'}, logos).includes('data-logo-color="white"'));
  assert.throws(()=>logoWallLayout({logoColor:'invalid'}));

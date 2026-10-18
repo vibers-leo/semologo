@@ -5,6 +5,7 @@ import { logoOwner } from '@/lib/logo-owner';
 import { logoWallZip } from '@/lib/logo-wall-zip';
 import { logoWallBundle, logoWallInlineHtml } from '@/lib/logo-wall-html';
 import { logoWallPreview } from '@/lib/logo-wall-preview';
+import { cropLogoWallPng } from '@/lib/logo-wall-crop';
 import { logoWallPngCandidates } from '@/lib/logo-png-source';
 import { logoWallAsset } from '@/lib/cms-brand';
 import type { Brand } from '@/lib/brands';
@@ -66,7 +67,7 @@ export async function GET(request: Request) {
     const privateIds = wall.items.map((i: { snapshot: { user_logo_id?: string } }) => i.snapshot.user_logo_id).filter(Boolean);
     const personal = await pool.query('SELECT id,png FROM semologo.personal_logos WHERE owner_id=$1 AND id=ANY($2::text[])', [uid, privateIds]);
     const own = new Map<string, Buffer>(personal.rows.map(r => [r.id, r.png]));
-    const files: { name: string; data: Uint8Array }[] = []; const entries: { id: string; name?: string; file: string; light: boolean; scale?: number; cardBackground?: CardBackground; variantKey?: string; sha256: string; captured_at?: string }[] = []; const missing: string[] = [];
+    const files: { name: string; data: Uint8Array }[] = []; const entries: { id: string; name?: string; file: string; light: boolean; scale?: number; heightFraction?: number; cardBackground?: CardBackground; variantKey?: string; sha256: string; captured_at?: string }[] = []; const missing: string[] = [];
     let bytes = 0; let index = 0; const deadline = Date.now() + 60_000;
     // Two workers bound upstream requests and CPU; output order is fixed below.
     const output: ({ name: string; data: Buffer; entry: typeof entries[number] } | undefined)[] = new Array(wall.items.length);
@@ -78,11 +79,12 @@ export async function GET(request: Request) {
           if (typeof logoId !== 'string' || !/^[\w가-힣-]{1,200}$/.test(logoId)) throw new Error('invalid');
           const brand = logoWallAsset(logoId, item.catalog || {}, item.snapshot);
           if (!item.snapshot.user_logo_id && brand.hidden) throw new Error('review required');
-          const data = item.snapshot.user_logo_id ? own.get(logoId) : await cdnPng(brand, Boolean(item.snapshot.variant_key));
-          if (!data) throw new Error('missing');
+          const original = item.snapshot.user_logo_id ? own.get(logoId) : await cdnPng(brand, Boolean(item.snapshot.variant_key));
+          if (!original) throw new Error('missing');
+          const { data, heightFraction } = await cropLogoWallPng(original);
           bytes += data.length; if (bytes > 25_000_000) throw new Error('large export');
           const filename = `logos/${String(n + 1).padStart(3, '0')}-${logoId}.png`;
-          output[n] = { name: filename, data, entry: { id: logoId, name: item.snapshot.name, file: filename, light: Boolean(brand.light), scale: item.snapshot.scale || 100, cardBackground: item.snapshot.card_background, variantKey: item.snapshot.variant_key, sha256: createHash('sha256').update(data).digest('hex'), captured_at: item.snapshot.captured_at } };
+          output[n] = { name: filename, data, entry: { id: logoId, name: item.snapshot.name, file: filename, light: Boolean(brand.light), scale: item.snapshot.scale || 100, heightFraction, cardBackground: item.snapshot.card_background, variantKey: item.snapshot.variant_key, sha256: createHash('sha256').update(data).digest('hex'), captured_at: item.snapshot.captured_at } };
         } catch { missing.push(item.snapshot.name || logoId || String(n + 1)); }
       }
     }));
