@@ -7,6 +7,7 @@
     <string>/Volumes/HDD-1TB/semologo-migration/task-tmp/logo-wall-ux-worktree/scripts/semologo-hourly-audit.py</string>
   </array>
   <key>StartInterval</key><integer>3600</integer>
+  <key>StartOnMount</key><true/>
   <key>RunAtLoad</key><true/>
   <key>StandardOutPath</key><string>/tmp/semologo-hourly-audit.log</string>
   <key>StandardErrorPath</key><string>/tmp/semologo-hourly-audit.log</string>
