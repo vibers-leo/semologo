@@ -5,7 +5,7 @@ export type LogoWallLayout = {
   appearance: 'cards' | 'clean'; logoColor: 'original' | 'black' | 'white'; showNames: boolean;
 };
 export const defaultLogoWallLayout: LogoWallLayout = { background: 'auto', cardBackground: 'auto', columns: 4, motion: 'static', speed: 'normal', spacing: 'balanced', logoSize: 'small', appearance: 'cards', logoColor: 'original', showNames: false };
-export const logoWallMetrics = { spacing: { compact: 12, balanced: 24, airy: 40 }, logoSize: { tiny: 40, small: 56, medium: 80, large: 92 } };
+export const logoWallMetrics = { spacing: { compact: 12, balanced: 24, airy: 40 }, logoSize: { tiny: 28, small: 40, medium: 56, large: 80 } };
 /** Normalize saved settings; logo walls display artwork without captions. */
 export function logoWallLayout(value: unknown): LogoWallLayout {
   const s = value && typeof value === 'object' ? value as Record<string, unknown> : {};

@@ -1,5 +1,5 @@
 'use client';
-import { useEffect, useRef, useState, type CSSProperties, type PointerEvent } from 'react';
+import { useEffect, useLayoutEffect, useRef, useState, type CSSProperties, type PointerEvent } from 'react';
 import { onAuthStateChanged, type User } from 'firebase/auth';
 import { getClientAuth } from '@/lib/firebase';
 import { CATALOG_VERSION } from '@/lib/cdn';
@@ -71,6 +71,27 @@ export default function LogoWallEditor() {
   const drag = useRef<{ id: string; pointer: number; x: number; y: number; target: string | null; moved: boolean } | null>(null);
   const [dragging, setDragging] = useState<string | null>(null);
   const [dropTarget, setDropTarget] = useState<string | null>(null);
+  const canvasRef = useRef<HTMLDivElement>(null);
+  const wallRef = useRef<HTMLDivElement>(null);
+  const [editorFit, setEditorFit] = useState({ scale: 1, height: 0 });
+  useLayoutEffect(() => {
+    const canvas = canvasRef.current;
+    const wall = wallRef.current;
+    if (!canvas || !wall) return;
+    const fit = () => {
+      const css = getComputedStyle(canvas);
+      const available = canvas.clientWidth - parseFloat(css.paddingLeft) - parseFloat(css.paddingRight);
+      const width = wall.offsetWidth;
+      const height = wall.offsetHeight;
+      const scale = Math.min(1, Math.max(0.01, (available - 2) / Math.max(width, 1)));
+      setEditorFit(previous => previous.scale === scale && previous.height === height ? previous : { scale, height });
+    };
+    const observer = new ResizeObserver(fit);
+    observer.observe(canvas);
+    observer.observe(wall);
+    fit();
+    return () => observer.disconnect();
+  }, [selected.length, layout.columns, layout.logoSize, layout.spacing, presentation]);
   function stopDrag() { drag.current = null; setDragging(null); setDropTarget(null); }
   function startDrag(e: PointerEvent<HTMLElement>, id: string) {
     setFocused(id);
@@ -303,15 +324,15 @@ export default function LogoWallEditor() {
             <span>카드를 누르면 흰색·투명·검정 배경을 고를 수 있어요. 끌어서 순서도 바꿔 보세요.</span>
           </div>
           {!presentation && <div className={styles.sectionTitle}><h2>로고 배치</h2><span>{selected.length}개 · 카드를 선택해 편집해요</span></div>}
-          <div hidden={presentation && layout.motion !== 'static'} className={styles.canvas} data-dark={layout.background === 'dark' || undefined} data-presentation={presentation || undefined} data-appearance={layout.appearance} data-logo-color={layout.logoColor} style={{ background: wallStageBackground(layout) }}>
-            {!selected.length ? <div className={styles.emptyCanvas}><span>＋</span><h3>첫 번째 로고를 추가해 보세요</h3><p>파트너·고객사·좋아하는 브랜드를 한곳에 모아보세요.</p></div> : <div className={styles.wall} data-logo-wall>{Array.from({ length: Math.ceil(selected.length / layout.columns) }, (_, row) => <div className={styles.wallRow} key={row}>{selected.slice(row * layout.columns, (row + 1) * layout.columns).map((b, column) => { const index = row * layout.columns + column; return <div className={styles.tile} key={wallLogoKey(b)} data-logo-wall-item={wallLogoKey(b)} data-selected={focused === wallLogoKey(b) || undefined} data-dragging={dragging === wallLogoKey(b) || undefined} data-drop-target={dropTarget === wallLogoKey(b) || undefined} style={{ background: cardBackground(b) }}>
+          <div ref={canvasRef} hidden={presentation && layout.motion !== 'static'} className={styles.canvas} data-dark={layout.background === 'dark' || undefined} data-presentation={presentation || undefined} data-appearance={layout.appearance} data-logo-color={layout.logoColor} style={{ background: wallStageBackground(layout) }}>
+            {!selected.length ? <div className={styles.emptyCanvas}><span>＋</span><h3>첫 번째 로고를 추가해 보세요</h3><p>파트너·고객사·좋아하는 브랜드를 한곳에 모아보세요.</p></div> : <div className={styles.wallViewport} style={{ height: Math.ceil(editorFit.height * editorFit.scale) }}><div ref={wallRef} className={styles.wall} data-logo-wall style={{ transform: `scale(${editorFit.scale})` }}>{Array.from({ length: Math.ceil(selected.length / layout.columns) }, (_, row) => <div className={styles.wallRow} key={row}>{selected.slice(row * layout.columns, (row + 1) * layout.columns).map((b, column) => { const index = row * layout.columns + column; return <div className={styles.tile} key={wallLogoKey(b)} data-logo-wall-item={wallLogoKey(b)} data-selected={focused === wallLogoKey(b) || undefined} data-dragging={dragging === wallLogoKey(b) || undefined} data-drop-target={dropTarget === wallLogoKey(b) || undefined} style={{ background: cardBackground(b) }}>
               <div className={`${styles.logo} ${styles.dragSurface}`} tabIndex={presentation ? -1 : 0} role="button" aria-label={`${b.name_ko} 선택 및 이동`} onClick={() => setFocused(wallLogoKey(b))} onKeyDown={e => { if (presentation) return; const delta=e.key==='ArrowLeft'?-1:e.key==='ArrowRight'?1:0; if (delta) { e.preventDefault();setSelected(s=>{ const n=[...s],to=index+delta;if(to>=0&&to<n.length)[n[index],n[to]]=[n[to],n[index]];return n; }); } if(e.key==='Enter'||e.key===' ') { e.preventDefault();setFocused(wallLogoKey(b)); } }} onPointerDown={e => { if (!presentation) startDrag(e, wallLogoKey(b)); }} onPointerMove={dragMove} onPointerUp={endDrag} onPointerCancel={stopDrag} onLostPointerCapture={stopDrag}><SearchLogo brand={b} src={preview(b)} large baseHeight={logoWallMetrics.logoSize[layout.logoSize]} background="transparent" /></div>
 
               {!presentation && <><button className={styles.removeLogo} type="button" aria-label={`${b.name_ko} 제거`} title="로고월에서 제거" disabled={busy} onClick={() => { const key=wallLogoKey(b); setSelected(s => s.filter((_, i) => i !== index)); setFocused(f => f === key ? null : f); }}><svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true"><path d="M3 3l10 10M13 3L3 13" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" /></svg></button><button className={styles.resizeHandle} aria-label={`${b.name_ko} 크기 조절`} title="드래그하거나 방향키로 크기 조절" disabled={busy} onPointerDown={e => startResize(e,b)} onPointerMove={resizeMove} onPointerUp={stopResize} onPointerCancel={stopResize} onLostPointerCapture={stopResize} onKeyDown={e => { if (['ArrowRight','ArrowUp','ArrowLeft','ArrowDown'].includes(e.key)) { e.preventDefault();setFocused(wallLogoKey(b));setLogoScale(wallLogoKey(b),(b.scale || 100)+(['ArrowRight','ArrowUp'].includes(e.key)?5:-5)); } }}>↘</button></>}
 
-            </div>; })}</div>)}</div>}
+            </div>; })}</div>)}</div></div>}
           </div>
-          <p hidden={presentation} className={styles.hint}>카드를 끌어 순서를 바꿔요. 긴 로고는 비율대로 넓어지며, 화면을 넘으면 좌우로 스크롤할 수 있어요. 크기는 50~300%로 조절할 수 있어요.</p>
+          <p hidden={presentation} className={styles.hint}>카드를 끌어 순서를 바꿔요. 긴 로고는 비율을 유지하고 편집 화면에 맞춰 보여요. 크기는 50~300%로 조절할 수 있어요.</p>
           {selected.length > 0 && layout.motion !== 'static' && <section aria-label="움직임 미리보기">
             <div className={styles.sectionTitle}><h2>움직임 미리보기</h2><button onClick={() => setPaused(p => !p)} aria-pressed={paused}>{paused ? '재생하기' : '일시정지'}</button></div>
             <div className={styles.motionStage} data-logo-wall data-appearance={layout.appearance} data-logo-color={layout.logoColor} style={{ background: wallStageBackground(layout) }}>

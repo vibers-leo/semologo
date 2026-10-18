@@ -58,12 +58,13 @@ async function main(){
  assert.equal((await preview.GET(new Request('https://example.test/api/logo-preview/?id=png-only-recovery'))).status,200);
  assert(fetched[0].includes('/png-only-recovery/logo.png'),'PNG-only recovery must try existing PNG before missing SVG');fetched.length=0;
  assert(!logoImageCandidates({id:'raster',has_svg:false,has_png:true}).some(u=>u.endsWith('.svg')));
- const {logoWallLayout,wallCardBackground}=load('src/lib/logo-wall-layout.ts');
+ const {logoWallLayout,logoWallMetrics,wallCardBackground}=load('src/lib/logo-wall-layout.ts');
  const {wallScaleForVisibleHeight}=load('src/lib/logo-optical-size.ts');
  assert.equal(wallScaleForVisibleHeight({width:100,height:100,x:0,y:0,inkWidth:100,inkHeight:100}),80);
  assert.equal(wallScaleForVisibleHeight({width:500,height:100,x:0,y:25,inkWidth:500,inkHeight:50}),160);
  assert.equal(wallScaleForVisibleHeight({width:100,height:100,x:0,y:45,inkWidth:100,inkHeight:10}),300);
  const old=logoWallLayout({background:'auto',columns:4});assert.equal(old.appearance,'cards');assert.equal(old.showNames,false);assert.equal(old.logoSize,'small');assert.equal(logoWallLayout({logoSize:'tiny'}).logoSize,'tiny');assert.equal(logoWallLayout({showNames:true}).showNames,false);
+ assert.deepEqual(Object.values(logoWallMetrics.logoSize),[28,40,56,80]);
  const layout=logoWallLayout({appearance:'clean',spacing:'airy',logoSize:'large',showNames:false,motion:'alternating'});
  assert.equal(wallCardBackground(logoWallLayout({cardBackground:'transparent'})), '#00000000');
  assert.equal(wallCardBackground(logoWallLayout({cardBackground:'dark'}),false,'transparent'), '#00000000');
@@ -81,7 +82,7 @@ async function main(){
  const {logoWallHtml}=load('src/lib/logo-wall-html.ts');
  const logos=[{id:'test',name:'<script>unsafe</script>',file:'logos/001-test.png',light:true}];
  const html=logoWallHtml('<unsafe>',layout,logos);
- assert(html.includes('&lt;unsafe&gt;'));assert(!html.includes('<script>unsafe'));assert(html.includes('height:92px'));assert(html.includes('gap:40px'));assert(html.includes('class="sr-only"'));assert(html.includes('prefers-reduced-motion'));assert(!/src="https?:/.test(html));
+ assert(html.includes('&lt;unsafe&gt;'));assert(!html.includes('<script>unsafe'));assert(html.includes('height:80px'));assert(html.includes('gap:40px'));assert(html.includes('class="sr-only"'));assert(html.includes('prefers-reduced-motion'));assert(!/src="https?:/.test(html));
  assert.throws(()=>logoWallHtml('bad',{},[{id:'x',file:'../outside.png'}]));assert(logoWallHtml('empty',{motion:'marquee'},[]).includes('class="grid"'));
  const handler=load('src/app/api/logo-walls/route.ts');
  const req=body=>new Request('https://example.test/api/logo-walls',{method:'POST',body:JSON.stringify(body)});
@@ -109,10 +110,10 @@ async function main(){
  assert.equal((await handler.POST(req({...variantsBody,items:[{brandId:'rainbowrobotics',variantKey:white.variantKey,scale:300}]}))).status,201);assert.equal(storedSnapshot.scale,300);
  assert.equal((await handler.POST(req({...variantsBody,items:[{brandId:'rainbowrobotics',scale:301}]}))).status,400);
  const pinned=logoWallAsset('rainbowrobotics',{},storedSnapshot);assert.equal(pinned.preview_png,storedSnapshot.preview_png);assert.equal(pinned.light,true);
- const scaled=logoWallHtml('scale',{cardBackground:'white'},[{id:'test',file:'logos/001-test.png',scale:125,cardBackground:'dark'}]);assert(scaled.includes('height:70px'));assert(scaled.includes('background:#18181b'));assert(scaled.includes('.grid-row{display:flex'));assert(scaled.includes('max-width:none;width:auto'));
- assert(logoWallHtml('scale 200',{},[{id:'test',file:'logos/001-test.png',scale:200}]).includes('height:112px'));
- assert(logoWallHtml('scale 300',{},[{id:'test',file:'logos/001-test.png',scale:300}]).includes('height:168px'));
- assert(logoWallHtml('cropped',{},[{id:'test',file:'logos/001-test.png',scale:200,heightFraction:.5}]).includes('height:56px'));
+ const scaled=logoWallHtml('scale',{cardBackground:'white'},[{id:'test',file:'logos/001-test.png',scale:125,cardBackground:'dark'}]);assert(scaled.includes('height:50px'));assert(scaled.includes('background:#18181b'));assert(scaled.includes('.grid-row{display:flex'));assert(scaled.includes('max-width:none;width:auto'));
+ assert(logoWallHtml('scale 200',{},[{id:'test',file:'logos/001-test.png',scale:200}]).includes('height:80px'));
+ assert(logoWallHtml('scale 300',{},[{id:'test',file:'logos/001-test.png',scale:300}]).includes('height:120px'));
+ assert(logoWallHtml('cropped',{},[{id:'test',file:'logos/001-test.png',scale:200,heightFraction:.5}]).includes('height:40px'));
  const cropExports={};const cropSource=ts.transpileModule(fs.readFileSync(path.join(root,'src/lib/logo-wall-crop.ts'),'utf8'),{compilerOptions:{module:ts.ModuleKind.CommonJS,esModuleInterop:true}}).outputText;
  vm.runInNewContext(cropSource,{exports:cropExports,require},{filename:'logo-wall-crop.ts'});
  const sharp=require('sharp');const mark=await sharp({create:{width:60,height:16,channels:4,background:'#000'}}).png().toBuffer();
