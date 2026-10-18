@@ -191,3 +191,11 @@
   .settingsPanel { grid-column: 1; }
   .settingsPanel .controls { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
+
+/* Keep a lockup's natural aspect ratio instead of squeezing it into a square grid cell. */
+.canvas { overflow: auto; }
+.wall { display: flex; flex-direction: column; width: max-content; min-width: 100%; }
+.wallRow { display: flex; align-items: stretch; width: max-content; min-width: 100%; gap: var(--wall-gap, 24px); }
+.wallRow .tile { flex: 0 0 auto; width: max-content; }
+.wallRow .logo { width: max-content; }
+.motionGroup .motionLogo { flex: 0 0 auto; width: max-content; min-width: 0; }
