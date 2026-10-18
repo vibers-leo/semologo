@@ -13,7 +13,7 @@ public institutions/organizations before other ranked sites. This yielded
 These are candidate sites, not logos or publication evidence. The compressed
 seeds are immutable and checked by SHA-256 before upload and worker scheduling.
 
-The r48 feeder runs before exhausted r47 and then the global r45 fallback,
+The r48 feeder runs before exhausted r47, ranked r49 and the global r45 fallback,
 using the existing two queued jobs per worker limit. It adds no new worker
 handler, container build or publication permission. The five-minute Mac
 publisher continues to accept only verified first-party SVG assets.
@@ -39,6 +39,7 @@ the Mac publisher consumed their results and held the sample candidates with
 zero publish errors. The live service remains healthy and the previous
 Common Crawl lane can continue after both ranked cohorts are exhausted.
 
-Rollback: restore the previous `run-korea-first-domain-feeder.sh` from the
-server `.before-ranked-r48` copy. Existing queued r48 jobs can finish; no
-published data is removed. The global feeder remains available.
+Rollback r49 to the server `.before-tranco-r49` wrapper, or restore the
+pre-r48 wrapper from `.before-ranked-r48` to remove both new lanes. Existing
+queued jobs can finish; no published data is removed. The global feeder
+remains available.
