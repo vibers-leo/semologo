@@ -25,7 +25,9 @@ async function rows(shard,offset,count){
  // The immutable, hash-checked seed is reused by many short feeder runs.
  // Keep only this private compressed shard inside the fleet container to avoid
  // downloading several megabytes every few seconds.
- const cacheDir='/tmp/semologo-domain-shard-cache';
+ // Fleet containers have a read-only root filesystem. /dev/shm is the
+ // writable, ephemeral cache mount; cap it below the 64 MiB shared limit.
+ const cacheDir='/dev/shm/semologo-domain-shard-cache';
  const cacheFile=path.join(cacheDir,shard.sha+'.csv.gz');
  let compressed;
  if(fs.existsSync(cacheFile)){
@@ -40,9 +42,20 @@ async function rows(shard,offset,count){
   compressed=Buffer.from(await response.Body.transformToByteArray());
   if(digest(compressed)!==shard.sha)throw Error('Seed hash mismatch');
   fs.mkdirSync(cacheDir,{recursive:true,mode:0o700});
+  const limit=60*1024*1024;
+  const cached=fs.readdirSync(cacheDir).filter(name=>name.endsWith('.csv.gz'))
+    .map(name=>({name,...fs.statSync(path.join(cacheDir,name))})).sort((a,b)=>a.mtimeMs-b.mtimeMs);
+  let used=cached.reduce((sum,row)=>sum+row.size,0);
+  for(const row of cached){
+   if(used+compressed.length<=limit)break;
+   fs.unlinkSync(path.join(cacheDir,row.name));used-=row.size;
+  }
   const temporary=cacheFile+'.'+process.pid+'.tmp';
-  fs.writeFileSync(temporary,compressed,{mode:0o600});
-  fs.renameSync(temporary,cacheFile);
+  try{fs.writeFileSync(temporary,compressed,{mode:0o600});fs.renameSync(temporary,cacheFile);}
+  catch(error){
+   try{fs.unlinkSync(temporary)}catch{}
+   if(error.code!=='ENOSPC')throw error; // Verified bytes remain usable in memory.
+  }
  }
  const raw=gunzipSync(compressed,{maxOutputLength:200000000}).toString('utf8');
  let from=raw.indexOf('\n')+1;if(!from)throw Error('Seed header missing');
