@@ -4,7 +4,7 @@ import { onAuthStateChanged, type User } from 'firebase/auth';
 import { getClientAuth } from '@/lib/firebase';
 import { CATALOG_VERSION } from '@/lib/cdn';
 import { logoWallPngCandidates } from '@/lib/logo-png-source';
-import { initialWallScale } from '@/lib/logo-optical-size';
+import { initialWallScale, measureLogo, wallScaleForVisibleHeight } from '@/lib/logo-optical-size';
 import { applyQualityReview } from '@/lib/logo-quality-review';
 import type { Brand } from '@/lib/brands';
 import { fetchVariants } from '@/lib/client-variants';
@@ -116,31 +116,15 @@ export default function LogoWallEditor() {
       const measured = await Promise.all(selected.map(async b => {
         const img = new Image(); img.crossOrigin = 'anonymous'; img.src = preview(b);
         try { await Promise.race([img.decode(), new Promise((_, reject) => setTimeout(() => reject(new Error('timeout')), 6000))]); }
-        catch { img.removeAttribute('crossorigin'); try { await Promise.race([img.decode(), new Promise((_, reject) => setTimeout(() => reject(new Error('timeout')), 6000))]); } catch { return { b, area: 0, maxScale: 100 }; } }
-        const c = document.createElement('canvas'); c.width = 160; c.height = 160;
-        const ctx = c.getContext('2d', { willReadFrequently: true }); if (!ctx) return { b, area: 0, maxScale: 100 };
-        const ratio = img.naturalWidth / img.naturalHeight;
-        const w = ratio > 1 ? 160 : 160 * ratio, h = ratio > 1 ? 160 / ratio : 160;
-        ctx.drawImage(img, (160-w)/2, (160-h)/2, w, h);
-        let left = 160, right = 0, top = 160, bottom = 0;
-        try {
-          const pixels = ctx.getImageData(0, 0, 160, 160).data;
-          for (let y=0; y<160; y++) for (let x=0; x<160; x++) { const n=(y*160+x)*4;
-            if (pixels[n+3] > 40 && !(pixels[n]>245 && pixels[n+1]>245 && pixels[n+2]>245 && !b.light)) { left=Math.min(left,x);right=Math.max(right,x);top=Math.min(top,y);bottom=Math.max(bottom,y); }
-          }
-        } catch { left=(160-w)/2;right=left+w;top=(160-h)/2;bottom=top+h; }
-        if (right <= left || bottom <= top) { left=(160-w)/2;right=left+w;top=(160-h)/2;bottom=top+h; }
-        const box = document.querySelector<HTMLElement>(`[data-logo-wall-item="${CSS.escape(wallLogoKey(b))}"]`);
-        const availableW = Math.max(80, box?.clientWidth || 200) * .85;
-        const availableH = logoWallMetrics.logoSize[layout.logoSize];
-        const fit = Math.min(availableW/img.naturalWidth, availableH/img.naturalHeight);
-        const visibleW = (right-left)/w * img.naturalWidth * fit, visibleH = (bottom-top)/h * img.naturalHeight * fit;
-        return { b, area: visibleW*visibleH, maxScale: Math.min(300, availableW/visibleW*100, (availableH+24)/visibleH*100) };
+        catch { return { key: wallLogoKey(b), scale: null }; }
+        const bounds = measureLogo(img);
+        // Align visible marks, not image area or the current card width. Wide lockups keep their natural width.
+        const scale = wallScaleForVisibleHeight(bounds);
+        return { key: wallLogoKey(b), scale };
       }));
-      const areas = measured.filter(m => m.area > 0).map(m => m.area).sort((a,b)=>a-b);
-      const target = areas[Math.floor(areas.length/2)] || 0;
-      setSelected(items => items.map(b => { const m=measured.find(m=>wallLogoKey(m.b)===wallLogoKey(b)); return m?.area && target ? { ...b, scale: Math.round(Math.max(50, Math.min(m.maxScale, 100*Math.sqrt(target/m.area)))) } : b; }));
-      setMessage('로고의 그림 영역과 비율을 기준으로 크기를 맞췄어요. 모서리나 크기 슬라이더로 더 다듬어 보세요.');
+      const scales = new Map(measured.filter(m => m.scale !== null).map(m => [m.key, m.scale!]));
+      setSelected(items => items.map(b => scales.has(wallLogoKey(b)) ? { ...b, scale: scales.get(wallLogoKey(b)) } : b));
+      setMessage(`로고의 보이는 높이를 맞췄어요. ${scales.size}개 로고의 너비는 원본 비율을 유지하고, 카드 간격은 설정값대로 일정해요.`);
     });
   }
   useEffect(() => onAuthStateChanged(getClientAuth(), u => {
@@ -310,7 +294,7 @@ export default function LogoWallEditor() {
             <span>카드를 누르면 흰색·투명·검정 배경을 고를 수 있어요. 끌어서 순서도 바꿔 보세요.</span>
           </div>
           {!presentation && <div className={styles.sectionTitle}><h2>로고 배치</h2><span>{selected.length}개 · 카드를 선택해 편집해요</span></div>}
-          <div hidden={presentation && layout.motion !== 'static'} className={styles.canvas} data-dark={layout.background === 'dark' || undefined} data-presentation={presentation || undefined} data-appearance={layout.appearance} style={{ background: wallStageBackground(layout) }}>
+          <div hidden={presentation && layout.motion !== 'static'} className={styles.canvas} data-dark={layout.background === 'dark' || undefined} data-presentation={presentation || undefined} data-appearance={layout.appearance} data-logo-color={layout.logoColor} style={{ background: wallStageBackground(layout) }}>
             {!selected.length ? <div className={styles.emptyCanvas}><span>＋</span><h3>첫 번째 로고를 추가해 보세요</h3><p>파트너·고객사·좋아하는 브랜드를 한곳에 모아보세요.</p></div> : <div className={styles.wall} data-logo-wall>{Array.from({ length: Math.ceil(selected.length / layout.columns) }, (_, row) => <div className={styles.wallRow} key={row}>{selected.slice(row * layout.columns, (row + 1) * layout.columns).map((b, column) => { const index = row * layout.columns + column; return <div className={styles.tile} key={wallLogoKey(b)} data-logo-wall-item={wallLogoKey(b)} data-selected={focused === wallLogoKey(b) || undefined} data-dragging={dragging === wallLogoKey(b) || undefined} data-drop-target={dropTarget === wallLogoKey(b) || undefined} style={{ background: cardBackground(b) }}>
               <div className={`${styles.logo} ${styles.dragSurface}`} tabIndex={presentation ? -1 : 0} role="button" aria-label={`${b.name_ko} 선택 및 이동`} onClick={() => setFocused(wallLogoKey(b))} onKeyDown={e => { if (presentation) return; const delta=e.key==='ArrowLeft'?-1:e.key==='ArrowRight'?1:0; if (delta) { e.preventDefault();setSelected(s=>{ const n=[...s],to=index+delta;if(to>=0&&to<n.length)[n[index],n[to]]=[n[to],n[index]];return n; }); } if(e.key==='Enter'||e.key===' ') { e.preventDefault();setFocused(wallLogoKey(b)); } }} onPointerDown={e => { if (!presentation) startDrag(e, wallLogoKey(b)); }} onPointerMove={dragMove} onPointerUp={endDrag} onPointerCancel={stopDrag} onLostPointerCapture={stopDrag}><SearchLogo brand={b} src={preview(b)} large background="transparent" /></div>
 
@@ -321,7 +305,7 @@ export default function LogoWallEditor() {
           <p hidden={presentation} className={styles.hint}>카드를 끌어 순서를 바꿔요. 긴 로고는 비율대로 넓어지며, 화면을 넘으면 좌우로 스크롤할 수 있어요. 크기는 50~300%로 조절할 수 있어요.</p>
           {selected.length > 0 && layout.motion !== 'static' && <section aria-label="움직임 미리보기">
             <div className={styles.sectionTitle}><h2>움직임 미리보기</h2><button onClick={() => setPaused(p => !p)} aria-pressed={paused}>{paused ? '재생하기' : '일시정지'}</button></div>
-            <div className={styles.motionStage} data-logo-wall data-appearance={layout.appearance} style={{ background: wallStageBackground(layout) }}>
+            <div className={styles.motionStage} data-logo-wall data-appearance={layout.appearance} data-logo-color={layout.logoColor} style={{ background: wallStageBackground(layout) }}>
               {Array.from({ length: layout.motion === 'alternating' ? Math.min(3, selected.length, Math.max(2, Math.ceil(selected.length / layout.columns))) : 1 }, (_, row) => {
                 const rows = layout.motion === 'alternating' ? Math.min(3, selected.length, Math.max(2, Math.ceil(selected.length / layout.columns))) : 1;
                 const logos = selected.filter((_, i) => i % rows === row);
@@ -341,7 +325,11 @@ export default function LogoWallEditor() {
             <label>한 줄 배치<select aria-label="한 줄 로고 개수" value={layout.columns} disabled={busy} onChange={e => setLayout(l => ({ ...l, columns: Number(e.target.value) }))}>{[2,3,4,6].map(n => <option key={n} value={n}>{n}개</option>)}</select></label>
             <label>움직임<select aria-label="로고월 움직임" value={layout.motion} disabled={busy} onChange={e => { setPaused(false); setLayout(l => ({ ...l, motion: e.target.value as Layout['motion'] })); }}><option value="static">정지</option><option value="marquee">한 방향 마퀴</option><option value="alternating">줄마다 반대 방향 마퀴</option></select></label>
             <label>속도<select aria-label="마퀴 속도" value={layout.speed} disabled={busy || layout.motion === 'static'} onChange={e => setLayout(l => ({ ...l, speed: e.target.value as Layout['speed'] }))}><option value="slow">천천히</option><option value="normal">보통</option><option value="fast">빠르게</option></select></label>
-            <label>스타일<select aria-label="로고월 스타일" value={layout.appearance} disabled={busy} onChange={e => setLayout(l => ({ ...l, appearance: e.target.value as Layout['appearance'] }))}><option value="cards">카드형</option><option value="clean">로고만 깔끔하게</option></select></label>
+            <label>스타일<select aria-label="로고월 스타일" value={layout.logoColor === 'original' ? layout.appearance : `mono-${layout.logoColor}`} disabled={busy} onChange={e => { const style = e.target.value; setLayout(l => {
+              if (style === 'mono-black') return { ...l, appearance: 'clean', logoColor: 'black', background: 'light', cardBackground: 'transparent' };
+              if (style === 'mono-white') return { ...l, appearance: 'clean', logoColor: 'white', background: 'dark', cardBackground: 'transparent' };
+              return { ...l, appearance: style as Layout['appearance'], logoColor: 'original' };
+            }); }}><option value="cards">카드형</option><option value="clean">로고만 깔끔하게</option><option value="mono-black">단색 검정</option><option value="mono-white">단색 흰색</option></select></label>
             <label>간격<select aria-label="로고 간격" value={layout.spacing} disabled={busy} onChange={e => setLayout(l => ({ ...l, spacing: e.target.value as Layout['spacing'] }))}><option value="compact">촘촘하게</option><option value="balanced">균형 있게</option><option value="airy">여유롭게</option></select></label>
             <label>로고 크기<select aria-label="로고 크기" value={layout.logoSize} disabled={busy} onChange={e => setLayout(l => ({ ...l, logoSize: e.target.value as Layout['logoSize'] }))}><option value="small">작게</option><option value="medium">보통</option><option value="large">크게</option></select></label>
             <button disabled={busy || !current} onClick={() => { setCurrent(null); setSaved(''); setTitle(`${title} 복사`); setMessage('저장하면 별도 로고월이 만들어져요.'); }}>복제하기</button>

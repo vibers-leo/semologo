@@ -58,6 +58,10 @@ async function main(){
  assert(fetched[0].includes('/png-only-recovery/logo.png'),'PNG-only recovery must try existing PNG before missing SVG');fetched.length=0;
  assert(!logoImageCandidates({id:'raster',has_svg:false,has_png:true}).some(u=>u.endsWith('.svg')));
  const {logoWallLayout,wallCardBackground}=load('src/lib/logo-wall-layout.ts');
+ const {wallScaleForVisibleHeight}=load('src/lib/logo-optical-size.ts');
+ assert.equal(wallScaleForVisibleHeight({width:100,height:100,x:0,y:0,inkWidth:100,inkHeight:100}),80);
+ assert.equal(wallScaleForVisibleHeight({width:500,height:100,x:0,y:25,inkWidth:500,inkHeight:50}),160);
+ assert.equal(wallScaleForVisibleHeight({width:100,height:100,x:0,y:45,inkWidth:100,inkHeight:10}),300);
  const old=logoWallLayout({background:'auto',columns:4});assert.equal(old.appearance,'cards');assert.equal(old.showNames,false);assert.equal(logoWallLayout({showNames:true}).showNames,false);
  const layout=logoWallLayout({appearance:'clean',spacing:'airy',logoSize:'large',showNames:false,motion:'alternating'});
  assert.equal(wallCardBackground(logoWallLayout({cardBackground:'transparent'})), '#00000000');
@@ -76,7 +80,7 @@ async function main(){
  const {logoWallHtml}=load('src/lib/logo-wall-html.ts');
  const logos=[{id:'test',name:'<script>unsafe</script>',file:'logos/001-test.png',light:true}];
  const html=logoWallHtml('<unsafe>',layout,logos);
- assert(html.includes('&lt;unsafe&gt;'));assert(!html.includes('<script>unsafe'));assert(html.includes('height:104px'));assert(html.includes('gap:40px'));assert(html.includes('class="sr-only"'));assert(html.includes('prefers-reduced-motion'));assert(!/src="https?:/.test(html));
+ assert(html.includes('&lt;unsafe&gt;'));assert(!html.includes('<script>unsafe'));assert(html.includes('height:92px'));assert(html.includes('gap:40px'));assert(html.includes('class="sr-only"'));assert(html.includes('prefers-reduced-motion'));assert(!/src="https?:/.test(html));
  assert.throws(()=>logoWallHtml('bad',{},[{id:'x',file:'../outside.png'}]));assert(logoWallHtml('empty',{motion:'marquee'},[]).includes('class="grid"'));
  const handler=load('src/app/api/logo-walls/route.ts');
  const req=body=>new Request('https://example.test/api/logo-walls',{method:'POST',body:JSON.stringify(body)});
@@ -107,6 +111,9 @@ async function main(){
  const scaled=logoWallHtml('scale',{cardBackground:'white'},[{id:'test',file:'logos/001-test.png',scale:125,cardBackground:'dark'}]);assert(scaled.includes('height:100px'));assert(scaled.includes('background:#18181b'));assert(scaled.includes('.grid-row{display:flex'));assert(scaled.includes('max-width:none;width:auto'));
  assert(logoWallHtml('scale 200',{},[{id:'test',file:'logos/001-test.png',scale:200}]).includes('height:160px'));
  assert(logoWallHtml('scale 300',{},[{id:'test',file:'logos/001-test.png',scale:300}]).includes('height:240px'));
+ assert(logoWallHtml('mono', {logoColor:'black'}, logos).includes('data-logo-color="black"'));
+ assert(logoWallHtml('mono', {logoColor:'white'}, logos).includes('data-logo-color="white"'));
+ assert.throws(()=>logoWallLayout({logoColor:'invalid'}));
  const exporter=load('src/app/api/logo-walls/export/route.ts');
  exportWall={id:'test-wall',title:'export',version:1,settings:layout,items:[{brand_id:'test-brand',snapshot:{name:'test',logo_png:'https://cdn.example/_clients/test-brand/logo.png',light:false}}]};
  const zipResponse=await exporter.GET(new Request('https://example.test/?id=test-wall'));assert.equal(zipResponse.status,200);assert(fetched[0].includes('/logo-transparent.png'));const zipBody=Buffer.from(await zipResponse.arrayBuffer());for(const filename of ['index.html','styles.css','script.js','manifest.json','og-preview.png','README.txt','logos/001-test-brand.png'])assert(zipBody.includes(Buffer.from(filename)),filename+' missing from ZIP');

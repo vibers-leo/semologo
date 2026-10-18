@@ -1,6 +1,12 @@
 export type LogoBounds = { width:number; height:number; x:number; y:number; inkWidth:number; inkHeight:number };
 const cache = new Map<string, LogoBounds>();
 
+/** Match visible logo heights while letting each lockup retain its natural width. */
+export function wallScaleForVisibleHeight(bounds:LogoBounds):number {
+  const visibleFraction=bounds.inkHeight/Math.max(1,bounds.height);
+  return Math.round(Math.max(50,Math.min(300,80/Math.max(.01,visibleFraction))));
+}
+
 /** Read a small sample once; original files and their colours remain untouched. */
 export function measureLogo(image:HTMLImageElement):LogoBounds {
   const width=image.naturalWidth, height=image.naturalHeight;

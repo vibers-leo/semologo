@@ -196,6 +196,9 @@
 .canvas { overflow: auto; }
 .wall { display: flex; flex-direction: column; width: max-content; min-width: 100%; }
 .wallRow { display: flex; align-items: stretch; width: max-content; min-width: 100%; gap: var(--wall-gap, 24px); }
-.wallRow .tile { flex: 0 0 auto; width: max-content; }
+.wallRow .tile { display: flex; flex: 0 0 auto; flex-direction: column; justify-content: center; width: max-content; }
 .wallRow .logo { width: max-content; }
-.motionGroup .motionLogo { flex: 0 0 auto; width: max-content; min-width: 0; }
+.motionGroup { align-items: stretch; }
+.motionGroup .motionLogo { flex: 0 0 auto; width: max-content; min-width: 0; height: auto; min-height: calc(var(--logo-height, 80px) + 80px); }
+.canvas[data-logo-color=black] .logo img, .motionStage[data-logo-color=black] .motionLogo img { filter: brightness(0); }
+.canvas[data-logo-color=white] .logo img, .motionStage[data-logo-color=white] .motionLogo img { filter: brightness(0) invert(1); }
