@@ -155,7 +155,7 @@ export default function SubmissionsPage() {
             <strong style={{ fontSize: 16 }}>{item.file_name || item.brand_name}</strong>
             <p style={{ fontSize: 13, color: "var(--text-secondary)", margin: "5px 0" }}>{LABELS[item.status] || item.status} · {item.submittedAt ? new Date(item.submittedAt).toLocaleString("ko-KR") : "날짜 미확인"}{item.batch_count > 1 ? ` · 묶음 ${item.batch_index}/${item.batch_count}` : ""}</p>
             {item.memo && <p style={{ fontSize: 14, lineHeight: 1.55, whiteSpace: "pre-wrap", margin: "10px 0" }}>{item.memo}</p>}
-            <p style={{ fontSize: 12, color: "#71717a" }}>원본: {item.drive_archive_status === "verified" ? "드라이브 보관 확인" : "버킷 보관 중"} · {item.processing_status === "converted" ? "SVG 변환 완료" : item.processing_status === "conversion_failed" ? "변환 확인 필요" : item.processing_status === "conversion_requested" ? "변환 요청됨" : "품질 검토 필요"}</p>
+            <p style={{ fontSize: 12, color: "#71717a" }}>원본: {item.drive_archive_status === "verified" ? "드라이브 보관 확인" : "버킷 보관 중"} · {item.processing_status === "converted" ? "SVG 변환 완료" : item.processing_status === "covered_by_published_logo" ? "기존 로고에 연결 완료" : item.processing_status === "manually_optimized" ? "로고 추출·최적화 완료" : item.processing_status === "conversion_failed" ? "변환 확인 필요" : item.processing_status === "conversion_requested" ? "변환 요청됨" : "품질 검토 필요"}</p>
             {previewExt.has(item.file_ext) && <p style={{ fontSize: 12, color: "#71717a" }}>미리보기: {item.optimization_status === "optimized" ? "경량본 생성 완료" : item.optimization_status === "failed" ? "최적화 확인 필요" : "처리 대기"}</p>}
             <div style={{ display: "flex", gap: 8, flexWrap: "wrap", marginTop: 12 }}>
               <button disabled={busy === item.id} onClick={() => void download(item)}>원본 받기</button>
