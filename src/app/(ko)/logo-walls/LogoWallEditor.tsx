@@ -5,6 +5,7 @@ import { getClientAuth } from '@/lib/firebase';
 import { CATALOG_VERSION } from '@/lib/cdn';
 import { logoWallPngCandidates } from '@/lib/logo-png-source';
 import { initialWallScale, measureLogo, wallCropForVisibleHeight, wallScaleForVisibleHeight, type LogoBounds } from '@/lib/logo-optical-size';
+import { scalesForSave } from '@/lib/logo-wall-scale-save';
 import { applyQualityReview } from '@/lib/logo-quality-review';
 import { findLogoWallDropSlot, moveLogoToInsertion, type DropSlot } from '@/lib/logo-wall-reorder';
 import { logoWallMotionRows } from '@/lib/logo-wall-motion-rows';
@@ -52,6 +53,8 @@ export default function LogoWallEditor() {
   const [formFilter, setFormFilter] = useState('all');
   const [focused, setFocused] = useState<string | null>(null);
   const resizing = useRef<{ key: string; pointer: number; x: number; y: number; scale: number } | null>(null);
+  const pendingInitialScales = useRef(new Map<string, Promise<number>>());
+  const wallGeneration = useRef(0);
   const [busy, setBusy] = useState(false);
   const [message, setMessage] = useState('');
   const [layout, setLayout] = useState<Layout>(defaultLayout);
@@ -137,7 +140,7 @@ export default function LogoWallEditor() {
   const fingerprint = JSON.stringify({ title, ids: selected.map(b => [wallLogoKey(b), b.cardBackground, b.logoColor || 'inherit', b.scale || 100]), layout });
   const dirty = fingerprint !== (saved || JSON.stringify({ title: '새 로고월', ids: [], layout: defaultLayout }));
   const canSwitch = () => !dirty || window.confirm('저장하지 않은 변경사항이 있어요. 다른 로고월로 이동할까요?');
-  const reset = () => { setPresentation(false); setPaused(false); setFocused(null); setCurrent(null); setTitle('새 로고월'); setSelected([]); setLayout(defaultLayout); setSaved(''); setMessage(''); };
+  const reset = () => { wallGeneration.current++; pendingInitialScales.current.clear(); setPresentation(false); setPaused(false); setFocused(null); setCurrent(null); setTitle('새 로고월'); setSelected([]); setLayout(defaultLayout); setSaved(''); setMessage(''); };
   function setLogoScale(key: string, scale: number) { setSelected(s => s.map(b => wallLogoKey(b) === key ? { ...b, scale: Math.max(50, Math.min(300, Math.round(scale))) } : b)); }
   function startResize(e: PointerEvent<HTMLElement>, b: WallLogo) {
     e.stopPropagation(); if (busy || !e.isPrimary || e.button !== 0) return;
@@ -166,6 +169,7 @@ export default function LogoWallEditor() {
     });
   }
   useEffect(() => onAuthStateChanged(getClientAuth(), u => {
+    wallGeneration.current++; pendingInitialScales.current.clear();
     setUser(u); setReady(true); setPresentation(false); setPaused(false); setTitle('새 로고월'); setUploadName(''); setUploadFile(null); setQuery(''); setWalls([]); setCurrent(null); setSelected([]); setLayout(defaultLayout); setSaved('');
   }), []);
   async function api(method = 'GET', id?: string, body?: unknown) {
@@ -256,6 +260,7 @@ export default function LogoWallEditor() {
         return { ...(snap.variant_key ? base : applyQualityReview(base)), variantKey: snap.variant_key, variantLabel: snap.variant_label, scale: snap.scale || 100, cardBackground: snap.card_background, logoColor: snap.logo_color || 'inherit' };
       }));
       const settings = logoWallLayout(d.wall.settings);
+      wallGeneration.current++; pendingInitialScales.current.clear();
       setFocused(null); setCurrent(d.wall); setTitle(d.wall.title); setSelected(items); setLayout(settings);
       setSaved(JSON.stringify({ title: d.wall.title, ids: items.map(b => [wallLogoKey(b), b.cardBackground, b.logoColor || 'inherit', b.scale || 100]), layout: settings }));
     });
@@ -272,9 +277,10 @@ export default function LogoWallEditor() {
   }
   async function save() {
     await run(async () => {
-      const d = await api(current ? 'PUT' : 'POST', current?.id, { title, items: selected.map(b => ({ brandId: b.id, variantKey: b.variantKey, cardBackground: b.cardBackground || 'inherit', logoColor: b.logoColor || 'inherit', scale: b.scale || 100 })), version: current?.version, settings: layout });
+      const items = await scalesForSave(selected, wallLogoKey, pendingInitialScales.current);
+      const d = await api(current ? 'PUT' : 'POST', current?.id, { title, items: items.map(b => ({ brandId: b.id, variantKey: b.variantKey, cardBackground: b.cardBackground || 'inherit', logoColor: b.logoColor || 'inherit', scale: b.scale })), version: current?.version, settings: layout });
       setCurrent(d.wall); setTitle(d.wall.title);
-      setSaved(JSON.stringify({ title: d.wall.title, ids: selected.map(b => [wallLogoKey(b), b.cardBackground, b.logoColor || 'inherit', b.scale || 100]), layout }));
+      setSaved(JSON.stringify({ title: d.wall.title, ids: items.map(b => [wallLogoKey(b), b.cardBackground, b.logoColor || 'inherit', b.scale]), layout }));
       setWalls((await api()).walls); setMessage('저장했어요.');
     });
   }
@@ -290,7 +296,15 @@ export default function LogoWallEditor() {
   }
   function addLogo(b: WallLogo) {
     setSelected(s => s.length >= 100 || s.some(v => wallLogoKey(v) === wallLogoKey(b)) ? s : [...s, b]);
-    if(b.scale===undefined)void initialWallScale(preview(b)).then(scale=>setSelected(s=>s.map(v=>wallLogoKey(v)===wallLogoKey(b)&&v.scale===undefined?{...v,scale}:v)));
+    if (b.scale === undefined) {
+      const key = wallLogoKey(b), generation = wallGeneration.current;
+      const pending = initialWallScale(preview(b)).catch(() => 100);
+      pendingInitialScales.current.set(key, pending);
+      void pending.then(scale => {
+        if (generation !== wallGeneration.current) return;
+        setSelected(s => s.map(v => wallLogoKey(v) === key && v.scale === undefined ? { ...v, scale } : v));
+      });
+    }
   }
   function setLogoColor(key: string, color: WallLogoColor) { setSelected(s => s.map(b => wallLogoKey(b) === key ? { ...b, logoColor: color } : b)); }
   const cardBackground = (b: WallLogo) => wallCardBackground(layout, wallLogoIsLight(layout, Boolean(b.light || b.light_logo || b.dark_variant === 'white'), b.logoColor), b.cardBackground);

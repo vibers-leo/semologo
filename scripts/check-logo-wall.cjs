@@ -63,6 +63,10 @@ async function main(){
  assert(!logoImageCandidates({id:'raster',has_svg:false,has_png:true}).some(u=>u.endsWith('.svg')));
  const {logoWallLayout,logoWallMetrics,wallCardBackground}=load('src/lib/logo-wall-layout.ts');
  const {wallScaleForVisibleHeight,wallCropForVisibleHeight}=load('src/lib/logo-optical-size.ts');
+ const {scalesForSave}=load('src/lib/logo-wall-scale-save.ts');
+ const pending=new Map([['fresh',Promise.resolve(108)],['manual',Promise.resolve(88)]]);
+ const savedScales=await scalesForSave([{id:'fresh'},{id:'manual',scale:175},{id:'old',scale:300}],logo=>logo.id,pending);
+ assert.deepEqual(savedScales.map(logo=>logo.scale),[108,175,300],'Save must settle initial sizing and preserve manual zoom');
  const {findLogoWallDropSlot,moveLogoToInsertion}=load('src/lib/logo-wall-reorder.ts');
  const {logoWallMotionRows}=load('src/lib/logo-wall-motion-rows.ts');
  const ordered=['A','B','C','D','E','F','G'];
