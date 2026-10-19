@@ -34,6 +34,7 @@ export default function CoupangSlot({ brandId, count = 4 }: Props) {
   const slotRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
+    if (process.env.NEXT_PUBLIC_AD_PREVIEW_MODE === "1") { setItems([]); return; }
     let alive = true;
     setItems(null);
     setLabel("오늘의 특가");

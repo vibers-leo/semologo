@@ -32,6 +32,7 @@ export default function VibersAdSlot({ slot = "home_top" }: { slot?: string }) {
   const [sid, setSid] = useState<string>("");
 
   useEffect(() => {
+    if (process.env.NEXT_PUBLIC_AD_PREVIEW_MODE === "1") return;
     const mq = window.matchMedia("(min-width: 768px)");
     const apply = () => setFormat(mq.matches ? "pc" : "mobile");
     apply();
@@ -40,6 +41,7 @@ export default function VibersAdSlot({ slot = "home_top" }: { slot?: string }) {
     return () => mq.removeEventListener("change", apply);
   }, []);
 
+  if (process.env.NEXT_PUBLIC_AD_PREVIEW_MODE === "1") return <div className="ad-preview-box" style={{ width: "100%", aspectRatio: "16 / 2" }}>기존 상단 배너 미리보기 · 광고 요청 없음</div>;
   if (!format) return null;
 
   const ratio = format === "pc" ? "1600 / 191" : "640 / 232";

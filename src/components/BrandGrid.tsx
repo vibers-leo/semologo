@@ -39,6 +39,7 @@ async function warmCardImages(brands: Brand[]) {
 }
 import { useSearch } from "@/lib/search-context";
 import { listPublishedLogoPosts, type LogoPost } from "@/lib/logo-posts";
+import AdsterraSlot from "./AdsterraSlot";
 
 const AdSlot = dynamic(() => import("./AdSlot"), { ssr: false });
 
@@ -534,7 +535,7 @@ export default function BrandGrid({
 
       {/* ── 카드 그리드 ── */}
       <div className="catalog-logo-grid">
-        {visible.map((brand, i) => (
+        {visible.slice(0, 6).map((brand, i) => (
             <BrandCard
               key={brand.id}
               brand={presented(brand)}
@@ -545,6 +546,26 @@ export default function BrandGrid({
               }}
               priority={i < 24}
             />
+        ))}
+        {visible.length > 6 && <AdsterraSlot placement="compact" />}
+        {visible.slice(6, 18).map((brand) => (
+          <BrandCard
+            key={brand.id}
+            brand={presented(brand)}
+            bgVote={presentations[brand.id] || brand.presentation ? undefined : bgVotes[brand.id]}
+            onClick={() => {
+              setSelected(brand);
+              history.replaceState(null, "", path(`/brand/${brand.id}`));
+            }}
+            priority={false}
+          />
+        ))}
+        {visible.length > 18 && <AdsterraSlot placement="wide" />}
+        {visible.slice(18).map((brand) => (
+          <BrandCard key={brand.id} brand={presented(brand)}
+            bgVote={presentations[brand.id] || brand.presentation ? undefined : bgVotes[brand.id]}
+            onClick={() => { setSelected(brand); history.replaceState(null, "", path(`/brand/${brand.id}`)); }}
+            priority={false} />
         ))}
       </div>
 

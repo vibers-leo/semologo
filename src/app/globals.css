@@ -131,6 +131,34 @@ body {
   .catalog-logo-grid .card-preview { width: 100%; height: auto; min-height: 0; aspect-ratio: 5 / 4; }
 }
 
+/* A clearly labeled, reserved horizontal ad area. Wide screens use 728×90 after 18 cards; narrower screens use 320×50 after 6. */
+.adsterra-slot { grid-column: 1 / -1; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 8px; min-height: 140px; padding: 12px; }
+.adsterra-label { color: #71717a; font-size: 11px; letter-spacing: .04em; }
+.adsterra-unit, .adsterra-preview { flex: none; }
+.adsterra-preview { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 8px; border: 1px dashed #c4c4cc; border-radius: 8px; background: #f7f7f8; color: #52525b; font-size: 14px; }
+.adsterra-preview small { color: #71717a; font-size: 11px; }
+.ad-preview-box { display: flex; align-items: center; justify-content: center; border: 1px dashed #d4d4d8; border-radius: 8px; background: #fafafa; color: #71717a; font-size: 12px; text-align: center; }
+.adsterra-slot--compact-only { display: flex; min-height: 100px; }
+.adsterra-slot--wide-only { display: none; }
+@media (max-width: 359px) { .adsterra-slot--compact-only { display: none; } }
+@media (min-width: 1200px) {
+  .adsterra-slot--compact-only { display: none; }
+  .adsterra-slot--wide-only { display: flex; min-height: 140px; }
+}
+
+.brand-asset-facts { padding: 0 20px 48px; background: var(--bg); }
+.brand-asset-facts__inner { max-width: 1100px; margin: 0 auto; padding: 28px 32px; border: 1px solid var(--border); border-radius: 16px; background: var(--surface); color: var(--text); }
+.brand-asset-facts__eyebrow { margin: 0 0 8px; color: var(--text-secondary); font-size: 12px; }
+.brand-asset-facts h2 { margin: 0; font-size: 21px; font-weight: 700; }
+.brand-asset-facts__meta { margin: 8px 0 22px; color: var(--text-secondary); font-size: 13px; }
+.brand-asset-facts__grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; }
+.brand-asset-facts h3 { margin: 0 0 8px; font-size: 14px; }
+.brand-asset-facts ul { margin: 0; padding-left: 20px; font-size: 13px; line-height: 1.8; }
+.brand-asset-facts__note { margin: 20px 0 10px; color: var(--text-secondary); font-size: 13px; line-height: 1.7; }
+.brand-asset-facts__links { display: flex; flex-wrap: wrap; gap: 8px 18px; }
+.brand-asset-facts a { color: #4f46e5; font-size: 13px; }
+@media (max-width: 640px) { .brand-asset-facts { padding: 0 16px 32px; } .brand-asset-facts__inner { padding: 22px 18px; } .brand-asset-facts__grid { grid-template-columns: 1fr; gap: 14px; } }
+
 .brand-sheet-handle { display: none; }
 .brand-inner-dialog { min-height: 0; overflow: hidden; }
 @keyframes brandSheetIn {

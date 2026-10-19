@@ -71,6 +71,7 @@ export default function PrivacyPage() {
             <ul className="flex flex-col gap-2 pl-4" style={{ listStyleType: "disc" }}>
               <li><strong>Google Analytics:</strong> 서비스 이용 통계 분석</li>
               <li><strong>카카오 애드핏:</strong> 광고 제공 (카카오 개인정보처리방침 적용)</li>
+              <li><strong>Adsterra:</strong> 배너 광고 제공을 위해 광고 식별자, IP 주소, 브라우저·기기 정보, 광고 노출·반응 정보 등이 처리될 수 있습니다. 제공사의 쿠키 및 개인정보 처리 방식이 적용되며, 자세한 내용은 <a href="https://adsterra.com/privacy-policy/" target="_blank" rel="noopener noreferrer" style={{ color: "#6366f1" }}>개인정보 처리방침</a>과 <a href="https://adsterra.com/cookies/" target="_blank" rel="noopener noreferrer" style={{ color: "#6366f1" }}>쿠키 안내</a>를 확인해 주세요.</li>
               <li><strong>Firebase (Google):</strong> 인증 및 데이터 저장</li>
             </ul>
           </section>
@@ -82,7 +83,7 @@ export default function PrivacyPage() {
 
           <section>
             <h2 className="font-bold text-base mb-3">7. 쿠키</h2>
-            <p>세모로고는 서비스 이용 편의를 위해 쿠키와 localStorage를 사용합니다. 브라우저 설정에서 쿠키를 거부할 수 있으나, 일부 기능이 제한될 수 있습니다.</p>
+            <p>세모로고와 외부 광고·분석 제공사는 서비스 운영, 광고 제공 및 성과 측정을 위해 쿠키 또는 유사 식별자를 사용할 수 있습니다. 외부 제공사의 처리·보관 방식은 각 제공사의 정책을 따릅니다. 브라우저 설정에서 쿠키를 차단하거나 삭제할 수 있으며, 광고 관련 선택·권리 문의는 개인정보 보호책임자 이메일로 접수해 주세요.</p>
           </section>
 
           <section>

@@ -17,8 +17,10 @@ const ADFIT_SRC = "https://t1.kakaocdn.net/kas/static/ba.min.js";
  */
 export default function AdSlot() {
   const ref = useRef<HTMLDivElement>(null);
+  const preview = process.env.NEXT_PUBLIC_AD_PREVIEW_MODE === "1";
 
   useEffect(() => {
+    if (preview) return;
     const host = ref.current;
     if (!host) return;
     // 슬롯은 이 effect 시점에 이미 DOM 에 있다 (ref 가 잡혔다)
@@ -31,7 +33,9 @@ export default function AdSlot() {
     return () => {
       s.remove();
     };
-  }, []);
+  }, [preview]);
+
+  if (preview) return <div className="ad-preview-box" style={{ width: 160, height: 600 }}>AdFit 160 × 600 미리보기 · 광고 요청 없음</div>;
 
   return (
     <div ref={ref} className="w-[160px]" aria-label="광고">

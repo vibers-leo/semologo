@@ -7,6 +7,7 @@ import { reviewedMergeTarget } from "@/lib/reviewed-logo-assets";
 import { logoPngCandidates } from "@/lib/logo-png-source";
 import Header from "@/components/Header";
 import BrandDetailClient from "./BrandDetailClient";
+import BrandEditorialFacts from "@/components/BrandEditorialFacts";
 
 const BASE = "https://semologo.com";
 
@@ -146,6 +147,7 @@ export async function renderBrandPage(
       <div className="min-h-screen" style={{ background: "var(--bg)" }}>
         <Header />
         <BrandDetailClient brand={brand} relatedBrands={relatedBrands} />
+        <BrandEditorialFacts brand={brand} />
       </div>
     </>
   );
