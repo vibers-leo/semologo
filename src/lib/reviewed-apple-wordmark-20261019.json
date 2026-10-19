@@ -1,0 +1,73 @@
+{
+  "variants": {
+    "apple": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "apple",
+      "primary": "symbol",
+      "fingerprint": {
+        "logo.svg": "d64a495b151e39ce",
+        "sources/vlz/wide.svg": "de466982b0862f03",
+        "sources/supertiny/apple.svg": "ef48fb929b4a5603",
+        "sources/reviewed-apple-wordmark-20261019/d8a2eeab1e1063a88279.png": "d8a2eeab1e1063a8",
+        "sources/reviewed-apple-wordmark-20261019/ea967d6a59ef3e975ab4.svg": "ea967d6a59ef3e97",
+        "sources/reviewed-apple-wordmark-20261019/40503a74826ae4955bec.png": "40503a74826ae495"
+      },
+      "variants": [
+        {
+          "key": "horizontal",
+          "form": "horizontal",
+          "lang": "unknown",
+          "color": "mono-dark",
+          "label": "가로조합형",
+          "files": {
+            "svg": "sources/vlz/wide.svg",
+            "png": "sources/reviewed-apple-wordmark-20261019/d8a2eeab1e1063a88279.png"
+          },
+          "aspect": 2.912,
+          "provider": "vectorlogozone",
+          "origin": "collected",
+          "order": 10
+        },
+        {
+          "key": "symbol",
+          "form": "symbol",
+          "lang": "en",
+          "color": "mono-dark",
+          "label": "심볼형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 0.816,
+          "provider": "simple-icons",
+          "origin": "collected",
+          "order": 30,
+          "alts": [
+            {
+              "provider": "supertiny",
+              "file": "sources/supertiny/apple.svg"
+            }
+          ]
+        },
+        {
+          "key": "wordmark-derived-20261019",
+          "form": "wordmark",
+          "lockup": "wordmark",
+          "lang": "en",
+          "color": "mono-dark",
+          "label": "Apple 글자형 · 가로형에서 분리",
+          "files": {
+            "svg": "sources/reviewed-apple-wordmark-20261019/ea967d6a59ef3e975ab4.svg",
+            "png": "sources/reviewed-apple-wordmark-20261019/40503a74826ae4955bec.png"
+          },
+          "provider": "기존 VectorLogoZone 가로형 자산",
+          "origin": "derived",
+          "derived_from": "horizontal",
+          "source_sha256": "a50774a643cca306c0ebc5d2b19c23890f85974c576c4f9a060e2915e81693ba",
+          "order": 40
+        }
+      ]
+    }
+  }
+}

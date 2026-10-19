@@ -3,8 +3,22 @@ const cache = new Map<string, LogoBounds>();
 
 /** Match visible logo heights while letting each lockup retain its natural width. */
 export function wallScaleForVisibleHeight(bounds:LogoBounds):number {
-  const visibleFraction=bounds.inkHeight/Math.max(1,bounds.height);
-  return Math.round(Math.max(50,Math.min(300,80/Math.max(.01,visibleFraction))));
+  // The renderer crops paper/transparent padding first, so one scale now means
+  // the same visible height regardless of the original canvas dimensions.
+  return bounds.inkHeight > 0 ? 80 : 100;
+}
+
+export function wallCropForVisibleHeight(bounds: LogoBounds, visibleHeight: number) {
+  // Cap pathological files whose detected mark is only a few pixels high.
+  const factor = visibleHeight / Math.max(1, bounds.inkHeight, bounds.height * .05);
+  return {
+    width: bounds.inkWidth * factor,
+    height: visibleHeight,
+    imageWidth: bounds.width * factor,
+    imageHeight: bounds.height * factor,
+    left: -bounds.x * factor,
+    top: -bounds.y * factor,
+  };
 }
 
 /** Read a small sample once; original files and their colours remain untouched. */

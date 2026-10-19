@@ -4,7 +4,7 @@ import { onAuthStateChanged, type User } from 'firebase/auth';
 import { getClientAuth } from '@/lib/firebase';
 import { CATALOG_VERSION } from '@/lib/cdn';
 import { logoWallPngCandidates } from '@/lib/logo-png-source';
-import { initialWallScale, measureLogo, wallScaleForVisibleHeight, type LogoBounds } from '@/lib/logo-optical-size';
+import { initialWallScale, measureLogo, wallCropForVisibleHeight, wallScaleForVisibleHeight, type LogoBounds } from '@/lib/logo-optical-size';
 import { applyQualityReview } from '@/lib/logo-quality-review';
 import { findLogoWallDropSlot, moveLogoToInsertion, type DropSlot } from '@/lib/logo-wall-reorder';
 import { logoWallMotionRows } from '@/lib/logo-wall-motion-rows';
@@ -33,15 +33,9 @@ function SearchLogoImage({ brand, src, large = false, background, baseHeight = 8
   const [bounds, setBounds] = useState<LogoBounds | null>(null);
   const candidates = brand.variantKey ? [src] : [...new Set([src, ...logoWallPngCandidates(brand)])];
   const fullHeight = baseHeight * (brand.scale || 100) / 100;
-  const crop = large && bounds?.height && bounds.inkWidth > 0 && bounds.inkHeight > 0 ? {
-    width: fullHeight * bounds.inkWidth / bounds.height,
-    height: fullHeight * bounds.inkHeight / bounds.height,
-    imageWidth: fullHeight * bounds.width / bounds.height,
-    left: -fullHeight * bounds.x / bounds.height,
-    top: -fullHeight * bounds.y / bounds.height,
-  } : null;
+  const crop = large && bounds?.height && bounds.inkWidth > 0 && bounds.inkHeight > 0 ? wallCropForVisibleHeight(bounds, fullHeight) : null;
   return <span className={!large && !background && !(brand.light || brand.light_logo || brand.dark_variant === 'white') ? styles.searchPreview : undefined} style={{ width: large ? 'max-content' : 80, minHeight: large ? baseHeight + 48 : undefined, height: large ? 'auto' : 48, flexShrink: 0, display: 'flex', alignItems: 'center', justifyContent: 'center', borderRadius: 6, background: background ?? (brand.light || brand.light_logo || brand.dark_variant === 'white' ? '#18181b' : undefined) }}>
-    {failed ? <span style={{ fontSize: 11, color: '#71717a' }}>미리보기 없음</span> : <span style={{ display: 'block', position: 'relative', flexShrink: 0, overflow: 'hidden', width: large ? crop?.width ?? 'max-content' : 72, height: large ? crop?.height ?? fullHeight : 40 }}><img draggable={false} src={candidates[candidate]} alt={large ? brand.name_ko : ''} width={large ? 240 : 80} height={large ? 100 : 48} decoding="async" style={{ display: 'block', position: crop ? 'absolute' : 'static', left: crop?.left, top: crop?.top, width: crop?.imageWidth ?? (large ? 'auto' : 72), maxWidth: large ? 'none' : undefined, height: large ? fullHeight : 40, objectFit: 'contain', filter: large && logoColor !== 'original' ? logoColor === 'white' ? 'brightness(0) invert(1)' : 'brightness(0)' : 'none' }} onLoad={e => { if (!large) return; const source = e.currentTarget.currentSrc; const image = new Image(); image.crossOrigin = 'anonymous'; image.onload = () => setBounds(measureLogo(image)); image.onerror = () => setBounds(measureLogo(e.currentTarget)); image.src = source; }} onError={() => { setBounds(null); candidate + 1 < candidates.length ? setCandidate(candidate + 1) : setFailed(true); }} /></span>}
+    {failed ? <span style={{ fontSize: 11, color: '#71717a' }}>미리보기 없음</span> : <span style={{ display: 'block', position: 'relative', flexShrink: 0, overflow: 'hidden', width: large ? crop?.width ?? 'max-content' : 72, height: large ? crop?.height ?? fullHeight : 40 }}><img draggable={false} src={candidates[candidate]} alt={large ? brand.name_ko : ''} width={large ? 240 : 80} height={large ? 100 : 48} decoding="async" style={{ display: 'block', position: crop ? 'absolute' : 'static', left: crop?.left, top: crop?.top, width: crop?.imageWidth ?? (large ? 'auto' : 72), maxWidth: large ? 'none' : undefined, height: large ? crop?.imageHeight ?? fullHeight : 40, objectFit: 'contain', filter: large && logoColor !== 'original' ? logoColor === 'white' ? 'brightness(0) invert(1)' : 'brightness(0)' : 'none' }} onLoad={e => { if (!large) return; const source = e.currentTarget.currentSrc; const image = new Image(); image.crossOrigin = 'anonymous'; image.onload = () => setBounds(measureLogo(image)); image.onerror = () => setBounds(measureLogo(e.currentTarget)); image.src = source; }} onError={() => { setBounds(null); candidate + 1 < candidates.length ? setCandidate(candidate + 1) : setFailed(true); }} /></span>}
   </span>;
 }
 export default function LogoWallEditor() {
@@ -352,7 +346,7 @@ export default function LogoWallEditor() {
             <div className={styles.motionStage} data-logo-wall data-appearance={layout.appearance} data-logo-color={layout.logoColor} style={{ background: wallStageBackground(layout) }}>
               {logoWallMotionRows(selected, layout.columns, layout.motion === 'alternating').map((logos, row) => {
                 const repeated = Array.from({ length: Math.max(1, Math.ceil(8 / logos.length)) }, () => logos).flat();
-                return <div className={styles.motionRow} key={row}><div className={styles.motionTrack} key={logos.map(wallLogoKey).join('|')} style={{ animationDuration: `${{ slow: 48, normal: 28, fast: 14 }[layout.speed]}s`, animationDirection: row % 2 ? 'reverse' : 'normal', animationPlayState: paused || dragging ? 'paused' : 'running' }}>
+                return <div className={styles.motionRow} key={row}><div className={styles.motionTrack} key={logos.map(wallLogoKey).join('|')} style={{ animationDuration: `${logoWallMetrics.speed[layout.speed]}s`, animationDirection: row % 2 ? 'reverse' : 'normal', animationPlayState: paused || dragging ? 'paused' : 'running' }}>
                   {[0, 1].map(copy => <div className={styles.motionGroup} key={copy} aria-hidden={copy === 1 || undefined}>{repeated.map((b, i) => <div className={styles.motionLogo} key={`${wallLogoKey(b)}-${i}`} style={{ background: cardBackground(b) }} title={b.name_ko}><SearchLogo brand={b} src={preview(b)} large baseHeight={logoWallMetrics.logoSize[layout.logoSize]} background="transparent" logoColor={wallLogoColor(layout, b.logoColor)} /></div>)}</div>)}
                 </div></div>;
               })}
@@ -366,7 +360,7 @@ export default function LogoWallEditor() {
             <label>전체 카드 배경<select aria-label="전체 카드 배경" value={layout.cardBackground} disabled={busy} onChange={e => setLayout(l => ({ ...l, cardBackground: e.target.value as Layout['cardBackground'] }))}><option value="auto">로고에 맞게</option><option value="white">흰색</option><option value="transparent">투명</option><option value="light">연회색</option><option value="dark">검정</option></select></label>
             <label>한 줄 배치<select aria-label="한 줄 로고 개수" value={layout.columns} disabled={busy} onChange={e => setLayout(l => ({ ...l, columns: Number(e.target.value) }))}>{[2,3,4,6].map(n => <option key={n} value={n}>{n}개</option>)}</select></label>
             <label>움직임<select aria-label="로고월 움직임" value={layout.motion} disabled={busy} onChange={e => { setPaused(false); setLayout(l => ({ ...l, motion: e.target.value as Layout['motion'] })); }}><option value="static">정지</option><option value="marquee">한 방향 마퀴</option><option value="alternating">줄마다 반대 방향 마퀴</option></select></label>
-            <label>속도<select aria-label="마퀴 속도" value={layout.speed} disabled={busy || layout.motion === 'static'} onChange={e => setLayout(l => ({ ...l, speed: e.target.value as Layout['speed'] }))}><option value="slow">천천히</option><option value="normal">보통</option><option value="fast">빠르게</option></select></label>
+            <label>속도<select aria-label="마퀴 속도" value={layout.speed} disabled={busy || layout.motion === 'static'} onChange={e => setLayout(l => ({ ...l, speed: e.target.value as Layout['speed'] }))}><option value="very-slow">아주 천천히</option><option value="slow">천천히</option><option value="normal">보통</option><option value="fast">빠르게</option></select></label>
             <label>스타일<select aria-label="로고월 스타일" value={layout.logoColor === 'original' ? layout.appearance : `mono-${layout.logoColor}`} disabled={busy} onChange={e => { const style = e.target.value; setLayout(l => {
               if (style === 'mono-black') return { ...l, appearance: 'clean', logoColor: 'black', background: 'light', cardBackground: 'transparent' };
               if (style === 'mono-white') return { ...l, appearance: 'clean', logoColor: 'white', background: 'dark', cardBackground: 'transparent' };

@@ -46,6 +46,7 @@ import blackyakWordmark from './reviewed-blackyak-wordmark-20261014.json';
 import dribbbleWikileaks from './reviewed-dribbble-wikileaks-20261014.json';
 import economicPromotion from './reviewed-economic-promotion-20261015.json';
 import workerLogoBatch from './reviewed-worker-logo-batch-20261015.json';
+import appleWordmark from './reviewed-apple-wordmark-20261019.json';
 // Later releases often add only counts or icons. Preserve previously reviewed
 // representative paths unless the later patch explicitly replaces that field.
 const releasePatches = mergeBrandPatches([
@@ -206,4 +207,5 @@ export const reviewedVariants: Record<string, VariantManifest> = {
   ...dribbbleWikileaks.variants as unknown as Record<string, VariantManifest>,
   ...economicPromotion.variants as unknown as Record<string, VariantManifest>,
   ...workerLogoBatch.variants as unknown as Record<string, VariantManifest>,
+  ...appleWordmark.variants as unknown as Record<string, VariantManifest>,
 };

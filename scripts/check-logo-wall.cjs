@@ -35,6 +35,9 @@ async function main(){
  const raster=applyReviewedAssets({id:'policja',has_svg:true});assert.equal(raster.has_svg,false);assert.equal(raster.logo_svg,false);assert(!reviewedVariants.policja.variants[0].files.svg);
  const cj=applyReviewedAssets({id:'cj-logo',light:true});assert.equal(cj.presentation.bg,'light');assert.equal(cj.light,false);
  const nh=applyReviewedAssets({id:'nhqv',logo_svg:'logo.svg',has_svg:true,logo_png:true});
+ const appleVariants=reviewedVariants.apple.variants;
+ assert(appleVariants.some(v=>v.form==='wordmark'&&v.files.svg&&v.files.png));
+ assert(appleVariants.some(v=>v.form==='horizontal'&&v.files.svg&&v.files.png));
  assert.equal(nh.has_svg,true);assert.equal(reviewedVariants.nhqv.variants.length,1);
  assert(nh.svg_transparent.includes("reviewed-transparent-20261007"));
  assert(!logoPngCandidates(nh).some(url=>url.includes('logo-transparent.png')));
@@ -59,7 +62,7 @@ async function main(){
  assert(fetched[0].includes('/png-only-recovery/logo.png'),'PNG-only recovery must try existing PNG before missing SVG');fetched.length=0;
  assert(!logoImageCandidates({id:'raster',has_svg:false,has_png:true}).some(u=>u.endsWith('.svg')));
  const {logoWallLayout,logoWallMetrics,wallCardBackground}=load('src/lib/logo-wall-layout.ts');
- const {wallScaleForVisibleHeight}=load('src/lib/logo-optical-size.ts');
+ const {wallScaleForVisibleHeight,wallCropForVisibleHeight}=load('src/lib/logo-optical-size.ts');
  const {findLogoWallDropSlot,moveLogoToInsertion}=load('src/lib/logo-wall-reorder.ts');
  const {logoWallMotionRows}=load('src/lib/logo-wall-motion-rows.ts');
  const ordered=['A','B','C','D','E','F','G'];
@@ -75,11 +78,14 @@ async function main(){
  assert.equal(moveLogoToInsertion(['a','b','c'],2,1).join(','),'a,c,b');
  const unchanged=['a','b','c'];assert.equal(moveLogoToInsertion(unchanged,1,2),unchanged);
  assert.equal(wallScaleForVisibleHeight({width:100,height:100,x:0,y:0,inkWidth:100,inkHeight:100}),80);
- assert.equal(wallScaleForVisibleHeight({width:500,height:100,x:0,y:25,inkWidth:500,inkHeight:50}),160);
- assert.equal(wallScaleForVisibleHeight({width:100,height:100,x:0,y:45,inkWidth:100,inkHeight:10}),300);
+ assert.equal(wallScaleForVisibleHeight({width:500,height:100,x:0,y:25,inkWidth:500,inkHeight:50}),80);
+ assert.equal(wallScaleForVisibleHeight({width:100,height:100,x:0,y:45,inkWidth:100,inkHeight:10}),80);
+ const paddedCrop=wallCropForVisibleHeight({width:400,height:400,x:0,y:169,inkWidth:400,inkHeight:62},40);
+ assert.equal(paddedCrop.height,40);assert(paddedCrop.width>250);assert(paddedCrop.imageHeight>250);
  const old=logoWallLayout({background:'auto',columns:4});assert.equal(old.appearance,'cards');assert.equal(old.showNames,false);assert.equal(old.logoSize,'small');assert.equal(logoWallLayout({logoSize:'tiny'}).logoSize,'tiny');assert.equal(logoWallLayout({showNames:true}).showNames,false);
  assert.deepEqual(Object.values(logoWallMetrics.logoSize),[28,40,56,80]);
  const layout=logoWallLayout({appearance:'clean',spacing:'airy',logoSize:'large',showNames:false,motion:'alternating'});
+ assert.equal(logoWallLayout({speed:'very-slow'}).speed,'very-slow');assert.equal(logoWallMetrics.speed['very-slow'],80);
  assert.equal(wallCardBackground(logoWallLayout({cardBackground:'transparent'})), '#00000000');
  assert.equal(wallCardBackground(logoWallLayout({cardBackground:'dark'}),false,'transparent'), '#00000000');
  assert.throws(()=>logoWallLayout({columns:999}));assert.throws(()=>logoWallLayout({showNames:'false'}));assert.throws(()=>logoWallLayout({appearance:'url(evil)'}));
@@ -97,6 +103,7 @@ async function main(){
  const logos=[{id:'test',name:'<script>unsafe</script>',file:'logos/001-test.png',light:true}];
  const html=logoWallHtml('<unsafe>',layout,logos);
  const motionHtml=logoWallHtml('ordered',{columns:3,motion:'alternating'},['a','b','c','d'].map(id=>({id,file:`logos/${id}.png`})));
+ assert(logoWallHtml('slower',{speed:'very-slow',motion:'marquee'},logos).includes('marquee 80s'));
  const motionSections=motionHtml.match(/<div class="row">[\s\S]*?<\/div><\/div><\/div>/g)||[];
  assert.equal(motionSections.length,2);
  assert.deepEqual([...motionSections[0].matchAll(/data-wall-file="logos\/([a-d])\.png"/g)].slice(0,3).map(match=>match[1]),['a','b','c']);
@@ -134,7 +141,7 @@ async function main(){
  const scaled=logoWallHtml('scale',{cardBackground:'white'},[{id:'test',file:'logos/001-test.png',scale:125,cardBackground:'dark'}]);assert(scaled.includes('height:50px'));assert(scaled.includes('background:#18181b'));assert(scaled.includes('.grid-row{display:flex'));assert(scaled.includes('max-width:none;width:auto'));
  assert(logoWallHtml('scale 200',{},[{id:'test',file:'logos/001-test.png',scale:200}]).includes('height:80px'));
  assert(logoWallHtml('scale 300',{},[{id:'test',file:'logos/001-test.png',scale:300}]).includes('height:120px'));
- assert(logoWallHtml('cropped',{},[{id:'test',file:'logos/001-test.png',scale:200,heightFraction:.5}]).includes('height:40px'));
+ assert(logoWallHtml('cropped',{},[{id:'test',file:'logos/001-test.png',scale:200,heightFraction:.5}]).includes('height:80px'));
  const cropExports={};const cropSource=ts.transpileModule(fs.readFileSync(path.join(root,'src/lib/logo-wall-crop.ts'),'utf8'),{compilerOptions:{module:ts.ModuleKind.CommonJS,esModuleInterop:true}}).outputText;
  vm.runInNewContext(cropSource,{exports:cropExports,require},{filename:'logo-wall-crop.ts'});
  const sharp=require('sharp');const mark=await sharp({create:{width:60,height:16,channels:4,background:'#000'}}).png().toBuffer();
