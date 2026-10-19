@@ -6,6 +6,12 @@ export async function GET(request: Request) {
   try {
     if (!await trafficAdmin(request)) return reply({ error: '관리자 로그인이 필요해요.' }, 403);
     const u = new URL(request.url); const q = (u.searchParams.get('q') || '').trim().slice(0,120);
+    const id = u.searchParams.get('id');
+    if (id !== null) {
+      if (!/^[\p{L}\p{N}._-]{1,200}$/u.test(id)) return reply({error:'콘텐츠 ID를 확인해 주세요.'},400);
+      const row = await trafficDb().query('SELECT status FROM semologo.logo_posts WHERE id=$1 LIMIT 1',[id]);
+      return reply({exists:row.rowCount===1,published:row.rows[0]?.status==='published'});
+    }
     const status = u.searchParams.get('status') || 'published';
     if (!['draft','published','archived'].includes(status)) return reply({ error: '게시 상태를 확인해 주세요.' },400);
     const raw = Number(u.searchParams.get('page') || 1); const page = Number.isFinite(raw) ? Math.max(1,Math.min(10000,Math.floor(raw))) : 1;
