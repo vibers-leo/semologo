@@ -22,9 +22,28 @@ export default function SubmitPage() {
   const [status, setStatus] = useState<Status>("idle");
   const [feedback, setFeedback] = useState("");
   const [sentCount, setSentCount] = useState(0);
+  const [uploadPercent, setUploadPercent] = useState(0);
+  const [uploadingName, setUploadingName] = useState("");
   const [dragging, setDragging] = useState(false);
   const fileRef = useRef<HTMLInputElement>(null);
   const totalBytes = files.reduce((sum, file) => sum + file.size, 0);
+
+  function sendFile(data: FormData, onProgress: (loaded: number) => void): Promise<void> {
+    return new Promise((resolve, reject) => {
+      const xhr = new XMLHttpRequest();
+      xhr.open("POST", "https://ai.vibers.co.kr/api/logo-submit");
+      xhr.upload.onprogress = event => { if (event.lengthComputable) onProgress(event.loaded); };
+      xhr.onerror = () => reject(new Error("네트워크 연결을 확인해 주세요."));
+      xhr.onload = () => {
+        try {
+          const result = JSON.parse(xhr.responseText);
+          if (xhr.status >= 200 && xhr.status < 300 && result.success) resolve();
+          else reject(new Error(result.message || "파일을 보내지 못했어요."));
+        } catch { reject(new Error("서버 응답을 확인하지 못했어요.")); }
+      };
+      xhr.send(data);
+    });
+  }
 
   function addFiles(incoming: FileList | File[]) {
     const next = [...files];
@@ -60,11 +79,13 @@ export default function SubmitPage() {
   async function handleSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
     if (!files.length || status === "sending") return;
-    setStatus("sending"); setFeedback(""); setSentCount(0);
+    setStatus("sending"); setFeedback(""); setSentCount(0); setUploadPercent(0);
     const batchId = crypto.randomUUID();
     const failed: File[] = [];
     let sent = 0;
+    let completedBytes = 0;
     for (const [index, file] of files.entries()) {
+      setUploadingName(file.name);
       const data = new FormData();
       data.set("logo_file", file);
       data.set("memo", memo.trim());
@@ -73,15 +94,17 @@ export default function SubmitPage() {
       data.set("batch_count", String(files.length));
       data.set("batch_total_bytes", String(totalBytes));
       try {
-        const response = await fetch("https://ai.vibers.co.kr/api/logo-submit", { method: "POST", body: data });
-        const result = await response.json();
-        if (!response.ok || !result.success) throw new Error(result.message || "파일을 보내지 못했어요.");
+        await sendFile(data, loaded => setUploadPercent(Math.min(99, Math.round(((completedBytes + Math.min(loaded, file.size)) / totalBytes) * 100))));
         sent += 1; setSentCount(sent);
       } catch { failed.push(file); }
+      completedBytes += file.size;
+      setUploadPercent(Math.round((completedBytes / totalBytes) * 100));
     }
     if (sent) trackEvent("logo_submitted", { file_count: sent, has_file: true, has_note: Boolean(memo.trim()) });
+    setUploadingName("");
     if (failed.length) {
       setFiles(failed);
+      setUploadPercent(0);
       setFeedback(sent ? `${sent}개를 보냈어요. 남은 ${failed.length}개는 다시 보내 주세요.` : "파일을 보내지 못했어요. 잠시 후 다시 시도해 주세요.");
       setStatus("error");
     } else {
@@ -90,7 +113,7 @@ export default function SubmitPage() {
   }
 
   function reset() {
-    setFiles([]); setMemo(""); setStatus("idle"); setFeedback(""); setSentCount(0);
+    setFiles([]); setMemo(""); setStatus("idle"); setFeedback(""); setSentCount(0); setUploadPercent(0);
   }
 
   return <div className="min-h-screen" style={{ background: "var(--bg)" }}><Header />
@@ -122,7 +145,11 @@ export default function SubmitPage() {
 
           <div><label htmlFor="logo-submit-memo" className="block text-sm font-bold">메모 <span className="font-normal text-gray-500">선택</span></label><p className="mt-1 text-sm text-gray-500">알려주고 싶은 브랜드명이나 출처가 있다면 적어주세요.</p><textarea id="logo-submit-memo" value={memo} onChange={event => setMemo(event.target.value)} maxLength={1000} rows={3} placeholder="예: 공식 홈페이지에서 받은 파일이에요" className="mt-3 w-full rounded-xl border border-gray-300 bg-white p-4 text-sm outline-none focus:border-indigo-500 focus:ring-2 focus:ring-indigo-100" /></div>
           {feedback && <p role="alert" className={`rounded-xl px-4 py-3 text-sm ${status === "error" ? "bg-red-50 text-red-700" : "bg-amber-50 text-amber-800"}`}>{feedback}</p>}
-          {status === "sending" && <p role="status" className="text-sm text-gray-600">{files.length}개 중 {sentCount}개 전달했어요. 창을 닫지 말아 주세요.</p>}
+          {status === "sending" && <div role="status" className="rounded-xl bg-indigo-50 p-4 text-sm text-indigo-950">
+            <div className="flex justify-between gap-3"><span className="min-w-0 truncate">{uploadingName || "파일 준비 중"} · {files.length}개 중 {sentCount}개 완료</span><strong>{uploadPercent}%</strong></div>
+            <div role="progressbar" aria-label="로고 파일 업로드 진행률" aria-valuemin={0} aria-valuemax={100} aria-valuenow={uploadPercent} className="mt-3 h-2 overflow-hidden rounded-full bg-indigo-100"><div className="h-full rounded-full bg-indigo-600 transition-[width]" style={{ width: `${uploadPercent}%` }} /></div>
+            <p className="mt-2 text-xs text-indigo-700">업로드가 끝날 때까지 창을 열어 두세요.</p>
+          </div>}
           <button type="submit" disabled={!files.length || status === "sending"} className="w-full rounded-xl bg-[#111] px-5 py-4 text-sm font-bold text-white disabled:cursor-not-allowed disabled:opacity-40">{status === "sending" ? "파일 보내는 중…" : status === "error" ? "남은 파일 다시 보내기" : `${files.length}개 파일 보내기`}</button>
           <p className="text-center text-xs leading-6 text-gray-500">받은 파일은 확인 후 반영해요. 브랜드 로고의 사용 권한과 출처도 함께 살펴볼게요.</p>
         </form>
