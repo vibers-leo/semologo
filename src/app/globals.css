@@ -132,8 +132,8 @@ body {
 }
 
 /* A clearly labeled, reserved horizontal ad area. Wide screens use 728×90 after 18 cards; narrower screens use 320×50 after 6. */
-.adsterra-slot { grid-column: 1 / -1; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 8px; min-height: 140px; padding: 12px; }
-.adsterra-label { color: #71717a; font-size: 11px; letter-spacing: .04em; }
+.adsterra-slot { grid-column: 1 / -1; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 6px; min-height: 140px; padding: 12px; }
+.adsterra-label { display: inline-flex; align-items: center; padding: 2px 7px; border: 1px solid #e4e4e7; border-radius: 999px; background: #fafafa; color: #71717a; font-size: 10px; line-height: 1.2; letter-spacing: .02em; }
 .adsterra-unit, .adsterra-preview { flex: none; }
 .adsterra-preview { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 8px; border: 1px dashed #c4c4cc; border-radius: 8px; background: #f7f7f8; color: #52525b; font-size: 14px; }
 .adsterra-preview small { color: #71717a; font-size: 11px; }

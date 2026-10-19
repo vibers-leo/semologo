@@ -10,7 +10,7 @@ import { analyzeLogoVisibility } from "@/lib/logo-visibility";
 import { generateInverted } from "@/lib/logo-dark-png";
 
 import { useLocale, T } from "@/lib/locale-context";
-import { useMemo, useState, useEffect, useRef, useDeferredValue } from "react";
+import { Fragment, useMemo, useState, useEffect, useRef, useDeferredValue } from "react";
 import dynamic from "next/dynamic";
 import type { Brand, CatalogStats, SortMode } from "@/lib/brands";
 import { CDN, VERSION, CATALOG_VERSION } from "@/lib/cdn";
@@ -42,6 +42,13 @@ import { listPublishedLogoPosts, type LogoPost } from "@/lib/logo-posts";
 import AdsterraSlot from "./AdsterraSlot";
 
 const AdSlot = dynamic(() => import("./AdSlot"), { ssr: false });
+
+function ResponsiveAdsterraPair({ slotId }: { slotId: string }) {
+  return <>
+    <AdsterraSlot key={`${slotId}-wide`} placement="wide" />
+    <AdsterraSlot key={`${slotId}-compact`} placement="compact" />
+  </>;
+}
 
 // 카테고리 아이콘 매핑
 const CAT_EMOJI: Record<string, string> = {
@@ -535,38 +542,23 @@ export default function BrandGrid({
 
       {/* ── 카드 그리드 ── */}
       <div className="catalog-logo-grid">
-        {visible.slice(0, 6).map((brand, i) => (
+        {visible.map((brand, index) => (
+          <Fragment key={brand.id}>
             <BrandCard
-              key={brand.id}
               brand={presented(brand)}
               bgVote={presentations[brand.id] || brand.presentation ? undefined : bgVotes[brand.id]}
               onClick={() => {
                 setSelected(brand);
                 history.replaceState(null, "", path(`/brand/${brand.id}`));
               }}
-              priority={i < 24}
+              priority={index < 24}
             />
+            {(index + 1) % PAGE_SIZE === 0 && visible.length - index - 1 >= PAGE_SIZE / 2 && (
+              <ResponsiveAdsterraPair slotId={`batch-${index + 1}`} />
+            )}
+          </Fragment>
         ))}
-        {visible.length > 6 && <AdsterraSlot placement="compact" />}
-        {visible.slice(6, 18).map((brand) => (
-          <BrandCard
-            key={brand.id}
-            brand={presented(brand)}
-            bgVote={presentations[brand.id] || brand.presentation ? undefined : bgVotes[brand.id]}
-            onClick={() => {
-              setSelected(brand);
-              history.replaceState(null, "", path(`/brand/${brand.id}`));
-            }}
-            priority={false}
-          />
-        ))}
-        {visible.length > 18 && <AdsterraSlot placement="wide" />}
-        {visible.slice(18).map((brand) => (
-          <BrandCard key={brand.id} brand={presented(brand)}
-            bgVote={presentations[brand.id] || brand.presentation ? undefined : bgVotes[brand.id]}
-            onClick={() => { setSelected(brand); history.replaceState(null, "", path(`/brand/${brand.id}`)); }}
-            priority={false} />
-        ))}
+        {visible.length > 0 && <ResponsiveAdsterraPair slotId={`results-end-${visible.length}`} />}
       </div>
 
       {hasMore && (
