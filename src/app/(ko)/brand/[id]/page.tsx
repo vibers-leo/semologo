@@ -10,8 +10,8 @@ import BrandDetailClient from "./BrandDetailClient";
 
 const BASE = "https://semologo.com";
 
-// 하루 한 번 다시 만든다. CDN 의 brands.json 이 갱신되면 그때 반영된다.
-export const revalidate = 86400;
+// CMS 자산 보강을 상세 페이지에도 빠르게 반영한다.
+export const revalidate = 300;
 
 // 빌드에 굽는 페이지 수. 나머지는 첫 요청 때 만들어 캐시한다.
 // 전부 굽지 않는 이유 — 4.1만 장이면 빌드가 25~30분으로 늘고 이미지도

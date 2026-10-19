@@ -12,6 +12,18 @@ assert.equal(published.find(x=>x.id==='existing').logo_published_at,'2026-10-09T
 assert.equal(merge(catalog,[{id:'existing',logo_published_at:'invalid'}]).find(x=>x.id==='existing').logo_published_at,undefined);
 console.log('PASS publication timestamp overlay preserves reviewed content and rejects invalid dates');
 
+const pngOnly=[{id:'institution',name_ko:'검수된 기관',has_svg:false,logo_png:'logo.png'}];
+const verified=merge(pngOnly,[{id:'institution',name_ko:'CMS 이름',asset_review_status:'verified',has_svg:true,
+  logo_svg:'sources/official/logo.svg',logo_png:'sources/official/logo.png',preview_png:'https://cdn.test/preview.png'}])[0];
+assert.equal(verified.name_ko,'검수된 기관');
+assert.equal(verified.logo_svg,'sources/official/logo.svg');
+assert.equal(verified.has_svg,true);
+assert.equal(verified.logo_png,'sources/official/logo.png');
+const unverified=merge(pngOnly,[{id:'institution',asset_review_status:'pending',has_svg:true,logo_svg:'unsafe.svg'}])[0];
+assert.equal(unverified.has_svg,false);
+assert.equal(unverified.logo_svg,undefined);
+console.log('PASS verified CMS SVG upgrades PNG-only catalog without replacing identity or unverified assets');
+
 const source=fs.readFileSync('src/lib/brands.ts','utf8');
 const sortSource=source.slice(source.indexOf('export function sortForGrid('),source.indexOf('/** 검색 색인'));
 const sorting={};vm.runInNewContext(ts.transpileModule(sortSource,{compilerOptions:{module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2022}}).outputText,{exports:sorting,applyQualityReview:b=>b});
