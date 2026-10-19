@@ -178,7 +178,7 @@ export default function RequestsPage() {
               <div className="flex flex-col gap-2">
                 {priorityRequests.map(req => <div key={req.id} className="rounded-xl border bg-white p-4 flex items-center gap-3" style={{ borderColor: 'var(--border)' }}>
                   <span className="text-xs rounded-full bg-indigo-50 text-indigo-700 px-2 py-1 shrink-0">{req.status === 'published' ? '게시됨' : req.status === 'discovering' ? '수집 중' : req.status === 'review_required' ? '검수 대기' : '출처 탐색'}</span>
-                  <div className="min-w-0 flex-1"><p className="text-sm font-semibold">{req.requested_name} {req.request_count > 1 && <span className="text-indigo-600">· {req.request_count}명 요청</span>}</p><p className="text-xs text-gray-500 truncate">{req.message}</p></div>
+                  <div className="min-w-0 flex-1"><p className="text-sm font-semibold">{req.requested_name} {req.request_count > 1 && <span className="text-indigo-600">· {req.request_count}회 요청</span>}</p><p className="text-xs text-gray-500 truncate">{req.message}</p></div>
                   {req.official_url && <a href={req.official_url} target="_blank" rel="noopener noreferrer" className="text-xs text-indigo-600 shrink-0">공식 주소 ↗</a>}
                   {req.published_brand_id && <Link href={`/brand/${req.published_brand_id}/`} className="text-xs text-indigo-600 shrink-0">게시물 ↗</Link>}
                 </div>)}
