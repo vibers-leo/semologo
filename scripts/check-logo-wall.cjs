@@ -60,6 +60,15 @@ async function main(){
  assert(!logoImageCandidates({id:'raster',has_svg:false,has_png:true}).some(u=>u.endsWith('.svg')));
  const {logoWallLayout,logoWallMetrics,wallCardBackground}=load('src/lib/logo-wall-layout.ts');
  const {wallScaleForVisibleHeight}=load('src/lib/logo-optical-size.ts');
+ const {findLogoWallDropSlot,moveLogoToInsertion}=load('src/lib/logo-wall-reorder.ts');
+ const dropRows=[{top:0,bottom:80,items:[{index:0,left:0,right:80},{index:1,left:110,right:210}]},{top:120,bottom:200,items:[{index:2,left:0,right:80}]}];
+ assert.equal(findLogoWallDropSlot(dropRows,95,40).index,1,'gap between cards should target the insertion boundary');
+ assert.deepEqual(JSON.parse(JSON.stringify(findLogoWallDropSlot(dropRows,250,40))),{index:2,anchor:1,edge:'after'});
+ assert.equal(findLogoWallDropSlot(dropRows,10,110).index,2,'vertical gap should select nearest row');
+ assert.equal(findLogoWallDropSlot(dropRows,90,160).index,3,'last card should accept a drop after it');
+ assert.equal(moveLogoToInsertion(['a','b','c'],0,3).join(','),'b,c,a');
+ assert.equal(moveLogoToInsertion(['a','b','c'],2,1).join(','),'a,c,b');
+ const unchanged=['a','b','c'];assert.equal(moveLogoToInsertion(unchanged,1,2),unchanged);
  assert.equal(wallScaleForVisibleHeight({width:100,height:100,x:0,y:0,inkWidth:100,inkHeight:100}),80);
  assert.equal(wallScaleForVisibleHeight({width:500,height:100,x:0,y:25,inkWidth:500,inkHeight:50}),160);
  assert.equal(wallScaleForVisibleHeight({width:100,height:100,x:0,y:45,inkWidth:100,inkHeight:10}),300);

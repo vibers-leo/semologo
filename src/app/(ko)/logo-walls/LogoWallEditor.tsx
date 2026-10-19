@@ -6,6 +6,7 @@ import { CATALOG_VERSION } from '@/lib/cdn';
 import { logoWallPngCandidates } from '@/lib/logo-png-source';
 import { initialWallScale, measureLogo, wallScaleForVisibleHeight, type LogoBounds } from '@/lib/logo-optical-size';
 import { applyQualityReview } from '@/lib/logo-quality-review';
+import { findLogoWallDropSlot, moveLogoToInsertion, type DropSlot } from '@/lib/logo-wall-reorder';
 import type { Brand } from '@/lib/brands';
 import { fetchVariants } from '@/lib/client-variants';
 import { wallVariant, wallLogoKey, wallFormLabels, type WallLogo } from '@/lib/logo-wall-variant';
@@ -68,9 +69,9 @@ export default function LogoWallEditor() {
   const [paused, setPaused] = useState(false);
   const [saved, setSaved] = useState('');
   const [searching, setSearching] = useState(false);
-  const drag = useRef<{ id: string; pointer: number; x: number; y: number; target: string | null; moved: boolean } | null>(null);
+  const drag = useRef<{ id: string; pointer: number; x: number; y: number; moved: boolean } | null>(null);
   const [dragging, setDragging] = useState<string | null>(null);
-  const [dropTarget, setDropTarget] = useState<string | null>(null);
+  const [dropSlot, setDropSlot] = useState<DropSlot | null>(null);
   const canvasRef = useRef<HTMLDivElement>(null);
   const wallRef = useRef<HTMLDivElement>(null);
   const [editorFit, setEditorFit] = useState({ scale: 1, height: 0 });
@@ -92,40 +93,52 @@ export default function LogoWallEditor() {
     fit();
     return () => observer.disconnect();
   }, [selected.length, layout.columns, layout.logoSize, layout.spacing, presentation]);
-  function stopDrag() { drag.current = null; setDragging(null); setDropTarget(null); }
+  function stopDrag() { drag.current = null; setDragging(null); setDropSlot(null); }
   function startDrag(e: PointerEvent<HTMLElement>, id: string) {
     setFocused(id);
     if (busy || selected.length < 2 || !e.isPrimary || e.button !== 0) return;
     e.currentTarget.setPointerCapture(e.pointerId);
-    drag.current = { id, pointer: e.pointerId, x: e.clientX, y: e.clientY, target: null, moved: false };
+    drag.current = { id, pointer: e.pointerId, x: e.clientX, y: e.clientY, moved: false };
+  }
+  function slotAt(x: number, y: number): DropSlot | null {
+    const canvas = canvasRef.current?.getBoundingClientRect();
+    const wall = wallRef.current;
+    if (!canvas || !wall || x < canvas.left || x > canvas.right || y < canvas.top || y > canvas.bottom) return null;
+    const rows = Array.from(wall.querySelectorAll<HTMLElement>('[data-wall-row]')).map(row => {
+      const bounds = row.getBoundingClientRect();
+      return { top: bounds.top, bottom: bounds.bottom, items: Array.from(row.querySelectorAll<HTMLElement>('[data-wall-index]')).map(tile => {
+        const rect = tile.getBoundingClientRect();
+        return { index: Number(tile.dataset.wallIndex), left: rect.left, right: rect.right };
+      }) };
+    });
+    return findLogoWallDropSlot(rows, x, y);
   }
   function dragMove(e: PointerEvent<HTMLElement>) {
     const item = drag.current;
     if (!item || item.pointer !== e.pointerId) return;
     if (!item.moved && Math.hypot(e.clientX - item.x, e.clientY - item.y) < 5) return;
     item.moved = true; setDragging(item.id);
-    const hit = document.elementFromPoint(e.clientX, e.clientY)?.closest<HTMLElement>('[data-logo-wall-item]');
-    const inWall = hit?.closest('[data-logo-wall]') === e.currentTarget.closest('[data-logo-wall]');
-    item.target = inWall ? hit?.dataset.logoWallItem ?? null : null;
-    setDropTarget(item.target === item.id ? null : item.target);
+    setDropSlot(slotAt(e.clientX, e.clientY));
     if (e.clientY > window.innerHeight - 48) window.scrollBy(0, 12);
     else if (e.clientY < 100) window.scrollBy(0, -12);
   }
   function endDrag(e: PointerEvent<HTMLElement>) {
     const item = drag.current;
     if (!item || item.pointer !== e.pointerId) return;
-    if (item.moved && item.target && item.target !== item.id && !busy) {
-      setSelected(items => {
-        const from = items.findIndex(b => wallLogoKey(b) === item.id);
-        const to = items.findIndex(b => wallLogoKey(b) === item.target);
-        if (from < 0 || to < 0) return items;
-        const next = [...items]; const [brand] = next.splice(from, 1); next.splice(to, 0, brand); return next;
-      });
-      setMessage('순서를 바꿨어요. 저장하면 다음에도 이 순서로 보여요.');
+    const slot = item.moved ? slotAt(e.clientX, e.clientY) : null;
+    if (slot && !busy) {
+      const from = selected.findIndex(b => wallLogoKey(b) === item.id);
+      const next = moveLogoToInsertion(selected, from, slot.index);
+      if (next !== selected) {
+        setSelected(next);
+        setMessage('순서를 바꿨어요. 저장하면 다음에도 이 순서로 보여요.');
+      }
     }
     stopDrag();
     if (e.currentTarget.hasPointerCapture(e.pointerId)) e.currentTarget.releasePointerCapture(e.pointerId);
   }
+  const dragIndex = dragging ? selected.findIndex(b => wallLogoKey(b) === dragging) : -1;
+  const visibleDropSlot = dropSlot && dropSlot.index !== dragIndex && dropSlot.index !== dragIndex + 1 ? dropSlot : null;
   const fingerprint = JSON.stringify({ title, ids: selected.map(b => [wallLogoKey(b), b.cardBackground, b.logoColor || 'inherit', b.scale || 100]), layout });
   const dirty = fingerprint !== (saved || JSON.stringify({ title: '새 로고월', ids: [], layout: defaultLayout }));
   const canSwitch = () => !dirty || window.confirm('저장하지 않은 변경사항이 있어요. 다른 로고월로 이동할까요?');
@@ -323,9 +336,9 @@ export default function LogoWallEditor() {
             <button disabled={busy || !selected.length} onClick={() => void autoFit()}>✦ 크기 자동 맞춤</button>
             <span>카드를 누르면 로고 색을 원본·흰색·검정으로 바꿀 수 있어요. 끌어서 순서도 바꿔 보세요.</span>
           </div>
-          {!presentation && <div className={styles.sectionTitle}><h2>로고 배치</h2><span>{selected.length}개 · 카드를 선택해 편집해요</span></div>}
+          {!presentation && <div className={styles.sectionTitle}><h2>로고 배치</h2><span aria-live="polite">{visibleDropSlot ? `${visibleDropSlot.index + (dragIndex < visibleDropSlot.index ? 0 : 1)}번째 자리에 놓기` : `${selected.length}개 · 카드를 선택해 편집해요`}</span></div>}
           <div ref={canvasRef} hidden={presentation && layout.motion !== 'static'} className={styles.canvas} data-dark={layout.background === 'dark' || undefined} data-presentation={presentation || undefined} data-appearance={layout.appearance} data-logo-color={layout.logoColor} style={{ background: wallStageBackground(layout) }}>
-            {!selected.length ? <div className={styles.emptyCanvas}><span>＋</span><h3>첫 번째 로고를 추가해 보세요</h3><p>파트너·고객사·좋아하는 브랜드를 한곳에 모아보세요.</p></div> : <div className={styles.wallViewport} style={{ height: Math.ceil(editorFit.height * editorFit.scale) }}><div ref={wallRef} className={styles.wall} data-logo-wall style={{ transform: `scale(${editorFit.scale})` }}>{Array.from({ length: Math.ceil(selected.length / layout.columns) }, (_, row) => <div className={styles.wallRow} key={row}>{selected.slice(row * layout.columns, (row + 1) * layout.columns).map((b, column) => { const index = row * layout.columns + column; return <div className={styles.tile} key={wallLogoKey(b)} data-logo-wall-item={wallLogoKey(b)} data-selected={focused === wallLogoKey(b) || undefined} data-dragging={dragging === wallLogoKey(b) || undefined} data-drop-target={dropTarget === wallLogoKey(b) || undefined} style={{ background: cardBackground(b) }}>
+            {!selected.length ? <div className={styles.emptyCanvas}><span>＋</span><h3>첫 번째 로고를 추가해 보세요</h3><p>파트너·고객사·좋아하는 브랜드를 한곳에 모아보세요.</p></div> : <div className={styles.wallViewport} style={{ height: Math.ceil(editorFit.height * editorFit.scale) }}><div ref={wallRef} className={styles.wall} data-logo-wall style={{ transform: `scale(${editorFit.scale})` }}>{Array.from({ length: Math.ceil(selected.length / layout.columns) }, (_, row) => <div className={styles.wallRow} data-wall-row key={row}>{selected.slice(row * layout.columns, (row + 1) * layout.columns).map((b, column) => { const index = row * layout.columns + column; return <div className={styles.tile} key={wallLogoKey(b)} data-logo-wall-item={wallLogoKey(b)} data-wall-index={index} data-selected={focused === wallLogoKey(b) || undefined} data-dragging={dragging === wallLogoKey(b) || undefined} data-drop-before={visibleDropSlot?.anchor === index && visibleDropSlot.edge === 'before' || undefined} data-drop-after={visibleDropSlot?.anchor === index && visibleDropSlot.edge === 'after' || undefined} style={{ background: cardBackground(b) }}>
               <div className={`${styles.logo} ${styles.dragSurface}`} tabIndex={presentation ? -1 : 0} role="button" aria-label={`${b.name_ko} 선택 및 이동`} onClick={() => setFocused(wallLogoKey(b))} onKeyDown={e => { if (presentation) return; const delta=e.key==='ArrowLeft'?-1:e.key==='ArrowRight'?1:0; if (delta) { e.preventDefault();setSelected(s=>{ const n=[...s],to=index+delta;if(to>=0&&to<n.length)[n[index],n[to]]=[n[to],n[index]];return n; }); } if(e.key==='Enter'||e.key===' ') { e.preventDefault();setFocused(wallLogoKey(b)); } }} onPointerDown={e => { if (!presentation) startDrag(e, wallLogoKey(b)); }} onPointerMove={dragMove} onPointerUp={endDrag} onPointerCancel={stopDrag} onLostPointerCapture={stopDrag}><SearchLogo brand={b} src={preview(b)} large baseHeight={logoWallMetrics.logoSize[layout.logoSize]} background="transparent" logoColor={wallLogoColor(layout, b.logoColor)} /></div>
 
               {!presentation && <><button className={styles.removeLogo} type="button" aria-label={`${b.name_ko} 제거`} title="로고월에서 제거" disabled={busy} onClick={() => { const key=wallLogoKey(b); setSelected(s => s.filter((_, i) => i !== index)); setFocused(f => f === key ? null : f); }}><svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true"><path d="M3 3l10 10M13 3L3 13" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" /></svg></button><button className={styles.resizeHandle} aria-label={`${b.name_ko} 크기 조절`} title="드래그하거나 방향키로 크기 조절" disabled={busy} onPointerDown={e => startResize(e,b)} onPointerMove={resizeMove} onPointerUp={stopResize} onPointerCancel={stopResize} onLostPointerCapture={stopResize} onKeyDown={e => { if (['ArrowRight','ArrowUp','ArrowLeft','ArrowDown'].includes(e.key)) { e.preventDefault();setFocused(wallLogoKey(b));setLogoScale(wallLogoKey(b),(b.scale || 100)+(['ArrowRight','ArrowUp'].includes(e.key)?5:-5)); } }}>↘</button></>}

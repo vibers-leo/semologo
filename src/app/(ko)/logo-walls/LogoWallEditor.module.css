@@ -42,7 +42,9 @@
 .dragSurface { cursor: grab; touch-action: none; user-select: none; }
 .dragSurface:active { cursor: grabbing; }
 .tile[data-dragging] { opacity: .5; }
-.tile[data-drop-target] { outline: 3px solid #6366f1; outline-offset: 2px; }
+.tile[data-drop-before]::before, .tile[data-drop-after]::after { content: ''; position: absolute; z-index: 5; top: -8px; bottom: -8px; width: 4px; border-radius: 4px; background: #6366f1; box-shadow: 0 0 0 3px #ffffff, 0 2px 8px #4338ca88; pointer-events: none; }
+.tile[data-drop-before]::before { left: calc(var(--wall-gap, 24px) / -2 - 2px); }
+.tile[data-drop-after]::after { right: calc(var(--wall-gap, 24px) / -2 - 2px); }
 .caption { border-top: 1px solid #f4f4f5; padding: 8px; font-size: 11px; }
 .caption > span { display: block; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .caption > div { display: flex; gap: 4px; margin-top: 6px; }
