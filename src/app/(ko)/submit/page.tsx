@@ -9,6 +9,7 @@ import { trackEvent } from "@/lib/analytics";
 const MB = 1024 * 1024;
 const MAX_FILE_BYTES = 50 * MB;
 const MAX_TOTAL_BYTES = 300 * MB;
+const MAX_FILES = 300;
 const ACCEPTED_EXTENSIONS = ["svg", "png", "jpg", "jpeg", "webp", "tif", "tiff", "ai", "eps", "ps", "pdf", "cdr", "dxf", "emf", "wmf", "psd", "afdesign", "indd", "idml", "doc", "docx", "hwp", "hwpx", "zip", "7z", "rar"];
 const ACCEPTED = new Set(ACCEPTED_EXTENSIONS);
 const fileId = (file: File) => `${file.name}:${file.size}:${file.lastModified}`;
@@ -36,6 +37,7 @@ export default function SubmitPage() {
       if (!ACCEPTED.has(extension)) { skipped = "이미지·디자인 원본·문서·압축 파일을 보내 주세요. 이 파일 형식은 아직 받지 않아요."; continue; }
       if (file.size === 0) { skipped = "빈 파일은 보낼 수 없어요."; continue; }
       if (file.size > MAX_FILE_BYTES) { skipped = `파일 하나는 50MB까지 보낼 수 있어요. ‘${file.name}’ 파일을 확인해 주세요.`; continue; }
+      if (next.length >= MAX_FILES) { skipped = "한 번에 파일 300개까지 보낼 수 있어요. 나눠서 보내 주세요."; continue; }
       if (bytes + file.size > MAX_TOTAL_BYTES) { skipped = "한 번에 300MB까지 보낼 수 있어요. 파일을 나눠서 보내 주세요."; continue; }
       next.push(file); seen.add(fileId(file)); bytes += file.size;
     }
