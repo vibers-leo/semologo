@@ -23,6 +23,14 @@ export function logoWallLayout(value: unknown): LogoWallLayout {
 }
 
 export type CardBackground = 'inherit' | 'white' | 'transparent' | 'light' | 'dark';
+export type WallLogoColor = 'inherit' | 'original' | 'white' | 'black';
+export function wallLogoColor(layout: LogoWallLayout, override: WallLogoColor = 'inherit') {
+  return override === 'inherit' ? layout.logoColor : override;
+}
+export function wallLogoIsLight(layout: LogoWallLayout, sourceLight: boolean, override: WallLogoColor = 'inherit') {
+  const color = wallLogoColor(layout, override);
+  return color === 'white' || (color === 'original' && sourceLight);
+}
 export const wallStageBackground = (layout: LogoWallLayout) => layout.background === 'dark' ? '#18181b' : layout.background === 'light' ? '#fff' : '#f4f4f5';
 export function wallCardBackground(layout: LogoWallLayout, light = false, override: CardBackground = 'inherit') {
   const choice = override === 'inherit' ? layout.cardBackground : override;

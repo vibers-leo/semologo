@@ -15,7 +15,8 @@ export async function logoWallPreview(settings: unknown, logos: { data: Buffer; 
     const baseMeta = await sharp(base).metadata();
     const fittedScale = Math.min(scale, Math.max(1, tileWidth - 16) / baseMeta.width!, Math.max(1, tileHeight - 16) / baseMeta.height!);
     const scaled = await sharp(base).resize(Math.max(1, Math.round(baseMeta.width! * fittedScale)), Math.max(1, Math.round(baseMeta.height! * fittedScale))).png().toBuffer();
-    const asset = layout.logoColor === 'original' ? scaled : await sharp(scaled).linear(0, layout.logoColor === 'white' ? 255 : 0).png().toBuffer();
+    // Export has already colored each PNG, including per-logo overrides.
+    const asset = scaled;
     const meta = await sharp(asset).metadata();
     const tile = await sharp({ create: { width: tileWidth, height: tileHeight, channels: 4, background: wallCardBackground(layout, logo.light, logo.cardBackground) } }).composite([{ input: asset, left: Math.max(0, Math.floor((tileWidth - meta.width!) / 2)), top: Math.max(0, Math.floor((tileHeight - meta.height!) / 2)) }]).png().toBuffer();
     overlays.push({ input: tile, left: 40 + Math.floor((i % columns) * (width + gap)), top: 40 + Math.floor(Math.floor(i / columns) * (height + gap)) });

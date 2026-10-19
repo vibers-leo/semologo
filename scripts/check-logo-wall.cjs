@@ -104,6 +104,8 @@ async function main(){
  const variantsBody={title:'variants',items:[{brandId:'rainbowrobotics',variantKey:black.variantKey,scale:75,cardBackground:'white'},{brandId:'rainbowrobotics',variantKey:white.variantKey,scale:125,cardBackground:'dark'}],settings:{cardBackground:'white'}};
  assert.equal((await handler.POST(req(variantsBody))).status,201);assert.equal(storedSnapshot.scale,125);assert.equal(storedSnapshot.variant_key,white.variantKey);assert.equal(storedSnapshot.light,true);assert.equal(storedSnapshot.card_background,'dark');
  assert.equal((await handler.POST(req({...variantsBody,items:[{brandId:'rainbowrobotics',cardBackground:'transparent'}],settings:{cardBackground:'transparent'}}))).status,201);assert.equal(storedSnapshot.card_background,'transparent');
+ assert.equal((await handler.POST(req({...variantsBody,items:[{brandId:'rainbowrobotics',logoColor:'black'}]}))).status,201);assert.equal(storedSnapshot.logo_color,'black');
+ assert.equal((await handler.POST(req({...variantsBody,items:[{brandId:'rainbowrobotics',logoColor:'rainbow'}]}))).status,400);
  assert.equal((await handler.POST(req({...variantsBody,items:[variantsBody.items[0],variantsBody.items[0]]}))).status,400);
  assert.equal((await handler.POST(req({...variantsBody,items:[{brandId:'rainbowrobotics',variantKey:'missing'}]}))).status,400);
  assert.equal((await handler.POST(req({...variantsBody,items:[{brandId:'rainbowrobotics',scale:999}]}))).status,400);
@@ -117,6 +119,14 @@ async function main(){
  const cropExports={};const cropSource=ts.transpileModule(fs.readFileSync(path.join(root,'src/lib/logo-wall-crop.ts'),'utf8'),{compilerOptions:{module:ts.ModuleKind.CommonJS,esModuleInterop:true}}).outputText;
  vm.runInNewContext(cropSource,{exports:cropExports,require},{filename:'logo-wall-crop.ts'});
  const sharp=require('sharp');const mark=await sharp({create:{width:60,height:16,channels:4,background:'#000'}}).png().toBuffer();
+ const colorExports={};const colorSource=ts.transpileModule(fs.readFileSync(path.join(root,'src/lib/logo-wall-color.ts'),'utf8'),{compilerOptions:{module:ts.ModuleKind.CommonJS,esModuleInterop:true}}).outputText;
+ vm.runInNewContext(colorSource,{exports:colorExports,require},{filename:'logo-wall-color.ts'});
+ const colorSample=await sharp(Buffer.from([255,0,0,0,255,0,0,128]),{raw:{width:2,height:1,channels:4}}).png().toBuffer();
+ for(const [color,value] of [['black',0],['white',255]]){
+  const recolored=await colorExports.recolorLogoWallPng(colorSample,color);
+  const pixels=await sharp(recolored).ensureAlpha().raw().toBuffer();
+  assert.equal(pixels[3],0);assert.equal(pixels[7],128);assert.equal(pixels[4],value);assert.equal(pixels[5],value);assert.equal(pixels[6],value);
+ }
  for(const background of ['#00000000','#ffffff']){
   const padded=await sharp({create:{width:100,height:40,channels:4,background}}).composite([{input:mark,left:20,top:12}]).png().toBuffer();
   const cropped=await cropExports.cropLogoWallPng(padded);const size=await sharp(cropped.data).metadata();

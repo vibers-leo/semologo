@@ -1,7 +1,7 @@
 import type { Brand, VariantRecord, VariantForm } from './brands';
 import { CDN, VERSION } from './cdn';
-import type { CardBackground } from './logo-wall-layout';
-export type WallLogo = Brand & { scale?: number; variantKey?: string; variantLabel?: string; variantForm?: VariantForm; cardBackground?: CardBackground };
+import type { CardBackground, WallLogoColor } from './logo-wall-layout';
+export type WallLogo = Brand & { scale?: number; variantKey?: string; variantLabel?: string; variantForm?: VariantForm; cardBackground?: CardBackground; logoColor?: WallLogoColor };
 export { logoFormLabels as wallFormLabels } from './logo-variant-label';
 import { logoVariantForm, logoVariantLabel } from './logo-variant-label';
 export const wallLogoKey = (brand: WallLogo) => `${brand.id}:${brand.variantKey || ''}`;

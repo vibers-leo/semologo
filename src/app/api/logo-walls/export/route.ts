@@ -6,11 +6,12 @@ import { logoWallZip } from '@/lib/logo-wall-zip';
 import { logoWallBundle, logoWallInlineHtml } from '@/lib/logo-wall-html';
 import { logoWallPreview } from '@/lib/logo-wall-preview';
 import { cropLogoWallPng } from '@/lib/logo-wall-crop';
+import { recolorLogoWallPng } from '@/lib/logo-wall-color';
 import { logoWallPngCandidates } from '@/lib/logo-png-source';
 import { logoWallAsset } from '@/lib/cms-brand';
 import type { Brand } from '@/lib/brands';
 import { CDN, VERSION } from '@/lib/cdn';
-import type { CardBackground } from '@/lib/logo-wall-layout';
+import { logoWallLayout, wallLogoColor, wallLogoIsLight, type CardBackground, type WallLogoColor } from '@/lib/logo-wall-layout';
 import { GET as recoverPng } from '@/app/api/logo-preview/route';
 
 export const runtime = 'nodejs';
@@ -67,7 +68,8 @@ export async function GET(request: Request) {
     const privateIds = wall.items.map((i: { snapshot: { user_logo_id?: string } }) => i.snapshot.user_logo_id).filter(Boolean);
     const personal = await pool.query('SELECT id,png FROM semologo.personal_logos WHERE owner_id=$1 AND id=ANY($2::text[])', [uid, privateIds]);
     const own = new Map<string, Buffer>(personal.rows.map(r => [r.id, r.png]));
-    const files: { name: string; data: Uint8Array }[] = []; const entries: { id: string; name?: string; file: string; light: boolean; scale?: number; heightFraction?: number; cardBackground?: CardBackground; variantKey?: string; sha256: string; captured_at?: string }[] = []; const missing: string[] = [];
+    const layout = logoWallLayout(wall.settings ?? {});
+    const files: { name: string; data: Uint8Array }[] = []; const entries: { id: string; name?: string; file: string; light: boolean; scale?: number; heightFraction?: number; cardBackground?: CardBackground; logoColor?: WallLogoColor; variantKey?: string; sha256: string; captured_at?: string }[] = []; const missing: string[] = [];
     let bytes = 0; let index = 0; const deadline = Date.now() + 60_000;
     // Two workers bound upstream requests and CPU; output order is fixed below.
     const output: ({ name: string; data: Buffer; entry: typeof entries[number] } | undefined)[] = new Array(wall.items.length);
@@ -81,10 +83,13 @@ export async function GET(request: Request) {
           if (!item.snapshot.user_logo_id && brand.hidden) throw new Error('review required');
           const original = item.snapshot.user_logo_id ? own.get(logoId) : await cdnPng(brand, Boolean(item.snapshot.variant_key));
           if (!original) throw new Error('missing');
-          const { data, heightFraction } = await cropLogoWallPng(original);
+          const cropped = await cropLogoWallPng(original);
+          const logoColor: WallLogoColor = ['inherit','original','white','black'].includes(item.snapshot.logo_color) ? item.snapshot.logo_color : 'inherit';
+          const data = await recolorLogoWallPng(cropped.data, wallLogoColor(layout, logoColor));
+          const heightFraction = cropped.heightFraction;
           bytes += data.length; if (bytes > 25_000_000) throw new Error('large export');
           const filename = `logos/${String(n + 1).padStart(3, '0')}-${logoId}.png`;
-          output[n] = { name: filename, data, entry: { id: logoId, name: item.snapshot.name, file: filename, light: Boolean(brand.light), scale: item.snapshot.scale || 100, heightFraction, cardBackground: item.snapshot.card_background, variantKey: item.snapshot.variant_key, sha256: createHash('sha256').update(data).digest('hex'), captured_at: item.snapshot.captured_at } };
+          output[n] = { name: filename, data, entry: { id: logoId, name: item.snapshot.name, file: filename, light: wallLogoIsLight(layout, Boolean(brand.light), logoColor), scale: item.snapshot.scale || 100, heightFraction, cardBackground: item.snapshot.card_background, logoColor, variantKey: item.snapshot.variant_key, sha256: createHash('sha256').update(data).digest('hex'), captured_at: item.snapshot.captured_at } };
         } catch { missing.push(item.snapshot.name || logoId || String(n + 1)); }
       }
     }));
@@ -102,7 +107,7 @@ export async function GET(request: Request) {
     files.push({ name: 'script.js', data: Buffer.from(bundle.javascript) });
     files.push({ name: 'og-preview.png', data: og });
     files.push({ name: 'manifest.json', data: Buffer.from(JSON.stringify(manifest, null, 2)) });
-    files.push({ name: 'README.txt', data: Buffer.from('ZIP을 모두 풀고 index.html을 열면 로고월이 보여요. HTML 파일만 옮기지 말고 logos 폴더, styles.css, script.js를 함께 보관해 주세요.\n\n포함 파일\n- index.html: 바로 열어보는 로고월\n- styles.css: 배치와 애니메이션을 수정하는 CSS\n- script.js: 재생·일시정지 동작\n- manifest.json: 로고 순서, 크기, 배경, 배치 설정과 SHA-256 정보\n- og-preview.png: 1200×630 정적 미리보기 이미지(OG용)\n- logos/*.png: 로고별 PNG 이미지\n\n웹사이트: 위 파일을 같은 폴더 구조로 업로드하거나 HTML/CSS를 사이트에 맞게 옮겨 주세요.\n디자인·발표: og-preview.png 또는 logos 폴더의 PNG를 사용해 주세요.\n애니메이션은 index.html에서 재생되며 PNG 미리보기는 정적 이미지예요.\n이미지를 내려받아 자신의 서비스에 보관하면 세모로고 접속과 관계없이 사용할 수 있어요.\n각 브랜드의 상표와 사용 조건은 해당 권리자에게 있어요.\n') });
+    files.push({ name: 'README.txt', data: Buffer.from('ZIP을 모두 풀고 index.html을 열면 로고월이 보여요. HTML 파일만 옮기지 말고 logos 폴더, styles.css, script.js를 함께 보관해 주세요.\n\n포함 파일\n- index.html: 바로 열어보는 로고월\n- styles.css: 배치와 애니메이션을 수정하는 CSS\n- script.js: 재생·일시정지 동작\n- manifest.json: 로고 순서, 크기, 로고별 색상, 배경, 배치 설정과 SHA-256 정보\n- og-preview.png: 1200×630 정적 미리보기 이미지(OG용)\n- logos/*.png: 선택한 색상이 적용된 로고별 투명 PNG\n\n웹사이트: 위 파일을 같은 폴더 구조로 업로드하거나 HTML/CSS를 사이트에 맞게 옮겨 주세요.\n디자인·발표: og-preview.png 또는 logos 폴더의 PNG를 사용해 주세요.\n애니메이션은 index.html에서 재생되며 PNG 미리보기는 정적 이미지예요.\n이미지를 내려받아 자신의 서비스에 보관하면 세모로고 접속과 관계없이 사용할 수 있어요.\n각 브랜드의 상표와 사용 조건은 해당 권리자에게 있어요.\n') });
     return new Response(new Uint8Array(logoWallZip(files)), { headers: { ...privateHeaders, 'Content-Type': 'application/zip', 'Content-Disposition': `attachment; filename="logo-wall-${wall.id}.zip"` } });
   } catch { return reply('다운로드를 준비하지 못했어요. 잠시 후 다시 시도해 주세요.', 503); }
   finally { if (acquired) active--; }

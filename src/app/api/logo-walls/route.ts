@@ -47,8 +47,8 @@ async function handle(request: Request) {
     let body;
     try { body = JSON.parse(raw); } catch { return reply({ error: '요청 내용을 확인해 주세요.' }, 400); }
     if (!body || typeof body.title !== 'string' || !body.title.trim() || body.title.length > 120) return reply({ error: '제목을 입력해 주세요.' }, 400);
-    const choices: { brandId: string; scale?: number; variantKey?: string; cardBackground?: string }[] = body.items ?? (Array.isArray(body.brandIds) ? body.brandIds.map((brandId: string) => ({ brandId })) : null);
-    if (!Array.isArray(choices) || choices.length > 100 || choices.some(b => !b || typeof b.brandId !== 'string' || !/^[\w가-힣-]{1,200}$/.test(b.brandId) || (b.variantKey !== undefined && (typeof b.variantKey !== 'string' || !/^[\w가-힣.-]{1,200}$/.test(b.variantKey))) || (b.scale !== undefined && (!Number.isFinite(b.scale) || b.scale < 50 || b.scale > 300)) || (b.cardBackground !== undefined && !['inherit','white','transparent','light','dark'].includes(b.cardBackground)))) return reply({ error: '최대 100개의 로고와 배경을 선택해 주세요.' }, 400);
+    const choices: { brandId: string; scale?: number; variantKey?: string; cardBackground?: string; logoColor?: string }[] = body.items ?? (Array.isArray(body.brandIds) ? body.brandIds.map((brandId: string) => ({ brandId })) : null);
+    if (!Array.isArray(choices) || choices.length > 100 || choices.some(b => !b || typeof b.brandId !== 'string' || !/^[\w가-힣-]{1,200}$/.test(b.brandId) || (b.variantKey !== undefined && (typeof b.variantKey !== 'string' || !/^[\w가-힣.-]{1,200}$/.test(b.variantKey))) || (b.scale !== undefined && (!Number.isFinite(b.scale) || b.scale < 50 || b.scale > 300)) || (b.cardBackground !== undefined && !['inherit','white','transparent','light','dark'].includes(b.cardBackground)) || (b.logoColor !== undefined && !['inherit','original','white','black'].includes(b.logoColor)))) return reply({ error: '최대 100개의 로고와 색상을 확인해 주세요.' }, 400);
     if (new Set(choices.map(b => `${b.brandId}:${b.variantKey || ''}`)).size !== choices.length) return reply({ error: '같은 변형은 한 번만 추가할 수 있어요. 다른 변형을 골라 주세요.' }, 400);
     const brandIds = choices.map(b => b.brandId);
     if (request.method === 'PUT' && (!id || !Number.isInteger(body.version) || body.version < 1)) return reply({ error: 'ID와 저장 버전이 필요해요.' }, 400);
@@ -86,7 +86,7 @@ async function handle(request: Request) {
         const brandId = choices[i].brandId;
         const brand = assets[i];
         // Freeze the selected metadata. Export will later materialize immutable assets.
-        const snapshot = { scale: choices[i].scale || 100, variant_key: choices[i].variantKey, variant_label: 'variantLabel' in brand ? brand.variantLabel : undefined, card_background: choices[i].cardBackground || 'inherit', user_logo_id: brand.user_logo_id, name: brand.name_ko, logo_png: brand.logo_png, preview_png: brand.preview_png, logo_svg: brand.logo_svg, has_png: brand.has_png, light: brand.light || brand.light_logo || brand.dark_variant === 'white', source: brand.sources, captured_at: new Date().toISOString() };
+        const snapshot = { scale: choices[i].scale || 100, variant_key: choices[i].variantKey, variant_label: 'variantLabel' in brand ? brand.variantLabel : undefined, card_background: choices[i].cardBackground || 'inherit', logo_color: choices[i].logoColor || 'inherit', user_logo_id: brand.user_logo_id, name: brand.name_ko, logo_png: brand.logo_png, preview_png: brand.preview_png, logo_svg: brand.logo_svg, has_png: brand.has_png, light: brand.light || brand.light_logo || brand.dark_variant === 'white', source: brand.sources, captured_at: new Date().toISOString() };
         await db.query('INSERT INTO semologo.logo_wall_items(wall_id,item_id,brand_id,position,asset_snapshot) VALUES($1,$2,$3,$4,$5)', [wallId, randomUUID(), brand.user_logo_id ? null : brandId, i, snapshot]);
       }
       await db.query('COMMIT');

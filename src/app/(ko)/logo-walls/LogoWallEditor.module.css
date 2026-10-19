@@ -202,8 +202,6 @@
 .wallRow .logo { width: max-content; }
 .motionGroup { align-items: stretch; }
 .motionGroup .motionLogo { flex: 0 0 auto; width: max-content; min-width: 0; height: auto; min-height: calc(var(--logo-height, 80px) + 80px); }
-.canvas[data-logo-color=black] .logo img, .motionStage[data-logo-color=black] .motionLogo img { filter: brightness(0); }
-.canvas[data-logo-color=white] .logo img, .motionStage[data-logo-color=white] .motionLogo img { filter: brightness(0) invert(1); }
 
 /* Let the page scroll as one surface. Nested scrollbars made the three-column
    editor difficult to use, especially with short browser windows. */
