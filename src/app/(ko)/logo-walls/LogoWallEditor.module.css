@@ -204,3 +204,58 @@
 .motionGroup .motionLogo { flex: 0 0 auto; width: max-content; min-width: 0; height: auto; min-height: calc(var(--logo-height, 80px) + 80px); }
 .canvas[data-logo-color=black] .logo img, .motionStage[data-logo-color=black] .motionLogo img { filter: brightness(0); }
 .canvas[data-logo-color=white] .logo img, .motionStage[data-logo-color=white] .motionLogo img { filter: brightness(0) invert(1); }
+
+/* Let the page scroll as one surface. Nested scrollbars made the three-column
+   editor difficult to use, especially with short browser windows. */
+.page { box-sizing: border-box; width: min(100%, 1680px); }
+.saved { flex-wrap: wrap; overflow: visible; padding-bottom: 8px; gap: 8px; }
+.results { max-height: none; overflow: visible; }
+.workspace { min-width: 0; }
+.settingsPanel { max-height: none; overflow: visible; position: static; }
+.editor > .sectionTitle:first-child { display: grid; grid-template-columns: minmax(0, 1fr) auto auto; align-items: center; }
+.editor > .sectionTitle:first-child .saveState { white-space: nowrap; }
+.page .editor > .sectionTitle:first-child button,
+.page .selectionBar button,
+.page .footerActions button { min-height: 42px; }
+.selectionBar { align-items: center; gap: 10px 16px; }
+.selectionBar span { flex: 1 1 240px; line-height: 1.5; }
+.page .presets { gap: 10px; }
+.settingsPanel .controls { gap: 16px; }
+.settingsPanel .controls select { min-height: 42px; }
+.settingsPanel .controls > button { min-height: 42px; }
+.footer { align-items: flex-start; }
+.footerActions { gap: 10px; }
+
+@media (max-width: 1320px) {
+  .workspace:not(.presentation) { grid-template-columns: 240px minmax(0, 1fr); }
+  .settingsPanel { grid-column: 1 / -1; }
+  .settingsPanel .controls { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+  .settingsPanel .inspector { grid-template-columns: minmax(130px, 1fr) auto minmax(170px, 1fr) auto auto; align-items: center; }
+}
+@media (max-width: 850px) {
+  .page { padding: 24px 16px 48px; }
+  .workspace:not(.presentation) { grid-template-columns: minmax(0, 1fr); }
+  .settingsPanel { grid-column: 1; }
+  .settingsPanel .controls { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .settingsPanel .inspector { grid-template-columns: minmax(0, 1fr); }
+  .library, .editor, .settingsPanel { padding: 18px; }
+  .results { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .editor > .sectionTitle:first-child { grid-template-columns: minmax(0, 1fr) auto; }
+  .editor > .sectionTitle:first-child .saveState { grid-column: 1 / -1; }
+}
+@media (max-width: 520px) {
+  .page { padding-inline: 12px; }
+  .heading { margin-bottom: 18px; }
+  .library, .editor, .settingsPanel { padding: 14px; border-radius: 12px; }
+  .results { grid-template-columns: minmax(0, 1fr); }
+  .editor > .sectionTitle:first-child { gap: 8px; }
+  .editor > .sectionTitle:first-child h2 { font-size: 15px; }
+  .page .editor > .sectionTitle:first-child button { padding-inline: 10px; }
+  .canvas { padding: 12px; min-height: 220px; }
+  .emptyCanvas { min-height: 194px; }
+  .footerActions { width: 100%; }
+  .footerActions button { flex: 1 1 100%; }
+  .footer > span { order: 3; line-height: 1.5; }
+  .settingsPanel .controls { gap: 12px; }
+  .settingsPanel .controls select { padding-right: 24px; }
+}
