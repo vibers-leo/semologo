@@ -219,7 +219,8 @@
 .page .footerActions button { min-height: 42px; }
 .selectionBar { align-items: center; gap: 10px 16px; }
 .selectionBar span { flex: 1 1 240px; line-height: 1.5; }
-.page .presets { gap: 10px; }
+.page .presets { gap: 8px 10px; padding: 12px 0 20px; }
+.page .presets button { min-height: 42px; padding: 10px 15px; line-height: 1.3; }
 .settingsPanel .controls { gap: 16px; }
 .settingsPanel .controls select { min-height: 42px; }
 .settingsPanel .controls > button { min-height: 42px; }
