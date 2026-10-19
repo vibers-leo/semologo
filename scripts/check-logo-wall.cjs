@@ -61,6 +61,11 @@ async function main(){
  const {logoWallLayout,logoWallMetrics,wallCardBackground}=load('src/lib/logo-wall-layout.ts');
  const {wallScaleForVisibleHeight}=load('src/lib/logo-optical-size.ts');
  const {findLogoWallDropSlot,moveLogoToInsertion}=load('src/lib/logo-wall-reorder.ts');
+ const {logoWallMotionRows}=load('src/lib/logo-wall-motion-rows.ts');
+ const ordered=['A','B','C','D','E','F','G'];
+ assert.deepEqual(JSON.parse(JSON.stringify(logoWallMotionRows(ordered,6,true))),[['A','B','C','D','E','F'],['G']]);
+ assert.deepEqual(JSON.parse(JSON.stringify(logoWallMotionRows(['A','B','C'],6,true))),[['A','B','C']]);
+ assert.equal(logoWallMotionRows(Array.from({length:25},(_,i)=>i),6,true).flat().join(','),Array.from({length:25},(_,i)=>i).join(','));
  const dropRows=[{top:0,bottom:80,items:[{index:0,left:0,right:80},{index:1,left:110,right:210}]},{top:120,bottom:200,items:[{index:2,left:0,right:80}]}];
  assert.equal(findLogoWallDropSlot(dropRows,95,40).index,1,'gap between cards should target the insertion boundary');
  assert.deepEqual(JSON.parse(JSON.stringify(findLogoWallDropSlot(dropRows,250,40))),{index:2,anchor:1,edge:'after'});
@@ -91,6 +96,11 @@ async function main(){
  const {logoWallHtml}=load('src/lib/logo-wall-html.ts');
  const logos=[{id:'test',name:'<script>unsafe</script>',file:'logos/001-test.png',light:true}];
  const html=logoWallHtml('<unsafe>',layout,logos);
+ const motionHtml=logoWallHtml('ordered',{columns:3,motion:'alternating'},['a','b','c','d'].map(id=>({id,file:`logos/${id}.png`})));
+ const motionSections=motionHtml.match(/<div class="row">[\s\S]*?<\/div><\/div><\/div>/g)||[];
+ assert.equal(motionSections.length,2);
+ assert.deepEqual([...motionSections[0].matchAll(/data-wall-file="logos\/([a-d])\.png"/g)].slice(0,3).map(match=>match[1]),['a','b','c']);
+ assert.equal(motionSections[1].includes('data-wall-file="logos/d.png"'),true);
  assert(html.includes('&lt;unsafe&gt;'));assert(!html.includes('<script>unsafe'));assert(html.includes('height:80px'));assert(html.includes('gap:40px'));assert(html.includes('class="sr-only"'));assert(html.includes('prefers-reduced-motion'));assert(!/src="https?:/.test(html));
  assert.throws(()=>logoWallHtml('bad',{},[{id:'x',file:'../outside.png'}]));assert(logoWallHtml('empty',{motion:'marquee'},[]).includes('class="grid"'));
  const handler=load('src/app/api/logo-walls/route.ts');

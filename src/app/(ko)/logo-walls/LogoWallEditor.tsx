@@ -7,6 +7,7 @@ import { logoWallPngCandidates } from '@/lib/logo-png-source';
 import { initialWallScale, measureLogo, wallScaleForVisibleHeight, type LogoBounds } from '@/lib/logo-optical-size';
 import { applyQualityReview } from '@/lib/logo-quality-review';
 import { findLogoWallDropSlot, moveLogoToInsertion, type DropSlot } from '@/lib/logo-wall-reorder';
+import { logoWallMotionRows } from '@/lib/logo-wall-motion-rows';
 import type { Brand } from '@/lib/brands';
 import { fetchVariants } from '@/lib/client-variants';
 import { wallVariant, wallLogoKey, wallFormLabels, type WallLogo } from '@/lib/logo-wall-variant';
@@ -349,11 +350,9 @@ export default function LogoWallEditor() {
           {selected.length > 0 && layout.motion !== 'static' && <section aria-label="움직임 미리보기">
             <div className={styles.sectionTitle}><h2>움직임 미리보기</h2><button onClick={() => setPaused(p => !p)} aria-pressed={paused}>{paused ? '재생하기' : '일시정지'}</button></div>
             <div className={styles.motionStage} data-logo-wall data-appearance={layout.appearance} data-logo-color={layout.logoColor} style={{ background: wallStageBackground(layout) }}>
-              {Array.from({ length: layout.motion === 'alternating' ? Math.min(3, selected.length, Math.max(2, Math.ceil(selected.length / layout.columns))) : 1 }, (_, row) => {
-                const rows = layout.motion === 'alternating' ? Math.min(3, selected.length, Math.max(2, Math.ceil(selected.length / layout.columns))) : 1;
-                const logos = selected.filter((_, i) => i % rows === row);
+              {logoWallMotionRows(selected, layout.columns, layout.motion === 'alternating').map((logos, row) => {
                 const repeated = Array.from({ length: Math.max(1, Math.ceil(8 / logos.length)) }, () => logos).flat();
-                return <div className={styles.motionRow} key={row}><div className={styles.motionTrack} style={{ animationDuration: `${{ slow: 48, normal: 28, fast: 14 }[layout.speed]}s`, animationDirection: row % 2 ? 'reverse' : 'normal', animationPlayState: paused || dragging ? 'paused' : 'running' }}>
+                return <div className={styles.motionRow} key={row}><div className={styles.motionTrack} key={logos.map(wallLogoKey).join('|')} style={{ animationDuration: `${{ slow: 48, normal: 28, fast: 14 }[layout.speed]}s`, animationDirection: row % 2 ? 'reverse' : 'normal', animationPlayState: paused || dragging ? 'paused' : 'running' }}>
                   {[0, 1].map(copy => <div className={styles.motionGroup} key={copy} aria-hidden={copy === 1 || undefined}>{repeated.map((b, i) => <div className={styles.motionLogo} key={`${wallLogoKey(b)}-${i}`} style={{ background: cardBackground(b) }} title={b.name_ko}><SearchLogo brand={b} src={preview(b)} large baseHeight={logoWallMetrics.logoSize[layout.logoSize]} background="transparent" logoColor={wallLogoColor(layout, b.logoColor)} /></div>)}</div>)}
                 </div></div>;
               })}

@@ -1,4 +1,5 @@
 import { logoWallLayout, logoWallMetrics, wallCardBackground, wallStageBackground, type CardBackground } from './logo-wall-layout';
+import { logoWallMotionRows } from './logo-wall-motion-rows';
 
 type Logo = { name?: string; id: string; file: string; light?: boolean; scale?: number; heightFraction?: number; cardBackground?: CardBackground };
 type Settings = unknown;
@@ -24,9 +25,7 @@ export function logoWallHtml(title: string, settings: Settings, logos: Logo[]): 
   let content: string;
   if (motion === 'static') content = `<div class="grid">${Array.from({ length: Math.ceil(logos.length / columns) }, (_, row) => `<div class="grid-row">${logos.slice(row * columns, (row + 1) * columns).map(l => tile(l)).join('')}</div>`).join('')}</div>`;
   else {
-    const rows = motion === 'alternating' ? Math.min(3, logos.length, Math.max(2, Math.ceil(logos.length / columns))) : 1;
-    content = Array.from({ length: rows }, (_, row) => {
-      const group = logos.filter((_, i) => i % rows === row);
+    content = logoWallMotionRows(logos, columns, motion === 'alternating').map((group, row) => {
       const repeated = Array.from({ length: Math.max(1, Math.ceil(8 / group.length)) }, () => group).flat();
       const cells = repeated.map(l => tile(l, true)).join('');
       return `<div class="row"><div class="track" style="animation-direction:${row % 2 ? 'reverse' : 'normal'}"><div class="group">${cells}</div><div class="group" aria-hidden="true">${cells}</div></div></div>`;
