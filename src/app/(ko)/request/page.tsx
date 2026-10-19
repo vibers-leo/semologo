@@ -71,7 +71,7 @@ export default function RequestPage() {
         </div>
 
         <section aria-label="로고 요청 대화" className="rounded-2xl border overflow-hidden" style={{ borderColor: "var(--border)", background: "var(--surface)" }}>
-          <div aria-live="polite" className="flex flex-col gap-4 p-5 sm:p-7 min-h-[250px] max-h-[440px] overflow-y-auto">
+          <div aria-live="polite" className="flex flex-col gap-4 p-5 sm:p-7 min-h-[160px] max-h-[360px] overflow-y-auto">
             {messages.map(message => (
               <div key={message.id} className={`flex ${message.from === "visitor" ? "justify-end" : "justify-start"}`}>
                 <div className="max-w-[85%] rounded-2xl px-4 py-3 text-sm leading-relaxed whitespace-pre-wrap break-words"

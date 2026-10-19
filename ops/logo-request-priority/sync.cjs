@@ -13,6 +13,7 @@ const pool = new Pool({ connectionString: process.env.DB_VIBERS_MAIN_URL, max: 1
     FROM semologo.logo_posts p
     WHERE q.status<>'published' AND p.status='published'
       AND (lower(p.payload->>'name_ko')=lower(q.requested_name)
+        OR regexp_replace(lower(p.payload->>'name_ko'), '^(재단법인|사단법인|주식회사|\\(주\\))', '')=lower(q.requested_name)
         OR lower(p.payload->>'name_en')=lower(q.requested_name))
     RETURNING q.id`);
   console.log(JSON.stringify({ synced: updates.length, published: published.rowCount }));

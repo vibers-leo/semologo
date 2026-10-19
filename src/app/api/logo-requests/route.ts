@@ -41,9 +41,9 @@ export async function GET(request: NextRequest) {
 
 function requestName(message: string) {
   const withoutUrl = message.replace(/https?:\/\/\S+/gi, '').trim();
-  const namedLogo = withoutUrl.match(/^(.+?)\s*(?:(?:의\s*)?로고(?:를|가|도)?|logo)(?:\s|$)/i);
-  if (namedLogo?.[1]?.trim()) return namedLogo[1].trim().slice(0, 120);
-  const clean = withoutUrl.replace(/(?:의\s*)?로고(?:를|가|도)?|\blogo\b/gi, ' ')
+  const namedLogo = withoutUrl.match(/^(.+?)\s+(?:(?:의\s*)?로고(?:를|가|도)?|logo)(?:\s|$)/i);
+  if (namedLogo?.[1]?.trim()) return namedLogo[1].trim().replace(/의$/, '').slice(0, 120);
+  const clean = withoutUrl.replace(/(?:^|\s)(?:의\s*)?로고(?:를|가|도)?(?=\s|$)|\blogo\b/gi, ' ')
     .replace(/(?:수집|등록|추가|찾아|올려|구해)(?:해|해줘|주세요|주실\s*수\s*있나요)?/g, ' ')
     .replace(/(?:주세요|부탁해요|부탁드립니다|필요해요|원해요|요청해요)$/g, ' ')
     .replace(/[?!.,]+$/g, '').replace(/\s+/g, ' ').trim();
