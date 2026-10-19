@@ -1,0 +1,7 @@
+[Unit]
+Description=Send SemoLogo user requests to Windows logo discovery first
+After=docker.service
+
+[Service]
+Type=oneshot
+ExecStart=/root/projects/semologo-request-priority/run.sh

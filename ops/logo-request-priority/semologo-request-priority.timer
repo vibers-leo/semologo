@@ -1,0 +1,11 @@
+[Unit]
+Description=Check SemoLogo priority requests every minute
+
+[Timer]
+OnBootSec=1min
+OnUnitActiveSec=1min
+Persistent=true
+Unit=semologo-request-priority.service
+
+[Install]
+WantedBy=timers.target

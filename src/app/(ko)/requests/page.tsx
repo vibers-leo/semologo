@@ -27,6 +27,7 @@ export default function RequestsPage() {
   const [filter, setFilter] = useState<"all" | "pending" | "done">("all");
   const [updatingRequest, setUpdatingRequest] = useState<string | null>(null);
   const [requestError, setRequestError] = useState<string | null>(null);
+  const [priorityRequests, setPriorityRequests] = useState<Array<{ id: string; message: string; requested_name: string; official_url: string | null; status: string; request_count: number; published_brand_id: string | null }>>([]);
 
   // 품질 순위
   const [qualityList, setQualityList] = useState<QualityEntry[]>([]);
@@ -83,6 +84,23 @@ export default function RequestsPage() {
       setReqLoading(false);
     });
     return unsub;
+  }, [isAdmin]);
+
+  useEffect(() => {
+    if (!isAdmin) return;
+    let active = true;
+    async function loadPriorityRequests() {
+      try {
+        const token = await getClientAuth().currentUser?.getIdToken();
+        if (!token) return;
+        const response = await fetch('/api/logo-requests', { headers: { Authorization: `Bearer ${token}` }, cache: 'no-store' });
+        if (!response.ok) throw new Error('priority_requests_unavailable');
+        const payload = await response.json();
+        if (active) setPriorityRequests(payload.requests || []);
+      } catch { if (active) setRequestError('새 요청 목록을 불러오지 못했어요. 새로고침해 주세요.'); }
+    }
+    loadPriorityRequests();
+    return () => { active = false; };
   }, [isAdmin]);
 
   useEffect(() => {
@@ -155,6 +173,18 @@ export default function RequestsPage() {
         {/* ── 요청 게시판 탭 ── */}
         {tab === "requests" && (
           <>
+            <section className="mb-8">
+              <h2 className="font-bold text-lg mb-3">최우선 수집 요청 <span className="text-sm font-normal text-gray-500">{priorityRequests.length}건</span></h2>
+              <div className="flex flex-col gap-2">
+                {priorityRequests.map(req => <div key={req.id} className="rounded-xl border bg-white p-4 flex items-center gap-3" style={{ borderColor: 'var(--border)' }}>
+                  <span className="text-xs rounded-full bg-indigo-50 text-indigo-700 px-2 py-1 shrink-0">{req.status === 'published' ? '게시됨' : req.status === 'discovering' ? '수집 중' : req.status === 'review_required' ? '검수 대기' : '출처 탐색'}</span>
+                  <div className="min-w-0 flex-1"><p className="text-sm font-semibold">{req.requested_name} {req.request_count > 1 && <span className="text-indigo-600">· {req.request_count}명 요청</span>}</p><p className="text-xs text-gray-500 truncate">{req.message}</p></div>
+                  {req.official_url && <a href={req.official_url} target="_blank" rel="noopener noreferrer" className="text-xs text-indigo-600 shrink-0">공식 주소 ↗</a>}
+                  {req.published_brand_id && <Link href={`/brand/${req.published_brand_id}/`} className="text-xs text-indigo-600 shrink-0">게시물 ↗</Link>}
+                </div>)}
+                {priorityRequests.length === 0 && <p className="text-sm text-gray-500">새 요청이 들어오면 여기에 우선 표시돼요.</p>}
+              </div>
+            </section>
             {requestError && (
               <div className="mb-4 px-4 py-3 rounded-xl text-sm" style={{ background:"rgba(239,68,68,.06)", color:"#dc2626", border:"1px solid rgba(239,68,68,.2)" }}>
                 {requestError}
