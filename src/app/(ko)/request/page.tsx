@@ -30,7 +30,8 @@ export default function RequestPage() {
       } catch { if (active) setRecentError(true); }
     }
     loadRecent();
-    return () => { active = false; };
+    const interval = window.setInterval(loadRecent, 60_000);
+    return () => { active = false; window.clearInterval(interval); };
   }, []);
 
   async function send(event: FormEvent<HTMLFormElement>) {
