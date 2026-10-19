@@ -1,0 +1,176 @@
+{
+  "schema": 1,
+  "source_kind": "official-brand-guides",
+  "snapshot_date": "2026-10-19",
+  "patches": {
+    "kmong": {
+      "id": "kmong",
+      "name_ko": "크몽",
+      "name_en": "kmong",
+      "category": "서비스·기업",
+      "origin": "KR",
+      "website": "https://kmong.com/",
+      "domain": "kmong.com",
+      "logo_svg": "sources/official-kmong-20261019/wordmark-black-4adf91b80da5c3ba.svg",
+      "svg_transparent": "sources/official-kmong-20261019/wordmark-black-4adf91b80da5c3ba.svg",
+      "logo_png": "sources/official-kmong-20261019/wordmark-black-6268be63bd5501be.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/kmong/sources/official-kmong-20261019/wordmark-black-6268be63bd5501be.png",
+      "has_svg": true,
+      "has_png": true,
+      "light": false,
+      "presentation": {
+        "file": "sources/official-kmong-20261019/wordmark-black-6268be63bd5501be.png",
+        "bg": "light",
+        "svgFile": "sources/official-kmong-20261019/wordmark-black-4adf91b80da5c3ba.svg"
+      },
+      "variants_n": 3,
+      "added_at": "2026-10-19",
+      "logo_published_at": "2026-10-19T00:00:00Z",
+      "introduced_year": 2025,
+      "official_source_page": "https://kmong.com/support/customer-center/posts/37",
+      "asset_origin": "크몽 공식 브랜드 가이드 PDF 벡터 및 공식 앱 아이콘 PNG",
+      "asset_review_status": "verified"
+    },
+    "line": {
+      "name_ko": "라인",
+      "name_en": "LINE",
+      "website": "https://line.me/",
+      "domain": "line.me",
+      "logo_svg": "sources/official-line-20261019/brand-icon-bbeaf2ef71984e4b.svg",
+      "svg_transparent": "sources/official-line-20261019/brand-icon-bbeaf2ef71984e4b.svg",
+      "logo_png": "sources/official-line-20261019/brand-icon-5e93437eb5ec0dcd.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/line/sources/official-line-20261019/brand-icon-5e93437eb5ec0dcd.png",
+      "has_svg": true,
+      "has_png": true,
+      "light": false,
+      "presentation": {
+        "file": "sources/official-line-20261019/brand-icon-5e93437eb5ec0dcd.png",
+        "bg": "light",
+        "svgFile": "sources/official-line-20261019/brand-icon-bbeaf2ef71984e4b.svg"
+      },
+      "variants_n": 3,
+      "logo_published_at": "2026-10-19T00:00:00Z",
+      "official_source_page": "https://www.line.me/en/logo",
+      "asset_origin": "LINE 공식 브랜드 가이드 AI 및 PNG · 기존 글자형은 출처 미확인으로 보존",
+      "asset_review_status": "verified"
+    },
+    "line--src-364c9cf": {
+      "hidden": true,
+      "variant_of": "line",
+      "merged_into": "line",
+      "hidden_reason": "LINE 글자형을 대표 콘텐츠의 기존 버전으로 통합"
+    },
+    "line-wordmark": {
+      "hidden": true,
+      "variant_of": "line",
+      "merged_into": "line",
+      "hidden_reason": "LINE 앱 아이콘 중복을 대표 콘텐츠로 통합"
+    }
+  },
+  "variants": {
+    "kmong": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "kmong",
+      "primary": "official-wordmark-black",
+      "variants": [
+        {
+          "key": "official-wordmark-black",
+          "form": "wordmark",
+          "lang": "en",
+          "color": "black",
+          "label": "공식 워드마크 · 검정",
+          "files": {
+            "svg": "sources/official-kmong-20261019/wordmark-black-4adf91b80da5c3ba.svg",
+            "png": "sources/official-kmong-20261019/wordmark-black-6268be63bd5501be.png"
+          },
+          "provider": "크몽 브랜드 가이드",
+          "origin": "collected",
+          "order": 0,
+          "source_url": "https://static.cdn.kmong.com/kmong-board/files/d03da49f26924c06abfc0e73fe937baf.pdf"
+        },
+        {
+          "key": "official-wordmark-white",
+          "form": "wordmark",
+          "lang": "en",
+          "color": "white",
+          "label": "공식 워드마크 · 흰색",
+          "files": {
+            "svg": "sources/official-kmong-20261019/wordmark-white-c31358fdc6e2d1ab.svg",
+            "png": "sources/official-kmong-20261019/wordmark-white-aab11e045b9fb36f.png"
+          },
+          "provider": "크몽 브랜드 가이드",
+          "origin": "collected",
+          "order": 1,
+          "source_url": "https://static.cdn.kmong.com/kmong-board/files/d03da49f26924c06abfc0e73fe937baf.pdf"
+        },
+        {
+          "key": "official-app-icon",
+          "form": "symbol",
+          "lang": "none",
+          "color": "original",
+          "label": "공식 K 앱 아이콘 · PNG",
+          "files": {
+            "png": "sources/official-kmong-20261019/app-icon-19de74dea67c6d86.png"
+          },
+          "provider": "크몽 공식 사이트",
+          "origin": "collected",
+          "order": 2,
+          "source_url": "https://kmong.com/apple-touch-icon.png"
+        }
+      ]
+    },
+    "line": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "line",
+      "primary": "official-brand-icon",
+      "variants": [
+        {
+          "key": "official-brand-icon",
+          "form": "symbol",
+          "lang": "none",
+          "color": "original",
+          "label": "공식 브랜드 아이콘 · 녹색",
+          "files": {
+            "svg": "sources/official-line-20261019/brand-icon-bbeaf2ef71984e4b.svg",
+            "png": "sources/official-line-20261019/brand-icon-5e93437eb5ec0dcd.png"
+          },
+          "provider": "LINE 브랜드 가이드",
+          "origin": "collected",
+          "order": 0,
+          "source_url": "https://www.line.me/static/logo/ai/LINE_Brand_icon_RGB.ai",
+          "source_note": "공식 AI의 아이콘 경로를 형식만 SVG로 변환. 색상·형태·여백 변경 없음."
+        },
+        {
+          "key": "legacy-chat-symbol",
+          "form": "symbol",
+          "lang": "none",
+          "color": "legacy",
+          "label": "이전 수집본 · 색상/도입 연도 미확인",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo.png"
+          },
+          "provider": "기존 수집본",
+          "origin": "collected",
+          "order": 1
+        },
+        {
+          "key": "legacy-wordmark",
+          "form": "wordmark",
+          "lang": "en",
+          "color": "legacy",
+          "label": "기존 LINE 글자형 · 색상/도입 연도 미확인",
+          "files": {
+            "svg": "sources/official-line-20261019/legacy-wordmark-4d358cf98e570d57.svg",
+            "png": "sources/official-line-20261019/legacy-wordmark-cfba0675dfe75200.png"
+          },
+          "provider": "기존 중복 콘텐츠에서 통합 · 공식 출처 미확인",
+          "origin": "collected",
+          "order": 2
+        }
+      ]
+    }
+  }
+}

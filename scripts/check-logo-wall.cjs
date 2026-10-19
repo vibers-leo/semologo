@@ -38,6 +38,15 @@ async function main(){
  const appleVariants=reviewedVariants.apple.variants;
  assert(appleVariants.some(v=>v.form==='wordmark'&&v.files.svg&&v.files.png));
  assert(appleVariants.some(v=>v.form==='horizontal'&&v.files.svg&&v.files.png));
+ const kmong=applyReviewedAssets({id:'kmong'});
+ assert.equal(kmong.name_ko,'크몽');assert(kmong.logo_svg.includes('official-kmong-20261019'));
+ assert(reviewedVariants.kmong.variants.some(v=>v.form==='wordmark'&&v.color==='black'&&v.files.svg&&v.files.png));
+ assert(reviewedVariants.kmong.variants.some(v=>v.form==='symbol'&&v.files.png));
+ const lineOfficial=applyReviewedAssets({id:'line'});
+ assert(lineOfficial.logo_svg.includes('official-line-20261019'));
+ assert.equal(reviewedVariants.line.primary,'official-brand-icon');
+ assert(reviewedVariants.line.variants.some(v=>v.key==='legacy-wordmark'));
+ assert.equal(applyReviewedAssets({id:'line-wordmark'}).merged_into,'line');
  assert.equal(nh.has_svg,true);assert.equal(reviewedVariants.nhqv.variants.length,1);
  assert(nh.svg_transparent.includes("reviewed-transparent-20261007"));
  assert(!logoPngCandidates(nh).some(url=>url.includes('logo-transparent.png')));
