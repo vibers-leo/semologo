@@ -51,7 +51,7 @@
       "variants_n": 3,
       "logo_published_at": "2026-10-19T00:00:00Z",
       "official_source_page": "https://www.line.me/en/logo",
-      "asset_origin": "LINE 공식 브랜드 가이드 AI 및 PNG · 기존 글자형은 출처 미확인으로 보존",
+      "asset_origin": "LINE 공식 브랜드 아이콘 AI·PNG 및 공식 상표 가이드 Wordmark 벡터",
       "asset_review_status": "verified"
     },
     "line--src-364c9cf": {
@@ -157,18 +157,20 @@
           "order": 1
         },
         {
-          "key": "legacy-wordmark",
+          "key": "official-wordmark",
           "form": "wordmark",
           "lang": "en",
-          "color": "legacy",
-          "label": "기존 LINE 글자형 · 색상/도입 연도 미확인",
+          "color": "original",
+          "label": "공식 LINE 글자 로고 · 녹색",
           "files": {
-            "svg": "sources/official-line-20261019/legacy-wordmark-4d358cf98e570d57.svg",
-            "png": "sources/official-line-20261019/legacy-wordmark-cfba0675dfe75200.png"
+            "svg": "sources/official-line-20261019/official-wordmark-57b8bd1f17192a5a.svg",
+            "png": "sources/official-line-20261019/official-wordmark-fd12c28b5f8b9736.png"
           },
-          "provider": "기존 중복 콘텐츠에서 통합 · 공식 출처 미확인",
+          "provider": "LINE 상표 가이드 (2021)",
           "origin": "collected",
-          "order": 2
+          "order": 2,
+          "source_url": "https://vos.line-scdn.net/lbstw-static/website/home/2021LINE_trademark_guide.pdf",
+          "source_note": "LINE 공식 상표 가이드 P4의 Wordmark 벡터 경로를 그대로 추출. 색상·형태 변경 없음."
         }
       ]
     }

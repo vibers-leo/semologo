@@ -45,7 +45,7 @@ async function main(){
  const lineOfficial=applyReviewedAssets({id:'line'});
  assert(lineOfficial.logo_svg.includes('official-line-20261019'));
  assert.equal(reviewedVariants.line.primary,'official-brand-icon');
- assert(reviewedVariants.line.variants.some(v=>v.key==='legacy-wordmark'));
+ assert(reviewedVariants.line.variants.some(v=>v.key==='official-wordmark'&&v.form==='wordmark'&&v.files.svg&&v.files.png));
  assert.equal(applyReviewedAssets({id:'line-wordmark'}).merged_into,'line');
  assert.equal(nh.has_svg,true);assert.equal(reviewedVariants.nhqv.variants.length,1);
  assert(nh.svg_transparent.includes("reviewed-transparent-20261007"));
