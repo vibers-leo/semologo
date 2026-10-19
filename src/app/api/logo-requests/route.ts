@@ -41,7 +41,7 @@ export async function GET(request: NextRequest) {
 
 function requestName(message: string) {
   const withoutUrl = message.replace(/https?:\/\/\S+/gi, '').trim();
-  const namedLogo = withoutUrl.match(/^(.+?)\s+(?:(?:의\s*)?로고(?:를|가|도)?|logo)(?:\s|$)/i);
+  const namedLogo = withoutUrl.match(/^(.+?)\s+(?:(?:의\s*)?로고(?:를|가|도)?|logo)(?=\s|$|찾아|수집|등록|추가|올려|구해|주세요|부탁)/i);
   if (namedLogo?.[1]?.trim()) return namedLogo[1].trim().replace(/의$/, '').slice(0, 120);
   const clean = withoutUrl.replace(/(?:^|\s)(?:의\s*)?로고(?:를|가|도)?(?=\s|$)|\blogo\b/gi, ' ')
     .replace(/(?:수집|등록|추가|찾아|올려|구해)(?:해|해줘|주세요|주실\s*수\s*있나요)?/g, ' ')
@@ -78,15 +78,22 @@ export async function POST(request: NextRequest) {
       await client.query('BEGIN');
       const recent = await client.query('SELECT count(*)::int AS n FROM semologo.logo_request_queue WHERE requester_hash=$1 AND created_at > now() - interval \'1 hour\'', [requesterHash]);
       if (recent.rows[0].n >= 5) { await client.query('ROLLBACK'); return reply({ error: '요청을 많이 보내셨어요. 한 시간 뒤에 다시 남겨 주세요.' }, 429); }
+      const existing = await client.query(`SELECT id FROM semologo.logo_posts
+        WHERE status='published' AND (lower(payload->>'name_ko')=lower($1) OR lower(payload->>'name_en')=lower($1))
+        LIMIT 1`, [name]);
+      const publishedBrandId = existing.rows[0]?.id || null;
       const result = await client.query(`INSERT INTO semologo.logo_request_queue
-        (id,request_key,message,requested_name,official_url,requester_hash)
-        VALUES($1,$2,$3,$4,$5,$6)
+        (id,request_key,message,requested_name,official_url,requester_hash,status,published_brand_id)
+        VALUES($1,$2,$3,$4,$5,$6,$7,$8)
         ON CONFLICT(request_key) DO UPDATE SET
           request_count=semologo.logo_request_queue.request_count+1,
           priority=GREATEST(semologo.logo_request_queue.priority,100),
           official_url=COALESCE(semologo.logo_request_queue.official_url,EXCLUDED.official_url),
+          status=CASE WHEN EXCLUDED.published_brand_id IS NOT NULL THEN 'published' ELSE semologo.logo_request_queue.status END,
+          published_brand_id=COALESCE(semologo.logo_request_queue.published_brand_id,EXCLUDED.published_brand_id),
           updated_at=now()
-        RETURNING id,status,published_brand_id`, [randomUUID(), key, message, name, officialUrl, requesterHash]);
+        RETURNING id,status,published_brand_id`, [randomUUID(), key, message, name, officialUrl, requesterHash,
+          publishedBrandId ? 'published' : 'pending', publishedBrandId]);
       await client.query('COMMIT');
       return reply({ ok: true, id: result.rows[0].id, status: result.rows[0].status, brandId: result.rows[0].published_brand_id }, 201);
     } catch (error) { await client.query('ROLLBACK'); throw error; }
