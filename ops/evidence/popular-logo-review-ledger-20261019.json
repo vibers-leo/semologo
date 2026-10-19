@@ -1,0 +1,40 @@
+{
+  "schema": 1,
+  "threshold": "semologo.logo_hits view >= 10; review order follows weighted popularity score",
+  "reviewed_at": "2026-10-19",
+  "items": {
+    "ediya-coffee": {
+      "result": "improved-source-pending",
+      "change": "공식 2025 회사소개서의 가로형 CI를 대표 구성으로 지정",
+      "source": "https://www.ediya.com/images/main/kor_brochure_2025.pdf",
+      "followup": "기존 워드마크의 원본 출처와 독립 벡터 확인"
+    },
+    "hyundai": {
+      "result": "source-linked-pending",
+      "change": "공식 현대자동차 CI 안내 링크 연결; 현재 가로형의 시각 형태 대조",
+      "source": "https://www.hyundai.com/kr/ko/info/ci",
+      "followup": "커뮤니티 유래 대표 벡터를 공식 배포 원본으로 교체"
+    },
+    "bucketplace": {
+      "result": "improved-verified",
+      "change": "작게 보이던 대표 이미지를 공식 홈페이지 인라인 SVG의 가로형 로고로 교체; SVG·PNG 검증",
+      "source": "https://www.bucketplace.com/index.html"
+    },
+    "emart": {
+      "result": "source-linked-pending",
+      "change": "공식 이마트 CI 안내 링크 연결; 현재 대표 PNG의 시각 형태 대조",
+      "source": "https://company.emart.com/ko/company/ci.do",
+      "followup": "현재 PNG의 원본 출처 확인 및 공식 벡터 확보"
+    },
+    "wikileaks": {
+      "result": "reviewed-no-change",
+      "change": "현재 공식 사이트 PNG와 아카이브 벡터의 구분 및 공개 파일 응답 확인",
+      "source": "https://wikileaks.org/"
+    },
+    "gongu-ci-1368": {
+      "result": "reviewed-no-change",
+      "change": "사용자 제공 AI 원본의 현재 대표 SVG·PNG와 로고 구성 확인",
+      "source": "사용자 제공 AI 원본"
+    }
+  }
+}

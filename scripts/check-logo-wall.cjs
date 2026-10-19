@@ -47,6 +47,10 @@ async function main(){
  assert.equal(reviewedVariants.line.primary,'official-brand-icon');
  assert(reviewedVariants.line.variants.some(v=>v.key==='official-wordmark'&&v.form==='wordmark'&&v.files.svg&&v.files.png));
  assert.equal(applyReviewedAssets({id:'line-wordmark'}).merged_into,'line');
+ const bucketplace=applyReviewedAssets({id:'bucketplace'});
+ assert(bucketplace.logo_svg.includes('popular-refresh-20261019'));
+ assert.equal(reviewedVariants.bucketplace.primary,'official-horizontal');
+ assert.equal(reviewedVariants['ediya-coffee'].primary,'official-2025-horizontal');
  assert.equal(nh.has_svg,true);assert.equal(reviewedVariants.nhqv.variants.length,1);
  assert(nh.svg_transparent.includes("reviewed-transparent-20261007"));
  assert(!logoPngCandidates(nh).some(url=>url.includes('logo-transparent.png')));

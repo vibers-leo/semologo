@@ -1,0 +1,144 @@
+{
+  "schema": 1,
+  "snapshot_date": "2026-10-19",
+  "patches": {
+    "bucketplace": {
+      "id": "bucketplace",
+      "name_ko": "오늘의집",
+      "name_en": "Ohouse",
+      "website": "https://ohou.se/",
+      "domain": "ohou.se",
+      "logo_svg": "sources/popular-refresh-20261019/official-horizontal-69eb9c906f843c8f.svg",
+      "svg_transparent": "sources/popular-refresh-20261019/official-horizontal-69eb9c906f843c8f.svg",
+      "logo_png": "sources/popular-refresh-20261019/official-horizontal-b44be001be46aa75.png",
+      "preview_png": "https://logo.vibers.co.kr/_clients/bucketplace/sources/popular-refresh-20261019/official-horizontal-b44be001be46aa75.png",
+      "has_svg": true,
+      "has_png": true,
+      "light": false,
+      "presentation": {
+        "file": "sources/popular-refresh-20261019/official-horizontal-b44be001be46aa75.png",
+        "bg": "light",
+        "svgFile": "sources/popular-refresh-20261019/official-horizontal-69eb9c906f843c8f.svg"
+      },
+      "variants_n": 2,
+      "asset_review_status": "verified",
+      "official_source_page": "https://www.bucketplace.com/index.html",
+      "asset_origin": "오늘의집 공식 회사 사이트 인라인 SVG",
+      "logo_published_at": "2026-10-19T00:00:00Z"
+    },
+    "hyundai": {
+      "website": "https://www.hyundai.com/kr/ko/",
+      "official_source_page": "https://www.hyundai.com/kr/ko/info/ci"
+    },
+    "emart": {
+      "website": "https://store.emart.com/",
+      "official_source_page": "https://company.emart.com/ko/company/ci.do"
+    }
+  },
+  "variants": {
+    "bucketplace": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "bucketplace",
+      "primary": "official-horizontal",
+      "variants": [
+        {
+          "key": "official-horizontal",
+          "form": "horizontal",
+          "lang": "ko",
+          "color": "original",
+          "label": "오늘의집 공식 가로형 로고",
+          "files": {
+            "svg": "sources/popular-refresh-20261019/official-horizontal-69eb9c906f843c8f.svg",
+            "png": "sources/popular-refresh-20261019/official-horizontal-b44be001be46aa75.png"
+          },
+          "order": 0,
+          "origin": "collected",
+          "provider": "오늘의집 공식 회사 사이트",
+          "source_url": "https://www.bucketplace.com/index.html",
+          "source_note": "공식 홈페이지 상단의 인라인 SVG 경로를 그대로 사용. 고정 높이 속성을 제거해 전체 viewBox를 표시."
+        },
+        {
+          "key": "legacy-symbol",
+          "form": "symbol",
+          "lang": "none",
+          "color": "original",
+          "label": "기존 수집 심볼",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "order": 1,
+          "origin": "collected",
+          "provider": "기존 수집본"
+        }
+      ]
+    },
+    "ediya-coffee": {
+      "schema": 1,
+      "algo_v": 1,
+      "id": "ediya-coffee",
+      "primary": "official-2025-horizontal",
+      "fingerprint": {
+        "logo.svg": "e66ec7d5ce1c5534"
+      },
+      "variants": [
+        {
+          "key": "wordmark",
+          "form": "wordmark",
+          "lang": "unknown",
+          "color": "color",
+          "label": "워드마크형",
+          "files": {
+            "svg": "logo.svg",
+            "png": "logo-800.png"
+          },
+          "aspect": 10.227,
+          "provider": "wikimedia",
+          "origin": "collected",
+          "order": 40
+        },
+        {
+          "key": "official-2025-horizontal",
+          "form": "horizontal",
+          "lockup": "horizontal",
+          "lang": "en",
+          "color": "color",
+          "label": "공식 2025 CI · 가로조합형",
+          "files": {
+            "png": "sources/ediya-2025-ci-horizontal.png"
+          },
+          "preview_png": "sources/ediya-2025-ci-horizontal.png",
+          "provider": "이디야커피 공식 회사소개서",
+          "origin": "derived",
+          "official_distribution": true,
+          "source_url": "https://www.ediya.com/images/main/kor_brochure_2025.pdf",
+          "source_sha256": "f44febc810a621f69f2082a6e5b5f56fc4150d206b85574814d94c8b9bc93027",
+          "visual_sha256": "9a0669e7224b7710131c4f2ee43d9e912c7925e2ee469ca2983eea4ab1e19276",
+          "order": 10,
+          "mark_type": "seal"
+        },
+        {
+          "key": "official-2025-symbol",
+          "form": "symbol",
+          "lockup": "symbol",
+          "lang": "none",
+          "color": "color",
+          "label": "공식 2025 CI · 원형 심볼",
+          "files": {
+            "png": "sources/ediya-2025-ci-symbol.png"
+          },
+          "preview_png": "sources/ediya-2025-ci-symbol.png",
+          "provider": "이디야커피 공식 회사소개서",
+          "origin": "derived",
+          "official_distribution": true,
+          "source_url": "https://www.ediya.com/images/main/kor_brochure_2025.pdf",
+          "source_sha256": "f44febc810a621f69f2082a6e5b5f56fc4150d206b85574814d94c8b9bc93027",
+          "visual_sha256": "33e3417518bb62feaf8dac44a45c545b4203a07b04a211202dd78c402fb6c1fe",
+          "order": 20,
+          "mark_type": "seal"
+        }
+      ]
+    }
+  }
+}
