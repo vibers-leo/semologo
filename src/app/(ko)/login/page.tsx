@@ -3,8 +3,9 @@
 import Image from "next/image";
 import InAppLoginNotice from "@/components/InAppLoginNotice";
 import { loginBrowser, externalLoginUrl, safeLoginNext } from "@/lib/login-browser";
-import { signInWithPopup, signInWithRedirect, getRedirectResult } from "firebase/auth";
-import { getClientAuth, googleProvider } from "@/lib/firebase";
+import { getRedirectResult, onAuthStateChanged } from "firebase/auth";
+import { startGoogleLogin, hasNativeGoogleLogin, authErrorCode } from "@/lib/google-login";
+import { getClientAuth } from "@/lib/firebase";
 import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 
@@ -13,32 +14,37 @@ export const dynamic = "force-dynamic";
 export default function LoginPage() {
   const router = useRouter();
   const [error, setError] = useState("");
+  const [busy, setBusy] = useState(false);
+  const [nativeLogin, setNativeLogin] = useState(false);
   const [browser, setBrowser] = useState<ReturnType<typeof loginBrowser> | null>(null);
   const [externalUrl, setExternalUrl] = useState('');
   useEffect(() => {
     const current = loginBrowser(navigator.userAgent);
     setBrowser(current);
     setExternalUrl(externalLoginUrl(window.location.href));
-    if (current.embedded) return;
-    getRedirectResult(getClientAuth()).then(result => { if (result) router.replace(safeLoginNext(new URLSearchParams(window.location.search).get("next"), "/")); }).catch(() => setError("로그인을 완료하지 못했어요. 다시 시도해 주세요.")); }, [router]);
+    const native = hasNativeGoogleLogin();
+    setNativeLogin(native);
+    if (current.embedded && !native) return;
+    const auth = getClientAuth();
+    const destination = () => safeLoginNext(new URLSearchParams(window.location.search).get("next"), "/");
+    const unsubscribe = onAuthStateChanged(auth, user => { if (user) router.replace(destination()); });
+    if (!native) getRedirectResult(auth).catch(() => setError("로그인을 완료하지 못했어요. 다시 시도해 주세요."));
+    return unsubscribe;
+  }, [router]);
 
   const handleGoogle = async () => {
-    if (loginBrowser(navigator.userAgent).embedded) {
-      setBrowser(loginBrowser(navigator.userAgent));
-      setExternalUrl(externalLoginUrl(window.location.href));
-      return;
-    }
+    if (busy || (loginBrowser(navigator.userAgent).embedded && !hasNativeGoogleLogin())) return;
+    setError("");
+    setBusy(true);
     try {
-      const auth = getClientAuth();
-      await signInWithPopup(auth, googleProvider);
-      // ?next= 가 있으면 거기로 돌아간다 (/admin 등) — 외부 값은 받지 않는다
-      const next = new URLSearchParams(window.location.search).get("next");
-      router.push(safeLoginNext(next, "/"));
-    } catch (e) {
-      const code = e && typeof e === "object" && "code" in e ? String((e as {code?: string}).code) : "";
-      if (code === "auth/popup-blocked" || code === "auth/popup-not-supported") { try { await signInWithRedirect(getClientAuth(), googleProvider); return; } catch { /* Show the recoverable error below. */ } }
-      setError("로그인을 완료하지 못했어요. 브라우저의 팝업을 허용한 뒤 다시 시도해 주세요.");
-    }
+      await startGoogleLogin();
+      if (getClientAuth().currentUser) router.replace(safeLoginNext(new URLSearchParams(window.location.search).get("next"), "/"));
+    } catch (error) {
+      const code = authErrorCode(error);
+      if (!["auth/popup-closed-by-user", "auth/cancelled-popup-request"].includes(code)) {
+        setError(code === "auth/popup-blocked" ? "사파리 설정에서 세모로고의 팝업을 허용한 뒤 다시 눌러 주세요." : code === "auth/network-request-failed" ? "인터넷 연결을 확인한 뒤 다시 시도해 주세요." : "로그인을 완료하지 못했어요. 다시 시도해 주세요.");
+      }
+    } finally { setBusy(false); }
   };
 
   return (
@@ -51,9 +57,9 @@ export default function LoginPage() {
           </p>
         </div>
 
-        {browser && <InAppLoginNotice browser={browser} url={externalUrl} />}
+        {browser && !nativeLogin && <InAppLoginNotice browser={browser} url={externalUrl} />}
         <button
-          disabled={browser?.embedded}
+          disabled={busy || !!(browser?.embedded && !nativeLogin)} aria-busy={busy}
           onClick={handleGoogle}
           className="w-full flex items-center justify-center gap-3 py-3 px-4 rounded-full border font-medium text-sm transition-colors hover:bg-gray-50 disabled:opacity-50 disabled:cursor-not-allowed"
           style={{ border: "1px solid var(--border)" }}
@@ -64,7 +70,7 @@ export default function LoginPage() {
             <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/>
             <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/>
           </svg>
-          Google로 계속하기
+          {busy ? "로그인 중이에요…" : "Google로 계속하기"}
         </button>
         {error && <p role="alert" className="mt-4 text-center text-sm text-red-600">{error}</p>}
 

@@ -1,5 +1,5 @@
 import { initializeApp, getApps, type FirebaseApp } from "firebase/app";
-import { getAuth, GoogleAuthProvider, type Auth } from "firebase/auth";
+import { getAuth, initializeAuth, indexedDBLocalPersistence, browserLocalPersistence, browserSessionPersistence, GoogleAuthProvider, type Auth } from "firebase/auth";
 import { getFirestore, type Firestore } from "firebase/firestore";
 
 const firebaseConfig = {
@@ -23,7 +23,14 @@ function getApp(): FirebaseApp {
 }
 
 export function getClientAuth(): Auth {
-  if (!authInstance) authInstance = getAuth(getApp());
+  if (!authInstance) {
+    const native = typeof window !== "undefined" && /SemoLogoApp/i.test(navigator.userAgent);
+    // Native uses an ID token from Google's system authentication session. Avoid
+    // the popup resolver and its third-party iframe storage in WKWebView.
+    authInstance = native ? initializeAuth(getApp(), {
+      persistence: [indexedDBLocalPersistence, browserLocalPersistence, browserSessionPersistence],
+    }) : getAuth(getApp());
+  }
   return authInstance;
 }
 

@@ -15,6 +15,10 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   output: "standalone",
   trailingSlash: true,
+  // Firebase's /__/auth/handler must retain its exact OAuth callback path.
+  // proxy.ts preserves the normal trailing slash behavior everywhere else.
+  skipTrailingSlashRedirect: true,
+  skipProxyUrlNormalize: true,
   // CDN 카탈로그를 갱신한 직후 정적 홈/최신 상세 페이지의 원격 데이터
   // 재생성이 60초를 넘는 경우가 있어 빌드가 실패한다. ISR 재생성 한도를 3분으로 둔다.
   staticPageGenerationTimeout: 180,
@@ -24,6 +28,7 @@ const nextConfig: NextConfig = {
   },
   async headers() {
     return [
+      { source: "/__/auth/:path*", headers: [{ key: "Cache-Control", value: "private, no-store, max-age=0" }] },
       {
         // ⚠️ ISR 페이지에 Next.js 가 붙이는 기본값이
         //    `stale-while-revalidate=31536000`(1년) 이다.
@@ -48,7 +53,7 @@ const nextConfig: NextConfig = {
         //    **HTML 의 stale 은 배포 주기보다 길면 안 된다.** 청크 파일명이
         //    배포마다 바뀌기 때문이다. 정적 자산(_next/static)은 파일명에
         //    해시가 있어 그대로 immutable 이어도 안전하다 — 여기 대상이 아니다.
-        source: "/((?!_next/static|_next/image|api/).*)",
+        source: "/((?!_next/static|_next/image|api/|__/auth/).*)",
         headers: [
           {
             key: "Cache-Control",
