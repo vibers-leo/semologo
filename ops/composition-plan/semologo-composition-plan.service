@@ -1,0 +1,10 @@
+[Unit]
+Description=SemoLogo durable composition coverage and bounded existing Windows collection
+After=docker.service
+Requires=docker.service
+[Service]
+Type=oneshot
+UMask=0077
+ExecStart=/usr/bin/python3 /root/projects/semologo-composition-plan/run.py
+TimeoutStartSec=240
+Nice=10
