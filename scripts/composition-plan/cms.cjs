@@ -1,6 +1,6 @@
 // Concatenate policy.cjs before this file; execute in the existing semologo container.
 const {Pool}=require('pg');const fs=require('node:fs');const mode=process.argv[2],revision=process.argv[3];
-const db=new Pool({connectionString:process.env.DB_VIBERS_MAIN_URL,max:1,connectionTimeoutMillis:5000,statement_timeout:20000});
+const db=new Pool({connectionString:process.env.DB_VIBERS_MAIN_URL,max:1,connectionTimeoutMillis:5000,query_timeout:20000});
 const schema=`CREATE TABLE IF NOT EXISTS semologo.logo_composition_plan (
  brand_id text PRIMARY KEY REFERENCES semologo.logo_posts(id),name text NOT NULL,domain text,source_pages jsonb NOT NULL DEFAULT '[]',slots jsonb NOT NULL,priority integer NOT NULL DEFAULT 0,priority_reasons jsonb NOT NULL DEFAULT '[]',interactions integer NOT NULL DEFAULT 0,last_audited_at timestamptz NOT NULL DEFAULT now(),next_collect_at timestamptz NOT NULL DEFAULT now(),attempts integer NOT NULL DEFAULT 0,last_job_id uuid,last_job_status text,code_revision text NOT NULL);
  CREATE INDEX IF NOT EXISTS logo_composition_due ON semologo.logo_composition_plan(next_collect_at,priority DESC);

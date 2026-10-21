@@ -1,4 +1,4 @@
-const{Pool}=require('pg');const db=new Pool({connectionString:process.env.DB_VIBERS_MAIN_URL,max:1,statement_timeout:15000});
+const{Pool}=require('pg');const db=new Pool({connectionString:process.env.DB_VIBERS_MAIN_URL,max:1,query_timeout:15000});
 (async()=>{const c=await db.connect();try{await c.query('BEGIN');let n=0;
 for(const r of RECEIPT.updates){let created=false;const terminal=['succeeded','failed','cancelled','review_required'].includes(r.status);if(r.domain){const inserted=await c.query(`INSERT INTO semologo.logo_composition_attempts(job_id,brand_id,domain,requested_slots,status,code_revision) VALUES($1,$2,$3,$4,$5,$6) ON CONFLICT(job_id) DO NOTHING RETURNING job_id`,[r.jobId,r.brandId,r.domain,JSON.stringify(r.requestedSlots),r.status,REVISION]);
 created=inserted.rowCount===1;if(inserted.rowCount)await c.query('update semologo.logo_composition_plan set attempts=attempts+1,last_job_id=$2,last_job_status=$3 where brand_id=$1',[r.brandId,r.jobId,r.status]);}
