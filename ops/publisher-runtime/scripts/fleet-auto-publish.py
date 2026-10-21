@@ -78,13 +78,21 @@ def transparent_default(node,s3,sha,ident,row,raw,png):
     if isinstance(selected,str) and selected.startswith(prefix):selected=selected[len(prefix):].split('?',1)[0]
     if not isinstance(selected,str) or selected.startswith(('/', 'http')) or '..' in selected.split('/'):return False
     existing_png=get(s3,f'_clients/{ident}/{selected}')
-    if existing_png is None or not png_surface(existing_png)['white_canvas']:return False
-    stem=f'sources/auto-transparent-default-v1/{sha(png)[:20]}'
-    files={'png':stem+'.png','svg':stem+'.svg'}
-    for kind,body,mime in [('png',png,'image/png'),('svg',raw,'image/svg+xml')]:
-        put(s3,f'_clients/{ident}/'+files[kind],body,mime,sha)
-        cdn_check(ident,files[kind],body)
-    value={'file':files['png'],'svgFile':files['svg'],'bg':'dark' if light_artwork(png) else 'light'}
+    if existing_png is None:return False
+    surface=png_surface(existing_png)
+    if surface['transparent']:
+        if payload.get('presentation'):return False
+        # Persist the already-good default without changing its artwork or form.
+        value={'file':selected,'bg':'dark' if light_artwork(existing_png) else 'light'}
+        png=existing_png
+    elif surface['white_canvas']:
+        stem=f'sources/auto-transparent-default-v1/{sha(png)[:20]}'
+        files={'png':stem+'.png','svg':stem+'.svg'}
+        for kind,body,mime in [('png',png,'image/png'),('svg',raw,'image/svg+xml')]:
+            put(s3,f'_clients/{ident}/'+files[kind],body,mime,sha)
+            cdn_check(ident,files[kind],body)
+        value={'file':files['png'],'svgFile':files['svg'],'bg':'dark' if light_artwork(png) else 'light'}
+    else:return False
     evidence={'method':'auto-transparent-default-v1','source_sha256':sha(existing_png),
               'candidate_sha256':sha(png),'source_file':selected,'source_url':row['assetUrl'],
               'at':datetime.now(timezone.utc).isoformat()}
