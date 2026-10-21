@@ -18,8 +18,7 @@ export async function GET(request:Request){
  if(ids)return reply({presentations:await savedLogoPresentations(ids)});
  const db=trafficDb();
  const rows=await db.query("SELECT id,payload,payload->'presentation' presentation FROM semologo.logo_posts WHERE status='published' AND payload ? 'presentation' AND ($1::text[] IS NULL OR id=ANY($1::text[]))",[ids]);
- const automatic=ids?.length ? await db.query('SELECT id,png_file,svg_file FROM semologo.logo_background_previews WHERE id=ANY($1::text[])',[ids]) : {rows:[]};
- const presentations=Object.fromEntries(automatic.rows.map(row=>[row.id,{file:row.png_file,bg:'light',svgFile:row.svg_file}]));
+ const presentations:Record<string,import('@/lib/logo-presentation').LogoPresentation>={};
  for(const row of rows.rows)if(validPresentation(row.presentation)&&!cmsBrand(row.id,row.payload).rejected_asset_files?.includes(row.presentation.file))presentations[row.id]=row.presentation;
  return reply({presentations});
  }catch{return reply({error:'대표 이미지를 불러오지 못했어요.'},503);}
