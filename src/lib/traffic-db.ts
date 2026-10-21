@@ -2,7 +2,9 @@ import { Pool } from 'pg';
 let pool: Pool | undefined;
 export function trafficDb() {
   if (!process.env.DB_VIBERS_MAIN_URL) throw new Error('Traffic storage unavailable');
-  return pool ??= new Pool({ connectionString: process.env.DB_VIBERS_MAIN_URL, max: 2, connectionTimeoutMillis: 5000, statement_timeout: 5000, idleTimeoutMillis: 10000 });
+  // PgBouncer rejects statement_timeout as a startup parameter (08P01).
+  // Keep the request bounded in node-postgres without sending that parameter.
+  return pool ??= new Pool({ connectionString: process.env.DB_VIBERS_MAIN_URL, max: 2, connectionTimeoutMillis: 5000, query_timeout: 5000, idleTimeoutMillis: 10000 });
 }
 export async function trafficAdmin(request: Request) {
   const token = request.headers.get('authorization')?.match(/^Bearer (\S+)$/)?.[1];
