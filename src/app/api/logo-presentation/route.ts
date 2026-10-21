@@ -8,12 +8,14 @@ import { INDEX_REVIEW_BRANDS } from "@/lib/index-candidate-review-submissions";
 import { fetchBrand } from '@/lib/brands';
 import { CDN } from '@/lib/cdn';
 import { revalidatePath } from 'next/cache';
+import { savedLogoPresentations } from '@/lib/saved-logo-presentations';
 export const dynamic='force-dynamic';
 const reply=(body:unknown,status=200)=>Response.json(body,{status,headers:{'Cache-Control':'no-store'}});
 export async function GET(request:Request){
  try{const params=new URL(request.url).searchParams;const id=params.get('id');const list=params.get('ids');
  const ids=id?[id]:list?list.split(',').filter(Boolean):null;
  if(ids&&(ids.length>120||ids.some(value=>!/^[\p{L}\p{N}._-]{1,200}$/u.test(value))))return reply({error:'로고를 확인해 주세요.'},400);
+ if(ids)return reply({presentations:await savedLogoPresentations(ids)});
  const db=trafficDb();
  const rows=await db.query("SELECT id,payload,payload->'presentation' presentation FROM semologo.logo_posts WHERE status='published' AND payload ? 'presentation' AND ($1::text[] IS NULL OR id=ANY($1::text[]))",[ids]);
  const automatic=ids?.length ? await db.query('SELECT id,png_file,svg_file FROM semologo.logo_background_previews WHERE id=ANY($1::text[])',[ids]) : {rows:[]};

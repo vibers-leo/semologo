@@ -10,6 +10,7 @@ import { SUBMITTED_BRANDS } from "@/lib/submissions";
 import { SIMPLE_ICONS_BRANDS } from "@/lib/simple-icons-submissions";
 import { STREAMING_SUBMISSIONS } from "@/lib/streaming-submissions";
 import { INDEX_REVIEW_BRANDS } from "@/lib/index-candidate-review-submissions";
+import { withSavedLogoPresentations } from "@/lib/saved-logo-presentations";
 
 
 export const dynamic = "force-dynamic";
@@ -144,7 +145,7 @@ export async function GET(request: NextRequest) {
     if (svgOnly) matches = matches.filter((brand) => brand.logo_svg || brand.has_svg);
 
     const payload = {
-      brands: matches.slice(offset, offset + limit),
+      brands: await withSavedLogoPresentations(matches.slice(offset, offset + limit)),
       total: matches.length,
       offset,
       limit,

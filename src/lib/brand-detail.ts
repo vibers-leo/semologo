@@ -8,6 +8,7 @@ import { SIMPLE_ICONS_BRANDS } from './simple-icons-submissions';
 import { STREAMING_SUBMISSIONS } from './streaming-submissions';
 import { INDEX_REVIEW_BRANDS } from './index-candidate-review-submissions';
 import { applyReviewedAssets } from './reviewed-logo-assets';
+import { withSavedLogoPresentations } from './saved-logo-presentations';
 
 const registered = new Map([...SUBMITTED_BRANDS, ...SIMPLE_ICONS_BRANDS,
   ...STREAMING_SUBMISSIONS, ...INDEX_REVIEW_BRANDS].map(brand => [brand.id, brand]));
@@ -20,11 +21,12 @@ export const fetchBrand = cache(async (id: string): Promise<Brand | null> => {
         "SELECT payload,status FROM semologo.logo_posts WHERE id=$1", [id],
       );
       const row = result.rows[0];
-      if (row) return row.status === 'published' ? cmsBrand(id, row.payload) : null;
+      if (row) return row.status === 'published' ? (await withSavedLogoPresentations([cmsBrand(id, row.payload)]))[0] : null;
     } catch {
       // Keep the existing catalog available during a temporary CMS outage.
     }
   }
   const local = registered.get(id);
-  return local ? applyReviewedAssets(local) : fetchCatalogBrand(id);
+  const brand = local ? applyReviewedAssets(local) : await fetchCatalogBrand(id);
+  return brand ? (await withSavedLogoPresentations([brand]))[0] : null;
 });
