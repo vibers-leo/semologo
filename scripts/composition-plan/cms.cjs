@@ -11,12 +11,13 @@ async function main(){
  if(mode==='init'){await db.query(schema);return {schema:'ready'}}
  if(mode==='refresh'){
  const c=await db.connect();try{await c.query('BEGIN');await c.query("SELECT pg_advisory_xact_lock(hashtextextended('semologo-composition-refresh',0))");
- const rows=(await c.query(`WITH demand AS (SELECT params->>'brand_id' id,count(*)::int n FROM semologo.traffic_events WHERE created_at>now()-interval '30 days' AND event IN ('brand_opened','logo_downloaded') GROUP BY 1)
- SELECT p.id,p.payload,v.asset_manifest->'variants' manifest,coalesce(d.n,0) interactions,
- EXISTS(SELECT 1 FROM semologo.logo_request_queue q WHERE q.published_brand_id=p.id) requested
- FROM semologo.logo_posts p LEFT JOIN semologo.logo_versions v ON v.brand_id=p.id AND v.is_current LEFT JOIN demand d ON d.id=p.id LEFT JOIN semologo.logo_composition_plan plan ON plan.brand_id=p.id
+ const rows=(await c.query(`WITH demand AS (SELECT params->>'brand_id' id,count(*)::int n FROM semologo.traffic_events WHERE created_at>now()-interval '30 days' AND event IN ('brand_opened','logo_downloaded') GROUP BY 1), picked AS MATERIALIZED (
+ SELECT p.id,coalesce(d.n,0) interactions FROM semologo.logo_posts p LEFT JOIN demand d ON d.id=p.id LEFT JOIN semologo.logo_composition_plan plan ON plan.brand_id=p.id
  WHERE p.status='published' AND coalesce(p.payload->>'hidden','false')<>'true' AND coalesce(p.payload->>'merged_into','')='' AND coalesce(p.payload->>'variant_of','')='' AND (plan.brand_id IS NULL OR plan.last_audited_at<now()-interval '6 hours')
- ORDER BY (p.id=ANY($1)) DESC,(coalesce(d.n,0)>=10) DESC,(p.payload->>'category'='공공·기관') DESC,coalesce(d.n,0) DESC,p.updated_at DESC,p.id LIMIT 200`,[SEEDS])).rows;
+ ORDER BY (p.id=ANY($1)) DESC,(coalesce(d.n,0)>=10) DESC,(p.payload->>'category'='공공·기관') DESC,coalesce(d.n,0) DESC,p.updated_at DESC,p.id LIMIT 200)
+ SELECT p.id,p.payload,v.asset_manifest->'variants' manifest,picked.interactions,
+ EXISTS(SELECT 1 FROM semologo.logo_request_queue q WHERE q.published_brand_id=p.id) requested
+ FROM picked JOIN semologo.logo_posts p ON p.id=picked.id LEFT JOIN semologo.logo_versions v ON v.brand_id=p.id AND v.is_current`,[SEEDS])).rows;
  const decisions=(await c.query('select * from semologo.logo_composition_decisions where brand_id=any($1)',[rows.map(r=>r.id)])).rows;
  for(const r of rows){const p=r.payload,slots=compositionCoverage(r.manifest,p.rejected_asset_files,decisions.filter(x=>x.brand_id===r.id)),rank=priorityFor(r),domain=domainOf(p),sources=[...new Set([p.official_source_page,p.ci_page_url,p.website].filter(x=>typeof x==='string'&&/^https?:\/\//.test(x)))];
  await c.query(`INSERT INTO semologo.logo_composition_plan(brand_id,name,domain,source_pages,slots,priority,priority_reasons,interactions,code_revision) VALUES($1,$2,$3,$4,$5,$6,$7,$8,$9) ON CONFLICT(brand_id) DO UPDATE SET name=excluded.name,domain=excluded.domain,source_pages=excluded.source_pages,slots=excluded.slots,priority=excluded.priority,priority_reasons=excluded.priority_reasons,interactions=excluded.interactions,last_audited_at=now(),code_revision=excluded.code_revision`,[r.id,p.name_ko||p.name_en||r.id,domain,JSON.stringify(sources),JSON.stringify(slots),rank.priority,JSON.stringify(rank.reasons),r.interactions,revision]);}
