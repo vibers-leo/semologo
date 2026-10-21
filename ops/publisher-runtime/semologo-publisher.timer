@@ -1,0 +1,8 @@
+[Unit]
+Description=Continue SemoLogo screened publication independently of Mac HDD permissions
+[Timer]
+OnBootSec=2min
+OnUnitInactiveSec=5min
+AccuracySec=15s
+[Install]
+WantedBy=timers.target

@@ -1,0 +1,13 @@
+[Unit]
+Description=SemoLogo existing Windows results screened and published with one durable cursor
+After=docker.service
+Requires=docker.service
+[Service]
+Type=oneshot
+UMask=0077
+ExecStart=/root/projects/semologo-auto-fleet/.venv/bin/python /root/projects/semologo-publisher/run.py
+TimeoutStartSec=1200
+MemoryMax=512M
+MemorySwapMax=0
+CPUQuota=50%
+Nice=10
