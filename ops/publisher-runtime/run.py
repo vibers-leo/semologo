@@ -14,8 +14,8 @@ def credentials():
 
 def main():
  p=argparse.ArgumentParser();p.add_argument('--dry-run',action='store_true');a=p.parse_args();credentials()
- for _ in range(1 if a.dry_run else 2):
-  cmd=[sys.executable,str(BASE/'scripts/run-auto-fleet-pipeline.py'),'--limit-jobs','2' if a.dry_run else '200']
+ for _ in range(1):
+  cmd=[sys.executable,str(BASE/'scripts/run-auto-fleet-pipeline.py'),'--limit-jobs','2' if a.dry_run else '50']
   if not a.dry_run:cmd+=['--apply']
   r=subprocess.run(cmd,cwd=BASE)
   if r.returncode:raise SystemExit(r.returncode)
