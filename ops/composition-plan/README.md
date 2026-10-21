@@ -10,7 +10,7 @@ Four tracked forms:
 
 Each form is `available_verified`, `review_required`, `collect_needed`, `unassessed`, or `not_offered`. Only explicitly reviewed variant metadata and non-rejected files count as verified. Unknown legacy composition metadata is unassessed, rather than proof that a form is absent. Reusing the same artwork across all four labels cannot complete coverage. A `not_offered` decision requires a dated official-source reference and review note in `logo_composition_decisions`; a later verified asset supersedes that decision.
 
-Priorities: user requests, named focus brands, brands with at least ten recent opens/downloads, Korean public institutions, fashion. Rank inputs use current CMS traffic, not an invented GA4 ranking. A refresh audits at most 200 new/stale records and retains prior attempts and manual evidence. Merged/hidden identities are excluded. Missing/ambiguous official domains remain visible in the list for source enrichment.
+Priorities: user requests, named focus brands, brands with at least ten recent opens/downloads, Korean public institutions, fashion. Rank inputs use current CMS traffic, not an invented GA4 ranking. A refresh audits at most 200 records, combining named/popular focus identities, new Korean public-institution identities, catalog backfill and stale/changed identities and retains prior attempts and manual evidence. Merged/hidden identities are excluded. Missing/ambiguous official domains remain visible in the list for source enrichment.
 
 ## Collection connection
 
