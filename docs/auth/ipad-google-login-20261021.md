@@ -34,7 +34,9 @@ A localhost-only NCP preview returned 200 for Korean/English login, home, brand 
 - After NCP deployment: `ssh vibers "bash /root/check-deploy.sh semologo https://semologo.com"`.
 - Native SDK requires a new app build; updating the website alone does not add the native plugin to old installations. Old apps keep external-browser guidance.
 
-Native scheme compilation currently reports a missing iOS 26.5 platform/runtime; a target-only SDK build is being checked. No successful real-account iPad end-to-end authentication has been claimed. Module candidate: native Google ID-token-to-Firebase credential bridge and same-origin redirect guard.
+Production web release d39afa52eb3009e68d362c53bf52970a58cf3577 passed the mandatory NCP deployment check, health and public auth-helper checks. A fresh Safari private-window Google login completed and persisted after reload, without lowering Safari privacy protections. Existing regular-browser login also restored successfully.
+
+iOS arm64 Simulator Debug target build completed with BUILD SUCCEEDED on Xcode 26.6. The SDK expected runtime build 23F81a while installed iOS 26.5 runtime was 23F73; a temporary simctl runtime-match override enabled validation and was restored to default afterward. Build log: /Volumes/HDD-1TB/semologo-migration/task-tmp/ipad-auth-20261021/ios-build-success.log. Native app real-account end-to-end login and distribution of build 3 remain pending. Module candidate: native Google ID-token-to-Firebase credential bridge and same-origin redirect guard.
 
 Official references:
 - https://firebase.google.com/docs/auth/web/redirect-best-practices
