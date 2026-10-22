@@ -178,9 +178,6 @@ export async function fetchBrands(): Promise<Brand[]> {
   return brandsCache;
 }
 
-/** id → Brand 조회용. 브랜드마다 선형 find 를 돌던 것을 대체한다. */
-let brandMapCache: Promise<Map<string, Brand>> | null = null;
-
 let slimCache: Promise<Brand[]> | null = null;
 
 /**
@@ -233,8 +230,8 @@ export async function fetchBrandsSlim(): Promise<Brand[]> {
  * 캐시는 2MB 초과를 저장하지 않아 렌더마다 다시 받고, 파싱만으로 램다 힙이
  * 수백 MB 로 뛴다. 그래서 브랜드별 파일을 따로 둔다.
  *
- * 파일이 아직 없는 브랜드(생성 전)는 null 이 아니라 전체 목록으로 폴백한다 —
- * 없다고 404 를 내면 이관 도중에 멀쩡한 페이지가 사라진다.
+ * 파일이 아직 없는 브랜드는 null 로 처리한다. 전체 카탈로그 폴백은 요청마다
+ * 수십 MB JSON 을 파싱하고, ISR 에서 동적 사용 오류와 서버 메모리 고갈을 만든다.
  */
 export async function fetchBrand(id: string): Promise<Brand | null> {
   try {
@@ -243,17 +240,7 @@ export async function fetchBrand(id: string): Promise<Brand | null> {
   } catch {
     // 폴백으로 넘어간다
   }
-  const brand = (await getBrandMap()).get(id);
-  return brand ? applyQualityReview(brand) : null;
-}
-
-export async function getBrandMap(): Promise<Map<string, Brand>> {
-  if (!brandMapCache) {
-    brandMapCache = fetchBrands().then(
-      list => new Map(list.map(b => [b.id, b]))
-    );
-  }
-  return brandMapCache;
+  return null;
 }
 
 // ── 로고 변형 매니페스트 ─────────────────────────────────────────────────────
