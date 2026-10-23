@@ -1,5 +1,22 @@
 import type { NextConfig } from "next";
 
+const firebasePublicEnv = {
+  NEXT_PUBLIC_FIREBASE_API_KEY: process.env.NEXT_PUBLIC_FIREBASE_API_KEY ?? "",
+  NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN: process.env.NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN ?? "",
+  NEXT_PUBLIC_FIREBASE_PROJECT_ID: process.env.NEXT_PUBLIC_FIREBASE_PROJECT_ID ?? "",
+  NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET: process.env.NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET ?? "",
+  NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID: process.env.NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID ?? "",
+  NEXT_PUBLIC_FIREBASE_APP_ID: process.env.NEXT_PUBLIC_FIREBASE_APP_ID ?? "",
+};
+
+const missingFirebasePublicEnv = Object.entries(firebasePublicEnv)
+  .filter(([, value]) => !value.trim())
+  .map(([key]) => key);
+
+if (missingFirebasePublicEnv.length > 0) {
+  throw new Error(`Missing Firebase client build configuration: ${missingFirebasePublicEnv.join(", ")}`);
+}
+
 /**
  * NCP Docker 배포 — SSR + 부분 사전생성(ISR).
  *
@@ -14,6 +31,9 @@ import type { NextConfig } from "next";
  */
 const nextConfig: NextConfig = {
   output: "standalone",
+  // Keep the Firebase settings in the browser bundle. Login cannot initialize
+  // Auth if the Docker build silently omits the NEXT_PUBLIC values.
+  env: firebasePublicEnv,
   trailingSlash: true,
   // CDN 카탈로그를 갱신한 직후 정적 홈/최신 상세 페이지의 원격 데이터
   // 재생성이 60초를 넘는 경우가 있어 빌드가 실패한다. ISR 재생성 한도를 3분으로 둔다.
