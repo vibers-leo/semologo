@@ -1,5 +1,6 @@
 import type { Brand } from './brands';
 import { CDN, VERSION } from './cdn';
+import { validPresentation } from './logo-presentation';
 /** CMS preview filenames are sometimes relative to the brand CDN folder. */
 export function logoAssetUrl(brand: Brand, file: string): string {
   if (/^(?:https?:\/\/|\/|blob:)/.test(file)) return file;
@@ -10,6 +11,7 @@ export function logoAssetUrl(brand: Brand, file: string): string {
 export function logoPngCandidates(brand: Brand): string[] {
   // Personal uploads stay in their authenticated blob URL; never probe public CDN paths.
   if (typeof brand.logo_png === 'string' && brand.logo_png.startsWith('blob:')) return [brand.logo_png];
+  if (validPresentation(brand.presentation) && (!brand.rejected_asset_files?.includes(brand.presentation.file) || brand.presentation.locked)) return [`${CDN}/${brand.id}/${brand.presentation.file}?v=${brand.presentation.version || VERSION}`];
   const recovery = `/api/logo-preview/?id=${encodeURIComponent(brand.id)}`;
   const localSvgOnly = !(brand.logo_png || brand.has_png) && typeof brand.logo_svg === 'string' && brand.logo_svg.startsWith('/submissions/');
   // Legacy JPEG filed as PNG: normalize the bytes without replacing the original.
@@ -42,6 +44,7 @@ export function logoWallPngCandidates(brand: Brand): string[] {
 /** Browser cards can display real SVG directly; keep PNG-only exports separate. */
 export function logoImageCandidates(brand: Brand): string[] {
   const png=logoPngCandidates(brand);
+  if (validPresentation(brand.presentation) && (!brand.rejected_asset_files?.includes(brand.presentation.file) || brand.presentation.locked)) return png;
   if (!(brand.has_svg || brand.logo_svg) || (typeof brand.logo_png==='string' && brand.logo_png.startsWith('blob:'))) return png;
   const file=brand.svg_transparent || (typeof brand.logo_svg === 'string' ? brand.logo_svg : 'logo.svg');
   if (file.startsWith('/submissions/') && !file.includes('..') && /\.svg$/.test(file)) {

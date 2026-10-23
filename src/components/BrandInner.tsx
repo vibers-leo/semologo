@@ -246,8 +246,8 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
     return () => controller.abort();
   }, [brand.id, brand.website, brand.domain]);
 
-  const cdnUrl = (file: string) => file.startsWith("/submissions/") || /^https?:\/\//.test(file)
-    ? file : `${CDN}/${brand.id}/${file}?v=${VERSION}`;
+  const cdnUrl = (file: string, version = VERSION) => file.startsWith("/submissions/") || /^https?:\/\//.test(file)
+    ? file : `${CDN}/${brand.id}/${file}?v=${version}`;
   const svgUrl  = typeof brand.logo_svg === "string" && brand.logo_svg.startsWith("/")
     ? `${brand.logo_svg}?v=${VERSION}`
     : cdnUrl(brand.svg_transparent || "logo.svg");
@@ -276,7 +276,7 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
   const [candidateBgs,setCandidateBgs]=useState<Record<string,"light"|"dark">>({});
 
   const [savingPresentation,setSavingPresentation]=useState(false);
-  useEffect(()=>{let alive=true;setPresentation(brand.presentation || null);fetch(`/api/logo-presentation/?id=${encodeURIComponent(brand.id)}`,{cache:"no-store"}).then(r=>r.ok?r.json():null).then(data=>{const p=data?.presentations?.[brand.id];if(alive&&validPresentation(p)&&!brand.rejected_asset_files?.includes(p.file)){setPresentation(p);setCandidateBgs(old=>({...old,[p.file]:p.bg}));}}).catch(()=>{});return()=>{alive=false;};},[brand.id]);
+  useEffect(()=>{let alive=true;setPresentation(brand.presentation || null);fetch(`/api/logo-presentation/?id=${encodeURIComponent(brand.id)}`,{cache:"no-store"}).then(r=>r.ok?r.json():null).then(data=>{const p=data?.presentations?.[brand.id];if(alive&&validPresentation(p)&&(p.locked||!brand.rejected_asset_files?.includes(p.file))){setPresentation(p);setCandidateBgs(old=>({...old,[p.file]:p.bg}));}}).catch(()=>{});return()=>{alive=false;};},[brand.id]);
   const [bgOverride, setBgOverride] = useState<"dark" | "light" | null>(null);
   const ADMIN_EMAIL = "juuuno1116@gmail.com";
   // 렌더 중에 getClientAuth() 를 부르면 SSR 에서 깨진다 — 효과 안에서만 읽는다.
@@ -328,7 +328,7 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
   // 일부 기관 수집본의 원본 SVG에는 로고 주변의 안내 문서/캔버스가
   // 함께 들어온다. 다운로드 원본은 보존하되, 대표 화면은 검수된 가공본을
   // 우선 사용한다. KCA는 logo-800.png가 실제 로고만 담은 가공본이다.
-  const previewUrl = presentation ? cdnUrl(presentation.file) : brand.preview_png ? cdnUrl(brand.preview_png) : brand.id === "kca" ? cdnUrl("logo-800.png") : hasPng ? pngUrl : `/api/logo-preview/?id=${encodeURIComponent(brand.id)}`;
+  const previewUrl = presentation ? cdnUrl(presentation.file, presentation.version || VERSION) : brand.preview_png ? cdnUrl(brand.preview_png) : brand.id === "kca" ? cdnUrl("logo-800.png") : hasPng ? pngUrl : `/api/logo-preview/?id=${encodeURIComponent(brand.id)}`;
   // An explicit representative selection governs on-screen and shared images.
   // The SVG download still points to the vector source below.
   const mainUrl = presentation ? previewUrl : hasSvg ? svgUrl : (directPng || darkUrl);

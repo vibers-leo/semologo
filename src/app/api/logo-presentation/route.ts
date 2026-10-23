@@ -18,7 +18,7 @@ export async function GET(request:Request){
  const rows=await db.query("SELECT id,payload,payload->'presentation' presentation FROM semologo.logo_posts WHERE status='published' AND payload ? 'presentation' AND ($1::text[] IS NULL OR id=ANY($1::text[]))",[ids]);
  const automatic=ids?.length ? await db.query('SELECT id,png_file,svg_file FROM semologo.logo_background_previews WHERE id=ANY($1::text[])',[ids]) : {rows:[]};
  const presentations=Object.fromEntries(automatic.rows.map(row=>[row.id,{file:row.png_file,bg:'light',svgFile:row.svg_file}]));
- for(const row of rows.rows)if(validPresentation(row.presentation)&&!cmsBrand(row.id,row.payload).rejected_asset_files?.includes(row.presentation.file))presentations[row.id]=row.presentation;
+ for(const row of rows.rows){const locked=row.payload?.presentation_locked===true;if(validPresentation(row.presentation)&&(locked||!cmsBrand(row.id,row.payload).rejected_asset_files?.includes(row.presentation.file)))presentations[row.id]={...row.presentation,...(locked?{locked:true}:{})};}
  return reply({presentations});
  }catch{return reply({error:'대표 이미지를 불러오지 못했어요.'},503);}
 }
@@ -42,7 +42,7 @@ export async function PATCH(request:Request){
  if(!r.ok||!/^image\/png(?:;|$)/i.test(r.headers.get('content-type')||''))return reply({error:'사용할 수 있는 이미지 파일인지 확인해 주세요.'},400);
  const raw=await r.arrayBuffer();if(raw.byteLength===0||raw.byteLength>8_000_000)return reply({error:'이미지 파일을 확인해 주세요.'},400);
  if(input.svgFile){const svg=await fetch(`${CDN}/${encodeURIComponent(input.id)}/${input.svgFile}`,{cache:'no-store',redirect:'error',signal:AbortSignal.timeout(8000)});if(!svg.ok||!/(?:image\/svg\+xml|text\/xml|application\/xml)(?:;|$)/i.test(svg.headers.get('content-type')||''))return reply({error:'선택한 SVG 원본을 확인해 주세요.'},400);}
- const value={file:input.file,bg:input.bg,...(input.svgFile?{svgFile:input.svgFile}:{})};await db.query("UPDATE semologo.logo_posts SET payload=jsonb_set(payload,'{presentation}',$2::jsonb),updated_at=now() WHERE id=$1",[input.id,JSON.stringify(value)]);
+ const value={file:input.file,bg:input.bg,version:Date.now().toString(),...(input.svgFile?{svgFile:input.svgFile}:{})};await db.query("UPDATE semologo.logo_posts SET payload=jsonb_set(payload,'{presentation}',$2::jsonb)||'{\"presentation_locked\":true}'::jsonb,updated_at=now() WHERE id=$1",[input.id,JSON.stringify(value)]);
  revalidatePath('/','page');revalidatePath(`/brand/${input.id}/`,'page');return reply({ok:true,presentation:value});
  }catch{return reply({error:'대표 이미지를 저장하지 못했어요. 다시 시도해 주세요.'},503);}
 }
