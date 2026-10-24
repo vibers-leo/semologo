@@ -13,7 +13,7 @@
 export const CDN =
   process.env.NEXT_PUBLIC_CDN_URL || "https://logo.vibers.co.kr/_clients";
 
-export const VERSION = "1792829357";
+export const VERSION = "1792852164";
 // Metadata revisions invalidate cached catalog responses without reloading logo bytes.
 export const CATALOG_VERSION = "20261012-supplied-identities-v17";
 
