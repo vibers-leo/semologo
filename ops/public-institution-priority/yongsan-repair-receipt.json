@@ -1,0 +1,14 @@
+{
+  "source": "https://www.yong-san.or.kr/design/theme/yongsan/image/main/logo.png",
+  "sha256": "ad6b24585f4ec9a1c72fb20d5478ce712883a060f70dab557eee8e6e2e146d48",
+  "cdn": "https://logo.vibers.co.kr/_clients/gongu-ci-0778/sources/official-transparent-20261025-ad6b2458/logo.png",
+  "dimensions": [
+    240,
+    37
+  ],
+  "result": {
+    "id": "gongu-ci-0778",
+    "logo_png": "sources/official-transparent-20261025-ad6b2458/logo.png",
+    "status": "transparent-source-applied"
+  }
+}
