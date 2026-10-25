@@ -1,6 +1,5 @@
 import Link from "next/link";
 import Header from "@/components/Header";
-import Footer from "@/components/Footer";
 import { type Story as BlogPost } from "@/lib/story-cms";
 import { getStories } from "@/lib/story-cms";
 export const dynamic="force-dynamic";
@@ -62,5 +61,5 @@ export default async function BlogPage() {
         </article>)}
       </div>
     </section>
-  </main><Footer /></>;
+  </main></>;
 }

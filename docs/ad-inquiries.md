@@ -13,3 +13,5 @@
 worker: `node scripts/inquiry-mail-worker.mjs`(Mac→SSH), 서버에서는 `node scripts/inquiry-mail-worker.mjs --emit | docker exec -i semologo node`. 동일한 `deliverInquiry` 함수를 재사용한다. stale sending은5분 후 복구하며 retry worker는10분 간격, 최대5건씩 처리한다. timer 주기는5분이다. 만료된 문의는 worker에서 삭제하고 접수일부터1년 보관한다.
 
 최초 유입의 UTM·referrer·landing_path·page_url은 브라우저에서 보존해 DB에 저장하고 어드민에서 조회·검색한다. URL의 일반 query는 서버에서 제거한다. GA4 generate_lead에는 접수 ID와 문의유형만 보내고 이름·메일·본문은 보내지 않는다.
+
+2026-10-25 운영 점검: SMTP 인증서 만료를 발견해 갱신(2027-01-23 만료), 기존 stunnel 설정의 누락된 pidfile 보완 후 HUP으로 인증서를 재로딩했다. 일일 `postal-smtp-cert-renew.timer`에서 자동 갱신하고 reloadcmd로 반영한다. STARTTLS 인증서 검증·SMTP AUTH 235 성공, 실메일 미발송. 앱 배포 47cd605는 DEPLOY OK/healthy/restarts0, 빌더 정지 확인.

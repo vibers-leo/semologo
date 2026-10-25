@@ -1,5 +1,4 @@
 import Header from "@/components/Header";
-import Footer from "@/components/Footer";
 import Link from "next/link";
 import type { Metadata } from "next";
 
@@ -21,7 +20,7 @@ export default function PrivacyPage() {
         </Link>
 
         <h1 className="text-2xl font-black mb-2">개인정보처리방침</h1><section className="mt-8 rounded-xl border p-5 text-sm leading-7"><h2 className="font-bold">광고·제휴 문의</h2><p>문의 답변을 위해 담당자 이름, 이메일, 회사명(선택), 문의 내용과 최초 유입 경로를 수집해요. 접수일부터 1년간 보관 후 삭제해요. 문의는 관리자 화면에 저장하고 운영자 이메일로 알림을 보내요. 동의하지 않으면 문의를 접수할 수 없어요.</p></section>
-        <p className="text-sm mb-10" style={{ color: "var(--text-secondary)" }}>최종 갱신: 2026년 10월 11일</p>
+        <p className="text-sm mb-10" style={{ color: "var(--text-secondary)" }}>최종 갱신: 2026년 10월 25일</p>
 
         <div className="flex flex-col gap-8 text-sm" style={{ lineHeight: 1.9, color: "var(--text)" }}>
 
@@ -99,7 +98,7 @@ export default function PrivacyPage() {
         </div>
       <section className="mt-8"><h2 className="font-bold">사이트 즐겨찾기 및 방문 통계</h2><p className="mt-3 text-sm leading-7">사이트 즐겨찾기는 브라우저가 관리하며 SemoLogo는 북마크 정보를 받거나 저장하지 않아요. 서비스 개선을 위해 Google Analytics와 FanEasy를 통해 방문 경로, 캠페인(UTM), 기기 정보, 체류시간 등 이용 통계를 수집해요.</p></section>
         </main>
-      <Footer />
+
     </div>
   );
 }

@@ -31,6 +31,8 @@ if (missingFirebasePublicEnv.length > 0) {
  */
 const nextConfig: NextConfig = {
   output: "standalone",
+  // The notification worker runs in the app container outside the Next.js bundle.
+  serverExternalPackages: ["nodemailer"],
   // Keep the Firebase settings in the browser bundle. Login cannot initialize
   // Auth if the Docker build silently omits the NEXT_PUBLIC values.
   env: firebasePublicEnv,
