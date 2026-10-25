@@ -35,6 +35,8 @@ def main():
   code='const done='+json.dumps(done)+';'+r'''const{Pool}=require('pg');const p=new Pool({connectionString:process.env.FLEET_DATABASE_URL,max:1});(async()=>{try{const q=await p.query("SELECT id,input,result FROM fleet.job WHERE tenant='internal' AND project='semologo' AND kind='semologo-domain-discover' AND status='succeeded' AND input->>'priority'='kr-public-institutions-20261025' AND NOT(id=ANY($1::uuid[])) ORDER BY CASE WHEN EXISTS(SELECT 1 FROM jsonb_array_elements(input->'targets') t WHERE coalesce((t->>'down')::int,0)>0) THEN 0 ELSE 1 END,created_at DESC LIMIT 6",[done]);console.log(JSON.stringify(q.rows))}finally{await p.end()}})().catch(e=>{console.error(e.message);process.exit(1)})'''
   jobs=core['node']('vibers-fleet',code)
   if not jobs:
+   helper=Path('/root/projects/vibers-fleet/releases/20261025-semologo-public-priority/install-vector-repair-gates.py')
+   if helper.exists():subprocess.run([sys.executable,str(helper),'--replay'],check=True)
    print(json.dumps({'status':'caught_up','jobs':0}),flush=True);return
   s3=core['s3_client']();plan=[];held=[]
   folder=BASE/datetime.now(timezone.utc).strftime('batch-%Y%m%dT%H%M%S');folder.mkdir();(folder/'reviewed-png').mkdir()
