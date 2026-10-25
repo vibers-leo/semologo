@@ -36,7 +36,7 @@ const FAQS = [
   },
   {
     q: "광고 문의는 어떻게 하나요?",
-    a: "vibers@vibers.co.kr 로 문의주세요. 배너 광고, 스폰서십 등 다양한 방식으로 협력할 수 있습니다.",
+    a: "푸터의 광고 문의에서 내용을 남겨 주세요. 배너 광고, 숏폼, 스폰서십과 제휴를 함께 검토해요.",
   },
 ];
 
@@ -98,12 +98,12 @@ export default function FaqPage() {
         <div className="mt-12 p-6 rounded-2xl text-center" style={{ background: "var(--surface)", border: "1px solid var(--border)" }}>
           <p className="font-bold mb-1">원하는 답변을 못 찾으셨나요?</p>
           <p className="text-sm mb-4" style={{ color: "var(--text-secondary)" }}>
-            이메일로 문의주시면 빠르게 답변드릴게요.
+            문의 내용을 남겨 주시면 확인 후 이메일로 답변할게요.
           </p>
-          <a href="mailto:vibers@vibers.co.kr"
+          <a href="/advertise/"
             className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full text-sm font-semibold text-white"
             style={{ background: "#111", textDecoration: "none" }}>
-            ✉️ vibers@vibers.co.kr
+            광고·제휴 문의 남기기
           </a>
         </div>
       </main>

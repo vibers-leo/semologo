@@ -20,7 +20,7 @@ export default function PrivacyPage() {
           세모로고 홈
         </Link>
 
-        <h1 className="text-2xl font-black mb-2">개인정보처리방침</h1>
+        <h1 className="text-2xl font-black mb-2">개인정보처리방침</h1><section className="mt-8 rounded-xl border p-5 text-sm leading-7"><h2 className="font-bold">광고·제휴 문의</h2><p>문의 답변을 위해 담당자 이름, 이메일, 회사명(선택), 문의 내용과 최초 유입 경로를 수집해요. 접수일부터 1년간 보관 후 삭제해요. 문의는 관리자 화면에 저장하고 운영자 이메일로 알림을 보내요. 동의하지 않으면 문의를 접수할 수 없어요.</p></section>
         <p className="text-sm mb-10" style={{ color: "var(--text-secondary)" }}>최종 갱신: 2026년 10월 11일</p>
 
         <div className="flex flex-col gap-8 text-sm" style={{ lineHeight: 1.9, color: "var(--text)" }}>

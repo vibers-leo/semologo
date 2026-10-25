@@ -29,9 +29,9 @@ export default function Footer() {
                 <p style={{ fontSize: 11, color: "#52525b", margin: 0 }}>© {YEAR} Vibers. All rights reserved.</p>
                 <p style={{ fontSize: 11, lineHeight: 1.8, color: "#71717a", margin: 0 }}><T>{"모든 로고의 저작권은 각 브랜드에게 있습니다."}</T><br /><T>{"로고 사용 시 해당 브랜드의 브랜드 가이드라인을 따라주세요."}</T></p>
                 <p style={{ fontSize: 11, color: "#71717a", margin: 0 }}><T>{"제휴 및 광고 문의"}</T>{" "}
-                  <a href="mailto:vibers@vibers.co.kr" style={{ color: "#a1a1aa", textDecoration: "underline", textUnderlineOffset: 3 }}>
-                    vibers@vibers.co.kr
-                  </a>
+                  <Link href="/advertise/" style={{ color: "#a1a1aa", textDecoration: "underline", textUnderlineOffset: 3 }}>
+                    문의 남기기
+                  </Link>
                 </p>
                 <div style={{ display: "flex", gap: 12, fontSize: 11 }}>
                   <Link href="/terms/" style={{ color: "#71717a", textDecoration: "none" }}><T>{"이용약관"}</T></Link>
@@ -60,7 +60,7 @@ export default function Footer() {
                   { label: "로고 제보", href: "/submit" },
                   { label: "로고 요청", href: "/request" },
                   { label: "자주 묻는 질문", href: "/faq" },
-                  { label: "광고 문의", href: "mailto:vibers@vibers.co.kr" },
+                  { label: "광고 문의", href: "/advertise/" },
                 ].map(({ label, href }) =>
                   href.startsWith("mailto") ? (
                     <a key={t(label)} href={href} style={{ fontSize: 11, color: "#71717a", textDecoration: "none", whiteSpace: "nowrap" }}>{t(label)}</a>
@@ -83,6 +83,7 @@ export default function Footer() {
           <div style={{ display: "flex", alignItems: "center", gap: 16, flexWrap: "wrap", rowGap: 6 }}>
             <Link href="/submit/" style={{ fontSize: 12, color: "#71717a", textDecoration: "none", whiteSpace: "nowrap" }}><T>{"로고 제보"}</T></Link>
             <Link href="/request/" style={{ fontSize: 12, color: "#71717a", textDecoration: "none", whiteSpace: "nowrap" }}><T>{"로고 요청"}</T></Link>
+            <Link href="/advertise/" style={{fontSize:12,color:"#71717a",whiteSpace:"nowrap"}}><T>{"광고 문의"}</T></Link>
             <button
               onClick={() => setOpen(o => !o)}
               style={{ display: "flex", alignItems: "center", gap: 4, fontSize: 12, color: "#a1a1aa", background: "none", border: "none", cursor: "pointer", padding: 0, whiteSpace: "nowrap" }}>

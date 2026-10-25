@@ -1,7 +1,9 @@
 import Link from "next/link";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import { BLOG_POSTS, type BlogPost } from "@/lib/blog";
+import { type Story as BlogPost } from "@/lib/story-cms";
+import { getStories } from "@/lib/story-cms";
+export const dynamic="force-dynamic";
 
 export const metadata = {
   title: "로고 이야기 | 세모로고",
@@ -17,6 +19,7 @@ const covers: Record<string, { label: string; motif: string; className: string }
 };
 
 function Cover({ post }: { post: BlogPost }) {
+  if(post.coverImage)return <img src={post.coverImage} alt="" loading="lazy" className="h-40 w-full rounded-2xl object-cover sm:h-44"/>;
   const cover = covers[post.slug] ?? { label: post.category, motif: "✦", className: "bg-gray-100 text-gray-700" };
   return <div aria-hidden="true" className={`relative flex h-40 w-full flex-col justify-between overflow-hidden rounded-2xl p-5 sm:h-44 ${cover.className}`}>
     <span className="text-[11px] font-bold tracking-[0.22em]">{cover.label}</span>
@@ -25,7 +28,8 @@ function Cover({ post }: { post: BlogPost }) {
   </div>;
 }
 
-export default function BlogPage() {
+export default async function BlogPage() {
+ const BLOG_POSTS=await getStories();
   return <><Header /><main className="content-page py-10 pb-28 sm:py-14">
     <div className="max-w-2xl">
       <p className="text-xs font-bold tracking-[0.2em] text-indigo-600">SEMOLOGO JOURNAL</p>

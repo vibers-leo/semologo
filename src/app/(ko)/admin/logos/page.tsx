@@ -110,6 +110,8 @@ export default function AdminPage() {
             { href: GA_PROPERTY, emoji: "📈", title: "방문 통계 (GA4)", desc: "유입·검색어·페이지별 방문", ext: true },
             { href: "/requests", emoji: "📮", title: "요청·제보 접수", desc: "들어온 로고 요청과 품질 신고 처리", ext: false },
             { href: "/admin/submissions", emoji: "📎", title: "파일 제보 검토", desc: "제보 원본 확인·보완·게시 연결", ext: false },
+            { href: "/admin/inquiries", emoji: "✉", title: "광고·제휴 문의함", desc: "문의 접수·처리 상태·메일 알림", ext: false },
+            { href: "/admin/stories", emoji: "▶", title: "로고 이야기 관리", desc: "글·숏폼 영상 작성과 공개", ext: false },
             { href: "/admin/posts", emoji: "📝", title: "로고 콘텐츠 관리", desc: "신규 로고 게시·보관·삭제", ext: false },
             { href: "/admin/svg-audit", emoji: "🧩", title: "SVG 품질 검토", desc: "전수 점검·재수집 요청·구성 카드 투표", ext: false },
           ].map(({ href, emoji, title, desc, ext }) => {

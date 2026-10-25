@@ -47,3 +47,5 @@ Google Search Console과 Naver Search Advisor에 `https://semologo.com/sitemap-i
 배포 검증: DEPLOY OK, restarts=0. 분할 XML 20개와 전체 362,776 URL 형식/중복 검사 PASS. 대표 한·영 6페이지 HTTP 200 및 self canonical 확인. 현대자동차 최종 URL은 Search Console에서 색인됨 확인. sitemap-index.xml 제출 접수 후 최초 가져오기 상태는 추가 확인 중.
 
 Search Console 최종: 제출 접수됨. 14:39:39 실제 URL 테스트에서 크롤링 허용 및 가져오기 성공. 사이트맵 보고서는 아직 가져올 수 없음/발견 0으로 표시되어 Google 처리 결과는 미확정. 한 차례 재제출 접수. 자동 감시 예약 없음.
+
+- 2026-10-25: 로고 이야기 목록·상세·사이트맵을 CMS의 공개 상태에 연결. 초안·보관 글 제외. 관리자 새 화면 noindex, 광고문의 유입 및 lead_id 기반 generate_lead 연결.

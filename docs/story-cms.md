@@ -1,0 +1,51 @@
+# 로고 이야기 CMS · Codex 인계
+
+관리 화면: `/admin/stories/`. 기존 Google 관리자 인증을 사용한다. API·DB가 원본이며 재배포 없이 글이 반영된다. 공개 글만 `/blog/`, 상세 페이지, 사이트맵에 노출된다. 초안·보관 상태는 공개되지 않는다. 기존 5편을 이관하고 원본 코드 데이터는 비상시가 아닌 DB 미설정 개발 환경의 fallback으로 보존한다. 운영 DB 오류를 빈 글 목록으로 숨기지 않는다.
+
+## 다른 Codex 세션의 글 작성
+
+프로젝트 루트에서 실행한다. SSH alias `vibers`의 기존 권한으로 운영 컨테이너에 접속한다. 비밀 키를 JSON·글·로그에 넣지 않는다.
+
+```sh
+node scripts/story-cms.mjs list
+node scripts/story-cms.mjs get nike-swoosh-story > story.json
+node scripts/story-cms.mjs put story.json
+node scripts/story-cms.mjs history nike-swoosh-story
+```
+
+신규 글은 `revision: 0`, 수정은 `get`에서 받은 revision을 그대로 보낸다. 동시 수정이 있으면 저장을 거절한다. revision은 본문 전체를 저장하는 수정 이력이다. 복원은 과거 payload에 현재 revision을 붙여 다시 저장한다. 삭제 대신 archived로 보관한다. 한글 제목은 자유롭게 쓰되 slug는 영문·숫자·하이픈을 사용하며 공개 후 바꾸지 않는다. collection-status는 예약 주소다.
+
+필수 JSON 필드:
+
+```json
+{
+  "slug": "semowiki-episode-07",
+  "title": "영상 제목",
+  "description": "글 소개",
+  "date": "2026-10-25",
+  "category": "세모위키",
+  "tags": ["로고 이야기"],
+  "author": "세모로고 편집팀",
+  "readingMinutes": 2,
+  "status": "draft",
+  "revision": 0,
+  "sections": [{"heading": "소제목", "paragraphs": ["본문 첫 문단", "다음 문단"]}]
+}
+```
+
+선택 필드: `sources:[{label,url}]`, `videoScript:string[]`, `coverImage:https주소`, `video:{url,poster?,featured:boolean}`. 영상은 YouTube watch/Shorts/youtu.be 또는 HTTPS MP4를 지원한다. 인스타·쓰레드 게시물은 sources로 연결할 수 있다. 원본 영상·게시 영수증은 기존 제작 폴더에 두고 CMS에는 공개 URL과 글만 넣는다. 기존 제작 자료는 `/Users/juuuno/Downloads/edit/semologo-day*/`, 6편은 `semologo-day06/v6/publication-receipt.json`에 게시 주소가 있다. 7편까지의 글 작성·공개는 담당 세션에서 실제 게시 영수증과 내용을 대조해서 진행한다.
+
+신규 글은 초안으로 시작한다. `status:published`로 저장하면 공개된다. `video.featured:true`는 홈 왼쪽 영역 노출을 뜻한다. 최대 최신 7편. 화면 너비1600px 이상에서만 왼쪽 공간을 확보해 노출하며 검색 카드 위를 가리지 않는다. 자동재생하지 않고 클릭 전에는 영상 iframe·MP4를 로드하지 않는다. 닫으면 이번 방문 동안 숨긴다. 게시되지 않은 글의 영상은 노출되지 않는다.
+
+## API / 로컬
+
+- 관리자 `GET /api/admin/stories/`, `?slug=...` 단건 조회.
+- 관리자 `PUT /api/admin/stories/`: 위 JSON, `Authorization: Bearer <현재 관리자 Firebase ID token>`.
+- 공개 `GET /api/stories/`: 홈 노출할 공개 영상 글의 최소 필드만 반환.
+- 로컬DB는 `DB_VIBERS_MAIN_URL`을 로컬 환경에 넣고 `node scripts/story-cms.mjs --local init|list|get|put|history`.
+- 최초 이관: `node scripts/story-cms.mjs init`. 멱등 실행이며 기존 CMS 수정은 덮어쓰지 않는다.
+- HTML·임의 iframe 삽입은 허용하지 않는다. React 텍스트 렌더와 허용된 영상 주소만 사용한다.
+
+관리화면 본문은 `## 소제목`과 빈 줄로 구분한 문단으로 작성한다. JSON 도구는 구조화된 sections를 직접 사용한다. 로고 수집·대표 이미지 CMS와 별도 테이블이므로 서로 수정하지 않는다.
+
+모듈 후보: 프로젝트 고유 글·영상 CMS. 기존 인증은 재사용했고 다중 법인 JWT 모듈을 새로 도입하지 않았다.

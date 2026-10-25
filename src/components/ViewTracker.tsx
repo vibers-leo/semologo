@@ -1,6 +1,7 @@
 "use client";
 import { useEffect } from "react";
 import { usePathname } from "next/navigation";
+import { captureLeadAttribution } from "@/lib/lead-attribution";
 import { trackEvent } from "@/lib/analytics";
 const API = `${(process.env.NEXT_PUBLIC_FANEASY_API_BASE || "https://www.faneasy.kr").replace(/\/$/, "")}/api/track-view`;
 // Only campaign parameters are retained: search terms, tokens and arbitrary query values are excluded.
@@ -23,6 +24,7 @@ export default function ViewTracker() {
     return () => document.removeEventListener('click', original);
   }, []);
   useEffect(() => {
+    if(!pathname.startsWith('/admin'))captureLeadAttribution();
     if (pathname !== lastTrackedPath) { lastTrackedPath = pathname; trackEvent('page_view'); }
   }, [pathname]);
   useEffect(() => {

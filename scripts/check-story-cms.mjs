@@ -1,0 +1,9 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {validateStory,videoSource} from '../src/lib/story-input.mjs';
+const base={slug:'story-test',title:'테스트 이야기',description:'소개',date:'2026-10-25',category:'로고 이야기',author:'편집팀',status:'draft',revision:0,sections:[]};
+test('draft supports no body; publication requires body',()=>{assert.equal(validateStory(base).status,'draft');assert.throws(()=>validateStory({...base,status:'published'}));assert.equal(validateStory({...base,status:'published',sections:[{heading:'소제목',paragraphs:['본문']}]}).status,'published');});
+test('reject reserved slugs, invalid revisions and impossible dates',()=>{for(const patch of [{slug:'collection-status'},{slug:'../evil'},{revision:-1},{revision:1.5},{date:'2026-02-30'}])assert.throws(()=>validateStory({...base,...patch}));});
+test('reject executable URLs and foreign iframe providers',()=>{for(const url of ['javascript:alert(1)','https://evil.example/embed/test','https://youtube.com.evil.example/shorts/abcdefghijk','http://youtu.be/abcdefghijk'])assert.throws(()=>validateStory({...base,video:{url}}));assert.throws(()=>validateStory({...base,sources:[{label:'evil',url:'javascript:alert(1)'}]}));});
+test('canonical YouTube Shorts/watch/short link parse with no autoplay',()=>{for(const url of ['https://youtu.be/abcdefghijk','https://www.youtube.com/shorts/abcdefghijk','https://www.youtube.com/watch?v=abcdefghijk']){const v=videoSource(url);assert.equal(v.id,'abcdefghijk');assert.ok(v.src.startsWith('https://www.youtube-nocookie.com/'));assert.ok(!v.src.includes('autoplay'));}});
+test('stored payload whitelists fields; featured requires boolean true',()=>{const x=validateStory({...base,hiddenSecret:'no',video:{url:'https://youtu.be/abcdefghijk',featured:'true'}});assert.ok(!('hiddenSecret' in x.payload));assert.equal(x.payload.video.featured,false);assert.equal(x.revision,0);});
