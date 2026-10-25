@@ -1,26 +1,26 @@
 "use client";
-import {useEffect,useState} from 'react';
-import Link from 'next/link';
+import {useEffect,useRef,useState} from 'react';
 import {videoSource} from '@/lib/story-input.mjs';
-type Clip={slug:string;title:string;video:{url:string;poster?:string}};
+import MinimalStoryPlayer from './MinimalStoryPlayer';
+type Clip={slug:string;title:string;video:{url:string;playbackUrl?:string;poster?:string}};
+const STORAGE='semologo-story-rail-collapsed';
 export default function StoryRail(){
- const [clips,setClips]=useState<Clip[]>([]),[index,setIndex]=useState(0),[hidden,setHidden]=useState(false),[desktop,setDesktop]=useState(false);
- useEffect(()=>{const media=window.matchMedia("(min-width: 1024px)");const sync=()=>setDesktop(media.matches);sync();media.addEventListener("change",sync);return()=>media.removeEventListener("change",sync);},[]);
- useEffect(()=>{if(!desktop)return;let active=true;try{if(sessionStorage.getItem('semologo-story-rail-hidden')){setHidden(true);return;}}catch{}
- const controller=new AbortController();void fetch('/api/stories/',{signal:controller.signal}).then(async r=>{if(r.ok&&active)setClips((await r.json()).stories||[]);}).catch(()=>{});return()=>{active=false;controller.abort();};},[desktop]);
- if(!desktop||hidden||!clips.length)return null;
- const current=index%clips.length;
- const clip=clips[current],source=videoSource(clip.video.url);if(!source)return null;
+ const [clips,setClips]=useState<Clip[]>([]),[index,setIndex]=useState(0),[collapsed,setCollapsed]=useState(false),[desktop,setDesktop]=useState(false);
+ const foldButton=useRef<HTMLButtonElement>(null),expandButton=useRef<HTMLButtonElement>(null);
+ useEffect(()=>{const media=window.matchMedia('(min-width: 1024px)');const sync=()=>setDesktop(media.matches);sync();media.addEventListener('change',sync);try{setCollapsed(sessionStorage.getItem(STORAGE)==='1');sessionStorage.removeItem('semologo-story-rail-hidden');}catch{}return()=>media.removeEventListener('change',sync);},[]);
+ useEffect(()=>{if(!desktop)return;let active=true;const controller=new AbortController();void fetch('/api/stories/',{signal:controller.signal}).then(async r=>{if(r.ok&&active)setClips((await r.json()).stories||[]);}).catch(()=>{});return()=>{active=false;controller.abort();};},[desktop]);
+ if(!desktop||!clips.length)return null;
+ const current=index%clips.length,clip=clips[current],source=videoSource(clip.video.playbackUrl||clip.video.url);if(!source)return null;
  const change=(step:number)=>setIndex(i=>(i+step+clips.length)%clips.length);
- return <aside className="story-rail" aria-label="세모위키 숏폼 영상">
-  <div className="story-rail-heading"><Link href={`/blog/${clip.slug}/`} title={clip.title}>세모위키</Link><span aria-live="polite">{current+1}/{clips.length}</span><button aria-label="이번 방문에서 영상 영역 숨기기" onClick={()=>{setHidden(true);try{sessionStorage.setItem('semologo-story-rail-hidden','1');}catch{}}}>×</button></div>
-  <div className="story-rail-frame" key={clip.slug}>
-   {source.kind==='youtube'?<iframe title={clip.title} src={`${source.src}&autoplay=1&mute=1`} allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowFullScreen referrerPolicy="strict-origin-when-cross-origin"/>:<video title={clip.title} src={source.src} controls autoPlay muted playsInline preload="metadata"/>}
+ const collapse=(value:boolean)=>{setCollapsed(value);try{sessionStorage.setItem(STORAGE,value?'1':'0');}catch{}requestAnimationFrame(()=>{(value?expandButton:foldButton).current?.focus();});};
+ return <aside className={`story-rail-shell${collapsed?' is-collapsed':''}`} aria-label="세모위키 숏폼 영상">
+  <button ref={expandButton} className="story-rail-expand" hidden={!collapsed} onClick={()=>collapse(false)} aria-expanded={false} aria-controls="story-rail-panel" aria-label="숏폼 영상 펼치기" title="숏폼 영상 펼치기"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.7" aria-hidden="true"><path d="m5 6 6 6-6 6m8-12 6 6-6 6"/></svg></button>
+  <div id="story-rail-panel" className="story-rail" inert={collapsed} aria-hidden={collapsed}>
+   <button ref={foldButton} className="story-rail-fold" onClick={()=>collapse(true)} aria-expanded={true} aria-controls="story-rail-panel" aria-label="숏폼 영상 접기" title="숏폼 영상 접기"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.7" aria-hidden="true"><path d="m11 6-6 6 6 6m8-12-6 6 6 6"/></svg></button>
+   {!collapsed&&<><div key={clip.slug}>{source.kind==='mp4'?<MinimalStoryPlayer src={source.src} title={clip.title} originalUrl={clip.video.url}/>:<div className="story-rail-frame"><iframe title={clip.title} src={`${source.src}&autoplay=1&mute=1`} allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowFullScreen referrerPolicy="strict-origin-when-cross-origin"/></div>}</div>
+    <nav className="story-rail-navigation" aria-label="숏폼 영상 넘기기"><button onClick={()=>change(1)} disabled={clips.length<2} aria-label="다음 영상" title="다음 영상"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.7" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button><button onClick={()=>change(-1)} disabled={clips.length<2} aria-label="이전 영상" title="이전 영상"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.7" aria-hidden="true"><path d="m6 15 6-6 6 6"/></svg></button></nav>
+    <span className="sr-only" aria-live="polite">{current+1}/{clips.length} · {clip.title}</span></>}
   </div>
-  <nav className="story-rail-navigation" aria-label="숏폼 영상 넘기기">
-   <button onClick={()=>change(1)} disabled={clips.length<2} aria-label="다음 영상" title="다음 영상"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.7" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button>
-   <button onClick={()=>change(-1)} disabled={clips.length<2} aria-label="이전 영상" title="이전 영상"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.7" aria-hidden="true"><path d="m6 15 6-6 6 6"/></svg></button>
-  </nav>
-  <style>{`.story-rail{width:100%;max-height:calc(100dvh - 150px);overflow:auto;background:#fafafa;border:1px solid #e5e5e5;border-radius:0}.story-rail-heading{height:32px;display:flex;align-items:center;gap:8px;padding:0 9px;font-size:10px;color:#737373}.story-rail-heading a{flex:1;font-weight:700;color:#171717}.story-rail-heading button{width:22px;height:24px;font-size:15px}.story-rail-frame{aspect-ratio:9/16;background:#000}.story-rail-frame iframe,.story-rail-frame video{display:block;width:100%;height:100%;border:0;border-radius:0}.story-rail-navigation{display:grid;grid-template-columns:1fr 1fr;border-top:1px solid #e5e5e5}.story-rail-navigation button{height:36px;display:flex;align-items:center;justify-content:center;color:#737373;background:#f5f5f5}.story-rail-navigation button+button{border-left:1px solid #e5e5e5}.story-rail-navigation button:hover{background:#eaeaea}.story-rail-navigation button:disabled{opacity:.35;cursor:default}.story-rail button:focus-visible,.story-rail a:focus-visible{outline:2px solid #6366f1;outline-offset:-2px}`}</style>
+  <style>{`.story-rail-shell{position:fixed;left:16px;bottom:60px;width:min(calc(12vw - 4px),240px);max-height:calc(100dvh - 160px);overflow:visible;z-index:20}.story-rail{position:relative;width:100%;max-height:calc(100dvh - 160px);overflow-y:auto;border:1px solid #e5e5e5;border-radius:0;background:#fafafa;transform:translateX(0);transition:transform .18s ease,opacity .18s ease}.is-collapsed .story-rail{transform:translateX(calc(-100% - 18px));opacity:0;pointer-events:none;min-height:42px}.story-rail-fold,.story-rail-expand{position:absolute;top:0;display:grid;place-items:center;width:25px;height:32px;border:1px solid #e5e5e5;background:#f5f5f5;color:#737373;z-index:2}.story-rail-fold{left:-1px}.story-rail-expand{left:-16px;height:48px}.story-rail-expand[hidden]{display:none}.story-rail-frame{aspect-ratio:9/16;background:#000}.story-rail-frame iframe{display:block;width:100%;height:100%;border:0;border-radius:0}.story-rail-navigation{display:grid;grid-template-columns:1fr 1fr;border-top:1px solid #e5e5e5}.story-rail-navigation button{height:32px;display:grid;place-items:center;color:#737373;background:#f5f5f5}.story-rail-navigation button+button{border-left:1px solid #e5e5e5}.story-rail-shell button:hover{filter:brightness(.95)}.story-rail-navigation button:disabled{opacity:.35;cursor:default}.story-rail-shell button:focus-visible{outline:2px solid #6366f1;outline-offset:-2px}@media(prefers-reduced-motion:reduce){.story-rail{transition:none}}`}</style>
  </aside>;
 }

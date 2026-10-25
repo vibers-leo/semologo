@@ -1,6 +1,6 @@
 import { BLOG_POSTS, type BlogPost } from './blog';
 import { trafficDb } from './traffic-db';
-export type Story = BlogPost & {coverImage?:string;video?:{url:string;poster?:string;featured:boolean}};
+export type Story = BlogPost & {coverImage?:string;video?:{url:string;playbackUrl?:string;poster?:string;featured:boolean}};
 export async function getStories():Promise<Story[]> {
  // Read all statuses so an archived or draft CMS entry suppresses its legacy fallback.
  if(!process.env.DB_VIBERS_MAIN_URL)return BLOG_POSTS;

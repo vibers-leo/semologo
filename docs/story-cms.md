@@ -33,7 +33,7 @@ node scripts/story-cms.mjs history nike-swoosh-story
 }
 ```
 
-선택 필드: `sources:[{label,url}]`, `videoScript:string[]`, `coverImage:https주소`, `video:{url,poster?,featured:boolean}`. 영상은 YouTube watch/Shorts/youtu.be 또는 HTTPS MP4를 지원한다. 인스타·쓰레드 게시물은 sources로 연결할 수 있다. 원본 영상·게시 영수증은 기존 제작 폴더에 두고 CMS에는 공개 URL과 글만 넣는다. 기존 제작 자료는 `/Users/juuuno/Downloads/edit/semologo-day*/`, 6편은 `semologo-day06/v6/publication-receipt.json`에 게시 주소가 있다. 7편까지의 글 작성·공개는 담당 세션에서 실제 게시 영수증과 내용을 대조해서 진행한다.
+선택 필드: `sources:[{label,url}]`, `videoScript:string[]`, `coverImage:https주소`, `video:{url,poster?,playbackUrl?,featured:boolean}`. 영상은 YouTube watch/Shorts/youtu.be 또는 HTTPS MP4를 지원한다. 인스타·쓰레드 게시물은 sources로 연결할 수 있다. 원본 영상·게시 영수증은 기존 제작 폴더에 두고 CMS에는 공개 URL과 글만 넣는다. 기존 제작 자료는 `/Users/juuuno/Downloads/edit/semologo-day*/`, 6편은 `semologo-day06/v6/publication-receipt.json`에 게시 주소가 있다. 7편까지의 글 작성·공개는 담당 세션에서 실제 게시 영수증과 내용을 대조해서 진행한다.
 
 신규 글은 초안으로 시작한다. `status:published`로 저장하면 공개된다. `video.featured:true`는 홈 왼쪽 영역 노출을 뜻한다. 최대 최신 7편. 화면 너비1024px 이상에서 기존 catalog-promo-rail(왼쪽12% 여백)에 9:16 세로 썸네일을 표시한다. 추가 여백을 만들거나 검색 카드를 이동시키지 않는다. 2026-10-25 사용자 변경: 왼쪽 영역은 썸네일 클릭 단계 없이 플레이어를 즉시 표시하며 무음 자동재생한다. 사각 프레임 아래 ↓ 다음 / ↑ 이전 버튼으로 순환한다. 상세 글의 영상은 기존처럼 클릭 후 열린다. 닫으면 이번 방문 동안 숨긴다. 게시되지 않은 글의 영상은 노출되지 않는다.
 
@@ -49,3 +49,5 @@ node scripts/story-cms.mjs history nike-swoosh-story
 관리화면 본문은 `## 소제목`과 빈 줄로 구분한 문단으로 작성한다. JSON 도구는 구조화된 sections를 직접 사용한다. 로고 수집·대표 이미지 CMS와 별도 테이블이므로 서로 수정하지 않는다.
 
 모듈 후보: 프로젝트 고유 글·영상 CMS. 기존 인증은 재사용했고 다중 법인 JWT 모듈을 새로 도입하지 않았다.
+
+왼쪽 플레이어 최소 UI: `video.playbackUrl`에 공개 MP4 원본을 연결하면 제목·공유·추천 없이 재생/일시정지·시간 조절·음소거/음량만 표시한다. 기존 소셜 게시 원본을 재사용하며 YouTube 원본 주소는 video.url에 유지한다. 접기 « / 펼치기 » 탭으로 언제든 복구하며 접힌 동안 플레이어를 제거해 소리·다운로드를 중단한다. 구형 X 숨김 상태는 복구하고 새 접힘 상태만 sessionStorage에 저장한다. 양쪽 rail은 배너 아래16px 간격, sticky top128px.

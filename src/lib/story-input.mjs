@@ -13,7 +13,7 @@ export function validateStory(input) {
  if(input.coverImage)payload.coverImage=url(input.coverImage);
  if(input.sources)payload.sources=list(input.sources,30).map(s=>({label:text(s.label,200),url:url(s.url)}));
  if(input.videoScript)payload.videoScript=list(input.videoScript,100).map(v=>text(v,10000));
- if(input.video?.url){const videoUrl=url(input.video.url);const parsed=videoSource(videoUrl);if(!parsed)fail('유튜브 동영상 주소 또는 https MP4 주소를 입력해 주세요.');payload.video={url:videoUrl,featured:input.video.featured===true};if(input.video.poster)payload.video.poster=url(input.video.poster);}
+ if(input.video?.url){const videoUrl=url(input.video.url);const parsed=videoSource(videoUrl);if(!parsed)fail('유튜브 동영상 주소 또는 https MP4 주소를 입력해 주세요.');payload.video={url:videoUrl,featured:input.video.featured===true};if(input.video.poster)payload.video.poster=url(input.video.poster);if(input.video.playbackUrl){const playback=url(input.video.playbackUrl);if(videoSource(playback)?.kind!=='mp4')fail('직접 재생 파일은 https MP4 주소로 입력해 주세요.');payload.video.playbackUrl=playback;}}
  if(input.status==='published'&&!sections.some(s=>s.paragraphs.length))fail('공개할 글의 본문을 입력해 주세요.');
  const revision=input.revision;if(revision!==undefined&&(!Number.isInteger(revision)||revision<0))fail('수정 버전을 확인해 주세요.');
  if(JSON.stringify(payload).length>180000)fail('글은 180KB 이내로 저장해 주세요.');
