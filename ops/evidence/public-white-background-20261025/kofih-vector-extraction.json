@@ -1,0 +1,22 @@
+{
+  "source_page": "https://www.kofih.org/web/lay1/S1T59C91/contents.do",
+  "source_zip_sha256": "72bdb020453ed01b9a3eda51b980a21c1451fd868ee11ec83a78fd1901e64ed6",
+  "pdf_page": 1,
+  "composition": "Signature A · 국영문 가로 조합",
+  "viewBox": [
+    339.777,
+    346.4805,
+    147.3594375,
+    53.62875000000004
+  ],
+  "native_vector_leaves": 42,
+  "embedded_images": 0,
+  "svg_sha256": "857a8ec995319c4c0810dc23e442867abbac990ce232a06fc1d93526966971d4",
+  "png_sha256": "1cc2a6621ee2a53a92cf151a499401fa511dc96fb2cdd1c6be74a9ca2e97dd7f",
+  "png_dimensions": [
+    1200,
+    437
+  ],
+  "identity_reviewed": true,
+  "visual_reviewed": true
+}

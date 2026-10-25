@@ -1,0 +1,12 @@
+[Unit]
+Description=Audit all displayed public-category images in the requested name range
+After=docker.service
+[Service]
+Type=oneshot
+UMask=0077
+Nice=10
+CPUQuota=50%
+MemoryMax=512M
+MemorySwapMax=0
+TimeoutStartSec=3600
+ExecStart=/bin/bash /root/projects/vibers-fleet/releases/20261025-semologo-public-priority/audit-full.sh

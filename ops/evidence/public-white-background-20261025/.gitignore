@@ -1,0 +1,6 @@
+*
+!.gitignore
+!summary.json
+!repaired-current.json
+!kofih-vector-extraction.json
+!kofih-official-horizontal.svg

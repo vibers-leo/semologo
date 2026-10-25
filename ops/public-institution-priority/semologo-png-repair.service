@@ -1,0 +1,13 @@
+[Unit]
+Description=Repair reported and audited opaque logos from verified official transparent PNGs
+After=docker.service
+Requires=docker.service
+[Service]
+Type=oneshot
+UMask=0077
+Nice=10
+CPUQuota=50%
+MemoryMax=512M
+MemorySwapMax=0
+TimeoutStartSec=600
+ExecStart=/root/projects/semologo-auto-fleet/.venv/bin/python /root/projects/vibers-fleet/releases/20261025-semologo-public-priority/run-png-repairs.py

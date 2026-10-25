@@ -1,0 +1,9 @@
+[Unit]
+Description=Continue bounded transparent PNG repairs
+[Timer]
+OnBootSec=1min
+OnUnitInactiveSec=1min
+AccuracySec=10s
+Unit=semologo-png-repair.service
+[Install]
+WantedBy=timers.target

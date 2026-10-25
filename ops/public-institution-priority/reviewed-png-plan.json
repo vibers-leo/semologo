@@ -1,0 +1,82 @@
+[
+  {
+    "id": "gongu-ci-1575",
+    "name": "한국국제보건의료재단",
+    "filename": "gongu-ci-1575.png",
+    "sourceUrl": "https://www.kofih.org/images/header/logo_pc.png",
+    "sourcePage": "https://www.kofih.org/web/index.do",
+    "sha256": "ae016d9f7c9cda7296a65d0fbd12b479379bf44f030133e0db79a36153569699",
+    "identity_reviewed": true,
+    "visual_reviewed": true
+  },
+  {
+    "id": "gongu-ci-1378",
+    "name": "인천국제공항공사",
+    "filename": "gongu-ci-1378.png",
+    "sourceUrl": "https://www.airport.kr/sites/co_ko/images/common/logo-search.png",
+    "sourcePage": "https://www.airport.kr/co_ko/index.do",
+    "sha256": "4c625f662b4a9cb9ef5cfcb27455b6cac0c4b3c69864316919a553a0ef397266",
+    "identity_reviewed": true,
+    "visual_reviewed": true
+  },
+  {
+    "id": "gongu-ci-1642",
+    "name": "한국수자원조사기술원",
+    "filename": "gongu-ci-1642.png",
+    "sourceUrl": "https://www.kihs.re.kr/resources/img/gnb_logo.png",
+    "sourcePage": "https://www.kihs.re.kr/kor_main/main/main.do",
+    "sha256": "ec14cb0b500b6103614d7e5e26e9cd4a617d03bc2d0a765722ac9965457bd47b",
+    "identity_reviewed": true,
+    "visual_reviewed": true
+  },
+  {
+    "id": "gongu-ci-1630",
+    "name": "한국생명공학연구원",
+    "filename": "gongu-ci-1630.png",
+    "sourceUrl": "https://www.kribb.re.kr/kor/img/include/logo.png",
+    "sourcePage": "https://www.kribb.re.kr/kor/main/main.jsp",
+    "sha256": "912bbdfb358c01086cf3497113eefc97b4bf3c7ca398eabb58370df44c1fbc77",
+    "identity_reviewed": true,
+    "visual_reviewed": true
+  },
+  {
+    "id": "gongu-ci-1625",
+    "name": "한국산업기술기획평가원",
+    "filename": "gongu-ci-1625.png",
+    "sourceUrl": "https://www.keit.re.kr/main/images/korean/layout/logo.png",
+    "sourcePage": "https://www.keit.re.kr/",
+    "sha256": "bfaa029999ced56fb7c9869d4c897e8ada736bb4bba79affafd8ec6ad9aacadb",
+    "identity_reviewed": true,
+    "visual_reviewed": true
+  },
+  {
+    "id": "gongu-ci-1583",
+    "name": "한국기후변화연구원",
+    "filename": "gongu-ci-1583.png",
+    "sourceUrl": "https://www.kric.re.kr/assets/comn/img/logo.png",
+    "sourcePage": "https://www.kric.re.kr/front/index.do",
+    "sha256": "0074758f0f17340cc3d8e828b6f0991fef5b06f4ad7006ff590804f1f4a54804",
+    "identity_reviewed": true,
+    "visual_reviewed": true
+  },
+  {
+    "id": "gongu-ci-1578",
+    "name": "한국국학진흥원",
+    "filename": "gongu-ci-1578.png",
+    "sourceUrl": "https://www.koreastudy.or.kr/images/new02/logo_c.png",
+    "sourcePage": "https://www.koreastudy.or.kr/",
+    "sha256": "1df46bc9bd87cde0b0361af91666c611b51467375c008ace4cf614f37b9f37ef",
+    "identity_reviewed": true,
+    "visual_reviewed": true
+  },
+  {
+    "id": "gongu-ci-1574",
+    "name": "한국국제교류재단",
+    "filename": "gongu-ci-1574.png",
+    "sourceUrl": "https://www.kf.or.kr/images/web/kf/main/f_logo.png",
+    "sourcePage": "https://www.kf.or.kr/kf/main.do",
+    "sha256": "220d66093a77709a9df88edfa57f797793765e8fd3e01e74a71c3bab0ce7d942",
+    "identity_reviewed": true,
+    "visual_reviewed": true
+  }
+]

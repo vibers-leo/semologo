@@ -79,6 +79,21 @@ const pool=new Pool({connectionString:process.env.FLEET_DATABASE_URL,max:1});
         }else queued.push({owner,domains,targets:targets.map(t=>t.name),status:'dry_run'});
       }
     }
+    // Re-rank only unclaimed SemoLogo priority batches. New white-audit batches
+    // must never jump ahead of existing replacement votes through backdating.
+    for(const owner of ['win-01','win-02']){
+      const waiting=(await db.query(`SELECT id,input,created_at FROM fleet.job
+        WHERE tenant='internal' AND project='semologo' AND owner=$1 AND status='queued'
+          AND input->>'priority'=$2 FOR UPDATE`,[owner,PRIORITY])).rows;
+      const score=j=>Math.max(0,...(j.input.targets||[]).map(t=>Number(t.down)||0));
+      waiting.sort((a,b)=>score(b)-score(a)||new Date(a.created_at)-new Date(b.created_at)||a.id.localeCompare(b.id));
+      const head=(await db.query(`SELECT coalesce(min(created_at),now())-interval '1 second' head
+        FROM fleet.job WHERE tenant='internal' AND project='semologo' AND owner=$1
+          AND status='queued' AND coalesce(input->>'priority','')<>$2`,[owner,PRIORITY])).rows[0].head;
+      for(const [index,job] of waiting.entries())await db.query(`UPDATE fleet.job
+        SET created_at=$2::timestamptz+$3::int*interval '1 microsecond'
+        WHERE id=$1 AND status='queued'`,[job.id,head,index]);
+    }
     const active=jobs.filter(j=>['queued','running'].includes(j.status)).length;
     const holdBulk=Boolean(pending.length||queued.length||active);
     const report={at:new Date().toISOString(),priority:PRIORITY,apply,

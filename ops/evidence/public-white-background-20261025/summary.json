@@ -1,0 +1,789 @@
+{
+  "verified": 55,
+  "withReplacementVotes": 6,
+  "rows": [
+    {
+      "id": "gongu-ci-1378",
+      "name": "인천국제공항공사",
+      "file": "sources/official-transparent-20261025/4c625f662b4a9cb9ef5c.png",
+      "sha256": "4c625f662b4a9cb9ef5cfcb27455b6cac0c4b3c69864316919a553a0ef397266",
+      "dimensions": [
+        248,
+        41
+      ],
+      "svg": null,
+      "background": "dark",
+      "locked": true,
+      "votesAtRepair": 0
+    },
+    {
+      "id": "gongu-ci-1642",
+      "name": "한국수자원조사기술원",
+      "file": "sources/official-transparent-20261025/ec14cb0b500b6103614d.png",
+      "sha256": "ec14cb0b500b6103614d7e5e26e9cd4a617d03bc2d0a765722ac9965457bd47b",
+      "dimensions": [
+        416,
+        72
+      ],
+      "svg": null,
+      "background": "light",
+      "locked": true,
+      "votesAtRepair": 0
+    },
+    {
+      "id": "gongu-ci-1630",
+      "name": "한국생명공학연구원",
+      "file": "sources/official-transparent-20261025/912bbdfb358c01086cf3.png",
+      "sha256": "912bbdfb358c01086cf3497113eefc97b4bf3c7ca398eabb58370df44c1fbc77",
+      "dimensions": [
+        272,
+        30
+      ],
+      "svg": null,
+      "background": "dark",
+      "locked": true,
+      "votesAtRepair": 0
+    },
+    {
+      "id": "gongu-ci-1625",
+      "name": "한국산업기술기획평가원",
+      "file": "sources/official-transparent-20261025/bfaa029999ced56fb7c9.png",
+      "sha256": "bfaa029999ced56fb7c9869d4c897e8ada736bb4bba79affafd8ec6ad9aacadb",
+      "dimensions": [
+        284,
+        34
+      ],
+      "svg": null,
+      "background": "light",
+      "locked": true,
+      "votesAtRepair": 0
+    },
+    {
+      "id": "gongu-ci-1583",
+      "name": "한국기후변화연구원",
+      "file": "sources/official-transparent-20261025/0074758f0f17340cc3d8.png",
+      "sha256": "0074758f0f17340cc3d8e828b6f0991fef5b06f4ad7006ff590804f1f4a54804",
+      "dimensions": [
+        263,
+        22
+      ],
+      "svg": null,
+      "background": "light",
+      "locked": true,
+      "votesAtRepair": 0
+    },
+    {
+      "id": "gongu-ci-1578",
+      "name": "한국국학진흥원",
+      "file": "sources/official-transparent-20261025/1df46bc9bd87cde0b036.png",
+      "sha256": "1df46bc9bd87cde0b0361af91666c611b51467375c008ace4cf614f37b9f37ef",
+      "dimensions": [
+        152,
+        28
+      ],
+      "svg": null,
+      "background": "light",
+      "locked": true,
+      "votesAtRepair": 0
+    },
+    {
+      "id": "gongu-ci-1182",
+      "name": "사천시복지청소년재단",
+      "file": "sources/official-transparent-20261025/e9765b18b962b664097b.png",
+      "sha256": "e9765b18b962b664097b37db50768483f99c8883bb6b9e83788eabe654d0fc68",
+      "dimensions": [
+        283,
+        52
+      ],
+      "svg": null,
+      "background": "dark",
+      "locked": true,
+      "votesAtRepair": 0
+    },
+    {
+      "id": "gongu-ci-1574",
+      "name": "한국국제교류재단",
+      "file": "sources/official-transparent-20261025/220d66093a77709a9df8.png",
+      "sha256": "220d66093a77709a9df88edfa57f797793765e8fd3e01e74a71c3bab0ce7d942",
+      "dimensions": [
+        138,
+        82
+      ],
+      "svg": null,
+      "background": "dark",
+      "locked": true,
+      "votesAtRepair": 0
+    },
+    {
+      "id": "gongu-ci-1598",
+      "name": "한국로봇산업진흥원",
+      "file": "sources/official-transparent-20261025/591bc07ae9c610d6ec06.png",
+      "sha256": "591bc07ae9c610d6ec0649d764119fa0ea7fbf1c2ead1b812fe7fe41e7fdf5fb",
+      "dimensions": [
+        224,
+        70
+      ],
+      "svg": null,
+      "background": "light",
+      "locked": true,
+      "votesAtRepair": 1
+    },
+    {
+      "id": "gongu-ci-1575",
+      "name": "한국국제보건의료재단",
+      "file": "sources/official-transparent-20261025/1cc2a6621ee2a53a92cf.png",
+      "sha256": "1cc2a6621ee2a53a92cf151a499401fa511dc96fb2cdd1c6be74a9ca2e97dd7f",
+      "dimensions": [
+        1200,
+        437
+      ],
+      "svg": "sources/official-transparent-20261025/1cc2a6621ee2a53a92cf.svg",
+      "background": "light",
+      "locked": true,
+      "votesAtRepair": 0
+    },
+    {
+      "id": "korean-environmental-education-network",
+      "name": "한국환경교육네트워크",
+      "file": "sources/official-transparent-20261025/caee646d61bdb942c998.png",
+      "sha256": "caee646d61bdb942c9984debcb19ce8b76aa02a8a82f22c98867d39bb09e18bf",
+      "dimensions": [
+        413,
+        69
+      ],
+      "svg": null,
+      "background": "light",
+      "locked": true,
+      "votesAtRepair": 1
+    },
+    {
+      "id": "gongu-ci-1131",
+      "name": "보건복지부",
+      "file": "sources/official-transparent-20261025/363a30f538bcf2c3ca74.png",
+      "sha256": "363a30f538bcf2c3ca74da95e0462a28b39fdd87fb526c0ca5183626935402c6",
+      "dimensions": [
+        332,
+        99
+      ],
+      "svg": null,
+      "background": "light",
+      "locked": true,
+      "votesAtRepair": 0
+    },
+    {
+      "id": "gongu-ci-1040",
+      "name": "(재)노원환경재단",
+      "file": "sources/official-transparent-20261025/9a9349445ea4ddebcf1c.png",
+      "sha256": "9a9349445ea4ddebcf1c3074c9bbcaa2ff0385ce27f8d89b8c834e897230cded",
+      "dimensions": [
+        196,
+        55
+      ],
+      "svg": null,
+      "background": "light",
+      "locked": true,
+      "votesAtRepair": 0
+    },
+    {
+      "id": "gongu-ci-0690",
+      "name": "스포츠윤리센터",
+      "file": "sources/official-transparent-20261025/820e499ee37c74fd8540.png",
+      "sha256": "820e499ee37c74fd8540ade9165faea079cf6cbcadae201331323c21bf286725",
+      "dimensions": [
+        230,
+        61
+      ],
+      "svg": null,
+      "background": "light",
+      "locked": true,
+      "votesAtRepair": 0
+    },
+    {
+      "id": "gongu-ci-1092",
+      "name": "재단법인대전광역시사회서비스원",
+      "file": "sources/official-transparent-20261025/b4fdaef7ef97c34cdd79.png",
+      "sha256": "b4fdaef7ef97c34cdd79dd4c8c71a06ca46147f58fee30b220a1b5e3b4ffb1f1",
+      "dimensions": [
+        322,
+        28
+      ],
+      "svg": null,
+      "background": "light",
+      "locked": true,
+      "votesAtRepair": 0
+    },
+    {
+      "id": "gongu-ci-1078",
+      "name": "재단법인대구광역시중구도심재생문화재단",
+      "file": "sources/official-transparent-20261025/7dd3286d4960586ae6cd.png",
+      "sha256": "7dd3286d4960586ae6cd880a1de58a1b84b8d86699aa7884aca3e96755395732",
+      "dimensions": [
+        340,
+        156
+      ],
+      "svg": null,
+      "background": "light",
+      "locked": true,
+      "votesAtRepair": 0
+    },
+    {
+      "id": "gongu-ci-0856",
+      "name": "재단법인경기도여성가족재단",
+      "file": "sources/official-transparent-20261025/845bd248ddc4413f9cde.png",
+      "sha256": "845bd248ddc4413f9cde242af58e589b60691e895b19c8e32e5b1d390c10d580",
+      "dimensions": [
+        195,
+        44
+      ],
+      "svg": null,
+      "background": "light",
+      "locked": true,
+      "votesAtRepair": 0
+    },
+    {
+      "id": "gongu-ci-0873",
+      "name": "경북테크노파크",
+      "file": "sources/official-transparent-20261025/2305b22f6e1490730f1a.png",
+      "sha256": "2305b22f6e1490730f1abc408ac00c8ec03d801dae10cf4ef2c69bd0331adc75",
+      "dimensions": [
+        401,
+        71
+      ],
+      "svg": null,
+      "background": "light",
+      "locked": true,
+      "votesAtRepair": 0
+    },
+    {
+      "id": "gongu-ci-0872",
+      "name": "경북대학교병원",
+      "file": "sources/official-transparent-20261025/8b903697557bb6153fb2.png",
+      "sha256": "8b903697557bb6153fb28592065f5796ab1d8373bf524a53a743ce75fd5019c6",
+      "dimensions": [
+        200,
+        60
+      ],
+      "svg": null,
+      "background": "dark",
+      "locked": true,
+      "votesAtRepair": 0
+    },
+    {
+      "id": "gongu-ci-0595",
+      "name": "청주도시공사",
+      "file": "sources/official-transparent-20261025/26f3ca81aaaf4bb500e4.png",
+      "sha256": "26f3ca81aaaf4bb500e4acecfb44502b436f918d8645f00427d03a332fe301b8",
+      "dimensions": [
+        282,
+        51
+      ],
+      "svg": null,
+      "background": "dark",
+      "locked": true,
+      "votesAtRepair": 0
+    },
+    {
+      "id": "gongu-ci-0915",
+      "name": "광명도시공사",
+      "file": "sources/official-transparent-20261025/7c685edeaae96129e404.png",
+      "sha256": "7c685edeaae96129e404cc173bb08ba04205645029aae552421de38a89485e2e",
+      "dimensions": [
+        223,
+        63
+      ],
+      "svg": null,
+      "background": "light",
+      "locked": true,
+      "votesAtRepair": 0
+    },
+    {
+      "id": "gongu-ci-0909",
+      "name": "과천도시공사",
+      "file": "sources/official-transparent-20261025/db5aa77d323435dbb5cd.png",
+      "sha256": "db5aa77d323435dbb5cd7ae8cecf6c654acefecd12118693e11955e047317d28",
+      "dimensions": [
+        235,
+        43
+      ],
+      "svg": null,
+      "background": "light",
+      "locked": true,
+      "votesAtRepair": 0
+    },
+    {
+      "id": "gongu-ci-0830",
+      "name": "재단법인강릉문화재단",
+      "file": "sources/official-transparent-20261025/25d2b52215432a6ca453.png",
+      "sha256": "25d2b52215432a6ca4534b225b67aa5351f66fd58b1cde2878db7416f85fcc20",
+      "dimensions": [
+        600,
+        186
+      ],
+      "svg": null,
+      "background": "light",
+      "locked": true,
+      "votesAtRepair": 0
+    },
+    {
+      "id": "gongu-ci-0829",
+      "name": "인천항보안공사",
+      "file": "sources/official-transparent-20261025/648b8a847810524517cd.png",
+      "sha256": "648b8a847810524517cda7b0b4e9d2ebeb825cb3dd709830e3cbf320054b6aab",
+      "dimensions": [
+        236,
+        48
+      ],
+      "svg": null,
+      "background": "light",
+      "locked": true,
+      "votesAtRepair": 0
+    },
+    {
+      "id": "gongu-ci-0823",
+      "name": "가평군시설관리공단",
+      "file": "sources/official-transparent-20261025/747a70daa18f35fd7072.png",
+      "sha256": "747a70daa18f35fd707216999bbf31429e3c19bb2cc85ad2e041665cde94e62b",
+      "dimensions": [
+        536,
+        112
+      ],
+      "svg": null,
+      "background": "light",
+      "locked": true,
+      "votesAtRepair": 0
+    },
+    {
+      "id": "gongu-ci-0378",
+      "name": "(재)경주스마트미디어센터",
+      "file": "sources/official-transparent-20261025/ca00560571b3fe0c2d86.png",
+      "sha256": "ca00560571b3fe0c2d8687c871d7aa8309bca0fe644144c0c66118ea8c146b59",
+      "dimensions": [
+        500,
+        70
+      ],
+      "svg": null,
+      "background": "dark",
+      "locked": true,
+      "votesAtRepair": 0
+    },
+    {
+      "id": "gongu-ci-0169",
+      "name": "재단법인전남바이오진흥원",
+      "file": "sources/official-transparent-20261025/1dc66d40ffadc4a3e355.png",
+      "sha256": "1dc66d40ffadc4a3e355ee7c40ee93234c7069aa567638e1bcc40dda70e4d4ae",
+      "dimensions": [
+        638,
+        82
+      ],
+      "svg": null,
+      "background": "light",
+      "locked": true,
+      "votesAtRepair": 0
+    },
+    {
+      "id": "gongu-ci-0510",
+      "name": "재단법인안산인재육성재단",
+      "file": "sources/official-transparent-20261025/ac2f6d965c2981a285b9.png",
+      "sha256": "ac2f6d965c2981a285b962179283ae54838421b61561ef9cea41bbe8407026b6",
+      "dimensions": [
+        220,
+        50
+      ],
+      "svg": null,
+      "background": "light",
+      "locked": true,
+      "votesAtRepair": 0
+    },
+    {
+      "id": "gongu-ci-0788",
+      "name": "한식진흥원",
+      "file": "sources/official-transparent-20261025/7edbafd9b2a919dacabe.png",
+      "sha256": "7edbafd9b2a919dacabe2d84ce1107d2f4d05029b7d3f7f923195bec004e476f",
+      "dimensions": [
+        400,
+        306
+      ],
+      "svg": null,
+      "background": "light",
+      "locked": true,
+      "votesAtRepair": 0
+    },
+    {
+      "id": "gongu-ci-0786",
+      "name": "한국의료분쟁조정중재원",
+      "file": "sources/official-transparent-20261025/a9f08bc3fce0efe02ea8.png",
+      "sha256": "a9f08bc3fce0efe02ea8ed2fd0412b869857699cb80b7e42ba60ec54ab2b1c18",
+      "dimensions": [
+        295,
+        50
+      ],
+      "svg": null,
+      "background": "dark",
+      "locked": true,
+      "votesAtRepair": 0
+    },
+    {
+      "id": "gongu-ci-0495",
+      "name": "재단법인경기도사회서비스원",
+      "file": "sources/official-transparent-20261025/fca2ee0ca3b5696d8751.png",
+      "sha256": "fca2ee0ca3b5696d8751b030d4b15b223a6d2848895dac53ae6b32b40ab6a5c7",
+      "dimensions": [
+        310,
+        30
+      ],
+      "svg": null,
+      "background": "light",
+      "locked": true,
+      "votesAtRepair": 0
+    },
+    {
+      "id": "gongu-ci-0487",
+      "name": "재단법인구리시상권활성화재단",
+      "file": "sources/official-transparent-20261025/7cc9b054eb8c85dcae11.png",
+      "sha256": "7cc9b054eb8c85dcae114c5af141b70a234c65b351cc221e4f2d0f4fba0363b9",
+      "dimensions": [
+        400,
+        67
+      ],
+      "svg": null,
+      "background": "light",
+      "locked": true,
+      "votesAtRepair": 0
+    },
+    {
+      "id": "gongu-ci-0485",
+      "name": "재단법인군포시청소년재단",
+      "file": "sources/official-transparent-20261025/9fc4e8cc74ba36e7badd.png",
+      "sha256": "9fc4e8cc74ba36e7badd4cfd594f1e38fa74456fd2379b93ae2a7d5d3fdafc15",
+      "dimensions": [
+        277,
+        58
+      ],
+      "svg": null,
+      "background": "dark",
+      "locked": true,
+      "votesAtRepair": 0
+    },
+    {
+      "id": "gongu-ci-0554",
+      "name": "춘천미래동행재단",
+      "file": "sources/official-transparent-20261025/a65ecb11f195367fbe8a.png",
+      "sha256": "a65ecb11f195367fbe8aab9b96f381db0b77fd6ca72ec16f9934144f33089bc5",
+      "dimensions": [
+        289,
+        47
+      ],
+      "svg": null,
+      "background": "light",
+      "locked": true,
+      "votesAtRepair": 0
+    },
+    {
+      "id": "gongu-ci-0574",
+      "name": "재단법인강원관광재단",
+      "file": "sources/official-transparent-20261025/87a6bce3acbd74ef42dc.png",
+      "sha256": "87a6bce3acbd74ef42dca95a5add583c98214c5af28e76e938bb64d0dfa46ddc",
+      "dimensions": [
+        203,
+        25
+      ],
+      "svg": null,
+      "background": "dark",
+      "locked": true,
+      "votesAtRepair": 0
+    },
+    {
+      "id": "gongu-ci-0561",
+      "name": "재단법인영월산업진흥원",
+      "file": "sources/official-transparent-20261025/f05fb45062ab8812f41d.png",
+      "sha256": "f05fb45062ab8812f41d12a91b22a4a70d6cf725b5d697d52278df36fa52b9e1",
+      "dimensions": [
+        254,
+        40
+      ],
+      "svg": null,
+      "background": "light",
+      "locked": true,
+      "votesAtRepair": 0
+    },
+    {
+      "id": "gongu-ci-0653",
+      "name": "구리농수산물공사",
+      "file": "sources/official-transparent-20261025/b2a5cd4dea60d4c95e55.png",
+      "sha256": "b2a5cd4dea60d4c95e5578b0bcf261f126036bb6c28178f60041b6fa15d3e6db",
+      "dimensions": [
+        338,
+        60
+      ],
+      "svg": null,
+      "background": "light",
+      "locked": true,
+      "votesAtRepair": 0
+    },
+    {
+      "id": "gongu-ci-0476",
+      "name": "재단법인안산시상권활성화재단",
+      "file": "sources/official-transparent-20261025/8c2ab4468f8d3e08cd8f.png",
+      "sha256": "8c2ab4468f8d3e08cd8f162f1da7b2a647574c9c80b010336983042d6310e75a",
+      "dimensions": [
+        261,
+        56
+      ],
+      "svg": null,
+      "background": "light",
+      "locked": true,
+      "votesAtRepair": 0
+    },
+    {
+      "id": "gongu-ci-0466",
+      "name": "재단법인이천시자원봉사센터",
+      "file": "sources/official-transparent-20261025/330a10b170f3ed2fd546.png",
+      "sha256": "330a10b170f3ed2fd5466af2c024b00601b9d2b596248e3c99f8ba5bf39fc9b3",
+      "dimensions": [
+        192,
+        38
+      ],
+      "svg": null,
+      "background": "light",
+      "locked": true,
+      "votesAtRepair": 0
+    },
+    {
+      "id": "gongu-ci-0464",
+      "name": "재단법인파주시청소년재단",
+      "file": "sources/official-transparent-20261025/99a61c5a9aa119bf0260.png",
+      "sha256": "99a61c5a9aa119bf02609bea4de67e202ceb323e691627105363803c5e31c54f",
+      "dimensions": [
+        688,
+        112
+      ],
+      "svg": null,
+      "background": "light",
+      "locked": true,
+      "votesAtRepair": 0
+    },
+    {
+      "id": "gongu-ci-0763",
+      "name": "한국언론진흥재단",
+      "file": "sources/official-transparent-20261025/5c39a85223ab570330ec.png",
+      "sha256": "5c39a85223ab570330ec1b259441fadf2bd56c9c7568637271439c099bf5de66",
+      "dimensions": [
+        238,
+        68
+      ],
+      "svg": null,
+      "background": "light",
+      "locked": true,
+      "votesAtRepair": 0
+    },
+    {
+      "id": "gongu-ci-1363",
+      "name": "인천광역시",
+      "file": "sources/official-transparent-20261025/bc278b20877fec5bc504.png",
+      "sha256": "bc278b20877fec5bc504029f4eb023708fdcfd5c35d3576bff6914a7a876cd60",
+      "dimensions": [
+        273,
+        60
+      ],
+      "svg": null,
+      "background": "light",
+      "locked": true,
+      "votesAtRepair": 0
+    },
+    {
+      "id": "gongu-ci-0451",
+      "name": "평택산업진흥원",
+      "file": "sources/official-transparent-20261025/9770c98eabd07d90debf.png",
+      "sha256": "9770c98eabd07d90debfa8c5cc45a16729806905a21453cf50d2edbdd9db17f9",
+      "dimensions": [
+        240,
+        47
+      ],
+      "svg": null,
+      "background": "light",
+      "locked": true,
+      "votesAtRepair": 0
+    },
+    {
+      "id": "gongu-ci-0448",
+      "name": "(재)하남시자원봉사센터",
+      "file": "sources/official-transparent-20261025/87b6245ae3d7dd613364.png",
+      "sha256": "87b6245ae3d7dd61336420ecdbb7b4659ce98d50b0e4e9a5b1736afac27b22f8",
+      "dimensions": [
+        250,
+        60
+      ],
+      "svg": null,
+      "background": "light",
+      "locked": true,
+      "votesAtRepair": 0
+    },
+    {
+      "id": "gongu-ci-0512",
+      "name": "(재)시흥시도시재생지원센터",
+      "file": "sources/official-transparent-20261025/3eaca7b54062943e9459.png",
+      "sha256": "3eaca7b54062943e9459f6729dc6e06039dd43fac3cce510bb98afe8952c517f",
+      "dimensions": [
+        324,
+        55
+      ],
+      "svg": null,
+      "background": "dark",
+      "locked": true,
+      "votesAtRepair": 0
+    },
+    {
+      "id": "gongu-ci-0703",
+      "name": "한국제품안전관리원",
+      "file": "sources/official-transparent-20261025/daae5288deb0123e6d92.png",
+      "sha256": "daae5288deb0123e6d923403e22770a5424d696ee5bbcb5f728ce95bacbc39bb",
+      "dimensions": [
+        285,
+        42
+      ],
+      "svg": null,
+      "background": "light",
+      "locked": true,
+      "votesAtRepair": 0
+    },
+    {
+      "id": "gongu-ci-0704",
+      "name": "한국원산지정보원",
+      "file": "sources/official-transparent-20261025/6c3a15efa91569a878a2.png",
+      "sha256": "6c3a15efa91569a878a2da94a9673665a4673672d38e9c3d7b449d2f46bd9692",
+      "dimensions": [
+        233,
+        52
+      ],
+      "svg": null,
+      "background": "light",
+      "locked": true,
+      "votesAtRepair": 0
+    },
+    {
+      "id": "gongu-ci-0685",
+      "name": "국가철도공단",
+      "file": "sources/official-transparent-20261025/63766eaa2f5ee3f8b2b4.png",
+      "sha256": "63766eaa2f5ee3f8b2b46cdec093a15d0d682aedd7fd6cce85f0fcaeb693044d",
+      "dimensions": [
+        185,
+        38
+      ],
+      "svg": null,
+      "background": "light",
+      "locked": true,
+      "votesAtRepair": 0
+    },
+    {
+      "id": "gongu-ci-0434",
+      "name": "(재)거창군장학회",
+      "file": "sources/official-transparent-20261025/b3212a4d686f2a802883.png",
+      "sha256": "b3212a4d686f2a802883cb26904f0ed9956a0c724f24894a63764421a1af8a13",
+      "dimensions": [
+        213,
+        60
+      ],
+      "svg": null,
+      "background": "dark",
+      "locked": true,
+      "votesAtRepair": 0
+    },
+    {
+      "id": "gongu-ci-1671",
+      "name": "한국저작권위원회",
+      "file": "sources/official-transparent-20261025/9a44b22405e611669cf0.png",
+      "sha256": "9a44b22405e611669cf0e2a83fab9f8c76ef096e2c1bdeecd64dc17ed7ae3be5",
+      "dimensions": [
+        188,
+        55
+      ],
+      "svg": null,
+      "background": "light",
+      "locked": true,
+      "votesAtRepair": 1
+    },
+    {
+      "id": "gongu-ci-0480",
+      "name": "재단법인수원시장학재단",
+      "file": "sources/official-transparent-20261025/287f99d527dd07ed9dbe.png",
+      "sha256": "287f99d527dd07ed9dbea6d1516a9e698a54697faebea11b6413e9efbe86c155",
+      "dimensions": [
+        735,
+        172
+      ],
+      "svg": null,
+      "background": "light",
+      "locked": true,
+      "votesAtRepair": 1
+    },
+    {
+      "id": "gongu-ci-1611",
+      "name": "한국벤처투자",
+      "file": "sources/official-transparent-20261025/4d1d77010a9331ba9490.png",
+      "sha256": "4d1d77010a9331ba94905072e9243a06b6b20d58560b719a0c69db3d5112dc2f",
+      "dimensions": [
+        227,
+        41
+      ],
+      "svg": null,
+      "background": "light",
+      "locked": true,
+      "votesAtRepair": 1
+    },
+    {
+      "id": "gongu-ci-1613",
+      "name": "한국보건사회연구원",
+      "file": "sources/official-transparent-20261025/675cefd43c7788992908.png",
+      "sha256": "675cefd43c7788992908e2ccdd7ed9d42f0a89bea09fb67b1c1d6f6dca5055f0",
+      "dimensions": [
+        150,
+        44
+      ],
+      "svg": null,
+      "background": "light",
+      "locked": true,
+      "votesAtRepair": 1
+    },
+    {
+      "id": "gongu-ci-0412",
+      "name": "(재)진주시상권활성화재단",
+      "file": "sources/official-transparent-20261025/2ba3d5eea86d23628f31.png",
+      "sha256": "2ba3d5eea86d23628f31677742a1d8841eac05cb272713fe39b7e751aa844aff",
+      "dimensions": [
+        364,
+        120
+      ],
+      "svg": null,
+      "background": "light",
+      "locked": true,
+      "votesAtRepair": 0
+    },
+    {
+      "id": "gongu-ci-0410",
+      "name": "(재)창원시상권활성화재단",
+      "file": "sources/official-transparent-20261025/2550af4057e292143525.png",
+      "sha256": "2550af4057e292143525152c705b3a81d95a13ff6f2e6a6f8e7eb738ef43d533",
+      "dimensions": [
+        247,
+        49
+      ],
+      "svg": null,
+      "background": "light",
+      "locked": true,
+      "votesAtRepair": 0
+    }
+  ],
+  "scope": {
+    "checkedAt": "2026-10-25T10:21:00.141Z",
+    "category": "공공·기관",
+    "sort": "fame",
+    "startIndex": 323,
+    "endIndex": 6629,
+    "rangeTotal": 6307,
+    "pngOnly": 2297,
+    "checked": 6307,
+    "white": 1433,
+    "failures": 11
+  },
+  "state": "processing-continues"
+}
