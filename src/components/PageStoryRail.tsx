@@ -6,5 +6,5 @@ export default function PageStoryRail(){
  const pathname=usePathname();
  const mode=storyRailMode(pathname);
  if(mode==='off')return null;
- return <StoryRail key={pathname} defaultCollapsed={mode==='collapsed'} storageScope={mode==='collapsed'?'home':'content'}/>;
+ return <StoryRail key={pathname} defaultCollapsed={mode==='collapsed'} storageScope={mode==='collapsed'?'home':'content'} minViewportWidth={mode==='collapsed'?1366:1600}/>;
 }

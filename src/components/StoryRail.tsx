@@ -3,11 +3,11 @@ import {useEffect,useRef,useState} from 'react';
 import {videoSource} from '@/lib/story-input.mjs';
 type Clip={slug:string;title:string;video:{url:string;playbackUrl?:string;poster?:string}};
 const STORAGE='semologo-story-rail-collapsed-v2';
-export default function StoryRail({defaultCollapsed=false,storageScope="content"}:{defaultCollapsed?:boolean;storageScope?:string}){
+export default function StoryRail({defaultCollapsed=false,storageScope="content",minViewportWidth=1366}:{defaultCollapsed?:boolean;storageScope?:string;minViewportWidth?:number}){
  const storageKey=`${STORAGE}:${storageScope}`;
  const [clips,setClips]=useState<Clip[]>([]),[index,setIndex]=useState(0),[collapsed,setCollapsed]=useState(defaultCollapsed),[desktop,setDesktop]=useState(false);
  const foldButton=useRef<HTMLButtonElement>(null),expandButton=useRef<HTMLButtonElement>(null);
- useEffect(()=>{const media=window.matchMedia('(min-width: 1366px)');const sync=()=>setDesktop(media.matches);sync();media.addEventListener('change',sync);try{const saved=sessionStorage.getItem(storageKey);setCollapsed(saved===null?defaultCollapsed:saved==='1');sessionStorage.removeItem('semologo-story-rail-hidden');}catch{}return()=>media.removeEventListener('change',sync);},[defaultCollapsed,storageKey]);
+ useEffect(()=>{const media=window.matchMedia(`(min-width: ${minViewportWidth}px)`);const sync=()=>setDesktop(media.matches);sync();media.addEventListener('change',sync);try{const saved=sessionStorage.getItem(storageKey);setCollapsed(saved===null?defaultCollapsed:saved==='1');sessionStorage.removeItem('semologo-story-rail-hidden');}catch{}return()=>media.removeEventListener('change',sync);},[defaultCollapsed,storageKey,minViewportWidth]);
  useEffect(()=>{if(!desktop)return;let active=true;const controller=new AbortController();void fetch('/api/stories/',{signal:controller.signal}).then(async r=>{if(r.ok&&active)setClips((await r.json()).stories||[]);}).catch(()=>{});return()=>{active=false;controller.abort();};},[desktop]);
  if(!desktop||!clips.length)return null;
  const current=index%clips.length,clip=clips[current],source=videoSource(clip.video.url);if(!source)return null;
