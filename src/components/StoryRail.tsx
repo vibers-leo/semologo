@@ -2,16 +2,17 @@
 import {useEffect,useRef,useState} from 'react';
 import {videoSource} from '@/lib/story-input.mjs';
 type Clip={slug:string;title:string;video:{url:string;playbackUrl?:string;poster?:string}};
-const STORAGE='semologo-story-rail-collapsed';
-export default function StoryRail(){
- const [clips,setClips]=useState<Clip[]>([]),[index,setIndex]=useState(0),[collapsed,setCollapsed]=useState(false),[desktop,setDesktop]=useState(false);
+const STORAGE='semologo-story-rail-collapsed-v2';
+export default function StoryRail({defaultCollapsed=false,storageScope="content"}:{defaultCollapsed?:boolean;storageScope?:string}){
+ const storageKey=`${STORAGE}:${storageScope}`;
+ const [clips,setClips]=useState<Clip[]>([]),[index,setIndex]=useState(0),[collapsed,setCollapsed]=useState(defaultCollapsed),[desktop,setDesktop]=useState(false);
  const foldButton=useRef<HTMLButtonElement>(null),expandButton=useRef<HTMLButtonElement>(null);
- useEffect(()=>{const media=window.matchMedia('(min-width: 1366px)');const sync=()=>setDesktop(media.matches);sync();media.addEventListener('change',sync);try{setCollapsed(sessionStorage.getItem(STORAGE)==='1');sessionStorage.removeItem('semologo-story-rail-hidden');}catch{}return()=>media.removeEventListener('change',sync);},[]);
+ useEffect(()=>{const media=window.matchMedia('(min-width: 1366px)');const sync=()=>setDesktop(media.matches);sync();media.addEventListener('change',sync);try{const saved=sessionStorage.getItem(storageKey);setCollapsed(saved===null?defaultCollapsed:saved==='1');sessionStorage.removeItem('semologo-story-rail-hidden');}catch{}return()=>media.removeEventListener('change',sync);},[defaultCollapsed,storageKey]);
  useEffect(()=>{if(!desktop)return;let active=true;const controller=new AbortController();void fetch('/api/stories/',{signal:controller.signal}).then(async r=>{if(r.ok&&active)setClips((await r.json()).stories||[]);}).catch(()=>{});return()=>{active=false;controller.abort();};},[desktop]);
  if(!desktop||!clips.length)return null;
  const current=index%clips.length,clip=clips[current],source=videoSource(clip.video.url);if(!source)return null;
  const change=(step:number)=>setIndex(i=>(i+step+clips.length)%clips.length);
- const collapse=(value:boolean)=>{setCollapsed(value);try{sessionStorage.setItem(STORAGE,value?'1':'0');}catch{}requestAnimationFrame(()=>{(value?expandButton:foldButton).current?.focus();});};
+ const collapse=(value:boolean)=>{setCollapsed(value);try{sessionStorage.setItem(storageKey,value?'1':'0');}catch{}requestAnimationFrame(()=>{(value?expandButton:foldButton).current?.focus();});};
  return <aside className={`story-rail-shell${collapsed?' is-collapsed':''}`} aria-label="세모위키 숏폼 영상">
   <button ref={expandButton} className="story-rail-expand" hidden={!collapsed} onClick={()=>collapse(false)} aria-expanded={false} aria-controls="story-rail-panel" aria-label="숏폼 영상 펼치기" title="숏폼 영상 펼치기"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.7" aria-hidden="true"><path d="m5 6 6 6-6 6m8-12 6 6-6 6"/></svg></button>
    <button ref={foldButton} className="story-rail-fold" hidden={collapsed} onClick={()=>collapse(true)} aria-expanded={true} aria-controls="story-rail-panel" aria-label="숏폼 영상 접기" title="숏폼 영상 접기"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.7" aria-hidden="true"><path d="m11 6-6 6 6 6m8-12-6 6 6 6"/></svg></button>

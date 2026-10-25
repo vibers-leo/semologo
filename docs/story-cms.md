@@ -53,3 +53,5 @@ node scripts/story-cms.mjs history nike-swoosh-story
 왼쪽 플레이어 최소 UI: `video.playbackUrl`에 공개 MP4 원본을 연결하면 제목·공유·추천 없이 재생/일시정지·시간 조절·음소거/음량만 표시한다. 기존 소셜 게시 원본을 재사용하며 YouTube 원본 주소는 video.url에 유지한다. 접기 « / 펼치기 » 탭으로 언제든 복구하며 접힌 동안 플레이어를 제거해 소리·다운로드를 중단한다. 구형 X 숨김 상태는 복구하고 새 접힘 상태만 sessionStorage에 저장한다. 양쪽 rail은 배너 아래16px 간격, sticky top128px.
 
 2026-10-25 최종 변경: 유튜브 채널 시청을 우선해 왼쪽 영역은 video.url의 YouTube 임베드를 사용한다. MP4 playbackUrl은 보존하지만 이 영역에서는 사용하지 않는다. autoplay=0, controls=1로 기본 재생 버튼을 직접 누르게 한다. 조회수 합산은 보장하지 않으며 YouTube 공식 기준을 따른다(https://developers.google.com/youtube/iframe_api_reference#Playback_controls). UI를 가리는 자체 조작부는 사용하지 않는다. 접기 탭은 플레이어 밖에 둔다. YouTube 최소200×200 viewport를 충족하도록 테두리를 제외한 플레이어 폭200px 이상, 화면1366px 이상에서 노출한다. 이전 MP4/무음자동재생 안내보다 이 변경이 우선한다.
+
+2026-10-26 노출 정책: 로고월(/logo-walls 및 하위·영문 경로)은 탭까지 완전 제외. 홈은 기본 접힘, 나머지 일반 페이지는 기본 펼침. 관리자·인증 화면 제외. SiteLayout의 PageStoryRail 한 곳에서 관리한다. 구형 접힘 설정은 적용하지 않으며 v2의 홈/일반 콘텐츠 설정을 분리해 명시적으로 선택한 상태만 방문 중 유지한다. 접힘 중에는 YouTube iframe을 생성하지 않는다.

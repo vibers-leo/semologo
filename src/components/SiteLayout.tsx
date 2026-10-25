@@ -3,6 +3,7 @@ import Script from "next/script";
 import { SearchProvider } from "@/lib/search-context";
 import { fetchCatalogStats } from "@/lib/brands";
 import { CATALOG_SNAPSHOT, siteCopy } from "@/lib/site-copy";
+import PageStoryRail from "@/components/PageStoryRail";
 import Footer from "@/components/Footer";
 import { CDN } from "@/lib/cdn";
 import "@/app/globals.css";
@@ -145,7 +146,7 @@ export default async function RootLayout({
         />}
       </head>
       <body className="min-h-screen flex flex-col">
-        <ChunkRecovery /><ViewTracker /><LocaleProvider locale={locale}><SearchProvider><div className="flex-1">{children}</div><Footer /></SearchProvider></LocaleProvider></body>
+        <ChunkRecovery /><ViewTracker /><LocaleProvider locale={locale}><SearchProvider><div className="flex-1">{children}</div><PageStoryRail /><Footer /></SearchProvider></LocaleProvider></body>
     </html>
   );
 }
