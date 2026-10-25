@@ -18,7 +18,7 @@ const covers: Record<string, { label: string; motif: string; className: string }
 };
 
 function Cover({ post }: { post: BlogPost }) {
-  if(post.coverImage)return <img src={post.coverImage} alt="" loading="lazy" className="h-40 w-full rounded-2xl object-cover sm:h-44"/>;
+  if(post.coverImage)return <img src={post.coverImage} alt="" loading="lazy" className="h-40 w-full rounded-2xl bg-zinc-950 sm:h-44" style={{objectFit:post.video?"contain":"cover"}}/>;
   const cover = covers[post.slug] ?? { label: post.category, motif: "✦", className: "bg-gray-100 text-gray-700" };
   return <div aria-hidden="true" className={`relative flex h-40 w-full flex-col justify-between overflow-hidden rounded-2xl p-5 sm:h-44 ${cover.className}`}>
     <span className="text-[11px] font-bold tracking-[0.22em]">{cover.label}</span>

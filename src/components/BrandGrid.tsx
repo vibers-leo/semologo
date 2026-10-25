@@ -1,4 +1,5 @@
 "use client";
+import StoryRail from "./StoryRail";
 import CatalogIntro from "./CatalogIntro";
 import { sortPreparedBrands } from "@/lib/brand-grid-sort";
 import { applyPresentation, type LogoPresentation } from "@/lib/logo-presentation";
@@ -369,9 +370,9 @@ export default function BrandGrid({
   return (
     <>
       <div className="catalog-with-ad">
-      <aside className="catalog-promo-rail" aria-hidden="true">
-        <div className="catalog-video-slot" data-promo-slot="youtube" />
-      </aside>
+      <div className="catalog-promo-rail">
+        <StoryRail />
+      </div>
       <div className="catalog-content">
       <CatalogIntro />
 

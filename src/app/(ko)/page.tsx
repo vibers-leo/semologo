@@ -1,4 +1,3 @@
-import StoryRail from "@/components/StoryRail";
 import Header from "@/components/Header";
 import { fetchBrandsSlim, fetchCatalogStats, sortForGrid, type Brand } from "@/lib/brands";
 import BrandGrid from "@/components/BrandGrid";
@@ -34,7 +33,6 @@ export default async function Home() {
         <VibersAdSlot slot="home_top" />
       </div>
       <main className="w-full px-4 pb-20">
-        <StoryRail />
         <BrandGrid initialBrands={initialBrands} initialCatalogStats={initialCatalogStats} />
       </main>
     </div>
