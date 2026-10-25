@@ -6,6 +6,6 @@ export async function getStories():Promise<Story[]> {
  if(!process.env.DB_VIBERS_MAIN_URL)return BLOG_POSTS;
  const rows=await trafficDb().query('SELECT slug,status,payload FROM semologo.stories');
  const managed=new Set(rows.rows.map(r=>r.slug));
- return [...rows.rows.filter(r=>r.status==='published').map(r=>r.payload as Story),...BLOG_POSTS.filter(p=>!managed.has(p.slug))].sort((a,b)=>b.date.localeCompare(a.date)||a.slug.localeCompare(b.slug));
+ return [...rows.rows.filter(r=>r.status==='published').map(r=>r.payload as Story),...BLOG_POSTS.filter(p=>!managed.has(p.slug))].sort((a,b)=>b.date.localeCompare(a.date)||b.slug.localeCompare(a.slug));
 }
 export async function getStory(slug:string){return (await getStories()).find(p=>p.slug===slug);}
