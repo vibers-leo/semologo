@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "reviewed_at": "2026-10-27T07:39:40.559397+00:00",
+  "reviewed_at": "2026-10-27T08:56:37.133703+00:00",
   "scope": "Domestic professional clubs already measured in collection coverage, before overseas expansion",
   "execution": "Manual source/visual review queue; this file does not claim unattended collection is running.",
   "tasks": [
@@ -22,8 +22,9 @@
         "mascot",
         "historical"
       ],
-      "state": "pending_source_review",
+      "state": "official_source_reviewed_partially_published",
       "recorded_forms": [
+        "mascot",
         "symbol",
         "vertical"
       ],
@@ -32,7 +33,12 @@
       "exclude_reserve_teams_from_first_team_merge": true,
       "source_leads": [
         "https://kbl.or.kr/assets/img/logo/logo-sono.svg"
-      ]
+      ],
+      "reviewed_at": "2026-10-27",
+      "published_additional_variants": 2,
+      "public_catalog_visible": true,
+      "verification_evidence": "ops/evidence/sports-club-expansion-20261027/kbl-public-verification.json",
+      "svg_requires_native_paths": true
     },
     {
       "collection_id": "sports-kr-kbl-2026",
@@ -52,17 +58,24 @@
         "mascot",
         "historical"
       ],
-      "state": "pending_source_review",
+      "state": "official_source_reviewed_partially_published",
       "recorded_forms": [
         "horizontal",
-        "symbol"
+        "mascot",
+        "symbol",
+        "wordmark"
       ],
       "composition_complete": false,
       "preserve_manual_representative": true,
       "exclude_reserve_teams_from_first_team_merge": true,
       "source_leads": [
         "https://kbl.or.kr/assets/img/logo/logo-pega.svg"
-      ]
+      ],
+      "reviewed_at": "2026-10-27",
+      "published_additional_variants": 3,
+      "public_catalog_visible": true,
+      "verification_evidence": "ops/evidence/sports-club-expansion-20261027/kbl-public-verification.json",
+      "svg_requires_native_paths": true
     },
     {
       "collection_id": "sports-kr-kbl-2026",
@@ -82,17 +95,24 @@
         "mascot",
         "historical"
       ],
-      "state": "pending_source_review",
+      "state": "official_source_reviewed_partially_published",
       "recorded_forms": [
         "horizontal",
-        "symbol"
+        "mascot",
+        "symbol",
+        "wordmark"
       ],
       "composition_complete": false,
       "preserve_manual_representative": true,
       "exclude_reserve_teams_from_first_team_merge": true,
       "source_leads": [
         "https://kbl.or.kr/assets/img/logo/logo-kcc.svg"
-      ]
+      ],
+      "reviewed_at": "2026-10-27",
+      "published_additional_variants": 3,
+      "public_catalog_visible": true,
+      "verification_evidence": "ops/evidence/sports-club-expansion-20261027/kbl-public-verification.json",
+      "svg_requires_native_paths": true
     },
     {
       "collection_id": "sports-kr-kbl-2026",
@@ -112,17 +132,25 @@
         "mascot",
         "historical"
       ],
-      "state": "pending_source_review",
+      "state": "official_source_reviewed_partially_published",
       "recorded_forms": [
+        "emblem",
         "horizontal",
-        "symbol"
+        "mascot",
+        "symbol",
+        "wordmark"
       ],
       "composition_complete": false,
       "preserve_manual_representative": true,
       "exclude_reserve_teams_from_first_team_merge": true,
       "source_leads": [
         "https://kbl.or.kr/assets/img/logo/logo-sk.svg"
-      ]
+      ],
+      "reviewed_at": "2026-10-27",
+      "published_additional_variants": 13,
+      "public_catalog_visible": true,
+      "verification_evidence": "ops/evidence/sports-club-expansion-20261027/kbl-public-verification.json",
+      "svg_requires_native_paths": true
     },
     {
       "collection_id": "sports-kr-kbl-2026",
@@ -142,7 +170,7 @@
         "mascot",
         "historical"
       ],
-      "state": "pending_source_review",
+      "state": "official_source_reviewed_partially_published",
       "recorded_forms": [
         "symbol",
         "wordmark"
@@ -152,7 +180,12 @@
       "exclude_reserve_teams_from_first_team_merge": true,
       "source_leads": [
         "https://kbl.or.kr/assets/img/logo/logo-ss.svg"
-      ]
+      ],
+      "reviewed_at": "2026-10-27",
+      "published_additional_variants": 4,
+      "public_catalog_visible": true,
+      "verification_evidence": "ops/evidence/sports-club-expansion-20261027/kbl-public-verification.json",
+      "svg_requires_native_paths": true
     },
     {
       "collection_id": "sports-kr-kbl-2026",
@@ -172,17 +205,23 @@
         "mascot",
         "historical"
       ],
-      "state": "pending_source_review",
+      "state": "official_source_reviewed_partially_published",
       "recorded_forms": [
         "horizontal",
-        "symbol"
+        "symbol",
+        "wordmark"
       ],
       "composition_complete": false,
       "preserve_manual_representative": true,
       "exclude_reserve_teams_from_first_team_merge": true,
       "source_leads": [
         "https://kbl.or.kr/assets/img/logo/logo-kt.svg"
-      ]
+      ],
+      "reviewed_at": "2026-10-27",
+      "published_additional_variants": 1,
+      "public_catalog_visible": true,
+      "verification_evidence": "ops/evidence/sports-club-expansion-20261027/kbl-public-verification.json",
+      "svg_requires_native_paths": true
     },
     {
       "collection_id": "sports-kr-kbl-2026",
@@ -202,17 +241,24 @@
         "mascot",
         "historical"
       ],
-      "state": "pending_source_review",
+      "state": "official_source_reviewed_partially_published",
       "recorded_forms": [
+        "mascot",
         "symbol",
-        "vertical"
+        "vertical",
+        "wordmark"
       ],
       "composition_complete": false,
       "preserve_manual_representative": true,
       "exclude_reserve_teams_from_first_team_merge": true,
       "source_leads": [
         "https://kbl.or.kr/assets/img/logo/logo-kgc.svg"
-      ]
+      ],
+      "reviewed_at": "2026-10-27",
+      "published_additional_variants": 3,
+      "public_catalog_visible": true,
+      "verification_evidence": "ops/evidence/sports-club-expansion-20261027/kbl-public-verification.json",
+      "svg_requires_native_paths": true
     },
     {
       "collection_id": "sports-kr-kbl-2026",
@@ -232,16 +278,24 @@
         "mascot",
         "historical"
       ],
-      "state": "pending_source_review",
+      "state": "official_source_reviewed_partially_published",
       "recorded_forms": [
-        "symbol"
+        "emblem",
+        "mascot",
+        "symbol",
+        "wordmark"
       ],
       "composition_complete": false,
       "preserve_manual_representative": true,
       "exclude_reserve_teams_from_first_team_merge": true,
       "source_leads": [
         "https://kbl.or.kr/assets/img/logo/logo-hd.svg"
-      ]
+      ],
+      "reviewed_at": "2026-10-27",
+      "published_additional_variants": 11,
+      "public_catalog_visible": true,
+      "verification_evidence": "ops/evidence/sports-club-expansion-20261027/kbl-public-verification.json",
+      "svg_requires_native_paths": true
     },
     {
       "collection_id": "sports-kr-kbl-2026",
@@ -261,8 +315,9 @@
         "mascot",
         "historical"
       ],
-      "state": "pending_source_review",
+      "state": "official_source_reviewed_partially_published",
       "recorded_forms": [
+        "mascot",
         "symbol"
       ],
       "composition_complete": false,
@@ -270,7 +325,12 @@
       "exclude_reserve_teams_from_first_team_merge": true,
       "source_leads": [
         "https://kbl.or.kr/assets/img/logo/logo-db.svg"
-      ]
+      ],
+      "reviewed_at": "2026-10-27",
+      "published_additional_variants": 2,
+      "public_catalog_visible": true,
+      "verification_evidence": "ops/evidence/sports-club-expansion-20261027/kbl-public-verification.json",
+      "svg_requires_native_paths": true
     },
     {
       "collection_id": "sports-kr-kbl-2026",
@@ -290,17 +350,24 @@
         "mascot",
         "historical"
       ],
-      "state": "pending_source_review",
+      "state": "official_source_reviewed_partially_published",
       "recorded_forms": [
         "horizontal",
-        "symbol"
+        "mascot",
+        "symbol",
+        "wordmark"
       ],
       "composition_complete": false,
       "preserve_manual_representative": true,
       "exclude_reserve_teams_from_first_team_merge": true,
       "source_leads": [
         "https://kbl.or.kr/assets/img/logo/logo-lg.svg"
-      ]
+      ],
+      "reviewed_at": "2026-10-27",
+      "published_additional_variants": 4,
+      "public_catalog_visible": true,
+      "verification_evidence": "ops/evidence/sports-club-expansion-20261027/kbl-public-verification.json",
+      "svg_requires_native_paths": true
     },
     {
       "collection_id": "sports-kr-kleague1-2026",
@@ -320,8 +387,9 @@
         "mascot",
         "historical"
       ],
-      "state": "pending_source_review",
+      "state": "official_source_reviewed_partially_published",
       "recorded_forms": [
+        "emblem",
         "horizontal",
         "mascot",
         "vertical"
@@ -331,7 +399,12 @@
       "exclude_reserve_teams_from_first_team_merge": true,
       "source_leads": [
         "https://www.fcseoul.com/club/clubFcEmblemView"
-      ]
+      ],
+      "reviewed_at": "2026-10-27",
+      "published_additional_variants": 8,
+      "public_catalog_visible": true,
+      "svg_requires_native_paths": true,
+      "verification_evidence": "ops/evidence/sports-club-expansion-20261027/football-followup/kleague-public-verification.json"
     },
     {
       "collection_id": "sports-kr-kleague1-2026",
@@ -351,12 +424,21 @@
         "mascot",
         "historical"
       ],
-      "state": "pending_source_review",
-      "recorded_forms": [],
+      "state": "official_source_reviewed_partially_published",
+      "recorded_forms": [
+        "horizontal",
+        "vertical",
+        "wordmark"
+      ],
       "composition_complete": false,
       "preserve_manual_representative": true,
       "exclude_reserve_teams_from_first_team_merge": true,
-      "source_leads": []
+      "source_leads": [],
+      "reviewed_at": "2026-10-27",
+      "published_additional_variants": 13,
+      "public_catalog_visible": true,
+      "svg_requires_native_paths": true,
+      "verification_evidence": "ops/evidence/sports-club-expansion-20261027/football-followup/kleague-public-verification.json"
     },
     {
       "collection_id": "sports-kr-kleague1-2026",
@@ -374,12 +456,14 @@
         "mascot",
         "historical"
       ],
-      "state": "identity_review_required",
+      "state": "official_source_reviewed_first_team_identity_and_native_source_hold",
       "recorded_forms": [],
       "composition_complete": false,
       "preserve_manual_representative": true,
       "exclude_reserve_teams_from_first_team_merge": true,
-      "source_leads": []
+      "source_leads": [],
+      "reviewed_at": "2026-10-27",
+      "hold_reason": "Only existing Gangwon FC B identity found. Official first-team homepage verified; a suitable first-team native vector source remains unverified. No reserve-team merge performed."
     },
     {
       "collection_id": "sports-kr-kleague1-2026",
@@ -399,12 +483,17 @@
         "mascot",
         "historical"
       ],
-      "state": "pending_source_review",
+      "state": "official_source_reviewed_partially_published",
       "recorded_forms": [],
       "composition_complete": false,
       "preserve_manual_representative": true,
       "exclude_reserve_teams_from_first_team_merge": true,
-      "source_leads": []
+      "source_leads": [],
+      "reviewed_at": "2026-10-27",
+      "published_additional_variants": 4,
+      "public_catalog_visible": true,
+      "verification_evidence": "ops/evidence/sports-club-expansion-20261027/kleague-public-verification.json",
+      "svg_requires_native_paths": true
     },
     {
       "collection_id": "sports-kr-kleague1-2026",
@@ -422,12 +511,17 @@
         "mascot",
         "historical"
       ],
-      "state": "pending_source_review",
+      "state": "official_source_reviewed_partially_published",
       "recorded_forms": [],
       "composition_complete": false,
       "preserve_manual_representative": true,
       "exclude_reserve_teams_from_first_team_merge": true,
-      "source_leads": []
+      "source_leads": [],
+      "reviewed_at": "2026-10-27",
+      "published_additional_variants": 2,
+      "public_catalog_visible": true,
+      "verification_evidence": "ops/evidence/sports-club-expansion-20261027/kleague-public-verification.json",
+      "svg_requires_native_paths": true
     },
     {
       "collection_id": "sports-kr-kleague1-2026",
@@ -445,12 +539,17 @@
         "mascot",
         "historical"
       ],
-      "state": "pending_source_review",
+      "state": "official_source_reviewed_partially_published",
       "recorded_forms": [],
       "composition_complete": false,
       "preserve_manual_representative": true,
       "exclude_reserve_teams_from_first_team_merge": true,
-      "source_leads": []
+      "source_leads": [],
+      "reviewed_at": "2026-10-27",
+      "published_additional_variants": 8,
+      "public_catalog_visible": true,
+      "verification_evidence": "ops/evidence/sports-club-expansion-20261027/kleague-public-verification.json",
+      "svg_requires_native_paths": true
     },
     {
       "collection_id": "sports-kr-kleague1-2026",
@@ -470,12 +569,14 @@
         "mascot",
         "historical"
       ],
-      "state": "pending_source_review",
+      "state": "official_source_reviewed_quality_hold",
       "recorded_forms": [],
       "composition_complete": false,
       "preserve_manual_representative": true,
       "exclude_reserve_teams_from_first_team_merge": true,
-      "source_leads": []
+      "source_leads": [],
+      "reviewed_at": "2026-10-27",
+      "hold_reason": "Current official SPA exposes only a 360x443 raster emblem in the reviewed module; no suitable native or higher-quality source verified. Existing artwork preserved."
     },
     {
       "collection_id": "sports-kr-kleague1-2026",
@@ -493,12 +594,17 @@
         "mascot",
         "historical"
       ],
-      "state": "pending_source_review",
+      "state": "official_source_reviewed_partially_published",
       "recorded_forms": [],
       "composition_complete": false,
       "preserve_manual_representative": true,
       "exclude_reserve_teams_from_first_team_merge": true,
-      "source_leads": []
+      "source_leads": [],
+      "reviewed_at": "2026-10-27",
+      "published_additional_variants": 3,
+      "public_catalog_visible": true,
+      "verification_evidence": "ops/evidence/sports-club-expansion-20261027/kleague-public-verification.json",
+      "svg_requires_native_paths": true
     },
     {
       "collection_id": "sports-kr-kleague1-2026",
@@ -516,12 +622,19 @@
         "mascot",
         "historical"
       ],
-      "state": "pending_source_review",
-      "recorded_forms": [],
+      "state": "official_source_reviewed_partially_published",
+      "recorded_forms": [
+        "emblem"
+      ],
       "composition_complete": false,
       "preserve_manual_representative": true,
       "exclude_reserve_teams_from_first_team_merge": true,
-      "source_leads": []
+      "source_leads": [],
+      "reviewed_at": "2026-10-27",
+      "published_additional_variants": 2,
+      "public_catalog_visible": true,
+      "svg_requires_native_paths": true,
+      "verification_evidence": "ops/evidence/sports-club-expansion-20261027/football-followup/kleague-public-verification.json"
     },
     {
       "collection_id": "sports-kr-kleague1-2026",
@@ -564,12 +677,17 @@
         "mascot",
         "historical"
       ],
-      "state": "pending_source_review",
+      "state": "official_source_reviewed_partially_published",
       "recorded_forms": [],
       "composition_complete": false,
       "preserve_manual_representative": true,
       "exclude_reserve_teams_from_first_team_merge": true,
-      "source_leads": []
+      "source_leads": [],
+      "reviewed_at": "2026-10-27",
+      "published_additional_variants": 21,
+      "public_catalog_visible": true,
+      "verification_evidence": "ops/evidence/sports-club-expansion-20261027/kleague-public-verification.json",
+      "svg_requires_native_paths": true
     },
     {
       "collection_id": "sports-kr-kleague1-2026",
@@ -614,7 +732,7 @@
         "mascot",
         "historical"
       ],
-      "state": "pending_source_review",
+      "state": "official_source_reviewed_hidden_preserved_pending_owner_decision",
       "recorded_forms": [
         "symbol",
         "wordmark"
@@ -624,7 +742,12 @@
       "exclude_reserve_teams_from_first_team_merge": true,
       "source_leads": [
         "https://cdn.kovo.co.kr/emblems/kixx.svg"
-      ]
+      ],
+      "reviewed_at": "2026-10-27",
+      "published_additional_variants": 0,
+      "public_catalog_visible": false,
+      "verification_evidence": "ops/evidence/sports-club-expansion-20261027/kovo-public-verification.json",
+      "svg_requires_native_paths": true
     },
     {
       "collection_id": "sports-kr-kovo-2026",
@@ -644,7 +767,7 @@
         "mascot",
         "historical"
       ],
-      "state": "pending_source_review",
+      "state": "official_source_reviewed_partially_published",
       "recorded_forms": [
         "symbol"
       ],
@@ -654,7 +777,12 @@
       "source_leads": [
         "https://hipass.kovo.co.kr",
         "https://cdn.kovo.co.kr/emblems/hipass.svg"
-      ]
+      ],
+      "reviewed_at": "2026-10-27",
+      "published_additional_variants": 1,
+      "public_catalog_visible": true,
+      "verification_evidence": "ops/evidence/sports-club-expansion-20261027/kovo-public-verification.json",
+      "svg_requires_native_paths": true
     },
     {
       "collection_id": "sports-kr-kovo-2026",
@@ -674,7 +802,7 @@
         "mascot",
         "historical"
       ],
-      "state": "pending_source_review",
+      "state": "official_source_reviewed_partially_published",
       "recorded_forms": [
         "symbol"
       ],
@@ -684,7 +812,12 @@
       "source_leads": [
         "https://bluefangs.kovo.co.kr",
         "https://cdn.kovo.co.kr/emblems/bluefangs.svg"
-      ]
+      ],
+      "reviewed_at": "2026-10-27",
+      "published_additional_variants": 3,
+      "public_catalog_visible": true,
+      "verification_evidence": "ops/evidence/sports-club-expansion-20261027/kovo-public-verification.json",
+      "svg_requires_native_paths": true
     },
     {
       "collection_id": "sports-kr-kovo-2026",
@@ -704,7 +837,7 @@
         "mascot",
         "historical"
       ],
-      "state": "pending_source_review",
+      "state": "official_source_reviewed_partially_published",
       "recorded_forms": [
         "horizontal",
         "symbol"
@@ -714,7 +847,12 @@
       "exclude_reserve_teams_from_first_team_merge": true,
       "source_leads": [
         "https://cdn.kovo.co.kr/emblems/redsparks.svg"
-      ]
+      ],
+      "reviewed_at": "2026-10-27",
+      "published_additional_variants": 0,
+      "public_catalog_visible": true,
+      "verification_evidence": "ops/evidence/sports-club-expansion-20261027/kovo-public-verification.json",
+      "svg_requires_native_paths": true
     },
     {
       "collection_id": "sports-kr-kovo-2026",
@@ -734,7 +872,7 @@
         "mascot",
         "historical"
       ],
-      "state": "pending_source_review",
+      "state": "official_source_reviewed_partially_published",
       "recorded_forms": [
         "symbol"
       ],
@@ -743,16 +881,21 @@
       "exclude_reserve_teams_from_first_team_merge": true,
       "source_leads": [
         "https://cdn.kovo.co.kr/emblems/okman.svg"
-      ]
+      ],
+      "reviewed_at": "2026-10-27",
+      "published_additional_variants": 2,
+      "public_catalog_visible": true,
+      "verification_evidence": "ops/evidence/sports-club-expansion-20261027/kovo-public-verification.json",
+      "svg_requires_native_paths": true
     },
     {
       "collection_id": "sports-kr-kovo-2026",
       "snapshot_id": "sports-kr-kovo-2026-2026-10-12",
       "member_key": "b8bf1c0dec7311f45820", "_member_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
       "name": "서울 우리카드 우리WON",
-      "canonical_id": "kovo",
+      "canonical_id": "wooriwon-volleyball",
       "candidate_ids": [
-        "kovo"
+        "wooriwon-volleyball"
       ],
       "source_roster": "https://kovo.co.kr/",
       "priority": 900,
@@ -763,7 +906,7 @@
         "mascot",
         "historical"
       ],
-      "state": "pending_source_review",
+      "state": "official_source_reviewed_partially_published",
       "recorded_forms": [
         "symbol",
         "wordmark"
@@ -773,7 +916,13 @@
       "exclude_reserve_teams_from_first_team_merge": true,
       "source_leads": [
         "https://cdn.kovo.co.kr/emblems/wooriwon.svg"
-      ]
+      ],
+      "identity_repair": "KOVO league separated from Woori club after official tcode1009 review.",
+      "reviewed_at": "2026-10-27",
+      "published_additional_variants": 1,
+      "public_catalog_visible": true,
+      "verification_evidence": "ops/evidence/sports-club-expansion-20261027/kovo-public-verification.json",
+      "svg_requires_native_paths": true
     },
     {
       "collection_id": "sports-kr-kovo-2026",
@@ -793,7 +942,7 @@
         "mascot",
         "historical"
       ],
-      "state": "pending_source_review",
+      "state": "official_source_reviewed_partially_published",
       "recorded_forms": [
         "symbol"
       ],
@@ -803,7 +952,12 @@
       "source_leads": [
         "https://vixtorm.kovo.co.kr",
         "https://cdn.kovo.co.kr/emblems/vixtorm.svg"
-      ]
+      ],
+      "reviewed_at": "2026-10-27",
+      "published_additional_variants": 2,
+      "public_catalog_visible": true,
+      "verification_evidence": "ops/evidence/sports-club-expansion-20261027/kovo-public-verification.json",
+      "svg_requires_native_paths": true
     },
     {
       "collection_id": "sports-kr-kovo-2026",
@@ -823,7 +977,7 @@
         "mascot",
         "historical"
       ],
-      "state": "pending_source_review",
+      "state": "official_source_reviewed_partially_published",
       "recorded_forms": [
         "emblem"
       ],
@@ -832,7 +986,12 @@
       "exclude_reserve_teams_from_first_team_merge": true,
       "source_leads": [
         "https://cdn.kovo.co.kr/emblems/hillstate.svg"
-      ]
+      ],
+      "reviewed_at": "2026-10-27",
+      "published_additional_variants": 4,
+      "public_catalog_visible": true,
+      "verification_evidence": "ops/evidence/sports-club-expansion-20261027/kovo-public-verification.json",
+      "svg_requires_native_paths": true
     },
     {
       "collection_id": "sports-kr-kovo-2026",
@@ -852,7 +1011,7 @@
         "mascot",
         "historical"
       ],
-      "state": "pending_source_review",
+      "state": "official_source_reviewed_partially_published",
       "recorded_forms": [
         "horizontal",
         "symbol"
@@ -862,7 +1021,12 @@
       "exclude_reserve_teams_from_first_team_merge": true,
       "source_leads": [
         "https://cdn.kovo.co.kr/emblems/stars.svg"
-      ]
+      ],
+      "reviewed_at": "2026-10-27",
+      "published_additional_variants": 1,
+      "public_catalog_visible": true,
+      "verification_evidence": "ops/evidence/sports-club-expansion-20261027/kovo-public-verification.json",
+      "svg_requires_native_paths": true
     },
     {
       "collection_id": "sports-kr-kovo-2026",
@@ -882,7 +1046,7 @@
         "mascot",
         "historical"
       ],
-      "state": "pending_source_review",
+      "state": "official_source_reviewed_hidden_preserved_pending_owner_decision",
       "recorded_forms": [
         "symbol",
         "wordmark"
@@ -892,7 +1056,12 @@
       "exclude_reserve_teams_from_first_team_merge": true,
       "source_leads": [
         "https://cdn.kovo.co.kr/emblems/jumbos.svg"
-      ]
+      ],
+      "reviewed_at": "2026-10-27",
+      "published_additional_variants": 0,
+      "public_catalog_visible": false,
+      "verification_evidence": "ops/evidence/sports-club-expansion-20261027/kovo-public-verification.json",
+      "svg_requires_native_paths": true
     },
     {
       "collection_id": "sports-kr-kovo-2026",
@@ -912,7 +1081,7 @@
         "mascot",
         "historical"
       ],
-      "state": "pending_source_review",
+      "state": "official_source_reviewed_partially_published",
       "recorded_forms": [
         "emblem"
       ],
@@ -921,7 +1090,12 @@
       "exclude_reserve_teams_from_first_team_merge": true,
       "source_leads": [
         "https://cdn.kovo.co.kr/emblems/pinkspiders.svg"
-      ]
+      ],
+      "reviewed_at": "2026-10-27",
+      "published_additional_variants": 4,
+      "public_catalog_visible": true,
+      "verification_evidence": "ops/evidence/sports-club-expansion-20261027/kovo-public-verification.json",
+      "svg_requires_native_paths": true
     },
     {
       "collection_id": "sports-kr-kovo-2026",
@@ -941,7 +1115,7 @@
         "mascot",
         "historical"
       ],
-      "state": "pending_source_review",
+      "state": "official_source_reviewed_hidden_preserved_pending_owner_decision",
       "recorded_forms": [
         "symbol"
       ],
@@ -951,7 +1125,12 @@
       "source_leads": [
         "https://soopers.kovo.co.kr",
         "https://cdn.kovo.co.kr/emblems/soopers.svg"
-      ]
+      ],
+      "reviewed_at": "2026-10-27",
+      "published_additional_variants": 8,
+      "public_catalog_visible": false,
+      "verification_evidence": "ops/evidence/sports-club-expansion-20261027/kovo-public-verification.json",
+      "svg_requires_native_paths": true
     },
     {
       "collection_id": "sports-kr-kovo-2026",
@@ -971,7 +1150,7 @@
         "mascot",
         "historical"
       ],
-      "state": "pending_source_review",
+      "state": "official_source_reviewed_partially_published",
       "recorded_forms": [
         "symbol"
       ],
@@ -981,7 +1160,12 @@
       "source_leads": [
         "https://skywalkers.kovo.co.kr",
         "https://cdn.kovo.co.kr/emblems/skywalkers.svg"
-      ]
+      ],
+      "reviewed_at": "2026-10-27",
+      "published_additional_variants": 5,
+      "public_catalog_visible": true,
+      "verification_evidence": "ops/evidence/sports-club-expansion-20261027/kovo-public-verification.json",
+      "svg_requires_native_paths": true
     },
     {
       "collection_id": "sports-kr-kovo-2026",
@@ -1001,7 +1185,7 @@
         "mascot",
         "historical"
       ],
-      "state": "pending_source_review",
+      "state": "official_source_reviewed_partially_published",
       "recorded_forms": [
         "symbol",
         "wordmark"
@@ -1011,13 +1195,22 @@
       "exclude_reserve_teams_from_first_team_merge": true,
       "source_leads": [
         "https://cdn.kovo.co.kr/emblems/altos.svg"
-      ]
+      ],
+      "reviewed_at": "2026-10-27",
+      "published_additional_variants": 2,
+      "public_catalog_visible": true,
+      "verification_evidence": "ops/evidence/sports-club-expansion-20261027/kovo-public-verification.json",
+      "svg_requires_native_paths": true
     }
   ],
   "next_rosters": [
     {
       "name": "K리그2",
-      "state": "official_roster_verification_required"
+      "state": "official_roster_verified_identity_and_asset_review_pending",
+      "roster_verified_at": "2026-10-27",
+      "source_evidence": "ops/evidence/sports-club-expansion-20261027/kleague-official-rosters.json",
+      "expected_clubs": 17,
+      "status": "official_roster_verified_identity_and_asset_review_pending"
     },
     {
       "name": "WKBL",

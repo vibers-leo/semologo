@@ -1,0 +1,429 @@
+[
+  {
+    "id": "uhdfc",
+    "added": 3,
+    "total": 3,
+    "catalog_visible": true,
+    "default_preview": null,
+    "proof": [
+      {
+        "key": "official-kleague-20261027-K01-af5555e775603d01", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+        "png_decoded": true,
+        "size": [
+          573,
+          195
+        ],
+        "sha256": "975e5ccab19cfcbedf32cc1bddebe96a3c11beeafd0194911ce6664dd9f450c7",
+        "native_svg_verified": true
+      },
+      {
+        "key": "official-kleague-20261027-K01-9f50adfe40af0d34", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+        "png_decoded": true,
+        "size": [
+          399,
+          462
+        ],
+        "sha256": "f13e2aa0f6c1431dfb4b29373ba1311e649d5016440f799cbb9bdac0e2a9659d"
+      },
+      {
+        "key": "official-kleague-20261027-K01-2b1d751d2591ff34", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+        "png_decoded": true,
+        "size": [
+          1024,
+          216
+        ],
+        "sha256": "90f6131c7e913c003a379f9eb769ff7488140260ce80a231ce6c6a86e37c5730"
+      }
+    ],
+    "manual_representative_preserved": true,
+    "hidden_state_preserved": true
+  },
+  {
+    "id": "dhcfc",
+    "added": 8,
+    "total": 8,
+    "catalog_visible": true,
+    "default_preview": "https://logo.vibers.co.kr/_clients/dhcfc/sources/official-kleague-20261027/6cd6edd2bbf03a974641b444.png?v=1792854876",
+    "proof": [
+      {
+        "key": "official-kleague-20261027-K10-73347cc4e5e3fb94", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+        "png_decoded": true,
+        "size": [
+          843,
+          1080
+        ],
+        "sha256": "061026e8170e72563fcddb418ae8ae1377b9731ceb5fbb6e81770874128213e4",
+        "native_svg_verified": true
+      },
+      {
+        "key": "official-kleague-20261027-K10-c12254d98302aa81", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+        "png_decoded": true,
+        "size": [
+          1068,
+          1600
+        ],
+        "sha256": "6cd6edd2bbf03a974641b4445276554512d2eac323d506ce1250dd04f3cfd638",
+        "native_svg_verified": true
+      },
+      {
+        "key": "official-kleague-20261027-K10-e06802be2dae2747", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+        "png_decoded": true,
+        "size": [
+          1119,
+          1600
+        ],
+        "sha256": "2815b83b3796867b8996bda1ebfcd5cd28d90e36b37f01cfdee93dc72bf28ecb",
+        "native_svg_verified": true
+      },
+      {
+        "key": "official-kleague-20261027-K10-dca4e184dc2ed616", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+        "png_decoded": true,
+        "size": [
+          1119,
+          1600
+        ],
+        "sha256": "7cf7c37e12588326adb549bbf06b03892a0dcaf26c4adaecf0b2ade654429e9a",
+        "native_svg_verified": true
+      },
+      {
+        "key": "official-kleague-20261027-K10-0e0f0893664be540", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+        "png_decoded": true,
+        "size": [
+          1232,
+          1151
+        ],
+        "sha256": "e4ad21a80baf5795446bd84024521832b6557386c680d25f78f9039586cd0321"
+      },
+      {
+        "key": "official-kleague-20261027-K10-a0f56413b112714e", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+        "png_decoded": true,
+        "size": [
+          603,
+          1076
+        ],
+        "sha256": "20f5206302850ca35903dee7bfc9506273b59eb25bebc9a8c094a290e90b0fcf"
+      },
+      {
+        "key": "official-kleague-20261027-K10-e86435ca414ae90a", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+        "png_decoded": true,
+        "size": [
+          360,
+          439
+        ],
+        "sha256": "5e7e0ac029d8f42bd462c826b53ac1629cb2ee481ef0c3945285d98ee3edd020"
+      },
+      {
+        "key": "official-kleague-20261027-K10-6b333a52d675b751", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+        "png_decoded": true,
+        "size": [
+          396,
+          432
+        ],
+        "sha256": "34ad0a07f343e9a0898a52923454a3a0c21037e886efb2e549a0af71e6050f92"
+      }
+    ],
+    "manual_representative_preserved": true,
+    "hidden_state_preserved": true
+  },
+  {
+    "id": "jejuskfc",
+    "added": 21,
+    "total": 21,
+    "catalog_visible": true,
+    "default_preview": "https://logo.vibers.co.kr/_clients/jejuskfc/sources/official-kleague-20261027/5d5206b1211d2c6ab0a5a95c.png?v=1792854876",
+    "proof": [
+      {
+        "key": "official-kleague-20261027-K04-3a555bf388837225", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+        "png_decoded": true,
+        "size": [
+          1358,
+          1572
+        ],
+        "sha256": "5d5206b1211d2c6ab0a5a95c9f221c9ba22d6d18a037da61b258bead5adca9f5",
+        "native_svg_verified": true
+      },
+      {
+        "key": "official-kleague-20261027-K04-3ed4b0d5d3c359b5", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+        "png_decoded": true,
+        "size": [
+          1358,
+          1572
+        ],
+        "sha256": "5cf51ec4116806b053d57797f717a864b5cdcc3463f893b349795fb9d476da4b",
+        "native_svg_verified": true
+      },
+      {
+        "key": "official-kleague-20261027-K04-ef5c96dcd3c41dc4", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+        "png_decoded": true,
+        "size": [
+          1358,
+          1572
+        ],
+        "sha256": "e2e68bfdbf7e44f7a944bf0a9a6bec75c19233d4505530af166fccbba7664154",
+        "native_svg_verified": true
+      },
+      {
+        "key": "official-kleague-20261027-K04-a532bfe9c7aa08f2", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+        "png_decoded": true,
+        "size": [
+          1358,
+          1572
+        ],
+        "sha256": "96dfcdc062317c01cc1c887c9cc8a074e0fdd8ca095bf76a9547c97bc80e9476",
+        "native_svg_verified": true
+      },
+      {
+        "key": "official-kleague-20261027-K04-a8a2faf499a952b1", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+        "png_decoded": true,
+        "size": [
+          1358,
+          1572
+        ],
+        "sha256": "b210c0faa283192d31f9f5116c5413de265a10aebf72bb9381a1117ad00b084f",
+        "native_svg_verified": true
+      },
+      {
+        "key": "official-kleague-20261027-K04-8b82f63eca0ad7c2", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+        "png_decoded": true,
+        "size": [
+          1584,
+          1359
+        ],
+        "sha256": "54a6107cb010a8e53597c4aec53c8b118b180ca5512d9779f33dd4dfa8581a12",
+        "native_svg_verified": true
+      },
+      {
+        "key": "official-kleague-20261027-K04-6bafc74a297ba6e7", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+        "png_decoded": true,
+        "size": [
+          1588,
+          474
+        ],
+        "sha256": "d9de56dd5ed1b20130a951277106d346bc82dbe40a35bfde3f5cde3bf444b354",
+        "native_svg_verified": true
+      },
+      {
+        "key": "official-kleague-20261027-K04-c450cc8de3b0adfe", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+        "png_decoded": true,
+        "size": [
+          1594,
+          386
+        ],
+        "sha256": "c19c7ece3d755c399877c69dd809d5a66d783d2611935e5f5a483e328f5bb86f",
+        "native_svg_verified": true
+      },
+      {
+        "key": "official-kleague-20261027-K04-e5197c8adb8e61aa", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+        "png_decoded": true,
+        "size": [
+          1592,
+          386
+        ],
+        "sha256": "aa027b71b0af70970cacf6bbdfc7def1ad768b46b7fa2e842651cd31738a7c97",
+        "native_svg_verified": true
+      },
+      {
+        "key": "official-kleague-20261027-K04-45dd4f2751522f8b", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+        "png_decoded": true,
+        "size": [
+          1582,
+          560
+        ],
+        "sha256": "21ac0bc9767fe89c20a81e46fb30abe05dab07e14ceaf67604d8c53619e82cd8",
+        "native_svg_verified": true
+      },
+      {
+        "key": "official-kleague-20261027-K04-ae8829c330aea8b9", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+        "png_decoded": true,
+        "size": [
+          1590,
+          441
+        ],
+        "sha256": "a96ec4eca98aa7dd6f9b9cbe7e2adbe7856c619e3083a967b102ec0259f119d1",
+        "native_svg_verified": true
+      },
+      {
+        "key": "official-kleague-20261027-K04-a7d2f15ce2158e51", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+        "png_decoded": true,
+        "size": [
+          1576,
+          379
+        ],
+        "sha256": "a573e8c76a8654711a1b0a7bfaf930cc91cfebf5ff634d535cb59620289f3e1a",
+        "native_svg_verified": true
+      },
+      {
+        "key": "official-kleague-20261027-K04-941a83f14cdaa00f", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+        "png_decoded": true,
+        "size": [
+          1582,
+          285
+        ],
+        "sha256": "12fec174813a843b1f660f783c9c0fde306550f67adba9063a33b09e6c576235",
+        "native_svg_verified": true
+      },
+      {
+        "key": "official-kleague-20261027-K04-1245476a44aec752", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+        "png_decoded": true,
+        "size": [
+          1576,
+          653
+        ],
+        "sha256": "340acf8ab444f93119996f7921337bb21234c6556ba1bb7c87611901faab01e1",
+        "native_svg_verified": true
+      },
+      {
+        "key": "official-kleague-20261027-K04-0912df8c7255e998", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+        "png_decoded": true,
+        "size": [
+          1566,
+          498
+        ],
+        "sha256": "02b6b66d9c6cc3a275138f24225176b5e2bc465adff3f84f1e62fc8cc24aa907",
+        "native_svg_verified": true
+      },
+      {
+        "key": "official-kleague-20261027-K04-884d4cb1fdca7cc4", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+        "png_decoded": true,
+        "size": [
+          1581,
+          349
+        ],
+        "sha256": "1665dc8bcf7a964c951997c89a25395d705645f4adf32c3cabefcb0db4bb0786",
+        "native_svg_verified": true
+      },
+      {
+        "key": "official-kleague-20261027-K04-a544288a9f27d43b", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+        "png_decoded": true,
+        "size": [
+          1580,
+          1497
+        ],
+        "sha256": "e9f2e05dd1dfcda2cec981299813b4a453bc6ec8174b2bf009f19a078ff11f47",
+        "native_svg_verified": true
+      },
+      {
+        "key": "official-kleague-20261027-K04-17168b8d7ca82d29", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+        "png_decoded": true,
+        "size": [
+          1588,
+          1123
+        ],
+        "sha256": "e0e591da7fc15a4a91ee734bd12f36d3bddb7ae626546f6e7433e502dd8372a3",
+        "native_svg_verified": true
+      },
+      {
+        "key": "official-kleague-20261027-K04-5569ff975e31c4bf", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+        "png_decoded": true,
+        "size": [
+          1283,
+          1586
+        ],
+        "sha256": "3d8a0eb753547553809f2d05808a613c7dd1ec3ba17b717d83f204ea46af81c1",
+        "native_svg_verified": true
+      },
+      {
+        "key": "official-kleague-20261027-K04-7d322cf82cb8ae16", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+        "png_decoded": true,
+        "size": [
+          1075,
+          932
+        ],
+        "sha256": "8eea25a4bda24d5f283fb904f9b1b2985670a2e05614b2fc1e807421d719f22c"
+      },
+      {
+        "key": "official-kleague-20261027-K04-334f61453bc95b62", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+        "png_decoded": true,
+        "size": [
+          918,
+          939
+        ],
+        "sha256": "77f4566089d4d2bf4fc1e05a58a716bb9134413e4bf69d5c56dfa9a4c5720bb8"
+      }
+    ],
+    "manual_representative_preserved": true,
+    "hidden_state_preserved": true
+  },
+  {
+    "id": "gimcheonfc",
+    "added": 2,
+    "total": 2,
+    "catalog_visible": true,
+    "default_preview": "https://logo.vibers.co.kr/_clients/gimcheonfc/sources/official-kleague-20261027/ac85574c31069775c7cb33c2.png?v=1792854876",
+    "proof": [
+      {
+        "key": "official-kleague-20261027-K35-85c0cb9ae08d1b44", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+        "png_decoded": true,
+        "size": [
+          1358,
+          1600
+        ],
+        "sha256": "ac85574c31069775c7cb33c20c16c7ad3a82c2cd750035f1f1867e998e8687a4",
+        "native_svg_verified": true
+      },
+      {
+        "key": "official-kleague-20261027-K35-5bc520e08580409a", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+        "png_decoded": true,
+        "size": [
+          1078,
+          1364
+        ],
+        "sha256": "b904e3b2dfe036d38fd773ee245da48b68ee3f31bf30fba149558bed141f1dcd",
+        "native_svg_verified": true
+      }
+    ],
+    "manual_representative_preserved": true,
+    "hidden_state_preserved": true
+  },
+  {
+    "id": "gwangjufc",
+    "added": 4,
+    "total": 5,
+    "catalog_visible": true,
+    "default_preview": "https://logo.vibers.co.kr/_clients/gwangjufc/sources/official-kleague-20261027/8bd44c2175909fb3ed938cb3.png?v=1792854876",
+    "proof": [
+      {
+        "key": "official-kleague-20261027-K22-fd31e8de895abe18", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+        "png_decoded": true,
+        "size": [
+          897,
+          1227
+        ],
+        "sha256": "8bd44c2175909fb3ed938cb3169cf15ac1ea645eae44afcb2398ac0632b041e2",
+        "native_svg_verified": true
+      },
+      {
+        "key": "official-kleague-20261027-K22-043270016fd61314", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+        "png_decoded": true,
+        "size": [
+          1127,
+          266
+        ],
+        "sha256": "95ec3f57fa65220ab6f7c8dc2ac8fab49675d24737a85116e20e90cf01b8f37c",
+        "native_svg_verified": true
+      },
+      {
+        "key": "official-kleague-20261027-K22-0168affae41f5293", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+        "png_decoded": true,
+        "size": [
+          910,
+          1322
+        ],
+        "sha256": "273f0328716da0123fb7d0f5cc4d18af861033fc24fe56602eda789aa7de7966",
+        "native_svg_verified": true
+      },
+      {
+        "key": "official-kleague-20261027-K22-44c9cf50049fefe7", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+        "png_decoded": true,
+        "size": [
+          1468,
+          528
+        ],
+        "sha256": "9d25460e6ce977871b4c35d7bf9bc1758d53660aee1f0084b3b300b87230dac9",
+        "native_svg_verified": true
+      }
+    ],
+    "manual_representative_preserved": true,
+    "hidden_state_preserved": true
+  }
+]

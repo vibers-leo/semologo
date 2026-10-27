@@ -1,0 +1,142 @@
+[
+  {
+    "id": "kaljumbos",
+    "published": true,
+    "tcode": "1001",
+    "added": 0,
+    "merged_exact_duplicates": 1,
+    "total": 2,
+    "representative_preserved": true,
+    "hidden_state_preserved": true
+  },
+  {
+    "id": "hyundai-capital-skywalkers",
+    "published": true,
+    "tcode": "1005",
+    "added": 5,
+    "merged_exact_duplicates": 1,
+    "total": 6,
+    "representative_preserved": true,
+    "hidden_state_preserved": true
+  },
+  {
+    "id": "wooriwon-volleyball",
+    "published": true,
+    "tcode": "1009",
+    "added": 1,
+    "merged_exact_duplicates": 1,
+    "total": 2,
+    "representative_preserved": true,
+    "hidden_state_preserved": true
+  },
+  {
+    "id": "kbstarsvc",
+    "published": true,
+    "tcode": "1004",
+    "added": 1,
+    "merged_exact_duplicates": 1,
+    "total": 3,
+    "representative_preserved": true,
+    "hidden_state_preserved": true
+  },
+  {
+    "id": "kepco-vixtorm",
+    "published": true,
+    "tcode": "1006",
+    "added": 2,
+    "merged_exact_duplicates": 1,
+    "total": 3,
+    "representative_preserved": true,
+    "hidden_state_preserved": true
+  },
+  {
+    "id": "okfinancialsports",
+    "published": true,
+    "tcode": "1008",
+    "added": 2,
+    "merged_exact_duplicates": 1,
+    "total": 3,
+    "representative_preserved": true,
+    "hidden_state_preserved": true
+  },
+  {
+    "id": "samsung-fire-bluefangs",
+    "published": true,
+    "tcode": "1002",
+    "added": 3,
+    "merged_exact_duplicates": 1,
+    "total": 4,
+    "representative_preserved": true,
+    "hidden_state_preserved": true
+  },
+  {
+    "id": "gsvolleyball",
+    "published": true,
+    "tcode": "2005",
+    "added": 0,
+    "merged_exact_duplicates": 1,
+    "total": 2,
+    "representative_preserved": true,
+    "hidden_state_preserved": true
+  },
+  {
+    "id": "korea-expressway-hi-pass",
+    "published": true,
+    "tcode": "2002",
+    "added": 1,
+    "merged_exact_duplicates": 1,
+    "total": 2,
+    "representative_preserved": true,
+    "hidden_state_preserved": true
+  },
+  {
+    "id": "hillstatehdec",
+    "published": true,
+    "tcode": "2001",
+    "added": 4,
+    "merged_exact_duplicates": 1,
+    "total": 6,
+    "representative_preserved": true,
+    "hidden_state_preserved": true
+  },
+  {
+    "id": "pinkspiders",
+    "published": true,
+    "tcode": "2004",
+    "added": 4,
+    "merged_exact_duplicates": 0,
+    "total": 6,
+    "representative_preserved": true,
+    "hidden_state_preserved": true
+  },
+  {
+    "id": "sportsibk",
+    "published": true,
+    "tcode": "2006",
+    "added": 2,
+    "merged_exact_duplicates": 1,
+    "total": 4,
+    "representative_preserved": true,
+    "hidden_state_preserved": true
+  },
+  {
+    "id": "kgc",
+    "published": true,
+    "tcode": "2003",
+    "added": 0,
+    "merged_exact_duplicates": 1,
+    "total": 2,
+    "representative_preserved": true,
+    "hidden_state_preserved": true
+  },
+  {
+    "id": "aipeppers",
+    "published": true,
+    "tcode": "2008",
+    "added": 8,
+    "merged_exact_duplicates": 2,
+    "total": 9,
+    "representative_preserved": true,
+    "hidden_state_preserved": true
+  }
+]

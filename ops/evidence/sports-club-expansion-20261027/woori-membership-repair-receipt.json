@@ -1,0 +1,42 @@
+[
+  {
+    "snapshot": "sports-kr-kovo-2026-2026-10-12",
+    "before": {
+      "snapshot_id": "sports-kr-kovo-2026-2026-10-12",
+      "member_key": "b8bf1c0dec7311f45820", "_member_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+      "name": "서울 우리카드 우리WON",
+      "brand_id": "kovo",
+      "wikidata_qid": null,
+      "metadata": {
+        "name": "서울 우리카드 우리WON",
+        "brand_id": "kovo",
+        "member_key": "b8bf1c0dec7311f45820", "_member_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+        "source_url": "https://cdn.kovo.co.kr/emblems/wooriwon.svg",
+        "png_verified": true,
+        "identity_reviewed": true
+      },
+      "review_status": "verified"
+    },
+    "after_brand_id": "wooriwon-volleyball"
+  },
+  {
+    "snapshot": "sports-kr-kovo-men-2026-10-10",
+    "before": {
+      "snapshot_id": "sports-kr-kovo-men-2026-10-10",
+      "member_key": "2cd8b98c104df38cbc14", "_member_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+      "name": "우리카드 우리WON",
+      "brand_id": null,
+      "wikidata_qid": null,
+      "metadata": {
+        "name": "우리카드 우리WON",
+        "brand_id": null,
+        "candidates": [],
+        "member_key": "2cd8b98c104df38cbc14", "_member_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+        "png_verified": false,
+        "identity_reviewed": false
+      },
+      "review_status": "pending"
+    },
+    "after_brand_id": "wooriwon-volleyball"
+  }
+]

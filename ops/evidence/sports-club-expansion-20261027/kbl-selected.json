@@ -1,0 +1,1290 @@
+[
+  {
+    "code": "db",
+    "name": "emblem-db02.png",
+    "url": "https://thunders.kbl.or.kr/assets/img/club/db/emblem-db02.png",
+    "file": "kbl-assets/db-emblem-db02.png",
+    "preview": "kbl-assets/db-emblem-db02.preview.png",
+    "sha256": "8c785b55e9c9bd8aaabf3faf0858c2166ef4cbce3bc3804468b3a0349edfaf45",
+    "vector": false,
+    "size": [
+      1620,
+      754
+    ],
+    "key": "kbl-db-6dfc83d8c1435b", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 프로미 캐릭터 기본형",
+    "form": "mascot",
+    "dark": false,
+    "historical": false,
+    "crop": [
+      0.06,
+      0.08,
+      0.44,
+      0.83
+    ],
+    "selected_size": [
+      616,
+      566
+    ]
+  },
+  {
+    "code": "db",
+    "name": "emblem-db03.png",
+    "url": "https://thunders.kbl.or.kr/assets/img/club/db/emblem-db03.png",
+    "file": "kbl-assets/db-emblem-db03.png",
+    "preview": "kbl-assets/db-emblem-db03.preview.png",
+    "sha256": "c9a74116c2aef2e623a7fc1658c86dcd7e58f87ca6a174dde3b929da8db8a254",
+    "vector": false,
+    "size": [
+      1620,
+      754
+    ],
+    "key": "kbl-db-f5b0cd063192bd", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 그린몬스터 기본형",
+    "form": "mascot",
+    "dark": false,
+    "historical": false,
+    "crop": [
+      0.04,
+      0.07,
+      0.42,
+      0.83
+    ],
+    "selected_size": [
+      615,
+      573
+    ]
+  },
+  {
+    "code": "hd",
+    "name": "hd-logo02.svg",
+    "url": "https://thunders.kbl.or.kr/assets/img/club/hd/hd-logo02.svg",
+    "file": "kbl-assets/hd-hd-logo02.svg",
+    "preview": "kbl-assets/hd-hd-logo02.preview.png",
+    "sha256": "483ce00ab7c7623eeb3c24e43d447c0dde4ba60f676f4321133a0a95da325c20",
+    "vector": true,
+    "size": [
+      1200,
+      1200
+    ],
+    "key": "kbl-hd-e026d244d559d6", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 현대모비스 엠블럼 · 검정",
+    "form": "emblem",
+    "dark": false,
+    "historical": false,
+    "crop": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "selected_size": [
+      1136,
+      924
+    ]
+  },
+  {
+    "code": "hd",
+    "name": "hd-logo03.svg",
+    "url": "https://thunders.kbl.or.kr/assets/img/club/hd/hd-logo03.svg",
+    "file": "kbl-assets/hd-hd-logo03.svg",
+    "preview": "kbl-assets/hd-hd-logo03.preview.png",
+    "sha256": "34b0eb439b58c912c294fc73bc2f3c1168f9eaf522361dc79782c0c12ad2d5b1",
+    "vector": true,
+    "size": [
+      1200,
+      1200
+    ],
+    "key": "kbl-hd-bc30fcc6743e2d", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 현대모비스 엠블럼 · 골드",
+    "form": "emblem",
+    "dark": false,
+    "historical": false,
+    "crop": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "selected_size": [
+      1136,
+      924
+    ]
+  },
+  {
+    "code": "hd",
+    "name": "hd-logo04.svg",
+    "url": "https://thunders.kbl.or.kr/assets/img/club/hd/hd-logo04.svg",
+    "file": "kbl-assets/hd-hd-logo04.svg",
+    "preview": "kbl-assets/hd-hd-logo04.preview.png",
+    "sha256": "d22d2c24f970851b3a3d831a6313bde503bbfae5c92d058fca6792ec0955ded6",
+    "vector": true,
+    "size": [
+      1200,
+      1200
+    ],
+    "key": "kbl-hd-92b5109dccf3f7", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 현대모비스 엠블럼 · 실버",
+    "form": "emblem",
+    "dark": false,
+    "historical": false,
+    "crop": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "selected_size": [
+      1136,
+      924
+    ]
+  },
+  {
+    "code": "hd",
+    "name": "hd-logo01-dark.svg",
+    "url": "https://thunders.kbl.or.kr/assets/img/club/hd/hd-logo01-dark.svg",
+    "file": "kbl-assets/hd-hd-logo01-dark.svg",
+    "preview": "kbl-assets/hd-hd-logo01-dark.preview.png",
+    "sha256": "5fe2c50ebc157274a3acba402e90eb318c693ca1fce5839369c58b56b5faa4d7",
+    "vector": true,
+    "size": [
+      1200,
+      1200
+    ],
+    "key": "kbl-hd-1d60c5044a1338", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 현대모비스 엠블럼 · 컬러 · 다크용",
+    "form": "emblem",
+    "dark": true,
+    "historical": false,
+    "crop": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "selected_size": [
+      1136,
+      924
+    ]
+  },
+  {
+    "code": "hd",
+    "name": "hd-logo02-dark.svg",
+    "url": "https://thunders.kbl.or.kr/assets/img/club/hd/hd-logo02-dark.svg",
+    "file": "kbl-assets/hd-hd-logo02-dark.svg",
+    "preview": "kbl-assets/hd-hd-logo02-dark.preview.png",
+    "sha256": "c399792c8f035ac0dfd5f6384882399b10a66c233b06767fdbe615c15c09881e",
+    "vector": true,
+    "size": [
+      1200,
+      1200
+    ],
+    "key": "kbl-hd-05fc49e44e8ff6", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 현대모비스 엠블럼 · 검정 · 다크용",
+    "form": "emblem",
+    "dark": true,
+    "historical": false,
+    "crop": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "selected_size": [
+      1136,
+      924
+    ]
+  },
+  {
+    "code": "hd",
+    "name": "hd-logo03-dark.svg",
+    "url": "https://thunders.kbl.or.kr/assets/img/club/hd/hd-logo03-dark.svg",
+    "file": "kbl-assets/hd-hd-logo03-dark.svg",
+    "preview": "kbl-assets/hd-hd-logo03-dark.preview.png",
+    "sha256": "45f9abe6c8ab7f724299ee525ad0dcc08910ed719e44f983e186a0244a20d2d4",
+    "vector": true,
+    "size": [
+      1200,
+      1200
+    ],
+    "key": "kbl-hd-63da00e5cb47f5", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 현대모비스 엠블럼 · 골드 · 다크용",
+    "form": "emblem",
+    "dark": true,
+    "historical": false,
+    "crop": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "selected_size": [
+      1035,
+      877
+    ]
+  },
+  {
+    "code": "hd",
+    "name": "hd-logo04-dark.svg",
+    "url": "https://thunders.kbl.or.kr/assets/img/club/hd/hd-logo04-dark.svg",
+    "file": "kbl-assets/hd-hd-logo04-dark.svg",
+    "preview": "kbl-assets/hd-hd-logo04-dark.preview.png",
+    "sha256": "a022d47323eec3c007b44c3484d52baa0c9965d2761132b8059ad8ace554f4e1",
+    "vector": true,
+    "size": [
+      1200,
+      1200
+    ],
+    "key": "kbl-hd-91156f6af1bca4", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 현대모비스 엠블럼 · 실버 · 다크용",
+    "form": "emblem",
+    "dark": true,
+    "historical": false,
+    "crop": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "selected_size": [
+      1035,
+      877
+    ]
+  },
+  {
+    "code": "hd",
+    "name": "emblem-hd02.png",
+    "url": "https://thunders.kbl.or.kr/assets/img/club/hd/emblem-hd02.png",
+    "file": "kbl-assets/hd-emblem-hd02.png",
+    "preview": "kbl-assets/hd-emblem-hd02.preview.png",
+    "sha256": "0dbee6b099c86b1de7447a1881c6b8742fa7def66a638ffba8b007cdb35a2b52",
+    "vector": false,
+    "size": [
+      1620,
+      754
+    ],
+    "key": "kbl-hd-9530409fc1da95", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 현대모비스 마스코트 설정 · A",
+    "form": "mascot",
+    "dark": false,
+    "historical": false,
+    "crop": [
+      0.08,
+      0.12,
+      0.92,
+      0.92
+    ],
+    "selected_size": [
+      1360,
+      604
+    ]
+  },
+  {
+    "code": "hd",
+    "name": "emblem-hd03.png",
+    "url": "https://thunders.kbl.or.kr/assets/img/club/hd/emblem-hd03.png",
+    "file": "kbl-assets/hd-emblem-hd03.png",
+    "preview": "kbl-assets/hd-emblem-hd03.preview.png",
+    "sha256": "4770b46c0acc6788283d7daf99bd66bf08f8ab247c52e0b057a4e4997ed2988f",
+    "vector": false,
+    "size": [
+      1620,
+      754
+    ],
+    "key": "kbl-hd-b7da7b1cbbc686", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 현대모비스 마스코트 설정 · B",
+    "form": "mascot",
+    "dark": false,
+    "historical": false,
+    "crop": [
+      0.08,
+      0.12,
+      0.92,
+      0.92
+    ],
+    "selected_size": [
+      1360,
+      604
+    ]
+  },
+  {
+    "code": "hd",
+    "name": "emblem-hd04.png",
+    "url": "https://thunders.kbl.or.kr/assets/img/club/hd/emblem-hd04.png",
+    "file": "kbl-assets/hd-emblem-hd04.png",
+    "preview": "kbl-assets/hd-emblem-hd04.preview.png",
+    "sha256": "340a29f82056f530a5733f85f5c8c4b0edcb6432de9899f4b9f20026fa7e3f16",
+    "vector": false,
+    "size": [
+      790,
+      224
+    ],
+    "key": "kbl-hd-84afd6de135bb6", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 현대모비스 국문 워드마크 · 기본",
+    "form": "wordmark",
+    "dark": false,
+    "historical": false,
+    "crop": [
+      0.14,
+      0.2,
+      0.86,
+      0.8
+    ],
+    "selected_size": [
+      568,
+      134
+    ]
+  },
+  {
+    "code": "hd",
+    "name": "emblem-hd05.png",
+    "url": "https://thunders.kbl.or.kr/assets/img/club/hd/emblem-hd05.png",
+    "file": "kbl-assets/hd-emblem-hd05.png",
+    "preview": "kbl-assets/hd-emblem-hd05.preview.png",
+    "sha256": "ac969f8a582787ff557a5d1a8e597d6f4f6570be9221ab2d475c088b0eddb886",
+    "vector": false,
+    "size": [
+      790,
+      224
+    ],
+    "key": "kbl-hd-9670a7bb7c2000", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 현대모비스 국문 워드마크 · 빨강",
+    "form": "wordmark",
+    "dark": false,
+    "historical": false,
+    "crop": [
+      0.14,
+      0.2,
+      0.86,
+      0.8
+    ],
+    "selected_size": [
+      568,
+      134
+    ]
+  },
+  {
+    "code": "kcc",
+    "name": "emblem-kcc02.png",
+    "url": "https://thunders.kbl.or.kr/assets/img/club/kcc/emblem-kcc02.png",
+    "file": "kbl-assets/kcc-emblem-kcc02.png",
+    "preview": "kbl-assets/kcc-emblem-kcc02.preview.png",
+    "sha256": "87f7671f6d199731f1971eca8f485e0489d74d4cef06e557b586f7fe9974cf7e",
+    "vector": false,
+    "size": [
+      1620,
+      572
+    ],
+    "key": "kbl-kcc-beb662fa167f80", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 KCC 이지스 워드마크",
+    "form": "wordmark",
+    "dark": false,
+    "historical": false,
+    "crop": [
+      0.1,
+      0.2,
+      0.9,
+      0.85
+    ],
+    "selected_size": [
+      842,
+      144
+    ]
+  },
+  {
+    "code": "kcc",
+    "name": "emblem-kcc03.png",
+    "url": "https://thunders.kbl.or.kr/assets/img/club/kcc/emblem-kcc03.png",
+    "file": "kbl-assets/kcc-emblem-kcc03.png",
+    "preview": "kbl-assets/kcc-emblem-kcc03.preview.png",
+    "sha256": "7e481f856cf92471239d6c6ecac0c3dcbef10276660d0489993dd369a12743b6",
+    "vector": false,
+    "size": [
+      1620,
+      754
+    ],
+    "key": "kbl-kcc-6dc76c547e0059", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 KCC 마스코트 · 기본형",
+    "form": "mascot",
+    "dark": false,
+    "historical": false,
+    "crop": [
+      0.29,
+      0.1,
+      0.47,
+      0.9
+    ],
+    "selected_size": [
+      291,
+      604
+    ]
+  },
+  {
+    "code": "kcc",
+    "name": "emblem-kcc03.png",
+    "url": "https://thunders.kbl.or.kr/assets/img/club/kcc/emblem-kcc03.png",
+    "file": "kbl-assets/kcc-emblem-kcc03.png",
+    "preview": "kbl-assets/kcc-emblem-kcc03.preview.png",
+    "sha256": "7e481f856cf92471239d6c6ecac0c3dcbef10276660d0489993dd369a12743b6",
+    "vector": false,
+    "size": [
+      1620,
+      754
+    ],
+    "key": "kbl-kcc-bfc794bc90ab32", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 KCC 마스코트 엠블럼",
+    "form": "mascot",
+    "dark": false,
+    "historical": false,
+    "crop": [
+      0.49,
+      0.1,
+      0.73,
+      0.9
+    ],
+    "selected_size": [
+      389,
+      604
+    ]
+  },
+  {
+    "code": "kgc",
+    "name": "emblem-kgc02.png",
+    "url": "https://thunders.kbl.or.kr/assets/img/club/kgc/emblem-kgc02.png",
+    "file": "kbl-assets/kgc-emblem-kgc02.png",
+    "preview": "kbl-assets/kgc-emblem-kgc02.preview.png",
+    "sha256": "878d788f488d1e97bc5a3bdc5533dece4636117b68b5d7b28eee319818b0cc28",
+    "vector": false,
+    "size": [
+      1620,
+      572
+    ],
+    "key": "kbl-kgc-c655ef72e72145", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 정관장 프로스포츠 CI",
+    "form": "wordmark",
+    "dark": false,
+    "historical": false,
+    "crop": [
+      0.04,
+      0.1,
+      0.96,
+      0.9
+    ],
+    "selected_size": [
+      984,
+      278
+    ]
+  },
+  {
+    "code": "kgc",
+    "name": "emblem-kgc03.png",
+    "url": "https://thunders.kbl.or.kr/assets/img/club/kgc/emblem-kgc03.png",
+    "file": "kbl-assets/kgc-emblem-kgc03.png",
+    "preview": "kbl-assets/kgc-emblem-kgc03.preview.png",
+    "sha256": "a809e516d747955eb8287ccd7af49517386f6e1a4d6fc260b781e4d17134bb0e",
+    "vector": false,
+    "size": [
+      1620,
+      4882
+    ],
+    "key": "kbl-kgc-488c43b807e1fc", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 레드부 · 기본형",
+    "form": "mascot",
+    "dark": false,
+    "historical": false,
+    "crop": [
+      0.46,
+      0.07,
+      0.66,
+      0.15
+    ],
+    "selected_size": [
+      324,
+      390
+    ]
+  },
+  {
+    "code": "kgc",
+    "name": "emblem-kgc03.png",
+    "url": "https://thunders.kbl.or.kr/assets/img/club/kgc/emblem-kgc03.png",
+    "file": "kbl-assets/kgc-emblem-kgc03.png",
+    "preview": "kbl-assets/kgc-emblem-kgc03.preview.png",
+    "sha256": "a809e516d747955eb8287ccd7af49517386f6e1a4d6fc260b781e4d17134bb0e",
+    "vector": false,
+    "size": [
+      1620,
+      4882
+    ],
+    "key": "kbl-kgc-3508e50bf262ed", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 레드부 · 조력자형",
+    "form": "mascot",
+    "dark": false,
+    "historical": false,
+    "crop": [
+      0.66,
+      0.07,
+      0.89,
+      0.15
+    ],
+    "selected_size": [
+      373,
+      390
+    ]
+  },
+  {
+    "code": "kt",
+    "name": "emblem-kt03.jpg",
+    "url": "https://thunders.kbl.or.kr/assets/img/club/kt/emblem-kt03.jpg",
+    "file": "kbl-assets/kt-emblem-kt03.jpg",
+    "preview": "kbl-assets/kt-emblem-kt03.preview.png",
+    "sha256": "603f01084cab3bcf256aac4b208779afff3894ed5a12dc753536f9c2b818087d",
+    "vector": false,
+    "size": [
+      1754,
+      621
+    ],
+    "key": "kbl-kt-3b2efebd34acac", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 ONE TEAM ONE DREAM 슬로건",
+    "form": "wordmark",
+    "dark": false,
+    "historical": false,
+    "crop": [
+      0.08,
+      0.08,
+      0.92,
+      0.9
+    ],
+    "selected_size": [
+      1474,
+      509
+    ]
+  },
+  {
+    "code": "lg",
+    "name": "emblem-lg02.png",
+    "url": "https://thunders.kbl.or.kr/assets/img/club/lg/emblem-lg02.png",
+    "file": "kbl-assets/lg-emblem-lg02.png",
+    "preview": "kbl-assets/lg-emblem-lg02.preview.png",
+    "sha256": "cac58e7a7b38bb77eb42ec4a831a846b02ce340ff7bf130ad39f596d76b35421",
+    "vector": false,
+    "size": [
+      796,
+      360
+    ],
+    "key": "kbl-lg-998f47c2bf05d7", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 세이커스 워드마크 · 영문 조합형",
+    "form": "wordmark",
+    "dark": false,
+    "historical": false,
+    "crop": [
+      0.15,
+      0.17,
+      0.86,
+      0.88
+    ],
+    "selected_size": [
+      566,
+      256
+    ]
+  },
+  {
+    "code": "lg",
+    "name": "emblem-lg03.png",
+    "url": "https://thunders.kbl.or.kr/assets/img/club/lg/emblem-lg03.png",
+    "file": "kbl-assets/lg-emblem-lg03.png",
+    "preview": "kbl-assets/lg-emblem-lg03.preview.png",
+    "sha256": "d265e487a7485ea27e6fa989cedd9aa185ea2087e4fb83567ddfbfd3ea54dd25",
+    "vector": false,
+    "size": [
+      796,
+      360
+    ],
+    "key": "kbl-lg-006e95629520f5", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 세이커스 워드마크 · 영문 단독형",
+    "form": "wordmark",
+    "dark": false,
+    "historical": false,
+    "crop": [
+      0.15,
+      0.17,
+      0.86,
+      0.88
+    ],
+    "selected_size": [
+      566,
+      256
+    ]
+  },
+  {
+    "code": "lg",
+    "name": "emblem-lg04.png",
+    "url": "https://thunders.kbl.or.kr/assets/img/club/lg/emblem-lg04.png",
+    "file": "kbl-assets/lg-emblem-lg04.png",
+    "preview": "kbl-assets/lg-emblem-lg04.preview.png",
+    "sha256": "409ae272f3870195182d4022bdfa17e6febccde87e18d23b968ffbf063fcd004",
+    "vector": false,
+    "size": [
+      1620,
+      860
+    ],
+    "key": "kbl-lg-f8e644b5d0783b", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 챔비",
+    "form": "mascot",
+    "dark": false,
+    "historical": false,
+    "crop": [
+      0.25,
+      0.18,
+      0.47,
+      0.91
+    ],
+    "selected_size": [
+      356,
+      628
+    ]
+  },
+  {
+    "code": "lg",
+    "name": "emblem-lg04.png",
+    "url": "https://thunders.kbl.or.kr/assets/img/club/lg/emblem-lg04.png",
+    "file": "kbl-assets/lg-emblem-lg04.png",
+    "preview": "kbl-assets/lg-emblem-lg04.preview.png",
+    "sha256": "409ae272f3870195182d4022bdfa17e6febccde87e18d23b968ffbf063fcd004",
+    "vector": false,
+    "size": [
+      1620,
+      860
+    ],
+    "key": "kbl-lg-10a65cd9d25a60", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 꼬마 챔비",
+    "form": "mascot",
+    "dark": false,
+    "historical": false,
+    "crop": [
+      0.65,
+      0.33,
+      0.9,
+      0.91
+    ],
+    "selected_size": [
+      405,
+      499
+    ]
+  },
+  {
+    "code": "pega",
+    "name": "emblem-pega02.png",
+    "url": "https://thunders.kbl.or.kr/assets/img/club/pega/emblem-pega02.png",
+    "file": "kbl-assets/pega-emblem-pega02.png",
+    "preview": "kbl-assets/pega-emblem-pega02.preview.png",
+    "sha256": "aea474eb6551682f86fe437b2fe9d7c665101c0cba60e0a20ec254ccf0742414",
+    "vector": false,
+    "size": [
+      790,
+      572
+    ],
+    "key": "kbl-pega-322a482d8e7918", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 페가수스 워드마크",
+    "form": "wordmark",
+    "dark": false,
+    "historical": false,
+    "crop": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "selected_size": [
+      430,
+      208
+    ]
+  },
+  {
+    "code": "pega",
+    "name": "emblem-pega03.png",
+    "url": "https://thunders.kbl.or.kr/assets/img/club/pega/emblem-pega03.png",
+    "file": "kbl-assets/pega-emblem-pega03.png",
+    "preview": "kbl-assets/pega-emblem-pega03.preview.png",
+    "sha256": "97c9ca3be1634e2d478bf1434291735a221f94ea33b5a19aaf50d8253b137f86",
+    "vector": false,
+    "size": [
+      1620,
+      754
+    ],
+    "key": "kbl-pega-adca5644664d55", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 페가수스 마스코트 기본형",
+    "form": "mascot",
+    "dark": false,
+    "historical": false,
+    "crop": [
+      0.12,
+      0.07,
+      0.5,
+      0.91
+    ],
+    "selected_size": [
+      616,
+      633
+    ]
+  },
+  {
+    "code": "pega",
+    "name": "emblem-pega03.png",
+    "url": "https://thunders.kbl.or.kr/assets/img/club/pega/emblem-pega03.png",
+    "file": "kbl-assets/pega-emblem-pega03.png",
+    "preview": "kbl-assets/pega-emblem-pega03.preview.png",
+    "sha256": "97c9ca3be1634e2d478bf1434291735a221f94ea33b5a19aaf50d8253b137f86",
+    "vector": false,
+    "size": [
+      1620,
+      754
+    ],
+    "key": "kbl-pega-9a51101e3a5d04", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 페가수스 마스코트 응용형",
+    "form": "mascot",
+    "dark": false,
+    "historical": false,
+    "crop": [
+      0.49,
+      0.06,
+      0.89,
+      0.94
+    ],
+    "selected_size": [
+      648,
+      664
+    ]
+  },
+  {
+    "code": "sk",
+    "name": "emblem-sk01.png",
+    "url": "https://thunders.kbl.or.kr/assets/img/club/sk/emblem-sk01.png",
+    "file": "kbl-assets/sk-emblem-sk01.png",
+    "preview": "kbl-assets/sk-emblem-sk01.preview.png",
+    "sha256": "72297c672e16b502eb158c7afd94d5782cdea1504873a276fa61b5c9f8e604c1",
+    "vector": false,
+    "size": [
+      796,
+      360
+    ],
+    "key": "kbl-sk-1adeda3c8b565e", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 SK 나이츠 워드마크",
+    "form": "wordmark",
+    "dark": false,
+    "historical": false,
+    "crop": [
+      0.13,
+      0.25,
+      0.89,
+      0.88
+    ],
+    "selected_size": [
+      605,
+      227
+    ]
+  },
+  {
+    "code": "sk",
+    "name": "emblem-sk03.png",
+    "url": "https://thunders.kbl.or.kr/assets/img/club/sk/emblem-sk03.png",
+    "file": "kbl-assets/sk-emblem-sk03.png",
+    "preview": "kbl-assets/sk-emblem-sk03.preview.png",
+    "sha256": "d5b9d4ff91f0baa919160490454261726c49f83768135f6a4ff72d9ee358fd81",
+    "vector": false,
+    "size": [
+      796,
+      360
+    ],
+    "key": "kbl-sk-35d95a17a5dffd", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 SK 나이츠 국문 커뮤니케이션명",
+    "form": "wordmark",
+    "dark": false,
+    "historical": false,
+    "crop": [
+      0.13,
+      0.25,
+      0.89,
+      0.88
+    ],
+    "selected_size": [
+      605,
+      227
+    ]
+  },
+  {
+    "code": "sk",
+    "name": "emblem-sk04.png",
+    "url": "https://thunders.kbl.or.kr/assets/img/club/sk/emblem-sk04.png",
+    "file": "kbl-assets/sk-emblem-sk04.png",
+    "preview": "kbl-assets/sk-emblem-sk04.preview.png",
+    "sha256": "a025a6e3d0a13aceb82a74e0c3f8ece8bedcc1331815da9a59188fbff322f49e",
+    "vector": false,
+    "size": [
+      796,
+      360
+    ],
+    "key": "kbl-sk-54fadbc16d124c", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 SK 나이츠 영문 커뮤니케이션명",
+    "form": "wordmark",
+    "dark": false,
+    "historical": false,
+    "crop": [
+      0.13,
+      0.25,
+      0.89,
+      0.88
+    ],
+    "selected_size": [
+      605,
+      227
+    ]
+  },
+  {
+    "code": "sk",
+    "name": "emblem-sk05.png",
+    "url": "https://thunders.kbl.or.kr/assets/img/club/sk/emblem-sk05.png",
+    "file": "kbl-assets/sk-emblem-sk05.png",
+    "preview": "kbl-assets/sk-emblem-sk05.preview.png",
+    "sha256": "8a231d02a4becb3d4140d08850ac9c2ae0485ccea304f11a979e26e50347d1fd",
+    "vector": false,
+    "size": [
+      796,
+      360
+    ],
+    "key": "kbl-sk-d8cd547d7e01e2", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "기념 · SK 나이츠 2017–18 챔피언",
+    "form": "emblem",
+    "dark": false,
+    "historical": true,
+    "crop": [
+      0.14,
+      0.18,
+      0.88,
+      0.9
+    ],
+    "selected_size": [
+      589,
+      259
+    ]
+  },
+  {
+    "code": "sk",
+    "name": "emblem-sk06.png",
+    "url": "https://thunders.kbl.or.kr/assets/img/club/sk/emblem-sk06.png",
+    "file": "kbl-assets/sk-emblem-sk06.png",
+    "preview": "kbl-assets/sk-emblem-sk06.preview.png",
+    "sha256": "3a962b024e53855c6c5e314b8389b8a432857de9f1579216b0002210953f79e7",
+    "vector": false,
+    "size": [
+      796,
+      360
+    ],
+    "key": "kbl-sk-db3b33c5ec0b17", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "기념 · SK 나이츠 2021–22 챔피언",
+    "form": "emblem",
+    "dark": false,
+    "historical": true,
+    "crop": [
+      0.14,
+      0.18,
+      0.88,
+      0.9
+    ],
+    "selected_size": [
+      589,
+      259
+    ]
+  },
+  {
+    "code": "sk",
+    "name": "emblem-sk07.png",
+    "url": "https://thunders.kbl.or.kr/assets/img/club/sk/emblem-sk07.png",
+    "file": "kbl-assets/sk-emblem-sk07.png",
+    "preview": "kbl-assets/sk-emblem-sk07.preview.png",
+    "sha256": "2b4e96a3839e355f516f7992226ab43b72b4b1342cdfa36ee8661eb2389dadab",
+    "vector": false,
+    "size": [
+      796,
+      360
+    ],
+    "key": "kbl-sk-eaa083fd9e8848", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "기념 · SK 나이츠 20주년 엠블럼",
+    "form": "emblem",
+    "dark": false,
+    "historical": true,
+    "crop": [
+      0.14,
+      0.18,
+      0.88,
+      0.9
+    ],
+    "selected_size": [
+      589,
+      259
+    ]
+  },
+  {
+    "code": "sk",
+    "name": "emblem-sk08.png",
+    "url": "https://thunders.kbl.or.kr/assets/img/club/sk/emblem-sk08.png",
+    "file": "kbl-assets/sk-emblem-sk08.png",
+    "preview": "kbl-assets/sk-emblem-sk08.preview.png",
+    "sha256": "b882a62dbb9749c6d58b1ce29c0f7da83b8ce75ea0be6593c1e6bfdc71bebf6b",
+    "vector": false,
+    "size": [
+      796,
+      360
+    ],
+    "key": "kbl-sk-5cf085e7de9009", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "기념 · SK 나이츠 20주년 슬로건",
+    "form": "wordmark",
+    "dark": false,
+    "historical": true,
+    "crop": [
+      0.14,
+      0.18,
+      0.88,
+      0.9
+    ],
+    "selected_size": [
+      589,
+      259
+    ]
+  },
+  {
+    "code": "sk",
+    "name": "emblem-sk09.png",
+    "url": "https://thunders.kbl.or.kr/assets/img/club/sk/emblem-sk09.png",
+    "file": "kbl-assets/sk-emblem-sk09.png",
+    "preview": "kbl-assets/sk-emblem-sk09.preview.png",
+    "sha256": "5826cd3671754fa358fcc1cd187d5fa2f7ec7ac4d03c781e958bb8f239d40e83",
+    "vector": false,
+    "size": [
+      796,
+      360
+    ],
+    "key": "kbl-sk-4cb31e0eae848c", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 SK 나이츠 FANTASTIC 응용형 · A",
+    "form": "wordmark",
+    "dark": false,
+    "historical": false,
+    "crop": [
+      0.14,
+      0.18,
+      0.88,
+      0.9
+    ],
+    "selected_size": [
+      589,
+      259
+    ]
+  },
+  {
+    "code": "sk",
+    "name": "emblem-sk10.png",
+    "url": "https://thunders.kbl.or.kr/assets/img/club/sk/emblem-sk10.png",
+    "file": "kbl-assets/sk-emblem-sk10.png",
+    "preview": "kbl-assets/sk-emblem-sk10.preview.png",
+    "sha256": "9cfd609b643d566cf39bd18e546a2a53decfe560288b17b91e343af0559d1d11",
+    "vector": false,
+    "size": [
+      796,
+      360
+    ],
+    "key": "kbl-sk-84c98da179c3d6", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 SK 나이츠 FANTASTIC 응용형 · B",
+    "form": "wordmark",
+    "dark": false,
+    "historical": false,
+    "crop": [
+      0.14,
+      0.18,
+      0.88,
+      0.9
+    ],
+    "selected_size": [
+      589,
+      259
+    ]
+  },
+  {
+    "code": "sk",
+    "name": "emblem-sk11.png",
+    "url": "https://thunders.kbl.or.kr/assets/img/club/sk/emblem-sk11.png",
+    "file": "kbl-assets/sk-emblem-sk11.png",
+    "preview": "kbl-assets/sk-emblem-sk11.preview.png",
+    "sha256": "a5a34b25eb5add64b1240ff6e834b88567f4c567f28b2bda310a29735eb64efb",
+    "vector": false,
+    "size": [
+      796,
+      360
+    ],
+    "key": "kbl-sk-627dd6dc523a4a", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 SK 나이츠 FANTASTIC 응용형 · C",
+    "form": "wordmark",
+    "dark": false,
+    "historical": false,
+    "crop": [
+      0.14,
+      0.18,
+      0.88,
+      0.9
+    ],
+    "selected_size": [
+      589,
+      259
+    ]
+  },
+  {
+    "code": "sk",
+    "name": "emblem-sk12.png",
+    "url": "https://thunders.kbl.or.kr/assets/img/club/sk/emblem-sk12.png",
+    "file": "kbl-assets/sk-emblem-sk12.png",
+    "preview": "kbl-assets/sk-emblem-sk12.preview.png",
+    "sha256": "867509ef7e5c425820e72f7e919e8f1ee4bf0f072c674cff1fa0a4ba2352535f",
+    "vector": false,
+    "size": [
+      796,
+      360
+    ],
+    "key": "kbl-sk-9d86cfec4934f8", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 SK 나이츠 FANTASTIC 응용형 · D",
+    "form": "wordmark",
+    "dark": false,
+    "historical": false,
+    "crop": [
+      0.14,
+      0.18,
+      0.88,
+      0.9
+    ],
+    "selected_size": [
+      589,
+      259
+    ]
+  },
+  {
+    "code": "sk",
+    "name": "emblem-sk13.png",
+    "url": "https://thunders.kbl.or.kr/assets/img/club/sk/emblem-sk13.png",
+    "file": "kbl-assets/sk-emblem-sk13.png",
+    "preview": "kbl-assets/sk-emblem-sk13.preview.png",
+    "sha256": "c90b57fdceaf9ad14a282180d8c56269e0432c3aba0eb2f70df1018cc25fc924",
+    "vector": false,
+    "size": [
+      1620,
+      860
+    ],
+    "key": "kbl-sk-81b9cdddbd6498", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 SK 나이츠 마스코트 · A",
+    "form": "mascot",
+    "dark": false,
+    "historical": false,
+    "crop": [
+      0.19,
+      0.09,
+      0.83,
+      0.92
+    ],
+    "selected_size": [
+      1037,
+      714
+    ]
+  },
+  {
+    "code": "sk",
+    "name": "emblem-sk14.png",
+    "url": "https://thunders.kbl.or.kr/assets/img/club/sk/emblem-sk14.png",
+    "file": "kbl-assets/sk-emblem-sk14.png",
+    "preview": "kbl-assets/sk-emblem-sk14.preview.png",
+    "sha256": "6722787e39dac4fc0e31e1d817f10f76aa27f4bb79e91001abeff6a11d2f07c6",
+    "vector": false,
+    "size": [
+      1620,
+      860
+    ],
+    "key": "kbl-sk-5ea2c9dfca8b6d", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 SK 나이츠 마스코트 · B",
+    "form": "mascot",
+    "dark": false,
+    "historical": false,
+    "crop": [
+      0.19,
+      0.09,
+      0.83,
+      0.92
+    ],
+    "selected_size": [
+      1037,
+      714
+    ]
+  },
+  {
+    "code": "sono",
+    "name": "mascot-sono01.png",
+    "url": "https://thunders.kbl.or.kr/assets/img/club/sono/mascot-sono01.png",
+    "file": "kbl-assets/sono-mascot-sono01.png",
+    "preview": "kbl-assets/sono-mascot-sono01.preview.png",
+    "sha256": "da2fae03dd60293d16a4c71eca610ec64cf55b9d033077676e8a4643b9f05454",
+    "vector": false,
+    "size": [
+      1620,
+      608
+    ],
+    "key": "kbl-sono-e97d77cf5fc3aa", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 쏘냐 · 3면도",
+    "form": "mascot",
+    "dark": false,
+    "historical": false,
+    "crop": [
+      0.08,
+      0.03,
+      0.95,
+      0.95
+    ],
+    "selected_size": [
+      1409,
+      560
+    ]
+  },
+  {
+    "code": "sono",
+    "name": "mascot-sono02.png",
+    "url": "https://thunders.kbl.or.kr/assets/img/club/sono/mascot-sono02.png",
+    "file": "kbl-assets/sono-mascot-sono02.png",
+    "preview": "kbl-assets/sono-mascot-sono02.preview.png",
+    "sha256": "a8dca7abaf0fd1ba9502796d07d9994df79c6a49df2fe460f66db5be434c6c61",
+    "vector": false,
+    "size": [
+      1620,
+      608
+    ],
+    "key": "kbl-sono-f5e071b660b0c3", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 위냐 · 3면도",
+    "form": "mascot",
+    "dark": false,
+    "historical": false,
+    "crop": [
+      0.08,
+      0.03,
+      0.95,
+      0.95
+    ],
+    "selected_size": [
+      1409,
+      560
+    ]
+  },
+  {
+    "code": "ss",
+    "name": "ss-logo02.svg",
+    "url": "https://thunders.kbl.or.kr/assets/img/club/ss/ss-logo02.svg",
+    "file": "kbl-assets/ss-ss-logo02.svg",
+    "preview": "kbl-assets/ss-ss-logo02.preview.png",
+    "sha256": "339e02265089e5a0f0d2b8c6314111907bc38dfd8cd7372a5790249f7631dba1",
+    "vector": true,
+    "size": [
+      1200,
+      727
+    ],
+    "key": "kbl-ss-6a9fed86050746", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 썬더스 영문 조합형 · 다크용",
+    "form": "wordmark",
+    "dark": true,
+    "historical": false,
+    "crop": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "selected_size": [
+      1146,
+      363
+    ]
+  },
+  {
+    "code": "ss",
+    "name": "emblem-ss02.png",
+    "url": "https://thunders.kbl.or.kr/assets/img/club/ss/emblem-ss02.png",
+    "file": "kbl-assets/ss-emblem-ss02.png",
+    "preview": "kbl-assets/ss-emblem-ss02.preview.png",
+    "sha256": "9d06adfe4ce5f33cfeea175417b76832339d6f08e4346f5d45f1289708398a22",
+    "vector": false,
+    "size": [
+      796,
+      360
+    ],
+    "key": "kbl-ss-b00630bdd27e1c", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 썬더스 워드마크 · 영문·국문",
+    "form": "wordmark",
+    "dark": false,
+    "historical": false,
+    "crop": [
+      0.14,
+      0.24,
+      0.89,
+      0.87
+    ],
+    "selected_size": [
+      597,
+      227
+    ]
+  },
+  {
+    "code": "ss",
+    "name": "emblem-ss03.png",
+    "url": "https://thunders.kbl.or.kr/assets/img/club/ss/emblem-ss03.png",
+    "file": "kbl-assets/ss-emblem-ss03.png",
+    "preview": "kbl-assets/ss-emblem-ss03.preview.png",
+    "sha256": "23b49a94b8bd3df3a10f3216461b740ef68969df0b65992a509fb03d3c8ce59c",
+    "vector": false,
+    "size": [
+      796,
+      360
+    ],
+    "key": "kbl-ss-e12db7db21e5f0", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 썬더스 워드마크 · 국문·영문",
+    "form": "wordmark",
+    "dark": false,
+    "historical": false,
+    "crop": [
+      0.14,
+      0.24,
+      0.89,
+      0.87
+    ],
+    "selected_size": [
+      597,
+      227
+    ]
+  },
+  {
+    "code": "ss",
+    "name": "emblem-ss04.png",
+    "url": "https://thunders.kbl.or.kr/assets/img/club/ss/emblem-ss04.png",
+    "file": "kbl-assets/ss-emblem-ss04.png",
+    "preview": "kbl-assets/ss-emblem-ss04.preview.png",
+    "sha256": "a3779470354eda01fd17171ccf6df634335e4b83f627a021bc15cca426ec9bdf",
+    "vector": false,
+    "size": [
+      796,
+      360
+    ],
+    "key": "kbl-ss-c745ee04fa4e71", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 썬더스 워드마크 · 국문·국문",
+    "form": "wordmark",
+    "dark": false,
+    "historical": false,
+    "crop": [
+      0.14,
+      0.24,
+      0.89,
+      0.87
+    ],
+    "selected_size": [
+      597,
+      227
+    ]
+  }
+]

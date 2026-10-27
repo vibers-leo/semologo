@@ -1,0 +1,1156 @@
+[
+  {
+    "team": "K01",
+    "url": "https://www.uhdfc.com/images/sub/emblem.ai",
+    "page": "https://www.uhdfc.com/fc/emblem.php",
+    "file": "kleague-originals/K01-emblem-4d321e07b4af.ai",
+    "sha256": "f9e2423bdb3074d281de38bdf57be7327eccde00f0c14ff4f4480d61f8fc2d3d",
+    "bytes": 1087377,
+    "member": "K01-emblem-4d321e07b4af.ai",
+    "source_sha256": "f9e2423bdb3074d281de38bdf57be7327eccde00f0c14ff4f4480d61f8fc2d3d",
+    "token": "K01-f9e2423bdb3074d2-p0", "_token_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "vector": true,
+    "size": [
+      1400,
+      990
+    ],
+    "key": "K01-af5555e775603d01", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "역대 공식 울산현대축구단 조합형 · 연도 미상",
+    "form": "horizontal",
+    "historical": true,
+    "dark": false,
+    "crop": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "selected_size": [
+      573,
+      195
+    ]
+  },
+  {
+    "team": "K10",
+    "url": "https://www.dhcfc.kr/images/emb/DHFC_Emblem_ai.zip",
+    "page": "https://www.dhcfc.kr/cl/emb.php",
+    "file": "kleague-originals/K10-emblem-fb0ba45af7cd.zip",
+    "sha256": "d5255c983ccd5eaa3c002a2e66b1e680ca6ac93a9af0b53e3d4032f53e69010b",
+    "bytes": 1804365,
+    "member": "DHFC Emblem ai/DHFC Emblem Final-Brief-CS6.ai",
+    "source_sha256": "e9b833eef063b5b2639a5363e389d4c2ec5de22914fba73f87013924060f576e",
+    "token": "K10-e9b833eef063b5b2-p0", "_token_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "vector": true,
+    "size": [
+      1400,
+      1001
+    ],
+    "key": "K10-73347cc4e5e3fb94", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 대전 영문 세로 조합형",
+    "form": "vertical",
+    "historical": false,
+    "dark": false,
+    "crop": [
+      0.3,
+      0.12,
+      0.7,
+      0.65
+    ],
+    "selected_size": [
+      843,
+      1080
+    ]
+  },
+  {
+    "team": "K10",
+    "url": "https://www.dhcfc.kr/images/emb/DHFC_Emblem_ai.zip",
+    "page": "https://www.dhcfc.kr/cl/emb.php",
+    "file": "kleague-originals/K10-emblem-fb0ba45af7cd.zip",
+    "sha256": "d5255c983ccd5eaa3c002a2e66b1e680ca6ac93a9af0b53e3d4032f53e69010b",
+    "bytes": 1804365,
+    "member": "DHFC Emblem ai/DHFC Emblem Final-Brief-CS6.ai",
+    "source_sha256": "e9b833eef063b5b2639a5363e389d4c2ec5de22914fba73f87013924060f576e",
+    "token": "K10-e9b833eef063b5b2-p2", "_token_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "vector": true,
+    "size": [
+      1400,
+      1001
+    ],
+    "key": "K10-c12254d98302aa81", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 대전 단독 엠블럼 · 컬러",
+    "form": "emblem",
+    "historical": false,
+    "dark": false,
+    "crop": [
+      0.15,
+      0.24,
+      0.255,
+      0.46
+    ],
+    "selected_size": [
+      1068,
+      1600
+    ]
+  },
+  {
+    "team": "K10",
+    "url": "https://www.dhcfc.kr/images/emb/DHFC_Emblem_ai.zip",
+    "page": "https://www.dhcfc.kr/cl/emb.php",
+    "file": "kleague-originals/K10-emblem-fb0ba45af7cd.zip",
+    "sha256": "d5255c983ccd5eaa3c002a2e66b1e680ca6ac93a9af0b53e3d4032f53e69010b",
+    "bytes": 1804365,
+    "member": "DHFC Emblem ai/DHFC Emblem Final-Brief-CS6.ai",
+    "source_sha256": "e9b833eef063b5b2639a5363e389d4c2ec5de22914fba73f87013924060f576e",
+    "token": "K10-e9b833eef063b5b2-p2", "_token_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "vector": true,
+    "size": [
+      1400,
+      1001
+    ],
+    "key": "K10-e06802be2dae2747", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 대전 단독 엠블럼 · 검정",
+    "form": "emblem",
+    "historical": false,
+    "dark": false,
+    "crop": [
+      0.35,
+      0.53,
+      0.455,
+      0.74
+    ],
+    "selected_size": [
+      1119,
+      1600
+    ]
+  },
+  {
+    "team": "K10",
+    "url": "https://www.dhcfc.kr/images/emb/DHFC_Emblem_ai.zip",
+    "page": "https://www.dhcfc.kr/cl/emb.php",
+    "file": "kleague-originals/K10-emblem-fb0ba45af7cd.zip",
+    "sha256": "d5255c983ccd5eaa3c002a2e66b1e680ca6ac93a9af0b53e3d4032f53e69010b",
+    "bytes": 1804365,
+    "member": "DHFC Emblem ai/DHFC Emblem Final-Brief-CS6.ai",
+    "source_sha256": "e9b833eef063b5b2639a5363e389d4c2ec5de22914fba73f87013924060f576e",
+    "token": "K10-e9b833eef063b5b2-p2", "_token_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "vector": true,
+    "size": [
+      1400,
+      1001
+    ],
+    "key": "K10-dca4e184dc2ed616", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 대전 단독 엠블럼 · 초록",
+    "form": "emblem",
+    "historical": false,
+    "dark": false,
+    "crop": [
+      0.15,
+      0.53,
+      0.255,
+      0.74
+    ],
+    "selected_size": [
+      1119,
+      1600
+    ]
+  },
+  {
+    "team": "K10",
+    "url": "https://www.dhcfc.kr/images/emb/pngdown(Loyal_Crest)_200515.zip",
+    "page": "https://www.dhcfc.kr/cl/emb.php",
+    "file": "kleague-originals/K10-emblem-dc4d99192bc5.zip",
+    "sha256": "3e8005a2c19d4dc474c2125b78460ae2597e406f4c6c30a6407a4db09dc39e59",
+    "bytes": 248126,
+    "member": "Loyal Crest.png",
+    "source_sha256": "b80c66761166ec5fcc445a8e289b082830814d47f96c55db8e660ace8a6f2972",
+    "token": "K10-b80c66761166ec5f", "_token_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "vector": false,
+    "size": [
+      1432,
+      1351
+    ],
+    "key": "K10-0e0f0893664be540", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 대전 로열 크레스트",
+    "form": "emblem",
+    "historical": false,
+    "dark": false,
+    "crop": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "selected_size": [
+      1232,
+      1151
+    ]
+  },
+  {
+    "team": "K10",
+    "url": "https://www.dhcfc.kr/images/emb/pngdown(Slogan).zip",
+    "page": "https://www.dhcfc.kr/cl/emb.php",
+    "file": "kleague-originals/K10-emblem-e8c0a7e4a8e9.zip",
+    "sha256": "29f9175c344f2540bf66e4f3895e71f9e772d3725740956d617a9284292952df",
+    "bytes": 84739,
+    "member": "slogan.png",
+    "source_sha256": "2cfa45431104560f747f7fbae64498b8cea4b6cf959b886f1a4c65dc04b28115",
+    "token": "K10-2cfa45431104560f", "_token_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "vector": false,
+    "size": [
+      603,
+      1076
+    ],
+    "key": "K10-a0f56413b112714e", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 대전 Together We Stand 슬로건",
+    "form": "vertical",
+    "historical": false,
+    "dark": false,
+    "crop": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "selected_size": [
+      603,
+      1076
+    ]
+  },
+  {
+    "team": "K04",
+    "url": "https://www.jejuskfc.com/uploadfile/club_ci/20260630050835180_55916008b76d4457.zip",
+    "page": "https://www.jejuskfc.com/club/introduction/mascot",
+    "file": "kleague-originals/K04-bi-2fa63028132f.zip",
+    "sha256": "bcd888dc9d92d62c63b934909d6d60404ce62b46a4318757ee4ee137e46e88a4",
+    "bytes": 25656626,
+    "member": "AI/1 엠블럼.ai",
+    "source_sha256": "061dacdc7ed0f3f2af9f826c31039844a7c1019135152a2129d1dc26d700f502",
+    "token": "K04-061dacdc7ed0f3f2-p0", "_token_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "vector": true,
+    "size": [
+      814,
+      937
+    ],
+    "key": "K04-3a555bf388837225", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 제주 엠블럼",
+    "form": "emblem",
+    "historical": false,
+    "dark": false,
+    "crop": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "selected_size": [
+      1358,
+      1572
+    ]
+  },
+  {
+    "team": "K04",
+    "url": "https://www.jejuskfc.com/uploadfile/club_ci/20260630050835180_55916008b76d4457.zip",
+    "page": "https://www.jejuskfc.com/club/introduction/mascot",
+    "file": "kleague-originals/K04-bi-2fa63028132f.zip",
+    "sha256": "bcd888dc9d92d62c63b934909d6d60404ce62b46a4318757ee4ee137e46e88a4",
+    "bytes": 25656626,
+    "member": "AI/1-1 엠블럼_1도_Orange.ai",
+    "source_sha256": "c1493e043f5813370adbe2cc8aa5a82d17ea5bb4322bb6352397dc42e8b3567e",
+    "token": "K04-c1493e043f581337-p0", "_token_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "vector": true,
+    "size": [
+      814,
+      937
+    ],
+    "key": "K04-3ed4b0d5d3c359b5", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 제주 엠블럼 · 1도 · Orange",
+    "form": "emblem",
+    "historical": false,
+    "dark": false,
+    "crop": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "selected_size": [
+      1358,
+      1572
+    ]
+  },
+  {
+    "team": "K04",
+    "url": "https://www.jejuskfc.com/uploadfile/club_ci/20260630050835180_55916008b76d4457.zip",
+    "page": "https://www.jejuskfc.com/club/introduction/mascot",
+    "file": "kleague-originals/K04-bi-2fa63028132f.zip",
+    "sha256": "bcd888dc9d92d62c63b934909d6d60404ce62b46a4318757ee4ee137e46e88a4",
+    "bytes": 25656626,
+    "member": "AI/1-2 엠블럼_1도_Red.ai",
+    "source_sha256": "41dc6b9fe962065b974354d662464f6d0915fcf6d06cc4425941c52d1cbcade4",
+    "token": "K04-41dc6b9fe962065b-p0", "_token_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "vector": true,
+    "size": [
+      814,
+      937
+    ],
+    "key": "K04-ef5c96dcd3c41dc4", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 제주 엠블럼 · 1도 · Red",
+    "form": "emblem",
+    "historical": false,
+    "dark": false,
+    "crop": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "selected_size": [
+      1358,
+      1572
+    ]
+  },
+  {
+    "team": "K04",
+    "url": "https://www.jejuskfc.com/uploadfile/club_ci/20260630050835180_55916008b76d4457.zip",
+    "page": "https://www.jejuskfc.com/club/introduction/mascot",
+    "file": "kleague-originals/K04-bi-2fa63028132f.zip",
+    "sha256": "bcd888dc9d92d62c63b934909d6d60404ce62b46a4318757ee4ee137e46e88a4",
+    "bytes": 25656626,
+    "member": "AI/1-3 엠블럼_1도_Dark Blue.ai",
+    "source_sha256": "999011c9c622e76a69abc5f37162be02fa1f6c4ae04faa25b5b6202c10bf6c4c",
+    "token": "K04-999011c9c622e76a-p0", "_token_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "vector": true,
+    "size": [
+      814,
+      937
+    ],
+    "key": "K04-a532bfe9c7aa08f2", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 제주 엠블럼 · 1도 · Dark Blue",
+    "form": "emblem",
+    "historical": false,
+    "dark": false,
+    "crop": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "selected_size": [
+      1358,
+      1572
+    ]
+  },
+  {
+    "team": "K04",
+    "url": "https://www.jejuskfc.com/uploadfile/club_ci/20260630050835180_55916008b76d4457.zip",
+    "page": "https://www.jejuskfc.com/club/introduction/mascot",
+    "file": "kleague-originals/K04-bi-2fa63028132f.zip",
+    "sha256": "bcd888dc9d92d62c63b934909d6d60404ce62b46a4318757ee4ee137e46e88a4",
+    "bytes": 25656626,
+    "member": "AI/1-4 엠블럼_1도_Black.ai",
+    "source_sha256": "17ee2217c5d1a90cd5e8cf6e97479daa758f19bd41e089a239ac4c35a2bf5731",
+    "token": "K04-17ee2217c5d1a90c-p0", "_token_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "vector": true,
+    "size": [
+      814,
+      937
+    ],
+    "key": "K04-a8a2faf499a952b1", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 제주 엠블럼 · 1도 · Black",
+    "form": "emblem",
+    "historical": false,
+    "dark": false,
+    "crop": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "selected_size": [
+      1358,
+      1572
+    ]
+  },
+  {
+    "team": "K04",
+    "url": "https://www.jejuskfc.com/uploadfile/club_ci/20260630050835180_55916008b76d4457.zip",
+    "page": "https://www.jejuskfc.com/club/introduction/mascot",
+    "file": "kleague-originals/K04-bi-2fa63028132f.zip",
+    "sha256": "bcd888dc9d92d62c63b934909d6d60404ce62b46a4318757ee4ee137e46e88a4",
+    "bytes": 25656626,
+    "member": "AI/10 상하조합_국문_활용형.ai",
+    "source_sha256": "c90daa7a29f31ba1be4196f178801ef1ada9c574c7159528392c3fad8745ddb0",
+    "token": "K04-c90daa7a29f31ba1-p0", "_token_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "vector": true,
+    "size": [
+      1400,
+      1199
+    ],
+    "key": "K04-8b82f63eca0ad7c2", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 제주 상하조합 · 국문 · 활용형",
+    "form": "vertical",
+    "historical": false,
+    "dark": false,
+    "crop": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "selected_size": [
+      1584,
+      1359
+    ]
+  },
+  {
+    "team": "K04",
+    "url": "https://www.jejuskfc.com/uploadfile/club_ci/20260630050835180_55916008b76d4457.zip",
+    "page": "https://www.jejuskfc.com/club/introduction/mascot",
+    "file": "kleague-originals/K04-bi-2fa63028132f.zip",
+    "sha256": "bcd888dc9d92d62c63b934909d6d60404ce62b46a4318757ee4ee137e46e88a4",
+    "bytes": 25656626,
+    "member": "AI/11 좌우조합_영문_기본형.ai",
+    "source_sha256": "798779dc461c3c3faf66e0a2695bbf3f3141e0db4aa09a8496b3720367065584",
+    "token": "K04-798779dc461c3c3f-p0", "_token_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "vector": true,
+    "size": [
+      1400,
+      424
+    ],
+    "key": "K04-6bafc74a297ba6e7", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 제주 좌우조합 · 영문 · 기본형",
+    "form": "horizontal",
+    "historical": false,
+    "dark": false,
+    "crop": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "selected_size": [
+      1588,
+      474
+    ]
+  },
+  {
+    "team": "K04",
+    "url": "https://www.jejuskfc.com/uploadfile/club_ci/20260630050835180_55916008b76d4457.zip",
+    "page": "https://www.jejuskfc.com/club/introduction/mascot",
+    "file": "kleague-originals/K04-bi-2fa63028132f.zip",
+    "sha256": "bcd888dc9d92d62c63b934909d6d60404ce62b46a4318757ee4ee137e46e88a4",
+    "bytes": 25656626,
+    "member": "AI/12 좌우조합_영문_활용형.ai",
+    "source_sha256": "ca5f4a336dcd3bcc5c1c310cbdd2e4f1358e75eb60c9785f231cf1f31b46bf6c",
+    "token": "K04-ca5f4a336dcd3bcc-p0", "_token_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "vector": true,
+    "size": [
+      1400,
+      345
+    ],
+    "key": "K04-c450cc8de3b0adfe", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 제주 좌우조합 · 영문 · 활용형",
+    "form": "horizontal",
+    "historical": false,
+    "dark": false,
+    "crop": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "selected_size": [
+      1594,
+      386
+    ]
+  },
+  {
+    "team": "K04",
+    "url": "https://www.jejuskfc.com/uploadfile/club_ci/20260630050835180_55916008b76d4457.zip",
+    "page": "https://www.jejuskfc.com/club/introduction/mascot",
+    "file": "kleague-originals/K04-bi-2fa63028132f.zip",
+    "sha256": "bcd888dc9d92d62c63b934909d6d60404ce62b46a4318757ee4ee137e46e88a4",
+    "bytes": 25656626,
+    "member": "AI/13 좌우조합_영문_활용형_엠블럼 중앙 배치.ai",
+    "source_sha256": "a860823f6c03e6e941dea0e4dbc964fcea837ce11b1cb289523bc3d4ae0054c1",
+    "token": "K04-a860823f6c03e6e9-p0", "_token_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "vector": true,
+    "size": [
+      1400,
+      345
+    ],
+    "key": "K04-e5197c8adb8e61aa", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 제주 좌우조합 · 영문 · 활용형 · 엠블럼 중앙 배치",
+    "form": "horizontal",
+    "historical": false,
+    "dark": false,
+    "crop": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "selected_size": [
+      1592,
+      386
+    ]
+  },
+  {
+    "team": "K04",
+    "url": "https://www.jejuskfc.com/uploadfile/club_ci/20260630050835180_55916008b76d4457.zip",
+    "page": "https://www.jejuskfc.com/club/introduction/mascot",
+    "file": "kleague-originals/K04-bi-2fa63028132f.zip",
+    "sha256": "bcd888dc9d92d62c63b934909d6d60404ce62b46a4318757ee4ee137e46e88a4",
+    "bytes": 25656626,
+    "member": "AI/14 좌우조합_국문_기본형.ai",
+    "source_sha256": "da6d1136fd0fd4cb1d699bd8da430122431a88da56654722ff93e20fa4971de9",
+    "token": "K04-da6d1136fd0fd4cb-p0", "_token_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "vector": true,
+    "size": [
+      1400,
+      501
+    ],
+    "key": "K04-45dd4f2751522f8b", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 제주 좌우조합 · 국문 · 기본형",
+    "form": "horizontal",
+    "historical": false,
+    "dark": false,
+    "crop": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "selected_size": [
+      1582,
+      560
+    ]
+  },
+  {
+    "team": "K04",
+    "url": "https://www.jejuskfc.com/uploadfile/club_ci/20260630050835180_55916008b76d4457.zip",
+    "page": "https://www.jejuskfc.com/club/introduction/mascot",
+    "file": "kleague-originals/K04-bi-2fa63028132f.zip",
+    "sha256": "bcd888dc9d92d62c63b934909d6d60404ce62b46a4318757ee4ee137e46e88a4",
+    "bytes": 25656626,
+    "member": "AI/15 좌우조합_국문_활용형.ai",
+    "source_sha256": "fdaa3b965a8c20b3d4c638eed8db0ed7952a9ae31f7c8235d02e566fade42002",
+    "token": "K04-fdaa3b965a8c20b3-p0", "_token_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "vector": true,
+    "size": [
+      1400,
+      395
+    ],
+    "key": "K04-ae8829c330aea8b9", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 제주 좌우조합 · 국문 · 활용형",
+    "form": "horizontal",
+    "historical": false,
+    "dark": false,
+    "crop": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "selected_size": [
+      1590,
+      441
+    ]
+  },
+  {
+    "team": "K04",
+    "url": "https://www.jejuskfc.com/uploadfile/club_ci/20260630050835180_55916008b76d4457.zip",
+    "page": "https://www.jejuskfc.com/club/introduction/mascot",
+    "file": "kleague-originals/K04-bi-2fa63028132f.zip",
+    "sha256": "bcd888dc9d92d62c63b934909d6d60404ce62b46a4318757ee4ee137e46e88a4",
+    "bytes": 25656626,
+    "member": "AI/2 로고타입_영문_기본형.ai",
+    "source_sha256": "7d2da698df5dd1b05a76ea3a07e9b45ce7859d44cadeacc1d4f761a0c64bae4b",
+    "token": "K04-7d2da698df5dd1b0-p0", "_token_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "vector": true,
+    "size": [
+      1400,
+      343
+    ],
+    "key": "K04-a7d2f15ce2158e51", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 제주 로고타입 · 영문 · 기본형",
+    "form": "wordmark",
+    "historical": false,
+    "dark": false,
+    "crop": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "selected_size": [
+      1576,
+      379
+    ]
+  },
+  {
+    "team": "K04",
+    "url": "https://www.jejuskfc.com/uploadfile/club_ci/20260630050835180_55916008b76d4457.zip",
+    "page": "https://www.jejuskfc.com/club/introduction/mascot",
+    "file": "kleague-originals/K04-bi-2fa63028132f.zip",
+    "sha256": "bcd888dc9d92d62c63b934909d6d60404ce62b46a4318757ee4ee137e46e88a4",
+    "bytes": 25656626,
+    "member": "AI/3 로고타입_영문_활용형.ai",
+    "source_sha256": "1703e79ce9cfe5569038d1b4b7265ff68bcce442be6f68945a2117c20ae3e24f",
+    "token": "K04-1703e79ce9cfe556-p0", "_token_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "vector": true,
+    "size": [
+      1400,
+      257
+    ],
+    "key": "K04-941a83f14cdaa00f", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 제주 로고타입 · 영문 · 활용형",
+    "form": "wordmark",
+    "historical": false,
+    "dark": false,
+    "crop": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "selected_size": [
+      1582,
+      285
+    ]
+  },
+  {
+    "team": "K04",
+    "url": "https://www.jejuskfc.com/uploadfile/club_ci/20260630050835180_55916008b76d4457.zip",
+    "page": "https://www.jejuskfc.com/club/introduction/mascot",
+    "file": "kleague-originals/K04-bi-2fa63028132f.zip",
+    "sha256": "bcd888dc9d92d62c63b934909d6d60404ce62b46a4318757ee4ee137e46e88a4",
+    "bytes": 25656626,
+    "member": "AI/4 로고타입_영문_기본형_풀명칭조합.ai",
+    "source_sha256": "9eaf422aae9be466a9f3e75199990c623f7bacf3aaecfe43fb41804442660130",
+    "token": "K04-9eaf422aae9be466-p0", "_token_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "vector": true,
+    "size": [
+      1400,
+      581
+    ],
+    "key": "K04-1245476a44aec752", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 제주 로고타입 · 영문 · 기본형 · 풀명칭조합",
+    "form": "wordmark",
+    "historical": false,
+    "dark": false,
+    "crop": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "selected_size": [
+      1576,
+      653
+    ]
+  },
+  {
+    "team": "K04",
+    "url": "https://www.jejuskfc.com/uploadfile/club_ci/20260630050835180_55916008b76d4457.zip",
+    "page": "https://www.jejuskfc.com/club/introduction/mascot",
+    "file": "kleague-originals/K04-bi-2fa63028132f.zip",
+    "sha256": "bcd888dc9d92d62c63b934909d6d60404ce62b46a4318757ee4ee137e46e88a4",
+    "bytes": 25656626,
+    "member": "AI/5 로고타입_국문_기본형.ai",
+    "source_sha256": "656cb42332f40c37ea49ff88879cddb38851636f431d1871de4aac84c166a6e5",
+    "token": "K04-656cb42332f40c37-p0", "_token_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "vector": true,
+    "size": [
+      1400,
+      443
+    ],
+    "key": "K04-0912df8c7255e998", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 제주 로고타입 · 국문 · 기본형",
+    "form": "wordmark",
+    "historical": false,
+    "dark": false,
+    "crop": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "selected_size": [
+      1566,
+      498
+    ]
+  },
+  {
+    "team": "K04",
+    "url": "https://www.jejuskfc.com/uploadfile/club_ci/20260630050835180_55916008b76d4457.zip",
+    "page": "https://www.jejuskfc.com/club/introduction/mascot",
+    "file": "kleague-originals/K04-bi-2fa63028132f.zip",
+    "sha256": "bcd888dc9d92d62c63b934909d6d60404ce62b46a4318757ee4ee137e46e88a4",
+    "bytes": 25656626,
+    "member": "AI/6 로고타입_국문_활용형.ai",
+    "source_sha256": "048a55908aac04e1ff2957165d901bf88573560a3a9345cae9cf3105d948a686",
+    "token": "K04-048a55908aac04e1-p0", "_token_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "vector": true,
+    "size": [
+      1400,
+      310
+    ],
+    "key": "K04-884d4cb1fdca7cc4", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 제주 로고타입 · 국문 · 활용형",
+    "form": "wordmark",
+    "historical": false,
+    "dark": false,
+    "crop": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "selected_size": [
+      1581,
+      349
+    ]
+  },
+  {
+    "team": "K04",
+    "url": "https://www.jejuskfc.com/uploadfile/club_ci/20260630050835180_55916008b76d4457.zip",
+    "page": "https://www.jejuskfc.com/club/introduction/mascot",
+    "file": "kleague-originals/K04-bi-2fa63028132f.zip",
+    "sha256": "bcd888dc9d92d62c63b934909d6d60404ce62b46a4318757ee4ee137e46e88a4",
+    "bytes": 25656626,
+    "member": "AI/7 상하조합_영문_기본형.ai",
+    "source_sha256": "651fdce14b8b5157d66bb74cc795ddcef1e0e9f2d1b225b0e0156b65eaa7e859",
+    "token": "K04-651fdce14b8b5157-p0", "_token_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "vector": true,
+    "size": [
+      1400,
+      1324
+    ],
+    "key": "K04-a544288a9f27d43b", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 제주 상하조합 · 영문 · 기본형",
+    "form": "vertical",
+    "historical": false,
+    "dark": false,
+    "crop": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "selected_size": [
+      1580,
+      1497
+    ]
+  },
+  {
+    "team": "K04",
+    "url": "https://www.jejuskfc.com/uploadfile/club_ci/20260630050835180_55916008b76d4457.zip",
+    "page": "https://www.jejuskfc.com/club/introduction/mascot",
+    "file": "kleague-originals/K04-bi-2fa63028132f.zip",
+    "sha256": "bcd888dc9d92d62c63b934909d6d60404ce62b46a4318757ee4ee137e46e88a4",
+    "bytes": 25656626,
+    "member": "AI/8 상하조합_영문_활용형.ai",
+    "source_sha256": "b0b3c54569c649c832ccffc4b7aaa34767495c1ffd339c9760ca51e41cc1a637",
+    "token": "K04-b0b3c54569c649c8-p0", "_token_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "vector": true,
+    "size": [
+      1400,
+      993
+    ],
+    "key": "K04-17168b8d7ca82d29", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 제주 상하조합 · 영문 · 활용형",
+    "form": "vertical",
+    "historical": false,
+    "dark": false,
+    "crop": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "selected_size": [
+      1588,
+      1123
+    ]
+  },
+  {
+    "team": "K04",
+    "url": "https://www.jejuskfc.com/uploadfile/club_ci/20260630050835180_55916008b76d4457.zip",
+    "page": "https://www.jejuskfc.com/club/introduction/mascot",
+    "file": "kleague-originals/K04-bi-2fa63028132f.zip",
+    "sha256": "bcd888dc9d92d62c63b934909d6d60404ce62b46a4318757ee4ee137e46e88a4",
+    "bytes": 25656626,
+    "member": "AI/9 상하조합_국문_기본형.ai",
+    "source_sha256": "f5195f0f6cdeaf4e7ab710b2b88a0ff97afa9a2b8d60b286c2bb605ab64f5100",
+    "token": "K04-f5195f0f6cdeaf4e-p0", "_token_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "vector": true,
+    "size": [
+      1136,
+      1400
+    ],
+    "key": "K04-5569ff975e31c4bf", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 제주 상하조합 · 국문 · 기본형",
+    "form": "vertical",
+    "historical": false,
+    "dark": false,
+    "crop": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "selected_size": [
+      1283,
+      1586
+    ]
+  },
+  {
+    "team": "K35",
+    "url": "https://gimcheonfc.com/images/sub/emblem_2024_2.ai",
+    "page": "https://gimcheonfc.com/fc/ci.php",
+    "file": "kleague-originals/K35-bi-7956d7bb7d26.ai",
+    "sha256": "0df3ad0ad5b757ecafa0980e2ca0a7137a991db91c6f09004f8669f17df589c1",
+    "bytes": 1275509,
+    "member": "K35-bi-7956d7bb7d26.ai",
+    "source_sha256": "0df3ad0ad5b757ecafa0980e2ca0a7137a991db91c6f09004f8669f17df589c1",
+    "token": "K35-0df3ad0ad5b757ec-p0", "_token_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "vector": true,
+    "size": [
+      1400,
+      990
+    ],
+    "key": "K35-85c0cb9ae08d1b44", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 김천 상무 엠블럼",
+    "form": "emblem",
+    "historical": false,
+    "dark": false,
+    "crop": [
+      0.17,
+      0.26,
+      0.56,
+      0.91
+    ],
+    "selected_size": [
+      1358,
+      1600
+    ]
+  },
+  {
+    "team": "K35",
+    "url": "https://gimcheonfc.com/images/sub/vision_ci_2024.ai",
+    "page": "https://gimcheonfc.com/fc/ci.php",
+    "file": "kleague-originals/K35-bi-714eba229e54.ai",
+    "sha256": "71ed945fb2a156257abf8ae74018aead1b880ad31bca395f63eb6e909070b767",
+    "bytes": 1383586,
+    "member": "K35-bi-714eba229e54.ai",
+    "source_sha256": "71ed945fb2a156257abf8ae74018aead1b880ad31bca395f63eb6e909070b767",
+    "token": "K35-71ed945fb2a15625-p0", "_token_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "vector": true,
+    "size": [
+      1400,
+      1400
+    ],
+    "key": "K35-5bc520e08580409a", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 김천 비전 CI · 축구로 하나되는 행복한 김천",
+    "form": "emblem",
+    "historical": false,
+    "dark": false,
+    "crop": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "selected_size": [
+      1078,
+      1364
+    ]
+  },
+  {
+    "team": "K22",
+    "url": "https://www.gwangjufc.com/images/sub/fc/emblem.zip",
+    "page": "https://www.gwangjufc.com/fc/emblem.php",
+    "file": "kleague-originals/K22-bi-cec7c93f7a8b.zip",
+    "sha256": "bd941d4aae97b0db44471470cb9e482087e7cfecf52a2e23ee4be3ce5eb1e2d5",
+    "bytes": 173877,
+    "member": "GFC_emblem.ai",
+    "source_sha256": "1775cbe8b960ec9fa5727dd57c5e4850cc3507b9d723f1cc575ed02a830191f0",
+    "token": "K22-1775cbe8b960ec9f-p0", "_token_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "vector": true,
+    "size": [
+      1191,
+      1092
+    ],
+    "key": "K22-fd31e8de895abe18", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 광주 엠블럼",
+    "form": "emblem",
+    "historical": false,
+    "dark": false,
+    "crop": [
+      0.18,
+      0.12,
+      0.7,
+      0.9
+    ],
+    "selected_size": [
+      897,
+      1227
+    ]
+  },
+  {
+    "team": "K22",
+    "url": "https://www.gwangjufc.com/images/sub/fc/logotype.zip",
+    "page": "https://www.gwangjufc.com/fc/emblem.php",
+    "file": "kleague-originals/K22-bi-1ac7140bdda9.zip",
+    "sha256": "0dbffb41741b50ff78a23049dd15212a25d69b22b2c219462b36be45f425b0b9",
+    "bytes": 1080055,
+    "member": "GFC_logo type.ai",
+    "source_sha256": "c8f50fc8ee47e8c7f31dfd81342f0865b0e818ee9da6f9322981975f3e0e43c3",
+    "token": "K22-c8f50fc8ee47e8c7-p0", "_token_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "vector": true,
+    "size": [
+      1400,
+      700
+    ],
+    "key": "K22-043270016fd61314", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 광주 영문 로고타입",
+    "form": "wordmark",
+    "historical": false,
+    "dark": false,
+    "crop": [
+      0.18,
+      0.28,
+      0.9,
+      0.8
+    ],
+    "selected_size": [
+      1127,
+      266
+    ]
+  },
+  {
+    "team": "K22",
+    "url": "https://www.gwangjufc.com/images/sub/fc/signature.zip",
+    "page": "https://www.gwangjufc.com/fc/emblem.php",
+    "file": "kleague-originals/K22-bi-74dc1852ddf3.zip",
+    "sha256": "e44893969e441a14991f377b26efcb5793a41156a39c0f652f5eafebcaba17e0",
+    "bytes": 1342131,
+    "member": "GFC_signature_상하조합.ai",
+    "source_sha256": "54c1c664580301490b54f9cefd5e54bddf5ad01ffaf08e0f7ae0f3ed276f2ed3",
+    "token": "K22-54c1c66458030149-p0", "_token_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "vector": true,
+    "size": [
+      1191,
+      1092
+    ],
+    "key": "K22-0168affae41f5293", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 광주 상하 조합형",
+    "form": "vertical",
+    "historical": false,
+    "dark": false,
+    "crop": [
+      0.16,
+      0.1,
+      0.73,
+      0.93
+    ],
+    "selected_size": [
+      910,
+      1322
+    ]
+  },
+  {
+    "team": "K22",
+    "url": "https://www.gwangjufc.com/images/sub/fc/signature.zip",
+    "page": "https://www.gwangjufc.com/fc/emblem.php",
+    "file": "kleague-originals/K22-bi-74dc1852ddf3.zip",
+    "sha256": "e44893969e441a14991f377b26efcb5793a41156a39c0f652f5eafebcaba17e0",
+    "bytes": 1342131,
+    "member": "GFC_signature_좌우조합.ai",
+    "source_sha256": "33e5dbfb0f0a1c97505a4bbcef8c7d3443ec8bdd103fc42ba83dc182c75d655c",
+    "token": "K22-33e5dbfb0f0a1c97-p0", "_token_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "vector": true,
+    "size": [
+      1400,
+      934
+    ],
+    "key": "K22-44c9cf50049fefe7", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 광주 좌우 조합형",
+    "form": "horizontal",
+    "historical": false,
+    "dark": false,
+    "crop": [
+      0.13,
+      0.28,
+      0.87,
+      0.77
+    ],
+    "selected_size": [
+      1468,
+      528
+    ]
+  },
+  {
+    "team": "K01",
+    "url": "https://www.uhdfc.com/images/sub/mascot_01.jpg",
+    "page": "https://www.uhdfc.com/fc/mascot.php",
+    "file": "kleague-mascot-originals/K01-218fa34b3a9be446.jpeg",
+    "sha256": "218fa34b3a9be4462e9de0e3993fab30e2d9c8d035d9c767cc285c79a6950822",
+    "size": [
+      1024,
+      462
+    ],
+    "key": "K01-9f50adfe40af0d34", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "vector": false,
+    "label": "공식 미타 · 기본형",
+    "form": "mascot",
+    "historical": false,
+    "dark": false,
+    "crop": [
+      0,
+      0,
+      0.39,
+      1
+    ],
+    "selected_size": [
+      399,
+      462
+    ]
+  },
+  {
+    "team": "K01",
+    "url": "https://www.uhdfc.com/images/sub/mascot_02_231214.jpg",
+    "page": "https://www.uhdfc.com/fc/mascot.php",
+    "file": "kleague-mascot-originals/K01-428362f59b645874.jpeg",
+    "sha256": "428362f59b6458744d03d2b3b191ebff27bc89ecce79489a78fb425b58520f9b",
+    "size": [
+      1024,
+      216
+    ],
+    "key": "K01-2b1d751d2591ff34", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "vector": false,
+    "label": "공식 미타 · 응용 동작",
+    "form": "mascot",
+    "historical": false,
+    "dark": false,
+    "crop": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "selected_size": [
+      1024,
+      216
+    ]
+  },
+  {
+    "team": "K10",
+    "url": "https://www.dhcfc.kr/images/sub/mascot_1.jpg",
+    "page": "https://www.dhcfc.kr/cl/mas.php",
+    "file": "kleague-mascot-originals/K10-d040d93f6fb89d6c.jpeg",
+    "sha256": "d040d93f6fb89d6c35295f2147f924c2a40ba1aafbb52202e1ef71f679c08e84",
+    "size": [
+      1200,
+      539
+    ],
+    "key": "K10-e86435ca414ae90a", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "vector": false,
+    "label": "공식 하나 · 기본형",
+    "form": "mascot",
+    "historical": false,
+    "dark": false,
+    "crop": [
+      0.22,
+      0.085,
+      0.52,
+      0.9
+    ],
+    "selected_size": [
+      360,
+      439
+    ]
+  },
+  {
+    "team": "K10",
+    "url": "https://www.dhcfc.kr/images/sub/mascot_2.jpg",
+    "page": "https://www.dhcfc.kr/cl/mas.php",
+    "file": "kleague-mascot-originals/K10-3e6bb2928f05aa36.jpeg",
+    "sha256": "3e6bb2928f05aa36939e7dd8b89204df0e35080b17fe0d36e43f51fe64ed108a",
+    "size": [
+      1200,
+      540
+    ],
+    "key": "K10-6b333a52d675b751", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "vector": false,
+    "label": "공식 자주 · 기본형",
+    "form": "mascot",
+    "historical": false,
+    "dark": false,
+    "crop": [
+      0.5,
+      0.1,
+      0.83,
+      0.9
+    ],
+    "selected_size": [
+      396,
+      432
+    ]
+  },
+  {
+    "team": "K04",
+    "url": "https://www.jejuskfc.com/uploadfile/club_mascot/20260630050835703_f0e32c463eed4e86.null",
+    "page": "https://www.jejuskfc.com/club/introduction/mascot",
+    "file": "kleague-mascot-originals/K04-d2924a995cf83531.png",
+    "sha256": "d2924a995cf835310d5a48c4dcb05d8fac5be401e69db8fc5cd7b84c7bc3b13c",
+    "size": [
+      1150,
+      1080
+    ],
+    "key": "K04-7d322cf82cb8ae16", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "vector": false,
+    "label": "공식 제주 감귤 캐릭터 · 기본형",
+    "form": "mascot",
+    "historical": false,
+    "dark": false,
+    "crop": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "selected_size": [
+      1075,
+      932
+    ]
+  },
+  {
+    "team": "K04",
+    "url": "https://www.jejuskfc.com/uploadfile/club_mascot/20260630050835794_bae48c5834e8497b.null",
+    "page": "https://www.jejuskfc.com/club/introduction/mascot",
+    "file": "kleague-mascot-originals/K04-f3e69a83b79c9c61.png",
+    "sha256": "f3e69a83b79c9c617e1f25f3ab27e79e2d1bf092722823e5835302bdb11a00cb",
+    "size": [
+      1150,
+      1080
+    ],
+    "key": "K04-334f61453bc95b62", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "vector": false,
+    "label": "공식 제주 백록 캐릭터 · 기본형",
+    "form": "mascot",
+    "historical": false,
+    "dark": false,
+    "crop": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "selected_size": [
+      918,
+      939
+    ]
+  }
+]

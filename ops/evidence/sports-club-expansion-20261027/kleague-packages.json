@@ -1,0 +1,90 @@
+[
+  {
+    "team": "K01",
+    "url": "https://www.uhdfc.com/images/sub/emblem.ai",
+    "page": "https://www.uhdfc.com/fc/emblem.php",
+    "file": "kleague-originals/K01-emblem-4d321e07b4af.ai",
+    "sha256": "f9e2423bdb3074d281de38bdf57be7327eccde00f0c14ff4f4480d61f8fc2d3d",
+    "bytes": 1087377
+  },
+  {
+    "team": "K10",
+    "url": "https://www.dhcfc.kr/images/emb/DHFC_Emblem_ai.zip",
+    "page": "https://www.dhcfc.kr/cl/emb.php",
+    "file": "kleague-originals/K10-emblem-fb0ba45af7cd.zip",
+    "sha256": "d5255c983ccd5eaa3c002a2e66b1e680ca6ac93a9af0b53e3d4032f53e69010b",
+    "bytes": 1804365
+  },
+  {
+    "team": "K10",
+    "url": "https://www.dhcfc.kr/images/emb/DHFC_Emblem_png.zip",
+    "page": "https://www.dhcfc.kr/cl/emb.php",
+    "file": "kleague-originals/K10-emblem-b4131f3b0412.zip",
+    "sha256": "18f250d6206eba090c0045428a0b0542c0ff89daf2c4f72f1ed4f3aad2dfb838",
+    "bytes": 26605
+  },
+  {
+    "team": "K10",
+    "url": "https://www.dhcfc.kr/images/emb/pngdown(Loyal_Crest)_200515.zip",
+    "page": "https://www.dhcfc.kr/cl/emb.php",
+    "file": "kleague-originals/K10-emblem-dc4d99192bc5.zip",
+    "sha256": "3e8005a2c19d4dc474c2125b78460ae2597e406f4c6c30a6407a4db09dc39e59",
+    "bytes": 248126
+  },
+  {
+    "team": "K10",
+    "url": "https://www.dhcfc.kr/images/emb/pngdown(Slogan).zip",
+    "page": "https://www.dhcfc.kr/cl/emb.php",
+    "file": "kleague-originals/K10-emblem-e8c0a7e4a8e9.zip",
+    "sha256": "29f9175c344f2540bf66e4f3895e71f9e772d3725740956d617a9284292952df",
+    "bytes": 84739
+  },
+  {
+    "team": "K04",
+    "url": "https://www.jejuskfc.com/uploadfile/club_ci/20260630050835180_55916008b76d4457.zip",
+    "page": "https://www.jejuskfc.com/club/introduction/mascot",
+    "file": "kleague-originals/K04-bi-2fa63028132f.zip",
+    "sha256": "bcd888dc9d92d62c63b934909d6d60404ce62b46a4318757ee4ee137e46e88a4",
+    "bytes": 25656626
+  },
+  {
+    "team": "K35",
+    "url": "https://gimcheonfc.com/images/sub/emblem_2024_2.ai",
+    "page": "https://gimcheonfc.com/fc/ci.php",
+    "file": "kleague-originals/K35-bi-7956d7bb7d26.ai",
+    "sha256": "0df3ad0ad5b757ecafa0980e2ca0a7137a991db91c6f09004f8669f17df589c1",
+    "bytes": 1275509
+  },
+  {
+    "team": "K35",
+    "url": "https://gimcheonfc.com/images/sub/vision_ci_2024.ai",
+    "page": "https://gimcheonfc.com/fc/ci.php",
+    "file": "kleague-originals/K35-bi-714eba229e54.ai",
+    "sha256": "71ed945fb2a156257abf8ae74018aead1b880ad31bca395f63eb6e909070b767",
+    "bytes": 1383586
+  },
+  {
+    "team": "K22",
+    "url": "https://www.gwangjufc.com/images/sub/fc/emblem.zip",
+    "page": "https://www.gwangjufc.com/fc/emblem.php",
+    "file": "kleague-originals/K22-bi-cec7c93f7a8b.zip",
+    "sha256": "bd941d4aae97b0db44471470cb9e482087e7cfecf52a2e23ee4be3ce5eb1e2d5",
+    "bytes": 173877
+  },
+  {
+    "team": "K22",
+    "url": "https://www.gwangjufc.com/images/sub/fc/logotype.zip",
+    "page": "https://www.gwangjufc.com/fc/emblem.php",
+    "file": "kleague-originals/K22-bi-1ac7140bdda9.zip",
+    "sha256": "0dbffb41741b50ff78a23049dd15212a25d69b22b2c219462b36be45f425b0b9",
+    "bytes": 1080055
+  },
+  {
+    "team": "K22",
+    "url": "https://www.gwangjufc.com/images/sub/fc/signature.zip",
+    "page": "https://www.gwangjufc.com/fc/emblem.php",
+    "file": "kleague-originals/K22-bi-74dc1852ddf3.zip",
+    "sha256": "e44893969e441a14991f377b26efcb5793a41156a39c0f652f5eafebcaba17e0",
+    "bytes": 1342131
+  }
+]

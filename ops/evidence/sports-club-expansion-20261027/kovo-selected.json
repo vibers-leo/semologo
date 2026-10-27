@@ -1,0 +1,1129 @@
+[
+  {
+    "site_id": 2,
+    "club": "천안 현대캐피탈 스카이워커스",
+    "tcode": "1005",
+    "page": "https://skywalkers.kovo.co.kr/about/emblem",
+    "url": "https://cdn.kovo.co.kr/2/about/emblem/CI_16_26__몰리3종표정.png",
+    "name": "CI_16_26__몰리3종표정.png",
+    "file": "kovo-assets/2-b9a2fdced8b4de.png",
+    "preview": "kovo-assets/2-b9a2fdced8b4de.preview.png",
+    "vector": false,
+    "sha256": "2b6b8bae7451bb8d6661b45f26c2b243d60b57d1515518caffe4bc7bcf3a874f",
+    "size": [
+      1258,
+      629
+    ],
+    "key": "kovo-1005-937936fd03d302", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 몰리 · 표정 1",
+    "form": "mascot",
+    "dark": false,
+    "campaign": false,
+    "selected_size": [
+      327,
+      397
+    ]
+  },
+  {
+    "site_id": 2,
+    "club": "천안 현대캐피탈 스카이워커스",
+    "tcode": "1005",
+    "page": "https://skywalkers.kovo.co.kr/about/emblem",
+    "url": "https://cdn.kovo.co.kr/2/about/emblem/CI_16_26__몰리3종표정.png",
+    "name": "CI_16_26__몰리3종표정.png",
+    "file": "kovo-assets/2-b9a2fdced8b4de.png",
+    "preview": "kovo-assets/2-b9a2fdced8b4de.preview.png",
+    "vector": false,
+    "sha256": "2b6b8bae7451bb8d6661b45f26c2b243d60b57d1515518caffe4bc7bcf3a874f",
+    "size": [
+      1258,
+      629
+    ],
+    "key": "kovo-1005-fb802879eb05f6", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 몰리 · 표정 2",
+    "form": "mascot",
+    "dark": false,
+    "campaign": false,
+    "selected_size": [
+      314,
+      397
+    ]
+  },
+  {
+    "site_id": 2,
+    "club": "천안 현대캐피탈 스카이워커스",
+    "tcode": "1005",
+    "page": "https://skywalkers.kovo.co.kr/about/emblem",
+    "url": "https://cdn.kovo.co.kr/2/about/emblem/CI_16_26__몰리3종표정.png",
+    "name": "CI_16_26__몰리3종표정.png",
+    "file": "kovo-assets/2-b9a2fdced8b4de.png",
+    "preview": "kovo-assets/2-b9a2fdced8b4de.preview.png",
+    "vector": false,
+    "sha256": "2b6b8bae7451bb8d6661b45f26c2b243d60b57d1515518caffe4bc7bcf3a874f",
+    "size": [
+      1258,
+      629
+    ],
+    "key": "kovo-1005-d1f4e64ae04f4c", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 몰리 · 표정 3",
+    "form": "mascot",
+    "dark": false,
+    "campaign": false,
+    "selected_size": [
+      327,
+      397
+    ]
+  },
+  {
+    "site_id": 2,
+    "club": "천안 현대캐피탈 스카이워커스",
+    "tcode": "1005",
+    "page": "https://skywalkers.kovo.co.kr/about/emblem",
+    "url": "https://cdn.kovo.co.kr/2/about/greeting/CI_16_28__자일즈서포터즈로고.png",
+    "name": "CI_16_28__자일즈서포터즈로고.png",
+    "file": "kovo-assets/2-7249d548fe084e.png",
+    "preview": "kovo-assets/2-7249d548fe084e.preview.png",
+    "vector": false,
+    "sha256": "d50bfe63a0b619a9d006ad286f0f604b1d23cfffcef44b03f04bf2b0affa6fe7",
+    "size": [
+      1258,
+      629
+    ],
+    "key": "kovo-1005-0191b70a6183cf", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 서포터즈 자일즈 워드마크",
+    "form": "wordmark",
+    "dark": false,
+    "campaign": false,
+    "selected_size": [
+      503,
+      453
+    ]
+  },
+  {
+    "site_id": 2,
+    "club": "천안 현대캐피탈 스카이워커스",
+    "tcode": "1005",
+    "page": "https://skywalkers.kovo.co.kr/about/emblem",
+    "url": "https://cdn.kovo.co.kr/2/about/greeting/CI_16_28__자일즈서포터즈로고.png",
+    "name": "CI_16_28__자일즈서포터즈로고.png",
+    "file": "kovo-assets/2-7249d548fe084e.png",
+    "preview": "kovo-assets/2-7249d548fe084e.preview.png",
+    "vector": false,
+    "sha256": "d50bfe63a0b619a9d006ad286f0f604b1d23cfffcef44b03f04bf2b0affa6fe7",
+    "size": [
+      1258,
+      629
+    ],
+    "key": "kovo-1005-fb9fff69a8a4d4", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 서포터즈 자일즈 응용형",
+    "form": "emblem",
+    "dark": false,
+    "campaign": false,
+    "selected_size": [
+      554,
+      522
+    ]
+  },
+  {
+    "site_id": 5,
+    "club": "서울 우리카드 우리WON",
+    "tcode": "1009",
+    "page": "https://wooriwon.kovo.co.kr/about/emblem",
+    "url": "https://cdn.kovo.co.kr/5/about/introduction/CI_21__Frame 21559.png",
+    "name": "CI_21__Frame 21559.png",
+    "file": "kovo-assets/5-43216702412d77.png",
+    "preview": "kovo-assets/5-43216702412d77.preview.png",
+    "vector": false,
+    "sha256": "58b18e9a6138c7fe5e58e37421634fff8a3f637248abef1ad5cc1be4b85bb798",
+    "size": [
+      1368,
+      347
+    ],
+    "key": "kovo-1009-9d323dda4afece", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 우리카드 우리WON 국영문 워드마크",
+    "form": "wordmark",
+    "dark": false,
+    "campaign": false,
+    "selected_size": [
+      1232,
+      253
+    ]
+  },
+  {
+    "site_id": 3,
+    "club": "KB손해보험 스타즈",
+    "tcode": "1004",
+    "page": "https://stars.kovo.co.kr/about/emblem",
+    "url": "https://cdn.kovo.co.kr/3/about/emblem/kb_img_pc2.png",
+    "name": "kb_img_pc2.png",
+    "file": "kovo-assets/3-59fede0cb7c38b.png",
+    "preview": "kovo-assets/3-59fede0cb7c38b.preview.png",
+    "vector": false,
+    "sha256": "19e95a97acba98de96f9e7176d78c86b4d711ba7fecf7f501bf486085c4687b7",
+    "size": [
+      8192,
+      1638
+    ],
+    "key": "kovo-1004-5be7e2019f3f91", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 KB스타즈 슬로건 · 적용 시즌 미확인",
+    "form": "wordmark",
+    "dark": false,
+    "campaign": true,
+    "selected_size": [
+      1800,
+      360
+    ]
+  },
+  {
+    "site_id": 7,
+    "club": "수원 한국전력 VIXTORM",
+    "tcode": "1006",
+    "page": "https://vixtorm.kovo.co.kr/about/emblem",
+    "url": "https://cdn.kovo.co.kr/7/about/emblem/CI_18__Frame 21554.png",
+    "name": "CI_18__Frame 21554.png",
+    "file": "kovo-assets/7-9a29b37be067d0.png",
+    "preview": "kovo-assets/7-9a29b37be067d0.preview.png",
+    "vector": false,
+    "sha256": "5dcb4edc6faa0756d668dc0b92969ac4231591dcd6337c36842dddf51203e32b",
+    "size": [
+      1368,
+      695
+    ],
+    "key": "kovo-1006-8c8fed17f4ee75", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 VIXTORM 단색 엠블럼",
+    "form": "emblem",
+    "dark": false,
+    "campaign": false,
+    "selected_size": [
+      493,
+      438
+    ]
+  },
+  {
+    "site_id": 7,
+    "club": "수원 한국전력 VIXTORM",
+    "tcode": "1006",
+    "page": "https://vixtorm.kovo.co.kr/about/emblem",
+    "url": "https://cdn.kovo.co.kr/7/about/emblem/CI_18__Frame 21556.png",
+    "name": "CI_18__Frame 21556.png",
+    "file": "kovo-assets/7-321a7cfaa24668.png",
+    "preview": "kovo-assets/7-321a7cfaa24668.preview.png",
+    "vector": false,
+    "sha256": "d1db1f374376fbef33548c48762823ab698fb5cab1ef81c15dc9b8717ea4291f",
+    "size": [
+      1368,
+      670
+    ],
+    "key": "kovo-1006-c286c09e275ef9", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 한국전력 마스코트",
+    "form": "mascot",
+    "dark": false,
+    "campaign": false,
+    "selected_size": [
+      958,
+      610
+    ]
+  },
+  {
+    "site_id": 8,
+    "club": "부산 OK저축은행 읏맨",
+    "tcode": "1008",
+    "page": "https://okman.kovo.co.kr/about/emblem",
+    "url": "https://cdn.kovo.co.kr/8/about/emblem/CI_20__OK저축은행 배구단 신규 로고-03.png",
+    "name": "CI_20__OK저축은행 배구단 신규 로고-03.png",
+    "file": "kovo-assets/8-e4dc20f264e1a4.png",
+    "preview": "kovo-assets/8-e4dc20f264e1a4.preview.png",
+    "vector": false,
+    "sha256": "7367ad4c02bd208e585ec33babd25c3a83d453c44e8eea1e4846ac0749c57c24",
+    "size": [
+      1281,
+      285
+    ],
+    "key": "kovo-1008-9dbf7f60874cf1", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 OK 읏맨 가로조합 · 저축은행 표기",
+    "form": "horizontal",
+    "dark": false,
+    "campaign": false,
+    "selected_size": [
+      1281,
+      285
+    ]
+  },
+  {
+    "site_id": 8,
+    "club": "부산 OK저축은행 읏맨",
+    "tcode": "1008",
+    "page": "https://okman.kovo.co.kr/about/emblem",
+    "url": "https://cdn.kovo.co.kr/8/about/emblem/CI_20__OK저축은행 배구단 신규 로고-04.png",
+    "name": "CI_20__OK저축은행 배구단 신규 로고-04.png",
+    "file": "kovo-assets/8-95dbe00242fd12.png",
+    "preview": "kovo-assets/8-95dbe00242fd12.preview.png",
+    "vector": false,
+    "sha256": "e101a805647a5df40fcae593d083a11f56de69808c90ec8709d586821d8bdb43",
+    "size": [
+      1071,
+      285
+    ],
+    "key": "kovo-1008-c7ce4b9d60e5a3", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 OK 읏맨 가로조합 · 읏맨 표기",
+    "form": "horizontal",
+    "dark": false,
+    "campaign": false,
+    "selected_size": [
+      1071,
+      285
+    ]
+  },
+  {
+    "site_id": 6,
+    "club": "대전 삼성화재 블루팡스",
+    "tcode": "1002",
+    "page": "https://bluefangs.kovo.co.kr/about/emblem",
+    "url": "https://cdn.kovo.co.kr/7/about/emblem/CI_12__Frame 21546.png",
+    "name": "CI_12__Frame 21546.png",
+    "file": "kovo-assets/6-f72f27221506be.png",
+    "preview": "kovo-assets/6-f72f27221506be.preview.png",
+    "vector": false,
+    "sha256": "311589a775da08c78a8fb8a490755eb6ffdfa05ca50a364c0b66470fdb7891f7",
+    "size": [
+      1368,
+      684
+    ],
+    "key": "kovo-1002-5eda353728ffd6", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 블루팡스 마스코트 기본형",
+    "form": "mascot",
+    "dark": false,
+    "campaign": false,
+    "selected_size": [
+      369,
+      567
+    ]
+  },
+  {
+    "site_id": 6,
+    "club": "대전 삼성화재 블루팡스",
+    "tcode": "1002",
+    "page": "https://bluefangs.kovo.co.kr/about/emblem",
+    "url": "https://cdn.kovo.co.kr/7/about/emblem/CI_12__Frame 21546.png",
+    "name": "CI_12__Frame 21546.png",
+    "file": "kovo-assets/6-f72f27221506be.png",
+    "preview": "kovo-assets/6-f72f27221506be.preview.png",
+    "vector": false,
+    "sha256": "311589a775da08c78a8fb8a490755eb6ffdfa05ca50a364c0b66470fdb7891f7",
+    "size": [
+      1368,
+      684
+    ],
+    "key": "kovo-1002-ad96a198ab80cd", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 블루팡스 마스코트 응용형",
+    "form": "mascot",
+    "dark": false,
+    "campaign": false,
+    "selected_size": [
+      766,
+      582
+    ]
+  },
+  {
+    "site_id": 13,
+    "club": "김천 한국도로공사 하이패스",
+    "tcode": "2002",
+    "page": "https://hipass.kovo.co.kr/about/emblem",
+    "url": "https://cdn.kovo.co.kr/13/about/stadium/Frame 1261160664-1.png",
+    "name": "Frame 1261160664-1.png",
+    "file": "kovo-assets/13-83cc3b7ad304a3.png",
+    "preview": "kovo-assets/13-83cc3b7ad304a3.preview.png",
+    "vector": false,
+    "sha256": "311d3f3055625b2640ee45a5162715a995828eaab3eb7db59dc191983051e9d2",
+    "size": [
+      702,
+      480
+    ],
+    "key": "kovo-2002-1c29adf9660147", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 하이패스 캐릭터 응용형",
+    "form": "mascot",
+    "dark": false,
+    "campaign": false,
+    "selected_size": [
+      702,
+      480
+    ]
+  },
+  {
+    "site_id": 11,
+    "club": "수원 현대건설 힐스테이트",
+    "tcode": "2001",
+    "page": "https://hillstate.kovo.co.kr/about/emblem",
+    "url": "https://cdn.kovo.co.kr/11/about/emblem/image 151.png",
+    "name": "image 151.png",
+    "file": "kovo-assets/11-58849143db2c0f.png",
+    "preview": "kovo-assets/11-58849143db2c0f.preview.png",
+    "vector": false,
+    "sha256": "8efdef8e99d9df5e7d9fb72171d01c2424392dcef0a207dfe5e61bf9d1427ec6",
+    "size": [
+      960,
+      480
+    ],
+    "key": "kovo-2001-25d6acd47f4427", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 현대건설 배구단 워드마크",
+    "form": "wordmark",
+    "dark": false,
+    "campaign": false,
+    "selected_size": [
+      413,
+      346
+    ]
+  },
+  {
+    "site_id": 11,
+    "club": "수원 현대건설 힐스테이트",
+    "tcode": "2001",
+    "page": "https://hillstate.kovo.co.kr/about/emblem",
+    "url": "https://cdn.kovo.co.kr/11/about/emblem/image 153.png",
+    "name": "image 153.png",
+    "file": "kovo-assets/11-026e7b3fb97d8a.png",
+    "preview": "kovo-assets/11-026e7b3fb97d8a.preview.png",
+    "vector": false,
+    "sha256": "6e36c166d009bd7565319f8bc50558f5d1d06f24468df8538685f79fa59c9b24",
+    "size": [
+      1160,
+      2033
+    ],
+    "key": "kovo-2001-e50ca680012a09", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 현대건설 캐릭터 · 구성 1",
+    "form": "mascot",
+    "dark": false,
+    "campaign": false,
+    "selected_size": [
+      859,
+      650
+    ]
+  },
+  {
+    "site_id": 11,
+    "club": "수원 현대건설 힐스테이트",
+    "tcode": "2001",
+    "page": "https://hillstate.kovo.co.kr/about/emblem",
+    "url": "https://cdn.kovo.co.kr/11/about/emblem/image 153.png",
+    "name": "image 153.png",
+    "file": "kovo-assets/11-026e7b3fb97d8a.png",
+    "preview": "kovo-assets/11-026e7b3fb97d8a.preview.png",
+    "vector": false,
+    "sha256": "6e36c166d009bd7565319f8bc50558f5d1d06f24468df8538685f79fa59c9b24",
+    "size": [
+      1160,
+      2033
+    ],
+    "key": "kovo-2001-fa4764c8a04515", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 현대건설 캐릭터 · 구성 2",
+    "form": "mascot",
+    "dark": false,
+    "campaign": false,
+    "selected_size": [
+      928,
+      630
+    ]
+  },
+  {
+    "site_id": 11,
+    "club": "수원 현대건설 힐스테이트",
+    "tcode": "2001",
+    "page": "https://hillstate.kovo.co.kr/about/emblem",
+    "url": "https://cdn.kovo.co.kr/11/about/emblem/image 153.png",
+    "name": "image 153.png",
+    "file": "kovo-assets/11-026e7b3fb97d8a.png",
+    "preview": "kovo-assets/11-026e7b3fb97d8a.preview.png",
+    "vector": false,
+    "sha256": "6e36c166d009bd7565319f8bc50558f5d1d06f24468df8538685f79fa59c9b24",
+    "size": [
+      1160,
+      2033
+    ],
+    "key": "kovo-2001-532e49c149277b", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 현대건설 캐릭터 · 구성 3",
+    "form": "mascot",
+    "dark": false,
+    "campaign": false,
+    "selected_size": [
+      928,
+      692
+    ]
+  },
+  {
+    "site_id": 9,
+    "club": "인천 흥국생명 핑크스파이더스",
+    "tcode": "2004",
+    "page": "https://pinkspiders.kovo.co.kr/about/emblem",
+    "url": "https://cdn.kovo.co.kr/9/about/emblem/image 148 PC.png",
+    "name": "image 148 PC.png",
+    "file": "kovo-assets/9-1362bb3447aadd.png",
+    "preview": "kovo-assets/9-1362bb3447aadd.preview.png",
+    "vector": false,
+    "sha256": "a5dde54196e6ef969ae1eea80b9974177ba1e62cce170bd175ddc4f352e996e3",
+    "size": [
+      820,
+      480
+    ],
+    "key": "kovo-2004-68290d05764405", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 핑크스파이더스 국영문 가로조합",
+    "form": "horizontal",
+    "dark": false,
+    "campaign": false,
+    "selected_size": [
+      779,
+      432
+    ]
+  },
+  {
+    "site_id": 9,
+    "club": "인천 흥국생명 핑크스파이더스",
+    "tcode": "2004",
+    "page": "https://pinkspiders.kovo.co.kr/about/emblem",
+    "url": "https://cdn.kovo.co.kr/9/about/emblem/image 150 PC.png",
+    "name": "image 150 PC.png",
+    "file": "kovo-assets/9-f9349d6beea153.png",
+    "preview": "kovo-assets/9-f9349d6beea153.preview.png",
+    "vector": false,
+    "sha256": "e38e974070139bb6eb8444310e159ec76053f7e4e017ebd61293dba26c4a46bf",
+    "size": [
+      960,
+      480
+    ],
+    "key": "kovo-2004-777ea2798a1c8a", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 핑키 기본형",
+    "form": "mascot",
+    "dark": false,
+    "campaign": false,
+    "selected_size": [
+      355,
+      427
+    ]
+  },
+  {
+    "site_id": 9,
+    "club": "인천 흥국생명 핑크스파이더스",
+    "tcode": "2004",
+    "page": "https://pinkspiders.kovo.co.kr/about/emblem",
+    "url": "https://cdn.kovo.co.kr/9/about/emblem/image 150 PC.png",
+    "name": "image 150 PC.png",
+    "file": "kovo-assets/9-f9349d6beea153.png",
+    "preview": "kovo-assets/9-f9349d6beea153.preview.png",
+    "vector": false,
+    "sha256": "e38e974070139bb6eb8444310e159ec76053f7e4e017ebd61293dba26c4a46bf",
+    "size": [
+      960,
+      480
+    ],
+    "key": "kovo-2004-c2b5d5b44a7dc0", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 핑거 기본형",
+    "form": "mascot",
+    "dark": false,
+    "campaign": false,
+    "selected_size": [
+      356,
+      427
+    ]
+  },
+  {
+    "site_id": 12,
+    "club": "화성 IBK기업은행 알토스",
+    "tcode": "2006",
+    "page": "https://altos.kovo.co.kr/about/emblem",
+    "url": "https://cdn.kovo.co.kr/12/about/emblem/Frame 1261160664-1.png",
+    "name": "Frame 1261160664-1.png",
+    "file": "kovo-assets/12-f117e740717930.png",
+    "preview": "kovo-assets/12-f117e740717930.preview.png",
+    "vector": false,
+    "sha256": "e3b3b2210592c3ebb5fdaa2b57c21dfac3f4b38a0ce406f90128387254ea84e2",
+    "size": [
+      702,
+      480
+    ],
+    "key": "kovo-2006-fb5027c6c24d96", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 토랑이 기본형",
+    "form": "mascot",
+    "dark": false,
+    "campaign": false,
+    "selected_size": [
+      281,
+      268
+    ]
+  },
+  {
+    "site_id": 12,
+    "club": "화성 IBK기업은행 알토스",
+    "tcode": "2006",
+    "page": "https://altos.kovo.co.kr/about/emblem",
+    "url": "https://cdn.kovo.co.kr/12/about/emblem/Frame 1261160664-1.png",
+    "name": "Frame 1261160664-1.png",
+    "file": "kovo-assets/12-f117e740717930.png",
+    "preview": "kovo-assets/12-f117e740717930.preview.png",
+    "vector": false,
+    "sha256": "e3b3b2210592c3ebb5fdaa2b57c21dfac3f4b38a0ce406f90128387254ea84e2",
+    "size": [
+      702,
+      480
+    ],
+    "key": "kovo-2006-6a348d29373310", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 토랑이 응용형",
+    "form": "mascot",
+    "dark": false,
+    "campaign": false,
+    "selected_size": [
+      611,
+      197
+    ]
+  },
+  {
+    "site_id": 17,
+    "club": "전남광주 SOOP SOOPers",
+    "tcode": "2008",
+    "page": "https://soopers.kovo.co.kr/about/emblem",
+    "url": "https://cdn.kovo.co.kr/17/about/emblem/sopp_wordmark_w.png",
+    "name": "sopp_wordmark_w.png",
+    "file": "kovo-assets/17-213f79cbdad831.png",
+    "preview": "kovo-assets/17-213f79cbdad831.preview.png",
+    "vector": false,
+    "sha256": "72221cc6b1c73c7b827a4fb716ed758bfeafd204af19540f20b172e8ba6f33c3",
+    "size": [
+      2340,
+      972
+    ],
+    "key": "kovo-2008-6371bfc06b0af6", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 SOOPers 워드마크 · 응용 1",
+    "form": "wordmark",
+    "dark": false,
+    "campaign": false,
+    "selected_size": [
+      522,
+      292
+    ]
+  },
+  {
+    "site_id": 17,
+    "club": "전남광주 SOOP SOOPers",
+    "tcode": "2008",
+    "page": "https://soopers.kovo.co.kr/about/emblem",
+    "url": "https://cdn.kovo.co.kr/17/about/emblem/sopp_wordmark_w.png",
+    "name": "sopp_wordmark_w.png",
+    "file": "kovo-assets/17-213f79cbdad831.png",
+    "preview": "kovo-assets/17-213f79cbdad831.preview.png",
+    "vector": false,
+    "sha256": "72221cc6b1c73c7b827a4fb716ed758bfeafd204af19540f20b172e8ba6f33c3",
+    "size": [
+      2340,
+      972
+    ],
+    "key": "kovo-2008-e8b742e8254f9c", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 SOOPers 워드마크 · 응용 2",
+    "form": "wordmark",
+    "dark": false,
+    "campaign": false,
+    "selected_size": [
+      522,
+      292
+    ]
+  },
+  {
+    "site_id": 17,
+    "club": "전남광주 SOOP SOOPers",
+    "tcode": "2008",
+    "page": "https://soopers.kovo.co.kr/about/emblem",
+    "url": "https://cdn.kovo.co.kr/17/about/emblem/sopp_wordmark_w.png",
+    "name": "sopp_wordmark_w.png",
+    "file": "kovo-assets/17-213f79cbdad831.png",
+    "preview": "kovo-assets/17-213f79cbdad831.preview.png",
+    "vector": false,
+    "sha256": "72221cc6b1c73c7b827a4fb716ed758bfeafd204af19540f20b172e8ba6f33c3",
+    "size": [
+      2340,
+      972
+    ],
+    "key": "kovo-2008-b13e3358bb0049", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 SOOPers 워드마크 · 응용 3",
+    "form": "wordmark",
+    "dark": false,
+    "campaign": false,
+    "selected_size": [
+      522,
+      292
+    ]
+  },
+  {
+    "site_id": 17,
+    "club": "전남광주 SOOP SOOPers",
+    "tcode": "2008",
+    "page": "https://soopers.kovo.co.kr/about/emblem",
+    "url": "https://cdn.kovo.co.kr/17/about/emblem/sopp_wordmark_w.png",
+    "name": "sopp_wordmark_w.png",
+    "file": "kovo-assets/17-213f79cbdad831.png",
+    "preview": "kovo-assets/17-213f79cbdad831.preview.png",
+    "vector": false,
+    "sha256": "72221cc6b1c73c7b827a4fb716ed758bfeafd204af19540f20b172e8ba6f33c3",
+    "size": [
+      2340,
+      972
+    ],
+    "key": "kovo-2008-06b59b2a7c8663", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 SOOPers 워드마크 · 응용 1 · 다크용",
+    "form": "wordmark",
+    "dark": true,
+    "campaign": false,
+    "selected_size": [
+      522,
+      292
+    ]
+  },
+  {
+    "site_id": 17,
+    "club": "전남광주 SOOP SOOPers",
+    "tcode": "2008",
+    "page": "https://soopers.kovo.co.kr/about/emblem",
+    "url": "https://cdn.kovo.co.kr/17/about/emblem/sopp_wordmark_w.png",
+    "name": "sopp_wordmark_w.png",
+    "file": "kovo-assets/17-213f79cbdad831.png",
+    "preview": "kovo-assets/17-213f79cbdad831.preview.png",
+    "vector": false,
+    "sha256": "72221cc6b1c73c7b827a4fb716ed758bfeafd204af19540f20b172e8ba6f33c3",
+    "size": [
+      2340,
+      972
+    ],
+    "key": "kovo-2008-be76b4db32439c", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 SOOPers 워드마크 · 응용 2 · 다크용",
+    "form": "wordmark",
+    "dark": true,
+    "campaign": false,
+    "selected_size": [
+      522,
+      292
+    ]
+  },
+  {
+    "site_id": 17,
+    "club": "전남광주 SOOP SOOPers",
+    "tcode": "2008",
+    "page": "https://soopers.kovo.co.kr/about/emblem",
+    "url": "https://cdn.kovo.co.kr/17/about/emblem/sopp_wordmark_w.png",
+    "name": "sopp_wordmark_w.png",
+    "file": "kovo-assets/17-213f79cbdad831.png",
+    "preview": "kovo-assets/17-213f79cbdad831.preview.png",
+    "vector": false,
+    "sha256": "72221cc6b1c73c7b827a4fb716ed758bfeafd204af19540f20b172e8ba6f33c3",
+    "size": [
+      2340,
+      972
+    ],
+    "key": "kovo-2008-be7268f4a8854b", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 SOOPers 워드마크 · 응용 3 · 다크용",
+    "form": "wordmark",
+    "dark": true,
+    "campaign": false,
+    "selected_size": [
+      522,
+      292
+    ]
+  },
+  {
+    "site_id": 17,
+    "club": "전남광주 SOOP SOOPers",
+    "tcode": "2008",
+    "page": "https://soopers.kovo.co.kr/about/emblem",
+    "url": "https://cdn.kovo.co.kr/17/about/emblem/soop_ma_w.png",
+    "name": "soop_ma_w.png",
+    "file": "kovo-assets/17-ac016d313801b0.png",
+    "preview": "kovo-assets/17-ac016d313801b0.preview.png",
+    "vector": false,
+    "sha256": "1c75d35d351609a50ab477b6da7cb390835d00ae42d25432de97619862e36454",
+    "size": [
+      1368,
+      695
+    ],
+    "key": "kovo-2008-ff1de9c00baaad", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 고고 기본형",
+    "form": "mascot",
+    "dark": false,
+    "campaign": false,
+    "selected_size": [
+      533,
+      535
+    ]
+  },
+  {
+    "site_id": 17,
+    "club": "전남광주 SOOP SOOPers",
+    "tcode": "2008",
+    "page": "https://soopers.kovo.co.kr/about/emblem",
+    "url": "https://cdn.kovo.co.kr/17/about/emblem/soop_ma_w.png",
+    "name": "soop_ma_w.png",
+    "file": "kovo-assets/17-ac016d313801b0.png",
+    "preview": "kovo-assets/17-ac016d313801b0.preview.png",
+    "vector": false,
+    "sha256": "1c75d35d351609a50ab477b6da7cb390835d00ae42d25432de97619862e36454",
+    "size": [
+      1368,
+      695
+    ],
+    "key": "kovo-2008-c8a2490cf44f0a", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 구구 기본형",
+    "form": "mascot",
+    "dark": false,
+    "campaign": false,
+    "selected_size": [
+      561,
+      535
+    ]
+  },
+  {
+    "club": "인천 대한항공 점보스",
+    "site_id": 4,
+    "tcode": "1001",
+    "page": "https://jumbos.kovo.co.kr",
+    "mode": "LIGHT",
+    "url": "https://cdn.kovo.co.kr/logos/jumbos.svg",
+    "file": "kovo-theme/4-LIGHT.svg",
+    "preview": "kovo-theme/4-LIGHT.png",
+    "sha256": "3591b03e8ccf989f59c906b631a0f84edba5243a0d647dc5861e2397b470263e",
+    "key": "kovo-theme-4-LIGHT", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 구단 SVG 로고",
+    "form": "emblem",
+    "dark": false,
+    "campaign": false,
+    "vector": true,
+    "selected_size": [
+      1200,
+      1200
+    ],
+    "name": "4-LIGHT.svg"
+  },
+  {
+    "club": "천안 현대캐피탈 스카이워커스",
+    "site_id": 2,
+    "tcode": "1005",
+    "page": "https://skywalkers.kovo.co.kr",
+    "mode": "LIGHT",
+    "url": "https://cdn.kovo.co.kr/logos/skywalkers.svg",
+    "file": "kovo-theme/2-LIGHT.svg",
+    "preview": "kovo-theme/2-LIGHT.png",
+    "sha256": "2be71da69ad5ecf8815d5f10dd9cf2b8d56b762e4543bb468ae5241a3b84af86",
+    "key": "kovo-theme-2-LIGHT", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 구단 SVG 로고",
+    "form": "emblem",
+    "dark": false,
+    "campaign": false,
+    "vector": true,
+    "selected_size": [
+      1200,
+      1200
+    ],
+    "name": "2-LIGHT.svg"
+  },
+  {
+    "club": "서울 우리카드 우리WON",
+    "site_id": 5,
+    "tcode": "1009",
+    "page": "https://wooriwon.kovo.co.kr",
+    "mode": "LIGHT",
+    "url": "https://cdn.kovo.co.kr/logos/wooriwon.svg",
+    "file": "kovo-theme/5-LIGHT.svg",
+    "preview": "kovo-theme/5-LIGHT.png",
+    "sha256": "18462ac07dc14b762027c176688a1ad258a51319308a3a505b37895d6d7ed2e8",
+    "key": "kovo-theme-5-LIGHT", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 구단 SVG 로고",
+    "form": "emblem",
+    "dark": false,
+    "campaign": false,
+    "vector": true,
+    "selected_size": [
+      1200,
+      1200
+    ],
+    "name": "5-LIGHT.svg"
+  },
+  {
+    "club": "KB손해보험 스타즈",
+    "site_id": 3,
+    "tcode": "1004",
+    "page": "https://stars.kovo.co.kr",
+    "mode": "LIGHT",
+    "url": "https://cdn.kovo.co.kr/logos/stars.svg",
+    "file": "kovo-theme/3-LIGHT.svg",
+    "preview": "kovo-theme/3-LIGHT.png",
+    "sha256": "db9439f634cb97880ca9c879b19b175ea2f04ce29049b1a911f286cd7730dc72",
+    "key": "kovo-theme-3-LIGHT", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 구단 SVG 로고",
+    "form": "emblem",
+    "dark": false,
+    "campaign": false,
+    "vector": true,
+    "selected_size": [
+      1200,
+      1200
+    ],
+    "name": "3-LIGHT.svg"
+  },
+  {
+    "club": "수원 한국전력 VIXTORM",
+    "site_id": 7,
+    "tcode": "1006",
+    "page": "https://vixtorm.kovo.co.kr",
+    "mode": "LIGHT",
+    "url": "https://cdn.kovo.co.kr/logos/vixtorm.svg",
+    "file": "kovo-theme/7-LIGHT.svg",
+    "preview": "kovo-theme/7-LIGHT.png",
+    "sha256": "02bb8c92a593a6450b8230e791d9de7bda481c308c7f8e7d3c3aad6cf9606c18",
+    "key": "kovo-theme-7-LIGHT", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 구단 SVG 로고",
+    "form": "emblem",
+    "dark": false,
+    "campaign": false,
+    "vector": true,
+    "selected_size": [
+      1200,
+      1200
+    ],
+    "name": "7-LIGHT.svg"
+  },
+  {
+    "club": "부산 OK저축은행 읏맨",
+    "site_id": 8,
+    "tcode": "1008",
+    "page": "https://okman.kovo.co.kr",
+    "mode": "LIGHT",
+    "url": "https://cdn.kovo.co.kr/logos/okman.svg",
+    "file": "kovo-theme/8-LIGHT.svg",
+    "preview": "kovo-theme/8-LIGHT.png",
+    "sha256": "d4addf34c4fcb28d5a96b224cd7342eafaa25f0f70f1c3fcde26c88952c53ab4",
+    "key": "kovo-theme-8-LIGHT", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 구단 SVG 로고",
+    "form": "emblem",
+    "dark": false,
+    "campaign": false,
+    "vector": true,
+    "selected_size": [
+      1200,
+      1200
+    ],
+    "name": "8-LIGHT.svg"
+  },
+  {
+    "club": "대전 삼성화재 블루팡스",
+    "site_id": 6,
+    "tcode": "1002",
+    "page": "https://bluefangs.kovo.co.kr",
+    "mode": "DARK",
+    "url": "https://cdn.kovo.co.kr/6/site-infos/다크모드.svg",
+    "file": "kovo-theme/6-DARK.svg",
+    "preview": "kovo-theme/6-DARK.png",
+    "sha256": "f8ffa0cb7938aa395bb7e2d38c324f2b2942a94b0a9a1ec2f04c10a4ac921899",
+    "key": "kovo-theme-6-DARK", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 구단 SVG 로고 · 다크용",
+    "form": "emblem",
+    "dark": true,
+    "campaign": false,
+    "vector": true,
+    "selected_size": [
+      1200,
+      1200
+    ],
+    "name": "6-DARK.svg"
+  },
+  {
+    "club": "대전 삼성화재 블루팡스",
+    "site_id": 6,
+    "tcode": "1002",
+    "page": "https://bluefangs.kovo.co.kr",
+    "mode": "LIGHT",
+    "url": "https://cdn.kovo.co.kr/logos/bluefangs.svg",
+    "file": "kovo-theme/6-LIGHT.svg",
+    "preview": "kovo-theme/6-LIGHT.png",
+    "sha256": "56fe467bacd7dad646c79867828df98662fd71ecbe69ebb7b460f2885afb724c",
+    "key": "kovo-theme-6-LIGHT", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 구단 SVG 로고",
+    "form": "emblem",
+    "dark": false,
+    "campaign": false,
+    "vector": true,
+    "selected_size": [
+      1200,
+      1200
+    ],
+    "name": "6-LIGHT.svg"
+  },
+  {
+    "club": "GS칼텍스 서울Kixx",
+    "site_id": 14,
+    "tcode": "2005",
+    "page": "https://kixx.kovo.co.kr",
+    "mode": "LIGHT",
+    "url": "https://cdn.kovo.co.kr/logos/kixx.svg",
+    "file": "kovo-theme/14-LIGHT.svg",
+    "preview": "kovo-theme/14-LIGHT.png",
+    "sha256": "68f436e8bda0d79f92f556837d83bae7a10634a350476bc2799ccff4e5276ac4",
+    "key": "kovo-theme-14-LIGHT", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 구단 SVG 로고",
+    "form": "emblem",
+    "dark": false,
+    "campaign": false,
+    "vector": true,
+    "selected_size": [
+      1200,
+      1200
+    ],
+    "name": "14-LIGHT.svg"
+  },
+  {
+    "club": "김천 한국도로공사 하이패스",
+    "site_id": 13,
+    "tcode": "2002",
+    "page": "https://hipass.kovo.co.kr",
+    "mode": "LIGHT",
+    "url": "https://cdn.kovo.co.kr/logos/hipass.svg",
+    "file": "kovo-theme/13-LIGHT.svg",
+    "preview": "kovo-theme/13-LIGHT.png",
+    "sha256": "cefb5c98a311ad5c268c43fb36c65b3d9486bb69fb806edbd24e70532737fd22",
+    "key": "kovo-theme-13-LIGHT", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 구단 SVG 로고",
+    "form": "emblem",
+    "dark": false,
+    "campaign": false,
+    "vector": true,
+    "selected_size": [
+      1200,
+      1200
+    ],
+    "name": "13-LIGHT.svg"
+  },
+  {
+    "club": "수원 현대건설 힐스테이트",
+    "site_id": 11,
+    "tcode": "2001",
+    "page": "https://hillstate.kovo.co.kr",
+    "mode": "LIGHT",
+    "url": "https://cdn.kovo.co.kr/logos/hillstate.svg",
+    "file": "kovo-theme/11-LIGHT.svg",
+    "preview": "kovo-theme/11-LIGHT.png",
+    "sha256": "36fe497bc8eeaaa054c4ca5c9de8f8b844361e6fb0ebe717125f053a8c7a850e",
+    "key": "kovo-theme-11-LIGHT", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 구단 SVG 로고",
+    "form": "emblem",
+    "dark": false,
+    "campaign": false,
+    "vector": true,
+    "selected_size": [
+      1200,
+      1200
+    ],
+    "name": "11-LIGHT.svg"
+  },
+  {
+    "club": "인천 흥국생명 핑크스파이더스",
+    "site_id": 9,
+    "tcode": "2004",
+    "page": "https://pinkspiders.kovo.co.kr",
+    "mode": "LIGHT",
+    "url": "https://cdn.kovo.co.kr/logos/pinkspiders.svg",
+    "file": "kovo-theme/9-LIGHT.svg",
+    "preview": "kovo-theme/9-LIGHT.png",
+    "sha256": "187b01879d84b9141fc2674d6377c1093041c88fc1b4f0f972a9239af10e08dd",
+    "key": "kovo-theme-9-LIGHT", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 구단 SVG 로고",
+    "form": "emblem",
+    "dark": false,
+    "campaign": false,
+    "vector": true,
+    "selected_size": [
+      1200,
+      1200
+    ],
+    "name": "9-LIGHT.svg"
+  },
+  {
+    "club": "화성 IBK기업은행 알토스",
+    "site_id": 12,
+    "tcode": "2006",
+    "page": "https://altos.kovo.co.kr",
+    "mode": "LIGHT",
+    "url": "https://cdn.kovo.co.kr/logos/altos.svg",
+    "file": "kovo-theme/12-LIGHT.svg",
+    "preview": "kovo-theme/12-LIGHT.png",
+    "sha256": "6cb1bf04227cd2b2c6087457f8c71aa6c6da07a653f98c32fd86462b16b25969",
+    "key": "kovo-theme-12-LIGHT", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 구단 SVG 로고",
+    "form": "emblem",
+    "dark": false,
+    "campaign": false,
+    "vector": true,
+    "selected_size": [
+      1200,
+      1200
+    ],
+    "name": "12-LIGHT.svg"
+  },
+  {
+    "club": "대전 정관장 레드스파크스",
+    "site_id": 10,
+    "tcode": "2003",
+    "page": "https://redsparks.kovo.co.kr",
+    "mode": "LIGHT",
+    "url": "https://cdn.kovo.co.kr/logos/redsparks.svg",
+    "file": "kovo-theme/10-LIGHT.svg",
+    "preview": "kovo-theme/10-LIGHT.png",
+    "sha256": "bcb06ba64580366ad79970050ac100734a57a7f0157b0b967a2be47b851bf11b",
+    "key": "kovo-theme-10-LIGHT", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 구단 SVG 로고",
+    "form": "emblem",
+    "dark": false,
+    "campaign": false,
+    "vector": true,
+    "selected_size": [
+      1200,
+      1200
+    ],
+    "name": "10-LIGHT.svg"
+  },
+  {
+    "club": "전남광주 SOOP SOOPers",
+    "site_id": 17,
+    "tcode": "2008",
+    "page": "https://soopers.kovo.co.kr",
+    "mode": "DARK",
+    "url": "https://cdn.kovo.co.kr/17/site-infos/SOOP_ld.svg",
+    "file": "kovo-theme/17-DARK.svg",
+    "preview": "kovo-theme/17-DARK.png",
+    "sha256": "b33bac6b744f443ef8ce6f5908338380a8c5365eb2a374c70c5d9f7b97af8283",
+    "key": "kovo-theme-17-DARK", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 구단 SVG 로고 · 다크용",
+    "form": "emblem",
+    "dark": true,
+    "campaign": false,
+    "vector": true,
+    "selected_size": [
+      1200,
+      1200
+    ],
+    "name": "17-DARK.svg"
+  },
+  {
+    "club": "전남광주 SOOP SOOPers",
+    "site_id": 17,
+    "tcode": "2008",
+    "page": "https://soopers.kovo.co.kr",
+    "mode": "LIGHT",
+    "url": "https://cdn.kovo.co.kr/17/site-infos/SOOP_ll.svg",
+    "file": "kovo-theme/17-LIGHT.svg",
+    "preview": "kovo-theme/17-LIGHT.png",
+    "sha256": "b33bac6b744f443ef8ce6f5908338380a8c5365eb2a374c70c5d9f7b97af8283",
+    "key": "kovo-theme-17-LIGHT", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 구단 SVG 로고",
+    "form": "emblem",
+    "dark": false,
+    "campaign": false,
+    "vector": true,
+    "selected_size": [
+      1200,
+      1200
+    ],
+    "name": "17-LIGHT.svg"
+  }
+]

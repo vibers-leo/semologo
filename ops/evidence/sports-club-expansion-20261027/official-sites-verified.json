@@ -1,0 +1,205 @@
+[
+  {
+    "id": "promykbl",
+    "url": "https://promy.kbl.or.kr/",
+    "status": "200",
+    "final_url": "https://promy.kbl.or.kr/",
+    "verified": true
+  },
+  {
+    "id": "phoebuskbl",
+    "url": "https://phoebus.kbl.or.kr/",
+    "status": "200",
+    "final_url": "https://phoebus.kbl.or.kr/",
+    "verified": true
+  },
+  {
+    "id": "kccegis",
+    "url": "https://egis.kbl.or.kr/",
+    "status": "200",
+    "final_url": "https://egis.kbl.or.kr/",
+    "verified": true
+  },
+  {
+    "id": "kgckbl",
+    "url": "https://kgc.kbl.or.kr/",
+    "status": "200",
+    "final_url": "https://kgc.kbl.or.kr/",
+    "verified": true
+  },
+  {
+    "id": "sonicboomkbl",
+    "url": "https://sonicboom.kbl.or.kr/",
+    "status": "200",
+    "final_url": "https://sonicboom.kbl.or.kr/",
+    "verified": true
+  },
+  {
+    "id": "sakerskbl",
+    "url": "https://sakers.kbl.or.kr/",
+    "status": "200",
+    "final_url": "https://sakers.kbl.or.kr/",
+    "verified": true
+  },
+  {
+    "id": "pegasuskbl",
+    "url": "https://pegasus.kbl.or.kr/",
+    "status": "200",
+    "final_url": "https://pegasus.kbl.or.kr/",
+    "verified": true
+  },
+  {
+    "id": "sksports",
+    "url": "https://knights.kbl.or.kr/",
+    "status": "200",
+    "final_url": "https://knights.kbl.or.kr/",
+    "verified": true
+  },
+  {
+    "id": "skygunnerskbl",
+    "url": "https://skygunners.kbl.or.kr/",
+    "status": "200",
+    "final_url": "https://skygunners.kbl.or.kr/",
+    "verified": true
+  },
+  {
+    "id": "thunderskbl",
+    "url": "https://thunders.kbl.or.kr/",
+    "status": "200",
+    "final_url": "https://thunders.kbl.or.kr/",
+    "verified": true
+  },
+  {
+    "id": "uhdfc",
+    "url": "https://www.uhdfc.com/fc/greetings.php",
+    "status": "200",
+    "final_url": "https://www.uhdfc.com/fc/greetings.php",
+    "verified": true
+  },
+  {
+    "id": "dhcfc",
+    "url": "https://www.dhcfc.kr/",
+    "status": "200",
+    "final_url": "https://www.dhcfc.kr/",
+    "verified": true
+  },
+  {
+    "id": "jejuskfc",
+    "url": "https://www.jejuskfc.com/",
+    "status": "200",
+    "final_url": "https://www.jejuskfc.com/",
+    "verified": true
+  },
+  {
+    "id": "gimcheonfc",
+    "url": "https://gimcheonfc.com/",
+    "status": "200",
+    "final_url": "https://www.gimcheonfc.com/",
+    "verified": true
+  },
+  {
+    "id": "gwangjufc",
+    "url": "https://www.gwangjufc.com/",
+    "status": "200",
+    "final_url": "https://www.gwangjufc.com/",
+    "verified": true
+  },
+  {
+    "id": "kaljumbos",
+    "url": "https://jumbos.kovo.co.kr/",
+    "status": "200",
+    "final_url": "https://jumbos.kovo.co.kr/",
+    "verified": true
+  },
+  {
+    "id": "hyundai-capital-skywalkers",
+    "url": "https://skywalkers.kovo.co.kr/",
+    "status": "200",
+    "final_url": "https://skywalkers.kovo.co.kr/",
+    "verified": true
+  },
+  {
+    "id": "wooriwon-volleyball",
+    "url": "https://wooriwon.kovo.co.kr/",
+    "status": "200",
+    "final_url": "https://wooriwon.kovo.co.kr/",
+    "verified": true
+  },
+  {
+    "id": "kbstarsvc",
+    "url": "https://stars.kovo.co.kr/",
+    "status": "200",
+    "final_url": "https://stars.kovo.co.kr/",
+    "verified": true
+  },
+  {
+    "id": "kepco-vixtorm",
+    "url": "https://vixtorm.kovo.co.kr/",
+    "status": "200",
+    "final_url": "https://vixtorm.kovo.co.kr/",
+    "verified": true
+  },
+  {
+    "id": "okfinancialsports",
+    "url": "https://okman.kovo.co.kr/",
+    "status": "200",
+    "final_url": "https://okman.kovo.co.kr/",
+    "verified": true
+  },
+  {
+    "id": "samsung-fire-bluefangs",
+    "url": "https://bluefangs.kovo.co.kr/",
+    "status": "200",
+    "final_url": "https://bluefangs.kovo.co.kr/",
+    "verified": true
+  },
+  {
+    "id": "gsvolleyball",
+    "url": "https://kixx.kovo.co.kr/",
+    "status": "200",
+    "final_url": "https://kixx.kovo.co.kr/",
+    "verified": true
+  },
+  {
+    "id": "korea-expressway-hi-pass",
+    "url": "https://hipass.kovo.co.kr/",
+    "status": "200",
+    "final_url": "https://hipass.kovo.co.kr/",
+    "verified": true
+  },
+  {
+    "id": "hillstatehdec",
+    "url": "https://hillstate.kovo.co.kr/",
+    "status": "200",
+    "final_url": "https://hillstate.kovo.co.kr/",
+    "verified": true
+  },
+  {
+    "id": "pinkspiders",
+    "url": "https://pinkspiders.kovo.co.kr/",
+    "status": "200",
+    "final_url": "https://pinkspiders.kovo.co.kr/",
+    "verified": true
+  },
+  {
+    "id": "sportsibk",
+    "url": "https://altos.kovo.co.kr/",
+    "status": "200",
+    "final_url": "https://altos.kovo.co.kr/",
+    "verified": true
+  },
+  {
+    "id": "kgc",
+    "url": "https://redsparks.kovo.co.kr/",
+    "status": "200",
+    "final_url": "https://redsparks.kovo.co.kr/",
+    "verified": true
+  },
+  {
+    "id": "aipeppers",
+    "url": "https://soopers.kovo.co.kr/",
+    "status": "200",
+    "final_url": "https://soopers.kovo.co.kr/",
+    "verified": true
+  }
+]

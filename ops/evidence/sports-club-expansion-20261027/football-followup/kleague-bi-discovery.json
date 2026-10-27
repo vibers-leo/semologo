@@ -1,0 +1,67 @@
+[
+  {
+    "name": "K27-emblem",
+    "url": "https://www.fc-anyang.com/club/emblem.asp",
+    "downloads": [
+      "https://www.fc-anyang.com/club/embdownload/FC안양_로고타입ai.zip",
+      "https://www.fc-anyang.com/club/embdownload/FC안양_로고타입png.zip",
+      "https://www.fc-anyang.com/club/embdownload/FC안양_세로형시그니처ai.zip",
+      "https://www.fc-anyang.com/club/embdownload/FC안양_세로형시그니처png.zip",
+      "https://www.fc-anyang.com/club/embdownload/FC안양_가로시그니처ai.zip",
+      "https://www.fc-anyang.com/club/embdownload/FC안양_가로시그니처png.zip"
+    ],
+    "images": [],
+    "links": [
+      "https://www.fc-anyang.com/club/emblem.asp#container",
+      "https://www.fc-anyang.com/club/emblem.asp#",
+      "https://www.fc-anyang.com/club/emblem.asp",
+      "https://www.fc-anyang.com/club/emblem.asp#layout0"
+    ]
+  },
+  {
+    "name": "K09-emblem",
+    "url": "https://www.fcseoul.com/club/clubFcEmblemView",
+    "downloads": [
+      "https://files.fcseoul.com/resources/front/etc/emblem.zip",
+      "https://files.fcseoul.com/resources/front/etc/emblem_40th.zip"
+    ],
+    "images": [
+      "https://www.fcseoul.com/resources/front/images/sub/club/img_club_emblem01.jpg",
+      "https://www.fcseoul.com/resources/front/images/sub/club/img_club_emblem02.jpg",
+      "https://www.fcseoul.com/resources/front/images/sub/club/img_40th_emblem01.jpg",
+      "https://www.fcseoul.com/resources/front/images/sub/club/img_40th_emblem02.jpg",
+      "https://www.fcseoul.com/resources/front/images/sub/club/logo_emblem01.jpg",
+      "https://www.fcseoul.com/resources/front/images/sub/club/logo_emblem02.jpg"
+    ],
+    "links": [
+      "https://www.fcseoul.com/club/clubFcEmblemView#none",
+      "https://www.fcseoul.com/club/clubFcEmblemView#",
+      "https://www.fcseoul.com/club/clubFcEmblemView",
+      "https://www.fcseoul.com/club/clubFcMascotView"
+    ]
+  },
+  {
+    "name": "K09-mascot",
+    "url": "https://www.fcseoul.com/club/clubFcMascotView",
+    "downloads": [
+      "https://www.fcseoul.com/resources/front/etc/mascot.ai"
+    ],
+    "images": [
+      "https://www.fcseoul.com/resources/front/images/sub/club/img_mascot.jpg"
+    ],
+    "links": [
+      "https://www.fcseoul.com/club/clubFcMascotView#none",
+      "https://www.fcseoul.com/club/clubFcMascotView#",
+      "https://www.fcseoul.com/club/clubFcEmblemView",
+      "https://www.fcseoul.com/club/clubFcMascotView"
+    ]
+  },
+  {
+    "name": "K18-ci",
+    "url": "https://www.incheonutd.com/club/club_ci.html",
+    "downloads": [
+      "https://www.incheonutd.com/resource/image/content/emblem.zip",
+      "https://www.incheonutd.com/resource/image/content/emblem_ai.zip"
+    ]
+  }
+]

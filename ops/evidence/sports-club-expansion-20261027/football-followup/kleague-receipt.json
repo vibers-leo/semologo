@@ -1,0 +1,29 @@
+[
+  {
+    "id": "fcanyang",
+    "published": true,
+    "team": "K27",
+    "added": 13,
+    "total": 13,
+    "representative_preserved": true,
+    "hidden_state_preserved": true
+  },
+  {
+    "id": "fcseoul",
+    "published": true,
+    "team": "K09",
+    "added": 8,
+    "total": 13,
+    "representative_preserved": true,
+    "hidden_state_preserved": true
+  },
+  {
+    "id": "incheonutd",
+    "published": true,
+    "team": "K18",
+    "added": 2,
+    "total": 3,
+    "representative_preserved": true,
+    "hidden_state_preserved": true
+  }
+]

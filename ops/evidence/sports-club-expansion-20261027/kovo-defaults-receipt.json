@@ -1,0 +1,142 @@
+[
+  {
+    "id": "kaljumbos",
+    "published": true,
+    "name": "인천 대한항공 점보스",
+    "default_native_upgraded": true,
+    "hidden_preserved": true,
+    "preview_url": "https://logo.vibers.co.kr/_clients/kaljumbos/sources/official-sports-20261012/957b4e323c525e0da492.png",
+    "source_page": "https://jumbos.kovo.co.kr",
+    "all_compositions_complete": false
+  },
+  {
+    "id": "hyundai-capital-skywalkers",
+    "published": true,
+    "name": "천안 현대캐피탈 스카이워커스",
+    "default_native_upgraded": false,
+    "hidden_preserved": false,
+    "preview_url": "https://logo.vibers.co.kr/_clients/hyundai-capital-skywalkers/sources/official-sports-20261012/967e17465d6933abaa57.png",
+    "source_page": "https://skywalkers.kovo.co.kr",
+    "all_compositions_complete": false
+  },
+  {
+    "id": "wooriwon-volleyball",
+    "published": true,
+    "name": "서울 우리카드 우리WON",
+    "default_native_upgraded": false,
+    "hidden_preserved": false,
+    "preview_url": "https://logo.vibers.co.kr/_clients/wooriwon-volleyball/sources/official-kovo-20261027/7c557494210528a8254e9650.png",
+    "source_page": "https://wooriwon.kovo.co.kr",
+    "all_compositions_complete": false
+  },
+  {
+    "id": "kbstarsvc",
+    "published": true,
+    "name": "KB손해보험 스타즈",
+    "default_native_upgraded": true,
+    "hidden_preserved": false,
+    "preview_url": "https://logo.vibers.co.kr/_clients/kbstarsvc/sources/official-sports-20261012/5d6a0c9fb8a6519c2015.png",
+    "source_page": "https://stars.kovo.co.kr",
+    "all_compositions_complete": false
+  },
+  {
+    "id": "kepco-vixtorm",
+    "published": true,
+    "name": "수원 한국전력 VIXTORM",
+    "default_native_upgraded": false,
+    "hidden_preserved": false,
+    "preview_url": "https://logo.vibers.co.kr/_clients/kepco-vixtorm/sources/official-sports-20261012/c6efde86aa4cbede41fa.png",
+    "source_page": "https://vixtorm.kovo.co.kr",
+    "all_compositions_complete": false
+  },
+  {
+    "id": "okfinancialsports",
+    "published": true,
+    "name": "부산 OK저축은행 읏맨",
+    "default_native_upgraded": true,
+    "hidden_preserved": false,
+    "preview_url": "https://logo.vibers.co.kr/_clients/okfinancialsports/sources/official-sports-20261012/b19b7c650b168666631c.png",
+    "source_page": "https://okman.kovo.co.kr",
+    "all_compositions_complete": false
+  },
+  {
+    "id": "samsung-fire-bluefangs",
+    "published": true,
+    "name": "대전 삼성화재 블루팡스",
+    "default_native_upgraded": false,
+    "hidden_preserved": false,
+    "preview_url": "https://logo.vibers.co.kr/_clients/samsung-fire-bluefangs/sources/official-sports-20261012/a5436983bb038bd5a3f4.png",
+    "source_page": "https://bluefangs.kovo.co.kr",
+    "all_compositions_complete": false
+  },
+  {
+    "id": "gsvolleyball",
+    "published": true,
+    "name": "GS칼텍스 서울Kixx",
+    "default_native_upgraded": true,
+    "hidden_preserved": true,
+    "preview_url": "https://logo.vibers.co.kr/_clients/gsvolleyball/sources/official-sports-20261012/19cbd83f3aedee2c2783.png",
+    "source_page": "https://kixx.kovo.co.kr",
+    "all_compositions_complete": false
+  },
+  {
+    "id": "korea-expressway-hi-pass",
+    "published": true,
+    "name": "김천 한국도로공사 하이패스",
+    "default_native_upgraded": false,
+    "hidden_preserved": false,
+    "preview_url": "https://logo.vibers.co.kr/_clients/korea-expressway-hi-pass/sources/official-sports-20261012/f150279f0efdc81a6a37.png",
+    "source_page": "https://hipass.kovo.co.kr",
+    "all_compositions_complete": false
+  },
+  {
+    "id": "hillstatehdec",
+    "published": true,
+    "name": "수원 현대건설 힐스테이트",
+    "default_native_upgraded": false,
+    "hidden_preserved": false,
+    "preview_url": null,
+    "source_page": "https://hillstate.kovo.co.kr",
+    "all_compositions_complete": false
+  },
+  {
+    "id": "pinkspiders",
+    "published": true,
+    "name": "인천 흥국생명 핑크스파이더스",
+    "default_native_upgraded": true,
+    "hidden_preserved": false,
+    "preview_url": "https://logo.vibers.co.kr/_clients/pinkspiders/sources/official-kovo-20261027/be7ebbed255953817f44dff1.png",
+    "source_page": "https://pinkspiders.kovo.co.kr",
+    "all_compositions_complete": false
+  },
+  {
+    "id": "sportsibk",
+    "published": true,
+    "name": "화성 IBK기업은행 알토스",
+    "default_native_upgraded": true,
+    "hidden_preserved": false,
+    "preview_url": "https://logo.vibers.co.kr/_clients/sportsibk/sources/official-sports-20261012/26ab52cba824043907d3.png",
+    "source_page": "https://altos.kovo.co.kr",
+    "all_compositions_complete": false
+  },
+  {
+    "id": "kgc",
+    "published": true,
+    "name": "대전 정관장 레드스파크스",
+    "default_native_upgraded": true,
+    "hidden_preserved": false,
+    "preview_url": "https://logo.vibers.co.kr/_clients/kgc/sources/official-sports-20261012/d41d4807a14bb2bcfca9.png",
+    "source_page": "https://redsparks.kovo.co.kr",
+    "all_compositions_complete": false
+  },
+  {
+    "id": "aipeppers",
+    "published": true,
+    "name": "전남광주 SOOP SOOPers",
+    "default_native_upgraded": true,
+    "hidden_preserved": true,
+    "preview_url": "https://logo.vibers.co.kr/_clients/aipeppers/sources/official-sports-20261012/291241cf53126ebd45d1.png",
+    "source_page": "https://soopers.kovo.co.kr",
+    "all_compositions_complete": false
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "id": "uhdfc",
+    "published": true,
+    "team": "K01",
+    "added": 3,
+    "total": 3,
+    "representative_preserved": true,
+    "hidden_state_preserved": true
+  },
+  {
+    "id": "dhcfc",
+    "published": true,
+    "team": "K10",
+    "added": 8,
+    "total": 8,
+    "representative_preserved": true,
+    "hidden_state_preserved": true
+  },
+  {
+    "id": "jejuskfc",
+    "published": true,
+    "team": "K04",
+    "added": 21,
+    "total": 21,
+    "representative_preserved": true,
+    "hidden_state_preserved": true
+  },
+  {
+    "id": "gimcheonfc",
+    "published": true,
+    "team": "K35",
+    "added": 2,
+    "total": 2,
+    "representative_preserved": true,
+    "hidden_state_preserved": true
+  },
+  {
+    "id": "gwangjufc",
+    "published": true,
+    "team": "K22",
+    "added": 4,
+    "total": 5,
+    "representative_preserved": true,
+    "hidden_state_preserved": true
+  }
+]

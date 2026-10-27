@@ -1,0 +1,18 @@
+[
+  {
+    "id": "bfc1995",
+    "source_url": "https://www.bfc1995.com/assets/emblem-a308e8b8.png",
+    "sha256": "a308e8b83fccc27bda7e8ccdc7d550cb4a4ba19bf4f5cdf99f2566df5b8c6372",
+    "dimensions": [
+      360,
+      443
+    ],
+    "reason": "Reviewed official site raster does not improve collection quality; no new derivative published."
+  },
+  {
+    "collection_member": "강원 FC",
+    "source_url": "https://www.gangwon-fc.com/club/greeting",
+    "existing_reserve_id": "gangwonfc",
+    "reason": "Existing identity explicitly names Gangwon FC B. First-team native vector source and independent identity must be verified."
+  }
+]

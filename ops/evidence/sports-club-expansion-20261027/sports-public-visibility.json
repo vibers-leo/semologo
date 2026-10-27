@@ -1,0 +1,122 @@
+[
+  {
+    "id": "promykbl",
+    "name": "원주 DB 프로미",
+    "visible": true
+  },
+  {
+    "id": "phoebuskbl",
+    "name": "울산 현대모비스 피버스",
+    "visible": true
+  },
+  {
+    "id": "kccegis",
+    "name": "부산 KCC 이지스 BC",
+    "visible": true
+  },
+  {
+    "id": "kgckbl",
+    "name": "안양 정관장 레드부스터스",
+    "visible": true
+  },
+  {
+    "id": "sonicboomkbl",
+    "name": "수원 KT 소닉붐",
+    "visible": true
+  },
+  {
+    "id": "sakerskbl",
+    "name": "창원 LG 세이커스",
+    "visible": true
+  },
+  {
+    "id": "pegasuskbl",
+    "name": "대구 한국가스공사 페가수스 BC",
+    "visible": true
+  },
+  {
+    "id": "sksports",
+    "name": "서울 SK 나이츠 BC",
+    "visible": true
+  },
+  {
+    "id": "skygunnerskbl",
+    "name": "고양 소노 스카이거너스 BC",
+    "visible": true
+  },
+  {
+    "id": "thunderskbl",
+    "name": "서울 삼성 썬더스 BC",
+    "visible": true
+  },
+  {
+    "id": "kaljumbos",
+    "name": "인천 대한항공 점보스",
+    "visible": false
+  },
+  {
+    "id": "hyundai-capital-skywalkers",
+    "name": "천안 현대캐피탈 스카이워커스",
+    "visible": true
+  },
+  {
+    "id": "wooriwon-volleyball",
+    "name": "서울 우리카드 우리WON",
+    "visible": true
+  },
+  {
+    "id": "kbstarsvc",
+    "name": "의정부 KB손해보험 스타즈",
+    "visible": true
+  },
+  {
+    "id": "kepco-vixtorm",
+    "name": "수원 한국전력 VIXTORM",
+    "visible": true
+  },
+  {
+    "id": "okfinancialsports",
+    "name": "부산 OK저축은행 읏맨",
+    "visible": true
+  },
+  {
+    "id": "samsung-fire-bluefangs",
+    "name": "대전 삼성화재 블루팡스",
+    "visible": true
+  },
+  {
+    "id": "gsvolleyball",
+    "name": "GS칼텍스 서울 KIXX",
+    "visible": false
+  },
+  {
+    "id": "korea-expressway-hi-pass",
+    "name": "김천 한국도로공사 하이패스",
+    "visible": true
+  },
+  {
+    "id": "hillstatehdec",
+    "name": "수원 현대건설 힐스테이트",
+    "visible": true
+  },
+  {
+    "id": "pinkspiders",
+    "name": "인천 흥국생명 핑크스파이더스",
+    "visible": true
+  },
+  {
+    "id": "sportsibk",
+    "name": "화성 IBK기업은행 알토스",
+    "visible": true
+  },
+  {
+    "id": "kgc",
+    "name": "대전 정관장 레드스파크스 WVC",
+    "visible": true
+  },
+  {
+    "id": "aipeppers",
+    "name": "전남광주 SOOP SOOPers",
+    "visible": false
+  }
+]

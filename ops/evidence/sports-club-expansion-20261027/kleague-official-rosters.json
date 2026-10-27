@@ -1,0 +1,209 @@
+{
+  "league2": [
+    {
+      "year": 2026,
+      "leagueId": 2,
+      "teamId": "K02",
+      "teamName": "수원",
+      "homepage": "https://www.bluewings.kr/"
+    },
+    {
+      "year": 2026,
+      "leagueId": 2,
+      "teamId": "K29",
+      "teamName": "수원FC",
+      "homepage": "https://www.suwonfc.com"
+    },
+    {
+      "year": 2026,
+      "leagueId": 2,
+      "teamId": "K31",
+      "teamName": "서울E",
+      "homepage": "https://www.seoulelandfc.com"
+    },
+    {
+      "year": 2026,
+      "leagueId": 2,
+      "teamId": "K17",
+      "teamName": "대구",
+      "homepage": "https://daegufc.co.kr"
+    },
+    {
+      "year": 2026,
+      "leagueId": 2,
+      "teamId": "K06",
+      "teamName": "부산",
+      "homepage": "https://www.busanipark.com"
+    },
+    {
+      "year": 2026,
+      "leagueId": 2,
+      "teamId": "K39",
+      "teamName": "화성",
+      "homepage": "https://www.hwaseongfc.com/"
+    },
+    {
+      "year": 2026,
+      "leagueId": 2,
+      "teamId": "K34",
+      "teamName": "충남아산",
+      "homepage": "https://www.asanfc.com"
+    },
+    {
+      "year": 2026,
+      "leagueId": 2,
+      "teamId": "K36",
+      "teamName": "김포",
+      "homepage": "https://www.gimpofc.com"
+    },
+    {
+      "year": 2026,
+      "leagueId": 2,
+      "teamId": "K20",
+      "teamName": "경남",
+      "homepage": "http://www.gyeongnamfc.com"
+    },
+    {
+      "year": 2026,
+      "leagueId": 2,
+      "teamId": "K37",
+      "teamName": "충북청주",
+      "homepage": "https://chfc.kr/"
+    },
+    {
+      "year": 2026,
+      "leagueId": 2,
+      "teamId": "K08",
+      "teamName": "성남",
+      "homepage": "https://seongnamfc.com/"
+    },
+    {
+      "year": 2026,
+      "leagueId": 2,
+      "teamId": "K40",
+      "teamName": "파주",
+      "homepage": "https://www.pajufrontier.com/"
+    },
+    {
+      "year": 2026,
+      "leagueId": 2,
+      "teamId": "K42",
+      "teamName": "용인",
+      "homepage": "https://www.yonginfc.co.kr/"
+    },
+    {
+      "year": 2026,
+      "leagueId": 2,
+      "teamId": "K38",
+      "teamName": "천안",
+      "homepage": "https://cheonancityfc.kr/"
+    },
+    {
+      "year": 2026,
+      "leagueId": 2,
+      "teamId": "K32",
+      "teamName": "안산",
+      "homepage": "https://www.greenersfc.com/"
+    },
+    {
+      "year": 2026,
+      "leagueId": 2,
+      "teamId": "K07",
+      "teamName": "전남",
+      "homepage": "https://www.dragons.co.kr"
+    },
+    {
+      "year": 2026,
+      "leagueId": 2,
+      "teamId": "K41",
+      "teamName": "김해",
+      "homepage": "https://gimhaefc2008.com/"
+    }
+  ],
+  "league1": [
+    {
+      "year": 2026,
+      "leagueId": 1,
+      "teamId": "K09",
+      "teamName": "서울",
+      "homepage": "https://www.fcseoul.com/"
+    },
+    {
+      "year": 2026,
+      "leagueId": 1,
+      "teamId": "K01",
+      "teamName": "울산",
+      "homepage": "https://www.uhdfc.com/fc/greetings.php"
+    },
+    {
+      "year": 2026,
+      "leagueId": 1,
+      "teamId": "K10",
+      "teamName": "대전",
+      "homepage": "https://www.dhcfc.kr/"
+    },
+    {
+      "year": 2026,
+      "leagueId": 1,
+      "teamId": "K05",
+      "teamName": "전북",
+      "homepage": "https://www.hyundai-motorsfc.com"
+    },
+    {
+      "year": 2026,
+      "leagueId": 1,
+      "teamId": "K21",
+      "teamName": "강원",
+      "homepage": "https://www.gangwon-fc.com"
+    },
+    {
+      "year": 2026,
+      "leagueId": 1,
+      "teamId": "K18",
+      "teamName": "인천",
+      "homepage": "https://www.incheonutd.com"
+    },
+    {
+      "year": 2026,
+      "leagueId": 1,
+      "teamId": "K04",
+      "teamName": "제주",
+      "homepage": "https://www.jejuskfc.com/"
+    },
+    {
+      "year": 2026,
+      "leagueId": 1,
+      "teamId": "K27",
+      "teamName": "안양",
+      "homepage": "https://www.fc-anyang.com"
+    },
+    {
+      "year": 2026,
+      "leagueId": 1,
+      "teamId": "K03",
+      "teamName": "포항",
+      "homepage": "https://www.steelers.co.kr"
+    },
+    {
+      "year": 2026,
+      "leagueId": 1,
+      "teamId": "K35",
+      "teamName": "김천",
+      "homepage": "https://gimcheonfc.com/"
+    },
+    {
+      "year": 2026,
+      "leagueId": 1,
+      "teamId": "K26",
+      "teamName": "부천",
+      "homepage": "https://www.bfc1995.com"
+    },
+    {
+      "year": 2026,
+      "leagueId": 1,
+      "teamId": "K22",
+      "teamName": "광주",
+      "homepage": "https://www.gwangjufc.com/"
+    }
+  ]
+}

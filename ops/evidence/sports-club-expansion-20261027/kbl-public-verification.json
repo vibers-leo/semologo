@@ -1,0 +1,157 @@
+[
+  {
+    "id": "promykbl",
+    "added": 2,
+    "total": 4,
+    "png_verified": true,
+    "variant_api_verified": true,
+    "representative_preserved": true,
+    "sample": "https://logo.vibers.co.kr/_clients/promykbl/sources/official-kbl-20261027/b94a1a73df76b277b28c249b.png",
+    "sample_sha256": "b94a1a73df76b277b28c249b4d81b2733a2b2d2340b831e6dffb27545c7a3d1d",
+    "forms": [
+      "mascot",
+      "symbol"
+    ]
+  },
+  {
+    "id": "phoebuskbl",
+    "added": 11,
+    "total": 13,
+    "png_verified": true,
+    "variant_api_verified": true,
+    "representative_preserved": true,
+    "sample": "https://logo.vibers.co.kr/_clients/phoebuskbl/sources/official-kbl-20261027/e9a7f399580b3a55b7cd0e8f.png",
+    "sample_sha256": "e9a7f399580b3a55b7cd0e8f2b7fc9e55acecc3624a21453ed44246909665e7b",
+    "forms": [
+      "emblem",
+      "mascot",
+      "symbol",
+      "wordmark"
+    ]
+  },
+  {
+    "id": "kccegis",
+    "added": 3,
+    "total": 5,
+    "png_verified": true,
+    "variant_api_verified": true,
+    "representative_preserved": true,
+    "sample": "https://logo.vibers.co.kr/_clients/kccegis/sources/official-kbl-20261027/66eb732e6cd44500e5f3c254.png",
+    "sample_sha256": "66eb732e6cd44500e5f3c254b9be278894d4fe03defaec4a778093e05b8e7c85",
+    "forms": [
+      "horizontal",
+      "mascot",
+      "symbol",
+      "wordmark"
+    ]
+  },
+  {
+    "id": "kgckbl",
+    "added": 3,
+    "total": 5,
+    "png_verified": true,
+    "variant_api_verified": true,
+    "representative_preserved": true,
+    "sample": "https://logo.vibers.co.kr/_clients/kgckbl/sources/official-kbl-20261027/7576f8f0e032f237974d4be9.png",
+    "sample_sha256": "7576f8f0e032f237974d4be9596b4dccee8d072f4624171b7aff353a1973451c",
+    "forms": [
+      "mascot",
+      "symbol",
+      "vertical",
+      "wordmark"
+    ]
+  },
+  {
+    "id": "sonicboomkbl",
+    "added": 1,
+    "total": 3,
+    "png_verified": true,
+    "variant_api_verified": true,
+    "representative_preserved": true,
+    "sample": "https://logo.vibers.co.kr/_clients/sonicboomkbl/sources/official-kbl-20261027/fe25093d7671fabd273f34d5.png",
+    "sample_sha256": "fe25093d7671fabd273f34d57f3a0c713926221fee7ae8c1289d25c801718aec",
+    "forms": [
+      "horizontal",
+      "symbol",
+      "wordmark"
+    ]
+  },
+  {
+    "id": "sakerskbl",
+    "added": 4,
+    "total": 6,
+    "png_verified": true,
+    "variant_api_verified": true,
+    "representative_preserved": true,
+    "sample": "https://logo.vibers.co.kr/_clients/sakerskbl/sources/official-kbl-20261027/a85c2e03f37699738bf408ed.png",
+    "sample_sha256": "a85c2e03f37699738bf408edf1f037b4821302894c660b82ad4ae0224b8362cb",
+    "forms": [
+      "horizontal",
+      "mascot",
+      "symbol",
+      "wordmark"
+    ]
+  },
+  {
+    "id": "pegasuskbl",
+    "added": 3,
+    "total": 5,
+    "png_verified": true,
+    "variant_api_verified": true,
+    "representative_preserved": true,
+    "sample": "https://logo.vibers.co.kr/_clients/pegasuskbl/sources/official-kbl-20261027/1845bb89ab86c36bb6c3074e.png",
+    "sample_sha256": "1845bb89ab86c36bb6c3074e82c852f03db88352dcce859f3f0d2bddff788fa2",
+    "forms": [
+      "horizontal",
+      "mascot",
+      "symbol",
+      "wordmark"
+    ]
+  },
+  {
+    "id": "sksports",
+    "added": 13,
+    "total": 15,
+    "png_verified": true,
+    "variant_api_verified": true,
+    "representative_preserved": true,
+    "sample": "https://logo.vibers.co.kr/_clients/sksports/sources/official-kbl-20261027/cf97dbd6c4cfbcc4d16c68a3.png",
+    "sample_sha256": "cf97dbd6c4cfbcc4d16c68a32d35e23c6dfd689674f1c6b910ae80b8922a8cc2",
+    "forms": [
+      "emblem",
+      "horizontal",
+      "mascot",
+      "symbol",
+      "wordmark"
+    ]
+  },
+  {
+    "id": "skygunnerskbl",
+    "added": 2,
+    "total": 4,
+    "png_verified": true,
+    "variant_api_verified": true,
+    "representative_preserved": true,
+    "sample": "https://logo.vibers.co.kr/_clients/skygunnerskbl/sources/official-kbl-20261027/dfb1f2221758ef546dc197f1.png",
+    "sample_sha256": "dfb1f2221758ef546dc197f1e9fb67fd4e5b7971b139100c71eac432c0a92ae2",
+    "forms": [
+      "mascot",
+      "symbol",
+      "vertical"
+    ]
+  },
+  {
+    "id": "thunderskbl",
+    "added": 4,
+    "total": 6,
+    "png_verified": true,
+    "variant_api_verified": true,
+    "representative_preserved": true,
+    "sample": "https://logo.vibers.co.kr/_clients/thunderskbl/sources/official-kbl-20261027/bdcb78ef4a30ae78e890d8c1.png",
+    "sample_sha256": "bdcb78ef4a30ae78e890d8c16ba8c05af66a061f4ebff2d1717bd71023cf3a0e",
+    "forms": [
+      "symbol",
+      "wordmark"
+    ]
+  }
+]
