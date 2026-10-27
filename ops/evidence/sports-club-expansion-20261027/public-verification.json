@@ -1,0 +1,42 @@
+[
+  {
+    "id": "jeonbuk-fc",
+    "name": "전북 현대 모터스",
+    "added": 34,
+    "total": 35,
+    "catalog_identity_verified": true,
+    "png_verified": true,
+    "proof": [
+      {
+        "key": "official-sports-20261027-jeonbuk-b0232218a943f2-p0-v0", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+        "png_url": "https://logo.vibers.co.kr/_clients/jeonbuk-fc/sources/official-sports-20261027/5c2d4e23a1cbb2737a77e8bb.png",
+        "sha256": "5c2d4e23a1cbb2737a77e8bb2c9c89a53043492b456e35dbdc2c7bbc4a037803"
+      },
+      {
+        "key": "official-sports-20261027-jeonbuk-6a3fdf4c64bbc071", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+        "png_url": "https://logo.vibers.co.kr/_clients/jeonbuk-fc/sources/official-sports-20261027/c1a268a48a87342572ebf7be.png",
+        "sha256": "c1a268a48a87342572ebf7bee548274f993138cd5be9b55a911e1b92ac5b4a2e"
+      }
+    ]
+  },
+  {
+    "id": "steelers",
+    "name": "포항 스틸러스",
+    "added": 12,
+    "total": 12,
+    "catalog_identity_verified": true,
+    "png_verified": true,
+    "proof": [
+      {
+        "key": "official-sports-20261027-pohang-033cf2c6ca6a54-p0-v3", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+        "png_url": "https://logo.vibers.co.kr/_clients/steelers/sources/official-sports-20261027/c6ab999bcbd1846284aec37c.png",
+        "sha256": "c6ab999bcbd1846284aec37c6c2572c5652b1f743828b17e2b5837d748668db7"
+      },
+      {
+        "key": "official-sports-20261027-pohang-41aa9b965f6d0d-p0-v9", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+        "png_url": "https://logo.vibers.co.kr/_clients/steelers/sources/official-sports-20261027/825ed32a15f83c9896ec75e6.png",
+        "sha256": "825ed32a15f83c9896ec75e63c0ba00454e789fb8d2a0b14e428e04f3ef873df"
+      }
+    ]
+  }
+]

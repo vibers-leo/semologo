@@ -1,0 +1,18 @@
+[
+  {
+    "id": "jeonbuk-fc",
+    "published": true,
+    "added": 34,
+    "total": 35,
+    "representative_preserved": false,
+    "canonical_reused": true
+  },
+  {
+    "id": "steelers",
+    "published": true,
+    "added": 12,
+    "total": 12,
+    "representative_preserved": true,
+    "canonical_reused": true
+  }
+]

@@ -1,0 +1,24 @@
+{
+  "held": [
+    {
+      "team": "pohang",
+      "member": "pohang_charactor_vector.ai",
+      "package": "originals/mascot_ai.zip",
+      "source_url": "https://www.steelers.co.kr/dist/images2/download/mascot_ai.zip",
+      "source_page": "https://www.steelers.co.kr/club/mascot",
+      "source_sha256": "4ed95908cdf9a10aa202b8aca6260cd5eebf9e50cf169183a6c6708bb586c371",
+      "token": "pohang-4ed95908cdf9a1-p1", "_token_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+      "vector": false,
+      "size": [
+        952,
+        660
+      ],
+      "key": "pohang-4ed95908cdf9a1-p1-v11", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+      "label": "공식 쇠돌이·쇠순이 · 얼굴형",
+      "form": "mascot",
+      "historical": false,
+      "dark": false
+    }
+  ],
+  "reason": "Source character face extends past the artboard boundary; avoid publishing clipped face pair."
+}

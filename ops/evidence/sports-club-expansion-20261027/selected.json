@@ -1,0 +1,863 @@
+[
+  {
+    "team": "jeonbuk",
+    "member": "MotorsEmblem_2025_2026/JBFC_cmyk_emblem_basic.ai",
+    "package": "jeonbuk-official-2025-2026.zip",
+    "source_url": "https://jbhd-upload-file.s3.ap-northeast-2.amazonaws.com/uploadFile/MotorsEmblem_2025_2026.zip",
+    "source_page": "https://hyundai-motorsfc.com/club",
+    "source_sha256": "b0232218a943f23ee08bda01b5b8fcddd8685b21d7101bec5865e5b0ff75bf3e",
+    "token": "jeonbuk-b0232218a943f2-p0", "_token_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "vector": true,
+    "size": [
+      926,
+      904
+    ],
+    "key": "jeonbuk-b0232218a943f2-p0-v0", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 기본 컬러 엠블럼",
+    "form": "emblem",
+    "historical": false,
+    "dark": false
+  },
+  {
+    "team": "jeonbuk",
+    "member": "MotorsEmblem_2025_2026/JBFC_cmyk_emblem_solid.ai",
+    "package": "jeonbuk-official-2025-2026.zip",
+    "source_url": "https://jbhd-upload-file.s3.ap-northeast-2.amazonaws.com/uploadFile/MotorsEmblem_2025_2026.zip",
+    "source_page": "https://hyundai-motorsfc.com/club",
+    "source_sha256": "b8fb0af031d7983ab05610f6d4122cd12f878629e9ff7a35e83c62194cd51842",
+    "token": "jeonbuk-b8fb0af031d798-p0", "_token_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "vector": true,
+    "size": [
+      927,
+      906
+    ],
+    "key": "jeonbuk-b8fb0af031d798-p0-v1", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 단색 엠블럼",
+    "form": "emblem",
+    "historical": false,
+    "dark": false
+  },
+  {
+    "team": "jeonbuk",
+    "member": "MotorsEmblem_2025_2026/JBFC_emblem_ACL.ai",
+    "package": "jeonbuk-official-2025-2026.zip",
+    "source_url": "https://jbhd-upload-file.s3.ap-northeast-2.amazonaws.com/uploadFile/MotorsEmblem_2025_2026.zip",
+    "source_page": "https://hyundai-motorsfc.com/club",
+    "source_sha256": "092823ded8f22147ff66a264bc9c0728fd72cbec1c446d14fdd9f0dac2e8e736",
+    "token": "jeonbuk-092823ded8f221-p0", "_token_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "vector": true,
+    "size": [
+      642,
+      723
+    ],
+    "key": "jeonbuk-092823ded8f221-p0-v2", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 ACL 엠블럼 · 별 2개",
+    "form": "emblem",
+    "historical": false,
+    "dark": false
+  },
+  {
+    "team": "pohang",
+    "member": "ai_emblem_standard.ai",
+    "package": "originals/ai_emblem_standard.zip",
+    "source_url": "https://www.steelers.co.kr/dist/images2/download/ai_emblem_standard.zip",
+    "source_page": "https://www.steelers.co.kr/club/emblem",
+    "source_sha256": "033cf2c6ca6a54feb51fd616ff8982d02404900ca576d99b646a86712572573c",
+    "token": "pohang-033cf2c6ca6a54-p0", "_token_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "vector": true,
+    "size": [
+      1011,
+      1078
+    ],
+    "key": "pohang-033cf2c6ca6a54-p0-v3", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 포항 엠블럼 · 컬러",
+    "form": "emblem",
+    "historical": false,
+    "dark": false
+  },
+  {
+    "team": "pohang",
+    "member": "ai_emblem_standard.ai",
+    "package": "originals/ai_emblem_standard.zip",
+    "source_url": "https://www.steelers.co.kr/dist/images2/download/ai_emblem_standard.zip",
+    "source_page": "https://www.steelers.co.kr/club/emblem",
+    "source_sha256": "033cf2c6ca6a54feb51fd616ff8982d02404900ca576d99b646a86712572573c",
+    "token": "pohang-033cf2c6ca6a54-p0", "_token_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "vector": true,
+    "size": [
+      999,
+      1065
+    ],
+    "key": "pohang-033cf2c6ca6a54-p0-v4", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 포항 엠블럼 · 흰색",
+    "form": "emblem",
+    "historical": false,
+    "dark": true
+  },
+  {
+    "team": "pohang",
+    "member": "ai_emblem_standard.ai",
+    "package": "originals/ai_emblem_standard.zip",
+    "source_url": "https://www.steelers.co.kr/dist/images2/download/ai_emblem_standard.zip",
+    "source_page": "https://www.steelers.co.kr/club/emblem",
+    "source_sha256": "033cf2c6ca6a54feb51fd616ff8982d02404900ca576d99b646a86712572573c",
+    "token": "pohang-033cf2c6ca6a54-p0", "_token_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "vector": true,
+    "size": [
+      1001,
+      1068
+    ],
+    "key": "pohang-033cf2c6ca6a54-p0-v5", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 포항 엠블럼 · 검정",
+    "form": "emblem",
+    "historical": false,
+    "dark": false
+  },
+  {
+    "team": "pohang",
+    "member": "ai_emblem_standard.ai",
+    "package": "originals/ai_emblem_standard.zip",
+    "source_url": "https://www.steelers.co.kr/dist/images2/download/ai_emblem_standard.zip",
+    "source_page": "https://www.steelers.co.kr/club/emblem",
+    "source_sha256": "033cf2c6ca6a54feb51fd616ff8982d02404900ca576d99b646a86712572573c",
+    "token": "pohang-033cf2c6ca6a54-p0", "_token_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "vector": true,
+    "size": [
+      1006,
+      1078
+    ],
+    "key": "pohang-033cf2c6ca6a54-p0-v6", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 포항 엠블럼 · 빨강",
+    "form": "emblem",
+    "historical": false,
+    "dark": false
+  },
+  {
+    "team": "pohang",
+    "member": "ai_emblem_retro20th.ai",
+    "package": "originals/ai_emblem_retro20th.zip",
+    "source_url": "https://www.steelers.co.kr/dist/images2/download/ai_emblem_retro20th.zip",
+    "source_page": "https://www.steelers.co.kr/club/emblem",
+    "source_sha256": "8f3445432073987c44a2bff7cbe6559104a14d8cb50bf0778f09173f9f5454c6",
+    "token": "pohang-8f344543207398-p0", "_token_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "vector": true,
+    "size": [
+      1200,
+      1158
+    ],
+    "key": "pohang-8f344543207398-p0-v7", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 레트로 20주년 엠블럼",
+    "form": "emblem",
+    "historical": true,
+    "dark": false
+  },
+  {
+    "team": "pohang",
+    "member": "ai_emblem_40th.ai",
+    "package": "originals/ai_emblem_40th.zip",
+    "source_url": "https://www.steelers.co.kr/dist/images2/download/ai_emblem_40th.zip",
+    "source_page": "https://www.steelers.co.kr/club/emblem",
+    "source_sha256": "f7d54203f442076a59207819f43fa9042d86e520d8bf09b8c436e21076b9d911",
+    "token": "pohang-f7d54203f44207-p0", "_token_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "vector": true,
+    "size": [
+      264,
+      422
+    ],
+    "key": "pohang-f7d54203f44207-p0-v8", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 40주년 엠블럼",
+    "form": "emblem",
+    "historical": true,
+    "dark": false
+  },
+  {
+    "team": "pohang",
+    "member": "pohang_charactor_turnaround.ai",
+    "package": "originals/mascot_ai.zip",
+    "source_url": "https://www.steelers.co.kr/dist/images2/download/mascot_ai.zip",
+    "source_page": "https://www.steelers.co.kr/club/mascot",
+    "source_sha256": "41aa9b965f6d0d7ab190d0d37186537b0ec7862ecce1d8942b1a46438fd5982a",
+    "token": "pohang-41aa9b965f6d0d-p0", "_token_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "vector": true,
+    "size": [
+      1200,
+      544
+    ],
+    "key": "pohang-41aa9b965f6d0d-p0-v9", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 쇠돌이 · 정면·측면·후면",
+    "form": "mascot",
+    "historical": false,
+    "dark": false
+  },
+  {
+    "team": "pohang",
+    "member": "pohang_charactor_turnaround.ai",
+    "package": "originals/mascot_ai.zip",
+    "source_url": "https://www.steelers.co.kr/dist/images2/download/mascot_ai.zip",
+    "source_page": "https://www.steelers.co.kr/club/mascot",
+    "source_sha256": "41aa9b965f6d0d7ab190d0d37186537b0ec7862ecce1d8942b1a46438fd5982a",
+    "token": "pohang-41aa9b965f6d0d-p1", "_token_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "vector": false,
+    "size": [
+      1263,
+      600
+    ],
+    "key": "pohang-41aa9b965f6d0d-p1-v10", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 쇠순이 · 정면·측면·후면",
+    "form": "mascot",
+    "historical": false,
+    "dark": false
+  },
+  {
+    "team": "pohang",
+    "member": "pohang_charactor_vector.ai",
+    "package": "originals/mascot_ai.zip",
+    "source_url": "https://www.steelers.co.kr/dist/images2/download/mascot_ai.zip",
+    "source_page": "https://www.steelers.co.kr/club/mascot",
+    "source_sha256": "4ed95908cdf9a10aa202b8aca6260cd5eebf9e50cf169183a6c6708bb586c371",
+    "token": "pohang-4ed95908cdf9a1-p2", "_token_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "vector": false,
+    "size": [
+      1038,
+      666
+    ],
+    "key": "pohang-4ed95908cdf9a1-p2-v12", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 쇠순이 · 응원 동작 A",
+    "form": "mascot",
+    "historical": false,
+    "dark": false
+  },
+  {
+    "team": "pohang",
+    "member": "pohang_charactor_vector.ai",
+    "package": "originals/mascot_ai.zip",
+    "source_url": "https://www.steelers.co.kr/dist/images2/download/mascot_ai.zip",
+    "source_page": "https://www.steelers.co.kr/club/mascot",
+    "source_sha256": "4ed95908cdf9a10aa202b8aca6260cd5eebf9e50cf169183a6c6708bb586c371",
+    "token": "pohang-4ed95908cdf9a1-p3", "_token_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "vector": false,
+    "size": [
+      1017,
+      722
+    ],
+    "key": "pohang-4ed95908cdf9a1-p3-v13", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 쇠순이 · 응원 동작 B",
+    "form": "mascot",
+    "historical": false,
+    "dark": false
+  },
+  {
+    "team": "pohang",
+    "member": "pohang_charactor_vector.ai",
+    "package": "originals/mascot_ai.zip",
+    "source_url": "https://www.steelers.co.kr/dist/images2/download/mascot_ai.zip",
+    "source_page": "https://www.steelers.co.kr/club/mascot",
+    "source_sha256": "4ed95908cdf9a10aa202b8aca6260cd5eebf9e50cf169183a6c6708bb586c371",
+    "token": "pohang-4ed95908cdf9a1-p4", "_token_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "vector": true,
+    "size": [
+      924,
+      622
+    ],
+    "key": "pohang-4ed95908cdf9a1-p4-v14", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 쇠돌이 · 축구 동작",
+    "form": "mascot",
+    "historical": false,
+    "dark": false
+  },
+  {
+    "team": "pohang",
+    "member": "pohang_charactor_vector.ai",
+    "package": "originals/mascot_ai.zip",
+    "source_url": "https://www.steelers.co.kr/dist/images2/download/mascot_ai.zip",
+    "source_page": "https://www.steelers.co.kr/club/mascot",
+    "source_sha256": "4ed95908cdf9a10aa202b8aca6260cd5eebf9e50cf169183a6c6708bb586c371",
+    "token": "pohang-4ed95908cdf9a1-p5", "_token_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "vector": true,
+    "size": [
+      1129,
+      658
+    ],
+    "key": "pohang-4ed95908cdf9a1-p5-v15", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 쇠돌이 · 헤딩·골키퍼 동작",
+    "form": "mascot",
+    "historical": false,
+    "dark": false
+  },
+  {
+    "team": "jeonbuk",
+    "key": "jeonbuk-6a3fdf4c64bbc071", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 나이티 얼굴형 · 표정 1",
+    "form": "mascot",
+    "historical": false,
+    "dark": false,
+    "vector": false,
+    "source_url": "https://hyundai-motorsfc.com/img/obj_mascot_1_1.82ac1a25.png",
+    "source_page": "https://hyundai-motorsfc.com/club",
+    "source_sha256": "6a3fdf4c64bbc071782a6cbd8b7f322e5c333fb562004af2a81fb4e93677b5ff",
+    "member": "obj_mascot_1_1.82ac1a25.png",
+    "size": [
+      110,
+      112
+    ],
+    "package": null
+  },
+  {
+    "team": "jeonbuk",
+    "key": "jeonbuk-c997696bb1abad51", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 나이티 얼굴형 · 표정 10",
+    "form": "mascot",
+    "historical": false,
+    "dark": false,
+    "vector": false,
+    "source_url": "https://hyundai-motorsfc.com/img/obj_mascot_1_10.561a4de7.png",
+    "source_page": "https://hyundai-motorsfc.com/club",
+    "source_sha256": "c997696bb1abad51d233f249bcd6bd4c8a5080864b7ff0ea36a1f6604495dcbe",
+    "member": "obj_mascot_1_10.561a4de7.png",
+    "size": [
+      115,
+      117
+    ],
+    "package": null
+  },
+  {
+    "team": "jeonbuk",
+    "key": "jeonbuk-5956f4d2cddba043", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 나이티 얼굴형 · 표정 2",
+    "form": "mascot",
+    "historical": false,
+    "dark": false,
+    "vector": false,
+    "source_url": "https://hyundai-motorsfc.com/img/obj_mascot_1_2.4eb581f2.png",
+    "source_page": "https://hyundai-motorsfc.com/club",
+    "source_sha256": "5956f4d2cddba043eb9bd55e51c7e907c5db28b3bf6ce5a093924941501b3b0d",
+    "member": "obj_mascot_1_2.4eb581f2.png",
+    "size": [
+      110,
+      112
+    ],
+    "package": null
+  },
+  {
+    "team": "jeonbuk",
+    "key": "jeonbuk-d40abd8b7b4f51b5", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 나이티 얼굴형 · 표정 3",
+    "form": "mascot",
+    "historical": false,
+    "dark": false,
+    "vector": false,
+    "source_url": "https://hyundai-motorsfc.com/img/obj_mascot_1_3.337ff510.png",
+    "source_page": "https://hyundai-motorsfc.com/club",
+    "source_sha256": "d40abd8b7b4f51b5280271af318aa727f71e7f5decc78e728c272baead1a4772",
+    "member": "obj_mascot_1_3.337ff510.png",
+    "size": [
+      110,
+      112
+    ],
+    "package": null
+  },
+  {
+    "team": "jeonbuk",
+    "key": "jeonbuk-9fbbd3a33ad13d48", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 나이티 얼굴형 · 표정 4",
+    "form": "mascot",
+    "historical": false,
+    "dark": false,
+    "vector": false,
+    "source_url": "https://hyundai-motorsfc.com/img/obj_mascot_1_4.e36b7466.png",
+    "source_page": "https://hyundai-motorsfc.com/club",
+    "source_sha256": "9fbbd3a33ad13d486c9beea88a3a653fc5f31b6535daaaad62333c433cbcc338",
+    "member": "obj_mascot_1_4.e36b7466.png",
+    "size": [
+      110,
+      112
+    ],
+    "package": null
+  },
+  {
+    "team": "jeonbuk",
+    "key": "jeonbuk-7a4d564acee51e98", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 나이티 얼굴형 · 표정 5",
+    "form": "mascot",
+    "historical": false,
+    "dark": false,
+    "vector": false,
+    "source_url": "https://hyundai-motorsfc.com/img/obj_mascot_1_5.38d0e473.png",
+    "source_page": "https://hyundai-motorsfc.com/club",
+    "source_sha256": "7a4d564acee51e98520e7c2d1fbe8ef1360775d2f07366dc18719a1f9f55d4eb",
+    "member": "obj_mascot_1_5.38d0e473.png",
+    "size": [
+      110,
+      112
+    ],
+    "package": null
+  },
+  {
+    "team": "jeonbuk",
+    "key": "jeonbuk-5e61ce9c24e78cc1", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 나이티 얼굴형 · 표정 6",
+    "form": "mascot",
+    "historical": false,
+    "dark": false,
+    "vector": false,
+    "source_url": "https://hyundai-motorsfc.com/img/obj_mascot_1_6.473a4ace.png",
+    "source_page": "https://hyundai-motorsfc.com/club",
+    "source_sha256": "5e61ce9c24e78cc19f4342816b5d32640b813de2ba5d51f6b9676619762e1f17",
+    "member": "obj_mascot_1_6.473a4ace.png",
+    "size": [
+      115,
+      117
+    ],
+    "package": null
+  },
+  {
+    "team": "jeonbuk",
+    "key": "jeonbuk-620cc69785da77fe", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 나이티 얼굴형 · 표정 7",
+    "form": "mascot",
+    "historical": false,
+    "dark": false,
+    "vector": false,
+    "source_url": "https://hyundai-motorsfc.com/img/obj_mascot_1_7.3399547e.png",
+    "source_page": "https://hyundai-motorsfc.com/club",
+    "source_sha256": "620cc69785da77fe6ee8372dc48d130fcc87f8306c2ac7dfbc1364c5a532ad95",
+    "member": "obj_mascot_1_7.3399547e.png",
+    "size": [
+      115,
+      117
+    ],
+    "package": null
+  },
+  {
+    "team": "jeonbuk",
+    "key": "jeonbuk-3e7690d3fa1d2cd4", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 나이티 얼굴형 · 표정 8",
+    "form": "mascot",
+    "historical": false,
+    "dark": false,
+    "vector": false,
+    "source_url": "https://hyundai-motorsfc.com/img/obj_mascot_1_8.3b0d52cd.png",
+    "source_page": "https://hyundai-motorsfc.com/club",
+    "source_sha256": "3e7690d3fa1d2cd4b19fd964bfb52489a5d0067d0ba59441b4f976712b951571",
+    "member": "obj_mascot_1_8.3b0d52cd.png",
+    "size": [
+      115,
+      117
+    ],
+    "package": null
+  },
+  {
+    "team": "jeonbuk",
+    "key": "jeonbuk-ed8d781bfd87604b", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 나이티 얼굴형 · 표정 9",
+    "form": "mascot",
+    "historical": false,
+    "dark": false,
+    "vector": false,
+    "source_url": "https://hyundai-motorsfc.com/img/obj_mascot_1_9.9b3f13e1.png",
+    "source_page": "https://hyundai-motorsfc.com/club",
+    "source_sha256": "ed8d781bfd87604b804184853c65a5a939d3ae8876dad63f7bfee6e4db48dcd4",
+    "member": "obj_mascot_1_9.9b3f13e1.png",
+    "size": [
+      115,
+      117
+    ],
+    "package": null
+  },
+  {
+    "team": "jeonbuk",
+    "key": "jeonbuk-7a2d3d1d625b203b", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 써치 · 표정 1",
+    "form": "mascot",
+    "historical": false,
+    "dark": false,
+    "vector": false,
+    "source_url": "https://hyundai-motorsfc.com/img/obj_mascot_2_1.a35adc7e.png",
+    "source_page": "https://hyundai-motorsfc.com/club",
+    "source_sha256": "7a2d3d1d625b203bf693ac10e9bc2151f771842ff064f46fe996833c8e4875da",
+    "member": "obj_mascot_2_1.a35adc7e.png",
+    "size": [
+      159,
+      112
+    ],
+    "package": null
+  },
+  {
+    "team": "jeonbuk",
+    "key": "jeonbuk-b4f0e1c5d7b0b2b9", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 써치 · 표정 10",
+    "form": "mascot",
+    "historical": false,
+    "dark": false,
+    "vector": false,
+    "source_url": "https://hyundai-motorsfc.com/img/obj_mascot_2_10.e7a4ae54.png",
+    "source_page": "https://hyundai-motorsfc.com/club",
+    "source_sha256": "b4f0e1c5d7b0b2b9acbb96fb78fc487cbb0433e9f403cf35d6c9f6a01f92e052",
+    "member": "obj_mascot_2_10.e7a4ae54.png",
+    "size": [
+      159,
+      112
+    ],
+    "package": null
+  },
+  {
+    "team": "jeonbuk",
+    "key": "jeonbuk-578c9edd9526b6ba", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 써치 · 표정 2",
+    "form": "mascot",
+    "historical": false,
+    "dark": false,
+    "vector": false,
+    "source_url": "https://hyundai-motorsfc.com/img/obj_mascot_2_2.5a87b310.png",
+    "source_page": "https://hyundai-motorsfc.com/club",
+    "source_sha256": "578c9edd9526b6baf7628cf7ecd372c4494c40ad83646d434cf4316f372c09da",
+    "member": "obj_mascot_2_2.5a87b310.png",
+    "size": [
+      159,
+      112
+    ],
+    "package": null
+  },
+  {
+    "team": "jeonbuk",
+    "key": "jeonbuk-08ffe0156b4ecced", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 써치 · 표정 3",
+    "form": "mascot",
+    "historical": false,
+    "dark": false,
+    "vector": false,
+    "source_url": "https://hyundai-motorsfc.com/img/obj_mascot_2_3.4be85f80.png",
+    "source_page": "https://hyundai-motorsfc.com/club",
+    "source_sha256": "08ffe0156b4ecced4564be5a19daaa17af093e14b5e9dec5aa0cc9681b617373",
+    "member": "obj_mascot_2_3.4be85f80.png",
+    "size": [
+      159,
+      112
+    ],
+    "package": null
+  },
+  {
+    "team": "jeonbuk",
+    "key": "jeonbuk-a525972198c2258a", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 써치 · 표정 4",
+    "form": "mascot",
+    "historical": false,
+    "dark": false,
+    "vector": false,
+    "source_url": "https://hyundai-motorsfc.com/img/obj_mascot_2_4.121d253a.png",
+    "source_page": "https://hyundai-motorsfc.com/club",
+    "source_sha256": "a525972198c2258aa6d5f38bc6fbbaf3a9b2bf378ec647009075b2a37019efff",
+    "member": "obj_mascot_2_4.121d253a.png",
+    "size": [
+      159,
+      112
+    ],
+    "package": null
+  },
+  {
+    "team": "jeonbuk",
+    "key": "jeonbuk-02bb622cb5b09cba", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 써치 · 표정 5",
+    "form": "mascot",
+    "historical": false,
+    "dark": false,
+    "vector": false,
+    "source_url": "https://hyundai-motorsfc.com/img/obj_mascot_2_5.7b0d8143.png",
+    "source_page": "https://hyundai-motorsfc.com/club",
+    "source_sha256": "02bb622cb5b09cbaa3f603ba951e6ef9fb9a12b93818c9e0d600f320a372003c",
+    "member": "obj_mascot_2_5.7b0d8143.png",
+    "size": [
+      159,
+      112
+    ],
+    "package": null
+  },
+  {
+    "team": "jeonbuk",
+    "key": "jeonbuk-8b4523101da4a0f9", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 써치 · 표정 6",
+    "form": "mascot",
+    "historical": false,
+    "dark": false,
+    "vector": false,
+    "source_url": "https://hyundai-motorsfc.com/img/obj_mascot_2_6.f706b652.png",
+    "source_page": "https://hyundai-motorsfc.com/club",
+    "source_sha256": "8b4523101da4a0f91830adac34cc12df7651360f83718c87557c09cb46917227",
+    "member": "obj_mascot_2_6.f706b652.png",
+    "size": [
+      159,
+      112
+    ],
+    "package": null
+  },
+  {
+    "team": "jeonbuk",
+    "key": "jeonbuk-619f1bff60915fe3", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 써치 · 표정 7",
+    "form": "mascot",
+    "historical": false,
+    "dark": false,
+    "vector": false,
+    "source_url": "https://hyundai-motorsfc.com/img/obj_mascot_2_7.d38bb2c2.png",
+    "source_page": "https://hyundai-motorsfc.com/club",
+    "source_sha256": "619f1bff60915fe32cea607ca2a9263158db32530a7415ba9632cff238a1c3d5",
+    "member": "obj_mascot_2_7.d38bb2c2.png",
+    "size": [
+      159,
+      112
+    ],
+    "package": null
+  },
+  {
+    "team": "jeonbuk",
+    "key": "jeonbuk-d36029e185c126f6", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 써치 · 표정 8",
+    "form": "mascot",
+    "historical": false,
+    "dark": false,
+    "vector": false,
+    "source_url": "https://hyundai-motorsfc.com/img/obj_mascot_2_8.632f47f2.png",
+    "source_page": "https://hyundai-motorsfc.com/club",
+    "source_sha256": "d36029e185c126f6238f5b7ba8e017d4cf2baefc21703a3b401e35954f483832",
+    "member": "obj_mascot_2_8.632f47f2.png",
+    "size": [
+      159,
+      112
+    ],
+    "package": null
+  },
+  {
+    "team": "jeonbuk",
+    "key": "jeonbuk-45ed0a17ed72b14e", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 써치 · 표정 9",
+    "form": "mascot",
+    "historical": false,
+    "dark": false,
+    "vector": false,
+    "source_url": "https://hyundai-motorsfc.com/img/obj_mascot_2_9.9ccad675.png",
+    "source_page": "https://hyundai-motorsfc.com/club",
+    "source_sha256": "45ed0a17ed72b14e6d886897d928b69d6b814df24eb8a097f2b6151dc19caed6",
+    "member": "obj_mascot_2_9.9ccad675.png",
+    "size": [
+      159,
+      112
+    ],
+    "package": null
+  },
+  {
+    "team": "jeonbuk",
+    "key": "jeonbuk-b1ff8e3cd72e925a", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 구단 연혁 · 1995 표기 도안",
+    "form": "mascot",
+    "historical": true,
+    "dark": false,
+    "vector": false,
+    "source_url": "https://hyundai-motorsfc.com/img/emblem_1995.b49bd84c.png",
+    "source_page": "https://hyundai-motorsfc.com/club",
+    "source_sha256": "b1ff8e3cd72e925a6367fd3cb9f1cb0b6d623f8bf6b0b917b29c74f0ee35cf22",
+    "member": "emblem_1995.b49bd84c.png",
+    "size": [
+      514,
+      360
+    ],
+    "package": null
+  },
+  {
+    "team": "jeonbuk",
+    "key": "jeonbuk-f1f03d34bae29783", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 구단 연혁 · 1997 표기 도안",
+    "form": "emblem",
+    "historical": true,
+    "dark": false,
+    "vector": false,
+    "source_url": "https://hyundai-motorsfc.com/img/emblem_1997.d0f144f1.png",
+    "source_page": "https://hyundai-motorsfc.com/club",
+    "source_sha256": "f1f03d34bae29783abb3963fcbc709c27881447cc0384a2e392fb4da3325f673",
+    "member": "emblem_1997.d0f144f1.png",
+    "size": [
+      468,
+      316
+    ],
+    "package": null
+  },
+  {
+    "team": "jeonbuk",
+    "key": "jeonbuk-b85c26eda123a292", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 구단 연혁 · 1999 표기 도안",
+    "form": "emblem",
+    "historical": true,
+    "dark": false,
+    "vector": false,
+    "source_url": "https://hyundai-motorsfc.com/img/emblem_1999.04a4033e.png",
+    "source_page": "https://hyundai-motorsfc.com/club",
+    "source_sha256": "b85c26eda123a292b50875a0c2f4278da9da6c17f7fb7a5e197160e3e389fa94",
+    "member": "emblem_1999.04a4033e.png",
+    "size": [
+      436,
+      328
+    ],
+    "package": null
+  },
+  {
+    "team": "jeonbuk",
+    "key": "jeonbuk-1691082f57682e15", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 구단 연혁 · 2000 표기 도안",
+    "form": "wordmark",
+    "historical": true,
+    "dark": false,
+    "vector": false,
+    "source_url": "https://hyundai-motorsfc.com/img/emblem_2000.c34885fe.png",
+    "source_page": "https://hyundai-motorsfc.com/club",
+    "source_sha256": "1691082f57682e150fee87dadaecf6c9190a3e7b427207485b0f0ed6e2cb3b6d",
+    "member": "emblem_2000.c34885fe.png",
+    "size": [
+      502,
+      192
+    ],
+    "package": null
+  },
+  {
+    "team": "jeonbuk",
+    "key": "jeonbuk-416d6974880260e3", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 구단 연혁 · 2006 표기 도안",
+    "form": "emblem",
+    "historical": true,
+    "dark": false,
+    "vector": false,
+    "source_url": "https://hyundai-motorsfc.com/img/emblem_2006.87524f28.png",
+    "source_page": "https://hyundai-motorsfc.com/club",
+    "source_sha256": "416d6974880260e36b825f256f477db860221415b2b8226f468eb0310bff420f",
+    "member": "emblem_2006.87524f28.png",
+    "size": [
+      254,
+      374
+    ],
+    "package": null
+  },
+  {
+    "team": "jeonbuk",
+    "key": "jeonbuk-240f1b3a4e57ff47", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 구단 연혁 · 2013 표기 도안",
+    "form": "emblem",
+    "historical": true,
+    "dark": false,
+    "vector": false,
+    "source_url": "https://hyundai-motorsfc.com/img/emblem_2013.3bed4796.png",
+    "source_page": "https://hyundai-motorsfc.com/club",
+    "source_sha256": "240f1b3a4e57ff47107f9e528ddad3be387cd7dfb0b320f94a1a9ecce33d91a2",
+    "member": "emblem_2013.3bed4796.png",
+    "size": [
+      248,
+      366
+    ],
+    "package": null
+  },
+  {
+    "team": "jeonbuk",
+    "key": "jeonbuk-3734d28eaaa7351f", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 구단 연혁 · 2014 표기 도안",
+    "form": "emblem",
+    "historical": true,
+    "dark": false,
+    "vector": false,
+    "source_url": "https://hyundai-motorsfc.com/img/emblem_2014.fb10e816.png",
+    "source_page": "https://hyundai-motorsfc.com/club",
+    "source_sha256": "3734d28eaaa7351f5a53bb760c2a8a69c3eef1d08d63f03f696fed7026549e59",
+    "member": "emblem_2014.fb10e816.png",
+    "size": [
+      648,
+      300
+    ],
+    "package": null
+  },
+  {
+    "team": "jeonbuk",
+    "key": "jeonbuk-23d74848fb2bb037", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 구단 연혁 · 2018 표기 도안",
+    "form": "emblem",
+    "historical": true,
+    "dark": false,
+    "vector": false,
+    "source_url": "https://hyundai-motorsfc.com/img/emblem_2018.060c4274.png",
+    "source_page": "https://hyundai-motorsfc.com/club",
+    "source_sha256": "23d74848fb2bb037e74e54272da5c6e32772f22acba92025cc1e00fcd242843f",
+    "member": "emblem_2018.060c4274.png",
+    "size": [
+      338,
+      335
+    ],
+    "package": null
+  },
+  {
+    "team": "jeonbuk",
+    "key": "jeonbuk-e90102c7503c0c6b", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 구단 연혁 · 2024 표기 도안",
+    "form": "emblem",
+    "historical": true,
+    "dark": false,
+    "vector": false,
+    "source_url": "https://hyundai-motorsfc.com/img/emblem_2024.57bbae36.png",
+    "source_page": "https://hyundai-motorsfc.com/club",
+    "source_sha256": "e90102c7503c0c6bbe97d15919040b3b32910020fc2b78968c9f22192fb07690",
+    "member": "emblem_2024.57bbae36.png",
+    "size": [
+      625,
+      344
+    ],
+    "package": null
+  },
+  {
+    "team": "jeonbuk",
+    "key": "jeonbuk-89821512df5955d9", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 구단 연혁 · 2025 표기 도안",
+    "form": "emblem",
+    "historical": false,
+    "dark": false,
+    "vector": false,
+    "source_url": "https://hyundai-motorsfc.com/img/emblem_2025.793855ac.png",
+    "source_page": "https://hyundai-motorsfc.com/club",
+    "source_sha256": "89821512df5955d921c96716decbc14e0fd2260fcafc0baedc060ed91600b266",
+    "member": "emblem_2025.793855ac.png",
+    "size": [
+      1076,
+      1308
+    ],
+    "package": null
+  },
+  {
+    "team": "jeonbuk",
+    "key": "jeonbuk-3380f1dc860cc39f", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 나이티 · 기본형",
+    "form": "mascot",
+    "historical": false,
+    "dark": false,
+    "vector": false,
+    "source_url": "https://hyundai-motorsfc.com/img/img_mascot_1.b3267c0e.png",
+    "source_page": "https://hyundai-motorsfc.com/club",
+    "source_sha256": "3380f1dc860cc39fa499d626124cfb3663ea2f23d8783628855b663172cd7b64",
+    "member": "img_mascot_1.b3267c0e.png",
+    "size": [
+      355,
+      505
+    ],
+    "package": null
+  },
+  {
+    "team": "jeonbuk",
+    "key": "jeonbuk-499504cd79901fdb", "_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+    "label": "공식 써치 · 기본형",
+    "form": "mascot",
+    "historical": false,
+    "dark": false,
+    "vector": false,
+    "source_url": "https://hyundai-motorsfc.com/img/img_mascot_2.6b6ac018.png",
+    "source_page": "https://hyundai-motorsfc.com/club",
+    "source_sha256": "499504cd79901fdb74aa8e0abcca47375b134741f7ea89ca29029c6f10d446ea",
+    "member": "img_mascot_2.6b6ac018.png",
+    "size": [
+      450,
+      383
+    ],
+    "package": null
+  }
+]

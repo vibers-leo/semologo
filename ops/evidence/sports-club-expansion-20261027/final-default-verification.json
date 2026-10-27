@@ -1,0 +1,22 @@
+[
+  {
+    "id": "jeonbuk-fc",
+    "catalog_name": "전북 현대 모터스",
+    "native_default_svg_verified": true,
+    "representative": {
+      "bg": "light",
+      "file": "sources/official-sports-20261027/5c2d4e23a1cbb2737a77e8bb.png",
+      "svgFile": "sources/official-sports-20261027/ea9c9dfbc82d98b698fbc91b.svg"
+    }
+  },
+  {
+    "id": "steelers",
+    "catalog_name": "포항 스틸러스",
+    "native_default_svg_verified": true,
+    "representative": {
+      "bg": "light",
+      "file": "sources/official-sports-20261027/c6ab999bcbd1846284aec37c.png",
+      "svgFile": "sources/official-sports-20261027/4b153fab0dfeec94a422bd71.svg"
+    }
+  }
+]

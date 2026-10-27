@@ -1,0 +1,1027 @@
+{
+  "schema": 1,
+  "reviewed_at": "2026-10-27T07:39:40.559397+00:00",
+  "scope": "Domestic professional clubs already measured in collection coverage, before overseas expansion",
+  "execution": "Manual source/visual review queue; this file does not claim unattended collection is running.",
+  "tasks": [
+    {
+      "collection_id": "sports-kr-kbl-2026",
+      "snapshot_id": "sports-kr-kbl-2026-2026-10-12",
+      "member_key": "27728d01107b462cd354", "_member_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+      "name": "고양 소노 스카이거너스 BC",
+      "canonical_id": "skygunnerskbl",
+      "candidate_ids": [
+        "skygunnerskbl"
+      ],
+      "source_roster": "https://kbl.or.kr/",
+      "priority": 900,
+      "requested_assets": [
+        "emblem",
+        "wordmark",
+        "symbol",
+        "mascot",
+        "historical"
+      ],
+      "state": "pending_source_review",
+      "recorded_forms": [
+        "symbol",
+        "vertical"
+      ],
+      "composition_complete": false,
+      "preserve_manual_representative": true,
+      "exclude_reserve_teams_from_first_team_merge": true,
+      "source_leads": [
+        "https://kbl.or.kr/assets/img/logo/logo-sono.svg"
+      ]
+    },
+    {
+      "collection_id": "sports-kr-kbl-2026",
+      "snapshot_id": "sports-kr-kbl-2026-2026-10-12",
+      "member_key": "b6200eba21bfac8a5434", "_member_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+      "name": "대구 한국가스공사 페가수스 BC",
+      "canonical_id": "pegasuskbl",
+      "candidate_ids": [
+        "pegasuskbl"
+      ],
+      "source_roster": "https://kbl.or.kr/",
+      "priority": 900,
+      "requested_assets": [
+        "emblem",
+        "wordmark",
+        "symbol",
+        "mascot",
+        "historical"
+      ],
+      "state": "pending_source_review",
+      "recorded_forms": [
+        "horizontal",
+        "symbol"
+      ],
+      "composition_complete": false,
+      "preserve_manual_representative": true,
+      "exclude_reserve_teams_from_first_team_merge": true,
+      "source_leads": [
+        "https://kbl.or.kr/assets/img/logo/logo-pega.svg"
+      ]
+    },
+    {
+      "collection_id": "sports-kr-kbl-2026",
+      "snapshot_id": "sports-kr-kbl-2026-2026-10-12",
+      "member_key": "d2152e129e9095edbc97", "_member_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+      "name": "부산 KCC 이지스 BC",
+      "canonical_id": "kccegis",
+      "candidate_ids": [
+        "kccegis"
+      ],
+      "source_roster": "https://kbl.or.kr/",
+      "priority": 900,
+      "requested_assets": [
+        "emblem",
+        "wordmark",
+        "symbol",
+        "mascot",
+        "historical"
+      ],
+      "state": "pending_source_review",
+      "recorded_forms": [
+        "horizontal",
+        "symbol"
+      ],
+      "composition_complete": false,
+      "preserve_manual_representative": true,
+      "exclude_reserve_teams_from_first_team_merge": true,
+      "source_leads": [
+        "https://kbl.or.kr/assets/img/logo/logo-kcc.svg"
+      ]
+    },
+    {
+      "collection_id": "sports-kr-kbl-2026",
+      "snapshot_id": "sports-kr-kbl-2026-2026-10-12",
+      "member_key": "435abe65bb0991b61572", "_member_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+      "name": "서울 SK 나이츠 BC",
+      "canonical_id": "sksports",
+      "candidate_ids": [
+        "sksports"
+      ],
+      "source_roster": "https://kbl.or.kr/",
+      "priority": 900,
+      "requested_assets": [
+        "emblem",
+        "wordmark",
+        "symbol",
+        "mascot",
+        "historical"
+      ],
+      "state": "pending_source_review",
+      "recorded_forms": [
+        "horizontal",
+        "symbol"
+      ],
+      "composition_complete": false,
+      "preserve_manual_representative": true,
+      "exclude_reserve_teams_from_first_team_merge": true,
+      "source_leads": [
+        "https://kbl.or.kr/assets/img/logo/logo-sk.svg"
+      ]
+    },
+    {
+      "collection_id": "sports-kr-kbl-2026",
+      "snapshot_id": "sports-kr-kbl-2026-2026-10-12",
+      "member_key": "43ac36922cc04ae079b5", "_member_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+      "name": "서울 삼성 썬더스 BC",
+      "canonical_id": "thunderskbl",
+      "candidate_ids": [
+        "thunderskbl"
+      ],
+      "source_roster": "https://kbl.or.kr/",
+      "priority": 900,
+      "requested_assets": [
+        "emblem",
+        "wordmark",
+        "symbol",
+        "mascot",
+        "historical"
+      ],
+      "state": "pending_source_review",
+      "recorded_forms": [
+        "symbol",
+        "wordmark"
+      ],
+      "composition_complete": false,
+      "preserve_manual_representative": true,
+      "exclude_reserve_teams_from_first_team_merge": true,
+      "source_leads": [
+        "https://kbl.or.kr/assets/img/logo/logo-ss.svg"
+      ]
+    },
+    {
+      "collection_id": "sports-kr-kbl-2026",
+      "snapshot_id": "sports-kr-kbl-2026-2026-10-12",
+      "member_key": "10081d41695d10ede612", "_member_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+      "name": "수원 KT 소닉붐",
+      "canonical_id": "sonicboomkbl",
+      "candidate_ids": [
+        "sonicboomkbl"
+      ],
+      "source_roster": "https://kbl.or.kr/",
+      "priority": 900,
+      "requested_assets": [
+        "emblem",
+        "wordmark",
+        "symbol",
+        "mascot",
+        "historical"
+      ],
+      "state": "pending_source_review",
+      "recorded_forms": [
+        "horizontal",
+        "symbol"
+      ],
+      "composition_complete": false,
+      "preserve_manual_representative": true,
+      "exclude_reserve_teams_from_first_team_merge": true,
+      "source_leads": [
+        "https://kbl.or.kr/assets/img/logo/logo-kt.svg"
+      ]
+    },
+    {
+      "collection_id": "sports-kr-kbl-2026",
+      "snapshot_id": "sports-kr-kbl-2026-2026-10-12",
+      "member_key": "d48bf489358a8c814b31", "_member_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+      "name": "안양 정관장 레드부스터스",
+      "canonical_id": "kgckbl",
+      "candidate_ids": [
+        "kgckbl"
+      ],
+      "source_roster": "https://kbl.or.kr/",
+      "priority": 900,
+      "requested_assets": [
+        "emblem",
+        "wordmark",
+        "symbol",
+        "mascot",
+        "historical"
+      ],
+      "state": "pending_source_review",
+      "recorded_forms": [
+        "symbol",
+        "vertical"
+      ],
+      "composition_complete": false,
+      "preserve_manual_representative": true,
+      "exclude_reserve_teams_from_first_team_merge": true,
+      "source_leads": [
+        "https://kbl.or.kr/assets/img/logo/logo-kgc.svg"
+      ]
+    },
+    {
+      "collection_id": "sports-kr-kbl-2026",
+      "snapshot_id": "sports-kr-kbl-2026-2026-10-12",
+      "member_key": "59c8d228e1f1f1b0c9bc", "_member_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+      "name": "울산 현대모비스 피버스",
+      "canonical_id": "phoebuskbl",
+      "candidate_ids": [
+        "phoebuskbl"
+      ],
+      "source_roster": "https://kbl.or.kr/",
+      "priority": 900,
+      "requested_assets": [
+        "emblem",
+        "wordmark",
+        "symbol",
+        "mascot",
+        "historical"
+      ],
+      "state": "pending_source_review",
+      "recorded_forms": [
+        "symbol"
+      ],
+      "composition_complete": false,
+      "preserve_manual_representative": true,
+      "exclude_reserve_teams_from_first_team_merge": true,
+      "source_leads": [
+        "https://kbl.or.kr/assets/img/logo/logo-hd.svg"
+      ]
+    },
+    {
+      "collection_id": "sports-kr-kbl-2026",
+      "snapshot_id": "sports-kr-kbl-2026-2026-10-12",
+      "member_key": "a738cc60d570acb3be0c", "_member_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+      "name": "원주 DB 프로미",
+      "canonical_id": "promykbl",
+      "candidate_ids": [
+        "promykbl"
+      ],
+      "source_roster": "https://kbl.or.kr/",
+      "priority": 900,
+      "requested_assets": [
+        "emblem",
+        "wordmark",
+        "symbol",
+        "mascot",
+        "historical"
+      ],
+      "state": "pending_source_review",
+      "recorded_forms": [
+        "symbol"
+      ],
+      "composition_complete": false,
+      "preserve_manual_representative": true,
+      "exclude_reserve_teams_from_first_team_merge": true,
+      "source_leads": [
+        "https://kbl.or.kr/assets/img/logo/logo-db.svg"
+      ]
+    },
+    {
+      "collection_id": "sports-kr-kbl-2026",
+      "snapshot_id": "sports-kr-kbl-2026-2026-10-12",
+      "member_key": "d2f3cab33557ee1e2567", "_member_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+      "name": "창원 LG 세이커스",
+      "canonical_id": "sakerskbl",
+      "candidate_ids": [
+        "sakerskbl"
+      ],
+      "source_roster": "https://kbl.or.kr/",
+      "priority": 900,
+      "requested_assets": [
+        "emblem",
+        "wordmark",
+        "symbol",
+        "mascot",
+        "historical"
+      ],
+      "state": "pending_source_review",
+      "recorded_forms": [
+        "horizontal",
+        "symbol"
+      ],
+      "composition_complete": false,
+      "preserve_manual_representative": true,
+      "exclude_reserve_teams_from_first_team_merge": true,
+      "source_leads": [
+        "https://kbl.or.kr/assets/img/logo/logo-lg.svg"
+      ]
+    },
+    {
+      "collection_id": "sports-kr-kleague1-2026",
+      "snapshot_id": "sports-kr-kleague1-2026-2026-10-10",
+      "member_key": "6cbe75428c239e7b4a80", "_member_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+      "name": "FC 서울",
+      "canonical_id": "fcseoul",
+      "candidate_ids": [
+        "fcseoul"
+      ],
+      "source_roster": "https://www.kleague.com/news_view.do?orderBy=seq&seq=94117",
+      "priority": 900,
+      "requested_assets": [
+        "emblem",
+        "wordmark",
+        "symbol",
+        "mascot",
+        "historical"
+      ],
+      "state": "pending_source_review",
+      "recorded_forms": [
+        "horizontal",
+        "mascot",
+        "vertical"
+      ],
+      "composition_complete": false,
+      "preserve_manual_representative": true,
+      "exclude_reserve_teams_from_first_team_merge": true,
+      "source_leads": [
+        "https://www.fcseoul.com/club/clubFcEmblemView"
+      ]
+    },
+    {
+      "collection_id": "sports-kr-kleague1-2026",
+      "snapshot_id": "sports-kr-kleague1-2026-2026-10-10",
+      "member_key": "8ce0749345b0741987cc", "_member_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+      "name": "FC 안양",
+      "canonical_id": "fcanyang",
+      "candidate_ids": [
+        "fcanyang"
+      ],
+      "source_roster": "https://www.kleague.com/news_view.do?orderBy=seq&seq=94117",
+      "priority": 900,
+      "requested_assets": [
+        "emblem",
+        "wordmark",
+        "symbol",
+        "mascot",
+        "historical"
+      ],
+      "state": "pending_source_review",
+      "recorded_forms": [],
+      "composition_complete": false,
+      "preserve_manual_representative": true,
+      "exclude_reserve_teams_from_first_team_merge": true,
+      "source_leads": []
+    },
+    {
+      "collection_id": "sports-kr-kleague1-2026",
+      "snapshot_id": "sports-kr-kleague1-2026-2026-10-10",
+      "member_key": "a4d618ff321844b996d4", "_member_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+      "name": "강원 FC",
+      "canonical_id": null,
+      "candidate_ids": [],
+      "source_roster": "https://www.kleague.com/news_view.do?orderBy=seq&seq=94117",
+      "priority": 900,
+      "requested_assets": [
+        "emblem",
+        "wordmark",
+        "symbol",
+        "mascot",
+        "historical"
+      ],
+      "state": "identity_review_required",
+      "recorded_forms": [],
+      "composition_complete": false,
+      "preserve_manual_representative": true,
+      "exclude_reserve_teams_from_first_team_merge": true,
+      "source_leads": []
+    },
+    {
+      "collection_id": "sports-kr-kleague1-2026",
+      "snapshot_id": "sports-kr-kleague1-2026-2026-10-10",
+      "member_key": "23f65866acb3d90435e9", "_member_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+      "name": "광주 FC",
+      "canonical_id": "gwangjufc",
+      "candidate_ids": [
+        "gwangjufc"
+      ],
+      "source_roster": "https://www.kleague.com/news_view.do?orderBy=seq&seq=94117",
+      "priority": 900,
+      "requested_assets": [
+        "emblem",
+        "wordmark",
+        "symbol",
+        "mascot",
+        "historical"
+      ],
+      "state": "pending_source_review",
+      "recorded_forms": [],
+      "composition_complete": false,
+      "preserve_manual_representative": true,
+      "exclude_reserve_teams_from_first_team_merge": true,
+      "source_leads": []
+    },
+    {
+      "collection_id": "sports-kr-kleague1-2026",
+      "snapshot_id": "sports-kr-kleague1-2026-2026-10-10",
+      "member_key": "d97813544e5ba73fd32c", "_member_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+      "name": "김천 상무",
+      "canonical_id": "gimcheonfc",
+      "candidate_ids": [],
+      "source_roster": "https://www.kleague.com/news_view.do?orderBy=seq&seq=94117",
+      "priority": 900,
+      "requested_assets": [
+        "emblem",
+        "wordmark",
+        "symbol",
+        "mascot",
+        "historical"
+      ],
+      "state": "pending_source_review",
+      "recorded_forms": [],
+      "composition_complete": false,
+      "preserve_manual_representative": true,
+      "exclude_reserve_teams_from_first_team_merge": true,
+      "source_leads": []
+    },
+    {
+      "collection_id": "sports-kr-kleague1-2026",
+      "snapshot_id": "sports-kr-kleague1-2026-2026-10-10",
+      "member_key": "c3f218aa685623692957", "_member_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+      "name": "대전 하나 시티즌",
+      "canonical_id": "dhcfc",
+      "candidate_ids": [],
+      "source_roster": "https://www.kleague.com/news_view.do?orderBy=seq&seq=94117",
+      "priority": 900,
+      "requested_assets": [
+        "emblem",
+        "wordmark",
+        "symbol",
+        "mascot",
+        "historical"
+      ],
+      "state": "pending_source_review",
+      "recorded_forms": [],
+      "composition_complete": false,
+      "preserve_manual_representative": true,
+      "exclude_reserve_teams_from_first_team_merge": true,
+      "source_leads": []
+    },
+    {
+      "collection_id": "sports-kr-kleague1-2026",
+      "snapshot_id": "sports-kr-kleague1-2026-2026-10-10",
+      "member_key": "a02daf33f02c07436a9f", "_member_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+      "name": "부천 FC 1995",
+      "canonical_id": "bfc1995",
+      "candidate_ids": [
+        "bfc1995"
+      ],
+      "source_roster": "https://www.kleague.com/news_view.do?orderBy=seq&seq=94117",
+      "priority": 900,
+      "requested_assets": [
+        "emblem",
+        "wordmark",
+        "symbol",
+        "mascot",
+        "historical"
+      ],
+      "state": "pending_source_review",
+      "recorded_forms": [],
+      "composition_complete": false,
+      "preserve_manual_representative": true,
+      "exclude_reserve_teams_from_first_team_merge": true,
+      "source_leads": []
+    },
+    {
+      "collection_id": "sports-kr-kleague1-2026",
+      "snapshot_id": "sports-kr-kleague1-2026-2026-10-10",
+      "member_key": "d05ef631f6318af91eea", "_member_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+      "name": "울산 HD",
+      "canonical_id": "uhdfc",
+      "candidate_ids": [],
+      "source_roster": "https://www.kleague.com/news_view.do?orderBy=seq&seq=94117",
+      "priority": 900,
+      "requested_assets": [
+        "emblem",
+        "wordmark",
+        "symbol",
+        "mascot",
+        "historical"
+      ],
+      "state": "pending_source_review",
+      "recorded_forms": [],
+      "composition_complete": false,
+      "preserve_manual_representative": true,
+      "exclude_reserve_teams_from_first_team_merge": true,
+      "source_leads": []
+    },
+    {
+      "collection_id": "sports-kr-kleague1-2026",
+      "snapshot_id": "sports-kr-kleague1-2026-2026-10-10",
+      "member_key": "03a96d7ba396731fccf2", "_member_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+      "name": "인천 유나이티드",
+      "canonical_id": "incheonutd",
+      "candidate_ids": [],
+      "source_roster": "https://www.kleague.com/news_view.do?orderBy=seq&seq=94117",
+      "priority": 900,
+      "requested_assets": [
+        "emblem",
+        "wordmark",
+        "symbol",
+        "mascot",
+        "historical"
+      ],
+      "state": "pending_source_review",
+      "recorded_forms": [],
+      "composition_complete": false,
+      "preserve_manual_representative": true,
+      "exclude_reserve_teams_from_first_team_merge": true,
+      "source_leads": []
+    },
+    {
+      "collection_id": "sports-kr-kleague1-2026",
+      "snapshot_id": "sports-kr-kleague1-2026-2026-10-10",
+      "member_key": "b020fda7b6cab4668b0d", "_member_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+      "name": "전북 현대 모터스",
+      "canonical_id": "jeonbuk-fc",
+      "candidate_ids": [],
+      "source_roster": "https://www.kleague.com/news_view.do?orderBy=seq&seq=94117",
+      "priority": 900,
+      "requested_assets": [
+        "emblem",
+        "wordmark",
+        "symbol",
+        "mascot",
+        "historical"
+      ],
+      "state": "partially_published",
+      "recorded_forms": [],
+      "composition_complete": false,
+      "preserve_manual_representative": true,
+      "exclude_reserve_teams_from_first_team_merge": true,
+      "source_leads": []
+    },
+    {
+      "collection_id": "sports-kr-kleague1-2026",
+      "snapshot_id": "sports-kr-kleague1-2026-2026-10-10",
+      "member_key": "2baa45ff614248baa733", "_member_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+      "name": "제주 SK FC",
+      "canonical_id": "jejuskfc",
+      "candidate_ids": [
+        "jejuskfc"
+      ],
+      "source_roster": "https://www.kleague.com/news_view.do?orderBy=seq&seq=94117",
+      "priority": 900,
+      "requested_assets": [
+        "emblem",
+        "wordmark",
+        "symbol",
+        "mascot",
+        "historical"
+      ],
+      "state": "pending_source_review",
+      "recorded_forms": [],
+      "composition_complete": false,
+      "preserve_manual_representative": true,
+      "exclude_reserve_teams_from_first_team_merge": true,
+      "source_leads": []
+    },
+    {
+      "collection_id": "sports-kr-kleague1-2026",
+      "snapshot_id": "sports-kr-kleague1-2026-2026-10-10",
+      "member_key": "db5aa3f4abecc1935b65", "_member_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+      "name": "포항 스틸러스",
+      "canonical_id": "steelers",
+      "candidate_ids": [
+        "steelers"
+      ],
+      "source_roster": "https://www.kleague.com/news_view.do?orderBy=seq&seq=94117",
+      "priority": 900,
+      "requested_assets": [
+        "emblem",
+        "wordmark",
+        "symbol",
+        "mascot",
+        "historical"
+      ],
+      "state": "partially_published",
+      "recorded_forms": [],
+      "composition_complete": false,
+      "preserve_manual_representative": true,
+      "exclude_reserve_teams_from_first_team_merge": true,
+      "source_leads": []
+    },
+    {
+      "collection_id": "sports-kr-kovo-2026",
+      "snapshot_id": "sports-kr-kovo-2026-2026-10-12",
+      "member_key": "61c3bbf21e185311499d", "_member_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+      "name": "GS칼텍스 서울Kixx",
+      "canonical_id": "gsvolleyball",
+      "candidate_ids": [
+        "gsvolleyball"
+      ],
+      "source_roster": "https://kovo.co.kr/",
+      "priority": 900,
+      "requested_assets": [
+        "emblem",
+        "wordmark",
+        "symbol",
+        "mascot",
+        "historical"
+      ],
+      "state": "pending_source_review",
+      "recorded_forms": [
+        "symbol",
+        "wordmark"
+      ],
+      "composition_complete": false,
+      "preserve_manual_representative": true,
+      "exclude_reserve_teams_from_first_team_merge": true,
+      "source_leads": [
+        "https://cdn.kovo.co.kr/emblems/kixx.svg"
+      ]
+    },
+    {
+      "collection_id": "sports-kr-kovo-2026",
+      "snapshot_id": "sports-kr-kovo-2026-2026-10-12",
+      "member_key": "b9cedb1a896cde492741", "_member_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+      "name": "김천 한국도로공사 하이패스",
+      "canonical_id": "korea-expressway-hi-pass",
+      "candidate_ids": [
+        "korea-expressway-hi-pass"
+      ],
+      "source_roster": "https://kovo.co.kr/",
+      "priority": 900,
+      "requested_assets": [
+        "emblem",
+        "wordmark",
+        "symbol",
+        "mascot",
+        "historical"
+      ],
+      "state": "pending_source_review",
+      "recorded_forms": [
+        "symbol"
+      ],
+      "composition_complete": false,
+      "preserve_manual_representative": true,
+      "exclude_reserve_teams_from_first_team_merge": true,
+      "source_leads": [
+        "https://hipass.kovo.co.kr",
+        "https://cdn.kovo.co.kr/emblems/hipass.svg"
+      ]
+    },
+    {
+      "collection_id": "sports-kr-kovo-2026",
+      "snapshot_id": "sports-kr-kovo-2026-2026-10-12",
+      "member_key": "97acfe282520d26821d1", "_member_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+      "name": "대전 삼성화재 블루팡스",
+      "canonical_id": "samsung-fire-bluefangs",
+      "candidate_ids": [
+        "samsung-fire-bluefangs"
+      ],
+      "source_roster": "https://kovo.co.kr/",
+      "priority": 900,
+      "requested_assets": [
+        "emblem",
+        "wordmark",
+        "symbol",
+        "mascot",
+        "historical"
+      ],
+      "state": "pending_source_review",
+      "recorded_forms": [
+        "symbol"
+      ],
+      "composition_complete": false,
+      "preserve_manual_representative": true,
+      "exclude_reserve_teams_from_first_team_merge": true,
+      "source_leads": [
+        "https://bluefangs.kovo.co.kr",
+        "https://cdn.kovo.co.kr/emblems/bluefangs.svg"
+      ]
+    },
+    {
+      "collection_id": "sports-kr-kovo-2026",
+      "snapshot_id": "sports-kr-kovo-2026-2026-10-12",
+      "member_key": "1a0ce63acf915ab8f461", "_member_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+      "name": "대전 정관장 레드스파크스",
+      "canonical_id": "kgc",
+      "candidate_ids": [
+        "kgc"
+      ],
+      "source_roster": "https://kovo.co.kr/",
+      "priority": 900,
+      "requested_assets": [
+        "emblem",
+        "wordmark",
+        "symbol",
+        "mascot",
+        "historical"
+      ],
+      "state": "pending_source_review",
+      "recorded_forms": [
+        "horizontal",
+        "symbol"
+      ],
+      "composition_complete": false,
+      "preserve_manual_representative": true,
+      "exclude_reserve_teams_from_first_team_merge": true,
+      "source_leads": [
+        "https://cdn.kovo.co.kr/emblems/redsparks.svg"
+      ]
+    },
+    {
+      "collection_id": "sports-kr-kovo-2026",
+      "snapshot_id": "sports-kr-kovo-2026-2026-10-12",
+      "member_key": "41fe00864736c57b1247", "_member_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+      "name": "부산 OK저축은행 읏맨",
+      "canonical_id": "okfinancialsports",
+      "candidate_ids": [
+        "okfinancialsports"
+      ],
+      "source_roster": "https://kovo.co.kr/",
+      "priority": 900,
+      "requested_assets": [
+        "emblem",
+        "wordmark",
+        "symbol",
+        "mascot",
+        "historical"
+      ],
+      "state": "pending_source_review",
+      "recorded_forms": [
+        "symbol"
+      ],
+      "composition_complete": false,
+      "preserve_manual_representative": true,
+      "exclude_reserve_teams_from_first_team_merge": true,
+      "source_leads": [
+        "https://cdn.kovo.co.kr/emblems/okman.svg"
+      ]
+    },
+    {
+      "collection_id": "sports-kr-kovo-2026",
+      "snapshot_id": "sports-kr-kovo-2026-2026-10-12",
+      "member_key": "b8bf1c0dec7311f45820", "_member_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+      "name": "서울 우리카드 우리WON",
+      "canonical_id": "kovo",
+      "candidate_ids": [
+        "kovo"
+      ],
+      "source_roster": "https://kovo.co.kr/",
+      "priority": 900,
+      "requested_assets": [
+        "emblem",
+        "wordmark",
+        "symbol",
+        "mascot",
+        "historical"
+      ],
+      "state": "pending_source_review",
+      "recorded_forms": [
+        "symbol",
+        "wordmark"
+      ],
+      "composition_complete": false,
+      "preserve_manual_representative": true,
+      "exclude_reserve_teams_from_first_team_merge": true,
+      "source_leads": [
+        "https://cdn.kovo.co.kr/emblems/wooriwon.svg"
+      ]
+    },
+    {
+      "collection_id": "sports-kr-kovo-2026",
+      "snapshot_id": "sports-kr-kovo-2026-2026-10-12",
+      "member_key": "361f20a93aa6b293f4d0", "_member_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+      "name": "수원 한국전력 VIXTORM",
+      "canonical_id": "kepco-vixtorm",
+      "candidate_ids": [
+        "kepco-vixtorm"
+      ],
+      "source_roster": "https://kovo.co.kr/",
+      "priority": 900,
+      "requested_assets": [
+        "emblem",
+        "wordmark",
+        "symbol",
+        "mascot",
+        "historical"
+      ],
+      "state": "pending_source_review",
+      "recorded_forms": [
+        "symbol"
+      ],
+      "composition_complete": false,
+      "preserve_manual_representative": true,
+      "exclude_reserve_teams_from_first_team_merge": true,
+      "source_leads": [
+        "https://vixtorm.kovo.co.kr",
+        "https://cdn.kovo.co.kr/emblems/vixtorm.svg"
+      ]
+    },
+    {
+      "collection_id": "sports-kr-kovo-2026",
+      "snapshot_id": "sports-kr-kovo-2026-2026-10-12",
+      "member_key": "f3123b64effcc028edc4", "_member_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+      "name": "수원 현대건설 힐스테이트",
+      "canonical_id": "hillstatehdec",
+      "candidate_ids": [
+        "hillstatehdec"
+      ],
+      "source_roster": "https://kovo.co.kr/",
+      "priority": 900,
+      "requested_assets": [
+        "emblem",
+        "wordmark",
+        "symbol",
+        "mascot",
+        "historical"
+      ],
+      "state": "pending_source_review",
+      "recorded_forms": [
+        "emblem"
+      ],
+      "composition_complete": false,
+      "preserve_manual_representative": true,
+      "exclude_reserve_teams_from_first_team_merge": true,
+      "source_leads": [
+        "https://cdn.kovo.co.kr/emblems/hillstate.svg"
+      ]
+    },
+    {
+      "collection_id": "sports-kr-kovo-2026",
+      "snapshot_id": "sports-kr-kovo-2026-2026-10-12",
+      "member_key": "26352b506c104c1eaec4", "_member_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+      "name": "의정부 KB손해보험 스타즈",
+      "canonical_id": "kbstarsvc",
+      "candidate_ids": [
+        "kbstarsvc"
+      ],
+      "source_roster": "https://kovo.co.kr/",
+      "priority": 900,
+      "requested_assets": [
+        "emblem",
+        "wordmark",
+        "symbol",
+        "mascot",
+        "historical"
+      ],
+      "state": "pending_source_review",
+      "recorded_forms": [
+        "horizontal",
+        "symbol"
+      ],
+      "composition_complete": false,
+      "preserve_manual_representative": true,
+      "exclude_reserve_teams_from_first_team_merge": true,
+      "source_leads": [
+        "https://cdn.kovo.co.kr/emblems/stars.svg"
+      ]
+    },
+    {
+      "collection_id": "sports-kr-kovo-2026",
+      "snapshot_id": "sports-kr-kovo-2026-2026-10-12",
+      "member_key": "b7de91ff19c66b73e3d4", "_member_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+      "name": "인천 대한항공 점보스",
+      "canonical_id": "kaljumbos",
+      "candidate_ids": [
+        "kaljumbos"
+      ],
+      "source_roster": "https://kovo.co.kr/",
+      "priority": 900,
+      "requested_assets": [
+        "emblem",
+        "wordmark",
+        "symbol",
+        "mascot",
+        "historical"
+      ],
+      "state": "pending_source_review",
+      "recorded_forms": [
+        "symbol",
+        "wordmark"
+      ],
+      "composition_complete": false,
+      "preserve_manual_representative": true,
+      "exclude_reserve_teams_from_first_team_merge": true,
+      "source_leads": [
+        "https://cdn.kovo.co.kr/emblems/jumbos.svg"
+      ]
+    },
+    {
+      "collection_id": "sports-kr-kovo-2026",
+      "snapshot_id": "sports-kr-kovo-2026-2026-10-12",
+      "member_key": "919e03bfb210b76039c9", "_member_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+      "name": "인천 흥국생명 핑크스파이더스",
+      "canonical_id": "pinkspiders",
+      "candidate_ids": [
+        "pinkspiders"
+      ],
+      "source_roster": "https://kovo.co.kr/",
+      "priority": 900,
+      "requested_assets": [
+        "emblem",
+        "wordmark",
+        "symbol",
+        "mascot",
+        "historical"
+      ],
+      "state": "pending_source_review",
+      "recorded_forms": [
+        "emblem"
+      ],
+      "composition_complete": false,
+      "preserve_manual_representative": true,
+      "exclude_reserve_teams_from_first_team_merge": true,
+      "source_leads": [
+        "https://cdn.kovo.co.kr/emblems/pinkspiders.svg"
+      ]
+    },
+    {
+      "collection_id": "sports-kr-kovo-2026",
+      "snapshot_id": "sports-kr-kovo-2026-2026-10-12",
+      "member_key": "32c3fee2623dc95b1e36", "_member_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+      "name": "전남광주 SOOP SOOPers",
+      "canonical_id": "aipeppers",
+      "candidate_ids": [
+        "aipeppers"
+      ],
+      "source_roster": "https://kovo.co.kr/",
+      "priority": 900,
+      "requested_assets": [
+        "emblem",
+        "wordmark",
+        "symbol",
+        "mascot",
+        "historical"
+      ],
+      "state": "pending_source_review",
+      "recorded_forms": [
+        "symbol"
+      ],
+      "composition_complete": false,
+      "preserve_manual_representative": true,
+      "exclude_reserve_teams_from_first_team_merge": true,
+      "source_leads": [
+        "https://soopers.kovo.co.kr",
+        "https://cdn.kovo.co.kr/emblems/soopers.svg"
+      ]
+    },
+    {
+      "collection_id": "sports-kr-kovo-2026",
+      "snapshot_id": "sports-kr-kovo-2026-2026-10-12",
+      "member_key": "c4df4bff590566ac1196", "_member_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+      "name": "천안 현대캐피탈 스카이워커스",
+      "canonical_id": "hyundai-capital-skywalkers",
+      "candidate_ids": [
+        "hyundai-capital-skywalkers"
+      ],
+      "source_roster": "https://kovo.co.kr/",
+      "priority": 900,
+      "requested_assets": [
+        "emblem",
+        "wordmark",
+        "symbol",
+        "mascot",
+        "historical"
+      ],
+      "state": "pending_source_review",
+      "recorded_forms": [
+        "symbol"
+      ],
+      "composition_complete": false,
+      "preserve_manual_representative": true,
+      "exclude_reserve_teams_from_first_team_merge": true,
+      "source_leads": [
+        "https://skywalkers.kovo.co.kr",
+        "https://cdn.kovo.co.kr/emblems/skywalkers.svg"
+      ]
+    },
+    {
+      "collection_id": "sports-kr-kovo-2026",
+      "snapshot_id": "sports-kr-kovo-2026-2026-10-12",
+      "member_key": "55f536000a04b41d7fde", "_member_key_note": "gitleaks:allow — public artwork or roster identifier, not a credential",
+      "name": "화성 IBK기업은행 알토스",
+      "canonical_id": "sportsibk",
+      "candidate_ids": [
+        "sportsibk"
+      ],
+      "source_roster": "https://kovo.co.kr/",
+      "priority": 900,
+      "requested_assets": [
+        "emblem",
+        "wordmark",
+        "symbol",
+        "mascot",
+        "historical"
+      ],
+      "state": "pending_source_review",
+      "recorded_forms": [
+        "symbol",
+        "wordmark"
+      ],
+      "composition_complete": false,
+      "preserve_manual_representative": true,
+      "exclude_reserve_teams_from_first_team_merge": true,
+      "source_leads": [
+        "https://cdn.kovo.co.kr/emblems/altos.svg"
+      ]
+    }
+  ],
+  "next_rosters": [
+    {
+      "name": "K리그2",
+      "state": "official_roster_verification_required"
+    },
+    {
+      "name": "WKBL",
+      "state": "official_roster_verification_required"
+    }
+  ]
+}
