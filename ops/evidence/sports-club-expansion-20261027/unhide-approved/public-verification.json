@@ -1,0 +1,29 @@
+[
+  {
+    "id": "kaljumbos",
+    "name": "인천 대한항공 점보스",
+    "catalog_visible": true,
+    "detail_page_verified": true,
+    "preview_decoded": true,
+    "page": "https://semologo.com/brand/kaljumbos/",
+    "owner_approved_unhide": true
+  },
+  {
+    "id": "gsvolleyball",
+    "name": "GS칼텍스 서울 KIXX",
+    "catalog_visible": true,
+    "detail_page_verified": true,
+    "preview_decoded": true,
+    "page": "https://semologo.com/brand/gsvolleyball/",
+    "owner_approved_unhide": true
+  },
+  {
+    "id": "aipeppers",
+    "name": "전남광주 SOOP SOOPers",
+    "catalog_visible": true,
+    "detail_page_verified": true,
+    "preview_decoded": true,
+    "page": "https://semologo.com/brand/aipeppers/",
+    "owner_approved_unhide": true
+  }
+]

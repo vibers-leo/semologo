@@ -732,7 +732,7 @@
         "mascot",
         "historical"
       ],
-      "state": "official_source_reviewed_hidden_preserved_pending_owner_decision",
+      "state": "official_source_reviewed_partially_published",
       "recorded_forms": [
         "symbol",
         "wordmark"
@@ -745,9 +745,12 @@
       ],
       "reviewed_at": "2026-10-27",
       "published_additional_variants": 0,
-      "public_catalog_visible": false,
+      "public_catalog_visible": true,
       "verification_evidence": "ops/evidence/sports-club-expansion-20261027/kovo-public-verification.json",
-      "svg_requires_native_paths": true
+      "svg_requires_native_paths": true,
+      "owner_approved_unhide": true,
+      "visibility_restored_at": "2026-10-27",
+      "visibility_verification_evidence": "ops/evidence/sports-club-expansion-20261027/unhide-approved/public-verification.json"
     },
     {
       "collection_id": "sports-kr-kovo-2026",
@@ -1046,7 +1049,7 @@
         "mascot",
         "historical"
       ],
-      "state": "official_source_reviewed_hidden_preserved_pending_owner_decision",
+      "state": "official_source_reviewed_partially_published",
       "recorded_forms": [
         "symbol",
         "wordmark"
@@ -1059,9 +1062,12 @@
       ],
       "reviewed_at": "2026-10-27",
       "published_additional_variants": 0,
-      "public_catalog_visible": false,
+      "public_catalog_visible": true,
       "verification_evidence": "ops/evidence/sports-club-expansion-20261027/kovo-public-verification.json",
-      "svg_requires_native_paths": true
+      "svg_requires_native_paths": true,
+      "owner_approved_unhide": true,
+      "visibility_restored_at": "2026-10-27",
+      "visibility_verification_evidence": "ops/evidence/sports-club-expansion-20261027/unhide-approved/public-verification.json"
     },
     {
       "collection_id": "sports-kr-kovo-2026",
@@ -1115,7 +1121,7 @@
         "mascot",
         "historical"
       ],
-      "state": "official_source_reviewed_hidden_preserved_pending_owner_decision",
+      "state": "official_source_reviewed_partially_published",
       "recorded_forms": [
         "symbol"
       ],
@@ -1128,9 +1134,12 @@
       ],
       "reviewed_at": "2026-10-27",
       "published_additional_variants": 8,
-      "public_catalog_visible": false,
+      "public_catalog_visible": true,
       "verification_evidence": "ops/evidence/sports-club-expansion-20261027/kovo-public-verification.json",
-      "svg_requires_native_paths": true
+      "svg_requires_native_paths": true,
+      "owner_approved_unhide": true,
+      "visibility_restored_at": "2026-10-27",
+      "visibility_verification_evidence": "ops/evidence/sports-club-expansion-20261027/unhide-approved/public-verification.json"
     },
     {
       "collection_id": "sports-kr-kovo-2026",

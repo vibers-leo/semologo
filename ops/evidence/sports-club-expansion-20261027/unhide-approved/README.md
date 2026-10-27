@@ -1,0 +1,3 @@
+# Owner-approved club visibility restoration
+
+On 2026-10-27 the owner explicitly requested removal of the existing hidden states for kaljumbos, gsvolleyball and aipeppers. Both root and nested hidden flags were reset; no merged/reserve identity was changed. Verified official artwork, all variants and representative settings were preserved. Before-state backups remain on vibers under /root/ops/sports-expansion-20261027/unhide-approved. This later instruction supersedes the prior keep-hidden decision for these three clubs only. Public catalog, detail-page and preview checks are recorded in public-verification.json.

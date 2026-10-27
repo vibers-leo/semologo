@@ -1,0 +1,29 @@
+[
+  {
+    "id": "kaljumbos",
+    "published": true,
+    "name": "인천 대한항공 점보스",
+    "hidden": false,
+    "manual_presentation_preserved": true,
+    "variants_preserved": 2,
+    "owner_approved": true
+  },
+  {
+    "id": "gsvolleyball",
+    "published": true,
+    "name": "GS칼텍스 서울 KIXX",
+    "hidden": false,
+    "manual_presentation_preserved": true,
+    "variants_preserved": 2,
+    "owner_approved": true
+  },
+  {
+    "id": "aipeppers",
+    "published": true,
+    "name": "전남광주 SOOP SOOPers",
+    "hidden": false,
+    "manual_presentation_preserved": true,
+    "variants_preserved": 9,
+    "owner_approved": true
+  }
+]
