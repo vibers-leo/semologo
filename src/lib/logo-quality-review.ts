@@ -8,7 +8,12 @@ import { CDN, VERSION } from './cdn';
 export const QUALITY_REVIEWS: Record<string, { status: string; reason: string; reviewed_at: string; down_at_review: number; replacement_id?: string; preview_file?: string; light?: boolean }> = records;
 export function applyQualityReview(brand: Brand): Brand {
   const savedPresentation = brand.presentation;
+  const rejectedFiles = brand.rejected_asset_files;
   brand = applyReviewedAssets(brand);
+  // A bundled review must not resurrect files rejected by a later CMS review.
+  if (rejectedFiles?.length) brand = { ...brand,
+    rejected_asset_files: [...new Set([...(brand.rejected_asset_files ?? []), ...rejectedFiles])],
+  };
   // Explicit administrator choices take precedence over bundled review defaults.
   if (validPresentation(savedPresentation)) brand = { ...brand, presentation: savedPresentation };
   if (reviewedCategories[brand.id]) brand = { ...brand, category: reviewedCategories[brand.id] };

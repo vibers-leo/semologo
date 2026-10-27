@@ -1,0 +1,60 @@
+[
+  {
+    "id": "aipeppers",
+    "published": true,
+    "removed_wrong_manifest_variants": [],
+    "rejected_files": [
+      "logo-800.png",
+      "logo-en.png",
+      "logo-en.svg",
+      "logo-icon.png",
+      "logo-transparent.png",
+      "logo-white.png",
+      "logo.png",
+      "logo.svg"
+    ],
+    "remaining_variants": 9,
+    "correct_primary_preserved": true,
+    "original_files_retained_for_audit": true
+  },
+  {
+    "id": "kaljumbos",
+    "published": true,
+    "removed_wrong_manifest_variants": [
+      "wordmark"
+    ],
+    "rejected_files": [
+      "logo-800.png",
+      "logo-en.png",
+      "logo-en.svg",
+      "logo-icon.png",
+      "logo-transparent.png",
+      "logo-white.png",
+      "logo.png",
+      "logo.svg"
+    ],
+    "remaining_variants": 1,
+    "correct_primary_preserved": true,
+    "original_files_retained_for_audit": true
+  },
+  {
+    "id": "gsvolleyball",
+    "published": true,
+    "removed_wrong_manifest_variants": [
+      "wordmark"
+    ],
+    "rejected_files": [
+      "logo-800.png",
+      "logo-en.png",
+      "logo-en.svg",
+      "logo-icon.png",
+      "logo-transparent.png",
+      "logo-white.png",
+      "logo.png",
+      "logo.svg"
+    ],
+    "remaining_variants": 1,
+    "correct_primary_preserved": true,
+    "original_files_retained_for_audit": true
+  }
+]
