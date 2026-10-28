@@ -7,7 +7,7 @@ export const dynamic = 'force-dynamic';
 let pool: Pool | undefined;
 function db() {
   if (!process.env.DB_VIBERS_MAIN_URL) return null;
-  return pool ??= new Pool({ connectionString: process.env.DB_VIBERS_MAIN_URL, max: 3, connectionTimeoutMillis: 5000, statement_timeout: 5000 });
+  return pool ??= new Pool({ connectionString: process.env.DB_VIBERS_MAIN_URL, max: 3, connectionTimeoutMillis: 5000, query_timeout: 5000 });
 }
 const reply = (body: unknown, status = 200) => NextResponse.json(body, { status, headers: { 'Cache-Control': 'private, no-store' } });
 
@@ -76,6 +76,8 @@ export async function POST(request: NextRequest) {
     const client = await database.connect();
     try {
       await client.query('BEGIN');
+      // PgBouncer rejects statement_timeout in the connection startup packet.
+      await client.query("SET LOCAL statement_timeout = '5s'");
       const recent = await client.query('SELECT count(*)::int AS n FROM semologo.logo_request_queue WHERE requester_hash=$1 AND created_at > now() - interval \'1 hour\'', [requesterHash]);
       if (recent.rows[0].n >= 5) { await client.query('ROLLBACK'); return reply({ error: '요청을 많이 보내셨어요. 한 시간 뒤에 다시 남겨 주세요.' }, 429); }
       const existing = await client.query(`SELECT id FROM semologo.logo_posts
