@@ -16,7 +16,12 @@ export function fetchVariants(id: string): Promise<VariantManifest | null> {
       resolved.set(id, manifest);
       if (resolved.size > 100) resolved.delete(resolved.keys().next().value!);
       return manifest;
-    }).catch(() => { pending.delete(id); return null; });
+    }).catch(() => {
+      pending.delete(id);
+      // Keep the last authoritative result (including a quarantined empty list)
+      // during an outage rather than reopening the legacy UI fallback.
+      return resolved.get(id) ?? null;
+    });
   pending.set(id, request);
   if (pending.size > 100) pending.delete(pending.keys().next().value!);
   return request;

@@ -8,13 +8,14 @@ export async function GET(request: Request) {
   }
   // Published CMS versions are authoritative when a duplicate collection adds
   // files or compositions after the build's reviewed snapshot was generated.
-  // The bundled/CDN manifest remains the fallback for brands outside the CMS.
+  // An empty list is also authoritative: quarantined artwork must not return
+  // through a stale bundled/CDN snapshot. Missing manifests still use fallback.
   let manifest = null;
   try {
     const rows = await trafficDb().query(`SELECT asset_manifest->'variants' manifest
       FROM semologo.logo_versions WHERE brand_id=$1 AND is_current LIMIT 1`, [id]);
     const current = rows.rows[0]?.manifest;
-    if (current && Array.isArray(current.variants) && current.variants.length) manifest = current;
+    if (current && Array.isArray(current.variants)) manifest = current;
   } catch { /* Keep the archive available during a database interruption. */ }
   if (!manifest) manifest = await fetchVariants(id);
   return Response.json(manifest, { headers: {

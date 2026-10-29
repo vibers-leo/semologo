@@ -302,7 +302,7 @@ export async function fetchVariants(id: string): Promise<VariantManifest | null>
     // GitHub Pages 는 없는 경로에 200 으로 SPA 폴백 HTML 을 주기도 한다
     if (looksLikeHtml(res.headers.get("content-type"))) return null;
     const data = await res.json();
-    if (!data || !Array.isArray(data.variants) || data.variants.length === 0) return null;
+    if (!data || !Array.isArray(data.variants)) return null;
     return data as VariantManifest;
   } catch {
     return null;
