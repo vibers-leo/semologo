@@ -2,7 +2,7 @@ import {createHash} from 'node:crypto';
 import {after} from 'next/server';
 import {trafficDb} from '@/lib/traffic-db';
 import {validateInquiry} from '@/lib/ad-inquiry-input.mjs';
-import {notifyInquiry} from '@/lib/inquiry-mail';
+import {notifyInquiry} from '@/lib/inquiry-mail-notify';
 export const dynamic='force-dynamic';
 export const maxDuration=60;
 const reply=(b:unknown,s=200)=>Response.json(b,{status:s,headers:{'Cache-Control':'private, no-store'}});

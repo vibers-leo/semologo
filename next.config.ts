@@ -31,6 +31,9 @@ if (missingFirebasePublicEnv.length > 0) {
  */
 const nextConfig: NextConfig = {
   output: "standalone",
+  // Bound page-generation workers on the development Mac and shared NCP host.
+  // The host's physical CPU count is not the app's available build budget.
+  experimental: { cpus: 2 },
   // The notification worker runs in the app container outside the Next.js bundle.
   serverExternalPackages: ["nodemailer"],
   // Keep the Firebase settings in the browser bundle. Login cannot initialize

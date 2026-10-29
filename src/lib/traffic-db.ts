@@ -9,7 +9,7 @@ export function trafficDb() {
 export async function trafficAdmin(request: Request) {
   const token = request.headers.get('authorization')?.match(/^Bearer (\S+)$/)?.[1];
   const key = process.env.NEXT_PUBLIC_FIREBASE_API_KEY;
-  if (!token || !key) return false;
+  if (!token || token.startsWith('slk_') || !key) return false;
   const r = await fetch(`https://identitytoolkit.googleapis.com/v1/accounts:lookup?key=${encodeURIComponent(key)}`, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ idToken: token }), cache: 'no-store', signal: AbortSignal.timeout(8000) });
   if (!r.ok) return false;
   const u = (await r.json()).users?.[0];

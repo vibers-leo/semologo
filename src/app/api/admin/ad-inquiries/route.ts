@@ -1,6 +1,6 @@
 import {after} from 'next/server';
 import {trafficAdmin,trafficDb} from '@/lib/traffic-db';
-import {notifyInquiry} from '@/lib/inquiry-mail';
+import {notifyInquiry} from '@/lib/inquiry-mail-notify';
 export const dynamic='force-dynamic';
 export const maxDuration=60;
 const reply=(b:unknown,s=200)=>Response.json(b,{status:s,headers:{'Cache-Control':'private, no-store'}});

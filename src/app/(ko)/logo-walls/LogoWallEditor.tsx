@@ -4,7 +4,8 @@ import { onAuthStateChanged, type User } from 'firebase/auth';
 import { getClientAuth } from '@/lib/firebase';
 import { CATALOG_VERSION } from '@/lib/cdn';
 import { logoWallPngCandidates } from '@/lib/logo-png-source';
-import { initialWallScale, measureLogo, wallCropForVisibleHeight, wallScaleForVisibleHeight, type LogoBounds } from '@/lib/logo-optical-size';
+import { initialWallScale, measureLogo, wallCropForVisibleHeight, type LogoBounds } from '@/lib/logo-optical-size';
+import { balancedWallScales } from '@/lib/logo-wall-balance';
 import { scalesForSave } from '@/lib/logo-wall-scale-save';
 import { applyQualityReview } from '@/lib/logo-quality-review';
 import { findLogoWallDropSlot, moveLogoToInsertion, type DropSlot } from '@/lib/logo-wall-reorder';
@@ -157,15 +158,17 @@ export default function LogoWallEditor() {
       const measured = await Promise.all(selected.map(async b => {
         const img = new Image(); img.crossOrigin = 'anonymous'; img.src = preview(b);
         try { await Promise.race([img.decode(), new Promise((_, reject) => setTimeout(() => reject(new Error('timeout')), 6000))]); }
-        catch { return { key: wallLogoKey(b), scale: null }; }
+        catch { return { key: wallLogoKey(b), bounds: null }; }
         const bounds = measureLogo(img);
         // Align visible marks, not image area or the current card width. Wide lockups keep their natural width.
-        const scale = wallScaleForVisibleHeight(bounds);
-        return { key: wallLogoKey(b), scale };
+        return { key: wallLogoKey(b), bounds };
       }));
-      const scales = new Map(measured.filter(m => m.scale !== null).map(m => [m.key, m.scale!]));
+      const valid=measured.filter((m):m is {key:string;bounds:LogoBounds}=>m.bounds!==null);
+      if(!valid.length)throw new Error('로고 이미지를 확인하지 못했어요. 잠시 후 다시 맞춰 주세요.');
+      const balanced=balancedWallScales(valid.map(m=>({width:m.bounds.inkWidth,height:m.bounds.inkHeight,density:m.bounds.density})));
+      const scales = new Map(valid.map((m,i) => [m.key,balanced[i]]));
       setSelected(items => items.map(b => scales.has(wallLogoKey(b)) ? { ...b, scale: scales.get(wallLogoKey(b)) } : b));
-      setMessage(`로고의 보이는 높이를 맞췄어요. ${scales.size}개 로고의 너비는 원본 비율을 유지하고, 카드 간격은 설정값대로 일정해요.`);
+      setMessage(`${scales.size}개 로고의 모양과 시각적 무게를 함께 맞췄어요. 원본 비율과 카드 간격은 유지해요.`);
     });
   }
   useEffect(() => onAuthStateChanged(getClientAuth(), u => {
@@ -221,7 +224,12 @@ export default function LogoWallEditor() {
   useEffect(() => {
     if (!user) return;
     let active = true;
-    api().then(d => { if (active) setWalls(d.walls); }).catch(e => { if (active) setMessage(e.message); });
+    api().then(d => {
+      if (!active) return;
+      setWalls(d.walls);
+      const requested = new URLSearchParams(window.location.search).get('wall');
+      if (requested && /^[a-f0-9-]{36}$/i.test(requested)) void open({ id: requested, title: '', version: 1 });
+    }).catch(e => { if (active) setMessage(e.message); });
     return () => { active = false; };
     // Refresh the list only when the authenticated identity changes.
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -250,6 +258,7 @@ export default function LogoWallEditor() {
   async function open(w: Wall) {
     if (!canSwitch()) return;
     await run(async () => {
+      const generation = wallGeneration.current;
       const d = await api('GET', w.id);
       const items: WallLogo[] = await Promise.all(d.wall.items.map(async (i: Item) => {
         const snap = i.asset_snapshot;
@@ -259,6 +268,7 @@ export default function LogoWallEditor() {
         } as Brand;
         return { ...(snap.variant_key ? base : applyQualityReview(base)), variantKey: snap.variant_key, variantLabel: snap.variant_label, scale: snap.scale || 100, cardBackground: snap.card_background, logoColor: snap.logo_color || 'inherit' };
       }));
+      if (generation !== wallGeneration.current) return; // Ignore a response from a previous signed-in account.
       const settings = logoWallLayout(d.wall.settings);
       wallGeneration.current++; pendingInitialScales.current.clear();
       setFocused(null); setCurrent(d.wall); setTitle(d.wall.title); setSelected(items); setLayout(settings);

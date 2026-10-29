@@ -1,2 +1,4 @@
 # Native app workspace is built and signed separately from the web container.
 native/
+# Local pilot evidence and source snapshots stay out of image builds.
+artifacts/logo-wall-mcp-20261028/

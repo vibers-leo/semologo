@@ -1,4 +1,4 @@
-export type LogoBounds = { width:number; height:number; x:number; y:number; inkWidth:number; inkHeight:number };
+export type LogoBounds = { width:number; height:number; x:number; y:number; inkWidth:number; inkHeight:number; density?:number };
 const cache = new Map<string, LogoBounds>();
 
 /** Match visible logo heights while letting each lockup retain its natural width. */
@@ -27,7 +27,7 @@ export function measureLogo(image:HTMLImageElement):LogoBounds {
   const fallback={width,height,x:0,y:0,inkWidth:width,inkHeight:height};
   if (!width || !height) return fallback;
   const cached=cache.get(image.currentSrc || image.src); if(cached)return cached;
-  let result=fallback;
+  let result:LogoBounds=fallback;
   try {
     const c=document.createElement('canvas'); const factor=128/Math.max(width,height);
     c.width=Math.max(1,Math.round(width*factor));c.height=Math.max(1,Math.round(height*factor));
@@ -38,9 +38,9 @@ export function measureLogo(image:HTMLImageElement):LogoBounds {
     let edge=0,paper=0;
     for(let y=0;y<c.height;y++)for(let x=0;x<c.width;x++)if(x===0||y===0||x===c.width-1||y===c.height-1){edge++;if(white((y*c.width+x)*4))paper++;}
     const whitePaper=paper/edge>.95;
-    let left=c.width,right=-1,top=c.height,bottom=-1;
-    for(let y=0;y<c.height;y++)for(let x=0;x<c.width;x++){const i=(y*c.width+x)*4;if(data[i+3]>32&&!(whitePaper&&white(i))){left=Math.min(left,x);right=Math.max(right,x);top=Math.min(top,y);bottom=Math.max(bottom,y);}}
-    if(right>=left&&bottom>=top)result={width,height,x:left/c.width*width,y:top/c.height*height,inkWidth:(right-left+1)/c.width*width,inkHeight:(bottom-top+1)/c.height*height};
+    let left=c.width,right=-1,top=c.height,bottom=-1,ink=0;
+    for(let y=0;y<c.height;y++)for(let x=0;x<c.width;x++){const i=(y*c.width+x)*4;if(data[i+3]>32&&!(whitePaper&&white(i))){ink++;left=Math.min(left,x);right=Math.max(right,x);top=Math.min(top,y);bottom=Math.max(bottom,y);}}
+    if(right>=left&&bottom>=top)result={width,height,x:left/c.width*width,y:top/c.height*height,inkWidth:(right-left+1)/c.width*width,inkHeight:(bottom-top+1)/c.height*height,density:ink/Math.max(1,(right-left+1)*(bottom-top+1))};
   }catch{/* Cross-origin images keep the safe natural-aspect fallback. */}
   if(cache.size>=256)cache.delete(cache.keys().next().value!);
   cache.set(image.currentSrc||image.src,result); return result;

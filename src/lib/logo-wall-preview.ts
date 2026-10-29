@@ -1,3 +1,5 @@
+import { previewWallFits } from './logo-wall-balance';
+import { wallInkMetrics } from './logo-wall-ink';
 import sharp, { type OverlayOptions } from 'sharp';
 import { logoWallLayout, wallCardBackground, wallStageBackground } from './logo-wall-layout';
 
@@ -7,14 +9,13 @@ export async function logoWallPreview(settings: unknown, logos: { data: Buffer; 
   const columns = Math.max(layout.columns, Math.ceil(Math.sqrt(logos.length * 2)));
   const rows = Math.max(1, Math.ceil(logos.length / columns));
   const gap = 12; const width = (1120 - gap * (columns - 1)) / columns; const height = (550 - gap * (rows - 1)) / rows;
+  const metrics=await Promise.all(logos.map(l=>wallInkMetrics(l.data)));
+  const fits=previewWallFits(metrics,Math.max(1,width-16),Math.max(1,height-16),logos.map(l=>l.scale||100));
   const overlays: OverlayOptions[] = [];
   for (let i = 0; i < logos.length; i++) {
     const logo = logos[i]; const tileWidth = Math.max(1, Math.floor(width)); const tileHeight = Math.max(1, Math.floor(height));
-    const scale = Math.max(.5, Math.min(2, (logo.scale || 100) / 100));
-    const base = await sharp(logo.data, { limitInputPixels: 16_000_000 }).resize(Math.max(1, tileWidth - 16), Math.max(1, tileHeight - 16), { fit: 'inside' }).png().toBuffer();
-    const baseMeta = await sharp(base).metadata();
-    const fittedScale = Math.min(scale, Math.max(1, tileWidth - 16) / baseMeta.width!, Math.max(1, tileHeight - 16) / baseMeta.height!);
-    const scaled = await sharp(base).resize(Math.max(1, Math.round(baseMeta.width! * fittedScale)), Math.max(1, Math.round(baseMeta.height! * fittedScale))).png().toBuffer();
+    const fitted=fits[i];
+    const scaled=await sharp(logo.data,{limitInputPixels:16000000}).resize(fitted.width,fitted.height,{fit:'inside'}).png().toBuffer();
     // Export has already colored each PNG, including per-logo overrides.
     const asset = scaled;
     const meta = await sharp(asset).metadata();
