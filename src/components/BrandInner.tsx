@@ -4,7 +4,8 @@ import { presentationVoteId, presentationVoteKey, presentationVoteCount } from '
 import { generateInverted } from "@/lib/logo-dark-png";
 
 import { useLocale, T } from "@/lib/locale-context";
-import { useEffect, useState, useCallback, useRef } from "react";
+import { Fragment, useEffect, useState, useCallback, useRef } from "react";
+import { groupLogoVariantsByPeriod } from "@/lib/logo-variant-period";
 import Link from "next/link";
 import type { Brand, VariantManifest } from "@/lib/brands";
 import { fetchVariants, cachedVariants } from "@/lib/client-variants";
@@ -402,6 +403,8 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
     ? Array.from(new Set(manifest.variants.map(v => v.lang).filter(l => l === "ko" || l === "en")))
     : [];
   const [langFilter, setLangFilter] = useState<string | null>(null);
+  const compositionGroups = groupLogoVariantsByPeriod((manifest?.variants || []).filter(v => !langFilter || v.lang === langFilter || v.lang === "none" || v.text_layout?.startsWith("ko-en")));
+  const showPeriodSections = compositionGroups.some(group => group.period === "historical");
 
   // 영문 버전 보유 여부는 변형 매니페스트가 정답이다. 예전엔 brand.lang_en 을
   // 봤는데 그 플래그를 가진 브랜드가 사실상 없어서, 영문 로고가 실제로 있어도
@@ -961,17 +964,19 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
               {CORE_FORMS.map(form=><span key={form.key} style={{fontSize:11,padding:"4px 8px",borderRadius:999,background:availableCoreForms.has(form.key)?"#ecfdf3":"#f4f4f5",color:availableCoreForms.has(form.key)?"#15803d":"#71717a"}}>{availableCoreForms.has(form.key)?"✓":"＋"} {form.label}</span>)}
             </div>}
             <div className="logo-composition-grid">
-                      {(manifest?.variants || []).filter(v => !langFilter || v.lang === langFilter || v.lang === "none" || v.text_layout?.startsWith("ko-en")).map(v => {
+                      {compositionGroups.flatMap(group => group.variants.map((v, index) => {
                         const svgFile = v.files.svg;
                         const pngFile = v.files.png;
                         const thumbnailFile = presentationAssetFile(brand, v.preview_png);
                         const originalFile = presentationAssetFile(brand, v.original_png);
                         const previewUrl = cdnUrl(thumbnailFile || pngFile || svgFile || "logo.png");
                         return (
-                          <div key={v.key} className="logo-composition-card" style={{ minWidth:0,
+                          <Fragment key={v.key}>
+                          {showPeriodSections && index === 0 && <h3 style={{gridColumn:"1 / -1",margin:group.period === "historical" ? "16px 0 0" : 0,paddingTop:group.period === "historical" ? 14 : 0,borderTop:group.period === "historical" ? "1px solid #e4e4e7" : undefined,fontSize:13,fontWeight:700,color:group.period === "historical" ? "#71717a" : "#27272a"}}>{t(group.title)} <span style={{fontSize:11,fontWeight:400}}>{group.variants.length}</span></h3>}
+                          <div className="logo-composition-card" style={{ minWidth:0,
                             background:"#fff", border:"1px solid #e4e4e7", borderRadius:12, overflow:"hidden" }}>
                             <div className="logo-composition-preview" style={{
-                              ...(candidateBg(pngFile||svgFile||"",v.color==="white"||v.color==="mono-light"?"dark":"light")==="dark"?DARK_TILE:CHECKER) }}>
+                              ...(candidateBg(pngFile||svgFile||"",v.light===true||v.color==="white"||v.color==="mono-light"?"dark":"light")==="dark"?DARK_TILE:CHECKER) }}>
                               {/* eslint-disable-next-line @next/next/no-img-element */}
                               <img src={previewUrl} alt={t(logoVariantLabel(v))}
                                 style={{ position:"absolute", inset:12, width:"calc(100% - 24px)",
@@ -1023,10 +1028,12 @@ export default function BrandInner({ brand, onClose, allBrands = [], onSelectBra
                                   PNG
                                 </button>
                               )}
-                            </div>{(pngFile || svgFile) && candidateActions(pngFile||svgFile!,logoVariantLabel(v),candidateBg(pngFile||svgFile!,v.color==="white"||v.color==="mono-light"?"dark":"light"),false,true,svgFile)}</div>
+                            </div>{(pngFile || svgFile) && candidateActions(pngFile||svgFile!,logoVariantLabel(v),candidateBg(pngFile||svgFile!,v.light===true||v.color==="white"||v.color==="mono-light"?"dark":"light"),false,true,svgFile)}</div>
                           </div>
+                          </Fragment>
                         );
-                      })}
+                      }))}
+            {showPeriodSections && (invertedUrl || variants.length > 0) && <h3 style={{gridColumn:"1 / -1",margin:"16px 0 0",paddingTop:14,borderTop:"1px solid #e4e4e7",fontSize:13,fontWeight:700}}>{t("추가 다운로드")}</h3>}
             {invertedUrl && <div className="logo-composition-card" style={{border:"1px solid #e4e4e7",borderRadius:12,overflow:"hidden"}}>
               <div className="logo-composition-preview" style={{background:"#111114",display:"flex",alignItems:"center",padding:12}}><img src={invertedUrl} alt="다크 배경용 PNG" style={{width:"100%",maxHeight:116,objectFit:"contain"}}/></div>
               <div style={{padding:"12px 12px 6px"}}><b style={{fontSize:12}}>다크 배경용 PNG</b><p style={{fontSize:11,color:"#71717a"}}>자동 생성한 다운로드 파일이에요.</p></div>

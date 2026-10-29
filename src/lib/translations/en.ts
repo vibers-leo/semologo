@@ -1,5 +1,9 @@
 /** Korean source strings are stable keys. Add a catalog and locale route when another language is ready. */
 export const english: Record<string, string> = {
+  "현재 로고": "Current logos",
+  "시기 미확인 로고": "Undated logos",
+  "이전 로고": "Previous logos",
+  "추가 다운로드": "Additional downloads",
   "📦 수집 원본 묶음":"📦 Collected source files",
   "마이페이지":"My account", "로그아웃":"Sign out", "관리":"Admin", "로그인":"Sign in",
   "로고 제보":"Submit a logo", "로고 요청":"Request a logo", "자주 묻는 질문":"FAQ",

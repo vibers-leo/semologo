@@ -271,6 +271,11 @@ export interface VariantRecord {
   source_url?: string;
   derived_from?: string;
   confidence?: number;
+  /** Explicitly reviewed artwork period; missing metadata means undated. */
+  historical?: boolean;
+  current_artwork?: boolean;
+  usage?: string;
+  light?: boolean;
   alts?: { provider: string; file: string }[];
 }
 
