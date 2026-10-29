@@ -1,0 +1,18 @@
+#!/usr/bin/env node
+/** Explicit localhost-only React UI fixture; never authenticates or calls live services. */
+const fs=require('node:fs'),path=require('node:path'),http=require('node:http'),ts=require('typescript');
+const root=process.cwd(),modules={},ids=new Map();let counter=0,css='';
+function pack(file){file=path.resolve(file);if(ids.has(file))return ids.get(file);const id=counter++;ids.set(file,id);modules[id]='';let code;
+ if(file.endsWith('.css')){const source=fs.readFileSync(file,'utf8');css+=source;const names=[...source.matchAll(/\.([A-Za-z_][\w-]*)/g)].map(x=>x[1]);code='module.exports='+JSON.stringify(Object.fromEntries(names.map(x=>[x,x])))+';';}
+ else if(file.endsWith('.json'))code='module.exports='+fs.readFileSync(file,'utf8')+';';
+ else{code=fs.readFileSync(file,'utf8');if(/\.tsx?$/.test(file))code=ts.transpileModule(code,{compilerOptions:{module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2022,jsx:ts.JsxEmit.ReactJSX,esModuleInterop:true}}).outputText;code=code.replace(/require\(["']([^"']+)["']\)/g,(full,name)=>{let resolved;if(name.startsWith('.')){const target=path.resolve(path.dirname(file),name);resolved=['','.ts','.tsx','.js','.json'].map(x=>target+x).find(x=>fs.existsSync(x)&&fs.statSync(x).isFile());}else if(name.startsWith('@/'))resolved=path.join(root,'src',name.slice(2)+'.ts');else resolved=require.resolve(name,{paths:[path.dirname(file)]});if(!resolved)throw Error('unresolved_fixture_dependency');return 'require('+pack(resolved)+')';});}
+ modules[id]='function(module,exports,require){\n'+code+'\n}';return id;
+}
+
+const card=pack(path.join(root,'src/components/CardLogo.tsx')),react=pack(require.resolve('react')),client=pack(require.resolve('react-dom/client'));
+const entry=`const React=require(${react}),{createRoot}=require(${client}),Card=require(${card}).default;createRoot(document.getElementById('root')).render(React.createElement('div',{className:'logo-card',style:{position:'relative',width:320,height:180,border:'1px solid #ccc'}},React.createElement(Card,{candidates:['/asset.png'],priority:true,alt:'Transient recovery fixture',failureLabel:'이미지를 준비하지 못했어요',retryLabel:'다시 불러오기'})));`;
+const script='(function(){const process={env:{NODE_ENV:"production"}},modules={'+Object.entries(modules).map(([id,code])=>JSON.stringify(id)+':'+code).join(',')+'},cache={};function require(id){if(cache[id])return cache[id].exports;const module=cache[id]={exports:{}};modules[id](module,module.exports,require);return module.exports;}'+entry+'})();';
+let start=0;const requests=[];
+const server=http.createServer((req,res)=>{res.setHeader('Cache-Control','no-store');const p=new URL(req.url,'http://localhost');if(p.pathname==='/fixture.js'){res.setHeader('Content-Type','text/javascript');return res.end(script)}if(p.pathname==='/asset.png'){if(!start)start=Date.now();const ms=Date.now()-start;const status=ms<15000?503:200;requests.push({ms,status,retry:p.searchParams.get('retry')});res.writeHead(status,{'Content-Type':'image/png','Access-Control-Allow-Origin':'*'});return res.end(status===200?Buffer.from('iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+jv1sAAAAASUVORK5CYII=','base64'):undefined)}if(p.pathname==='/results'){res.setHeader('Content-Type','application/json');return res.end(JSON.stringify({requests}))}res.setHeader('Content-Type','text/html');res.end('<!doctype html><meta charset="utf-8"><title>Logo recovery local fixture</title><h1>15초 실패 캐시 뒤 자동 복구 검증</h1><div id="root"></div><script src="/fixture.js"></script>')});
+server.listen(54306,'127.0.0.1',()=>console.log('Logo recovery fixture: http://127.0.0.1:54306/'));
+process.stdin.on('data',x=>{if(String(x).includes('q')){server.closeAllConnections();server.close(()=>process.exit(0))}});

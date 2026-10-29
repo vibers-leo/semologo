@@ -1,5 +1,5 @@
 import { applyReviewedAssets } from '@/lib/reviewed-logo-assets';
-import { prepareSvgPreview } from '@/lib/logo-svg-preview';
+import { prepareSvgRasterPreview } from '@/lib/logo-svg-raster-preview';
 import { readFile } from 'node:fs/promises';
 import { join } from 'node:path';
 import { SUBMITTED_BRANDS } from '@/lib/submissions';
@@ -72,7 +72,7 @@ async function render(id: string) {
     }
     const isPng = input.subarray(0, 8).equals(Buffer.from([137,80,78,71,13,10,26,10]));
     const isJpeg = input[0] === 255 && input[1] === 216 && input[2] === 255;
-    if (!isPng && !isJpeg) input = prepareSvgPreview(input);
+    if (!isPng && !isJpeg) input = await prepareSvgRasterPreview(input);
     const png = await sharp(input, { limitInputPixels: 16_000_000 }).resize(320, 180, { fit: 'contain', background: { r: 0, g: 0, b: 0, alpha: 0 } }).timeout({ seconds: 3 }).png().toBuffer();
     if (cache.size >= 128) cache.delete(cache.keys().next().value!);
     cache.set(id, png);
